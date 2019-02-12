@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-ichorcna'
 .. highlight: bash
-
 
 r-ichorcna
 ==========
@@ -21,11 +22,21 @@ r-ichorcna
 
    |downloads_r-ichorcna| |docker_r-ichorcna|
 
-   :versions: 0.1.0.20180710
-
-   :depends: :conda:package:`bioconductor-genomeinfodb` >=1.8.7 :conda:package:`bioconductor-hmmcopy` >=1.14.0 :conda:package:`libgfortran-ng`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-optparse`  :conda:package:`r-plyr`  
-
-   :required~by: |required_by_r-ichorcna|
+   :versions: 0.1.0.20180710-0
+   
+   :depends bioconductor-genomeinfodb: >=1.8.7
+   
+   :depends bioconductor-hmmcopy: >=1.14.0
+   
+   :depends libgfortran-ng: 
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-optparse: 
+   
+   :depends r-plyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-ichorcna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ichorcna
+      docker pull quay.io/repository/biocontainers/r-ichorcna:<tag>
+
+   (see `r-ichorcna/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-ichorcna| conda:required_by:: r-ichorcna
 .. |downloads_r-ichorcna| image:: https://img.shields.io/conda/dn/bioconda/r-ichorcna.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-ichorcna| image:: https://quay.io/repository/biocontainers/r-ichorcna/status
    :target: https://quay.io/repository/biocontainers/r-ichorcna
+.. _`r-ichorcna/tags`: https://quay.io/repository/biocontainers/r-ichorcna?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-ichorcna/README.html
-

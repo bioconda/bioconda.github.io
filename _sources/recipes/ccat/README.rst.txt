@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ccat'
 .. highlight: bash
-
 
 ccat
 ====
@@ -22,11 +23,9 @@ ccat
 
    |downloads_ccat| |docker_ccat|
 
-   :versions: 3.0
-
-   :depends: 
-
-   :required~by: |required_by_ccat|
+   :versions: 3.0-2, 3.0-1, 3.0-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +39,16 @@ ccat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ccat
+      docker pull quay.io/repository/biocontainers/ccat:<tag>
+
+   (see `ccat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ccat| conda:required_by:: ccat
 .. |downloads_ccat| image:: https://img.shields.io/conda/dn/bioconda/ccat.svg?style=flat
    :alt:   (downloads)
 .. |docker_ccat| image:: https://quay.io/repository/biocontainers/ccat/status
    :target: https://quay.io/repository/biocontainers/ccat
+.. _`ccat/tags`: https://quay.io/repository/biocontainers/ccat?tab=tags
 
 
 
@@ -64,4 +65,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ccat/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-funcisnp.data'
 .. highlight: bash
-
 
 bioconductor-funcisnp.data
 ==========================
@@ -21,11 +22,17 @@ bioconductor-funcisnp.data
 
    |downloads_bioconductor-funcisnp.data| |docker_bioconductor-funcisnp.data|
 
-   :versions: 1.18.0
-
-   :depends: :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-funcisnp.data|
+   :versions: 1.18.0-0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-funcisnp.data
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-funcisnp.data
+      docker pull quay.io/repository/biocontainers/bioconductor-funcisnp.data:<tag>
+
+   (see `bioconductor-funcisnp.data/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-funcisnp.data| conda:required_by:: bioconductor-funcisnp.data
 .. |downloads_bioconductor-funcisnp.data| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-funcisnp.data.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-funcisnp.data| image:: https://quay.io/repository/biocontainers/bioconductor-funcisnp.data/status
    :target: https://quay.io/repository/biocontainers/bioconductor-funcisnp.data
+.. _`bioconductor-funcisnp.data/tags`: https://quay.io/repository/biocontainers/bioconductor-funcisnp.data?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-funcisnp.data/README.html
-

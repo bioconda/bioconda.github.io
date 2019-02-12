@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-birta'
 .. highlight: bash
-
 
 bioconductor-birta
 ==================
@@ -22,11 +23,21 @@ bioconductor-birta
 
    |downloads_bioconductor-birta| |docker_bioconductor-birta|
 
-   :versions: 1.26.0, 1.24.0, 1.22.0, 1.20.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  
-
-   :required~by: |required_by_bioconductor-birta|
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mass: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-birta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-birta
+      docker pull quay.io/repository/biocontainers/bioconductor-birta:<tag>
+
+   (see `bioconductor-birta/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-birta| conda:required_by:: bioconductor-birta
 .. |downloads_bioconductor-birta| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-birta.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-birta| image:: https://quay.io/repository/biocontainers/bioconductor-birta/status
    :target: https://quay.io/repository/biocontainers/bioconductor-birta
+.. _`bioconductor-birta/tags`: https://quay.io/repository/biocontainers/bioconductor-birta?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-birta/README.html
-

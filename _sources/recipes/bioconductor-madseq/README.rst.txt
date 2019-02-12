@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-madseq'
 .. highlight: bash
-
 
 bioconductor-madseq
 ===================
@@ -22,11 +23,47 @@ bioconductor-madseq
 
    |downloads_bioconductor-madseq| |docker_bioconductor-madseq|
 
-   :versions: 1.6.1, 1.4.1
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.48.0,<2.50.0 :conda:package:`bioconductor-bsgenome` >=1.48.0,<1.50.0 :conda:package:`bioconductor-bsgenome.hsapiens.ucsc.hg19` >=1.4.0,<1.6.0 :conda:package:`bioconductor-genomeinfodb` >=1.16.0,<1.18.0 :conda:package:`bioconductor-genomicalignments` >=1.16.0,<1.18.0 :conda:package:`bioconductor-genomicranges` >=1.32.7,<1.34.0 :conda:package:`bioconductor-iranges` >=2.14.12,<2.16.0 :conda:package:`bioconductor-preprocesscore` >=1.42.0,<1.44.0 :conda:package:`bioconductor-rsamtools` >=1.32.3,<1.34.0 :conda:package:`bioconductor-rtracklayer` >=1.40.6,<1.42.0 :conda:package:`bioconductor-s4vectors` >=0.18.3,<0.20.0 :conda:package:`bioconductor-summarizedexperiment` >=1.10.1,<1.12.0 :conda:package:`bioconductor-variantannotation` >=1.26.1,<1.28.0 :conda:package:`bioconductor-zlibbioc` >=1.26.0,<1.28.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-coda`  :conda:package:`r-rjags` >=4-6 :conda:package:`r-vcfr`  :conda:package:`r-vgam`  
-
-   :required~by: |required_by_bioconductor-madseq|
+   :versions: 1.6.1-0, 1.4.1-0
+   
+   :depends bioconductor-biostrings: >=2.48.0,<2.50.0
+   
+   :depends bioconductor-bsgenome: >=1.48.0,<1.50.0
+   
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: >=1.4.0,<1.6.0
+   
+   :depends bioconductor-genomeinfodb: >=1.16.0,<1.18.0
+   
+   :depends bioconductor-genomicalignments: >=1.16.0,<1.18.0
+   
+   :depends bioconductor-genomicranges: >=1.32.7,<1.34.0
+   
+   :depends bioconductor-iranges: >=2.14.12,<2.16.0
+   
+   :depends bioconductor-preprocesscore: >=1.42.0,<1.44.0
+   
+   :depends bioconductor-rsamtools: >=1.32.3,<1.34.0
+   
+   :depends bioconductor-rtracklayer: >=1.40.6,<1.42.0
+   
+   :depends bioconductor-s4vectors: >=0.18.3,<0.20.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.10.1,<1.12.0
+   
+   :depends bioconductor-variantannotation: >=1.26.1,<1.28.0
+   
+   :depends bioconductor-zlibbioc: >=1.26.0,<1.28.0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-coda: 
+   
+   :depends r-rjags: >=4-6
+   
+   :depends r-vcfr: 
+   
+   :depends r-vgam: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +77,16 @@ bioconductor-madseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-madseq
+      docker pull quay.io/repository/biocontainers/bioconductor-madseq:<tag>
+
+   (see `bioconductor-madseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-madseq| conda:required_by:: bioconductor-madseq
 .. |downloads_bioconductor-madseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-madseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-madseq| image:: https://quay.io/repository/biocontainers/bioconductor-madseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-madseq
+.. _`bioconductor-madseq/tags`: https://quay.io/repository/biocontainers/bioconductor-madseq?tab=tags
 
 
 
@@ -64,4 +103,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-madseq/README.html
-

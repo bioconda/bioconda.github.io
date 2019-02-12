@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sparse-neighbors-search'
 .. highlight: bash
-
 
 sparse-neighbors-search
 =======================
@@ -21,11 +22,21 @@ sparse-neighbors-search
 
    |downloads_sparse-neighbors-search| |docker_sparse-neighbors-search|
 
-   :versions: 0.3, 0.2.3
-
-   :depends: :conda:package:`cython`  :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`scikit-learn`  :conda:package:`scipy`  
-
-   :required~by: |required_by_sparse-neighbors-search|
+   :versions: 0.3-1, 0.3-0, 0.2.3-0
+   
+   :depends cython: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ sparse-neighbors-search
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sparse-neighbors-search
+      docker pull quay.io/repository/biocontainers/sparse-neighbors-search:<tag>
+
+   (see `sparse-neighbors-search/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sparse-neighbors-search| conda:required_by:: sparse-neighbors-search
 .. |downloads_sparse-neighbors-search| image:: https://img.shields.io/conda/dn/bioconda/sparse-neighbors-search.svg?style=flat
    :alt:   (downloads)
 .. |docker_sparse-neighbors-search| image:: https://quay.io/repository/biocontainers/sparse-neighbors-search/status
    :target: https://quay.io/repository/biocontainers/sparse-neighbors-search
+.. _`sparse-neighbors-search/tags`: https://quay.io/repository/biocontainers/sparse-neighbors-search?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sparse-neighbors-search/README.html
-

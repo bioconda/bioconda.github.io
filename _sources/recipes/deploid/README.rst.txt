@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'deploid'
 .. highlight: bash
-
 
 deploid
 =======
@@ -22,11 +23,11 @@ deploid
 
    |downloads_deploid| |docker_deploid|
 
-   :versions: v0.5
-
-   :depends: :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_deploid|
+   :versions: v0.5-1, v0.5-0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ deploid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/deploid
+      docker pull quay.io/repository/biocontainers/deploid:<tag>
+
+   (see `deploid/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_deploid| conda:required_by:: deploid
 .. |downloads_deploid| image:: https://img.shields.io/conda/dn/bioconda/deploid.svg?style=flat
    :alt:   (downloads)
 .. |docker_deploid| image:: https://quay.io/repository/biocontainers/deploid/status
    :target: https://quay.io/repository/biocontainers/deploid
+.. _`deploid/tags`: https://quay.io/repository/biocontainers/deploid?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/deploid/README.html
-

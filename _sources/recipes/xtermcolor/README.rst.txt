@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'xtermcolor'
 .. highlight: bash
-
 
 xtermcolor
 ==========
@@ -21,11 +22,11 @@ xtermcolor
 
    |downloads_xtermcolor| |docker_xtermcolor|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_xtermcolor|
+   :versions: 1.3-1, 1.3-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ xtermcolor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xtermcolor
+      docker pull quay.io/repository/biocontainers/xtermcolor:<tag>
+
+   (see `xtermcolor/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_xtermcolor| conda:required_by:: xtermcolor
 .. |downloads_xtermcolor| image:: https://img.shields.io/conda/dn/bioconda/xtermcolor.svg?style=flat
    :alt:   (downloads)
 .. |docker_xtermcolor| image:: https://quay.io/repository/biocontainers/xtermcolor/status
    :target: https://quay.io/repository/biocontainers/xtermcolor
+.. _`xtermcolor/tags`: https://quay.io/repository/biocontainers/xtermcolor?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/xtermcolor/README.html
-

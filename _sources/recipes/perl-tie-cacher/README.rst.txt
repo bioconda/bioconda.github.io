@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-tie-cacher'
 .. highlight: bash
-
 
 perl-tie-cacher
 ===============
@@ -21,11 +22,13 @@ perl-tie-cacher
 
    |downloads_perl-tie-cacher| |docker_perl-tie-cacher|
 
-   :versions: 0.09
-
-   :depends: :conda:package:`perl-test-simple`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-tie-cacher|
+   :versions: 0.09-3, 0.09-2, 0.09-1
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-test-simple: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-tie-cacher
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-tie-cacher
+      docker pull quay.io/repository/biocontainers/perl-tie-cacher:<tag>
+
+   (see `perl-tie-cacher/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-tie-cacher| conda:required_by:: perl-tie-cacher
 .. |downloads_perl-tie-cacher| image:: https://img.shields.io/conda/dn/bioconda/perl-tie-cacher.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-tie-cacher| image:: https://quay.io/repository/biocontainers/perl-tie-cacher/status
    :target: https://quay.io/repository/biocontainers/perl-tie-cacher
+.. _`perl-tie-cacher/tags`: https://quay.io/repository/biocontainers/perl-tie-cacher?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-tie-cacher/README.html
-

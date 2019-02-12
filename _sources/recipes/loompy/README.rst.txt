@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'loompy'
 .. highlight: bash
-
 
 loompy
 ======
@@ -21,11 +22,21 @@ loompy
 
    |downloads_loompy| |docker_loompy|
 
-   :versions: 2.0.16, 2.0.10, 2.0.9, 1.1.0, 1.0.2
-
-   :depends: :conda:package:`h5py`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=3.6 :conda:package:`scipy`  :conda:package:`typing`  
-
-   :required~by: |required_by_loompy|
+   :versions: 2.0.16-0, 2.0.10-0, 2.0.9-0, 1.1.0-0, 1.0.2-0
+   
+   :depends h5py: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=3.6
+   
+   :depends scipy: 
+   
+   :depends typing: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ loompy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/loompy
+      docker pull quay.io/repository/biocontainers/loompy:<tag>
+
+   (see `loompy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_loompy| conda:required_by:: loompy
 .. |downloads_loompy| image:: https://img.shields.io/conda/dn/bioconda/loompy.svg?style=flat
    :alt:   (downloads)
 .. |docker_loompy| image:: https://quay.io/repository/biocontainers/loompy/status
    :target: https://quay.io/repository/biocontainers/loompy
+.. _`loompy/tags`: https://quay.io/repository/biocontainers/loompy?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/loompy/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastx_toolkit'
 .. highlight: bash
-
 
 fastx_toolkit
 =============
@@ -37,11 +38,27 @@ fastx_toolkit
 
    |downloads_fastx_toolkit| |docker_fastx_toolkit|
 
-   :versions: 0.0.14
-
-   :depends: :conda:package:`cython`  :conda:package:`libgtextutils`  :conda:package:`nose`  
-
-   :required~by: |required_by_fastx_toolkit|
+   :versions: 0.0.14-7, 0.0.14-6, 0.0.14-5, 0.0.14-4, 0.0.14-3, 0.0.14-2, 0.0.14-1, 0.0.14-0
+   
+   :depends cython: 
+   
+   :depends gnuplot: >=5.0.5
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libgtextutils: 
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: 
+   
+   :depends perl-gd: 
+   
+   :depends perl-gdgraph-histogram: 
+   
+   :depends perl-perlio-gzip: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -55,14 +72,16 @@ fastx_toolkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastx_toolkit
+      docker pull quay.io/repository/biocontainers/fastx_toolkit:<tag>
+
+   (see `fastx_toolkit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastx_toolkit| conda:required_by:: fastx_toolkit
 .. |downloads_fastx_toolkit| image:: https://img.shields.io/conda/dn/bioconda/fastx_toolkit.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastx_toolkit| image:: https://quay.io/repository/biocontainers/fastx_toolkit/status
    :target: https://quay.io/repository/biocontainers/fastx_toolkit
+.. _`fastx_toolkit/tags`: https://quay.io/repository/biocontainers/fastx_toolkit?tab=tags
 
 
 
@@ -79,4 +98,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastx_toolkit/README.html
-

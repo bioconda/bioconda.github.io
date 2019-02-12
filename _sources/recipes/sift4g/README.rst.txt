@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sift4g'
 .. highlight: bash
-
 
 sift4g
 ======
@@ -21,11 +22,11 @@ sift4g
 
    |downloads_sift4g| |docker_sift4g|
 
-   :versions: 2.0.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_sift4g|
+   :versions: 2.0.0-1, 2.0.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ sift4g
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sift4g
+      docker pull quay.io/repository/biocontainers/sift4g:<tag>
+
+   (see `sift4g/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sift4g| conda:required_by:: sift4g
 .. |downloads_sift4g| image:: https://img.shields.io/conda/dn/bioconda/sift4g.svg?style=flat
    :alt:   (downloads)
 .. |docker_sift4g| image:: https://quay.io/repository/biocontainers/sift4g/status
    :target: https://quay.io/repository/biocontainers/sift4g
+.. _`sift4g/tags`: https://quay.io/repository/biocontainers/sift4g?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sift4g/README.html
-

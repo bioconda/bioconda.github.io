@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-duoclustering2018'
 .. highlight: bash
-
 
 bioconductor-duoclustering2018
 ==============================
@@ -21,11 +22,33 @@ bioconductor-duoclustering2018
 
    |downloads_bioconductor-duoclustering2018| |docker_bioconductor-duoclustering2018|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-experimenthub` >=1.8.0,<1.9.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-ggthemes`  :conda:package:`r-magrittr`  :conda:package:`r-mclust`  :conda:package:`r-purrr`  :conda:package:`r-reshape2`  :conda:package:`r-tidyr`  :conda:package:`r-viridis`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-duoclustering2018|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggthemes: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-mclust: 
+   
+   :depends r-purrr: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-tidyr: 
+   
+   :depends r-viridis: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ bioconductor-duoclustering2018
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-duoclustering2018
+      docker pull quay.io/repository/biocontainers/bioconductor-duoclustering2018:<tag>
+
+   (see `bioconductor-duoclustering2018/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-duoclustering2018| conda:required_by:: bioconductor-duoclustering2018
 .. |downloads_bioconductor-duoclustering2018| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-duoclustering2018.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-duoclustering2018| image:: https://quay.io/repository/biocontainers/bioconductor-duoclustering2018/status
    :target: https://quay.io/repository/biocontainers/bioconductor-duoclustering2018
+.. _`bioconductor-duoclustering2018/tags`: https://quay.io/repository/biocontainers/bioconductor-duoclustering2018?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-duoclustering2018/README.html
-

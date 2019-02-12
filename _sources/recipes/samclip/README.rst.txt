@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'samclip'
 .. highlight: bash
-
 
 samclip
 =======
@@ -21,11 +22,11 @@ samclip
 
    |downloads_samclip| |docker_samclip|
 
-   :versions: 0.2
-
-   :depends: :conda:package:`perl`  
-
-   :required~by: |required_by_samclip|
+   :versions: 0.2-1, 0.2-0
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ samclip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/samclip
+      docker pull quay.io/repository/biocontainers/samclip:<tag>
+
+   (see `samclip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_samclip| conda:required_by:: samclip
 .. |downloads_samclip| image:: https://img.shields.io/conda/dn/bioconda/samclip.svg?style=flat
    :alt:   (downloads)
 .. |docker_samclip| image:: https://quay.io/repository/biocontainers/samclip/status
    :target: https://quay.io/repository/biocontainers/samclip
+.. _`samclip/tags`: https://quay.io/repository/biocontainers/samclip?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/samclip/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kaptive'
 .. highlight: bash
-
 
 kaptive
 =======
@@ -21,11 +22,15 @@ kaptive
 
    |downloads_kaptive| |docker_kaptive|
 
-   :versions: 0.5.1, 0.3, 0.2
-
-   :depends: :conda:package:`biopython` ==1.68 :conda:package:`blast` ==2.2.31 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_kaptive|
+   :versions: 0.5.1-2, 0.5.1-0, 0.3-0, 0.2-0
+   
+   :depends biopython: 1.68
+   
+   :depends blast: 2.2.31
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ kaptive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kaptive
+      docker pull quay.io/repository/biocontainers/kaptive:<tag>
+
+   (see `kaptive/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kaptive| conda:required_by:: kaptive
 .. |downloads_kaptive| image:: https://img.shields.io/conda/dn/bioconda/kaptive.svg?style=flat
    :alt:   (downloads)
 .. |docker_kaptive| image:: https://quay.io/repository/biocontainers/kaptive/status
    :target: https://quay.io/repository/biocontainers/kaptive
+.. _`kaptive/tags`: https://quay.io/repository/biocontainers/kaptive?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kaptive/README.html
-

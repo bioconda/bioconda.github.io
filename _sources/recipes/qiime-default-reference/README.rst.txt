@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'qiime-default-reference'
 .. highlight: bash
-
 
 qiime-default-reference
 =======================
@@ -21,11 +22,13 @@ qiime-default-reference
 
    |downloads_qiime-default-reference| |docker_qiime-default-reference|
 
-   :versions: 0.1.3
-
-   :depends: :conda:package:`python` 2.7* :conda:package:`six`  
-
-   :required~by: |required_by_qiime-default-reference|
+   :versions: 0.1.3-1, 0.1.3-0
+   
+   :depends python: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ qiime-default-reference
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/qiime-default-reference
+      docker pull quay.io/repository/biocontainers/qiime-default-reference:<tag>
+
+   (see `qiime-default-reference/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_qiime-default-reference| conda:required_by:: qiime-default-reference
 .. |downloads_qiime-default-reference| image:: https://img.shields.io/conda/dn/bioconda/qiime-default-reference.svg?style=flat
    :alt:   (downloads)
 .. |docker_qiime-default-reference| image:: https://quay.io/repository/biocontainers/qiime-default-reference/status
    :target: https://quay.io/repository/biocontainers/qiime-default-reference
+.. _`qiime-default-reference/tags`: https://quay.io/repository/biocontainers/qiime-default-reference?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/qiime-default-reference/README.html
-

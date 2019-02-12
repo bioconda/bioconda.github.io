@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-hpc-runner-command'
 .. highlight: bash
-
 
 perl-hpc-runner-command
 =======================
@@ -21,11 +22,99 @@ perl-hpc-runner-command
 
    |downloads_perl-hpc-runner-command| |docker_perl-hpc-runner-command|
 
-   :versions: 3.2.13, 3.2.11, 3.2.10, 3.2.9, 3.2.8, 3.2.7, 3.2.6, 3.2.5, 3.2.4, 3.2.2, 3.2.0, 3.1.4, 3.1.1, 3.0.1
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-algorithm-dependency`  :conda:package:`perl-app-cpanminus`  :conda:package:`perl-archive-tar`  :conda:package:`perl-array-compare`  :conda:package:`perl-datetime`  :conda:package:`perl-datetime`  :conda:package:`perl-dbm-deep`  :conda:package:`perl-file-find-rule`  :conda:package:`perl-file-homedir`  :conda:package:`perl-file-path`  :conda:package:`perl-file-slurp`  :conda:package:`perl-git-wrapper`  :conda:package:`perl-git-wrapper-plus`  :conda:package:`perl-io-interactive`  :conda:package:`perl-json`  :conda:package:`perl-json-xs`  :conda:package:`perl-list-moreutils` >=0.428 :conda:package:`perl-list-uniq`  :conda:package:`perl-log-log4perl`  :conda:package:`perl-mce`  :conda:package:`perl-mce`  :conda:package:`perl-moose`  :conda:package:`perl-moosex-app`  :conda:package:`perl-moosex-app-role-log4perl`  :conda:package:`perl-moosex-getopt`  :conda:package:`perl-moosex-nonmoose`  :conda:package:`perl-moosex-types`  :conda:package:`perl-moosex-types-path-tiny`  :conda:package:`perl-namespace-autoclean`  :conda:package:`perl-number-compare`  :conda:package:`perl-params-validate`  :conda:package:`perl-params-validate`  :conda:package:`perl-path-tiny`  :conda:package:`perl-sort-versions`  :conda:package:`perl-string-approx`  :conda:package:`perl-template-toolkit`  :conda:package:`perl-text-ansitable`  :conda:package:`perl-text-asciitable`  :conda:package:`perl-try-tiny`  :conda:package:`perl-type-tiny`  :conda:package:`perl-types-standard`  :conda:package:`perl-version-next`  :conda:package:`perl-yaml`  :conda:package:`perl-yaml-libyaml`  
-
-   :required~by: |required_by_perl-hpc-runner-command|
+   :versions: 3.2.13-0, 3.2.11-0, 3.2.10-0, 3.2.9-0, 3.2.8-0, 3.2.7-0, 3.2.6-0, 3.2.5-0, 3.2.4-0, 3.2.2-0, 3.2.0-1, 3.2.0-0, 3.1.4-1, 3.1.4-0, 3.1.1-0, 3.0.1-1
+   
+   :depends perl: 5.22.0*
+   
+   :depends perl-algorithm-dependency: 
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-archive-tar: 
+   
+   :depends perl-array-compare: 
+   
+   :depends perl-datetime: 
+   
+   :depends perl-datetime: 
+   
+   :depends perl-dbm-deep: 
+   
+   :depends perl-file-find-rule: 
+   
+   :depends perl-file-homedir: 
+   
+   :depends perl-file-path: 
+   
+   :depends perl-file-slurp: 
+   
+   :depends perl-git-wrapper: 
+   
+   :depends perl-git-wrapper-plus: 
+   
+   :depends perl-io-interactive: 
+   
+   :depends perl-json: 
+   
+   :depends perl-json-xs: 
+   
+   :depends perl-list-moreutils: >=0.428
+   
+   :depends perl-list-uniq: 
+   
+   :depends perl-log-log4perl: 
+   
+   :depends perl-mce: 
+   
+   :depends perl-mce: 
+   
+   :depends perl-moose: 
+   
+   :depends perl-moosex-app: 
+   
+   :depends perl-moosex-app-role-log4perl: 
+   
+   :depends perl-moosex-getopt: 
+   
+   :depends perl-moosex-nonmoose: 
+   
+   :depends perl-moosex-types: 
+   
+   :depends perl-moosex-types-path-tiny: 
+   
+   :depends perl-namespace-autoclean: 
+   
+   :depends perl-number-compare: 
+   
+   :depends perl-params-validate: 
+   
+   :depends perl-params-validate: 
+   
+   :depends perl-path-tiny: 
+   
+   :depends perl-sort-versions: 
+   
+   :depends perl-string-approx: 
+   
+   :depends perl-template-toolkit: 
+   
+   :depends perl-text-ansitable: 
+   
+   :depends perl-text-asciitable: 
+   
+   :depends perl-try-tiny: 
+   
+   :depends perl-type-tiny: 
+   
+   :depends perl-types-standard: 
+   
+   :depends perl-version-next: 
+   
+   :depends perl-yaml: 
+   
+   :depends perl-yaml-libyaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +128,16 @@ perl-hpc-runner-command
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-hpc-runner-command
+      docker pull quay.io/repository/biocontainers/perl-hpc-runner-command:<tag>
+
+   (see `perl-hpc-runner-command/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-hpc-runner-command| conda:required_by:: perl-hpc-runner-command
 .. |downloads_perl-hpc-runner-command| image:: https://img.shields.io/conda/dn/bioconda/perl-hpc-runner-command.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-hpc-runner-command| image:: https://quay.io/repository/biocontainers/perl-hpc-runner-command/status
    :target: https://quay.io/repository/biocontainers/perl-hpc-runner-command
+.. _`perl-hpc-runner-command/tags`: https://quay.io/repository/biocontainers/perl-hpc-runner-command?tab=tags
 
 
 
@@ -63,4 +154,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-hpc-runner-command/README.html
-

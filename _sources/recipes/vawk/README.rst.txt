@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vawk'
 .. highlight: bash
-
 
 vawk
 ====
@@ -21,11 +22,13 @@ vawk
 
    |downloads_vawk| |docker_vawk|
 
-   :versions: 0.0.2
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_vawk|
+   :versions: 0.0.2-4, 0.0.2-3, 0.0.2-1, 0.0.2-0
+   
+   :depends gawk: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ vawk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vawk
+      docker pull quay.io/repository/biocontainers/vawk:<tag>
+
+   (see `vawk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vawk| conda:required_by:: vawk
 .. |downloads_vawk| image:: https://img.shields.io/conda/dn/bioconda/vawk.svg?style=flat
    :alt:   (downloads)
 .. |docker_vawk| image:: https://quay.io/repository/biocontainers/vawk/status
    :target: https://quay.io/repository/biocontainers/vawk
+.. _`vawk/tags`: https://quay.io/repository/biocontainers/vawk?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vawk/README.html
-

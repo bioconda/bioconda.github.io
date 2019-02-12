@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-array-compare'
 .. highlight: bash
-
 
 perl-array-compare
 ==================
@@ -21,11 +22,17 @@ perl-array-compare
 
    |downloads_perl-array-compare| |docker_perl-array-compare|
 
-   :versions: 3.0.1, 2.11
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-moo`  :conda:package:`perl-types-standard`  
-
-   :required~by: |required_by_perl-array-compare|
+   :versions: 3.0.1-1, 3.0.1-0, 2.11-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-moo: 
+   
+   :depends perl-type-tiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-array-compare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-array-compare
+      docker pull quay.io/repository/biocontainers/perl-array-compare:<tag>
+
+   (see `perl-array-compare/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-array-compare| conda:required_by:: perl-array-compare
 .. |downloads_perl-array-compare| image:: https://img.shields.io/conda/dn/bioconda/perl-array-compare.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-array-compare| image:: https://quay.io/repository/biocontainers/perl-array-compare/status
    :target: https://quay.io/repository/biocontainers/perl-array-compare
+.. _`perl-array-compare/tags`: https://quay.io/repository/biocontainers/perl-array-compare?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-array-compare/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tadarida-d'
 .. highlight: bash
-
 
 tadarida-d
 ==========
@@ -21,11 +22,33 @@ tadarida-d
 
    |downloads_tadarida-d| |docker_tadarida-d|
 
-   :versions: 1.03, 1.02, 1.01, 1.0
-
-   :depends: :conda:package:`fftw` 3.3.4 :conda:package:`libgcc`  :conda:package:`libsndfile` 1.0.27 :conda:package:`qt` 4.8.7 :conda:package:`xorg-libsm`  :conda:package:`xorg-libx11`  :conda:package:`xorg-libxau`  :conda:package:`xorg-libxdmcp`  :conda:package:`xorg-libxext`  :conda:package:`xorg-libxrender`  :conda:package:`zlib`  
-
-   :required~by: |required_by_tadarida-d|
+   :versions: 1.03-3, 1.03-1, 1.03-0, 1.02-0, 1.01-0, 1.0-0
+   
+   :depends fftw: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libsndfile: 
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends qt: >=4.8.7,<4.9.0a0
+   
+   :depends xorg-libsm: 
+   
+   :depends xorg-libx11: 
+   
+   :depends xorg-libxau: 
+   
+   :depends xorg-libxdmcp: 
+   
+   :depends xorg-libxext: 
+   
+   :depends xorg-libxrender: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ tadarida-d
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tadarida-d
+      docker pull quay.io/repository/biocontainers/tadarida-d:<tag>
+
+   (see `tadarida-d/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tadarida-d| conda:required_by:: tadarida-d
 .. |downloads_tadarida-d| image:: https://img.shields.io/conda/dn/bioconda/tadarida-d.svg?style=flat
    :alt:   (downloads)
 .. |docker_tadarida-d| image:: https://quay.io/repository/biocontainers/tadarida-d/status
    :target: https://quay.io/repository/biocontainers/tadarida-d
+.. _`tadarida-d/tags`: https://quay.io/repository/biocontainers/tadarida-d?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tadarida-d/README.html
-

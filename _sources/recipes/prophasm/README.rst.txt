@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'prophasm'
 .. highlight: bash
-
 
 prophasm
 ========
@@ -21,11 +22,13 @@ prophasm
 
    |downloads_prophasm| |docker_prophasm|
 
-   :versions: 0.1.0
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_prophasm|
+   :versions: 0.1.0-4, 0.1.0-3
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ prophasm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prophasm
+      docker pull quay.io/repository/biocontainers/prophasm:<tag>
+
+   (see `prophasm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_prophasm| conda:required_by:: prophasm
 .. |downloads_prophasm| image:: https://img.shields.io/conda/dn/bioconda/prophasm.svg?style=flat
    :alt:   (downloads)
 .. |docker_prophasm| image:: https://quay.io/repository/biocontainers/prophasm/status
    :target: https://quay.io/repository/biocontainers/prophasm
+.. _`prophasm/tags`: https://quay.io/repository/biocontainers/prophasm?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/prophasm/README.html
-

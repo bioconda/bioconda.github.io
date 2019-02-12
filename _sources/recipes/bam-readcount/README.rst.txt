@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bam-readcount'
 .. highlight: bash
-
 
 bam-readcount
 =============
@@ -21,11 +22,19 @@ bam-readcount
 
    |downloads_bam-readcount| |docker_bam-readcount|
 
-   :versions: 0.8
-
-   :depends: :conda:package:`libgcc`  :conda:package:`ncurses`  :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* :conda:package:`zlib`  
-
-   :required~by: |required_by_bam-readcount|
+   :versions: 0.8-3, 0.8-2, 0.8-1
+   
+   :depends libgcc: 
+   
+   :depends ncurses: 5.9*
+   
+   :depends perl: 5.22.0*
+   
+   :depends python: 2.7*
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bam-readcount
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bam-readcount
+      docker pull quay.io/repository/biocontainers/bam-readcount:<tag>
+
+   (see `bam-readcount/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bam-readcount| conda:required_by:: bam-readcount
 .. |downloads_bam-readcount| image:: https://img.shields.io/conda/dn/bioconda/bam-readcount.svg?style=flat
    :alt:   (downloads)
 .. |docker_bam-readcount| image:: https://quay.io/repository/biocontainers/bam-readcount/status
    :target: https://quay.io/repository/biocontainers/bam-readcount
+.. _`bam-readcount/tags`: https://quay.io/repository/biocontainers/bam-readcount?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bam-readcount/README.html
-

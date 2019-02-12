@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-yarn'
 .. highlight: bash
-
 
 bioconductor-yarn
 =================
@@ -22,11 +23,33 @@ bioconductor-yarn
 
    |downloads_bioconductor-yarn| |docker_bioconductor-yarn|
 
-   :versions: 1.8.0, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`bioconductor-quantro` >=1.16.0,<1.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-downloader`  :conda:package:`r-gplots`  :conda:package:`r-matrixstats`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-readr`  
-
-   :required~by: |required_by_bioconductor-yarn|
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-quantro: >=1.16.0,<1.17.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-downloader: 
+   
+   :depends r-gplots: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-readr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +63,16 @@ bioconductor-yarn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-yarn
+      docker pull quay.io/repository/biocontainers/bioconductor-yarn:<tag>
+
+   (see `bioconductor-yarn/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-yarn| conda:required_by:: bioconductor-yarn
 .. |downloads_bioconductor-yarn| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yarn.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-yarn| image:: https://quay.io/repository/biocontainers/bioconductor-yarn/status
    :target: https://quay.io/repository/biocontainers/bioconductor-yarn
+.. _`bioconductor-yarn/tags`: https://quay.io/repository/biocontainers/bioconductor-yarn?tab=tags
 
 
 
@@ -64,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-yarn/README.html
-

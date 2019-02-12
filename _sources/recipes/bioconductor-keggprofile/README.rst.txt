@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-keggprofile'
 .. highlight: bash
-
 
 bioconductor-keggprofile
 ========================
@@ -21,11 +22,27 @@ bioconductor-keggprofile
 
    |downloads_bioconductor-keggprofile| |docker_bioconductor-keggprofile|
 
-   :versions: 1.24.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-kegg.db` >=3.2.0,<3.3.0 :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-png`  :conda:package:`r-rcurl`  :conda:package:`r-teachingdemos`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-keggprofile|
+   :versions: 1.24.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-kegg.db: >=3.2.0,<3.3.0
+   
+   :depends bioconductor-keggrest: >=1.22.0,<1.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-png: 
+   
+   :depends r-rcurl: 
+   
+   :depends r-teachingdemos: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-keggprofile
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-keggprofile
+      docker pull quay.io/repository/biocontainers/bioconductor-keggprofile:<tag>
+
+   (see `bioconductor-keggprofile/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-keggprofile| conda:required_by:: bioconductor-keggprofile
 .. |downloads_bioconductor-keggprofile| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-keggprofile.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-keggprofile| image:: https://quay.io/repository/biocontainers/bioconductor-keggprofile/status
    :target: https://quay.io/repository/biocontainers/bioconductor-keggprofile
+.. _`bioconductor-keggprofile/tags`: https://quay.io/repository/biocontainers/bioconductor-keggprofile?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-keggprofile/README.html
-

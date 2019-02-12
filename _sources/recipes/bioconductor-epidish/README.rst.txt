@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-epidish'
 .. highlight: bash
-
 
 bioconductor-epidish
 ====================
@@ -21,11 +22,17 @@ bioconductor-epidish
 
    |downloads_bioconductor-epidish| |docker_bioconductor-epidish|
 
-   :versions: 1.4.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-mass`  :conda:package:`r-quadprog`  
-
-   :required~by: |required_by_bioconductor-epidish|
+   :versions: 1.4.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-e1071: 
+   
+   :depends r-mass: 
+   
+   :depends r-quadprog: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-epidish
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-epidish
+      docker pull quay.io/repository/biocontainers/bioconductor-epidish:<tag>
+
+   (see `bioconductor-epidish/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-epidish| conda:required_by:: bioconductor-epidish
 .. |downloads_bioconductor-epidish| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-epidish.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-epidish| image:: https://quay.io/repository/biocontainers/bioconductor-epidish/status
    :target: https://quay.io/repository/biocontainers/bioconductor-epidish
+.. _`bioconductor-epidish/tags`: https://quay.io/repository/biocontainers/bioconductor-epidish?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-epidish/README.html
-

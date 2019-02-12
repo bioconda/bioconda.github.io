@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-paircompviz'
 .. highlight: bash
-
 
 bioconductor-paircompviz
 ========================
@@ -22,11 +23,13 @@ bioconductor-paircompviz
 
    |downloads_bioconductor-paircompviz| |docker_bioconductor-paircompviz|
 
-   :versions: 1.20.0, 1.18.0, 1.16.0, 1.14.0
-
-   :depends: :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-paircompviz|
+   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   
+   :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-paircompviz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-paircompviz
+      docker pull quay.io/repository/biocontainers/bioconductor-paircompviz:<tag>
+
+   (see `bioconductor-paircompviz/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-paircompviz| conda:required_by:: bioconductor-paircompviz
 .. |downloads_bioconductor-paircompviz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-paircompviz.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-paircompviz| image:: https://quay.io/repository/biocontainers/bioconductor-paircompviz/status
    :target: https://quay.io/repository/biocontainers/bioconductor-paircompviz
+.. _`bioconductor-paircompviz/tags`: https://quay.io/repository/biocontainers/bioconductor-paircompviz?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-paircompviz/README.html
-

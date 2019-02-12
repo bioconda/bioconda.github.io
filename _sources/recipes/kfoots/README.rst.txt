@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kfoots'
 .. highlight: bash
-
 
 kfoots
 ======
@@ -21,11 +22,15 @@ kfoots
 
    |downloads_kfoots| |docker_kfoots|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-rcpp` >=0.10.6 
-
-   :required~by: |required_by_kfoots|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-rcpp: >=0.10.6
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ kfoots
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kfoots
+      docker pull quay.io/repository/biocontainers/kfoots:<tag>
+
+   (see `kfoots/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kfoots| conda:required_by:: kfoots
 .. |downloads_kfoots| image:: https://img.shields.io/conda/dn/bioconda/kfoots.svg?style=flat
    :alt:   (downloads)
 .. |docker_kfoots| image:: https://quay.io/repository/biocontainers/kfoots/status
    :target: https://quay.io/repository/biocontainers/kfoots
+.. _`kfoots/tags`: https://quay.io/repository/biocontainers/kfoots?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kfoots/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'combined-pvalues'
 .. highlight: bash
-
 
 combined-pvalues
 ================
@@ -23,11 +24,19 @@ combined-pvalues
 
    |downloads_combined-pvalues| |docker_combined-pvalues|
 
-   :versions: 0.48, 0.46
-
-   :depends: :conda:package:`interlap`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`scipy`  :conda:package:`toolshed`  
-
-   :required~by: |required_by_combined-pvalues|
+   :versions: 0.48-2, 0.48-0, 0.46-0
+   
+   :depends interlap: 
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :depends toolshed: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +50,16 @@ combined-pvalues
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/combined-pvalues
+      docker pull quay.io/repository/biocontainers/combined-pvalues:<tag>
+
+   (see `combined-pvalues/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_combined-pvalues| conda:required_by:: combined-pvalues
 .. |downloads_combined-pvalues| image:: https://img.shields.io/conda/dn/bioconda/combined-pvalues.svg?style=flat
    :alt:   (downloads)
 .. |docker_combined-pvalues| image:: https://quay.io/repository/biocontainers/combined-pvalues/status
    :target: https://quay.io/repository/biocontainers/combined-pvalues
+.. _`combined-pvalues/tags`: https://quay.io/repository/biocontainers/combined-pvalues?tab=tags
 
 
 
@@ -65,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/combined-pvalues/README.html
-

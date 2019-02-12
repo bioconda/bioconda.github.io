@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sam'
 .. highlight: bash
-
 
 sam
 ===
@@ -21,11 +22,9 @@ sam
 
    |downloads_sam| |docker_sam|
 
-   :versions: 3.5
-
-   :depends: 
-
-   :required~by: |required_by_sam|
+   :versions: 3.5-1, 3.5-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ sam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sam
+      docker pull quay.io/repository/biocontainers/sam:<tag>
+
+   (see `sam/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sam| conda:required_by:: sam
 .. |downloads_sam| image:: https://img.shields.io/conda/dn/bioconda/sam.svg?style=flat
    :alt:   (downloads)
 .. |docker_sam| image:: https://quay.io/repository/biocontainers/sam/status
    :target: https://quay.io/repository/biocontainers/sam
+.. _`sam/tags`: https://quay.io/repository/biocontainers/sam?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sam/README.html
-

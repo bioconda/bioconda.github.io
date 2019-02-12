@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-dchiprep'
 .. highlight: bash
-
 
 bioconductor-dchiprep
 =====================
@@ -22,11 +23,39 @@ bioconductor-dchiprep
 
    |downloads_bioconductor-dchiprep| |docker_bioconductor-dchiprep|
 
-   :versions: 1.12.0, 1.10.0, 1.8.0
-
-   :depends: :conda:package:`bioconductor-chippeakanno` >=3.16.0,<3.17.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-soggi` >=1.14.0,<1.15.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-assertthat`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fdrtool`  :conda:package:`r-ggplot2`  :conda:package:`r-plyr`  :conda:package:`r-purrr`  :conda:package:`r-reshape2`  :conda:package:`r-smoothmest`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_bioconductor-dchiprep|
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0
+   
+   :depends bioconductor-chippeakanno: >=3.16.0,<3.17.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-soggi: >=1.14.0,<1.15.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-assertthat: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-fdrtool: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-plyr: 
+   
+   :depends r-purrr: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-smoothmest: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +69,16 @@ bioconductor-dchiprep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dchiprep
+      docker pull quay.io/repository/biocontainers/bioconductor-dchiprep:<tag>
+
+   (see `bioconductor-dchiprep/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-dchiprep| conda:required_by:: bioconductor-dchiprep
 .. |downloads_bioconductor-dchiprep| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dchiprep.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-dchiprep| image:: https://quay.io/repository/biocontainers/bioconductor-dchiprep/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dchiprep
+.. _`bioconductor-dchiprep/tags`: https://quay.io/repository/biocontainers/bioconductor-dchiprep?tab=tags
 
 
 
@@ -64,4 +95,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-dchiprep/README.html
-

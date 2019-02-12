@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-clusterjudge'
 .. highlight: bash
-
 
 bioconductor-clusterjudge
 =========================
@@ -21,11 +22,21 @@ bioconductor-clusterjudge
 
    |downloads_bioconductor-clusterjudge| |docker_bioconductor-clusterjudge|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-httr`  :conda:package:`r-infotheo`  :conda:package:`r-jsonlite`  :conda:package:`r-lattice`  :conda:package:`r-latticeextra`  
-
-   :required~by: |required_by_bioconductor-clusterjudge|
+   :versions: 1.4.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-httr: 
+   
+   :depends r-infotheo: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-lattice: 
+   
+   :depends r-latticeextra: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-clusterjudge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clusterjudge
+      docker pull quay.io/repository/biocontainers/bioconductor-clusterjudge:<tag>
+
+   (see `bioconductor-clusterjudge/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-clusterjudge| conda:required_by:: bioconductor-clusterjudge
 .. |downloads_bioconductor-clusterjudge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clusterjudge.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-clusterjudge| image:: https://quay.io/repository/biocontainers/bioconductor-clusterjudge/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clusterjudge
+.. _`bioconductor-clusterjudge/tags`: https://quay.io/repository/biocontainers/bioconductor-clusterjudge?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-clusterjudge/README.html
-

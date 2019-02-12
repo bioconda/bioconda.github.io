@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'adam'
 .. highlight: bash
-
 
 adam
 ====
@@ -21,11 +22,13 @@ adam
 
    |downloads_adam| |docker_adam|
 
-   :versions: 0.25.0, 0.24.0, 0.23.0, 0.22.0
-
-   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`pyspark`  
-
-   :required~by: |required_by_adam|
+   :versions: 0.25.0-1, 0.24.0-1, 0.24.0-0, 0.23.0-0, 0.22.0-0
+   
+   :depends openjdk: >=8,<9
+   
+   :depends pyspark: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ adam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/adam
+      docker pull quay.io/repository/biocontainers/adam:<tag>
+
+   (see `adam/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_adam| conda:required_by:: adam
 .. |downloads_adam| image:: https://img.shields.io/conda/dn/bioconda/adam.svg?style=flat
    :alt:   (downloads)
 .. |docker_adam| image:: https://quay.io/repository/biocontainers/adam/status
    :target: https://quay.io/repository/biocontainers/adam
+.. _`adam/tags`: https://quay.io/repository/biocontainers/adam?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/adam/README.html
-

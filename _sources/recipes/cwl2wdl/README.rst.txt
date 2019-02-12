@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cwl2wdl'
 .. highlight: bash
-
 
 cwl2wdl
 =======
@@ -21,11 +22,13 @@ cwl2wdl
 
    |downloads_cwl2wdl| |docker_cwl2wdl|
 
-   :versions: 0.1dev44, 0.1dev37
-
-   :depends: :conda:package:`python` 2.7* :conda:package:`pyyaml`  
-
-   :required~by: |required_by_cwl2wdl|
+   :versions: 0.1dev44-2, 0.1dev44-1, 0.1dev44-0, 0.1dev37-0
+   
+   :depends python: 
+   
+   :depends pyyaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ cwl2wdl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cwl2wdl
+      docker pull quay.io/repository/biocontainers/cwl2wdl:<tag>
+
+   (see `cwl2wdl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cwl2wdl| conda:required_by:: cwl2wdl
 .. |downloads_cwl2wdl| image:: https://img.shields.io/conda/dn/bioconda/cwl2wdl.svg?style=flat
    :alt:   (downloads)
 .. |docker_cwl2wdl| image:: https://quay.io/repository/biocontainers/cwl2wdl/status
    :target: https://quay.io/repository/biocontainers/cwl2wdl
+.. _`cwl2wdl/tags`: https://quay.io/repository/biocontainers/cwl2wdl?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cwl2wdl/README.html
-

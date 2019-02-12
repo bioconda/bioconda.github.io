@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cuneiform'
 .. highlight: bash
-
 
 cuneiform
 =========
@@ -22,10 +23,8 @@ cuneiform
    |downloads_cuneiform| |docker_cuneiform|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_cuneiform|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ cuneiform
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cuneiform
+      docker pull quay.io/repository/biocontainers/cuneiform:<tag>
+
+   (see `cuneiform/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cuneiform| conda:required_by:: cuneiform
 .. |downloads_cuneiform| image:: https://img.shields.io/conda/dn/bioconda/cuneiform.svg?style=flat
    :alt:   (downloads)
 .. |docker_cuneiform| image:: https://quay.io/repository/biocontainers/cuneiform/status
    :target: https://quay.io/repository/biocontainers/cuneiform
+.. _`cuneiform/tags`: https://quay.io/repository/biocontainers/cuneiform?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cuneiform/README.html
-

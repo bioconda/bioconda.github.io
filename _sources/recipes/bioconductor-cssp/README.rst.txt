@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cssp'
 .. highlight: bash
-
 
 bioconductor-cssp
 =================
@@ -21,11 +22,13 @@ bioconductor-cssp
 
    |downloads_bioconductor-cssp| |docker_bioconductor-cssp|
 
-   :versions: 1.20.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-cssp|
+   :versions: 1.20.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-cssp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cssp
+      docker pull quay.io/repository/biocontainers/bioconductor-cssp:<tag>
+
+   (see `bioconductor-cssp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cssp| conda:required_by:: bioconductor-cssp
 .. |downloads_bioconductor-cssp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cssp.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cssp| image:: https://quay.io/repository/biocontainers/bioconductor-cssp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cssp
+.. _`bioconductor-cssp/tags`: https://quay.io/repository/biocontainers/bioconductor-cssp?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cssp/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-spocc'
 .. highlight: bash
-
 
 r-spocc
 =======
@@ -21,11 +22,37 @@ r-spocc
 
    |downloads_r-spocc| |docker_r-spocc|
 
-   :versions: 0.9.0, 0.8.0, 0.7.0
-
-   :depends: :conda:package:`geos` >=3.6.2,<3.6.3.0a0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-crul` >=0.3.4 :conda:package:`r-data.table` >=1.9.6 :conda:package:`r-jsonlite` >=1.4 :conda:package:`r-lubridate` >=1.5.0 :conda:package:`r-rbison` >=0.6.0 :conda:package:`r-rebird` >=0.3.0 :conda:package:`r-rgbif` >=1.0.0 :conda:package:`r-ridigbio` >=0.3.5 :conda:package:`r-rvertnet` >=0.7.0 :conda:package:`r-tibble` >=1.2 :conda:package:`r-whisker` >=0.3_2 :conda:package:`r-wicket` >=0.3.0 
-
-   :required~by: |required_by_r-spocc|
+   :versions: 0.9.0-1, 0.9.0-0, 0.8.0-3, 0.8.0-2, 0.7.0-0
+   
+   :depends geos: >=3.6.2,<3.6.3.0a0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-crul: >=0.3.4
+   
+   :depends r-data.table: >=1.9.6
+   
+   :depends r-jsonlite: >=1.4
+   
+   :depends r-lubridate: >=1.5.0
+   
+   :depends r-rbison: >=0.6.0
+   
+   :depends r-rebird: >=0.3.0
+   
+   :depends r-rgbif: >=1.0.0
+   
+   :depends r-ridigbio: >=0.3.5
+   
+   :depends r-rvertnet: >=0.7.0
+   
+   :depends r-tibble: >=1.2
+   
+   :depends r-whisker: >=0.3_2
+   
+   :depends r-wicket: >=0.3.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ r-spocc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-spocc
+      docker pull quay.io/repository/biocontainers/r-spocc:<tag>
+
+   (see `r-spocc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-spocc| conda:required_by:: r-spocc
 .. |downloads_r-spocc| image:: https://img.shields.io/conda/dn/bioconda/r-spocc.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-spocc| image:: https://quay.io/repository/biocontainers/r-spocc/status
    :target: https://quay.io/repository/biocontainers/r-spocc
+.. _`r-spocc/tags`: https://quay.io/repository/biocontainers/r-spocc?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-spocc/README.html
-

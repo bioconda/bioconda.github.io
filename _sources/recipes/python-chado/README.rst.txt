@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'python-chado'
 .. highlight: bash
-
 
 python-chado
 ============
@@ -21,11 +22,27 @@ python-chado
 
    |downloads_python-chado| |docker_python-chado|
 
-   :versions: 2.2.5, 2.2.3, 2.2.2, 2.2.1, 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1, 2.0.1, 2.0, 1.2
-
-   :depends: :conda:package:`bcbiogff` >=0.6.4 :conda:package:`biopython`  :conda:package:`click`  :conda:package:`future`  :conda:package:`psycopg2`  :conda:package:`python`  :conda:package:`pyyaml`  :conda:package:`sqlalchemy`  :conda:package:`wrapt`  
-
-   :required~by: |required_by_python-chado|
+   :versions: 2.2.5-0, 2.2.3-0, 2.2.2-0, 2.2.1-0, 2.1.5-0, 2.1.4-0, 2.1.3-1, 2.1.2-1, 2.1.1-0, 2.1-0, 2.0.1-0, 2.0-0, 1.2-0
+   
+   :depends bcbiogff: >=0.6.4
+   
+   :depends biopython: 
+   
+   :depends click: 
+   
+   :depends future: 
+   
+   :depends psycopg2: 
+   
+   :depends python: 
+   
+   :depends pyyaml: 
+   
+   :depends sqlalchemy: 
+   
+   :depends wrapt: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ python-chado
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-chado
+      docker pull quay.io/repository/biocontainers/python-chado:<tag>
+
+   (see `python-chado/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_python-chado| conda:required_by:: python-chado
 .. |downloads_python-chado| image:: https://img.shields.io/conda/dn/bioconda/python-chado.svg?style=flat
    :alt:   (downloads)
 .. |docker_python-chado| image:: https://quay.io/repository/biocontainers/python-chado/status
    :target: https://quay.io/repository/biocontainers/python-chado
+.. _`python-chado/tags`: https://quay.io/repository/biocontainers/python-chado?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/python-chado/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sccaller'
 .. highlight: bash
-
 
 sccaller
 ========
@@ -21,11 +22,15 @@ sccaller
 
    |downloads_sccaller| |docker_sccaller|
 
-   :versions: 1.21, 1.2
-
-   :depends: :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools` >=1.3 
-
-   :required~by: |required_by_sccaller|
+   :versions: 1.21-0, 1.2-1, 1.2-0
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: >=1.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ sccaller
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sccaller
+      docker pull quay.io/repository/biocontainers/sccaller:<tag>
+
+   (see `sccaller/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sccaller| conda:required_by:: sccaller
 .. |downloads_sccaller| image:: https://img.shields.io/conda/dn/bioconda/sccaller.svg?style=flat
    :alt:   (downloads)
 .. |docker_sccaller| image:: https://quay.io/repository/biocontainers/sccaller/status
    :target: https://quay.io/repository/biocontainers/sccaller
+.. _`sccaller/tags`: https://quay.io/repository/biocontainers/sccaller?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sccaller/README.html
-

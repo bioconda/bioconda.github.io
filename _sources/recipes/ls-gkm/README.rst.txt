@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ls-gkm'
 .. highlight: bash
-
 
 ls-gkm
 ======
@@ -21,11 +22,11 @@ ls-gkm
 
    |downloads_ls-gkm| |docker_ls-gkm|
 
-   :versions: 0.0.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_ls-gkm|
+   :versions: 0.0.1-1, 0.0.1-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ ls-gkm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ls-gkm
+      docker pull quay.io/repository/biocontainers/ls-gkm:<tag>
+
+   (see `ls-gkm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ls-gkm| conda:required_by:: ls-gkm
 .. |downloads_ls-gkm| image:: https://img.shields.io/conda/dn/bioconda/ls-gkm.svg?style=flat
    :alt:   (downloads)
 .. |docker_ls-gkm| image:: https://quay.io/repository/biocontainers/ls-gkm/status
    :target: https://quay.io/repository/biocontainers/ls-gkm
+.. _`ls-gkm/tags`: https://quay.io/repository/biocontainers/ls-gkm?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ls-gkm/README.html
-

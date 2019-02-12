@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'survivor'
 .. highlight: bash
-
 
 survivor
 ========
@@ -21,11 +22,11 @@ survivor
 
    |downloads_survivor| |docker_survivor|
 
-   :versions: 1.0.5, 1.0.3, 1.0.0
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_survivor|
+   :versions: 1.0.5-1, 1.0.3-1, 1.0.3-0, 1.0.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ survivor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/survivor
+      docker pull quay.io/repository/biocontainers/survivor:<tag>
+
+   (see `survivor/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_survivor| conda:required_by:: survivor
 .. |downloads_survivor| image:: https://img.shields.io/conda/dn/bioconda/survivor.svg?style=flat
    :alt:   (downloads)
 .. |docker_survivor| image:: https://quay.io/repository/biocontainers/survivor/status
    :target: https://quay.io/repository/biocontainers/survivor
+.. _`survivor/tags`: https://quay.io/repository/biocontainers/survivor?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/survivor/README.html
-

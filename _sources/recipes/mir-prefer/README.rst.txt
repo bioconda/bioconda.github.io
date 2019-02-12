@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mir-prefer'
 .. highlight: bash
-
 
 mir-prefer
 ==========
@@ -21,11 +22,17 @@ mir-prefer
 
    |downloads_mir-prefer| |docker_mir-prefer|
 
-   :versions: 0.24
-
-   :depends: :conda:package:`bowtie` ==1.2.0 :conda:package:`python` 2.7* :conda:package:`samtools` ==0.1.19 :conda:package:`viennarna`  
-
-   :required~by: |required_by_mir-prefer|
+   :versions: 0.24-2, 0.24-1, 0.24-0
+   
+   :depends bowtie: >=1.2.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: >=0.1.15
+   
+   :depends viennarna: >=1.8.5
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ mir-prefer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mir-prefer
+      docker pull quay.io/repository/biocontainers/mir-prefer:<tag>
+
+   (see `mir-prefer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mir-prefer| conda:required_by:: mir-prefer
 .. |downloads_mir-prefer| image:: https://img.shields.io/conda/dn/bioconda/mir-prefer.svg?style=flat
    :alt:   (downloads)
 .. |docker_mir-prefer| image:: https://quay.io/repository/biocontainers/mir-prefer/status
    :target: https://quay.io/repository/biocontainers/mir-prefer
+.. _`mir-prefer/tags`: https://quay.io/repository/biocontainers/mir-prefer?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mir-prefer/README.html
-

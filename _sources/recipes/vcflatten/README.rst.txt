@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vcflatten'
 .. highlight: bash
-
 
 vcflatten
 =========
@@ -21,11 +22,11 @@ vcflatten
 
    |downloads_vcflatten| |docker_vcflatten|
 
-   :versions: 0.5.2
-
-   :depends: :conda:package:`java-jdk`  
-
-   :required~by: |required_by_vcflatten|
+   :versions: 0.5.2-2, 0.5.2-1, 0.5.2-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ vcflatten
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcflatten
+      docker pull quay.io/repository/biocontainers/vcflatten:<tag>
+
+   (see `vcflatten/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vcflatten| conda:required_by:: vcflatten
 .. |downloads_vcflatten| image:: https://img.shields.io/conda/dn/bioconda/vcflatten.svg?style=flat
    :alt:   (downloads)
 .. |docker_vcflatten| image:: https://quay.io/repository/biocontainers/vcflatten/status
    :target: https://quay.io/repository/biocontainers/vcflatten
+.. _`vcflatten/tags`: https://quay.io/repository/biocontainers/vcflatten?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vcflatten/README.html
-

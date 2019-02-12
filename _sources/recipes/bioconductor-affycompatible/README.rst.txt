@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-affycompatible'
 .. highlight: bash
-
 
 bioconductor-affycompatible
 ===========================
@@ -22,11 +23,17 @@ bioconductor-affycompatible
 
    |downloads_bioconductor-affycompatible| |docker_bioconductor-affycompatible|
 
-   :versions: 1.42.0, 1.40.0, 1.38.0, 1.36.0
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcurl` >=0.8-1 :conda:package:`r-xml` >=2.8-1 
-
-   :required~by: |required_by_bioconductor-affycompatible|
+   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcurl: >=0.8-1
+   
+   :depends r-xml: >=2.8-1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-affycompatible
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affycompatible
+      docker pull quay.io/repository/biocontainers/bioconductor-affycompatible:<tag>
+
+   (see `bioconductor-affycompatible/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-affycompatible| conda:required_by:: bioconductor-affycompatible
 .. |downloads_bioconductor-affycompatible| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affycompatible.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-affycompatible| image:: https://quay.io/repository/biocontainers/bioconductor-affycompatible/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affycompatible
+.. _`bioconductor-affycompatible/tags`: https://quay.io/repository/biocontainers/bioconductor-affycompatible?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-affycompatible/README.html
-

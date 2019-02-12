@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kronik'
 .. highlight: bash
-
 
 kronik
 ======
@@ -21,11 +22,11 @@ kronik
 
    |downloads_kronik| |docker_kronik|
 
-   :versions: 2.20
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_kronik|
+   :versions: 2.20-1, 2.20-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ kronik
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kronik
+      docker pull quay.io/repository/biocontainers/kronik:<tag>
+
+   (see `kronik/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kronik| conda:required_by:: kronik
 .. |downloads_kronik| image:: https://img.shields.io/conda/dn/bioconda/kronik.svg?style=flat
    :alt:   (downloads)
 .. |docker_kronik| image:: https://quay.io/repository/biocontainers/kronik/status
    :target: https://quay.io/repository/biocontainers/kronik
+.. _`kronik/tags`: https://quay.io/repository/biocontainers/kronik?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kronik/README.html
-

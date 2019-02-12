@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mmpalatemirna'
 .. highlight: bash
-
 
 bioconductor-mmpalatemirna
 ==========================
@@ -21,11 +22,23 @@ bioconductor-mmpalatemirna
 
    |downloads_bioconductor-mmpalatemirna| |docker_bioconductor-mmpalatemirna|
 
-   :versions: 1.32.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-vsn` >=3.50.0,<3.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  :conda:package:`r-statmod`  :conda:package:`r-xtable`  
-
-   :required~by: |required_by_bioconductor-mmpalatemirna|
+   :versions: 1.32.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-vsn: >=3.50.0,<3.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-lattice: 
+   
+   :depends r-statmod: 
+   
+   :depends r-xtable: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-mmpalatemirna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mmpalatemirna
+      docker pull quay.io/repository/biocontainers/bioconductor-mmpalatemirna:<tag>
+
+   (see `bioconductor-mmpalatemirna/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mmpalatemirna| conda:required_by:: bioconductor-mmpalatemirna
 .. |downloads_bioconductor-mmpalatemirna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mmpalatemirna.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mmpalatemirna| image:: https://quay.io/repository/biocontainers/bioconductor-mmpalatemirna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mmpalatemirna
+.. _`bioconductor-mmpalatemirna/tags`: https://quay.io/repository/biocontainers/bioconductor-mmpalatemirna?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mmpalatemirna/README.html
-

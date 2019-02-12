@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'starcode'
 .. highlight: bash
-
 
 starcode
 ========
@@ -21,11 +22,11 @@ starcode
 
    |downloads_starcode| |docker_starcode|
 
-   :versions: 1.3, 1.1
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_starcode|
+   :versions: 1.3-0, 1.1-1, 1.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ starcode
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/starcode
+      docker pull quay.io/repository/biocontainers/starcode:<tag>
+
+   (see `starcode/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_starcode| conda:required_by:: starcode
 .. |downloads_starcode| image:: https://img.shields.io/conda/dn/bioconda/starcode.svg?style=flat
    :alt:   (downloads)
 .. |docker_starcode| image:: https://quay.io/repository/biocontainers/starcode/status
    :target: https://quay.io/repository/biocontainers/starcode
+.. _`starcode/tags`: https://quay.io/repository/biocontainers/starcode?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/starcode/README.html
-

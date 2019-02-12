@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-splicegear'
 .. highlight: bash
-
 
 bioconductor-splicegear
 =======================
@@ -22,11 +23,17 @@ bioconductor-splicegear
 
    |downloads_bioconductor-splicegear| |docker_bioconductor-splicegear|
 
-   :versions: 1.54.0, 1.52.0, 1.50.0, 1.48.0
-
-   :depends: :conda:package:`bioconductor-annotate` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-splicegear|
+   :versions: 1.54.0-0, 1.52.0-0, 1.50.0-0, 1.48.0-0
+   
+   :depends bioconductor-annotate: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-splicegear
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-splicegear
+      docker pull quay.io/repository/biocontainers/bioconductor-splicegear:<tag>
+
+   (see `bioconductor-splicegear/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-splicegear| conda:required_by:: bioconductor-splicegear
 .. |downloads_bioconductor-splicegear| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-splicegear.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-splicegear| image:: https://quay.io/repository/biocontainers/bioconductor-splicegear/status
    :target: https://quay.io/repository/biocontainers/bioconductor-splicegear
+.. _`bioconductor-splicegear/tags`: https://quay.io/repository/biocontainers/bioconductor-splicegear?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-splicegear/README.html
-

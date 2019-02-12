@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dsk'
 .. highlight: bash
-
 
 dsk
 ===
@@ -22,11 +23,11 @@ dsk
 
    |downloads_dsk| |docker_dsk|
 
-   :versions: 2.2.0
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_dsk|
+   :versions: 2.2.0-2, 2.2.0-1, 2.2.0-0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ dsk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dsk
+      docker pull quay.io/repository/biocontainers/dsk:<tag>
+
+   (see `dsk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dsk| conda:required_by:: dsk
 .. |downloads_dsk| image:: https://img.shields.io/conda/dn/bioconda/dsk.svg?style=flat
    :alt:   (downloads)
 .. |docker_dsk| image:: https://quay.io/repository/biocontainers/dsk/status
    :target: https://quay.io/repository/biocontainers/dsk
+.. _`dsk/tags`: https://quay.io/repository/biocontainers/dsk?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dsk/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metfrag'
 .. highlight: bash
-
 
 metfrag
 =======
@@ -21,11 +22,17 @@ metfrag
 
    |downloads_metfrag| |docker_metfrag|
 
-   :versions: 2.4.5, 2.4.2, 2.3.1
-
-   :depends: :conda:package:`openjdk` >=7 :conda:package:`parallel`  :conda:package:`unzip`  :conda:package:`zip`  
-
-   :required~by: |required_by_metfrag|
+   :versions: 2.4.5-3, 2.4.5-1, 2.4.2-2, 2.4.2-1, 2.4.2-0, 2.3.1-1, 2.3.1-0
+   
+   :depends openjdk: >=7
+   
+   :depends parallel: 
+   
+   :depends unzip: 
+   
+   :depends zip: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ metfrag
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metfrag
+      docker pull quay.io/repository/biocontainers/metfrag:<tag>
+
+   (see `metfrag/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metfrag| conda:required_by:: metfrag
 .. |downloads_metfrag| image:: https://img.shields.io/conda/dn/bioconda/metfrag.svg?style=flat
    :alt:   (downloads)
 .. |docker_metfrag| image:: https://quay.io/repository/biocontainers/metfrag/status
    :target: https://quay.io/repository/biocontainers/metfrag
+.. _`metfrag/tags`: https://quay.io/repository/biocontainers/metfrag?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metfrag/README.html
-

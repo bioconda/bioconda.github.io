@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-gsalib'
 .. highlight: bash
-
 
 r-gsalib
 ========
@@ -21,11 +22,11 @@ r-gsalib
 
    |downloads_r-gsalib| |docker_r-gsalib|
 
-   :versions: 2.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-gsalib|
+   :versions: 2.1-0
+   
+   :depends r: 3.2.2*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-gsalib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gsalib
+      docker pull quay.io/repository/biocontainers/r-gsalib:<tag>
+
+   (see `r-gsalib/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-gsalib| conda:required_by:: r-gsalib
 .. |downloads_r-gsalib| image:: https://img.shields.io/conda/dn/bioconda/r-gsalib.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-gsalib| image:: https://quay.io/repository/biocontainers/r-gsalib/status
    :target: https://quay.io/repository/biocontainers/r-gsalib
+.. _`r-gsalib/tags`: https://quay.io/repository/biocontainers/r-gsalib?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-gsalib/README.html
-

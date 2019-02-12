@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rapclust'
 .. highlight: bash
-
 
 rapclust
 ========
@@ -21,11 +22,25 @@ rapclust
 
    |downloads_rapclust| |docker_rapclust|
 
-   :versions: 0.1.2, 0.1.1
-
-   :depends: :conda:package:`click`  :conda:package:`coloredlogs`  :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`pyyaml`  :conda:package:`tqdm`  
-
-   :required~by: |required_by_rapclust|
+   :versions: 0.1.2-1, 0.1.2-0, 0.1.1-0
+   
+   :depends click: 
+   
+   :depends coloredlogs: 
+   
+   :depends networkx: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: 
+   
+   :depends pyyaml: 
+   
+   :depends tqdm: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ rapclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rapclust
+      docker pull quay.io/repository/biocontainers/rapclust:<tag>
+
+   (see `rapclust/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rapclust| conda:required_by:: rapclust
 .. |downloads_rapclust| image:: https://img.shields.io/conda/dn/bioconda/rapclust.svg?style=flat
    :alt:   (downloads)
 .. |docker_rapclust| image:: https://quay.io/repository/biocontainers/rapclust/status
    :target: https://quay.io/repository/biocontainers/rapclust
+.. _`rapclust/tags`: https://quay.io/repository/biocontainers/rapclust?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rapclust/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'melt'
 .. highlight: bash
-
 
 melt
 ====
@@ -21,11 +22,11 @@ melt
 
    |downloads_melt| |docker_melt|
 
-   :versions: 1.0.3
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_melt|
+   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ melt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/melt
+      docker pull quay.io/repository/biocontainers/melt:<tag>
+
+   (see `melt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_melt| conda:required_by:: melt
 .. |downloads_melt| image:: https://img.shields.io/conda/dn/bioconda/melt.svg?style=flat
    :alt:   (downloads)
 .. |docker_melt| image:: https://quay.io/repository/biocontainers/melt/status
    :target: https://quay.io/repository/biocontainers/melt
+.. _`melt/tags`: https://quay.io/repository/biocontainers/melt?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/melt/README.html
-

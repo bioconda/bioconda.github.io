@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-ole-storage_lite'
 .. highlight: bash
-
 
 perl-ole-storage_lite
 =====================
@@ -21,11 +22,11 @@ perl-ole-storage_lite
 
    |downloads_perl-ole-storage_lite| |docker_perl-ole-storage_lite|
 
-   :versions: 0.19
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-ole-storage_lite|
+   :versions: 0.19-2, 0.19-1, 0.19-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-ole-storage_lite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-ole-storage_lite
+      docker pull quay.io/repository/biocontainers/perl-ole-storage_lite:<tag>
+
+   (see `perl-ole-storage_lite/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-ole-storage_lite| conda:required_by:: perl-ole-storage_lite
 .. |downloads_perl-ole-storage_lite| image:: https://img.shields.io/conda/dn/bioconda/perl-ole-storage_lite.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-ole-storage_lite| image:: https://quay.io/repository/biocontainers/perl-ole-storage_lite/status
    :target: https://quay.io/repository/biocontainers/perl-ole-storage_lite
+.. _`perl-ole-storage_lite/tags`: https://quay.io/repository/biocontainers/perl-ole-storage_lite?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-ole-storage_lite/README.html
-

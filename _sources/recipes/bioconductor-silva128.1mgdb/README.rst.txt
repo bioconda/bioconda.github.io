@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-silva128.1mgdb'
 .. highlight: bash
-
 
 bioconductor-silva128.1mgdb
 ===========================
@@ -21,11 +22,15 @@ bioconductor-silva128.1mgdb
 
    |downloads_bioconductor-silva128.1mgdb| |docker_bioconductor-silva128.1mgdb|
 
-   :versions: 1.00.0
-
-   :depends: :conda:package:`bioconductor-metagenomefeatures` >=2.2.0,<2.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-silva128.1mgdb|
+   :versions: 1.00.0-0
+   
+   :depends bioconductor-metagenomefeatures: >=2.2.0,<2.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-silva128.1mgdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-silva128.1mgdb
+      docker pull quay.io/repository/biocontainers/bioconductor-silva128.1mgdb:<tag>
+
+   (see `bioconductor-silva128.1mgdb/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-silva128.1mgdb| conda:required_by:: bioconductor-silva128.1mgdb
 .. |downloads_bioconductor-silva128.1mgdb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-silva128.1mgdb.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-silva128.1mgdb| image:: https://quay.io/repository/biocontainers/bioconductor-silva128.1mgdb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-silva128.1mgdb
+.. _`bioconductor-silva128.1mgdb/tags`: https://quay.io/repository/biocontainers/bioconductor-silva128.1mgdb?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-silva128.1mgdb/README.html
-

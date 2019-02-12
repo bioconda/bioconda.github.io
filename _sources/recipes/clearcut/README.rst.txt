@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'clearcut'
 .. highlight: bash
-
 
 clearcut
 ========
@@ -21,11 +22,9 @@ clearcut
 
    |downloads_clearcut| |docker_clearcut|
 
-   :versions: 1.0.9
-
-   :depends: 
-
-   :required~by: |required_by_clearcut|
+   :versions: 1.0.9-1, 1.0.9-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ clearcut
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clearcut
+      docker pull quay.io/repository/biocontainers/clearcut:<tag>
+
+   (see `clearcut/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_clearcut| conda:required_by:: clearcut
 .. |downloads_clearcut| image:: https://img.shields.io/conda/dn/bioconda/clearcut.svg?style=flat
    :alt:   (downloads)
 .. |docker_clearcut| image:: https://quay.io/repository/biocontainers/clearcut/status
    :target: https://quay.io/repository/biocontainers/clearcut
+.. _`clearcut/tags`: https://quay.io/repository/biocontainers/clearcut?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/clearcut/README.html
-

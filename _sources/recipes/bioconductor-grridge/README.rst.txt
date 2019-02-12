@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-grridge'
 .. highlight: bash
-
 
 bioconductor-grridge
 ====================
@@ -21,11 +22,23 @@ bioconductor-grridge
 
    |downloads_bioconductor-grridge| |docker_bioconductor-grridge|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-glmnet`  :conda:package:`r-iso`  :conda:package:`r-mvtnorm`  :conda:package:`r-penalized`  :conda:package:`r-survival`  
-
-   :required~by: |required_by_bioconductor-grridge|
+   :versions: 1.6.0-0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-glmnet: 
+   
+   :depends r-iso: 
+   
+   :depends r-mvtnorm: 
+   
+   :depends r-penalized: 
+   
+   :depends r-survival: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-grridge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-grridge
+      docker pull quay.io/repository/biocontainers/bioconductor-grridge:<tag>
+
+   (see `bioconductor-grridge/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-grridge| conda:required_by:: bioconductor-grridge
 .. |downloads_bioconductor-grridge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-grridge.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-grridge| image:: https://quay.io/repository/biocontainers/bioconductor-grridge/status
    :target: https://quay.io/repository/biocontainers/bioconductor-grridge
+.. _`bioconductor-grridge/tags`: https://quay.io/repository/biocontainers/bioconductor-grridge?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-grridge/README.html
-

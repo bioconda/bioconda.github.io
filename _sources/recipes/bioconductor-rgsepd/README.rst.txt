@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rgsepd'
 .. highlight: bash
-
 
 bioconductor-rgsepd
 ===================
@@ -22,11 +23,29 @@ bioconductor-rgsepd
 
    |downloads_bioconductor-rgsepd| |docker_bioconductor-rgsepd|
 
-   :versions: 1.14.0, 1.12.0, 1.10.0, 1.8.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-go.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-goseq` >=1.34.0,<1.35.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-hash`  
-
-   :required~by: |required_by_bioconductor-rgsepd|
+   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-go.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-goseq: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gplots: 
+   
+   :depends r-hash: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ bioconductor-rgsepd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgsepd
+      docker pull quay.io/repository/biocontainers/bioconductor-rgsepd:<tag>
+
+   (see `bioconductor-rgsepd/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rgsepd| conda:required_by:: bioconductor-rgsepd
 .. |downloads_bioconductor-rgsepd| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgsepd.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rgsepd| image:: https://quay.io/repository/biocontainers/bioconductor-rgsepd/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgsepd
+.. _`bioconductor-rgsepd/tags`: https://quay.io/repository/biocontainers/bioconductor-rgsepd?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rgsepd/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-grain'
 .. highlight: bash
-
 
 r-grain
 =======
@@ -21,11 +22,31 @@ r-grain
 
    |downloads_r-grain| |docker_r-grain|
 
-   :versions: 1.3_0
-
-   :depends: :conda:package:`bioconductor-graph`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-functional`  :conda:package:`r-grbase` >=1.7_2 :conda:package:`r-igraph`  :conda:package:`r-magrittr`  :conda:package:`r-rcpp` >=0.11.1 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcppeigen`  
-
-   :required~by: |required_by_r-grain|
+   :versions: 1.3_0-0
+   
+   :depends bioconductor-graph: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-functional: 
+   
+   :depends r-grbase: >=1.7_2
+   
+   :depends r-igraph: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-rcpp: >=0.11.1
+   
+   :depends r-rcpparmadillo: 
+   
+   :depends r-rcppeigen: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ r-grain
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-grain
+      docker pull quay.io/repository/biocontainers/r-grain:<tag>
+
+   (see `r-grain/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-grain| conda:required_by:: r-grain
 .. |downloads_r-grain| image:: https://img.shields.io/conda/dn/bioconda/r-grain.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-grain| image:: https://quay.io/repository/biocontainers/r-grain/status
    :target: https://quay.io/repository/biocontainers/r-grain
+.. _`r-grain/tags`: https://quay.io/repository/biocontainers/r-grain?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-grain/README.html
-

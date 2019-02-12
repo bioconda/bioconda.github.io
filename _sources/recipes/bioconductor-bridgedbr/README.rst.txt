@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bridgedbr'
 .. highlight: bash
-
 
 bioconductor-bridgedbr
 ======================
@@ -22,10 +23,8 @@ bioconductor-bridgedbr
    |downloads_bioconductor-bridgedbr| |docker_bioconductor-bridgedbr|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-bridgedbr|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-bridgedbr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bridgedbr
+      docker pull quay.io/repository/biocontainers/bioconductor-bridgedbr:<tag>
+
+   (see `bioconductor-bridgedbr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bridgedbr| conda:required_by:: bioconductor-bridgedbr
 .. |downloads_bioconductor-bridgedbr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bridgedbr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bridgedbr| image:: https://quay.io/repository/biocontainers/bioconductor-bridgedbr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bridgedbr
+.. _`bioconductor-bridgedbr/tags`: https://quay.io/repository/biocontainers/bioconductor-bridgedbr?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bridgedbr/README.html
-

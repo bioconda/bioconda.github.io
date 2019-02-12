@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-streamer'
 .. highlight: bash
-
 
 bioconductor-streamer
 =====================
@@ -22,11 +23,19 @@ bioconductor-streamer
 
    |downloads_bioconductor-streamer| |docker_bioconductor-streamer|
 
-   :versions: 1.28.0, 1.26.0, 1.24.0, 1.22.0
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-streamer|
+   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-rbgl: >=1.58.0,<1.59.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-streamer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-streamer
+      docker pull quay.io/repository/biocontainers/bioconductor-streamer:<tag>
+
+   (see `bioconductor-streamer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-streamer| conda:required_by:: bioconductor-streamer
 .. |downloads_bioconductor-streamer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-streamer.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-streamer| image:: https://quay.io/repository/biocontainers/bioconductor-streamer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-streamer
+.. _`bioconductor-streamer/tags`: https://quay.io/repository/biocontainers/bioconductor-streamer?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-streamer/README.html
-

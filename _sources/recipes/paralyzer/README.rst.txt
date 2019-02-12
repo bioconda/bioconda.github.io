@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'paralyzer'
 .. highlight: bash
-
 
 paralyzer
 =========
@@ -22,11 +23,11 @@ paralyzer
 
    |downloads_paralyzer| |docker_paralyzer|
 
-   :versions: 1.5
-
-   :depends: :conda:package:`java-jdk`  
-
-   :required~by: |required_by_paralyzer|
+   :versions: 1.5-2, 1.5-1, 1.5-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ paralyzer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/paralyzer
+      docker pull quay.io/repository/biocontainers/paralyzer:<tag>
+
+   (see `paralyzer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_paralyzer| conda:required_by:: paralyzer
 .. |downloads_paralyzer| image:: https://img.shields.io/conda/dn/bioconda/paralyzer.svg?style=flat
    :alt:   (downloads)
 .. |docker_paralyzer| image:: https://quay.io/repository/biocontainers/paralyzer/status
    :target: https://quay.io/repository/biocontainers/paralyzer
+.. _`paralyzer/tags`: https://quay.io/repository/biocontainers/paralyzer?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/paralyzer/README.html
-

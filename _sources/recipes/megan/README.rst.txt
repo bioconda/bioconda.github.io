@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'megan'
 .. highlight: bash
-
 
 megan
 =====
@@ -22,11 +23,11 @@ megan
 
    |downloads_megan| |docker_megan|
 
-   :versions: 6.12.3
-
-   :depends: :conda:package:`openjdk` >=8.0.144 
-
-   :required~by: |required_by_megan|
+   :versions: 6.12.3-0
+   
+   :depends openjdk: >=8.0.144
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ megan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/megan
+      docker pull quay.io/repository/biocontainers/megan:<tag>
+
+   (see `megan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_megan| conda:required_by:: megan
 .. |downloads_megan| image:: https://img.shields.io/conda/dn/bioconda/megan.svg?style=flat
    :alt:   (downloads)
 .. |docker_megan| image:: https://quay.io/repository/biocontainers/megan/status
    :target: https://quay.io/repository/biocontainers/megan
+.. _`megan/tags`: https://quay.io/repository/biocontainers/megan?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/megan/README.html
-

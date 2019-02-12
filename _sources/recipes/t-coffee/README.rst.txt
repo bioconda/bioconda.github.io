@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 't-coffee'
 .. highlight: bash
-
 
 t-coffee
 ========
@@ -22,11 +23,43 @@ t-coffee
 
    |downloads_t-coffee| |docker_t-coffee|
 
-   :versions: 12.00.7fb08c2, 11.00.8cbe486
-
-   :depends: :conda:package:`blast`  :conda:package:`clustalo`  :conda:package:`clustalw`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgfortran` >=3.0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`mafft`  :conda:package:`muscle`  :conda:package:`poa`  :conda:package:`viennarna`  
-
-   :required~by: |required_by_t-coffee|
+   :versions: 12.00.7fb08c2-1, 12.00.7fb08c2-0, 11.00.8cbe486-0
+   
+   :depends blast: 
+   
+   :depends clustalo: 
+   
+   :depends clustalw: 
+   
+   :depends consan: 
+   
+   :depends dca: 
+   
+   :depends dialign-tx: 1.0.2.*
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends mafft: 7.310.*
+   
+   :depends muscle: 
+   
+   :depends mustang: 3.2.3.*
+   
+   :depends pasta: 
+   
+   :depends phylip: 
+   
+   :depends poa: 2.0.*
+   
+   :depends prank: 
+   
+   :depends tmalign: 
+   
+   :depends viennarna: 2.1.9.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +73,16 @@ t-coffee
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/t-coffee
+      docker pull quay.io/repository/biocontainers/t-coffee:<tag>
+
+   (see `t-coffee/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_t-coffee| conda:required_by:: t-coffee
 .. |downloads_t-coffee| image:: https://img.shields.io/conda/dn/bioconda/t-coffee.svg?style=flat
    :alt:   (downloads)
 .. |docker_t-coffee| image:: https://quay.io/repository/biocontainers/t-coffee/status
    :target: https://quay.io/repository/biocontainers/t-coffee
+.. _`t-coffee/tags`: https://quay.io/repository/biocontainers/t-coffee?tab=tags
 
 
 
@@ -64,4 +99,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/t-coffee/README.html
-

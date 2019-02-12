@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'funcannot'
 .. highlight: bash
-
 
 funcannot
 =========
@@ -21,11 +22,13 @@ funcannot
 
    |downloads_funcannot| |docker_funcannot|
 
-   :versions: v2.8
-
-   :depends: :conda:package:`libgcc`  :conda:package:`qt` 4.8.7 
-
-   :required~by: |required_by_funcannot|
+   :versions: v2.8-1, v2.8-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends qt: 4.8.7.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ funcannot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/funcannot
+      docker pull quay.io/repository/biocontainers/funcannot:<tag>
+
+   (see `funcannot/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_funcannot| conda:required_by:: funcannot
 .. |downloads_funcannot| image:: https://img.shields.io/conda/dn/bioconda/funcannot.svg?style=flat
    :alt:   (downloads)
 .. |docker_funcannot| image:: https://quay.io/repository/biocontainers/funcannot/status
    :target: https://quay.io/repository/biocontainers/funcannot
+.. _`funcannot/tags`: https://quay.io/repository/biocontainers/funcannot?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/funcannot/README.html
-

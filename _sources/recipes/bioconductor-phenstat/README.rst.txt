@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-phenstat'
 .. highlight: bash
-
 
 bioconductor-phenstat
 =====================
@@ -21,11 +22,43 @@ bioconductor-phenstat
 
    |downloads_bioconductor-phenstat| |docker_bioconductor-phenstat|
 
-   :versions: 2.18.0
-
-   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-car`  :conda:package:`r-corrplot`  :conda:package:`r-ggplot2`  :conda:package:`r-knitr`  :conda:package:`r-lme4`  :conda:package:`r-logistf`  :conda:package:`r-mass`  :conda:package:`r-msgps`  :conda:package:`r-nlme`  :conda:package:`r-nortest`  :conda:package:`r-pingr`  :conda:package:`r-reshape`  :conda:package:`r-smoothwin`  
-
-   :required~by: |required_by_bioconductor-phenstat|
+   :versions: 2.18.0-0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libgfortran-ng: >=7,<8.0a0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-car: 
+   
+   :depends r-corrplot: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-knitr: 
+   
+   :depends r-lme4: 
+   
+   :depends r-logistf: 
+   
+   :depends r-mass: 
+   
+   :depends r-msgps: 
+   
+   :depends r-nlme: 
+   
+   :depends r-nortest: 
+   
+   :depends r-pingr: 
+   
+   :depends r-reshape: 
+   
+   :depends r-smoothwin: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +72,16 @@ bioconductor-phenstat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-phenstat
+      docker pull quay.io/repository/biocontainers/bioconductor-phenstat:<tag>
+
+   (see `bioconductor-phenstat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-phenstat| conda:required_by:: bioconductor-phenstat
 .. |downloads_bioconductor-phenstat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-phenstat.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-phenstat| image:: https://quay.io/repository/biocontainers/bioconductor-phenstat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-phenstat
+.. _`bioconductor-phenstat/tags`: https://quay.io/repository/biocontainers/bioconductor-phenstat?tab=tags
 
 
 
@@ -63,4 +98,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-phenstat/README.html
-

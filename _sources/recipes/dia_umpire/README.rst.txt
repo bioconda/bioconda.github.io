@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dia_umpire'
 .. highlight: bash
-
 
 dia_umpire
 ==========
@@ -24,11 +25,13 @@ dia_umpire
 
    |downloads_dia_umpire| |docker_dia_umpire|
 
-   :versions: 2.1.3, 2.1.2
-
-   :depends: :conda:package:`openjdk` >=7 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_dia_umpire|
+   :versions: 2.1.3-1, 2.1.3-0, 2.1.2-0
+   
+   :depends openjdk: >=7
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +45,16 @@ dia_umpire
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dia_umpire
+      docker pull quay.io/repository/biocontainers/dia_umpire:<tag>
+
+   (see `dia_umpire/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dia_umpire| conda:required_by:: dia_umpire
 .. |downloads_dia_umpire| image:: https://img.shields.io/conda/dn/bioconda/dia_umpire.svg?style=flat
    :alt:   (downloads)
 .. |docker_dia_umpire| image:: https://quay.io/repository/biocontainers/dia_umpire/status
    :target: https://quay.io/repository/biocontainers/dia_umpire
+.. _`dia_umpire/tags`: https://quay.io/repository/biocontainers/dia_umpire?tab=tags
 
 
 
@@ -70,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dia_umpire/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-text-tabs'
 .. highlight: bash
-
 
 perl-text-tabs
 ==============
@@ -21,11 +22,11 @@ perl-text-tabs
 
    |downloads_perl-text-tabs| |docker_perl-text-tabs|
 
-   :versions: 2013.0523
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-text-tabs|
+   :versions: 2013.0523-1, 2013.0523-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-text-tabs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-tabs
+      docker pull quay.io/repository/biocontainers/perl-text-tabs:<tag>
+
+   (see `perl-text-tabs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-text-tabs| conda:required_by:: perl-text-tabs
 .. |downloads_perl-text-tabs| image:: https://img.shields.io/conda/dn/bioconda/perl-text-tabs.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-text-tabs| image:: https://quay.io/repository/biocontainers/perl-text-tabs/status
    :target: https://quay.io/repository/biocontainers/perl-text-tabs
+.. _`perl-text-tabs/tags`: https://quay.io/repository/biocontainers/perl-text-tabs?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-text-tabs/README.html
-

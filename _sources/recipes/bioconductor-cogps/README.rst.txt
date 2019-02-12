@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cogps'
 .. highlight: bash
-
 
 bioconductor-cogps
 ==================
@@ -22,11 +23,11 @@ bioconductor-cogps
 
    |downloads_bioconductor-cogps| |docker_bioconductor-cogps|
 
-   :versions: 1.26.0, 1.24.0, 1.22.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-cogps|
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ bioconductor-cogps
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cogps
+      docker pull quay.io/repository/biocontainers/bioconductor-cogps:<tag>
+
+   (see `bioconductor-cogps/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cogps| conda:required_by:: bioconductor-cogps
 .. |downloads_bioconductor-cogps| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cogps.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cogps| image:: https://quay.io/repository/biocontainers/bioconductor-cogps/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cogps
+.. _`bioconductor-cogps/tags`: https://quay.io/repository/biocontainers/bioconductor-cogps?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cogps/README.html
-

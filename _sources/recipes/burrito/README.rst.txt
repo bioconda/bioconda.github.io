@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'burrito'
 .. highlight: bash
-
 
 burrito
 =======
@@ -21,11 +22,15 @@ burrito
 
    |downloads_burrito| |docker_burrito|
 
-   :versions: 0.9.1
-
-   :depends: :conda:package:`future`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_burrito|
+   :versions: 0.9.1-2, 0.9.1-1, 0.9.1-0
+   
+   :depends future: 
+   
+   :depends python: 
+   
+   :depends r-base: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ burrito
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/burrito
+      docker pull quay.io/repository/biocontainers/burrito:<tag>
+
+   (see `burrito/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_burrito| conda:required_by:: burrito
 .. |downloads_burrito| image:: https://img.shields.io/conda/dn/bioconda/burrito.svg?style=flat
    :alt:   (downloads)
 .. |docker_burrito| image:: https://quay.io/repository/biocontainers/burrito/status
    :target: https://quay.io/repository/biocontainers/burrito
+.. _`burrito/tags`: https://quay.io/repository/biocontainers/burrito?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/burrito/README.html
-

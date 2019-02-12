@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kid'
 .. highlight: bash
-
 
 kid
 ===
@@ -21,11 +22,11 @@ kid
 
    |downloads_kid| |docker_kid|
 
-   :versions: 0.9.6
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_kid|
+   :versions: 0.9.6-2, 0.9.6-1
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ kid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kid
+      docker pull quay.io/repository/biocontainers/kid:<tag>
+
+   (see `kid/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kid| conda:required_by:: kid
 .. |downloads_kid| image:: https://img.shields.io/conda/dn/bioconda/kid.svg?style=flat
    :alt:   (downloads)
 .. |docker_kid| image:: https://quay.io/repository/biocontainers/kid/status
    :target: https://quay.io/repository/biocontainers/kid
+.. _`kid/tags`: https://quay.io/repository/biocontainers/kid?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kid/README.html
-

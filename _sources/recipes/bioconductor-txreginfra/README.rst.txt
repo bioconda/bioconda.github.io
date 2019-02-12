@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-txreginfra'
 .. highlight: bash
-
 
 bioconductor-txreginfra
 =======================
@@ -21,11 +22,29 @@ bioconductor-txreginfra
 
    |downloads_bioconductor-txreginfra| |docker_bioconductor-txreginfra|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-raggedexperiment` >=1.6.0,<1.7.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mongolite`  :conda:package:`r-rjson`  
-
-   :required~by: |required_by_bioconductor-txreginfra|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-raggedexperiment: >=1.6.0,<1.7.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mongolite: 
+   
+   :depends r-rjson: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ bioconductor-txreginfra
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txreginfra
+      docker pull quay.io/repository/biocontainers/bioconductor-txreginfra:<tag>
+
+   (see `bioconductor-txreginfra/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-txreginfra| conda:required_by:: bioconductor-txreginfra
 .. |downloads_bioconductor-txreginfra| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txreginfra.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-txreginfra| image:: https://quay.io/repository/biocontainers/bioconductor-txreginfra/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txreginfra
+.. _`bioconductor-txreginfra/tags`: https://quay.io/repository/biocontainers/bioconductor-txreginfra?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-txreginfra/README.html
-

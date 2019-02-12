@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-term-table'
 .. highlight: bash
-
 
 perl-term-table
 ===============
@@ -21,11 +22,15 @@ perl-term-table
 
    |downloads_perl-term-table| |docker_perl-term-table|
 
-   :versions: 0.013, 0.012
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-importer`  
-
-   :required~by: |required_by_perl-term-table|
+   :versions: 0.013-0, 0.012-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-importer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-term-table
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-term-table
+      docker pull quay.io/repository/biocontainers/perl-term-table:<tag>
+
+   (see `perl-term-table/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-term-table| conda:required_by:: perl-term-table
 .. |downloads_perl-term-table| image:: https://img.shields.io/conda/dn/bioconda/perl-term-table.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-term-table| image:: https://quay.io/repository/biocontainers/perl-term-table/status
    :target: https://quay.io/repository/biocontainers/perl-term-table
+.. _`perl-term-table/tags`: https://quay.io/repository/biocontainers/perl-term-table?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-term-table/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-grimport'
 .. highlight: bash
-
 
 r-grimport
 ==========
@@ -21,11 +22,13 @@ r-grimport
 
    |downloads_r-grimport| |docker_r-grimport|
 
-   :versions: 0.9_0
-
-   :depends: :conda:package:`r` 3.3.1* :conda:package:`r-xml`  
-
-   :required~by: |required_by_r-grimport|
+   :versions: 0.9_0-0
+   
+   :depends r: 3.3.1*
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ r-grimport
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-grimport
+      docker pull quay.io/repository/biocontainers/r-grimport:<tag>
+
+   (see `r-grimport/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-grimport| conda:required_by:: r-grimport
 .. |downloads_r-grimport| image:: https://img.shields.io/conda/dn/bioconda/r-grimport.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-grimport| image:: https://quay.io/repository/biocontainers/r-grimport/status
    :target: https://quay.io/repository/biocontainers/r-grimport
+.. _`r-grimport/tags`: https://quay.io/repository/biocontainers/r-grimport?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-grimport/README.html
-

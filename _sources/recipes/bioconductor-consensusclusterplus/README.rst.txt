@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-consensusclusterplus'
 .. highlight: bash
-
 
 bioconductor-consensusclusterplus
 =================================
@@ -22,11 +23,17 @@ bioconductor-consensusclusterplus
 
    |downloads_bioconductor-consensusclusterplus| |docker_bioconductor-consensusclusterplus|
 
-   :versions: 1.46.0, 1.44.0, 1.42.0, 1.40.0
-
-   :depends: :conda:package:`bioconductor-all` >=1.24.0,<1.25.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  
-
-   :required~by: |required_by_bioconductor-consensusclusterplus|
+   :versions: 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0
+   
+   :depends bioconductor-all: >=1.24.0,<1.25.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-consensusclusterplus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-consensusclusterplus
+      docker pull quay.io/repository/biocontainers/bioconductor-consensusclusterplus:<tag>
+
+   (see `bioconductor-consensusclusterplus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-consensusclusterplus| conda:required_by:: bioconductor-consensusclusterplus
 .. |downloads_bioconductor-consensusclusterplus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-consensusclusterplus.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-consensusclusterplus| image:: https://quay.io/repository/biocontainers/bioconductor-consensusclusterplus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-consensusclusterplus
+.. _`bioconductor-consensusclusterplus/tags`: https://quay.io/repository/biocontainers/bioconductor-consensusclusterplus?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-consensusclusterplus/README.html
-

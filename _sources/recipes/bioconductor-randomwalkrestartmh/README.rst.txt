@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-randomwalkrestartmh'
 .. highlight: bash
-
 
 bioconductor-randomwalkrestartmh
 ================================
@@ -21,11 +22,17 @@ bioconductor-randomwalkrestartmh
 
    |downloads_bioconductor-randomwalkrestartmh| |docker_bioconductor-randomwalkrestartmh|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dnet`  :conda:package:`r-igraph`  :conda:package:`r-matrix`  
-
-   :required~by: |required_by_bioconductor-randomwalkrestartmh|
+   :versions: 1.2.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dnet: 
+   
+   :depends r-igraph: 
+   
+   :depends r-matrix: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-randomwalkrestartmh
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-randomwalkrestartmh
+      docker pull quay.io/repository/biocontainers/bioconductor-randomwalkrestartmh:<tag>
+
+   (see `bioconductor-randomwalkrestartmh/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-randomwalkrestartmh| conda:required_by:: bioconductor-randomwalkrestartmh
 .. |downloads_bioconductor-randomwalkrestartmh| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-randomwalkrestartmh.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-randomwalkrestartmh| image:: https://quay.io/repository/biocontainers/bioconductor-randomwalkrestartmh/status
    :target: https://quay.io/repository/biocontainers/bioconductor-randomwalkrestartmh
+.. _`bioconductor-randomwalkrestartmh/tags`: https://quay.io/repository/biocontainers/bioconductor-randomwalkrestartmh?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-randomwalkrestartmh/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-spieceasi'
 .. highlight: bash
-
 
 r-spieceasi
 ===========
@@ -21,11 +22,19 @@ r-spieceasi
 
    |downloads_r-spieceasi| |docker_r-spieceasi|
 
-   :versions: 0.1.4
-
-   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-huge`  :conda:package:`r-mass`  :conda:package:`r-matrix`  :conda:package:`r-vgam`  
-
-   :required~by: |required_by_r-spieceasi|
+   :versions: 0.1.4-1, 0.1.4-0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-huge: 
+   
+   :depends r-mass: 
+   
+   :depends r-matrix: 
+   
+   :depends r-vgam: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ r-spieceasi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-spieceasi
+      docker pull quay.io/repository/biocontainers/r-spieceasi:<tag>
+
+   (see `r-spieceasi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-spieceasi| conda:required_by:: r-spieceasi
 .. |downloads_r-spieceasi| image:: https://img.shields.io/conda/dn/bioconda/r-spieceasi.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-spieceasi| image:: https://quay.io/repository/biocontainers/r-spieceasi/status
    :target: https://quay.io/repository/biocontainers/r-spieceasi
+.. _`r-spieceasi/tags`: https://quay.io/repository/biocontainers/r-spieceasi?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-spieceasi/README.html
-

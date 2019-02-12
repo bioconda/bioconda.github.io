@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyfastaq'
 .. highlight: bash
-
 
 pyfastaq
 ========
@@ -21,11 +22,11 @@ pyfastaq
 
    |downloads_pyfastaq| |docker_pyfastaq|
 
-   :versions: 3.17.0, 3.14.0, 3.11.0
-
-   :depends: :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_pyfastaq|
+   :versions: 3.17.0-1, 3.17.0-0, 3.14.0-0, 3.11.0-1, 3.11.0-0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ pyfastaq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyfastaq
+      docker pull quay.io/repository/biocontainers/pyfastaq:<tag>
+
+   (see `pyfastaq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyfastaq| conda:required_by:: pyfastaq
 .. |downloads_pyfastaq| image:: https://img.shields.io/conda/dn/bioconda/pyfastaq.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyfastaq| image:: https://quay.io/repository/biocontainers/pyfastaq/status
    :target: https://quay.io/repository/biocontainers/pyfastaq
+.. _`pyfastaq/tags`: https://quay.io/repository/biocontainers/pyfastaq?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyfastaq/README.html
-

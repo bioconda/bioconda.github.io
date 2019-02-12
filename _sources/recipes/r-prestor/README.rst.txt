@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'prestor'
 .. highlight: bash
-
 
 prestor
 =======
@@ -21,11 +22,43 @@ prestor
 
    |downloads_prestor| |docker_prestor|
 
-   :versions: 07f9c7caeb60
-
-   :depends: :conda:package:`pandoc`  :conda:package:`r-alakazam`  :conda:package:`r-base` >=3.4.1 :conda:package:`r-bibtex`  :conda:package:`r-captioner`  :conda:package:`r-devtools`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-hexbin`  :conda:package:`r-knitr`  :conda:package:`r-optparse`  :conda:package:`r-rcpp` >=0.12.11 :conda:package:`r-rmarkdown`  :conda:package:`r-roxygen2`  :conda:package:`r-testthat`  :conda:package:`r-tidyr`  :conda:package:`texlive-core`  
-
-   :required~by: |required_by_prestor|
+   :versions: 07f9c7caeb60-1, 07f9c7caeb60-0
+   
+   :depends pandoc: <2.0
+   
+   :depends r-alakazam: 
+   
+   :depends r-base: >=3.4.1
+   
+   :depends r-bibtex: 
+   
+   :depends r-captioner: 
+   
+   :depends r-devtools: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-hexbin: 
+   
+   :depends r-knitr: 
+   
+   :depends r-optparse: 
+   
+   :depends r-rcpp: >=0.12.11
+   
+   :depends r-rmarkdown: 
+   
+   :depends r-roxygen2: 
+   
+   :depends r-testthat: 
+   
+   :depends r-tidyr: 
+   
+   :depends texlive-core: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +72,16 @@ prestor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prestor
+      docker pull quay.io/repository/biocontainers/prestor:<tag>
+
+   (see `prestor/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_prestor| conda:required_by:: prestor
 .. |downloads_prestor| image:: https://img.shields.io/conda/dn/bioconda/prestor.svg?style=flat
    :alt:   (downloads)
 .. |docker_prestor| image:: https://quay.io/repository/biocontainers/prestor/status
    :target: https://quay.io/repository/biocontainers/prestor
+.. _`prestor/tags`: https://quay.io/repository/biocontainers/prestor?tab=tags
 
 
 
@@ -63,4 +98,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/prestor/README.html
-

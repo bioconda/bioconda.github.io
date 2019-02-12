@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lumpy-sv'
 .. highlight: bash
-
 
 lumpy-sv
 ========
@@ -21,11 +22,25 @@ lumpy-sv
 
    |downloads_lumpy-sv| |docker_lumpy-sv|
 
-   :versions: 0.2.14a, 0.2.13, 0.2.12, 0.2.11
-
-   :depends: :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`gawk`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` 2.7.* :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_lumpy-sv|
+   :versions: 0.2.14a-2, 0.2.14a-1, 0.2.14a-0, 0.2.13-1, 0.2.13-0, 0.2.12-3, 0.2.12-2, 0.2.12-1, 0.2.12-0, 0.2.11-0
+   
+   :depends curl: >=7.59.0,<8.0a0
+   
+   :depends gawk: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends numpy: 
+   
+   :depends pysam: 
+   
+   :depends python: 2.7.*
+   
+   :depends samtools: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ lumpy-sv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lumpy-sv
+      docker pull quay.io/repository/biocontainers/lumpy-sv:<tag>
+
+   (see `lumpy-sv/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lumpy-sv| conda:required_by:: lumpy-sv
 .. |downloads_lumpy-sv| image:: https://img.shields.io/conda/dn/bioconda/lumpy-sv.svg?style=flat
    :alt:   (downloads)
 .. |docker_lumpy-sv| image:: https://quay.io/repository/biocontainers/lumpy-sv/status
    :target: https://quay.io/repository/biocontainers/lumpy-sv
+.. _`lumpy-sv/tags`: https://quay.io/repository/biocontainers/lumpy-sv?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lumpy-sv/README.html
-

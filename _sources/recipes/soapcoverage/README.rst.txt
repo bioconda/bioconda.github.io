@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'soapcoverage'
 .. highlight: bash
-
 
 soapcoverage
 ============
@@ -21,11 +22,13 @@ soapcoverage
 
    |downloads_soapcoverage| |docker_soapcoverage|
 
-   :versions: 2.7.7
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_soapcoverage|
+   :versions: 2.7.7-0
+   
+   :depends libgcc: 
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ soapcoverage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/soapcoverage
+      docker pull quay.io/repository/biocontainers/soapcoverage:<tag>
+
+   (see `soapcoverage/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_soapcoverage| conda:required_by:: soapcoverage
 .. |downloads_soapcoverage| image:: https://img.shields.io/conda/dn/bioconda/soapcoverage.svg?style=flat
    :alt:   (downloads)
 .. |docker_soapcoverage| image:: https://quay.io/repository/biocontainers/soapcoverage/status
    :target: https://quay.io/repository/biocontainers/soapcoverage
+.. _`soapcoverage/tags`: https://quay.io/repository/biocontainers/soapcoverage?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/soapcoverage/README.html
-

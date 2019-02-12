@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'andi'
 .. highlight: bash
-
 
 andi
 ====
@@ -22,11 +23,17 @@ andi
 
    |downloads_andi| |docker_andi|
 
-   :versions: 0.12, 0.11, 0.10
-
-   :depends: :conda:package:`gsl` 2.2* :conda:package:`libdivsufsort`  :conda:package:`libgcc`  :conda:package:`openblas`  
-
-   :required~by: |required_by_andi|
+   :versions: 0.12-3, 0.12-0, 0.11-1, 0.11-0, 0.10-0
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libdivsufsort: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ andi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/andi
+      docker pull quay.io/repository/biocontainers/andi:<tag>
+
+   (see `andi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_andi| conda:required_by:: andi
 .. |downloads_andi| image:: https://img.shields.io/conda/dn/bioconda/andi.svg?style=flat
    :alt:   (downloads)
 .. |docker_andi| image:: https://quay.io/repository/biocontainers/andi/status
    :target: https://quay.io/repository/biocontainers/andi
+.. _`andi/tags`: https://quay.io/repository/biocontainers/andi?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/andi/README.html
-

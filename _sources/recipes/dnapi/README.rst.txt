@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dnapi'
 .. highlight: bash
-
 
 dnapi
 =====
@@ -21,11 +22,11 @@ dnapi
 
    |downloads_dnapi| |docker_dnapi|
 
-   :versions: 1.1
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_dnapi|
+   :versions: 1.1-3, 1.1-2, 1.1-1, 1.1-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ dnapi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dnapi
+      docker pull quay.io/repository/biocontainers/dnapi:<tag>
+
+   (see `dnapi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dnapi| conda:required_by:: dnapi
 .. |downloads_dnapi| image:: https://img.shields.io/conda/dn/bioconda/dnapi.svg?style=flat
    :alt:   (downloads)
 .. |docker_dnapi| image:: https://quay.io/repository/biocontainers/dnapi/status
    :target: https://quay.io/repository/biocontainers/dnapi
+.. _`dnapi/tags`: https://quay.io/repository/biocontainers/dnapi?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dnapi/README.html
-

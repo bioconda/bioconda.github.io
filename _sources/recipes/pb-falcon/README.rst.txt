@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pb-falcon'
 .. highlight: bash
-
 
 pb-falcon
 =========
@@ -21,11 +22,29 @@ pb-falcon
 
    |downloads_pb-falcon| |docker_pb-falcon|
 
-   :versions: 0.2.5, 0.2.4, 0.2.3, 0.2.2, 0.2.1, 0.2.0, 0.0.2, 0.0.1, 0.0.0
-
-   :depends: :conda:package:`future` >=0.16.0 :conda:package:`htslib` 1.7 :conda:package:`libgcc-ng` >=4.9 :conda:package:`networkx` >=1.9.1 :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`python-edlib`  :conda:package:`python-intervaltree`  :conda:package:`python-msgpack`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_pb-falcon|
+   :versions: 0.2.5-3, 0.2.5-2, 0.2.5-1, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-1, 0.2.1-0, 0.2.0-2, 0.2.0-0, 0.0.2-0, 0.0.1-0, 0.0.0-0
+   
+   :depends future: >=0.16.0
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends networkx: >=1.9.1
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends python-edlib: 
+   
+   :depends python-intervaltree: 
+   
+   :depends python-msgpack: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ pb-falcon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pb-falcon
+      docker pull quay.io/repository/biocontainers/pb-falcon:<tag>
+
+   (see `pb-falcon/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pb-falcon| conda:required_by:: pb-falcon
 .. |downloads_pb-falcon| image:: https://img.shields.io/conda/dn/bioconda/pb-falcon.svg?style=flat
    :alt:   (downloads)
 .. |docker_pb-falcon| image:: https://quay.io/repository/biocontainers/pb-falcon/status
    :target: https://quay.io/repository/biocontainers/pb-falcon
+.. _`pb-falcon/tags`: https://quay.io/repository/biocontainers/pb-falcon?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pb-falcon/README.html
-

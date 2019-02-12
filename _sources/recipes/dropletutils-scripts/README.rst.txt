@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dropletutils-scripts'
 .. highlight: bash
-
 
 dropletutils-scripts
 ====================
@@ -21,11 +22,21 @@ dropletutils-scripts
 
    |downloads_dropletutils-scripts| |docker_dropletutils-scripts|
 
-   :versions: 0.0.1
-
-   :depends: :conda:package:`bioconductor-biobase`  :conda:package:`bioconductor-dropletutils` 1.0.3.* :conda:package:`bioconductor-singlecellexperiment`  :conda:package:`r-base` 3.5.1.* :conda:package:`r-optparse`  :conda:package:`r-workflowscriptscommon`  
-
-   :required~by: |required_by_dropletutils-scripts|
+   :versions: 0.0.1-0
+   
+   :depends bioconductor-biobase: 
+   
+   :depends bioconductor-dropletutils: 1.0.3.*
+   
+   :depends bioconductor-singlecellexperiment: 
+   
+   :depends r-base: 3.5.1.*
+   
+   :depends r-optparse: 
+   
+   :depends r-workflowscriptscommon: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ dropletutils-scripts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dropletutils-scripts
+      docker pull quay.io/repository/biocontainers/dropletutils-scripts:<tag>
+
+   (see `dropletutils-scripts/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dropletutils-scripts| conda:required_by:: dropletutils-scripts
 .. |downloads_dropletutils-scripts| image:: https://img.shields.io/conda/dn/bioconda/dropletutils-scripts.svg?style=flat
    :alt:   (downloads)
 .. |docker_dropletutils-scripts| image:: https://quay.io/repository/biocontainers/dropletutils-scripts/status
    :target: https://quay.io/repository/biocontainers/dropletutils-scripts
+.. _`dropletutils-scripts/tags`: https://quay.io/repository/biocontainers/dropletutils-scripts?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dropletutils-scripts/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-gwpcr'
 .. highlight: bash
-
 
 r-gwpcr
 =======
@@ -21,11 +22,19 @@ r-gwpcr
 
    |downloads_r-gwpcr| |docker_r-gwpcr|
 
-   :versions: 0.9.10, 0.9.9
-
-   :depends: :conda:package:`libgcc`  :conda:package:`r-akima`  :conda:package:`r-base` 3.4.1* :conda:package:`r-data.table`  :conda:package:`r-statmod`  
-
-   :required~by: |required_by_r-gwpcr|
+   :versions: 0.9.10-2, 0.9.10-1, 0.9.10-0, 0.9.9-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-akima: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-statmod: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ r-gwpcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gwpcr
+      docker pull quay.io/repository/biocontainers/r-gwpcr:<tag>
+
+   (see `r-gwpcr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-gwpcr| conda:required_by:: r-gwpcr
 .. |downloads_r-gwpcr| image:: https://img.shields.io/conda/dn/bioconda/r-gwpcr.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-gwpcr| image:: https://quay.io/repository/biocontainers/r-gwpcr/status
    :target: https://quay.io/repository/biocontainers/r-gwpcr
+.. _`r-gwpcr/tags`: https://quay.io/repository/biocontainers/r-gwpcr?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-gwpcr/README.html
-

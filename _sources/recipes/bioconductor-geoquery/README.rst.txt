@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-geoquery'
 .. highlight: bash
-
 
 bioconductor-geoquery
 =====================
@@ -22,11 +23,27 @@ bioconductor-geoquery
 
    |downloads_bioconductor-geoquery| |docker_bioconductor-geoquery|
 
-   :versions: 2.50.0, 2.48.0, 2.46.3, 2.46.0, 2.42.0, 2.38.4, 2.36.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-httr`  :conda:package:`r-magrittr`  :conda:package:`r-readr`  :conda:package:`r-tidyr`  :conda:package:`r-xml2`  
-
-   :required~by: |required_by_bioconductor-geoquery|
+   :versions: 2.50.0-0, 2.48.0-0, 2.46.3-0, 2.46.0-0, 2.42.0-0, 2.38.4-0, 2.36.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-httr: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-readr: 
+   
+   :depends r-tidyr: 
+   
+   :depends r-xml2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ bioconductor-geoquery
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geoquery
+      docker pull quay.io/repository/biocontainers/bioconductor-geoquery:<tag>
+
+   (see `bioconductor-geoquery/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-geoquery| conda:required_by:: bioconductor-geoquery
 .. |downloads_bioconductor-geoquery| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geoquery.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-geoquery| image:: https://quay.io/repository/biocontainers/bioconductor-geoquery/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geoquery
+.. _`bioconductor-geoquery/tags`: https://quay.io/repository/biocontainers/bioconductor-geoquery?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-geoquery/README.html
-

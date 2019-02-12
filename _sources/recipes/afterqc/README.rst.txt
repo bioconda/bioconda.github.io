@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'afterqc'
 .. highlight: bash
-
 
 afterqc
 =======
@@ -21,11 +22,11 @@ afterqc
 
    |downloads_afterqc| |docker_afterqc|
 
-   :versions: 0.9.7, 0.9.6
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_afterqc|
+   :versions: 0.9.7-2, 0.9.7-0, 0.9.6-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ afterqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/afterqc
+      docker pull quay.io/repository/biocontainers/afterqc:<tag>
+
+   (see `afterqc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_afterqc| conda:required_by:: afterqc
 .. |downloads_afterqc| image:: https://img.shields.io/conda/dn/bioconda/afterqc.svg?style=flat
    :alt:   (downloads)
 .. |docker_afterqc| image:: https://quay.io/repository/biocontainers/afterqc/status
    :target: https://quay.io/repository/biocontainers/afterqc
+.. _`afterqc/tags`: https://quay.io/repository/biocontainers/afterqc?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/afterqc/README.html
-

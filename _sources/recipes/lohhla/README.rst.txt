@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lohhla'
 .. highlight: bash
-
 
 lohhla
 ======
@@ -21,11 +22,31 @@ lohhla
 
    |downloads_lohhla| |docker_lohhla|
 
-   :versions: 20171108
-
-   :depends: :conda:package:`bedtools`  :conda:package:`bioconductor-biostrings`  :conda:package:`bioconductor-rsamtools`  :conda:package:`novoalign`  :conda:package:`picard`  :conda:package:`r-base`  :conda:package:`r-beeswarm`  :conda:package:`r-optparse`  :conda:package:`r-seqinr`  :conda:package:`r-zoo`  :conda:package:`samtools`  
-
-   :required~by: |required_by_lohhla|
+   :versions: 20171108-1, 20171108-0
+   
+   :depends bedtools: 
+   
+   :depends bioconductor-biostrings: 
+   
+   :depends bioconductor-rsamtools: 
+   
+   :depends novoalign: 
+   
+   :depends picard: 
+   
+   :depends r-base: 
+   
+   :depends r-beeswarm: 
+   
+   :depends r-optparse: 
+   
+   :depends r-seqinr: 
+   
+   :depends r-zoo: 
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ lohhla
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lohhla
+      docker pull quay.io/repository/biocontainers/lohhla:<tag>
+
+   (see `lohhla/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lohhla| conda:required_by:: lohhla
 .. |downloads_lohhla| image:: https://img.shields.io/conda/dn/bioconda/lohhla.svg?style=flat
    :alt:   (downloads)
 .. |docker_lohhla| image:: https://quay.io/repository/biocontainers/lohhla/status
    :target: https://quay.io/repository/biocontainers/lohhla
+.. _`lohhla/tags`: https://quay.io/repository/biocontainers/lohhla?tab=tags
 
 
 
@@ -67,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lohhla/README.html
-

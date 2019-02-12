@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'talloc'
 .. highlight: bash
-
 
 talloc
 ======
@@ -21,11 +22,9 @@ talloc
 
    |downloads_talloc| |docker_talloc|
 
-   :versions: 2.1.9
-
-   :depends: 
-
-   :required~by: |required_by_talloc|
+   :versions: 2.1.9-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ talloc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/talloc
+      docker pull quay.io/repository/biocontainers/talloc:<tag>
+
+   (see `talloc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_talloc| conda:required_by:: talloc
 .. |downloads_talloc| image:: https://img.shields.io/conda/dn/bioconda/talloc.svg?style=flat
    :alt:   (downloads)
 .. |docker_talloc| image:: https://quay.io/repository/biocontainers/talloc/status
    :target: https://quay.io/repository/biocontainers/talloc
+.. _`talloc/tags`: https://quay.io/repository/biocontainers/talloc?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/talloc/README.html
-

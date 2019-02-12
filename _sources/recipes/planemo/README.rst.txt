@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'planemo'
 .. highlight: bash
-
 
 planemo
 =======
@@ -21,11 +22,41 @@ planemo
 
    |downloads_planemo| |docker_planemo|
 
-   :versions: 0.57.1, 0.57.0, 0.56.0, 0.55.0, 0.54.0, 0.48.0, 0.46.1, 0.40.1, 0.38.1, 0.34.1, 0.33.2, 0.29.1, 0.23.0
-
-   :depends: :conda:package:`aenum`  :conda:package:`bioblend` >=0.10.0 :conda:package:`click`  :conda:package:`docutils`  :conda:package:`ephemeris`  :conda:package:`galaxy-lib` >=18.5.15 :conda:package:`glob2`  :conda:package:`gxformat2`  :conda:package:`jinja2`  :conda:package:`lxml`  :conda:package:`oyaml`  :conda:package:`pyaml`  :conda:package:`python`  :conda:package:`pyyaml`  :conda:package:`six` >=1.7.0 :conda:package:`virtualenv`  
-
-   :required~by: |required_by_planemo|
+   :versions: 0.57.1-0, 0.57.0-0, 0.56.0-0, 0.55.0-1, 0.55.0-0, 0.54.0-1, 0.48.0-1, 0.48.0-0, 0.46.1-0, 0.40.1-0, 0.38.1-1, 0.34.1-2, 0.34.1-1, 0.34.1-0, 0.33.2-0, 0.29.1-0, 0.23.0-1, 0.23.0-0
+   
+   :depends aenum: 
+   
+   :depends bioblend: >=0.10.0
+   
+   :depends click: 
+   
+   :depends docutils: 
+   
+   :depends ephemeris: 
+   
+   :depends galaxy-lib: >=18.5.15
+   
+   :depends glob2: 
+   
+   :depends gxformat2: 
+   
+   :depends jinja2: 
+   
+   :depends lxml: 
+   
+   :depends oyaml: 
+   
+   :depends pyaml: 
+   
+   :depends python: 
+   
+   :depends pyyaml: 
+   
+   :depends six: >=1.7.0
+   
+   :depends virtualenv: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ planemo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/planemo
+      docker pull quay.io/repository/biocontainers/planemo:<tag>
+
+   (see `planemo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_planemo| conda:required_by:: planemo
 .. |downloads_planemo| image:: https://img.shields.io/conda/dn/bioconda/planemo.svg?style=flat
    :alt:   (downloads)
 .. |docker_planemo| image:: https://quay.io/repository/biocontainers/planemo/status
    :target: https://quay.io/repository/biocontainers/planemo
+.. _`planemo/tags`: https://quay.io/repository/biocontainers/planemo?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/planemo/README.html
-

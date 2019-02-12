@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-structssi'
 .. highlight: bash
-
 
 r-structssi
 ===========
@@ -21,11 +22,21 @@ r-structssi
 
    |downloads_r-structssi| |docker_r-structssi|
 
-   :versions: 1.1.1
-
-   :depends: :conda:package:`bioconductor-multtest`  :conda:package:`r-base` 3.4.1* :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-reshape2`  :conda:package:`r-rjson`  
-
-   :required~by: |required_by_r-structssi|
+   :versions: 1.1.1-3, 1.1.1-2, 1.1.1-1, 1.1.1-0
+   
+   :depends bioconductor-multtest: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-igraph: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-rjson: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-structssi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-structssi
+      docker pull quay.io/repository/biocontainers/r-structssi:<tag>
+
+   (see `r-structssi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-structssi| conda:required_by:: r-structssi
 .. |downloads_r-structssi| image:: https://img.shields.io/conda/dn/bioconda/r-structssi.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-structssi| image:: https://quay.io/repository/biocontainers/r-structssi/status
    :target: https://quay.io/repository/biocontainers/r-structssi
+.. _`r-structssi/tags`: https://quay.io/repository/biocontainers/r-structssi?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-structssi/README.html
-

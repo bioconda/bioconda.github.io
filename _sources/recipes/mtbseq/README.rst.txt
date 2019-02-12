@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mtbseq'
 .. highlight: bash
-
 
 mtbseq
 ======
@@ -21,11 +22,27 @@ mtbseq
 
    |downloads_mtbseq| |docker_mtbseq|
 
-   :versions: 1.0.3
-
-   :depends: :conda:package:`bwa` 0.7.17 :conda:package:`gatk` 3.8 :conda:package:`openjdk` >=8,<9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-mce` >=1.836 :conda:package:`perl-number-format`  :conda:package:`perl-statistics-basic` >=1.6611 :conda:package:`picard` >=2.17.0 :conda:package:`samtools` 1.6 
-
-   :required~by: |required_by_mtbseq|
+   :versions: 1.0.3-1, 1.0.3-0
+   
+   :depends bwa: 0.7.17
+   
+   :depends gatk: 3.8
+   
+   :depends openjdk: >=8,<9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-mce: >=1.836
+   
+   :depends perl-number-format: 
+   
+   :depends perl-statistics-basic: >=1.6611
+   
+   :depends picard: >=2.17.0
+   
+   :depends samtools: 1.6
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ mtbseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mtbseq
+      docker pull quay.io/repository/biocontainers/mtbseq:<tag>
+
+   (see `mtbseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mtbseq| conda:required_by:: mtbseq
 .. |downloads_mtbseq| image:: https://img.shields.io/conda/dn/bioconda/mtbseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_mtbseq| image:: https://quay.io/repository/biocontainers/mtbseq/status
    :target: https://quay.io/repository/biocontainers/mtbseq
+.. _`mtbseq/tags`: https://quay.io/repository/biocontainers/mtbseq?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mtbseq/README.html
-

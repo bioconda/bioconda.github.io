@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ngscopy'
 .. highlight: bash
-
 
 bioconductor-ngscopy
 ====================
@@ -21,11 +22,17 @@ bioconductor-ngscopy
 
    |downloads_bioconductor-ngscopy| |docker_bioconductor-ngscopy|
 
-   :versions: 1.16.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-changepoint` >=2.1.1 :conda:package:`r-rbamtools` >=2.6.0 :conda:package:`r-xmisc` >=0.2.1 
-
-   :required~by: |required_by_bioconductor-ngscopy|
+   :versions: 1.16.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-changepoint: >=2.1.1
+   
+   :depends r-rbamtools: >=2.6.0
+   
+   :depends r-xmisc: >=0.2.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-ngscopy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ngscopy
+      docker pull quay.io/repository/biocontainers/bioconductor-ngscopy:<tag>
+
+   (see `bioconductor-ngscopy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ngscopy| conda:required_by:: bioconductor-ngscopy
 .. |downloads_bioconductor-ngscopy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ngscopy.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ngscopy| image:: https://quay.io/repository/biocontainers/bioconductor-ngscopy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ngscopy
+.. _`bioconductor-ngscopy/tags`: https://quay.io/repository/biocontainers/bioconductor-ngscopy?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ngscopy/README.html
-

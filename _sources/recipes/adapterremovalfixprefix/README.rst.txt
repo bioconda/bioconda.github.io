@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'adapterremovalfixprefix'
 .. highlight: bash
-
 
 adapterremovalfixprefix
 =======================
@@ -21,11 +22,13 @@ adapterremovalfixprefix
 
    |downloads_adapterremovalfixprefix| |docker_adapterremovalfixprefix|
 
-   :versions: 0.0.4
-
-   :depends: :conda:package:`openjdk`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_adapterremovalfixprefix|
+   :versions: 0.0.4-1, 0.0.4-0
+   
+   :depends openjdk: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ adapterremovalfixprefix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/adapterremovalfixprefix
+      docker pull quay.io/repository/biocontainers/adapterremovalfixprefix:<tag>
+
+   (see `adapterremovalfixprefix/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_adapterremovalfixprefix| conda:required_by:: adapterremovalfixprefix
 .. |downloads_adapterremovalfixprefix| image:: https://img.shields.io/conda/dn/bioconda/adapterremovalfixprefix.svg?style=flat
    :alt:   (downloads)
 .. |docker_adapterremovalfixprefix| image:: https://quay.io/repository/biocontainers/adapterremovalfixprefix/status
    :target: https://quay.io/repository/biocontainers/adapterremovalfixprefix
+.. _`adapterremovalfixprefix/tags`: https://quay.io/repository/biocontainers/adapterremovalfixprefix?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/adapterremovalfixprefix/README.html
-

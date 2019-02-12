@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'delegation'
 .. highlight: bash
-
 
 delegation
 ==========
@@ -21,11 +22,11 @@ delegation
 
    |downloads_delegation| |docker_delegation|
 
-   :versions: 1.1
-
-   :depends: :conda:package:`python`  
-
-   :required~by: |required_by_delegation|
+   :versions: 1.1-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ delegation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/delegation
+      docker pull quay.io/repository/biocontainers/delegation:<tag>
+
+   (see `delegation/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_delegation| conda:required_by:: delegation
 .. |downloads_delegation| image:: https://img.shields.io/conda/dn/bioconda/delegation.svg?style=flat
    :alt:   (downloads)
 .. |docker_delegation| image:: https://quay.io/repository/biocontainers/delegation/status
    :target: https://quay.io/repository/biocontainers/delegation
+.. _`delegation/tags`: https://quay.io/repository/biocontainers/delegation?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/delegation/README.html
-

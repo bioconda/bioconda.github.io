@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bcbio_monitor'
 .. highlight: bash
-
 
 bcbio_monitor
 =============
@@ -21,11 +22,27 @@ bcbio_monitor
 
    |downloads_bcbio_monitor| |docker_bcbio_monitor|
 
-   :versions: 1.0.6, 1.0.2
-
-   :depends: :conda:package:`dateutil`  :conda:package:`flask` >=0.10.1 :conda:package:`gevent` >=1.0 :conda:package:`paramiko`  :conda:package:`py-graphviz`  :conda:package:`python` 2.7* :conda:package:`pytz`  :conda:package:`pyyaml`  :conda:package:`requests`  
-
-   :required~by: |required_by_bcbio_monitor|
+   :versions: 1.0.6-3, 1.0.6-2, 1.0.6-0, 1.0.2-0
+   
+   :depends dateutil: 
+   
+   :depends flask: >=0.10.1
+   
+   :depends gevent: >=1.0
+   
+   :depends paramiko: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends python-graphviz: 
+   
+   :depends pytz: 
+   
+   :depends pyyaml: 
+   
+   :depends requests: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bcbio_monitor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcbio_monitor
+      docker pull quay.io/repository/biocontainers/bcbio_monitor:<tag>
+
+   (see `bcbio_monitor/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bcbio_monitor| conda:required_by:: bcbio_monitor
 .. |downloads_bcbio_monitor| image:: https://img.shields.io/conda/dn/bioconda/bcbio_monitor.svg?style=flat
    :alt:   (downloads)
 .. |docker_bcbio_monitor| image:: https://quay.io/repository/biocontainers/bcbio_monitor/status
    :target: https://quay.io/repository/biocontainers/bcbio_monitor
+.. _`bcbio_monitor/tags`: https://quay.io/repository/biocontainers/bcbio_monitor?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bcbio_monitor/README.html
-

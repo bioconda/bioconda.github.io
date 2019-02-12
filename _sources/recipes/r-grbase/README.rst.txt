@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-grbase'
 .. highlight: bash
-
 
 r-grbase
 ========
@@ -21,11 +22,31 @@ r-grbase
 
    |downloads_r-grbase| |docker_r-grbase|
 
-   :versions: 1.8_3.4
-
-   :depends: :conda:package:`bioconductor-graph`  :conda:package:`bioconductor-rbgl`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-magrittr`  :conda:package:`r-matrix`  :conda:package:`r-rcpp` >=0.11.1 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcppeigen`  
-
-   :required~by: |required_by_r-grbase|
+   :versions: 1.8_3.4-0
+   
+   :depends bioconductor-graph: 
+   
+   :depends bioconductor-rbgl: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-igraph: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-matrix: 
+   
+   :depends r-rcpp: >=0.11.1
+   
+   :depends r-rcpparmadillo: 
+   
+   :depends r-rcppeigen: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ r-grbase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-grbase
+      docker pull quay.io/repository/biocontainers/r-grbase:<tag>
+
+   (see `r-grbase/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-grbase| conda:required_by:: r-grbase
 .. |downloads_r-grbase| image:: https://img.shields.io/conda/dn/bioconda/r-grbase.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-grbase| image:: https://quay.io/repository/biocontainers/r-grbase/status
    :target: https://quay.io/repository/biocontainers/r-grbase
+.. _`r-grbase/tags`: https://quay.io/repository/biocontainers/r-grbase?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-grbase/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastuniq'
 .. highlight: bash
-
 
 fastuniq
 ========
@@ -21,11 +22,11 @@ fastuniq
 
    |downloads_fastuniq| |docker_fastuniq|
 
-   :versions: 1.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_fastuniq|
+   :versions: 1.1-1, 1.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ fastuniq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastuniq
+      docker pull quay.io/repository/biocontainers/fastuniq:<tag>
+
+   (see `fastuniq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastuniq| conda:required_by:: fastuniq
 .. |downloads_fastuniq| image:: https://img.shields.io/conda/dn/bioconda/fastuniq.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastuniq| image:: https://quay.io/repository/biocontainers/fastuniq/status
    :target: https://quay.io/repository/biocontainers/fastuniq
+.. _`fastuniq/tags`: https://quay.io/repository/biocontainers/fastuniq?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastuniq/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-number-compare'
 .. highlight: bash
-
 
 perl-number-compare
 ===================
@@ -21,11 +22,11 @@ perl-number-compare
 
    |downloads_perl-number-compare| |docker_perl-number-compare|
 
-   :versions: 0.03
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-number-compare|
+   :versions: 0.03-2, 0.03-1, 0.03-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-number-compare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-number-compare
+      docker pull quay.io/repository/biocontainers/perl-number-compare:<tag>
+
+   (see `perl-number-compare/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-number-compare| conda:required_by:: perl-number-compare
 .. |downloads_perl-number-compare| image:: https://img.shields.io/conda/dn/bioconda/perl-number-compare.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-number-compare| image:: https://quay.io/repository/biocontainers/perl-number-compare/status
    :target: https://quay.io/repository/biocontainers/perl-number-compare
+.. _`perl-number-compare/tags`: https://quay.io/repository/biocontainers/perl-number-compare?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-number-compare/README.html
-

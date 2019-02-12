@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fiji'
 .. highlight: bash
-
 
 fiji
 ====
@@ -21,11 +22,11 @@ fiji
 
    |downloads_fiji| |docker_fiji|
 
-   :versions: 20151222, 20141125
-
-   :depends: :conda:package:`java-jdk` >=6 
-
-   :required~by: |required_by_fiji|
+   :versions: 20151222-2, 20151222-1, 20151222-0, 20141125-6, 20141125-5, 20141125-4, 20141125-3, 20141125-2, 20141125-1
+   
+   :depends java-jdk: >=6
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ fiji
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fiji
+      docker pull quay.io/repository/biocontainers/fiji:<tag>
+
+   (see `fiji/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fiji| conda:required_by:: fiji
 .. |downloads_fiji| image:: https://img.shields.io/conda/dn/bioconda/fiji.svg?style=flat
    :alt:   (downloads)
 .. |docker_fiji| image:: https://quay.io/repository/biocontainers/fiji/status
    :target: https://quay.io/repository/biocontainers/fiji
+.. _`fiji/tags`: https://quay.io/repository/biocontainers/fiji?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fiji/README.html
-

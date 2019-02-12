@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nanocomp'
 .. highlight: bash
-
 
 nanocomp
 ========
@@ -21,11 +22,23 @@ nanocomp
 
    |downloads_nanocomp| |docker_nanocomp|
 
-   :versions: 1.1.0, 1.0.0, 0.23.1, 0.23.0, 0.19.0, 0.16.0, 0.15.0, 0.12.4, 0.7.0, 0.5.0
-
-   :depends: :conda:package:`nanoget` >=1.4.0 :conda:package:`nanomath` >=0.15.3 :conda:package:`nanoplot` >=1.17.3 :conda:package:`nanoplotter` >=1.0.0 :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=3.5,<3.6.0a0 
-
-   :required~by: |required_by_nanocomp|
+   :versions: 1.1.0-0, 1.0.0-0, 0.23.1-0, 0.23.0-1, 0.19.0-1, 0.19.0-0, 0.16.0-0, 0.15.0-0, 0.12.4-0, 0.7.0-0, 0.5.0-0
+   
+   :depends nanoget: >=1.4.0
+   
+   :depends nanomath: >=0.15.3
+   
+   :depends nanoplot: >=1.17.3
+   
+   :depends nanoplotter: >=1.0.0
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ nanocomp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanocomp
+      docker pull quay.io/repository/biocontainers/nanocomp:<tag>
+
+   (see `nanocomp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nanocomp| conda:required_by:: nanocomp
 .. |downloads_nanocomp| image:: https://img.shields.io/conda/dn/bioconda/nanocomp.svg?style=flat
    :alt:   (downloads)
 .. |docker_nanocomp| image:: https://quay.io/repository/biocontainers/nanocomp/status
    :target: https://quay.io/repository/biocontainers/nanocomp
+.. _`nanocomp/tags`: https://quay.io/repository/biocontainers/nanocomp?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nanocomp/README.html
-

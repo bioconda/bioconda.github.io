@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-array-utils'
 .. highlight: bash
-
 
 perl-array-utils
 ================
@@ -21,11 +22,11 @@ perl-array-utils
 
    |downloads_perl-array-utils| |docker_perl-array-utils|
 
-   :versions: 0.5
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-array-utils|
+   :versions: 0.5-2, 0.5-1, 0.5-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-array-utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-array-utils
+      docker pull quay.io/repository/biocontainers/perl-array-utils:<tag>
+
+   (see `perl-array-utils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-array-utils| conda:required_by:: perl-array-utils
 .. |downloads_perl-array-utils| image:: https://img.shields.io/conda/dn/bioconda/perl-array-utils.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-array-utils| image:: https://quay.io/repository/biocontainers/perl-array-utils/status
    :target: https://quay.io/repository/biocontainers/perl-array-utils
+.. _`perl-array-utils/tags`: https://quay.io/repository/biocontainers/perl-array-utils?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-array-utils/README.html
-

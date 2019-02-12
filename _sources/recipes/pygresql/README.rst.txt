@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pygresql'
 .. highlight: bash
-
 
 pygresql
 ========
@@ -21,11 +22,13 @@ pygresql
 
    |downloads_pygresql| |docker_pygresql|
 
-   :versions: 5.0.1
-
-   :depends: :conda:package:`postgresql`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pygresql|
+   :versions: 5.0.1-1, 5.0.1-0
+   
+   :depends postgresql: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ pygresql
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pygresql
+      docker pull quay.io/repository/biocontainers/pygresql:<tag>
+
+   (see `pygresql/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pygresql| conda:required_by:: pygresql
 .. |downloads_pygresql| image:: https://img.shields.io/conda/dn/bioconda/pygresql.svg?style=flat
    :alt:   (downloads)
 .. |docker_pygresql| image:: https://quay.io/repository/biocontainers/pygresql/status
    :target: https://quay.io/repository/biocontainers/pygresql
+.. _`pygresql/tags`: https://quay.io/repository/biocontainers/pygresql?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pygresql/README.html
-

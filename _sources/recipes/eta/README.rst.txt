@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'eta'
 .. highlight: bash
-
 
 eta
 ===
@@ -21,11 +22,11 @@ eta
 
    |downloads_eta| |docker_eta|
 
-   :versions: 0.9.7
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_eta|
+   :versions: 0.9.7-1, 0.9.7-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ eta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/eta
+      docker pull quay.io/repository/biocontainers/eta:<tag>
+
+   (see `eta/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_eta| conda:required_by:: eta
 .. |downloads_eta| image:: https://img.shields.io/conda/dn/bioconda/eta.svg?style=flat
    :alt:   (downloads)
 .. |docker_eta| image:: https://quay.io/repository/biocontainers/eta/status
    :target: https://quay.io/repository/biocontainers/eta
+.. _`eta/tags`: https://quay.io/repository/biocontainers/eta?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/eta/README.html
-

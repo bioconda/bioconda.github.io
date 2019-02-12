@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-readbrukerflexdata'
 .. highlight: bash
-
 
 r-readbrukerflexdata
 ====================
@@ -21,11 +22,11 @@ r-readbrukerflexdata
 
    |downloads_r-readbrukerflexdata| |docker_r-readbrukerflexdata|
 
-   :versions: 1.8.5, 1.8.2
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-readbrukerflexdata|
+   :versions: 1.8.5-0, 1.8.2-0
+   
+   :depends r-base: 3.4.1*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-readbrukerflexdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-readbrukerflexdata
+      docker pull quay.io/repository/biocontainers/r-readbrukerflexdata:<tag>
+
+   (see `r-readbrukerflexdata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-readbrukerflexdata| conda:required_by:: r-readbrukerflexdata
 .. |downloads_r-readbrukerflexdata| image:: https://img.shields.io/conda/dn/bioconda/r-readbrukerflexdata.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-readbrukerflexdata| image:: https://quay.io/repository/biocontainers/r-readbrukerflexdata/status
    :target: https://quay.io/repository/biocontainers/r-readbrukerflexdata
+.. _`r-readbrukerflexdata/tags`: https://quay.io/repository/biocontainers/r-readbrukerflexdata?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-readbrukerflexdata/README.html
-

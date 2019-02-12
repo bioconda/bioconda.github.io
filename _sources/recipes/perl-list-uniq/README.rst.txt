@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-list-uniq'
 .. highlight: bash
-
 
 perl-list-uniq
 ==============
@@ -21,11 +22,11 @@ perl-list-uniq
 
    |downloads_perl-list-uniq| |docker_perl-list-uniq|
 
-   :versions: 0.20
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-list-uniq|
+   :versions: 0.20-1, 0.20-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-list-uniq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-list-uniq
+      docker pull quay.io/repository/biocontainers/perl-list-uniq:<tag>
+
+   (see `perl-list-uniq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-list-uniq| conda:required_by:: perl-list-uniq
 .. |downloads_perl-list-uniq| image:: https://img.shields.io/conda/dn/bioconda/perl-list-uniq.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-list-uniq| image:: https://quay.io/repository/biocontainers/perl-list-uniq/status
    :target: https://quay.io/repository/biocontainers/perl-list-uniq
+.. _`perl-list-uniq/tags`: https://quay.io/repository/biocontainers/perl-list-uniq?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-list-uniq/README.html
-

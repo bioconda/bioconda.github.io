@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-digest-hmac'
 .. highlight: bash
-
 
 perl-digest-hmac
 ================
@@ -21,11 +22,11 @@ perl-digest-hmac
 
    |downloads_perl-digest-hmac| |docker_perl-digest-hmac|
 
-   :versions: 1.03
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-digest-hmac|
+   :versions: 1.03-2, 1.03-1, 1.03-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-digest-hmac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-digest-hmac
+      docker pull quay.io/repository/biocontainers/perl-digest-hmac:<tag>
+
+   (see `perl-digest-hmac/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-digest-hmac| conda:required_by:: perl-digest-hmac
 .. |downloads_perl-digest-hmac| image:: https://img.shields.io/conda/dn/bioconda/perl-digest-hmac.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-digest-hmac| image:: https://quay.io/repository/biocontainers/perl-digest-hmac/status
    :target: https://quay.io/repository/biocontainers/perl-digest-hmac
+.. _`perl-digest-hmac/tags`: https://quay.io/repository/biocontainers/perl-digest-hmac?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-digest-hmac/README.html
-

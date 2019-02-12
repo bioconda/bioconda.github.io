@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sqt'
 .. highlight: bash
-
 
 sqt
 ===
@@ -21,11 +22,23 @@ sqt
 
    |downloads_sqt| |docker_sqt|
 
-   :versions: 0.8.0, 0.7.0, 0.6.3, 0.6.1
-
-   :depends: :conda:package:`cutadapt`  :conda:package:`libgcc`  :conda:package:`matplotlib`  :conda:package:`pysam`  :conda:package:`python` 3.4* :conda:package:`seaborn`  :conda:package:`xopen`  
-
-   :required~by: |required_by_sqt|
+   :versions: 0.8.0-2, 0.8.0-0, 0.7.0-2, 0.7.0-1, 0.7.0-0, 0.6.3-0, 0.6.1-0
+   
+   :depends cutadapt: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends seaborn: 
+   
+   :depends xopen: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ sqt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sqt
+      docker pull quay.io/repository/biocontainers/sqt:<tag>
+
+   (see `sqt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sqt| conda:required_by:: sqt
 .. |downloads_sqt| image:: https://img.shields.io/conda/dn/bioconda/sqt.svg?style=flat
    :alt:   (downloads)
 .. |docker_sqt| image:: https://quay.io/repository/biocontainers/sqt/status
    :target: https://quay.io/repository/biocontainers/sqt
+.. _`sqt/tags`: https://quay.io/repository/biocontainers/sqt?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sqt/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bcbiogff'
 .. highlight: bash
-
 
 bcbiogff
 ========
@@ -21,11 +22,15 @@ bcbiogff
 
    |downloads_bcbiogff| |docker_bcbiogff|
 
-   :versions: 0.6.4, 0.6.2
-
-   :depends: :conda:package:`biopython`  :conda:package:`python` 2.7* :conda:package:`six`  
-
-   :required~by: |required_by_bcbiogff|
+   :versions: 0.6.4-1, 0.6.4-0, 0.6.2-2, 0.6.2-1, 0.6.2-0
+   
+   :depends biopython: 
+   
+   :depends python: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bcbiogff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcbiogff
+      docker pull quay.io/repository/biocontainers/bcbiogff:<tag>
+
+   (see `bcbiogff/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bcbiogff| conda:required_by:: bcbiogff
 .. |downloads_bcbiogff| image:: https://img.shields.io/conda/dn/bioconda/bcbiogff.svg?style=flat
    :alt:   (downloads)
 .. |docker_bcbiogff| image:: https://quay.io/repository/biocontainers/bcbiogff/status
    :target: https://quay.io/repository/biocontainers/bcbiogff
+.. _`bcbiogff/tags`: https://quay.io/repository/biocontainers/bcbiogff?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bcbiogff/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sshmm'
 .. highlight: bash
-
 
 sshmm
 =====
@@ -21,11 +22,33 @@ sshmm
 
    |downloads_sshmm| |docker_sshmm|
 
-   :versions: 1.0.7
-
-   :depends: :conda:package:`forgi`  :conda:package:`ghmm`  :conda:package:`graphviz`  :conda:package:`libxml2` 2.9.4.* :conda:package:`numpy` 1.11.* :conda:package:`pip`  :conda:package:`pygraphviz`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`rnashapes` 2.1.6.* :conda:package:`rnastructure`  :conda:package:`weblogo`  
-
-   :required~by: |required_by_sshmm|
+   :versions: 1.0.7-2, 1.0.7-1, 1.0.7-0
+   
+   :depends bedtools: 
+   
+   :depends forgi: 
+   
+   :depends ghmm: 
+   
+   :depends graphviz: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libxml2: >=2.9.8,<2.10.0a0
+   
+   :depends numpy: 1.11.*
+   
+   :depends pygraphviz: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends rnashapes: 2.1.6.*
+   
+   :depends rnastructure: 
+   
+   :depends weblogo: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ sshmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sshmm
+      docker pull quay.io/repository/biocontainers/sshmm:<tag>
+
+   (see `sshmm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sshmm| conda:required_by:: sshmm
 .. |downloads_sshmm| image:: https://img.shields.io/conda/dn/bioconda/sshmm.svg?style=flat
    :alt:   (downloads)
 .. |docker_sshmm| image:: https://quay.io/repository/biocontainers/sshmm/status
    :target: https://quay.io/repository/biocontainers/sshmm
+.. _`sshmm/tags`: https://quay.io/repository/biocontainers/sshmm?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sshmm/README.html
-

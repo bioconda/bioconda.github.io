@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'knot'
 .. highlight: bash
-
 
 knot
 ====
@@ -21,11 +22,9 @@ knot
 
    |downloads_knot| |docker_knot|
 
-   :versions: 1.0.0
-
-   :depends: 
-
-   :required~by: |required_by_knot|
+   :versions: 1.0.0-1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ knot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/knot
+      docker pull quay.io/repository/biocontainers/knot:<tag>
+
+   (see `knot/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_knot| conda:required_by:: knot
 .. |downloads_knot| image:: https://img.shields.io/conda/dn/bioconda/knot.svg?style=flat
    :alt:   (downloads)
 .. |docker_knot| image:: https://quay.io/repository/biocontainers/knot/status
    :target: https://quay.io/repository/biocontainers/knot
+.. _`knot/tags`: https://quay.io/repository/biocontainers/knot?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/knot/README.html
-

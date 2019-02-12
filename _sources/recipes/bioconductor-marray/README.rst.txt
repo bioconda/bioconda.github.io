@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-marray'
 .. highlight: bash
-
 
 bioconductor-marray
 ===================
@@ -22,11 +23,13 @@ bioconductor-marray
 
    |downloads_bioconductor-marray| |docker_bioconductor-marray|
 
-   :versions: 1.60.0, 1.58.0, 1.56.0, 1.54.0, 1.50.0
-
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-marray|
+   :versions: 1.60.0-0, 1.58.0-0, 1.56.0-0, 1.54.0-0, 1.50.0-1, 1.50.0-0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-marray
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-marray
+      docker pull quay.io/repository/biocontainers/bioconductor-marray:<tag>
+
+   (see `bioconductor-marray/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-marray| conda:required_by:: bioconductor-marray
 .. |downloads_bioconductor-marray| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-marray.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-marray| image:: https://quay.io/repository/biocontainers/bioconductor-marray/status
    :target: https://quay.io/repository/biocontainers/bioconductor-marray
+.. _`bioconductor-marray/tags`: https://quay.io/repository/biocontainers/bioconductor-marray?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-marray/README.html
-

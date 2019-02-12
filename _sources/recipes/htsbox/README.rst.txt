@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'htsbox'
 .. highlight: bash
-
 
 htsbox
 ======
@@ -21,11 +22,13 @@ htsbox
 
    |downloads_htsbox| |docker_htsbox|
 
-   :versions: r340, r327, r312
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_htsbox|
+   :versions: r340-2, r340-1, r340-0, r327-0, r312-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ htsbox
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/htsbox
+      docker pull quay.io/repository/biocontainers/htsbox:<tag>
+
+   (see `htsbox/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_htsbox| conda:required_by:: htsbox
 .. |downloads_htsbox| image:: https://img.shields.io/conda/dn/bioconda/htsbox.svg?style=flat
    :alt:   (downloads)
 .. |docker_htsbox| image:: https://quay.io/repository/biocontainers/htsbox/status
    :target: https://quay.io/repository/biocontainers/htsbox
+.. _`htsbox/tags`: https://quay.io/repository/biocontainers/htsbox?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/htsbox/README.html
-

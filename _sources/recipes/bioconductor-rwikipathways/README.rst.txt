@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rwikipathways'
 .. highlight: bash
-
 
 bioconductor-rwikipathways
 ==========================
@@ -21,11 +22,17 @@ bioconductor-rwikipathways
 
    |downloads_bioconductor-rwikipathways| |docker_bioconductor-rwikipathways|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-catools`  :conda:package:`r-httr`  :conda:package:`r-rjsonio`  
-
-   :required~by: |required_by_bioconductor-rwikipathways|
+   :versions: 1.2.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-catools: 
+   
+   :depends r-httr: 
+   
+   :depends r-rjsonio: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-rwikipathways
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rwikipathways
+      docker pull quay.io/repository/biocontainers/bioconductor-rwikipathways:<tag>
+
+   (see `bioconductor-rwikipathways/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rwikipathways| conda:required_by:: bioconductor-rwikipathways
 .. |downloads_bioconductor-rwikipathways| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rwikipathways.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rwikipathways| image:: https://quay.io/repository/biocontainers/bioconductor-rwikipathways/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rwikipathways
+.. _`bioconductor-rwikipathways/tags`: https://quay.io/repository/biocontainers/bioconductor-rwikipathways?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rwikipathways/README.html
-

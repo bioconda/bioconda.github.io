@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'netcdf-metadata-info'
 .. highlight: bash
-
 
 netcdf-metadata-info
 ====================
@@ -21,11 +22,13 @@ netcdf-metadata-info
 
    |downloads_netcdf-metadata-info| |docker_netcdf-metadata-info|
 
-   :versions: 1.1.6
-
-   :depends: :conda:package:`libgcc`  :conda:package:`libnetcdf` 4.4.* 
-
-   :required~by: |required_by_netcdf-metadata-info|
+   :versions: 1.1.6-1, 1.1.6-0
+   
+   :depends libgcc: 
+   
+   :depends libnetcdf: >=4.4.1.1,<4.5.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ netcdf-metadata-info
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/netcdf-metadata-info
+      docker pull quay.io/repository/biocontainers/netcdf-metadata-info:<tag>
+
+   (see `netcdf-metadata-info/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_netcdf-metadata-info| conda:required_by:: netcdf-metadata-info
 .. |downloads_netcdf-metadata-info| image:: https://img.shields.io/conda/dn/bioconda/netcdf-metadata-info.svg?style=flat
    :alt:   (downloads)
 .. |docker_netcdf-metadata-info| image:: https://quay.io/repository/biocontainers/netcdf-metadata-info/status
    :target: https://quay.io/repository/biocontainers/netcdf-metadata-info
+.. _`netcdf-metadata-info/tags`: https://quay.io/repository/biocontainers/netcdf-metadata-info?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/netcdf-metadata-info/README.html
-

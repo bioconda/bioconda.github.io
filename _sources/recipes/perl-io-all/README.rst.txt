@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-io-all'
 .. highlight: bash
-
 
 perl-io-all
 ===========
@@ -21,11 +22,13 @@ perl-io-all
 
    |downloads_perl-io-all| |docker_perl-io-all|
 
-   :versions: 0.87, 0.86
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-scalar-list-utils`  
-
-   :required~by: |required_by_perl-io-all|
+   :versions: 0.87-0, 0.86-1, 0.86-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-scalar-list-utils: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-io-all
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-all
+      docker pull quay.io/repository/biocontainers/perl-io-all:<tag>
+
+   (see `perl-io-all/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-io-all| conda:required_by:: perl-io-all
 .. |downloads_perl-io-all| image:: https://img.shields.io/conda/dn/bioconda/perl-io-all.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-io-all| image:: https://quay.io/repository/biocontainers/perl-io-all/status
    :target: https://quay.io/repository/biocontainers/perl-io-all
+.. _`perl-io-all/tags`: https://quay.io/repository/biocontainers/perl-io-all?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-io-all/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastq-tools'
 .. highlight: bash
-
 
 fastq-tools
 ===========
@@ -21,11 +22,15 @@ fastq-tools
 
    |downloads_fastq-tools| |docker_fastq-tools|
 
-   :versions: 0.8
-
-   :depends: :conda:package:`pcre`  :conda:package:`zlib` 1.2.8* 
-
-   :required~by: |required_by_fastq-tools|
+   :versions: 0.8-2, 0.8-1, 0.8-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends pcre: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ fastq-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastq-tools
+      docker pull quay.io/repository/biocontainers/fastq-tools:<tag>
+
+   (see `fastq-tools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastq-tools| conda:required_by:: fastq-tools
 .. |downloads_fastq-tools| image:: https://img.shields.io/conda/dn/bioconda/fastq-tools.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastq-tools| image:: https://quay.io/repository/biocontainers/fastq-tools/status
    :target: https://quay.io/repository/biocontainers/fastq-tools
+.. _`fastq-tools/tags`: https://quay.io/repository/biocontainers/fastq-tools?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastq-tools/README.html
-

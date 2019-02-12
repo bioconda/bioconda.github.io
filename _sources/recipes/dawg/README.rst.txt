@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dawg'
 .. highlight: bash
-
 
 dawg
 ====
@@ -21,11 +22,15 @@ dawg
 
    |downloads_dawg| |docker_dawg|
 
-   :versions: 2.0.beta1
-
-   :depends: :conda:package:`boost` 1.64* :conda:package:`gsl` 1.16* :conda:package:`libgcc`  
-
-   :required~by: |required_by_dawg|
+   :versions: 2.0.beta1-1, 2.0.beta1-0
+   
+   :depends boost: >=1.66.0,<1.66.1.0a0
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ dawg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dawg
+      docker pull quay.io/repository/biocontainers/dawg:<tag>
+
+   (see `dawg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dawg| conda:required_by:: dawg
 .. |downloads_dawg| image:: https://img.shields.io/conda/dn/bioconda/dawg.svg?style=flat
    :alt:   (downloads)
 .. |docker_dawg| image:: https://quay.io/repository/biocontainers/dawg/status
    :target: https://quay.io/repository/biocontainers/dawg
+.. _`dawg/tags`: https://quay.io/repository/biocontainers/dawg?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dawg/README.html
-

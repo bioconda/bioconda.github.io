@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'openbabel'
 .. highlight: bash
-
 
 openbabel
 =========
@@ -21,11 +22,29 @@ openbabel
 
    |downloads_openbabel| |docker_openbabel|
 
-   :versions: 2.4.1, 2.3.90dev7d621d9, 2.3.2
-
-   :depends: :conda:package:`cairo`  :conda:package:`libgcc`  :conda:package:`libxml2`  :conda:package:`python` 2.7* :conda:package:`zlib`  
-
-   :required~by: |required_by_openbabel|
+   :versions: 2.4.1-3, 2.4.1-2, 2.4.1-1, 2.4.1-0, 2.3.90dev7d621d9-0, 2.3.2-2, 2.3.2-1
+   
+   :depends cairo: >=1.14.10,<1.15.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libxml2: >=2.9.8,<2.10.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends xorg-libsm: 
+   
+   :depends xorg-libxau: 
+   
+   :depends xorg-libxdmcp: 
+   
+   :depends xorg-libxext: 
+   
+   :depends xorg-libxrender: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ openbabel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/openbabel
+      docker pull quay.io/repository/biocontainers/openbabel:<tag>
+
+   (see `openbabel/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_openbabel| conda:required_by:: openbabel
 .. |downloads_openbabel| image:: https://img.shields.io/conda/dn/bioconda/openbabel.svg?style=flat
    :alt:   (downloads)
 .. |docker_openbabel| image:: https://quay.io/repository/biocontainers/openbabel/status
    :target: https://quay.io/repository/biocontainers/openbabel
+.. _`openbabel/tags`: https://quay.io/repository/biocontainers/openbabel?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/openbabel/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nanoget'
 .. highlight: bash
-
 
 nanoget
 =======
@@ -21,11 +22,21 @@ nanoget
 
    |downloads_nanoget| |docker_nanoget|
 
-   :versions: 1.7.6, 1.7.4, 1.5.2, 1.5.0, 1.2.2, 1.0.2, 1.0.0, 0.11.7, 0.11.5
-
-   :depends: :conda:package:`biopython`  :conda:package:`nanomath`  :conda:package:`numpy`  :conda:package:`pandas` >=0.22.0 :conda:package:`pysam` >0.10.0.0 :conda:package:`python` >=3.5,<3.6.0a0 
-
-   :required~by: |required_by_nanoget|
+   :versions: 1.7.6-0, 1.7.4-0, 1.5.2-0, 1.5.0-1, 1.5.0-0, 1.2.2-0, 1.0.2-0, 1.0.0-0, 0.11.7-0, 0.11.5-0
+   
+   :depends biopython: 
+   
+   :depends nanomath: 
+   
+   :depends numpy: 
+   
+   :depends pandas: >=0.22.0
+   
+   :depends pysam: >0.10.0.0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ nanoget
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanoget
+      docker pull quay.io/repository/biocontainers/nanoget:<tag>
+
+   (see `nanoget/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nanoget| conda:required_by:: nanoget
 .. |downloads_nanoget| image:: https://img.shields.io/conda/dn/bioconda/nanoget.svg?style=flat
    :alt:   (downloads)
 .. |docker_nanoget| image:: https://quay.io/repository/biocontainers/nanoget/status
    :target: https://quay.io/repository/biocontainers/nanoget
+.. _`nanoget/tags`: https://quay.io/repository/biocontainers/nanoget?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nanoget/README.html
-

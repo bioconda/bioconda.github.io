@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-extutils-cbuilder'
 .. highlight: bash
-
 
 perl-extutils-cbuilder
 ======================
@@ -21,11 +22,21 @@ perl-extutils-cbuilder
 
    |downloads_perl-extutils-cbuilder| |docker_perl-extutils-cbuilder|
 
-   :versions: 0.280230
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-file-temp`  :conda:package:`perl-ipc-cmd`  :conda:package:`perl-perl-ostype`  :conda:package:`perl-text-parsewords`  
-
-   :required~by: |required_by_perl-extutils-cbuilder|
+   :versions: 0.280230-1, 0.280230-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-extutils-makemaker: 
+   
+   :depends perl-file-temp: 
+   
+   :depends perl-ipc-cmd: 
+   
+   :depends perl-perl-ostype: 
+   
+   :depends perl-text-parsewords: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-extutils-cbuilder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-extutils-cbuilder
+      docker pull quay.io/repository/biocontainers/perl-extutils-cbuilder:<tag>
+
+   (see `perl-extutils-cbuilder/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-extutils-cbuilder| conda:required_by:: perl-extutils-cbuilder
 .. |downloads_perl-extutils-cbuilder| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-cbuilder.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-extutils-cbuilder| image:: https://quay.io/repository/biocontainers/perl-extutils-cbuilder/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-cbuilder
+.. _`perl-extutils-cbuilder/tags`: https://quay.io/repository/biocontainers/perl-extutils-cbuilder?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-extutils-cbuilder/README.html
-

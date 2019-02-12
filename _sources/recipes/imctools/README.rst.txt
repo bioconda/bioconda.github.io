@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'imctools'
 .. highlight: bash
-
 
 imctools
 ========
@@ -23,11 +24,21 @@ imctools
 
    |downloads_imctools| |docker_imctools|
 
-   :versions: 0.2
-
-   :depends: :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python`  :conda:package:`scikit-image`  :conda:package:`scipy`  :conda:package:`tifffile` >=0.13.5 
-
-   :required~by: |required_by_imctools|
+   :versions: 0.2-0
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: 
+   
+   :depends scikit-image: 
+   
+   :depends scipy: 
+   
+   :depends tifffile: >=0.13.5
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +52,16 @@ imctools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/imctools
+      docker pull quay.io/repository/biocontainers/imctools:<tag>
+
+   (see `imctools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_imctools| conda:required_by:: imctools
 .. |downloads_imctools| image:: https://img.shields.io/conda/dn/bioconda/imctools.svg?style=flat
    :alt:   (downloads)
 .. |docker_imctools| image:: https://quay.io/repository/biocontainers/imctools/status
    :target: https://quay.io/repository/biocontainers/imctools
+.. _`imctools/tags`: https://quay.io/repository/biocontainers/imctools?tab=tags
 
 
 
@@ -65,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/imctools/README.html
-

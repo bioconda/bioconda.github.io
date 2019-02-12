@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-io-uncompress-gunzip'
 .. highlight: bash
-
 
 perl-io-uncompress-gunzip
 =========================
@@ -21,11 +22,11 @@ perl-io-uncompress-gunzip
 
    |downloads_perl-io-uncompress-gunzip| |docker_perl-io-uncompress-gunzip|
 
-   :versions: 2.064
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-io-uncompress-gunzip|
+   :versions: 2.064-1, 2.064-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-io-uncompress-gunzip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-uncompress-gunzip
+      docker pull quay.io/repository/biocontainers/perl-io-uncompress-gunzip:<tag>
+
+   (see `perl-io-uncompress-gunzip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-io-uncompress-gunzip| conda:required_by:: perl-io-uncompress-gunzip
 .. |downloads_perl-io-uncompress-gunzip| image:: https://img.shields.io/conda/dn/bioconda/perl-io-uncompress-gunzip.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-io-uncompress-gunzip| image:: https://quay.io/repository/biocontainers/perl-io-uncompress-gunzip/status
    :target: https://quay.io/repository/biocontainers/perl-io-uncompress-gunzip
+.. _`perl-io-uncompress-gunzip/tags`: https://quay.io/repository/biocontainers/perl-io-uncompress-gunzip?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-io-uncompress-gunzip/README.html
-

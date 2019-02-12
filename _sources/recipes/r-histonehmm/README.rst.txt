@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-histonehmm'
 .. highlight: bash
-
 
 r-histonehmm
 ============
@@ -22,11 +23,25 @@ r-histonehmm
 
    |downloads_r-histonehmm| |docker_r-histonehmm|
 
-   :versions: 1.7, 1.6
-
-   :depends: :conda:package:`bioconductor-biocstyle`  :conda:package:`bioconductor-genomicranges`  :conda:package:`bioconductor-rsamtools`  :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-mvtnorm`  :conda:package:`r-optparse`  :conda:package:`r-rcpp`  
-
-   :required~by: |required_by_r-histonehmm|
+   :versions: 1.7-0, 1.6-1, 1.6-0
+   
+   :depends bioconductor-biocstyle: 
+   
+   :depends bioconductor-genomicranges: 
+   
+   :depends bioconductor-rsamtools: 
+   
+   :depends libgcc: 
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-mvtnorm: 
+   
+   :depends r-optparse: 
+   
+   :depends r-rcpp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ r-histonehmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-histonehmm
+      docker pull quay.io/repository/biocontainers/r-histonehmm:<tag>
+
+   (see `r-histonehmm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-histonehmm| conda:required_by:: r-histonehmm
 .. |downloads_r-histonehmm| image:: https://img.shields.io/conda/dn/bioconda/r-histonehmm.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-histonehmm| image:: https://quay.io/repository/biocontainers/r-histonehmm/status
    :target: https://quay.io/repository/biocontainers/r-histonehmm
+.. _`r-histonehmm/tags`: https://quay.io/repository/biocontainers/r-histonehmm?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-histonehmm/README.html
-

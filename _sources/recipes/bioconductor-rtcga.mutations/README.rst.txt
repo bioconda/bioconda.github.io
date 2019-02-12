@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rtcga.mutations'
 .. highlight: bash
-
 
 bioconductor-rtcga.mutations
 ============================
@@ -21,11 +22,15 @@ bioconductor-rtcga.mutations
 
    |downloads_bioconductor-rtcga.mutations| |docker_bioconductor-rtcga.mutations|
 
-   :versions: 20151101.12.0
-
-   :depends: :conda:package:`bioconductor-rtcga` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-rtcga.mutations|
+   :versions: 20151101.12.0-0
+   
+   :depends bioconductor-rtcga: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-rtcga.mutations
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.mutations
+      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.mutations:<tag>
+
+   (see `bioconductor-rtcga.mutations/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rtcga.mutations| conda:required_by:: bioconductor-rtcga.mutations
 .. |downloads_bioconductor-rtcga.mutations| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcga.mutations.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rtcga.mutations| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.mutations/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.mutations
+.. _`bioconductor-rtcga.mutations/tags`: https://quay.io/repository/biocontainers/bioconductor-rtcga.mutations?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rtcga.mutations/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-class-inspector'
 .. highlight: bash
-
 
 perl-class-inspector
 ====================
@@ -21,11 +22,11 @@ perl-class-inspector
 
    |downloads_perl-class-inspector| |docker_perl-class-inspector|
 
-   :versions: 1.32, 1.28
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-class-inspector|
+   :versions: 1.32-0, 1.28-2, 1.28-1, 1.28-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-class-inspector
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-class-inspector
+      docker pull quay.io/repository/biocontainers/perl-class-inspector:<tag>
+
+   (see `perl-class-inspector/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-class-inspector| conda:required_by:: perl-class-inspector
 .. |downloads_perl-class-inspector| image:: https://img.shields.io/conda/dn/bioconda/perl-class-inspector.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-class-inspector| image:: https://quay.io/repository/biocontainers/perl-class-inspector/status
    :target: https://quay.io/repository/biocontainers/perl-class-inspector
+.. _`perl-class-inspector/tags`: https://quay.io/repository/biocontainers/perl-class-inspector?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-class-inspector/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pathnet'
 .. highlight: bash
-
 
 bioconductor-pathnet
 ====================
@@ -22,11 +23,11 @@ bioconductor-pathnet
 
    |downloads_bioconductor-pathnet| |docker_bioconductor-pathnet|
 
-   :versions: 1.22.0, 1.20.0, 1.18.0, 1.16.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-pathnet|
+   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ bioconductor-pathnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pathnet
+      docker pull quay.io/repository/biocontainers/bioconductor-pathnet:<tag>
+
+   (see `bioconductor-pathnet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pathnet| conda:required_by:: bioconductor-pathnet
 .. |downloads_bioconductor-pathnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathnet.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pathnet| image:: https://quay.io/repository/biocontainers/bioconductor-pathnet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pathnet
+.. _`bioconductor-pathnet/tags`: https://quay.io/repository/biocontainers/bioconductor-pathnet?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pathnet/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'methylextract'
 .. highlight: bash
-
 
 methylextract
 =============
@@ -21,11 +22,13 @@ methylextract
 
    |downloads_methylextract| |docker_methylextract|
 
-   :versions: 1.9.1
-
-   :depends: :conda:package:`perl`  :conda:package:`samtools`  
-
-   :required~by: |required_by_methylextract|
+   :versions: 1.9.1-0
+   
+   :depends perl: 
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ methylextract
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/methylextract
+      docker pull quay.io/repository/biocontainers/methylextract:<tag>
+
+   (see `methylextract/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_methylextract| conda:required_by:: methylextract
 .. |downloads_methylextract| image:: https://img.shields.io/conda/dn/bioconda/methylextract.svg?style=flat
    :alt:   (downloads)
 .. |docker_methylextract| image:: https://quay.io/repository/biocontainers/methylextract/status
    :target: https://quay.io/repository/biocontainers/methylextract
+.. _`methylextract/tags`: https://quay.io/repository/biocontainers/methylextract?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/methylextract/README.html
-

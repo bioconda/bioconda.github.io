@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-adaptest'
 .. highlight: bash
-
 
 bioconductor-adaptest
 =====================
@@ -21,11 +22,19 @@ bioconductor-adaptest
 
    |downloads_bioconductor-adaptest| |docker_bioconductor-adaptest|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-calibrate`  :conda:package:`r-origami` >=1.0.0 :conda:package:`r-tmle`  
-
-   :required~by: |required_by_bioconductor-adaptest|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-calibrate: 
+   
+   :depends r-origami: >=1.0.0
+   
+   :depends r-tmle: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-adaptest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-adaptest
+      docker pull quay.io/repository/biocontainers/bioconductor-adaptest:<tag>
+
+   (see `bioconductor-adaptest/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-adaptest| conda:required_by:: bioconductor-adaptest
 .. |downloads_bioconductor-adaptest| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-adaptest.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-adaptest| image:: https://quay.io/repository/biocontainers/bioconductor-adaptest/status
    :target: https://quay.io/repository/biocontainers/bioconductor-adaptest
+.. _`bioconductor-adaptest/tags`: https://quay.io/repository/biocontainers/bioconductor-adaptest?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-adaptest/README.html
-

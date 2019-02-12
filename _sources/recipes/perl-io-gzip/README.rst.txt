@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-io-gzip'
 .. highlight: bash
-
 
 perl-io-gzip
 ============
@@ -21,11 +22,13 @@ perl-io-gzip
 
    |downloads_perl-io-gzip| |docker_perl-io-gzip|
 
-   :versions: 0.20
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`zlib` 1.2.8* 
-
-   :required~by: |required_by_perl-io-gzip|
+   :versions: 0.20-2, 0.20-1, 0.20-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-io-gzip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-gzip
+      docker pull quay.io/repository/biocontainers/perl-io-gzip:<tag>
+
+   (see `perl-io-gzip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-io-gzip| conda:required_by:: perl-io-gzip
 .. |downloads_perl-io-gzip| image:: https://img.shields.io/conda/dn/bioconda/perl-io-gzip.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-io-gzip| image:: https://quay.io/repository/biocontainers/perl-io-gzip/status
    :target: https://quay.io/repository/biocontainers/perl-io-gzip
+.. _`perl-io-gzip/tags`: https://quay.io/repository/biocontainers/perl-io-gzip?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-io-gzip/README.html
-

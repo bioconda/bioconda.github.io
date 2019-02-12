@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'satsuma2'
 .. highlight: bash
-
 
 satsuma2
 ========
@@ -21,11 +22,13 @@ satsuma2
 
    |downloads_satsuma2| |docker_satsuma2|
 
-   :versions: 20161123
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_satsuma2|
+   :versions: 20161123-1, 20161123-0
+   
+   :depends libgcc-ng: >=7.2.0
+   
+   :depends libstdcxx-ng: >=7.2.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ satsuma2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/satsuma2
+      docker pull quay.io/repository/biocontainers/satsuma2:<tag>
+
+   (see `satsuma2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_satsuma2| conda:required_by:: satsuma2
 .. |downloads_satsuma2| image:: https://img.shields.io/conda/dn/bioconda/satsuma2.svg?style=flat
    :alt:   (downloads)
 .. |docker_satsuma2| image:: https://quay.io/repository/biocontainers/satsuma2/status
    :target: https://quay.io/repository/biocontainers/satsuma2
+.. _`satsuma2/tags`: https://quay.io/repository/biocontainers/satsuma2?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/satsuma2/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-spreadsheet-writeexcel'
 .. highlight: bash
-
 
 perl-spreadsheet-writeexcel
 ===========================
@@ -21,11 +22,15 @@ perl-spreadsheet-writeexcel
 
    |downloads_perl-spreadsheet-writeexcel| |docker_perl-spreadsheet-writeexcel|
 
-   :versions: 2.40
-
-   :depends: :conda:package:`perl-ole-storage_lite`  :conda:package:`perl-parse-recdescent`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-spreadsheet-writeexcel|
+   :versions: 2.40-1, 2.40-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-ole-storage_lite: 
+   
+   :depends perl-parse-recdescent: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-spreadsheet-writeexcel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-spreadsheet-writeexcel
+      docker pull quay.io/repository/biocontainers/perl-spreadsheet-writeexcel:<tag>
+
+   (see `perl-spreadsheet-writeexcel/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-spreadsheet-writeexcel| conda:required_by:: perl-spreadsheet-writeexcel
 .. |downloads_perl-spreadsheet-writeexcel| image:: https://img.shields.io/conda/dn/bioconda/perl-spreadsheet-writeexcel.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-spreadsheet-writeexcel| image:: https://quay.io/repository/biocontainers/perl-spreadsheet-writeexcel/status
    :target: https://quay.io/repository/biocontainers/perl-spreadsheet-writeexcel
+.. _`perl-spreadsheet-writeexcel/tags`: https://quay.io/repository/biocontainers/perl-spreadsheet-writeexcel?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-spreadsheet-writeexcel/README.html
-

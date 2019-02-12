@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mhcnames'
 .. highlight: bash
-
 
 mhcnames
 ========
@@ -21,11 +22,13 @@ mhcnames
 
    |downloads_mhcnames| |docker_mhcnames|
 
-   :versions: 0.4.8
-
-   :depends: :conda:package:`python`  :conda:package:`six` >=1.9.0 
-
-   :required~by: |required_by_mhcnames|
+   :versions: 0.4.8-0
+   
+   :depends python: 
+   
+   :depends six: >=1.9.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ mhcnames
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mhcnames
+      docker pull quay.io/repository/biocontainers/mhcnames:<tag>
+
+   (see `mhcnames/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mhcnames| conda:required_by:: mhcnames
 .. |downloads_mhcnames| image:: https://img.shields.io/conda/dn/bioconda/mhcnames.svg?style=flat
    :alt:   (downloads)
 .. |docker_mhcnames| image:: https://quay.io/repository/biocontainers/mhcnames/status
    :target: https://quay.io/repository/biocontainers/mhcnames
+.. _`mhcnames/tags`: https://quay.io/repository/biocontainers/mhcnames?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mhcnames/README.html
-

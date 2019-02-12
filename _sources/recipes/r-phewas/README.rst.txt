@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-phewas'
 .. highlight: bash
-
 
 r-phewas
 ========
@@ -22,11 +23,35 @@ r-phewas
 
    |downloads_r-phewas| |docker_r-phewas|
 
-   :versions: 0.12.1
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgfortran-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-dt`  :conda:package:`r-ggplot2` >=2.2.0 :conda:package:`r-ggrepel`  :conda:package:`r-lmtest`  :conda:package:`r-logistf`  :conda:package:`r-mass`  :conda:package:`r-meta`  :conda:package:`r-survival`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_r-phewas|
+   :versions: 0.12.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libgfortran-ng: >=4.9
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-dt: 
+   
+   :depends r-ggplot2: >=2.2.0
+   
+   :depends r-ggrepel: 
+   
+   :depends r-lmtest: 
+   
+   :depends r-logistf: 
+   
+   :depends r-mass: 
+   
+   :depends r-meta: 
+   
+   :depends r-survival: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +65,16 @@ r-phewas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-phewas
+      docker pull quay.io/repository/biocontainers/r-phewas:<tag>
+
+   (see `r-phewas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-phewas| conda:required_by:: r-phewas
 .. |downloads_r-phewas| image:: https://img.shields.io/conda/dn/bioconda/r-phewas.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-phewas| image:: https://quay.io/repository/biocontainers/r-phewas/status
    :target: https://quay.io/repository/biocontainers/r-phewas
+.. _`r-phewas/tags`: https://quay.io/repository/biocontainers/r-phewas?tab=tags
 
 
 
@@ -64,4 +91,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-phewas/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pout2mzid'
 .. highlight: bash
-
 
 pout2mzid
 =========
@@ -21,11 +22,17 @@ pout2mzid
 
    |downloads_pout2mzid| |docker_pout2mzid|
 
-   :versions: 0.3.03
-
-   :depends: :conda:package:`boost` ==1.62 :conda:package:`libgcc`  :conda:package:`xerces-c`  :conda:package:`xsd`  
-
-   :required~by: |required_by_pout2mzid|
+   :versions: 0.3.03-2
+   
+   :depends boost: ==1.62
+   
+   :depends libgcc: 
+   
+   :depends xerces-c: 
+   
+   :depends xsd: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ pout2mzid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pout2mzid
+      docker pull quay.io/repository/biocontainers/pout2mzid:<tag>
+
+   (see `pout2mzid/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pout2mzid| conda:required_by:: pout2mzid
 .. |downloads_pout2mzid| image:: https://img.shields.io/conda/dn/bioconda/pout2mzid.svg?style=flat
    :alt:   (downloads)
 .. |docker_pout2mzid| image:: https://quay.io/repository/biocontainers/pout2mzid/status
    :target: https://quay.io/repository/biocontainers/pout2mzid
+.. _`pout2mzid/tags`: https://quay.io/repository/biocontainers/pout2mzid?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pout2mzid/README.html
-

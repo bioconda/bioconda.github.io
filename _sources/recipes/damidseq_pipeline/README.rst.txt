@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'damidseq_pipeline'
 .. highlight: bash
-
 
 damidseq_pipeline
 =================
@@ -21,11 +22,19 @@ damidseq_pipeline
 
    |downloads_damidseq_pipeline| |docker_damidseq_pipeline|
 
-   :versions: 1.4
-
-   :depends: :conda:package:`bowtie2` >=2.3.0 :conda:package:`igvtools`  :conda:package:`perl` 5.22.0* :conda:package:`r-base` 3.3.1* :conda:package:`samtools` <1.3.0 
-
-   :required~by: |required_by_damidseq_pipeline|
+   :versions: 1.4-2, 1.4-1, 1.4-0
+   
+   :depends bowtie2: >=2.3.0
+   
+   :depends igvtools: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends r-base: 
+   
+   :depends samtools: <1.3.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ damidseq_pipeline
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/damidseq_pipeline
+      docker pull quay.io/repository/biocontainers/damidseq_pipeline:<tag>
+
+   (see `damidseq_pipeline/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_damidseq_pipeline| conda:required_by:: damidseq_pipeline
 .. |downloads_damidseq_pipeline| image:: https://img.shields.io/conda/dn/bioconda/damidseq_pipeline.svg?style=flat
    :alt:   (downloads)
 .. |docker_damidseq_pipeline| image:: https://quay.io/repository/biocontainers/damidseq_pipeline/status
    :target: https://quay.io/repository/biocontainers/damidseq_pipeline
+.. _`damidseq_pipeline/tags`: https://quay.io/repository/biocontainers/damidseq_pipeline?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/damidseq_pipeline/README.html
-

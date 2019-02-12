@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-stager'
 .. highlight: bash
-
 
 bioconductor-stager
 ===================
@@ -21,11 +22,13 @@ bioconductor-stager
 
    |downloads_bioconductor-stager| |docker_bioconductor-stager|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-stager|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-stager
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-stager
+      docker pull quay.io/repository/biocontainers/bioconductor-stager:<tag>
+
+   (see `bioconductor-stager/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-stager| conda:required_by:: bioconductor-stager
 .. |downloads_bioconductor-stager| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-stager.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-stager| image:: https://quay.io/repository/biocontainers/bioconductor-stager/status
    :target: https://quay.io/repository/biocontainers/bioconductor-stager
+.. _`bioconductor-stager/tags`: https://quay.io/repository/biocontainers/bioconductor-stager?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-stager/README.html
-

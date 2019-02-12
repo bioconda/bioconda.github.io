@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'autolog'
 .. highlight: bash
-
 
 autolog
 =======
@@ -21,11 +22,15 @@ autolog
 
    |downloads_autolog| |docker_autolog|
 
-   :versions: 0.2, 0.1.3
-
-   :depends: :conda:package:`path.py`  :conda:package:`python`  :conda:package:`six`  
-
-   :required~by: |required_by_autolog|
+   :versions: 0.2-0, 0.1.3-2, 0.1.3-0
+   
+   :depends path.py: 
+   
+   :depends python: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ autolog
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/autolog
+      docker pull quay.io/repository/biocontainers/autolog:<tag>
+
+   (see `autolog/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_autolog| conda:required_by:: autolog
 .. |downloads_autolog| image:: https://img.shields.io/conda/dn/bioconda/autolog.svg?style=flat
    :alt:   (downloads)
 .. |docker_autolog| image:: https://quay.io/repository/biocontainers/autolog/status
    :target: https://quay.io/repository/biocontainers/autolog
+.. _`autolog/tags`: https://quay.io/repository/biocontainers/autolog?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/autolog/README.html
-

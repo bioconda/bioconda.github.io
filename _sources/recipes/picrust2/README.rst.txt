@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'picrust2'
 .. highlight: bash
-
 
 picrust2
 ========
@@ -21,11 +22,41 @@ picrust2
 
    |downloads_picrust2| |docker_picrust2|
 
-   :versions: 2.1.0_b, 2.0.3_b
-
-   :depends: :conda:package:`biom-format` 2.1.7.* :conda:package:`epa-ng` 0.3.4.* :conda:package:`gappa` 0.1.0.* :conda:package:`glpk` 4.65.* :conda:package:`h5py` 2.7.0.* :conda:package:`hmmer` 3.2.1.* :conda:package:`joblib` 0.13.1.* :conda:package:`numpy` 1.12.1.* :conda:package:`pandas` 0.22.0.* :conda:package:`pytest`  :conda:package:`pytest-cov`  :conda:package:`python` >=3.5,<3.7 :conda:package:`r-base` 3.4.1.* :conda:package:`r-castor` 1.3.4.* :conda:package:`scipy` 0.19.1.* :conda:package:`wget`  
-
-   :required~by: |required_by_picrust2|
+   :versions: 2.1.0_b-0, 2.0.3_b-0
+   
+   :depends biom-format: 2.1.7.*
+   
+   :depends epa-ng: 0.3.4.*
+   
+   :depends gappa: 0.1.0.*
+   
+   :depends glpk: 4.65.*
+   
+   :depends h5py: 2.7.0.*
+   
+   :depends hmmer: 3.2.1.*
+   
+   :depends joblib: 0.13.1.*
+   
+   :depends numpy: 1.12.1.*
+   
+   :depends pandas: 0.22.0.*
+   
+   :depends pytest: 
+   
+   :depends pytest-cov: 
+   
+   :depends python: >=3.5,<3.7
+   
+   :depends r-base: 3.4.1.*
+   
+   :depends r-castor: 1.3.4.*
+   
+   :depends scipy: 0.19.1.*
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ picrust2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/picrust2
+      docker pull quay.io/repository/biocontainers/picrust2:<tag>
+
+   (see `picrust2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_picrust2| conda:required_by:: picrust2
 .. |downloads_picrust2| image:: https://img.shields.io/conda/dn/bioconda/picrust2.svg?style=flat
    :alt:   (downloads)
 .. |docker_picrust2| image:: https://quay.io/repository/biocontainers/picrust2/status
    :target: https://quay.io/repository/biocontainers/picrust2
+.. _`picrust2/tags`: https://quay.io/repository/biocontainers/picrust2?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/picrust2/README.html
-

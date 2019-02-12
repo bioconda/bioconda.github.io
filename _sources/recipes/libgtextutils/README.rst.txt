@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'libgtextutils'
 .. highlight: bash
-
 
 libgtextutils
 =============
@@ -21,11 +22,13 @@ libgtextutils
 
    |downloads_libgtextutils| |docker_libgtextutils|
 
-   :versions: 0.7
-
-   :depends: :conda:package:`cython`  :conda:package:`nose`  
-
-   :required~by: |required_by_libgtextutils|
+   :versions: 0.7-4, 0.7-3, 0.7-2, 0.7-1, 0.7-0
+   
+   :depends cython: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ libgtextutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libgtextutils
+      docker pull quay.io/repository/biocontainers/libgtextutils:<tag>
+
+   (see `libgtextutils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_libgtextutils| conda:required_by:: libgtextutils
 .. |downloads_libgtextutils| image:: https://img.shields.io/conda/dn/bioconda/libgtextutils.svg?style=flat
    :alt:   (downloads)
 .. |docker_libgtextutils| image:: https://quay.io/repository/biocontainers/libgtextutils/status
    :target: https://quay.io/repository/biocontainers/libgtextutils
+.. _`libgtextutils/tags`: https://quay.io/repository/biocontainers/libgtextutils?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/libgtextutils/README.html
-

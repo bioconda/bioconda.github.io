@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cohcap'
 .. highlight: bash
-
 
 bioconductor-cohcap
 ===================
@@ -22,11 +23,29 @@ bioconductor-cohcap
 
    |downloads_bioconductor-cohcap| |docker_bioconductor-cohcap|
 
-   :versions: 1.28.1, 1.26.0, 1.24.0
-
-   :depends: :conda:package:`bioconductor-cohcapanno` >=1.18.0,<1.19.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh`  :conda:package:`r-gplots`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  :conda:package:`r-writexls`  
-
-   :required~by: |required_by_bioconductor-cohcap|
+   :versions: 1.28.1-0, 1.26.0-0, 1.24.0-0
+   
+   :depends bioconductor-cohcapanno: >=1.18.0,<1.19.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bh: 
+   
+   :depends r-gplots: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-rcpparmadillo: 
+   
+   :depends r-writexls: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ bioconductor-cohcap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cohcap
+      docker pull quay.io/repository/biocontainers/bioconductor-cohcap:<tag>
+
+   (see `bioconductor-cohcap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cohcap| conda:required_by:: bioconductor-cohcap
 .. |downloads_bioconductor-cohcap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cohcap.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cohcap| image:: https://quay.io/repository/biocontainers/bioconductor-cohcap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cohcap
+.. _`bioconductor-cohcap/tags`: https://quay.io/repository/biocontainers/bioconductor-cohcap?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cohcap/README.html
-

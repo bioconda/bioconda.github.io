@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-desingle'
 .. highlight: bash
-
 
 bioconductor-desingle
 =====================
@@ -21,11 +22,27 @@ bioconductor-desingle
 
    |downloads_bioconductor-desingle| |docker_bioconductor-desingle|
 
-   :versions: 1.2.1
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bbmle` >=1.0.18 :conda:package:`r-gamlss` >=4.4-0 :conda:package:`r-mass` >=7.3-45 :conda:package:`r-matrix` >=1.2-14 :conda:package:`r-maxlik` >=1.3-4 :conda:package:`r-pscl` >=1.4.9 :conda:package:`r-vgam` >=1.0-2 
-
-   :required~by: |required_by_bioconductor-desingle|
+   :versions: 1.2.1-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bbmle: >=1.0.18
+   
+   :depends r-gamlss: >=4.4-0
+   
+   :depends r-mass: >=7.3-45
+   
+   :depends r-matrix: >=1.2-14
+   
+   :depends r-maxlik: >=1.3-4
+   
+   :depends r-pscl: >=1.4.9
+   
+   :depends r-vgam: >=1.0-2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-desingle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-desingle
+      docker pull quay.io/repository/biocontainers/bioconductor-desingle:<tag>
+
+   (see `bioconductor-desingle/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-desingle| conda:required_by:: bioconductor-desingle
 .. |downloads_bioconductor-desingle| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-desingle.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-desingle| image:: https://quay.io/repository/biocontainers/bioconductor-desingle/status
    :target: https://quay.io/repository/biocontainers/bioconductor-desingle
+.. _`bioconductor-desingle/tags`: https://quay.io/repository/biocontainers/bioconductor-desingle?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-desingle/README.html
-

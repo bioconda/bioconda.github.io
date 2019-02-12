@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'spades'
 .. highlight: bash
-
 
 spades
 ======
@@ -26,11 +27,11 @@ spades
 
    |downloads_spades| |docker_spades|
 
-   :versions: 3.13.0, 3.12.0, 3.11.1, 3.11.0, 3.10.1, 3.10.0, 3.9.0, 3.8.1, 3.8.0, 3.7.0, 3.6.2, 3.5.0
-
-   :depends: :conda:package:`python`  
-
-   :required~by: |required_by_spades|
+   :versions: 3.13.0-0, 3.12.0-1, 3.12.0-0, 3.11.1-3, 3.11.1-2, 3.11.1-1, 3.11.1-0, 3.11.0-1, 3.11.0-0, 3.10.1-0, 3.10.0-0, 3.9.0-2, 3.9.0-1, 3.9.0-0, 3.8.1-0, 3.8.0-0, 3.7.0-0, 3.6.2-0, 3.5.0-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -44,14 +45,16 @@ spades
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spades
+      docker pull quay.io/repository/biocontainers/spades:<tag>
+
+   (see `spades/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_spades| conda:required_by:: spades
 .. |downloads_spades| image:: https://img.shields.io/conda/dn/bioconda/spades.svg?style=flat
    :alt:   (downloads)
 .. |docker_spades| image:: https://quay.io/repository/biocontainers/spades/status
    :target: https://quay.io/repository/biocontainers/spades
+.. _`spades/tags`: https://quay.io/repository/biocontainers/spades?tab=tags
 
 
 
@@ -68,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/spades/README.html
-

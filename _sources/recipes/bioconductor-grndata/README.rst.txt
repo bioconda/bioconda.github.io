@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-grndata'
 .. highlight: bash
-
 
 bioconductor-grndata
 ====================
@@ -21,11 +22,13 @@ bioconductor-grndata
 
    |downloads_bioconductor-grndata| |docker_bioconductor-grndata|
 
-   :versions: 1.14.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-grndata|
+   :versions: 1.14.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-grndata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-grndata
+      docker pull quay.io/repository/biocontainers/bioconductor-grndata:<tag>
+
+   (see `bioconductor-grndata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-grndata| conda:required_by:: bioconductor-grndata
 .. |downloads_bioconductor-grndata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-grndata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-grndata| image:: https://quay.io/repository/biocontainers/bioconductor-grndata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-grndata
+.. _`bioconductor-grndata/tags`: https://quay.io/repository/biocontainers/bioconductor-grndata?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-grndata/README.html
-

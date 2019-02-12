@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-cellassign'
 .. highlight: bash
-
 
 r-cellassign
 ============
@@ -21,11 +22,21 @@ r-cellassign
 
    |downloads_r-cellassign| |docker_r-cellassign|
 
-   :versions: 0.99.0
-
-   :depends: :conda:package:`bioconductor-scran`  :conda:package:`bioconductor-summarizedexperiment`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-glue`  :conda:package:`r-tensorflow`  
-
-   :required~by: |required_by_r-cellassign|
+   :versions: 0.99.0-1, 0.99.0-0
+   
+   :depends bioconductor-genomeinfodbdata: 
+   
+   :depends bioconductor-scran: 
+   
+   :depends bioconductor-summarizedexperiment: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-glue: 
+   
+   :depends r-tensorflow: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-cellassign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-cellassign
+      docker pull quay.io/repository/biocontainers/r-cellassign:<tag>
+
+   (see `r-cellassign/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-cellassign| conda:required_by:: r-cellassign
 .. |downloads_r-cellassign| image:: https://img.shields.io/conda/dn/bioconda/r-cellassign.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-cellassign| image:: https://quay.io/repository/biocontainers/r-cellassign/status
    :target: https://quay.io/repository/biocontainers/r-cellassign
+.. _`r-cellassign/tags`: https://quay.io/repository/biocontainers/r-cellassign?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-cellassign/README.html
-

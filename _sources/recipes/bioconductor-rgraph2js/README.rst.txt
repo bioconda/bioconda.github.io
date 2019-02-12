@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rgraph2js'
 .. highlight: bash
-
 
 bioconductor-rgraph2js
 ======================
@@ -22,11 +23,19 @@ bioconductor-rgraph2js
 
    |downloads_bioconductor-rgraph2js| |docker_bioconductor-rgraph2js|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-digest`  :conda:package:`r-rjson`  :conda:package:`r-whisker`  
-
-   :required~by: |required_by_bioconductor-rgraph2js|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-digest: 
+   
+   :depends r-rjson: 
+   
+   :depends r-whisker: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-rgraph2js
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgraph2js
+      docker pull quay.io/repository/biocontainers/bioconductor-rgraph2js:<tag>
+
+   (see `bioconductor-rgraph2js/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rgraph2js| conda:required_by:: bioconductor-rgraph2js
 .. |downloads_bioconductor-rgraph2js| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgraph2js.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rgraph2js| image:: https://quay.io/repository/biocontainers/bioconductor-rgraph2js/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgraph2js
+.. _`bioconductor-rgraph2js/tags`: https://quay.io/repository/biocontainers/bioconductor-rgraph2js?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rgraph2js/README.html
-

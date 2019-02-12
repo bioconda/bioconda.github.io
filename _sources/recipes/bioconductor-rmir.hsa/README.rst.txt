@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rmir.hsa'
 .. highlight: bash
-
 
 bioconductor-rmir.hsa
 =====================
@@ -21,11 +22,15 @@ bioconductor-rmir.hsa
 
    |downloads_bioconductor-rmir.hsa| |docker_bioconductor-rmir.hsa|
 
-   :versions: 1.0.5
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-rmir.hsa|
+   :versions: 1.0.5-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-rmir.hsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rmir.hsa
+      docker pull quay.io/repository/biocontainers/bioconductor-rmir.hsa:<tag>
+
+   (see `bioconductor-rmir.hsa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rmir.hsa| conda:required_by:: bioconductor-rmir.hsa
 .. |downloads_bioconductor-rmir.hsa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rmir.hsa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rmir.hsa| image:: https://quay.io/repository/biocontainers/bioconductor-rmir.hsa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rmir.hsa
+.. _`bioconductor-rmir.hsa/tags`: https://quay.io/repository/biocontainers/bioconductor-rmir.hsa?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rmir.hsa/README.html
-

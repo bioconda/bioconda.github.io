@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pbccs'
 .. highlight: bash
-
 
 pbccs
 =====
@@ -21,11 +22,9 @@ pbccs
 
    |downloads_pbccs| |docker_pbccs|
 
-   :versions: 3.3.0, 3.1.0
-
-   :depends: 
-
-   :required~by: |required_by_pbccs|
+   :versions: 3.3.0-0, 3.1.0-3, 3.1.0-2, 3.1.0-1, 3.1.0-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ pbccs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbccs
+      docker pull quay.io/repository/biocontainers/pbccs:<tag>
+
+   (see `pbccs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pbccs| conda:required_by:: pbccs
 .. |downloads_pbccs| image:: https://img.shields.io/conda/dn/bioconda/pbccs.svg?style=flat
    :alt:   (downloads)
 .. |docker_pbccs| image:: https://quay.io/repository/biocontainers/pbccs/status
    :target: https://quay.io/repository/biocontainers/pbccs
+.. _`pbccs/tags`: https://quay.io/repository/biocontainers/pbccs?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pbccs/README.html
-

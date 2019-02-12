@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hmftools-purple'
 .. highlight: bash
-
 
 hmftools-purple
 ===============
@@ -21,11 +22,15 @@ hmftools-purple
 
    |downloads_hmftools-purple| |docker_hmftools-purple|
 
-   :versions: 2.17, 2.16, 2.15
-
-   :depends: :conda:package:`openjdk` >=8 :conda:package:`xorg-libxtst`  :conda:package:`zlib`  
-
-   :required~by: |required_by_hmftools-purple|
+   :versions: 2.17-1, 2.16-1, 2.16-0, 2.15-0
+   
+   :depends openjdk: >=8
+   
+   :depends xorg-libxtst: 
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ hmftools-purple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hmftools-purple
+      docker pull quay.io/repository/biocontainers/hmftools-purple:<tag>
+
+   (see `hmftools-purple/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hmftools-purple| conda:required_by:: hmftools-purple
 .. |downloads_hmftools-purple| image:: https://img.shields.io/conda/dn/bioconda/hmftools-purple.svg?style=flat
    :alt:   (downloads)
 .. |docker_hmftools-purple| image:: https://quay.io/repository/biocontainers/hmftools-purple/status
    :target: https://quay.io/repository/biocontainers/hmftools-purple
+.. _`hmftools-purple/tags`: https://quay.io/repository/biocontainers/hmftools-purple?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hmftools-purple/README.html
-

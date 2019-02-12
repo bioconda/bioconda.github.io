@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-htqpcr'
 .. highlight: bash
-
 
 bioconductor-htqpcr
 ===================
@@ -22,11 +23,21 @@ bioconductor-htqpcr
 
    |downloads_bioconductor-htqpcr| |docker_bioconductor-htqpcr|
 
-   :versions: 1.36.0, 1.34.0, 1.32.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_bioconductor-htqpcr|
+   :versions: 1.36.0-0, 1.34.0-0, 1.32.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gplots: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-htqpcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-htqpcr
+      docker pull quay.io/repository/biocontainers/bioconductor-htqpcr:<tag>
+
+   (see `bioconductor-htqpcr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-htqpcr| conda:required_by:: bioconductor-htqpcr
 .. |downloads_bioconductor-htqpcr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-htqpcr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-htqpcr| image:: https://quay.io/repository/biocontainers/bioconductor-htqpcr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-htqpcr
+.. _`bioconductor-htqpcr/tags`: https://quay.io/repository/biocontainers/bioconductor-htqpcr?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-htqpcr/README.html
-

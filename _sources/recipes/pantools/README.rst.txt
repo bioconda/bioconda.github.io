@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pantools'
 .. highlight: bash
-
 
 pantools
 ========
@@ -21,11 +22,15 @@ pantools
 
    |downloads_pantools| |docker_pantools|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`java-jdk` >=6 :conda:package:`kmc`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pantools|
+   :versions: 1.0-0
+   
+   :depends java-jdk: >=6
+   
+   :depends kmc: 
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pantools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pantools
+      docker pull quay.io/repository/biocontainers/pantools:<tag>
+
+   (see `pantools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pantools| conda:required_by:: pantools
 .. |downloads_pantools| image:: https://img.shields.io/conda/dn/bioconda/pantools.svg?style=flat
    :alt:   (downloads)
 .. |docker_pantools| image:: https://quay.io/repository/biocontainers/pantools/status
    :target: https://quay.io/repository/biocontainers/pantools
+.. _`pantools/tags`: https://quay.io/repository/biocontainers/pantools?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pantools/README.html
-

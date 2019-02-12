@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pindel'
 .. highlight: bash
-
 
 pindel
 ======
@@ -22,11 +23,13 @@ pindel
 
    |downloads_pindel| |docker_pindel|
 
-   :versions: 0.2.5b9, 0.2.5b8
-
-   :depends: :conda:package:`htslib` >=1.7,<1.8.0a0 :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_pindel|
+   :versions: 0.2.5b9-3, 0.2.5b9-2, 0.2.5b9-1, 0.2.5b9-0, 0.2.5b8-2
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ pindel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pindel
+      docker pull quay.io/repository/biocontainers/pindel:<tag>
+
+   (see `pindel/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pindel| conda:required_by:: pindel
 .. |downloads_pindel| image:: https://img.shields.io/conda/dn/bioconda/pindel.svg?style=flat
    :alt:   (downloads)
 .. |docker_pindel| image:: https://quay.io/repository/biocontainers/pindel/status
    :target: https://quay.io/repository/biocontainers/pindel
+.. _`pindel/tags`: https://quay.io/repository/biocontainers/pindel?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pindel/README.html
-

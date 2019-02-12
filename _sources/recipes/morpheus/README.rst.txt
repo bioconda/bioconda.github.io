@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'morpheus'
 .. highlight: bash
-
 
 morpheus
 ========
@@ -21,11 +22,11 @@ morpheus
 
    |downloads_morpheus| |docker_morpheus|
 
-   :versions: 272, 255
-
-   :depends: :conda:package:`mono` >=4.0.0 
-
-   :required~by: |required_by_morpheus|
+   :versions: 272-1, 272-0, 255-0
+   
+   :depends mono: >=4.0.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ morpheus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/morpheus
+      docker pull quay.io/repository/biocontainers/morpheus:<tag>
+
+   (see `morpheus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_morpheus| conda:required_by:: morpheus
 .. |downloads_morpheus| image:: https://img.shields.io/conda/dn/bioconda/morpheus.svg?style=flat
    :alt:   (downloads)
 .. |docker_morpheus| image:: https://quay.io/repository/biocontainers/morpheus/status
    :target: https://quay.io/repository/biocontainers/morpheus
+.. _`morpheus/tags`: https://quay.io/repository/biocontainers/morpheus?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/morpheus/README.html
-

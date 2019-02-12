@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nanosplit'
 .. highlight: bash
-
 
 nanosplit
 =========
@@ -21,11 +22,19 @@ nanosplit
 
    |downloads_nanosplit| |docker_nanosplit|
 
-   :versions: 0.1.4
-
-   :depends: :conda:package:`biopython`  :conda:package:`nanoget`  :conda:package:`nanomath`  :conda:package:`pypandoc`  :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_nanosplit|
+   :versions: 0.1.4-0
+   
+   :depends biopython: 
+   
+   :depends nanoget: 
+   
+   :depends nanomath: 
+   
+   :depends pypandoc: 
+   
+   :depends python: 3.5*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ nanosplit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanosplit
+      docker pull quay.io/repository/biocontainers/nanosplit:<tag>
+
+   (see `nanosplit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nanosplit| conda:required_by:: nanosplit
 .. |downloads_nanosplit| image:: https://img.shields.io/conda/dn/bioconda/nanosplit.svg?style=flat
    :alt:   (downloads)
 .. |docker_nanosplit| image:: https://quay.io/repository/biocontainers/nanosplit/status
    :target: https://quay.io/repository/biocontainers/nanosplit
+.. _`nanosplit/tags`: https://quay.io/repository/biocontainers/nanosplit?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nanosplit/README.html
-

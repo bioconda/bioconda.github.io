@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-metagene'
 .. highlight: bash
-
 
 bioconductor-metagene
 =====================
@@ -21,11 +22,51 @@ bioconductor-metagene
 
    |downloads_bioconductor-metagene| |docker_bioconductor-metagene|
 
-   :versions: 2.14.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-dbchip` >=1.26.0,<1.27.0 :conda:package:`bioconductor-ensdb.hsapiens.v86` >=2.99.0,<2.100.0 :conda:package:`bioconductor-ensembldb` >=2.6.0,<2.7.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-magrittr`  :conda:package:`r-matrixstats`  :conda:package:`r-mustat`  :conda:package:`r-purrr`  :conda:package:`r-r6` >=2.0 :conda:package:`r-stringr`  
-
-   :required~by: |required_by_bioconductor-metagene|
+   :versions: 2.14.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-dbchip: >=1.26.0,<1.27.0
+   
+   :depends bioconductor-ensdb.hsapiens.v86: >=2.99.0,<2.100.0
+   
+   :depends bioconductor-ensembldb: >=2.6.0,<2.7.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicalignments: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-mustat: 
+   
+   :depends r-purrr: 
+   
+   :depends r-r6: >=2.0
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +80,16 @@ bioconductor-metagene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metagene
+      docker pull quay.io/repository/biocontainers/bioconductor-metagene:<tag>
+
+   (see `bioconductor-metagene/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-metagene| conda:required_by:: bioconductor-metagene
 .. |downloads_bioconductor-metagene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metagene.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-metagene| image:: https://quay.io/repository/biocontainers/bioconductor-metagene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metagene
+.. _`bioconductor-metagene/tags`: https://quay.io/repository/biocontainers/bioconductor-metagene?tab=tags
 
 
 
@@ -63,4 +106,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-metagene/README.html
-

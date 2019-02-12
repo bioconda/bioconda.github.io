@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ped_parser'
 .. highlight: bash
-
 
 ped_parser
 ==========
@@ -21,11 +22,15 @@ ped_parser
 
    |downloads_ped_parser| |docker_ped_parser|
 
-   :versions: 1.6.6, 1.6.5
-
-   :depends: :conda:package:`click`  :conda:package:`pytest`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_ped_parser|
+   :versions: 1.6.6-1, 1.6.6-0, 1.6.5-1, 1.6.5-0
+   
+   :depends click: 
+   
+   :depends pytest: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ ped_parser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ped_parser
+      docker pull quay.io/repository/biocontainers/ped_parser:<tag>
+
+   (see `ped_parser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ped_parser| conda:required_by:: ped_parser
 .. |downloads_ped_parser| image:: https://img.shields.io/conda/dn/bioconda/ped_parser.svg?style=flat
    :alt:   (downloads)
 .. |docker_ped_parser| image:: https://quay.io/repository/biocontainers/ped_parser/status
    :target: https://quay.io/repository/biocontainers/ped_parser
+.. _`ped_parser/tags`: https://quay.io/repository/biocontainers/ped_parser?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ped_parser/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'abricate'
 .. highlight: bash
-
 
 abricate
 ========
@@ -21,11 +22,31 @@ abricate
 
    |downloads_abricate| |docker_abricate|
 
-   :versions: 0.8.10, 0.8.7, 0.8, 0.7, 0.5, 0.4, 0.3, 0.2
-
-   :depends: :conda:package:`blast` >=2.7 :conda:package:`emboss`  :conda:package:`entrez-direct`  :conda:package:`perl-bioperl` >=1.7 :conda:package:`perl-file-slurp`  :conda:package:`perl-json`  :conda:package:`perl-list-moreutils`  :conda:package:`perl-lwp-simple`  :conda:package:`perl-text-csv`  :conda:package:`unzip`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_abricate|
+   :versions: 0.8.10-0, 0.8.7-0, 0.8-1, 0.8-0, 0.7-2, 0.7-1, 0.7-0, 0.5-2, 0.5-1, 0.5-0, 0.4-2, 0.4-1, 0.4-0, 0.3-0, 0.2-1, 0.2-0
+   
+   :depends blast: >=2.7
+   
+   :depends emboss: 
+   
+   :depends entrez-direct: 
+   
+   :depends perl-bioperl: >=1.7
+   
+   :depends perl-file-slurp: 
+   
+   :depends perl-json: 
+   
+   :depends perl-list-moreutils: 
+   
+   :depends perl-lwp-simple: 
+   
+   :depends perl-text-csv: 
+   
+   :depends unzip: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ abricate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/abricate
+      docker pull quay.io/repository/biocontainers/abricate:<tag>
+
+   (see `abricate/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_abricate| conda:required_by:: abricate
 .. |downloads_abricate| image:: https://img.shields.io/conda/dn/bioconda/abricate.svg?style=flat
    :alt:   (downloads)
 .. |docker_abricate| image:: https://quay.io/repository/biocontainers/abricate/status
    :target: https://quay.io/repository/biocontainers/abricate
+.. _`abricate/tags`: https://quay.io/repository/biocontainers/abricate?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/abricate/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-xmlrpc'
 .. highlight: bash
-
 
 r-xmlrpc
 ========
@@ -21,11 +22,15 @@ r-xmlrpc
 
    |downloads_r-xmlrpc| |docker_r-xmlrpc|
 
-   :versions: 0.2_4
-
-   :depends: :conda:package:`r` 3.2.2* :conda:package:`r-rcurl`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_r-xmlrpc|
+   :versions: 0.2_4-0
+   
+   :depends r: 3.2.2*
+   
+   :depends r-rcurl: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-xmlrpc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-xmlrpc
+      docker pull quay.io/repository/biocontainers/r-xmlrpc:<tag>
+
+   (see `r-xmlrpc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-xmlrpc| conda:required_by:: r-xmlrpc
 .. |downloads_r-xmlrpc| image:: https://img.shields.io/conda/dn/bioconda/r-xmlrpc.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-xmlrpc| image:: https://quay.io/repository/biocontainers/r-xmlrpc/status
    :target: https://quay.io/repository/biocontainers/r-xmlrpc
+.. _`r-xmlrpc/tags`: https://quay.io/repository/biocontainers/r-xmlrpc?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-xmlrpc/README.html
-

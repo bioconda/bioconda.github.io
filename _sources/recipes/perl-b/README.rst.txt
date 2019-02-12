@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-b'
 .. highlight: bash
-
 
 perl-b
 ======
@@ -21,11 +22,11 @@ perl-b
 
    |downloads_perl-b| |docker_perl-b|
 
-   :versions: 1.48
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-b|
+   :versions: 1.48-1, 1.48-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-b
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-b
+      docker pull quay.io/repository/biocontainers/perl-b:<tag>
+
+   (see `perl-b/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-b| conda:required_by:: perl-b
 .. |downloads_perl-b| image:: https://img.shields.io/conda/dn/bioconda/perl-b.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-b| image:: https://quay.io/repository/biocontainers/perl-b/status
    :target: https://quay.io/repository/biocontainers/perl-b
+.. _`perl-b/tags`: https://quay.io/repository/biocontainers/perl-b?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-b/README.html
-

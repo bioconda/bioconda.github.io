@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'autodock-vina'
 .. highlight: bash
-
 
 autodock-vina
 =============
@@ -21,11 +22,9 @@ autodock-vina
 
    |downloads_autodock-vina| |docker_autodock-vina|
 
-   :versions: 1.1.2
-
-   :depends: 
-
-   :required~by: |required_by_autodock-vina|
+   :versions: 1.1.2-1, 1.1.2-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ autodock-vina
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/autodock-vina
+      docker pull quay.io/repository/biocontainers/autodock-vina:<tag>
+
+   (see `autodock-vina/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_autodock-vina| conda:required_by:: autodock-vina
 .. |downloads_autodock-vina| image:: https://img.shields.io/conda/dn/bioconda/autodock-vina.svg?style=flat
    :alt:   (downloads)
 .. |docker_autodock-vina| image:: https://quay.io/repository/biocontainers/autodock-vina/status
    :target: https://quay.io/repository/biocontainers/autodock-vina
+.. _`autodock-vina/tags`: https://quay.io/repository/biocontainers/autodock-vina?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/autodock-vina/README.html
-

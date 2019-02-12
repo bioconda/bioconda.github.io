@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rmmquant'
 .. highlight: bash
-
 
 bioconductor-rmmquant
 =====================
@@ -21,11 +22,35 @@ bioconductor-rmmquant
 
    |downloads_bioconductor-rmmquant| |docker_bioconductor-rmmquant|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-biocstyle` >=2.10.0,<2.11.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-org.mm.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-tbx20bamsubset` >=1.18.0,<1.19.0 :conda:package:`bioconductor-txdb.mmusculus.ucsc.mm9.knowngene` >=3.2.0,<3.3.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-devtools`  :conda:package:`r-rcpp` >=0.12.8 
-
-   :required~by: |required_by_bioconductor-rmmquant|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-biocstyle: >=2.10.0,<2.11.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-org.mm.eg.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends bioconductor-tbx20bamsubset: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-txdb.mmusculus.ucsc.mm9.knowngene: >=3.2.0,<3.3.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-devtools: 
+   
+   :depends r-rcpp: >=0.12.8
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ bioconductor-rmmquant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rmmquant
+      docker pull quay.io/repository/biocontainers/bioconductor-rmmquant:<tag>
+
+   (see `bioconductor-rmmquant/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rmmquant| conda:required_by:: bioconductor-rmmquant
 .. |downloads_bioconductor-rmmquant| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rmmquant.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rmmquant| image:: https://quay.io/repository/biocontainers/bioconductor-rmmquant/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rmmquant
+.. _`bioconductor-rmmquant/tags`: https://quay.io/repository/biocontainers/bioconductor-rmmquant?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rmmquant/README.html
-

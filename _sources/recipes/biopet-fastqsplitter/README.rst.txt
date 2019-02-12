@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biopet-fastqsplitter'
 .. highlight: bash
-
 
 biopet-fastqsplitter
 ====================
@@ -43,11 +44,13 @@ biopet-fastqsplitter
 
    |downloads_biopet-fastqsplitter| |docker_biopet-fastqsplitter|
 
-   :versions: 0.1
-
-   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
-
-   :required~by: |required_by_biopet-fastqsplitter|
+   :versions: 0.1-1
+   
+   :depends openjdk: >=8,<9
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -61,14 +64,16 @@ biopet-fastqsplitter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-fastqsplitter
+      docker pull quay.io/repository/biocontainers/biopet-fastqsplitter:<tag>
+
+   (see `biopet-fastqsplitter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biopet-fastqsplitter| conda:required_by:: biopet-fastqsplitter
 .. |downloads_biopet-fastqsplitter| image:: https://img.shields.io/conda/dn/bioconda/biopet-fastqsplitter.svg?style=flat
    :alt:   (downloads)
 .. |docker_biopet-fastqsplitter| image:: https://quay.io/repository/biocontainers/biopet-fastqsplitter/status
    :target: https://quay.io/repository/biocontainers/biopet-fastqsplitter
+.. _`biopet-fastqsplitter/tags`: https://quay.io/repository/biocontainers/biopet-fastqsplitter?tab=tags
 
 
 
@@ -89,4 +94,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biopet-fastqsplitter/README.html
-

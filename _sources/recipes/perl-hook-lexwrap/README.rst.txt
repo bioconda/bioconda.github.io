@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-hook-lexwrap'
 .. highlight: bash
-
 
 perl-hook-lexwrap
 =================
@@ -21,11 +22,13 @@ perl-hook-lexwrap
 
    |downloads_perl-hook-lexwrap| |docker_perl-hook-lexwrap|
 
-   :versions: 0.26
-
-   :depends: :conda:package:`perl` >=5.22,<6.0 :conda:package:`perl-carp`  
-
-   :required~by: |required_by_perl-hook-lexwrap|
+   :versions: 0.26-1, 0.26-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-carp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-hook-lexwrap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-hook-lexwrap
+      docker pull quay.io/repository/biocontainers/perl-hook-lexwrap:<tag>
+
+   (see `perl-hook-lexwrap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-hook-lexwrap| conda:required_by:: perl-hook-lexwrap
 .. |downloads_perl-hook-lexwrap| image:: https://img.shields.io/conda/dn/bioconda/perl-hook-lexwrap.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-hook-lexwrap| image:: https://quay.io/repository/biocontainers/perl-hook-lexwrap/status
    :target: https://quay.io/repository/biocontainers/perl-hook-lexwrap
+.. _`perl-hook-lexwrap/tags`: https://quay.io/repository/biocontainers/perl-hook-lexwrap?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-hook-lexwrap/README.html
-

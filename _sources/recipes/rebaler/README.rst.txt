@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rebaler'
 .. highlight: bash
-
 
 rebaler
 =======
@@ -21,11 +22,17 @@ rebaler
 
    |downloads_rebaler| |docker_rebaler|
 
-   :versions: 0.1.2, 0.1.1, 0.1.0
-
-   :depends: :conda:package:`biopython`  :conda:package:`minimap2`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`racon`  
-
-   :required~by: |required_by_rebaler|
+   :versions: 0.1.2-0, 0.1.1-2, 0.1.1-0, 0.1.0-0
+   
+   :depends biopython: 
+   
+   :depends minimap2: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends racon: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ rebaler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rebaler
+      docker pull quay.io/repository/biocontainers/rebaler:<tag>
+
+   (see `rebaler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rebaler| conda:required_by:: rebaler
 .. |downloads_rebaler| image:: https://img.shields.io/conda/dn/bioconda/rebaler.svg?style=flat
    :alt:   (downloads)
 .. |docker_rebaler| image:: https://quay.io/repository/biocontainers/rebaler/status
    :target: https://quay.io/repository/biocontainers/rebaler
+.. _`rebaler/tags`: https://quay.io/repository/biocontainers/rebaler?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rebaler/README.html
-

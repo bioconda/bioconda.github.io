@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-http-negotiate'
 .. highlight: bash
-
 
 perl-http-negotiate
 ===================
@@ -21,11 +22,13 @@ perl-http-negotiate
 
    |downloads_perl-http-negotiate| |docker_perl-http-negotiate|
 
-   :versions: 6.01
-
-   :depends: :conda:package:`perl-http-message`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-http-negotiate|
+   :versions: 6.01-2, 6.01-1, 6.01-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-http-message: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-http-negotiate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-http-negotiate
+      docker pull quay.io/repository/biocontainers/perl-http-negotiate:<tag>
+
+   (see `perl-http-negotiate/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-http-negotiate| conda:required_by:: perl-http-negotiate
 .. |downloads_perl-http-negotiate| image:: https://img.shields.io/conda/dn/bioconda/perl-http-negotiate.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-http-negotiate| image:: https://quay.io/repository/biocontainers/perl-http-negotiate/status
    :target: https://quay.io/repository/biocontainers/perl-http-negotiate
+.. _`perl-http-negotiate/tags`: https://quay.io/repository/biocontainers/perl-http-negotiate?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-http-negotiate/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'shannon'
 .. highlight: bash
-
 
 shannon
 =======
@@ -22,11 +23,23 @@ shannon
 
    |downloads_shannon| |docker_shannon|
 
-   :versions: 0.0.2
-
-   :depends: :conda:package:`cvxopt`  :conda:package:`jellyfish`  :conda:package:`metis`  :conda:package:`numpy`  :conda:package:`parallel`  :conda:package:`python` <3 :conda:package:`quorum`  
-
-   :required~by: |required_by_shannon|
+   :versions: 0.0.2-0
+   
+   :depends cvxopt: 
+   
+   :depends jellyfish: 
+   
+   :depends metis: 
+   
+   :depends numpy: 
+   
+   :depends parallel: 
+   
+   :depends python: <3
+   
+   :depends quorum: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ shannon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shannon
+      docker pull quay.io/repository/biocontainers/shannon:<tag>
+
+   (see `shannon/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_shannon| conda:required_by:: shannon
 .. |downloads_shannon| image:: https://img.shields.io/conda/dn/bioconda/shannon.svg?style=flat
    :alt:   (downloads)
 .. |docker_shannon| image:: https://quay.io/repository/biocontainers/shannon/status
    :target: https://quay.io/repository/biocontainers/shannon
+.. _`shannon/tags`: https://quay.io/repository/biocontainers/shannon?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/shannon/README.html
-

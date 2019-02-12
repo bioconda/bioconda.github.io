@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'aragorn'
 .. highlight: bash
-
 
 aragorn
 =======
@@ -21,11 +22,11 @@ aragorn
 
    |downloads_aragorn| |docker_aragorn|
 
-   :versions: 1.2.38, 1.2.36
-
-   :depends: 
-
-   :required~by: |required_by_aragorn|
+   :versions: 1.2.38-2, 1.2.38-1, 1.2.36-1, 1.2.36-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ aragorn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/aragorn
+      docker pull quay.io/repository/biocontainers/aragorn:<tag>
+
+   (see `aragorn/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_aragorn| conda:required_by:: aragorn
 .. |downloads_aragorn| image:: https://img.shields.io/conda/dn/bioconda/aragorn.svg?style=flat
    :alt:   (downloads)
 .. |docker_aragorn| image:: https://quay.io/repository/biocontainers/aragorn/status
    :target: https://quay.io/repository/biocontainers/aragorn
+.. _`aragorn/tags`: https://quay.io/repository/biocontainers/aragorn?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/aragorn/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sumaclust'
 .. highlight: bash
-
 
 sumaclust
 =========
@@ -21,11 +22,11 @@ sumaclust
 
    |downloads_sumaclust| |docker_sumaclust|
 
-   :versions: 1.0.31
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 
-
-   :required~by: |required_by_sumaclust|
+   :versions: 1.0.31-1, 1.0.31-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ sumaclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sumaclust
+      docker pull quay.io/repository/biocontainers/sumaclust:<tag>
+
+   (see `sumaclust/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sumaclust| conda:required_by:: sumaclust
 .. |downloads_sumaclust| image:: https://img.shields.io/conda/dn/bioconda/sumaclust.svg?style=flat
    :alt:   (downloads)
 .. |docker_sumaclust| image:: https://quay.io/repository/biocontainers/sumaclust/status
    :target: https://quay.io/repository/biocontainers/sumaclust
+.. _`sumaclust/tags`: https://quay.io/repository/biocontainers/sumaclust?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sumaclust/README.html
-

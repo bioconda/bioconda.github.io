@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-annotationfilter'
 .. highlight: bash
-
 
 bioconductor-annotationfilter
 =============================
@@ -21,11 +22,15 @@ bioconductor-annotationfilter
 
    |downloads_bioconductor-annotationfilter| |docker_bioconductor-annotationfilter|
 
-   :versions: 1.6.0, 1.4.0, 1.2.0, 1.0.0
-
-   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lazyeval`  
-
-   :required~by: |required_by_bioconductor-annotationfilter|
+   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-lazyeval: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-annotationfilter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-annotationfilter
+      docker pull quay.io/repository/biocontainers/bioconductor-annotationfilter:<tag>
+
+   (see `bioconductor-annotationfilter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-annotationfilter| conda:required_by:: bioconductor-annotationfilter
 .. |downloads_bioconductor-annotationfilter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-annotationfilter.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-annotationfilter| image:: https://quay.io/repository/biocontainers/bioconductor-annotationfilter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-annotationfilter
+.. _`bioconductor-annotationfilter/tags`: https://quay.io/repository/biocontainers/bioconductor-annotationfilter?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-annotationfilter/README.html
-

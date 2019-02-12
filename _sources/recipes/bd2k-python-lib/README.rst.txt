@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bd2k-python-lib'
 .. highlight: bash
-
 
 bd2k-python-lib
 ===============
@@ -21,11 +22,11 @@ bd2k-python-lib
 
    |downloads_bd2k-python-lib| |docker_bd2k-python-lib|
 
-   :versions: 1.14a1.dev37, 1.14a1.dev33, 1.14a1.dev29, 1.14a1.dev28, 1.13.dev14
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_bd2k-python-lib|
+   :versions: 1.14a1.dev37-1, 1.14a1.dev37-0, 1.14a1.dev33-0, 1.14a1.dev29-0, 1.14a1.dev28-0, 1.13.dev14-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bd2k-python-lib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bd2k-python-lib
+      docker pull quay.io/repository/biocontainers/bd2k-python-lib:<tag>
+
+   (see `bd2k-python-lib/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bd2k-python-lib| conda:required_by:: bd2k-python-lib
 .. |downloads_bd2k-python-lib| image:: https://img.shields.io/conda/dn/bioconda/bd2k-python-lib.svg?style=flat
    :alt:   (downloads)
 .. |docker_bd2k-python-lib| image:: https://quay.io/repository/biocontainers/bd2k-python-lib/status
    :target: https://quay.io/repository/biocontainers/bd2k-python-lib
+.. _`bd2k-python-lib/tags`: https://quay.io/repository/biocontainers/bd2k-python-lib?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bd2k-python-lib/README.html
-

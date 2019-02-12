@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-ipc-run'
 .. highlight: bash
-
 
 perl-ipc-run
 ============
@@ -21,11 +22,13 @@ perl-ipc-run
 
    |downloads_perl-ipc-run| |docker_perl-ipc-run|
 
-   :versions: 20180523.0, 0.94
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-io-tty`  
-
-   :required~by: |required_by_perl-ipc-run|
+   :versions: 20180523.0-0, 0.94-1, 0.94-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-io-tty: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-ipc-run
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-ipc-run
+      docker pull quay.io/repository/biocontainers/perl-ipc-run:<tag>
+
+   (see `perl-ipc-run/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-ipc-run| conda:required_by:: perl-ipc-run
 .. |downloads_perl-ipc-run| image:: https://img.shields.io/conda/dn/bioconda/perl-ipc-run.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-ipc-run| image:: https://quay.io/repository/biocontainers/perl-ipc-run/status
    :target: https://quay.io/repository/biocontainers/perl-ipc-run
+.. _`perl-ipc-run/tags`: https://quay.io/repository/biocontainers/perl-ipc-run?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-ipc-run/README.html
-

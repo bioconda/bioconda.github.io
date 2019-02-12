@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mcl'
 .. highlight: bash
-
 
 mcl
 ===
@@ -21,11 +22,15 @@ mcl
 
    |downloads_mcl| |docker_mcl|
 
-   :versions: 14.137
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_mcl|
+   :versions: 14.137-4, 14.137-3, 14.137-2, 14.137-1, 14.137-0
+   
+   :depends blast: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ mcl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mcl
+      docker pull quay.io/repository/biocontainers/mcl:<tag>
+
+   (see `mcl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mcl| conda:required_by:: mcl
 .. |downloads_mcl| image:: https://img.shields.io/conda/dn/bioconda/mcl.svg?style=flat
    :alt:   (downloads)
 .. |docker_mcl| image:: https://quay.io/repository/biocontainers/mcl/status
    :target: https://quay.io/repository/biocontainers/mcl
+.. _`mcl/tags`: https://quay.io/repository/biocontainers/mcl?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mcl/README.html
-

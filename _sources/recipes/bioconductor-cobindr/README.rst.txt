@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cobindr'
 .. highlight: bash
-
 
 bioconductor-cobindr
 ====================
@@ -21,11 +22,33 @@ bioconductor-cobindr
 
    |downloads_bioconductor-cobindr| |docker_bioconductor-cobindr|
 
-   :versions: 1.20.0
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-bsgenome` >=1.50.0,<1.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gmp`  :conda:package:`r-gplots`  :conda:package:`r-mclust`  :conda:package:`r-rtfbs`  :conda:package:`r-seqinr`  :conda:package:`r-yaml`  
-
-   :required~by: |required_by_bioconductor-cobindr|
+   :versions: 1.20.0-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gmp: 
+   
+   :depends r-gplots: 
+   
+   :depends r-mclust: 
+   
+   :depends r-rtfbs: 
+   
+   :depends r-seqinr: 
+   
+   :depends r-yaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ bioconductor-cobindr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cobindr
+      docker pull quay.io/repository/biocontainers/bioconductor-cobindr:<tag>
+
+   (see `bioconductor-cobindr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cobindr| conda:required_by:: bioconductor-cobindr
 .. |downloads_bioconductor-cobindr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cobindr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cobindr| image:: https://quay.io/repository/biocontainers/bioconductor-cobindr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cobindr
+.. _`bioconductor-cobindr/tags`: https://quay.io/repository/biocontainers/bioconductor-cobindr?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cobindr/README.html
-

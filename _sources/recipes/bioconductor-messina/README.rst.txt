@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-messina'
 .. highlight: bash
-
 
 bioconductor-messina
 ====================
@@ -22,11 +23,25 @@ bioconductor-messina
 
    |downloads_bioconductor-messina| |docker_bioconductor-messina|
 
-   :versions: 1.18.0, 1.16.0, 1.14.0, 1.12.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-foreach` >=1.4.1 :conda:package:`r-ggplot2` >=0.9.3.1 :conda:package:`r-plyr` >=1.8 :conda:package:`r-rcpp` >=0.11.1 :conda:package:`r-survival` >=2.37-4 
-
-   :required~by: |required_by_bioconductor-messina|
+   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-foreach: >=1.4.1
+   
+   :depends r-ggplot2: >=0.9.3.1
+   
+   :depends r-plyr: >=1.8
+   
+   :depends r-rcpp: >=0.11.1
+   
+   :depends r-survival: >=2.37-4
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ bioconductor-messina
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-messina
+      docker pull quay.io/repository/biocontainers/bioconductor-messina:<tag>
+
+   (see `bioconductor-messina/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-messina| conda:required_by:: bioconductor-messina
 .. |downloads_bioconductor-messina| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-messina.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-messina| image:: https://quay.io/repository/biocontainers/bioconductor-messina/status
    :target: https://quay.io/repository/biocontainers/bioconductor-messina
+.. _`bioconductor-messina/tags`: https://quay.io/repository/biocontainers/bioconductor-messina?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-messina/README.html
-

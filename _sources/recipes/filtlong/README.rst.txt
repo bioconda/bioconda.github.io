@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'filtlong'
 .. highlight: bash
-
 
 filtlong
 ========
@@ -21,11 +22,13 @@ filtlong
 
    |downloads_filtlong| |docker_filtlong|
 
-   :versions: 0.2.0, 0.1.1, 0.1.0
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
-
-   :required~by: |required_by_filtlong|
+   :versions: 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.1-0, 0.1.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ filtlong
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/filtlong
+      docker pull quay.io/repository/biocontainers/filtlong:<tag>
+
+   (see `filtlong/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_filtlong| conda:required_by:: filtlong
 .. |downloads_filtlong| image:: https://img.shields.io/conda/dn/bioconda/filtlong.svg?style=flat
    :alt:   (downloads)
 .. |docker_filtlong| image:: https://quay.io/repository/biocontainers/filtlong/status
    :target: https://quay.io/repository/biocontainers/filtlong
+.. _`filtlong/tags`: https://quay.io/repository/biocontainers/filtlong?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/filtlong/README.html
-

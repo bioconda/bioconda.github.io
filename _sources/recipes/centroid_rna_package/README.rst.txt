@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'centroid_rna_package'
 .. highlight: bash
-
 
 centroid_rna_package
 ====================
@@ -22,11 +23,11 @@ centroid_rna_package
 
    |downloads_centroid_rna_package| |docker_centroid_rna_package|
 
-   :versions: 0.0.15
-
-   :depends: :conda:package:`viennarna` >=1.8 
-
-   :required~by: |required_by_centroid_rna_package|
+   :versions: 0.0.15-0
+   
+   :depends viennarna: >=1.8
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ centroid_rna_package
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/centroid_rna_package
+      docker pull quay.io/repository/biocontainers/centroid_rna_package:<tag>
+
+   (see `centroid_rna_package/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_centroid_rna_package| conda:required_by:: centroid_rna_package
 .. |downloads_centroid_rna_package| image:: https://img.shields.io/conda/dn/bioconda/centroid_rna_package.svg?style=flat
    :alt:   (downloads)
 .. |docker_centroid_rna_package| image:: https://quay.io/repository/biocontainers/centroid_rna_package/status
    :target: https://quay.io/repository/biocontainers/centroid_rna_package
+.. _`centroid_rna_package/tags`: https://quay.io/repository/biocontainers/centroid_rna_package?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/centroid_rna_package/README.html
-

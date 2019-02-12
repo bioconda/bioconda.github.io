@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-hgu133abarcodevecs'
 .. highlight: bash
-
 
 bioconductor-hgu133abarcodevecs
 ===============================
@@ -21,11 +22,13 @@ bioconductor-hgu133abarcodevecs
 
    |downloads_bioconductor-hgu133abarcodevecs| |docker_bioconductor-hgu133abarcodevecs|
 
-   :versions: 1.20.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-hgu133abarcodevecs|
+   :versions: 1.20.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-hgu133abarcodevecs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hgu133abarcodevecs
+      docker pull quay.io/repository/biocontainers/bioconductor-hgu133abarcodevecs:<tag>
+
+   (see `bioconductor-hgu133abarcodevecs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-hgu133abarcodevecs| conda:required_by:: bioconductor-hgu133abarcodevecs
 .. |downloads_bioconductor-hgu133abarcodevecs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu133abarcodevecs.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-hgu133abarcodevecs| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133abarcodevecs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgu133abarcodevecs
+.. _`bioconductor-hgu133abarcodevecs/tags`: https://quay.io/repository/biocontainers/bioconductor-hgu133abarcodevecs?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-hgu133abarcodevecs/README.html
-

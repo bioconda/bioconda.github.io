@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genblasta'
 .. highlight: bash
-
 
 genblasta
 =========
@@ -21,11 +22,11 @@ genblasta
 
    |downloads_genblasta| |docker_genblasta|
 
-   :versions: 1.0.4
-
-   :depends: :conda:package:`blast`  
-
-   :required~by: |required_by_genblasta|
+   :versions: 1.0.4-0
+   
+   :depends blast: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ genblasta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genblasta
+      docker pull quay.io/repository/biocontainers/genblasta:<tag>
+
+   (see `genblasta/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genblasta| conda:required_by:: genblasta
 .. |downloads_genblasta| image:: https://img.shields.io/conda/dn/bioconda/genblasta.svg?style=flat
    :alt:   (downloads)
 .. |docker_genblasta| image:: https://quay.io/repository/biocontainers/genblasta/status
    :target: https://quay.io/repository/biocontainers/genblasta
+.. _`genblasta/tags`: https://quay.io/repository/biocontainers/genblasta?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genblasta/README.html
-

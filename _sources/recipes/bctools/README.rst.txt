@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bctools'
 .. highlight: bash
-
 
 bctools
 =======
@@ -21,11 +22,21 @@ bctools
 
    |downloads_bctools| |docker_bctools|
 
-   :versions: 0.2.2, 0.2.1
-
-   :depends: :conda:package:`bedtools`  :conda:package:`biopython`  :conda:package:`datamash`  :conda:package:`future`  :conda:package:`perl`  :conda:package:`pybedtools`  
-
-   :required~by: |required_by_bctools|
+   :versions: 0.2.2-1, 0.2.2-0, 0.2.1-0
+   
+   :depends bedtools: 
+   
+   :depends biopython: 
+   
+   :depends datamash: 
+   
+   :depends future: 
+   
+   :depends perl: 
+   
+   :depends pybedtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bctools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bctools
+      docker pull quay.io/repository/biocontainers/bctools:<tag>
+
+   (see `bctools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bctools| conda:required_by:: bctools
 .. |downloads_bctools| image:: https://img.shields.io/conda/dn/bioconda/bctools.svg?style=flat
    :alt:   (downloads)
 .. |docker_bctools| image:: https://quay.io/repository/biocontainers/bctools/status
    :target: https://quay.io/repository/biocontainers/bctools
+.. _`bctools/tags`: https://quay.io/repository/biocontainers/bctools?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bctools/README.html
-

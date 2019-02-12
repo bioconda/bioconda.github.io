@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pybigwig'
 .. highlight: bash
-
 
 pybigwig
 ========
@@ -21,11 +22,19 @@ pybigwig
 
    |downloads_pybigwig| |docker_pybigwig|
 
-   :versions: 0.3.13, 0.3.12, 0.3.11, 0.3.10, 0.3.9, 0.3.8, 0.3.7, 0.3.6, 0.3.5, 0.3.4, 0.3.3, 0.2.8, 0.2.7, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.1b, 0.1.11
-
-   :depends: :conda:package:`libcurl` >=7.61.1,<8.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`numpy` >=1.16.1,<2.0a0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_pybigwig|
+   :versions: 0.3.13-1, 0.3.13-0, 0.3.12-2, 0.3.12-1, 0.3.12-0, 0.3.11-2, 0.3.11-1, 0.3.11-0, 0.3.10-0, 0.3.9-0, 0.3.8-0, 0.3.7-0, 0.3.6-1, 0.3.6-0, 0.3.5-0, 0.3.4-0, 0.3.3-0, 0.2.8-0, 0.2.7-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.1b-1, 0.2.1b-0, 0.1.11-1, 0.1.11-0
+   
+   :depends libcurl: >=7.61.1,<8.0a0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends numpy: >=1.16.1,<2.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ pybigwig
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pybigwig
+      docker pull quay.io/repository/biocontainers/pybigwig:<tag>
+
+   (see `pybigwig/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pybigwig| conda:required_by:: pybigwig
 .. |downloads_pybigwig| image:: https://img.shields.io/conda/dn/bioconda/pybigwig.svg?style=flat
    :alt:   (downloads)
 .. |docker_pybigwig| image:: https://quay.io/repository/biocontainers/pybigwig/status
    :target: https://quay.io/repository/biocontainers/pybigwig
+.. _`pybigwig/tags`: https://quay.io/repository/biocontainers/pybigwig?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pybigwig/README.html
-

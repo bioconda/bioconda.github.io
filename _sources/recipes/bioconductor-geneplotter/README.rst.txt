@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-geneplotter'
 .. highlight: bash
-
 
 bioconductor-geneplotter
 ========================
@@ -22,11 +23,23 @@ bioconductor-geneplotter
 
    |downloads_bioconductor-geneplotter| |docker_bioconductor-geneplotter|
 
-   :versions: 1.60.0, 1.58.0, 1.56.0, 1.54.0, 1.50.0, 1.48.0, 1.46.0
-
-   :depends: :conda:package:`bioconductor-annotate` >=1.60.0,<1.61.0 :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_bioconductor-geneplotter|
+   :versions: 1.60.0-0, 1.58.0-0, 1.56.0-0, 1.54.0-0, 1.50.0-0, 1.48.0-0, 1.46.0-0
+   
+   :depends bioconductor-annotate: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-lattice: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ bioconductor-geneplotter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneplotter
+      docker pull quay.io/repository/biocontainers/bioconductor-geneplotter:<tag>
+
+   (see `bioconductor-geneplotter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-geneplotter| conda:required_by:: bioconductor-geneplotter
 .. |downloads_bioconductor-geneplotter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneplotter.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-geneplotter| image:: https://quay.io/repository/biocontainers/bioconductor-geneplotter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geneplotter
+.. _`bioconductor-geneplotter/tags`: https://quay.io/repository/biocontainers/bioconductor-geneplotter?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-geneplotter/README.html
-

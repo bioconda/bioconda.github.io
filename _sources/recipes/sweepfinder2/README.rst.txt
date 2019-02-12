@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sweepfinder2'
 .. highlight: bash
-
 
 sweepfinder2
 ============
@@ -21,11 +22,11 @@ sweepfinder2
 
    |downloads_sweepfinder2| |docker_sweepfinder2|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_sweepfinder2|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ sweepfinder2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sweepfinder2
+      docker pull quay.io/repository/biocontainers/sweepfinder2:<tag>
+
+   (see `sweepfinder2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sweepfinder2| conda:required_by:: sweepfinder2
 .. |downloads_sweepfinder2| image:: https://img.shields.io/conda/dn/bioconda/sweepfinder2.svg?style=flat
    :alt:   (downloads)
 .. |docker_sweepfinder2| image:: https://quay.io/repository/biocontainers/sweepfinder2/status
    :target: https://quay.io/repository/biocontainers/sweepfinder2
+.. _`sweepfinder2/tags`: https://quay.io/repository/biocontainers/sweepfinder2?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sweepfinder2/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mitoode'
 .. highlight: bash
-
 
 bioconductor-mitoode
 ====================
@@ -21,11 +22,21 @@ bioconductor-mitoode
 
    |downloads_bioconductor-mitoode| |docker_bioconductor-mitoode|
 
-   :versions: 1.20.1, 1.20.0
-
-   :depends: :conda:package:`bioconductor-mitoodedata` >=1.18.0,<1.19.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-kernsmooth`  :conda:package:`r-mass`  :conda:package:`r-minpack.lm`  
-
-   :required~by: |required_by_bioconductor-mitoode|
+   :versions: 1.20.1-0, 1.20.0-0
+   
+   :depends bioconductor-mitoodedata: >=1.18.0,<1.19.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-kernsmooth: 
+   
+   :depends r-mass: 
+   
+   :depends r-minpack.lm: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-mitoode
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mitoode
+      docker pull quay.io/repository/biocontainers/bioconductor-mitoode:<tag>
+
+   (see `bioconductor-mitoode/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mitoode| conda:required_by:: bioconductor-mitoode
 .. |downloads_bioconductor-mitoode| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mitoode.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mitoode| image:: https://quay.io/repository/biocontainers/bioconductor-mitoode/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mitoode
+.. _`bioconductor-mitoode/tags`: https://quay.io/repository/biocontainers/bioconductor-mitoode?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mitoode/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-chronos'
 .. highlight: bash
-
 
 bioconductor-chronos
 ====================
@@ -22,11 +23,29 @@ bioconductor-chronos
 
    |downloads_bioconductor-chronos| |docker_bioconductor-chronos|
 
-   :versions: 1.10.0, 1.8.1, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-circlize`  :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-openxlsx`  :conda:package:`r-rcurl`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-chronos|
+   :versions: 1.10.0-0, 1.8.1-0, 1.6.0-0, 1.4.0-0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-rbgl: >=1.58.0,<1.59.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-circlize: 
+   
+   :depends r-doparallel: 
+   
+   :depends r-foreach: 
+   
+   :depends r-openxlsx: 
+   
+   :depends r-rcurl: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ bioconductor-chronos
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chronos
+      docker pull quay.io/repository/biocontainers/bioconductor-chronos:<tag>
+
+   (see `bioconductor-chronos/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-chronos| conda:required_by:: bioconductor-chronos
 .. |downloads_bioconductor-chronos| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chronos.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-chronos| image:: https://quay.io/repository/biocontainers/bioconductor-chronos/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chronos
+.. _`bioconductor-chronos/tags`: https://quay.io/repository/biocontainers/bioconductor-chronos?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-chronos/README.html
-

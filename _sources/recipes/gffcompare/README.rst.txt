@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gffcompare'
 .. highlight: bash
-
 
 gffcompare
 ==========
@@ -22,11 +23,11 @@ gffcompare
 
    |downloads_gffcompare| |docker_gffcompare|
 
-   :versions: 0.10.6, 0.9.8
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_gffcompare|
+   :versions: 0.10.6-0, 0.9.8-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ gffcompare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gffcompare
+      docker pull quay.io/repository/biocontainers/gffcompare:<tag>
+
+   (see `gffcompare/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gffcompare| conda:required_by:: gffcompare
 .. |downloads_gffcompare| image:: https://img.shields.io/conda/dn/bioconda/gffcompare.svg?style=flat
    :alt:   (downloads)
 .. |docker_gffcompare| image:: https://quay.io/repository/biocontainers/gffcompare/status
    :target: https://quay.io/repository/biocontainers/gffcompare
+.. _`gffcompare/tags`: https://quay.io/repository/biocontainers/gffcompare?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gffcompare/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mintmap'
 .. highlight: bash
-
 
 mintmap
 =======
@@ -21,11 +22,11 @@ mintmap
 
    |downloads_mintmap| |docker_mintmap|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`perl-base`  
-
-   :required~by: |required_by_mintmap|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends perl-base: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ mintmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mintmap
+      docker pull quay.io/repository/biocontainers/mintmap:<tag>
+
+   (see `mintmap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mintmap| conda:required_by:: mintmap
 .. |downloads_mintmap| image:: https://img.shields.io/conda/dn/bioconda/mintmap.svg?style=flat
    :alt:   (downloads)
 .. |docker_mintmap| image:: https://quay.io/repository/biocontainers/mintmap/status
    :target: https://quay.io/repository/biocontainers/mintmap
+.. _`mintmap/tags`: https://quay.io/repository/biocontainers/mintmap?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mintmap/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ribotish'
 .. highlight: bash
-
 
 ribotish
 ========
@@ -21,11 +22,21 @@ ribotish
 
    |downloads_ribotish| |docker_ribotish|
 
-   :versions: 0.2.1, 0.2.0
-
-   :depends: :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pip`  :conda:package:`pysam`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
-
-   :required~by: |required_by_ribotish|
+   :versions: 0.2.1-0, 0.2.0-0
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pip: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ ribotish
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ribotish
+      docker pull quay.io/repository/biocontainers/ribotish:<tag>
+
+   (see `ribotish/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ribotish| conda:required_by:: ribotish
 .. |downloads_ribotish| image:: https://img.shields.io/conda/dn/bioconda/ribotish.svg?style=flat
    :alt:   (downloads)
 .. |docker_ribotish| image:: https://quay.io/repository/biocontainers/ribotish/status
    :target: https://quay.io/repository/biocontainers/ribotish
+.. _`ribotish/tags`: https://quay.io/repository/biocontainers/ribotish?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ribotish/README.html
-

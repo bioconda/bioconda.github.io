@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-devel-checkbin'
 .. highlight: bash
-
 
 perl-devel-checkbin
 ===================
@@ -21,11 +22,11 @@ perl-devel-checkbin
 
    |downloads_perl-devel-checkbin| |docker_perl-devel-checkbin|
 
-   :versions: 0.04
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-devel-checkbin|
+   :versions: 0.04-2, 0.04-1, 0.04-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-devel-checkbin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-devel-checkbin
+      docker pull quay.io/repository/biocontainers/perl-devel-checkbin:<tag>
+
+   (see `perl-devel-checkbin/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-devel-checkbin| conda:required_by:: perl-devel-checkbin
 .. |downloads_perl-devel-checkbin| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-checkbin.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-devel-checkbin| image:: https://quay.io/repository/biocontainers/perl-devel-checkbin/status
    :target: https://quay.io/repository/biocontainers/perl-devel-checkbin
+.. _`perl-devel-checkbin/tags`: https://quay.io/repository/biocontainers/perl-devel-checkbin?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-devel-checkbin/README.html
-

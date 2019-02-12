@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'aria2'
 .. highlight: bash
-
 
 aria2
 =====
@@ -22,11 +23,23 @@ aria2
 
    |downloads_aria2| |docker_aria2|
 
-   :versions: 1.34.0, 1.23.0
-
-   :depends: :conda:package:`c-ares`  :conda:package:`libgcc`  :conda:package:`libssh2`  :conda:package:`libxml2`  :conda:package:`openssl`  :conda:package:`sqlite`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_aria2|
+   :versions: 1.34.0-3, 1.34.0-0, 1.23.0-1, 1.23.0-0
+   
+   :depends c-ares: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libssh2: >=1.8.0,<1.9.0a0
+   
+   :depends libxml2: >=2.9.8,<2.10.0a0
+   
+   :depends openssl: >=1.0.2o,<1.0.3a
+   
+   :depends sqlite: >=3.24.0,<4.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ aria2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/aria2
+      docker pull quay.io/repository/biocontainers/aria2:<tag>
+
+   (see `aria2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_aria2| conda:required_by:: aria2
 .. |downloads_aria2| image:: https://img.shields.io/conda/dn/bioconda/aria2.svg?style=flat
    :alt:   (downloads)
 .. |docker_aria2| image:: https://quay.io/repository/biocontainers/aria2/status
    :target: https://quay.io/repository/biocontainers/aria2
+.. _`aria2/tags`: https://quay.io/repository/biocontainers/aria2?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/aria2/README.html
-

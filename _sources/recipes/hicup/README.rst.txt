@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hicup'
 .. highlight: bash
-
 
 hicup
 =====
@@ -22,11 +23,19 @@ hicup
 
    |downloads_hicup| |docker_hicup|
 
-   :versions: 0.6.1, 0.5.10, 0.5.9
-
-   :depends: :conda:package:`bowtie`  :conda:package:`bowtie2`  :conda:package:`perl`  :conda:package:`r-base`  :conda:package:`samtools`  
-
-   :required~by: |required_by_hicup|
+   :versions: 0.6.1-1, 0.6.1-0, 0.5.10-0, 0.5.9-0
+   
+   :depends bowtie: 
+   
+   :depends bowtie2: 
+   
+   :depends perl: 
+   
+   :depends r-base: 
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ hicup
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hicup
+      docker pull quay.io/repository/biocontainers/hicup:<tag>
+
+   (see `hicup/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hicup| conda:required_by:: hicup
 .. |downloads_hicup| image:: https://img.shields.io/conda/dn/bioconda/hicup.svg?style=flat
    :alt:   (downloads)
 .. |docker_hicup| image:: https://quay.io/repository/biocontainers/hicup/status
    :target: https://quay.io/repository/biocontainers/hicup
+.. _`hicup/tags`: https://quay.io/repository/biocontainers/hicup?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hicup/README.html
-

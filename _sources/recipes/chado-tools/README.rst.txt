@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'chado-tools'
 .. highlight: bash
-
 
 chado-tools
 ===========
@@ -21,11 +22,25 @@ chado-tools
 
    |downloads_chado-tools| |docker_chado-tools|
 
-   :versions: 0.2.5, 0.0.5, 0.0.4, 0.0.3
-
-   :depends: :conda:package:`biopython`  :conda:package:`gffutils`  :conda:package:`pronto` >=0.11.0 :conda:package:`psycopg2`  :conda:package:`python` >=3.6 :conda:package:`pyyaml`  :conda:package:`sqlalchemy`  :conda:package:`sqlalchemy-utils`  
-
-   :required~by: |required_by_chado-tools|
+   :versions: 0.2.5-0, 0.0.5-0, 0.0.4-0, 0.0.3-0
+   
+   :depends biopython: 
+   
+   :depends gffutils: 
+   
+   :depends pronto: >=0.11.0
+   
+   :depends psycopg2: 
+   
+   :depends python: >=3.6
+   
+   :depends pyyaml: 
+   
+   :depends sqlalchemy: 
+   
+   :depends sqlalchemy-utils: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ chado-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/chado-tools
+      docker pull quay.io/repository/biocontainers/chado-tools:<tag>
+
+   (see `chado-tools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_chado-tools| conda:required_by:: chado-tools
 .. |downloads_chado-tools| image:: https://img.shields.io/conda/dn/bioconda/chado-tools.svg?style=flat
    :alt:   (downloads)
 .. |docker_chado-tools| image:: https://quay.io/repository/biocontainers/chado-tools/status
    :target: https://quay.io/repository/biocontainers/chado-tools
+.. _`chado-tools/tags`: https://quay.io/repository/biocontainers/chado-tools?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/chado-tools/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-metnet'
 .. highlight: bash
-
 
 bioconductor-metnet
 ===================
@@ -21,11 +22,29 @@ bioconductor-metnet
 
    |downloads_bioconductor-metnet| |docker_bioconductor-metnet|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bnlearn` >=4.3 :conda:package:`r-mpmi` >=0.42 :conda:package:`r-parmigene` >=1.0.2 :conda:package:`r-ppcor` >=1.1 :conda:package:`r-rfpermute` >=2.1.5 :conda:package:`r-sna` >=2.4 :conda:package:`r-stabs` >=0.6 :conda:package:`r-wgcna` >=1.61 
-
-   :required~by: |required_by_bioconductor-metnet|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bnlearn: >=4.3
+   
+   :depends r-mpmi: >=0.42
+   
+   :depends r-parmigene: >=1.0.2
+   
+   :depends r-ppcor: >=1.1
+   
+   :depends r-rfpermute: >=2.1.5
+   
+   :depends r-sna: >=2.4
+   
+   :depends r-stabs: >=0.6
+   
+   :depends r-wgcna: >=1.61
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ bioconductor-metnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metnet
+      docker pull quay.io/repository/biocontainers/bioconductor-metnet:<tag>
+
+   (see `bioconductor-metnet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-metnet| conda:required_by:: bioconductor-metnet
 .. |downloads_bioconductor-metnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metnet.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-metnet| image:: https://quay.io/repository/biocontainers/bioconductor-metnet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metnet
+.. _`bioconductor-metnet/tags`: https://quay.io/repository/biocontainers/bioconductor-metnet?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-metnet/README.html
-

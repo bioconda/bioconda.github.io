@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pymvpa'
 .. highlight: bash
-
 
 pymvpa
 ======
@@ -22,11 +23,25 @@ pymvpa
 
    |downloads_pymvpa| |docker_pymvpa|
 
-   :versions: 2.6.5, 2.6.4, 2.6.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libsvm` >=3.21,<3.22.0a0 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  :conda:package:`swig`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_pymvpa|
+   :versions: 2.6.5-0, 2.6.4-0, 2.6.0-2, 2.6.0-1, 2.6.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libsvm: >=3.21,<3.22.0a0
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :depends swig: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ pymvpa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pymvpa
+      docker pull quay.io/repository/biocontainers/pymvpa:<tag>
+
+   (see `pymvpa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pymvpa| conda:required_by:: pymvpa
 .. |downloads_pymvpa| image:: https://img.shields.io/conda/dn/bioconda/pymvpa.svg?style=flat
    :alt:   (downloads)
 .. |docker_pymvpa| image:: https://quay.io/repository/biocontainers/pymvpa/status
    :target: https://quay.io/repository/biocontainers/pymvpa
+.. _`pymvpa/tags`: https://quay.io/repository/biocontainers/pymvpa?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pymvpa/README.html
-

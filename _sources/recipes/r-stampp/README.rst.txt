@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-stampp'
 .. highlight: bash
-
 
 r-stampp
 ========
@@ -21,11 +22,19 @@ r-stampp
 
    |downloads_r-stampp| |docker_r-stampp|
 
-   :versions: 1.5.1
-
-   :depends: :conda:package:`r-adegenet`  :conda:package:`r-base` 3.4.1* :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-pegas`  
-
-   :required~by: |required_by_r-stampp|
+   :versions: 1.5.1-3, 1.5.1-2, 1.5.1-0
+   
+   :depends r-adegenet: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-doparallel: 
+   
+   :depends r-foreach: 
+   
+   :depends r-pegas: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ r-stampp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-stampp
+      docker pull quay.io/repository/biocontainers/r-stampp:<tag>
+
+   (see `r-stampp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-stampp| conda:required_by:: r-stampp
 .. |downloads_r-stampp| image:: https://img.shields.io/conda/dn/bioconda/r-stampp.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-stampp| image:: https://quay.io/repository/biocontainers/r-stampp/status
    :target: https://quay.io/repository/biocontainers/r-stampp
+.. _`r-stampp/tags`: https://quay.io/repository/biocontainers/r-stampp?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-stampp/README.html
-

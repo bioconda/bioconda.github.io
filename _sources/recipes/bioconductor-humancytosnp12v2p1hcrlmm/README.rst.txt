@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-humancytosnp12v2p1hcrlmm'
 .. highlight: bash
-
 
 bioconductor-humancytosnp12v2p1hcrlmm
 =====================================
@@ -21,11 +22,13 @@ bioconductor-humancytosnp12v2p1hcrlmm
 
    |downloads_bioconductor-humancytosnp12v2p1hcrlmm| |docker_bioconductor-humancytosnp12v2p1hcrlmm|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-humancytosnp12v2p1hcrlmm|
+   :versions: 1.0.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-humancytosnp12v2p1hcrlmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-humancytosnp12v2p1hcrlmm
+      docker pull quay.io/repository/biocontainers/bioconductor-humancytosnp12v2p1hcrlmm:<tag>
+
+   (see `bioconductor-humancytosnp12v2p1hcrlmm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-humancytosnp12v2p1hcrlmm| conda:required_by:: bioconductor-humancytosnp12v2p1hcrlmm
 .. |downloads_bioconductor-humancytosnp12v2p1hcrlmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-humancytosnp12v2p1hcrlmm.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-humancytosnp12v2p1hcrlmm| image:: https://quay.io/repository/biocontainers/bioconductor-humancytosnp12v2p1hcrlmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-humancytosnp12v2p1hcrlmm
+.. _`bioconductor-humancytosnp12v2p1hcrlmm/tags`: https://quay.io/repository/biocontainers/bioconductor-humancytosnp12v2p1hcrlmm?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-humancytosnp12v2p1hcrlmm/README.html
-

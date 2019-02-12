@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-shazam'
 .. highlight: bash
-
 
 r-shazam
 ========
@@ -21,11 +22,49 @@ r-shazam
 
    |downloads_r-shazam| |docker_r-shazam|
 
-   :versions: 0.1.10, 0.1.9
-
-   :depends: :conda:package:`r-alakazam` >=0.2.11 :conda:package:`r-ape`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-diptest`  :conda:package:`r-doparallel`  :conda:package:`r-dplyr` >=0.5.0 :conda:package:`r-foreach`  :conda:package:`r-ggplot2` >=2.0.0 :conda:package:`r-igraph`  :conda:package:`r-iterators`  :conda:package:`r-kedd`  :conda:package:`r-kernsmooth`  :conda:package:`r-lazyeval`  :conda:package:`r-mass`  :conda:package:`r-progress`  :conda:package:`r-scales`  :conda:package:`r-sdmtools`  :conda:package:`r-seqinr`  :conda:package:`r-stringi` >=1.1.3 :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_r-shazam|
+   :versions: 0.1.10-1, 0.1.10-0, 0.1.9-2
+   
+   :depends r-alakazam: >=0.2.11
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-diptest: 
+   
+   :depends r-doparallel: 
+   
+   :depends r-dplyr: >=0.5.0
+   
+   :depends r-foreach: 
+   
+   :depends r-ggplot2: >=2.0.0
+   
+   :depends r-igraph: 
+   
+   :depends r-iterators: 
+   
+   :depends r-kedd: 
+   
+   :depends r-kernsmooth: 
+   
+   :depends r-lazyeval: 
+   
+   :depends r-mass: 
+   
+   :depends r-progress: 
+   
+   :depends r-scales: 
+   
+   :depends r-sdmtools: 
+   
+   :depends r-seqinr: 
+   
+   :depends r-stringi: >=1.1.3
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +78,16 @@ r-shazam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-shazam
+      docker pull quay.io/repository/biocontainers/r-shazam:<tag>
+
+   (see `r-shazam/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-shazam| conda:required_by:: r-shazam
 .. |downloads_r-shazam| image:: https://img.shields.io/conda/dn/bioconda/r-shazam.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-shazam| image:: https://quay.io/repository/biocontainers/r-shazam/status
    :target: https://quay.io/repository/biocontainers/r-shazam
+.. _`r-shazam/tags`: https://quay.io/repository/biocontainers/r-shazam?tab=tags
 
 
 
@@ -63,4 +104,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-shazam/README.html
-

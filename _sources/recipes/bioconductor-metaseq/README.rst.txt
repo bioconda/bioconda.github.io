@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-metaseq'
 .. highlight: bash
-
 
 bioconductor-metaseq
 ====================
@@ -22,11 +23,21 @@ bioconductor-metaseq
 
    |downloads_bioconductor-metaseq| |docker_bioconductor-metaseq|
 
-   :versions: 1.22.1, 1.20.0, 1.18.0, 1.16.0
-
-   :depends: :conda:package:`bioconductor-noiseq` >=2.26.0,<2.27.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp`  :conda:package:`r-snow`  
-
-   :required~by: |required_by_bioconductor-metaseq|
+   :versions: 1.22.1-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   
+   :depends bioconductor-noiseq: >=2.26.0,<2.27.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcpp: 
+   
+   :depends r-snow: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-metaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metaseq
+      docker pull quay.io/repository/biocontainers/bioconductor-metaseq:<tag>
+
+   (see `bioconductor-metaseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-metaseq| conda:required_by:: bioconductor-metaseq
 .. |downloads_bioconductor-metaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metaseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-metaseq| image:: https://quay.io/repository/biocontainers/bioconductor-metaseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metaseq
+.. _`bioconductor-metaseq/tags`: https://quay.io/repository/biocontainers/bioconductor-metaseq?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-metaseq/README.html
-

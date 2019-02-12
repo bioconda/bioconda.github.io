@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genologics'
 .. highlight: bash
-
 
 genologics
 ==========
@@ -21,11 +22,13 @@ genologics
 
    |downloads_genologics| |docker_genologics|
 
-   :versions: 0.4.1, 0.3.12.post0
-
-   :depends: :conda:package:`python`  :conda:package:`requests`  
-
-   :required~by: |required_by_genologics|
+   :versions: 0.4.1-0, 0.3.12.post0-1, 0.3.12.post0-0
+   
+   :depends python: 
+   
+   :depends requests: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ genologics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genologics
+      docker pull quay.io/repository/biocontainers/genologics:<tag>
+
+   (see `genologics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genologics| conda:required_by:: genologics
 .. |downloads_genologics| image:: https://img.shields.io/conda/dn/bioconda/genologics.svg?style=flat
    :alt:   (downloads)
 .. |docker_genologics| image:: https://quay.io/repository/biocontainers/genologics/status
    :target: https://quay.io/repository/biocontainers/genologics
+.. _`genologics/tags`: https://quay.io/repository/biocontainers/genologics?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genologics/README.html
-

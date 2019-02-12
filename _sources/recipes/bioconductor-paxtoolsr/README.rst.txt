@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-paxtoolsr'
 .. highlight: bash
-
 
 bioconductor-paxtoolsr
 ======================
@@ -22,10 +23,8 @@ bioconductor-paxtoolsr
    |downloads_bioconductor-paxtoolsr| |docker_bioconductor-paxtoolsr|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-paxtoolsr|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-paxtoolsr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-paxtoolsr
+      docker pull quay.io/repository/biocontainers/bioconductor-paxtoolsr:<tag>
+
+   (see `bioconductor-paxtoolsr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-paxtoolsr| conda:required_by:: bioconductor-paxtoolsr
 .. |downloads_bioconductor-paxtoolsr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-paxtoolsr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-paxtoolsr| image:: https://quay.io/repository/biocontainers/bioconductor-paxtoolsr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-paxtoolsr
+.. _`bioconductor-paxtoolsr/tags`: https://quay.io/repository/biocontainers/bioconductor-paxtoolsr?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-paxtoolsr/README.html
-

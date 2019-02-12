@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bio-asn1-entrezgene'
 .. highlight: bash
-
 
 perl-bio-asn1-entrezgene
 ========================
@@ -21,11 +22,23 @@ perl-bio-asn1-entrezgene
 
    |downloads_perl-bio-asn1-entrezgene| |docker_perl-bio-asn1-entrezgene|
 
-   :versions: 1.73, 1.72, 1.70
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-base`  :conda:package:`perl-bioperl-core`  :conda:package:`perl-carp`  :conda:package:`perl-data-dumper`  :conda:package:`perl-parent`  :conda:package:`perl-test-most`  
-
-   :required~by: |required_by_perl-bio-asn1-entrezgene|
+   :versions: 1.73-0, 1.72-2, 1.72-1, 1.70-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-base: 
+   
+   :depends perl-bioperl-core: 
+   
+   :depends perl-carp: 
+   
+   :depends perl-data-dumper: 
+   
+   :depends perl-parent: 
+   
+   :depends perl-test-most: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ perl-bio-asn1-entrezgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-asn1-entrezgene
+      docker pull quay.io/repository/biocontainers/perl-bio-asn1-entrezgene:<tag>
+
+   (see `perl-bio-asn1-entrezgene/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bio-asn1-entrezgene| conda:required_by:: perl-bio-asn1-entrezgene
 .. |downloads_perl-bio-asn1-entrezgene| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-asn1-entrezgene.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bio-asn1-entrezgene| image:: https://quay.io/repository/biocontainers/perl-bio-asn1-entrezgene/status
    :target: https://quay.io/repository/biocontainers/perl-bio-asn1-entrezgene
+.. _`perl-bio-asn1-entrezgene/tags`: https://quay.io/repository/biocontainers/perl-bio-asn1-entrezgene?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bio-asn1-entrezgene/README.html
-

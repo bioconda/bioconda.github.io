@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-atlasrdf'
 .. highlight: bash
-
 
 bioconductor-atlasrdf
 =====================
@@ -22,11 +23,15 @@ bioconductor-atlasrdf
 
    |downloads_bioconductor-atlasrdf| |docker_bioconductor-atlasrdf|
 
-   :versions: 1.12.0, 1.11.0
-
-   :depends: :conda:package:`r-base` 3.3.2* :conda:package:`r-hash`  :conda:package:`r-sparql`  
-
-   :required~by: |required_by_bioconductor-atlasrdf|
+   :versions: 1.12.0-0, 1.11.0-0
+   
+   :depends r-base: 3.3.2*
+   
+   :depends r-hash: 
+   
+   :depends r-sparql: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-atlasrdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-atlasrdf
+      docker pull quay.io/repository/biocontainers/bioconductor-atlasrdf:<tag>
+
+   (see `bioconductor-atlasrdf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-atlasrdf| conda:required_by:: bioconductor-atlasrdf
 .. |downloads_bioconductor-atlasrdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-atlasrdf.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-atlasrdf| image:: https://quay.io/repository/biocontainers/bioconductor-atlasrdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-atlasrdf
+.. _`bioconductor-atlasrdf/tags`: https://quay.io/repository/biocontainers/bioconductor-atlasrdf?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-atlasrdf/README.html
-

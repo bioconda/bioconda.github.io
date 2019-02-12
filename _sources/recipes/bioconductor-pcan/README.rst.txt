@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pcan'
 .. highlight: bash
-
 
 bioconductor-pcan
 =================
@@ -22,11 +23,13 @@ bioconductor-pcan
 
    |downloads_bioconductor-pcan| |docker_bioconductor-pcan|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-pcan|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-pcan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pcan
+      docker pull quay.io/repository/biocontainers/bioconductor-pcan:<tag>
+
+   (see `bioconductor-pcan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pcan| conda:required_by:: bioconductor-pcan
 .. |downloads_bioconductor-pcan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pcan.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pcan| image:: https://quay.io/repository/biocontainers/bioconductor-pcan/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pcan
+.. _`bioconductor-pcan/tags`: https://quay.io/repository/biocontainers/bioconductor-pcan?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pcan/README.html
-

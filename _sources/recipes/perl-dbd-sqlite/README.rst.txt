@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-dbd-sqlite'
 .. highlight: bash
-
 
 perl-dbd-sqlite
 ===============
@@ -21,11 +22,15 @@ perl-dbd-sqlite
 
    |downloads_perl-dbd-sqlite| |docker_perl-dbd-sqlite|
 
-   :versions: 1.60, 1.58, 1.50
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-dbi`  
-
-   :required~by: |required_by_perl-dbd-sqlite|
+   :versions: 1.60-0, 1.58-0, 1.50-3, 1.50-2, 1.50-1
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-dbi: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-dbd-sqlite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-dbd-sqlite
+      docker pull quay.io/repository/biocontainers/perl-dbd-sqlite:<tag>
+
+   (see `perl-dbd-sqlite/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-dbd-sqlite| conda:required_by:: perl-dbd-sqlite
 .. |downloads_perl-dbd-sqlite| image:: https://img.shields.io/conda/dn/bioconda/perl-dbd-sqlite.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-dbd-sqlite| image:: https://quay.io/repository/biocontainers/perl-dbd-sqlite/status
    :target: https://quay.io/repository/biocontainers/perl-dbd-sqlite
+.. _`perl-dbd-sqlite/tags`: https://quay.io/repository/biocontainers/perl-dbd-sqlite?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-dbd-sqlite/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-goeveg'
 .. highlight: bash
-
 
 r-goeveg
 ========
@@ -21,11 +22,19 @@ r-goeveg
 
    |downloads_r-goeveg| |docker_r-goeveg|
 
-   :versions: 0.4.2, 0.3.3
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fields`  :conda:package:`r-hmisc`  :conda:package:`r-mgcv`  :conda:package:`r-vegan`  
-
-   :required~by: |required_by_r-goeveg|
+   :versions: 0.4.2-0, 0.3.3-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-fields: 
+   
+   :depends r-hmisc: 
+   
+   :depends r-mgcv: 
+   
+   :depends r-vegan: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ r-goeveg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-goeveg
+      docker pull quay.io/repository/biocontainers/r-goeveg:<tag>
+
+   (see `r-goeveg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-goeveg| conda:required_by:: r-goeveg
 .. |downloads_r-goeveg| image:: https://img.shields.io/conda/dn/bioconda/r-goeveg.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-goeveg| image:: https://quay.io/repository/biocontainers/r-goeveg/status
    :target: https://quay.io/repository/biocontainers/r-goeveg
+.. _`r-goeveg/tags`: https://quay.io/repository/biocontainers/r-goeveg?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-goeveg/README.html
-

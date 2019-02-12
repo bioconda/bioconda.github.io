@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-buscorrect'
 .. highlight: bash
-
 
 bioconductor-buscorrect
 =======================
@@ -21,11 +22,17 @@ bioconductor-buscorrect
 
    |downloads_bioconductor-buscorrect| |docker_bioconductor-buscorrect|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  
-
-   :required~by: |required_by_bioconductor-buscorrect|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gplots: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-buscorrect
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-buscorrect
+      docker pull quay.io/repository/biocontainers/bioconductor-buscorrect:<tag>
+
+   (see `bioconductor-buscorrect/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-buscorrect| conda:required_by:: bioconductor-buscorrect
 .. |downloads_bioconductor-buscorrect| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-buscorrect.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-buscorrect| image:: https://quay.io/repository/biocontainers/bioconductor-buscorrect/status
    :target: https://quay.io/repository/biocontainers/bioconductor-buscorrect
+.. _`bioconductor-buscorrect/tags`: https://quay.io/repository/biocontainers/bioconductor-buscorrect?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-buscorrect/README.html
-

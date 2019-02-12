@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'phantompeakqualtools'
 .. highlight: bash
-
 
 phantompeakqualtools
 ====================
@@ -22,11 +23,27 @@ phantompeakqualtools
 
    |downloads_phantompeakqualtools| |docker_phantompeakqualtools|
 
-   :versions: 1.2
-
-   :depends: :conda:package:`bioconductor-rsamtools`  :conda:package:`boost`  :conda:package:`r-base` >=3.1 :conda:package:`r-bitops`  :conda:package:`r-catools`  :conda:package:`r-snow`  :conda:package:`r-snowfall`  :conda:package:`r-spp` >=1.13 :conda:package:`samtools`  
-
-   :required~by: |required_by_phantompeakqualtools|
+   :versions: 1.2-0
+   
+   :depends bioconductor-rsamtools: 
+   
+   :depends boost: 
+   
+   :depends r-base: >=3.1
+   
+   :depends r-bitops: 
+   
+   :depends r-catools: 
+   
+   :depends r-snow: 
+   
+   :depends r-snowfall: 
+   
+   :depends r-spp: >=1.13
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ phantompeakqualtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phantompeakqualtools
+      docker pull quay.io/repository/biocontainers/phantompeakqualtools:<tag>
+
+   (see `phantompeakqualtools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_phantompeakqualtools| conda:required_by:: phantompeakqualtools
 .. |downloads_phantompeakqualtools| image:: https://img.shields.io/conda/dn/bioconda/phantompeakqualtools.svg?style=flat
    :alt:   (downloads)
 .. |docker_phantompeakqualtools| image:: https://quay.io/repository/biocontainers/phantompeakqualtools/status
    :target: https://quay.io/repository/biocontainers/phantompeakqualtools
+.. _`phantompeakqualtools/tags`: https://quay.io/repository/biocontainers/phantompeakqualtools?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/phantompeakqualtools/README.html
-

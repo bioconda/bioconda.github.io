@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tdrmapper'
 .. highlight: bash
-
 
 tdrmapper
 =========
@@ -21,11 +22,11 @@ tdrmapper
 
    |downloads_tdrmapper| |docker_tdrmapper|
 
-   :versions: 1.1, 1.0
-
-   :depends: 
-
-   :required~by: |required_by_tdrmapper|
+   :versions: 1.1-3, 1.1-2, 1.1-1, 1.0-1
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ tdrmapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tdrmapper
+      docker pull quay.io/repository/biocontainers/tdrmapper:<tag>
+
+   (see `tdrmapper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tdrmapper| conda:required_by:: tdrmapper
 .. |downloads_tdrmapper| image:: https://img.shields.io/conda/dn/bioconda/tdrmapper.svg?style=flat
    :alt:   (downloads)
 .. |docker_tdrmapper| image:: https://quay.io/repository/biocontainers/tdrmapper/status
    :target: https://quay.io/repository/biocontainers/tdrmapper
+.. _`tdrmapper/tags`: https://quay.io/repository/biocontainers/tdrmapper?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tdrmapper/README.html
-

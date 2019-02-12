@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-proloc'
 .. highlight: bash
-
 
 bioconductor-proloc
 ===================
@@ -22,11 +23,79 @@ bioconductor-proloc
 
    |downloads_bioconductor-proloc| |docker_bioconductor-proloc|
 
-   :versions: 1.22.1, 1.22.0, 1.18.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-mlinterfaces` >=1.62.0,<1.63.0 :conda:package:`bioconductor-msnbase` >=2.8.0,<2.9.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-caret`  :conda:package:`r-class`  :conda:package:`r-coda`  :conda:package:`r-dendextend`  :conda:package:`r-e1071`  :conda:package:`r-fnn`  :conda:package:`r-ggplot2`  :conda:package:`r-gtools`  :conda:package:`r-hexbin`  :conda:package:`r-kernlab`  :conda:package:`r-knitr`  :conda:package:`r-laplacesdemon`  :conda:package:`r-lattice`  :conda:package:`r-mass`  :conda:package:`r-mclust` >=4.3 :conda:package:`r-mixtools`  :conda:package:`r-mvtnorm`  :conda:package:`r-nnet`  :conda:package:`r-plyr`  :conda:package:`r-proxy`  :conda:package:`r-randomforest`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp` >=0.10.3 :conda:package:`r-rcpparmadillo`  :conda:package:`r-sampling`  :conda:package:`r-scales`  
-
-   :required~by: |required_by_bioconductor-proloc|
+   :versions: 1.22.1-0, 1.22.0-0, 1.18.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-mlinterfaces: >=1.62.0,<1.63.0
+   
+   :depends bioconductor-msnbase: >=2.8.0,<2.9.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-caret: 
+   
+   :depends r-class: 
+   
+   :depends r-coda: 
+   
+   :depends r-dendextend: 
+   
+   :depends r-e1071: 
+   
+   :depends r-fnn: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gtools: 
+   
+   :depends r-hexbin: 
+   
+   :depends r-kernlab: 
+   
+   :depends r-knitr: 
+   
+   :depends r-laplacesdemon: 
+   
+   :depends r-lattice: 
+   
+   :depends r-mass: 
+   
+   :depends r-mclust: >=4.3
+   
+   :depends r-mixtools: 
+   
+   :depends r-mvtnorm: 
+   
+   :depends r-nnet: 
+   
+   :depends r-plyr: 
+   
+   :depends r-proxy: 
+   
+   :depends r-randomforest: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rcpp: >=0.10.3
+   
+   :depends r-rcpparmadillo: 
+   
+   :depends r-sampling: 
+   
+   :depends r-scales: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +109,16 @@ bioconductor-proloc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-proloc
+      docker pull quay.io/repository/biocontainers/bioconductor-proloc:<tag>
+
+   (see `bioconductor-proloc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-proloc| conda:required_by:: bioconductor-proloc
 .. |downloads_bioconductor-proloc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-proloc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-proloc| image:: https://quay.io/repository/biocontainers/bioconductor-proloc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-proloc
+.. _`bioconductor-proloc/tags`: https://quay.io/repository/biocontainers/bioconductor-proloc?tab=tags
 
 
 
@@ -64,4 +135,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-proloc/README.html
-

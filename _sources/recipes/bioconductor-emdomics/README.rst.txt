@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-emdomics'
 .. highlight: bash
-
 
 bioconductor-emdomics
 =====================
@@ -21,11 +22,23 @@ bioconductor-emdomics
 
    |downloads_bioconductor-emdomics| |docker_bioconductor-emdomics|
 
-   :versions: 2.12.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cdft`  :conda:package:`r-emdist`  :conda:package:`r-ggplot2`  :conda:package:`r-matrixstats`  
-
-   :required~by: |required_by_bioconductor-emdomics|
+   :versions: 2.12.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cdft: 
+   
+   :depends r-emdist: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-matrixstats: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-emdomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-emdomics
+      docker pull quay.io/repository/biocontainers/bioconductor-emdomics:<tag>
+
+   (see `bioconductor-emdomics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-emdomics| conda:required_by:: bioconductor-emdomics
 .. |downloads_bioconductor-emdomics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-emdomics.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-emdomics| image:: https://quay.io/repository/biocontainers/bioconductor-emdomics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-emdomics
+.. _`bioconductor-emdomics/tags`: https://quay.io/repository/biocontainers/bioconductor-emdomics?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-emdomics/README.html
-

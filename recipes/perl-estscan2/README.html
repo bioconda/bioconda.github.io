@@ -131,11 +131,19 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">2.1</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">2.1-2, 2.1-1, 2.1-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference internal" href="../perl-btlib/README.html#package-perl-btlib" title="perl-btlib package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-btlib</span></code></a>  <a class="reference internal" href="../perl-threaded/README.html#package-perl-threaded" title="perl-threaded package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-threaded</span></code></a></td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.27.0a0</li>
+<li><a class="conda-package reference internal" href="../perl-btlib/README.html#package-perl-btlib" title="perl-btlib package"><strong>perl-btlib</strong></a></li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+<li><a class="conda-package reference internal" href="../plant_tribes_assembly_post_processor/README.html#plant_tribes_assembly_post_processor"><strong class="xref backref">plant_tribes_assembly_post_processor</strong></a></li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -149,9 +157,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">perl</span><span class="o">-</span><span class="n">estscan2</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">perl</span><span class="o">-</span><span class="n">estscan2</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/perl-estscan2?tab=tags">perl-estscan2/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-mro-compat'
 .. highlight: bash
-
 
 perl-mro-compat
 ===============
@@ -21,11 +22,11 @@ perl-mro-compat
 
    |downloads_perl-mro-compat| |docker_perl-mro-compat|
 
-   :versions: 0.13
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-mro-compat|
+   :versions: 0.13-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-mro-compat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mro-compat
+      docker pull quay.io/repository/biocontainers/perl-mro-compat:<tag>
+
+   (see `perl-mro-compat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-mro-compat| conda:required_by:: perl-mro-compat
 .. |downloads_perl-mro-compat| image:: https://img.shields.io/conda/dn/bioconda/perl-mro-compat.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-mro-compat| image:: https://quay.io/repository/biocontainers/perl-mro-compat/status
    :target: https://quay.io/repository/biocontainers/perl-mro-compat
+.. _`perl-mro-compat/tags`: https://quay.io/repository/biocontainers/perl-mro-compat?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-mro-compat/README.html
-

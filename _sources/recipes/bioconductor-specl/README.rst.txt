@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-specl'
 .. highlight: bash
-
 
 bioconductor-specl
 ==================
@@ -22,11 +23,19 @@ bioconductor-specl
 
    |downloads_bioconductor-specl| |docker_bioconductor-specl|
 
-   :versions: 1.16.1, 1.14.0, 1.12.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi` >=0.5.1 :conda:package:`r-protviz` >=0.2.45 :conda:package:`r-rsqlite` >=1.1.2 :conda:package:`r-seqinr` >=3.3.3 
-
-   :required~by: |required_by_bioconductor-specl|
+   :versions: 1.16.1-0, 1.14.0-0, 1.12.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dbi: >=0.5.1
+   
+   :depends r-protviz: >=0.2.45
+   
+   :depends r-rsqlite: >=1.1.2
+   
+   :depends r-seqinr: >=3.3.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-specl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-specl
+      docker pull quay.io/repository/biocontainers/bioconductor-specl:<tag>
+
+   (see `bioconductor-specl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-specl| conda:required_by:: bioconductor-specl
 .. |downloads_bioconductor-specl| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-specl.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-specl| image:: https://quay.io/repository/biocontainers/bioconductor-specl/status
    :target: https://quay.io/repository/biocontainers/bioconductor-specl
+.. _`bioconductor-specl/tags`: https://quay.io/repository/biocontainers/bioconductor-specl?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-specl/README.html
-

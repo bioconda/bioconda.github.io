@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'msstitch'
 .. highlight: bash
-
 
 msstitch
 ========
@@ -21,11 +22,19 @@ msstitch
 
    |downloads_msstitch| |docker_msstitch|
 
-   :versions: 2.11, 2.10, 2.9, 2.8, 2.7, 2.6, 2.5, 2.4, 2.3, 2.2, 1.0
-
-   :depends: :conda:package:`biopython` >=1.69 :conda:package:`lxml`  :conda:package:`numpy`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`pyyaml`  
-
-   :required~by: |required_by_msstitch|
+   :versions: 2.11-0, 2.10-0, 2.9-0, 2.8-0, 2.7-0, 2.6-0, 2.5-0, 2.4-0, 2.3-0, 2.2-0, 1.0-1, 1.0-0
+   
+   :depends biopython: >=1.69
+   
+   :depends lxml: 
+   
+   :depends numpy: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends pyyaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ msstitch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/msstitch
+      docker pull quay.io/repository/biocontainers/msstitch:<tag>
+
+   (see `msstitch/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_msstitch| conda:required_by:: msstitch
 .. |downloads_msstitch| image:: https://img.shields.io/conda/dn/bioconda/msstitch.svg?style=flat
    :alt:   (downloads)
 .. |docker_msstitch| image:: https://quay.io/repository/biocontainers/msstitch/status
    :target: https://quay.io/repository/biocontainers/msstitch
+.. _`msstitch/tags`: https://quay.io/repository/biocontainers/msstitch?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/msstitch/README.html
-

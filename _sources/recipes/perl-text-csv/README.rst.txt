@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-text-csv'
 .. highlight: bash
-
 
 perl-text-csv
 =============
@@ -21,11 +22,13 @@ perl-text-csv
 
    |downloads_perl-text-csv| |docker_perl-text-csv|
 
-   :versions: 1.99, 1.97, 1.33
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-test-harness`  
-
-   :required~by: |required_by_perl-text-csv|
+   :versions: 1.99-0, 1.97-0, 1.33-1, 1.33-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-test-harness: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-text-csv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-csv
+      docker pull quay.io/repository/biocontainers/perl-text-csv:<tag>
+
+   (see `perl-text-csv/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-text-csv| conda:required_by:: perl-text-csv
 .. |downloads_perl-text-csv| image:: https://img.shields.io/conda/dn/bioconda/perl-text-csv.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-text-csv| image:: https://quay.io/repository/biocontainers/perl-text-csv/status
    :target: https://quay.io/repository/biocontainers/perl-text-csv
+.. _`perl-text-csv/tags`: https://quay.io/repository/biocontainers/perl-text-csv?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-text-csv/README.html
-

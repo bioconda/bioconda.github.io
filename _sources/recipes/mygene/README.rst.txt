@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mygene'
 .. highlight: bash
-
 
 mygene
 ======
@@ -21,11 +22,13 @@ mygene
 
    |downloads_mygene| |docker_mygene|
 
-   :versions: 3.1.0, 3.0.0, 2.2.0
-
-   :depends: :conda:package:`biothings_client` >=0.2.0 :conda:package:`python`  
-
-   :required~by: |required_by_mygene|
+   :versions: 3.1.0-0, 3.0.0-2, 3.0.0-0, 2.2.0-0
+   
+   :depends biothings_client: >=0.2.0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ mygene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mygene
+      docker pull quay.io/repository/biocontainers/mygene:<tag>
+
+   (see `mygene/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mygene| conda:required_by:: mygene
 .. |downloads_mygene| image:: https://img.shields.io/conda/dn/bioconda/mygene.svg?style=flat
    :alt:   (downloads)
 .. |docker_mygene| image:: https://quay.io/repository/biocontainers/mygene/status
    :target: https://quay.io/repository/biocontainers/mygene
+.. _`mygene/tags`: https://quay.io/repository/biocontainers/mygene?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mygene/README.html
-

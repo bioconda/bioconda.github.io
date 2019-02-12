@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'srst2'
 .. highlight: bash
-
 
 srst2
 =====
@@ -21,11 +22,19 @@ srst2
 
    |downloads_srst2| |docker_srst2|
 
-   :versions: 0.2.0, 0.1.6, 0.1.4.6
-
-   :depends: :conda:package:`bowtie2` >=2.1.0 :conda:package:`numpy` >=1.7.1 :conda:package:`python` 2.7* :conda:package:`samtools` ==0.1.18 :conda:package:`scipy` >=0.12.0 
-
-   :required~by: |required_by_srst2|
+   :versions: 0.2.0-3, 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.6-1, 0.1.6-0, 0.1.4.6-1, 0.1.4.6-0
+   
+   :depends bowtie2: <=2.2.9
+   
+   :depends numpy: >=1.7.1
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: 0.1.18
+   
+   :depends scipy: >=0.12.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ srst2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/srst2
+      docker pull quay.io/repository/biocontainers/srst2:<tag>
+
+   (see `srst2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_srst2| conda:required_by:: srst2
 .. |downloads_srst2| image:: https://img.shields.io/conda/dn/bioconda/srst2.svg?style=flat
    :alt:   (downloads)
 .. |docker_srst2| image:: https://quay.io/repository/biocontainers/srst2/status
    :target: https://quay.io/repository/biocontainers/srst2
+.. _`srst2/tags`: https://quay.io/repository/biocontainers/srst2?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/srst2/README.html
-

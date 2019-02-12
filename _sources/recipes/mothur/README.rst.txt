@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mothur'
 .. highlight: bash
-
 
 mothur
 ======
@@ -22,11 +23,23 @@ mothur
 
    |downloads_mothur| |docker_mothur|
 
-   :versions: 1.41.0, 1.40.5, 1.39.5, 1.38.1.1, 1.36.1, 1.25.0
-
-   :depends: :conda:package:`blast-legacy`  :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`hdf5` >=1.10.3,<1.10.4.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`ncurses` >=6.1,<6.2.0a0 :conda:package:`readline` >=7.0,<8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_mothur|
+   :versions: 1.41.0-0, 1.40.5-0, 1.39.5-4, 1.39.5-3, 1.39.5-2, 1.39.5-1, 1.39.5-0, 1.38.1.1-0, 1.36.1-2, 1.36.1-1, 1.36.1-0, 1.25.0-0
+   
+   :depends blast-legacy: 
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends hdf5: >=1.10.3,<1.10.4.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends ncurses: >=6.1,<6.2.0a0
+   
+   :depends readline: >=7.0,<8.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ mothur
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mothur
+      docker pull quay.io/repository/biocontainers/mothur:<tag>
+
+   (see `mothur/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mothur| conda:required_by:: mothur
 .. |downloads_mothur| image:: https://img.shields.io/conda/dn/bioconda/mothur.svg?style=flat
    :alt:   (downloads)
 .. |docker_mothur| image:: https://quay.io/repository/biocontainers/mothur/status
    :target: https://quay.io/repository/biocontainers/mothur
+.. _`mothur/tags`: https://quay.io/repository/biocontainers/mothur?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mothur/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rforproteomics'
 .. highlight: bash
-
 
 bioconductor-rforproteomics
 ===========================
@@ -21,11 +22,23 @@ bioconductor-rforproteomics
 
    |downloads_bioconductor-rforproteomics| |docker_bioconductor-rforproteomics|
 
-   :versions: 1.20.0
-
-   :depends: :conda:package:`bioconductor-biocviews` >=1.50.0,<1.51.0 :conda:package:`bioconductor-msnbase` >=2.8.0,<2.9.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biocmanager`  :conda:package:`r-r.utils`  :conda:package:`r-shiny`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-rforproteomics|
+   :versions: 1.20.0-0
+   
+   :depends bioconductor-biocviews: >=1.50.0,<1.51.0
+   
+   :depends bioconductor-msnbase: >=2.8.0,<2.9.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-biocmanager: 
+   
+   :depends r-r.utils: 
+   
+   :depends r-shiny: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-rforproteomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rforproteomics
+      docker pull quay.io/repository/biocontainers/bioconductor-rforproteomics:<tag>
+
+   (see `bioconductor-rforproteomics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rforproteomics| conda:required_by:: bioconductor-rforproteomics
 .. |downloads_bioconductor-rforproteomics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rforproteomics.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rforproteomics| image:: https://quay.io/repository/biocontainers/bioconductor-rforproteomics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rforproteomics
+.. _`bioconductor-rforproteomics/tags`: https://quay.io/repository/biocontainers/bioconductor-rforproteomics?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rforproteomics/README.html
-

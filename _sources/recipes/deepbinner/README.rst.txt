@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'deepbinner'
 .. highlight: bash
-
 
 deepbinner
 ==========
@@ -21,11 +22,23 @@ deepbinner
 
    |downloads_deepbinner| |docker_deepbinner|
 
-   :versions: 0.2.0, 0.1.2
-
-   :depends: :conda:package:`h5py`  :conda:package:`keras`  :conda:package:`matplotlib`  :conda:package:`noise`  :conda:package:`numpy`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`tensorflow`  
-
-   :required~by: |required_by_deepbinner|
+   :versions: 0.2.0-0, 0.1.2-0
+   
+   :depends h5py: 
+   
+   :depends keras: 
+   
+   :depends matplotlib: 
+   
+   :depends noise: 
+   
+   :depends numpy: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends tensorflow: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ deepbinner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/deepbinner
+      docker pull quay.io/repository/biocontainers/deepbinner:<tag>
+
+   (see `deepbinner/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_deepbinner| conda:required_by:: deepbinner
 .. |downloads_deepbinner| image:: https://img.shields.io/conda/dn/bioconda/deepbinner.svg?style=flat
    :alt:   (downloads)
 .. |docker_deepbinner| image:: https://quay.io/repository/biocontainers/deepbinner/status
    :target: https://quay.io/repository/biocontainers/deepbinner
+.. _`deepbinner/tags`: https://quay.io/repository/biocontainers/deepbinner?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/deepbinner/README.html
-

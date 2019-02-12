@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bamhash'
 .. highlight: bash
-
 
 bamhash
 =======
@@ -21,11 +22,15 @@ bamhash
 
    |downloads_bamhash| |docker_bamhash|
 
-   :versions: 1.1, 1.0
-
-   :depends: :conda:package:`libgcc`  :conda:package:`openssl`  :conda:package:`zlib`  
-
-   :required~by: |required_by_bamhash|
+   :versions: 1.1-2, 1.1-1, 1.1-0, 1.0-2, 1.0-1, 1.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends openssl: >=1.0.2o,<1.0.3a
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bamhash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bamhash
+      docker pull quay.io/repository/biocontainers/bamhash:<tag>
+
+   (see `bamhash/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bamhash| conda:required_by:: bamhash
 .. |downloads_bamhash| image:: https://img.shields.io/conda/dn/bioconda/bamhash.svg?style=flat
    :alt:   (downloads)
 .. |docker_bamhash| image:: https://quay.io/repository/biocontainers/bamhash/status
    :target: https://quay.io/repository/biocontainers/bamhash
+.. _`bamhash/tags`: https://quay.io/repository/biocontainers/bamhash?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bamhash/README.html
-

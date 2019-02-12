@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'btrim'
 .. highlight: bash
-
 
 btrim
 =====
@@ -21,11 +22,13 @@ btrim
 
    |downloads_btrim| |docker_btrim|
 
-   :versions: 1.0.1, 1.0.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_btrim|
+   :versions: 1.0.1-1, 1.0.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ btrim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/btrim
+      docker pull quay.io/repository/biocontainers/btrim:<tag>
+
+   (see `btrim/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_btrim| conda:required_by:: btrim
 .. |downloads_btrim| image:: https://img.shields.io/conda/dn/bioconda/btrim.svg?style=flat
    :alt:   (downloads)
 .. |docker_btrim| image:: https://quay.io/repository/biocontainers/btrim/status
    :target: https://quay.io/repository/biocontainers/btrim
+.. _`btrim/tags`: https://quay.io/repository/biocontainers/btrim?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/btrim/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pandaseq'
 .. highlight: bash
-
 
 pandaseq
 ========
@@ -21,11 +22,15 @@ pandaseq
 
    |downloads_pandaseq| |docker_pandaseq|
 
-   :versions: 2.11, 2.10, 2.8.1
-
-   :depends: :conda:package:`libgcc`  :conda:package:`libtool`  
-
-   :required~by: |required_by_pandaseq|
+   :versions: 2.11-3, 2.11-2, 2.11-1, 2.10-0, 2.8.1-2, 2.8.1-1
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pandaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pandaseq
+      docker pull quay.io/repository/biocontainers/pandaseq:<tag>
+
+   (see `pandaseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pandaseq| conda:required_by:: pandaseq
 .. |downloads_pandaseq| image:: https://img.shields.io/conda/dn/bioconda/pandaseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_pandaseq| image:: https://quay.io/repository/biocontainers/pandaseq/status
    :target: https://quay.io/repository/biocontainers/pandaseq
+.. _`pandaseq/tags`: https://quay.io/repository/biocontainers/pandaseq?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pandaseq/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'chromosomer'
 .. highlight: bash
-
 
 chromosomer
 ===========
@@ -21,11 +22,17 @@ chromosomer
 
    |downloads_chromosomer| |docker_chromosomer|
 
-   :versions: 0.1.4a
-
-   :depends: :conda:package:`bioformats`  :conda:package:`future`  :conda:package:`pyfaidx`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_chromosomer|
+   :versions: 0.1.4a-1, 0.1.4a-0
+   
+   :depends bioformats: 
+   
+   :depends future: 
+   
+   :depends pyfaidx: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ chromosomer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/chromosomer
+      docker pull quay.io/repository/biocontainers/chromosomer:<tag>
+
+   (see `chromosomer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_chromosomer| conda:required_by:: chromosomer
 .. |downloads_chromosomer| image:: https://img.shields.io/conda/dn/bioconda/chromosomer.svg?style=flat
    :alt:   (downloads)
 .. |docker_chromosomer| image:: https://quay.io/repository/biocontainers/chromosomer/status
    :target: https://quay.io/repository/biocontainers/chromosomer
+.. _`chromosomer/tags`: https://quay.io/repository/biocontainers/chromosomer?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/chromosomer/README.html
-

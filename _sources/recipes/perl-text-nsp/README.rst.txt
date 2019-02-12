@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-text-nsp'
 .. highlight: bash
-
 
 perl-text-nsp
 =============
@@ -21,11 +22,11 @@ perl-text-nsp
 
    |downloads_perl-text-nsp| |docker_perl-text-nsp|
 
-   :versions: 1.31
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-text-nsp|
+   :versions: 1.31-2, 1.31-1, 1.31-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-text-nsp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-nsp
+      docker pull quay.io/repository/biocontainers/perl-text-nsp:<tag>
+
+   (see `perl-text-nsp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-text-nsp| conda:required_by:: perl-text-nsp
 .. |downloads_perl-text-nsp| image:: https://img.shields.io/conda/dn/bioconda/perl-text-nsp.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-text-nsp| image:: https://quay.io/repository/biocontainers/perl-text-nsp/status
    :target: https://quay.io/repository/biocontainers/perl-text-nsp
+.. _`perl-text-nsp/tags`: https://quay.io/repository/biocontainers/perl-text-nsp?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-text-nsp/README.html
-

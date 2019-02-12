@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ucsc-mafaddqrows'
 .. highlight: bash
-
 
 ucsc-mafaddqrows
 ================
@@ -21,11 +22,21 @@ ucsc-mafaddqrows
 
    |downloads_ucsc-mafaddqrows| |docker_ucsc-mafaddqrows|
 
-   :versions: 366, 357, 324
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_ucsc-mafaddqrows|
+   :versions: 366-0, 357-2, 357-1, 357-0, 324-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libpng: >=1.6.34,<1.7.0a0
+   
+   :depends libuuid: 
+   
+   :depends mysql-connector-c: 
+   
+   :depends openssl: >=1.0.2o,<1.0.3a
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ ucsc-mafaddqrows
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-mafaddqrows
+      docker pull quay.io/repository/biocontainers/ucsc-mafaddqrows:<tag>
+
+   (see `ucsc-mafaddqrows/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ucsc-mafaddqrows| conda:required_by:: ucsc-mafaddqrows
 .. |downloads_ucsc-mafaddqrows| image:: https://img.shields.io/conda/dn/bioconda/ucsc-mafaddqrows.svg?style=flat
    :alt:   (downloads)
 .. |docker_ucsc-mafaddqrows| image:: https://quay.io/repository/biocontainers/ucsc-mafaddqrows/status
    :target: https://quay.io/repository/biocontainers/ucsc-mafaddqrows
+.. _`ucsc-mafaddqrows/tags`: https://quay.io/repository/biocontainers/ucsc-mafaddqrows?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ucsc-mafaddqrows/README.html
-

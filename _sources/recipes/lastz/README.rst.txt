@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lastz'
 .. highlight: bash
-
 
 lastz
 =====
@@ -22,11 +23,11 @@ lastz
 
    |downloads_lastz| |docker_lastz|
 
-   :versions: 1.0.4, 1.0.2
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_lastz|
+   :versions: 1.0.4-2, 1.0.4-1, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.2-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ lastz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lastz
+      docker pull quay.io/repository/biocontainers/lastz:<tag>
+
+   (see `lastz/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lastz| conda:required_by:: lastz
 .. |downloads_lastz| image:: https://img.shields.io/conda/dn/bioconda/lastz.svg?style=flat
    :alt:   (downloads)
 .. |docker_lastz| image:: https://quay.io/repository/biocontainers/lastz/status
    :target: https://quay.io/repository/biocontainers/lastz
+.. _`lastz/tags`: https://quay.io/repository/biocontainers/lastz?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lastz/README.html
-

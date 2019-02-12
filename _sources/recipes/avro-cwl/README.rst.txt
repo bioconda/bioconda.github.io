@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'avro-cwl'
 .. highlight: bash
-
 
 avro-cwl
 ========
@@ -21,11 +22,11 @@ avro-cwl
 
    |downloads_avro-cwl| |docker_avro-cwl|
 
-   :versions: 1.8.9, 1.8.4
-
-   :depends: :conda:package:`python`  
-
-   :required~by: |required_by_avro-cwl|
+   :versions: 1.8.9-0, 1.8.4-1, 1.8.4-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ avro-cwl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/avro-cwl
+      docker pull quay.io/repository/biocontainers/avro-cwl:<tag>
+
+   (see `avro-cwl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_avro-cwl| conda:required_by:: avro-cwl
 .. |downloads_avro-cwl| image:: https://img.shields.io/conda/dn/bioconda/avro-cwl.svg?style=flat
    :alt:   (downloads)
 .. |docker_avro-cwl| image:: https://quay.io/repository/biocontainers/avro-cwl/status
    :target: https://quay.io/repository/biocontainers/avro-cwl
+.. _`avro-cwl/tags`: https://quay.io/repository/biocontainers/avro-cwl?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/avro-cwl/README.html
-

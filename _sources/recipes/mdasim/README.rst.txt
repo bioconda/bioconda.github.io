@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mdasim'
 .. highlight: bash
-
 
 mdasim
 ======
@@ -21,11 +22,13 @@ mdasim
 
    |downloads_mdasim| |docker_mdasim|
 
-   :versions: 2.1.1, 2.1.0, 2.0.1, 2.0.0, 1.2
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`openmpi` >=3.1,<3.2.0a0 
-
-   :required~by: |required_by_mdasim|
+   :versions: 2.1.1-0, 2.1.0-0, 2.0.1-1, 2.0.1-0, 2.0.0-0, 1.2-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openmpi: >=3.1,<3.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ mdasim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mdasim
+      docker pull quay.io/repository/biocontainers/mdasim:<tag>
+
+   (see `mdasim/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mdasim| conda:required_by:: mdasim
 .. |downloads_mdasim| image:: https://img.shields.io/conda/dn/bioconda/mdasim.svg?style=flat
    :alt:   (downloads)
 .. |docker_mdasim| image:: https://quay.io/repository/biocontainers/mdasim/status
    :target: https://quay.io/repository/biocontainers/mdasim
+.. _`mdasim/tags`: https://quay.io/repository/biocontainers/mdasim?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mdasim/README.html
-

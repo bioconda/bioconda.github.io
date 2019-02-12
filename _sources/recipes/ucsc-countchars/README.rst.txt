@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ucsc-countchars'
 .. highlight: bash
-
 
 ucsc-countchars
 ===============
@@ -21,11 +22,21 @@ ucsc-countchars
 
    |downloads_ucsc-countchars| |docker_ucsc-countchars|
 
-   :versions: 366, 357, 332
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_ucsc-countchars|
+   :versions: 366-0, 357-2, 357-1, 357-0, 332-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libpng: >=1.6.34,<1.7.0a0
+   
+   :depends libuuid: 
+   
+   :depends mysql-connector-c: 
+   
+   :depends openssl: >=1.0.2o,<1.0.3a
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ ucsc-countchars
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-countchars
+      docker pull quay.io/repository/biocontainers/ucsc-countchars:<tag>
+
+   (see `ucsc-countchars/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ucsc-countchars| conda:required_by:: ucsc-countchars
 .. |downloads_ucsc-countchars| image:: https://img.shields.io/conda/dn/bioconda/ucsc-countchars.svg?style=flat
    :alt:   (downloads)
 .. |docker_ucsc-countchars| image:: https://quay.io/repository/biocontainers/ucsc-countchars/status
    :target: https://quay.io/repository/biocontainers/ucsc-countchars
+.. _`ucsc-countchars/tags`: https://quay.io/repository/biocontainers/ucsc-countchars?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ucsc-countchars/README.html
-

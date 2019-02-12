@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-module-implementation'
 .. highlight: bash
-
 
 perl-module-implementation
 ==========================
@@ -21,11 +22,17 @@ perl-module-implementation
 
    |downloads_perl-module-implementation| |docker_perl-module-implementation|
 
-   :versions: 0.09
-
-   :depends: :conda:package:`perl-module-runtime`  :conda:package:`perl-threaded`  :conda:package:`perl-try-tiny`  
-
-   :required~by: |required_by_perl-module-implementation|
+   :versions: 0.09-2, 0.09-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-module-runtime: 
+   
+   :depends perl-try-tiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-module-implementation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-implementation
+      docker pull quay.io/repository/biocontainers/perl-module-implementation:<tag>
+
+   (see `perl-module-implementation/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-module-implementation| conda:required_by:: perl-module-implementation
 .. |downloads_perl-module-implementation| image:: https://img.shields.io/conda/dn/bioconda/perl-module-implementation.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-module-implementation| image:: https://quay.io/repository/biocontainers/perl-module-implementation/status
    :target: https://quay.io/repository/biocontainers/perl-module-implementation
+.. _`perl-module-implementation/tags`: https://quay.io/repository/biocontainers/perl-module-implementation?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-module-implementation/README.html
-

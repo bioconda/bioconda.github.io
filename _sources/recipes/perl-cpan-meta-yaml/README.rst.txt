@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-cpan-meta-yaml'
 .. highlight: bash
-
 
 perl-cpan-meta-yaml
 ===================
@@ -21,11 +22,15 @@ perl-cpan-meta-yaml
 
    |downloads_perl-cpan-meta-yaml| |docker_perl-cpan-meta-yaml|
 
-   :versions: 0.018
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  
-
-   :required~by: |required_by_perl-cpan-meta-yaml|
+   :versions: 0.018-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-exporter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-cpan-meta-yaml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-cpan-meta-yaml
+      docker pull quay.io/repository/biocontainers/perl-cpan-meta-yaml:<tag>
+
+   (see `perl-cpan-meta-yaml/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-cpan-meta-yaml| conda:required_by:: perl-cpan-meta-yaml
 .. |downloads_perl-cpan-meta-yaml| image:: https://img.shields.io/conda/dn/bioconda/perl-cpan-meta-yaml.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-cpan-meta-yaml| image:: https://quay.io/repository/biocontainers/perl-cpan-meta-yaml/status
    :target: https://quay.io/repository/biocontainers/perl-cpan-meta-yaml
+.. _`perl-cpan-meta-yaml/tags`: https://quay.io/repository/biocontainers/perl-cpan-meta-yaml?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-cpan-meta-yaml/README.html
-

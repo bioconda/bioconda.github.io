@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cramtools'
 .. highlight: bash
-
 
 cramtools
 =========
@@ -22,11 +23,11 @@ cramtools
 
    |downloads_cramtools| |docker_cramtools|
 
-   :versions: 3.0.b127, 3.0.b47
-
-   :depends: :conda:package:`java-jdk`  
-
-   :required~by: |required_by_cramtools|
+   :versions: 3.0.b127-2, 3.0.b127-1, 3.0.b127-0, 3.0.b47-2, 3.0.b47-1, 3.0.b47-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ cramtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cramtools
+      docker pull quay.io/repository/biocontainers/cramtools:<tag>
+
+   (see `cramtools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cramtools| conda:required_by:: cramtools
 .. |downloads_cramtools| image:: https://img.shields.io/conda/dn/bioconda/cramtools.svg?style=flat
    :alt:   (downloads)
 .. |docker_cramtools| image:: https://quay.io/repository/biocontainers/cramtools/status
    :target: https://quay.io/repository/biocontainers/cramtools
+.. _`cramtools/tags`: https://quay.io/repository/biocontainers/cramtools?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cramtools/README.html
-

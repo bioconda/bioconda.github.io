@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ncbi-vdb'
 .. highlight: bash
-
 
 ncbi-vdb
 ========
@@ -21,11 +22,11 @@ ncbi-vdb
 
    |downloads_ncbi-vdb| |docker_ncbi-vdb|
 
-   :versions: 2.9.3, 2.9.1, 2.9.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_ncbi-vdb|
+   :versions: 2.9.3-0, 2.9.1-0, 2.9.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ ncbi-vdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ncbi-vdb
+      docker pull quay.io/repository/biocontainers/ncbi-vdb:<tag>
+
+   (see `ncbi-vdb/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ncbi-vdb| conda:required_by:: ncbi-vdb
 .. |downloads_ncbi-vdb| image:: https://img.shields.io/conda/dn/bioconda/ncbi-vdb.svg?style=flat
    :alt:   (downloads)
 .. |docker_ncbi-vdb| image:: https://quay.io/repository/biocontainers/ncbi-vdb/status
    :target: https://quay.io/repository/biocontainers/ncbi-vdb
+.. _`ncbi-vdb/tags`: https://quay.io/repository/biocontainers/ncbi-vdb?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ncbi-vdb/README.html
-

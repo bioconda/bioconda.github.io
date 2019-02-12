@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'banner'
 .. highlight: bash
-
 
 banner
 ======
@@ -21,11 +22,21 @@ banner
 
    |downloads_banner| |docker_banner|
 
-   :versions: 0.0.2, 0.0.1
-
-   :depends: :conda:package:`numpy` 1.15.0 :conda:package:`pandas` 0.23.4 :conda:package:`pytest` 3.7.1 :conda:package:`python`  :conda:package:`scikit-learn`  :conda:package:`scipy` 1.1.0 
-
-   :required~by: |required_by_banner|
+   :versions: 0.0.2-0, 0.0.1-0
+   
+   :depends numpy: 1.15.0
+   
+   :depends pandas: 0.23.4
+   
+   :depends pytest: 3.7.1
+   
+   :depends python: 
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 1.1.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ banner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/banner
+      docker pull quay.io/repository/biocontainers/banner:<tag>
+
+   (see `banner/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_banner| conda:required_by:: banner
 .. |downloads_banner| image:: https://img.shields.io/conda/dn/bioconda/banner.svg?style=flat
    :alt:   (downloads)
 .. |docker_banner| image:: https://quay.io/repository/biocontainers/banner/status
    :target: https://quay.io/repository/biocontainers/banner
+.. _`banner/tags`: https://quay.io/repository/biocontainers/banner?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/banner/README.html
-

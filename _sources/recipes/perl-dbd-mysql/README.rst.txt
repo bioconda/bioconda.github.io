@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-dbd-mysql'
 .. highlight: bash
-
 
 perl-dbd-mysql
 ==============
@@ -22,11 +23,17 @@ perl-dbd-mysql
 
    |downloads_perl-dbd-mysql| |docker_perl-dbd-mysql|
 
-   :versions: 4.046, 4.033
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`mysql-connector-c`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-dbi`  
-
-   :required~by: |required_by_perl-dbd-mysql|
+   :versions: 4.046-0, 4.033-3, 4.033-2, 4.033-1, 4.033-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends mysql-connector-c: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-dbi: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ perl-dbd-mysql
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-dbd-mysql
+      docker pull quay.io/repository/biocontainers/perl-dbd-mysql:<tag>
+
+   (see `perl-dbd-mysql/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-dbd-mysql| conda:required_by:: perl-dbd-mysql
 .. |downloads_perl-dbd-mysql| image:: https://img.shields.io/conda/dn/bioconda/perl-dbd-mysql.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-dbd-mysql| image:: https://quay.io/repository/biocontainers/perl-dbd-mysql/status
    :target: https://quay.io/repository/biocontainers/perl-dbd-mysql
+.. _`perl-dbd-mysql/tags`: https://quay.io/repository/biocontainers/perl-dbd-mysql?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-dbd-mysql/README.html
-

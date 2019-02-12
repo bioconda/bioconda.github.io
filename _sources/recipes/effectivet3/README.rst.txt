@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'effectivet3'
 .. highlight: bash
-
 
 effectivet3
 ===========
@@ -22,11 +23,13 @@ effectivet3
 
    |downloads_effectivet3| |docker_effectivet3|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`openjdk` >=6 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_effectivet3|
+   :versions: 1.0.1-0
+   
+   :depends openjdk: >=6
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ effectivet3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/effectivet3
+      docker pull quay.io/repository/biocontainers/effectivet3:<tag>
+
+   (see `effectivet3/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_effectivet3| conda:required_by:: effectivet3
 .. |downloads_effectivet3| image:: https://img.shields.io/conda/dn/bioconda/effectivet3.svg?style=flat
    :alt:   (downloads)
 .. |docker_effectivet3| image:: https://quay.io/repository/biocontainers/effectivet3/status
    :target: https://quay.io/repository/biocontainers/effectivet3
+.. _`effectivet3/tags`: https://quay.io/repository/biocontainers/effectivet3?tab=tags
 
 
 
@@ -74,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/effectivet3/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'backspinpy'
 .. highlight: bash
-
 
 backspinpy
 ==========
@@ -21,11 +22,19 @@ backspinpy
 
    |downloads_backspinpy| |docker_backspinpy|
 
-   :versions: 0.2.1
-
-   :depends: :conda:package:`future`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`scikit-learn`  :conda:package:`scipy`  
-
-   :required~by: |required_by_backspinpy|
+   :versions: 0.2.1-1, 0.2.1-0
+   
+   :depends future: 
+   
+   :depends numpy: 
+   
+   :depends python: 
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ backspinpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/backspinpy
+      docker pull quay.io/repository/biocontainers/backspinpy:<tag>
+
+   (see `backspinpy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_backspinpy| conda:required_by:: backspinpy
 .. |downloads_backspinpy| image:: https://img.shields.io/conda/dn/bioconda/backspinpy.svg?style=flat
    :alt:   (downloads)
 .. |docker_backspinpy| image:: https://quay.io/repository/biocontainers/backspinpy/status
    :target: https://quay.io/repository/biocontainers/backspinpy
+.. _`backspinpy/tags`: https://quay.io/repository/biocontainers/backspinpy?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/backspinpy/README.html
-

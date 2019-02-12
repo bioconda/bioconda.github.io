@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mbcb'
 .. highlight: bash
-
 
 bioconductor-mbcb
 =================
@@ -21,11 +22,15 @@ bioconductor-mbcb
 
    |downloads_bioconductor-mbcb| |docker_bioconductor-mbcb|
 
-   :versions: 1.36.0
-
-   :depends: :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-tcltk2`  
-
-   :required~by: |required_by_bioconductor-mbcb|
+   :versions: 1.36.0-0
+   
+   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-tcltk2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-mbcb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mbcb
+      docker pull quay.io/repository/biocontainers/bioconductor-mbcb:<tag>
+
+   (see `bioconductor-mbcb/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mbcb| conda:required_by:: bioconductor-mbcb
 .. |downloads_bioconductor-mbcb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mbcb.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mbcb| image:: https://quay.io/repository/biocontainers/bioconductor-mbcb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mbcb
+.. _`bioconductor-mbcb/tags`: https://quay.io/repository/biocontainers/bioconductor-mbcb?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mbcb/README.html
-

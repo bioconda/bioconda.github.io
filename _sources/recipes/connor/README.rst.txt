@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'connor'
 .. highlight: bash
-
 
 connor
 ======
@@ -21,11 +22,17 @@ connor
 
    |downloads_connor| |docker_connor|
 
-   :versions: 0.6.1, 0.6, 0.5.1
-
-   :depends: :conda:package:`cython`  :conda:package:`pysam` >0.8.3,<=0.12 :conda:package:`python`  :conda:package:`sortedcontainers`  
-
-   :required~by: |required_by_connor|
+   :versions: 0.6.1-0, 0.6-2, 0.6-0, 0.5.1-0
+   
+   :depends cython: 
+   
+   :depends pysam: >0.8.3,<=0.12
+   
+   :depends python: 
+   
+   :depends sortedcontainers: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ connor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/connor
+      docker pull quay.io/repository/biocontainers/connor:<tag>
+
+   (see `connor/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_connor| conda:required_by:: connor
 .. |downloads_connor| image:: https://img.shields.io/conda/dn/bioconda/connor.svg?style=flat
    :alt:   (downloads)
 .. |docker_connor| image:: https://quay.io/repository/biocontainers/connor/status
    :target: https://quay.io/repository/biocontainers/connor
+.. _`connor/tags`: https://quay.io/repository/biocontainers/connor?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/connor/README.html
-

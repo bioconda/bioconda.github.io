@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-swath2stats'
 .. highlight: bash
-
 
 bioconductor-swath2stats
 ========================
@@ -22,11 +23,19 @@ bioconductor-swath2stats
 
    |downloads_bioconductor-swath2stats| |docker_bioconductor-swath2stats|
 
-   :versions: 1.12.1, 1.10.2, 1.8.1, 1.6.1
-
-   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-swath2stats|
+   :versions: 1.12.1-0, 1.10.2-0, 1.8.1-0, 1.6.1-0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-swath2stats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-swath2stats
+      docker pull quay.io/repository/biocontainers/bioconductor-swath2stats:<tag>
+
+   (see `bioconductor-swath2stats/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-swath2stats| conda:required_by:: bioconductor-swath2stats
 .. |downloads_bioconductor-swath2stats| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-swath2stats.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-swath2stats| image:: https://quay.io/repository/biocontainers/bioconductor-swath2stats/status
    :target: https://quay.io/repository/biocontainers/bioconductor-swath2stats
+.. _`bioconductor-swath2stats/tags`: https://quay.io/repository/biocontainers/bioconductor-swath2stats?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-swath2stats/README.html
-

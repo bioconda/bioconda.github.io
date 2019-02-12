@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cmappy'
 .. highlight: bash
-
 
 cmappy
 ======
@@ -21,11 +22,21 @@ cmappy
 
    |downloads_cmappy| |docker_cmappy|
 
-   :versions: 3.3.3, 3.3.0, 3.2.0, 3.1.1, 3.0.0, 2.2.2, 2.2.1, 2.2.0, 2.1.0, 2.0.1, 1.1.1, 1.0.9
-
-   :depends: :conda:package:`h5py` >=2.6.0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`numpy` >=1.11.2 :conda:package:`pandas` >=0.18 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`requests` >=2.13.0 
-
-   :required~by: |required_by_cmappy|
+   :versions: 3.3.3-0, 3.3.0-0, 3.2.0-0, 3.1.1-0, 3.0.0-0, 2.2.2-0, 2.2.1-0, 2.2.0-0, 2.1.0-0, 2.0.1-0, 1.1.1-0, 1.0.9-0
+   
+   :depends h5py: >=2.6.0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends numpy: >=1.11.2
+   
+   :depends pandas: >=0.18
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :depends requests: >=2.13.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ cmappy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cmappy
+      docker pull quay.io/repository/biocontainers/cmappy:<tag>
+
+   (see `cmappy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cmappy| conda:required_by:: cmappy
 .. |downloads_cmappy| image:: https://img.shields.io/conda/dn/bioconda/cmappy.svg?style=flat
    :alt:   (downloads)
 .. |docker_cmappy| image:: https://quay.io/repository/biocontainers/cmappy/status
    :target: https://quay.io/repository/biocontainers/cmappy
+.. _`cmappy/tags`: https://quay.io/repository/biocontainers/cmappy?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cmappy/README.html
-

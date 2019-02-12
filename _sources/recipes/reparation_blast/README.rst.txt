@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'reparation_blast'
 .. highlight: bash
-
 
 reparation_blast
 ================
@@ -21,11 +22,37 @@ reparation_blast
 
    |downloads_reparation_blast| |docker_reparation_blast|
 
-   :versions: v1.0.7, v1.0.6, v1.0.5, v1.0.4, v1.0.3, v1.0.2, v1.0.1
-
-   :depends: :conda:package:`blast` >=2.7.1 :conda:package:`glimmer`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bioperl`  :conda:package:`perl-posix`  :conda:package:`plastid`  :conda:package:`prodigal`  :conda:package:`pysam` 0.14.1.* :conda:package:`r-ggplot2` >=3.0 :conda:package:`r-prroc` >=1.3.1 :conda:package:`r-randomforest`  :conda:package:`r-rocr`  :conda:package:`r-sizer`  :conda:package:`samtools`  
-
-   :required~by: |required_by_reparation_blast|
+   :versions: v1.0.7-1, v1.0.7-0, v1.0.6-0, v1.0.5-0, v1.0.4-0, v1.0.3-2, v1.0.2-1, v1.0.1-0
+   
+   :depends blast: >=2.7.1
+   
+   :depends glimmer: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bioperl: >=1.7.2
+   
+   :depends perl-posix: 
+   
+   :depends plastid: 
+   
+   :depends prodigal: 
+   
+   :depends pysam: 0.14.1.*
+   
+   :depends r-ggplot2: >=3.0
+   
+   :depends r-prroc: >=1.3.1
+   
+   :depends r-randomforest: 
+   
+   :depends r-rocr: 
+   
+   :depends r-sizer: 
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ reparation_blast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/reparation_blast
+      docker pull quay.io/repository/biocontainers/reparation_blast:<tag>
+
+   (see `reparation_blast/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_reparation_blast| conda:required_by:: reparation_blast
 .. |downloads_reparation_blast| image:: https://img.shields.io/conda/dn/bioconda/reparation_blast.svg?style=flat
    :alt:   (downloads)
 .. |docker_reparation_blast| image:: https://quay.io/repository/biocontainers/reparation_blast/status
    :target: https://quay.io/repository/biocontainers/reparation_blast
+.. _`reparation_blast/tags`: https://quay.io/repository/biocontainers/reparation_blast?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/reparation_blast/README.html
-

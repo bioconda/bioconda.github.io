@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nanofilt'
 .. highlight: bash
-
 
 nanofilt
 ========
@@ -21,11 +22,17 @@ nanofilt
 
    |downloads_nanofilt| |docker_nanofilt|
 
-   :versions: 2.2.0, 2.0.1, 1.9.2, 1.8.0, 1.7.0, 1.2.0, 1.1.4, 1.1.3
-
-   :depends: :conda:package:`biopython`  :conda:package:`nanoget` >=0.15.0 :conda:package:`nanomath` >=0.13.3 :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_nanofilt|
+   :versions: 2.2.0-1, 2.2.0-0, 2.0.1-0, 1.9.2-0, 1.8.0-0, 1.7.0-0, 1.2.0-0, 1.1.4-0, 1.1.3-0
+   
+   :depends biopython: 
+   
+   :depends nanoget: >=0.15.0
+   
+   :depends nanomath: >=0.13.3
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ nanofilt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanofilt
+      docker pull quay.io/repository/biocontainers/nanofilt:<tag>
+
+   (see `nanofilt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nanofilt| conda:required_by:: nanofilt
 .. |downloads_nanofilt| image:: https://img.shields.io/conda/dn/bioconda/nanofilt.svg?style=flat
    :alt:   (downloads)
 .. |docker_nanofilt| image:: https://quay.io/repository/biocontainers/nanofilt/status
    :target: https://quay.io/repository/biocontainers/nanofilt
+.. _`nanofilt/tags`: https://quay.io/repository/biocontainers/nanofilt?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nanofilt/README.html
-

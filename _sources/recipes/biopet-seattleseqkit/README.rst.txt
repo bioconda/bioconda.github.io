@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biopet-seattleseqkit'
 .. highlight: bash
-
 
 biopet-seattleseqkit
 ====================
@@ -41,11 +42,13 @@ biopet-seattleseqkit
 
    |downloads_biopet-seattleseqkit| |docker_biopet-seattleseqkit|
 
-   :versions: 0.2, 0.1
-
-   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
-
-   :required~by: |required_by_biopet-seattleseqkit|
+   :versions: 0.2-0, 0.1-0
+   
+   :depends openjdk: >=8,<9
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -59,14 +62,16 @@ biopet-seattleseqkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-seattleseqkit
+      docker pull quay.io/repository/biocontainers/biopet-seattleseqkit:<tag>
+
+   (see `biopet-seattleseqkit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biopet-seattleseqkit| conda:required_by:: biopet-seattleseqkit
 .. |downloads_biopet-seattleseqkit| image:: https://img.shields.io/conda/dn/bioconda/biopet-seattleseqkit.svg?style=flat
    :alt:   (downloads)
 .. |docker_biopet-seattleseqkit| image:: https://quay.io/repository/biocontainers/biopet-seattleseqkit/status
    :target: https://quay.io/repository/biocontainers/biopet-seattleseqkit
+.. _`biopet-seattleseqkit/tags`: https://quay.io/repository/biocontainers/biopet-seattleseqkit?tab=tags
 
 
 
@@ -87,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biopet-seattleseqkit/README.html
-

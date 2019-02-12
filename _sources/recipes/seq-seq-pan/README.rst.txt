@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'seq-seq-pan'
 .. highlight: bash
-
 
 seq-seq-pan
 ===========
@@ -21,11 +22,23 @@ seq-seq-pan
 
    |downloads_seq-seq-pan| |docker_seq-seq-pan|
 
-   :versions: 1.0.1, 1.0.0
-
-   :depends: :conda:package:`argparse`  :conda:package:`biopython` 1.69 :conda:package:`blat` 35 :conda:package:`mauvealigner` 1.2.0 :conda:package:`openjdk`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`snakemake`  
-
-   :required~by: |required_by_seq-seq-pan|
+   :versions: 1.0.1-1, 1.0.1-0, 1.0.0-1, 1.0.0-0
+   
+   :depends argparse: 
+   
+   :depends biopython: 1.69
+   
+   :depends blat: 35
+   
+   :depends mauvealigner: 1.2.0
+   
+   :depends openjdk: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends snakemake: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ seq-seq-pan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seq-seq-pan
+      docker pull quay.io/repository/biocontainers/seq-seq-pan:<tag>
+
+   (see `seq-seq-pan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_seq-seq-pan| conda:required_by:: seq-seq-pan
 .. |downloads_seq-seq-pan| image:: https://img.shields.io/conda/dn/bioconda/seq-seq-pan.svg?style=flat
    :alt:   (downloads)
 .. |docker_seq-seq-pan| image:: https://quay.io/repository/biocontainers/seq-seq-pan/status
    :target: https://quay.io/repository/biocontainers/seq-seq-pan
+.. _`seq-seq-pan/tags`: https://quay.io/repository/biocontainers/seq-seq-pan?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/seq-seq-pan/README.html
-

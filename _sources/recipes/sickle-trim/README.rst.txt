@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sickle-trim'
 .. highlight: bash
-
 
 sickle-trim
 ===========
@@ -21,11 +22,13 @@ sickle-trim
 
    |downloads_sickle-trim| |docker_sickle-trim|
 
-   :versions: 1.33
-
-   :depends: 
-
-   :required~by: |required_by_sickle-trim|
+   :versions: 1.33-4, 1.33-3, 1.33-2, 1.33-1, 1.33-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ sickle-trim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sickle-trim
+      docker pull quay.io/repository/biocontainers/sickle-trim:<tag>
+
+   (see `sickle-trim/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sickle-trim| conda:required_by:: sickle-trim
 .. |downloads_sickle-trim| image:: https://img.shields.io/conda/dn/bioconda/sickle-trim.svg?style=flat
    :alt:   (downloads)
 .. |docker_sickle-trim| image:: https://quay.io/repository/biocontainers/sickle-trim/status
    :target: https://quay.io/repository/biocontainers/sickle-trim
+.. _`sickle-trim/tags`: https://quay.io/repository/biocontainers/sickle-trim?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sickle-trim/README.html
-

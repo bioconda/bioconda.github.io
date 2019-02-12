@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nanosim'
 .. highlight: bash
-
 
 nanosim
 =======
@@ -21,11 +22,29 @@ nanosim
 
    |downloads_nanosim| |docker_nanosim|
 
-   :versions: 2.2.0, 2.1.0, 2.0.0, v1.3.0, v1.2.0, v1.0.1
-
-   :depends: :conda:package:`htseq` >=0.9.1 :conda:package:`last`  :conda:package:`minimap2`  :conda:package:`numpy` >=1.13.3 :conda:package:`pybedtools` >=0.7.10 :conda:package:`pysam` >=0.13 :conda:package:`python`  :conda:package:`scikit-learn` >=0.20.0 :conda:package:`scipy` >=1.0.0 :conda:package:`six` >=1.10.0 
-
-   :required~by: |required_by_nanosim|
+   :versions: 2.2.0-0, 2.1.0-0, 2.0.0-1, 2.0.0-0, v1.3.0-0, v1.2.0-0, v1.0.1-1
+   
+   :depends htseq: >=0.9.1
+   
+   :depends last: 
+   
+   :depends minimap2: 
+   
+   :depends numpy: >=1.13.3
+   
+   :depends pybedtools: >=0.7.10
+   
+   :depends pysam: >=0.13
+   
+   :depends python: 
+   
+   :depends scikit-learn: >=0.20.0
+   
+   :depends scipy: >=1.0.0
+   
+   :depends six: >=1.10.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ nanosim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanosim
+      docker pull quay.io/repository/biocontainers/nanosim:<tag>
+
+   (see `nanosim/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nanosim| conda:required_by:: nanosim
 .. |downloads_nanosim| image:: https://img.shields.io/conda/dn/bioconda/nanosim.svg?style=flat
    :alt:   (downloads)
 .. |docker_nanosim| image:: https://quay.io/repository/biocontainers/nanosim/status
    :target: https://quay.io/repository/biocontainers/nanosim
+.. _`nanosim/tags`: https://quay.io/repository/biocontainers/nanosim?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nanosim/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'irep'
 .. highlight: bash
-
 
 irep
 ====
@@ -21,11 +22,23 @@ irep
 
    |downloads_irep| |docker_irep|
 
-   :versions: 1.1.7
-
-   :depends: :conda:package:`lmfit`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`scipy`  :conda:package:`seaborn`  
-
-   :required~by: |required_by_irep|
+   :versions: 1.1.7-1, 1.1.7-0
+   
+   :depends lmfit: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: 
+   
+   :depends scipy: 
+   
+   :depends seaborn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ irep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/irep
+      docker pull quay.io/repository/biocontainers/irep:<tag>
+
+   (see `irep/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_irep| conda:required_by:: irep
 .. |downloads_irep| image:: https://img.shields.io/conda/dn/bioconda/irep.svg?style=flat
    :alt:   (downloads)
 .. |docker_irep| image:: https://quay.io/repository/biocontainers/irep/status
    :target: https://quay.io/repository/biocontainers/irep
+.. _`irep/tags`: https://quay.io/repository/biocontainers/irep?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/irep/README.html
-

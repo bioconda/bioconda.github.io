@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cat'
 .. highlight: bash
-
 
 cat
 ===
@@ -22,11 +23,15 @@ cat
 
    |downloads_cat| |docker_cat|
 
-   :versions: 4.3.3, 4.3.1
-
-   :depends: :conda:package:`diamond`  :conda:package:`prodigal`  :conda:package:`python` 3.* 
-
-   :required~by: |required_by_cat|
+   :versions: 4.3.3-0, 4.3.1-1
+   
+   :depends diamond: 
+   
+   :depends prodigal: 
+   
+   :depends python: 3.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ cat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cat
+      docker pull quay.io/repository/biocontainers/cat:<tag>
+
+   (see `cat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cat| conda:required_by:: cat
 .. |downloads_cat| image:: https://img.shields.io/conda/dn/bioconda/cat.svg?style=flat
    :alt:   (downloads)
 .. |docker_cat| image:: https://quay.io/repository/biocontainers/cat/status
    :target: https://quay.io/repository/biocontainers/cat
+.. _`cat/tags`: https://quay.io/repository/biocontainers/cat?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cat/README.html
-

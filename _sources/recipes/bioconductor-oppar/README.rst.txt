@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-oppar'
 .. highlight: bash
-
 
 bioconductor-oppar
 ==================
@@ -22,11 +23,19 @@ bioconductor-oppar
 
    |downloads_bioconductor-oppar| |docker_bioconductor-oppar|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`bioconductor-gsva` >=1.30.0,<1.31.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-oppar|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-gseabase: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-gsva: >=1.30.0,<1.31.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-oppar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-oppar
+      docker pull quay.io/repository/biocontainers/bioconductor-oppar:<tag>
+
+   (see `bioconductor-oppar/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-oppar| conda:required_by:: bioconductor-oppar
 .. |downloads_bioconductor-oppar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-oppar.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-oppar| image:: https://quay.io/repository/biocontainers/bioconductor-oppar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-oppar
+.. _`bioconductor-oppar/tags`: https://quay.io/repository/biocontainers/bioconductor-oppar?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-oppar/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-filter-simple'
 .. highlight: bash
-
 
 perl-filter-simple
 ==================
@@ -21,11 +22,11 @@ perl-filter-simple
 
    |downloads_perl-filter-simple| |docker_perl-filter-simple|
 
-   :versions: 0.91
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-filter-simple|
+   :versions: 0.91-1, 0.91-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-filter-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-filter-simple
+      docker pull quay.io/repository/biocontainers/perl-filter-simple:<tag>
+
+   (see `perl-filter-simple/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-filter-simple| conda:required_by:: perl-filter-simple
 .. |downloads_perl-filter-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-filter-simple.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-filter-simple| image:: https://quay.io/repository/biocontainers/perl-filter-simple/status
    :target: https://quay.io/repository/biocontainers/perl-filter-simple
+.. _`perl-filter-simple/tags`: https://quay.io/repository/biocontainers/perl-filter-simple?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-filter-simple/README.html
-

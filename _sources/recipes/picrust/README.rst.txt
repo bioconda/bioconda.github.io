@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'picrust'
 .. highlight: bash
-
 
 picrust
 =======
@@ -21,11 +22,23 @@ picrust
 
    |downloads_picrust| |docker_picrust|
 
-   :versions: 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.0.1
-
-   :depends: :conda:package:`biom-format` >=2.1.4,<2.2.0 :conda:package:`cogent` >=1.5.3 :conda:package:`future` >=0.16 :conda:package:`h5py` >=1.7.0 :conda:package:`numpy` >=1.5.1 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_picrust|
+   :versions: 1.1.3-2, 1.1.3-1, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.1-0
+   
+   :depends biom-format: >=2.1.4,<2.2.0
+   
+   :depends cogent: >=1.5.3
+   
+   :depends future: >=0.16
+   
+   :depends h5py: >=1.7.0
+   
+   :depends numpy: >=1.5.1
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends r-ape: >=5.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ picrust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/picrust
+      docker pull quay.io/repository/biocontainers/picrust:<tag>
+
+   (see `picrust/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_picrust| conda:required_by:: picrust
 .. |downloads_picrust| image:: https://img.shields.io/conda/dn/bioconda/picrust.svg?style=flat
    :alt:   (downloads)
 .. |docker_picrust| image:: https://quay.io/repository/biocontainers/picrust/status
    :target: https://quay.io/repository/biocontainers/picrust
+.. _`picrust/tags`: https://quay.io/repository/biocontainers/picrust?tab=tags
 
 
 
@@ -67,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/picrust/README.html
-

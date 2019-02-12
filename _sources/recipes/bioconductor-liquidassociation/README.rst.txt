@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-liquidassociation'
 .. highlight: bash
-
 
 bioconductor-liquidassociation
 ==============================
@@ -22,11 +23,19 @@ bioconductor-liquidassociation
 
    |downloads_bioconductor-liquidassociation| |docker_bioconductor-liquidassociation|
 
-   :versions: 1.36.0, 1.34.0, 1.32.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-org.sc.sgd.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-yeastcc` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-geepack`  
-
-   :required~by: |required_by_bioconductor-liquidassociation|
+   :versions: 1.36.0-0, 1.34.0-0, 1.32.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-org.sc.sgd.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-yeastcc: >=1.22.0,<1.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-geepack: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-liquidassociation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-liquidassociation
+      docker pull quay.io/repository/biocontainers/bioconductor-liquidassociation:<tag>
+
+   (see `bioconductor-liquidassociation/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-liquidassociation| conda:required_by:: bioconductor-liquidassociation
 .. |downloads_bioconductor-liquidassociation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-liquidassociation.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-liquidassociation| image:: https://quay.io/repository/biocontainers/bioconductor-liquidassociation/status
    :target: https://quay.io/repository/biocontainers/bioconductor-liquidassociation
+.. _`bioconductor-liquidassociation/tags`: https://quay.io/repository/biocontainers/bioconductor-liquidassociation?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-liquidassociation/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'digestiflow-cli'
 .. highlight: bash
-
 
 digestiflow-cli
 ===============
@@ -21,11 +22,13 @@ digestiflow-cli
 
    |downloads_digestiflow-cli| |docker_digestiflow-cli|
 
-   :versions: 0.4.0, 0.3.0, 0.2.0, 0.1.1
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`openssl` >=1.0.2p,<1.0.3a 
-
-   :required~by: |required_by_digestiflow-cli|
+   :versions: 0.4.0-0, 0.3.0-0, 0.2.0-0, 0.1.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openssl: >=1.0.2p,<1.0.3a
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ digestiflow-cli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/digestiflow-cli
+      docker pull quay.io/repository/biocontainers/digestiflow-cli:<tag>
+
+   (see `digestiflow-cli/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_digestiflow-cli| conda:required_by:: digestiflow-cli
 .. |downloads_digestiflow-cli| image:: https://img.shields.io/conda/dn/bioconda/digestiflow-cli.svg?style=flat
    :alt:   (downloads)
 .. |docker_digestiflow-cli| image:: https://quay.io/repository/biocontainers/digestiflow-cli/status
    :target: https://quay.io/repository/biocontainers/digestiflow-cli
+.. _`digestiflow-cli/tags`: https://quay.io/repository/biocontainers/digestiflow-cli?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/digestiflow-cli/README.html
-

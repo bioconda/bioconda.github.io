@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pkiss'
 .. highlight: bash
-
 
 pkiss
 =====
@@ -22,11 +23,21 @@ pkiss
 
    |downloads_pkiss| |docker_pkiss|
 
-   :versions: 2.2.12
-
-   :depends: :conda:package:`bellmans-gapc`  :conda:package:`boost` 1.64* :conda:package:`gsl` 1.16* :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_pkiss|
+   :versions: 2.2.12-1, 2.2.12-0
+   
+   :depends bellmans-gapc: 
+   
+   :depends boost: 1.64*
+   
+   :depends gsl: 2.2*
+   
+   :depends libgcc: 
+   
+   :depends openblas: 
+   
+   :depends perl: 5.22.0*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ pkiss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pkiss
+      docker pull quay.io/repository/biocontainers/pkiss:<tag>
+
+   (see `pkiss/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pkiss| conda:required_by:: pkiss
 .. |downloads_pkiss| image:: https://img.shields.io/conda/dn/bioconda/pkiss.svg?style=flat
    :alt:   (downloads)
 .. |docker_pkiss| image:: https://quay.io/repository/biocontainers/pkiss/status
    :target: https://quay.io/repository/biocontainers/pkiss
+.. _`pkiss/tags`: https://quay.io/repository/biocontainers/pkiss?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pkiss/README.html
-

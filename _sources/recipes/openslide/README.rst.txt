@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'openslide'
 .. highlight: bash
-
 
 openslide
 =========
@@ -21,11 +22,31 @@ openslide
 
    |downloads_openslide| |docker_openslide|
 
-   :versions: 3.4.1
-
-   :depends: :conda:package:`cairo` >=1.2 :conda:package:`gdk-pixbuf`  :conda:package:`glib` >=2.16 :conda:package:`jpeg`  :conda:package:`libgcc`  :conda:package:`libpng`  :conda:package:`libtiff` >=4 :conda:package:`libxml2`  :conda:package:`openjpeg` >=2.1 :conda:package:`sqlite` >=3.6.2 :conda:package:`zlib`  
-
-   :required~by: |required_by_openslide|
+   :versions: 3.4.1-2, 3.4.1-1, 3.4.1-0
+   
+   :depends cairo: >=1.2
+   
+   :depends gdk-pixbuf: 
+   
+   :depends glib: >=2.48.0
+   
+   :depends jpeg: 
+   
+   :depends libgcc: 
+   
+   :depends libpng: 
+   
+   :depends libtiff: >=4
+   
+   :depends libxml2: 
+   
+   :depends openjpeg: >=2.1
+   
+   :depends sqlite: >=3.6.2
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ openslide
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/openslide
+      docker pull quay.io/repository/biocontainers/openslide:<tag>
+
+   (see `openslide/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_openslide| conda:required_by:: openslide
 .. |downloads_openslide| image:: https://img.shields.io/conda/dn/bioconda/openslide.svg?style=flat
    :alt:   (downloads)
 .. |docker_openslide| image:: https://quay.io/repository/biocontainers/openslide/status
    :target: https://quay.io/repository/biocontainers/openslide
+.. _`openslide/tags`: https://quay.io/repository/biocontainers/openslide?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/openslide/README.html
-

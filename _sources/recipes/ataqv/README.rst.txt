@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ataqv'
 .. highlight: bash
-
 
 ataqv
 =====
@@ -24,11 +25,25 @@ ataqv
 
    |downloads_ataqv| |docker_ataqv|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`coreutils`  :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`ncurses` >=6.1,<6.2.0a0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_ataqv|
+   :versions: 1.0.0-0
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends coreutils: 
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends ncurses: >=6.1,<6.2.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +57,16 @@ ataqv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ataqv
+      docker pull quay.io/repository/biocontainers/ataqv:<tag>
+
+   (see `ataqv/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ataqv| conda:required_by:: ataqv
 .. |downloads_ataqv| image:: https://img.shields.io/conda/dn/bioconda/ataqv.svg?style=flat
    :alt:   (downloads)
 .. |docker_ataqv| image:: https://quay.io/repository/biocontainers/ataqv/status
    :target: https://quay.io/repository/biocontainers/ataqv
+.. _`ataqv/tags`: https://quay.io/repository/biocontainers/ataqv?tab=tags
 
 
 
@@ -66,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ataqv/README.html
-

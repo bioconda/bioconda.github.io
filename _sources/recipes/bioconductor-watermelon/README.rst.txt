@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-watermelon'
 .. highlight: bash
-
 
 bioconductor-watermelon
 =======================
@@ -22,11 +23,27 @@ bioconductor-watermelon
 
    |downloads_bioconductor-watermelon| |docker_bioconductor-watermelon|
 
-   :versions: 1.26.0, 1.24.0, 1.22.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19` >=0.6.0,<0.7.0 :conda:package:`bioconductor-illuminaio` >=0.24.0,<0.25.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-lumi` >=2.34.0,<2.35.0 :conda:package:`bioconductor-methylumi` >=2.28.0,<2.29.0 :conda:package:`bioconductor-roc` >=1.58.0,<1.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrixstats`  
-
-   :required~by: |required_by_bioconductor-watermelon|
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
+   
+   :depends bioconductor-illuminaio: >=0.24.0,<0.25.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-lumi: >=2.34.0,<2.35.0
+   
+   :depends bioconductor-methylumi: >=2.28.0,<2.29.0
+   
+   :depends bioconductor-roc: >=1.58.0,<1.59.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-matrixstats: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ bioconductor-watermelon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-watermelon
+      docker pull quay.io/repository/biocontainers/bioconductor-watermelon:<tag>
+
+   (see `bioconductor-watermelon/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-watermelon| conda:required_by:: bioconductor-watermelon
 .. |downloads_bioconductor-watermelon| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-watermelon.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-watermelon| image:: https://quay.io/repository/biocontainers/bioconductor-watermelon/status
    :target: https://quay.io/repository/biocontainers/bioconductor-watermelon
+.. _`bioconductor-watermelon/tags`: https://quay.io/repository/biocontainers/bioconductor-watermelon?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-watermelon/README.html
-

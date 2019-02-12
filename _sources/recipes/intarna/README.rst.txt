@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'intarna'
 .. highlight: bash
-
 
 intarna
 =======
@@ -22,11 +23,19 @@ intarna
 
    |downloads_intarna| |docker_intarna|
 
-   :versions: 2.3.1, 2.3.0, 2.2.1, 2.2.0, 2.1.0, 2.0.5, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.2.5
-
-   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_intarna|
+   :versions: 2.3.1-2, 2.3.1-1, 2.3.1-0, 2.3.0-0, 2.2.1-0, 2.2.0-3, 2.2.0-2, 2.2.0-1, 2.1.0-2, 2.1.0-1, 2.1.0-0, 2.0.5-0, 2.0.4-1, 2.0.3-1, 2.0.3-0, 2.0.2-0, 2.0.1-1, 2.0.1-0, 2.0.0-0, 1.2.5-2, 1.2.5-1
+   
+   :depends boost-cpp: >=1.68.0,<1.68.1.0a0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends viennarna: >=2.4.11,<2.5.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ intarna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/intarna
+      docker pull quay.io/repository/biocontainers/intarna:<tag>
+
+   (see `intarna/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_intarna| conda:required_by:: intarna
 .. |downloads_intarna| image:: https://img.shields.io/conda/dn/bioconda/intarna.svg?style=flat
    :alt:   (downloads)
 .. |docker_intarna| image:: https://quay.io/repository/biocontainers/intarna/status
    :target: https://quay.io/repository/biocontainers/intarna
+.. _`intarna/tags`: https://quay.io/repository/biocontainers/intarna?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/intarna/README.html
-

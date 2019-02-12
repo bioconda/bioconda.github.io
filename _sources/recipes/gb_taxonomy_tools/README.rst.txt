@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gb_taxonomy_tools'
 .. highlight: bash
-
 
 gb_taxonomy_tools
 =================
@@ -21,11 +22,9 @@ gb_taxonomy_tools
 
    |downloads_gb_taxonomy_tools| |docker_gb_taxonomy_tools|
 
-   :versions: 1.0.1, 1.0.0
-
-   :depends: 
-
-   :required~by: |required_by_gb_taxonomy_tools|
+   :versions: 1.0.1-0, 1.0.0-1, 1.0.0-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ gb_taxonomy_tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gb_taxonomy_tools
+      docker pull quay.io/repository/biocontainers/gb_taxonomy_tools:<tag>
+
+   (see `gb_taxonomy_tools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gb_taxonomy_tools| conda:required_by:: gb_taxonomy_tools
 .. |downloads_gb_taxonomy_tools| image:: https://img.shields.io/conda/dn/bioconda/gb_taxonomy_tools.svg?style=flat
    :alt:   (downloads)
 .. |docker_gb_taxonomy_tools| image:: https://quay.io/repository/biocontainers/gb_taxonomy_tools/status
    :target: https://quay.io/repository/biocontainers/gb_taxonomy_tools
+.. _`gb_taxonomy_tools/tags`: https://quay.io/repository/biocontainers/gb_taxonomy_tools?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gb_taxonomy_tools/README.html
-

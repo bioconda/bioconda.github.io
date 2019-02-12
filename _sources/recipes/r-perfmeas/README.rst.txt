@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-perfmeas'
 .. highlight: bash
-
 
 r-perfmeas
 ==========
@@ -21,11 +22,19 @@ r-perfmeas
 
    |downloads_r-perfmeas| |docker_r-perfmeas|
 
-   :versions: 1.2.1
-
-   :depends: :conda:package:`bioconductor-graph`  :conda:package:`bioconductor-limma`  :conda:package:`bioconductor-rbgl`  :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* 
-
-   :required~by: |required_by_r-perfmeas|
+   :versions: 1.2.1-3, 1.2.1-2, 1.2.1-0
+   
+   :depends bioconductor-graph: 
+   
+   :depends bioconductor-limma: 
+   
+   :depends bioconductor-rbgl: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ r-perfmeas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-perfmeas
+      docker pull quay.io/repository/biocontainers/r-perfmeas:<tag>
+
+   (see `r-perfmeas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-perfmeas| conda:required_by:: r-perfmeas
 .. |downloads_r-perfmeas| image:: https://img.shields.io/conda/dn/bioconda/r-perfmeas.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-perfmeas| image:: https://quay.io/repository/biocontainers/r-perfmeas/status
    :target: https://quay.io/repository/biocontainers/r-perfmeas
+.. _`r-perfmeas/tags`: https://quay.io/repository/biocontainers/r-perfmeas?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-perfmeas/README.html
-

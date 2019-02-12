@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-batchqc'
 .. highlight: bash
-
 
 bioconductor-batchqc
 ====================
@@ -22,11 +23,41 @@ bioconductor-batchqc
 
    |downloads_bioconductor-batchqc| |docker_bioconductor-batchqc|
 
-   :versions: 1.10.1, 1.8.1, 1.6.1
-
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-sva` >=3.30.0,<3.31.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  :conda:package:`r-d3heatmap`  :conda:package:`r-ggvis`  :conda:package:`r-gplots`  :conda:package:`r-knitr`  :conda:package:`r-matrix`  :conda:package:`r-matrixstats`  :conda:package:`r-mcmcpack`  :conda:package:`r-moments`  :conda:package:`r-pander`  :conda:package:`r-reshape2`  :conda:package:`r-rmarkdown`  :conda:package:`r-shiny`  
-
-   :required~by: |required_by_bioconductor-batchqc|
+   :versions: 1.10.1-0, 1.8.1-0, 1.6.1-0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-sva: >=3.30.0,<3.31.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-corpcor: 
+   
+   :depends r-d3heatmap: 
+   
+   :depends r-ggvis: 
+   
+   :depends r-gplots: 
+   
+   :depends r-knitr: 
+   
+   :depends r-matrix: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-mcmcpack: 
+   
+   :depends r-moments: 
+   
+   :depends r-pander: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-rmarkdown: 
+   
+   :depends r-shiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +71,16 @@ bioconductor-batchqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-batchqc
+      docker pull quay.io/repository/biocontainers/bioconductor-batchqc:<tag>
+
+   (see `bioconductor-batchqc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-batchqc| conda:required_by:: bioconductor-batchqc
 .. |downloads_bioconductor-batchqc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-batchqc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-batchqc| image:: https://quay.io/repository/biocontainers/bioconductor-batchqc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-batchqc
+.. _`bioconductor-batchqc/tags`: https://quay.io/repository/biocontainers/bioconductor-batchqc?tab=tags
 
 
 
@@ -64,4 +97,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-batchqc/README.html
-

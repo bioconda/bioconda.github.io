@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'outrigger'
 .. highlight: bash
-
 
 outrigger
 =========
@@ -21,11 +22,29 @@ outrigger
 
    |downloads_outrigger| |docker_outrigger|
 
-   :versions: 1.1.1
-
-   :depends: :conda:package:`biopython`  :conda:package:`coverage`  :conda:package:`gffutils` >=0.8.7.1 :conda:package:`graphlite`  :conda:package:`joblib`  :conda:package:`pandas` >=0.17.0 :conda:package:`pybedtools`  :conda:package:`pysam`  :conda:package:`pytest` >=3.0.0 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_outrigger|
+   :versions: 1.1.1-1, 1.1.1-0
+   
+   :depends biopython: 
+   
+   :depends coverage: 
+   
+   :depends gffutils: >=0.8.7.1
+   
+   :depends graphlite: 
+   
+   :depends joblib: 
+   
+   :depends pandas: >=0.17.0
+   
+   :depends pybedtools: 
+   
+   :depends pysam: 
+   
+   :depends pytest: >=3.0.0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ outrigger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/outrigger
+      docker pull quay.io/repository/biocontainers/outrigger:<tag>
+
+   (see `outrigger/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_outrigger| conda:required_by:: outrigger
 .. |downloads_outrigger| image:: https://img.shields.io/conda/dn/bioconda/outrigger.svg?style=flat
    :alt:   (downloads)
 .. |docker_outrigger| image:: https://quay.io/repository/biocontainers/outrigger/status
    :target: https://quay.io/repository/biocontainers/outrigger
+.. _`outrigger/tags`: https://quay.io/repository/biocontainers/outrigger?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/outrigger/README.html
-

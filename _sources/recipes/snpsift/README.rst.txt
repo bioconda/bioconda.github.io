@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'snpsift'
 .. highlight: bash
-
 
 snpsift
 =======
@@ -22,11 +23,13 @@ snpsift
 
    |downloads_snpsift| |docker_snpsift|
 
-   :versions: 4.3.1t, 4.3.1r, 4.3.1p, 4.3.1o, 4.3.1m, 4.3, 4.2, 4.1l
-
-   :depends: :conda:package:`openjdk`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_snpsift|
+   :versions: 4.3.1t-1, 4.3.1t-0, 4.3.1r-0, 4.3.1p-0, 4.3.1o-0, 4.3.1m-0, 4.3-2, 4.3-1, 4.2-3, 4.2-2, 4.2-1, 4.1l-3, 4.1l-1
+   
+   :depends openjdk: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ snpsift
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snpsift
+      docker pull quay.io/repository/biocontainers/snpsift:<tag>
+
+   (see `snpsift/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_snpsift| conda:required_by:: snpsift
 .. |downloads_snpsift| image:: https://img.shields.io/conda/dn/bioconda/snpsift.svg?style=flat
    :alt:   (downloads)
 .. |docker_snpsift| image:: https://quay.io/repository/biocontainers/snpsift/status
    :target: https://quay.io/repository/biocontainers/snpsift
+.. _`snpsift/tags`: https://quay.io/repository/biocontainers/snpsift?tab=tags
 
 
 
@@ -68,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/snpsift/README.html
-

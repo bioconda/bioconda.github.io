@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lap'
 .. highlight: bash
-
 
 lap
 ===
@@ -21,11 +22,15 @@ lap
 
    |downloads_lap| |docker_lap|
 
-   :versions: 1.1.r186
-
-   :depends: :conda:package:`bowtie2`  :conda:package:`libgcc`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_lap|
+   :versions: 1.1.r186-0
+   
+   :depends bowtie2: 
+   
+   :depends libgcc: 
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ lap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lap
+      docker pull quay.io/repository/biocontainers/lap:<tag>
+
+   (see `lap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lap| conda:required_by:: lap
 .. |downloads_lap| image:: https://img.shields.io/conda/dn/bioconda/lap.svg?style=flat
    :alt:   (downloads)
 .. |docker_lap| image:: https://quay.io/repository/biocontainers/lap/status
    :target: https://quay.io/repository/biocontainers/lap
+.. _`lap/tags`: https://quay.io/repository/biocontainers/lap?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lap/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-eol'
 .. highlight: bash
-
 
 perl-test-eol
 =============
@@ -21,11 +22,11 @@ perl-test-eol
 
    |downloads_perl-test-eol| |docker_perl-test-eol|
 
-   :versions: 2.00, 1.6
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-test-eol|
+   :versions: 2.00-0, 1.6-2, 1.6-1, 1.6-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-test-eol
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-eol
+      docker pull quay.io/repository/biocontainers/perl-test-eol:<tag>
+
+   (see `perl-test-eol/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-eol| conda:required_by:: perl-test-eol
 .. |downloads_perl-test-eol| image:: https://img.shields.io/conda/dn/bioconda/perl-test-eol.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-eol| image:: https://quay.io/repository/biocontainers/perl-test-eol/status
    :target: https://quay.io/repository/biocontainers/perl-test-eol
+.. _`perl-test-eol/tags`: https://quay.io/repository/biocontainers/perl-test-eol?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-eol/README.html
-

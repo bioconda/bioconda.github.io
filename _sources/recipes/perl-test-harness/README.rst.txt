@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-harness'
 .. highlight: bash
-
 
 perl-test-harness
 =================
@@ -21,11 +22,11 @@ perl-test-harness
 
    |downloads_perl-test-harness| |docker_perl-test-harness|
 
-   :versions: 3.42, 3.36, 3.30
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-test-harness|
+   :versions: 3.42-0, 3.36-1, 3.36-0, 3.30-3, 3.30-2, 3.30-1
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-test-harness
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-harness
+      docker pull quay.io/repository/biocontainers/perl-test-harness:<tag>
+
+   (see `perl-test-harness/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-harness| conda:required_by:: perl-test-harness
 .. |downloads_perl-test-harness| image:: https://img.shields.io/conda/dn/bioconda/perl-test-harness.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-harness| image:: https://quay.io/repository/biocontainers/perl-test-harness/status
    :target: https://quay.io/repository/biocontainers/perl-test-harness
+.. _`perl-test-harness/tags`: https://quay.io/repository/biocontainers/perl-test-harness?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-harness/README.html
-

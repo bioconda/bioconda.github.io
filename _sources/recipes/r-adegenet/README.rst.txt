@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-adegenet'
 .. highlight: bash
-
 
 r-adegenet
 ==========
@@ -21,11 +22,37 @@ r-adegenet
 
    |downloads_r-adegenet| |docker_r-adegenet|
 
-   :versions: 2.1.1, 2.1.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-ade4`  :conda:package:`r-ape`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-boot`  :conda:package:`r-dplyr` >=0.4.1 :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-reshape2`  :conda:package:`r-seqinr`  :conda:package:`r-shiny`  :conda:package:`r-spdep`  :conda:package:`r-vegan`  
-
-   :required~by: |required_by_r-adegenet|
+   :versions: 2.1.1-1, 2.1.1-0, 2.1.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-ade4: 
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-boot: 
+   
+   :depends r-dplyr: >=0.4.1
+   
+   :depends r-ggplot2: 
+   
+   :depends r-igraph: 
+   
+   :depends r-mass: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-seqinr: 
+   
+   :depends r-shiny: 
+   
+   :depends r-spdep: 
+   
+   :depends r-vegan: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ r-adegenet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-adegenet
+      docker pull quay.io/repository/biocontainers/r-adegenet:<tag>
+
+   (see `r-adegenet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-adegenet| conda:required_by:: r-adegenet
 .. |downloads_r-adegenet| image:: https://img.shields.io/conda/dn/bioconda/r-adegenet.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-adegenet| image:: https://quay.io/repository/biocontainers/r-adegenet/status
    :target: https://quay.io/repository/biocontainers/r-adegenet
+.. _`r-adegenet/tags`: https://quay.io/repository/biocontainers/r-adegenet?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-adegenet/README.html
-

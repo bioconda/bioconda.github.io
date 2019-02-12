@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vargeno'
 .. highlight: bash
-
 
 vargeno
 =======
@@ -22,11 +23,11 @@ vargeno
 
    |downloads_vargeno| |docker_vargeno|
 
-   :versions: 1.0.3
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_vargeno|
+   :versions: 1.0.3-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ vargeno
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vargeno
+      docker pull quay.io/repository/biocontainers/vargeno:<tag>
+
+   (see `vargeno/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vargeno| conda:required_by:: vargeno
 .. |downloads_vargeno| image:: https://img.shields.io/conda/dn/bioconda/vargeno.svg?style=flat
    :alt:   (downloads)
 .. |docker_vargeno| image:: https://quay.io/repository/biocontainers/vargeno/status
    :target: https://quay.io/repository/biocontainers/vargeno
+.. _`vargeno/tags`: https://quay.io/repository/biocontainers/vargeno?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vargeno/README.html
-

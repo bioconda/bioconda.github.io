@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gmtk'
 .. highlight: bash
-
 
 gmtk
 ====
@@ -21,11 +22,11 @@ gmtk
 
    |downloads_gmtk| |docker_gmtk|
 
-   :versions: 1.4.4
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_gmtk|
+   :versions: 1.4.4-1, 1.4.4-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ gmtk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gmtk
+      docker pull quay.io/repository/biocontainers/gmtk:<tag>
+
+   (see `gmtk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gmtk| conda:required_by:: gmtk
 .. |downloads_gmtk| image:: https://img.shields.io/conda/dn/bioconda/gmtk.svg?style=flat
    :alt:   (downloads)
 .. |docker_gmtk| image:: https://quay.io/repository/biocontainers/gmtk/status
    :target: https://quay.io/repository/biocontainers/gmtk
+.. _`gmtk/tags`: https://quay.io/repository/biocontainers/gmtk?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gmtk/README.html
-

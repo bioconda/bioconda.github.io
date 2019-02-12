@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-biomark'
 .. highlight: bash
-
 
 r-biomark
 =========
@@ -21,11 +22,19 @@ r-biomark
 
    |downloads_r-biomark| |docker_r-biomark|
 
-   :versions: 0.4.5
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-glmnet`  :conda:package:`r-mass`  :conda:package:`r-pls`  :conda:package:`r-st` >=1.1.6 
-
-   :required~by: |required_by_r-biomark|
+   :versions: 0.4.5-0
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-glmnet: 
+   
+   :depends r-mass: 
+   
+   :depends r-pls: 
+   
+   :depends r-st: >=1.1.6
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ r-biomark
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-biomark
+      docker pull quay.io/repository/biocontainers/r-biomark:<tag>
+
+   (see `r-biomark/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-biomark| conda:required_by:: r-biomark
 .. |downloads_r-biomark| image:: https://img.shields.io/conda/dn/bioconda/r-biomark.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-biomark| image:: https://quay.io/repository/biocontainers/r-biomark/status
    :target: https://quay.io/repository/biocontainers/r-biomark
+.. _`r-biomark/tags`: https://quay.io/repository/biocontainers/r-biomark?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-biomark/README.html
-

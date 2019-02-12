@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-sub-uplevel'
 .. highlight: bash
-
 
 perl-sub-uplevel
 ================
@@ -21,11 +22,13 @@ perl-sub-uplevel
 
    |downloads_perl-sub-uplevel| |docker_perl-sub-uplevel|
 
-   :versions: 0.2800, 0.25
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-sub-uplevel|
+   :versions: 0.2800-0, 0.25-3, 0.25-2, 0.25-1, 0.25-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-sub-uplevel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-uplevel
+      docker pull quay.io/repository/biocontainers/perl-sub-uplevel:<tag>
+
+   (see `perl-sub-uplevel/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-sub-uplevel| conda:required_by:: perl-sub-uplevel
 .. |downloads_perl-sub-uplevel| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-uplevel.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-sub-uplevel| image:: https://quay.io/repository/biocontainers/perl-sub-uplevel/status
    :target: https://quay.io/repository/biocontainers/perl-sub-uplevel
+.. _`perl-sub-uplevel/tags`: https://quay.io/repository/biocontainers/perl-sub-uplevel?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-sub-uplevel/README.html
-

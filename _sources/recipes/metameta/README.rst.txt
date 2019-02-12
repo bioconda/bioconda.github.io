@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metameta'
 .. highlight: bash
-
 
 metameta
 ========
@@ -21,11 +22,11 @@ metameta
 
    |downloads_metameta| |docker_metameta|
 
-   :versions: 1.2.0, 1.1.1, 1.1, 1.0
-
-   :depends: :conda:package:`snakemake` ==4.3.0 
-
-   :required~by: |required_by_metameta|
+   :versions: 1.2.0-2, 1.2.0-1, 1.2.0-0, 1.1.1-1, 1.1.1-0, 1.1-2, 1.1-1, 1.1-0, 1.0-2, 1.0-1, 1.0-0
+   
+   :depends snakemake: 4.3.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ metameta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metameta
+      docker pull quay.io/repository/biocontainers/metameta:<tag>
+
+   (see `metameta/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metameta| conda:required_by:: metameta
 .. |downloads_metameta| image:: https://img.shields.io/conda/dn/bioconda/metameta.svg?style=flat
    :alt:   (downloads)
 .. |docker_metameta| image:: https://quay.io/repository/biocontainers/metameta/status
    :target: https://quay.io/repository/biocontainers/metameta
+.. _`metameta/tags`: https://quay.io/repository/biocontainers/metameta?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metameta/README.html
-

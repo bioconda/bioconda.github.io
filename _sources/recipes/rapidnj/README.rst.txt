@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rapidnj'
 .. highlight: bash
-
 
 rapidnj
 =======
@@ -22,11 +23,11 @@ rapidnj
 
    |downloads_rapidnj| |docker_rapidnj|
 
-   :versions: v2.3.2
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_rapidnj|
+   :versions: v2.3.2-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ rapidnj
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rapidnj
+      docker pull quay.io/repository/biocontainers/rapidnj:<tag>
+
+   (see `rapidnj/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rapidnj| conda:required_by:: rapidnj
 .. |downloads_rapidnj| image:: https://img.shields.io/conda/dn/bioconda/rapidnj.svg?style=flat
    :alt:   (downloads)
 .. |docker_rapidnj| image:: https://quay.io/repository/biocontainers/rapidnj/status
    :target: https://quay.io/repository/biocontainers/rapidnj
+.. _`rapidnj/tags`: https://quay.io/repository/biocontainers/rapidnj?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rapidnj/README.html
-

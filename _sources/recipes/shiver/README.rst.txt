@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'shiver'
 .. highlight: bash
-
 
 shiver
 ======
@@ -21,11 +22,25 @@ shiver
 
    |downloads_shiver| |docker_shiver|
 
-   :versions: 1.3.5, 1.2.1, 1.1.0, 1.0.0
-
-   :depends: :conda:package:`biopython`  :conda:package:`blast` >=2.2.28 :conda:package:`mafft`  :conda:package:`picard`  :conda:package:`python` 2.7* :conda:package:`samtools`  :conda:package:`smalt`  :conda:package:`trimmomatic`  
-
-   :required~by: |required_by_shiver|
+   :versions: 1.3.5-0, 1.2.1-0, 1.1.0-4, 1.1.0-1, 1.1.0-0, 1.0.0-0
+   
+   :depends biopython: 
+   
+   :depends blast: >=2.2.28
+   
+   :depends mafft: 
+   
+   :depends picard: 
+   
+   :depends python: 2.7*
+   
+   :depends samtools: 
+   
+   :depends smalt: 
+   
+   :depends trimmomatic: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ shiver
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shiver
+      docker pull quay.io/repository/biocontainers/shiver:<tag>
+
+   (see `shiver/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_shiver| conda:required_by:: shiver
 .. |downloads_shiver| image:: https://img.shields.io/conda/dn/bioconda/shiver.svg?style=flat
    :alt:   (downloads)
 .. |docker_shiver| image:: https://quay.io/repository/biocontainers/shiver/status
    :target: https://quay.io/repository/biocontainers/shiver
+.. _`shiver/tags`: https://quay.io/repository/biocontainers/shiver?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/shiver/README.html
-

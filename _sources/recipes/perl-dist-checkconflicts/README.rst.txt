@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-dist-checkconflicts'
 .. highlight: bash
-
 
 perl-dist-checkconflicts
 ========================
@@ -21,11 +22,19 @@ perl-dist-checkconflicts
 
    |downloads_perl-dist-checkconflicts| |docker_perl-dist-checkconflicts|
 
-   :versions: 0.11
-
-   :depends: :conda:package:`perl-module-runtime`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-dist-checkconflicts|
+   :versions: 0.11-2, 0.11-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-base: 
+   
+   :depends perl-carp: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-module-runtime: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-dist-checkconflicts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-dist-checkconflicts
+      docker pull quay.io/repository/biocontainers/perl-dist-checkconflicts:<tag>
+
+   (see `perl-dist-checkconflicts/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-dist-checkconflicts| conda:required_by:: perl-dist-checkconflicts
 .. |downloads_perl-dist-checkconflicts| image:: https://img.shields.io/conda/dn/bioconda/perl-dist-checkconflicts.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-dist-checkconflicts| image:: https://quay.io/repository/biocontainers/perl-dist-checkconflicts/status
    :target: https://quay.io/repository/biocontainers/perl-dist-checkconflicts
+.. _`perl-dist-checkconflicts/tags`: https://quay.io/repository/biocontainers/perl-dist-checkconflicts?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-dist-checkconflicts/README.html
-

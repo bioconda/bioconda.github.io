@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cluster-picker'
 .. highlight: bash
-
 
 cluster-picker
 ==============
@@ -21,11 +22,11 @@ cluster-picker
 
    |downloads_cluster-picker| |docker_cluster-picker|
 
-   :versions: 1.2.3
-
-   :depends: :conda:package:`java-jdk`  
-
-   :required~by: |required_by_cluster-picker|
+   :versions: 1.2.3-1, 1.2.3-0
+   
+   :depends java-jdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ cluster-picker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cluster-picker
+      docker pull quay.io/repository/biocontainers/cluster-picker:<tag>
+
+   (see `cluster-picker/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cluster-picker| conda:required_by:: cluster-picker
 .. |downloads_cluster-picker| image:: https://img.shields.io/conda/dn/bioconda/cluster-picker.svg?style=flat
    :alt:   (downloads)
 .. |docker_cluster-picker| image:: https://quay.io/repository/biocontainers/cluster-picker/status
    :target: https://quay.io/repository/biocontainers/cluster-picker
+.. _`cluster-picker/tags`: https://quay.io/repository/biocontainers/cluster-picker?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cluster-picker/README.html
-

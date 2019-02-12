@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rtcga.clinical'
 .. highlight: bash
-
 
 bioconductor-rtcga.clinical
 ===========================
@@ -21,11 +22,15 @@ bioconductor-rtcga.clinical
 
    |downloads_bioconductor-rtcga.clinical| |docker_bioconductor-rtcga.clinical|
 
-   :versions: 20151101.12.0
-
-   :depends: :conda:package:`bioconductor-rtcga` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-rtcga.clinical|
+   :versions: 20151101.12.0-0
+   
+   :depends bioconductor-rtcga: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-rtcga.clinical
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.clinical
+      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.clinical:<tag>
+
+   (see `bioconductor-rtcga.clinical/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rtcga.clinical| conda:required_by:: bioconductor-rtcga.clinical
 .. |downloads_bioconductor-rtcga.clinical| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcga.clinical.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rtcga.clinical| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.clinical/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.clinical
+.. _`bioconductor-rtcga.clinical/tags`: https://quay.io/repository/biocontainers/bioconductor-rtcga.clinical?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rtcga.clinical/README.html
-

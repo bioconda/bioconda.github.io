@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mirmine'
 .. highlight: bash
-
 
 bioconductor-mirmine
 ====================
@@ -21,11 +22,13 @@ bioconductor-mirmine
 
    |downloads_bioconductor-mirmine| |docker_bioconductor-mirmine|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-mirmine|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-mirmine
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirmine
+      docker pull quay.io/repository/biocontainers/bioconductor-mirmine:<tag>
+
+   (see `bioconductor-mirmine/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mirmine| conda:required_by:: bioconductor-mirmine
 .. |downloads_bioconductor-mirmine| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirmine.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mirmine| image:: https://quay.io/repository/biocontainers/bioconductor-mirmine/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirmine
+.. _`bioconductor-mirmine/tags`: https://quay.io/repository/biocontainers/bioconductor-mirmine?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mirmine/README.html
-

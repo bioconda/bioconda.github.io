@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cromwell'
 .. highlight: bash
-
 
 cromwell
 ========
@@ -22,11 +23,15 @@ cromwell
 
    |downloads_cromwell| |docker_cromwell|
 
-   :versions: 0.37, 0.37a, 0.36, 0.35, 0.34, 0.32, 0.32a, 0.30, 0.29, 0.26, 0.25, 0.24, 0.23, 0.22, 0.21, 0.19.4
-
-   :depends: :conda:package:`findutils`  :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
-
-   :required~by: |required_by_cromwell|
+   :versions: 0.37-0, 0.37a-0, 0.36-0, 0.35-0, 0.34-1, 0.34-0, 0.32-3, 0.32-1, 0.32a-1, 0.32a-0, 0.30-0, 0.29-0, 0.26-0, 0.25-0, 0.24-0, 0.23-0, 0.22-0, 0.21-0, 0.19.4-0
+   
+   :depends findutils: 
+   
+   :depends openjdk: >=8,<9
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ cromwell
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cromwell
+      docker pull quay.io/repository/biocontainers/cromwell:<tag>
+
+   (see `cromwell/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cromwell| conda:required_by:: cromwell
 .. |downloads_cromwell| image:: https://img.shields.io/conda/dn/bioconda/cromwell.svg?style=flat
    :alt:   (downloads)
 .. |docker_cromwell| image:: https://quay.io/repository/biocontainers/cromwell/status
    :target: https://quay.io/repository/biocontainers/cromwell
+.. _`cromwell/tags`: https://quay.io/repository/biocontainers/cromwell?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cromwell/README.html
-

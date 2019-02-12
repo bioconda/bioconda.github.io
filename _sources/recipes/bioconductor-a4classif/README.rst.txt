@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-a4classif'
 .. highlight: bash
-
 
 bioconductor-a4classif
 ======================
@@ -21,11 +22,25 @@ bioconductor-a4classif
 
    |downloads_bioconductor-a4classif| |docker_bioconductor-a4classif|
 
-   :versions: 1.30.0
-
-   :depends: :conda:package:`bioconductor-a4core` >=1.30.0,<1.31.0 :conda:package:`bioconductor-a4preproc` >=1.30.0,<1.31.0 :conda:package:`bioconductor-mlinterfaces` >=1.62.0,<1.63.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-glmnet`  :conda:package:`r-pamr`  :conda:package:`r-rocr`  :conda:package:`r-varselrf`  
-
-   :required~by: |required_by_bioconductor-a4classif|
+   :versions: 1.30.0-0
+   
+   :depends bioconductor-a4core: >=1.30.0,<1.31.0
+   
+   :depends bioconductor-a4preproc: >=1.30.0,<1.31.0
+   
+   :depends bioconductor-mlinterfaces: >=1.62.0,<1.63.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-glmnet: 
+   
+   :depends r-pamr: 
+   
+   :depends r-rocr: 
+   
+   :depends r-varselrf: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bioconductor-a4classif
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-a4classif
+      docker pull quay.io/repository/biocontainers/bioconductor-a4classif:<tag>
+
+   (see `bioconductor-a4classif/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-a4classif| conda:required_by:: bioconductor-a4classif
 .. |downloads_bioconductor-a4classif| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-a4classif.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-a4classif| image:: https://quay.io/repository/biocontainers/bioconductor-a4classif/status
    :target: https://quay.io/repository/biocontainers/bioconductor-a4classif
+.. _`bioconductor-a4classif/tags`: https://quay.io/repository/biocontainers/bioconductor-a4classif?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-a4classif/README.html
-

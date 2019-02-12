@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-drawproteins'
 .. highlight: bash
-
 
 bioconductor-drawproteins
 =========================
@@ -21,11 +22,21 @@ bioconductor-drawproteins
 
    |downloads_bioconductor-drawproteins| |docker_bioconductor-drawproteins|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-httr`  :conda:package:`r-readr`  :conda:package:`r-stringr`  
-
-   :required~by: |required_by_bioconductor-drawproteins|
+   :versions: 1.2.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-httr: 
+   
+   :depends r-readr: 
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-drawproteins
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-drawproteins
+      docker pull quay.io/repository/biocontainers/bioconductor-drawproteins:<tag>
+
+   (see `bioconductor-drawproteins/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-drawproteins| conda:required_by:: bioconductor-drawproteins
 .. |downloads_bioconductor-drawproteins| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-drawproteins.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-drawproteins| image:: https://quay.io/repository/biocontainers/bioconductor-drawproteins/status
    :target: https://quay.io/repository/biocontainers/bioconductor-drawproteins
+.. _`bioconductor-drawproteins/tags`: https://quay.io/repository/biocontainers/bioconductor-drawproteins?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-drawproteins/README.html
-

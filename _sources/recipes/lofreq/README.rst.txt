@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lofreq'
 .. highlight: bash
-
 
 lofreq
 ======
@@ -21,11 +22,11 @@ lofreq
 
    |downloads_lofreq| |docker_lofreq|
 
-   :versions: 2.1.3.1, 2.1.2
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_lofreq|
+   :versions: 2.1.3.1-0, 2.1.2-0
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ lofreq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lofreq
+      docker pull quay.io/repository/biocontainers/lofreq:<tag>
+
+   (see `lofreq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lofreq| conda:required_by:: lofreq
 .. |downloads_lofreq| image:: https://img.shields.io/conda/dn/bioconda/lofreq.svg?style=flat
    :alt:   (downloads)
 .. |docker_lofreq| image:: https://quay.io/repository/biocontainers/lofreq/status
    :target: https://quay.io/repository/biocontainers/lofreq
+.. _`lofreq/tags`: https://quay.io/repository/biocontainers/lofreq?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lofreq/README.html
-

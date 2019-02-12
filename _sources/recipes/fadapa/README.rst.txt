@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fadapa'
 .. highlight: bash
-
 
 fadapa
 ======
@@ -21,11 +22,11 @@ fadapa
 
    |downloads_fadapa| |docker_fadapa|
 
-   :versions: 0.3.1
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_fadapa|
+   :versions: 0.3.1-1, 0.3.1-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ fadapa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fadapa
+      docker pull quay.io/repository/biocontainers/fadapa:<tag>
+
+   (see `fadapa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fadapa| conda:required_by:: fadapa
 .. |downloads_fadapa| image:: https://img.shields.io/conda/dn/bioconda/fadapa.svg?style=flat
    :alt:   (downloads)
 .. |docker_fadapa| image:: https://quay.io/repository/biocontainers/fadapa/status
    :target: https://quay.io/repository/biocontainers/fadapa
+.. _`fadapa/tags`: https://quay.io/repository/biocontainers/fadapa?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fadapa/README.html
-

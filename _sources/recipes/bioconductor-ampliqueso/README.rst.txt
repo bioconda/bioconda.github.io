@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ampliqueso'
 .. highlight: bash
-
 
 bioconductor-ampliqueso
 =======================
@@ -22,10 +23,8 @@ bioconductor-ampliqueso
    |downloads_bioconductor-ampliqueso| |docker_bioconductor-ampliqueso|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-ampliqueso|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-ampliqueso
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ampliqueso
+      docker pull quay.io/repository/biocontainers/bioconductor-ampliqueso:<tag>
+
+   (see `bioconductor-ampliqueso/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ampliqueso| conda:required_by:: bioconductor-ampliqueso
 .. |downloads_bioconductor-ampliqueso| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ampliqueso.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ampliqueso| image:: https://quay.io/repository/biocontainers/bioconductor-ampliqueso/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ampliqueso
+.. _`bioconductor-ampliqueso/tags`: https://quay.io/repository/biocontainers/bioconductor-ampliqueso?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ampliqueso/README.html
-

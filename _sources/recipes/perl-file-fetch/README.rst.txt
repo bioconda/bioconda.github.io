@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-fetch'
 .. highlight: bash
-
 
 perl-file-fetch
 ===============
@@ -21,11 +22,21 @@ perl-file-fetch
 
    |downloads_perl-file-fetch| |docker_perl-file-fetch|
 
-   :versions: 0.56, 0.48
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-file-path`  :conda:package:`perl-ipc-cmd`  :conda:package:`perl-locale-maketext-simple`  :conda:package:`perl-module-load-conditional`  :conda:package:`perl-params-check`  
-
-   :required~by: |required_by_perl-file-fetch|
+   :versions: 0.56-0, 0.48-4, 0.48-3, 0.48-2, 0.48-1, 0.48-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-file-path: 
+   
+   :depends perl-ipc-cmd: 
+   
+   :depends perl-locale-maketext-simple: 
+   
+   :depends perl-module-load-conditional: 
+   
+   :depends perl-params-check: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-file-fetch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-fetch
+      docker pull quay.io/repository/biocontainers/perl-file-fetch:<tag>
+
+   (see `perl-file-fetch/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-fetch| conda:required_by:: perl-file-fetch
 .. |downloads_perl-file-fetch| image:: https://img.shields.io/conda/dn/bioconda/perl-file-fetch.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-fetch| image:: https://quay.io/repository/biocontainers/perl-file-fetch/status
    :target: https://quay.io/repository/biocontainers/perl-file-fetch
+.. _`perl-file-fetch/tags`: https://quay.io/repository/biocontainers/perl-file-fetch?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-fetch/README.html
-

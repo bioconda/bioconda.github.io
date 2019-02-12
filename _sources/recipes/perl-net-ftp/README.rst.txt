@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-net-ftp'
 .. highlight: bash
-
 
 perl-net-ftp
 ============
@@ -21,11 +22,11 @@ perl-net-ftp
 
    |downloads_perl-net-ftp| |docker_perl-net-ftp|
 
-   :versions: 2.79
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-net-ftp|
+   :versions: 2.79-1, 2.79-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-net-ftp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-net-ftp
+      docker pull quay.io/repository/biocontainers/perl-net-ftp:<tag>
+
+   (see `perl-net-ftp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-net-ftp| conda:required_by:: perl-net-ftp
 .. |downloads_perl-net-ftp| image:: https://img.shields.io/conda/dn/bioconda/perl-net-ftp.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-net-ftp| image:: https://quay.io/repository/biocontainers/perl-net-ftp/status
    :target: https://quay.io/repository/biocontainers/perl-net-ftp
+.. _`perl-net-ftp/tags`: https://quay.io/repository/biocontainers/perl-net-ftp?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-net-ftp/README.html
-

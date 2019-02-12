@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-namespace-clean'
 .. highlight: bash
-
 
 perl-namespace-clean
 ====================
@@ -21,11 +22,17 @@ perl-namespace-clean
 
    |downloads_perl-namespace-clean| |docker_perl-namespace-clean|
 
-   :versions: 0.27
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-b-hooks-endofscope`  :conda:package:`perl-package-stash`  
-
-   :required~by: |required_by_perl-namespace-clean|
+   :versions: 0.27-2, 0.27-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-b-hooks-endofscope: 
+   
+   :depends perl-package-stash: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-namespace-clean
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-namespace-clean
+      docker pull quay.io/repository/biocontainers/perl-namespace-clean:<tag>
+
+   (see `perl-namespace-clean/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-namespace-clean| conda:required_by:: perl-namespace-clean
 .. |downloads_perl-namespace-clean| image:: https://img.shields.io/conda/dn/bioconda/perl-namespace-clean.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-namespace-clean| image:: https://quay.io/repository/biocontainers/perl-namespace-clean/status
    :target: https://quay.io/repository/biocontainers/perl-namespace-clean
+.. _`perl-namespace-clean/tags`: https://quay.io/repository/biocontainers/perl-namespace-clean?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-namespace-clean/README.html
-

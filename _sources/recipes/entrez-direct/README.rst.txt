@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'entrez-direct'
 .. highlight: bash
-
 
 entrez-direct
 =============
@@ -21,11 +22,41 @@ entrez-direct
 
    |downloads_entrez-direct| |docker_entrez-direct|
 
-   :versions: 10.2, 10.0, 7.70, 7.00, 5.80, 4.00
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-html-parser`  :conda:package:`perl-html-tagset`  :conda:package:`perl-html-tree`  :conda:package:`perl-http-cookies`  :conda:package:`perl-http-date`  :conda:package:`perl-http-message`  :conda:package:`perl-http-negotiate`  :conda:package:`perl-io-socket-ssl`  :conda:package:`perl-lwp-mediatypes`  :conda:package:`perl-lwp-protocol-https`  :conda:package:`perl-mozilla-ca`  :conda:package:`perl-net-http`  :conda:package:`perl-uri`  :conda:package:`perl-www-robotrules`  :conda:package:`perl-xml-simple`  
-
-   :required~by: |required_by_entrez-direct|
+   :versions: 10.2-0, 10.0-0, 7.70-2, 7.70-1, 7.70-0, 7.00-1, 7.00-0, 5.80-0, 4.00-1, 4.00-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-html-parser: 
+   
+   :depends perl-html-tagset: 
+   
+   :depends perl-html-tree: 
+   
+   :depends perl-http-cookies: 
+   
+   :depends perl-http-date: 
+   
+   :depends perl-http-message: 
+   
+   :depends perl-http-negotiate: 
+   
+   :depends perl-io-socket-ssl: 
+   
+   :depends perl-lwp-mediatypes: 
+   
+   :depends perl-lwp-protocol-https: 
+   
+   :depends perl-mozilla-ca: 
+   
+   :depends perl-net-http: 
+   
+   :depends perl-uri: 
+   
+   :depends perl-www-robotrules: 
+   
+   :depends perl-xml-simple: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ entrez-direct
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/entrez-direct
+      docker pull quay.io/repository/biocontainers/entrez-direct:<tag>
+
+   (see `entrez-direct/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_entrez-direct| conda:required_by:: entrez-direct
 .. |downloads_entrez-direct| image:: https://img.shields.io/conda/dn/bioconda/entrez-direct.svg?style=flat
    :alt:   (downloads)
 .. |docker_entrez-direct| image:: https://quay.io/repository/biocontainers/entrez-direct/status
    :target: https://quay.io/repository/biocontainers/entrez-direct
+.. _`entrez-direct/tags`: https://quay.io/repository/biocontainers/entrez-direct?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/entrez-direct/README.html
-

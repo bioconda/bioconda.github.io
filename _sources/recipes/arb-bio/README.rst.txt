@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'arb-bio'
 .. highlight: bash
-
 
 arb-bio
 =======
@@ -21,11 +22,65 @@ arb-bio
 
    |downloads_arb-bio| |docker_arb-bio|
 
-   :versions: 6.0.6
-
-   :depends: :conda:package:`fasttree`  :conda:package:`fig2dev`  :conda:package:`gettext` !=0.19.8 :conda:package:`glib` 2.51.* :conda:package:`gnuplot`  :conda:package:`libgcc`  :conda:package:`mafft`  :conda:package:`mrbayes`  :conda:package:`muscle`  :conda:package:`openmotif`  :conda:package:`perl` !=5.22.0.1-0,!=5.22.2.1-0 :conda:package:`phylip`  :conda:package:`phyml` 3.2.0 :conda:package:`raxml`  :conda:package:`sed` >=4.4 :conda:package:`xfig`  :conda:package:`xorg-libxaw`  :conda:package:`xorg-libxi`  :conda:package:`xorg-libxmu`  :conda:package:`xorg-libxp`  :conda:package:`xorg-libxpm`  
-
-   :required~by: |required_by_arb-bio|
+   :versions: 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3, 6.0.6-1, 6.0.6-0
+   
+   :depends arb-bio-tools: 6.0.6 h5901010_6
+   
+   :depends fasttree: 
+   
+   :depends fig2dev: 
+   
+   :depends gettext: >=0.19.8.1,<1.0a0
+   
+   :depends glib: >=2.56.2,<2.57.0a0
+   
+   :depends gnuplot: 
+   
+   :depends libpng: >=1.6.34,<1.7.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends libtiff: >=4.0.9,<5.0a0
+   
+   :depends libxslt: >=1.1.32,<2.0a0
+   
+   :depends mafft: 
+   
+   :depends mrbayes: 
+   
+   :depends muscle: 
+   
+   :depends openmotif: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends phylip: 
+   
+   :depends phyml: 3.2.0.*
+   
+   :depends raxml: 
+   
+   :depends sed: >=4.4
+   
+   :depends xerces-c: >=3.2.0,<3.2.1.0a0
+   
+   :depends xfig: 
+   
+   :depends xorg-libxaw: 
+   
+   :depends xorg-libxft: 
+   
+   :depends xorg-libxi: 
+   
+   :depends xorg-libxmu: 
+   
+   :depends xorg-libxp: 
+   
+   :depends xorg-libxpm: 
+   
+   :depends xorg-libxt: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +94,16 @@ arb-bio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/arb-bio
+      docker pull quay.io/repository/biocontainers/arb-bio:<tag>
+
+   (see `arb-bio/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_arb-bio| conda:required_by:: arb-bio
 .. |downloads_arb-bio| image:: https://img.shields.io/conda/dn/bioconda/arb-bio.svg?style=flat
    :alt:   (downloads)
 .. |docker_arb-bio| image:: https://quay.io/repository/biocontainers/arb-bio/status
    :target: https://quay.io/repository/biocontainers/arb-bio
+.. _`arb-bio/tags`: https://quay.io/repository/biocontainers/arb-bio?tab=tags
 
 
 
@@ -54,11 +111,15 @@ arb-bio
 
    |downloads_arb-bio-devel| |docker_arb-bio-devel|
 
-   :versions: 6.0.6
-
-   :depends: :conda:package:`arb-bio` 6.0.6 hdec243e_3 
-
-   :required~by: |required_by_arb-bio-devel|
+   :versions: 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3
+   
+   :depends arb-bio: 6.0.6 pl526he378515_6
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends openmotif-dev: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -72,14 +133,16 @@ arb-bio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/arb-bio-devel
+      docker pull quay.io/repository/biocontainers/arb-bio-devel:<tag>
+
+   (see `arb-bio-devel/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_arb-bio-devel| conda:required_by:: arb-bio-devel
 .. |downloads_arb-bio-devel| image:: https://img.shields.io/conda/dn/bioconda/arb-bio-devel.svg?style=flat
    :alt:   (downloads)
 .. |docker_arb-bio-devel| image:: https://quay.io/repository/biocontainers/arb-bio/status
    :target: https://quay.io/repository/biocontainers/arb-bio
+.. _`arb-bio-devel/tags`: https://quay.io/repository/biocontainers/arb-bio-devel?tab=tags
 
 
 
@@ -87,11 +150,15 @@ arb-bio
 
    |downloads_arb-bio-tools| |docker_arb-bio-tools|
 
-   :versions: 6.0.6
-
-   :depends: :conda:package:`libarbdb` 6.0.6 3 
-
-   :required~by: |required_by_arb-bio-tools|
+   :versions: 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3
+   
+   :depends glib: >=2.56.2,<2.57.0a0
+   
+   :depends libarbdb: 6.0.6 h5901010_6
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -105,14 +172,16 @@ arb-bio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/arb-bio-tools
+      docker pull quay.io/repository/biocontainers/arb-bio-tools:<tag>
+
+   (see `arb-bio-tools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_arb-bio-tools| conda:required_by:: arb-bio-tools
 .. |downloads_arb-bio-tools| image:: https://img.shields.io/conda/dn/bioconda/arb-bio-tools.svg?style=flat
    :alt:   (downloads)
 .. |docker_arb-bio-tools| image:: https://quay.io/repository/biocontainers/arb-bio/status
    :target: https://quay.io/repository/biocontainers/arb-bio
+.. _`arb-bio-tools/tags`: https://quay.io/repository/biocontainers/arb-bio-tools?tab=tags
 
 
 
@@ -120,11 +189,15 @@ arb-bio
 
    |downloads_libarbdb| |docker_libarbdb|
 
-   :versions: 6.0.6
-
-   :depends: :conda:package:`gettext`  :conda:package:`glib`  
-
-   :required~by: |required_by_libarbdb|
+   :versions: 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3
+   
+   :depends gettext: 
+   
+   :depends glib: >=2.56.2,<2.57.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -138,14 +211,16 @@ arb-bio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libarbdb
+      docker pull quay.io/repository/biocontainers/libarbdb:<tag>
+
+   (see `libarbdb/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_libarbdb| conda:required_by:: libarbdb
 .. |downloads_libarbdb| image:: https://img.shields.io/conda/dn/bioconda/libarbdb.svg?style=flat
    :alt:   (downloads)
 .. |docker_libarbdb| image:: https://quay.io/repository/biocontainers/arb-bio/status
    :target: https://quay.io/repository/biocontainers/arb-bio
+.. _`libarbdb/tags`: https://quay.io/repository/biocontainers/libarbdb?tab=tags
 
 
 
@@ -162,4 +237,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/arb-bio/README.html
-

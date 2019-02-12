@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kinsimriboswitch'
 .. highlight: bash
-
 
 kinsimriboswitch
 ================
@@ -23,11 +24,55 @@ kinsimriboswitch
 
    |downloads_kinsimriboswitch| |docker_kinsimriboswitch|
 
-   :versions: 0.3
-
-   :depends: :conda:package:`coreutils`  :conda:package:`gmp` >=6.1.2,<7.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-clone`  :conda:package:`perl-devel-assert`  :conda:package:`perl-file-slurp`  :conda:package:`perl-heap`  :conda:package:`perl-inline`  :conda:package:`perl-inline-c`  :conda:package:`perl-ipc-system-simple`  :conda:package:`perl-list-moreutils`  :conda:package:`perl-math-random-mt-auto`  :conda:package:`perl-math-round`  :conda:package:`perl-parallel-loops`  :conda:package:`perl-parse-recdescent`  :conda:package:`perl-sys-info`  :conda:package:`r`  :conda:package:`r-argparser`  :conda:package:`r-rcolorbrewer`  :conda:package:`treekin`  :conda:package:`viennarna`  
-
-   :required~by: |required_by_kinsimriboswitch|
+   :versions: 0.3-0
+   
+   :depends coreutils: 
+   
+   :depends gmp: >=6.1.2,<7.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-clone: 
+   
+   :depends perl-devel-assert: 
+   
+   :depends perl-file-slurp: 
+   
+   :depends perl-heap: 
+   
+   :depends perl-inline: 
+   
+   :depends perl-inline-c: 
+   
+   :depends perl-ipc-system-simple: 
+   
+   :depends perl-list-moreutils: 
+   
+   :depends perl-math-random-mt-auto: 
+   
+   :depends perl-math-round: 
+   
+   :depends perl-parallel-loops: 
+   
+   :depends perl-parse-recdescent: 
+   
+   :depends perl-sys-info: 
+   
+   :depends r: 
+   
+   :depends r-argparser: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends treekin: 
+   
+   :depends viennarna: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +86,16 @@ kinsimriboswitch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kinsimriboswitch
+      docker pull quay.io/repository/biocontainers/kinsimriboswitch:<tag>
+
+   (see `kinsimriboswitch/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kinsimriboswitch| conda:required_by:: kinsimriboswitch
 .. |downloads_kinsimriboswitch| image:: https://img.shields.io/conda/dn/bioconda/kinsimriboswitch.svg?style=flat
    :alt:   (downloads)
 .. |docker_kinsimriboswitch| image:: https://quay.io/repository/biocontainers/kinsimriboswitch/status
    :target: https://quay.io/repository/biocontainers/kinsimriboswitch
+.. _`kinsimriboswitch/tags`: https://quay.io/repository/biocontainers/kinsimriboswitch?tab=tags
 
 
 
@@ -65,4 +112,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kinsimriboswitch/README.html
-

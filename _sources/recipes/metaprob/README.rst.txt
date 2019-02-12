@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metaprob'
 .. highlight: bash
-
 
 metaprob
 ========
@@ -31,11 +32,15 @@ metaprob
 
    |downloads_metaprob| |docker_metaprob|
 
-   :versions: 2
-
-   :depends: :conda:package:`boost` 1.60* :conda:package:`eigen`  :conda:package:`libgcc`  
-
-   :required~by: |required_by_metaprob|
+   :versions: 2-1, 2-0
+   
+   :depends boost: 1.61*
+   
+   :depends eigen: 
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -49,14 +54,16 @@ metaprob
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metaprob
+      docker pull quay.io/repository/biocontainers/metaprob:<tag>
+
+   (see `metaprob/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metaprob| conda:required_by:: metaprob
 .. |downloads_metaprob| image:: https://img.shields.io/conda/dn/bioconda/metaprob.svg?style=flat
    :alt:   (downloads)
 .. |docker_metaprob| image:: https://quay.io/repository/biocontainers/metaprob/status
    :target: https://quay.io/repository/biocontainers/metaprob
+.. _`metaprob/tags`: https://quay.io/repository/biocontainers/metaprob?tab=tags
 
 
 
@@ -73,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metaprob/README.html
-

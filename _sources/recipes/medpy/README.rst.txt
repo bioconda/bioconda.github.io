@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'medpy'
 .. highlight: bash
-
 
 medpy
 =====
@@ -21,11 +22,21 @@ medpy
 
    |downloads_medpy| |docker_medpy|
 
-   :versions: 0.3.0
-
-   :depends: :conda:package:`itk`  :conda:package:`nibabel` >=1.3.0 :conda:package:`numpy` >=1.6.1 :conda:package:`pydicom` >=0.9.7 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy` >=0.9.0 
-
-   :required~by: |required_by_medpy|
+   :versions: 0.3.0-0
+   
+   :depends itk: 
+   
+   :depends nibabel: >=1.3.0
+   
+   :depends numpy: >=1.6.1
+   
+   :depends pydicom: >=0.9.7
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: >=0.9.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ medpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/medpy
+      docker pull quay.io/repository/biocontainers/medpy:<tag>
+
+   (see `medpy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_medpy| conda:required_by:: medpy
 .. |downloads_medpy| image:: https://img.shields.io/conda/dn/bioconda/medpy.svg?style=flat
    :alt:   (downloads)
 .. |docker_medpy| image:: https://quay.io/repository/biocontainers/medpy/status
    :target: https://quay.io/repository/biocontainers/medpy
+.. _`medpy/tags`: https://quay.io/repository/biocontainers/medpy?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/medpy/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'age-metasv'
 .. highlight: bash
-
 
 age-metasv
 ==========
@@ -21,11 +22,11 @@ age-metasv
 
    |downloads_age-metasv| |docker_age-metasv|
 
-   :versions: 2015.01.29.3
-
-   :depends: 
-
-   :required~by: |required_by_age-metasv|
+   :versions: 2015.01.29.3-2, 2015.01.29.3-1, 2015.01.29.3-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ age-metasv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/age-metasv
+      docker pull quay.io/repository/biocontainers/age-metasv:<tag>
+
+   (see `age-metasv/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_age-metasv| conda:required_by:: age-metasv
 .. |downloads_age-metasv| image:: https://img.shields.io/conda/dn/bioconda/age-metasv.svg?style=flat
    :alt:   (downloads)
 .. |docker_age-metasv| image:: https://quay.io/repository/biocontainers/age-metasv/status
    :target: https://quay.io/repository/biocontainers/age-metasv
+.. _`age-metasv/tags`: https://quay.io/repository/biocontainers/age-metasv?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/age-metasv/README.html
-

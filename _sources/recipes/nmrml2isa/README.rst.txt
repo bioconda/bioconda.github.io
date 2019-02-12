@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nmrml2isa'
 .. highlight: bash
-
 
 nmrml2isa
 =========
@@ -21,11 +22,19 @@ nmrml2isa
 
    |downloads_nmrml2isa| |docker_nmrml2isa|
 
-   :versions: 0.3.0
-
-   :depends: :conda:package:`chainmap`  :conda:package:`lxml`  :conda:package:`pronto`  :conda:package:`python` 2.7* :conda:package:`six`  
-
-   :required~by: |required_by_nmrml2isa|
+   :versions: 0.3.0-1, 0.3.0-0
+   
+   :depends chainmap: 
+   
+   :depends lxml: 
+   
+   :depends pronto: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ nmrml2isa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nmrml2isa
+      docker pull quay.io/repository/biocontainers/nmrml2isa:<tag>
+
+   (see `nmrml2isa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nmrml2isa| conda:required_by:: nmrml2isa
 .. |downloads_nmrml2isa| image:: https://img.shields.io/conda/dn/bioconda/nmrml2isa.svg?style=flat
    :alt:   (downloads)
 .. |docker_nmrml2isa| image:: https://quay.io/repository/biocontainers/nmrml2isa/status
    :target: https://quay.io/repository/biocontainers/nmrml2isa
+.. _`nmrml2isa/tags`: https://quay.io/repository/biocontainers/nmrml2isa?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nmrml2isa/README.html
-

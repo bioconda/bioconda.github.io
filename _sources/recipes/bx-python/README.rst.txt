@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bx-python'
 .. highlight: bash
-
 
 bx-python
 =========
@@ -21,11 +22,21 @@ bx-python
 
    |downloads_bx-python| |docker_bx-python|
 
-   :versions: 0.8.2, 0.8.1, 0.7.4, 0.7.3, 0.7.2, 0.7.1
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`python-lzo`  :conda:package:`six`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_bx-python|
+   :versions: 0.8.2-0, 0.8.1-1, 0.8.1-0, 0.7.4-0, 0.7.3-1, 0.7.3-0, 0.7.2-1, 0.7.2-0, 0.7.1-1, 0.7.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends python-lzo: 
+   
+   :depends six: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bx-python
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bx-python
+      docker pull quay.io/repository/biocontainers/bx-python:<tag>
+
+   (see `bx-python/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bx-python| conda:required_by:: bx-python
 .. |downloads_bx-python| image:: https://img.shields.io/conda/dn/bioconda/bx-python.svg?style=flat
    :alt:   (downloads)
 .. |docker_bx-python| image:: https://quay.io/repository/biocontainers/bx-python/status
    :target: https://quay.io/repository/biocontainers/bx-python
+.. _`bx-python/tags`: https://quay.io/repository/biocontainers/bx-python?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bx-python/README.html
-

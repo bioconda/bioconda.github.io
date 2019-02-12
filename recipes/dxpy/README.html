@@ -133,11 +133,28 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">0.273.0, 0.261.1, 0.257.3, 0.254.0, 0.250.2, 0.247.0, 0.225.0, 0.223.0</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">0.273.0-0, 0.261.1-0, 0.257.3-0, 0.254.0-1, 0.254.0-0, 0.250.2-0, 0.247.0-0, 0.225.0-0, 0.223.0-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference external" href="https://github.com/conda-forge/argcomplete-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">argcomplete</span></code></a> &gt;=1.9.4 <a class="reference external" href="https://github.com/conda-forge/beautifulsoup4-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">beautifulsoup4</span></code></a> &gt;=4.4.1 <a class="reference external" href="https://github.com/conda-forge/cryptography-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">cryptography</span></code></a> &lt;=2.2.2 <a class="reference external" href="https://github.com/conda-forge/futures-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">futures</span></code></a> &gt;=3.0.4 <a class="reference external" href="https://github.com/conda-forge/psutil-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">psutil</span></code></a> &gt;=3.3.0 <a class="reference external" href="https://github.com/conda-forge/python-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">python</span></code></a> &gt;=2.7,&lt;2.8.0a0 <a class="reference external" href="https://github.com/conda-forge/python-dateutil-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">python-dateutil</span></code></a> &gt;=2.5 <a class="reference external" href="https://github.com/conda-forge/python-magic-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">python-magic</span></code></a> &gt;=0.4.6 <a class="reference external" href="https://github.com/conda-forge/requests-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">requests</span></code></a> &gt;=2.8.0 <a class="reference external" href="https://github.com/conda-forge/websocket-client-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">websocket-client</span></code></a> &gt;=0.53.0</td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/argcomplete-feedstock"><strong>argcomplete</strong></a> &gt;=1.9.4</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/beautifulsoup4-feedstock"><strong>beautifulsoup4</strong></a> &gt;=4.4.1</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/cryptography-feedstock"><strong>cryptography</strong></a> &lt;=2.2.2</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/futures-feedstock"><strong>futures</strong></a> &gt;=3.0.4</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/psutil-feedstock"><strong>psutil</strong></a> &gt;=3.3.0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-dateutil-feedstock"><strong>python-dateutil</strong></a> &gt;=2.5</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-magic-feedstock"><strong>python-magic</strong></a> &gt;=0.4.6</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/requests-feedstock"><strong>requests</strong></a> &gt;=2.8.0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/websocket-client-feedstock"><strong>websocket-client</strong></a> &gt;=0.53.0</li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+<li><a class="conda-package reference internal" href="../dx-cwl/README.html#dx-cwl"><strong class="xref backref">dx-cwl</strong></a></li>
+<li><a class="conda-package reference internal" href="../bcbio-nextgen-vm/README.html#bcbio-nextgen-vm"><strong class="xref backref">bcbio-nextgen-vm</strong></a></li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -151,9 +168,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">dxpy</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">dxpy</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/dxpy?tab=tags">dxpy/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

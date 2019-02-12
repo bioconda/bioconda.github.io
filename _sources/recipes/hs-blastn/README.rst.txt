@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hs-blastn'
 .. highlight: bash
-
 
 hs-blastn
 =========
@@ -21,11 +22,13 @@ hs-blastn
 
    |downloads_hs-blastn| |docker_hs-blastn|
 
-   :versions: 0.0.5
-
-   :depends: :conda:package:`blast`  :conda:package:`libgcc`  
-
-   :required~by: |required_by_hs-blastn|
+   :versions: 0.0.5-1, 0.0.5-0
+   
+   :depends blast: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ hs-blastn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hs-blastn
+      docker pull quay.io/repository/biocontainers/hs-blastn:<tag>
+
+   (see `hs-blastn/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hs-blastn| conda:required_by:: hs-blastn
 .. |downloads_hs-blastn| image:: https://img.shields.io/conda/dn/bioconda/hs-blastn.svg?style=flat
    :alt:   (downloads)
 .. |docker_hs-blastn| image:: https://quay.io/repository/biocontainers/hs-blastn/status
    :target: https://quay.io/repository/biocontainers/hs-blastn
+.. _`hs-blastn/tags`: https://quay.io/repository/biocontainers/hs-blastn?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hs-blastn/README.html
-

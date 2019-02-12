@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'jalview'
 .. highlight: bash
-
 
 jalview
 =======
@@ -24,11 +25,15 @@ jalview
 
    |downloads_jalview| |docker_jalview|
 
-   :versions: 2.10.5, 2.10.4, 2.10.4b1, 2.10.3, 2.10.3b1, 2.10.2b2
-
-   :depends: :conda:package:`openjdk` >8.0.121 :conda:package:`psutil`  :conda:package:`xorg-libxtst`  
-
-   :required~by: |required_by_jalview|
+   :versions: 2.10.5-3, 2.10.4-0, 2.10.4b1-2, 2.10.4b1-0, 2.10.3-1, 2.10.3-0, 2.10.3b1-0, 2.10.2b2-2, 2.10.2b2-1, 2.10.2b2-0
+   
+   :depends openjdk: >8.0.121
+   
+   :depends psutil: 
+   
+   :depends xorg-libxtst: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +47,16 @@ jalview
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/jalview
+      docker pull quay.io/repository/biocontainers/jalview:<tag>
+
+   (see `jalview/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_jalview| conda:required_by:: jalview
 .. |downloads_jalview| image:: https://img.shields.io/conda/dn/bioconda/jalview.svg?style=flat
    :alt:   (downloads)
 .. |docker_jalview| image:: https://quay.io/repository/biocontainers/jalview/status
    :target: https://quay.io/repository/biocontainers/jalview
+.. _`jalview/tags`: https://quay.io/repository/biocontainers/jalview?tab=tags
 
 
 
@@ -70,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/jalview/README.html
-

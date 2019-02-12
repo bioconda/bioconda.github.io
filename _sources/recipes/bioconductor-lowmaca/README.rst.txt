@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-lowmaca'
 .. highlight: bash
-
 
 bioconductor-lowmaca
 ====================
@@ -21,11 +22,31 @@ bioconductor-lowmaca
 
    |downloads_bioconductor-lowmaca| |docker_bioconductor-lowmaca|
 
-   :versions: 1.12.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-lowmacaannotation` >=0.99.0,<0.100.0 :conda:package:`bioconductor-motifstack` >=1.26.0,<1.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cgdsr`  :conda:package:`r-data.table`  :conda:package:`r-httr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-stringr`  
-
-   :required~by: |required_by_bioconductor-lowmaca|
+   :versions: 1.12.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-lowmacaannotation: >=0.99.0,<0.100.0
+   
+   :depends bioconductor-motifstack: >=1.26.0,<1.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cgdsr: 
+   
+   :depends r-data.table: 
+   
+   :depends r-httr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ bioconductor-lowmaca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lowmaca
+      docker pull quay.io/repository/biocontainers/bioconductor-lowmaca:<tag>
+
+   (see `bioconductor-lowmaca/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-lowmaca| conda:required_by:: bioconductor-lowmaca
 .. |downloads_bioconductor-lowmaca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lowmaca.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-lowmaca| image:: https://quay.io/repository/biocontainers/bioconductor-lowmaca/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lowmaca
+.. _`bioconductor-lowmaca/tags`: https://quay.io/repository/biocontainers/bioconductor-lowmaca?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-lowmaca/README.html
-

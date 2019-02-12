@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ctat-mutations'
 .. highlight: bash
-
 
 ctat-mutations
 ==============
@@ -21,11 +22,27 @@ ctat-mutations
 
    |downloads_ctat-mutations| |docker_ctat-mutations|
 
-   :versions: 2.0.1, 2.0.0, 1.0
-
-   :depends: :conda:package:`bcftools`  :conda:package:`gatk4`  :conda:package:`picard` >=2.0.1 :conda:package:`python`  :conda:package:`samtools`  :conda:package:`star`  :conda:package:`tabix`  
-
-   :required~by: |required_by_ctat-mutations|
+   :versions: 2.0.1-5, 2.0.1-4, 2.0.1-3, 2.0.1-2, 2.0.1-1, 2.0.1-0, 2.0.0-4, 2.0.0-3, 2.0.0-0, 1.0-0
+   
+   :depends bcftools: 
+   
+   :depends gatk4: 
+   
+   :depends openjdk: >=8
+   
+   :depends picard: 2.18.14.*
+   
+   :depends python: 2.7.*
+   
+   :depends requests: 2.18.4.*
+   
+   :depends samtools: 
+   
+   :depends star: 
+   
+   :depends tabix: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ ctat-mutations
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ctat-mutations
+      docker pull quay.io/repository/biocontainers/ctat-mutations:<tag>
+
+   (see `ctat-mutations/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ctat-mutations| conda:required_by:: ctat-mutations
 .. |downloads_ctat-mutations| image:: https://img.shields.io/conda/dn/bioconda/ctat-mutations.svg?style=flat
    :alt:   (downloads)
 .. |docker_ctat-mutations| image:: https://quay.io/repository/biocontainers/ctat-mutations/status
    :target: https://quay.io/repository/biocontainers/ctat-mutations
+.. _`ctat-mutations/tags`: https://quay.io/repository/biocontainers/ctat-mutations?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ctat-mutations/README.html
-

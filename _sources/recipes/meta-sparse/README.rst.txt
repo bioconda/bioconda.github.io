@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'meta-sparse'
 .. highlight: bash
-
 
 meta-sparse
 ===========
@@ -21,11 +22,29 @@ meta-sparse
 
    |downloads_meta-sparse| |docker_meta-sparse|
 
-   :versions: 0.1.12, 0.1.11, 0.1.2
-
-   :depends: :conda:package:`bowtie2`  :conda:package:`cython`  :conda:package:`mash`  :conda:package:`msgpack-python`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pycapnp`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools`  :conda:package:`scipy`  
-
-   :required~by: |required_by_meta-sparse|
+   :versions: 0.1.12-0, 0.1.11-0, 0.1.2-2, 0.1.2-1, 0.1.2-0
+   
+   :depends bowtie2: 
+   
+   :depends cython: 
+   
+   :depends mash: 
+   
+   :depends msgpack-python: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends pycapnp: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ meta-sparse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/meta-sparse
+      docker pull quay.io/repository/biocontainers/meta-sparse:<tag>
+
+   (see `meta-sparse/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_meta-sparse| conda:required_by:: meta-sparse
 .. |downloads_meta-sparse| image:: https://img.shields.io/conda/dn/bioconda/meta-sparse.svg?style=flat
    :alt:   (downloads)
 .. |docker_meta-sparse| image:: https://quay.io/repository/biocontainers/meta-sparse/status
    :target: https://quay.io/repository/biocontainers/meta-sparse
+.. _`meta-sparse/tags`: https://quay.io/repository/biocontainers/meta-sparse?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/meta-sparse/README.html
-

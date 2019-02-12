@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-gdgraph'
 .. highlight: bash
-
 
 perl-gdgraph
 ============
@@ -21,11 +22,15 @@ perl-gdgraph
 
    |downloads_perl-gdgraph| |docker_perl-gdgraph|
 
-   :versions: 1.54, 1.49
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-gd`  :conda:package:`perl-gdtextutil`  
-
-   :required~by: |required_by_perl-gdgraph|
+   :versions: 1.54-0, 1.49-4, 1.49-3, 1.49-2, 1.49-1, 1.49-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-gd: 
+   
+   :depends perl-gdtextutil: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-gdgraph
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-gdgraph
+      docker pull quay.io/repository/biocontainers/perl-gdgraph:<tag>
+
+   (see `perl-gdgraph/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-gdgraph| conda:required_by:: perl-gdgraph
 .. |downloads_perl-gdgraph| image:: https://img.shields.io/conda/dn/bioconda/perl-gdgraph.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-gdgraph| image:: https://quay.io/repository/biocontainers/perl-gdgraph/status
    :target: https://quay.io/repository/biocontainers/perl-gdgraph
+.. _`perl-gdgraph/tags`: https://quay.io/repository/biocontainers/perl-gdgraph?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-gdgraph/README.html
-

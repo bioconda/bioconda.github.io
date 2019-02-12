@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'readfq'
 .. highlight: bash
-
 
 readfq
 ======
@@ -21,11 +22,13 @@ readfq
 
    |downloads_readfq| |docker_readfq|
 
-   :versions: 2015.08.30
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_readfq|
+   :versions: 2015.08.30-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ readfq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/readfq
+      docker pull quay.io/repository/biocontainers/readfq:<tag>
+
+   (see `readfq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_readfq| conda:required_by:: readfq
 .. |downloads_readfq| image:: https://img.shields.io/conda/dn/bioconda/readfq.svg?style=flat
    :alt:   (downloads)
 .. |docker_readfq| image:: https://quay.io/repository/biocontainers/readfq/status
    :target: https://quay.io/repository/biocontainers/readfq
+.. _`readfq/tags`: https://quay.io/repository/biocontainers/readfq?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/readfq/README.html
-

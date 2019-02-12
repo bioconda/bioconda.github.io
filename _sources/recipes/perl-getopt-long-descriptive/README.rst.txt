@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-getopt-long-descriptive'
 .. highlight: bash
-
 
 perl-getopt-long-descriptive
 ============================
@@ -21,11 +22,19 @@ perl-getopt-long-descriptive
 
    |downloads_perl-getopt-long-descriptive| |docker_perl-getopt-long-descriptive|
 
-   :versions: 0.103
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-getopt-long`  :conda:package:`perl-params-validate`  :conda:package:`perl-sub-exporter`  
-
-   :required~by: |required_by_perl-getopt-long-descriptive|
+   :versions: 0.103-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-params-validate: 
+   
+   :depends perl-sub-exporter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-getopt-long-descriptive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-getopt-long-descriptive
+      docker pull quay.io/repository/biocontainers/perl-getopt-long-descriptive:<tag>
+
+   (see `perl-getopt-long-descriptive/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-getopt-long-descriptive| conda:required_by:: perl-getopt-long-descriptive
 .. |downloads_perl-getopt-long-descriptive| image:: https://img.shields.io/conda/dn/bioconda/perl-getopt-long-descriptive.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-getopt-long-descriptive| image:: https://quay.io/repository/biocontainers/perl-getopt-long-descriptive/status
    :target: https://quay.io/repository/biocontainers/perl-getopt-long-descriptive
+.. _`perl-getopt-long-descriptive/tags`: https://quay.io/repository/biocontainers/perl-getopt-long-descriptive?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-getopt-long-descriptive/README.html
-

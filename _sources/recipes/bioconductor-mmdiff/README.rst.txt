@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mmdiff'
 .. highlight: bash
-
 
 bioconductor-mmdiff
 ===================
@@ -21,11 +22,23 @@ bioconductor-mmdiff
 
    |downloads_bioconductor-mmdiff| |docker_bioconductor-mmdiff|
 
-   :versions: 1.10.0
-
-   :depends: :conda:package:`bioconductor-biobase`  :conda:package:`bioconductor-diffbind`  :conda:package:`bioconductor-genomicranges`  :conda:package:`bioconductor-iranges`  :conda:package:`bioconductor-rsamtools`  :conda:package:`r` >=2.14.0 :conda:package:`r-gmd`  
-
-   :required~by: |required_by_bioconductor-mmdiff|
+   :versions: 1.10.0-0
+   
+   :depends bioconductor-biobase: 
+   
+   :depends bioconductor-diffbind: 
+   
+   :depends bioconductor-genomicranges: 
+   
+   :depends bioconductor-iranges: 
+   
+   :depends bioconductor-rsamtools: 
+   
+   :depends r: >=2.14.0
+   
+   :depends r-gmd: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-mmdiff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mmdiff
+      docker pull quay.io/repository/biocontainers/bioconductor-mmdiff:<tag>
+
+   (see `bioconductor-mmdiff/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mmdiff| conda:required_by:: bioconductor-mmdiff
 .. |downloads_bioconductor-mmdiff| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mmdiff.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mmdiff| image:: https://quay.io/repository/biocontainers/bioconductor-mmdiff/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mmdiff
+.. _`bioconductor-mmdiff/tags`: https://quay.io/repository/biocontainers/bioconductor-mmdiff?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mmdiff/README.html
-

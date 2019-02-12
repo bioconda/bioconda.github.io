@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-specio-exporter'
 .. highlight: bash
-
 
 perl-specio-exporter
 ====================
@@ -21,11 +22,13 @@ perl-specio-exporter
 
    |downloads_perl-specio-exporter| |docker_perl-specio-exporter|
 
-   :versions: 0.36
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  
-
-   :required~by: |required_by_perl-specio-exporter|
+   :versions: 0.36-2, 0.36-1, 0.36-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-app-cpanminus: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-specio-exporter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-specio-exporter
+      docker pull quay.io/repository/biocontainers/perl-specio-exporter:<tag>
+
+   (see `perl-specio-exporter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-specio-exporter| conda:required_by:: perl-specio-exporter
 .. |downloads_perl-specio-exporter| image:: https://img.shields.io/conda/dn/bioconda/perl-specio-exporter.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-specio-exporter| image:: https://quay.io/repository/biocontainers/perl-specio-exporter/status
    :target: https://quay.io/repository/biocontainers/perl-specio-exporter
+.. _`perl-specio-exporter/tags`: https://quay.io/repository/biocontainers/perl-specio-exporter?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-specio-exporter/README.html
-

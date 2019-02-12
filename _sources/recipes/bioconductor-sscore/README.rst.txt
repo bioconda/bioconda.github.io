@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sscore'
 .. highlight: bash
-
 
 bioconductor-sscore
 ===================
@@ -22,11 +23,15 @@ bioconductor-sscore
 
    |downloads_bioconductor-sscore| |docker_bioconductor-sscore|
 
-   :versions: 1.54.0, 1.52.0, 1.50.0, 1.48.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-affyio` >=1.52.0,<1.53.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-sscore|
+   :versions: 1.54.0-0, 1.52.0-0, 1.50.0-0, 1.48.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-affyio: >=1.52.0,<1.53.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-sscore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sscore
+      docker pull quay.io/repository/biocontainers/bioconductor-sscore:<tag>
+
+   (see `bioconductor-sscore/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sscore| conda:required_by:: bioconductor-sscore
 .. |downloads_bioconductor-sscore| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sscore.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sscore| image:: https://quay.io/repository/biocontainers/bioconductor-sscore/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sscore
+.. _`bioconductor-sscore/tags`: https://quay.io/repository/biocontainers/bioconductor-sscore?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sscore/README.html
-

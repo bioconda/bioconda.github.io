@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'blast-legacy'
 .. highlight: bash
-
 
 blast-legacy
 ============
@@ -21,11 +22,9 @@ blast-legacy
 
    |downloads_blast-legacy| |docker_blast-legacy|
 
-   :versions: 2.2.26, 2.2.22
-
-   :depends: 
-
-   :required~by: |required_by_blast-legacy|
+   :versions: 2.2.26-1, 2.2.26-0, 2.2.22-1, 2.2.22-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ blast-legacy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/blast-legacy
+      docker pull quay.io/repository/biocontainers/blast-legacy:<tag>
+
+   (see `blast-legacy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_blast-legacy| conda:required_by:: blast-legacy
 .. |downloads_blast-legacy| image:: https://img.shields.io/conda/dn/bioconda/blast-legacy.svg?style=flat
    :alt:   (downloads)
 .. |docker_blast-legacy| image:: https://quay.io/repository/biocontainers/blast-legacy/status
    :target: https://quay.io/repository/biocontainers/blast-legacy
+.. _`blast-legacy/tags`: https://quay.io/repository/biocontainers/blast-legacy?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/blast-legacy/README.html
-

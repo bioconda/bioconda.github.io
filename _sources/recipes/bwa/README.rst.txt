@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bwa'
 .. highlight: bash
-
 
 bwa
 ===
@@ -22,11 +23,15 @@ bwa
 
    |downloads_bwa| |docker_bwa|
 
-   :versions: 0.7.17, 0.7.16, 0.7.15, 0.7.13, 0.7.12, 0.7.8, 0.7.4, 0.7.3a, 0.6.2, 0.5.9
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`perl`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_bwa|
+   :versions: 0.7.17-4, 0.7.17-3, 0.7.17-2, 0.7.17-1, 0.7.17-0, 0.7.16-0, 0.7.15-1, 0.7.15-0, 0.7.13-1, 0.7.13-0, 0.7.12-1, 0.7.12-0, 0.7.8-3, 0.7.8-2, 0.7.8-1, 0.7.8-0, 0.7.4-1, 0.7.4-0, 0.7.3a-3, 0.7.3a-2, 0.7.3a-1, 0.7.3a-0, 0.6.2-2, 0.6.2-1, 0.6.2-0, 0.5.9-2, 0.5.9-1, 0.5.9-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends perl: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bwa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bwa
+      docker pull quay.io/repository/biocontainers/bwa:<tag>
+
+   (see `bwa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bwa| conda:required_by:: bwa
 .. |downloads_bwa| image:: https://img.shields.io/conda/dn/bioconda/bwa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bwa| image:: https://quay.io/repository/biocontainers/bwa/status
    :target: https://quay.io/repository/biocontainers/bwa
+.. _`bwa/tags`: https://quay.io/repository/biocontainers/bwa?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bwa/README.html
-

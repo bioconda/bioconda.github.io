@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'minialign'
 .. highlight: bash
-
 
 minialign
 =========
@@ -24,11 +25,11 @@ minialign
 
    |downloads_minialign| |docker_minialign|
 
-   :versions: 0.5.3, 0.5.2, 0.4.2, 0.4.0, 0.3.1
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_minialign|
+   :versions: 0.5.3-2, 0.5.3-1, 0.5.3-0, 0.5.2-0, 0.4.2-1, 0.4.2-0, 0.4.0-0, 0.3.1-0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +43,16 @@ minialign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/minialign
+      docker pull quay.io/repository/biocontainers/minialign:<tag>
+
+   (see `minialign/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_minialign| conda:required_by:: minialign
 .. |downloads_minialign| image:: https://img.shields.io/conda/dn/bioconda/minialign.svg?style=flat
    :alt:   (downloads)
 .. |docker_minialign| image:: https://quay.io/repository/biocontainers/minialign/status
    :target: https://quay.io/repository/biocontainers/minialign
+.. _`minialign/tags`: https://quay.io/repository/biocontainers/minialign?tab=tags
 
 
 
@@ -66,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/minialign/README.html
-

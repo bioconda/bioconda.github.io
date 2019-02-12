@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'plascope'
 .. highlight: bash
-
 
 plascope
 ========
@@ -21,11 +22,13 @@ plascope
 
    |downloads_plascope| |docker_plascope|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`centrifuge` 1.0.3 :conda:package:`spades` >=3.10.1 
-
-   :required~by: |required_by_plascope|
+   :versions: 1.3-0
+   
+   :depends centrifuge: 1.0.3
+   
+   :depends spades: >=3.10.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ plascope
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plascope
+      docker pull quay.io/repository/biocontainers/plascope:<tag>
+
+   (see `plascope/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_plascope| conda:required_by:: plascope
 .. |downloads_plascope| image:: https://img.shields.io/conda/dn/bioconda/plascope.svg?style=flat
    :alt:   (downloads)
 .. |docker_plascope| image:: https://quay.io/repository/biocontainers/plascope/status
    :target: https://quay.io/repository/biocontainers/plascope
+.. _`plascope/tags`: https://quay.io/repository/biocontainers/plascope?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/plascope/README.html
-

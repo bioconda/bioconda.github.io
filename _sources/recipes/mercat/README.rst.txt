@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mercat'
 .. highlight: bash
-
 
 mercat
 ======
@@ -21,11 +22,31 @@ mercat
 
    |downloads_mercat| |docker_mercat|
 
-   :versions: 0.2, 0.1
-
-   :depends: :conda:package:`dask`  :conda:package:`humanize`  :conda:package:`joblib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`plotly`  :conda:package:`prodigal`  :conda:package:`psutil`  :conda:package:`python` 2.7* :conda:package:`scikit-bio`  :conda:package:`trimmomatic`  
-
-   :required~by: |required_by_mercat|
+   :versions: 0.2-1, 0.2-0, 0.1-0
+   
+   :depends dask: 
+   
+   :depends humanize: 
+   
+   :depends joblib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends plotly: 
+   
+   :depends prodigal: 
+   
+   :depends psutil: 
+   
+   :depends python: 
+   
+   :depends scikit-bio: 0.2.3
+   
+   :depends trimmomatic: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ mercat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mercat
+      docker pull quay.io/repository/biocontainers/mercat:<tag>
+
+   (see `mercat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mercat| conda:required_by:: mercat
 .. |downloads_mercat| image:: https://img.shields.io/conda/dn/bioconda/mercat.svg?style=flat
    :alt:   (downloads)
 .. |docker_mercat| image:: https://quay.io/repository/biocontainers/mercat/status
    :target: https://quay.io/repository/biocontainers/mercat
+.. _`mercat/tags`: https://quay.io/repository/biocontainers/mercat?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mercat/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'svtyper'
 .. highlight: bash
-
 
 svtyper
 =======
@@ -21,11 +22,19 @@ svtyper
 
    |downloads_svtyper| |docker_svtyper|
 
-   :versions: 0.7.0, 0.6.1, 0.1.4, 0.1.1, 0.0.4, 0.0.2
-
-   :depends: :conda:package:`cytoolz` >=0.8.2 :conda:package:`numpy`  :conda:package:`pysam` >=0.15.0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
-
-   :required~by: |required_by_svtyper|
+   :versions: 0.7.0-0, 0.6.1-1, 0.6.1-0, 0.1.4-0, 0.1.1-0, 0.0.4-0, 0.0.2-4, 0.0.2-3
+   
+   :depends cytoolz: >=0.8.2
+   
+   :depends numpy: 
+   
+   :depends pysam: >=0.15.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ svtyper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/svtyper
+      docker pull quay.io/repository/biocontainers/svtyper:<tag>
+
+   (see `svtyper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_svtyper| conda:required_by:: svtyper
 .. |downloads_svtyper| image:: https://img.shields.io/conda/dn/bioconda/svtyper.svg?style=flat
    :alt:   (downloads)
 .. |docker_svtyper| image:: https://quay.io/repository/biocontainers/svtyper/status
    :target: https://quay.io/repository/biocontainers/svtyper
+.. _`svtyper/tags`: https://quay.io/repository/biocontainers/svtyper?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/svtyper/README.html
-

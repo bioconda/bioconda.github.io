@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'unicycler'
 .. highlight: bash
-
 
 unicycler
 =========
@@ -21,11 +22,35 @@ unicycler
 
    |downloads_unicycler| |docker_unicycler|
 
-   :versions: 0.4.7, 0.4.6, 0.4.4, 0.4.1, 0.3.0b, 0.2.0
-
-   :depends: :conda:package:`blast`  :conda:package:`bowtie2`  :conda:package:`freebayes`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`miniasm`  :conda:package:`openjdk`  :conda:package:`pilon`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`racon`  :conda:package:`samtools` >=1.0 :conda:package:`spades` >=3.6.2 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_unicycler|
+   :versions: 0.4.7-0, 0.4.6-0, 0.4.4-0, 0.4.1-0, 0.3.0b-1, 0.3.0b-0, 0.2.0-0
+   
+   :depends blast: 
+   
+   :depends bowtie2: 
+   
+   :depends freebayes: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends miniasm: 
+   
+   :depends openjdk: 
+   
+   :depends pilon: 
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :depends racon: 
+   
+   :depends samtools: >=1.0
+   
+   :depends spades: >=3.6.2
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ unicycler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/unicycler
+      docker pull quay.io/repository/biocontainers/unicycler:<tag>
+
+   (see `unicycler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_unicycler| conda:required_by:: unicycler
 .. |downloads_unicycler| image:: https://img.shields.io/conda/dn/bioconda/unicycler.svg?style=flat
    :alt:   (downloads)
 .. |docker_unicycler| image:: https://quay.io/repository/biocontainers/unicycler/status
    :target: https://quay.io/repository/biocontainers/unicycler
+.. _`unicycler/tags`: https://quay.io/repository/biocontainers/unicycler?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/unicycler/README.html
-

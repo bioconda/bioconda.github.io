@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'scanindel'
 .. highlight: bash
-
 
 scanindel
 =========
@@ -21,11 +22,31 @@ scanindel
 
    |downloads_scanindel| |docker_scanindel|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`bedtools` ==2.17.0 :conda:package:`biopython` ==1.64 :conda:package:`blat`  :conda:package:`bwa` ==0.7.12 :conda:package:`freebayes` ==0.9.21.7 :conda:package:`numpy`  :conda:package:`pysam` ==0.7.7 :conda:package:`python` 2.7* :conda:package:`pyvcf` ==0.6.7 :conda:package:`samtools` <=1.0 :conda:package:`scipy`  
-
-   :required~by: |required_by_scanindel|
+   :versions: 1.3-0
+   
+   :depends bedtools: ==2.17.0
+   
+   :depends biopython: ==1.64
+   
+   :depends blat: 
+   
+   :depends bwa: ==0.7.12
+   
+   :depends freebayes: ==0.9.21.7
+   
+   :depends numpy: 
+   
+   :depends pysam: ==0.7.7
+   
+   :depends python: 2.7*
+   
+   :depends pyvcf: ==0.6.7
+   
+   :depends samtools: <=1.0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ scanindel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scanindel
+      docker pull quay.io/repository/biocontainers/scanindel:<tag>
+
+   (see `scanindel/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_scanindel| conda:required_by:: scanindel
 .. |downloads_scanindel| image:: https://img.shields.io/conda/dn/bioconda/scanindel.svg?style=flat
    :alt:   (downloads)
 .. |docker_scanindel| image:: https://quay.io/repository/biocontainers/scanindel/status
    :target: https://quay.io/repository/biocontainers/scanindel
+.. _`scanindel/tags`: https://quay.io/repository/biocontainers/scanindel?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/scanindel/README.html
-

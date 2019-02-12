@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-survcomp'
 .. highlight: bash
-
 
 bioconductor-survcomp
 =====================
@@ -22,11 +23,31 @@ bioconductor-survcomp
 
    |downloads_bioconductor-survcomp| |docker_bioconductor-survcomp|
 
-   :versions: 1.32.0, 1.30.0, 1.28.4
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bootstrap`  :conda:package:`r-ipred`  :conda:package:`r-kernsmooth`  :conda:package:`r-prodlim`  :conda:package:`r-rmeta`  :conda:package:`r-suppdists`  :conda:package:`r-survival`  :conda:package:`r-survivalroc`  
-
-   :required~by: |required_by_bioconductor-survcomp|
+   :versions: 1.32.0-0, 1.30.0-0, 1.28.4-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bootstrap: 
+   
+   :depends r-ipred: 
+   
+   :depends r-kernsmooth: 
+   
+   :depends r-prodlim: 
+   
+   :depends r-rmeta: 
+   
+   :depends r-suppdists: 
+   
+   :depends r-survival: 
+   
+   :depends r-survivalroc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +61,16 @@ bioconductor-survcomp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-survcomp
+      docker pull quay.io/repository/biocontainers/bioconductor-survcomp:<tag>
+
+   (see `bioconductor-survcomp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-survcomp| conda:required_by:: bioconductor-survcomp
 .. |downloads_bioconductor-survcomp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-survcomp.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-survcomp| image:: https://quay.io/repository/biocontainers/bioconductor-survcomp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-survcomp
+.. _`bioconductor-survcomp/tags`: https://quay.io/repository/biocontainers/bioconductor-survcomp?tab=tags
 
 
 
@@ -64,4 +87,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-survcomp/README.html
-

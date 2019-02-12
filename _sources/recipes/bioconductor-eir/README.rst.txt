@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-eir'
 .. highlight: bash
-
 
 bioconductor-eir
 ================
@@ -21,11 +22,35 @@ bioconductor-eir
 
    |downloads_bioconductor-eir| |docker_bioconductor-eir|
 
-   :versions: 1.22.0
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-chemminer` >=3.34.0,<3.35.0 :conda:package:`bioconductor-gesper` >=1.14.0,<1.15.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-digest`  :conda:package:`r-rcppannoy` >=0.0.9 :conda:package:`r-rcurl`  :conda:package:`r-runit`  :conda:package:`r-snow`  :conda:package:`r-snowfall`  
-
-   :required~by: |required_by_bioconductor-eir|
+   :versions: 1.22.0-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-chemminer: >=3.34.0,<3.35.0
+   
+   :depends bioconductor-gesper: >=1.14.0,<1.15.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dbi: 
+   
+   :depends r-digest: 
+   
+   :depends r-rcppannoy: >=0.0.9
+   
+   :depends r-rcurl: 
+   
+   :depends r-runit: 
+   
+   :depends r-snow: 
+   
+   :depends r-snowfall: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ bioconductor-eir
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-eir
+      docker pull quay.io/repository/biocontainers/bioconductor-eir:<tag>
+
+   (see `bioconductor-eir/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-eir| conda:required_by:: bioconductor-eir
 .. |downloads_bioconductor-eir| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-eir.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-eir| image:: https://quay.io/repository/biocontainers/bioconductor-eir/status
    :target: https://quay.io/repository/biocontainers/bioconductor-eir
+.. _`bioconductor-eir/tags`: https://quay.io/repository/biocontainers/bioconductor-eir?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-eir/README.html
-

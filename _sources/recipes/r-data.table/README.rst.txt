@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-data.table'
 .. highlight: bash
-
 
 r-data.table
 ============
@@ -21,11 +22,13 @@ r-data.table
 
    |downloads_r-data.table| |docker_r-data.table|
 
-   :versions: 1.11.6, 1.10.4, 1.10.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
-
-   :required~by: |required_by_r-data.table|
+   :versions: 1.11.6-0, 1.10.4-0, 1.10.0-1, 1.10.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ r-data.table
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-data.table
+      docker pull quay.io/repository/biocontainers/r-data.table:<tag>
+
+   (see `r-data.table/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-data.table| conda:required_by:: r-data.table
 .. |downloads_r-data.table| image:: https://img.shields.io/conda/dn/bioconda/r-data.table.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-data.table| image:: https://quay.io/repository/biocontainers/r-data.table/status
    :target: https://quay.io/repository/biocontainers/r-data.table
+.. _`r-data.table/tags`: https://quay.io/repository/biocontainers/r-data.table?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-data.table/README.html
-

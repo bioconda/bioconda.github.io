@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vcftools'
 .. highlight: bash
-
 
 vcftools
 ========
@@ -22,11 +23,13 @@ vcftools
 
    |downloads_vcftools| |docker_vcftools|
 
-   :versions: 0.1.16, 0.1.15, 0.1.14, 0.1.11, 0.1.10
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_vcftools|
+   :versions: 0.1.16-2, 0.1.15-2, 0.1.15-1, 0.1.15-0, 0.1.14-5, 0.1.14-4, 0.1.14-3, 0.1.14-2, 0.1.14-1, 0.1.14-0, 0.1.11-2, 0.1.11-1, 0.1.11-0, 0.1.10-1, 0.1.10-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ vcftools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcftools
+      docker pull quay.io/repository/biocontainers/vcftools:<tag>
+
+   (see `vcftools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vcftools| conda:required_by:: vcftools
 .. |downloads_vcftools| image:: https://img.shields.io/conda/dn/bioconda/vcftools.svg?style=flat
    :alt:   (downloads)
 .. |docker_vcftools| image:: https://quay.io/repository/biocontainers/vcftools/status
    :target: https://quay.io/repository/biocontainers/vcftools
+.. _`vcftools/tags`: https://quay.io/repository/biocontainers/vcftools?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vcftools/README.html
-

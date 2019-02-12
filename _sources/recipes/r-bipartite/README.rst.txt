@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-bipartite'
 .. highlight: bash
-
 
 r-bipartite
 ===========
@@ -21,11 +22,27 @@ r-bipartite
 
    |downloads_r-bipartite| |docker_r-bipartite|
 
-   :versions: 2.11
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-fields`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-permute`  :conda:package:`r-sna`  :conda:package:`r-vegan`  
-
-   :required~by: |required_by_r-bipartite|
+   :versions: 2.11-2, 2.11-1, 2.11-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-fields: 
+   
+   :depends r-igraph: 
+   
+   :depends r-mass: 
+   
+   :depends r-permute: 
+   
+   :depends r-sna: 
+   
+   :depends r-vegan: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ r-bipartite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-bipartite
+      docker pull quay.io/repository/biocontainers/r-bipartite:<tag>
+
+   (see `r-bipartite/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-bipartite| conda:required_by:: r-bipartite
 .. |downloads_r-bipartite| image:: https://img.shields.io/conda/dn/bioconda/r-bipartite.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-bipartite| image:: https://quay.io/repository/biocontainers/r-bipartite/status
    :target: https://quay.io/repository/biocontainers/r-bipartite
+.. _`r-bipartite/tags`: https://quay.io/repository/biocontainers/r-bipartite?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-bipartite/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'swipe'
 .. highlight: bash
-
 
 swipe
 =====
@@ -23,11 +24,15 @@ swipe
 
    |downloads_swipe| |docker_swipe|
 
-   :versions: 2.1.0, 2.0.12
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`openmpi`  :conda:package:`tbb`  
-
-   :required~by: |required_by_swipe|
+   :versions: 2.1.0-0, 2.0.12-1, 2.0.12-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openmpi: 
+   
+   :depends tbb: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +46,16 @@ swipe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/swipe
+      docker pull quay.io/repository/biocontainers/swipe:<tag>
+
+   (see `swipe/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_swipe| conda:required_by:: swipe
 .. |downloads_swipe| image:: https://img.shields.io/conda/dn/bioconda/swipe.svg?style=flat
    :alt:   (downloads)
 .. |docker_swipe| image:: https://quay.io/repository/biocontainers/swipe/status
    :target: https://quay.io/repository/biocontainers/swipe
+.. _`swipe/tags`: https://quay.io/repository/biocontainers/swipe?tab=tags
 
 
 
@@ -65,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/swipe/README.html
-

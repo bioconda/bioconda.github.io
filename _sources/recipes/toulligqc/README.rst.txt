@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'toulligqc'
 .. highlight: bash
-
 
 toulligqc
 =========
@@ -21,11 +22,21 @@ toulligqc
 
    |downloads_toulligqc| |docker_toulligqc|
 
-   :versions: 1.0, 0.10, 0.9, 0.5
-
-   :depends: :conda:package:`h5py` >=2.7,<2.8 :conda:package:`matplotlib` >=2.0,<2.1 :conda:package:`numpy` >=1.12,<1.13 :conda:package:`pandas` >=0.19,<0.20 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`seaborn` >=0.7,<0.8 
-
-   :required~by: |required_by_toulligqc|
+   :versions: 1.0-0, 0.10-0, 0.9-2, 0.9-0, 0.5-0
+   
+   :depends h5py: >=2.7,<2.8
+   
+   :depends matplotlib: >=2.0,<2.1
+   
+   :depends numpy: >=1.12,<1.13
+   
+   :depends pandas: >=0.19,<0.20
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends seaborn: >=0.7,<0.8
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ toulligqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/toulligqc
+      docker pull quay.io/repository/biocontainers/toulligqc:<tag>
+
+   (see `toulligqc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_toulligqc| conda:required_by:: toulligqc
 .. |downloads_toulligqc| image:: https://img.shields.io/conda/dn/bioconda/toulligqc.svg?style=flat
    :alt:   (downloads)
 .. |docker_toulligqc| image:: https://quay.io/repository/biocontainers/toulligqc/status
    :target: https://quay.io/repository/biocontainers/toulligqc
+.. _`toulligqc/tags`: https://quay.io/repository/biocontainers/toulligqc?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/toulligqc/README.html
-

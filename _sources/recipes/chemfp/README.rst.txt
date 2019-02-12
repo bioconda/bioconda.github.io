@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'chemfp'
 .. highlight: bash
-
 
 chemfp
 ======
@@ -32,11 +33,17 @@ chemfp
 
    |downloads_chemfp| |docker_chemfp|
 
-   :versions: 1.4, 1.3, 1.3a1, 1.1p1
-
-   :depends: :conda:package:`openbabel`  :conda:package:`python` 2.7* :conda:package:`rdkit`  
-
-   :required~by: |required_by_chemfp|
+   :versions: 1.4-1, 1.4-0, 1.3-1, 1.3-0, 1.3a1-0, 1.1p1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openbabel: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends rdkit: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -50,14 +57,16 @@ chemfp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/chemfp
+      docker pull quay.io/repository/biocontainers/chemfp:<tag>
+
+   (see `chemfp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_chemfp| conda:required_by:: chemfp
 .. |downloads_chemfp| image:: https://img.shields.io/conda/dn/bioconda/chemfp.svg?style=flat
    :alt:   (downloads)
 .. |docker_chemfp| image:: https://quay.io/repository/biocontainers/chemfp/status
    :target: https://quay.io/repository/biocontainers/chemfp
+.. _`chemfp/tags`: https://quay.io/repository/biocontainers/chemfp?tab=tags
 
 
 
@@ -74,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/chemfp/README.html
-

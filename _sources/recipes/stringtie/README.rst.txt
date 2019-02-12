@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'stringtie'
 .. highlight: bash
-
 
 stringtie
 =========
@@ -22,11 +23,13 @@ stringtie
 
    |downloads_stringtie| |docker_stringtie|
 
-   :versions: 1.3.4, 1.3.3, 1.3.0, 1.2.4, 1.2.3, 1.2.2, 1.2.0, 1.1.2, 1.1.1, 1.1.0, 1.0.4, 1.0.3, 1.0.1, 0.97
-
-   :depends: :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_stringtie|
+   :versions: 1.3.4-1, 1.3.4-0, 1.3.3-4, 1.3.3-3, 1.3.3-2, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.2.4-2, 1.2.4-1, 1.2.4-0, 1.2.3-0, 1.2.2-2, 1.2.2-1, 1.2.0-1, 1.2.0-0, 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.4-1, 1.0.4-0, 1.0.3-1, 1.0.3-0, 1.0.1-0, 0.97-0
+   
+   :depends python: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ stringtie
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stringtie
+      docker pull quay.io/repository/biocontainers/stringtie:<tag>
+
+   (see `stringtie/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_stringtie| conda:required_by:: stringtie
 .. |downloads_stringtie| image:: https://img.shields.io/conda/dn/bioconda/stringtie.svg?style=flat
    :alt:   (downloads)
 .. |docker_stringtie| image:: https://quay.io/repository/biocontainers/stringtie/status
    :target: https://quay.io/repository/biocontainers/stringtie
+.. _`stringtie/tags`: https://quay.io/repository/biocontainers/stringtie?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/stringtie/README.html
-

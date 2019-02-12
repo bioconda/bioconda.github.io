@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'flashlfq'
 .. highlight: bash
-
 
 flashlfq
 ========
@@ -21,11 +22,11 @@ flashlfq
 
    |downloads_flashlfq| |docker_flashlfq|
 
-   :versions: 0.1.111, 0.1.110, 0.1.109, 0.1.108, 0.1.105, 0.1.101, 0.1.100
-
-   :depends: :conda:package:`mono` >=4.0.0 
-
-   :required~by: |required_by_flashlfq|
+   :versions: 0.1.111-0, 0.1.110-0, 0.1.109-0, 0.1.108-1, 0.1.108-0, 0.1.105-2, 0.1.105-0, 0.1.101-0, 0.1.100-0
+   
+   :depends mono: >=4.0.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ flashlfq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flashlfq
+      docker pull quay.io/repository/biocontainers/flashlfq:<tag>
+
+   (see `flashlfq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_flashlfq| conda:required_by:: flashlfq
 .. |downloads_flashlfq| image:: https://img.shields.io/conda/dn/bioconda/flashlfq.svg?style=flat
    :alt:   (downloads)
 .. |docker_flashlfq| image:: https://quay.io/repository/biocontainers/flashlfq/status
    :target: https://quay.io/repository/biocontainers/flashlfq
+.. _`flashlfq/tags`: https://quay.io/repository/biocontainers/flashlfq?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/flashlfq/README.html
-

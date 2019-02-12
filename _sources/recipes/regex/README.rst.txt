@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'regex'
 .. highlight: bash
-
 
 regex
 =====
@@ -21,11 +22,11 @@ regex
 
    |downloads_regex| |docker_regex|
 
-   :versions: 2016.06.24
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_regex|
+   :versions: 2016.06.24-1
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ regex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/regex
+      docker pull quay.io/repository/biocontainers/regex:<tag>
+
+   (see `regex/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_regex| conda:required_by:: regex
 .. |downloads_regex| image:: https://img.shields.io/conda/dn/bioconda/regex.svg?style=flat
    :alt:   (downloads)
 .. |docker_regex| image:: https://quay.io/repository/biocontainers/regex/status
    :target: https://quay.io/repository/biocontainers/regex
+.. _`regex/tags`: https://quay.io/repository/biocontainers/regex?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/regex/README.html
-

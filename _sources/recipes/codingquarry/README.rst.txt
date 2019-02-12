@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'codingquarry'
 .. highlight: bash
-
 
 codingquarry
 ============
@@ -22,11 +23,17 @@ codingquarry
 
    |downloads_codingquarry| |docker_codingquarry|
 
-   :versions: 2.0
-
-   :depends: :conda:package:`biopython`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_codingquarry|
+   :versions: 2.0-0
+   
+   :depends biopython: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ codingquarry
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/codingquarry
+      docker pull quay.io/repository/biocontainers/codingquarry:<tag>
+
+   (see `codingquarry/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_codingquarry| conda:required_by:: codingquarry
 .. |downloads_codingquarry| image:: https://img.shields.io/conda/dn/bioconda/codingquarry.svg?style=flat
    :alt:   (downloads)
 .. |docker_codingquarry| image:: https://quay.io/repository/biocontainers/codingquarry/status
    :target: https://quay.io/repository/biocontainers/codingquarry
+.. _`codingquarry/tags`: https://quay.io/repository/biocontainers/codingquarry?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/codingquarry/README.html
-

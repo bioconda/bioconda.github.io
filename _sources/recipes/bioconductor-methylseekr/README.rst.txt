@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-methylseekr'
 .. highlight: bash
-
 
 bioconductor-methylseekr
 ========================
@@ -22,11 +23,23 @@ bioconductor-methylseekr
 
    |downloads_bioconductor-methylseekr| |docker_bioconductor-methylseekr|
 
-   :versions: 1.22.0, 1.20.0, 1.18.0, 1.16.0
-
-   :depends: :conda:package:`bioconductor-bsgenome` >=1.50.0,<1.51.0 :conda:package:`bioconductor-geneplotter` >=1.60.0,<1.61.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mhsmm` >=0.4.4 
-
-   :required~by: |required_by_bioconductor-methylseekr|
+   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-2, 1.18.0-1, 1.18.0-0, 1.16.0-0
+   
+   :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
+   
+   :depends bioconductor-geneplotter: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mhsmm: >=0.4.4
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ bioconductor-methylseekr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methylseekr
+      docker pull quay.io/repository/biocontainers/bioconductor-methylseekr:<tag>
+
+   (see `bioconductor-methylseekr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-methylseekr| conda:required_by:: bioconductor-methylseekr
 .. |downloads_bioconductor-methylseekr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methylseekr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-methylseekr| image:: https://quay.io/repository/biocontainers/bioconductor-methylseekr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methylseekr
+.. _`bioconductor-methylseekr/tags`: https://quay.io/repository/biocontainers/bioconductor-methylseekr?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-methylseekr/README.html
-

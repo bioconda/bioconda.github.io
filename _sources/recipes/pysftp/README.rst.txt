@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pysftp'
 .. highlight: bash
-
 
 pysftp
 ======
@@ -21,11 +22,13 @@ pysftp
 
    |downloads_pysftp| |docker_pysftp|
 
-   :versions: 0.2.9, 0.2.8
-
-   :depends: :conda:package:`paramiko` >=1.17.0 :conda:package:`python`  
-
-   :required~by: |required_by_pysftp|
+   :versions: 0.2.9-0, 0.2.8-0
+   
+   :depends paramiko: >=1.7.7
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ pysftp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pysftp
+      docker pull quay.io/repository/biocontainers/pysftp:<tag>
+
+   (see `pysftp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pysftp| conda:required_by:: pysftp
 .. |downloads_pysftp| image:: https://img.shields.io/conda/dn/bioconda/pysftp.svg?style=flat
    :alt:   (downloads)
 .. |docker_pysftp| image:: https://quay.io/repository/biocontainers/pysftp/status
    :target: https://quay.io/repository/biocontainers/pysftp
+.. _`pysftp/tags`: https://quay.io/repository/biocontainers/pysftp?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pysftp/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hifive'
 .. highlight: bash
-
 
 hifive
 ======
@@ -21,11 +22,29 @@ hifive
 
    |downloads_hifive| |docker_hifive|
 
-   :versions: 1.5.7, 1.5.6, 1.5.3, 1.5.1, 1.4.0, 1.3.1, 1.3.0, 1.2.1
-
-   :depends: :conda:package:`cython`  :conda:package:`h5py`  :conda:package:`mpi4py`  :conda:package:`numpy`  :conda:package:`pil`  :conda:package:`pysam`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`pyx` 0.12.1 :conda:package:`scipy`  :conda:package:`setuptools_cython`  
-
-   :required~by: |required_by_hifive|
+   :versions: 1.5.7-0, 1.5.6-2, 1.5.6-0, 1.5.3-0, 1.5.1-0, 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.2.1-0
+   
+   :depends cython: 
+   
+   :depends h5py: 
+   
+   :depends mpi4py: 
+   
+   :depends numpy: 
+   
+   :depends pil: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends pyx: 0.12.1
+   
+   :depends scipy: 
+   
+   :depends setuptools_cython: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ hifive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hifive
+      docker pull quay.io/repository/biocontainers/hifive:<tag>
+
+   (see `hifive/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hifive| conda:required_by:: hifive
 .. |downloads_hifive| image:: https://img.shields.io/conda/dn/bioconda/hifive.svg?style=flat
    :alt:   (downloads)
 .. |docker_hifive| image:: https://quay.io/repository/biocontainers/hifive/status
    :target: https://quay.io/repository/biocontainers/hifive
+.. _`hifive/tags`: https://quay.io/repository/biocontainers/hifive?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hifive/README.html
-

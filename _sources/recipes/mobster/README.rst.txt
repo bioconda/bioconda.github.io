@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mobster'
 .. highlight: bash
-
 
 mobster
 =======
@@ -21,11 +22,15 @@ mobster
 
    |downloads_mobster| |docker_mobster|
 
-   :versions: 0.2.4.1, 0.2.3.1, 0.2.2, 0.2.1
-
-   :depends: :conda:package:`mosaik`  :conda:package:`openjdk`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_mobster|
+   :versions: 0.2.4.1-1, 0.2.4.1-0, 0.2.3.1-0, 0.2.2-1, 0.2.2-0, 0.2.1-0
+   
+   :depends mosaik: 
+   
+   :depends openjdk: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ mobster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mobster
+      docker pull quay.io/repository/biocontainers/mobster:<tag>
+
+   (see `mobster/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mobster| conda:required_by:: mobster
 .. |downloads_mobster| image:: https://img.shields.io/conda/dn/bioconda/mobster.svg?style=flat
    :alt:   (downloads)
 .. |docker_mobster| image:: https://quay.io/repository/biocontainers/mobster/status
    :target: https://quay.io/repository/biocontainers/mobster
+.. _`mobster/tags`: https://quay.io/repository/biocontainers/mobster?tab=tags
 
 
 
@@ -68,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mobster/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'methyldackel'
 .. highlight: bash
-
 
 methyldackel
 ============
@@ -21,11 +22,13 @@ methyldackel
 
    |downloads_methyldackel| |docker_methyldackel|
 
-   :versions: 0.3.0, 0.2.1, 0.2.0
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_methyldackel|
+   :versions: 0.3.0-2, 0.3.0-1, 0.3.0-0, 0.2.1-0, 0.2.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ methyldackel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/methyldackel
+      docker pull quay.io/repository/biocontainers/methyldackel:<tag>
+
+   (see `methyldackel/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_methyldackel| conda:required_by:: methyldackel
 .. |downloads_methyldackel| image:: https://img.shields.io/conda/dn/bioconda/methyldackel.svg?style=flat
    :alt:   (downloads)
 .. |docker_methyldackel| image:: https://quay.io/repository/biocontainers/methyldackel/status
    :target: https://quay.io/repository/biocontainers/methyldackel
+.. _`methyldackel/tags`: https://quay.io/repository/biocontainers/methyldackel?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/methyldackel/README.html
-

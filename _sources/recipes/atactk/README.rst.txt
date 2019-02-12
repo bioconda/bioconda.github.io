@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'atactk'
 .. highlight: bash
-
 
 atactk
 ======
@@ -21,11 +22,25 @@ atactk
 
    |downloads_atactk| |docker_atactk|
 
-   :versions: 0.1.6
-
-   :depends: :conda:package:`pysam`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`python-levenshtein`  :conda:package:`r-base`  :conda:package:`r-ggplot2`  :conda:package:`r-gtools`  :conda:package:`r-rcolorbrewer`  :conda:package:`sexpdata`  
-
-   :required~by: |required_by_atactk|
+   :versions: 0.1.6-1, 0.1.6-0
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends python-levenshtein: 
+   
+   :depends r-base: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gtools: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends sexpdata: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ atactk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/atactk
+      docker pull quay.io/repository/biocontainers/atactk:<tag>
+
+   (see `atactk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_atactk| conda:required_by:: atactk
 .. |downloads_atactk| image:: https://img.shields.io/conda/dn/bioconda/atactk.svg?style=flat
    :alt:   (downloads)
 .. |docker_atactk| image:: https://quay.io/repository/biocontainers/atactk/status
    :target: https://quay.io/repository/biocontainers/atactk
+.. _`atactk/tags`: https://quay.io/repository/biocontainers/atactk?tab=tags
 
 
 
@@ -67,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/atactk/README.html
-

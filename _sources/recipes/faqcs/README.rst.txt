@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'faqcs'
 .. highlight: bash
-
 
 faqcs
 =====
@@ -22,11 +23,15 @@ faqcs
 
    |downloads_faqcs| |docker_faqcs|
 
-   :versions: 2.09, 2.08
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_faqcs|
+   :versions: 2.09-0, 2.08-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ faqcs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/faqcs
+      docker pull quay.io/repository/biocontainers/faqcs:<tag>
+
+   (see `faqcs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_faqcs| conda:required_by:: faqcs
 .. |downloads_faqcs| image:: https://img.shields.io/conda/dn/bioconda/faqcs.svg?style=flat
    :alt:   (downloads)
 .. |docker_faqcs| image:: https://quay.io/repository/biocontainers/faqcs/status
    :target: https://quay.io/repository/biocontainers/faqcs
+.. _`faqcs/tags`: https://quay.io/repository/biocontainers/faqcs?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/faqcs/README.html
-

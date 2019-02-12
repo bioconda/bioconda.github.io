@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cromshell'
 .. highlight: bash
-
 
 cromshell
 =========
@@ -21,11 +22,13 @@ cromshell
 
    |downloads_cromshell| |docker_cromshell|
 
-   :versions: 0.2.3
-
-   :depends: :conda:package:`cromwell`  :conda:package:`jq`  
-
-   :required~by: |required_by_cromshell|
+   :versions: 0.2.3-0
+   
+   :depends cromwell: 
+   
+   :depends jq: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ cromshell
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cromshell
+      docker pull quay.io/repository/biocontainers/cromshell:<tag>
+
+   (see `cromshell/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cromshell| conda:required_by:: cromshell
 .. |downloads_cromshell| image:: https://img.shields.io/conda/dn/bioconda/cromshell.svg?style=flat
    :alt:   (downloads)
 .. |docker_cromshell| image:: https://quay.io/repository/biocontainers/cromshell/status
    :target: https://quay.io/repository/biocontainers/cromshell
+.. _`cromshell/tags`: https://quay.io/repository/biocontainers/cromshell?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cromshell/README.html
-

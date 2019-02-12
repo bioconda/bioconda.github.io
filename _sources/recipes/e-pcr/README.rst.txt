@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'e-pcr'
 .. highlight: bash
-
 
 e-pcr
 =====
@@ -21,11 +22,11 @@ e-pcr
 
    |downloads_e-pcr| |docker_e-pcr|
 
-   :versions: 2.3.12
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_e-pcr|
+   :versions: 2.3.12-0
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ e-pcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/e-pcr
+      docker pull quay.io/repository/biocontainers/e-pcr:<tag>
+
+   (see `e-pcr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_e-pcr| conda:required_by:: e-pcr
 .. |downloads_e-pcr| image:: https://img.shields.io/conda/dn/bioconda/e-pcr.svg?style=flat
    :alt:   (downloads)
 .. |docker_e-pcr| image:: https://quay.io/repository/biocontainers/e-pcr/status
    :target: https://quay.io/repository/biocontainers/e-pcr
+.. _`e-pcr/tags`: https://quay.io/repository/biocontainers/e-pcr?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/e-pcr/README.html
-

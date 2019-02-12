@@ -133,11 +133,23 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">0.9, 0.8, 0.7, 0.3, 0.2</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">0.9-2, 0.9-1, 0.9-0, 0.8-1, 0.8-0, 0.7-4, 0.7-3, 0.7-2, 0.7-1, 0.7-0, 0.3-2, 0.3-1, 0.3-0, 0.2-1, 0.2-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference internal" href="../bedtools/README.html#package-bedtools" title="bedtools package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">bedtools</span></code></a>  <a class="reference internal" href="../hmmer/README.html#package-hmmer" title="hmmer package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">hmmer</span></code></a> &gt;=3.1b <a class="reference external" href="https://github.com/conda-forge/perl-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl</span></code></a> &gt;=5.22.0</td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-package reference internal" href="../bedtools/README.html#package-bedtools" title="bedtools package"><strong>bedtools</strong></a></li>
+<li><a class="conda-package reference internal" href="../hmmer/README.html#package-hmmer" title="hmmer package"><strong>hmmer</strong></a> &gt;=3.1b</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a></li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+<li><a class="conda-package reference internal" href="../barrnap-python/README.html#barrnap-python"><strong class="xref backref">barrnap-python</strong></a></li>
+<li><a class="conda-package reference internal" href="../prokka/README.html#prokka"><strong class="xref backref">prokka</strong></a></li>
+<li><a class="conda-package reference internal" href="../socru/README.html#socru"><strong class="xref backref">socru</strong></a></li>
+<li><a class="conda-package reference internal" href="../riboseed/README.html#riboseed"><strong class="xref backref">riboseed</strong></a></li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -151,9 +163,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">barrnap</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">barrnap</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/barrnap?tab=tags">barrnap/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'intervene'
 .. highlight: bash
-
 
 intervene
 =========
@@ -22,11 +23,33 @@ intervene
 
    |downloads_intervene| |docker_intervene|
 
-   :versions: 0.6.4, 0.6.2, 0.5.9, 0.5.8
-
-   :depends: :conda:package:`bedtools`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pybedtools`  :conda:package:`python` 2.7* :conda:package:`r` 3.4.1* :conda:package:`r-cairo`  :conda:package:`r-corrplot`  :conda:package:`r-upsetr`  :conda:package:`scipy`  :conda:package:`seaborn`  
-
-   :required~by: |required_by_intervene|
+   :versions: 0.6.4-1, 0.6.4-0, 0.6.2-0, 0.5.9-0, 0.5.8-0
+   
+   :depends bedtools: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends pybedtools: 
+   
+   :depends python: 
+   
+   :depends r: 
+   
+   :depends r-cairo: 
+   
+   :depends r-corrplot: 
+   
+   :depends r-upsetr: 
+   
+   :depends scipy: 
+   
+   :depends seaborn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +63,16 @@ intervene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/intervene
+      docker pull quay.io/repository/biocontainers/intervene:<tag>
+
+   (see `intervene/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_intervene| conda:required_by:: intervene
 .. |downloads_intervene| image:: https://img.shields.io/conda/dn/bioconda/intervene.svg?style=flat
    :alt:   (downloads)
 .. |docker_intervene| image:: https://quay.io/repository/biocontainers/intervene/status
    :target: https://quay.io/repository/biocontainers/intervene
+.. _`intervene/tags`: https://quay.io/repository/biocontainers/intervene?tab=tags
 
 
 
@@ -64,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/intervene/README.html
-

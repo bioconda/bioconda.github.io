@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ibmq'
 .. highlight: bash
-
 
 bioconductor-ibmq
 =================
@@ -21,11 +22,19 @@ bioconductor-ibmq
 
    |downloads_bioconductor-ibmq| |docker_bioconductor-ibmq|
 
-   :versions: 1.22.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`gsl` >=2.4,<2.5.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2` >=0.9.2 
-
-   :required~by: |required_by_bioconductor-ibmq|
+   :versions: 1.22.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends gsl: >=2.4,<2.5.0a0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: >=0.9.2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-ibmq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ibmq
+      docker pull quay.io/repository/biocontainers/bioconductor-ibmq:<tag>
+
+   (see `bioconductor-ibmq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ibmq| conda:required_by:: bioconductor-ibmq
 .. |downloads_bioconductor-ibmq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ibmq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ibmq| image:: https://quay.io/repository/biocontainers/bioconductor-ibmq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ibmq
+.. _`bioconductor-ibmq/tags`: https://quay.io/repository/biocontainers/bioconductor-ibmq?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ibmq/README.html
-

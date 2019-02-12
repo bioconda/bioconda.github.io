@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-prostatecancertaylor'
 .. highlight: bash
-
 
 bioconductor-prostatecancertaylor
 =================================
@@ -21,11 +22,15 @@ bioconductor-prostatecancertaylor
 
    |downloads_bioconductor-prostatecancertaylor| |docker_bioconductor-prostatecancertaylor|
 
-   :versions: 1.10.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-prostatecancertaylor|
+   :versions: 1.10.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-prostatecancertaylor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-prostatecancertaylor
+      docker pull quay.io/repository/biocontainers/bioconductor-prostatecancertaylor:<tag>
+
+   (see `bioconductor-prostatecancertaylor/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-prostatecancertaylor| conda:required_by:: bioconductor-prostatecancertaylor
 .. |downloads_bioconductor-prostatecancertaylor| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prostatecancertaylor.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-prostatecancertaylor| image:: https://quay.io/repository/biocontainers/bioconductor-prostatecancertaylor/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prostatecancertaylor
+.. _`bioconductor-prostatecancertaylor/tags`: https://quay.io/repository/biocontainers/bioconductor-prostatecancertaylor?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-prostatecancertaylor/README.html
-

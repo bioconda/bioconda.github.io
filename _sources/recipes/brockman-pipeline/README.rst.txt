@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'brockman-pipeline'
 .. highlight: bash
-
 
 brockman-pipeline
 =================
@@ -21,11 +22,33 @@ brockman-pipeline
 
    |downloads_brockman-pipeline| |docker_brockman-pipeline|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`amused`  :conda:package:`bedtools`  :conda:package:`bowtie2`  :conda:package:`bzip2`  :conda:package:`jemalloc`  :conda:package:`libgcc`  :conda:package:`ncurses`  :conda:package:`ruby` >=2.4 :conda:package:`ruby-dna-tools`  :conda:package:`samtools`  :conda:package:`trimmomatic`  :conda:package:`ucsc-twobittofa`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_brockman-pipeline|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends amused: 
+   
+   :depends bedtools: 
+   
+   :depends bowtie2: 
+   
+   :depends bzip2: 
+   
+   :depends jemalloc: 
+   
+   :depends ncurses: 
+   
+   :depends ruby: >=2.4
+   
+   :depends ruby-dna-tools: 
+   
+   :depends samtools: 
+   
+   :depends trimmomatic: 
+   
+   :depends ucsc-twobittofa: 
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ brockman-pipeline
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/brockman-pipeline
+      docker pull quay.io/repository/biocontainers/brockman-pipeline:<tag>
+
+   (see `brockman-pipeline/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_brockman-pipeline| conda:required_by:: brockman-pipeline
 .. |downloads_brockman-pipeline| image:: https://img.shields.io/conda/dn/bioconda/brockman-pipeline.svg?style=flat
    :alt:   (downloads)
 .. |docker_brockman-pipeline| image:: https://quay.io/repository/biocontainers/brockman-pipeline/status
    :target: https://quay.io/repository/biocontainers/brockman-pipeline
+.. _`brockman-pipeline/tags`: https://quay.io/repository/biocontainers/brockman-pipeline?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/brockman-pipeline/README.html
-

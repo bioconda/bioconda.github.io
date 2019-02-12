@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconda-utils'
 .. highlight: bash
-
 
 bioconda-utils
 ==============
@@ -22,11 +23,71 @@ bioconda-utils
 
    |downloads_bioconda-utils| |docker_bioconda-utils|
 
-   :versions: 0.15.7, 0.15.3, 0.15.2, 0.15.1, 0.14.9, 0.14.3, 0.14.2, 0.12.3, 0.12.0, 0.11.4, 0.11.3, 0.11.2, 0.11.1
-
-   :depends: :conda:package:`aiofiles` 0.4.* :conda:package:`aiohttp` 3.4.* :conda:package:`alabaster` 0.7.* :conda:package:`anaconda-client` 1.6.* :conda:package:`argh` 0.26.* :conda:package:`backoff` 1.6.* :conda:package:`beautifulsoup4` 4.6.* :conda:package:`colorlog` 3.1.* :conda:package:`conda` 4.5.11.* :conda:package:`conda-build`  :conda:package:`docutils`  :conda:package:`galaxy-lib` 17.9.* :conda:package:`gidgethub` 3.0.* :conda:package:`gitpython` 2.1.* :conda:package:`involucro` 1.1.* :conda:package:`jinja2` 2.10.* :conda:package:`jsonschema` 2.6.* :conda:package:`networkx` 1.11.* :conda:package:`numpy` 1.15.* :conda:package:`pandas` 0.23.* :conda:package:`pyaml` 17.12.* :conda:package:`pydotplus` 2.0.* :conda:package:`pygithub` 1.34.* :conda:package:`python` >=3 :conda:package:`regex` 2018.08.29.* :conda:package:`requests` 2.20.* :conda:package:`ruamel_yaml` 0.15.* :conda:package:`six` 1.11.* :conda:package:`sphinx`  :conda:package:`sphinx_rtd_theme`  :conda:package:`tqdm` >=4.26 
-
-   :required~by: |required_by_bioconda-utils|
+   :versions: 0.15.7-0, 0.15.3-0, 0.15.2-0, 0.15.1-0, 0.14.9-0, 0.14.3-0, 0.14.2-0, 0.12.3-1, 0.12.3-0, 0.12.0-0, 0.11.4-1, 0.11.4-0, 0.11.3-0, 0.11.2-0, 0.11.1-0
+   
+   :depends aiofiles: 0.4.*
+   
+   :depends aiohttp: 3.4.*
+   
+   :depends alabaster: 0.7.*
+   
+   :depends anaconda-client: 1.6.*
+   
+   :depends argh: 0.26.*
+   
+   :depends backoff: 1.6.*
+   
+   :depends beautifulsoup4: 4.6.*
+   
+   :depends colorlog: 3.1.*
+   
+   :depends conda: 4.5.11.*
+   
+   :depends conda-build: 
+   
+   :depends docutils: 
+   
+   :depends galaxy-lib: 17.9.*
+   
+   :depends gidgethub: 3.0.*
+   
+   :depends gitpython: 2.1.*
+   
+   :depends involucro: 1.1.*
+   
+   :depends jinja2: 2.10.*
+   
+   :depends jsonschema: 2.6.*
+   
+   :depends networkx: 1.11.*
+   
+   :depends numpy: 1.15.*
+   
+   :depends pandas: 0.23.*
+   
+   :depends pyaml: 17.12.*
+   
+   :depends pydotplus: 2.0.*
+   
+   :depends pygithub: 1.34.*
+   
+   :depends python: >=3
+   
+   :depends regex: 2018.08.29.*
+   
+   :depends requests: 2.20.*
+   
+   :depends ruamel_yaml: 0.15.*
+   
+   :depends six: 1.11.*
+   
+   :depends sphinx: 
+   
+   :depends sphinx_rtd_theme: 
+   
+   :depends tqdm: >=4.26
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +101,16 @@ bioconda-utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconda-utils
+      docker pull quay.io/repository/biocontainers/bioconda-utils:<tag>
+
+   (see `bioconda-utils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconda-utils| conda:required_by:: bioconda-utils
 .. |downloads_bioconda-utils| image:: https://img.shields.io/conda/dn/bioconda/bioconda-utils.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconda-utils| image:: https://quay.io/repository/biocontainers/bioconda-utils/status
    :target: https://quay.io/repository/biocontainers/bioconda-utils
+.. _`bioconda-utils/tags`: https://quay.io/repository/biocontainers/bioconda-utils?tab=tags
 
 
 
@@ -64,4 +127,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconda-utils/README.html
-

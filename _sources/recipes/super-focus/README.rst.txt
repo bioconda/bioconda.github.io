@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'super-focus'
 .. highlight: bash
-
 
 super-focus
 ===========
@@ -22,11 +23,23 @@ super-focus
 
    |downloads_super-focus| |docker_super-focus|
 
-   :versions: 0.33, 0.32, 0.31, 0.30, 0.29
-
-   :depends: :conda:package:`blast`  :conda:package:`diamond`  :conda:package:`jellyfish`  :conda:package:`numpy` >=1.12.1 :conda:package:`python` >=3 :conda:package:`rapsearch`  :conda:package:`scipy`  
-
-   :required~by: |required_by_super-focus|
+   :versions: 0.33-0, 0.32-1, 0.32-0, 0.31-0, 0.30-0, 0.29-0
+   
+   :depends blast: 
+   
+   :depends diamond: 
+   
+   :depends jellyfish: 
+   
+   :depends numpy: >=1.12.1
+   
+   :depends python: >=3
+   
+   :depends rapsearch: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ super-focus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/super-focus
+      docker pull quay.io/repository/biocontainers/super-focus:<tag>
+
+   (see `super-focus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_super-focus| conda:required_by:: super-focus
 .. |downloads_super-focus| image:: https://img.shields.io/conda/dn/bioconda/super-focus.svg?style=flat
    :alt:   (downloads)
 .. |docker_super-focus| image:: https://quay.io/repository/biocontainers/super-focus/status
    :target: https://quay.io/repository/biocontainers/super-focus
+.. _`super-focus/tags`: https://quay.io/repository/biocontainers/super-focus?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/super-focus/README.html
-

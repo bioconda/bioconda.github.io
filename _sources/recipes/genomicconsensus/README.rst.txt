@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genomicconsensus'
 .. highlight: bash
-
 
 genomicconsensus
 ================
@@ -21,11 +22,21 @@ genomicconsensus
 
    |downloads_genomicconsensus| |docker_genomicconsensus|
 
-   :versions: 2.3.2, 2.3.1
-
-   :depends: :conda:package:`numpy` >=1.7.1 :conda:package:`pbcommand` >=1.1.1 :conda:package:`pbcore` >=1.5.1 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`python-consensuscore` >=1.1.1 :conda:package:`python-consensuscore2` >=3.1.0 
-
-   :required~by: |required_by_genomicconsensus|
+   :versions: 2.3.2-3, 2.3.2-2, 2.3.2-1, 2.3.2-0, 2.3.1-0
+   
+   :depends numpy: >=1.15
+   
+   :depends pbcommand: >=1.1.1
+   
+   :depends pbcore: >=1.6.5
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends python-consensuscore: >=1.1.1
+   
+   :depends python-consensuscore2: >=3.1.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ genomicconsensus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genomicconsensus
+      docker pull quay.io/repository/biocontainers/genomicconsensus:<tag>
+
+   (see `genomicconsensus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genomicconsensus| conda:required_by:: genomicconsensus
 .. |downloads_genomicconsensus| image:: https://img.shields.io/conda/dn/bioconda/genomicconsensus.svg?style=flat
    :alt:   (downloads)
 .. |docker_genomicconsensus| image:: https://quay.io/repository/biocontainers/genomicconsensus/status
    :target: https://quay.io/repository/biocontainers/genomicconsensus
+.. _`genomicconsensus/tags`: https://quay.io/repository/biocontainers/genomicconsensus?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genomicconsensus/README.html
-

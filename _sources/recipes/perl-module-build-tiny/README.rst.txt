@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-module-build-tiny'
 .. highlight: bash
-
 
 perl-module-build-tiny
 ======================
@@ -21,11 +22,31 @@ perl-module-build-tiny
 
    |downloads_perl-module-build-tiny| |docker_perl-module-build-tiny|
 
-   :versions: 0.039
-
-   :depends: :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-pathtools`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-module-build-tiny|
+   :versions: 0.039-3, 0.039-2, 0.039-1, 0.039-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-cpan-meta: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-extutils-cbuilder: 
+   
+   :depends perl-extutils-config: 
+   
+   :depends perl-extutils-helpers: 
+   
+   :depends perl-extutils-installpaths: >=0.002
+   
+   :depends perl-extutils-parsexs: 
+   
+   :depends perl-file-path: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-json-pp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ perl-module-build-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-build-tiny
+      docker pull quay.io/repository/biocontainers/perl-module-build-tiny:<tag>
+
+   (see `perl-module-build-tiny/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-module-build-tiny| conda:required_by:: perl-module-build-tiny
 .. |downloads_perl-module-build-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-module-build-tiny.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-module-build-tiny| image:: https://quay.io/repository/biocontainers/perl-module-build-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-module-build-tiny
+.. _`perl-module-build-tiny/tags`: https://quay.io/repository/biocontainers/perl-module-build-tiny?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-module-build-tiny/README.html
-

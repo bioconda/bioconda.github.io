@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gffutils'
 .. highlight: bash
-
 
 gffutils
 ========
@@ -22,11 +23,21 @@ gffutils
 
    |downloads_gffutils| |docker_gffutils|
 
-   :versions: 0.9, 0.8.7.1, 0.8.7, 0.8.6.1
-
-   :depends: :conda:package:`argcomplete`  :conda:package:`argh`  :conda:package:`pyfaidx`  :conda:package:`python` 2.7* :conda:package:`simplejson`  :conda:package:`six`  
-
-   :required~by: |required_by_gffutils|
+   :versions: 0.9-1, 0.9-0, 0.8.7.1-2, 0.8.7.1-1, 0.8.7.1-0, 0.8.7-0, 0.8.6.1-0
+   
+   :depends argcomplete: 
+   
+   :depends argh: 
+   
+   :depends pyfaidx: 
+   
+   :depends python: 
+   
+   :depends simplejson: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ gffutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gffutils
+      docker pull quay.io/repository/biocontainers/gffutils:<tag>
+
+   (see `gffutils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gffutils| conda:required_by:: gffutils
 .. |downloads_gffutils| image:: https://img.shields.io/conda/dn/bioconda/gffutils.svg?style=flat
    :alt:   (downloads)
 .. |docker_gffutils| image:: https://quay.io/repository/biocontainers/gffutils/status
    :target: https://quay.io/repository/biocontainers/gffutils
+.. _`gffutils/tags`: https://quay.io/repository/biocontainers/gffutils?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gffutils/README.html
-

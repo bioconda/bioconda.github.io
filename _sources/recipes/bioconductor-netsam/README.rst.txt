@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-netsam'
 .. highlight: bash
-
 
 bioconductor-netsam
 ===================
@@ -21,11 +22,17 @@ bioconductor-netsam
 
    |downloads_bioconductor-netsam| |docker_bioconductor-netsam|
 
-   :versions: 1.22.0
-
-   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph` >=0.6-1 :conda:package:`r-seriation` >=1.0-6 
-
-   :required~by: |required_by_bioconductor-netsam|
+   :versions: 1.22.0-0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-igraph: >=0.6-1
+   
+   :depends r-seriation: >=1.0-6
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-netsam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-netsam
+      docker pull quay.io/repository/biocontainers/bioconductor-netsam:<tag>
+
+   (see `bioconductor-netsam/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-netsam| conda:required_by:: bioconductor-netsam
 .. |downloads_bioconductor-netsam| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-netsam.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-netsam| image:: https://quay.io/repository/biocontainers/bioconductor-netsam/status
    :target: https://quay.io/repository/biocontainers/bioconductor-netsam
+.. _`bioconductor-netsam/tags`: https://quay.io/repository/biocontainers/bioconductor-netsam?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-netsam/README.html
-

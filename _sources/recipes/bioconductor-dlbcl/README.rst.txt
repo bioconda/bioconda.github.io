@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-dlbcl'
 .. highlight: bash
-
 
 bioconductor-dlbcl
 ==================
@@ -21,11 +22,15 @@ bioconductor-dlbcl
 
    |downloads_bioconductor-dlbcl| |docker_bioconductor-dlbcl|
 
-   :versions: 1.22.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-dlbcl|
+   :versions: 1.22.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-dlbcl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dlbcl
+      docker pull quay.io/repository/biocontainers/bioconductor-dlbcl:<tag>
+
+   (see `bioconductor-dlbcl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-dlbcl| conda:required_by:: bioconductor-dlbcl
 .. |downloads_bioconductor-dlbcl| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dlbcl.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-dlbcl| image:: https://quay.io/repository/biocontainers/bioconductor-dlbcl/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dlbcl
+.. _`bioconductor-dlbcl/tags`: https://quay.io/repository/biocontainers/bioconductor-dlbcl?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-dlbcl/README.html
-

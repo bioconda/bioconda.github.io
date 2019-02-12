@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'curesim'
 .. highlight: bash
-
 
 curesim
 =======
@@ -21,11 +22,13 @@ curesim
 
    |downloads_curesim| |docker_curesim|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`coreutils`  :conda:package:`java-jdk` >=8 
-
-   :required~by: |required_by_curesim|
+   :versions: 1.3-1, 1.3-0
+   
+   :depends coreutils: 
+   
+   :depends java-jdk: >=8
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ curesim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/curesim
+      docker pull quay.io/repository/biocontainers/curesim:<tag>
+
+   (see `curesim/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_curesim| conda:required_by:: curesim
 .. |downloads_curesim| image:: https://img.shields.io/conda/dn/bioconda/curesim.svg?style=flat
    :alt:   (downloads)
 .. |docker_curesim| image:: https://quay.io/repository/biocontainers/curesim/status
    :target: https://quay.io/repository/biocontainers/curesim
+.. _`curesim/tags`: https://quay.io/repository/biocontainers/curesim?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/curesim/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-pod-elemental'
 .. highlight: bash
-
 
 perl-pod-elemental
 ==================
@@ -21,11 +22,23 @@ perl-pod-elemental
 
    |downloads_perl-pod-elemental| |docker_perl-pod-elemental|
 
-   :versions: 0.103004
-
-   :depends: :conda:package:`perl-app-cpanminus`  :conda:package:`perl-moose`  :conda:package:`perl-moosex-types`  :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-pod-elemental|
+   :versions: 0.103004-2, 0.103004-1, 0.103004-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-mixin-linewise: 
+   
+   :depends perl-moose: 
+   
+   :depends perl-moosex-types: 
+   
+   :depends perl-scalar-list-utils: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ perl-pod-elemental
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pod-elemental
+      docker pull quay.io/repository/biocontainers/perl-pod-elemental:<tag>
+
+   (see `perl-pod-elemental/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-pod-elemental| conda:required_by:: perl-pod-elemental
 .. |downloads_perl-pod-elemental| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-elemental.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-pod-elemental| image:: https://quay.io/repository/biocontainers/perl-pod-elemental/status
    :target: https://quay.io/repository/biocontainers/perl-pod-elemental
+.. _`perl-pod-elemental/tags`: https://quay.io/repository/biocontainers/perl-pod-elemental?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-pod-elemental/README.html
-

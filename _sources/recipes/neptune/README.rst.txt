@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'neptune'
 .. highlight: bash
-
 
 neptune
 =======
@@ -21,11 +22,21 @@ neptune
 
    |downloads_neptune| |docker_neptune|
 
-   :versions: 1.2.5, 1.2.3
-
-   :depends: :conda:package:`biopython`  :conda:package:`blast`  :conda:package:`drmaa`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`scipy`  
-
-   :required~by: |required_by_neptune|
+   :versions: 1.2.5-2, 1.2.5-1, 1.2.5-0, 1.2.3-0
+   
+   :depends biopython: 
+   
+   :depends blast: 
+   
+   :depends drmaa: 
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ neptune
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/neptune
+      docker pull quay.io/repository/biocontainers/neptune:<tag>
+
+   (see `neptune/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_neptune| conda:required_by:: neptune
 .. |downloads_neptune| image:: https://img.shields.io/conda/dn/bioconda/neptune.svg?style=flat
    :alt:   (downloads)
 .. |docker_neptune| image:: https://quay.io/repository/biocontainers/neptune/status
    :target: https://quay.io/repository/biocontainers/neptune
+.. _`neptune/tags`: https://quay.io/repository/biocontainers/neptune?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/neptune/README.html
-

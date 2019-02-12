@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-trap'
 .. highlight: bash
-
 
 perl-test-trap
 ==============
@@ -21,11 +22,27 @@ perl-test-trap
 
    |downloads_perl-test-trap| |docker_perl-test-trap|
 
-   :versions: 0.3.3, 0.3.2
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-base`  :conda:package:`perl-carp`  :conda:package:`perl-constant`  :conda:package:`perl-data-dump`  :conda:package:`perl-exporter`  :conda:package:`perl-file-temp`  :conda:package:`perl-lib`  :conda:package:`perl-version`  
-
-   :required~by: |required_by_perl-test-trap|
+   :versions: 0.3.3-0, 0.3.2-4, 0.3.2-3
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-base: 
+   
+   :depends perl-carp: 
+   
+   :depends perl-constant: 
+   
+   :depends perl-data-dump: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-file-temp: 
+   
+   :depends perl-lib: 
+   
+   :depends perl-version: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ perl-test-trap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-trap
+      docker pull quay.io/repository/biocontainers/perl-test-trap:<tag>
+
+   (see `perl-test-trap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-trap| conda:required_by:: perl-test-trap
 .. |downloads_perl-test-trap| image:: https://img.shields.io/conda/dn/bioconda/perl-test-trap.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-trap| image:: https://quay.io/repository/biocontainers/perl-test-trap/status
    :target: https://quay.io/repository/biocontainers/perl-test-trap
+.. _`perl-test-trap/tags`: https://quay.io/repository/biocontainers/perl-test-trap?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-trap/README.html
-

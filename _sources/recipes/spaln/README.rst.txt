@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'spaln'
 .. highlight: bash
-
 
 spaln
 =====
@@ -27,11 +28,15 @@ spaln
 
    |downloads_spaln| |docker_spaln|
 
-   :versions: 2.3.2
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_spaln|
+   :versions: 2.3.2-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -45,14 +50,16 @@ spaln
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spaln
+      docker pull quay.io/repository/biocontainers/spaln:<tag>
+
+   (see `spaln/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_spaln| conda:required_by:: spaln
 .. |downloads_spaln| image:: https://img.shields.io/conda/dn/bioconda/spaln.svg?style=flat
    :alt:   (downloads)
 .. |docker_spaln| image:: https://quay.io/repository/biocontainers/spaln/status
    :target: https://quay.io/repository/biocontainers/spaln
+.. _`spaln/tags`: https://quay.io/repository/biocontainers/spaln?tab=tags
 
 
 
@@ -69,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/spaln/README.html
-

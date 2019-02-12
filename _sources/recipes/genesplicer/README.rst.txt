@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genesplicer'
 .. highlight: bash
-
 
 genesplicer
 ===========
@@ -22,11 +23,11 @@ genesplicer
 
    |downloads_genesplicer| |docker_genesplicer|
 
-   :versions: 1.0, 0_2003.04.03
-
-   :depends: 
-
-   :required~by: |required_by_genesplicer|
+   :versions: 1.0-1, 1.0-0, 0_2003.04.03-1, 0_2003.04.03-0
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ genesplicer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genesplicer
+      docker pull quay.io/repository/biocontainers/genesplicer:<tag>
+
+   (see `genesplicer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genesplicer| conda:required_by:: genesplicer
 .. |downloads_genesplicer| image:: https://img.shields.io/conda/dn/bioconda/genesplicer.svg?style=flat
    :alt:   (downloads)
 .. |docker_genesplicer| image:: https://quay.io/repository/biocontainers/genesplicer/status
    :target: https://quay.io/repository/biocontainers/genesplicer
+.. _`genesplicer/tags`: https://quay.io/repository/biocontainers/genesplicer?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genesplicer/README.html
-

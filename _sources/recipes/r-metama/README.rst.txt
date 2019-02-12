@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-metama'
 .. highlight: bash
-
 
 r-metama
 ========
@@ -21,11 +22,15 @@ r-metama
 
    |downloads_r-metama| |docker_r-metama|
 
-   :versions: 3.1.2
-
-   :depends: :conda:package:`bioconductor-limma`  :conda:package:`r-base` 3.4.1* :conda:package:`r-smvar`  
-
-   :required~by: |required_by_r-metama|
+   :versions: 3.1.2-3, 3.1.2-2, 3.1.2-0
+   
+   :depends bioconductor-limma: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-smvar: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-metama
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-metama
+      docker pull quay.io/repository/biocontainers/r-metama:<tag>
+
+   (see `r-metama/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-metama| conda:required_by:: r-metama
 .. |downloads_r-metama| image:: https://img.shields.io/conda/dn/bioconda/r-metama.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-metama| image:: https://quay.io/repository/biocontainers/r-metama/status
    :target: https://quay.io/repository/biocontainers/r-metama
+.. _`r-metama/tags`: https://quay.io/repository/biocontainers/r-metama?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-metama/README.html
-

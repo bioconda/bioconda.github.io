@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-tcga2stat'
 .. highlight: bash
-
 
 r-tcga2stat
 ===========
@@ -21,11 +22,15 @@ r-tcga2stat
 
    |downloads_r-tcga2stat| |docker_r-tcga2stat|
 
-   :versions: 1.2
-
-   :depends: :conda:package:`bioconductor-cntools`  :conda:package:`r-base` 3.4.1* :conda:package:`r-xml`  
-
-   :required~by: |required_by_r-tcga2stat|
+   :versions: 1.2-4, 1.2-3, 1.2-2, 1.2-0
+   
+   :depends bioconductor-cntools: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-tcga2stat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-tcga2stat
+      docker pull quay.io/repository/biocontainers/r-tcga2stat:<tag>
+
+   (see `r-tcga2stat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-tcga2stat| conda:required_by:: r-tcga2stat
 .. |downloads_r-tcga2stat| image:: https://img.shields.io/conda/dn/bioconda/r-tcga2stat.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-tcga2stat| image:: https://quay.io/repository/biocontainers/r-tcga2stat/status
    :target: https://quay.io/repository/biocontainers/r-tcga2stat
+.. _`r-tcga2stat/tags`: https://quay.io/repository/biocontainers/r-tcga2stat?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-tcga2stat/README.html
-

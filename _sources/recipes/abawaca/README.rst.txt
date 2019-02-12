@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'abawaca'
 .. highlight: bash
-
 
 abawaca
 =======
@@ -22,11 +23,11 @@ abawaca
 
    |downloads_abawaca| |docker_abawaca|
 
-   :versions: 1.00
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_abawaca|
+   :versions: 1.00-1, 1.00-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ abawaca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/abawaca
+      docker pull quay.io/repository/biocontainers/abawaca:<tag>
+
+   (see `abawaca/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_abawaca| conda:required_by:: abawaca
 .. |downloads_abawaca| image:: https://img.shields.io/conda/dn/bioconda/abawaca.svg?style=flat
    :alt:   (downloads)
 .. |docker_abawaca| image:: https://quay.io/repository/biocontainers/abawaca/status
    :target: https://quay.io/repository/biocontainers/abawaca
+.. _`abawaca/tags`: https://quay.io/repository/biocontainers/abawaca?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/abawaca/README.html
-

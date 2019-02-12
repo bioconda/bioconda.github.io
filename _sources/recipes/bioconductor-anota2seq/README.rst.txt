@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-anota2seq'
 .. highlight: bash
-
 
 bioconductor-anota2seq
 ======================
@@ -21,11 +22,25 @@ bioconductor-anota2seq
 
    |downloads_bioconductor-anota2seq| |docker_bioconductor-anota2seq|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-multtest` >=2.38.0,<2.39.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_bioconductor-anota2seq|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-multtest: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bioconductor-anota2seq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-anota2seq
+      docker pull quay.io/repository/biocontainers/bioconductor-anota2seq:<tag>
+
+   (see `bioconductor-anota2seq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-anota2seq| conda:required_by:: bioconductor-anota2seq
 .. |downloads_bioconductor-anota2seq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-anota2seq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-anota2seq| image:: https://quay.io/repository/biocontainers/bioconductor-anota2seq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-anota2seq
+.. _`bioconductor-anota2seq/tags`: https://quay.io/repository/biocontainers/bioconductor-anota2seq?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-anota2seq/README.html
-

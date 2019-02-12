@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kallisto'
 .. highlight: bash
-
 
 kallisto
 ========
@@ -22,11 +23,15 @@ kallisto
 
    |downloads_kallisto| |docker_kallisto|
 
-   :versions: 0.45.0, 0.44.0, 0.43.1, 0.43.0, 0.42.4, 0.42.3
-
-   :depends: :conda:package:`hdf5` >=1.10.3,<1.10.4.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_kallisto|
+   :versions: 0.45.0-0, 0.44.0-2, 0.44.0-1, 0.43.1-1, 0.43.1-0, 0.43.0-2, 0.43.0-1, 0.42.4-2, 0.42.4-1, 0.42.3-1, 0.42.3-0
+   
+   :depends hdf5: >=1.10.3,<1.10.4.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ kallisto
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kallisto
+      docker pull quay.io/repository/biocontainers/kallisto:<tag>
+
+   (see `kallisto/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kallisto| conda:required_by:: kallisto
 .. |downloads_kallisto| image:: https://img.shields.io/conda/dn/bioconda/kallisto.svg?style=flat
    :alt:   (downloads)
 .. |docker_kallisto| image:: https://quay.io/repository/biocontainers/kallisto/status
    :target: https://quay.io/repository/biocontainers/kallisto
+.. _`kallisto/tags`: https://quay.io/repository/biocontainers/kallisto?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kallisto/README.html
-

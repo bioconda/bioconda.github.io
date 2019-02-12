@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-mmgenome'
 .. highlight: bash
-
 
 r-mmgenome
 ==========
@@ -21,11 +22,29 @@ r-mmgenome
 
    |downloads_r-mmgenome| |docker_r-mmgenome|
 
-   :versions: 0.7.1, 0.6.3
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.32.0 :conda:package:`r-base` 3.4.1* :conda:package:`r-dplyr` >=0.4.0 :conda:package:`r-ggplot2` >=1.0.0 :conda:package:`r-gridextra` >=0.9.1 :conda:package:`r-igraph` >=1.0.0 :conda:package:`r-knitr` >=1.6 :conda:package:`r-reshape2` >=1.4 :conda:package:`r-sp` >=1.0.15 :conda:package:`r-vegan` >=2.0.10 
-
-   :required~by: |required_by_r-mmgenome|
+   :versions: 0.7.1-0, 0.6.3-0
+   
+   :depends bioconductor-biostrings: >=2.32.0
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-dplyr: >=0.4.0
+   
+   :depends r-ggplot2: >=1.0.0
+   
+   :depends r-gridextra: >=0.9.1
+   
+   :depends r-igraph: >=1.0.0
+   
+   :depends r-knitr: >=1.6
+   
+   :depends r-reshape2: >=1.4
+   
+   :depends r-sp: >=1.0.15
+   
+   :depends r-vegan: >=2.0.10
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ r-mmgenome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-mmgenome
+      docker pull quay.io/repository/biocontainers/r-mmgenome:<tag>
+
+   (see `r-mmgenome/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-mmgenome| conda:required_by:: r-mmgenome
 .. |downloads_r-mmgenome| image:: https://img.shields.io/conda/dn/bioconda/r-mmgenome.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-mmgenome| image:: https://quay.io/repository/biocontainers/r-mmgenome/status
    :target: https://quay.io/repository/biocontainers/r-mmgenome
+.. _`r-mmgenome/tags`: https://quay.io/repository/biocontainers/r-mmgenome?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-mmgenome/README.html
-

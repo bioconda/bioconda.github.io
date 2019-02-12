@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-tissueenrich'
 .. highlight: bash
-
 
 bioconductor-tissueenrich
 =========================
@@ -21,11 +22,23 @@ bioconductor-tissueenrich
 
    |downloads_bioconductor-tissueenrich| |docker_bioconductor-tissueenrich|
 
-   :versions: 1.2.1, 1.0.7
-
-   :depends: :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr` >=0.7.3 :conda:package:`r-ensurer` >=1.1.0 :conda:package:`r-ggplot2` >=2.2.1 :conda:package:`r-tidyr` >=0.8.0 
-
-   :required~by: |required_by_bioconductor-tissueenrich|
+   :versions: 1.2.1-0, 1.0.7-0
+   
+   :depends bioconductor-gseabase: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: >=0.7.3
+   
+   :depends r-ensurer: >=1.1.0
+   
+   :depends r-ggplot2: >=2.2.1
+   
+   :depends r-tidyr: >=0.8.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-tissueenrich
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tissueenrich
+      docker pull quay.io/repository/biocontainers/bioconductor-tissueenrich:<tag>
+
+   (see `bioconductor-tissueenrich/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-tissueenrich| conda:required_by:: bioconductor-tissueenrich
 .. |downloads_bioconductor-tissueenrich| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tissueenrich.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-tissueenrich| image:: https://quay.io/repository/biocontainers/bioconductor-tissueenrich/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tissueenrich
+.. _`bioconductor-tissueenrich/tags`: https://quay.io/repository/biocontainers/bioconductor-tissueenrich?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-tissueenrich/README.html
-

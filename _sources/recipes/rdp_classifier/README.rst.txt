@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rdp_classifier'
 .. highlight: bash
-
 
 rdp_classifier
 ==============
@@ -21,11 +22,11 @@ rdp_classifier
 
    |downloads_rdp_classifier| |docker_rdp_classifier|
 
-   :versions: 2.2
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_rdp_classifier|
+   :versions: 2.2-1, 2.2-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ rdp_classifier
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rdp_classifier
+      docker pull quay.io/repository/biocontainers/rdp_classifier:<tag>
+
+   (see `rdp_classifier/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rdp_classifier| conda:required_by:: rdp_classifier
 .. |downloads_rdp_classifier| image:: https://img.shields.io/conda/dn/bioconda/rdp_classifier.svg?style=flat
    :alt:   (downloads)
 .. |docker_rdp_classifier| image:: https://quay.io/repository/biocontainers/rdp_classifier/status
    :target: https://quay.io/repository/biocontainers/rdp_classifier
+.. _`rdp_classifier/tags`: https://quay.io/repository/biocontainers/rdp_classifier?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rdp_classifier/README.html
-

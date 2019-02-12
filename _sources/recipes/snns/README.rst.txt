@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'snns'
 .. highlight: bash
-
 
 snns
 ====
@@ -21,11 +22,15 @@ snns
 
    |downloads_snns| |docker_snns|
 
-   :versions: 4.3
-
-   :depends: :conda:package:`bison`  :conda:package:`flex`  :conda:package:`xorg-libxaw3d`  
-
-   :required~by: |required_by_snns|
+   :versions: 4.3-1, 4.3-0
+   
+   :depends bison: 
+   
+   :depends flex: 
+   
+   :depends xorg-libxaw3d: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ snns
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snns
+      docker pull quay.io/repository/biocontainers/snns:<tag>
+
+   (see `snns/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_snns| conda:required_by:: snns
 .. |downloads_snns| image:: https://img.shields.io/conda/dn/bioconda/snns.svg?style=flat
    :alt:   (downloads)
 .. |docker_snns| image:: https://quay.io/repository/biocontainers/snns/status
    :target: https://quay.io/repository/biocontainers/snns
+.. _`snns/tags`: https://quay.io/repository/biocontainers/snns?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/snns/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rqt'
 .. highlight: bash
-
 
 bioconductor-rqt
 ================
@@ -21,11 +22,29 @@ bioconductor-rqt
 
    |downloads_bioconductor-rqt| |docker_bioconductor-rqt|
 
-   :versions: 1.8.0
-
-   :depends: :conda:package:`bioconductor-ropls` >=1.14.0,<1.15.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-car`  :conda:package:`r-compquadform`  :conda:package:`r-glmnet`  :conda:package:`r-matrix`  :conda:package:`r-metap`  :conda:package:`r-pls`  :conda:package:`r-runit`  
-
-   :required~by: |required_by_bioconductor-rqt|
+   :versions: 1.8.0-0
+   
+   :depends bioconductor-ropls: >=1.14.0,<1.15.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-car: 
+   
+   :depends r-compquadform: 
+   
+   :depends r-glmnet: 
+   
+   :depends r-matrix: 
+   
+   :depends r-metap: 
+   
+   :depends r-pls: 
+   
+   :depends r-runit: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ bioconductor-rqt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rqt
+      docker pull quay.io/repository/biocontainers/bioconductor-rqt:<tag>
+
+   (see `bioconductor-rqt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rqt| conda:required_by:: bioconductor-rqt
 .. |downloads_bioconductor-rqt| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rqt.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rqt| image:: https://quay.io/repository/biocontainers/bioconductor-rqt/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rqt
+.. _`bioconductor-rqt/tags`: https://quay.io/repository/biocontainers/bioconductor-rqt?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rqt/README.html
-

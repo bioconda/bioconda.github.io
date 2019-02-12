@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-scalar-list-utils'
 .. highlight: bash
-
 
 perl-scalar-list-utils
 ======================
@@ -21,11 +22,13 @@ perl-scalar-list-utils
 
    |downloads_perl-scalar-list-utils| |docker_perl-scalar-list-utils|
 
-   :versions: 1.45, 1.42
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-scalar-list-utils|
+   :versions: 1.45-3, 1.45-2, 1.45-1, 1.45-0, 1.42-3, 1.42-2, 1.42-1, 1.42-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-scalar-list-utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-scalar-list-utils
+      docker pull quay.io/repository/biocontainers/perl-scalar-list-utils:<tag>
+
+   (see `perl-scalar-list-utils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-scalar-list-utils| conda:required_by:: perl-scalar-list-utils
 .. |downloads_perl-scalar-list-utils| image:: https://img.shields.io/conda/dn/bioconda/perl-scalar-list-utils.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-scalar-list-utils| image:: https://quay.io/repository/biocontainers/perl-scalar-list-utils/status
    :target: https://quay.io/repository/biocontainers/perl-scalar-list-utils
+.. _`perl-scalar-list-utils/tags`: https://quay.io/repository/biocontainers/perl-scalar-list-utils?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-scalar-list-utils/README.html
-

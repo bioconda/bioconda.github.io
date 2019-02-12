@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'trinotate'
 .. highlight: bash
-
 
 trinotate
 =========
@@ -21,11 +22,27 @@ trinotate
 
    |downloads_trinotate| |docker_trinotate|
 
-   :versions: 3.1.1, 3.1.0, 3.0.2, 3.0.1
-
-   :depends: :conda:package:`blast`  :conda:package:`hmmer`  :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-dbd-sqlite`  :conda:package:`perl-dbi`  :conda:package:`perl-file-find-rule`  :conda:package:`perl-module-build`  :conda:package:`sqlite`  
-
-   :required~by: |required_by_trinotate|
+   :versions: 3.1.1-5, 3.1.1-4, 3.1.1-0, 3.1.0-0, 3.0.2-0, 3.0.1-1, 3.0.1-0
+   
+   :depends blast: 
+   
+   :depends hmmer: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-dbd-sqlite: 
+   
+   :depends perl-dbi: 
+   
+   :depends perl-file-find-rule: 
+   
+   :depends perl-module-build: 
+   
+   :depends sqlite: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ trinotate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trinotate
+      docker pull quay.io/repository/biocontainers/trinotate:<tag>
+
+   (see `trinotate/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_trinotate| conda:required_by:: trinotate
 .. |downloads_trinotate| image:: https://img.shields.io/conda/dn/bioconda/trinotate.svg?style=flat
    :alt:   (downloads)
 .. |docker_trinotate| image:: https://quay.io/repository/biocontainers/trinotate/status
    :target: https://quay.io/repository/biocontainers/trinotate
+.. _`trinotate/tags`: https://quay.io/repository/biocontainers/trinotate?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/trinotate/README.html
-

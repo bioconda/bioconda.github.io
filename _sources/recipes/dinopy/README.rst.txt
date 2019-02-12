@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dinopy'
 .. highlight: bash
-
 
 dinopy
 ======
@@ -21,11 +22,15 @@ dinopy
 
    |downloads_dinopy| |docker_dinopy|
 
-   :versions: 2.0.1, 2.0.0, 1.2.1, 1.2.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy` >=1.9 :conda:package:`python` >=3.5,<3.6.0a0 
-
-   :required~by: |required_by_dinopy|
+   :versions: 2.0.1-0, 2.0.0-1, 2.0.0-0, 1.2.1-0, 1.2.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends numpy: >=1.9
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ dinopy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dinopy
+      docker pull quay.io/repository/biocontainers/dinopy:<tag>
+
+   (see `dinopy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dinopy| conda:required_by:: dinopy
 .. |downloads_dinopy| image:: https://img.shields.io/conda/dn/bioconda/dinopy.svg?style=flat
    :alt:   (downloads)
 .. |docker_dinopy| image:: https://quay.io/repository/biocontainers/dinopy/status
    :target: https://quay.io/repository/biocontainers/dinopy
+.. _`dinopy/tags`: https://quay.io/repository/biocontainers/dinopy?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dinopy/README.html
-

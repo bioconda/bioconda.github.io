@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'transdecoder'
 .. highlight: bash
-
 
 transdecoder
 ============
@@ -22,11 +23,15 @@ transdecoder
 
    |downloads_transdecoder| |docker_transdecoder|
 
-   :versions: 5.5.0, 5.3.0, 5.2.0, 5.1.0, 5.0.2, 3.0.1, 2.1.0
-
-   :depends: :conda:package:`perl`  :conda:package:`perl-db-file`  :conda:package:`perl-uri`  
-
-   :required~by: |required_by_transdecoder|
+   :versions: 5.5.0-0, 5.3.0-0, 5.2.0-0, 5.1.0-0, 5.0.2-0, 3.0.1-1, 3.0.1-0, 2.1.0-4, 2.1.0-3, 2.1.0-2, 2.1.0-1, 2.1.0-0
+   
+   :depends perl: 
+   
+   :depends perl-db-file: 
+   
+   :depends perl-uri: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ transdecoder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/transdecoder
+      docker pull quay.io/repository/biocontainers/transdecoder:<tag>
+
+   (see `transdecoder/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_transdecoder| conda:required_by:: transdecoder
 .. |downloads_transdecoder| image:: https://img.shields.io/conda/dn/bioconda/transdecoder.svg?style=flat
    :alt:   (downloads)
 .. |docker_transdecoder| image:: https://quay.io/repository/biocontainers/transdecoder/status
    :target: https://quay.io/repository/biocontainers/transdecoder
+.. _`transdecoder/tags`: https://quay.io/repository/biocontainers/transdecoder?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/transdecoder/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-readat'
 .. highlight: bash
-
 
 bioconductor-readat
 ===================
@@ -21,11 +22,45 @@ bioconductor-readat
 
    |downloads_bioconductor-readat| |docker_bioconductor-readat|
 
-   :versions: 1.8.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-assertive.base` >=0.0-7 :conda:package:`r-assertive.files` >=0.0-2 :conda:package:`r-assertive.numbers` >=0.0-2 :conda:package:`r-assertive.properties` >=0.0-4 :conda:package:`r-assertive.sets` >=0.0-3 :conda:package:`r-assertive.types` >=0.0-3 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table` >=1.10.4 :conda:package:`r-dplyr` >=0.5.0 :conda:package:`r-magrittr` >=1.5 :conda:package:`r-openxlsx` >=4.0.17 :conda:package:`r-pathological` >=0.1-2 :conda:package:`r-reshape2` >=1.4.2 :conda:package:`r-stringi` >=1.1.5 :conda:package:`r-testthat` >=1.0.2 :conda:package:`r-tidyr` >=0.6.2 
-
-   :required~by: |required_by_bioconductor-readat|
+   :versions: 1.8.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-assertive.base: >=0.0-7
+   
+   :depends r-assertive.files: >=0.0-2
+   
+   :depends r-assertive.numbers: >=0.0-2
+   
+   :depends r-assertive.properties: >=0.0-4
+   
+   :depends r-assertive.sets: >=0.0-3
+   
+   :depends r-assertive.types: >=0.0-3
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: >=1.10.4
+   
+   :depends r-dplyr: >=0.5.0
+   
+   :depends r-magrittr: >=1.5
+   
+   :depends r-openxlsx: >=4.0.17
+   
+   :depends r-pathological: >=0.1-2
+   
+   :depends r-reshape2: >=1.4.2
+   
+   :depends r-stringi: >=1.1.5
+   
+   :depends r-testthat: >=1.0.2
+   
+   :depends r-tidyr: >=0.6.2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +74,16 @@ bioconductor-readat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-readat
+      docker pull quay.io/repository/biocontainers/bioconductor-readat:<tag>
+
+   (see `bioconductor-readat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-readat| conda:required_by:: bioconductor-readat
 .. |downloads_bioconductor-readat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-readat.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-readat| image:: https://quay.io/repository/biocontainers/bioconductor-readat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-readat
+.. _`bioconductor-readat/tags`: https://quay.io/repository/biocontainers/bioconductor-readat?tab=tags
 
 
 
@@ -63,4 +100,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-readat/README.html
-

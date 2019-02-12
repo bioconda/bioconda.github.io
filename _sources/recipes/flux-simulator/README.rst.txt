@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'flux-simulator'
 .. highlight: bash
-
 
 flux-simulator
 ==============
@@ -21,11 +22,11 @@ flux-simulator
 
    |downloads_flux-simulator| |docker_flux-simulator|
 
-   :versions: 1.2.1
-
-   :depends: :conda:package:`java-jdk`  
-
-   :required~by: |required_by_flux-simulator|
+   :versions: 1.2.1-1, 1.2.1-0
+   
+   :depends java-jdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ flux-simulator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flux-simulator
+      docker pull quay.io/repository/biocontainers/flux-simulator:<tag>
+
+   (see `flux-simulator/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_flux-simulator| conda:required_by:: flux-simulator
 .. |downloads_flux-simulator| image:: https://img.shields.io/conda/dn/bioconda/flux-simulator.svg?style=flat
    :alt:   (downloads)
 .. |docker_flux-simulator| image:: https://quay.io/repository/biocontainers/flux-simulator/status
    :target: https://quay.io/repository/biocontainers/flux-simulator
+.. _`flux-simulator/tags`: https://quay.io/repository/biocontainers/flux-simulator?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/flux-simulator/README.html
-

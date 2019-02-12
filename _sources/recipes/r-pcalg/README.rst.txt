@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-pcalg'
 .. highlight: bash
-
 
 r-pcalg
 =======
@@ -22,10 +23,8 @@ r-pcalg
    |downloads_r-pcalg| |docker_r-pcalg|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_r-pcalg|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ r-pcalg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-pcalg
+      docker pull quay.io/repository/biocontainers/r-pcalg:<tag>
+
+   (see `r-pcalg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-pcalg| conda:required_by:: r-pcalg
 .. |downloads_r-pcalg| image:: https://img.shields.io/conda/dn/bioconda/r-pcalg.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-pcalg| image:: https://quay.io/repository/biocontainers/r-pcalg/status
    :target: https://quay.io/repository/biocontainers/r-pcalg
+.. _`r-pcalg/tags`: https://quay.io/repository/biocontainers/r-pcalg?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-pcalg/README.html
-

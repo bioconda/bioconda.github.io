@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-qdnaseq.hg19'
 .. highlight: bash
-
 
 bioconductor-qdnaseq.hg19
 =========================
@@ -21,11 +22,15 @@ bioconductor-qdnaseq.hg19
 
    |downloads_bioconductor-qdnaseq.hg19| |docker_bioconductor-qdnaseq.hg19|
 
-   :versions: 1.12.0
-
-   :depends: :conda:package:`bioconductor-qdnaseq` >=1.18.0,<1.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-qdnaseq.hg19|
+   :versions: 1.12.0-0
+   
+   :depends bioconductor-qdnaseq: >=1.18.0,<1.19.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-qdnaseq.hg19
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qdnaseq.hg19
+      docker pull quay.io/repository/biocontainers/bioconductor-qdnaseq.hg19:<tag>
+
+   (see `bioconductor-qdnaseq.hg19/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-qdnaseq.hg19| conda:required_by:: bioconductor-qdnaseq.hg19
 .. |downloads_bioconductor-qdnaseq.hg19| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qdnaseq.hg19.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-qdnaseq.hg19| image:: https://quay.io/repository/biocontainers/bioconductor-qdnaseq.hg19/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qdnaseq.hg19
+.. _`bioconductor-qdnaseq.hg19/tags`: https://quay.io/repository/biocontainers/bioconductor-qdnaseq.hg19?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-qdnaseq.hg19/README.html
-

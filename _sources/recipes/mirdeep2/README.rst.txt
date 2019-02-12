@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mirdeep2'
 .. highlight: bash
-
 
 mirdeep2
 ========
@@ -21,11 +22,25 @@ mirdeep2
 
    |downloads_mirdeep2| |docker_mirdeep2|
 
-   :versions: 2.0.0.8, 2.0.0.7
-
-   :depends: :conda:package:`perl-pdf-api2`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_mirdeep2|
+   :versions: 2.0.0.8-5, 2.0.0.8-4, 2.0.0.8-3, 2.0.0.8-2, 2.0.0.8-1, 2.0.0.8-0, 2.0.0.7-8, 2.0.0.7-7, 2.0.0.7-6, 2.0.0.7-5, 2.0.0.7-4, 2.0.0.7-3, 2.0.0.7-2, 2.0.0.7-1
+   
+   :depends bowtie: 
+   
+   :depends perl: 5.22.0*
+   
+   :depends perl-compress-raw-zlib: 
+   
+   :depends perl-font-ttf: 
+   
+   :depends perl-lwp-simple: 
+   
+   :depends perl-pdf-api2: 
+   
+   :depends randfold: 
+   
+   :depends viennarna: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ mirdeep2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mirdeep2
+      docker pull quay.io/repository/biocontainers/mirdeep2:<tag>
+
+   (see `mirdeep2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mirdeep2| conda:required_by:: mirdeep2
 .. |downloads_mirdeep2| image:: https://img.shields.io/conda/dn/bioconda/mirdeep2.svg?style=flat
    :alt:   (downloads)
 .. |docker_mirdeep2| image:: https://quay.io/repository/biocontainers/mirdeep2/status
    :target: https://quay.io/repository/biocontainers/mirdeep2
+.. _`mirdeep2/tags`: https://quay.io/repository/biocontainers/mirdeep2?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mirdeep2/README.html
-

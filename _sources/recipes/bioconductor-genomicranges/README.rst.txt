@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-genomicranges'
 .. highlight: bash
-
 
 bioconductor-genomicranges
 ==========================
@@ -22,11 +23,23 @@ bioconductor-genomicranges
 
    |downloads_bioconductor-genomicranges| |docker_bioconductor-genomicranges|
 
-   :versions: 1.34.0, 1.32.7, 1.30.3, 1.30.0, 1.28.6, 1.26.4, 1.26.1, 1.24.3, 1.22.4, 1.22.3, 1.22.2, 1.22.1, 1.22.0, 1.20.8
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-xvector` >=0.22.0,<0.23.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-genomicranges|
+   :versions: 1.34.0-0, 1.32.7-0, 1.30.3-0, 1.30.0-0, 1.28.6-0, 1.26.4-0, 1.26.1-1, 1.24.3-1, 1.22.4-0, 1.22.3-0, 1.22.2-0, 1.22.1-0, 1.22.0-0, 1.20.8-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-xvector: >=0.22.0,<0.23.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ bioconductor-genomicranges
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genomicranges
+      docker pull quay.io/repository/biocontainers/bioconductor-genomicranges:<tag>
+
+   (see `bioconductor-genomicranges/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-genomicranges| conda:required_by:: bioconductor-genomicranges
 .. |downloads_bioconductor-genomicranges| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomicranges.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-genomicranges| image:: https://quay.io/repository/biocontainers/bioconductor-genomicranges/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genomicranges
+.. _`bioconductor-genomicranges/tags`: https://quay.io/repository/biocontainers/bioconductor-genomicranges?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-genomicranges/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biothings_client'
 .. highlight: bash
-
 
 biothings_client
 ================
@@ -21,11 +22,13 @@ biothings_client
 
    |downloads_biothings_client| |docker_biothings_client|
 
-   :versions: 0.2.0
-
-   :depends: :conda:package:`python`  :conda:package:`requests` >=2.3.0 
-
-   :required~by: |required_by_biothings_client|
+   :versions: 0.2.0-0
+   
+   :depends python: 
+   
+   :depends requests: >=2.3.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ biothings_client
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biothings_client
+      docker pull quay.io/repository/biocontainers/biothings_client:<tag>
+
+   (see `biothings_client/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biothings_client| conda:required_by:: biothings_client
 .. |downloads_biothings_client| image:: https://img.shields.io/conda/dn/bioconda/biothings_client.svg?style=flat
    :alt:   (downloads)
 .. |docker_biothings_client| image:: https://quay.io/repository/biocontainers/biothings_client/status
    :target: https://quay.io/repository/biocontainers/biothings_client
+.. _`biothings_client/tags`: https://quay.io/repository/biocontainers/biothings_client?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biothings_client/README.html
-

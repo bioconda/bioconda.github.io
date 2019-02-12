@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'purge_haplotigs'
 .. highlight: bash
-
 
 purge_haplotigs
 ===============
@@ -21,11 +22,25 @@ purge_haplotigs
 
    |downloads_purge_haplotigs| |docker_purge_haplotigs|
 
-   :versions: 1.0.4, 1.0.3, 1.0.1
-
-   :depends: :conda:package:`bedtools` >=2.25.0 :conda:package:`make` >=4.2.1 :conda:package:`minimap2` >=2.12 :conda:package:`mummer4` >=4.0.0beta2 :conda:package:`perl` >=5.22.0 :conda:package:`r-base` >=3.4.1 :conda:package:`r-ggplot2` >=2.2.1 :conda:package:`samtools` >=1.3.1 
-
-   :required~by: |required_by_purge_haplotigs|
+   :versions: 1.0.4-0, 1.0.3-0, 1.0.1-0
+   
+   :depends bedtools: >=2.25.0
+   
+   :depends make: >=4.2.1
+   
+   :depends minimap2: >=2.12
+   
+   :depends mummer4: >=4.0.0beta2
+   
+   :depends perl: >=5.22.0
+   
+   :depends r-base: >=3.4.1
+   
+   :depends r-ggplot2: >=2.2.1
+   
+   :depends samtools: >=1.3.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ purge_haplotigs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/purge_haplotigs
+      docker pull quay.io/repository/biocontainers/purge_haplotigs:<tag>
+
+   (see `purge_haplotigs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_purge_haplotigs| conda:required_by:: purge_haplotigs
 .. |downloads_purge_haplotigs| image:: https://img.shields.io/conda/dn/bioconda/purge_haplotigs.svg?style=flat
    :alt:   (downloads)
 .. |docker_purge_haplotigs| image:: https://quay.io/repository/biocontainers/purge_haplotigs/status
    :target: https://quay.io/repository/biocontainers/purge_haplotigs
+.. _`purge_haplotigs/tags`: https://quay.io/repository/biocontainers/purge_haplotigs?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/purge_haplotigs/README.html
-

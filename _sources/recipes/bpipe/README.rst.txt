@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bpipe'
 .. highlight: bash
-
 
 bpipe
 =====
@@ -21,11 +22,11 @@ bpipe
 
    |downloads_bpipe| |docker_bpipe|
 
-   :versions: 0.9.9.2
-
-   :depends: :conda:package:`openjdk` 8.0* zulu8* 
-
-   :required~by: |required_by_bpipe|
+   :versions: 0.9.9.2-0
+   
+   :depends openjdk: 8.0* zulu8*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bpipe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bpipe
+      docker pull quay.io/repository/biocontainers/bpipe:<tag>
+
+   (see `bpipe/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bpipe| conda:required_by:: bpipe
 .. |downloads_bpipe| image:: https://img.shields.io/conda/dn/bioconda/bpipe.svg?style=flat
    :alt:   (downloads)
 .. |docker_bpipe| image:: https://quay.io/repository/biocontainers/bpipe/status
    :target: https://quay.io/repository/biocontainers/bpipe
+.. _`bpipe/tags`: https://quay.io/repository/biocontainers/bpipe?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bpipe/README.html
-

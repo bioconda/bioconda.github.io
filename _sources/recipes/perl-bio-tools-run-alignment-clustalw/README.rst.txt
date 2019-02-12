@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bio-tools-run-alignment-clustalw'
 .. highlight: bash
-
 
 perl-bio-tools-run-alignment-clustalw
 =====================================
@@ -21,11 +22,17 @@ perl-bio-tools-run-alignment-clustalw
 
    |downloads_perl-bio-tools-run-alignment-clustalw| |docker_perl-bio-tools-run-alignment-clustalw|
 
-   :versions: 1.7.4
-
-   :depends: :conda:package:`clustalw`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-base`  :conda:package:`perl-bioperl-run`  
-
-   :required~by: |required_by_perl-bio-tools-run-alignment-clustalw|
+   :versions: 1.7.4-0
+   
+   :depends clustalw: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-base: 
+   
+   :depends perl-bioperl-run: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-bio-tools-run-alignment-clustalw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-tools-run-alignment-clustalw
+      docker pull quay.io/repository/biocontainers/perl-bio-tools-run-alignment-clustalw:<tag>
+
+   (see `perl-bio-tools-run-alignment-clustalw/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bio-tools-run-alignment-clustalw| conda:required_by:: perl-bio-tools-run-alignment-clustalw
 .. |downloads_perl-bio-tools-run-alignment-clustalw| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-tools-run-alignment-clustalw.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bio-tools-run-alignment-clustalw| image:: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-clustalw/status
    :target: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-clustalw
+.. _`perl-bio-tools-run-alignment-clustalw/tags`: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-clustalw?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bio-tools-run-alignment-clustalw/README.html
-

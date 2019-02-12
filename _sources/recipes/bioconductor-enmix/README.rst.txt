@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-enmix'
 .. highlight: bash
-
 
 bioconductor-enmix
 ==================
@@ -21,11 +22,31 @@ bioconductor-enmix
 
    |downloads_bioconductor-enmix| |docker_bioconductor-enmix|
 
-   :versions: 1.18.0
-
-   :depends: :conda:package:`bioconductor-geneplotter` >=1.60.0,<1.61.0 :conda:package:`bioconductor-impute` >=1.56.0,<1.57.0 :conda:package:`bioconductor-minfi` >=1.28.0,<1.29.0 :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-sva` >=3.30.0,<3.31.0 :conda:package:`bioconductor-watermelon` >=1.26.0,<1.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-mass`  
-
-   :required~by: |required_by_bioconductor-enmix|
+   :versions: 1.18.0-0
+   
+   :depends bioconductor-geneplotter: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-impute: >=1.56.0,<1.57.0
+   
+   :depends bioconductor-minfi: >=1.28.0,<1.29.0
+   
+   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends bioconductor-sva: >=3.30.0,<3.31.0
+   
+   :depends bioconductor-watermelon: >=1.26.0,<1.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-doparallel: 
+   
+   :depends r-foreach: 
+   
+   :depends r-mass: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ bioconductor-enmix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-enmix
+      docker pull quay.io/repository/biocontainers/bioconductor-enmix:<tag>
+
+   (see `bioconductor-enmix/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-enmix| conda:required_by:: bioconductor-enmix
 .. |downloads_bioconductor-enmix| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-enmix.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-enmix| image:: https://quay.io/repository/biocontainers/bioconductor-enmix/status
    :target: https://quay.io/repository/biocontainers/bioconductor-enmix
+.. _`bioconductor-enmix/tags`: https://quay.io/repository/biocontainers/bioconductor-enmix?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-enmix/README.html
-

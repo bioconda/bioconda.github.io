@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'das_tool'
 .. highlight: bash
-
 
 das_tool
 ========
@@ -27,11 +28,35 @@ das_tool
 
    |downloads_das_tool| |docker_das_tool|
 
-   :versions: 1.1.1
-
-   :depends: :conda:package:`blast` 2.7.1.* :conda:package:`diamond` 0.9.22.* :conda:package:`gawk`  :conda:package:`numpy` 1.15.0.* :conda:package:`prodigal` 2.6.3.* :conda:package:`pullseq` 1.0.2.* :conda:package:`python` 3.6.* :conda:package:`r` 3.5.1.* :conda:package:`r-data.table` 1.11.4.* :conda:package:`r-domc` 1.3.5.* :conda:package:`r-ggplot2` 3.1.* :conda:package:`ruby` 2.4.4.* :conda:package:`unzip`  
-
-   :required~by: |required_by_das_tool|
+   :versions: 1.1.1-1
+   
+   :depends blast: 2.7.1.*
+   
+   :depends diamond: 0.9.22.*
+   
+   :depends gawk: 
+   
+   :depends numpy: 1.15.0.*
+   
+   :depends prodigal: 2.6.3.*
+   
+   :depends pullseq: 1.0.2.*
+   
+   :depends python: 3.6.*
+   
+   :depends r: 3.5.1.*
+   
+   :depends r-data.table: 1.11.4.*
+   
+   :depends r-domc: 1.3.5.*
+   
+   :depends r-ggplot2: 3.1.*
+   
+   :depends ruby: 2.4.4.*
+   
+   :depends unzip: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -45,14 +70,16 @@ das_tool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/das_tool
+      docker pull quay.io/repository/biocontainers/das_tool:<tag>
+
+   (see `das_tool/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_das_tool| conda:required_by:: das_tool
 .. |downloads_das_tool| image:: https://img.shields.io/conda/dn/bioconda/das_tool.svg?style=flat
    :alt:   (downloads)
 .. |docker_das_tool| image:: https://quay.io/repository/biocontainers/das_tool/status
    :target: https://quay.io/repository/biocontainers/das_tool
+.. _`das_tool/tags`: https://quay.io/repository/biocontainers/das_tool?tab=tags
 
 
 
@@ -69,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/das_tool/README.html
-

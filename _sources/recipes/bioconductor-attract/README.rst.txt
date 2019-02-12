@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-attract'
 .. highlight: bash
-
 
 bioconductor-attract
 ====================
@@ -21,11 +22,27 @@ bioconductor-attract
 
    |downloads_bioconductor-attract| |docker_bioconductor-attract|
 
-   :versions: 1.34.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-gostats` >=2.48.0,<2.49.0 :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-reactome.db` >=1.66.0,<1.67.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  
-
-   :required~by: |required_by_bioconductor-attract|
+   :versions: 1.34.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-gostats: >=2.48.0,<2.49.0
+   
+   :depends bioconductor-keggrest: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-reactome.db: >=1.66.0,<1.67.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-attract
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-attract
+      docker pull quay.io/repository/biocontainers/bioconductor-attract:<tag>
+
+   (see `bioconductor-attract/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-attract| conda:required_by:: bioconductor-attract
 .. |downloads_bioconductor-attract| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-attract.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-attract| image:: https://quay.io/repository/biocontainers/bioconductor-attract/status
    :target: https://quay.io/repository/biocontainers/bioconductor-attract
+.. _`bioconductor-attract/tags`: https://quay.io/repository/biocontainers/bioconductor-attract?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-attract/README.html
-

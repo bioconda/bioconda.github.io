@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-mutoss'
 .. highlight: bash
-
 
 r-mutoss
 ========
@@ -21,11 +22,19 @@ r-mutoss
 
    |downloads_r-mutoss| |docker_r-mutoss|
 
-   :versions: 0.1_12, 0.1_10
-
-   :depends: :conda:package:`bioconductor-multtest` >=2.2.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-multcomp` >=1.1_0 :conda:package:`r-mvtnorm`  :conda:package:`r-plotrix`  
-
-   :required~by: |required_by_r-mutoss|
+   :versions: 0.1_12-1, 0.1_12-0, 0.1_10-0
+   
+   :depends bioconductor-multtest: >=2.2.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-multcomp: >=1.1_0
+   
+   :depends r-mvtnorm: 
+   
+   :depends r-plotrix: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ r-mutoss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-mutoss
+      docker pull quay.io/repository/biocontainers/r-mutoss:<tag>
+
+   (see `r-mutoss/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-mutoss| conda:required_by:: r-mutoss
 .. |downloads_r-mutoss| image:: https://img.shields.io/conda/dn/bioconda/r-mutoss.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-mutoss| image:: https://quay.io/repository/biocontainers/r-mutoss/status
    :target: https://quay.io/repository/biocontainers/r-mutoss
+.. _`r-mutoss/tags`: https://quay.io/repository/biocontainers/r-mutoss?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-mutoss/README.html
-

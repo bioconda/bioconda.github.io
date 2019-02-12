@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bronchialil13'
 .. highlight: bash
-
 
 bioconductor-bronchialil13
 ==========================
@@ -21,11 +22,15 @@ bioconductor-bronchialil13
 
    |downloads_bioconductor-bronchialil13| |docker_bioconductor-bronchialil13|
 
-   :versions: 1.20.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-bronchialil13|
+   :versions: 1.20.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-bronchialil13
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bronchialil13
+      docker pull quay.io/repository/biocontainers/bioconductor-bronchialil13:<tag>
+
+   (see `bioconductor-bronchialil13/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bronchialil13| conda:required_by:: bioconductor-bronchialil13
 .. |downloads_bioconductor-bronchialil13| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bronchialil13.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bronchialil13| image:: https://quay.io/repository/biocontainers/bioconductor-bronchialil13/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bronchialil13
+.. _`bioconductor-bronchialil13/tags`: https://quay.io/repository/biocontainers/bioconductor-bronchialil13?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bronchialil13/README.html
-

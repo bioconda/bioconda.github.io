@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-sort-naturally'
 .. highlight: bash
-
 
 perl-sort-naturally
 ===================
@@ -21,11 +22,11 @@ perl-sort-naturally
 
    |downloads_perl-sort-naturally| |docker_perl-sort-naturally|
 
-   :versions: 1.03
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-sort-naturally|
+   :versions: 1.03-1, 1.03-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-sort-naturally
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sort-naturally
+      docker pull quay.io/repository/biocontainers/perl-sort-naturally:<tag>
+
+   (see `perl-sort-naturally/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-sort-naturally| conda:required_by:: perl-sort-naturally
 .. |downloads_perl-sort-naturally| image:: https://img.shields.io/conda/dn/bioconda/perl-sort-naturally.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-sort-naturally| image:: https://quay.io/repository/biocontainers/perl-sort-naturally/status
    :target: https://quay.io/repository/biocontainers/perl-sort-naturally
+.. _`perl-sort-naturally/tags`: https://quay.io/repository/biocontainers/perl-sort-naturally?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-sort-naturally/README.html
-

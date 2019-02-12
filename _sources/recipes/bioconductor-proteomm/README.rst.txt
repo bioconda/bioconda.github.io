@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-proteomm'
 .. highlight: bash
-
 
 bioconductor-proteomm
 =====================
@@ -21,11 +22,23 @@ bioconductor-proteomm
 
    |downloads_bioconductor-proteomm| |docker_bioconductor-proteomm|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gdata`  :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-gtools`  :conda:package:`r-matrixstats`  
-
-   :required~by: |required_by_bioconductor-proteomm|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gdata: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggrepel: 
+   
+   :depends r-gtools: 
+   
+   :depends r-matrixstats: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-proteomm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-proteomm
+      docker pull quay.io/repository/biocontainers/bioconductor-proteomm:<tag>
+
+   (see `bioconductor-proteomm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-proteomm| conda:required_by:: bioconductor-proteomm
 .. |downloads_bioconductor-proteomm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-proteomm.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-proteomm| image:: https://quay.io/repository/biocontainers/bioconductor-proteomm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-proteomm
+.. _`bioconductor-proteomm/tags`: https://quay.io/repository/biocontainers/bioconductor-proteomm?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-proteomm/README.html
-

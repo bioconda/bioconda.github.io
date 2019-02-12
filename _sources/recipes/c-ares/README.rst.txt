@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'c-ares'
 .. highlight: bash
-
 
 c-ares
 ======
@@ -21,11 +22,11 @@ c-ares
 
    |downloads_c-ares| |docker_c-ares|
 
-   :versions: 1.11.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_c-ares|
+   :versions: 1.11.0-1, 1.11.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ c-ares
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/c-ares
+      docker pull quay.io/repository/biocontainers/c-ares:<tag>
+
+   (see `c-ares/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_c-ares| conda:required_by:: c-ares
 .. |downloads_c-ares| image:: https://img.shields.io/conda/dn/bioconda/c-ares.svg?style=flat
    :alt:   (downloads)
 .. |docker_c-ares| image:: https://quay.io/repository/biocontainers/c-ares/status
    :target: https://quay.io/repository/biocontainers/c-ares
+.. _`c-ares/tags`: https://quay.io/repository/biocontainers/c-ares?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/c-ares/README.html
-

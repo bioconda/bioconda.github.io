@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-pod-simple'
 .. highlight: bash
-
 
 perl-pod-simple
 ===============
@@ -21,11 +22,17 @@ perl-pod-simple
 
    |downloads_perl-pod-simple| |docker_perl-pod-simple|
 
-   :versions: 3.35
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-carp`  :conda:package:`perl-pod-escapes`  :conda:package:`perl-test`  
-
-   :required~by: |required_by_perl-pod-simple|
+   :versions: 3.35-1, 3.35-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-pod-escapes: 
+   
+   :depends perl-test: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-pod-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pod-simple
+      docker pull quay.io/repository/biocontainers/perl-pod-simple:<tag>
+
+   (see `perl-pod-simple/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-pod-simple| conda:required_by:: perl-pod-simple
 .. |downloads_perl-pod-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-simple.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-pod-simple| image:: https://quay.io/repository/biocontainers/perl-pod-simple/status
    :target: https://quay.io/repository/biocontainers/perl-pod-simple
+.. _`perl-pod-simple/tags`: https://quay.io/repository/biocontainers/perl-pod-simple?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-pod-simple/README.html
-

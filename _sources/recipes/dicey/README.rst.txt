@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dicey'
 .. highlight: bash
-
 
 dicey
 =====
@@ -21,11 +22,21 @@ dicey
 
    |downloads_dicey| |docker_dicey|
 
-   :versions: 0.1.6
-
-   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`sdsl-lite`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_dicey|
+   :versions: 0.1.6-0
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends sdsl-lite: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ dicey
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dicey
+      docker pull quay.io/repository/biocontainers/dicey:<tag>
+
+   (see `dicey/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dicey| conda:required_by:: dicey
 .. |downloads_dicey| image:: https://img.shields.io/conda/dn/bioconda/dicey.svg?style=flat
    :alt:   (downloads)
 .. |docker_dicey| image:: https://quay.io/repository/biocontainers/dicey/status
    :target: https://quay.io/repository/biocontainers/dicey
+.. _`dicey/tags`: https://quay.io/repository/biocontainers/dicey?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dicey/README.html
-

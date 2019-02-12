@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-scde'
 .. highlight: bash
-
 
 bioconductor-scde
 =================
@@ -22,11 +23,47 @@ bioconductor-scde
 
    |downloads_bioconductor-scde| |docker_bioconductor-scde|
 
-   :versions: 2.10.0, 2.8.0, 2.6.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-pcamethods` >=1.74.0,<1.75.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cairo`  :conda:package:`r-extremes`  :conda:package:`r-flexmix`  :conda:package:`r-mass`  :conda:package:`r-mgcv`  :conda:package:`r-nnet`  :conda:package:`r-quantreg`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp` >=0.10.4 :conda:package:`r-rcpparmadillo` >=0.5.400.2.0 :conda:package:`r-rjson`  :conda:package:`r-rmtstat`  :conda:package:`r-rook`  
-
-   :required~by: |required_by_bioconductor-scde|
+   :versions: 2.10.0-0, 2.8.0-0, 2.6.0-1, 2.6.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-pcamethods: >=1.74.0,<1.75.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cairo: 
+   
+   :depends r-extremes: 
+   
+   :depends r-flexmix: 
+   
+   :depends r-mass: 
+   
+   :depends r-mgcv: 
+   
+   :depends r-nnet: 
+   
+   :depends r-quantreg: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rcpp: >=0.10.4
+   
+   :depends r-rcpparmadillo: >=0.5.400.2.0
+   
+   :depends r-rjson: 
+   
+   :depends r-rmtstat: 
+   
+   :depends r-rook: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +77,16 @@ bioconductor-scde
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scde
+      docker pull quay.io/repository/biocontainers/bioconductor-scde:<tag>
+
+   (see `bioconductor-scde/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-scde| conda:required_by:: bioconductor-scde
 .. |downloads_bioconductor-scde| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scde.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-scde| image:: https://quay.io/repository/biocontainers/bioconductor-scde/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scde
+.. _`bioconductor-scde/tags`: https://quay.io/repository/biocontainers/bioconductor-scde?tab=tags
 
 
 
@@ -64,4 +103,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-scde/README.html
-

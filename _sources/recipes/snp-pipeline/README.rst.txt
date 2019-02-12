@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'snp-pipeline'
 .. highlight: bash
-
 
 snp-pipeline
 ============
@@ -21,11 +22,19 @@ snp-pipeline
 
    |downloads_snp-pipeline| |docker_snp-pipeline|
 
-   :versions: 2.0.2, 1.0.1, 0.7.0, 0.5.0
-
-   :depends: :conda:package:`biopython`  :conda:package:`psutil`  :conda:package:`python`  :conda:package:`pyvcf` >=0.6.7 :conda:package:`setuptools`  
-
-   :required~by: |required_by_snp-pipeline|
+   :versions: 2.0.2-0, 1.0.1-2, 1.0.1-0, 0.7.0-0, 0.5.0-0
+   
+   :depends biopython: 
+   
+   :depends psutil: 
+   
+   :depends python: 
+   
+   :depends pyvcf: >=0.6.7
+   
+   :depends setuptools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ snp-pipeline
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snp-pipeline
+      docker pull quay.io/repository/biocontainers/snp-pipeline:<tag>
+
+   (see `snp-pipeline/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_snp-pipeline| conda:required_by:: snp-pipeline
 .. |downloads_snp-pipeline| image:: https://img.shields.io/conda/dn/bioconda/snp-pipeline.svg?style=flat
    :alt:   (downloads)
 .. |docker_snp-pipeline| image:: https://quay.io/repository/biocontainers/snp-pipeline/status
    :target: https://quay.io/repository/biocontainers/snp-pipeline
+.. _`snp-pipeline/tags`: https://quay.io/repository/biocontainers/snp-pipeline?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/snp-pipeline/README.html
-

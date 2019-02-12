@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'scprep'
 .. highlight: bash
-
 
 scprep
 ======
@@ -21,11 +22,25 @@ scprep
 
    |downloads_scprep| |docker_scprep|
 
-   :versions: 0.8.1, 0.7.1
-
-   :depends: :conda:package:`decorator`  :conda:package:`future`  :conda:package:`numpy` >=1.10.0 :conda:package:`pandas`  :conda:package:`python`  :conda:package:`scikit-learn` >=0.19.1 :conda:package:`scipy` >=0.18.0 :conda:package:`seaborn`  
-
-   :required~by: |required_by_scprep|
+   :versions: 0.8.1-0, 0.7.1-0
+   
+   :depends decorator: 
+   
+   :depends future: 
+   
+   :depends numpy: >=1.10.0
+   
+   :depends pandas: 
+   
+   :depends python: 
+   
+   :depends scikit-learn: >=0.19.1
+   
+   :depends scipy: >=0.18.0
+   
+   :depends seaborn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ scprep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scprep
+      docker pull quay.io/repository/biocontainers/scprep:<tag>
+
+   (see `scprep/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_scprep| conda:required_by:: scprep
 .. |downloads_scprep| image:: https://img.shields.io/conda/dn/bioconda/scprep.svg?style=flat
    :alt:   (downloads)
 .. |docker_scprep| image:: https://quay.io/repository/biocontainers/scprep/status
    :target: https://quay.io/repository/biocontainers/scprep
+.. _`scprep/tags`: https://quay.io/repository/biocontainers/scprep?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/scprep/README.html
-

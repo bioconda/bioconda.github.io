@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyrad'
 .. highlight: bash
-
 
 pyrad
 =====
@@ -21,11 +22,19 @@ pyrad
 
    |downloads_pyrad| |docker_pyrad|
 
-   :versions: 3.0.66, 3.0.64
-
-   :depends: :conda:package:`muscle`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`scipy`  :conda:package:`vsearch`  
-
-   :required~by: |required_by_pyrad|
+   :versions: 3.0.66-2, 3.0.66-0, 3.0.64-0
+   
+   :depends muscle: 
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :depends vsearch: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ pyrad
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyrad
+      docker pull quay.io/repository/biocontainers/pyrad:<tag>
+
+   (see `pyrad/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyrad| conda:required_by:: pyrad
 .. |downloads_pyrad| image:: https://img.shields.io/conda/dn/bioconda/pyrad.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyrad| image:: https://quay.io/repository/biocontainers/pyrad/status
    :target: https://quay.io/repository/biocontainers/pyrad
+.. _`pyrad/tags`: https://quay.io/repository/biocontainers/pyrad?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyrad/README.html
-

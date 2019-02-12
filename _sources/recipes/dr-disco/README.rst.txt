@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dr-disco'
 .. highlight: bash
-
 
 dr-disco
 ========
@@ -21,11 +22,23 @@ dr-disco
 
    |downloads_dr-disco| |docker_dr-disco|
 
-   :versions: 0.16.3, 0.14.0, 0.11.0, 0.10.0, 0.9.0, 0.8.2, 0.8.0, 0.6.0, 0.3.4, 0.3.3, 0.2.0
-
-   :depends: :conda:package:`click`  :conda:package:`fuma`  :conda:package:`htseq`  :conda:package:`pyfaidx`  :conda:package:`pysam`  :conda:package:`python` <3 :conda:package:`scipy`  
-
-   :required~by: |required_by_dr-disco|
+   :versions: 0.16.3-0, 0.14.0-0, 0.11.0-0, 0.10.0-0, 0.9.0-0, 0.8.2-0, 0.8.0-0, 0.6.0-0, 0.3.4-0, 0.3.3-0, 0.2.0-0
+   
+   :depends click: 
+   
+   :depends fuma: 
+   
+   :depends htseq: 
+   
+   :depends pyfaidx: 
+   
+   :depends pysam: 
+   
+   :depends python: <3
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ dr-disco
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dr-disco
+      docker pull quay.io/repository/biocontainers/dr-disco:<tag>
+
+   (see `dr-disco/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dr-disco| conda:required_by:: dr-disco
 .. |downloads_dr-disco| image:: https://img.shields.io/conda/dn/bioconda/dr-disco.svg?style=flat
    :alt:   (downloads)
 .. |docker_dr-disco| image:: https://quay.io/repository/biocontainers/dr-disco/status
    :target: https://quay.io/repository/biocontainers/dr-disco
+.. _`dr-disco/tags`: https://quay.io/repository/biocontainers/dr-disco?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dr-disco/README.html
-

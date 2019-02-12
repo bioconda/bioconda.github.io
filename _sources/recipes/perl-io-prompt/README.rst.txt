@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-io-prompt'
 .. highlight: bash
-
 
 perl-io-prompt
 ==============
@@ -21,11 +22,15 @@ perl-io-prompt
 
    |downloads_perl-io-prompt| |docker_perl-io-prompt|
 
-   :versions: 0.997004
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-termreadkey`  :conda:package:`perl-want`  
-
-   :required~by: |required_by_perl-io-prompt|
+   :versions: 0.997004-1, 0.997004-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-termreadkey: 
+   
+   :depends perl-want: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-io-prompt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-prompt
+      docker pull quay.io/repository/biocontainers/perl-io-prompt:<tag>
+
+   (see `perl-io-prompt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-io-prompt| conda:required_by:: perl-io-prompt
 .. |downloads_perl-io-prompt| image:: https://img.shields.io/conda/dn/bioconda/perl-io-prompt.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-io-prompt| image:: https://quay.io/repository/biocontainers/perl-io-prompt/status
    :target: https://quay.io/repository/biocontainers/perl-io-prompt
+.. _`perl-io-prompt/tags`: https://quay.io/repository/biocontainers/perl-io-prompt?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-io-prompt/README.html
-

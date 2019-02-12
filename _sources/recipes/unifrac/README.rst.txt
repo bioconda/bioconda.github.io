@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'unifrac'
 .. highlight: bash
-
 
 unifrac
 =======
@@ -21,11 +22,23 @@ unifrac
 
    |downloads_unifrac| |docker_unifrac|
 
-   :versions: 0.9.3
-
-   :depends: :conda:package:`biom-format`  :conda:package:`h5py`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`numpy` >=1.9.3,<2.0a0 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`scikit-bio`  
-
-   :required~by: |required_by_unifrac|
+   :versions: 0.9.3-0
+   
+   :depends biom-format: 
+   
+   :depends h5py: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends numpy: >=1.9.3,<2.0a0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends scikit-bio: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ unifrac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/unifrac
+      docker pull quay.io/repository/biocontainers/unifrac:<tag>
+
+   (see `unifrac/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_unifrac| conda:required_by:: unifrac
 .. |downloads_unifrac| image:: https://img.shields.io/conda/dn/bioconda/unifrac.svg?style=flat
    :alt:   (downloads)
 .. |docker_unifrac| image:: https://quay.io/repository/biocontainers/unifrac/status
    :target: https://quay.io/repository/biocontainers/unifrac
+.. _`unifrac/tags`: https://quay.io/repository/biocontainers/unifrac?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/unifrac/README.html
-

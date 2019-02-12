@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ncbi-ngs-sdk'
 .. highlight: bash
-
 
 ncbi-ngs-sdk
 ============
@@ -21,11 +22,15 @@ ncbi-ngs-sdk
 
    |downloads_ncbi-ngs-sdk| |docker_ncbi-ngs-sdk|
 
-   :versions: 2.9.3, 2.9.1, 2.9.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libiconv` >=1.15,<1.16.0a0 :conda:package:`libxml2` >=2.9.8,<2.10.0a0 
-
-   :required~by: |required_by_ncbi-ngs-sdk|
+   :versions: 2.9.3-0, 2.9.1-0, 2.9.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libiconv: >=1.15,<1.16.0a0
+   
+   :depends libxml2: >=2.9.8,<2.10.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ ncbi-ngs-sdk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ncbi-ngs-sdk
+      docker pull quay.io/repository/biocontainers/ncbi-ngs-sdk:<tag>
+
+   (see `ncbi-ngs-sdk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ncbi-ngs-sdk| conda:required_by:: ncbi-ngs-sdk
 .. |downloads_ncbi-ngs-sdk| image:: https://img.shields.io/conda/dn/bioconda/ncbi-ngs-sdk.svg?style=flat
    :alt:   (downloads)
 .. |docker_ncbi-ngs-sdk| image:: https://quay.io/repository/biocontainers/ncbi-ngs-sdk/status
    :target: https://quay.io/repository/biocontainers/ncbi-ngs-sdk
+.. _`ncbi-ngs-sdk/tags`: https://quay.io/repository/biocontainers/ncbi-ngs-sdk?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ncbi-ngs-sdk/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'xatlas'
 .. highlight: bash
-
 
 xatlas
 ======
@@ -22,11 +23,15 @@ xatlas
 
    |downloads_xatlas| |docker_xatlas|
 
-   :versions: 0.2.1, 0.1
-
-   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`pthread-stubs`  
-
-   :required~by: |required_by_xatlas|
+   :versions: 0.2.1-0, 0.1-2, 0.1-1, 0.1-0
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends pthread-stubs: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ xatlas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xatlas
+      docker pull quay.io/repository/biocontainers/xatlas:<tag>
+
+   (see `xatlas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_xatlas| conda:required_by:: xatlas
 .. |downloads_xatlas| image:: https://img.shields.io/conda/dn/bioconda/xatlas.svg?style=flat
    :alt:   (downloads)
 .. |docker_xatlas| image:: https://quay.io/repository/biocontainers/xatlas/status
    :target: https://quay.io/repository/biocontainers/xatlas
+.. _`xatlas/tags`: https://quay.io/repository/biocontainers/xatlas?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/xatlas/README.html
-

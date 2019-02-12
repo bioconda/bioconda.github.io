@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'focus'
 .. highlight: bash
-
 
 focus
 =====
@@ -22,11 +23,19 @@ focus
 
    |downloads_focus| |docker_focus|
 
-   :versions: 1.4, 1.3
-
-   :depends: :conda:package:`jellyfish`  :conda:package:`numpy` >=1.12.1 :conda:package:`python` >=3 :conda:package:`scipy` >=0.19.0 :conda:package:`unzip`  
-
-   :required~by: |required_by_focus|
+   :versions: 1.4-1, 1.4-0, 1.3-0
+   
+   :depends jellyfish: 2.2.6
+   
+   :depends numpy: >=1.12.1
+   
+   :depends python: >=3
+   
+   :depends scipy: >=0.19.0
+   
+   :depends unzip: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ focus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/focus
+      docker pull quay.io/repository/biocontainers/focus:<tag>
+
+   (see `focus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_focus| conda:required_by:: focus
 .. |downloads_focus| image:: https://img.shields.io/conda/dn/bioconda/focus.svg?style=flat
    :alt:   (downloads)
 .. |docker_focus| image:: https://quay.io/repository/biocontainers/focus/status
    :target: https://quay.io/repository/biocontainers/focus
+.. _`focus/tags`: https://quay.io/repository/biocontainers/focus?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/focus/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-pegex'
 .. highlight: bash
-
 
 perl-pegex
 ==========
@@ -21,11 +22,17 @@ perl-pegex
 
    |downloads_perl-pegex| |docker_perl-pegex|
 
-   :versions: 0.61
-
-   :depends: :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-file-sharedir-install`  :conda:package:`perl-threaded`  :conda:package:`perl-yaml-libyaml`  
-
-   :required~by: |required_by_perl-pegex|
+   :versions: 0.61-1, 0.61-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-extutils-makemaker: 
+   
+   :depends perl-file-sharedir-install: 
+   
+   :depends perl-yaml-libyaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-pegex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pegex
+      docker pull quay.io/repository/biocontainers/perl-pegex:<tag>
+
+   (see `perl-pegex/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-pegex| conda:required_by:: perl-pegex
 .. |downloads_perl-pegex| image:: https://img.shields.io/conda/dn/bioconda/perl-pegex.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-pegex| image:: https://quay.io/repository/biocontainers/perl-pegex/status
    :target: https://quay.io/repository/biocontainers/perl-pegex
+.. _`perl-pegex/tags`: https://quay.io/repository/biocontainers/perl-pegex?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-pegex/README.html
-

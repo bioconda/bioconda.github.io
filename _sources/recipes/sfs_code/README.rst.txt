@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sfs_code'
 .. highlight: bash
-
 
 sfs_code
 ========
@@ -22,11 +23,11 @@ sfs_code
 
    |downloads_sfs_code| |docker_sfs_code|
 
-   :versions: 20150910
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_sfs_code|
+   :versions: 20150910-1, 20150910-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ sfs_code
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sfs_code
+      docker pull quay.io/repository/biocontainers/sfs_code:<tag>
+
+   (see `sfs_code/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sfs_code| conda:required_by:: sfs_code
 .. |downloads_sfs_code| image:: https://img.shields.io/conda/dn/bioconda/sfs_code.svg?style=flat
    :alt:   (downloads)
 .. |docker_sfs_code| image:: https://quay.io/repository/biocontainers/sfs_code/status
    :target: https://quay.io/repository/biocontainers/sfs_code
+.. _`sfs_code/tags`: https://quay.io/repository/biocontainers/sfs_code?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sfs_code/README.html
-

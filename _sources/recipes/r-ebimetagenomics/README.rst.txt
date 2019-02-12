@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-ebimetagenomics'
 .. highlight: bash
-
 
 r-ebimetagenomics
 =================
@@ -21,11 +22,17 @@ r-ebimetagenomics
 
    |downloads_r-ebimetagenomics| |docker_r-ebimetagenomics|
 
-   :versions: 0.6
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-breakaway`  :conda:package:`r-sads`  :conda:package:`r-vegan`  
-
-   :required~by: |required_by_r-ebimetagenomics|
+   :versions: 0.6-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-breakaway: 
+   
+   :depends r-sads: 
+   
+   :depends r-vegan: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-ebimetagenomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ebimetagenomics
+      docker pull quay.io/repository/biocontainers/r-ebimetagenomics:<tag>
+
+   (see `r-ebimetagenomics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-ebimetagenomics| conda:required_by:: r-ebimetagenomics
 .. |downloads_r-ebimetagenomics| image:: https://img.shields.io/conda/dn/bioconda/r-ebimetagenomics.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-ebimetagenomics| image:: https://quay.io/repository/biocontainers/r-ebimetagenomics/status
    :target: https://quay.io/repository/biocontainers/r-ebimetagenomics
+.. _`r-ebimetagenomics/tags`: https://quay.io/repository/biocontainers/r-ebimetagenomics?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-ebimetagenomics/README.html
-

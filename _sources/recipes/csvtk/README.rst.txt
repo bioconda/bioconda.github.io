@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'csvtk'
 .. highlight: bash
-
 
 csvtk
 =====
@@ -21,11 +22,9 @@ csvtk
 
    |downloads_csvtk| |docker_csvtk|
 
-   :versions: 0.17.0, 0.16.0, 0.15.0, 0.14.0, 0.13.0, 0.12.0, 0.11.0, 0.10.0, 0.9.1, 0.9.0, 0.8.0, 0.7.1, 0.7.0, 0.6.1, 0.6.0, 0.5.0, 0.4.6, 0.4.5, 0.4.4
-
-   :depends: 
-
-   :required~by: |required_by_csvtk|
+   :versions: 0.17.0-1, 0.16.0-1, 0.15.0-2, 0.14.0-2, 0.14.0-0, 0.13.0-0, 0.12.0-0, 0.11.0-0, 0.10.0-0, 0.9.1-0, 0.9.0-0, 0.8.0-0, 0.7.1-0, 0.7.0-0, 0.6.1-0, 0.6.0-0, 0.5.0-0, 0.4.6-0, 0.4.5-0, 0.4.4-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ csvtk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/csvtk
+      docker pull quay.io/repository/biocontainers/csvtk:<tag>
+
+   (see `csvtk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_csvtk| conda:required_by:: csvtk
 .. |downloads_csvtk| image:: https://img.shields.io/conda/dn/bioconda/csvtk.svg?style=flat
    :alt:   (downloads)
 .. |docker_csvtk| image:: https://quay.io/repository/biocontainers/csvtk/status
    :target: https://quay.io/repository/biocontainers/csvtk
+.. _`csvtk/tags`: https://quay.io/repository/biocontainers/csvtk?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/csvtk/README.html
-

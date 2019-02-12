@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-dgeclustering'
 .. highlight: bash
-
 
 r-dgeclustering
 ===============
@@ -21,11 +22,31 @@ r-dgeclustering
 
    |downloads_r-dgeclustering| |docker_r-dgeclustering|
 
-   :versions: 0.1.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi`  :conda:package:`bioconductor-clusterprofiler`  :conda:package:`bioconductor-genomicfeatures`  :conda:package:`bioconductor-gosemsim`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-factominer`  :conda:package:`r-ggplot2`  :conda:package:`r-intego`  :conda:package:`r-reshape2`  :conda:package:`r-rlist`  
-
-   :required~by: |required_by_r-dgeclustering|
+   :versions: 0.1.0-0
+   
+   :depends bioconductor-annotationdbi: 
+   
+   :depends bioconductor-clusterprofiler: 
+   
+   :depends bioconductor-genomicfeatures: 
+   
+   :depends bioconductor-gosemsim: 
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-cluster: 
+   
+   :depends r-factominer: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-intego: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-rlist: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ r-dgeclustering
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-dgeclustering
+      docker pull quay.io/repository/biocontainers/r-dgeclustering:<tag>
+
+   (see `r-dgeclustering/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-dgeclustering| conda:required_by:: r-dgeclustering
 .. |downloads_r-dgeclustering| image:: https://img.shields.io/conda/dn/bioconda/r-dgeclustering.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-dgeclustering| image:: https://quay.io/repository/biocontainers/r-dgeclustering/status
    :target: https://quay.io/repository/biocontainers/r-dgeclustering
+.. _`r-dgeclustering/tags`: https://quay.io/repository/biocontainers/r-dgeclustering?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-dgeclustering/README.html
-

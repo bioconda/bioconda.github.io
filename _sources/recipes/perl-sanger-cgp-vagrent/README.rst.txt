@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-sanger-cgp-vagrent'
 .. highlight: bash
-
 
 perl-sanger-cgp-vagrent
 =======================
@@ -21,11 +22,17 @@ perl-sanger-cgp-vagrent
 
    |downloads_perl-sanger-cgp-vagrent| |docker_perl-sanger-cgp-vagrent|
 
-   :versions: 3.3.3, 3.2.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bio-db-hts`  :conda:package:`perl-sub-exporter-progressive`  
-
-   :required~by: |required_by_perl-sanger-cgp-vagrent|
+   :versions: 3.3.3-0, 3.2.0-1, 3.2.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bio-db-hts: 
+   
+   :depends perl-sub-exporter-progressive: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-sanger-cgp-vagrent
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sanger-cgp-vagrent
+      docker pull quay.io/repository/biocontainers/perl-sanger-cgp-vagrent:<tag>
+
+   (see `perl-sanger-cgp-vagrent/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-sanger-cgp-vagrent| conda:required_by:: perl-sanger-cgp-vagrent
 .. |downloads_perl-sanger-cgp-vagrent| image:: https://img.shields.io/conda/dn/bioconda/perl-sanger-cgp-vagrent.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-sanger-cgp-vagrent| image:: https://quay.io/repository/biocontainers/perl-sanger-cgp-vagrent/status
    :target: https://quay.io/repository/biocontainers/perl-sanger-cgp-vagrent
+.. _`perl-sanger-cgp-vagrent/tags`: https://quay.io/repository/biocontainers/perl-sanger-cgp-vagrent?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-sanger-cgp-vagrent/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'munkres'
 .. highlight: bash
-
 
 munkres
 =======
@@ -21,11 +22,11 @@ munkres
 
    |downloads_munkres| |docker_munkres|
 
-   :versions: 1.0.7
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_munkres|
+   :versions: 1.0.7-1, 1.0.7-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ munkres
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/munkres
+      docker pull quay.io/repository/biocontainers/munkres:<tag>
+
+   (see `munkres/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_munkres| conda:required_by:: munkres
 .. |downloads_munkres| image:: https://img.shields.io/conda/dn/bioconda/munkres.svg?style=flat
    :alt:   (downloads)
 .. |docker_munkres| image:: https://quay.io/repository/biocontainers/munkres/status
    :target: https://quay.io/repository/biocontainers/munkres
+.. _`munkres/tags`: https://quay.io/repository/biocontainers/munkres?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/munkres/README.html
-

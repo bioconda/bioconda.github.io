@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'libidn'
 .. highlight: bash
-
 
 libidn
 ======
@@ -21,11 +22,9 @@ libidn
 
    |downloads_libidn| |docker_libidn|
 
-   :versions: 7.45.0
-
-   :depends: 
-
-   :required~by: |required_by_libidn|
+   :versions: 7.45.0-2, 7.45.0-1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ libidn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libidn
+      docker pull quay.io/repository/biocontainers/libidn:<tag>
+
+   (see `libidn/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_libidn| conda:required_by:: libidn
 .. |downloads_libidn| image:: https://img.shields.io/conda/dn/bioconda/libidn.svg?style=flat
    :alt:   (downloads)
 .. |docker_libidn| image:: https://quay.io/repository/biocontainers/libidn/status
    :target: https://quay.io/repository/biocontainers/libidn
+.. _`libidn/tags`: https://quay.io/repository/biocontainers/libidn?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/libidn/README.html
-

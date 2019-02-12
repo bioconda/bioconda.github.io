@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'strip_it'
 .. highlight: bash
-
 
 strip_it
 ========
@@ -21,11 +22,13 @@ strip_it
 
    |downloads_strip_it| |docker_strip_it|
 
-   :versions: 1.0.2
-
-   :depends: :conda:package:`libgcc`  :conda:package:`openbabel`  
-
-   :required~by: |required_by_strip_it|
+   :versions: 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.2-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends openbabel: 2.4.1.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ strip_it
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/strip_it
+      docker pull quay.io/repository/biocontainers/strip_it:<tag>
+
+   (see `strip_it/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_strip_it| conda:required_by:: strip_it
 .. |downloads_strip_it| image:: https://img.shields.io/conda/dn/bioconda/strip_it.svg?style=flat
    :alt:   (downloads)
 .. |docker_strip_it| image:: https://quay.io/repository/biocontainers/strip_it/status
    :target: https://quay.io/repository/biocontainers/strip_it
+.. _`strip_it/tags`: https://quay.io/repository/biocontainers/strip_it?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/strip_it/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-params-validate'
 .. highlight: bash
-
 
 perl-params-validate
 ====================
@@ -21,11 +22,21 @@ perl-params-validate
 
    |downloads_perl-params-validate| |docker_perl-params-validate|
 
-   :versions: 1.29, 1.26, 1.08
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-module-implementation`  :conda:package:`perl-xsloader`  
-
-   :required~by: |required_by_perl-params-validate|
+   :versions: 1.29-0, 1.26-1, 1.26-0, 1.08-2, 1.08-1, 1.08-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-module-implementation: 
+   
+   :depends perl-xsloader: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-params-validate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-params-validate
+      docker pull quay.io/repository/biocontainers/perl-params-validate:<tag>
+
+   (see `perl-params-validate/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-params-validate| conda:required_by:: perl-params-validate
 .. |downloads_perl-params-validate| image:: https://img.shields.io/conda/dn/bioconda/perl-params-validate.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-params-validate| image:: https://quay.io/repository/biocontainers/perl-params-validate/status
    :target: https://quay.io/repository/biocontainers/perl-params-validate
+.. _`perl-params-validate/tags`: https://quay.io/repository/biocontainers/perl-params-validate?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-params-validate/README.html
-

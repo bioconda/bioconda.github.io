@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rgreat'
 .. highlight: bash
-
 
 bioconductor-rgreat
 ===================
@@ -22,11 +23,21 @@ bioconductor-rgreat
 
    |downloads_bioconductor-rgreat| |docker_bioconductor-rgreat|
 
-   :versions: 1.14.0, 1.12.1, 1.11.1, 1.8.0
-
-   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-getoptlong` >=0.0.9 :conda:package:`r-rcurl`  :conda:package:`r-rjson`  
-
-   :required~by: |required_by_bioconductor-rgreat|
+   :versions: 1.14.0-0, 1.12.1-0, 1.11.1-0, 1.8.0-0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-getoptlong: >=0.0.9
+   
+   :depends r-rcurl: 
+   
+   :depends r-rjson: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-rgreat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgreat
+      docker pull quay.io/repository/biocontainers/bioconductor-rgreat:<tag>
+
+   (see `bioconductor-rgreat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rgreat| conda:required_by:: bioconductor-rgreat
 .. |downloads_bioconductor-rgreat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgreat.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rgreat| image:: https://quay.io/repository/biocontainers/bioconductor-rgreat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgreat
+.. _`bioconductor-rgreat/tags`: https://quay.io/repository/biocontainers/bioconductor-rgreat?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rgreat/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bcbio-rnaseq'
 .. highlight: bash
-
 
 bcbio-rnaseq
 ============
@@ -21,11 +22,55 @@ bcbio-rnaseq
 
    |downloads_bcbio-rnaseq| |docker_bcbio-rnaseq|
 
-   :versions: 1.2.0, 1.1.1, 1.0.4, 1.0.3
-
-   :depends: :conda:package:`bioconductor-biomart`  :conda:package:`bioconductor-clusterprofiler`  :conda:package:`bioconductor-deseq2`  :conda:package:`bioconductor-vsn`  :conda:package:`java-jdk`  :conda:package:`java-jdk`  :conda:package:`r` 3.2.2* :conda:package:`r-chbutils`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-hexbin`  :conda:package:`r-knitr`  :conda:package:`r-matrixstats`  :conda:package:`r-pheatmap`  :conda:package:`r-quantreg`  :conda:package:`r-readr`  :conda:package:`r-rmarkdown`  :conda:package:`r-stringr`  :conda:package:`r-tximport`  
-
-   :required~by: |required_by_bcbio-rnaseq|
+   :versions: 1.2.0-3, 1.2.0-2, 1.2.0-1, 1.2.0-0, 1.1.1-1, 1.0.4-1, 1.0.3-1
+   
+   :depends bioconductor-biomart: 
+   
+   :depends bioconductor-clusterprofiler: 
+   
+   :depends bioconductor-degreport: 
+   
+   :depends bioconductor-deseq2: 
+   
+   :depends bioconductor-edger: 
+   
+   :depends bioconductor-org.hs.eg.db: 
+   
+   :depends bioconductor-org.mm.eg.db: 
+   
+   :depends bioconductor-tximport: 
+   
+   :depends bioconductor-vsn: 
+   
+   :depends openjdk: 
+   
+   :depends r-base: 3.3.2*
+   
+   :depends r-chbutils: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-hexbin: 
+   
+   :depends r-knitr: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-pheatmap: 
+   
+   :depends r-quantreg: 
+   
+   :depends r-readr: 
+   
+   :depends r-rmarkdown: 
+   
+   :depends r-sleuth: 
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +84,16 @@ bcbio-rnaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcbio-rnaseq
+      docker pull quay.io/repository/biocontainers/bcbio-rnaseq:<tag>
+
+   (see `bcbio-rnaseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bcbio-rnaseq| conda:required_by:: bcbio-rnaseq
 .. |downloads_bcbio-rnaseq| image:: https://img.shields.io/conda/dn/bioconda/bcbio-rnaseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bcbio-rnaseq| image:: https://quay.io/repository/biocontainers/bcbio-rnaseq/status
    :target: https://quay.io/repository/biocontainers/bcbio-rnaseq
+.. _`bcbio-rnaseq/tags`: https://quay.io/repository/biocontainers/bcbio-rnaseq?tab=tags
 
 
 
@@ -63,4 +110,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bcbio-rnaseq/README.html
-

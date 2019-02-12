@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rdkit'
 .. highlight: bash
-
 
 rdkit
 =====
@@ -21,11 +22,17 @@ rdkit
 
    |downloads_rdkit| |docker_rdkit|
 
-   :versions: 2016.03.3, 2015.09.2
-
-   :depends: :conda:package:`boost` 1.57* :conda:package:`numpy` >=1.7 :conda:package:`pillow`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_rdkit|
+   :versions: 2016.03.3-0, 2015.09.2-1, 2015.09.2-0
+   
+   :depends boost: 1.57*
+   
+   :depends numpy: >=1.7
+   
+   :depends pillow: 
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ rdkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rdkit
+      docker pull quay.io/repository/biocontainers/rdkit:<tag>
+
+   (see `rdkit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rdkit| conda:required_by:: rdkit
 .. |downloads_rdkit| image:: https://img.shields.io/conda/dn/bioconda/rdkit.svg?style=flat
    :alt:   (downloads)
 .. |docker_rdkit| image:: https://quay.io/repository/biocontainers/rdkit/status
    :target: https://quay.io/repository/biocontainers/rdkit
+.. _`rdkit/tags`: https://quay.io/repository/biocontainers/rdkit?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rdkit/README.html
-

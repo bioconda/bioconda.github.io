@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'flapjack'
 .. highlight: bash
-
 
 flapjack
 ========
@@ -21,11 +22,11 @@ flapjack
 
    |downloads_flapjack| |docker_flapjack|
 
-   :versions: 1.18.06.29, 1.18.06.13, 1.16.10.31
-
-   :depends: :conda:package:`openjdk` >=8,<9 
-
-   :required~by: |required_by_flapjack|
+   :versions: 1.18.06.29-0, 1.18.06.13-2, 1.18.06.13-1, 1.16.10.31-1, 1.16.10.31-0
+   
+   :depends openjdk: >=8,<9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ flapjack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flapjack
+      docker pull quay.io/repository/biocontainers/flapjack:<tag>
+
+   (see `flapjack/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_flapjack| conda:required_by:: flapjack
 .. |downloads_flapjack| image:: https://img.shields.io/conda/dn/bioconda/flapjack.svg?style=flat
    :alt:   (downloads)
 .. |docker_flapjack| image:: https://quay.io/repository/biocontainers/flapjack/status
    :target: https://quay.io/repository/biocontainers/flapjack
+.. _`flapjack/tags`: https://quay.io/repository/biocontainers/flapjack?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/flapjack/README.html
-

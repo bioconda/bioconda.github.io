@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'exparna'
 .. highlight: bash
-
 
 exparna
 =======
@@ -22,11 +23,13 @@ exparna
 
    |downloads_exparna| |docker_exparna|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`libgcc`  :conda:package:`viennarna`  
-
-   :required~by: |required_by_exparna|
+   :versions: 1.0.1-1, 1.0.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends viennarna: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ exparna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/exparna
+      docker pull quay.io/repository/biocontainers/exparna:<tag>
+
+   (see `exparna/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_exparna| conda:required_by:: exparna
 .. |downloads_exparna| image:: https://img.shields.io/conda/dn/bioconda/exparna.svg?style=flat
    :alt:   (downloads)
 .. |docker_exparna| image:: https://quay.io/repository/biocontainers/exparna/status
    :target: https://quay.io/repository/biocontainers/exparna
+.. _`exparna/tags`: https://quay.io/repository/biocontainers/exparna?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/exparna/README.html
-

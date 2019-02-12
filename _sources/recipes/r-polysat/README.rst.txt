@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-polysat'
 .. highlight: bash
-
 
 r-polysat
 =========
@@ -21,11 +22,17 @@ r-polysat
 
    |downloads_r-polysat| |docker_r-polysat|
 
-   :versions: 1.7_3
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgfortran-ng`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-rcpp`  
-
-   :required~by: |required_by_r-polysat|
+   :versions: 1.7_3-1, 1.7_3-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libgfortran-ng: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcpp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-polysat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-polysat
+      docker pull quay.io/repository/biocontainers/r-polysat:<tag>
+
+   (see `r-polysat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-polysat| conda:required_by:: r-polysat
 .. |downloads_r-polysat| image:: https://img.shields.io/conda/dn/bioconda/r-polysat.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-polysat| image:: https://quay.io/repository/biocontainers/r-polysat/status
    :target: https://quay.io/repository/biocontainers/r-polysat
+.. _`r-polysat/tags`: https://quay.io/repository/biocontainers/r-polysat?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-polysat/README.html
-

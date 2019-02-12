@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dnp-fourier'
 .. highlight: bash
-
 
 dnp-fourier
 ===========
@@ -21,11 +22,13 @@ dnp-fourier
 
    |downloads_dnp-fourier| |docker_dnp-fourier|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_dnp-fourier|
+   :versions: 1.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ dnp-fourier
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dnp-fourier
+      docker pull quay.io/repository/biocontainers/dnp-fourier:<tag>
+
+   (see `dnp-fourier/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dnp-fourier| conda:required_by:: dnp-fourier
 .. |downloads_dnp-fourier| image:: https://img.shields.io/conda/dn/bioconda/dnp-fourier.svg?style=flat
    :alt:   (downloads)
 .. |docker_dnp-fourier| image:: https://quay.io/repository/biocontainers/dnp-fourier/status
    :target: https://quay.io/repository/biocontainers/dnp-fourier
+.. _`dnp-fourier/tags`: https://quay.io/repository/biocontainers/dnp-fourier?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dnp-fourier/README.html
-

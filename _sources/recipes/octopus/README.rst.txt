@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'octopus'
 .. highlight: bash
-
 
 octopus
 =======
@@ -21,11 +22,25 @@ octopus
 
    |downloads_octopus| |docker_octopus|
 
-   :versions: 0.5.2b, 0.5.1b, 0.5.0b, 0.4.1a, 0.3.3a
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`icu` >=58.2,<59.0a0 :conda:package:`libboost`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_octopus|
+   :versions: 0.5.2b-1, 0.5.2b-0, 0.5.1b-0, 0.5.0b-0, 0.4.1a-1, 0.4.1a-0, 0.3.3a-1, 0.3.3a-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends icu: >=58.2,<59.0a0
+   
+   :depends libboost: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends xz: >=5.2.4,<5.3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ octopus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/octopus
+      docker pull quay.io/repository/biocontainers/octopus:<tag>
+
+   (see `octopus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_octopus| conda:required_by:: octopus
 .. |downloads_octopus| image:: https://img.shields.io/conda/dn/bioconda/octopus.svg?style=flat
    :alt:   (downloads)
 .. |docker_octopus| image:: https://quay.io/repository/biocontainers/octopus/status
    :target: https://quay.io/repository/biocontainers/octopus
+.. _`octopus/tags`: https://quay.io/repository/biocontainers/octopus?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/octopus/README.html
-

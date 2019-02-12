@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-tmixclust'
 .. highlight: bash
-
 
 bioconductor-tmixclust
 ======================
@@ -21,11 +22,27 @@ bioconductor-tmixclust
 
    |downloads_bioconductor-tmixclust| |docker_bioconductor-tmixclust|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-spem` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-flexclust`  :conda:package:`r-gss`  :conda:package:`r-mvtnorm`  :conda:package:`r-zoo`  
-
-   :required~by: |required_by_bioconductor-tmixclust|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-spem: >=1.22.0,<1.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :depends r-flexclust: 
+   
+   :depends r-gss: 
+   
+   :depends r-mvtnorm: 
+   
+   :depends r-zoo: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-tmixclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tmixclust
+      docker pull quay.io/repository/biocontainers/bioconductor-tmixclust:<tag>
+
+   (see `bioconductor-tmixclust/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-tmixclust| conda:required_by:: bioconductor-tmixclust
 .. |downloads_bioconductor-tmixclust| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tmixclust.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-tmixclust| image:: https://quay.io/repository/biocontainers/bioconductor-tmixclust/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tmixclust
+.. _`bioconductor-tmixclust/tags`: https://quay.io/repository/biocontainers/bioconductor-tmixclust?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-tmixclust/README.html
-

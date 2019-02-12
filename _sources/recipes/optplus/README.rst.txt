@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'optplus'
 .. highlight: bash
-
 
 optplus
 =======
@@ -21,11 +22,13 @@ optplus
 
    |downloads_optplus| |docker_optplus|
 
-   :versions: 0.2, 0.1.1
-
-   :depends: :conda:package:`python`  :conda:package:`six`  
-
-   :required~by: |required_by_optplus|
+   :versions: 0.2-0, 0.1.1-2, 0.1.1-0
+   
+   :depends python: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ optplus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/optplus
+      docker pull quay.io/repository/biocontainers/optplus:<tag>
+
+   (see `optplus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_optplus| conda:required_by:: optplus
 .. |downloads_optplus| image:: https://img.shields.io/conda/dn/bioconda/optplus.svg?style=flat
    :alt:   (downloads)
 .. |docker_optplus| image:: https://quay.io/repository/biocontainers/optplus/status
    :target: https://quay.io/repository/biocontainers/optplus
+.. _`optplus/tags`: https://quay.io/repository/biocontainers/optplus?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/optplus/README.html
-

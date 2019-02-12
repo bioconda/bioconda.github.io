@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-without-module'
 .. highlight: bash
-
 
 perl-test-without-module
 ========================
@@ -21,11 +22,11 @@ perl-test-without-module
 
    |downloads_perl-test-without-module| |docker_perl-test-without-module|
 
-   :versions: 0.20
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-test-without-module|
+   :versions: 0.20-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-test-without-module
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-without-module
+      docker pull quay.io/repository/biocontainers/perl-test-without-module:<tag>
+
+   (see `perl-test-without-module/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-without-module| conda:required_by:: perl-test-without-module
 .. |downloads_perl-test-without-module| image:: https://img.shields.io/conda/dn/bioconda/perl-test-without-module.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-without-module| image:: https://quay.io/repository/biocontainers/perl-test-without-module/status
    :target: https://quay.io/repository/biocontainers/perl-test-without-module
+.. _`perl-test-without-module/tags`: https://quay.io/repository/biocontainers/perl-test-without-module?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-without-module/README.html
-

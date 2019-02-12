@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-lumiratidmapping'
 .. highlight: bash
-
 
 bioconductor-lumiratidmapping
 =============================
@@ -21,11 +22,17 @@ bioconductor-lumiratidmapping
 
    |downloads_bioconductor-lumiratidmapping| |docker_bioconductor-lumiratidmapping|
 
-   :versions: 1.10.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-lumi` >=2.34.0,<2.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-lumiratidmapping|
+   :versions: 1.10.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-lumi: >=2.34.0,<2.35.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-lumiratidmapping
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lumiratidmapping
+      docker pull quay.io/repository/biocontainers/bioconductor-lumiratidmapping:<tag>
+
+   (see `bioconductor-lumiratidmapping/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-lumiratidmapping| conda:required_by:: bioconductor-lumiratidmapping
 .. |downloads_bioconductor-lumiratidmapping| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lumiratidmapping.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-lumiratidmapping| image:: https://quay.io/repository/biocontainers/bioconductor-lumiratidmapping/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lumiratidmapping
+.. _`bioconductor-lumiratidmapping/tags`: https://quay.io/repository/biocontainers/bioconductor-lumiratidmapping?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-lumiratidmapping/README.html
-

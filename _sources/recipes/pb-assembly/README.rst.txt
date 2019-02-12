@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pb-assembly'
 .. highlight: bash
-
 
 pb-assembly
 ===========
@@ -21,11 +22,39 @@ pb-assembly
 
    |downloads_pb-assembly| |docker_pb-assembly|
 
-   :versions: 0.0.4, 0.0.3, 0.0.2, 0.0.1, 0.0.0
-
-   :depends: :conda:package:`bedtools`  :conda:package:`blasr`  :conda:package:`bwa`  :conda:package:`future` >=0.16.0 :conda:package:`genomicconsensus`  :conda:package:`minimap2`  :conda:package:`mummer4`  :conda:package:`nim-falcon`  :conda:package:`numpy`  :conda:package:`openssl` >=1.0.2p,<1.0.3a :conda:package:`pb-dazzler`  :conda:package:`pb-falcon` >=0.2.5 :conda:package:`pbalign`  :conda:package:`pbmm2`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools`  
-
-   :required~by: |required_by_pb-assembly|
+   :versions: 0.0.4-3, 0.0.4-2, 0.0.3-2, 0.0.3-1, 0.0.2-0, 0.0.1-0, 0.0.0-8, 0.0.0-7, 0.0.0-6, 0.0.0-5, 0.0.0-4, 0.0.0-3
+   
+   :depends bedtools: 
+   
+   :depends blasr: 
+   
+   :depends bwa: 
+   
+   :depends future: >=0.16.0
+   
+   :depends genomicconsensus: 
+   
+   :depends minimap2: 
+   
+   :depends mummer4: 
+   
+   :depends nim-falcon: 
+   
+   :depends numpy: 
+   
+   :depends pb-dazzler: 
+   
+   :depends pb-falcon: >=0.2.5
+   
+   :depends pbalign: 
+   
+   :depends pbmm2: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +68,16 @@ pb-assembly
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pb-assembly
+      docker pull quay.io/repository/biocontainers/pb-assembly:<tag>
+
+   (see `pb-assembly/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pb-assembly| conda:required_by:: pb-assembly
 .. |downloads_pb-assembly| image:: https://img.shields.io/conda/dn/bioconda/pb-assembly.svg?style=flat
    :alt:   (downloads)
 .. |docker_pb-assembly| image:: https://quay.io/repository/biocontainers/pb-assembly/status
    :target: https://quay.io/repository/biocontainers/pb-assembly
+.. _`pb-assembly/tags`: https://quay.io/repository/biocontainers/pb-assembly?tab=tags
 
 
 
@@ -63,4 +94,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pb-assembly/README.html
-

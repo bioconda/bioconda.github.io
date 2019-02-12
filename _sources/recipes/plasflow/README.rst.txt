@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'plasflow'
 .. highlight: bash
-
 
 plasflow
 ========
@@ -22,11 +23,27 @@ plasflow
 
    |downloads_plasflow| |docker_plasflow|
 
-   :versions: 1.1.0
-
-   :depends: :conda:package:`bioconductor-biostrings`  :conda:package:`biopython`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`rpy2`  :conda:package:`scikit-learn`  :conda:package:`scipy`  :conda:package:`tensorflow`  
-
-   :required~by: |required_by_plasflow|
+   :versions: 1.1.0-0
+   
+   :depends bioconductor-biostrings: 
+   
+   :depends biopython: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends rpy2: 
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :depends tensorflow: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ plasflow
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plasflow
+      docker pull quay.io/repository/biocontainers/plasflow:<tag>
+
+   (see `plasflow/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_plasflow| conda:required_by:: plasflow
 .. |downloads_plasflow| image:: https://img.shields.io/conda/dn/bioconda/plasflow.svg?style=flat
    :alt:   (downloads)
 .. |docker_plasflow| image:: https://quay.io/repository/biocontainers/plasflow/status
    :target: https://quay.io/repository/biocontainers/plasflow
+.. _`plasflow/tags`: https://quay.io/repository/biocontainers/plasflow?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/plasflow/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'isoseq3'
 .. highlight: bash
-
 
 isoseq3
 =======
@@ -21,11 +22,15 @@ isoseq3
 
    |downloads_isoseq3| |docker_isoseq3|
 
-   :versions: 3.1.0, 3.0.0, 0.7.2
-
-   :depends: :conda:package:`lima`  :conda:package:`pbccs`  :conda:package:`pbcoretools`  
-
-   :required~by: |required_by_isoseq3|
+   :versions: 3.1.0-0, 3.0.0-2, 3.0.0-1, 3.0.0-0, 0.7.2-2, 0.7.2-1, 0.7.2-0
+   
+   :depends lima: 
+   
+   :depends pbccs: 
+   
+   :depends pbcoretools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ isoseq3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/isoseq3
+      docker pull quay.io/repository/biocontainers/isoseq3:<tag>
+
+   (see `isoseq3/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_isoseq3| conda:required_by:: isoseq3
 .. |downloads_isoseq3| image:: https://img.shields.io/conda/dn/bioconda/isoseq3.svg?style=flat
    :alt:   (downloads)
 .. |docker_isoseq3| image:: https://quay.io/repository/biocontainers/isoseq3/status
    :target: https://quay.io/repository/biocontainers/isoseq3
+.. _`isoseq3/tags`: https://quay.io/repository/biocontainers/isoseq3?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/isoseq3/README.html
-

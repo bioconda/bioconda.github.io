@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-class-methodmaker'
 .. highlight: bash
-
 
 perl-class-methodmaker
 ======================
@@ -21,11 +22,19 @@ perl-class-methodmaker
 
    |downloads_perl-class-methodmaker| |docker_perl-class-methodmaker|
 
-   :versions: 2.24
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-carp`  :conda:package:`perl-getopt-long`  :conda:package:`perl-pod-escapes`  :conda:package:`perl-test`  
-
-   :required~by: |required_by_perl-class-methodmaker|
+   :versions: 2.24-1, 2.24-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-pod-escapes: 
+   
+   :depends perl-test: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-class-methodmaker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-class-methodmaker
+      docker pull quay.io/repository/biocontainers/perl-class-methodmaker:<tag>
+
+   (see `perl-class-methodmaker/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-class-methodmaker| conda:required_by:: perl-class-methodmaker
 .. |downloads_perl-class-methodmaker| image:: https://img.shields.io/conda/dn/bioconda/perl-class-methodmaker.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-class-methodmaker| image:: https://quay.io/repository/biocontainers/perl-class-methodmaker/status
    :target: https://quay.io/repository/biocontainers/perl-class-methodmaker
+.. _`perl-class-methodmaker/tags`: https://quay.io/repository/biocontainers/perl-class-methodmaker?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-class-methodmaker/README.html
-

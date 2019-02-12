@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cve'
 .. highlight: bash
-
 
 bioconductor-cve
 ================
@@ -22,11 +23,31 @@ bioconductor-cve
 
    |downloads_bioconductor-cve| |docker_bioconductor-cve|
 
-   :versions: 1.8.0, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`bioconductor-consensusclusterplus` >=1.46.0,<1.47.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-jsonlite`  :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-shiny`  :conda:package:`r-tidyverse`  :conda:package:`r-wgcna`  
-
-   :required~by: |required_by_bioconductor-cve|
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0
+   
+   :depends bioconductor-consensusclusterplus: >=1.46.0,<1.47.0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-shiny: 
+   
+   :depends r-tidyverse: 
+   
+   :depends r-wgcna: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +61,16 @@ bioconductor-cve
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cve
+      docker pull quay.io/repository/biocontainers/bioconductor-cve:<tag>
+
+   (see `bioconductor-cve/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cve| conda:required_by:: bioconductor-cve
 .. |downloads_bioconductor-cve| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cve.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cve| image:: https://quay.io/repository/biocontainers/bioconductor-cve/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cve
+.. _`bioconductor-cve/tags`: https://quay.io/repository/biocontainers/bioconductor-cve?tab=tags
 
 
 
@@ -64,4 +87,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cve/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kleborate'
 .. highlight: bash
-
 
 kleborate
 =========
@@ -21,11 +22,15 @@ kleborate
 
    |downloads_kleborate| |docker_kleborate|
 
-   :versions: 0.3.0
-
-   :depends: :conda:package:`blast` >=2.2.31 :conda:package:`mash`  :conda:package:`python`  
-
-   :required~by: |required_by_kleborate|
+   :versions: 0.3.0-0
+   
+   :depends blast: >=2.2.31
+   
+   :depends mash: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ kleborate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kleborate
+      docker pull quay.io/repository/biocontainers/kleborate:<tag>
+
+   (see `kleborate/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kleborate| conda:required_by:: kleborate
 .. |downloads_kleborate| image:: https://img.shields.io/conda/dn/bioconda/kleborate.svg?style=flat
    :alt:   (downloads)
 .. |docker_kleborate| image:: https://quay.io/repository/biocontainers/kleborate/status
    :target: https://quay.io/repository/biocontainers/kleborate
+.. _`kleborate/tags`: https://quay.io/repository/biocontainers/kleborate?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kleborate/README.html
-

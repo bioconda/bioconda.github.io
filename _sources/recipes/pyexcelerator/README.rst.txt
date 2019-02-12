@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyexcelerator'
 .. highlight: bash
-
 
 pyexcelerator
 =============
@@ -21,11 +22,11 @@ pyexcelerator
 
    |downloads_pyexcelerator| |docker_pyexcelerator|
 
-   :versions: 0.6.4a
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pyexcelerator|
+   :versions: 0.6.4a-2, 0.6.4a-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ pyexcelerator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyexcelerator
+      docker pull quay.io/repository/biocontainers/pyexcelerator:<tag>
+
+   (see `pyexcelerator/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyexcelerator| conda:required_by:: pyexcelerator
 .. |downloads_pyexcelerator| image:: https://img.shields.io/conda/dn/bioconda/pyexcelerator.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyexcelerator| image:: https://quay.io/repository/biocontainers/pyexcelerator/status
    :target: https://quay.io/repository/biocontainers/pyexcelerator
+.. _`pyexcelerator/tags`: https://quay.io/repository/biocontainers/pyexcelerator?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyexcelerator/README.html
-

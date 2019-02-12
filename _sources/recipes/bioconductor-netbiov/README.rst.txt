@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-netbiov'
 .. highlight: bash
-
 
 bioconductor-netbiov
 ====================
@@ -22,11 +23,13 @@ bioconductor-netbiov
 
    |downloads_bioconductor-netbiov| |docker_bioconductor-netbiov|
 
-   :versions: 1.16.0, 1.14.0, 1.12.0, 1.10.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph` >=0.7.1 
-
-   :required~by: |required_by_bioconductor-netbiov|
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-igraph: >=0.7.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-netbiov
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-netbiov
+      docker pull quay.io/repository/biocontainers/bioconductor-netbiov:<tag>
+
+   (see `bioconductor-netbiov/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-netbiov| conda:required_by:: bioconductor-netbiov
 .. |downloads_bioconductor-netbiov| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-netbiov.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-netbiov| image:: https://quay.io/repository/biocontainers/bioconductor-netbiov/status
    :target: https://quay.io/repository/biocontainers/bioconductor-netbiov
+.. _`bioconductor-netbiov/tags`: https://quay.io/repository/biocontainers/bioconductor-netbiov?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-netbiov/README.html
-

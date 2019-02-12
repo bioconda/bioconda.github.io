@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'blastbesties'
 .. highlight: bash
-
 
 blastbesties
 ============
@@ -21,11 +22,11 @@ blastbesties
 
    |downloads_blastbesties| |docker_blastbesties|
 
-   :versions: 1.1.1
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_blastbesties|
+   :versions: 1.1.1-2, 1.1.1-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ blastbesties
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/blastbesties
+      docker pull quay.io/repository/biocontainers/blastbesties:<tag>
+
+   (see `blastbesties/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_blastbesties| conda:required_by:: blastbesties
 .. |downloads_blastbesties| image:: https://img.shields.io/conda/dn/bioconda/blastbesties.svg?style=flat
    :alt:   (downloads)
 .. |docker_blastbesties| image:: https://quay.io/repository/biocontainers/blastbesties/status
    :target: https://quay.io/repository/biocontainers/blastbesties
+.. _`blastbesties/tags`: https://quay.io/repository/biocontainers/blastbesties?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/blastbesties/README.html
-

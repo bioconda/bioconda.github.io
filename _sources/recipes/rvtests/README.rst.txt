@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rvtests'
 .. highlight: bash
-
 
 rvtests
 =======
@@ -22,11 +23,15 @@ rvtests
 
    |downloads_rvtests| |docker_rvtests|
 
-   :versions: 2.0.7, 2.0.6
-
-   :depends: :conda:package:`libgfortran` >=3.0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_rvtests|
+   :versions: 2.0.7-2, 2.0.6-1
+   
+   :depends libgfortran: >=3.0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ rvtests
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rvtests
+      docker pull quay.io/repository/biocontainers/rvtests:<tag>
+
+   (see `rvtests/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rvtests| conda:required_by:: rvtests
 .. |downloads_rvtests| image:: https://img.shields.io/conda/dn/bioconda/rvtests.svg?style=flat
    :alt:   (downloads)
 .. |docker_rvtests| image:: https://quay.io/repository/biocontainers/rvtests/status
    :target: https://quay.io/repository/biocontainers/rvtests
+.. _`rvtests/tags`: https://quay.io/repository/biocontainers/rvtests?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rvtests/README.html
-

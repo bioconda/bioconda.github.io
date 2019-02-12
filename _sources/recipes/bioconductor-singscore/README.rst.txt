@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-singscore'
 .. highlight: bash
-
 
 bioconductor-singscore
 ======================
@@ -21,11 +22,41 @@ bioconductor-singscore
 
    |downloads_bioconductor-singscore| |docker_bioconductor-singscore|
 
-   :versions: 1.2.2
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-ggsci`  :conda:package:`r-magrittr`  :conda:package:`r-matrixstats`  :conda:package:`r-plotly`  :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_bioconductor-singscore|
+   :versions: 1.2.2-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-gseabase: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggrepel: 
+   
+   :depends r-ggsci: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-plotly: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ bioconductor-singscore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-singscore
+      docker pull quay.io/repository/biocontainers/bioconductor-singscore:<tag>
+
+   (see `bioconductor-singscore/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-singscore| conda:required_by:: bioconductor-singscore
 .. |downloads_bioconductor-singscore| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-singscore.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-singscore| image:: https://quay.io/repository/biocontainers/bioconductor-singscore/status
    :target: https://quay.io/repository/biocontainers/bioconductor-singscore
+.. _`bioconductor-singscore/tags`: https://quay.io/repository/biocontainers/bioconductor-singscore?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-singscore/README.html
-

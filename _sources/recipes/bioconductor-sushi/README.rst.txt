@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sushi'
 .. highlight: bash
-
 
 bioconductor-sushi
 ==================
@@ -22,11 +23,15 @@ bioconductor-sushi
 
    |downloads_bioconductor-sushi| |docker_bioconductor-sushi|
 
-   :versions: 1.20.0, 1.18.0, 1.16.0, 1.14.0
-
-   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-zoo`  
-
-   :required~by: |required_by_bioconductor-sushi|
+   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-zoo: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-sushi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sushi
+      docker pull quay.io/repository/biocontainers/bioconductor-sushi:<tag>
+
+   (see `bioconductor-sushi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sushi| conda:required_by:: bioconductor-sushi
 .. |downloads_bioconductor-sushi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sushi.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sushi| image:: https://quay.io/repository/biocontainers/bioconductor-sushi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sushi
+.. _`bioconductor-sushi/tags`: https://quay.io/repository/biocontainers/bioconductor-sushi?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sushi/README.html
-

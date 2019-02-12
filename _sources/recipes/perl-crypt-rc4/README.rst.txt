@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-crypt-rc4'
 .. highlight: bash
-
 
 perl-crypt-rc4
 ==============
@@ -21,11 +22,11 @@ perl-crypt-rc4
 
    |downloads_perl-crypt-rc4| |docker_perl-crypt-rc4|
 
-   :versions: 2.02
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-crypt-rc4|
+   :versions: 2.02-1, 2.02-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-crypt-rc4
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-crypt-rc4
+      docker pull quay.io/repository/biocontainers/perl-crypt-rc4:<tag>
+
+   (see `perl-crypt-rc4/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-crypt-rc4| conda:required_by:: perl-crypt-rc4
 .. |downloads_perl-crypt-rc4| image:: https://img.shields.io/conda/dn/bioconda/perl-crypt-rc4.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-crypt-rc4| image:: https://quay.io/repository/biocontainers/perl-crypt-rc4/status
    :target: https://quay.io/repository/biocontainers/perl-crypt-rc4
+.. _`perl-crypt-rc4/tags`: https://quay.io/repository/biocontainers/perl-crypt-rc4?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-crypt-rc4/README.html
-

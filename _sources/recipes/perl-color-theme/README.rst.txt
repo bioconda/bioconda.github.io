@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-color-theme'
 .. highlight: bash
-
 
 perl-color-theme
 ================
@@ -21,11 +22,11 @@ perl-color-theme
 
    |downloads_perl-color-theme| |docker_perl-color-theme|
 
-   :versions: 0.10.1, 0.01
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-color-theme|
+   :versions: 0.10.1-0, 0.01-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-color-theme
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-color-theme
+      docker pull quay.io/repository/biocontainers/perl-color-theme:<tag>
+
+   (see `perl-color-theme/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-color-theme| conda:required_by:: perl-color-theme
 .. |downloads_perl-color-theme| image:: https://img.shields.io/conda/dn/bioconda/perl-color-theme.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-color-theme| image:: https://quay.io/repository/biocontainers/perl-color-theme/status
    :target: https://quay.io/repository/biocontainers/perl-color-theme
+.. _`perl-color-theme/tags`: https://quay.io/repository/biocontainers/perl-color-theme?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-color-theme/README.html
-

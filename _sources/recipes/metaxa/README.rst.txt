@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metaxa'
 .. highlight: bash
-
 
 metaxa
 ======
@@ -22,11 +23,19 @@ metaxa
 
    |downloads_metaxa| |docker_metaxa|
 
-   :versions: 2.2
-
-   :depends: :conda:package:`blast` 2.2.* :conda:package:`hmmer` 3.1.* :conda:package:`mafft` 7.* :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`vsearch` 2.7.0.* 
-
-   :required~by: |required_by_metaxa|
+   :versions: 2.2-0
+   
+   :depends blast: 2.2.*
+   
+   :depends hmmer: 3.1.*
+   
+   :depends mafft: 7.*
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends vsearch: 2.7.0.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ metaxa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metaxa
+      docker pull quay.io/repository/biocontainers/metaxa:<tag>
+
+   (see `metaxa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metaxa| conda:required_by:: metaxa
 .. |downloads_metaxa| image:: https://img.shields.io/conda/dn/bioconda/metaxa.svg?style=flat
    :alt:   (downloads)
 .. |docker_metaxa| image:: https://quay.io/repository/biocontainers/metaxa/status
    :target: https://quay.io/repository/biocontainers/metaxa
+.. _`metaxa/tags`: https://quay.io/repository/biocontainers/metaxa?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metaxa/README.html
-

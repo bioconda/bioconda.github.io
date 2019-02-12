@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mlst'
 .. highlight: bash
-
 
 mlst
 ====
@@ -22,11 +23,21 @@ mlst
 
    |downloads_mlst| |docker_mlst|
 
-   :versions: 2.16.1, 2.16, 2.15.2, 2.15.1, 2.15, 2.14, 2.13, 2.12, 2.11, 2.10, 2.9, 2.6
-
-   :depends: :conda:package:`blast` >=2.7.1 :conda:package:`perl-bioperl` >=1.7.2 :conda:package:`perl-json`  :conda:package:`perl-list-moreutils`  :conda:package:`perl-moo`  :conda:package:`zlib`  
-
-   :required~by: |required_by_mlst|
+   :versions: 2.16.1-0, 2.16-0, 2.15.2-0, 2.15.1-0, 2.15-0, 2.14-0, 2.13-0, 2.12-0, 2.11-0, 2.10-1, 2.10-0, 2.9-1, 2.9-0, 2.6-0
+   
+   :depends blast: >=2.7.1
+   
+   :depends perl-bioperl: >=1.7.2
+   
+   :depends perl-json: 
+   
+   :depends perl-list-moreutils: 
+   
+   :depends perl-moo: 
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ mlst
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mlst
+      docker pull quay.io/repository/biocontainers/mlst:<tag>
+
+   (see `mlst/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mlst| conda:required_by:: mlst
 .. |downloads_mlst| image:: https://img.shields.io/conda/dn/bioconda/mlst.svg?style=flat
    :alt:   (downloads)
 .. |docker_mlst| image:: https://quay.io/repository/biocontainers/mlst/status
    :target: https://quay.io/repository/biocontainers/mlst
+.. _`mlst/tags`: https://quay.io/repository/biocontainers/mlst?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mlst/README.html
-

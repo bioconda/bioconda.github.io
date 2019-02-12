@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'karect'
 .. highlight: bash
-
 
 karect
 ======
@@ -25,11 +26,11 @@ karect
 
    |downloads_karect| |docker_karect|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_karect|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -43,14 +44,16 @@ karect
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/karect
+      docker pull quay.io/repository/biocontainers/karect:<tag>
+
+   (see `karect/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_karect| conda:required_by:: karect
 .. |downloads_karect| image:: https://img.shields.io/conda/dn/bioconda/karect.svg?style=flat
    :alt:   (downloads)
 .. |docker_karect| image:: https://quay.io/repository/biocontainers/karect/status
    :target: https://quay.io/repository/biocontainers/karect
+.. _`karect/tags`: https://quay.io/repository/biocontainers/karect?tab=tags
 
 
 
@@ -67,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/karect/README.html
-

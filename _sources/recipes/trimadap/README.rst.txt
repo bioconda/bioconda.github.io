@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'trimadap'
 .. highlight: bash
-
 
 trimadap
 ========
@@ -21,11 +22,13 @@ trimadap
 
    |downloads_trimadap| |docker_trimadap|
 
-   :versions: r11, r10, r9
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_trimadap|
+   :versions: r11-0, r10-2, r10-1, r10-0, r9-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ trimadap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trimadap
+      docker pull quay.io/repository/biocontainers/trimadap:<tag>
+
+   (see `trimadap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_trimadap| conda:required_by:: trimadap
 .. |downloads_trimadap| image:: https://img.shields.io/conda/dn/bioconda/trimadap.svg?style=flat
    :alt:   (downloads)
 .. |docker_trimadap| image:: https://quay.io/repository/biocontainers/trimadap/status
    :target: https://quay.io/repository/biocontainers/trimadap
+.. _`trimadap/tags`: https://quay.io/repository/biocontainers/trimadap?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/trimadap/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-module-corelist'
 .. highlight: bash
-
 
 perl-module-corelist
 ====================
@@ -21,11 +22,13 @@ perl-module-corelist
 
    |downloads_perl-module-corelist| |docker_perl-module-corelist|
 
-   :versions: 5.20181218, 5.20181130, 5.20180820, 5.20180626, 5.20180120
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-version`  
-
-   :required~by: |required_by_perl-module-corelist|
+   :versions: 5.20181218-0, 5.20181130-0, 5.20180820-0, 5.20180626-0, 5.20180120-1, 5.20180120-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-version: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-module-corelist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-corelist
+      docker pull quay.io/repository/biocontainers/perl-module-corelist:<tag>
+
+   (see `perl-module-corelist/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-module-corelist| conda:required_by:: perl-module-corelist
 .. |downloads_perl-module-corelist| image:: https://img.shields.io/conda/dn/bioconda/perl-module-corelist.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-module-corelist| image:: https://quay.io/repository/biocontainers/perl-module-corelist/status
    :target: https://quay.io/repository/biocontainers/perl-module-corelist
+.. _`perl-module-corelist/tags`: https://quay.io/repository/biocontainers/perl-module-corelist?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-module-corelist/README.html
-

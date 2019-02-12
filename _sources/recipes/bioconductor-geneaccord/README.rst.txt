@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-geneaccord'
 .. highlight: bash
-
 
 bioconductor-geneaccord
 =======================
@@ -21,11 +22,33 @@ bioconductor-geneaccord
 
    |downloads_bioconductor-geneaccord| |docker_bioconductor-geneaccord|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-catools`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-ggpubr`  :conda:package:`r-gtools`  :conda:package:`r-magrittr`  :conda:package:`r-maxlik`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-tibble`  
-
-   :required~by: |required_by_bioconductor-geneaccord|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-catools: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggpubr: 
+   
+   :depends r-gtools: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-maxlik: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-tibble: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ bioconductor-geneaccord
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneaccord
+      docker pull quay.io/repository/biocontainers/bioconductor-geneaccord:<tag>
+
+   (see `bioconductor-geneaccord/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-geneaccord| conda:required_by:: bioconductor-geneaccord
 .. |downloads_bioconductor-geneaccord| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneaccord.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-geneaccord| image:: https://quay.io/repository/biocontainers/bioconductor-geneaccord/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geneaccord
+.. _`bioconductor-geneaccord/tags`: https://quay.io/repository/biocontainers/bioconductor-geneaccord?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-geneaccord/README.html
-

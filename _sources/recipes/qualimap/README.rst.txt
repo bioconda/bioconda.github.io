@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'qualimap'
 .. highlight: bash
-
 
 qualimap
 ========
@@ -22,11 +23,21 @@ qualimap
 
    |downloads_qualimap| |docker_qualimap|
 
-   :versions: 2.2.2b, 2.2.2a, 2.2, 2.1.3
-
-   :depends: :conda:package:`bioconductor-noiseq`  :conda:package:`bioconductor-rsamtools`  :conda:package:`bioconductor-rtracklayer`  :conda:package:`openjdk`  :conda:package:`r-optparse`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_qualimap|
+   :versions: 2.2.2b-0, 2.2.2a-3, 2.2.2a-2, 2.2.2a-1, 2.2.2a-0, 2.2-0, 2.1.3-1, 2.1.3-0
+   
+   :depends bioconductor-noiseq: 
+   
+   :depends bioconductor-rsamtools: 
+   
+   :depends bioconductor-rtracklayer: 
+   
+   :depends openjdk: 
+   
+   :depends r-optparse: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ qualimap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/qualimap
+      docker pull quay.io/repository/biocontainers/qualimap:<tag>
+
+   (see `qualimap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_qualimap| conda:required_by:: qualimap
 .. |downloads_qualimap| image:: https://img.shields.io/conda/dn/bioconda/qualimap.svg?style=flat
    :alt:   (downloads)
 .. |docker_qualimap| image:: https://quay.io/repository/biocontainers/qualimap/status
    :target: https://quay.io/repository/biocontainers/qualimap
+.. _`qualimap/tags`: https://quay.io/repository/biocontainers/qualimap?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/qualimap/README.html
-

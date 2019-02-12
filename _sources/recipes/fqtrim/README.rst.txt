@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fqtrim'
 .. highlight: bash
-
 
 fqtrim
 ======
@@ -21,11 +22,15 @@ fqtrim
 
    |downloads_fqtrim| |docker_fqtrim|
 
-   :versions: 0.9.7
-
-   :depends: :conda:package:`gclib`  :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_fqtrim|
+   :versions: 0.9.7-1, 0.9.7-0
+   
+   :depends gclib: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ fqtrim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fqtrim
+      docker pull quay.io/repository/biocontainers/fqtrim:<tag>
+
+   (see `fqtrim/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fqtrim| conda:required_by:: fqtrim
 .. |downloads_fqtrim| image:: https://img.shields.io/conda/dn/bioconda/fqtrim.svg?style=flat
    :alt:   (downloads)
 .. |docker_fqtrim| image:: https://quay.io/repository/biocontainers/fqtrim/status
    :target: https://quay.io/repository/biocontainers/fqtrim
+.. _`fqtrim/tags`: https://quay.io/repository/biocontainers/fqtrim?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fqtrim/README.html
-

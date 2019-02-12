@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'snmf'
 .. highlight: bash
-
 
 snmf
 ====
@@ -21,11 +22,9 @@ snmf
 
    |downloads_snmf| |docker_snmf|
 
-   :versions: 1.2
-
-   :depends: 
-
-   :required~by: |required_by_snmf|
+   :versions: 1.2-1, 1.2-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ snmf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snmf
+      docker pull quay.io/repository/biocontainers/snmf:<tag>
+
+   (see `snmf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_snmf| conda:required_by:: snmf
 .. |downloads_snmf| image:: https://img.shields.io/conda/dn/bioconda/snmf.svg?style=flat
    :alt:   (downloads)
 .. |docker_snmf| image:: https://quay.io/repository/biocontainers/snmf/status
    :target: https://quay.io/repository/biocontainers/snmf
+.. _`snmf/tags`: https://quay.io/repository/biocontainers/snmf?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/snmf/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hmftools-amber'
 .. highlight: bash
-
 
 hmftools-amber
 ==============
@@ -21,11 +22,15 @@ hmftools-amber
 
    |downloads_hmftools-amber| |docker_hmftools-amber|
 
-   :versions: 2.0
-
-   :depends: :conda:package:`bioconductor-copynumber`  :conda:package:`openjdk` >=8 :conda:package:`zlib`  
-
-   :required~by: |required_by_hmftools-amber|
+   :versions: 2.0-0
+   
+   :depends bioconductor-copynumber: 
+   
+   :depends openjdk: >=8
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ hmftools-amber
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hmftools-amber
+      docker pull quay.io/repository/biocontainers/hmftools-amber:<tag>
+
+   (see `hmftools-amber/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hmftools-amber| conda:required_by:: hmftools-amber
 .. |downloads_hmftools-amber| image:: https://img.shields.io/conda/dn/bioconda/hmftools-amber.svg?style=flat
    :alt:   (downloads)
 .. |docker_hmftools-amber| image:: https://quay.io/repository/biocontainers/hmftools-amber/status
    :target: https://quay.io/repository/biocontainers/hmftools-amber
+.. _`hmftools-amber/tags`: https://quay.io/repository/biocontainers/hmftools-amber?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hmftools-amber/README.html
-

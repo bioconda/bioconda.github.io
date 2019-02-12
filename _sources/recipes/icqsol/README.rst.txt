@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'icqsol'
 .. highlight: bash
-
 
 icqsol
 ======
@@ -21,11 +22,19 @@ icqsol
 
    |downloads_icqsol| |docker_icqsol|
 
-   :versions: 0.3.26, 0.3.20
-
-   :depends: :conda:package:`numpy`  :conda:package:`pycsg` ==0.3.12 :conda:package:`python` 2.7* :conda:package:`pytriangle` ==1.0.9 :conda:package:`vtk` ==6.3.0 
-
-   :required~by: |required_by_icqsol|
+   :versions: 0.3.26-1, 0.3.26-0, 0.3.20-0
+   
+   :depends numpy: 
+   
+   :depends pycsg: 0.3.12
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends pytriangle: 1.0.9
+   
+   :depends vtk: 6.3.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ icqsol
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/icqsol
+      docker pull quay.io/repository/biocontainers/icqsol:<tag>
+
+   (see `icqsol/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_icqsol| conda:required_by:: icqsol
 .. |downloads_icqsol| image:: https://img.shields.io/conda/dn/bioconda/icqsol.svg?style=flat
    :alt:   (downloads)
 .. |docker_icqsol| image:: https://quay.io/repository/biocontainers/icqsol/status
    :target: https://quay.io/repository/biocontainers/icqsol
+.. _`icqsol/tags`: https://quay.io/repository/biocontainers/icqsol?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/icqsol/README.html
-

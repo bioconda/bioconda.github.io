@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'avro-python2'
 .. highlight: bash
-
 
 avro-python2
 ============
@@ -21,11 +22,11 @@ avro-python2
 
    |downloads_avro-python2| |docker_avro-python2|
 
-   :versions: 1.8.2, 1.8.1
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_avro-python2|
+   :versions: 1.8.2-1, 1.8.2-0, 1.8.1-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ avro-python2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/avro-python2
+      docker pull quay.io/repository/biocontainers/avro-python2:<tag>
+
+   (see `avro-python2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_avro-python2| conda:required_by:: avro-python2
 .. |downloads_avro-python2| image:: https://img.shields.io/conda/dn/bioconda/avro-python2.svg?style=flat
    :alt:   (downloads)
 .. |docker_avro-python2| image:: https://quay.io/repository/biocontainers/avro-python2/status
    :target: https://quay.io/repository/biocontainers/avro-python2
+.. _`avro-python2/tags`: https://quay.io/repository/biocontainers/avro-python2?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/avro-python2/README.html
-

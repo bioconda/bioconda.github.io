@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-libxml-perl'
 .. highlight: bash
-
 
 perl-libxml-perl
 ================
@@ -21,11 +22,13 @@ perl-libxml-perl
 
    |downloads_perl-libxml-perl| |docker_perl-libxml-perl|
 
-   :versions: 0.08
-
-   :depends: :conda:package:`perl-threaded`  :conda:package:`perl-xml-parser`  
-
-   :required~by: |required_by_perl-libxml-perl|
+   :versions: 0.08-2, 0.08-1, 0.08-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-xml-parser: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-libxml-perl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-libxml-perl
+      docker pull quay.io/repository/biocontainers/perl-libxml-perl:<tag>
+
+   (see `perl-libxml-perl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-libxml-perl| conda:required_by:: perl-libxml-perl
 .. |downloads_perl-libxml-perl| image:: https://img.shields.io/conda/dn/bioconda/perl-libxml-perl.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-libxml-perl| image:: https://quay.io/repository/biocontainers/perl-libxml-perl/status
    :target: https://quay.io/repository/biocontainers/perl-libxml-perl
+.. _`perl-libxml-perl/tags`: https://quay.io/repository/biocontainers/perl-libxml-perl?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-libxml-perl/README.html
-

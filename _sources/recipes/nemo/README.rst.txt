@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nemo'
 .. highlight: bash
-
 
 nemo
 ====
@@ -21,11 +22,15 @@ nemo
 
    |downloads_nemo| |docker_nemo|
 
-   :versions: 2.3.51
-
-   :depends: :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 
-
-   :required~by: |required_by_nemo|
+   :versions: 2.3.51-0
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ nemo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nemo
+      docker pull quay.io/repository/biocontainers/nemo:<tag>
+
+   (see `nemo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nemo| conda:required_by:: nemo
 .. |downloads_nemo| image:: https://img.shields.io/conda/dn/bioconda/nemo.svg?style=flat
    :alt:   (downloads)
 .. |docker_nemo| image:: https://quay.io/repository/biocontainers/nemo/status
    :target: https://quay.io/repository/biocontainers/nemo
+.. _`nemo/tags`: https://quay.io/repository/biocontainers/nemo?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nemo/README.html
-

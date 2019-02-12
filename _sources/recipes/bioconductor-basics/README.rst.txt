@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-basics'
 .. highlight: bash
-
 
 bioconductor-basics
 ===================
@@ -21,11 +22,43 @@ bioconductor-basics
 
    |downloads_bioconductor-basics| |docker_bioconductor-basics|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-scran` >=1.10.0,<1.11.0 :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-coda`  :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-kernsmooth`  :conda:package:`r-mass`  :conda:package:`r-matrixstats`  :conda:package:`r-rcpp` >=0.11.3 :conda:package:`r-rcpparmadillo`  :conda:package:`r-testthat`  
-
-   :required~by: |required_by_bioconductor-basics|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-scran: >=1.10.0,<1.11.0
+   
+   :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-coda: 
+   
+   :depends r-data.table: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-kernsmooth: 
+   
+   :depends r-mass: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-rcpp: >=0.11.3
+   
+   :depends r-rcpparmadillo: 
+   
+   :depends r-testthat: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +72,16 @@ bioconductor-basics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-basics
+      docker pull quay.io/repository/biocontainers/bioconductor-basics:<tag>
+
+   (see `bioconductor-basics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-basics| conda:required_by:: bioconductor-basics
 .. |downloads_bioconductor-basics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-basics.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-basics| image:: https://quay.io/repository/biocontainers/bioconductor-basics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-basics
+.. _`bioconductor-basics/tags`: https://quay.io/repository/biocontainers/bioconductor-basics?tab=tags
 
 
 
@@ -63,4 +98,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-basics/README.html
-

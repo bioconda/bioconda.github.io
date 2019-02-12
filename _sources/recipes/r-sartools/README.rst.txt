@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-sartools'
 .. highlight: bash
-
 
 r-sartools
 ==========
@@ -22,11 +23,25 @@ r-sartools
 
    |downloads_r-sartools| |docker_r-sartools|
 
-   :versions: 1.6.6, 1.6.3, 1.6.0, 1.5.1, 1.4.1, 1.3.2, 1.2.0
-
-   :depends: :conda:package:`bioconductor-deseq2` >=1.12.0 :conda:package:`bioconductor-edger` >=3.12.0 :conda:package:`bioconductor-summarizedexperiment` >=1.6 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-bit64`  :conda:package:`r-blob`  :conda:package:`r-knitr`  :conda:package:`r-rmarkdown` >=1.4 
-
-   :required~by: |required_by_r-sartools|
+   :versions: 1.6.6-3, 1.6.6-2, 1.6.6-1, 1.6.3-0, 1.6.0-0, 1.5.1-0, 1.4.1-0, 1.3.2-0, 1.2.0-0
+   
+   :depends bioconductor-deseq2: >=1.12.0
+   
+   :depends bioconductor-edger: >=3.12.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.6
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bit64: 
+   
+   :depends r-blob: 
+   
+   :depends r-knitr: 
+   
+   :depends r-rmarkdown: >=1.4
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ r-sartools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-sartools
+      docker pull quay.io/repository/biocontainers/r-sartools:<tag>
+
+   (see `r-sartools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-sartools| conda:required_by:: r-sartools
 .. |downloads_r-sartools| image:: https://img.shields.io/conda/dn/bioconda/r-sartools.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-sartools| image:: https://quay.io/repository/biocontainers/r-sartools/status
    :target: https://quay.io/repository/biocontainers/r-sartools
+.. _`r-sartools/tags`: https://quay.io/repository/biocontainers/r-sartools?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-sartools/README.html
-

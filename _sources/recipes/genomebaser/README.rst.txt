@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genomebaser'
 .. highlight: bash
-
 
 genomebaser
 ===========
@@ -21,11 +22,15 @@ genomebaser
 
    |downloads_genomebaser| |docker_genomebaser|
 
-   :versions: 0.1.2
-
-   :depends: :conda:package:`biopython`  :conda:package:`click`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_genomebaser|
+   :versions: 0.1.2-1, 0.1.2-0
+   
+   :depends biopython: 
+   
+   :depends click: 
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ genomebaser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genomebaser
+      docker pull quay.io/repository/biocontainers/genomebaser:<tag>
+
+   (see `genomebaser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genomebaser| conda:required_by:: genomebaser
 .. |downloads_genomebaser| image:: https://img.shields.io/conda/dn/bioconda/genomebaser.svg?style=flat
    :alt:   (downloads)
 .. |docker_genomebaser| image:: https://quay.io/repository/biocontainers/genomebaser/status
    :target: https://quay.io/repository/biocontainers/genomebaser
+.. _`genomebaser/tags`: https://quay.io/repository/biocontainers/genomebaser?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genomebaser/README.html
-

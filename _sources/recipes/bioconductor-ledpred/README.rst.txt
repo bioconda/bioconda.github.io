@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ledpred'
 .. highlight: bash
-
 
 bioconductor-ledpred
 ====================
@@ -21,11 +22,31 @@ bioconductor-ledpred
 
    |downloads_bioconductor-ledpred| |docker_bioconductor-ledpred|
 
-   :versions: 1.16.0
-
-   :depends: :conda:package:`r-akima`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071` >=1.6 :conda:package:`r-ggplot2`  :conda:package:`r-irr`  :conda:package:`r-jsonlite`  :conda:package:`r-plot3d`  :conda:package:`r-plyr`  :conda:package:`r-rcurl`  :conda:package:`r-rocr`  :conda:package:`r-testthat`  
-
-   :required~by: |required_by_bioconductor-ledpred|
+   :versions: 1.16.0-0
+   
+   :depends r-akima: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-e1071: >=1.6
+   
+   :depends r-ggplot2: 
+   
+   :depends r-irr: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-plot3d: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rcurl: 
+   
+   :depends r-rocr: 
+   
+   :depends r-testthat: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ bioconductor-ledpred
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ledpred
+      docker pull quay.io/repository/biocontainers/bioconductor-ledpred:<tag>
+
+   (see `bioconductor-ledpred/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ledpred| conda:required_by:: bioconductor-ledpred
 .. |downloads_bioconductor-ledpred| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ledpred.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ledpred| image:: https://quay.io/repository/biocontainers/bioconductor-ledpred/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ledpred
+.. _`bioconductor-ledpred/tags`: https://quay.io/repository/biocontainers/bioconductor-ledpred?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ledpred/README.html
-

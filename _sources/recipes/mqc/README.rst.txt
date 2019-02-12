@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mqc'
 .. highlight: bash
-
 
 mqc
 ===
@@ -21,11 +22,37 @@ mqc
 
    |downloads_mqc| |docker_mqc|
 
-   :versions: 1.10, 1.9, 1.8, 1.7, 1.6, 1.5, 1.4, 1.3, 1.2
-
-   :depends: :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-dbd-sqlite`  :conda:package:`perl-dbi`  :conda:package:`perl-parallel-forkmanager`  :conda:package:`plastid`  :conda:package:`pysam` 0.11* :conda:package:`python` 2.7* :conda:package:`r-base` 3.4.1* :conda:package:`samtools`  :conda:package:`seaborn`  
-
-   :required~by: |required_by_mqc|
+   :versions: 1.10-1, 1.10-0, 1.9-0, 1.8-0, 1.7-0, 1.6-0, 1.5-0, 1.4-0, 1.3-0, 1.2-3, 1.2-2, 1.2-1, 1.2-0
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends perl: 5.22.0*
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-dbd-sqlite: 
+   
+   :depends perl-dbi: 
+   
+   :depends perl-parallel-forkmanager: 
+   
+   :depends plastid: 0.4.7 py27_0
+   
+   :depends pysam: 0.11*
+   
+   :depends python: 2.7*
+   
+   :depends r-base: 3.4.1*
+   
+   :depends samtools: 
+   
+   :depends seaborn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ mqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mqc
+      docker pull quay.io/repository/biocontainers/mqc:<tag>
+
+   (see `mqc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mqc| conda:required_by:: mqc
 .. |downloads_mqc| image:: https://img.shields.io/conda/dn/bioconda/mqc.svg?style=flat
    :alt:   (downloads)
 .. |docker_mqc| image:: https://quay.io/repository/biocontainers/mqc/status
    :target: https://quay.io/repository/biocontainers/mqc
+.. _`mqc/tags`: https://quay.io/repository/biocontainers/mqc?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mqc/README.html
-

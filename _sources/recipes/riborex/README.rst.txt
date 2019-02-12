@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'riborex'
 .. highlight: bash
-
 
 riborex
 =======
@@ -21,11 +22,19 @@ riborex
 
    |downloads_riborex| |docker_riborex|
 
-   :versions: 2.3.4
-
-   :depends: :conda:package:`bioconductor-biobase`  :conda:package:`bioconductor-deseq2`  :conda:package:`bioconductor-edger`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-fdrtool`  
-
-   :required~by: |required_by_riborex|
+   :versions: 2.3.4-0
+   
+   :depends bioconductor-biobase: 
+   
+   :depends bioconductor-deseq2: 
+   
+   :depends bioconductor-edger: 
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-fdrtool: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ riborex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/riborex
+      docker pull quay.io/repository/biocontainers/riborex:<tag>
+
+   (see `riborex/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_riborex| conda:required_by:: riborex
 .. |downloads_riborex| image:: https://img.shields.io/conda/dn/bioconda/riborex.svg?style=flat
    :alt:   (downloads)
 .. |docker_riborex| image:: https://quay.io/repository/biocontainers/riborex/status
    :target: https://quay.io/repository/biocontainers/riborex
+.. _`riborex/tags`: https://quay.io/repository/biocontainers/riborex?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/riborex/README.html
-

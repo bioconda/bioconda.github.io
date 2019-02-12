@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-xml-entities'
 .. highlight: bash
-
 
 perl-xml-entities
 =================
@@ -21,11 +22,13 @@ perl-xml-entities
 
    |downloads_perl-xml-entities| |docker_perl-xml-entities|
 
-   :versions: 1.0002
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  
-
-   :required~by: |required_by_perl-xml-entities|
+   :versions: 1.0002-1, 1.0002-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-xml-entities
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-entities
+      docker pull quay.io/repository/biocontainers/perl-xml-entities:<tag>
+
+   (see `perl-xml-entities/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-xml-entities| conda:required_by:: perl-xml-entities
 .. |downloads_perl-xml-entities| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-entities.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-xml-entities| image:: https://quay.io/repository/biocontainers/perl-xml-entities/status
    :target: https://quay.io/repository/biocontainers/perl-xml-entities
+.. _`perl-xml-entities/tags`: https://quay.io/repository/biocontainers/perl-xml-entities?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-xml-entities/README.html
-

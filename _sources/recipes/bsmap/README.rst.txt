@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bsmap'
 .. highlight: bash
-
 
 bsmap
 =====
@@ -22,11 +23,17 @@ bsmap
 
    |downloads_bsmap| |docker_bsmap|
 
-   :versions: 2.90
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`python`  :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_bsmap|
+   :versions: 2.90-1, 2.90-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends python: 
+   
+   :depends samtools: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bsmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bsmap
+      docker pull quay.io/repository/biocontainers/bsmap:<tag>
+
+   (see `bsmap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bsmap| conda:required_by:: bsmap
 .. |downloads_bsmap| image:: https://img.shields.io/conda/dn/bioconda/bsmap.svg?style=flat
    :alt:   (downloads)
 .. |docker_bsmap| image:: https://quay.io/repository/biocontainers/bsmap/status
    :target: https://quay.io/repository/biocontainers/bsmap
+.. _`bsmap/tags`: https://quay.io/repository/biocontainers/bsmap?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bsmap/README.html
-

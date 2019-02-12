@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-module-load-conditional'
 .. highlight: bash
-
 
 perl-module-load-conditional
 ============================
@@ -21,11 +22,23 @@ perl-module-load-conditional
 
    |downloads_perl-module-load-conditional| |docker_perl-module-load-conditional|
 
-   :versions: 0.68, 0.62
-
-   :depends: :conda:package:`perl` >=5.22,<6.0 :conda:package:`perl-locale-maketext-simple`  :conda:package:`perl-module-corelist`  :conda:package:`perl-module-load`  :conda:package:`perl-module-metadata` >=1.000005 :conda:package:`perl-params-check`  
-
-   :required~by: |required_by_perl-module-load-conditional|
+   :versions: 0.68-2, 0.68-1, 0.68-0, 0.62-1, 0.62-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-locale-maketext-simple: 
+   
+   :depends perl-module-corelist: 
+   
+   :depends perl-module-load: 
+   
+   :depends perl-module-metadata: >=1.000005
+   
+   :depends perl-params-check: 
+   
+   :depends perl-version: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ perl-module-load-conditional
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-load-conditional
+      docker pull quay.io/repository/biocontainers/perl-module-load-conditional:<tag>
+
+   (see `perl-module-load-conditional/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-module-load-conditional| conda:required_by:: perl-module-load-conditional
 .. |downloads_perl-module-load-conditional| image:: https://img.shields.io/conda/dn/bioconda/perl-module-load-conditional.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-module-load-conditional| image:: https://quay.io/repository/biocontainers/perl-module-load-conditional/status
    :target: https://quay.io/repository/biocontainers/perl-module-load-conditional
+.. _`perl-module-load-conditional/tags`: https://quay.io/repository/biocontainers/perl-module-load-conditional?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-module-load-conditional/README.html
-

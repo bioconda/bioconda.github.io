@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mosdepth'
 .. highlight: bash
-
 
 mosdepth
 ========
@@ -21,11 +22,15 @@ mosdepth
 
    |downloads_mosdepth| |docker_mosdepth|
 
-   :versions: 0.2.4, 0.2.3, 0.2.2, 0.2.1, 0.2.0, 0.1.9, 0.1.7, 0.1.6, 0.1.5, 0.1.4a, 0.1.3, 0.1.1
-
-   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`pcre` >=8.41,<9.0a0 
-
-   :required~by: |required_by_mosdepth|
+   :versions: 0.2.4-0, 0.2.3-1, 0.2.3-0, 0.2.2-1, 0.2.1-1, 0.2.1-0, 0.2.0-0, 0.1.9-0, 0.1.7-0, 0.1.6-0, 0.1.5-0, 0.1.4a-0, 0.1.3-0, 0.1.1-0
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends pcre: >=8.41,<9.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ mosdepth
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mosdepth
+      docker pull quay.io/repository/biocontainers/mosdepth:<tag>
+
+   (see `mosdepth/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mosdepth| conda:required_by:: mosdepth
 .. |downloads_mosdepth| image:: https://img.shields.io/conda/dn/bioconda/mosdepth.svg?style=flat
    :alt:   (downloads)
 .. |docker_mosdepth| image:: https://quay.io/repository/biocontainers/mosdepth/status
    :target: https://quay.io/repository/biocontainers/mosdepth
+.. _`mosdepth/tags`: https://quay.io/repository/biocontainers/mosdepth?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mosdepth/README.html
-

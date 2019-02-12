@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ddrage'
 .. highlight: bash
-
 
 ddrage
 ======
@@ -21,11 +22,25 @@ ddrage
 
    |downloads_ddrage| |docker_ddrage|
 
-   :versions: 1.6.3, 1.6.1, 1.5.2, 1.5.1, 1.4.0, 1.3.1, 1.3.0, 1.2.2, 1.1.4
-
-   :depends: :conda:package:`dinopy`  :conda:package:`matplotlib`  :conda:package:`numba`  :conda:package:`numpy`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`pyyaml`  :conda:package:`scipy`  :conda:package:`seaborn`  
-
-   :required~by: |required_by_ddrage|
+   :versions: 1.6.3-0, 1.6.1-0, 1.5.2-0, 1.5.1-0, 1.4.0-1, 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.2.2-0, 1.1.4-0
+   
+   :depends dinopy: 
+   
+   :depends matplotlib: 
+   
+   :depends numba: 
+   
+   :depends numpy: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends pyyaml: 
+   
+   :depends scipy: 
+   
+   :depends seaborn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ ddrage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ddrage
+      docker pull quay.io/repository/biocontainers/ddrage:<tag>
+
+   (see `ddrage/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ddrage| conda:required_by:: ddrage
 .. |downloads_ddrage| image:: https://img.shields.io/conda/dn/bioconda/ddrage.svg?style=flat
    :alt:   (downloads)
 .. |docker_ddrage| image:: https://quay.io/repository/biocontainers/ddrage/status
    :target: https://quay.io/repository/biocontainers/ddrage
+.. _`ddrage/tags`: https://quay.io/repository/biocontainers/ddrage?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ddrage/README.html
-

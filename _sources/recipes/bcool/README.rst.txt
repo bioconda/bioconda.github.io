@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bcool'
 .. highlight: bash
-
 
 bcool
 =====
@@ -21,11 +22,19 @@ bcool
 
    |downloads_bcool| |docker_bcool|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bcalm`  :conda:package:`bgreat`  :conda:package:`btrim`  :conda:package:`ntcard`  :conda:package:`python` >=3.5,<3.6.0a0 
-
-   :required~by: |required_by_bcool|
+   :versions: 1.0.0-0
+   
+   :depends bcalm: 
+   
+   :depends bgreat: 
+   
+   :depends btrim: 
+   
+   :depends ntcard: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bcool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcool
+      docker pull quay.io/repository/biocontainers/bcool:<tag>
+
+   (see `bcool/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bcool| conda:required_by:: bcool
 .. |downloads_bcool| image:: https://img.shields.io/conda/dn/bioconda/bcool.svg?style=flat
    :alt:   (downloads)
 .. |docker_bcool| image:: https://quay.io/repository/biocontainers/bcool/status
    :target: https://quay.io/repository/biocontainers/bcool
+.. _`bcool/tags`: https://quay.io/repository/biocontainers/bcool?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bcool/README.html
-

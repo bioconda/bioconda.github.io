@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-data-optlist'
 .. highlight: bash
-
 
 perl-data-optlist
 =================
@@ -21,11 +22,15 @@ perl-data-optlist
 
    |downloads_perl-data-optlist| |docker_perl-data-optlist|
 
-   :versions: 0.110
-
-   :depends: :conda:package:`perl-apache-test`  :conda:package:`perl-params-util`  :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-sub-install`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-data-optlist|
+   :versions: 0.110-2, 0.110-1, 0.110-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-params-util: 
+   
+   :depends perl-sub-install: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-data-optlist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-data-optlist
+      docker pull quay.io/repository/biocontainers/perl-data-optlist:<tag>
+
+   (see `perl-data-optlist/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-data-optlist| conda:required_by:: perl-data-optlist
 .. |downloads_perl-data-optlist| image:: https://img.shields.io/conda/dn/bioconda/perl-data-optlist.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-data-optlist| image:: https://quay.io/repository/biocontainers/perl-data-optlist/status
    :target: https://quay.io/repository/biocontainers/perl-data-optlist
+.. _`perl-data-optlist/tags`: https://quay.io/repository/biocontainers/perl-data-optlist?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-data-optlist/README.html
-

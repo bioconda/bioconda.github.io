@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioformats'
 .. highlight: bash
-
 
 bioformats
 ==========
@@ -21,11 +22,17 @@ bioformats
 
    |downloads_bioformats| |docker_bioformats|
 
-   :versions: 0.1.15
-
-   :depends: :conda:package:`future`  :conda:package:`pyfaidx`  :conda:package:`python` 2.7* :conda:package:`pyvcf`  
-
-   :required~by: |required_by_bioformats|
+   :versions: 0.1.15-1, 0.1.15-0
+   
+   :depends future: 
+   
+   :depends pyfaidx: 
+   
+   :depends python: 
+   
+   :depends pyvcf: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioformats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioformats
+      docker pull quay.io/repository/biocontainers/bioformats:<tag>
+
+   (see `bioformats/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioformats| conda:required_by:: bioformats
 .. |downloads_bioformats| image:: https://img.shields.io/conda/dn/bioconda/bioformats.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioformats| image:: https://quay.io/repository/biocontainers/bioformats/status
    :target: https://quay.io/repository/biocontainers/bioformats
+.. _`bioformats/tags`: https://quay.io/repository/biocontainers/bioformats?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioformats/README.html
-

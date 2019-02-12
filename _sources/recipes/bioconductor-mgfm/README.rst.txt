@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mgfm'
 .. highlight: bash
-
 
 bioconductor-mgfm
 =================
@@ -22,11 +23,15 @@ bioconductor-mgfm
 
    |downloads_bioconductor-mgfm| |docker_bioconductor-mgfm|
 
-   :versions: 1.16.0, 1.14.0, 1.12.0, 1.10.0
-
-   :depends: :conda:package:`bioconductor-annotate` >=1.60.0,<1.61.0 :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-mgfm|
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   
+   :depends bioconductor-annotate: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-mgfm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mgfm
+      docker pull quay.io/repository/biocontainers/bioconductor-mgfm:<tag>
+
+   (see `bioconductor-mgfm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mgfm| conda:required_by:: bioconductor-mgfm
 .. |downloads_bioconductor-mgfm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mgfm.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mgfm| image:: https://quay.io/repository/biocontainers/bioconductor-mgfm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mgfm
+.. _`bioconductor-mgfm/tags`: https://quay.io/repository/biocontainers/bioconductor-mgfm?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mgfm/README.html
-

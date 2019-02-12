@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'jbrowse'
 .. highlight: bash
-
 
 jbrowse
 =======
@@ -22,11 +23,57 @@ jbrowse
 
    |downloads_jbrowse| |docker_jbrowse|
 
-   :versions: 1.16.1, 1.15.4, 1.15.1, 1.15.0, 1.12.5, 1.12.3, 1.12.1
-
-   :depends: :conda:package:`perl`  :conda:package:`perl-bio-featureio`  :conda:package:`perl-bio-gff3`  :conda:package:`perl-bioperl`  :conda:package:`perl-capture-tiny`  :conda:package:`perl-db-file`  :conda:package:`perl-devel-size`  :conda:package:`perl-digest-crc32`  :conda:package:`perl-exporter-tiny`  :conda:package:`perl-file-copy-recursive`  :conda:package:`perl-file-next`  :conda:package:`perl-hash-merge`  :conda:package:`perl-heap-simple`  :conda:package:`perl-io-uncompress-gunzip`  :conda:package:`perl-json`  :conda:package:`perl-list-moreutils`  :conda:package:`perl-local-lib`  :conda:package:`perl-perlio-gzip`  :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-test-deep`  :conda:package:`perl-test-simple`  :conda:package:`perl-test-warn`  :conda:package:`perl-uri`  
-
-   :required~by: |required_by_jbrowse|
+   :versions: 1.16.1-4, 1.16.1-3, 1.16.1-2, 1.16.1-1, 1.16.1-0, 1.15.4-0, 1.15.1-0, 1.15.0-0, 1.12.5-2, 1.12.5-0, 1.12.3-0, 1.12.1-3, 1.12.1-2, 1.12.1-1, 1.12.1-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bio-featureio: 
+   
+   :depends perl-bio-gff3: 
+   
+   :depends perl-bioperl: 
+   
+   :depends perl-capture-tiny: 
+   
+   :depends perl-db-file: 
+   
+   :depends perl-devel-size: 
+   
+   :depends perl-digest-crc32: 
+   
+   :depends perl-exporter-tiny: 
+   
+   :depends perl-file-copy-recursive: 
+   
+   :depends perl-file-next: 
+   
+   :depends perl-hash-merge: 
+   
+   :depends perl-heap-simple: 
+   
+   :depends perl-io-uncompress-gunzip: 
+   
+   :depends perl-json: 
+   
+   :depends perl-list-moreutils: 
+   
+   :depends perl-local-lib: 
+   
+   :depends perl-perlio-gzip: 
+   
+   :depends perl-scalar-list-utils: 
+   
+   :depends perl-test-deep: 
+   
+   :depends perl-test-simple: 
+   
+   :depends perl-test-warn: 
+   
+   :depends perl-uri: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +87,16 @@ jbrowse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/jbrowse
+      docker pull quay.io/repository/biocontainers/jbrowse:<tag>
+
+   (see `jbrowse/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_jbrowse| conda:required_by:: jbrowse
 .. |downloads_jbrowse| image:: https://img.shields.io/conda/dn/bioconda/jbrowse.svg?style=flat
    :alt:   (downloads)
 .. |docker_jbrowse| image:: https://quay.io/repository/biocontainers/jbrowse/status
    :target: https://quay.io/repository/biocontainers/jbrowse
+.. _`jbrowse/tags`: https://quay.io/repository/biocontainers/jbrowse?tab=tags
 
 
 
@@ -64,4 +113,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/jbrowse/README.html
-

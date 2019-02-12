@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-snagee'
 .. highlight: bash
-
 
 bioconductor-snagee
 ===================
@@ -22,11 +23,13 @@ bioconductor-snagee
 
    |downloads_bioconductor-snagee| |docker_bioconductor-snagee|
 
-   :versions: 1.22.0, 1.20.0, 1.18.0
-
-   :depends: :conda:package:`bioconductor-snageedata` >=1.18.0,<1.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-snagee|
+   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-0
+   
+   :depends bioconductor-snageedata: >=1.18.0,<1.19.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-snagee
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snagee
+      docker pull quay.io/repository/biocontainers/bioconductor-snagee:<tag>
+
+   (see `bioconductor-snagee/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-snagee| conda:required_by:: bioconductor-snagee
 .. |downloads_bioconductor-snagee| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snagee.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-snagee| image:: https://quay.io/repository/biocontainers/bioconductor-snagee/status
    :target: https://quay.io/repository/biocontainers/bioconductor-snagee
+.. _`bioconductor-snagee/tags`: https://quay.io/repository/biocontainers/bioconductor-snagee?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-snagee/README.html
-

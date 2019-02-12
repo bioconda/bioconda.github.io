@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'irida-sistr-results'
 .. highlight: bash
-
 
 irida-sistr-results
 ===================
@@ -23,11 +24,21 @@ irida-sistr-results
 
    |downloads_irida-sistr-results| |docker_irida-sistr-results|
 
-   :versions: 0.6.0, 0.5.0, 0.4.0, 0.3.1
-
-   :depends: :conda:package:`appdirs` >=1.4.3 :conda:package:`pandas` >=0.23.0 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`rauth` >=0.7.3 :conda:package:`urllib3` >=1.21.1 :conda:package:`xlsxwriter` >=0.9.8 
-
-   :required~by: |required_by_irida-sistr-results|
+   :versions: 0.6.0-0, 0.5.0-0, 0.4.0-2, 0.4.0-0, 0.3.1-0
+   
+   :depends appdirs: >=1.4.3
+   
+   :depends pandas: >=0.23.0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends rauth: >=0.7.3
+   
+   :depends urllib3: >=1.21.1
+   
+   :depends xlsxwriter: >=0.9.8
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +52,16 @@ irida-sistr-results
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/irida-sistr-results
+      docker pull quay.io/repository/biocontainers/irida-sistr-results:<tag>
+
+   (see `irida-sistr-results/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_irida-sistr-results| conda:required_by:: irida-sistr-results
 .. |downloads_irida-sistr-results| image:: https://img.shields.io/conda/dn/bioconda/irida-sistr-results.svg?style=flat
    :alt:   (downloads)
 .. |docker_irida-sistr-results| image:: https://quay.io/repository/biocontainers/irida-sistr-results/status
    :target: https://quay.io/repository/biocontainers/irida-sistr-results
+.. _`irida-sistr-results/tags`: https://quay.io/repository/biocontainers/irida-sistr-results?tab=tags
 
 
 
@@ -65,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/irida-sistr-results/README.html
-

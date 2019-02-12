@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mbuffer'
 .. highlight: bash
-
 
 mbuffer
 =======
@@ -21,11 +22,9 @@ mbuffer
 
    |downloads_mbuffer| |docker_mbuffer|
 
-   :versions: 20160228
-
-   :depends: 
-
-   :required~by: |required_by_mbuffer|
+   :versions: 20160228-1, 20160228-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ mbuffer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mbuffer
+      docker pull quay.io/repository/biocontainers/mbuffer:<tag>
+
+   (see `mbuffer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mbuffer| conda:required_by:: mbuffer
 .. |downloads_mbuffer| image:: https://img.shields.io/conda/dn/bioconda/mbuffer.svg?style=flat
    :alt:   (downloads)
 .. |docker_mbuffer| image:: https://quay.io/repository/biocontainers/mbuffer/status
    :target: https://quay.io/repository/biocontainers/mbuffer
+.. _`mbuffer/tags`: https://quay.io/repository/biocontainers/mbuffer?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mbuffer/README.html
-

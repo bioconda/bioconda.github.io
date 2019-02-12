@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-goexpress'
 .. highlight: bash
-
 
 bioconductor-goexpress
 ======================
@@ -21,11 +22,27 @@ bioconductor-goexpress
 
    |downloads_bioconductor-goexpress| |docker_bioconductor-goexpress|
 
-   :versions: 1.16.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2` >=0.9.0 :conda:package:`r-gplots` >=2.13.0 :conda:package:`r-randomforest` >=4.6 :conda:package:`r-rcolorbrewer` >=1.0 :conda:package:`r-rcurl` >=1.95 :conda:package:`r-stringr` >=0.6.2 
-
-   :required~by: |required_by_bioconductor-goexpress|
+   :versions: 1.16.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: >=0.9.0
+   
+   :depends r-gplots: >=2.13.0
+   
+   :depends r-randomforest: >=4.6
+   
+   :depends r-rcolorbrewer: >=1.0
+   
+   :depends r-rcurl: >=1.95
+   
+   :depends r-stringr: >=0.6.2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-goexpress
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-goexpress
+      docker pull quay.io/repository/biocontainers/bioconductor-goexpress:<tag>
+
+   (see `bioconductor-goexpress/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-goexpress| conda:required_by:: bioconductor-goexpress
 .. |downloads_bioconductor-goexpress| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-goexpress.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-goexpress| image:: https://quay.io/repository/biocontainers/bioconductor-goexpress/status
    :target: https://quay.io/repository/biocontainers/bioconductor-goexpress
+.. _`bioconductor-goexpress/tags`: https://quay.io/repository/biocontainers/bioconductor-goexpress?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-goexpress/README.html
-

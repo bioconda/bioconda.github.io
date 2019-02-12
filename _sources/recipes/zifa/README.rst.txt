@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'zifa'
 .. highlight: bash
-
 
 zifa
 ====
@@ -21,11 +22,11 @@ zifa
 
    |downloads_zifa| |docker_zifa|
 
-   :versions: 0.1.0
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_zifa|
+   :versions: 0.1.0-1, 0.1.0-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ zifa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/zifa
+      docker pull quay.io/repository/biocontainers/zifa:<tag>
+
+   (see `zifa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_zifa| conda:required_by:: zifa
 .. |downloads_zifa| image:: https://img.shields.io/conda/dn/bioconda/zifa.svg?style=flat
    :alt:   (downloads)
 .. |docker_zifa| image:: https://quay.io/repository/biocontainers/zifa/status
    :target: https://quay.io/repository/biocontainers/zifa
+.. _`zifa/tags`: https://quay.io/repository/biocontainers/zifa?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/zifa/README.html
-

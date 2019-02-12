@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-chromswitch'
 .. highlight: bash
-
 
 bioconductor-chromswitch
 ========================
@@ -21,11 +22,39 @@ bioconductor-chromswitch
 
    |downloads_bioconductor-chromswitch| |docker_bioconductor-chromswitch|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster` >=2.0.6 :conda:package:`r-dplyr` >=0.5.0 :conda:package:`r-gplots` >=3.0.1 :conda:package:`r-lazyeval` >=0.2.0 :conda:package:`r-magrittr` >=1.5 :conda:package:`r-matrixstats` >=0.52 :conda:package:`r-nmf` >=0.20.6 :conda:package:`r-tidyr` >=0.6.3 
-
-   :required~by: |required_by_bioconductor-chromswitch|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: >=2.0.6
+   
+   :depends r-dplyr: >=0.5.0
+   
+   :depends r-gplots: >=3.0.1
+   
+   :depends r-lazyeval: >=0.2.0
+   
+   :depends r-magrittr: >=1.5
+   
+   :depends r-matrixstats: >=0.52
+   
+   :depends r-nmf: >=0.20.6
+   
+   :depends r-tidyr: >=0.6.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +68,16 @@ bioconductor-chromswitch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chromswitch
+      docker pull quay.io/repository/biocontainers/bioconductor-chromswitch:<tag>
+
+   (see `bioconductor-chromswitch/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-chromswitch| conda:required_by:: bioconductor-chromswitch
 .. |downloads_bioconductor-chromswitch| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chromswitch.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-chromswitch| image:: https://quay.io/repository/biocontainers/bioconductor-chromswitch/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chromswitch
+.. _`bioconductor-chromswitch/tags`: https://quay.io/repository/biocontainers/bioconductor-chromswitch?tab=tags
 
 
 
@@ -63,4 +94,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-chromswitch/README.html
-

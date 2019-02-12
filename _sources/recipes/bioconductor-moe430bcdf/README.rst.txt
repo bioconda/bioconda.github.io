@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-moe430bcdf'
 .. highlight: bash
-
 
 bioconductor-moe430bcdf
 =======================
@@ -21,11 +22,15 @@ bioconductor-moe430bcdf
 
    |downloads_bioconductor-moe430bcdf| |docker_bioconductor-moe430bcdf|
 
-   :versions: 2.18.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-moe430bcdf|
+   :versions: 2.18.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-moe430bcdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-moe430bcdf
+      docker pull quay.io/repository/biocontainers/bioconductor-moe430bcdf:<tag>
+
+   (see `bioconductor-moe430bcdf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-moe430bcdf| conda:required_by:: bioconductor-moe430bcdf
 .. |downloads_bioconductor-moe430bcdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-moe430bcdf.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-moe430bcdf| image:: https://quay.io/repository/biocontainers/bioconductor-moe430bcdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-moe430bcdf
+.. _`bioconductor-moe430bcdf/tags`: https://quay.io/repository/biocontainers/bioconductor-moe430bcdf?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-moe430bcdf/README.html
-

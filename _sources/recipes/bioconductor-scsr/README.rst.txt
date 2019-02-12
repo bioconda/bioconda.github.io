@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-scsr'
 .. highlight: bash
-
 
 bioconductor-scsr
 =================
@@ -21,11 +22,29 @@ bioconductor-scsr
 
    |downloads_bioconductor-scsr| |docker_bioconductor-scsr|
 
-   :versions: 1.18.0
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-stringdb` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-hash`  :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-sqldf`  
-
-   :required~by: |required_by_bioconductor-scsr|
+   :versions: 1.18.0-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-stringdb: >=1.22.0,<1.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-hash: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-sqldf: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ bioconductor-scsr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scsr
+      docker pull quay.io/repository/biocontainers/bioconductor-scsr:<tag>
+
+   (see `bioconductor-scsr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-scsr| conda:required_by:: bioconductor-scsr
 .. |downloads_bioconductor-scsr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scsr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-scsr| image:: https://quay.io/repository/biocontainers/bioconductor-scsr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scsr
+.. _`bioconductor-scsr/tags`: https://quay.io/repository/biocontainers/bioconductor-scsr?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-scsr/README.html
-

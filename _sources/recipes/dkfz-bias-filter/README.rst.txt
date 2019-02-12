@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dkfz-bias-filter'
 .. highlight: bash
-
 
 dkfz-bias-filter
 ================
@@ -21,11 +22,19 @@ dkfz-bias-filter
 
    |downloads_dkfz-bias-filter| |docker_dkfz-bias-filter|
 
-   :versions: 1.2.3a
-
-   :depends: :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`scipy`  
-
-   :required~by: |required_by_dkfz-bias-filter|
+   :versions: 1.2.3a-7, 1.2.3a-5, 1.2.3a-4, 1.2.3a-3, 1.2.3a-2, 1.2.3a-1, 1.2.3a-0
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ dkfz-bias-filter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dkfz-bias-filter
+      docker pull quay.io/repository/biocontainers/dkfz-bias-filter:<tag>
+
+   (see `dkfz-bias-filter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dkfz-bias-filter| conda:required_by:: dkfz-bias-filter
 .. |downloads_dkfz-bias-filter| image:: https://img.shields.io/conda/dn/bioconda/dkfz-bias-filter.svg?style=flat
    :alt:   (downloads)
 .. |docker_dkfz-bias-filter| image:: https://quay.io/repository/biocontainers/dkfz-bias-filter/status
    :target: https://quay.io/repository/biocontainers/dkfz-bias-filter
+.. _`dkfz-bias-filter/tags`: https://quay.io/repository/biocontainers/dkfz-bias-filter?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dkfz-bias-filter/README.html
-

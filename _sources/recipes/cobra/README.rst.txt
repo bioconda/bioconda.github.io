@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cobra'
 .. highlight: bash
-
 
 cobra
 =====
@@ -21,11 +22,27 @@ cobra
 
    |downloads_cobra| |docker_cobra|
 
-   :versions: 0.10.1, 0.4.0, 0.4.0b6
-
-   :depends: :conda:package:`future`  :conda:package:`numpy` >=1.6 :conda:package:`optlang` >=1.2.5 :conda:package:`pandas` >=0.17.0 :conda:package:`python` 2.7* :conda:package:`ruamel.yaml` <0.15 :conda:package:`six`  :conda:package:`swiglpk`  :conda:package:`tabulate`  
-
-   :required~by: |required_by_cobra|
+   :versions: 0.10.1-1, 0.10.1-0, 0.4.0-1, 0.4.0-0, 0.4.0b6-0
+   
+   :depends future: 
+   
+   :depends numpy: >=1.6
+   
+   :depends optlang: >=1.2.5
+   
+   :depends pandas: >=0.17.0
+   
+   :depends python: 
+   
+   :depends ruamel.yaml: <0.15
+   
+   :depends six: 
+   
+   :depends swiglpk: 
+   
+   :depends tabulate: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ cobra
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cobra
+      docker pull quay.io/repository/biocontainers/cobra:<tag>
+
+   (see `cobra/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cobra| conda:required_by:: cobra
 .. |downloads_cobra| image:: https://img.shields.io/conda/dn/bioconda/cobra.svg?style=flat
    :alt:   (downloads)
 .. |docker_cobra| image:: https://quay.io/repository/biocontainers/cobra/status
    :target: https://quay.io/repository/biocontainers/cobra
+.. _`cobra/tags`: https://quay.io/repository/biocontainers/cobra?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cobra/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-deep'
 .. highlight: bash
-
 
 perl-test-deep
 ==============
@@ -21,11 +22,11 @@ perl-test-deep
 
    |downloads_perl-test-deep| |docker_perl-test-deep|
 
-   :versions: 1.128, 1.120
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-test-deep|
+   :versions: 1.128-0, 1.120-3, 1.120-2, 1.120-1
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-test-deep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-deep
+      docker pull quay.io/repository/biocontainers/perl-test-deep:<tag>
+
+   (see `perl-test-deep/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-deep| conda:required_by:: perl-test-deep
 .. |downloads_perl-test-deep| image:: https://img.shields.io/conda/dn/bioconda/perl-test-deep.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-deep| image:: https://quay.io/repository/biocontainers/perl-test-deep/status
    :target: https://quay.io/repository/biocontainers/perl-test-deep
+.. _`perl-test-deep/tags`: https://quay.io/repository/biocontainers/perl-test-deep?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-deep/README.html
-

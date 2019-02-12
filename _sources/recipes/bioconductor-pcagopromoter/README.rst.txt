@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pcagopromoter'
 .. highlight: bash
-
 
 bioconductor-pcagopromoter
 ==========================
@@ -22,11 +23,17 @@ bioconductor-pcagopromoter
 
    |downloads_bioconductor-pcagopromoter| |docker_bioconductor-pcagopromoter|
 
-   :versions: 1.26.0, 1.24.0, 1.22.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ellipse`  
-
-   :required~by: |required_by_bioconductor-pcagopromoter|
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ellipse: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-pcagopromoter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pcagopromoter
+      docker pull quay.io/repository/biocontainers/bioconductor-pcagopromoter:<tag>
+
+   (see `bioconductor-pcagopromoter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pcagopromoter| conda:required_by:: bioconductor-pcagopromoter
 .. |downloads_bioconductor-pcagopromoter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pcagopromoter.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pcagopromoter| image:: https://quay.io/repository/biocontainers/bioconductor-pcagopromoter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pcagopromoter
+.. _`bioconductor-pcagopromoter/tags`: https://quay.io/repository/biocontainers/bioconductor-pcagopromoter?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pcagopromoter/README.html
-

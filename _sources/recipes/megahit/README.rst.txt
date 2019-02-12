@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'megahit'
 .. highlight: bash
-
 
 megahit
 =======
@@ -22,11 +23,15 @@ megahit
 
    |downloads_megahit| |docker_megahit|
 
-   :versions: 1.1.3, 1.1.2, 1.1.1, 1.0.6, 1.0.3
-
-   :depends: :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_megahit|
+   :versions: 1.1.3-0, 1.1.2-1, 1.1.2-0, 1.1.1-0, 1.0.6-1, 1.0.3-1, 1.0.3-0
+   
+   :depends libgcc: 
+   
+   :depends python: 2.7*
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ megahit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/megahit
+      docker pull quay.io/repository/biocontainers/megahit:<tag>
+
+   (see `megahit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_megahit| conda:required_by:: megahit
 .. |downloads_megahit| image:: https://img.shields.io/conda/dn/bioconda/megahit.svg?style=flat
    :alt:   (downloads)
 .. |docker_megahit| image:: https://quay.io/repository/biocontainers/megahit/status
    :target: https://quay.io/repository/biocontainers/megahit
+.. _`megahit/tags`: https://quay.io/repository/biocontainers/megahit?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/megahit/README.html
-

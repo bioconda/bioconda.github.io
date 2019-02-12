@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kwip'
 .. highlight: bash
-
 
 kwip
 ====
@@ -22,11 +23,17 @@ kwip
 
    |downloads_kwip| |docker_kwip|
 
-   :versions: 0.2.0
-
-   :depends: :conda:package:`khmer`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_kwip|
+   :versions: 0.2.0-1, 0.2.0-0
+   
+   :depends khmer: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ kwip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kwip
+      docker pull quay.io/repository/biocontainers/kwip:<tag>
+
+   (see `kwip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kwip| conda:required_by:: kwip
 .. |downloads_kwip| image:: https://img.shields.io/conda/dn/bioconda/kwip.svg?style=flat
    :alt:   (downloads)
 .. |docker_kwip| image:: https://quay.io/repository/biocontainers/kwip/status
    :target: https://quay.io/repository/biocontainers/kwip
+.. _`kwip/tags`: https://quay.io/repository/biocontainers/kwip?tab=tags
 
 
 
@@ -68,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kwip/README.html
-

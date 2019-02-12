@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kalign2'
 .. highlight: bash
-
 
 kalign2
 =======
@@ -22,11 +23,11 @@ kalign2
 
    |downloads_kalign2| |docker_kalign2|
 
-   :versions: 2.04
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_kalign2|
+   :versions: 2.04-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ kalign2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kalign2
+      docker pull quay.io/repository/biocontainers/kalign2:<tag>
+
+   (see `kalign2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kalign2| conda:required_by:: kalign2
 .. |downloads_kalign2| image:: https://img.shields.io/conda/dn/bioconda/kalign2.svg?style=flat
    :alt:   (downloads)
 .. |docker_kalign2| image:: https://quay.io/repository/biocontainers/kalign2/status
    :target: https://quay.io/repository/biocontainers/kalign2
+.. _`kalign2/tags`: https://quay.io/repository/biocontainers/kalign2?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kalign2/README.html
-

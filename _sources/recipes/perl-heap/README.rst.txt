@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-heap'
 .. highlight: bash
-
 
 perl-heap
 =========
@@ -21,11 +22,11 @@ perl-heap
 
    |downloads_perl-heap| |docker_perl-heap|
 
-   :versions: 0.80
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-heap|
+   :versions: 0.80-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-heap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-heap
+      docker pull quay.io/repository/biocontainers/perl-heap:<tag>
+
+   (see `perl-heap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-heap| conda:required_by:: perl-heap
 .. |downloads_perl-heap| image:: https://img.shields.io/conda/dn/bioconda/perl-heap.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-heap| image:: https://quay.io/repository/biocontainers/perl-heap/status
    :target: https://quay.io/repository/biocontainers/perl-heap
+.. _`perl-heap/tags`: https://quay.io/repository/biocontainers/perl-heap?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-heap/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vcfpy'
 .. highlight: bash
-
 
 vcfpy
 =====
@@ -21,11 +22,13 @@ vcfpy
 
    |downloads_vcfpy| |docker_vcfpy|
 
-   :versions: 0.12.0, 0.11.2, 0.11.1, 0.11.0
-
-   :depends: :conda:package:`pysam` >=0.10.0 :conda:package:`python` >=3 
-
-   :required~by: |required_by_vcfpy|
+   :versions: 0.12.0-3, 0.11.2-3, 0.11.2-2, 0.11.2-0, 0.11.1-0, 0.11.0-1, 0.11.0-0
+   
+   :depends pysam: >=0.10.0
+   
+   :depends python: >=3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ vcfpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcfpy
+      docker pull quay.io/repository/biocontainers/vcfpy:<tag>
+
+   (see `vcfpy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vcfpy| conda:required_by:: vcfpy
 .. |downloads_vcfpy| image:: https://img.shields.io/conda/dn/bioconda/vcfpy.svg?style=flat
    :alt:   (downloads)
 .. |docker_vcfpy| image:: https://quay.io/repository/biocontainers/vcfpy/status
    :target: https://quay.io/repository/biocontainers/vcfpy
+.. _`vcfpy/tags`: https://quay.io/repository/biocontainers/vcfpy?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vcfpy/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sigar'
 .. highlight: bash
-
 
 bioconductor-sigar
 ==================
@@ -22,11 +23,33 @@ bioconductor-sigar
 
    |downloads_bioconductor-sigar| |docker_bioconductor-sigar|
 
-   :versions: 1.30.0, 1.28.0, 1.26.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-cghbase` >=1.42.0,<1.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-marray` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor` >=1.6.2 :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-mvtnorm`  :conda:package:`r-penalized`  :conda:package:`r-quadprog`  :conda:package:`r-snowfall`  
-
-   :required~by: |required_by_bioconductor-sigar|
+   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-cghbase: >=1.42.0,<1.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-marray: >=1.60.0,<1.61.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-corpcor: >=1.6.2
+   
+   :depends r-igraph: 
+   
+   :depends r-mass: 
+   
+   :depends r-mvtnorm: 
+   
+   :depends r-penalized: 
+   
+   :depends r-quadprog: 
+   
+   :depends r-snowfall: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +63,16 @@ bioconductor-sigar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sigar
+      docker pull quay.io/repository/biocontainers/bioconductor-sigar:<tag>
+
+   (see `bioconductor-sigar/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sigar| conda:required_by:: bioconductor-sigar
 .. |downloads_bioconductor-sigar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sigar.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sigar| image:: https://quay.io/repository/biocontainers/bioconductor-sigar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sigar
+.. _`bioconductor-sigar/tags`: https://quay.io/repository/biocontainers/bioconductor-sigar?tab=tags
 
 
 
@@ -64,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sigar/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rnastructure'
 .. highlight: bash
-
 
 rnastructure
 ============
@@ -22,11 +23,13 @@ rnastructure
 
    |downloads_rnastructure| |docker_rnastructure|
 
-   :versions: 6.1, 6.0, 5.7
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_rnastructure|
+   :versions: 6.1-0, 6.0-1, 6.0-0, 5.7-2, 5.7-1, 5.7-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ rnastructure
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnastructure
+      docker pull quay.io/repository/biocontainers/rnastructure:<tag>
+
+   (see `rnastructure/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rnastructure| conda:required_by:: rnastructure
 .. |downloads_rnastructure| image:: https://img.shields.io/conda/dn/bioconda/rnastructure.svg?style=flat
    :alt:   (downloads)
 .. |docker_rnastructure| image:: https://quay.io/repository/biocontainers/rnastructure/status
    :target: https://quay.io/repository/biocontainers/rnastructure
+.. _`rnastructure/tags`: https://quay.io/repository/biocontainers/rnastructure?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rnastructure/README.html
-

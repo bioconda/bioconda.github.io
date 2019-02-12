@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'womtool'
 .. highlight: bash
-
 
 womtool
 =======
@@ -22,11 +23,13 @@ womtool
 
    |downloads_womtool| |docker_womtool|
 
-   :versions: 36, 31
-
-   :depends: :conda:package:`openjdk` >=8 :conda:package:`python`  
-
-   :required~by: |required_by_womtool|
+   :versions: 36-0, 31-1, 31-0
+   
+   :depends openjdk: >=8
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ womtool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/womtool
+      docker pull quay.io/repository/biocontainers/womtool:<tag>
+
+   (see `womtool/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_womtool| conda:required_by:: womtool
 .. |downloads_womtool| image:: https://img.shields.io/conda/dn/bioconda/womtool.svg?style=flat
    :alt:   (downloads)
 .. |docker_womtool| image:: https://quay.io/repository/biocontainers/womtool/status
    :target: https://quay.io/repository/biocontainers/womtool
+.. _`womtool/tags`: https://quay.io/repository/biocontainers/womtool?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/womtool/README.html
-

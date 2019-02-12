@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-paa'
 .. highlight: bash
-
 
 bioconductor-paa
 ================
@@ -21,11 +22,35 @@ bioconductor-paa
 
    |downloads_bioconductor-paa| |docker_bioconductor-paa|
 
-   :versions: 1.16.0
-
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-sva` >=3.30.0,<3.31.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-gplots`  :conda:package:`r-gtools`  :conda:package:`r-mass`  :conda:package:`r-mrmre`  :conda:package:`r-randomforest`  :conda:package:`r-rcpp` >=0.11.6 :conda:package:`r-rocr`  
-
-   :required~by: |required_by_bioconductor-paa|
+   :versions: 1.16.0-0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-sva: >=3.30.0,<3.31.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-e1071: 
+   
+   :depends r-gplots: 
+   
+   :depends r-gtools: 
+   
+   :depends r-mass: 
+   
+   :depends r-mrmre: 
+   
+   :depends r-randomforest: 
+   
+   :depends r-rcpp: >=0.11.6
+   
+   :depends r-rocr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ bioconductor-paa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-paa
+      docker pull quay.io/repository/biocontainers/bioconductor-paa:<tag>
+
+   (see `bioconductor-paa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-paa| conda:required_by:: bioconductor-paa
 .. |downloads_bioconductor-paa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-paa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-paa| image:: https://quay.io/repository/biocontainers/bioconductor-paa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-paa
+.. _`bioconductor-paa/tags`: https://quay.io/repository/biocontainers/bioconductor-paa?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-paa/README.html
-

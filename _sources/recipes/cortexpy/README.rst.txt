@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cortexpy'
 .. highlight: bash
-
 
 cortexpy
 ========
@@ -21,11 +22,27 @@ cortexpy
 
    |downloads_cortexpy| |docker_cortexpy|
 
-   :versions: 0.45.7, 0.45.6, 0.44.0, 0.41.1
-
-   :depends: :conda:package:`attrs`  :conda:package:`biopython`  :conda:package:`delegation`  :conda:package:`msgpack-python`  :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`pyyaml`  :conda:package:`schema`  
-
-   :required~by: |required_by_cortexpy|
+   :versions: 0.45.7-0, 0.45.6-0, 0.44.0-0, 0.41.1-0
+   
+   :depends attrs: 
+   
+   :depends biopython: 
+   
+   :depends delegation: 
+   
+   :depends msgpack-python: 
+   
+   :depends networkx: 
+   
+   :depends numpy: 
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :depends pyyaml: 
+   
+   :depends schema: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ cortexpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cortexpy
+      docker pull quay.io/repository/biocontainers/cortexpy:<tag>
+
+   (see `cortexpy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cortexpy| conda:required_by:: cortexpy
 .. |downloads_cortexpy| image:: https://img.shields.io/conda/dn/bioconda/cortexpy.svg?style=flat
    :alt:   (downloads)
 .. |docker_cortexpy| image:: https://quay.io/repository/biocontainers/cortexpy/status
    :target: https://quay.io/repository/biocontainers/cortexpy
+.. _`cortexpy/tags`: https://quay.io/repository/biocontainers/cortexpy?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cortexpy/README.html
-

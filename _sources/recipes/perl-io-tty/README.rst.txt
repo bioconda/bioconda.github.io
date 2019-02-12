@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-io-tty'
 .. highlight: bash
-
 
 perl-io-tty
 ===========
@@ -21,11 +22,11 @@ perl-io-tty
 
    |downloads_perl-io-tty| |docker_perl-io-tty|
 
-   :versions: 1.12
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-io-tty|
+   :versions: 1.12-1, 1.12-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-io-tty
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-tty
+      docker pull quay.io/repository/biocontainers/perl-io-tty:<tag>
+
+   (see `perl-io-tty/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-io-tty| conda:required_by:: perl-io-tty
 .. |downloads_perl-io-tty| image:: https://img.shields.io/conda/dn/bioconda/perl-io-tty.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-io-tty| image:: https://quay.io/repository/biocontainers/perl-io-tty/status
    :target: https://quay.io/repository/biocontainers/perl-io-tty
+.. _`perl-io-tty/tags`: https://quay.io/repository/biocontainers/perl-io-tty?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-io-tty/README.html
-

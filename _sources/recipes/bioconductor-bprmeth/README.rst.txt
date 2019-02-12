@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bprmeth'
 .. highlight: bash
-
 
 bioconductor-bprmeth
 ====================
@@ -22,10 +23,8 @@ bioconductor-bprmeth
    |downloads_bioconductor-bprmeth| |docker_bioconductor-bprmeth|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-bprmeth|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-bprmeth
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bprmeth
+      docker pull quay.io/repository/biocontainers/bioconductor-bprmeth:<tag>
+
+   (see `bioconductor-bprmeth/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bprmeth| conda:required_by:: bioconductor-bprmeth
 .. |downloads_bioconductor-bprmeth| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bprmeth.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bprmeth| image:: https://quay.io/repository/biocontainers/bioconductor-bprmeth/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bprmeth
+.. _`bioconductor-bprmeth/tags`: https://quay.io/repository/biocontainers/bioconductor-bprmeth?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bprmeth/README.html
-

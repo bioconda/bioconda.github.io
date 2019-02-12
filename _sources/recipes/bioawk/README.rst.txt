@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioawk'
 .. highlight: bash
-
 
 bioawk
 ======
@@ -21,11 +22,13 @@ bioawk
 
    |downloads_bioawk| |docker_bioawk|
 
-   :versions: 1.0
-
-   :depends: 
-
-   :required~by: |required_by_bioawk|
+   :versions: 1.0-3, 1.0-2, 1.0-1, 1.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioawk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioawk
+      docker pull quay.io/repository/biocontainers/bioawk:<tag>
+
+   (see `bioawk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioawk| conda:required_by:: bioawk
 .. |downloads_bioawk| image:: https://img.shields.io/conda/dn/bioconda/bioawk.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioawk| image:: https://quay.io/repository/biocontainers/bioawk/status
    :target: https://quay.io/repository/biocontainers/bioawk
+.. _`bioawk/tags`: https://quay.io/repository/biocontainers/bioawk?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioawk/README.html
-

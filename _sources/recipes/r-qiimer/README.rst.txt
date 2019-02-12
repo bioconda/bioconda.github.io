@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-qiimer'
 .. highlight: bash
-
 
 r-qiimer
 ========
@@ -21,11 +22,13 @@ r-qiimer
 
    |downloads_r-qiimer| |docker_r-qiimer|
 
-   :versions: 0.9.4
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-pheatmap`  
-
-   :required~by: |required_by_r-qiimer|
+   :versions: 0.9.4-0
+   
+   :depends r: 3.3.1*
+   
+   :depends r-pheatmap: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ r-qiimer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-qiimer
+      docker pull quay.io/repository/biocontainers/r-qiimer:<tag>
+
+   (see `r-qiimer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-qiimer| conda:required_by:: r-qiimer
 .. |downloads_r-qiimer| image:: https://img.shields.io/conda/dn/bioconda/r-qiimer.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-qiimer| image:: https://quay.io/repository/biocontainers/r-qiimer/status
    :target: https://quay.io/repository/biocontainers/r-qiimer
+.. _`r-qiimer/tags`: https://quay.io/repository/biocontainers/r-qiimer?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-qiimer/README.html
-

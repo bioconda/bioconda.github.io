@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-taxonomizr'
 .. highlight: bash
-
 
 r-taxonomizr
 ============
@@ -21,11 +22,27 @@ r-taxonomizr
 
    |downloads_r-taxonomizr| |docker_r-taxonomizr|
 
-   :versions: 0.5.1
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`parallel`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-knitr`  :conda:package:`r-markdown`  :conda:package:`r-r.utils`  :conda:package:`r-rsqlite`  :conda:package:`r-testthat`  
-
-   :required~by: |required_by_r-taxonomizr|
+   :versions: 0.5.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends parallel: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-knitr: 
+   
+   :depends r-markdown: 
+   
+   :depends r-r.utils: 
+   
+   :depends r-rsqlite: 
+   
+   :depends r-testthat: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ r-taxonomizr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-taxonomizr
+      docker pull quay.io/repository/biocontainers/r-taxonomizr:<tag>
+
+   (see `r-taxonomizr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-taxonomizr| conda:required_by:: r-taxonomizr
 .. |downloads_r-taxonomizr| image:: https://img.shields.io/conda/dn/bioconda/r-taxonomizr.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-taxonomizr| image:: https://quay.io/repository/biocontainers/r-taxonomizr/status
    :target: https://quay.io/repository/biocontainers/r-taxonomizr
+.. _`r-taxonomizr/tags`: https://quay.io/repository/biocontainers/r-taxonomizr?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-taxonomizr/README.html
-

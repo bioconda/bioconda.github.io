@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-birte'
 .. highlight: bash
-
 
 bioconductor-birte
 ==================
@@ -22,11 +23,31 @@ bioconductor-birte
 
    |downloads_bioconductor-birte| |docker_bioconductor-birte|
 
-   :versions: 1.18.0, 1.16.0, 1.14.0, 1.12.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-nem` >=2.56.0,<2.57.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`openblas` >=0.3.3,<0.3.4.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-glmnet`  :conda:package:`r-mass`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo` >=0.3.6.1 
-
-   :required~by: |required_by_bioconductor-birte|
+   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-nem: >=2.56.0,<2.57.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends openblas: >=0.3.3,<0.3.4.0a0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-glmnet: 
+   
+   :depends r-mass: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-rcpparmadillo: >=0.3.6.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +61,16 @@ bioconductor-birte
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-birte
+      docker pull quay.io/repository/biocontainers/bioconductor-birte:<tag>
+
+   (see `bioconductor-birte/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-birte| conda:required_by:: bioconductor-birte
 .. |downloads_bioconductor-birte| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-birte.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-birte| image:: https://quay.io/repository/biocontainers/bioconductor-birte/status
    :target: https://quay.io/repository/biocontainers/bioconductor-birte
+.. _`bioconductor-birte/tags`: https://quay.io/repository/biocontainers/bioconductor-birte?tab=tags
 
 
 
@@ -64,4 +87,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-birte/README.html
-

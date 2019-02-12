@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biomaj'
 .. highlight: bash
-
 
 biomaj
 ======
@@ -22,11 +23,27 @@ biomaj
 
    |downloads_biomaj| |docker_biomaj|
 
-   :versions: 3.0.19
-
-   :depends: :conda:package:`bcrypt`  :conda:package:`drmaa`  :conda:package:`elasticsearch`  :conda:package:`future`  :conda:package:`ldap3`  :conda:package:`pycurl`  :conda:package:`pymongo`  :conda:package:`python` 2.7* :conda:package:`tabulate`  
-
-   :required~by: |required_by_biomaj|
+   :versions: 3.0.19-0
+   
+   :depends bcrypt: 
+   
+   :depends drmaa: 
+   
+   :depends elasticsearch: 
+   
+   :depends future: 
+   
+   :depends ldap3: 
+   
+   :depends pycurl: 
+   
+   :depends pymongo: 
+   
+   :depends python: 2.7*
+   
+   :depends tabulate: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ biomaj
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biomaj
+      docker pull quay.io/repository/biocontainers/biomaj:<tag>
+
+   (see `biomaj/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biomaj| conda:required_by:: biomaj
 .. |downloads_biomaj| image:: https://img.shields.io/conda/dn/bioconda/biomaj.svg?style=flat
    :alt:   (downloads)
 .. |docker_biomaj| image:: https://quay.io/repository/biocontainers/biomaj/status
    :target: https://quay.io/repository/biocontainers/biomaj
+.. _`biomaj/tags`: https://quay.io/repository/biocontainers/biomaj?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biomaj/README.html
-

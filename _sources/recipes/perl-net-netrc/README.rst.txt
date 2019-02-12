@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-net-netrc'
 .. highlight: bash
-
 
 perl-net-netrc
 ==============
@@ -21,11 +22,11 @@ perl-net-netrc
 
    |downloads_perl-net-netrc| |docker_perl-net-netrc|
 
-   :versions: 2.14
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-net-netrc|
+   :versions: 2.14-1, 2.14-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-net-netrc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-net-netrc
+      docker pull quay.io/repository/biocontainers/perl-net-netrc:<tag>
+
+   (see `perl-net-netrc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-net-netrc| conda:required_by:: perl-net-netrc
 .. |downloads_perl-net-netrc| image:: https://img.shields.io/conda/dn/bioconda/perl-net-netrc.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-net-netrc| image:: https://quay.io/repository/biocontainers/perl-net-netrc/status
    :target: https://quay.io/repository/biocontainers/perl-net-netrc
+.. _`perl-net-netrc/tags`: https://quay.io/repository/biocontainers/perl-net-netrc?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-net-netrc/README.html
-

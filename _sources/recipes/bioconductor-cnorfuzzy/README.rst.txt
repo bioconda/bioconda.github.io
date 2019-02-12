@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cnorfuzzy'
 .. highlight: bash
-
 
 bioconductor-cnorfuzzy
 ======================
@@ -22,11 +23,17 @@ bioconductor-cnorfuzzy
 
    |downloads_bioconductor-cnorfuzzy| |docker_bioconductor-cnorfuzzy|
 
-   :versions: 1.24.0, 1.22.0, 1.20.0
-
-   :depends: :conda:package:`bioconductor-cellnoptr` >=1.28.0,<1.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-nloptr` >=0.8.5 
-
-   :required~by: |required_by_bioconductor-cnorfuzzy|
+   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-0
+   
+   :depends bioconductor-cellnoptr: >=1.28.0,<1.29.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-nloptr: >=0.8.5
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-cnorfuzzy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cnorfuzzy
+      docker pull quay.io/repository/biocontainers/bioconductor-cnorfuzzy:<tag>
+
+   (see `bioconductor-cnorfuzzy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cnorfuzzy| conda:required_by:: bioconductor-cnorfuzzy
 .. |downloads_bioconductor-cnorfuzzy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnorfuzzy.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cnorfuzzy| image:: https://quay.io/repository/biocontainers/bioconductor-cnorfuzzy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cnorfuzzy
+.. _`bioconductor-cnorfuzzy/tags`: https://quay.io/repository/biocontainers/bioconductor-cnorfuzzy?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cnorfuzzy/README.html
-

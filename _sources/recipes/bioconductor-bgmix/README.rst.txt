@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bgmix'
 .. highlight: bash
-
 
 bioconductor-bgmix
 ==================
@@ -22,11 +23,15 @@ bioconductor-bgmix
 
    |downloads_bioconductor-bgmix| |docker_bioconductor-bgmix|
 
-   :versions: 1.42.0, 1.40.0, 1.38.0, 1.36.0
-
-   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-kernsmooth`  
-
-   :required~by: |required_by_bioconductor-bgmix|
+   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
+   
+   :depends libcxx: >=4.0.1
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-kernsmooth: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-bgmix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bgmix
+      docker pull quay.io/repository/biocontainers/bioconductor-bgmix:<tag>
+
+   (see `bioconductor-bgmix/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bgmix| conda:required_by:: bioconductor-bgmix
 .. |downloads_bioconductor-bgmix| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bgmix.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bgmix| image:: https://quay.io/repository/biocontainers/bioconductor-bgmix/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bgmix
+.. _`bioconductor-bgmix/tags`: https://quay.io/repository/biocontainers/bioconductor-bgmix?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bgmix/README.html
-

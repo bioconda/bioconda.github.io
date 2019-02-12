@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pbcommand'
 .. highlight: bash
-
 
 pbcommand
 =========
@@ -21,11 +22,21 @@ pbcommand
 
    |downloads_pbcommand| |docker_pbcommand|
 
-   :versions: 1.1.1, 0.3.29, 0.2.17
-
-   :depends: :conda:package:`avro-python2`  :conda:package:`iso8601`  :conda:package:`numpy` >=1.15 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`pytz`  :conda:package:`requests`  
-
-   :required~by: |required_by_pbcommand|
+   :versions: 1.1.1-2, 1.1.1-1, 1.1.1-0, 0.3.29-0, 0.2.17-0
+   
+   :depends avro-python2: 
+   
+   :depends iso8601: 
+   
+   :depends numpy: >=1.15
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends pytz: 
+   
+   :depends requests: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ pbcommand
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbcommand
+      docker pull quay.io/repository/biocontainers/pbcommand:<tag>
+
+   (see `pbcommand/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pbcommand| conda:required_by:: pbcommand
 .. |downloads_pbcommand| image:: https://img.shields.io/conda/dn/bioconda/pbcommand.svg?style=flat
    :alt:   (downloads)
 .. |docker_pbcommand| image:: https://quay.io/repository/biocontainers/pbcommand/status
    :target: https://quay.io/repository/biocontainers/pbcommand
+.. _`pbcommand/tags`: https://quay.io/repository/biocontainers/pbcommand?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pbcommand/README.html
-

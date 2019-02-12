@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'unitas'
 .. highlight: bash
-
 
 unitas
 ======
@@ -22,11 +23,25 @@ unitas
 
    |downloads_unitas| |docker_unitas|
 
-   :versions: 1.6.1
-
-   :depends: :conda:package:`dnapi`  :conda:package:`perl`  :conda:package:`perl-archive-extract`  :conda:package:`perl-file-path`  :conda:package:`perl-getopt-long`  :conda:package:`perl-lwp-simple`  :conda:package:`perl-statistics-distributions`  :conda:package:`seqmap`  
-
-   :required~by: |required_by_unitas|
+   :versions: 1.6.1-0
+   
+   :depends dnapi: 
+   
+   :depends perl: 
+   
+   :depends perl-archive-extract: 
+   
+   :depends perl-file-path: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-lwp-simple: 
+   
+   :depends perl-statistics-distributions: 
+   
+   :depends seqmap: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ unitas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/unitas
+      docker pull quay.io/repository/biocontainers/unitas:<tag>
+
+   (see `unitas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_unitas| conda:required_by:: unitas
 .. |downloads_unitas| image:: https://img.shields.io/conda/dn/bioconda/unitas.svg?style=flat
    :alt:   (downloads)
 .. |docker_unitas| image:: https://quay.io/repository/biocontainers/unitas/status
    :target: https://quay.io/repository/biocontainers/unitas
+.. _`unitas/tags`: https://quay.io/repository/biocontainers/unitas?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/unitas/README.html
-

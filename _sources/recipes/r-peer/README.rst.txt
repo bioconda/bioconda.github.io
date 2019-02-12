@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-peer'
 .. highlight: bash
-
 
 r-peer
 ======
@@ -21,11 +22,13 @@ r-peer
 
    |downloads_r-peer| |docker_r-peer|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`libgcc`  :conda:package:`r` 3.3.1* 
-
-   :required~by: |required_by_r-peer|
+   :versions: 1.3-1, 1.3-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ r-peer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-peer
+      docker pull quay.io/repository/biocontainers/r-peer:<tag>
+
+   (see `r-peer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-peer| conda:required_by:: r-peer
 .. |downloads_r-peer| image:: https://img.shields.io/conda/dn/bioconda/r-peer.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-peer| image:: https://quay.io/repository/biocontainers/r-peer/status
    :target: https://quay.io/repository/biocontainers/r-peer
+.. _`r-peer/tags`: https://quay.io/repository/biocontainers/r-peer?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-peer/README.html
-

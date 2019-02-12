@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'comparative-annotation-toolkit'
 .. highlight: bash
-
 
 comparative-annotation-toolkit
 ==============================
@@ -22,11 +23,85 @@ comparative-annotation-toolkit
 
    |downloads_comparative-annotation-toolkit| |docker_comparative-annotation-toolkit|
 
-   :versions: 0.1
-
-   :depends: :conda:package:`augustus` >=3.3 :conda:package:`bamtools` 2.4.1* :conda:package:`bx-python` >=0.7.1 :conda:package:`configobj` >=5.0 :conda:package:`ete3`  :conda:package:`frozendict`  :conda:package:`luigi` >=2.5 :conda:package:`numpy` >=1.10 :conda:package:`pandas` >=0.18 :conda:package:`pyfasta` >=0.5.2 :conda:package:`pysam` >=0.10 :conda:package:`python` 2.7* :conda:package:`samtools` >=1.3 :conda:package:`scipy` >=0.18.1 :conda:package:`seaborn` >=0.7 :conda:package:`sqlalchemy` >=1.0 :conda:package:`toil` >=3.5 :conda:package:`ucsc-axtchain`  :conda:package:`ucsc-bamtopsl`  :conda:package:`ucsc-bedsort`  :conda:package:`ucsc-bedtobigbed`  :conda:package:`ucsc-blat`  :conda:package:`ucsc-chainmergesort`  :conda:package:`ucsc-clustergenes`  :conda:package:`ucsc-fatotwobit`  :conda:package:`ucsc-genepredtobed`  :conda:package:`ucsc-genepredtofakepsl`  :conda:package:`ucsc-genepredtogtf`  :conda:package:`ucsc-gff3togenepred`  :conda:package:`ucsc-gtftogenepred`  :conda:package:`ucsc-pslcdnafilter`  :conda:package:`ucsc-pslcheck`  :conda:package:`ucsc-pslmap`  :conda:package:`ucsc-pslmappostchain`  :conda:package:`ucsc-pslpostarget`  :conda:package:`ucsc-pslrecalcmatch`  :conda:package:`ucsc-psltobigpsl`  :conda:package:`ucsc-transmappsltogenepred`  
-
-   :required~by: |required_by_comparative-annotation-toolkit|
+   :versions: 0.1-1, 0.1-0
+   
+   :depends augustus: >=3.3
+   
+   :depends bamtools: >=2.4.1,<2.4.2.0a0
+   
+   :depends bx-python: >=0.7.1
+   
+   :depends configobj: >=5.0
+   
+   :depends ete3: 
+   
+   :depends frozendict: 
+   
+   :depends luigi: >=2.5
+   
+   :depends numpy: >=1.10
+   
+   :depends pandas: >=0.18
+   
+   :depends pyfasta: >=0.5.2
+   
+   :depends pysam: >=0.10
+   
+   :depends python: 2.7.*
+   
+   :depends samtools: >=1.3
+   
+   :depends scipy: >=0.18.1
+   
+   :depends seaborn: >=0.7
+   
+   :depends sqlalchemy: >=1.0
+   
+   :depends toil: >=3.5
+   
+   :depends ucsc-axtchain: 
+   
+   :depends ucsc-bamtopsl: 
+   
+   :depends ucsc-bedsort: 
+   
+   :depends ucsc-bedtobigbed: 
+   
+   :depends ucsc-blat: 
+   
+   :depends ucsc-chainmergesort: 
+   
+   :depends ucsc-clustergenes: 
+   
+   :depends ucsc-fatotwobit: 
+   
+   :depends ucsc-genepredtobed: 
+   
+   :depends ucsc-genepredtofakepsl: 
+   
+   :depends ucsc-genepredtogtf: 
+   
+   :depends ucsc-gff3togenepred: 
+   
+   :depends ucsc-gtftogenepred: 
+   
+   :depends ucsc-pslcdnafilter: 
+   
+   :depends ucsc-pslcheck: 
+   
+   :depends ucsc-pslmap: 
+   
+   :depends ucsc-pslmappostchain: 
+   
+   :depends ucsc-pslpostarget: 
+   
+   :depends ucsc-pslrecalcmatch: 
+   
+   :depends ucsc-psltobigpsl: 
+   
+   :depends ucsc-transmappsltogenepred: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +115,16 @@ comparative-annotation-toolkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/comparative-annotation-toolkit
+      docker pull quay.io/repository/biocontainers/comparative-annotation-toolkit:<tag>
+
+   (see `comparative-annotation-toolkit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_comparative-annotation-toolkit| conda:required_by:: comparative-annotation-toolkit
 .. |downloads_comparative-annotation-toolkit| image:: https://img.shields.io/conda/dn/bioconda/comparative-annotation-toolkit.svg?style=flat
    :alt:   (downloads)
 .. |docker_comparative-annotation-toolkit| image:: https://quay.io/repository/biocontainers/comparative-annotation-toolkit/status
    :target: https://quay.io/repository/biocontainers/comparative-annotation-toolkit
+.. _`comparative-annotation-toolkit/tags`: https://quay.io/repository/biocontainers/comparative-annotation-toolkit?tab=tags
 
 
 
@@ -64,4 +141,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/comparative-annotation-toolkit/README.html
-

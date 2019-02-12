@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'topas'
 .. highlight: bash
-
 
 topas
 =====
@@ -21,11 +22,13 @@ topas
 
    |downloads_topas| |docker_topas|
 
-   :versions: 1.0.1, 1.0.0
-
-   :depends: :conda:package:`openjdk`  :conda:package:`python`  
-
-   :required~by: |required_by_topas|
+   :versions: 1.0.1-0, 1.0.0-0
+   
+   :depends openjdk: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ topas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/topas
+      docker pull quay.io/repository/biocontainers/topas:<tag>
+
+   (see `topas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_topas| conda:required_by:: topas
 .. |downloads_topas| image:: https://img.shields.io/conda/dn/bioconda/topas.svg?style=flat
    :alt:   (downloads)
 .. |docker_topas| image:: https://quay.io/repository/biocontainers/topas/status
    :target: https://quay.io/repository/biocontainers/topas
+.. _`topas/tags`: https://quay.io/repository/biocontainers/topas?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/topas/README.html
-

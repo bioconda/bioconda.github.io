@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'strainest'
 .. highlight: bash
-
 
 strainest
 =========
@@ -21,11 +22,31 @@ strainest
 
    |downloads_strainest| |docker_strainest|
 
-   :versions: 1.2.4, 1.2.2
-
-   :depends: :conda:package:`biopython` >=1.50 :conda:package:`click` >=5.1 :conda:package:`matplotlib` >=1.3.0 :conda:package:`numpy` >=1.7.0 :conda:package:`pandas`  :conda:package:`pysam` >=0.9 :conda:package:`python` 2.7* :conda:package:`scikit-learn` >=0.16.1 :conda:package:`scipy`  
-
-   :required~by: |required_by_strainest|
+   :versions: 1.2.4-2, 1.2.4-0, 1.2.2-0
+   
+   :depends biopython: >=1.50
+   
+   :depends click: >=5.1
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends matplotlib: >=1.3.0
+   
+   :depends mummer: 3.23.*
+   
+   :depends numpy: >=1.7.0
+   
+   :depends pandas: 
+   
+   :depends pysam: >=0.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scikit-learn: >=0.16.1
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ strainest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/strainest
+      docker pull quay.io/repository/biocontainers/strainest:<tag>
+
+   (see `strainest/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_strainest| conda:required_by:: strainest
 .. |downloads_strainest| image:: https://img.shields.io/conda/dn/bioconda/strainest.svg?style=flat
    :alt:   (downloads)
 .. |docker_strainest| image:: https://quay.io/repository/biocontainers/strainest/status
    :target: https://quay.io/repository/biocontainers/strainest
+.. _`strainest/tags`: https://quay.io/repository/biocontainers/strainest?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/strainest/README.html
-

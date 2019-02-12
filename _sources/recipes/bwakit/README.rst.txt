@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bwakit'
 .. highlight: bash
-
 
 bwakit
 ======
@@ -21,11 +22,11 @@ bwakit
 
    |downloads_bwakit| |docker_bwakit|
 
-   :versions: 0.7.15, 0.7.12
-
-   :depends: :conda:package:`perl`  
-
-   :required~by: |required_by_bwakit|
+   :versions: 0.7.15-1, 0.7.15-0, 0.7.12-0
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bwakit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bwakit
+      docker pull quay.io/repository/biocontainers/bwakit:<tag>
+
+   (see `bwakit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bwakit| conda:required_by:: bwakit
 .. |downloads_bwakit| image:: https://img.shields.io/conda/dn/bioconda/bwakit.svg?style=flat
    :alt:   (downloads)
 .. |docker_bwakit| image:: https://quay.io/repository/biocontainers/bwakit/status
    :target: https://quay.io/repository/biocontainers/bwakit
+.. _`bwakit/tags`: https://quay.io/repository/biocontainers/bwakit?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bwakit/README.html
-

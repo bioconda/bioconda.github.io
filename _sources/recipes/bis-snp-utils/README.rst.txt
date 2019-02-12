@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bis-snp-utils'
 .. highlight: bash
-
 
 bis-snp-utils
 =============
@@ -21,11 +22,13 @@ bis-snp-utils
 
    |downloads_bis-snp-utils| |docker_bis-snp-utils|
 
-   :versions: 0.0.1
-
-   :depends: :conda:package:`perl`  :conda:package:`perl-getopt-long`  
-
-   :required~by: |required_by_bis-snp-utils|
+   :versions: 0.0.1-1, 0.0.1-0
+   
+   :depends perl: 
+   
+   :depends perl-getopt-long: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bis-snp-utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bis-snp-utils
+      docker pull quay.io/repository/biocontainers/bis-snp-utils:<tag>
+
+   (see `bis-snp-utils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bis-snp-utils| conda:required_by:: bis-snp-utils
 .. |downloads_bis-snp-utils| image:: https://img.shields.io/conda/dn/bioconda/bis-snp-utils.svg?style=flat
    :alt:   (downloads)
 .. |docker_bis-snp-utils| image:: https://quay.io/repository/biocontainers/bis-snp-utils/status
    :target: https://quay.io/repository/biocontainers/bis-snp-utils
+.. _`bis-snp-utils/tags`: https://quay.io/repository/biocontainers/bis-snp-utils?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bis-snp-utils/README.html
-

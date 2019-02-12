@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-multiclust'
 .. highlight: bash
-
 
 bioconductor-multiclust
 =======================
@@ -22,11 +23,23 @@ bioconductor-multiclust
 
    |downloads_bioconductor-multiclust| |docker_bioconductor-multiclust|
 
-   :versions: 1.12.0, 1.10.0, 1.8.2
-
-   :depends: :conda:package:`bioconductor-ctc` >=1.56.0,<1.57.0 :conda:package:`r-amap`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-dendextend`  :conda:package:`r-mclust`  :conda:package:`r-survival`  
-
-   :required~by: |required_by_bioconductor-multiclust|
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.2-0
+   
+   :depends bioconductor-ctc: >=1.56.0,<1.57.0
+   
+   :depends r-amap: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :depends r-dendextend: 
+   
+   :depends r-mclust: 
+   
+   :depends r-survival: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ bioconductor-multiclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-multiclust
+      docker pull quay.io/repository/biocontainers/bioconductor-multiclust:<tag>
+
+   (see `bioconductor-multiclust/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-multiclust| conda:required_by:: bioconductor-multiclust
 .. |downloads_bioconductor-multiclust| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-multiclust.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-multiclust| image:: https://quay.io/repository/biocontainers/bioconductor-multiclust/status
    :target: https://quay.io/repository/biocontainers/bioconductor-multiclust
+.. _`bioconductor-multiclust/tags`: https://quay.io/repository/biocontainers/bioconductor-multiclust?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-multiclust/README.html
-

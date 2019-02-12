@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gustaf'
 .. highlight: bash
-
 
 gustaf
 ======
@@ -21,11 +22,9 @@ gustaf
 
    |downloads_gustaf| |docker_gustaf|
 
-   :versions: 1.0.8
-
-   :depends: 
-
-   :required~by: |required_by_gustaf|
+   :versions: 1.0.8-1, 1.0.8-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ gustaf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gustaf
+      docker pull quay.io/repository/biocontainers/gustaf:<tag>
+
+   (see `gustaf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gustaf| conda:required_by:: gustaf
 .. |downloads_gustaf| image:: https://img.shields.io/conda/dn/bioconda/gustaf.svg?style=flat
    :alt:   (downloads)
 .. |docker_gustaf| image:: https://quay.io/repository/biocontainers/gustaf/status
    :target: https://quay.io/repository/biocontainers/gustaf
+.. _`gustaf/tags`: https://quay.io/repository/biocontainers/gustaf?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gustaf/README.html
-

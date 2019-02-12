@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'graftm'
 .. highlight: bash
-
 
 graftm
 ======
@@ -21,11 +22,29 @@ graftm
 
    |downloads_graftm| |docker_graftm|
 
-   :versions: 0.11.1, 0.10.1
-
-   :depends: :conda:package:`biom-format` >=2.1.4 :conda:package:`biopython` >=1.64 :conda:package:`dendropy` >=4.1.0 :conda:package:`extern` >=0.0.4 :conda:package:`nose` >=1.0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`seqmagick` >=0.5.0 :conda:package:`subprocess32` >=3.2.6 :conda:package:`taxtastic` >=0.5.4 :conda:package:`tempdir` >=0.6 
-
-   :required~by: |required_by_graftm|
+   :versions: 0.11.1-0, 0.10.1-1, 0.10.1-0
+   
+   :depends biom-format: >=2.1.4
+   
+   :depends biopython: >=1.64
+   
+   :depends dendropy: >=4.1.0
+   
+   :depends extern: >=0.0.4
+   
+   :depends nose: >=1.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends seqmagick: >=0.5.0
+   
+   :depends subprocess32: >=3.2.6
+   
+   :depends taxtastic: >=0.5.4
+   
+   :depends tempdir: >=0.6
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ graftm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/graftm
+      docker pull quay.io/repository/biocontainers/graftm:<tag>
+
+   (see `graftm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_graftm| conda:required_by:: graftm
 .. |downloads_graftm| image:: https://img.shields.io/conda/dn/bioconda/graftm.svg?style=flat
    :alt:   (downloads)
 .. |docker_graftm| image:: https://quay.io/repository/biocontainers/graftm/status
    :target: https://quay.io/repository/biocontainers/graftm
+.. _`graftm/tags`: https://quay.io/repository/biocontainers/graftm?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/graftm/README.html
-

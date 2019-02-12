@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-text-ansitable'
 .. highlight: bash
-
 
 perl-text-ansitable
 ===================
@@ -21,11 +22,39 @@ perl-text-ansitable
 
    |downloads_perl-text-ansitable| |docker_perl-text-ansitable|
 
-   :versions: 0.48
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-border-style`  :conda:package:`perl-color-theme`  :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-json-maybexs`  :conda:package:`perl-json-maybexs`  :conda:package:`perl-module-load`  :conda:package:`perl-moo`  :conda:package:`perl-namespace-clean`  :conda:package:`perl-perl-osnames`  :conda:package:`perl-perlio`  :conda:package:`perl-term-app-roles`  :conda:package:`perl-test-exception`  :conda:package:`perl-test-more`  
-
-   :required~by: |required_by_perl-text-ansitable|
+   :versions: 0.48-0
+   
+   :depends perl: 5.22.0*
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-border-style: 
+   
+   :depends perl-color-theme: 
+   
+   :depends perl-extutils-makemaker: 
+   
+   :depends perl-json-maybexs: 
+   
+   :depends perl-json-maybexs: 
+   
+   :depends perl-module-load: 
+   
+   :depends perl-moo: 
+   
+   :depends perl-namespace-clean: 
+   
+   :depends perl-perl-osnames: 
+   
+   :depends perl-perlio: 
+   
+   :depends perl-term-app-roles: 
+   
+   :depends perl-test-exception: 
+   
+   :depends perl-test-more: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +68,16 @@ perl-text-ansitable
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-ansitable
+      docker pull quay.io/repository/biocontainers/perl-text-ansitable:<tag>
+
+   (see `perl-text-ansitable/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-text-ansitable| conda:required_by:: perl-text-ansitable
 .. |downloads_perl-text-ansitable| image:: https://img.shields.io/conda/dn/bioconda/perl-text-ansitable.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-text-ansitable| image:: https://quay.io/repository/biocontainers/perl-text-ansitable/status
    :target: https://quay.io/repository/biocontainers/perl-text-ansitable
+.. _`perl-text-ansitable/tags`: https://quay.io/repository/biocontainers/perl-text-ansitable?tab=tags
 
 
 
@@ -63,4 +94,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-text-ansitable/README.html
-

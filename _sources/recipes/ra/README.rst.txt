@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ra'
 .. highlight: bash
-
 
 ra
 ==
@@ -21,11 +22,13 @@ ra
 
    |downloads_ra| |docker_ra|
 
-   :versions: 0.9
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_ra|
+   :versions: 0.9-1, 0.9-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ ra
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ra
+      docker pull quay.io/repository/biocontainers/ra:<tag>
+
+   (see `ra/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ra| conda:required_by:: ra
 .. |downloads_ra| image:: https://img.shields.io/conda/dn/bioconda/ra.svg?style=flat
    :alt:   (downloads)
 .. |docker_ra| image:: https://quay.io/repository/biocontainers/ra/status
    :target: https://quay.io/repository/biocontainers/ra
+.. _`ra/tags`: https://quay.io/repository/biocontainers/ra?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ra/README.html
-

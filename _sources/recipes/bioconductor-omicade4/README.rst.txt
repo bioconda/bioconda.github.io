@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-omicade4'
 .. highlight: bash
-
 
 bioconductor-omicade4
 =====================
@@ -22,11 +23,15 @@ bioconductor-omicade4
 
    |downloads_bioconductor-omicade4| |docker_bioconductor-omicade4|
 
-   :versions: 1.22.0, 1.20.0, 1.18.0, 1.16.1
-
-   :depends: :conda:package:`bioconductor-made4` >=1.56.0,<1.57.0 :conda:package:`r-ade4`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-omicade4|
+   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.1-0
+   
+   :depends bioconductor-made4: >=1.56.0,<1.57.0
+   
+   :depends r-ade4: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-omicade4
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omicade4
+      docker pull quay.io/repository/biocontainers/bioconductor-omicade4:<tag>
+
+   (see `bioconductor-omicade4/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-omicade4| conda:required_by:: bioconductor-omicade4
 .. |downloads_bioconductor-omicade4| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-omicade4.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-omicade4| image:: https://quay.io/repository/biocontainers/bioconductor-omicade4/status
    :target: https://quay.io/repository/biocontainers/bioconductor-omicade4
+.. _`bioconductor-omicade4/tags`: https://quay.io/repository/biocontainers/bioconductor-omicade4?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-omicade4/README.html
-

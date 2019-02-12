@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-huexexonprobesetlocationhg18'
 .. highlight: bash
-
 
 bioconductor-huexexonprobesetlocationhg18
 =========================================
@@ -21,11 +22,15 @@ bioconductor-huexexonprobesetlocationhg18
 
    |downloads_bioconductor-huexexonprobesetlocationhg18| |docker_bioconductor-huexexonprobesetlocationhg18|
 
-   :versions: 0.0.2
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-huexexonprobesetlocationhg18|
+   :versions: 0.0.2-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-huexexonprobesetlocationhg18
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-huexexonprobesetlocationhg18
+      docker pull quay.io/repository/biocontainers/bioconductor-huexexonprobesetlocationhg18:<tag>
+
+   (see `bioconductor-huexexonprobesetlocationhg18/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-huexexonprobesetlocationhg18| conda:required_by:: bioconductor-huexexonprobesetlocationhg18
 .. |downloads_bioconductor-huexexonprobesetlocationhg18| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-huexexonprobesetlocationhg18.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-huexexonprobesetlocationhg18| image:: https://quay.io/repository/biocontainers/bioconductor-huexexonprobesetlocationhg18/status
    :target: https://quay.io/repository/biocontainers/bioconductor-huexexonprobesetlocationhg18
+.. _`bioconductor-huexexonprobesetlocationhg18/tags`: https://quay.io/repository/biocontainers/bioconductor-huexexonprobesetlocationhg18?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-huexexonprobesetlocationhg18/README.html
-

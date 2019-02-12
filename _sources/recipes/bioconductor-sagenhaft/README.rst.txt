@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sagenhaft'
 .. highlight: bash
-
 
 bioconductor-sagenhaft
 ======================
@@ -22,11 +23,13 @@ bioconductor-sagenhaft
 
    |downloads_bioconductor-sagenhaft| |docker_bioconductor-sagenhaft|
 
-   :versions: 1.52.0, 1.50.0, 1.48.0, 1.46.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-sparsem` >=0.73 
-
-   :required~by: |required_by_bioconductor-sagenhaft|
+   :versions: 1.52.0-0, 1.50.0-0, 1.48.0-0, 1.46.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-sparsem: >=0.73
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-sagenhaft
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sagenhaft
+      docker pull quay.io/repository/biocontainers/bioconductor-sagenhaft:<tag>
+
+   (see `bioconductor-sagenhaft/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sagenhaft| conda:required_by:: bioconductor-sagenhaft
 .. |downloads_bioconductor-sagenhaft| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sagenhaft.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sagenhaft| image:: https://quay.io/repository/biocontainers/bioconductor-sagenhaft/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sagenhaft
+.. _`bioconductor-sagenhaft/tags`: https://quay.io/repository/biocontainers/bioconductor-sagenhaft?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sagenhaft/README.html
-

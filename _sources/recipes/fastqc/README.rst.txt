@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastqc'
 .. highlight: bash
-
 
 fastqc
 ======
@@ -22,11 +23,17 @@ fastqc
 
    |downloads_fastqc| |docker_fastqc|
 
-   :versions: 0.11.8, 0.11.7, 0.11.6, 0.11.5, 0.11.4, 0.11.3, 0.11.2, 0.10.1
-
-   :depends: :conda:package:`openjdk` >=8.0.144 :conda:package:`perl`  
-
-   :required~by: |required_by_fastqc|
+   :versions: 0.11.8-1, 0.11.8-0, 0.11.7-5, 0.11.7-4, 0.11.7-2, 0.11.7-0, 0.11.6-2, 0.11.6-1, 0.11.6-0, 0.11.5-3, 0.11.5-2, 0.11.5-1, 0.11.4-2, 0.11.4-1, 0.11.4-0, 0.11.3-1, 0.11.3-0, 0.11.2-1, 0.11.2-0, 0.10.1-1, 0.10.1-0
+   
+   :depends font-ttf-dejavu-sans-mono: 
+   
+   :depends fontconfig: 
+   
+   :depends openjdk: >=8.0.144
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ fastqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastqc
+      docker pull quay.io/repository/biocontainers/fastqc:<tag>
+
+   (see `fastqc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastqc| conda:required_by:: fastqc
 .. |downloads_fastqc| image:: https://img.shields.io/conda/dn/bioconda/fastqc.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastqc| image:: https://quay.io/repository/biocontainers/fastqc/status
    :target: https://quay.io/repository/biocontainers/fastqc
+.. _`fastqc/tags`: https://quay.io/repository/biocontainers/fastqc?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastqc/README.html
-

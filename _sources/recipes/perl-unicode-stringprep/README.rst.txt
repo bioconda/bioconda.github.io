@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-unicode-stringprep'
 .. highlight: bash
-
 
 perl-unicode-stringprep
 =======================
@@ -21,11 +22,11 @@ perl-unicode-stringprep
 
    |downloads_perl-unicode-stringprep| |docker_perl-unicode-stringprep|
 
-   :versions: 1.105
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-unicode-stringprep|
+   :versions: 1.105-2, 1.105-1, 1.105-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-unicode-stringprep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-unicode-stringprep
+      docker pull quay.io/repository/biocontainers/perl-unicode-stringprep:<tag>
+
+   (see `perl-unicode-stringprep/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-unicode-stringprep| conda:required_by:: perl-unicode-stringprep
 .. |downloads_perl-unicode-stringprep| image:: https://img.shields.io/conda/dn/bioconda/perl-unicode-stringprep.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-unicode-stringprep| image:: https://quay.io/repository/biocontainers/perl-unicode-stringprep/status
    :target: https://quay.io/repository/biocontainers/perl-unicode-stringprep
+.. _`perl-unicode-stringprep/tags`: https://quay.io/repository/biocontainers/perl-unicode-stringprep?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-unicode-stringprep/README.html
-

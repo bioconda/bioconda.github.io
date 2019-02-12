@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sigsquared'
 .. highlight: bash
-
 
 bioconductor-sigsquared
 =======================
@@ -21,11 +22,15 @@ bioconductor-sigsquared
 
    |downloads_bioconductor-sigsquared| |docker_bioconductor-sigsquared|
 
-   :versions: 1.14.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-survival`  
-
-   :required~by: |required_by_bioconductor-sigsquared|
+   :versions: 1.14.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-survival: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-sigsquared
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sigsquared
+      docker pull quay.io/repository/biocontainers/bioconductor-sigsquared:<tag>
+
+   (see `bioconductor-sigsquared/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sigsquared| conda:required_by:: bioconductor-sigsquared
 .. |downloads_bioconductor-sigsquared| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sigsquared.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sigsquared| image:: https://quay.io/repository/biocontainers/bioconductor-sigsquared/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sigsquared
+.. _`bioconductor-sigsquared/tags`: https://quay.io/repository/biocontainers/bioconductor-sigsquared?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sigsquared/README.html
-

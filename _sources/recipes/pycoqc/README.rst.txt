@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pycoqc'
 .. highlight: bash
-
 
 pycoqc
 ======
@@ -21,11 +22,21 @@ pycoqc
 
    |downloads_pycoqc| |docker_pycoqc|
 
-   :versions: 1.0.alpha1
-
-   :depends: :conda:package:`matplotlib`  :conda:package:`notebook`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`seaborn`  
-
-   :required~by: |required_by_pycoqc|
+   :versions: 1.0.alpha1-0
+   
+   :depends matplotlib: 
+   
+   :depends notebook: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: 2.7*
+   
+   :depends seaborn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ pycoqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pycoqc
+      docker pull quay.io/repository/biocontainers/pycoqc:<tag>
+
+   (see `pycoqc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pycoqc| conda:required_by:: pycoqc
 .. |downloads_pycoqc| image:: https://img.shields.io/conda/dn/bioconda/pycoqc.svg?style=flat
    :alt:   (downloads)
 .. |docker_pycoqc| image:: https://quay.io/repository/biocontainers/pycoqc/status
    :target: https://quay.io/repository/biocontainers/pycoqc
+.. _`pycoqc/tags`: https://quay.io/repository/biocontainers/pycoqc?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pycoqc/README.html
-

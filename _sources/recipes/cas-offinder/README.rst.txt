@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cas-offinder'
 .. highlight: bash
-
 
 cas-offinder
 ============
@@ -21,11 +22,11 @@ cas-offinder
 
    |downloads_cas-offinder| |docker_cas-offinder|
 
-   :versions: 2.4
-
-   :depends: :conda:package:`cmake`  :conda:package:`libgcc`  :conda:package:`pocl`  
-
-   :required~by: |required_by_cas-offinder|
+   :versions: 2.4-1, 2.4-0
+   
+   :depends cmake: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ cas-offinder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cas-offinder
+      docker pull quay.io/repository/biocontainers/cas-offinder:<tag>
+
+   (see `cas-offinder/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cas-offinder| conda:required_by:: cas-offinder
 .. |downloads_cas-offinder| image:: https://img.shields.io/conda/dn/bioconda/cas-offinder.svg?style=flat
    :alt:   (downloads)
 .. |docker_cas-offinder| image:: https://quay.io/repository/biocontainers/cas-offinder/status
    :target: https://quay.io/repository/biocontainers/cas-offinder
+.. _`cas-offinder/tags`: https://quay.io/repository/biocontainers/cas-offinder?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cas-offinder/README.html
-

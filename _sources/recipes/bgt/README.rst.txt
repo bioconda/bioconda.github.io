@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bgt'
 .. highlight: bash
-
 
 bgt
 ===
@@ -21,11 +22,13 @@ bgt
 
    |downloads_bgt| |docker_bgt|
 
-   :versions: r283, r277
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_bgt|
+   :versions: r283-1, r283-0, r277-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bgt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bgt
+      docker pull quay.io/repository/biocontainers/bgt:<tag>
+
+   (see `bgt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bgt| conda:required_by:: bgt
 .. |downloads_bgt| image:: https://img.shields.io/conda/dn/bioconda/bgt.svg?style=flat
    :alt:   (downloads)
 .. |docker_bgt| image:: https://quay.io/repository/biocontainers/bgt/status
    :target: https://quay.io/repository/biocontainers/bgt
+.. _`bgt/tags`: https://quay.io/repository/biocontainers/bgt?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bgt/README.html
-

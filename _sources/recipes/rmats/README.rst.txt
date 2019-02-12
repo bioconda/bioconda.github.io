@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rmats'
 .. highlight: bash
-
 
 rmats
 =====
@@ -21,11 +22,17 @@ rmats
 
    |downloads_rmats| |docker_rmats|
 
-   :versions: 4.0.2, 3.2.5, 3.2.2beta
-
-   :depends: :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  :conda:package:`star` >=2.5 
-
-   :required~by: |required_by_rmats|
+   :versions: 4.0.2-0, 3.2.5-2, 3.2.5-1, 3.2.5-0, 3.2.2beta-0
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :depends star: >=2.5
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ rmats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rmats
+      docker pull quay.io/repository/biocontainers/rmats:<tag>
+
+   (see `rmats/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rmats| conda:required_by:: rmats
 .. |downloads_rmats| image:: https://img.shields.io/conda/dn/bioconda/rmats.svg?style=flat
    :alt:   (downloads)
 .. |docker_rmats| image:: https://quay.io/repository/biocontainers/rmats/status
    :target: https://quay.io/repository/biocontainers/rmats
+.. _`rmats/tags`: https://quay.io/repository/biocontainers/rmats?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rmats/README.html
-

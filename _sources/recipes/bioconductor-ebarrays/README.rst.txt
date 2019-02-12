@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ebarrays'
 .. highlight: bash
-
 
 bioconductor-ebarrays
 =====================
@@ -22,11 +23,19 @@ bioconductor-ebarrays
 
    |downloads_bioconductor-ebarrays| |docker_bioconductor-ebarrays|
 
-   :versions: 2.46.0, 2.44.0, 2.42.0, 2.40.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-lattice`  
-
-   :required~by: |required_by_bioconductor-ebarrays|
+   :versions: 2.46.0-0, 2.44.0-0, 2.42.0-0, 2.40.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :depends r-lattice: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-ebarrays
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ebarrays
+      docker pull quay.io/repository/biocontainers/bioconductor-ebarrays:<tag>
+
+   (see `bioconductor-ebarrays/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ebarrays| conda:required_by:: bioconductor-ebarrays
 .. |downloads_bioconductor-ebarrays| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ebarrays.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ebarrays| image:: https://quay.io/repository/biocontainers/bioconductor-ebarrays/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ebarrays
+.. _`bioconductor-ebarrays/tags`: https://quay.io/repository/biocontainers/bioconductor-ebarrays?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ebarrays/README.html
-

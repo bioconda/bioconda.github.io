@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-diffustats'
 .. highlight: bash
-
 
 bioconductor-diffustats
 =======================
@@ -22,11 +23,33 @@ bioconductor-diffustats
 
    |downloads_bioconductor-diffustats| |docker_bioconductor-diffustats|
 
-   :versions: 1.2.0, 0.104.0, 0.102.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-expm`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-matrix`  :conda:package:`r-plyr`  :conda:package:`r-precrec`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcppparallel`  
-
-   :required~by: |required_by_bioconductor-diffustats|
+   :versions: 1.2.0-0, 0.104.0-0, 0.102.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-expm: 
+   
+   :depends r-igraph: 
+   
+   :depends r-mass: 
+   
+   :depends r-matrix: 
+   
+   :depends r-plyr: 
+   
+   :depends r-precrec: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-rcpparmadillo: 
+   
+   :depends r-rcppparallel: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +63,16 @@ bioconductor-diffustats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-diffustats
+      docker pull quay.io/repository/biocontainers/bioconductor-diffustats:<tag>
+
+   (see `bioconductor-diffustats/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-diffustats| conda:required_by:: bioconductor-diffustats
 .. |downloads_bioconductor-diffustats| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-diffustats.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-diffustats| image:: https://quay.io/repository/biocontainers/bioconductor-diffustats/status
    :target: https://quay.io/repository/biocontainers/bioconductor-diffustats
+.. _`bioconductor-diffustats/tags`: https://quay.io/repository/biocontainers/bioconductor-diffustats?tab=tags
 
 
 
@@ -64,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-diffustats/README.html
-

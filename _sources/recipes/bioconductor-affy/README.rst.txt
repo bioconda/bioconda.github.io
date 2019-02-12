@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-affy'
 .. highlight: bash
-
 
 bioconductor-affy
 =================
@@ -22,11 +23,25 @@ bioconductor-affy
 
    |downloads_bioconductor-affy| |docker_bioconductor-affy|
 
-   :versions: 1.60.0, 1.58.0, 1.56.0, 1.54.0, 1.50.0, 1.48.0
-
-   :depends: :conda:package:`bioconductor-affyio` >=1.52.0,<1.53.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`bioconductor-zlibbioc` >=1.28.0,<1.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biocmanager`  
-
-   :required~by: |required_by_bioconductor-affy|
+   :versions: 1.60.0-0, 1.58.0-0, 1.56.0-0, 1.54.0-0, 1.50.0-0, 1.48.0-0
+   
+   :depends bioconductor-affyio: >=1.52.0,<1.53.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-zlibbioc: >=1.28.0,<1.29.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-biocmanager: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ bioconductor-affy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affy
+      docker pull quay.io/repository/biocontainers/bioconductor-affy:<tag>
+
+   (see `bioconductor-affy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-affy| conda:required_by:: bioconductor-affy
 .. |downloads_bioconductor-affy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affy.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-affy| image:: https://quay.io/repository/biocontainers/bioconductor-affy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affy
+.. _`bioconductor-affy/tags`: https://quay.io/repository/biocontainers/bioconductor-affy?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-affy/README.html
-

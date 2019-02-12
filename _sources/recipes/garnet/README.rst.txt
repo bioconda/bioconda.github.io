@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'garnet'
 .. highlight: bash
-
 
 garnet
 ======
@@ -21,11 +22,25 @@ garnet
 
    |downloads_garnet| |docker_garnet|
 
-   :versions: 0.4.5, 0.4.3, 0.4.0, 0.2.20, 0.2.17
-
-   :depends: :conda:package:`intervaltree`  :conda:package:`jinja2`  :conda:package:`libgcc`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 3.5* :conda:package:`statsmodels`  
-
-   :required~by: |required_by_garnet|
+   :versions: 0.4.5-0, 0.4.3-0, 0.4.0-0, 0.2.20-0, 0.2.17-0
+   
+   :depends intervaltree: 
+   
+   :depends jinja2: 
+   
+   :depends libgcc: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: 3.5*
+   
+   :depends statsmodels: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ garnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/garnet
+      docker pull quay.io/repository/biocontainers/garnet:<tag>
+
+   (see `garnet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_garnet| conda:required_by:: garnet
 .. |downloads_garnet| image:: https://img.shields.io/conda/dn/bioconda/garnet.svg?style=flat
    :alt:   (downloads)
 .. |docker_garnet| image:: https://quay.io/repository/biocontainers/garnet/status
    :target: https://quay.io/repository/biocontainers/garnet
+.. _`garnet/tags`: https://quay.io/repository/biocontainers/garnet?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/garnet/README.html
-

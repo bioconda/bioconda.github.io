@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-dsimer'
 .. highlight: bash
-
 
 bioconductor-dsimer
 ===================
@@ -22,11 +23,27 @@ bioconductor-dsimer
 
    |downloads_bioconductor-dsimer| |docker_bioconductor-dsimer|
 
-   :versions: 1.8.0, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-go.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-igraph` >=1.0.1 :conda:package:`r-rcpp` >=0.11.3 :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-dsimer|
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-go.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
+   
+   :depends libcxx: >=4.0.1
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-igraph: >=1.0.1
+   
+   :depends r-rcpp: >=0.11.3
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ bioconductor-dsimer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dsimer
+      docker pull quay.io/repository/biocontainers/bioconductor-dsimer:<tag>
+
+   (see `bioconductor-dsimer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-dsimer| conda:required_by:: bioconductor-dsimer
 .. |downloads_bioconductor-dsimer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dsimer.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-dsimer| image:: https://quay.io/repository/biocontainers/bioconductor-dsimer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dsimer
+.. _`bioconductor-dsimer/tags`: https://quay.io/repository/biocontainers/bioconductor-dsimer?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-dsimer/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-readonly'
 .. highlight: bash
-
 
 perl-readonly
 =============
@@ -21,11 +22,11 @@ perl-readonly
 
    |downloads_perl-readonly| |docker_perl-readonly|
 
-   :versions: 2.05, 1.04
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-readonly|
+   :versions: 2.05-0, 1.04-2, 1.04-1, 1.04-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-readonly
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-readonly
+      docker pull quay.io/repository/biocontainers/perl-readonly:<tag>
+
+   (see `perl-readonly/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-readonly| conda:required_by:: perl-readonly
 .. |downloads_perl-readonly| image:: https://img.shields.io/conda/dn/bioconda/perl-readonly.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-readonly| image:: https://quay.io/repository/biocontainers/perl-readonly/status
    :target: https://quay.io/repository/biocontainers/perl-readonly
+.. _`perl-readonly/tags`: https://quay.io/repository/biocontainers/perl-readonly?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-readonly/README.html
-

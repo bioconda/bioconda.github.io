@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-exec'
 .. highlight: bash
-
 
 perl-test-exec
 ==============
@@ -21,11 +22,13 @@ perl-test-exec
 
    |downloads_perl-test-exec| |docker_perl-test-exec|
 
-   :versions: 0.04
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-return-multilevel`  
-
-   :required~by: |required_by_perl-test-exec|
+   :versions: 0.04-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-return-multilevel: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-test-exec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-exec
+      docker pull quay.io/repository/biocontainers/perl-test-exec:<tag>
+
+   (see `perl-test-exec/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-exec| conda:required_by:: perl-test-exec
 .. |downloads_perl-test-exec| image:: https://img.shields.io/conda/dn/bioconda/perl-test-exec.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-exec| image:: https://quay.io/repository/biocontainers/perl-test-exec/status
    :target: https://quay.io/repository/biocontainers/perl-test-exec
+.. _`perl-test-exec/tags`: https://quay.io/repository/biocontainers/perl-test-exec?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-exec/README.html
-

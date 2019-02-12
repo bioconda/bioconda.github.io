@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cytodx'
 .. highlight: bash
-
 
 bioconductor-cytodx
 ===================
@@ -21,11 +22,23 @@ bioconductor-cytodx
 
    |downloads_bioconductor-cytodx| |docker_bioconductor-cytodx|
 
-   :versions: 1.2.1
-
-   :depends: :conda:package:`bioconductor-flowcore` >=1.48.0,<1.49.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-dplyr`  :conda:package:`r-glmnet`  :conda:package:`r-rpart`  :conda:package:`r-rpart.plot`  
-
-   :required~by: |required_by_bioconductor-cytodx|
+   :versions: 1.2.1-0
+   
+   :depends bioconductor-flowcore: >=1.48.0,<1.49.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-doparallel: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-glmnet: 
+   
+   :depends r-rpart: 
+   
+   :depends r-rpart.plot: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-cytodx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cytodx
+      docker pull quay.io/repository/biocontainers/bioconductor-cytodx:<tag>
+
+   (see `bioconductor-cytodx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cytodx| conda:required_by:: bioconductor-cytodx
 .. |downloads_bioconductor-cytodx| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cytodx.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cytodx| image:: https://quay.io/repository/biocontainers/bioconductor-cytodx/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cytodx
+.. _`bioconductor-cytodx/tags`: https://quay.io/repository/biocontainers/bioconductor-cytodx?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cytodx/README.html
-

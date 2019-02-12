@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-greengenes13.5mgdb'
 .. highlight: bash
-
 
 bioconductor-greengenes13.5mgdb
 ===============================
@@ -21,11 +22,15 @@ bioconductor-greengenes13.5mgdb
 
    |downloads_bioconductor-greengenes13.5mgdb| |docker_bioconductor-greengenes13.5mgdb|
 
-   :versions: 2.0.0
-
-   :depends: :conda:package:`bioconductor-metagenomefeatures` >=2.2.0,<2.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-greengenes13.5mgdb|
+   :versions: 2.0.0-0
+   
+   :depends bioconductor-metagenomefeatures: >=2.2.0,<2.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-greengenes13.5mgdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-greengenes13.5mgdb
+      docker pull quay.io/repository/biocontainers/bioconductor-greengenes13.5mgdb:<tag>
+
+   (see `bioconductor-greengenes13.5mgdb/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-greengenes13.5mgdb| conda:required_by:: bioconductor-greengenes13.5mgdb
 .. |downloads_bioconductor-greengenes13.5mgdb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-greengenes13.5mgdb.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-greengenes13.5mgdb| image:: https://quay.io/repository/biocontainers/bioconductor-greengenes13.5mgdb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-greengenes13.5mgdb
+.. _`bioconductor-greengenes13.5mgdb/tags`: https://quay.io/repository/biocontainers/bioconductor-greengenes13.5mgdb?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-greengenes13.5mgdb/README.html
-

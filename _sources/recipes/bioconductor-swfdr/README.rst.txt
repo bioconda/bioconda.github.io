@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-swfdr'
 .. highlight: bash
-
 
 bioconductor-swfdr
 ==================
@@ -21,11 +22,17 @@ bioconductor-swfdr
 
    |downloads_bioconductor-swfdr| |docker_bioconductor-swfdr|
 
-   :versions: 1.8.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-swfdr|
+   :versions: 1.8.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-swfdr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-swfdr
+      docker pull quay.io/repository/biocontainers/bioconductor-swfdr:<tag>
+
+   (see `bioconductor-swfdr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-swfdr| conda:required_by:: bioconductor-swfdr
 .. |downloads_bioconductor-swfdr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-swfdr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-swfdr| image:: https://quay.io/repository/biocontainers/bioconductor-swfdr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-swfdr
+.. _`bioconductor-swfdr/tags`: https://quay.io/repository/biocontainers/bioconductor-swfdr?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-swfdr/README.html
-

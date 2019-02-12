@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-affyhgu133aexpr'
 .. highlight: bash
-
 
 bioconductor-affyhgu133aexpr
 ============================
@@ -21,11 +22,13 @@ bioconductor-affyhgu133aexpr
 
    |downloads_bioconductor-affyhgu133aexpr| |docker_bioconductor-affyhgu133aexpr|
 
-   :versions: 1.20.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-affyhgu133aexpr|
+   :versions: 1.20.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-affyhgu133aexpr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affyhgu133aexpr
+      docker pull quay.io/repository/biocontainers/bioconductor-affyhgu133aexpr:<tag>
+
+   (see `bioconductor-affyhgu133aexpr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-affyhgu133aexpr| conda:required_by:: bioconductor-affyhgu133aexpr
 .. |downloads_bioconductor-affyhgu133aexpr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affyhgu133aexpr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-affyhgu133aexpr| image:: https://quay.io/repository/biocontainers/bioconductor-affyhgu133aexpr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affyhgu133aexpr
+.. _`bioconductor-affyhgu133aexpr/tags`: https://quay.io/repository/biocontainers/bioconductor-affyhgu133aexpr?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-affyhgu133aexpr/README.html
-

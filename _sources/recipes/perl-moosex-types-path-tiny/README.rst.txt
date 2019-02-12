@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-moosex-types-path-tiny'
 .. highlight: bash
-
 
 perl-moosex-types-path-tiny
 ===========================
@@ -21,11 +22,23 @@ perl-moosex-types-path-tiny
 
    |downloads_perl-moosex-types-path-tiny| |docker_perl-moosex-types-path-tiny|
 
-   :versions: 0.012
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-moose`  :conda:package:`perl-moosex-getopt`  :conda:package:`perl-moosex-types`  :conda:package:`perl-params-validate`  :conda:package:`perl-path-tiny`  
-
-   :required~by: |required_by_perl-moosex-types-path-tiny|
+   :versions: 0.012-2, 0.012-1, 0.012-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-moose: 
+   
+   :depends perl-moosex-getopt: 
+   
+   :depends perl-moosex-types: 
+   
+   :depends perl-moosex-types-stringlike: 
+   
+   :depends perl-namespace-autoclean: 
+   
+   :depends perl-path-tiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ perl-moosex-types-path-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-types-path-tiny
+      docker pull quay.io/repository/biocontainers/perl-moosex-types-path-tiny:<tag>
+
+   (see `perl-moosex-types-path-tiny/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-moosex-types-path-tiny| conda:required_by:: perl-moosex-types-path-tiny
 .. |downloads_perl-moosex-types-path-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-types-path-tiny.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-moosex-types-path-tiny| image:: https://quay.io/repository/biocontainers/perl-moosex-types-path-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-types-path-tiny
+.. _`perl-moosex-types-path-tiny/tags`: https://quay.io/repository/biocontainers/perl-moosex-types-path-tiny?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-moosex-types-path-tiny/README.html
-

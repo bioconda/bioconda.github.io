@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-adephylo'
 .. highlight: bash
-
 
 r-adephylo
 ==========
@@ -21,11 +22,21 @@ r-adephylo
 
    |downloads_r-adephylo| |docker_r-adephylo|
 
-   :versions: 1.1_11
-
-   :depends: :conda:package:`r-ade4` >=1.7_10 :conda:package:`r-adegenet`  :conda:package:`r-ape`  :conda:package:`r-base` 3.4.1* :conda:package:`r-phylobase`  
-
-   :required~by: |required_by_r-adephylo|
+   :versions: 1.1_11-3, 1.1_11-2, 1.1_11-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-ade4: >=1.7_10
+   
+   :depends r-adegenet: 
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-phylobase: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-adephylo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-adephylo
+      docker pull quay.io/repository/biocontainers/r-adephylo:<tag>
+
+   (see `r-adephylo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-adephylo| conda:required_by:: r-adephylo
 .. |downloads_r-adephylo| image:: https://img.shields.io/conda/dn/bioconda/r-adephylo.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-adephylo| image:: https://quay.io/repository/biocontainers/r-adephylo/status
    :target: https://quay.io/repository/biocontainers/r-adephylo
+.. _`r-adephylo/tags`: https://quay.io/repository/biocontainers/r-adephylo?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-adephylo/README.html
-

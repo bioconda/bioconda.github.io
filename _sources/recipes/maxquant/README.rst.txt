@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'maxquant'
 .. highlight: bash
-
 
 maxquant
 ========
@@ -21,11 +22,11 @@ maxquant
 
    |downloads_maxquant| |docker_maxquant|
 
-   :versions: 1.6.3.4, 1.6.2.10
-
-   :depends: :conda:package:`mono` >=5.0.0 
-
-   :required~by: |required_by_maxquant|
+   :versions: 1.6.3.4-0, 1.6.2.10-0
+   
+   :depends mono: >=5.0.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ maxquant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/maxquant
+      docker pull quay.io/repository/biocontainers/maxquant:<tag>
+
+   (see `maxquant/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_maxquant| conda:required_by:: maxquant
 .. |downloads_maxquant| image:: https://img.shields.io/conda/dn/bioconda/maxquant.svg?style=flat
    :alt:   (downloads)
 .. |docker_maxquant| image:: https://quay.io/repository/biocontainers/maxquant/status
    :target: https://quay.io/repository/biocontainers/maxquant
+.. _`maxquant/tags`: https://quay.io/repository/biocontainers/maxquant?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/maxquant/README.html
-

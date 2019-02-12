@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ms'
 .. highlight: bash
-
 
 ms
 ==
@@ -22,11 +23,9 @@ ms
 
    |downloads_ms| |docker_ms|
 
-   :versions: 2014_03_04
-
-   :depends: 
-
-   :required~by: |required_by_ms|
+   :versions: 2014_03_04-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +39,16 @@ ms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ms
+      docker pull quay.io/repository/biocontainers/ms:<tag>
+
+   (see `ms/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ms| conda:required_by:: ms
 .. |downloads_ms| image:: https://img.shields.io/conda/dn/bioconda/ms.svg?style=flat
    :alt:   (downloads)
 .. |docker_ms| image:: https://quay.io/repository/biocontainers/ms/status
    :target: https://quay.io/repository/biocontainers/ms
+.. _`ms/tags`: https://quay.io/repository/biocontainers/ms?tab=tags
 
 
 
@@ -64,4 +65,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ms/README.html
-

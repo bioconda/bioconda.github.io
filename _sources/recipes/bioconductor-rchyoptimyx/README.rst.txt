@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rchyoptimyx'
 .. highlight: bash
-
 
 bioconductor-rchyoptimyx
 ========================
@@ -22,10 +23,8 @@ bioconductor-rchyoptimyx
    |downloads_bioconductor-rchyoptimyx| |docker_bioconductor-rchyoptimyx|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-rchyoptimyx|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-rchyoptimyx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rchyoptimyx
+      docker pull quay.io/repository/biocontainers/bioconductor-rchyoptimyx:<tag>
+
+   (see `bioconductor-rchyoptimyx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rchyoptimyx| conda:required_by:: bioconductor-rchyoptimyx
 .. |downloads_bioconductor-rchyoptimyx| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rchyoptimyx.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rchyoptimyx| image:: https://quay.io/repository/biocontainers/bioconductor-rchyoptimyx/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rchyoptimyx
+.. _`bioconductor-rchyoptimyx/tags`: https://quay.io/repository/biocontainers/bioconductor-rchyoptimyx?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rchyoptimyx/README.html
-

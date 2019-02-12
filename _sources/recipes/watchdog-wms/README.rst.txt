@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'watchdog-wms'
 .. highlight: bash
-
 
 watchdog-wms
 ============
@@ -21,11 +22,13 @@ watchdog-wms
 
    |downloads_watchdog-wms| |docker_watchdog-wms|
 
-   :versions: 1.2.7, 1.2.6, 1.2.5, 1.2.4b, 1.2.3b
-
-   :depends: :conda:package:`coreutils` >=8 :conda:package:`openjdk` >=8 
-
-   :required~by: |required_by_watchdog-wms|
+   :versions: 1.2.7-1, 1.2.6-1, 1.2.6-0, 1.2.5-1, 1.2.5-0, 1.2.4b-0, 1.2.3b-0
+   
+   :depends coreutils: >=8
+   
+   :depends openjdk: >=8
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ watchdog-wms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/watchdog-wms
+      docker pull quay.io/repository/biocontainers/watchdog-wms:<tag>
+
+   (see `watchdog-wms/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_watchdog-wms| conda:required_by:: watchdog-wms
 .. |downloads_watchdog-wms| image:: https://img.shields.io/conda/dn/bioconda/watchdog-wms.svg?style=flat
    :alt:   (downloads)
 .. |docker_watchdog-wms| image:: https://quay.io/repository/biocontainers/watchdog-wms/status
    :target: https://quay.io/repository/biocontainers/watchdog-wms
+.. _`watchdog-wms/tags`: https://quay.io/repository/biocontainers/watchdog-wms?tab=tags
 
 
 
@@ -68,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/watchdog-wms/README.html
-

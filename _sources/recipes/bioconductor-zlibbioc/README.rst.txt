@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-zlibbioc'
 .. highlight: bash
-
 
 bioconductor-zlibbioc
 =====================
@@ -22,11 +23,13 @@ bioconductor-zlibbioc
 
    |downloads_bioconductor-zlibbioc| |docker_bioconductor-zlibbioc|
 
-   :versions: 1.28.0, 1.26.0, 1.24.0, 1.22.0, 1.20.0, 1.18.0, 1.16.0, 1.14.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-zlibbioc|
+   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-zlibbioc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-zlibbioc
+      docker pull quay.io/repository/biocontainers/bioconductor-zlibbioc:<tag>
+
+   (see `bioconductor-zlibbioc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-zlibbioc| conda:required_by:: bioconductor-zlibbioc
 .. |downloads_bioconductor-zlibbioc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-zlibbioc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-zlibbioc| image:: https://quay.io/repository/biocontainers/bioconductor-zlibbioc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-zlibbioc
+.. _`bioconductor-zlibbioc/tags`: https://quay.io/repository/biocontainers/bioconductor-zlibbioc?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-zlibbioc/README.html
-

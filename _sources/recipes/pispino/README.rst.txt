@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pispino'
 .. highlight: bash
-
 
 pispino
 =======
@@ -21,11 +22,15 @@ pispino
 
    |downloads_pispino| |docker_pispino|
 
-   :versions: 1.1, 1.0
-
-   :depends: :conda:package:`fastx_toolkit`  :conda:package:`python` 2.7* :conda:package:`vsearch`  
-
-   :required~by: |required_by_pispino|
+   :versions: 1.1-1, 1.1-0, 1.0-0
+   
+   :depends fastx_toolkit: 
+   
+   :depends python: 
+   
+   :depends vsearch: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pispino
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pispino
+      docker pull quay.io/repository/biocontainers/pispino:<tag>
+
+   (see `pispino/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pispino| conda:required_by:: pispino
 .. |downloads_pispino| image:: https://img.shields.io/conda/dn/bioconda/pispino.svg?style=flat
    :alt:   (downloads)
 .. |docker_pispino| image:: https://quay.io/repository/biocontainers/pispino/status
    :target: https://quay.io/repository/biocontainers/pispino
+.. _`pispino/tags`: https://quay.io/repository/biocontainers/pispino?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pispino/README.html
-

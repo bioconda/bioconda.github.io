@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyimzml'
 .. highlight: bash
-
 
 pyimzml
 =======
@@ -21,11 +22,15 @@ pyimzml
 
    |downloads_pyimzml| |docker_pyimzml|
 
-   :versions: 1.2.4, 1.2.3, 1.2.1
-
-   :depends: :conda:package:`numpy`  :conda:package:`python`  :conda:package:`wheezy.template`  
-
-   :required~by: |required_by_pyimzml|
+   :versions: 1.2.4-0, 1.2.3-0, 1.2.1-1, 1.2.1-0
+   
+   :depends numpy: 
+   
+   :depends python: 
+   
+   :depends wheezy.template: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pyimzml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyimzml
+      docker pull quay.io/repository/biocontainers/pyimzml:<tag>
+
+   (see `pyimzml/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyimzml| conda:required_by:: pyimzml
 .. |downloads_pyimzml| image:: https://img.shields.io/conda/dn/bioconda/pyimzml.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyimzml| image:: https://quay.io/repository/biocontainers/pyimzml/status
    :target: https://quay.io/repository/biocontainers/pyimzml
+.. _`pyimzml/tags`: https://quay.io/repository/biocontainers/pyimzml?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyimzml/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'oases'
 .. highlight: bash
-
 
 oases
 =====
@@ -22,11 +23,13 @@ oases
 
    |downloads_oases| |docker_oases|
 
-   :versions: 0.2.09
-
-   :depends: :conda:package:`libgcc`  :conda:package:`velvet`  
-
-   :required~by: |required_by_oases|
+   :versions: 0.2.09-1, 0.2.09-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends velvet: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ oases
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/oases
+      docker pull quay.io/repository/biocontainers/oases:<tag>
+
+   (see `oases/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_oases| conda:required_by:: oases
 .. |downloads_oases| image:: https://img.shields.io/conda/dn/bioconda/oases.svg?style=flat
    :alt:   (downloads)
 .. |docker_oases| image:: https://quay.io/repository/biocontainers/oases/status
    :target: https://quay.io/repository/biocontainers/oases
+.. _`oases/tags`: https://quay.io/repository/biocontainers/oases?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/oases/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-dynaloader'
 .. highlight: bash
-
 
 perl-dynaloader
 ===============
@@ -21,11 +22,11 @@ perl-dynaloader
 
    |downloads_perl-dynaloader| |docker_perl-dynaloader|
 
-   :versions: 1.25
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-dynaloader|
+   :versions: 1.25-1, 1.25-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-dynaloader
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-dynaloader
+      docker pull quay.io/repository/biocontainers/perl-dynaloader:<tag>
+
+   (see `perl-dynaloader/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-dynaloader| conda:required_by:: perl-dynaloader
 .. |downloads_perl-dynaloader| image:: https://img.shields.io/conda/dn/bioconda/perl-dynaloader.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-dynaloader| image:: https://quay.io/repository/biocontainers/perl-dynaloader/status
    :target: https://quay.io/repository/biocontainers/perl-dynaloader
+.. _`perl-dynaloader/tags`: https://quay.io/repository/biocontainers/perl-dynaloader?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-dynaloader/README.html
-

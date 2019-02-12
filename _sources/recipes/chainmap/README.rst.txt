@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'chainmap'
 .. highlight: bash
-
 
 chainmap
 ========
@@ -21,11 +22,11 @@ chainmap
 
    |downloads_chainmap| |docker_chainmap|
 
-   :versions: 1.0.2
-
-   :depends: :conda:package:`python` >=2.7,<3 
-
-   :required~by: |required_by_chainmap|
+   :versions: 1.0.2-1, 1.0.2-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ chainmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/chainmap
+      docker pull quay.io/repository/biocontainers/chainmap:<tag>
+
+   (see `chainmap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_chainmap| conda:required_by:: chainmap
 .. |downloads_chainmap| image:: https://img.shields.io/conda/dn/bioconda/chainmap.svg?style=flat
    :alt:   (downloads)
 .. |docker_chainmap| image:: https://quay.io/repository/biocontainers/chainmap/status
    :target: https://quay.io/repository/biocontainers/chainmap
+.. _`chainmap/tags`: https://quay.io/repository/biocontainers/chainmap?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/chainmap/README.html
-

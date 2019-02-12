@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-eudysbiome'
 .. highlight: bash
-
 
 bioconductor-eudysbiome
 =======================
@@ -22,11 +23,19 @@ bioconductor-eudysbiome
 
    |downloads_bioconductor-eudysbiome| |docker_bioconductor-eudysbiome|
 
-   :versions: 1.12.0, 1.10.0, 1.8.0
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-plyr`  :conda:package:`r-r.utils`  
-
-   :required~by: |required_by_bioconductor-eudysbiome|
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-plyr: 
+   
+   :depends r-r.utils: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-eudysbiome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-eudysbiome
+      docker pull quay.io/repository/biocontainers/bioconductor-eudysbiome:<tag>
+
+   (see `bioconductor-eudysbiome/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-eudysbiome| conda:required_by:: bioconductor-eudysbiome
 .. |downloads_bioconductor-eudysbiome| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-eudysbiome.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-eudysbiome| image:: https://quay.io/repository/biocontainers/bioconductor-eudysbiome/status
    :target: https://quay.io/repository/biocontainers/bioconductor-eudysbiome
+.. _`bioconductor-eudysbiome/tags`: https://quay.io/repository/biocontainers/bioconductor-eudysbiome?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-eudysbiome/README.html
-

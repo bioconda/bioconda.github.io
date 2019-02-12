@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genometools'
 .. highlight: bash
-
 
 genometools
 ===========
@@ -21,11 +22,21 @@ genometools
 
    |downloads_genometools| |docker_genometools|
 
-   :versions: 1.2.1
-
-   :depends: :conda:package:`ftputil`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`requests`  :conda:package:`unicodecsv`  :conda:package:`xmltodict`  
-
-   :required~by: |required_by_genometools|
+   :versions: 1.2.1-0
+   
+   :depends ftputil: 
+   
+   :depends numpy: 
+   
+   :depends python: 2.7*
+   
+   :depends requests: 
+   
+   :depends unicodecsv: 
+   
+   :depends xmltodict: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ genometools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genometools
+      docker pull quay.io/repository/biocontainers/genometools:<tag>
+
+   (see `genometools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genometools| conda:required_by:: genometools
 .. |downloads_genometools| image:: https://img.shields.io/conda/dn/bioconda/genometools.svg?style=flat
    :alt:   (downloads)
 .. |docker_genometools| image:: https://quay.io/repository/biocontainers/genometools/status
    :target: https://quay.io/repository/biocontainers/genometools
+.. _`genometools/tags`: https://quay.io/repository/biocontainers/genometools?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genometools/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-river'
 .. highlight: bash
-
 
 bioconductor-river
 ==================
@@ -21,11 +22,19 @@ bioconductor-river
 
    |downloads_bioconductor-river| |docker_bioconductor-river|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-glmnet`  :conda:package:`r-proc`  
-
-   :required~by: |required_by_bioconductor-river|
+   :versions: 1.6.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-glmnet: 
+   
+   :depends r-proc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-river
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-river
+      docker pull quay.io/repository/biocontainers/bioconductor-river:<tag>
+
+   (see `bioconductor-river/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-river| conda:required_by:: bioconductor-river
 .. |downloads_bioconductor-river| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-river.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-river| image:: https://quay.io/repository/biocontainers/bioconductor-river/status
    :target: https://quay.io/repository/biocontainers/bioconductor-river
+.. _`bioconductor-river/tags`: https://quay.io/repository/biocontainers/bioconductor-river?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-river/README.html
-

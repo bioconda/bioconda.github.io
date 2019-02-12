@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ggtree'
 .. highlight: bash
-
 
 bioconductor-ggtree
 ===================
@@ -22,11 +23,35 @@ bioconductor-ggtree
 
    |downloads_bioconductor-ggtree| |docker_bioconductor-ggtree|
 
-   :versions: 1.14.4, 1.12.7, 1.10.0, 1.8.2, 1.4.20, 1.2.12
-
-   :depends: :conda:package:`bioconductor-treeio` >=1.6.0,<1.7.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-ggplot2` >=3.0.0 :conda:package:`r-magrittr`  :conda:package:`r-purrr`  :conda:package:`r-rlang`  :conda:package:`r-rvcheck` >=0.1.0 :conda:package:`r-scales`  :conda:package:`r-tibble`  :conda:package:`r-tidyr`  :conda:package:`r-tidytree` >=0.1.9 
-
-   :required~by: |required_by_bioconductor-ggtree|
+   :versions: 1.14.4-0, 1.12.7-0, 1.10.0-0, 1.8.2-0, 1.4.20-0, 1.2.12-0
+   
+   :depends bioconductor-treeio: >=1.6.0,<1.7.0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: >=3.0.0
+   
+   :depends r-magrittr: 
+   
+   :depends r-purrr: 
+   
+   :depends r-rlang: 
+   
+   :depends r-rvcheck: >=0.1.0
+   
+   :depends r-scales: 
+   
+   :depends r-tibble: 
+   
+   :depends r-tidyr: 
+   
+   :depends r-tidytree: >=0.1.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +65,16 @@ bioconductor-ggtree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ggtree
+      docker pull quay.io/repository/biocontainers/bioconductor-ggtree:<tag>
+
+   (see `bioconductor-ggtree/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ggtree| conda:required_by:: bioconductor-ggtree
 .. |downloads_bioconductor-ggtree| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ggtree.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ggtree| image:: https://quay.io/repository/biocontainers/bioconductor-ggtree/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ggtree
+.. _`bioconductor-ggtree/tags`: https://quay.io/repository/biocontainers/bioconductor-ggtree?tab=tags
 
 
 
@@ -64,4 +91,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ggtree/README.html
-

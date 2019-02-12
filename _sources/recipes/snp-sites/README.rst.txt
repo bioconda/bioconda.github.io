@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'snp-sites'
 .. highlight: bash
-
 
 snp-sites
 =========
@@ -21,11 +22,13 @@ snp-sites
 
    |downloads_snp-sites| |docker_snp-sites|
 
-   :versions: 2.4.1, 2.4.0, 2.3.3, 2.3.2
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_snp-sites|
+   :versions: 2.4.1-0, 2.4.0-3, 2.4.0-0, 2.3.3-1, 2.3.3-0, 2.3.2-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ snp-sites
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snp-sites
+      docker pull quay.io/repository/biocontainers/snp-sites:<tag>
+
+   (see `snp-sites/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_snp-sites| conda:required_by:: snp-sites
 .. |downloads_snp-sites| image:: https://img.shields.io/conda/dn/bioconda/snp-sites.svg?style=flat
    :alt:   (downloads)
 .. |docker_snp-sites| image:: https://quay.io/repository/biocontainers/snp-sites/status
    :target: https://quay.io/repository/biocontainers/snp-sites
+.. _`snp-sites/tags`: https://quay.io/repository/biocontainers/snp-sites?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/snp-sites/README.html
-

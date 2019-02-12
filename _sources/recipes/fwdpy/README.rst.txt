@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fwdpy'
 .. highlight: bash
-
 
 fwdpy
 =====
@@ -21,11 +22,19 @@ fwdpy
 
    |downloads_fwdpy| |docker_fwdpy|
 
-   :versions: 0.0.4pre1
-
-   :depends: :conda:package:`gsl` 1.16* :conda:package:`libsequence`  :conda:package:`numpy` >=1.10 :conda:package:`pandas` >=0.18 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_fwdpy|
+   :versions: 0.0.4pre1-0
+   
+   :depends gsl: 1.16*
+   
+   :depends libsequence: 
+   
+   :depends numpy: >=1.10
+   
+   :depends pandas: >=0.18
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ fwdpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fwdpy
+      docker pull quay.io/repository/biocontainers/fwdpy:<tag>
+
+   (see `fwdpy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fwdpy| conda:required_by:: fwdpy
 .. |downloads_fwdpy| image:: https://img.shields.io/conda/dn/bioconda/fwdpy.svg?style=flat
    :alt:   (downloads)
 .. |docker_fwdpy| image:: https://quay.io/repository/biocontainers/fwdpy/status
    :target: https://quay.io/repository/biocontainers/fwdpy
+.. _`fwdpy/tags`: https://quay.io/repository/biocontainers/fwdpy?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fwdpy/README.html
-

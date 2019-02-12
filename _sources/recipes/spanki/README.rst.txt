@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'spanki'
 .. highlight: bash
-
 
 spanki
 ======
@@ -21,11 +22,27 @@ spanki
 
    |downloads_spanki| |docker_spanki|
 
-   :versions: 0.5.1
-
-   :depends: :conda:package:`biopython`  :conda:package:`cufflinks`  :conda:package:`fisher`  :conda:package:`numpy`  :conda:package:`pyfasta`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`samtools`  :conda:package:`statsmodels`  
-
-   :required~by: |required_by_spanki|
+   :versions: 0.5.1-1, 0.5.1-0
+   
+   :depends biopython: 
+   
+   :depends cufflinks: 
+   
+   :depends fisher: 
+   
+   :depends numpy: 
+   
+   :depends pyfasta: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: 
+   
+   :depends statsmodels: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ spanki
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spanki
+      docker pull quay.io/repository/biocontainers/spanki:<tag>
+
+   (see `spanki/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_spanki| conda:required_by:: spanki
 .. |downloads_spanki| image:: https://img.shields.io/conda/dn/bioconda/spanki.svg?style=flat
    :alt:   (downloads)
 .. |docker_spanki| image:: https://quay.io/repository/biocontainers/spanki/status
    :target: https://quay.io/repository/biocontainers/spanki
+.. _`spanki/tags`: https://quay.io/repository/biocontainers/spanki?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/spanki/README.html
-

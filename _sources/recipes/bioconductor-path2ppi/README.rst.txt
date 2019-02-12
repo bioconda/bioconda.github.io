@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-path2ppi'
 .. highlight: bash
-
 
 bioconductor-path2ppi
 =====================
@@ -22,11 +23,13 @@ bioconductor-path2ppi
 
    |downloads_bioconductor-path2ppi| |docker_bioconductor-path2ppi|
 
-   :versions: 1.12.0, 1.10.0, 1.8.0, 1.6.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph` >=1.0.1 
-
-   :required~by: |required_by_bioconductor-path2ppi|
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-igraph: >=1.0.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-path2ppi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-path2ppi
+      docker pull quay.io/repository/biocontainers/bioconductor-path2ppi:<tag>
+
+   (see `bioconductor-path2ppi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-path2ppi| conda:required_by:: bioconductor-path2ppi
 .. |downloads_bioconductor-path2ppi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-path2ppi.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-path2ppi| image:: https://quay.io/repository/biocontainers/bioconductor-path2ppi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-path2ppi
+.. _`bioconductor-path2ppi/tags`: https://quay.io/repository/biocontainers/bioconductor-path2ppi?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-path2ppi/README.html
-

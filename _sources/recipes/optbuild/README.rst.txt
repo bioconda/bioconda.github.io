@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'optbuild'
 .. highlight: bash
-
 
 optbuild
 ========
@@ -21,11 +22,15 @@ optbuild
 
    |downloads_optbuild| |docker_optbuild|
 
-   :versions: 0.2.1, 0.2, 0.1.11
-
-   :depends: :conda:package:`autolog`  :conda:package:`python`  :conda:package:`six`  
-
-   :required~by: |required_by_optbuild|
+   :versions: 0.2.1-0, 0.2-0, 0.1.11-2, 0.1.11-0
+   
+   :depends autolog: 
+   
+   :depends python: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ optbuild
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/optbuild
+      docker pull quay.io/repository/biocontainers/optbuild:<tag>
+
+   (see `optbuild/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_optbuild| conda:required_by:: optbuild
 .. |downloads_optbuild| image:: https://img.shields.io/conda/dn/bioconda/optbuild.svg?style=flat
    :alt:   (downloads)
 .. |docker_optbuild| image:: https://quay.io/repository/biocontainers/optbuild/status
    :target: https://quay.io/repository/biocontainers/optbuild
+.. _`optbuild/tags`: https://quay.io/repository/biocontainers/optbuild?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/optbuild/README.html
-

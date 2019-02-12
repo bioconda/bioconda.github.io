@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-gap'
 .. highlight: bash
-
 
 r-gap
 =====
@@ -21,11 +22,15 @@ r-gap
 
    |downloads_r-gap| |docker_r-gap|
 
-   :versions: 1.1_22
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-gap|
+   :versions: 1.1_22-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libgfortran-ng: >=7,<8.0a0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-gap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gap
+      docker pull quay.io/repository/biocontainers/r-gap:<tag>
+
+   (see `r-gap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-gap| conda:required_by:: r-gap
 .. |downloads_r-gap| image:: https://img.shields.io/conda/dn/bioconda/r-gap.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-gap| image:: https://quay.io/repository/biocontainers/r-gap/status
    :target: https://quay.io/repository/biocontainers/r-gap
+.. _`r-gap/tags`: https://quay.io/repository/biocontainers/r-gap?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-gap/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-gars'
 .. highlight: bash
-
 
 bioconductor-gars
 =================
@@ -22,10 +23,8 @@ bioconductor-gars
    |downloads_bioconductor-gars| |docker_bioconductor-gars|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-gars|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-gars
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gars
+      docker pull quay.io/repository/biocontainers/bioconductor-gars:<tag>
+
+   (see `bioconductor-gars/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-gars| conda:required_by:: bioconductor-gars
 .. |downloads_bioconductor-gars| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gars.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-gars| image:: https://quay.io/repository/biocontainers/bioconductor-gars/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gars
+.. _`bioconductor-gars/tags`: https://quay.io/repository/biocontainers/bioconductor-gars?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-gars/README.html
-

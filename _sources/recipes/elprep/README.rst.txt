@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'elprep'
 .. highlight: bash
-
 
 elprep
 ======
@@ -21,11 +22,9 @@ elprep
 
    |downloads_elprep| |docker_elprep|
 
-   :versions: 4.1.1, 4.1.0, 4.0.1, 4.0.0, 3.04
-
-   :depends: 
-
-   :required~by: |required_by_elprep|
+   :versions: 4.1.1-0, 4.1.0-0, 4.0.1-0, 4.0.0-0, 3.04-1, 3.04-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ elprep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/elprep
+      docker pull quay.io/repository/biocontainers/elprep:<tag>
+
+   (see `elprep/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_elprep| conda:required_by:: elprep
 .. |downloads_elprep| image:: https://img.shields.io/conda/dn/bioconda/elprep.svg?style=flat
    :alt:   (downloads)
 .. |docker_elprep| image:: https://quay.io/repository/biocontainers/elprep/status
    :target: https://quay.io/repository/biocontainers/elprep
+.. _`elprep/tags`: https://quay.io/repository/biocontainers/elprep?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/elprep/README.html
-

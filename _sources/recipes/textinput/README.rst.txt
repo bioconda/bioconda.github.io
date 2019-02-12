@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'textinput'
 .. highlight: bash
-
 
 textinput
 =========
@@ -21,11 +22,13 @@ textinput
 
    |downloads_textinput| |docker_textinput|
 
-   :versions: 0.2, 0.1.1
-
-   :depends: :conda:package:`python`  :conda:package:`six`  
-
-   :required~by: |required_by_textinput|
+   :versions: 0.2-0, 0.1.1-2, 0.1.1-0
+   
+   :depends python: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ textinput
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/textinput
+      docker pull quay.io/repository/biocontainers/textinput:<tag>
+
+   (see `textinput/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_textinput| conda:required_by:: textinput
 .. |downloads_textinput| image:: https://img.shields.io/conda/dn/bioconda/textinput.svg?style=flat
    :alt:   (downloads)
 .. |docker_textinput| image:: https://quay.io/repository/biocontainers/textinput/status
    :target: https://quay.io/repository/biocontainers/textinput
+.. _`textinput/tags`: https://quay.io/repository/biocontainers/textinput?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/textinput/README.html
-

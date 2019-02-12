@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-copdsexualdimorphism.data'
 .. highlight: bash
-
 
 bioconductor-copdsexualdimorphism.data
 ======================================
@@ -21,11 +22,13 @@ bioconductor-copdsexualdimorphism.data
 
    |downloads_bioconductor-copdsexualdimorphism.data| |docker_bioconductor-copdsexualdimorphism.data|
 
-   :versions: 1.18.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-copdsexualdimorphism.data|
+   :versions: 1.18.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-copdsexualdimorphism.data
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-copdsexualdimorphism.data
+      docker pull quay.io/repository/biocontainers/bioconductor-copdsexualdimorphism.data:<tag>
+
+   (see `bioconductor-copdsexualdimorphism.data/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-copdsexualdimorphism.data| conda:required_by:: bioconductor-copdsexualdimorphism.data
 .. |downloads_bioconductor-copdsexualdimorphism.data| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-copdsexualdimorphism.data.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-copdsexualdimorphism.data| image:: https://quay.io/repository/biocontainers/bioconductor-copdsexualdimorphism.data/status
    :target: https://quay.io/repository/biocontainers/bioconductor-copdsexualdimorphism.data
+.. _`bioconductor-copdsexualdimorphism.data/tags`: https://quay.io/repository/biocontainers/bioconductor-copdsexualdimorphism.data?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-copdsexualdimorphism.data/README.html
-

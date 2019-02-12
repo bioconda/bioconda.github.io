@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-metcirc'
 .. highlight: bash
-
 
 bioconductor-metcirc
 ====================
@@ -22,11 +23,19 @@ bioconductor-metcirc
 
    |downloads_bioconductor-metcirc| |docker_bioconductor-metcirc|
 
-   :versions: 1.12.1, 1.10.0, 1.6.0, 1.2.0
-
-   :depends: :conda:package:`r-amap` >=0.8 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-circlize` >=0.3.9 :conda:package:`r-scales` >=0.3.0 :conda:package:`r-shiny` >=1.0.0 
-
-   :required~by: |required_by_bioconductor-metcirc|
+   :versions: 1.12.1-0, 1.10.0-0, 1.6.0-0, 1.2.0-0
+   
+   :depends r-amap: >=0.8
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-circlize: >=0.3.9
+   
+   :depends r-scales: >=0.3.0
+   
+   :depends r-shiny: >=1.0.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-metcirc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metcirc
+      docker pull quay.io/repository/biocontainers/bioconductor-metcirc:<tag>
+
+   (see `bioconductor-metcirc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-metcirc| conda:required_by:: bioconductor-metcirc
 .. |downloads_bioconductor-metcirc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metcirc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-metcirc| image:: https://quay.io/repository/biocontainers/bioconductor-metcirc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metcirc
+.. _`bioconductor-metcirc/tags`: https://quay.io/repository/biocontainers/bioconductor-metcirc?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-metcirc/README.html
-

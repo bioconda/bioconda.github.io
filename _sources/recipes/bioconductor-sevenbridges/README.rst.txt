@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sevenbridges'
 .. highlight: bash
-
 
 bioconductor-sevenbridges
 =========================
@@ -21,11 +22,31 @@ bioconductor-sevenbridges
 
    |downloads_bioconductor-sevenbridges| |docker_bioconductor-sevenbridges|
 
-   :versions: 1.12.3
-
-   :depends: :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-curl`  :conda:package:`r-docopt`  :conda:package:`r-dplyr`  :conda:package:`r-httr`  :conda:package:`r-jsonlite`  :conda:package:`r-objectproperties`  :conda:package:`r-stringr`  :conda:package:`r-uuid`  :conda:package:`r-yaml`  
-
-   :required~by: |required_by_bioconductor-sevenbridges|
+   :versions: 1.12.3-0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-curl: 
+   
+   :depends r-docopt: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-httr: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-objectproperties: 
+   
+   :depends r-stringr: 
+   
+   :depends r-uuid: 
+   
+   :depends r-yaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ bioconductor-sevenbridges
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sevenbridges
+      docker pull quay.io/repository/biocontainers/bioconductor-sevenbridges:<tag>
+
+   (see `bioconductor-sevenbridges/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sevenbridges| conda:required_by:: bioconductor-sevenbridges
 .. |downloads_bioconductor-sevenbridges| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sevenbridges.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sevenbridges| image:: https://quay.io/repository/biocontainers/bioconductor-sevenbridges/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sevenbridges
+.. _`bioconductor-sevenbridges/tags`: https://quay.io/repository/biocontainers/bioconductor-sevenbridges?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sevenbridges/README.html
-

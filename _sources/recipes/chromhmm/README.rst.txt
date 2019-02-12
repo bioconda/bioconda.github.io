@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'chromhmm'
 .. highlight: bash
-
 
 chromhmm
 ========
@@ -22,11 +23,13 @@ chromhmm
 
    |downloads_chromhmm| |docker_chromhmm|
 
-   :versions: 1.15, 1.14, 1.12, 1.11
-
-   :depends: :conda:package:`openjdk`  :conda:package:`unzip`  
-
-   :required~by: |required_by_chromhmm|
+   :versions: 1.15-0, 1.14-0, 1.12-0, 1.11-0
+   
+   :depends openjdk: 
+   
+   :depends unzip: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ chromhmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/chromhmm
+      docker pull quay.io/repository/biocontainers/chromhmm:<tag>
+
+   (see `chromhmm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_chromhmm| conda:required_by:: chromhmm
 .. |downloads_chromhmm| image:: https://img.shields.io/conda/dn/bioconda/chromhmm.svg?style=flat
    :alt:   (downloads)
 .. |docker_chromhmm| image:: https://quay.io/repository/biocontainers/chromhmm/status
    :target: https://quay.io/repository/biocontainers/chromhmm
+.. _`chromhmm/tags`: https://quay.io/repository/biocontainers/chromhmm?tab=tags
 
 
 
@@ -68,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/chromhmm/README.html
-

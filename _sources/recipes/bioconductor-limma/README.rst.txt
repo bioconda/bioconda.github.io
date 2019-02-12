@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-limma'
 .. highlight: bash
-
 
 bioconductor-limma
 ==================
@@ -22,11 +23,13 @@ bioconductor-limma
 
    |downloads_bioconductor-limma| |docker_bioconductor-limma|
 
-   :versions: 3.38.3, 3.36.5, 3.34.9, 3.34.6, 3.34.1, 3.34.0, 3.32.10, 3.30.13, 3.29.0, 3.28.21, 3.28.10, 3.28.6, 3.28.2, 3.27.4, 3.26.9, 3.26.7, 3.26.3, 3.26.1, 3.26.0, 3.24.15
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-limma|
+   :versions: 3.38.3-0, 3.36.5-0, 3.34.9-0, 3.34.6-0, 3.34.1-0, 3.34.0-0, 3.32.10-0, 3.30.13-1, 3.30.13-0, 3.29.0-0, 3.28.21-0, 3.28.10-1, 3.28.10-0, 3.28.6-0, 3.28.2-1, 3.28.2-0, 3.27.4-1, 3.26.9-0, 3.26.7-1, 3.26.3-0, 3.26.1-0, 3.26.0-0, 3.24.15-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-limma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-limma
+      docker pull quay.io/repository/biocontainers/bioconductor-limma:<tag>
+
+   (see `bioconductor-limma/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-limma| conda:required_by:: bioconductor-limma
 .. |downloads_bioconductor-limma| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-limma.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-limma| image:: https://quay.io/repository/biocontainers/bioconductor-limma/status
    :target: https://quay.io/repository/biocontainers/bioconductor-limma
+.. _`bioconductor-limma/tags`: https://quay.io/repository/biocontainers/bioconductor-limma?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-limma/README.html
-

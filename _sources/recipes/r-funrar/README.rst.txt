@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-funrar'
 .. highlight: bash
-
 
 r-funrar
 ========
@@ -22,11 +23,15 @@ r-funrar
 
    |downloads_r-funrar| |docker_r-funrar|
 
-   :versions: 1.2.2
-
-   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-cluster`  :conda:package:`r-dplyr` >=0.4.3 
-
-   :required~by: |required_by_r-funrar|
+   :versions: 1.2.2-3, 1.2.2-2, 1.2.2-1, 1.2.2-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :depends r-dplyr: >=0.4.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ r-funrar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-funrar
+      docker pull quay.io/repository/biocontainers/r-funrar:<tag>
+
+   (see `r-funrar/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-funrar| conda:required_by:: r-funrar
 .. |downloads_r-funrar| image:: https://img.shields.io/conda/dn/bioconda/r-funrar.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-funrar| image:: https://quay.io/repository/biocontainers/r-funrar/status
    :target: https://quay.io/repository/biocontainers/r-funrar
+.. _`r-funrar/tags`: https://quay.io/repository/biocontainers/r-funrar?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-funrar/README.html
-

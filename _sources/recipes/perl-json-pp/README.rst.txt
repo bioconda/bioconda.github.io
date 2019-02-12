@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-json-pp'
 .. highlight: bash
-
 
 perl-json-pp
 ============
@@ -21,11 +22,11 @@ perl-json-pp
 
    |downloads_perl-json-pp| |docker_perl-json-pp|
 
-   :versions: 4.00, 2.97001
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-json-pp|
+   :versions: 4.00-0, 2.97001-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-json-pp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-json-pp
+      docker pull quay.io/repository/biocontainers/perl-json-pp:<tag>
+
+   (see `perl-json-pp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-json-pp| conda:required_by:: perl-json-pp
 .. |downloads_perl-json-pp| image:: https://img.shields.io/conda/dn/bioconda/perl-json-pp.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-json-pp| image:: https://quay.io/repository/biocontainers/perl-json-pp/status
    :target: https://quay.io/repository/biocontainers/perl-json-pp
+.. _`perl-json-pp/tags`: https://quay.io/repository/biocontainers/perl-json-pp?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-json-pp/README.html
-

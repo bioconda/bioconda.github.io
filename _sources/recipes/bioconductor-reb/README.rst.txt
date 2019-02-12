@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-reb'
 .. highlight: bash
-
 
 bioconductor-reb
 ================
@@ -21,11 +22,17 @@ bioconductor-reb
 
    |downloads_bioconductor-reb| |docker_bioconductor-reb|
 
-   :versions: 1.60.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-idiogram` >=1.58.0,<1.59.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-reb|
+   :versions: 1.60.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-idiogram: >=1.58.0,<1.59.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-reb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-reb
+      docker pull quay.io/repository/biocontainers/bioconductor-reb:<tag>
+
+   (see `bioconductor-reb/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-reb| conda:required_by:: bioconductor-reb
 .. |downloads_bioconductor-reb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-reb.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-reb| image:: https://quay.io/repository/biocontainers/bioconductor-reb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-reb
+.. _`bioconductor-reb/tags`: https://quay.io/repository/biocontainers/bioconductor-reb?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-reb/README.html
-

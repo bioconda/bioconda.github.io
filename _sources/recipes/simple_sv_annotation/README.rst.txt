@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'simple_sv_annotation'
 .. highlight: bash
-
 
 simple_sv_annotation
 ====================
@@ -21,11 +22,13 @@ simple_sv_annotation
 
    |downloads_simple_sv_annotation| |docker_simple_sv_annotation|
 
-   :versions: 2018.05.29, 2017.05.14, 2017.02.17, 2016.07.08, 2016.06.15, 2015.11.24, 2015.11.16, 2015.11.05, 2015.10.23
-
-   :depends: :conda:package:`python` 2.7* :conda:package:`pyvcf`  
-
-   :required~by: |required_by_simple_sv_annotation|
+   :versions: 2018.05.29-1, 2018.05.29-0, 2017.05.14-0, 2017.02.17-0, 2016.07.08-1, 2016.07.08-0, 2016.06.15-1, 2016.06.15-0, 2015.11.24-0, 2015.11.16-0, 2015.11.05-0, 2015.10.23-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends pyvcf: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ simple_sv_annotation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/simple_sv_annotation
+      docker pull quay.io/repository/biocontainers/simple_sv_annotation:<tag>
+
+   (see `simple_sv_annotation/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_simple_sv_annotation| conda:required_by:: simple_sv_annotation
 .. |downloads_simple_sv_annotation| image:: https://img.shields.io/conda/dn/bioconda/simple_sv_annotation.svg?style=flat
    :alt:   (downloads)
 .. |docker_simple_sv_annotation| image:: https://quay.io/repository/biocontainers/simple_sv_annotation/status
    :target: https://quay.io/repository/biocontainers/simple_sv_annotation
+.. _`simple_sv_annotation/tags`: https://quay.io/repository/biocontainers/simple_sv_annotation?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/simple_sv_annotation/README.html
-

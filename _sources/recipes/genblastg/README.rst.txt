@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genblastg'
 .. highlight: bash
-
 
 genblastg
 =========
@@ -21,11 +22,15 @@ genblastg
 
    |downloads_genblastg| |docker_genblastg|
 
-   :versions: 1.39, 1.38
-
-   :depends: :conda:package:`blast`  :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_genblastg|
+   :versions: 1.39-1, 1.38-2, 1.38-1, 1.38-0
+   
+   :depends blast: 
+   
+   :depends libgcc: 
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ genblastg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genblastg
+      docker pull quay.io/repository/biocontainers/genblastg:<tag>
+
+   (see `genblastg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genblastg| conda:required_by:: genblastg
 .. |downloads_genblastg| image:: https://img.shields.io/conda/dn/bioconda/genblastg.svg?style=flat
    :alt:   (downloads)
 .. |docker_genblastg| image:: https://quay.io/repository/biocontainers/genblastg/status
    :target: https://quay.io/repository/biocontainers/genblastg
+.. _`genblastg/tags`: https://quay.io/repository/biocontainers/genblastg?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genblastg/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ecopy'
 .. highlight: bash
-
 
 ecopy
 =====
@@ -21,11 +22,25 @@ ecopy
 
    |downloads_ecopy| |docker_ecopy|
 
-   :versions: 0.1.2.2, 0.1.2
-
-   :depends: :conda:package:`cython`  :conda:package:`libgcc`  :conda:package:`matplotlib` >=1.3.1 :conda:package:`numpy` >=1.7 :conda:package:`pandas` >=0.13 :conda:package:`patsy` >=0.3.0 :conda:package:`python` 2.7* :conda:package:`scipy` >=0.14 
-
-   :required~by: |required_by_ecopy|
+   :versions: 0.1.2.2-1, 0.1.2.2-0, 0.1.2-0
+   
+   :depends cython: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: >=1.3.1
+   
+   :depends numpy: >=1.7
+   
+   :depends pandas: >=0.13
+   
+   :depends patsy: >=0.3.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: >=0.14
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ ecopy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ecopy
+      docker pull quay.io/repository/biocontainers/ecopy:<tag>
+
+   (see `ecopy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ecopy| conda:required_by:: ecopy
 .. |downloads_ecopy| image:: https://img.shields.io/conda/dn/bioconda/ecopy.svg?style=flat
    :alt:   (downloads)
 .. |docker_ecopy| image:: https://quay.io/repository/biocontainers/ecopy/status
    :target: https://quay.io/repository/biocontainers/ecopy
+.. _`ecopy/tags`: https://quay.io/repository/biocontainers/ecopy?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ecopy/README.html
-

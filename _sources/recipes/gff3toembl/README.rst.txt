@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gff3toembl'
 .. highlight: bash
-
 
 gff3toembl
 ==========
@@ -21,11 +22,15 @@ gff3toembl
 
    |downloads_gff3toembl| |docker_gff3toembl|
 
-   :versions: 1.1.4
-
-   :depends: :conda:package:`genometools-genometools`  :conda:package:`python` 2.7* :conda:package:`six`  
-
-   :required~by: |required_by_gff3toembl|
+   :versions: 1.1.4-1, 1.1.4-0
+   
+   :depends genometools-genometools: 
+   
+   :depends python: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ gff3toembl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gff3toembl
+      docker pull quay.io/repository/biocontainers/gff3toembl:<tag>
+
+   (see `gff3toembl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gff3toembl| conda:required_by:: gff3toembl
 .. |downloads_gff3toembl| image:: https://img.shields.io/conda/dn/bioconda/gff3toembl.svg?style=flat
    :alt:   (downloads)
 .. |docker_gff3toembl| image:: https://quay.io/repository/biocontainers/gff3toembl/status
    :target: https://quay.io/repository/biocontainers/gff3toembl
+.. _`gff3toembl/tags`: https://quay.io/repository/biocontainers/gff3toembl?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gff3toembl/README.html
-

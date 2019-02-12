@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bio-rna-rnaalisplit'
 .. highlight: bash
-
 
 perl-bio-rna-rnaalisplit
 ========================
@@ -21,11 +22,59 @@ perl-bio-rna-rnaalisplit
 
    |downloads_perl-bio-rna-rnaalisplit| |docker_perl-bio-rna-rnaalisplit|
 
-   :versions: v0.09, v0.08, v0.07, v0.06
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-array-set`  :conda:package:`perl-bioperl` >=1.6.924 :conda:package:`perl-constant`  :conda:package:`perl-data-dumper`  :conda:package:`perl-devel-globaldestruction`  :conda:package:`perl-digest-md5`  :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-file-path`  :conda:package:`perl-file-share`  :conda:package:`perl-file-spec`  :conda:package:`perl-filedirutil`  :conda:package:`perl-ipc-cmd`  :conda:package:`perl-lib`  :conda:package:`perl-module-implementation`  :conda:package:`perl-moose`  :conda:package:`perl-namespace-autoclean`  :conda:package:`perl-path-class`  :conda:package:`perl-pod-usage`  :conda:package:`perl-storable`  :conda:package:`perl-sub-exporter-progressive`  :conda:package:`perl-test-prereq`  :conda:package:`rnaz` >=2.1 :conda:package:`rscape` >=1.2.2 :conda:package:`viennarna` >=2.4.9 
-
-   :required~by: |required_by_perl-bio-rna-rnaalisplit|
+   :versions: v0.09-0, v0.08-0, v0.07-0, v0.06-2, v0.06-1
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-array-set: 
+   
+   :depends perl-bioperl: >=1.6.924
+   
+   :depends perl-constant: 
+   
+   :depends perl-data-dumper: 
+   
+   :depends perl-devel-globaldestruction: 
+   
+   :depends perl-digest-md5: 
+   
+   :depends perl-extutils-makemaker: 
+   
+   :depends perl-file-path: 
+   
+   :depends perl-file-share: 
+   
+   :depends perl-file-spec: 
+   
+   :depends perl-filedirutil: 
+   
+   :depends perl-ipc-cmd: 
+   
+   :depends perl-lib: 
+   
+   :depends perl-module-implementation: 
+   
+   :depends perl-moose: 
+   
+   :depends perl-namespace-autoclean: 
+   
+   :depends perl-path-class: 
+   
+   :depends perl-pod-usage: 
+   
+   :depends perl-storable: 
+   
+   :depends perl-sub-exporter-progressive: 
+   
+   :depends perl-test-prereq: 
+   
+   :depends rnaz: >=2.1
+   
+   :depends rscape: >=1.2.2
+   
+   :depends viennarna: >=2.4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +88,16 @@ perl-bio-rna-rnaalisplit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-rna-rnaalisplit
+      docker pull quay.io/repository/biocontainers/perl-bio-rna-rnaalisplit:<tag>
+
+   (see `perl-bio-rna-rnaalisplit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bio-rna-rnaalisplit| conda:required_by:: perl-bio-rna-rnaalisplit
 .. |downloads_perl-bio-rna-rnaalisplit| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-rna-rnaalisplit.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bio-rna-rnaalisplit| image:: https://quay.io/repository/biocontainers/perl-bio-rna-rnaalisplit/status
    :target: https://quay.io/repository/biocontainers/perl-bio-rna-rnaalisplit
+.. _`perl-bio-rna-rnaalisplit/tags`: https://quay.io/repository/biocontainers/perl-bio-rna-rnaalisplit?tab=tags
 
 
 
@@ -63,4 +114,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bio-rna-rnaalisplit/README.html
-

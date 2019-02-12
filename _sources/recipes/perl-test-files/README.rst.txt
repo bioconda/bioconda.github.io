@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-files'
 .. highlight: bash
-
 
 perl-test-files
 ===============
@@ -21,11 +22,17 @@ perl-test-files
 
    |downloads_perl-test-files| |docker_perl-test-files|
 
-   :versions: 0.14
-
-   :depends: :conda:package:`perl-algorithm-diff`  :conda:package:`perl-test-builder-tester`  :conda:package:`perl-test-simple`  :conda:package:`perl-text-diff`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-test-files|
+   :versions: 0.14-2, 0.14-1, 0.14-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-algorithm-diff: 
+   
+   :depends perl-test-builder-tester: 
+   
+   :depends perl-text-diff: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-test-files
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-files
+      docker pull quay.io/repository/biocontainers/perl-test-files:<tag>
+
+   (see `perl-test-files/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-files| conda:required_by:: perl-test-files
 .. |downloads_perl-test-files| image:: https://img.shields.io/conda/dn/bioconda/perl-test-files.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-files| image:: https://quay.io/repository/biocontainers/perl-test-files/status
    :target: https://quay.io/repository/biocontainers/perl-test-files
+.. _`perl-test-files/tags`: https://quay.io/repository/biocontainers/perl-test-files?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-files/README.html
-

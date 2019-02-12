@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-beadarrayusecases'
 .. highlight: bash
-
 
 bioconductor-beadarrayusecases
 ==============================
@@ -21,11 +22,19 @@ bioconductor-beadarrayusecases
 
    |downloads_bioconductor-beadarrayusecases| |docker_bioconductor-beadarrayusecases|
 
-   :versions: 1.20.0
-
-   :depends: :conda:package:`bioconductor-beadarray` >=2.32.0,<2.33.0 :conda:package:`bioconductor-geoquery` >=2.50.0,<2.51.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-beadarrayusecases|
+   :versions: 1.20.0-0
+   
+   :depends bioconductor-beadarray: >=2.32.0,<2.33.0
+   
+   :depends bioconductor-geoquery: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-beadarrayusecases
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-beadarrayusecases
+      docker pull quay.io/repository/biocontainers/bioconductor-beadarrayusecases:<tag>
+
+   (see `bioconductor-beadarrayusecases/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-beadarrayusecases| conda:required_by:: bioconductor-beadarrayusecases
 .. |downloads_bioconductor-beadarrayusecases| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-beadarrayusecases.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-beadarrayusecases| image:: https://quay.io/repository/biocontainers/bioconductor-beadarrayusecases/status
    :target: https://quay.io/repository/biocontainers/bioconductor-beadarrayusecases
+.. _`bioconductor-beadarrayusecases/tags`: https://quay.io/repository/biocontainers/bioconductor-beadarrayusecases?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-beadarrayusecases/README.html
-

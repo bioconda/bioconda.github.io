@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-version-next'
 .. highlight: bash
-
 
 perl-version-next
 =================
@@ -21,11 +22,17 @@ perl-version-next
 
    |downloads_perl-version-next| |docker_perl-version-next|
 
-   :versions: 1.000
-
-   :depends: :conda:package:`perl-apache-test`  :conda:package:`perl-perl-version`  :conda:package:`perl-sub-exporter`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-version-next|
+   :versions: 1.000-1, 1.000-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-apache-test: 
+   
+   :depends perl-perl-version: 
+   
+   :depends perl-sub-exporter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-version-next
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-version-next
+      docker pull quay.io/repository/biocontainers/perl-version-next:<tag>
+
+   (see `perl-version-next/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-version-next| conda:required_by:: perl-version-next
 .. |downloads_perl-version-next| image:: https://img.shields.io/conda/dn/bioconda/perl-version-next.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-version-next| image:: https://quay.io/repository/biocontainers/perl-version-next/status
    :target: https://quay.io/repository/biocontainers/perl-version-next
+.. _`perl-version-next/tags`: https://quay.io/repository/biocontainers/perl-version-next?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-version-next/README.html
-

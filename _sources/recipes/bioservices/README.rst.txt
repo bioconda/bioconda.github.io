@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioservices'
 .. highlight: bash
-
 
 bioservices
 ===========
@@ -21,11 +22,31 @@ bioservices
 
    |downloads_bioservices| |docker_bioservices|
 
-   :versions: 1.6.0, 1.5.2, 1.5.1, 1.4.17, 1.4.16, 1.4.10, 1.4.7, 1.4.5
-
-   :depends: :conda:package:`appdirs`  :conda:package:`beautifulsoup4`  :conda:package:`easydev` >=0.9.36 :conda:package:`grequests`  :conda:package:`numpydoc`  :conda:package:`pandas`  :conda:package:`python`  :conda:package:`requests`  :conda:package:`requests-cache`  :conda:package:`suds-jurko`  :conda:package:`wrapt`  
-
-   :required~by: |required_by_bioservices|
+   :versions: 1.6.0-0, 1.5.2-1, 1.5.2-0, 1.5.1-0, 1.4.17-0, 1.4.16-1, 1.4.10-1, 1.4.7-0, 1.4.5-0
+   
+   :depends appdirs: 
+   
+   :depends beautifulsoup4: 
+   
+   :depends easydev: >=0.9.36
+   
+   :depends grequests: 
+   
+   :depends numpydoc: 
+   
+   :depends pandas: 
+   
+   :depends python: 
+   
+   :depends requests: 
+   
+   :depends requests-cache: 
+   
+   :depends suds-jurko: 
+   
+   :depends wrapt: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ bioservices
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioservices
+      docker pull quay.io/repository/biocontainers/bioservices:<tag>
+
+   (see `bioservices/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioservices| conda:required_by:: bioservices
 .. |downloads_bioservices| image:: https://img.shields.io/conda/dn/bioconda/bioservices.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioservices| image:: https://quay.io/repository/biocontainers/bioservices/status
    :target: https://quay.io/repository/biocontainers/bioservices
+.. _`bioservices/tags`: https://quay.io/repository/biocontainers/bioservices?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioservices/README.html
-

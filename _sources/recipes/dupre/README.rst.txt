@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dupre'
 .. highlight: bash
-
 
 dupre
 =====
@@ -21,11 +22,21 @@ dupre
 
    |downloads_dupre| |docker_dupre|
 
-   :versions: 0.1
-
-   :depends: :conda:package:`h5py`  :conda:package:`numpy`  :conda:package:`pulp`  :conda:package:`pysam`  :conda:package:`python` 3.5* :conda:package:`scipy`  
-
-   :required~by: |required_by_dupre|
+   :versions: 0.1-1, 0.1-0
+   
+   :depends h5py: 
+   
+   :depends numpy: 
+   
+   :depends pulp: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ dupre
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dupre
+      docker pull quay.io/repository/biocontainers/dupre:<tag>
+
+   (see `dupre/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dupre| conda:required_by:: dupre
 .. |downloads_dupre| image:: https://img.shields.io/conda/dn/bioconda/dupre.svg?style=flat
    :alt:   (downloads)
 .. |docker_dupre| image:: https://quay.io/repository/biocontainers/dupre/status
    :target: https://quay.io/repository/biocontainers/dupre
+.. _`dupre/tags`: https://quay.io/repository/biocontainers/dupre?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dupre/README.html
-

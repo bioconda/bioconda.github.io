@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'roprofile'
 .. highlight: bash
-
 
 roprofile
 =========
@@ -21,11 +22,19 @@ roprofile
 
    |downloads_roprofile| |docker_roprofile|
 
-   :versions: 1.4.5
-
-   :depends: :conda:package:`biopython` >=1.66 :conda:package:`matplotlib` >=1.5.2 :conda:package:`mpld3` >=0.2 :conda:package:`pandas` >=0.15.0 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_roprofile|
+   :versions: 1.4.5-0
+   
+   :depends biopython: >=1.66
+   
+   :depends matplotlib: >=1.5.2
+   
+   :depends mpld3: >=0.2
+   
+   :depends pandas: >=0.15.0
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ roprofile
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/roprofile
+      docker pull quay.io/repository/biocontainers/roprofile:<tag>
+
+   (see `roprofile/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_roprofile| conda:required_by:: roprofile
 .. |downloads_roprofile| image:: https://img.shields.io/conda/dn/bioconda/roprofile.svg?style=flat
    :alt:   (downloads)
 .. |docker_roprofile| image:: https://quay.io/repository/biocontainers/roprofile/status
    :target: https://quay.io/repository/biocontainers/roprofile
+.. _`roprofile/tags`: https://quay.io/repository/biocontainers/roprofile?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/roprofile/README.html
-

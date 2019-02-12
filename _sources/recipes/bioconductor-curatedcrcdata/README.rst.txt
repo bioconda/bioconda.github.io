@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-curatedcrcdata'
 .. highlight: bash
-
 
 bioconductor-curatedcrcdata
 ===========================
@@ -21,11 +22,17 @@ bioconductor-curatedcrcdata
 
    |downloads_bioconductor-curatedcrcdata| |docker_bioconductor-curatedcrcdata|
 
-   :versions: 2.14.0
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-nlme`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-curatedcrcdata|
+   :versions: 2.14.0-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-nlme: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-curatedcrcdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-curatedcrcdata
+      docker pull quay.io/repository/biocontainers/bioconductor-curatedcrcdata:<tag>
+
+   (see `bioconductor-curatedcrcdata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-curatedcrcdata| conda:required_by:: bioconductor-curatedcrcdata
 .. |downloads_bioconductor-curatedcrcdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-curatedcrcdata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-curatedcrcdata| image:: https://quay.io/repository/biocontainers/bioconductor-curatedcrcdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-curatedcrcdata
+.. _`bioconductor-curatedcrcdata/tags`: https://quay.io/repository/biocontainers/bioconductor-curatedcrcdata?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-curatedcrcdata/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rna-seqc'
 .. highlight: bash
-
 
 rna-seqc
 ========
@@ -21,11 +22,11 @@ rna-seqc
 
    |downloads_rna-seqc| |docker_rna-seqc|
 
-   :versions: 1.1.8
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_rna-seqc|
+   :versions: 1.1.8-2, 1.1.8-1, 1.1.8-0
+   
+   :depends openjdk: 7.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ rna-seqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rna-seqc
+      docker pull quay.io/repository/biocontainers/rna-seqc:<tag>
+
+   (see `rna-seqc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rna-seqc| conda:required_by:: rna-seqc
 .. |downloads_rna-seqc| image:: https://img.shields.io/conda/dn/bioconda/rna-seqc.svg?style=flat
    :alt:   (downloads)
 .. |docker_rna-seqc| image:: https://quay.io/repository/biocontainers/rna-seqc/status
    :target: https://quay.io/repository/biocontainers/rna-seqc
+.. _`rna-seqc/tags`: https://quay.io/repository/biocontainers/rna-seqc?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rna-seqc/README.html
-

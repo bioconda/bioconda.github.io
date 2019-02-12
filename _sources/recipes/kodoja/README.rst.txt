@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kodoja'
 .. highlight: bash
-
 
 kodoja
 ======
@@ -21,11 +22,27 @@ kodoja
 
    |downloads_kodoja| |docker_kodoja|
 
-   :versions: 0.0.9, 0.0.8, 0.0.7, 0.0.6, 0.0.5, 0.0.4, 0.0.3, 0.0.2
-
-   :depends: :conda:package:`biopython`  :conda:package:`fastqc`  :conda:package:`kaiju`  :conda:package:`kraken`  :conda:package:`ncbi-genome-download`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python`  :conda:package:`trimmomatic`  
-
-   :required~by: |required_by_kodoja|
+   :versions: 0.0.9-0, 0.0.8-0, 0.0.7-0, 0.0.6-0, 0.0.5-0, 0.0.4-0, 0.0.3-1, 0.0.3-0, 0.0.2-0
+   
+   :depends biopython: 
+   
+   :depends fastqc: 
+   
+   :depends kaiju: 
+   
+   :depends kraken: 
+   
+   :depends ncbi-genome-download: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: 
+   
+   :depends trimmomatic: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ kodoja
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kodoja
+      docker pull quay.io/repository/biocontainers/kodoja:<tag>
+
+   (see `kodoja/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kodoja| conda:required_by:: kodoja
 .. |downloads_kodoja| image:: https://img.shields.io/conda/dn/bioconda/kodoja.svg?style=flat
    :alt:   (downloads)
 .. |docker_kodoja| image:: https://quay.io/repository/biocontainers/kodoja/status
    :target: https://quay.io/repository/biocontainers/kodoja
+.. _`kodoja/tags`: https://quay.io/repository/biocontainers/kodoja?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kodoja/README.html
-

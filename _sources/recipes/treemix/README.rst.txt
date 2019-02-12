@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'treemix'
 .. highlight: bash
-
 
 treemix
 =======
@@ -22,11 +23,21 @@ treemix
 
    |downloads_treemix| |docker_treemix|
 
-   :versions: 1.13, 1.12
-
-   :depends: :conda:package:`blas`  :conda:package:`boost` 1.64* :conda:package:`gsl` 1.16* :conda:package:`libgcc`  :conda:package:`r-rcolorbrewer`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_treemix|
+   :versions: 1.13-1, 1.13-0, 1.12-3, 1.12-2, 1.12-1, 1.12-0
+   
+   :depends boost: >=1.66.0,<1.66.1.0a0
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ treemix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/treemix
+      docker pull quay.io/repository/biocontainers/treemix:<tag>
+
+   (see `treemix/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_treemix| conda:required_by:: treemix
 .. |downloads_treemix| image:: https://img.shields.io/conda/dn/bioconda/treemix.svg?style=flat
    :alt:   (downloads)
 .. |docker_treemix| image:: https://quay.io/repository/biocontainers/treemix/status
    :target: https://quay.io/repository/biocontainers/treemix
+.. _`treemix/tags`: https://quay.io/repository/biocontainers/treemix?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/treemix/README.html
-

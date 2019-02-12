@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mageckflute'
 .. highlight: bash
-
 
 bioconductor-mageckflute
 ========================
@@ -21,11 +22,41 @@ bioconductor-mageckflute
 
    |downloads_bioconductor-mageckflute| |docker_bioconductor-mageckflute|
 
-   :versions: 1.2.2
-
-   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-bladderbatch` >=1.20.0,<1.21.0 :conda:package:`bioconductor-clusterprofiler` >=3.10.0,<3.11.0 :conda:package:`bioconductor-dose` >=3.8.0,<3.9.0 :conda:package:`bioconductor-pathview` >=1.22.0,<1.23.0 :conda:package:`bioconductor-sva` >=3.30.0,<3.31.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-ggextra`  :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-ggsci`  :conda:package:`r-gridextra`  :conda:package:`r-pheatmap`  :conda:package:`r-png`  :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_bioconductor-mageckflute|
+   :versions: 1.2.2-0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-bladderbatch: >=1.20.0,<1.21.0
+   
+   :depends bioconductor-clusterprofiler: >=3.10.0,<3.11.0
+   
+   :depends bioconductor-dose: >=3.8.0,<3.9.0
+   
+   :depends bioconductor-pathview: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-sva: >=3.30.0,<3.31.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-ggextra: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggrepel: 
+   
+   :depends r-ggsci: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-pheatmap: 
+   
+   :depends r-png: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ bioconductor-mageckflute
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mageckflute
+      docker pull quay.io/repository/biocontainers/bioconductor-mageckflute:<tag>
+
+   (see `bioconductor-mageckflute/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mageckflute| conda:required_by:: bioconductor-mageckflute
 .. |downloads_bioconductor-mageckflute| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mageckflute.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mageckflute| image:: https://quay.io/repository/biocontainers/bioconductor-mageckflute/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mageckflute
+.. _`bioconductor-mageckflute/tags`: https://quay.io/repository/biocontainers/bioconductor-mageckflute?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mageckflute/README.html
-

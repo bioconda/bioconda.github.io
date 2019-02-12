@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cnvgsa'
 .. highlight: bash
-
 
 bioconductor-cnvgsa
 ===================
@@ -22,11 +23,21 @@ bioconductor-cnvgsa
 
    |downloads_bioconductor-cnvgsa| |docker_bioconductor-cnvgsa|
 
-   :versions: 1.26.0, 1.24.0, 1.22.0
-
-   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-brglm`  :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-splitstackshape`  
-
-   :required~by: |required_by_bioconductor-cnvgsa|
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-brglm: 
+   
+   :depends r-doparallel: 
+   
+   :depends r-foreach: 
+   
+   :depends r-splitstackshape: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-cnvgsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cnvgsa
+      docker pull quay.io/repository/biocontainers/bioconductor-cnvgsa:<tag>
+
+   (see `bioconductor-cnvgsa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cnvgsa| conda:required_by:: bioconductor-cnvgsa
 .. |downloads_bioconductor-cnvgsa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnvgsa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cnvgsa| image:: https://quay.io/repository/biocontainers/bioconductor-cnvgsa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cnvgsa
+.. _`bioconductor-cnvgsa/tags`: https://quay.io/repository/biocontainers/bioconductor-cnvgsa?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cnvgsa/README.html
-

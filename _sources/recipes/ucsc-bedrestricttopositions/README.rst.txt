@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ucsc-bedrestricttopositions'
 .. highlight: bash
-
 
 ucsc-bedrestricttopositions
 ===========================
@@ -21,11 +22,21 @@ ucsc-bedrestricttopositions
 
    |downloads_ucsc-bedrestricttopositions| |docker_ucsc-bedrestricttopositions|
 
-   :versions: 366, 357, 332, 324
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_ucsc-bedrestricttopositions|
+   :versions: 366-0, 357-2, 357-1, 357-0, 332-0, 324-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libpng: >=1.6.34,<1.7.0a0
+   
+   :depends libuuid: 
+   
+   :depends mysql-connector-c: 
+   
+   :depends openssl: >=1.0.2o,<1.0.3a
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ ucsc-bedrestricttopositions
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-bedrestricttopositions
+      docker pull quay.io/repository/biocontainers/ucsc-bedrestricttopositions:<tag>
+
+   (see `ucsc-bedrestricttopositions/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ucsc-bedrestricttopositions| conda:required_by:: ucsc-bedrestricttopositions
 .. |downloads_ucsc-bedrestricttopositions| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedrestricttopositions.svg?style=flat
    :alt:   (downloads)
 .. |docker_ucsc-bedrestricttopositions| image:: https://quay.io/repository/biocontainers/ucsc-bedrestricttopositions/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedrestricttopositions
+.. _`ucsc-bedrestricttopositions/tags`: https://quay.io/repository/biocontainers/ucsc-bedrestricttopositions?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ucsc-bedrestricttopositions/README.html
-

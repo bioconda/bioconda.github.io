@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'blockbuster'
 .. highlight: bash
-
 
 blockbuster
 ===========
@@ -21,11 +22,11 @@ blockbuster
 
    |downloads_blockbuster| |docker_blockbuster|
 
-   :versions: 0.0.1.1
-
-   :depends: 
-
-   :required~by: |required_by_blockbuster|
+   :versions: 0.0.1.1-2, 0.0.1.1-1
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ blockbuster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/blockbuster
+      docker pull quay.io/repository/biocontainers/blockbuster:<tag>
+
+   (see `blockbuster/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_blockbuster| conda:required_by:: blockbuster
 .. |downloads_blockbuster| image:: https://img.shields.io/conda/dn/bioconda/blockbuster.svg?style=flat
    :alt:   (downloads)
 .. |docker_blockbuster| image:: https://quay.io/repository/biocontainers/blockbuster/status
    :target: https://quay.io/repository/biocontainers/blockbuster
+.. _`blockbuster/tags`: https://quay.io/repository/biocontainers/blockbuster?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/blockbuster/README.html
-

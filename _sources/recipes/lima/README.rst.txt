@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lima'
 .. highlight: bash
-
 
 lima
 ====
@@ -21,11 +22,9 @@ lima
 
    |downloads_lima| |docker_lima|
 
-   :versions: 1.8.0, 1.7.1, 1.7.0, 1.6.2, 1.6.1
-
-   :depends: 
-
-   :required~by: |required_by_lima|
+   :versions: 1.8.0-0, 1.7.1-1, 1.7.1-0, 1.7.0-0, 1.6.2-0, 1.6.1-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ lima
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lima
+      docker pull quay.io/repository/biocontainers/lima:<tag>
+
+   (see `lima/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lima| conda:required_by:: lima
 .. |downloads_lima| image:: https://img.shields.io/conda/dn/bioconda/lima.svg?style=flat
    :alt:   (downloads)
 .. |docker_lima| image:: https://quay.io/repository/biocontainers/lima/status
    :target: https://quay.io/repository/biocontainers/lima
+.. _`lima/tags`: https://quay.io/repository/biocontainers/lima?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lima/README.html
-

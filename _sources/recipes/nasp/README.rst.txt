@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nasp'
 .. highlight: bash
-
 
 nasp
 ====
@@ -22,11 +23,17 @@ nasp
 
    |downloads_nasp| |docker_nasp|
 
-   :versions: 1.1.2, 1.0.2a1, 1.0.1
-
-   :depends: :conda:package:`mummer`  :conda:package:`python` >=3.7,<3.8.0a0 :conda:package:`samtools` <1.3 :conda:package:`trimmomatic`  
-
-   :required~by: |required_by_nasp|
+   :versions: 1.1.2-0, 1.0.2a1-3, 1.0.2a1-2, 1.0.2a1-1, 1.0.1-1, 1.0.1-0
+   
+   :depends mummer: 
+   
+   :depends python: >=3.7,<3.8.0a0
+   
+   :depends samtools: <1.3
+   
+   :depends trimmomatic: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ nasp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nasp
+      docker pull quay.io/repository/biocontainers/nasp:<tag>
+
+   (see `nasp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nasp| conda:required_by:: nasp
 .. |downloads_nasp| image:: https://img.shields.io/conda/dn/bioconda/nasp.svg?style=flat
    :alt:   (downloads)
 .. |docker_nasp| image:: https://quay.io/repository/biocontainers/nasp/status
    :target: https://quay.io/repository/biocontainers/nasp
+.. _`nasp/tags`: https://quay.io/repository/biocontainers/nasp?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nasp/README.html
-

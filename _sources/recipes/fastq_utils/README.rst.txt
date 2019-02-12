@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastq_utils'
 .. highlight: bash
-
 
 fastq_utils
 ===========
@@ -21,11 +22,15 @@ fastq_utils
 
    |downloads_fastq_utils| |docker_fastq_utils|
 
-   :versions: 0.18.2
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`samtools` 1.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_fastq_utils|
+   :versions: 0.18.2-1
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends samtools: 1.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ fastq_utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastq_utils
+      docker pull quay.io/repository/biocontainers/fastq_utils:<tag>
+
+   (see `fastq_utils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastq_utils| conda:required_by:: fastq_utils
 .. |downloads_fastq_utils| image:: https://img.shields.io/conda/dn/bioconda/fastq_utils.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastq_utils| image:: https://quay.io/repository/biocontainers/fastq_utils/status
    :target: https://quay.io/repository/biocontainers/fastq_utils
+.. _`fastq_utils/tags`: https://quay.io/repository/biocontainers/fastq_utils?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastq_utils/README.html
-

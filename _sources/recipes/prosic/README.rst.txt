@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'prosic'
 .. highlight: bash
-
 
 prosic
 ======
@@ -21,11 +22,15 @@ prosic
 
    |downloads_prosic| |docker_prosic|
 
-   :versions: 2.1.0, 2.0.0, 1.0
-
-   :depends: :conda:package:`gsl` 1.16* :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_prosic|
+   :versions: 2.1.0-0, 2.0.0-0, 1.0-1, 1.0-0
+   
+   :depends gsl: 1.16*
+   
+   :depends libgcc: 
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ prosic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prosic
+      docker pull quay.io/repository/biocontainers/prosic:<tag>
+
+   (see `prosic/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_prosic| conda:required_by:: prosic
 .. |downloads_prosic| image:: https://img.shields.io/conda/dn/bioconda/prosic.svg?style=flat
    :alt:   (downloads)
 .. |docker_prosic| image:: https://quay.io/repository/biocontainers/prosic/status
    :target: https://quay.io/repository/biocontainers/prosic
+.. _`prosic/tags`: https://quay.io/repository/biocontainers/prosic?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/prosic/README.html
-

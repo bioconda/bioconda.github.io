@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-xml-namespacesupport'
 .. highlight: bash
-
 
 perl-xml-namespacesupport
 =========================
@@ -21,11 +22,13 @@ perl-xml-namespacesupport
 
    |downloads_perl-xml-namespacesupport| |docker_perl-xml-namespacesupport|
 
-   :versions: 1.12, 1.11
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 :conda:package:`perl-constant`  
-
-   :required~by: |required_by_perl-xml-namespacesupport|
+   :versions: 1.12-0, 1.11-1, 1.11-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-constant: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-xml-namespacesupport
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-namespacesupport
+      docker pull quay.io/repository/biocontainers/perl-xml-namespacesupport:<tag>
+
+   (see `perl-xml-namespacesupport/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-xml-namespacesupport| conda:required_by:: perl-xml-namespacesupport
 .. |downloads_perl-xml-namespacesupport| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-namespacesupport.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-xml-namespacesupport| image:: https://quay.io/repository/biocontainers/perl-xml-namespacesupport/status
    :target: https://quay.io/repository/biocontainers/perl-xml-namespacesupport
+.. _`perl-xml-namespacesupport/tags`: https://quay.io/repository/biocontainers/perl-xml-namespacesupport?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-xml-namespacesupport/README.html
-

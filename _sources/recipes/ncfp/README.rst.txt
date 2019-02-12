@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ncfp'
 .. highlight: bash
-
 
 ncfp
 ====
@@ -24,11 +25,15 @@ ncfp
 
    |downloads_ncfp| |docker_ncfp|
 
-   :versions: 0.1.0
-
-   :depends: :conda:package:`biopython`  :conda:package:`python` 3.5* :conda:package:`tqdm`  
-
-   :required~by: |required_by_ncfp|
+   :versions: 0.1.0-1, 0.1.0-0
+   
+   :depends biopython: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends tqdm: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +47,16 @@ ncfp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ncfp
+      docker pull quay.io/repository/biocontainers/ncfp:<tag>
+
+   (see `ncfp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ncfp| conda:required_by:: ncfp
 .. |downloads_ncfp| image:: https://img.shields.io/conda/dn/bioconda/ncfp.svg?style=flat
    :alt:   (downloads)
 .. |docker_ncfp| image:: https://quay.io/repository/biocontainers/ncfp/status
    :target: https://quay.io/repository/biocontainers/ncfp
+.. _`ncfp/tags`: https://quay.io/repository/biocontainers/ncfp?tab=tags
 
 
 
@@ -66,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ncfp/README.html
-

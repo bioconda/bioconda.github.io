@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-spreadsheet-parseexcel'
 .. highlight: bash
-
 
 perl-spreadsheet-parseexcel
 ===========================
@@ -21,11 +22,25 @@ perl-spreadsheet-parseexcel
 
    |downloads_perl-spreadsheet-parseexcel| |docker_perl-spreadsheet-parseexcel|
 
-   :versions: 0.65
-
-   :depends: :conda:package:`perl-crypt-rc4`  :conda:package:`perl-digest-perl-md5`  :conda:package:`perl-io-stringy`  :conda:package:`perl-jcode`  :conda:package:`perl-ole-storage_lite`  :conda:package:`perl-spreadsheet-writeexcel`  :conda:package:`perl-threaded`  :conda:package:`perl-unicode-map`  
-
-   :required~by: |required_by_perl-spreadsheet-parseexcel|
+   :versions: 0.65-2, 0.65-1, 0.65-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-crypt-rc4: 
+   
+   :depends perl-digest-perl-md5: 
+   
+   :depends perl-io-stringy: 
+   
+   :depends perl-jcode: 
+   
+   :depends perl-ole-storage_lite: 
+   
+   :depends perl-spreadsheet-writeexcel: 
+   
+   :depends perl-unicode-map: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ perl-spreadsheet-parseexcel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-spreadsheet-parseexcel
+      docker pull quay.io/repository/biocontainers/perl-spreadsheet-parseexcel:<tag>
+
+   (see `perl-spreadsheet-parseexcel/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-spreadsheet-parseexcel| conda:required_by:: perl-spreadsheet-parseexcel
 .. |downloads_perl-spreadsheet-parseexcel| image:: https://img.shields.io/conda/dn/bioconda/perl-spreadsheet-parseexcel.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-spreadsheet-parseexcel| image:: https://quay.io/repository/biocontainers/perl-spreadsheet-parseexcel/status
    :target: https://quay.io/repository/biocontainers/perl-spreadsheet-parseexcel
+.. _`perl-spreadsheet-parseexcel/tags`: https://quay.io/repository/biocontainers/perl-spreadsheet-parseexcel?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-spreadsheet-parseexcel/README.html
-

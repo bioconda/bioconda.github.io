@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-rphylip'
 .. highlight: bash
-
 
 r-rphylip
 =========
@@ -21,11 +22,15 @@ r-rphylip
 
    |downloads_r-rphylip| |docker_r-rphylip|
 
-   :versions: 0.1_23
-
-   :depends: :conda:package:`r-ape` >=3.0_10 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-rphylip|
+   :versions: 0.1_23-1, 0.1_23-0
+   
+   :depends phylip: >=3.696
+   
+   :depends r-ape: >=3.0_10
+   
+   :depends r-base: 3.3.2*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-rphylip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rphylip
+      docker pull quay.io/repository/biocontainers/r-rphylip:<tag>
+
+   (see `r-rphylip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-rphylip| conda:required_by:: r-rphylip
 .. |downloads_r-rphylip| image:: https://img.shields.io/conda/dn/bioconda/r-rphylip.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-rphylip| image:: https://quay.io/repository/biocontainers/r-rphylip/status
    :target: https://quay.io/repository/biocontainers/r-rphylip
+.. _`r-rphylip/tags`: https://quay.io/repository/biocontainers/r-rphylip?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-rphylip/README.html
-

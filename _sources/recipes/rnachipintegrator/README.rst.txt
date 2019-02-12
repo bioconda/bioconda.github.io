@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rnachipintegrator'
 .. highlight: bash
-
 
 rnachipintegrator
 =================
@@ -23,11 +24,13 @@ rnachipintegrator
 
    |downloads_rnachipintegrator| |docker_rnachipintegrator|
 
-   :versions: 1.1.0, 1.0.3
-
-   :depends: :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`xlsxwriter` >=0.8.4 
-
-   :required~by: |required_by_rnachipintegrator|
+   :versions: 1.1.0-0, 1.0.3-1, 1.0.3-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends xlsxwriter: >=0.8.4
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +44,16 @@ rnachipintegrator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnachipintegrator
+      docker pull quay.io/repository/biocontainers/rnachipintegrator:<tag>
+
+   (see `rnachipintegrator/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rnachipintegrator| conda:required_by:: rnachipintegrator
 .. |downloads_rnachipintegrator| image:: https://img.shields.io/conda/dn/bioconda/rnachipintegrator.svg?style=flat
    :alt:   (downloads)
 .. |docker_rnachipintegrator| image:: https://quay.io/repository/biocontainers/rnachipintegrator/status
    :target: https://quay.io/repository/biocontainers/rnachipintegrator
+.. _`rnachipintegrator/tags`: https://quay.io/repository/biocontainers/rnachipintegrator?tab=tags
 
 
 
@@ -65,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rnachipintegrator/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fasttree'
 .. highlight: bash
-
 
 fasttree
 ========
@@ -22,11 +23,11 @@ fasttree
 
    |downloads_fasttree| |docker_fasttree|
 
-   :versions: 2.1.10, 2.1.9, 2.1.8, 2.1.3
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_fasttree|
+   :versions: 2.1.10-2, 2.1.10-0, 2.1.9-2, 2.1.9-1, 2.1.9-0, 2.1.8-4, 2.1.8-2, 2.1.8-1, 2.1.3-2, 2.1.3-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ fasttree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fasttree
+      docker pull quay.io/repository/biocontainers/fasttree:<tag>
+
+   (see `fasttree/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fasttree| conda:required_by:: fasttree
 .. |downloads_fasttree| image:: https://img.shields.io/conda/dn/bioconda/fasttree.svg?style=flat
    :alt:   (downloads)
 .. |docker_fasttree| image:: https://quay.io/repository/biocontainers/fasttree/status
    :target: https://quay.io/repository/biocontainers/fasttree
+.. _`fasttree/tags`: https://quay.io/repository/biocontainers/fasttree?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fasttree/README.html
-

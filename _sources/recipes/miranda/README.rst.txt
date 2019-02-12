@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'miranda'
 .. highlight: bash
-
 
 miranda
 =======
@@ -21,11 +22,11 @@ miranda
 
    |downloads_miranda| |docker_miranda|
 
-   :versions: 3.3a
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_miranda|
+   :versions: 3.3a-1, 3.3a-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ miranda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/miranda
+      docker pull quay.io/repository/biocontainers/miranda:<tag>
+
+   (see `miranda/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_miranda| conda:required_by:: miranda
 .. |downloads_miranda| image:: https://img.shields.io/conda/dn/bioconda/miranda.svg?style=flat
    :alt:   (downloads)
 .. |docker_miranda| image:: https://quay.io/repository/biocontainers/miranda/status
    :target: https://quay.io/repository/biocontainers/miranda
+.. _`miranda/tags`: https://quay.io/repository/biocontainers/miranda?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/miranda/README.html
-

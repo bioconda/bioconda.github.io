@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-env'
 .. highlight: bash
-
 
 perl-env
 ========
@@ -21,11 +22,11 @@ perl-env
 
    |downloads_perl-env| |docker_perl-env|
 
-   :versions: 1.04
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-env|
+   :versions: 1.04-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-env
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-env
+      docker pull quay.io/repository/biocontainers/perl-env:<tag>
+
+   (see `perl-env/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-env| conda:required_by:: perl-env
 .. |downloads_perl-env| image:: https://img.shields.io/conda/dn/bioconda/perl-env.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-env| image:: https://quay.io/repository/biocontainers/perl-env/status
    :target: https://quay.io/repository/biocontainers/perl-env
+.. _`perl-env/tags`: https://quay.io/repository/biocontainers/perl-env?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-env/README.html
-

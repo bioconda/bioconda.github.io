@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sis'
 .. highlight: bash
-
 
 sis
 ===
@@ -21,11 +22,15 @@ sis
 
    |downloads_sis| |docker_sis|
 
-   :versions: 0.1.2, 0.1.0
-
-   :depends: :conda:package:`mummer`  :conda:package:`perl` 5.22.0* :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_sis|
+   :versions: 0.1.2-2, 0.1.2-1, 0.1.0-0
+   
+   :depends mummer: 
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ sis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sis
+      docker pull quay.io/repository/biocontainers/sis:<tag>
+
+   (see `sis/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sis| conda:required_by:: sis
 .. |downloads_sis| image:: https://img.shields.io/conda/dn/bioconda/sis.svg?style=flat
    :alt:   (downloads)
 .. |docker_sis| image:: https://quay.io/repository/biocontainers/sis/status
    :target: https://quay.io/repository/biocontainers/sis
+.. _`sis/tags`: https://quay.io/repository/biocontainers/sis?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sis/README.html
-

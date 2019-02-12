@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-xml-sax'
 .. highlight: bash
-
 
 perl-xml-sax
 ============
@@ -21,11 +22,17 @@ perl-xml-sax
 
    |downloads_perl-xml-sax| |docker_perl-xml-sax|
 
-   :versions: 1.00, 0.99
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-file-temp`  :conda:package:`perl-xml-namespacesupport`  :conda:package:`perl-xml-sax-base`  
-
-   :required~by: |required_by_perl-xml-sax|
+   :versions: 1.00-0, 0.99-1, 0.99-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-file-temp: 
+   
+   :depends perl-xml-namespacesupport: 
+   
+   :depends perl-xml-sax-base: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-xml-sax
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-sax
+      docker pull quay.io/repository/biocontainers/perl-xml-sax:<tag>
+
+   (see `perl-xml-sax/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-xml-sax| conda:required_by:: perl-xml-sax
 .. |downloads_perl-xml-sax| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-sax.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-xml-sax| image:: https://quay.io/repository/biocontainers/perl-xml-sax/status
    :target: https://quay.io/repository/biocontainers/perl-xml-sax
+.. _`perl-xml-sax/tags`: https://quay.io/repository/biocontainers/perl-xml-sax?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-xml-sax/README.html
-

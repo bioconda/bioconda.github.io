@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sc3-scripts'
 .. highlight: bash
-
 
 bioconductor-sc3-scripts
 ========================
@@ -21,11 +22,25 @@ bioconductor-sc3-scripts
 
    |downloads_bioconductor-sc3-scripts| |docker_bioconductor-sc3-scripts|
 
-   :versions: 0.0.2, 0.0.1
-
-   :depends: :conda:package:`bioconductor-biobase`  :conda:package:`bioconductor-sc3` 1.8.0.* :conda:package:`bioconductor-scater` 1.8.4.* :conda:package:`bioconductor-scater-scripts`  :conda:package:`bioconductor-singlecellexperiment-scripts`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-optparse`  :conda:package:`r-workflowscriptscommon`  
-
-   :required~by: |required_by_bioconductor-sc3-scripts|
+   :versions: 0.0.2-1, 0.0.1-1, 0.0.1-0
+   
+   :depends bioconductor-biobase: 
+   
+   :depends bioconductor-sc3: 1.8.0.*
+   
+   :depends bioconductor-scater: 1.8.4.*
+   
+   :depends bioconductor-scater-scripts: 
+   
+   :depends bioconductor-singlecellexperiment-scripts: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-optparse: 
+   
+   :depends r-workflowscriptscommon: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bioconductor-sc3-scripts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sc3-scripts
+      docker pull quay.io/repository/biocontainers/bioconductor-sc3-scripts:<tag>
+
+   (see `bioconductor-sc3-scripts/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sc3-scripts| conda:required_by:: bioconductor-sc3-scripts
 .. |downloads_bioconductor-sc3-scripts| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sc3-scripts.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sc3-scripts| image:: https://quay.io/repository/biocontainers/bioconductor-sc3-scripts/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sc3-scripts
+.. _`bioconductor-sc3-scripts/tags`: https://quay.io/repository/biocontainers/bioconductor-sc3-scripts?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sc3-scripts/README.html
-

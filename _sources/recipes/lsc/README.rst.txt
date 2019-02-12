@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lsc'
 .. highlight: bash
-
 
 lsc
 ===
@@ -21,11 +22,17 @@ lsc
 
    |downloads_lsc| |docker_lsc|
 
-   :versions: 2.0
-
-   :depends: :conda:package:`bowtie2`  :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* :conda:package:`samtools`  
-
-   :required~by: |required_by_lsc|
+   :versions: 2.0-0
+   
+   :depends bowtie2: 
+   
+   :depends perl: 5.22.0*
+   
+   :depends python: 2.7*
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ lsc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lsc
+      docker pull quay.io/repository/biocontainers/lsc:<tag>
+
+   (see `lsc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lsc| conda:required_by:: lsc
 .. |downloads_lsc| image:: https://img.shields.io/conda/dn/bioconda/lsc.svg?style=flat
    :alt:   (downloads)
 .. |docker_lsc| image:: https://quay.io/repository/biocontainers/lsc/status
    :target: https://quay.io/repository/biocontainers/lsc
+.. _`lsc/tags`: https://quay.io/repository/biocontainers/lsc?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lsc/README.html
-

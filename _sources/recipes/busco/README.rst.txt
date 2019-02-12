@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'busco'
 .. highlight: bash
-
 
 busco
 =====
@@ -22,11 +23,21 @@ busco
 
    |downloads_busco| |docker_busco|
 
-   :versions: 3.0.2, 3.0.1, 2.0.1, 2.0, 1.2
-
-   :depends: :conda:package:`augustus` >=3.2.3 :conda:package:`blast` >=2.2,<2.4 :conda:package:`findutils`  :conda:package:`hmmer`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`r-ggplot2` >=2.2.1 
-
-   :required~by: |required_by_busco|
+   :versions: 3.0.2-10, 3.0.2-9, 3.0.2-8, 3.0.2-7, 3.0.2-6, 3.0.2-5, 3.0.2-4, 3.0.1-0, 2.0.1-0, 2.0-0, 1.2-1, 1.2-0
+   
+   :depends augustus: >=3.2.3
+   
+   :depends blast: >=2.2,<2.4
+   
+   :depends findutils: 
+   
+   :depends hmmer: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends r-ggplot2: >=2.2.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ busco
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/busco
+      docker pull quay.io/repository/biocontainers/busco:<tag>
+
+   (see `busco/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_busco| conda:required_by:: busco
 .. |downloads_busco| image:: https://img.shields.io/conda/dn/bioconda/busco.svg?style=flat
    :alt:   (downloads)
 .. |docker_busco| image:: https://quay.io/repository/biocontainers/busco/status
    :target: https://quay.io/repository/biocontainers/busco
+.. _`busco/tags`: https://quay.io/repository/biocontainers/busco?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/busco/README.html
-

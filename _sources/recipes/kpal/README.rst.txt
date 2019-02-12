@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kpal'
 .. highlight: bash
-
 
 kpal
 ====
@@ -21,11 +22,19 @@ kpal
 
    |downloads_kpal| |docker_kpal|
 
-   :versions: 2.1.1
-
-   :depends: :conda:package:`biopython`  :conda:package:`future`  :conda:package:`h5py` >=2.1 :conda:package:`python` 2.7* :conda:package:`semantic_version`  
-
-   :required~by: |required_by_kpal|
+   :versions: 2.1.1-1, 2.1.1-0
+   
+   :depends biopython: 
+   
+   :depends future: 
+   
+   :depends h5py: >=2.1
+   
+   :depends python: 
+   
+   :depends semantic_version: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ kpal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kpal
+      docker pull quay.io/repository/biocontainers/kpal:<tag>
+
+   (see `kpal/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kpal| conda:required_by:: kpal
 .. |downloads_kpal| image:: https://img.shields.io/conda/dn/bioconda/kpal.svg?style=flat
    :alt:   (downloads)
 .. |docker_kpal| image:: https://quay.io/repository/biocontainers/kpal/status
    :target: https://quay.io/repository/biocontainers/kpal
+.. _`kpal/tags`: https://quay.io/repository/biocontainers/kpal?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kpal/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bionet'
 .. highlight: bash
-
 
 bioconductor-bionet
 ===================
@@ -22,11 +23,21 @@ bioconductor-bionet
 
    |downloads_bioconductor-bionet| |docker_bioconductor-bionet|
 
-   :versions: 1.42.0, 1.40.0, 1.38.0, 1.36.0, 1.34.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph` >=1.0.1 
-
-   :required~by: |required_by_bioconductor-bionet|
+   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-rbgl: >=1.58.0,<1.59.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-igraph: >=1.0.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-bionet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bionet
+      docker pull quay.io/repository/biocontainers/bioconductor-bionet:<tag>
+
+   (see `bioconductor-bionet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bionet| conda:required_by:: bioconductor-bionet
 .. |downloads_bioconductor-bionet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bionet.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bionet| image:: https://quay.io/repository/biocontainers/bioconductor-bionet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bionet
+.. _`bioconductor-bionet/tags`: https://quay.io/repository/biocontainers/bioconductor-bionet?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bionet/README.html
-

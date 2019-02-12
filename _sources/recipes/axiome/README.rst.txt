@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'axiome'
 .. highlight: bash
-
 
 axiome
 ======
@@ -21,11 +22,13 @@ axiome
 
    |downloads_axiome| |docker_axiome|
 
-   :versions: 2.0.4
-
-   :depends: :conda:package:`npyscreen`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_axiome|
+   :versions: 2.0.4-2, 2.0.4-0
+   
+   :depends npyscreen: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ axiome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/axiome
+      docker pull quay.io/repository/biocontainers/axiome:<tag>
+
+   (see `axiome/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_axiome| conda:required_by:: axiome
 .. |downloads_axiome| image:: https://img.shields.io/conda/dn/bioconda/axiome.svg?style=flat
    :alt:   (downloads)
 .. |docker_axiome| image:: https://quay.io/repository/biocontainers/axiome/status
    :target: https://quay.io/repository/biocontainers/axiome
+.. _`axiome/tags`: https://quay.io/repository/biocontainers/axiome?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/axiome/README.html
-

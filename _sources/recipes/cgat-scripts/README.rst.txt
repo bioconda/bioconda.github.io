@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cgat-scripts'
 .. highlight: bash
-
 
 cgat-scripts
 ============
@@ -21,11 +22,59 @@ cgat-scripts
 
    |downloads_cgat-scripts| |docker_cgat-scripts|
 
-   :versions: 0.3.2, 0.3.1, 0.3.0, 0.2.7, 0.2.6
-
-   :depends: :conda:package:`alignlib-lite` 0.3.* :conda:package:`bedtools` 2.26.* :conda:package:`biopython` 1.70.* :conda:package:`coreutils` 8.25 :conda:package:`cython` 0.27.* :conda:package:`future` 0.16.* :conda:package:`grep` 2.14 :conda:package:`libgcc`  :conda:package:`libpng` 1.6.* :conda:package:`matplotlib` 2.1.* :conda:package:`numpy` 1.12.* :conda:package:`pandas` 0.21.* :conda:package:`pybedtools` 0.7.* :conda:package:`pybigwig` 0.3.* :conda:package:`pysam` 0.13.* :conda:package:`python` 3.5* :conda:package:`python-lzo` 1.11.* :conda:package:`pyyaml` 3.12.* :conda:package:`rpy2` 2.8.* :conda:package:`scipy` 0.19.* :conda:package:`six` 1.11.* :conda:package:`ucsc-bedgraphtobigwig` 357 :conda:package:`ucsc-bedtobigbed` 357 :conda:package:`ucsc-wigtobigwig` 357 :conda:package:`zlib` 1.2.* 
-
-   :required~by: |required_by_cgat-scripts|
+   :versions: 0.3.2-2, 0.3.2-0, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.7-0, 0.2.6-0
+   
+   :depends alignlib-lite: 0.3.*
+   
+   :depends bedtools: 2.26.*
+   
+   :depends biopython: 1.70.*
+   
+   :depends coreutils: 8.25.*
+   
+   :depends cython: 0.27.*
+   
+   :depends future: 0.16.*
+   
+   :depends grep: 2.14.*
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libpng: >=1.6.34,<1.7.0a0
+   
+   :depends matplotlib: 2.1.*
+   
+   :depends numpy: 1.12.*
+   
+   :depends pandas: 0.21.*
+   
+   :depends pybedtools: 0.7.*
+   
+   :depends pybigwig: 0.3.*
+   
+   :depends pysam: 0.13.*
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends python-lzo: 1.11.*
+   
+   :depends pyyaml: 3.12.*
+   
+   :depends rpy2: 2.8.*
+   
+   :depends scipy: 0.19.*
+   
+   :depends six: 1.11.*
+   
+   :depends ucsc-bedgraphtobigwig: 357.*
+   
+   :depends ucsc-bedtobigbed: 357.*
+   
+   :depends ucsc-wigtobigwig: 357.*
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +88,16 @@ cgat-scripts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cgat-scripts
+      docker pull quay.io/repository/biocontainers/cgat-scripts:<tag>
+
+   (see `cgat-scripts/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cgat-scripts| conda:required_by:: cgat-scripts
 .. |downloads_cgat-scripts| image:: https://img.shields.io/conda/dn/bioconda/cgat-scripts.svg?style=flat
    :alt:   (downloads)
 .. |docker_cgat-scripts| image:: https://quay.io/repository/biocontainers/cgat-scripts/status
    :target: https://quay.io/repository/biocontainers/cgat-scripts
+.. _`cgat-scripts/tags`: https://quay.io/repository/biocontainers/cgat-scripts?tab=tags
 
 
 
@@ -63,4 +114,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cgat-scripts/README.html
-

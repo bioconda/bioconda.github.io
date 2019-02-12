@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-gpls'
 .. highlight: bash
-
 
 bioconductor-gpls
 =================
@@ -22,11 +23,11 @@ bioconductor-gpls
 
    |downloads_bioconductor-gpls| |docker_bioconductor-gpls|
 
-   :versions: 1.54.0, 1.52.0, 1.50.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-gpls|
+   :versions: 1.54.0-0, 1.52.0-0, 1.50.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ bioconductor-gpls
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gpls
+      docker pull quay.io/repository/biocontainers/bioconductor-gpls:<tag>
+
+   (see `bioconductor-gpls/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-gpls| conda:required_by:: bioconductor-gpls
 .. |downloads_bioconductor-gpls| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gpls.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-gpls| image:: https://quay.io/repository/biocontainers/bioconductor-gpls/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gpls
+.. _`bioconductor-gpls/tags`: https://quay.io/repository/biocontainers/bioconductor-gpls?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-gpls/README.html
-

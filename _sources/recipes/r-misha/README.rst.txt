@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-misha'
 .. highlight: bash
-
 
 r-misha
 =======
@@ -21,11 +22,11 @@ r-misha
 
    |downloads_r-misha| |docker_r-misha|
 
-   :versions: 4.0.4
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-misha|
+   :versions: 4.0.4-1
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-misha
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-misha
+      docker pull quay.io/repository/biocontainers/r-misha:<tag>
+
+   (see `r-misha/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-misha| conda:required_by:: r-misha
 .. |downloads_r-misha| image:: https://img.shields.io/conda/dn/bioconda/r-misha.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-misha| image:: https://quay.io/repository/biocontainers/r-misha/status
    :target: https://quay.io/repository/biocontainers/r-misha
+.. _`r-misha/tags`: https://quay.io/repository/biocontainers/r-misha?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-misha/README.html
-

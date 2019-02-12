@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-reqon'
 .. highlight: bash
-
 
 bioconductor-reqon
 ==================
@@ -22,10 +23,8 @@ bioconductor-reqon
    |downloads_bioconductor-reqon| |docker_bioconductor-reqon|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-reqon|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-reqon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-reqon
+      docker pull quay.io/repository/biocontainers/bioconductor-reqon:<tag>
+
+   (see `bioconductor-reqon/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-reqon| conda:required_by:: bioconductor-reqon
 .. |downloads_bioconductor-reqon| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-reqon.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-reqon| image:: https://quay.io/repository/biocontainers/bioconductor-reqon/status
    :target: https://quay.io/repository/biocontainers/bioconductor-reqon
+.. _`bioconductor-reqon/tags`: https://quay.io/repository/biocontainers/bioconductor-reqon?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-reqon/README.html
-

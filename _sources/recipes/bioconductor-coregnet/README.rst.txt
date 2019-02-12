@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-coregnet'
 .. highlight: bash
-
 
 bioconductor-coregnet
 =====================
@@ -21,11 +22,19 @@ bioconductor-coregnet
 
    |downloads_bioconductor-coregnet| |docker_bioconductor-coregnet|
 
-   :versions: 1.20.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-arules`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-shiny`  
-
-   :required~by: |required_by_bioconductor-coregnet|
+   :versions: 1.20.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-arules: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-igraph: 
+   
+   :depends r-shiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-coregnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-coregnet
+      docker pull quay.io/repository/biocontainers/bioconductor-coregnet:<tag>
+
+   (see `bioconductor-coregnet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-coregnet| conda:required_by:: bioconductor-coregnet
 .. |downloads_bioconductor-coregnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-coregnet.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-coregnet| image:: https://quay.io/repository/biocontainers/bioconductor-coregnet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-coregnet
+.. _`bioconductor-coregnet/tags`: https://quay.io/repository/biocontainers/bioconductor-coregnet?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-coregnet/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-tie-toobject'
 .. highlight: bash
-
 
 perl-tie-toobject
 =================
@@ -21,11 +22,15 @@ perl-tie-toobject
 
    |downloads_perl-tie-toobject| |docker_perl-tie-toobject|
 
-   :versions: 0.03
-
-   :depends: :conda:package:`perl` >5.22,<6.0 :conda:package:`perl-test-more`  :conda:package:`perl-tie-refhash`  
-
-   :required~by: |required_by_perl-tie-toobject|
+   :versions: 0.03-2, 0.03-1, 0.03-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-test-more: 
+   
+   :depends perl-tie-refhash: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-tie-toobject
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-tie-toobject
+      docker pull quay.io/repository/biocontainers/perl-tie-toobject:<tag>
+
+   (see `perl-tie-toobject/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-tie-toobject| conda:required_by:: perl-tie-toobject
 .. |downloads_perl-tie-toobject| image:: https://img.shields.io/conda/dn/bioconda/perl-tie-toobject.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-tie-toobject| image:: https://quay.io/repository/biocontainers/perl-tie-toobject/status
    :target: https://quay.io/repository/biocontainers/perl-tie-toobject
+.. _`perl-tie-toobject/tags`: https://quay.io/repository/biocontainers/perl-tie-toobject?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-tie-toobject/README.html
-

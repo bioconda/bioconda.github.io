@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vcftoolbox'
 .. highlight: bash
-
 
 vcftoolbox
 ==========
@@ -21,11 +22,11 @@ vcftoolbox
 
    |downloads_vcftoolbox| |docker_vcftoolbox|
 
-   :versions: 1.5.1, 0.1
-
-   :depends: :conda:package:`python`  
-
-   :required~by: |required_by_vcftoolbox|
+   :versions: 1.5.1-0, 0.1-2, 0.1-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ vcftoolbox
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcftoolbox
+      docker pull quay.io/repository/biocontainers/vcftoolbox:<tag>
+
+   (see `vcftoolbox/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vcftoolbox| conda:required_by:: vcftoolbox
 .. |downloads_vcftoolbox| image:: https://img.shields.io/conda/dn/bioconda/vcftoolbox.svg?style=flat
    :alt:   (downloads)
 .. |docker_vcftoolbox| image:: https://quay.io/repository/biocontainers/vcftoolbox/status
    :target: https://quay.io/repository/biocontainers/vcftoolbox
+.. _`vcftoolbox/tags`: https://quay.io/repository/biocontainers/vcftoolbox?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vcftoolbox/README.html
-

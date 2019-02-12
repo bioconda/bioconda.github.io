@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-indeed'
 .. highlight: bash
-
 
 bioconductor-indeed
 ===================
@@ -21,11 +22,15 @@ bioconductor-indeed
 
    |downloads_bioconductor-indeed| |docker_bioconductor-indeed|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-devtools` >=1.13.0 :conda:package:`r-glasso` >=1.8 
-
-   :required~by: |required_by_bioconductor-indeed|
+   :versions: 1.0.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-devtools: >=1.13.0
+   
+   :depends r-glasso: >=1.8
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-indeed
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-indeed
+      docker pull quay.io/repository/biocontainers/bioconductor-indeed:<tag>
+
+   (see `bioconductor-indeed/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-indeed| conda:required_by:: bioconductor-indeed
 .. |downloads_bioconductor-indeed| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-indeed.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-indeed| image:: https://quay.io/repository/biocontainers/bioconductor-indeed/status
    :target: https://quay.io/repository/biocontainers/bioconductor-indeed
+.. _`bioconductor-indeed/tags`: https://quay.io/repository/biocontainers/bioconductor-indeed?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-indeed/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'antarna'
 .. highlight: bash
-
 
 antarna
 =======
@@ -22,11 +23,21 @@ antarna
 
    |downloads_antarna| |docker_antarna|
 
-   :versions: 2.0.1.2
-
-   :depends: :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`scipy`  :conda:package:`uuid`  :conda:package:`viennarna`  
-
-   :required~by: |required_by_antarna|
+   :versions: 2.0.1.2-0
+   
+   :depends networkx: 
+   
+   :depends numpy: 
+   
+   :depends python: 2.7*
+   
+   :depends scipy: 
+   
+   :depends uuid: 
+   
+   :depends viennarna: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ antarna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/antarna
+      docker pull quay.io/repository/biocontainers/antarna:<tag>
+
+   (see `antarna/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_antarna| conda:required_by:: antarna
 .. |downloads_antarna| image:: https://img.shields.io/conda/dn/bioconda/antarna.svg?style=flat
    :alt:   (downloads)
 .. |docker_antarna| image:: https://quay.io/repository/biocontainers/antarna/status
    :target: https://quay.io/repository/biocontainers/antarna
+.. _`antarna/tags`: https://quay.io/repository/biocontainers/antarna?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/antarna/README.html
-

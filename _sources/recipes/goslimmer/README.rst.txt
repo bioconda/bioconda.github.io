@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'goslimmer'
 .. highlight: bash
-
 
 goslimmer
 =========
@@ -21,11 +22,13 @@ goslimmer
 
    |downloads_goslimmer| |docker_goslimmer|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`openjdk` >=8 :conda:package:`python`  
-
-   :required~by: |required_by_goslimmer|
+   :versions: 1.0-0
+   
+   :depends openjdk: >=8
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ goslimmer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/goslimmer
+      docker pull quay.io/repository/biocontainers/goslimmer:<tag>
+
+   (see `goslimmer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_goslimmer| conda:required_by:: goslimmer
 .. |downloads_goslimmer| image:: https://img.shields.io/conda/dn/bioconda/goslimmer.svg?style=flat
    :alt:   (downloads)
 .. |docker_goslimmer| image:: https://quay.io/repository/biocontainers/goslimmer/status
    :target: https://quay.io/repository/biocontainers/goslimmer
+.. _`goslimmer/tags`: https://quay.io/repository/biocontainers/goslimmer?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/goslimmer/README.html
-

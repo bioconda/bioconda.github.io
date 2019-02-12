@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-quorts'
 .. highlight: bash
-
 
 r-quorts
 ========
@@ -21,11 +22,11 @@ r-quorts
 
    |downloads_r-quorts| |docker_r-quorts|
 
-   :versions: 1.3.0
-
-   :depends: :conda:package:`r-base` >=3.0.2 
-
-   :required~by: |required_by_r-quorts|
+   :versions: 1.3.0-1, 1.3.0-0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-quorts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-quorts
+      docker pull quay.io/repository/biocontainers/r-quorts:<tag>
+
+   (see `r-quorts/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-quorts| conda:required_by:: r-quorts
 .. |downloads_r-quorts| image:: https://img.shields.io/conda/dn/bioconda/r-quorts.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-quorts| image:: https://quay.io/repository/biocontainers/r-quorts/status
    :target: https://quay.io/repository/biocontainers/r-quorts
+.. _`r-quorts/tags`: https://quay.io/repository/biocontainers/r-quorts?tab=tags
 
 
 
@@ -68,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-quorts/README.html
-

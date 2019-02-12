@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-sharedir-install'
 .. highlight: bash
-
 
 perl-file-sharedir-install
 ==========================
@@ -21,11 +22,15 @@ perl-file-sharedir-install
 
    |downloads_perl-file-sharedir-install| |docker_perl-file-sharedir-install|
 
-   :versions: 0.13, 0.10
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  
-
-   :required~by: |required_by_perl-file-sharedir-install|
+   :versions: 0.13-0, 0.10-4, 0.10-3, 0.10-2, 0.10-1, 0.10-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-exporter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-file-sharedir-install
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-sharedir-install
+      docker pull quay.io/repository/biocontainers/perl-file-sharedir-install:<tag>
+
+   (see `perl-file-sharedir-install/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-sharedir-install| conda:required_by:: perl-file-sharedir-install
 .. |downloads_perl-file-sharedir-install| image:: https://img.shields.io/conda/dn/bioconda/perl-file-sharedir-install.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-sharedir-install| image:: https://quay.io/repository/biocontainers/perl-file-sharedir-install/status
    :target: https://quay.io/repository/biocontainers/perl-file-sharedir-install
+.. _`perl-file-sharedir-install/tags`: https://quay.io/repository/biocontainers/perl-file-sharedir-install?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-sharedir-install/README.html
-

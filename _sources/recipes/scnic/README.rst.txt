@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'scnic'
 .. highlight: bash
-
 
 scnic
 =====
@@ -21,11 +22,37 @@ scnic
 
    |downloads_scnic| |docker_scnic|
 
-   :versions: 0.6.0, 0.5.3, 0.5.1
-
-   :depends: :conda:package:`armadillo` 8.* :conda:package:`biom-format`  :conda:package:`fastspar` 0.0.6.* :conda:package:`h5py`  :conda:package:`matplotlib`  :conda:package:`networkx` >2 :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=3 :conda:package:`scikit-bio`  :conda:package:`scipy`  :conda:package:`seaborn`  :conda:package:`statsmodels`  :conda:package:`tqdm`  
-
-   :required~by: |required_by_scnic|
+   :versions: 0.6.0-0, 0.5.3-0, 0.5.1-0
+   
+   :depends armadillo: 8.*
+   
+   :depends biom-format: 
+   
+   :depends fastspar: 0.0.6.*
+   
+   :depends h5py: 
+   
+   :depends matplotlib: 
+   
+   :depends networkx: >2
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=3
+   
+   :depends scikit-bio: 
+   
+   :depends scipy: 
+   
+   :depends seaborn: 
+   
+   :depends statsmodels: 
+   
+   :depends tqdm: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ scnic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scnic
+      docker pull quay.io/repository/biocontainers/scnic:<tag>
+
+   (see `scnic/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_scnic| conda:required_by:: scnic
 .. |downloads_scnic| image:: https://img.shields.io/conda/dn/bioconda/scnic.svg?style=flat
    :alt:   (downloads)
 .. |docker_scnic| image:: https://quay.io/repository/biocontainers/scnic/status
    :target: https://quay.io/repository/biocontainers/scnic
+.. _`scnic/tags`: https://quay.io/repository/biocontainers/scnic?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/scnic/README.html
-

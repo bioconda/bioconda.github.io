@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'feht'
 .. highlight: bash
-
 
 feht
 ====
@@ -21,11 +22,9 @@ feht
 
    |downloads_feht| |docker_feht|
 
-   :versions: 1.1.0, 1.0.1
-
-   :depends: 
-
-   :required~by: |required_by_feht|
+   :versions: 1.1.0-1, 1.1.0-0, 1.0.1-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ feht
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/feht
+      docker pull quay.io/repository/biocontainers/feht:<tag>
+
+   (see `feht/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_feht| conda:required_by:: feht
 .. |downloads_feht| image:: https://img.shields.io/conda/dn/bioconda/feht.svg?style=flat
    :alt:   (downloads)
 .. |docker_feht| image:: https://quay.io/repository/biocontainers/feht/status
    :target: https://quay.io/repository/biocontainers/feht
+.. _`feht/tags`: https://quay.io/repository/biocontainers/feht?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/feht/README.html
-

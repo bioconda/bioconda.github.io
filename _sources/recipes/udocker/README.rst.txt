@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'udocker'
 .. highlight: bash
-
 
 udocker
 =======
@@ -21,11 +22,17 @@ udocker
 
    |downloads_udocker| |docker_udocker|
 
-   :versions: 1.1.1, 1.0.3
-
-   :depends: :conda:package:`proot`  :conda:package:`pycurl`  :conda:package:`python` 2.7* :conda:package:`simplejson`  
-
-   :required~by: |required_by_udocker|
+   :versions: 1.1.1-2, 1.1.1-0, 1.0.3-0
+   
+   :depends proot: 
+   
+   :depends pycurl: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends simplejson: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ udocker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/udocker
+      docker pull quay.io/repository/biocontainers/udocker:<tag>
+
+   (see `udocker/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_udocker| conda:required_by:: udocker
 .. |downloads_udocker| image:: https://img.shields.io/conda/dn/bioconda/udocker.svg?style=flat
    :alt:   (downloads)
 .. |docker_udocker| image:: https://quay.io/repository/biocontainers/udocker/status
    :target: https://quay.io/repository/biocontainers/udocker
+.. _`udocker/tags`: https://quay.io/repository/biocontainers/udocker?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/udocker/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-xml-twig'
 .. highlight: bash
-
 
 perl-xml-twig
 =============
@@ -21,11 +22,27 @@ perl-xml-twig
 
    |downloads_perl-xml-twig| |docker_perl-xml-twig|
 
-   :versions: 3.52, 3.49
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-html-entities-numbered`  :conda:package:`perl-html-formatter`  :conda:package:`perl-html-parser`  :conda:package:`perl-html-tidy`  :conda:package:`perl-html-tree`  :conda:package:`perl-tie-ixhash`  :conda:package:`perl-xml-parser`  :conda:package:`perl-xml-xpathengine`  
-
-   :required~by: |required_by_perl-xml-twig|
+   :versions: 3.52-1, 3.49-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-html-entities-numbered: 
+   
+   :depends perl-html-formatter: 
+   
+   :depends perl-html-parser: 
+   
+   :depends perl-html-tidy: 
+   
+   :depends perl-html-tree: 
+   
+   :depends perl-tie-ixhash: 
+   
+   :depends perl-xml-parser: 
+   
+   :depends perl-xml-xpathengine: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ perl-xml-twig
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-twig
+      docker pull quay.io/repository/biocontainers/perl-xml-twig:<tag>
+
+   (see `perl-xml-twig/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-xml-twig| conda:required_by:: perl-xml-twig
 .. |downloads_perl-xml-twig| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-twig.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-xml-twig| image:: https://quay.io/repository/biocontainers/perl-xml-twig/status
    :target: https://quay.io/repository/biocontainers/perl-xml-twig
+.. _`perl-xml-twig/tags`: https://quay.io/repository/biocontainers/perl-xml-twig?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-xml-twig/README.html
-

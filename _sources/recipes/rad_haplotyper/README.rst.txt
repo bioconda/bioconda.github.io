@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rad_haplotyper'
 .. highlight: bash
-
 
 rad_haplotyper
 ==============
@@ -21,11 +22,39 @@ rad_haplotyper
 
    |downloads_rad_haplotyper| |docker_rad_haplotyper|
 
-   :versions: 1.1.9, 1.1.7, 1.1.6
-
-   :depends: :conda:package:`ddocent`  :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-bio-cigar`  :conda:package:`perl-bio-db-sam`  :conda:package:`perl-bioperl`  :conda:package:`perl-data-dumper`  :conda:package:`perl-getopt-long`  :conda:package:`perl-list-moreutils`  :conda:package:`perl-module-build`  :conda:package:`perl-parallel-forkmanager`  :conda:package:`perl-pod-usage`  :conda:package:`perl-term-progressbar`  :conda:package:`perl-vcftools-vcf`  
-
-   :required~by: |required_by_rad_haplotyper|
+   :versions: 1.1.9-1, 1.1.9-0, 1.1.7-0, 1.1.6-0
+   
+   :depends ddocent: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-bio-cigar: 
+   
+   :depends perl-bio-db-sam: 
+   
+   :depends perl-bioperl: 
+   
+   :depends perl-data-dumper: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-list-moreutils: 
+   
+   :depends perl-module-build: 
+   
+   :depends perl-parallel-forkmanager: 
+   
+   :depends perl-pod-usage: 
+   
+   :depends perl-term-progressbar: 
+   
+   :depends perl-vcftools-vcf: <0.700
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +68,16 @@ rad_haplotyper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rad_haplotyper
+      docker pull quay.io/repository/biocontainers/rad_haplotyper:<tag>
+
+   (see `rad_haplotyper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rad_haplotyper| conda:required_by:: rad_haplotyper
 .. |downloads_rad_haplotyper| image:: https://img.shields.io/conda/dn/bioconda/rad_haplotyper.svg?style=flat
    :alt:   (downloads)
 .. |docker_rad_haplotyper| image:: https://quay.io/repository/biocontainers/rad_haplotyper/status
    :target: https://quay.io/repository/biocontainers/rad_haplotyper
+.. _`rad_haplotyper/tags`: https://quay.io/repository/biocontainers/rad_haplotyper?tab=tags
 
 
 
@@ -63,4 +94,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rad_haplotyper/README.html
-

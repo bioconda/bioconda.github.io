@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'snoscan'
 .. highlight: bash
-
 
 snoscan
 =======
@@ -22,11 +23,15 @@ snoscan
 
    |downloads_snoscan| |docker_snoscan|
 
-   :versions: 0.9b
-
-   :depends: :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`zlib`  
-
-   :required~by: |required_by_snoscan|
+   :versions: 0.9b-2, 0.9b-1, 0.9b-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ snoscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snoscan
+      docker pull quay.io/repository/biocontainers/snoscan:<tag>
+
+   (see `snoscan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_snoscan| conda:required_by:: snoscan
 .. |downloads_snoscan| image:: https://img.shields.io/conda/dn/bioconda/snoscan.svg?style=flat
    :alt:   (downloads)
 .. |docker_snoscan| image:: https://quay.io/repository/biocontainers/snoscan/status
    :target: https://quay.io/repository/biocontainers/snoscan
+.. _`snoscan/tags`: https://quay.io/repository/biocontainers/snoscan?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/snoscan/README.html
-

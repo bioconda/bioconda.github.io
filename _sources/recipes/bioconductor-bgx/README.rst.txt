@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bgx'
 .. highlight: bash
-
 
 bioconductor-bgx
 ================
@@ -22,10 +23,8 @@ bioconductor-bgx
    |downloads_bioconductor-bgx| |docker_bioconductor-bgx|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-bgx|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-bgx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bgx
+      docker pull quay.io/repository/biocontainers/bioconductor-bgx:<tag>
+
+   (see `bioconductor-bgx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bgx| conda:required_by:: bioconductor-bgx
 .. |downloads_bioconductor-bgx| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bgx.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bgx| image:: https://quay.io/repository/biocontainers/bioconductor-bgx/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bgx
+.. _`bioconductor-bgx/tags`: https://quay.io/repository/biocontainers/bioconductor-bgx?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bgx/README.html
-

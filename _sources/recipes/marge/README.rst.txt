@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'marge'
 .. highlight: bash
-
 
 marge
 =====
@@ -21,11 +22,33 @@ marge
 
    |downloads_marge| |docker_marge|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`hdf5` 1.8.17* :conda:package:`numpy`  :conda:package:`pytables`  :conda:package:`python` 3.5* :conda:package:`scikit-learn`  :conda:package:`scipy`  :conda:package:`snakemake` 3.* :conda:package:`twobitreader`  :conda:package:`ucsc-bedclip`  :conda:package:`ucsc-bigwigaverageoverbed`  :conda:package:`ucsc-bigwigsummary`  :conda:package:`ucsc-bigwigtobedgraph`  
-
-   :required~by: |required_by_marge|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends hdf5: >=1.10.1,<1.10.2.0a0
+   
+   :depends numpy: 
+   
+   :depends pytables: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :depends snakemake: 3.*
+   
+   :depends twobitreader: 
+   
+   :depends ucsc-bedclip: 
+   
+   :depends ucsc-bigwigaverageoverbed: 
+   
+   :depends ucsc-bigwigsummary: 
+   
+   :depends ucsc-bigwigtobedgraph: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ marge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/marge
+      docker pull quay.io/repository/biocontainers/marge:<tag>
+
+   (see `marge/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_marge| conda:required_by:: marge
 .. |downloads_marge| image:: https://img.shields.io/conda/dn/bioconda/marge.svg?style=flat
    :alt:   (downloads)
 .. |docker_marge| image:: https://quay.io/repository/biocontainers/marge/status
    :target: https://quay.io/repository/biocontainers/marge
+.. _`marge/tags`: https://quay.io/repository/biocontainers/marge?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/marge/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gbsx'
 .. highlight: bash
-
 
 gbsx
 ====
@@ -27,11 +28,13 @@ gbsx
 
    |downloads_gbsx| |docker_gbsx|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`openjdk` >=6 :conda:package:`python`  
-
-   :required~by: |required_by_gbsx|
+   :versions: 1.3-0
+   
+   :depends openjdk: >=6
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -45,14 +48,16 @@ gbsx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gbsx
+      docker pull quay.io/repository/biocontainers/gbsx:<tag>
+
+   (see `gbsx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gbsx| conda:required_by:: gbsx
 .. |downloads_gbsx| image:: https://img.shields.io/conda/dn/bioconda/gbsx.svg?style=flat
    :alt:   (downloads)
 .. |docker_gbsx| image:: https://quay.io/repository/biocontainers/gbsx/status
    :target: https://quay.io/repository/biocontainers/gbsx
+.. _`gbsx/tags`: https://quay.io/repository/biocontainers/gbsx?tab=tags
 
 
 
@@ -79,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gbsx/README.html
-

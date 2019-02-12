@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nanoplot'
 .. highlight: bash
-
 
 nanoplot
 ========
@@ -21,11 +22,31 @@ nanoplot
 
    |downloads_nanoplot| |docker_nanoplot|
 
-   :versions: 1.20.0, 1.19.0, 1.18.2, 1.13.0, 1.11.0, 1.10.4, 1.8.1, 1.2.2, 1.1.0, 1.0.0, 0.16.4, 0.16.2
-
-   :depends: :conda:package:`biopython`  :conda:package:`nanoget` >=1.4.0 :conda:package:`nanomath` >=0.21.0 :conda:package:`nanoplotter` >=0.38.0 :conda:package:`numpy`  :conda:package:`pandas` >=0.22.0 :conda:package:`pysam` >0.10.0.0 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`python-dateutil`  :conda:package:`scipy`  :conda:package:`seaborn`  
-
-   :required~by: |required_by_nanoplot|
+   :versions: 1.20.0-0, 1.19.0-0, 1.18.2-1, 1.13.0-1, 1.13.0-0, 1.11.0-0, 1.10.4-0, 1.8.1-0, 1.2.2-0, 1.1.0-0, 1.0.0-0, 0.16.4-0, 0.16.2-0
+   
+   :depends biopython: 
+   
+   :depends nanoget: >=1.4.0
+   
+   :depends nanomath: >=0.21.0
+   
+   :depends nanoplotter: >=0.38.0
+   
+   :depends numpy: 
+   
+   :depends pandas: >=0.22.0
+   
+   :depends pysam: >0.10.0.0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends python-dateutil: 
+   
+   :depends scipy: 
+   
+   :depends seaborn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ nanoplot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanoplot
+      docker pull quay.io/repository/biocontainers/nanoplot:<tag>
+
+   (see `nanoplot/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nanoplot| conda:required_by:: nanoplot
 .. |downloads_nanoplot| image:: https://img.shields.io/conda/dn/bioconda/nanoplot.svg?style=flat
    :alt:   (downloads)
 .. |docker_nanoplot| image:: https://quay.io/repository/biocontainers/nanoplot/status
    :target: https://quay.io/repository/biocontainers/nanoplot
+.. _`nanoplot/tags`: https://quay.io/repository/biocontainers/nanoplot?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nanoplot/README.html
-

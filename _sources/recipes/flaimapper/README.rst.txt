@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'flaimapper'
 .. highlight: bash
-
 
 flaimapper
 ==========
@@ -21,11 +22,15 @@ flaimapper
 
    |downloads_flaimapper| |docker_flaimapper|
 
-   :versions: 3.0.0, 2.5.0, 2.4.0, 2.3.4, 2.3.3, 2.0.0
-
-   :depends: :conda:package:`pysam` >=0.14.1 :conda:package:`python` 3.5* :conda:package:`setuptools`  
-
-   :required~by: |required_by_flaimapper|
+   :versions: 3.0.0-1, 3.0.0-0, 2.5.0-1, 2.5.0-0, 2.4.0-1, 2.4.0-0, 2.3.4-0, 2.3.3-0, 2.0.0-0
+   
+   :depends pysam: >=0.14.1
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends setuptools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ flaimapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flaimapper
+      docker pull quay.io/repository/biocontainers/flaimapper:<tag>
+
+   (see `flaimapper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_flaimapper| conda:required_by:: flaimapper
 .. |downloads_flaimapper| image:: https://img.shields.io/conda/dn/bioconda/flaimapper.svg?style=flat
    :alt:   (downloads)
 .. |docker_flaimapper| image:: https://quay.io/repository/biocontainers/flaimapper/status
    :target: https://quay.io/repository/biocontainers/flaimapper
+.. _`flaimapper/tags`: https://quay.io/repository/biocontainers/flaimapper?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/flaimapper/README.html
-

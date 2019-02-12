@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hcluster_sg'
 .. highlight: bash
-
 
 hcluster_sg
 ===========
@@ -21,11 +22,11 @@ hcluster_sg
 
    |downloads_hcluster_sg| |docker_hcluster_sg|
 
-   :versions: 0.5.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_hcluster_sg|
+   :versions: 0.5.1-2, 0.5.1-1, 0.5.1-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ hcluster_sg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hcluster_sg
+      docker pull quay.io/repository/biocontainers/hcluster_sg:<tag>
+
+   (see `hcluster_sg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hcluster_sg| conda:required_by:: hcluster_sg
 .. |downloads_hcluster_sg| image:: https://img.shields.io/conda/dn/bioconda/hcluster_sg.svg?style=flat
    :alt:   (downloads)
 .. |docker_hcluster_sg| image:: https://quay.io/repository/biocontainers/hcluster_sg/status
    :target: https://quay.io/repository/biocontainers/hcluster_sg
+.. _`hcluster_sg/tags`: https://quay.io/repository/biocontainers/hcluster_sg?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hcluster_sg/README.html
-

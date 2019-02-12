@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-elmer'
 .. highlight: bash
-
 
 bioconductor-elmer
 ==================
@@ -21,11 +22,75 @@ bioconductor-elmer
 
    |downloads_bioconductor-elmer| |docker_bioconductor-elmer|
 
-   :versions: 2.6.1, 2.4.4
-
-   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-complexheatmap` >=1.20.0,<1.21.0 :conda:package:`bioconductor-elmer.data` >=2.6.0,<2.7.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-gviz` >=1.26.0,<1.27.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-multiassayexperiment` >=1.8.0,<1.9.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-tcgabiolinks` >=2.10.0,<2.11.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-circlize`  :conda:package:`r-doparallel`  :conda:package:`r-downloader`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-gridextra`  :conda:package:`r-lattice`  :conda:package:`r-magrittr`  :conda:package:`r-matrix`  :conda:package:`r-plotly`  :conda:package:`r-plyr`  :conda:package:`r-readr`  :conda:package:`r-reshape`  :conda:package:`r-rmarkdown`  :conda:package:`r-rvest`  :conda:package:`r-stringr`  :conda:package:`r-tibble`  :conda:package:`r-tidyr`  :conda:package:`r-xml2`  
-
-   :required~by: |required_by_bioconductor-elmer|
+   :versions: 2.6.1-0, 2.4.4-1, 2.4.4-0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
+   
+   :depends bioconductor-elmer.data: >=2.6.0,<2.7.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-gviz: >=1.26.0,<1.27.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-multiassayexperiment: >=1.8.0,<1.9.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends bioconductor-tcgabiolinks: >=2.10.0,<2.11.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-circlize: 
+   
+   :depends r-doparallel: 
+   
+   :depends r-downloader: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggrepel: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-lattice: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-matrix: 
+   
+   :depends r-plotly: 
+   
+   :depends r-plyr: 
+   
+   :depends r-readr: 
+   
+   :depends r-reshape: 
+   
+   :depends r-rmarkdown: 
+   
+   :depends r-rvest: 
+   
+   :depends r-stringr: 
+   
+   :depends r-tibble: 
+   
+   :depends r-tidyr: 
+   
+   :depends r-xml2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +104,16 @@ bioconductor-elmer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-elmer
+      docker pull quay.io/repository/biocontainers/bioconductor-elmer:<tag>
+
+   (see `bioconductor-elmer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-elmer| conda:required_by:: bioconductor-elmer
 .. |downloads_bioconductor-elmer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-elmer.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-elmer| image:: https://quay.io/repository/biocontainers/bioconductor-elmer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-elmer
+.. _`bioconductor-elmer/tags`: https://quay.io/repository/biocontainers/bioconductor-elmer?tab=tags
 
 
 
@@ -63,4 +130,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-elmer/README.html
-

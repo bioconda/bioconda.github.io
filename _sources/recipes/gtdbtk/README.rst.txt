@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gtdbtk'
 .. highlight: bash
-
 
 gtdbtk
 ======
@@ -21,11 +22,33 @@ gtdbtk
 
    |downloads_gtdbtk| |docker_gtdbtk|
 
-   :versions: 0.1.6, 0.1.5, 0.1.3
-
-   :depends: :conda:package:`biolib` >=0.0.43 :conda:package:`dendropy` >=4.1.0 :conda:package:`fastani`  :conda:package:`fasttree`  :conda:package:`hmmer`  :conda:package:`jinja2` >=2.7.3 :conda:package:`mpld3` >=0.2 :conda:package:`perl-gtdbtk`  :conda:package:`pplacer`  :conda:package:`prodigal`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
-
-   :required~by: |required_by_gtdbtk|
+   :versions: 0.1.6-0, 0.1.5-0, 0.1.3-0
+   
+   :depends biolib: >=0.0.43
+   
+   :depends dendropy: >=4.1.0
+   
+   :depends fastani: 
+   
+   :depends fasttree: 
+   
+   :depends hmmer: 
+   
+   :depends jinja2: >=2.7.3
+   
+   :depends mpld3: >=0.2
+   
+   :depends perl-gtdbtk: 
+   
+   :depends pplacer: 
+   
+   :depends prodigal: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ gtdbtk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gtdbtk
+      docker pull quay.io/repository/biocontainers/gtdbtk:<tag>
+
+   (see `gtdbtk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gtdbtk| conda:required_by:: gtdbtk
 .. |downloads_gtdbtk| image:: https://img.shields.io/conda/dn/bioconda/gtdbtk.svg?style=flat
    :alt:   (downloads)
 .. |docker_gtdbtk| image:: https://quay.io/repository/biocontainers/gtdbtk/status
    :target: https://quay.io/repository/biocontainers/gtdbtk
+.. _`gtdbtk/tags`: https://quay.io/repository/biocontainers/gtdbtk?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gtdbtk/README.html
-

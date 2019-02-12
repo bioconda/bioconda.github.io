@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nanoblaster'
 .. highlight: bash
-
 
 nanoblaster
 ===========
@@ -21,11 +22,11 @@ nanoblaster
 
    |downloads_nanoblaster| |docker_nanoblaster|
 
-   :versions: 0.16
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_nanoblaster|
+   :versions: 0.16-1, 0.16-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ nanoblaster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanoblaster
+      docker pull quay.io/repository/biocontainers/nanoblaster:<tag>
+
+   (see `nanoblaster/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nanoblaster| conda:required_by:: nanoblaster
 .. |downloads_nanoblaster| image:: https://img.shields.io/conda/dn/bioconda/nanoblaster.svg?style=flat
    :alt:   (downloads)
 .. |docker_nanoblaster| image:: https://quay.io/repository/biocontainers/nanoblaster/status
    :target: https://quay.io/repository/biocontainers/nanoblaster
+.. _`nanoblaster/tags`: https://quay.io/repository/biocontainers/nanoblaster?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nanoblaster/README.html
-

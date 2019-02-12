@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-requiresinternet'
 .. highlight: bash
-
 
 perl-test-requiresinternet
 ==========================
@@ -21,11 +22,13 @@ perl-test-requiresinternet
 
    |downloads_perl-test-requiresinternet| |docker_perl-test-requiresinternet|
 
-   :versions: 0.05
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-socket`  
-
-   :required~by: |required_by_perl-test-requiresinternet|
+   :versions: 0.05-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-socket: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-test-requiresinternet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-requiresinternet
+      docker pull quay.io/repository/biocontainers/perl-test-requiresinternet:<tag>
+
+   (see `perl-test-requiresinternet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-requiresinternet| conda:required_by:: perl-test-requiresinternet
 .. |downloads_perl-test-requiresinternet| image:: https://img.shields.io/conda/dn/bioconda/perl-test-requiresinternet.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-requiresinternet| image:: https://quay.io/repository/biocontainers/perl-test-requiresinternet/status
    :target: https://quay.io/repository/biocontainers/perl-test-requiresinternet
+.. _`perl-test-requiresinternet/tags`: https://quay.io/repository/biocontainers/perl-test-requiresinternet?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-requiresinternet/README.html
-

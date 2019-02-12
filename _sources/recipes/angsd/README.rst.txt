@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'angsd'
 .. highlight: bash
-
 
 angsd
 =====
@@ -22,11 +23,15 @@ angsd
 
    |downloads_angsd| |docker_angsd|
 
-   :versions: 0.923, 0.921, 0.910
-
-   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_angsd|
+   :versions: 0.923-0, 0.921-2, 0.921-1, 0.921-0, 0.910-0
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ angsd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/angsd
+      docker pull quay.io/repository/biocontainers/angsd:<tag>
+
+   (see `angsd/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_angsd| conda:required_by:: angsd
 .. |downloads_angsd| image:: https://img.shields.io/conda/dn/bioconda/angsd.svg?style=flat
    :alt:   (downloads)
 .. |docker_angsd| image:: https://quay.io/repository/biocontainers/angsd/status
    :target: https://quay.io/repository/biocontainers/angsd
+.. _`angsd/tags`: https://quay.io/repository/biocontainers/angsd?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/angsd/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'slncky'
 .. highlight: bash
-
 
 slncky
 ======
@@ -21,11 +22,19 @@ slncky
 
    |downloads_slncky| |docker_slncky|
 
-   :versions: 1.0.4, 1.0.3
-
-   :depends: :conda:package:`bedtools` >=2.17.0,<=2.24.0 :conda:package:`lastz`  :conda:package:`python` <3 :conda:package:`ucsc-liftover`  
-
-   :required~by: |required_by_slncky|
+   :versions: 1.0.4-1, 1.0.4-0, 1.0.3-0
+   
+   :depends bedtools: >=2.17.0,<=2.24.0
+   
+   :depends lastz: 
+   
+   :depends numpy: 
+   
+   :depends python: <3
+   
+   :depends ucsc-liftover: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ slncky
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/slncky
+      docker pull quay.io/repository/biocontainers/slncky:<tag>
+
+   (see `slncky/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_slncky| conda:required_by:: slncky
 .. |downloads_slncky| image:: https://img.shields.io/conda/dn/bioconda/slncky.svg?style=flat
    :alt:   (downloads)
 .. |docker_slncky| image:: https://quay.io/repository/biocontainers/slncky/status
    :target: https://quay.io/repository/biocontainers/slncky
+.. _`slncky/tags`: https://quay.io/repository/biocontainers/slncky?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/slncky/README.html
-

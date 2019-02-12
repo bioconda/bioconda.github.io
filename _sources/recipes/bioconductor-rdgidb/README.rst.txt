@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rdgidb'
 .. highlight: bash
-
 
 bioconductor-rdgidb
 ===================
@@ -22,11 +23,15 @@ bioconductor-rdgidb
 
    |downloads_bioconductor-rdgidb| |docker_bioconductor-rdgidb|
 
-   :versions: 1.8.0, 1.6.0, 1.4.1, 1.2.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-httr`  :conda:package:`r-jsonlite`  
-
-   :required~by: |required_by_bioconductor-rdgidb|
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.1-0, 1.2.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-httr: 
+   
+   :depends r-jsonlite: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-rdgidb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rdgidb
+      docker pull quay.io/repository/biocontainers/bioconductor-rdgidb:<tag>
+
+   (see `bioconductor-rdgidb/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rdgidb| conda:required_by:: bioconductor-rdgidb
 .. |downloads_bioconductor-rdgidb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rdgidb.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rdgidb| image:: https://quay.io/repository/biocontainers/bioconductor-rdgidb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rdgidb
+.. _`bioconductor-rdgidb/tags`: https://quay.io/repository/biocontainers/bioconductor-rdgidb?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rdgidb/README.html
-

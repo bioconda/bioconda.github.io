@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-zfpkm'
 .. highlight: bash
-
 
 bioconductor-zfpkm
 ==================
@@ -21,11 +22,21 @@ bioconductor-zfpkm
 
    |downloads_bioconductor-zfpkm| |docker_bioconductor-zfpkm|
 
-   :versions: 1.4.0, 1.2.0, 1.0.0
-
-   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-checkmate`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_bioconductor-zfpkm|
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-checkmate: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-zfpkm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-zfpkm
+      docker pull quay.io/repository/biocontainers/bioconductor-zfpkm:<tag>
+
+   (see `bioconductor-zfpkm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-zfpkm| conda:required_by:: bioconductor-zfpkm
 .. |downloads_bioconductor-zfpkm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-zfpkm.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-zfpkm| image:: https://quay.io/repository/biocontainers/bioconductor-zfpkm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-zfpkm
+.. _`bioconductor-zfpkm/tags`: https://quay.io/repository/biocontainers/bioconductor-zfpkm?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-zfpkm/README.html
-

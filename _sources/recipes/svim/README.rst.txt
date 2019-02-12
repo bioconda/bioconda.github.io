@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'svim'
 .. highlight: bash
-
 
 svim
 ====
@@ -21,11 +22,29 @@ svim
 
    |downloads_svim| |docker_svim|
 
-   :versions: 0.4.3, 0.4.2, 0.4.1
-
-   :depends: :conda:package:`biopython`  :conda:package:`matplotlib`  :conda:package:`minimap2`  :conda:package:`networkx`  :conda:package:`ngmlr`  :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` 3.6.* :conda:package:`samtools`  :conda:package:`scipy`  
-
-   :required~by: |required_by_svim|
+   :versions: 0.4.3-0, 0.4.2-0, 0.4.1-0
+   
+   :depends biopython: 
+   
+   :depends matplotlib: 
+   
+   :depends minimap2: 
+   
+   :depends networkx: 
+   
+   :depends ngmlr: 
+   
+   :depends numpy: 
+   
+   :depends pysam: 
+   
+   :depends python: 3.6.*
+   
+   :depends samtools: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ svim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/svim
+      docker pull quay.io/repository/biocontainers/svim:<tag>
+
+   (see `svim/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_svim| conda:required_by:: svim
 .. |downloads_svim| image:: https://img.shields.io/conda/dn/bioconda/svim.svg?style=flat
    :alt:   (downloads)
 .. |docker_svim| image:: https://quay.io/repository/biocontainers/svim/status
    :target: https://quay.io/repository/biocontainers/svim
+.. _`svim/tags`: https://quay.io/repository/biocontainers/svim?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/svim/README.html
-

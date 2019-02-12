@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'addrg'
 .. highlight: bash
-
 
 addrg
 =====
@@ -21,11 +22,13 @@ addrg
 
    |downloads_addrg| |docker_addrg|
 
-   :versions: 0.2.1, 0.2, 0.1
-
-   :depends: :conda:package:`htslib` >=1.0.0 :conda:package:`libgcc`  
-
-   :required~by: |required_by_addrg|
+   :versions: 0.2.1-3, 0.2.1-2, 0.2.1-1, 0.2.1-0, 0.2-0, 0.1-0
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ addrg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/addrg
+      docker pull quay.io/repository/biocontainers/addrg:<tag>
+
+   (see `addrg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_addrg| conda:required_by:: addrg
 .. |downloads_addrg| image:: https://img.shields.io/conda/dn/bioconda/addrg.svg?style=flat
    :alt:   (downloads)
 .. |docker_addrg| image:: https://quay.io/repository/biocontainers/addrg/status
    :target: https://quay.io/repository/biocontainers/addrg
+.. _`addrg/tags`: https://quay.io/repository/biocontainers/addrg?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/addrg/README.html
-

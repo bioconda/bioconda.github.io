@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'portcullis'
 .. highlight: bash
-
 
 portcullis
 ==========
@@ -21,11 +22,23 @@ portcullis
 
    |downloads_portcullis| |docker_portcullis|
 
-   :versions: 1.1.1, 1.1.0
-
-   :depends: :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 3.5* :conda:package:`samtools`  :conda:package:`tabulate`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_portcullis|
+   :versions: 1.1.1-3, 1.1.0-0
+   
+   :depends libgcc: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: 3.5*
+   
+   :depends samtools: 
+   
+   :depends tabulate: 
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ portcullis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/portcullis
+      docker pull quay.io/repository/biocontainers/portcullis:<tag>
+
+   (see `portcullis/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_portcullis| conda:required_by:: portcullis
 .. |downloads_portcullis| image:: https://img.shields.io/conda/dn/bioconda/portcullis.svg?style=flat
    :alt:   (downloads)
 .. |docker_portcullis| image:: https://quay.io/repository/biocontainers/portcullis/status
    :target: https://quay.io/repository/biocontainers/portcullis
+.. _`portcullis/tags`: https://quay.io/repository/biocontainers/portcullis?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/portcullis/README.html
-

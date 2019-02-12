@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-estscan1'
 .. highlight: bash
-
 
 perl-estscan1
 =============
@@ -21,11 +22,13 @@ perl-estscan1
 
    |downloads_perl-estscan1| |docker_perl-estscan1|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`perl-btlib`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-estscan1|
+   :versions: 1.3-1, 1.3-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-btlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-estscan1
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-estscan1
+      docker pull quay.io/repository/biocontainers/perl-estscan1:<tag>
+
+   (see `perl-estscan1/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-estscan1| conda:required_by:: perl-estscan1
 .. |downloads_perl-estscan1| image:: https://img.shields.io/conda/dn/bioconda/perl-estscan1.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-estscan1| image:: https://quay.io/repository/biocontainers/perl-estscan1/status
    :target: https://quay.io/repository/biocontainers/perl-estscan1
+.. _`perl-estscan1/tags`: https://quay.io/repository/biocontainers/perl-estscan1?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-estscan1/README.html
-

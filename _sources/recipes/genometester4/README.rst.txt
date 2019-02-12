@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genometester4'
 .. highlight: bash
-
 
 genometester4
 =============
@@ -22,11 +23,11 @@ genometester4
 
    |downloads_genometester4| |docker_genometester4|
 
-   :versions: 4.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_genometester4|
+   :versions: 4.0-1, 4.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ genometester4
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genometester4
+      docker pull quay.io/repository/biocontainers/genometester4:<tag>
+
+   (see `genometester4/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genometester4| conda:required_by:: genometester4
 .. |downloads_genometester4| image:: https://img.shields.io/conda/dn/bioconda/genometester4.svg?style=flat
    :alt:   (downloads)
 .. |docker_genometester4| image:: https://quay.io/repository/biocontainers/genometester4/status
    :target: https://quay.io/repository/biocontainers/genometester4
+.. _`genometester4/tags`: https://quay.io/repository/biocontainers/genometester4?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genometester4/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cellscape'
 .. highlight: bash
-
 
 bioconductor-cellscape
 ======================
@@ -21,11 +22,25 @@ bioconductor-cellscape
 
    |downloads_bioconductor-cellscape| |docker_bioconductor-cellscape|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr` >=0.4.3 :conda:package:`r-gtools` >=3.5.0 :conda:package:`r-htmlwidgets` >=0.5 :conda:package:`r-jsonlite` >=0.9.19 :conda:package:`r-plyr` >=1.8.3 :conda:package:`r-reshape2` >=1.4.1 :conda:package:`r-stringr` >=1.0.0 
-
-   :required~by: |required_by_bioconductor-cellscape|
+   :versions: 1.6.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: >=0.4.3
+   
+   :depends r-gtools: >=3.5.0
+   
+   :depends r-htmlwidgets: >=0.5
+   
+   :depends r-jsonlite: >=0.9.19
+   
+   :depends r-plyr: >=1.8.3
+   
+   :depends r-reshape2: >=1.4.1
+   
+   :depends r-stringr: >=1.0.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bioconductor-cellscape
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cellscape
+      docker pull quay.io/repository/biocontainers/bioconductor-cellscape:<tag>
+
+   (see `bioconductor-cellscape/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cellscape| conda:required_by:: bioconductor-cellscape
 .. |downloads_bioconductor-cellscape| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cellscape.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cellscape| image:: https://quay.io/repository/biocontainers/bioconductor-cellscape/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cellscape
+.. _`bioconductor-cellscape/tags`: https://quay.io/repository/biocontainers/bioconductor-cellscape?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cellscape/README.html
-

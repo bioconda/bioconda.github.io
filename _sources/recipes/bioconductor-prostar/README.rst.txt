@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-prostar'
 .. highlight: bash
-
 
 bioconductor-prostar
 ====================
@@ -21,11 +22,61 @@ bioconductor-prostar
 
    |downloads_bioconductor-prostar| |docker_bioconductor-prostar|
 
-   :versions: 1.14.8
-
-   :depends: :conda:package:`bioconductor-dapar` >=1.14.0,<1.15.0 :conda:package:`bioconductor-dapardata` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biocmanager`  :conda:package:`r-colourpicker`  :conda:package:`r-data.table`  :conda:package:`r-dt`  :conda:package:`r-future`  :conda:package:`r-highcharter`  :conda:package:`r-htmlwidgets`  :conda:package:`r-later`  :conda:package:`r-promises`  :conda:package:`r-r.utils`  :conda:package:`r-rclipboard`  :conda:package:`r-rhandsontable`  :conda:package:`r-shiny`  :conda:package:`r-shinyace`  :conda:package:`r-shinybs`  :conda:package:`r-shinycssloaders`  :conda:package:`r-shinyjqui`  :conda:package:`r-shinyjs`  :conda:package:`r-shinythemes`  :conda:package:`r-shinytree`  :conda:package:`r-shinywidgets`  :conda:package:`r-webshot`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-prostar|
+   :versions: 1.14.8-0
+   
+   :depends bioconductor-dapar: >=1.14.0,<1.15.0
+   
+   :depends bioconductor-dapardata: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-biocmanager: 
+   
+   :depends r-colourpicker: 
+   
+   :depends r-data.table: 
+   
+   :depends r-dt: 
+   
+   :depends r-future: 
+   
+   :depends r-highcharter: 
+   
+   :depends r-htmlwidgets: 
+   
+   :depends r-later: 
+   
+   :depends r-promises: 
+   
+   :depends r-r.utils: 
+   
+   :depends r-rclipboard: 
+   
+   :depends r-rhandsontable: 
+   
+   :depends r-shiny: 
+   
+   :depends r-shinyace: 
+   
+   :depends r-shinybs: 
+   
+   :depends r-shinycssloaders: 
+   
+   :depends r-shinyjqui: 
+   
+   :depends r-shinyjs: 
+   
+   :depends r-shinythemes: 
+   
+   :depends r-shinytree: 
+   
+   :depends r-shinywidgets: 
+   
+   :depends r-webshot: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +90,16 @@ bioconductor-prostar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-prostar
+      docker pull quay.io/repository/biocontainers/bioconductor-prostar:<tag>
+
+   (see `bioconductor-prostar/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-prostar| conda:required_by:: bioconductor-prostar
 .. |downloads_bioconductor-prostar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prostar.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-prostar| image:: https://quay.io/repository/biocontainers/bioconductor-prostar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prostar
+.. _`bioconductor-prostar/tags`: https://quay.io/repository/biocontainers/bioconductor-prostar?tab=tags
 
 
 
@@ -63,4 +116,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-prostar/README.html
-

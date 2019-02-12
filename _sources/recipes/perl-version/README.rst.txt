@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-version'
 .. highlight: bash
-
 
 perl-version
 ============
@@ -21,11 +22,11 @@ perl-version
 
    |downloads_perl-version| |docker_perl-version|
 
-   :versions: 0.9924
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 
-
-   :required~by: |required_by_perl-version|
+   :versions: 0.9924-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-version
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-version
+      docker pull quay.io/repository/biocontainers/perl-version:<tag>
+
+   (see `perl-version/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-version| conda:required_by:: perl-version
 .. |downloads_perl-version| image:: https://img.shields.io/conda/dn/bioconda/perl-version.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-version| image:: https://quay.io/repository/biocontainers/perl-version/status
    :target: https://quay.io/repository/biocontainers/perl-version
+.. _`perl-version/tags`: https://quay.io/repository/biocontainers/perl-version?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-version/README.html
-

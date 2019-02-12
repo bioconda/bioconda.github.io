@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sigfeature'
 .. highlight: bash
-
 
 bioconductor-sigfeature
 =======================
@@ -21,11 +22,31 @@ bioconductor-sigfeature
 
    |downloads_bioconductor-sigfeature| |docker_bioconductor-sigfeature|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-biocviews` >=1.50.0,<1.51.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-matrix`  :conda:package:`r-nlme`  :conda:package:`r-openxlsx`  :conda:package:`r-pheatmap`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-sparsem`  
-
-   :required~by: |required_by_bioconductor-sigfeature|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-biocviews: >=1.50.0,<1.51.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-e1071: 
+   
+   :depends r-matrix: 
+   
+   :depends r-nlme: 
+   
+   :depends r-openxlsx: 
+   
+   :depends r-pheatmap: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-sparsem: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ bioconductor-sigfeature
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sigfeature
+      docker pull quay.io/repository/biocontainers/bioconductor-sigfeature:<tag>
+
+   (see `bioconductor-sigfeature/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sigfeature| conda:required_by:: bioconductor-sigfeature
 .. |downloads_bioconductor-sigfeature| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sigfeature.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sigfeature| image:: https://quay.io/repository/biocontainers/bioconductor-sigfeature/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sigfeature
+.. _`bioconductor-sigfeature/tags`: https://quay.io/repository/biocontainers/bioconductor-sigfeature?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sigfeature/README.html
-

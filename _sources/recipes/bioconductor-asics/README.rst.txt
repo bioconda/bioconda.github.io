@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-asics'
 .. highlight: bash
-
 
 bioconductor-asics
 ==================
@@ -21,11 +22,29 @@ bioconductor-asics
 
    |downloads_bioconductor-asics| |docker_bioconductor-asics|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-ropls` >=1.14.0,<1.15.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-plyr`  :conda:package:`r-quadprog`  :conda:package:`r-speaq`  :conda:package:`r-zoo`  
-
-   :required~by: |required_by_bioconductor-asics|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-ropls: >=1.14.0,<1.15.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-plyr: 
+   
+   :depends r-quadprog: 
+   
+   :depends r-speaq: 
+   
+   :depends r-zoo: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ bioconductor-asics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-asics
+      docker pull quay.io/repository/biocontainers/bioconductor-asics:<tag>
+
+   (see `bioconductor-asics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-asics| conda:required_by:: bioconductor-asics
 .. |downloads_bioconductor-asics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-asics.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-asics| image:: https://quay.io/repository/biocontainers/bioconductor-asics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-asics
+.. _`bioconductor-asics/tags`: https://quay.io/repository/biocontainers/bioconductor-asics?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-asics/README.html
-

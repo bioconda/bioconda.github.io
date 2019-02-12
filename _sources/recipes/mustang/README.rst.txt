@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mustang'
 .. highlight: bash
-
 
 mustang
 =======
@@ -22,11 +23,11 @@ mustang
 
    |downloads_mustang| |docker_mustang|
 
-   :versions: 3.2.3
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_mustang|
+   :versions: 3.2.3-1, 3.2.3-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ mustang
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mustang
+      docker pull quay.io/repository/biocontainers/mustang:<tag>
+
+   (see `mustang/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mustang| conda:required_by:: mustang
 .. |downloads_mustang| image:: https://img.shields.io/conda/dn/bioconda/mustang.svg?style=flat
    :alt:   (downloads)
 .. |docker_mustang| image:: https://quay.io/repository/biocontainers/mustang/status
    :target: https://quay.io/repository/biocontainers/mustang
+.. _`mustang/tags`: https://quay.io/repository/biocontainers/mustang?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mustang/README.html
-

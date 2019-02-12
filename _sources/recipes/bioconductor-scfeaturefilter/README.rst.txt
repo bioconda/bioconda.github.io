@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-scfeaturefilter'
 .. highlight: bash
-
 
 bioconductor-scfeaturefilter
 ============================
@@ -21,11 +22,21 @@ bioconductor-scfeaturefilter
 
    |downloads_bioconductor-scfeaturefilter| |docker_bioconductor-scfeaturefilter|
 
-   :versions: 1.2.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr` >=0.7.3 :conda:package:`r-ggplot2` >=2.1.0 :conda:package:`r-magrittr` >=1.5 :conda:package:`r-rlang` >=0.1.2 :conda:package:`r-tibble` >=1.3.4 
-
-   :required~by: |required_by_bioconductor-scfeaturefilter|
+   :versions: 1.2.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: >=0.7.3
+   
+   :depends r-ggplot2: >=2.1.0
+   
+   :depends r-magrittr: >=1.5
+   
+   :depends r-rlang: >=0.1.2
+   
+   :depends r-tibble: >=1.3.4
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-scfeaturefilter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scfeaturefilter
+      docker pull quay.io/repository/biocontainers/bioconductor-scfeaturefilter:<tag>
+
+   (see `bioconductor-scfeaturefilter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-scfeaturefilter| conda:required_by:: bioconductor-scfeaturefilter
 .. |downloads_bioconductor-scfeaturefilter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scfeaturefilter.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-scfeaturefilter| image:: https://quay.io/repository/biocontainers/bioconductor-scfeaturefilter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scfeaturefilter
+.. _`bioconductor-scfeaturefilter/tags`: https://quay.io/repository/biocontainers/bioconductor-scfeaturefilter?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-scfeaturefilter/README.html
-

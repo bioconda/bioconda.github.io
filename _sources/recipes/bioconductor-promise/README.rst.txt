@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-promise'
 .. highlight: bash
-
 
 bioconductor-promise
 ====================
@@ -22,11 +23,15 @@ bioconductor-promise
 
    |downloads_bioconductor-promise| |docker_bioconductor-promise|
 
-   :versions: 1.34.0, 1.32.0, 1.30.0, 1.28.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-promise|
+   :versions: 1.34.0-0, 1.32.0-0, 1.30.0-0, 1.28.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-gseabase: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-promise
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-promise
+      docker pull quay.io/repository/biocontainers/bioconductor-promise:<tag>
+
+   (see `bioconductor-promise/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-promise| conda:required_by:: bioconductor-promise
 .. |downloads_bioconductor-promise| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-promise.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-promise| image:: https://quay.io/repository/biocontainers/bioconductor-promise/status
    :target: https://quay.io/repository/biocontainers/bioconductor-promise
+.. _`bioconductor-promise/tags`: https://quay.io/repository/biocontainers/bioconductor-promise?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-promise/README.html
-

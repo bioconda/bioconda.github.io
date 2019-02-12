@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-clusterprofiler'
 .. highlight: bash
-
 
 bioconductor-clusterprofiler
 ============================
@@ -22,11 +23,33 @@ bioconductor-clusterprofiler
 
    |downloads_bioconductor-clusterprofiler| |docker_bioconductor-clusterprofiler|
 
-   :versions: 3.10.1, 3.8.1, 3.6.0, 3.4.4, 3.0.5, 3.0.4, 2.4.3
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-dose` >=3.8.0,<3.9.0 :conda:package:`bioconductor-enrichplot` >=1.2.0,<1.3.0 :conda:package:`bioconductor-go.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-gosemsim` >=2.8.0,<2.9.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-magrittr`  :conda:package:`r-plyr`  :conda:package:`r-rvcheck`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_bioconductor-clusterprofiler|
+   :versions: 3.10.1-0, 3.8.1-0, 3.6.0-0, 3.4.4-0, 3.0.5-0, 3.0.4-1, 2.4.3-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-dose: >=3.8.0,<3.9.0
+   
+   :depends bioconductor-enrichplot: >=1.2.0,<1.3.0
+   
+   :depends bioconductor-go.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-gosemsim: >=2.8.0,<2.9.0
+   
+   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rvcheck: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +63,16 @@ bioconductor-clusterprofiler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clusterprofiler
+      docker pull quay.io/repository/biocontainers/bioconductor-clusterprofiler:<tag>
+
+   (see `bioconductor-clusterprofiler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-clusterprofiler| conda:required_by:: bioconductor-clusterprofiler
 .. |downloads_bioconductor-clusterprofiler| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clusterprofiler.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-clusterprofiler| image:: https://quay.io/repository/biocontainers/bioconductor-clusterprofiler/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clusterprofiler
+.. _`bioconductor-clusterprofiler/tags`: https://quay.io/repository/biocontainers/bioconductor-clusterprofiler?tab=tags
 
 
 
@@ -64,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-clusterprofiler/README.html
-

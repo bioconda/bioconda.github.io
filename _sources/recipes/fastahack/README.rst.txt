@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastahack'
 .. highlight: bash
-
 
 fastahack
 =========
@@ -21,11 +22,11 @@ fastahack
 
    |downloads_fastahack| |docker_fastahack|
 
-   :versions: 2016.07.2
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_fastahack|
+   :versions: 2016.07.2-1, 2016.07.2-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ fastahack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastahack
+      docker pull quay.io/repository/biocontainers/fastahack:<tag>
+
+   (see `fastahack/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastahack| conda:required_by:: fastahack
 .. |downloads_fastahack| image:: https://img.shields.io/conda/dn/bioconda/fastahack.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastahack| image:: https://quay.io/repository/biocontainers/fastahack/status
    :target: https://quay.io/repository/biocontainers/fastahack
+.. _`fastahack/tags`: https://quay.io/repository/biocontainers/fastahack?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastahack/README.html
-

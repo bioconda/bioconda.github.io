@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-birewire'
 .. highlight: bash
-
 
 bioconductor-birewire
 =====================
@@ -22,11 +23,21 @@ bioconductor-birewire
 
    |downloads_bioconductor-birewire| |docker_bioconductor-birewire|
 
-   :versions: 3.14.0, 3.12.0, 3.10.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-slam`  :conda:package:`r-tsne`  
-
-   :required~by: |required_by_bioconductor-birewire|
+   :versions: 3.14.0-0, 3.12.0-0, 3.10.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-igraph: 
+   
+   :depends r-matrix: 
+   
+   :depends r-slam: 
+   
+   :depends r-tsne: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-birewire
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-birewire
+      docker pull quay.io/repository/biocontainers/bioconductor-birewire:<tag>
+
+   (see `bioconductor-birewire/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-birewire| conda:required_by:: bioconductor-birewire
 .. |downloads_bioconductor-birewire| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-birewire.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-birewire| image:: https://quay.io/repository/biocontainers/bioconductor-birewire/status
    :target: https://quay.io/repository/biocontainers/bioconductor-birewire
+.. _`bioconductor-birewire/tags`: https://quay.io/repository/biocontainers/bioconductor-birewire?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-birewire/README.html
-

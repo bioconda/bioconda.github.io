@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'scvi'
 .. highlight: bash
-
 
 scvi
 ====
@@ -23,11 +24,41 @@ scvi
 
    |downloads_scvi| |docker_scvi|
 
-   :versions: 0.2.4, 0.2.3, 0.2.2, 0.2.1, 0.2.0, 0.1.6, 0.1.5, 0.1.4, 0.1.3, 0.1.2
-
-   :depends: :conda:package:`anndata` >=0.6 :conda:package:`h5py` >=2.8 :conda:package:`ipython` >=7 :conda:package:`jupyter` >=1.0.0 :conda:package:`loompy` 2.0.9 :conda:package:`matplotlib` >=2.0 :conda:package:`nbconvert` >=5.4.0 :conda:package:`nbformat` >=4.4.0 :conda:package:`numpy` >=1.0 :conda:package:`pandas` >=0.2 :conda:package:`python` >=3.6 :conda:package:`pytorch` >=0.4.1 :conda:package:`scikit-learn` >=0.18 :conda:package:`scipy` >=1.1 :conda:package:`tqdm` >=4 :conda:package:`xlrd` >=1.0 
-
-   :required~by: |required_by_scvi|
+   :versions: 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.3-0, 0.1.2-0
+   
+   :depends anndata: >=0.6
+   
+   :depends h5py: >=2.8
+   
+   :depends ipython: >=7
+   
+   :depends jupyter: >=1.0.0
+   
+   :depends loompy: 2.0.9
+   
+   :depends matplotlib: >=2.0
+   
+   :depends nbconvert: >=5.4.0
+   
+   :depends nbformat: >=4.4.0
+   
+   :depends numpy: >=1.0
+   
+   :depends pandas: >=0.2
+   
+   :depends python: >=3.6
+   
+   :depends pytorch: >=0.4.1
+   
+   :depends scikit-learn: >=0.18
+   
+   :depends scipy: >=1.1
+   
+   :depends tqdm: >=4
+   
+   :depends xlrd: >=1.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +72,16 @@ scvi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scvi
+      docker pull quay.io/repository/biocontainers/scvi:<tag>
+
+   (see `scvi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_scvi| conda:required_by:: scvi
 .. |downloads_scvi| image:: https://img.shields.io/conda/dn/bioconda/scvi.svg?style=flat
    :alt:   (downloads)
 .. |docker_scvi| image:: https://quay.io/repository/biocontainers/scvi/status
    :target: https://quay.io/repository/biocontainers/scvi
+.. _`scvi/tags`: https://quay.io/repository/biocontainers/scvi?tab=tags
 
 
 
@@ -65,4 +98,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/scvi/README.html
-

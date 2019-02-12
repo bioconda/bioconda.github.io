@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dig2'
 .. highlight: bash
-
 
 dig2
 ====
@@ -22,11 +23,11 @@ dig2
 
    |downloads_dig2| |docker_dig2|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_dig2|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ dig2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dig2
+      docker pull quay.io/repository/biocontainers/dig2:<tag>
+
+   (see `dig2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dig2| conda:required_by:: dig2
 .. |downloads_dig2| image:: https://img.shields.io/conda/dn/bioconda/dig2.svg?style=flat
    :alt:   (downloads)
 .. |docker_dig2| image:: https://quay.io/repository/biocontainers/dig2/status
    :target: https://quay.io/repository/biocontainers/dig2
+.. _`dig2/tags`: https://quay.io/repository/biocontainers/dig2?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dig2/README.html
-

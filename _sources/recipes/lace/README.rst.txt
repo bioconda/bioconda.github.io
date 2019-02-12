@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lace'
 .. highlight: bash
-
 
 lace
 ====
@@ -21,11 +22,23 @@ lace
 
    |downloads_lace| |docker_lace|
 
-   :versions: 1.00, 0.99, 0.80
-
-   :depends: :conda:package:`blat`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python`  
-
-   :required~by: |required_by_lace|
+   :versions: 1.00-1, 1.00-0, 0.99-0, 0.80-0
+   
+   :depends blat: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: 
+   
+   :depends networkx: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ lace
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lace
+      docker pull quay.io/repository/biocontainers/lace:<tag>
+
+   (see `lace/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lace| conda:required_by:: lace
 .. |downloads_lace| image:: https://img.shields.io/conda/dn/bioconda/lace.svg?style=flat
    :alt:   (downloads)
 .. |docker_lace| image:: https://quay.io/repository/biocontainers/lace/status
    :target: https://quay.io/repository/biocontainers/lace
+.. _`lace/tags`: https://quay.io/repository/biocontainers/lace?tab=tags
 
 
 
@@ -67,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lace/README.html
-

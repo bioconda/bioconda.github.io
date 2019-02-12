@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rapsearch'
 .. highlight: bash
-
 
 rapsearch
 =========
@@ -22,11 +23,11 @@ rapsearch
 
    |downloads_rapsearch| |docker_rapsearch|
 
-   :versions: 2.24
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_rapsearch|
+   :versions: 2.24-2, 2.24-1, 2.24-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ rapsearch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rapsearch
+      docker pull quay.io/repository/biocontainers/rapsearch:<tag>
+
+   (see `rapsearch/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rapsearch| conda:required_by:: rapsearch
 .. |downloads_rapsearch| image:: https://img.shields.io/conda/dn/bioconda/rapsearch.svg?style=flat
    :alt:   (downloads)
 .. |docker_rapsearch| image:: https://quay.io/repository/biocontainers/rapsearch/status
    :target: https://quay.io/repository/biocontainers/rapsearch
+.. _`rapsearch/tags`: https://quay.io/repository/biocontainers/rapsearch?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rapsearch/README.html
-

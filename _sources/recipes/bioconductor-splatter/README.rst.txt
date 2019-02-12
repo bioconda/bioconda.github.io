@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-splatter'
 .. highlight: bash
-
 
 bioconductor-splatter
 =====================
@@ -21,11 +22,39 @@ bioconductor-splatter
 
    |downloads_bioconductor-splatter| |docker_bioconductor-splatter|
 
-   :versions: 1.6.1, 1.4.3, 1.2.1
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-scater` >=1.10.0,<1.11.0 :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-akima`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-checkmate`  :conda:package:`r-crayon`  :conda:package:`r-fitdistrplus`  :conda:package:`r-ggplot2`  :conda:package:`r-locfit`  :conda:package:`r-matrixstats`  :conda:package:`r-scales`  
-
-   :required~by: |required_by_bioconductor-splatter|
+   :versions: 1.6.1-0, 1.4.3-0, 1.2.1-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-scater: >=1.10.0,<1.11.0
+   
+   :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-akima: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-checkmate: 
+   
+   :depends r-crayon: 
+   
+   :depends r-fitdistrplus: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-locfit: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-scales: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +68,16 @@ bioconductor-splatter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-splatter
+      docker pull quay.io/repository/biocontainers/bioconductor-splatter:<tag>
+
+   (see `bioconductor-splatter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-splatter| conda:required_by:: bioconductor-splatter
 .. |downloads_bioconductor-splatter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-splatter.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-splatter| image:: https://quay.io/repository/biocontainers/bioconductor-splatter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-splatter
+.. _`bioconductor-splatter/tags`: https://quay.io/repository/biocontainers/bioconductor-splatter?tab=tags
 
 
 
@@ -63,4 +94,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-splatter/README.html
-

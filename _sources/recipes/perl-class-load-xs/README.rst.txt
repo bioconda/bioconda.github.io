@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-class-load-xs'
 .. highlight: bash
-
 
 perl-class-load-xs
 ==================
@@ -21,11 +22,17 @@ perl-class-load-xs
 
    |downloads_perl-class-load-xs| |docker_perl-class-load-xs|
 
-   :versions: 0.10, 0.09
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-class-load`  :conda:package:`perl-xsloader`  
-
-   :required~by: |required_by_perl-class-load-xs|
+   :versions: 0.10-0, 0.09-2, 0.09-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-class-load: 
+   
+   :depends perl-xsloader: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-class-load-xs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-class-load-xs
+      docker pull quay.io/repository/biocontainers/perl-class-load-xs:<tag>
+
+   (see `perl-class-load-xs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-class-load-xs| conda:required_by:: perl-class-load-xs
 .. |downloads_perl-class-load-xs| image:: https://img.shields.io/conda/dn/bioconda/perl-class-load-xs.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-class-load-xs| image:: https://quay.io/repository/biocontainers/perl-class-load-xs/status
    :target: https://quay.io/repository/biocontainers/perl-class-load-xs
+.. _`perl-class-load-xs/tags`: https://quay.io/repository/biocontainers/perl-class-load-xs?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-class-load-xs/README.html
-

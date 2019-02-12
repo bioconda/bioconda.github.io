@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ucsc-mktime'
 .. highlight: bash
-
 
 ucsc-mktime
 ===========
@@ -21,11 +22,21 @@ ucsc-mktime
 
    |downloads_ucsc-mktime| |docker_ucsc-mktime|
 
-   :versions: 366, 357
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_ucsc-mktime|
+   :versions: 366-0, 357-2, 357-1, 357-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libpng: >=1.6.34,<1.7.0a0
+   
+   :depends libuuid: 
+   
+   :depends mysql-connector-c: 
+   
+   :depends openssl: >=1.0.2o,<1.0.3a
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ ucsc-mktime
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-mktime
+      docker pull quay.io/repository/biocontainers/ucsc-mktime:<tag>
+
+   (see `ucsc-mktime/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ucsc-mktime| conda:required_by:: ucsc-mktime
 .. |downloads_ucsc-mktime| image:: https://img.shields.io/conda/dn/bioconda/ucsc-mktime.svg?style=flat
    :alt:   (downloads)
 .. |docker_ucsc-mktime| image:: https://quay.io/repository/biocontainers/ucsc-mktime/status
    :target: https://quay.io/repository/biocontainers/ucsc-mktime
+.. _`ucsc-mktime/tags`: https://quay.io/repository/biocontainers/ucsc-mktime?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ucsc-mktime/README.html
-

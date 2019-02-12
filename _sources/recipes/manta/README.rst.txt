@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'manta'
 .. highlight: bash
-
 
 manta
 =====
@@ -22,11 +23,11 @@ manta
 
    |downloads_manta| |docker_manta|
 
-   :versions: 1.5.0, 1.4.0, 1.3.2, 1.3.0, 1.2.1, 1.1.0, 1.0.3, 1.0.0, 0.29.6, 0.29.3, 0.29.1
-
-   :depends: :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_manta|
+   :versions: 1.5.0-0, 1.4.0-1, 1.4.0-0, 1.3.2-0, 1.3.0-0, 1.2.1-0, 1.1.0-0, 1.0.3-0, 1.0.0-0, 0.29.6-0, 0.29.3-0, 0.29.1-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ manta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/manta
+      docker pull quay.io/repository/biocontainers/manta:<tag>
+
+   (see `manta/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_manta| conda:required_by:: manta
 .. |downloads_manta| image:: https://img.shields.io/conda/dn/bioconda/manta.svg?style=flat
    :alt:   (downloads)
 .. |docker_manta| image:: https://quay.io/repository/biocontainers/manta/status
    :target: https://quay.io/repository/biocontainers/manta
+.. _`manta/tags`: https://quay.io/repository/biocontainers/manta?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/manta/README.html
-

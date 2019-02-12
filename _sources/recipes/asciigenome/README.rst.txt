@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'asciigenome'
 .. highlight: bash
-
 
 asciigenome
 ===========
@@ -21,11 +22,13 @@ asciigenome
 
    |downloads_asciigenome| |docker_asciigenome|
 
-   :versions: 1.15.0, 1.14.0, 1.13.0, 1.12.0, 1.8.0, 1.2.0, 1.1.0, 1.0.0, 0.6.4, 0.2.0
-
-   :depends: :conda:package:`openjdk`  :conda:package:`zlib`  
-
-   :required~by: |required_by_asciigenome|
+   :versions: 1.15.0-0, 1.14.0-2, 1.14.0-0, 1.13.0-0, 1.12.0-0, 1.8.0-0, 1.2.0-0, 1.1.0-0, 1.0.0-0, 0.6.4-0, 0.2.0-0
+   
+   :depends openjdk: 
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ asciigenome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/asciigenome
+      docker pull quay.io/repository/biocontainers/asciigenome:<tag>
+
+   (see `asciigenome/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_asciigenome| conda:required_by:: asciigenome
 .. |downloads_asciigenome| image:: https://img.shields.io/conda/dn/bioconda/asciigenome.svg?style=flat
    :alt:   (downloads)
 .. |docker_asciigenome| image:: https://quay.io/repository/biocontainers/asciigenome/status
    :target: https://quay.io/repository/biocontainers/asciigenome
+.. _`asciigenome/tags`: https://quay.io/repository/biocontainers/asciigenome?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/asciigenome/README.html
-

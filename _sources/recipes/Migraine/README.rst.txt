@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'migraine'
 .. highlight: bash
-
 
 migraine
 ========
@@ -22,11 +23,11 @@ migraine
 
    |downloads_migraine| |docker_migraine|
 
-   :versions: 0.5.4, 0.5.2
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_migraine|
+   :versions: 0.5.4-0, 0.5.2-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ migraine
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/migraine
+      docker pull quay.io/repository/biocontainers/migraine:<tag>
+
+   (see `migraine/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_migraine| conda:required_by:: migraine
 .. |downloads_migraine| image:: https://img.shields.io/conda/dn/bioconda/migraine.svg?style=flat
    :alt:   (downloads)
 .. |docker_migraine| image:: https://quay.io/repository/biocontainers/migraine/status
    :target: https://quay.io/repository/biocontainers/migraine
+.. _`migraine/tags`: https://quay.io/repository/biocontainers/migraine?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/migraine/README.html
-

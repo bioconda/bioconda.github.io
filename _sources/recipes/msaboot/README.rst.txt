@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'msaboot'
 .. highlight: bash
-
 
 msaboot
 =======
@@ -21,11 +22,15 @@ msaboot
 
    |downloads_msaboot| |docker_msaboot|
 
-   :versions: 0.1.2, 0.1.1, 0.1.0
-
-   :depends: :conda:package:`biopython`  :conda:package:`numpy`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_msaboot|
+   :versions: 0.1.2-1, 0.1.2-0, 0.1.1-1, 0.1.0-0
+   
+   :depends biopython: 
+   
+   :depends numpy: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ msaboot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/msaboot
+      docker pull quay.io/repository/biocontainers/msaboot:<tag>
+
+   (see `msaboot/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_msaboot| conda:required_by:: msaboot
 .. |downloads_msaboot| image:: https://img.shields.io/conda/dn/bioconda/msaboot.svg?style=flat
    :alt:   (downloads)
 .. |docker_msaboot| image:: https://quay.io/repository/biocontainers/msaboot/status
    :target: https://quay.io/repository/biocontainers/msaboot
+.. _`msaboot/tags`: https://quay.io/repository/biocontainers/msaboot?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/msaboot/README.html
-

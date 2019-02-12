@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-motifstack'
 .. highlight: bash
-
 
 bioconductor-motifstack
 =======================
@@ -22,11 +23,25 @@ bioconductor-motifstack
 
    |downloads_bioconductor-motifstack| |docker_bioconductor-motifstack|
 
-   :versions: 1.26.0, 1.24.1, 1.22.0, 1.20.1, 1.18.0
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-motiv` >=1.38.0,<1.39.0 :conda:package:`r-ade4`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-grimport`  :conda:package:`r-htmlwidgets`  :conda:package:`r-scales`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-motifstack|
+   :versions: 1.26.0-0, 1.24.1-0, 1.22.0-0, 1.20.1-0, 1.18.0-0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-motiv: >=1.38.0,<1.39.0
+   
+   :depends r-ade4: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-grimport: 
+   
+   :depends r-htmlwidgets: 
+   
+   :depends r-scales: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ bioconductor-motifstack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-motifstack
+      docker pull quay.io/repository/biocontainers/bioconductor-motifstack:<tag>
+
+   (see `bioconductor-motifstack/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-motifstack| conda:required_by:: bioconductor-motifstack
 .. |downloads_bioconductor-motifstack| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-motifstack.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-motifstack| image:: https://quay.io/repository/biocontainers/bioconductor-motifstack/status
    :target: https://quay.io/repository/biocontainers/bioconductor-motifstack
+.. _`bioconductor-motifstack/tags`: https://quay.io/repository/biocontainers/bioconductor-motifstack?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-motifstack/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'estmapper'
 .. highlight: bash
-
 
 estmapper
 =========
@@ -21,11 +22,19 @@ estmapper
 
    |downloads_estmapper| |docker_estmapper|
 
-   :versions: 2008
-
-   :depends: :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_estmapper|
+   :versions: 2008-2, 2008-1, 2008-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ estmapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/estmapper
+      docker pull quay.io/repository/biocontainers/estmapper:<tag>
+
+   (see `estmapper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_estmapper| conda:required_by:: estmapper
 .. |downloads_estmapper| image:: https://img.shields.io/conda/dn/bioconda/estmapper.svg?style=flat
    :alt:   (downloads)
 .. |docker_estmapper| image:: https://quay.io/repository/biocontainers/estmapper/status
    :target: https://quay.io/repository/biocontainers/estmapper
+.. _`estmapper/tags`: https://quay.io/repository/biocontainers/estmapper?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/estmapper/README.html
-

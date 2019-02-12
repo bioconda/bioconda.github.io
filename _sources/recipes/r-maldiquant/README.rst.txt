@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-maldiquant'
 .. highlight: bash
-
 
 r-maldiquant
 ============
@@ -21,11 +22,17 @@ r-maldiquant
 
    |downloads_r-maldiquant| |docker_r-maldiquant|
 
-   :versions: 1.18, 1.17, 1.16.4, 1.14
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgfortran` >=3.0 :conda:package:`libgfortran-ng`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
-
-   :required~by: |required_by_r-maldiquant|
+   :versions: 1.18-0, 1.17-0, 1.16.4-0, 1.14-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libgfortran: >=3.0
+   
+   :depends libgfortran-ng: 
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-maldiquant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-maldiquant
+      docker pull quay.io/repository/biocontainers/r-maldiquant:<tag>
+
+   (see `r-maldiquant/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-maldiquant| conda:required_by:: r-maldiquant
 .. |downloads_r-maldiquant| image:: https://img.shields.io/conda/dn/bioconda/r-maldiquant.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-maldiquant| image:: https://quay.io/repository/biocontainers/r-maldiquant/status
    :target: https://quay.io/repository/biocontainers/r-maldiquant
+.. _`r-maldiquant/tags`: https://quay.io/repository/biocontainers/r-maldiquant?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-maldiquant/README.html
-

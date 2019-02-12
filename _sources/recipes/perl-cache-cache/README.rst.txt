@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-cache-cache'
 .. highlight: bash
-
 
 perl-cache-cache
 ================
@@ -21,11 +22,19 @@ perl-cache-cache
 
    |downloads_perl-cache-cache| |docker_perl-cache-cache|
 
-   :versions: 1.08
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-digest-sha1`  :conda:package:`perl-error`  :conda:package:`perl-ipc-sharelite`  :conda:package:`perl-storable`  
-
-   :required~by: |required_by_perl-cache-cache|
+   :versions: 1.08-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-digest-sha1: 
+   
+   :depends perl-error: 
+   
+   :depends perl-ipc-sharelite: 
+   
+   :depends perl-storable: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-cache-cache
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-cache-cache
+      docker pull quay.io/repository/biocontainers/perl-cache-cache:<tag>
+
+   (see `perl-cache-cache/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-cache-cache| conda:required_by:: perl-cache-cache
 .. |downloads_perl-cache-cache| image:: https://img.shields.io/conda/dn/bioconda/perl-cache-cache.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-cache-cache| image:: https://quay.io/repository/biocontainers/perl-cache-cache/status
    :target: https://quay.io/repository/biocontainers/perl-cache-cache
+.. _`perl-cache-cache/tags`: https://quay.io/repository/biocontainers/perl-cache-cache?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-cache-cache/README.html
-

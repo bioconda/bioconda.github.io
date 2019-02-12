@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'monovar'
 .. highlight: bash
-
 
 monovar
 =======
@@ -22,11 +23,17 @@ monovar
 
    |downloads_monovar| |docker_monovar|
 
-   :versions: v0.0.1
-
-   :depends: :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`scipy`  
-
-   :required~by: |required_by_monovar|
+   :versions: v0.0.1-1, v0.0.1-0
+   
+   :depends numpy: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ monovar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/monovar
+      docker pull quay.io/repository/biocontainers/monovar:<tag>
+
+   (see `monovar/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_monovar| conda:required_by:: monovar
 .. |downloads_monovar| image:: https://img.shields.io/conda/dn/bioconda/monovar.svg?style=flat
    :alt:   (downloads)
 .. |docker_monovar| image:: https://quay.io/repository/biocontainers/monovar/status
    :target: https://quay.io/repository/biocontainers/monovar
+.. _`monovar/tags`: https://quay.io/repository/biocontainers/monovar?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/monovar/README.html
-

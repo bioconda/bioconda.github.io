@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-pod-coverage'
 .. highlight: bash
-
 
 perl-pod-coverage
 =================
@@ -21,11 +22,15 @@ perl-pod-coverage
 
    |downloads_perl-pod-coverage| |docker_perl-pod-coverage|
 
-   :versions: 0.23
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-devel-symdump`  :conda:package:`perl-pod-parser`  
-
-   :required~by: |required_by_perl-pod-coverage|
+   :versions: 0.23-2, 0.23-1, 0.23-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-devel-symdump: 
+   
+   :depends perl-pod-parser: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-pod-coverage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pod-coverage
+      docker pull quay.io/repository/biocontainers/perl-pod-coverage:<tag>
+
+   (see `perl-pod-coverage/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-pod-coverage| conda:required_by:: perl-pod-coverage
 .. |downloads_perl-pod-coverage| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-coverage.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-pod-coverage| image:: https://quay.io/repository/biocontainers/perl-pod-coverage/status
    :target: https://quay.io/repository/biocontainers/perl-pod-coverage
+.. _`perl-pod-coverage/tags`: https://quay.io/repository/biocontainers/perl-pod-coverage?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-pod-coverage/README.html
-

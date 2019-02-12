@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-io-compress'
 .. highlight: bash
-
 
 perl-io-compress
 ================
@@ -21,11 +22,21 @@ perl-io-compress
 
    |downloads_perl-io-compress| |docker_perl-io-compress|
 
-   :versions: 2.084, 2.083, 2.081, 2.069
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-compress-raw-bzip2` >=2.084 :conda:package:`perl-compress-raw-zlib` >=2.084 :conda:package:`perl-scalar-list-utils`  
-
-   :required~by: |required_by_perl-io-compress|
+   :versions: 2.084-0, 2.083-0, 2.081-0, 2.069-5, 2.069-4, 2.069-2, 2.069-1
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-compress-raw-bzip2: >=2.084
+   
+   :depends perl-compress-raw-zlib: >=2.084
+   
+   :depends perl-scalar-list-utils: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-io-compress
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-compress
+      docker pull quay.io/repository/biocontainers/perl-io-compress:<tag>
+
+   (see `perl-io-compress/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-io-compress| conda:required_by:: perl-io-compress
 .. |downloads_perl-io-compress| image:: https://img.shields.io/conda/dn/bioconda/perl-io-compress.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-io-compress| image:: https://quay.io/repository/biocontainers/perl-io-compress/status
    :target: https://quay.io/repository/biocontainers/perl-io-compress
+.. _`perl-io-compress/tags`: https://quay.io/repository/biocontainers/perl-io-compress?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-io-compress/README.html
-

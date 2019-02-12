@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastspar'
 .. highlight: bash
-
 
 fastspar
 ========
@@ -28,11 +29,21 @@ fastspar
 
    |downloads_fastspar| |docker_fastspar|
 
-   :versions: 0.0.9, 0.0.6
-
-   :depends: :conda:package:`armadillo` >=8.200,<9.0a0 :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgfortran` >=3.0 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`openmp` >=4.0 
-
-   :required~by: |required_by_fastspar|
+   :versions: 0.0.9-0, 0.0.6-0
+   
+   :depends armadillo: >=8.200,<9.0a0
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libgfortran: >=3.0
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :depends openmp: >=4.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -46,14 +57,16 @@ fastspar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastspar
+      docker pull quay.io/repository/biocontainers/fastspar:<tag>
+
+   (see `fastspar/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastspar| conda:required_by:: fastspar
 .. |downloads_fastspar| image:: https://img.shields.io/conda/dn/bioconda/fastspar.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastspar| image:: https://quay.io/repository/biocontainers/fastspar/status
    :target: https://quay.io/repository/biocontainers/fastspar
+.. _`fastspar/tags`: https://quay.io/repository/biocontainers/fastspar?tab=tags
 
 
 
@@ -70,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastspar/README.html
-

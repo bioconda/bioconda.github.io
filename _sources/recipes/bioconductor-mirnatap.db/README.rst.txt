@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mirnatap.db'
 .. highlight: bash
-
 
 bioconductor-mirnatap.db
 ========================
@@ -21,11 +22,21 @@ bioconductor-mirnatap.db
 
    |downloads_bioconductor-mirnatap.db| |docker_bioconductor-mirnatap.db|
 
-   :versions: 0.99.10
-
-   :depends: :conda:package:`bioconductor-annotationdbi`  :conda:package:`bioconductor-mirnatap`  :conda:package:`r-base` 3.4.1* :conda:package:`r-dbi`  :conda:package:`r-rsqlite`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-mirnatap.db|
+   :versions: 0.99.10-3, 0.99.10-2, 0.99.10-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-mirnatap: >=1.16.0,<1.17.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dbi: 
+   
+   :depends r-rsqlite: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-mirnatap.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirnatap.db
+      docker pull quay.io/repository/biocontainers/bioconductor-mirnatap.db:<tag>
+
+   (see `bioconductor-mirnatap.db/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mirnatap.db| conda:required_by:: bioconductor-mirnatap.db
 .. |downloads_bioconductor-mirnatap.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirnatap.db.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mirnatap.db| image:: https://quay.io/repository/biocontainers/bioconductor-mirnatap.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirnatap.db
+.. _`bioconductor-mirnatap.db/tags`: https://quay.io/repository/biocontainers/bioconductor-mirnatap.db?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mirnatap.db/README.html
-

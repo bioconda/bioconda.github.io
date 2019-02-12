@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pymisc-utils'
 .. highlight: bash
-
 
 pymisc-utils
 ============
@@ -21,11 +22,53 @@ pymisc-utils
 
    |downloads_pymisc-utils| |docker_pymisc-utils|
 
-   :versions: 0.2.11, 0.2.10
-
-   :depends: :conda:package:`cython`  :conda:package:`dask`  :conda:package:`docopt`  :conda:package:`fastparquet`  :conda:package:`graphviz` >=2.38.0,<3.0a0 :conda:package:`joblib`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`networkx`  :conda:package:`nltk`  :conda:package:`numpy`  :conda:package:`openpyxl`  :conda:package:`pandas`  :conda:package:`paramiko`  :conda:package:`pydot`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`scikit-learn`  :conda:package:`scipy`  :conda:package:`six`  :conda:package:`statsmodels`  :conda:package:`tqdm`  :conda:package:`xlrd`  
-
-   :required~by: |required_by_pymisc-utils|
+   :versions: 0.2.11-0, 0.2.10-1, 0.2.10-0
+   
+   :depends cython: 
+   
+   :depends dask: 
+   
+   :depends docopt: 
+   
+   :depends fastparquet: 
+   
+   :depends graphviz: >=2.38.0,<3.0a0
+   
+   :depends joblib: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: 
+   
+   :depends networkx: 
+   
+   :depends nltk: 
+   
+   :depends numpy: 
+   
+   :depends openpyxl: 
+   
+   :depends pandas: 
+   
+   :depends paramiko: 
+   
+   :depends pydot: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :depends six: 
+   
+   :depends statsmodels: 
+   
+   :depends tqdm: 
+   
+   :depends xlrd: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +82,16 @@ pymisc-utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pymisc-utils
+      docker pull quay.io/repository/biocontainers/pymisc-utils:<tag>
+
+   (see `pymisc-utils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pymisc-utils| conda:required_by:: pymisc-utils
 .. |downloads_pymisc-utils| image:: https://img.shields.io/conda/dn/bioconda/pymisc-utils.svg?style=flat
    :alt:   (downloads)
 .. |docker_pymisc-utils| image:: https://quay.io/repository/biocontainers/pymisc-utils/status
    :target: https://quay.io/repository/biocontainers/pymisc-utils
+.. _`pymisc-utils/tags`: https://quay.io/repository/biocontainers/pymisc-utils?tab=tags
 
 
 
@@ -63,4 +108,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pymisc-utils/README.html
-

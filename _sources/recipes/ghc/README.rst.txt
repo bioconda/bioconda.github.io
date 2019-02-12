@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ghc'
 .. highlight: bash
-
 
 ghc
 ===
@@ -21,11 +22,11 @@ ghc
 
    |downloads_ghc| |docker_ghc|
 
-   :versions: 6.8.3
-
-   :depends: :conda:package:`gmp`  
-
-   :required~by: |required_by_ghc|
+   :versions: 6.8.3-0
+   
+   :depends gmp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ ghc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ghc
+      docker pull quay.io/repository/biocontainers/ghc:<tag>
+
+   (see `ghc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ghc| conda:required_by:: ghc
 .. |downloads_ghc| image:: https://img.shields.io/conda/dn/bioconda/ghc.svg?style=flat
    :alt:   (downloads)
 .. |docker_ghc| image:: https://quay.io/repository/biocontainers/ghc/status
    :target: https://quay.io/repository/biocontainers/ghc
+.. _`ghc/tags`: https://quay.io/repository/biocontainers/ghc?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ghc/README.html
-

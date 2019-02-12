@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cytolib'
 .. highlight: bash
-
 
 bioconductor-cytolib
 ====================
@@ -21,11 +22,15 @@ bioconductor-cytolib
 
    |downloads_bioconductor-cytolib| |docker_bioconductor-cytolib|
 
-   :versions: 1.4.0, 1.2.0, 1.0.1
-
-   :depends: :conda:package:`bioconductor-rprotobuflib` >=1.4.0,<1.5.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh` >=1.62.0-1 
-
-   :required~by: |required_by_bioconductor-cytolib|
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.1-0
+   
+   :depends bioconductor-rprotobuflib: >=1.4.0,<1.5.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bh: >=1.62.0-1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-cytolib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cytolib
+      docker pull quay.io/repository/biocontainers/bioconductor-cytolib:<tag>
+
+   (see `bioconductor-cytolib/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cytolib| conda:required_by:: bioconductor-cytolib
 .. |downloads_bioconductor-cytolib| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cytolib.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cytolib| image:: https://quay.io/repository/biocontainers/bioconductor-cytolib/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cytolib
+.. _`bioconductor-cytolib/tags`: https://quay.io/repository/biocontainers/bioconductor-cytolib?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cytolib/README.html
-

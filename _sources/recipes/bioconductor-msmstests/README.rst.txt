@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-msmstests'
 .. highlight: bash
-
 
 bioconductor-msmstests
 ======================
@@ -21,11 +22,19 @@ bioconductor-msmstests
 
    |downloads_bioconductor-msmstests| |docker_bioconductor-msmstests|
 
-   :versions: 1.20.1
-
-   :depends: :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-msmseda` >=1.20.0,<1.21.0 :conda:package:`bioconductor-msnbase` >=2.8.0,<2.9.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-msmstests|
+   :versions: 1.20.1-0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-msmseda: >=1.20.0,<1.21.0
+   
+   :depends bioconductor-msnbase: >=2.8.0,<2.9.0
+   
+   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-msmstests
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msmstests
+      docker pull quay.io/repository/biocontainers/bioconductor-msmstests:<tag>
+
+   (see `bioconductor-msmstests/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-msmstests| conda:required_by:: bioconductor-msmstests
 .. |downloads_bioconductor-msmstests| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msmstests.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-msmstests| image:: https://quay.io/repository/biocontainers/bioconductor-msmstests/status
    :target: https://quay.io/repository/biocontainers/bioconductor-msmstests
+.. _`bioconductor-msmstests/tags`: https://quay.io/repository/biocontainers/bioconductor-msmstests?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-msmstests/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'baitfisher'
 .. highlight: bash
-
 
 baitfisher
 ==========
@@ -21,11 +22,11 @@ baitfisher
 
    |downloads_baitfisher| |docker_baitfisher|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_baitfisher|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ baitfisher
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/baitfisher
+      docker pull quay.io/repository/biocontainers/baitfisher:<tag>
+
+   (see `baitfisher/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_baitfisher| conda:required_by:: baitfisher
 .. |downloads_baitfisher| image:: https://img.shields.io/conda/dn/bioconda/baitfisher.svg?style=flat
    :alt:   (downloads)
 .. |docker_baitfisher| image:: https://quay.io/repository/biocontainers/baitfisher/status
    :target: https://quay.io/repository/biocontainers/baitfisher
+.. _`baitfisher/tags`: https://quay.io/repository/biocontainers/baitfisher?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/baitfisher/README.html
-

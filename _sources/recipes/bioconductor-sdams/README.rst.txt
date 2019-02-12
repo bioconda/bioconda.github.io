@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sdams'
 .. highlight: bash
-
 
 bioconductor-sdams
 ==================
@@ -21,11 +22,17 @@ bioconductor-sdams
 
    |downloads_bioconductor-sdams| |docker_bioconductor-sdams|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-trust`  
-
-   :required~by: |required_by_bioconductor-sdams|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-trust: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-sdams
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sdams
+      docker pull quay.io/repository/biocontainers/bioconductor-sdams:<tag>
+
+   (see `bioconductor-sdams/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sdams| conda:required_by:: bioconductor-sdams
 .. |downloads_bioconductor-sdams| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sdams.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sdams| image:: https://quay.io/repository/biocontainers/bioconductor-sdams/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sdams
+.. _`bioconductor-sdams/tags`: https://quay.io/repository/biocontainers/bioconductor-sdams?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sdams/README.html
-

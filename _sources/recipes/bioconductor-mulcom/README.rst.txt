@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mulcom'
 .. highlight: bash
-
 
 bioconductor-mulcom
 ===================
@@ -22,11 +23,19 @@ bioconductor-mulcom
 
    |downloads_bioconductor-mulcom| |docker_bioconductor-mulcom|
 
-   :versions: 1.32.0, 1.30.0, 1.28.0, 1.26.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fields`  
-
-   :required~by: |required_by_bioconductor-mulcom|
+   :versions: 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-fields: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-mulcom
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mulcom
+      docker pull quay.io/repository/biocontainers/bioconductor-mulcom:<tag>
+
+   (see `bioconductor-mulcom/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mulcom| conda:required_by:: bioconductor-mulcom
 .. |downloads_bioconductor-mulcom| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mulcom.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mulcom| image:: https://quay.io/repository/biocontainers/bioconductor-mulcom/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mulcom
+.. _`bioconductor-mulcom/tags`: https://quay.io/repository/biocontainers/bioconductor-mulcom?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mulcom/README.html
-

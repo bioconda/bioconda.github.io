@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastq-join'
 .. highlight: bash
-
 
 fastq-join
 ==========
@@ -21,11 +22,11 @@ fastq-join
 
    |downloads_fastq-join| |docker_fastq-join|
 
-   :versions: 1.3.1
-
-   :depends: 
-
-   :required~by: |required_by_fastq-join|
+   :versions: 1.3.1-2, 1.3.1-1
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ fastq-join
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastq-join
+      docker pull quay.io/repository/biocontainers/fastq-join:<tag>
+
+   (see `fastq-join/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastq-join| conda:required_by:: fastq-join
 .. |downloads_fastq-join| image:: https://img.shields.io/conda/dn/bioconda/fastq-join.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastq-join| image:: https://quay.io/repository/biocontainers/fastq-join/status
    :target: https://quay.io/repository/biocontainers/fastq-join
+.. _`fastq-join/tags`: https://quay.io/repository/biocontainers/fastq-join?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastq-join/README.html
-

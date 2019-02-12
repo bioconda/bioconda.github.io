@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pal_finder'
 .. highlight: bash
-
 
 pal_finder
 ==========
@@ -27,11 +28,13 @@ pal_finder
 
    |downloads_pal_finder| |docker_pal_finder|
 
-   :versions: 0.02.04
-
-   :depends: :conda:package:`perl`  :conda:package:`primer3` 2.0.0a 
-
-   :required~by: |required_by_pal_finder|
+   :versions: 0.02.04-2, 0.02.04-1
+   
+   :depends perl: 
+   
+   :depends primer3: 2.0.0a
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -45,14 +48,16 @@ pal_finder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pal_finder
+      docker pull quay.io/repository/biocontainers/pal_finder:<tag>
+
+   (see `pal_finder/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pal_finder| conda:required_by:: pal_finder
 .. |downloads_pal_finder| image:: https://img.shields.io/conda/dn/bioconda/pal_finder.svg?style=flat
    :alt:   (downloads)
 .. |docker_pal_finder| image:: https://quay.io/repository/biocontainers/pal_finder/status
    :target: https://quay.io/repository/biocontainers/pal_finder
+.. _`pal_finder/tags`: https://quay.io/repository/biocontainers/pal_finder?tab=tags
 
 
 
@@ -69,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pal_finder/README.html
-

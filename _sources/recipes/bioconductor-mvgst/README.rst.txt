@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mvgst'
 .. highlight: bash
-
 
 bioconductor-mvgst
 ==================
@@ -22,11 +23,29 @@ bioconductor-mvgst
 
    |downloads_bioconductor-mvgst| |docker_bioconductor-mvgst|
 
-   :versions: 1.12.0, 1.10.0
-
-   :depends: :conda:package:`bioconductor-annotate`  :conda:package:`bioconductor-annotationdbi`  :conda:package:`bioconductor-go.db`  :conda:package:`bioconductor-gostats`  :conda:package:`bioconductor-graph`  :conda:package:`bioconductor-rgraphviz`  :conda:package:`bioconductor-topgo`  :conda:package:`r-base` 3.4.1* :conda:package:`r-gprofiler`  :conda:package:`r-stringr`  
-
-   :required~by: |required_by_bioconductor-mvgst|
+   :versions: 1.12.0-0, 1.10.0-0
+   
+   :depends bioconductor-annotate: 
+   
+   :depends bioconductor-annotationdbi: 
+   
+   :depends bioconductor-go.db: 
+   
+   :depends bioconductor-gostats: 
+   
+   :depends bioconductor-graph: 
+   
+   :depends bioconductor-rgraphviz: 
+   
+   :depends bioconductor-topgo: 
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-gprofiler: 
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ bioconductor-mvgst
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mvgst
+      docker pull quay.io/repository/biocontainers/bioconductor-mvgst:<tag>
+
+   (see `bioconductor-mvgst/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mvgst| conda:required_by:: bioconductor-mvgst
 .. |downloads_bioconductor-mvgst| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mvgst.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mvgst| image:: https://quay.io/repository/biocontainers/bioconductor-mvgst/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mvgst
+.. _`bioconductor-mvgst/tags`: https://quay.io/repository/biocontainers/bioconductor-mvgst?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mvgst/README.html
-

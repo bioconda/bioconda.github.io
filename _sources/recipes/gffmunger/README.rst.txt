@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gffmunger'
 .. highlight: bash
-
 
 gffmunger
 =========
@@ -21,11 +22,19 @@ gffmunger
 
    |downloads_gffmunger| |docker_gffmunger|
 
-   :versions: 0.0.1
-
-   :depends: :conda:package:`biopython` >=1.68 :conda:package:`gffutils`  :conda:package:`python` >=3.6 :conda:package:`pyyaml`  
-
-   :required~by: |required_by_gffmunger|
+   :versions: 0.0.1-1, 0.0.1-0
+   
+   :depends biopython: >=1.68
+   
+   :depends genometools-genometools: 
+   
+   :depends gffutils: 
+   
+   :depends python: >=3.6
+   
+   :depends pyyaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ gffmunger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gffmunger
+      docker pull quay.io/repository/biocontainers/gffmunger:<tag>
+
+   (see `gffmunger/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gffmunger| conda:required_by:: gffmunger
 .. |downloads_gffmunger| image:: https://img.shields.io/conda/dn/bioconda/gffmunger.svg?style=flat
    :alt:   (downloads)
 .. |docker_gffmunger| image:: https://quay.io/repository/biocontainers/gffmunger/status
    :target: https://quay.io/repository/biocontainers/gffmunger
+.. _`gffmunger/tags`: https://quay.io/repository/biocontainers/gffmunger?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gffmunger/README.html
-

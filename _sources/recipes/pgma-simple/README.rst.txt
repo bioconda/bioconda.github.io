@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pgma-simple'
 .. highlight: bash
-
 
 pgma-simple
 ===========
@@ -21,11 +22,11 @@ pgma-simple
 
    |downloads_pgma-simple| |docker_pgma-simple|
 
-   :versions: 0.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_pgma-simple|
+   :versions: 0.1-1, 0.1-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ pgma-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pgma-simple
+      docker pull quay.io/repository/biocontainers/pgma-simple:<tag>
+
+   (see `pgma-simple/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pgma-simple| conda:required_by:: pgma-simple
 .. |downloads_pgma-simple| image:: https://img.shields.io/conda/dn/bioconda/pgma-simple.svg?style=flat
    :alt:   (downloads)
 .. |docker_pgma-simple| image:: https://quay.io/repository/biocontainers/pgma-simple/status
    :target: https://quay.io/repository/biocontainers/pgma-simple
+.. _`pgma-simple/tags`: https://quay.io/repository/biocontainers/pgma-simple?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pgma-simple/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-gage'
 .. highlight: bash
-
 
 bioconductor-gage
 =================
@@ -22,11 +23,17 @@ bioconductor-gage
 
    |downloads_bioconductor-gage| |docker_bioconductor-gage|
 
-   :versions: 2.32.0, 2.30.0, 2.28.0, 2.26.3, 2.21.1
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-gage|
+   :versions: 2.32.0-0, 2.30.0-0, 2.28.0-0, 2.26.3-0, 2.21.1-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-keggrest: >=1.22.0,<1.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-gage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gage
+      docker pull quay.io/repository/biocontainers/bioconductor-gage:<tag>
+
+   (see `bioconductor-gage/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-gage| conda:required_by:: bioconductor-gage
 .. |downloads_bioconductor-gage| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gage.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-gage| image:: https://quay.io/repository/biocontainers/bioconductor-gage/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gage
+.. _`bioconductor-gage/tags`: https://quay.io/repository/biocontainers/bioconductor-gage?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-gage/README.html
-

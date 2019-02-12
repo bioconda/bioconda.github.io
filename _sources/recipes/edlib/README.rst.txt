@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'edlib'
 .. highlight: bash
-
 
 edlib
 =====
@@ -21,11 +22,11 @@ edlib
 
    |downloads_edlib| |docker_edlib|
 
-   :versions: 1.2.3, 1.2.1, 1.2.0, 1.1.2, 1.0.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_edlib|
+   :versions: 1.2.3-1, 1.2.3-0, 1.2.1-0, 1.2.0-0, 1.1.2-0, 1.0.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ edlib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/edlib
+      docker pull quay.io/repository/biocontainers/edlib:<tag>
+
+   (see `edlib/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_edlib| conda:required_by:: edlib
 .. |downloads_edlib| image:: https://img.shields.io/conda/dn/bioconda/edlib.svg?style=flat
    :alt:   (downloads)
 .. |docker_edlib| image:: https://quay.io/repository/biocontainers/edlib/status
    :target: https://quay.io/repository/biocontainers/edlib
+.. _`edlib/tags`: https://quay.io/repository/biocontainers/edlib?tab=tags
 
 
 
@@ -67,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/edlib/README.html
-

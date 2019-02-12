@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'brass'
 .. highlight: bash
-
 
 brass
 =====
@@ -21,11 +22,47 @@ brass
 
    |downloads_brass| |docker_brass|
 
-   :versions: 5.1.6
-
-   :depends: :conda:package:`bedtools`  :conda:package:`blat`  :conda:package:`cansam`  :conda:package:`exonerate`  :conda:package:`libgcc`  :conda:package:`perl-grass`  :conda:package:`perl-pcap`  :conda:package:`velvet`  
-
-   :required~by: |required_by_brass|
+   :versions: 5.1.6-7, 5.1.6-2
+   
+   :depends bedtools: 
+   
+   :depends blat: 
+   
+   :depends cansam: 
+   
+   :depends exonerate: 
+   
+   :depends libgcc: 
+   
+   :depends perl-bio-db-hts: 
+   
+   :depends perl-bio-featureio: 
+   
+   :depends perl-bioperl-core: ==1.6.924
+   
+   :depends perl-capture-tiny: 
+   
+   :depends perl-file-sharedir: 
+   
+   :depends perl-file-sharedir-install: 
+   
+   :depends perl-graph-readwrite: 
+   
+   :depends perl-grass: 
+   
+   :depends perl-math-combinatorics: 
+   
+   :depends perl-number-format: 
+   
+   :depends perl-pcap: 
+   
+   :depends perl-statistics-basic: 
+   
+   :depends perl-text-diff: 
+   
+   :depends velvet: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +76,16 @@ brass
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/brass
+      docker pull quay.io/repository/biocontainers/brass:<tag>
+
+   (see `brass/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_brass| conda:required_by:: brass
 .. |downloads_brass| image:: https://img.shields.io/conda/dn/bioconda/brass.svg?style=flat
    :alt:   (downloads)
 .. |docker_brass| image:: https://quay.io/repository/biocontainers/brass/status
    :target: https://quay.io/repository/biocontainers/brass
+.. _`brass/tags`: https://quay.io/repository/biocontainers/brass?tab=tags
 
 
 
@@ -63,4 +102,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/brass/README.html
-

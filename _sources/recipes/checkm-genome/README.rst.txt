@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'checkm-genome'
 .. highlight: bash
-
 
 checkm-genome
 =============
@@ -21,11 +22,27 @@ checkm-genome
 
    |downloads_checkm-genome| |docker_checkm-genome|
 
-   :versions: 1.0.13, 1.0.12, 1.0.11, 1.0.7, 1.0.5
-
-   :depends: :conda:package:`dendropy` >=4.0.0 :conda:package:`hmmer` >=3.1b1 :conda:package:`matplotlib` >=1.3.1 :conda:package:`numpy` >=1.8.0 :conda:package:`pplacer` >1.0 :conda:package:`prodigal` >=2.6.1 :conda:package:`pysam` >=0.8.3 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy` >=0.9.0 
-
-   :required~by: |required_by_checkm-genome|
+   :versions: 1.0.13-0, 1.0.12-0, 1.0.11-1, 1.0.11-0, 1.0.7-0, 1.0.5-0
+   
+   :depends dendropy: >=4.0.0
+   
+   :depends hmmer: >=3.1b1
+   
+   :depends matplotlib: >=1.3.1
+   
+   :depends numpy: >=1.8.0
+   
+   :depends pplacer: >1.0
+   
+   :depends prodigal: >=2.6.1
+   
+   :depends pysam: >=0.8.3
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: >=0.9.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ checkm-genome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/checkm-genome
+      docker pull quay.io/repository/biocontainers/checkm-genome:<tag>
+
+   (see `checkm-genome/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_checkm-genome| conda:required_by:: checkm-genome
 .. |downloads_checkm-genome| image:: https://img.shields.io/conda/dn/bioconda/checkm-genome.svg?style=flat
    :alt:   (downloads)
 .. |docker_checkm-genome| image:: https://quay.io/repository/biocontainers/checkm-genome/status
    :target: https://quay.io/repository/biocontainers/checkm-genome
+.. _`checkm-genome/tags`: https://quay.io/repository/biocontainers/checkm-genome?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/checkm-genome/README.html
-

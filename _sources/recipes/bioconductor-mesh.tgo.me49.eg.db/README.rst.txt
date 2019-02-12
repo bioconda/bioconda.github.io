@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mesh.tgo.me49.eg.db'
 .. highlight: bash
-
 
 bioconductor-mesh.tgo.me49.eg.db
 ================================
@@ -21,11 +22,15 @@ bioconductor-mesh.tgo.me49.eg.db
 
    |downloads_bioconductor-mesh.tgo.me49.eg.db| |docker_bioconductor-mesh.tgo.me49.eg.db|
 
-   :versions: 1.11.0
-
-   :depends: :conda:package:`bioconductor-meshdbi` >=1.18.0,<1.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-mesh.tgo.me49.eg.db|
+   :versions: 1.11.0-0
+   
+   :depends bioconductor-meshdbi: >=1.18.0,<1.19.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-mesh.tgo.me49.eg.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mesh.tgo.me49.eg.db
+      docker pull quay.io/repository/biocontainers/bioconductor-mesh.tgo.me49.eg.db:<tag>
+
+   (see `bioconductor-mesh.tgo.me49.eg.db/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mesh.tgo.me49.eg.db| conda:required_by:: bioconductor-mesh.tgo.me49.eg.db
 .. |downloads_bioconductor-mesh.tgo.me49.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mesh.tgo.me49.eg.db.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mesh.tgo.me49.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-mesh.tgo.me49.eg.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mesh.tgo.me49.eg.db
+.. _`bioconductor-mesh.tgo.me49.eg.db/tags`: https://quay.io/repository/biocontainers/bioconductor-mesh.tgo.me49.eg.db?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mesh.tgo.me49.eg.db/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'frc'
 .. highlight: bash
-
 
 frc
 ===
@@ -21,11 +22,17 @@ frc
 
    |downloads_frc| |docker_frc|
 
-   :versions: 5b3f53e
-
-   :depends: :conda:package:`bamtools`  :conda:package:`boost` 1.61* :conda:package:`libgcc`  :conda:package:`samtools`  
-
-   :required~by: |required_by_frc|
+   :versions: 5b3f53e-0
+   
+   :depends bamtools: 
+   
+   :depends boost: 1.61*
+   
+   :depends libgcc: 
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ frc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/frc
+      docker pull quay.io/repository/biocontainers/frc:<tag>
+
+   (see `frc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_frc| conda:required_by:: frc
 .. |downloads_frc| image:: https://img.shields.io/conda/dn/bioconda/frc.svg?style=flat
    :alt:   (downloads)
 .. |docker_frc| image:: https://quay.io/repository/biocontainers/frc/status
    :target: https://quay.io/repository/biocontainers/frc
+.. _`frc/tags`: https://quay.io/repository/biocontainers/frc?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/frc/README.html
-

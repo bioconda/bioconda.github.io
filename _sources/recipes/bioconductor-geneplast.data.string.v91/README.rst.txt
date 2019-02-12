@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-geneplast.data.string.v91'
 .. highlight: bash
-
 
 bioconductor-geneplast.data.string.v91
 ======================================
@@ -21,11 +22,13 @@ bioconductor-geneplast.data.string.v91
 
    |downloads_bioconductor-geneplast.data.string.v91| |docker_bioconductor-geneplast.data.string.v91|
 
-   :versions: 0.99.6
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-geneplast.data.string.v91|
+   :versions: 0.99.6-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-geneplast.data.string.v91
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneplast.data.string.v91
+      docker pull quay.io/repository/biocontainers/bioconductor-geneplast.data.string.v91:<tag>
+
+   (see `bioconductor-geneplast.data.string.v91/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-geneplast.data.string.v91| conda:required_by:: bioconductor-geneplast.data.string.v91
 .. |downloads_bioconductor-geneplast.data.string.v91| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneplast.data.string.v91.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-geneplast.data.string.v91| image:: https://quay.io/repository/biocontainers/bioconductor-geneplast.data.string.v91/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geneplast.data.string.v91
+.. _`bioconductor-geneplast.data.string.v91/tags`: https://quay.io/repository/biocontainers/bioconductor-geneplast.data.string.v91?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-geneplast.data.string.v91/README.html
-

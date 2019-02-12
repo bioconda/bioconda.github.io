@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'faststructure'
 .. highlight: bash
-
 
 faststructure
 =============
@@ -21,11 +22,25 @@ faststructure
 
    |downloads_faststructure| |docker_faststructure|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`cython` <0.28 :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
-
-   :required~by: |required_by_faststructure|
+   :versions: 1.0-0
+   
+   :depends cython: <0.28
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ faststructure
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/faststructure
+      docker pull quay.io/repository/biocontainers/faststructure:<tag>
+
+   (see `faststructure/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_faststructure| conda:required_by:: faststructure
 .. |downloads_faststructure| image:: https://img.shields.io/conda/dn/bioconda/faststructure.svg?style=flat
    :alt:   (downloads)
 .. |docker_faststructure| image:: https://quay.io/repository/biocontainers/faststructure/status
    :target: https://quay.io/repository/biocontainers/faststructure
+.. _`faststructure/tags`: https://quay.io/repository/biocontainers/faststructure?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/faststructure/README.html
-

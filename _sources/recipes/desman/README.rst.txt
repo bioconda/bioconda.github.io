@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'desman'
 .. highlight: bash
-
 
 desman
 ======
@@ -22,11 +23,39 @@ desman
 
    |downloads_desman| |docker_desman|
 
-   :versions: 2.1
-
-   :depends: :conda:package:`bcbiogff`  :conda:package:`biopython`  :conda:package:`cython`  :conda:package:`gsl` 1.16* :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`perl` 5.22.0* :conda:package:`pysam`  :conda:package:`python` 3.5* :conda:package:`r-getopt`  :conda:package:`r-ggplot2`  :conda:package:`r-labeling`  :conda:package:`r-reshape`  :conda:package:`scikit-learn`  :conda:package:`scipy`  
-
-   :required~by: |required_by_desman|
+   :versions: 2.1-1, 2.1-0
+   
+   :depends bcbiogff: 
+   
+   :depends biopython: 
+   
+   :depends cython: 
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends perl: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends r-getopt: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-labeling: 
+   
+   :depends r-reshape: 
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +69,16 @@ desman
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/desman
+      docker pull quay.io/repository/biocontainers/desman:<tag>
+
+   (see `desman/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_desman| conda:required_by:: desman
 .. |downloads_desman| image:: https://img.shields.io/conda/dn/bioconda/desman.svg?style=flat
    :alt:   (downloads)
 .. |docker_desman| image:: https://quay.io/repository/biocontainers/desman/status
    :target: https://quay.io/repository/biocontainers/desman
+.. _`desman/tags`: https://quay.io/repository/biocontainers/desman?tab=tags
 
 
 
@@ -64,4 +95,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/desman/README.html
-

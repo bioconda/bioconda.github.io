@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'collect_mgf'
 .. highlight: bash
-
 
 collect_mgf
 ===========
@@ -22,11 +23,11 @@ collect_mgf
 
    |downloads_collect_mgf| |docker_collect_mgf|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_collect_mgf|
+   :versions: 1.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ collect_mgf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/collect_mgf
+      docker pull quay.io/repository/biocontainers/collect_mgf:<tag>
+
+   (see `collect_mgf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_collect_mgf| conda:required_by:: collect_mgf
 .. |downloads_collect_mgf| image:: https://img.shields.io/conda/dn/bioconda/collect_mgf.svg?style=flat
    :alt:   (downloads)
 .. |docker_collect_mgf| image:: https://quay.io/repository/biocontainers/collect_mgf/status
    :target: https://quay.io/repository/biocontainers/collect_mgf
+.. _`collect_mgf/tags`: https://quay.io/repository/biocontainers/collect_mgf?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/collect_mgf/README.html
-

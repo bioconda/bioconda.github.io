@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'flash'
 .. highlight: bash
-
 
 flash
 =====
@@ -22,11 +23,13 @@ flash
 
    |downloads_flash| |docker_flash|
 
-   :versions: 1.2.11
-
-   :depends: 
-
-   :required~by: |required_by_flash|
+   :versions: 1.2.11-2, 1.2.11-1, 1.2.11-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ flash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flash
+      docker pull quay.io/repository/biocontainers/flash:<tag>
+
+   (see `flash/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_flash| conda:required_by:: flash
 .. |downloads_flash| image:: https://img.shields.io/conda/dn/bioconda/flash.svg?style=flat
    :alt:   (downloads)
 .. |docker_flash| image:: https://quay.io/repository/biocontainers/flash/status
    :target: https://quay.io/repository/biocontainers/flash
+.. _`flash/tags`: https://quay.io/repository/biocontainers/flash?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/flash/README.html
-

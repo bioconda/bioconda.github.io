@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-mce'
 .. highlight: bash
-
 
 perl-mce
 ========
@@ -21,11 +22,27 @@ perl-mce
 
    |downloads_perl-mce| |docker_perl-mce|
 
-   :versions: 1.837, 1.836, 1.835, 1.814
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-base`  :conda:package:`perl-carp`  :conda:package:`perl-constant`  :conda:package:`perl-file-path`  :conda:package:`perl-getopt-long`  :conda:package:`perl-socket`  :conda:package:`perl-storable`  :conda:package:`perl-time-hires`  
-
-   :required~by: |required_by_perl-mce|
+   :versions: 1.837-0, 1.836-0, 1.835-1, 1.835-0, 1.814-1, 1.814-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-base: 
+   
+   :depends perl-carp: 
+   
+   :depends perl-constant: 
+   
+   :depends perl-file-path: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-socket: 
+   
+   :depends perl-storable: 
+   
+   :depends perl-time-hires: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ perl-mce
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mce
+      docker pull quay.io/repository/biocontainers/perl-mce:<tag>
+
+   (see `perl-mce/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-mce| conda:required_by:: perl-mce
 .. |downloads_perl-mce| image:: https://img.shields.io/conda/dn/bioconda/perl-mce.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-mce| image:: https://quay.io/repository/biocontainers/perl-mce/status
    :target: https://quay.io/repository/biocontainers/perl-mce
+.. _`perl-mce/tags`: https://quay.io/repository/biocontainers/perl-mce?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-mce/README.html
-

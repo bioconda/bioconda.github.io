@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-curatedmetagenomicdata'
 .. highlight: bash
-
 
 bioconductor-curatedmetagenomicdata
 ===================================
@@ -21,11 +22,27 @@ bioconductor-curatedmetagenomicdata
 
    |downloads_bioconductor-curatedmetagenomicdata| |docker_bioconductor-curatedmetagenomicdata|
 
-   :versions: 1.12.3, 1.10.2, 1.8.1
-
-   :depends: :conda:package:`bioconductor-annotationhub` >=2.14.0,<2.15.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-experimenthub` >=1.8.0,<1.9.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr` >=0.5.0 :conda:package:`r-magrittr`  :conda:package:`r-tidyr`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-curatedmetagenomicdata|
+   :versions: 1.12.3-0, 1.10.2-0, 1.8.1-0
+   
+   :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: >=0.5.0
+   
+   :depends r-magrittr: 
+   
+   :depends r-tidyr: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-curatedmetagenomicdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-curatedmetagenomicdata
+      docker pull quay.io/repository/biocontainers/bioconductor-curatedmetagenomicdata:<tag>
+
+   (see `bioconductor-curatedmetagenomicdata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-curatedmetagenomicdata| conda:required_by:: bioconductor-curatedmetagenomicdata
 .. |downloads_bioconductor-curatedmetagenomicdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-curatedmetagenomicdata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-curatedmetagenomicdata| image:: https://quay.io/repository/biocontainers/bioconductor-curatedmetagenomicdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-curatedmetagenomicdata
+.. _`bioconductor-curatedmetagenomicdata/tags`: https://quay.io/repository/biocontainers/bioconductor-curatedmetagenomicdata?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-curatedmetagenomicdata/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'trinity'
 .. highlight: bash
-
 
 trinity
 =======
@@ -22,11 +23,35 @@ trinity
 
    |downloads_trinity| |docker_trinity|
 
-   :versions: 2.8.4, 2.8.3, 2.8.2, 2.6.6, 2.5.1, 2.4.0, 2.3.2, 2.2.0, 2.1.1, date.2011_11_26
-
-   :depends: :conda:package:`bowtie`  :conda:package:`bowtie2` >=2.3.0 :conda:package:`jellyfish` >=2.2.6 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`numpy`  :conda:package:`openjdk` >=8 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`salmon` >=0.9.1 :conda:package:`samtools` >=1.3 :conda:package:`trimmomatic` >=0.36 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_trinity|
+   :versions: 2.8.4-0, 2.8.3-0, 2.8.2-2, 2.8.2-1, 2.8.2-0, 2.6.6-2, 2.6.6-1, 2.6.6-0, 2.5.1-1, 2.5.1-0, 2.4.0-5, 2.4.0-4, 2.4.0-3, 2.3.2-2, 2.3.2-1, 2.3.2-0, 2.2.0-7, 2.2.0-6, 2.2.0-5, 2.2.0-4, 2.2.0-3, 2.2.0-2, 2.2.0-1, 2.2.0-0, 2.1.1-6, date.2011_11_26-8, date.2011_11_26-7, date.2011_11_26-6, date.2011_11_26-5, date.2011_11_26-4, date.2011_11_26-3
+   
+   :depends bowtie: 
+   
+   :depends bowtie2: >=2.3.0
+   
+   :depends jellyfish: >=2.2.6
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends numpy: 
+   
+   :depends openjdk: >=8
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :depends salmon: >=0.9.1
+   
+   :depends samtools: >=1.3
+   
+   :depends trimmomatic: >=0.36
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +65,16 @@ trinity
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trinity
+      docker pull quay.io/repository/biocontainers/trinity:<tag>
+
+   (see `trinity/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_trinity| conda:required_by:: trinity
 .. |downloads_trinity| image:: https://img.shields.io/conda/dn/bioconda/trinity.svg?style=flat
    :alt:   (downloads)
 .. |docker_trinity| image:: https://quay.io/repository/biocontainers/trinity/status
    :target: https://quay.io/repository/biocontainers/trinity
+.. _`trinity/tags`: https://quay.io/repository/biocontainers/trinity?tab=tags
 
 
 
@@ -64,4 +91,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/trinity/README.html
-

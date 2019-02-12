@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'stacks_summary'
 .. highlight: bash
-
 
 stacks_summary
 ==============
@@ -21,11 +22,13 @@ stacks_summary
 
    |downloads_stacks_summary| |docker_stacks_summary|
 
-   :versions: 1.1, 1.0
-
-   :depends: :conda:package:`numpy`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_stacks_summary|
+   :versions: 1.1-1, 1.1-0, 1.0-1, 1.0-0
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ stacks_summary
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stacks_summary
+      docker pull quay.io/repository/biocontainers/stacks_summary:<tag>
+
+   (see `stacks_summary/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_stacks_summary| conda:required_by:: stacks_summary
 .. |downloads_stacks_summary| image:: https://img.shields.io/conda/dn/bioconda/stacks_summary.svg?style=flat
    :alt:   (downloads)
 .. |docker_stacks_summary| image:: https://quay.io/repository/biocontainers/stacks_summary/status
    :target: https://quay.io/repository/biocontainers/stacks_summary
+.. _`stacks_summary/tags`: https://quay.io/repository/biocontainers/stacks_summary?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/stacks_summary/README.html
-

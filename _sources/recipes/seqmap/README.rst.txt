@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'seqmap'
 .. highlight: bash
-
 
 seqmap
 ======
@@ -22,11 +23,11 @@ seqmap
 
    |downloads_seqmap| |docker_seqmap|
 
-   :versions: 1.0.13
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_seqmap|
+   :versions: 1.0.13-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ seqmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seqmap
+      docker pull quay.io/repository/biocontainers/seqmap:<tag>
+
+   (see `seqmap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_seqmap| conda:required_by:: seqmap
 .. |downloads_seqmap| image:: https://img.shields.io/conda/dn/bioconda/seqmap.svg?style=flat
    :alt:   (downloads)
 .. |docker_seqmap| image:: https://quay.io/repository/biocontainers/seqmap/status
    :target: https://quay.io/repository/biocontainers/seqmap
+.. _`seqmap/tags`: https://quay.io/repository/biocontainers/seqmap?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/seqmap/README.html
-

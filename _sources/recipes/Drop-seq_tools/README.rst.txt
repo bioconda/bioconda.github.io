@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dropseq_tools'
 .. highlight: bash
-
 
 dropseq_tools
 =============
@@ -22,11 +23,11 @@ dropseq_tools
 
    |downloads_dropseq_tools| |docker_dropseq_tools|
 
-   :versions: 2.0.0, 1.13
-
-   :depends: :conda:package:`openjdk` >=8 
-
-   :required~by: |required_by_dropseq_tools|
+   :versions: 2.0.0-0, 1.13-0
+   
+   :depends openjdk: >=8
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ dropseq_tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dropseq_tools
+      docker pull quay.io/repository/biocontainers/dropseq_tools:<tag>
+
+   (see `dropseq_tools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dropseq_tools| conda:required_by:: dropseq_tools
 .. |downloads_dropseq_tools| image:: https://img.shields.io/conda/dn/bioconda/dropseq_tools.svg?style=flat
    :alt:   (downloads)
 .. |docker_dropseq_tools| image:: https://quay.io/repository/biocontainers/dropseq_tools/status
    :target: https://quay.io/repository/biocontainers/dropseq_tools
+.. _`dropseq_tools/tags`: https://quay.io/repository/biocontainers/dropseq_tools?tab=tags
 
 
 
@@ -68,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dropseq_tools/README.html
-

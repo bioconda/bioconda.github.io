@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-qdnaseq'
 .. highlight: bash
-
 
 bioconductor-qdnaseq
 ====================
@@ -22,11 +23,31 @@ bioconductor-qdnaseq
 
    |downloads_bioconductor-qdnaseq| |docker_bioconductor-qdnaseq|
 
-   :versions: 1.18.0, 1.16.0, 1.14.0, 1.12.0, 1.10.0, 1.8.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-cghbase` >=1.42.0,<1.43.0 :conda:package:`bioconductor-cghcall` >=2.44.0,<2.45.0 :conda:package:`bioconductor-dnacopy` >=1.56.0,<1.57.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrixstats` >=0.50.2 :conda:package:`r-r.utils` >=2.3.0 
-
-   :required~by: |required_by_bioconductor-qdnaseq|
+   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-cghbase: >=1.42.0,<1.43.0
+   
+   :depends bioconductor-cghcall: >=2.44.0,<2.45.0
+   
+   :depends bioconductor-dnacopy: >=1.56.0,<1.57.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-matrixstats: >=0.50.2
+   
+   :depends r-r.utils: >=2.3.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +61,16 @@ bioconductor-qdnaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qdnaseq
+      docker pull quay.io/repository/biocontainers/bioconductor-qdnaseq:<tag>
+
+   (see `bioconductor-qdnaseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-qdnaseq| conda:required_by:: bioconductor-qdnaseq
 .. |downloads_bioconductor-qdnaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qdnaseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-qdnaseq| image:: https://quay.io/repository/biocontainers/bioconductor-qdnaseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qdnaseq
+.. _`bioconductor-qdnaseq/tags`: https://quay.io/repository/biocontainers/bioconductor-qdnaseq?tab=tags
 
 
 
@@ -64,4 +87,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-qdnaseq/README.html
-

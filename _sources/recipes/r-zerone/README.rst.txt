@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-zerone'
 .. highlight: bash
-
 
 r-zerone
 ========
@@ -21,11 +22,13 @@ r-zerone
 
    |downloads_r-zerone| |docker_r-zerone|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* 
-
-   :required~by: |required_by_r-zerone|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ r-zerone
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-zerone
+      docker pull quay.io/repository/biocontainers/r-zerone:<tag>
+
+   (see `r-zerone/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-zerone| conda:required_by:: r-zerone
 .. |downloads_r-zerone| image:: https://img.shields.io/conda/dn/bioconda/r-zerone.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-zerone| image:: https://quay.io/repository/biocontainers/r-zerone/status
    :target: https://quay.io/repository/biocontainers/r-zerone
+.. _`r-zerone/tags`: https://quay.io/repository/biocontainers/r-zerone?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-zerone/README.html
-

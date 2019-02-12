@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bio-samtools'
 .. highlight: bash
-
 
 perl-bio-samtools
 =================
@@ -21,11 +22,15 @@ perl-bio-samtools
 
    |downloads_perl-bio-samtools| |docker_perl-bio-samtools|
 
-   :versions: 1.43
-
-   :depends: :conda:package:`perl-bioperl-core`  :conda:package:`perl-threaded`  :conda:package:`zlib`  
-
-   :required~by: |required_by_perl-bio-samtools|
+   :versions: 1.43-1, 1.43-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bioperl-core: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-bio-samtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-samtools
+      docker pull quay.io/repository/biocontainers/perl-bio-samtools:<tag>
+
+   (see `perl-bio-samtools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bio-samtools| conda:required_by:: perl-bio-samtools
 .. |downloads_perl-bio-samtools| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-samtools.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bio-samtools| image:: https://quay.io/repository/biocontainers/perl-bio-samtools/status
    :target: https://quay.io/repository/biocontainers/perl-bio-samtools
+.. _`perl-bio-samtools/tags`: https://quay.io/repository/biocontainers/perl-bio-samtools?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bio-samtools/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-arrmnormalization'
 .. highlight: bash
-
 
 bioconductor-arrmnormalization
 ==============================
@@ -22,11 +23,13 @@ bioconductor-arrmnormalization
 
    |downloads_bioconductor-arrmnormalization| |docker_bioconductor-arrmnormalization|
 
-   :versions: 1.22.0, 1.20.0, 1.18.0
-
-   :depends: :conda:package:`bioconductor-arrmdata` >=1.18.0,<1.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-arrmnormalization|
+   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-0
+   
+   :depends bioconductor-arrmdata: >=1.18.0,<1.19.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-arrmnormalization
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-arrmnormalization
+      docker pull quay.io/repository/biocontainers/bioconductor-arrmnormalization:<tag>
+
+   (see `bioconductor-arrmnormalization/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-arrmnormalization| conda:required_by:: bioconductor-arrmnormalization
 .. |downloads_bioconductor-arrmnormalization| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arrmnormalization.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-arrmnormalization| image:: https://quay.io/repository/biocontainers/bioconductor-arrmnormalization/status
    :target: https://quay.io/repository/biocontainers/bioconductor-arrmnormalization
+.. _`bioconductor-arrmnormalization/tags`: https://quay.io/repository/biocontainers/bioconductor-arrmnormalization?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-arrmnormalization/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-multiomicsviz'
 .. highlight: bash
-
 
 bioconductor-multiomicsviz
 ==========================
@@ -21,11 +22,17 @@ bioconductor-multiomicsviz
 
    |downloads_bioconductor-multiomicsviz| |docker_bioconductor-multiomicsviz|
 
-   :versions: 1.6.0, 1.4.0, 1.2.0, 1.0.0
-
-   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-foreach`  
-
-   :required~by: |required_by_bioconductor-multiomicsviz|
+   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-doparallel: 
+   
+   :depends r-foreach: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-multiomicsviz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-multiomicsviz
+      docker pull quay.io/repository/biocontainers/bioconductor-multiomicsviz:<tag>
+
+   (see `bioconductor-multiomicsviz/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-multiomicsviz| conda:required_by:: bioconductor-multiomicsviz
 .. |downloads_bioconductor-multiomicsviz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-multiomicsviz.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-multiomicsviz| image:: https://quay.io/repository/biocontainers/bioconductor-multiomicsviz/status
    :target: https://quay.io/repository/biocontainers/bioconductor-multiomicsviz
+.. _`bioconductor-multiomicsviz/tags`: https://quay.io/repository/biocontainers/bioconductor-multiomicsviz?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-multiomicsviz/README.html
-

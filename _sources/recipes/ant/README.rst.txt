@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ant'
 .. highlight: bash
-
 
 ant
 ===
@@ -21,11 +22,11 @@ ant
 
    |downloads_ant| |docker_ant|
 
-   :versions: 1.10.0, 1.9.6
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_ant|
+   :versions: 1.10.0-0, 1.9.6-1, 1.9.6-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ ant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ant
+      docker pull quay.io/repository/biocontainers/ant:<tag>
+
+   (see `ant/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ant| conda:required_by:: ant
 .. |downloads_ant| image:: https://img.shields.io/conda/dn/bioconda/ant.svg?style=flat
    :alt:   (downloads)
 .. |docker_ant| image:: https://quay.io/repository/biocontainers/ant/status
    :target: https://quay.io/repository/biocontainers/ant
+.. _`ant/tags`: https://quay.io/repository/biocontainers/ant?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ant/README.html
-

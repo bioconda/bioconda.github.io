@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'jamm'
 .. highlight: bash
-
 
 jamm
 ====
@@ -21,11 +22,17 @@ jamm
 
    |downloads_jamm| |docker_jamm|
 
-   :versions: 1.0.7.5, 1.0.7.4, 1.0.7.2
-
-   :depends: :conda:package:`gawk`  :conda:package:`perl`  :conda:package:`r-mclust` >=5.3 :conda:package:`r-signal`  
-
-   :required~by: |required_by_jamm|
+   :versions: 1.0.7.5-2, 1.0.7.5-1, 1.0.7.5-0, 1.0.7.4-0, 1.0.7.2-3, 1.0.7.2-2, 1.0.7.2-1, 1.0.7.2-0
+   
+   :depends gawk: 
+   
+   :depends perl: 
+   
+   :depends r-mclust: >=5.3
+   
+   :depends r-signal: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ jamm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/jamm
+      docker pull quay.io/repository/biocontainers/jamm:<tag>
+
+   (see `jamm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_jamm| conda:required_by:: jamm
 .. |downloads_jamm| image:: https://img.shields.io/conda/dn/bioconda/jamm.svg?style=flat
    :alt:   (downloads)
 .. |docker_jamm| image:: https://quay.io/repository/biocontainers/jamm/status
    :target: https://quay.io/repository/biocontainers/jamm
+.. _`jamm/tags`: https://quay.io/repository/biocontainers/jamm?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/jamm/README.html
-

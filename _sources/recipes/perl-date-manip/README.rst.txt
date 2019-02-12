@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-date-manip'
 .. highlight: bash
-
 
 perl-date-manip
 ===============
@@ -21,11 +22,19 @@ perl-date-manip
 
    |downloads_perl-date-manip| |docker_perl-date-manip|
 
-   :versions: 6.75, 6.73, 6.72, 6.57
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-data-dumper`  :conda:package:`perl-encode`  :conda:package:`perl-storable`  
-
-   :required~by: |required_by_perl-date-manip|
+   :versions: 6.75-0, 6.73-0, 6.72-0, 6.57-1, 6.57-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-data-dumper: 
+   
+   :depends perl-encode: 
+   
+   :depends perl-storable: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-date-manip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-date-manip
+      docker pull quay.io/repository/biocontainers/perl-date-manip:<tag>
+
+   (see `perl-date-manip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-date-manip| conda:required_by:: perl-date-manip
 .. |downloads_perl-date-manip| image:: https://img.shields.io/conda/dn/bioconda/perl-date-manip.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-date-manip| image:: https://quay.io/repository/biocontainers/perl-date-manip/status
    :target: https://quay.io/repository/biocontainers/perl-date-manip
+.. _`perl-date-manip/tags`: https://quay.io/repository/biocontainers/perl-date-manip?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-date-manip/README.html
-

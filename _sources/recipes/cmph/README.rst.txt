@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cmph'
 .. highlight: bash
-
 
 cmph
 ====
@@ -21,11 +22,11 @@ cmph
 
    |downloads_cmph| |docker_cmph|
 
-   :versions: 2.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_cmph|
+   :versions: 2.0-1, 2.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ cmph
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cmph
+      docker pull quay.io/repository/biocontainers/cmph:<tag>
+
+   (see `cmph/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cmph| conda:required_by:: cmph
 .. |downloads_cmph| image:: https://img.shields.io/conda/dn/bioconda/cmph.svg?style=flat
    :alt:   (downloads)
 .. |docker_cmph| image:: https://quay.io/repository/biocontainers/cmph/status
    :target: https://quay.io/repository/biocontainers/cmph
+.. _`cmph/tags`: https://quay.io/repository/biocontainers/cmph?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cmph/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'chicagotools'
 .. highlight: bash
-
 
 chicagotools
 ============
@@ -21,11 +22,17 @@ chicagotools
 
    |downloads_chicagotools| |docker_chicagotools|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-chicago`  :conda:package:`python`  :conda:package:`r-argparser`  :conda:package:`r-base`  
-
-   :required~by: |required_by_chicagotools|
+   :versions: 1.2.0-1, 1.2.0-0
+   
+   :depends bioconductor-chicago: 
+   
+   :depends python: 
+   
+   :depends r-argparser: 
+   
+   :depends r-base: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ chicagotools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/chicagotools
+      docker pull quay.io/repository/biocontainers/chicagotools:<tag>
+
+   (see `chicagotools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_chicagotools| conda:required_by:: chicagotools
 .. |downloads_chicagotools| image:: https://img.shields.io/conda/dn/bioconda/chicagotools.svg?style=flat
    :alt:   (downloads)
 .. |docker_chicagotools| image:: https://quay.io/repository/biocontainers/chicagotools/status
    :target: https://quay.io/repository/biocontainers/chicagotools
+.. _`chicagotools/tags`: https://quay.io/repository/biocontainers/chicagotools?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/chicagotools/README.html
-

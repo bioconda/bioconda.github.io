@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sample-sheet'
 .. highlight: bash
-
 
 sample-sheet
 ============
@@ -23,11 +24,19 @@ sample-sheet
 
    |downloads_sample-sheet| |docker_sample-sheet|
 
-   :versions: 0.8.0
-
-   :depends: :conda:package:`click`  :conda:package:`python` >=3.6 :conda:package:`smart_open` >=1.5.4 :conda:package:`tabulate`  :conda:package:`terminaltables`  
-
-   :required~by: |required_by_sample-sheet|
+   :versions: 0.8.0-0
+   
+   :depends click: 
+   
+   :depends python: >=3.6
+   
+   :depends smart_open: >=1.5.4
+   
+   :depends tabulate: 
+   
+   :depends terminaltables: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +50,16 @@ sample-sheet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sample-sheet
+      docker pull quay.io/repository/biocontainers/sample-sheet:<tag>
+
+   (see `sample-sheet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sample-sheet| conda:required_by:: sample-sheet
 .. |downloads_sample-sheet| image:: https://img.shields.io/conda/dn/bioconda/sample-sheet.svg?style=flat
    :alt:   (downloads)
 .. |docker_sample-sheet| image:: https://quay.io/repository/biocontainers/sample-sheet/status
    :target: https://quay.io/repository/biocontainers/sample-sheet
+.. _`sample-sheet/tags`: https://quay.io/repository/biocontainers/sample-sheet?tab=tags
 
 
 
@@ -65,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sample-sheet/README.html
-

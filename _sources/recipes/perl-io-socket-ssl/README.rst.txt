@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-io-socket-ssl'
 .. highlight: bash
-
 
 perl-io-socket-ssl
 ==================
@@ -21,11 +22,13 @@ perl-io-socket-ssl
 
    |downloads_perl-io-socket-ssl| |docker_perl-io-socket-ssl|
 
-   :versions: 2.060, 2.056, 2.024
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-net-ssleay`  
-
-   :required~by: |required_by_perl-io-socket-ssl|
+   :versions: 2.060-0, 2.056-0, 2.024-1, 2.024-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-net-ssleay: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-io-socket-ssl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-socket-ssl
+      docker pull quay.io/repository/biocontainers/perl-io-socket-ssl:<tag>
+
+   (see `perl-io-socket-ssl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-io-socket-ssl| conda:required_by:: perl-io-socket-ssl
 .. |downloads_perl-io-socket-ssl| image:: https://img.shields.io/conda/dn/bioconda/perl-io-socket-ssl.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-io-socket-ssl| image:: https://quay.io/repository/biocontainers/perl-io-socket-ssl/status
    :target: https://quay.io/repository/biocontainers/perl-io-socket-ssl
+.. _`perl-io-socket-ssl/tags`: https://quay.io/repository/biocontainers/perl-io-socket-ssl?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-io-socket-ssl/README.html
-

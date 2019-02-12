@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nanolyse'
 .. highlight: bash
-
 
 nanolyse
 ========
@@ -21,11 +22,15 @@ nanolyse
 
    |downloads_nanolyse| |docker_nanolyse|
 
-   :versions: 1.1.0, 1.0.0, 0.5.1, 0.4.0, 0.2.0
-
-   :depends: :conda:package:`biopython`  :conda:package:`mappy` >=2.2 :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_nanolyse|
+   :versions: 1.1.0-1, 1.1.0-0, 1.0.0-0, 0.5.1-0, 0.4.0-0, 0.2.0-0
+   
+   :depends biopython: 
+   
+   :depends mappy: >=2.2
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ nanolyse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanolyse
+      docker pull quay.io/repository/biocontainers/nanolyse:<tag>
+
+   (see `nanolyse/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nanolyse| conda:required_by:: nanolyse
 .. |downloads_nanolyse| image:: https://img.shields.io/conda/dn/bioconda/nanolyse.svg?style=flat
    :alt:   (downloads)
 .. |docker_nanolyse| image:: https://quay.io/repository/biocontainers/nanolyse/status
    :target: https://quay.io/repository/biocontainers/nanolyse
+.. _`nanolyse/tags`: https://quay.io/repository/biocontainers/nanolyse?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nanolyse/README.html
-

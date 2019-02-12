@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyasp'
 .. highlight: bash
-
 
 pyasp
 =====
@@ -21,11 +22,11 @@ pyasp
 
    |downloads_pyasp| |docker_pyasp|
 
-   :versions: 1.4.3
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pyasp|
+   :versions: 1.4.3-1, 1.4.3-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ pyasp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyasp
+      docker pull quay.io/repository/biocontainers/pyasp:<tag>
+
+   (see `pyasp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyasp| conda:required_by:: pyasp
 .. |downloads_pyasp| image:: https://img.shields.io/conda/dn/bioconda/pyasp.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyasp| image:: https://quay.io/repository/biocontainers/pyasp/status
    :target: https://quay.io/repository/biocontainers/pyasp
+.. _`pyasp/tags`: https://quay.io/repository/biocontainers/pyasp?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyasp/README.html
-

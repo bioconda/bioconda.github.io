@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-xml'
 .. highlight: bash
-
 
 perl-test-xml
 =============
@@ -21,11 +22,23 @@ perl-test-xml
 
    |downloads_perl-test-xml| |docker_perl-test-xml|
 
-   :versions: 0.08
-
-   :depends: :conda:package:`perl-threaded`  :conda:package:`perl-xml-parser`  :conda:package:`perl-xml-sax`  :conda:package:`perl-xml-sax-writer`  :conda:package:`perl-xml-semanticdiff`  :conda:package:`perl-xml-twig`  :conda:package:`perl-xml-xpath`  
-
-   :required~by: |required_by_perl-test-xml|
+   :versions: 0.08-1, 0.08-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-xml-parser: 
+   
+   :depends perl-xml-sax: 
+   
+   :depends perl-xml-sax-writer: 
+   
+   :depends perl-xml-semanticdiff: 
+   
+   :depends perl-xml-twig: 
+   
+   :depends perl-xml-xpath: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ perl-test-xml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-xml
+      docker pull quay.io/repository/biocontainers/perl-test-xml:<tag>
+
+   (see `perl-test-xml/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-xml| conda:required_by:: perl-test-xml
 .. |downloads_perl-test-xml| image:: https://img.shields.io/conda/dn/bioconda/perl-test-xml.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-xml| image:: https://quay.io/repository/biocontainers/perl-test-xml/status
    :target: https://quay.io/repository/biocontainers/perl-test-xml
+.. _`perl-test-xml/tags`: https://quay.io/repository/biocontainers/perl-test-xml?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-xml/README.html
-

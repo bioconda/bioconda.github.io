@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'validate-fasta-database'
 .. highlight: bash
-
 
 validate-fasta-database
 =======================
@@ -21,11 +22,13 @@ validate-fasta-database
 
    |downloads_validate-fasta-database| |docker_validate-fasta-database|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`openjdk` >=7 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_validate-fasta-database|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends openjdk: >=7
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ validate-fasta-database
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/validate-fasta-database
+      docker pull quay.io/repository/biocontainers/validate-fasta-database:<tag>
+
+   (see `validate-fasta-database/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_validate-fasta-database| conda:required_by:: validate-fasta-database
 .. |downloads_validate-fasta-database| image:: https://img.shields.io/conda/dn/bioconda/validate-fasta-database.svg?style=flat
    :alt:   (downloads)
 .. |docker_validate-fasta-database| image:: https://quay.io/repository/biocontainers/validate-fasta-database/status
    :target: https://quay.io/repository/biocontainers/validate-fasta-database
+.. _`validate-fasta-database/tags`: https://quay.io/repository/biocontainers/validate-fasta-database?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/validate-fasta-database/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'funnel'
 .. highlight: bash
-
 
 funnel
 ======
@@ -21,11 +22,9 @@ funnel
 
    |downloads_funnel| |docker_funnel|
 
-   :versions: 0.5.0
-
-   :depends: 
-
-   :required~by: |required_by_funnel|
+   :versions: 0.5.0-1, 0.5.0-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ funnel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/funnel
+      docker pull quay.io/repository/biocontainers/funnel:<tag>
+
+   (see `funnel/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_funnel| conda:required_by:: funnel
 .. |downloads_funnel| image:: https://img.shields.io/conda/dn/bioconda/funnel.svg?style=flat
    :alt:   (downloads)
 .. |docker_funnel| image:: https://quay.io/repository/biocontainers/funnel/status
    :target: https://quay.io/repository/biocontainers/funnel
+.. _`funnel/tags`: https://quay.io/repository/biocontainers/funnel?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/funnel/README.html
-

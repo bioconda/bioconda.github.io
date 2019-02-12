@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-number-range'
 .. highlight: bash
-
 
 perl-number-range
 =================
@@ -21,11 +22,13 @@ perl-number-range
 
    |downloads_perl-number-range| |docker_perl-number-range|
 
-   :versions: 0.12
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-extutils-makemaker`  
-
-   :required~by: |required_by_perl-number-range|
+   :versions: 0.12-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-extutils-makemaker: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-number-range
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-number-range
+      docker pull quay.io/repository/biocontainers/perl-number-range:<tag>
+
+   (see `perl-number-range/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-number-range| conda:required_by:: perl-number-range
 .. |downloads_perl-number-range| image:: https://img.shields.io/conda/dn/bioconda/perl-number-range.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-number-range| image:: https://quay.io/repository/biocontainers/perl-number-range/status
    :target: https://quay.io/repository/biocontainers/perl-number-range
+.. _`perl-number-range/tags`: https://quay.io/repository/biocontainers/perl-number-range?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-number-range/README.html
-

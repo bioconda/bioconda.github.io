@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'osra'
 .. highlight: bash
-
 
 osra
 ====
@@ -21,11 +22,25 @@ osra
 
    |downloads_osra| |docker_osra|
 
-   :versions: 2.1.0, 2.0.1
-
-   :depends: :conda:package:`gocr`  :conda:package:`graphicsmagick` >=1.3.26 :conda:package:`libgcc`  :conda:package:`ocrad`  :conda:package:`poppler`  :conda:package:`potrace`  :conda:package:`tclap`  :conda:package:`tesseract`  
-
-   :required~by: |required_by_osra|
+   :versions: 2.1.0-0, 2.0.1-2, 2.0.1-1, 2.0.1-0
+   
+   :depends gocr: 
+   
+   :depends graphicsmagick: >=1.3.26
+   
+   :depends libgcc: 
+   
+   :depends ocrad: 
+   
+   :depends poppler: 
+   
+   :depends potrace: 
+   
+   :depends tclap: 
+   
+   :depends tesseract: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ osra
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/osra
+      docker pull quay.io/repository/biocontainers/osra:<tag>
+
+   (see `osra/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_osra| conda:required_by:: osra
 .. |downloads_osra| image:: https://img.shields.io/conda/dn/bioconda/osra.svg?style=flat
    :alt:   (downloads)
 .. |docker_osra| image:: https://quay.io/repository/biocontainers/osra/status
    :target: https://quay.io/repository/biocontainers/osra
+.. _`osra/tags`: https://quay.io/repository/biocontainers/osra?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/osra/README.html
-

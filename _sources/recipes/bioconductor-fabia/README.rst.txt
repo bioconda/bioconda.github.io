@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-fabia'
 .. highlight: bash
-
 
 bioconductor-fabia
 ==================
@@ -22,11 +23,15 @@ bioconductor-fabia
 
    |downloads_bioconductor-fabia| |docker_bioconductor-fabia|
 
-   :versions: 2.28.0, 2.26.0, 2.24.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-fabia|
+   :versions: 2.28.0-0, 2.26.0-0, 2.24.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-fabia
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fabia
+      docker pull quay.io/repository/biocontainers/bioconductor-fabia:<tag>
+
+   (see `bioconductor-fabia/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-fabia| conda:required_by:: bioconductor-fabia
 .. |downloads_bioconductor-fabia| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fabia.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-fabia| image:: https://quay.io/repository/biocontainers/bioconductor-fabia/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fabia
+.. _`bioconductor-fabia/tags`: https://quay.io/repository/biocontainers/bioconductor-fabia?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-fabia/README.html
-

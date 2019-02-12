@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metaphyler'
 .. highlight: bash
-
 
 metaphyler
 ==========
@@ -21,11 +22,15 @@ metaphyler
 
    |downloads_metaphyler| |docker_metaphyler|
 
-   :versions: 1.25
-
-   :depends: :conda:package:`blast-legacy`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  
-
-   :required~by: |required_by_metaphyler|
+   :versions: 1.25-1, 1.25-0
+   
+   :depends blast-legacy: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ metaphyler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metaphyler
+      docker pull quay.io/repository/biocontainers/metaphyler:<tag>
+
+   (see `metaphyler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metaphyler| conda:required_by:: metaphyler
 .. |downloads_metaphyler| image:: https://img.shields.io/conda/dn/bioconda/metaphyler.svg?style=flat
    :alt:   (downloads)
 .. |docker_metaphyler| image:: https://quay.io/repository/biocontainers/metaphyler/status
    :target: https://quay.io/repository/biocontainers/metaphyler
+.. _`metaphyler/tags`: https://quay.io/repository/biocontainers/metaphyler?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metaphyler/README.html
-

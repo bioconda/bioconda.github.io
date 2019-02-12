@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'clark'
 .. highlight: bash
-
 
 clark
 =====
@@ -22,11 +23,13 @@ clark
 
    |downloads_clark| |docker_clark|
 
-   :versions: 1.2.5, 1.2.3.1, 1.2.3, 1.2.2_b
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_clark|
+   :versions: 1.2.5-1, 1.2.5-0, 1.2.3.1-0, 1.2.3-2, 1.2.3-1, 1.2.2_b-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ clark
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clark
+      docker pull quay.io/repository/biocontainers/clark:<tag>
+
+   (see `clark/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_clark| conda:required_by:: clark
 .. |downloads_clark| image:: https://img.shields.io/conda/dn/bioconda/clark.svg?style=flat
    :alt:   (downloads)
 .. |docker_clark| image:: https://quay.io/repository/biocontainers/clark/status
    :target: https://quay.io/repository/biocontainers/clark
+.. _`clark/tags`: https://quay.io/repository/biocontainers/clark?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/clark/README.html
-

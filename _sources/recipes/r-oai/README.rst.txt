@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-oai'
 .. highlight: bash
-
 
 r-oai
 =====
@@ -21,11 +22,25 @@ r-oai
 
    |downloads_r-oai| |docker_r-oai|
 
-   :versions: 0.2.2
-
-   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-httr` >=1.2.0 :conda:package:`r-plyr` >=1.8.4 :conda:package:`r-stringr` >=1.1.0 :conda:package:`r-tibble` >=1.2 :conda:package:`r-xml2` >=1.0.0 
-
-   :required~by: |required_by_r-oai|
+   :versions: 0.2.2-3, 0.2.2-2, 0.2.2-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-httr: >=1.2.0
+   
+   :depends r-plyr: >=1.8.4
+   
+   :depends r-stringr: >=1.1.0
+   
+   :depends r-tibble: >=1.2
+   
+   :depends r-xml2: >=1.0.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ r-oai
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-oai
+      docker pull quay.io/repository/biocontainers/r-oai:<tag>
+
+   (see `r-oai/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-oai| conda:required_by:: r-oai
 .. |downloads_r-oai| image:: https://img.shields.io/conda/dn/bioconda/r-oai.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-oai| image:: https://quay.io/repository/biocontainers/r-oai/status
    :target: https://quay.io/repository/biocontainers/r-oai
+.. _`r-oai/tags`: https://quay.io/repository/biocontainers/r-oai?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-oai/README.html
-

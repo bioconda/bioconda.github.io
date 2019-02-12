@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-mac-propertylist'
 .. highlight: bash
-
 
 perl-mac-propertylist
 =====================
@@ -21,11 +22,21 @@ perl-mac-propertylist
 
    |downloads_perl-mac-propertylist| |docker_perl-mac-propertylist|
 
-   :versions: 1.413
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-math-bigint`  :conda:package:`perl-mime-base64`  :conda:package:`perl-parent`  :conda:package:`perl-time-local`  :conda:package:`perl-xml-entities`  
-
-   :required~by: |required_by_perl-mac-propertylist|
+   :versions: 1.413-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-math-bigint: 
+   
+   :depends perl-mime-base64: 
+   
+   :depends perl-parent: 
+   
+   :depends perl-time-local: 
+   
+   :depends perl-xml-entities: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-mac-propertylist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mac-propertylist
+      docker pull quay.io/repository/biocontainers/perl-mac-propertylist:<tag>
+
+   (see `perl-mac-propertylist/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-mac-propertylist| conda:required_by:: perl-mac-propertylist
 .. |downloads_perl-mac-propertylist| image:: https://img.shields.io/conda/dn/bioconda/perl-mac-propertylist.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-mac-propertylist| image:: https://quay.io/repository/biocontainers/perl-mac-propertylist/status
    :target: https://quay.io/repository/biocontainers/perl-mac-propertylist
+.. _`perl-mac-propertylist/tags`: https://quay.io/repository/biocontainers/perl-mac-propertylist?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-mac-propertylist/README.html
-

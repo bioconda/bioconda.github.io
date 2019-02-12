@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'np-likeness-scorer'
 .. highlight: bash
-
 
 np-likeness-scorer
 ==================
@@ -21,11 +22,13 @@ np-likeness-scorer
 
    |downloads_np-likeness-scorer| |docker_np-likeness-scorer|
 
-   :versions: 2.1
-
-   :depends: :conda:package:`openjdk` >=6 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_np-likeness-scorer|
+   :versions: 2.1-0
+   
+   :depends openjdk: >=6
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ np-likeness-scorer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/np-likeness-scorer
+      docker pull quay.io/repository/biocontainers/np-likeness-scorer:<tag>
+
+   (see `np-likeness-scorer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_np-likeness-scorer| conda:required_by:: np-likeness-scorer
 .. |downloads_np-likeness-scorer| image:: https://img.shields.io/conda/dn/bioconda/np-likeness-scorer.svg?style=flat
    :alt:   (downloads)
 .. |docker_np-likeness-scorer| image:: https://quay.io/repository/biocontainers/np-likeness-scorer/status
    :target: https://quay.io/repository/biocontainers/np-likeness-scorer
+.. _`np-likeness-scorer/tags`: https://quay.io/repository/biocontainers/np-likeness-scorer?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/np-likeness-scorer/README.html
-

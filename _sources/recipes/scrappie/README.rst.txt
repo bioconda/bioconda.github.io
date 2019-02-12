@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'scrappie'
 .. highlight: bash
-
 
 scrappie
 ========
@@ -21,11 +22,25 @@ scrappie
 
    |downloads_scrappie| |docker_scrappie|
 
-   :versions: 1.3.2
-
-   :depends: :conda:package:`blas`  :conda:package:`cffi` >=1.0.0 :conda:package:`cunit`  :conda:package:`hdf5` 1.8.17* :conda:package:`libgcc`  :conda:package:`numpy` 1.12* :conda:package:`python` 3.5* :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_scrappie|
+   :versions: 1.3.2-2, 1.3.2-0
+   
+   :depends cffi: >=1.0.0
+   
+   :depends cunit: 
+   
+   :depends hdf5: >=1.10.2,<1.10.3.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends numpy: 
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ scrappie
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scrappie
+      docker pull quay.io/repository/biocontainers/scrappie:<tag>
+
+   (see `scrappie/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_scrappie| conda:required_by:: scrappie
 .. |downloads_scrappie| image:: https://img.shields.io/conda/dn/bioconda/scrappie.svg?style=flat
    :alt:   (downloads)
 .. |docker_scrappie| image:: https://quay.io/repository/biocontainers/scrappie/status
    :target: https://quay.io/repository/biocontainers/scrappie
+.. _`scrappie/tags`: https://quay.io/repository/biocontainers/scrappie?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/scrappie/README.html
-

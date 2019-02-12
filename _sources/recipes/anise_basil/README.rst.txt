@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'anise_basil'
 .. highlight: bash
-
 
 anise_basil
 ===========
@@ -22,11 +23,15 @@ anise_basil
 
    |downloads_anise_basil| |docker_anise_basil|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_anise_basil|
+   :versions: 1.2.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ anise_basil
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/anise_basil
+      docker pull quay.io/repository/biocontainers/anise_basil:<tag>
+
+   (see `anise_basil/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_anise_basil| conda:required_by:: anise_basil
 .. |downloads_anise_basil| image:: https://img.shields.io/conda/dn/bioconda/anise_basil.svg?style=flat
    :alt:   (downloads)
 .. |docker_anise_basil| image:: https://quay.io/repository/biocontainers/anise_basil/status
    :target: https://quay.io/repository/biocontainers/anise_basil
+.. _`anise_basil/tags`: https://quay.io/repository/biocontainers/anise_basil?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/anise_basil/README.html
-

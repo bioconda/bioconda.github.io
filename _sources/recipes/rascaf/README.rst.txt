@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rascaf'
 .. highlight: bash
-
 
 rascaf
 ======
@@ -21,11 +22,15 @@ rascaf
 
    |downloads_rascaf| |docker_rascaf|
 
-   :versions: 20161129
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_rascaf|
+   :versions: 20161129-2, 20161129-1, 20161129-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ rascaf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rascaf
+      docker pull quay.io/repository/biocontainers/rascaf:<tag>
+
+   (see `rascaf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rascaf| conda:required_by:: rascaf
 .. |downloads_rascaf| image:: https://img.shields.io/conda/dn/bioconda/rascaf.svg?style=flat
    :alt:   (downloads)
 .. |docker_rascaf| image:: https://quay.io/repository/biocontainers/rascaf/status
    :target: https://quay.io/repository/biocontainers/rascaf
+.. _`rascaf/tags`: https://quay.io/repository/biocontainers/rascaf?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rascaf/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-find'
 .. highlight: bash
-
 
 perl-file-find
 ==============
@@ -21,11 +22,11 @@ perl-file-find
 
    |downloads_perl-file-find| |docker_perl-file-find|
 
-   :versions: 1.27
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-file-find|
+   :versions: 1.27-1, 1.27-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-file-find
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-find
+      docker pull quay.io/repository/biocontainers/perl-file-find:<tag>
+
+   (see `perl-file-find/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-find| conda:required_by:: perl-file-find
 .. |downloads_perl-file-find| image:: https://img.shields.io/conda/dn/bioconda/perl-file-find.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-find| image:: https://quay.io/repository/biocontainers/perl-file-find/status
    :target: https://quay.io/repository/biocontainers/perl-file-find
+.. _`perl-file-find/tags`: https://quay.io/repository/biocontainers/perl-file-find?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-find/README.html
-

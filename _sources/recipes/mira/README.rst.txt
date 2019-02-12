@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mira'
 .. highlight: bash
-
 
 mira
 ====
@@ -22,11 +23,9 @@ mira
 
    |downloads_mira| |docker_mira|
 
-   :versions: 4.9.6, 4.9.5, 4.0.2, 3.4.1.1
-
-   :depends: 
-
-   :required~by: |required_by_mira|
+   :versions: 4.9.6-1, 4.9.6-0, 4.9.5-1, 4.9.5-0, 4.0.2-3, 4.0.2-2, 4.0.2-1, 3.4.1.1-1, 3.4.1.1-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +39,16 @@ mira
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mira
+      docker pull quay.io/repository/biocontainers/mira:<tag>
+
+   (see `mira/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mira| conda:required_by:: mira
 .. |downloads_mira| image:: https://img.shields.io/conda/dn/bioconda/mira.svg?style=flat
    :alt:   (downloads)
 .. |docker_mira| image:: https://quay.io/repository/biocontainers/mira/status
    :target: https://quay.io/repository/biocontainers/mira
+.. _`mira/tags`: https://quay.io/repository/biocontainers/mira?tab=tags
 
 
 
@@ -64,4 +65,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mira/README.html
-

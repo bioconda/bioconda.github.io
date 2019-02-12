@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genometools-genometools'
 .. highlight: bash
-
 
 genometools-genometools
 =======================
@@ -25,11 +26,27 @@ genometools-genometools
 
    |downloads_genometools-genometools| |docker_genometools-genometools|
 
-   :versions: 1.5.10, 1.5.9
-
-   :depends: :conda:package:`cairo`  :conda:package:`gettext`  :conda:package:`libgcc`  :conda:package:`pango`  :conda:package:`xorg-libsm`  :conda:package:`xorg-libxext`  :conda:package:`xorg-libxrender`  
-
-   :required~by: |required_by_genometools-genometools|
+   :versions: 1.5.10-2, 1.5.10-1, 1.5.10-0, 1.5.9-1, 1.5.9-0
+   
+   :depends cairo: >=1.14.12,<1.15.0a0
+   
+   :depends gettext: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends pango: >=1.40.14,<1.41.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends xorg-libsm: 
+   
+   :depends xorg-libxext: 
+   
+   :depends xorg-libxrender: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -43,14 +60,16 @@ genometools-genometools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genometools-genometools
+      docker pull quay.io/repository/biocontainers/genometools-genometools:<tag>
+
+   (see `genometools-genometools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genometools-genometools| conda:required_by:: genometools-genometools
 .. |downloads_genometools-genometools| image:: https://img.shields.io/conda/dn/bioconda/genometools-genometools.svg?style=flat
    :alt:   (downloads)
 .. |docker_genometools-genometools| image:: https://quay.io/repository/biocontainers/genometools-genometools/status
    :target: https://quay.io/repository/biocontainers/genometools-genometools
+.. _`genometools-genometools/tags`: https://quay.io/repository/biocontainers/genometools-genometools?tab=tags
 
 
 
@@ -67,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genometools-genometools/README.html
-

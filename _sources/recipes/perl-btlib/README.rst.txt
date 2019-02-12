@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-btlib'
 .. highlight: bash
-
 
 perl-btlib
 ==========
@@ -21,11 +22,11 @@ perl-btlib
 
    |downloads_perl-btlib| |docker_perl-btlib|
 
-   :versions: 0.19
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-btlib|
+   :versions: 0.19-1, 0.19-0
+   
+   :depends perl: 5.22.0*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-btlib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-btlib
+      docker pull quay.io/repository/biocontainers/perl-btlib:<tag>
+
+   (see `perl-btlib/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-btlib| conda:required_by:: perl-btlib
 .. |downloads_perl-btlib| image:: https://img.shields.io/conda/dn/bioconda/perl-btlib.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-btlib| image:: https://quay.io/repository/biocontainers/perl-btlib/status
    :target: https://quay.io/repository/biocontainers/perl-btlib
+.. _`perl-btlib/tags`: https://quay.io/repository/biocontainers/perl-btlib?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-btlib/README.html
-

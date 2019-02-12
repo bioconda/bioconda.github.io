@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-geuvadistranscriptexpr'
 .. highlight: bash
-
 
 bioconductor-geuvadistranscriptexpr
 ===================================
@@ -21,11 +22,13 @@ bioconductor-geuvadistranscriptexpr
 
    |downloads_bioconductor-geuvadistranscriptexpr| |docker_bioconductor-geuvadistranscriptexpr|
 
-   :versions: 1.10.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-geuvadistranscriptexpr|
+   :versions: 1.10.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-geuvadistranscriptexpr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geuvadistranscriptexpr
+      docker pull quay.io/repository/biocontainers/bioconductor-geuvadistranscriptexpr:<tag>
+
+   (see `bioconductor-geuvadistranscriptexpr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-geuvadistranscriptexpr| conda:required_by:: bioconductor-geuvadistranscriptexpr
 .. |downloads_bioconductor-geuvadistranscriptexpr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geuvadistranscriptexpr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-geuvadistranscriptexpr| image:: https://quay.io/repository/biocontainers/bioconductor-geuvadistranscriptexpr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geuvadistranscriptexpr
+.. _`bioconductor-geuvadistranscriptexpr/tags`: https://quay.io/repository/biocontainers/bioconductor-geuvadistranscriptexpr?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-geuvadistranscriptexpr/README.html
-

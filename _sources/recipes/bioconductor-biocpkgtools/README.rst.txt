@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-biocpkgtools'
 .. highlight: bash
-
 
 bioconductor-biocpkgtools
 =========================
@@ -21,11 +22,41 @@ bioconductor-biocpkgtools
 
    |downloads_bioconductor-biocpkgtools| |docker_bioconductor-biocpkgtools|
 
-   :versions: 1.0.2
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biocmanager`  :conda:package:`r-dplyr`  :conda:package:`r-dt`  :conda:package:`r-htmltools`  :conda:package:`r-htmlwidgets`  :conda:package:`r-httr`  :conda:package:`r-igraph`  :conda:package:`r-jsonlite`  :conda:package:`r-readr`  :conda:package:`r-rex`  :conda:package:`r-rvest`  :conda:package:`r-stringr`  :conda:package:`r-tibble`  :conda:package:`r-tidyr`  :conda:package:`r-xml2`  
-
-   :required~by: |required_by_bioconductor-biocpkgtools|
+   :versions: 1.0.2-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-biocmanager: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-dt: 
+   
+   :depends r-htmltools: 
+   
+   :depends r-htmlwidgets: 
+   
+   :depends r-httr: 
+   
+   :depends r-igraph: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-readr: 
+   
+   :depends r-rex: 
+   
+   :depends r-rvest: 
+   
+   :depends r-stringr: 
+   
+   :depends r-tibble: 
+   
+   :depends r-tidyr: 
+   
+   :depends r-xml2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ bioconductor-biocpkgtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocpkgtools
+      docker pull quay.io/repository/biocontainers/bioconductor-biocpkgtools:<tag>
+
+   (see `bioconductor-biocpkgtools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-biocpkgtools| conda:required_by:: bioconductor-biocpkgtools
 .. |downloads_bioconductor-biocpkgtools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocpkgtools.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-biocpkgtools| image:: https://quay.io/repository/biocontainers/bioconductor-biocpkgtools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocpkgtools
+.. _`bioconductor-biocpkgtools/tags`: https://quay.io/repository/biocontainers/bioconductor-biocpkgtools?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-biocpkgtools/README.html
-

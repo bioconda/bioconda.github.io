@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sak'
 .. highlight: bash
-
 
 sak
 ===
@@ -21,11 +22,9 @@ sak
 
    |downloads_sak| |docker_sak|
 
-   :versions: 0.4.6
-
-   :depends: 
-
-   :required~by: |required_by_sak|
+   :versions: 0.4.6-1, 0.4.6-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ sak
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sak
+      docker pull quay.io/repository/biocontainers/sak:<tag>
+
+   (see `sak/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sak| conda:required_by:: sak
 .. |downloads_sak| image:: https://img.shields.io/conda/dn/bioconda/sak.svg?style=flat
    :alt:   (downloads)
 .. |docker_sak| image:: https://quay.io/repository/biocontainers/sak/status
    :target: https://quay.io/repository/biocontainers/sak
+.. _`sak/tags`: https://quay.io/repository/biocontainers/sak?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sak/README.html
-

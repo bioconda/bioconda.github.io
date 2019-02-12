@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-oncomix'
 .. highlight: bash
-
 
 bioconductor-oncomix
 ====================
@@ -21,11 +22,21 @@ bioconductor-oncomix
 
    |downloads_bioconductor-oncomix| |docker_bioconductor-oncomix|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-mclust`  :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_bioconductor-oncomix|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggrepel: 
+   
+   :depends r-mclust: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-oncomix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-oncomix
+      docker pull quay.io/repository/biocontainers/bioconductor-oncomix:<tag>
+
+   (see `bioconductor-oncomix/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-oncomix| conda:required_by:: bioconductor-oncomix
 .. |downloads_bioconductor-oncomix| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-oncomix.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-oncomix| image:: https://quay.io/repository/biocontainers/bioconductor-oncomix/status
    :target: https://quay.io/repository/biocontainers/bioconductor-oncomix
+.. _`bioconductor-oncomix/tags`: https://quay.io/repository/biocontainers/bioconductor-oncomix?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-oncomix/README.html
-

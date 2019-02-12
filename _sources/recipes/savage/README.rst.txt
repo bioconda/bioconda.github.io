@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'savage'
 .. highlight: bash
-
 
 savage
 ======
@@ -21,11 +22,21 @@ savage
 
    |downloads_savage| |docker_savage|
 
-   :versions: 0.4.0, 0.3.0, 0.2.1
-
-   :depends: :conda:package:`boost` 1.61* :conda:package:`bwa`  :conda:package:`kallisto` >=0.43.0 :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`rust-overlaps`  
-
-   :required~by: |required_by_savage|
+   :versions: 0.4.0-2, 0.4.0-1, 0.4.0-0, 0.3.0-0, 0.2.1-1, 0.2.1-0
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends bwa: 
+   
+   :depends kallisto: >=0.43.0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends rust-overlaps: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ savage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/savage
+      docker pull quay.io/repository/biocontainers/savage:<tag>
+
+   (see `savage/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_savage| conda:required_by:: savage
 .. |downloads_savage| image:: https://img.shields.io/conda/dn/bioconda/savage.svg?style=flat
    :alt:   (downloads)
 .. |docker_savage| image:: https://quay.io/repository/biocontainers/savage/status
    :target: https://quay.io/repository/biocontainers/savage
+.. _`savage/tags`: https://quay.io/repository/biocontainers/savage?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/savage/README.html
-

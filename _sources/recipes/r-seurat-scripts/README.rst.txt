@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-seurat-scripts'
 .. highlight: bash
-
 
 r-seurat-scripts
 ================
@@ -21,11 +22,17 @@ r-seurat-scripts
 
    |downloads_r-seurat-scripts| |docker_r-seurat-scripts|
 
-   :versions: 0.0.4, 0.0.3, 0.0.2, 0.0.1
-
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-optparse`  :conda:package:`r-seurat` 2.3.1.* :conda:package:`r-workflowscriptscommon`  
-
-   :required~by: |required_by_r-seurat-scripts|
+   :versions: 0.0.4-2, 0.0.4-1, 0.0.3-0, 0.0.2-0, 0.0.1-0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-optparse: 
+   
+   :depends r-seurat: 2.3.1.*
+   
+   :depends r-workflowscriptscommon: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-seurat-scripts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-seurat-scripts
+      docker pull quay.io/repository/biocontainers/r-seurat-scripts:<tag>
+
+   (see `r-seurat-scripts/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-seurat-scripts| conda:required_by:: r-seurat-scripts
 .. |downloads_r-seurat-scripts| image:: https://img.shields.io/conda/dn/bioconda/r-seurat-scripts.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-seurat-scripts| image:: https://quay.io/repository/biocontainers/r-seurat-scripts/status
    :target: https://quay.io/repository/biocontainers/r-seurat-scripts
+.. _`r-seurat-scripts/tags`: https://quay.io/repository/biocontainers/r-seurat-scripts?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-seurat-scripts/README.html
-

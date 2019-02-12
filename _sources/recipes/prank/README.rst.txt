@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'prank'
 .. highlight: bash
-
 
 prank
 =====
@@ -22,11 +23,11 @@ prank
 
    |downloads_prank| |docker_prank|
 
-   :versions: v.170427, v.150803
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_prank|
+   :versions: v.170427-1, v.170427-0, v.150803-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ prank
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prank
+      docker pull quay.io/repository/biocontainers/prank:<tag>
+
+   (see `prank/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_prank| conda:required_by:: prank
 .. |downloads_prank| image:: https://img.shields.io/conda/dn/bioconda/prank.svg?style=flat
    :alt:   (downloads)
 .. |docker_prank| image:: https://quay.io/repository/biocontainers/prank/status
    :target: https://quay.io/repository/biocontainers/prank
+.. _`prank/tags`: https://quay.io/repository/biocontainers/prank?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/prank/README.html
-

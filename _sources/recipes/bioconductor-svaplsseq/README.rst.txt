@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-svaplsseq'
 .. highlight: bash
-
 
 bioconductor-svaplsseq
 ======================
@@ -22,11 +23,23 @@ bioconductor-svaplsseq
 
    |downloads_bioconductor-svaplsseq| |docker_bioconductor-svaplsseq|
 
-   :versions: 1.8.0, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-lmtest`  :conda:package:`r-pls`  
-
-   :required~by: |required_by_bioconductor-svaplsseq|
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-lmtest: 
+   
+   :depends r-pls: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ bioconductor-svaplsseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-svaplsseq
+      docker pull quay.io/repository/biocontainers/bioconductor-svaplsseq:<tag>
+
+   (see `bioconductor-svaplsseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-svaplsseq| conda:required_by:: bioconductor-svaplsseq
 .. |downloads_bioconductor-svaplsseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-svaplsseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-svaplsseq| image:: https://quay.io/repository/biocontainers/bioconductor-svaplsseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-svaplsseq
+.. _`bioconductor-svaplsseq/tags`: https://quay.io/repository/biocontainers/bioconductor-svaplsseq?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-svaplsseq/README.html
-

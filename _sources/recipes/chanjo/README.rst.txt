@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'chanjo'
 .. highlight: bash
-
 
 chanjo
 ======
@@ -21,11 +22,27 @@ chanjo
 
    |downloads_chanjo| |docker_chanjo|
 
-   :versions: 3.3.0, 3.1.1
-
-   :depends: :conda:package:`click`  :conda:package:`path.py`  :conda:package:`python` 2.7* :conda:package:`pyyaml`  :conda:package:`sambamba`  :conda:package:`setuptools`  :conda:package:`setuptools`  :conda:package:`sqlalchemy` >=0.8.2 :conda:package:`toolz`  
-
-   :required~by: |required_by_chanjo|
+   :versions: 3.3.0-0, 3.1.1-0
+   
+   :depends click: 
+   
+   :depends path.py: 
+   
+   :depends python: 2.7*
+   
+   :depends pyyaml: 
+   
+   :depends sambamba: 
+   
+   :depends setuptools: 
+   
+   :depends setuptools: 
+   
+   :depends sqlalchemy: >=0.8.2
+   
+   :depends toolz: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ chanjo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/chanjo
+      docker pull quay.io/repository/biocontainers/chanjo:<tag>
+
+   (see `chanjo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_chanjo| conda:required_by:: chanjo
 .. |downloads_chanjo| image:: https://img.shields.io/conda/dn/bioconda/chanjo.svg?style=flat
    :alt:   (downloads)
 .. |docker_chanjo| image:: https://quay.io/repository/biocontainers/chanjo/status
    :target: https://quay.io/repository/biocontainers/chanjo
+.. _`chanjo/tags`: https://quay.io/repository/biocontainers/chanjo?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/chanjo/README.html
-

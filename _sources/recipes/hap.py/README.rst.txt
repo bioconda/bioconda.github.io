@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hap.py'
 .. highlight: bash
-
 
 hap.py
 ======
@@ -21,11 +22,35 @@ hap.py
 
    |downloads_hap.py| |docker_hap.py|
 
-   :versions: 0.3.10, 0.3.7, 0.2.9
-
-   :depends: :conda:package:`bcftools`  :conda:package:`bx-python`  :conda:package:`cython`  :conda:package:`libgcc`  :conda:package:`nose`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pybedtools`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`samtools`  :conda:package:`scipy`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_hap.py|
+   :versions: 0.3.10-0, 0.3.7-1, 0.3.7-0, 0.2.9-1, 0.2.9-0
+   
+   :depends bcftools: 
+   
+   :depends bx-python: 
+   
+   :depends cython: 
+   
+   :depends libgcc: 
+   
+   :depends nose: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends pybedtools: 
+   
+   :depends pysam: 
+   
+   :depends python: 2.7*
+   
+   :depends samtools: 
+   
+   :depends scipy: 
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ hap.py
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hap.py
+      docker pull quay.io/repository/biocontainers/hap.py:<tag>
+
+   (see `hap.py/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hap.py| conda:required_by:: hap.py
 .. |downloads_hap.py| image:: https://img.shields.io/conda/dn/bioconda/hap.py.svg?style=flat
    :alt:   (downloads)
 .. |docker_hap.py| image:: https://quay.io/repository/biocontainers/hap.py/status
    :target: https://quay.io/repository/biocontainers/hap.py
+.. _`hap.py/tags`: https://quay.io/repository/biocontainers/hap.py?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hap.py/README.html
-

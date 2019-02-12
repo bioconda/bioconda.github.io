@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-asgsca'
 .. highlight: bash
-
 
 bioconductor-asgsca
 ===================
@@ -22,11 +23,15 @@ bioconductor-asgsca
 
    |downloads_bioconductor-asgsca| |docker_bioconductor-asgsca|
 
-   :versions: 1.16.0, 1.14.0, 1.12.0, 1.10.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  :conda:package:`r-matrix`  
-
-   :required~by: |required_by_bioconductor-asgsca|
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mass: 
+   
+   :depends r-matrix: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-asgsca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-asgsca
+      docker pull quay.io/repository/biocontainers/bioconductor-asgsca:<tag>
+
+   (see `bioconductor-asgsca/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-asgsca| conda:required_by:: bioconductor-asgsca
 .. |downloads_bioconductor-asgsca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-asgsca.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-asgsca| image:: https://quay.io/repository/biocontainers/bioconductor-asgsca/status
    :target: https://quay.io/repository/biocontainers/bioconductor-asgsca
+.. _`bioconductor-asgsca/tags`: https://quay.io/repository/biocontainers/bioconductor-asgsca?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-asgsca/README.html
-

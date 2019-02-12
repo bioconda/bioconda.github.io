@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'squid'
 .. highlight: bash
-
 
 squid
 =====
@@ -22,11 +23,19 @@ squid
 
    |downloads_squid| |docker_squid|
 
-   :versions: 1.5, 1.4
-
-   :depends: :conda:package:`bamtools` >=2.4.1,<2.4.2.0a0 :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`glpk` >=4.65,<4.66.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_squid|
+   :versions: 1.5-0, 1.4-0
+   
+   :depends bamtools: >=2.4.1,<2.4.2.0a0
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends glpk: >=4.65,<4.66.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ squid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/squid
+      docker pull quay.io/repository/biocontainers/squid:<tag>
+
+   (see `squid/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_squid| conda:required_by:: squid
 .. |downloads_squid| image:: https://img.shields.io/conda/dn/bioconda/squid.svg?style=flat
    :alt:   (downloads)
 .. |docker_squid| image:: https://quay.io/repository/biocontainers/squid/status
    :target: https://quay.io/repository/biocontainers/squid
+.. _`squid/tags`: https://quay.io/repository/biocontainers/squid?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/squid/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vnl'
 .. highlight: bash
-
 
 vnl
 ===
@@ -21,11 +22,11 @@ vnl
 
    |downloads_vnl| |docker_vnl|
 
-   :versions: 1.17.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_vnl|
+   :versions: 1.17.0-0
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ vnl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vnl
+      docker pull quay.io/repository/biocontainers/vnl:<tag>
+
+   (see `vnl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vnl| conda:required_by:: vnl
 .. |downloads_vnl| image:: https://img.shields.io/conda/dn/bioconda/vnl.svg?style=flat
    :alt:   (downloads)
 .. |docker_vnl| image:: https://quay.io/repository/biocontainers/vnl/status
    :target: https://quay.io/repository/biocontainers/vnl
+.. _`vnl/tags`: https://quay.io/repository/biocontainers/vnl?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vnl/README.html
-

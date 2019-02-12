@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bismark'
 .. highlight: bash
-
 
 bismark
 =======
@@ -22,11 +23,15 @@ bismark
 
    |downloads_bismark| |docker_bismark|
 
-   :versions: 0.20.0, 0.19.1, 0.19.0, 0.18.1, 0.17.0
-
-   :depends: :conda:package:`bowtie2`  :conda:package:`perl`  :conda:package:`samtools`  
-
-   :required~by: |required_by_bismark|
+   :versions: 0.20.0-0, 0.19.1-0, 0.19.0-1, 0.19.0-0, 0.18.1-0, 0.17.0-0
+   
+   :depends bowtie2: 
+   
+   :depends perl: 
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bismark
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bismark
+      docker pull quay.io/repository/biocontainers/bismark:<tag>
+
+   (see `bismark/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bismark| conda:required_by:: bismark
 .. |downloads_bismark| image:: https://img.shields.io/conda/dn/bioconda/bismark.svg?style=flat
    :alt:   (downloads)
 .. |docker_bismark| image:: https://quay.io/repository/biocontainers/bismark/status
    :target: https://quay.io/repository/biocontainers/bismark
+.. _`bismark/tags`: https://quay.io/repository/biocontainers/bismark?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bismark/README.html
-

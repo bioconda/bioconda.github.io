@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-gem'
 .. highlight: bash
-
 
 bioconductor-gem
 ================
@@ -21,11 +22,13 @@ bioconductor-gem
 
    |downloads_bioconductor-gem| |docker_bioconductor-gem|
 
-   :versions: 1.8.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  
-
-   :required~by: |required_by_bioconductor-gem|
+   :versions: 1.8.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-gem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gem
+      docker pull quay.io/repository/biocontainers/bioconductor-gem:<tag>
+
+   (see `bioconductor-gem/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-gem| conda:required_by:: bioconductor-gem
 .. |downloads_bioconductor-gem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gem.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-gem| image:: https://quay.io/repository/biocontainers/bioconductor-gem/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gem
+.. _`bioconductor-gem/tags`: https://quay.io/repository/biocontainers/bioconductor-gem?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-gem/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'consel'
 .. highlight: bash
-
 
 consel
 ======
@@ -21,11 +22,11 @@ consel
 
    |downloads_consel| |docker_consel|
 
-   :versions: 0.20
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_consel|
+   :versions: 0.20-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ consel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/consel
+      docker pull quay.io/repository/biocontainers/consel:<tag>
+
+   (see `consel/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_consel| conda:required_by:: consel
 .. |downloads_consel| image:: https://img.shields.io/conda/dn/bioconda/consel.svg?style=flat
    :alt:   (downloads)
 .. |docker_consel| image:: https://quay.io/repository/biocontainers/consel/status
    :target: https://quay.io/repository/biocontainers/consel
+.. _`consel/tags`: https://quay.io/repository/biocontainers/consel?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/consel/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'connectome-workbench'
 .. highlight: bash
-
 
 connectome-workbench
 ====================
@@ -22,11 +23,41 @@ connectome-workbench
 
    |downloads_connectome-workbench| |docker_connectome-workbench|
 
-   :versions: 1.3.2, 1.3.1
-
-   :depends: :conda:package:`freetype` >=2.9.1,<3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libglu`  :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`mesa`  :conda:package:`openmp`  :conda:package:`openssl` >=1.0.2p,<1.0.3a :conda:package:`qt` >=5.9.6,<5.10.0a0 :conda:package:`xorg-libx11`  :conda:package:`xorg-libxau`  :conda:package:`xorg-libxcb`  :conda:package:`xorg-libxdmcp`  :conda:package:`xorg-libxext`  :conda:package:`xorg-libxfixes`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_connectome-workbench|
+   :versions: 1.3.2-0, 1.3.1-1, 1.3.1-0
+   
+   :depends freetype: >=2.9.1,<3.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libglu: 
+   
+   :depends libpng: >=1.6.34,<1.7.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends mesa: 
+   
+   :depends openmp: 
+   
+   :depends openssl: >=1.0.2p,<1.0.3a
+   
+   :depends qt: >=5.9.6,<5.10.0a0
+   
+   :depends xorg-libx11: 
+   
+   :depends xorg-libxau: 
+   
+   :depends xorg-libxcb: 
+   
+   :depends xorg-libxdmcp: 
+   
+   :depends xorg-libxext: 
+   
+   :depends xorg-libxfixes: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +71,16 @@ connectome-workbench
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/connectome-workbench
+      docker pull quay.io/repository/biocontainers/connectome-workbench:<tag>
+
+   (see `connectome-workbench/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_connectome-workbench| conda:required_by:: connectome-workbench
 .. |downloads_connectome-workbench| image:: https://img.shields.io/conda/dn/bioconda/connectome-workbench.svg?style=flat
    :alt:   (downloads)
 .. |docker_connectome-workbench| image:: https://quay.io/repository/biocontainers/connectome-workbench/status
    :target: https://quay.io/repository/biocontainers/connectome-workbench
+.. _`connectome-workbench/tags`: https://quay.io/repository/biocontainers/connectome-workbench?tab=tags
 
 
 
@@ -64,4 +97,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/connectome-workbench/README.html
-

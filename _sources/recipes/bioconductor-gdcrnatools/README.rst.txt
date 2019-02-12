@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-gdcrnatools'
 .. highlight: bash
-
 
 bioconductor-gdcrnatools
 ========================
@@ -21,11 +22,49 @@ bioconductor-gdcrnatools
 
    |downloads_bioconductor-gdcrnatools| |docker_bioconductor-gdcrnatools|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-clusterprofiler` >=3.10.0,<3.11.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-dose` >=3.8.0,<3.9.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-genomicdatacommons` >=1.6.0,<1.7.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-pathview` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dt`  :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-jsonlite`  :conda:package:`r-rjson`  :conda:package:`r-shiny`  :conda:package:`r-survival`  :conda:package:`r-survminer`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-gdcrnatools|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-clusterprofiler: >=3.10.0,<3.11.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-dose: >=3.8.0,<3.9.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-genomicdatacommons: >=1.6.0,<1.7.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-pathview: >=1.22.0,<1.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dt: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-rjson: 
+   
+   :depends r-shiny: 
+   
+   :depends r-survival: 
+   
+   :depends r-survminer: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +78,16 @@ bioconductor-gdcrnatools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gdcrnatools
+      docker pull quay.io/repository/biocontainers/bioconductor-gdcrnatools:<tag>
+
+   (see `bioconductor-gdcrnatools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-gdcrnatools| conda:required_by:: bioconductor-gdcrnatools
 .. |downloads_bioconductor-gdcrnatools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gdcrnatools.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-gdcrnatools| image:: https://quay.io/repository/biocontainers/bioconductor-gdcrnatools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gdcrnatools
+.. _`bioconductor-gdcrnatools/tags`: https://quay.io/repository/biocontainers/bioconductor-gdcrnatools?tab=tags
 
 
 
@@ -63,4 +104,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-gdcrnatools/README.html
-

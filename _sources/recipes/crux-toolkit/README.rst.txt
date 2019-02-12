@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'crux-toolkit'
 .. highlight: bash
-
 
 crux-toolkit
 ============
@@ -22,11 +23,13 @@ crux-toolkit
 
    |downloads_crux-toolkit| |docker_crux-toolkit|
 
-   :versions: 3.2
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_crux-toolkit|
+   :versions: 3.2-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ crux-toolkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/crux-toolkit
+      docker pull quay.io/repository/biocontainers/crux-toolkit:<tag>
+
+   (see `crux-toolkit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_crux-toolkit| conda:required_by:: crux-toolkit
 .. |downloads_crux-toolkit| image:: https://img.shields.io/conda/dn/bioconda/crux-toolkit.svg?style=flat
    :alt:   (downloads)
 .. |docker_crux-toolkit| image:: https://quay.io/repository/biocontainers/crux-toolkit/status
    :target: https://quay.io/repository/biocontainers/crux-toolkit
+.. _`crux-toolkit/tags`: https://quay.io/repository/biocontainers/crux-toolkit?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/crux-toolkit/README.html
-

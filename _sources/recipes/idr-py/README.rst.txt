@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'idr-py'
 .. highlight: bash
-
 
 idr-py
 ======
@@ -59,11 +60,25 @@ idr-py
 
    |downloads_idr-py| |docker_idr-py|
 
-   :versions: 0.3.0, 0.2.1, 0.2.0
-
-   :depends: :conda:package:`ipython`  :conda:package:`ipywidgets`  :conda:package:`matplotlib`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`python-omero` <5.5 :conda:package:`requests`  :conda:package:`seaborn`  
-
-   :required~by: |required_by_idr-py|
+   :versions: 0.3.0-1, 0.3.0-0, 0.2.1-0, 0.2.0-0
+   
+   :depends ipython: 
+   
+   :depends ipywidgets: 
+   
+   :depends matplotlib: 
+   
+   :depends pandas: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends python-omero: <5.5
+   
+   :depends requests: 
+   
+   :depends seaborn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -77,14 +92,16 @@ idr-py
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/idr-py
+      docker pull quay.io/repository/biocontainers/idr-py:<tag>
+
+   (see `idr-py/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_idr-py| conda:required_by:: idr-py
 .. |downloads_idr-py| image:: https://img.shields.io/conda/dn/bioconda/idr-py.svg?style=flat
    :alt:   (downloads)
 .. |docker_idr-py| image:: https://quay.io/repository/biocontainers/idr-py/status
    :target: https://quay.io/repository/biocontainers/idr-py
+.. _`idr-py/tags`: https://quay.io/repository/biocontainers/idr-py?tab=tags
 
 
 
@@ -101,4 +118,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/idr-py/README.html
-

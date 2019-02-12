@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-netreg'
 .. highlight: bash
-
 
 bioconductor-netreg
 ===================
@@ -21,11 +22,19 @@ bioconductor-netreg
 
    |downloads_bioconductor-netreg| |docker_bioconductor-netreg|
 
-   :versions: 1.6.0, 1.4.0, 1.2.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  
-
-   :required~by: |required_by_bioconductor-netreg|
+   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcpp: 
+   
+   :depends r-rcpparmadillo: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-netreg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-netreg
+      docker pull quay.io/repository/biocontainers/bioconductor-netreg:<tag>
+
+   (see `bioconductor-netreg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-netreg| conda:required_by:: bioconductor-netreg
 .. |downloads_bioconductor-netreg| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-netreg.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-netreg| image:: https://quay.io/repository/biocontainers/bioconductor-netreg/status
    :target: https://quay.io/repository/biocontainers/bioconductor-netreg
+.. _`bioconductor-netreg/tags`: https://quay.io/repository/biocontainers/bioconductor-netreg?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-netreg/README.html
-

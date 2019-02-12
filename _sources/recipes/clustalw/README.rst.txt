@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'clustalw'
 .. highlight: bash
-
 
 clustalw
 ========
@@ -21,11 +22,13 @@ clustalw
 
    |downloads_clustalw| |docker_clustalw|
 
-   :versions: 2.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_clustalw|
+   :versions: 2.1-3, 2.1-2, 2.1-1, 2.1-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ clustalw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clustalw
+      docker pull quay.io/repository/biocontainers/clustalw:<tag>
+
+   (see `clustalw/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_clustalw| conda:required_by:: clustalw
 .. |downloads_clustalw| image:: https://img.shields.io/conda/dn/bioconda/clustalw.svg?style=flat
    :alt:   (downloads)
 .. |docker_clustalw| image:: https://quay.io/repository/biocontainers/clustalw/status
    :target: https://quay.io/repository/biocontainers/clustalw
+.. _`clustalw/tags`: https://quay.io/repository/biocontainers/clustalw?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/clustalw/README.html
-

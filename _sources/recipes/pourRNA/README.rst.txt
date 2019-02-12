@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pourrna'
 .. highlight: bash
-
 
 pourrna
 =======
@@ -21,11 +22,15 @@ pourrna
 
    |downloads_pourrna| |docker_pourrna|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`viennarna` >=2.4.11,<3.0.0 
-
-   :required~by: |required_by_pourrna|
+   :versions: 1.0.1-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends viennarna: >=2.4.11,<3.0.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pourrna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pourrna
+      docker pull quay.io/repository/biocontainers/pourrna:<tag>
+
+   (see `pourrna/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pourrna| conda:required_by:: pourrna
 .. |downloads_pourrna| image:: https://img.shields.io/conda/dn/bioconda/pourrna.svg?style=flat
    :alt:   (downloads)
 .. |docker_pourrna| image:: https://quay.io/repository/biocontainers/pourrna/status
    :target: https://quay.io/repository/biocontainers/pourrna
+.. _`pourrna/tags`: https://quay.io/repository/biocontainers/pourrna?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pourrna/README.html
-

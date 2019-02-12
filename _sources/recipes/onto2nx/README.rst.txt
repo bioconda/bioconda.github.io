@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'onto2nx'
 .. highlight: bash
-
 
 onto2nx
 =======
@@ -21,11 +22,29 @@ onto2nx
 
    |downloads_onto2nx| |docker_onto2nx|
 
-   :versions: 0.1.0
-
-   :depends: :conda:package:`click`  :conda:package:`colorama`  :conda:package:`networkx`  :conda:package:`pyfiglet`  :conda:package:`pygments`  :conda:package:`python` 2.7* :conda:package:`rdflib`  :conda:package:`rdflib-jsonld`  :conda:package:`requests`  :conda:package:`sparqlwrapper`  
-
-   :required~by: |required_by_onto2nx|
+   :versions: 0.1.0-0
+   
+   :depends click: 
+   
+   :depends colorama: 
+   
+   :depends networkx: 
+   
+   :depends pyfiglet: 
+   
+   :depends pygments: 
+   
+   :depends python: 2.7*
+   
+   :depends rdflib: 
+   
+   :depends rdflib-jsonld: 
+   
+   :depends requests: 
+   
+   :depends sparqlwrapper: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ onto2nx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/onto2nx
+      docker pull quay.io/repository/biocontainers/onto2nx:<tag>
+
+   (see `onto2nx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_onto2nx| conda:required_by:: onto2nx
 .. |downloads_onto2nx| image:: https://img.shields.io/conda/dn/bioconda/onto2nx.svg?style=flat
    :alt:   (downloads)
 .. |docker_onto2nx| image:: https://quay.io/repository/biocontainers/onto2nx/status
    :target: https://quay.io/repository/biocontainers/onto2nx
+.. _`onto2nx/tags`: https://quay.io/repository/biocontainers/onto2nx?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/onto2nx/README.html
-

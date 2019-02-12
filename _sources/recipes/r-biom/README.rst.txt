@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-biom'
 .. highlight: bash
-
 
 r-biom
 ======
@@ -21,11 +22,17 @@ r-biom
 
    |downloads_r-biom| |docker_r-biom|
 
-   :versions: 0.3.12
-
-   :depends: :conda:package:`r` 3.2.2* :conda:package:`r-matrix`  :conda:package:`r-plyr`  :conda:package:`r-rjsonio`  
-
-   :required~by: |required_by_r-biom|
+   :versions: 0.3.12-0
+   
+   :depends r: 3.2.2*
+   
+   :depends r-matrix: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rjsonio: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-biom
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-biom
+      docker pull quay.io/repository/biocontainers/r-biom:<tag>
+
+   (see `r-biom/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-biom| conda:required_by:: r-biom
 .. |downloads_r-biom| image:: https://img.shields.io/conda/dn/bioconda/r-biom.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-biom| image:: https://quay.io/repository/biocontainers/r-biom/status
    :target: https://quay.io/repository/biocontainers/r-biom
+.. _`r-biom/tags`: https://quay.io/repository/biocontainers/r-biom?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-biom/README.html
-

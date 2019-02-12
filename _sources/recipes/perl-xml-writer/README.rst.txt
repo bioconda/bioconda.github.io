@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-xml-writer'
 .. highlight: bash
-
 
 perl-xml-writer
 ===============
@@ -21,11 +22,11 @@ perl-xml-writer
 
    |downloads_perl-xml-writer| |docker_perl-xml-writer|
 
-   :versions: 0.625
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-xml-writer|
+   :versions: 0.625-2, 0.625-1, 0.625-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-xml-writer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-writer
+      docker pull quay.io/repository/biocontainers/perl-xml-writer:<tag>
+
+   (see `perl-xml-writer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-xml-writer| conda:required_by:: perl-xml-writer
 .. |downloads_perl-xml-writer| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-writer.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-xml-writer| image:: https://quay.io/repository/biocontainers/perl-xml-writer/status
    :target: https://quay.io/repository/biocontainers/perl-xml-writer
+.. _`perl-xml-writer/tags`: https://quay.io/repository/biocontainers/perl-xml-writer?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-xml-writer/README.html
-

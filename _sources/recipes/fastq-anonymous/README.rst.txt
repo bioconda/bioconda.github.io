@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastq-anonymous'
 .. highlight: bash
-
 
 fastq-anonymous
 ===============
@@ -21,11 +22,13 @@ fastq-anonymous
 
    |downloads_fastq-anonymous| |docker_fastq-anonymous|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`biopython`  :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_fastq-anonymous|
+   :versions: 1.0.1-1, 1.0.1-0
+   
+   :depends biopython: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ fastq-anonymous
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastq-anonymous
+      docker pull quay.io/repository/biocontainers/fastq-anonymous:<tag>
+
+   (see `fastq-anonymous/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastq-anonymous| conda:required_by:: fastq-anonymous
 .. |downloads_fastq-anonymous| image:: https://img.shields.io/conda/dn/bioconda/fastq-anonymous.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastq-anonymous| image:: https://quay.io/repository/biocontainers/fastq-anonymous/status
    :target: https://quay.io/repository/biocontainers/fastq-anonymous
+.. _`fastq-anonymous/tags`: https://quay.io/repository/biocontainers/fastq-anonymous?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastq-anonymous/README.html
-

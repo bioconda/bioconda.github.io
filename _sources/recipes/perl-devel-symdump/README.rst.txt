@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-devel-symdump'
 .. highlight: bash
-
 
 perl-devel-symdump
 ==================
@@ -21,11 +22,11 @@ perl-devel-symdump
 
    |downloads_perl-devel-symdump| |docker_perl-devel-symdump|
 
-   :versions: 2.18
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-devel-symdump|
+   :versions: 2.18-1, 2.18-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-devel-symdump
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-devel-symdump
+      docker pull quay.io/repository/biocontainers/perl-devel-symdump:<tag>
+
+   (see `perl-devel-symdump/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-devel-symdump| conda:required_by:: perl-devel-symdump
 .. |downloads_perl-devel-symdump| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-symdump.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-devel-symdump| image:: https://quay.io/repository/biocontainers/perl-devel-symdump/status
    :target: https://quay.io/repository/biocontainers/perl-devel-symdump
+.. _`perl-devel-symdump/tags`: https://quay.io/repository/biocontainers/perl-devel-symdump?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-devel-symdump/README.html
-

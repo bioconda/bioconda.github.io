@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-script'
 .. highlight: bash
-
 
 perl-test-script
 ================
@@ -21,11 +22,17 @@ perl-test-script
 
    |downloads_perl-test-script| |docker_perl-test-script|
 
-   :versions: 1.25
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-capture-tiny`  :conda:package:`perl-probe-perl`  :conda:package:`perl-text-parsewords`  
-
-   :required~by: |required_by_perl-test-script|
+   :versions: 1.25-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-capture-tiny: 
+   
+   :depends perl-probe-perl: 
+   
+   :depends perl-text-parsewords: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-test-script
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-script
+      docker pull quay.io/repository/biocontainers/perl-test-script:<tag>
+
+   (see `perl-test-script/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-script| conda:required_by:: perl-test-script
 .. |downloads_perl-test-script| image:: https://img.shields.io/conda/dn/bioconda/perl-test-script.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-script| image:: https://quay.io/repository/biocontainers/perl-test-script/status
    :target: https://quay.io/repository/biocontainers/perl-test-script
+.. _`perl-test-script/tags`: https://quay.io/repository/biocontainers/perl-test-script?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-script/README.html
-

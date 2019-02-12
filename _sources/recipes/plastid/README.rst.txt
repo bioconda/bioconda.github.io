@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'plastid'
 .. highlight: bash
-
 
 plastid
 =======
@@ -21,11 +22,37 @@ plastid
 
    |downloads_plastid| |docker_plastid|
 
-   :versions: 0.4.8, 0.4.7
-
-   :depends: :conda:package:`biopython` >=1.64 :conda:package:`bowtie`  :conda:package:`cython` >=0.22.0 :conda:package:`fastx_toolkit`  :conda:package:`libgcc`  :conda:package:`matplotlib` >=1.4.0 :conda:package:`numpy` >=1.9.0 :conda:package:`pandas` >=0.17.0 :conda:package:`pysam` >=0.8.4 :conda:package:`python` 2.7* :conda:package:`scipy` >=0.15.1 :conda:package:`termcolor`  :conda:package:`twobitreader` >=3.0.0 :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_plastid|
+   :versions: 0.4.8-1, 0.4.8-0, 0.4.7-1, 0.4.7-0
+   
+   :depends biopython: >=1.64
+   
+   :depends bowtie: 
+   
+   :depends cython: >=0.22.0
+   
+   :depends fastx_toolkit: 
+   
+   :depends libgcc: 
+   
+   :depends matplotlib: >=1.4.0
+   
+   :depends numpy: >=1.9.0,<1.12.0
+   
+   :depends pandas: >=0.17.0
+   
+   :depends pysam: >=0.8.4
+   
+   :depends python: 2.7*
+   
+   :depends scipy: >=0.15.1
+   
+   :depends termcolor: 
+   
+   :depends twobitreader: >=3.0.0
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ plastid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plastid
+      docker pull quay.io/repository/biocontainers/plastid:<tag>
+
+   (see `plastid/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_plastid| conda:required_by:: plastid
 .. |downloads_plastid| image:: https://img.shields.io/conda/dn/bioconda/plastid.svg?style=flat
    :alt:   (downloads)
 .. |docker_plastid| image:: https://quay.io/repository/biocontainers/plastid/status
    :target: https://quay.io/repository/biocontainers/plastid
+.. _`plastid/tags`: https://quay.io/repository/biocontainers/plastid?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/plastid/README.html
-

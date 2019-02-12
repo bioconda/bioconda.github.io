@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sqlitebrowser'
 .. highlight: bash
-
 
 sqlitebrowser
 =============
@@ -21,11 +22,15 @@ sqlitebrowser
 
    |downloads_sqlitebrowser| |docker_sqlitebrowser|
 
-   :versions: 3.8.0
-
-   :depends: :conda:package:`libgcc`  :conda:package:`qt`  :conda:package:`sqlite`  
-
-   :required~by: |required_by_sqlitebrowser|
+   :versions: 3.8.0-0
+   
+   :depends libgcc: 
+   
+   :depends qt: 
+   
+   :depends sqlite: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ sqlitebrowser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sqlitebrowser
+      docker pull quay.io/repository/biocontainers/sqlitebrowser:<tag>
+
+   (see `sqlitebrowser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sqlitebrowser| conda:required_by:: sqlitebrowser
 .. |downloads_sqlitebrowser| image:: https://img.shields.io/conda/dn/bioconda/sqlitebrowser.svg?style=flat
    :alt:   (downloads)
 .. |docker_sqlitebrowser| image:: https://quay.io/repository/biocontainers/sqlitebrowser/status
    :target: https://quay.io/repository/biocontainers/sqlitebrowser
+.. _`sqlitebrowser/tags`: https://quay.io/repository/biocontainers/sqlitebrowser?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sqlitebrowser/README.html
-

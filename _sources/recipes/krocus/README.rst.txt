@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'krocus'
 .. highlight: bash
-
 
 krocus
 ======
@@ -24,11 +25,17 @@ krocus
 
    |downloads_krocus| |docker_krocus|
 
-   :versions: 1.0.1, 1.0.0, 0.2.3, 0.2.2
-
-   :depends: :conda:package:`biopython` >=1.68 :conda:package:`pyfastaq` >=3.14.0 :conda:package:`python` >=3 :conda:package:`setuptools`  
-
-   :required~by: |required_by_krocus|
+   :versions: 1.0.1-0, 1.0.0-0, 0.2.3-0, 0.2.2-1, 0.2.2-0
+   
+   :depends biopython: >=1.68
+   
+   :depends pyfastaq: >=3.14.0
+   
+   :depends python: >=3
+   
+   :depends setuptools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +49,16 @@ krocus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/krocus
+      docker pull quay.io/repository/biocontainers/krocus:<tag>
+
+   (see `krocus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_krocus| conda:required_by:: krocus
 .. |downloads_krocus| image:: https://img.shields.io/conda/dn/bioconda/krocus.svg?style=flat
    :alt:   (downloads)
 .. |docker_krocus| image:: https://quay.io/repository/biocontainers/krocus/status
    :target: https://quay.io/repository/biocontainers/krocus
+.. _`krocus/tags`: https://quay.io/repository/biocontainers/krocus?tab=tags
 
 
 
@@ -66,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/krocus/README.html
-

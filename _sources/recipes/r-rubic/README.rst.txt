@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-rubic'
 .. highlight: bash
-
 
 r-rubic
 =======
@@ -21,11 +22,21 @@ r-rubic
 
    |downloads_r-rubic| |docker_r-rubic|
 
-   :versions: 1.0.3, 1.0.2
-
-   :depends: :conda:package:`r-base` 3.3.1* :conda:package:`r-data.table` >1.9.6 :conda:package:`r-digest`  :conda:package:`r-ggplot2`  :conda:package:`r-gtable`  :conda:package:`r-pracma`  
-
-   :required~by: |required_by_r-rubic|
+   :versions: 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-data.table: >1.9.6
+   
+   :depends r-digest: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gtable: 
+   
+   :depends r-pracma: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-rubic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rubic
+      docker pull quay.io/repository/biocontainers/r-rubic:<tag>
+
+   (see `r-rubic/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-rubic| conda:required_by:: r-rubic
 .. |downloads_r-rubic| image:: https://img.shields.io/conda/dn/bioconda/r-rubic.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-rubic| image:: https://quay.io/repository/biocontainers/r-rubic/status
    :target: https://quay.io/repository/biocontainers/r-rubic
+.. _`r-rubic/tags`: https://quay.io/repository/biocontainers/r-rubic?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-rubic/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-annotables'
 .. highlight: bash
-
 
 r-annotables
 ============
@@ -22,11 +23,13 @@ r-annotables
 
    |downloads_r-annotables| |docker_r-annotables|
 
-   :versions: v0.1.90
-
-   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-tibble`  
-
-   :required~by: |required_by_r-annotables|
+   :versions: v0.1.90-1, v0.1.90-0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-tibble: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ r-annotables
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-annotables
+      docker pull quay.io/repository/biocontainers/r-annotables:<tag>
+
+   (see `r-annotables/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-annotables| conda:required_by:: r-annotables
 .. |downloads_r-annotables| image:: https://img.shields.io/conda/dn/bioconda/r-annotables.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-annotables| image:: https://quay.io/repository/biocontainers/r-annotables/status
    :target: https://quay.io/repository/biocontainers/r-annotables
+.. _`r-annotables/tags`: https://quay.io/repository/biocontainers/r-annotables?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-annotables/README.html
-

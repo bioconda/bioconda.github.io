@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-html-entities-numbered'
 .. highlight: bash
-
 
 perl-html-entities-numbered
 ===========================
@@ -21,11 +22,11 @@ perl-html-entities-numbered
 
    |downloads_perl-html-entities-numbered| |docker_perl-html-entities-numbered|
 
-   :versions: 0.04
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-html-entities-numbered|
+   :versions: 0.04-1, 0.04-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-html-entities-numbered
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-entities-numbered
+      docker pull quay.io/repository/biocontainers/perl-html-entities-numbered:<tag>
+
+   (see `perl-html-entities-numbered/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-html-entities-numbered| conda:required_by:: perl-html-entities-numbered
 .. |downloads_perl-html-entities-numbered| image:: https://img.shields.io/conda/dn/bioconda/perl-html-entities-numbered.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-html-entities-numbered| image:: https://quay.io/repository/biocontainers/perl-html-entities-numbered/status
    :target: https://quay.io/repository/biocontainers/perl-html-entities-numbered
+.. _`perl-html-entities-numbered/tags`: https://quay.io/repository/biocontainers/perl-html-entities-numbered?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-html-entities-numbered/README.html
-

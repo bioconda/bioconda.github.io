@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gmap-fusion'
 .. highlight: bash
-
 
 gmap-fusion
 ===========
@@ -21,11 +22,21 @@ gmap-fusion
 
    |downloads_gmap-fusion| |docker_gmap-fusion|
 
-   :versions: 0.4.0, 0.3.0
-
-   :depends: :conda:package:`bowtie2` >=2.1 :conda:package:`gmap` >=2017.11.15 :conda:package:`perl` 5.22.0* :conda:package:`perl-db-file`  :conda:package:`perl-set-intervaltree`  :conda:package:`samtools` >=1.3 
-
-   :required~by: |required_by_gmap-fusion|
+   :versions: 0.4.0-0, 0.3.0-1
+   
+   :depends bowtie2: >=2.1
+   
+   :depends gmap: >=2017.11.15
+   
+   :depends perl: 5.22.0*
+   
+   :depends perl-db-file: 
+   
+   :depends perl-set-intervaltree: 
+   
+   :depends samtools: >=1.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ gmap-fusion
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gmap-fusion
+      docker pull quay.io/repository/biocontainers/gmap-fusion:<tag>
+
+   (see `gmap-fusion/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gmap-fusion| conda:required_by:: gmap-fusion
 .. |downloads_gmap-fusion| image:: https://img.shields.io/conda/dn/bioconda/gmap-fusion.svg?style=flat
    :alt:   (downloads)
 .. |docker_gmap-fusion| image:: https://quay.io/repository/biocontainers/gmap-fusion/status
    :target: https://quay.io/repository/biocontainers/gmap-fusion
+.. _`gmap-fusion/tags`: https://quay.io/repository/biocontainers/gmap-fusion?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gmap-fusion/README.html
-

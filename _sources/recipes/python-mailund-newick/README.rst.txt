@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'python-mailund-newick'
 .. highlight: bash
-
 
 python-mailund-newick
 =====================
@@ -21,11 +22,11 @@ python-mailund-newick
 
    |downloads_python-mailund-newick| |docker_python-mailund-newick|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_python-mailund-newick|
+   :versions: 1.3-1, 1.3-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ python-mailund-newick
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-mailund-newick
+      docker pull quay.io/repository/biocontainers/python-mailund-newick:<tag>
+
+   (see `python-mailund-newick/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_python-mailund-newick| conda:required_by:: python-mailund-newick
 .. |downloads_python-mailund-newick| image:: https://img.shields.io/conda/dn/bioconda/python-mailund-newick.svg?style=flat
    :alt:   (downloads)
 .. |docker_python-mailund-newick| image:: https://quay.io/repository/biocontainers/python-mailund-newick/status
    :target: https://quay.io/repository/biocontainers/python-mailund-newick
+.. _`python-mailund-newick/tags`: https://quay.io/repository/biocontainers/python-mailund-newick?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/python-mailund-newick/README.html
-

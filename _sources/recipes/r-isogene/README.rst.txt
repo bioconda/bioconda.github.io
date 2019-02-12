@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-isogene'
 .. highlight: bash
-
 
 r-isogene
 =========
@@ -21,11 +22,21 @@ r-isogene
 
    |downloads_r-isogene| |docker_r-isogene|
 
-   :versions: 1.0_24
-
-   :depends: :conda:package:`bioconductor-affy`  :conda:package:`bioconductor-biobase`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ff` >=2.0.0 :conda:package:`r-iso`  :conda:package:`r-xtable`  
-
-   :required~by: |required_by_r-isogene|
+   :versions: 1.0_24-0
+   
+   :depends bioconductor-affy: 
+   
+   :depends bioconductor-biobase: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ff: >=2.0.0
+   
+   :depends r-iso: 
+   
+   :depends r-xtable: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-isogene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-isogene
+      docker pull quay.io/repository/biocontainers/r-isogene:<tag>
+
+   (see `r-isogene/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-isogene| conda:required_by:: r-isogene
 .. |downloads_r-isogene| image:: https://img.shields.io/conda/dn/bioconda/r-isogene.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-isogene| image:: https://quay.io/repository/biocontainers/r-isogene/status
    :target: https://quay.io/repository/biocontainers/r-isogene
+.. _`r-isogene/tags`: https://quay.io/repository/biocontainers/r-isogene?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-isogene/README.html
-

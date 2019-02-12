@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-tigger'
 .. highlight: bash
-
 
 r-tigger
 ========
@@ -21,11 +22,37 @@ r-tigger
 
    |downloads_r-tigger| |docker_r-tigger|
 
-   :versions: 0.3.1
-
-   :depends: :conda:package:`r-alakazam` >=0.2.11 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-dplyr` >=0.7.0 :conda:package:`r-foreach`  :conda:package:`r-ggplot2` >=2.0.0 :conda:package:`r-gridextra`  :conda:package:`r-gtools`  :conda:package:`r-iterators`  :conda:package:`r-lazyeval`  :conda:package:`r-rlang`  :conda:package:`r-shazam` >=0.1.10 :conda:package:`r-stringi`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_r-tigger|
+   :versions: 0.3.1-1, 0.3.1-0
+   
+   :depends r-alakazam: >=0.2.11
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-doparallel: 
+   
+   :depends r-dplyr: >=0.7.0
+   
+   :depends r-foreach: 
+   
+   :depends r-ggplot2: >=2.0.0
+   
+   :depends r-gridextra: 
+   
+   :depends r-gtools: 
+   
+   :depends r-iterators: 
+   
+   :depends r-lazyeval: 
+   
+   :depends r-rlang: 
+   
+   :depends r-shazam: >=0.1.10
+   
+   :depends r-stringi: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ r-tigger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-tigger
+      docker pull quay.io/repository/biocontainers/r-tigger:<tag>
+
+   (see `r-tigger/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-tigger| conda:required_by:: r-tigger
 .. |downloads_r-tigger| image:: https://img.shields.io/conda/dn/bioconda/r-tigger.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-tigger| image:: https://quay.io/repository/biocontainers/r-tigger/status
    :target: https://quay.io/repository/biocontainers/r-tigger
+.. _`r-tigger/tags`: https://quay.io/repository/biocontainers/r-tigger?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-tigger/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bis-snp'
 .. highlight: bash
-
 
 bis-snp
 =======
@@ -21,11 +22,11 @@ bis-snp
 
    |downloads_bis-snp| |docker_bis-snp|
 
-   :versions: 1.0.1, 0.82.2
-
-   :depends: :conda:package:`openjdk` >=8.0.0 
-
-   :required~by: |required_by_bis-snp|
+   :versions: 1.0.1-1, 1.0.1-0, 0.82.2-0
+   
+   :depends openjdk: >=8.0.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bis-snp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bis-snp
+      docker pull quay.io/repository/biocontainers/bis-snp:<tag>
+
+   (see `bis-snp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bis-snp| conda:required_by:: bis-snp
 .. |downloads_bis-snp| image:: https://img.shields.io/conda/dn/bioconda/bis-snp.svg?style=flat
    :alt:   (downloads)
 .. |docker_bis-snp| image:: https://quay.io/repository/biocontainers/bis-snp/status
    :target: https://quay.io/repository/biocontainers/bis-snp
+.. _`bis-snp/tags`: https://quay.io/repository/biocontainers/bis-snp?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bis-snp/README.html
-

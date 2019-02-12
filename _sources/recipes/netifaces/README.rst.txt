@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'netifaces'
 .. highlight: bash
-
 
 netifaces
 =========
@@ -21,11 +22,13 @@ netifaces
 
    |downloads_netifaces| |docker_netifaces|
 
-   :versions: 0.10.4
-
-   :depends: :conda:package:`python` 2.7* :conda:package:`setuptools`  
-
-   :required~by: |required_by_netifaces|
+   :versions: 0.10.4-1
+   
+   :depends python: 2.7*
+   
+   :depends setuptools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ netifaces
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/netifaces
+      docker pull quay.io/repository/biocontainers/netifaces:<tag>
+
+   (see `netifaces/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_netifaces| conda:required_by:: netifaces
 .. |downloads_netifaces| image:: https://img.shields.io/conda/dn/bioconda/netifaces.svg?style=flat
    :alt:   (downloads)
 .. |docker_netifaces| image:: https://quay.io/repository/biocontainers/netifaces/status
    :target: https://quay.io/repository/biocontainers/netifaces
+.. _`netifaces/tags`: https://quay.io/repository/biocontainers/netifaces?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/netifaces/README.html
-

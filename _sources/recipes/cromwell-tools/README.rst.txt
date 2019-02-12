@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cromwell-tools'
 .. highlight: bash
-
 
 cromwell-tools
 ==============
@@ -23,11 +24,19 @@ cromwell-tools
 
    |downloads_cromwell-tools| |docker_cromwell-tools|
 
-   :versions: 1.1.0, 1.0.1
-
-   :depends: :conda:package:`google-auth` >=1.6.1,<2 :conda:package:`python`  :conda:package:`requests` >=2.20.0 :conda:package:`setuptools_scm` >=3.1.0,<4 :conda:package:`six` >=1.11.0 
-
-   :required~by: |required_by_cromwell-tools|
+   :versions: 1.1.0-0, 1.0.1-0
+   
+   :depends google-auth: >=1.6.1,<2
+   
+   :depends python: 
+   
+   :depends requests: >=2.20.0
+   
+   :depends setuptools_scm: >=3.1.0,<4
+   
+   :depends six: >=1.11.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +50,16 @@ cromwell-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cromwell-tools
+      docker pull quay.io/repository/biocontainers/cromwell-tools:<tag>
+
+   (see `cromwell-tools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cromwell-tools| conda:required_by:: cromwell-tools
 .. |downloads_cromwell-tools| image:: https://img.shields.io/conda/dn/bioconda/cromwell-tools.svg?style=flat
    :alt:   (downloads)
 .. |docker_cromwell-tools| image:: https://quay.io/repository/biocontainers/cromwell-tools/status
    :target: https://quay.io/repository/biocontainers/cromwell-tools
+.. _`cromwell-tools/tags`: https://quay.io/repository/biocontainers/cromwell-tools?tab=tags
 
 
 
@@ -65,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cromwell-tools/README.html
-

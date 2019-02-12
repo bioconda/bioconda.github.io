@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'diamond_add_taxonomy'
 .. highlight: bash
-
 
 diamond_add_taxonomy
 ====================
@@ -21,11 +22,15 @@ diamond_add_taxonomy
 
    |downloads_diamond_add_taxonomy| |docker_diamond_add_taxonomy|
 
-   :versions: 0.1.2, 0.1.0
-
-   :depends: :conda:package:`click`  :conda:package:`ete3`  :conda:package:`python` >=3.6,<3.7.0a0 
-
-   :required~by: |required_by_diamond_add_taxonomy|
+   :versions: 0.1.2-0, 0.1.0-0
+   
+   :depends click: 
+   
+   :depends ete3: 
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ diamond_add_taxonomy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/diamond_add_taxonomy
+      docker pull quay.io/repository/biocontainers/diamond_add_taxonomy:<tag>
+
+   (see `diamond_add_taxonomy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_diamond_add_taxonomy| conda:required_by:: diamond_add_taxonomy
 .. |downloads_diamond_add_taxonomy| image:: https://img.shields.io/conda/dn/bioconda/diamond_add_taxonomy.svg?style=flat
    :alt:   (downloads)
 .. |docker_diamond_add_taxonomy| image:: https://quay.io/repository/biocontainers/diamond_add_taxonomy/status
    :target: https://quay.io/repository/biocontainers/diamond_add_taxonomy
+.. _`diamond_add_taxonomy/tags`: https://quay.io/repository/biocontainers/diamond_add_taxonomy?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/diamond_add_taxonomy/README.html
-

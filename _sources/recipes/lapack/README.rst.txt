@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lapack'
 .. highlight: bash
-
 
 lapack
 ======
@@ -21,11 +22,11 @@ lapack
 
    |downloads_lapack| |docker_lapack|
 
-   :versions: 3.6.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_lapack|
+   :versions: 3.6.0-2, 3.6.0-1
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ lapack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lapack
+      docker pull quay.io/repository/biocontainers/lapack:<tag>
+
+   (see `lapack/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lapack| conda:required_by:: lapack
 .. |downloads_lapack| image:: https://img.shields.io/conda/dn/bioconda/lapack.svg?style=flat
    :alt:   (downloads)
 .. |docker_lapack| image:: https://quay.io/repository/biocontainers/lapack/status
    :target: https://quay.io/repository/biocontainers/lapack
+.. _`lapack/tags`: https://quay.io/repository/biocontainers/lapack?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lapack/README.html
-

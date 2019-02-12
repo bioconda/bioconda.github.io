@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'conus'
 .. highlight: bash
-
 
 conus
 =====
@@ -22,11 +23,11 @@ conus
 
    |downloads_conus| |docker_conus|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_conus|
+   :versions: 1.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ conus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/conus
+      docker pull quay.io/repository/biocontainers/conus:<tag>
+
+   (see `conus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_conus| conda:required_by:: conus
 .. |downloads_conus| image:: https://img.shields.io/conda/dn/bioconda/conus.svg?style=flat
    :alt:   (downloads)
 .. |docker_conus| image:: https://quay.io/repository/biocontainers/conus/status
    :target: https://quay.io/repository/biocontainers/conus
+.. _`conus/tags`: https://quay.io/repository/biocontainers/conus?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/conus/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'swga'
 .. highlight: bash
-
 
 swga
 ====
@@ -21,11 +22,35 @@ swga
 
    |downloads_swga| |docker_swga|
 
-   :versions: 0.4.4, 0.4.3.p1, 0.4.2
-
-   :depends: :conda:package:`argutils`  :conda:package:`click`  :conda:package:`libgcc`  :conda:package:`melt`  :conda:package:`peewee` >=2.7.3,<3.0 :conda:package:`pyfaidx` >0.4.5.2 :conda:package:`pytest`  :conda:package:`python` 2.7* :conda:package:`pyyaml`  :conda:package:`semantic_version`  :conda:package:`setuptools`  :conda:package:`workspace`  
-
-   :required~by: |required_by_swga|
+   :versions: 0.4.4-1, 0.4.4-0, 0.4.3.p1-0, 0.4.2-1, 0.4.2-0
+   
+   :depends argutils: 
+   
+   :depends click: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends melt: 
+   
+   :depends peewee: >=2.7.3,<3.0
+   
+   :depends pyfaidx: >0.4.5.2
+   
+   :depends pytest: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends pyyaml: 
+   
+   :depends semantic_version: 
+   
+   :depends workspace: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ swga
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/swga
+      docker pull quay.io/repository/biocontainers/swga:<tag>
+
+   (see `swga/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_swga| conda:required_by:: swga
 .. |downloads_swga| image:: https://img.shields.io/conda/dn/bioconda/swga.svg?style=flat
    :alt:   (downloads)
 .. |docker_swga| image:: https://quay.io/repository/biocontainers/swga/status
    :target: https://quay.io/repository/biocontainers/swga
+.. _`swga/tags`: https://quay.io/repository/biocontainers/swga?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/swga/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'blasr'
 .. highlight: bash
-
 
 blasr
 =====
@@ -21,11 +22,19 @@ blasr
 
    |downloads_blasr| |docker_blasr|
 
-   :versions: 5.3.2, 5.3.1, 5.2p1
-
-   :depends: :conda:package:`blasr_libcpp` >=5.3.1 :conda:package:`hdf5` 1.8.17* :conda:package:`libgcc`  :conda:package:`pbbam` >=0.18.0 
-
-   :required~by: |required_by_blasr|
+   :versions: 5.3.2-5, 5.3.2-4, 5.3.2-3, 5.3.2-2, 5.3.2-1, 5.3.2-0, 5.3.1-0, 5.2p1-0
+   
+   :depends blasr_libcpp: 5.3.1.*
+   
+   :depends hdf5: >=1.10.3,<1.10.4.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends pbbam: 0.19.0.*
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ blasr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/blasr
+      docker pull quay.io/repository/biocontainers/blasr:<tag>
+
+   (see `blasr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_blasr| conda:required_by:: blasr
 .. |downloads_blasr| image:: https://img.shields.io/conda/dn/bioconda/blasr.svg?style=flat
    :alt:   (downloads)
 .. |docker_blasr| image:: https://quay.io/repository/biocontainers/blasr/status
    :target: https://quay.io/repository/biocontainers/blasr
+.. _`blasr/tags`: https://quay.io/repository/biocontainers/blasr?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/blasr/README.html
-

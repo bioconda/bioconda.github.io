@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'albatradis'
 .. highlight: bash
-
 
 albatradis
 ==========
@@ -21,11 +22,41 @@ albatradis
 
    |downloads_albatradis| |docker_albatradis|
 
-   :versions: 0.0.5
-
-   :depends: :conda:package:`biopython` >=1.68 :conda:package:`biotradis`  :conda:package:`cython`  :conda:package:`dendropy`  :conda:package:`graphviz` >=2.38.0,<3.0a0 :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`perl-app-cpanminus`  :conda:package:`perl-moose`  :conda:package:`perl-parallel-forkmanager`  :conda:package:`perl-pathtools`  :conda:package:`perl-scalar-util-numeric`  :conda:package:`pyfastaq` >=3.12.0 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`scipy`  :conda:package:`seaborn`  
-
-   :required~by: |required_by_albatradis|
+   :versions: 0.0.5-4
+   
+   :depends biopython: >=1.68
+   
+   :depends biotradis: 
+   
+   :depends cython: 
+   
+   :depends dendropy: 
+   
+   :depends graphviz: >=2.38.0,<3.0a0
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-moose: 
+   
+   :depends perl-parallel-forkmanager: 
+   
+   :depends perl-pathtools: 
+   
+   :depends perl-scalar-util-numeric: 
+   
+   :depends pyfastaq: >=3.12.0
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :depends scipy: 
+   
+   :depends seaborn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ albatradis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/albatradis
+      docker pull quay.io/repository/biocontainers/albatradis:<tag>
+
+   (see `albatradis/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_albatradis| conda:required_by:: albatradis
 .. |downloads_albatradis| image:: https://img.shields.io/conda/dn/bioconda/albatradis.svg?style=flat
    :alt:   (downloads)
 .. |docker_albatradis| image:: https://quay.io/repository/biocontainers/albatradis/status
    :target: https://quay.io/repository/biocontainers/albatradis
+.. _`albatradis/tags`: https://quay.io/repository/biocontainers/albatradis?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/albatradis/README.html
-

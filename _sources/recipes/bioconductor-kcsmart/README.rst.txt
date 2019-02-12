@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-kcsmart'
 .. highlight: bash
-
 
 bioconductor-kcsmart
 ====================
@@ -22,11 +23,19 @@ bioconductor-kcsmart
 
    |downloads_bioconductor-kcsmart| |docker_bioconductor-kcsmart|
 
-   :versions: 2.40.0, 2.38.0, 2.36.0, 2.34.0, 2.32.0
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-multtest` >=2.38.0,<2.39.0 :conda:package:`bioconductor-siggenes` >=1.56.0,<1.57.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-kernsmooth`  
-
-   :required~by: |required_by_bioconductor-kcsmart|
+   :versions: 2.40.0-0, 2.38.0-0, 2.36.0-0, 2.34.0-0, 2.32.0-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-multtest: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-siggenes: >=1.56.0,<1.57.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-kernsmooth: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-kcsmart
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-kcsmart
+      docker pull quay.io/repository/biocontainers/bioconductor-kcsmart:<tag>
+
+   (see `bioconductor-kcsmart/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-kcsmart| conda:required_by:: bioconductor-kcsmart
 .. |downloads_bioconductor-kcsmart| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-kcsmart.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-kcsmart| image:: https://quay.io/repository/biocontainers/bioconductor-kcsmart/status
    :target: https://quay.io/repository/biocontainers/bioconductor-kcsmart
+.. _`bioconductor-kcsmart/tags`: https://quay.io/repository/biocontainers/bioconductor-kcsmart?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-kcsmart/README.html
-

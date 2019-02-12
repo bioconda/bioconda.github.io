@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mcseadata'
 .. highlight: bash
-
 
 bioconductor-mcseadata
 ======================
@@ -21,11 +22,13 @@ bioconductor-mcseadata
 
    |downloads_bioconductor-mcseadata| |docker_bioconductor-mcseadata|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-mcseadata|
+   :versions: 1.2.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-mcseadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mcseadata
+      docker pull quay.io/repository/biocontainers/bioconductor-mcseadata:<tag>
+
+   (see `bioconductor-mcseadata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mcseadata| conda:required_by:: bioconductor-mcseadata
 .. |downloads_bioconductor-mcseadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mcseadata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mcseadata| image:: https://quay.io/repository/biocontainers/bioconductor-mcseadata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mcseadata
+.. _`bioconductor-mcseadata/tags`: https://quay.io/repository/biocontainers/bioconductor-mcseadata?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mcseadata/README.html
-

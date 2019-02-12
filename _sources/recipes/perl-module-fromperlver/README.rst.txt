@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-module-fromperlver'
 .. highlight: bash
-
 
 perl-module-fromperlver
 =======================
@@ -21,11 +22,35 @@ perl-module-fromperlver
 
    |downloads_perl-module-fromperlver| |docker_perl-module-fromperlver|
 
-   :versions: 0.008002
-
-   :depends: :conda:package:`perl` >=5.22,<6.0 :conda:package:`perl-archive-tar`  :conda:package:`perl-carp`  :conda:package:`perl-file-copy-recursive`  :conda:package:`perl-lib`  :conda:package:`perl-list-moreutils`  :conda:package:`perl-parent`  :conda:package:`perl-pathtools`  :conda:package:`perl-perl-version`  :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-test-deep`  :conda:package:`perl-test-simple`  :conda:package:`perl-version-next`  
-
-   :required~by: |required_by_perl-module-fromperlver|
+   :versions: 0.008002-1, 0.008002-0
+   
+   :depends perl: >=5.22.0.1,<5.23.0a0
+   
+   :depends perl-archive-tar: 
+   
+   :depends perl-carp: 
+   
+   :depends perl-file-copy-recursive: 
+   
+   :depends perl-lib: 
+   
+   :depends perl-list-moreutils: 
+   
+   :depends perl-parent: 
+   
+   :depends perl-pathtools: 
+   
+   :depends perl-perl-version: 
+   
+   :depends perl-scalar-list-utils: 
+   
+   :depends perl-test-deep: 
+   
+   :depends perl-test-simple: 
+   
+   :depends perl-version-next: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ perl-module-fromperlver
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-fromperlver
+      docker pull quay.io/repository/biocontainers/perl-module-fromperlver:<tag>
+
+   (see `perl-module-fromperlver/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-module-fromperlver| conda:required_by:: perl-module-fromperlver
 .. |downloads_perl-module-fromperlver| image:: https://img.shields.io/conda/dn/bioconda/perl-module-fromperlver.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-module-fromperlver| image:: https://quay.io/repository/biocontainers/perl-module-fromperlver/status
    :target: https://quay.io/repository/biocontainers/perl-module-fromperlver
+.. _`perl-module-fromperlver/tags`: https://quay.io/repository/biocontainers/perl-module-fromperlver?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-module-fromperlver/README.html
-

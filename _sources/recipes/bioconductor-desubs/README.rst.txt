@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-desubs'
 .. highlight: bash
-
 
 bioconductor-desubs
 ===================
@@ -21,11 +22,41 @@ bioconductor-desubs
 
    |downloads_bioconductor-desubs| |docker_bioconductor-desubs|
 
-   :versions: 1.8.1
-
-   :depends: :conda:package:`bioconductor-deseq` >=1.34.0,<1.35.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-ebseq` >=1.22.0,<1.23.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-circlize`  :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-jsonlite`  :conda:package:`r-locfit`  :conda:package:`r-matrix`  :conda:package:`r-nbpseq`  :conda:package:`r-pheatmap`  
-
-   :required~by: |required_by_bioconductor-desubs|
+   :versions: 1.8.1-0
+   
+   :depends bioconductor-deseq: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-ebseq: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-rbgl: >=1.58.0,<1.59.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-circlize: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-igraph: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-locfit: 
+   
+   :depends r-matrix: 
+   
+   :depends r-nbpseq: 
+   
+   :depends r-pheatmap: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ bioconductor-desubs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-desubs
+      docker pull quay.io/repository/biocontainers/bioconductor-desubs:<tag>
+
+   (see `bioconductor-desubs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-desubs| conda:required_by:: bioconductor-desubs
 .. |downloads_bioconductor-desubs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-desubs.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-desubs| image:: https://quay.io/repository/biocontainers/bioconductor-desubs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-desubs
+.. _`bioconductor-desubs/tags`: https://quay.io/repository/biocontainers/bioconductor-desubs?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-desubs/README.html
-

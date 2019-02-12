@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'trimal'
 .. highlight: bash
-
 
 trimal
 ======
@@ -22,11 +23,11 @@ trimal
 
    |downloads_trimal| |docker_trimal|
 
-   :versions: 1.4.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_trimal|
+   :versions: 1.4.1-2, 1.4.1-1, 1.4.1-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ trimal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trimal
+      docker pull quay.io/repository/biocontainers/trimal:<tag>
+
+   (see `trimal/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_trimal| conda:required_by:: trimal
 .. |downloads_trimal| image:: https://img.shields.io/conda/dn/bioconda/trimal.svg?style=flat
    :alt:   (downloads)
 .. |docker_trimal| image:: https://quay.io/repository/biocontainers/trimal/status
    :target: https://quay.io/repository/biocontainers/trimal
+.. _`trimal/tags`: https://quay.io/repository/biocontainers/trimal?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/trimal/README.html
-

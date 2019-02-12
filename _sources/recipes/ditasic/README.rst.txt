@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ditasic'
 .. highlight: bash
-
 
 ditasic
 =======
@@ -21,11 +22,21 @@ ditasic
 
    |downloads_ditasic| |docker_ditasic|
 
-   :versions: 0.2
-
-   :depends: :conda:package:`biopython` >=1.70 :conda:package:`kallisto` >=0.43.1 :conda:package:`libgcc-ng` >=4.9 :conda:package:`mason` >=2.0.7 :conda:package:`numpy` >=1.8.0 :conda:package:`python` >=3.7,<3.8.0a0 
-
-   :required~by: |required_by_ditasic|
+   :versions: 0.2-0
+   
+   :depends biopython: >=1.70
+   
+   :depends kallisto: >=0.43.1
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends mason: >=2.0.7
+   
+   :depends numpy: >=1.8.0
+   
+   :depends python: >=3.7,<3.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ ditasic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ditasic
+      docker pull quay.io/repository/biocontainers/ditasic:<tag>
+
+   (see `ditasic/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ditasic| conda:required_by:: ditasic
 .. |downloads_ditasic| image:: https://img.shields.io/conda/dn/bioconda/ditasic.svg?style=flat
    :alt:   (downloads)
 .. |docker_ditasic| image:: https://quay.io/repository/biocontainers/ditasic/status
    :target: https://quay.io/repository/biocontainers/ditasic
+.. _`ditasic/tags`: https://quay.io/repository/biocontainers/ditasic?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ditasic/README.html
-

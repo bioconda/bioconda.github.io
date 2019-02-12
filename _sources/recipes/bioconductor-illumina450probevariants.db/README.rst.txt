@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-illumina450probevariants.db'
 .. highlight: bash
-
 
 bioconductor-illumina450probevariants.db
 ========================================
@@ -21,11 +22,13 @@ bioconductor-illumina450probevariants.db
 
    |downloads_bioconductor-illumina450probevariants.db| |docker_bioconductor-illumina450probevariants.db|
 
-   :versions: 1.18.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-illumina450probevariants.db|
+   :versions: 1.18.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-illumina450probevariants.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-illumina450probevariants.db
+      docker pull quay.io/repository/biocontainers/bioconductor-illumina450probevariants.db:<tag>
+
+   (see `bioconductor-illumina450probevariants.db/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-illumina450probevariants.db| conda:required_by:: bioconductor-illumina450probevariants.db
 .. |downloads_bioconductor-illumina450probevariants.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-illumina450probevariants.db.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-illumina450probevariants.db| image:: https://quay.io/repository/biocontainers/bioconductor-illumina450probevariants.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-illumina450probevariants.db
+.. _`bioconductor-illumina450probevariants.db/tags`: https://quay.io/repository/biocontainers/bioconductor-illumina450probevariants.db?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-illumina450probevariants.db/README.html
-

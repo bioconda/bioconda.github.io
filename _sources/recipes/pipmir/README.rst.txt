@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pipmir'
 .. highlight: bash
-
 
 pipmir
 ======
@@ -22,11 +23,15 @@ pipmir
 
    |downloads_pipmir| |docker_pipmir|
 
-   :versions: 1.1
-
-   :depends: :conda:package:`java-jdk`  :conda:package:`samtools`  :conda:package:`viennarna` 1.8.5 
-
-   :required~by: |required_by_pipmir|
+   :versions: 1.1-2, 1.1-1
+   
+   :depends java-jdk: 
+   
+   :depends samtools: 
+   
+   :depends viennarna: 1.8.5.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ pipmir
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pipmir
+      docker pull quay.io/repository/biocontainers/pipmir:<tag>
+
+   (see `pipmir/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pipmir| conda:required_by:: pipmir
 .. |downloads_pipmir| image:: https://img.shields.io/conda/dn/bioconda/pipmir.svg?style=flat
    :alt:   (downloads)
 .. |docker_pipmir| image:: https://quay.io/repository/biocontainers/pipmir/status
    :target: https://quay.io/repository/biocontainers/pipmir
+.. _`pipmir/tags`: https://quay.io/repository/biocontainers/pipmir?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pipmir/README.html
-

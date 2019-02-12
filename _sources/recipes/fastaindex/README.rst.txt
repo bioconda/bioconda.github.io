@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastaindex'
 .. highlight: bash
-
 
 fastaindex
 ==========
@@ -21,11 +22,11 @@ fastaindex
 
    |downloads_fastaindex| |docker_fastaindex|
 
-   :versions: 0.11c
-
-   :depends: :conda:package:`python` 2.7* :conda:package:`setuptools`  
-
-   :required~by: |required_by_fastaindex|
+   :versions: 0.11c-2, 0.11c-1, 0.11c-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ fastaindex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastaindex
+      docker pull quay.io/repository/biocontainers/fastaindex:<tag>
+
+   (see `fastaindex/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastaindex| conda:required_by:: fastaindex
 .. |downloads_fastaindex| image:: https://img.shields.io/conda/dn/bioconda/fastaindex.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastaindex| image:: https://quay.io/repository/biocontainers/fastaindex/status
    :target: https://quay.io/repository/biocontainers/fastaindex
+.. _`fastaindex/tags`: https://quay.io/repository/biocontainers/fastaindex?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastaindex/README.html
-

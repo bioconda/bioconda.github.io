@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pauda'
 .. highlight: bash
-
 
 pauda
 =====
@@ -21,11 +22,13 @@ pauda
 
    |downloads_pauda| |docker_pauda|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`bowtie2`  :conda:package:`java-jdk`  
-
-   :required~by: |required_by_pauda|
+   :versions: 1.0.1-1, 1.0.1-0
+   
+   :depends bowtie2: 
+   
+   :depends java-jdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ pauda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pauda
+      docker pull quay.io/repository/biocontainers/pauda:<tag>
+
+   (see `pauda/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pauda| conda:required_by:: pauda
 .. |downloads_pauda| image:: https://img.shields.io/conda/dn/bioconda/pauda.svg?style=flat
    :alt:   (downloads)
 .. |docker_pauda| image:: https://quay.io/repository/biocontainers/pauda/status
    :target: https://quay.io/repository/biocontainers/pauda
+.. _`pauda/tags`: https://quay.io/repository/biocontainers/pauda?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pauda/README.html
-

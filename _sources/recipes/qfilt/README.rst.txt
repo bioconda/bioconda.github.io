@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'qfilt'
 .. highlight: bash
-
 
 qfilt
 =====
@@ -21,11 +22,11 @@ qfilt
 
    |downloads_qfilt| |docker_qfilt|
 
-   :versions: 0.0.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_qfilt|
+   :versions: 0.0.1-1, 0.0.1-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ qfilt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/qfilt
+      docker pull quay.io/repository/biocontainers/qfilt:<tag>
+
+   (see `qfilt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_qfilt| conda:required_by:: qfilt
 .. |downloads_qfilt| image:: https://img.shields.io/conda/dn/bioconda/qfilt.svg?style=flat
    :alt:   (downloads)
 .. |docker_qfilt| image:: https://quay.io/repository/biocontainers/qfilt/status
    :target: https://quay.io/repository/biocontainers/qfilt
+.. _`qfilt/tags`: https://quay.io/repository/biocontainers/qfilt?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/qfilt/README.html
-

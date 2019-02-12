@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ngsutils'
 .. highlight: bash
-
 
 ngsutils
 ========
@@ -22,11 +23,23 @@ ngsutils
 
    |downloads_ngsutils| |docker_ngsutils|
 
-   :versions: 0.5.9
-
-   :depends: :conda:package:`coverage`  :conda:package:`cython`  :conda:package:`eta`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`samtools`  :conda:package:`swalign`  
-
-   :required~by: |required_by_ngsutils|
+   :versions: 0.5.9-1, 0.5.9-0
+   
+   :depends coverage: 
+   
+   :depends cython: 
+   
+   :depends eta: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: 
+   
+   :depends swalign: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ ngsutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ngsutils
+      docker pull quay.io/repository/biocontainers/ngsutils:<tag>
+
+   (see `ngsutils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ngsutils| conda:required_by:: ngsutils
 .. |downloads_ngsutils| image:: https://img.shields.io/conda/dn/bioconda/ngsutils.svg?style=flat
    :alt:   (downloads)
 .. |docker_ngsutils| image:: https://quay.io/repository/biocontainers/ngsutils/status
    :target: https://quay.io/repository/biocontainers/ngsutils
+.. _`ngsutils/tags`: https://quay.io/repository/biocontainers/ngsutils?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ngsutils/README.html
-

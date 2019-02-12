@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'snippy'
 .. highlight: bash
-
 
 snippy
 ======
@@ -22,11 +23,43 @@ snippy
 
    |downloads_snippy| |docker_snippy|
 
-   :versions: 4.3.6, 4.3.5, 4.3.3, 4.2.3, 4.1.0, 4.0.7, 4.0.5, 4.0.2, 3.2, 3.1, 3.0, 2.9
-
-   :depends: :conda:package:`bcftools` >=1.8 :conda:package:`bedtools`  :conda:package:`bwa` >=0.7.17 :conda:package:`emboss` >=6.0 :conda:package:`freebayes` >=1.1 :conda:package:`minimap2` >=2.10 :conda:package:`parallel` >=20170422 :conda:package:`perl`  :conda:package:`perl-bioperl` >=1.7.2 :conda:package:`perl-time-piece`  :conda:package:`samclip` >=0.2 :conda:package:`samtools` >=1.8 :conda:package:`seqtk` >=1.2 :conda:package:`snp-sites` >=2.4 :conda:package:`snpeff` >=4.3 :conda:package:`vcflib`  :conda:package:`vt` >=0.5772 
-
-   :required~by: |required_by_snippy|
+   :versions: 4.3.6-0, 4.3.5-0, 4.3.3-0, 4.2.3-0, 4.1.0-0, 4.0.7-0, 4.0.5-0, 4.0.2-0, 3.2-1, 3.1-4, 3.1-3, 3.1-2, 3.1-1, 3.1-0, 3.0-1, 3.0-0, 2.9-1, 2.9-0
+   
+   :depends bcftools: >=1.8
+   
+   :depends bedtools: 
+   
+   :depends bwa: >=0.7.17
+   
+   :depends emboss: >=6.0
+   
+   :depends freebayes: >=1.1
+   
+   :depends minimap2: >=2.10
+   
+   :depends parallel: >=20170422
+   
+   :depends perl: 
+   
+   :depends perl-bioperl: >=1.7.2
+   
+   :depends perl-time-piece: 
+   
+   :depends samclip: >=0.2
+   
+   :depends samtools: >=1.8
+   
+   :depends seqtk: >=1.2
+   
+   :depends snp-sites: >=2.4
+   
+   :depends snpeff: >=4.3
+   
+   :depends vcflib: 
+   
+   :depends vt: >=0.5772
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +73,16 @@ snippy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snippy
+      docker pull quay.io/repository/biocontainers/snippy:<tag>
+
+   (see `snippy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_snippy| conda:required_by:: snippy
 .. |downloads_snippy| image:: https://img.shields.io/conda/dn/bioconda/snippy.svg?style=flat
    :alt:   (downloads)
 .. |docker_snippy| image:: https://quay.io/repository/biocontainers/snippy/status
    :target: https://quay.io/repository/biocontainers/snippy
+.. _`snippy/tags`: https://quay.io/repository/biocontainers/snippy?tab=tags
 
 
 
@@ -64,4 +99,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/snippy/README.html
-

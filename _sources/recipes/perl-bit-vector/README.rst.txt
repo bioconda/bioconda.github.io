@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bit-vector'
 .. highlight: bash
-
 
 perl-bit-vector
 ===============
@@ -21,11 +22,11 @@ perl-bit-vector
 
    |downloads_perl-bit-vector| |docker_perl-bit-vector|
 
-   :versions: 7.4
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-bit-vector|
+   :versions: 7.4-2, 7.4-1, 7.4-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-bit-vector
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bit-vector
+      docker pull quay.io/repository/biocontainers/perl-bit-vector:<tag>
+
+   (see `perl-bit-vector/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bit-vector| conda:required_by:: perl-bit-vector
 .. |downloads_perl-bit-vector| image:: https://img.shields.io/conda/dn/bioconda/perl-bit-vector.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bit-vector| image:: https://quay.io/repository/biocontainers/perl-bit-vector/status
    :target: https://quay.io/repository/biocontainers/perl-bit-vector
+.. _`perl-bit-vector/tags`: https://quay.io/repository/biocontainers/perl-bit-vector?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bit-vector/README.html
-

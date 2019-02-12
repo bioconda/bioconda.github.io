@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pycli'
 .. highlight: bash
-
 
 pycli
 =====
@@ -21,11 +22,11 @@ pycli
 
    |downloads_pycli| |docker_pycli|
 
-   :versions: 2.0.3
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pycli|
+   :versions: 2.0.3-1, 2.0.3-0
+   
+   :depends python: <3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ pycli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pycli
+      docker pull quay.io/repository/biocontainers/pycli:<tag>
+
+   (see `pycli/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pycli| conda:required_by:: pycli
 .. |downloads_pycli| image:: https://img.shields.io/conda/dn/bioconda/pycli.svg?style=flat
    :alt:   (downloads)
 .. |docker_pycli| image:: https://quay.io/repository/biocontainers/pycli/status
    :target: https://quay.io/repository/biocontainers/pycli
+.. _`pycli/tags`: https://quay.io/repository/biocontainers/pycli?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pycli/README.html
-

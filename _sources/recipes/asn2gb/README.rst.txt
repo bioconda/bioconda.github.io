@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'asn2gb'
 .. highlight: bash
-
 
 asn2gb
 ======
@@ -21,11 +22,13 @@ asn2gb
 
    |downloads_asn2gb| |docker_asn2gb|
 
-   :versions: 18.2
-
-   :depends: :conda:package:`libidn11`  :conda:package:`zlib` 1.2.8* 
-
-   :required~by: |required_by_asn2gb|
+   :versions: 18.2-2, 18.2-1, 18.2-0
+   
+   :depends libidn11: 
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ asn2gb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/asn2gb
+      docker pull quay.io/repository/biocontainers/asn2gb:<tag>
+
+   (see `asn2gb/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_asn2gb| conda:required_by:: asn2gb
 .. |downloads_asn2gb| image:: https://img.shields.io/conda/dn/bioconda/asn2gb.svg?style=flat
    :alt:   (downloads)
 .. |docker_asn2gb| image:: https://quay.io/repository/biocontainers/asn2gb/status
    :target: https://quay.io/repository/biocontainers/asn2gb
+.. _`asn2gb/tags`: https://quay.io/repository/biocontainers/asn2gb?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/asn2gb/README.html
-

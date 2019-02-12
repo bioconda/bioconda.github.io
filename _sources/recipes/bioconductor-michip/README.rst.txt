@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-michip'
 .. highlight: bash
-
 
 bioconductor-michip
 ===================
@@ -22,11 +23,13 @@ bioconductor-michip
 
    |downloads_bioconductor-michip| |docker_bioconductor-michip|
 
-   :versions: 1.36.0, 1.34.0, 1.32.0, 1.30.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-michip|
+   :versions: 1.36.0-0, 1.34.0-0, 1.32.0-0, 1.30.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-michip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-michip
+      docker pull quay.io/repository/biocontainers/bioconductor-michip:<tag>
+
+   (see `bioconductor-michip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-michip| conda:required_by:: bioconductor-michip
 .. |downloads_bioconductor-michip| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-michip.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-michip| image:: https://quay.io/repository/biocontainers/bioconductor-michip/status
    :target: https://quay.io/repository/biocontainers/bioconductor-michip
+.. _`bioconductor-michip/tags`: https://quay.io/repository/biocontainers/bioconductor-michip?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-michip/README.html
-

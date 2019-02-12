@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-math-bigint'
 .. highlight: bash
-
 
 perl-math-bigint
 ================
@@ -21,11 +22,13 @@ perl-math-bigint
 
    |downloads_perl-math-bigint| |docker_perl-math-bigint|
 
-   :versions: 1.999816, 1.999813
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-math-complex`  
-
-   :required~by: |required_by_perl-math-bigint|
+   :versions: 1.999816-0, 1.999813-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-math-complex: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-math-bigint
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-bigint
+      docker pull quay.io/repository/biocontainers/perl-math-bigint:<tag>
+
+   (see `perl-math-bigint/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-math-bigint| conda:required_by:: perl-math-bigint
 .. |downloads_perl-math-bigint| image:: https://img.shields.io/conda/dn/bioconda/perl-math-bigint.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-math-bigint| image:: https://quay.io/repository/biocontainers/perl-math-bigint/status
    :target: https://quay.io/repository/biocontainers/perl-math-bigint
+.. _`perl-math-bigint/tags`: https://quay.io/repository/biocontainers/perl-math-bigint?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-math-bigint/README.html
-

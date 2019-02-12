@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sprai'
 .. highlight: bash
-
 
 sprai
 =====
@@ -21,11 +22,23 @@ sprai
 
    |downloads_sprai| |docker_sprai|
 
-   :versions: 0.9.9.23
-
-   :depends: :conda:package:`blast`  :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-module-build`  :conda:package:`python` 2.7* :conda:package:`wgs-assembler`  
-
-   :required~by: |required_by_sprai|
+   :versions: 0.9.9.23-0
+   
+   :depends blast: 
+   
+   :depends libgcc: 
+   
+   :depends perl: 5.22.0*
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-module-build: 
+   
+   :depends python: 2.7*
+   
+   :depends wgs-assembler: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ sprai
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sprai
+      docker pull quay.io/repository/biocontainers/sprai:<tag>
+
+   (see `sprai/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sprai| conda:required_by:: sprai
 .. |downloads_sprai| image:: https://img.shields.io/conda/dn/bioconda/sprai.svg?style=flat
    :alt:   (downloads)
 .. |docker_sprai| image:: https://quay.io/repository/biocontainers/sprai/status
    :target: https://quay.io/repository/biocontainers/sprai
+.. _`sprai/tags`: https://quay.io/repository/biocontainers/sprai?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sprai/README.html
-

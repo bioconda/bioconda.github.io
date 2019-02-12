@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-warnings-register'
 .. highlight: bash
-
 
 perl-warnings-register
 ======================
@@ -21,11 +22,11 @@ perl-warnings-register
 
    |downloads_perl-warnings-register| |docker_perl-warnings-register|
 
-   :versions: 1.03
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-warnings-register|
+   :versions: 1.03-1, 1.03-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-warnings-register
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-warnings-register
+      docker pull quay.io/repository/biocontainers/perl-warnings-register:<tag>
+
+   (see `perl-warnings-register/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-warnings-register| conda:required_by:: perl-warnings-register
 .. |downloads_perl-warnings-register| image:: https://img.shields.io/conda/dn/bioconda/perl-warnings-register.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-warnings-register| image:: https://quay.io/repository/biocontainers/perl-warnings-register/status
    :target: https://quay.io/repository/biocontainers/perl-warnings-register
+.. _`perl-warnings-register/tags`: https://quay.io/repository/biocontainers/perl-warnings-register?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-warnings-register/README.html
-

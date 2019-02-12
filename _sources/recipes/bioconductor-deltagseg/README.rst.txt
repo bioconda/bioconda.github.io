@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-deltagseg'
 .. highlight: bash
-
 
 bioconductor-deltagseg
 ======================
@@ -21,11 +22,27 @@ bioconductor-deltagseg
 
    |downloads_bioconductor-deltagseg| |docker_bioconductor-deltagseg|
 
-   :versions: 1.22.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-changepoint`  :conda:package:`r-fbasics`  :conda:package:`r-ggplot2`  :conda:package:`r-pvclust`  :conda:package:`r-reshape`  :conda:package:`r-scales`  :conda:package:`r-tseries`  :conda:package:`r-wavethresh`  
-
-   :required~by: |required_by_bioconductor-deltagseg|
+   :versions: 1.22.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-changepoint: 
+   
+   :depends r-fbasics: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-pvclust: 
+   
+   :depends r-reshape: 
+   
+   :depends r-scales: 
+   
+   :depends r-tseries: 
+   
+   :depends r-wavethresh: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-deltagseg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-deltagseg
+      docker pull quay.io/repository/biocontainers/bioconductor-deltagseg:<tag>
+
+   (see `bioconductor-deltagseg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-deltagseg| conda:required_by:: bioconductor-deltagseg
 .. |downloads_bioconductor-deltagseg| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-deltagseg.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-deltagseg| image:: https://quay.io/repository/biocontainers/bioconductor-deltagseg/status
    :target: https://quay.io/repository/biocontainers/bioconductor-deltagseg
+.. _`bioconductor-deltagseg/tags`: https://quay.io/repository/biocontainers/bioconductor-deltagseg?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-deltagseg/README.html
-

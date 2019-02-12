@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pypeflow'
 .. highlight: bash
-
 
 pypeflow
 ========
@@ -21,11 +22,15 @@ pypeflow
 
    |downloads_pypeflow| |docker_pypeflow|
 
-   :versions: 2.1.1, 2.0.4, 2.0.2, 2.0.1, 2.0.0, 1.1.0, 1.0.0, 0.1.1, 0.1.0
-
-   :depends: :conda:package:`future` >=0.16.0 :conda:package:`networkx` >=1.7,<=1.11 :conda:package:`python` <3 
-
-   :required~by: |required_by_pypeflow|
+   :versions: 2.1.1-0, 2.0.4-0, 2.0.2-1, 2.0.2-0, 2.0.1-0, 2.0.0-0, 1.1.0-0, 1.0.0-0, 0.1.1-0, 0.1.0-1, 0.1.0-0
+   
+   :depends future: >=0.16.0
+   
+   :depends networkx: >=1.7,<=1.11
+   
+   :depends python: <3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pypeflow
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pypeflow
+      docker pull quay.io/repository/biocontainers/pypeflow:<tag>
+
+   (see `pypeflow/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pypeflow| conda:required_by:: pypeflow
 .. |downloads_pypeflow| image:: https://img.shields.io/conda/dn/bioconda/pypeflow.svg?style=flat
    :alt:   (downloads)
 .. |docker_pypeflow| image:: https://quay.io/repository/biocontainers/pypeflow/status
    :target: https://quay.io/repository/biocontainers/pypeflow
+.. _`pypeflow/tags`: https://quay.io/repository/biocontainers/pypeflow?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pypeflow/README.html
-

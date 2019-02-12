@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-tenxbraindata'
 .. highlight: bash
-
 
 bioconductor-tenxbraindata
 ==========================
@@ -21,11 +22,21 @@ bioconductor-tenxbraindata
 
    |downloads_bioconductor-tenxbraindata| |docker_bioconductor-tenxbraindata|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-annotationhub` >=2.14.0,<2.15.0 :conda:package:`bioconductor-experimenthub` >=1.8.0,<1.9.0 :conda:package:`bioconductor-hdf5array` >=1.10.0,<1.11.0 :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-tenxbraindata|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
+   
+   :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
+   
+   :depends bioconductor-hdf5array: >=1.10.0,<1.11.0
+   
+   :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-tenxbraindata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tenxbraindata
+      docker pull quay.io/repository/biocontainers/bioconductor-tenxbraindata:<tag>
+
+   (see `bioconductor-tenxbraindata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-tenxbraindata| conda:required_by:: bioconductor-tenxbraindata
 .. |downloads_bioconductor-tenxbraindata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tenxbraindata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-tenxbraindata| image:: https://quay.io/repository/biocontainers/bioconductor-tenxbraindata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tenxbraindata
+.. _`bioconductor-tenxbraindata/tags`: https://quay.io/repository/biocontainers/bioconductor-tenxbraindata?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-tenxbraindata/README.html
-

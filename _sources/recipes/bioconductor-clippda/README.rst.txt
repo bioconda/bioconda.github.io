@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-clippda'
 .. highlight: bash
-
 
 bioconductor-clippda
 ====================
@@ -21,11 +22,23 @@ bioconductor-clippda
 
    |downloads_bioconductor-clippda| |docker_bioconductor-clippda|
 
-   :versions: 1.32.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  :conda:package:`r-rgl`  :conda:package:`r-scatterplot3d`  :conda:package:`r-statmod`  
-
-   :required~by: |required_by_bioconductor-clippda|
+   :versions: 1.32.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-lattice: 
+   
+   :depends r-rgl: 
+   
+   :depends r-scatterplot3d: 
+   
+   :depends r-statmod: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-clippda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clippda
+      docker pull quay.io/repository/biocontainers/bioconductor-clippda:<tag>
+
+   (see `bioconductor-clippda/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-clippda| conda:required_by:: bioconductor-clippda
 .. |downloads_bioconductor-clippda| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clippda.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-clippda| image:: https://quay.io/repository/biocontainers/bioconductor-clippda/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clippda
+.. _`bioconductor-clippda/tags`: https://quay.io/repository/biocontainers/bioconductor-clippda?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-clippda/README.html
-

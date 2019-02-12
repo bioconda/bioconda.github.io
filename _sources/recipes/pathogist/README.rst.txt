@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pathogist'
 .. highlight: bash
-
 
 pathogist
 =========
@@ -21,11 +22,35 @@ pathogist
 
    |downloads_pathogist| |docker_pathogist|
 
-   :versions: 0.2.3
-
-   :depends: :conda:package:`coincbc` >=2.9.9 :conda:package:`matplotlib`  :conda:package:`mentalist`  :conda:package:`networkx`  :conda:package:`numpy` >=1.15.1 :conda:package:`pandas` >=0.23.4 :conda:package:`prince`  :conda:package:`pulp` >=1.6.8 :conda:package:`python` 3.5.* :conda:package:`pyyaml` >=3.13 :conda:package:`scikit-learn` >=0.19.1 :conda:package:`scipy` >=1.1.0 :conda:package:`snippy` 3.2 
-
-   :required~by: |required_by_pathogist|
+   :versions: 0.2.3-0
+   
+   :depends coincbc: >=2.9.9
+   
+   :depends matplotlib: 
+   
+   :depends mentalist: 
+   
+   :depends networkx: 
+   
+   :depends numpy: >=1.15.1
+   
+   :depends pandas: >=0.23.4
+   
+   :depends prince: 
+   
+   :depends pulp: >=1.6.8
+   
+   :depends python: 3.5.*
+   
+   :depends pyyaml: >=3.13
+   
+   :depends scikit-learn: >=0.19.1
+   
+   :depends scipy: >=1.1.0
+   
+   :depends snippy: 3.2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ pathogist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pathogist
+      docker pull quay.io/repository/biocontainers/pathogist:<tag>
+
+   (see `pathogist/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pathogist| conda:required_by:: pathogist
 .. |downloads_pathogist| image:: https://img.shields.io/conda/dn/bioconda/pathogist.svg?style=flat
    :alt:   (downloads)
 .. |docker_pathogist| image:: https://quay.io/repository/biocontainers/pathogist/status
    :target: https://quay.io/repository/biocontainers/pathogist
+.. _`pathogist/tags`: https://quay.io/repository/biocontainers/pathogist?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pathogist/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pythonnet'
 .. highlight: bash
-
 
 pythonnet
 =========
@@ -21,11 +22,15 @@ pythonnet
 
    |downloads_pythonnet| |docker_pythonnet|
 
-   :versions: 2.3.0
-
-   :depends: :conda:package:`mono`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pythonnet|
+   :versions: 2.3.0-1, 2.3.0-0
+   
+   :depends glib: 2.55.*
+   
+   :depends mono: 
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pythonnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pythonnet
+      docker pull quay.io/repository/biocontainers/pythonnet:<tag>
+
+   (see `pythonnet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pythonnet| conda:required_by:: pythonnet
 .. |downloads_pythonnet| image:: https://img.shields.io/conda/dn/bioconda/pythonnet.svg?style=flat
    :alt:   (downloads)
 .. |docker_pythonnet| image:: https://quay.io/repository/biocontainers/pythonnet/status
    :target: https://quay.io/repository/biocontainers/pythonnet
+.. _`pythonnet/tags`: https://quay.io/repository/biocontainers/pythonnet?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pythonnet/README.html
-

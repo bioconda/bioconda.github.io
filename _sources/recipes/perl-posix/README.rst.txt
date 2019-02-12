@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-posix'
 .. highlight: bash
-
 
 perl-posix
 ==========
@@ -21,11 +22,11 @@ perl-posix
 
    |downloads_perl-posix| |docker_perl-posix|
 
-   :versions: 1.38_03
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-posix|
+   :versions: 1.38_03-1, 1.38_03-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-posix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-posix
+      docker pull quay.io/repository/biocontainers/perl-posix:<tag>
+
+   (see `perl-posix/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-posix| conda:required_by:: perl-posix
 .. |downloads_perl-posix| image:: https://img.shields.io/conda/dn/bioconda/perl-posix.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-posix| image:: https://quay.io/repository/biocontainers/perl-posix/status
    :target: https://quay.io/repository/biocontainers/perl-posix
+.. _`perl-posix/tags`: https://quay.io/repository/biocontainers/perl-posix?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-posix/README.html
-

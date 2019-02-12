@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'clove'
 .. highlight: bash
-
 
 clove
 =====
@@ -21,11 +22,13 @@ clove
 
    |downloads_clove| |docker_clove|
 
-   :versions: 0.17
-
-   :depends: :conda:package:`openjdk` >=8 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_clove|
+   :versions: 0.17-1, 0.17-0
+   
+   :depends openjdk: >=8
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ clove
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clove
+      docker pull quay.io/repository/biocontainers/clove:<tag>
+
+   (see `clove/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_clove| conda:required_by:: clove
 .. |downloads_clove| image:: https://img.shields.io/conda/dn/bioconda/clove.svg?style=flat
    :alt:   (downloads)
 .. |docker_clove| image:: https://quay.io/repository/biocontainers/clove/status
    :target: https://quay.io/repository/biocontainers/clove
+.. _`clove/tags`: https://quay.io/repository/biocontainers/clove?tab=tags
 
 
 
@@ -72,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/clove/README.html
-

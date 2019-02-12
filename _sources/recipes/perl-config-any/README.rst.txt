@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-config-any'
 .. highlight: bash
-
 
 perl-config-any
 ===============
@@ -21,11 +22,15 @@ perl-config-any
 
    |downloads_perl-config-any| |docker_perl-config-any|
 
-   :versions: 0.32, 0.27
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-app-cpanminus`  
-
-   :required~by: |required_by_perl-config-any|
+   :versions: 0.32-0, 0.27-2, 0.27-1, 0.27-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-app-cpanminus: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-config-any
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-config-any
+      docker pull quay.io/repository/biocontainers/perl-config-any:<tag>
+
+   (see `perl-config-any/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-config-any| conda:required_by:: perl-config-any
 .. |downloads_perl-config-any| image:: https://img.shields.io/conda/dn/bioconda/perl-config-any.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-config-any| image:: https://quay.io/repository/biocontainers/perl-config-any/status
    :target: https://quay.io/repository/biocontainers/perl-config-any
+.. _`perl-config-any/tags`: https://quay.io/repository/biocontainers/perl-config-any?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-config-any/README.html
-

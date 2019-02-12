@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'meme'
 .. highlight: bash
-
 
 meme
 ====
@@ -21,11 +22,53 @@ meme
 
    |downloads_meme| |docker_meme|
 
-   :versions: 5.0.2, 4.12.0, 4.11.2, 4.11.1
-
-   :depends: :conda:package:`expat` >=2.2.5,<2.3.0a0 :conda:package:`ghostscript`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libxml2` >=2.9.8,<2.10.0a0 :conda:package:`libxslt` >=1.1.32,<2.0a0 :conda:package:`openmpi` >=3.1,<3.2.0a0 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-cgi`  :conda:package:`perl-html-parser`  :conda:package:`perl-html-template`  :conda:package:`perl-html-tree`  :conda:package:`perl-log-log4perl`  :conda:package:`perl-math-cdf`  :conda:package:`perl-xml-parser`  :conda:package:`perl-xml-simple`  :conda:package:`perl-yaml`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`yaml` >=0.1.7,<0.2.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_meme|
+   :versions: 5.0.2-5, 5.0.2-3, 5.0.2-2, 4.12.0-2, 4.12.0-1, 4.12.0-0, 4.11.2-1, 4.11.2-0, 4.11.1-4, 4.11.1-3, 4.11.1-2, 4.11.1-1, 4.11.1-0
+   
+   :depends expat: >=2.2.5,<2.3.0a0
+   
+   :depends ghostscript: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libxml2: >=2.9.8,<2.10.0a0
+   
+   :depends libxslt: >=1.1.32,<2.0a0
+   
+   :depends openmpi: >=3.1,<3.2.0a0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-cgi: 
+   
+   :depends perl-file-which: 
+   
+   :depends perl-html-parser: 
+   
+   :depends perl-html-template: 
+   
+   :depends perl-html-tree: 
+   
+   :depends perl-json: 
+   
+   :depends perl-log-log4perl: 
+   
+   :depends perl-math-cdf: 
+   
+   :depends perl-xml-parser: 
+   
+   :depends perl-xml-simple: 
+   
+   :depends perl-yaml: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends xz: >=5.2.4,<5.3.0a0
+   
+   :depends yaml: >=0.1.7,<0.2.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +82,16 @@ meme
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/meme
+      docker pull quay.io/repository/biocontainers/meme:<tag>
+
+   (see `meme/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_meme| conda:required_by:: meme
 .. |downloads_meme| image:: https://img.shields.io/conda/dn/bioconda/meme.svg?style=flat
    :alt:   (downloads)
 .. |docker_meme| image:: https://quay.io/repository/biocontainers/meme/status
    :target: https://quay.io/repository/biocontainers/meme
+.. _`meme/tags`: https://quay.io/repository/biocontainers/meme?tab=tags
 
 
 
@@ -63,4 +108,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/meme/README.html
-

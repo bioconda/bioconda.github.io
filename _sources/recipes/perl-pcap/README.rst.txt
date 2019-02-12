@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-pcap'
 .. highlight: bash
-
 
 perl-pcap
 =========
@@ -21,11 +22,31 @@ perl-pcap
 
    |downloads_perl-pcap| |docker_perl-pcap|
 
-   :versions: 1.11.1
-
-   :depends: :conda:package:`perl-bio-db-sam`  :conda:package:`perl-bioperl`  :conda:package:`perl-encode-locale`  :conda:package:`perl-encode-locale`  :conda:package:`perl-gd`  :conda:package:`perl-ipc-system-simple`  :conda:package:`perl-lwp-simple`  :conda:package:`perl-sanger-cgp-vcf`  :conda:package:`perl-threaded`  :conda:package:`perl-xml-parser`  
-
-   :required~by: |required_by_perl-pcap|
+   :versions: 1.11.1-2, 1.11.1-1, 1.11.1-0
+   
+   :depends libgcc: 
+   
+   :depends perl-bio-db-sam: 
+   
+   :depends perl-bioperl: 
+   
+   :depends perl-encode-locale: 
+   
+   :depends perl-encode-locale: 
+   
+   :depends perl-gd: 
+   
+   :depends perl-ipc-system-simple: 
+   
+   :depends perl-lwp-simple: 
+   
+   :depends perl-sanger-cgp-vcf: 
+   
+   :depends perl-threaded: 
+   
+   :depends perl-xml-parser: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ perl-pcap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pcap
+      docker pull quay.io/repository/biocontainers/perl-pcap:<tag>
+
+   (see `perl-pcap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-pcap| conda:required_by:: perl-pcap
 .. |downloads_perl-pcap| image:: https://img.shields.io/conda/dn/bioconda/perl-pcap.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-pcap| image:: https://quay.io/repository/biocontainers/perl-pcap/status
    :target: https://quay.io/repository/biocontainers/perl-pcap
+.. _`perl-pcap/tags`: https://quay.io/repository/biocontainers/perl-pcap?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-pcap/README.html
-

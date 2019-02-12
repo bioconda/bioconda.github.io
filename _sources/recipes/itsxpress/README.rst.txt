@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'itsxpress'
 .. highlight: bash
-
 
 itsxpress
 =========
@@ -22,11 +23,21 @@ itsxpress
 
    |downloads_itsxpress| |docker_itsxpress|
 
-   :versions: 1.7.2, 1.7.1, 1.6.4, 1.6.3, 1.6.1, 1.5.6
-
-   :depends: :conda:package:`bbmap`  :conda:package:`biopython` >=1.60 :conda:package:`hmmer` >=3.1 :conda:package:`pip`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`vsearch`  
-
-   :required~by: |required_by_itsxpress|
+   :versions: 1.7.2-0, 1.7.1-0, 1.6.4-0, 1.6.3-0, 1.6.1-0, 1.5.6-0
+   
+   :depends bbmap: 
+   
+   :depends biopython: >=1.60
+   
+   :depends hmmer: >=3.1
+   
+   :depends pip: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends vsearch: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ itsxpress
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/itsxpress
+      docker pull quay.io/repository/biocontainers/itsxpress:<tag>
+
+   (see `itsxpress/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_itsxpress| conda:required_by:: itsxpress
 .. |downloads_itsxpress| image:: https://img.shields.io/conda/dn/bioconda/itsxpress.svg?style=flat
    :alt:   (downloads)
 .. |docker_itsxpress| image:: https://quay.io/repository/biocontainers/itsxpress/status
    :target: https://quay.io/repository/biocontainers/itsxpress
+.. _`itsxpress/tags`: https://quay.io/repository/biocontainers/itsxpress?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/itsxpress/README.html
-

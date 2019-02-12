@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-gbm'
 .. highlight: bash
-
 
 r-gbm
 =====
@@ -21,11 +22,17 @@ r-gbm
 
    |downloads_r-gbm| |docker_r-gbm|
 
-   :versions: 2.1.3, 2.1.1
-
-   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-lattice`  :conda:package:`r-survival`  
-
-   :required~by: |required_by_r-gbm|
+   :versions: 2.1.3-0, 2.1.1-0
+   
+   :depends libgcc: 
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-lattice: 
+   
+   :depends r-survival: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-gbm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gbm
+      docker pull quay.io/repository/biocontainers/r-gbm:<tag>
+
+   (see `r-gbm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-gbm| conda:required_by:: r-gbm
 .. |downloads_r-gbm| image:: https://img.shields.io/conda/dn/bioconda/r-gbm.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-gbm| image:: https://quay.io/repository/biocontainers/r-gbm/status
    :target: https://quay.io/repository/biocontainers/r-gbm
+.. _`r-gbm/tags`: https://quay.io/repository/biocontainers/r-gbm?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-gbm/README.html
-

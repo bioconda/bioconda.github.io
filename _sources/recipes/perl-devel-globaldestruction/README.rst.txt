@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-devel-globaldestruction'
 .. highlight: bash
-
 
 perl-devel-globaldestruction
 ============================
@@ -21,11 +22,13 @@ perl-devel-globaldestruction
 
    |downloads_perl-devel-globaldestruction| |docker_perl-devel-globaldestruction|
 
-   :versions: 0.14, 0.13
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-sub-exporter-progressive`  
-
-   :required~by: |required_by_perl-devel-globaldestruction|
+   :versions: 0.14-0, 0.13-2, 0.13-1, 0.13-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-sub-exporter-progressive: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-devel-globaldestruction
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-devel-globaldestruction
+      docker pull quay.io/repository/biocontainers/perl-devel-globaldestruction:<tag>
+
+   (see `perl-devel-globaldestruction/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-devel-globaldestruction| conda:required_by:: perl-devel-globaldestruction
 .. |downloads_perl-devel-globaldestruction| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-globaldestruction.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-devel-globaldestruction| image:: https://quay.io/repository/biocontainers/perl-devel-globaldestruction/status
    :target: https://quay.io/repository/biocontainers/perl-devel-globaldestruction
+.. _`perl-devel-globaldestruction/tags`: https://quay.io/repository/biocontainers/perl-devel-globaldestruction?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-devel-globaldestruction/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'novasplice'
 .. highlight: bash
-
 
 novasplice
 ==========
@@ -21,11 +22,17 @@ novasplice
 
    |downloads_novasplice| |docker_novasplice|
 
-   :versions: 0.0.4, 0.0.3
-
-   :depends: :conda:package:`argparse`  :conda:package:`maxentpy`  :conda:package:`pybedtools`  :conda:package:`python` >=3 
-
-   :required~by: |required_by_novasplice|
+   :versions: 0.0.4-0, 0.0.3-0
+   
+   :depends argparse: 
+   
+   :depends maxentpy: 
+   
+   :depends pybedtools: 
+   
+   :depends python: >=3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ novasplice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/novasplice
+      docker pull quay.io/repository/biocontainers/novasplice:<tag>
+
+   (see `novasplice/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_novasplice| conda:required_by:: novasplice
 .. |downloads_novasplice| image:: https://img.shields.io/conda/dn/bioconda/novasplice.svg?style=flat
    :alt:   (downloads)
 .. |docker_novasplice| image:: https://quay.io/repository/biocontainers/novasplice/status
    :target: https://quay.io/repository/biocontainers/novasplice
+.. _`novasplice/tags`: https://quay.io/repository/biocontainers/novasplice?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/novasplice/README.html
-

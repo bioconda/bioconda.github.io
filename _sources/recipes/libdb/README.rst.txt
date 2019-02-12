@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'libdb'
 .. highlight: bash
-
 
 libdb
 =====
@@ -21,11 +22,11 @@ libdb
 
    |downloads_libdb| |docker_libdb|
 
-   :versions: 6.1.26
-
-   :depends: :conda:package:`libcxx` >=4.0.1 
-
-   :required~by: |required_by_libdb|
+   :versions: 6.1.26-0
+   
+   :depends libcxx: >=4.0.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ libdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libdb
+      docker pull quay.io/repository/biocontainers/libdb:<tag>
+
+   (see `libdb/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_libdb| conda:required_by:: libdb
 .. |downloads_libdb| image:: https://img.shields.io/conda/dn/bioconda/libdb.svg?style=flat
    :alt:   (downloads)
 .. |docker_libdb| image:: https://quay.io/repository/biocontainers/libdb/status
    :target: https://quay.io/repository/biocontainers/libdb
+.. _`libdb/tags`: https://quay.io/repository/biocontainers/libdb?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/libdb/README.html
-

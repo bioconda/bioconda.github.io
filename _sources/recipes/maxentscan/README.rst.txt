@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'maxentscan'
 .. highlight: bash
-
 
 maxentscan
 ==========
@@ -21,11 +22,11 @@ maxentscan
 
    |downloads_maxentscan| |docker_maxentscan|
 
-   :versions: 0_2004.04.21
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_maxentscan|
+   :versions: 0_2004.04.21-1, 0_2004.04.21-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ maxentscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/maxentscan
+      docker pull quay.io/repository/biocontainers/maxentscan:<tag>
+
+   (see `maxentscan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_maxentscan| conda:required_by:: maxentscan
 .. |downloads_maxentscan| image:: https://img.shields.io/conda/dn/bioconda/maxentscan.svg?style=flat
    :alt:   (downloads)
 .. |docker_maxentscan| image:: https://quay.io/repository/biocontainers/maxentscan/status
    :target: https://quay.io/repository/biocontainers/maxentscan
+.. _`maxentscan/tags`: https://quay.io/repository/biocontainers/maxentscan?tab=tags
 
 
 
@@ -67,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/maxentscan/README.html
-

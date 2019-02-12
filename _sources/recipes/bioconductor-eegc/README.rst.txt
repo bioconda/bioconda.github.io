@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-eegc'
 .. highlight: bash
-
 
 bioconductor-eegc
 =================
@@ -21,11 +22,43 @@ bioconductor-eegc
 
    |downloads_bioconductor-eegc| |docker_bioconductor-eegc|
 
-   :versions: 1.8.1
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-clusterprofiler` >=3.10.0,<3.11.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-dose` >=3.8.0,<3.9.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-org.mm.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-igraph`  :conda:package:`r-pheatmap`  :conda:package:`r-r.utils`  :conda:package:`r-sna`  :conda:package:`r-wordcloud`  
-
-   :required~by: |required_by_bioconductor-eegc|
+   :versions: 1.8.1-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-clusterprofiler: >=3.10.0,<3.11.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-dose: >=3.8.0,<3.9.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-org.mm.eg.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-igraph: 
+   
+   :depends r-pheatmap: 
+   
+   :depends r-r.utils: 
+   
+   :depends r-sna: 
+   
+   :depends r-wordcloud: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +72,16 @@ bioconductor-eegc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-eegc
+      docker pull quay.io/repository/biocontainers/bioconductor-eegc:<tag>
+
+   (see `bioconductor-eegc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-eegc| conda:required_by:: bioconductor-eegc
 .. |downloads_bioconductor-eegc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-eegc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-eegc| image:: https://quay.io/repository/biocontainers/bioconductor-eegc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-eegc
+.. _`bioconductor-eegc/tags`: https://quay.io/repository/biocontainers/bioconductor-eegc?tab=tags
 
 
 
@@ -63,4 +98,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-eegc/README.html
-

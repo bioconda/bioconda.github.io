@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-empiricalfdr.deseq2'
 .. highlight: bash
-
 
 r-empiricalfdr.deseq2
 =====================
@@ -21,11 +22,15 @@ r-empiricalfdr.deseq2
 
    |downloads_r-empiricalfdr.deseq2| |docker_r-empiricalfdr.deseq2|
 
-   :versions: 1.0.3
-
-   :depends: :conda:package:`bioconductor-deseq2`  :conda:package:`bioconductor-genomicranges`  :conda:package:`r` 3.2.2* 
-
-   :required~by: |required_by_r-empiricalfdr.deseq2|
+   :versions: 1.0.3-4, 1.0.3-3, 1.0.3-2, 1.0.3-0
+   
+   :depends bioconductor-deseq2: 
+   
+   :depends bioconductor-genomicranges: >=1.32.7,<1.34.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-empiricalfdr.deseq2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-empiricalfdr.deseq2
+      docker pull quay.io/repository/biocontainers/r-empiricalfdr.deseq2:<tag>
+
+   (see `r-empiricalfdr.deseq2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-empiricalfdr.deseq2| conda:required_by:: r-empiricalfdr.deseq2
 .. |downloads_r-empiricalfdr.deseq2| image:: https://img.shields.io/conda/dn/bioconda/r-empiricalfdr.deseq2.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-empiricalfdr.deseq2| image:: https://quay.io/repository/biocontainers/r-empiricalfdr.deseq2/status
    :target: https://quay.io/repository/biocontainers/r-empiricalfdr.deseq2
+.. _`r-empiricalfdr.deseq2/tags`: https://quay.io/repository/biocontainers/r-empiricalfdr.deseq2?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-empiricalfdr.deseq2/README.html
-

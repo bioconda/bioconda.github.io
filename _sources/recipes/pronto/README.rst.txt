@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pronto'
 .. highlight: bash
-
 
 pronto
 ======
@@ -21,11 +22,13 @@ pronto
 
    |downloads_pronto| |docker_pronto|
 
-   :versions: 0.12.1, 0.12.0, 0.11.1, 0.11.0, 0.10.2, 0.3.3
-
-   :depends: :conda:package:`python`  :conda:package:`six`  
-
-   :required~by: |required_by_pronto|
+   :versions: 0.12.1-0, 0.12.0-0, 0.11.1-0, 0.11.0-0, 0.10.2-1, 0.10.2-0, 0.3.3-2, 0.3.3-1, 0.3.3-0
+   
+   :depends python: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ pronto
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pronto
+      docker pull quay.io/repository/biocontainers/pronto:<tag>
+
+   (see `pronto/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pronto| conda:required_by:: pronto
 .. |downloads_pronto| image:: https://img.shields.io/conda/dn/bioconda/pronto.svg?style=flat
    :alt:   (downloads)
 .. |docker_pronto| image:: https://quay.io/repository/biocontainers/pronto/status
    :target: https://quay.io/repository/biocontainers/pronto
+.. _`pronto/tags`: https://quay.io/repository/biocontainers/pronto?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pronto/README.html
-

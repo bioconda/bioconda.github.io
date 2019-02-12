@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-coloc'
 .. highlight: bash
-
 
 r-coloc
 =======
@@ -21,11 +22,23 @@ r-coloc
 
    |downloads_r-coloc| |docker_r-coloc|
 
-   :versions: 3.1, 2.3_1
-
-   :depends: :conda:package:`bioconductor-snpstats`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-bma`  :conda:package:`r-flashclust`  :conda:package:`r-ggplot2`  :conda:package:`r-reshape`  :conda:package:`r-speedglm`  
-
-   :required~by: |required_by_r-coloc|
+   :versions: 3.1-1, 3.1-0, 2.3_1-0
+   
+   :depends bioconductor-snpstats: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bma: 
+   
+   :depends r-flashclust: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-reshape: 
+   
+   :depends r-speedglm: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ r-coloc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-coloc
+      docker pull quay.io/repository/biocontainers/r-coloc:<tag>
+
+   (see `r-coloc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-coloc| conda:required_by:: r-coloc
 .. |downloads_r-coloc| image:: https://img.shields.io/conda/dn/bioconda/r-coloc.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-coloc| image:: https://quay.io/repository/biocontainers/r-coloc/status
    :target: https://quay.io/repository/biocontainers/r-coloc
+.. _`r-coloc/tags`: https://quay.io/repository/biocontainers/r-coloc?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-coloc/README.html
-

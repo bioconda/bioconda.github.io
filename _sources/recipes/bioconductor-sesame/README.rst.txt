@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sesame'
 .. highlight: bash
-
 
 bioconductor-sesame
 ===================
@@ -21,11 +22,35 @@ bioconductor-sesame
 
    |downloads_bioconductor-sesame| |docker_bioconductor-sesame|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-dnacopy` >=1.56.0,<1.57.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-illuminaio` >=0.24.0,<0.25.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-sesamedata` >=1.0.0,<1.1.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-mass`  :conda:package:`r-r6`  :conda:package:`r-randomforest`  :conda:package:`r-wheatmap`  
-
-   :required~by: |required_by_bioconductor-sesame|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-dnacopy: >=1.56.0,<1.57.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-illuminaio: >=0.24.0,<0.25.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-sesamedata: >=1.0.0,<1.1.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-mass: 
+   
+   :depends r-r6: 
+   
+   :depends r-randomforest: 
+   
+   :depends r-wheatmap: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ bioconductor-sesame
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sesame
+      docker pull quay.io/repository/biocontainers/bioconductor-sesame:<tag>
+
+   (see `bioconductor-sesame/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sesame| conda:required_by:: bioconductor-sesame
 .. |downloads_bioconductor-sesame| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sesame.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sesame| image:: https://quay.io/repository/biocontainers/bioconductor-sesame/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sesame
+.. _`bioconductor-sesame/tags`: https://quay.io/repository/biocontainers/bioconductor-sesame?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sesame/README.html
-

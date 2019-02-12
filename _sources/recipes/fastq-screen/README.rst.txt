@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastq-screen'
 .. highlight: bash
-
 
 fastq-screen
 ============
@@ -21,11 +22,17 @@ fastq-screen
 
    |downloads_fastq-screen| |docker_fastq-screen|
 
-   :versions: 0.13.0, 0.11.3, 0.11.1, 0.5.2
-
-   :depends: :conda:package:`bowtie`  :conda:package:`bowtie2`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-gdgraph`  
-
-   :required~by: |required_by_fastq-screen|
+   :versions: 0.13.0-0, 0.11.3-1, 0.11.3-0, 0.11.1-1, 0.11.1-0, 0.5.2-1, 0.5.2-0
+   
+   :depends bowtie: 
+   
+   :depends bowtie2: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-gdgraph: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ fastq-screen
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastq-screen
+      docker pull quay.io/repository/biocontainers/fastq-screen:<tag>
+
+   (see `fastq-screen/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastq-screen| conda:required_by:: fastq-screen
 .. |downloads_fastq-screen| image:: https://img.shields.io/conda/dn/bioconda/fastq-screen.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastq-screen| image:: https://quay.io/repository/biocontainers/fastq-screen/status
    :target: https://quay.io/repository/biocontainers/fastq-screen
+.. _`fastq-screen/tags`: https://quay.io/repository/biocontainers/fastq-screen?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastq-screen/README.html
-

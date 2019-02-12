@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-levi'
 .. highlight: bash
-
 
 bioconductor-levi
 =================
@@ -21,11 +22,45 @@ bioconductor-levi
 
    |downloads_bioconductor-levi| |docker_bioconductor-levi|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-colorspace` >=1.3-2 :conda:package:`r-dplyr` >=0.7.4 :conda:package:`r-dt` >=0.4 :conda:package:`r-ggplot2` >=2.2.1 :conda:package:`r-httr` >=1.3.1 :conda:package:`r-igraph` >=1.2.1 :conda:package:`r-knitr`  :conda:package:`r-rcolorbrewer` >=1.1-2 :conda:package:`r-rcpp` >=0.12.18 :conda:package:`r-reshape2` >=1.4.3 :conda:package:`r-shiny` >=1.0.5 :conda:package:`r-shinydashboard` >=0.7.0 :conda:package:`r-shinyjs` >=1.0 :conda:package:`r-testthat`  :conda:package:`r-xml2` >=1.2.0 
-
-   :required~by: |required_by_bioconductor-levi|
+   :versions: 1.0.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-colorspace: >=1.3-2
+   
+   :depends r-dplyr: >=0.7.4
+   
+   :depends r-dt: >=0.4
+   
+   :depends r-ggplot2: >=2.2.1
+   
+   :depends r-httr: >=1.3.1
+   
+   :depends r-igraph: >=1.2.1
+   
+   :depends r-knitr: 
+   
+   :depends r-rcolorbrewer: >=1.1-2
+   
+   :depends r-rcpp: >=0.12.18
+   
+   :depends r-reshape2: >=1.4.3
+   
+   :depends r-shiny: >=1.0.5
+   
+   :depends r-shinydashboard: >=0.7.0
+   
+   :depends r-shinyjs: >=1.0
+   
+   :depends r-testthat: 
+   
+   :depends r-xml2: >=1.2.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +74,16 @@ bioconductor-levi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-levi
+      docker pull quay.io/repository/biocontainers/bioconductor-levi:<tag>
+
+   (see `bioconductor-levi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-levi| conda:required_by:: bioconductor-levi
 .. |downloads_bioconductor-levi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-levi.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-levi| image:: https://quay.io/repository/biocontainers/bioconductor-levi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-levi
+.. _`bioconductor-levi/tags`: https://quay.io/repository/biocontainers/bioconductor-levi?tab=tags
 
 
 
@@ -63,4 +100,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-levi/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pbsim'
 .. highlight: bash
-
 
 pbsim
 =====
@@ -21,11 +22,11 @@ pbsim
 
    |downloads_pbsim| |docker_pbsim|
 
-   :versions: 1.0.3
-
-   :depends: 
-
-   :required~by: |required_by_pbsim|
+   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ pbsim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbsim
+      docker pull quay.io/repository/biocontainers/pbsim:<tag>
+
+   (see `pbsim/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pbsim| conda:required_by:: pbsim
 .. |downloads_pbsim| image:: https://img.shields.io/conda/dn/bioconda/pbsim.svg?style=flat
    :alt:   (downloads)
 .. |docker_pbsim| image:: https://quay.io/repository/biocontainers/pbsim/status
    :target: https://quay.io/repository/biocontainers/pbsim
+.. _`pbsim/tags`: https://quay.io/repository/biocontainers/pbsim?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pbsim/README.html
-

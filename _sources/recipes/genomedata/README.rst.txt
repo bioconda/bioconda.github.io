@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genomedata'
 .. highlight: bash
-
 
 genomedata
 ==========
@@ -22,11 +23,29 @@ genomedata
 
    |downloads_genomedata| |docker_genomedata|
 
-   :versions: 1.4.4, 1.4.1, 1.4.0, 1.3.6, 1.3.5
-
-   :depends: :conda:package:`bedtools`  :conda:package:`hdf5` >=1.10.3,<1.10.4.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`path.py`  :conda:package:`pytables` >=3.4.3 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`six`  :conda:package:`textinput`  :conda:package:`ucsc-bigwigtobedgraph`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_genomedata|
+   :versions: 1.4.4-1, 1.4.4-0, 1.4.1-3, 1.4.1-2, 1.4.1-0, 1.4.0-1, 1.4.0-0, 1.3.6-0, 1.3.5-0
+   
+   :depends bedtools: 
+   
+   :depends hdf5: >=1.10.3,<1.10.4.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends path.py: 
+   
+   :depends pytables: >=3.4.3
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends six: 
+   
+   :depends textinput: 
+   
+   :depends ucsc-bigwigtobedgraph: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ genomedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genomedata
+      docker pull quay.io/repository/biocontainers/genomedata:<tag>
+
+   (see `genomedata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genomedata| conda:required_by:: genomedata
 .. |downloads_genomedata| image:: https://img.shields.io/conda/dn/bioconda/genomedata.svg?style=flat
    :alt:   (downloads)
 .. |docker_genomedata| image:: https://quay.io/repository/biocontainers/genomedata/status
    :target: https://quay.io/repository/biocontainers/genomedata
+.. _`genomedata/tags`: https://quay.io/repository/biocontainers/genomedata?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genomedata/README.html
-

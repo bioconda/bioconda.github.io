@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rexposome'
 .. highlight: bash
-
 
 bioconductor-rexposome
 ======================
@@ -21,11 +22,53 @@ bioconductor-rexposome
 
    |downloads_bioconductor-rexposome| |docker_bioconductor-rexposome|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-circlize`  :conda:package:`r-corrplot`  :conda:package:`r-factominer`  :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-glmnet`  :conda:package:`r-gplots`  :conda:package:`r-gridextra`  :conda:package:`r-gtools`  :conda:package:`r-hmisc`  :conda:package:`r-imputelcmd`  :conda:package:`r-lme4`  :conda:package:`r-lsr`  :conda:package:`r-mice`  :conda:package:`r-pryr`  :conda:package:`r-reshape2`  :conda:package:`r-scales`  :conda:package:`r-scatterplot3d`  :conda:package:`r-stringr`  
-
-   :required~by: |required_by_bioconductor-rexposome|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-circlize: 
+   
+   :depends r-corrplot: 
+   
+   :depends r-factominer: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggrepel: 
+   
+   :depends r-glmnet: 
+   
+   :depends r-gplots: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-gtools: 
+   
+   :depends r-hmisc: 
+   
+   :depends r-imputelcmd: 
+   
+   :depends r-lme4: 
+   
+   :depends r-lsr: 
+   
+   :depends r-mice: 
+   
+   :depends r-pryr: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-scales: 
+   
+   :depends r-scatterplot3d: 
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +82,16 @@ bioconductor-rexposome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rexposome
+      docker pull quay.io/repository/biocontainers/bioconductor-rexposome:<tag>
+
+   (see `bioconductor-rexposome/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rexposome| conda:required_by:: bioconductor-rexposome
 .. |downloads_bioconductor-rexposome| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rexposome.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rexposome| image:: https://quay.io/repository/biocontainers/bioconductor-rexposome/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rexposome
+.. _`bioconductor-rexposome/tags`: https://quay.io/repository/biocontainers/bioconductor-rexposome?tab=tags
 
 
 
@@ -63,4 +108,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rexposome/README.html
-

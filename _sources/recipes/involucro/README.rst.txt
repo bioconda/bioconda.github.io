@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'involucro'
 .. highlight: bash
-
 
 involucro
 =========
@@ -21,11 +22,9 @@ involucro
 
    |downloads_involucro| |docker_involucro|
 
-   :versions: 1.1.2
-
-   :depends: 
-
-   :required~by: |required_by_involucro|
+   :versions: 1.1.2-1, 1.1.2-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ involucro
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/involucro
+      docker pull quay.io/repository/biocontainers/involucro:<tag>
+
+   (see `involucro/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_involucro| conda:required_by:: involucro
 .. |downloads_involucro| image:: https://img.shields.io/conda/dn/bioconda/involucro.svg?style=flat
    :alt:   (downloads)
 .. |docker_involucro| image:: https://quay.io/repository/biocontainers/involucro/status
    :target: https://quay.io/repository/biocontainers/involucro
+.. _`involucro/tags`: https://quay.io/repository/biocontainers/involucro?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/involucro/README.html
-

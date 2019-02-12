@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cosnet'
 .. highlight: bash
-
 
 bioconductor-cosnet
 ===================
@@ -21,11 +22,13 @@ bioconductor-cosnet
 
    |downloads_bioconductor-cosnet| |docker_bioconductor-cosnet|
 
-   :versions: 1.16.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-cosnet|
+   :versions: 1.16.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-cosnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cosnet
+      docker pull quay.io/repository/biocontainers/bioconductor-cosnet:<tag>
+
+   (see `bioconductor-cosnet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cosnet| conda:required_by:: bioconductor-cosnet
 .. |downloads_bioconductor-cosnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cosnet.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cosnet| image:: https://quay.io/repository/biocontainers/bioconductor-cosnet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cosnet
+.. _`bioconductor-cosnet/tags`: https://quay.io/repository/biocontainers/bioconductor-cosnet?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cosnet/README.html
-

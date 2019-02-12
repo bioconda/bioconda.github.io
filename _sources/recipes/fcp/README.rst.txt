@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fcp'
 .. highlight: bash
-
 
 fcp
 ===
@@ -21,11 +22,15 @@ fcp
 
    |downloads_fcp| |docker_fcp|
 
-   :versions: 1.0.7
-
-   :depends: :conda:package:`blast`  :conda:package:`libgcc`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_fcp|
+   :versions: 1.0.7-0
+   
+   :depends blast: 
+   
+   :depends libgcc: 
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ fcp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fcp
+      docker pull quay.io/repository/biocontainers/fcp:<tag>
+
+   (see `fcp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fcp| conda:required_by:: fcp
 .. |downloads_fcp| image:: https://img.shields.io/conda/dn/bioconda/fcp.svg?style=flat
    :alt:   (downloads)
 .. |docker_fcp| image:: https://quay.io/repository/biocontainers/fcp/status
    :target: https://quay.io/repository/biocontainers/fcp
+.. _`fcp/tags`: https://quay.io/repository/biocontainers/fcp?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fcp/README.html
-

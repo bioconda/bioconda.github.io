@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cbaf'
 .. highlight: bash
-
 
 bioconductor-cbaf
 =================
@@ -22,10 +23,8 @@ bioconductor-cbaf
    |downloads_bioconductor-cbaf| |docker_bioconductor-cbaf|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-cbaf|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-cbaf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cbaf
+      docker pull quay.io/repository/biocontainers/bioconductor-cbaf:<tag>
+
+   (see `bioconductor-cbaf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cbaf| conda:required_by:: bioconductor-cbaf
 .. |downloads_bioconductor-cbaf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cbaf.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cbaf| image:: https://quay.io/repository/biocontainers/bioconductor-cbaf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cbaf
+.. _`bioconductor-cbaf/tags`: https://quay.io/repository/biocontainers/bioconductor-cbaf?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cbaf/README.html
-

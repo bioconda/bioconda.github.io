@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-aliased'
 .. highlight: bash
-
 
 perl-aliased
 ============
@@ -21,11 +22,15 @@ perl-aliased
 
    |downloads_perl-aliased| |docker_perl-aliased|
 
-   :versions: 0.34
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-aliased|
+   :versions: 0.34-2, 0.34-1, 0.34-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-exporter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-aliased
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-aliased
+      docker pull quay.io/repository/biocontainers/perl-aliased:<tag>
+
+   (see `perl-aliased/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-aliased| conda:required_by:: perl-aliased
 .. |downloads_perl-aliased| image:: https://img.shields.io/conda/dn/bioconda/perl-aliased.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-aliased| image:: https://quay.io/repository/biocontainers/perl-aliased/status
    :target: https://quay.io/repository/biocontainers/perl-aliased
+.. _`perl-aliased/tags`: https://quay.io/repository/biocontainers/perl-aliased?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-aliased/README.html
-

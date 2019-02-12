@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-class-std'
 .. highlight: bash
-
 
 perl-class-std
 ==============
@@ -21,11 +22,13 @@ perl-class-std
 
    |downloads_perl-class-std| |docker_perl-class-std|
 
-   :versions: 0.013
-
-   :depends: :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-class-std|
+   :versions: 0.013-1, 0.013-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-scalar-list-utils: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-class-std
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-class-std
+      docker pull quay.io/repository/biocontainers/perl-class-std:<tag>
+
+   (see `perl-class-std/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-class-std| conda:required_by:: perl-class-std
 .. |downloads_perl-class-std| image:: https://img.shields.io/conda/dn/bioconda/perl-class-std.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-class-std| image:: https://quay.io/repository/biocontainers/perl-class-std/status
    :target: https://quay.io/repository/biocontainers/perl-class-std
+.. _`perl-class-std/tags`: https://quay.io/repository/biocontainers/perl-class-std?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-class-std/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'verse'
 .. highlight: bash
-
 
 verse
 =====
@@ -21,11 +22,13 @@ verse
 
    |downloads_verse| |docker_verse|
 
-   :versions: 0.1.5
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_verse|
+   :versions: 0.1.5-3, 0.1.5-2, 0.1.5-1, 0.1.5-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ verse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/verse
+      docker pull quay.io/repository/biocontainers/verse:<tag>
+
+   (see `verse/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_verse| conda:required_by:: verse
 .. |downloads_verse| image:: https://img.shields.io/conda/dn/bioconda/verse.svg?style=flat
    :alt:   (downloads)
 .. |docker_verse| image:: https://quay.io/repository/biocontainers/verse/status
    :target: https://quay.io/repository/biocontainers/verse
+.. _`verse/tags`: https://quay.io/repository/biocontainers/verse?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/verse/README.html
-

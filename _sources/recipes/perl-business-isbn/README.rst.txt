@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-business-isbn'
 .. highlight: bash
-
 
 perl-business-isbn
 ==================
@@ -21,11 +22,13 @@ perl-business-isbn
 
    |downloads_perl-business-isbn| |docker_perl-business-isbn|
 
-   :versions: 3.004
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-business-isbn-data`  
-
-   :required~by: |required_by_perl-business-isbn|
+   :versions: 3.004-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-business-isbn-data: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-business-isbn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-business-isbn
+      docker pull quay.io/repository/biocontainers/perl-business-isbn:<tag>
+
+   (see `perl-business-isbn/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-business-isbn| conda:required_by:: perl-business-isbn
 .. |downloads_perl-business-isbn| image:: https://img.shields.io/conda/dn/bioconda/perl-business-isbn.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-business-isbn| image:: https://quay.io/repository/biocontainers/perl-business-isbn/status
    :target: https://quay.io/repository/biocontainers/perl-business-isbn
+.. _`perl-business-isbn/tags`: https://quay.io/repository/biocontainers/perl-business-isbn?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-business-isbn/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-dss'
 .. highlight: bash
-
 
 bioconductor-dss
 ================
@@ -22,11 +23,19 @@ bioconductor-dss
 
    |downloads_bioconductor-dss| |docker_bioconductor-dss|
 
-   :versions: 2.30.0, 2.28.0, 2.26.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-bsseq` >=1.18.0,<1.19.0 :conda:package:`bioconductor-delayedarray` >=0.8.0,<0.9.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-dss|
+   :versions: 2.30.0-0, 2.28.0-0, 2.26.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-bsseq: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-delayedarray: >=0.8.0,<0.9.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-dss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dss
+      docker pull quay.io/repository/biocontainers/bioconductor-dss:<tag>
+
+   (see `bioconductor-dss/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-dss| conda:required_by:: bioconductor-dss
 .. |downloads_bioconductor-dss| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dss.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-dss| image:: https://quay.io/repository/biocontainers/bioconductor-dss/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dss
+.. _`bioconductor-dss/tags`: https://quay.io/repository/biocontainers/bioconductor-dss?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-dss/README.html
-

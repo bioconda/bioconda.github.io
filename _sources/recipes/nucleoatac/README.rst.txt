@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nucleoatac'
 .. highlight: bash
-
 
 nucleoatac
 ==========
@@ -24,11 +25,23 @@ nucleoatac
 
    |downloads_nucleoatac| |docker_nucleoatac|
 
-   :versions: 0.3.4, 0.3.1
-
-   :depends: :conda:package:`cython` >=0.22 :conda:package:`matplotlib`  :conda:package:`numpy` >=1.9.1 :conda:package:`pysam` >=0.8.1 :conda:package:`python` 2.7* :conda:package:`scipy`  :conda:package:`zlib`  
-
-   :required~by: |required_by_nucleoatac|
+   :versions: 0.3.4-2, 0.3.4-1, 0.3.4-0, 0.3.1-0
+   
+   :depends cython: >=0.22
+   
+   :depends matplotlib: 
+   
+   :depends numpy: >=1.9.1
+   
+   :depends pysam: >=0.8.1
+   
+   :depends python: <3
+   
+   :depends scipy: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +55,16 @@ nucleoatac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nucleoatac
+      docker pull quay.io/repository/biocontainers/nucleoatac:<tag>
+
+   (see `nucleoatac/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nucleoatac| conda:required_by:: nucleoatac
 .. |downloads_nucleoatac| image:: https://img.shields.io/conda/dn/bioconda/nucleoatac.svg?style=flat
    :alt:   (downloads)
 .. |docker_nucleoatac| image:: https://quay.io/repository/biocontainers/nucleoatac/status
    :target: https://quay.io/repository/biocontainers/nucleoatac
+.. _`nucleoatac/tags`: https://quay.io/repository/biocontainers/nucleoatac?tab=tags
 
 
 
@@ -66,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nucleoatac/README.html
-

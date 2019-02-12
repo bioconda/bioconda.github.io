@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyhashxx'
 .. highlight: bash
-
 
 pyhashxx
 ========
@@ -21,11 +22,11 @@ pyhashxx
 
    |downloads_pyhashxx| |docker_pyhashxx|
 
-   :versions: 0.1.3
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pyhashxx|
+   :versions: 0.1.3-1, 0.1.3-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ pyhashxx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyhashxx
+      docker pull quay.io/repository/biocontainers/pyhashxx:<tag>
+
+   (see `pyhashxx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyhashxx| conda:required_by:: pyhashxx
 .. |downloads_pyhashxx| image:: https://img.shields.io/conda/dn/bioconda/pyhashxx.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyhashxx| image:: https://quay.io/repository/biocontainers/pyhashxx/status
    :target: https://quay.io/repository/biocontainers/pyhashxx
+.. _`pyhashxx/tags`: https://quay.io/repository/biocontainers/pyhashxx?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyhashxx/README.html
-

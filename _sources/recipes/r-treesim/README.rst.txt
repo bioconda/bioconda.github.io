@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-treesim'
 .. highlight: bash
-
 
 r-treesim
 =========
@@ -21,11 +22,15 @@ r-treesim
 
    |downloads_r-treesim| |docker_r-treesim|
 
-   :versions: 2.3
-
-   :depends: :conda:package:`r-ape`  :conda:package:`r-base` 3.4.1* :conda:package:`r-geiger`  
-
-   :required~by: |required_by_r-treesim|
+   :versions: 2.3-3, 2.3-2, 2.3-1, 2.3-0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-geiger: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-treesim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-treesim
+      docker pull quay.io/repository/biocontainers/r-treesim:<tag>
+
+   (see `r-treesim/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-treesim| conda:required_by:: r-treesim
 .. |downloads_r-treesim| image:: https://img.shields.io/conda/dn/bioconda/r-treesim.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-treesim| image:: https://quay.io/repository/biocontainers/r-treesim/status
    :target: https://quay.io/repository/biocontainers/r-treesim
+.. _`r-treesim/tags`: https://quay.io/repository/biocontainers/r-treesim?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-treesim/README.html
-

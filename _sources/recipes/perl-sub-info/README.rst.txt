@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-sub-info'
 .. highlight: bash
-
 
 perl-sub-info
 =============
@@ -21,11 +22,15 @@ perl-sub-info
 
    |downloads_perl-sub-info| |docker_perl-sub-info|
 
-   :versions: 0.002
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-importer`  
-
-   :required~by: |required_by_perl-sub-info|
+   :versions: 0.002-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-importer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-sub-info
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-info
+      docker pull quay.io/repository/biocontainers/perl-sub-info:<tag>
+
+   (see `perl-sub-info/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-sub-info| conda:required_by:: perl-sub-info
 .. |downloads_perl-sub-info| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-info.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-sub-info| image:: https://quay.io/repository/biocontainers/perl-sub-info/status
    :target: https://quay.io/repository/biocontainers/perl-sub-info
+.. _`perl-sub-info/tags`: https://quay.io/repository/biocontainers/perl-sub-info?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-sub-info/README.html
-

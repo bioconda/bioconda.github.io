@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-org.dm.eg.db'
 .. highlight: bash
-
 
 bioconductor-org.dm.eg.db
 =========================
@@ -21,11 +22,15 @@ bioconductor-org.dm.eg.db
 
    |downloads_bioconductor-org.dm.eg.db| |docker_bioconductor-org.dm.eg.db|
 
-   :versions: 3.7.0, 3.6.0, 3.5.0, 3.4.2, 3.4.1, 3.4.0, 3.3.0, 3.2.3
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-org.dm.eg.db|
+   :versions: 3.7.0-0, 3.6.0-0, 3.5.0-1, 3.5.0-0, 3.4.2-0, 3.4.1-0, 3.4.0-2, 3.4.0-0, 3.3.0-0, 3.2.3-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-org.dm.eg.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-org.dm.eg.db
+      docker pull quay.io/repository/biocontainers/bioconductor-org.dm.eg.db:<tag>
+
+   (see `bioconductor-org.dm.eg.db/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-org.dm.eg.db| conda:required_by:: bioconductor-org.dm.eg.db
 .. |downloads_bioconductor-org.dm.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-org.dm.eg.db.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-org.dm.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-org.dm.eg.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-org.dm.eg.db
+.. _`bioconductor-org.dm.eg.db/tags`: https://quay.io/repository/biocontainers/bioconductor-org.dm.eg.db?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-org.dm.eg.db/README.html
-

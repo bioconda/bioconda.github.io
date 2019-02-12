@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'emmix'
 .. highlight: bash
-
 
 emmix
 =====
@@ -21,11 +22,11 @@ emmix
 
    |downloads_emmix| |docker_emmix|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_emmix|
+   :versions: 1.3-2, 1.3-1, 1.3-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ emmix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/emmix
+      docker pull quay.io/repository/biocontainers/emmix:<tag>
+
+   (see `emmix/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_emmix| conda:required_by:: emmix
 .. |downloads_emmix| image:: https://img.shields.io/conda/dn/bioconda/emmix.svg?style=flat
    :alt:   (downloads)
 .. |docker_emmix| image:: https://quay.io/repository/biocontainers/emmix/status
    :target: https://quay.io/repository/biocontainers/emmix
+.. _`emmix/tags`: https://quay.io/repository/biocontainers/emmix?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/emmix/README.html
-

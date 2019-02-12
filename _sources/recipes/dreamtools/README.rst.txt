@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dreamtools'
 .. highlight: bash
-
 
 dreamtools
 ==========
@@ -21,11 +22,37 @@ dreamtools
 
    |downloads_dreamtools| |docker_dreamtools|
 
-   :versions: 1.3.0, 1.2.5
-
-   :depends: :conda:package:`biokit`  :conda:package:`bioservices` >=1.4.5 :conda:package:`colormap`  :conda:package:`cython`  :conda:package:`easydev` >=0.9.14 :conda:package:`fitter`  :conda:package:`numexpr`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`scikit-learn`  :conda:package:`scipy`  :conda:package:`synapseclient`  :conda:package:`tabulate`  :conda:package:`xlrd`  
-
-   :required~by: |required_by_dreamtools|
+   :versions: 1.3.0-0, 1.2.5-0
+   
+   :depends biokit: 
+   
+   :depends bioservices: >=1.4.5
+   
+   :depends colormap: 
+   
+   :depends cython: 
+   
+   :depends easydev: >=0.9.14
+   
+   :depends fitter: 
+   
+   :depends numexpr: 
+   
+   :depends pandas: 
+   
+   :depends python: 2.7*
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :depends synapseclient: 
+   
+   :depends tabulate: 
+   
+   :depends xlrd: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ dreamtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dreamtools
+      docker pull quay.io/repository/biocontainers/dreamtools:<tag>
+
+   (see `dreamtools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dreamtools| conda:required_by:: dreamtools
 .. |downloads_dreamtools| image:: https://img.shields.io/conda/dn/bioconda/dreamtools.svg?style=flat
    :alt:   (downloads)
 .. |docker_dreamtools| image:: https://quay.io/repository/biocontainers/dreamtools/status
    :target: https://quay.io/repository/biocontainers/dreamtools
+.. _`dreamtools/tags`: https://quay.io/repository/biocontainers/dreamtools?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dreamtools/README.html
-

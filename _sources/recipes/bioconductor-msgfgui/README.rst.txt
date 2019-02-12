@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-msgfgui'
 .. highlight: bash
-
 
 bioconductor-msgfgui
 ====================
@@ -22,10 +23,8 @@ bioconductor-msgfgui
    |downloads_bioconductor-msgfgui| |docker_bioconductor-msgfgui|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-msgfgui|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-msgfgui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msgfgui
+      docker pull quay.io/repository/biocontainers/bioconductor-msgfgui:<tag>
+
+   (see `bioconductor-msgfgui/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-msgfgui| conda:required_by:: bioconductor-msgfgui
 .. |downloads_bioconductor-msgfgui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msgfgui.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-msgfgui| image:: https://quay.io/repository/biocontainers/bioconductor-msgfgui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-msgfgui
+.. _`bioconductor-msgfgui/tags`: https://quay.io/repository/biocontainers/bioconductor-msgfgui?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-msgfgui/README.html
-

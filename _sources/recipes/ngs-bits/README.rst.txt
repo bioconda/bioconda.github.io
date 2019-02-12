@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ngs-bits'
 .. highlight: bash
-
 
 ngs-bits
 ========
@@ -21,11 +22,25 @@ ngs-bits
 
    |downloads_ngs-bits| |docker_ngs-bits|
 
-   :versions: 2018_11, 2018_10, 2018_06, 2018_04
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`python`  :conda:package:`qt` >=5.6.2,<5.7.0a0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_ngs-bits|
+   :versions: 2018_11-2, 2018_10-2, 2018_06-2, 2018_06-1, 2018_04-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: 
+   
+   :depends python: 
+   
+   :depends qt: >=5.6.2,<5.7.0a0
+   
+   :depends xz: >=5.2.4,<5.3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ ngs-bits
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ngs-bits
+      docker pull quay.io/repository/biocontainers/ngs-bits:<tag>
+
+   (see `ngs-bits/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ngs-bits| conda:required_by:: ngs-bits
 .. |downloads_ngs-bits| image:: https://img.shields.io/conda/dn/bioconda/ngs-bits.svg?style=flat
    :alt:   (downloads)
 .. |docker_ngs-bits| image:: https://quay.io/repository/biocontainers/ngs-bits/status
    :target: https://quay.io/repository/biocontainers/ngs-bits
+.. _`ngs-bits/tags`: https://quay.io/repository/biocontainers/ngs-bits?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ngs-bits/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cityhash'
 .. highlight: bash
-
 
 cityhash
 ========
@@ -21,11 +22,11 @@ cityhash
 
    |downloads_cityhash| |docker_cityhash|
 
-   :versions: 0.2.3.post9, 0.1.7, 0.1.5
-
-   :depends: :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_cityhash|
+   :versions: 0.2.3.post9-0, 0.1.7-1, 0.1.7-0, 0.1.5-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ cityhash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cityhash
+      docker pull quay.io/repository/biocontainers/cityhash:<tag>
+
+   (see `cityhash/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cityhash| conda:required_by:: cityhash
 .. |downloads_cityhash| image:: https://img.shields.io/conda/dn/bioconda/cityhash.svg?style=flat
    :alt:   (downloads)
 .. |docker_cityhash| image:: https://quay.io/repository/biocontainers/cityhash/status
    :target: https://quay.io/repository/biocontainers/cityhash
+.. _`cityhash/tags`: https://quay.io/repository/biocontainers/cityhash?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cityhash/README.html
-

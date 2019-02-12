@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-methped'
 .. highlight: bash
-
 
 bioconductor-methped
 ====================
@@ -22,11 +23,15 @@ bioconductor-methped
 
    |downloads_bioconductor-methped| |docker_bioconductor-methped|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-randomforest`  
-
-   :required~by: |required_by_bioconductor-methped|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-randomforest: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-methped
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methped
+      docker pull quay.io/repository/biocontainers/bioconductor-methped:<tag>
+
+   (see `bioconductor-methped/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-methped| conda:required_by:: bioconductor-methped
 .. |downloads_bioconductor-methped| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methped.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-methped| image:: https://quay.io/repository/biocontainers/bioconductor-methped/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methped
+.. _`bioconductor-methped/tags`: https://quay.io/repository/biocontainers/bioconductor-methped?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-methped/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'control-freec'
 .. highlight: bash
-
 
 control-freec
 =============
@@ -24,11 +25,17 @@ control-freec
 
    |downloads_control-freec| |docker_control-freec|
 
-   :versions: 11.4, 10.6, 10.5
-
-   :depends: :conda:package:`bioconductor-rtracklayer`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  :conda:package:`r-base`  
-
-   :required~by: |required_by_control-freec|
+   :versions: 11.4-0, 10.6-0, 10.5-0
+   
+   :depends bioconductor-rtracklayer: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: 
+   
+   :depends r-base: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +49,16 @@ control-freec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/control-freec
+      docker pull quay.io/repository/biocontainers/control-freec:<tag>
+
+   (see `control-freec/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_control-freec| conda:required_by:: control-freec
 .. |downloads_control-freec| image:: https://img.shields.io/conda/dn/bioconda/control-freec.svg?style=flat
    :alt:   (downloads)
 .. |docker_control-freec| image:: https://quay.io/repository/biocontainers/control-freec/status
    :target: https://quay.io/repository/biocontainers/control-freec
+.. _`control-freec/tags`: https://quay.io/repository/biocontainers/control-freec?tab=tags
 
 
 
@@ -74,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/control-freec/README.html
-

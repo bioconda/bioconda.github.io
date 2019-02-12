@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fseq'
 .. highlight: bash
-
 
 fseq
 ====
@@ -21,11 +22,15 @@ fseq
 
    |downloads_fseq| |docker_fseq|
 
-   :versions: 1.84
-
-   :depends: :conda:package:`openjdk` >=6 :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_fseq|
+   :versions: 1.84-0
+   
+   :depends openjdk: >=6
+   
+   :depends perl: 5.22.0*
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ fseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fseq
+      docker pull quay.io/repository/biocontainers/fseq:<tag>
+
+   (see `fseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fseq| conda:required_by:: fseq
 .. |downloads_fseq| image:: https://img.shields.io/conda/dn/bioconda/fseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_fseq| image:: https://quay.io/repository/biocontainers/fseq/status
    :target: https://quay.io/repository/biocontainers/fseq
+.. _`fseq/tags`: https://quay.io/repository/biocontainers/fseq?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fseq/README.html
-

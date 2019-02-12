@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pannbuilder'
 .. highlight: bash
-
 
 bioconductor-pannbuilder
 ========================
@@ -22,11 +23,19 @@ bioconductor-pannbuilder
 
    |downloads_bioconductor-pannbuilder| |docker_bioconductor-pannbuilder|
 
-   :versions: 1.43.0, 1.42.0, 1.40.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.42.1,<1.44.0 :conda:package:`bioconductor-biobase` >=2.40.0,<2.42.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-rsqlite`  
-
-   :required~by: |required_by_bioconductor-pannbuilder|
+   :versions: 1.43.0-0, 1.42.0-0, 1.40.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.42.1,<1.44.0
+   
+   :depends bioconductor-biobase: >=2.40.0,<2.42.0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-dbi: 
+   
+   :depends r-rsqlite: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-pannbuilder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pannbuilder
+      docker pull quay.io/repository/biocontainers/bioconductor-pannbuilder:<tag>
+
+   (see `bioconductor-pannbuilder/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pannbuilder| conda:required_by:: bioconductor-pannbuilder
 .. |downloads_bioconductor-pannbuilder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pannbuilder.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pannbuilder| image:: https://quay.io/repository/biocontainers/bioconductor-pannbuilder/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pannbuilder
+.. _`bioconductor-pannbuilder/tags`: https://quay.io/repository/biocontainers/bioconductor-pannbuilder?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pannbuilder/README.html
-

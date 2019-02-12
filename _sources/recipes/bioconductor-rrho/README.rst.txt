@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rrho'
 .. highlight: bash
-
 
 bioconductor-rrho
 =================
@@ -22,11 +23,13 @@ bioconductor-rrho
 
    |downloads_bioconductor-rrho| |docker_bioconductor-rrho|
 
-   :versions: 1.22.0, 1.20.0, 1.18.0, 1.16.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-venndiagram`  
-
-   :required~by: |required_by_bioconductor-rrho|
+   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-venndiagram: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-rrho
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rrho
+      docker pull quay.io/repository/biocontainers/bioconductor-rrho:<tag>
+
+   (see `bioconductor-rrho/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rrho| conda:required_by:: bioconductor-rrho
 .. |downloads_bioconductor-rrho| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rrho.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rrho| image:: https://quay.io/repository/biocontainers/bioconductor-rrho/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rrho
+.. _`bioconductor-rrho/tags`: https://quay.io/repository/biocontainers/bioconductor-rrho?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rrho/README.html
-

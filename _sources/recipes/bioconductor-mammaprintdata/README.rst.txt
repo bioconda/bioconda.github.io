@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mammaprintdata'
 .. highlight: bash
-
 
 bioconductor-mammaprintdata
 ===========================
@@ -21,11 +22,13 @@ bioconductor-mammaprintdata
 
    |downloads_bioconductor-mammaprintdata| |docker_bioconductor-mammaprintdata|
 
-   :versions: 1.18.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-mammaprintdata|
+   :versions: 1.18.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-mammaprintdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mammaprintdata
+      docker pull quay.io/repository/biocontainers/bioconductor-mammaprintdata:<tag>
+
+   (see `bioconductor-mammaprintdata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mammaprintdata| conda:required_by:: bioconductor-mammaprintdata
 .. |downloads_bioconductor-mammaprintdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mammaprintdata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mammaprintdata| image:: https://quay.io/repository/biocontainers/bioconductor-mammaprintdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mammaprintdata
+.. _`bioconductor-mammaprintdata/tags`: https://quay.io/repository/biocontainers/bioconductor-mammaprintdata?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mammaprintdata/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'trumicount'
 .. highlight: bash
-
 
 trumicount
 ==========
@@ -22,11 +23,19 @@ trumicount
 
    |downloads_trumicount| |docker_trumicount|
 
-   :versions: 0.9.12, 0.9.11.1, 0.9.11, 0.9.10, 0.9.9.3
-
-   :depends: :conda:package:`gawk` >=4.0.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-docopt`  :conda:package:`r-gwpcr` >=0.9.10 
-
-   :required~by: |required_by_trumicount|
+   :versions: 0.9.12-0, 0.9.11.1-0, 0.9.11-1, 0.9.10-1, 0.9.9.3-1, 0.9.9.3-0
+   
+   :depends gawk: >=4.0.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-docopt: 
+   
+   :depends r-gwpcr: >=0.9.10
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ trumicount
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trumicount
+      docker pull quay.io/repository/biocontainers/trumicount:<tag>
+
+   (see `trumicount/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_trumicount| conda:required_by:: trumicount
 .. |downloads_trumicount| image:: https://img.shields.io/conda/dn/bioconda/trumicount.svg?style=flat
    :alt:   (downloads)
 .. |docker_trumicount| image:: https://quay.io/repository/biocontainers/trumicount/status
    :target: https://quay.io/repository/biocontainers/trumicount
+.. _`trumicount/tags`: https://quay.io/repository/biocontainers/trumicount?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/trumicount/README.html
-

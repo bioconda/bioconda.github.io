@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'phipack'
 .. highlight: bash
-
 
 phipack
 =======
@@ -21,11 +22,11 @@ phipack
 
    |downloads_phipack| |docker_phipack|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_phipack|
+   :versions: 1.0-0
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ phipack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phipack
+      docker pull quay.io/repository/biocontainers/phipack:<tag>
+
+   (see `phipack/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_phipack| conda:required_by:: phipack
 .. |downloads_phipack| image:: https://img.shields.io/conda/dn/bioconda/phipack.svg?style=flat
    :alt:   (downloads)
 .. |docker_phipack| image:: https://quay.io/repository/biocontainers/phipack/status
    :target: https://quay.io/repository/biocontainers/phipack
+.. _`phipack/tags`: https://quay.io/repository/biocontainers/phipack?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/phipack/README.html
-

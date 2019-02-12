@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-flowtype'
 .. highlight: bash
-
 
 bioconductor-flowtype
 =====================
@@ -22,10 +23,8 @@ bioconductor-flowtype
    |downloads_bioconductor-flowtype| |docker_bioconductor-flowtype|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-flowtype|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-flowtype
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowtype
+      docker pull quay.io/repository/biocontainers/bioconductor-flowtype:<tag>
+
+   (see `bioconductor-flowtype/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-flowtype| conda:required_by:: bioconductor-flowtype
 .. |downloads_bioconductor-flowtype| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowtype.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-flowtype| image:: https://quay.io/repository/biocontainers/bioconductor-flowtype/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowtype
+.. _`bioconductor-flowtype/tags`: https://quay.io/repository/biocontainers/bioconductor-flowtype?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-flowtype/README.html
-

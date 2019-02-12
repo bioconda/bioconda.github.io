@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-lpsymphony'
 .. highlight: bash
-
 
 bioconductor-lpsymphony
 =======================
@@ -22,11 +23,15 @@ bioconductor-lpsymphony
 
    |downloads_bioconductor-lpsymphony| |docker_bioconductor-lpsymphony|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.1, 1.2.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-lpsymphony|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.1-0, 1.2.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-lpsymphony
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lpsymphony
+      docker pull quay.io/repository/biocontainers/bioconductor-lpsymphony:<tag>
+
+   (see `bioconductor-lpsymphony/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-lpsymphony| conda:required_by:: bioconductor-lpsymphony
 .. |downloads_bioconductor-lpsymphony| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lpsymphony.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-lpsymphony| image:: https://quay.io/repository/biocontainers/bioconductor-lpsymphony/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lpsymphony
+.. _`bioconductor-lpsymphony/tags`: https://quay.io/repository/biocontainers/bioconductor-lpsymphony?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-lpsymphony/README.html
-

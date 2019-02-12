@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-encode'
 .. highlight: bash
-
 
 perl-encode
 ===========
@@ -21,11 +22,15 @@ perl-encode
 
    |downloads_perl-encode| |docker_perl-encode|
 
-   :versions: 2.88
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-exporter`  :conda:package:`perl-parent`  
-
-   :required~by: |required_by_perl-encode|
+   :versions: 2.88-1, 2.88-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-exporter: 
+   
+   :depends perl-parent: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-encode
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-encode
+      docker pull quay.io/repository/biocontainers/perl-encode:<tag>
+
+   (see `perl-encode/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-encode| conda:required_by:: perl-encode
 .. |downloads_perl-encode| image:: https://img.shields.io/conda/dn/bioconda/perl-encode.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-encode| image:: https://quay.io/repository/biocontainers/perl-encode/status
    :target: https://quay.io/repository/biocontainers/perl-encode
+.. _`perl-encode/tags`: https://quay.io/repository/biocontainers/perl-encode?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-encode/README.html
-

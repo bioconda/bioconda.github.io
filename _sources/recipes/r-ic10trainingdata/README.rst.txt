@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-ic10trainingdata'
 .. highlight: bash
-
 
 r-ic10trainingdata
 ==================
@@ -21,11 +22,11 @@ r-ic10trainingdata
 
    |downloads_r-ic10trainingdata| |docker_r-ic10trainingdata|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`r-base` 3.4.1* 
-
-   :required~by: |required_by_r-ic10trainingdata|
+   :versions: 1.0.1-0
+   
+   :depends r-base: 3.4.1*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-ic10trainingdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ic10trainingdata
+      docker pull quay.io/repository/biocontainers/r-ic10trainingdata:<tag>
+
+   (see `r-ic10trainingdata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-ic10trainingdata| conda:required_by:: r-ic10trainingdata
 .. |downloads_r-ic10trainingdata| image:: https://img.shields.io/conda/dn/bioconda/r-ic10trainingdata.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-ic10trainingdata| image:: https://quay.io/repository/biocontainers/r-ic10trainingdata/status
    :target: https://quay.io/repository/biocontainers/r-ic10trainingdata
+.. _`r-ic10trainingdata/tags`: https://quay.io/repository/biocontainers/r-ic10trainingdata?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-ic10trainingdata/README.html
-

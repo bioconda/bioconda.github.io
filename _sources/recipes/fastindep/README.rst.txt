@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastindep'
 .. highlight: bash
-
 
 fastindep
 =========
@@ -21,11 +22,11 @@ fastindep
 
    |downloads_fastindep| |docker_fastindep|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_fastindep|
+   :versions: 1.0.0-1, 1.0.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ fastindep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastindep
+      docker pull quay.io/repository/biocontainers/fastindep:<tag>
+
+   (see `fastindep/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastindep| conda:required_by:: fastindep
 .. |downloads_fastindep| image:: https://img.shields.io/conda/dn/bioconda/fastindep.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastindep| image:: https://quay.io/repository/biocontainers/fastindep/status
    :target: https://quay.io/repository/biocontainers/fastindep
+.. _`fastindep/tags`: https://quay.io/repository/biocontainers/fastindep?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastindep/README.html
-

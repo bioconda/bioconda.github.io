@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'toolshed'
 .. highlight: bash
-
 
 toolshed
 ========
@@ -21,11 +22,11 @@ toolshed
 
    |downloads_toolshed| |docker_toolshed|
 
-   :versions: 0.4.6
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_toolshed|
+   :versions: 0.4.6-1, 0.4.6-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ toolshed
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/toolshed
+      docker pull quay.io/repository/biocontainers/toolshed:<tag>
+
+   (see `toolshed/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_toolshed| conda:required_by:: toolshed
 .. |downloads_toolshed| image:: https://img.shields.io/conda/dn/bioconda/toolshed.svg?style=flat
    :alt:   (downloads)
 .. |docker_toolshed| image:: https://quay.io/repository/biocontainers/toolshed/status
    :target: https://quay.io/repository/biocontainers/toolshed
+.. _`toolshed/tags`: https://quay.io/repository/biocontainers/toolshed?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/toolshed/README.html
-

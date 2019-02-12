@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cistrome_beta'
 .. highlight: bash
-
 
 cistrome_beta
 =============
@@ -21,11 +22,17 @@ cistrome_beta
 
    |downloads_cistrome_beta| |docker_cistrome_beta|
 
-   :versions: 1.0.7
-
-   :depends: :conda:package:`argparse`  :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`r-base`  
-
-   :required~by: |required_by_cistrome_beta|
+   :versions: 1.0.7-1, 1.0.7-0
+   
+   :depends argparse: 
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends r-base: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ cistrome_beta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cistrome_beta
+      docker pull quay.io/repository/biocontainers/cistrome_beta:<tag>
+
+   (see `cistrome_beta/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cistrome_beta| conda:required_by:: cistrome_beta
 .. |downloads_cistrome_beta| image:: https://img.shields.io/conda/dn/bioconda/cistrome_beta.svg?style=flat
    :alt:   (downloads)
 .. |docker_cistrome_beta| image:: https://quay.io/repository/biocontainers/cistrome_beta/status
    :target: https://quay.io/repository/biocontainers/cistrome_beta
+.. _`cistrome_beta/tags`: https://quay.io/repository/biocontainers/cistrome_beta?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cistrome_beta/README.html
-

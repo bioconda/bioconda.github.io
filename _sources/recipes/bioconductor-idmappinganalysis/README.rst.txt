@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-idmappinganalysis'
 .. highlight: bash
-
 
 bioconductor-idmappinganalysis
 ==============================
@@ -22,10 +23,8 @@ bioconductor-idmappinganalysis
    |downloads_bioconductor-idmappinganalysis| |docker_bioconductor-idmappinganalysis|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-idmappinganalysis|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-idmappinganalysis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-idmappinganalysis
+      docker pull quay.io/repository/biocontainers/bioconductor-idmappinganalysis:<tag>
+
+   (see `bioconductor-idmappinganalysis/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-idmappinganalysis| conda:required_by:: bioconductor-idmappinganalysis
 .. |downloads_bioconductor-idmappinganalysis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-idmappinganalysis.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-idmappinganalysis| image:: https://quay.io/repository/biocontainers/bioconductor-idmappinganalysis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-idmappinganalysis
+.. _`bioconductor-idmappinganalysis/tags`: https://quay.io/repository/biocontainers/bioconductor-idmappinganalysis?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-idmappinganalysis/README.html
-

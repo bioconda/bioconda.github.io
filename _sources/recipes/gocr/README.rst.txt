@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gocr'
 .. highlight: bash
-
 
 gocr
 ====
@@ -21,11 +22,11 @@ gocr
 
    |downloads_gocr| |docker_gocr|
 
-   :versions: 0.50
-
-   :depends: 
-
-   :required~by: |required_by_gocr|
+   :versions: 0.50-1, 0.50-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ gocr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gocr
+      docker pull quay.io/repository/biocontainers/gocr:<tag>
+
+   (see `gocr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gocr| conda:required_by:: gocr
 .. |downloads_gocr| image:: https://img.shields.io/conda/dn/bioconda/gocr.svg?style=flat
    :alt:   (downloads)
 .. |docker_gocr| image:: https://quay.io/repository/biocontainers/gocr/status
    :target: https://quay.io/repository/biocontainers/gocr
+.. _`gocr/tags`: https://quay.io/repository/biocontainers/gocr?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gocr/README.html
-

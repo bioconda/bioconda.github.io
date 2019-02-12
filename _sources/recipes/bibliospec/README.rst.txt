@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bibliospec'
 .. highlight: bash
-
 
 bibliospec
 ==========
@@ -21,11 +22,11 @@ bibliospec
 
    |downloads_bibliospec| |docker_bibliospec|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_bibliospec|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bibliospec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bibliospec
+      docker pull quay.io/repository/biocontainers/bibliospec:<tag>
+
+   (see `bibliospec/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bibliospec| conda:required_by:: bibliospec
 .. |downloads_bibliospec| image:: https://img.shields.io/conda/dn/bioconda/bibliospec.svg?style=flat
    :alt:   (downloads)
 .. |docker_bibliospec| image:: https://quay.io/repository/biocontainers/bibliospec/status
    :target: https://quay.io/repository/biocontainers/bibliospec
+.. _`bibliospec/tags`: https://quay.io/repository/biocontainers/bibliospec?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bibliospec/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'poretools'
 .. highlight: bash
-
 
 poretools
 =========
@@ -21,11 +22,21 @@ poretools
 
    |downloads_poretools| |docker_poretools|
 
-   :versions: 0.6.1a1, 0.6.1a0, 0.6.0, 0.5.1, 0.5.0
-
-   :depends: :conda:package:`h5py` >=2.2.0 :conda:package:`hdf5` >=1.8.7 :conda:package:`matplotlib`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`seaborn`  
-
-   :required~by: |required_by_poretools|
+   :versions: 0.6.1a1-6, 0.6.1a1-5, 0.6.1a1-4, 0.6.1a1-3, 0.6.1a0-0, 0.6.0-0, 0.5.1-1, 0.5.1-0, 0.5.0-0
+   
+   :depends h5py: >=2.2.0
+   
+   :depends hdf5: >=1.10.2,<1.10.3.0a0
+   
+   :depends matplotlib: 
+   
+   :depends pandas: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends seaborn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ poretools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/poretools
+      docker pull quay.io/repository/biocontainers/poretools:<tag>
+
+   (see `poretools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_poretools| conda:required_by:: poretools
 .. |downloads_poretools| image:: https://img.shields.io/conda/dn/bioconda/poretools.svg?style=flat
    :alt:   (downloads)
 .. |docker_poretools| image:: https://quay.io/repository/biocontainers/poretools/status
    :target: https://quay.io/repository/biocontainers/poretools
+.. _`poretools/tags`: https://quay.io/repository/biocontainers/poretools?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/poretools/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'counterr'
 .. highlight: bash
-
 
 counterr
 ========
@@ -21,11 +22,21 @@ counterr
 
    |downloads_counterr| |docker_counterr|
 
-   :versions: 0.1
-
-   :depends: :conda:package:`matplotlib` >=2.2.3 :conda:package:`numpy` >=1.15.4 :conda:package:`pandas` >=0.23.4 :conda:package:`pysam` >=0.14.1 :conda:package:`python`  :conda:package:`seaborn` >=0.9.0 
-
-   :required~by: |required_by_counterr|
+   :versions: 0.1-0
+   
+   :depends matplotlib: >=2.2.3
+   
+   :depends numpy: >=1.15.4
+   
+   :depends pandas: >=0.23.4
+   
+   :depends pysam: >=0.14.1
+   
+   :depends python: 
+   
+   :depends seaborn: >=0.9.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ counterr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/counterr
+      docker pull quay.io/repository/biocontainers/counterr:<tag>
+
+   (see `counterr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_counterr| conda:required_by:: counterr
 .. |downloads_counterr| image:: https://img.shields.io/conda/dn/bioconda/counterr.svg?style=flat
    :alt:   (downloads)
 .. |docker_counterr| image:: https://quay.io/repository/biocontainers/counterr/status
    :target: https://quay.io/repository/biocontainers/counterr
+.. _`counterr/tags`: https://quay.io/repository/biocontainers/counterr?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/counterr/README.html
-

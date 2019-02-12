@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-variancepartition'
 .. highlight: bash
-
 
 bioconductor-variancepartition
 ==============================
@@ -22,11 +23,39 @@ bioconductor-variancepartition
 
    |downloads_bioconductor-variancepartition| |docker_bioconductor-variancepartition|
 
-   :versions: 1.12.0, 1.10.4, 1.8.1
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-colorramps`  :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-iterators`  :conda:package:`r-lme4` >=1.1-10 :conda:package:`r-lmertest`  :conda:package:`r-mass`  :conda:package:`r-pbkrtest` >=0.4-4 :conda:package:`r-reshape2`  :conda:package:`r-scales`  
-
-   :required~by: |required_by_bioconductor-variancepartition|
+   :versions: 1.12.0-0, 1.10.4-0, 1.8.1-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-colorramps: 
+   
+   :depends r-doparallel: 
+   
+   :depends r-foreach: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-iterators: 
+   
+   :depends r-lme4: >=1.1-10
+   
+   :depends r-lmertest: 
+   
+   :depends r-mass: 
+   
+   :depends r-pbkrtest: >=0.4-4
+   
+   :depends r-reshape2: 
+   
+   :depends r-scales: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +69,16 @@ bioconductor-variancepartition
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-variancepartition
+      docker pull quay.io/repository/biocontainers/bioconductor-variancepartition:<tag>
+
+   (see `bioconductor-variancepartition/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-variancepartition| conda:required_by:: bioconductor-variancepartition
 .. |downloads_bioconductor-variancepartition| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-variancepartition.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-variancepartition| image:: https://quay.io/repository/biocontainers/bioconductor-variancepartition/status
    :target: https://quay.io/repository/biocontainers/bioconductor-variancepartition
+.. _`bioconductor-variancepartition/tags`: https://quay.io/repository/biocontainers/bioconductor-variancepartition?tab=tags
 
 
 
@@ -64,4 +95,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-variancepartition/README.html
-

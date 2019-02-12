@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-reactomepa'
 .. highlight: bash
-
 
 bioconductor-reactomepa
 =======================
@@ -22,11 +23,27 @@ bioconductor-reactomepa
 
    |downloads_bioconductor-reactomepa| |docker_bioconductor-reactomepa|
 
-   :versions: 1.26.0, 1.24.0, 1.22.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-dose` >=3.8.0,<3.9.0 :conda:package:`bioconductor-enrichplot` >=1.2.0,<1.3.0 :conda:package:`bioconductor-graphite` >=1.28.0,<1.29.0 :conda:package:`bioconductor-reactome.db` >=1.66.0,<1.67.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-ggraph`  :conda:package:`r-igraph`  
-
-   :required~by: |required_by_bioconductor-reactomepa|
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-dose: >=3.8.0,<3.9.0
+   
+   :depends bioconductor-enrichplot: >=1.2.0,<1.3.0
+   
+   :depends bioconductor-graphite: >=1.28.0,<1.29.0
+   
+   :depends bioconductor-reactome.db: >=1.66.0,<1.67.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggraph: 
+   
+   :depends r-igraph: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ bioconductor-reactomepa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-reactomepa
+      docker pull quay.io/repository/biocontainers/bioconductor-reactomepa:<tag>
+
+   (see `bioconductor-reactomepa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-reactomepa| conda:required_by:: bioconductor-reactomepa
 .. |downloads_bioconductor-reactomepa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-reactomepa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-reactomepa| image:: https://quay.io/repository/biocontainers/bioconductor-reactomepa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-reactomepa
+.. _`bioconductor-reactomepa/tags`: https://quay.io/repository/biocontainers/bioconductor-reactomepa?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-reactomepa/README.html
-

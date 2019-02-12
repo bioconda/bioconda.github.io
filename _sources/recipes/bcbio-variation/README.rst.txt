@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bcbio-variation'
 .. highlight: bash
-
 
 bcbio-variation
 ===============
@@ -21,11 +22,11 @@ bcbio-variation
 
    |downloads_bcbio-variation| |docker_bcbio-variation|
 
-   :versions: 0.2.6
-
-   :depends: :conda:package:`java-jdk` >=7,<8 
-
-   :required~by: |required_by_bcbio-variation|
+   :versions: 0.2.6-3, 0.2.6-2, 0.2.6-1, 0.2.6-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bcbio-variation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcbio-variation
+      docker pull quay.io/repository/biocontainers/bcbio-variation:<tag>
+
+   (see `bcbio-variation/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bcbio-variation| conda:required_by:: bcbio-variation
 .. |downloads_bcbio-variation| image:: https://img.shields.io/conda/dn/bioconda/bcbio-variation.svg?style=flat
    :alt:   (downloads)
 .. |docker_bcbio-variation| image:: https://quay.io/repository/biocontainers/bcbio-variation/status
    :target: https://quay.io/repository/biocontainers/bcbio-variation
+.. _`bcbio-variation/tags`: https://quay.io/repository/biocontainers/bcbio-variation?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bcbio-variation/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pygenometracks'
 .. highlight: bash
-
 
 pygenometracks
 ==============
@@ -21,11 +22,27 @@ pygenometracks
 
    |downloads_pygenometracks| |docker_pygenometracks|
 
-   :versions: 2.1, 2.0, 1.0, 0.1
-
-   :depends: :conda:package:`configparser` >=3.5.0 :conda:package:`future` >=0.16.0 :conda:package:`hicexplorer` >=2.1.4 :conda:package:`intervaltree` >=2.1.0 :conda:package:`matplotlib` 2.1.* :conda:package:`numpy` 1.13.* :conda:package:`pybigwig` >=0.3.4 :conda:package:`pytest`  :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_pygenometracks|
+   :versions: 2.1-2, 2.1-1, 2.1-0, 2.0-2, 2.0-1, 2.0-0, 1.0-0, 0.1-0
+   
+   :depends configparser: >=3.5.0
+   
+   :depends future: >=0.17.0
+   
+   :depends hicmatrix: >=6
+   
+   :depends intervaltree: >=2.1.0
+   
+   :depends matplotlib: 
+   
+   :depends numpy: >=1.15
+   
+   :depends pybigwig: >=0.3.4
+   
+   :depends pysam: 
+   
+   :depends python: <3.7
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ pygenometracks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pygenometracks
+      docker pull quay.io/repository/biocontainers/pygenometracks:<tag>
+
+   (see `pygenometracks/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pygenometracks| conda:required_by:: pygenometracks
 .. |downloads_pygenometracks| image:: https://img.shields.io/conda/dn/bioconda/pygenometracks.svg?style=flat
    :alt:   (downloads)
 .. |docker_pygenometracks| image:: https://quay.io/repository/biocontainers/pygenometracks/status
    :target: https://quay.io/repository/biocontainers/pygenometracks
+.. _`pygenometracks/tags`: https://quay.io/repository/biocontainers/pygenometracks?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pygenometracks/README.html
-

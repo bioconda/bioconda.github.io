@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biopet-sampleconfig'
 .. highlight: bash
-
 
 biopet-sampleconfig
 ===================
@@ -45,11 +46,13 @@ biopet-sampleconfig
 
    |downloads_biopet-sampleconfig| |docker_biopet-sampleconfig|
 
-   :versions: 0.3, 0.2, 0.1
-
-   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
-
-   :required~by: |required_by_biopet-sampleconfig|
+   :versions: 0.3-0, 0.2-0, 0.1-1, 0.1-0
+   
+   :depends openjdk: >=8,<9
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -63,14 +66,16 @@ biopet-sampleconfig
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-sampleconfig
+      docker pull quay.io/repository/biocontainers/biopet-sampleconfig:<tag>
+
+   (see `biopet-sampleconfig/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biopet-sampleconfig| conda:required_by:: biopet-sampleconfig
 .. |downloads_biopet-sampleconfig| image:: https://img.shields.io/conda/dn/bioconda/biopet-sampleconfig.svg?style=flat
    :alt:   (downloads)
 .. |docker_biopet-sampleconfig| image:: https://quay.io/repository/biocontainers/biopet-sampleconfig/status
    :target: https://quay.io/repository/biocontainers/biopet-sampleconfig
+.. _`biopet-sampleconfig/tags`: https://quay.io/repository/biocontainers/biopet-sampleconfig?tab=tags
 
 
 
@@ -96,4 +101,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biopet-sampleconfig/README.html
-

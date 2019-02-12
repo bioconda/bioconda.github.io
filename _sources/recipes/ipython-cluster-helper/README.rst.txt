@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ipython-cluster-helper'
 .. highlight: bash
-
 
 ipython-cluster-helper
 ======================
@@ -21,11 +22,19 @@ ipython-cluster-helper
 
    |downloads_ipython-cluster-helper| |docker_ipython-cluster-helper|
 
-   :versions: 0.6.2, 0.6.1, 0.6.0, 0.5.9, 0.5.8, 0.5.7, 0.5.6, 0.5.5, 0.5.4, 0.5.3, 0.5.2, 0.5.1, 0.5.0
-
-   :depends: :conda:package:`ipyparallel` >=6.0.2 :conda:package:`netifaces`  :conda:package:`python`  :conda:package:`pyzmq`  :conda:package:`zeromq`  
-
-   :required~by: |required_by_ipython-cluster-helper|
+   :versions: 0.6.2-0, 0.6.1-0, 0.6.0-0, 0.5.9-0, 0.5.8-0, 0.5.7-1, 0.5.6-1, 0.5.6-0, 0.5.5-0, 0.5.4-0, 0.5.3-0, 0.5.2-0, 0.5.1-0, 0.5.0-0
+   
+   :depends ipyparallel: >=6.0.2
+   
+   :depends netifaces: 
+   
+   :depends python: 
+   
+   :depends pyzmq: 
+   
+   :depends zeromq: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ ipython-cluster-helper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ipython-cluster-helper
+      docker pull quay.io/repository/biocontainers/ipython-cluster-helper:<tag>
+
+   (see `ipython-cluster-helper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ipython-cluster-helper| conda:required_by:: ipython-cluster-helper
 .. |downloads_ipython-cluster-helper| image:: https://img.shields.io/conda/dn/bioconda/ipython-cluster-helper.svg?style=flat
    :alt:   (downloads)
 .. |docker_ipython-cluster-helper| image:: https://quay.io/repository/biocontainers/ipython-cluster-helper/status
    :target: https://quay.io/repository/biocontainers/ipython-cluster-helper
+.. _`ipython-cluster-helper/tags`: https://quay.io/repository/biocontainers/ipython-cluster-helper?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ipython-cluster-helper/README.html
-

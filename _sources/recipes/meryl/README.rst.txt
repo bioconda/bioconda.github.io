@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'meryl'
 .. highlight: bash
-
 
 meryl
 =====
@@ -21,11 +22,11 @@ meryl
 
    |downloads_meryl| |docker_meryl|
 
-   :versions: 2013
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_meryl|
+   :versions: 2013-0
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ meryl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/meryl
+      docker pull quay.io/repository/biocontainers/meryl:<tag>
+
+   (see `meryl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_meryl| conda:required_by:: meryl
 .. |downloads_meryl| image:: https://img.shields.io/conda/dn/bioconda/meryl.svg?style=flat
    :alt:   (downloads)
 .. |docker_meryl| image:: https://quay.io/repository/biocontainers/meryl/status
    :target: https://quay.io/repository/biocontainers/meryl
+.. _`meryl/tags`: https://quay.io/repository/biocontainers/meryl?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/meryl/README.html
-

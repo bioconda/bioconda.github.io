@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-chipexoqualexample'
 .. highlight: bash
-
 
 bioconductor-chipexoqualexample
 ===============================
@@ -21,11 +22,13 @@ bioconductor-chipexoqualexample
 
    |downloads_bioconductor-chipexoqualexample| |docker_bioconductor-chipexoqualexample|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-chipexoqualexample|
+   :versions: 1.6.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-chipexoqualexample
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chipexoqualexample
+      docker pull quay.io/repository/biocontainers/bioconductor-chipexoqualexample:<tag>
+
+   (see `bioconductor-chipexoqualexample/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-chipexoqualexample| conda:required_by:: bioconductor-chipexoqualexample
 .. |downloads_bioconductor-chipexoqualexample| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chipexoqualexample.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-chipexoqualexample| image:: https://quay.io/repository/biocontainers/bioconductor-chipexoqualexample/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chipexoqualexample
+.. _`bioconductor-chipexoqualexample/tags`: https://quay.io/repository/biocontainers/bioconductor-chipexoqualexample?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-chipexoqualexample/README.html
-

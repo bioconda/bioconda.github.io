@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-compass'
 .. highlight: bash
-
 
 bioconductor-compass
 ====================
@@ -22,11 +23,47 @@ bioconductor-compass
 
    |downloads_bioconductor-compass| |docker_bioconductor-compass|
 
-   :versions: 1.20.0, 1.18.1, 1.18.0, 1.16.0
-
-   :depends: :conda:package:`bioconductor-biocstyle` >=2.10.0,<2.11.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-abind`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-clue`  :conda:package:`r-data.table`  :conda:package:`r-dplyr`  :conda:package:`r-knitr`  :conda:package:`r-magrittr`  :conda:package:`r-pdist`  :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp` >=0.11.0 :conda:package:`r-reshape2`  :conda:package:`r-rlang`  :conda:package:`r-rmarkdown`  :conda:package:`r-scales`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_bioconductor-compass|
+   :versions: 1.20.0-0, 1.18.1-0, 1.18.0-0, 1.16.0-0
+   
+   :depends bioconductor-biocstyle: >=2.10.0,<2.11.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-abind: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-clue: 
+   
+   :depends r-data.table: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-knitr: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-pdist: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rcpp: >=0.11.0
+   
+   :depends r-reshape2: 
+   
+   :depends r-rlang: 
+   
+   :depends r-rmarkdown: 
+   
+   :depends r-scales: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +77,16 @@ bioconductor-compass
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-compass
+      docker pull quay.io/repository/biocontainers/bioconductor-compass:<tag>
+
+   (see `bioconductor-compass/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-compass| conda:required_by:: bioconductor-compass
 .. |downloads_bioconductor-compass| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-compass.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-compass| image:: https://quay.io/repository/biocontainers/bioconductor-compass/status
    :target: https://quay.io/repository/biocontainers/bioconductor-compass
+.. _`bioconductor-compass/tags`: https://quay.io/repository/biocontainers/bioconductor-compass?tab=tags
 
 
 
@@ -64,4 +103,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-compass/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nanostat'
 .. highlight: bash
-
 
 nanostat
 ========
@@ -21,11 +22,15 @@ nanostat
 
    |downloads_nanostat| |docker_nanostat|
 
-   :versions: 1.1.2, 1.1.0, 1.0.0, 0.8.1, 0.7.1, 0.2.0, 0.1.5
-
-   :depends: :conda:package:`nanoget` >=0.15.0 :conda:package:`nanomath` >=0.19.0 :conda:package:`python` >=3.5,<3.6.0a0 
-
-   :required~by: |required_by_nanostat|
+   :versions: 1.1.2-1, 1.1.0-1, 1.1.0-0, 1.0.0-0, 0.8.1-0, 0.7.1-0, 0.2.0-0, 0.1.5-0
+   
+   :depends nanoget: >=0.15.0
+   
+   :depends nanomath: >=0.19.0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ nanostat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanostat
+      docker pull quay.io/repository/biocontainers/nanostat:<tag>
+
+   (see `nanostat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nanostat| conda:required_by:: nanostat
 .. |downloads_nanostat| image:: https://img.shields.io/conda/dn/bioconda/nanostat.svg?style=flat
    :alt:   (downloads)
 .. |docker_nanostat| image:: https://quay.io/repository/biocontainers/nanostat/status
    :target: https://quay.io/repository/biocontainers/nanostat
+.. _`nanostat/tags`: https://quay.io/repository/biocontainers/nanostat?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nanostat/README.html
-

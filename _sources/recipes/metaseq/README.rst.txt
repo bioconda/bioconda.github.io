@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metaseq'
 .. highlight: bash
-
 
 metaseq
 =======
@@ -21,11 +22,37 @@ metaseq
 
    |downloads_metaseq| |docker_metaseq|
 
-   :versions: 0.5.6
-
-   :depends: :conda:package:`biopython`  :conda:package:`bx-python` >=0.7.1 :conda:package:`cython`  :conda:package:`fisher`  :conda:package:`gffutils` >=0.8.2 :conda:package:`matplotlib` >=1.3.1 :conda:package:`numpy` >=1.8.0 :conda:package:`pandas` >=0.13.1 :conda:package:`pybedtools` >=0.6.6 :conda:package:`pysam` >=0.7 :conda:package:`python` 2.7* :conda:package:`pyyaml` >=3.10 :conda:package:`scikit-learn`  :conda:package:`scipy` >=0.10.1 
-
-   :required~by: |required_by_metaseq|
+   :versions: 0.5.6-2, 0.5.6-0
+   
+   :depends biopython: 
+   
+   :depends bx-python: >=0.7.1
+   
+   :depends cython: 
+   
+   :depends fisher: 
+   
+   :depends gffutils: >=0.8.2
+   
+   :depends matplotlib: >=1.3.1
+   
+   :depends numpy: >=1.8.0
+   
+   :depends pandas: >=0.13.1
+   
+   :depends pybedtools: >=0.6.6
+   
+   :depends pysam: >=0.7
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends pyyaml: >=3.10
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: >=0.10.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ metaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metaseq
+      docker pull quay.io/repository/biocontainers/metaseq:<tag>
+
+   (see `metaseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metaseq| conda:required_by:: metaseq
 .. |downloads_metaseq| image:: https://img.shields.io/conda/dn/bioconda/metaseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_metaseq| image:: https://quay.io/repository/biocontainers/metaseq/status
    :target: https://quay.io/repository/biocontainers/metaseq
+.. _`metaseq/tags`: https://quay.io/repository/biocontainers/metaseq?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metaseq/README.html
-

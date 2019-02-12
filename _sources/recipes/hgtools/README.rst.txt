@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hgtools'
 .. highlight: bash
-
 
 hgtools
 =======
@@ -21,11 +22,13 @@ hgtools
 
    |downloads_hgtools| |docker_hgtools|
 
-   :versions: 8.1.1, 6.5.1
-
-   :depends: :conda:package:`backports.unittest_mock`  :conda:package:`python`  
-
-   :required~by: |required_by_hgtools|
+   :versions: 8.1.1-0, 6.5.1-2, 6.5.1-0
+   
+   :depends backports.unittest_mock: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ hgtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hgtools
+      docker pull quay.io/repository/biocontainers/hgtools:<tag>
+
+   (see `hgtools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hgtools| conda:required_by:: hgtools
 .. |downloads_hgtools| image:: https://img.shields.io/conda/dn/bioconda/hgtools.svg?style=flat
    :alt:   (downloads)
 .. |docker_hgtools| image:: https://quay.io/repository/biocontainers/hgtools/status
    :target: https://quay.io/repository/biocontainers/hgtools
+.. _`hgtools/tags`: https://quay.io/repository/biocontainers/hgtools?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hgtools/README.html
-

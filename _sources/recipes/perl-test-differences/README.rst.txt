@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-differences'
 .. highlight: bash
-
 
 perl-test-differences
 =====================
@@ -21,11 +22,15 @@ perl-test-differences
 
    |downloads_perl-test-differences| |docker_perl-test-differences|
 
-   :versions: 0.64
-
-   :depends: :conda:package:`perl-capture-tiny`  :conda:package:`perl-text-diff`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-test-differences|
+   :versions: 0.64-2, 0.64-1, 0.64-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-capture-tiny: 
+   
+   :depends perl-text-diff: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-test-differences
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-differences
+      docker pull quay.io/repository/biocontainers/perl-test-differences:<tag>
+
+   (see `perl-test-differences/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-differences| conda:required_by:: perl-test-differences
 .. |downloads_perl-test-differences| image:: https://img.shields.io/conda/dn/bioconda/perl-test-differences.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-differences| image:: https://quay.io/repository/biocontainers/perl-test-differences/status
    :target: https://quay.io/repository/biocontainers/perl-test-differences
+.. _`perl-test-differences/tags`: https://quay.io/repository/biocontainers/perl-test-differences?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-differences/README.html
-

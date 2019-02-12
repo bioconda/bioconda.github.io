@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'potrace'
 .. highlight: bash
-
 
 potrace
 =======
@@ -21,11 +22,13 @@ potrace
 
    |downloads_potrace| |docker_potrace|
 
-   :versions: 1.11
-
-   :depends: 
-
-   :required~by: |required_by_potrace|
+   :versions: 1.11-1, 1.11-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ potrace
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/potrace
+      docker pull quay.io/repository/biocontainers/potrace:<tag>
+
+   (see `potrace/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_potrace| conda:required_by:: potrace
 .. |downloads_potrace| image:: https://img.shields.io/conda/dn/bioconda/potrace.svg?style=flat
    :alt:   (downloads)
 .. |docker_potrace| image:: https://quay.io/repository/biocontainers/potrace/status
    :target: https://quay.io/repository/biocontainers/potrace
+.. _`potrace/tags`: https://quay.io/repository/biocontainers/potrace?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/potrace/README.html
-

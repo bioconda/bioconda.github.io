@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rbsurv'
 .. highlight: bash
-
 
 bioconductor-rbsurv
 ===================
@@ -22,11 +23,15 @@ bioconductor-rbsurv
 
    |downloads_bioconductor-rbsurv| |docker_bioconductor-rbsurv|
 
-   :versions: 2.40.0, 2.38.0, 2.36.0, 2.34.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-survival`  
-
-   :required~by: |required_by_bioconductor-rbsurv|
+   :versions: 2.40.0-0, 2.38.0-0, 2.36.0-0, 2.34.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-survival: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-rbsurv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rbsurv
+      docker pull quay.io/repository/biocontainers/bioconductor-rbsurv:<tag>
+
+   (see `bioconductor-rbsurv/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rbsurv| conda:required_by:: bioconductor-rbsurv
 .. |downloads_bioconductor-rbsurv| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rbsurv.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rbsurv| image:: https://quay.io/repository/biocontainers/bioconductor-rbsurv/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rbsurv
+.. _`bioconductor-rbsurv/tags`: https://quay.io/repository/biocontainers/bioconductor-rbsurv?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rbsurv/README.html
-

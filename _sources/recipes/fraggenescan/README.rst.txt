@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fraggenescan'
 .. highlight: bash
-
 
 fraggenescan
 ============
@@ -25,11 +26,13 @@ fraggenescan
 
    |downloads_fraggenescan| |docker_fraggenescan|
 
-   :versions: 1.31, 1.30
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  
-
-   :required~by: |required_by_fraggenescan|
+   :versions: 1.31-0, 1.30-2, 1.30-1, 1.30-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -43,14 +46,16 @@ fraggenescan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fraggenescan
+      docker pull quay.io/repository/biocontainers/fraggenescan:<tag>
+
+   (see `fraggenescan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fraggenescan| conda:required_by:: fraggenescan
 .. |downloads_fraggenescan| image:: https://img.shields.io/conda/dn/bioconda/fraggenescan.svg?style=flat
    :alt:   (downloads)
 .. |docker_fraggenescan| image:: https://quay.io/repository/biocontainers/fraggenescan/status
    :target: https://quay.io/repository/biocontainers/fraggenescan
+.. _`fraggenescan/tags`: https://quay.io/repository/biocontainers/fraggenescan?tab=tags
 
 
 
@@ -67,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fraggenescan/README.html
-

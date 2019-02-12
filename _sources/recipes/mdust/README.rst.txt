@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mdust'
 .. highlight: bash
-
 
 mdust
 =====
@@ -21,11 +22,11 @@ mdust
 
    |downloads_mdust| |docker_mdust|
 
-   :versions: 2006.10.17
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_mdust|
+   :versions: 2006.10.17-1, 2006.10.17-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ mdust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mdust
+      docker pull quay.io/repository/biocontainers/mdust:<tag>
+
+   (see `mdust/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mdust| conda:required_by:: mdust
 .. |downloads_mdust| image:: https://img.shields.io/conda/dn/bioconda/mdust.svg?style=flat
    :alt:   (downloads)
 .. |docker_mdust| image:: https://quay.io/repository/biocontainers/mdust/status
    :target: https://quay.io/repository/biocontainers/mdust
+.. _`mdust/tags`: https://quay.io/repository/biocontainers/mdust?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mdust/README.html
-

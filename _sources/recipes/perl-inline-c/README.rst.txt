@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-inline-c'
 .. highlight: bash
-
 
 perl-inline-c
 =============
@@ -21,11 +22,27 @@ perl-inline-c
 
    |downloads_perl-inline-c| |docker_perl-inline-c|
 
-   :versions: 0.78, 0.76
-
-   :depends: :conda:package:`gcc_linux-64`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgcc-ng` >=7.2.0 :conda:package:`make`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-inline`  :conda:package:`perl-parse-recdescent`  :conda:package:`perl-pegex`  
-
-   :required~by: |required_by_perl-inline-c|
+   :versions: 0.78-0, 0.76-1, 0.76-0
+   
+   :depends gcc_linux-64: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libgcc-ng: >=7.2.0
+   
+   :depends make: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-extutils-makemaker: 
+   
+   :depends perl-inline: 
+   
+   :depends perl-parse-recdescent: 
+   
+   :depends perl-pegex: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ perl-inline-c
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-inline-c
+      docker pull quay.io/repository/biocontainers/perl-inline-c:<tag>
+
+   (see `perl-inline-c/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-inline-c| conda:required_by:: perl-inline-c
 .. |downloads_perl-inline-c| image:: https://img.shields.io/conda/dn/bioconda/perl-inline-c.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-inline-c| image:: https://quay.io/repository/biocontainers/perl-inline-c/status
    :target: https://quay.io/repository/biocontainers/perl-inline-c
+.. _`perl-inline-c/tags`: https://quay.io/repository/biocontainers/perl-inline-c?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-inline-c/README.html
-

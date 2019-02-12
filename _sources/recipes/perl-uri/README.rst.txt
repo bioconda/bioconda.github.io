@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-uri'
 .. highlight: bash
-
 
 perl-uri
 ========
@@ -21,11 +22,27 @@ perl-uri
 
    |downloads_perl-uri| |docker_perl-uri|
 
-   :versions: 1.76, 1.74, 1.71, 1.69
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-business-isbn`  :conda:package:`perl-carp`  :conda:package:`perl-constant`  :conda:package:`perl-data-dumper`  :conda:package:`perl-encode`  :conda:package:`perl-exporter`  :conda:package:`perl-mime-base64`  :conda:package:`perl-parent`  
-
-   :required~by: |required_by_perl-uri|
+   :versions: 1.76-0, 1.74-0, 1.71-3, 1.71-2, 1.71-1, 1.71-0, 1.69-7, 1.69-6, 1.69-5, 1.69-4, 1.69-3, 1.69-2, 1.69-1, 1.69-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-business-isbn: 
+   
+   :depends perl-carp: 
+   
+   :depends perl-constant: 
+   
+   :depends perl-data-dumper: 
+   
+   :depends perl-encode: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-mime-base64: 
+   
+   :depends perl-parent: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ perl-uri
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-uri
+      docker pull quay.io/repository/biocontainers/perl-uri:<tag>
+
+   (see `perl-uri/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-uri| conda:required_by:: perl-uri
 .. |downloads_perl-uri| image:: https://img.shields.io/conda/dn/bioconda/perl-uri.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-uri| image:: https://quay.io/repository/biocontainers/perl-uri/status
    :target: https://quay.io/repository/biocontainers/perl-uri
+.. _`perl-uri/tags`: https://quay.io/repository/biocontainers/perl-uri?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-uri/README.html
-

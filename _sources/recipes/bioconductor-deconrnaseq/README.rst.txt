@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-deconrnaseq'
 .. highlight: bash
-
 
 bioconductor-deconrnaseq
 ========================
@@ -21,11 +22,17 @@ bioconductor-deconrnaseq
 
    |downloads_bioconductor-deconrnaseq| |docker_bioconductor-deconrnaseq|
 
-   :versions: 1.24.0
-
-   :depends: :conda:package:`bioconductor-pcamethods` >=1.74.0,<1.75.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-limsolve`  
-
-   :required~by: |required_by_bioconductor-deconrnaseq|
+   :versions: 1.24.0-0
+   
+   :depends bioconductor-pcamethods: >=1.74.0,<1.75.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-limsolve: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-deconrnaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-deconrnaseq
+      docker pull quay.io/repository/biocontainers/bioconductor-deconrnaseq:<tag>
+
+   (see `bioconductor-deconrnaseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-deconrnaseq| conda:required_by:: bioconductor-deconrnaseq
 .. |downloads_bioconductor-deconrnaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-deconrnaseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-deconrnaseq| image:: https://quay.io/repository/biocontainers/bioconductor-deconrnaseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-deconrnaseq
+.. _`bioconductor-deconrnaseq/tags`: https://quay.io/repository/biocontainers/bioconductor-deconrnaseq?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-deconrnaseq/README.html
-

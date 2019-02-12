@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cgat-daisy'
 .. highlight: bash
-
 
 cgat-daisy
 ==========
@@ -21,11 +22,21 @@ cgat-daisy
 
    |downloads_cgat-daisy| |docker_cgat-daisy|
 
-   :versions: 0.1.2
-
-   :depends: :conda:package:`cgatcore`  :conda:package:`pandas`  :conda:package:`pysam`  :conda:package:`ruamel_yaml`  :conda:package:`ruffus`  :conda:package:`sqlalchemy`  
-
-   :required~by: |required_by_cgat-daisy|
+   :versions: 0.1.2-0
+   
+   :depends cgatcore: 
+   
+   :depends pandas: 
+   
+   :depends pysam: 
+   
+   :depends ruamel_yaml: 
+   
+   :depends ruffus: 
+   
+   :depends sqlalchemy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ cgat-daisy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cgat-daisy
+      docker pull quay.io/repository/biocontainers/cgat-daisy:<tag>
+
+   (see `cgat-daisy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cgat-daisy| conda:required_by:: cgat-daisy
 .. |downloads_cgat-daisy| image:: https://img.shields.io/conda/dn/bioconda/cgat-daisy.svg?style=flat
    :alt:   (downloads)
 .. |docker_cgat-daisy| image:: https://quay.io/repository/biocontainers/cgat-daisy/status
    :target: https://quay.io/repository/biocontainers/cgat-daisy
+.. _`cgat-daisy/tags`: https://quay.io/repository/biocontainers/cgat-daisy?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cgat-daisy/README.html
-

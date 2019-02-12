@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'synapseclient'
 .. highlight: bash
-
 
 synapseclient
 =============
@@ -21,11 +22,19 @@ synapseclient
 
    |downloads_synapseclient| |docker_synapseclient|
 
-   :versions: 1.7.5, 1.7.1, 1.6.2, 1.5
-
-   :depends: :conda:package:`backports.csv`  :conda:package:`future`  :conda:package:`python` 2.7* :conda:package:`requests` >=1.2 :conda:package:`six`  
-
-   :required~by: |required_by_synapseclient|
+   :versions: 1.7.5-1, 1.7.5-0, 1.7.1-0, 1.6.2-0, 1.5-0
+   
+   :depends backports.csv: 
+   
+   :depends future: 
+   
+   :depends python: 
+   
+   :depends requests: >=1.2
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ synapseclient
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/synapseclient
+      docker pull quay.io/repository/biocontainers/synapseclient:<tag>
+
+   (see `synapseclient/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_synapseclient| conda:required_by:: synapseclient
 .. |downloads_synapseclient| image:: https://img.shields.io/conda/dn/bioconda/synapseclient.svg?style=flat
    :alt:   (downloads)
 .. |docker_synapseclient| image:: https://quay.io/repository/biocontainers/synapseclient/status
    :target: https://quay.io/repository/biocontainers/synapseclient
+.. _`synapseclient/tags`: https://quay.io/repository/biocontainers/synapseclient?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/synapseclient/README.html
-

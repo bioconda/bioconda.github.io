@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-coexnet'
 .. highlight: bash
-
 
 bioconductor-coexnet
 ====================
@@ -21,11 +22,35 @@ bioconductor-coexnet
 
    |downloads_bioconductor-coexnet| |docker_bioconductor-coexnet|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-acde` >=1.12.0,<1.13.0 :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-geoquery` >=2.50.0,<2.51.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-minet` >=3.40.0,<3.41.0 :conda:package:`bioconductor-siggenes` >=1.56.0,<1.57.0 :conda:package:`bioconductor-stringdb` >=1.22.0,<1.23.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-vsn` >=3.50.0,<3.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-rmarkdown`  
-
-   :required~by: |required_by_bioconductor-coexnet|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-acde: >=1.12.0,<1.13.0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-geoquery: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-minet: >=3.40.0,<3.41.0
+   
+   :depends bioconductor-siggenes: >=1.56.0,<1.57.0
+   
+   :depends bioconductor-stringdb: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends bioconductor-vsn: >=3.50.0,<3.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-igraph: 
+   
+   :depends r-rmarkdown: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ bioconductor-coexnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-coexnet
+      docker pull quay.io/repository/biocontainers/bioconductor-coexnet:<tag>
+
+   (see `bioconductor-coexnet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-coexnet| conda:required_by:: bioconductor-coexnet
 .. |downloads_bioconductor-coexnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-coexnet.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-coexnet| image:: https://quay.io/repository/biocontainers/bioconductor-coexnet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-coexnet
+.. _`bioconductor-coexnet/tags`: https://quay.io/repository/biocontainers/bioconductor-coexnet?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-coexnet/README.html
-

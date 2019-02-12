@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'wgs-assembler'
 .. highlight: bash
-
 
 wgs-assembler
 =============
@@ -21,11 +22,31 @@ wgs-assembler
 
    |downloads_wgs-assembler| |docker_wgs-assembler|
 
-   :versions: 8.3
-
-   :depends: :conda:package:`atac`  :conda:package:`blasr`  :conda:package:`estmapper`  :conda:package:`falcon`  :conda:package:`jellyfish`  :conda:package:`libgcc`  :conda:package:`meryl`  :conda:package:`pbdagcon`  :conda:package:`perl` 5.22.0* :conda:package:`samtools`  :conda:package:`sim4db`  
-
-   :required~by: |required_by_wgs-assembler|
+   :versions: 8.3-0
+   
+   :depends atac: 
+   
+   :depends blasr: 
+   
+   :depends estmapper: 
+   
+   :depends falcon: 
+   
+   :depends jellyfish: 
+   
+   :depends libgcc: 
+   
+   :depends meryl: 
+   
+   :depends pbdagcon: 
+   
+   :depends perl: 5.22.0*
+   
+   :depends samtools: 
+   
+   :depends sim4db: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ wgs-assembler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wgs-assembler
+      docker pull quay.io/repository/biocontainers/wgs-assembler:<tag>
+
+   (see `wgs-assembler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_wgs-assembler| conda:required_by:: wgs-assembler
 .. |downloads_wgs-assembler| image:: https://img.shields.io/conda/dn/bioconda/wgs-assembler.svg?style=flat
    :alt:   (downloads)
 .. |docker_wgs-assembler| image:: https://quay.io/repository/biocontainers/wgs-assembler/status
    :target: https://quay.io/repository/biocontainers/wgs-assembler
+.. _`wgs-assembler/tags`: https://quay.io/repository/biocontainers/wgs-assembler?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/wgs-assembler/README.html
-

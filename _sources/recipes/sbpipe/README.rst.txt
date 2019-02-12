@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sbpipe'
 .. highlight: bash
-
 
 sbpipe
 ======
@@ -22,11 +23,17 @@ sbpipe
 
    |downloads_sbpipe| |docker_sbpipe|
 
-   :versions: 4.21.0, 4.20.0, 4.18.0
-
-   :depends: :conda:package:`colorlog`  :conda:package:`python`  :conda:package:`pyyaml`  :conda:package:`r-sbpiper` 1.8.* 
-
-   :required~by: |required_by_sbpipe|
+   :versions: 4.21.0-0, 4.20.0-0, 4.18.0-0
+   
+   :depends colorlog: 
+   
+   :depends python: 
+   
+   :depends pyyaml: 
+   
+   :depends r-sbpiper: 1.8.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ sbpipe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sbpipe
+      docker pull quay.io/repository/biocontainers/sbpipe:<tag>
+
+   (see `sbpipe/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sbpipe| conda:required_by:: sbpipe
 .. |downloads_sbpipe| image:: https://img.shields.io/conda/dn/bioconda/sbpipe.svg?style=flat
    :alt:   (downloads)
 .. |docker_sbpipe| image:: https://quay.io/repository/biocontainers/sbpipe/status
    :target: https://quay.io/repository/biocontainers/sbpipe
+.. _`sbpipe/tags`: https://quay.io/repository/biocontainers/sbpipe?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sbpipe/README.html
-

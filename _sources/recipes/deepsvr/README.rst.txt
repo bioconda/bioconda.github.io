@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'deepsvr'
 .. highlight: bash
-
 
 deepsvr
 =======
@@ -21,11 +22,33 @@ deepsvr
 
    |downloads_deepsvr| |docker_deepsvr|
 
-   :versions: 0.1.0
-
-   :depends: :conda:package:`bam-readcount`  :conda:package:`click`  :conda:package:`convert_zero_one_based`  :conda:package:`h5py`  :conda:package:`keras` 2.0.4 :conda:package:`matplotlib`  :conda:package:`numpy` 1.12.1 :conda:package:`pandas` 0.20.3 :conda:package:`python` 3.6.1 :conda:package:`scikit-learn`  :conda:package:`seaborn`  :conda:package:`tensorflow` <=1.0.1 
-
-   :required~by: |required_by_deepsvr|
+   :versions: 0.1.0-0
+   
+   :depends bam-readcount: 
+   
+   :depends click: 
+   
+   :depends convert_zero_one_based: 
+   
+   :depends h5py: 
+   
+   :depends keras: 2.0.4
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 1.12.1
+   
+   :depends pandas: 0.20.3
+   
+   :depends python: 3.6.1
+   
+   :depends scikit-learn: 
+   
+   :depends seaborn: 
+   
+   :depends tensorflow: <=1.0.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ deepsvr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/deepsvr
+      docker pull quay.io/repository/biocontainers/deepsvr:<tag>
+
+   (see `deepsvr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_deepsvr| conda:required_by:: deepsvr
 .. |downloads_deepsvr| image:: https://img.shields.io/conda/dn/bioconda/deepsvr.svg?style=flat
    :alt:   (downloads)
 .. |docker_deepsvr| image:: https://quay.io/repository/biocontainers/deepsvr/status
    :target: https://quay.io/repository/biocontainers/deepsvr
+.. _`deepsvr/tags`: https://quay.io/repository/biocontainers/deepsvr?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/deepsvr/README.html
-

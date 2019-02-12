@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-fis'
 .. highlight: bash
-
 
 bioconductor-fis
 ================
@@ -21,11 +22,13 @@ bioconductor-fis
 
    |downloads_bioconductor-fis| |docker_bioconductor-fis|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-fis|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-fis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fis
+      docker pull quay.io/repository/biocontainers/bioconductor-fis:<tag>
+
+   (see `bioconductor-fis/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-fis| conda:required_by:: bioconductor-fis
 .. |downloads_bioconductor-fis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fis.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-fis| image:: https://quay.io/repository/biocontainers/bioconductor-fis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fis
+.. _`bioconductor-fis/tags`: https://quay.io/repository/biocontainers/bioconductor-fis?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-fis/README.html
-

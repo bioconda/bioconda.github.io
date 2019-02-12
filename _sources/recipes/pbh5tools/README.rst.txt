@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pbh5tools'
 .. highlight: bash
-
 
 pbh5tools
 =========
@@ -21,11 +22,19 @@ pbh5tools
 
    |downloads_pbh5tools| |docker_pbh5tools|
 
-   :versions: 0.8.0
-
-   :depends: :conda:package:`h5py` >=1.3.0 :conda:package:`libgcc`  :conda:package:`numpy` >=1.6.0 :conda:package:`pbcore` >=0.8.0 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pbh5tools|
+   :versions: 0.8.0-1, 0.8.0-0
+   
+   :depends h5py: >=1.3.0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends numpy: >=1.6.0
+   
+   :depends pbcore: >=0.8.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ pbh5tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbh5tools
+      docker pull quay.io/repository/biocontainers/pbh5tools:<tag>
+
+   (see `pbh5tools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pbh5tools| conda:required_by:: pbh5tools
 .. |downloads_pbh5tools| image:: https://img.shields.io/conda/dn/bioconda/pbh5tools.svg?style=flat
    :alt:   (downloads)
 .. |docker_pbh5tools| image:: https://quay.io/repository/biocontainers/pbh5tools/status
    :target: https://quay.io/repository/biocontainers/pbh5tools
+.. _`pbh5tools/tags`: https://quay.io/repository/biocontainers/pbh5tools?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pbh5tools/README.html
-

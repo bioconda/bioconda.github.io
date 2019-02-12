@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pathwaymatcher'
 .. highlight: bash
-
 
 pathwaymatcher
 ==============
@@ -22,11 +23,13 @@ pathwaymatcher
 
    |downloads_pathwaymatcher| |docker_pathwaymatcher|
 
-   :versions: 1.8.1, 1.8, 1.7
-
-   :depends: :conda:package:`openjdk` >=6 :conda:package:`python`  
-
-   :required~by: |required_by_pathwaymatcher|
+   :versions: 1.8.1-2, 1.8.1-1, 1.8-1, 1.7-0
+   
+   :depends openjdk: >=8
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ pathwaymatcher
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pathwaymatcher
+      docker pull quay.io/repository/biocontainers/pathwaymatcher:<tag>
+
+   (see `pathwaymatcher/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pathwaymatcher| conda:required_by:: pathwaymatcher
 .. |downloads_pathwaymatcher| image:: https://img.shields.io/conda/dn/bioconda/pathwaymatcher.svg?style=flat
    :alt:   (downloads)
 .. |docker_pathwaymatcher| image:: https://quay.io/repository/biocontainers/pathwaymatcher/status
    :target: https://quay.io/repository/biocontainers/pathwaymatcher
+.. _`pathwaymatcher/tags`: https://quay.io/repository/biocontainers/pathwaymatcher?tab=tags
 
 
 
@@ -73,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pathwaymatcher/README.html
-

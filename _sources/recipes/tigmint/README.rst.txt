@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tigmint'
 .. highlight: bash
-
 
 tigmint
 =======
@@ -25,11 +26,19 @@ tigmint
 
    |downloads_tigmint| |docker_tigmint|
 
-   :versions: 1.1.2
-
-   :depends: :conda:package:`intervaltree`  :conda:package:`make`  :conda:package:`pybedtools`  :conda:package:`pysam`  :conda:package:`python` >=3 
-
-   :required~by: |required_by_tigmint|
+   :versions: 1.1.2-0
+   
+   :depends intervaltree: 
+   
+   :depends make: 
+   
+   :depends pybedtools: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -43,14 +52,16 @@ tigmint
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tigmint
+      docker pull quay.io/repository/biocontainers/tigmint:<tag>
+
+   (see `tigmint/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tigmint| conda:required_by:: tigmint
 .. |downloads_tigmint| image:: https://img.shields.io/conda/dn/bioconda/tigmint.svg?style=flat
    :alt:   (downloads)
 .. |docker_tigmint| image:: https://quay.io/repository/biocontainers/tigmint/status
    :target: https://quay.io/repository/biocontainers/tigmint
+.. _`tigmint/tags`: https://quay.io/repository/biocontainers/tigmint?tab=tags
 
 
 
@@ -67,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tigmint/README.html
-

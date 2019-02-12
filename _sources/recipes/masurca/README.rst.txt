@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'masurca'
 .. highlight: bash
-
 
 masurca
 =======
@@ -23,11 +24,21 @@ masurca
 
    |downloads_masurca| |docker_masurca|
 
-   :versions: 3.3.0, 3.2.9, 3.2.8, 3.2.7
-
-   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_masurca|
+   :versions: 3.3.0-0, 3.2.9-0, 3.2.8-0, 3.2.7-0
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +52,16 @@ masurca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/masurca
+      docker pull quay.io/repository/biocontainers/masurca:<tag>
+
+   (see `masurca/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_masurca| conda:required_by:: masurca
 .. |downloads_masurca| image:: https://img.shields.io/conda/dn/bioconda/masurca.svg?style=flat
    :alt:   (downloads)
 .. |docker_masurca| image:: https://quay.io/repository/biocontainers/masurca/status
    :target: https://quay.io/repository/biocontainers/masurca
+.. _`masurca/tags`: https://quay.io/repository/biocontainers/masurca?tab=tags
 
 
 
@@ -65,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/masurca/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-nastiseq'
 .. highlight: bash
-
 
 r-nastiseq
 ==========
@@ -22,11 +23,15 @@ r-nastiseq
 
    |downloads_r-nastiseq| |docker_r-nastiseq|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`bioconductor-deseq`  :conda:package:`r` 3.3.1* :conda:package:`r-rocr`  
-
-   :required~by: |required_by_r-nastiseq|
+   :versions: 1.0-0
+   
+   :depends bioconductor-deseq: 
+   
+   :depends r: 3.3.1*
+   
+   :depends r-rocr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ r-nastiseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-nastiseq
+      docker pull quay.io/repository/biocontainers/r-nastiseq:<tag>
+
+   (see `r-nastiseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-nastiseq| conda:required_by:: r-nastiseq
 .. |downloads_r-nastiseq| image:: https://img.shields.io/conda/dn/bioconda/r-nastiseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-nastiseq| image:: https://quay.io/repository/biocontainers/r-nastiseq/status
    :target: https://quay.io/repository/biocontainers/r-nastiseq
+.. _`r-nastiseq/tags`: https://quay.io/repository/biocontainers/r-nastiseq?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-nastiseq/README.html
-

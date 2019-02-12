@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'clustergrammer'
 .. highlight: bash
-
 
 clustergrammer
 ==============
@@ -21,11 +22,17 @@ clustergrammer
 
    |downloads_clustergrammer| |docker_clustergrammer|
 
-   :versions: 1.13.5
-
-   :depends: :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`scikit-learn`  
-
-   :required~by: |required_by_clustergrammer|
+   :versions: 1.13.5-1, 1.13.5-0
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scikit-learn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ clustergrammer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clustergrammer
+      docker pull quay.io/repository/biocontainers/clustergrammer:<tag>
+
+   (see `clustergrammer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_clustergrammer| conda:required_by:: clustergrammer
 .. |downloads_clustergrammer| image:: https://img.shields.io/conda/dn/bioconda/clustergrammer.svg?style=flat
    :alt:   (downloads)
 .. |docker_clustergrammer| image:: https://quay.io/repository/biocontainers/clustergrammer/status
    :target: https://quay.io/repository/biocontainers/clustergrammer
+.. _`clustergrammer/tags`: https://quay.io/repository/biocontainers/clustergrammer?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/clustergrammer/README.html
-

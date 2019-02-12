@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-asics'
 .. highlight: bash
-
 
 r-asics
 =======
@@ -21,11 +22,23 @@ r-asics
 
    |downloads_r-asics| |docker_r-asics|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-plyr`  :conda:package:`r-quadprog`  :conda:package:`r-zoo`  
-
-   :required~by: |required_by_r-asics|
+   :versions: 1.0.1-0
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-doparallel: 
+   
+   :depends r-foreach: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-plyr: 
+   
+   :depends r-quadprog: 
+   
+   :depends r-zoo: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ r-asics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-asics
+      docker pull quay.io/repository/biocontainers/r-asics:<tag>
+
+   (see `r-asics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-asics| conda:required_by:: r-asics
 .. |downloads_r-asics| image:: https://img.shields.io/conda/dn/bioconda/r-asics.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-asics| image:: https://quay.io/repository/biocontainers/r-asics/status
    :target: https://quay.io/repository/biocontainers/r-asics
+.. _`r-asics/tags`: https://quay.io/repository/biocontainers/r-asics?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-asics/README.html
-

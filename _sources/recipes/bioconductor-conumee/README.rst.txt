@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-conumee'
 .. highlight: bash
-
 
 bioconductor-conumee
 ====================
@@ -22,10 +23,8 @@ bioconductor-conumee
    |downloads_bioconductor-conumee| |docker_bioconductor-conumee|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-conumee|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-conumee
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-conumee
+      docker pull quay.io/repository/biocontainers/bioconductor-conumee:<tag>
+
+   (see `bioconductor-conumee/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-conumee| conda:required_by:: bioconductor-conumee
 .. |downloads_bioconductor-conumee| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-conumee.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-conumee| image:: https://quay.io/repository/biocontainers/bioconductor-conumee/status
    :target: https://quay.io/repository/biocontainers/bioconductor-conumee
+.. _`bioconductor-conumee/tags`: https://quay.io/repository/biocontainers/bioconductor-conumee?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-conumee/README.html
-

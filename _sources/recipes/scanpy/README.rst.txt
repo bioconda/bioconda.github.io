@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'scanpy'
 .. highlight: bash
-
 
 scanpy
 ======
@@ -22,11 +23,41 @@ scanpy
 
    |downloads_scanpy| |docker_scanpy|
 
-   :versions: 1.3.7, 1.3.6, 1.3.5, 1.3.4, 1.3.3, 1.3.2, 1.3.1
-
-   :depends: :conda:package:`anndata` >=0.6.10 :conda:package:`h5py`  :conda:package:`louvain`  :conda:package:`matplotlib` >=2.2 :conda:package:`natsort`  :conda:package:`networkx`  :conda:package:`numba`  :conda:package:`pandas` >=0.21 :conda:package:`pytables`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`python-igraph`  :conda:package:`scikit-learn`  :conda:package:`scipy`  :conda:package:`seaborn`  :conda:package:`setuptools`  :conda:package:`statsmodels`  
-
-   :required~by: |required_by_scanpy|
+   :versions: 1.3.7-0, 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.3.3-0, 1.3.2-0, 1.3.1-0
+   
+   :depends anndata: >=0.6.10
+   
+   :depends h5py: 
+   
+   :depends louvain: 
+   
+   :depends matplotlib: >=2.2
+   
+   :depends natsort: 
+   
+   :depends networkx: 
+   
+   :depends numba: 
+   
+   :depends pandas: >=0.21
+   
+   :depends pytables: 
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :depends python-igraph: 
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :depends seaborn: 
+   
+   :depends setuptools: 
+   
+   :depends statsmodels: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +71,16 @@ scanpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scanpy
+      docker pull quay.io/repository/biocontainers/scanpy:<tag>
+
+   (see `scanpy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_scanpy| conda:required_by:: scanpy
 .. |downloads_scanpy| image:: https://img.shields.io/conda/dn/bioconda/scanpy.svg?style=flat
    :alt:   (downloads)
 .. |docker_scanpy| image:: https://quay.io/repository/biocontainers/scanpy/status
    :target: https://quay.io/repository/biocontainers/scanpy
+.. _`scanpy/tags`: https://quay.io/repository/biocontainers/scanpy?tab=tags
 
 
 
@@ -64,4 +97,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/scanpy/README.html
-

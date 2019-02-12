@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-extutils-makemaker'
 .. highlight: bash
-
 
 perl-extutils-makemaker
 =======================
@@ -21,11 +22,11 @@ perl-extutils-makemaker
 
    |downloads_perl-extutils-makemaker| |docker_perl-extutils-makemaker|
 
-   :versions: 7.34, 7.24, 6.66
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 
-
-   :required~by: |required_by_perl-extutils-makemaker|
+   :versions: 7.34-3, 7.34-2, 7.34-1, 7.34-0, 7.24-3, 7.24-1, 7.24-0, 6.66-2, 6.66-1, 6.66-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-extutils-makemaker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-extutils-makemaker
+      docker pull quay.io/repository/biocontainers/perl-extutils-makemaker:<tag>
+
+   (see `perl-extutils-makemaker/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-extutils-makemaker| conda:required_by:: perl-extutils-makemaker
 .. |downloads_perl-extutils-makemaker| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-makemaker.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-extutils-makemaker| image:: https://quay.io/repository/biocontainers/perl-extutils-makemaker/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-makemaker
+.. _`perl-extutils-makemaker/tags`: https://quay.io/repository/biocontainers/perl-extutils-makemaker?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-extutils-makemaker/README.html
-

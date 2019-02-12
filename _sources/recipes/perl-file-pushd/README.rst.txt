@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-pushd'
 .. highlight: bash
-
 
 perl-file-pushd
 ===============
@@ -21,11 +22,19 @@ perl-file-pushd
 
    |downloads_perl-file-pushd| |docker_perl-file-pushd|
 
-   :versions: 1.016
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-file-path`  :conda:package:`perl-file-temp`  
-
-   :required~by: |required_by_perl-file-pushd|
+   :versions: 1.016-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-file-path: 
+   
+   :depends perl-file-temp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-file-pushd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-pushd
+      docker pull quay.io/repository/biocontainers/perl-file-pushd:<tag>
+
+   (see `perl-file-pushd/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-pushd| conda:required_by:: perl-file-pushd
 .. |downloads_perl-file-pushd| image:: https://img.shields.io/conda/dn/bioconda/perl-file-pushd.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-pushd| image:: https://quay.io/repository/biocontainers/perl-file-pushd/status
    :target: https://quay.io/repository/biocontainers/perl-file-pushd
+.. _`perl-file-pushd/tags`: https://quay.io/repository/biocontainers/perl-file-pushd?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-pushd/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-unit-lite'
 .. highlight: bash
-
 
 perl-test-unit-lite
 ===================
@@ -21,11 +22,11 @@ perl-test-unit-lite
 
    |downloads_perl-test-unit-lite| |docker_perl-test-unit-lite|
 
-   :versions: 0.1202
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-test-unit-lite|
+   :versions: 0.1202-1, 0.1202-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-test-unit-lite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-unit-lite
+      docker pull quay.io/repository/biocontainers/perl-test-unit-lite:<tag>
+
+   (see `perl-test-unit-lite/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-unit-lite| conda:required_by:: perl-test-unit-lite
 .. |downloads_perl-test-unit-lite| image:: https://img.shields.io/conda/dn/bioconda/perl-test-unit-lite.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-unit-lite| image:: https://quay.io/repository/biocontainers/perl-test-unit-lite/status
    :target: https://quay.io/repository/biocontainers/perl-test-unit-lite
+.. _`perl-test-unit-lite/tags`: https://quay.io/repository/biocontainers/perl-test-unit-lite?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-unit-lite/README.html
-

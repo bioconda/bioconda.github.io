@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ctc'
 .. highlight: bash
-
 
 bioconductor-ctc
 ================
@@ -22,11 +23,13 @@ bioconductor-ctc
 
    |downloads_bioconductor-ctc| |docker_bioconductor-ctc|
 
-   :versions: 1.56.0, 1.54.0, 1.52.0
-
-   :depends: :conda:package:`r-amap`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-ctc|
+   :versions: 1.56.0-0, 1.54.0-0, 1.52.0-0
+   
+   :depends r-amap: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-ctc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ctc
+      docker pull quay.io/repository/biocontainers/bioconductor-ctc:<tag>
+
+   (see `bioconductor-ctc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ctc| conda:required_by:: bioconductor-ctc
 .. |downloads_bioconductor-ctc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ctc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ctc| image:: https://quay.io/repository/biocontainers/bioconductor-ctc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ctc
+.. _`bioconductor-ctc/tags`: https://quay.io/repository/biocontainers/bioconductor-ctc?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ctc/README.html
-

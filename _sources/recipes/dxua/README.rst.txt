@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dxua'
 .. highlight: bash
-
 
 dxua
 ====
@@ -21,11 +22,9 @@ dxua
 
    |downloads_dxua| |docker_dxua|
 
-   :versions: 1.5.26, 1.5.11
-
-   :depends: 
-
-   :required~by: |required_by_dxua|
+   :versions: 1.5.26-1, 1.5.26-0, 1.5.11-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ dxua
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dxua
+      docker pull quay.io/repository/biocontainers/dxua:<tag>
+
+   (see `dxua/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dxua| conda:required_by:: dxua
 .. |downloads_dxua| image:: https://img.shields.io/conda/dn/bioconda/dxua.svg?style=flat
    :alt:   (downloads)
 .. |docker_dxua| image:: https://quay.io/repository/biocontainers/dxua/status
    :target: https://quay.io/repository/biocontainers/dxua
+.. _`dxua/tags`: https://quay.io/repository/biocontainers/dxua?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dxua/README.html
-

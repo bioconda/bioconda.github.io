@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bumhmm'
 .. highlight: bash
-
 
 bioconductor-bumhmm
 ===================
@@ -21,11 +22,23 @@ bioconductor-bumhmm
 
    |downloads_bioconductor-bumhmm| |docker_bioconductor-bumhmm|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-devtools`  :conda:package:`r-gtools`  :conda:package:`r-stringi`  
-
-   :required~by: |required_by_bioconductor-bumhmm|
+   :versions: 1.6.0-0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-devtools: 
+   
+   :depends r-gtools: 
+   
+   :depends r-stringi: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-bumhmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bumhmm
+      docker pull quay.io/repository/biocontainers/bioconductor-bumhmm:<tag>
+
+   (see `bioconductor-bumhmm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bumhmm| conda:required_by:: bioconductor-bumhmm
 .. |downloads_bioconductor-bumhmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bumhmm.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bumhmm| image:: https://quay.io/repository/biocontainers/bioconductor-bumhmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bumhmm
+.. _`bioconductor-bumhmm/tags`: https://quay.io/repository/biocontainers/bioconductor-bumhmm?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bumhmm/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ngseqbasic'
 .. highlight: bash
-
 
 ngseqbasic
 ==========
@@ -21,11 +22,31 @@ ngseqbasic
 
    |downloads_ngseqbasic| |docker_ngseqbasic|
 
-   :versions: 2.0.1
-
-   :depends: :conda:package:`bedtools` ==2.17.0 :conda:package:`bowtie` ==1.0.0 :conda:package:`bowtie2` ==2.3.0 :conda:package:`flash` ==1.2.11 :conda:package:`perl` 5.22.0.1 :conda:package:`samtools` ==0.1.19 :conda:package:`trim-galore` ==0.4.1 :conda:package:`ucsc-bedclip` ==332 :conda:package:`ucsc-bedgraphpack` ==332 :conda:package:`ucsc-bedgraphtobigwig` ==332 :conda:package:`ucsc-bedtobigbed` ==332 
-
-   :required~by: |required_by_ngseqbasic|
+   :versions: 2.0.1-1, 2.0.1-0
+   
+   :depends bedtools: ==2.17.0
+   
+   :depends bowtie: ==1.0.0
+   
+   :depends bowtie2: ==2.3.0
+   
+   :depends flash: ==1.2.11
+   
+   :depends perl: 5.22.0.1
+   
+   :depends samtools: ==0.1.19
+   
+   :depends trim-galore: ==0.4.1
+   
+   :depends ucsc-bedclip: ==332
+   
+   :depends ucsc-bedgraphpack: ==332
+   
+   :depends ucsc-bedgraphtobigwig: ==332
+   
+   :depends ucsc-bedtobigbed: ==332
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ ngseqbasic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ngseqbasic
+      docker pull quay.io/repository/biocontainers/ngseqbasic:<tag>
+
+   (see `ngseqbasic/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ngseqbasic| conda:required_by:: ngseqbasic
 .. |downloads_ngseqbasic| image:: https://img.shields.io/conda/dn/bioconda/ngseqbasic.svg?style=flat
    :alt:   (downloads)
 .. |docker_ngseqbasic| image:: https://quay.io/repository/biocontainers/ngseqbasic/status
    :target: https://quay.io/repository/biocontainers/ngseqbasic
+.. _`ngseqbasic/tags`: https://quay.io/repository/biocontainers/ngseqbasic?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ngseqbasic/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metasv'
 .. highlight: bash
-
 
 metasv
 ======
@@ -21,11 +22,21 @@ metasv
 
    |downloads_metasv| |docker_metasv|
 
-   :versions: 0.5.4, 0.4.0
-
-   :depends: :conda:package:`age-metasv`  :conda:package:`pybedtools` ==0.6.9 :conda:package:`pysam` ==0.7.7 :conda:package:`python` 2.7* :conda:package:`pyvcf` ==0.6.7 :conda:package:`spades`  
-
-   :required~by: |required_by_metasv|
+   :versions: 0.5.4-1, 0.5.4-0, 0.4.0-4, 0.4.0-3
+   
+   :depends age-metasv: 
+   
+   :depends pybedtools: 0.6.9
+   
+   :depends pysam: 0.7.7
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends pyvcf: 0.6.7
+   
+   :depends spades: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ metasv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metasv
+      docker pull quay.io/repository/biocontainers/metasv:<tag>
+
+   (see `metasv/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metasv| conda:required_by:: metasv
 .. |downloads_metasv| image:: https://img.shields.io/conda/dn/bioconda/metasv.svg?style=flat
    :alt:   (downloads)
 .. |docker_metasv| image:: https://quay.io/repository/biocontainers/metasv/status
    :target: https://quay.io/repository/biocontainers/metasv
+.. _`metasv/tags`: https://quay.io/repository/biocontainers/metasv?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metasv/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'strike'
 .. highlight: bash
-
 
 strike
 ======
@@ -22,11 +23,11 @@ strike
 
    |downloads_strike| |docker_strike|
 
-   :versions: 1.2
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_strike|
+   :versions: 1.2-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ strike
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/strike
+      docker pull quay.io/repository/biocontainers/strike:<tag>
+
+   (see `strike/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_strike| conda:required_by:: strike
 .. |downloads_strike| image:: https://img.shields.io/conda/dn/bioconda/strike.svg?style=flat
    :alt:   (downloads)
 .. |docker_strike| image:: https://quay.io/repository/biocontainers/strike/status
    :target: https://quay.io/repository/biocontainers/strike
+.. _`strike/tags`: https://quay.io/repository/biocontainers/strike?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/strike/README.html
-

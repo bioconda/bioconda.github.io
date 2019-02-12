@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bamm'
 .. highlight: bash
-
 
 bamm
 ====
@@ -21,11 +22,25 @@ bamm
 
    |downloads_bamm| |docker_bamm|
 
-   :versions: 1.7.3
-
-   :depends: :conda:package:`bwa` ==0.7.12 :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`python` >=2.7,<3 :conda:package:`samtools` ==1.2 :conda:package:`zlib`  
-
-   :required~by: |required_by_bamm|
+   :versions: 1.7.3-5, 1.7.3-4, 1.7.3-3, 1.7.3-2, 1.7.3-1, 1.7.3-0
+   
+   :depends bwa: 0.7.12
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends nose: 
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: 1.3.1
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bamm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bamm
+      docker pull quay.io/repository/biocontainers/bamm:<tag>
+
+   (see `bamm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bamm| conda:required_by:: bamm
 .. |downloads_bamm| image:: https://img.shields.io/conda/dn/bioconda/bamm.svg?style=flat
    :alt:   (downloads)
 .. |docker_bamm| image:: https://quay.io/repository/biocontainers/bamm/status
    :target: https://quay.io/repository/biocontainers/bamm
+.. _`bamm/tags`: https://quay.io/repository/biocontainers/bamm?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bamm/README.html
-

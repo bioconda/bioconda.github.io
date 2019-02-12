@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ctat-lncrna'
 .. highlight: bash
-
 
 ctat-lncrna
 ===========
@@ -21,11 +22,11 @@ ctat-lncrna
 
    |downloads_ctat-lncrna| |docker_ctat-lncrna|
 
-   :versions: 1.0.1, 1.0
-
-   :depends: :conda:package:`bedtools`  :conda:package:`lastz`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`slncky`  :conda:package:`ucsc-liftover`  
-
-   :required~by: |required_by_ctat-lncrna|
+   :versions: 1.0.1-2, 1.0.1-0, 1.0-1
+   
+   :depends slncky: >=1.0.4 1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ ctat-lncrna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ctat-lncrna
+      docker pull quay.io/repository/biocontainers/ctat-lncrna:<tag>
+
+   (see `ctat-lncrna/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ctat-lncrna| conda:required_by:: ctat-lncrna
 .. |downloads_ctat-lncrna| image:: https://img.shields.io/conda/dn/bioconda/ctat-lncrna.svg?style=flat
    :alt:   (downloads)
 .. |docker_ctat-lncrna| image:: https://quay.io/repository/biocontainers/ctat-lncrna/status
    :target: https://quay.io/repository/biocontainers/ctat-lncrna
+.. _`ctat-lncrna/tags`: https://quay.io/repository/biocontainers/ctat-lncrna?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ctat-lncrna/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'npyscreen'
 .. highlight: bash
-
 
 npyscreen
 =========
@@ -21,11 +22,13 @@ npyscreen
 
    |downloads_npyscreen| |docker_npyscreen|
 
-   :versions: 4.10.5
-
-   :depends: :conda:package:`ncurses` 5.9* :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_npyscreen|
+   :versions: 4.10.5-1, 4.10.5-0
+   
+   :depends ncurses: >=5.9,<5.10.0a0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ npyscreen
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/npyscreen
+      docker pull quay.io/repository/biocontainers/npyscreen:<tag>
+
+   (see `npyscreen/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_npyscreen| conda:required_by:: npyscreen
 .. |downloads_npyscreen| image:: https://img.shields.io/conda/dn/bioconda/npyscreen.svg?style=flat
    :alt:   (downloads)
 .. |docker_npyscreen| image:: https://quay.io/repository/biocontainers/npyscreen/status
    :target: https://quay.io/repository/biocontainers/npyscreen
+.. _`npyscreen/tags`: https://quay.io/repository/biocontainers/npyscreen?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/npyscreen/README.html
-

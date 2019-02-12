@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hic2cool'
 .. highlight: bash
-
 
 hic2cool
 ========
@@ -21,11 +22,17 @@ hic2cool
 
    |downloads_hic2cool| |docker_hic2cool|
 
-   :versions: 0.4.2, 0.4.1
-
-   :depends: :conda:package:`cooler` >=0.7.2 :conda:package:`h5py` >=2.5.0 :conda:package:`numpy` >=1.10.1 :conda:package:`python`  
-
-   :required~by: |required_by_hic2cool|
+   :versions: 0.4.2-0, 0.4.1-0
+   
+   :depends cooler: >=0.7.2
+   
+   :depends h5py: >=2.5.0
+   
+   :depends numpy: >=1.10.1
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ hic2cool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hic2cool
+      docker pull quay.io/repository/biocontainers/hic2cool:<tag>
+
+   (see `hic2cool/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hic2cool| conda:required_by:: hic2cool
 .. |downloads_hic2cool| image:: https://img.shields.io/conda/dn/bioconda/hic2cool.svg?style=flat
    :alt:   (downloads)
 .. |docker_hic2cool| image:: https://quay.io/repository/biocontainers/hic2cool/status
    :target: https://quay.io/repository/biocontainers/hic2cool
+.. _`hic2cool/tags`: https://quay.io/repository/biocontainers/hic2cool?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hic2cool/README.html
-

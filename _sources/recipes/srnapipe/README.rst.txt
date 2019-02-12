@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'srnapipe'
 .. highlight: bash
-
 
 srnapipe
 ========
@@ -21,11 +22,39 @@ srnapipe
 
    |downloads_srnapipe| |docker_srnapipe|
 
-   :versions: 1.1
-
-   :depends: :conda:package:`bedtools` >=2.24.0 :conda:package:`bioconductor-sushi`  :conda:package:`bwa` >=0.7.12 :conda:package:`perl` >=5.22.0.1,<5.22.1.0a0 :conda:package:`perl-file-copy-recursive`  :conda:package:`perl-getopt-long`  :conda:package:`perl-math-cdf`  :conda:package:`perl-parallel-forkmanager`  :conda:package:`perl-statistics-r`  :conda:package:`perl-string-random`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-plotrix`  :conda:package:`r-rcolorbrewer`  :conda:package:`samtools` >=1.5 
-
-   :required~by: |required_by_srnapipe|
+   :versions: 1.1-0
+   
+   :depends bedtools: >=2.24.0
+   
+   :depends bioconductor-sushi: 
+   
+   :depends bwa: >=0.7.12
+   
+   :depends perl: >=5.22.0.1,<5.22.1.0a0
+   
+   :depends perl-file-copy-recursive: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-math-cdf: 
+   
+   :depends perl-parallel-forkmanager: 
+   
+   :depends perl-statistics-r: 
+   
+   :depends perl-string-random: 
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-plotrix: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends samtools: >=1.5
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +68,16 @@ srnapipe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/srnapipe
+      docker pull quay.io/repository/biocontainers/srnapipe:<tag>
+
+   (see `srnapipe/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_srnapipe| conda:required_by:: srnapipe
 .. |downloads_srnapipe| image:: https://img.shields.io/conda/dn/bioconda/srnapipe.svg?style=flat
    :alt:   (downloads)
 .. |docker_srnapipe| image:: https://quay.io/repository/biocontainers/srnapipe/status
    :target: https://quay.io/repository/biocontainers/srnapipe
+.. _`srnapipe/tags`: https://quay.io/repository/biocontainers/srnapipe?tab=tags
 
 
 
@@ -63,4 +94,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/srnapipe/README.html
-

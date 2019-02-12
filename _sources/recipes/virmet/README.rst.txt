@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'virmet'
 .. highlight: bash
-
 
 virmet
 ======
@@ -22,11 +23,31 @@ virmet
 
    |downloads_virmet| |docker_virmet|
 
-   :versions: v1.1.1, v1.1, v1.0
-
-   :depends: :conda:package:`biopython`  :conda:package:`blast` >=2.3 :conda:package:`bwa`  :conda:package:`entrez-direct`  :conda:package:`htslib`  :conda:package:`pandas`  :conda:package:`prinseq`  :conda:package:`python` 3.5* :conda:package:`r-ggplot2`  :conda:package:`samtools` >=1.3 :conda:package:`seqtk`  
-
-   :required~by: |required_by_virmet|
+   :versions: v1.1.1-3, v1.1.1-2, v1.1.1-1, v1.1.1-0, v1.1-2, v1.1-1, v1.1-0, v1.0-0
+   
+   :depends biopython: 
+   
+   :depends blast: >=2.3
+   
+   :depends bwa: 
+   
+   :depends entrez-direct: 
+   
+   :depends htslib: 
+   
+   :depends pandas: 
+   
+   :depends prinseq: 
+   
+   :depends python: >=3
+   
+   :depends r-ggplot2: 
+   
+   :depends samtools: >=1.3
+   
+   :depends seqtk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +61,16 @@ virmet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/virmet
+      docker pull quay.io/repository/biocontainers/virmet:<tag>
+
+   (see `virmet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_virmet| conda:required_by:: virmet
 .. |downloads_virmet| image:: https://img.shields.io/conda/dn/bioconda/virmet.svg?style=flat
    :alt:   (downloads)
 .. |docker_virmet| image:: https://quay.io/repository/biocontainers/virmet/status
    :target: https://quay.io/repository/biocontainers/virmet
+.. _`virmet/tags`: https://quay.io/repository/biocontainers/virmet?tab=tags
 
 
 
@@ -64,4 +87,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/virmet/README.html
-

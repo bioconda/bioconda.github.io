@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-hierinf'
 .. highlight: bash
-
 
 bioconductor-hierinf
 ====================
@@ -21,11 +22,15 @@ bioconductor-hierinf
 
    |downloads_bioconductor-hierinf| |docker_bioconductor-hierinf|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fmsb`  :conda:package:`r-glmnet`  
-
-   :required~by: |required_by_bioconductor-hierinf|
+   :versions: 1.0.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-fmsb: 
+   
+   :depends r-glmnet: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-hierinf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hierinf
+      docker pull quay.io/repository/biocontainers/bioconductor-hierinf:<tag>
+
+   (see `bioconductor-hierinf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-hierinf| conda:required_by:: bioconductor-hierinf
 .. |downloads_bioconductor-hierinf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hierinf.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-hierinf| image:: https://quay.io/repository/biocontainers/bioconductor-hierinf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hierinf
+.. _`bioconductor-hierinf/tags`: https://quay.io/repository/biocontainers/bioconductor-hierinf?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-hierinf/README.html
-

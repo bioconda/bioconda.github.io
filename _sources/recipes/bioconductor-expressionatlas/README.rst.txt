@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-expressionatlas'
 .. highlight: bash
-
 
 bioconductor-expressionatlas
 ============================
@@ -21,11 +22,25 @@ bioconductor-expressionatlas
 
    |downloads_bioconductor-expressionatlas| |docker_bioconductor-expressionatlas|
 
-   :versions: 1.10.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-httr`  :conda:package:`r-xml`  :conda:package:`r-xml2`  
-
-   :required~by: |required_by_bioconductor-expressionatlas|
+   :versions: 1.10.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-httr: 
+   
+   :depends r-xml: 
+   
+   :depends r-xml2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bioconductor-expressionatlas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-expressionatlas
+      docker pull quay.io/repository/biocontainers/bioconductor-expressionatlas:<tag>
+
+   (see `bioconductor-expressionatlas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-expressionatlas| conda:required_by:: bioconductor-expressionatlas
 .. |downloads_bioconductor-expressionatlas| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-expressionatlas.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-expressionatlas| image:: https://quay.io/repository/biocontainers/bioconductor-expressionatlas/status
    :target: https://quay.io/repository/biocontainers/bioconductor-expressionatlas
+.. _`bioconductor-expressionatlas/tags`: https://quay.io/repository/biocontainers/bioconductor-expressionatlas?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-expressionatlas/README.html
-

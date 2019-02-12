@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'clinvar-tsv'
 .. highlight: bash
-
 
 clinvar-tsv
 ===========
@@ -21,11 +22,15 @@ clinvar-tsv
 
    |downloads_clinvar-tsv| |docker_clinvar-tsv|
 
-   :versions: 0.1.0
-
-   :depends: :conda:package:`pysam` >=0.15.1 :conda:package:`python` >=3.5 :conda:package:`snakemake-minimal` >=5.3.0 
-
-   :required~by: |required_by_clinvar-tsv|
+   :versions: 0.1.0-0
+   
+   :depends pysam: >=0.15.1
+   
+   :depends python: >=3.5
+   
+   :depends snakemake-minimal: >=5.3.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ clinvar-tsv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clinvar-tsv
+      docker pull quay.io/repository/biocontainers/clinvar-tsv:<tag>
+
+   (see `clinvar-tsv/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_clinvar-tsv| conda:required_by:: clinvar-tsv
 .. |downloads_clinvar-tsv| image:: https://img.shields.io/conda/dn/bioconda/clinvar-tsv.svg?style=flat
    :alt:   (downloads)
 .. |docker_clinvar-tsv| image:: https://quay.io/repository/biocontainers/clinvar-tsv/status
    :target: https://quay.io/repository/biocontainers/clinvar-tsv
+.. _`clinvar-tsv/tags`: https://quay.io/repository/biocontainers/clinvar-tsv?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/clinvar-tsv/README.html
-

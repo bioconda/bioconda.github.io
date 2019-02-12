@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'menetools'
 .. highlight: bash
-
 
 menetools
 =========
@@ -21,11 +22,13 @@ menetools
 
    |downloads_menetools| |docker_menetools|
 
-   :versions: 1.0.4_1
-
-   :depends: :conda:package:`pyasp` >=1.4.3 :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_menetools|
+   :versions: 1.0.4_1-1, 1.0.4_1-0
+   
+   :depends pyasp: >=1.4.3
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ menetools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/menetools
+      docker pull quay.io/repository/biocontainers/menetools:<tag>
+
+   (see `menetools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_menetools| conda:required_by:: menetools
 .. |downloads_menetools| image:: https://img.shields.io/conda/dn/bioconda/menetools.svg?style=flat
    :alt:   (downloads)
 .. |docker_menetools| image:: https://quay.io/repository/biocontainers/menetools/status
    :target: https://quay.io/repository/biocontainers/menetools
+.. _`menetools/tags`: https://quay.io/repository/biocontainers/menetools?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/menetools/README.html
-

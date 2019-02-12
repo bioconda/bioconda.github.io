@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pcxn'
 .. highlight: bash
-
 
 bioconductor-pcxn
 =================
@@ -21,11 +22,15 @@ bioconductor-pcxn
 
    |downloads_bioconductor-pcxn| |docker_bioconductor-pcxn|
 
-   :versions: 2.4.0
-
-   :depends: :conda:package:`bioconductor-pcxndata` >=2.4.0,<2.5.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-pheatmap`  
-
-   :required~by: |required_by_bioconductor-pcxn|
+   :versions: 2.4.0-0
+   
+   :depends bioconductor-pcxndata: >=2.4.0,<2.5.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-pheatmap: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-pcxn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pcxn
+      docker pull quay.io/repository/biocontainers/bioconductor-pcxn:<tag>
+
+   (see `bioconductor-pcxn/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pcxn| conda:required_by:: bioconductor-pcxn
 .. |downloads_bioconductor-pcxn| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pcxn.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pcxn| image:: https://quay.io/repository/biocontainers/bioconductor-pcxn/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pcxn
+.. _`bioconductor-pcxn/tags`: https://quay.io/repository/biocontainers/bioconductor-pcxn?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pcxn/README.html
-

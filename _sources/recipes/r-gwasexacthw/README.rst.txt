@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-gwasexacthw'
 .. highlight: bash
-
 
 r-gwasexacthw
 =============
@@ -21,11 +22,13 @@ r-gwasexacthw
 
    |downloads_r-gwasexacthw| |docker_r-gwasexacthw|
 
-   :versions: 1.01
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-gwasexacthw|
+   :versions: 1.01-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ r-gwasexacthw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gwasexacthw
+      docker pull quay.io/repository/biocontainers/r-gwasexacthw:<tag>
+
+   (see `r-gwasexacthw/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-gwasexacthw| conda:required_by:: r-gwasexacthw
 .. |downloads_r-gwasexacthw| image:: https://img.shields.io/conda/dn/bioconda/r-gwasexacthw.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-gwasexacthw| image:: https://quay.io/repository/biocontainers/r-gwasexacthw/status
    :target: https://quay.io/repository/biocontainers/r-gwasexacthw
+.. _`r-gwasexacthw/tags`: https://quay.io/repository/biocontainers/r-gwasexacthw?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-gwasexacthw/README.html
-

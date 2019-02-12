@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-yaml-tiny'
 .. highlight: bash
-
 
 perl-yaml-tiny
 ==============
@@ -21,11 +22,11 @@ perl-yaml-tiny
 
    |downloads_perl-yaml-tiny| |docker_perl-yaml-tiny|
 
-   :versions: 1.73, 1.70
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-yaml-tiny|
+   :versions: 1.73-0, 1.70-1, 1.70-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-yaml-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-yaml-tiny
+      docker pull quay.io/repository/biocontainers/perl-yaml-tiny:<tag>
+
+   (see `perl-yaml-tiny/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-yaml-tiny| conda:required_by:: perl-yaml-tiny
 .. |downloads_perl-yaml-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-yaml-tiny.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-yaml-tiny| image:: https://quay.io/repository/biocontainers/perl-yaml-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-yaml-tiny
+.. _`perl-yaml-tiny/tags`: https://quay.io/repository/biocontainers/perl-yaml-tiny?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-yaml-tiny/README.html
-

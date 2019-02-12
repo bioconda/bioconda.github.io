@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-clusterstab'
 .. highlight: bash
-
 
 bioconductor-clusterstab
 ========================
@@ -22,11 +23,13 @@ bioconductor-clusterstab
 
    |downloads_bioconductor-clusterstab| |docker_bioconductor-clusterstab|
 
-   :versions: 1.54.0, 1.52.0, 1.50.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-clusterstab|
+   :versions: 1.54.0-0, 1.52.0-0, 1.50.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-clusterstab
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clusterstab
+      docker pull quay.io/repository/biocontainers/bioconductor-clusterstab:<tag>
+
+   (see `bioconductor-clusterstab/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-clusterstab| conda:required_by:: bioconductor-clusterstab
 .. |downloads_bioconductor-clusterstab| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clusterstab.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-clusterstab| image:: https://quay.io/repository/biocontainers/bioconductor-clusterstab/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clusterstab
+.. _`bioconductor-clusterstab/tags`: https://quay.io/repository/biocontainers/bioconductor-clusterstab?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-clusterstab/README.html
-

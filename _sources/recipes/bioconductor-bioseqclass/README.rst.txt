@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bioseqclass'
 .. highlight: bash
-
 
 bioconductor-bioseqclass
 ========================
@@ -21,11 +22,37 @@ bioconductor-bioseqclass
 
    |downloads_bioconductor-bioseqclass| |docker_bioconductor-bioseqclass|
 
-   :versions: 1.40.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-class`  :conda:package:`r-e1071`  :conda:package:`r-foreign`  :conda:package:`r-ipred`  :conda:package:`r-klar`  :conda:package:`r-nnet`  :conda:package:`r-party`  :conda:package:`r-randomforest`  :conda:package:`r-rpart`  :conda:package:`r-scatterplot3d`  :conda:package:`r-tree`  
-
-   :required~by: |required_by_bioconductor-bioseqclass|
+   :versions: 1.40.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-class: 
+   
+   :depends r-e1071: 
+   
+   :depends r-foreign: 
+   
+   :depends r-ipred: 
+   
+   :depends r-klar: 
+   
+   :depends r-nnet: 
+   
+   :depends r-party: 
+   
+   :depends r-randomforest: 
+   
+   :depends r-rpart: 
+   
+   :depends r-scatterplot3d: 
+   
+   :depends r-tree: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ bioconductor-bioseqclass
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bioseqclass
+      docker pull quay.io/repository/biocontainers/bioconductor-bioseqclass:<tag>
+
+   (see `bioconductor-bioseqclass/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bioseqclass| conda:required_by:: bioconductor-bioseqclass
 .. |downloads_bioconductor-bioseqclass| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bioseqclass.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bioseqclass| image:: https://quay.io/repository/biocontainers/bioconductor-bioseqclass/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bioseqclass
+.. _`bioconductor-bioseqclass/tags`: https://quay.io/repository/biocontainers/bioconductor-bioseqclass?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bioseqclass/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'xmltramp2'
 .. highlight: bash
-
 
 xmltramp2
 =========
@@ -21,11 +22,13 @@ xmltramp2
 
    |downloads_xmltramp2| |docker_xmltramp2|
 
-   :versions: 3.1.1
-
-   :depends: :conda:package:`python` 2.7* :conda:package:`six`  
-
-   :required~by: |required_by_xmltramp2|
+   :versions: 3.1.1-1, 3.1.1-0
+   
+   :depends python: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ xmltramp2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xmltramp2
+      docker pull quay.io/repository/biocontainers/xmltramp2:<tag>
+
+   (see `xmltramp2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_xmltramp2| conda:required_by:: xmltramp2
 .. |downloads_xmltramp2| image:: https://img.shields.io/conda/dn/bioconda/xmltramp2.svg?style=flat
    :alt:   (downloads)
 .. |docker_xmltramp2| image:: https://quay.io/repository/biocontainers/xmltramp2/status
    :target: https://quay.io/repository/biocontainers/xmltramp2
+.. _`xmltramp2/tags`: https://quay.io/repository/biocontainers/xmltramp2?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/xmltramp2/README.html
-

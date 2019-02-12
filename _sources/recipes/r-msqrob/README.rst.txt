@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-msqrob'
 .. highlight: bash
-
 
 r-msqrob
 ========
@@ -21,11 +22,103 @@ r-msqrob
 
    |downloads_r-msqrob| |docker_r-msqrob|
 
-   :versions: 0.7.5
-
-   :depends: :conda:package:`bioconductor-affyio`  :conda:package:`bioconductor-biobase`  :conda:package:`bioconductor-biocgenerics`  :conda:package:`bioconductor-biocinstaller`  :conda:package:`bioconductor-biocparallel`  :conda:package:`bioconductor-limma`  :conda:package:`bioconductor-msnbase`  :conda:package:`bioconductor-mzid`  :conda:package:`bioconductor-mzr`  :conda:package:`bioconductor-protgenerics`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-colorspace`  :conda:package:`r-dichromat`  :conda:package:`r-dt`  :conda:package:`r-fdrtool`  :conda:package:`r-ggplot2`  :conda:package:`r-gtable`  :conda:package:`r-htmlwidgets`  :conda:package:`r-httpuv`  :conda:package:`r-labeling`  :conda:package:`r-lazyeval`  :conda:package:`r-lme4`  :conda:package:`r-magrittr`  :conda:package:`r-maldiquant`  :conda:package:`r-miniui`  :conda:package:`r-minqa`  :conda:package:`r-munsell`  :conda:package:`r-nloptr`  :conda:package:`r-numderiv`  :conda:package:`r-openxlsx`  :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp`  :conda:package:`r-reshape2`  :conda:package:`r-scales`  :conda:package:`r-shiny`  :conda:package:`r-shinyjs`  :conda:package:`r-shinythemes`  :conda:package:`r-snow`  :conda:package:`r-statmod`  :conda:package:`r-stringi`  :conda:package:`r-stringr`  :conda:package:`r-svdialogs`  :conda:package:`r-tibble`  :conda:package:`r-xml`  :conda:package:`r-xtable`  :conda:package:`r-yaml`  
-
-   :required~by: |required_by_r-msqrob|
+   :versions: 0.7.5-0
+   
+   :depends bioconductor-affyio: 
+   
+   :depends bioconductor-biobase: 
+   
+   :depends bioconductor-biocgenerics: 
+   
+   :depends bioconductor-biocinstaller: 
+   
+   :depends bioconductor-biocparallel: 
+   
+   :depends bioconductor-limma: 
+   
+   :depends bioconductor-msnbase: 
+   
+   :depends bioconductor-mzid: 
+   
+   :depends bioconductor-mzr: 
+   
+   :depends bioconductor-protgenerics: 
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-colorspace: 
+   
+   :depends r-dichromat: 
+   
+   :depends r-dt: 
+   
+   :depends r-fdrtool: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gtable: 
+   
+   :depends r-htmlwidgets: 
+   
+   :depends r-httpuv: 
+   
+   :depends r-labeling: 
+   
+   :depends r-lazyeval: 
+   
+   :depends r-lme4: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-maldiquant: 
+   
+   :depends r-miniui: 
+   
+   :depends r-minqa: 
+   
+   :depends r-munsell: 
+   
+   :depends r-nloptr: 
+   
+   :depends r-numderiv: 
+   
+   :depends r-openxlsx: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-scales: 
+   
+   :depends r-shiny: 
+   
+   :depends r-shinyjs: 
+   
+   :depends r-shinythemes: 
+   
+   :depends r-snow: 
+   
+   :depends r-statmod: 
+   
+   :depends r-stringi: 
+   
+   :depends r-stringr: 
+   
+   :depends r-svdialogs: 
+   
+   :depends r-tibble: 
+   
+   :depends r-xml: 
+   
+   :depends r-xtable: 
+   
+   :depends r-yaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +132,16 @@ r-msqrob
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-msqrob
+      docker pull quay.io/repository/biocontainers/r-msqrob:<tag>
+
+   (see `r-msqrob/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-msqrob| conda:required_by:: r-msqrob
 .. |downloads_r-msqrob| image:: https://img.shields.io/conda/dn/bioconda/r-msqrob.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-msqrob| image:: https://quay.io/repository/biocontainers/r-msqrob/status
    :target: https://quay.io/repository/biocontainers/r-msqrob
+.. _`r-msqrob/tags`: https://quay.io/repository/biocontainers/r-msqrob?tab=tags
 
 
 
@@ -63,4 +158,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-msqrob/README.html
-

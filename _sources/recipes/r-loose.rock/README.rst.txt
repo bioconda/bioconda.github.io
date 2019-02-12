@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-loose.rock'
 .. highlight: bash
-
 
 r-loose.rock
 ============
@@ -21,11 +22,29 @@ r-loose.rock
 
    |downloads_r-loose.rock| |docker_r-loose.rock|
 
-   :versions: 1.0.9
-
-   :depends: :conda:package:`bioconductor-biomart`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-digest`  :conda:package:`r-dplyr`  :conda:package:`r-futile.options`  :conda:package:`r-ggfortify`  :conda:package:`r-ggplot2`  :conda:package:`r-mass`  :conda:package:`r-reshape2`  :conda:package:`r-rlang`  
-
-   :required~by: |required_by_r-loose.rock|
+   :versions: 1.0.9-0
+   
+   :depends bioconductor-biomart: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-digest: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-futile.options: 
+   
+   :depends r-ggfortify: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-mass: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-rlang: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ r-loose.rock
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-loose.rock
+      docker pull quay.io/repository/biocontainers/r-loose.rock:<tag>
+
+   (see `r-loose.rock/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-loose.rock| conda:required_by:: r-loose.rock
 .. |downloads_r-loose.rock| image:: https://img.shields.io/conda/dn/bioconda/r-loose.rock.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-loose.rock| image:: https://quay.io/repository/biocontainers/r-loose.rock/status
    :target: https://quay.io/repository/biocontainers/r-loose.rock
+.. _`r-loose.rock/tags`: https://quay.io/repository/biocontainers/r-loose.rock?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-loose.rock/README.html
-

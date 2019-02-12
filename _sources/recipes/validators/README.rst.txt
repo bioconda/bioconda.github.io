@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'validators'
 .. highlight: bash
-
 
 validators
 ==========
@@ -21,11 +22,15 @@ validators
 
    |downloads_validators| |docker_validators|
 
-   :versions: 0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.10
-
-   :depends: :conda:package:`decorator` >=3.4.0 :conda:package:`python`  :conda:package:`six` >=1.4.0 
-
-   :required~by: |required_by_validators|
+   :versions: 0.12.4-0, 0.12.3-0, 0.12.2-0, 0.12.1-2, 0.12.1-0, 0.10-0
+   
+   :depends decorator: >=3.4.0
+   
+   :depends python: 
+   
+   :depends six: >=1.4.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ validators
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/validators
+      docker pull quay.io/repository/biocontainers/validators:<tag>
+
+   (see `validators/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_validators| conda:required_by:: validators
 .. |downloads_validators| image:: https://img.shields.io/conda/dn/bioconda/validators.svg?style=flat
    :alt:   (downloads)
 .. |docker_validators| image:: https://quay.io/repository/biocontainers/validators/status
    :target: https://quay.io/repository/biocontainers/validators
+.. _`validators/tags`: https://quay.io/repository/biocontainers/validators?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/validators/README.html
-

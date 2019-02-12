@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'collectl'
 .. highlight: bash
-
 
 collectl
 ========
@@ -21,11 +22,13 @@ collectl
 
    |downloads_collectl| |docker_collectl|
 
-   :versions: 4.0.4
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_collectl|
+   :versions: 4.0.4-3, 4.0.4-2, 4.0.4-1, 4.0.4-0
+   
+   :depends perl: 5.22.0*
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ collectl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/collectl
+      docker pull quay.io/repository/biocontainers/collectl:<tag>
+
+   (see `collectl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_collectl| conda:required_by:: collectl
 .. |downloads_collectl| image:: https://img.shields.io/conda/dn/bioconda/collectl.svg?style=flat
    :alt:   (downloads)
 .. |docker_collectl| image:: https://quay.io/repository/biocontainers/collectl/status
    :target: https://quay.io/repository/biocontainers/collectl
+.. _`collectl/tags`: https://quay.io/repository/biocontainers/collectl?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/collectl/README.html
-

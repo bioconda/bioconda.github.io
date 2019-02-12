@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-skewr'
 .. highlight: bash
-
 
 bioconductor-skewr
 ==================
@@ -21,11 +22,25 @@ bioconductor-skewr
 
    |downloads_bioconductor-skewr| |docker_bioconductor-skewr|
 
-   :versions: 1.14.0
-
-   :depends: :conda:package:`bioconductor-illuminahumanmethylation450kmanifest` >=0.4.0,<0.5.0 :conda:package:`bioconductor-methylumi` >=2.28.0,<2.29.0 :conda:package:`bioconductor-minfi` >=1.28.0,<1.29.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-watermelon` >=1.26.0,<1.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mixsmsn`  :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_bioconductor-skewr|
+   :versions: 1.14.0-0
+   
+   :depends bioconductor-illuminahumanmethylation450kmanifest: >=0.4.0,<0.5.0
+   
+   :depends bioconductor-methylumi: >=2.28.0,<2.29.0
+   
+   :depends bioconductor-minfi: >=1.28.0,<1.29.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-watermelon: >=1.26.0,<1.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mixsmsn: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bioconductor-skewr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-skewr
+      docker pull quay.io/repository/biocontainers/bioconductor-skewr:<tag>
+
+   (see `bioconductor-skewr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-skewr| conda:required_by:: bioconductor-skewr
 .. |downloads_bioconductor-skewr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-skewr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-skewr| image:: https://quay.io/repository/biocontainers/bioconductor-skewr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-skewr
+.. _`bioconductor-skewr/tags`: https://quay.io/repository/biocontainers/bioconductor-skewr?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-skewr/README.html
-

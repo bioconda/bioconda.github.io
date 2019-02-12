@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nvc'
 .. highlight: bash
-
 
 nvc
 ===
@@ -21,11 +22,17 @@ nvc
 
    |downloads_nvc| |docker_nvc|
 
-   :versions: 0.0.4, 0.0.3
-
-   :depends: :conda:package:`numpy`  :conda:package:`pybamparser` ==0.0.3 :conda:package:`pybamtools` ==0.0.4 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_nvc|
+   :versions: 0.0.4-1, 0.0.4-0, 0.0.3-1, 0.0.3-0
+   
+   :depends numpy: 
+   
+   :depends pybamparser: 0.0.3
+   
+   :depends pybamtools: 0.0.4
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ nvc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nvc
+      docker pull quay.io/repository/biocontainers/nvc:<tag>
+
+   (see `nvc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nvc| conda:required_by:: nvc
 .. |downloads_nvc| image:: https://img.shields.io/conda/dn/bioconda/nvc.svg?style=flat
    :alt:   (downloads)
 .. |docker_nvc| image:: https://quay.io/repository/biocontainers/nvc/status
    :target: https://quay.io/repository/biocontainers/nvc
+.. _`nvc/tags`: https://quay.io/repository/biocontainers/nvc?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nvc/README.html
-

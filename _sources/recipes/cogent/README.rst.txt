@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cogent'
 .. highlight: bash
-
 
 cogent
 ======
@@ -21,11 +22,23 @@ cogent
 
    |downloads_cogent| |docker_cogent|
 
-   :versions: 1.9, 1.5.3
-
-   :depends: :conda:package:`matplotlib` >=1.1.0 :conda:package:`mpi4py` >=1.0 :conda:package:`mysql-python` >=1.2.2 :conda:package:`numpy` >=1.3 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`sqlalchemy` >=0.5 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_cogent|
+   :versions: 1.9-0, 1.5.3-2, 1.5.3-1, 1.5.3-0
+   
+   :depends matplotlib: >=1.1.0
+   
+   :depends mpi4py: >=1.0
+   
+   :depends mysql-python: >=1.2.2
+   
+   :depends numpy: >=1.3
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends sqlalchemy: >=0.5
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ cogent
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cogent
+      docker pull quay.io/repository/biocontainers/cogent:<tag>
+
+   (see `cogent/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cogent| conda:required_by:: cogent
 .. |downloads_cogent| image:: https://img.shields.io/conda/dn/bioconda/cogent.svg?style=flat
    :alt:   (downloads)
 .. |docker_cogent| image:: https://quay.io/repository/biocontainers/cogent/status
    :target: https://quay.io/repository/biocontainers/cogent
+.. _`cogent/tags`: https://quay.io/repository/biocontainers/cogent?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cogent/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'xcftools'
 .. highlight: bash
-
 
 xcftools
 ========
@@ -21,11 +22,15 @@ xcftools
 
    |downloads_xcftools| |docker_xcftools|
 
-   :versions: 1.0.7
-
-   :depends: :conda:package:`gettext`  :conda:package:`libgcc`  :conda:package:`libpng` >=1.6.28,<1.7 
-
-   :required~by: |required_by_xcftools|
+   :versions: 1.0.7-1, 1.0.7-0
+   
+   :depends gettext: 
+   
+   :depends libgcc: 
+   
+   :depends libpng: >=1.2.13,<1.7
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ xcftools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xcftools
+      docker pull quay.io/repository/biocontainers/xcftools:<tag>
+
+   (see `xcftools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_xcftools| conda:required_by:: xcftools
 .. |downloads_xcftools| image:: https://img.shields.io/conda/dn/bioconda/xcftools.svg?style=flat
    :alt:   (downloads)
 .. |docker_xcftools| image:: https://quay.io/repository/biocontainers/xcftools/status
    :target: https://quay.io/repository/biocontainers/xcftools
+.. _`xcftools/tags`: https://quay.io/repository/biocontainers/xcftools?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/xcftools/README.html
-

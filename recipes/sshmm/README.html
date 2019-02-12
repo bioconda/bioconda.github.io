@@ -131,11 +131,28 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">1.0.7</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">1.0.7-2, 1.0.7-1, 1.0.7-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference internal" href="../forgi/README.html#package-forgi" title="forgi package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">forgi</span></code></a>  <a class="reference internal" href="../ghmm/README.html#package-ghmm" title="ghmm package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">ghmm</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/graphviz-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">graphviz</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/libxml2-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">libxml2</span></code></a> 2.9.4.* <a class="reference external" href="https://github.com/conda-forge/numpy-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">numpy</span></code></a> 1.11.* <a class="reference external" href="https://github.com/conda-forge/pip-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">pip</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/pygraphviz-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">pygraphviz</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/python-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">python</span></code></a> &gt;=2.7,&lt;2.8.0a0 <a class="reference internal" href="../rnashapes/README.html#package-rnashapes" title="rnashapes package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">rnashapes</span></code></a> 2.1.6.* <a class="reference internal" href="../rnastructure/README.html#package-rnastructure" title="rnastructure package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">rnastructure</span></code></a>  <a class="reference internal" href="../weblogo/README.html#package-weblogo" title="weblogo package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">weblogo</span></code></a></td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-package reference internal" href="../bedtools/README.html#package-bedtools" title="bedtools package"><strong>bedtools</strong></a></li>
+<li><a class="conda-package reference internal" href="../forgi/README.html#package-forgi" title="forgi package"><strong>forgi</strong></a></li>
+<li><a class="conda-package reference internal" href="../ghmm/README.html#package-ghmm" title="ghmm package"><strong>ghmm</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/graphviz-feedstock"><strong>graphviz</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> &gt;=4.9</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/libxml2-feedstock"><strong>libxml2</strong></a> &gt;=2.9.8,&lt;2.10.0a0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> 1.11.*</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/pygraphviz-feedstock"><strong>pygraphviz</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</li>
+<li><a class="conda-package reference internal" href="../rnashapes/README.html#package-rnashapes" title="rnashapes package"><strong>rnashapes</strong></a> 2.1.6.*</li>
+<li><a class="conda-package reference internal" href="../rnastructure/README.html#package-rnastructure" title="rnastructure package"><strong>rnastructure</strong></a></li>
+<li><a class="conda-package reference internal" href="../weblogo/README.html#package-weblogo" title="weblogo package"><strong>weblogo</strong></a></li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -149,9 +166,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">sshmm</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">sshmm</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/sshmm?tab=tags">sshmm/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

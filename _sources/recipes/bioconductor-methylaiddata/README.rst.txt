@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-methylaiddata'
 .. highlight: bash
-
 
 bioconductor-methylaiddata
 ==========================
@@ -21,11 +22,15 @@ bioconductor-methylaiddata
 
    |downloads_bioconductor-methylaiddata| |docker_bioconductor-methylaiddata|
 
-   :versions: 1.14.0
-
-   :depends: :conda:package:`bioconductor-methylaid` >=1.16.0,<1.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-methylaiddata|
+   :versions: 1.14.0-0
+   
+   :depends bioconductor-methylaid: >=1.16.0,<1.17.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-methylaiddata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methylaiddata
+      docker pull quay.io/repository/biocontainers/bioconductor-methylaiddata:<tag>
+
+   (see `bioconductor-methylaiddata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-methylaiddata| conda:required_by:: bioconductor-methylaiddata
 .. |downloads_bioconductor-methylaiddata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methylaiddata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-methylaiddata| image:: https://quay.io/repository/biocontainers/bioconductor-methylaiddata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methylaiddata
+.. _`bioconductor-methylaiddata/tags`: https://quay.io/repository/biocontainers/bioconductor-methylaiddata?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-methylaiddata/README.html
-

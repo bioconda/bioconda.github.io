@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'imfusion'
 .. highlight: bash
-
 
 imfusion
 ========
@@ -21,11 +22,53 @@ imfusion
 
    |downloads_imfusion| |docker_imfusion|
 
-   :versions: 0.3.2, 0.3.0
-
-   :depends: :conda:package:`bowtie`  :conda:package:`future`  :conda:package:`htseq` >=0.7.2 :conda:package:`htslib` <1.4 :conda:package:`intervaltree`  :conda:package:`intervaltree`  :conda:package:`matplotlib`  :conda:package:`numexpr`  :conda:package:`pandas`  :conda:package:`pathlib2`  :conda:package:`pyfaidx` >=0.4.8.1 :conda:package:`pysam` >=0.9.1 :conda:package:`python` 2.7* :conda:package:`scipy`  :conda:package:`seaborn`  :conda:package:`seaborn`  :conda:package:`star`  :conda:package:`stringtie`  :conda:package:`subread`  :conda:package:`toolz`  :conda:package:`tophat` >=2.1.0 :conda:package:`typing`  
-
-   :required~by: |required_by_imfusion|
+   :versions: 0.3.2-0, 0.3.0-0
+   
+   :depends bowtie: 
+   
+   :depends future: 
+   
+   :depends htseq: >=0.7.2
+   
+   :depends htslib: <1.4
+   
+   :depends intervaltree: 
+   
+   :depends intervaltree: 
+   
+   :depends matplotlib: 
+   
+   :depends numexpr: 
+   
+   :depends pandas: 
+   
+   :depends pathlib2: 
+   
+   :depends pyfaidx: >=0.4.8.1
+   
+   :depends pysam: >=0.9.1
+   
+   :depends python: 2.7*
+   
+   :depends scipy: 
+   
+   :depends seaborn: 
+   
+   :depends seaborn: 
+   
+   :depends star: 
+   
+   :depends stringtie: 
+   
+   :depends subread: 
+   
+   :depends toolz: 
+   
+   :depends tophat: >=2.1.0
+   
+   :depends typing: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +82,16 @@ imfusion
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/imfusion
+      docker pull quay.io/repository/biocontainers/imfusion:<tag>
+
+   (see `imfusion/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_imfusion| conda:required_by:: imfusion
 .. |downloads_imfusion| image:: https://img.shields.io/conda/dn/bioconda/imfusion.svg?style=flat
    :alt:   (downloads)
 .. |docker_imfusion| image:: https://quay.io/repository/biocontainers/imfusion/status
    :target: https://quay.io/repository/biocontainers/imfusion
+.. _`imfusion/tags`: https://quay.io/repository/biocontainers/imfusion?tab=tags
 
 
 
@@ -63,4 +108,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/imfusion/README.html
-

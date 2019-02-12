@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ig-checkflowtypes'
 .. highlight: bash
-
 
 ig-checkflowtypes
 =================
@@ -21,11 +22,17 @@ ig-checkflowtypes
 
    |downloads_ig-checkflowtypes| |docker_ig-checkflowtypes|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-flowcore`  :conda:package:`r` >=2.10.0 
-
-   :required~by: |required_by_ig-checkflowtypes|
+   :versions: 1.0.0-1, 1.0.0-0
+   
+   :depends bioconductor-flowcore: 
+   
+   :depends libgfortran: >=3.0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ ig-checkflowtypes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ig-checkflowtypes
+      docker pull quay.io/repository/biocontainers/ig-checkflowtypes:<tag>
+
+   (see `ig-checkflowtypes/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ig-checkflowtypes| conda:required_by:: ig-checkflowtypes
 .. |downloads_ig-checkflowtypes| image:: https://img.shields.io/conda/dn/bioconda/ig-checkflowtypes.svg?style=flat
    :alt:   (downloads)
 .. |docker_ig-checkflowtypes| image:: https://quay.io/repository/biocontainers/ig-checkflowtypes/status
    :target: https://quay.io/repository/biocontainers/ig-checkflowtypes
+.. _`ig-checkflowtypes/tags`: https://quay.io/repository/biocontainers/ig-checkflowtypes?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ig-checkflowtypes/README.html
-

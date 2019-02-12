@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cleaver'
 .. highlight: bash
-
 
 bioconductor-cleaver
 ====================
@@ -22,11 +23,17 @@ bioconductor-cleaver
 
    |downloads_bioconductor-cleaver| |docker_bioconductor-cleaver|
 
-   :versions: 1.20.0, 1.18.0, 1.16.0, 1.14.0
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-cleaver|
+   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-cleaver
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cleaver
+      docker pull quay.io/repository/biocontainers/bioconductor-cleaver:<tag>
+
+   (see `bioconductor-cleaver/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cleaver| conda:required_by:: bioconductor-cleaver
 .. |downloads_bioconductor-cleaver| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cleaver.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cleaver| image:: https://quay.io/repository/biocontainers/bioconductor-cleaver/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cleaver
+.. _`bioconductor-cleaver/tags`: https://quay.io/repository/biocontainers/bioconductor-cleaver?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cleaver/README.html
-

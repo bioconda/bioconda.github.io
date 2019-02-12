@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-clustersignificance'
 .. highlight: bash
-
 
 bioconductor-clustersignificance
 ================================
@@ -22,11 +23,19 @@ bioconductor-clustersignificance
 
    |downloads_bioconductor-clustersignificance| |docker_bioconductor-clustersignificance|
 
-   :versions: 1.10.0, 1.8.2, 1.6.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-pracma`  :conda:package:`r-princurve` >=2.0.5 :conda:package:`r-rcolorbrewer`  :conda:package:`r-scatterplot3d`  
-
-   :required~by: |required_by_bioconductor-clustersignificance|
+   :versions: 1.10.0-0, 1.8.2-0, 1.6.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-pracma: 
+   
+   :depends r-princurve: >=2.0.5
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-scatterplot3d: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-clustersignificance
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clustersignificance
+      docker pull quay.io/repository/biocontainers/bioconductor-clustersignificance:<tag>
+
+   (see `bioconductor-clustersignificance/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-clustersignificance| conda:required_by:: bioconductor-clustersignificance
 .. |downloads_bioconductor-clustersignificance| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clustersignificance.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-clustersignificance| image:: https://quay.io/repository/biocontainers/bioconductor-clustersignificance/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clustersignificance
+.. _`bioconductor-clustersignificance/tags`: https://quay.io/repository/biocontainers/bioconductor-clustersignificance?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-clustersignificance/README.html
-

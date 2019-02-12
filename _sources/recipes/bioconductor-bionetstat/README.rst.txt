@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bionetstat'
 .. highlight: bash
-
 
 bioconductor-bionetstat
 =======================
@@ -21,11 +22,41 @@ bioconductor-bionetstat
 
    |downloads_bioconductor-bionetstat| |docker_bioconductor-bionetstat|
 
-   :versions: 1.2.2
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-pathview` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-hmisc`  :conda:package:`r-igraph`  :conda:package:`r-knitr`  :conda:package:`r-pheatmap`  :conda:package:`r-plyr`  :conda:package:`r-psych`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rjsonio`  :conda:package:`r-shiny`  :conda:package:`r-shinybs`  :conda:package:`r-whisker`  :conda:package:`r-yaml`  
-
-   :required~by: |required_by_bioconductor-bionetstat|
+   :versions: 1.2.2-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-pathview: >=1.22.0,<1.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-hmisc: 
+   
+   :depends r-igraph: 
+   
+   :depends r-knitr: 
+   
+   :depends r-pheatmap: 
+   
+   :depends r-plyr: 
+   
+   :depends r-psych: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rjsonio: 
+   
+   :depends r-shiny: 
+   
+   :depends r-shinybs: 
+   
+   :depends r-whisker: 
+   
+   :depends r-yaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ bioconductor-bionetstat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bionetstat
+      docker pull quay.io/repository/biocontainers/bioconductor-bionetstat:<tag>
+
+   (see `bioconductor-bionetstat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bionetstat| conda:required_by:: bioconductor-bionetstat
 .. |downloads_bioconductor-bionetstat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bionetstat.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bionetstat| image:: https://quay.io/repository/biocontainers/bioconductor-bionetstat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bionetstat
+.. _`bioconductor-bionetstat/tags`: https://quay.io/repository/biocontainers/bioconductor-bionetstat?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bionetstat/README.html
-

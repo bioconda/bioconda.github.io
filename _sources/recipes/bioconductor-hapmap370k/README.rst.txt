@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-hapmap370k'
 .. highlight: bash
-
 
 bioconductor-hapmap370k
 =======================
@@ -21,11 +22,13 @@ bioconductor-hapmap370k
 
    |downloads_bioconductor-hapmap370k| |docker_bioconductor-hapmap370k|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-hapmap370k|
+   :versions: 1.0.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-hapmap370k
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hapmap370k
+      docker pull quay.io/repository/biocontainers/bioconductor-hapmap370k:<tag>
+
+   (see `bioconductor-hapmap370k/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-hapmap370k| conda:required_by:: bioconductor-hapmap370k
 .. |downloads_bioconductor-hapmap370k| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hapmap370k.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-hapmap370k| image:: https://quay.io/repository/biocontainers/bioconductor-hapmap370k/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hapmap370k
+.. _`bioconductor-hapmap370k/tags`: https://quay.io/repository/biocontainers/bioconductor-hapmap370k?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-hapmap370k/README.html
-

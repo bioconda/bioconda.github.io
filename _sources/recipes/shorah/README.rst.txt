@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'shorah'
 .. highlight: bash
-
 
 shorah
 ======
@@ -22,11 +23,27 @@ shorah
 
    |downloads_shorah| |docker_shorah|
 
-   :versions: 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.0.0
-
-   :depends: :conda:package:`biopython`  :conda:package:`blas` 1.1 openblas :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`perl`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_shorah|
+   :versions: 1.1.3-2, 1.1.3-1, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-2, 1.1.0-1, 1.1.0-0, 1.0.0-2, 1.0.0-1, 1.0.0-0
+   
+   :depends biopython: 
+   
+   :depends blas: 1.1 openblas
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends numpy: 
+   
+   :depends perl: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ shorah
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shorah
+      docker pull quay.io/repository/biocontainers/shorah:<tag>
+
+   (see `shorah/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_shorah| conda:required_by:: shorah
 .. |downloads_shorah| image:: https://img.shields.io/conda/dn/bioconda/shorah.svg?style=flat
    :alt:   (downloads)
 .. |docker_shorah| image:: https://quay.io/repository/biocontainers/shorah/status
    :target: https://quay.io/repository/biocontainers/shorah
+.. _`shorah/tags`: https://quay.io/repository/biocontainers/shorah?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/shorah/README.html
-

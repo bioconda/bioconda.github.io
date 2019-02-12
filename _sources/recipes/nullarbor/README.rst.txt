@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nullarbor'
 .. highlight: bash
-
 
 nullarbor
 =========
@@ -21,11 +22,75 @@ nullarbor
 
    |downloads_nullarbor| |docker_nullarbor|
 
-   :versions: 2.0.20181010
-
-   :depends: :conda:package:`abricate`  :conda:package:`bwa` >=0.7.17 :conda:package:`centrifuge`  :conda:package:`fasttree`  :conda:package:`flash` >=1.2 :conda:package:`iqtree`  :conda:package:`kraken` >=1.1 :conda:package:`kraken2`  :conda:package:`lighter` >=1.1 :conda:package:`mash` >=2.0 :conda:package:`megahit` >=1.1 :conda:package:`mlst`  :conda:package:`newick_utils`  :conda:package:`perl`  :conda:package:`perl-file-spec`  :conda:package:`perl-findbin`  :conda:package:`perl-path-tiny`  :conda:package:`perl-yaml-tiny`  :conda:package:`pigz`  :conda:package:`pilon` >=1.22 :conda:package:`prokka`  :conda:package:`quicktree`  :conda:package:`roary`  :conda:package:`samclip` >=0.2 :conda:package:`samtools` >=1.8 :conda:package:`seqtk` >=1.3 :conda:package:`shovill` >=1.0 :conda:package:`skesa` >=2.2 :conda:package:`snippy`  :conda:package:`snp-dists`  :conda:package:`spades` >=3.6 :conda:package:`trimmomatic` >=0.36 :conda:package:`velvet` >=1.2.10 
-
-   :required~by: |required_by_nullarbor|
+   :versions: 2.0.20181010-4, 2.0.20181010-2
+   
+   :depends abricate: >=0.8
+   
+   :depends bwa: >=0.7.17
+   
+   :depends centrifuge: >=1.0
+   
+   :depends fasttree: 
+   
+   :depends flash: >=1.2
+   
+   :depends iqtree: >=1.6
+   
+   :depends kraken: >=1.1
+   
+   :depends kraken2: 
+   
+   :depends lighter: >=1.1
+   
+   :depends mash: >=2.1
+   
+   :depends megahit: >=1.1
+   
+   :depends mlst: >=2.1
+   
+   :depends newick_utils: 
+   
+   :depends perl: 
+   
+   :depends perl-file-spec: 
+   
+   :depends perl-findbin: 
+   
+   :depends perl-path-tiny: 
+   
+   :depends perl-yaml-tiny: 
+   
+   :depends pigz: 
+   
+   :depends pilon: >=1.22
+   
+   :depends prokka: >=1.12
+   
+   :depends quicktree: >=2.4
+   
+   :depends roary: >=3.0
+   
+   :depends samclip: >=0.2
+   
+   :depends samtools: >=1.8
+   
+   :depends seqtk: >=1.3
+   
+   :depends shovill: >=1.0
+   
+   :depends skesa: >=2.3
+   
+   :depends snippy: >=4.2
+   
+   :depends snp-dists: >=0.6
+   
+   :depends spades: >=3.6
+   
+   :depends trimmomatic: >=0.36
+   
+   :depends velvet: >=1.2.10
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +104,16 @@ nullarbor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nullarbor
+      docker pull quay.io/repository/biocontainers/nullarbor:<tag>
+
+   (see `nullarbor/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nullarbor| conda:required_by:: nullarbor
 .. |downloads_nullarbor| image:: https://img.shields.io/conda/dn/bioconda/nullarbor.svg?style=flat
    :alt:   (downloads)
 .. |docker_nullarbor| image:: https://quay.io/repository/biocontainers/nullarbor/status
    :target: https://quay.io/repository/biocontainers/nullarbor
+.. _`nullarbor/tags`: https://quay.io/repository/biocontainers/nullarbor?tab=tags
 
 
 
@@ -63,4 +130,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nullarbor/README.html
-

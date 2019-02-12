@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-listing'
 .. highlight: bash
-
 
 perl-file-listing
 =================
@@ -21,11 +22,13 @@ perl-file-listing
 
    |downloads_perl-file-listing| |docker_perl-file-listing|
 
-   :versions: 6.04
-
-   :depends: :conda:package:`perl-http-date`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-file-listing|
+   :versions: 6.04-1, 6.04-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-http-date: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-file-listing
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-listing
+      docker pull quay.io/repository/biocontainers/perl-file-listing:<tag>
+
+   (see `perl-file-listing/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-listing| conda:required_by:: perl-file-listing
 .. |downloads_perl-file-listing| image:: https://img.shields.io/conda/dn/bioconda/perl-file-listing.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-listing| image:: https://quay.io/repository/biocontainers/perl-file-listing/status
    :target: https://quay.io/repository/biocontainers/perl-file-listing
+.. _`perl-file-listing/tags`: https://quay.io/repository/biocontainers/perl-file-listing?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-listing/README.html
-

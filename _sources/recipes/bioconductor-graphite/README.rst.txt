@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-graphite'
 .. highlight: bash
-
 
 bioconductor-graphite
 =====================
@@ -22,11 +23,21 @@ bioconductor-graphite
 
    |downloads_bioconductor-graphite| |docker_bioconductor-graphite|
 
-   :versions: 1.28.1, 1.26.3, 1.24.0, 1.22.0, 1.16.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-checkmate`  :conda:package:`r-httr`  :conda:package:`r-rappdirs`  
-
-   :required~by: |required_by_bioconductor-graphite|
+   :versions: 1.28.1-0, 1.26.3-0, 1.24.0-0, 1.22.0-0, 1.16.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-checkmate: 
+   
+   :depends r-httr: 
+   
+   :depends r-rappdirs: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-graphite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-graphite
+      docker pull quay.io/repository/biocontainers/bioconductor-graphite:<tag>
+
+   (see `bioconductor-graphite/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-graphite| conda:required_by:: bioconductor-graphite
 .. |downloads_bioconductor-graphite| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-graphite.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-graphite| image:: https://quay.io/repository/biocontainers/bioconductor-graphite/status
    :target: https://quay.io/repository/biocontainers/bioconductor-graphite
+.. _`bioconductor-graphite/tags`: https://quay.io/repository/biocontainers/bioconductor-graphite?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-graphite/README.html
-

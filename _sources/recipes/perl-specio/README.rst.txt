@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-specio'
 .. highlight: bash
-
 
 perl-specio
 ===========
@@ -21,11 +22,37 @@ perl-specio
 
    |downloads_perl-specio| |docker_perl-specio|
 
-   :versions: 0.43, 0.42
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-devel-stacktrace`  :conda:package:`perl-eval-closure`  :conda:package:`perl-exporter`  :conda:package:`perl-module-runtime`  :conda:package:`perl-mro-compat`  :conda:package:`perl-parent`  :conda:package:`perl-role-tiny`  :conda:package:`perl-storable`  :conda:package:`perl-sub-quote`  :conda:package:`perl-test-fatal`  :conda:package:`perl-try-tiny`  :conda:package:`perl-version`  
-
-   :required~by: |required_by_perl-specio|
+   :versions: 0.43-0, 0.42-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-devel-stacktrace: 
+   
+   :depends perl-eval-closure: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-module-runtime: 
+   
+   :depends perl-mro-compat: 
+   
+   :depends perl-parent: 
+   
+   :depends perl-role-tiny: 
+   
+   :depends perl-storable: 
+   
+   :depends perl-sub-quote: 
+   
+   :depends perl-test-fatal: 
+   
+   :depends perl-try-tiny: 
+   
+   :depends perl-version: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ perl-specio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-specio
+      docker pull quay.io/repository/biocontainers/perl-specio:<tag>
+
+   (see `perl-specio/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-specio| conda:required_by:: perl-specio
 .. |downloads_perl-specio| image:: https://img.shields.io/conda/dn/bioconda/perl-specio.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-specio| image:: https://quay.io/repository/biocontainers/perl-specio/status
    :target: https://quay.io/repository/biocontainers/perl-specio
+.. _`perl-specio/tags`: https://quay.io/repository/biocontainers/perl-specio?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-specio/README.html
-

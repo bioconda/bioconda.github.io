@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-b-hooks-endofscope'
 .. highlight: bash
-
 
 perl-b-hooks-endofscope
 =======================
@@ -21,11 +22,21 @@ perl-b-hooks-endofscope
 
    |downloads_perl-b-hooks-endofscope| |docker_perl-b-hooks-endofscope|
 
-   :versions: 0.21
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-module-implementation`  :conda:package:`perl-sub-exporter-progressive`  :conda:package:`perl-variable-magic`  
-
-   :required~by: |required_by_perl-b-hooks-endofscope|
+   :versions: 0.21-3, 0.21-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-module-implementation: 
+   
+   :depends perl-sub-exporter-progressive: 
+   
+   :depends perl-variable-magic: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-b-hooks-endofscope
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-b-hooks-endofscope
+      docker pull quay.io/repository/biocontainers/perl-b-hooks-endofscope:<tag>
+
+   (see `perl-b-hooks-endofscope/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-b-hooks-endofscope| conda:required_by:: perl-b-hooks-endofscope
 .. |downloads_perl-b-hooks-endofscope| image:: https://img.shields.io/conda/dn/bioconda/perl-b-hooks-endofscope.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-b-hooks-endofscope| image:: https://quay.io/repository/biocontainers/perl-b-hooks-endofscope/status
    :target: https://quay.io/repository/biocontainers/perl-b-hooks-endofscope
+.. _`perl-b-hooks-endofscope/tags`: https://quay.io/repository/biocontainers/perl-b-hooks-endofscope?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-b-hooks-endofscope/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-lumi'
 .. highlight: bash
-
 
 bioconductor-lumi
 =================
@@ -22,11 +23,41 @@ bioconductor-lumi
 
    |downloads_bioconductor-lumi| |docker_bioconductor-lumi|
 
-   :versions: 2.34.0, 2.32.0, 2.30.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-annotate` >=1.60.0,<1.61.0 :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-methylumi` >=2.28.0,<2.29.0 :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-kernsmooth`  :conda:package:`r-lattice`  :conda:package:`r-mass`  :conda:package:`r-mgcv` >=1.4-0 :conda:package:`r-nleqslv`  :conda:package:`r-rsqlite`  
-
-   :required~by: |required_by_bioconductor-lumi|
+   :versions: 2.34.0-0, 2.32.0-0, 2.30.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-annotate: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-methylumi: >=2.28.0,<2.29.0
+   
+   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dbi: 
+   
+   :depends r-kernsmooth: 
+   
+   :depends r-lattice: 
+   
+   :depends r-mass: 
+   
+   :depends r-mgcv: >=1.4-0
+   
+   :depends r-nleqslv: 
+   
+   :depends r-rsqlite: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +71,16 @@ bioconductor-lumi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lumi
+      docker pull quay.io/repository/biocontainers/bioconductor-lumi:<tag>
+
+   (see `bioconductor-lumi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-lumi| conda:required_by:: bioconductor-lumi
 .. |downloads_bioconductor-lumi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lumi.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-lumi| image:: https://quay.io/repository/biocontainers/bioconductor-lumi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lumi
+.. _`bioconductor-lumi/tags`: https://quay.io/repository/biocontainers/bioconductor-lumi?tab=tags
 
 
 
@@ -64,4 +97,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-lumi/README.html
-

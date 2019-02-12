@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'flock'
 .. highlight: bash
-
 
 flock
 =====
@@ -21,11 +22,11 @@ flock
 
    |downloads_flock| |docker_flock|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_flock|
+   :versions: 1.0-2, 1.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ flock
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flock
+      docker pull quay.io/repository/biocontainers/flock:<tag>
+
+   (see `flock/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_flock| conda:required_by:: flock
 .. |downloads_flock| image:: https://img.shields.io/conda/dn/bioconda/flock.svg?style=flat
    :alt:   (downloads)
 .. |docker_flock| image:: https://quay.io/repository/biocontainers/flock/status
    :target: https://quay.io/repository/biocontainers/flock
+.. _`flock/tags`: https://quay.io/repository/biocontainers/flock?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/flock/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'arboreto'
 .. highlight: bash
-
 
 arboreto
 ========
@@ -21,11 +22,23 @@ arboreto
 
    |downloads_arboreto| |docker_arboreto|
 
-   :versions: 0.1.5
-
-   :depends: :conda:package:`dask`  :conda:package:`distributed`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python`  :conda:package:`scikit-learn`  :conda:package:`scipy`  
-
-   :required~by: |required_by_arboreto|
+   :versions: 0.1.5-0
+   
+   :depends dask: 
+   
+   :depends distributed: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: 
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ arboreto
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/arboreto
+      docker pull quay.io/repository/biocontainers/arboreto:<tag>
+
+   (see `arboreto/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_arboreto| conda:required_by:: arboreto
 .. |downloads_arboreto| image:: https://img.shields.io/conda/dn/bioconda/arboreto.svg?style=flat
    :alt:   (downloads)
 .. |docker_arboreto| image:: https://quay.io/repository/biocontainers/arboreto/status
    :target: https://quay.io/repository/biocontainers/arboreto
+.. _`arboreto/tags`: https://quay.io/repository/biocontainers/arboreto?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/arboreto/README.html
-

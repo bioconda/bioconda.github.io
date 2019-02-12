@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-prot2d'
 .. highlight: bash
-
 
 bioconductor-prot2d
 ===================
@@ -22,11 +23,29 @@ bioconductor-prot2d
 
    |downloads_bioconductor-prot2d| |docker_bioconductor-prot2d|
 
-   :versions: 1.20.0, 1.18.0, 1.16.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-impute` >=1.56.0,<1.57.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-mulcom` >=1.32.0,<1.33.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fdrtool`  :conda:package:`r-mass`  :conda:package:`r-samr`  :conda:package:`r-st`  
-
-   :required~by: |required_by_bioconductor-prot2d|
+   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-impute: >=1.56.0,<1.57.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-mulcom: >=1.32.0,<1.33.0
+   
+   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-fdrtool: 
+   
+   :depends r-mass: 
+   
+   :depends r-samr: 
+   
+   :depends r-st: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ bioconductor-prot2d
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-prot2d
+      docker pull quay.io/repository/biocontainers/bioconductor-prot2d:<tag>
+
+   (see `bioconductor-prot2d/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-prot2d| conda:required_by:: bioconductor-prot2d
 .. |downloads_bioconductor-prot2d| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prot2d.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-prot2d| image:: https://quay.io/repository/biocontainers/bioconductor-prot2d/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prot2d
+.. _`bioconductor-prot2d/tags`: https://quay.io/repository/biocontainers/bioconductor-prot2d?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-prot2d/README.html
-

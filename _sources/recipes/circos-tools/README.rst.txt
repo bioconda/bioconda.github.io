@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'circos-tools'
 .. highlight: bash
-
 
 circos-tools
 ============
@@ -22,10 +23,8 @@ circos-tools
    |downloads_circos-tools| |docker_circos-tools|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_circos-tools|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ circos-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/circos-tools
+      docker pull quay.io/repository/biocontainers/circos-tools:<tag>
+
+   (see `circos-tools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_circos-tools| conda:required_by:: circos-tools
 .. |downloads_circos-tools| image:: https://img.shields.io/conda/dn/bioconda/circos-tools.svg?style=flat
    :alt:   (downloads)
 .. |docker_circos-tools| image:: https://quay.io/repository/biocontainers/circos-tools/status
    :target: https://quay.io/repository/biocontainers/circos-tools
+.. _`circos-tools/tags`: https://quay.io/repository/biocontainers/circos-tools?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/circos-tools/README.html
-

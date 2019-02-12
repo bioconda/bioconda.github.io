@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'plant_tribes_gene_family_aligner'
 .. highlight: bash
-
 
 plant_tribes_gene_family_aligner
 ================================
@@ -21,11 +22,19 @@ plant_tribes_gene_family_aligner
 
    |downloads_plant_tribes_gene_family_aligner| |docker_plant_tribes_gene_family_aligner|
 
-   :versions: 1.0.3, 1.0.2, 1.0.0
-
-   :depends: :conda:package:`mafft` >=7,<8 :conda:package:`pasta` >=1.7.8 :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* :conda:package:`trimal` >=1.4,<2 
-
-   :required~by: |required_by_plant_tribes_gene_family_aligner|
+   :versions: 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0
+   
+   :depends mafft: >=7,<8
+   
+   :depends pasta: >=1.7.8
+   
+   :depends perl: 5.22.0*
+   
+   :depends python: 2.7*
+   
+   :depends trimal: >=1.4,<2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ plant_tribes_gene_family_aligner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plant_tribes_gene_family_aligner
+      docker pull quay.io/repository/biocontainers/plant_tribes_gene_family_aligner:<tag>
+
+   (see `plant_tribes_gene_family_aligner/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_plant_tribes_gene_family_aligner| conda:required_by:: plant_tribes_gene_family_aligner
 .. |downloads_plant_tribes_gene_family_aligner| image:: https://img.shields.io/conda/dn/bioconda/plant_tribes_gene_family_aligner.svg?style=flat
    :alt:   (downloads)
 .. |docker_plant_tribes_gene_family_aligner| image:: https://quay.io/repository/biocontainers/plant_tribes_gene_family_aligner/status
    :target: https://quay.io/repository/biocontainers/plant_tribes_gene_family_aligner
+.. _`plant_tribes_gene_family_aligner/tags`: https://quay.io/repository/biocontainers/plant_tribes_gene_family_aligner?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/plant_tribes_gene_family_aligner/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-ngsplotdb-mm10'
 .. highlight: bash
-
 
 r-ngsplotdb-mm10
 ================
@@ -21,11 +22,17 @@ r-ngsplotdb-mm10
 
    |downloads_r-ngsplotdb-mm10| |docker_r-ngsplotdb-mm10|
 
-   :versions: 3.00
-
-   :depends: :conda:package:`r-base`  :conda:package:`r-ngsplot`  :conda:package:`wget`  
-
-   :required~by: |required_by_r-ngsplotdb-mm10|
+   :versions: 3.00-4, 3.00-1, 3.00-0
+   
+   :depends python: <3.0a0
+   
+   :depends r-base: 
+   
+   :depends r-ngsplot: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-ngsplotdb-mm10
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ngsplotdb-mm10
+      docker pull quay.io/repository/biocontainers/r-ngsplotdb-mm10:<tag>
+
+   (see `r-ngsplotdb-mm10/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-ngsplotdb-mm10| conda:required_by:: r-ngsplotdb-mm10
 .. |downloads_r-ngsplotdb-mm10| image:: https://img.shields.io/conda/dn/bioconda/r-ngsplotdb-mm10.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-ngsplotdb-mm10| image:: https://quay.io/repository/biocontainers/r-ngsplotdb-mm10/status
    :target: https://quay.io/repository/biocontainers/r-ngsplotdb-mm10
+.. _`r-ngsplotdb-mm10/tags`: https://quay.io/repository/biocontainers/r-ngsplotdb-mm10?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-ngsplotdb-mm10/README.html
-

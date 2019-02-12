@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'repeatscout'
 .. highlight: bash
-
 
 repeatscout
 ===========
@@ -21,11 +22,11 @@ repeatscout
 
    |downloads_repeatscout| |docker_repeatscout|
 
-   :versions: 1.0.5
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_repeatscout|
+   :versions: 1.0.5-1, 1.0.5-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ repeatscout
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/repeatscout
+      docker pull quay.io/repository/biocontainers/repeatscout:<tag>
+
+   (see `repeatscout/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_repeatscout| conda:required_by:: repeatscout
 .. |downloads_repeatscout| image:: https://img.shields.io/conda/dn/bioconda/repeatscout.svg?style=flat
    :alt:   (downloads)
 .. |docker_repeatscout| image:: https://quay.io/repository/biocontainers/repeatscout/status
    :target: https://quay.io/repository/biocontainers/repeatscout
+.. _`repeatscout/tags`: https://quay.io/repository/biocontainers/repeatscout?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/repeatscout/README.html
-

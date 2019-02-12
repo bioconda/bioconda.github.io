@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'simlord'
 .. highlight: bash
-
 
 simlord
 =======
@@ -21,11 +22,19 @@ simlord
 
    |downloads_simlord| |docker_simlord|
 
-   :versions: 1.0.2, 1.0.1, 0.7.3
-
-   :depends: :conda:package:`dinopy`  :conda:package:`numpy`  :conda:package:`pysam` >=0.8.4 :conda:package:`python` 3.4* :conda:package:`scipy`  
-
-   :required~by: |required_by_simlord|
+   :versions: 1.0.2-2, 1.0.2-0, 1.0.1-0, 0.7.3-0
+   
+   :depends dinopy: 
+   
+   :depends numpy: 
+   
+   :depends pysam: >=0.8.4
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ simlord
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/simlord
+      docker pull quay.io/repository/biocontainers/simlord:<tag>
+
+   (see `simlord/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_simlord| conda:required_by:: simlord
 .. |downloads_simlord| image:: https://img.shields.io/conda/dn/bioconda/simlord.svg?style=flat
    :alt:   (downloads)
 .. |docker_simlord| image:: https://quay.io/repository/biocontainers/simlord/status
    :target: https://quay.io/repository/biocontainers/simlord
+.. _`simlord/tags`: https://quay.io/repository/biocontainers/simlord?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/simlord/README.html
-

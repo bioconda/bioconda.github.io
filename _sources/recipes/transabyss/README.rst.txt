@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'transabyss'
 .. highlight: bash
-
 
 transabyss
 ==========
@@ -21,11 +22,21 @@ transabyss
 
    |downloads_transabyss| |docker_transabyss|
 
-   :versions: 2.0.1, 1.5.5, 1.5.4
-
-   :depends: :conda:package:`abyss` 2.0.* :conda:package:`blat`  :conda:package:`bowtie2`  :conda:package:`libiconv`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`python-igraph` 0.7.* :conda:package:`samtools` 1.3.1.* :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_transabyss|
+   :versions: 2.0.1-4, 2.0.1-3, 1.5.5-3, 1.5.5-2, 1.5.5-1, 1.5.4-1, 1.5.4-0
+   
+   :depends abyss: 2.0.*
+   
+   :depends blat: 
+   
+   :depends bowtie2: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends python-igraph: 0.7.*
+   
+   :depends samtools: 1.3.1.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ transabyss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/transabyss
+      docker pull quay.io/repository/biocontainers/transabyss:<tag>
+
+   (see `transabyss/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_transabyss| conda:required_by:: transabyss
 .. |downloads_transabyss| image:: https://img.shields.io/conda/dn/bioconda/transabyss.svg?style=flat
    :alt:   (downloads)
 .. |docker_transabyss| image:: https://quay.io/repository/biocontainers/transabyss/status
    :target: https://quay.io/repository/biocontainers/transabyss
+.. _`transabyss/tags`: https://quay.io/repository/biocontainers/transabyss?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/transabyss/README.html
-

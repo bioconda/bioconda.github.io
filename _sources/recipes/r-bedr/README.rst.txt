@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-bedr'
 .. highlight: bash
-
 
 r-bedr
 ======
@@ -21,11 +22,21 @@ r-bedr
 
    |downloads_r-bedr| |docker_r-bedr|
 
-   :versions: 1.0.4
-
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-data.table` >=1.8.11 :conda:package:`r-r.utils` >=2.0.2 :conda:package:`r-testthat` >=0.7.1 :conda:package:`r-venndiagram` >=1.6.4 :conda:package:`r-yaml` >=2.1.10 
-
-   :required~by: |required_by_r-bedr|
+   :versions: 1.0.4-1, 1.0.4-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: >=1.8.11
+   
+   :depends r-r.utils: >=2.0.2
+   
+   :depends r-testthat: >=0.7.1
+   
+   :depends r-venndiagram: >=1.6.4
+   
+   :depends r-yaml: >=2.1.10
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-bedr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-bedr
+      docker pull quay.io/repository/biocontainers/r-bedr:<tag>
+
+   (see `r-bedr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-bedr| conda:required_by:: r-bedr
 .. |downloads_r-bedr| image:: https://img.shields.io/conda/dn/bioconda/r-bedr.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-bedr| image:: https://quay.io/repository/biocontainers/r-bedr/status
    :target: https://quay.io/repository/biocontainers/r-bedr
+.. _`r-bedr/tags`: https://quay.io/repository/biocontainers/r-bedr?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-bedr/README.html
-

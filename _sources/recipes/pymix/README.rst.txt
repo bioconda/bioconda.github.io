@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pymix'
 .. highlight: bash
-
 
 pymix
 =====
@@ -21,11 +22,33 @@ pymix
 
    |downloads_pymix| |docker_pymix|
 
-   :versions: 0.8
-
-   :depends: :conda:package:`ghmm`  :conda:package:`glib`  :conda:package:`gsl`  :conda:package:`libgcc`  :conda:package:`matplotlib` >=1.1.0,!=1.4.2,<1.5.0 :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`xorg-libsm`  :conda:package:`xorg-libxau`  :conda:package:`xorg-libxdmcp`  :conda:package:`xorg-libxext`  :conda:package:`xorg-libxrender`  
-
-   :required~by: |required_by_pymix|
+   :versions: 0.8-1, 0.8-0
+   
+   :depends ghmm: 
+   
+   :depends glib: 
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: >=1.1.0,!=1.4.2,<1.5.0
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends xorg-libsm: 
+   
+   :depends xorg-libxau: 
+   
+   :depends xorg-libxdmcp: 
+   
+   :depends xorg-libxext: 
+   
+   :depends xorg-libxrender: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ pymix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pymix
+      docker pull quay.io/repository/biocontainers/pymix:<tag>
+
+   (see `pymix/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pymix| conda:required_by:: pymix
 .. |downloads_pymix| image:: https://img.shields.io/conda/dn/bioconda/pymix.svg?style=flat
    :alt:   (downloads)
 .. |docker_pymix| image:: https://quay.io/repository/biocontainers/pymix/status
    :target: https://quay.io/repository/biocontainers/pymix
+.. _`pymix/tags`: https://quay.io/repository/biocontainers/pymix?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pymix/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ebfilter'
 .. highlight: bash
-
 
 ebfilter
 ========
@@ -21,11 +22,19 @@ ebfilter
 
    |downloads_ebfilter| |docker_ebfilter|
 
-   :versions: 0.2.1
-
-   :depends: :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` <3 :conda:package:`pyvcf`  :conda:package:`scipy`  
-
-   :required~by: |required_by_ebfilter|
+   :versions: 0.2.1-1, 0.2.1-0
+   
+   :depends numpy: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends pyvcf: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ ebfilter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ebfilter
+      docker pull quay.io/repository/biocontainers/ebfilter:<tag>
+
+   (see `ebfilter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ebfilter| conda:required_by:: ebfilter
 .. |downloads_ebfilter| image:: https://img.shields.io/conda/dn/bioconda/ebfilter.svg?style=flat
    :alt:   (downloads)
 .. |docker_ebfilter| image:: https://quay.io/repository/biocontainers/ebfilter/status
    :target: https://quay.io/repository/biocontainers/ebfilter
+.. _`ebfilter/tags`: https://quay.io/repository/biocontainers/ebfilter?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ebfilter/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-doscheda'
 .. highlight: bash
-
 
 bioconductor-doscheda
 =====================
@@ -21,11 +22,49 @@ bioconductor-doscheda
 
    |downloads_bioconductor-doscheda| |docker_bioconductor-doscheda|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-vsn` >=3.50.0,<3.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-calibrate`  :conda:package:`r-corrgram`  :conda:package:`r-d3heatmap`  :conda:package:`r-drc`  :conda:package:`r-dt`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-httr`  :conda:package:`r-jsonlite`  :conda:package:`r-matrixstats`  :conda:package:`r-prodlim`  :conda:package:`r-readxl`  :conda:package:`r-reshape2`  :conda:package:`r-shiny`  :conda:package:`r-shinydashboard`  :conda:package:`r-stringr`  
-
-   :required~by: |required_by_bioconductor-doscheda|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-vsn: >=3.50.0,<3.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-calibrate: 
+   
+   :depends r-corrgram: 
+   
+   :depends r-d3heatmap: 
+   
+   :depends r-drc: 
+   
+   :depends r-dt: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-httr: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-prodlim: 
+   
+   :depends r-readxl: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-shiny: 
+   
+   :depends r-shinydashboard: 
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +78,16 @@ bioconductor-doscheda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-doscheda
+      docker pull quay.io/repository/biocontainers/bioconductor-doscheda:<tag>
+
+   (see `bioconductor-doscheda/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-doscheda| conda:required_by:: bioconductor-doscheda
 .. |downloads_bioconductor-doscheda| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-doscheda.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-doscheda| image:: https://quay.io/repository/biocontainers/bioconductor-doscheda/status
    :target: https://quay.io/repository/biocontainers/bioconductor-doscheda
+.. _`bioconductor-doscheda/tags`: https://quay.io/repository/biocontainers/bioconductor-doscheda?tab=tags
 
 
 
@@ -63,4 +104,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-doscheda/README.html
-

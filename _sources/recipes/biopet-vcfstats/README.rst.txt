@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biopet-vcfstats'
 .. highlight: bash
-
 
 biopet-vcfstats
 ===============
@@ -31,11 +32,13 @@ biopet-vcfstats
 
    |downloads_biopet-vcfstats| |docker_biopet-vcfstats|
 
-   :versions: 1.2, 1.1, 1.0
-
-   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
-
-   :required~by: |required_by_biopet-vcfstats|
+   :versions: 1.2-0, 1.1-1, 1.1-0, 1.0-1, 1.0-0
+   
+   :depends openjdk: >=8,<9
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -49,14 +52,16 @@ biopet-vcfstats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-vcfstats
+      docker pull quay.io/repository/biocontainers/biopet-vcfstats:<tag>
+
+   (see `biopet-vcfstats/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biopet-vcfstats| conda:required_by:: biopet-vcfstats
 .. |downloads_biopet-vcfstats| image:: https://img.shields.io/conda/dn/bioconda/biopet-vcfstats.svg?style=flat
    :alt:   (downloads)
 .. |docker_biopet-vcfstats| image:: https://quay.io/repository/biocontainers/biopet-vcfstats/status
    :target: https://quay.io/repository/biocontainers/biopet-vcfstats
+.. _`biopet-vcfstats/tags`: https://quay.io/repository/biocontainers/biopet-vcfstats?tab=tags
 
 
 
@@ -77,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biopet-vcfstats/README.html
-

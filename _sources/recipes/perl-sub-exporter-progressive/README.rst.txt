@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-sub-exporter-progressive'
 .. highlight: bash
-
 
 perl-sub-exporter-progressive
 =============================
@@ -21,11 +22,11 @@ perl-sub-exporter-progressive
 
    |downloads_perl-sub-exporter-progressive| |docker_perl-sub-exporter-progressive|
 
-   :versions: 0.001013, 0.001011
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-sub-exporter-progressive|
+   :versions: 0.001013-0, 0.001011-3, 0.001011-2, 0.001011-1, 0.001011-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-sub-exporter-progressive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-exporter-progressive
+      docker pull quay.io/repository/biocontainers/perl-sub-exporter-progressive:<tag>
+
+   (see `perl-sub-exporter-progressive/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-sub-exporter-progressive| conda:required_by:: perl-sub-exporter-progressive
 .. |downloads_perl-sub-exporter-progressive| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-exporter-progressive.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-sub-exporter-progressive| image:: https://quay.io/repository/biocontainers/perl-sub-exporter-progressive/status
    :target: https://quay.io/repository/biocontainers/perl-sub-exporter-progressive
+.. _`perl-sub-exporter-progressive/tags`: https://quay.io/repository/biocontainers/perl-sub-exporter-progressive?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-sub-exporter-progressive/README.html
-

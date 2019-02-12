@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-ggbiplot'
 .. highlight: bash
-
 
 r-ggbiplot
 ==========
@@ -21,11 +22,23 @@ r-ggbiplot
 
    |downloads_r-ggbiplot| |docker_r-ggbiplot|
 
-   :versions: 0.55
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-devtools`  :conda:package:`r-ggplot2`  :conda:package:`r-gridbase`  :conda:package:`r-plyr`  :conda:package:`r-scales`  
-
-   :required~by: |required_by_r-ggbiplot|
+   :versions: 0.55-2, 0.55-1
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-devtools: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridbase: 
+   
+   :depends r-plyr: 
+   
+   :depends r-scales: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ r-ggbiplot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ggbiplot
+      docker pull quay.io/repository/biocontainers/r-ggbiplot:<tag>
+
+   (see `r-ggbiplot/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-ggbiplot| conda:required_by:: r-ggbiplot
 .. |downloads_r-ggbiplot| image:: https://img.shields.io/conda/dn/bioconda/r-ggbiplot.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-ggbiplot| image:: https://quay.io/repository/biocontainers/r-ggbiplot/status
    :target: https://quay.io/repository/biocontainers/r-ggbiplot
+.. _`r-ggbiplot/tags`: https://quay.io/repository/biocontainers/r-ggbiplot?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-ggbiplot/README.html
-

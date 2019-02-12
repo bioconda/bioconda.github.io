@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ericscript'
 .. highlight: bash
-
 
 ericscript
 ==========
@@ -21,11 +22,25 @@ ericscript
 
    |downloads_ericscript| |docker_ericscript|
 
-   :versions: 0.5.5
-
-   :depends: :conda:package:`bedtools`  :conda:package:`blat`  :conda:package:`bwa`  :conda:package:`perl`  :conda:package:`r-ada`  :conda:package:`r-base`  :conda:package:`samtools` 0.1.19.* :conda:package:`seqtk`  
-
-   :required~by: |required_by_ericscript|
+   :versions: 0.5.5-3, 0.5.5-2, 0.5.5-1, 0.5.5-0
+   
+   :depends bedtools: 
+   
+   :depends blat: 
+   
+   :depends bwa: 
+   
+   :depends perl: 
+   
+   :depends r-ada: 
+   
+   :depends r-base: 
+   
+   :depends samtools: 0.1.19.*
+   
+   :depends seqtk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ ericscript
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ericscript
+      docker pull quay.io/repository/biocontainers/ericscript:<tag>
+
+   (see `ericscript/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ericscript| conda:required_by:: ericscript
 .. |downloads_ericscript| image:: https://img.shields.io/conda/dn/bioconda/ericscript.svg?style=flat
    :alt:   (downloads)
 .. |docker_ericscript| image:: https://quay.io/repository/biocontainers/ericscript/status
    :target: https://quay.io/repository/biocontainers/ericscript
+.. _`ericscript/tags`: https://quay.io/repository/biocontainers/ericscript?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ericscript/README.html
-

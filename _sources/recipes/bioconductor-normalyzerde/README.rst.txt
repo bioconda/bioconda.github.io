@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-normalyzerde'
 .. highlight: bash
-
 
 bioconductor-normalyzerde
 =========================
@@ -21,11 +22,35 @@ bioconductor-normalyzerde
 
    |downloads_bioconductor-normalyzerde| |docker_bioconductor-normalyzerde|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-vsn` >=3.50.0,<3.51.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-car`  :conda:package:`r-ggplot2`  :conda:package:`r-mass`  :conda:package:`r-matrixstats`  :conda:package:`r-raster`  :conda:package:`r-rcmdrmisc`  
-
-   :required~by: |required_by_bioconductor-normalyzerde|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends bioconductor-vsn: >=3.50.0,<3.51.0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-car: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-mass: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-raster: 
+   
+   :depends r-rcmdrmisc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ bioconductor-normalyzerde
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-normalyzerde
+      docker pull quay.io/repository/biocontainers/bioconductor-normalyzerde:<tag>
+
+   (see `bioconductor-normalyzerde/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-normalyzerde| conda:required_by:: bioconductor-normalyzerde
 .. |downloads_bioconductor-normalyzerde| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-normalyzerde.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-normalyzerde| image:: https://quay.io/repository/biocontainers/bioconductor-normalyzerde/status
    :target: https://quay.io/repository/biocontainers/bioconductor-normalyzerde
+.. _`bioconductor-normalyzerde/tags`: https://quay.io/repository/biocontainers/bioconductor-normalyzerde?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-normalyzerde/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ectyper'
 .. highlight: bash
-
 
 ectyper
 =======
@@ -21,11 +22,29 @@ ectyper
 
    |downloads_ectyper| |docker_ectyper|
 
-   :versions: 0.8.1, 0.5.4, 0.1
-
-   :depends: :conda:package:`bcftools` >=1.8 :conda:package:`biopython` >=1.7.1 :conda:package:`blast` >=2.7.1 :conda:package:`bowtie2` >=2.3.4.1 :conda:package:`mash` >=2.0 :conda:package:`pandas` >=0.23.1 :conda:package:`pytest` >=3.5 :conda:package:`python` >=3.5 :conda:package:`samtools` >=1.8 :conda:package:`seqtk` >=1.2 
-
-   :required~by: |required_by_ectyper|
+   :versions: 0.8.1-0, 0.5.4-2, 0.1-2, 0.1-0
+   
+   :depends bcftools: >=1.8
+   
+   :depends biopython: >=1.7.1
+   
+   :depends blast: >=2.7.1
+   
+   :depends bowtie2: >=2.3.4.1
+   
+   :depends mash: >=2.0
+   
+   :depends pandas: >=0.23.1
+   
+   :depends pytest: >=3.5
+   
+   :depends python: >=3.5
+   
+   :depends samtools: >=1.8
+   
+   :depends seqtk: >=1.2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ ectyper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ectyper
+      docker pull quay.io/repository/biocontainers/ectyper:<tag>
+
+   (see `ectyper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ectyper| conda:required_by:: ectyper
 .. |downloads_ectyper| image:: https://img.shields.io/conda/dn/bioconda/ectyper.svg?style=flat
    :alt:   (downloads)
 .. |docker_ectyper| image:: https://quay.io/repository/biocontainers/ectyper/status
    :target: https://quay.io/repository/biocontainers/ectyper
+.. _`ectyper/tags`: https://quay.io/repository/biocontainers/ectyper?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ectyper/README.html
-

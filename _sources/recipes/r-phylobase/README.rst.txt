@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-phylobase'
 .. highlight: bash
-
 
 r-phylobase
 ===========
@@ -21,11 +22,25 @@ r-phylobase
 
    |downloads_r-phylobase| |docker_r-phylobase|
 
-   :versions: 0.8.4
-
-   :depends: :conda:package:`r-ade4`  :conda:package:`r-ape` >=3.0 :conda:package:`r-base` 3.4.1* :conda:package:`r-rcpp` >=0.11.0 :conda:package:`r-rncl` >=0.6.0 :conda:package:`r-rnexml`  
-
-   :required~by: |required_by_r-phylobase|
+   :versions: 0.8.4-3, 0.8.4-2, 0.8.4-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-ade4: 
+   
+   :depends r-ape: >=3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcpp: >=0.11.0
+   
+   :depends r-rncl: >=0.6.0
+   
+   :depends r-rnexml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ r-phylobase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-phylobase
+      docker pull quay.io/repository/biocontainers/r-phylobase:<tag>
+
+   (see `r-phylobase/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-phylobase| conda:required_by:: r-phylobase
 .. |downloads_r-phylobase| image:: https://img.shields.io/conda/dn/bioconda/r-phylobase.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-phylobase| image:: https://quay.io/repository/biocontainers/r-phylobase/status
    :target: https://quay.io/repository/biocontainers/r-phylobase
+.. _`r-phylobase/tags`: https://quay.io/repository/biocontainers/r-phylobase?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-phylobase/README.html
-

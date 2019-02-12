@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fgmp'
 .. highlight: bash
-
 
 fgmp
 ====
@@ -22,11 +23,27 @@ fgmp
 
    |downloads_fgmp| |docker_fgmp|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`augustus` >=3.0 :conda:package:`blast` 2.2.31 :conda:package:`emboss` >=6.5.7 :conda:package:`exonerate` >=2.2.0 :conda:package:`hmmer` >=3.0 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-app-cpanminus`  :conda:package:`perl-bioperl`  :conda:package:`perl-ipc-run`  
-
-   :required~by: |required_by_fgmp|
+   :versions: 1.0.1-0
+   
+   :depends augustus: >=3.0
+   
+   :depends blast: 2.2.31
+   
+   :depends emboss: >=6.5.7
+   
+   :depends exonerate: >=2.2.0
+   
+   :depends hmmer: >=3.0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-bioperl: 
+   
+   :depends perl-ipc-run: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ fgmp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fgmp
+      docker pull quay.io/repository/biocontainers/fgmp:<tag>
+
+   (see `fgmp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fgmp| conda:required_by:: fgmp
 .. |downloads_fgmp| image:: https://img.shields.io/conda/dn/bioconda/fgmp.svg?style=flat
    :alt:   (downloads)
 .. |docker_fgmp| image:: https://quay.io/repository/biocontainers/fgmp/status
    :target: https://quay.io/repository/biocontainers/fgmp
+.. _`fgmp/tags`: https://quay.io/repository/biocontainers/fgmp?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fgmp/README.html
-

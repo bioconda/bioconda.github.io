@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-mlgt'
 .. highlight: bash
-
 
 r-mlgt
 ======
@@ -22,11 +23,13 @@ r-mlgt
 
    |downloads_r-mlgt| |docker_r-mlgt|
 
-   :versions: 0.16
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-seqinr`  
-
-   :required~by: |required_by_r-mlgt|
+   :versions: 0.16-0
+   
+   :depends r-base: 3.3.2*
+   
+   :depends r-seqinr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ r-mlgt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-mlgt
+      docker pull quay.io/repository/biocontainers/r-mlgt:<tag>
+
+   (see `r-mlgt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-mlgt| conda:required_by:: r-mlgt
 .. |downloads_r-mlgt| image:: https://img.shields.io/conda/dn/bioconda/r-mlgt.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-mlgt| image:: https://quay.io/repository/biocontainers/r-mlgt/status
    :target: https://quay.io/repository/biocontainers/r-mlgt
+.. _`r-mlgt/tags`: https://quay.io/repository/biocontainers/r-mlgt?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-mlgt/README.html
-

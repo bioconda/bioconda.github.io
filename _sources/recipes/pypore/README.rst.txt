@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pypore'
 .. highlight: bash
-
 
 pypore
 ======
@@ -21,11 +22,13 @@ pypore
 
    |downloads_pypore| |docker_pypore|
 
-   :versions: 0.0.6.dev20180702231556, 0.0.6.dev20161116235131, 0.0.5.dev20160304220337
-
-   :depends: :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_pypore|
+   :versions: 0.0.6.dev20180702231556-0, 0.0.6.dev20161116235131-1, 0.0.6.dev20161116235131-0, 0.0.5.dev20160304220337-1, 0.0.5.dev20160304220337-0
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ pypore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pypore
+      docker pull quay.io/repository/biocontainers/pypore:<tag>
+
+   (see `pypore/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pypore| conda:required_by:: pypore
 .. |downloads_pypore| image:: https://img.shields.io/conda/dn/bioconda/pypore.svg?style=flat
    :alt:   (downloads)
 .. |docker_pypore| image:: https://quay.io/repository/biocontainers/pypore/status
    :target: https://quay.io/repository/biocontainers/pypore
+.. _`pypore/tags`: https://quay.io/repository/biocontainers/pypore?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pypore/README.html
-

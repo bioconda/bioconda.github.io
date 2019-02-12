@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'stream'
 .. highlight: bash
-
 
 stream
 ======
@@ -21,11 +22,69 @@ stream
 
    |downloads_stream| |docker_stream|
 
-   :versions: 0.3.5, 0.3.4, 0.3.3, 0.3.2, 0.3.1, 0.3.0, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.2, 0.2.1, 0.2.0
-
-   :depends: :conda:package:`anndata`  :conda:package:`gunicorn`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`matplotlib` 3.0.2.* :conda:package:`networkx` 2.1.* :conda:package:`numpy`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`python-slugify`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-devtools`  :conda:package:`r-distutils`  :conda:package:`r-elpigraph.r`  :conda:package:`r-essentials`  :conda:package:`r-igraph`  :conda:package:`r-kernsmooth`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  :conda:package:`r-vgam`  :conda:package:`r-xml`  :conda:package:`rpy2`  :conda:package:`scikit-learn`  :conda:package:`scipy`  :conda:package:`seaborn`  :conda:package:`shapely`  :conda:package:`statsmodels`  :conda:package:`umap-learn`  :conda:package:`unzip`  :conda:package:`zip`  
-
-   :required~by: |required_by_stream|
+   :versions: 0.3.5-0, 0.3.4-0, 0.3.3-0, 0.3.2-2, 0.3.2-1, 0.3.2-0, 0.3.1-2, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0
+   
+   :depends anndata: 
+   
+   :depends gunicorn: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libgfortran-ng: >=7,<8.0a0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends matplotlib: 3.0.2.*
+   
+   :depends networkx: 2.1.*
+   
+   :depends numpy: 
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :depends python-slugify: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-devtools: 
+   
+   :depends r-distutils: 
+   
+   :depends r-elpigraph.r: 
+   
+   :depends r-essentials: 
+   
+   :depends r-igraph: 
+   
+   :depends r-kernsmooth: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-rcpparmadillo: 
+   
+   :depends r-vgam: 
+   
+   :depends r-xml: 
+   
+   :depends rpy2: 
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :depends seaborn: 
+   
+   :depends shapely: 
+   
+   :depends statsmodels: 
+   
+   :depends umap-learn: 
+   
+   :depends unzip: 
+   
+   :depends zip: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +98,16 @@ stream
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stream
+      docker pull quay.io/repository/biocontainers/stream:<tag>
+
+   (see `stream/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_stream| conda:required_by:: stream
 .. |downloads_stream| image:: https://img.shields.io/conda/dn/bioconda/stream.svg?style=flat
    :alt:   (downloads)
 .. |docker_stream| image:: https://quay.io/repository/biocontainers/stream/status
    :target: https://quay.io/repository/biocontainers/stream
+.. _`stream/tags`: https://quay.io/repository/biocontainers/stream?tab=tags
 
 
 
@@ -63,4 +124,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/stream/README.html
-

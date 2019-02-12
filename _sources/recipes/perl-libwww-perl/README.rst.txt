@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-libwww-perl'
 .. highlight: bash
-
 
 perl-libwww-perl
 ================
@@ -21,11 +22,45 @@ perl-libwww-perl
 
    |downloads_perl-libwww-perl| |docker_perl-libwww-perl|
 
-   :versions: 6.36, 6.15
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-base`  :conda:package:`perl-digest-md5`  :conda:package:`perl-encode`  :conda:package:`perl-encode-locale`  :conda:package:`perl-file-listing`  :conda:package:`perl-html-parser`  :conda:package:`perl-http-cookies`  :conda:package:`perl-http-daemon`  :conda:package:`perl-http-date`  :conda:package:`perl-http-negotiate`  :conda:package:`perl-lwp-mediatypes`  :conda:package:`perl-mime-base64`  :conda:package:`perl-net-http` >=6.07 :conda:package:`perl-ntlm`  :conda:package:`perl-try-tiny`  :conda:package:`perl-uri`  :conda:package:`perl-www-robotrules`  
-
-   :required~by: |required_by_perl-libwww-perl|
+   :versions: 6.36-0, 6.15-1, 6.15-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-base: 
+   
+   :depends perl-digest-md5: 
+   
+   :depends perl-encode: 
+   
+   :depends perl-encode-locale: 
+   
+   :depends perl-file-listing: 
+   
+   :depends perl-html-parser: 
+   
+   :depends perl-http-cookies: 
+   
+   :depends perl-http-daemon: 
+   
+   :depends perl-http-date: 
+   
+   :depends perl-http-negotiate: 
+   
+   :depends perl-lwp-mediatypes: 
+   
+   :depends perl-mime-base64: 
+   
+   :depends perl-net-http: >=6.07
+   
+   :depends perl-ntlm: 
+   
+   :depends perl-try-tiny: 
+   
+   :depends perl-uri: 
+   
+   :depends perl-www-robotrules: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +74,16 @@ perl-libwww-perl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-libwww-perl
+      docker pull quay.io/repository/biocontainers/perl-libwww-perl:<tag>
+
+   (see `perl-libwww-perl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-libwww-perl| conda:required_by:: perl-libwww-perl
 .. |downloads_perl-libwww-perl| image:: https://img.shields.io/conda/dn/bioconda/perl-libwww-perl.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-libwww-perl| image:: https://quay.io/repository/biocontainers/perl-libwww-perl/status
    :target: https://quay.io/repository/biocontainers/perl-libwww-perl
+.. _`perl-libwww-perl/tags`: https://quay.io/repository/biocontainers/perl-libwww-perl?tab=tags
 
 
 
@@ -63,4 +100,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-libwww-perl/README.html
-

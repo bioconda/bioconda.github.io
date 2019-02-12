@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-next'
 .. highlight: bash
-
 
 perl-file-next
 ==============
@@ -21,11 +22,15 @@ perl-file-next
 
    |downloads_perl-file-next| |docker_perl-file-next|
 
-   :versions: 1.16
-
-   :depends: :conda:package:`perl-pathtools`  :conda:package:`perl-test-simple`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-file-next|
+   :versions: 1.16-1, 1.16-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-pathtools: 
+   
+   :depends perl-test-simple: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-file-next
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-next
+      docker pull quay.io/repository/biocontainers/perl-file-next:<tag>
+
+   (see `perl-file-next/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-next| conda:required_by:: perl-file-next
 .. |downloads_perl-file-next| image:: https://img.shields.io/conda/dn/bioconda/perl-file-next.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-next| image:: https://quay.io/repository/biocontainers/perl-file-next/status
    :target: https://quay.io/repository/biocontainers/perl-file-next
+.. _`perl-file-next/tags`: https://quay.io/repository/biocontainers/perl-file-next?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-next/README.html
-

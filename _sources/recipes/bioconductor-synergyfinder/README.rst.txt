@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-synergyfinder'
 .. highlight: bash
-
 
 bioconductor-synergyfinder
 ==========================
@@ -22,11 +23,27 @@ bioconductor-synergyfinder
 
    |downloads_bioconductor-synergyfinder| |docker_bioconductor-synergyfinder|
 
-   :versions: 1.8.0, 1.6.1, 1.4.0, 1.2.0, 1.0.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-drc` >=2.5-12 :conda:package:`r-ggplot2` >=2.1.0 :conda:package:`r-gplots` >=3.0.0 :conda:package:`r-gridbase` >=0.4-7 :conda:package:`r-lattice` >=0.20-33 :conda:package:`r-nleqslv` >=3.0 :conda:package:`r-reshape2` >=1.4.1 :conda:package:`r-spatialextremes` >=2.0-2 
-
-   :required~by: |required_by_bioconductor-synergyfinder|
+   :versions: 1.8.0-0, 1.6.1-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-drc: >=2.5-12
+   
+   :depends r-ggplot2: >=2.1.0
+   
+   :depends r-gplots: >=3.0.0
+   
+   :depends r-gridbase: >=0.4-7
+   
+   :depends r-lattice: >=0.20-33
+   
+   :depends r-nleqslv: >=3.0
+   
+   :depends r-reshape2: >=1.4.1
+   
+   :depends r-spatialextremes: >=2.0-2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ bioconductor-synergyfinder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-synergyfinder
+      docker pull quay.io/repository/biocontainers/bioconductor-synergyfinder:<tag>
+
+   (see `bioconductor-synergyfinder/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-synergyfinder| conda:required_by:: bioconductor-synergyfinder
 .. |downloads_bioconductor-synergyfinder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-synergyfinder.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-synergyfinder| image:: https://quay.io/repository/biocontainers/bioconductor-synergyfinder/status
    :target: https://quay.io/repository/biocontainers/bioconductor-synergyfinder
+.. _`bioconductor-synergyfinder/tags`: https://quay.io/repository/biocontainers/bioconductor-synergyfinder?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-synergyfinder/README.html
-

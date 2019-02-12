@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'python-cluster'
 .. highlight: bash
-
 
 python-cluster
 ==============
@@ -21,11 +22,11 @@ python-cluster
 
    |downloads_python-cluster| |docker_python-cluster|
 
-   :versions: 1.4.1.post1, 1.4.1, 1.3.3
-
-   :depends: :conda:package:`python`  
-
-   :required~by: |required_by_python-cluster|
+   :versions: 1.4.1.post1-0, 1.4.1-2, 1.4.1-0, 1.3.3-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ python-cluster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-cluster
+      docker pull quay.io/repository/biocontainers/python-cluster:<tag>
+
+   (see `python-cluster/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_python-cluster| conda:required_by:: python-cluster
 .. |downloads_python-cluster| image:: https://img.shields.io/conda/dn/bioconda/python-cluster.svg?style=flat
    :alt:   (downloads)
 .. |docker_python-cluster| image:: https://quay.io/repository/biocontainers/python-cluster/status
    :target: https://quay.io/repository/biocontainers/python-cluster
+.. _`python-cluster/tags`: https://quay.io/repository/biocontainers/python-cluster?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/python-cluster/README.html
-

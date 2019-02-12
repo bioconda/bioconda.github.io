@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'expansionhunter'
 .. highlight: bash
-
 
 expansionhunter
 ===============
@@ -21,11 +22,19 @@ expansionhunter
 
    |downloads_expansionhunter| |docker_expansionhunter|
 
-   :versions: 2.0.8, 2.0.6
-
-   :depends: :conda:package:`boost` 1.61* :conda:package:`icu`  :conda:package:`libgcc`  
-
-   :required~by: |required_by_expansionhunter|
+   :versions: 2.0.8-1, 2.0.8-0, 2.0.6-0
+   
+   :depends boost: >=1.66.0,<1.66.1.0a0
+   
+   :depends icu: >=58.2,<59.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ expansionhunter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/expansionhunter
+      docker pull quay.io/repository/biocontainers/expansionhunter:<tag>
+
+   (see `expansionhunter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_expansionhunter| conda:required_by:: expansionhunter
 .. |downloads_expansionhunter| image:: https://img.shields.io/conda/dn/bioconda/expansionhunter.svg?style=flat
    :alt:   (downloads)
 .. |docker_expansionhunter| image:: https://quay.io/repository/biocontainers/expansionhunter/status
    :target: https://quay.io/repository/biocontainers/expansionhunter
+.. _`expansionhunter/tags`: https://quay.io/repository/biocontainers/expansionhunter?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/expansionhunter/README.html
-

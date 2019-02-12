@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-phylosignal'
 .. highlight: bash
-
 
 r-phylosignal
 =============
@@ -21,11 +22,31 @@ r-phylosignal
 
    |downloads_r-phylosignal| |docker_r-phylosignal|
 
-   :versions: 1.2
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-adephylo`  :conda:package:`r-ape`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-boot`  :conda:package:`r-dbi`  :conda:package:`r-igraph`  :conda:package:`r-phylobase`  :conda:package:`r-rcpp` >=0.11.0 :conda:package:`r-rcpparmadillo`  
-
-   :required~by: |required_by_r-phylosignal|
+   :versions: 1.2-3, 1.2-2, 1.2-1, 1.2-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-adephylo: 
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-boot: 
+   
+   :depends r-dbi: 
+   
+   :depends r-igraph: 
+   
+   :depends r-phylobase: 
+   
+   :depends r-rcpp: >=0.11.0
+   
+   :depends r-rcpparmadillo: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ r-phylosignal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-phylosignal
+      docker pull quay.io/repository/biocontainers/r-phylosignal:<tag>
+
+   (see `r-phylosignal/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-phylosignal| conda:required_by:: r-phylosignal
 .. |downloads_r-phylosignal| image:: https://img.shields.io/conda/dn/bioconda/r-phylosignal.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-phylosignal| image:: https://quay.io/repository/biocontainers/r-phylosignal/status
    :target: https://quay.io/repository/biocontainers/r-phylosignal
+.. _`r-phylosignal/tags`: https://quay.io/repository/biocontainers/r-phylosignal?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-phylosignal/README.html
-

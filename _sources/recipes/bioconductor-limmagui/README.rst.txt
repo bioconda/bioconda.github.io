@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-limmagui'
 .. highlight: bash
-
 
 bioconductor-limmagui
 =====================
@@ -21,11 +22,19 @@ bioconductor-limmagui
 
    |downloads_bioconductor-limmagui| |docker_bioconductor-limmagui|
 
-   :versions: 1.58.0
-
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-r2html`  :conda:package:`r-tkrplot`  :conda:package:`r-xtable`  
-
-   :required~by: |required_by_bioconductor-limmagui|
+   :versions: 1.58.0-0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-r2html: 
+   
+   :depends r-tkrplot: 
+   
+   :depends r-xtable: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-limmagui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-limmagui
+      docker pull quay.io/repository/biocontainers/bioconductor-limmagui:<tag>
+
+   (see `bioconductor-limmagui/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-limmagui| conda:required_by:: bioconductor-limmagui
 .. |downloads_bioconductor-limmagui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-limmagui.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-limmagui| image:: https://quay.io/repository/biocontainers/bioconductor-limmagui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-limmagui
+.. _`bioconductor-limmagui/tags`: https://quay.io/repository/biocontainers/bioconductor-limmagui?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-limmagui/README.html
-

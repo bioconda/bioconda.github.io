@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'prosolo'
 .. highlight: bash
-
 
 prosolo
 =======
@@ -21,11 +22,23 @@ prosolo
 
    |downloads_prosolo| |docker_prosolo|
 
-   :versions: 0.6.1, 0.6.0, 0.5.0, 0.4.0, 0.3.1, 0.2.0
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`clangdev`  :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_prosolo|
+   :versions: 0.6.1-0, 0.6.0-0, 0.5.0-0, 0.4.0-4, 0.4.0-3, 0.4.0-2, 0.4.0-1, 0.3.1-0, 0.2.0-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends clangdev: 
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :depends xz: >=5.2.4,<5.3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ prosolo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prosolo
+      docker pull quay.io/repository/biocontainers/prosolo:<tag>
+
+   (see `prosolo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_prosolo| conda:required_by:: prosolo
 .. |downloads_prosolo| image:: https://img.shields.io/conda/dn/bioconda/prosolo.svg?style=flat
    :alt:   (downloads)
 .. |docker_prosolo| image:: https://quay.io/repository/biocontainers/prosolo/status
    :target: https://quay.io/repository/biocontainers/prosolo
+.. _`prosolo/tags`: https://quay.io/repository/biocontainers/prosolo?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/prosolo/README.html
-

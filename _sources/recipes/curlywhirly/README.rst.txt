@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'curlywhirly'
 .. highlight: bash
-
 
 curlywhirly
 ===========
@@ -21,11 +22,11 @@ curlywhirly
 
    |downloads_curlywhirly| |docker_curlywhirly|
 
-   :versions: 1.17.08.31
-
-   :depends: :conda:package:`openjdk` >=8,<9 
-
-   :required~by: |required_by_curlywhirly|
+   :versions: 1.17.08.31-1, 1.17.08.31-0
+   
+   :depends openjdk: >=8,<9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ curlywhirly
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/curlywhirly
+      docker pull quay.io/repository/biocontainers/curlywhirly:<tag>
+
+   (see `curlywhirly/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_curlywhirly| conda:required_by:: curlywhirly
 .. |downloads_curlywhirly| image:: https://img.shields.io/conda/dn/bioconda/curlywhirly.svg?style=flat
    :alt:   (downloads)
 .. |docker_curlywhirly| image:: https://quay.io/repository/biocontainers/curlywhirly/status
    :target: https://quay.io/repository/biocontainers/curlywhirly
+.. _`curlywhirly/tags`: https://quay.io/repository/biocontainers/curlywhirly?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/curlywhirly/README.html
-

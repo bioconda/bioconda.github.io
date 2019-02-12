@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'comparems2'
 .. highlight: bash
-
 
 comparems2
 ==========
@@ -22,11 +23,11 @@ comparems2
 
    |downloads_comparems2| |docker_comparems2|
 
-   :versions: 1
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_comparems2|
+   :versions: 1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ comparems2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/comparems2
+      docker pull quay.io/repository/biocontainers/comparems2:<tag>
+
+   (see `comparems2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_comparems2| conda:required_by:: comparems2
 .. |downloads_comparems2| image:: https://img.shields.io/conda/dn/bioconda/comparems2.svg?style=flat
    :alt:   (downloads)
 .. |docker_comparems2| image:: https://quay.io/repository/biocontainers/comparems2/status
    :target: https://quay.io/repository/biocontainers/comparems2
+.. _`comparems2/tags`: https://quay.io/repository/biocontainers/comparems2?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/comparems2/README.html
-

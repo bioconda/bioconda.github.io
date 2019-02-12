@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'assemblerflow'
 .. highlight: bash
-
 
 assemblerflow
 =============
@@ -24,11 +25,17 @@ assemblerflow
 
    |downloads_assemblerflow| |docker_assemblerflow|
 
-   :versions: 1.1.0.post3, 1.1.0.post1, 1.0.1
-
-   :depends: :conda:package:`argparse`  :conda:package:`jinja2`  :conda:package:`nextflow` >=0.27 :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_assemblerflow|
+   :versions: 1.1.0.post3-1, 1.1.0.post3-0, 1.1.0.post1-0, 1.0.1-0
+   
+   :depends argparse: 
+   
+   :depends jinja2: 
+   
+   :depends nextflow: >=0.27
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +49,16 @@ assemblerflow
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/assemblerflow
+      docker pull quay.io/repository/biocontainers/assemblerflow:<tag>
+
+   (see `assemblerflow/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_assemblerflow| conda:required_by:: assemblerflow
 .. |downloads_assemblerflow| image:: https://img.shields.io/conda/dn/bioconda/assemblerflow.svg?style=flat
    :alt:   (downloads)
 .. |docker_assemblerflow| image:: https://quay.io/repository/biocontainers/assemblerflow/status
    :target: https://quay.io/repository/biocontainers/assemblerflow
+.. _`assemblerflow/tags`: https://quay.io/repository/biocontainers/assemblerflow?tab=tags
 
 
 
@@ -66,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/assemblerflow/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-kebabs'
 .. highlight: bash
-
 
 bioconductor-kebabs
 ===================
@@ -21,11 +22,35 @@ bioconductor-kebabs
 
    |downloads_bioconductor-kebabs| |docker_bioconductor-kebabs|
 
-   :versions: 1.16.0, 1.14.0, 1.12.0
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-xvector` >=0.22.0,<0.23.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-apcluster`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-kernlab`  :conda:package:`r-liblinear`  :conda:package:`r-matrix`  :conda:package:`r-rcpp` >=0.11.2 
-
-   :required~by: |required_by_bioconductor-kebabs|
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-xvector: >=0.22.0,<0.23.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-apcluster: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-e1071: 
+   
+   :depends r-kernlab: 
+   
+   :depends r-liblinear: 
+   
+   :depends r-matrix: 
+   
+   :depends r-rcpp: >=0.11.2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ bioconductor-kebabs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-kebabs
+      docker pull quay.io/repository/biocontainers/bioconductor-kebabs:<tag>
+
+   (see `bioconductor-kebabs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-kebabs| conda:required_by:: bioconductor-kebabs
 .. |downloads_bioconductor-kebabs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-kebabs.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-kebabs| image:: https://quay.io/repository/biocontainers/bioconductor-kebabs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-kebabs
+.. _`bioconductor-kebabs/tags`: https://quay.io/repository/biocontainers/bioconductor-kebabs?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-kebabs/README.html
-

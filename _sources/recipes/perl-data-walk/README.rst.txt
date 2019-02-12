@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-data-walk'
 .. highlight: bash
-
 
 perl-data-walk
 ==============
@@ -21,11 +22,11 @@ perl-data-walk
 
    |downloads_perl-data-walk| |docker_perl-data-walk|
 
-   :versions: 2.01
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-data-walk|
+   :versions: 2.01-1, 2.01-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-data-walk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-data-walk
+      docker pull quay.io/repository/biocontainers/perl-data-walk:<tag>
+
+   (see `perl-data-walk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-data-walk| conda:required_by:: perl-data-walk
 .. |downloads_perl-data-walk| image:: https://img.shields.io/conda/dn/bioconda/perl-data-walk.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-data-walk| image:: https://quay.io/repository/biocontainers/perl-data-walk/status
    :target: https://quay.io/repository/biocontainers/perl-data-walk
+.. _`perl-data-walk/tags`: https://quay.io/repository/biocontainers/perl-data-walk?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-data-walk/README.html
-

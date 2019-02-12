@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-enrichr'
 .. highlight: bash
-
 
 r-enrichr
 =========
@@ -21,11 +22,15 @@ r-enrichr
 
    |downloads_r-enrichr| |docker_r-enrichr|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-httr`  :conda:package:`r-rjson`  
-
-   :required~by: |required_by_r-enrichr|
+   :versions: 1.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-httr: 
+   
+   :depends r-rjson: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-enrichr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-enrichr
+      docker pull quay.io/repository/biocontainers/r-enrichr:<tag>
+
+   (see `r-enrichr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-enrichr| conda:required_by:: r-enrichr
 .. |downloads_r-enrichr| image:: https://img.shields.io/conda/dn/bioconda/r-enrichr.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-enrichr| image:: https://quay.io/repository/biocontainers/r-enrichr/status
    :target: https://quay.io/repository/biocontainers/r-enrichr
+.. _`r-enrichr/tags`: https://quay.io/repository/biocontainers/r-enrichr?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-enrichr/README.html
-

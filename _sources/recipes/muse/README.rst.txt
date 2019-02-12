@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'muse'
 .. highlight: bash
-
 
 muse
 ====
@@ -21,11 +22,15 @@ muse
 
    |downloads_muse| |docker_muse|
 
-   :versions: 1.0.rc
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
-
-   :required~by: |required_by_muse|
+   :versions: 1.0.rc-2, 1.0.rc-1, 1.0.rc-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ muse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/muse
+      docker pull quay.io/repository/biocontainers/muse:<tag>
+
+   (see `muse/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_muse| conda:required_by:: muse
 .. |downloads_muse| image:: https://img.shields.io/conda/dn/bioconda/muse.svg?style=flat
    :alt:   (downloads)
 .. |docker_muse| image:: https://quay.io/repository/biocontainers/muse/status
    :target: https://quay.io/repository/biocontainers/muse
+.. _`muse/tags`: https://quay.io/repository/biocontainers/muse?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/muse/README.html
-

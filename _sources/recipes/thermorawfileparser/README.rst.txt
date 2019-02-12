@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'thermorawfileparser'
 .. highlight: bash
-
 
 thermorawfileparser
 ===================
@@ -23,11 +24,11 @@ thermorawfileparser
 
    |downloads_thermorawfileparser| |docker_thermorawfileparser|
 
-   :versions: 0.0.2018.09.07
-
-   :depends: :conda:package:`mono` >=5 
-
-   :required~by: |required_by_thermorawfileparser|
+   :versions: 0.0.2018.09.07-1, 0.0.2018.09.07-0
+   
+   :depends mono: >=5
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +42,16 @@ thermorawfileparser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/thermorawfileparser
+      docker pull quay.io/repository/biocontainers/thermorawfileparser:<tag>
+
+   (see `thermorawfileparser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_thermorawfileparser| conda:required_by:: thermorawfileparser
 .. |downloads_thermorawfileparser| image:: https://img.shields.io/conda/dn/bioconda/thermorawfileparser.svg?style=flat
    :alt:   (downloads)
 .. |docker_thermorawfileparser| image:: https://quay.io/repository/biocontainers/thermorawfileparser/status
    :target: https://quay.io/repository/biocontainers/thermorawfileparser
+.. _`thermorawfileparser/tags`: https://quay.io/repository/biocontainers/thermorawfileparser?tab=tags
 
 
 
@@ -65,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/thermorawfileparser/README.html
-

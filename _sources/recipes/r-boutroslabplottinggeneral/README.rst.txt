@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'boutroslabplottinggeneral'
 .. highlight: bash
-
 
 boutroslabplottinggeneral
 =========================
@@ -21,11 +22,49 @@ boutroslabplottinggeneral
 
    |downloads_boutroslabplottinggeneral| |docker_boutroslabplottinggeneral|
 
-   :versions: 5.3.4
-
-   :depends: :conda:package:`r-argparse`  :conda:package:`r-assertthat`  :conda:package:`r-base` 3.3.1* :conda:package:`r-bh`  :conda:package:`r-dbi`  :conda:package:`r-dplyr`  :conda:package:`r-findpython`  :conda:package:`r-getopt`  :conda:package:`r-hexbin`  :conda:package:`r-lattice`  :conda:package:`r-latticeextra`  :conda:package:`r-lazyeval`  :conda:package:`r-magrittr`  :conda:package:`r-proto`  :conda:package:`r-r.methodss3`  :conda:package:`r-r6`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp`  :conda:package:`r-rjson`  :conda:package:`r-tibble`  
-
-   :required~by: |required_by_boutroslabplottinggeneral|
+   :versions: 5.3.4-0
+   
+   :depends r-argparse: 
+   
+   :depends r-assertthat: 
+   
+   :depends r-base: 3.3.1*
+   
+   :depends r-bh: 
+   
+   :depends r-dbi: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-findpython: 
+   
+   :depends r-getopt: 
+   
+   :depends r-hexbin: 
+   
+   :depends r-lattice: 
+   
+   :depends r-latticeextra: 
+   
+   :depends r-lazyeval: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-proto: 
+   
+   :depends r-r.methodss3: 
+   
+   :depends r-r6: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-rjson: 
+   
+   :depends r-tibble: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +78,16 @@ boutroslabplottinggeneral
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/boutroslabplottinggeneral
+      docker pull quay.io/repository/biocontainers/boutroslabplottinggeneral:<tag>
+
+   (see `boutroslabplottinggeneral/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_boutroslabplottinggeneral| conda:required_by:: boutroslabplottinggeneral
 .. |downloads_boutroslabplottinggeneral| image:: https://img.shields.io/conda/dn/bioconda/boutroslabplottinggeneral.svg?style=flat
    :alt:   (downloads)
 .. |docker_boutroslabplottinggeneral| image:: https://quay.io/repository/biocontainers/boutroslabplottinggeneral/status
    :target: https://quay.io/repository/biocontainers/boutroslabplottinggeneral
+.. _`boutroslabplottinggeneral/tags`: https://quay.io/repository/biocontainers/boutroslabplottinggeneral?tab=tags
 
 
 
@@ -63,4 +104,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/boutroslabplottinggeneral/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-convert-binary-c'
 .. highlight: bash
-
 
 perl-convert-binary-c
 =====================
@@ -21,11 +22,13 @@ perl-convert-binary-c
 
    |downloads_perl-convert-binary-c| |docker_perl-convert-binary-c|
 
-   :versions: 0.78
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-convert-binary-c|
+   :versions: 0.78-2, 0.78-1, 0.78-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-convert-binary-c
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-convert-binary-c
+      docker pull quay.io/repository/biocontainers/perl-convert-binary-c:<tag>
+
+   (see `perl-convert-binary-c/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-convert-binary-c| conda:required_by:: perl-convert-binary-c
 .. |downloads_perl-convert-binary-c| image:: https://img.shields.io/conda/dn/bioconda/perl-convert-binary-c.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-convert-binary-c| image:: https://quay.io/repository/biocontainers/perl-convert-binary-c/status
    :target: https://quay.io/repository/biocontainers/perl-convert-binary-c
+.. _`perl-convert-binary-c/tags`: https://quay.io/repository/biocontainers/perl-convert-binary-c?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-convert-binary-c/README.html
-

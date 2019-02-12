@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'razers3'
 .. highlight: bash
-
 
 razers3
 =======
@@ -21,11 +22,15 @@ razers3
 
    |downloads_razers3| |docker_razers3|
 
-   :versions: 3.5.3, 3.5.0
-
-   :depends: :conda:package:`bzip2` 1.0* :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
-
-   :required~by: |required_by_razers3|
+   :versions: 3.5.3-2, 3.5.3-1, 3.5.3-0, 3.5.0-1, 3.5.0-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ razers3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/razers3
+      docker pull quay.io/repository/biocontainers/razers3:<tag>
+
+   (see `razers3/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_razers3| conda:required_by:: razers3
 .. |downloads_razers3| image:: https://img.shields.io/conda/dn/bioconda/razers3.svg?style=flat
    :alt:   (downloads)
 .. |docker_razers3| image:: https://quay.io/repository/biocontainers/razers3/status
    :target: https://quay.io/repository/biocontainers/razers3
+.. _`razers3/tags`: https://quay.io/repository/biocontainers/razers3?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/razers3/README.html
-

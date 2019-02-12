@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-json-maybexs'
 .. highlight: bash
-
 
 perl-json-maybexs
 =================
@@ -21,11 +22,15 @@ perl-json-maybexs
 
    |downloads_perl-json-maybexs| |docker_perl-json-maybexs|
 
-   :versions: 1.004000, 1.003008
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-json-pp`  
-
-   :required~by: |required_by_perl-json-maybexs|
+   :versions: 1.004000-0, 1.003008-1, 1.003008-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-json-pp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-json-maybexs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-json-maybexs
+      docker pull quay.io/repository/biocontainers/perl-json-maybexs:<tag>
+
+   (see `perl-json-maybexs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-json-maybexs| conda:required_by:: perl-json-maybexs
 .. |downloads_perl-json-maybexs| image:: https://img.shields.io/conda/dn/bioconda/perl-json-maybexs.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-json-maybexs| image:: https://quay.io/repository/biocontainers/perl-json-maybexs/status
    :target: https://quay.io/repository/biocontainers/perl-json-maybexs
+.. _`perl-json-maybexs/tags`: https://quay.io/repository/biocontainers/perl-json-maybexs?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-json-maybexs/README.html
-

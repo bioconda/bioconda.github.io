@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'maker'
 .. highlight: bash
-
 
 maker
 =====
@@ -22,11 +23,59 @@ maker
 
    |downloads_maker| |docker_maker|
 
-   :versions: 2.31.10, 2.31.9
-
-   :depends: :conda:package:`augustus` >=3.2.3 :conda:package:`blast`  :conda:package:`exonerate`  :conda:package:`infernal`  :conda:package:`mir-prefer`  :conda:package:`openmpi`  :conda:package:`perl-bioperl`  :conda:package:`perl-bit-vector`  :conda:package:`perl-dbd-pg`  :conda:package:`perl-dbd-sqlite`  :conda:package:`perl-dbi`  :conda:package:`perl-file-which`  :conda:package:`perl-forks`  :conda:package:`perl-inline-c`  :conda:package:`perl-io-all`  :conda:package:`perl-io-prompt`  :conda:package:`perl-list-moreutils` <=0.25 :conda:package:`perl-perl-unsafe-signals`  :conda:package:`perl-perlio-gzip`  :conda:package:`postgresql`  :conda:package:`repeatmasker`  :conda:package:`snap`  :conda:package:`snoscan`  :conda:package:`trnascan-se` 1.3.1 
-
-   :required~by: |required_by_maker|
+   :versions: 2.31.10-11, 2.31.10-10, 2.31.10-9, 2.31.10-8, 2.31.10-7, 2.31.10-6, 2.31.9-6, 2.31.9-3, 2.31.9-2, 2.31.9-1, 2.31.9-0
+   
+   :depends augustus: >=3.2.3
+   
+   :depends blast: 
+   
+   :depends exonerate: 
+   
+   :depends infernal: 
+   
+   :depends mir-prefer: 
+   
+   :depends openmpi: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bioperl: >=1.7
+   
+   :depends perl-bit-vector: 
+   
+   :depends perl-dbd-pg: 
+   
+   :depends perl-dbd-sqlite: 
+   
+   :depends perl-dbi: 
+   
+   :depends perl-file-which: 
+   
+   :depends perl-forks: 
+   
+   :depends perl-inline-c: >=0.78
+   
+   :depends perl-io-all: 
+   
+   :depends perl-io-prompt: 
+   
+   :depends perl-list-moreutils: 
+   
+   :depends perl-perl-unsafe-signals: 
+   
+   :depends perl-perlio-gzip: 
+   
+   :depends postgresql: 
+   
+   :depends repeatmasker: 
+   
+   :depends snap: 
+   
+   :depends snoscan: 
+   
+   :depends trnascan-se: 1.3.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +89,16 @@ maker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/maker
+      docker pull quay.io/repository/biocontainers/maker:<tag>
+
+   (see `maker/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_maker| conda:required_by:: maker
 .. |downloads_maker| image:: https://img.shields.io/conda/dn/bioconda/maker.svg?style=flat
    :alt:   (downloads)
 .. |docker_maker| image:: https://quay.io/repository/biocontainers/maker/status
    :target: https://quay.io/repository/biocontainers/maker
+.. _`maker/tags`: https://quay.io/repository/biocontainers/maker?tab=tags
 
 
 
@@ -64,4 +115,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/maker/README.html
-

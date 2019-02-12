@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-tie-hash'
 .. highlight: bash
-
 
 perl-tie-hash
 =============
@@ -21,11 +22,11 @@ perl-tie-hash
 
    |downloads_perl-tie-hash| |docker_perl-tie-hash|
 
-   :versions: 1.05
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-tie-hash|
+   :versions: 1.05-1, 1.05-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-tie-hash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-tie-hash
+      docker pull quay.io/repository/biocontainers/perl-tie-hash:<tag>
+
+   (see `perl-tie-hash/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-tie-hash| conda:required_by:: perl-tie-hash
 .. |downloads_perl-tie-hash| image:: https://img.shields.io/conda/dn/bioconda/perl-tie-hash.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-tie-hash| image:: https://quay.io/repository/biocontainers/perl-tie-hash/status
    :target: https://quay.io/repository/biocontainers/perl-tie-hash
+.. _`perl-tie-hash/tags`: https://quay.io/repository/biocontainers/perl-tie-hash?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-tie-hash/README.html
-

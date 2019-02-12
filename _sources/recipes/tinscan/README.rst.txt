@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tinscan'
 .. highlight: bash
-
 
 tinscan
 =======
@@ -21,11 +22,13 @@ tinscan
 
    |downloads_tinscan| |docker_tinscan|
 
-   :versions: 0.2.0
-
-   :depends: :conda:package:`biopython` >=1.70 :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_tinscan|
+   :versions: 0.2.0-1, 0.2.0-0
+   
+   :depends biopython: >=1.70
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ tinscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tinscan
+      docker pull quay.io/repository/biocontainers/tinscan:<tag>
+
+   (see `tinscan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tinscan| conda:required_by:: tinscan
 .. |downloads_tinscan| image:: https://img.shields.io/conda/dn/bioconda/tinscan.svg?style=flat
    :alt:   (downloads)
 .. |docker_tinscan| image:: https://quay.io/repository/biocontainers/tinscan/status
    :target: https://quay.io/repository/biocontainers/tinscan
+.. _`tinscan/tags`: https://quay.io/repository/biocontainers/tinscan?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tinscan/README.html
-

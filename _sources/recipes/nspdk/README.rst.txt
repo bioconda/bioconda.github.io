@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nspdk'
 .. highlight: bash
-
 
 nspdk
 =====
@@ -21,11 +22,13 @@ nspdk
 
    |downloads_nspdk| |docker_nspdk|
 
-   :versions: 9.2
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_nspdk|
+   :versions: 9.2-0
+   
+   :depends libgcc: 
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ nspdk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nspdk
+      docker pull quay.io/repository/biocontainers/nspdk:<tag>
+
+   (see `nspdk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nspdk| conda:required_by:: nspdk
 .. |downloads_nspdk| image:: https://img.shields.io/conda/dn/bioconda/nspdk.svg?style=flat
    :alt:   (downloads)
 .. |docker_nspdk| image:: https://quay.io/repository/biocontainers/nspdk/status
    :target: https://quay.io/repository/biocontainers/nspdk
+.. _`nspdk/tags`: https://quay.io/repository/biocontainers/nspdk?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nspdk/README.html
-

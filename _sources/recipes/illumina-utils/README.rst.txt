@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'illumina-utils'
 .. highlight: bash
-
 
 illumina-utils
 ==============
@@ -21,11 +22,17 @@ illumina-utils
 
    |downloads_illumina-utils| |docker_illumina-utils|
 
-   :versions: 2.6, 2.5, 2.4.1
-
-   :depends: :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`python` >=3 :conda:package:`python-levenshtein`  
-
-   :required~by: |required_by_illumina-utils|
+   :versions: 2.6-0, 2.5-0, 2.4.1-0
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends python: >=3
+   
+   :depends python-levenshtein: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ illumina-utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/illumina-utils
+      docker pull quay.io/repository/biocontainers/illumina-utils:<tag>
+
+   (see `illumina-utils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_illumina-utils| conda:required_by:: illumina-utils
 .. |downloads_illumina-utils| image:: https://img.shields.io/conda/dn/bioconda/illumina-utils.svg?style=flat
    :alt:   (downloads)
 .. |docker_illumina-utils| image:: https://quay.io/repository/biocontainers/illumina-utils/status
    :target: https://quay.io/repository/biocontainers/illumina-utils
+.. _`illumina-utils/tags`: https://quay.io/repository/biocontainers/illumina-utils?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/illumina-utils/README.html
-

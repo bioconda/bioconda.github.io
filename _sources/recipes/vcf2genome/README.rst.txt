@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vcf2genome'
 .. highlight: bash
-
 
 vcf2genome
 ==========
@@ -21,11 +22,13 @@ vcf2genome
 
    |downloads_vcf2genome| |docker_vcf2genome|
 
-   :versions: 0.91
-
-   :depends: :conda:package:`openjdk`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_vcf2genome|
+   :versions: 0.91-1, 0.91-0
+   
+   :depends openjdk: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ vcf2genome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcf2genome
+      docker pull quay.io/repository/biocontainers/vcf2genome:<tag>
+
+   (see `vcf2genome/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vcf2genome| conda:required_by:: vcf2genome
 .. |downloads_vcf2genome| image:: https://img.shields.io/conda/dn/bioconda/vcf2genome.svg?style=flat
    :alt:   (downloads)
 .. |docker_vcf2genome| image:: https://quay.io/repository/biocontainers/vcf2genome/status
    :target: https://quay.io/repository/biocontainers/vcf2genome
+.. _`vcf2genome/tags`: https://quay.io/repository/biocontainers/vcf2genome?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vcf2genome/README.html
-

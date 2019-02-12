@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-splinetimer'
 .. highlight: bash
-
 
 bioconductor-splinetimer
 ========================
@@ -22,11 +23,27 @@ bioconductor-splinetimer
 
    |downloads_bioconductor-splinetimer| |docker_bioconductor-splinetimer|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-fis` >=1.10.0,<1.11.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-genenet` >=1.2.13 :conda:package:`r-gtools`  :conda:package:`r-igraph`  :conda:package:`r-longitudinal` >=1.1.12 
-
-   :required~by: |required_by_bioconductor-splinetimer|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-fis: >=1.10.0,<1.11.0
+   
+   :depends bioconductor-gseabase: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-genenet: >=1.2.13
+   
+   :depends r-gtools: 
+   
+   :depends r-igraph: 
+   
+   :depends r-longitudinal: >=1.1.12
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ bioconductor-splinetimer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-splinetimer
+      docker pull quay.io/repository/biocontainers/bioconductor-splinetimer:<tag>
+
+   (see `bioconductor-splinetimer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-splinetimer| conda:required_by:: bioconductor-splinetimer
 .. |downloads_bioconductor-splinetimer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-splinetimer.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-splinetimer| image:: https://quay.io/repository/biocontainers/bioconductor-splinetimer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-splinetimer
+.. _`bioconductor-splinetimer/tags`: https://quay.io/repository/biocontainers/bioconductor-splinetimer?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-splinetimer/README.html
-

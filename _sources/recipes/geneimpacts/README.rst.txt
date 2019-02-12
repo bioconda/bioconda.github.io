@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'geneimpacts'
 .. highlight: bash
-
 
 geneimpacts
 ===========
@@ -21,11 +22,11 @@ geneimpacts
 
    |downloads_geneimpacts| |docker_geneimpacts|
 
-   :versions: 0.3.6, 0.3.5, 0.3.4, 0.3.3, 0.3.1, 0.3.0a0, 0.2.0, 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.1.0, 0.0.9, 0.0.8, 0.0.7, 0.0.5, 0.0.4
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_geneimpacts|
+   :versions: 0.3.6-3, 0.3.6-2, 0.3.6-0, 0.3.5-0, 0.3.4-0, 0.3.3-0, 0.3.1-0, 0.3.0a0-0, 0.2.0-1, 0.1.4-1, 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.9-0, 0.0.8-0, 0.0.7-0, 0.0.5-0, 0.0.4-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ geneimpacts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/geneimpacts
+      docker pull quay.io/repository/biocontainers/geneimpacts:<tag>
+
+   (see `geneimpacts/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_geneimpacts| conda:required_by:: geneimpacts
 .. |downloads_geneimpacts| image:: https://img.shields.io/conda/dn/bioconda/geneimpacts.svg?style=flat
    :alt:   (downloads)
 .. |docker_geneimpacts| image:: https://quay.io/repository/biocontainers/geneimpacts/status
    :target: https://quay.io/repository/biocontainers/geneimpacts
+.. _`geneimpacts/tags`: https://quay.io/repository/biocontainers/geneimpacts?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/geneimpacts/README.html
-

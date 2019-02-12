@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-ntlm'
 .. highlight: bash
-
 
 perl-ntlm
 =========
@@ -21,11 +22,13 @@ perl-ntlm
 
    |downloads_perl-ntlm| |docker_perl-ntlm|
 
-   :versions: 1.09
-
-   :depends: :conda:package:`perl-digest-hmac`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-ntlm|
+   :versions: 1.09-3, 1.09-2, 1.09-1
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-digest-hmac: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-ntlm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-ntlm
+      docker pull quay.io/repository/biocontainers/perl-ntlm:<tag>
+
+   (see `perl-ntlm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-ntlm| conda:required_by:: perl-ntlm
 .. |downloads_perl-ntlm| image:: https://img.shields.io/conda/dn/bioconda/perl-ntlm.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-ntlm| image:: https://quay.io/repository/biocontainers/perl-ntlm/status
    :target: https://quay.io/repository/biocontainers/perl-ntlm
+.. _`perl-ntlm/tags`: https://quay.io/repository/biocontainers/perl-ntlm?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-ntlm/README.html
-

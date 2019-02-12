@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'spectra-cluster-cli'
 .. highlight: bash
-
 
 spectra-cluster-cli
 ===================
@@ -21,11 +22,13 @@ spectra-cluster-cli
 
    |downloads_spectra-cluster-cli| |docker_spectra-cluster-cli|
 
-   :versions: 1.1.2, 1.0.1
-
-   :depends: :conda:package:`openjdk` >=6 :conda:package:`python`  
-
-   :required~by: |required_by_spectra-cluster-cli|
+   :versions: 1.1.2-0, 1.0.1-1, 1.0.1-0
+   
+   :depends openjdk: >=6
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ spectra-cluster-cli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spectra-cluster-cli
+      docker pull quay.io/repository/biocontainers/spectra-cluster-cli:<tag>
+
+   (see `spectra-cluster-cli/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_spectra-cluster-cli| conda:required_by:: spectra-cluster-cli
 .. |downloads_spectra-cluster-cli| image:: https://img.shields.io/conda/dn/bioconda/spectra-cluster-cli.svg?style=flat
    :alt:   (downloads)
 .. |docker_spectra-cluster-cli| image:: https://quay.io/repository/biocontainers/spectra-cluster-cli/status
    :target: https://quay.io/repository/biocontainers/spectra-cluster-cli
+.. _`spectra-cluster-cli/tags`: https://quay.io/repository/biocontainers/spectra-cluster-cli?tab=tags
 
 
 
@@ -72,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/spectra-cluster-cli/README.html
-

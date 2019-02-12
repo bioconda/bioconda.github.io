@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tablet'
 .. highlight: bash
-
 
 tablet
 ======
@@ -21,11 +22,11 @@ tablet
 
    |downloads_tablet| |docker_tablet|
 
-   :versions: 1.17.08.17
-
-   :depends: :conda:package:`openjdk` >=8,<9 
-
-   :required~by: |required_by_tablet|
+   :versions: 1.17.08.17-1, 1.17.08.17-0
+   
+   :depends openjdk: >=8,<9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ tablet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tablet
+      docker pull quay.io/repository/biocontainers/tablet:<tag>
+
+   (see `tablet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tablet| conda:required_by:: tablet
 .. |downloads_tablet| image:: https://img.shields.io/conda/dn/bioconda/tablet.svg?style=flat
    :alt:   (downloads)
 .. |docker_tablet| image:: https://quay.io/repository/biocontainers/tablet/status
    :target: https://quay.io/repository/biocontainers/tablet
+.. _`tablet/tags`: https://quay.io/repository/biocontainers/tablet?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tablet/README.html
-

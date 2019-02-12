@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ray'
 .. highlight: bash
-
 
 ray
 ===
@@ -22,11 +23,13 @@ ray
 
    |downloads_ray| |docker_ray|
 
-   :versions: 2.3.1
-
-   :depends: :conda:package:`libgcc`  :conda:package:`openmpi` >=2.0.2 
-
-   :required~by: |required_by_ray|
+   :versions: 2.3.1-1, 2.3.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openmpi: >=2.0.2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ ray
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ray
+      docker pull quay.io/repository/biocontainers/ray:<tag>
+
+   (see `ray/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ray| conda:required_by:: ray
 .. |downloads_ray| image:: https://img.shields.io/conda/dn/bioconda/ray.svg?style=flat
    :alt:   (downloads)
 .. |docker_ray| image:: https://quay.io/repository/biocontainers/ray/status
    :target: https://quay.io/repository/biocontainers/ray
+.. _`ray/tags`: https://quay.io/repository/biocontainers/ray?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ray/README.html
-

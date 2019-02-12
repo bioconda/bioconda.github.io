@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-basejump'
 .. highlight: bash
-
 
 r-basejump
 ==========
@@ -21,11 +22,75 @@ r-basejump
 
    |downloads_r-basejump| |docker_r-basejump|
 
-   :versions: 0.7.2, 0.5.9, 0.5.3, 0.1.1
-
-   :depends: :conda:package:`bioconductor-annotationhub`  :conda:package:`bioconductor-biobase`  :conda:package:`bioconductor-biocgenerics`  :conda:package:`bioconductor-ensembldb`  :conda:package:`bioconductor-genomeinfodb`  :conda:package:`bioconductor-s4vectors`  :conda:package:`r-assertive`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-cowplot` >=0.9 :conda:package:`r-dendsort`  :conda:package:`r-devtools`  :conda:package:`r-dplyr` >=0.7 :conda:package:`r-ggplot2` >=2.2.1 :conda:package:`r-knitr` >=1.2.0 :conda:package:`r-magrittr` >=1.5 :conda:package:`r-matrix` >=1.2 :conda:package:`r-matrix.utils` >=0.9 :conda:package:`r-pbapply`  :conda:package:`r-pheatmap`  :conda:package:`r-r.utils`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcurl` >=1.95 :conda:package:`r-readr` >=1.1 :conda:package:`r-readxl` >=1.0 :conda:package:`r-rio`  :conda:package:`r-rlang` >=0.2 :conda:package:`r-scales`  :conda:package:`r-sessioninfo`  :conda:package:`r-stringr` >=1.3 :conda:package:`r-tibble` >=1.4 :conda:package:`r-tidyr` >=0.8 :conda:package:`r-viridis`  :conda:package:`r-yaml`  
-
-   :required~by: |required_by_r-basejump|
+   :versions: 0.7.2-1, 0.7.2-0, 0.5.9-0, 0.5.3-0, 0.1.1-0
+   
+   :depends bioconductor-annotationhub: 
+   
+   :depends bioconductor-biobase: 
+   
+   :depends bioconductor-biocgenerics: 
+   
+   :depends bioconductor-ensembldb: 
+   
+   :depends bioconductor-genomeinfodb: 
+   
+   :depends bioconductor-s4vectors: 
+   
+   :depends r-assertive: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cowplot: >=0.9
+   
+   :depends r-dendsort: 
+   
+   :depends r-devtools: 
+   
+   :depends r-dplyr: >=0.7
+   
+   :depends r-ggplot2: >=2.2.1
+   
+   :depends r-knitr: >=1.2.0
+   
+   :depends r-magrittr: >=1.5
+   
+   :depends r-matrix: >=1.2
+   
+   :depends r-matrix.utils: >=0.9
+   
+   :depends r-pbapply: 
+   
+   :depends r-pheatmap: 
+   
+   :depends r-r.utils: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rcurl: >=1.95
+   
+   :depends r-readr: >=1.1
+   
+   :depends r-readxl: >=1.0
+   
+   :depends r-rio: 
+   
+   :depends r-rlang: >=0.2
+   
+   :depends r-scales: 
+   
+   :depends r-sessioninfo: 
+   
+   :depends r-stringr: >=1.3
+   
+   :depends r-tibble: >=1.4
+   
+   :depends r-tidyr: >=0.8
+   
+   :depends r-viridis: 
+   
+   :depends r-yaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +104,16 @@ r-basejump
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-basejump
+      docker pull quay.io/repository/biocontainers/r-basejump:<tag>
+
+   (see `r-basejump/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-basejump| conda:required_by:: r-basejump
 .. |downloads_r-basejump| image:: https://img.shields.io/conda/dn/bioconda/r-basejump.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-basejump| image:: https://quay.io/repository/biocontainers/r-basejump/status
    :target: https://quay.io/repository/biocontainers/r-basejump
+.. _`r-basejump/tags`: https://quay.io/repository/biocontainers/r-basejump?tab=tags
 
 
 
@@ -63,4 +130,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-basejump/README.html
-

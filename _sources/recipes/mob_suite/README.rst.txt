@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mob_suite'
 .. highlight: bash
-
 
 mob_suite
 =========
@@ -21,11 +22,29 @@ mob_suite
 
    |downloads_mob_suite| |docker_mob_suite|
 
-   :versions: 1.4.9, 1.4.8, 1.4.6, 1.4.5, 1.4.1
-
-   :depends: :conda:package:`biopython` >=1.70 :conda:package:`blast`  :conda:package:`circlator`  :conda:package:`mash`  :conda:package:`numpy` >=1.11 :conda:package:`pandas` >=0.22.0 :conda:package:`pycurl` >=7.43 :conda:package:`pytables` >=3.3 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`scipy` >=1.1 
-
-   :required~by: |required_by_mob_suite|
+   :versions: 1.4.9-1, 1.4.9-0, 1.4.8-0, 1.4.6-1, 1.4.5-1, 1.4.1-0
+   
+   :depends biopython: >=1.70
+   
+   :depends blast: 
+   
+   :depends circlator: 
+   
+   :depends mash: 
+   
+   :depends numpy: >=1.11
+   
+   :depends pandas: >=0.22.0
+   
+   :depends pycurl: >=7.43
+   
+   :depends pytables: >=3.3
+   
+   :depends python: >=3.4
+   
+   :depends scipy: >=1.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ mob_suite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mob_suite
+      docker pull quay.io/repository/biocontainers/mob_suite:<tag>
+
+   (see `mob_suite/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mob_suite| conda:required_by:: mob_suite
 .. |downloads_mob_suite| image:: https://img.shields.io/conda/dn/bioconda/mob_suite.svg?style=flat
    :alt:   (downloads)
 .. |docker_mob_suite| image:: https://quay.io/repository/biocontainers/mob_suite/status
    :target: https://quay.io/repository/biocontainers/mob_suite
+.. _`mob_suite/tags`: https://quay.io/repository/biocontainers/mob_suite?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mob_suite/README.html
-

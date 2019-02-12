@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'yanagiba'
 .. highlight: bash
-
 
 yanagiba
 ========
@@ -21,11 +22,17 @@ yanagiba
 
    |downloads_yanagiba| |docker_yanagiba|
 
-   :versions: 1.0.0, 0.1.0
-
-   :depends: :conda:package:`biopython` >=1.70 :conda:package:`nanomath` >=0.13.0 :conda:package:`pandas` >=0.20.3 :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_yanagiba|
+   :versions: 1.0.0-1, 1.0.0-0, 0.1.0-0
+   
+   :depends biopython: >=1.70
+   
+   :depends nanomath: >=0.13.0
+   
+   :depends pandas: >=0.20.3
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ yanagiba
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/yanagiba
+      docker pull quay.io/repository/biocontainers/yanagiba:<tag>
+
+   (see `yanagiba/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_yanagiba| conda:required_by:: yanagiba
 .. |downloads_yanagiba| image:: https://img.shields.io/conda/dn/bioconda/yanagiba.svg?style=flat
    :alt:   (downloads)
 .. |docker_yanagiba| image:: https://quay.io/repository/biocontainers/yanagiba/status
    :target: https://quay.io/repository/biocontainers/yanagiba
+.. _`yanagiba/tags`: https://quay.io/repository/biocontainers/yanagiba?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/yanagiba/README.html
-

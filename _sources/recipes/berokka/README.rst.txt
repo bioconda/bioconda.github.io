@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'berokka'
 .. highlight: bash
-
 
 berokka
 =======
@@ -21,11 +22,15 @@ berokka
 
    |downloads_berokka| |docker_berokka|
 
-   :versions: 0.2, 0.1
-
-   :depends: :conda:package:`blast` >=2.3 :conda:package:`perl`  :conda:package:`perl-bioperl`  
-
-   :required~by: |required_by_berokka|
+   :versions: 0.2-2, 0.2-0, 0.1-0
+   
+   :depends blast: >=2.3
+   
+   :depends perl: 
+   
+   :depends perl-bioperl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ berokka
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/berokka
+      docker pull quay.io/repository/biocontainers/berokka:<tag>
+
+   (see `berokka/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_berokka| conda:required_by:: berokka
 .. |downloads_berokka| image:: https://img.shields.io/conda/dn/bioconda/berokka.svg?style=flat
    :alt:   (downloads)
 .. |docker_berokka| image:: https://quay.io/repository/biocontainers/berokka/status
    :target: https://quay.io/repository/biocontainers/berokka
+.. _`berokka/tags`: https://quay.io/repository/biocontainers/berokka?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/berokka/README.html
-

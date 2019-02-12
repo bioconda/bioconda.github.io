@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-tofsims'
 .. highlight: bash
-
 
 bioconductor-tofsims
 ====================
@@ -21,11 +22,31 @@ bioconductor-tofsims
 
    |downloads_bioconductor-tofsims| |docker_bioconductor-tofsims|
 
-   :versions: 1.10.0
-
-   :depends: :conda:package:`bioconductor-protgenerics` >=1.14.0,<1.15.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`openblas` >=0.3.3,<0.3.4.0a0 :conda:package:`r-als`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-chemometricswithr`  :conda:package:`r-kernsmooth`  :conda:package:`r-rcpp` >=0.11.2 :conda:package:`r-rcpparmadillo`  :conda:package:`r-signal`  
-
-   :required~by: |required_by_bioconductor-tofsims|
+   :versions: 1.10.0-0
+   
+   :depends bioconductor-protgenerics: >=1.14.0,<1.15.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends openblas: >=0.3.3,<0.3.4.0a0
+   
+   :depends r-als: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-chemometricswithr: 
+   
+   :depends r-kernsmooth: 
+   
+   :depends r-rcpp: >=0.11.2
+   
+   :depends r-rcpparmadillo: 
+   
+   :depends r-signal: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ bioconductor-tofsims
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tofsims
+      docker pull quay.io/repository/biocontainers/bioconductor-tofsims:<tag>
+
+   (see `bioconductor-tofsims/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-tofsims| conda:required_by:: bioconductor-tofsims
 .. |downloads_bioconductor-tofsims| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tofsims.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-tofsims| image:: https://quay.io/repository/biocontainers/bioconductor-tofsims/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tofsims
+.. _`bioconductor-tofsims/tags`: https://quay.io/repository/biocontainers/bioconductor-tofsims?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-tofsims/README.html
-

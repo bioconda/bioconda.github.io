@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-assign'
 .. highlight: bash
-
 
 bioconductor-assign
 ===================
@@ -21,11 +22,23 @@ bioconductor-assign
 
    |downloads_bioconductor-assign| |docker_bioconductor-assign|
 
-   :versions: 1.18.0
-
-   :depends: :conda:package:`bioconductor-sva` >=3.30.0,<3.31.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-msm`  :conda:package:`r-rlab`  :conda:package:`r-yaml`  
-
-   :required~by: |required_by_bioconductor-assign|
+   :versions: 1.18.0-0
+   
+   :depends bioconductor-sva: >=3.30.0,<3.31.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-msm: 
+   
+   :depends r-rlab: 
+   
+   :depends r-yaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-assign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-assign
+      docker pull quay.io/repository/biocontainers/bioconductor-assign:<tag>
+
+   (see `bioconductor-assign/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-assign| conda:required_by:: bioconductor-assign
 .. |downloads_bioconductor-assign| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-assign.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-assign| image:: https://quay.io/repository/biocontainers/bioconductor-assign/status
    :target: https://quay.io/repository/biocontainers/bioconductor-assign
+.. _`bioconductor-assign/tags`: https://quay.io/repository/biocontainers/bioconductor-assign?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-assign/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-shinytandem'
 .. highlight: bash
-
 
 bioconductor-shinytandem
 ========================
@@ -21,11 +22,19 @@ bioconductor-shinytandem
 
    |downloads_bioconductor-shinytandem| |docker_bioconductor-shinytandem|
 
-   :versions: 1.20.1
-
-   :depends: :conda:package:`bioconductor-rtandem` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mixtools`  :conda:package:`r-shiny`  :conda:package:`r-xtable`  
-
-   :required~by: |required_by_bioconductor-shinytandem|
+   :versions: 1.20.1-0
+   
+   :depends bioconductor-rtandem: >=1.22.0,<1.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mixtools: 
+   
+   :depends r-shiny: 
+   
+   :depends r-xtable: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-shinytandem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-shinytandem
+      docker pull quay.io/repository/biocontainers/bioconductor-shinytandem:<tag>
+
+   (see `bioconductor-shinytandem/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-shinytandem| conda:required_by:: bioconductor-shinytandem
 .. |downloads_bioconductor-shinytandem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-shinytandem.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-shinytandem| image:: https://quay.io/repository/biocontainers/bioconductor-shinytandem/status
    :target: https://quay.io/repository/biocontainers/bioconductor-shinytandem
+.. _`bioconductor-shinytandem/tags`: https://quay.io/repository/biocontainers/bioconductor-shinytandem?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-shinytandem/README.html
-

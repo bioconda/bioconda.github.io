@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-font-afm'
 .. highlight: bash
-
 
 perl-font-afm
 =============
@@ -21,11 +22,11 @@ perl-font-afm
 
    |downloads_perl-font-afm| |docker_perl-font-afm|
 
-   :versions: 1.20
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-font-afm|
+   :versions: 1.20-2, 1.20-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-font-afm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-font-afm
+      docker pull quay.io/repository/biocontainers/perl-font-afm:<tag>
+
+   (see `perl-font-afm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-font-afm| conda:required_by:: perl-font-afm
 .. |downloads_perl-font-afm| image:: https://img.shields.io/conda/dn/bioconda/perl-font-afm.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-font-afm| image:: https://quay.io/repository/biocontainers/perl-font-afm/status
    :target: https://quay.io/repository/biocontainers/perl-font-afm
+.. _`perl-font-afm/tags`: https://quay.io/repository/biocontainers/perl-font-afm?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-font-afm/README.html
-

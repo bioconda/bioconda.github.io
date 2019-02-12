@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'muscle'
 .. highlight: bash
-
 
 muscle
 ======
@@ -22,11 +23,11 @@ muscle
 
    |downloads_muscle| |docker_muscle|
 
-   :versions: 3.8.1551, 3.8.31
-
-   :depends: 
-
-   :required~by: |required_by_muscle|
+   :versions: 3.8.1551-3, 3.8.1551-2, 3.8.1551-1, 3.8.31-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ muscle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/muscle
+      docker pull quay.io/repository/biocontainers/muscle:<tag>
+
+   (see `muscle/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_muscle| conda:required_by:: muscle
 .. |downloads_muscle| image:: https://img.shields.io/conda/dn/bioconda/muscle.svg?style=flat
    :alt:   (downloads)
 .. |docker_muscle| image:: https://quay.io/repository/biocontainers/muscle/status
    :target: https://quay.io/repository/biocontainers/muscle
+.. _`muscle/tags`: https://quay.io/repository/biocontainers/muscle?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/muscle/README.html
-

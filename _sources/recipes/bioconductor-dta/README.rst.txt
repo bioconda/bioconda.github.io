@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-dta'
 .. highlight: bash
-
 
 bioconductor-dta
 ================
@@ -22,11 +23,15 @@ bioconductor-dta
 
    |downloads_bioconductor-dta| |docker_bioconductor-dta|
 
-   :versions: 2.28.0, 2.26.0, 2.24.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lsd`  :conda:package:`r-scatterplot3d`  
-
-   :required~by: |required_by_bioconductor-dta|
+   :versions: 2.28.0-0, 2.26.0-0, 2.24.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-lsd: 
+   
+   :depends r-scatterplot3d: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-dta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dta
+      docker pull quay.io/repository/biocontainers/bioconductor-dta:<tag>
+
+   (see `bioconductor-dta/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-dta| conda:required_by:: bioconductor-dta
 .. |downloads_bioconductor-dta| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dta.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-dta| image:: https://quay.io/repository/biocontainers/bioconductor-dta/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dta
+.. _`bioconductor-dta/tags`: https://quay.io/repository/biocontainers/bioconductor-dta?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-dta/README.html
-

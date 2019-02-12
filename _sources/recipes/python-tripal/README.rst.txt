@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'python-tripal'
 .. highlight: bash
-
 
 python-tripal
 =============
@@ -22,11 +23,21 @@ python-tripal
 
    |downloads_python-tripal| |docker_python-tripal|
 
-   :versions: 3.1.1, 3.0, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 1.8, 1.7, 1.5
-
-   :depends: :conda:package:`click`  :conda:package:`future`  :conda:package:`python`  :conda:package:`pyyaml`  :conda:package:`requests` >=2.4.3 :conda:package:`wrapt`  
-
-   :required~by: |required_by_python-tripal|
+   :versions: 3.1.1-0, 3.0-1, 3.0-0, 2.0.4-0, 2.0.3-0, 2.0.2-0, 2.0.1-0, 1.8-0, 1.7-0, 1.5-0
+   
+   :depends click: 
+   
+   :depends future: 
+   
+   :depends python: 
+   
+   :depends pyyaml: 
+   
+   :depends requests: >=2.4.3
+   
+   :depends wrapt: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ python-tripal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-tripal
+      docker pull quay.io/repository/biocontainers/python-tripal:<tag>
+
+   (see `python-tripal/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_python-tripal| conda:required_by:: python-tripal
 .. |downloads_python-tripal| image:: https://img.shields.io/conda/dn/bioconda/python-tripal.svg?style=flat
    :alt:   (downloads)
 .. |docker_python-tripal| image:: https://quay.io/repository/biocontainers/python-tripal/status
    :target: https://quay.io/repository/biocontainers/python-tripal
+.. _`python-tripal/tags`: https://quay.io/repository/biocontainers/python-tripal?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/python-tripal/README.html
-

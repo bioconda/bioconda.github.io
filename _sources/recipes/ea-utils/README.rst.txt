@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ea-utils'
 .. highlight: bash
-
 
 ea-utils
 ========
@@ -22,11 +23,17 @@ ea-utils
 
    |downloads_ea-utils| |docker_ea-utils|
 
-   :versions: 1.1.2.779, 1.1.2.537
-
-   :depends: :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_ea-utils|
+   :versions: 1.1.2.779-0, 1.1.2.537-0
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ ea-utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ea-utils
+      docker pull quay.io/repository/biocontainers/ea-utils:<tag>
+
+   (see `ea-utils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ea-utils| conda:required_by:: ea-utils
 .. |downloads_ea-utils| image:: https://img.shields.io/conda/dn/bioconda/ea-utils.svg?style=flat
    :alt:   (downloads)
 .. |docker_ea-utils| image:: https://quay.io/repository/biocontainers/ea-utils/status
    :target: https://quay.io/repository/biocontainers/ea-utils
+.. _`ea-utils/tags`: https://quay.io/repository/biocontainers/ea-utils?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ea-utils/README.html
-

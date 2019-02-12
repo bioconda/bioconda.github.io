@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-crypt-openssl-random'
 .. highlight: bash
-
 
 perl-crypt-openssl-random
 =========================
@@ -21,11 +22,13 @@ perl-crypt-openssl-random
 
    |downloads_perl-crypt-openssl-random| |docker_perl-crypt-openssl-random|
 
-   :versions: 0.11
-
-   :depends: :conda:package:`openssl`  :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-crypt-openssl-random|
+   :versions: 0.11-1, 0.11-0
+   
+   :depends openssl: >=1.0.2o,<1.0.3a
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-crypt-openssl-random
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-crypt-openssl-random
+      docker pull quay.io/repository/biocontainers/perl-crypt-openssl-random:<tag>
+
+   (see `perl-crypt-openssl-random/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-crypt-openssl-random| conda:required_by:: perl-crypt-openssl-random
 .. |downloads_perl-crypt-openssl-random| image:: https://img.shields.io/conda/dn/bioconda/perl-crypt-openssl-random.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-crypt-openssl-random| image:: https://quay.io/repository/biocontainers/perl-crypt-openssl-random/status
    :target: https://quay.io/repository/biocontainers/perl-crypt-openssl-random
+.. _`perl-crypt-openssl-random/tags`: https://quay.io/repository/biocontainers/perl-crypt-openssl-random?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-crypt-openssl-random/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-error'
 .. highlight: bash
-
 
 perl-error
 ==========
@@ -21,11 +22,11 @@ perl-error
 
    |downloads_perl-error| |docker_perl-error|
 
-   :versions: 0.17027, 0.17024
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-error|
+   :versions: 0.17027-0, 0.17024-1, 0.17024-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-error
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-error
+      docker pull quay.io/repository/biocontainers/perl-error:<tag>
+
+   (see `perl-error/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-error| conda:required_by:: perl-error
 .. |downloads_perl-error| image:: https://img.shields.io/conda/dn/bioconda/perl-error.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-error| image:: https://quay.io/repository/biocontainers/perl-error/status
    :target: https://quay.io/repository/biocontainers/perl-error
+.. _`perl-error/tags`: https://quay.io/repository/biocontainers/perl-error?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-error/README.html
-

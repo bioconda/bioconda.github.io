@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-mozilla-ca'
 .. highlight: bash
-
 
 perl-mozilla-ca
 ===============
@@ -21,11 +22,11 @@ perl-mozilla-ca
 
    |downloads_perl-mozilla-ca| |docker_perl-mozilla-ca|
 
-   :versions: 20180117, 20160104
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-mozilla-ca|
+   :versions: 20180117-0, 20160104-2, 20160104-1, 20160104-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-mozilla-ca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mozilla-ca
+      docker pull quay.io/repository/biocontainers/perl-mozilla-ca:<tag>
+
+   (see `perl-mozilla-ca/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-mozilla-ca| conda:required_by:: perl-mozilla-ca
 .. |downloads_perl-mozilla-ca| image:: https://img.shields.io/conda/dn/bioconda/perl-mozilla-ca.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-mozilla-ca| image:: https://quay.io/repository/biocontainers/perl-mozilla-ca/status
    :target: https://quay.io/repository/biocontainers/perl-mozilla-ca
+.. _`perl-mozilla-ca/tags`: https://quay.io/repository/biocontainers/perl-mozilla-ca?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-mozilla-ca/README.html
-

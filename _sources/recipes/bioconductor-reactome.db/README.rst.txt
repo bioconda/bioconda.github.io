@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-reactome.db'
 .. highlight: bash
-
 
 bioconductor-reactome.db
 ========================
@@ -21,11 +22,15 @@ bioconductor-reactome.db
 
    |downloads_bioconductor-reactome.db| |docker_bioconductor-reactome.db|
 
-   :versions: 1.66.0, 1.64.0, 1.62.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-reactome.db|
+   :versions: 1.66.0-0, 1.64.0-0, 1.62.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-reactome.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-reactome.db
+      docker pull quay.io/repository/biocontainers/bioconductor-reactome.db:<tag>
+
+   (see `bioconductor-reactome.db/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-reactome.db| conda:required_by:: bioconductor-reactome.db
 .. |downloads_bioconductor-reactome.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-reactome.db.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-reactome.db| image:: https://quay.io/repository/biocontainers/bioconductor-reactome.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-reactome.db
+.. _`bioconductor-reactome.db/tags`: https://quay.io/repository/biocontainers/bioconductor-reactome.db?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-reactome.db/README.html
-

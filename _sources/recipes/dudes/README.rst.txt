@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dudes'
 .. highlight: bash
-
 
 dudes
 =====
@@ -21,11 +22,15 @@ dudes
 
    |downloads_dudes| |docker_dudes|
 
-   :versions: 0.08, 0.07, 0.06
-
-   :depends: :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_dudes|
+   :versions: 0.08-1, 0.08-0, 0.07-1, 0.07-0, 0.06-3, 0.06-2, 0.06-1, 0.06-0
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ dudes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dudes
+      docker pull quay.io/repository/biocontainers/dudes:<tag>
+
+   (see `dudes/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dudes| conda:required_by:: dudes
 .. |downloads_dudes| image:: https://img.shields.io/conda/dn/bioconda/dudes.svg?style=flat
    :alt:   (downloads)
 .. |docker_dudes| image:: https://quay.io/repository/biocontainers/dudes/status
    :target: https://quay.io/repository/biocontainers/dudes
+.. _`dudes/tags`: https://quay.io/repository/biocontainers/dudes?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dudes/README.html
-

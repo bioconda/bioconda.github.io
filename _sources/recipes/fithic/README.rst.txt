@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fithic'
 .. highlight: bash
-
 
 fithic
 ======
@@ -21,11 +22,23 @@ fithic
 
    |downloads_fithic| |docker_fithic|
 
-   :versions: 2.0.6, 2.0.5
-
-   :depends: :conda:package:`argparse`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`python` >=3 :conda:package:`scikit-learn`  :conda:package:`scipy`  :conda:package:`sortedcontainers`  
-
-   :required~by: |required_by_fithic|
+   :versions: 2.0.6-0, 2.0.5-0
+   
+   :depends argparse: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends python: >=3
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :depends sortedcontainers: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ fithic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fithic
+      docker pull quay.io/repository/biocontainers/fithic:<tag>
+
+   (see `fithic/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fithic| conda:required_by:: fithic
 .. |downloads_fithic| image:: https://img.shields.io/conda/dn/bioconda/fithic.svg?style=flat
    :alt:   (downloads)
 .. |docker_fithic| image:: https://quay.io/repository/biocontainers/fithic/status
    :target: https://quay.io/repository/biocontainers/fithic
+.. _`fithic/tags`: https://quay.io/repository/biocontainers/fithic?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fithic/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-oscope'
 .. highlight: bash
-
 
 bioconductor-oscope
 ===================
@@ -22,11 +23,19 @@ bioconductor-oscope
 
    |downloads_bioconductor-oscope| |docker_bioconductor-oscope|
 
-   :versions: 1.12.0, 1.10.0, 1.8.0, 1.6.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-ebseq` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-testthat`  
-
-   :required~by: |required_by_bioconductor-oscope|
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-ebseq: >=1.22.0,<1.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :depends r-testthat: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-oscope
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-oscope
+      docker pull quay.io/repository/biocontainers/bioconductor-oscope:<tag>
+
+   (see `bioconductor-oscope/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-oscope| conda:required_by:: bioconductor-oscope
 .. |downloads_bioconductor-oscope| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-oscope.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-oscope| image:: https://quay.io/repository/biocontainers/bioconductor-oscope/status
    :target: https://quay.io/repository/biocontainers/bioconductor-oscope
+.. _`bioconductor-oscope/tags`: https://quay.io/repository/biocontainers/bioconductor-oscope?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-oscope/README.html
-

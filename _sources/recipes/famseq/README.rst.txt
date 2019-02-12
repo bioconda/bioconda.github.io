@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'famseq'
 .. highlight: bash
-
 
 famseq
 ======
@@ -21,11 +22,11 @@ famseq
 
    |downloads_famseq| |docker_famseq|
 
-   :versions: 1.0.3
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_famseq|
+   :versions: 1.0.3-1, 1.0.3-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ famseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/famseq
+      docker pull quay.io/repository/biocontainers/famseq:<tag>
+
+   (see `famseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_famseq| conda:required_by:: famseq
 .. |downloads_famseq| image:: https://img.shields.io/conda/dn/bioconda/famseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_famseq| image:: https://quay.io/repository/biocontainers/famseq/status
    :target: https://quay.io/repository/biocontainers/famseq
+.. _`famseq/tags`: https://quay.io/repository/biocontainers/famseq?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/famseq/README.html
-

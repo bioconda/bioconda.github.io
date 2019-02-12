@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'akt'
 .. highlight: bash
-
 
 akt
 ===
@@ -22,11 +23,17 @@ akt
 
    |downloads_akt| |docker_akt|
 
-   :versions: 0.3.2, 0.2.0
-
-   :depends: :conda:package:`libgcc`  :conda:package:`openmp`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_akt|
+   :versions: 0.3.2-2, 0.3.2-1, 0.3.2-0, 0.2.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends openmp: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ akt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/akt
+      docker pull quay.io/repository/biocontainers/akt:<tag>
+
+   (see `akt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_akt| conda:required_by:: akt
 .. |downloads_akt| image:: https://img.shields.io/conda/dn/bioconda/akt.svg?style=flat
    :alt:   (downloads)
 .. |docker_akt| image:: https://quay.io/repository/biocontainers/akt/status
    :target: https://quay.io/repository/biocontainers/akt
+.. _`akt/tags`: https://quay.io/repository/biocontainers/akt?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/akt/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pairix'
 .. highlight: bash
-
 
 pairix
 ======
@@ -21,11 +22,17 @@ pairix
 
    |downloads_pairix| |docker_pairix|
 
-   :versions: 0.3.6, 0.3.5, 0.3.3, 0.3.2, 0.3.1, 0.3.0, 0.2.5, 0.2.4, 0.1.6
-
-   :depends: :conda:package:`htslib`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pairix|
+   :versions: 0.3.6-4, 0.3.6-2, 0.3.6-1, 0.3.6-0, 0.3.5-0, 0.3.3-0, 0.3.2-0, 0.3.1-0, 0.3.0-0, 0.2.5-0, 0.2.4-0, 0.1.6-0
+   
+   :depends htslib: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ pairix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pairix
+      docker pull quay.io/repository/biocontainers/pairix:<tag>
+
+   (see `pairix/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pairix| conda:required_by:: pairix
 .. |downloads_pairix| image:: https://img.shields.io/conda/dn/bioconda/pairix.svg?style=flat
    :alt:   (downloads)
 .. |docker_pairix| image:: https://quay.io/repository/biocontainers/pairix/status
    :target: https://quay.io/repository/biocontainers/pairix
+.. _`pairix/tags`: https://quay.io/repository/biocontainers/pairix?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pairix/README.html
-

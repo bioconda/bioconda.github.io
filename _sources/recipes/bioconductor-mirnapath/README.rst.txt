@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mirnapath'
 .. highlight: bash
-
 
 bioconductor-mirnapath
 ======================
@@ -22,11 +23,11 @@ bioconductor-mirnapath
 
    |downloads_bioconductor-mirnapath| |docker_bioconductor-mirnapath|
 
-   :versions: 1.42.0, 1.40.0, 1.38.0, 1.36.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-mirnapath|
+   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ bioconductor-mirnapath
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirnapath
+      docker pull quay.io/repository/biocontainers/bioconductor-mirnapath:<tag>
+
+   (see `bioconductor-mirnapath/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mirnapath| conda:required_by:: bioconductor-mirnapath
 .. |downloads_bioconductor-mirnapath| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirnapath.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mirnapath| image:: https://quay.io/repository/biocontainers/bioconductor-mirnapath/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirnapath
+.. _`bioconductor-mirnapath/tags`: https://quay.io/repository/biocontainers/bioconductor-mirnapath?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mirnapath/README.html
-

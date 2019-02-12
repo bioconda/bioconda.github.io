@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-postscript'
 .. highlight: bash
-
 
 perl-postscript
 ===============
@@ -21,11 +22,11 @@ perl-postscript
 
    |downloads_perl-postscript| |docker_perl-postscript|
 
-   :versions: 0.06
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-postscript|
+   :versions: 0.06-2, 0.06-1, 0.06-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-postscript
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-postscript
+      docker pull quay.io/repository/biocontainers/perl-postscript:<tag>
+
+   (see `perl-postscript/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-postscript| conda:required_by:: perl-postscript
 .. |downloads_perl-postscript| image:: https://img.shields.io/conda/dn/bioconda/perl-postscript.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-postscript| image:: https://quay.io/repository/biocontainers/perl-postscript/status
    :target: https://quay.io/repository/biocontainers/perl-postscript
+.. _`perl-postscript/tags`: https://quay.io/repository/biocontainers/perl-postscript?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-postscript/README.html
-

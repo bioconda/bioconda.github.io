@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-chbutils'
 .. highlight: bash
-
 
 r-chbutils
 ==========
@@ -21,11 +22,15 @@ r-chbutils
 
    |downloads_r-chbutils| |docker_r-chbutils|
 
-   :versions: 0.1_2015_12_21
-
-   :depends: :conda:package:`r` 3.2.2* :conda:package:`r-mvtnorm`  :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_r-chbutils|
+   :versions: 0.1_2015_12_21-0
+   
+   :depends r: 3.2.2*
+   
+   :depends r-mvtnorm: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-chbutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-chbutils
+      docker pull quay.io/repository/biocontainers/r-chbutils:<tag>
+
+   (see `r-chbutils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-chbutils| conda:required_by:: r-chbutils
 .. |downloads_r-chbutils| image:: https://img.shields.io/conda/dn/bioconda/r-chbutils.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-chbutils| image:: https://quay.io/repository/biocontainers/r-chbutils/status
    :target: https://quay.io/repository/biocontainers/r-chbutils
+.. _`r-chbutils/tags`: https://quay.io/repository/biocontainers/r-chbutils?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-chbutils/README.html
-

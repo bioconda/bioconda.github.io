@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-slalom'
 .. highlight: bash
-
 
 bioconductor-slalom
 ===================
@@ -21,11 +22,31 @@ bioconductor-slalom
 
    |downloads_bioconductor-slalom| |docker_bioconductor-slalom|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh`  :conda:package:`r-ggplot2`  :conda:package:`r-rcpp` >=0.12.8 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rsvd`  
-
-   :required~by: |required_by_bioconductor-slalom|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-gseabase: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bh: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-rcpp: >=0.12.8
+   
+   :depends r-rcpparmadillo: 
+   
+   :depends r-rsvd: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ bioconductor-slalom
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-slalom
+      docker pull quay.io/repository/biocontainers/bioconductor-slalom:<tag>
+
+   (see `bioconductor-slalom/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-slalom| conda:required_by:: bioconductor-slalom
 .. |downloads_bioconductor-slalom| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-slalom.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-slalom| image:: https://quay.io/repository/biocontainers/bioconductor-slalom/status
    :target: https://quay.io/repository/biocontainers/bioconductor-slalom
+.. _`bioconductor-slalom/tags`: https://quay.io/repository/biocontainers/bioconductor-slalom?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-slalom/README.html
-

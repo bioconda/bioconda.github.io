@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-algorithm-diff'
 .. highlight: bash
-
 
 perl-algorithm-diff
 ===================
@@ -21,11 +22,11 @@ perl-algorithm-diff
 
    |downloads_perl-algorithm-diff| |docker_perl-algorithm-diff|
 
-   :versions: 1.1903
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-algorithm-diff|
+   :versions: 1.1903-2, 1.1903-1, 1.1903-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-algorithm-diff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-algorithm-diff
+      docker pull quay.io/repository/biocontainers/perl-algorithm-diff:<tag>
+
+   (see `perl-algorithm-diff/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-algorithm-diff| conda:required_by:: perl-algorithm-diff
 .. |downloads_perl-algorithm-diff| image:: https://img.shields.io/conda/dn/bioconda/perl-algorithm-diff.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-algorithm-diff| image:: https://quay.io/repository/biocontainers/perl-algorithm-diff/status
    :target: https://quay.io/repository/biocontainers/perl-algorithm-diff
+.. _`perl-algorithm-diff/tags`: https://quay.io/repository/biocontainers/perl-algorithm-diff?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-algorithm-diff/README.html
-

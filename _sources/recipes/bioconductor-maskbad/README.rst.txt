@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-maskbad'
 .. highlight: bash
-
 
 bioconductor-maskbad
 ====================
@@ -22,11 +23,15 @@ bioconductor-maskbad
 
    |downloads_bioconductor-maskbad| |docker_bioconductor-maskbad|
 
-   :versions: 1.26.0, 1.24.0, 1.22.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-gcrma` >=2.54.0,<2.55.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-maskbad|
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-gcrma: >=2.54.0,<2.55.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-maskbad
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-maskbad
+      docker pull quay.io/repository/biocontainers/bioconductor-maskbad:<tag>
+
+   (see `bioconductor-maskbad/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-maskbad| conda:required_by:: bioconductor-maskbad
 .. |downloads_bioconductor-maskbad| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-maskbad.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-maskbad| image:: https://quay.io/repository/biocontainers/bioconductor-maskbad/status
    :target: https://quay.io/repository/biocontainers/bioconductor-maskbad
+.. _`bioconductor-maskbad/tags`: https://quay.io/repository/biocontainers/bioconductor-maskbad?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-maskbad/README.html
-

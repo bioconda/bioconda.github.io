@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'afplot'
 .. highlight: bash
-
 
 afplot
 ======
@@ -21,11 +22,27 @@ afplot
 
    |downloads_afplot| |docker_afplot|
 
-   :versions: 0.2.1
-
-   :depends: :conda:package:`click`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`progressbar2`  :conda:package:`pysam`  :conda:package:`python` 3.5* :conda:package:`pyvcf`  :conda:package:`seaborn`  
-
-   :required~by: |required_by_afplot|
+   :versions: 0.2.1-2, 0.2.1-1, 0.2.1-0
+   
+   :depends click: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends progressbar2: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.4
+   
+   :depends pyvcf: 
+   
+   :depends seaborn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ afplot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/afplot
+      docker pull quay.io/repository/biocontainers/afplot:<tag>
+
+   (see `afplot/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_afplot| conda:required_by:: afplot
 .. |downloads_afplot| image:: https://img.shields.io/conda/dn/bioconda/afplot.svg?style=flat
    :alt:   (downloads)
 .. |docker_afplot| image:: https://quay.io/repository/biocontainers/afplot/status
    :target: https://quay.io/repository/biocontainers/afplot
+.. _`afplot/tags`: https://quay.io/repository/biocontainers/afplot?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/afplot/README.html
-

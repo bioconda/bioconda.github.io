@@ -131,11 +131,26 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">0.68, 0.62</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">0.68-2, 0.68-1, 0.68-0, 0.62-1, 0.62-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference external" href="https://github.com/conda-forge/perl-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl</span></code></a> &gt;=5.22,&lt;6.0 <a class="reference internal" href="../perl-locale-maketext-simple/README.html#package-perl-locale-maketext-simple" title="perl-locale-maketext-simple package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-locale-maketext-simple</span></code></a>  <a class="reference internal" href="../perl-module-corelist/README.html#package-perl-module-corelist" title="perl-module-corelist package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-module-corelist</span></code></a>  <a class="reference internal" href="../perl-module-load/README.html#package-perl-module-load" title="perl-module-load package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-module-load</span></code></a>  <a class="reference internal" href="../perl-module-metadata/README.html#package-perl-module-metadata" title="perl-module-metadata package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-module-metadata</span></code></a> &gt;=1.000005 <a class="reference internal" href="../perl-params-check/README.html#package-perl-params-check" title="perl-params-check package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-params-check</span></code></a></td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.27.0a0</li>
+<li><a class="conda-package reference internal" href="../perl-locale-maketext-simple/README.html#package-perl-locale-maketext-simple" title="perl-locale-maketext-simple package"><strong>perl-locale-maketext-simple</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-module-corelist/README.html#package-perl-module-corelist" title="perl-module-corelist package"><strong>perl-module-corelist</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-module-load/README.html#package-perl-module-load" title="perl-module-load package"><strong>perl-module-load</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-module-metadata/README.html#package-perl-module-metadata" title="perl-module-metadata package"><strong>perl-module-metadata</strong></a> &gt;=1.000005</li>
+<li><a class="conda-package reference internal" href="../perl-params-check/README.html#package-perl-params-check" title="perl-params-check package"><strong>perl-params-check</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-version/README.html#package-perl-version" title="perl-version package"><strong>perl-version</strong></a></li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+<li><a class="conda-package reference internal" href="../perl-ipc-cmd/README.html#perl-ipc-cmd"><strong class="xref backref">perl-ipc-cmd</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-file-fetch/README.html#perl-file-fetch"><strong class="xref backref">perl-file-fetch</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-archive-extract/README.html#perl-archive-extract"><strong class="xref backref">perl-archive-extract</strong></a></li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -149,9 +164,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">perl</span><span class="o">-</span><span class="n">module</span><span class="o">-</span><span class="n">load</span><span class="o">-</span><span class="n">conditional</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">perl</span><span class="o">-</span><span class="n">module</span><span class="o">-</span><span class="n">load</span><span class="o">-</span><span class="n">conditional</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/perl-module-load-conditional?tab=tags">perl-module-load-conditional/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

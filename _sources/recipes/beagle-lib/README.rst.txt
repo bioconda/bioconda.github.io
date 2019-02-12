@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'beagle-lib'
 .. highlight: bash
-
 
 beagle-lib
 ==========
@@ -21,11 +22,15 @@ beagle-lib
 
    |downloads_beagle-lib| |docker_beagle-lib|
 
-   :versions: 3.1.2, 3.1.1, 3.1.0, 3.0.2, 2.1.2
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libtool`  :conda:package:`openjdk`  
-
-   :required~by: |required_by_beagle-lib|
+   :versions: 3.1.2-0, 3.1.1-0, 3.1.0-0, 3.0.2-0, 2.1.2-7, 2.1.2-6, 2.1.2-5, 2.1.2-4, 2.1.2-3, 2.1.2-2, 2.1.2-1
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libtool: 
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ beagle-lib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/beagle-lib
+      docker pull quay.io/repository/biocontainers/beagle-lib:<tag>
+
+   (see `beagle-lib/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_beagle-lib| conda:required_by:: beagle-lib
 .. |downloads_beagle-lib| image:: https://img.shields.io/conda/dn/bioconda/beagle-lib.svg?style=flat
    :alt:   (downloads)
 .. |docker_beagle-lib| image:: https://quay.io/repository/biocontainers/beagle-lib/status
    :target: https://quay.io/repository/biocontainers/beagle-lib
+.. _`beagle-lib/tags`: https://quay.io/repository/biocontainers/beagle-lib?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/beagle-lib/README.html
-

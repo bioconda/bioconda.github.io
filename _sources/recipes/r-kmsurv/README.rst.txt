@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-kmsurv'
 .. highlight: bash
-
 
 r-kmsurv
 ========
@@ -21,11 +22,11 @@ r-kmsurv
 
    |downloads_r-kmsurv| |docker_r-kmsurv|
 
-   :versions: 0.1_5
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-kmsurv|
+   :versions: 0.1_5-0
+   
+   :depends r-base: 3.3.2*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-kmsurv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-kmsurv
+      docker pull quay.io/repository/biocontainers/r-kmsurv:<tag>
+
+   (see `r-kmsurv/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-kmsurv| conda:required_by:: r-kmsurv
 .. |downloads_r-kmsurv| image:: https://img.shields.io/conda/dn/bioconda/r-kmsurv.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-kmsurv| image:: https://quay.io/repository/biocontainers/r-kmsurv/status
    :target: https://quay.io/repository/biocontainers/r-kmsurv
+.. _`r-kmsurv/tags`: https://quay.io/repository/biocontainers/r-kmsurv?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-kmsurv/README.html
-

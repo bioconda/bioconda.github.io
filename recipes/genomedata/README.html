@@ -133,11 +133,28 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">1.4.4, 1.4.1, 1.4.0, 1.3.6, 1.3.5</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">1.4.4-1, 1.4.4-0, 1.4.1-3, 1.4.1-2, 1.4.1-0, 1.4.0-1, 1.4.0-0, 1.3.6-0, 1.3.5-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference internal" href="../bedtools/README.html#package-bedtools" title="bedtools package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">bedtools</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/hdf5-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">hdf5</span></code></a> &gt;=1.10.3,&lt;1.10.4.0a0 <a class="reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">libgcc-ng</span></code></a> &gt;=4.9 <a class="reference external" href="https://github.com/conda-forge/path.py-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">path.py</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/pytables-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">pytables</span></code></a> &gt;=3.4.3 <a class="reference external" href="https://github.com/conda-forge/python-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">python</span></code></a> &gt;=2.7,&lt;2.8.0a0 <a class="reference external" href="https://github.com/conda-forge/six-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">six</span></code></a>  <a class="reference internal" href="../textinput/README.html#package-textinput" title="textinput package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">textinput</span></code></a>  <a class="reference internal" href="../ucsc-bigwigtobedgraph/README.html#package-ucsc-bigwigtobedgraph" title="ucsc-bigwigtobedgraph package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">ucsc-bigwigtobedgraph</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/zlib-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">zlib</span></code></a> &gt;=1.2.11,&lt;1.3.0a0</td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-package reference internal" href="../bedtools/README.html#package-bedtools" title="bedtools package"><strong>bedtools</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/hdf5-feedstock"><strong>hdf5</strong></a> &gt;=1.10.3,&lt;1.10.4.0a0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> &gt;=4.9</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/path.py-feedstock"><strong>path.py</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/pytables-feedstock"><strong>pytables</strong></a> &gt;=3.4.3</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/six-feedstock"><strong>six</strong></a></li>
+<li><a class="conda-package reference internal" href="../textinput/README.html#package-textinput" title="textinput package"><strong>textinput</strong></a></li>
+<li><a class="conda-package reference internal" href="../ucsc-bigwigtobedgraph/README.html#package-ucsc-bigwigtobedgraph" title="ucsc-bigwigtobedgraph package"><strong>ucsc-bigwigtobedgraph</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> &gt;=1.2.11,&lt;1.3.0a0</li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+<li><a class="conda-package reference internal" href="../segway/README.html#segway"><strong class="xref backref">segway</strong></a></li>
+<li><a class="conda-package reference internal" href="../segtools/README.html#segtools"><strong class="xref backref">segtools</strong></a></li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -151,9 +168,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">genomedata</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">genomedata</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/genomedata?tab=tags">genomedata/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

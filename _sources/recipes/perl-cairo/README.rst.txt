@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-cairo'
 .. highlight: bash
-
 
 perl-cairo
 ==========
@@ -21,11 +22,23 @@ perl-cairo
 
    |downloads_perl-cairo| |docker_perl-cairo|
 
-   :versions: 1.106
-
-   :depends: :conda:package:`cairo`  :conda:package:`perl` 5.22.0* :conda:package:`perl-extutils-depends`  :conda:package:`perl-extutils-pkgconfig`  :conda:package:`xorg-libsm`  :conda:package:`xorg-libxext`  :conda:package:`xorg-libxrender`  
-
-   :required~by: |required_by_perl-cairo|
+   :versions: 1.106-1, 1.106-0
+   
+   :depends cairo: >=1.14.12,<1.15.0a0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-extutils-depends: 
+   
+   :depends perl-extutils-pkgconfig: 
+   
+   :depends xorg-libsm: 
+   
+   :depends xorg-libxext: 
+   
+   :depends xorg-libxrender: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ perl-cairo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-cairo
+      docker pull quay.io/repository/biocontainers/perl-cairo:<tag>
+
+   (see `perl-cairo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-cairo| conda:required_by:: perl-cairo
 .. |downloads_perl-cairo| image:: https://img.shields.io/conda/dn/bioconda/perl-cairo.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-cairo| image:: https://quay.io/repository/biocontainers/perl-cairo/status
    :target: https://quay.io/repository/biocontainers/perl-cairo
+.. _`perl-cairo/tags`: https://quay.io/repository/biocontainers/perl-cairo?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-cairo/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dendropy'
 .. highlight: bash
-
 
 dendropy
 ========
@@ -21,11 +22,11 @@ dendropy
 
    |downloads_dendropy| |docker_dendropy|
 
-   :versions: 4.4.0, 4.2.0, 4.1.0, 4.0.3, 3.12.3
-
-   :depends: :conda:package:`python`  
-
-   :required~by: |required_by_dendropy|
+   :versions: 4.4.0-0, 4.2.0-2, 4.2.0-0, 4.1.0-0, 4.0.3-0, 3.12.3-1, 3.12.3-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ dendropy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dendropy
+      docker pull quay.io/repository/biocontainers/dendropy:<tag>
+
+   (see `dendropy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dendropy| conda:required_by:: dendropy
 .. |downloads_dendropy| image:: https://img.shields.io/conda/dn/bioconda/dendropy.svg?style=flat
    :alt:   (downloads)
 .. |docker_dendropy| image:: https://quay.io/repository/biocontainers/dendropy/status
    :target: https://quay.io/repository/biocontainers/dendropy
+.. _`dendropy/tags`: https://quay.io/repository/biocontainers/dendropy?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dendropy/README.html
-

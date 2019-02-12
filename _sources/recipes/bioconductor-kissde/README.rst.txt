@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-kissde'
 .. highlight: bash
-
 
 bioconductor-kissde
 ===================
@@ -21,11 +22,29 @@ bioconductor-kissde
 
    |downloads_bioconductor-kissde| |docker_bioconductor-kissde|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-dss` >=2.30.0,<2.31.0 :conda:package:`r-aod`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-matrixstats`  
-
-   :required~by: |required_by_bioconductor-kissde|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-dss: >=2.30.0,<2.31.0
+   
+   :depends r-aod: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-doparallel: 
+   
+   :depends r-foreach: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-matrixstats: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ bioconductor-kissde
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-kissde
+      docker pull quay.io/repository/biocontainers/bioconductor-kissde:<tag>
+
+   (see `bioconductor-kissde/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-kissde| conda:required_by:: bioconductor-kissde
 .. |downloads_bioconductor-kissde| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-kissde.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-kissde| image:: https://quay.io/repository/biocontainers/bioconductor-kissde/status
    :target: https://quay.io/repository/biocontainers/bioconductor-kissde
+.. _`bioconductor-kissde/tags`: https://quay.io/repository/biocontainers/bioconductor-kissde?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-kissde/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-fmcsr'
 .. highlight: bash
-
 
 bioconductor-fmcsr
 ==================
@@ -21,11 +22,21 @@ bioconductor-fmcsr
 
    |downloads_bioconductor-fmcsr| |docker_bioconductor-fmcsr|
 
-   :versions: 1.24.0
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-chemminer` >=3.34.0,<3.35.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-runit`  
-
-   :required~by: |required_by_bioconductor-fmcsr|
+   :versions: 1.24.0-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-chemminer: >=3.34.0,<3.35.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-runit: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-fmcsr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fmcsr
+      docker pull quay.io/repository/biocontainers/bioconductor-fmcsr:<tag>
+
+   (see `bioconductor-fmcsr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-fmcsr| conda:required_by:: bioconductor-fmcsr
 .. |downloads_bioconductor-fmcsr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fmcsr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-fmcsr| image:: https://quay.io/repository/biocontainers/bioconductor-fmcsr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fmcsr
+.. _`bioconductor-fmcsr/tags`: https://quay.io/repository/biocontainers/bioconductor-fmcsr?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-fmcsr/README.html
-

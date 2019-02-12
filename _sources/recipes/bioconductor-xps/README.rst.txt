@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-xps'
 .. highlight: bash
-
 
 bioconductor-xps
 ================
@@ -22,10 +23,8 @@ bioconductor-xps
    |downloads_bioconductor-xps| |docker_bioconductor-xps|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-xps|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-xps
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xps
+      docker pull quay.io/repository/biocontainers/bioconductor-xps:<tag>
+
+   (see `bioconductor-xps/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-xps| conda:required_by:: bioconductor-xps
 .. |downloads_bioconductor-xps| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xps.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-xps| image:: https://quay.io/repository/biocontainers/bioconductor-xps/status
    :target: https://quay.io/repository/biocontainers/bioconductor-xps
+.. _`bioconductor-xps/tags`: https://quay.io/repository/biocontainers/bioconductor-xps?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-xps/README.html
-

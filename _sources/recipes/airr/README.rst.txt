@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'airr'
 .. highlight: bash
-
 
 airr
 ====
@@ -21,11 +22,19 @@ airr
 
    |downloads_airr| |docker_airr|
 
-   :versions: 1.2.1
-
-   :depends: :conda:package:`pandas` >=0.18.0 :conda:package:`python`  :conda:package:`pyyaml` >=3.12 :conda:package:`setuptools` >=2.0 :conda:package:`yamlordereddictloader` >=0.4.0 
-
-   :required~by: |required_by_airr|
+   :versions: 1.2.1-0
+   
+   :depends pandas: >=0.18.0
+   
+   :depends python: 
+   
+   :depends pyyaml: >=3.12
+   
+   :depends setuptools: >=2.0
+   
+   :depends yamlordereddictloader: >=0.4.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ airr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/airr
+      docker pull quay.io/repository/biocontainers/airr:<tag>
+
+   (see `airr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_airr| conda:required_by:: airr
 .. |downloads_airr| image:: https://img.shields.io/conda/dn/bioconda/airr.svg?style=flat
    :alt:   (downloads)
 .. |docker_airr| image:: https://quay.io/repository/biocontainers/airr/status
    :target: https://quay.io/repository/biocontainers/airr
+.. _`airr/tags`: https://quay.io/repository/biocontainers/airr?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/airr/README.html
-

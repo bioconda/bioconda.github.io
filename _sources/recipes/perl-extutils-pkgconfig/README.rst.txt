@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-extutils-pkgconfig'
 .. highlight: bash
-
 
 perl-extutils-pkgconfig
 =======================
@@ -21,11 +22,11 @@ perl-extutils-pkgconfig
 
    |downloads_perl-extutils-pkgconfig| |docker_perl-extutils-pkgconfig|
 
-   :versions: 1.16
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-extutils-pkgconfig|
+   :versions: 1.16-1, 1.16-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-extutils-pkgconfig
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-extutils-pkgconfig
+      docker pull quay.io/repository/biocontainers/perl-extutils-pkgconfig:<tag>
+
+   (see `perl-extutils-pkgconfig/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-extutils-pkgconfig| conda:required_by:: perl-extutils-pkgconfig
 .. |downloads_perl-extutils-pkgconfig| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-pkgconfig.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-extutils-pkgconfig| image:: https://quay.io/repository/biocontainers/perl-extutils-pkgconfig/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-pkgconfig
+.. _`perl-extutils-pkgconfig/tags`: https://quay.io/repository/biocontainers/perl-extutils-pkgconfig?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-extutils-pkgconfig/README.html
-

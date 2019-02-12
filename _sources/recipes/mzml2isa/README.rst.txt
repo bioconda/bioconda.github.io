@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mzml2isa'
 .. highlight: bash
-
 
 mzml2isa
 ========
@@ -21,11 +22,17 @@ mzml2isa
 
    |downloads_mzml2isa| |docker_mzml2isa|
 
-   :versions: 0.5.1, 0.4.24
-
-   :depends: :conda:package:`openpyxl`  :conda:package:`pronto` >=0.6.0 :conda:package:`python` 2.7* :conda:package:`six`  
-
-   :required~by: |required_by_mzml2isa|
+   :versions: 0.5.1-1, 0.5.1-0, 0.4.24-2, 0.4.24-1, 0.4.24-0
+   
+   :depends openpyxl: 
+   
+   :depends pronto: >=0.6.0
+   
+   :depends python: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ mzml2isa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mzml2isa
+      docker pull quay.io/repository/biocontainers/mzml2isa:<tag>
+
+   (see `mzml2isa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mzml2isa| conda:required_by:: mzml2isa
 .. |downloads_mzml2isa| image:: https://img.shields.io/conda/dn/bioconda/mzml2isa.svg?style=flat
    :alt:   (downloads)
 .. |docker_mzml2isa| image:: https://quay.io/repository/biocontainers/mzml2isa/status
    :target: https://quay.io/repository/biocontainers/mzml2isa
+.. _`mzml2isa/tags`: https://quay.io/repository/biocontainers/mzml2isa?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mzml2isa/README.html
-

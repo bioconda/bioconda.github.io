@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mugsy'
 .. highlight: bash
-
 
 mugsy
 =====
@@ -21,11 +22,11 @@ mugsy
 
    |downloads_mugsy| |docker_mugsy|
 
-   :versions: 1.2.3
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_mugsy|
+   :versions: 1.2.3-2, 1.2.3-1, 1.2.3-0
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ mugsy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mugsy
+      docker pull quay.io/repository/biocontainers/mugsy:<tag>
+
+   (see `mugsy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mugsy| conda:required_by:: mugsy
 .. |downloads_mugsy| image:: https://img.shields.io/conda/dn/bioconda/mugsy.svg?style=flat
    :alt:   (downloads)
 .. |docker_mugsy| image:: https://quay.io/repository/biocontainers/mugsy/status
    :target: https://quay.io/repository/biocontainers/mugsy
+.. _`mugsy/tags`: https://quay.io/repository/biocontainers/mugsy?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mugsy/README.html
-

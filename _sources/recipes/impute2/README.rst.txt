@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'impute2'
 .. highlight: bash
-
 
 impute2
 =======
@@ -22,11 +23,9 @@ impute2
 
    |downloads_impute2| |docker_impute2|
 
-   :versions: 2.3.2
-
-   :depends: 
-
-   :required~by: |required_by_impute2|
+   :versions: 2.3.2-1, 2.3.2-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +39,16 @@ impute2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/impute2
+      docker pull quay.io/repository/biocontainers/impute2:<tag>
+
+   (see `impute2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_impute2| conda:required_by:: impute2
 .. |downloads_impute2| image:: https://img.shields.io/conda/dn/bioconda/impute2.svg?style=flat
    :alt:   (downloads)
 .. |docker_impute2| image:: https://quay.io/repository/biocontainers/impute2/status
    :target: https://quay.io/repository/biocontainers/impute2
+.. _`impute2/tags`: https://quay.io/repository/biocontainers/impute2?tab=tags
 
 
 
@@ -64,4 +65,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/impute2/README.html
-

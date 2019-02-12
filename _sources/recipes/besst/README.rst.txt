@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'besst'
 .. highlight: bash
-
 
 besst
 =====
@@ -22,11 +23,19 @@ besst
 
    |downloads_besst| |docker_besst|
 
-   :versions: 2.2.8, 2.2.7, 2.2.3
-
-   :depends: :conda:package:`mathstats` >=0.2.6 :conda:package:`networkx` >=1.9 :conda:package:`pysam` >=0.7 :conda:package:`python` 2.7* :conda:package:`scipy` >=0.9 
-
-   :required~by: |required_by_besst|
+   :versions: 2.2.8-2, 2.2.8-0, 2.2.7-0, 2.2.3-0
+   
+   :depends mathstats: >=0.2.6
+   
+   :depends networkx: >=1.9
+   
+   :depends pysam: >=0.7
+   
+   :depends python: 
+   
+   :depends scipy: >=0.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ besst
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/besst
+      docker pull quay.io/repository/biocontainers/besst:<tag>
+
+   (see `besst/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_besst| conda:required_by:: besst
 .. |downloads_besst| image:: https://img.shields.io/conda/dn/bioconda/besst.svg?style=flat
    :alt:   (downloads)
 .. |docker_besst| image:: https://quay.io/repository/biocontainers/besst/status
    :target: https://quay.io/repository/biocontainers/besst
+.. _`besst/tags`: https://quay.io/repository/biocontainers/besst?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/besst/README.html
-

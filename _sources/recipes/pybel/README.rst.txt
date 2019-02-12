@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pybel'
 .. highlight: bash
-
 
 pybel
 =====
@@ -21,11 +22,31 @@ pybel
 
    |downloads_pybel| |docker_pybel|
 
-   :versions: 0.9.3, 0.5.4, 0.4.0
-
-   :depends: :conda:package:`click`  :conda:package:`configparser`  :conda:package:`ndex-python`  :conda:package:`networkx`  :conda:package:`onto2nx`  :conda:package:`py2neo`  :conda:package:`pyparsing`  :conda:package:`python` 2.7* :conda:package:`requests`  :conda:package:`requests-file`  :conda:package:`sqlalchemy`  
-
-   :required~by: |required_by_pybel|
+   :versions: 0.9.3-1, 0.9.3-0, 0.5.4-0, 0.4.0-0
+   
+   :depends click: 
+   
+   :depends configparser: 
+   
+   :depends ndex-python: 
+   
+   :depends networkx: 
+   
+   :depends onto2nx: 
+   
+   :depends py2neo: 
+   
+   :depends pyparsing: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends requests: 
+   
+   :depends requests-file: 
+   
+   :depends sqlalchemy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ pybel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pybel
+      docker pull quay.io/repository/biocontainers/pybel:<tag>
+
+   (see `pybel/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pybel| conda:required_by:: pybel
 .. |downloads_pybel| image:: https://img.shields.io/conda/dn/bioconda/pybel.svg?style=flat
    :alt:   (downloads)
 .. |docker_pybel| image:: https://quay.io/repository/biocontainers/pybel/status
    :target: https://quay.io/repository/biocontainers/pybel
+.. _`pybel/tags`: https://quay.io/repository/biocontainers/pybel?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pybel/README.html
-

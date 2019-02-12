@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kissplice'
 .. highlight: bash
-
 
 kissplice
 =========
@@ -21,11 +22,15 @@ kissplice
 
    |downloads_kissplice| |docker_kissplice|
 
-   :versions: 2.4.0p1
-
-   :depends: :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`zlib` 1.2.8* 
-
-   :required~by: |required_by_kissplice|
+   :versions: 2.4.0p1-2, 2.4.0p1-1, 2.4.0p1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ kissplice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kissplice
+      docker pull quay.io/repository/biocontainers/kissplice:<tag>
+
+   (see `kissplice/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kissplice| conda:required_by:: kissplice
 .. |downloads_kissplice| image:: https://img.shields.io/conda/dn/bioconda/kissplice.svg?style=flat
    :alt:   (downloads)
 .. |docker_kissplice| image:: https://quay.io/repository/biocontainers/kissplice/status
    :target: https://quay.io/repository/biocontainers/kissplice
+.. _`kissplice/tags`: https://quay.io/repository/biocontainers/kissplice?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kissplice/README.html
-

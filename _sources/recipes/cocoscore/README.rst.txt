@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cocoscore'
 .. highlight: bash
-
 
 cocoscore
 =========
@@ -21,11 +22,19 @@ cocoscore
 
    |downloads_cocoscore| |docker_cocoscore|
 
-   :versions: 0.2.0
-
-   :depends: :conda:package:`fasttext` 0.1.0 :conda:package:`gensim` >=3.4.0 :conda:package:`pandas` >=0.23.0 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`scikit-learn` >=0.19.1 
-
-   :required~by: |required_by_cocoscore|
+   :versions: 0.2.0-0
+   
+   :depends fasttext: 0.1.0
+   
+   :depends gensim: >=3.4.0
+   
+   :depends pandas: >=0.23.0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends scikit-learn: >=0.19.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ cocoscore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cocoscore
+      docker pull quay.io/repository/biocontainers/cocoscore:<tag>
+
+   (see `cocoscore/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cocoscore| conda:required_by:: cocoscore
 .. |downloads_cocoscore| image:: https://img.shields.io/conda/dn/bioconda/cocoscore.svg?style=flat
    :alt:   (downloads)
 .. |docker_cocoscore| image:: https://quay.io/repository/biocontainers/cocoscore/status
    :target: https://quay.io/repository/biocontainers/cocoscore
+.. _`cocoscore/tags`: https://quay.io/repository/biocontainers/cocoscore?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cocoscore/README.html
-

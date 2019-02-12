@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'primerprospector'
 .. highlight: bash
-
 
 primerprospector
 ================
@@ -21,11 +22,17 @@ primerprospector
 
    |downloads_primerprospector| |docker_primerprospector|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`cogent` >=1.5 :conda:package:`matplotlib` >=0.98.3 :conda:package:`numpy` >=1.3.0 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_primerprospector|
+   :versions: 1.0.1-1, 1.0.1-0
+   
+   :depends cogent: >=1.5
+   
+   :depends matplotlib: >=0.98.3
+   
+   :depends numpy: >=1.3.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ primerprospector
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/primerprospector
+      docker pull quay.io/repository/biocontainers/primerprospector:<tag>
+
+   (see `primerprospector/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_primerprospector| conda:required_by:: primerprospector
 .. |downloads_primerprospector| image:: https://img.shields.io/conda/dn/bioconda/primerprospector.svg?style=flat
    :alt:   (downloads)
 .. |docker_primerprospector| image:: https://quay.io/repository/biocontainers/primerprospector/status
    :target: https://quay.io/repository/biocontainers/primerprospector
+.. _`primerprospector/tags`: https://quay.io/repository/biocontainers/primerprospector?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/primerprospector/README.html
-

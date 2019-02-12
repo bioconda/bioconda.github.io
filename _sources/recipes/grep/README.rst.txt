@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'grep'
 .. highlight: bash
-
 
 grep
 ====
@@ -21,11 +22,13 @@ grep
 
    |downloads_grep| |docker_grep|
 
-   :versions: 2.14
-
-   :depends: 
-
-   :required~by: |required_by_grep|
+   :versions: 2.14-2, 2.14-1, 2.14-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends pcre: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ grep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/grep
+      docker pull quay.io/repository/biocontainers/grep:<tag>
+
+   (see `grep/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_grep| conda:required_by:: grep
 .. |downloads_grep| image:: https://img.shields.io/conda/dn/bioconda/grep.svg?style=flat
    :alt:   (downloads)
 .. |docker_grep| image:: https://quay.io/repository/biocontainers/grep/status
    :target: https://quay.io/repository/biocontainers/grep
+.. _`grep/tags`: https://quay.io/repository/biocontainers/grep?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/grep/README.html
-

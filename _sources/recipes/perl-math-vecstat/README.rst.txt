@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-math-vecstat'
 .. highlight: bash
-
 
 perl-math-vecstat
 =================
@@ -21,11 +22,11 @@ perl-math-vecstat
 
    |downloads_perl-math-vecstat| |docker_perl-math-vecstat|
 
-   :versions: 0.08
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-math-vecstat|
+   :versions: 0.08-1, 0.08-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-math-vecstat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-vecstat
+      docker pull quay.io/repository/biocontainers/perl-math-vecstat:<tag>
+
+   (see `perl-math-vecstat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-math-vecstat| conda:required_by:: perl-math-vecstat
 .. |downloads_perl-math-vecstat| image:: https://img.shields.io/conda/dn/bioconda/perl-math-vecstat.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-math-vecstat| image:: https://quay.io/repository/biocontainers/perl-math-vecstat/status
    :target: https://quay.io/repository/biocontainers/perl-math-vecstat
+.. _`perl-math-vecstat/tags`: https://quay.io/repository/biocontainers/perl-math-vecstat?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-math-vecstat/README.html
-

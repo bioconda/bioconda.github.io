@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lightassembler'
 .. highlight: bash
-
 
 lightassembler
 ==============
@@ -22,11 +23,15 @@ lightassembler
 
    |downloads_lightassembler| |docker_lightassembler|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`libtool`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_lightassembler|
+   :versions: 1.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends libtool: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ lightassembler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lightassembler
+      docker pull quay.io/repository/biocontainers/lightassembler:<tag>
+
+   (see `lightassembler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lightassembler| conda:required_by:: lightassembler
 .. |downloads_lightassembler| image:: https://img.shields.io/conda/dn/bioconda/lightassembler.svg?style=flat
    :alt:   (downloads)
 .. |docker_lightassembler| image:: https://quay.io/repository/biocontainers/lightassembler/status
    :target: https://quay.io/repository/biocontainers/lightassembler
+.. _`lightassembler/tags`: https://quay.io/repository/biocontainers/lightassembler?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lightassembler/README.html
-

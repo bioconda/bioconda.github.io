@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-netsmooth'
 .. highlight: bash
-
 
 bioconductor-netsmooth
 ======================
@@ -21,11 +22,27 @@ bioconductor-netsmooth
 
    |downloads_bioconductor-netsmooth| |docker_bioconductor-netsmooth|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-clusterexperiment` >=2.2.0,<2.3.0 :conda:package:`bioconductor-scater` >=1.10.0,<1.11.0 :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-data.table`  :conda:package:`r-entropy`  :conda:package:`r-matrix`  
-
-   :required~by: |required_by_bioconductor-netsmooth|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-clusterexperiment: >=2.2.0,<2.3.0
+   
+   :depends bioconductor-scater: >=1.10.0,<1.11.0
+   
+   :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :depends r-data.table: 
+   
+   :depends r-entropy: 
+   
+   :depends r-matrix: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-netsmooth
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-netsmooth
+      docker pull quay.io/repository/biocontainers/bioconductor-netsmooth:<tag>
+
+   (see `bioconductor-netsmooth/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-netsmooth| conda:required_by:: bioconductor-netsmooth
 .. |downloads_bioconductor-netsmooth| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-netsmooth.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-netsmooth| image:: https://quay.io/repository/biocontainers/bioconductor-netsmooth/status
    :target: https://quay.io/repository/biocontainers/bioconductor-netsmooth
+.. _`bioconductor-netsmooth/tags`: https://quay.io/repository/biocontainers/bioconductor-netsmooth?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-netsmooth/README.html
-

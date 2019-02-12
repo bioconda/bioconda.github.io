@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-neighbornet'
 .. highlight: bash
-
 
 bioconductor-neighbornet
 ========================
@@ -21,11 +22,13 @@ bioconductor-neighbornet
 
    |downloads_bioconductor-neighbornet| |docker_bioconductor-neighbornet|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-neighbornet|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-neighbornet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-neighbornet
+      docker pull quay.io/repository/biocontainers/bioconductor-neighbornet:<tag>
+
+   (see `bioconductor-neighbornet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-neighbornet| conda:required_by:: bioconductor-neighbornet
 .. |downloads_bioconductor-neighbornet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-neighbornet.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-neighbornet| image:: https://quay.io/repository/biocontainers/bioconductor-neighbornet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-neighbornet
+.. _`bioconductor-neighbornet/tags`: https://quay.io/repository/biocontainers/bioconductor-neighbornet?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-neighbornet/README.html
-

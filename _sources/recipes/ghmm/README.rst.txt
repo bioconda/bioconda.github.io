@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ghmm'
 .. highlight: bash
-
 
 ghmm
 ====
@@ -21,11 +22,17 @@ ghmm
 
    |downloads_ghmm| |docker_ghmm|
 
-   :versions: 0.9
-
-   :depends: :conda:package:`libgcc`  :conda:package:`libxml2`  :conda:package:`python` 2.7* :conda:package:`swig`  
-
-   :required~by: |required_by_ghmm|
+   :versions: 0.9-1, 0.9-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libxml2: >=2.9.8,<2.10.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends swig: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ ghmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ghmm
+      docker pull quay.io/repository/biocontainers/ghmm:<tag>
+
+   (see `ghmm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ghmm| conda:required_by:: ghmm
 .. |downloads_ghmm| image:: https://img.shields.io/conda/dn/bioconda/ghmm.svg?style=flat
    :alt:   (downloads)
 .. |docker_ghmm| image:: https://quay.io/repository/biocontainers/ghmm/status
    :target: https://quay.io/repository/biocontainers/ghmm
+.. _`ghmm/tags`: https://quay.io/repository/biocontainers/ghmm?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ghmm/README.html
-

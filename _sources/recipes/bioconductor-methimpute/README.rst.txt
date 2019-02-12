@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-methimpute'
 .. highlight: bash
-
 
 bioconductor-methimpute
 =======================
@@ -21,11 +22,33 @@ bioconductor-methimpute
 
    |downloads_bioconductor-methimpute| |docker_bioconductor-methimpute|
 
-   :versions: 1.4.1, 1.4.0
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-minpack.lm`  :conda:package:`r-rcpp` >=0.12.4.5 :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-methimpute|
+   :versions: 1.4.1-0, 1.4.0-0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-minpack.lm: 
+   
+   :depends r-rcpp: >=0.12.4.5
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ bioconductor-methimpute
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methimpute
+      docker pull quay.io/repository/biocontainers/bioconductor-methimpute:<tag>
+
+   (see `bioconductor-methimpute/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-methimpute| conda:required_by:: bioconductor-methimpute
 .. |downloads_bioconductor-methimpute| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methimpute.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-methimpute| image:: https://quay.io/repository/biocontainers/bioconductor-methimpute/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methimpute
+.. _`bioconductor-methimpute/tags`: https://quay.io/repository/biocontainers/bioconductor-methimpute?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-methimpute/README.html
-

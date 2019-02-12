@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-proc-fork'
 .. highlight: bash
-
 
 perl-proc-fork
 ==============
@@ -21,11 +22,13 @@ perl-proc-fork
 
    |downloads_perl-proc-fork| |docker_perl-proc-fork|
 
-   :versions: 0.806, 0.804
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-exporter-tidy`  
-
-   :required~by: |required_by_perl-proc-fork|
+   :versions: 0.806-0, 0.804-1, 0.804-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-exporter-tidy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-proc-fork
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-proc-fork
+      docker pull quay.io/repository/biocontainers/perl-proc-fork:<tag>
+
+   (see `perl-proc-fork/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-proc-fork| conda:required_by:: perl-proc-fork
 .. |downloads_perl-proc-fork| image:: https://img.shields.io/conda/dn/bioconda/perl-proc-fork.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-proc-fork| image:: https://quay.io/repository/biocontainers/perl-proc-fork/status
    :target: https://quay.io/repository/biocontainers/perl-proc-fork
+.. _`perl-proc-fork/tags`: https://quay.io/repository/biocontainers/perl-proc-fork?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-proc-fork/README.html
-

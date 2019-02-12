@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-fateid'
 .. highlight: bash
-
 
 r-fateid
 ========
@@ -22,11 +23,29 @@ r-fateid
 
    |downloads_r-fateid| |docker_r-fateid|
 
-   :versions: 0.1.4
-
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-lle`  :conda:package:`r-locfit`  :conda:package:`r-pheatmap`  :conda:package:`r-princurve`  :conda:package:`r-randomforest`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rgl`  :conda:package:`r-rtsne`  :conda:package:`r-som`  
-
-   :required~by: |required_by_r-fateid|
+   :versions: 0.1.4-1, 0.1.4-0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-lle: 
+   
+   :depends r-locfit: 
+   
+   :depends r-pheatmap: 
+   
+   :depends r-princurve: 
+   
+   :depends r-randomforest: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rgl: 
+   
+   :depends r-rtsne: 
+   
+   :depends r-som: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ r-fateid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-fateid
+      docker pull quay.io/repository/biocontainers/r-fateid:<tag>
+
+   (see `r-fateid/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-fateid| conda:required_by:: r-fateid
 .. |downloads_r-fateid| image:: https://img.shields.io/conda/dn/bioconda/r-fateid.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-fateid| image:: https://quay.io/repository/biocontainers/r-fateid/status
    :target: https://quay.io/repository/biocontainers/r-fateid
+.. _`r-fateid/tags`: https://quay.io/repository/biocontainers/r-fateid?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-fateid/README.html
-

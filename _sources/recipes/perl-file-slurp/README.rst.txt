@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-slurp'
 .. highlight: bash
-
 
 perl-file-slurp
 ===============
@@ -21,11 +22,15 @@ perl-file-slurp
 
    |downloads_perl-file-slurp| |docker_perl-file-slurp|
 
-   :versions: 9999.25, 9999.24, 9999.19
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  
-
-   :required~by: |required_by_perl-file-slurp|
+   :versions: 9999.25-0, 9999.24-0, 9999.19-3, 9999.19-2, 9999.19-1, 9999.19-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-exporter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-file-slurp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-slurp
+      docker pull quay.io/repository/biocontainers/perl-file-slurp:<tag>
+
+   (see `perl-file-slurp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-slurp| conda:required_by:: perl-file-slurp
 .. |downloads_perl-file-slurp| image:: https://img.shields.io/conda/dn/bioconda/perl-file-slurp.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-slurp| image:: https://quay.io/repository/biocontainers/perl-file-slurp/status
    :target: https://quay.io/repository/biocontainers/perl-file-slurp
+.. _`perl-file-slurp/tags`: https://quay.io/repository/biocontainers/perl-file-slurp?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-slurp/README.html
-

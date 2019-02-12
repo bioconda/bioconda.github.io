@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-networkbma'
 .. highlight: bash
-
 
 bioconductor-networkbma
 =======================
@@ -22,11 +23,27 @@ bioconductor-networkbma
 
    |downloads_bioconductor-networkbma| |docker_bioconductor-networkbma|
 
-   :versions: 2.22.0, 2.20.0, 2.18.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh`  :conda:package:`r-bma`  :conda:package:`r-leaps`  :conda:package:`r-rcpp` >=0.10.3 :conda:package:`r-rcpparmadillo` >=0.3.810.2 :conda:package:`r-rcppeigen` >=0.3.1.2.1 
-
-   :required~by: |required_by_bioconductor-networkbma|
+   :versions: 2.22.0-0, 2.20.0-0, 2.18.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bh: 
+   
+   :depends r-bma: 
+   
+   :depends r-leaps: 
+   
+   :depends r-rcpp: >=0.10.3
+   
+   :depends r-rcpparmadillo: >=0.3.810.2
+   
+   :depends r-rcppeigen: >=0.3.1.2.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ bioconductor-networkbma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-networkbma
+      docker pull quay.io/repository/biocontainers/bioconductor-networkbma:<tag>
+
+   (see `bioconductor-networkbma/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-networkbma| conda:required_by:: bioconductor-networkbma
 .. |downloads_bioconductor-networkbma| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-networkbma.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-networkbma| image:: https://quay.io/repository/biocontainers/bioconductor-networkbma/status
    :target: https://quay.io/repository/biocontainers/bioconductor-networkbma
+.. _`bioconductor-networkbma/tags`: https://quay.io/repository/biocontainers/bioconductor-networkbma?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-networkbma/README.html
-

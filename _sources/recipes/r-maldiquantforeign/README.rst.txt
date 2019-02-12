@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-maldiquantforeign'
 .. highlight: bash
-
 
 r-maldiquantforeign
 ===================
@@ -21,11 +22,23 @@ r-maldiquantforeign
 
    |downloads_r-maldiquantforeign| |docker_r-maldiquantforeign|
 
-   :versions: 0.11.5, 0.11, 0.10
-
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-base64enc`  :conda:package:`r-digest`  :conda:package:`r-maldiquant` >=1.16.4 :conda:package:`r-readbrukerflexdata` >=1.7 :conda:package:`r-readmzxmldata` >=2.7 :conda:package:`r-xml`  
-
-   :required~by: |required_by_r-maldiquantforeign|
+   :versions: 0.11.5-2, 0.11.5-1, 0.11.5-0, 0.11-0, 0.10-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-base64enc: 
+   
+   :depends r-digest: 
+   
+   :depends r-maldiquant: >=1.16.4
+   
+   :depends r-readbrukerflexdata: >=1.7
+   
+   :depends r-readmzxmldata: >=2.7
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ r-maldiquantforeign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-maldiquantforeign
+      docker pull quay.io/repository/biocontainers/r-maldiquantforeign:<tag>
+
+   (see `r-maldiquantforeign/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-maldiquantforeign| conda:required_by:: r-maldiquantforeign
 .. |downloads_r-maldiquantforeign| image:: https://img.shields.io/conda/dn/bioconda/r-maldiquantforeign.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-maldiquantforeign| image:: https://quay.io/repository/biocontainers/r-maldiquantforeign/status
    :target: https://quay.io/repository/biocontainers/r-maldiquantforeign
+.. _`r-maldiquantforeign/tags`: https://quay.io/repository/biocontainers/r-maldiquantforeign?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-maldiquantforeign/README.html
-

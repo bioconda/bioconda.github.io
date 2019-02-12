@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mgs-canopy'
 .. highlight: bash
-
 
 mgs-canopy
 ==========
@@ -21,11 +22,13 @@ mgs-canopy
 
    |downloads_mgs-canopy| |docker_mgs-canopy|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`boost` 1.61* :conda:package:`libgcc`  
-
-   :required~by: |required_by_mgs-canopy|
+   :versions: 1.0-2, 1.0-1, 1.0-0
+   
+   :depends boost: >=1.66.0,<1.66.1.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ mgs-canopy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mgs-canopy
+      docker pull quay.io/repository/biocontainers/mgs-canopy:<tag>
+
+   (see `mgs-canopy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mgs-canopy| conda:required_by:: mgs-canopy
 .. |downloads_mgs-canopy| image:: https://img.shields.io/conda/dn/bioconda/mgs-canopy.svg?style=flat
    :alt:   (downloads)
 .. |docker_mgs-canopy| image:: https://quay.io/repository/biocontainers/mgs-canopy/status
    :target: https://quay.io/repository/biocontainers/mgs-canopy
+.. _`mgs-canopy/tags`: https://quay.io/repository/biocontainers/mgs-canopy?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mgs-canopy/README.html
-

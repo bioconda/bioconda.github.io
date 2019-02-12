@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'admixtools'
 .. highlight: bash
-
 
 admixtools
 ==========
@@ -22,11 +23,15 @@ admixtools
 
    |downloads_admixtools| |docker_admixtools|
 
-   :versions: 5.1, 5.0
-
-   :depends: :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 
-
-   :required~by: |required_by_admixtools|
+   :versions: 5.1-0, 5.0-0
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ admixtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/admixtools
+      docker pull quay.io/repository/biocontainers/admixtools:<tag>
+
+   (see `admixtools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_admixtools| conda:required_by:: admixtools
 .. |downloads_admixtools| image:: https://img.shields.io/conda/dn/bioconda/admixtools.svg?style=flat
    :alt:   (downloads)
 .. |docker_admixtools| image:: https://quay.io/repository/biocontainers/admixtools/status
    :target: https://quay.io/repository/biocontainers/admixtools
+.. _`admixtools/tags`: https://quay.io/repository/biocontainers/admixtools?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/admixtools/README.html
-

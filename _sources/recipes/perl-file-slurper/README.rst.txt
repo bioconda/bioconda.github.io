@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-slurper'
 .. highlight: bash
-
 
 perl-file-slurper
 =================
@@ -21,11 +22,19 @@ perl-file-slurper
 
    |downloads_perl-file-slurper| |docker_perl-file-slurper|
 
-   :versions: 0.012, 0.008
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-constant`  :conda:package:`perl-encode`  :conda:package:`perl-exporter`  
-
-   :required~by: |required_by_perl-file-slurper|
+   :versions: 0.012-0, 0.008-2, 0.008-1, 0.008-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-constant: 
+   
+   :depends perl-encode: 
+   
+   :depends perl-exporter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-file-slurper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-slurper
+      docker pull quay.io/repository/biocontainers/perl-file-slurper:<tag>
+
+   (see `perl-file-slurper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-slurper| conda:required_by:: perl-file-slurper
 .. |downloads_perl-file-slurper| image:: https://img.shields.io/conda/dn/bioconda/perl-file-slurper.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-slurper| image:: https://quay.io/repository/biocontainers/perl-file-slurper/status
    :target: https://quay.io/repository/biocontainers/perl-file-slurper
+.. _`perl-file-slurper/tags`: https://quay.io/repository/biocontainers/perl-file-slurper?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-slurper/README.html
-

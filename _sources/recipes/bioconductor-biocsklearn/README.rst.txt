@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-biocsklearn'
 .. highlight: bash
-
 
 bioconductor-biocsklearn
 ========================
@@ -21,11 +22,27 @@ bioconductor-biocsklearn
 
    |downloads_bioconductor-biocsklearn| |docker_bioconductor-biocsklearn|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`h5py`  :conda:package:`pandas`  :conda:package:`python`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bbmisc`  :conda:package:`r-knitr`  :conda:package:`r-reticulate`  :conda:package:`scikit-learn`  
-
-   :required~by: |required_by_bioconductor-biocsklearn|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends h5py: 
+   
+   :depends pandas: 
+   
+   :depends python: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bbmisc: 
+   
+   :depends r-knitr: 
+   
+   :depends r-reticulate: 
+   
+   :depends scikit-learn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-biocsklearn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocsklearn
+      docker pull quay.io/repository/biocontainers/bioconductor-biocsklearn:<tag>
+
+   (see `bioconductor-biocsklearn/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-biocsklearn| conda:required_by:: bioconductor-biocsklearn
 .. |downloads_bioconductor-biocsklearn| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocsklearn.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-biocsklearn| image:: https://quay.io/repository/biocontainers/bioconductor-biocsklearn/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocsklearn
+.. _`bioconductor-biocsklearn/tags`: https://quay.io/repository/biocontainers/bioconductor-biocsklearn?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-biocsklearn/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'glimmerhmm'
 .. highlight: bash
-
 
 glimmerhmm
 ==========
@@ -21,11 +22,11 @@ glimmerhmm
 
    |downloads_glimmerhmm| |docker_glimmerhmm|
 
-   :versions: 3.0.4
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_glimmerhmm|
+   :versions: 3.0.4-2, 3.0.4-1, 3.0.4-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ glimmerhmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/glimmerhmm
+      docker pull quay.io/repository/biocontainers/glimmerhmm:<tag>
+
+   (see `glimmerhmm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_glimmerhmm| conda:required_by:: glimmerhmm
 .. |downloads_glimmerhmm| image:: https://img.shields.io/conda/dn/bioconda/glimmerhmm.svg?style=flat
    :alt:   (downloads)
 .. |docker_glimmerhmm| image:: https://quay.io/repository/biocontainers/glimmerhmm/status
    :target: https://quay.io/repository/biocontainers/glimmerhmm
+.. _`glimmerhmm/tags`: https://quay.io/repository/biocontainers/glimmerhmm?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/glimmerhmm/README.html
-

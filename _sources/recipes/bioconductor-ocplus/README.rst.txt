@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ocplus'
 .. highlight: bash
-
 
 bioconductor-ocplus
 ===================
@@ -21,11 +22,15 @@ bioconductor-ocplus
 
    |downloads_bioconductor-ocplus| |docker_bioconductor-ocplus|
 
-   :versions: 1.56.0
-
-   :depends: :conda:package:`bioconductor-multtest` >=2.38.0,<2.39.0 :conda:package:`r-akima`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-ocplus|
+   :versions: 1.56.0-0
+   
+   :depends bioconductor-multtest: >=2.38.0,<2.39.0
+   
+   :depends r-akima: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-ocplus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ocplus
+      docker pull quay.io/repository/biocontainers/bioconductor-ocplus:<tag>
+
+   (see `bioconductor-ocplus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ocplus| conda:required_by:: bioconductor-ocplus
 .. |downloads_bioconductor-ocplus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ocplus.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ocplus| image:: https://quay.io/repository/biocontainers/bioconductor-ocplus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ocplus
+.. _`bioconductor-ocplus/tags`: https://quay.io/repository/biocontainers/bioconductor-ocplus?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ocplus/README.html
-

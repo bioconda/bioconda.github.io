@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'atropos'
 .. highlight: bash
-
 
 atropos
 =======
@@ -21,11 +22,17 @@ atropos
 
    |downloads_atropos| |docker_atropos|
 
-   :versions: 1.1.21, 1.1.19, 1.1.18, 1.1.16, 1.1.10, 1.1.5, 1.1.4, 1.1.2, 1.0.23
-
-   :depends: :conda:package:`jinja2`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`tqdm`  
-
-   :required~by: |required_by_atropos|
+   :versions: 1.1.21-0, 1.1.19-0, 1.1.18-1, 1.1.18-0, 1.1.16-0, 1.1.10-0, 1.1.5-0, 1.1.4-0, 1.1.2-0, 1.0.23-0
+   
+   :depends jinja2: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends tqdm: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ atropos
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/atropos
+      docker pull quay.io/repository/biocontainers/atropos:<tag>
+
+   (see `atropos/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_atropos| conda:required_by:: atropos
 .. |downloads_atropos| image:: https://img.shields.io/conda/dn/bioconda/atropos.svg?style=flat
    :alt:   (downloads)
 .. |docker_atropos| image:: https://quay.io/repository/biocontainers/atropos/status
    :target: https://quay.io/repository/biocontainers/atropos
+.. _`atropos/tags`: https://quay.io/repository/biocontainers/atropos?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/atropos/README.html
-

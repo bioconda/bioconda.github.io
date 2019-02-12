@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tracy'
 .. highlight: bash
-
 
 tracy
 =====
@@ -21,11 +22,9 @@ tracy
 
    |downloads_tracy| |docker_tracy|
 
-   :versions: 0.5.1, 0.3.10, 0.3.8, 0.3.7, 0.3.6
-
-   :depends: 
-
-   :required~by: |required_by_tracy|
+   :versions: 0.5.1-0, 0.3.10-0, 0.3.8-0, 0.3.7-0, 0.3.6-1, 0.3.6-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ tracy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tracy
+      docker pull quay.io/repository/biocontainers/tracy:<tag>
+
+   (see `tracy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tracy| conda:required_by:: tracy
 .. |downloads_tracy| image:: https://img.shields.io/conda/dn/bioconda/tracy.svg?style=flat
    :alt:   (downloads)
 .. |docker_tracy| image:: https://quay.io/repository/biocontainers/tracy/status
    :target: https://quay.io/repository/biocontainers/tracy
+.. _`tracy/tags`: https://quay.io/repository/biocontainers/tracy?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tracy/README.html
-

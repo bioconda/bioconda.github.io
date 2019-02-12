@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-storable'
 .. highlight: bash
-
 
 perl-storable
 =============
@@ -21,11 +22,13 @@ perl-storable
 
    |downloads_perl-storable| |docker_perl-storable|
 
-   :versions: 3.11
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 :conda:package:`perl-xsloader`  
-
-   :required~by: |required_by_perl-storable|
+   :versions: 3.11-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-xsloader: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-storable
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-storable
+      docker pull quay.io/repository/biocontainers/perl-storable:<tag>
+
+   (see `perl-storable/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-storable| conda:required_by:: perl-storable
 .. |downloads_perl-storable| image:: https://img.shields.io/conda/dn/bioconda/perl-storable.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-storable| image:: https://quay.io/repository/biocontainers/perl-storable/status
    :target: https://quay.io/repository/biocontainers/perl-storable
+.. _`perl-storable/tags`: https://quay.io/repository/biocontainers/perl-storable?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-storable/README.html
-

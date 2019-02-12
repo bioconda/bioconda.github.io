@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'snap'
 .. highlight: bash
-
 
 snap
 ====
@@ -21,11 +22,11 @@ snap
 
    |downloads_snap| |docker_snap|
 
-   :versions: 2013_11_29
-
-   :depends: 
-
-   :required~by: |required_by_snap|
+   :versions: 2013_11_29-1, 2013_11_29-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ snap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snap
+      docker pull quay.io/repository/biocontainers/snap:<tag>
+
+   (see `snap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_snap| conda:required_by:: snap
 .. |downloads_snap| image:: https://img.shields.io/conda/dn/bioconda/snap.svg?style=flat
    :alt:   (downloads)
 .. |docker_snap| image:: https://quay.io/repository/biocontainers/snap/status
    :target: https://quay.io/repository/biocontainers/snap
+.. _`snap/tags`: https://quay.io/repository/biocontainers/snap?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/snap/README.html
-

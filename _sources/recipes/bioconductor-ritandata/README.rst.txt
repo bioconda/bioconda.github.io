@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ritandata'
 .. highlight: bash
-
 
 bioconductor-ritandata
 ======================
@@ -21,11 +22,13 @@ bioconductor-ritandata
 
    |downloads_bioconductor-ritandata| |docker_bioconductor-ritandata|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-ritandata|
+   :versions: 1.6.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-ritandata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ritandata
+      docker pull quay.io/repository/biocontainers/bioconductor-ritandata:<tag>
+
+   (see `bioconductor-ritandata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ritandata| conda:required_by:: bioconductor-ritandata
 .. |downloads_bioconductor-ritandata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ritandata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ritandata| image:: https://quay.io/repository/biocontainers/bioconductor-ritandata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ritandata
+.. _`bioconductor-ritandata/tags`: https://quay.io/repository/biocontainers/bioconductor-ritandata?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ritandata/README.html
-

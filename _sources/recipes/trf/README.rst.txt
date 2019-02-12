@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'trf'
 .. highlight: bash
-
 
 trf
 ===
@@ -22,11 +23,9 @@ trf
 
    |downloads_trf| |docker_trf|
 
-   :versions: 4.09, 4.07b
-
-   :depends: 
-
-   :required~by: |required_by_trf|
+   :versions: 4.09-1, 4.09-0, 4.07b-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +39,16 @@ trf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trf
+      docker pull quay.io/repository/biocontainers/trf:<tag>
+
+   (see `trf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_trf| conda:required_by:: trf
 .. |downloads_trf| image:: https://img.shields.io/conda/dn/bioconda/trf.svg?style=flat
    :alt:   (downloads)
 .. |docker_trf| image:: https://quay.io/repository/biocontainers/trf/status
    :target: https://quay.io/repository/biocontainers/trf
+.. _`trf/tags`: https://quay.io/repository/biocontainers/trf?tab=tags
 
 
 
@@ -64,4 +65,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/trf/README.html
-

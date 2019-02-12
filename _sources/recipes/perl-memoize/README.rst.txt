@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-memoize'
 .. highlight: bash
-
 
 perl-memoize
 ============
@@ -21,11 +22,13 @@ perl-memoize
 
    |downloads_perl-memoize| |docker_perl-memoize|
 
-   :versions: 1.03
-
-   :depends: :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-memoize|
+   :versions: 1.03-2, 1.03-1
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-extutils-makemaker: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-memoize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-memoize
+      docker pull quay.io/repository/biocontainers/perl-memoize:<tag>
+
+   (see `perl-memoize/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-memoize| conda:required_by:: perl-memoize
 .. |downloads_perl-memoize| image:: https://img.shields.io/conda/dn/bioconda/perl-memoize.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-memoize| image:: https://quay.io/repository/biocontainers/perl-memoize/status
    :target: https://quay.io/repository/biocontainers/perl-memoize
+.. _`perl-memoize/tags`: https://quay.io/repository/biocontainers/perl-memoize?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-memoize/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'python-intervaltree'
 .. highlight: bash
-
 
 python-intervaltree
 ===================
@@ -21,11 +22,13 @@ python-intervaltree
 
    |downloads_python-intervaltree| |docker_python-intervaltree|
 
-   :versions: 3.0.2, 3.0.1, 2.1.0
-
-   :depends: :conda:package:`python`  :conda:package:`python-sortedcontainers`  
-
-   :required~by: |required_by_python-intervaltree|
+   :versions: 3.0.2-0, 3.0.1-0, 2.1.0-0
+   
+   :depends python: 
+   
+   :depends python-sortedcontainers: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ python-intervaltree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-intervaltree
+      docker pull quay.io/repository/biocontainers/python-intervaltree:<tag>
+
+   (see `python-intervaltree/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_python-intervaltree| conda:required_by:: python-intervaltree
 .. |downloads_python-intervaltree| image:: https://img.shields.io/conda/dn/bioconda/python-intervaltree.svg?style=flat
    :alt:   (downloads)
 .. |docker_python-intervaltree| image:: https://quay.io/repository/biocontainers/python-intervaltree/status
    :target: https://quay.io/repository/biocontainers/python-intervaltree
+.. _`python-intervaltree/tags`: https://quay.io/repository/biocontainers/python-intervaltree?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/python-intervaltree/README.html
-

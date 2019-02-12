@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tagger'
 .. highlight: bash
-
 
 tagger
 ======
@@ -21,11 +22,17 @@ tagger
 
    |downloads_tagger| |docker_tagger|
 
-   :versions: 1.1
-
-   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`swig`  
-
-   :required~by: |required_by_tagger|
+   :versions: 1.1-0
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends swig: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ tagger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tagger
+      docker pull quay.io/repository/biocontainers/tagger:<tag>
+
+   (see `tagger/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tagger| conda:required_by:: tagger
 .. |downloads_tagger| image:: https://img.shields.io/conda/dn/bioconda/tagger.svg?style=flat
    :alt:   (downloads)
 .. |docker_tagger| image:: https://quay.io/repository/biocontainers/tagger/status
    :target: https://quay.io/repository/biocontainers/tagger
+.. _`tagger/tags`: https://quay.io/repository/biocontainers/tagger?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tagger/README.html
-

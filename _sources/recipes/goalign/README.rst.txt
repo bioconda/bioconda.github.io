@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'goalign'
 .. highlight: bash
-
 
 goalign
 =======
@@ -21,11 +22,9 @@ goalign
 
    |downloads_goalign| |docker_goalign|
 
-   :versions: 0.2.9, 0.2.8
-
-   :depends: 
-
-   :required~by: |required_by_goalign|
+   :versions: 0.2.9-0, 0.2.8-1, 0.2.8-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ goalign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/goalign
+      docker pull quay.io/repository/biocontainers/goalign:<tag>
+
+   (see `goalign/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_goalign| conda:required_by:: goalign
 .. |downloads_goalign| image:: https://img.shields.io/conda/dn/bioconda/goalign.svg?style=flat
    :alt:   (downloads)
 .. |docker_goalign| image:: https://quay.io/repository/biocontainers/goalign/status
    :target: https://quay.io/repository/biocontainers/goalign
+.. _`goalign/tags`: https://quay.io/repository/biocontainers/goalign?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/goalign/README.html
-

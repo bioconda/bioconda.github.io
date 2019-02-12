@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nanoqc'
 .. highlight: bash
-
 
 nanoqc
 ======
@@ -21,11 +22,17 @@ nanoqc
 
    |downloads_nanoqc| |docker_nanoqc|
 
-   :versions: 0.8.1, 0.7.0, 0.6.0, 0.5.0, 0.4.3, 0.3.3
-
-   :depends: :conda:package:`biopython`  :conda:package:`bokeh`  :conda:package:`numpy`  :conda:package:`python` >=3.5,<3.6.0a0 
-
-   :required~by: |required_by_nanoqc|
+   :versions: 0.8.1-1, 0.7.0-1, 0.7.0-0, 0.6.0-0, 0.5.0-0, 0.4.3-0, 0.3.3-0
+   
+   :depends biopython: 
+   
+   :depends bokeh: 
+   
+   :depends numpy: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ nanoqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanoqc
+      docker pull quay.io/repository/biocontainers/nanoqc:<tag>
+
+   (see `nanoqc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nanoqc| conda:required_by:: nanoqc
 .. |downloads_nanoqc| image:: https://img.shields.io/conda/dn/bioconda/nanoqc.svg?style=flat
    :alt:   (downloads)
 .. |docker_nanoqc| image:: https://quay.io/repository/biocontainers/nanoqc/status
    :target: https://quay.io/repository/biocontainers/nanoqc
+.. _`nanoqc/tags`: https://quay.io/repository/biocontainers/nanoqc?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nanoqc/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'panx'
 .. highlight: bash
-
 
 panx
 ====
@@ -21,11 +22,33 @@ panx
 
    |downloads_panx| |docker_panx|
 
-   :versions: 1.6.0, 1.5.0
-
-   :depends: :conda:package:`biopython`  :conda:package:`diamond`  :conda:package:`ete2`  :conda:package:`fasttree`  :conda:package:`mafft`  :conda:package:`mcl`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`raxml`  :conda:package:`scipy`  :conda:package:`treetime`  
-
-   :required~by: |required_by_panx|
+   :versions: 1.6.0-0, 1.5.0-0
+   
+   :depends biopython: 
+   
+   :depends diamond: 
+   
+   :depends ete2: 
+   
+   :depends fasttree: 
+   
+   :depends mafft: 
+   
+   :depends mcl: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: 2.7*
+   
+   :depends raxml: 
+   
+   :depends scipy: 
+   
+   :depends treetime: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ panx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/panx
+      docker pull quay.io/repository/biocontainers/panx:<tag>
+
+   (see `panx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_panx| conda:required_by:: panx
 .. |downloads_panx| image:: https://img.shields.io/conda/dn/bioconda/panx.svg?style=flat
    :alt:   (downloads)
 .. |docker_panx| image:: https://quay.io/repository/biocontainers/panx/status
    :target: https://quay.io/repository/biocontainers/panx
+.. _`panx/tags`: https://quay.io/repository/biocontainers/panx?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/panx/README.html
-

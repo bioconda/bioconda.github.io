@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'evidencemodeler'
 .. highlight: bash
-
 
 evidencemodeler
 ===============
@@ -21,11 +22,13 @@ evidencemodeler
 
    |downloads_evidencemodeler| |docker_evidencemodeler|
 
-   :versions: 1.1.1, v1.1.1
-
-   :depends: :conda:package:`perl`  :conda:package:`perl-carp`  
-
-   :required~by: |required_by_evidencemodeler|
+   :versions: 1.1.1-0, v1.1.1-0
+   
+   :depends perl: 
+   
+   :depends perl-carp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ evidencemodeler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/evidencemodeler
+      docker pull quay.io/repository/biocontainers/evidencemodeler:<tag>
+
+   (see `evidencemodeler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_evidencemodeler| conda:required_by:: evidencemodeler
 .. |downloads_evidencemodeler| image:: https://img.shields.io/conda/dn/bioconda/evidencemodeler.svg?style=flat
    :alt:   (downloads)
 .. |docker_evidencemodeler| image:: https://quay.io/repository/biocontainers/evidencemodeler/status
    :target: https://quay.io/repository/biocontainers/evidencemodeler
+.. _`evidencemodeler/tags`: https://quay.io/repository/biocontainers/evidencemodeler?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/evidencemodeler/README.html
-

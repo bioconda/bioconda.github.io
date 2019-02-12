@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-siamcat'
 .. highlight: bash
-
 
 bioconductor-siamcat
 ====================
@@ -21,11 +22,43 @@ bioconductor-siamcat
 
    |downloads_bioconductor-siamcat| |docker_bioconductor-siamcat|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-phyloseq` >=1.26.0,<1.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-beanplot`  :conda:package:`r-corrplot`  :conda:package:`r-glmnet`  :conda:package:`r-gridbase`  :conda:package:`r-gridextra`  :conda:package:`r-infotheo`  :conda:package:`r-liblinear`  :conda:package:`r-matrixstats`  :conda:package:`r-mlr`  :conda:package:`r-paramhelpers`  :conda:package:`r-proc`  :conda:package:`r-prroc`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-scales`  :conda:package:`r-stringr`  
-
-   :required~by: |required_by_bioconductor-siamcat|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-phyloseq: >=1.26.0,<1.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-beanplot: 
+   
+   :depends r-corrplot: 
+   
+   :depends r-glmnet: 
+   
+   :depends r-gridbase: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-infotheo: 
+   
+   :depends r-liblinear: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-mlr: 
+   
+   :depends r-paramhelpers: 
+   
+   :depends r-proc: 
+   
+   :depends r-prroc: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-scales: 
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +72,16 @@ bioconductor-siamcat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-siamcat
+      docker pull quay.io/repository/biocontainers/bioconductor-siamcat:<tag>
+
+   (see `bioconductor-siamcat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-siamcat| conda:required_by:: bioconductor-siamcat
 .. |downloads_bioconductor-siamcat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-siamcat.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-siamcat| image:: https://quay.io/repository/biocontainers/bioconductor-siamcat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-siamcat
+.. _`bioconductor-siamcat/tags`: https://quay.io/repository/biocontainers/bioconductor-siamcat?tab=tags
 
 
 
@@ -63,4 +98,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-siamcat/README.html
-

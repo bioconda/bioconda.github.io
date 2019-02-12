@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kiwidist'
 .. highlight: bash
-
 
 kiwidist
 ========
@@ -21,11 +22,25 @@ kiwidist
 
    |downloads_kiwidist| |docker_kiwidist|
 
-   :versions: 0.3.6, 0.3.5, 0.3.4
-
-   :depends: :conda:package:`matplotlib` >=1.3.1,<=1.4.3 :conda:package:`mygene` >=2.1.0 :conda:package:`networkx` >=1.8.1 :conda:package:`numpy` >=1.8.0 :conda:package:`pandas` >=0.13.1 :conda:package:`python` 2.7* :conda:package:`scipy` >=0.13.3,<=0.16.0 :conda:package:`six` >=1.5 
-
-   :required~by: |required_by_kiwidist|
+   :versions: 0.3.6-2, 0.3.6-0, 0.3.5-0, 0.3.4-0
+   
+   :depends matplotlib: >=1.3.1,<=1.4.3
+   
+   :depends mygene: >=2.1.0
+   
+   :depends networkx: >=1.8.1
+   
+   :depends numpy: >=1.8.0
+   
+   :depends pandas: >=0.13.1
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: >=0.13.3,<=0.16.0
+   
+   :depends six: >=1.5
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ kiwidist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kiwidist
+      docker pull quay.io/repository/biocontainers/kiwidist:<tag>
+
+   (see `kiwidist/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kiwidist| conda:required_by:: kiwidist
 .. |downloads_kiwidist| image:: https://img.shields.io/conda/dn/bioconda/kiwidist.svg?style=flat
    :alt:   (downloads)
 .. |docker_kiwidist| image:: https://quay.io/repository/biocontainers/kiwidist/status
    :target: https://quay.io/repository/biocontainers/kiwidist
+.. _`kiwidist/tags`: https://quay.io/repository/biocontainers/kiwidist?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kiwidist/README.html
-

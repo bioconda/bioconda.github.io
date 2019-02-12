@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-hardyweinberg'
 .. highlight: bash
-
 
 r-hardyweinberg
 ===============
@@ -21,11 +22,21 @@ r-hardyweinberg
 
    |downloads_r-hardyweinberg| |docker_r-hardyweinberg|
 
-   :versions: 1.6.1
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mice`  :conda:package:`r-rcpp`  :conda:package:`r-rsolnp`  
-
-   :required~by: |required_by_r-hardyweinberg|
+   :versions: 1.6.1-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mice: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-rsolnp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-hardyweinberg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-hardyweinberg
+      docker pull quay.io/repository/biocontainers/r-hardyweinberg:<tag>
+
+   (see `r-hardyweinberg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-hardyweinberg| conda:required_by:: r-hardyweinberg
 .. |downloads_r-hardyweinberg| image:: https://img.shields.io/conda/dn/bioconda/r-hardyweinberg.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-hardyweinberg| image:: https://quay.io/repository/biocontainers/r-hardyweinberg/status
    :target: https://quay.io/repository/biocontainers/r-hardyweinberg
+.. _`r-hardyweinberg/tags`: https://quay.io/repository/biocontainers/r-hardyweinberg?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-hardyweinberg/README.html
-

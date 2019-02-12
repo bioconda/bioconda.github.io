@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cutadapt'
 .. highlight: bash
-
 
 cutadapt
 ========
@@ -22,11 +23,17 @@ cutadapt
 
    |downloads_cutadapt| |docker_cutadapt|
 
-   :versions: 1.18, 1.17, 1.16, 1.15, 1.14, 1.13, 1.12, 1.11, 1.10, 1.9.1, 1.8.3, 1.8.1
-
-   :depends: :conda:package:`pigz`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`xopen` >=0.3.2 
-
-   :required~by: |required_by_cutadapt|
+   :versions: 1.18-1, 1.18-0, 1.17-0, 1.16-2, 1.16-1, 1.16-0, 1.15-0, 1.14-0, 1.13-0, 1.12-1, 1.12-0, 1.11-0, 1.10-0, 1.9.1-0, 1.8.3-0, 1.8.1-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends pigz: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends xopen: >=0.3.2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ cutadapt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cutadapt
+      docker pull quay.io/repository/biocontainers/cutadapt:<tag>
+
+   (see `cutadapt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cutadapt| conda:required_by:: cutadapt
 .. |downloads_cutadapt| image:: https://img.shields.io/conda/dn/bioconda/cutadapt.svg?style=flat
    :alt:   (downloads)
 .. |docker_cutadapt| image:: https://quay.io/repository/biocontainers/cutadapt/status
    :target: https://quay.io/repository/biocontainers/cutadapt
+.. _`cutadapt/tags`: https://quay.io/repository/biocontainers/cutadapt?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cutadapt/README.html
-

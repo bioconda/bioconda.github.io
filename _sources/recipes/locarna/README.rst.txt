@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'locarna'
 .. highlight: bash
-
 
 locarna
 =======
@@ -22,11 +23,15 @@ locarna
 
    |downloads_locarna| |docker_locarna|
 
-   :versions: 1.9.2, 1.9.1, 1.9.0, 1.8.12, 1.8.11, 1.8.10, 1.8.9, 1.8.7
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl`  :conda:package:`viennarna` 2.3.5 
-
-   :required~by: |required_by_locarna|
+   :versions: 1.9.2-1, 1.9.2-0, 1.9.1-2, 1.9.1-1, 1.9.1-0, 1.9.0-0, 1.8.12-0, 1.8.11-1, 1.8.10-0, 1.8.9-3, 1.8.9-2, 1.8.9-1, 1.8.7-1, 1.8.7-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: 
+   
+   :depends viennarna: 2.3.5
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ locarna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/locarna
+      docker pull quay.io/repository/biocontainers/locarna:<tag>
+
+   (see `locarna/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_locarna| conda:required_by:: locarna
 .. |downloads_locarna| image:: https://img.shields.io/conda/dn/bioconda/locarna.svg?style=flat
    :alt:   (downloads)
 .. |docker_locarna| image:: https://quay.io/repository/biocontainers/locarna/status
    :target: https://quay.io/repository/biocontainers/locarna
+.. _`locarna/tags`: https://quay.io/repository/biocontainers/locarna?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/locarna/README.html
-

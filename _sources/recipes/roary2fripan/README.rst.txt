@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'roary2fripan.py'
 .. highlight: bash
-
 
 roary2fripan.py
 ===============
@@ -21,11 +22,11 @@ roary2fripan.py
 
    |downloads_roary2fripan.py| |docker_roary2fripan.py|
 
-   :versions: 0.1
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_roary2fripan.py|
+   :versions: 0.1-0
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ roary2fripan.py
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/roary2fripan.py
+      docker pull quay.io/repository/biocontainers/roary2fripan.py:<tag>
+
+   (see `roary2fripan.py/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_roary2fripan.py| conda:required_by:: roary2fripan.py
 .. |downloads_roary2fripan.py| image:: https://img.shields.io/conda/dn/bioconda/roary2fripan.py.svg?style=flat
    :alt:   (downloads)
 .. |docker_roary2fripan.py| image:: https://quay.io/repository/biocontainers/roary2fripan.py/status
    :target: https://quay.io/repository/biocontainers/roary2fripan.py
+.. _`roary2fripan.py/tags`: https://quay.io/repository/biocontainers/roary2fripan.py?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/roary2fripan.py/README.html
-

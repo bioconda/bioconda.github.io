@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-arraytools'
 .. highlight: bash
-
 
 bioconductor-arraytools
 =======================
@@ -22,11 +23,19 @@ bioconductor-arraytools
 
    |downloads_bioconductor-arraytools| |docker_bioconductor-arraytools|
 
-   :versions: 1.42.0, 1.40.0, 1.38.0, 1.36.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-xtable`  
-
-   :required~by: |required_by_bioconductor-arraytools|
+   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-xtable: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-arraytools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-arraytools
+      docker pull quay.io/repository/biocontainers/bioconductor-arraytools:<tag>
+
+   (see `bioconductor-arraytools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-arraytools| conda:required_by:: bioconductor-arraytools
 .. |downloads_bioconductor-arraytools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arraytools.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-arraytools| image:: https://quay.io/repository/biocontainers/bioconductor-arraytools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-arraytools
+.. _`bioconductor-arraytools/tags`: https://quay.io/repository/biocontainers/bioconductor-arraytools?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-arraytools/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'searchgui'
 .. highlight: bash
-
 
 searchgui
 =========
@@ -23,11 +24,17 @@ searchgui
 
    |downloads_searchgui| |docker_searchgui|
 
-   :versions: 3.3.10, 3.3.9, 3.3.6, 3.3.5, 3.3.3, 3.3.1, 3.2.26, 3.2.24, 3.2.20, 3.2.13, 3.2.11, 3.2.8, 3.2.7, 3.2.6, 3.2.5, 3.2.3, 3.1.4, 2.9.0, 2.1.4
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`mono` >=4.0.0 :conda:package:`openjdk` >=6 :conda:package:`python`  
-
-   :required~by: |required_by_searchgui|
+   :versions: 3.3.10-0, 3.3.9-1, 3.3.9-0, 3.3.6-1, 3.3.5-1, 3.3.3-1, 3.3.1-1, 3.3.1-0, 3.2.26-0, 3.2.24-0, 3.2.20-0, 3.2.13-1, 3.2.13-0, 3.2.11-1, 3.2.11-0, 3.2.8-1, 3.2.8-0, 3.2.7-1, 3.2.7-0, 3.2.6-1, 3.2.6-0, 3.2.5-1, 3.2.5-0, 3.2.3-1, 3.2.3-0, 3.1.4-2, 3.1.4-1, 3.1.4-0, 2.9.0-2, 2.9.0-1, 2.9.0-0, 2.1.4-3, 2.1.4-2, 2.1.4-1, 2.1.4-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends mono: >=4.0.0
+   
+   :depends openjdk: >=6
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +48,16 @@ searchgui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/searchgui
+      docker pull quay.io/repository/biocontainers/searchgui:<tag>
+
+   (see `searchgui/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_searchgui| conda:required_by:: searchgui
 .. |downloads_searchgui| image:: https://img.shields.io/conda/dn/bioconda/searchgui.svg?style=flat
    :alt:   (downloads)
 .. |docker_searchgui| image:: https://quay.io/repository/biocontainers/searchgui/status
    :target: https://quay.io/repository/biocontainers/searchgui
+.. _`searchgui/tags`: https://quay.io/repository/biocontainers/searchgui?tab=tags
 
 
 
@@ -75,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/searchgui/README.html
-

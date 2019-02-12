@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-scimpute'
 .. highlight: bash
-
 
 r-scimpute
 ==========
@@ -22,11 +23,29 @@ r-scimpute
 
    |downloads_r-scimpute| |docker_r-scimpute|
 
-   :versions: 0.0.8, 0.0.6
-
-   :depends: :conda:package:`parallel`  :conda:package:`r` >=3.3.2 :conda:package:`r-devtools`  :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-kernlab`  :conda:package:`r-knitr`  :conda:package:`r-markdown`  :conda:package:`r-penalized`  :conda:package:`r-rsvd`  
-
-   :required~by: |required_by_r-scimpute|
+   :versions: 0.0.8-0, 0.0.6-1, 0.0.6-0
+   
+   :depends parallel: 
+   
+   :depends r: >=3.3.2
+   
+   :depends r-devtools: 
+   
+   :depends r-doparallel: 
+   
+   :depends r-foreach: 
+   
+   :depends r-kernlab: 
+   
+   :depends r-knitr: 
+   
+   :depends r-markdown: 
+   
+   :depends r-penalized: 
+   
+   :depends r-rsvd: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ r-scimpute
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-scimpute
+      docker pull quay.io/repository/biocontainers/r-scimpute:<tag>
+
+   (see `r-scimpute/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-scimpute| conda:required_by:: r-scimpute
 .. |downloads_r-scimpute| image:: https://img.shields.io/conda/dn/bioconda/r-scimpute.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-scimpute| image:: https://quay.io/repository/biocontainers/r-scimpute/status
    :target: https://quay.io/repository/biocontainers/r-scimpute
+.. _`r-scimpute/tags`: https://quay.io/repository/biocontainers/r-scimpute?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-scimpute/README.html
-

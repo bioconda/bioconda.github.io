@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-longstring'
 .. highlight: bash
-
 
 perl-test-longstring
 ====================
@@ -21,11 +22,15 @@ perl-test-longstring
 
    |downloads_perl-test-longstring| |docker_perl-test-longstring|
 
-   :versions: 0.17
-
-   :depends: :conda:package:`perl-test-builder-tester`  :conda:package:`perl-test-simple`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-test-longstring|
+   :versions: 0.17-1, 0.17-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-test-builder-tester: 
+   
+   :depends perl-test-simple: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-test-longstring
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-longstring
+      docker pull quay.io/repository/biocontainers/perl-test-longstring:<tag>
+
+   (see `perl-test-longstring/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-longstring| conda:required_by:: perl-test-longstring
 .. |downloads_perl-test-longstring| image:: https://img.shields.io/conda/dn/bioconda/perl-test-longstring.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-longstring| image:: https://quay.io/repository/biocontainers/perl-test-longstring/status
    :target: https://quay.io/repository/biocontainers/perl-test-longstring
+.. _`perl-test-longstring/tags`: https://quay.io/repository/biocontainers/perl-test-longstring?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-longstring/README.html
-

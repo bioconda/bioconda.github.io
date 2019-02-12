@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-tcgabiolinksgui'
 .. highlight: bash
-
 
 bioconductor-tcgabiolinksgui
 ============================
@@ -21,11 +22,69 @@ bioconductor-tcgabiolinksgui
 
    |downloads_bioconductor-tcgabiolinksgui| |docker_bioconductor-tcgabiolinksgui|
 
-   :versions: 1.8.0
-
-   :depends: :conda:package:`bioconductor-clusterprofiler` >=3.10.0,<3.11.0 :conda:package:`bioconductor-elmer` >=2.6.0,<2.7.0 :conda:package:`bioconductor-illuminahumanmethylation27kanno.ilmn12.hg19` >=0.6.0,<0.7.0 :conda:package:`bioconductor-illuminahumanmethylation27kmanifest` >=0.4.0,<0.5.0 :conda:package:`bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19` >=0.6.0,<0.7.0 :conda:package:`bioconductor-illuminahumanmethylation450kmanifest` >=0.4.0,<0.5.0 :conda:package:`bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19` >=0.6.0,<0.7.0 :conda:package:`bioconductor-illuminahumanmethylationepicmanifest` >=0.3.0,<0.4.0 :conda:package:`bioconductor-maftools` >=1.8.0,<1.9.0 :conda:package:`bioconductor-minfi` >=1.28.0,<1.29.0 :conda:package:`bioconductor-pathview` >=1.22.0,<1.23.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-tcgabiolinks` >=2.10.0,<2.11.0 :conda:package:`bioconductor-tcgabiolinksgui.data` >=1.2.0,<1.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-caret`  :conda:package:`r-colourpicker`  :conda:package:`r-data.table`  :conda:package:`r-downloader` >=0.4 :conda:package:`r-dt`  :conda:package:`r-ggplot2` >=2.1.0 :conda:package:`r-ggrepel`  :conda:package:`r-plotly`  :conda:package:`r-readr`  :conda:package:`r-shiny` >=0.14.1 :conda:package:`r-shinybs` >=0.61 :conda:package:`r-shinydashboard` >=0.5.3 :conda:package:`r-shinyfiles` >=0.6.2 :conda:package:`r-shinyjs` >=0.7 :conda:package:`r-stringr` >=1.1.0 
-
-   :required~by: |required_by_bioconductor-tcgabiolinksgui|
+   :versions: 1.8.0-0
+   
+   :depends bioconductor-clusterprofiler: >=3.10.0,<3.11.0
+   
+   :depends bioconductor-elmer: >=2.6.0,<2.7.0
+   
+   :depends bioconductor-illuminahumanmethylation27kanno.ilmn12.hg19: >=0.6.0,<0.7.0
+   
+   :depends bioconductor-illuminahumanmethylation27kmanifest: >=0.4.0,<0.5.0
+   
+   :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
+   
+   :depends bioconductor-illuminahumanmethylation450kmanifest: >=0.4.0,<0.5.0
+   
+   :depends bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19: >=0.6.0,<0.7.0
+   
+   :depends bioconductor-illuminahumanmethylationepicmanifest: >=0.3.0,<0.4.0
+   
+   :depends bioconductor-maftools: >=1.8.0,<1.9.0
+   
+   :depends bioconductor-minfi: >=1.28.0,<1.29.0
+   
+   :depends bioconductor-pathview: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends bioconductor-tcgabiolinks: >=2.10.0,<2.11.0
+   
+   :depends bioconductor-tcgabiolinksgui.data: >=1.2.0,<1.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-caret: 
+   
+   :depends r-colourpicker: 
+   
+   :depends r-data.table: 
+   
+   :depends r-downloader: >=0.4
+   
+   :depends r-dt: 
+   
+   :depends r-ggplot2: >=2.1.0
+   
+   :depends r-ggrepel: 
+   
+   :depends r-plotly: 
+   
+   :depends r-readr: 
+   
+   :depends r-shiny: >=0.14.1
+   
+   :depends r-shinybs: >=0.61
+   
+   :depends r-shinydashboard: >=0.5.3
+   
+   :depends r-shinyfiles: >=0.6.2
+   
+   :depends r-shinyjs: >=0.7
+   
+   :depends r-stringr: >=1.1.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +98,16 @@ bioconductor-tcgabiolinksgui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tcgabiolinksgui
+      docker pull quay.io/repository/biocontainers/bioconductor-tcgabiolinksgui:<tag>
+
+   (see `bioconductor-tcgabiolinksgui/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-tcgabiolinksgui| conda:required_by:: bioconductor-tcgabiolinksgui
 .. |downloads_bioconductor-tcgabiolinksgui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tcgabiolinksgui.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-tcgabiolinksgui| image:: https://quay.io/repository/biocontainers/bioconductor-tcgabiolinksgui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tcgabiolinksgui
+.. _`bioconductor-tcgabiolinksgui/tags`: https://quay.io/repository/biocontainers/bioconductor-tcgabiolinksgui?tab=tags
 
 
 
@@ -63,4 +124,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-tcgabiolinksgui/README.html
-

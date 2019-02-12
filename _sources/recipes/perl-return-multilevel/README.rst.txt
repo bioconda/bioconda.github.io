@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-return-multilevel'
 .. highlight: bash
-
 
 perl-return-multilevel
 ======================
@@ -21,11 +22,19 @@ perl-return-multilevel
 
    |downloads_perl-return-multilevel| |docker_perl-return-multilevel|
 
-   :versions: 0.05
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-data-munge`  :conda:package:`perl-exporter`  :conda:package:`perl-parent`  
-
-   :required~by: |required_by_perl-return-multilevel|
+   :versions: 0.05-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-data-munge: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-parent: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-return-multilevel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-return-multilevel
+      docker pull quay.io/repository/biocontainers/perl-return-multilevel:<tag>
+
+   (see `perl-return-multilevel/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-return-multilevel| conda:required_by:: perl-return-multilevel
 .. |downloads_perl-return-multilevel| image:: https://img.shields.io/conda/dn/bioconda/perl-return-multilevel.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-return-multilevel| image:: https://quay.io/repository/biocontainers/perl-return-multilevel/status
    :target: https://quay.io/repository/biocontainers/perl-return-multilevel
+.. _`perl-return-multilevel/tags`: https://quay.io/repository/biocontainers/perl-return-multilevel?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-return-multilevel/README.html
-

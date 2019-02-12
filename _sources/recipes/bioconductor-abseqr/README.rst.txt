@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-abseqr'
 .. highlight: bash
-
 
 bioconductor-abseqr
 ===================
@@ -21,11 +22,47 @@ bioconductor-abseqr
 
    |downloads_bioconductor-abseqr| |docker_bioconductor-abseqr|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-biocstyle` >=2.10.0,<2.11.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-circlize`  :conda:package:`r-flexdashboard`  :conda:package:`r-ggcorrplot`  :conda:package:`r-ggdendro`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-knitr`  :conda:package:`r-plotly`  :conda:package:`r-plyr`  :conda:package:`r-png`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-rmarkdown`  :conda:package:`r-stringr`  :conda:package:`r-vegan`  :conda:package:`r-venndiagram`  
-
-   :required~by: |required_by_bioconductor-abseqr|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-biocstyle: >=2.10.0,<2.11.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-circlize: 
+   
+   :depends r-flexdashboard: 
+   
+   :depends r-ggcorrplot: 
+   
+   :depends r-ggdendro: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-knitr: 
+   
+   :depends r-plotly: 
+   
+   :depends r-plyr: 
+   
+   :depends r-png: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-rmarkdown: 
+   
+   :depends r-stringr: 
+   
+   :depends r-vegan: 
+   
+   :depends r-venndiagram: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +76,16 @@ bioconductor-abseqr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-abseqr
+      docker pull quay.io/repository/biocontainers/bioconductor-abseqr:<tag>
+
+   (see `bioconductor-abseqr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-abseqr| conda:required_by:: bioconductor-abseqr
 .. |downloads_bioconductor-abseqr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-abseqr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-abseqr| image:: https://quay.io/repository/biocontainers/bioconductor-abseqr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-abseqr
+.. _`bioconductor-abseqr/tags`: https://quay.io/repository/biocontainers/bioconductor-abseqr?tab=tags
 
 
 
@@ -63,4 +102,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-abseqr/README.html
-

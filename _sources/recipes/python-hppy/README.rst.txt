@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'python-hppy'
 .. highlight: bash
-
 
 python-hppy
 ===========
@@ -21,11 +22,17 @@ python-hppy
 
    |downloads_python-hppy| |docker_python-hppy|
 
-   :versions: 0.9.8, 0.9.6
-
-   :depends: :conda:package:`cython`  :conda:package:`python`  :conda:package:`python-fakemp`  :conda:package:`python-hyphy-python`  
-
-   :required~by: |required_by_python-hppy|
+   :versions: 0.9.8-0, 0.9.6-0
+   
+   :depends cython: 
+   
+   :depends python: 
+   
+   :depends python-fakemp: 
+   
+   :depends python-hyphy-python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ python-hppy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-hppy
+      docker pull quay.io/repository/biocontainers/python-hppy:<tag>
+
+   (see `python-hppy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_python-hppy| conda:required_by:: python-hppy
 .. |downloads_python-hppy| image:: https://img.shields.io/conda/dn/bioconda/python-hppy.svg?style=flat
    :alt:   (downloads)
 .. |docker_python-hppy| image:: https://quay.io/repository/biocontainers/python-hppy/status
    :target: https://quay.io/repository/biocontainers/python-hppy
+.. _`python-hppy/tags`: https://quay.io/repository/biocontainers/python-hppy?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/python-hppy/README.html
-

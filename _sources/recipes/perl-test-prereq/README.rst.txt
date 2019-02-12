@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-prereq'
 .. highlight: bash
-
 
 perl-test-prereq
 ================
@@ -21,11 +22,21 @@ perl-test-prereq
 
    |downloads_perl-test-prereq| |docker_perl-test-prereq|
 
-   :versions: 2.002
-
-   :depends: :conda:package:`perl` >=5.22,<6.0 :conda:package:`perl-carp`  :conda:package:`perl-file-find`  :conda:package:`perl-lib`  :conda:package:`perl-module-build`  :conda:package:`perl-module-extract-use`  :conda:package:`perl-parent`  
-
-   :required~by: |required_by_perl-test-prereq|
+   :versions: 2.002-3, 2.002-1, 2.002-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-lib: 
+   
+   :depends perl-module-build: 
+   
+   :depends perl-module-extract-use: 
+   
+   :depends perl-parent: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-test-prereq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-prereq
+      docker pull quay.io/repository/biocontainers/perl-test-prereq:<tag>
+
+   (see `perl-test-prereq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-prereq| conda:required_by:: perl-test-prereq
 .. |downloads_perl-test-prereq| image:: https://img.shields.io/conda/dn/bioconda/perl-test-prereq.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-prereq| image:: https://quay.io/repository/biocontainers/perl-test-prereq/status
    :target: https://quay.io/repository/biocontainers/perl-test-prereq
+.. _`perl-test-prereq/tags`: https://quay.io/repository/biocontainers/perl-test-prereq?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-prereq/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rename'
 .. highlight: bash
-
 
 rename
 ======
@@ -21,11 +22,11 @@ rename
 
    |downloads_rename| |docker_rename|
 
-   :versions: 1.600
-
-   :depends: :conda:package:`perl`  
-
-   :required~by: |required_by_rename|
+   :versions: 1.600-1, 1.600-0
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ rename
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rename
+      docker pull quay.io/repository/biocontainers/rename:<tag>
+
+   (see `rename/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rename| conda:required_by:: rename
 .. |downloads_rename| image:: https://img.shields.io/conda/dn/bioconda/rename.svg?style=flat
    :alt:   (downloads)
 .. |docker_rename| image:: https://quay.io/repository/biocontainers/rename/status
    :target: https://quay.io/repository/biocontainers/rename
+.. _`rename/tags`: https://quay.io/repository/biocontainers/rename?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rename/README.html
-

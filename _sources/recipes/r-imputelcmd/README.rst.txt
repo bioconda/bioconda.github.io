@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-imputelcmd'
 .. highlight: bash
-
 
 r-imputelcmd
 ============
@@ -21,11 +22,19 @@ r-imputelcmd
 
    |downloads_r-imputelcmd| |docker_r-imputelcmd|
 
-   :versions: 2.0
-
-   :depends: :conda:package:`bioconductor-impute`  :conda:package:`bioconductor-pcamethods`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-norm`  :conda:package:`r-tmvtnorm`  
-
-   :required~by: |required_by_r-imputelcmd|
+   :versions: 2.0-0
+   
+   :depends bioconductor-impute: 
+   
+   :depends bioconductor-pcamethods: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-norm: 
+   
+   :depends r-tmvtnorm: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ r-imputelcmd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-imputelcmd
+      docker pull quay.io/repository/biocontainers/r-imputelcmd:<tag>
+
+   (see `r-imputelcmd/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-imputelcmd| conda:required_by:: r-imputelcmd
 .. |downloads_r-imputelcmd| image:: https://img.shields.io/conda/dn/bioconda/r-imputelcmd.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-imputelcmd| image:: https://quay.io/repository/biocontainers/r-imputelcmd/status
    :target: https://quay.io/repository/biocontainers/r-imputelcmd
+.. _`r-imputelcmd/tags`: https://quay.io/repository/biocontainers/r-imputelcmd?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-imputelcmd/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-plsgenomics'
 .. highlight: bash
-
 
 r-plsgenomics
 =============
@@ -21,11 +22,23 @@ r-plsgenomics
 
    |downloads_r-plsgenomics| |docker_r-plsgenomics|
 
-   :versions: 1.5_2
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-boot`  :conda:package:`r-fields`  :conda:package:`r-mass`  :conda:package:`r-plyr`  :conda:package:`r-reshape2`  :conda:package:`r-rhpcblasctl`  
-
-   :required~by: |required_by_r-plsgenomics|
+   :versions: 1.5_2-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-boot: 
+   
+   :depends r-fields: 
+   
+   :depends r-mass: 
+   
+   :depends r-plyr: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-rhpcblasctl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ r-plsgenomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-plsgenomics
+      docker pull quay.io/repository/biocontainers/r-plsgenomics:<tag>
+
+   (see `r-plsgenomics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-plsgenomics| conda:required_by:: r-plsgenomics
 .. |downloads_r-plsgenomics| image:: https://img.shields.io/conda/dn/bioconda/r-plsgenomics.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-plsgenomics| image:: https://quay.io/repository/biocontainers/r-plsgenomics/status
    :target: https://quay.io/repository/biocontainers/r-plsgenomics
+.. _`r-plsgenomics/tags`: https://quay.io/repository/biocontainers/r-plsgenomics?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-plsgenomics/README.html
-

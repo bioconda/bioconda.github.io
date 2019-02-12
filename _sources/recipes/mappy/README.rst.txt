@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mappy'
 .. highlight: bash
-
 
 mappy
 =====
@@ -21,11 +22,15 @@ mappy
 
    |downloads_mappy| |docker_mappy|
 
-   :versions: 2.15, 2.14, 2.13, 2.12, 2.11, 2.10, 2.9, 2.8, 2.7, 2.6, 2.5, 2.4, 2.2
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_mappy|
+   :versions: 2.15-0, 2.14-0, 2.13-0, 2.12-0, 2.11-0, 2.10-1, 2.9-1, 2.8-1, 2.8-0, 2.7-1, 2.7-0, 2.6-0, 2.5-0, 2.4-0, 2.2-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ mappy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mappy
+      docker pull quay.io/repository/biocontainers/mappy:<tag>
+
+   (see `mappy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mappy| conda:required_by:: mappy
 .. |downloads_mappy| image:: https://img.shields.io/conda/dn/bioconda/mappy.svg?style=flat
    :alt:   (downloads)
 .. |docker_mappy| image:: https://quay.io/repository/biocontainers/mappy/status
    :target: https://quay.io/repository/biocontainers/mappy
+.. _`mappy/tags`: https://quay.io/repository/biocontainers/mappy?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mappy/README.html
-

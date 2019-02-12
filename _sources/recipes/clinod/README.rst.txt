@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'clinod'
 .. highlight: bash
-
 
 clinod
 ======
@@ -21,11 +22,15 @@ clinod
 
    |downloads_clinod| |docker_clinod|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`openjdk` >=6 :conda:package:`python`  :conda:package:`snns`  
-
-   :required~by: |required_by_clinod|
+   :versions: 1.3-2, 1.3-1, 1.3-0
+   
+   :depends openjdk: >=6
+   
+   :depends python: 
+   
+   :depends snns: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ clinod
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clinod
+      docker pull quay.io/repository/biocontainers/clinod:<tag>
+
+   (see `clinod/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_clinod| conda:required_by:: clinod
 .. |downloads_clinod| image:: https://img.shields.io/conda/dn/bioconda/clinod.svg?style=flat
    :alt:   (downloads)
 .. |docker_clinod| image:: https://quay.io/repository/biocontainers/clinod/status
    :target: https://quay.io/repository/biocontainers/clinod
+.. _`clinod/tags`: https://quay.io/repository/biocontainers/clinod?tab=tags
 
 
 
@@ -72,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/clinod/README.html
-

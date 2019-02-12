@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'khmer'
 .. highlight: bash
-
 
 khmer
 =====
@@ -23,11 +24,19 @@ khmer
 
    |downloads_khmer| |docker_khmer|
 
-   :versions: 3.0.0a2, 3.0.0a1, 2.1.2, 2.1, 2.1rc1, 2.0
-
-   :depends: :conda:package:`bz2file`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`screed` >=1.0 
-
-   :required~by: |required_by_khmer|
+   :versions: 3.0.0a2-0, 3.0.0a1-0, 2.1.2-0, 2.1-0, 2.1rc1-0, 2.0-2, 2.0-1, 2.0-0
+   
+   :depends bz2file: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :depends screed: >=1.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +50,16 @@ khmer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/khmer
+      docker pull quay.io/repository/biocontainers/khmer:<tag>
+
+   (see `khmer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_khmer| conda:required_by:: khmer
 .. |downloads_khmer| image:: https://img.shields.io/conda/dn/bioconda/khmer.svg?style=flat
    :alt:   (downloads)
 .. |docker_khmer| image:: https://quay.io/repository/biocontainers/khmer/status
    :target: https://quay.io/repository/biocontainers/khmer
+.. _`khmer/tags`: https://quay.io/repository/biocontainers/khmer?tab=tags
 
 
 
@@ -65,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/khmer/README.html
-

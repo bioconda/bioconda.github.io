@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'footprint'
 .. highlight: bash
-
 
 footprint
 =========
@@ -21,11 +22,25 @@ footprint
 
    |downloads_footprint| |docker_footprint|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bedtools` ==2.17.0 :conda:package:`bioconductor-genomicranges`  :conda:package:`perl` 5.22.0* :conda:package:`r-base` 3.3.1* :conda:package:`r-gtools`  :conda:package:`r-mixtools`  :conda:package:`r-segmented`  :conda:package:`samtools` ==1.1 
-
-   :required~by: |required_by_footprint|
+   :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0
+   
+   :depends bedtools: ==2.17.0
+   
+   :depends bioconductor-genomicranges: 
+   
+   :depends perl: 5.22.0*
+   
+   :depends r-base: 3.3.2*
+   
+   :depends r-gtools: 
+   
+   :depends r-mixtools: 
+   
+   :depends r-segmented: 
+   
+   :depends samtools: ==1.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ footprint
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/footprint
+      docker pull quay.io/repository/biocontainers/footprint:<tag>
+
+   (see `footprint/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_footprint| conda:required_by:: footprint
 .. |downloads_footprint| image:: https://img.shields.io/conda/dn/bioconda/footprint.svg?style=flat
    :alt:   (downloads)
 .. |docker_footprint| image:: https://quay.io/repository/biocontainers/footprint/status
    :target: https://quay.io/repository/biocontainers/footprint
+.. _`footprint/tags`: https://quay.io/repository/biocontainers/footprint?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/footprint/README.html
-

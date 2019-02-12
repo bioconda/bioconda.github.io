@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-datetime-timezone'
 .. highlight: bash
-
 
 perl-datetime-timezone
 ======================
@@ -21,11 +22,25 @@ perl-datetime-timezone
 
    |downloads_perl-datetime-timezone| |docker_perl-datetime-timezone|
 
-   :versions: 2.09
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-module-runtime`  :conda:package:`perl-namespace-autoclean`  :conda:package:`perl-params-validationcompiler`  :conda:package:`perl-specio-exporter`  :conda:package:`perl-try-tiny`  
-
-   :required~by: |required_by_perl-datetime-timezone|
+   :versions: 2.09-2, 2.09-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-module-runtime: 
+   
+   :depends perl-namespace-autoclean: 
+   
+   :depends perl-params-validationcompiler: 
+   
+   :depends perl-specio-exporter: 
+   
+   :depends perl-try-tiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ perl-datetime-timezone
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-datetime-timezone
+      docker pull quay.io/repository/biocontainers/perl-datetime-timezone:<tag>
+
+   (see `perl-datetime-timezone/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-datetime-timezone| conda:required_by:: perl-datetime-timezone
 .. |downloads_perl-datetime-timezone| image:: https://img.shields.io/conda/dn/bioconda/perl-datetime-timezone.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-datetime-timezone| image:: https://quay.io/repository/biocontainers/perl-datetime-timezone/status
    :target: https://quay.io/repository/biocontainers/perl-datetime-timezone
+.. _`perl-datetime-timezone/tags`: https://quay.io/repository/biocontainers/perl-datetime-timezone?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-datetime-timezone/README.html
-

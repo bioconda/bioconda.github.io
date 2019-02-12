@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-ampvis'
 .. highlight: bash
-
 
 r-ampvis
 ========
@@ -21,11 +22,45 @@ r-ampvis
 
    |downloads_r-ampvis| |docker_r-ampvis|
 
-   :versions: 1.27.0
-
-   :depends: :conda:package:`bioconductor-biostrings`  :conda:package:`bioconductor-deseq2`  :conda:package:`bioconductor-phyloseq`  :conda:package:`r` 3.3.1* :conda:package:`r-data.table`  :conda:package:`r-dplyr`  :conda:package:`r-ggdendro`  :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-gridextra`  :conda:package:`r-igraph`  :conda:package:`r-knitr`  :conda:package:`r-magrittr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-scales`  :conda:package:`r-stringr`  :conda:package:`r-vegan`  
-
-   :required~by: |required_by_r-ampvis|
+   :versions: 1.27.0-0
+   
+   :depends bioconductor-biostrings: 
+   
+   :depends bioconductor-deseq2: 
+   
+   :depends bioconductor-phyloseq: 
+   
+   :depends r: 3.3.1*
+   
+   :depends r-data.table: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggdendro: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggrepel: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-igraph: 
+   
+   :depends r-knitr: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-scales: 
+   
+   :depends r-stringr: 
+   
+   :depends r-vegan: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +74,16 @@ r-ampvis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ampvis
+      docker pull quay.io/repository/biocontainers/r-ampvis:<tag>
+
+   (see `r-ampvis/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-ampvis| conda:required_by:: r-ampvis
 .. |downloads_r-ampvis| image:: https://img.shields.io/conda/dn/bioconda/r-ampvis.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-ampvis| image:: https://quay.io/repository/biocontainers/r-ampvis/status
    :target: https://quay.io/repository/biocontainers/r-ampvis
+.. _`r-ampvis/tags`: https://quay.io/repository/biocontainers/r-ampvis?tab=tags
 
 
 
@@ -63,4 +100,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-ampvis/README.html
-

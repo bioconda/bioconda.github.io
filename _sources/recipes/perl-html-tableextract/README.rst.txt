@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-html-tableextract'
 .. highlight: bash
-
 
 perl-html-tableextract
 ======================
@@ -21,11 +22,15 @@ perl-html-tableextract
 
    |downloads_perl-html-tableextract| |docker_perl-html-tableextract|
 
-   :versions: 2.13
-
-   :depends: :conda:package:`perl-html-element-extended`  :conda:package:`perl-html-parser`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-html-tableextract|
+   :versions: 2.13-2, 2.13-1, 2.13-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-html-element-extended: 
+   
+   :depends perl-html-parser: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-html-tableextract
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-tableextract
+      docker pull quay.io/repository/biocontainers/perl-html-tableextract:<tag>
+
+   (see `perl-html-tableextract/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-html-tableextract| conda:required_by:: perl-html-tableextract
 .. |downloads_perl-html-tableextract| image:: https://img.shields.io/conda/dn/bioconda/perl-html-tableextract.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-html-tableextract| image:: https://quay.io/repository/biocontainers/perl-html-tableextract/status
    :target: https://quay.io/repository/biocontainers/perl-html-tableextract
+.. _`perl-html-tableextract/tags`: https://quay.io/repository/biocontainers/perl-html-tableextract?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-html-tableextract/README.html
-

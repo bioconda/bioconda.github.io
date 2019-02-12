@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cansnper'
 .. highlight: bash
-
 
 cansnper
 ========
@@ -21,11 +22,17 @@ cansnper
 
    |downloads_cansnper| |docker_cansnper|
 
-   :versions: 1.0.8
-
-   :depends: :conda:package:`ete2`  :conda:package:`numpy`  :conda:package:`pyqt` 4.* :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_cansnper|
+   :versions: 1.0.8-1, 1.0.8-0
+   
+   :depends ete2: 
+   
+   :depends numpy: 
+   
+   :depends pyqt: >=4.11.4,<4.12.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ cansnper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cansnper
+      docker pull quay.io/repository/biocontainers/cansnper:<tag>
+
+   (see `cansnper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cansnper| conda:required_by:: cansnper
 .. |downloads_cansnper| image:: https://img.shields.io/conda/dn/bioconda/cansnper.svg?style=flat
    :alt:   (downloads)
 .. |docker_cansnper| image:: https://quay.io/repository/biocontainers/cansnper/status
    :target: https://quay.io/repository/biocontainers/cansnper
+.. _`cansnper/tags`: https://quay.io/repository/biocontainers/cansnper?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cansnper/README.html
-

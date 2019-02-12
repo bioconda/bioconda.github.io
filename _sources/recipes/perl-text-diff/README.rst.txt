@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-text-diff'
 .. highlight: bash
-
 
 perl-text-diff
 ==============
@@ -21,11 +22,13 @@ perl-text-diff
 
    |downloads_perl-text-diff| |docker_perl-text-diff|
 
-   :versions: 1.45, 1.44
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-algorithm-diff`  
-
-   :required~by: |required_by_perl-text-diff|
+   :versions: 1.45-0, 1.44-2, 1.44-1, 1.44-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-algorithm-diff: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-text-diff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-diff
+      docker pull quay.io/repository/biocontainers/perl-text-diff:<tag>
+
+   (see `perl-text-diff/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-text-diff| conda:required_by:: perl-text-diff
 .. |downloads_perl-text-diff| image:: https://img.shields.io/conda/dn/bioconda/perl-text-diff.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-text-diff| image:: https://quay.io/repository/biocontainers/perl-text-diff/status
    :target: https://quay.io/repository/biocontainers/perl-text-diff
+.. _`perl-text-diff/tags`: https://quay.io/repository/biocontainers/perl-text-diff?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-text-diff/README.html
-

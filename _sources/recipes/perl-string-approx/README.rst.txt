@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-string-approx'
 .. highlight: bash
-
 
 perl-string-approx
 ==================
@@ -21,11 +22,13 @@ perl-string-approx
 
    |downloads_perl-string-approx| |docker_perl-string-approx|
 
-   :versions: 3.27
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-test-more`  
-
-   :required~by: |required_by_perl-string-approx|
+   :versions: 3.27-1, 3.27-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-test-more: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-string-approx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-string-approx
+      docker pull quay.io/repository/biocontainers/perl-string-approx:<tag>
+
+   (see `perl-string-approx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-string-approx| conda:required_by:: perl-string-approx
 .. |downloads_perl-string-approx| image:: https://img.shields.io/conda/dn/bioconda/perl-string-approx.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-string-approx| image:: https://quay.io/repository/biocontainers/perl-string-approx/status
    :target: https://quay.io/repository/biocontainers/perl-string-approx
+.. _`perl-string-approx/tags`: https://quay.io/repository/biocontainers/perl-string-approx?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-string-approx/README.html
-

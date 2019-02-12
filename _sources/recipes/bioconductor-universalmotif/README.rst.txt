@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-universalmotif'
 .. highlight: bash
-
 
 bioconductor-universalmotif
 ===========================
@@ -21,11 +22,35 @@ bioconductor-universalmotif
 
    |downloads_bioconductor-universalmotif| |docker_bioconductor-universalmotif|
 
-   :versions: 1.0.12
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-ggtree` >=1.14.0,<1.15.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-ggseqlogo`  :conda:package:`r-gtools`  :conda:package:`r-processx`  :conda:package:`r-rcpp`  :conda:package:`r-rdpack` >=0.7 
-
-   :required~by: |required_by_bioconductor-universalmotif|
+   :versions: 1.0.12-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-ggtree: >=1.14.0,<1.15.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggseqlogo: 
+   
+   :depends r-gtools: 
+   
+   :depends r-processx: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-rdpack: >=0.7
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ bioconductor-universalmotif
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-universalmotif
+      docker pull quay.io/repository/biocontainers/bioconductor-universalmotif:<tag>
+
+   (see `bioconductor-universalmotif/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-universalmotif| conda:required_by:: bioconductor-universalmotif
 .. |downloads_bioconductor-universalmotif| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-universalmotif.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-universalmotif| image:: https://quay.io/repository/biocontainers/bioconductor-universalmotif/status
    :target: https://quay.io/repository/biocontainers/bioconductor-universalmotif
+.. _`bioconductor-universalmotif/tags`: https://quay.io/repository/biocontainers/bioconductor-universalmotif?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-universalmotif/README.html
-

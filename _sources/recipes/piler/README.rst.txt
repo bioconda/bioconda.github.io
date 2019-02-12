@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'piler'
 .. highlight: bash
-
 
 piler
 =====
@@ -21,11 +22,9 @@ piler
 
    |downloads_piler| |docker_piler|
 
-   :versions: 0.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_piler|
+   :versions: 0.1-1, 0.1-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ piler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/piler
+      docker pull quay.io/repository/biocontainers/piler:<tag>
+
+   (see `piler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_piler| conda:required_by:: piler
 .. |downloads_piler| image:: https://img.shields.io/conda/dn/bioconda/piler.svg?style=flat
    :alt:   (downloads)
 .. |docker_piler| image:: https://quay.io/repository/biocontainers/piler/status
    :target: https://quay.io/repository/biocontainers/piler
+.. _`piler/tags`: https://quay.io/repository/biocontainers/piler?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/piler/README.html
-

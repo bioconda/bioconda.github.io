@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-arrayquality'
 .. highlight: bash
-
 
 bioconductor-arrayquality
 =========================
@@ -22,11 +23,21 @@ bioconductor-arrayquality
 
    |downloads_bioconductor-arrayquality| |docker_bioconductor-arrayquality|
 
-   :versions: 1.60.0, 1.58.0, 1.56.0, 1.54.0
-
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-marray` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gridbase`  :conda:package:`r-hexbin`  :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_bioconductor-arrayquality|
+   :versions: 1.60.0-0, 1.58.0-0, 1.56.0-0, 1.54.0-0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-marray: >=1.60.0,<1.61.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gridbase: 
+   
+   :depends r-hexbin: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-arrayquality
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-arrayquality
+      docker pull quay.io/repository/biocontainers/bioconductor-arrayquality:<tag>
+
+   (see `bioconductor-arrayquality/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-arrayquality| conda:required_by:: bioconductor-arrayquality
 .. |downloads_bioconductor-arrayquality| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arrayquality.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-arrayquality| image:: https://quay.io/repository/biocontainers/bioconductor-arrayquality/status
    :target: https://quay.io/repository/biocontainers/bioconductor-arrayquality
+.. _`bioconductor-arrayquality/tags`: https://quay.io/repository/biocontainers/bioconductor-arrayquality?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-arrayquality/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-orderedlist'
 .. highlight: bash
-
 
 bioconductor-orderedlist
 ========================
@@ -22,11 +23,15 @@ bioconductor-orderedlist
 
    |downloads_bioconductor-orderedlist| |docker_bioconductor-orderedlist|
 
-   :versions: 1.54.0, 1.52.0, 1.50.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-twilight` >=1.58.0,<1.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-orderedlist|
+   :versions: 1.54.0-0, 1.52.0-0, 1.50.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-twilight: >=1.58.0,<1.59.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-orderedlist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-orderedlist
+      docker pull quay.io/repository/biocontainers/bioconductor-orderedlist:<tag>
+
+   (see `bioconductor-orderedlist/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-orderedlist| conda:required_by:: bioconductor-orderedlist
 .. |downloads_bioconductor-orderedlist| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-orderedlist.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-orderedlist| image:: https://quay.io/repository/biocontainers/bioconductor-orderedlist/status
    :target: https://quay.io/repository/biocontainers/bioconductor-orderedlist
+.. _`bioconductor-orderedlist/tags`: https://quay.io/repository/biocontainers/bioconductor-orderedlist?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-orderedlist/README.html
-

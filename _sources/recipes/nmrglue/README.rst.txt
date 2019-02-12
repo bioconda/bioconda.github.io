@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nmrglue'
 .. highlight: bash
-
 
 nmrglue
 =======
@@ -21,11 +22,17 @@ nmrglue
 
    |downloads_nmrglue| |docker_nmrglue|
 
-   :versions: 0.6, 0.5
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
-
-   :required~by: |required_by_nmrglue|
+   :versions: 0.6-0, 0.5-1, 0.5-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ nmrglue
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nmrglue
+      docker pull quay.io/repository/biocontainers/nmrglue:<tag>
+
+   (see `nmrglue/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nmrglue| conda:required_by:: nmrglue
 .. |downloads_nmrglue| image:: https://img.shields.io/conda/dn/bioconda/nmrglue.svg?style=flat
    :alt:   (downloads)
 .. |docker_nmrglue| image:: https://quay.io/repository/biocontainers/nmrglue/status
    :target: https://quay.io/repository/biocontainers/nmrglue
+.. _`nmrglue/tags`: https://quay.io/repository/biocontainers/nmrglue?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nmrglue/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cnvpanelizer'
 .. highlight: bash
-
 
 bioconductor-cnvpanelizer
 =========================
@@ -22,11 +23,47 @@ bioconductor-cnvpanelizer
 
    |downloads_bioconductor-cnvpanelizer| |docker_bioconductor-cnvpanelizer|
 
-   :versions: 1.14.0, 1.12.0, 1.8.0
-
-   :depends: :conda:package:`bioconductor-exomecopy` >=1.28.0,<1.29.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-noiseq` >=2.26.0,<2.27.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-openxlsx`  :conda:package:`r-plyr`  :conda:package:`r-reshape2`  :conda:package:`r-shiny`  :conda:package:`r-shinyfiles`  :conda:package:`r-shinyjs`  :conda:package:`r-stringr`  :conda:package:`r-testthat`  
-
-   :required~by: |required_by_bioconductor-cnvpanelizer|
+   :versions: 1.14.0-0, 1.12.0-0, 1.8.0-0
+   
+   :depends bioconductor-exomecopy: >=1.28.0,<1.29.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-noiseq: >=2.26.0,<2.27.0
+   
+   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-foreach: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-openxlsx: 
+   
+   :depends r-plyr: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-shiny: 
+   
+   :depends r-shinyfiles: 
+   
+   :depends r-shinyjs: 
+   
+   :depends r-stringr: 
+   
+   :depends r-testthat: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +77,16 @@ bioconductor-cnvpanelizer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cnvpanelizer
+      docker pull quay.io/repository/biocontainers/bioconductor-cnvpanelizer:<tag>
+
+   (see `bioconductor-cnvpanelizer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cnvpanelizer| conda:required_by:: bioconductor-cnvpanelizer
 .. |downloads_bioconductor-cnvpanelizer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnvpanelizer.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cnvpanelizer| image:: https://quay.io/repository/biocontainers/bioconductor-cnvpanelizer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cnvpanelizer
+.. _`bioconductor-cnvpanelizer/tags`: https://quay.io/repository/biocontainers/bioconductor-cnvpanelizer?tab=tags
 
 
 
@@ -64,4 +103,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cnvpanelizer/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pysvmlight'
 .. highlight: bash
-
 
 pysvmlight
 ==========
@@ -21,11 +22,13 @@ pysvmlight
 
    |downloads_pysvmlight| |docker_pysvmlight|
 
-   :versions: 0.4
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_pysvmlight|
+   :versions: 0.4-1
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ pysvmlight
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pysvmlight
+      docker pull quay.io/repository/biocontainers/pysvmlight:<tag>
+
+   (see `pysvmlight/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pysvmlight| conda:required_by:: pysvmlight
 .. |downloads_pysvmlight| image:: https://img.shields.io/conda/dn/bioconda/pysvmlight.svg?style=flat
    :alt:   (downloads)
 .. |docker_pysvmlight| image:: https://quay.io/repository/biocontainers/pysvmlight/status
    :target: https://quay.io/repository/biocontainers/pysvmlight
+.. _`pysvmlight/tags`: https://quay.io/repository/biocontainers/pysvmlight?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pysvmlight/README.html
-

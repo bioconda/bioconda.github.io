@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-pctgcdata'
 .. highlight: bash
-
 
 r-pctgcdata
 ===========
@@ -21,11 +22,11 @@ r-pctgcdata
 
    |downloads_r-pctgcdata| |docker_r-pctgcdata|
 
-   :versions: 0.2.0
-
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
-
-   :required~by: |required_by_r-pctgcdata|
+   :versions: 0.2.0-1, 0.2.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-pctgcdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-pctgcdata
+      docker pull quay.io/repository/biocontainers/r-pctgcdata:<tag>
+
+   (see `r-pctgcdata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-pctgcdata| conda:required_by:: r-pctgcdata
 .. |downloads_r-pctgcdata| image:: https://img.shields.io/conda/dn/bioconda/r-pctgcdata.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-pctgcdata| image:: https://quay.io/repository/biocontainers/r-pctgcdata/status
    :target: https://quay.io/repository/biocontainers/r-pctgcdata
+.. _`r-pctgcdata/tags`: https://quay.io/repository/biocontainers/r-pctgcdata?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-pctgcdata/README.html
-

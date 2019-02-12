@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-genelendatabase'
 .. highlight: bash
-
 
 bioconductor-genelendatabase
 ============================
@@ -21,11 +22,17 @@ bioconductor-genelendatabase
 
    |downloads_bioconductor-genelendatabase| |docker_bioconductor-genelendatabase|
 
-   :versions: 1.18.0, 1.16.0, 1.14.0, 1.12.0, 1.10.0, 1.6.0
-
-   :depends: :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-genelendatabase|
+   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.6.0-0
+   
+   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-genelendatabase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genelendatabase
+      docker pull quay.io/repository/biocontainers/bioconductor-genelendatabase:<tag>
+
+   (see `bioconductor-genelendatabase/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-genelendatabase| conda:required_by:: bioconductor-genelendatabase
 .. |downloads_bioconductor-genelendatabase| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genelendatabase.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-genelendatabase| image:: https://quay.io/repository/biocontainers/bioconductor-genelendatabase/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genelendatabase
+.. _`bioconductor-genelendatabase/tags`: https://quay.io/repository/biocontainers/bioconductor-genelendatabase?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-genelendatabase/README.html
-

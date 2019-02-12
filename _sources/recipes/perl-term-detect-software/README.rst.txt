@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-term-detect-software'
 .. highlight: bash
-
 
 perl-term-detect-software
 =========================
@@ -21,11 +22,15 @@ perl-term-detect-software
 
    |downloads_perl-term-detect-software| |docker_perl-term-detect-software|
 
-   :versions: 0.21
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-file-which`  
-
-   :required~by: |required_by_perl-term-detect-software|
+   :versions: 0.21-2, 0.21-1, 0.21-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-experimental: 
+   
+   :depends perl-file-which: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-term-detect-software
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-term-detect-software
+      docker pull quay.io/repository/biocontainers/perl-term-detect-software:<tag>
+
+   (see `perl-term-detect-software/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-term-detect-software| conda:required_by:: perl-term-detect-software
 .. |downloads_perl-term-detect-software| image:: https://img.shields.io/conda/dn/bioconda/perl-term-detect-software.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-term-detect-software| image:: https://quay.io/repository/biocontainers/perl-term-detect-software/status
    :target: https://quay.io/repository/biocontainers/perl-term-detect-software
+.. _`perl-term-detect-software/tags`: https://quay.io/repository/biocontainers/perl-term-detect-software?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-term-detect-software/README.html
-

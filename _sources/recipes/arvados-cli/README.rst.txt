@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'arvados-cli'
 .. highlight: bash
-
 
 arvados-cli
 ===========
@@ -21,11 +22,13 @@ arvados-cli
 
    |downloads_arvados-cli| |docker_arvados-cli|
 
-   :versions: 0.1.20151207150126
-
-   :depends: :conda:package:`curl`  :conda:package:`ruby`  
-
-   :required~by: |required_by_arvados-cli|
+   :versions: 0.1.20151207150126-0
+   
+   :depends curl: 
+   
+   :depends ruby: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ arvados-cli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/arvados-cli
+      docker pull quay.io/repository/biocontainers/arvados-cli:<tag>
+
+   (see `arvados-cli/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_arvados-cli| conda:required_by:: arvados-cli
 .. |downloads_arvados-cli| image:: https://img.shields.io/conda/dn/bioconda/arvados-cli.svg?style=flat
    :alt:   (downloads)
 .. |docker_arvados-cli| image:: https://quay.io/repository/biocontainers/arvados-cli/status
    :target: https://quay.io/repository/biocontainers/arvados-cli
+.. _`arvados-cli/tags`: https://quay.io/repository/biocontainers/arvados-cli?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/arvados-cli/README.html
-

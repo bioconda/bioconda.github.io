@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-deepbluer'
 .. highlight: bash
-
 
 bioconductor-deepbluer
 ======================
@@ -22,11 +23,41 @@ bioconductor-deepbluer
 
    |downloads_bioconductor-deepbluer| |docker_bioconductor-deepbluer|
 
-   :versions: 1.8.0, 1.6.0, 1.4.1
-
-   :depends: :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-diffr`  :conda:package:`r-dplyr`  :conda:package:`r-filehash`  :conda:package:`r-foreach`  :conda:package:`r-r.utils`  :conda:package:`r-rcurl`  :conda:package:`r-rjson`  :conda:package:`r-settings`  :conda:package:`r-stringr`  :conda:package:`r-withr`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-deepbluer|
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.1-0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-diffr: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-filehash: 
+   
+   :depends r-foreach: 
+   
+   :depends r-r.utils: 
+   
+   :depends r-rcurl: 
+   
+   :depends r-rjson: 
+   
+   :depends r-settings: 
+   
+   :depends r-stringr: 
+   
+   :depends r-withr: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +71,16 @@ bioconductor-deepbluer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-deepbluer
+      docker pull quay.io/repository/biocontainers/bioconductor-deepbluer:<tag>
+
+   (see `bioconductor-deepbluer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-deepbluer| conda:required_by:: bioconductor-deepbluer
 .. |downloads_bioconductor-deepbluer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-deepbluer.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-deepbluer| image:: https://quay.io/repository/biocontainers/bioconductor-deepbluer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-deepbluer
+.. _`bioconductor-deepbluer/tags`: https://quay.io/repository/biocontainers/bioconductor-deepbluer?tab=tags
 
 
 
@@ -64,4 +97,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-deepbluer/README.html
-

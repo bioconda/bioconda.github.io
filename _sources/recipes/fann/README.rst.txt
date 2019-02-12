@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fann'
 .. highlight: bash
-
 
 fann
 ====
@@ -21,11 +22,11 @@ fann
 
    |downloads_fann| |docker_fann|
 
-   :versions: 2.2.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_fann|
+   :versions: 2.2.0-1, 2.2.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ fann
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fann
+      docker pull quay.io/repository/biocontainers/fann:<tag>
+
+   (see `fann/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fann| conda:required_by:: fann
 .. |downloads_fann| image:: https://img.shields.io/conda/dn/bioconda/fann.svg?style=flat
    :alt:   (downloads)
 .. |docker_fann| image:: https://quay.io/repository/biocontainers/fann/status
    :target: https://quay.io/repository/biocontainers/fann
+.. _`fann/tags`: https://quay.io/repository/biocontainers/fann?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fann/README.html
-

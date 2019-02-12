@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-genenet'
 .. highlight: bash
-
 
 r-genenet
 =========
@@ -21,11 +22,17 @@ r-genenet
 
    |downloads_r-genenet| |docker_r-genenet|
 
-   :versions: 1.2.13
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor` >=1.6.8 :conda:package:`r-fdrtool` >=1.2.15 :conda:package:`r-longitudinal` >=1.1.12 
-
-   :required~by: |required_by_r-genenet|
+   :versions: 1.2.13-0
+   
+   :depends r: 3.2.2*
+   
+   :depends r-corpcor: >=1.6.8
+   
+   :depends r-fdrtool: >=1.2.15
+   
+   :depends r-longitudinal: >=1.1.12
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-genenet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-genenet
+      docker pull quay.io/repository/biocontainers/r-genenet:<tag>
+
+   (see `r-genenet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-genenet| conda:required_by:: r-genenet
 .. |downloads_r-genenet| image:: https://img.shields.io/conda/dn/bioconda/r-genenet.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-genenet| image:: https://quay.io/repository/biocontainers/r-genenet/status
    :target: https://quay.io/repository/biocontainers/r-genenet
+.. _`r-genenet/tags`: https://quay.io/repository/biocontainers/r-genenet?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-genenet/README.html
-

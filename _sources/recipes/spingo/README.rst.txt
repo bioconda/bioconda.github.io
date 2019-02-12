@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'spingo'
 .. highlight: bash
-
 
 spingo
 ======
@@ -21,11 +22,13 @@ spingo
 
    |downloads_spingo| |docker_spingo|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`boost` 1.61* :conda:package:`libgcc`  
-
-   :required~by: |required_by_spingo|
+   :versions: 1.3-0
+   
+   :depends boost: 1.61*
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ spingo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spingo
+      docker pull quay.io/repository/biocontainers/spingo:<tag>
+
+   (see `spingo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_spingo| conda:required_by:: spingo
 .. |downloads_spingo| image:: https://img.shields.io/conda/dn/bioconda/spingo.svg?style=flat
    :alt:   (downloads)
 .. |docker_spingo| image:: https://quay.io/repository/biocontainers/spingo/status
    :target: https://quay.io/repository/biocontainers/spingo
+.. _`spingo/tags`: https://quay.io/repository/biocontainers/spingo?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/spingo/README.html
-

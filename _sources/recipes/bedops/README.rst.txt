@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bedops'
 .. highlight: bash
-
 
 bedops
 ======
@@ -22,11 +23,11 @@ bedops
 
    |downloads_bedops| |docker_bedops|
 
-   :versions: 2.4.35, 2.4.34, 2.4.33, 2.4.32, 2.4.30, 2.4.27, 2.4.26, 2.4.25, 2.4.24, 2.4.23, 2.4.22, 2.4.21, 2.4.20, 2.4.19
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_bedops|
+   :versions: 2.4.35-1, 2.4.35-0, 2.4.34-0, 2.4.33-0, 2.4.32-0, 2.4.30-0, 2.4.27-0, 2.4.26-0, 2.4.25-0, 2.4.24-0, 2.4.23-0, 2.4.22-0, 2.4.21-0, 2.4.20-0, 2.4.19-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ bedops
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bedops
+      docker pull quay.io/repository/biocontainers/bedops:<tag>
+
+   (see `bedops/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bedops| conda:required_by:: bedops
 .. |downloads_bedops| image:: https://img.shields.io/conda/dn/bioconda/bedops.svg?style=flat
    :alt:   (downloads)
 .. |docker_bedops| image:: https://quay.io/repository/biocontainers/bedops/status
    :target: https://quay.io/repository/biocontainers/bedops
+.. _`bedops/tags`: https://quay.io/repository/biocontainers/bedops?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bedops/README.html
-

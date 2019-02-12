@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gcs-oauth2-boto-plugin'
 .. highlight: bash
-
 
 gcs-oauth2-boto-plugin
 ======================
@@ -21,11 +22,23 @@ gcs-oauth2-boto-plugin
 
    |downloads_gcs-oauth2-boto-plugin| |docker_gcs-oauth2-boto-plugin|
 
-   :versions: 1.9
-
-   :depends: :conda:package:`boto` >=2.29.1 :conda:package:`google-api-python-client` >=1.1 :conda:package:`httplib2` >=0.8 :conda:package:`pyopenssl` >=0.13 :conda:package:`python` 2.7* :conda:package:`retry_decorator` >=1.0.0 :conda:package:`socksipy-branch` ==1.01 
-
-   :required~by: |required_by_gcs-oauth2-boto-plugin|
+   :versions: 1.9-1, 1.9-0
+   
+   :depends boto: >=2.29.1
+   
+   :depends google-api-python-client: >=1.1
+   
+   :depends httplib2: >=0.8
+   
+   :depends pyopenssl: >=0.13
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends retry_decorator: >=1.0.0
+   
+   :depends socksipy-branch: 1.01
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ gcs-oauth2-boto-plugin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gcs-oauth2-boto-plugin
+      docker pull quay.io/repository/biocontainers/gcs-oauth2-boto-plugin:<tag>
+
+   (see `gcs-oauth2-boto-plugin/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gcs-oauth2-boto-plugin| conda:required_by:: gcs-oauth2-boto-plugin
 .. |downloads_gcs-oauth2-boto-plugin| image:: https://img.shields.io/conda/dn/bioconda/gcs-oauth2-boto-plugin.svg?style=flat
    :alt:   (downloads)
 .. |docker_gcs-oauth2-boto-plugin| image:: https://quay.io/repository/biocontainers/gcs-oauth2-boto-plugin/status
    :target: https://quay.io/repository/biocontainers/gcs-oauth2-boto-plugin
+.. _`gcs-oauth2-boto-plugin/tags`: https://quay.io/repository/biocontainers/gcs-oauth2-boto-plugin?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gcs-oauth2-boto-plugin/README.html
-

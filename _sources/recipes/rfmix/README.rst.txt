@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rfmix'
 .. highlight: bash
-
 
 rfmix
 =====
@@ -22,11 +23,15 @@ rfmix
 
    |downloads_rfmix| |docker_rfmix|
 
-   :versions: 2.03.r0.9505bfa
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`pthread-stubs`  
-
-   :required~by: |required_by_rfmix|
+   :versions: 2.03.r0.9505bfa-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends pthread-stubs: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ rfmix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rfmix
+      docker pull quay.io/repository/biocontainers/rfmix:<tag>
+
+   (see `rfmix/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rfmix| conda:required_by:: rfmix
 .. |downloads_rfmix| image:: https://img.shields.io/conda/dn/bioconda/rfmix.svg?style=flat
    :alt:   (downloads)
 .. |docker_rfmix| image:: https://quay.io/repository/biocontainers/rfmix/status
    :target: https://quay.io/repository/biocontainers/rfmix
+.. _`rfmix/tags`: https://quay.io/repository/biocontainers/rfmix?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rfmix/README.html
-

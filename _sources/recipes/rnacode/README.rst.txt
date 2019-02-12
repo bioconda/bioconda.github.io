@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rnacode'
 .. highlight: bash
-
 
 rnacode
 =======
@@ -21,11 +22,9 @@ rnacode
 
    |downloads_rnacode| |docker_rnacode|
 
-   :versions: 0.3
-
-   :depends: 
-
-   :required~by: |required_by_rnacode|
+   :versions: 0.3-1, 0.3-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ rnacode
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnacode
+      docker pull quay.io/repository/biocontainers/rnacode:<tag>
+
+   (see `rnacode/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rnacode| conda:required_by:: rnacode
 .. |downloads_rnacode| image:: https://img.shields.io/conda/dn/bioconda/rnacode.svg?style=flat
    :alt:   (downloads)
 .. |docker_rnacode| image:: https://quay.io/repository/biocontainers/rnacode/status
    :target: https://quay.io/repository/biocontainers/rnacode
+.. _`rnacode/tags`: https://quay.io/repository/biocontainers/rnacode?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rnacode/README.html
-

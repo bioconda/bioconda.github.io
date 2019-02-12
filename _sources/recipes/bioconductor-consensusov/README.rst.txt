@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-consensusov'
 .. highlight: bash
-
 
 bioconductor-consensusov
 ========================
@@ -21,11 +22,25 @@ bioconductor-consensusov
 
    |downloads_bioconductor-consensusov| |docker_bioconductor-consensusov|
 
-   :versions: 1.4.1, 1.2.0, 1.0.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-genefu` >=2.14.0,<2.15.0 :conda:package:`bioconductor-gsva` >=1.30.0,<1.31.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gdata`  :conda:package:`r-matrixstats`  :conda:package:`r-randomforest`  
-
-   :required~by: |required_by_bioconductor-consensusov|
+   :versions: 1.4.1-0, 1.2.0-0, 1.0.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-genefu: >=2.14.0,<2.15.0
+   
+   :depends bioconductor-gsva: >=1.30.0,<1.31.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gdata: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-randomforest: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bioconductor-consensusov
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-consensusov
+      docker pull quay.io/repository/biocontainers/bioconductor-consensusov:<tag>
+
+   (see `bioconductor-consensusov/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-consensusov| conda:required_by:: bioconductor-consensusov
 .. |downloads_bioconductor-consensusov| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-consensusov.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-consensusov| image:: https://quay.io/repository/biocontainers/bioconductor-consensusov/status
    :target: https://quay.io/repository/biocontainers/bioconductor-consensusov
+.. _`bioconductor-consensusov/tags`: https://quay.io/repository/biocontainers/bioconductor-consensusov?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-consensusov/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-extutils-parsexs'
 .. highlight: bash
-
 
 perl-extutils-parsexs
 =====================
@@ -21,11 +22,19 @@ perl-extutils-parsexs
 
    |downloads_perl-extutils-parsexs| |docker_perl-extutils-parsexs|
 
-   :versions: 3.35, 3.28
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-extutils-cbuilder`  :conda:package:`perl-extutils-makemaker`  
-
-   :required~by: |required_by_perl-extutils-parsexs|
+   :versions: 3.35-0, 3.28-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-extutils-cbuilder: 
+   
+   :depends perl-extutils-makemaker: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-extutils-parsexs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-extutils-parsexs
+      docker pull quay.io/repository/biocontainers/perl-extutils-parsexs:<tag>
+
+   (see `perl-extutils-parsexs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-extutils-parsexs| conda:required_by:: perl-extutils-parsexs
 .. |downloads_perl-extutils-parsexs| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-parsexs.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-extutils-parsexs| image:: https://quay.io/repository/biocontainers/perl-extutils-parsexs/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-parsexs
+.. _`perl-extutils-parsexs/tags`: https://quay.io/repository/biocontainers/perl-extutils-parsexs?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-extutils-parsexs/README.html
-

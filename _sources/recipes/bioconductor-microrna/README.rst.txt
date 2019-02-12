@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-microrna'
 .. highlight: bash
-
 
 bioconductor-microrna
 =====================
@@ -22,11 +23,17 @@ bioconductor-microrna
 
    |downloads_bioconductor-microrna| |docker_bioconductor-microrna|
 
-   :versions: 1.40.0, 1.38.0, 1.36.0, 1.34.0
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-microrna|
+   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-microrna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-microrna
+      docker pull quay.io/repository/biocontainers/bioconductor-microrna:<tag>
+
+   (see `bioconductor-microrna/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-microrna| conda:required_by:: bioconductor-microrna
 .. |downloads_bioconductor-microrna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-microrna.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-microrna| image:: https://quay.io/repository/biocontainers/bioconductor-microrna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-microrna
+.. _`bioconductor-microrna/tags`: https://quay.io/repository/biocontainers/bioconductor-microrna?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-microrna/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gvcf-regions'
 .. highlight: bash
-
 
 gvcf-regions
 ============
@@ -21,11 +22,11 @@ gvcf-regions
 
    |downloads_gvcf-regions| |docker_gvcf-regions|
 
-   :versions: 2016.06.23, 2016.06.21, 2016.05.24, 2016.05.20
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_gvcf-regions|
+   :versions: 2016.06.23-1, 2016.06.23-0, 2016.06.21-0, 2016.05.24-0, 2016.05.20-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ gvcf-regions
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gvcf-regions
+      docker pull quay.io/repository/biocontainers/gvcf-regions:<tag>
+
+   (see `gvcf-regions/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gvcf-regions| conda:required_by:: gvcf-regions
 .. |downloads_gvcf-regions| image:: https://img.shields.io/conda/dn/bioconda/gvcf-regions.svg?style=flat
    :alt:   (downloads)
 .. |docker_gvcf-regions| image:: https://quay.io/repository/biocontainers/gvcf-regions/status
    :target: https://quay.io/repository/biocontainers/gvcf-regions
+.. _`gvcf-regions/tags`: https://quay.io/repository/biocontainers/gvcf-regions?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gvcf-regions/README.html
-

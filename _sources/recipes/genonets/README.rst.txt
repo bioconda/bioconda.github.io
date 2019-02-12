@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genonets'
 .. highlight: bash
-
 
 genonets
 ========
@@ -22,11 +23,15 @@ genonets
 
    |downloads_genonets| |docker_genonets|
 
-   :versions: 1.1.6
-
-   :depends: :conda:package:`numpy` >=1.8.2 :conda:package:`python` 2.7* :conda:package:`python-igraph` >=0.6 
-
-   :required~by: |required_by_genonets|
+   :versions: 1.1.6-1, 1.1.6-0
+   
+   :depends numpy: >=1.8.2
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends python-igraph: >=0.6
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ genonets
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genonets
+      docker pull quay.io/repository/biocontainers/genonets:<tag>
+
+   (see `genonets/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genonets| conda:required_by:: genonets
 .. |downloads_genonets| image:: https://img.shields.io/conda/dn/bioconda/genonets.svg?style=flat
    :alt:   (downloads)
 .. |docker_genonets| image:: https://quay.io/repository/biocontainers/genonets/status
    :target: https://quay.io/repository/biocontainers/genonets
+.. _`genonets/tags`: https://quay.io/repository/biocontainers/genonets?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genonets/README.html
-

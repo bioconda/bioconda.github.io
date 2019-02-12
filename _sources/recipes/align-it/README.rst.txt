@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'align_it'
 .. highlight: bash
-
 
 align_it
 ========
@@ -21,11 +22,15 @@ align_it
 
    |downloads_align_it| |docker_align_it|
 
-   :versions: 1.0.3
-
-   :depends: :conda:package:`libgcc`  :conda:package:`openbabel`  
-
-   :required~by: |required_by_align_it|
+   :versions: 1.0.3-5, 1.0.3-4, 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openbabel: 2.4.1
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ align_it
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/align_it
+      docker pull quay.io/repository/biocontainers/align_it:<tag>
+
+   (see `align_it/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_align_it| conda:required_by:: align_it
 .. |downloads_align_it| image:: https://img.shields.io/conda/dn/bioconda/align_it.svg?style=flat
    :alt:   (downloads)
 .. |docker_align_it| image:: https://quay.io/repository/biocontainers/align_it/status
    :target: https://quay.io/repository/biocontainers/align_it
+.. _`align_it/tags`: https://quay.io/repository/biocontainers/align_it?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/align_it/README.html
-

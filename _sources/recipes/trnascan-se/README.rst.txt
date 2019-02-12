@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'trnascan-se'
 .. highlight: bash
-
 
 trnascan-se
 ===========
@@ -21,11 +22,15 @@ trnascan-se
 
    |downloads_trnascan-se| |docker_trnascan-se|
 
-   :versions: 2.0, 1.3.1
-
-   :depends: :conda:package:`infernal` ==1.1.2 :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_trnascan-se|
+   :versions: 2.0-1, 2.0-0, 1.3.1-4, 1.3.1-3, 1.3.1-2, 1.3.1-1
+   
+   :depends infernal: 1.1.2
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ trnascan-se
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trnascan-se
+      docker pull quay.io/repository/biocontainers/trnascan-se:<tag>
+
+   (see `trnascan-se/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_trnascan-se| conda:required_by:: trnascan-se
 .. |downloads_trnascan-se| image:: https://img.shields.io/conda/dn/bioconda/trnascan-se.svg?style=flat
    :alt:   (downloads)
 .. |docker_trnascan-se| image:: https://quay.io/repository/biocontainers/trnascan-se/status
    :target: https://quay.io/repository/biocontainers/trnascan-se
+.. _`trnascan-se/tags`: https://quay.io/repository/biocontainers/trnascan-se?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/trnascan-se/README.html
-

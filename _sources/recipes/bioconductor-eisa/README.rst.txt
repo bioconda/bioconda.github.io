@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-eisa'
 .. highlight: bash
-
 
 bioconductor-eisa
 =================
@@ -21,11 +22,25 @@ bioconductor-eisa
 
    |downloads_bioconductor-eisa| |docker_bioconductor-eisa|
 
-   :versions: 1.34.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-category` >=2.48.0,<2.49.0 :conda:package:`bioconductor-genefilter` >=1.64.0,<1.65.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-isa2`  
-
-   :required~by: |required_by_bioconductor-eisa|
+   :versions: 1.34.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-category: >=2.48.0,<2.49.0
+   
+   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dbi: 
+   
+   :depends r-isa2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bioconductor-eisa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-eisa
+      docker pull quay.io/repository/biocontainers/bioconductor-eisa:<tag>
+
+   (see `bioconductor-eisa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-eisa| conda:required_by:: bioconductor-eisa
 .. |downloads_bioconductor-eisa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-eisa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-eisa| image:: https://quay.io/repository/biocontainers/bioconductor-eisa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-eisa
+.. _`bioconductor-eisa/tags`: https://quay.io/repository/biocontainers/bioconductor-eisa?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-eisa/README.html
-

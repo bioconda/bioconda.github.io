@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-remove'
 .. highlight: bash
-
 
 perl-file-remove
 ================
@@ -21,11 +22,17 @@ perl-file-remove
 
    |downloads_perl-file-remove| |docker_perl-file-remove|
 
-   :versions: 1.57
-
-   :depends: :conda:package:`perl` >=5.22,<6.0 :conda:package:`perl-file-spec`  :conda:package:`perl-io-handle`  :conda:package:`perl-test-more`  
-
-   :required~by: |required_by_perl-file-remove|
+   :versions: 1.57-2, 1.57-1, 1.57-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-file-spec: 
+   
+   :depends perl-test-more: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-file-remove
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-remove
+      docker pull quay.io/repository/biocontainers/perl-file-remove:<tag>
+
+   (see `perl-file-remove/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-remove| conda:required_by:: perl-file-remove
 .. |downloads_perl-file-remove| image:: https://img.shields.io/conda/dn/bioconda/perl-file-remove.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-remove| image:: https://quay.io/repository/biocontainers/perl-file-remove/status
    :target: https://quay.io/repository/biocontainers/perl-file-remove
+.. _`perl-file-remove/tags`: https://quay.io/repository/biocontainers/perl-file-remove?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-remove/README.html
-

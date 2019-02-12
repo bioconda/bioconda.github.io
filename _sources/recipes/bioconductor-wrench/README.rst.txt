@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-wrench'
 .. highlight: bash
-
 
 bioconductor-wrench
 ===================
@@ -21,11 +22,17 @@ bioconductor-wrench
 
    |downloads_bioconductor-wrench| |docker_bioconductor-wrench|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-locfit`  :conda:package:`r-matrixstats`  
-
-   :required~by: |required_by_bioconductor-wrench|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-locfit: 
+   
+   :depends r-matrixstats: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-wrench
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-wrench
+      docker pull quay.io/repository/biocontainers/bioconductor-wrench:<tag>
+
+   (see `bioconductor-wrench/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-wrench| conda:required_by:: bioconductor-wrench
 .. |downloads_bioconductor-wrench| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-wrench.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-wrench| image:: https://quay.io/repository/biocontainers/bioconductor-wrench/status
    :target: https://quay.io/repository/biocontainers/bioconductor-wrench
+.. _`bioconductor-wrench/tags`: https://quay.io/repository/biocontainers/bioconductor-wrench?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-wrench/README.html
-

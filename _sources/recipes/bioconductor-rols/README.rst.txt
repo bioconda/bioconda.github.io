@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rols'
 .. highlight: bash
-
 
 bioconductor-rols
 =================
@@ -22,11 +23,21 @@ bioconductor-rols
 
    |downloads_bioconductor-rols| |docker_bioconductor-rols|
 
-   :versions: 2.10.0, 2.8.2, 2.6.0, 2.4.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-httr`  :conda:package:`r-jsonlite`  :conda:package:`r-progress`  
-
-   :required~by: |required_by_bioconductor-rols|
+   :versions: 2.10.0-0, 2.8.2-0, 2.6.0-0, 2.4.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-httr: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-progress: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-rols
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rols
+      docker pull quay.io/repository/biocontainers/bioconductor-rols:<tag>
+
+   (see `bioconductor-rols/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rols| conda:required_by:: bioconductor-rols
 .. |downloads_bioconductor-rols| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rols.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rols| image:: https://quay.io/repository/biocontainers/bioconductor-rols/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rols
+.. _`bioconductor-rols/tags`: https://quay.io/repository/biocontainers/bioconductor-rols?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rols/README.html
-

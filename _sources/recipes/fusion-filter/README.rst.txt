@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fusion-filter'
 .. highlight: bash
-
 
 fusion-filter
 =============
@@ -21,11 +22,33 @@ fusion-filter
 
    |downloads_fusion-filter| |docker_fusion-filter|
 
-   :versions: 0.5.0
-
-   :depends: :conda:package:`blast` >=2.7.1 :conda:package:`gmap` >=2017.10.30 :conda:package:`perl` 5.22.0* :conda:package:`perl-carp`  :conda:package:`perl-db-file`  :conda:package:`perl-json-xs`  :conda:package:`perl-perlio-gzip`  :conda:package:`perl-set-intervaltree`  :conda:package:`perl-uri`  :conda:package:`python` 2.7* :conda:package:`samtools`  :conda:package:`star` >=2.5.4a 
-
-   :required~by: |required_by_fusion-filter|
+   :versions: 0.5.0-1, 0.5.0-0
+   
+   :depends blast: >=2.7.1
+   
+   :depends gmap: >=2017.10.30
+   
+   :depends perl: 5.22.0*
+   
+   :depends perl-carp: 
+   
+   :depends perl-db-file: 
+   
+   :depends perl-json-xs: 
+   
+   :depends perl-perlio-gzip: 
+   
+   :depends perl-set-intervaltree: 
+   
+   :depends perl-uri: 
+   
+   :depends python: 2.7*
+   
+   :depends samtools: 
+   
+   :depends star: >=2.5.4a
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ fusion-filter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fusion-filter
+      docker pull quay.io/repository/biocontainers/fusion-filter:<tag>
+
+   (see `fusion-filter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fusion-filter| conda:required_by:: fusion-filter
 .. |downloads_fusion-filter| image:: https://img.shields.io/conda/dn/bioconda/fusion-filter.svg?style=flat
    :alt:   (downloads)
 .. |docker_fusion-filter| image:: https://quay.io/repository/biocontainers/fusion-filter/status
    :target: https://quay.io/repository/biocontainers/fusion-filter
+.. _`fusion-filter/tags`: https://quay.io/repository/biocontainers/fusion-filter?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fusion-filter/README.html
-

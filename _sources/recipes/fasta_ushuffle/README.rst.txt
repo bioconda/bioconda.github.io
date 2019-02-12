@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fasta_ushuffle'
 .. highlight: bash
-
 
 fasta_ushuffle
 ==============
@@ -21,11 +22,11 @@ fasta_ushuffle
 
    |downloads_fasta_ushuffle| |docker_fasta_ushuffle|
 
-   :versions: 0.2
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_fasta_ushuffle|
+   :versions: 0.2-1, 0.2-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ fasta_ushuffle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fasta_ushuffle
+      docker pull quay.io/repository/biocontainers/fasta_ushuffle:<tag>
+
+   (see `fasta_ushuffle/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fasta_ushuffle| conda:required_by:: fasta_ushuffle
 .. |downloads_fasta_ushuffle| image:: https://img.shields.io/conda/dn/bioconda/fasta_ushuffle.svg?style=flat
    :alt:   (downloads)
 .. |docker_fasta_ushuffle| image:: https://quay.io/repository/biocontainers/fasta_ushuffle/status
    :target: https://quay.io/repository/biocontainers/fasta_ushuffle
+.. _`fasta_ushuffle/tags`: https://quay.io/repository/biocontainers/fasta_ushuffle?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fasta_ushuffle/README.html
-

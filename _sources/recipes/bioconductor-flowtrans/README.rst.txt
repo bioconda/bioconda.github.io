@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-flowtrans'
 .. highlight: bash
-
 
 bioconductor-flowtrans
 ======================
@@ -21,11 +22,17 @@ bioconductor-flowtrans
 
    |downloads_bioconductor-flowtrans| |docker_bioconductor-flowtrans|
 
-   :versions: 1.34.0
-
-   :depends: :conda:package:`bioconductor-flowclust` >=3.20.0,<3.21.0 :conda:package:`bioconductor-flowcore` >=1.48.0,<1.49.0 :conda:package:`bioconductor-flowviz` >=1.46.0,<1.47.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-flowtrans|
+   :versions: 1.34.0-0
+   
+   :depends bioconductor-flowclust: >=3.20.0,<3.21.0
+   
+   :depends bioconductor-flowcore: >=1.48.0,<1.49.0
+   
+   :depends bioconductor-flowviz: >=1.46.0,<1.47.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-flowtrans
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowtrans
+      docker pull quay.io/repository/biocontainers/bioconductor-flowtrans:<tag>
+
+   (see `bioconductor-flowtrans/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-flowtrans| conda:required_by:: bioconductor-flowtrans
 .. |downloads_bioconductor-flowtrans| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowtrans.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-flowtrans| image:: https://quay.io/repository/biocontainers/bioconductor-flowtrans/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowtrans
+.. _`bioconductor-flowtrans/tags`: https://quay.io/repository/biocontainers/bioconductor-flowtrans?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-flowtrans/README.html
-

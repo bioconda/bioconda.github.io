@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-fmsb'
 .. highlight: bash
-
 
 r-fmsb
 ======
@@ -21,11 +22,11 @@ r-fmsb
 
    |downloads_r-fmsb| |docker_r-fmsb|
 
-   :versions: 0.6.3
-
-   :depends: :conda:package:`r-base` 3.4.1* 
-
-   :required~by: |required_by_r-fmsb|
+   :versions: 0.6.3-3, 0.6.3-2, 0.6.3-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-fmsb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-fmsb
+      docker pull quay.io/repository/biocontainers/r-fmsb:<tag>
+
+   (see `r-fmsb/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-fmsb| conda:required_by:: r-fmsb
 .. |downloads_r-fmsb| image:: https://img.shields.io/conda/dn/bioconda/r-fmsb.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-fmsb| image:: https://quay.io/repository/biocontainers/r-fmsb/status
    :target: https://quay.io/repository/biocontainers/r-fmsb
+.. _`r-fmsb/tags`: https://quay.io/repository/biocontainers/r-fmsb?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-fmsb/README.html
-

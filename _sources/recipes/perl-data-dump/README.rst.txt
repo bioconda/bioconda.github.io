@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-data-dump'
 .. highlight: bash
-
 
 perl-data-dump
 ==============
@@ -21,11 +22,13 @@ perl-data-dump
 
    |downloads_perl-data-dump| |docker_perl-data-dump|
 
-   :versions: 1.23
-
-   :depends: :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-data-dump|
+   :versions: 1.23-4, 1.23-3
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-data-dump
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-data-dump
+      docker pull quay.io/repository/biocontainers/perl-data-dump:<tag>
+
+   (see `perl-data-dump/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-data-dump| conda:required_by:: perl-data-dump
 .. |downloads_perl-data-dump| image:: https://img.shields.io/conda/dn/bioconda/perl-data-dump.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-data-dump| image:: https://quay.io/repository/biocontainers/perl-data-dump/status
    :target: https://quay.io/repository/biocontainers/perl-data-dump
+.. _`perl-data-dump/tags`: https://quay.io/repository/biocontainers/perl-data-dump?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-data-dump/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-hpc-runner-command-plugin-logger-sqlite'
 .. highlight: bash
-
 
 perl-hpc-runner-command-plugin-logger-sqlite
 ============================================
@@ -21,11 +22,41 @@ perl-hpc-runner-command-plugin-logger-sqlite
 
    |downloads_perl-hpc-runner-command-plugin-logger-sqlite| |docker_perl-hpc-runner-command-plugin-logger-sqlite|
 
-   :versions: 0.0.3
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-base`  :conda:package:`perl-clone`  :conda:package:`perl-datetime`  :conda:package:`perl-dbd-sqlite`  :conda:package:`perl-dbi`  :conda:package:`perl-hpc-runner-command`  :conda:package:`perl-hpc-runner-command`  :conda:package:`perl-json`  :conda:package:`perl-json-xs`  :conda:package:`perl-list-uniq`  :conda:package:`perl-log-log4perl`  :conda:package:`perl-text-asciitable`  :conda:package:`sqlite`  
-
-   :required~by: |required_by_perl-hpc-runner-command-plugin-logger-sqlite|
+   :versions: 0.0.3-1, 0.0.3-0
+   
+   :depends perl: 5.22.0*
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-base: 
+   
+   :depends perl-clone: 
+   
+   :depends perl-datetime: 
+   
+   :depends perl-dbd-sqlite: 
+   
+   :depends perl-dbi: 
+   
+   :depends perl-hpc-runner-command: 
+   
+   :depends perl-hpc-runner-command: 
+   
+   :depends perl-json: 
+   
+   :depends perl-json-xs: 
+   
+   :depends perl-list-uniq: 
+   
+   :depends perl-log-log4perl: 
+   
+   :depends perl-params-validate: 
+   
+   :depends perl-text-asciitable: 
+   
+   :depends sqlite: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ perl-hpc-runner-command-plugin-logger-sqlite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite
+      docker pull quay.io/repository/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite:<tag>
+
+   (see `perl-hpc-runner-command-plugin-logger-sqlite/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-hpc-runner-command-plugin-logger-sqlite| conda:required_by:: perl-hpc-runner-command-plugin-logger-sqlite
 .. |downloads_perl-hpc-runner-command-plugin-logger-sqlite| image:: https://img.shields.io/conda/dn/bioconda/perl-hpc-runner-command-plugin-logger-sqlite.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-hpc-runner-command-plugin-logger-sqlite| image:: https://quay.io/repository/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite/status
    :target: https://quay.io/repository/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite
+.. _`perl-hpc-runner-command-plugin-logger-sqlite/tags`: https://quay.io/repository/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-hpc-runner-command-plugin-logger-sqlite/README.html
-

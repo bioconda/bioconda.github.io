@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'orthomcl'
 .. highlight: bash
-
 
 orthomcl
 ========
@@ -21,11 +22,21 @@ orthomcl
 
    |downloads_orthomcl| |docker_orthomcl|
 
-   :versions: 2.0.9
-
-   :depends: :conda:package:`blast`  :conda:package:`mcl`  :conda:package:`mysqlclient`  :conda:package:`perl`  :conda:package:`perl-dbd-mysql`  :conda:package:`perl-dbi`  
-
-   :required~by: |required_by_orthomcl|
+   :versions: 2.0.9-3, 2.0.9-2, 2.0.9-1, 2.0.9-0
+   
+   :depends blast: 
+   
+   :depends mcl: 
+   
+   :depends mysqlclient: 
+   
+   :depends perl: 
+   
+   :depends perl-dbd-mysql: 
+   
+   :depends perl-dbi: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ orthomcl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/orthomcl
+      docker pull quay.io/repository/biocontainers/orthomcl:<tag>
+
+   (see `orthomcl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_orthomcl| conda:required_by:: orthomcl
 .. |downloads_orthomcl| image:: https://img.shields.io/conda/dn/bioconda/orthomcl.svg?style=flat
    :alt:   (downloads)
 .. |docker_orthomcl| image:: https://quay.io/repository/biocontainers/orthomcl/status
    :target: https://quay.io/repository/biocontainers/orthomcl
+.. _`orthomcl/tags`: https://quay.io/repository/biocontainers/orthomcl?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/orthomcl/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-banocc'
 .. highlight: bash
-
 
 bioconductor-banocc
 ===================
@@ -21,11 +22,19 @@ bioconductor-banocc
 
    |downloads_bioconductor-banocc| |docker_bioconductor-banocc|
 
-   :versions: 1.6.1, 1.4.0, 1.2.0, 1.0.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-coda` >=0.18.1 :conda:package:`r-mvtnorm`  :conda:package:`r-rstan` >=2.17.4 :conda:package:`r-stringr`  
-
-   :required~by: |required_by_bioconductor-banocc|
+   :versions: 1.6.1-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-coda: >=0.18.1
+   
+   :depends r-mvtnorm: 
+   
+   :depends r-rstan: >=2.17.4
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-banocc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-banocc
+      docker pull quay.io/repository/biocontainers/bioconductor-banocc:<tag>
+
+   (see `bioconductor-banocc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-banocc| conda:required_by:: bioconductor-banocc
 .. |downloads_bioconductor-banocc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-banocc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-banocc| image:: https://quay.io/repository/biocontainers/bioconductor-banocc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-banocc
+.. _`bioconductor-banocc/tags`: https://quay.io/repository/biocontainers/bioconductor-banocc?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-banocc/README.html
-

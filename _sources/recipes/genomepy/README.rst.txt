@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genomepy'
 .. highlight: bash
-
 
 genomepy
 ========
@@ -21,11 +22,33 @@ genomepy
 
    |downloads_genomepy| |docker_genomepy|
 
-   :versions: 0.5.2, 0.5.1, 0.5.0, 0.4.0, 0.3.1
-
-   :depends: :conda:package:`bucketcache`  :conda:package:`click`  :conda:package:`norns` >0.1.1 :conda:package:`pyfaidx` >=0.5.1 :conda:package:`pytest`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`requests`  :conda:package:`ucsc-bedtogenepred`  :conda:package:`ucsc-genepredtobed`  :conda:package:`ucsc-genepredtogtf`  :conda:package:`ucsc-gtftogenepred`  :conda:package:`xmltodict`  
-
-   :required~by: |required_by_genomepy|
+   :versions: 0.5.2-2, 0.5.2-1, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0
+   
+   :depends bucketcache: 
+   
+   :depends click: 
+   
+   :depends norns: >0.1.1
+   
+   :depends pyfaidx: >=0.5.1
+   
+   :depends pytest: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends requests: 
+   
+   :depends ucsc-bedtogenepred: 
+   
+   :depends ucsc-genepredtobed: 
+   
+   :depends ucsc-genepredtogtf: 
+   
+   :depends ucsc-gtftogenepred: 
+   
+   :depends xmltodict: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ genomepy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genomepy
+      docker pull quay.io/repository/biocontainers/genomepy:<tag>
+
+   (see `genomepy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genomepy| conda:required_by:: genomepy
 .. |downloads_genomepy| image:: https://img.shields.io/conda/dn/bioconda/genomepy.svg?style=flat
    :alt:   (downloads)
 .. |docker_genomepy| image:: https://quay.io/repository/biocontainers/genomepy/status
    :target: https://quay.io/repository/biocontainers/genomepy
+.. _`genomepy/tags`: https://quay.io/repository/biocontainers/genomepy?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genomepy/README.html
-

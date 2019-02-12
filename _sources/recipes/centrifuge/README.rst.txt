@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'centrifuge'
 .. highlight: bash
-
 
 centrifuge
 ==========
@@ -22,11 +23,17 @@ centrifuge
 
    |downloads_centrifuge| |docker_centrifuge|
 
-   :versions: 1.0.4_beta, 1.0.3
-
-   :depends: :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_centrifuge|
+   :versions: 1.0.4_beta-2, 1.0.4_beta-0, 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ centrifuge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/centrifuge
+      docker pull quay.io/repository/biocontainers/centrifuge:<tag>
+
+   (see `centrifuge/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_centrifuge| conda:required_by:: centrifuge
 .. |downloads_centrifuge| image:: https://img.shields.io/conda/dn/bioconda/centrifuge.svg?style=flat
    :alt:   (downloads)
 .. |docker_centrifuge| image:: https://quay.io/repository/biocontainers/centrifuge/status
    :target: https://quay.io/repository/biocontainers/centrifuge
+.. _`centrifuge/tags`: https://quay.io/repository/biocontainers/centrifuge?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/centrifuge/README.html
-

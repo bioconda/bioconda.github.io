@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-leaktrace'
 .. highlight: bash
-
 
 perl-test-leaktrace
 ===================
@@ -21,11 +22,11 @@ perl-test-leaktrace
 
    |downloads_perl-test-leaktrace| |docker_perl-test-leaktrace|
 
-   :versions: 0.16, 0.15
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-test-leaktrace|
+   :versions: 0.16-1, 0.16-0, 0.15-1, 0.15-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-test-leaktrace
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-leaktrace
+      docker pull quay.io/repository/biocontainers/perl-test-leaktrace:<tag>
+
+   (see `perl-test-leaktrace/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-leaktrace| conda:required_by:: perl-test-leaktrace
 .. |downloads_perl-test-leaktrace| image:: https://img.shields.io/conda/dn/bioconda/perl-test-leaktrace.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-leaktrace| image:: https://quay.io/repository/biocontainers/perl-test-leaktrace/status
    :target: https://quay.io/repository/biocontainers/perl-test-leaktrace
+.. _`perl-test-leaktrace/tags`: https://quay.io/repository/biocontainers/perl-test-leaktrace?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-leaktrace/README.html
-

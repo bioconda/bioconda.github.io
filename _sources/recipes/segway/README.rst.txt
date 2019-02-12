@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'segway'
 .. highlight: bash
-
 
 segway
 ======
@@ -22,11 +23,31 @@ segway
 
    |downloads_segway| |docker_segway|
 
-   :versions: 2.0.2, 2.0.1, 2.0, 1.4.4, 1.4
-
-   :depends: :conda:package:`colorbrewer`  :conda:package:`drmaa` >=0.4a3 :conda:package:`forked-path`  :conda:package:`genomedata`  :conda:package:`gmtk`  :conda:package:`hdf5` 1.8.17* :conda:package:`numpy`  :conda:package:`optbuild`  :conda:package:`optplus`  :conda:package:`pytables` >=3.0 :conda:package:`python` 2.7* :conda:package:`textinput`  :conda:package:`ucsc-bedtobigbed`  
-
-   :required~by: |required_by_segway|
+   :versions: 2.0.2-3, 2.0.2-2, 2.0.2-1, 2.0.2-0, 2.0.1-0, 2.0-0, 1.4.4-0, 1.4-0
+   
+   :depends autolog: <0.2
+   
+   :depends colorbrewer: <=0.1.1
+   
+   :depends drmaa: >=0.4a3
+   
+   :depends forked-path: 
+   
+   :depends genomedata: <=1.4.1
+   
+   :depends gmtk: 
+   
+   :depends optbuild: <=0.1.11
+   
+   :depends optplus: <=0.1.1
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends textinput: <=0.1.1
+   
+   :depends ucsc-bedtobigbed: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +61,16 @@ segway
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/segway
+      docker pull quay.io/repository/biocontainers/segway:<tag>
+
+   (see `segway/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_segway| conda:required_by:: segway
 .. |downloads_segway| image:: https://img.shields.io/conda/dn/bioconda/segway.svg?style=flat
    :alt:   (downloads)
 .. |docker_segway| image:: https://quay.io/repository/biocontainers/segway/status
    :target: https://quay.io/repository/biocontainers/segway
+.. _`segway/tags`: https://quay.io/repository/biocontainers/segway?tab=tags
 
 
 
@@ -64,4 +87,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/segway/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyvolve'
 .. highlight: bash
-
 
 pyvolve
 =======
@@ -22,11 +23,17 @@ pyvolve
 
    |downloads_pyvolve| |docker_pyvolve|
 
-   :versions: 0.9.0, 0.8.9, 0.8.8, 0.8.7
-
-   :depends: :conda:package:`biopython`  :conda:package:`numpy`  :conda:package:`python`  :conda:package:`scipy`  
-
-   :required~by: |required_by_pyvolve|
+   :versions: 0.9.0-0, 0.8.9-0, 0.8.8-2, 0.8.8-0, 0.8.7-0
+   
+   :depends biopython: 
+   
+   :depends numpy: 
+   
+   :depends python: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ pyvolve
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyvolve
+      docker pull quay.io/repository/biocontainers/pyvolve:<tag>
+
+   (see `pyvolve/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyvolve| conda:required_by:: pyvolve
 .. |downloads_pyvolve| image:: https://img.shields.io/conda/dn/bioconda/pyvolve.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyvolve| image:: https://quay.io/repository/biocontainers/pyvolve/status
    :target: https://quay.io/repository/biocontainers/pyvolve
+.. _`pyvolve/tags`: https://quay.io/repository/biocontainers/pyvolve?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyvolve/README.html
-

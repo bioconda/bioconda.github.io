@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'python-newick'
 .. highlight: bash
-
 
 python-newick
 =============
@@ -21,11 +22,11 @@ python-newick
 
    |downloads_python-newick| |docker_python-newick|
 
-   :versions: 0.9.2, 0.8.0
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_python-newick|
+   :versions: 0.9.2-2, 0.9.2-0, 0.8.0-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ python-newick
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-newick
+      docker pull quay.io/repository/biocontainers/python-newick:<tag>
+
+   (see `python-newick/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_python-newick| conda:required_by:: python-newick
 .. |downloads_python-newick| image:: https://img.shields.io/conda/dn/bioconda/python-newick.svg?style=flat
    :alt:   (downloads)
 .. |docker_python-newick| image:: https://quay.io/repository/biocontainers/python-newick/status
    :target: https://quay.io/repository/biocontainers/python-newick
+.. _`python-newick/tags`: https://quay.io/repository/biocontainers/python-newick?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/python-newick/README.html
-

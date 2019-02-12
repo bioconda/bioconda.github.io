@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-traminer'
 .. highlight: bash
-
 
 r-traminer
 ==========
@@ -21,11 +22,23 @@ r-traminer
 
    |downloads_r-traminer| |docker_r-traminer|
 
-   :versions: 2.0_9, 2.0_8
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-boot`  :conda:package:`r-cluster`  :conda:package:`r-hmisc`  :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_r-traminer|
+   :versions: 2.0_9-1, 2.0_9-0, 2.0_8-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-boot: 
+   
+   :depends r-cluster: 
+   
+   :depends r-hmisc: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ r-traminer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-traminer
+      docker pull quay.io/repository/biocontainers/r-traminer:<tag>
+
+   (see `r-traminer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-traminer| conda:required_by:: r-traminer
 .. |downloads_r-traminer| image:: https://img.shields.io/conda/dn/bioconda/r-traminer.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-traminer| image:: https://quay.io/repository/biocontainers/r-traminer/status
    :target: https://quay.io/repository/biocontainers/r-traminer
+.. _`r-traminer/tags`: https://quay.io/repository/biocontainers/r-traminer?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-traminer/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-compgo'
 .. highlight: bash
-
 
 bioconductor-compgo
 ===================
@@ -22,10 +23,8 @@ bioconductor-compgo
    |downloads_bioconductor-compgo| |docker_bioconductor-compgo|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-compgo|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-compgo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-compgo
+      docker pull quay.io/repository/biocontainers/bioconductor-compgo:<tag>
+
+   (see `bioconductor-compgo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-compgo| conda:required_by:: bioconductor-compgo
 .. |downloads_bioconductor-compgo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-compgo.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-compgo| image:: https://quay.io/repository/biocontainers/bioconductor-compgo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-compgo
+.. _`bioconductor-compgo/tags`: https://quay.io/repository/biocontainers/bioconductor-compgo?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-compgo/README.html
-

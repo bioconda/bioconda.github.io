@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tinyfasta'
 .. highlight: bash
-
 
 tinyfasta
 =========
@@ -21,11 +22,11 @@ tinyfasta
 
    |downloads_tinyfasta| |docker_tinyfasta|
 
-   :versions: 0.1.0
-
-   :depends: :conda:package:`python`  
-
-   :required~by: |required_by_tinyfasta|
+   :versions: 0.1.0-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ tinyfasta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tinyfasta
+      docker pull quay.io/repository/biocontainers/tinyfasta:<tag>
+
+   (see `tinyfasta/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tinyfasta| conda:required_by:: tinyfasta
 .. |downloads_tinyfasta| image:: https://img.shields.io/conda/dn/bioconda/tinyfasta.svg?style=flat
    :alt:   (downloads)
 .. |docker_tinyfasta| image:: https://quay.io/repository/biocontainers/tinyfasta/status
    :target: https://quay.io/repository/biocontainers/tinyfasta
+.. _`tinyfasta/tags`: https://quay.io/repository/biocontainers/tinyfasta?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tinyfasta/README.html
-

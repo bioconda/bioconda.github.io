@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lrzip'
 .. highlight: bash
-
 
 lrzip
 =====
@@ -21,11 +22,17 @@ lrzip
 
    |downloads_lrzip| |docker_lrzip|
 
-   :versions: 0.621
-
-   :depends: :conda:package:`bzip2`  :conda:package:`libgcc`  :conda:package:`lzo`  
-
-   :required~by: |required_by_lrzip|
+   :versions: 0.621-1, 0.621-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends lzo: >=2.10,<3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ lrzip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lrzip
+      docker pull quay.io/repository/biocontainers/lrzip:<tag>
+
+   (see `lrzip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lrzip| conda:required_by:: lrzip
 .. |downloads_lrzip| image:: https://img.shields.io/conda/dn/bioconda/lrzip.svg?style=flat
    :alt:   (downloads)
 .. |docker_lrzip| image:: https://quay.io/repository/biocontainers/lrzip/status
    :target: https://quay.io/repository/biocontainers/lrzip
+.. _`lrzip/tags`: https://quay.io/repository/biocontainers/lrzip?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lrzip/README.html
-

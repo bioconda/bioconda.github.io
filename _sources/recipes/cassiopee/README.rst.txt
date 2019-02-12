@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cassiopee'
 .. highlight: bash
-
 
 cassiopee
 =========
@@ -21,11 +22,21 @@ cassiopee
 
    |downloads_cassiopee| |docker_cassiopee|
 
-   :versions: 1.0.5
-
-   :depends: :conda:package:`boost` ==1.64 :conda:package:`bzip2` 1.0.* :conda:package:`glog`  :conda:package:`icu` 58.* :conda:package:`libgcc`  :conda:package:`zlib` ==1.2.8 
-
-   :required~by: |required_by_cassiopee|
+   :versions: 1.0.5-2, 1.0.5-1, 1.0.5-0
+   
+   :depends boost: >=1.66.0,<1.66.1.0a0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends glog: 
+   
+   :depends icu: >=58.2,<59.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ cassiopee
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cassiopee
+      docker pull quay.io/repository/biocontainers/cassiopee:<tag>
+
+   (see `cassiopee/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cassiopee| conda:required_by:: cassiopee
 .. |downloads_cassiopee| image:: https://img.shields.io/conda/dn/bioconda/cassiopee.svg?style=flat
    :alt:   (downloads)
 .. |docker_cassiopee| image:: https://quay.io/repository/biocontainers/cassiopee/status
    :target: https://quay.io/repository/biocontainers/cassiopee
+.. _`cassiopee/tags`: https://quay.io/repository/biocontainers/cassiopee?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cassiopee/README.html
-

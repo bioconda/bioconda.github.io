@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-threaded'
 .. highlight: bash
-
 
 perl-threaded
 =============
@@ -21,11 +22,11 @@ perl-threaded
 
    |downloads_perl-threaded| |docker_perl-threaded|
 
-   :versions: 5.22.0
-
-   :depends: 
-
-   :required~by: |required_by_perl-threaded|
+   :versions: 5.22.0-13, 5.22.0-12, 5.22.0-11, 5.22.0-10, 5.22.0-9, 5.22.0-8
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-threaded
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-threaded
+      docker pull quay.io/repository/biocontainers/perl-threaded:<tag>
+
+   (see `perl-threaded/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-threaded| conda:required_by:: perl-threaded
 .. |downloads_perl-threaded| image:: https://img.shields.io/conda/dn/bioconda/perl-threaded.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-threaded| image:: https://quay.io/repository/biocontainers/perl-threaded/status
    :target: https://quay.io/repository/biocontainers/perl-threaded
+.. _`perl-threaded/tags`: https://quay.io/repository/biocontainers/perl-threaded?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-threaded/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-tnt'
 .. highlight: bash
-
 
 bioconductor-tnt
 ================
@@ -21,11 +22,29 @@ bioconductor-tnt
 
    |downloads_bioconductor-tnt| |docker_bioconductor-tnt|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-htmlwidgets`  :conda:package:`r-jsonlite`  :conda:package:`r-knitr`  
-
-   :required~by: |required_by_bioconductor-tnt|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-htmlwidgets: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-knitr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ bioconductor-tnt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tnt
+      docker pull quay.io/repository/biocontainers/bioconductor-tnt:<tag>
+
+   (see `bioconductor-tnt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-tnt| conda:required_by:: bioconductor-tnt
 .. |downloads_bioconductor-tnt| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tnt.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-tnt| image:: https://quay.io/repository/biocontainers/bioconductor-tnt/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tnt
+.. _`bioconductor-tnt/tags`: https://quay.io/repository/biocontainers/bioconductor-tnt?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-tnt/README.html
-

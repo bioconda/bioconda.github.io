@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'find_differential_primers'
 .. highlight: bash
-
 
 find_differential_primers
 =========================
@@ -22,11 +23,23 @@ find_differential_primers
 
    |downloads_find_differential_primers| |docker_find_differential_primers|
 
-   :versions: 0.1.3, 0.1.3.p1
-
-   :depends: :conda:package:`biopython`  :conda:package:`blast`  :conda:package:`bx-python`  :conda:package:`emboss`  :conda:package:`primer3`  :conda:package:`prodigal`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_find_differential_primers|
+   :versions: 0.1.3-2, 0.1.3-1, 0.1.3-0, 0.1.3.p1-0
+   
+   :depends biopython: 
+   
+   :depends blast: 
+   
+   :depends bx-python: 
+   
+   :depends emboss: 
+   
+   :depends primer3: <=1.1.4
+   
+   :depends prodigal: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ find_differential_primers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/find_differential_primers
+      docker pull quay.io/repository/biocontainers/find_differential_primers:<tag>
+
+   (see `find_differential_primers/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_find_differential_primers| conda:required_by:: find_differential_primers
 .. |downloads_find_differential_primers| image:: https://img.shields.io/conda/dn/bioconda/find_differential_primers.svg?style=flat
    :alt:   (downloads)
 .. |docker_find_differential_primers| image:: https://quay.io/repository/biocontainers/find_differential_primers/status
    :target: https://quay.io/repository/biocontainers/find_differential_primers
+.. _`find_differential_primers/tags`: https://quay.io/repository/biocontainers/find_differential_primers?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/find_differential_primers/README.html
-

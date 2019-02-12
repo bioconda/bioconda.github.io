@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-metarnaseq'
 .. highlight: bash
-
 
 r-metarnaseq
 ============
@@ -21,11 +22,11 @@ r-metarnaseq
 
    |downloads_r-metarnaseq| |docker_r-metarnaseq|
 
-   :versions: 1.0.2
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-metarnaseq|
+   :versions: 1.0.2-0
+   
+   :depends r-base: 3.4.1*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-metarnaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-metarnaseq
+      docker pull quay.io/repository/biocontainers/r-metarnaseq:<tag>
+
+   (see `r-metarnaseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-metarnaseq| conda:required_by:: r-metarnaseq
 .. |downloads_r-metarnaseq| image:: https://img.shields.io/conda/dn/bioconda/r-metarnaseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-metarnaseq| image:: https://quay.io/repository/biocontainers/r-metarnaseq/status
    :target: https://quay.io/repository/biocontainers/r-metarnaseq
+.. _`r-metarnaseq/tags`: https://quay.io/repository/biocontainers/r-metarnaseq?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-metarnaseq/README.html
-

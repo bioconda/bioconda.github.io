@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cagefightr'
 .. highlight: bash
-
 
 bioconductor-cagefightr
 =======================
@@ -21,11 +22,47 @@ bioconductor-cagefightr
 
    |downloads_bioconductor-cagefightr| |docker_bioconductor-cagefightr|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicfiles` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicinteractions` >=1.16.0,<1.17.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-gviz` >=1.26.0,<1.27.0 :conda:package:`bioconductor-interactionset` >=1.10.0,<1.11.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-assertthat` >=0.2.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-grr` >=0.9.5 :conda:package:`r-matrix` >=1.2-12 :conda:package:`r-matrix.utils` >=0.9.6 :conda:package:`r-pryr` >=0.1.3 
-
-   :required~by: |required_by_bioconductor-cagefightr|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-genomicfiles: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicinteractions: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-gviz: >=1.26.0,<1.27.0
+   
+   :depends bioconductor-interactionset: >=1.10.0,<1.11.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-assertthat: >=0.2.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-grr: >=0.9.5
+   
+   :depends r-matrix: >=1.2-12
+   
+   :depends r-matrix.utils: >=0.9.6
+   
+   :depends r-pryr: >=0.1.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +76,16 @@ bioconductor-cagefightr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cagefightr
+      docker pull quay.io/repository/biocontainers/bioconductor-cagefightr:<tag>
+
+   (see `bioconductor-cagefightr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cagefightr| conda:required_by:: bioconductor-cagefightr
 .. |downloads_bioconductor-cagefightr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cagefightr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cagefightr| image:: https://quay.io/repository/biocontainers/bioconductor-cagefightr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cagefightr
+.. _`bioconductor-cagefightr/tags`: https://quay.io/repository/biocontainers/bioconductor-cagefightr?tab=tags
 
 
 
@@ -63,4 +102,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cagefightr/README.html
-

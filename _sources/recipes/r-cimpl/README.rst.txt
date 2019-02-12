@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-cimpl'
 .. highlight: bash
-
 
 r-cimpl
 =======
@@ -21,11 +22,21 @@ r-cimpl
 
    |downloads_r-cimpl| |docker_r-cimpl|
 
-   :versions: 1.1
-
-   :depends: :conda:package:`bioconductor-biomart`  :conda:package:`bioconductor-biostrings`  :conda:package:`r` 3.3.1* :conda:package:`r-kernsmooth`  :conda:package:`r-mass`  :conda:package:`r-xtable`  
-
-   :required~by: |required_by_r-cimpl|
+   :versions: 1.1-0
+   
+   :depends bioconductor-biomart: 
+   
+   :depends bioconductor-biostrings: 
+   
+   :depends r: 3.3.1*
+   
+   :depends r-kernsmooth: 
+   
+   :depends r-mass: 
+   
+   :depends r-xtable: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-cimpl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-cimpl
+      docker pull quay.io/repository/biocontainers/r-cimpl:<tag>
+
+   (see `r-cimpl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-cimpl| conda:required_by:: r-cimpl
 .. |downloads_r-cimpl| image:: https://img.shields.io/conda/dn/bioconda/r-cimpl.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-cimpl| image:: https://quay.io/repository/biocontainers/r-cimpl/status
    :target: https://quay.io/repository/biocontainers/r-cimpl
+.. _`r-cimpl/tags`: https://quay.io/repository/biocontainers/r-cimpl?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-cimpl/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pmdtools'
 .. highlight: bash
-
 
 pmdtools
 ========
@@ -22,11 +23,15 @@ pmdtools
 
    |downloads_pmdtools| |docker_pmdtools|
 
-   :versions: 0.60
-
-   :depends: :conda:package:`python`  :conda:package:`r-base`  :conda:package:`samtools`  
-
-   :required~by: |required_by_pmdtools|
+   :versions: 0.60-1
+   
+   :depends python: 
+   
+   :depends r-base: 
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ pmdtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pmdtools
+      docker pull quay.io/repository/biocontainers/pmdtools:<tag>
+
+   (see `pmdtools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pmdtools| conda:required_by:: pmdtools
 .. |downloads_pmdtools| image:: https://img.shields.io/conda/dn/bioconda/pmdtools.svg?style=flat
    :alt:   (downloads)
 .. |docker_pmdtools| image:: https://quay.io/repository/biocontainers/pmdtools/status
    :target: https://quay.io/repository/biocontainers/pmdtools
+.. _`pmdtools/tags`: https://quay.io/repository/biocontainers/pmdtools?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pmdtools/README.html
-

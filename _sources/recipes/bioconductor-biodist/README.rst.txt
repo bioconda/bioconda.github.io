@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-biodist'
 .. highlight: bash
-
 
 bioconductor-biodist
 ====================
@@ -22,11 +23,15 @@ bioconductor-biodist
 
    |downloads_bioconductor-biodist| |docker_bioconductor-biodist|
 
-   :versions: 1.54.0, 1.52.0, 1.50.0, 1.48.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-kernsmooth`  
-
-   :required~by: |required_by_bioconductor-biodist|
+   :versions: 1.54.0-0, 1.52.0-0, 1.50.0-0, 1.48.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-kernsmooth: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-biodist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biodist
+      docker pull quay.io/repository/biocontainers/bioconductor-biodist:<tag>
+
+   (see `bioconductor-biodist/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-biodist| conda:required_by:: bioconductor-biodist
 .. |downloads_bioconductor-biodist| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biodist.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-biodist| image:: https://quay.io/repository/biocontainers/bioconductor-biodist/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biodist
+.. _`bioconductor-biodist/tags`: https://quay.io/repository/biocontainers/bioconductor-biodist?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-biodist/README.html
-

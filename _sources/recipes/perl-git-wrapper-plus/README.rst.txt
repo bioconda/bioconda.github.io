@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-git-wrapper-plus'
 .. highlight: bash
-
 
 perl-git-wrapper-plus
 =====================
@@ -21,11 +22,25 @@ perl-git-wrapper-plus
 
    |downloads_perl-git-wrapper-plus| |docker_perl-git-wrapper-plus|
 
-   :versions: 0.004011, 0.004010
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-git-wrapper`  :conda:package:`perl-moo`  :conda:package:`perl-path-tiny`  :conda:package:`perl-sort-versions`  :conda:package:`perl-sub-exporter-progressive`  :conda:package:`perl-try-tiny`  
-
-   :required~by: |required_by_perl-git-wrapper-plus|
+   :versions: 0.004011-0, 0.004010-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-git-wrapper: 
+   
+   :depends perl-moo: 
+   
+   :depends perl-path-tiny: 
+   
+   :depends perl-sort-versions: 
+   
+   :depends perl-sub-exporter-progressive: 
+   
+   :depends perl-try-tiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ perl-git-wrapper-plus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-git-wrapper-plus
+      docker pull quay.io/repository/biocontainers/perl-git-wrapper-plus:<tag>
+
+   (see `perl-git-wrapper-plus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-git-wrapper-plus| conda:required_by:: perl-git-wrapper-plus
 .. |downloads_perl-git-wrapper-plus| image:: https://img.shields.io/conda/dn/bioconda/perl-git-wrapper-plus.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-git-wrapper-plus| image:: https://quay.io/repository/biocontainers/perl-git-wrapper-plus/status
    :target: https://quay.io/repository/biocontainers/perl-git-wrapper-plus
+.. _`perl-git-wrapper-plus/tags`: https://quay.io/repository/biocontainers/perl-git-wrapper-plus?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-git-wrapper-plus/README.html
-

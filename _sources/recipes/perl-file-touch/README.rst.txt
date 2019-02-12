@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-touch'
 .. highlight: bash
-
 
 perl-file-touch
 ===============
@@ -21,11 +22,15 @@ perl-file-touch
 
    |downloads_perl-file-touch| |docker_perl-file-touch|
 
-   :versions: 0.11
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-carp`  :conda:package:`perl-exporter`  
-
-   :required~by: |required_by_perl-file-touch|
+   :versions: 0.11-1, 0.11-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-exporter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-file-touch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-touch
+      docker pull quay.io/repository/biocontainers/perl-file-touch:<tag>
+
+   (see `perl-file-touch/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-touch| conda:required_by:: perl-file-touch
 .. |downloads_perl-file-touch| image:: https://img.shields.io/conda/dn/bioconda/perl-file-touch.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-touch| image:: https://quay.io/repository/biocontainers/perl-file-touch/status
    :target: https://quay.io/repository/biocontainers/perl-file-touch
+.. _`perl-file-touch/tags`: https://quay.io/repository/biocontainers/perl-file-touch?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-touch/README.html
-

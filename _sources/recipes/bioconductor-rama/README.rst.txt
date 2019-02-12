@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rama'
 .. highlight: bash
-
 
 bioconductor-rama
 =================
@@ -22,11 +23,13 @@ bioconductor-rama
 
    |downloads_bioconductor-rama| |docker_bioconductor-rama|
 
-   :versions: 1.56.0, 1.54.0, 1.52.0, 1.50.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-rama|
+   :versions: 1.56.0-0, 1.54.0-0, 1.52.0-0, 1.50.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-rama
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rama
+      docker pull quay.io/repository/biocontainers/bioconductor-rama:<tag>
+
+   (see `bioconductor-rama/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rama| conda:required_by:: bioconductor-rama
 .. |downloads_bioconductor-rama| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rama.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rama| image:: https://quay.io/repository/biocontainers/bioconductor-rama/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rama
+.. _`bioconductor-rama/tags`: https://quay.io/repository/biocontainers/bioconductor-rama?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rama/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-biox-seq'
 .. highlight: bash
-
 
 perl-biox-seq
 =============
@@ -21,11 +22,15 @@ perl-biox-seq
 
    |downloads_perl-biox-seq| |docker_perl-biox-seq|
 
-   :versions: 0.006007
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-compress-bgzf`  :conda:package:`perl-file-which`  
-
-   :required~by: |required_by_perl-biox-seq|
+   :versions: 0.006007-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-compress-bgzf: 
+   
+   :depends perl-file-which: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-biox-seq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-biox-seq
+      docker pull quay.io/repository/biocontainers/perl-biox-seq:<tag>
+
+   (see `perl-biox-seq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-biox-seq| conda:required_by:: perl-biox-seq
 .. |downloads_perl-biox-seq| image:: https://img.shields.io/conda/dn/bioconda/perl-biox-seq.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-biox-seq| image:: https://quay.io/repository/biocontainers/perl-biox-seq/status
    :target: https://quay.io/repository/biocontainers/perl-biox-seq
+.. _`perl-biox-seq/tags`: https://quay.io/repository/biocontainers/perl-biox-seq?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-biox-seq/README.html
-

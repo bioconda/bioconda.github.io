@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kraken-biom'
 .. highlight: bash
-
 
 kraken-biom
 ===========
@@ -21,11 +22,13 @@ kraken-biom
 
    |downloads_kraken-biom| |docker_kraken-biom|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`biom-format` >=2.1.5 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_kraken-biom|
+   :versions: 1.0.1-2, 1.0.1-0
+   
+   :depends biom-format: >=2.1.5
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ kraken-biom
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kraken-biom
+      docker pull quay.io/repository/biocontainers/kraken-biom:<tag>
+
+   (see `kraken-biom/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kraken-biom| conda:required_by:: kraken-biom
 .. |downloads_kraken-biom| image:: https://img.shields.io/conda/dn/bioconda/kraken-biom.svg?style=flat
    :alt:   (downloads)
 .. |docker_kraken-biom| image:: https://quay.io/repository/biocontainers/kraken-biom/status
    :target: https://quay.io/repository/biocontainers/kraken-biom
+.. _`kraken-biom/tags`: https://quay.io/repository/biocontainers/kraken-biom?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kraken-biom/README.html
-

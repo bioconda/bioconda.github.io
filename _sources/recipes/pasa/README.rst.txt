@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pasa'
 .. highlight: bash
-
 
 pasa
 ====
@@ -21,11 +22,37 @@ pasa
 
    |downloads_pasa| |docker_pasa|
 
-   :versions: 2.3.3
-
-   :depends: :conda:package:`blat`  :conda:package:`cdbtools`  :conda:package:`fasta3`  :conda:package:`gmap`  :conda:package:`libgcc`  :conda:package:`lighttpd`  :conda:package:`perl`  :conda:package:`perl-cgi`  :conda:package:`perl-db-file`  :conda:package:`perl-dbd-sqlite`  :conda:package:`perl-uri`  :conda:package:`r-base`  :conda:package:`samtools`  :conda:package:`transdecoder` >=5.2.0 
-
-   :required~by: |required_by_pasa|
+   :versions: 2.3.3-1, 2.3.3-0
+   
+   :depends blat: 
+   
+   :depends cdbtools: 
+   
+   :depends fasta3: 
+   
+   :depends gmap: 
+   
+   :depends libgcc: 
+   
+   :depends lighttpd: 
+   
+   :depends perl: 
+   
+   :depends perl-cgi: 
+   
+   :depends perl-db-file: 
+   
+   :depends perl-dbd-sqlite: 
+   
+   :depends perl-uri: 
+   
+   :depends r-base: 
+   
+   :depends samtools: 
+   
+   :depends transdecoder: >=5.2.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ pasa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pasa
+      docker pull quay.io/repository/biocontainers/pasa:<tag>
+
+   (see `pasa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pasa| conda:required_by:: pasa
 .. |downloads_pasa| image:: https://img.shields.io/conda/dn/bioconda/pasa.svg?style=flat
    :alt:   (downloads)
 .. |docker_pasa| image:: https://quay.io/repository/biocontainers/pasa/status
    :target: https://quay.io/repository/biocontainers/pasa
+.. _`pasa/tags`: https://quay.io/repository/biocontainers/pasa?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pasa/README.html
-

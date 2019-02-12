@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-biomformat'
 .. highlight: bash
-
 
 bioconductor-biomformat
 =======================
@@ -22,11 +23,19 @@ bioconductor-biomformat
 
    |downloads_bioconductor-biomformat| |docker_bioconductor-biomformat|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0, 1.2.0, 1.0.2
-
-   :depends: :conda:package:`bioconductor-rhdf5` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-jsonlite` >=0.9.16 :conda:package:`r-matrix` >=1.2 :conda:package:`r-plyr` >=1.8 
-
-   :required~by: |required_by_bioconductor-biomformat|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.2-1, 1.0.2-0
+   
+   :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-jsonlite: >=0.9.16
+   
+   :depends r-matrix: >=1.2
+   
+   :depends r-plyr: >=1.8
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-biomformat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biomformat
+      docker pull quay.io/repository/biocontainers/bioconductor-biomformat:<tag>
+
+   (see `bioconductor-biomformat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-biomformat| conda:required_by:: bioconductor-biomformat
 .. |downloads_bioconductor-biomformat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biomformat.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-biomformat| image:: https://quay.io/repository/biocontainers/bioconductor-biomformat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biomformat
+.. _`bioconductor-biomformat/tags`: https://quay.io/repository/biocontainers/bioconductor-biomformat?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-biomformat/README.html
-

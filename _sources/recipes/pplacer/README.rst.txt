@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pplacer'
 .. highlight: bash
-
 
 pplacer
 =======
@@ -22,11 +23,9 @@ pplacer
 
    |downloads_pplacer| |docker_pplacer|
 
-   :versions: 1.1.alpha19, 1.1.alpha17
-
-   :depends: 
-
-   :required~by: |required_by_pplacer|
+   :versions: 1.1.alpha19-1, 1.1.alpha19-0, 1.1.alpha17-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +39,16 @@ pplacer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pplacer
+      docker pull quay.io/repository/biocontainers/pplacer:<tag>
+
+   (see `pplacer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pplacer| conda:required_by:: pplacer
 .. |downloads_pplacer| image:: https://img.shields.io/conda/dn/bioconda/pplacer.svg?style=flat
    :alt:   (downloads)
 .. |docker_pplacer| image:: https://quay.io/repository/biocontainers/pplacer/status
    :target: https://quay.io/repository/biocontainers/pplacer
+.. _`pplacer/tags`: https://quay.io/repository/biocontainers/pplacer?tab=tags
 
 
 
@@ -64,4 +65,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pplacer/README.html
-

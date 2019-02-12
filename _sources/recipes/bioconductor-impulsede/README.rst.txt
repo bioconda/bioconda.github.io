@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-impulsede'
 .. highlight: bash
-
 
 bioconductor-impulsede
 ======================
@@ -22,11 +23,15 @@ bioconductor-impulsede
 
    |downloads_bioconductor-impulsede| |docker_bioconductor-impulsede|
 
-   :versions: 1.8.0, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`r-amap`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-boot`  
-
-   :required~by: |required_by_bioconductor-impulsede|
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0
+   
+   :depends r-amap: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-boot: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-impulsede
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-impulsede
+      docker pull quay.io/repository/biocontainers/bioconductor-impulsede:<tag>
+
+   (see `bioconductor-impulsede/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-impulsede| conda:required_by:: bioconductor-impulsede
 .. |downloads_bioconductor-impulsede| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-impulsede.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-impulsede| image:: https://quay.io/repository/biocontainers/bioconductor-impulsede/status
    :target: https://quay.io/repository/biocontainers/bioconductor-impulsede
+.. _`bioconductor-impulsede/tags`: https://quay.io/repository/biocontainers/bioconductor-impulsede?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-impulsede/README.html
-

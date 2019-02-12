@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-regexp-common'
 .. highlight: bash
-
 
 perl-regexp-common
 ==================
@@ -21,11 +22,11 @@ perl-regexp-common
 
    |downloads_perl-regexp-common| |docker_perl-regexp-common|
 
-   :versions: 2017060201, 2016060801
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-regexp-common|
+   :versions: 2017060201-0, 2016060801-1, 2016060801-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-regexp-common
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-regexp-common
+      docker pull quay.io/repository/biocontainers/perl-regexp-common:<tag>
+
+   (see `perl-regexp-common/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-regexp-common| conda:required_by:: perl-regexp-common
 .. |downloads_perl-regexp-common| image:: https://img.shields.io/conda/dn/bioconda/perl-regexp-common.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-regexp-common| image:: https://quay.io/repository/biocontainers/perl-regexp-common/status
    :target: https://quay.io/repository/biocontainers/perl-regexp-common
+.. _`perl-regexp-common/tags`: https://quay.io/repository/biocontainers/perl-regexp-common?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-regexp-common/README.html
-

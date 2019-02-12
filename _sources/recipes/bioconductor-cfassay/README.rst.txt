@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cfassay'
 .. highlight: bash
-
 
 bioconductor-cfassay
 ====================
@@ -22,11 +23,11 @@ bioconductor-cfassay
 
    |downloads_bioconductor-cfassay| |docker_bioconductor-cfassay|
 
-   :versions: 1.16.1, 1.14.0, 1.12.0, 1.10.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-cfassay|
+   :versions: 1.16.1-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ bioconductor-cfassay
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cfassay
+      docker pull quay.io/repository/biocontainers/bioconductor-cfassay:<tag>
+
+   (see `bioconductor-cfassay/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cfassay| conda:required_by:: bioconductor-cfassay
 .. |downloads_bioconductor-cfassay| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cfassay.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cfassay| image:: https://quay.io/repository/biocontainers/bioconductor-cfassay/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cfassay
+.. _`bioconductor-cfassay/tags`: https://quay.io/repository/biocontainers/bioconductor-cfassay?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cfassay/README.html
-

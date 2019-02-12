@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-extutils-cppguess'
 .. highlight: bash
-
 
 perl-extutils-cppguess
 ======================
@@ -21,11 +22,15 @@ perl-extutils-cppguess
 
    |downloads_perl-extutils-cppguess| |docker_perl-extutils-cppguess|
 
-   :versions: 0.12
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-capture-tiny`  
-
-   :required~by: |required_by_perl-extutils-cppguess|
+   :versions: 0.12-2, 0.12-1, 0.12-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-capture-tiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-extutils-cppguess
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-extutils-cppguess
+      docker pull quay.io/repository/biocontainers/perl-extutils-cppguess:<tag>
+
+   (see `perl-extutils-cppguess/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-extutils-cppguess| conda:required_by:: perl-extutils-cppguess
 .. |downloads_perl-extutils-cppguess| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-cppguess.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-extutils-cppguess| image:: https://quay.io/repository/biocontainers/perl-extutils-cppguess/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-cppguess
+.. _`perl-extutils-cppguess/tags`: https://quay.io/repository/biocontainers/perl-extutils-cppguess?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-extutils-cppguess/README.html
-

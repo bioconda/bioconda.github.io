@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-calib'
 .. highlight: bash
-
 
 bioconductor-calib
 ==================
@@ -22,11 +23,17 @@ bioconductor-calib
 
    |downloads_bioconductor-calib| |docker_bioconductor-calib|
 
-   :versions: 1.48.0, 1.46.0, 1.44.0, 1.42.0
-
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-calib|
+   :versions: 1.48.0-0, 1.46.0-0, 1.44.0-0, 1.42.0-0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-calib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-calib
+      docker pull quay.io/repository/biocontainers/bioconductor-calib:<tag>
+
+   (see `bioconductor-calib/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-calib| conda:required_by:: bioconductor-calib
 .. |downloads_bioconductor-calib| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-calib.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-calib| image:: https://quay.io/repository/biocontainers/bioconductor-calib/status
    :target: https://quay.io/repository/biocontainers/bioconductor-calib
+.. _`bioconductor-calib/tags`: https://quay.io/repository/biocontainers/bioconductor-calib?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-calib/README.html
-

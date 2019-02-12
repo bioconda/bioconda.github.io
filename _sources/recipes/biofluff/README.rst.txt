@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biofluff'
 .. highlight: bash
-
 
 biofluff
 ========
@@ -21,11 +22,27 @@ biofluff
 
    |downloads_biofluff| |docker_biofluff|
 
-   :versions: 3.0.3, 3.0.2, 2.1.3, 2.1.2, 2.1.1, 2.1.0, 2.0.2, 2.0.1
-
-   :depends: :conda:package:`htseq`  :conda:package:`matplotlib` >=2 :conda:package:`palettable`  :conda:package:`pybedtools`  :conda:package:`pybigwig`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`scikit-learn`  :conda:package:`scipy`  
-
-   :required~by: |required_by_biofluff|
+   :versions: 3.0.3-0, 3.0.2-1, 3.0.2-0, 2.1.3-0, 2.1.2-0, 2.1.1-0, 2.1.0-0, 2.0.2-0, 2.0.1-1
+   
+   :depends htseq: 
+   
+   :depends matplotlib: >=2
+   
+   :depends palettable: 
+   
+   :depends pybedtools: 
+   
+   :depends pybigwig: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ biofluff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biofluff
+      docker pull quay.io/repository/biocontainers/biofluff:<tag>
+
+   (see `biofluff/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biofluff| conda:required_by:: biofluff
 .. |downloads_biofluff| image:: https://img.shields.io/conda/dn/bioconda/biofluff.svg?style=flat
    :alt:   (downloads)
 .. |docker_biofluff| image:: https://quay.io/repository/biocontainers/biofluff/status
    :target: https://quay.io/repository/biocontainers/biofluff
+.. _`biofluff/tags`: https://quay.io/repository/biocontainers/biofluff?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biofluff/README.html
-

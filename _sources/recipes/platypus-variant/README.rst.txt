@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'platypus-variant'
 .. highlight: bash
-
 
 platypus-variant
 ================
@@ -21,11 +22,13 @@ platypus-variant
 
    |downloads_platypus-variant| |docker_platypus-variant|
 
-   :versions: 0.8.1.1, 0.8.1
-
-   :depends: :conda:package:`htslib` 1.5* :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_platypus-variant|
+   :versions: 0.8.1.1-3, 0.8.1.1-2, 0.8.1.1-1, 0.8.1.1-0, 0.8.1-1, 0.8.1-0
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ platypus-variant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/platypus-variant
+      docker pull quay.io/repository/biocontainers/platypus-variant:<tag>
+
+   (see `platypus-variant/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_platypus-variant| conda:required_by:: platypus-variant
 .. |downloads_platypus-variant| image:: https://img.shields.io/conda/dn/bioconda/platypus-variant.svg?style=flat
    :alt:   (downloads)
 .. |docker_platypus-variant| image:: https://quay.io/repository/biocontainers/platypus-variant/status
    :target: https://quay.io/repository/biocontainers/platypus-variant
+.. _`platypus-variant/tags`: https://quay.io/repository/biocontainers/platypus-variant?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/platypus-variant/README.html
-

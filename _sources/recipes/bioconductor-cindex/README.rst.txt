@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cindex'
 .. highlight: bash
-
 
 bioconductor-cindex
 ===================
@@ -22,11 +23,33 @@ bioconductor-cindex
 
    |downloads_bioconductor-cindex| |docker_bioconductor-cindex|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0
-
-   :depends: :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bitops`  :conda:package:`r-dplyr`  :conda:package:`r-gplots`  :conda:package:`r-gridextra`  :conda:package:`r-png`  :conda:package:`r-som`  :conda:package:`r-stringr`  
-
-   :required~by: |required_by_bioconductor-cindex|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bitops: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-gplots: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-png: 
+   
+   :depends r-som: 
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +63,16 @@ bioconductor-cindex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cindex
+      docker pull quay.io/repository/biocontainers/bioconductor-cindex:<tag>
+
+   (see `bioconductor-cindex/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cindex| conda:required_by:: bioconductor-cindex
 .. |downloads_bioconductor-cindex| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cindex.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cindex| image:: https://quay.io/repository/biocontainers/bioconductor-cindex/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cindex
+.. _`bioconductor-cindex/tags`: https://quay.io/repository/biocontainers/bioconductor-cindex?tab=tags
 
 
 
@@ -64,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cindex/README.html
-

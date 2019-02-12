@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-template-toolkit'
 .. highlight: bash
-
 
 perl-template-toolkit
 =====================
@@ -21,11 +22,21 @@ perl-template-toolkit
 
    |downloads_perl-template-toolkit| |docker_perl-template-toolkit|
 
-   :versions: 2.26
-
-   :depends: :conda:package:`perl-appconfig`  :conda:package:`perl-cgi`  :conda:package:`perl-image-info`  :conda:package:`perl-image-size`  :conda:package:`perl-test-leaktrace`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-template-toolkit|
+   :versions: 2.26-1, 2.26-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-appconfig: 
+   
+   :depends perl-cgi: 
+   
+   :depends perl-image-info: 
+   
+   :depends perl-image-size: 
+   
+   :depends perl-test-leaktrace: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-template-toolkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-template-toolkit
+      docker pull quay.io/repository/biocontainers/perl-template-toolkit:<tag>
+
+   (see `perl-template-toolkit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-template-toolkit| conda:required_by:: perl-template-toolkit
 .. |downloads_perl-template-toolkit| image:: https://img.shields.io/conda/dn/bioconda/perl-template-toolkit.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-template-toolkit| image:: https://quay.io/repository/biocontainers/perl-template-toolkit/status
    :target: https://quay.io/repository/biocontainers/perl-template-toolkit
+.. _`perl-template-toolkit/tags`: https://quay.io/repository/biocontainers/perl-template-toolkit?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-template-toolkit/README.html
-

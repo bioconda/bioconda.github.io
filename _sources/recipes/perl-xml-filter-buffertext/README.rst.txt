@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-xml-filter-buffertext'
 .. highlight: bash
-
 
 perl-xml-filter-buffertext
 ==========================
@@ -21,11 +22,13 @@ perl-xml-filter-buffertext
 
    |downloads_perl-xml-filter-buffertext| |docker_perl-xml-filter-buffertext|
 
-   :versions: 1.01
-
-   :depends: :conda:package:`perl-threaded`  :conda:package:`perl-xml-sax-base`  
-
-   :required~by: |required_by_perl-xml-filter-buffertext|
+   :versions: 1.01-2, 1.01-1, 1.01-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-xml-sax-base: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-xml-filter-buffertext
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-filter-buffertext
+      docker pull quay.io/repository/biocontainers/perl-xml-filter-buffertext:<tag>
+
+   (see `perl-xml-filter-buffertext/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-xml-filter-buffertext| conda:required_by:: perl-xml-filter-buffertext
 .. |downloads_perl-xml-filter-buffertext| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-filter-buffertext.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-xml-filter-buffertext| image:: https://quay.io/repository/biocontainers/perl-xml-filter-buffertext/status
    :target: https://quay.io/repository/biocontainers/perl-xml-filter-buffertext
+.. _`perl-xml-filter-buffertext/tags`: https://quay.io/repository/biocontainers/perl-xml-filter-buffertext?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-xml-filter-buffertext/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pepr'
 .. highlight: bash
-
 
 pepr
 ====
@@ -21,11 +22,19 @@ pepr
 
    |downloads_pepr| |docker_pepr|
 
-   :versions: 1.1.24, 1.1.18, 1.0.9
-
-   :depends: :conda:package:`numpy` >=1.6.0 :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`scipy` >=0.14.0 :conda:package:`sharedmem`  
-
-   :required~by: |required_by_pepr|
+   :versions: 1.1.24-1, 1.1.24-0, 1.1.18-0, 1.0.9-0
+   
+   :depends numpy: >=1.6.0
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: >=0.14.0
+   
+   :depends sharedmem: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ pepr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pepr
+      docker pull quay.io/repository/biocontainers/pepr:<tag>
+
+   (see `pepr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pepr| conda:required_by:: pepr
 .. |downloads_pepr| image:: https://img.shields.io/conda/dn/bioconda/pepr.svg?style=flat
    :alt:   (downloads)
 .. |docker_pepr| image:: https://quay.io/repository/biocontainers/pepr/status
    :target: https://quay.io/repository/biocontainers/pepr
+.. _`pepr/tags`: https://quay.io/repository/biocontainers/pepr?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pepr/README.html
-

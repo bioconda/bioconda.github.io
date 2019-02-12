@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lorikeet'
 .. highlight: bash
-
 
 lorikeet
 ========
@@ -22,11 +23,11 @@ lorikeet
 
    |downloads_lorikeet| |docker_lorikeet|
 
-   :versions: 20, 19, 17
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_lorikeet|
+   :versions: 20-0, 19-0, 17-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ lorikeet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lorikeet
+      docker pull quay.io/repository/biocontainers/lorikeet:<tag>
+
+   (see `lorikeet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lorikeet| conda:required_by:: lorikeet
 .. |downloads_lorikeet| image:: https://img.shields.io/conda/dn/bioconda/lorikeet.svg?style=flat
    :alt:   (downloads)
 .. |docker_lorikeet| image:: https://quay.io/repository/biocontainers/lorikeet/status
    :target: https://quay.io/repository/biocontainers/lorikeet
+.. _`lorikeet/tags`: https://quay.io/repository/biocontainers/lorikeet?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lorikeet/README.html
-

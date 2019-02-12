@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'abyss'
 .. highlight: bash
-
 
 abyss
 =====
@@ -25,11 +26,15 @@ abyss
 
    |downloads_abyss| |docker_abyss|
 
-   :versions: 2.1.5, 2.1.4, 2.1.3, 2.1.1, 2.1.0, 2.0.2, 2.0.1, 1.9.0, 1.5.2
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`make`  :conda:package:`openmpi` >=3.1,<3.2.0a0 
-
-   :required~by: |required_by_abyss|
+   :versions: 2.1.5-0, 2.1.4-0, 2.1.3-0, 2.1.1-0, 2.1.0-0, 2.0.2-5, 2.0.2-4, 2.0.2-3, 2.0.2-2, 2.0.2-1, 2.0.2-0, 2.0.1-2, 2.0.1-1, 2.0.1-0, 1.9.0-7, 1.9.0-6, 1.9.0-5, 1.9.0-4, 1.9.0-3, 1.9.0-2, 1.9.0-1, 1.9.0-0, 1.5.2-5, 1.5.2-4, 1.5.2-3, 1.5.2-2, 1.5.2-1, 1.5.2-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends make: 
+   
+   :depends openmpi: >=3.1,<3.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -43,14 +48,16 @@ abyss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/abyss
+      docker pull quay.io/repository/biocontainers/abyss:<tag>
+
+   (see `abyss/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_abyss| conda:required_by:: abyss
 .. |downloads_abyss| image:: https://img.shields.io/conda/dn/bioconda/abyss.svg?style=flat
    :alt:   (downloads)
 .. |docker_abyss| image:: https://quay.io/repository/biocontainers/abyss/status
    :target: https://quay.io/repository/biocontainers/abyss
+.. _`abyss/tags`: https://quay.io/repository/biocontainers/abyss?tab=tags
 
 
 
@@ -67,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/abyss/README.html
-

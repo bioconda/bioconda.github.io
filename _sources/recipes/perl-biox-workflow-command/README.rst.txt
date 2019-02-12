@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-biox-workflow-command'
 .. highlight: bash
-
 
 perl-biox-workflow-command
 ==========================
@@ -21,11 +22,99 @@ perl-biox-workflow-command
 
    |downloads_perl-biox-workflow-command| |docker_perl-biox-workflow-command|
 
-   :versions: 2.4.1, 2.3.2, 2.3.0, 2.2.3, 2.2.1
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-algorithm-dependency`  :conda:package:`perl-app-cpanminus`  :conda:package:`perl-class-load`  :conda:package:`perl-clone`  :conda:package:`perl-config-any`  :conda:package:`perl-data-walk`  :conda:package:`perl-datetime`  :conda:package:`perl-datetime-format-strptime`  :conda:package:`perl-dbm-deep`  :conda:package:`perl-file-details`  :conda:package:`perl-file-find-rule`  :conda:package:`perl-file-path`  :conda:package:`perl-file-slurp`  :conda:package:`perl-git-wrapper`  :conda:package:`perl-git-wrapper-plus`  :conda:package:`perl-io-interactive`  :conda:package:`perl-json`  :conda:package:`perl-list-compare`  :conda:package:`perl-list-moreutils` >=0.428 :conda:package:`perl-list-someutils`  :conda:package:`perl-list-uniq`  :conda:package:`perl-log-log4perl`  :conda:package:`perl-mce-shared`  :conda:package:`perl-moose`  :conda:package:`perl-moose`  :conda:package:`perl-moosex-app`  :conda:package:`perl-moosex-app-role-log4perl`  :conda:package:`perl-moosex-getopt`  :conda:package:`perl-moosex-getopt`  :conda:package:`perl-moosex-types`  :conda:package:`perl-moosex-types`  :conda:package:`perl-moosex-types-path-tiny`  :conda:package:`perl-namespace-autoclean`  :conda:package:`perl-params-validate`  :conda:package:`perl-path-tiny`  :conda:package:`perl-safe`  :conda:package:`perl-string-approx`  :conda:package:`perl-test2`  :conda:package:`perl-text-asciitable`  :conda:package:`perl-text-template`  :conda:package:`perl-try-tiny`  :conda:package:`perl-yaml`  :conda:package:`perl-yaml`  :conda:package:`perl-yaml-libyaml`  
-
-   :required~by: |required_by_perl-biox-workflow-command|
+   :versions: 2.4.1-0, 2.3.2-0, 2.3.0-0, 2.2.3-0, 2.2.1-0
+   
+   :depends perl: 5.22.0*
+   
+   :depends perl-algorithm-dependency: 
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-class-load: 
+   
+   :depends perl-clone: 
+   
+   :depends perl-config-any: 
+   
+   :depends perl-data-walk: 
+   
+   :depends perl-datetime: 
+   
+   :depends perl-datetime-format-strptime: 
+   
+   :depends perl-dbm-deep: 
+   
+   :depends perl-file-details: 
+   
+   :depends perl-file-find-rule: 
+   
+   :depends perl-file-path: 
+   
+   :depends perl-file-slurp: 
+   
+   :depends perl-git-wrapper: 
+   
+   :depends perl-git-wrapper-plus: 
+   
+   :depends perl-io-interactive: 
+   
+   :depends perl-json: 
+   
+   :depends perl-list-compare: 
+   
+   :depends perl-list-moreutils: >=0.428
+   
+   :depends perl-list-someutils: 
+   
+   :depends perl-list-uniq: 
+   
+   :depends perl-log-log4perl: 
+   
+   :depends perl-mce-shared: 
+   
+   :depends perl-moose: 
+   
+   :depends perl-moose: 
+   
+   :depends perl-moosex-app: 
+   
+   :depends perl-moosex-app-role-log4perl: 
+   
+   :depends perl-moosex-getopt: 
+   
+   :depends perl-moosex-getopt: 
+   
+   :depends perl-moosex-types: 
+   
+   :depends perl-moosex-types: 
+   
+   :depends perl-moosex-types-path-tiny: 
+   
+   :depends perl-namespace-autoclean: 
+   
+   :depends perl-params-validate: 
+   
+   :depends perl-path-tiny: 
+   
+   :depends perl-safe: 
+   
+   :depends perl-string-approx: 
+   
+   :depends perl-test2: 
+   
+   :depends perl-text-asciitable: 
+   
+   :depends perl-text-template: 
+   
+   :depends perl-try-tiny: 
+   
+   :depends perl-yaml: 
+   
+   :depends perl-yaml: 
+   
+   :depends perl-yaml-libyaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +128,16 @@ perl-biox-workflow-command
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-biox-workflow-command
+      docker pull quay.io/repository/biocontainers/perl-biox-workflow-command:<tag>
+
+   (see `perl-biox-workflow-command/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-biox-workflow-command| conda:required_by:: perl-biox-workflow-command
 .. |downloads_perl-biox-workflow-command| image:: https://img.shields.io/conda/dn/bioconda/perl-biox-workflow-command.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-biox-workflow-command| image:: https://quay.io/repository/biocontainers/perl-biox-workflow-command/status
    :target: https://quay.io/repository/biocontainers/perl-biox-workflow-command
+.. _`perl-biox-workflow-command/tags`: https://quay.io/repository/biocontainers/perl-biox-workflow-command?tab=tags
 
 
 
@@ -63,4 +154,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-biox-workflow-command/README.html
-

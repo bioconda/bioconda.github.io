@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-scfind'
 .. highlight: bash
-
 
 bioconductor-scfind
 ===================
@@ -21,11 +22,29 @@ bioconductor-scfind
 
    |downloads_bioconductor-scfind| |docker_bioconductor-scfind|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bit`  :conda:package:`r-dplyr`  :conda:package:`r-hash`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-scfind|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bit: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-hash: 
+   
+   :depends r-rcpp: >=0.12.12
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ bioconductor-scfind
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scfind
+      docker pull quay.io/repository/biocontainers/bioconductor-scfind:<tag>
+
+   (see `bioconductor-scfind/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-scfind| conda:required_by:: bioconductor-scfind
 .. |downloads_bioconductor-scfind| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scfind.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-scfind| image:: https://quay.io/repository/biocontainers/bioconductor-scfind/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scfind
+.. _`bioconductor-scfind/tags`: https://quay.io/repository/biocontainers/bioconductor-scfind?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-scfind/README.html
-

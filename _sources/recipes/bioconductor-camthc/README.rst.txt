@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-camthc'
 .. highlight: bash
-
 
 bioconductor-camthc
 ===================
@@ -22,10 +23,8 @@ bioconductor-camthc
    |downloads_bioconductor-camthc| |docker_bioconductor-camthc|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-camthc|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-camthc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-camthc
+      docker pull quay.io/repository/biocontainers/bioconductor-camthc:<tag>
+
+   (see `bioconductor-camthc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-camthc| conda:required_by:: bioconductor-camthc
 .. |downloads_bioconductor-camthc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-camthc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-camthc| image:: https://quay.io/repository/biocontainers/bioconductor-camthc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-camthc
+.. _`bioconductor-camthc/tags`: https://quay.io/repository/biocontainers/bioconductor-camthc?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-camthc/README.html
-

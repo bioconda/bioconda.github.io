@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bandage'
 .. highlight: bash
-
 
 bandage
 =======
@@ -22,11 +23,13 @@ bandage
 
    |downloads_bandage| |docker_bandage|
 
-   :versions: 0.8.1
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`qt`  
-
-   :required~by: |required_by_bandage|
+   :versions: 0.8.1-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends qt: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bandage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bandage
+      docker pull quay.io/repository/biocontainers/bandage:<tag>
+
+   (see `bandage/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bandage| conda:required_by:: bandage
 .. |downloads_bandage| image:: https://img.shields.io/conda/dn/bioconda/bandage.svg?style=flat
    :alt:   (downloads)
 .. |docker_bandage| image:: https://quay.io/repository/biocontainers/bandage/status
    :target: https://quay.io/repository/biocontainers/bandage
+.. _`bandage/tags`: https://quay.io/repository/biocontainers/bandage?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bandage/README.html
-

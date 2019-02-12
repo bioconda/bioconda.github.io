@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rbioinf'
 .. highlight: bash
-
 
 bioconductor-rbioinf
 ====================
@@ -22,11 +23,15 @@ bioconductor-rbioinf
 
    |downloads_bioconductor-rbioinf| |docker_bioconductor-rbioinf|
 
-   :versions: 1.42.0, 1.40.0, 1.38.0, 1.36.0
-
-   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-rbioinf|
+   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-rbioinf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rbioinf
+      docker pull quay.io/repository/biocontainers/bioconductor-rbioinf:<tag>
+
+   (see `bioconductor-rbioinf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rbioinf| conda:required_by:: bioconductor-rbioinf
 .. |downloads_bioconductor-rbioinf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rbioinf.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rbioinf| image:: https://quay.io/repository/biocontainers/bioconductor-rbioinf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rbioinf
+.. _`bioconductor-rbioinf/tags`: https://quay.io/repository/biocontainers/bioconductor-rbioinf?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rbioinf/README.html
-

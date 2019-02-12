@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cogaps'
 .. highlight: bash
-
 
 bioconductor-cogaps
 ===================
@@ -21,11 +22,35 @@ bioconductor-cogaps
 
    |downloads_bioconductor-cogaps| |docker_bioconductor-cogaps|
 
-   :versions: 3.2.1
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh`  :conda:package:`r-cluster`  :conda:package:`r-data.table`  :conda:package:`r-gplots`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp`  
-
-   :required~by: |required_by_bioconductor-cogaps|
+   :versions: 3.2.1-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bh: 
+   
+   :depends r-cluster: 
+   
+   :depends r-data.table: 
+   
+   :depends r-gplots: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rcpp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ bioconductor-cogaps
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cogaps
+      docker pull quay.io/repository/biocontainers/bioconductor-cogaps:<tag>
+
+   (see `bioconductor-cogaps/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cogaps| conda:required_by:: bioconductor-cogaps
 .. |downloads_bioconductor-cogaps| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cogaps.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cogaps| image:: https://quay.io/repository/biocontainers/bioconductor-cogaps/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cogaps
+.. _`bioconductor-cogaps/tags`: https://quay.io/repository/biocontainers/bioconductor-cogaps?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cogaps/README.html
-

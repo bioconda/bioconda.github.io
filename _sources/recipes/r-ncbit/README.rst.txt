@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-ncbit'
 .. highlight: bash
-
 
 r-ncbit
 =======
@@ -21,11 +22,11 @@ r-ncbit
 
    |downloads_r-ncbit| |docker_r-ncbit|
 
-   :versions: 2013.03.29
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-ncbit|
+   :versions: 2013.03.29-2, 2013.03.29-1, 2013.03.29-0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-ncbit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ncbit
+      docker pull quay.io/repository/biocontainers/r-ncbit:<tag>
+
+   (see `r-ncbit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-ncbit| conda:required_by:: r-ncbit
 .. |downloads_r-ncbit| image:: https://img.shields.io/conda/dn/bioconda/r-ncbit.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-ncbit| image:: https://quay.io/repository/biocontainers/r-ncbit/status
    :target: https://quay.io/repository/biocontainers/r-ncbit
+.. _`r-ncbit/tags`: https://quay.io/repository/biocontainers/r-ncbit?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-ncbit/README.html
-

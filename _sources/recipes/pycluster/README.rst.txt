@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pycluster'
 .. highlight: bash
-
 
 pycluster
 =========
@@ -21,11 +22,15 @@ pycluster
 
    |downloads_pycluster| |docker_pycluster|
 
-   :versions: 1.54, 1.52
-
-   :depends: :conda:package:`numpy`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pycluster|
+   :versions: 1.54-1, 1.54-0, 1.52-1
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pycluster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pycluster
+      docker pull quay.io/repository/biocontainers/pycluster:<tag>
+
+   (see `pycluster/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pycluster| conda:required_by:: pycluster
 .. |downloads_pycluster| image:: https://img.shields.io/conda/dn/bioconda/pycluster.svg?style=flat
    :alt:   (downloads)
 .. |docker_pycluster| image:: https://quay.io/repository/biocontainers/pycluster/status
    :target: https://quay.io/repository/biocontainers/pycluster
+.. _`pycluster/tags`: https://quay.io/repository/biocontainers/pycluster?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pycluster/README.html
-

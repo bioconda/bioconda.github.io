@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-perlio'
 .. highlight: bash
-
 
 perl-perlio
 ===========
@@ -21,11 +22,11 @@ perl-perlio
 
    |downloads_perl-perlio| |docker_perl-perlio|
 
-   :versions: 1.09
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-perlio|
+   :versions: 1.09-1, 1.09-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-perlio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-perlio
+      docker pull quay.io/repository/biocontainers/perl-perlio:<tag>
+
+   (see `perl-perlio/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-perlio| conda:required_by:: perl-perlio
 .. |downloads_perl-perlio| image:: https://img.shields.io/conda/dn/bioconda/perl-perlio.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-perlio| image:: https://quay.io/repository/biocontainers/perl-perlio/status
    :target: https://quay.io/repository/biocontainers/perl-perlio
+.. _`perl-perlio/tags`: https://quay.io/repository/biocontainers/perl-perlio?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-perlio/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'jali'
 .. highlight: bash
-
 
 jali
 ====
@@ -22,11 +23,9 @@ jali
 
    |downloads_jali| |docker_jali|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_jali|
+   :versions: 1.3-1, 1.3-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +39,16 @@ jali
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/jali
+      docker pull quay.io/repository/biocontainers/jali:<tag>
+
+   (see `jali/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_jali| conda:required_by:: jali
 .. |downloads_jali| image:: https://img.shields.io/conda/dn/bioconda/jali.svg?style=flat
    :alt:   (downloads)
 .. |docker_jali| image:: https://quay.io/repository/biocontainers/jali/status
    :target: https://quay.io/repository/biocontainers/jali
+.. _`jali/tags`: https://quay.io/repository/biocontainers/jali?tab=tags
 
 
 
@@ -64,4 +65,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/jali/README.html
-

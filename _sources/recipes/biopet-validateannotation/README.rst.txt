@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biopet-validateannotation'
 .. highlight: bash
-
 
 biopet-validateannotation
 =========================
@@ -27,11 +28,13 @@ biopet-validateannotation
 
    |downloads_biopet-validateannotation| |docker_biopet-validateannotation|
 
-   :versions: 0.1
-
-   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
-
-   :required~by: |required_by_biopet-validateannotation|
+   :versions: 0.1-0
+   
+   :depends openjdk: >=8,<9
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -45,14 +48,16 @@ biopet-validateannotation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-validateannotation
+      docker pull quay.io/repository/biocontainers/biopet-validateannotation:<tag>
+
+   (see `biopet-validateannotation/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biopet-validateannotation| conda:required_by:: biopet-validateannotation
 .. |downloads_biopet-validateannotation| image:: https://img.shields.io/conda/dn/bioconda/biopet-validateannotation.svg?style=flat
    :alt:   (downloads)
 .. |docker_biopet-validateannotation| image:: https://quay.io/repository/biocontainers/biopet-validateannotation/status
    :target: https://quay.io/repository/biocontainers/biopet-validateannotation
+.. _`biopet-validateannotation/tags`: https://quay.io/repository/biocontainers/biopet-validateannotation?tab=tags
 
 
 
@@ -73,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biopet-validateannotation/README.html
-

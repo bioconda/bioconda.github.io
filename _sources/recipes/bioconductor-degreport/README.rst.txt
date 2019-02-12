@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-degreport'
 .. highlight: bash
-
 
 bioconductor-degreport
 ======================
@@ -22,11 +23,69 @@ bioconductor-degreport
 
    |downloads_bioconductor-degreport| |docker_bioconductor-degreport|
 
-   :versions: 1.19.1, 1.18.0, 1.16.0, 1.14.0, 1.12.0, 1.8.2, 1.7.2
-
-   :depends: :conda:package:`bioconductor-biobase`  :conda:package:`bioconductor-biocgenerics`  :conda:package:`bioconductor-complexheatmap`  :conda:package:`bioconductor-consensusclusterplus`  :conda:package:`bioconductor-deseq2`  :conda:package:`bioconductor-edger`  :conda:package:`bioconductor-s4vectors`  :conda:package:`bioconductor-summarizedexperiment`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-broom`  :conda:package:`r-circlize`  :conda:package:`r-cluster`  :conda:package:`r-cowplot`  :conda:package:`r-dplyr`  :conda:package:`r-ggdendro`  :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-knitr`  :conda:package:`r-lasso2`  :conda:package:`r-logging`  :conda:package:`r-magrittr`  :conda:package:`r-nozzle.r1`  :conda:package:`r-psych`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape`  :conda:package:`r-rlang`  :conda:package:`r-scales`  :conda:package:`r-stringr`  :conda:package:`r-tibble`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_bioconductor-degreport|
+   :versions: 1.19.1-0, 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.8.2-1, 1.8.2-0, 1.7.2-1
+   
+   :depends bioconductor-biobase: 
+   
+   :depends bioconductor-biocgenerics: 
+   
+   :depends bioconductor-complexheatmap: 
+   
+   :depends bioconductor-consensusclusterplus: 
+   
+   :depends bioconductor-deseq2: 
+   
+   :depends bioconductor-edger: 
+   
+   :depends bioconductor-s4vectors: 
+   
+   :depends bioconductor-summarizedexperiment: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-broom: 
+   
+   :depends r-circlize: 
+   
+   :depends r-cluster: 
+   
+   :depends r-cowplot: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggdendro: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggrepel: 
+   
+   :depends r-knitr: 
+   
+   :depends r-lasso2: 
+   
+   :depends r-logging: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-nozzle.r1: 
+   
+   :depends r-psych: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape: 
+   
+   :depends r-rlang: 
+   
+   :depends r-scales: 
+   
+   :depends r-stringr: 
+   
+   :depends r-tibble: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +99,16 @@ bioconductor-degreport
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-degreport
+      docker pull quay.io/repository/biocontainers/bioconductor-degreport:<tag>
+
+   (see `bioconductor-degreport/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-degreport| conda:required_by:: bioconductor-degreport
 .. |downloads_bioconductor-degreport| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-degreport.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-degreport| image:: https://quay.io/repository/biocontainers/bioconductor-degreport/status
    :target: https://quay.io/repository/biocontainers/bioconductor-degreport
+.. _`bioconductor-degreport/tags`: https://quay.io/repository/biocontainers/bioconductor-degreport?tab=tags
 
 
 
@@ -64,4 +125,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-degreport/README.html
-

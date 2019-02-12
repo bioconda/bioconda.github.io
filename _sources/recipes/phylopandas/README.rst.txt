@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'phylopandas'
 .. highlight: bash
-
 
 phylopandas
 ===========
@@ -21,11 +22,19 @@ phylopandas
 
    |downloads_phylopandas| |docker_phylopandas|
 
-   :versions: 0.7.2, 0.7.1, 0.1.4, 0.1.3
-
-   :depends: :conda:package:`biopython`  :conda:package:`dendropy`  :conda:package:`pandas`  :conda:package:`pandas-flavor`  :conda:package:`python` >3 
-
-   :required~by: |required_by_phylopandas|
+   :versions: 0.7.2-0, 0.7.1-0, 0.1.4-1, 0.1.4-0, 0.1.3-0
+   
+   :depends biopython: 
+   
+   :depends dendropy: 
+   
+   :depends pandas: 
+   
+   :depends pandas-flavor: 
+   
+   :depends python: >3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ phylopandas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phylopandas
+      docker pull quay.io/repository/biocontainers/phylopandas:<tag>
+
+   (see `phylopandas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_phylopandas| conda:required_by:: phylopandas
 .. |downloads_phylopandas| image:: https://img.shields.io/conda/dn/bioconda/phylopandas.svg?style=flat
    :alt:   (downloads)
 .. |docker_phylopandas| image:: https://quay.io/repository/biocontainers/phylopandas/status
    :target: https://quay.io/repository/biocontainers/phylopandas
+.. _`phylopandas/tags`: https://quay.io/repository/biocontainers/phylopandas?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/phylopandas/README.html
-

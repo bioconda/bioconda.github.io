@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-outlierd'
 .. highlight: bash
-
 
 bioconductor-outlierd
 =====================
@@ -22,11 +23,15 @@ bioconductor-outlierd
 
    |downloads_bioconductor-outlierd| |docker_bioconductor-outlierd|
 
-   :versions: 1.46.0, 1.44.0, 1.42.0, 1.40.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-quantreg`  
-
-   :required~by: |required_by_bioconductor-outlierd|
+   :versions: 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-quantreg: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-outlierd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-outlierd
+      docker pull quay.io/repository/biocontainers/bioconductor-outlierd:<tag>
+
+   (see `bioconductor-outlierd/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-outlierd| conda:required_by:: bioconductor-outlierd
 .. |downloads_bioconductor-outlierd| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-outlierd.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-outlierd| image:: https://quay.io/repository/biocontainers/bioconductor-outlierd/status
    :target: https://quay.io/repository/biocontainers/bioconductor-outlierd
+.. _`bioconductor-outlierd/tags`: https://quay.io/repository/biocontainers/bioconductor-outlierd?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-outlierd/README.html
-

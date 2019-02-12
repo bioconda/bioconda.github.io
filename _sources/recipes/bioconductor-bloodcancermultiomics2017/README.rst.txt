@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bloodcancermultiomics2017'
 .. highlight: bash
-
 
 bioconductor-bloodcancermultiomics2017
 ======================================
@@ -21,11 +22,45 @@ bioconductor-bloodcancermultiomics2017
 
    |downloads_bioconductor-bloodcancermultiomics2017| |docker_bioconductor-bloodcancermultiomics2017|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-beeswarm`  :conda:package:`r-devtools`  :conda:package:`r-dplyr`  :conda:package:`r-ggdendro`  :conda:package:`r-ggplot2`  :conda:package:`r-glmnet`  :conda:package:`r-gtable`  :conda:package:`r-ipflasso`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-scales`  :conda:package:`r-survival`  :conda:package:`r-tibble`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-bloodcancermultiomics2017|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-beeswarm: 
+   
+   :depends r-devtools: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggdendro: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-glmnet: 
+   
+   :depends r-gtable: 
+   
+   :depends r-ipflasso: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-scales: 
+   
+   :depends r-survival: 
+   
+   :depends r-tibble: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +74,16 @@ bioconductor-bloodcancermultiomics2017
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bloodcancermultiomics2017
+      docker pull quay.io/repository/biocontainers/bioconductor-bloodcancermultiomics2017:<tag>
+
+   (see `bioconductor-bloodcancermultiomics2017/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bloodcancermultiomics2017| conda:required_by:: bioconductor-bloodcancermultiomics2017
 .. |downloads_bioconductor-bloodcancermultiomics2017| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bloodcancermultiomics2017.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bloodcancermultiomics2017| image:: https://quay.io/repository/biocontainers/bioconductor-bloodcancermultiomics2017/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bloodcancermultiomics2017
+.. _`bioconductor-bloodcancermultiomics2017/tags`: https://quay.io/repository/biocontainers/bioconductor-bloodcancermultiomics2017?tab=tags
 
 
 
@@ -63,4 +100,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bloodcancermultiomics2017/README.html
-

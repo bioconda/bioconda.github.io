@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-acde'
 .. highlight: bash
-
 
 bioconductor-acde
 =================
@@ -22,11 +23,13 @@ bioconductor-acde
 
    |downloads_bioconductor-acde| |docker_bioconductor-acde|
 
-   :versions: 1.12.0, 1.10.0, 1.8.0, 1.6.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-boot` >=1.3 
-
-   :required~by: |required_by_bioconductor-acde|
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-boot: >=1.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-acde
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-acde
+      docker pull quay.io/repository/biocontainers/bioconductor-acde:<tag>
+
+   (see `bioconductor-acde/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-acde| conda:required_by:: bioconductor-acde
 .. |downloads_bioconductor-acde| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-acde.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-acde| image:: https://quay.io/repository/biocontainers/bioconductor-acde/status
    :target: https://quay.io/repository/biocontainers/bioconductor-acde
+.. _`bioconductor-acde/tags`: https://quay.io/repository/biocontainers/bioconductor-acde?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-acde/README.html
-

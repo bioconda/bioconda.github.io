@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-oligo'
 .. highlight: bash
-
 
 bioconductor-oligo
 ==================
@@ -22,11 +23,35 @@ bioconductor-oligo
 
    |downloads_bioconductor-oligo| |docker_bioconductor-oligo|
 
-   :versions: 1.46.0, 1.44.0, 1.42.0, 1.40.2, 1.40.1
-
-   :depends: :conda:package:`bioconductor-affxparser` >=1.54.0,<1.55.0 :conda:package:`bioconductor-affyio` >=1.52.0,<1.53.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`bioconductor-zlibbioc` >=1.28.0,<1.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi` >=0.3.1 :conda:package:`r-ff`  :conda:package:`r-rsqlite` >=1.0.0 
-
-   :required~by: |required_by_bioconductor-oligo|
+   :versions: 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.2-0, 1.40.1-0
+   
+   :depends bioconductor-affxparser: >=1.54.0,<1.55.0
+   
+   :depends bioconductor-affyio: >=1.52.0,<1.53.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-oligoclasses: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-zlibbioc: >=1.28.0,<1.29.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dbi: >=0.3.1
+   
+   :depends r-ff: 
+   
+   :depends r-rsqlite: >=1.0.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +65,16 @@ bioconductor-oligo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-oligo
+      docker pull quay.io/repository/biocontainers/bioconductor-oligo:<tag>
+
+   (see `bioconductor-oligo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-oligo| conda:required_by:: bioconductor-oligo
 .. |downloads_bioconductor-oligo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-oligo.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-oligo| image:: https://quay.io/repository/biocontainers/bioconductor-oligo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-oligo
+.. _`bioconductor-oligo/tags`: https://quay.io/repository/biocontainers/bioconductor-oligo?tab=tags
 
 
 
@@ -64,4 +91,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-oligo/README.html
-

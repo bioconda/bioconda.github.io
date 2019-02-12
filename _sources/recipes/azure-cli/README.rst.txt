@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'azure-cli'
 .. highlight: bash
-
 
 azure-cli
 =========
@@ -21,11 +22,11 @@ azure-cli
 
    |downloads_azure-cli| |docker_azure-cli|
 
-   :versions: 0.10.3
-
-   :depends: :conda:package:`nodejs`  
-
-   :required~by: |required_by_azure-cli|
+   :versions: 0.10.3-0
+   
+   :depends nodejs: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ azure-cli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/azure-cli
+      docker pull quay.io/repository/biocontainers/azure-cli:<tag>
+
+   (see `azure-cli/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_azure-cli| conda:required_by:: azure-cli
 .. |downloads_azure-cli| image:: https://img.shields.io/conda/dn/bioconda/azure-cli.svg?style=flat
    :alt:   (downloads)
 .. |docker_azure-cli| image:: https://quay.io/repository/biocontainers/azure-cli/status
    :target: https://quay.io/repository/biocontainers/azure-cli
+.. _`azure-cli/tags`: https://quay.io/repository/biocontainers/azure-cli?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/azure-cli/README.html
-

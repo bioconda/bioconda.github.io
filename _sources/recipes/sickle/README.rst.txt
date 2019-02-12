@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sickle'
 .. highlight: bash
-
 
 sickle
 ======
@@ -21,11 +22,15 @@ sickle
 
    |downloads_sickle| |docker_sickle|
 
-   :versions: 0.6.4, 0.6.3, 0.5
-
-   :depends: :conda:package:`lxml` >=3.2.3 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`requests` >=1.1.0 
-
-   :required~by: |required_by_sickle|
+   :versions: 0.6.4-0, 0.6.3-2, 0.6.3-0, 0.5-0
+   
+   :depends lxml: >=3.2.3
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends requests: >=1.1.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ sickle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sickle
+      docker pull quay.io/repository/biocontainers/sickle:<tag>
+
+   (see `sickle/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sickle| conda:required_by:: sickle
 .. |downloads_sickle| image:: https://img.shields.io/conda/dn/bioconda/sickle.svg?style=flat
    :alt:   (downloads)
 .. |docker_sickle| image:: https://quay.io/repository/biocontainers/sickle/status
    :target: https://quay.io/repository/biocontainers/sickle
+.. _`sickle/tags`: https://quay.io/repository/biocontainers/sickle?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sickle/README.html
-

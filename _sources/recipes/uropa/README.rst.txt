@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'uropa'
 .. highlight: bash
-
 
 uropa
 =====
@@ -26,11 +27,37 @@ uropa
 
    |downloads_uropa| |docker_uropa|
 
-   :versions: 2.0.3, 2.0.2a0, 2.0.0a0, 1.2.1
-
-   :depends: :conda:package:`bioconductor-graph`  :conda:package:`bioconductor-rbgl`  :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`r-base`  :conda:package:`r-getopt`  :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-gridextra`  :conda:package:`r-jsonlite`  :conda:package:`r-tidyr`  :conda:package:`r-upsetr`  :conda:package:`r-venndiagram`  
-
-   :required~by: |required_by_uropa|
+   :versions: 2.0.3-0, 2.0.2a0-2, 2.0.2a0-0, 2.0.0a0-0, 1.2.1-0
+   
+   :depends bioconductor-graph: 
+   
+   :depends bioconductor-rbgl: 
+   
+   :depends numpy: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends r-base: 
+   
+   :depends r-getopt: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-tidyr: 
+   
+   :depends r-upsetr: 
+   
+   :depends r-venndiagram: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -44,14 +71,16 @@ uropa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/uropa
+      docker pull quay.io/repository/biocontainers/uropa:<tag>
+
+   (see `uropa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_uropa| conda:required_by:: uropa
 .. |downloads_uropa| image:: https://img.shields.io/conda/dn/bioconda/uropa.svg?style=flat
    :alt:   (downloads)
 .. |docker_uropa| image:: https://quay.io/repository/biocontainers/uropa/status
    :target: https://quay.io/repository/biocontainers/uropa
+.. _`uropa/tags`: https://quay.io/repository/biocontainers/uropa?tab=tags
 
 
 
@@ -68,4 +97,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/uropa/README.html
-

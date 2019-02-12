@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-impulsede2'
 .. highlight: bash
-
 
 bioconductor-impulsede2
 =======================
@@ -21,11 +22,33 @@ bioconductor-impulsede2
 
    |downloads_bioconductor-impulsede2| |docker_bioconductor-impulsede2|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-complexheatmap` >=1.20.0,<1.21.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-circlize`  :conda:package:`r-cowplot`  :conda:package:`r-ggplot2`  :conda:package:`r-knitr`  :conda:package:`r-matrix`  
-
-   :required~by: |required_by_bioconductor-impulsede2|
+   :versions: 1.6.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-circlize: 
+   
+   :depends r-cowplot: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-knitr: 
+   
+   :depends r-matrix: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ bioconductor-impulsede2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-impulsede2
+      docker pull quay.io/repository/biocontainers/bioconductor-impulsede2:<tag>
+
+   (see `bioconductor-impulsede2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-impulsede2| conda:required_by:: bioconductor-impulsede2
 .. |downloads_bioconductor-impulsede2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-impulsede2.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-impulsede2| image:: https://quay.io/repository/biocontainers/bioconductor-impulsede2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-impulsede2
+.. _`bioconductor-impulsede2/tags`: https://quay.io/repository/biocontainers/bioconductor-impulsede2?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-impulsede2/README.html
-

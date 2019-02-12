@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-anota'
 .. highlight: bash
-
 
 bioconductor-anota
 ==================
@@ -22,11 +23,15 @@ bioconductor-anota
 
    |downloads_bioconductor-anota| |docker_bioconductor-anota|
 
-   :versions: 1.30.0, 1.28.0, 1.26.0, 1.24.0
-
-   :depends: :conda:package:`bioconductor-multtest` >=2.38.0,<2.39.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-anota|
+   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0, 1.24.0-0
+   
+   :depends bioconductor-multtest: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-anota
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-anota
+      docker pull quay.io/repository/biocontainers/bioconductor-anota:<tag>
+
+   (see `bioconductor-anota/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-anota| conda:required_by:: bioconductor-anota
 .. |downloads_bioconductor-anota| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-anota.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-anota| image:: https://quay.io/repository/biocontainers/bioconductor-anota/status
    :target: https://quay.io/repository/biocontainers/bioconductor-anota
+.. _`bioconductor-anota/tags`: https://quay.io/repository/biocontainers/bioconductor-anota?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-anota/README.html
-

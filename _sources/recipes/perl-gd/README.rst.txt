@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-gd'
 .. highlight: bash
-
 
 perl-gd
 =======
@@ -21,11 +22,17 @@ perl-gd
 
    |downloads_perl-gd| |docker_perl-gd|
 
-   :versions: 2.70, 2.69, 2.68, 2.56
-
-   :depends: :conda:package:`libgd` >=2.2.5,<2.3.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_perl-gd|
+   :versions: 2.70-0, 2.69-0, 2.68-0, 2.56-9, 2.56-8, 2.56-7, 2.56-6, 2.56-5, 2.56-4, 2.56-3, 2.56-0
+   
+   :depends libgd: >=2.2.5,<2.3.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-gd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-gd
+      docker pull quay.io/repository/biocontainers/perl-gd:<tag>
+
+   (see `perl-gd/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-gd| conda:required_by:: perl-gd
 .. |downloads_perl-gd| image:: https://img.shields.io/conda/dn/bioconda/perl-gd.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-gd| image:: https://quay.io/repository/biocontainers/perl-gd/status
    :target: https://quay.io/repository/biocontainers/perl-gd
+.. _`perl-gd/tags`: https://quay.io/repository/biocontainers/perl-gd?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-gd/README.html
-

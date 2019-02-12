@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-blockfest'
 .. highlight: bash
-
 
 r-blockfest
 ===========
@@ -22,11 +23,15 @@ r-blockfest
 
    |downloads_r-blockfest| |docker_r-blockfest|
 
-   :versions: 1.6
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-basix`  
-
-   :required~by: |required_by_r-blockfest|
+   :versions: 1.6-2, 1.6-1, 1.6-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-basix: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ r-blockfest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-blockfest
+      docker pull quay.io/repository/biocontainers/r-blockfest:<tag>
+
+   (see `r-blockfest/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-blockfest| conda:required_by:: r-blockfest
 .. |downloads_r-blockfest| image:: https://img.shields.io/conda/dn/bioconda/r-blockfest.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-blockfest| image:: https://quay.io/repository/biocontainers/r-blockfest/status
    :target: https://quay.io/repository/biocontainers/r-blockfest
+.. _`r-blockfest/tags`: https://quay.io/repository/biocontainers/r-blockfest?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-blockfest/README.html
-

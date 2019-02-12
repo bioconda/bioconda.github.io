@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyteomics'
 .. highlight: bash
-
 
 pyteomics
 =========
@@ -22,11 +23,21 @@ pyteomics
 
    |downloads_pyteomics| |docker_pyteomics|
 
-   :versions: 4.0.1, 3.5.1, 3.4
-
-   :depends: :conda:package:`lxml`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python`  :conda:package:`sqlalchemy`  
-
-   :required~by: |required_by_pyteomics|
+   :versions: 4.0.1-0, 3.5.1-2, 3.5.1-0, 3.4-1, 3.4-0
+   
+   :depends lxml: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: 
+   
+   :depends sqlalchemy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ pyteomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyteomics
+      docker pull quay.io/repository/biocontainers/pyteomics:<tag>
+
+   (see `pyteomics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyteomics| conda:required_by:: pyteomics
 .. |downloads_pyteomics| image:: https://img.shields.io/conda/dn/bioconda/pyteomics.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyteomics| image:: https://quay.io/repository/biocontainers/pyteomics/status
    :target: https://quay.io/repository/biocontainers/pyteomics
+.. _`pyteomics/tags`: https://quay.io/repository/biocontainers/pyteomics?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyteomics/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-a4preproc'
 .. highlight: bash
-
 
 bioconductor-a4preproc
 ======================
@@ -22,11 +23,13 @@ bioconductor-a4preproc
 
    |downloads_bioconductor-a4preproc| |docker_bioconductor-a4preproc|
 
-   :versions: 1.30.0, 1.28.0, 1.26.0, 1.24.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-a4preproc|
+   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0, 1.24.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-a4preproc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-a4preproc
+      docker pull quay.io/repository/biocontainers/bioconductor-a4preproc:<tag>
+
+   (see `bioconductor-a4preproc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-a4preproc| conda:required_by:: bioconductor-a4preproc
 .. |downloads_bioconductor-a4preproc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-a4preproc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-a4preproc| image:: https://quay.io/repository/biocontainers/bioconductor-a4preproc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-a4preproc
+.. _`bioconductor-a4preproc/tags`: https://quay.io/repository/biocontainers/bioconductor-a4preproc?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-a4preproc/README.html
-

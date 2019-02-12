@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-splicesites'
 .. highlight: bash
-
 
 bioconductor-splicesites
 ========================
@@ -21,11 +22,29 @@ bioconductor-splicesites
 
    |downloads_bioconductor-splicesites| |docker_bioconductor-splicesites|
 
-   :versions: 1.30.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-seqlogo` >=1.48.0,<1.49.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doby`  :conda:package:`r-rbamtools` >=2.14.3 :conda:package:`r-refgenome` >=1.6.0 
-
-   :required~by: |required_by_bioconductor-splicesites|
+   :versions: 1.30.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-seqlogo: >=1.48.0,<1.49.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-doby: 
+   
+   :depends r-rbamtools: >=2.14.3
+   
+   :depends r-refgenome: >=1.6.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ bioconductor-splicesites
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-splicesites
+      docker pull quay.io/repository/biocontainers/bioconductor-splicesites:<tag>
+
+   (see `bioconductor-splicesites/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-splicesites| conda:required_by:: bioconductor-splicesites
 .. |downloads_bioconductor-splicesites| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-splicesites.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-splicesites| image:: https://quay.io/repository/biocontainers/bioconductor-splicesites/status
    :target: https://quay.io/repository/biocontainers/bioconductor-splicesites
+.. _`bioconductor-splicesites/tags`: https://quay.io/repository/biocontainers/bioconductor-splicesites?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-splicesites/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-locale-maketext-simple'
 .. highlight: bash
-
 
 perl-locale-maketext-simple
 ===========================
@@ -21,11 +22,11 @@ perl-locale-maketext-simple
 
    |downloads_perl-locale-maketext-simple| |docker_perl-locale-maketext-simple|
 
-   :versions: 0.21
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-locale-maketext-simple|
+   :versions: 0.21-1, 0.21-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-locale-maketext-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-locale-maketext-simple
+      docker pull quay.io/repository/biocontainers/perl-locale-maketext-simple:<tag>
+
+   (see `perl-locale-maketext-simple/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-locale-maketext-simple| conda:required_by:: perl-locale-maketext-simple
 .. |downloads_perl-locale-maketext-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-locale-maketext-simple.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-locale-maketext-simple| image:: https://quay.io/repository/biocontainers/perl-locale-maketext-simple/status
    :target: https://quay.io/repository/biocontainers/perl-locale-maketext-simple
+.. _`perl-locale-maketext-simple/tags`: https://quay.io/repository/biocontainers/perl-locale-maketext-simple?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-locale-maketext-simple/README.html
-

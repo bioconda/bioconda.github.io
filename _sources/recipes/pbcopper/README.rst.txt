@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pbcopper'
 .. highlight: bash
-
 
 pbcopper
 ========
@@ -21,11 +22,11 @@ pbcopper
 
    |downloads_pbcopper| |docker_pbcopper|
 
-   :versions: 0.4.2, 0.4.1
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_pbcopper|
+   :versions: 0.4.2-0, 0.4.1-2, 0.4.1-1, 0.4.1-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ pbcopper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbcopper
+      docker pull quay.io/repository/biocontainers/pbcopper:<tag>
+
+   (see `pbcopper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pbcopper| conda:required_by:: pbcopper
 .. |downloads_pbcopper| image:: https://img.shields.io/conda/dn/bioconda/pbcopper.svg?style=flat
    :alt:   (downloads)
 .. |docker_pbcopper| image:: https://quay.io/repository/biocontainers/pbcopper/status
    :target: https://quay.io/repository/biocontainers/pbcopper
+.. _`pbcopper/tags`: https://quay.io/repository/biocontainers/pbcopper?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pbcopper/README.html
-

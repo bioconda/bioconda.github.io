@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-io-handle'
 .. highlight: bash
-
 
 perl-io-handle
 ==============
@@ -21,11 +22,11 @@ perl-io-handle
 
    |downloads_perl-io-handle| |docker_perl-io-handle|
 
-   :versions: 1.36, 1.35
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-io-handle|
+   :versions: 1.36-1, 1.35-1, 1.35-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-io-handle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-handle
+      docker pull quay.io/repository/biocontainers/perl-io-handle:<tag>
+
+   (see `perl-io-handle/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-io-handle| conda:required_by:: perl-io-handle
 .. |downloads_perl-io-handle| image:: https://img.shields.io/conda/dn/bioconda/perl-io-handle.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-io-handle| image:: https://quay.io/repository/biocontainers/perl-io-handle/status
    :target: https://quay.io/repository/biocontainers/perl-io-handle
+.. _`perl-io-handle/tags`: https://quay.io/repository/biocontainers/perl-io-handle?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-io-handle/README.html
-

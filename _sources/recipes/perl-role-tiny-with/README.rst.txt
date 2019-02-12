@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-role-tiny-with'
 .. highlight: bash
-
 
 perl-role-tiny-with
 ===================
@@ -21,11 +22,11 @@ perl-role-tiny-with
 
    |downloads_perl-role-tiny-with| |docker_perl-role-tiny-with|
 
-   :versions: 2.000005
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-role-tiny-with|
+   :versions: 2.000005-1, 2.000005-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-role-tiny-with
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-role-tiny-with
+      docker pull quay.io/repository/biocontainers/perl-role-tiny-with:<tag>
+
+   (see `perl-role-tiny-with/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-role-tiny-with| conda:required_by:: perl-role-tiny-with
 .. |downloads_perl-role-tiny-with| image:: https://img.shields.io/conda/dn/bioconda/perl-role-tiny-with.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-role-tiny-with| image:: https://quay.io/repository/biocontainers/perl-role-tiny-with/status
    :target: https://quay.io/repository/biocontainers/perl-role-tiny-with
+.. _`perl-role-tiny-with/tags`: https://quay.io/repository/biocontainers/perl-role-tiny-with?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-role-tiny-with/README.html
-

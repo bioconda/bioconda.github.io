@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-harbchip'
 .. highlight: bash
-
 
 bioconductor-harbchip
 =====================
@@ -21,11 +22,19 @@ bioconductor-harbchip
 
    |downloads_bioconductor-harbchip| |docker_bioconductor-harbchip|
 
-   :versions: 1.20.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-harbchip|
+   :versions: 1.20.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-harbchip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-harbchip
+      docker pull quay.io/repository/biocontainers/bioconductor-harbchip:<tag>
+
+   (see `bioconductor-harbchip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-harbchip| conda:required_by:: bioconductor-harbchip
 .. |downloads_bioconductor-harbchip| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-harbchip.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-harbchip| image:: https://quay.io/repository/biocontainers/bioconductor-harbchip/status
    :target: https://quay.io/repository/biocontainers/bioconductor-harbchip
+.. _`bioconductor-harbchip/tags`: https://quay.io/repository/biocontainers/bioconductor-harbchip?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-harbchip/README.html
-

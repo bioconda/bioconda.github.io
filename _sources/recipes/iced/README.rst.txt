@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'iced'
 .. highlight: bash
-
 
 iced
 ====
@@ -21,11 +22,25 @@ iced
 
    |downloads_iced| |docker_iced|
 
-   :versions: 0.5.0, 0.4.2
-
-   :depends: :conda:package:`cython`  :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`numpy` >=1.9 :conda:package:`pandas`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scikit-learn`  :conda:package:`scipy` >=0.14 
-
-   :required~by: |required_by_iced|
+   :versions: 0.5.0-0, 0.4.2-0
+   
+   :depends cython: 
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends matplotlib: 
+   
+   :depends numpy: >=1.9
+   
+   :depends pandas: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: >=0.14
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ iced
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/iced
+      docker pull quay.io/repository/biocontainers/iced:<tag>
+
+   (see `iced/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_iced| conda:required_by:: iced
 .. |downloads_iced| image:: https://img.shields.io/conda/dn/bioconda/iced.svg?style=flat
    :alt:   (downloads)
 .. |docker_iced| image:: https://quay.io/repository/biocontainers/iced/status
    :target: https://quay.io/repository/biocontainers/iced
+.. _`iced/tags`: https://quay.io/repository/biocontainers/iced?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/iced/README.html
-

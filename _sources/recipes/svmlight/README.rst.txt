@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'svmlight'
 .. highlight: bash
-
 
 svmlight
 ========
@@ -21,11 +22,11 @@ svmlight
 
    |downloads_svmlight| |docker_svmlight|
 
-   :versions: 6.02
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_svmlight|
+   :versions: 6.02-1
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ svmlight
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/svmlight
+      docker pull quay.io/repository/biocontainers/svmlight:<tag>
+
+   (see `svmlight/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_svmlight| conda:required_by:: svmlight
 .. |downloads_svmlight| image:: https://img.shields.io/conda/dn/bioconda/svmlight.svg?style=flat
    :alt:   (downloads)
 .. |docker_svmlight| image:: https://quay.io/repository/biocontainers/svmlight/status
    :target: https://quay.io/repository/biocontainers/svmlight
+.. _`svmlight/tags`: https://quay.io/repository/biocontainers/svmlight?tab=tags
 
 
 
@@ -71,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/svmlight/README.html
-

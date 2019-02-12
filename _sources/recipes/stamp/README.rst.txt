@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'stamp'
 .. highlight: bash
-
 
 stamp
 =====
@@ -21,11 +22,25 @@ stamp
 
    |downloads_stamp| |docker_stamp|
 
-   :versions: 2.1.3
-
-   :depends: :conda:package:`biom-format` >=2.0.1 :conda:package:`matplotlib` >=1.4.2 :conda:package:`numpy` >=1.9.1 :conda:package:`pyqi` >=0.3.2 :conda:package:`python` 2.7* :conda:package:`scipy` >=0.15.1 :conda:package:`six` >=1.3 
-
-   :required~by: |required_by_stamp|
+   :versions: 2.1.3-1, 2.1.3-0
+   
+   :depends biom-format: >=2.0.1
+   
+   :depends matplotlib: >=1.4.2
+   
+   :depends numpy: >=1.9.1
+   
+   :depends pyqi: >=0.3.2
+   
+   :depends pyqt: >=5.6.0,<5.7.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: >=0.15.1
+   
+   :depends six: >=1.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ stamp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stamp
+      docker pull quay.io/repository/biocontainers/stamp:<tag>
+
+   (see `stamp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_stamp| conda:required_by:: stamp
 .. |downloads_stamp| image:: https://img.shields.io/conda/dn/bioconda/stamp.svg?style=flat
    :alt:   (downloads)
 .. |docker_stamp| image:: https://quay.io/repository/biocontainers/stamp/status
    :target: https://quay.io/repository/biocontainers/stamp
+.. _`stamp/tags`: https://quay.io/repository/biocontainers/stamp?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/stamp/README.html
-

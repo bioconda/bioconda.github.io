@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'htstream'
 .. highlight: bash
-
 
 htstream
 ========
@@ -23,11 +24,21 @@ htstream
 
    |downloads_htstream| |docker_htstream|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_htstream|
+   :versions: 1.0.0-0
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends xz: >=5.2.4,<5.3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +52,16 @@ htstream
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/htstream
+      docker pull quay.io/repository/biocontainers/htstream:<tag>
+
+   (see `htstream/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_htstream| conda:required_by:: htstream
 .. |downloads_htstream| image:: https://img.shields.io/conda/dn/bioconda/htstream.svg?style=flat
    :alt:   (downloads)
 .. |docker_htstream| image:: https://quay.io/repository/biocontainers/htstream/status
    :target: https://quay.io/repository/biocontainers/htstream
+.. _`htstream/tags`: https://quay.io/repository/biocontainers/htstream?tab=tags
 
 
 
@@ -65,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/htstream/README.html
-

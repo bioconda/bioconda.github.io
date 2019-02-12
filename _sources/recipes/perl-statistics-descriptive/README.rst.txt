@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-statistics-descriptive'
 .. highlight: bash
-
 
 perl-statistics-descriptive
 ===========================
@@ -21,11 +22,13 @@ perl-statistics-descriptive
 
    |downloads_perl-statistics-descriptive| |docker_perl-statistics-descriptive|
 
-   :versions: 3.0702, 3.0612, 3.0609
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-list-moreutils`  
-
-   :required~by: |required_by_perl-statistics-descriptive|
+   :versions: 3.0702-0, 3.0612-2, 3.0612-1, 3.0612-0, 3.0609-4, 3.0609-3, 3.0609-2, 3.0609-1, 3.0609-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-list-moreutils: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-statistics-descriptive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-statistics-descriptive
+      docker pull quay.io/repository/biocontainers/perl-statistics-descriptive:<tag>
+
+   (see `perl-statistics-descriptive/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-statistics-descriptive| conda:required_by:: perl-statistics-descriptive
 .. |downloads_perl-statistics-descriptive| image:: https://img.shields.io/conda/dn/bioconda/perl-statistics-descriptive.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-statistics-descriptive| image:: https://quay.io/repository/biocontainers/perl-statistics-descriptive/status
    :target: https://quay.io/repository/biocontainers/perl-statistics-descriptive
+.. _`perl-statistics-descriptive/tags`: https://quay.io/repository/biocontainers/perl-statistics-descriptive?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-statistics-descriptive/README.html
-

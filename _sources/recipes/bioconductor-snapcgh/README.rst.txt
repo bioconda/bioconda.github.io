@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-snapcgh'
 .. highlight: bash
-
 
 bioconductor-snapcgh
 ====================
@@ -22,10 +23,8 @@ bioconductor-snapcgh
    |downloads_bioconductor-snapcgh| |docker_bioconductor-snapcgh|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-snapcgh|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-snapcgh
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snapcgh
+      docker pull quay.io/repository/biocontainers/bioconductor-snapcgh:<tag>
+
+   (see `bioconductor-snapcgh/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-snapcgh| conda:required_by:: bioconductor-snapcgh
 .. |downloads_bioconductor-snapcgh| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snapcgh.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-snapcgh| image:: https://quay.io/repository/biocontainers/bioconductor-snapcgh/status
    :target: https://quay.io/repository/biocontainers/bioconductor-snapcgh
+.. _`bioconductor-snapcgh/tags`: https://quay.io/repository/biocontainers/bioconductor-snapcgh?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-snapcgh/README.html
-

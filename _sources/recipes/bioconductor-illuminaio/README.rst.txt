@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-illuminaio'
 .. highlight: bash
-
 
 bioconductor-illuminaio
 =======================
@@ -22,11 +23,15 @@ bioconductor-illuminaio
 
    |downloads_bioconductor-illuminaio| |docker_bioconductor-illuminaio|
 
-   :versions: 0.24.0, 0.22.0, 0.20.0, 0.18.0, 0.14.0, 0.12.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-base64`  
-
-   :required~by: |required_by_bioconductor-illuminaio|
+   :versions: 0.24.0-0, 0.22.0-0, 0.20.0-0, 0.18.0-0, 0.14.0-0, 0.12.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-base64: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-illuminaio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-illuminaio
+      docker pull quay.io/repository/biocontainers/bioconductor-illuminaio:<tag>
+
+   (see `bioconductor-illuminaio/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-illuminaio| conda:required_by:: bioconductor-illuminaio
 .. |downloads_bioconductor-illuminaio| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-illuminaio.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-illuminaio| image:: https://quay.io/repository/biocontainers/bioconductor-illuminaio/status
    :target: https://quay.io/repository/biocontainers/bioconductor-illuminaio
+.. _`bioconductor-illuminaio/tags`: https://quay.io/repository/biocontainers/bioconductor-illuminaio?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-illuminaio/README.html
-

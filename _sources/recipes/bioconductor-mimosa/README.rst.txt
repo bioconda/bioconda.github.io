@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mimosa'
 .. highlight: bash
-
 
 bioconductor-mimosa
 ===================
@@ -21,11 +22,45 @@ bioconductor-mimosa
 
    |downloads_bioconductor-mimosa| |docker_bioconductor-mimosa|
 
-   :versions: 1.20.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-coda`  :conda:package:`r-data.table`  :conda:package:`r-formula`  :conda:package:`r-ggplot2`  :conda:package:`r-mass`  :conda:package:`r-mcmcpack`  :conda:package:`r-modeest`  :conda:package:`r-plyr`  :conda:package:`r-pracma`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  :conda:package:`r-reshape`  :conda:package:`r-scales`  :conda:package:`r-testthat`  
-
-   :required~by: |required_by_bioconductor-mimosa|
+   :versions: 1.20.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-coda: 
+   
+   :depends r-data.table: 
+   
+   :depends r-formula: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-mass: 
+   
+   :depends r-mcmcpack: 
+   
+   :depends r-modeest: 
+   
+   :depends r-plyr: 
+   
+   :depends r-pracma: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-rcpparmadillo: 
+   
+   :depends r-reshape: 
+   
+   :depends r-scales: 
+   
+   :depends r-testthat: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +74,16 @@ bioconductor-mimosa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mimosa
+      docker pull quay.io/repository/biocontainers/bioconductor-mimosa:<tag>
+
+   (see `bioconductor-mimosa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mimosa| conda:required_by:: bioconductor-mimosa
 .. |downloads_bioconductor-mimosa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mimosa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mimosa| image:: https://quay.io/repository/biocontainers/bioconductor-mimosa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mimosa
+.. _`bioconductor-mimosa/tags`: https://quay.io/repository/biocontainers/bioconductor-mimosa?tab=tags
 
 
 
@@ -63,4 +100,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mimosa/README.html
-

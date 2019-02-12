@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'galaxy-parsec'
 .. highlight: bash
-
 
 galaxy-parsec
 =============
@@ -21,11 +22,25 @@ galaxy-parsec
 
    |downloads_galaxy-parsec| |docker_galaxy-parsec|
 
-   :versions: 1.0.6, 1.0.5, 1.0.4
-
-   :depends: :conda:package:`bioblend`  :conda:package:`click` >=6.7 :conda:package:`future`  :conda:package:`justbackoff`  :conda:package:`python`  :conda:package:`pyyaml`  :conda:package:`wrapt`  :conda:package:`xunit-wrapper` >=0.12 
-
-   :required~by: |required_by_galaxy-parsec|
+   :versions: 1.0.6-0, 1.0.5-0, 1.0.4-1, 1.0.4-0
+   
+   :depends bioblend: 
+   
+   :depends click: >=6.7
+   
+   :depends future: 
+   
+   :depends justbackoff: 
+   
+   :depends python: 
+   
+   :depends pyyaml: 
+   
+   :depends wrapt: 
+   
+   :depends xunit-wrapper: >=0.12
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ galaxy-parsec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/galaxy-parsec
+      docker pull quay.io/repository/biocontainers/galaxy-parsec:<tag>
+
+   (see `galaxy-parsec/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_galaxy-parsec| conda:required_by:: galaxy-parsec
 .. |downloads_galaxy-parsec| image:: https://img.shields.io/conda/dn/bioconda/galaxy-parsec.svg?style=flat
    :alt:   (downloads)
 .. |docker_galaxy-parsec| image:: https://quay.io/repository/biocontainers/galaxy-parsec/status
    :target: https://quay.io/repository/biocontainers/galaxy-parsec
+.. _`galaxy-parsec/tags`: https://quay.io/repository/biocontainers/galaxy-parsec?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/galaxy-parsec/README.html
-

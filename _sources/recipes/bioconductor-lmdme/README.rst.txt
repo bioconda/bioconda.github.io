@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-lmdme'
 .. highlight: bash
-
 
 bioconductor-lmdme
 ==================
@@ -22,11 +23,17 @@ bioconductor-lmdme
 
    |downloads_bioconductor-lmdme| |docker_bioconductor-lmdme|
 
-   :versions: 1.24.0, 1.22.0, 1.20.0
-
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-stemhypoxia` >=1.18.0,<1.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-pls`  
-
-   :required~by: |required_by_bioconductor-lmdme|
+   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-stemhypoxia: >=1.18.0,<1.19.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-pls: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-lmdme
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lmdme
+      docker pull quay.io/repository/biocontainers/bioconductor-lmdme:<tag>
+
+   (see `bioconductor-lmdme/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-lmdme| conda:required_by:: bioconductor-lmdme
 .. |downloads_bioconductor-lmdme| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lmdme.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-lmdme| image:: https://quay.io/repository/biocontainers/bioconductor-lmdme/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lmdme
+.. _`bioconductor-lmdme/tags`: https://quay.io/repository/biocontainers/bioconductor-lmdme?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-lmdme/README.html
-

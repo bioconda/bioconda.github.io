@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mimodd'
 .. highlight: bash
-
 
 mimodd
 ======
@@ -21,11 +22,17 @@ mimodd
 
    |downloads_mimodd| |docker_mimodd|
 
-   :versions: 0.1.9, 0.1.8, 0.1.7.3
-
-   :depends: :conda:package:`libgcc`  :conda:package:`python` 3.5* :conda:package:`rpy2`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_mimodd|
+   :versions: 0.1.9-0, 0.1.8-0, 0.1.7.3-0
+   
+   :depends libgcc: 
+   
+   :depends python: 3.5*
+   
+   :depends rpy2: 
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ mimodd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mimodd
+      docker pull quay.io/repository/biocontainers/mimodd:<tag>
+
+   (see `mimodd/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mimodd| conda:required_by:: mimodd
 .. |downloads_mimodd| image:: https://img.shields.io/conda/dn/bioconda/mimodd.svg?style=flat
    :alt:   (downloads)
 .. |docker_mimodd| image:: https://quay.io/repository/biocontainers/mimodd/status
    :target: https://quay.io/repository/biocontainers/mimodd
+.. _`mimodd/tags`: https://quay.io/repository/biocontainers/mimodd?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mimodd/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastphylo'
 .. highlight: bash
-
 
 fastphylo
 =========
@@ -22,11 +23,15 @@ fastphylo
 
    |downloads_fastphylo| |docker_fastphylo|
 
-   :versions: 1.0.3
-
-   :depends: :conda:package:`libxml2`  :conda:package:`openblas`  :conda:package:`openmpi`  
-
-   :required~by: |required_by_fastphylo|
+   :versions: 1.0.3-1, 1.0.3-0
+   
+   :depends libxml2: >=2.9.8,<2.10.0a0
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :depends openmpi: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ fastphylo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastphylo
+      docker pull quay.io/repository/biocontainers/fastphylo:<tag>
+
+   (see `fastphylo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastphylo| conda:required_by:: fastphylo
 .. |downloads_fastphylo| image:: https://img.shields.io/conda/dn/bioconda/fastphylo.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastphylo| image:: https://quay.io/repository/biocontainers/fastphylo/status
    :target: https://quay.io/repository/biocontainers/fastphylo
+.. _`fastphylo/tags`: https://quay.io/repository/biocontainers/fastphylo?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastphylo/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-kriging'
 .. highlight: bash
-
 
 r-kriging
 =========
@@ -21,11 +22,11 @@ r-kriging
 
    |downloads_r-kriging| |docker_r-kriging|
 
-   :versions: 1.1
-
-   :depends: :conda:package:`r-base` 3.3.1* 
-
-   :required~by: |required_by_r-kriging|
+   :versions: 1.1-0
+   
+   :depends r-base: 3.3.1*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-kriging
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-kriging
+      docker pull quay.io/repository/biocontainers/r-kriging:<tag>
+
+   (see `r-kriging/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-kriging| conda:required_by:: r-kriging
 .. |downloads_r-kriging| image:: https://img.shields.io/conda/dn/bioconda/r-kriging.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-kriging| image:: https://quay.io/repository/biocontainers/r-kriging/status
    :target: https://quay.io/repository/biocontainers/r-kriging
+.. _`r-kriging/tags`: https://quay.io/repository/biocontainers/r-kriging?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-kriging/README.html
-

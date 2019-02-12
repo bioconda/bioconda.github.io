@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bcl2fastq-nextseq'
 .. highlight: bash
-
 
 bcl2fastq-nextseq
 =================
@@ -21,11 +22,21 @@ bcl2fastq-nextseq
 
    |downloads_bcl2fastq-nextseq| |docker_bcl2fastq-nextseq|
 
-   :versions: 1.2.4, 0.1.0
-
-   :depends: :conda:package:`click`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`seaborn`  
-
-   :required~by: |required_by_bcl2fastq-nextseq|
+   :versions: 1.2.4-2, 1.2.4-0, 0.1.0-0
+   
+   :depends click: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends seaborn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bcl2fastq-nextseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcl2fastq-nextseq
+      docker pull quay.io/repository/biocontainers/bcl2fastq-nextseq:<tag>
+
+   (see `bcl2fastq-nextseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bcl2fastq-nextseq| conda:required_by:: bcl2fastq-nextseq
 .. |downloads_bcl2fastq-nextseq| image:: https://img.shields.io/conda/dn/bioconda/bcl2fastq-nextseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bcl2fastq-nextseq| image:: https://quay.io/repository/biocontainers/bcl2fastq-nextseq/status
    :target: https://quay.io/repository/biocontainers/bcl2fastq-nextseq
+.. _`bcl2fastq-nextseq/tags`: https://quay.io/repository/biocontainers/bcl2fastq-nextseq?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bcl2fastq-nextseq/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-metstat'
 .. highlight: bash
-
 
 r-metstat
 =========
@@ -21,11 +22,17 @@ r-metstat
 
    |downloads_r-metstat| |docker_r-metstat|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`r-abind`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-mass`  :conda:package:`r-pls`  
-
-   :required~by: |required_by_r-metstat|
+   :versions: 1.0-2, 1.0-1, 1.0-0
+   
+   :depends r-abind: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mass: 
+   
+   :depends r-pls: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-metstat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-metstat
+      docker pull quay.io/repository/biocontainers/r-metstat:<tag>
+
+   (see `r-metstat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-metstat| conda:required_by:: r-metstat
 .. |downloads_r-metstat| image:: https://img.shields.io/conda/dn/bioconda/r-metstat.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-metstat| image:: https://quay.io/repository/biocontainers/r-metstat/status
    :target: https://quay.io/repository/biocontainers/r-metstat
+.. _`r-metstat/tags`: https://quay.io/repository/biocontainers/r-metstat?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-metstat/README.html
-

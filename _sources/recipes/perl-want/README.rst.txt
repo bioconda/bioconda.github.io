@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-want'
 .. highlight: bash
-
 
 perl-want
 =========
@@ -21,11 +22,11 @@ perl-want
 
    |downloads_perl-want| |docker_perl-want|
 
-   :versions: 0.29
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-want|
+   :versions: 0.29-1, 0.29-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-want
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-want
+      docker pull quay.io/repository/biocontainers/perl-want:<tag>
+
+   (see `perl-want/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-want| conda:required_by:: perl-want
 .. |downloads_perl-want| image:: https://img.shields.io/conda/dn/bioconda/perl-want.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-want| image:: https://quay.io/repository/biocontainers/perl-want/status
    :target: https://quay.io/repository/biocontainers/perl-want
+.. _`perl-want/tags`: https://quay.io/repository/biocontainers/perl-want?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-want/README.html
-

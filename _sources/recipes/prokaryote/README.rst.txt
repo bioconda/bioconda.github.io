@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'prokaryote'
 .. highlight: bash
-
 
 prokaryote
 ==========
@@ -21,11 +22,11 @@ prokaryote
 
    |downloads_prokaryote| |docker_prokaryote|
 
-   :versions: 2.4.1
-
-   :depends: :conda:package:`python`  
-
-   :required~by: |required_by_prokaryote|
+   :versions: 2.4.1-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ prokaryote
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prokaryote
+      docker pull quay.io/repository/biocontainers/prokaryote:<tag>
+
+   (see `prokaryote/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_prokaryote| conda:required_by:: prokaryote
 .. |downloads_prokaryote| image:: https://img.shields.io/conda/dn/bioconda/prokaryote.svg?style=flat
    :alt:   (downloads)
 .. |docker_prokaryote| image:: https://quay.io/repository/biocontainers/prokaryote/status
    :target: https://quay.io/repository/biocontainers/prokaryote
+.. _`prokaryote/tags`: https://quay.io/repository/biocontainers/prokaryote?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/prokaryote/README.html
-

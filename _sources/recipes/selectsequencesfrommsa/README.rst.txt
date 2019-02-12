@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'selectsequencesfrommsa'
 .. highlight: bash
-
 
 selectsequencesfrommsa
 ======================
@@ -21,11 +22,15 @@ selectsequencesfrommsa
 
    |downloads_selectsequencesfrommsa| |docker_selectsequencesfrommsa|
 
-   :versions: 1.0.5, 1.0.2
-
-   :depends: :conda:package:`gmp` >=6.1.2,<7.0a0 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_selectsequencesfrommsa|
+   :versions: 1.0.5-0, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.2-0
+   
+   :depends gmp: >=6.1.2,<7.0a0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ selectsequencesfrommsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/selectsequencesfrommsa
+      docker pull quay.io/repository/biocontainers/selectsequencesfrommsa:<tag>
+
+   (see `selectsequencesfrommsa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_selectsequencesfrommsa| conda:required_by:: selectsequencesfrommsa
 .. |downloads_selectsequencesfrommsa| image:: https://img.shields.io/conda/dn/bioconda/selectsequencesfrommsa.svg?style=flat
    :alt:   (downloads)
 .. |docker_selectsequencesfrommsa| image:: https://quay.io/repository/biocontainers/selectsequencesfrommsa/status
    :target: https://quay.io/repository/biocontainers/selectsequencesfrommsa
+.. _`selectsequencesfrommsa/tags`: https://quay.io/repository/biocontainers/selectsequencesfrommsa?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/selectsequencesfrommsa/README.html
-

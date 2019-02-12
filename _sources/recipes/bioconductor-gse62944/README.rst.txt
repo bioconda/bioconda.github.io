@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-gse62944'
 .. highlight: bash
-
 
 bioconductor-gse62944
 =====================
@@ -21,11 +22,17 @@ bioconductor-gse62944
 
    |downloads_bioconductor-gse62944| |docker_bioconductor-gse62944|
 
-   :versions: 1.10.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-geoquery` >=2.50.0,<2.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-gse62944|
+   :versions: 1.10.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-geoquery: >=2.50.0,<2.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-gse62944
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gse62944
+      docker pull quay.io/repository/biocontainers/bioconductor-gse62944:<tag>
+
+   (see `bioconductor-gse62944/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-gse62944| conda:required_by:: bioconductor-gse62944
 .. |downloads_bioconductor-gse62944| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gse62944.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-gse62944| image:: https://quay.io/repository/biocontainers/bioconductor-gse62944/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gse62944
+.. _`bioconductor-gse62944/tags`: https://quay.io/repository/biocontainers/bioconductor-gse62944?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-gse62944/README.html
-

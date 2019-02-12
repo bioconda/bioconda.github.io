@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'clonalframeml'
 .. highlight: bash
-
 
 clonalframeml
 =============
@@ -21,11 +22,11 @@ clonalframeml
 
    |downloads_clonalframeml| |docker_clonalframeml|
 
-   :versions: 1.11
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_clonalframeml|
+   :versions: 1.11-1, 1.11-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ clonalframeml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clonalframeml
+      docker pull quay.io/repository/biocontainers/clonalframeml:<tag>
+
+   (see `clonalframeml/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_clonalframeml| conda:required_by:: clonalframeml
 .. |downloads_clonalframeml| image:: https://img.shields.io/conda/dn/bioconda/clonalframeml.svg?style=flat
    :alt:   (downloads)
 .. |docker_clonalframeml| image:: https://quay.io/repository/biocontainers/clonalframeml/status
    :target: https://quay.io/repository/biocontainers/clonalframeml
+.. _`clonalframeml/tags`: https://quay.io/repository/biocontainers/clonalframeml?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/clonalframeml/README.html
-

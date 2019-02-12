@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gridss'
 .. highlight: bash
-
 
 gridss
 ======
@@ -22,11 +23,13 @@ gridss
 
    |downloads_gridss| |docker_gridss|
 
-   :versions: 2.1.0, 2.0.1, 1.9.0, 1.8.1, 1.8.0, 1.7.2, 1.3.4, 1.3.2, 1.3.0, 1.2.4
-
-   :depends: :conda:package:`openjdk` >=8 :conda:package:`python`  
-
-   :required~by: |required_by_gridss|
+   :versions: 2.1.0-0, 2.0.1-0, 1.9.0-0, 1.8.1-0, 1.8.0-0, 1.7.2-2, 1.7.2-0, 1.3.4-0, 1.3.2-0, 1.3.0-0, 1.2.4-0
+   
+   :depends openjdk: >=8
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ gridss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gridss
+      docker pull quay.io/repository/biocontainers/gridss:<tag>
+
+   (see `gridss/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gridss| conda:required_by:: gridss
 .. |downloads_gridss| image:: https://img.shields.io/conda/dn/bioconda/gridss.svg?style=flat
    :alt:   (downloads)
 .. |docker_gridss| image:: https://quay.io/repository/biocontainers/gridss/status
    :target: https://quay.io/repository/biocontainers/gridss
+.. _`gridss/tags`: https://quay.io/repository/biocontainers/gridss?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gridss/README.html
-

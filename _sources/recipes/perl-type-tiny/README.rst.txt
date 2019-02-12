@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-type-tiny'
 .. highlight: bash
-
 
 perl-type-tiny
 ==============
@@ -21,11 +22,13 @@ perl-type-tiny
 
    |downloads_perl-type-tiny| |docker_perl-type-tiny|
 
-   :versions: 1.004004, 1.004003, 1.004002, 1.002002, 1.000005
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-exporter-tiny` >=0.040 
-
-   :required~by: |required_by_perl-type-tiny|
+   :versions: 1.004004-0, 1.004003-0, 1.004002-0, 1.002002-0, 1.000005-1, 1.000005-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-exporter-tiny: >=0.040
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-type-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-type-tiny
+      docker pull quay.io/repository/biocontainers/perl-type-tiny:<tag>
+
+   (see `perl-type-tiny/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-type-tiny| conda:required_by:: perl-type-tiny
 .. |downloads_perl-type-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-type-tiny.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-type-tiny| image:: https://quay.io/repository/biocontainers/perl-type-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-type-tiny
+.. _`perl-type-tiny/tags`: https://quay.io/repository/biocontainers/perl-type-tiny?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-type-tiny/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rdock'
 .. highlight: bash
-
 
 rdock
 =====
@@ -21,11 +22,19 @@ rdock
 
    |downloads_rdock| |docker_rdock|
 
-   :versions: 2013.1
-
-   :depends: :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`perl` 5.22.0* :conda:package:`popt`  :conda:package:`pybel`  
-
-   :required~by: |required_by_rdock|
+   :versions: 2013.1-1, 2013.1-0
+   
+   :depends libgcc: 
+   
+   :depends numpy: 
+   
+   :depends openbabel: 
+   
+   :depends perl: 5.22.0*
+   
+   :depends popt: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ rdock
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rdock
+      docker pull quay.io/repository/biocontainers/rdock:<tag>
+
+   (see `rdock/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rdock| conda:required_by:: rdock
 .. |downloads_rdock| image:: https://img.shields.io/conda/dn/bioconda/rdock.svg?style=flat
    :alt:   (downloads)
 .. |docker_rdock| image:: https://quay.io/repository/biocontainers/rdock/status
    :target: https://quay.io/repository/biocontainers/rdock
+.. _`rdock/tags`: https://quay.io/repository/biocontainers/rdock?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rdock/README.html
-

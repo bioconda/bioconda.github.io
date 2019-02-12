@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-pdf-api2'
 .. highlight: bash
-
 
 perl-pdf-api2
 =============
@@ -21,11 +22,13 @@ perl-pdf-api2
 
    |downloads_perl-pdf-api2| |docker_perl-pdf-api2|
 
-   :versions: 2.033, 2.025
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-font-ttf`  
-
-   :required~by: |required_by_perl-pdf-api2|
+   :versions: 2.033-0, 2.025-3, 2.025-2, 2.025-1, 2.025-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-font-ttf: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-pdf-api2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pdf-api2
+      docker pull quay.io/repository/biocontainers/perl-pdf-api2:<tag>
+
+   (see `perl-pdf-api2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-pdf-api2| conda:required_by:: perl-pdf-api2
 .. |downloads_perl-pdf-api2| image:: https://img.shields.io/conda/dn/bioconda/perl-pdf-api2.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-pdf-api2| image:: https://quay.io/repository/biocontainers/perl-pdf-api2/status
    :target: https://quay.io/repository/biocontainers/perl-pdf-api2
+.. _`perl-pdf-api2/tags`: https://quay.io/repository/biocontainers/perl-pdf-api2?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-pdf-api2/README.html
-

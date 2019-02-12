@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-omadb'
 .. highlight: bash
-
 
 bioconductor-omadb
 ==================
@@ -21,11 +22,27 @@ bioconductor-omadb
 
    |downloads_bioconductor-omadb| |docker_bioconductor-omadb|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-topgo` >=2.34.0,<2.35.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-httr` >=1.2.1 :conda:package:`r-jsonlite`  :conda:package:`r-plyr` >=1.8.4 
-
-   :required~by: |required_by_bioconductor-omadb|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-topgo: >=2.34.0,<2.35.0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-httr: >=1.2.1
+   
+   :depends r-jsonlite: 
+   
+   :depends r-plyr: >=1.8.4
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-omadb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omadb
+      docker pull quay.io/repository/biocontainers/bioconductor-omadb:<tag>
+
+   (see `bioconductor-omadb/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-omadb| conda:required_by:: bioconductor-omadb
 .. |downloads_bioconductor-omadb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-omadb.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-omadb| image:: https://quay.io/repository/biocontainers/bioconductor-omadb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-omadb
+.. _`bioconductor-omadb/tags`: https://quay.io/repository/biocontainers/bioconductor-omadb?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-omadb/README.html
-

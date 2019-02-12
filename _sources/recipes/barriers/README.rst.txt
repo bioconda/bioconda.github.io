@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'barriers'
 .. highlight: bash
-
 
 barriers
 ========
@@ -21,11 +22,15 @@ barriers
 
    |downloads_barriers| |docker_barriers|
 
-   :versions: 1.7.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`viennarna`  
-
-   :required~by: |required_by_barriers|
+   :versions: 1.7.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends viennarna: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ barriers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/barriers
+      docker pull quay.io/repository/biocontainers/barriers:<tag>
+
+   (see `barriers/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_barriers| conda:required_by:: barriers
 .. |downloads_barriers| image:: https://img.shields.io/conda/dn/bioconda/barriers.svg?style=flat
    :alt:   (downloads)
 .. |docker_barriers| image:: https://quay.io/repository/biocontainers/barriers/status
    :target: https://quay.io/repository/biocontainers/barriers
+.. _`barriers/tags`: https://quay.io/repository/biocontainers/barriers?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/barriers/README.html
-

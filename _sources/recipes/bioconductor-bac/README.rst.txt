@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bac'
 .. highlight: bash
-
 
 bioconductor-bac
 ================
@@ -22,11 +23,13 @@ bioconductor-bac
 
    |downloads_bioconductor-bac| |docker_bioconductor-bac|
 
-   :versions: 1.42.0, 1.40.0, 1.38.0, 1.36.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-bac|
+   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-bac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bac
+      docker pull quay.io/repository/biocontainers/bioconductor-bac:<tag>
+
+   (see `bioconductor-bac/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bac| conda:required_by:: bioconductor-bac
 .. |downloads_bioconductor-bac| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bac.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bac| image:: https://quay.io/repository/biocontainers/bioconductor-bac/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bac
+.. _`bioconductor-bac/tags`: https://quay.io/repository/biocontainers/bioconductor-bac?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bac/README.html
-

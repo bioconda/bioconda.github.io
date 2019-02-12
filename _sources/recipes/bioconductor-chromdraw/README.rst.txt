@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-chromdraw'
 .. highlight: bash
-
 
 bioconductor-chromdraw
 ======================
@@ -22,11 +23,19 @@ bioconductor-chromdraw
 
    |downloads_bioconductor-chromdraw| |docker_bioconductor-chromdraw|
 
-   :versions: 2.12.0, 2.10.0, 2.8.0, 2.6.0
-
-   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp` >=0.11.1 
-
-   :required~by: |required_by_bioconductor-chromdraw|
+   :versions: 2.12.0-0, 2.10.0-0, 2.8.0-0, 2.6.0-0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcpp: >=0.11.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-chromdraw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chromdraw
+      docker pull quay.io/repository/biocontainers/bioconductor-chromdraw:<tag>
+
+   (see `bioconductor-chromdraw/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-chromdraw| conda:required_by:: bioconductor-chromdraw
 .. |downloads_bioconductor-chromdraw| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chromdraw.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-chromdraw| image:: https://quay.io/repository/biocontainers/bioconductor-chromdraw/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chromdraw
+.. _`bioconductor-chromdraw/tags`: https://quay.io/repository/biocontainers/bioconductor-chromdraw?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-chromdraw/README.html
-

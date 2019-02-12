@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-maldirppa'
 .. highlight: bash
-
 
 r-maldirppa
 ===========
@@ -21,11 +22,21 @@ r-maldirppa
 
    |downloads_r-maldirppa| |docker_r-maldirppa|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-lattice`  :conda:package:`r-maldiquant`  :conda:package:`r-robustbase`  :conda:package:`r-signal`  :conda:package:`r-wmtsa`  
-
-   :required~by: |required_by_r-maldirppa|
+   :versions: 1.0.1-3, 1.0.1-2, 1.0.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-lattice: 
+   
+   :depends r-maldiquant: 
+   
+   :depends r-robustbase: 
+   
+   :depends r-signal: 
+   
+   :depends r-wmtsa: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-maldirppa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-maldirppa
+      docker pull quay.io/repository/biocontainers/r-maldirppa:<tag>
+
+   (see `r-maldirppa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-maldirppa| conda:required_by:: r-maldirppa
 .. |downloads_r-maldirppa| image:: https://img.shields.io/conda/dn/bioconda/r-maldirppa.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-maldirppa| image:: https://quay.io/repository/biocontainers/r-maldirppa/status
    :target: https://quay.io/repository/biocontainers/r-maldirppa
+.. _`r-maldirppa/tags`: https://quay.io/repository/biocontainers/r-maldirppa?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-maldirppa/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'smashbenchmarking'
 .. highlight: bash
-
 
 smashbenchmarking
 =================
@@ -21,11 +22,17 @@ smashbenchmarking
 
    |downloads_smashbenchmarking| |docker_smashbenchmarking|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`numpy`  :conda:package:`pyfasta`  :conda:package:`python` 2.7* :conda:package:`pyvcf`  
-
-   :required~by: |required_by_smashbenchmarking|
+   :versions: 1.0.1-0
+   
+   :depends numpy: 
+   
+   :depends pyfasta: 
+   
+   :depends python: 2.7*
+   
+   :depends pyvcf: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ smashbenchmarking
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/smashbenchmarking
+      docker pull quay.io/repository/biocontainers/smashbenchmarking:<tag>
+
+   (see `smashbenchmarking/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_smashbenchmarking| conda:required_by:: smashbenchmarking
 .. |downloads_smashbenchmarking| image:: https://img.shields.io/conda/dn/bioconda/smashbenchmarking.svg?style=flat
    :alt:   (downloads)
 .. |docker_smashbenchmarking| image:: https://quay.io/repository/biocontainers/smashbenchmarking/status
    :target: https://quay.io/repository/biocontainers/smashbenchmarking
+.. _`smashbenchmarking/tags`: https://quay.io/repository/biocontainers/smashbenchmarking?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/smashbenchmarking/README.html
-

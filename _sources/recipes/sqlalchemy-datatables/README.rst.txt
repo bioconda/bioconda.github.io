@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sqlalchemy-datatables'
 .. highlight: bash
-
 
 sqlalchemy-datatables
 =====================
@@ -21,11 +22,13 @@ sqlalchemy-datatables
 
    |downloads_sqlalchemy-datatables| |docker_sqlalchemy-datatables|
 
-   :versions: 0.3.0, 0.2.1
-
-   :depends: :conda:package:`python` 2.7* :conda:package:`sqlalchemy`  
-
-   :required~by: |required_by_sqlalchemy-datatables|
+   :versions: 0.3.0-1, 0.3.0-0, 0.2.1-0
+   
+   :depends python: 
+   
+   :depends sqlalchemy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ sqlalchemy-datatables
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sqlalchemy-datatables
+      docker pull quay.io/repository/biocontainers/sqlalchemy-datatables:<tag>
+
+   (see `sqlalchemy-datatables/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sqlalchemy-datatables| conda:required_by:: sqlalchemy-datatables
 .. |downloads_sqlalchemy-datatables| image:: https://img.shields.io/conda/dn/bioconda/sqlalchemy-datatables.svg?style=flat
    :alt:   (downloads)
 .. |docker_sqlalchemy-datatables| image:: https://quay.io/repository/biocontainers/sqlalchemy-datatables/status
    :target: https://quay.io/repository/biocontainers/sqlalchemy-datatables
+.. _`sqlalchemy-datatables/tags`: https://quay.io/repository/biocontainers/sqlalchemy-datatables?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sqlalchemy-datatables/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-math-random-mt-auto'
 .. highlight: bash
-
 
 perl-math-random-mt-auto
 ========================
@@ -21,11 +22,23 @@ perl-math-random-mt-auto
 
    |downloads_perl-math-random-mt-auto| |docker_perl-math-random-mt-auto|
 
-   :versions: 6.23, 6.22
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-data-dumper`  :conda:package:`perl-exception-class`  :conda:package:`perl-object-insideout`  :conda:package:`perl-xsloader`  
-
-   :required~by: |required_by_perl-math-random-mt-auto|
+   :versions: 6.23-0, 6.22-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-data-dumper: 
+   
+   :depends perl-exception-class: 
+   
+   :depends perl-object-insideout: 
+   
+   :depends perl-xsloader: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ perl-math-random-mt-auto
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-random-mt-auto
+      docker pull quay.io/repository/biocontainers/perl-math-random-mt-auto:<tag>
+
+   (see `perl-math-random-mt-auto/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-math-random-mt-auto| conda:required_by:: perl-math-random-mt-auto
 .. |downloads_perl-math-random-mt-auto| image:: https://img.shields.io/conda/dn/bioconda/perl-math-random-mt-auto.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-math-random-mt-auto| image:: https://quay.io/repository/biocontainers/perl-math-random-mt-auto/status
    :target: https://quay.io/repository/biocontainers/perl-math-random-mt-auto
+.. _`perl-math-random-mt-auto/tags`: https://quay.io/repository/biocontainers/perl-math-random-mt-auto?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-math-random-mt-auto/README.html
-

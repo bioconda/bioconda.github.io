@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-cpan-meta-check'
 .. highlight: bash
-
 
 perl-cpan-meta-check
 ====================
@@ -21,11 +22,19 @@ perl-cpan-meta-check
 
    |downloads_perl-cpan-meta-check| |docker_perl-cpan-meta-check|
 
-   :versions: 0.014, 0.012
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-base`  :conda:package:`perl-cpan-meta-requirements`  :conda:package:`perl-exporter`  :conda:package:`perl-module-metadata`  
-
-   :required~by: |required_by_perl-cpan-meta-check|
+   :versions: 0.014-0, 0.012-3, 0.012-2, 0.012-1
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-base: 
+   
+   :depends perl-cpan-meta-requirements: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-module-metadata: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-cpan-meta-check
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-cpan-meta-check
+      docker pull quay.io/repository/biocontainers/perl-cpan-meta-check:<tag>
+
+   (see `perl-cpan-meta-check/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-cpan-meta-check| conda:required_by:: perl-cpan-meta-check
 .. |downloads_perl-cpan-meta-check| image:: https://img.shields.io/conda/dn/bioconda/perl-cpan-meta-check.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-cpan-meta-check| image:: https://quay.io/repository/biocontainers/perl-cpan-meta-check/status
    :target: https://quay.io/repository/biocontainers/perl-cpan-meta-check
+.. _`perl-cpan-meta-check/tags`: https://quay.io/repository/biocontainers/perl-cpan-meta-check?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-cpan-meta-check/README.html
-

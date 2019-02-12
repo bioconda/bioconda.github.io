@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hyphy'
 .. highlight: bash
-
 
 hyphy
 =====
@@ -24,11 +25,17 @@ hyphy
 
    |downloads_hyphy| |docker_hyphy|
 
-   :versions: 2.3.14, 2.3.12
-
-   :depends: :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`libgcc-ng` >=7.2.0 :conda:package:`libstdcxx-ng` >=7.2.0 :conda:package:`openmpi` >=3.1,<3.2.0a0 
-
-   :required~by: |required_by_hyphy|
+   :versions: 2.3.14-0, 2.3.12-1, 2.3.12-0
+   
+   :depends curl: >=7.59.0,<8.0a0
+   
+   :depends libgcc-ng: >=7.2.0
+   
+   :depends libstdcxx-ng: >=7.2.0
+   
+   :depends openmpi: >=3.1,<3.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +49,16 @@ hyphy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hyphy
+      docker pull quay.io/repository/biocontainers/hyphy:<tag>
+
+   (see `hyphy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hyphy| conda:required_by:: hyphy
 .. |downloads_hyphy| image:: https://img.shields.io/conda/dn/bioconda/hyphy.svg?style=flat
    :alt:   (downloads)
 .. |docker_hyphy| image:: https://quay.io/repository/biocontainers/hyphy/status
    :target: https://quay.io/repository/biocontainers/hyphy
+.. _`hyphy/tags`: https://quay.io/repository/biocontainers/hyphy?tab=tags
 
 
 
@@ -66,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hyphy/README.html
-

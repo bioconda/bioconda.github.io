@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-aceperl'
 .. highlight: bash
-
 
 perl-aceperl
 ============
@@ -21,11 +22,15 @@ perl-aceperl
 
    |downloads_perl-aceperl| |docker_perl-aceperl|
 
-   :versions: 1.92
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-aceperl|
+   :versions: 1.92-2, 1.92-1, 1.92-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-cache-cache: 
+   
+   :depends perl-digest-md5: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-aceperl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-aceperl
+      docker pull quay.io/repository/biocontainers/perl-aceperl:<tag>
+
+   (see `perl-aceperl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-aceperl| conda:required_by:: perl-aceperl
 .. |downloads_perl-aceperl| image:: https://img.shields.io/conda/dn/bioconda/perl-aceperl.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-aceperl| image:: https://quay.io/repository/biocontainers/perl-aceperl/status
    :target: https://quay.io/repository/biocontainers/perl-aceperl
+.. _`perl-aceperl/tags`: https://quay.io/repository/biocontainers/perl-aceperl?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-aceperl/README.html
-

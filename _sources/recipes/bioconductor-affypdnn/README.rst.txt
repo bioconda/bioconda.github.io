@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-affypdnn'
 .. highlight: bash
-
 
 bioconductor-affypdnn
 =====================
@@ -22,11 +23,13 @@ bioconductor-affypdnn
 
    |downloads_bioconductor-affypdnn| |docker_bioconductor-affypdnn|
 
-   :versions: 1.56.0, 1.54.0, 1.52.0, 1.50.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-affypdnn|
+   :versions: 1.56.0-0, 1.54.0-0, 1.52.0-0, 1.50.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-affypdnn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affypdnn
+      docker pull quay.io/repository/biocontainers/bioconductor-affypdnn:<tag>
+
+   (see `bioconductor-affypdnn/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-affypdnn| conda:required_by:: bioconductor-affypdnn
 .. |downloads_bioconductor-affypdnn| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affypdnn.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-affypdnn| image:: https://quay.io/repository/biocontainers/bioconductor-affypdnn/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affypdnn
+.. _`bioconductor-affypdnn/tags`: https://quay.io/repository/biocontainers/bioconductor-affypdnn?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-affypdnn/README.html
-

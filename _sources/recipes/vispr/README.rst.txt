@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vispr'
 .. highlight: bash
-
 
 vispr
 =====
@@ -21,11 +22,25 @@ vispr
 
    |downloads_vispr| |docker_vispr|
 
-   :versions: 0.4.14, 0.4.13, 0.4.12, 0.4.11, 0.4.10, 0.4.9, 0.4.8, 0.4.7, 0.4.6
-
-   :depends: :conda:package:`appdirs`  :conda:package:`flask`  :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`pandas` >=0.17.1 :conda:package:`python` 3.4* :conda:package:`pyyaml`  :conda:package:`scikit-learn`  :conda:package:`scipy`  
-
-   :required~by: |required_by_vispr|
+   :versions: 0.4.14-2, 0.4.14-1, 0.4.14-0, 0.4.13-0, 0.4.12-0, 0.4.11-0, 0.4.10-0, 0.4.9-0, 0.4.8-0, 0.4.7-0, 0.4.6-0
+   
+   :depends appdirs: 
+   
+   :depends flask: 
+   
+   :depends numpy: >=1.10
+   
+   :depends pandas: >=0.17.1,<0.20
+   
+   :depends python: >=3
+   
+   :depends pyyaml: 
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ vispr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vispr
+      docker pull quay.io/repository/biocontainers/vispr:<tag>
+
+   (see `vispr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vispr| conda:required_by:: vispr
 .. |downloads_vispr| image:: https://img.shields.io/conda/dn/bioconda/vispr.svg?style=flat
    :alt:   (downloads)
 .. |docker_vispr| image:: https://quay.io/repository/biocontainers/vispr/status
    :target: https://quay.io/repository/biocontainers/vispr
+.. _`vispr/tags`: https://quay.io/repository/biocontainers/vispr?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vispr/README.html
-

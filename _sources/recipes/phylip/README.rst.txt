@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'phylip'
 .. highlight: bash
-
 
 phylip
 ======
@@ -22,11 +23,15 @@ phylip
 
    |downloads_phylip| |docker_phylip|
 
-   :versions: 3.697, 3.696
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`openjdk` >=6 :conda:package:`python`  
-
-   :required~by: |required_by_phylip|
+   :versions: 3.697-0, 3.696-3, 3.696-2, 3.696-1, 3.696-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openjdk: >=6
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ phylip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phylip
+      docker pull quay.io/repository/biocontainers/phylip:<tag>
+
+   (see `phylip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_phylip| conda:required_by:: phylip
 .. |downloads_phylip| image:: https://img.shields.io/conda/dn/bioconda/phylip.svg?style=flat
    :alt:   (downloads)
 .. |docker_phylip| image:: https://quay.io/repository/biocontainers/phylip/status
    :target: https://quay.io/repository/biocontainers/phylip
+.. _`phylip/tags`: https://quay.io/repository/biocontainers/phylip?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/phylip/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-mime-quotedprint'
 .. highlight: bash
-
 
 perl-mime-quotedprint
 =====================
@@ -21,11 +22,11 @@ perl-mime-quotedprint
 
    |downloads_perl-mime-quotedprint| |docker_perl-mime-quotedprint|
 
-   :versions: 3.13
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-mime-quotedprint|
+   :versions: 3.13-1, 3.13-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-mime-quotedprint
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mime-quotedprint
+      docker pull quay.io/repository/biocontainers/perl-mime-quotedprint:<tag>
+
+   (see `perl-mime-quotedprint/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-mime-quotedprint| conda:required_by:: perl-mime-quotedprint
 .. |downloads_perl-mime-quotedprint| image:: https://img.shields.io/conda/dn/bioconda/perl-mime-quotedprint.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-mime-quotedprint| image:: https://quay.io/repository/biocontainers/perl-mime-quotedprint/status
    :target: https://quay.io/repository/biocontainers/perl-mime-quotedprint
+.. _`perl-mime-quotedprint/tags`: https://quay.io/repository/biocontainers/perl-mime-quotedprint?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-mime-quotedprint/README.html
-

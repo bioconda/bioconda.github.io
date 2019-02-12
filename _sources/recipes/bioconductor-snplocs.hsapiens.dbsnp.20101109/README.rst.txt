@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-snplocs.hsapiens.dbsnp.20101109'
 .. highlight: bash
-
 
 bioconductor-snplocs.hsapiens.dbsnp.20101109
 ============================================
@@ -21,11 +22,19 @@ bioconductor-snplocs.hsapiens.dbsnp.20101109
 
    |downloads_bioconductor-snplocs.hsapiens.dbsnp.20101109| |docker_bioconductor-snplocs.hsapiens.dbsnp.20101109|
 
-   :versions: 0.99.7
-
-   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-snplocs.hsapiens.dbsnp.20101109|
+   :versions: 0.99.7-0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-snplocs.hsapiens.dbsnp.20101109
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20101109
+      docker pull quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20101109:<tag>
+
+   (see `bioconductor-snplocs.hsapiens.dbsnp.20101109/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-snplocs.hsapiens.dbsnp.20101109| conda:required_by:: bioconductor-snplocs.hsapiens.dbsnp.20101109
 .. |downloads_bioconductor-snplocs.hsapiens.dbsnp.20101109| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snplocs.hsapiens.dbsnp.20101109.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-snplocs.hsapiens.dbsnp.20101109| image:: https://quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20101109/status
    :target: https://quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20101109
+.. _`bioconductor-snplocs.hsapiens.dbsnp.20101109/tags`: https://quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20101109?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-snplocs.hsapiens.dbsnp.20101109/README.html
-

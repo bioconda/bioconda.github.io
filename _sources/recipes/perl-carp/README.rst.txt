@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-carp'
 .. highlight: bash
-
 
 perl-carp
 =========
@@ -21,11 +22,15 @@ perl-carp
 
    |downloads_perl-carp| |docker_perl-carp|
 
-   :versions: 1.38
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-exporter`  :conda:package:`perl-extutils-makemaker`  
-
-   :required~by: |required_by_perl-carp|
+   :versions: 1.38-1, 1.38-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-exporter: 
+   
+   :depends perl-extutils-makemaker: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-carp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-carp
+      docker pull quay.io/repository/biocontainers/perl-carp:<tag>
+
+   (see `perl-carp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-carp| conda:required_by:: perl-carp
 .. |downloads_perl-carp| image:: https://img.shields.io/conda/dn/bioconda/perl-carp.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-carp| image:: https://quay.io/repository/biocontainers/perl-carp/status
    :target: https://quay.io/repository/biocontainers/perl-carp
+.. _`perl-carp/tags`: https://quay.io/repository/biocontainers/perl-carp?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-carp/README.html
-

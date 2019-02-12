@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rcellminer'
 .. highlight: bash
-
 
 bioconductor-rcellminer
 =======================
@@ -22,10 +23,8 @@ bioconductor-rcellminer
    |downloads_bioconductor-rcellminer| |docker_bioconductor-rcellminer|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-rcellminer|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-rcellminer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rcellminer
+      docker pull quay.io/repository/biocontainers/bioconductor-rcellminer:<tag>
+
+   (see `bioconductor-rcellminer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rcellminer| conda:required_by:: bioconductor-rcellminer
 .. |downloads_bioconductor-rcellminer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rcellminer.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rcellminer| image:: https://quay.io/repository/biocontainers/bioconductor-rcellminer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rcellminer
+.. _`bioconductor-rcellminer/tags`: https://quay.io/repository/biocontainers/bioconductor-rcellminer?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rcellminer/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biodiff'
 .. highlight: bash
-
 
 biodiff
 =======
@@ -21,11 +22,11 @@ biodiff
 
    |downloads_biodiff| |docker_biodiff|
 
-   :versions: 0.2.2
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_biodiff|
+   :versions: 0.2.2-1, 0.2.2-0
+   
+   :depends perl: >=5.22.2.1,<5.23.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ biodiff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biodiff
+      docker pull quay.io/repository/biocontainers/biodiff:<tag>
+
+   (see `biodiff/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biodiff| conda:required_by:: biodiff
 .. |downloads_biodiff| image:: https://img.shields.io/conda/dn/bioconda/biodiff.svg?style=flat
    :alt:   (downloads)
 .. |docker_biodiff| image:: https://quay.io/repository/biocontainers/biodiff/status
    :target: https://quay.io/repository/biocontainers/biodiff
+.. _`biodiff/tags`: https://quay.io/repository/biocontainers/biodiff?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biodiff/README.html
-

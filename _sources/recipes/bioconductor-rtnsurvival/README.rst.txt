@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rtnsurvival'
 .. highlight: bash
-
 
 bioconductor-rtnsurvival
 ========================
@@ -21,11 +22,23 @@ bioconductor-rtnsurvival
 
    |downloads_bioconductor-rtnsurvival| |docker_bioconductor-rtnsurvival|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`bioconductor-rtn` >=2.6.0,<2.7.0 :conda:package:`bioconductor-rtnduals` >=1.6.0,<1.7.0 :conda:package:`bioconductor-viper` >=1.16.0,<1.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcolorbrewer`  :conda:package:`r-scales`  :conda:package:`r-survival`  
-
-   :required~by: |required_by_bioconductor-rtnsurvival|
+   :versions: 1.6.0-0
+   
+   :depends bioconductor-rtn: >=2.6.0,<2.7.0
+   
+   :depends bioconductor-rtnduals: >=1.6.0,<1.7.0
+   
+   :depends bioconductor-viper: >=1.16.0,<1.17.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-scales: 
+   
+   :depends r-survival: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-rtnsurvival
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtnsurvival
+      docker pull quay.io/repository/biocontainers/bioconductor-rtnsurvival:<tag>
+
+   (see `bioconductor-rtnsurvival/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rtnsurvival| conda:required_by:: bioconductor-rtnsurvival
 .. |downloads_bioconductor-rtnsurvival| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtnsurvival.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rtnsurvival| image:: https://quay.io/repository/biocontainers/bioconductor-rtnsurvival/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtnsurvival
+.. _`bioconductor-rtnsurvival/tags`: https://quay.io/repository/biocontainers/bioconductor-rtnsurvival?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rtnsurvival/README.html
-

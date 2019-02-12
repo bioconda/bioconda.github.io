@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'circexplorer2'
 .. highlight: bash
-
 
 circexplorer2
 =============
@@ -21,11 +22,21 @@ circexplorer2
 
    |downloads_circexplorer2| |docker_circexplorer2|
 
-   :versions: 2.3.5, 2.3.3, 2.3.2, 2.3.1, 2.3.0, 2.2.7, 2.2.6, 2.2.5, 2.2.4, 2.2.3, 2.2.2, 2.2.1, 2.2.0, 2.1.2, 2.1.1, 2.1.0, 2.0.1
-
-   :depends: :conda:package:`docopt`  :conda:package:`pybedtools`  :conda:package:`pysam` >=0.8.4 :conda:package:`python`  :conda:package:`requests`  :conda:package:`scipy`  
-
-   :required~by: |required_by_circexplorer2|
+   :versions: 2.3.5-0, 2.3.3-2, 2.3.3-0, 2.3.2-0, 2.3.1-0, 2.3.0-0, 2.2.7-0, 2.2.6-0, 2.2.5-1, 2.2.5-0, 2.2.4-0, 2.2.3-0, 2.2.2-0, 2.2.1-0, 2.2.0-0, 2.1.2-0, 2.1.1-0, 2.1.0-0, 2.0.1-0
+   
+   :depends docopt: 
+   
+   :depends pybedtools: 
+   
+   :depends pysam: >=0.8.4
+   
+   :depends python: 
+   
+   :depends requests: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ circexplorer2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/circexplorer2
+      docker pull quay.io/repository/biocontainers/circexplorer2:<tag>
+
+   (see `circexplorer2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_circexplorer2| conda:required_by:: circexplorer2
 .. |downloads_circexplorer2| image:: https://img.shields.io/conda/dn/bioconda/circexplorer2.svg?style=flat
    :alt:   (downloads)
 .. |docker_circexplorer2| image:: https://quay.io/repository/biocontainers/circexplorer2/status
    :target: https://quay.io/repository/biocontainers/circexplorer2
+.. _`circexplorer2/tags`: https://quay.io/repository/biocontainers/circexplorer2?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/circexplorer2/README.html
-

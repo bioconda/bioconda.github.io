@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mirtop'
 .. highlight: bash
-
 
 mirtop
 ======
@@ -21,11 +22,19 @@ mirtop
 
    |downloads_mirtop| |docker_mirtop|
 
-   :versions: 0.4.15a, 0.3.17, 0.3.11a0, 0.3.6a0, 0.3.2a0, 0.1.8a0
-
-   :depends: :conda:package:`biopython`  :conda:package:`pandas`  :conda:package:`pybedtools`  :conda:package:`pysam`  :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_mirtop|
+   :versions: 0.4.15a-0, 0.3.17-1, 0.3.17-0, 0.3.11a0-2, 0.3.11a0-0, 0.3.6a0-0, 0.3.2a0-0, 0.1.8a0-0
+   
+   :depends biopython: 
+   
+   :depends pandas: 
+   
+   :depends pybedtools: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ mirtop
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mirtop
+      docker pull quay.io/repository/biocontainers/mirtop:<tag>
+
+   (see `mirtop/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mirtop| conda:required_by:: mirtop
 .. |downloads_mirtop| image:: https://img.shields.io/conda/dn/bioconda/mirtop.svg?style=flat
    :alt:   (downloads)
 .. |docker_mirtop| image:: https://quay.io/repository/biocontainers/mirtop/status
    :target: https://quay.io/repository/biocontainers/mirtop
+.. _`mirtop/tags`: https://quay.io/repository/biocontainers/mirtop?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mirtop/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-aptreeshape'
 .. highlight: bash
-
 
 r-aptreeshape
 =============
@@ -21,11 +22,21 @@ r-aptreeshape
 
    |downloads_r-aptreeshape| |docker_r-aptreeshape|
 
-   :versions: 1.5_0
-
-   :depends: :conda:package:`r-ape`  :conda:package:`r-base` 3.4.1* :conda:package:`r-coda`  :conda:package:`r-cubature`  :conda:package:`r-pbapply`  :conda:package:`r-quantreg`  
-
-   :required~by: |required_by_r-aptreeshape|
+   :versions: 1.5_0-3, 1.5_0-2, 1.5_0-1, 1.5_0-0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-coda: 
+   
+   :depends r-cubature: 
+   
+   :depends r-pbapply: 
+   
+   :depends r-quantreg: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-aptreeshape
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-aptreeshape
+      docker pull quay.io/repository/biocontainers/r-aptreeshape:<tag>
+
+   (see `r-aptreeshape/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-aptreeshape| conda:required_by:: r-aptreeshape
 .. |downloads_r-aptreeshape| image:: https://img.shields.io/conda/dn/bioconda/r-aptreeshape.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-aptreeshape| image:: https://quay.io/repository/biocontainers/r-aptreeshape/status
    :target: https://quay.io/repository/biocontainers/r-aptreeshape
+.. _`r-aptreeshape/tags`: https://quay.io/repository/biocontainers/r-aptreeshape?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-aptreeshape/README.html
-

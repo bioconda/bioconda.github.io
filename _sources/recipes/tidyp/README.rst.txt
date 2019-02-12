@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tidyp'
 .. highlight: bash
-
 
 tidyp
 =====
@@ -21,11 +22,9 @@ tidyp
 
    |downloads_tidyp| |docker_tidyp|
 
-   :versions: 1.04
-
-   :depends: 
-
-   :required~by: |required_by_tidyp|
+   :versions: 1.04-1, 1.04-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ tidyp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tidyp
+      docker pull quay.io/repository/biocontainers/tidyp:<tag>
+
+   (see `tidyp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tidyp| conda:required_by:: tidyp
 .. |downloads_tidyp| image:: https://img.shields.io/conda/dn/bioconda/tidyp.svg?style=flat
    :alt:   (downloads)
 .. |docker_tidyp| image:: https://quay.io/repository/biocontainers/tidyp/status
    :target: https://quay.io/repository/biocontainers/tidyp
+.. _`tidyp/tags`: https://quay.io/repository/biocontainers/tidyp?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tidyp/README.html
-

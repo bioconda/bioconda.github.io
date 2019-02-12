@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-affycomp'
 .. highlight: bash
-
 
 bioconductor-affycomp
 =====================
@@ -22,11 +23,13 @@ bioconductor-affycomp
 
    |downloads_bioconductor-affycomp| |docker_bioconductor-affycomp|
 
-   :versions: 1.58.0, 1.56.0, 1.54.0, 1.52.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-affycomp|
+   :versions: 1.58.0-0, 1.56.0-0, 1.54.0-0, 1.52.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-affycomp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affycomp
+      docker pull quay.io/repository/biocontainers/bioconductor-affycomp:<tag>
+
+   (see `bioconductor-affycomp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-affycomp| conda:required_by:: bioconductor-affycomp
 .. |downloads_bioconductor-affycomp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affycomp.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-affycomp| image:: https://quay.io/repository/biocontainers/bioconductor-affycomp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affycomp
+.. _`bioconductor-affycomp/tags`: https://quay.io/repository/biocontainers/bioconductor-affycomp?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-affycomp/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'translate-gard'
 .. highlight: bash
-
 
 translate-gard
 ==============
@@ -21,11 +22,11 @@ translate-gard
 
    |downloads_translate-gard| |docker_translate-gard|
 
-   :versions: 1.0.4, 1.0.3
-
-   :depends: :conda:package:`nodejs` 6.* 
-
-   :required~by: |required_by_translate-gard|
+   :versions: 1.0.4-0, 1.0.3-0
+   
+   :depends nodejs: 6.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ translate-gard
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/translate-gard
+      docker pull quay.io/repository/biocontainers/translate-gard:<tag>
+
+   (see `translate-gard/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_translate-gard| conda:required_by:: translate-gard
 .. |downloads_translate-gard| image:: https://img.shields.io/conda/dn/bioconda/translate-gard.svg?style=flat
    :alt:   (downloads)
 .. |docker_translate-gard| image:: https://quay.io/repository/biocontainers/translate-gard/status
    :target: https://quay.io/repository/biocontainers/translate-gard
+.. _`translate-gard/tags`: https://quay.io/repository/biocontainers/translate-gard?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/translate-gard/README.html
-

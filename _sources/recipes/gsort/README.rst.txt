@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gsort'
 .. highlight: bash
-
 
 gsort
 =====
@@ -21,11 +22,9 @@ gsort
 
    |downloads_gsort| |docker_gsort|
 
-   :versions: 0.0.6, 0.0.2, 0.0.1
-
-   :depends: 
-
-   :required~by: |required_by_gsort|
+   :versions: 0.0.6-1, 0.0.6-0, 0.0.2-0, 0.0.1-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ gsort
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gsort
+      docker pull quay.io/repository/biocontainers/gsort:<tag>
+
+   (see `gsort/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gsort| conda:required_by:: gsort
 .. |downloads_gsort| image:: https://img.shields.io/conda/dn/bioconda/gsort.svg?style=flat
    :alt:   (downloads)
 .. |docker_gsort| image:: https://quay.io/repository/biocontainers/gsort/status
    :target: https://quay.io/repository/biocontainers/gsort
+.. _`gsort/tags`: https://quay.io/repository/biocontainers/gsort?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gsort/README.html
-

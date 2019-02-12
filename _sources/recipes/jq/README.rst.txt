@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'jq'
 .. highlight: bash
-
 
 jq
 ==
@@ -21,11 +22,11 @@ jq
 
    |downloads_jq| |docker_jq|
 
-   :versions: 1.5
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_jq|
+   :versions: 1.5-0
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ jq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/jq
+      docker pull quay.io/repository/biocontainers/jq:<tag>
+
+   (see `jq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_jq| conda:required_by:: jq
 .. |downloads_jq| image:: https://img.shields.io/conda/dn/bioconda/jq.svg?style=flat
    :alt:   (downloads)
 .. |docker_jq| image:: https://quay.io/repository/biocontainers/jq/status
    :target: https://quay.io/repository/biocontainers/jq
+.. _`jq/tags`: https://quay.io/repository/biocontainers/jq?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/jq/README.html
-

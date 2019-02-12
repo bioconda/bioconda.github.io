@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'graphaligner'
 .. highlight: bash
-
 
 graphaligner
 ============
@@ -21,11 +22,15 @@ graphaligner
 
    |downloads_graphaligner| |docker_graphaligner|
 
-   :versions: 1.0.1, 1.0.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_graphaligner|
+   :versions: 1.0.1-1, 1.0.1-0, 1.0.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ graphaligner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/graphaligner
+      docker pull quay.io/repository/biocontainers/graphaligner:<tag>
+
+   (see `graphaligner/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_graphaligner| conda:required_by:: graphaligner
 .. |downloads_graphaligner| image:: https://img.shields.io/conda/dn/bioconda/graphaligner.svg?style=flat
    :alt:   (downloads)
 .. |docker_graphaligner| image:: https://quay.io/repository/biocontainers/graphaligner/status
    :target: https://quay.io/repository/biocontainers/graphaligner
+.. _`graphaligner/tags`: https://quay.io/repository/biocontainers/graphaligner?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/graphaligner/README.html
-

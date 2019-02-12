@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-arrayexpress'
 .. highlight: bash
-
 
 bioconductor-arrayexpress
 =========================
@@ -21,11 +22,19 @@ bioconductor-arrayexpress
 
    |downloads_bioconductor-arrayexpress| |docker_bioconductor-arrayexpress|
 
-   :versions: 1.42.0, 1.40.0, 1.38.0, 1.36.1
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-arrayexpress|
+   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.1-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-oligo: >=1.46.0,<1.47.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-arrayexpress
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-arrayexpress
+      docker pull quay.io/repository/biocontainers/bioconductor-arrayexpress:<tag>
+
+   (see `bioconductor-arrayexpress/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-arrayexpress| conda:required_by:: bioconductor-arrayexpress
 .. |downloads_bioconductor-arrayexpress| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arrayexpress.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-arrayexpress| image:: https://quay.io/repository/biocontainers/bioconductor-arrayexpress/status
    :target: https://quay.io/repository/biocontainers/bioconductor-arrayexpress
+.. _`bioconductor-arrayexpress/tags`: https://quay.io/repository/biocontainers/bioconductor-arrayexpress?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-arrayexpress/README.html
-

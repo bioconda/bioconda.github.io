@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'salmid'
 .. highlight: bash
-
 
 salmid
 ======
@@ -23,10 +24,8 @@ salmid
    |downloads_salmid| |docker_salmid|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_salmid|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +39,16 @@ salmid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/salmid
+      docker pull quay.io/repository/biocontainers/salmid:<tag>
+
+   (see `salmid/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_salmid| conda:required_by:: salmid
 .. |downloads_salmid| image:: https://img.shields.io/conda/dn/bioconda/salmid.svg?style=flat
    :alt:   (downloads)
 .. |docker_salmid| image:: https://quay.io/repository/biocontainers/salmid/status
    :target: https://quay.io/repository/biocontainers/salmid
+.. _`salmid/tags`: https://quay.io/repository/biocontainers/salmid?tab=tags
 
 
 
@@ -64,4 +65,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/salmid/README.html
-

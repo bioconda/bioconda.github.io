@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-flipflop'
 .. highlight: bash
-
 
 bioconductor-flipflop
 =====================
@@ -22,11 +23,21 @@ bioconductor-flipflop
 
    |downloads_bioconductor-flipflop| |docker_bioconductor-flipflop|
 
-   :versions: 1.18.0, 1.16.0, 1.14.1
-
-   :depends: :conda:package:`bioconductor-genomicranges` >=1.32.7,<1.34.0 :conda:package:`bioconductor-iranges` >=2.14.12,<2.16.0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-matrix`  
-
-   :required~by: |required_by_bioconductor-flipflop|
+   :versions: 1.18.0-0, 1.16.0-0, 1.14.1-0
+   
+   :depends bioconductor-genomicranges: >=1.32.7,<1.34.0
+   
+   :depends bioconductor-iranges: >=2.14.12,<2.16.0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-matrix: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-flipflop
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flipflop
+      docker pull quay.io/repository/biocontainers/bioconductor-flipflop:<tag>
+
+   (see `bioconductor-flipflop/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-flipflop| conda:required_by:: bioconductor-flipflop
 .. |downloads_bioconductor-flipflop| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flipflop.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-flipflop| image:: https://quay.io/repository/biocontainers/bioconductor-flipflop/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flipflop
+.. _`bioconductor-flipflop/tags`: https://quay.io/repository/biocontainers/bioconductor-flipflop?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-flipflop/README.html
-

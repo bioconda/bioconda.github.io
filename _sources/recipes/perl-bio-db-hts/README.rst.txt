@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bio-db-hts'
 .. highlight: bash
-
 
 perl-bio-db-hts
 ===============
@@ -21,11 +22,17 @@ perl-bio-db-hts
 
    |downloads_perl-bio-db-hts| |docker_perl-bio-db-hts|
 
-   :versions: 2.7, 2.4
-
-   :depends: :conda:package:`htslib` 1.4* :conda:package:`perl` 5.22.0* :conda:package:`perl-bioperl`  :conda:package:`zlib`  
-
-   :required~by: |required_by_perl-bio-db-hts|
+   :versions: 2.7-3, 2.7-2, 2.7-1, 2.7-0, 2.4-0
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bioperl: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-bio-db-hts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-db-hts
+      docker pull quay.io/repository/biocontainers/perl-bio-db-hts:<tag>
+
+   (see `perl-bio-db-hts/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bio-db-hts| conda:required_by:: perl-bio-db-hts
 .. |downloads_perl-bio-db-hts| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-db-hts.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bio-db-hts| image:: https://quay.io/repository/biocontainers/perl-bio-db-hts/status
    :target: https://quay.io/repository/biocontainers/perl-bio-db-hts
+.. _`perl-bio-db-hts/tags`: https://quay.io/repository/biocontainers/perl-bio-db-hts?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bio-db-hts/README.html
-

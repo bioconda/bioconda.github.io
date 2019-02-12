@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ppidata'
 .. highlight: bash
-
 
 bioconductor-ppidata
 ====================
@@ -21,11 +22,17 @@ bioconductor-ppidata
 
    |downloads_bioconductor-ppidata| |docker_bioconductor-ppidata|
 
-   :versions: 0.20.0, 0.18.0, 0.16.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-ppidata|
+   :versions: 0.20.0-0, 0.18.0-0, 0.16.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-ppidata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ppidata
+      docker pull quay.io/repository/biocontainers/bioconductor-ppidata:<tag>
+
+   (see `bioconductor-ppidata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ppidata| conda:required_by:: bioconductor-ppidata
 .. |downloads_bioconductor-ppidata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ppidata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ppidata| image:: https://quay.io/repository/biocontainers/bioconductor-ppidata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ppidata
+.. _`bioconductor-ppidata/tags`: https://quay.io/repository/biocontainers/bioconductor-ppidata?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ppidata/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-file-contents'
 .. highlight: bash
-
 
 perl-test-file-contents
 =======================
@@ -21,11 +22,21 @@ perl-test-file-contents
 
    |downloads_perl-test-file-contents| |docker_perl-test-file-contents|
 
-   :versions: 0.23
-
-   :depends: :conda:package:`perl` >=5.22,<6.0 :conda:package:`perl-digest-md5`  :conda:package:`perl-file-spec`  :conda:package:`perl-test-pod`  :conda:package:`perl-test-pod-coverage`  :conda:package:`perl-text-diff`  
-
-   :required~by: |required_by_perl-test-file-contents|
+   :versions: 0.23-2, 0.23-1, 0.23-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-digest-md5: 
+   
+   :depends perl-file-spec: 
+   
+   :depends perl-test-pod: 
+   
+   :depends perl-test-pod-coverage: 
+   
+   :depends perl-text-diff: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-test-file-contents
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-file-contents
+      docker pull quay.io/repository/biocontainers/perl-test-file-contents:<tag>
+
+   (see `perl-test-file-contents/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-file-contents| conda:required_by:: perl-test-file-contents
 .. |downloads_perl-test-file-contents| image:: https://img.shields.io/conda/dn/bioconda/perl-test-file-contents.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-file-contents| image:: https://quay.io/repository/biocontainers/perl-test-file-contents/status
    :target: https://quay.io/repository/biocontainers/perl-test-file-contents
+.. _`perl-test-file-contents/tags`: https://quay.io/repository/biocontainers/perl-test-file-contents?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-file-contents/README.html
-

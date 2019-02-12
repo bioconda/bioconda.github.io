@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bumbershoot'
 .. highlight: bash
-
 
 bumbershoot
 ===========
@@ -21,11 +22,11 @@ bumbershoot
 
    |downloads_bumbershoot| |docker_bumbershoot|
 
-   :versions: 3_0_11579, 3_0_11392, 3_0_11391, 3_0_11369, 3_0_10246, 3_0_10158
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_bumbershoot|
+   :versions: 3_0_11579-0, 3_0_11392-0, 3_0_11391-0, 3_0_11369-0, 3_0_10246-0, 3_0_10158-0
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bumbershoot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bumbershoot
+      docker pull quay.io/repository/biocontainers/bumbershoot:<tag>
+
+   (see `bumbershoot/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bumbershoot| conda:required_by:: bumbershoot
 .. |downloads_bumbershoot| image:: https://img.shields.io/conda/dn/bioconda/bumbershoot.svg?style=flat
    :alt:   (downloads)
 .. |docker_bumbershoot| image:: https://quay.io/repository/biocontainers/bumbershoot/status
    :target: https://quay.io/repository/biocontainers/bumbershoot
+.. _`bumbershoot/tags`: https://quay.io/repository/biocontainers/bumbershoot?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bumbershoot/README.html
-

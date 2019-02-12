@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dxpy'
 .. highlight: bash
-
 
 dxpy
 ====
@@ -23,11 +24,29 @@ dxpy
 
    |downloads_dxpy| |docker_dxpy|
 
-   :versions: 0.273.0, 0.261.1, 0.257.3, 0.254.0, 0.250.2, 0.247.0, 0.225.0, 0.223.0
-
-   :depends: :conda:package:`argcomplete` >=1.9.4 :conda:package:`beautifulsoup4` >=4.4.1 :conda:package:`cryptography` <=2.2.2 :conda:package:`futures` >=3.0.4 :conda:package:`psutil` >=3.3.0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`python-dateutil` >=2.5 :conda:package:`python-magic` >=0.4.6 :conda:package:`requests` >=2.8.0 :conda:package:`websocket-client` >=0.53.0 
-
-   :required~by: |required_by_dxpy|
+   :versions: 0.273.0-0, 0.261.1-0, 0.257.3-0, 0.254.0-1, 0.254.0-0, 0.250.2-0, 0.247.0-0, 0.225.0-0, 0.223.0-0
+   
+   :depends argcomplete: >=1.9.4
+   
+   :depends beautifulsoup4: >=4.4.1
+   
+   :depends cryptography: <=2.2.2
+   
+   :depends futures: >=3.0.4
+   
+   :depends psutil: >=3.3.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends python-dateutil: >=2.5
+   
+   :depends python-magic: >=0.4.6
+   
+   :depends requests: >=2.8.0
+   
+   :depends websocket-client: >=0.53.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +60,16 @@ dxpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dxpy
+      docker pull quay.io/repository/biocontainers/dxpy:<tag>
+
+   (see `dxpy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dxpy| conda:required_by:: dxpy
 .. |downloads_dxpy| image:: https://img.shields.io/conda/dn/bioconda/dxpy.svg?style=flat
    :alt:   (downloads)
 .. |docker_dxpy| image:: https://quay.io/repository/biocontainers/dxpy/status
    :target: https://quay.io/repository/biocontainers/dxpy
+.. _`dxpy/tags`: https://quay.io/repository/biocontainers/dxpy?tab=tags
 
 
 
@@ -65,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dxpy/README.html
-

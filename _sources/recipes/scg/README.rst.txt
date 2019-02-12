@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'scg'
 .. highlight: bash
-
 
 scg
 ===
@@ -21,11 +22,19 @@ scg
 
    |downloads_scg| |docker_scg|
 
-   :versions: 0.3.1
-
-   :depends: :conda:package:`libgcc`  :conda:package:`numpy` >=1.9.2 :conda:package:`pandas` >=0.16 :conda:package:`python` 2.7* :conda:package:`pyyaml`  :conda:package:`scipy` >=0.15 
-
-   :required~by: |required_by_scg|
+   :versions: 0.3.1-1, 0.3.1-0
+   
+   :depends numpy: >=1.9.2
+   
+   :depends pandas: >=0.16
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends pyyaml: 
+   
+   :depends scipy: >=0.15
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ scg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scg
+      docker pull quay.io/repository/biocontainers/scg:<tag>
+
+   (see `scg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_scg| conda:required_by:: scg
 .. |downloads_scg| image:: https://img.shields.io/conda/dn/bioconda/scg.svg?style=flat
    :alt:   (downloads)
 .. |docker_scg| image:: https://quay.io/repository/biocontainers/scg/status
    :target: https://quay.io/repository/biocontainers/scg
+.. _`scg/tags`: https://quay.io/repository/biocontainers/scg?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/scg/README.html
-

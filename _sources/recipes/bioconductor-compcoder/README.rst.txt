@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-compcoder'
 .. highlight: bash
-
 
 bioconductor-compcoder
 ======================
@@ -21,11 +22,45 @@ bioconductor-compcoder
 
    |downloads_bioconductor-compcoder| |docker_bioconductor-compcoder|
 
-   :versions: 1.18.0
-
-   :depends: :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-catools`  :conda:package:`r-gdata`  :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-gtools`  :conda:package:`r-kernsmooth`  :conda:package:`r-knitr` >=1.2 :conda:package:`r-lattice` >=0.16 :conda:package:`r-markdown`  :conda:package:`r-mass`  :conda:package:`r-modeest`  :conda:package:`r-rocr`  :conda:package:`r-sm`  :conda:package:`r-stringr`  :conda:package:`r-vioplot`  
-
-   :required~by: |required_by_bioconductor-compcoder|
+   :versions: 1.18.0-0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-catools: 
+   
+   :depends r-gdata: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-gtools: 
+   
+   :depends r-kernsmooth: 
+   
+   :depends r-knitr: >=1.2
+   
+   :depends r-lattice: >=0.16
+   
+   :depends r-markdown: 
+   
+   :depends r-mass: 
+   
+   :depends r-modeest: 
+   
+   :depends r-rocr: 
+   
+   :depends r-sm: 
+   
+   :depends r-stringr: 
+   
+   :depends r-vioplot: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +74,16 @@ bioconductor-compcoder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-compcoder
+      docker pull quay.io/repository/biocontainers/bioconductor-compcoder:<tag>
+
+   (see `bioconductor-compcoder/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-compcoder| conda:required_by:: bioconductor-compcoder
 .. |downloads_bioconductor-compcoder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-compcoder.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-compcoder| image:: https://quay.io/repository/biocontainers/bioconductor-compcoder/status
    :target: https://quay.io/repository/biocontainers/bioconductor-compcoder
+.. _`bioconductor-compcoder/tags`: https://quay.io/repository/biocontainers/bioconductor-compcoder?tab=tags
 
 
 
@@ -63,4 +100,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-compcoder/README.html
-

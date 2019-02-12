@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sambamba'
 .. highlight: bash
-
 
 sambamba
 ========
@@ -21,11 +22,19 @@ sambamba
 
    |downloads_sambamba| |docker_sambamba|
 
-   :versions: 0.6.8, 0.6.6, 0.6.5, 0.6.3, 0.6.2, 0.6.1, 0.5.9
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`ldc`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_sambamba|
+   :versions: 0.6.8-1, 0.6.8-0, 0.6.6-2, 0.6.6-1, 0.6.6-0, 0.6.5-0, 0.6.3-0, 0.6.2-0, 0.6.1-0, 0.5.9-1, 0.5.9-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends ldc: 1.11.0.*
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends xz: >=5.2.4,<5.3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ sambamba
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sambamba
+      docker pull quay.io/repository/biocontainers/sambamba:<tag>
+
+   (see `sambamba/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sambamba| conda:required_by:: sambamba
 .. |downloads_sambamba| image:: https://img.shields.io/conda/dn/bioconda/sambamba.svg?style=flat
    :alt:   (downloads)
 .. |docker_sambamba| image:: https://quay.io/repository/biocontainers/sambamba/status
    :target: https://quay.io/repository/biocontainers/sambamba
+.. _`sambamba/tags`: https://quay.io/repository/biocontainers/sambamba?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sambamba/README.html
-

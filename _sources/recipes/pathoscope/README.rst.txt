@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pathoscope'
 .. highlight: bash
-
 
 pathoscope
 ==========
@@ -21,11 +22,15 @@ pathoscope
 
    |downloads_pathoscope| |docker_pathoscope|
 
-   :versions: 2.0.6
-
-   :depends: :conda:package:`bowtie2`  :conda:package:`python` 2.7* :conda:package:`samtools` <1.0 
-
-   :required~by: |required_by_pathoscope|
+   :versions: 2.0.6-1, 2.0.6-0
+   
+   :depends bowtie2: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: <1.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pathoscope
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pathoscope
+      docker pull quay.io/repository/biocontainers/pathoscope:<tag>
+
+   (see `pathoscope/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pathoscope| conda:required_by:: pathoscope
 .. |downloads_pathoscope| image:: https://img.shields.io/conda/dn/bioconda/pathoscope.svg?style=flat
    :alt:   (downloads)
 .. |docker_pathoscope| image:: https://quay.io/repository/biocontainers/pathoscope/status
    :target: https://quay.io/repository/biocontainers/pathoscope
+.. _`pathoscope/tags`: https://quay.io/repository/biocontainers/pathoscope?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pathoscope/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-jmosaics'
 .. highlight: bash
-
 
 bioconductor-jmosaics
 =====================
@@ -21,11 +22,13 @@ bioconductor-jmosaics
 
    |downloads_bioconductor-jmosaics| |docker_bioconductor-jmosaics|
 
-   :versions: 1.10.0
-
-   :depends: :conda:package:`bioconductor-mosaics`  :conda:package:`r` >=2.15.2 
-
-   :required~by: |required_by_bioconductor-jmosaics|
+   :versions: 1.10.0-0
+   
+   :depends bioconductor-mosaics: 
+   
+   :depends r: >=2.15.2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-jmosaics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-jmosaics
+      docker pull quay.io/repository/biocontainers/bioconductor-jmosaics:<tag>
+
+   (see `bioconductor-jmosaics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-jmosaics| conda:required_by:: bioconductor-jmosaics
 .. |downloads_bioconductor-jmosaics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-jmosaics.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-jmosaics| image:: https://quay.io/repository/biocontainers/bioconductor-jmosaics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-jmosaics
+.. _`bioconductor-jmosaics/tags`: https://quay.io/repository/biocontainers/bioconductor-jmosaics?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-jmosaics/README.html
-

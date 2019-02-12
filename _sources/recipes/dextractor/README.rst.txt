@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dextractor'
 .. highlight: bash
-
 
 dextractor
 ==========
@@ -21,11 +22,15 @@ dextractor
 
    |downloads_dextractor| |docker_dextractor|
 
-   :versions: 1.0p2, 1.0p1
-
-   :depends: :conda:package:`hdf5` 1.8.17* :conda:package:`libgcc`  
-
-   :required~by: |required_by_dextractor|
+   :versions: 1.0p2-1, 1.0p2-0, 1.0p1-0
+   
+   :depends hdf5: >=1.10.2,<1.10.3.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ dextractor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dextractor
+      docker pull quay.io/repository/biocontainers/dextractor:<tag>
+
+   (see `dextractor/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dextractor| conda:required_by:: dextractor
 .. |downloads_dextractor| image:: https://img.shields.io/conda/dn/bioconda/dextractor.svg?style=flat
    :alt:   (downloads)
 .. |docker_dextractor| image:: https://quay.io/repository/biocontainers/dextractor/status
    :target: https://quay.io/repository/biocontainers/dextractor
+.. _`dextractor/tags`: https://quay.io/repository/biocontainers/dextractor?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dextractor/README.html
-

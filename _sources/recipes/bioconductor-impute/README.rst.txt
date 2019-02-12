@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-impute'
 .. highlight: bash
-
 
 bioconductor-impute
 ===================
@@ -22,11 +23,15 @@ bioconductor-impute
 
    |downloads_bioconductor-impute| |docker_bioconductor-impute|
 
-   :versions: 1.56.0, 1.54.0, 1.52.0, 1.50.1, 1.46.0, 1.44.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-impute|
+   :versions: 1.56.0-0, 1.54.0-0, 1.52.0-0, 1.50.1-0, 1.46.0-1, 1.46.0-0, 1.44.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libgfortran-ng: >=7,<8.0a0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-impute
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-impute
+      docker pull quay.io/repository/biocontainers/bioconductor-impute:<tag>
+
+   (see `bioconductor-impute/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-impute| conda:required_by:: bioconductor-impute
 .. |downloads_bioconductor-impute| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-impute.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-impute| image:: https://quay.io/repository/biocontainers/bioconductor-impute/status
    :target: https://quay.io/repository/biocontainers/bioconductor-impute
+.. _`bioconductor-impute/tags`: https://quay.io/repository/biocontainers/bioconductor-impute?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-impute/README.html
-

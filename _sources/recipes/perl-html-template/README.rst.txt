@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-html-template'
 .. highlight: bash
-
 
 perl-html-template
 ==================
@@ -21,11 +22,15 @@ perl-html-template
 
    |downloads_perl-html-template| |docker_perl-html-template|
 
-   :versions: 2.97, 2.95
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-cgi`  :conda:package:`perl-scalar-list-utils`  
-
-   :required~by: |required_by_perl-html-template|
+   :versions: 2.97-1, 2.95-1, 2.95-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-cgi: 
+   
+   :depends perl-scalar-list-utils: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-html-template
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-template
+      docker pull quay.io/repository/biocontainers/perl-html-template:<tag>
+
+   (see `perl-html-template/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-html-template| conda:required_by:: perl-html-template
 .. |downloads_perl-html-template| image:: https://img.shields.io/conda/dn/bioconda/perl-html-template.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-html-template| image:: https://quay.io/repository/biocontainers/perl-html-template/status
    :target: https://quay.io/repository/biocontainers/perl-html-template
+.. _`perl-html-template/tags`: https://quay.io/repository/biocontainers/perl-html-template?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-html-template/README.html
-

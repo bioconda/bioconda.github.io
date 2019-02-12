@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sponge'
 .. highlight: bash
-
 
 bioconductor-sponge
 ===================
@@ -21,11 +22,35 @@ bioconductor-sponge
 
    |downloads_bioconductor-sponge| |docker_bioconductor-sponge|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-dorng`  :conda:package:`r-expm`  :conda:package:`r-foreach`  :conda:package:`r-glmnet`  :conda:package:`r-grbase`  :conda:package:`r-igraph`  :conda:package:`r-iterators`  :conda:package:`r-logging`  :conda:package:`r-mass`  :conda:package:`r-ppcor`  
-
-   :required~by: |required_by_bioconductor-sponge|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-dorng: 
+   
+   :depends r-expm: 
+   
+   :depends r-foreach: 
+   
+   :depends r-glmnet: 
+   
+   :depends r-grbase: 
+   
+   :depends r-igraph: 
+   
+   :depends r-iterators: 
+   
+   :depends r-logging: 
+   
+   :depends r-mass: 
+   
+   :depends r-ppcor: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ bioconductor-sponge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sponge
+      docker pull quay.io/repository/biocontainers/bioconductor-sponge:<tag>
+
+   (see `bioconductor-sponge/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sponge| conda:required_by:: bioconductor-sponge
 .. |downloads_bioconductor-sponge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sponge.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sponge| image:: https://quay.io/repository/biocontainers/bioconductor-sponge/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sponge
+.. _`bioconductor-sponge/tags`: https://quay.io/repository/biocontainers/bioconductor-sponge?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sponge/README.html
-

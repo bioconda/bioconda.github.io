@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'satrap'
 .. highlight: bash
-
 
 satrap
 ======
@@ -22,11 +23,13 @@ satrap
 
    |downloads_satrap| |docker_satrap|
 
-   :versions: 0.2
-
-   :depends: :conda:package:`libgcc`  :conda:package:`openmp`  
-
-   :required~by: |required_by_satrap|
+   :versions: 0.2-1, 0.2-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends openmp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ satrap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/satrap
+      docker pull quay.io/repository/biocontainers/satrap:<tag>
+
+   (see `satrap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_satrap| conda:required_by:: satrap
 .. |downloads_satrap| image:: https://img.shields.io/conda/dn/bioconda/satrap.svg?style=flat
    :alt:   (downloads)
 .. |docker_satrap| image:: https://quay.io/repository/biocontainers/satrap/status
    :target: https://quay.io/repository/biocontainers/satrap
+.. _`satrap/tags`: https://quay.io/repository/biocontainers/satrap?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/satrap/README.html
-

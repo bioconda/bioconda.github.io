@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ritan'
 .. highlight: bash
-
 
 bioconductor-ritan
 ==================
@@ -21,11 +22,47 @@ bioconductor-ritan
 
    |downloads_bioconductor-ritan| |docker_bioconductor-ritan|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`bioconductor-bgeedb` >=2.8.0,<2.9.0 :conda:package:`bioconductor-ritandata` >=1.6.0,<1.7.0 :conda:package:`bioconductor-stringdb` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dynamictreecut`  :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-gridextra`  :conda:package:`r-gsubfn`  :conda:package:`r-hash`  :conda:package:`r-igraph`  :conda:package:`r-knitr`  :conda:package:`r-linkcomm`  :conda:package:`r-mcl`  :conda:package:`r-plotrix`  :conda:package:`r-png`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-sqldf`  
-
-   :required~by: |required_by_bioconductor-ritan|
+   :versions: 1.6.0-0
+   
+   :depends bioconductor-bgeedb: >=2.8.0,<2.9.0
+   
+   :depends bioconductor-ritandata: >=1.6.0,<1.7.0
+   
+   :depends bioconductor-stringdb: >=1.22.0,<1.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dynamictreecut: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-gsubfn: 
+   
+   :depends r-hash: 
+   
+   :depends r-igraph: 
+   
+   :depends r-knitr: 
+   
+   :depends r-linkcomm: 
+   
+   :depends r-mcl: 
+   
+   :depends r-plotrix: 
+   
+   :depends r-png: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-sqldf: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +76,16 @@ bioconductor-ritan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ritan
+      docker pull quay.io/repository/biocontainers/bioconductor-ritan:<tag>
+
+   (see `bioconductor-ritan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ritan| conda:required_by:: bioconductor-ritan
 .. |downloads_bioconductor-ritan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ritan.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ritan| image:: https://quay.io/repository/biocontainers/bioconductor-ritan/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ritan
+.. _`bioconductor-ritan/tags`: https://quay.io/repository/biocontainers/bioconductor-ritan?tab=tags
 
 
 
@@ -63,4 +102,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ritan/README.html
-

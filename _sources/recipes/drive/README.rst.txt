@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'drive'
 .. highlight: bash
-
 
 drive
 =====
@@ -21,11 +22,9 @@ drive
 
    |downloads_drive| |docker_drive|
 
-   :versions: 0.3.9, 0.3.8
-
-   :depends: 
-
-   :required~by: |required_by_drive|
+   :versions: 0.3.9-1, 0.3.9-0, 0.3.8-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ drive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/drive
+      docker pull quay.io/repository/biocontainers/drive:<tag>
+
+   (see `drive/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_drive| conda:required_by:: drive
 .. |downloads_drive| image:: https://img.shields.io/conda/dn/bioconda/drive.svg?style=flat
    :alt:   (downloads)
 .. |docker_drive| image:: https://quay.io/repository/biocontainers/drive/status
    :target: https://quay.io/repository/biocontainers/drive
+.. _`drive/tags`: https://quay.io/repository/biocontainers/drive?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/drive/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'stellar'
 .. highlight: bash
-
 
 stellar
 =======
@@ -21,11 +22,9 @@ stellar
 
    |downloads_stellar| |docker_stellar|
 
-   :versions: 1.4.9
-
-   :depends: 
-
-   :required~by: |required_by_stellar|
+   :versions: 1.4.9-1, 1.4.9-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ stellar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stellar
+      docker pull quay.io/repository/biocontainers/stellar:<tag>
+
+   (see `stellar/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_stellar| conda:required_by:: stellar
 .. |downloads_stellar| image:: https://img.shields.io/conda/dn/bioconda/stellar.svg?style=flat
    :alt:   (downloads)
 .. |docker_stellar| image:: https://quay.io/repository/biocontainers/stellar/status
    :target: https://quay.io/repository/biocontainers/stellar
+.. _`stellar/tags`: https://quay.io/repository/biocontainers/stellar?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/stellar/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'prince'
 .. highlight: bash
-
 
 prince
 ======
@@ -21,11 +22,17 @@ prince
 
    |downloads_prince| |docker_prince|
 
-   :versions: 2.1, 2.0, 1.2, 1.1, 1.0
-
-   :depends: :conda:package:`biopython`  :conda:package:`numpy`  :conda:package:`python`  :conda:package:`scipy`  
-
-   :required~by: |required_by_prince|
+   :versions: 2.1-0, 2.0-0, 1.2-0, 1.1-0, 1.0-0
+   
+   :depends biopython: 
+   
+   :depends numpy: 
+   
+   :depends python: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ prince
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prince
+      docker pull quay.io/repository/biocontainers/prince:<tag>
+
+   (see `prince/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_prince| conda:required_by:: prince
 .. |downloads_prince| image:: https://img.shields.io/conda/dn/bioconda/prince.svg?style=flat
    :alt:   (downloads)
 .. |docker_prince| image:: https://quay.io/repository/biocontainers/prince/status
    :target: https://quay.io/repository/biocontainers/prince
+.. _`prince/tags`: https://quay.io/repository/biocontainers/prince?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/prince/README.html
-

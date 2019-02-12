@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-digest-sha'
 .. highlight: bash
-
 
 perl-digest-sha
 ===============
@@ -21,11 +22,11 @@ perl-digest-sha
 
    |downloads_perl-digest-sha| |docker_perl-digest-sha|
 
-   :versions: 5.88
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-digest-sha|
+   :versions: 5.88-1, 5.88-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-digest-sha
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-digest-sha
+      docker pull quay.io/repository/biocontainers/perl-digest-sha:<tag>
+
+   (see `perl-digest-sha/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-digest-sha| conda:required_by:: perl-digest-sha
 .. |downloads_perl-digest-sha| image:: https://img.shields.io/conda/dn/bioconda/perl-digest-sha.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-digest-sha| image:: https://quay.io/repository/biocontainers/perl-digest-sha/status
    :target: https://quay.io/repository/biocontainers/perl-digest-sha
+.. _`perl-digest-sha/tags`: https://quay.io/repository/biocontainers/perl-digest-sha?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-digest-sha/README.html
-

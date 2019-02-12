@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'revtrans'
 .. highlight: bash
-
 
 revtrans
 ========
@@ -22,11 +23,11 @@ revtrans
 
    |downloads_revtrans| |docker_revtrans|
 
-   :versions: 1.4
-
-   :depends: :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_revtrans|
+   :versions: 1.4-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ revtrans
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/revtrans
+      docker pull quay.io/repository/biocontainers/revtrans:<tag>
+
+   (see `revtrans/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_revtrans| conda:required_by:: revtrans
 .. |downloads_revtrans| image:: https://img.shields.io/conda/dn/bioconda/revtrans.svg?style=flat
    :alt:   (downloads)
 .. |docker_revtrans| image:: https://quay.io/repository/biocontainers/revtrans/status
    :target: https://quay.io/repository/biocontainers/revtrans
+.. _`revtrans/tags`: https://quay.io/repository/biocontainers/revtrans?tab=tags
 
 
 
@@ -68,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/revtrans/README.html
-

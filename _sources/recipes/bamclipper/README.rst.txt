@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bamclipper'
 .. highlight: bash
-
 
 bamclipper
 ==========
@@ -21,11 +22,15 @@ bamclipper
 
    |downloads_bamclipper| |docker_bamclipper|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`parallel`  :conda:package:`perl` >=5.26.2,<5.27.0a0 :conda:package:`samtools`  
-
-   :required~by: |required_by_bamclipper|
+   :versions: 1.0.0-0
+   
+   :depends parallel: 
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bamclipper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bamclipper
+      docker pull quay.io/repository/biocontainers/bamclipper:<tag>
+
+   (see `bamclipper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bamclipper| conda:required_by:: bamclipper
 .. |downloads_bamclipper| image:: https://img.shields.io/conda/dn/bioconda/bamclipper.svg?style=flat
    :alt:   (downloads)
 .. |docker_bamclipper| image:: https://quay.io/repository/biocontainers/bamclipper/status
    :target: https://quay.io/repository/biocontainers/bamclipper
+.. _`bamclipper/tags`: https://quay.io/repository/biocontainers/bamclipper?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bamclipper/README.html
-

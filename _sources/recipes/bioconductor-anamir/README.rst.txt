@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-anamir'
 .. highlight: bash
-
 
 bioconductor-anamir
 ===================
@@ -21,11 +22,31 @@ bioconductor-anamir
 
    |downloads_bioconductor-anamir| |docker_bioconductor-anamir|
 
-   :versions: 1.10.0
-
-   :depends: :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-gage` >=2.32.0,<2.33.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-lumi` >=2.34.0,<2.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-agricolae`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-gplots`  :conda:package:`r-rmysql`  
-
-   :required~by: |required_by_bioconductor-anamir|
+   :versions: 1.10.0-0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-gage: >=2.32.0,<2.33.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-lumi: >=2.34.0,<2.35.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-agricolae: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dbi: 
+   
+   :depends r-gplots: 
+   
+   :depends r-rmysql: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ bioconductor-anamir
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-anamir
+      docker pull quay.io/repository/biocontainers/bioconductor-anamir:<tag>
+
+   (see `bioconductor-anamir/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-anamir| conda:required_by:: bioconductor-anamir
 .. |downloads_bioconductor-anamir| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-anamir.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-anamir| image:: https://quay.io/repository/biocontainers/bioconductor-anamir/status
    :target: https://quay.io/repository/biocontainers/bioconductor-anamir
+.. _`bioconductor-anamir/tags`: https://quay.io/repository/biocontainers/bioconductor-anamir?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-anamir/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-sereal'
 .. highlight: bash
-
 
 perl-sereal
 ===========
@@ -21,11 +22,15 @@ perl-sereal
 
    |downloads_perl-sereal| |docker_perl-sereal|
 
-   :versions: 4.005, 3.015
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-sereal-decoder` >=4.005 :conda:package:`perl-sereal-encoder` >=4.005 
-
-   :required~by: |required_by_perl-sereal|
+   :versions: 4.005-0, 3.015-1, 3.015-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-sereal-decoder: >=4.005
+   
+   :depends perl-sereal-encoder: >=4.005
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-sereal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sereal
+      docker pull quay.io/repository/biocontainers/perl-sereal:<tag>
+
+   (see `perl-sereal/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-sereal| conda:required_by:: perl-sereal
 .. |downloads_perl-sereal| image:: https://img.shields.io/conda/dn/bioconda/perl-sereal.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-sereal| image:: https://quay.io/repository/biocontainers/perl-sereal/status
    :target: https://quay.io/repository/biocontainers/perl-sereal
+.. _`perl-sereal/tags`: https://quay.io/repository/biocontainers/perl-sereal?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-sereal/README.html
-

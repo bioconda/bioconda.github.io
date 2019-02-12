@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-probmetab'
 .. highlight: bash
-
 
 r-probmetab
 ===========
@@ -21,11 +22,29 @@ r-probmetab
 
    |downloads_r-probmetab| |docker_r-probmetab|
 
-   :versions: 1.1, 1.0
-
-   :depends: :conda:package:`bioconductor-camera`  :conda:package:`bioconductor-multtest`  :conda:package:`bioconductor-rcytoscape`  :conda:package:`r` 3.2.2* :conda:package:`r-genenet`  :conda:package:`r-hwriter`  :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcurl`  :conda:package:`r-rjson`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_r-probmetab|
+   :versions: 1.1-0, 1.0-0
+   
+   :depends bioconductor-camera: 
+   
+   :depends bioconductor-multtest: 
+   
+   :depends bioconductor-rcytoscape: 
+   
+   :depends r: 3.2.2*
+   
+   :depends r-genenet: 
+   
+   :depends r-hwriter: 
+   
+   :depends r-rcpparmadillo: 
+   
+   :depends r-rcurl: 
+   
+   :depends r-rjson: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ r-probmetab
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-probmetab
+      docker pull quay.io/repository/biocontainers/r-probmetab:<tag>
+
+   (see `r-probmetab/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-probmetab| conda:required_by:: r-probmetab
 .. |downloads_r-probmetab| image:: https://img.shields.io/conda/dn/bioconda/r-probmetab.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-probmetab| image:: https://quay.io/repository/biocontainers/r-probmetab/status
    :target: https://quay.io/repository/biocontainers/r-probmetab
+.. _`r-probmetab/tags`: https://quay.io/repository/biocontainers/r-probmetab?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-probmetab/README.html
-

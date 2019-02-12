@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'smartdenovo'
 .. highlight: bash
-
 
 smartdenovo
 ===========
@@ -21,11 +22,13 @@ smartdenovo
 
    |downloads_smartdenovo| |docker_smartdenovo|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`libgcc`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_smartdenovo|
+   :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ smartdenovo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/smartdenovo
+      docker pull quay.io/repository/biocontainers/smartdenovo:<tag>
+
+   (see `smartdenovo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_smartdenovo| conda:required_by:: smartdenovo
 .. |downloads_smartdenovo| image:: https://img.shields.io/conda/dn/bioconda/smartdenovo.svg?style=flat
    :alt:   (downloads)
 .. |docker_smartdenovo| image:: https://quay.io/repository/biocontainers/smartdenovo/status
    :target: https://quay.io/repository/biocontainers/smartdenovo
+.. _`smartdenovo/tags`: https://quay.io/repository/biocontainers/smartdenovo?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/smartdenovo/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-synapter'
 .. highlight: bash
-
 
 bioconductor-synapter
 =====================
@@ -22,11 +23,33 @@ bioconductor-synapter
 
    |downloads_bioconductor-synapter| |docker_bioconductor-synapter|
 
-   :versions: 2.6.1, 2.2.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-cleaver` >=1.20.0,<1.21.0 :conda:package:`bioconductor-msnbase` >=2.8.0,<2.9.0 :conda:package:`bioconductor-multtest` >=2.38.0,<2.39.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-knitr`  :conda:package:`r-lattice`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-readr` >=0.2 :conda:package:`r-rmarkdown` >=1.0 
-
-   :required~by: |required_by_bioconductor-synapter|
+   :versions: 2.6.1-0, 2.2.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-cleaver: >=1.20.0,<1.21.0
+   
+   :depends bioconductor-msnbase: >=2.8.0,<2.9.0
+   
+   :depends bioconductor-multtest: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-knitr: 
+   
+   :depends r-lattice: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-readr: >=0.2
+   
+   :depends r-rmarkdown: >=1.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +63,16 @@ bioconductor-synapter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-synapter
+      docker pull quay.io/repository/biocontainers/bioconductor-synapter:<tag>
+
+   (see `bioconductor-synapter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-synapter| conda:required_by:: bioconductor-synapter
 .. |downloads_bioconductor-synapter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-synapter.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-synapter| image:: https://quay.io/repository/biocontainers/bioconductor-synapter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-synapter
+.. _`bioconductor-synapter/tags`: https://quay.io/repository/biocontainers/bioconductor-synapter?tab=tags
 
 
 
@@ -64,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-synapter/README.html
-

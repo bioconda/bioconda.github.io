@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-lymphoseq'
 .. highlight: bash
-
 
 bioconductor-lymphoseq
 ======================
@@ -21,11 +22,43 @@ bioconductor-lymphoseq
 
    |downloads_bioconductor-lymphoseq| |docker_bioconductor-lymphoseq|
 
-   :versions: 1.10.0
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-ggtree` >=1.14.0,<1.15.0 :conda:package:`bioconductor-lymphoseqdb` >=0.99.0,<0.100.0 :conda:package:`bioconductor-msa` >=1.14.0,<1.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-circlize`  :conda:package:`r-data.table`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-ineq`  :conda:package:`r-phangorn`  :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape`  :conda:package:`r-stringdist`  :conda:package:`r-upsetr`  :conda:package:`r-venndiagram`  
-
-   :required~by: |required_by_bioconductor-lymphoseq|
+   :versions: 1.10.0-0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-ggtree: >=1.14.0,<1.15.0
+   
+   :depends bioconductor-lymphoseqdb: >=0.99.0,<0.100.0
+   
+   :depends bioconductor-msa: >=1.14.0,<1.15.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-circlize: 
+   
+   :depends r-data.table: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ineq: 
+   
+   :depends r-phangorn: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape: 
+   
+   :depends r-stringdist: 
+   
+   :depends r-upsetr: 
+   
+   :depends r-venndiagram: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +72,16 @@ bioconductor-lymphoseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lymphoseq
+      docker pull quay.io/repository/biocontainers/bioconductor-lymphoseq:<tag>
+
+   (see `bioconductor-lymphoseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-lymphoseq| conda:required_by:: bioconductor-lymphoseq
 .. |downloads_bioconductor-lymphoseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lymphoseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-lymphoseq| image:: https://quay.io/repository/biocontainers/bioconductor-lymphoseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lymphoseq
+.. _`bioconductor-lymphoseq/tags`: https://quay.io/repository/biocontainers/bioconductor-lymphoseq?tab=tags
 
 
 
@@ -63,4 +98,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-lymphoseq/README.html
-

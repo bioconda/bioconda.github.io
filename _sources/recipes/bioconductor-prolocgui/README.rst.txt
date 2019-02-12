@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-prolocgui'
 .. highlight: bash
-
 
 bioconductor-prolocgui
 ======================
@@ -22,11 +23,27 @@ bioconductor-prolocgui
 
    |downloads_bioconductor-prolocgui| |docker_bioconductor-prolocgui|
 
-   :versions: 1.16.0, 1.12.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-msnbase` >=2.8.0,<2.9.0 :conda:package:`bioconductor-proloc` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-dt` >=0.1.40 :conda:package:`r-ggplot2`  :conda:package:`r-scales`  :conda:package:`r-shiny` >=0.9.1 
-
-   :required~by: |required_by_bioconductor-prolocgui|
+   :versions: 1.16.0-0, 1.12.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-msnbase: >=2.8.0,<2.9.0
+   
+   :depends bioconductor-proloc: >=1.22.0,<1.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-dt: >=0.1.40
+   
+   :depends r-ggplot2: 
+   
+   :depends r-scales: 
+   
+   :depends r-shiny: >=0.9.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ bioconductor-prolocgui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-prolocgui
+      docker pull quay.io/repository/biocontainers/bioconductor-prolocgui:<tag>
+
+   (see `bioconductor-prolocgui/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-prolocgui| conda:required_by:: bioconductor-prolocgui
 .. |downloads_bioconductor-prolocgui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prolocgui.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-prolocgui| image:: https://quay.io/repository/biocontainers/bioconductor-prolocgui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prolocgui
+.. _`bioconductor-prolocgui/tags`: https://quay.io/repository/biocontainers/bioconductor-prolocgui?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-prolocgui/README.html
-

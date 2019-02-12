@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lcfit'
 .. highlight: bash
-
 
 lcfit
 =====
@@ -21,11 +22,25 @@ lcfit
 
    |downloads_lcfit| |docker_lcfit|
 
-   :versions: 0.5, 0.4
-
-   :depends: :conda:package:`bpp-core`  :conda:package:`bpp-phyl`  :conda:package:`bpp-seq`  :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`nlopt`  :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 
-
-   :required~by: |required_by_lcfit|
+   :versions: 0.5-3, 0.4-0
+   
+   :depends bpp-core: 
+   
+   :depends bpp-phyl: 
+   
+   :depends bpp-seq: 
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends nlopt: 
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ lcfit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lcfit
+      docker pull quay.io/repository/biocontainers/lcfit:<tag>
+
+   (see `lcfit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lcfit| conda:required_by:: lcfit
 .. |downloads_lcfit| image:: https://img.shields.io/conda/dn/bioconda/lcfit.svg?style=flat
    :alt:   (downloads)
 .. |docker_lcfit| image:: https://quay.io/repository/biocontainers/lcfit/status
    :target: https://quay.io/repository/biocontainers/lcfit
+.. _`lcfit/tags`: https://quay.io/repository/biocontainers/lcfit?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lcfit/README.html
-

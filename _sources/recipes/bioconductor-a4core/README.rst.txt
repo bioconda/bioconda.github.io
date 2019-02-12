@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-a4core'
 .. highlight: bash
-
 
 bioconductor-a4core
 ===================
@@ -22,11 +23,15 @@ bioconductor-a4core
 
    |downloads_bioconductor-a4core| |docker_bioconductor-a4core|
 
-   :versions: 1.30.0, 1.28.0, 1.26.0, 1.24.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-glmnet`  
-
-   :required~by: |required_by_bioconductor-a4core|
+   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0, 1.24.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-glmnet: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-a4core
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-a4core
+      docker pull quay.io/repository/biocontainers/bioconductor-a4core:<tag>
+
+   (see `bioconductor-a4core/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-a4core| conda:required_by:: bioconductor-a4core
 .. |downloads_bioconductor-a4core| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-a4core.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-a4core| image:: https://quay.io/repository/biocontainers/bioconductor-a4core/status
    :target: https://quay.io/repository/biocontainers/bioconductor-a4core
+.. _`bioconductor-a4core/tags`: https://quay.io/repository/biocontainers/bioconductor-a4core?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-a4core/README.html
-

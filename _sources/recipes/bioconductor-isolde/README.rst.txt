@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-isolde'
 .. highlight: bash
-
 
 bioconductor-isolde
 ===================
@@ -22,11 +23,13 @@ bioconductor-isolde
 
    |downloads_bioconductor-isolde| |docker_bioconductor-isolde|
 
-   :versions: 1.10.1, 1.10.0, 1.8.0, 1.6.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-isolde|
+   :versions: 1.10.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-isolde
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-isolde
+      docker pull quay.io/repository/biocontainers/bioconductor-isolde:<tag>
+
+   (see `bioconductor-isolde/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-isolde| conda:required_by:: bioconductor-isolde
 .. |downloads_bioconductor-isolde| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-isolde.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-isolde| image:: https://quay.io/repository/biocontainers/bioconductor-isolde/status
    :target: https://quay.io/repository/biocontainers/bioconductor-isolde
+.. _`bioconductor-isolde/tags`: https://quay.io/repository/biocontainers/bioconductor-isolde?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-isolde/README.html
-

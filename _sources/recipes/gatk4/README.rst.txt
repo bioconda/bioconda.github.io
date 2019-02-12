@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gatk4'
 .. highlight: bash
-
 
 gatk4
 =====
@@ -22,11 +23,13 @@ gatk4
 
    |downloads_gatk4| |docker_gatk4|
 
-   :versions: 4.1.0.0, 4.0.12.0, 4.0.11.0, 4.0.10.0, 4.0.9.0, 4.0.8.1, 4.0.7.0, 4.0.6.0, 4.0.5.2, 4.0.5.1, 4.0.4.0, 4.0.3.0, 4.0.2.1, 4.0.2.0, 4.0.1.2, 4.0.1.1, 4.0.1.0, 4.0.0.0, 4.0b6, 4.0b5, 4.0b4, 4.0b3, 4.0b2, 4.0b1, 4.0a1.2.7.2
-
-   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
-
-   :required~by: |required_by_gatk4|
+   :versions: 4.1.0.0-0, 4.0.12.0-0, 4.0.11.0-0, 4.0.10.0-0, 4.0.9.0-0, 4.0.8.1-0, 4.0.7.0-0, 4.0.6.0-0, 4.0.5.2-0, 4.0.5.1-0, 4.0.4.0-0, 4.0.3.0-1, 4.0.3.0-0, 4.0.2.1-0, 4.0.2.0-0, 4.0.1.2-0, 4.0.1.1-0, 4.0.1.0-0, 4.0.0.0-0, 4.0b6-0, 4.0b5-0, 4.0b4-0, 4.0b3-0, 4.0b2-0, 4.0b1-0, 4.0a1.2.7.2-2
+   
+   :depends openjdk: >=8,<9
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ gatk4
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gatk4
+      docker pull quay.io/repository/biocontainers/gatk4:<tag>
+
+   (see `gatk4/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gatk4| conda:required_by:: gatk4
 .. |downloads_gatk4| image:: https://img.shields.io/conda/dn/bioconda/gatk4.svg?style=flat
    :alt:   (downloads)
 .. |docker_gatk4| image:: https://quay.io/repository/biocontainers/gatk4/status
    :target: https://quay.io/repository/biocontainers/gatk4
+.. _`gatk4/tags`: https://quay.io/repository/biocontainers/gatk4?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gatk4/README.html
-

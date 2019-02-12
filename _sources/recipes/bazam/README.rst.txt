@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bazam'
 .. highlight: bash
-
 
 bazam
 =====
@@ -21,11 +22,11 @@ bazam
 
    |downloads_bazam| |docker_bazam|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_bazam|
+   :versions: 1.0.1-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bazam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bazam
+      docker pull quay.io/repository/biocontainers/bazam:<tag>
+
+   (see `bazam/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bazam| conda:required_by:: bazam
 .. |downloads_bazam| image:: https://img.shields.io/conda/dn/bioconda/bazam.svg?style=flat
    :alt:   (downloads)
 .. |docker_bazam| image:: https://quay.io/repository/biocontainers/bazam/status
    :target: https://quay.io/repository/biocontainers/bazam
+.. _`bazam/tags`: https://quay.io/repository/biocontainers/bazam?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bazam/README.html
-

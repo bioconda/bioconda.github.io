@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'itsx'
 .. highlight: bash
-
 
 itsx
 ====
@@ -21,11 +22,13 @@ itsx
 
    |downloads_itsx| |docker_itsx|
 
-   :versions: 1.1b
-
-   :depends: :conda:package:`hmmer` >=3.1b2 :conda:package:`perl`  
-
-   :required~by: |required_by_itsx|
+   :versions: 1.1b-1, 1.1b-0
+   
+   :depends hmmer: >=3.1b2
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ itsx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/itsx
+      docker pull quay.io/repository/biocontainers/itsx:<tag>
+
+   (see `itsx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_itsx| conda:required_by:: itsx
 .. |downloads_itsx| image:: https://img.shields.io/conda/dn/bioconda/itsx.svg?style=flat
    :alt:   (downloads)
 .. |docker_itsx| image:: https://quay.io/repository/biocontainers/itsx/status
    :target: https://quay.io/repository/biocontainers/itsx
+.. _`itsx/tags`: https://quay.io/repository/biocontainers/itsx?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/itsx/README.html
-

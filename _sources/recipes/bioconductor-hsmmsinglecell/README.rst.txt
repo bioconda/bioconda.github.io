@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-hsmmsinglecell'
 .. highlight: bash
-
 
 bioconductor-hsmmsinglecell
 ===========================
@@ -21,11 +22,13 @@ bioconductor-hsmmsinglecell
 
    |downloads_bioconductor-hsmmsinglecell| |docker_bioconductor-hsmmsinglecell|
 
-   :versions: 1.2.0, 0.114.0, 0.112.0, 0.110.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-hsmmsinglecell|
+   :versions: 1.2.0-0, 0.114.0-0, 0.112.0-1, 0.112.0-0, 0.110.0-1, 0.110.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-hsmmsinglecell
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hsmmsinglecell
+      docker pull quay.io/repository/biocontainers/bioconductor-hsmmsinglecell:<tag>
+
+   (see `bioconductor-hsmmsinglecell/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-hsmmsinglecell| conda:required_by:: bioconductor-hsmmsinglecell
 .. |downloads_bioconductor-hsmmsinglecell| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hsmmsinglecell.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-hsmmsinglecell| image:: https://quay.io/repository/biocontainers/bioconductor-hsmmsinglecell/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hsmmsinglecell
+.. _`bioconductor-hsmmsinglecell/tags`: https://quay.io/repository/biocontainers/bioconductor-hsmmsinglecell?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-hsmmsinglecell/README.html
-

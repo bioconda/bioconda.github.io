@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-http-daemon'
 .. highlight: bash
-
 
 perl-http-daemon
 ================
@@ -21,11 +22,17 @@ perl-http-daemon
 
    |downloads_perl-http-daemon| |docker_perl-http-daemon|
 
-   :versions: 6.01
-
-   :depends: :conda:package:`perl-http-date`  :conda:package:`perl-http-message`  :conda:package:`perl-lwp-mediatypes`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-http-daemon|
+   :versions: 6.01-1, 6.01-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-http-date: 
+   
+   :depends perl-http-message: 
+   
+   :depends perl-lwp-mediatypes: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-http-daemon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-http-daemon
+      docker pull quay.io/repository/biocontainers/perl-http-daemon:<tag>
+
+   (see `perl-http-daemon/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-http-daemon| conda:required_by:: perl-http-daemon
 .. |downloads_perl-http-daemon| image:: https://img.shields.io/conda/dn/bioconda/perl-http-daemon.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-http-daemon| image:: https://quay.io/repository/biocontainers/perl-http-daemon/status
    :target: https://quay.io/repository/biocontainers/perl-http-daemon
+.. _`perl-http-daemon/tags`: https://quay.io/repository/biocontainers/perl-http-daemon?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-http-daemon/README.html
-

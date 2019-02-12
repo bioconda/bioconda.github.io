@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'compalignp'
 .. highlight: bash
-
 
 compalignp
 ==========
@@ -21,11 +22,11 @@ compalignp
 
    |downloads_compalignp| |docker_compalignp|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_compalignp|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ compalignp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/compalignp
+      docker pull quay.io/repository/biocontainers/compalignp:<tag>
+
+   (see `compalignp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_compalignp| conda:required_by:: compalignp
 .. |downloads_compalignp| image:: https://img.shields.io/conda/dn/bioconda/compalignp.svg?style=flat
    :alt:   (downloads)
 .. |docker_compalignp| image:: https://quay.io/repository/biocontainers/compalignp/status
    :target: https://quay.io/repository/biocontainers/compalignp
+.. _`compalignp/tags`: https://quay.io/repository/biocontainers/compalignp?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/compalignp/README.html
-

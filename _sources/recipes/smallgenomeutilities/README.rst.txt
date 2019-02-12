@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'smallgenomeutilities'
 .. highlight: bash
-
 
 smallgenomeutilities
 ====================
@@ -21,11 +22,25 @@ smallgenomeutilities
 
    |downloads_smallgenomeutilities| |docker_smallgenomeutilities|
 
-   :versions: 0.2.1, 0.1
-
-   :depends: :conda:package:`biopython`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`progress`  :conda:package:`pysam`  :conda:package:`python` 3.5* :conda:package:`scikit-learn`  :conda:package:`scipy`  
-
-   :required~by: |required_by_smallgenomeutilities|
+   :versions: 0.2.1-1, 0.2.1-0, 0.1-1, 0.1-0
+   
+   :depends biopython: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends progress: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ smallgenomeutilities
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/smallgenomeutilities
+      docker pull quay.io/repository/biocontainers/smallgenomeutilities:<tag>
+
+   (see `smallgenomeutilities/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_smallgenomeutilities| conda:required_by:: smallgenomeutilities
 .. |downloads_smallgenomeutilities| image:: https://img.shields.io/conda/dn/bioconda/smallgenomeutilities.svg?style=flat
    :alt:   (downloads)
 .. |docker_smallgenomeutilities| image:: https://quay.io/repository/biocontainers/smallgenomeutilities/status
    :target: https://quay.io/repository/biocontainers/smallgenomeutilities
+.. _`smallgenomeutilities/tags`: https://quay.io/repository/biocontainers/smallgenomeutilities?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/smallgenomeutilities/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyseer'
 .. highlight: bash
-
 
 pyseer
 ======
@@ -21,11 +22,43 @@ pyseer
 
    |downloads_pyseer| |docker_pyseer|
 
-   :versions: 1.2.0, 1.1.2, 1.1.1, 1.1.0, 1.0.2, 0.3.1
-
-   :depends: :conda:package:`bedops`  :conda:package:`bedtools`  :conda:package:`bwa`  :conda:package:`dendropy`  :conda:package:`glmnet_py`  :conda:package:`mash`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pybedtools`  :conda:package:`pysam`  :conda:package:`python`  :conda:package:`python-dateutil` >=2.5.0 :conda:package:`scikit-learn`  :conda:package:`scipy`  :conda:package:`statsmodels`  :conda:package:`tqdm`  
-
-   :required~by: |required_by_pyseer|
+   :versions: 1.2.0-0, 1.1.2-0, 1.1.1-0, 1.1.0-1, 1.1.0-0, 1.0.2-0, 0.3.1-0
+   
+   :depends bedops: 
+   
+   :depends bedtools: 
+   
+   :depends bwa: 
+   
+   :depends dendropy: 
+   
+   :depends glmnet_py: 
+   
+   :depends mash: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends pybedtools: 
+   
+   :depends pysam: 
+   
+   :depends python: 
+   
+   :depends python-dateutil: >=2.5.0
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :depends statsmodels: 
+   
+   :depends tqdm: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +72,16 @@ pyseer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyseer
+      docker pull quay.io/repository/biocontainers/pyseer:<tag>
+
+   (see `pyseer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyseer| conda:required_by:: pyseer
 .. |downloads_pyseer| image:: https://img.shields.io/conda/dn/bioconda/pyseer.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyseer| image:: https://quay.io/repository/biocontainers/pyseer/status
    :target: https://quay.io/repository/biocontainers/pyseer
+.. _`pyseer/tags`: https://quay.io/repository/biocontainers/pyseer?tab=tags
 
 
 
@@ -63,4 +98,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyseer/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pp'
 .. highlight: bash
-
 
 pp
 ==
@@ -21,11 +22,11 @@ pp
 
    |downloads_pp| |docker_pp|
 
-   :versions: 1.6.5, 1.6.4
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pp|
+   :versions: 1.6.5-1, 1.6.5-0, 1.6.4-1, 1.6.4-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ pp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pp
+      docker pull quay.io/repository/biocontainers/pp:<tag>
+
+   (see `pp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pp| conda:required_by:: pp
 .. |downloads_pp| image:: https://img.shields.io/conda/dn/bioconda/pp.svg?style=flat
    :alt:   (downloads)
 .. |docker_pp| image:: https://quay.io/repository/biocontainers/pp/status
    :target: https://quay.io/repository/biocontainers/pp
+.. _`pp/tags`: https://quay.io/repository/biocontainers/pp?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pp/README.html
-

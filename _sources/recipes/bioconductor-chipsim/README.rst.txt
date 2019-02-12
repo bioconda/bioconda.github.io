@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-chipsim'
 .. highlight: bash
-
 
 bioconductor-chipsim
 ====================
@@ -22,11 +23,19 @@ bioconductor-chipsim
 
    |downloads_bioconductor-chipsim| |docker_bioconductor-chipsim|
 
-   :versions: 1.36.0, 1.34.0, 1.32.0
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-shortread` >=1.40.0,<1.41.0 :conda:package:`bioconductor-xvector` >=0.22.0,<0.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-chipsim|
+   :versions: 1.36.0-0, 1.34.0-0, 1.32.0-0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-shortread: >=1.40.0,<1.41.0
+   
+   :depends bioconductor-xvector: >=0.22.0,<0.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-chipsim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chipsim
+      docker pull quay.io/repository/biocontainers/bioconductor-chipsim:<tag>
+
+   (see `bioconductor-chipsim/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-chipsim| conda:required_by:: bioconductor-chipsim
 .. |downloads_bioconductor-chipsim| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chipsim.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-chipsim| image:: https://quay.io/repository/biocontainers/bioconductor-chipsim/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chipsim
+.. _`bioconductor-chipsim/tags`: https://quay.io/repository/biocontainers/bioconductor-chipsim?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-chipsim/README.html
-

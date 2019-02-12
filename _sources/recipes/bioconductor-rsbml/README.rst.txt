@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rsbml'
 .. highlight: bash
-
 
 bioconductor-rsbml
 ==================
@@ -22,10 +23,8 @@ bioconductor-rsbml
    |downloads_bioconductor-rsbml| |docker_bioconductor-rsbml|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-rsbml|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-rsbml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rsbml
+      docker pull quay.io/repository/biocontainers/bioconductor-rsbml:<tag>
+
+   (see `bioconductor-rsbml/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rsbml| conda:required_by:: bioconductor-rsbml
 .. |downloads_bioconductor-rsbml| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rsbml.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rsbml| image:: https://quay.io/repository/biocontainers/bioconductor-rsbml/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rsbml
+.. _`bioconductor-rsbml/tags`: https://quay.io/repository/biocontainers/bioconductor-rsbml?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rsbml/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pbdagcon'
 .. highlight: bash
-
 
 pbdagcon
 ========
@@ -21,11 +22,17 @@ pbdagcon
 
    |downloads_pbdagcon| |docker_pbdagcon|
 
-   :versions: 0.1
-
-   :depends: :conda:package:`blasr_libcpp`  :conda:package:`daligner`  :conda:package:`dazz_db`  :conda:package:`libgcc`  
-
-   :required~by: |required_by_pbdagcon|
+   :versions: 0.1-0
+   
+   :depends blasr_libcpp: 
+   
+   :depends daligner: 
+   
+   :depends dazz_db: 
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ pbdagcon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbdagcon
+      docker pull quay.io/repository/biocontainers/pbdagcon:<tag>
+
+   (see `pbdagcon/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pbdagcon| conda:required_by:: pbdagcon
 .. |downloads_pbdagcon| image:: https://img.shields.io/conda/dn/bioconda/pbdagcon.svg?style=flat
    :alt:   (downloads)
 .. |docker_pbdagcon| image:: https://quay.io/repository/biocontainers/pbdagcon/status
    :target: https://quay.io/repository/biocontainers/pbdagcon
+.. _`pbdagcon/tags`: https://quay.io/repository/biocontainers/pbdagcon?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pbdagcon/README.html
-

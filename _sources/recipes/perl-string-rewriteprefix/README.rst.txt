@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-string-rewriteprefix'
 .. highlight: bash
-
 
 perl-string-rewriteprefix
 =========================
@@ -21,11 +22,15 @@ perl-string-rewriteprefix
 
    |downloads_perl-string-rewriteprefix| |docker_perl-string-rewriteprefix|
 
-   :versions: 0.007
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-sub-exporter`  
-
-   :required~by: |required_by_perl-string-rewriteprefix|
+   :versions: 0.007-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-sub-exporter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-string-rewriteprefix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-string-rewriteprefix
+      docker pull quay.io/repository/biocontainers/perl-string-rewriteprefix:<tag>
+
+   (see `perl-string-rewriteprefix/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-string-rewriteprefix| conda:required_by:: perl-string-rewriteprefix
 .. |downloads_perl-string-rewriteprefix| image:: https://img.shields.io/conda/dn/bioconda/perl-string-rewriteprefix.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-string-rewriteprefix| image:: https://quay.io/repository/biocontainers/perl-string-rewriteprefix/status
    :target: https://quay.io/repository/biocontainers/perl-string-rewriteprefix
+.. _`perl-string-rewriteprefix/tags`: https://quay.io/repository/biocontainers/perl-string-rewriteprefix?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-string-rewriteprefix/README.html
-

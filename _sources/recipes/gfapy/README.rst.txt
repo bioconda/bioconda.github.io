@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gfapy'
 .. highlight: bash
-
 
 gfapy
 =====
@@ -21,11 +22,11 @@ gfapy
 
    |downloads_gfapy| |docker_gfapy|
 
-   :versions: 1.0.0, 1.0.0rc10, 1.0.0rc9
-
-   :depends: :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_gfapy|
+   :versions: 1.0.0-1, 1.0.0-0, 1.0.0rc10-0, 1.0.0rc9-0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ gfapy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gfapy
+      docker pull quay.io/repository/biocontainers/gfapy:<tag>
+
+   (see `gfapy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gfapy| conda:required_by:: gfapy
 .. |downloads_gfapy| image:: https://img.shields.io/conda/dn/bioconda/gfapy.svg?style=flat
    :alt:   (downloads)
 .. |docker_gfapy| image:: https://quay.io/repository/biocontainers/gfapy/status
    :target: https://quay.io/repository/biocontainers/gfapy
+.. _`gfapy/tags`: https://quay.io/repository/biocontainers/gfapy?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gfapy/README.html
-

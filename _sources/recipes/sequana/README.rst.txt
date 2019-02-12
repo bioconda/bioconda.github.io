@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sequana'
 .. highlight: bash
-
 
 sequana
 =======
@@ -21,11 +22,87 @@ sequana
 
    |downloads_sequana| |docker_sequana|
 
-   :versions: 0.7.1, 0.7.0, 0.6.3.post1, 0.6.1, 0.6.0, 0.5.2, 0.5.1, 0.5.0, 0.4.1, 0.4.0, 0.3.0, 0.2.1, 0.2.0
-
-   :depends: :conda:package:`atropos` 1.1.16 :conda:package:`bcftools`  :conda:package:`bedtools`  :conda:package:`biokit` >=0.4.3 :conda:package:`bioservices` >=1.5.1 :conda:package:`bleach`  :conda:package:`bowtie`  :conda:package:`bowtie2`  :conda:package:`bwa`  :conda:package:`colorlog`  :conda:package:`cutadapt`  :conda:package:`easydev` >=0.9.36 :conda:package:`fastq-screen`  :conda:package:`fastqc` 0.11.5 :conda:package:`freebayes`  :conda:package:`graphviz`  :conda:package:`khmer`  :conda:package:`kraken`  :conda:package:`krona`  :conda:package:`mock`  :conda:package:`multiqc` 1.0 :conda:package:`numexpr`  :conda:package:`pandas`  :conda:package:`pigz`  :conda:package:`psutil`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`pyvcf`  :conda:package:`pyyaml`  :conda:package:`qtconsole`  :conda:package:`ruamel.yaml`  :conda:package:`sambamba`  :conda:package:`samtools`  :conda:package:`shustring`  :conda:package:`snakemake` 4.0.0 :conda:package:`snpeff`  :conda:package:`spades`  :conda:package:`subread`  :conda:package:`xlrd`  
-
-   :required~by: |required_by_sequana|
+   :versions: 0.7.1-1, 0.7.0-0, 0.6.3.post1-0, 0.6.1-0, 0.6.0-0, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.1-0, 0.4.0-0, 0.3.0-0, 0.2.1-0, 0.2.0-0
+   
+   :depends atropos: 1.1.16
+   
+   :depends bcftools: 
+   
+   :depends bedtools: 
+   
+   :depends biokit: >=0.4.3
+   
+   :depends bioservices: >=1.5.1
+   
+   :depends bleach: 
+   
+   :depends bowtie: 
+   
+   :depends bowtie2: 
+   
+   :depends bwa: 
+   
+   :depends colorlog: 
+   
+   :depends cutadapt: 
+   
+   :depends easydev: >=0.9.36
+   
+   :depends fastq-screen: 
+   
+   :depends fastqc: 0.11.5
+   
+   :depends freebayes: 
+   
+   :depends graphviz: 
+   
+   :depends khmer: 
+   
+   :depends kraken: 
+   
+   :depends krona: 
+   
+   :depends mock: 
+   
+   :depends multiqc: 1.0
+   
+   :depends numexpr: 
+   
+   :depends pandas: 
+   
+   :depends pigz: 
+   
+   :depends psutil: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends pyvcf: 
+   
+   :depends pyyaml: 
+   
+   :depends qtconsole: 
+   
+   :depends ruamel.yaml: 
+   
+   :depends sambamba: 
+   
+   :depends samtools: 
+   
+   :depends shustring: 
+   
+   :depends snakemake: 4.0.0
+   
+   :depends snpeff: 
+   
+   :depends spades: 
+   
+   :depends subread: 
+   
+   :depends xlrd: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +116,16 @@ sequana
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sequana
+      docker pull quay.io/repository/biocontainers/sequana:<tag>
+
+   (see `sequana/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sequana| conda:required_by:: sequana
 .. |downloads_sequana| image:: https://img.shields.io/conda/dn/bioconda/sequana.svg?style=flat
    :alt:   (downloads)
 .. |docker_sequana| image:: https://quay.io/repository/biocontainers/sequana/status
    :target: https://quay.io/repository/biocontainers/sequana
+.. _`sequana/tags`: https://quay.io/repository/biocontainers/sequana?tab=tags
 
 
 
@@ -63,4 +142,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sequana/README.html
-

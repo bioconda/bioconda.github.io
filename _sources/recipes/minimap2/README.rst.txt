@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'minimap2'
 .. highlight: bash
-
 
 minimap2
 ========
@@ -21,11 +22,13 @@ minimap2
 
    |downloads_minimap2| |docker_minimap2|
 
-   :versions: 2.15, 2.14, 2.13, 2.12, 2.11, 2.10, 2.9, 2.8, 2.7, 2.6.1, 2.6, 2.5, 2.4, 2.3, 2.1.1, 2.1.r311, 2.0.r191
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_minimap2|
+   :versions: 2.15-1, 2.15-0, 2.14-0, 2.13-0, 2.12-0, 2.11-0, 2.10-1, 2.9-1, 2.8-1, 2.8-0, 2.7-1, 2.7-0, 2.6.1-0, 2.6-0, 2.5-0, 2.4-0, 2.3-0, 2.1.1-0, 2.1.r311-0, 2.0.r191-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ minimap2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/minimap2
+      docker pull quay.io/repository/biocontainers/minimap2:<tag>
+
+   (see `minimap2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_minimap2| conda:required_by:: minimap2
 .. |downloads_minimap2| image:: https://img.shields.io/conda/dn/bioconda/minimap2.svg?style=flat
    :alt:   (downloads)
 .. |docker_minimap2| image:: https://quay.io/repository/biocontainers/minimap2/status
    :target: https://quay.io/repository/biocontainers/minimap2
+.. _`minimap2/tags`: https://quay.io/repository/biocontainers/minimap2?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/minimap2/README.html
-

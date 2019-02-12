@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mergevcf'
 .. highlight: bash
-
 
 mergevcf
 ========
@@ -21,11 +22,13 @@ mergevcf
 
    |downloads_mergevcf| |docker_mergevcf|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`python` 2.7* :conda:package:`pyvcf`  
-
-   :required~by: |required_by_mergevcf|
+   :versions: 1.0.1-1, 1.0.1-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends pyvcf: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ mergevcf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mergevcf
+      docker pull quay.io/repository/biocontainers/mergevcf:<tag>
+
+   (see `mergevcf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mergevcf| conda:required_by:: mergevcf
 .. |downloads_mergevcf| image:: https://img.shields.io/conda/dn/bioconda/mergevcf.svg?style=flat
    :alt:   (downloads)
 .. |docker_mergevcf| image:: https://quay.io/repository/biocontainers/mergevcf/status
    :target: https://quay.io/repository/biocontainers/mergevcf
+.. _`mergevcf/tags`: https://quay.io/repository/biocontainers/mergevcf?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mergevcf/README.html
-

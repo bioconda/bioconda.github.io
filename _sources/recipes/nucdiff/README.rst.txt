@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nucdiff'
 .. highlight: bash
-
 
 nucdiff
 =======
@@ -21,11 +22,15 @@ nucdiff
 
    |downloads_nucdiff| |docker_nucdiff|
 
-   :versions: 2.0.2, 0.1.1
-
-   :depends: :conda:package:`biopython`  :conda:package:`mummer`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_nucdiff|
+   :versions: 2.0.2-2, 2.0.2-0, 0.1.1-0
+   
+   :depends biopython: 
+   
+   :depends mummer: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ nucdiff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nucdiff
+      docker pull quay.io/repository/biocontainers/nucdiff:<tag>
+
+   (see `nucdiff/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nucdiff| conda:required_by:: nucdiff
 .. |downloads_nucdiff| image:: https://img.shields.io/conda/dn/bioconda/nucdiff.svg?style=flat
    :alt:   (downloads)
 .. |docker_nucdiff| image:: https://quay.io/repository/biocontainers/nucdiff/status
    :target: https://quay.io/repository/biocontainers/nucdiff
+.. _`nucdiff/tags`: https://quay.io/repository/biocontainers/nucdiff?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nucdiff/README.html
-

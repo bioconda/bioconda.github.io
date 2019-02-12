@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-classifyr'
 .. highlight: bash
-
 
 bioconductor-classifyr
 ======================
@@ -22,11 +23,21 @@ bioconductor-classifyr
 
    |downloads_bioconductor-classifyr| |docker_bioconductor-classifyr|
 
-   :versions: 2.2.4, 2.0.10, 1.12.2
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-multiassayexperiment` >=1.8.0,<1.9.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-locfit`  :conda:package:`r-plyr`  
-
-   :required~by: |required_by_bioconductor-classifyr|
+   :versions: 2.2.4-0, 2.0.10-0, 1.12.2-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-multiassayexperiment: >=1.8.0,<1.9.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-locfit: 
+   
+   :depends r-plyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-classifyr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-classifyr
+      docker pull quay.io/repository/biocontainers/bioconductor-classifyr:<tag>
+
+   (see `bioconductor-classifyr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-classifyr| conda:required_by:: bioconductor-classifyr
 .. |downloads_bioconductor-classifyr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-classifyr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-classifyr| image:: https://quay.io/repository/biocontainers/bioconductor-classifyr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-classifyr
+.. _`bioconductor-classifyr/tags`: https://quay.io/repository/biocontainers/bioconductor-classifyr?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-classifyr/README.html
-

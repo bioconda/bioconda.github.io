@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-basespacer'
 .. highlight: bash
-
 
 bioconductor-basespacer
 =======================
@@ -22,11 +23,15 @@ bioconductor-basespacer
 
    |downloads_bioconductor-basespacer| |docker_bioconductor-basespacer|
 
-   :versions: 1.26.0, 1.24.0, 1.22.0, 1.20.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcurl`  :conda:package:`r-rjsonio`  
-
-   :required~by: |required_by_bioconductor-basespacer|
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcurl: 
+   
+   :depends r-rjsonio: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-basespacer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-basespacer
+      docker pull quay.io/repository/biocontainers/bioconductor-basespacer:<tag>
+
+   (see `bioconductor-basespacer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-basespacer| conda:required_by:: bioconductor-basespacer
 .. |downloads_bioconductor-basespacer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-basespacer.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-basespacer| image:: https://quay.io/repository/biocontainers/bioconductor-basespacer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-basespacer
+.. _`bioconductor-basespacer/tags`: https://quay.io/repository/biocontainers/bioconductor-basespacer?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-basespacer/README.html
-

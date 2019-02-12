@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-variable-magic'
 .. highlight: bash
-
 
 perl-variable-magic
 ===================
@@ -21,11 +22,13 @@ perl-variable-magic
 
    |downloads_perl-variable-magic| |docker_perl-variable-magic|
 
-   :versions: 0.61
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-xsloader`  
-
-   :required~by: |required_by_perl-variable-magic|
+   :versions: 0.61-1, 0.61-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-xsloader: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-variable-magic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-variable-magic
+      docker pull quay.io/repository/biocontainers/perl-variable-magic:<tag>
+
+   (see `perl-variable-magic/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-variable-magic| conda:required_by:: perl-variable-magic
 .. |downloads_perl-variable-magic| image:: https://img.shields.io/conda/dn/bioconda/perl-variable-magic.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-variable-magic| image:: https://quay.io/repository/biocontainers/perl-variable-magic/status
    :target: https://quay.io/repository/biocontainers/perl-variable-magic
+.. _`perl-variable-magic/tags`: https://quay.io/repository/biocontainers/perl-variable-magic?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-variable-magic/README.html
-

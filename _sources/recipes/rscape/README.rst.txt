@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rscape'
 .. highlight: bash
-
 
 rscape
 ======
@@ -21,11 +22,15 @@ rscape
 
    |downloads_rscape| |docker_rscape|
 
-   :versions: 1.2.2, 1.0.4, 0.8.3, 0.6.1, 0.3.1, 0.2.1
-
-   :depends: :conda:package:`gnuplot`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 
-
-   :required~by: |required_by_rscape|
+   :versions: 1.2.2-1, 1.2.2-0, 1.0.4-2, 1.0.4-1, 0.8.3-2, 0.8.3-1, 0.8.3-0, 0.6.1-4, 0.6.1-3, 0.6.1-2, 0.6.1-0, 0.3.1-0, 0.2.1-0
+   
+   :depends gnuplot: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ rscape
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rscape
+      docker pull quay.io/repository/biocontainers/rscape:<tag>
+
+   (see `rscape/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rscape| conda:required_by:: rscape
 .. |downloads_rscape| image:: https://img.shields.io/conda/dn/bioconda/rscape.svg?style=flat
    :alt:   (downloads)
 .. |docker_rscape| image:: https://quay.io/repository/biocontainers/rscape/status
    :target: https://quay.io/repository/biocontainers/rscape
+.. _`rscape/tags`: https://quay.io/repository/biocontainers/rscape?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rscape/README.html
-

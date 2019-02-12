@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ampaffyexample'
 .. highlight: bash
-
 
 bioconductor-ampaffyexample
 ===========================
@@ -21,11 +22,15 @@ bioconductor-ampaffyexample
 
    |downloads_bioconductor-ampaffyexample| |docker_bioconductor-ampaffyexample|
 
-   :versions: 1.22.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-ampaffyexample|
+   :versions: 1.22.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-ampaffyexample
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ampaffyexample
+      docker pull quay.io/repository/biocontainers/bioconductor-ampaffyexample:<tag>
+
+   (see `bioconductor-ampaffyexample/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ampaffyexample| conda:required_by:: bioconductor-ampaffyexample
 .. |downloads_bioconductor-ampaffyexample| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ampaffyexample.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ampaffyexample| image:: https://quay.io/repository/biocontainers/bioconductor-ampaffyexample/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ampaffyexample
+.. _`bioconductor-ampaffyexample/tags`: https://quay.io/repository/biocontainers/bioconductor-ampaffyexample?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ampaffyexample/README.html
-

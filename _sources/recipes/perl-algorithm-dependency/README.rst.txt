@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-algorithm-dependency'
 .. highlight: bash
-
 
 perl-algorithm-dependency
 =========================
@@ -21,11 +22,13 @@ perl-algorithm-dependency
 
    |downloads_perl-algorithm-dependency| |docker_perl-algorithm-dependency|
 
-   :versions: 1.111, 1.110
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-params-util`  
-
-   :required~by: |required_by_perl-algorithm-dependency|
+   :versions: 1.111-0, 1.110-2, 1.110-1, 1.110-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-params-util: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-algorithm-dependency
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-algorithm-dependency
+      docker pull quay.io/repository/biocontainers/perl-algorithm-dependency:<tag>
+
+   (see `perl-algorithm-dependency/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-algorithm-dependency| conda:required_by:: perl-algorithm-dependency
 .. |downloads_perl-algorithm-dependency| image:: https://img.shields.io/conda/dn/bioconda/perl-algorithm-dependency.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-algorithm-dependency| image:: https://quay.io/repository/biocontainers/perl-algorithm-dependency/status
    :target: https://quay.io/repository/biocontainers/perl-algorithm-dependency
+.. _`perl-algorithm-dependency/tags`: https://quay.io/repository/biocontainers/perl-algorithm-dependency?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-algorithm-dependency/README.html
-

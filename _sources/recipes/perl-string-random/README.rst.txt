@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-string-random'
 .. highlight: bash
-
 
 perl-string-random
 ==================
@@ -21,11 +22,17 @@ perl-string-random
 
    |downloads_perl-string-random| |docker_perl-string-random|
 
-   :versions: 0.30
-
-   :depends: :conda:package:`perl` >=5.22.0.1,<5.23.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-parent`  
-
-   :required~by: |required_by_perl-string-random|
+   :versions: 0.30-0
+   
+   :depends perl: >=5.22.0.1,<5.23.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-parent: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-string-random
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-string-random
+      docker pull quay.io/repository/biocontainers/perl-string-random:<tag>
+
+   (see `perl-string-random/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-string-random| conda:required_by:: perl-string-random
 .. |downloads_perl-string-random| image:: https://img.shields.io/conda/dn/bioconda/perl-string-random.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-string-random| image:: https://quay.io/repository/biocontainers/perl-string-random/status
    :target: https://quay.io/repository/biocontainers/perl-string-random
+.. _`perl-string-random/tags`: https://quay.io/repository/biocontainers/perl-string-random?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-string-random/README.html
-

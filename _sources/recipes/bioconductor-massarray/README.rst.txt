@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-massarray'
 .. highlight: bash
-
 
 bioconductor-massarray
 ======================
@@ -22,11 +23,11 @@ bioconductor-massarray
 
    |downloads_bioconductor-massarray| |docker_bioconductor-massarray|
 
-   :versions: 1.34.1, 1.32.0, 1.30.0, 1.28.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-massarray|
+   :versions: 1.34.1-0, 1.32.0-0, 1.30.0-0, 1.28.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ bioconductor-massarray
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-massarray
+      docker pull quay.io/repository/biocontainers/bioconductor-massarray:<tag>
+
+   (see `bioconductor-massarray/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-massarray| conda:required_by:: bioconductor-massarray
 .. |downloads_bioconductor-massarray| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-massarray.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-massarray| image:: https://quay.io/repository/biocontainers/bioconductor-massarray/status
    :target: https://quay.io/repository/biocontainers/bioconductor-massarray
+.. _`bioconductor-massarray/tags`: https://quay.io/repository/biocontainers/bioconductor-massarray?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-massarray/README.html
-

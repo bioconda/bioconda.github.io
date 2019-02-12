@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-airway'
 .. highlight: bash
-
 
 bioconductor-airway
 ===================
@@ -21,11 +22,15 @@ bioconductor-airway
 
    |downloads_bioconductor-airway| |docker_bioconductor-airway|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-airway|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-airway
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-airway
+      docker pull quay.io/repository/biocontainers/bioconductor-airway:<tag>
+
+   (see `bioconductor-airway/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-airway| conda:required_by:: bioconductor-airway
 .. |downloads_bioconductor-airway| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-airway.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-airway| image:: https://quay.io/repository/biocontainers/bioconductor-airway/status
    :target: https://quay.io/repository/biocontainers/bioconductor-airway
+.. _`bioconductor-airway/tags`: https://quay.io/repository/biocontainers/bioconductor-airway?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-airway/README.html
-

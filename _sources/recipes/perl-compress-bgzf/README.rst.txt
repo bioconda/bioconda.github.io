@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-compress-bgzf'
 .. highlight: bash
-
 
 perl-compress-bgzf
 ==================
@@ -21,11 +22,11 @@ perl-compress-bgzf
 
    |downloads_perl-compress-bgzf| |docker_perl-compress-bgzf|
 
-   :versions: 0.005
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-compress-bgzf|
+   :versions: 0.005-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-compress-bgzf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-compress-bgzf
+      docker pull quay.io/repository/biocontainers/perl-compress-bgzf:<tag>
+
+   (see `perl-compress-bgzf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-compress-bgzf| conda:required_by:: perl-compress-bgzf
 .. |downloads_perl-compress-bgzf| image:: https://img.shields.io/conda/dn/bioconda/perl-compress-bgzf.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-compress-bgzf| image:: https://quay.io/repository/biocontainers/perl-compress-bgzf/status
    :target: https://quay.io/repository/biocontainers/perl-compress-bgzf
+.. _`perl-compress-bgzf/tags`: https://quay.io/repository/biocontainers/perl-compress-bgzf?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-compress-bgzf/README.html
-

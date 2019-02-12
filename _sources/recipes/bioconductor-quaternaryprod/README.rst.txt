@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-quaternaryprod'
 .. highlight: bash
-
 
 bioconductor-quaternaryprod
 ===========================
@@ -22,11 +23,21 @@ bioconductor-quaternaryprod
 
    |downloads_bioconductor-quaternaryprod| |docker_bioconductor-quaternaryprod|
 
-   :versions: 1.16.0, 1.14.0, 1.6.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-rcpp` >=0.11.3 :conda:package:`r-yaml` >=2.1.18 
-
-   :required~by: |required_by_bioconductor-quaternaryprod|
+   :versions: 1.16.0-0, 1.14.0-0, 1.6.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-rcpp: >=0.11.3
+   
+   :depends r-yaml: >=2.1.18
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-quaternaryprod
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-quaternaryprod
+      docker pull quay.io/repository/biocontainers/bioconductor-quaternaryprod:<tag>
+
+   (see `bioconductor-quaternaryprod/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-quaternaryprod| conda:required_by:: bioconductor-quaternaryprod
 .. |downloads_bioconductor-quaternaryprod| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-quaternaryprod.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-quaternaryprod| image:: https://quay.io/repository/biocontainers/bioconductor-quaternaryprod/status
    :target: https://quay.io/repository/biocontainers/bioconductor-quaternaryprod
+.. _`bioconductor-quaternaryprod/tags`: https://quay.io/repository/biocontainers/bioconductor-quaternaryprod?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-quaternaryprod/README.html
-

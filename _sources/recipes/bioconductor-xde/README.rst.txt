@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-xde'
 .. highlight: bash
-
 
 bioconductor-xde
 ================
@@ -22,11 +23,33 @@ bioconductor-xde
 
    |downloads_bioconductor-xde| |docker_bioconductor-xde|
 
-   :versions: 2.28.0, 2.26.0, 2.24.0, 2.22.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-genefilter` >=1.64.0,<1.65.0 :conda:package:`bioconductor-genemeta` >=1.54.0,<1.55.0 :conda:package:`bioconductor-mergemaid` >=2.54.0,<2.55.0 :conda:package:`bioconductor-siggenes` >=1.56.0,<1.57.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gtools`  :conda:package:`r-mvtnorm`  :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_bioconductor-xde|
+   :versions: 2.28.0-0, 2.26.0-0, 2.24.0-0, 2.22.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
+   
+   :depends bioconductor-genemeta: >=1.54.0,<1.55.0
+   
+   :depends bioconductor-mergemaid: >=2.54.0,<2.55.0
+   
+   :depends bioconductor-siggenes: >=1.56.0,<1.57.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gtools: 
+   
+   :depends r-mvtnorm: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +63,16 @@ bioconductor-xde
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xde
+      docker pull quay.io/repository/biocontainers/bioconductor-xde:<tag>
+
+   (see `bioconductor-xde/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-xde| conda:required_by:: bioconductor-xde
 .. |downloads_bioconductor-xde| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xde.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-xde| image:: https://quay.io/repository/biocontainers/bioconductor-xde/status
    :target: https://quay.io/repository/biocontainers/bioconductor-xde
+.. _`bioconductor-xde/tags`: https://quay.io/repository/biocontainers/bioconductor-xde?tab=tags
 
 
 
@@ -64,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-xde/README.html
-

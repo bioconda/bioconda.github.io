@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'seq2hla'
 .. highlight: bash
-
 
 seq2hla
 =======
@@ -22,11 +23,17 @@ seq2hla
 
    |downloads_seq2hla| |docker_seq2hla|
 
-   :versions: 2.2
-
-   :depends: :conda:package:`biopython` >=1.58 :conda:package:`bowtie` ==1.1.2 :conda:package:`python` 2.7* :conda:package:`r` >=2.12.2 
-
-   :required~by: |required_by_seq2hla|
+   :versions: 2.2-1, 2.2-0
+   
+   :depends biopython: >=1.58
+   
+   :depends bowtie: 1.1.2
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends r-base: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ seq2hla
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seq2hla
+      docker pull quay.io/repository/biocontainers/seq2hla:<tag>
+
+   (see `seq2hla/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_seq2hla| conda:required_by:: seq2hla
 .. |downloads_seq2hla| image:: https://img.shields.io/conda/dn/bioconda/seq2hla.svg?style=flat
    :alt:   (downloads)
 .. |docker_seq2hla| image:: https://quay.io/repository/biocontainers/seq2hla/status
    :target: https://quay.io/repository/biocontainers/seq2hla
+.. _`seq2hla/tags`: https://quay.io/repository/biocontainers/seq2hla?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/seq2hla/README.html
-

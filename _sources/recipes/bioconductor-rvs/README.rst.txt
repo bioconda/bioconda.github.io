@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rvs'
 .. highlight: bash
-
 
 bioconductor-rvs
 ================
@@ -21,11 +22,17 @@ bioconductor-rvs
 
    |downloads_bioconductor-rvs| |docker_bioconductor-rvs|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-snpstats` >=1.32.0,<1.33.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-grain`  :conda:package:`r-kinship2`  
-
-   :required~by: |required_by_bioconductor-rvs|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-snpstats: >=1.32.0,<1.33.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-grain: 
+   
+   :depends r-kinship2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-rvs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rvs
+      docker pull quay.io/repository/biocontainers/bioconductor-rvs:<tag>
+
+   (see `bioconductor-rvs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rvs| conda:required_by:: bioconductor-rvs
 .. |downloads_bioconductor-rvs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rvs.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rvs| image:: https://quay.io/repository/biocontainers/bioconductor-rvs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rvs
+.. _`bioconductor-rvs/tags`: https://quay.io/repository/biocontainers/bioconductor-rvs?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rvs/README.html
-

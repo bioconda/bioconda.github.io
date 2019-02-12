@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rgalaxy'
 .. highlight: bash
-
 
 bioconductor-rgalaxy
 ====================
@@ -22,11 +23,21 @@ bioconductor-rgalaxy
 
    |downloads_bioconductor-rgalaxy| |docker_bioconductor-rgalaxy|
 
-   :versions: 1.26.0, 1.24.0, 1.22.0, 1.20.1, 1.18.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-optparse`  :conda:package:`r-roxygen2`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-rgalaxy|
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.1-0, 1.18.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-optparse: 
+   
+   :depends r-roxygen2: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-rgalaxy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgalaxy
+      docker pull quay.io/repository/biocontainers/bioconductor-rgalaxy:<tag>
+
+   (see `bioconductor-rgalaxy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rgalaxy| conda:required_by:: bioconductor-rgalaxy
 .. |downloads_bioconductor-rgalaxy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgalaxy.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rgalaxy| image:: https://quay.io/repository/biocontainers/bioconductor-rgalaxy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgalaxy
+.. _`bioconductor-rgalaxy/tags`: https://quay.io/repository/biocontainers/bioconductor-rgalaxy?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rgalaxy/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'iqtree'
 .. highlight: bash
-
 
 iqtree
 ======
@@ -21,11 +22,13 @@ iqtree
 
    |downloads_iqtree| |docker_iqtree|
 
-   :versions: 1.6.9, 1.6.8, 1.6.7.2, 1.6.7.1, 1.6.7, 1.6.6, 1.5.5, 1.5.3
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_iqtree|
+   :versions: 1.6.9-0, 1.6.8-0, 1.6.7.2-0, 1.6.7.1-0, 1.6.7-1, 1.6.7-0, 1.6.6-0, 1.5.5-2, 1.5.5-1, 1.5.5-0, 1.5.3-2, 1.5.3-1, 1.5.3-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ iqtree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/iqtree
+      docker pull quay.io/repository/biocontainers/iqtree:<tag>
+
+   (see `iqtree/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_iqtree| conda:required_by:: iqtree
 .. |downloads_iqtree| image:: https://img.shields.io/conda/dn/bioconda/iqtree.svg?style=flat
    :alt:   (downloads)
 .. |docker_iqtree| image:: https://quay.io/repository/biocontainers/iqtree/status
    :target: https://quay.io/repository/biocontainers/iqtree
+.. _`iqtree/tags`: https://quay.io/repository/biocontainers/iqtree?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/iqtree/README.html
-

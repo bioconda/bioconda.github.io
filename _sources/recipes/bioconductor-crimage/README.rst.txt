@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-crimage'
 .. highlight: bash
-
 
 bioconductor-crimage
 ====================
@@ -22,11 +23,25 @@ bioconductor-crimage
 
    |downloads_bioconductor-crimage| |docker_bioconductor-crimage|
 
-   :versions: 1.30.0, 1.28.0, 1.26.0
-
-   :depends: :conda:package:`bioconductor-acgh` >=1.60.0,<1.61.0 :conda:package:`bioconductor-dnacopy` >=1.56.0,<1.57.0 :conda:package:`bioconductor-ebimage` >=4.24.0,<4.25.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-foreach`  :conda:package:`r-mass`  :conda:package:`r-sgeostat`  
-
-   :required~by: |required_by_bioconductor-crimage|
+   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0
+   
+   :depends bioconductor-acgh: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-dnacopy: >=1.56.0,<1.57.0
+   
+   :depends bioconductor-ebimage: >=4.24.0,<4.25.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-e1071: 
+   
+   :depends r-foreach: 
+   
+   :depends r-mass: 
+   
+   :depends r-sgeostat: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ bioconductor-crimage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-crimage
+      docker pull quay.io/repository/biocontainers/bioconductor-crimage:<tag>
+
+   (see `bioconductor-crimage/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-crimage| conda:required_by:: bioconductor-crimage
 .. |downloads_bioconductor-crimage| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-crimage.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-crimage| image:: https://quay.io/repository/biocontainers/bioconductor-crimage/status
    :target: https://quay.io/repository/biocontainers/bioconductor-crimage
+.. _`bioconductor-crimage/tags`: https://quay.io/repository/biocontainers/bioconductor-crimage?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-crimage/README.html
-

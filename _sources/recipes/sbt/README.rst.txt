@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sbt'
 .. highlight: bash
-
 
 sbt
 ===
@@ -21,11 +22,11 @@ sbt
 
    |downloads_sbt| |docker_sbt|
 
-   :versions: 0.13.12
-
-   :depends: :conda:package:`java-jdk` >=6 
-
-   :required~by: |required_by_sbt|
+   :versions: 0.13.12-1, 0.13.12-0
+   
+   :depends java-jdk: >=6
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ sbt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sbt
+      docker pull quay.io/repository/biocontainers/sbt:<tag>
+
+   (see `sbt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sbt| conda:required_by:: sbt
 .. |downloads_sbt| image:: https://img.shields.io/conda/dn/bioconda/sbt.svg?style=flat
    :alt:   (downloads)
 .. |docker_sbt| image:: https://quay.io/repository/biocontainers/sbt/status
    :target: https://quay.io/repository/biocontainers/sbt
+.. _`sbt/tags`: https://quay.io/repository/biocontainers/sbt?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sbt/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pvacseq'
 .. highlight: bash
-
 
 pvacseq
 =======
@@ -23,11 +24,21 @@ pvacseq
 
    |downloads_pvacseq| |docker_pvacseq|
 
-   :versions: 4.0.10, 4.0.9
-
-   :depends: :conda:package:`connexion`  :conda:package:`pandas`  :conda:package:`python` 3.5* :conda:package:`pyvcf`  :conda:package:`pyyaml`  :conda:package:`requests`  
-
-   :required~by: |required_by_pvacseq|
+   :versions: 4.0.10-2, 4.0.10-0, 4.0.9-0
+   
+   :depends connexion: 
+   
+   :depends pandas: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends pyvcf: 
+   
+   :depends pyyaml: 
+   
+   :depends requests: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +52,16 @@ pvacseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pvacseq
+      docker pull quay.io/repository/biocontainers/pvacseq:<tag>
+
+   (see `pvacseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pvacseq| conda:required_by:: pvacseq
 .. |downloads_pvacseq| image:: https://img.shields.io/conda/dn/bioconda/pvacseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_pvacseq| image:: https://quay.io/repository/biocontainers/pvacseq/status
    :target: https://quay.io/repository/biocontainers/pvacseq
+.. _`pvacseq/tags`: https://quay.io/repository/biocontainers/pvacseq?tab=tags
 
 
 
@@ -65,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pvacseq/README.html
-

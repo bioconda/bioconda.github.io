@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fermi2'
 .. highlight: bash
-
 
 fermi2
 ======
@@ -21,11 +22,21 @@ fermi2
 
    |downloads_fermi2| |docker_fermi2|
 
-   :versions: r193, r188
-
-   :depends: :conda:package:`bfc`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  :conda:package:`ropebwt2`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_fermi2|
+   :versions: r193-3, r193-2, r193-1, r193-0, r188-0
+   
+   :depends bfc: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends make: 
+   
+   :depends perl: 
+   
+   :depends ropebwt2: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ fermi2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fermi2
+      docker pull quay.io/repository/biocontainers/fermi2:<tag>
+
+   (see `fermi2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fermi2| conda:required_by:: fermi2
 .. |downloads_fermi2| image:: https://img.shields.io/conda/dn/bioconda/fermi2.svg?style=flat
    :alt:   (downloads)
 .. |docker_fermi2| image:: https://quay.io/repository/biocontainers/fermi2/status
    :target: https://quay.io/repository/biocontainers/fermi2
+.. _`fermi2/tags`: https://quay.io/repository/biocontainers/fermi2?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fermi2/README.html
-

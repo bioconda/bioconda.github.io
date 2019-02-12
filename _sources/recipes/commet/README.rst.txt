@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'commet'
 .. highlight: bash
-
 
 commet
 ======
@@ -22,11 +23,19 @@ commet
 
    |downloads_commet| |docker_commet|
 
-   :versions: 24.7.14
-
-   :depends: :conda:package:`libgcc`  :conda:package:`libgfortran`  :conda:package:`python` 2.7* :conda:package:`r-base` 3.4.1* :conda:package:`r-gplots`  
-
-   :required~by: |required_by_commet|
+   :versions: 24.7.14-1, 24.7.14-0
+   
+   :depends libgcc: 
+   
+   :depends libgfortran: 
+   
+   :depends python: 2.7*
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-gplots: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ commet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/commet
+      docker pull quay.io/repository/biocontainers/commet:<tag>
+
+   (see `commet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_commet| conda:required_by:: commet
 .. |downloads_commet| image:: https://img.shields.io/conda/dn/bioconda/commet.svg?style=flat
    :alt:   (downloads)
 .. |docker_commet| image:: https://quay.io/repository/biocontainers/commet/status
    :target: https://quay.io/repository/biocontainers/commet
+.. _`commet/tags`: https://quay.io/repository/biocontainers/commet?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/commet/README.html
-

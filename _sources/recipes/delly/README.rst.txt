@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'delly'
 .. highlight: bash
-
 
 delly
 =====
@@ -21,11 +22,21 @@ delly
 
    |downloads_delly| |docker_delly|
 
-   :versions: 0.8.1, 0.7.9, 0.7.8, 0.7.7, 0.7.6, 0.7.2
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libboost`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_delly|
+   :versions: 0.8.1-0, 0.7.9-4, 0.7.8-4, 0.7.8-3, 0.7.8-2, 0.7.8-1, 0.7.8-0, 0.7.7-1, 0.7.6-0, 0.7.2-1, 0.7.2-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libboost: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ delly
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/delly
+      docker pull quay.io/repository/biocontainers/delly:<tag>
+
+   (see `delly/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_delly| conda:required_by:: delly
 .. |downloads_delly| image:: https://img.shields.io/conda/dn/bioconda/delly.svg?style=flat
    :alt:   (downloads)
 .. |docker_delly| image:: https://quay.io/repository/biocontainers/delly/status
    :target: https://quay.io/repository/biocontainers/delly
+.. _`delly/tags`: https://quay.io/repository/biocontainers/delly?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/delly/README.html
-

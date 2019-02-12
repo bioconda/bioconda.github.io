@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sloika'
 .. highlight: bash
-
 
 sloika
 ======
@@ -21,11 +22,21 @@ sloika
 
    |downloads_sloika| |docker_sloika|
 
-   :versions: 2.0.1
-
-   :depends: :conda:package:`biopython` >=1.63 :conda:package:`h5py` >=2.2.1,<=2.6.0 :conda:package:`hdf5` 1.8.17* :conda:package:`libgcc`  :conda:package:`numpy` 1.12* :conda:package:`theano` 0.8.2 
-
-   :required~by: |required_by_sloika|
+   :versions: 2.0.1-0
+   
+   :depends biopython: >=1.63
+   
+   :depends h5py: >=2.2.1,<=2.6.0
+   
+   :depends hdf5: 1.8.17*
+   
+   :depends libgcc: 
+   
+   :depends numpy: 1.12*
+   
+   :depends theano: 0.8.2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ sloika
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sloika
+      docker pull quay.io/repository/biocontainers/sloika:<tag>
+
+   (see `sloika/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sloika| conda:required_by:: sloika
 .. |downloads_sloika| image:: https://img.shields.io/conda/dn/bioconda/sloika.svg?style=flat
    :alt:   (downloads)
 .. |docker_sloika| image:: https://quay.io/repository/biocontainers/sloika/status
    :target: https://quay.io/repository/biocontainers/sloika
+.. _`sloika/tags`: https://quay.io/repository/biocontainers/sloika?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sloika/README.html
-

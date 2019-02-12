@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-apache-test'
 .. highlight: bash
-
 
 perl-apache-test
 ================
@@ -21,11 +22,13 @@ perl-apache-test
 
    |downloads_perl-apache-test| |docker_perl-apache-test|
 
-   :versions: 1.40
-
-   :depends: :conda:package:`perl-pathtools`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-apache-test|
+   :versions: 1.40-1, 1.40-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-pathtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-apache-test
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-apache-test
+      docker pull quay.io/repository/biocontainers/perl-apache-test:<tag>
+
+   (see `perl-apache-test/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-apache-test| conda:required_by:: perl-apache-test
 .. |downloads_perl-apache-test| image:: https://img.shields.io/conda/dn/bioconda/perl-apache-test.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-apache-test| image:: https://quay.io/repository/biocontainers/perl-apache-test/status
    :target: https://quay.io/repository/biocontainers/perl-apache-test
+.. _`perl-apache-test/tags`: https://quay.io/repository/biocontainers/perl-apache-test?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-apache-test/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cicero'
 .. highlight: bash
-
 
 bioconductor-cicero
 ===================
@@ -21,11 +22,51 @@ bioconductor-cicero
 
    |downloads_bioconductor-cicero| |docker_bioconductor-cicero|
 
-   :versions: 1.0.14
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-gviz` >=1.26.0,<1.27.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-monocle` >=2.10.0,<2.11.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-assertthat` >=0.2.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table` >=1.10.4 :conda:package:`r-dplyr` >=0.7.4 :conda:package:`r-fnn` >=1.1 :conda:package:`r-ggplot2` >=2.2.1 :conda:package:`r-glasso` >=1.8 :conda:package:`r-igraph` >=1.1.0 :conda:package:`r-matrix` >=1.2-12 :conda:package:`r-plyr` >=1.8.4 :conda:package:`r-reshape2` >=1.4.3 :conda:package:`r-stringr` >=1.2.0 :conda:package:`r-tibble` >=1.4.2 :conda:package:`r-vgam` >=1.0-5 
-
-   :required~by: |required_by_bioconductor-cicero|
+   :versions: 1.0.14-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-gviz: >=1.26.0,<1.27.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-monocle: >=2.10.0,<2.11.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-assertthat: >=0.2.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: >=1.10.4
+   
+   :depends r-dplyr: >=0.7.4
+   
+   :depends r-fnn: >=1.1
+   
+   :depends r-ggplot2: >=2.2.1
+   
+   :depends r-glasso: >=1.8
+   
+   :depends r-igraph: >=1.1.0
+   
+   :depends r-matrix: >=1.2-12
+   
+   :depends r-plyr: >=1.8.4
+   
+   :depends r-reshape2: >=1.4.3
+   
+   :depends r-stringr: >=1.2.0
+   
+   :depends r-tibble: >=1.4.2
+   
+   :depends r-vgam: >=1.0-5
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +80,16 @@ bioconductor-cicero
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cicero
+      docker pull quay.io/repository/biocontainers/bioconductor-cicero:<tag>
+
+   (see `bioconductor-cicero/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cicero| conda:required_by:: bioconductor-cicero
 .. |downloads_bioconductor-cicero| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cicero.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cicero| image:: https://quay.io/repository/biocontainers/bioconductor-cicero/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cicero
+.. _`bioconductor-cicero/tags`: https://quay.io/repository/biocontainers/bioconductor-cicero?tab=tags
 
 
 
@@ -63,4 +106,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cicero/README.html
-

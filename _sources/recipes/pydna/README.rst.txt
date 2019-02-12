@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pydna'
 .. highlight: bash
-
 
 pydna
 =====
@@ -21,11 +22,27 @@ pydna
 
    |downloads_pydna| |docker_pydna|
 
-   :versions: 2.0.1, 2.0.0a3
-
-   :depends: :conda:package:`appdirs` >=1.3.0 :conda:package:`biopython` >=1.65 :conda:package:`networkx` >=1.8.1 :conda:package:`ordered-set` >=2.0.1 :conda:package:`prettytable` >=0.7.2 :conda:package:`pyparsing` >=2.1.10 :conda:package:`pytest-runner`  :conda:package:`python` 3.5* :conda:package:`requests` >=2.12 
-
-   :required~by: |required_by_pydna|
+   :versions: 2.0.1-1, 2.0.1-0, 2.0.0a3-0
+   
+   :depends appdirs: >=1.3.0
+   
+   :depends biopython: >=1.65
+   
+   :depends networkx: >=1.8.1
+   
+   :depends ordered-set: >=2.0.1
+   
+   :depends prettytable: >=0.7.2
+   
+   :depends pyparsing: >=2.1.10
+   
+   :depends pytest-runner: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends requests: >=2.12
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ pydna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pydna
+      docker pull quay.io/repository/biocontainers/pydna:<tag>
+
+   (see `pydna/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pydna| conda:required_by:: pydna
 .. |downloads_pydna| image:: https://img.shields.io/conda/dn/bioconda/pydna.svg?style=flat
    :alt:   (downloads)
 .. |docker_pydna| image:: https://quay.io/repository/biocontainers/pydna/status
    :target: https://quay.io/repository/biocontainers/pydna
+.. _`pydna/tags`: https://quay.io/repository/biocontainers/pydna?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pydna/README.html
-

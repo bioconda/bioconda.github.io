@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ga4ghmongo'
 .. highlight: bash
-
 
 ga4ghmongo
 ==========
@@ -21,11 +22,13 @@ ga4ghmongo
 
    |downloads_ga4ghmongo| |docker_ga4ghmongo|
 
-   :versions: 0.0.1.2
-
-   :depends: :conda:package:`mongoengine`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_ga4ghmongo|
+   :versions: 0.0.1.2-1, 0.0.1.2-0
+   
+   :depends mongoengine: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ ga4ghmongo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ga4ghmongo
+      docker pull quay.io/repository/biocontainers/ga4ghmongo:<tag>
+
+   (see `ga4ghmongo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ga4ghmongo| conda:required_by:: ga4ghmongo
 .. |downloads_ga4ghmongo| image:: https://img.shields.io/conda/dn/bioconda/ga4ghmongo.svg?style=flat
    :alt:   (downloads)
 .. |docker_ga4ghmongo| image:: https://quay.io/repository/biocontainers/ga4ghmongo/status
    :target: https://quay.io/repository/biocontainers/ga4ghmongo
+.. _`ga4ghmongo/tags`: https://quay.io/repository/biocontainers/ga4ghmongo?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ga4ghmongo/README.html
-

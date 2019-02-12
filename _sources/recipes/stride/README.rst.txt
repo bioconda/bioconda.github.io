@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'stride'
 .. highlight: bash
-
 
 stride
 ======
@@ -21,11 +22,15 @@ stride
 
    |downloads_stride| |docker_stride|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_stride|
+   :versions: 1.0-4, 1.0-3, 1.0-2, 1.0-1, 1.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ stride
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stride
+      docker pull quay.io/repository/biocontainers/stride:<tag>
+
+   (see `stride/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_stride| conda:required_by:: stride
 .. |downloads_stride| image:: https://img.shields.io/conda/dn/bioconda/stride.svg?style=flat
    :alt:   (downloads)
 .. |docker_stride| image:: https://quay.io/repository/biocontainers/stride/status
    :target: https://quay.io/repository/biocontainers/stride
+.. _`stride/tags`: https://quay.io/repository/biocontainers/stride?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/stride/README.html
-

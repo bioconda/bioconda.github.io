@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mirnatap'
 .. highlight: bash
-
 
 bioconductor-mirnatap
 =====================
@@ -22,11 +23,23 @@ bioconductor-mirnatap
 
    |downloads_bioconductor-mirnatap| |docker_bioconductor-mirnatap|
 
-   :versions: 1.16.0, 1.14.0, 1.12.0, 1.10.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-plyr`  :conda:package:`r-rsqlite`  :conda:package:`r-sqldf`  :conda:package:`r-stringr`  
-
-   :required~by: |required_by_bioconductor-mirnatap|
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dbi: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rsqlite: 
+   
+   :depends r-sqldf: 
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ bioconductor-mirnatap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirnatap
+      docker pull quay.io/repository/biocontainers/bioconductor-mirnatap:<tag>
+
+   (see `bioconductor-mirnatap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mirnatap| conda:required_by:: bioconductor-mirnatap
 .. |downloads_bioconductor-mirnatap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirnatap.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mirnatap| image:: https://quay.io/repository/biocontainers/bioconductor-mirnatap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirnatap
+.. _`bioconductor-mirnatap/tags`: https://quay.io/repository/biocontainers/bioconductor-mirnatap?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mirnatap/README.html
-

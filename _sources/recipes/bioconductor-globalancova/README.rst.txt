@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-globalancova'
 .. highlight: bash
-
 
 bioconductor-globalancova
 =========================
@@ -22,11 +23,29 @@ bioconductor-globalancova
 
    |downloads_bioconductor-globalancova| |docker_bioconductor-globalancova|
 
-   :versions: 4.0.0, 3.48.0, 3.46.0
-
-   :depends: :conda:package:`bioconductor-annotate` >=1.60.0,<1.61.0 :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-globaltest` >=5.36.0,<5.37.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  :conda:package:`r-dendextend`  :conda:package:`r-vgam`  
-
-   :required~by: |required_by_bioconductor-globalancova|
+   :versions: 4.0.0-0, 3.48.0-0, 3.46.0-0
+   
+   :depends bioconductor-annotate: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-globaltest: >=5.36.0,<5.37.0
+   
+   :depends bioconductor-gseabase: >=1.44.0,<1.45.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-corpcor: 
+   
+   :depends r-dendextend: 
+   
+   :depends r-vgam: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ bioconductor-globalancova
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-globalancova
+      docker pull quay.io/repository/biocontainers/bioconductor-globalancova:<tag>
+
+   (see `bioconductor-globalancova/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-globalancova| conda:required_by:: bioconductor-globalancova
 .. |downloads_bioconductor-globalancova| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-globalancova.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-globalancova| image:: https://quay.io/repository/biocontainers/bioconductor-globalancova/status
    :target: https://quay.io/repository/biocontainers/bioconductor-globalancova
+.. _`bioconductor-globalancova/tags`: https://quay.io/repository/biocontainers/bioconductor-globalancova?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-globalancova/README.html
-

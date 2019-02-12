@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-dartr'
 .. highlight: bash
-
 
 r-dartr
 =======
@@ -21,11 +22,69 @@ r-dartr
 
    |downloads_r-dartr| |docker_r-dartr|
 
-   :versions: 1.0.5, 1.0
-
-   :depends: :conda:package:`bioconductor-qvalue`  :conda:package:`bioconductor-snprelate`  :conda:package:`r-adegenet` >=2.0.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-dbi`  :conda:package:`r-demerelate`  :conda:package:`r-directlabels`  :conda:package:`r-dismo`  :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-mass`  :conda:package:`r-misc3d`  :conda:package:`r-pca3d`  :conda:package:`r-pegas`  :conda:package:`r-plotly`  :conda:package:`r-plyr`  :conda:package:`r-quadprog`  :conda:package:`r-reshape2`  :conda:package:`r-rgdal`  :conda:package:`r-rgl`  :conda:package:`r-seqinr`  :conda:package:`r-snpassoc`  :conda:package:`r-sp`  :conda:package:`r-stampp`  :conda:package:`r-stringr`  :conda:package:`r-tidyr`  :conda:package:`r-vegan`  
-
-   :required~by: |required_by_r-dartr|
+   :versions: 1.0.5-0, 1.0-0
+   
+   :depends bioconductor-qvalue: 
+   
+   :depends bioconductor-snprelate: 
+   
+   :depends r-adegenet: >=2.0.0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-dbi: 
+   
+   :depends r-demerelate: 
+   
+   :depends r-directlabels: 
+   
+   :depends r-dismo: 
+   
+   :depends r-doparallel: 
+   
+   :depends r-foreach: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-mass: 
+   
+   :depends r-misc3d: 
+   
+   :depends r-pca3d: 
+   
+   :depends r-pegas: 
+   
+   :depends r-plotly: 
+   
+   :depends r-plyr: 
+   
+   :depends r-quadprog: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-rgdal: 
+   
+   :depends r-rgl: 
+   
+   :depends r-seqinr: 
+   
+   :depends r-snpassoc: 
+   
+   :depends r-sp: 
+   
+   :depends r-stampp: 
+   
+   :depends r-stringr: 
+   
+   :depends r-tidyr: 
+   
+   :depends r-vegan: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +98,16 @@ r-dartr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-dartr
+      docker pull quay.io/repository/biocontainers/r-dartr:<tag>
+
+   (see `r-dartr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-dartr| conda:required_by:: r-dartr
 .. |downloads_r-dartr| image:: https://img.shields.io/conda/dn/bioconda/r-dartr.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-dartr| image:: https://quay.io/repository/biocontainers/r-dartr/status
    :target: https://quay.io/repository/biocontainers/r-dartr
+.. _`r-dartr/tags`: https://quay.io/repository/biocontainers/r-dartr?tab=tags
 
 
 
@@ -63,4 +124,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-dartr/README.html
-

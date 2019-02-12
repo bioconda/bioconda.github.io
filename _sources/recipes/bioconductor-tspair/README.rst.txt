@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-tspair'
 .. highlight: bash
-
 
 bioconductor-tspair
 ===================
@@ -22,11 +23,15 @@ bioconductor-tspair
 
    |downloads_bioconductor-tspair| |docker_bioconductor-tspair|
 
-   :versions: 1.40.0, 1.38.0, 1.36.0, 1.34.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-tspair|
+   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-tspair
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tspair
+      docker pull quay.io/repository/biocontainers/bioconductor-tspair:<tag>
+
+   (see `bioconductor-tspair/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-tspair| conda:required_by:: bioconductor-tspair
 .. |downloads_bioconductor-tspair| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tspair.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-tspair| image:: https://quay.io/repository/biocontainers/bioconductor-tspair/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tspair
+.. _`bioconductor-tspair/tags`: https://quay.io/repository/biocontainers/bioconductor-tspair?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-tspair/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'snpiphy'
 .. highlight: bash
-
 
 snpiphy
 =======
@@ -21,11 +22,21 @@ snpiphy
 
    |downloads_snpiphy| |docker_snpiphy|
 
-   :versions: 0.3, 0.2, 0.1
-
-   :depends: :conda:package:`biopython`  :conda:package:`gubbins`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`snippy`  
-
-   :required~by: |required_by_snpiphy|
+   :versions: 0.3-0, 0.2-0, 0.1-1, 0.1-0
+   
+   :depends biopython: 
+   
+   :depends gubbins: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends snippy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ snpiphy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snpiphy
+      docker pull quay.io/repository/biocontainers/snpiphy:<tag>
+
+   (see `snpiphy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_snpiphy| conda:required_by:: snpiphy
 .. |downloads_snpiphy| image:: https://img.shields.io/conda/dn/bioconda/snpiphy.svg?style=flat
    :alt:   (downloads)
 .. |docker_snpiphy| image:: https://quay.io/repository/biocontainers/snpiphy/status
    :target: https://quay.io/repository/biocontainers/snpiphy
+.. _`snpiphy/tags`: https://quay.io/repository/biocontainers/snpiphy?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/snpiphy/README.html
-

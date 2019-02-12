@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metavelvet'
 .. highlight: bash
-
 
 metavelvet
 ==========
@@ -21,11 +22,19 @@ metavelvet
 
    |downloads_metavelvet| |docker_metavelvet|
 
-   :versions: 1.2.02, 1.1.01
-
-   :depends: :conda:package:`libgcc`  :conda:package:`perl-module-build`  :conda:package:`perl-threaded`  :conda:package:`velvet`  :conda:package:`zlib`  
-
-   :required~by: |required_by_metavelvet|
+   :versions: 1.2.02-2, 1.2.02-1, 1.1.01-1, 1.1.01-0
+   
+   :depends libgcc: 
+   
+   :depends perl: 5.22.0*
+   
+   :depends perl-module-build: 
+   
+   :depends velvet: 
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ metavelvet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metavelvet
+      docker pull quay.io/repository/biocontainers/metavelvet:<tag>
+
+   (see `metavelvet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metavelvet| conda:required_by:: metavelvet
 .. |downloads_metavelvet| image:: https://img.shields.io/conda/dn/bioconda/metavelvet.svg?style=flat
    :alt:   (downloads)
 .. |docker_metavelvet| image:: https://quay.io/repository/biocontainers/metavelvet/status
    :target: https://quay.io/repository/biocontainers/metavelvet
+.. _`metavelvet/tags`: https://quay.io/repository/biocontainers/metavelvet?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metavelvet/README.html
-

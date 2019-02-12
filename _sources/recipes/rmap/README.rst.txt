@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rmap'
 .. highlight: bash
-
 
 rmap
 ====
@@ -22,11 +23,11 @@ rmap
 
    |downloads_rmap| |docker_rmap|
 
-   :versions: 2.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_rmap|
+   :versions: 2.1-1, 2.1-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ rmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rmap
+      docker pull quay.io/repository/biocontainers/rmap:<tag>
+
+   (see `rmap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rmap| conda:required_by:: rmap
 .. |downloads_rmap| image:: https://img.shields.io/conda/dn/bioconda/rmap.svg?style=flat
    :alt:   (downloads)
 .. |docker_rmap| image:: https://quay.io/repository/biocontainers/rmap/status
    :target: https://quay.io/repository/biocontainers/rmap
+.. _`rmap/tags`: https://quay.io/repository/biocontainers/rmap?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rmap/README.html
-

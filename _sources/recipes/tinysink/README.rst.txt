@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tinysink'
 .. highlight: bash
-
 
 tinysink
 ========
@@ -21,11 +22,11 @@ tinysink
 
    |downloads_tinysink| |docker_tinysink|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`rsync`  
-
-   :required~by: |required_by_tinysink|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends rsync: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ tinysink
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tinysink
+      docker pull quay.io/repository/biocontainers/tinysink:<tag>
+
+   (see `tinysink/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tinysink| conda:required_by:: tinysink
 .. |downloads_tinysink| image:: https://img.shields.io/conda/dn/bioconda/tinysink.svg?style=flat
    :alt:   (downloads)
 .. |docker_tinysink| image:: https://quay.io/repository/biocontainers/tinysink/status
    :target: https://quay.io/repository/biocontainers/tinysink
+.. _`tinysink/tags`: https://quay.io/repository/biocontainers/tinysink?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tinysink/README.html
-

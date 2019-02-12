@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'weeder'
 .. highlight: bash
-
 
 weeder
 ======
@@ -22,11 +23,13 @@ weeder
 
    |downloads_weeder| |docker_weeder|
 
-   :versions: 2.0
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`python`  
-
-   :required~by: |required_by_weeder|
+   :versions: 2.0-2, 2.0-1, 2.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ weeder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/weeder
+      docker pull quay.io/repository/biocontainers/weeder:<tag>
+
+   (see `weeder/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_weeder| conda:required_by:: weeder
 .. |downloads_weeder| image:: https://img.shields.io/conda/dn/bioconda/weeder.svg?style=flat
    :alt:   (downloads)
 .. |docker_weeder| image:: https://quay.io/repository/biocontainers/weeder/status
    :target: https://quay.io/repository/biocontainers/weeder
+.. _`weeder/tags`: https://quay.io/repository/biocontainers/weeder?tab=tags
 
 
 
@@ -68,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/weeder/README.html
-

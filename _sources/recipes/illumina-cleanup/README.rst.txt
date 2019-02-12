@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'illumina-cleanup'
 .. highlight: bash
-
 
 illumina-cleanup
 ================
@@ -21,11 +22,21 @@ illumina-cleanup
 
    |downloads_illumina-cleanup| |docker_illumina-cleanup|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bbmap`  :conda:package:`fastq-scan`  :conda:package:`fastqc`  :conda:package:`lighter`  :conda:package:`nextflow`  :conda:package:`pigz`  
-
-   :required~by: |required_by_illumina-cleanup|
+   :versions: 1.0.0-0
+   
+   :depends bbmap: 
+   
+   :depends fastq-scan: 
+   
+   :depends fastqc: 
+   
+   :depends lighter: 
+   
+   :depends nextflow: 
+   
+   :depends pigz: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ illumina-cleanup
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/illumina-cleanup
+      docker pull quay.io/repository/biocontainers/illumina-cleanup:<tag>
+
+   (see `illumina-cleanup/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_illumina-cleanup| conda:required_by:: illumina-cleanup
 .. |downloads_illumina-cleanup| image:: https://img.shields.io/conda/dn/bioconda/illumina-cleanup.svg?style=flat
    :alt:   (downloads)
 .. |docker_illumina-cleanup| image:: https://quay.io/repository/biocontainers/illumina-cleanup/status
    :target: https://quay.io/repository/biocontainers/illumina-cleanup
+.. _`illumina-cleanup/tags`: https://quay.io/repository/biocontainers/illumina-cleanup?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/illumina-cleanup/README.html
-

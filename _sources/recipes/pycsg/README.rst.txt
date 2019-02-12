@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pycsg'
 .. highlight: bash
-
 
 pycsg
 =====
@@ -21,11 +22,11 @@ pycsg
 
    |downloads_pycsg| |docker_pycsg|
 
-   :versions: 0.3.12
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pycsg|
+   :versions: 0.3.12-1, 0.3.12-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ pycsg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pycsg
+      docker pull quay.io/repository/biocontainers/pycsg:<tag>
+
+   (see `pycsg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pycsg| conda:required_by:: pycsg
 .. |downloads_pycsg| image:: https://img.shields.io/conda/dn/bioconda/pycsg.svg?style=flat
    :alt:   (downloads)
 .. |docker_pycsg| image:: https://quay.io/repository/biocontainers/pycsg/status
    :target: https://quay.io/repository/biocontainers/pycsg
+.. _`pycsg/tags`: https://quay.io/repository/biocontainers/pycsg?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pycsg/README.html
-

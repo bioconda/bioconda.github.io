@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rgi'
 .. highlight: bash
-
 
 rgi
 ===
@@ -22,11 +23,41 @@ rgi
 
    |downloads_rgi| |docker_rgi|
 
-   :versions: 4.2.2, 4.0.3, 3.2.1, 3.2.0, 3.1.2, 3.1.1, 3.1.0
-
-   :depends: :conda:package:`biopython` >=1.60 :conda:package:`blast` 2.6.0 :conda:package:`diamond` 0.8.36 :conda:package:`filetype` >=1.0.0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib` >=2.1.2 :conda:package:`mock` >=2.0.0 :conda:package:`pandas` >=0.15.0 :conda:package:`prodigal` 2.6.3 :conda:package:`pyahocorasick` >=1.1.7 :conda:package:`pyfaidx` >=0.5.4.1 :conda:package:`pytest` >=3.0.0 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`seaborn` >=0.8.1 :conda:package:`six` >=1.7.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_rgi|
+   :versions: 4.2.2-1, 4.2.2-0, 4.0.3-3, 4.0.3-2, 4.0.3-1, 4.0.3-0, 3.2.1-4, 3.2.1-3, 3.2.1-2, 3.2.1-1, 3.2.0-3, 3.2.0-2, 3.2.0-1, 3.1.2-3, 3.1.2-2, 3.1.2-1, 3.1.1-2, 3.1.1-1, 3.1.0-1, 3.1.0-0
+   
+   :depends biopython: >=1.60
+   
+   :depends blast: 2.6.0
+   
+   :depends diamond: 0.8.36
+   
+   :depends filetype: >=1.0.0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: >=2.1.2
+   
+   :depends mock: >=2.0.0
+   
+   :depends pandas: >=0.15.0
+   
+   :depends prodigal: 2.6.3
+   
+   :depends pyahocorasick: >=1.1.7
+   
+   :depends pyfaidx: >=0.5.4.1
+   
+   :depends pytest: >=3.0.0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends seaborn: >=0.8.1
+   
+   :depends six: >=1.7.0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +71,16 @@ rgi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rgi
+      docker pull quay.io/repository/biocontainers/rgi:<tag>
+
+   (see `rgi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rgi| conda:required_by:: rgi
 .. |downloads_rgi| image:: https://img.shields.io/conda/dn/bioconda/rgi.svg?style=flat
    :alt:   (downloads)
 .. |docker_rgi| image:: https://quay.io/repository/biocontainers/rgi/status
    :target: https://quay.io/repository/biocontainers/rgi
+.. _`rgi/tags`: https://quay.io/repository/biocontainers/rgi?tab=tags
 
 
 
@@ -64,4 +97,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rgi/README.html
-

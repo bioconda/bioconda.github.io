@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'xpclr'
 .. highlight: bash
-
 
 xpclr
 =====
@@ -21,11 +22,23 @@ xpclr
 
    |downloads_xpclr| |docker_xpclr|
 
-   :versions: 1.1.1, 1.1
-
-   :depends: :conda:package:`h5py`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=3.6 :conda:package:`scikit-allel` >=1.2 :conda:package:`scipy`  :conda:package:`zarr` >=2.2 
-
-   :required~by: |required_by_xpclr|
+   :versions: 1.1.1-0, 1.1-0
+   
+   :depends h5py: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=3.6
+   
+   :depends scikit-allel: >=1.2
+   
+   :depends scipy: 
+   
+   :depends zarr: >=2.2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ xpclr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xpclr
+      docker pull quay.io/repository/biocontainers/xpclr:<tag>
+
+   (see `xpclr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_xpclr| conda:required_by:: xpclr
 .. |downloads_xpclr| image:: https://img.shields.io/conda/dn/bioconda/xpclr.svg?style=flat
    :alt:   (downloads)
 .. |docker_xpclr| image:: https://quay.io/repository/biocontainers/xpclr/status
    :target: https://quay.io/repository/biocontainers/xpclr
+.. _`xpclr/tags`: https://quay.io/repository/biocontainers/xpclr?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/xpclr/README.html
-

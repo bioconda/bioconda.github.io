@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'saffrontree'
 .. highlight: bash
-
 
 saffrontree
 ===========
@@ -21,11 +22,21 @@ saffrontree
 
    |downloads_saffrontree| |docker_saffrontree|
 
-   :versions: 0.1.2
-
-   :depends: :conda:package:`biopython`  :conda:package:`dendropy` >=4.1.0 :conda:package:`kmc` >=2.3.0 :conda:package:`libgcc`  :conda:package:`pyfastaq` >=3.12.0 :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_saffrontree|
+   :versions: 0.1.2-0
+   
+   :depends biopython: 
+   
+   :depends dendropy: >=4.1.0
+   
+   :depends kmc: >=2.3.0
+   
+   :depends libgcc: 
+   
+   :depends pyfastaq: >=3.12.0
+   
+   :depends python: 3.5*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ saffrontree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/saffrontree
+      docker pull quay.io/repository/biocontainers/saffrontree:<tag>
+
+   (see `saffrontree/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_saffrontree| conda:required_by:: saffrontree
 .. |downloads_saffrontree| image:: https://img.shields.io/conda/dn/bioconda/saffrontree.svg?style=flat
    :alt:   (downloads)
 .. |docker_saffrontree| image:: https://quay.io/repository/biocontainers/saffrontree/status
    :target: https://quay.io/repository/biocontainers/saffrontree
+.. _`saffrontree/tags`: https://quay.io/repository/biocontainers/saffrontree?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/saffrontree/README.html
-

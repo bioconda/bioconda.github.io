@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'plantcv'
 .. highlight: bash
-
 
 plantcv
 =======
@@ -25,11 +26,27 @@ plantcv
 
    |downloads_plantcv| |docker_plantcv|
 
-   :versions: 3.1.0, 3.0.5, 3.0.3
-
-   :depends: :conda:package:`matplotlib` >=1.5 :conda:package:`numpy` >=1.11 :conda:package:`opencv` <4 :conda:package:`pandas`  :conda:package:`plotnine`  :conda:package:`python`  :conda:package:`python-dateutil`  :conda:package:`scikit-image`  :conda:package:`scipy`  
-
-   :required~by: |required_by_plantcv|
+   :versions: 3.1.0-0, 3.0.5-0, 3.0.3-0
+   
+   :depends matplotlib: >=1.5
+   
+   :depends numpy: >=1.11
+   
+   :depends opencv: <4
+   
+   :depends pandas: 
+   
+   :depends plotnine: 
+   
+   :depends python: 
+   
+   :depends python-dateutil: 
+   
+   :depends scikit-image: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -43,14 +60,16 @@ plantcv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plantcv
+      docker pull quay.io/repository/biocontainers/plantcv:<tag>
+
+   (see `plantcv/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_plantcv| conda:required_by:: plantcv
 .. |downloads_plantcv| image:: https://img.shields.io/conda/dn/bioconda/plantcv.svg?style=flat
    :alt:   (downloads)
 .. |docker_plantcv| image:: https://quay.io/repository/biocontainers/plantcv/status
    :target: https://quay.io/repository/biocontainers/plantcv
+.. _`plantcv/tags`: https://quay.io/repository/biocontainers/plantcv?tab=tags
 
 
 
@@ -67,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/plantcv/README.html
-

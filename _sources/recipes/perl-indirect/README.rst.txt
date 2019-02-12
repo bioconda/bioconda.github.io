@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-indirect'
 .. highlight: bash
-
 
 perl-indirect
 =============
@@ -21,11 +22,15 @@ perl-indirect
 
    |downloads_perl-indirect| |docker_perl-indirect|
 
-   :versions: 0.38
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-carp`  :conda:package:`perl-xsloader`  
-
-   :required~by: |required_by_perl-indirect|
+   :versions: 0.38-1, 0.38-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-xsloader: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-indirect
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-indirect
+      docker pull quay.io/repository/biocontainers/perl-indirect:<tag>
+
+   (see `perl-indirect/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-indirect| conda:required_by:: perl-indirect
 .. |downloads_perl-indirect| image:: https://img.shields.io/conda/dn/bioconda/perl-indirect.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-indirect| image:: https://quay.io/repository/biocontainers/perl-indirect/status
    :target: https://quay.io/repository/biocontainers/perl-indirect
+.. _`perl-indirect/tags`: https://quay.io/repository/biocontainers/perl-indirect?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-indirect/README.html
-

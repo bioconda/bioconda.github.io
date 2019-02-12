@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-math-spline'
 .. highlight: bash
-
 
 perl-math-spline
 ================
@@ -21,11 +22,13 @@ perl-math-spline
 
    |downloads_perl-math-spline| |docker_perl-math-spline|
 
-   :versions: 0.02
-
-   :depends: :conda:package:`perl-math-derivative`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-math-spline|
+   :versions: 0.02-2, 0.02-1, 0.02-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-math-derivative: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-math-spline
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-spline
+      docker pull quay.io/repository/biocontainers/perl-math-spline:<tag>
+
+   (see `perl-math-spline/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-math-spline| conda:required_by:: perl-math-spline
 .. |downloads_perl-math-spline| image:: https://img.shields.io/conda/dn/bioconda/perl-math-spline.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-math-spline| image:: https://quay.io/repository/biocontainers/perl-math-spline/status
    :target: https://quay.io/repository/biocontainers/perl-math-spline
+.. _`perl-math-spline/tags`: https://quay.io/repository/biocontainers/perl-math-spline?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-math-spline/README.html
-

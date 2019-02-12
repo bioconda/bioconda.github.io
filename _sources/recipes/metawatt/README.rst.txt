@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metawatt'
 .. highlight: bash
-
 
 metawatt
 ========
@@ -28,11 +29,31 @@ metawatt
 
    |downloads_metawatt| |docker_metawatt|
 
-   :versions: 3.5.3
-
-   :depends: :conda:package:`aragorn`  :conda:package:`bbmap`  :conda:package:`blast`  :conda:package:`diamond` 0.7.* :conda:package:`fasttree`  :conda:package:`hmmer`  :conda:package:`mafft`  :conda:package:`openjdk`  :conda:package:`prodigal`  :conda:package:`samtools`  :conda:package:`wget`  
-
-   :required~by: |required_by_metawatt|
+   :versions: 3.5.3-1, 3.5.3-0
+   
+   :depends aragorn: 
+   
+   :depends bbmap: 
+   
+   :depends blast: 
+   
+   :depends diamond: 0.7.*
+   
+   :depends fasttree: 
+   
+   :depends hmmer: 
+   
+   :depends mafft: 
+   
+   :depends openjdk: 
+   
+   :depends prodigal: 
+   
+   :depends samtools: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -46,14 +67,16 @@ metawatt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metawatt
+      docker pull quay.io/repository/biocontainers/metawatt:<tag>
+
+   (see `metawatt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metawatt| conda:required_by:: metawatt
 .. |downloads_metawatt| image:: https://img.shields.io/conda/dn/bioconda/metawatt.svg?style=flat
    :alt:   (downloads)
 .. |docker_metawatt| image:: https://quay.io/repository/biocontainers/metawatt/status
    :target: https://quay.io/repository/biocontainers/metawatt
+.. _`metawatt/tags`: https://quay.io/repository/biocontainers/metawatt?tab=tags
 
 
 
@@ -74,4 +97,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metawatt/README.html
-

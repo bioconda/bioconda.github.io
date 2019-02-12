@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-alsace'
 .. highlight: bash
-
 
 bioconductor-alsace
 ===================
@@ -21,11 +22,15 @@ bioconductor-alsace
 
    |downloads_bioconductor-alsace| |docker_bioconductor-alsace|
 
-   :versions: 1.18.0
-
-   :depends: :conda:package:`r-als`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ptw` >=1.0.6 
-
-   :required~by: |required_by_bioconductor-alsace|
+   :versions: 1.18.0-0
+   
+   :depends r-als: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ptw: >=1.0.6
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-alsace
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-alsace
+      docker pull quay.io/repository/biocontainers/bioconductor-alsace:<tag>
+
+   (see `bioconductor-alsace/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-alsace| conda:required_by:: bioconductor-alsace
 .. |downloads_bioconductor-alsace| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-alsace.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-alsace| image:: https://quay.io/repository/biocontainers/bioconductor-alsace/status
    :target: https://quay.io/repository/biocontainers/bioconductor-alsace
+.. _`bioconductor-alsace/tags`: https://quay.io/repository/biocontainers/bioconductor-alsace?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-alsace/README.html
-

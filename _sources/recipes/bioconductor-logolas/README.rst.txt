@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-logolas'
 .. highlight: bash
-
 
 bioconductor-logolas
 ====================
@@ -21,11 +22,21 @@ bioconductor-logolas
 
    |downloads_bioconductor-logolas| |docker_bioconductor-logolas|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gridbase`  :conda:package:`r-laplacesdemon`  :conda:package:`r-squarem`  
-
-   :required~by: |required_by_bioconductor-logolas|
+   :versions: 1.6.0-0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridbase: 
+   
+   :depends r-laplacesdemon: 
+   
+   :depends r-squarem: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-logolas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-logolas
+      docker pull quay.io/repository/biocontainers/bioconductor-logolas:<tag>
+
+   (see `bioconductor-logolas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-logolas| conda:required_by:: bioconductor-logolas
 .. |downloads_bioconductor-logolas| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-logolas.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-logolas| image:: https://quay.io/repository/biocontainers/bioconductor-logolas/status
    :target: https://quay.io/repository/biocontainers/bioconductor-logolas
+.. _`bioconductor-logolas/tags`: https://quay.io/repository/biocontainers/bioconductor-logolas?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-logolas/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cwltest'
 .. highlight: bash
-
 
 cwltest
 =======
@@ -21,11 +22,25 @@ cwltest
 
    |downloads_cwltest| |docker_cwltest|
 
-   :versions: 1.0.20180601100346, 1.0.20180209171722, 1.0.20170214185319, 1.0.20161124105442, 1.0.20160907111242
-
-   :depends: :conda:package:`cachecontrol` <0.12,>=0.11.7 :conda:package:`futures` >=3.0.5 :conda:package:`junit-xml` >=1.8 :conda:package:`mistune` <0.8,>=0.7.3 :conda:package:`python`  :conda:package:`schema-salad` >=1.14 :conda:package:`subprocess32` >=3.5.0 :conda:package:`typing` >=3.5.3,<3.6 
-
-   :required~by: |required_by_cwltest|
+   :versions: 1.0.20180601100346-0, 1.0.20180209171722-1, 1.0.20180209171722-0, 1.0.20170214185319-0, 1.0.20161124105442-0, 1.0.20160907111242-1, 1.0.20160907111242-0
+   
+   :depends cachecontrol: <0.12,>=0.11.7
+   
+   :depends futures: >=3.0.5
+   
+   :depends junit-xml: >=1.8
+   
+   :depends mistune: <0.8,>=0.7.3
+   
+   :depends python: 
+   
+   :depends schema-salad: >=1.14
+   
+   :depends subprocess32: >=3.5.0
+   
+   :depends typing: >=3.5.3,<3.6
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ cwltest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cwltest
+      docker pull quay.io/repository/biocontainers/cwltest:<tag>
+
+   (see `cwltest/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cwltest| conda:required_by:: cwltest
 .. |downloads_cwltest| image:: https://img.shields.io/conda/dn/bioconda/cwltest.svg?style=flat
    :alt:   (downloads)
 .. |docker_cwltest| image:: https://quay.io/repository/biocontainers/cwltest/status
    :target: https://quay.io/repository/biocontainers/cwltest
+.. _`cwltest/tags`: https://quay.io/repository/biocontainers/cwltest?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cwltest/README.html
-

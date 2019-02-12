@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-vtpnet'
 .. highlight: bash
-
 
 bioconductor-vtpnet
 ===================
@@ -21,11 +22,21 @@ bioconductor-vtpnet
 
    |downloads_bioconductor-vtpnet| |docker_bioconductor-vtpnet|
 
-   :versions: 0.22.0
-
-   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-gwascat` >=2.14.0,<2.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-foreach`  
-
-   :required~by: |required_by_bioconductor-vtpnet|
+   :versions: 0.22.0-0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-gwascat: >=2.14.0,<2.15.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-doparallel: 
+   
+   :depends r-foreach: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-vtpnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-vtpnet
+      docker pull quay.io/repository/biocontainers/bioconductor-vtpnet:<tag>
+
+   (see `bioconductor-vtpnet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-vtpnet| conda:required_by:: bioconductor-vtpnet
 .. |downloads_bioconductor-vtpnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-vtpnet.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-vtpnet| image:: https://quay.io/repository/biocontainers/bioconductor-vtpnet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-vtpnet
+.. _`bioconductor-vtpnet/tags`: https://quay.io/repository/biocontainers/bioconductor-vtpnet?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-vtpnet/README.html
-

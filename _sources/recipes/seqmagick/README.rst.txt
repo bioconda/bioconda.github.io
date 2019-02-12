@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'seqmagick'
 .. highlight: bash
-
 
 seqmagick
 =========
@@ -21,11 +22,13 @@ seqmagick
 
    |downloads_seqmagick| |docker_seqmagick|
 
-   :versions: 0.7.0, 0.6.1
-
-   :depends: :conda:package:`biopython` >=1.70 :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_seqmagick|
+   :versions: 0.7.0-1, 0.7.0-0, 0.6.1-0
+   
+   :depends biopython: >=1.70
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ seqmagick
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seqmagick
+      docker pull quay.io/repository/biocontainers/seqmagick:<tag>
+
+   (see `seqmagick/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_seqmagick| conda:required_by:: seqmagick
 .. |downloads_seqmagick| image:: https://img.shields.io/conda/dn/bioconda/seqmagick.svg?style=flat
    :alt:   (downloads)
 .. |docker_seqmagick| image:: https://quay.io/repository/biocontainers/seqmagick/status
    :target: https://quay.io/repository/biocontainers/seqmagick
+.. _`seqmagick/tags`: https://quay.io/repository/biocontainers/seqmagick?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/seqmagick/README.html
-

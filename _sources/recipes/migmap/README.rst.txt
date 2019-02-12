@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'migmap'
 .. highlight: bash
-
 
 migmap
 ======
@@ -21,11 +22,13 @@ migmap
 
    |downloads_migmap| |docker_migmap|
 
-   :versions: 1.0.3, 1.0.2, 0.9.7
-
-   :depends: :conda:package:`igblast`  :conda:package:`openjdk`  
-
-   :required~by: |required_by_migmap|
+   :versions: 1.0.3-2, 1.0.3-0, 1.0.2-0, 0.9.7-0
+   
+   :depends igblast: 
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ migmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/migmap
+      docker pull quay.io/repository/biocontainers/migmap:<tag>
+
+   (see `migmap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_migmap| conda:required_by:: migmap
 .. |downloads_migmap| image:: https://img.shields.io/conda/dn/bioconda/migmap.svg?style=flat
    :alt:   (downloads)
 .. |docker_migmap| image:: https://quay.io/repository/biocontainers/migmap/status
    :target: https://quay.io/repository/biocontainers/migmap
+.. _`migmap/tags`: https://quay.io/repository/biocontainers/migmap?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/migmap/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'polymutt'
 .. highlight: bash
-
 
 polymutt
 ========
@@ -21,11 +22,15 @@ polymutt
 
    |downloads_polymutt| |docker_polymutt|
 
-   :versions: 0.18
-
-   :depends: :conda:package:`bzip2` 1.0* :conda:package:`libgcc`  :conda:package:`openmp`  
-
-   :required~by: |required_by_polymutt|
+   :versions: 0.18-0
+   
+   :depends bzip2: 1.0*
+   
+   :depends libgcc: 
+   
+   :depends openmp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ polymutt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/polymutt
+      docker pull quay.io/repository/biocontainers/polymutt:<tag>
+
+   (see `polymutt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_polymutt| conda:required_by:: polymutt
 .. |downloads_polymutt| image:: https://img.shields.io/conda/dn/bioconda/polymutt.svg?style=flat
    :alt:   (downloads)
 .. |docker_polymutt| image:: https://quay.io/repository/biocontainers/polymutt/status
    :target: https://quay.io/repository/biocontainers/polymutt
+.. _`polymutt/tags`: https://quay.io/repository/biocontainers/polymutt?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/polymutt/README.html
-

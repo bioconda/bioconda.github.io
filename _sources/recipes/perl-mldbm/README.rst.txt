@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-mldbm'
 .. highlight: bash
-
 
 perl-mldbm
 ==========
@@ -21,11 +22,11 @@ perl-mldbm
 
    |downloads_perl-mldbm| |docker_perl-mldbm|
 
-   :versions: 2.05
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-mldbm|
+   :versions: 2.05-1, 2.05-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-mldbm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mldbm
+      docker pull quay.io/repository/biocontainers/perl-mldbm:<tag>
+
+   (see `perl-mldbm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-mldbm| conda:required_by:: perl-mldbm
 .. |downloads_perl-mldbm| image:: https://img.shields.io/conda/dn/bioconda/perl-mldbm.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-mldbm| image:: https://quay.io/repository/biocontainers/perl-mldbm/status
    :target: https://quay.io/repository/biocontainers/perl-mldbm
+.. _`perl-mldbm/tags`: https://quay.io/repository/biocontainers/perl-mldbm?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-mldbm/README.html
-

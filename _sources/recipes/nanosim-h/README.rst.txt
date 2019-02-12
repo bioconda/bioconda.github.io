@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nanosim-h'
 .. highlight: bash
-
 
 nanosim-h
 =========
@@ -21,11 +22,19 @@ nanosim-h
 
    |downloads_nanosim-h| |docker_nanosim-h|
 
-   :versions: 1.1.0.4, 1.1.0.3, 1.1.0.2
-
-   :depends: :conda:package:`last`  :conda:package:`numpy`  :conda:package:`progressbar2`  :conda:package:`python`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
-
-   :required~by: |required_by_nanosim-h|
+   :versions: 1.1.0.4-0, 1.1.0.3-3, 1.1.0.3-0, 1.1.0.2-1
+   
+   :depends last: 
+   
+   :depends numpy: 
+   
+   :depends progressbar2: 
+   
+   :depends python: 
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ nanosim-h
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanosim-h
+      docker pull quay.io/repository/biocontainers/nanosim-h:<tag>
+
+   (see `nanosim-h/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nanosim-h| conda:required_by:: nanosim-h
 .. |downloads_nanosim-h| image:: https://img.shields.io/conda/dn/bioconda/nanosim-h.svg?style=flat
    :alt:   (downloads)
 .. |docker_nanosim-h| image:: https://quay.io/repository/biocontainers/nanosim-h/status
    :target: https://quay.io/repository/biocontainers/nanosim-h
+.. _`nanosim-h/tags`: https://quay.io/repository/biocontainers/nanosim-h?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nanosim-h/README.html
-

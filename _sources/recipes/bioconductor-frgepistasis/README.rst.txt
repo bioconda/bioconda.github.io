@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-frgepistasis'
 .. highlight: bash
-
 
 bioconductor-frgepistasis
 =========================
@@ -21,11 +22,15 @@ bioconductor-frgepistasis
 
    |downloads_bioconductor-frgepistasis| |docker_bioconductor-frgepistasis|
 
-   :versions: 1.18.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fda`  :conda:package:`r-mass`  
-
-   :required~by: |required_by_bioconductor-frgepistasis|
+   :versions: 1.18.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-fda: 
+   
+   :depends r-mass: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-frgepistasis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-frgepistasis
+      docker pull quay.io/repository/biocontainers/bioconductor-frgepistasis:<tag>
+
+   (see `bioconductor-frgepistasis/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-frgepistasis| conda:required_by:: bioconductor-frgepistasis
 .. |downloads_bioconductor-frgepistasis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-frgepistasis.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-frgepistasis| image:: https://quay.io/repository/biocontainers/bioconductor-frgepistasis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-frgepistasis
+.. _`bioconductor-frgepistasis/tags`: https://quay.io/repository/biocontainers/bioconductor-frgepistasis?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-frgepistasis/README.html
-

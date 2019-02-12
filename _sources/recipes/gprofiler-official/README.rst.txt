@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gprofiler-official'
 .. highlight: bash
-
 
 gprofiler-official
 ==================
@@ -21,11 +22,11 @@ gprofiler-official
 
    |downloads_gprofiler-official| |docker_gprofiler-official|
 
-   :versions: 0.2.3
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_gprofiler-official|
+   :versions: 0.2.3-1, 0.2.3-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ gprofiler-official
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gprofiler-official
+      docker pull quay.io/repository/biocontainers/gprofiler-official:<tag>
+
+   (see `gprofiler-official/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gprofiler-official| conda:required_by:: gprofiler-official
 .. |downloads_gprofiler-official| image:: https://img.shields.io/conda/dn/bioconda/gprofiler-official.svg?style=flat
    :alt:   (downloads)
 .. |docker_gprofiler-official| image:: https://quay.io/repository/biocontainers/gprofiler-official/status
    :target: https://quay.io/repository/biocontainers/gprofiler-official
+.. _`gprofiler-official/tags`: https://quay.io/repository/biocontainers/gprofiler-official?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gprofiler-official/README.html
-

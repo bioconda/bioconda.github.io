@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'xmatchview'
 .. highlight: bash
-
 
 xmatchview
 ==========
@@ -23,11 +24,13 @@ xmatchview
 
    |downloads_xmatchview| |docker_xmatchview|
 
-   :versions: 1.1.1, v1.1.1
-
-   :depends: :conda:package:`pil`  :conda:package:`python` 2.7.* 
-
-   :required~by: |required_by_xmatchview|
+   :versions: 1.1.1-0, v1.1.1-0
+   
+   :depends pil: 
+   
+   :depends python: 2.7.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +44,16 @@ xmatchview
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xmatchview
+      docker pull quay.io/repository/biocontainers/xmatchview:<tag>
+
+   (see `xmatchview/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_xmatchview| conda:required_by:: xmatchview
 .. |downloads_xmatchview| image:: https://img.shields.io/conda/dn/bioconda/xmatchview.svg?style=flat
    :alt:   (downloads)
 .. |docker_xmatchview| image:: https://quay.io/repository/biocontainers/xmatchview/status
    :target: https://quay.io/repository/biocontainers/xmatchview
+.. _`xmatchview/tags`: https://quay.io/repository/biocontainers/xmatchview?tab=tags
 
 
 
@@ -65,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/xmatchview/README.html
-

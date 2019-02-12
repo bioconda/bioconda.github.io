@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'justbackoff'
 .. highlight: bash
-
 
 justbackoff
 ===========
@@ -21,11 +22,11 @@ justbackoff
 
    |downloads_justbackoff| |docker_justbackoff|
 
-   :versions: 0.4.0
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_justbackoff|
+   :versions: 0.4.0-1, 0.4.0-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ justbackoff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/justbackoff
+      docker pull quay.io/repository/biocontainers/justbackoff:<tag>
+
+   (see `justbackoff/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_justbackoff| conda:required_by:: justbackoff
 .. |downloads_justbackoff| image:: https://img.shields.io/conda/dn/bioconda/justbackoff.svg?style=flat
    :alt:   (downloads)
 .. |docker_justbackoff| image:: https://quay.io/repository/biocontainers/justbackoff/status
    :target: https://quay.io/repository/biocontainers/justbackoff
+.. _`justbackoff/tags`: https://quay.io/repository/biocontainers/justbackoff?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/justbackoff/README.html
-

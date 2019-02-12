@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'targqc'
 .. highlight: bash
-
 
 targqc
 ======
@@ -21,11 +22,53 @@ targqc
 
    |downloads_targqc| |docker_targqc|
 
-   :versions: 1.4.4
-
-   :depends: :conda:package:`beautifulsoup4`  :conda:package:`bedtools`  :conda:package:`bwa`  :conda:package:`coverage`  :conda:package:`cython`  :conda:package:`gffutils`  :conda:package:`ipyparallel`  :conda:package:`ipython` >=4.0.0,<5.0.0 :conda:package:`ipython-cluster-helper`  :conda:package:`joblib`  :conda:package:`lxml`  :conda:package:`nose`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pip`  :conda:package:`pybedtools`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`qualimap`  :conda:package:`sambamba`  :conda:package:`setuptools` >=18.5 :conda:package:`tempita`  
-
-   :required~by: |required_by_targqc|
+   :versions: 1.4.4-1, 1.4.4-0
+   
+   :depends beautifulsoup4: 
+   
+   :depends bedtools: 
+   
+   :depends bwa: 
+   
+   :depends coverage: 
+   
+   :depends cython: 
+   
+   :depends gffutils: 
+   
+   :depends ipyparallel: 
+   
+   :depends ipython: >=4.0.0,<5.0.0
+   
+   :depends ipython-cluster-helper: 
+   
+   :depends joblib: 
+   
+   :depends lxml: 
+   
+   :depends nose: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends pip: 
+   
+   :depends pybedtools: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends qualimap: 
+   
+   :depends sambamba: 
+   
+   :depends setuptools: >=18.5
+   
+   :depends tempita: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +82,16 @@ targqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/targqc
+      docker pull quay.io/repository/biocontainers/targqc:<tag>
+
+   (see `targqc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_targqc| conda:required_by:: targqc
 .. |downloads_targqc| image:: https://img.shields.io/conda/dn/bioconda/targqc.svg?style=flat
    :alt:   (downloads)
 .. |docker_targqc| image:: https://quay.io/repository/biocontainers/targqc/status
    :target: https://quay.io/repository/biocontainers/targqc
+.. _`targqc/tags`: https://quay.io/repository/biocontainers/targqc?tab=tags
 
 
 
@@ -63,4 +108,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/targqc/README.html
-

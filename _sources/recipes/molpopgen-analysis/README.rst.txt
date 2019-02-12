@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'molpopgen-analysis'
 .. highlight: bash
-
 
 molpopgen-analysis
 ==================
@@ -21,11 +22,17 @@ molpopgen-analysis
 
    |downloads_molpopgen-analysis| |docker_molpopgen-analysis|
 
-   :versions: 0.8.8
-
-   :depends: :conda:package:`gsl` 1.16* :conda:package:`libgcc`  :conda:package:`libsequence` 1.8.4 
-
-   :required~by: |required_by_molpopgen-analysis|
+   :versions: 0.8.8-3, 0.8.8-2, 0.8.8-1, 0.8.8-0
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libsequence: 1.8.4.*
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ molpopgen-analysis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/molpopgen-analysis
+      docker pull quay.io/repository/biocontainers/molpopgen-analysis:<tag>
+
+   (see `molpopgen-analysis/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_molpopgen-analysis| conda:required_by:: molpopgen-analysis
 .. |downloads_molpopgen-analysis| image:: https://img.shields.io/conda/dn/bioconda/molpopgen-analysis.svg?style=flat
    :alt:   (downloads)
 .. |docker_molpopgen-analysis| image:: https://quay.io/repository/biocontainers/molpopgen-analysis/status
    :target: https://quay.io/repository/biocontainers/molpopgen-analysis
+.. _`molpopgen-analysis/tags`: https://quay.io/repository/biocontainers/molpopgen-analysis?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/molpopgen-analysis/README.html
-

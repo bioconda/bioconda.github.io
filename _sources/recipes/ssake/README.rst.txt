@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ssake'
 .. highlight: bash
-
 
 ssake
 =====
@@ -22,11 +23,15 @@ ssake
 
    |downloads_ssake| |docker_ssake|
 
-   :versions: 4.0
-
-   :depends: :conda:package:`perl-statistics-descriptive`  :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_ssake|
+   :versions: 4.0-2, 4.0-1
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-statistics-descriptive: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ ssake
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ssake
+      docker pull quay.io/repository/biocontainers/ssake:<tag>
+
+   (see `ssake/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ssake| conda:required_by:: ssake
 .. |downloads_ssake| image:: https://img.shields.io/conda/dn/bioconda/ssake.svg?style=flat
    :alt:   (downloads)
 .. |docker_ssake| image:: https://quay.io/repository/biocontainers/ssake/status
    :target: https://quay.io/repository/biocontainers/ssake
+.. _`ssake/tags`: https://quay.io/repository/biocontainers/ssake?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ssake/README.html
-

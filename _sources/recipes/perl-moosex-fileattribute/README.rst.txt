@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-moosex-fileattribute'
 .. highlight: bash
-
 
 perl-moosex-fileattribute
 =========================
@@ -21,11 +22,15 @@ perl-moosex-fileattribute
 
    |downloads_perl-moosex-fileattribute| |docker_perl-moosex-fileattribute|
 
-   :versions: 0.03, 0.02
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-moosex-types`  :conda:package:`perl-moosex-types-path-class`  
-
-   :required~by: |required_by_perl-moosex-fileattribute|
+   :versions: 0.03-0, 0.02-1, 0.02-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-moosex-types: 
+   
+   :depends perl-moosex-types-path-class: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-moosex-fileattribute
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-fileattribute
+      docker pull quay.io/repository/biocontainers/perl-moosex-fileattribute:<tag>
+
+   (see `perl-moosex-fileattribute/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-moosex-fileattribute| conda:required_by:: perl-moosex-fileattribute
 .. |downloads_perl-moosex-fileattribute| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-fileattribute.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-moosex-fileattribute| image:: https://quay.io/repository/biocontainers/perl-moosex-fileattribute/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-fileattribute
+.. _`perl-moosex-fileattribute/tags`: https://quay.io/repository/biocontainers/perl-moosex-fileattribute?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-moosex-fileattribute/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'query_phenomizer'
 .. highlight: bash
-
 
 query_phenomizer
 ================
@@ -21,11 +22,17 @@ query_phenomizer
 
    |downloads_query_phenomizer| |docker_query_phenomizer|
 
-   :versions: 1.2, 0.5
-
-   :depends: :conda:package:`click`  :conda:package:`pytest`  :conda:package:`python`  :conda:package:`requests`  
-
-   :required~by: |required_by_query_phenomizer|
+   :versions: 1.2-0, 0.5-2, 0.5-0
+   
+   :depends click: 
+   
+   :depends pytest: 
+   
+   :depends python: 
+   
+   :depends requests: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ query_phenomizer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/query_phenomizer
+      docker pull quay.io/repository/biocontainers/query_phenomizer:<tag>
+
+   (see `query_phenomizer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_query_phenomizer| conda:required_by:: query_phenomizer
 .. |downloads_query_phenomizer| image:: https://img.shields.io/conda/dn/bioconda/query_phenomizer.svg?style=flat
    :alt:   (downloads)
 .. |docker_query_phenomizer| image:: https://quay.io/repository/biocontainers/query_phenomizer/status
    :target: https://quay.io/repository/biocontainers/query_phenomizer
+.. _`query_phenomizer/tags`: https://quay.io/repository/biocontainers/query_phenomizer?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/query_phenomizer/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dca'
 .. highlight: bash
-
 
 dca
 ===
@@ -22,11 +23,27 @@ dca
 
    |downloads_dca| |docker_dca|
 
-   :versions: 0.2.2
-
-   :depends: :conda:package:`h5py`  :conda:package:`keras` >=2.0.8 :conda:package:`kopt`  :conda:package:`numpy` >=1.7 :conda:package:`pandas`  :conda:package:`python` >=3.6 :conda:package:`scanpy`  :conda:package:`scikit-learn`  :conda:package:`six` >=1.10.0 
-
-   :required~by: |required_by_dca|
+   :versions: 0.2.2-0
+   
+   :depends h5py: 
+   
+   :depends keras: >=2.0.8
+   
+   :depends kopt: 
+   
+   :depends numpy: >=1.7
+   
+   :depends pandas: 
+   
+   :depends python: >=3.6
+   
+   :depends scanpy: 
+   
+   :depends scikit-learn: 
+   
+   :depends six: >=1.10.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ dca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dca
+      docker pull quay.io/repository/biocontainers/dca:<tag>
+
+   (see `dca/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dca| conda:required_by:: dca
 .. |downloads_dca| image:: https://img.shields.io/conda/dn/bioconda/dca.svg?style=flat
    :alt:   (downloads)
 .. |docker_dca| image:: https://quay.io/repository/biocontainers/dca/status
    :target: https://quay.io/repository/biocontainers/dca
+.. _`dca/tags`: https://quay.io/repository/biocontainers/dca?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dca/README.html
-

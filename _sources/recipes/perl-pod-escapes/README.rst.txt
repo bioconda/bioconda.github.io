@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-pod-escapes'
 .. highlight: bash
-
 
 perl-pod-escapes
 ================
@@ -21,11 +22,13 @@ perl-pod-escapes
 
    |downloads_perl-pod-escapes| |docker_perl-pod-escapes|
 
-   :versions: 1.07
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-exporter`  
-
-   :required~by: |required_by_perl-pod-escapes|
+   :versions: 1.07-1, 1.07-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-exporter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-pod-escapes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pod-escapes
+      docker pull quay.io/repository/biocontainers/perl-pod-escapes:<tag>
+
+   (see `perl-pod-escapes/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-pod-escapes| conda:required_by:: perl-pod-escapes
 .. |downloads_perl-pod-escapes| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-escapes.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-pod-escapes| image:: https://quay.io/repository/biocontainers/perl-pod-escapes/status
    :target: https://quay.io/repository/biocontainers/perl-pod-escapes
+.. _`perl-pod-escapes/tags`: https://quay.io/repository/biocontainers/perl-pod-escapes?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-pod-escapes/README.html
-

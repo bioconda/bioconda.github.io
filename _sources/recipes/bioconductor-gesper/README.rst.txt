@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-gesper'
 .. highlight: bash
-
 
 bioconductor-gesper
 ===================
@@ -21,11 +22,31 @@ bioconductor-gesper
 
    |downloads_bioconductor-gesper| |docker_bioconductor-gesper|
 
-   :versions: 1.14.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-cellhts2` >=2.46.0,<2.47.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-dplyr`  :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-glmnet`  :conda:package:`r-matrix`  :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-gesper|
+   :versions: 1.14.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-cellhts2: >=2.46.0,<2.47.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-doparallel: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-foreach: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-glmnet: 
+   
+   :depends r-matrix: 
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ bioconductor-gesper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gesper
+      docker pull quay.io/repository/biocontainers/bioconductor-gesper:<tag>
+
+   (see `bioconductor-gesper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-gesper| conda:required_by:: bioconductor-gesper
 .. |downloads_bioconductor-gesper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gesper.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-gesper| image:: https://quay.io/repository/biocontainers/bioconductor-gesper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gesper
+.. _`bioconductor-gesper/tags`: https://quay.io/repository/biocontainers/bioconductor-gesper?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-gesper/README.html
-

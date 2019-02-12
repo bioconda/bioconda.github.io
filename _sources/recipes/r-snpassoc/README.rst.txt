@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-snpassoc'
 .. highlight: bash
-
 
 r-snpassoc
 ==========
@@ -21,11 +22,17 @@ r-snpassoc
 
    |downloads_r-snpassoc| |docker_r-snpassoc|
 
-   :versions: 1.9_2
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-haplo.stats`  :conda:package:`r-mvtnorm`  :conda:package:`r-survival`  
-
-   :required~by: |required_by_r-snpassoc|
+   :versions: 1.9_2-0
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-haplo.stats: 
+   
+   :depends r-mvtnorm: 
+   
+   :depends r-survival: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-snpassoc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-snpassoc
+      docker pull quay.io/repository/biocontainers/r-snpassoc:<tag>
+
+   (see `r-snpassoc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-snpassoc| conda:required_by:: r-snpassoc
 .. |downloads_r-snpassoc| image:: https://img.shields.io/conda/dn/bioconda/r-snpassoc.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-snpassoc| image:: https://quay.io/repository/biocontainers/r-snpassoc/status
    :target: https://quay.io/repository/biocontainers/r-snpassoc
+.. _`r-snpassoc/tags`: https://quay.io/repository/biocontainers/r-snpassoc?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-snpassoc/README.html
-

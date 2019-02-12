@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-phyloseq'
 .. highlight: bash
-
 
 bioconductor-phyloseq
 =====================
@@ -22,11 +23,43 @@ bioconductor-phyloseq
 
    |downloads_bioconductor-phyloseq| |docker_bioconductor-phyloseq|
 
-   :versions: 1.26.0, 1.24.2, 1.22.3, 1.20.0, 1.19.1, 1.16.2, 1.14.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biomformat` >=1.10.0,<1.11.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-multtest` >=2.38.0,<2.39.0 :conda:package:`r-ade4` >=1.7.4 :conda:package:`r-ape` >=5.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster` >=2.0.4 :conda:package:`r-data.table` >=1.10.4 :conda:package:`r-foreach` >=1.4.3 :conda:package:`r-ggplot2` >=2.1.0 :conda:package:`r-igraph` >=1.0.1 :conda:package:`r-plyr` >=1.8.3 :conda:package:`r-reshape2` >=1.4.1 :conda:package:`r-scales` >=0.4.0 :conda:package:`r-vegan` >=2.5 
-
-   :required~by: |required_by_bioconductor-phyloseq|
+   :versions: 1.26.0-0, 1.24.2-0, 1.22.3-0, 1.20.0-1, 1.20.0-0, 1.19.1-0, 1.16.2-1, 1.14.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-biomformat: >=1.10.0,<1.11.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-multtest: >=2.38.0,<2.39.0
+   
+   :depends r-ade4: >=1.7.4
+   
+   :depends r-ape: >=5.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: >=2.0.4
+   
+   :depends r-data.table: >=1.10.4
+   
+   :depends r-foreach: >=1.4.3
+   
+   :depends r-ggplot2: >=2.1.0
+   
+   :depends r-igraph: >=1.0.1
+   
+   :depends r-plyr: >=1.8.3
+   
+   :depends r-reshape2: >=1.4.1
+   
+   :depends r-scales: >=0.4.0
+   
+   :depends r-vegan: >=2.5
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +73,16 @@ bioconductor-phyloseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-phyloseq
+      docker pull quay.io/repository/biocontainers/bioconductor-phyloseq:<tag>
+
+   (see `bioconductor-phyloseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-phyloseq| conda:required_by:: bioconductor-phyloseq
 .. |downloads_bioconductor-phyloseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-phyloseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-phyloseq| image:: https://quay.io/repository/biocontainers/bioconductor-phyloseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-phyloseq
+.. _`bioconductor-phyloseq/tags`: https://quay.io/repository/biocontainers/bioconductor-phyloseq?tab=tags
 
 
 
@@ -64,4 +99,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-phyloseq/README.html
-

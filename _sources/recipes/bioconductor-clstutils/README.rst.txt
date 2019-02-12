@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-clstutils'
 .. highlight: bash
-
 
 bioconductor-clstutils
 ======================
@@ -22,11 +23,21 @@ bioconductor-clstutils
 
    |downloads_bioconductor-clstutils| |docker_bioconductor-clstutils|
 
-   :versions: 1.30.0, 1.28.0, 1.26.0
-
-   :depends: :conda:package:`bioconductor-clst` >=1.30.0,<1.31.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  :conda:package:`r-rjson`  :conda:package:`r-rsqlite`  
-
-   :required~by: |required_by_bioconductor-clstutils|
+   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0
+   
+   :depends bioconductor-clst: >=1.30.0,<1.31.0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-lattice: 
+   
+   :depends r-rjson: 
+   
+   :depends r-rsqlite: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-clstutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clstutils
+      docker pull quay.io/repository/biocontainers/bioconductor-clstutils:<tag>
+
+   (see `bioconductor-clstutils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-clstutils| conda:required_by:: bioconductor-clstutils
 .. |downloads_bioconductor-clstutils| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clstutils.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-clstutils| image:: https://quay.io/repository/biocontainers/bioconductor-clstutils/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clstutils
+.. _`bioconductor-clstutils/tags`: https://quay.io/repository/biocontainers/bioconductor-clstutils?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-clstutils/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'whatshap'
 .. highlight: bash
-
 
 whatshap
 ========
@@ -21,11 +22,23 @@ whatshap
 
    |downloads_whatshap| |docker_whatshap|
 
-   :versions: 0.17, 0.16, 0.15, 0.14.1, 0.13, 0.12, 0.11, 0.9
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`networkx`  :conda:package:`pyfaidx`  :conda:package:`pysam` >=0.14 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`pyvcf`  :conda:package:`xopen`  
-
-   :required~by: |required_by_whatshap|
+   :versions: 0.17-0, 0.16-0, 0.15-0, 0.14.1-0, 0.13-0, 0.12-0, 0.11-0, 0.9-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends networkx: 
+   
+   :depends pyfaidx: 
+   
+   :depends pysam: >=0.14
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends pyvcf: 
+   
+   :depends xopen: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ whatshap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/whatshap
+      docker pull quay.io/repository/biocontainers/whatshap:<tag>
+
+   (see `whatshap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_whatshap| conda:required_by:: whatshap
 .. |downloads_whatshap| image:: https://img.shields.io/conda/dn/bioconda/whatshap.svg?style=flat
    :alt:   (downloads)
 .. |docker_whatshap| image:: https://quay.io/repository/biocontainers/whatshap/status
    :target: https://quay.io/repository/biocontainers/whatshap
+.. _`whatshap/tags`: https://quay.io/repository/biocontainers/whatshap?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/whatshap/README.html
-

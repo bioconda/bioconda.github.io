@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'libmuscle'
 .. highlight: bash
-
 
 libmuscle
 =========
@@ -21,11 +22,11 @@ libmuscle
 
    |downloads_libmuscle| |docker_libmuscle|
 
-   :versions: 3.7
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_libmuscle|
+   :versions: 3.7-1, 3.7-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ libmuscle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libmuscle
+      docker pull quay.io/repository/biocontainers/libmuscle:<tag>
+
+   (see `libmuscle/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_libmuscle| conda:required_by:: libmuscle
 .. |downloads_libmuscle| image:: https://img.shields.io/conda/dn/bioconda/libmuscle.svg?style=flat
    :alt:   (downloads)
 .. |docker_libmuscle| image:: https://quay.io/repository/biocontainers/libmuscle/status
    :target: https://quay.io/repository/biocontainers/libmuscle
+.. _`libmuscle/tags`: https://quay.io/repository/biocontainers/libmuscle?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/libmuscle/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-copy-recursive'
 .. highlight: bash
-
 
 perl-file-copy-recursive
 ========================
@@ -21,11 +22,13 @@ perl-file-copy-recursive
 
    |downloads_perl-file-copy-recursive| |docker_perl-file-copy-recursive|
 
-   :versions: 0.44, 0.38
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-file-copy-recursive|
+   :versions: 0.44-0, 0.38-3, 0.38-2, 0.38-1
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-file-copy-recursive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-copy-recursive
+      docker pull quay.io/repository/biocontainers/perl-file-copy-recursive:<tag>
+
+   (see `perl-file-copy-recursive/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-copy-recursive| conda:required_by:: perl-file-copy-recursive
 .. |downloads_perl-file-copy-recursive| image:: https://img.shields.io/conda/dn/bioconda/perl-file-copy-recursive.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-copy-recursive| image:: https://quay.io/repository/biocontainers/perl-file-copy-recursive/status
    :target: https://quay.io/repository/biocontainers/perl-file-copy-recursive
+.. _`perl-file-copy-recursive/tags`: https://quay.io/repository/biocontainers/perl-file-copy-recursive?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-copy-recursive/README.html
-

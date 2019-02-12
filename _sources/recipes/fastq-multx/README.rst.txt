@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastq-multx'
 .. highlight: bash
-
 
 fastq-multx
 ===========
@@ -21,11 +22,11 @@ fastq-multx
 
    |downloads_fastq-multx| |docker_fastq-multx|
 
-   :versions: 1.3.1, 1.3.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_fastq-multx|
+   :versions: 1.3.1-3, 1.3.1-2, 1.3.0-2, 1.3.0-1
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ fastq-multx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastq-multx
+      docker pull quay.io/repository/biocontainers/fastq-multx:<tag>
+
+   (see `fastq-multx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastq-multx| conda:required_by:: fastq-multx
 .. |downloads_fastq-multx| image:: https://img.shields.io/conda/dn/bioconda/fastq-multx.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastq-multx| image:: https://quay.io/repository/biocontainers/fastq-multx/status
    :target: https://quay.io/repository/biocontainers/fastq-multx
+.. _`fastq-multx/tags`: https://quay.io/repository/biocontainers/fastq-multx?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastq-multx/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-xml-parser'
 .. highlight: bash
-
 
 perl-xml-parser
 ===============
@@ -21,11 +22,15 @@ perl-xml-parser
 
    |downloads_perl-xml-parser| |docker_perl-xml-parser|
 
-   :versions: 2.44
-
-   :depends: :conda:package:`expat`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-xml-parser|
+   :versions: 2.44-6, 2.44-5, 2.44-4, 2.44-3, 2.44-2, 2.44-1, 2.44-0
+   
+   :depends expat: >=2.2.5,<2.3.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-xml-parser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-parser
+      docker pull quay.io/repository/biocontainers/perl-xml-parser:<tag>
+
+   (see `perl-xml-parser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-xml-parser| conda:required_by:: perl-xml-parser
 .. |downloads_perl-xml-parser| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-parser.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-xml-parser| image:: https://quay.io/repository/biocontainers/perl-xml-parser/status
    :target: https://quay.io/repository/biocontainers/perl-xml-parser
+.. _`perl-xml-parser/tags`: https://quay.io/repository/biocontainers/perl-xml-parser?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-xml-parser/README.html
-

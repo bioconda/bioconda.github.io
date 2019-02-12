@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rimmport'
 .. highlight: bash
-
 
 bioconductor-rimmport
 =====================
@@ -22,11 +23,25 @@ bioconductor-rimmport
 
    |downloads_bioconductor-rimmport| |docker_bioconductor-rimmport|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.2
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-dbi`  :conda:package:`r-dplyr`  :conda:package:`r-plyr`  :conda:package:`r-reshape2`  :conda:package:`r-rsqlite`  :conda:package:`r-sqldf`  
-
-   :required~by: |required_by_bioconductor-rimmport|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.2-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-dbi: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-plyr: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-rsqlite: 
+   
+   :depends r-sqldf: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ bioconductor-rimmport
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rimmport
+      docker pull quay.io/repository/biocontainers/bioconductor-rimmport:<tag>
+
+   (see `bioconductor-rimmport/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rimmport| conda:required_by:: bioconductor-rimmport
 .. |downloads_bioconductor-rimmport| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rimmport.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rimmport| image:: https://quay.io/repository/biocontainers/bioconductor-rimmport/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rimmport
+.. _`bioconductor-rimmport/tags`: https://quay.io/repository/biocontainers/bioconductor-rimmport?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rimmport/README.html
-

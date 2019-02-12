@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mesh.bta.eg.db'
 .. highlight: bash
-
 
 bioconductor-mesh.bta.eg.db
 ===========================
@@ -21,11 +22,15 @@ bioconductor-mesh.bta.eg.db
 
    |downloads_bioconductor-mesh.bta.eg.db| |docker_bioconductor-mesh.bta.eg.db|
 
-   :versions: 1.11.0
-
-   :depends: :conda:package:`bioconductor-meshdbi` >=1.18.0,<1.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-mesh.bta.eg.db|
+   :versions: 1.11.0-0
+   
+   :depends bioconductor-meshdbi: >=1.18.0,<1.19.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-mesh.bta.eg.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mesh.bta.eg.db
+      docker pull quay.io/repository/biocontainers/bioconductor-mesh.bta.eg.db:<tag>
+
+   (see `bioconductor-mesh.bta.eg.db/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mesh.bta.eg.db| conda:required_by:: bioconductor-mesh.bta.eg.db
 .. |downloads_bioconductor-mesh.bta.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mesh.bta.eg.db.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mesh.bta.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-mesh.bta.eg.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mesh.bta.eg.db
+.. _`bioconductor-mesh.bta.eg.db/tags`: https://quay.io/repository/biocontainers/bioconductor-mesh.bta.eg.db?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mesh.bta.eg.db/README.html
-

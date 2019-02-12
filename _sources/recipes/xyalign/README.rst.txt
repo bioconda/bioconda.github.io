@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'xyalign'
 .. highlight: bash
-
 
 xyalign
 =======
@@ -21,11 +22,35 @@ xyalign
 
    |downloads_xyalign| |docker_xyalign|
 
-   :versions: 1.1.5, 1.1.4, 1.1.3, 1.0.0
-
-   :depends: :conda:package:`bbmap`  :conda:package:`bedtools`  :conda:package:`bwa`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`platypus-variant`  :conda:package:`pybedtools`  :conda:package:`pysam`  :conda:package:`python` <3 :conda:package:`sambamba`  :conda:package:`samtools`  :conda:package:`scipy`  
-
-   :required~by: |required_by_xyalign|
+   :versions: 1.1.5-0, 1.1.4-2, 1.1.4-0, 1.1.3-0, 1.0.0-0
+   
+   :depends bbmap: 
+   
+   :depends bedtools: 
+   
+   :depends bwa: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends platypus-variant: 
+   
+   :depends pybedtools: 
+   
+   :depends pysam: 
+   
+   :depends python: <3
+   
+   :depends sambamba: 
+   
+   :depends samtools: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ xyalign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xyalign
+      docker pull quay.io/repository/biocontainers/xyalign:<tag>
+
+   (see `xyalign/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_xyalign| conda:required_by:: xyalign
 .. |downloads_xyalign| image:: https://img.shields.io/conda/dn/bioconda/xyalign.svg?style=flat
    :alt:   (downloads)
 .. |docker_xyalign| image:: https://quay.io/repository/biocontainers/xyalign/status
    :target: https://quay.io/repository/biocontainers/xyalign
+.. _`xyalign/tags`: https://quay.io/repository/biocontainers/xyalign?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/xyalign/README.html
-

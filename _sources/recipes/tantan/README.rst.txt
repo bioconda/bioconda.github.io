@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tantan'
 .. highlight: bash
-
 
 tantan
 ======
@@ -21,11 +22,13 @@ tantan
 
    |downloads_tantan| |docker_tantan|
 
-   :versions: 13
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_tantan|
+   :versions: 13-1, 13-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ tantan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tantan
+      docker pull quay.io/repository/biocontainers/tantan:<tag>
+
+   (see `tantan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tantan| conda:required_by:: tantan
 .. |downloads_tantan| image:: https://img.shields.io/conda/dn/bioconda/tantan.svg?style=flat
    :alt:   (downloads)
 .. |docker_tantan| image:: https://quay.io/repository/biocontainers/tantan/status
    :target: https://quay.io/repository/biocontainers/tantan
+.. _`tantan/tags`: https://quay.io/repository/biocontainers/tantan?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tantan/README.html
-

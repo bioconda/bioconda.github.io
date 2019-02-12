@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-matrixeqtl'
 .. highlight: bash
-
 
 r-matrixeqtl
 ============
@@ -21,11 +22,11 @@ r-matrixeqtl
 
    |downloads_r-matrixeqtl| |docker_r-matrixeqtl|
 
-   :versions: 2.1.1
-
-   :depends: :conda:package:`r` 3.3.1* 
-
-   :required~by: |required_by_r-matrixeqtl|
+   :versions: 2.1.1-0
+   
+   :depends r: 3.3.1*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-matrixeqtl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-matrixeqtl
+      docker pull quay.io/repository/biocontainers/r-matrixeqtl:<tag>
+
+   (see `r-matrixeqtl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-matrixeqtl| conda:required_by:: r-matrixeqtl
 .. |downloads_r-matrixeqtl| image:: https://img.shields.io/conda/dn/bioconda/r-matrixeqtl.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-matrixeqtl| image:: https://quay.io/repository/biocontainers/r-matrixeqtl/status
    :target: https://quay.io/repository/biocontainers/r-matrixeqtl
+.. _`r-matrixeqtl/tags`: https://quay.io/repository/biocontainers/r-matrixeqtl?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-matrixeqtl/README.html
-

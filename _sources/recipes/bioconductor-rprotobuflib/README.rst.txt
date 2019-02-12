@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rprotobuflib'
 .. highlight: bash
-
 
 bioconductor-rprotobuflib
 =========================
@@ -21,11 +22,15 @@ bioconductor-rprotobuflib
 
    |downloads_bioconductor-rprotobuflib| |docker_bioconductor-rprotobuflib|
 
-   :versions: 1.4.0, 1.2.0, 1.0.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-rprotobuflib|
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-rprotobuflib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rprotobuflib
+      docker pull quay.io/repository/biocontainers/bioconductor-rprotobuflib:<tag>
+
+   (see `bioconductor-rprotobuflib/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rprotobuflib| conda:required_by:: bioconductor-rprotobuflib
 .. |downloads_bioconductor-rprotobuflib| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rprotobuflib.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rprotobuflib| image:: https://quay.io/repository/biocontainers/bioconductor-rprotobuflib/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rprotobuflib
+.. _`bioconductor-rprotobuflib/tags`: https://quay.io/repository/biocontainers/bioconductor-rprotobuflib?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rprotobuflib/README.html
-

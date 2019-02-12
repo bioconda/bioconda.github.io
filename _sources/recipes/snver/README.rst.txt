@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'snver'
 .. highlight: bash
-
 
 snver
 =====
@@ -25,11 +26,13 @@ snver
 
    |downloads_snver| |docker_snver|
 
-   :versions: 0.5.3
-
-   :depends: :conda:package:`openjdk` >=6 :conda:package:`python`  
-
-   :required~by: |required_by_snver|
+   :versions: 0.5.3-0
+   
+   :depends openjdk: >=6
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -43,14 +46,16 @@ snver
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snver
+      docker pull quay.io/repository/biocontainers/snver:<tag>
+
+   (see `snver/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_snver| conda:required_by:: snver
 .. |downloads_snver| image:: https://img.shields.io/conda/dn/bioconda/snver.svg?style=flat
    :alt:   (downloads)
 .. |docker_snver| image:: https://quay.io/repository/biocontainers/snver/status
    :target: https://quay.io/repository/biocontainers/snver
+.. _`snver/tags`: https://quay.io/repository/biocontainers/snver?tab=tags
 
 
 
@@ -76,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/snver/README.html
-

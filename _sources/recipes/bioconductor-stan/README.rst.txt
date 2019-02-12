@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-stan'
 .. highlight: bash
-
 
 bioconductor-stan
 =================
@@ -22,11 +23,31 @@ bioconductor-stan
 
    |downloads_bioconductor-stan| |docker_bioconductor-stan|
 
-   :versions: 2.10.0, 2.8.0, 2.6.0
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-gviz` >=1.26.0,<1.27.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-poilog`  :conda:package:`r-rsolnp`  
-
-   :required~by: |required_by_bioconductor-stan|
+   :versions: 2.10.0-0, 2.8.0-0, 2.6.0-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-gviz: >=1.26.0,<1.27.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-poilog: 
+   
+   :depends r-rsolnp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +61,16 @@ bioconductor-stan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-stan
+      docker pull quay.io/repository/biocontainers/bioconductor-stan:<tag>
+
+   (see `bioconductor-stan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-stan| conda:required_by:: bioconductor-stan
 .. |downloads_bioconductor-stan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-stan.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-stan| image:: https://quay.io/repository/biocontainers/bioconductor-stan/status
    :target: https://quay.io/repository/biocontainers/bioconductor-stan
+.. _`bioconductor-stan/tags`: https://quay.io/repository/biocontainers/bioconductor-stan?tab=tags
 
 
 
@@ -64,4 +87,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-stan/README.html
-

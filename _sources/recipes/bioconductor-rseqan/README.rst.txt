@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rseqan'
 .. highlight: bash
-
 
 bioconductor-rseqan
 ===================
@@ -21,11 +22,11 @@ bioconductor-rseqan
 
    |downloads_bioconductor-rseqan| |docker_bioconductor-rseqan|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-rseqan|
+   :versions: 1.2.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bioconductor-rseqan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rseqan
+      docker pull quay.io/repository/biocontainers/bioconductor-rseqan:<tag>
+
+   (see `bioconductor-rseqan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rseqan| conda:required_by:: bioconductor-rseqan
 .. |downloads_bioconductor-rseqan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rseqan.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rseqan| image:: https://quay.io/repository/biocontainers/bioconductor-rseqan/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rseqan
+.. _`bioconductor-rseqan/tags`: https://quay.io/repository/biocontainers/bioconductor-rseqan?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rseqan/README.html
-

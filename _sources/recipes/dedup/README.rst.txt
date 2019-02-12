@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dedup'
 .. highlight: bash
-
 
 dedup
 =====
@@ -21,11 +22,13 @@ dedup
 
    |downloads_dedup| |docker_dedup|
 
-   :versions: 0.12.3
-
-   :depends: :conda:package:`openjdk`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_dedup|
+   :versions: 0.12.3-1, 0.12.3-0
+   
+   :depends openjdk: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ dedup
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dedup
+      docker pull quay.io/repository/biocontainers/dedup:<tag>
+
+   (see `dedup/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dedup| conda:required_by:: dedup
 .. |downloads_dedup| image:: https://img.shields.io/conda/dn/bioconda/dedup.svg?style=flat
    :alt:   (downloads)
 .. |docker_dedup| image:: https://quay.io/repository/biocontainers/dedup/status
    :target: https://quay.io/repository/biocontainers/dedup
+.. _`dedup/tags`: https://quay.io/repository/biocontainers/dedup?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dedup/README.html
-

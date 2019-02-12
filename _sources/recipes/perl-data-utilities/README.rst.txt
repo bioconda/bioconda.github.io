@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-data-utilities'
 .. highlight: bash
-
 
 perl-data-utilities
 ===================
@@ -21,11 +22,13 @@ perl-data-utilities
 
    |downloads_perl-data-utilities| |docker_perl-data-utilities|
 
-   :versions: 0.04
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-clone`  
-
-   :required~by: |required_by_perl-data-utilities|
+   :versions: 0.04-1, 0.04-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-clone: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-data-utilities
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-data-utilities
+      docker pull quay.io/repository/biocontainers/perl-data-utilities:<tag>
+
+   (see `perl-data-utilities/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-data-utilities| conda:required_by:: perl-data-utilities
 .. |downloads_perl-data-utilities| image:: https://img.shields.io/conda/dn/bioconda/perl-data-utilities.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-data-utilities| image:: https://quay.io/repository/biocontainers/perl-data-utilities/status
    :target: https://quay.io/repository/biocontainers/perl-data-utilities
+.. _`perl-data-utilities/tags`: https://quay.io/repository/biocontainers/perl-data-utilities?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-data-utilities/README.html
-

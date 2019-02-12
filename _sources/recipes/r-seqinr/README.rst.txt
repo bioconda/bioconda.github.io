@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-seqinr'
 .. highlight: bash
-
 
 r-seqinr
 ========
@@ -21,11 +22,17 @@ r-seqinr
 
    |downloads_r-seqinr| |docker_r-seqinr|
 
-   :versions: 3.4_5, 3.1_3
-
-   :depends: :conda:package:`libgcc`  :conda:package:`r-ade4`  :conda:package:`r-base` 3.4.1* :conda:package:`r-segmented`  
-
-   :required~by: |required_by_r-seqinr|
+   :versions: 3.4_5-0, 3.1_3-0
+   
+   :depends libgcc: 
+   
+   :depends r-ade4: 
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-segmented: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-seqinr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-seqinr
+      docker pull quay.io/repository/biocontainers/r-seqinr:<tag>
+
+   (see `r-seqinr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-seqinr| conda:required_by:: r-seqinr
 .. |downloads_r-seqinr| image:: https://img.shields.io/conda/dn/bioconda/r-seqinr.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-seqinr| image:: https://quay.io/repository/biocontainers/r-seqinr/status
    :target: https://quay.io/repository/biocontainers/r-seqinr
+.. _`r-seqinr/tags`: https://quay.io/repository/biocontainers/r-seqinr?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-seqinr/README.html
-

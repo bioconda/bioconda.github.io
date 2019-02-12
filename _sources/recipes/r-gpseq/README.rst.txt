@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-gpseq'
 .. highlight: bash
-
 
 r-gpseq
 =======
@@ -22,11 +23,11 @@ r-gpseq
 
    |downloads_r-gpseq| |docker_r-gpseq|
 
-   :versions: 0.5
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-gpseq|
+   :versions: 0.5-0
+   
+   :depends r-base: 3.3.2*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ r-gpseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gpseq
+      docker pull quay.io/repository/biocontainers/r-gpseq:<tag>
+
+   (see `r-gpseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-gpseq| conda:required_by:: r-gpseq
 .. |downloads_r-gpseq| image:: https://img.shields.io/conda/dn/bioconda/r-gpseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-gpseq| image:: https://quay.io/repository/biocontainers/r-gpseq/status
    :target: https://quay.io/repository/biocontainers/r-gpseq
+.. _`r-gpseq/tags`: https://quay.io/repository/biocontainers/r-gpseq?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-gpseq/README.html
-

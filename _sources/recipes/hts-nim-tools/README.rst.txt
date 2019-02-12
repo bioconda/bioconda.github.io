@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hts-nim-tools'
 .. highlight: bash
-
 
 hts-nim-tools
 =============
@@ -21,11 +22,15 @@ hts-nim-tools
 
    |downloads_hts-nim-tools| |docker_hts-nim-tools|
 
-   :versions: 0.1.5
-
-   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`pcre`  
-
-   :required~by: |required_by_hts-nim-tools|
+   :versions: 0.1.5-2, 0.1.5-1, 0.1.5-0
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends pcre: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ hts-nim-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hts-nim-tools
+      docker pull quay.io/repository/biocontainers/hts-nim-tools:<tag>
+
+   (see `hts-nim-tools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hts-nim-tools| conda:required_by:: hts-nim-tools
 .. |downloads_hts-nim-tools| image:: https://img.shields.io/conda/dn/bioconda/hts-nim-tools.svg?style=flat
    :alt:   (downloads)
 .. |docker_hts-nim-tools| image:: https://quay.io/repository/biocontainers/hts-nim-tools/status
    :target: https://quay.io/repository/biocontainers/hts-nim-tools
+.. _`hts-nim-tools/tags`: https://quay.io/repository/biocontainers/hts-nim-tools?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hts-nim-tools/README.html
-

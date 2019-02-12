@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ctrap'
 .. highlight: bash
-
 
 bioconductor-ctrap
 ==================
@@ -21,11 +22,35 @@ bioconductor-ctrap
 
    |downloads_bioconductor-ctrap| |docker_bioconductor-ctrap|
 
-   :versions: 1.0.3
-
-   :depends: :conda:package:`bioconductor-fgsea` >=1.8.0,<1.9.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-piano` >=1.22.0,<1.23.0 :conda:package:`bioconductor-rhdf5` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cowplot`  :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-httr`  :conda:package:`r-pbapply`  :conda:package:`r-plyr`  :conda:package:`r-r.utils`  :conda:package:`r-readr`  
-
-   :required~by: |required_by_bioconductor-ctrap|
+   :versions: 1.0.3-0
+   
+   :depends bioconductor-fgsea: >=1.8.0,<1.9.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-piano: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cowplot: 
+   
+   :depends r-data.table: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-httr: 
+   
+   :depends r-pbapply: 
+   
+   :depends r-plyr: 
+   
+   :depends r-r.utils: 
+   
+   :depends r-readr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ bioconductor-ctrap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ctrap
+      docker pull quay.io/repository/biocontainers/bioconductor-ctrap:<tag>
+
+   (see `bioconductor-ctrap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ctrap| conda:required_by:: bioconductor-ctrap
 .. |downloads_bioconductor-ctrap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ctrap.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ctrap| image:: https://quay.io/repository/biocontainers/bioconductor-ctrap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ctrap
+.. _`bioconductor-ctrap/tags`: https://quay.io/repository/biocontainers/bioconductor-ctrap?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ctrap/README.html
-

@@ -131,11 +131,24 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">1.000033, 1.000019</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">1.000033-0, 1.000019-1, 1.000019-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference external" href="https://github.com/conda-forge/perl-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl</span></code></a> &gt;=5.26.2,&lt;5.26.3.0a0 <a class="reference internal" href="../perl-carp/README.html#package-perl-carp" title="perl-carp package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-carp</span></code></a>  <a class="reference internal" href="../perl-version/README.html#package-perl-version" title="perl-version package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-version</span></code></a></td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</li>
+<li><a class="conda-package reference internal" href="../perl-carp/README.html#package-perl-carp" title="perl-carp package"><strong>perl-carp</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-version/README.html#package-perl-version" title="perl-version package"><strong>perl-version</strong></a></li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+<li><a class="conda-package reference internal" href="../perl-cpan-meta-check/README.html#perl-cpan-meta-check"><strong class="xref backref">perl-cpan-meta-check</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-module-load-conditional/README.html#perl-module-load-conditional"><strong class="xref backref">perl-module-load-conditional</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-module-scandeps/README.html#perl-module-scandeps"><strong class="xref backref">perl-module-scandeps</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-module-build/README.html#perl-module-build"><strong class="xref backref">perl-module-build</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-html-form/README.html#perl-html-form"><strong class="xref backref">perl-html-form</strong></a></li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -149,9 +162,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">perl</span><span class="o">-</span><span class="n">module</span><span class="o">-</span><span class="n">metadata</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">perl</span><span class="o">-</span><span class="n">module</span><span class="o">-</span><span class="n">metadata</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/perl-module-metadata?tab=tags">perl-module-metadata/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

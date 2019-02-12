@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'slclust'
 .. highlight: bash
-
 
 slclust
 =======
@@ -21,11 +22,11 @@ slclust
 
    |downloads_slclust| |docker_slclust|
 
-   :versions: 02022010
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_slclust|
+   :versions: 02022010-3, 02022010-2, 02022010-1, 02022010-0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ slclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/slclust
+      docker pull quay.io/repository/biocontainers/slclust:<tag>
+
+   (see `slclust/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_slclust| conda:required_by:: slclust
 .. |downloads_slclust| image:: https://img.shields.io/conda/dn/bioconda/slclust.svg?style=flat
    :alt:   (downloads)
 .. |docker_slclust| image:: https://quay.io/repository/biocontainers/slclust/status
    :target: https://quay.io/repository/biocontainers/slclust
+.. _`slclust/tags`: https://quay.io/repository/biocontainers/slclust?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/slclust/README.html
-

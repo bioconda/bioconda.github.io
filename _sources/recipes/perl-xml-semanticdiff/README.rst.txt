@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-xml-semanticdiff'
 .. highlight: bash
-
 
 perl-xml-semanticdiff
 =====================
@@ -21,11 +22,17 @@ perl-xml-semanticdiff
 
    |downloads_perl-xml-semanticdiff| |docker_perl-xml-semanticdiff|
 
-   :versions: 1.0007, 1.0004
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-digest-md5`  :conda:package:`perl-encode`  :conda:package:`perl-xml-parser`  
-
-   :required~by: |required_by_perl-xml-semanticdiff|
+   :versions: 1.0007-0, 1.0004-2, 1.0004-1, 1.0004-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-digest-md5: 
+   
+   :depends perl-encode: 
+   
+   :depends perl-xml-parser: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-xml-semanticdiff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-semanticdiff
+      docker pull quay.io/repository/biocontainers/perl-xml-semanticdiff:<tag>
+
+   (see `perl-xml-semanticdiff/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-xml-semanticdiff| conda:required_by:: perl-xml-semanticdiff
 .. |downloads_perl-xml-semanticdiff| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-semanticdiff.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-xml-semanticdiff| image:: https://quay.io/repository/biocontainers/perl-xml-semanticdiff/status
    :target: https://quay.io/repository/biocontainers/perl-xml-semanticdiff
+.. _`perl-xml-semanticdiff/tags`: https://quay.io/repository/biocontainers/perl-xml-semanticdiff?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-xml-semanticdiff/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'scalpel'
 .. highlight: bash
-
 
 scalpel
 =======
@@ -21,11 +22,17 @@ scalpel
 
    |downloads_scalpel| |docker_scalpel|
 
-   :versions: 0.5.4, 0.5.3, 0.5.1
-
-   :depends: :conda:package:`bamtools` >=2.4.1,<2.4.2.0a0 :conda:package:`bcftools`  :conda:package:`perl`  :conda:package:`samtools`  
-
-   :required~by: |required_by_scalpel|
+   :versions: 0.5.4-0, 0.5.3-2, 0.5.3-1, 0.5.3-0, 0.5.1-3, 0.5.1-2, 0.5.1-1, 0.5.1-0
+   
+   :depends bamtools: >=2.4.1,<2.4.2.0a0
+   
+   :depends bcftools: 
+   
+   :depends perl: 
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ scalpel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scalpel
+      docker pull quay.io/repository/biocontainers/scalpel:<tag>
+
+   (see `scalpel/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_scalpel| conda:required_by:: scalpel
 .. |downloads_scalpel| image:: https://img.shields.io/conda/dn/bioconda/scalpel.svg?style=flat
    :alt:   (downloads)
 .. |docker_scalpel| image:: https://quay.io/repository/biocontainers/scalpel/status
    :target: https://quay.io/repository/biocontainers/scalpel
+.. _`scalpel/tags`: https://quay.io/repository/biocontainers/scalpel?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/scalpel/README.html
-

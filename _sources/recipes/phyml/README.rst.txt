@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'phyml'
 .. highlight: bash
-
 
 phyml
 =====
@@ -33,11 +34,13 @@ phyml
 
    |downloads_phyml| |docker_phyml|
 
-   :versions: 3.3.20180621, 3.3.20170530, 3.2.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`openmpi` >=3.1,<3.2.0a0 
-
-   :required~by: |required_by_phyml|
+   :versions: 3.3.20180621-0, 3.3.20170530-0, 3.2.0-2, 3.2.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openmpi: >=3.1,<3.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -51,14 +54,16 @@ phyml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phyml
+      docker pull quay.io/repository/biocontainers/phyml:<tag>
+
+   (see `phyml/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_phyml| conda:required_by:: phyml
 .. |downloads_phyml| image:: https://img.shields.io/conda/dn/bioconda/phyml.svg?style=flat
    :alt:   (downloads)
 .. |docker_phyml| image:: https://quay.io/repository/biocontainers/phyml/status
    :target: https://quay.io/repository/biocontainers/phyml
+.. _`phyml/tags`: https://quay.io/repository/biocontainers/phyml?tab=tags
 
 
 
@@ -75,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/phyml/README.html
-

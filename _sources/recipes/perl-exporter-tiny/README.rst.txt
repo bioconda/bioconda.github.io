@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-exporter-tiny'
 .. highlight: bash
-
 
 perl-exporter-tiny
 ==================
@@ -21,11 +22,11 @@ perl-exporter-tiny
 
    |downloads_perl-exporter-tiny| |docker_perl-exporter-tiny|
 
-   :versions: 1.002001, 1.000000, 0.042
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-exporter-tiny|
+   :versions: 1.002001-0, 1.000000-0, 0.042-2, 0.042-1
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-exporter-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-exporter-tiny
+      docker pull quay.io/repository/biocontainers/perl-exporter-tiny:<tag>
+
+   (see `perl-exporter-tiny/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-exporter-tiny| conda:required_by:: perl-exporter-tiny
 .. |downloads_perl-exporter-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-exporter-tiny.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-exporter-tiny| image:: https://quay.io/repository/biocontainers/perl-exporter-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-exporter-tiny
+.. _`perl-exporter-tiny/tags`: https://quay.io/repository/biocontainers/perl-exporter-tiny?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-exporter-tiny/README.html
-

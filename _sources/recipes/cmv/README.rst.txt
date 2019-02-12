@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cmv'
 .. highlight: bash
-
 
 cmv
 ===
@@ -21,11 +22,29 @@ cmv
 
    |downloads_cmv| |docker_cmv|
 
-   :versions: 1.0.8, 1.0.7, 1.0.6, 1.0.5, 1.0.2
-
-   :depends: :conda:package:`cairo`  :conda:package:`gmp` >=5.0.1,<7 :conda:package:`libgcc`  :conda:package:`pango`  :conda:package:`xorg-libsm`  :conda:package:`xorg-libxext`  :conda:package:`xorg-libxrender`  :conda:package:`zlib`  
-
-   :required~by: |required_by_cmv|
+   :versions: 1.0.8-1, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.2-0
+   
+   :depends cairo: 
+   
+   :depends gmp: 5.1*
+   
+   :depends libgcc: 
+   
+   :depends libxml2: 
+   
+   :depends pango: 
+   
+   :depends pthread-stubs: 
+   
+   :depends xorg-libsm: 
+   
+   :depends xorg-libxext: 
+   
+   :depends xorg-libxrender: 
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ cmv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cmv
+      docker pull quay.io/repository/biocontainers/cmv:<tag>
+
+   (see `cmv/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cmv| conda:required_by:: cmv
 .. |downloads_cmv| image:: https://img.shields.io/conda/dn/bioconda/cmv.svg?style=flat
    :alt:   (downloads)
 .. |docker_cmv| image:: https://quay.io/repository/biocontainers/cmv/status
    :target: https://quay.io/repository/biocontainers/cmv
+.. _`cmv/tags`: https://quay.io/repository/biocontainers/cmv?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cmv/README.html
-

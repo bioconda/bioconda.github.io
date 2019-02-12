@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-params-validationcompiler'
 .. highlight: bash
-
 
 perl-params-validationcompiler
 ==============================
@@ -21,11 +22,25 @@ perl-params-validationcompiler
 
    |downloads_perl-params-validationcompiler| |docker_perl-params-validationcompiler|
 
-   :versions: 0.23
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-b`  :conda:package:`perl-devel-stacktrace`  :conda:package:`perl-eval-closure`  :conda:package:`perl-exception-class`  :conda:package:`perl-variable-magic`  
-
-   :required~by: |required_by_perl-params-validationcompiler|
+   :versions: 0.23-2, 0.23-1, 0.23-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-b: 
+   
+   :depends perl-devel-stacktrace: 
+   
+   :depends perl-eval-closure: 
+   
+   :depends perl-exception-class: 
+   
+   :depends perl-variable-magic: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ perl-params-validationcompiler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-params-validationcompiler
+      docker pull quay.io/repository/biocontainers/perl-params-validationcompiler:<tag>
+
+   (see `perl-params-validationcompiler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-params-validationcompiler| conda:required_by:: perl-params-validationcompiler
 .. |downloads_perl-params-validationcompiler| image:: https://img.shields.io/conda/dn/bioconda/perl-params-validationcompiler.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-params-validationcompiler| image:: https://quay.io/repository/biocontainers/perl-params-validationcompiler/status
    :target: https://quay.io/repository/biocontainers/perl-params-validationcompiler
+.. _`perl-params-validationcompiler/tags`: https://quay.io/repository/biocontainers/perl-params-validationcompiler?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-params-validationcompiler/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-epinem'
 .. highlight: bash
-
 
 bioconductor-epinem
 ===================
@@ -22,10 +23,8 @@ bioconductor-epinem
    |downloads_bioconductor-epinem| |docker_bioconductor-epinem|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-epinem|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-epinem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-epinem
+      docker pull quay.io/repository/biocontainers/bioconductor-epinem:<tag>
+
+   (see `bioconductor-epinem/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-epinem| conda:required_by:: bioconductor-epinem
 .. |downloads_bioconductor-epinem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-epinem.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-epinem| image:: https://quay.io/repository/biocontainers/bioconductor-epinem/status
    :target: https://quay.io/repository/biocontainers/bioconductor-epinem
+.. _`bioconductor-epinem/tags`: https://quay.io/repository/biocontainers/bioconductor-epinem?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-epinem/README.html
-

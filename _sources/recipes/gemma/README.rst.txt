@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gemma'
 .. highlight: bash
-
 
 gemma
 =====
@@ -21,11 +22,17 @@ gemma
 
    |downloads_gemma| |docker_gemma|
 
-   :versions: 0.98
-
-   :depends: :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_gemma|
+   :versions: 0.98-0
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ gemma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gemma
+      docker pull quay.io/repository/biocontainers/gemma:<tag>
+
+   (see `gemma/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gemma| conda:required_by:: gemma
 .. |downloads_gemma| image:: https://img.shields.io/conda/dn/bioconda/gemma.svg?style=flat
    :alt:   (downloads)
 .. |docker_gemma| image:: https://quay.io/repository/biocontainers/gemma/status
    :target: https://quay.io/repository/biocontainers/gemma
+.. _`gemma/tags`: https://quay.io/repository/biocontainers/gemma?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gemma/README.html
-

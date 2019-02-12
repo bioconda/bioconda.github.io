@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-omicspca'
 .. highlight: bash
-
 
 bioconductor-omicspca
 =====================
@@ -22,10 +23,8 @@ bioconductor-omicspca
    |downloads_bioconductor-omicspca| |docker_bioconductor-omicspca|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-omicspca|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-omicspca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omicspca
+      docker pull quay.io/repository/biocontainers/bioconductor-omicspca:<tag>
+
+   (see `bioconductor-omicspca/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-omicspca| conda:required_by:: bioconductor-omicspca
 .. |downloads_bioconductor-omicspca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-omicspca.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-omicspca| image:: https://quay.io/repository/biocontainers/bioconductor-omicspca/status
    :target: https://quay.io/repository/biocontainers/bioconductor-omicspca
+.. _`bioconductor-omicspca/tags`: https://quay.io/repository/biocontainers/bioconductor-omicspca?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-omicspca/README.html
-

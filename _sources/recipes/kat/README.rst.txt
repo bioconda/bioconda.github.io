@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kat'
 .. highlight: bash
-
 
 kat
 ===
@@ -22,11 +23,25 @@ kat
 
    |downloads_kat| |docker_kat|
 
-   :versions: 2.4.1, 2.4.0, 2.3.4, 2.3.1, 2.0.8
-
-   :depends: :conda:package:`libgcc`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`python` 3.5* :conda:package:`scipy`  :conda:package:`tabulate`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_kat|
+   :versions: 2.4.1-3, 2.4.1-2, 2.4.1-1, 2.4.0-3, 2.4.0-2, 2.4.0-1, 2.3.4-1, 2.3.4-0, 2.3.1-2, 2.3.1-1, 2.0.8-3, 2.0.8-2, 2.0.8-1, 2.0.8-0
+   
+   :depends cycler: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends scipy: 
+   
+   :depends tabulate: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ kat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kat
+      docker pull quay.io/repository/biocontainers/kat:<tag>
+
+   (see `kat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kat| conda:required_by:: kat
 .. |downloads_kat| image:: https://img.shields.io/conda/dn/bioconda/kat.svg?style=flat
    :alt:   (downloads)
 .. |docker_kat| image:: https://quay.io/repository/biocontainers/kat/status
    :target: https://quay.io/repository/biocontainers/kat
+.. _`kat/tags`: https://quay.io/repository/biocontainers/kat?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kat/README.html
-

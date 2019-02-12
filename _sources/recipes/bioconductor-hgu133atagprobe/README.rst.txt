@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-hgu133atagprobe'
 .. highlight: bash
-
 
 bioconductor-hgu133atagprobe
 ============================
@@ -21,11 +22,15 @@ bioconductor-hgu133atagprobe
 
    |downloads_bioconductor-hgu133atagprobe| |docker_bioconductor-hgu133atagprobe|
 
-   :versions: 2.18.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-hgu133atagprobe|
+   :versions: 2.18.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-hgu133atagprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hgu133atagprobe
+      docker pull quay.io/repository/biocontainers/bioconductor-hgu133atagprobe:<tag>
+
+   (see `bioconductor-hgu133atagprobe/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-hgu133atagprobe| conda:required_by:: bioconductor-hgu133atagprobe
 .. |downloads_bioconductor-hgu133atagprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu133atagprobe.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-hgu133atagprobe| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133atagprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgu133atagprobe
+.. _`bioconductor-hgu133atagprobe/tags`: https://quay.io/repository/biocontainers/bioconductor-hgu133atagprobe?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-hgu133atagprobe/README.html
-

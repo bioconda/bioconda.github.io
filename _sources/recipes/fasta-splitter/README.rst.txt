@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fasta-splitter'
 .. highlight: bash
-
 
 fasta-splitter
 ==============
@@ -21,11 +22,13 @@ fasta-splitter
 
    |downloads_fasta-splitter| |docker_fasta-splitter|
 
-   :versions: 0.2.4
-
-   :depends: :conda:package:`perl`  :conda:package:`perl-file-util`  
-
-   :required~by: |required_by_fasta-splitter|
+   :versions: 0.2.4-1, 0.2.4-0
+   
+   :depends perl: 
+   
+   :depends perl-file-util: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ fasta-splitter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fasta-splitter
+      docker pull quay.io/repository/biocontainers/fasta-splitter:<tag>
+
+   (see `fasta-splitter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fasta-splitter| conda:required_by:: fasta-splitter
 .. |downloads_fasta-splitter| image:: https://img.shields.io/conda/dn/bioconda/fasta-splitter.svg?style=flat
    :alt:   (downloads)
 .. |docker_fasta-splitter| image:: https://quay.io/repository/biocontainers/fasta-splitter/status
    :target: https://quay.io/repository/biocontainers/fasta-splitter
+.. _`fasta-splitter/tags`: https://quay.io/repository/biocontainers/fasta-splitter?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fasta-splitter/README.html
-

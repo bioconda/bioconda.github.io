@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-tximport'
 .. highlight: bash
-
 
 bioconductor-tximport
 =====================
@@ -22,11 +23,11 @@ bioconductor-tximport
 
    |downloads_bioconductor-tximport| |docker_bioconductor-tximport|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0, 1.0.3
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-tximport|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.0.3-1, 1.0.3-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ bioconductor-tximport
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tximport
+      docker pull quay.io/repository/biocontainers/bioconductor-tximport:<tag>
+
+   (see `bioconductor-tximport/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-tximport| conda:required_by:: bioconductor-tximport
 .. |downloads_bioconductor-tximport| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tximport.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-tximport| image:: https://quay.io/repository/biocontainers/bioconductor-tximport/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tximport
+.. _`bioconductor-tximport/tags`: https://quay.io/repository/biocontainers/bioconductor-tximport?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-tximport/README.html
-

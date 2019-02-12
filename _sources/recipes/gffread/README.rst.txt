@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gffread'
 .. highlight: bash
-
 
 gffread
 =======
@@ -22,11 +23,9 @@ gffread
 
    |downloads_gffread| |docker_gffread|
 
-   :versions: 0.9.12, 0.9.9, 0.9.8
-
-   :depends: 
-
-   :required~by: |required_by_gffread|
+   :versions: 0.9.12-0, 0.9.9-1, 0.9.9-0, 0.9.8-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +39,16 @@ gffread
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gffread
+      docker pull quay.io/repository/biocontainers/gffread:<tag>
+
+   (see `gffread/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gffread| conda:required_by:: gffread
 .. |downloads_gffread| image:: https://img.shields.io/conda/dn/bioconda/gffread.svg?style=flat
    :alt:   (downloads)
 .. |docker_gffread| image:: https://quay.io/repository/biocontainers/gffread/status
    :target: https://quay.io/repository/biocontainers/gffread
+.. _`gffread/tags`: https://quay.io/repository/biocontainers/gffread?tab=tags
 
 
 
@@ -64,4 +65,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gffread/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-treeio'
 .. highlight: bash
-
 
 bioconductor-treeio
 ===================
@@ -21,11 +22,27 @@ bioconductor-treeio
 
    |downloads_bioconductor-treeio| |docker_bioconductor-treeio|
 
-   :versions: 1.6.1, 1.4.3, 1.2.1, 1.2.0, 1.0.2
-
-   :depends: :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-jsonlite`  :conda:package:`r-magrittr`  :conda:package:`r-rlang`  :conda:package:`r-rvcheck`  :conda:package:`r-tibble`  :conda:package:`r-tidytree` >=0.1.7 
-
-   :required~by: |required_by_bioconductor-treeio|
+   :versions: 1.6.1-0, 1.4.3-0, 1.2.1-0, 1.2.0-0, 1.0.2-0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-rlang: 
+   
+   :depends r-rvcheck: 
+   
+   :depends r-tibble: 
+   
+   :depends r-tidytree: >=0.1.7
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-treeio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-treeio
+      docker pull quay.io/repository/biocontainers/bioconductor-treeio:<tag>
+
+   (see `bioconductor-treeio/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-treeio| conda:required_by:: bioconductor-treeio
 .. |downloads_bioconductor-treeio| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-treeio.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-treeio| image:: https://quay.io/repository/biocontainers/bioconductor-treeio/status
    :target: https://quay.io/repository/biocontainers/bioconductor-treeio
+.. _`bioconductor-treeio/tags`: https://quay.io/repository/biocontainers/bioconductor-treeio?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-treeio/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-loci2path'
 .. highlight: bash
-
 
 bioconductor-loci2path
 ======================
@@ -21,11 +22,25 @@ bioconductor-loci2path
 
    |downloads_bioconductor-loci2path| |docker_bioconductor-loci2path|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-pheatmap`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-wordcloud`  
-
-   :required~by: |required_by_bioconductor-loci2path|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-pheatmap: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-wordcloud: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bioconductor-loci2path
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-loci2path
+      docker pull quay.io/repository/biocontainers/bioconductor-loci2path:<tag>
+
+   (see `bioconductor-loci2path/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-loci2path| conda:required_by:: bioconductor-loci2path
 .. |downloads_bioconductor-loci2path| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-loci2path.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-loci2path| image:: https://quay.io/repository/biocontainers/bioconductor-loci2path/status
    :target: https://quay.io/repository/biocontainers/bioconductor-loci2path
+.. _`bioconductor-loci2path/tags`: https://quay.io/repository/biocontainers/bioconductor-loci2path?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-loci2path/README.html
-

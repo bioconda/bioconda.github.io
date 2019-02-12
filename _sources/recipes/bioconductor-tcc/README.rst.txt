@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-tcc'
 .. highlight: bash
-
 
 bioconductor-tcc
 ================
@@ -22,11 +23,21 @@ bioconductor-tcc
 
    |downloads_bioconductor-tcc| |docker_bioconductor-tcc|
 
-   :versions: 1.22.0, 1.20.1, 1.18.0
-
-   :depends: :conda:package:`bioconductor-bayseq` >=2.16.0,<2.17.0 :conda:package:`bioconductor-deseq` >=1.34.0,<1.35.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-roc` >=1.58.0,<1.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-tcc|
+   :versions: 1.22.0-0, 1.20.1-0, 1.18.0-0
+   
+   :depends bioconductor-bayseq: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-deseq: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-roc: >=1.58.0,<1.59.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-tcc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tcc
+      docker pull quay.io/repository/biocontainers/bioconductor-tcc:<tag>
+
+   (see `bioconductor-tcc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-tcc| conda:required_by:: bioconductor-tcc
 .. |downloads_bioconductor-tcc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tcc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-tcc| image:: https://quay.io/repository/biocontainers/bioconductor-tcc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tcc
+.. _`bioconductor-tcc/tags`: https://quay.io/repository/biocontainers/bioconductor-tcc?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-tcc/README.html
-

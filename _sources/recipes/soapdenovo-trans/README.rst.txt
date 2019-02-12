@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'soapdenovo-trans'
 .. highlight: bash
-
 
 soapdenovo-trans
 ================
@@ -21,11 +22,13 @@ soapdenovo-trans
 
    |downloads_soapdenovo-trans| |docker_soapdenovo-trans|
 
-   :versions: 1.04
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_soapdenovo-trans|
+   :versions: 1.04-2, 1.04-1, 1.04-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ soapdenovo-trans
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/soapdenovo-trans
+      docker pull quay.io/repository/biocontainers/soapdenovo-trans:<tag>
+
+   (see `soapdenovo-trans/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_soapdenovo-trans| conda:required_by:: soapdenovo-trans
 .. |downloads_soapdenovo-trans| image:: https://img.shields.io/conda/dn/bioconda/soapdenovo-trans.svg?style=flat
    :alt:   (downloads)
 .. |docker_soapdenovo-trans| image:: https://quay.io/repository/biocontainers/soapdenovo-trans/status
    :target: https://quay.io/repository/biocontainers/soapdenovo-trans
+.. _`soapdenovo-trans/tags`: https://quay.io/repository/biocontainers/soapdenovo-trans?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/soapdenovo-trans/README.html
-

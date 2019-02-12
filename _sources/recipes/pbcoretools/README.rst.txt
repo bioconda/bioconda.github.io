@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pbcoretools'
 .. highlight: bash
-
 
 pbcoretools
 ===========
@@ -21,11 +22,19 @@ pbcoretools
 
    |downloads_pbcoretools| |docker_pbcoretools|
 
-   :versions: 0.2.4
-
-   :depends: :conda:package:`numpy` >=1.7.1 :conda:package:`pbcommand` >=1.1.1 :conda:package:`pbcore` >=1.5.1 :conda:package:`pysam` >=0.13 :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_pbcoretools|
+   :versions: 0.2.4-3, 0.2.4-2, 0.2.4-1, 0.2.4-0
+   
+   :depends numpy: >=1.15
+   
+   :depends pbcommand: >=1.1.1
+   
+   :depends pbcore: >=1.6.5
+   
+   :depends pysam: >=0.13
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ pbcoretools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbcoretools
+      docker pull quay.io/repository/biocontainers/pbcoretools:<tag>
+
+   (see `pbcoretools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pbcoretools| conda:required_by:: pbcoretools
 .. |downloads_pbcoretools| image:: https://img.shields.io/conda/dn/bioconda/pbcoretools.svg?style=flat
    :alt:   (downloads)
 .. |docker_pbcoretools| image:: https://quay.io/repository/biocontainers/pbcoretools/status
    :target: https://quay.io/repository/biocontainers/pbcoretools
+.. _`pbcoretools/tags`: https://quay.io/repository/biocontainers/pbcoretools?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pbcoretools/README.html
-

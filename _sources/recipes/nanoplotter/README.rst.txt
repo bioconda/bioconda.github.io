@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nanoplotter'
 .. highlight: bash
-
 
 nanoplotter
 ===========
@@ -21,11 +22,27 @@ nanoplotter
 
    |downloads_nanoplotter| |docker_nanoplotter|
 
-   :versions: 1.2.1, 1.1.1, 1.0.0, 0.39.1, 0.38.0, 0.35.4, 0.35.3, 0.29.0, 0.24.1, 0.22.1, 0.13.3, 0.13.2
-
-   :depends: :conda:package:`matplotlib` >=2.1.0 :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pauvre` 0.1.86 :conda:package:`plotly` >=2.5.1 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`scipy`  :conda:package:`seaborn` >=0.9.0 :conda:package:`statsmodels` >=0.8.0 
-
-   :required~by: |required_by_nanoplotter|
+   :versions: 1.2.1-0, 1.1.1-0, 1.0.0-2, 0.39.1-2, 0.39.1-0, 0.38.0-0, 0.35.4-0, 0.35.3-0, 0.29.0-0, 0.24.1-0, 0.22.1-0, 0.13.3-0, 0.13.2-0
+   
+   :depends matplotlib: >=2.1.0
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends pauvre: 0.1.86
+   
+   :depends plotly: >=2.5.1
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends scipy: 
+   
+   :depends seaborn: >=0.9.0
+   
+   :depends statsmodels: >=0.8.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ nanoplotter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanoplotter
+      docker pull quay.io/repository/biocontainers/nanoplotter:<tag>
+
+   (see `nanoplotter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nanoplotter| conda:required_by:: nanoplotter
 .. |downloads_nanoplotter| image:: https://img.shields.io/conda/dn/bioconda/nanoplotter.svg?style=flat
    :alt:   (downloads)
 .. |docker_nanoplotter| image:: https://quay.io/repository/biocontainers/nanoplotter/status
    :target: https://quay.io/repository/biocontainers/nanoplotter
+.. _`nanoplotter/tags`: https://quay.io/repository/biocontainers/nanoplotter?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nanoplotter/README.html
-

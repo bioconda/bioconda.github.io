@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rtcga'
 .. highlight: bash
-
 
 bioconductor-rtcga
 ==================
@@ -22,11 +23,41 @@ bioconductor-rtcga
 
    |downloads_bioconductor-rtcga| |docker_bioconductor-rtcga|
 
-   :versions: 1.12.1, 1.10.0, 1.8.0
-
-   :depends: :conda:package:`r-assertthat`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-ggthemes`  :conda:package:`r-knitr`  :conda:package:`r-purrr`  :conda:package:`r-rvest`  :conda:package:`r-scales`  :conda:package:`r-stringi`  :conda:package:`r-survival`  :conda:package:`r-survminer`  :conda:package:`r-viridis`  :conda:package:`r-xml`  :conda:package:`r-xml2`  
-
-   :required~by: |required_by_bioconductor-rtcga|
+   :versions: 1.12.1-0, 1.10.0-0, 1.8.0-0
+   
+   :depends r-assertthat: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggthemes: 
+   
+   :depends r-knitr: 
+   
+   :depends r-purrr: 
+   
+   :depends r-rvest: 
+   
+   :depends r-scales: 
+   
+   :depends r-stringi: 
+   
+   :depends r-survival: 
+   
+   :depends r-survminer: 
+   
+   :depends r-viridis: 
+   
+   :depends r-xml: 
+   
+   :depends r-xml2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +71,16 @@ bioconductor-rtcga
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtcga
+      docker pull quay.io/repository/biocontainers/bioconductor-rtcga:<tag>
+
+   (see `bioconductor-rtcga/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rtcga| conda:required_by:: bioconductor-rtcga
 .. |downloads_bioconductor-rtcga| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcga.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rtcga| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtcga
+.. _`bioconductor-rtcga/tags`: https://quay.io/repository/biocontainers/bioconductor-rtcga?tab=tags
 
 
 
@@ -64,4 +97,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rtcga/README.html
-

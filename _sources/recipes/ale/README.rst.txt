@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ale'
 .. highlight: bash
-
 
 ale
 ===
@@ -21,11 +22,23 @@ ale
 
    |downloads_ale| |docker_ale|
 
-   :versions: 20180904, 20160127
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`mpmath`  :conda:package:`pymix`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_ale|
+   :versions: 20180904-0, 20160127-1, 20160127-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: 
+   
+   :depends mpmath: 
+   
+   :depends pymix: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ ale
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ale
+      docker pull quay.io/repository/biocontainers/ale:<tag>
+
+   (see `ale/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ale| conda:required_by:: ale
 .. |downloads_ale| image:: https://img.shields.io/conda/dn/bioconda/ale.svg?style=flat
    :alt:   (downloads)
 .. |docker_ale| image:: https://quay.io/repository/biocontainers/ale/status
    :target: https://quay.io/repository/biocontainers/ale
+.. _`ale/tags`: https://quay.io/repository/biocontainers/ale?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ale/README.html
-

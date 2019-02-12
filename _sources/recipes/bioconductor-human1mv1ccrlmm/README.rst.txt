@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-human1mv1ccrlmm'
 .. highlight: bash
-
 
 bioconductor-human1mv1ccrlmm
 ============================
@@ -21,11 +22,13 @@ bioconductor-human1mv1ccrlmm
 
    |downloads_bioconductor-human1mv1ccrlmm| |docker_bioconductor-human1mv1ccrlmm|
 
-   :versions: 1.0.3
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-human1mv1ccrlmm|
+   :versions: 1.0.3-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-human1mv1ccrlmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-human1mv1ccrlmm
+      docker pull quay.io/repository/biocontainers/bioconductor-human1mv1ccrlmm:<tag>
+
+   (see `bioconductor-human1mv1ccrlmm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-human1mv1ccrlmm| conda:required_by:: bioconductor-human1mv1ccrlmm
 .. |downloads_bioconductor-human1mv1ccrlmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-human1mv1ccrlmm.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-human1mv1ccrlmm| image:: https://quay.io/repository/biocontainers/bioconductor-human1mv1ccrlmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-human1mv1ccrlmm
+.. _`bioconductor-human1mv1ccrlmm/tags`: https://quay.io/repository/biocontainers/bioconductor-human1mv1ccrlmm?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-human1mv1ccrlmm/README.html
-

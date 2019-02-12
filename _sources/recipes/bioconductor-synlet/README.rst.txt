@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-synlet'
 .. highlight: bash
-
 
 bioconductor-synlet
 ===================
@@ -22,11 +23,25 @@ bioconductor-synlet
 
    |downloads_bioconductor-synlet| |docker_bioconductor-synlet|
 
-   :versions: 1.12.0, 1.10.0, 1.8.0
-
-   :depends: :conda:package:`bioconductor-rankprod` >=3.8.0,<3.9.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doby`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-magrittr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-synlet|
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0
+   
+   :depends bioconductor-rankprod: >=3.8.0,<3.9.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-doby: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ bioconductor-synlet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-synlet
+      docker pull quay.io/repository/biocontainers/bioconductor-synlet:<tag>
+
+   (see `bioconductor-synlet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-synlet| conda:required_by:: bioconductor-synlet
 .. |downloads_bioconductor-synlet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-synlet.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-synlet| image:: https://quay.io/repository/biocontainers/bioconductor-synlet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-synlet
+.. _`bioconductor-synlet/tags`: https://quay.io/repository/biocontainers/bioconductor-synlet?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-synlet/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-autodie'
 .. highlight: bash
-
 
 perl-autodie
 ============
@@ -21,11 +22,21 @@ perl-autodie
 
    |downloads_perl-autodie| |docker_perl-autodie|
 
-   :versions: 2.29
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-constant`  :conda:package:`perl-exporter`  :conda:package:`perl-parent`  :conda:package:`perl-tie-refhash`  
-
-   :required~by: |required_by_perl-autodie|
+   :versions: 2.29-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-constant: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-parent: 
+   
+   :depends perl-tie-refhash: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-autodie
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-autodie
+      docker pull quay.io/repository/biocontainers/perl-autodie:<tag>
+
+   (see `perl-autodie/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-autodie| conda:required_by:: perl-autodie
 .. |downloads_perl-autodie| image:: https://img.shields.io/conda/dn/bioconda/perl-autodie.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-autodie| image:: https://quay.io/repository/biocontainers/perl-autodie/status
    :target: https://quay.io/repository/biocontainers/perl-autodie
+.. _`perl-autodie/tags`: https://quay.io/repository/biocontainers/perl-autodie?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-autodie/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-image-size'
 .. highlight: bash
-
 
 perl-image-size
 ===============
@@ -21,11 +22,11 @@ perl-image-size
 
    |downloads_perl-image-size| |docker_perl-image-size|
 
-   :versions: 3.300
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-image-size|
+   :versions: 3.300-2, 3.300-1, 3.300-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-image-size
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-image-size
+      docker pull quay.io/repository/biocontainers/perl-image-size:<tag>
+
+   (see `perl-image-size/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-image-size| conda:required_by:: perl-image-size
 .. |downloads_perl-image-size| image:: https://img.shields.io/conda/dn/bioconda/perl-image-size.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-image-size| image:: https://quay.io/repository/biocontainers/perl-image-size/status
    :target: https://quay.io/repository/biocontainers/perl-image-size
+.. _`perl-image-size/tags`: https://quay.io/repository/biocontainers/perl-image-size?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-image-size/README.html
-

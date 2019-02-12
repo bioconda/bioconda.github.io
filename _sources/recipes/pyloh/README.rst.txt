@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyloh'
 .. highlight: bash
-
 
 pyloh
 =====
@@ -21,11 +22,19 @@ pyloh
 
    |downloads_pyloh| |docker_pyloh|
 
-   :versions: 1.4.3, 1.4.1
-
-   :depends: :conda:package:`matplotlib` >=1.2 :conda:package:`numpy` >=1.6.1 :conda:package:`pysam` >=0.7 :conda:package:`python` 2.7* :conda:package:`scipy` >=0.10 
-
-   :required~by: |required_by_pyloh|
+   :versions: 1.4.3-1, 1.4.3-0, 1.4.1-1
+   
+   :depends matplotlib: >=1.2
+   
+   :depends numpy: >=1.6.1
+   
+   :depends pysam: >=0.7
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: >=0.10
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ pyloh
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyloh
+      docker pull quay.io/repository/biocontainers/pyloh:<tag>
+
+   (see `pyloh/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyloh| conda:required_by:: pyloh
 .. |downloads_pyloh| image:: https://img.shields.io/conda/dn/bioconda/pyloh.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyloh| image:: https://quay.io/repository/biocontainers/pyloh/status
    :target: https://quay.io/repository/biocontainers/pyloh
+.. _`pyloh/tags`: https://quay.io/repository/biocontainers/pyloh?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyloh/README.html
-

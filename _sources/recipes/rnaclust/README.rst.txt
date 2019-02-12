@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rnaclust'
 .. highlight: bash
-
 
 rnaclust
 ========
@@ -32,11 +33,17 @@ rnaclust
 
    |downloads_rnaclust| |docker_rnaclust|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`libgcc`  :conda:package:`locarna`  :conda:package:`perl` 5.22.0* :conda:package:`viennarna`  
-
-   :required~by: |required_by_rnaclust|
+   :versions: 1.3-0
+   
+   :depends libgcc: 
+   
+   :depends locarna: 
+   
+   :depends perl: 5.22.0*
+   
+   :depends viennarna: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -50,14 +57,16 @@ rnaclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnaclust
+      docker pull quay.io/repository/biocontainers/rnaclust:<tag>
+
+   (see `rnaclust/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rnaclust| conda:required_by:: rnaclust
 .. |downloads_rnaclust| image:: https://img.shields.io/conda/dn/bioconda/rnaclust.svg?style=flat
    :alt:   (downloads)
 .. |docker_rnaclust| image:: https://quay.io/repository/biocontainers/rnaclust/status
    :target: https://quay.io/repository/biocontainers/rnaclust
+.. _`rnaclust/tags`: https://quay.io/repository/biocontainers/rnaclust?tab=tags
 
 
 
@@ -74,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rnaclust/README.html
-

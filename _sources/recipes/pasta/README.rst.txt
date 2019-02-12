@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pasta'
 .. highlight: bash
-
 
 pasta
 =====
@@ -21,11 +22,21 @@ pasta
 
    |downloads_pasta| |docker_pasta|
 
-   :versions: 1.7.8, 0.2
-
-   :depends: :conda:package:`dendropy` 4.1.0 py27_0 :conda:package:`java-jdk` >=6 :conda:package:`libgcc`  :conda:package:`pcre`  :conda:package:`pymongo` 3.3.0 py27_0 :conda:package:`python` >=2.7,<3 
-
-   :required~by: |required_by_pasta|
+   :versions: 1.7.8-2, 1.7.8-0, 0.2-0
+   
+   :depends dendropy: >=4.1.0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openjdk: 
+   
+   :depends pcre: >=8.41,<9.0a0
+   
+   :depends pymongo: >=3.3.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ pasta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pasta
+      docker pull quay.io/repository/biocontainers/pasta:<tag>
+
+   (see `pasta/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pasta| conda:required_by:: pasta
 .. |downloads_pasta| image:: https://img.shields.io/conda/dn/bioconda/pasta.svg?style=flat
    :alt:   (downloads)
 .. |docker_pasta| image:: https://quay.io/repository/biocontainers/pasta/status
    :target: https://quay.io/repository/biocontainers/pasta
+.. _`pasta/tags`: https://quay.io/repository/biocontainers/pasta?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pasta/README.html
-

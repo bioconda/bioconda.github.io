@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cycle'
 .. highlight: bash
-
 
 bioconductor-cycle
 ==================
@@ -21,11 +22,15 @@ bioconductor-cycle
 
    |downloads_bioconductor-cycle| |docker_bioconductor-cycle|
 
-   :versions: 1.36.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-mfuzz` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-cycle|
+   :versions: 1.36.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-mfuzz: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-cycle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cycle
+      docker pull quay.io/repository/biocontainers/bioconductor-cycle:<tag>
+
+   (see `bioconductor-cycle/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cycle| conda:required_by:: bioconductor-cycle
 .. |downloads_bioconductor-cycle| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cycle.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cycle| image:: https://quay.io/repository/biocontainers/bioconductor-cycle/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cycle
+.. _`bioconductor-cycle/tags`: https://quay.io/repository/biocontainers/bioconductor-cycle?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cycle/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pharmacogx'
 .. highlight: bash
-
 
 bioconductor-pharmacogx
 =======================
@@ -21,11 +22,27 @@ bioconductor-pharmacogx
 
    |downloads_bioconductor-pharmacogx| |docker_bioconductor-pharmacogx|
 
-   :versions: 1.12.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-piano` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-catools`  :conda:package:`r-downloader`  :conda:package:`r-lsa`  :conda:package:`r-magicaxis`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-pharmacogx|
+   :versions: 1.12.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-piano: >=1.22.0,<1.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-catools: 
+   
+   :depends r-downloader: 
+   
+   :depends r-lsa: 
+   
+   :depends r-magicaxis: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-pharmacogx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pharmacogx
+      docker pull quay.io/repository/biocontainers/bioconductor-pharmacogx:<tag>
+
+   (see `bioconductor-pharmacogx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pharmacogx| conda:required_by:: bioconductor-pharmacogx
 .. |downloads_bioconductor-pharmacogx| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pharmacogx.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pharmacogx| image:: https://quay.io/repository/biocontainers/bioconductor-pharmacogx/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pharmacogx
+.. _`bioconductor-pharmacogx/tags`: https://quay.io/repository/biocontainers/bioconductor-pharmacogx?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pharmacogx/README.html
-

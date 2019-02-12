@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ropls'
 .. highlight: bash
-
 
 bioconductor-ropls
 ==================
@@ -22,11 +23,13 @@ bioconductor-ropls
 
    |downloads_bioconductor-ropls| |docker_bioconductor-ropls|
 
-   :versions: 1.14.0, 1.12.0, 1.10.0, 1.8.0, 1.6.0, 1.4.4, 1.4.2, 1.2.14
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-ropls|
+   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.4-1, 1.4.4-0, 1.4.2-0, 1.2.14-1, 1.2.14-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-ropls
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ropls
+      docker pull quay.io/repository/biocontainers/bioconductor-ropls:<tag>
+
+   (see `bioconductor-ropls/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ropls| conda:required_by:: bioconductor-ropls
 .. |downloads_bioconductor-ropls| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ropls.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ropls| image:: https://quay.io/repository/biocontainers/bioconductor-ropls/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ropls
+.. _`bioconductor-ropls/tags`: https://quay.io/repository/biocontainers/bioconductor-ropls?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ropls/README.html
-

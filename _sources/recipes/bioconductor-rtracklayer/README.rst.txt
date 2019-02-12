@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rtracklayer'
 .. highlight: bash
-
 
 bioconductor-rtracklayer
 ========================
@@ -22,11 +23,37 @@ bioconductor-rtracklayer
 
    |downloads_bioconductor-rtracklayer| |docker_bioconductor-rtracklayer|
 
-   :versions: 1.42.1, 1.40.6, 1.38.3, 1.38.0, 1.36.6, 1.34.2, 1.34.1, 1.32.2, 1.30.1, 1.30.0
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-xvector` >=0.22.0,<0.23.0 :conda:package:`bioconductor-zlibbioc` >=1.28.0,<1.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcurl` >=1.4-2 :conda:package:`r-xml` >=1.98-0 
-
-   :required~by: |required_by_bioconductor-rtracklayer|
+   :versions: 1.42.1-0, 1.40.6-0, 1.38.3-0, 1.38.0-0, 1.36.6-0, 1.34.2-1, 1.34.1-0, 1.32.2-1, 1.30.1-0, 1.30.0-1
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicalignments: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-xvector: >=0.22.0,<0.23.0
+   
+   :depends bioconductor-zlibbioc: >=1.28.0,<1.29.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcurl: >=1.4-2
+   
+   :depends r-xml: >=1.98-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +67,16 @@ bioconductor-rtracklayer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtracklayer
+      docker pull quay.io/repository/biocontainers/bioconductor-rtracklayer:<tag>
+
+   (see `bioconductor-rtracklayer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rtracklayer| conda:required_by:: bioconductor-rtracklayer
 .. |downloads_bioconductor-rtracklayer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtracklayer.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rtracklayer| image:: https://quay.io/repository/biocontainers/bioconductor-rtracklayer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtracklayer
+.. _`bioconductor-rtracklayer/tags`: https://quay.io/repository/biocontainers/bioconductor-rtracklayer?tab=tags
 
 
 
@@ -64,4 +93,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rtracklayer/README.html
-

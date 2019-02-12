@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'feelnc'
 .. highlight: bash
-
 
 feelnc
 ======
@@ -21,11 +22,29 @@ feelnc
 
    |downloads_feelnc| |docker_feelnc|
 
-   :versions: 0.1.1
-
-   :depends: :conda:package:`fasta_ushuffle`  :conda:package:`kmerinshort`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bio-featureio`  :conda:package:`perl-bioperl`  :conda:package:`perl-db-file`  :conda:package:`perl-parallel-forkmanager`  :conda:package:`r-base`  :conda:package:`r-randomforest`  :conda:package:`r-rocr`  
-
-   :required~by: |required_by_feelnc|
+   :versions: 0.1.1-4, 0.1.1-3, 0.1.1-2, 0.1.1-1, 0.1.1-0
+   
+   :depends fasta_ushuffle: 
+   
+   :depends kmerinshort: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bio-featureio: 
+   
+   :depends perl-bioperl: 
+   
+   :depends perl-db-file: 
+   
+   :depends perl-parallel-forkmanager: 
+   
+   :depends r-base: 
+   
+   :depends r-randomforest: 
+   
+   :depends r-rocr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ feelnc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/feelnc
+      docker pull quay.io/repository/biocontainers/feelnc:<tag>
+
+   (see `feelnc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_feelnc| conda:required_by:: feelnc
 .. |downloads_feelnc| image:: https://img.shields.io/conda/dn/bioconda/feelnc.svg?style=flat
    :alt:   (downloads)
 .. |docker_feelnc| image:: https://quay.io/repository/biocontainers/feelnc/status
    :target: https://quay.io/repository/biocontainers/feelnc
+.. _`feelnc/tags`: https://quay.io/repository/biocontainers/feelnc?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/feelnc/README.html
-

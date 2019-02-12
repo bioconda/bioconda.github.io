@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-copywriter'
 .. highlight: bash
-
 
 bioconductor-copywriter
 =======================
@@ -22,11 +23,39 @@ bioconductor-copywriter
 
    |downloads_bioconductor-copywriter| |docker_bioconductor-copywriter|
 
-   :versions: 2.14.0, 2.12.0, 2.10.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-chipseq` >=1.32.0,<1.33.0 :conda:package:`bioconductor-copyhelper` >=1.14.0,<1.15.0 :conda:package:`bioconductor-dnacopy` >=1.56.0,<1.57.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-futile.logger`  :conda:package:`r-gtools`  :conda:package:`r-matrixstats`  
-
-   :required~by: |required_by_bioconductor-copywriter|
+   :versions: 2.14.0-0, 2.12.0-0, 2.10.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-chipseq: >=1.32.0,<1.33.0
+   
+   :depends bioconductor-copyhelper: >=1.14.0,<1.15.0
+   
+   :depends bioconductor-dnacopy: >=1.56.0,<1.57.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicalignments: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-futile.logger: 
+   
+   :depends r-gtools: 
+   
+   :depends r-matrixstats: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +69,16 @@ bioconductor-copywriter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-copywriter
+      docker pull quay.io/repository/biocontainers/bioconductor-copywriter:<tag>
+
+   (see `bioconductor-copywriter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-copywriter| conda:required_by:: bioconductor-copywriter
 .. |downloads_bioconductor-copywriter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-copywriter.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-copywriter| image:: https://quay.io/repository/biocontainers/bioconductor-copywriter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-copywriter
+.. _`bioconductor-copywriter/tags`: https://quay.io/repository/biocontainers/bioconductor-copywriter?tab=tags
 
 
 
@@ -64,4 +95,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-copywriter/README.html
-

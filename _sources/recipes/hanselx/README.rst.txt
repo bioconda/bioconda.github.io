@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hanselx'
 .. highlight: bash
-
 
 hanselx
 =======
@@ -21,11 +22,13 @@ hanselx
 
    |downloads_hanselx| |docker_hanselx|
 
-   :versions: 0.0.81
-
-   :depends: :conda:package:`numpy`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_hanselx|
+   :versions: 0.0.81-1, 0.0.81-0
+   
+   :depends numpy: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ hanselx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hanselx
+      docker pull quay.io/repository/biocontainers/hanselx:<tag>
+
+   (see `hanselx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hanselx| conda:required_by:: hanselx
 .. |downloads_hanselx| image:: https://img.shields.io/conda/dn/bioconda/hanselx.svg?style=flat
    :alt:   (downloads)
 .. |docker_hanselx| image:: https://quay.io/repository/biocontainers/hanselx/status
    :target: https://quay.io/repository/biocontainers/hanselx
+.. _`hanselx/tags`: https://quay.io/repository/biocontainers/hanselx?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hanselx/README.html
-

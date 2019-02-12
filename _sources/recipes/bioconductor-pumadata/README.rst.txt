@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pumadata'
 .. highlight: bash
-
 
 bioconductor-pumadata
 =====================
@@ -21,11 +22,21 @@ bioconductor-pumadata
 
    |downloads_bioconductor-pumadata| |docker_bioconductor-pumadata|
 
-   :versions: 2.18.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-puma` >=3.24.0,<3.25.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-pumadata|
+   :versions: 2.18.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-oligo: >=1.46.0,<1.47.0
+   
+   :depends bioconductor-puma: >=3.24.0,<3.25.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-pumadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pumadata
+      docker pull quay.io/repository/biocontainers/bioconductor-pumadata:<tag>
+
+   (see `bioconductor-pumadata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pumadata| conda:required_by:: bioconductor-pumadata
 .. |downloads_bioconductor-pumadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pumadata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pumadata| image:: https://quay.io/repository/biocontainers/bioconductor-pumadata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pumadata
+.. _`bioconductor-pumadata/tags`: https://quay.io/repository/biocontainers/bioconductor-pumadata?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pumadata/README.html
-

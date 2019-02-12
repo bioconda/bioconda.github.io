@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'libsequence'
 .. highlight: bash
-
 
 libsequence
 ===========
@@ -21,11 +22,11 @@ libsequence
 
    |downloads_libsequence| |docker_libsequence|
 
-   :versions: 1.9.6, 1.9.5, 1.9.4, 1.9.3, 1.9.2, 1.9.1, 1.9.0, 1.8.4
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_libsequence|
+   :versions: 1.9.6-0, 1.9.5-0, 1.9.4-0, 1.9.3-0, 1.9.2-2, 1.9.2-1, 1.9.2-0, 1.9.1-1, 1.9.0-1, 1.9.0-0, 1.8.4-2, 1.8.4-1, 1.8.4-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ libsequence
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libsequence
+      docker pull quay.io/repository/biocontainers/libsequence:<tag>
+
+   (see `libsequence/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_libsequence| conda:required_by:: libsequence
 .. |downloads_libsequence| image:: https://img.shields.io/conda/dn/bioconda/libsequence.svg?style=flat
    :alt:   (downloads)
 .. |docker_libsequence| image:: https://quay.io/repository/biocontainers/libsequence/status
    :target: https://quay.io/repository/biocontainers/libsequence
+.. _`libsequence/tags`: https://quay.io/repository/biocontainers/libsequence?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/libsequence/README.html
-

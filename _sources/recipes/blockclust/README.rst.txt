@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'blockclust'
 .. highlight: bash
-
 
 blockclust
 ==========
@@ -22,11 +23,29 @@ blockclust
 
    |downloads_blockclust| |docker_blockclust|
 
-   :versions: 1.1.0
-
-   :depends: :conda:package:`eden` >=1.1 :conda:package:`gnu-wget`  :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`mcl` >=14.137 :conda:package:`pysam` >=0.15.0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-dendextend` >=1.8.0 :conda:package:`scikit-learn` >=0.20.0 
-
-   :required~by: |required_by_blockclust|
+   :versions: 1.1.0-3, 1.1.0-2, 1.1.0-1, 1.1.0-0
+   
+   :depends cloudpickle: 0.5.6.*
+   
+   :depends eden: 1.1.*
+   
+   :depends gnu-wget: 
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends mcl: >=14.137
+   
+   :depends pysam: >=0.15.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dendextend: >=1.8.0
+   
+   :depends scikit-learn: >=0.20.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ blockclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/blockclust
+      docker pull quay.io/repository/biocontainers/blockclust:<tag>
+
+   (see `blockclust/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_blockclust| conda:required_by:: blockclust
 .. |downloads_blockclust| image:: https://img.shields.io/conda/dn/bioconda/blockclust.svg?style=flat
    :alt:   (downloads)
 .. |docker_blockclust| image:: https://quay.io/repository/biocontainers/blockclust/status
    :target: https://quay.io/repository/biocontainers/blockclust
+.. _`blockclust/tags`: https://quay.io/repository/biocontainers/blockclust?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/blockclust/README.html
-

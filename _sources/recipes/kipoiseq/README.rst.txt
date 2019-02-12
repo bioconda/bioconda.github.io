@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kipoiseq'
 .. highlight: bash
-
 
 kipoiseq
 ========
@@ -23,11 +24,27 @@ kipoiseq
 
    |downloads_kipoiseq| |docker_kipoiseq|
 
-   :versions: 0.2.2
-
-   :depends: :conda:package:`genomelake`  :conda:package:`gffutils`  :conda:package:`kipoi` >=0.5.5 :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pybedtools`  :conda:package:`pyfaidx`  :conda:package:`python`  :conda:package:`tqdm`  
-
-   :required~by: |required_by_kipoiseq|
+   :versions: 0.2.2-0
+   
+   :depends genomelake: 
+   
+   :depends gffutils: 
+   
+   :depends kipoi: >=0.5.5
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends pybedtools: 
+   
+   :depends pyfaidx: 
+   
+   :depends python: 
+   
+   :depends tqdm: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +58,16 @@ kipoiseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kipoiseq
+      docker pull quay.io/repository/biocontainers/kipoiseq:<tag>
+
+   (see `kipoiseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kipoiseq| conda:required_by:: kipoiseq
 .. |downloads_kipoiseq| image:: https://img.shields.io/conda/dn/bioconda/kipoiseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_kipoiseq| image:: https://quay.io/repository/biocontainers/kipoiseq/status
    :target: https://quay.io/repository/biocontainers/kipoiseq
+.. _`kipoiseq/tags`: https://quay.io/repository/biocontainers/kipoiseq?tab=tags
 
 
 
@@ -65,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kipoiseq/README.html
-

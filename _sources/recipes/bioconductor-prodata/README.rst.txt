@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-prodata'
 .. highlight: bash
-
 
 bioconductor-prodata
 ====================
@@ -21,11 +22,15 @@ bioconductor-prodata
 
    |downloads_bioconductor-prodata| |docker_bioconductor-prodata|
 
-   :versions: 1.20.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-prodata|
+   :versions: 1.20.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-prodata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-prodata
+      docker pull quay.io/repository/biocontainers/bioconductor-prodata:<tag>
+
+   (see `bioconductor-prodata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-prodata| conda:required_by:: bioconductor-prodata
 .. |downloads_bioconductor-prodata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prodata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-prodata| image:: https://quay.io/repository/biocontainers/bioconductor-prodata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prodata
+.. _`bioconductor-prodata/tags`: https://quay.io/repository/biocontainers/bioconductor-prodata?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-prodata/README.html
-

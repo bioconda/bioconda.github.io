@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-moosex-app-role-log4perl'
 .. highlight: bash
-
 
 perl-moosex-app-role-log4perl
 =============================
@@ -21,11 +22,15 @@ perl-moosex-app-role-log4perl
 
    |downloads_perl-moosex-app-role-log4perl| |docker_perl-moosex-app-role-log4perl|
 
-   :versions: 0.03
-
-   :depends: :conda:package:`perl-log-log4perl`  :conda:package:`perl-moosex-app`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-moosex-app-role-log4perl|
+   :versions: 0.03-1, 0.03-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-log-log4perl: 
+   
+   :depends perl-moosex-app: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-moosex-app-role-log4perl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-app-role-log4perl
+      docker pull quay.io/repository/biocontainers/perl-moosex-app-role-log4perl:<tag>
+
+   (see `perl-moosex-app-role-log4perl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-moosex-app-role-log4perl| conda:required_by:: perl-moosex-app-role-log4perl
 .. |downloads_perl-moosex-app-role-log4perl| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-app-role-log4perl.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-moosex-app-role-log4perl| image:: https://quay.io/repository/biocontainers/perl-moosex-app-role-log4perl/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-app-role-log4perl
+.. _`perl-moosex-app-role-log4perl/tags`: https://quay.io/repository/biocontainers/perl-moosex-app-role-log4perl?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-moosex-app-role-log4perl/README.html
-

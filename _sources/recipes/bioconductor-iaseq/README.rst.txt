@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-iaseq'
 .. highlight: bash
-
 
 bioconductor-iaseq
 ==================
@@ -22,11 +23,11 @@ bioconductor-iaseq
 
    |downloads_bioconductor-iaseq| |docker_bioconductor-iaseq|
 
-   :versions: 1.26.1, 1.24.0, 1.22.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-iaseq|
+   :versions: 1.26.1-0, 1.24.0-0, 1.22.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ bioconductor-iaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-iaseq
+      docker pull quay.io/repository/biocontainers/bioconductor-iaseq:<tag>
+
+   (see `bioconductor-iaseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-iaseq| conda:required_by:: bioconductor-iaseq
 .. |downloads_bioconductor-iaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-iaseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-iaseq| image:: https://quay.io/repository/biocontainers/bioconductor-iaseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-iaseq
+.. _`bioconductor-iaseq/tags`: https://quay.io/repository/biocontainers/bioconductor-iaseq?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-iaseq/README.html
-

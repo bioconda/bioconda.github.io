@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-jackstraw'
 .. highlight: bash
-
 
 r-jackstraw
 ===========
@@ -21,11 +22,25 @@ r-jackstraw
 
    |downloads_r-jackstraw| |docker_r-jackstraw|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`bioconductor-lfa`  :conda:package:`bioconductor-qvalue`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-clusterr`  :conda:package:`r-corpcor`  :conda:package:`r-irlba`  :conda:package:`r-rsvd`  
-
-   :required~by: |required_by_r-jackstraw|
+   :versions: 1.3-0
+   
+   :depends bioconductor-lfa: 
+   
+   :depends bioconductor-qvalue: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :depends r-clusterr: 
+   
+   :depends r-corpcor: 
+   
+   :depends r-irlba: 
+   
+   :depends r-rsvd: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ r-jackstraw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-jackstraw
+      docker pull quay.io/repository/biocontainers/r-jackstraw:<tag>
+
+   (see `r-jackstraw/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-jackstraw| conda:required_by:: r-jackstraw
 .. |downloads_r-jackstraw| image:: https://img.shields.io/conda/dn/bioconda/r-jackstraw.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-jackstraw| image:: https://quay.io/repository/biocontainers/r-jackstraw/status
    :target: https://quay.io/repository/biocontainers/r-jackstraw
+.. _`r-jackstraw/tags`: https://quay.io/repository/biocontainers/r-jackstraw?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-jackstraw/README.html
-

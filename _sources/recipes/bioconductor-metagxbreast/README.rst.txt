@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-metagxbreast'
 .. highlight: bash
-
 
 bioconductor-metagxbreast
 =========================
@@ -21,11 +22,23 @@ bioconductor-metagxbreast
 
    |downloads_bioconductor-metagxbreast| |docker_bioconductor-metagxbreast|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-annotationhub` >=2.14.0,<2.15.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-experimenthub` >=1.8.0,<1.9.0 :conda:package:`bioconductor-impute` >=1.56.0,<1.57.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-metagxbreast|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
+   
+   :depends bioconductor-impute: >=1.56.0,<1.57.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-lattice: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-metagxbreast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metagxbreast
+      docker pull quay.io/repository/biocontainers/bioconductor-metagxbreast:<tag>
+
+   (see `bioconductor-metagxbreast/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-metagxbreast| conda:required_by:: bioconductor-metagxbreast
 .. |downloads_bioconductor-metagxbreast| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metagxbreast.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-metagxbreast| image:: https://quay.io/repository/biocontainers/bioconductor-metagxbreast/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metagxbreast
+.. _`bioconductor-metagxbreast/tags`: https://quay.io/repository/biocontainers/bioconductor-metagxbreast?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-metagxbreast/README.html
-

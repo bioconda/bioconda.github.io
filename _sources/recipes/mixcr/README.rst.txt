@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mixcr'
 .. highlight: bash
-
 
 mixcr
 =====
@@ -22,11 +23,11 @@ mixcr
 
    |downloads_mixcr| |docker_mixcr|
 
-   :versions: 2.1.10, 2.1.3
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_mixcr|
+   :versions: 2.1.10-1, 2.1.10-0, 2.1.3-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ mixcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mixcr
+      docker pull quay.io/repository/biocontainers/mixcr:<tag>
+
+   (see `mixcr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mixcr| conda:required_by:: mixcr
 .. |downloads_mixcr| image:: https://img.shields.io/conda/dn/bioconda/mixcr.svg?style=flat
    :alt:   (downloads)
 .. |docker_mixcr| image:: https://quay.io/repository/biocontainers/mixcr/status
    :target: https://quay.io/repository/biocontainers/mixcr
+.. _`mixcr/tags`: https://quay.io/repository/biocontainers/mixcr?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mixcr/README.html
-

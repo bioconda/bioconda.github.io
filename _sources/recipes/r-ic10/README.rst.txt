@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-ic10'
 .. highlight: bash
-
 
 r-ic10
 ======
@@ -21,11 +22,15 @@ r-ic10
 
    |downloads_r-ic10| |docker_r-ic10|
 
-   :versions: 1.4.2, 1.1.3
-
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-ic10trainingdata`  :conda:package:`r-pamr`  
-
-   :required~by: |required_by_r-ic10|
+   :versions: 1.4.2-1, 1.4.2-0, 1.1.3-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ic10trainingdata: 
+   
+   :depends r-pamr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-ic10
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ic10
+      docker pull quay.io/repository/biocontainers/r-ic10:<tag>
+
+   (see `r-ic10/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-ic10| conda:required_by:: r-ic10
 .. |downloads_r-ic10| image:: https://img.shields.io/conda/dn/bioconda/r-ic10.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-ic10| image:: https://quay.io/repository/biocontainers/r-ic10/status
    :target: https://quay.io/repository/biocontainers/r-ic10
+.. _`r-ic10/tags`: https://quay.io/repository/biocontainers/r-ic10?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-ic10/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fuma'
 .. highlight: bash
-
 
 fuma
 ====
@@ -21,11 +22,15 @@ fuma
 
    |downloads_fuma| |docker_fuma|
 
-   :versions: 3.0.5, 3.0.3
-
-   :depends: :conda:package:`htseq`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`setuptools`  
-
-   :required~by: |required_by_fuma|
+   :versions: 3.0.5-1, 3.0.5-0, 3.0.3-0
+   
+   :depends htseq: >=0.6.1
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ fuma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fuma
+      docker pull quay.io/repository/biocontainers/fuma:<tag>
+
+   (see `fuma/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fuma| conda:required_by:: fuma
 .. |downloads_fuma| image:: https://img.shields.io/conda/dn/bioconda/fuma.svg?style=flat
    :alt:   (downloads)
 .. |docker_fuma| image:: https://quay.io/repository/biocontainers/fuma/status
    :target: https://quay.io/repository/biocontainers/fuma
+.. _`fuma/tags`: https://quay.io/repository/biocontainers/fuma?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fuma/README.html
-

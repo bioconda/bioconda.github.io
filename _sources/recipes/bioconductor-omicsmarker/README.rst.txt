@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-omicsmarker'
 .. highlight: bash
-
 
 bioconductor-omicsmarker
 ========================
@@ -21,11 +22,39 @@ bioconductor-omicsmarker
 
    |downloads_bioconductor-omicsmarker| |docker_bioconductor-omicsmarker|
 
-   :versions: 1.14.0
-
-   :depends: :conda:package:`r-assertive` >=0.3-0 :conda:package:`r-assertive.base` >=0.0-1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-caret` >=6.0-37 :conda:package:`r-catools` >=1.14 :conda:package:`r-data.table` >=1.9.4 :conda:package:`r-discriminer` >=0.1-29 :conda:package:`r-e1071` >=1.6-1 :conda:package:`r-foreach` >=1.4.1 :conda:package:`r-gbm` >=2.1 :conda:package:`r-glmnet` >=1.9-5 :conda:package:`r-pamr` >=1.54.1 :conda:package:`r-permute` >=0.7-0 :conda:package:`r-plyr` >=1.8 :conda:package:`r-randomforest` >=4.6-10 
-
-   :required~by: |required_by_bioconductor-omicsmarker|
+   :versions: 1.14.0-0
+   
+   :depends r-assertive: >=0.3-0
+   
+   :depends r-assertive.base: >=0.0-1
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-caret: >=6.0-37
+   
+   :depends r-catools: >=1.14
+   
+   :depends r-data.table: >=1.9.4
+   
+   :depends r-discriminer: >=0.1-29
+   
+   :depends r-e1071: >=1.6-1
+   
+   :depends r-foreach: >=1.4.1
+   
+   :depends r-gbm: >=2.1
+   
+   :depends r-glmnet: >=1.9-5
+   
+   :depends r-pamr: >=1.54.1
+   
+   :depends r-permute: >=0.7-0
+   
+   :depends r-plyr: >=1.8
+   
+   :depends r-randomforest: >=4.6-10
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +68,16 @@ bioconductor-omicsmarker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omicsmarker
+      docker pull quay.io/repository/biocontainers/bioconductor-omicsmarker:<tag>
+
+   (see `bioconductor-omicsmarker/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-omicsmarker| conda:required_by:: bioconductor-omicsmarker
 .. |downloads_bioconductor-omicsmarker| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-omicsmarker.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-omicsmarker| image:: https://quay.io/repository/biocontainers/bioconductor-omicsmarker/status
    :target: https://quay.io/repository/biocontainers/bioconductor-omicsmarker
+.. _`bioconductor-omicsmarker/tags`: https://quay.io/repository/biocontainers/bioconductor-omicsmarker?tab=tags
 
 
 
@@ -63,4 +94,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-omicsmarker/README.html
-

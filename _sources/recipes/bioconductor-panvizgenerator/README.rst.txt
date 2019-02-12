@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-panvizgenerator'
 .. highlight: bash
-
 
 bioconductor-panvizgenerator
 ============================
@@ -21,11 +22,21 @@ bioconductor-panvizgenerator
 
    |downloads_bioconductor-panvizgenerator| |docker_bioconductor-panvizgenerator|
 
-   :versions: 1.10.0
-
-   :depends: :conda:package:`bioconductor-findmyfriends` >=1.12.0,<1.13.0 :conda:package:`bioconductor-pcamethods` >=1.74.0,<1.75.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-jsonlite`  :conda:package:`r-shiny`  
-
-   :required~by: |required_by_bioconductor-panvizgenerator|
+   :versions: 1.10.0-0
+   
+   :depends bioconductor-findmyfriends: >=1.12.0,<1.13.0
+   
+   :depends bioconductor-pcamethods: >=1.74.0,<1.75.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-igraph: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-shiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-panvizgenerator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-panvizgenerator
+      docker pull quay.io/repository/biocontainers/bioconductor-panvizgenerator:<tag>
+
+   (see `bioconductor-panvizgenerator/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-panvizgenerator| conda:required_by:: bioconductor-panvizgenerator
 .. |downloads_bioconductor-panvizgenerator| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-panvizgenerator.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-panvizgenerator| image:: https://quay.io/repository/biocontainers/bioconductor-panvizgenerator/status
    :target: https://quay.io/repository/biocontainers/bioconductor-panvizgenerator
+.. _`bioconductor-panvizgenerator/tags`: https://quay.io/repository/biocontainers/bioconductor-panvizgenerator?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-panvizgenerator/README.html
-

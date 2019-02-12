@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ucsc-bedjointaboffset'
 .. highlight: bash
-
 
 ucsc-bedjointaboffset
 =====================
@@ -21,11 +22,23 @@ ucsc-bedjointaboffset
 
    |downloads_ucsc-bedjointaboffset| |docker_ucsc-bedjointaboffset|
 
-   :versions: 366
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`python`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_ucsc-bedjointaboffset|
+   :versions: 366-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libpng: >=1.6.34,<1.7.0a0
+   
+   :depends libuuid: 
+   
+   :depends mysql-connector-c: 
+   
+   :depends openssl: >=1.0.2o,<1.0.3a
+   
+   :depends python: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ ucsc-bedjointaboffset
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-bedjointaboffset
+      docker pull quay.io/repository/biocontainers/ucsc-bedjointaboffset:<tag>
+
+   (see `ucsc-bedjointaboffset/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ucsc-bedjointaboffset| conda:required_by:: ucsc-bedjointaboffset
 .. |downloads_ucsc-bedjointaboffset| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedjointaboffset.svg?style=flat
    :alt:   (downloads)
 .. |docker_ucsc-bedjointaboffset| image:: https://quay.io/repository/biocontainers/ucsc-bedjointaboffset/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedjointaboffset
+.. _`ucsc-bedjointaboffset/tags`: https://quay.io/repository/biocontainers/ucsc-bedjointaboffset?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ucsc-bedjointaboffset/README.html
-

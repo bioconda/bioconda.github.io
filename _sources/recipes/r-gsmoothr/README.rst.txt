@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-gsmoothr'
 .. highlight: bash
-
 
 r-gsmoothr
 ==========
@@ -21,11 +22,11 @@ r-gsmoothr
 
    |downloads_r-gsmoothr| |docker_r-gsmoothr|
 
-   :versions: 0.1.7
-
-   :depends: :conda:package:`r` 3.3.1* 
-
-   :required~by: |required_by_r-gsmoothr|
+   :versions: 0.1.7-0
+   
+   :depends r: 3.3.1*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-gsmoothr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gsmoothr
+      docker pull quay.io/repository/biocontainers/r-gsmoothr:<tag>
+
+   (see `r-gsmoothr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-gsmoothr| conda:required_by:: r-gsmoothr
 .. |downloads_r-gsmoothr| image:: https://img.shields.io/conda/dn/bioconda/r-gsmoothr.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-gsmoothr| image:: https://quay.io/repository/biocontainers/r-gsmoothr/status
    :target: https://quay.io/repository/biocontainers/r-gsmoothr
+.. _`r-gsmoothr/tags`: https://quay.io/repository/biocontainers/r-gsmoothr?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-gsmoothr/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gotohscan'
 .. highlight: bash
-
 
 gotohscan
 =========
@@ -21,11 +22,11 @@ gotohscan
 
    |downloads_gotohscan| |docker_gotohscan|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_gotohscan|
+   :versions: 1.3-1, 1.3-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ gotohscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gotohscan
+      docker pull quay.io/repository/biocontainers/gotohscan:<tag>
+
+   (see `gotohscan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gotohscan| conda:required_by:: gotohscan
 .. |downloads_gotohscan| image:: https://img.shields.io/conda/dn/bioconda/gotohscan.svg?style=flat
    :alt:   (downloads)
 .. |docker_gotohscan| image:: https://quay.io/repository/biocontainers/gotohscan/status
    :target: https://quay.io/repository/biocontainers/gotohscan
+.. _`gotohscan/tags`: https://quay.io/repository/biocontainers/gotohscan?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gotohscan/README.html
-

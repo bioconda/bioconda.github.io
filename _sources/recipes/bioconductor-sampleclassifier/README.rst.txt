@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sampleclassifier'
 .. highlight: bash
-
 
 bioconductor-sampleclassifier
 =============================
@@ -21,11 +22,21 @@ bioconductor-sampleclassifier
 
    |downloads_bioconductor-sampleclassifier| |docker_bioconductor-sampleclassifier|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`bioconductor-annotate` >=1.60.0,<1.61.0 :conda:package:`bioconductor-mgfm` >=1.16.0,<1.17.0 :conda:package:`bioconductor-mgfr` >=1.8.0,<1.9.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-ggplot2`  
-
-   :required~by: |required_by_bioconductor-sampleclassifier|
+   :versions: 1.6.0-0
+   
+   :depends bioconductor-annotate: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-mgfm: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-mgfr: >=1.8.0,<1.9.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-e1071: 
+   
+   :depends r-ggplot2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-sampleclassifier
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sampleclassifier
+      docker pull quay.io/repository/biocontainers/bioconductor-sampleclassifier:<tag>
+
+   (see `bioconductor-sampleclassifier/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sampleclassifier| conda:required_by:: bioconductor-sampleclassifier
 .. |downloads_bioconductor-sampleclassifier| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sampleclassifier.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sampleclassifier| image:: https://quay.io/repository/biocontainers/bioconductor-sampleclassifier/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sampleclassifier
+.. _`bioconductor-sampleclassifier/tags`: https://quay.io/repository/biocontainers/bioconductor-sampleclassifier?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sampleclassifier/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-focalcall'
 .. highlight: bash
-
 
 bioconductor-focalcall
 ======================
@@ -22,11 +23,13 @@ bioconductor-focalcall
 
    |downloads_bioconductor-focalcall| |docker_bioconductor-focalcall|
 
-   :versions: 1.16.0, 1.14.0, 1.12.0
-
-   :depends: :conda:package:`bioconductor-cghcall` >=2.44.0,<2.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-focalcall|
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0
+   
+   :depends bioconductor-cghcall: >=2.44.0,<2.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-focalcall
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-focalcall
+      docker pull quay.io/repository/biocontainers/bioconductor-focalcall:<tag>
+
+   (see `bioconductor-focalcall/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-focalcall| conda:required_by:: bioconductor-focalcall
 .. |downloads_bioconductor-focalcall| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-focalcall.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-focalcall| image:: https://quay.io/repository/biocontainers/bioconductor-focalcall/status
    :target: https://quay.io/repository/biocontainers/bioconductor-focalcall
+.. _`bioconductor-focalcall/tags`: https://quay.io/repository/biocontainers/bioconductor-focalcall?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-focalcall/README.html
-

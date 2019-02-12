@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-number-misc'
 .. highlight: bash
-
 
 perl-number-misc
 ================
@@ -21,11 +22,11 @@ perl-number-misc
 
    |downloads_perl-number-misc| |docker_perl-number-misc|
 
-   :versions: 1.2
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-number-misc|
+   :versions: 1.2-1, 1.2-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-number-misc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-number-misc
+      docker pull quay.io/repository/biocontainers/perl-number-misc:<tag>
+
+   (see `perl-number-misc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-number-misc| conda:required_by:: perl-number-misc
 .. |downloads_perl-number-misc| image:: https://img.shields.io/conda/dn/bioconda/perl-number-misc.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-number-misc| image:: https://quay.io/repository/biocontainers/perl-number-misc/status
    :target: https://quay.io/repository/biocontainers/perl-number-misc
+.. _`perl-number-misc/tags`: https://quay.io/repository/biocontainers/perl-number-misc?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-number-misc/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ngless'
 .. highlight: bash
-
 
 ngless
 ======
@@ -21,11 +22,25 @@ ngless
 
    |downloads_ngless| |docker_ngless|
 
-   :versions: 0.10.0, 0.9.1, 0.9.0, 0.8.1, 0.8.0, 0.7.1, 0.7.0, 0.6.1, 0.6.0, 0.5.1
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`cairo` >=1.14.12,<1.15.0a0 :conda:package:`gmp` >=6.1.2,<7.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`python`  :conda:package:`xorg-libxext`  :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_ngless|
+   :versions: 0.10.0-0, 0.9.1-0, 0.9.0-0, 0.8.1-0, 0.8.0-0, 0.7.1-1, 0.7.1-0, 0.7.0-0, 0.6.1-0, 0.6.0-0, 0.5.1-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends cairo: >=1.14.12,<1.15.0a0
+   
+   :depends gmp: >=6.1.2,<7.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends python: 
+   
+   :depends xorg-libxext: 
+   
+   :depends xz: >=5.2.4,<5.3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ ngless
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ngless
+      docker pull quay.io/repository/biocontainers/ngless:<tag>
+
+   (see `ngless/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ngless| conda:required_by:: ngless
 .. |downloads_ngless| image:: https://img.shields.io/conda/dn/bioconda/ngless.svg?style=flat
    :alt:   (downloads)
 .. |docker_ngless| image:: https://quay.io/repository/biocontainers/ngless/status
    :target: https://quay.io/repository/biocontainers/ngless
+.. _`ngless/tags`: https://quay.io/repository/biocontainers/ngless?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ngless/README.html
-

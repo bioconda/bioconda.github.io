@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ghost-tree'
 .. highlight: bash
-
 
 ghost-tree
 ==========
@@ -24,11 +25,23 @@ ghost-tree
 
    |downloads_ghost-tree| |docker_ghost-tree|
 
-   :versions: 0.2.2
-
-   :depends: :conda:package:`click` >=4.0 :conda:package:`fasttree`  :conda:package:`muscle`  :conda:package:`numpy`  :conda:package:`python` >=3.4 :conda:package:`scikit-bio` >=0.5.1 :conda:package:`sumaclust` >=1.0.31 
-
-   :required~by: |required_by_ghost-tree|
+   :versions: 0.2.2-0
+   
+   :depends click: >=4.0
+   
+   :depends fasttree: 
+   
+   :depends muscle: 
+   
+   :depends numpy: 
+   
+   :depends python: >=3.4
+   
+   :depends scikit-bio: >=0.5.1
+   
+   :depends sumaclust: >=1.0.31
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +55,16 @@ ghost-tree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ghost-tree
+      docker pull quay.io/repository/biocontainers/ghost-tree:<tag>
+
+   (see `ghost-tree/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ghost-tree| conda:required_by:: ghost-tree
 .. |downloads_ghost-tree| image:: https://img.shields.io/conda/dn/bioconda/ghost-tree.svg?style=flat
    :alt:   (downloads)
 .. |docker_ghost-tree| image:: https://quay.io/repository/biocontainers/ghost-tree/status
    :target: https://quay.io/repository/biocontainers/ghost-tree
+.. _`ghost-tree/tags`: https://quay.io/repository/biocontainers/ghost-tree?tab=tags
 
 
 
@@ -66,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ghost-tree/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lz4-bin'
 .. highlight: bash
-
 
 lz4-bin
 =======
@@ -21,11 +22,11 @@ lz4-bin
 
    |downloads_lz4-bin| |docker_lz4-bin|
 
-   :versions: 131
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_lz4-bin|
+   :versions: 131-2, 131-1
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ lz4-bin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lz4-bin
+      docker pull quay.io/repository/biocontainers/lz4-bin:<tag>
+
+   (see `lz4-bin/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lz4-bin| conda:required_by:: lz4-bin
 .. |downloads_lz4-bin| image:: https://img.shields.io/conda/dn/bioconda/lz4-bin.svg?style=flat
    :alt:   (downloads)
 .. |docker_lz4-bin| image:: https://quay.io/repository/biocontainers/lz4-bin/status
    :target: https://quay.io/repository/biocontainers/lz4-bin
+.. _`lz4-bin/tags`: https://quay.io/repository/biocontainers/lz4-bin?tab=tags
 
 
 
@@ -67,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lz4-bin/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-slurp'
 .. highlight: bash
-
 
 perl-slurp
 ==========
@@ -21,11 +22,11 @@ perl-slurp
 
    |downloads_perl-slurp| |docker_perl-slurp|
 
-   :versions: 0.4
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-slurp|
+   :versions: 0.4-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-slurp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-slurp
+      docker pull quay.io/repository/biocontainers/perl-slurp:<tag>
+
+   (see `perl-slurp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-slurp| conda:required_by:: perl-slurp
 .. |downloads_perl-slurp| image:: https://img.shields.io/conda/dn/bioconda/perl-slurp.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-slurp| image:: https://quay.io/repository/biocontainers/perl-slurp/status
    :target: https://quay.io/repository/biocontainers/perl-slurp
+.. _`perl-slurp/tags`: https://quay.io/repository/biocontainers/perl-slurp?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-slurp/README.html
-

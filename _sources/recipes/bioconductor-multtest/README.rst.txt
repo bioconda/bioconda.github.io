@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-multtest'
 .. highlight: bash
-
 
 bioconductor-multtest
 =====================
@@ -22,11 +23,21 @@ bioconductor-multtest
 
    |downloads_bioconductor-multtest| |docker_bioconductor-multtest|
 
-   :versions: 2.38.0, 2.36.0, 2.34.0, 2.32.0, 2.28.0, 2.26.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  :conda:package:`r-survival`  
-
-   :required~by: |required_by_bioconductor-multtest|
+   :versions: 2.38.0-0, 2.36.0-0, 2.34.0-0, 2.32.0-0, 2.28.0-1, 2.28.0-0, 2.26.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mass: 
+   
+   :depends r-survival: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-multtest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-multtest
+      docker pull quay.io/repository/biocontainers/bioconductor-multtest:<tag>
+
+   (see `bioconductor-multtest/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-multtest| conda:required_by:: bioconductor-multtest
 .. |downloads_bioconductor-multtest| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-multtest.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-multtest| image:: https://quay.io/repository/biocontainers/bioconductor-multtest/status
    :target: https://quay.io/repository/biocontainers/bioconductor-multtest
+.. _`bioconductor-multtest/tags`: https://quay.io/repository/biocontainers/bioconductor-multtest?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-multtest/README.html
-

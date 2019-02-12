@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-nethet'
 .. highlight: bash
-
 
 bioconductor-nethet
 ===================
@@ -21,11 +22,43 @@ bioconductor-nethet
 
    |downloads_bioconductor-nethet| |docker_bioconductor-nethet|
 
-   :versions: 1.14.0
-
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-multtest` >=2.38.0,<2.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-compquadform`  :conda:package:`r-genenet`  :conda:package:`r-ggm`  :conda:package:`r-ggplot2`  :conda:package:`r-glasso`  :conda:package:`r-glmnet`  :conda:package:`r-gsa`  :conda:package:`r-huge`  :conda:package:`r-icsnp`  :conda:package:`r-mclust`  :conda:package:`r-mvtnorm`  :conda:package:`r-network`  :conda:package:`r-parcor`  
-
-   :required~by: |required_by_bioconductor-nethet|
+   :versions: 1.14.0-0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-multtest: >=2.38.0,<2.39.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-compquadform: 
+   
+   :depends r-genenet: 
+   
+   :depends r-ggm: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-glasso: 
+   
+   :depends r-glmnet: 
+   
+   :depends r-gsa: 
+   
+   :depends r-huge: 
+   
+   :depends r-icsnp: 
+   
+   :depends r-mclust: 
+   
+   :depends r-mvtnorm: 
+   
+   :depends r-network: 
+   
+   :depends r-parcor: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +72,16 @@ bioconductor-nethet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-nethet
+      docker pull quay.io/repository/biocontainers/bioconductor-nethet:<tag>
+
+   (see `bioconductor-nethet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-nethet| conda:required_by:: bioconductor-nethet
 .. |downloads_bioconductor-nethet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nethet.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-nethet| image:: https://quay.io/repository/biocontainers/bioconductor-nethet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-nethet
+.. _`bioconductor-nethet/tags`: https://quay.io/repository/biocontainers/bioconductor-nethet?tab=tags
 
 
 
@@ -63,4 +98,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-nethet/README.html
-

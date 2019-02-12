@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'segtools'
 .. highlight: bash
-
 
 segtools
 ========
@@ -21,11 +22,33 @@ segtools
 
    |downloads_segtools| |docker_segtools|
 
-   :versions: 1.2.1, 1.1.14
-
-   :depends: :conda:package:`genomedata`  :conda:package:`gmtk`  :conda:package:`graphviz`  :conda:package:`numpy`  :conda:package:`pygraphviz`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-cairo`  :conda:package:`r-cluster`  :conda:package:`r-latticeextra`  :conda:package:`r-reshape2`  :conda:package:`rpy2` >=2.6.0,<2.9 
-
-   :required~by: |required_by_segtools|
+   :versions: 1.2.1-0, 1.1.14-2, 1.1.14-1, 1.1.14-0
+   
+   :depends genomedata: 
+   
+   :depends gmtk: 
+   
+   :depends graphviz: 
+   
+   :depends numpy: 
+   
+   :depends pygraphviz: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-cairo: 
+   
+   :depends r-cluster: 
+   
+   :depends r-latticeextra: 
+   
+   :depends r-reshape2: 
+   
+   :depends rpy2: >=2.6.0,<2.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ segtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/segtools
+      docker pull quay.io/repository/biocontainers/segtools:<tag>
+
+   (see `segtools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_segtools| conda:required_by:: segtools
 .. |downloads_segtools| image:: https://img.shields.io/conda/dn/bioconda/segtools.svg?style=flat
    :alt:   (downloads)
 .. |docker_segtools| image:: https://quay.io/repository/biocontainers/segtools/status
    :target: https://quay.io/repository/biocontainers/segtools
+.. _`segtools/tags`: https://quay.io/repository/biocontainers/segtools?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/segtools/README.html
-

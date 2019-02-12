@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mafft'
 .. highlight: bash
-
 
 mafft
 =====
@@ -21,11 +22,9 @@ mafft
 
    |downloads_mafft| |docker_mafft|
 
-   :versions: 7.407, 7.402, 7.313, 7.310, 7.305, 7.221
-
-   :depends: 
-
-   :required~by: |required_by_mafft|
+   :versions: 7.407-0, 7.402-0, 7.313-1, 7.313-0, 7.310-1, 7.310-0, 7.305-1, 7.305-0, 7.221-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ mafft
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mafft
+      docker pull quay.io/repository/biocontainers/mafft:<tag>
+
+   (see `mafft/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mafft| conda:required_by:: mafft
 .. |downloads_mafft| image:: https://img.shields.io/conda/dn/bioconda/mafft.svg?style=flat
    :alt:   (downloads)
 .. |docker_mafft| image:: https://quay.io/repository/biocontainers/mafft/status
    :target: https://quay.io/repository/biocontainers/mafft
+.. _`mafft/tags`: https://quay.io/repository/biocontainers/mafft?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mafft/README.html
-

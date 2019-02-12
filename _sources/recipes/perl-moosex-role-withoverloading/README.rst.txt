@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-moosex-role-withoverloading'
 .. highlight: bash
-
 
 perl-moosex-role-withoverloading
 ================================
@@ -21,11 +22,21 @@ perl-moosex-role-withoverloading
 
    |downloads_perl-moosex-role-withoverloading| |docker_perl-moosex-role-withoverloading|
 
-   :versions: 0.17
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-aliased`  :conda:package:`perl-moose`  :conda:package:`perl-namespace-autoclean`  :conda:package:`perl-namespace-clean`  
-
-   :required~by: |required_by_perl-moosex-role-withoverloading|
+   :versions: 0.17-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-aliased: 
+   
+   :depends perl-moose: 
+   
+   :depends perl-namespace-autoclean: 
+   
+   :depends perl-namespace-clean: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-moosex-role-withoverloading
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-role-withoverloading
+      docker pull quay.io/repository/biocontainers/perl-moosex-role-withoverloading:<tag>
+
+   (see `perl-moosex-role-withoverloading/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-moosex-role-withoverloading| conda:required_by:: perl-moosex-role-withoverloading
 .. |downloads_perl-moosex-role-withoverloading| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-role-withoverloading.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-moosex-role-withoverloading| image:: https://quay.io/repository/biocontainers/perl-moosex-role-withoverloading/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-role-withoverloading
+.. _`perl-moosex-role-withoverloading/tags`: https://quay.io/repository/biocontainers/perl-moosex-role-withoverloading?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-moosex-role-withoverloading/README.html
-

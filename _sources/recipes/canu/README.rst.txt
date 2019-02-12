@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'canu'
 .. highlight: bash
-
 
 canu
 ====
@@ -22,11 +23,19 @@ canu
 
    |downloads_canu| |docker_canu|
 
-   :versions: 1.8, 1.7.1, 1.7, 1.6, 1.5, 1.4, 1.3, 1.1
-
-   :depends: :conda:package:`gnuplot` >=5.0.5 :conda:package:`libgcc-ng` >=4.9 :conda:package:`openjdk`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-filesys-df`  
-
-   :required~by: |required_by_canu|
+   :versions: 1.8-0, 1.7.1-0, 1.7-0, 1.6-1, 1.5-1, 1.5-0, 1.4-2, 1.4-1, 1.4-0, 1.3-0, 1.1-0
+   
+   :depends gnuplot: >=5.0.5
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openjdk: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-filesys-df: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ canu
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/canu
+      docker pull quay.io/repository/biocontainers/canu:<tag>
+
+   (see `canu/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_canu| conda:required_by:: canu
 .. |downloads_canu| image:: https://img.shields.io/conda/dn/bioconda/canu.svg?style=flat
    :alt:   (downloads)
 .. |docker_canu| image:: https://quay.io/repository/biocontainers/canu/status
    :target: https://quay.io/repository/biocontainers/canu
+.. _`canu/tags`: https://quay.io/repository/biocontainers/canu?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/canu/README.html
-

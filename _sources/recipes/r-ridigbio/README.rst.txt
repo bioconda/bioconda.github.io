@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-ridigbio'
 .. highlight: bash
-
 
 r-ridigbio
 ==========
@@ -21,11 +22,17 @@ r-ridigbio
 
    |downloads_r-ridigbio| |docker_r-ridigbio|
 
-   :versions: 0.3.5
-
-   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-httr`  :conda:package:`r-jsonlite`  :conda:package:`r-plyr`  
-
-   :required~by: |required_by_r-ridigbio|
+   :versions: 0.3.5-3, 0.3.5-2, 0.3.5-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-httr: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-plyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-ridigbio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ridigbio
+      docker pull quay.io/repository/biocontainers/r-ridigbio:<tag>
+
+   (see `r-ridigbio/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-ridigbio| conda:required_by:: r-ridigbio
 .. |downloads_r-ridigbio| image:: https://img.shields.io/conda/dn/bioconda/r-ridigbio.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-ridigbio| image:: https://quay.io/repository/biocontainers/r-ridigbio/status
    :target: https://quay.io/repository/biocontainers/r-ridigbio
+.. _`r-ridigbio/tags`: https://quay.io/repository/biocontainers/r-ridigbio?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-ridigbio/README.html
-

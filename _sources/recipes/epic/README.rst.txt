@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'epic'
 .. highlight: bash
-
 
 epic
 ====
@@ -21,11 +22,35 @@ epic
 
    |downloads_epic| |docker_epic|
 
-   :versions: 0.2.12, 0.2.9, 0.2.8, 0.2.7, 0.2.5, 0.2.4, 0.2.2, 0.2.1, 0.2.0, 0.1.28, 0.1.27, 0.1.26, 0.1.25, 0.1.24, 0.1.20, 0.1.17
-
-   :depends: :conda:package:`bedtools`  :conda:package:`cython`  :conda:package:`docopt`  :conda:package:`functools32`  :conda:package:`joblib`  :conda:package:`natsort`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pybigwig`  :conda:package:`pyfaidx`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  :conda:package:`typing`  
-
-   :required~by: |required_by_epic|
+   :versions: 0.2.12-1, 0.2.12-0, 0.2.9-1, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.5-0, 0.2.4-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.28-0, 0.1.27-0, 0.1.26-0, 0.1.25-0, 0.1.24-0, 0.1.20-0, 0.1.17-0
+   
+   :depends bedtools: 
+   
+   :depends cython: 
+   
+   :depends docopt: 
+   
+   :depends functools32: 
+   
+   :depends joblib: 
+   
+   :depends natsort: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends pybigwig: 
+   
+   :depends pyfaidx: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :depends typing: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ epic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/epic
+      docker pull quay.io/repository/biocontainers/epic:<tag>
+
+   (see `epic/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_epic| conda:required_by:: epic
 .. |downloads_epic| image:: https://img.shields.io/conda/dn/bioconda/epic.svg?style=flat
    :alt:   (downloads)
 .. |docker_epic| image:: https://quay.io/repository/biocontainers/epic/status
    :target: https://quay.io/repository/biocontainers/epic
+.. _`epic/tags`: https://quay.io/repository/biocontainers/epic?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/epic/README.html
-

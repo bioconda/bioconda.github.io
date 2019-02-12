@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'clairvoyante'
 .. highlight: bash
-
 
 clairvoyante
 ============
@@ -21,11 +22,23 @@ clairvoyante
 
    |downloads_clairvoyante| |docker_clairvoyante|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`intervaltree`  :conda:package:`numpy`  :conda:package:`pypy2.7`  :conda:package:`python` 2.7.* :conda:package:`python-blosc`  :conda:package:`tensorflow`  :conda:package:`zlib`  
-
-   :required~by: |required_by_clairvoyante|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends intervaltree: 
+   
+   :depends numpy: 
+   
+   :depends pypy2.7: 
+   
+   :depends python: 2.7.*
+   
+   :depends python-blosc: 
+   
+   :depends tensorflow: 
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ clairvoyante
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clairvoyante
+      docker pull quay.io/repository/biocontainers/clairvoyante:<tag>
+
+   (see `clairvoyante/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_clairvoyante| conda:required_by:: clairvoyante
 .. |downloads_clairvoyante| image:: https://img.shields.io/conda/dn/bioconda/clairvoyante.svg?style=flat
    :alt:   (downloads)
 .. |docker_clairvoyante| image:: https://quay.io/repository/biocontainers/clairvoyante/status
    :target: https://quay.io/repository/biocontainers/clairvoyante
+.. _`clairvoyante/tags`: https://quay.io/repository/biocontainers/clairvoyante?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/clairvoyante/README.html
-

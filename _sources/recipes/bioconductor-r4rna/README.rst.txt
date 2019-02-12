@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-r4rna'
 .. highlight: bash
-
 
 bioconductor-r4rna
 ==================
@@ -22,11 +23,13 @@ bioconductor-r4rna
 
    |downloads_bioconductor-r4rna| |docker_bioconductor-r4rna|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-r4rna|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-r4rna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-r4rna
+      docker pull quay.io/repository/biocontainers/bioconductor-r4rna:<tag>
+
+   (see `bioconductor-r4rna/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-r4rna| conda:required_by:: bioconductor-r4rna
 .. |downloads_bioconductor-r4rna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-r4rna.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-r4rna| image:: https://quay.io/repository/biocontainers/bioconductor-r4rna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-r4rna
+.. _`bioconductor-r4rna/tags`: https://quay.io/repository/biocontainers/bioconductor-r4rna?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-r4rna/README.html
-

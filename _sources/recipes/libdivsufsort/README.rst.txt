@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'libdivsufsort'
 .. highlight: bash
-
 
 libdivsufsort
 =============
@@ -21,11 +22,11 @@ libdivsufsort
 
    |downloads_libdivsufsort| |docker_libdivsufsort|
 
-   :versions: 2.0.2
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_libdivsufsort|
+   :versions: 2.0.2-2, 2.0.2-1, 2.0.2-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ libdivsufsort
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libdivsufsort
+      docker pull quay.io/repository/biocontainers/libdivsufsort:<tag>
+
+   (see `libdivsufsort/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_libdivsufsort| conda:required_by:: libdivsufsort
 .. |downloads_libdivsufsort| image:: https://img.shields.io/conda/dn/bioconda/libdivsufsort.svg?style=flat
    :alt:   (downloads)
 .. |docker_libdivsufsort| image:: https://quay.io/repository/biocontainers/libdivsufsort/status
    :target: https://quay.io/repository/biocontainers/libdivsufsort
+.. _`libdivsufsort/tags`: https://quay.io/repository/biocontainers/libdivsufsort?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/libdivsufsort/README.html
-

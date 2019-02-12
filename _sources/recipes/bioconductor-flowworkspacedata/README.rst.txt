@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-flowworkspacedata'
 .. highlight: bash
-
 
 bioconductor-flowworkspacedata
 ==============================
@@ -21,11 +22,13 @@ bioconductor-flowworkspacedata
 
    |downloads_bioconductor-flowworkspacedata| |docker_bioconductor-flowworkspacedata|
 
-   :versions: 2.18.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-flowworkspacedata|
+   :versions: 2.18.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-flowworkspacedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowworkspacedata
+      docker pull quay.io/repository/biocontainers/bioconductor-flowworkspacedata:<tag>
+
+   (see `bioconductor-flowworkspacedata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-flowworkspacedata| conda:required_by:: bioconductor-flowworkspacedata
 .. |downloads_bioconductor-flowworkspacedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowworkspacedata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-flowworkspacedata| image:: https://quay.io/repository/biocontainers/bioconductor-flowworkspacedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowworkspacedata
+.. _`bioconductor-flowworkspacedata/tags`: https://quay.io/repository/biocontainers/bioconductor-flowworkspacedata?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-flowworkspacedata/README.html
-

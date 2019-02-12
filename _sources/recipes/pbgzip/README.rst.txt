@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pbgzip'
 .. highlight: bash
-
 
 pbgzip
 ======
@@ -21,11 +22,15 @@ pbgzip
 
    |downloads_pbgzip| |docker_pbgzip|
 
-   :versions: 2016.08.04, 2015.10.28
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_pbgzip|
+   :versions: 2016.08.04-0, 2015.10.28-1, 2015.10.28-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pbgzip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbgzip
+      docker pull quay.io/repository/biocontainers/pbgzip:<tag>
+
+   (see `pbgzip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pbgzip| conda:required_by:: pbgzip
 .. |downloads_pbgzip| image:: https://img.shields.io/conda/dn/bioconda/pbgzip.svg?style=flat
    :alt:   (downloads)
 .. |docker_pbgzip| image:: https://quay.io/repository/biocontainers/pbgzip/status
    :target: https://quay.io/repository/biocontainers/pbgzip
+.. _`pbgzip/tags`: https://quay.io/repository/biocontainers/pbgzip?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pbgzip/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'intemap'
 .. highlight: bash
-
 
 intemap
 =======
@@ -21,11 +22,27 @@ intemap
 
    |downloads_intemap| |docker_intemap|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`abyss`  :conda:package:`bowtie2`  :conda:package:`idba`  :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`quake`  :conda:package:`wgs-assembler`  
-
-   :required~by: |required_by_intemap|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends abyss: 
+   
+   :depends bowtie2: 
+   
+   :depends idba: 
+   
+   :depends jellyfish: 
+   
+   :depends libgcc: 
+   
+   :depends mummer: 
+   
+   :depends python: 2.7*
+   
+   :depends quake: 
+   
+   :depends wgs-assembler: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ intemap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/intemap
+      docker pull quay.io/repository/biocontainers/intemap:<tag>
+
+   (see `intemap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_intemap| conda:required_by:: intemap
 .. |downloads_intemap| image:: https://img.shields.io/conda/dn/bioconda/intemap.svg?style=flat
    :alt:   (downloads)
 .. |docker_intemap| image:: https://quay.io/repository/biocontainers/intemap/status
    :target: https://quay.io/repository/biocontainers/intemap
+.. _`intemap/tags`: https://quay.io/repository/biocontainers/intemap?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/intemap/README.html
-

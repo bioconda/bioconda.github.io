@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bus'
 .. highlight: bash
-
 
 bioconductor-bus
 ================
@@ -22,11 +23,19 @@ bioconductor-bus
 
    |downloads_bioconductor-bus| |docker_bioconductor-bus|
 
-   :versions: 1.38.0, 1.36.0, 1.34.0
-
-   :depends: :conda:package:`bioconductor-minet` >=3.40.0,<3.41.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-infotheo`  
-
-   :required~by: |required_by_bioconductor-bus|
+   :versions: 1.38.0-0, 1.36.0-0, 1.34.0-0
+   
+   :depends bioconductor-minet: >=3.40.0,<3.41.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-infotheo: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-bus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bus
+      docker pull quay.io/repository/biocontainers/bioconductor-bus:<tag>
+
+   (see `bioconductor-bus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bus| conda:required_by:: bioconductor-bus
 .. |downloads_bioconductor-bus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bus.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bus| image:: https://quay.io/repository/biocontainers/bioconductor-bus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bus
+.. _`bioconductor-bus/tags`: https://quay.io/repository/biocontainers/bioconductor-bus?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bus/README.html
-

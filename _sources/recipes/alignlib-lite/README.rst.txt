@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'alignlib-lite'
 .. highlight: bash
-
 
 alignlib-lite
 =============
@@ -21,11 +22,13 @@ alignlib-lite
 
    |downloads_alignlib-lite| |docker_alignlib-lite|
 
-   :versions: 0.3, 0.2.3
-
-   :depends: :conda:package:`libgcc`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_alignlib-lite|
+   :versions: 0.3-1, 0.3-0, 0.2.3-2, 0.2.3-1, 0.2.3-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ alignlib-lite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/alignlib-lite
+      docker pull quay.io/repository/biocontainers/alignlib-lite:<tag>
+
+   (see `alignlib-lite/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_alignlib-lite| conda:required_by:: alignlib-lite
 .. |downloads_alignlib-lite| image:: https://img.shields.io/conda/dn/bioconda/alignlib-lite.svg?style=flat
    :alt:   (downloads)
 .. |docker_alignlib-lite| image:: https://quay.io/repository/biocontainers/alignlib-lite/status
    :target: https://quay.io/repository/biocontainers/alignlib-lite
+.. _`alignlib-lite/tags`: https://quay.io/repository/biocontainers/alignlib-lite?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/alignlib-lite/README.html
-

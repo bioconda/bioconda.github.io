@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-geneoverlap'
 .. highlight: bash
-
 
 bioconductor-geneoverlap
 ========================
@@ -22,11 +23,15 @@ bioconductor-geneoverlap
 
    |downloads_bioconductor-geneoverlap| |docker_bioconductor-geneoverlap|
 
-   :versions: 1.18.0, 1.16.0, 1.14.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_bioconductor-geneoverlap|
+   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gplots: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-geneoverlap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneoverlap
+      docker pull quay.io/repository/biocontainers/bioconductor-geneoverlap:<tag>
+
+   (see `bioconductor-geneoverlap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-geneoverlap| conda:required_by:: bioconductor-geneoverlap
 .. |downloads_bioconductor-geneoverlap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneoverlap.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-geneoverlap| image:: https://quay.io/repository/biocontainers/bioconductor-geneoverlap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geneoverlap
+.. _`bioconductor-geneoverlap/tags`: https://quay.io/repository/biocontainers/bioconductor-geneoverlap?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-geneoverlap/README.html
-

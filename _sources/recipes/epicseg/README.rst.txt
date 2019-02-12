@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'epicseg'
 .. highlight: bash
-
 
 epicseg
 =======
@@ -21,11 +22,29 @@ epicseg
 
    |downloads_epicseg| |docker_epicseg|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`bioconductor-bamsignals`  :conda:package:`bioconductor-edger`  :conda:package:`bioconductor-genomicranges`  :conda:package:`bioconductor-iranges`  :conda:package:`bioconductor-s4vectors`  :conda:package:`kfoots`  :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp` >=0.10.6 
-
-   :required~by: |required_by_epicseg|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends bioconductor-bamsignals: 
+   
+   :depends bioconductor-edger: 
+   
+   :depends bioconductor-genomicranges: 
+   
+   :depends bioconductor-iranges: 
+   
+   :depends bioconductor-s4vectors: 
+   
+   :depends kfoots: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rcpp: >=0.10.6
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ epicseg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/epicseg
+      docker pull quay.io/repository/biocontainers/epicseg:<tag>
+
+   (see `epicseg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_epicseg| conda:required_by:: epicseg
 .. |downloads_epicseg| image:: https://img.shields.io/conda/dn/bioconda/epicseg.svg?style=flat
    :alt:   (downloads)
 .. |docker_epicseg| image:: https://quay.io/repository/biocontainers/epicseg/status
    :target: https://quay.io/repository/biocontainers/epicseg
+.. _`epicseg/tags`: https://quay.io/repository/biocontainers/epicseg?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/epicseg/README.html
-

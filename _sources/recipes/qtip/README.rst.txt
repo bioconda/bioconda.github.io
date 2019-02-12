@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'qtip'
 .. highlight: bash
-
 
 qtip
 ====
@@ -23,11 +24,19 @@ qtip
 
    |downloads_qtip| |docker_qtip|
 
-   :versions: 1.6.2
-
-   :depends: :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`scikit-learn`  
-
-   :required~by: |required_by_qtip|
+   :versions: 1.6.2-1, 1.6.2-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scikit-learn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +50,16 @@ qtip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/qtip
+      docker pull quay.io/repository/biocontainers/qtip:<tag>
+
+   (see `qtip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_qtip| conda:required_by:: qtip
 .. |downloads_qtip| image:: https://img.shields.io/conda/dn/bioconda/qtip.svg?style=flat
    :alt:   (downloads)
 .. |docker_qtip| image:: https://quay.io/repository/biocontainers/qtip/status
    :target: https://quay.io/repository/biocontainers/qtip
+.. _`qtip/tags`: https://quay.io/repository/biocontainers/qtip?tab=tags
 
 
 
@@ -70,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/qtip/README.html
-

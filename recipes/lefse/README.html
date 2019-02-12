@@ -131,11 +131,27 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">1.0.8.post1, 1.0.7.post1, 1.0.7</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">1.0.8.post1-1, 1.0.8.post1-0, 1.0.7.post1-0, 1.0.7-2, 1.0.7-1</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference internal" href="../biom-format/README.html#package-biom-format" title="biom-format package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">biom-format</span></code></a> &gt;=2.1.5 <a class="reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">matplotlib</span></code></a> &gt;=1.0 <a class="reference external" href="https://github.com/conda-forge/numpy-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">numpy</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/python-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">python</span></code></a> &gt;=2.7,&lt;2.8.0a0 <a class="reference external" href="https://github.com/conda-forge/r-base-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">r-base</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/r-coin-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">r-coin</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/r-mass-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">r-mass</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/r-modeltools-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">r-modeltools</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/r-mvtnorm-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">r-mvtnorm</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/r-survival-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">r-survival</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/rpy2-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">rpy2</span></code></a> &gt;=2.8.5</td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-package reference internal" href="../biom-format/README.html#package-biom-format" title="biom-format package"><strong>biom-format</strong></a> &gt;=2.1.5</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><strong>matplotlib</strong></a> &gt;=1.0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-coin-feedstock"><strong>r-coin</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-mass-feedstock"><strong>r-mass</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-modeltools-feedstock"><strong>r-modeltools</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-mvtnorm-feedstock"><strong>r-mvtnorm</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-survival-feedstock"><strong>r-survival</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/rpy2-feedstock"><strong>rpy2</strong></a> &gt;=2.8.5</li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -149,9 +165,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">lefse</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">lefse</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/lefse?tab=tags">lefse/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="notes">

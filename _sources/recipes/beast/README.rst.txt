@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'beast'
 .. highlight: bash
-
 
 beast
 =====
@@ -23,11 +24,13 @@ beast
 
    |downloads_beast| |docker_beast|
 
-   :versions: 1.10.4, 1.10.3, 1.10.2, 1.10.1, 1.10.0, 1.8.4, 1.8.2
-
-   :depends: :conda:package:`beagle-lib`  :conda:package:`openjdk`  
-
-   :required~by: |required_by_beast|
+   :versions: 1.10.4-0, 1.10.3-0, 1.10.2-0, 1.10.1-0, 1.10.0-2, 1.10.0-0, 1.8.4-0, 1.8.2-1
+   
+   :depends beagle-lib: 
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +44,16 @@ beast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/beast
+      docker pull quay.io/repository/biocontainers/beast:<tag>
+
+   (see `beast/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_beast| conda:required_by:: beast
 .. |downloads_beast| image:: https://img.shields.io/conda/dn/bioconda/beast.svg?style=flat
    :alt:   (downloads)
 .. |docker_beast| image:: https://quay.io/repository/biocontainers/beast/status
    :target: https://quay.io/repository/biocontainers/beast
+.. _`beast/tags`: https://quay.io/repository/biocontainers/beast?tab=tags
 
 
 
@@ -65,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/beast/README.html
-

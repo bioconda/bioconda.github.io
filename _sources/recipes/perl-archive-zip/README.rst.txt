@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-archive-zip'
 .. highlight: bash
-
 
 perl-archive-zip
 ================
@@ -21,11 +22,19 @@ perl-archive-zip
 
    |downloads_perl-archive-zip| |docker_perl-archive-zip|
 
-   :versions: 1.64, 1.60, 1.55
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-compress-raw-zlib`  :conda:package:`perl-file-path`  :conda:package:`perl-file-temp`  :conda:package:`perl-time-local`  
-
-   :required~by: |required_by_perl-archive-zip|
+   :versions: 1.64-0, 1.60-0, 1.55-4, 1.55-3, 1.55-2, 1.55-1, 1.55-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-compress-raw-zlib: 
+   
+   :depends perl-file-path: 
+   
+   :depends perl-file-temp: 
+   
+   :depends perl-time-local: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-archive-zip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-archive-zip
+      docker pull quay.io/repository/biocontainers/perl-archive-zip:<tag>
+
+   (see `perl-archive-zip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-archive-zip| conda:required_by:: perl-archive-zip
 .. |downloads_perl-archive-zip| image:: https://img.shields.io/conda/dn/bioconda/perl-archive-zip.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-archive-zip| image:: https://quay.io/repository/biocontainers/perl-archive-zip/status
    :target: https://quay.io/repository/biocontainers/perl-archive-zip
+.. _`perl-archive-zip/tags`: https://quay.io/repository/biocontainers/perl-archive-zip?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-archive-zip/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'forked-path'
 .. highlight: bash
-
 
 forked-path
 ===========
@@ -21,11 +22,11 @@ forked-path
 
    |downloads_forked-path| |docker_forked-path|
 
-   :versions: 0.2.3
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_forked-path|
+   :versions: 0.2.3-2, 0.2.3-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ forked-path
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/forked-path
+      docker pull quay.io/repository/biocontainers/forked-path:<tag>
+
+   (see `forked-path/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_forked-path| conda:required_by:: forked-path
 .. |downloads_forked-path| image:: https://img.shields.io/conda/dn/bioconda/forked-path.svg?style=flat
    :alt:   (downloads)
 .. |docker_forked-path| image:: https://quay.io/repository/biocontainers/forked-path/status
    :target: https://quay.io/repository/biocontainers/forked-path
+.. _`forked-path/tags`: https://quay.io/repository/biocontainers/forked-path?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/forked-path/README.html
-

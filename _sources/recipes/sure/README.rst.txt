@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sure'
 .. highlight: bash
-
 
 sure
 ====
@@ -21,11 +22,15 @@ sure
 
    |downloads_sure| |docker_sure|
 
-   :versions: 1.4.11, 1.2.24
-
-   :depends: :conda:package:`mock`  :conda:package:`python`  :conda:package:`six`  
-
-   :required~by: |required_by_sure|
+   :versions: 1.4.11-0, 1.2.24-0
+   
+   :depends mock: 
+   
+   :depends python: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ sure
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sure
+      docker pull quay.io/repository/biocontainers/sure:<tag>
+
+   (see `sure/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sure| conda:required_by:: sure
 .. |downloads_sure| image:: https://img.shields.io/conda/dn/bioconda/sure.svg?style=flat
    :alt:   (downloads)
 .. |docker_sure| image:: https://quay.io/repository/biocontainers/sure/status
    :target: https://quay.io/repository/biocontainers/sure
+.. _`sure/tags`: https://quay.io/repository/biocontainers/sure?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sure/README.html
-

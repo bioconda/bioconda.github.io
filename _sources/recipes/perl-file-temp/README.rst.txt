@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-temp'
 .. highlight: bash
-
 
 perl-file-temp
 ==============
@@ -21,11 +22,23 @@ perl-file-temp
 
    |downloads_perl-file-temp| |docker_perl-file-temp|
 
-   :versions: 0.2304
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-carp`  :conda:package:`perl-constant`  :conda:package:`perl-exporter`  :conda:package:`perl-file-path`  :conda:package:`perl-parent`  
-
-   :required~by: |required_by_perl-file-temp|
+   :versions: 0.2304-2, 0.2304-1, 0.2304-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-carp: 
+   
+   :depends perl-constant: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-file-path: 
+   
+   :depends perl-parent: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ perl-file-temp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-temp
+      docker pull quay.io/repository/biocontainers/perl-file-temp:<tag>
+
+   (see `perl-file-temp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-temp| conda:required_by:: perl-file-temp
 .. |downloads_perl-file-temp| image:: https://img.shields.io/conda/dn/bioconda/perl-file-temp.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-temp| image:: https://quay.io/repository/biocontainers/perl-file-temp/status
    :target: https://quay.io/repository/biocontainers/perl-file-temp
+.. _`perl-file-temp/tags`: https://quay.io/repository/biocontainers/perl-file-temp?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-temp/README.html
-

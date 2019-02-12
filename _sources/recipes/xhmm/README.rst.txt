@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'xhmm'
 .. highlight: bash
-
 
 xhmm
 ====
@@ -22,11 +23,15 @@ xhmm
 
    |downloads_xhmm| |docker_xhmm|
 
-   :versions: 0.0.0.2016_01_04.cc14e52
-
-   :depends: :conda:package:`lapack`  :conda:package:`libgfortran` >=3.0 :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_xhmm|
+   :versions: 0.0.0.2016_01_04.cc14e52-0
+   
+   :depends lapack: 
+   
+   :depends libgfortran: >=3.0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ xhmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xhmm
+      docker pull quay.io/repository/biocontainers/xhmm:<tag>
+
+   (see `xhmm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_xhmm| conda:required_by:: xhmm
 .. |downloads_xhmm| image:: https://img.shields.io/conda/dn/bioconda/xhmm.svg?style=flat
    :alt:   (downloads)
 .. |docker_xhmm| image:: https://quay.io/repository/biocontainers/xhmm/status
    :target: https://quay.io/repository/biocontainers/xhmm
+.. _`xhmm/tags`: https://quay.io/repository/biocontainers/xhmm?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/xhmm/README.html
-

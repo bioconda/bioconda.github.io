@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'csb'
 .. highlight: bash
-
 
 csb
 ===
@@ -21,11 +22,17 @@ csb
 
    |downloads_csb| |docker_csb|
 
-   :versions: 1.2.5
-
-   :depends: :conda:package:`libgcc`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`scipy`  
-
-   :required~by: |required_by_csb|
+   :versions: 1.2.5-2, 1.2.5-0
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends python: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ csb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/csb
+      docker pull quay.io/repository/biocontainers/csb:<tag>
+
+   (see `csb/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_csb| conda:required_by:: csb
 .. |downloads_csb| image:: https://img.shields.io/conda/dn/bioconda/csb.svg?style=flat
    :alt:   (downloads)
 .. |docker_csb| image:: https://quay.io/repository/biocontainers/csb/status
    :target: https://quay.io/repository/biocontainers/csb
+.. _`csb/tags`: https://quay.io/repository/biocontainers/csb?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/csb/README.html
-

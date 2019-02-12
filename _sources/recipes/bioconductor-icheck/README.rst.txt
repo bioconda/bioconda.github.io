@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-icheck'
 .. highlight: bash
-
 
 bioconductor-icheck
 ===================
@@ -22,10 +23,8 @@ bioconductor-icheck
    |downloads_bioconductor-icheck| |docker_bioconductor-icheck|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-icheck|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-icheck
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-icheck
+      docker pull quay.io/repository/biocontainers/bioconductor-icheck:<tag>
+
+   (see `bioconductor-icheck/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-icheck| conda:required_by:: bioconductor-icheck
 .. |downloads_bioconductor-icheck| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-icheck.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-icheck| image:: https://quay.io/repository/biocontainers/bioconductor-icheck/status
    :target: https://quay.io/repository/biocontainers/bioconductor-icheck
+.. _`bioconductor-icheck/tags`: https://quay.io/repository/biocontainers/bioconductor-icheck?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-icheck/README.html
-

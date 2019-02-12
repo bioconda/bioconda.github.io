@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vkmz'
 .. highlight: bash
-
 
 vkmz
 ====
@@ -21,11 +22,11 @@ vkmz
 
    |downloads_vkmz| |docker_vkmz|
 
-   :versions: 1.4dev2, v1.4dev1, v1.3.1
-
-   :depends: :conda:package:`python` >=3.6 
-
-   :required~by: |required_by_vkmz|
+   :versions: 1.4dev2-0, v1.4dev1-0, v1.3.1-0
+   
+   :depends python: >=3.6
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ vkmz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vkmz
+      docker pull quay.io/repository/biocontainers/vkmz:<tag>
+
+   (see `vkmz/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vkmz| conda:required_by:: vkmz
 .. |downloads_vkmz| image:: https://img.shields.io/conda/dn/bioconda/vkmz.svg?style=flat
    :alt:   (downloads)
 .. |docker_vkmz| image:: https://quay.io/repository/biocontainers/vkmz/status
    :target: https://quay.io/repository/biocontainers/vkmz
+.. _`vkmz/tags`: https://quay.io/repository/biocontainers/vkmz?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vkmz/README.html
-

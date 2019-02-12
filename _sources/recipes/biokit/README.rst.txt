@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biokit'
 .. highlight: bash
-
 
 biokit
 ======
@@ -21,11 +22,35 @@ biokit
 
    |downloads_biokit| |docker_biokit|
 
-   :versions: 0.4.4, 0.4.2, 0.4.1, 0.2.1, 0.1.4, 0.1.3
-
-   :depends: :conda:package:`biopython`  :conda:package:`bioservices` >=1.4.16 :conda:package:`colorlog`  :conda:package:`colormap`  :conda:package:`easydev` >=0.9.34 :conda:package:`matplotlib`  :conda:package:`mesalib`  :conda:package:`numpydoc`  :conda:package:`pandas`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`pyyaml`  :conda:package:`scipy`  :conda:package:`xmltodict`  
-
-   :required~by: |required_by_biokit|
+   :versions: 0.4.4-0, 0.4.2-1, 0.4.2-0, 0.4.1-4, 0.4.1-2, 0.4.1-0, 0.2.1-0, 0.1.4-0, 0.1.3-0
+   
+   :depends biopython: 
+   
+   :depends bioservices: >=1.4.16
+   
+   :depends colorlog: 
+   
+   :depends colormap: 
+   
+   :depends easydev: >=0.9.34
+   
+   :depends matplotlib: 
+   
+   :depends mesalib: 
+   
+   :depends numpydoc: 
+   
+   :depends pandas: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends pyyaml: 
+   
+   :depends scipy: 
+   
+   :depends xmltodict: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ biokit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biokit
+      docker pull quay.io/repository/biocontainers/biokit:<tag>
+
+   (see `biokit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biokit| conda:required_by:: biokit
 .. |downloads_biokit| image:: https://img.shields.io/conda/dn/bioconda/biokit.svg?style=flat
    :alt:   (downloads)
 .. |docker_biokit| image:: https://quay.io/repository/biocontainers/biokit/status
    :target: https://quay.io/repository/biocontainers/biokit
+.. _`biokit/tags`: https://quay.io/repository/biocontainers/biokit?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biokit/README.html
-

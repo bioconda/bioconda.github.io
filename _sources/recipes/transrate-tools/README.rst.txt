@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'transrate-tools'
 .. highlight: bash
-
 
 transrate-tools
 ===============
@@ -21,11 +22,15 @@ transrate-tools
 
    |downloads_transrate-tools| |docker_transrate-tools|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bamtools`  :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_transrate-tools|
+   :versions: 1.0.0-4, 1.0.0-0
+   
+   :depends bamtools: >=2.4.1,<2.4.2.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ transrate-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/transrate-tools
+      docker pull quay.io/repository/biocontainers/transrate-tools:<tag>
+
+   (see `transrate-tools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_transrate-tools| conda:required_by:: transrate-tools
 .. |downloads_transrate-tools| image:: https://img.shields.io/conda/dn/bioconda/transrate-tools.svg?style=flat
    :alt:   (downloads)
 .. |docker_transrate-tools| image:: https://quay.io/repository/biocontainers/transrate-tools/status
    :target: https://quay.io/repository/biocontainers/transrate-tools
+.. _`transrate-tools/tags`: https://quay.io/repository/biocontainers/transrate-tools?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/transrate-tools/README.html
-

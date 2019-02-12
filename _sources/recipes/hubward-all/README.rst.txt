@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hubward-all'
 .. highlight: bash
-
 
 hubward-all
 ===========
@@ -21,11 +22,31 @@ hubward-all
 
    |downloads_hubward-all| |docker_hubward-all|
 
-   :versions: 0.2.1
-
-   :depends: :conda:package:`bedtools`  :conda:package:`crossmap`  :conda:package:`hubward`  :conda:package:`ucsc-bedgraphtobigwig`  :conda:package:`ucsc-bedtobigbed`  :conda:package:`ucsc-bigbedtobed`  :conda:package:`ucsc-bigwigtobedgraph`  :conda:package:`ucsc-bigwigtowig`  :conda:package:`ucsc-fetchchromsizes`  :conda:package:`ucsc-liftover`  :conda:package:`ucsc-wigtobigwig`  
-
-   :required~by: |required_by_hubward-all|
+   :versions: 0.2.1-1, 0.2.1-0
+   
+   :depends bedtools: 
+   
+   :depends crossmap: 
+   
+   :depends hubward: 
+   
+   :depends ucsc-bedgraphtobigwig: 
+   
+   :depends ucsc-bedtobigbed: 
+   
+   :depends ucsc-bigbedtobed: 
+   
+   :depends ucsc-bigwigtobedgraph: 
+   
+   :depends ucsc-bigwigtowig: 
+   
+   :depends ucsc-fetchchromsizes: 
+   
+   :depends ucsc-liftover: 
+   
+   :depends ucsc-wigtobigwig: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ hubward-all
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hubward-all
+      docker pull quay.io/repository/biocontainers/hubward-all:<tag>
+
+   (see `hubward-all/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hubward-all| conda:required_by:: hubward-all
 .. |downloads_hubward-all| image:: https://img.shields.io/conda/dn/bioconda/hubward-all.svg?style=flat
    :alt:   (downloads)
 .. |docker_hubward-all| image:: https://quay.io/repository/biocontainers/hubward-all/status
    :target: https://quay.io/repository/biocontainers/hubward-all
+.. _`hubward-all/tags`: https://quay.io/repository/biocontainers/hubward-all?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hubward-all/README.html
-

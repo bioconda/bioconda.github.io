@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mason'
 .. highlight: bash
-
 
 mason
 =====
@@ -22,11 +23,9 @@ mason
 
    |downloads_mason| |docker_mason|
 
-   :versions: 2.0.8, 2.0.7
-
-   :depends: 
-
-   :required~by: |required_by_mason|
+   :versions: 2.0.8-1, 2.0.8-0, 2.0.7-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +39,16 @@ mason
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mason
+      docker pull quay.io/repository/biocontainers/mason:<tag>
+
+   (see `mason/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mason| conda:required_by:: mason
 .. |downloads_mason| image:: https://img.shields.io/conda/dn/bioconda/mason.svg?style=flat
    :alt:   (downloads)
 .. |docker_mason| image:: https://quay.io/repository/biocontainers/mason/status
    :target: https://quay.io/repository/biocontainers/mason
+.. _`mason/tags`: https://quay.io/repository/biocontainers/mason?tab=tags
 
 
 
@@ -64,4 +65,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mason/README.html
-

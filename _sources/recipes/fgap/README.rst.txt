@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fgap'
 .. highlight: bash
-
 
 fgap
 ====
@@ -21,11 +22,15 @@ fgap
 
    |downloads_fgap| |docker_fgap|
 
-   :versions: 1.8.1
-
-   :depends: :conda:package:`blast`  :conda:package:`octave`  :conda:package:`xorg-libx11`  
-
-   :required~by: |required_by_fgap|
+   :versions: 1.8.1-1, 1.8.1-0
+   
+   :depends blast: 
+   
+   :depends octave: 
+   
+   :depends xorg-libx11: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ fgap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fgap
+      docker pull quay.io/repository/biocontainers/fgap:<tag>
+
+   (see `fgap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fgap| conda:required_by:: fgap
 .. |downloads_fgap| image:: https://img.shields.io/conda/dn/bioconda/fgap.svg?style=flat
    :alt:   (downloads)
 .. |docker_fgap| image:: https://quay.io/repository/biocontainers/fgap/status
    :target: https://quay.io/repository/biocontainers/fgap
+.. _`fgap/tags`: https://quay.io/repository/biocontainers/fgap?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fgap/README.html
-

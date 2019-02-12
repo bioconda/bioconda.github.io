@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-io-compress-deflate'
 .. highlight: bash
-
 
 perl-io-compress-deflate
 ========================
@@ -21,11 +22,11 @@ perl-io-compress-deflate
 
    |downloads_perl-io-compress-deflate| |docker_perl-io-compress-deflate|
 
-   :versions: 2.064
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-io-compress-deflate|
+   :versions: 2.064-1, 2.064-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-io-compress-deflate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-compress-deflate
+      docker pull quay.io/repository/biocontainers/perl-io-compress-deflate:<tag>
+
+   (see `perl-io-compress-deflate/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-io-compress-deflate| conda:required_by:: perl-io-compress-deflate
 .. |downloads_perl-io-compress-deflate| image:: https://img.shields.io/conda/dn/bioconda/perl-io-compress-deflate.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-io-compress-deflate| image:: https://quay.io/repository/biocontainers/perl-io-compress-deflate/status
    :target: https://quay.io/repository/biocontainers/perl-io-compress-deflate
+.. _`perl-io-compress-deflate/tags`: https://quay.io/repository/biocontainers/perl-io-compress-deflate?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-io-compress-deflate/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'python-levenshtein'
 .. highlight: bash
-
 
 python-levenshtein
 ==================
@@ -21,11 +22,15 @@ python-levenshtein
 
    |downloads_python-levenshtein| |docker_python-levenshtein|
 
-   :versions: 0.12.0
-
-   :depends: :conda:package:`cython`  :conda:package:`nose`  
-
-   :required~by: |required_by_python-levenshtein|
+   :versions: 0.12.0-1, 0.12.0-0
+   
+   :depends cython: 
+   
+   :depends nose: 
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ python-levenshtein
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-levenshtein
+      docker pull quay.io/repository/biocontainers/python-levenshtein:<tag>
+
+   (see `python-levenshtein/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_python-levenshtein| conda:required_by:: python-levenshtein
 .. |downloads_python-levenshtein| image:: https://img.shields.io/conda/dn/bioconda/python-levenshtein.svg?style=flat
    :alt:   (downloads)
 .. |docker_python-levenshtein| image:: https://quay.io/repository/biocontainers/python-levenshtein/status
    :target: https://quay.io/repository/biocontainers/python-levenshtein
+.. _`python-levenshtein/tags`: https://quay.io/repository/biocontainers/python-levenshtein?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/python-levenshtein/README.html
-

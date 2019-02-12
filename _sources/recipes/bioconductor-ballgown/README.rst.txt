@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ballgown'
 .. highlight: bash
-
 
 bioconductor-ballgown
 =====================
@@ -22,11 +23,29 @@ bioconductor-ballgown
 
    |downloads_bioconductor-ballgown| |docker_bioconductor-ballgown|
 
-   :versions: 2.14.0, 2.12.0, 2.10.0, 2.8.4, 2.2.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-sva` >=3.30.0,<3.31.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_bioconductor-ballgown|
+   :versions: 2.14.0-0, 2.12.0-0, 2.10.0-0, 2.8.4-0, 2.2.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-sva: >=3.30.0,<3.31.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ bioconductor-ballgown
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ballgown
+      docker pull quay.io/repository/biocontainers/bioconductor-ballgown:<tag>
+
+   (see `bioconductor-ballgown/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ballgown| conda:required_by:: bioconductor-ballgown
 .. |downloads_bioconductor-ballgown| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ballgown.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ballgown| image:: https://quay.io/repository/biocontainers/bioconductor-ballgown/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ballgown
+.. _`bioconductor-ballgown/tags`: https://quay.io/repository/biocontainers/bioconductor-ballgown?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ballgown/README.html
-

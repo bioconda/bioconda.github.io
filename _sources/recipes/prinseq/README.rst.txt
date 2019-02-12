@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'prinseq'
 .. highlight: bash
-
 
 prinseq
 =======
@@ -21,11 +22,9 @@ prinseq
 
    |downloads_prinseq| |docker_prinseq|
 
-   :versions: 0.20.4
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_prinseq|
+   :versions: 0.20.4-3, 0.20.4-2, 0.20.4-1, 0.20.4-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ prinseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prinseq
+      docker pull quay.io/repository/biocontainers/prinseq:<tag>
+
+   (see `prinseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_prinseq| conda:required_by:: prinseq
 .. |downloads_prinseq| image:: https://img.shields.io/conda/dn/bioconda/prinseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_prinseq| image:: https://quay.io/repository/biocontainers/prinseq/status
    :target: https://quay.io/repository/biocontainers/prinseq
+.. _`prinseq/tags`: https://quay.io/repository/biocontainers/prinseq?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/prinseq/README.html
-

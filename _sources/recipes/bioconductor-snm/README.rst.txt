@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-snm'
 .. highlight: bash
-
 
 bioconductor-snm
 ================
@@ -22,11 +23,15 @@ bioconductor-snm
 
    |downloads_bioconductor-snm| |docker_bioconductor-snm|
 
-   :versions: 1.30.0, 1.28.0, 1.26.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  :conda:package:`r-lme4` >=1.0 
-
-   :required~by: |required_by_bioconductor-snm|
+   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-corpcor: 
+   
+   :depends r-lme4: >=1.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-snm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snm
+      docker pull quay.io/repository/biocontainers/bioconductor-snm:<tag>
+
+   (see `bioconductor-snm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-snm| conda:required_by:: bioconductor-snm
 .. |downloads_bioconductor-snm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snm.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-snm| image:: https://quay.io/repository/biocontainers/bioconductor-snm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-snm
+.. _`bioconductor-snm/tags`: https://quay.io/repository/biocontainers/bioconductor-snm?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-snm/README.html
-

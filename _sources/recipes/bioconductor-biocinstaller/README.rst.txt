@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-biocinstaller'
 .. highlight: bash
-
 
 bioconductor-biocinstaller
 ==========================
@@ -22,11 +23,11 @@ bioconductor-biocinstaller
 
    |downloads_bioconductor-biocinstaller| |docker_bioconductor-biocinstaller|
 
-   :versions: 1.32.1, 1.30.0, 1.28.0, 1.26.1, 1.24.0, 1.22.3, 1.21.0, 1.20.1, 1.20.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-biocinstaller|
+   :versions: 1.32.1-0, 1.30.0-0, 1.28.0-1, 1.28.0-0, 1.26.1-0, 1.24.0-0, 1.22.3-0, 1.21.0-0, 1.20.1-0, 1.20.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ bioconductor-biocinstaller
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocinstaller
+      docker pull quay.io/repository/biocontainers/bioconductor-biocinstaller:<tag>
+
+   (see `bioconductor-biocinstaller/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-biocinstaller| conda:required_by:: bioconductor-biocinstaller
 .. |downloads_bioconductor-biocinstaller| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocinstaller.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-biocinstaller| image:: https://quay.io/repository/biocontainers/bioconductor-biocinstaller/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocinstaller
+.. _`bioconductor-biocinstaller/tags`: https://quay.io/repository/biocontainers/bioconductor-biocinstaller?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-biocinstaller/README.html
-

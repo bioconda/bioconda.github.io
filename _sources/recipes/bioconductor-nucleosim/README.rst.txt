@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-nucleosim'
 .. highlight: bash
-
 
 bioconductor-nucleosim
 ======================
@@ -22,11 +23,15 @@ bioconductor-nucleosim
 
    |downloads_bioconductor-nucleosim| |docker_bioconductor-nucleosim|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-nucleosim|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-nucleosim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-nucleosim
+      docker pull quay.io/repository/biocontainers/bioconductor-nucleosim:<tag>
+
+   (see `bioconductor-nucleosim/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-nucleosim| conda:required_by:: bioconductor-nucleosim
 .. |downloads_bioconductor-nucleosim| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nucleosim.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-nucleosim| image:: https://quay.io/repository/biocontainers/bioconductor-nucleosim/status
    :target: https://quay.io/repository/biocontainers/bioconductor-nucleosim
+.. _`bioconductor-nucleosim/tags`: https://quay.io/repository/biocontainers/bioconductor-nucleosim?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-nucleosim/README.html
-

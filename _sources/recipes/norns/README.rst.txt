@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'norns'
 .. highlight: bash
-
 
 norns
 =====
@@ -21,11 +22,17 @@ norns
 
    |downloads_norns| |docker_norns|
 
-   :versions: 0.1.2
-
-   :depends: :conda:package:`appdirs`  :conda:package:`nose`  :conda:package:`python` 2.7* :conda:package:`pyyaml`  
-
-   :required~by: |required_by_norns|
+   :versions: 0.1.2-1, 0.1.2-0
+   
+   :depends appdirs: 
+   
+   :depends nose: 
+   
+   :depends python: 
+   
+   :depends pyyaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ norns
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/norns
+      docker pull quay.io/repository/biocontainers/norns:<tag>
+
+   (see `norns/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_norns| conda:required_by:: norns
 .. |downloads_norns| image:: https://img.shields.io/conda/dn/bioconda/norns.svg?style=flat
    :alt:   (downloads)
 .. |docker_norns| image:: https://quay.io/repository/biocontainers/norns/status
    :target: https://quay.io/repository/biocontainers/norns
+.. _`norns/tags`: https://quay.io/repository/biocontainers/norns?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/norns/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'plink2'
 .. highlight: bash
-
 
 plink2
 ======
@@ -21,11 +22,11 @@ plink2
 
    |downloads_plink2| |docker_plink2|
 
-   :versions: 1.90b3.35
-
-   :depends: :conda:package:`openblas`  
-
-   :required~by: |required_by_plink2|
+   :versions: 1.90b3.35-0
+   
+   :depends openblas: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ plink2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plink2
+      docker pull quay.io/repository/biocontainers/plink2:<tag>
+
+   (see `plink2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_plink2| conda:required_by:: plink2
 .. |downloads_plink2| image:: https://img.shields.io/conda/dn/bioconda/plink2.svg?style=flat
    :alt:   (downloads)
 .. |docker_plink2| image:: https://quay.io/repository/biocontainers/plink2/status
    :target: https://quay.io/repository/biocontainers/plink2
+.. _`plink2/tags`: https://quay.io/repository/biocontainers/plink2?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/plink2/README.html
-

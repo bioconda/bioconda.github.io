@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-spiffy'
 .. highlight: bash
-
 
 perl-spiffy
 ===========
@@ -21,11 +22,11 @@ perl-spiffy
 
    |downloads_perl-spiffy| |docker_perl-spiffy|
 
-   :versions: 0.46
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-spiffy|
+   :versions: 0.46-3, 0.46-2, 0.46-1, 0.46-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-spiffy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-spiffy
+      docker pull quay.io/repository/biocontainers/perl-spiffy:<tag>
+
+   (see `perl-spiffy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-spiffy| conda:required_by:: perl-spiffy
 .. |downloads_perl-spiffy| image:: https://img.shields.io/conda/dn/bioconda/perl-spiffy.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-spiffy| image:: https://quay.io/repository/biocontainers/perl-spiffy/status
    :target: https://quay.io/repository/biocontainers/perl-spiffy
+.. _`perl-spiffy/tags`: https://quay.io/repository/biocontainers/perl-spiffy?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-spiffy/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'splicemap'
 .. highlight: bash
-
 
 splicemap
 =========
@@ -22,11 +23,13 @@ splicemap
 
    |downloads_splicemap| |docker_splicemap|
 
-   :versions: 3.3.5.2
-
-   :depends: :conda:package:`bowtie`  :conda:package:`libgcc`  
-
-   :required~by: |required_by_splicemap|
+   :versions: 3.3.5.2-1, 3.3.5.2-0
+   
+   :depends bowtie: 
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ splicemap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/splicemap
+      docker pull quay.io/repository/biocontainers/splicemap:<tag>
+
+   (see `splicemap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_splicemap| conda:required_by:: splicemap
 .. |downloads_splicemap| image:: https://img.shields.io/conda/dn/bioconda/splicemap.svg?style=flat
    :alt:   (downloads)
 .. |docker_splicemap| image:: https://quay.io/repository/biocontainers/splicemap/status
    :target: https://quay.io/repository/biocontainers/splicemap
+.. _`splicemap/tags`: https://quay.io/repository/biocontainers/splicemap?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/splicemap/README.html
-

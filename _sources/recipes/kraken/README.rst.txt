@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kraken'
 .. highlight: bash
-
 
 kraken
 ======
@@ -22,11 +23,15 @@ kraken
 
    |downloads_kraken| |docker_kraken|
 
-   :versions: 1.1, 1.0, 0.10.6_eaf8fb68, 0.10.5beta
-
-   :depends: :conda:package:`jellyfish` 1.* :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  
-
-   :required~by: |required_by_kraken|
+   :versions: 1.1-2, 1.1-1, 1.1-0, 1.0-0, 0.10.6_eaf8fb68-4, 0.10.6_eaf8fb68-3, 0.10.6_eaf8fb68-2, 0.10.6_eaf8fb68-1, 0.10.6_eaf8fb68-0, 0.10.5beta-2, 0.10.5beta-0
+   
+   :depends jellyfish: 1.*
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ kraken
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kraken
+      docker pull quay.io/repository/biocontainers/kraken:<tag>
+
+   (see `kraken/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kraken| conda:required_by:: kraken
 .. |downloads_kraken| image:: https://img.shields.io/conda/dn/bioconda/kraken.svg?style=flat
    :alt:   (downloads)
 .. |docker_kraken| image:: https://quay.io/repository/biocontainers/kraken/status
    :target: https://quay.io/repository/biocontainers/kraken
+.. _`kraken/tags`: https://quay.io/repository/biocontainers/kraken?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kraken/README.html
-

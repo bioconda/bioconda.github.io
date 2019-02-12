@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-xml-libxslt'
 .. highlight: bash
-
 
 perl-xml-libxslt
 ================
@@ -21,11 +22,15 @@ perl-xml-libxslt
 
    |downloads_perl-xml-libxslt| |docker_perl-xml-libxslt|
 
-   :versions: 1.94
-
-   :depends: :conda:package:`libxslt`  :conda:package:`perl-threaded`  :conda:package:`perl-xml-libxml`  
-
-   :required~by: |required_by_perl-xml-libxslt|
+   :versions: 1.94-1, 1.94-0
+   
+   :depends libxslt: >=1.1.32,<2.0a0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-xml-libxml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-xml-libxslt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-libxslt
+      docker pull quay.io/repository/biocontainers/perl-xml-libxslt:<tag>
+
+   (see `perl-xml-libxslt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-xml-libxslt| conda:required_by:: perl-xml-libxslt
 .. |downloads_perl-xml-libxslt| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-libxslt.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-xml-libxslt| image:: https://quay.io/repository/biocontainers/perl-xml-libxslt/status
    :target: https://quay.io/repository/biocontainers/perl-xml-libxslt
+.. _`perl-xml-libxslt/tags`: https://quay.io/repository/biocontainers/perl-xml-libxslt?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-xml-libxslt/README.html
-

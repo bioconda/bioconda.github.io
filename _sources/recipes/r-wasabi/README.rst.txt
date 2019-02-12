@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-wasabi'
 .. highlight: bash
-
 
 r-wasabi
 ========
@@ -21,11 +22,17 @@ r-wasabi
 
    |downloads_r-wasabi| |docker_r-wasabi|
 
-   :versions: 0.2, 0.1, 0.0.1
-
-   :depends: :conda:package:`bioconductor-rhdf5`  :conda:package:`r` 3.3.1* :conda:package:`r-data.table`  :conda:package:`r-rjson`  
-
-   :required~by: |required_by_r-wasabi|
+   :versions: 0.2-0, 0.1-0, 0.0.1-0
+   
+   :depends bioconductor-rhdf5: 
+   
+   :depends r: 3.3.1*
+   
+   :depends r-data.table: 
+   
+   :depends r-rjson: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-wasabi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-wasabi
+      docker pull quay.io/repository/biocontainers/r-wasabi:<tag>
+
+   (see `r-wasabi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-wasabi| conda:required_by:: r-wasabi
 .. |downloads_r-wasabi| image:: https://img.shields.io/conda/dn/bioconda/r-wasabi.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-wasabi| image:: https://quay.io/repository/biocontainers/r-wasabi/status
    :target: https://quay.io/repository/biocontainers/r-wasabi
+.. _`r-wasabi/tags`: https://quay.io/repository/biocontainers/r-wasabi?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-wasabi/README.html
-

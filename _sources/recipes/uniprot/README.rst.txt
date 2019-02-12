@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'uniprot'
 .. highlight: bash
-
 
 uniprot
 =======
@@ -21,11 +22,13 @@ uniprot
 
    |downloads_uniprot| |docker_uniprot|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`python` 2.7* :conda:package:`requests`  
-
-   :required~by: |required_by_uniprot|
+   :versions: 1.3-1, 1.3-0
+   
+   :depends python: 
+   
+   :depends requests: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ uniprot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/uniprot
+      docker pull quay.io/repository/biocontainers/uniprot:<tag>
+
+   (see `uniprot/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_uniprot| conda:required_by:: uniprot
 .. |downloads_uniprot| image:: https://img.shields.io/conda/dn/bioconda/uniprot.svg?style=flat
    :alt:   (downloads)
 .. |docker_uniprot| image:: https://quay.io/repository/biocontainers/uniprot/status
    :target: https://quay.io/repository/biocontainers/uniprot
+.. _`uniprot/tags`: https://quay.io/repository/biocontainers/uniprot?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/uniprot/README.html
-

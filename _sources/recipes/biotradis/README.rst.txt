@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biotradis'
 .. highlight: bash
-
 
 biotradis
 =========
@@ -21,11 +22,29 @@ biotradis
 
    |downloads_biotradis| |docker_biotradis|
 
-   :versions: 1.4.1
-
-   :depends: :conda:package:`bioconductor-edger`  :conda:package:`perl-app-cpanminus`  :conda:package:`perl-moose`  :conda:package:`perl-parallel-forkmanager`  :conda:package:`perl-pathtools`  :conda:package:`perl-scalar-util-numeric`  :conda:package:`r-getopt`  :conda:package:`r-mass`  :conda:package:`samtools`  :conda:package:`smalt`  
-
-   :required~by: |required_by_biotradis|
+   :versions: 1.4.1-0
+   
+   :depends bioconductor-edger: 
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-moose: 
+   
+   :depends perl-parallel-forkmanager: 
+   
+   :depends perl-pathtools: 
+   
+   :depends perl-scalar-util-numeric: 
+   
+   :depends r-getopt: 
+   
+   :depends r-mass: 
+   
+   :depends samtools: 
+   
+   :depends smalt: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ biotradis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biotradis
+      docker pull quay.io/repository/biocontainers/biotradis:<tag>
+
+   (see `biotradis/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biotradis| conda:required_by:: biotradis
 .. |downloads_biotradis| image:: https://img.shields.io/conda/dn/bioconda/biotradis.svg?style=flat
    :alt:   (downloads)
 .. |docker_biotradis| image:: https://quay.io/repository/biocontainers/biotradis/status
    :target: https://quay.io/repository/biocontainers/biotradis
+.. _`biotradis/tags`: https://quay.io/repository/biocontainers/biotradis?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biotradis/README.html
-

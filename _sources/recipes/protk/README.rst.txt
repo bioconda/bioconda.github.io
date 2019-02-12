@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'protk'
 .. highlight: bash
-
 
 protk
 =====
@@ -21,11 +22,17 @@ protk
 
    |downloads_protk| |docker_protk|
 
-   :versions: 1.4.4a
-
-   :depends: :conda:package:`libgcc`  :conda:package:`libxml2` 2.9.* :conda:package:`ruby` >=2.4 :conda:package:`tpp`  
-
-   :required~by: |required_by_protk|
+   :versions: 1.4.4a-1, 1.4.4a-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libxml2: >=2.9.8,<2.10.0a0
+   
+   :depends ruby: >=2.4
+   
+   :depends tpp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ protk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/protk
+      docker pull quay.io/repository/biocontainers/protk:<tag>
+
+   (see `protk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_protk| conda:required_by:: protk
 .. |downloads_protk| image:: https://img.shields.io/conda/dn/bioconda/protk.svg?style=flat
    :alt:   (downloads)
 .. |docker_protk| image:: https://quay.io/repository/biocontainers/protk/status
    :target: https://quay.io/repository/biocontainers/protk
+.. _`protk/tags`: https://quay.io/repository/biocontainers/protk?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/protk/README.html
-

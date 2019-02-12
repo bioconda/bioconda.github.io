@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'simka'
 .. highlight: bash
-
 
 simka
 =====
@@ -22,11 +23,13 @@ simka
 
    |downloads_simka| |docker_simka|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_simka|
+   :versions: 1.4.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ simka
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/simka
+      docker pull quay.io/repository/biocontainers/simka:<tag>
+
+   (see `simka/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_simka| conda:required_by:: simka
 .. |downloads_simka| image:: https://img.shields.io/conda/dn/bioconda/simka.svg?style=flat
    :alt:   (downloads)
 .. |docker_simka| image:: https://quay.io/repository/biocontainers/simka/status
    :target: https://quay.io/repository/biocontainers/simka
+.. _`simka/tags`: https://quay.io/repository/biocontainers/simka?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/simka/README.html
-

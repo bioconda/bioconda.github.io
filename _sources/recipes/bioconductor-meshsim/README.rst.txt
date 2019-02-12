@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-meshsim'
 .. highlight: bash
-
 
 bioconductor-meshsim
 ====================
@@ -22,11 +23,15 @@ bioconductor-meshsim
 
    |downloads_bioconductor-meshsim| |docker_bioconductor-meshsim|
 
-   :versions: 1.7.0
-
-   :depends: :conda:package:`r-base` 3.3.2* :conda:package:`r-rcurl`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-meshsim|
+   :versions: 1.7.0-0
+   
+   :depends r-base: 3.3.2*
+   
+   :depends r-rcurl: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-meshsim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-meshsim
+      docker pull quay.io/repository/biocontainers/bioconductor-meshsim:<tag>
+
+   (see `bioconductor-meshsim/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-meshsim| conda:required_by:: bioconductor-meshsim
 .. |downloads_bioconductor-meshsim| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-meshsim.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-meshsim| image:: https://quay.io/repository/biocontainers/bioconductor-meshsim/status
    :target: https://quay.io/repository/biocontainers/bioconductor-meshsim
+.. _`bioconductor-meshsim/tags`: https://quay.io/repository/biocontainers/bioconductor-meshsim?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-meshsim/README.html
-

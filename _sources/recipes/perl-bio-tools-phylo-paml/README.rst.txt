@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bio-tools-phylo-paml'
 .. highlight: bash
-
 
 perl-bio-tools-phylo-paml
 =========================
@@ -21,11 +22,21 @@ perl-bio-tools-phylo-paml
 
    |downloads_perl-bio-tools-phylo-paml| |docker_perl-bio-tools-phylo-paml|
 
-   :versions: 1.7.3
-
-   :depends: :conda:package:`paml`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-base`  :conda:package:`perl-bioperl-run`  :conda:package:`perl-getopt-long`  :conda:package:`perl-io-string`  
-
-   :required~by: |required_by_perl-bio-tools-phylo-paml|
+   :versions: 1.7.3-0
+   
+   :depends paml: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-base: 
+   
+   :depends perl-bioperl-run: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-io-string: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-bio-tools-phylo-paml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-tools-phylo-paml
+      docker pull quay.io/repository/biocontainers/perl-bio-tools-phylo-paml:<tag>
+
+   (see `perl-bio-tools-phylo-paml/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bio-tools-phylo-paml| conda:required_by:: perl-bio-tools-phylo-paml
 .. |downloads_perl-bio-tools-phylo-paml| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-tools-phylo-paml.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bio-tools-phylo-paml| image:: https://quay.io/repository/biocontainers/perl-bio-tools-phylo-paml/status
    :target: https://quay.io/repository/biocontainers/perl-bio-tools-phylo-paml
+.. _`perl-bio-tools-phylo-paml/tags`: https://quay.io/repository/biocontainers/perl-bio-tools-phylo-paml?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bio-tools-phylo-paml/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-intego'
 .. highlight: bash
-
 
 r-intego
 ========
@@ -22,11 +23,13 @@ r-intego
 
    |downloads_r-intego| |docker_r-intego|
 
-   :versions: 2.0
-
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-factominer`  
-
-   :required~by: |required_by_r-intego|
+   :versions: 2.0-0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-factominer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ r-intego
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-intego
+      docker pull quay.io/repository/biocontainers/r-intego:<tag>
+
+   (see `r-intego/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-intego| conda:required_by:: r-intego
 .. |downloads_r-intego| image:: https://img.shields.io/conda/dn/bioconda/r-intego.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-intego| image:: https://quay.io/repository/biocontainers/r-intego/status
    :target: https://quay.io/repository/biocontainers/r-intego
+.. _`r-intego/tags`: https://quay.io/repository/biocontainers/r-intego?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-intego/README.html
-

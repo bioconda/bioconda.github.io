@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mauvealigner'
 .. highlight: bash
-
 
 mauvealigner
 ============
@@ -22,11 +23,21 @@ mauvealigner
 
    |downloads_mauvealigner| |docker_mauvealigner|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`boost-cpp` >=1.65.1,<1.65.2.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgenome`  :conda:package:`libmems`  :conda:package:`libmuscle`  :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_mauvealigner|
+   :versions: 1.2.0-0
+   
+   :depends boost-cpp: >=1.65.1,<1.65.2.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libgenome: 
+   
+   :depends libmems: 
+   
+   :depends libmuscle: 
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ mauvealigner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mauvealigner
+      docker pull quay.io/repository/biocontainers/mauvealigner:<tag>
+
+   (see `mauvealigner/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mauvealigner| conda:required_by:: mauvealigner
 .. |downloads_mauvealigner| image:: https://img.shields.io/conda/dn/bioconda/mauvealigner.svg?style=flat
    :alt:   (downloads)
 .. |docker_mauvealigner| image:: https://quay.io/repository/biocontainers/mauvealigner/status
    :target: https://quay.io/repository/biocontainers/mauvealigner
+.. _`mauvealigner/tags`: https://quay.io/repository/biocontainers/mauvealigner?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mauvealigner/README.html
-

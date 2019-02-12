@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'raxml'
 .. highlight: bash
-
 
 raxml
 =====
@@ -22,11 +23,11 @@ raxml
 
    |downloads_raxml| |docker_raxml|
 
-   :versions: 8.2.12, 8.2.10, 8.2.9, 8.2.4, 7.3.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_raxml|
+   :versions: 8.2.12-0, 8.2.10-1, 8.2.10-0, 8.2.9-2, 8.2.9-1, 8.2.9-0, 8.2.4-2, 8.2.4-1, 8.2.4-0, 7.3.0-1, 7.3.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ raxml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/raxml
+      docker pull quay.io/repository/biocontainers/raxml:<tag>
+
+   (see `raxml/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_raxml| conda:required_by:: raxml
 .. |downloads_raxml| image:: https://img.shields.io/conda/dn/bioconda/raxml.svg?style=flat
    :alt:   (downloads)
 .. |docker_raxml| image:: https://quay.io/repository/biocontainers/raxml/status
    :target: https://quay.io/repository/biocontainers/raxml
+.. _`raxml/tags`: https://quay.io/repository/biocontainers/raxml?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/raxml/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fast5seek'
 .. highlight: bash
-
 
 fast5seek
 =========
@@ -21,11 +22,15 @@ fast5seek
 
    |downloads_fast5seek| |docker_fast5seek|
 
-   :versions: 0.1.1, 0.1.0
-
-   :depends: :conda:package:`ont-fast5-api`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 
-
-   :required~by: |required_by_fast5seek|
+   :versions: 0.1.1-0, 0.1.0-1, 0.1.0-0
+   
+   :depends ont-fast5-api: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ fast5seek
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fast5seek
+      docker pull quay.io/repository/biocontainers/fast5seek:<tag>
+
+   (see `fast5seek/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fast5seek| conda:required_by:: fast5seek
 .. |downloads_fast5seek| image:: https://img.shields.io/conda/dn/bioconda/fast5seek.svg?style=flat
    :alt:   (downloads)
 .. |docker_fast5seek| image:: https://quay.io/repository/biocontainers/fast5seek/status
    :target: https://quay.io/repository/biocontainers/fast5seek
+.. _`fast5seek/tags`: https://quay.io/repository/biocontainers/fast5seek?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fast5seek/README.html
-

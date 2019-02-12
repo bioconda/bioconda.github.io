@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-image-exiftool'
 .. highlight: bash
-
 
 perl-image-exiftool
 ===================
@@ -21,11 +22,11 @@ perl-image-exiftool
 
    |downloads_perl-image-exiftool| |docker_perl-image-exiftool|
 
-   :versions: 11.11, 11.01, 10.40
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-image-exiftool|
+   :versions: 11.11-0, 11.01-1, 11.01-0, 10.40-2, 10.40-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-image-exiftool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-image-exiftool
+      docker pull quay.io/repository/biocontainers/perl-image-exiftool:<tag>
+
+   (see `perl-image-exiftool/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-image-exiftool| conda:required_by:: perl-image-exiftool
 .. |downloads_perl-image-exiftool| image:: https://img.shields.io/conda/dn/bioconda/perl-image-exiftool.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-image-exiftool| image:: https://quay.io/repository/biocontainers/perl-image-exiftool/status
    :target: https://quay.io/repository/biocontainers/perl-image-exiftool
+.. _`perl-image-exiftool/tags`: https://quay.io/repository/biocontainers/perl-image-exiftool?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-image-exiftool/README.html
-

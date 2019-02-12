@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-db-file'
 .. highlight: bash
-
 
 perl-db-file
 ============
@@ -21,11 +22,15 @@ perl-db-file
 
    |downloads_perl-db-file| |docker_perl-db-file|
 
-   :versions: 1.843, 1.835
-
-   :depends: :conda:package:`libdb`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-db-file|
+   :versions: 1.843-0, 1.835-6, 1.835-5, 1.835-4, 1.835-3, 1.835-2, 1.835-1, 1.835-0
+   
+   :depends libdb: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-db-file
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-db-file
+      docker pull quay.io/repository/biocontainers/perl-db-file:<tag>
+
+   (see `perl-db-file/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-db-file| conda:required_by:: perl-db-file
 .. |downloads_perl-db-file| image:: https://img.shields.io/conda/dn/bioconda/perl-db-file.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-db-file| image:: https://quay.io/repository/biocontainers/perl-db-file/status
    :target: https://quay.io/repository/biocontainers/perl-db-file
+.. _`perl-db-file/tags`: https://quay.io/repository/biocontainers/perl-db-file?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-db-file/README.html
-

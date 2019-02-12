@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-module-extract-use'
 .. highlight: bash
-
 
 perl-module-extract-use
 =======================
@@ -21,11 +22,13 @@ perl-module-extract-use
 
    |downloads_perl-module-extract-use| |docker_perl-module-extract-use|
 
-   :versions: 1.043
-
-   :depends: :conda:package:`perl` >=5.22,<6.0 :conda:package:`perl-pathtools`  :conda:package:`perl-ppi`  
-
-   :required~by: |required_by_perl-module-extract-use|
+   :versions: 1.043-2, 1.043-1, 1.043-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-ppi: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-module-extract-use
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-extract-use
+      docker pull quay.io/repository/biocontainers/perl-module-extract-use:<tag>
+
+   (see `perl-module-extract-use/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-module-extract-use| conda:required_by:: perl-module-extract-use
 .. |downloads_perl-module-extract-use| image:: https://img.shields.io/conda/dn/bioconda/perl-module-extract-use.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-module-extract-use| image:: https://quay.io/repository/biocontainers/perl-module-extract-use/status
    :target: https://quay.io/repository/biocontainers/perl-module-extract-use
+.. _`perl-module-extract-use/tags`: https://quay.io/repository/biocontainers/perl-module-extract-use?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-module-extract-use/README.html
-

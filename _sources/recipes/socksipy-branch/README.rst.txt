@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'socksipy-branch'
 .. highlight: bash
-
 
 socksipy-branch
 ===============
@@ -21,11 +22,11 @@ socksipy-branch
 
    |downloads_socksipy-branch| |docker_socksipy-branch|
 
-   :versions: 1.01
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_socksipy-branch|
+   :versions: 1.01-1, 1.01-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ socksipy-branch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/socksipy-branch
+      docker pull quay.io/repository/biocontainers/socksipy-branch:<tag>
+
+   (see `socksipy-branch/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_socksipy-branch| conda:required_by:: socksipy-branch
 .. |downloads_socksipy-branch| image:: https://img.shields.io/conda/dn/bioconda/socksipy-branch.svg?style=flat
    :alt:   (downloads)
 .. |docker_socksipy-branch| image:: https://quay.io/repository/biocontainers/socksipy-branch/status
    :target: https://quay.io/repository/biocontainers/socksipy-branch
+.. _`socksipy-branch/tags`: https://quay.io/repository/biocontainers/socksipy-branch?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/socksipy-branch/README.html
-

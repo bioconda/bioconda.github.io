@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-compare'
 .. highlight: bash
-
 
 perl-file-compare
 =================
@@ -21,11 +22,11 @@ perl-file-compare
 
    |downloads_perl-file-compare| |docker_perl-file-compare|
 
-   :versions: 1.1006
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-file-compare|
+   :versions: 1.1006-1, 1.1006-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-file-compare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-compare
+      docker pull quay.io/repository/biocontainers/perl-file-compare:<tag>
+
+   (see `perl-file-compare/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-compare| conda:required_by:: perl-file-compare
 .. |downloads_perl-file-compare| image:: https://img.shields.io/conda/dn/bioconda/perl-file-compare.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-compare| image:: https://quay.io/repository/biocontainers/perl-file-compare/status
    :target: https://quay.io/repository/biocontainers/perl-file-compare
+.. _`perl-file-compare/tags`: https://quay.io/repository/biocontainers/perl-file-compare?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-compare/README.html
-

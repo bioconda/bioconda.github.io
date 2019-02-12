@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'musicc'
 .. highlight: bash
-
 
 musicc
 ======
@@ -21,11 +22,19 @@ musicc
 
    |downloads_musicc| |docker_musicc|
 
-   :versions: 1.0.2, 1.0.1
-
-   :depends: :conda:package:`numpy` >=1.6.1 :conda:package:`pandas` >=0.14 :conda:package:`python` 2.7* :conda:package:`scikit-learn` >=0.15.2 :conda:package:`scipy` >=0.9 
-
-   :required~by: |required_by_musicc|
+   :versions: 1.0.2-1, 1.0.2-0, 1.0.1-0
+   
+   :depends numpy: >=1.6.1
+   
+   :depends pandas: >=0.14
+   
+   :depends python: 
+   
+   :depends scikit-learn: >=0.15.2
+   
+   :depends scipy: >=0.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ musicc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/musicc
+      docker pull quay.io/repository/biocontainers/musicc:<tag>
+
+   (see `musicc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_musicc| conda:required_by:: musicc
 .. |downloads_musicc| image:: https://img.shields.io/conda/dn/bioconda/musicc.svg?style=flat
    :alt:   (downloads)
 .. |docker_musicc| image:: https://quay.io/repository/biocontainers/musicc/status
    :target: https://quay.io/repository/biocontainers/musicc
+.. _`musicc/tags`: https://quay.io/repository/biocontainers/musicc?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/musicc/README.html
-

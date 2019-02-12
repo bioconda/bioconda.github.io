@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sbg-cwl-runner'
 .. highlight: bash
-
 
 sbg-cwl-runner
 ==============
@@ -21,11 +22,17 @@ sbg-cwl-runner
 
    |downloads_sbg-cwl-runner| |docker_sbg-cwl-runner|
 
-   :versions: 2018.11
-
-   :depends: :conda:package:`docopt`  :conda:package:`python` >3.5 :conda:package:`pyyaml`  :conda:package:`sevenbridges-python`  
-
-   :required~by: |required_by_sbg-cwl-runner|
+   :versions: 2018.11-0
+   
+   :depends docopt: 
+   
+   :depends python: >3.5
+   
+   :depends pyyaml: 
+   
+   :depends sevenbridges-python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ sbg-cwl-runner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sbg-cwl-runner
+      docker pull quay.io/repository/biocontainers/sbg-cwl-runner:<tag>
+
+   (see `sbg-cwl-runner/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sbg-cwl-runner| conda:required_by:: sbg-cwl-runner
 .. |downloads_sbg-cwl-runner| image:: https://img.shields.io/conda/dn/bioconda/sbg-cwl-runner.svg?style=flat
    :alt:   (downloads)
 .. |docker_sbg-cwl-runner| image:: https://quay.io/repository/biocontainers/sbg-cwl-runner/status
    :target: https://quay.io/repository/biocontainers/sbg-cwl-runner
+.. _`sbg-cwl-runner/tags`: https://quay.io/repository/biocontainers/sbg-cwl-runner?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sbg-cwl-runner/README.html
-

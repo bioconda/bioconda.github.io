@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-protgenerics'
 .. highlight: bash
-
 
 bioconductor-protgenerics
 =========================
@@ -22,11 +23,11 @@ bioconductor-protgenerics
 
    |downloads_bioconductor-protgenerics| |docker_bioconductor-protgenerics|
 
-   :versions: 1.14.0, 1.12.0, 1.10.0, 1.8.0, 1.4.0, 1.2.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-protgenerics|
+   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0, 1.4.0-1, 1.4.0-0, 1.2.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ bioconductor-protgenerics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-protgenerics
+      docker pull quay.io/repository/biocontainers/bioconductor-protgenerics:<tag>
+
+   (see `bioconductor-protgenerics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-protgenerics| conda:required_by:: bioconductor-protgenerics
 .. |downloads_bioconductor-protgenerics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-protgenerics.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-protgenerics| image:: https://quay.io/repository/biocontainers/bioconductor-protgenerics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-protgenerics
+.. _`bioconductor-protgenerics/tags`: https://quay.io/repository/biocontainers/bioconductor-protgenerics?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-protgenerics/README.html
-

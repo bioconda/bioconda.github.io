@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'illumiprocessor'
 .. highlight: bash
-
 
 illumiprocessor
 ===============
@@ -21,11 +22,13 @@ illumiprocessor
 
    |downloads_illumiprocessor| |docker_illumiprocessor|
 
-   :versions: 2.0.9
-
-   :depends: :conda:package:`python` 2.7* :conda:package:`trimmomatic`  
-
-   :required~by: |required_by_illumiprocessor|
+   :versions: 2.0.9-1, 2.0.9-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends trimmomatic: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ illumiprocessor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/illumiprocessor
+      docker pull quay.io/repository/biocontainers/illumiprocessor:<tag>
+
+   (see `illumiprocessor/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_illumiprocessor| conda:required_by:: illumiprocessor
 .. |downloads_illumiprocessor| image:: https://img.shields.io/conda/dn/bioconda/illumiprocessor.svg?style=flat
    :alt:   (downloads)
 .. |docker_illumiprocessor| image:: https://quay.io/repository/biocontainers/illumiprocessor/status
    :target: https://quay.io/repository/biocontainers/illumiprocessor
+.. _`illumiprocessor/tags`: https://quay.io/repository/biocontainers/illumiprocessor?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/illumiprocessor/README.html
-

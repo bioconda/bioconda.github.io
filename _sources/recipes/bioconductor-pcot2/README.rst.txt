@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pcot2'
 .. highlight: bash
-
 
 bioconductor-pcot2
 ==================
@@ -22,11 +23,15 @@ bioconductor-pcot2
 
    |downloads_bioconductor-pcot2| |docker_bioconductor-pcot2|
 
-   :versions: 1.50.0, 1.48.0, 1.46.0, 1.44.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-amap`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-pcot2|
+   :versions: 1.50.0-0, 1.48.0-0, 1.46.0-0, 1.44.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-amap: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-pcot2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pcot2
+      docker pull quay.io/repository/biocontainers/bioconductor-pcot2:<tag>
+
+   (see `bioconductor-pcot2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pcot2| conda:required_by:: bioconductor-pcot2
 .. |downloads_bioconductor-pcot2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pcot2.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pcot2| image:: https://quay.io/repository/biocontainers/bioconductor-pcot2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pcot2
+.. _`bioconductor-pcot2/tags`: https://quay.io/repository/biocontainers/bioconductor-pcot2?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pcot2/README.html
-

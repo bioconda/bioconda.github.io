@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pysvg'
 .. highlight: bash
-
 
 pysvg
 =====
@@ -21,11 +22,15 @@ pysvg
 
    |downloads_pysvg| |docker_pysvg|
 
-   :versions: 0.2.2
-
-   :depends: :conda:package:`cssselect`  :conda:package:`lxml` >=2.1 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pysvg|
+   :versions: 0.2.2-2, 0.2.2-0
+   
+   :depends cssselect: 
+   
+   :depends lxml: >=2.1
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pysvg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pysvg
+      docker pull quay.io/repository/biocontainers/pysvg:<tag>
+
+   (see `pysvg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pysvg| conda:required_by:: pysvg
 .. |downloads_pysvg| image:: https://img.shields.io/conda/dn/bioconda/pysvg.svg?style=flat
    :alt:   (downloads)
 .. |docker_pysvg| image:: https://quay.io/repository/biocontainers/pysvg/status
    :target: https://quay.io/repository/biocontainers/pysvg
+.. _`pysvg/tags`: https://quay.io/repository/biocontainers/pysvg?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pysvg/README.html
-

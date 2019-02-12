@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rnaseqsamplesizedata'
 .. highlight: bash
-
 
 bioconductor-rnaseqsamplesizedata
 =================================
@@ -21,11 +22,15 @@ bioconductor-rnaseqsamplesizedata
 
    |downloads_bioconductor-rnaseqsamplesizedata| |docker_bioconductor-rnaseqsamplesizedata|
 
-   :versions: 1.14.0, 1.12.0
-
-   :depends: :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-rnaseqsamplesizedata|
+   :versions: 1.14.0-0, 1.12.0-1
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-rnaseqsamplesizedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnaseqsamplesizedata
+      docker pull quay.io/repository/biocontainers/bioconductor-rnaseqsamplesizedata:<tag>
+
+   (see `bioconductor-rnaseqsamplesizedata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rnaseqsamplesizedata| conda:required_by:: bioconductor-rnaseqsamplesizedata
 .. |downloads_bioconductor-rnaseqsamplesizedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnaseqsamplesizedata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rnaseqsamplesizedata| image:: https://quay.io/repository/biocontainers/bioconductor-rnaseqsamplesizedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rnaseqsamplesizedata
+.. _`bioconductor-rnaseqsamplesizedata/tags`: https://quay.io/repository/biocontainers/bioconductor-rnaseqsamplesizedata?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rnaseqsamplesizedata/README.html
-

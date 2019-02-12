@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-popgenome'
 .. highlight: bash
-
 
 r-popgenome
 ===========
@@ -22,11 +23,17 @@ r-popgenome
 
    |downloads_r-popgenome| |docker_r-popgenome|
 
-   :versions: 2.6.1
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-ff`  
-
-   :required~by: |required_by_r-popgenome|
+   :versions: 2.6.1-2, 2.6.1-1, 2.6.1-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ff: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ r-popgenome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-popgenome
+      docker pull quay.io/repository/biocontainers/r-popgenome:<tag>
+
+   (see `r-popgenome/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-popgenome| conda:required_by:: r-popgenome
 .. |downloads_r-popgenome| image:: https://img.shields.io/conda/dn/bioconda/r-popgenome.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-popgenome| image:: https://quay.io/repository/biocontainers/r-popgenome/status
    :target: https://quay.io/repository/biocontainers/r-popgenome
+.. _`r-popgenome/tags`: https://quay.io/repository/biocontainers/r-popgenome?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-popgenome/README.html
-

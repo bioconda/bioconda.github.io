@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'squizz'
 .. highlight: bash
-
 
 squizz
 ======
@@ -21,11 +22,11 @@ squizz
 
    |downloads_squizz| |docker_squizz|
 
-   :versions: 0.99d
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_squizz|
+   :versions: 0.99d-1, 0.99d-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ squizz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/squizz
+      docker pull quay.io/repository/biocontainers/squizz:<tag>
+
+   (see `squizz/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_squizz| conda:required_by:: squizz
 .. |downloads_squizz| image:: https://img.shields.io/conda/dn/bioconda/squizz.svg?style=flat
    :alt:   (downloads)
 .. |docker_squizz| image:: https://quay.io/repository/biocontainers/squizz/status
    :target: https://quay.io/repository/biocontainers/squizz
+.. _`squizz/tags`: https://quay.io/repository/biocontainers/squizz?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/squizz/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'erds'
 .. highlight: bash
-
 
 erds
 ====
@@ -21,11 +22,15 @@ erds
 
    |downloads_erds| |docker_erds|
 
-   :versions: 1.1
-
-   :depends: :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`samtools` ==0.1.19 
-
-   :required~by: |required_by_erds|
+   :versions: 1.1-1, 1.1-0
+   
+   :depends libgcc: 
+   
+   :depends perl: 5.22.0*
+   
+   :depends samtools: ==0.1.19
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ erds
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/erds
+      docker pull quay.io/repository/biocontainers/erds:<tag>
+
+   (see `erds/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_erds| conda:required_by:: erds
 .. |downloads_erds| image:: https://img.shields.io/conda/dn/bioconda/erds.svg?style=flat
    :alt:   (downloads)
 .. |docker_erds| image:: https://quay.io/repository/biocontainers/erds/status
    :target: https://quay.io/repository/biocontainers/erds
+.. _`erds/tags`: https://quay.io/repository/biocontainers/erds?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/erds/README.html
-

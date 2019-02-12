@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-pamr'
 .. highlight: bash
-
 
 r-pamr
 ======
@@ -21,11 +22,15 @@ r-pamr
 
    |downloads_r-pamr| |docker_r-pamr|
 
-   :versions: 1.55
-
-   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-cluster`  :conda:package:`r-survival`  
-
-   :required~by: |required_by_r-pamr|
+   :versions: 1.55-0
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-cluster: 
+   
+   :depends r-survival: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-pamr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-pamr
+      docker pull quay.io/repository/biocontainers/r-pamr:<tag>
+
+   (see `r-pamr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-pamr| conda:required_by:: r-pamr
 .. |downloads_r-pamr| image:: https://img.shields.io/conda/dn/bioconda/r-pamr.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-pamr| image:: https://quay.io/repository/biocontainers/r-pamr/status
    :target: https://quay.io/repository/biocontainers/r-pamr
+.. _`r-pamr/tags`: https://quay.io/repository/biocontainers/r-pamr?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-pamr/README.html
-

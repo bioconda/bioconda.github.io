@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-tin'
 .. highlight: bash
-
 
 bioconductor-tin
 ================
@@ -22,11 +23,23 @@ bioconductor-tin
 
    |downloads_bioconductor-tin| |docker_bioconductor-tin|
 
-   :versions: 1.14.0, 1.12.0, 1.10.0
-
-   :depends: :conda:package:`bioconductor-impute` >=1.56.0,<1.57.0 :conda:package:`r-aroma.affymetrix`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-squash`  :conda:package:`r-stringr`  :conda:package:`r-wgcna`  
-
-   :required~by: |required_by_bioconductor-tin|
+   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-0
+   
+   :depends bioconductor-impute: >=1.56.0,<1.57.0
+   
+   :depends r-aroma.affymetrix: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-squash: 
+   
+   :depends r-stringr: 
+   
+   :depends r-wgcna: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ bioconductor-tin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tin
+      docker pull quay.io/repository/biocontainers/bioconductor-tin:<tag>
+
+   (see `bioconductor-tin/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-tin| conda:required_by:: bioconductor-tin
 .. |downloads_bioconductor-tin| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tin.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-tin| image:: https://quay.io/repository/biocontainers/bioconductor-tin/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tin
+.. _`bioconductor-tin/tags`: https://quay.io/repository/biocontainers/bioconductor-tin?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-tin/README.html
-

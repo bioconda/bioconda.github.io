@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mmnet'
 .. highlight: bash
-
 
 bioconductor-mmnet
 ==================
@@ -22,11 +23,37 @@ bioconductor-mmnet
 
    |downloads_bioconductor-mmnet| |docker_bioconductor-mmnet|
 
-   :versions: 1.13.0
-
-   :depends: :conda:package:`bioconductor-biobase`  :conda:package:`bioconductor-keggrest`  :conda:package:`r-base` 3.3.2* :conda:package:`r-biom`  :conda:package:`r-flexmix`  :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-plyr`  :conda:package:`r-rcurl`  :conda:package:`r-reshape2`  :conda:package:`r-rjsonio`  :conda:package:`r-stringr`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-mmnet|
+   :versions: 1.13.0-0
+   
+   :depends bioconductor-biobase: 
+   
+   :depends bioconductor-keggrest: 
+   
+   :depends r-base: 3.3.2*
+   
+   :depends r-biom: 
+   
+   :depends r-flexmix: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-igraph: 
+   
+   :depends r-matrix: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rcurl: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-rjsonio: 
+   
+   :depends r-stringr: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +67,16 @@ bioconductor-mmnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mmnet
+      docker pull quay.io/repository/biocontainers/bioconductor-mmnet:<tag>
+
+   (see `bioconductor-mmnet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mmnet| conda:required_by:: bioconductor-mmnet
 .. |downloads_bioconductor-mmnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mmnet.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mmnet| image:: https://quay.io/repository/biocontainers/bioconductor-mmnet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mmnet
+.. _`bioconductor-mmnet/tags`: https://quay.io/repository/biocontainers/bioconductor-mmnet?tab=tags
 
 
 
@@ -64,4 +93,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mmnet/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-config-simple'
 .. highlight: bash
-
 
 perl-config-simple
 ==================
@@ -21,11 +22,11 @@ perl-config-simple
 
    |downloads_perl-config-simple| |docker_perl-config-simple|
 
-   :versions: 4.58
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-config-simple|
+   :versions: 4.58-1, 4.58-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-config-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-config-simple
+      docker pull quay.io/repository/biocontainers/perl-config-simple:<tag>
+
+   (see `perl-config-simple/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-config-simple| conda:required_by:: perl-config-simple
 .. |downloads_perl-config-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-config-simple.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-config-simple| image:: https://quay.io/repository/biocontainers/perl-config-simple/status
    :target: https://quay.io/repository/biocontainers/perl-config-simple
+.. _`perl-config-simple/tags`: https://quay.io/repository/biocontainers/perl-config-simple?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-config-simple/README.html
-

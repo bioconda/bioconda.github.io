@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ppinfer'
 .. highlight: bash
-
 
 bioconductor-ppinfer
 ====================
@@ -21,11 +22,25 @@ bioconductor-ppinfer
 
    |downloads_bioconductor-ppinfer| |docker_bioconductor-ppinfer|
 
-   :versions: 1.8.1, 1.6.0, 1.4.0, 1.2.4
-
-   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-fgsea` >=1.8.0,<1.9.0 :conda:package:`bioconductor-stringdb` >=1.22.0,<1.23.0 :conda:package:`bioconductor-yeastexpdata` >=0.28.0,<0.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-kernlab`  
-
-   :required~by: |required_by_bioconductor-ppinfer|
+   :versions: 1.8.1-0, 1.6.0-0, 1.4.0-0, 1.2.4-0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-fgsea: >=1.8.0,<1.9.0
+   
+   :depends bioconductor-stringdb: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-yeastexpdata: >=0.28.0,<0.29.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-igraph: 
+   
+   :depends r-kernlab: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bioconductor-ppinfer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ppinfer
+      docker pull quay.io/repository/biocontainers/bioconductor-ppinfer:<tag>
+
+   (see `bioconductor-ppinfer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ppinfer| conda:required_by:: bioconductor-ppinfer
 .. |downloads_bioconductor-ppinfer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ppinfer.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ppinfer| image:: https://quay.io/repository/biocontainers/bioconductor-ppinfer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ppinfer
+.. _`bioconductor-ppinfer/tags`: https://quay.io/repository/biocontainers/bioconductor-ppinfer?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ppinfer/README.html
-

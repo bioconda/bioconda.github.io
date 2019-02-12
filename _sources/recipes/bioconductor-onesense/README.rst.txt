@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-onesense'
 .. highlight: bash
-
 
 bioconductor-onesense
 =====================
@@ -21,11 +22,27 @@ bioconductor-onesense
 
    |downloads_bioconductor-onesense| |docker_bioconductor-onesense|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-flowcore` >=1.48.0,<1.49.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-plotly`  :conda:package:`r-rtsne`  :conda:package:`r-scatterplot3d`  :conda:package:`r-shiny`  :conda:package:`r-shinyfiles`  :conda:package:`r-webshot`  
-
-   :required~by: |required_by_bioconductor-onesense|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-flowcore: >=1.48.0,<1.49.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gplots: 
+   
+   :depends r-plotly: 
+   
+   :depends r-rtsne: 
+   
+   :depends r-scatterplot3d: 
+   
+   :depends r-shiny: 
+   
+   :depends r-shinyfiles: 
+   
+   :depends r-webshot: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-onesense
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-onesense
+      docker pull quay.io/repository/biocontainers/bioconductor-onesense:<tag>
+
+   (see `bioconductor-onesense/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-onesense| conda:required_by:: bioconductor-onesense
 .. |downloads_bioconductor-onesense| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-onesense.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-onesense| image:: https://quay.io/repository/biocontainers/bioconductor-onesense/status
    :target: https://quay.io/repository/biocontainers/bioconductor-onesense
+.. _`bioconductor-onesense/tags`: https://quay.io/repository/biocontainers/bioconductor-onesense?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-onesense/README.html
-

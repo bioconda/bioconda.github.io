@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-dbm-deep'
 .. highlight: bash
-
 
 perl-dbm-deep
 =============
@@ -21,11 +22,17 @@ perl-dbm-deep
 
    |downloads_perl-dbm-deep| |docker_perl-dbm-deep|
 
-   :versions: 2.0013
-
-   :depends: :conda:package:`perl-dbi`  :conda:package:`perl-digest-md5`  :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-dbm-deep|
+   :versions: 2.0013-1, 2.0013-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-dbi: 
+   
+   :depends perl-digest-md5: 
+   
+   :depends perl-scalar-list-utils: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-dbm-deep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-dbm-deep
+      docker pull quay.io/repository/biocontainers/perl-dbm-deep:<tag>
+
+   (see `perl-dbm-deep/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-dbm-deep| conda:required_by:: perl-dbm-deep
 .. |downloads_perl-dbm-deep| image:: https://img.shields.io/conda/dn/bioconda/perl-dbm-deep.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-dbm-deep| image:: https://quay.io/repository/biocontainers/perl-dbm-deep/status
    :target: https://quay.io/repository/biocontainers/perl-dbm-deep
+.. _`perl-dbm-deep/tags`: https://quay.io/repository/biocontainers/perl-dbm-deep?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-dbm-deep/README.html
-

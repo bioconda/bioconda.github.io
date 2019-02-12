@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-fgwas'
 .. highlight: bash
-
 
 r-fgwas
 =======
@@ -22,11 +23,21 @@ r-fgwas
 
    |downloads_r-fgwas| |docker_r-fgwas|
 
-   :versions: 0.3.6, 0.3.5
-
-   :depends: :conda:package:`bioconductor-snpstats`  :conda:package:`parallel`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-devtools`  :conda:package:`r-minpack.lm`  :conda:package:`r-mvtnorm`  
-
-   :required~by: |required_by_r-fgwas|
+   :versions: 0.3.6-1, 0.3.6-0, 0.3.5-0
+   
+   :depends bioconductor-snpstats: 
+   
+   :depends parallel: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-devtools: 
+   
+   :depends r-minpack.lm: 
+   
+   :depends r-mvtnorm: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ r-fgwas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-fgwas
+      docker pull quay.io/repository/biocontainers/r-fgwas:<tag>
+
+   (see `r-fgwas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-fgwas| conda:required_by:: r-fgwas
 .. |downloads_r-fgwas| image:: https://img.shields.io/conda/dn/bioconda/r-fgwas.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-fgwas| image:: https://quay.io/repository/biocontainers/r-fgwas/status
    :target: https://quay.io/repository/biocontainers/r-fgwas
+.. _`r-fgwas/tags`: https://quay.io/repository/biocontainers/r-fgwas?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-fgwas/README.html
-

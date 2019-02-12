@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pogos'
 .. highlight: bash
-
 
 bioconductor-pogos
 ==================
@@ -21,11 +22,23 @@ bioconductor-pogos
 
    |downloads_bioconductor-pogos| |docker_bioconductor-pogos|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-ontoproc` >=1.4.0,<1.5.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-httr` >=1.3.1 :conda:package:`r-rjson` >=0.2.15 :conda:package:`r-shiny`  
-
-   :required~by: |required_by_bioconductor-pogos|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-ontoproc: >=1.4.0,<1.5.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-httr: >=1.3.1
+   
+   :depends r-rjson: >=0.2.15
+   
+   :depends r-shiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-pogos
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pogos
+      docker pull quay.io/repository/biocontainers/bioconductor-pogos:<tag>
+
+   (see `bioconductor-pogos/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pogos| conda:required_by:: bioconductor-pogos
 .. |downloads_bioconductor-pogos| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pogos.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pogos| image:: https://quay.io/repository/biocontainers/bioconductor-pogos/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pogos
+.. _`bioconductor-pogos/tags`: https://quay.io/repository/biocontainers/bioconductor-pogos?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pogos/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mummer'
 .. highlight: bash
-
 
 mummer
 ======
@@ -22,11 +23,13 @@ mummer
 
    |downloads_mummer| |docker_mummer|
 
-   :versions: 3.23
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_mummer|
+   :versions: 3.23-8, 3.23-7, 3.23-6, 3.23-5, 3.23-4, 3.23-3, 3.23-2, 3.23-1, 3.23-0
+   
+   :depends libstdcxx-ng: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ mummer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mummer
+      docker pull quay.io/repository/biocontainers/mummer:<tag>
+
+   (see `mummer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mummer| conda:required_by:: mummer
 .. |downloads_mummer| image:: https://img.shields.io/conda/dn/bioconda/mummer.svg?style=flat
    :alt:   (downloads)
 .. |docker_mummer| image:: https://quay.io/repository/biocontainers/mummer/status
    :target: https://quay.io/repository/biocontainers/mummer
+.. _`mummer/tags`: https://quay.io/repository/biocontainers/mummer?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mummer/README.html
-

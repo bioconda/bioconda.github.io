@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'shortstack'
 .. highlight: bash
-
 
 shortstack
 ==========
@@ -21,11 +22,17 @@ shortstack
 
    |downloads_shortstack| |docker_shortstack|
 
-   :versions: 3.8.5, 3.8.3
-
-   :depends: :conda:package:`bowtie`  :conda:package:`perl` 5.* :conda:package:`samtools` 1.* :conda:package:`viennarna` 2.* 
-
-   :required~by: |required_by_shortstack|
+   :versions: 3.8.5-1, 3.8.5-0, 3.8.3-0
+   
+   :depends bowtie: 
+   
+   :depends perl: 5.*
+   
+   :depends samtools: 1.*
+   
+   :depends viennarna: 2.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ shortstack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shortstack
+      docker pull quay.io/repository/biocontainers/shortstack:<tag>
+
+   (see `shortstack/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_shortstack| conda:required_by:: shortstack
 .. |downloads_shortstack| image:: https://img.shields.io/conda/dn/bioconda/shortstack.svg?style=flat
    :alt:   (downloads)
 .. |docker_shortstack| image:: https://quay.io/repository/biocontainers/shortstack/status
    :target: https://quay.io/repository/biocontainers/shortstack
+.. _`shortstack/tags`: https://quay.io/repository/biocontainers/shortstack?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/shortstack/README.html
-

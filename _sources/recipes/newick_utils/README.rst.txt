@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'newick_utils'
 .. highlight: bash
-
 
 newick_utils
 ============
@@ -21,11 +22,13 @@ newick_utils
 
    |downloads_newick_utils| |docker_newick_utils|
 
-   :versions: 1.6
-
-   :depends: :conda:package:`libgcc`  :conda:package:`libxml2` 2.9.* 
-
-   :required~by: |required_by_newick_utils|
+   :versions: 1.6-2, 1.6-1, 1.6-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libxml2: 2.9.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ newick_utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/newick_utils
+      docker pull quay.io/repository/biocontainers/newick_utils:<tag>
+
+   (see `newick_utils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_newick_utils| conda:required_by:: newick_utils
 .. |downloads_newick_utils| image:: https://img.shields.io/conda/dn/bioconda/newick_utils.svg?style=flat
    :alt:   (downloads)
 .. |docker_newick_utils| image:: https://quay.io/repository/biocontainers/newick_utils/status
    :target: https://quay.io/repository/biocontainers/newick_utils
+.. _`newick_utils/tags`: https://quay.io/repository/biocontainers/newick_utils?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/newick_utils/README.html
-

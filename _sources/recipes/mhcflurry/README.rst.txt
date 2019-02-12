@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mhcflurry'
 .. highlight: bash
-
 
 mhcflurry
 =========
@@ -24,11 +25,31 @@ mhcflurry
 
    |downloads_mhcflurry| |docker_mhcflurry|
 
-   :versions: 1.2.2
-
-   :depends: :conda:package:`appdirs`  :conda:package:`keras` >=2.0.9 :conda:package:`mhcnames`  :conda:package:`numpy` >=1.11 :conda:package:`pandas` >=0.20.3 :conda:package:`python`  :conda:package:`pyyaml`  :conda:package:`scikit-learn`  :conda:package:`six`  :conda:package:`tensorflow` >=1.1.0 :conda:package:`tqdm`  
-
-   :required~by: |required_by_mhcflurry|
+   :versions: 1.2.2-0
+   
+   :depends appdirs: 
+   
+   :depends keras: >=2.0.9
+   
+   :depends mhcnames: 
+   
+   :depends numpy: >=1.11
+   
+   :depends pandas: >=0.20.3
+   
+   :depends python: 
+   
+   :depends pyyaml: 
+   
+   :depends scikit-learn: 
+   
+   :depends six: 
+   
+   :depends tensorflow: >=1.1.0
+   
+   :depends tqdm: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +63,16 @@ mhcflurry
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mhcflurry
+      docker pull quay.io/repository/biocontainers/mhcflurry:<tag>
+
+   (see `mhcflurry/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mhcflurry| conda:required_by:: mhcflurry
 .. |downloads_mhcflurry| image:: https://img.shields.io/conda/dn/bioconda/mhcflurry.svg?style=flat
    :alt:   (downloads)
 .. |docker_mhcflurry| image:: https://quay.io/repository/biocontainers/mhcflurry/status
    :target: https://quay.io/repository/biocontainers/mhcflurry
+.. _`mhcflurry/tags`: https://quay.io/repository/biocontainers/mhcflurry?tab=tags
 
 
 
@@ -66,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mhcflurry/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rnablueprint'
 .. highlight: bash
-
 
 rnablueprint
 ============
@@ -22,11 +23,15 @@ rnablueprint
 
    |downloads_rnablueprint| |docker_rnablueprint|
 
-   :versions: 1.2.2, 1.2
-
-   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_rnablueprint|
+   :versions: 1.2.2-0, 1.2-1, 1.2-0
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ rnablueprint
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnablueprint
+      docker pull quay.io/repository/biocontainers/rnablueprint:<tag>
+
+   (see `rnablueprint/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rnablueprint| conda:required_by:: rnablueprint
 .. |downloads_rnablueprint| image:: https://img.shields.io/conda/dn/bioconda/rnablueprint.svg?style=flat
    :alt:   (downloads)
 .. |docker_rnablueprint| image:: https://quay.io/repository/biocontainers/rnablueprint/status
    :target: https://quay.io/repository/biocontainers/rnablueprint
+.. _`rnablueprint/tags`: https://quay.io/repository/biocontainers/rnablueprint?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rnablueprint/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-wavetiling'
 .. highlight: bash
-
 
 bioconductor-wavetiling
 =======================
@@ -22,11 +23,33 @@ bioconductor-wavetiling
 
    |downloads_bioconductor-wavetiling| |docker_bioconductor-wavetiling|
 
-   :versions: 1.24.0, 1.22.0, 1.20.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-genomegraphs` >=1.42.0,<1.43.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-waveslim`  
-
-   :required~by: |required_by_bioconductor-wavetiling|
+   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-genomegraphs: >=1.42.0,<1.43.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-oligo: >=1.46.0,<1.47.0
+   
+   :depends bioconductor-oligoclasses: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-waveslim: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +63,16 @@ bioconductor-wavetiling
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-wavetiling
+      docker pull quay.io/repository/biocontainers/bioconductor-wavetiling:<tag>
+
+   (see `bioconductor-wavetiling/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-wavetiling| conda:required_by:: bioconductor-wavetiling
 .. |downloads_bioconductor-wavetiling| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-wavetiling.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-wavetiling| image:: https://quay.io/repository/biocontainers/bioconductor-wavetiling/status
    :target: https://quay.io/repository/biocontainers/bioconductor-wavetiling
+.. _`bioconductor-wavetiling/tags`: https://quay.io/repository/biocontainers/bioconductor-wavetiling?tab=tags
 
 
 
@@ -64,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-wavetiling/README.html
-

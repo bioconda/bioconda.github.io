@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-parse-recdescent'
 .. highlight: bash
-
 
 perl-parse-recdescent
 =====================
@@ -21,11 +22,11 @@ perl-parse-recdescent
 
    |downloads_perl-parse-recdescent| |docker_perl-parse-recdescent|
 
-   :versions: 1.967015, 1.967013
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-parse-recdescent|
+   :versions: 1.967015-0, 1.967013-1, 1.967013-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-parse-recdescent
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-parse-recdescent
+      docker pull quay.io/repository/biocontainers/perl-parse-recdescent:<tag>
+
+   (see `perl-parse-recdescent/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-parse-recdescent| conda:required_by:: perl-parse-recdescent
 .. |downloads_perl-parse-recdescent| image:: https://img.shields.io/conda/dn/bioconda/perl-parse-recdescent.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-parse-recdescent| image:: https://quay.io/repository/biocontainers/perl-parse-recdescent/status
    :target: https://quay.io/repository/biocontainers/perl-parse-recdescent
+.. _`perl-parse-recdescent/tags`: https://quay.io/repository/biocontainers/perl-parse-recdescent?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-parse-recdescent/README.html
-

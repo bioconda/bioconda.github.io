@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-hopach'
 .. highlight: bash
-
 
 bioconductor-hopach
 ===================
@@ -22,11 +23,19 @@ bioconductor-hopach
 
    |downloads_bioconductor-hopach| |docker_bioconductor-hopach|
 
-   :versions: 2.42.0, 2.40.0, 2.38.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  
-
-   :required~by: |required_by_bioconductor-hopach|
+   :versions: 2.42.0-0, 2.40.0-0, 2.38.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-hopach
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hopach
+      docker pull quay.io/repository/biocontainers/bioconductor-hopach:<tag>
+
+   (see `bioconductor-hopach/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-hopach| conda:required_by:: bioconductor-hopach
 .. |downloads_bioconductor-hopach| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hopach.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-hopach| image:: https://quay.io/repository/biocontainers/bioconductor-hopach/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hopach
+.. _`bioconductor-hopach/tags`: https://quay.io/repository/biocontainers/bioconductor-hopach?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-hopach/README.html
-

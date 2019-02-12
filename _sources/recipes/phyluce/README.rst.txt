@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'phyluce'
 .. highlight: bash
-
 
 phyluce
 =======
@@ -22,11 +23,63 @@ phyluce
 
    |downloads_phyluce| |docker_phyluce|
 
-   :versions: 1.6.7, 1.6.6, 1.6.5, 1.6.4, 1.6.3, 1.6.2
-
-   :depends: :conda:package:`abyss` 1.5.* :conda:package:`bcftools`  :conda:package:`bedtools`  :conda:package:`biopython`  :conda:package:`bowtie`  :conda:package:`bwa`  :conda:package:`bx-python`  :conda:package:`dendropy` 3.* :conda:package:`gatk` 3.8.* :conda:package:`gblocks`  :conda:package:`illumiprocessor`  :conda:package:`itero`  :conda:package:`lastz`  :conda:package:`mafft`  :conda:package:`muscle`  :conda:package:`pandas`  :conda:package:`picard`  :conda:package:`pysam`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`pyvcf`  :conda:package:`raxml`  :conda:package:`samtools`  :conda:package:`seqtk`  :conda:package:`spades` 3.12.* :conda:package:`trimal`  :conda:package:`trinity` 2.1.* :conda:package:`velvet` 1.2.* 
-
-   :required~by: |required_by_phyluce|
+   :versions: 1.6.7-0, 1.6.6-0, 1.6.5-0, 1.6.4-0, 1.6.3-2, 1.6.3-1, 1.6.3-0, 1.6.2-0
+   
+   :depends abyss: 1.5.*
+   
+   :depends bcftools: 
+   
+   :depends bedtools: 
+   
+   :depends biopython: 
+   
+   :depends bowtie: 
+   
+   :depends bwa: 
+   
+   :depends bx-python: 
+   
+   :depends dendropy: 3.*
+   
+   :depends gatk: 3.8.*
+   
+   :depends gblocks: 
+   
+   :depends illumiprocessor: 
+   
+   :depends itero: 
+   
+   :depends lastz: 
+   
+   :depends mafft: 
+   
+   :depends muscle: 
+   
+   :depends pandas: 
+   
+   :depends picard: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends pyvcf: 
+   
+   :depends raxml: 
+   
+   :depends samtools: 
+   
+   :depends seqtk: 
+   
+   :depends spades: 3.12.*
+   
+   :depends trimal: 
+   
+   :depends trinity: 2.1.*
+   
+   :depends velvet: 1.2.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +93,16 @@ phyluce
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phyluce
+      docker pull quay.io/repository/biocontainers/phyluce:<tag>
+
+   (see `phyluce/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_phyluce| conda:required_by:: phyluce
 .. |downloads_phyluce| image:: https://img.shields.io/conda/dn/bioconda/phyluce.svg?style=flat
    :alt:   (downloads)
 .. |docker_phyluce| image:: https://quay.io/repository/biocontainers/phyluce/status
    :target: https://quay.io/repository/biocontainers/phyluce
+.. _`phyluce/tags`: https://quay.io/repository/biocontainers/phyluce?tab=tags
 
 
 
@@ -64,4 +119,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/phyluce/README.html
-

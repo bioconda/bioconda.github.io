@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-rematch2'
 .. highlight: bash
-
 
 r-rematch2
 ==========
@@ -21,11 +22,13 @@ r-rematch2
 
    |downloads_r-rematch2| |docker_r-rematch2|
 
-   :versions: 2.0.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-tibble`  
-
-   :required~by: |required_by_r-rematch2|
+   :versions: 2.0.1-0
+   
+   :depends r-base: 3.3.2*
+   
+   :depends r-tibble: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ r-rematch2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rematch2
+      docker pull quay.io/repository/biocontainers/r-rematch2:<tag>
+
+   (see `r-rematch2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-rematch2| conda:required_by:: r-rematch2
 .. |downloads_r-rematch2| image:: https://img.shields.io/conda/dn/bioconda/r-rematch2.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-rematch2| image:: https://quay.io/repository/biocontainers/r-rematch2/status
    :target: https://quay.io/repository/biocontainers/r-rematch2
+.. _`r-rematch2/tags`: https://quay.io/repository/biocontainers/r-rematch2?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-rematch2/README.html
-

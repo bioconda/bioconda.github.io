@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-statistics-r'
 .. highlight: bash
-
 
 perl-statistics-r
 =================
@@ -21,11 +22,21 @@ perl-statistics-r
 
    |downloads_perl-statistics-r| |docker_perl-statistics-r|
 
-   :versions: 0.34
-
-   :depends: :conda:package:`gcc`  :conda:package:`libgcc`  :conda:package:`perl-ipc-run`  :conda:package:`perl-regexp-common`  :conda:package:`perl-text-balanced` >=1.97 :conda:package:`perl-text-wrap` >=0.77 :conda:package:`perl-threaded`  :conda:package:`r-essentials`  
-
-   :required~by: |required_by_perl-statistics-r|
+   :versions: 0.34-3, 0.34-2, 0.34-1, 0.34-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-ipc-run: 
+   
+   :depends perl-regexp-common: 
+   
+   :depends perl-text-balanced: >=1.97
+   
+   :depends perl-text-wrap: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-statistics-r
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-statistics-r
+      docker pull quay.io/repository/biocontainers/perl-statistics-r:<tag>
+
+   (see `perl-statistics-r/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-statistics-r| conda:required_by:: perl-statistics-r
 .. |downloads_perl-statistics-r| image:: https://img.shields.io/conda/dn/bioconda/perl-statistics-r.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-statistics-r| image:: https://quay.io/repository/biocontainers/perl-statistics-r/status
    :target: https://quay.io/repository/biocontainers/perl-statistics-r
+.. _`perl-statistics-r/tags`: https://quay.io/repository/biocontainers/perl-statistics-r?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-statistics-r/README.html
-

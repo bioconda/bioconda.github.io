@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'realphy'
 .. highlight: bash
-
 
 realphy
 =======
@@ -21,11 +22,11 @@ realphy
 
    |downloads_realphy| |docker_realphy|
 
-   :versions: 1.12
-
-   :depends: :conda:package:`openjdk` >8.0.121 
-
-   :required~by: |required_by_realphy|
+   :versions: 1.12-1, 1.12-0
+   
+   :depends openjdk: >8.0.121
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ realphy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/realphy
+      docker pull quay.io/repository/biocontainers/realphy:<tag>
+
+   (see `realphy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_realphy| conda:required_by:: realphy
 .. |downloads_realphy| image:: https://img.shields.io/conda/dn/bioconda/realphy.svg?style=flat
    :alt:   (downloads)
 .. |docker_realphy| image:: https://quay.io/repository/biocontainers/realphy/status
    :target: https://quay.io/repository/biocontainers/realphy
+.. _`realphy/tags`: https://quay.io/repository/biocontainers/realphy?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/realphy/README.html
-

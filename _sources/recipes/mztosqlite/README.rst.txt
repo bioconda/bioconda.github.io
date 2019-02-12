@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mztosqlite'
 .. highlight: bash
-
 
 mztosqlite
 ==========
@@ -21,11 +22,13 @@ mztosqlite
 
    |downloads_mztosqlite| |docker_mztosqlite|
 
-   :versions: 2.0.2, 2.0.0, 1.2.0
-
-   :depends: :conda:package:`openjdk` >=8 :conda:package:`python`  
-
-   :required~by: |required_by_mztosqlite|
+   :versions: 2.0.2-0, 2.0.0-1, 2.0.0-0, 1.2.0-1, 1.2.0-0
+   
+   :depends openjdk: >=8
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ mztosqlite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mztosqlite
+      docker pull quay.io/repository/biocontainers/mztosqlite:<tag>
+
+   (see `mztosqlite/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mztosqlite| conda:required_by:: mztosqlite
 .. |downloads_mztosqlite| image:: https://img.shields.io/conda/dn/bioconda/mztosqlite.svg?style=flat
    :alt:   (downloads)
 .. |docker_mztosqlite| image:: https://quay.io/repository/biocontainers/mztosqlite/status
    :target: https://quay.io/repository/biocontainers/mztosqlite
+.. _`mztosqlite/tags`: https://quay.io/repository/biocontainers/mztosqlite?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mztosqlite/README.html
-

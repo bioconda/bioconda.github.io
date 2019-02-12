@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-stategra'
 .. highlight: bash
-
 
 bioconductor-stategra
 =====================
@@ -22,11 +23,31 @@ bioconductor-stategra
 
    |downloads_bioconductor-stategra| |docker_bioconductor-stategra|
 
-   :versions: 1.18.0, 1.16.1, 1.12.0, 1.10.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-calibrate`  :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-gridextra`  :conda:package:`r-mass`  
-
-   :required~by: |required_by_bioconductor-stategra|
+   :versions: 1.18.0-0, 1.16.1-0, 1.12.0-0, 1.10.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-calibrate: 
+   
+   :depends r-foreach: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-mass: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +61,16 @@ bioconductor-stategra
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-stategra
+      docker pull quay.io/repository/biocontainers/bioconductor-stategra:<tag>
+
+   (see `bioconductor-stategra/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-stategra| conda:required_by:: bioconductor-stategra
 .. |downloads_bioconductor-stategra| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-stategra.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-stategra| image:: https://quay.io/repository/biocontainers/bioconductor-stategra/status
    :target: https://quay.io/repository/biocontainers/bioconductor-stategra
+.. _`bioconductor-stategra/tags`: https://quay.io/repository/biocontainers/bioconductor-stategra?tab=tags
 
 
 
@@ -64,4 +87,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-stategra/README.html
-

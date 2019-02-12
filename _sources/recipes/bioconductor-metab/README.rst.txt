@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-metab'
 .. highlight: bash
-
 
 bioconductor-metab
 ==================
@@ -22,11 +23,17 @@ bioconductor-metab
 
    |downloads_bioconductor-metab| |docker_bioconductor-metab|
 
-   :versions: 1.16.1, 1.12.0
-
-   :depends: :conda:package:`bioconductor-xcms` >=3.4.0,<3.5.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-pander`  :conda:package:`r-svdialogs`  
-
-   :required~by: |required_by_bioconductor-metab|
+   :versions: 1.16.1-0, 1.12.0-0
+   
+   :depends bioconductor-xcms: >=3.4.0,<3.5.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-pander: 
+   
+   :depends r-svdialogs: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-metab
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metab
+      docker pull quay.io/repository/biocontainers/bioconductor-metab:<tag>
+
+   (see `bioconductor-metab/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-metab| conda:required_by:: bioconductor-metab
 .. |downloads_bioconductor-metab| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metab.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-metab| image:: https://quay.io/repository/biocontainers/bioconductor-metab/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metab
+.. _`bioconductor-metab/tags`: https://quay.io/repository/biocontainers/bioconductor-metab?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-metab/README.html
-

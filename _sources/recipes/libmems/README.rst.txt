@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'libmems'
 .. highlight: bash
-
 
 libmems
 =======
@@ -21,11 +22,11 @@ libmems
 
    |downloads_libmems| |docker_libmems|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_libmems|
+   :versions: 1.6.0-1, 1.6.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ libmems
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libmems
+      docker pull quay.io/repository/biocontainers/libmems:<tag>
+
+   (see `libmems/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_libmems| conda:required_by:: libmems
 .. |downloads_libmems| image:: https://img.shields.io/conda/dn/bioconda/libmems.svg?style=flat
    :alt:   (downloads)
 .. |docker_libmems| image:: https://quay.io/repository/biocontainers/libmems/status
    :target: https://quay.io/repository/biocontainers/libmems
+.. _`libmems/tags`: https://quay.io/repository/biocontainers/libmems?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/libmems/README.html
-

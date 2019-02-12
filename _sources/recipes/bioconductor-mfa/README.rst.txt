@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mfa'
 .. highlight: bash
-
 
 bioconductor-mfa
 ================
@@ -21,11 +22,35 @@ bioconductor-mfa
 
    |downloads_bioconductor-mfa| |docker_bioconductor-mfa|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-coda`  :conda:package:`r-dplyr`  :conda:package:`r-ggmcmc`  :conda:package:`r-ggplot2`  :conda:package:`r-magrittr`  :conda:package:`r-mcmcglmm`  :conda:package:`r-mcmcpack`  :conda:package:`r-rcpp`  :conda:package:`r-tibble`  
-
-   :required~by: |required_by_bioconductor-mfa|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-coda: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggmcmc: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-mcmcglmm: 
+   
+   :depends r-mcmcpack: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-tibble: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ bioconductor-mfa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mfa
+      docker pull quay.io/repository/biocontainers/bioconductor-mfa:<tag>
+
+   (see `bioconductor-mfa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mfa| conda:required_by:: bioconductor-mfa
 .. |downloads_bioconductor-mfa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mfa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mfa| image:: https://quay.io/repository/biocontainers/bioconductor-mfa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mfa
+.. _`bioconductor-mfa/tags`: https://quay.io/repository/biocontainers/bioconductor-mfa?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mfa/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hmmer2'
 .. highlight: bash
-
 
 hmmer2
 ======
@@ -21,11 +22,11 @@ hmmer2
 
    |downloads_hmmer2| |docker_hmmer2|
 
-   :versions: 2.3.2
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_hmmer2|
+   :versions: 2.3.2-3, 2.3.2-2, 2.3.2-1
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ hmmer2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hmmer2
+      docker pull quay.io/repository/biocontainers/hmmer2:<tag>
+
+   (see `hmmer2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hmmer2| conda:required_by:: hmmer2
 .. |downloads_hmmer2| image:: https://img.shields.io/conda/dn/bioconda/hmmer2.svg?style=flat
    :alt:   (downloads)
 .. |docker_hmmer2| image:: https://quay.io/repository/biocontainers/hmmer2/status
    :target: https://quay.io/repository/biocontainers/hmmer2
+.. _`hmmer2/tags`: https://quay.io/repository/biocontainers/hmmer2?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hmmer2/README.html
-

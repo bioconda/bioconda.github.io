@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-annotationfuncs'
 .. highlight: bash
-
 
 bioconductor-annotationfuncs
 ============================
@@ -22,11 +23,15 @@ bioconductor-annotationfuncs
 
    |downloads_bioconductor-annotationfuncs| |docker_bioconductor-annotationfuncs|
 
-   :versions: 1.32.0, 1.30.0, 1.28.0, 1.26.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  
-
-   :required~by: |required_by_bioconductor-annotationfuncs|
+   :versions: 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dbi: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-annotationfuncs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-annotationfuncs
+      docker pull quay.io/repository/biocontainers/bioconductor-annotationfuncs:<tag>
+
+   (see `bioconductor-annotationfuncs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-annotationfuncs| conda:required_by:: bioconductor-annotationfuncs
 .. |downloads_bioconductor-annotationfuncs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-annotationfuncs.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-annotationfuncs| image:: https://quay.io/repository/biocontainers/bioconductor-annotationfuncs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-annotationfuncs
+.. _`bioconductor-annotationfuncs/tags`: https://quay.io/repository/biocontainers/bioconductor-annotationfuncs?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-annotationfuncs/README.html
-

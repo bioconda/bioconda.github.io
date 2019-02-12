@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-methylgsa'
 .. highlight: bash
-
 
 bioconductor-methylgsa
 ======================
@@ -21,11 +22,33 @@ bioconductor-methylgsa
 
    |downloads_bioconductor-methylgsa| |docker_bioconductor-methylgsa|
 
-   :versions: 1.0.2
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-clusterprofiler` >=3.10.0,<3.11.0 :conda:package:`bioconductor-go.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19` >=0.6.0,<0.7.0 :conda:package:`bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19` >=0.6.0,<0.7.0 :conda:package:`bioconductor-missmethyl` >=1.16.0,<1.17.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-reactome.db` >=1.66.0,<1.67.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-robustrankaggreg`  :conda:package:`r-stringr`  
-
-   :required~by: |required_by_bioconductor-methylgsa|
+   :versions: 1.0.2-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-clusterprofiler: >=3.10.0,<3.11.0
+   
+   :depends bioconductor-go.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
+   
+   :depends bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19: >=0.6.0,<0.7.0
+   
+   :depends bioconductor-missmethyl: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-reactome.db: >=1.66.0,<1.67.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-robustrankaggreg: 
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ bioconductor-methylgsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methylgsa
+      docker pull quay.io/repository/biocontainers/bioconductor-methylgsa:<tag>
+
+   (see `bioconductor-methylgsa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-methylgsa| conda:required_by:: bioconductor-methylgsa
 .. |downloads_bioconductor-methylgsa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methylgsa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-methylgsa| image:: https://quay.io/repository/biocontainers/bioconductor-methylgsa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methylgsa
+.. _`bioconductor-methylgsa/tags`: https://quay.io/repository/biocontainers/bioconductor-methylgsa?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-methylgsa/README.html
-

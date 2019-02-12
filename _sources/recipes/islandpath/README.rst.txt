@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'islandpath'
 .. highlight: bash
-
 
 islandpath
 ==========
@@ -23,11 +24,25 @@ islandpath
 
    |downloads_islandpath| |docker_islandpath|
 
-   :versions: 1.0.4, 1.0.3
-
-   :depends: :conda:package:`hmmer`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bioperl` >=1.7.2 :conda:package:`perl-config-simple`  :conda:package:`perl-data-dumper`  :conda:package:`perl-log-log4perl`  :conda:package:`perl-moose`  :conda:package:`perl-moosex-singleton`  
-
-   :required~by: |required_by_islandpath|
+   :versions: 1.0.4-0, 1.0.3-0
+   
+   :depends hmmer: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bioperl: >=1.7.2
+   
+   :depends perl-config-simple: 
+   
+   :depends perl-data-dumper: 
+   
+   :depends perl-log-log4perl: 
+   
+   :depends perl-moose: 
+   
+   :depends perl-moosex-singleton: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +56,16 @@ islandpath
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/islandpath
+      docker pull quay.io/repository/biocontainers/islandpath:<tag>
+
+   (see `islandpath/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_islandpath| conda:required_by:: islandpath
 .. |downloads_islandpath| image:: https://img.shields.io/conda/dn/bioconda/islandpath.svg?style=flat
    :alt:   (downloads)
 .. |docker_islandpath| image:: https://quay.io/repository/biocontainers/islandpath/status
    :target: https://quay.io/repository/biocontainers/islandpath
+.. _`islandpath/tags`: https://quay.io/repository/biocontainers/islandpath?tab=tags
 
 
 
@@ -65,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/islandpath/README.html
-

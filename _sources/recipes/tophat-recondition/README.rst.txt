@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tophat-recondition'
 .. highlight: bash
-
 
 tophat-recondition
 ==================
@@ -21,11 +22,13 @@ tophat-recondition
 
    |downloads_tophat-recondition| |docker_tophat-recondition|
 
-   :versions: 1.4, 1.3, 1.2, 1.1
-
-   :depends: :conda:package:`pysam`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_tophat-recondition|
+   :versions: 1.4-1, 1.4-0, 1.3-0, 1.2-0, 1.1-0
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ tophat-recondition
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tophat-recondition
+      docker pull quay.io/repository/biocontainers/tophat-recondition:<tag>
+
+   (see `tophat-recondition/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tophat-recondition| conda:required_by:: tophat-recondition
 .. |downloads_tophat-recondition| image:: https://img.shields.io/conda/dn/bioconda/tophat-recondition.svg?style=flat
    :alt:   (downloads)
 .. |docker_tophat-recondition| image:: https://quay.io/repository/biocontainers/tophat-recondition/status
    :target: https://quay.io/repository/biocontainers/tophat-recondition
+.. _`tophat-recondition/tags`: https://quay.io/repository/biocontainers/tophat-recondition?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tophat-recondition/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'soapaligner'
 .. highlight: bash
-
 
 soapaligner
 ===========
@@ -21,11 +22,13 @@ soapaligner
 
    |downloads_soapaligner| |docker_soapaligner|
 
-   :versions: 2.21
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_soapaligner|
+   :versions: 2.21-0
+   
+   :depends libgcc: 
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ soapaligner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/soapaligner
+      docker pull quay.io/repository/biocontainers/soapaligner:<tag>
+
+   (see `soapaligner/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_soapaligner| conda:required_by:: soapaligner
 .. |downloads_soapaligner| image:: https://img.shields.io/conda/dn/bioconda/soapaligner.svg?style=flat
    :alt:   (downloads)
 .. |docker_soapaligner| image:: https://quay.io/repository/biocontainers/soapaligner/status
    :target: https://quay.io/repository/biocontainers/soapaligner
+.. _`soapaligner/tags`: https://quay.io/repository/biocontainers/soapaligner?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/soapaligner/README.html
-

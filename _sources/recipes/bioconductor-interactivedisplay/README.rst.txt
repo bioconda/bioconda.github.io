@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-interactivedisplay'
 .. highlight: bash
-
 
 bioconductor-interactivedisplay
 ===============================
@@ -22,11 +23,33 @@ bioconductor-interactivedisplay
 
    |downloads_bioconductor-interactivedisplay| |docker_bioconductor-interactivedisplay|
 
-   :versions: 1.18.0, 1.16.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.42.1,<1.44.0 :conda:package:`bioconductor-biocgenerics` >=0.26.0,<0.28.0 :conda:package:`bioconductor-category` >=2.46.0,<2.48.0 :conda:package:`bioconductor-interactivedisplaybase` >=1.18.0,<1.20.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gridsvg`  :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-shiny`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-interactivedisplay|
+   :versions: 1.18.0-0, 1.16.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.42.1,<1.44.0
+   
+   :depends bioconductor-biocgenerics: >=0.26.0,<0.28.0
+   
+   :depends bioconductor-category: >=2.46.0,<2.48.0
+   
+   :depends bioconductor-interactivedisplaybase: >=1.18.0,<1.20.0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridsvg: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-shiny: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +63,16 @@ bioconductor-interactivedisplay
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-interactivedisplay
+      docker pull quay.io/repository/biocontainers/bioconductor-interactivedisplay:<tag>
+
+   (see `bioconductor-interactivedisplay/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-interactivedisplay| conda:required_by:: bioconductor-interactivedisplay
 .. |downloads_bioconductor-interactivedisplay| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-interactivedisplay.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-interactivedisplay| image:: https://quay.io/repository/biocontainers/bioconductor-interactivedisplay/status
    :target: https://quay.io/repository/biocontainers/bioconductor-interactivedisplay
+.. _`bioconductor-interactivedisplay/tags`: https://quay.io/repository/biocontainers/bioconductor-interactivedisplay?tab=tags
 
 
 
@@ -64,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-interactivedisplay/README.html
-

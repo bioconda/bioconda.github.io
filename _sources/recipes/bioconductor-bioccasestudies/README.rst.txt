@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bioccasestudies'
 .. highlight: bash
-
 
 bioconductor-bioccasestudies
 ============================
@@ -21,11 +22,13 @@ bioconductor-bioccasestudies
 
    |downloads_bioconductor-bioccasestudies| |docker_bioconductor-bioccasestudies|
 
-   :versions: 1.44.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-bioccasestudies|
+   :versions: 1.44.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-bioccasestudies
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bioccasestudies
+      docker pull quay.io/repository/biocontainers/bioconductor-bioccasestudies:<tag>
+
+   (see `bioconductor-bioccasestudies/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bioccasestudies| conda:required_by:: bioconductor-bioccasestudies
 .. |downloads_bioconductor-bioccasestudies| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bioccasestudies.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bioccasestudies| image:: https://quay.io/repository/biocontainers/bioconductor-bioccasestudies/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bioccasestudies
+.. _`bioconductor-bioccasestudies/tags`: https://quay.io/repository/biocontainers/bioconductor-bioccasestudies?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bioccasestudies/README.html
-

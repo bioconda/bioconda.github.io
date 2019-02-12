@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rnainteract'
 .. highlight: bash
-
 
 bioconductor-rnainteract
 ========================
@@ -22,11 +23,39 @@ bioconductor-rnainteract
 
    |downloads_bioconductor-rnainteract| |docker_bioconductor-rnainteract|
 
-   :versions: 1.30.0, 1.28.0, 1.26.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-cellhts2` >=2.46.0,<2.47.0 :conda:package:`bioconductor-geneplotter` >=1.60.0,<1.61.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-splots` >=1.48.0,<1.49.0 :conda:package:`r-abind`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-hwriter`  :conda:package:`r-ics`  :conda:package:`r-icsnp`  :conda:package:`r-lattice`  :conda:package:`r-latticeextra`  :conda:package:`r-locfit`  :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_bioconductor-rnainteract|
+   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-cellhts2: >=2.46.0,<2.47.0
+   
+   :depends bioconductor-geneplotter: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-splots: >=1.48.0,<1.49.0
+   
+   :depends r-abind: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gplots: 
+   
+   :depends r-hwriter: 
+   
+   :depends r-ics: 
+   
+   :depends r-icsnp: 
+   
+   :depends r-lattice: 
+   
+   :depends r-latticeextra: 
+   
+   :depends r-locfit: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +69,16 @@ bioconductor-rnainteract
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnainteract
+      docker pull quay.io/repository/biocontainers/bioconductor-rnainteract:<tag>
+
+   (see `bioconductor-rnainteract/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rnainteract| conda:required_by:: bioconductor-rnainteract
 .. |downloads_bioconductor-rnainteract| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnainteract.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rnainteract| image:: https://quay.io/repository/biocontainers/bioconductor-rnainteract/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rnainteract
+.. _`bioconductor-rnainteract/tags`: https://quay.io/repository/biocontainers/bioconductor-rnainteract?tab=tags
 
 
 
@@ -64,4 +95,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rnainteract/README.html
-

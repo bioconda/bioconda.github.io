@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pysnptools'
 .. highlight: bash
-
 
 pysnptools
 ==========
@@ -21,11 +22,17 @@ pysnptools
 
    |downloads_pysnptools| |docker_pysnptools|
 
-   :versions: 0.3.13, 0.3.9
-
-   :depends: :conda:package:`numpy` >=1.9.2 :conda:package:`pandas` >=0.16.2 :conda:package:`python` 2.7* :conda:package:`scipy` >=0.15.1 
-
-   :required~by: |required_by_pysnptools|
+   :versions: 0.3.13-2, 0.3.13-0, 0.3.9-0
+   
+   :depends numpy: >=1.9.2
+   
+   :depends pandas: >=0.16.2
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: >=0.15.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ pysnptools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pysnptools
+      docker pull quay.io/repository/biocontainers/pysnptools:<tag>
+
+   (see `pysnptools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pysnptools| conda:required_by:: pysnptools
 .. |downloads_pysnptools| image:: https://img.shields.io/conda/dn/bioconda/pysnptools.svg?style=flat
    :alt:   (downloads)
 .. |docker_pysnptools| image:: https://quay.io/repository/biocontainers/pysnptools/status
    :target: https://quay.io/repository/biocontainers/pysnptools
+.. _`pysnptools/tags`: https://quay.io/repository/biocontainers/pysnptools?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pysnptools/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'export2graphlan'
 .. highlight: bash
-
 
 export2graphlan
 ===============
@@ -21,11 +22,23 @@ export2graphlan
 
    |downloads_export2graphlan| |docker_export2graphlan|
 
-   :versions: 0.20, 0.19
-
-   :depends: :conda:package:`hclust2`  :conda:package:`libgcc`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`scipy`  
-
-   :required~by: |required_by_export2graphlan|
+   :versions: 0.20-0, 0.19-2, 0.19-1, 0.19-0
+   
+   :depends hclust2: 
+   
+   :depends libgcc: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: 2.7*
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ export2graphlan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/export2graphlan
+      docker pull quay.io/repository/biocontainers/export2graphlan:<tag>
+
+   (see `export2graphlan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_export2graphlan| conda:required_by:: export2graphlan
 .. |downloads_export2graphlan| image:: https://img.shields.io/conda/dn/bioconda/export2graphlan.svg?style=flat
    :alt:   (downloads)
 .. |docker_export2graphlan| image:: https://quay.io/repository/biocontainers/export2graphlan/status
    :target: https://quay.io/repository/biocontainers/export2graphlan
+.. _`export2graphlan/tags`: https://quay.io/repository/biocontainers/export2graphlan?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/export2graphlan/README.html
-

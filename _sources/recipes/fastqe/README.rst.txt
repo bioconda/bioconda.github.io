@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastqe'
 .. highlight: bash
-
 
 fastqe
 ======
@@ -24,11 +25,15 @@ fastqe
 
    |downloads_fastqe| |docker_fastqe|
 
-   :versions: 0.1.1
-
-   :depends: :conda:package:`biopython` >=1.66 :conda:package:`pyemojify`  :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_fastqe|
+   :versions: 0.1.1-0
+   
+   :depends biopython: >=1.66
+   
+   :depends pyemojify: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +47,16 @@ fastqe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastqe
+      docker pull quay.io/repository/biocontainers/fastqe:<tag>
+
+   (see `fastqe/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastqe| conda:required_by:: fastqe
 .. |downloads_fastqe| image:: https://img.shields.io/conda/dn/bioconda/fastqe.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastqe| image:: https://quay.io/repository/biocontainers/fastqe/status
    :target: https://quay.io/repository/biocontainers/fastqe
+.. _`fastqe/tags`: https://quay.io/repository/biocontainers/fastqe?tab=tags
 
 
 
@@ -66,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastqe/README.html
-

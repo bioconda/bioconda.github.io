@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-math-combinatorics'
 .. highlight: bash
-
 
 perl-math-combinatorics
 =======================
@@ -21,11 +22,11 @@ perl-math-combinatorics
 
    |downloads_perl-math-combinatorics| |docker_perl-math-combinatorics|
 
-   :versions: 0.09
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-math-combinatorics|
+   :versions: 0.09-1, 0.09-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-math-combinatorics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-combinatorics
+      docker pull quay.io/repository/biocontainers/perl-math-combinatorics:<tag>
+
+   (see `perl-math-combinatorics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-math-combinatorics| conda:required_by:: perl-math-combinatorics
 .. |downloads_perl-math-combinatorics| image:: https://img.shields.io/conda/dn/bioconda/perl-math-combinatorics.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-math-combinatorics| image:: https://quay.io/repository/biocontainers/perl-math-combinatorics/status
    :target: https://quay.io/repository/biocontainers/perl-math-combinatorics
+.. _`perl-math-combinatorics/tags`: https://quay.io/repository/biocontainers/perl-math-combinatorics?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-math-combinatorics/README.html
-

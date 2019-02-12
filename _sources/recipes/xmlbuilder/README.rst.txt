@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'xmlbuilder'
 .. highlight: bash
-
 
 xmlbuilder
 ==========
@@ -21,11 +22,11 @@ xmlbuilder
 
    |downloads_xmlbuilder| |docker_xmlbuilder|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_xmlbuilder|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ xmlbuilder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xmlbuilder
+      docker pull quay.io/repository/biocontainers/xmlbuilder:<tag>
+
+   (see `xmlbuilder/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_xmlbuilder| conda:required_by:: xmlbuilder
 .. |downloads_xmlbuilder| image:: https://img.shields.io/conda/dn/bioconda/xmlbuilder.svg?style=flat
    :alt:   (downloads)
 .. |docker_xmlbuilder| image:: https://quay.io/repository/biocontainers/xmlbuilder/status
    :target: https://quay.io/repository/biocontainers/xmlbuilder
+.. _`xmlbuilder/tags`: https://quay.io/repository/biocontainers/xmlbuilder?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/xmlbuilder/README.html
-

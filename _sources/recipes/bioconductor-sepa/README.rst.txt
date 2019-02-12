@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sepa'
 .. highlight: bash
-
 
 bioconductor-sepa
 =================
@@ -22,11 +23,25 @@ bioconductor-sepa
 
    |downloads_bioconductor-sepa| |docker_bioconductor-sepa|
 
-   :versions: 1.12.0, 1.10.0, 1.8.0, 1.6.0
-
-   :depends: :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-org.mm.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-topgo` >=2.34.0,<2.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-reshape2`  :conda:package:`r-segmented`  :conda:package:`r-shiny`  
-
-   :required~by: |required_by_bioconductor-sepa|
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   
+   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-org.mm.eg.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-topgo: >=2.34.0,<2.35.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-segmented: 
+   
+   :depends r-shiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ bioconductor-sepa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sepa
+      docker pull quay.io/repository/biocontainers/bioconductor-sepa:<tag>
+
+   (see `bioconductor-sepa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sepa| conda:required_by:: bioconductor-sepa
 .. |downloads_bioconductor-sepa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sepa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sepa| image:: https://quay.io/repository/biocontainers/bioconductor-sepa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sepa
+.. _`bioconductor-sepa/tags`: https://quay.io/repository/biocontainers/bioconductor-sepa?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sepa/README.html
-

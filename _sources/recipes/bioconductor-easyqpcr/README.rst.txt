@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-easyqpcr'
 .. highlight: bash
-
 
 bioconductor-easyqpcr
 =====================
@@ -22,10 +23,8 @@ bioconductor-easyqpcr
    |downloads_bioconductor-easyqpcr| |docker_bioconductor-easyqpcr|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-easyqpcr|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-easyqpcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-easyqpcr
+      docker pull quay.io/repository/biocontainers/bioconductor-easyqpcr:<tag>
+
+   (see `bioconductor-easyqpcr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-easyqpcr| conda:required_by:: bioconductor-easyqpcr
 .. |downloads_bioconductor-easyqpcr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-easyqpcr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-easyqpcr| image:: https://quay.io/repository/biocontainers/bioconductor-easyqpcr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-easyqpcr
+.. _`bioconductor-easyqpcr/tags`: https://quay.io/repository/biocontainers/bioconductor-easyqpcr?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-easyqpcr/README.html
-

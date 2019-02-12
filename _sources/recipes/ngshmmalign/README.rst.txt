@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ngshmmalign'
 .. highlight: bash
-
 
 ngshmmalign
 ===========
@@ -21,11 +22,13 @@ ngshmmalign
 
    |downloads_ngshmmalign| |docker_ngshmmalign|
 
-   :versions: 0.1.1
-
-   :depends: :conda:package:`boost` ==1.63.0 :conda:package:`libgcc`  
-
-   :required~by: |required_by_ngshmmalign|
+   :versions: 0.1.1-1, 0.1.1-0
+   
+   :depends boost: >=1.66.0,<1.66.1.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ ngshmmalign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ngshmmalign
+      docker pull quay.io/repository/biocontainers/ngshmmalign:<tag>
+
+   (see `ngshmmalign/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ngshmmalign| conda:required_by:: ngshmmalign
 .. |downloads_ngshmmalign| image:: https://img.shields.io/conda/dn/bioconda/ngshmmalign.svg?style=flat
    :alt:   (downloads)
 .. |docker_ngshmmalign| image:: https://quay.io/repository/biocontainers/ngshmmalign/status
    :target: https://quay.io/repository/biocontainers/ngshmmalign
+.. _`ngshmmalign/tags`: https://quay.io/repository/biocontainers/ngshmmalign?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ngshmmalign/README.html
-

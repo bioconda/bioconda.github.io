@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'relocate2'
 .. highlight: bash
-
 
 relocate2
 =========
@@ -21,11 +22,27 @@ relocate2
 
    |downloads_relocate2| |docker_relocate2|
 
-   :versions: 2.0.1, 2.0.0
-
-   :depends: :conda:package:`bedtools` ==2.26.0-0 :conda:package:`blat` ==35 :conda:package:`bowtie2` ==2.2.8 :conda:package:`bwa` ==0.6.2-0 :conda:package:`perl` >=5.10.0 :conda:package:`pysam` ==0.9.0 :conda:package:`python` ==2.7.5 :conda:package:`samtools` ==1.3-0 :conda:package:`seqtk` ==1.2-0 
-
-   :required~by: |required_by_relocate2|
+   :versions: 2.0.1-2, 2.0.1-0, 2.0.0-1
+   
+   :depends bedtools: ==2.26.0-0
+   
+   :depends blat: ==35
+   
+   :depends bowtie2: ==2.2.8
+   
+   :depends bwa: ==0.6.2-0
+   
+   :depends perl: >=5.10.0
+   
+   :depends pysam: ==0.9.0
+   
+   :depends python: ==2.7.5
+   
+   :depends samtools: ==1.3-0
+   
+   :depends seqtk: ==1.2-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ relocate2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/relocate2
+      docker pull quay.io/repository/biocontainers/relocate2:<tag>
+
+   (see `relocate2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_relocate2| conda:required_by:: relocate2
 .. |downloads_relocate2| image:: https://img.shields.io/conda/dn/bioconda/relocate2.svg?style=flat
    :alt:   (downloads)
 .. |docker_relocate2| image:: https://quay.io/repository/biocontainers/relocate2/status
    :target: https://quay.io/repository/biocontainers/relocate2
+.. _`relocate2/tags`: https://quay.io/repository/biocontainers/relocate2?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/relocate2/README.html
-

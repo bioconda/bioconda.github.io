@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-idr'
 .. highlight: bash
-
 
 r-idr
 =====
@@ -21,11 +22,11 @@ r-idr
 
    |downloads_r-idr| |docker_r-idr|
 
-   :versions: 1.2
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-idr|
+   :versions: 1.2-0
+   
+   :depends r: 3.2.2*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-idr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-idr
+      docker pull quay.io/repository/biocontainers/r-idr:<tag>
+
+   (see `r-idr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-idr| conda:required_by:: r-idr
 .. |downloads_r-idr| image:: https://img.shields.io/conda/dn/bioconda/r-idr.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-idr| image:: https://quay.io/repository/biocontainers/r-idr/status
    :target: https://quay.io/repository/biocontainers/r-idr
+.. _`r-idr/tags`: https://quay.io/repository/biocontainers/r-idr?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-idr/README.html
-

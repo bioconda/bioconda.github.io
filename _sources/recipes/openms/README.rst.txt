@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'openms'
 .. highlight: bash
-
 
 openms
 ======
@@ -22,11 +23,35 @@ openms
 
    |downloads_openms| |docker_openms|
 
-   :versions: 2.4.0, 2.3.0, 2.2.0, 2.1.0
-
-   :depends: :conda:package:`boost` >=1.64.0,<1.64.1.0a0 :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`coinmp`  :conda:package:`eigen`  :conda:package:`glpk` >=4.65,<4.66.0a0 :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`libsvm` >=323,<324.0a0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`qt` >=5.6.2,<5.7.0a0 :conda:package:`xerces-c` >=3.2.0,<3.2.1.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_openms|
+   :versions: 2.4.0-1, 2.4.0-0, 2.3.0-3, 2.3.0-2, 2.3.0-1, 2.3.0-0, 2.2.0-2, 2.2.0-1, 2.2.0-0, 2.1.0-0
+   
+   :depends boost: >=1.68.0,<1.68.1.0a0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends coinmp: 
+   
+   :depends eigen: 
+   
+   :depends glpk: >=4.65,<4.66.0a0
+   
+   :depends gsl: >=2.4,<2.5.0a0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends libsvm: >=3.21,<3.22.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends qt: >=5.6.2,<5.7.0a0
+   
+   :depends xerces-c: >=3.2.2,<3.2.3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +65,16 @@ openms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/openms
+      docker pull quay.io/repository/biocontainers/openms:<tag>
+
+   (see `openms/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_openms| conda:required_by:: openms
 .. |downloads_openms| image:: https://img.shields.io/conda/dn/bioconda/openms.svg?style=flat
    :alt:   (downloads)
 .. |docker_openms| image:: https://quay.io/repository/biocontainers/openms/status
    :target: https://quay.io/repository/biocontainers/openms
+.. _`openms/tags`: https://quay.io/repository/biocontainers/openms?tab=tags
 
 
 
@@ -64,4 +91,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/openms/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'igvtools'
 .. highlight: bash
-
 
 igvtools
 ========
@@ -22,11 +23,11 @@ igvtools
 
    |downloads_igvtools| |docker_igvtools|
 
-   :versions: 2.3.93, 2.3.75, 2.3.48, 2.3.16
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_igvtools|
+   :versions: 2.3.93-0, 2.3.75-1, 2.3.48-1, 2.3.16-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ igvtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/igvtools
+      docker pull quay.io/repository/biocontainers/igvtools:<tag>
+
+   (see `igvtools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_igvtools| conda:required_by:: igvtools
 .. |downloads_igvtools| image:: https://img.shields.io/conda/dn/bioconda/igvtools.svg?style=flat
    :alt:   (downloads)
 .. |docker_igvtools| image:: https://quay.io/repository/biocontainers/igvtools/status
    :target: https://quay.io/repository/biocontainers/igvtools
+.. _`igvtools/tags`: https://quay.io/repository/biocontainers/igvtools?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/igvtools/README.html
-

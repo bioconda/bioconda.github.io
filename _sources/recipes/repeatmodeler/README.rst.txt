@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'repeatmodeler'
 .. highlight: bash
-
 
 repeatmodeler
 =============
@@ -22,11 +23,23 @@ repeatmodeler
 
    |downloads_repeatmodeler| |docker_repeatmodeler|
 
-   :versions: 1.0.11, 1.0.8
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-text-soundex`  :conda:package:`recon`  :conda:package:`repeatmasker`  :conda:package:`repeatscout`  :conda:package:`rmblast`  :conda:package:`trf`  
-
-   :required~by: |required_by_repeatmodeler|
+   :versions: 1.0.11-1, 1.0.11-0, 1.0.8-1, 1.0.8-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-text-soundex: 
+   
+   :depends recon: 
+   
+   :depends repeatmasker: 
+   
+   :depends repeatscout: 
+   
+   :depends rmblast: 
+   
+   :depends trf: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ repeatmodeler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/repeatmodeler
+      docker pull quay.io/repository/biocontainers/repeatmodeler:<tag>
+
+   (see `repeatmodeler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_repeatmodeler| conda:required_by:: repeatmodeler
 .. |downloads_repeatmodeler| image:: https://img.shields.io/conda/dn/bioconda/repeatmodeler.svg?style=flat
    :alt:   (downloads)
 .. |docker_repeatmodeler| image:: https://quay.io/repository/biocontainers/repeatmodeler/status
    :target: https://quay.io/repository/biocontainers/repeatmodeler
+.. _`repeatmodeler/tags`: https://quay.io/repository/biocontainers/repeatmodeler?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/repeatmodeler/README.html
-

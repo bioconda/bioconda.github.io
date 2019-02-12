@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-swamp'
 .. highlight: bash
-
 
 r-swamp
 =======
@@ -21,11 +22,19 @@ r-swamp
 
    |downloads_r-swamp| |docker_r-swamp|
 
-   :versions: 1.4.1, 1.3.1
-
-   :depends: :conda:package:`bioconductor-impute`  :conda:package:`r-amap`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-mass`  
-
-   :required~by: |required_by_r-swamp|
+   :versions: 1.4.1-2, 1.4.1-1, 1.4.1-0, 1.3.1-0
+   
+   :depends bioconductor-impute: >=1.54.0,<1.56.0
+   
+   :depends r-amap: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gplots: 
+   
+   :depends r-mass: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ r-swamp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-swamp
+      docker pull quay.io/repository/biocontainers/r-swamp:<tag>
+
+   (see `r-swamp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-swamp| conda:required_by:: r-swamp
 .. |downloads_r-swamp| image:: https://img.shields.io/conda/dn/bioconda/r-swamp.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-swamp| image:: https://quay.io/repository/biocontainers/r-swamp/status
    :target: https://quay.io/repository/biocontainers/r-swamp
+.. _`r-swamp/tags`: https://quay.io/repository/biocontainers/r-swamp?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-swamp/README.html
-

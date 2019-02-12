@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-exomepeak'
 .. highlight: bash
-
 
 bioconductor-exomepeak
 ======================
@@ -22,11 +23,19 @@ bioconductor-exomepeak
 
    |downloads_bioconductor-exomepeak| |docker_bioconductor-exomepeak|
 
-   :versions: 2.16.0, 2.14.0, 2.13.2
-
-   :depends: :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-exomepeak|
+   :versions: 2.16.0-0, 2.14.0-0, 2.13.2-0
+   
+   :depends bioconductor-genomicalignments: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-exomepeak
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-exomepeak
+      docker pull quay.io/repository/biocontainers/bioconductor-exomepeak:<tag>
+
+   (see `bioconductor-exomepeak/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-exomepeak| conda:required_by:: bioconductor-exomepeak
 .. |downloads_bioconductor-exomepeak| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-exomepeak.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-exomepeak| image:: https://quay.io/repository/biocontainers/bioconductor-exomepeak/status
    :target: https://quay.io/repository/biocontainers/bioconductor-exomepeak
+.. _`bioconductor-exomepeak/tags`: https://quay.io/repository/biocontainers/bioconductor-exomepeak?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-exomepeak/README.html
-

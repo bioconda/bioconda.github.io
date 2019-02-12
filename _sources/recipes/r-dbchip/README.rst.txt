@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-dbchip'
 .. highlight: bash
-
 
 r-dbchip
 ========
@@ -22,11 +23,15 @@ r-dbchip
 
    |downloads_r-dbchip| |docker_r-dbchip|
 
-   :versions: 1.1.6
-
-   :depends: :conda:package:`bioconductor-deseq`  :conda:package:`bioconductor-edger`  
-
-   :required~by: |required_by_r-dbchip|
+   :versions: 1.1.6-1, 1.1.6-0
+   
+   :depends bioconductor-deseq: 
+   
+   :depends bioconductor-edger: 
+   
+   :depends r: 3.2.2*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ r-dbchip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-dbchip
+      docker pull quay.io/repository/biocontainers/r-dbchip:<tag>
+
+   (see `r-dbchip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-dbchip| conda:required_by:: r-dbchip
 .. |downloads_r-dbchip| image:: https://img.shields.io/conda/dn/bioconda/r-dbchip.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-dbchip| image:: https://quay.io/repository/biocontainers/r-dbchip/status
    :target: https://quay.io/repository/biocontainers/r-dbchip
+.. _`r-dbchip/tags`: https://quay.io/repository/biocontainers/r-dbchip?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-dbchip/README.html
-

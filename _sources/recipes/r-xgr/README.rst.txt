@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-xgr'
 .. highlight: bash
-
 
 r-xgr
 =====
@@ -21,11 +22,45 @@ r-xgr
 
    |downloads_r-xgr| |docker_r-xgr|
 
-   :versions: 1.1.4
-
-   :depends: :conda:package:`bioconductor-biocgenerics`  :conda:package:`bioconductor-genomicranges`  :conda:package:`bioconductor-iranges`  :conda:package:`bioconductor-rtracklayer`  :conda:package:`bioconductor-s4vectors`  :conda:package:`bioconductor-suprahex`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dnet`  :conda:package:`r-dplyr`  :conda:package:`r-ggnetwork`  :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-plot3d`  :conda:package:`r-rcircos`  :conda:package:`r-tidyr`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_r-xgr|
+   :versions: 1.1.4-0
+   
+   :depends bioconductor-biocgenerics: 
+   
+   :depends bioconductor-genomicranges: 
+   
+   :depends bioconductor-iranges: 
+   
+   :depends bioconductor-rtracklayer: 
+   
+   :depends bioconductor-s4vectors: 
+   
+   :depends bioconductor-suprahex: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dnet: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggnetwork: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggrepel: 
+   
+   :depends r-igraph: 
+   
+   :depends r-matrix: 
+   
+   :depends r-plot3d: 
+   
+   :depends r-rcircos: 
+   
+   :depends r-tidyr: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +74,16 @@ r-xgr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-xgr
+      docker pull quay.io/repository/biocontainers/r-xgr:<tag>
+
+   (see `r-xgr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-xgr| conda:required_by:: r-xgr
 .. |downloads_r-xgr| image:: https://img.shields.io/conda/dn/bioconda/r-xgr.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-xgr| image:: https://quay.io/repository/biocontainers/r-xgr/status
    :target: https://quay.io/repository/biocontainers/r-xgr
+.. _`r-xgr/tags`: https://quay.io/repository/biocontainers/r-xgr?tab=tags
 
 
 
@@ -63,4 +100,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-xgr/README.html
-

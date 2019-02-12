@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'slimm'
 .. highlight: bash
-
 
 slimm
 =====
@@ -22,11 +23,13 @@ slimm
 
    |downloads_slimm| |docker_slimm|
 
-   :versions: 0.3.4
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_slimm|
+   :versions: 0.3.4-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ slimm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/slimm
+      docker pull quay.io/repository/biocontainers/slimm:<tag>
+
+   (see `slimm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_slimm| conda:required_by:: slimm
 .. |downloads_slimm| image:: https://img.shields.io/conda/dn/bioconda/slimm.svg?style=flat
    :alt:   (downloads)
 .. |docker_slimm| image:: https://quay.io/repository/biocontainers/slimm/status
    :target: https://quay.io/repository/biocontainers/slimm
+.. _`slimm/tags`: https://quay.io/repository/biocontainers/slimm?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/slimm/README.html
-

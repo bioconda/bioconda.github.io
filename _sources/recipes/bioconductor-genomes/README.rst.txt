@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-genomes'
 .. highlight: bash
-
 
 bioconductor-genomes
 ====================
@@ -21,11 +22,15 @@ bioconductor-genomes
 
    |downloads_bioconductor-genomes| |docker_bioconductor-genomes|
 
-   :versions: 3.12.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-curl`  :conda:package:`r-readr`  
-
-   :required~by: |required_by_bioconductor-genomes|
+   :versions: 3.12.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-curl: 
+   
+   :depends r-readr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-genomes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genomes
+      docker pull quay.io/repository/biocontainers/bioconductor-genomes:<tag>
+
+   (see `bioconductor-genomes/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-genomes| conda:required_by:: bioconductor-genomes
 .. |downloads_bioconductor-genomes| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomes.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-genomes| image:: https://quay.io/repository/biocontainers/bioconductor-genomes/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genomes
+.. _`bioconductor-genomes/tags`: https://quay.io/repository/biocontainers/bioconductor-genomes?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-genomes/README.html
-

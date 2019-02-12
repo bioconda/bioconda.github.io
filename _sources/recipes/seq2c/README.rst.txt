@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'seq2c'
 .. highlight: bash
-
 
 seq2c
 =====
@@ -21,11 +22,13 @@ seq2c
 
    |downloads_seq2c| |docker_seq2c|
 
-   :versions: 2018.12.05, 2016.03.23
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-statistics-ttest`  
-
-   :required~by: |required_by_seq2c|
+   :versions: 2018.12.05-0, 2016.03.23-1, 2016.03.23-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-statistics-ttest: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ seq2c
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seq2c
+      docker pull quay.io/repository/biocontainers/seq2c:<tag>
+
+   (see `seq2c/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_seq2c| conda:required_by:: seq2c
 .. |downloads_seq2c| image:: https://img.shields.io/conda/dn/bioconda/seq2c.svg?style=flat
    :alt:   (downloads)
 .. |docker_seq2c| image:: https://quay.io/repository/biocontainers/seq2c/status
    :target: https://quay.io/repository/biocontainers/seq2c
+.. _`seq2c/tags`: https://quay.io/repository/biocontainers/seq2c?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/seq2c/README.html
-

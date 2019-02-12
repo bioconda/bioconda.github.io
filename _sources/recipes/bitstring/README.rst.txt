@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bitstring'
 .. highlight: bash
-
 
 bitstring
 =========
@@ -21,11 +22,11 @@ bitstring
 
    |downloads_bitstring| |docker_bitstring|
 
-   :versions: 3.1.5
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_bitstring|
+   :versions: 3.1.5-1, 3.1.5-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bitstring
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bitstring
+      docker pull quay.io/repository/biocontainers/bitstring:<tag>
+
+   (see `bitstring/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bitstring| conda:required_by:: bitstring
 .. |downloads_bitstring| image:: https://img.shields.io/conda/dn/bioconda/bitstring.svg?style=flat
    :alt:   (downloads)
 .. |docker_bitstring| image:: https://quay.io/repository/biocontainers/bitstring/status
    :target: https://quay.io/repository/biocontainers/bitstring
+.. _`bitstring/tags`: https://quay.io/repository/biocontainers/bitstring?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bitstring/README.html
-

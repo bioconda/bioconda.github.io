@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-linnorm'
 .. highlight: bash
-
 
 bioconductor-linnorm
 ====================
@@ -21,11 +22,51 @@ bioconductor-linnorm
 
    |downloads_bioconductor-linnorm| |docker_bioconductor-linnorm|
 
-   :versions: 2.6.0
-
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-amap`  :conda:package:`r-apcluster`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ellipse`  :conda:package:`r-fastcluster`  :conda:package:`r-fpc`  :conda:package:`r-ggdendro`  :conda:package:`r-ggplot2`  :conda:package:`r-gmodels`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-mclust`  :conda:package:`r-rcpp` >=0.12.2 :conda:package:`r-rcpparmadillo` >=0.8.100.1.0 :conda:package:`r-rtsne`  :conda:package:`r-statmod`  :conda:package:`r-vegan`  :conda:package:`r-zoo`  
-
-   :required~by: |required_by_bioconductor-linnorm|
+   :versions: 2.6.0-0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-amap: 
+   
+   :depends r-apcluster: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ellipse: 
+   
+   :depends r-fastcluster: 
+   
+   :depends r-fpc: 
+   
+   :depends r-ggdendro: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gmodels: 
+   
+   :depends r-igraph: 
+   
+   :depends r-mass: 
+   
+   :depends r-mclust: 
+   
+   :depends r-rcpp: >=0.12.2
+   
+   :depends r-rcpparmadillo: >=0.8.100.1.0
+   
+   :depends r-rtsne: 
+   
+   :depends r-statmod: 
+   
+   :depends r-vegan: 
+   
+   :depends r-zoo: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +80,16 @@ bioconductor-linnorm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-linnorm
+      docker pull quay.io/repository/biocontainers/bioconductor-linnorm:<tag>
+
+   (see `bioconductor-linnorm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-linnorm| conda:required_by:: bioconductor-linnorm
 .. |downloads_bioconductor-linnorm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-linnorm.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-linnorm| image:: https://quay.io/repository/biocontainers/bioconductor-linnorm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-linnorm
+.. _`bioconductor-linnorm/tags`: https://quay.io/repository/biocontainers/bioconductor-linnorm?tab=tags
 
 
 
@@ -63,4 +106,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-linnorm/README.html
-

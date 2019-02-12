@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-local-lib'
 .. highlight: bash
-
 
 perl-local-lib
 ==============
@@ -21,11 +22,15 @@ perl-local-lib
 
    |downloads_perl-local-lib| |docker_perl-local-lib|
 
-   :versions: 2.000024
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-module-build`  
-
-   :required~by: |required_by_perl-local-lib|
+   :versions: 2.000024-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-extutils-makemaker: 
+   
+   :depends perl-module-build: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-local-lib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-local-lib
+      docker pull quay.io/repository/biocontainers/perl-local-lib:<tag>
+
+   (see `perl-local-lib/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-local-lib| conda:required_by:: perl-local-lib
 .. |downloads_perl-local-lib| image:: https://img.shields.io/conda/dn/bioconda/perl-local-lib.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-local-lib| image:: https://quay.io/repository/biocontainers/perl-local-lib/status
    :target: https://quay.io/repository/biocontainers/perl-local-lib
+.. _`perl-local-lib/tags`: https://quay.io/repository/biocontainers/perl-local-lib?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-local-lib/README.html
-

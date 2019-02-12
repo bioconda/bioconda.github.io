@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nucleosome_prediction'
 .. highlight: bash
-
 
 nucleosome_prediction
 =====================
@@ -21,11 +22,15 @@ nucleosome_prediction
 
    |downloads_nucleosome_prediction| |docker_nucleosome_prediction|
 
-   :versions: 3.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_nucleosome_prediction|
+   :versions: 3.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ nucleosome_prediction
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nucleosome_prediction
+      docker pull quay.io/repository/biocontainers/nucleosome_prediction:<tag>
+
+   (see `nucleosome_prediction/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nucleosome_prediction| conda:required_by:: nucleosome_prediction
 .. |downloads_nucleosome_prediction| image:: https://img.shields.io/conda/dn/bioconda/nucleosome_prediction.svg?style=flat
    :alt:   (downloads)
 .. |docker_nucleosome_prediction| image:: https://quay.io/repository/biocontainers/nucleosome_prediction/status
    :target: https://quay.io/repository/biocontainers/nucleosome_prediction
+.. _`nucleosome_prediction/tags`: https://quay.io/repository/biocontainers/nucleosome_prediction?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nucleosome_prediction/README.html
-

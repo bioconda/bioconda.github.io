@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dialign2'
 .. highlight: bash
-
 
 dialign2
 ========
@@ -22,11 +23,11 @@ dialign2
 
    |downloads_dialign2| |docker_dialign2|
 
-   :versions: 2.2.1
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_dialign2|
+   :versions: 2.2.1-2, 2.2.1-1, 2.2.1-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ dialign2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dialign2
+      docker pull quay.io/repository/biocontainers/dialign2:<tag>
+
+   (see `dialign2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dialign2| conda:required_by:: dialign2
 .. |downloads_dialign2| image:: https://img.shields.io/conda/dn/bioconda/dialign2.svg?style=flat
    :alt:   (downloads)
 .. |docker_dialign2| image:: https://quay.io/repository/biocontainers/dialign2/status
    :target: https://quay.io/repository/biocontainers/dialign2
+.. _`dialign2/tags`: https://quay.io/repository/biocontainers/dialign2?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dialign2/README.html
-

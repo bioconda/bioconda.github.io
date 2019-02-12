@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-slurp-tiny'
 .. highlight: bash
-
 
 perl-file-slurp-tiny
 ====================
@@ -21,11 +22,11 @@ perl-file-slurp-tiny
 
    |downloads_perl-file-slurp-tiny| |docker_perl-file-slurp-tiny|
 
-   :versions: 0.004
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-file-slurp-tiny|
+   :versions: 0.004-1, 0.004-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-file-slurp-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-slurp-tiny
+      docker pull quay.io/repository/biocontainers/perl-file-slurp-tiny:<tag>
+
+   (see `perl-file-slurp-tiny/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-slurp-tiny| conda:required_by:: perl-file-slurp-tiny
 .. |downloads_perl-file-slurp-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-file-slurp-tiny.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-slurp-tiny| image:: https://quay.io/repository/biocontainers/perl-file-slurp-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-file-slurp-tiny
+.. _`perl-file-slurp-tiny/tags`: https://quay.io/repository/biocontainers/perl-file-slurp-tiny?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-slurp-tiny/README.html
-

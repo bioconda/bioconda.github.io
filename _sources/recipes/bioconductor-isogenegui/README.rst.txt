@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-isogenegui'
 .. highlight: bash
-
 
 bioconductor-isogenegui
 =======================
@@ -21,11 +22,45 @@ bioconductor-isogenegui
 
    |downloads_bioconductor-isogenegui| |docker_bioconductor-isogenegui|
 
-   :versions: 2.18.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-geneplotter` >=1.60.0,<1.61.0 :conda:package:`bioconductor-multtest` >=2.38.0,<2.39.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ff`  :conda:package:`r-goric`  :conda:package:`r-iso`  :conda:package:`r-isogene`  :conda:package:`r-jpeg`  :conda:package:`r-orcme`  :conda:package:`r-oriclust`  :conda:package:`r-orqa`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp`  :conda:package:`r-relimp`  :conda:package:`r-tkrplot`  :conda:package:`r-xlsx`  
-
-   :required~by: |required_by_bioconductor-isogenegui|
+   :versions: 2.18.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-geneplotter: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-multtest: >=2.38.0,<2.39.0
+   
+   :depends libcxx: >=4.0.1
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ff: 
+   
+   :depends r-goric: 
+   
+   :depends r-iso: 
+   
+   :depends r-isogene: 
+   
+   :depends r-jpeg: 
+   
+   :depends r-orcme: 
+   
+   :depends r-oriclust: 
+   
+   :depends r-orqa: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-relimp: 
+   
+   :depends r-tkrplot: 
+   
+   :depends r-xlsx: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +74,16 @@ bioconductor-isogenegui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-isogenegui
+      docker pull quay.io/repository/biocontainers/bioconductor-isogenegui:<tag>
+
+   (see `bioconductor-isogenegui/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-isogenegui| conda:required_by:: bioconductor-isogenegui
 .. |downloads_bioconductor-isogenegui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-isogenegui.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-isogenegui| image:: https://quay.io/repository/biocontainers/bioconductor-isogenegui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-isogenegui
+.. _`bioconductor-isogenegui/tags`: https://quay.io/repository/biocontainers/bioconductor-isogenegui?tab=tags
 
 
 
@@ -63,4 +100,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-isogenegui/README.html
-

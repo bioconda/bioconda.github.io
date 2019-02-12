@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'denovogear'
 .. highlight: bash
-
 
 denovogear
 ==========
@@ -21,11 +22,19 @@ denovogear
 
    |downloads_denovogear| |docker_denovogear|
 
-   :versions: 1.1.1
-
-   :depends: :conda:package:`boost`  :conda:package:`eigen`  :conda:package:`htslib`  :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_denovogear|
+   :versions: 1.1.1-0
+   
+   :depends boost: 
+   
+   :depends eigen: 
+   
+   :depends htslib: 
+   
+   :depends libgcc: 
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ denovogear
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/denovogear
+      docker pull quay.io/repository/biocontainers/denovogear:<tag>
+
+   (see `denovogear/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_denovogear| conda:required_by:: denovogear
 .. |downloads_denovogear| image:: https://img.shields.io/conda/dn/bioconda/denovogear.svg?style=flat
    :alt:   (downloads)
 .. |docker_denovogear| image:: https://quay.io/repository/biocontainers/denovogear/status
    :target: https://quay.io/repository/biocontainers/denovogear
+.. _`denovogear/tags`: https://quay.io/repository/biocontainers/denovogear?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/denovogear/README.html
-

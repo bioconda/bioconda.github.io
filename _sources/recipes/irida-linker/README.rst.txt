@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'irida-linker'
 .. highlight: bash
-
 
 irida-linker
 ============
@@ -21,11 +22,27 @@ irida-linker
 
    |downloads_irida-linker| |docker_irida-linker|
 
-   :versions: 1.0.2, 1.0.1
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-config-simple`  :conda:package:`perl-file-path`  :conda:package:`perl-getopt-long`  :conda:package:`perl-http-message`  :conda:package:`perl-json`  :conda:package:`perl-libwww-perl`  :conda:package:`perl-lwp-simple`  :conda:package:`perl-termreadkey`  
-
-   :required~by: |required_by_irida-linker|
+   :versions: 1.0.2-0, 1.0.1-1, 1.0.1-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-config-simple: 
+   
+   :depends perl-file-path: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-http-message: 
+   
+   :depends perl-json: 
+   
+   :depends perl-libwww-perl: 
+   
+   :depends perl-lwp-simple: 
+   
+   :depends perl-termreadkey: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ irida-linker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/irida-linker
+      docker pull quay.io/repository/biocontainers/irida-linker:<tag>
+
+   (see `irida-linker/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_irida-linker| conda:required_by:: irida-linker
 .. |downloads_irida-linker| image:: https://img.shields.io/conda/dn/bioconda/irida-linker.svg?style=flat
    :alt:   (downloads)
 .. |docker_irida-linker| image:: https://quay.io/repository/biocontainers/irida-linker/status
    :target: https://quay.io/repository/biocontainers/irida-linker
+.. _`irida-linker/tags`: https://quay.io/repository/biocontainers/irida-linker?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/irida-linker/README.html
-

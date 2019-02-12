@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-html-form'
 .. highlight: bash
-
 
 perl-html-form
 ==============
@@ -21,11 +22,41 @@ perl-html-form
 
    |downloads_perl-html-form| |docker_perl-html-form|
 
-   :versions: 6.03
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-cpan-meta`  :conda:package:`perl-data-dumper`  :conda:package:`perl-extutils-cbuilder`  :conda:package:`perl-extutils-manifest`  :conda:package:`perl-extutils-parsexs`  :conda:package:`perl-file-path`  :conda:package:`perl-getopt-long`  :conda:package:`perl-html-parser`  :conda:package:`perl-http-message`  :conda:package:`perl-module-metadata`  :conda:package:`perl-perl-ostype`  :conda:package:`perl-text-abbrev`  :conda:package:`perl-text-parsewords`  :conda:package:`perl-uri`  :conda:package:`perl-version`  
-
-   :required~by: |required_by_perl-html-form|
+   :versions: 6.03-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-cpan-meta: 
+   
+   :depends perl-data-dumper: 
+   
+   :depends perl-extutils-cbuilder: 
+   
+   :depends perl-extutils-manifest: 
+   
+   :depends perl-extutils-parsexs: 
+   
+   :depends perl-file-path: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-html-parser: 
+   
+   :depends perl-http-message: 
+   
+   :depends perl-module-metadata: 
+   
+   :depends perl-perl-ostype: 
+   
+   :depends perl-text-abbrev: 
+   
+   :depends perl-text-parsewords: 
+   
+   :depends perl-uri: 
+   
+   :depends perl-version: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ perl-html-form
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-form
+      docker pull quay.io/repository/biocontainers/perl-html-form:<tag>
+
+   (see `perl-html-form/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-html-form| conda:required_by:: perl-html-form
 .. |downloads_perl-html-form| image:: https://img.shields.io/conda/dn/bioconda/perl-html-form.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-html-form| image:: https://quay.io/repository/biocontainers/perl-html-form/status
    :target: https://quay.io/repository/biocontainers/perl-html-form
+.. _`perl-html-form/tags`: https://quay.io/repository/biocontainers/perl-html-form?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-html-form/README.html
-

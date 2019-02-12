@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'red'
 .. highlight: bash
-
 
 red
 ===
@@ -22,11 +23,11 @@ red
 
    |downloads_red| |docker_red|
 
-   :versions: 2015.05.22
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_red|
+   :versions: 2015.05.22-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ red
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/red
+      docker pull quay.io/repository/biocontainers/red:<tag>
+
+   (see `red/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_red| conda:required_by:: red
 .. |downloads_red| image:: https://img.shields.io/conda/dn/bioconda/red.svg?style=flat
    :alt:   (downloads)
 .. |docker_red| image:: https://quay.io/repository/biocontainers/red/status
    :target: https://quay.io/repository/biocontainers/red
+.. _`red/tags`: https://quay.io/repository/biocontainers/red?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/red/README.html
-

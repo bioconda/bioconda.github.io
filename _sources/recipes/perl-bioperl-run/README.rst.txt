@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bioperl-run'
 .. highlight: bash
-
 
 perl-bioperl-run
 ================
@@ -21,11 +22,17 @@ perl-bioperl-run
 
    |downloads_perl-bioperl-run| |docker_perl-bioperl-run|
 
-   :versions: 1.007002, 1.006900
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bio-samtools`  :conda:package:`perl-bioperl-core`  :conda:package:`perl-file-sort`  
-
-   :required~by: |required_by_perl-bioperl-run|
+   :versions: 1.007002-3, 1.006900-2, 1.006900-1, 1.006900-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bio-samtools: 
+   
+   :depends perl-bioperl-core: 
+   
+   :depends perl-file-sort: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-bioperl-run
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bioperl-run
+      docker pull quay.io/repository/biocontainers/perl-bioperl-run:<tag>
+
+   (see `perl-bioperl-run/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bioperl-run| conda:required_by:: perl-bioperl-run
 .. |downloads_perl-bioperl-run| image:: https://img.shields.io/conda/dn/bioconda/perl-bioperl-run.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bioperl-run| image:: https://quay.io/repository/biocontainers/perl-bioperl-run/status
    :target: https://quay.io/repository/biocontainers/perl-bioperl-run
+.. _`perl-bioperl-run/tags`: https://quay.io/repository/biocontainers/perl-bioperl-run?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bioperl-run/README.html
-

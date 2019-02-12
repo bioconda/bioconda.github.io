@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyscaf'
 .. highlight: bash
-
 
 pyscaf
 ======
@@ -21,11 +22,13 @@ pyscaf
 
    |downloads_pyscaf| |docker_pyscaf|
 
-   :versions: 0.12a4
-
-   :depends: :conda:package:`fastaindex`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pyscaf|
+   :versions: 0.12a4-2, 0.12a4-0
+   
+   :depends fastaindex: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ pyscaf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyscaf
+      docker pull quay.io/repository/biocontainers/pyscaf:<tag>
+
+   (see `pyscaf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyscaf| conda:required_by:: pyscaf
 .. |downloads_pyscaf| image:: https://img.shields.io/conda/dn/bioconda/pyscaf.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyscaf| image:: https://quay.io/repository/biocontainers/pyscaf/status
    :target: https://quay.io/repository/biocontainers/pyscaf
+.. _`pyscaf/tags`: https://quay.io/repository/biocontainers/pyscaf?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyscaf/README.html
-

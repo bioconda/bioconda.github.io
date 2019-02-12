@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'prokka'
 .. highlight: bash
-
 
 prokka
 ======
@@ -23,11 +24,33 @@ prokka
 
    |downloads_prokka| |docker_prokka|
 
-   :versions: 1.13.4, 1.13.3, 1.13, 1.12, 1.11
-
-   :depends: :conda:package:`aragorn` >=1.2 :conda:package:`barrnap` >=0.7 :conda:package:`blast` >=2.7.1 :conda:package:`hmmer` >=3.1b2 :conda:package:`infernal` >=1.1.2 :conda:package:`minced` >=0.3 :conda:package:`parallel` >=20180522 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bioperl` >=1.7.2 :conda:package:`perl-xml-simple`  :conda:package:`prodigal` >=2.6 :conda:package:`tbl2asn` >=25.6 
-
-   :required~by: |required_by_prokka|
+   :versions: 1.13.4-0, 1.13.3-0, 1.13-4, 1.13-3, 1.13-2, 1.13-1, 1.13-0, 1.12-4, 1.12-3, 1.12-2, 1.12-1, 1.12-0, 1.11-0
+   
+   :depends aragorn: >=1.2
+   
+   :depends barrnap: >=0.7
+   
+   :depends blast: >=2.7.1
+   
+   :depends hmmer: >=3.1b2
+   
+   :depends infernal: >=1.1.2
+   
+   :depends minced: >=0.3
+   
+   :depends parallel: >=20180522
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bioperl: >=1.7.2
+   
+   :depends perl-xml-simple: 
+   
+   :depends prodigal: >=2.6
+   
+   :depends tbl2asn: >=25.6
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +64,16 @@ prokka
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prokka
+      docker pull quay.io/repository/biocontainers/prokka:<tag>
+
+   (see `prokka/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_prokka| conda:required_by:: prokka
 .. |downloads_prokka| image:: https://img.shields.io/conda/dn/bioconda/prokka.svg?style=flat
    :alt:   (downloads)
 .. |docker_prokka| image:: https://quay.io/repository/biocontainers/prokka/status
    :target: https://quay.io/repository/biocontainers/prokka
+.. _`prokka/tags`: https://quay.io/repository/biocontainers/prokka?tab=tags
 
 
 
@@ -65,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/prokka/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-humanaffydata'
 .. highlight: bash
-
 
 bioconductor-humanaffydata
 ==========================
@@ -21,11 +22,17 @@ bioconductor-humanaffydata
 
    |downloads_bioconductor-humanaffydata| |docker_bioconductor-humanaffydata|
 
-   :versions: 1.8.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-experimenthub` >=1.8.0,<1.9.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-humanaffydata|
+   :versions: 1.8.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-humanaffydata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-humanaffydata
+      docker pull quay.io/repository/biocontainers/bioconductor-humanaffydata:<tag>
+
+   (see `bioconductor-humanaffydata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-humanaffydata| conda:required_by:: bioconductor-humanaffydata
 .. |downloads_bioconductor-humanaffydata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-humanaffydata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-humanaffydata| image:: https://quay.io/repository/biocontainers/bioconductor-humanaffydata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-humanaffydata
+.. _`bioconductor-humanaffydata/tags`: https://quay.io/repository/biocontainers/bioconductor-humanaffydata?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-humanaffydata/README.html
-

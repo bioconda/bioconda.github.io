@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-onassis'
 .. highlight: bash
-
 
 bioconductor-onassis
 ====================
@@ -22,10 +23,8 @@ bioconductor-onassis
    |downloads_bioconductor-onassis| |docker_bioconductor-onassis|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-onassis|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-onassis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-onassis
+      docker pull quay.io/repository/biocontainers/bioconductor-onassis:<tag>
+
+   (see `bioconductor-onassis/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-onassis| conda:required_by:: bioconductor-onassis
 .. |downloads_bioconductor-onassis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-onassis.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-onassis| image:: https://quay.io/repository/biocontainers/bioconductor-onassis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-onassis
+.. _`bioconductor-onassis/tags`: https://quay.io/repository/biocontainers/bioconductor-onassis?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-onassis/README.html
-

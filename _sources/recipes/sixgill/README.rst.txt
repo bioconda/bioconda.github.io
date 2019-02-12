@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sixgill'
 .. highlight: bash
-
 
 sixgill
 =======
@@ -21,11 +22,15 @@ sixgill
 
    |downloads_sixgill| |docker_sixgill|
 
-   :versions: 0.2.4, 0.2.3
-
-   :depends: :conda:package:`biopython`  :conda:package:`pysam`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_sixgill|
+   :versions: 0.2.4-2, 0.2.4-1, 0.2.4-0, 0.2.3-0
+   
+   :depends biopython: 
+   
+   :depends pysam: >=0.9.0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ sixgill
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sixgill
+      docker pull quay.io/repository/biocontainers/sixgill:<tag>
+
+   (see `sixgill/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sixgill| conda:required_by:: sixgill
 .. |downloads_sixgill| image:: https://img.shields.io/conda/dn/bioconda/sixgill.svg?style=flat
    :alt:   (downloads)
 .. |docker_sixgill| image:: https://quay.io/repository/biocontainers/sixgill/status
    :target: https://quay.io/repository/biocontainers/sixgill
+.. _`sixgill/tags`: https://quay.io/repository/biocontainers/sixgill?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sixgill/README.html
-

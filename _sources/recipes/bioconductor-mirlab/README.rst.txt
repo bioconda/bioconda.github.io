@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mirlab'
 .. highlight: bash
-
 
 bioconductor-mirlab
 ===================
@@ -22,10 +23,8 @@ bioconductor-mirlab
    |downloads_bioconductor-mirlab| |docker_bioconductor-mirlab|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-mirlab|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-mirlab
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirlab
+      docker pull quay.io/repository/biocontainers/bioconductor-mirlab:<tag>
+
+   (see `bioconductor-mirlab/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mirlab| conda:required_by:: bioconductor-mirlab
 .. |downloads_bioconductor-mirlab| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirlab.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mirlab| image:: https://quay.io/repository/biocontainers/bioconductor-mirlab/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirlab
+.. _`bioconductor-mirlab/tags`: https://quay.io/repository/biocontainers/bioconductor-mirlab?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mirlab/README.html
-

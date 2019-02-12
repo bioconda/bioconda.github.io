@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-try-tiny'
 .. highlight: bash
-
 
 perl-try-tiny
 =============
@@ -21,11 +22,11 @@ perl-try-tiny
 
    |downloads_perl-try-tiny| |docker_perl-try-tiny|
 
-   :versions: 0.30, 0.24
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-try-tiny|
+   :versions: 0.30-0, 0.24-3, 0.24-2, 0.24-1, 0.24-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-try-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-try-tiny
+      docker pull quay.io/repository/biocontainers/perl-try-tiny:<tag>
+
+   (see `perl-try-tiny/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-try-tiny| conda:required_by:: perl-try-tiny
 .. |downloads_perl-try-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-try-tiny.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-try-tiny| image:: https://quay.io/repository/biocontainers/perl-try-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-try-tiny
+.. _`perl-try-tiny/tags`: https://quay.io/repository/biocontainers/perl-try-tiny?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-try-tiny/README.html
-

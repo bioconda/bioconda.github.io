@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pytest-timeout'
 .. highlight: bash
-
 
 pytest-timeout
 ==============
@@ -21,11 +22,15 @@ pytest-timeout
 
    |downloads_pytest-timeout| |docker_pytest-timeout|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`pytest` >=2.8.0 :conda:package:`python` 2.7* :conda:package:`setuptools`  
-
-   :required~by: |required_by_pytest-timeout|
+   :versions: 1.0.0-0
+   
+   :depends pytest: >=2.8.0
+   
+   :depends python: 2.7*
+   
+   :depends setuptools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pytest-timeout
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pytest-timeout
+      docker pull quay.io/repository/biocontainers/pytest-timeout:<tag>
+
+   (see `pytest-timeout/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pytest-timeout| conda:required_by:: pytest-timeout
 .. |downloads_pytest-timeout| image:: https://img.shields.io/conda/dn/bioconda/pytest-timeout.svg?style=flat
    :alt:   (downloads)
 .. |docker_pytest-timeout| image:: https://quay.io/repository/biocontainers/pytest-timeout/status
    :target: https://quay.io/repository/biocontainers/pytest-timeout
+.. _`pytest-timeout/tags`: https://quay.io/repository/biocontainers/pytest-timeout?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pytest-timeout/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-gispa'
 .. highlight: bash
-
 
 bioconductor-gispa
 ==================
@@ -21,11 +22,31 @@ bioconductor-gispa
 
    |downloads_bioconductor-gispa| |docker_bioconductor-gispa|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-genefilter` >=1.64.0,<1.65.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-changepoint`  :conda:package:`r-data.table`  :conda:package:`r-hh`  :conda:package:`r-lattice`  :conda:package:`r-latticeextra`  :conda:package:`r-plyr`  :conda:package:`r-scatterplot3d`  
-
-   :required~by: |required_by_bioconductor-gispa|
+   :versions: 1.6.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
+   
+   :depends bioconductor-gseabase: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-changepoint: 
+   
+   :depends r-data.table: 
+   
+   :depends r-hh: 
+   
+   :depends r-lattice: 
+   
+   :depends r-latticeextra: 
+   
+   :depends r-plyr: 
+   
+   :depends r-scatterplot3d: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ bioconductor-gispa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gispa
+      docker pull quay.io/repository/biocontainers/bioconductor-gispa:<tag>
+
+   (see `bioconductor-gispa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-gispa| conda:required_by:: bioconductor-gispa
 .. |downloads_bioconductor-gispa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gispa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-gispa| image:: https://quay.io/repository/biocontainers/bioconductor-gispa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gispa
+.. _`bioconductor-gispa/tags`: https://quay.io/repository/biocontainers/bioconductor-gispa?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-gispa/README.html
-

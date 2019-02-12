@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-eventpointer'
 .. highlight: bash
-
 
 bioconductor-eventpointer
 =========================
@@ -21,11 +22,57 @@ bioconductor-eventpointer
 
    |downloads_bioconductor-eventpointer| |docker_bioconductor-eventpointer|
 
-   :versions: 2.0.1
-
-   :depends: :conda:package:`bioconductor-affxparser` >=1.54.0,<1.55.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`bioconductor-rhdf5` >=2.26.0,<2.27.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-sgseq` >=1.16.0,<1.17.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cobs`  :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-matrix`  :conda:package:`r-matrixstats`  :conda:package:`r-nnls`  :conda:package:`r-prodlim`  :conda:package:`r-stringr`  
-
-   :required~by: |required_by_bioconductor-eventpointer|
+   :versions: 2.0.1-0
+   
+   :depends bioconductor-affxparser: >=1.54.0,<1.55.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
+   
+   :depends bioconductor-rbgl: >=1.58.0,<1.59.0
+   
+   :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-sgseq: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cobs: 
+   
+   :depends r-doparallel: 
+   
+   :depends r-foreach: 
+   
+   :depends r-igraph: 
+   
+   :depends r-mass: 
+   
+   :depends r-matrix: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-nnls: 
+   
+   :depends r-prodlim: 
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +86,16 @@ bioconductor-eventpointer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-eventpointer
+      docker pull quay.io/repository/biocontainers/bioconductor-eventpointer:<tag>
+
+   (see `bioconductor-eventpointer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-eventpointer| conda:required_by:: bioconductor-eventpointer
 .. |downloads_bioconductor-eventpointer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-eventpointer.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-eventpointer| image:: https://quay.io/repository/biocontainers/bioconductor-eventpointer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-eventpointer
+.. _`bioconductor-eventpointer/tags`: https://quay.io/repository/biocontainers/bioconductor-eventpointer?tab=tags
 
 
 
@@ -63,4 +112,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-eventpointer/README.html
-

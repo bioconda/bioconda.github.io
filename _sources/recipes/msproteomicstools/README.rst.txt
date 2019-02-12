@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'msproteomicstools'
 .. highlight: bash
-
 
 msproteomicstools
 =================
@@ -21,11 +22,33 @@ msproteomicstools
 
    |downloads_msproteomicstools| |docker_msproteomicstools|
 
-   :versions: 0.5.0
-
-   :depends: :conda:package:`biopython`  :conda:package:`configobj`  :conda:package:`lxml`  :conda:package:`numpy`  :conda:package:`pymzml` ==0.7.5 :conda:package:`pyteomics` >=2.4.0 :conda:package:`python` 2.7* :conda:package:`python-cluster` ==1.3.3 :conda:package:`scikits-datasmooth`  :conda:package:`scipy`  :conda:package:`xlsxwriter` >=0.5.3 :conda:package:`xlwt`  
-
-   :required~by: |required_by_msproteomicstools|
+   :versions: 0.5.0-1, 0.5.0-0
+   
+   :depends biopython: 
+   
+   :depends configobj: 
+   
+   :depends lxml: 
+   
+   :depends numpy: 
+   
+   :depends pymzml: 0.7.5
+   
+   :depends pyteomics: >=2.4.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends python-cluster: 1.3.3
+   
+   :depends scikits-datasmooth: 
+   
+   :depends scipy: 
+   
+   :depends xlsxwriter: >=0.5.3
+   
+   :depends xlwt: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ msproteomicstools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/msproteomicstools
+      docker pull quay.io/repository/biocontainers/msproteomicstools:<tag>
+
+   (see `msproteomicstools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_msproteomicstools| conda:required_by:: msproteomicstools
 .. |downloads_msproteomicstools| image:: https://img.shields.io/conda/dn/bioconda/msproteomicstools.svg?style=flat
    :alt:   (downloads)
 .. |docker_msproteomicstools| image:: https://quay.io/repository/biocontainers/msproteomicstools/status
    :target: https://quay.io/repository/biocontainers/msproteomicstools
+.. _`msproteomicstools/tags`: https://quay.io/repository/biocontainers/msproteomicstools?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/msproteomicstools/README.html
-

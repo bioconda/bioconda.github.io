@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genomestrip'
 .. highlight: bash
-
 
 genomestrip
 ===========
@@ -21,11 +22,17 @@ genomestrip
 
    |downloads_genomestrip| |docker_genomestrip|
 
-   :versions: 2.00.1833
-
-   :depends: :conda:package:`openjdk` >=8 :conda:package:`r-base` >=3.4 :conda:package:`samtools`  :conda:package:`tabix`  
-
-   :required~by: |required_by_genomestrip|
+   :versions: 2.00.1833-1, 2.00.1833-0
+   
+   :depends openjdk: >=8
+   
+   :depends r-base: >=3.4
+   
+   :depends samtools: 
+   
+   :depends tabix: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ genomestrip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genomestrip
+      docker pull quay.io/repository/biocontainers/genomestrip:<tag>
+
+   (see `genomestrip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genomestrip| conda:required_by:: genomestrip
 .. |downloads_genomestrip| image:: https://img.shields.io/conda/dn/bioconda/genomestrip.svg?style=flat
    :alt:   (downloads)
 .. |docker_genomestrip| image:: https://quay.io/repository/biocontainers/genomestrip/status
    :target: https://quay.io/repository/biocontainers/genomestrip
+.. _`genomestrip/tags`: https://quay.io/repository/biocontainers/genomestrip?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genomestrip/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cpat'
 .. highlight: bash
-
 
 cpat
 ====
@@ -21,11 +22,17 @@ cpat
 
    |downloads_cpat| |docker_cpat|
 
-   :versions: 1.2.3, 1.2.2
-
-   :depends: :conda:package:`bx-python`  :conda:package:`pysam`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`r-base`  
-
-   :required~by: |required_by_cpat|
+   :versions: 1.2.3-1, 1.2.3-0, 1.2.2-2
+   
+   :depends bx-python: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends r-base: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ cpat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cpat
+      docker pull quay.io/repository/biocontainers/cpat:<tag>
+
+   (see `cpat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cpat| conda:required_by:: cpat
 .. |downloads_cpat| image:: https://img.shields.io/conda/dn/bioconda/cpat.svg?style=flat
    :alt:   (downloads)
 .. |docker_cpat| image:: https://quay.io/repository/biocontainers/cpat/status
    :target: https://quay.io/repository/biocontainers/cpat
+.. _`cpat/tags`: https://quay.io/repository/biocontainers/cpat?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cpat/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-plotgrouper'
 .. highlight: bash
-
 
 bioconductor-plotgrouper
 ========================
@@ -22,10 +23,8 @@ bioconductor-plotgrouper
    |downloads_bioconductor-plotgrouper| |docker_bioconductor-plotgrouper|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-plotgrouper|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-plotgrouper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-plotgrouper
+      docker pull quay.io/repository/biocontainers/bioconductor-plotgrouper:<tag>
+
+   (see `bioconductor-plotgrouper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-plotgrouper| conda:required_by:: bioconductor-plotgrouper
 .. |downloads_bioconductor-plotgrouper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-plotgrouper.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-plotgrouper| image:: https://quay.io/repository/biocontainers/bioconductor-plotgrouper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-plotgrouper
+.. _`bioconductor-plotgrouper/tags`: https://quay.io/repository/biocontainers/bioconductor-plotgrouper?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-plotgrouper/README.html
-

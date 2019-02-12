@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'atac'
 .. highlight: bash
-
 
 atac
 ====
@@ -22,11 +23,17 @@ atac
 
    |downloads_atac| |docker_atac|
 
-   :versions: 2008
-
-   :depends: :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_atac|
+   :versions: 2008-1, 2008-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ atac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/atac
+      docker pull quay.io/repository/biocontainers/atac:<tag>
+
+   (see `atac/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_atac| conda:required_by:: atac
 .. |downloads_atac| image:: https://img.shields.io/conda/dn/bioconda/atac.svg?style=flat
    :alt:   (downloads)
 .. |docker_atac| image:: https://quay.io/repository/biocontainers/atac/status
    :target: https://quay.io/repository/biocontainers/atac
+.. _`atac/tags`: https://quay.io/repository/biocontainers/atac?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/atac/README.html
-

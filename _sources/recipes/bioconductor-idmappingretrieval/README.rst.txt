@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-idmappingretrieval'
 .. highlight: bash
-
 
 bioconductor-idmappingretrieval
 ===============================
@@ -22,10 +23,8 @@ bioconductor-idmappingretrieval
    |downloads_bioconductor-idmappingretrieval| |docker_bioconductor-idmappingretrieval|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-idmappingretrieval|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-idmappingretrieval
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-idmappingretrieval
+      docker pull quay.io/repository/biocontainers/bioconductor-idmappingretrieval:<tag>
+
+   (see `bioconductor-idmappingretrieval/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-idmappingretrieval| conda:required_by:: bioconductor-idmappingretrieval
 .. |downloads_bioconductor-idmappingretrieval| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-idmappingretrieval.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-idmappingretrieval| image:: https://quay.io/repository/biocontainers/bioconductor-idmappingretrieval/status
    :target: https://quay.io/repository/biocontainers/bioconductor-idmappingretrieval
+.. _`bioconductor-idmappingretrieval/tags`: https://quay.io/repository/biocontainers/bioconductor-idmappingretrieval?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-idmappingretrieval/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'forgi'
 .. highlight: bash
-
 
 forgi
 =====
@@ -21,11 +22,33 @@ forgi
 
    |downloads_forgi| |docker_forgi|
 
-   :versions: 1.1
-
-   :depends: :conda:package:`appdirs` ==1.4 :conda:package:`beautifulsoup4` >=4.6 :conda:package:`biopython` >=1.70 :conda:package:`ddt`  :conda:package:`future`  :conda:package:`logging_exceptions` >=0.1.6 :conda:package:`matplotlib` ==2 :conda:package:`networkx` ==2 :conda:package:`numpy` >=1.10.0 :conda:package:`pandas` >=0.20 :conda:package:`python` 2.7* :conda:package:`scipy` >=0.19.1 
-
-   :required~by: |required_by_forgi|
+   :versions: 1.1-2, 1.1-1, 1.1-0
+   
+   :depends appdirs: >=1.4.3
+   
+   :depends beautifulsoup4: >=4.6
+   
+   :depends biopython: >=1.70
+   
+   :depends ddt: 
+   
+   :depends future: 
+   
+   :depends logging_exceptions: >=0.1.6
+   
+   :depends matplotlib: >=2
+   
+   :depends networkx: >=2.0
+   
+   :depends numpy: >=1.10.0
+   
+   :depends pandas: >=0.20
+   
+   :depends python: 
+   
+   :depends scipy: >=0.19.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ forgi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/forgi
+      docker pull quay.io/repository/biocontainers/forgi:<tag>
+
+   (see `forgi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_forgi| conda:required_by:: forgi
 .. |downloads_forgi| image:: https://img.shields.io/conda/dn/bioconda/forgi.svg?style=flat
    :alt:   (downloads)
 .. |docker_forgi| image:: https://quay.io/repository/biocontainers/forgi/status
    :target: https://quay.io/repository/biocontainers/forgi
+.. _`forgi/tags`: https://quay.io/repository/biocontainers/forgi?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/forgi/README.html
-

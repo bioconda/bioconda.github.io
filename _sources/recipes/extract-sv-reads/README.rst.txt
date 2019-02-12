@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'extract-sv-reads'
 .. highlight: bash
-
 
 extract-sv-reads
 ================
@@ -21,11 +22,19 @@ extract-sv-reads
 
    |downloads_extract-sv-reads| |docker_extract-sv-reads|
 
-   :versions: 1.3.0, 1.2.1, 1.1.2, 1.1.0
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_extract-sv-reads|
+   :versions: 1.3.0-0, 1.2.1-1, 1.2.1-0, 1.1.2-0, 1.1.0-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends curl: >=7.59.0,<8.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends xz: >=5.2.4,<5.3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ extract-sv-reads
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/extract-sv-reads
+      docker pull quay.io/repository/biocontainers/extract-sv-reads:<tag>
+
+   (see `extract-sv-reads/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_extract-sv-reads| conda:required_by:: extract-sv-reads
 .. |downloads_extract-sv-reads| image:: https://img.shields.io/conda/dn/bioconda/extract-sv-reads.svg?style=flat
    :alt:   (downloads)
 .. |docker_extract-sv-reads| image:: https://quay.io/repository/biocontainers/extract-sv-reads/status
    :target: https://quay.io/repository/biocontainers/extract-sv-reads
+.. _`extract-sv-reads/tags`: https://quay.io/repository/biocontainers/extract-sv-reads?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/extract-sv-reads/README.html
-

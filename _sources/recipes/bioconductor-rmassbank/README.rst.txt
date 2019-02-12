@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rmassbank'
 .. highlight: bash
-
 
 bioconductor-rmassbank
 ======================
@@ -22,10 +23,8 @@ bioconductor-rmassbank
    |downloads_bioconductor-rmassbank| |docker_bioconductor-rmassbank|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-rmassbank|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-rmassbank
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rmassbank
+      docker pull quay.io/repository/biocontainers/bioconductor-rmassbank:<tag>
+
+   (see `bioconductor-rmassbank/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rmassbank| conda:required_by:: bioconductor-rmassbank
 .. |downloads_bioconductor-rmassbank| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rmassbank.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rmassbank| image:: https://quay.io/repository/biocontainers/bioconductor-rmassbank/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rmassbank
+.. _`bioconductor-rmassbank/tags`: https://quay.io/repository/biocontainers/bioconductor-rmassbank?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rmassbank/README.html
-

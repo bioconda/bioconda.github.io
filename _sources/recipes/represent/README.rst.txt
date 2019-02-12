@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'represent'
 .. highlight: bash
-
 
 represent
 =========
@@ -21,11 +22,13 @@ represent
 
    |downloads_represent| |docker_represent|
 
-   :versions: 1.5.1
-
-   :depends: :conda:package:`python` 2.7* :conda:package:`six` >=1.8.0 
-
-   :required~by: |required_by_represent|
+   :versions: 1.5.1-2, 1.5.1-1
+   
+   :depends python: 
+   
+   :depends six: >=1.8.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ represent
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/represent
+      docker pull quay.io/repository/biocontainers/represent:<tag>
+
+   (see `represent/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_represent| conda:required_by:: represent
 .. |downloads_represent| image:: https://img.shields.io/conda/dn/bioconda/represent.svg?style=flat
    :alt:   (downloads)
 .. |docker_represent| image:: https://quay.io/repository/biocontainers/represent/status
    :target: https://quay.io/repository/biocontainers/represent
+.. _`represent/tags`: https://quay.io/repository/biocontainers/represent?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/represent/README.html
-

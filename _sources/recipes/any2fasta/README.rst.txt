@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'any2fasta'
 .. highlight: bash
-
 
 any2fasta
 =========
@@ -21,11 +22,11 @@ any2fasta
 
    |downloads_any2fasta| |docker_any2fasta|
 
-   :versions: 0.4.2
-
-   :depends: :conda:package:`perl`  
-
-   :required~by: |required_by_any2fasta|
+   :versions: 0.4.2-1
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ any2fasta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/any2fasta
+      docker pull quay.io/repository/biocontainers/any2fasta:<tag>
+
+   (see `any2fasta/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_any2fasta| conda:required_by:: any2fasta
 .. |downloads_any2fasta| image:: https://img.shields.io/conda/dn/bioconda/any2fasta.svg?style=flat
    :alt:   (downloads)
 .. |docker_any2fasta| image:: https://quay.io/repository/biocontainers/any2fasta/status
    :target: https://quay.io/repository/biocontainers/any2fasta
+.. _`any2fasta/tags`: https://quay.io/repository/biocontainers/any2fasta?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/any2fasta/README.html
-

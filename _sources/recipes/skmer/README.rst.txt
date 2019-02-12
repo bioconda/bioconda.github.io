@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'skmer'
 .. highlight: bash
-
 
 skmer
 =====
@@ -21,11 +22,23 @@ skmer
 
    |downloads_skmer| |docker_skmer|
 
-   :versions: 2.0.1, 2.0.0, 1.1.0, 1.0.0
-
-   :depends: :conda:package:`jellyfish` 2.2.6 :conda:package:`mash` 1.1 :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python`  :conda:package:`scipy`  :conda:package:`seqtk` 1.3 
-
-   :required~by: |required_by_skmer|
+   :versions: 2.0.1-0, 2.0.0-0, 1.1.0-1, 1.1.0-0, 1.0.0-0
+   
+   :depends jellyfish: 2.2.6
+   
+   :depends mash: 1.1
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: 
+   
+   :depends scipy: 
+   
+   :depends seqtk: 1.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ skmer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/skmer
+      docker pull quay.io/repository/biocontainers/skmer:<tag>
+
+   (see `skmer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_skmer| conda:required_by:: skmer
 .. |downloads_skmer| image:: https://img.shields.io/conda/dn/bioconda/skmer.svg?style=flat
    :alt:   (downloads)
 .. |docker_skmer| image:: https://quay.io/repository/biocontainers/skmer/status
    :target: https://quay.io/repository/biocontainers/skmer
+.. _`skmer/tags`: https://quay.io/repository/biocontainers/skmer?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/skmer/README.html
-

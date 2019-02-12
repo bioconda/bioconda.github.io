@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lordec'
 .. highlight: bash
-
 
 lordec
 ======
@@ -21,11 +22,19 @@ lordec
 
    |downloads_lordec| |docker_lordec|
 
-   :versions: 0.9, 0.6
-
-   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`gatb` 1.4.1.* :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_lordec|
+   :versions: 0.9-0, 0.6-2, 0.6-1, 0.6-0
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends gatb: 1.4.1.*
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ lordec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lordec
+      docker pull quay.io/repository/biocontainers/lordec:<tag>
+
+   (see `lordec/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lordec| conda:required_by:: lordec
 .. |downloads_lordec| image:: https://img.shields.io/conda/dn/bioconda/lordec.svg?style=flat
    :alt:   (downloads)
 .. |docker_lordec| image:: https://quay.io/repository/biocontainers/lordec/status
    :target: https://quay.io/repository/biocontainers/lordec
+.. _`lordec/tags`: https://quay.io/repository/biocontainers/lordec?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lordec/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biopet-bamstats'
 .. highlight: bash
-
 
 biopet-bamstats
 ===============
@@ -52,11 +53,13 @@ biopet-bamstats
 
    |downloads_biopet-bamstats| |docker_biopet-bamstats|
 
-   :versions: 1.0.1, 1.0
-
-   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
-
-   :required~by: |required_by_biopet-bamstats|
+   :versions: 1.0.1-0, 1.0-0
+   
+   :depends openjdk: >=8,<9
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -70,14 +73,16 @@ biopet-bamstats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-bamstats
+      docker pull quay.io/repository/biocontainers/biopet-bamstats:<tag>
+
+   (see `biopet-bamstats/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biopet-bamstats| conda:required_by:: biopet-bamstats
 .. |downloads_biopet-bamstats| image:: https://img.shields.io/conda/dn/bioconda/biopet-bamstats.svg?style=flat
    :alt:   (downloads)
 .. |docker_biopet-bamstats| image:: https://quay.io/repository/biocontainers/biopet-bamstats/status
    :target: https://quay.io/repository/biocontainers/biopet-bamstats
+.. _`biopet-bamstats/tags`: https://quay.io/repository/biocontainers/biopet-bamstats?tab=tags
 
 
 
@@ -103,4 +108,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biopet-bamstats/README.html
-

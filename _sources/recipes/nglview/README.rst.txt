@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nglview'
 .. highlight: bash
-
 
 nglview
 =======
@@ -23,11 +24,17 @@ nglview
 
    |downloads_nglview| |docker_nglview|
 
-   :versions: 1.1.7, 1.1.6, 1.1.2, 1.1.1, 1.0, 0.6.5, 0.6.4, 0.6.3, 0.6.2.4, 0.6.2.3, 0.6.2.2, 0.6.2.1, 0.6.1, 0.5.2, 0.5.1
-
-   :depends: :conda:package:`ipywidgets` >=7 :conda:package:`notebook`  :conda:package:`numpy`  :conda:package:`python`  
-
-   :required~by: |required_by_nglview|
+   :versions: 1.1.7-0, 1.1.6-0, 1.1.2-1, 1.1.1-1, 1.0-1, 0.6.5-1, 0.6.4-1, 0.6.3-0, 0.6.2.4-0, 0.6.2.3-0, 0.6.2.2-1, 0.6.2.2-0, 0.6.2.1-0, 0.6.1-0, 0.5.2-0, 0.5.1-0
+   
+   :depends ipywidgets: >=7
+   
+   :depends notebook: 
+   
+   :depends numpy: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +48,16 @@ nglview
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nglview
+      docker pull quay.io/repository/biocontainers/nglview:<tag>
+
+   (see `nglview/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nglview| conda:required_by:: nglview
 .. |downloads_nglview| image:: https://img.shields.io/conda/dn/bioconda/nglview.svg?style=flat
    :alt:   (downloads)
 .. |docker_nglview| image:: https://quay.io/repository/biocontainers/nglview/status
    :target: https://quay.io/repository/biocontainers/nglview
+.. _`nglview/tags`: https://quay.io/repository/biocontainers/nglview?tab=tags
 
 
 
@@ -65,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nglview/README.html
-

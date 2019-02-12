@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-scrm'
 .. highlight: bash
-
 
 r-scrm
 ======
@@ -21,11 +22,17 @@ r-scrm
 
    |downloads_r-scrm| |docker_r-scrm|
 
-   :versions: 1.7.2_4, 1.7.2_0, 1.6.0_2
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-rcpp` >=0.11.2 
-
-   :required~by: |required_by_r-scrm|
+   :versions: 1.7.2_4-1, 1.7.2_4-0, 1.7.2_0-0, 1.6.0_2-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcpp: >=0.11.2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-scrm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-scrm
+      docker pull quay.io/repository/biocontainers/r-scrm:<tag>
+
+   (see `r-scrm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-scrm| conda:required_by:: r-scrm
 .. |downloads_r-scrm| image:: https://img.shields.io/conda/dn/bioconda/r-scrm.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-scrm| image:: https://quay.io/repository/biocontainers/r-scrm/status
    :target: https://quay.io/repository/biocontainers/r-scrm
+.. _`r-scrm/tags`: https://quay.io/repository/biocontainers/r-scrm?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-scrm/README.html
-

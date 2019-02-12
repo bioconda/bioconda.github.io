@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'scala'
 .. highlight: bash
-
 
 scala
 =====
@@ -21,11 +22,11 @@ scala
 
    |downloads_scala| |docker_scala|
 
-   :versions: 2.11.8
-
-   :depends: :conda:package:`java-jdk` >=8 
-
-   :required~by: |required_by_scala|
+   :versions: 2.11.8-1, 2.11.8-0
+   
+   :depends openjdk: >=8
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ scala
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scala
+      docker pull quay.io/repository/biocontainers/scala:<tag>
+
+   (see `scala/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_scala| conda:required_by:: scala
 .. |downloads_scala| image:: https://img.shields.io/conda/dn/bioconda/scala.svg?style=flat
    :alt:   (downloads)
 .. |docker_scala| image:: https://quay.io/repository/biocontainers/scala/status
    :target: https://quay.io/repository/biocontainers/scala
+.. _`scala/tags`: https://quay.io/repository/biocontainers/scala?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/scala/README.html
-

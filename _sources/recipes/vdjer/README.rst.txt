@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vdjer'
 .. highlight: bash
-
 
 vdjer
 =====
@@ -21,11 +22,15 @@ vdjer
 
    |downloads_vdjer| |docker_vdjer|
 
-   :versions: 0.12
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_vdjer|
+   :versions: 0.12-2, 0.12-1, 0.12-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ vdjer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vdjer
+      docker pull quay.io/repository/biocontainers/vdjer:<tag>
+
+   (see `vdjer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vdjer| conda:required_by:: vdjer
 .. |downloads_vdjer| image:: https://img.shields.io/conda/dn/bioconda/vdjer.svg?style=flat
    :alt:   (downloads)
 .. |docker_vdjer| image:: https://quay.io/repository/biocontainers/vdjer/status
    :target: https://quay.io/repository/biocontainers/vdjer
+.. _`vdjer/tags`: https://quay.io/repository/biocontainers/vdjer?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vdjer/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-furrowseg'
 .. highlight: bash
-
 
 bioconductor-furrowseg
 ======================
@@ -21,11 +22,23 @@ bioconductor-furrowseg
 
    |downloads_bioconductor-furrowseg| |docker_bioconductor-furrowseg|
 
-   :versions: 1.10.0
-
-   :depends: :conda:package:`bioconductor-ebimage` >=4.24.0,<4.25.0 :conda:package:`r-abind`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-locfit`  :conda:package:`r-tiff`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-furrowseg|
+   :versions: 1.10.0-0
+   
+   :depends bioconductor-ebimage: >=4.24.0,<4.25.0
+   
+   :depends r-abind: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-locfit: 
+   
+   :depends r-tiff: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-furrowseg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-furrowseg
+      docker pull quay.io/repository/biocontainers/bioconductor-furrowseg:<tag>
+
+   (see `bioconductor-furrowseg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-furrowseg| conda:required_by:: bioconductor-furrowseg
 .. |downloads_bioconductor-furrowseg| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-furrowseg.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-furrowseg| image:: https://quay.io/repository/biocontainers/bioconductor-furrowseg/status
    :target: https://quay.io/repository/biocontainers/bioconductor-furrowseg
+.. _`bioconductor-furrowseg/tags`: https://quay.io/repository/biocontainers/bioconductor-furrowseg?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-furrowseg/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dsh-bio'
 .. highlight: bash
-
 
 dsh-bio
 =======
@@ -21,11 +22,11 @@ dsh-bio
 
    |downloads_dsh-bio| |docker_dsh-bio|
 
-   :versions: 1.0.1, 1.0
-
-   :depends: :conda:package:`openjdk` >=8 
-
-   :required~by: |required_by_dsh-bio|
+   :versions: 1.0.1-1, 1.0.1-0, 1.0-0
+   
+   :depends openjdk: >=8
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ dsh-bio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dsh-bio
+      docker pull quay.io/repository/biocontainers/dsh-bio:<tag>
+
+   (see `dsh-bio/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dsh-bio| conda:required_by:: dsh-bio
 .. |downloads_dsh-bio| image:: https://img.shields.io/conda/dn/bioconda/dsh-bio.svg?style=flat
    :alt:   (downloads)
 .. |docker_dsh-bio| image:: https://quay.io/repository/biocontainers/dsh-bio/status
    :target: https://quay.io/repository/biocontainers/dsh-bio
+.. _`dsh-bio/tags`: https://quay.io/repository/biocontainers/dsh-bio?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dsh-bio/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'panoct'
 .. highlight: bash
-
 
 panoct
 ======
@@ -21,11 +22,11 @@ panoct
 
    |downloads_panoct| |docker_panoct|
 
-   :versions: 3.23
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_panoct|
+   :versions: 3.23-1, 3.23-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ panoct
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/panoct
+      docker pull quay.io/repository/biocontainers/panoct:<tag>
+
+   (see `panoct/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_panoct| conda:required_by:: panoct
 .. |downloads_panoct| image:: https://img.shields.io/conda/dn/bioconda/panoct.svg?style=flat
    :alt:   (downloads)
 .. |docker_panoct| image:: https://quay.io/repository/biocontainers/panoct/status
    :target: https://quay.io/repository/biocontainers/panoct
+.. _`panoct/tags`: https://quay.io/repository/biocontainers/panoct?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/panoct/README.html
-

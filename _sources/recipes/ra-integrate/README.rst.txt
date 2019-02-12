@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ra-integrate'
 .. highlight: bash
-
 
 ra-integrate
 ============
@@ -21,11 +22,17 @@ ra-integrate
 
    |downloads_ra-integrate| |docker_ra-integrate|
 
-   :versions: 0.1
-
-   :depends: :conda:package:`graphviz`  :conda:package:`libgcc`  :conda:package:`ra`  :conda:package:`ruby`  
-
-   :required~by: |required_by_ra-integrate|
+   :versions: 0.1-0
+   
+   :depends graphviz: 
+   
+   :depends libgcc: 
+   
+   :depends ra: 
+   
+   :depends ruby: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ ra-integrate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ra-integrate
+      docker pull quay.io/repository/biocontainers/ra-integrate:<tag>
+
+   (see `ra-integrate/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ra-integrate| conda:required_by:: ra-integrate
 .. |downloads_ra-integrate| image:: https://img.shields.io/conda/dn/bioconda/ra-integrate.svg?style=flat
    :alt:   (downloads)
 .. |docker_ra-integrate| image:: https://quay.io/repository/biocontainers/ra-integrate/status
    :target: https://quay.io/repository/biocontainers/ra-integrate
+.. _`ra-integrate/tags`: https://quay.io/repository/biocontainers/ra-integrate?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ra-integrate/README.html
-

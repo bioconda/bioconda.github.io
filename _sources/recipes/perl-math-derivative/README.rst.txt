@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-math-derivative'
 .. highlight: bash
-
 
 perl-math-derivative
 ====================
@@ -21,11 +22,11 @@ perl-math-derivative
 
    |downloads_perl-math-derivative| |docker_perl-math-derivative|
 
-   :versions: 1.01, 0.04
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-math-derivative|
+   :versions: 1.01-0, 0.04-1, 0.04-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-math-derivative
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-derivative
+      docker pull quay.io/repository/biocontainers/perl-math-derivative:<tag>
+
+   (see `perl-math-derivative/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-math-derivative| conda:required_by:: perl-math-derivative
 .. |downloads_perl-math-derivative| image:: https://img.shields.io/conda/dn/bioconda/perl-math-derivative.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-math-derivative| image:: https://quay.io/repository/biocontainers/perl-math-derivative/status
    :target: https://quay.io/repository/biocontainers/perl-math-derivative
+.. _`perl-math-derivative/tags`: https://quay.io/repository/biocontainers/perl-math-derivative?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-math-derivative/README.html
-

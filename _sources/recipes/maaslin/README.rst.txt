@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'maaslin'
 .. highlight: bash
-
 
 maaslin
 =======
@@ -21,11 +22,35 @@ maaslin
 
    |downloads_maaslin| |docker_maaslin|
 
-   :versions: 0.04
-
-   :depends: :conda:package:`r` 3.3.1* :conda:package:`r-agricolae`  :conda:package:`r-gam`  :conda:package:`r-gamlss`  :conda:package:`r-gbm`  :conda:package:`r-glmnet`  :conda:package:`r-inlinedocs`  :conda:package:`r-logging`  :conda:package:`r-optparse`  :conda:package:`r-outliers`  :conda:package:`r-penalized`  :conda:package:`r-pscl`  :conda:package:`r-robustbase`  
-
-   :required~by: |required_by_maaslin|
+   :versions: 0.04-1, 0.04-0
+   
+   :depends r-agricolae: 
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-gam: 
+   
+   :depends r-gamlss: 
+   
+   :depends r-gbm: 
+   
+   :depends r-glmnet: 
+   
+   :depends r-inlinedocs: 
+   
+   :depends r-logging: 
+   
+   :depends r-optparse: 
+   
+   :depends r-outliers: 
+   
+   :depends r-penalized: 
+   
+   :depends r-pscl: 
+   
+   :depends r-robustbase: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ maaslin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/maaslin
+      docker pull quay.io/repository/biocontainers/maaslin:<tag>
+
+   (see `maaslin/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_maaslin| conda:required_by:: maaslin
 .. |downloads_maaslin| image:: https://img.shields.io/conda/dn/bioconda/maaslin.svg?style=flat
    :alt:   (downloads)
 .. |docker_maaslin| image:: https://quay.io/repository/biocontainers/maaslin/status
    :target: https://quay.io/repository/biocontainers/maaslin
+.. _`maaslin/tags`: https://quay.io/repository/biocontainers/maaslin?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/maaslin/README.html
-

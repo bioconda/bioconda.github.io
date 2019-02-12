@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cellhts2'
 .. highlight: bash
-
 
 bioconductor-cellhts2
 =====================
@@ -22,11 +23,33 @@ bioconductor-cellhts2
 
    |downloads_bioconductor-cellhts2| |docker_bioconductor-cellhts2|
 
-   :versions: 2.46.0, 2.44.0, 2.42.0, 2.40.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-category` >=2.48.0,<2.49.0 :conda:package:`bioconductor-genefilter` >=1.64.0,<1.65.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`bioconductor-prada` >=1.58.0,<1.59.0 :conda:package:`bioconductor-splots` >=1.48.0,<1.49.0 :conda:package:`bioconductor-vsn` >=3.50.0,<3.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-hwriter`  :conda:package:`r-locfit`  :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_bioconductor-cellhts2|
+   :versions: 2.46.0-0, 2.44.0-0, 2.42.0-0, 2.40.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-category: >=2.48.0,<2.49.0
+   
+   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
+   
+   :depends bioconductor-gseabase: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-prada: >=1.58.0,<1.59.0
+   
+   :depends bioconductor-splots: >=1.48.0,<1.49.0
+   
+   :depends bioconductor-vsn: >=3.50.0,<3.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-hwriter: 
+   
+   :depends r-locfit: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +63,16 @@ bioconductor-cellhts2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cellhts2
+      docker pull quay.io/repository/biocontainers/bioconductor-cellhts2:<tag>
+
+   (see `bioconductor-cellhts2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cellhts2| conda:required_by:: bioconductor-cellhts2
 .. |downloads_bioconductor-cellhts2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cellhts2.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cellhts2| image:: https://quay.io/repository/biocontainers/bioconductor-cellhts2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cellhts2
+.. _`bioconductor-cellhts2/tags`: https://quay.io/repository/biocontainers/bioconductor-cellhts2?tab=tags
 
 
 
@@ -64,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cellhts2/README.html
-

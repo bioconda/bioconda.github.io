@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-meshes'
 .. highlight: bash
-
 
 bioconductor-meshes
 ===================
@@ -22,11 +23,23 @@ bioconductor-meshes
 
    |downloads_bioconductor-meshes| |docker_bioconductor-meshes|
 
-   :versions: 1.8.0, 1.6.1, 1.4.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-dose` >=3.8.0,<3.9.0 :conda:package:`bioconductor-enrichplot` >=1.2.0,<1.3.0 :conda:package:`bioconductor-gosemsim` >=2.8.0,<2.9.0 :conda:package:`bioconductor-mesh.db` >=1.11.0,<1.12.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rvcheck`  
-
-   :required~by: |required_by_bioconductor-meshes|
+   :versions: 1.8.0-0, 1.6.1-0, 1.4.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-dose: >=3.8.0,<3.9.0
+   
+   :depends bioconductor-enrichplot: >=1.2.0,<1.3.0
+   
+   :depends bioconductor-gosemsim: >=2.8.0,<2.9.0
+   
+   :depends bioconductor-mesh.db: >=1.11.0,<1.12.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rvcheck: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ bioconductor-meshes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-meshes
+      docker pull quay.io/repository/biocontainers/bioconductor-meshes:<tag>
+
+   (see `bioconductor-meshes/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-meshes| conda:required_by:: bioconductor-meshes
 .. |downloads_bioconductor-meshes| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-meshes.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-meshes| image:: https://quay.io/repository/biocontainers/bioconductor-meshes/status
    :target: https://quay.io/repository/biocontainers/bioconductor-meshes
+.. _`bioconductor-meshes/tags`: https://quay.io/repository/biocontainers/bioconductor-meshes?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-meshes/README.html
-

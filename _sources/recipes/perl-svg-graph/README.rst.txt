@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-svg-graph'
 .. highlight: bash
-
 
 perl-svg-graph
 ==============
@@ -21,11 +22,21 @@ perl-svg-graph
 
    |downloads_perl-svg-graph| |docker_perl-svg-graph|
 
-   :versions: 0.02
-
-   :depends: :conda:package:`perl-math-derivative`  :conda:package:`perl-math-spline`  :conda:package:`perl-statistics-descriptive`  :conda:package:`perl-svg`  :conda:package:`perl-threaded`  :conda:package:`perl-tree-dag_node`  
-
-   :required~by: |required_by_perl-svg-graph|
+   :versions: 0.02-2, 0.02-1, 0.02-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-math-derivative: 
+   
+   :depends perl-math-spline: 
+   
+   :depends perl-statistics-descriptive: 
+   
+   :depends perl-svg: 
+   
+   :depends perl-tree-dag_node: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-svg-graph
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-svg-graph
+      docker pull quay.io/repository/biocontainers/perl-svg-graph:<tag>
+
+   (see `perl-svg-graph/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-svg-graph| conda:required_by:: perl-svg-graph
 .. |downloads_perl-svg-graph| image:: https://img.shields.io/conda/dn/bioconda/perl-svg-graph.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-svg-graph| image:: https://quay.io/repository/biocontainers/perl-svg-graph/status
    :target: https://quay.io/repository/biocontainers/perl-svg-graph
+.. _`perl-svg-graph/tags`: https://quay.io/repository/biocontainers/perl-svg-graph?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-svg-graph/README.html
-

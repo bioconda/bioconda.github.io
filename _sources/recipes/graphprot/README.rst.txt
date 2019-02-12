@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'graphprot'
 .. highlight: bash
-
 
 graphprot
 =========
@@ -21,11 +22,35 @@ graphprot
 
    |downloads_graphprot| |docker_graphprot|
 
-   :versions: 1.1.7, 1.1.6
-
-   :depends: :conda:package:`coreutils`  :conda:package:`curl`  :conda:package:`gawk`  :conda:package:`libgcc`  :conda:package:`libsvm`  :conda:package:`make`  :conda:package:`openmp`  :conda:package:`perl-getopt-long`  :conda:package:`r-plyr`  :conda:package:`r-prroc`  :conda:package:`rnashapes` <3 :conda:package:`weblogo` >=3 :conda:package:`zlib` 1.2.8* 
-
-   :required~by: |required_by_graphprot|
+   :versions: 1.1.7-4, 1.1.7-2, 1.1.7-1, 1.1.7-0, 1.1.6-0
+   
+   :depends coreutils: 
+   
+   :depends curl: >=7.61.0,<8.0a0
+   
+   :depends gawk: 
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends libsvm: >=3.21,<3.22.0a0
+   
+   :depends make: 
+   
+   :depends openmp: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends r-plyr: 
+   
+   :depends r-prroc: 
+   
+   :depends rnashapes: <3
+   
+   :depends weblogo: >=3
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ graphprot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/graphprot
+      docker pull quay.io/repository/biocontainers/graphprot:<tag>
+
+   (see `graphprot/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_graphprot| conda:required_by:: graphprot
 .. |downloads_graphprot| image:: https://img.shields.io/conda/dn/bioconda/graphprot.svg?style=flat
    :alt:   (downloads)
 .. |docker_graphprot| image:: https://quay.io/repository/biocontainers/graphprot/status
    :target: https://quay.io/repository/biocontainers/graphprot
+.. _`graphprot/tags`: https://quay.io/repository/biocontainers/graphprot?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/graphprot/README.html
-

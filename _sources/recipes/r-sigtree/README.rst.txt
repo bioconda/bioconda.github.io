@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-sigtree'
 .. highlight: bash
-
 
 r-sigtree
 =========
@@ -21,11 +22,27 @@ r-sigtree
 
    |downloads_r-sigtree| |docker_r-sigtree|
 
-   :versions: 1.10.6
-
-   :depends: :conda:package:`bioconductor-phyloseq`  :conda:package:`r-ape`  :conda:package:`r-base` 3.4.1* :conda:package:`r-mass`  :conda:package:`r-phyext2`  :conda:package:`r-phylobase`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-vegan`  
-
-   :required~by: |required_by_r-sigtree|
+   :versions: 1.10.6-4, 1.10.6-3, 1.10.6-2, 1.10.6-1, 1.10.6-0
+   
+   :depends bioconductor-phyloseq: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mass: 
+   
+   :depends r-phyext2: 
+   
+   :depends r-phylobase: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-vegan: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ r-sigtree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-sigtree
+      docker pull quay.io/repository/biocontainers/r-sigtree:<tag>
+
+   (see `r-sigtree/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-sigtree| conda:required_by:: r-sigtree
 .. |downloads_r-sigtree| image:: https://img.shields.io/conda/dn/bioconda/r-sigtree.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-sigtree| image:: https://quay.io/repository/biocontainers/r-sigtree/status
    :target: https://quay.io/repository/biocontainers/r-sigtree
+.. _`r-sigtree/tags`: https://quay.io/repository/biocontainers/r-sigtree?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-sigtree/README.html
-

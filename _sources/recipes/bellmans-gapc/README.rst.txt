@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bellmans-gapc'
 .. highlight: bash
-
 
 bellmans-gapc
 =============
@@ -21,11 +22,17 @@ bellmans-gapc
 
    |downloads_bellmans-gapc| |docker_bellmans-gapc|
 
-   :versions: 0.1
-
-   :depends: :conda:package:`boost` 1.61* :conda:package:`gsl` 1.16* :conda:package:`libgcc`  
-
-   :required~by: |required_by_bellmans-gapc|
+   :versions: 0.1-2, 0.1-1, 0.1-0
+   
+   :depends boost: 1.64*
+   
+   :depends gsl: 2.2*
+   
+   :depends libgcc: 
+   
+   :depends openblas: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bellmans-gapc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bellmans-gapc
+      docker pull quay.io/repository/biocontainers/bellmans-gapc:<tag>
+
+   (see `bellmans-gapc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bellmans-gapc| conda:required_by:: bellmans-gapc
 .. |downloads_bellmans-gapc| image:: https://img.shields.io/conda/dn/bioconda/bellmans-gapc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bellmans-gapc| image:: https://quay.io/repository/biocontainers/bellmans-gapc/status
    :target: https://quay.io/repository/biocontainers/bellmans-gapc
+.. _`bellmans-gapc/tags`: https://quay.io/repository/biocontainers/bellmans-gapc?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bellmans-gapc/README.html
-

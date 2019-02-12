@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ceu1kg'
 .. highlight: bash
-
 
 bioconductor-ceu1kg
 ===================
@@ -21,11 +22,19 @@ bioconductor-ceu1kg
 
    |downloads_bioconductor-ceu1kg| |docker_bioconductor-ceu1kg|
 
-   :versions: 0.20.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-ggbase` >=3.44.0,<3.45.0 :conda:package:`bioconductor-ggtools` >=5.18.0,<5.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-ceu1kg|
+   :versions: 0.20.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-ggbase: >=3.44.0,<3.45.0
+   
+   :depends bioconductor-ggtools: >=5.18.0,<5.19.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-ceu1kg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ceu1kg
+      docker pull quay.io/repository/biocontainers/bioconductor-ceu1kg:<tag>
+
+   (see `bioconductor-ceu1kg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ceu1kg| conda:required_by:: bioconductor-ceu1kg
 .. |downloads_bioconductor-ceu1kg| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ceu1kg.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ceu1kg| image:: https://quay.io/repository/biocontainers/bioconductor-ceu1kg/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ceu1kg
+.. _`bioconductor-ceu1kg/tags`: https://quay.io/repository/biocontainers/bioconductor-ceu1kg?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ceu1kg/README.html
-

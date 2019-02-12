@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pypiper'
 .. highlight: bash
-
 
 pypiper
 =======
@@ -22,11 +23,11 @@ pypiper
 
    |downloads_pypiper| |docker_pypiper|
 
-   :versions: 0.8, 0.7.2, 0.6
-
-   :depends: :conda:package:`python` <3 
-
-   :required~by: |required_by_pypiper|
+   :versions: 0.8-0, 0.7.2-2, 0.7.2-0, 0.6-0
+   
+   :depends python: <3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ pypiper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pypiper
+      docker pull quay.io/repository/biocontainers/pypiper:<tag>
+
+   (see `pypiper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pypiper| conda:required_by:: pypiper
 .. |downloads_pypiper| image:: https://img.shields.io/conda/dn/bioconda/pypiper.svg?style=flat
    :alt:   (downloads)
 .. |docker_pypiper| image:: https://quay.io/repository/biocontainers/pypiper/status
    :target: https://quay.io/repository/biocontainers/pypiper
+.. _`pypiper/tags`: https://quay.io/repository/biocontainers/pypiper?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pypiper/README.html
-

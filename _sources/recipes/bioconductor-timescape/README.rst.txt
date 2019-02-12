@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-timescape'
 .. highlight: bash
-
 
 bioconductor-timescape
 ======================
@@ -21,11 +22,21 @@ bioconductor-timescape
 
    |downloads_bioconductor-timescape| |docker_bioconductor-timescape|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr` >=0.4.3 :conda:package:`r-gtools` >=3.5.0 :conda:package:`r-htmlwidgets` >=0.5 :conda:package:`r-jsonlite` >=0.9.19 :conda:package:`r-stringr` >=1.0.0 
-
-   :required~by: |required_by_bioconductor-timescape|
+   :versions: 1.6.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: >=0.4.3
+   
+   :depends r-gtools: >=3.5.0
+   
+   :depends r-htmlwidgets: >=0.5
+   
+   :depends r-jsonlite: >=0.9.19
+   
+   :depends r-stringr: >=1.0.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-timescape
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-timescape
+      docker pull quay.io/repository/biocontainers/bioconductor-timescape:<tag>
+
+   (see `bioconductor-timescape/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-timescape| conda:required_by:: bioconductor-timescape
 .. |downloads_bioconductor-timescape| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-timescape.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-timescape| image:: https://quay.io/repository/biocontainers/bioconductor-timescape/status
    :target: https://quay.io/repository/biocontainers/bioconductor-timescape
+.. _`bioconductor-timescape/tags`: https://quay.io/repository/biocontainers/bioconductor-timescape?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-timescape/README.html
-

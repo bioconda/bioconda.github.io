@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-safe'
 .. highlight: bash
-
 
 perl-safe
 =========
@@ -21,11 +22,11 @@ perl-safe
 
    |downloads_perl-safe| |docker_perl-safe|
 
-   :versions: 2.37
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-safe|
+   :versions: 2.37-1, 2.37-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-safe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-safe
+      docker pull quay.io/repository/biocontainers/perl-safe:<tag>
+
+   (see `perl-safe/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-safe| conda:required_by:: perl-safe
 .. |downloads_perl-safe| image:: https://img.shields.io/conda/dn/bioconda/perl-safe.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-safe| image:: https://quay.io/repository/biocontainers/perl-safe/status
    :target: https://quay.io/repository/biocontainers/perl-safe
+.. _`perl-safe/tags`: https://quay.io/repository/biocontainers/perl-safe?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-safe/README.html
-

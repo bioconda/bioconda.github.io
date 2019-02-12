@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-sub-name'
 .. highlight: bash
-
 
 perl-sub-name
 =============
@@ -21,11 +22,11 @@ perl-sub-name
 
    |downloads_perl-sub-name| |docker_perl-sub-name|
 
-   :versions: 0.21
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-sub-name|
+   :versions: 0.21-1, 0.21-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-sub-name
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-name
+      docker pull quay.io/repository/biocontainers/perl-sub-name:<tag>
+
+   (see `perl-sub-name/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-sub-name| conda:required_by:: perl-sub-name
 .. |downloads_perl-sub-name| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-name.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-sub-name| image:: https://quay.io/repository/biocontainers/perl-sub-name/status
    :target: https://quay.io/repository/biocontainers/perl-sub-name
+.. _`perl-sub-name/tags`: https://quay.io/repository/biocontainers/perl-sub-name?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-sub-name/README.html
-

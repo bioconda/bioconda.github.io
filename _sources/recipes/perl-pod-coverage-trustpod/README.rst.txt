@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-pod-coverage-trustpod'
 .. highlight: bash
-
 
 perl-pod-coverage-trustpod
 ==========================
@@ -21,11 +22,17 @@ perl-pod-coverage-trustpod
 
    |downloads_perl-pod-coverage-trustpod| |docker_perl-pod-coverage-trustpod|
 
-   :versions: 0.100003
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-base`  :conda:package:`perl-lib`  
-
-   :required~by: |required_by_perl-pod-coverage-trustpod|
+   :versions: 0.100003-1, 0.100003-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-base: 
+   
+   :depends perl-lib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-pod-coverage-trustpod
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pod-coverage-trustpod
+      docker pull quay.io/repository/biocontainers/perl-pod-coverage-trustpod:<tag>
+
+   (see `perl-pod-coverage-trustpod/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-pod-coverage-trustpod| conda:required_by:: perl-pod-coverage-trustpod
 .. |downloads_perl-pod-coverage-trustpod| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-coverage-trustpod.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-pod-coverage-trustpod| image:: https://quay.io/repository/biocontainers/perl-pod-coverage-trustpod/status
    :target: https://quay.io/repository/biocontainers/perl-pod-coverage-trustpod
+.. _`perl-pod-coverage-trustpod/tags`: https://quay.io/repository/biocontainers/perl-pod-coverage-trustpod?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-pod-coverage-trustpod/README.html
-

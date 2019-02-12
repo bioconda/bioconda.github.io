@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-rtfbs'
 .. highlight: bash
-
 
 r-rtfbs
 =======
@@ -21,11 +22,15 @@ r-rtfbs
 
    |downloads_r-rtfbs| |docker_r-rtfbs|
 
-   :versions: 0.3.9
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rphast`  
-
-   :required~by: |required_by_r-rtfbs|
+   :versions: 0.3.9-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rphast: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-rtfbs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rtfbs
+      docker pull quay.io/repository/biocontainers/r-rtfbs:<tag>
+
+   (see `r-rtfbs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-rtfbs| conda:required_by:: r-rtfbs
 .. |downloads_r-rtfbs| image:: https://img.shields.io/conda/dn/bioconda/r-rtfbs.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-rtfbs| image:: https://quay.io/repository/biocontainers/r-rtfbs/status
    :target: https://quay.io/repository/biocontainers/r-rtfbs
+.. _`r-rtfbs/tags`: https://quay.io/repository/biocontainers/r-rtfbs?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-rtfbs/README.html
-

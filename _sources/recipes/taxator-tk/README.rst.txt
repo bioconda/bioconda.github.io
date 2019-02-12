@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'taxator-tk'
 .. highlight: bash
-
 
 taxator-tk
 ==========
@@ -21,11 +22,11 @@ taxator-tk
 
    |downloads_taxator-tk| |docker_taxator-tk|
 
-   :versions: 1.3.3e
-
-   :depends: :conda:package:`boost` 1.64.0 py27_4 
-
-   :required~by: |required_by_taxator-tk|
+   :versions: 1.3.3e-0
+   
+   :depends boost: 1.64.0 py27_4
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ taxator-tk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/taxator-tk
+      docker pull quay.io/repository/biocontainers/taxator-tk:<tag>
+
+   (see `taxator-tk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_taxator-tk| conda:required_by:: taxator-tk
 .. |downloads_taxator-tk| image:: https://img.shields.io/conda/dn/bioconda/taxator-tk.svg?style=flat
    :alt:   (downloads)
 .. |docker_taxator-tk| image:: https://quay.io/repository/biocontainers/taxator-tk/status
    :target: https://quay.io/repository/biocontainers/taxator-tk
+.. _`taxator-tk/tags`: https://quay.io/repository/biocontainers/taxator-tk?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/taxator-tk/README.html
-

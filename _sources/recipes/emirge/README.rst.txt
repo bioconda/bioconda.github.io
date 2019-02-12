@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'emirge'
 .. highlight: bash
-
 
 emirge
 ======
@@ -21,11 +22,29 @@ emirge
 
    |downloads_emirge| |docker_emirge|
 
-   :versions: 0.61.1
-
-   :depends: :conda:package:`biopython`  :conda:package:`bowtie`  :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`samtools`  :conda:package:`scipy`  :conda:package:`vsearch`  :conda:package:`zlib`  
-
-   :required~by: |required_by_emirge|
+   :versions: 0.61.1-2, 0.61.1-1, 0.61.1-0
+   
+   :depends biopython: 
+   
+   :depends bowtie: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends numpy: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: 
+   
+   :depends scipy: 
+   
+   :depends vsearch: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ emirge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/emirge
+      docker pull quay.io/repository/biocontainers/emirge:<tag>
+
+   (see `emirge/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_emirge| conda:required_by:: emirge
 .. |downloads_emirge| image:: https://img.shields.io/conda/dn/bioconda/emirge.svg?style=flat
    :alt:   (downloads)
 .. |docker_emirge| image:: https://quay.io/repository/biocontainers/emirge/status
    :target: https://quay.io/repository/biocontainers/emirge
+.. _`emirge/tags`: https://quay.io/repository/biocontainers/emirge?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/emirge/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'scaffold_builder'
 .. highlight: bash
-
 
 scaffold_builder
 ================
@@ -22,11 +23,13 @@ scaffold_builder
 
    |downloads_scaffold_builder| |docker_scaffold_builder|
 
-   :versions: 2.2
-
-   :depends: :conda:package:`mummer`  :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_scaffold_builder|
+   :versions: 2.2-0
+   
+   :depends mummer: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ scaffold_builder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scaffold_builder
+      docker pull quay.io/repository/biocontainers/scaffold_builder:<tag>
+
+   (see `scaffold_builder/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_scaffold_builder| conda:required_by:: scaffold_builder
 .. |downloads_scaffold_builder| image:: https://img.shields.io/conda/dn/bioconda/scaffold_builder.svg?style=flat
    :alt:   (downloads)
 .. |docker_scaffold_builder| image:: https://quay.io/repository/biocontainers/scaffold_builder/status
    :target: https://quay.io/repository/biocontainers/scaffold_builder
+.. _`scaffold_builder/tags`: https://quay.io/repository/biocontainers/scaffold_builder?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/scaffold_builder/README.html
-

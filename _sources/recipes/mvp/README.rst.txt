@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mvp'
 .. highlight: bash
-
 
 mvp
 ===
@@ -21,11 +22,15 @@ mvp
 
    |downloads_mvp| |docker_mvp|
 
-   :versions: 0.4.3, 0.4.1
-
-   :depends: :conda:package:`biopython`  :conda:package:`pysam` >=0.8.4 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_mvp|
+   :versions: 0.4.3-1, 0.4.3-0, 0.4.1-1, 0.4.1-0
+   
+   :depends biopython: 
+   
+   :depends pysam: >=0.8.4
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ mvp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mvp
+      docker pull quay.io/repository/biocontainers/mvp:<tag>
+
+   (see `mvp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mvp| conda:required_by:: mvp
 .. |downloads_mvp| image:: https://img.shields.io/conda/dn/bioconda/mvp.svg?style=flat
    :alt:   (downloads)
 .. |docker_mvp| image:: https://quay.io/repository/biocontainers/mvp/status
    :target: https://quay.io/repository/biocontainers/mvp
+.. _`mvp/tags`: https://quay.io/repository/biocontainers/mvp?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mvp/README.html
-

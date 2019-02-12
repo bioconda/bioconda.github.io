@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cnorfeeder'
 .. highlight: bash
-
 
 bioconductor-cnorfeeder
 =======================
@@ -21,11 +22,15 @@ bioconductor-cnorfeeder
 
    |downloads_bioconductor-cnorfeeder| |docker_bioconductor-cnorfeeder|
 
-   :versions: 1.22.0
-
-   :depends: :conda:package:`bioconductor-cellnoptr` >=1.28.0,<1.29.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-cnorfeeder|
+   :versions: 1.22.0-0
+   
+   :depends bioconductor-cellnoptr: >=1.28.0,<1.29.0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-cnorfeeder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cnorfeeder
+      docker pull quay.io/repository/biocontainers/bioconductor-cnorfeeder:<tag>
+
+   (see `bioconductor-cnorfeeder/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cnorfeeder| conda:required_by:: bioconductor-cnorfeeder
 .. |downloads_bioconductor-cnorfeeder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnorfeeder.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cnorfeeder| image:: https://quay.io/repository/biocontainers/bioconductor-cnorfeeder/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cnorfeeder
+.. _`bioconductor-cnorfeeder/tags`: https://quay.io/repository/biocontainers/bioconductor-cnorfeeder?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cnorfeeder/README.html
-

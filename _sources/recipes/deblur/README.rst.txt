@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'deblur'
 .. highlight: bash
-
 
 deblur
 ======
@@ -21,11 +22,25 @@ deblur
 
    |downloads_deblur| |docker_deblur|
 
-   :versions: 1.1.0, 1.0.4
-
-   :depends: :conda:package:`biom-format`  :conda:package:`click`  :conda:package:`h5py`  :conda:package:`mafft` 7.310 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`scikit-bio` >=0.5.0 :conda:package:`sortmerna` 2.0 :conda:package:`vsearch` >=2.0.3 
-
-   :required~by: |required_by_deblur|
+   :versions: 1.1.0-0, 1.0.4-2, 1.0.4-1, 1.0.4-0
+   
+   :depends biom-format: 
+   
+   :depends click: 
+   
+   :depends h5py: 
+   
+   :depends mafft: 7.310
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends scikit-bio: >=0.5.0
+   
+   :depends sortmerna: 2.0
+   
+   :depends vsearch: >=2.0.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ deblur
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/deblur
+      docker pull quay.io/repository/biocontainers/deblur:<tag>
+
+   (see `deblur/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_deblur| conda:required_by:: deblur
 .. |downloads_deblur| image:: https://img.shields.io/conda/dn/bioconda/deblur.svg?style=flat
    :alt:   (downloads)
 .. |docker_deblur| image:: https://quay.io/repository/biocontainers/deblur/status
    :target: https://quay.io/repository/biocontainers/deblur
+.. _`deblur/tags`: https://quay.io/repository/biocontainers/deblur?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/deblur/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-hireewas'
 .. highlight: bash
-
 
 bioconductor-hireewas
 =====================
@@ -21,11 +22,17 @@ bioconductor-hireewas
 
    |downloads_bioconductor-hireewas| |docker_bioconductor-hireewas|
 
-   :versions: 1.0.2
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-quadprog`  
-
-   :required~by: |required_by_bioconductor-hireewas|
+   :versions: 1.0.2-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gplots: 
+   
+   :depends r-quadprog: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-hireewas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hireewas
+      docker pull quay.io/repository/biocontainers/bioconductor-hireewas:<tag>
+
+   (see `bioconductor-hireewas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-hireewas| conda:required_by:: bioconductor-hireewas
 .. |downloads_bioconductor-hireewas| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hireewas.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-hireewas| image:: https://quay.io/repository/biocontainers/bioconductor-hireewas/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hireewas
+.. _`bioconductor-hireewas/tags`: https://quay.io/repository/biocontainers/bioconductor-hireewas?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-hireewas/README.html
-

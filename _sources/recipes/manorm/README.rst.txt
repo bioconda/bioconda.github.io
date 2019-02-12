@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'manorm'
 .. highlight: bash
-
 
 manorm
 ======
@@ -21,11 +22,19 @@ manorm
 
    |downloads_manorm| |docker_manorm|
 
-   :versions: 1.1.4, 1.1.3, 1.1.2, 1.1.1, 1.1
-
-   :depends: :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  :conda:package:`statsmodels`  
-
-   :required~by: |required_by_manorm|
+   :versions: 1.1.4-0, 1.1.3-1, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1-0
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :depends statsmodels: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ manorm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/manorm
+      docker pull quay.io/repository/biocontainers/manorm:<tag>
+
+   (see `manorm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_manorm| conda:required_by:: manorm
 .. |downloads_manorm| image:: https://img.shields.io/conda/dn/bioconda/manorm.svg?style=flat
    :alt:   (downloads)
 .. |docker_manorm| image:: https://quay.io/repository/biocontainers/manorm/status
    :target: https://quay.io/repository/biocontainers/manorm
+.. _`manorm/tags`: https://quay.io/repository/biocontainers/manorm?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/manorm/README.html
-

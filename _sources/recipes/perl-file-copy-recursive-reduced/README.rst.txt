@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-copy-recursive-reduced'
 .. highlight: bash
-
 
 perl-file-copy-recursive-reduced
 ================================
@@ -21,11 +22,13 @@ perl-file-copy-recursive-reduced
 
    |downloads_perl-file-copy-recursive-reduced| |docker_perl-file-copy-recursive-reduced|
 
-   :versions: 0.006
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-file-path`  
-
-   :required~by: |required_by_perl-file-copy-recursive-reduced|
+   :versions: 0.006-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-file-path: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-file-copy-recursive-reduced
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-copy-recursive-reduced
+      docker pull quay.io/repository/biocontainers/perl-file-copy-recursive-reduced:<tag>
+
+   (see `perl-file-copy-recursive-reduced/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-copy-recursive-reduced| conda:required_by:: perl-file-copy-recursive-reduced
 .. |downloads_perl-file-copy-recursive-reduced| image:: https://img.shields.io/conda/dn/bioconda/perl-file-copy-recursive-reduced.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-copy-recursive-reduced| image:: https://quay.io/repository/biocontainers/perl-file-copy-recursive-reduced/status
    :target: https://quay.io/repository/biocontainers/perl-file-copy-recursive-reduced
+.. _`perl-file-copy-recursive-reduced/tags`: https://quay.io/repository/biocontainers/perl-file-copy-recursive-reduced?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-copy-recursive-reduced/README.html
-

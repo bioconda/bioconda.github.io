@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bpp-phyl'
 .. highlight: bash
-
 
 bpp-phyl
 ========
@@ -21,11 +22,13 @@ bpp-phyl
 
    |downloads_bpp-phyl| |docker_bpp-phyl|
 
-   :versions: 2.4.1, 2.2.0
-
-   :depends: :conda:package:`bpp-seq`  :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_bpp-phyl|
+   :versions: 2.4.1-0, 2.2.0-1, 2.2.0-0
+   
+   :depends bpp-seq: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bpp-phyl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bpp-phyl
+      docker pull quay.io/repository/biocontainers/bpp-phyl:<tag>
+
+   (see `bpp-phyl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bpp-phyl| conda:required_by:: bpp-phyl
 .. |downloads_bpp-phyl| image:: https://img.shields.io/conda/dn/bioconda/bpp-phyl.svg?style=flat
    :alt:   (downloads)
 .. |docker_bpp-phyl| image:: https://quay.io/repository/biocontainers/bpp-phyl/status
    :target: https://quay.io/repository/biocontainers/bpp-phyl
+.. _`bpp-phyl/tags`: https://quay.io/repository/biocontainers/bpp-phyl?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bpp-phyl/README.html
-

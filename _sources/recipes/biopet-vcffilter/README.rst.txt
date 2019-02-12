@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biopet-vcffilter'
 .. highlight: bash
-
 
 biopet-vcffilter
 ================
@@ -25,11 +26,13 @@ biopet-vcffilter
 
    |downloads_biopet-vcffilter| |docker_biopet-vcffilter|
 
-   :versions: 0.2
-
-   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
-
-   :required~by: |required_by_biopet-vcffilter|
+   :versions: 0.2-0
+   
+   :depends openjdk: >=8,<9
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -43,14 +46,16 @@ biopet-vcffilter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-vcffilter
+      docker pull quay.io/repository/biocontainers/biopet-vcffilter:<tag>
+
+   (see `biopet-vcffilter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biopet-vcffilter| conda:required_by:: biopet-vcffilter
 .. |downloads_biopet-vcffilter| image:: https://img.shields.io/conda/dn/bioconda/biopet-vcffilter.svg?style=flat
    :alt:   (downloads)
 .. |docker_biopet-vcffilter| image:: https://quay.io/repository/biocontainers/biopet-vcffilter/status
    :target: https://quay.io/repository/biocontainers/biopet-vcffilter
+.. _`biopet-vcffilter/tags`: https://quay.io/repository/biocontainers/biopet-vcffilter?tab=tags
 
 
 
@@ -71,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biopet-vcffilter/README.html
-

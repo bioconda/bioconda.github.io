@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-termreadkey'
 .. highlight: bash
-
 
 perl-termreadkey
 ================
@@ -21,11 +22,13 @@ perl-termreadkey
 
    |downloads_perl-termreadkey| |docker_perl-termreadkey|
 
-   :versions: 2.38, 2.37, 2.32
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-termreadkey|
+   :versions: 2.38-0, 2.37-0, 2.32-1, 2.32-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-termreadkey
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-termreadkey
+      docker pull quay.io/repository/biocontainers/perl-termreadkey:<tag>
+
+   (see `perl-termreadkey/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-termreadkey| conda:required_by:: perl-termreadkey
 .. |downloads_perl-termreadkey| image:: https://img.shields.io/conda/dn/bioconda/perl-termreadkey.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-termreadkey| image:: https://quay.io/repository/biocontainers/perl-termreadkey/status
    :target: https://quay.io/repository/biocontainers/perl-termreadkey
+.. _`perl-termreadkey/tags`: https://quay.io/repository/biocontainers/perl-termreadkey?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-termreadkey/README.html
-

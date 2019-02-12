@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-hgu133plus2frmavecs'
 .. highlight: bash
-
 
 bioconductor-hgu133plus2frmavecs
 ================================
@@ -21,11 +22,13 @@ bioconductor-hgu133plus2frmavecs
 
    |downloads_bioconductor-hgu133plus2frmavecs| |docker_bioconductor-hgu133plus2frmavecs|
 
-   :versions: 1.5.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-hgu133plus2frmavecs|
+   :versions: 1.5.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-hgu133plus2frmavecs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hgu133plus2frmavecs
+      docker pull quay.io/repository/biocontainers/bioconductor-hgu133plus2frmavecs:<tag>
+
+   (see `bioconductor-hgu133plus2frmavecs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-hgu133plus2frmavecs| conda:required_by:: bioconductor-hgu133plus2frmavecs
 .. |downloads_bioconductor-hgu133plus2frmavecs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu133plus2frmavecs.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-hgu133plus2frmavecs| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133plus2frmavecs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgu133plus2frmavecs
+.. _`bioconductor-hgu133plus2frmavecs/tags`: https://quay.io/repository/biocontainers/bioconductor-hgu133plus2frmavecs?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-hgu133plus2frmavecs/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'socru'
 .. highlight: bash
-
 
 socru
 =====
@@ -21,11 +22,21 @@ socru
 
    |downloads_socru| |docker_socru|
 
-   :versions: 1.0.0, 0.0.5
-
-   :depends: :conda:package:`barrnap`  :conda:package:`biopython` >=1.68 :conda:package:`blast`  :conda:package:`numpy`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`pyyaml`  
-
-   :required~by: |required_by_socru|
+   :versions: 1.0.0-0, 0.0.5-0
+   
+   :depends barrnap: 
+   
+   :depends biopython: >=1.68
+   
+   :depends blast: 
+   
+   :depends numpy: 
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :depends pyyaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ socru
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/socru
+      docker pull quay.io/repository/biocontainers/socru:<tag>
+
+   (see `socru/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_socru| conda:required_by:: socru
 .. |downloads_socru| image:: https://img.shields.io/conda/dn/bioconda/socru.svg?style=flat
    :alt:   (downloads)
 .. |docker_socru| image:: https://quay.io/repository/biocontainers/socru/status
    :target: https://quay.io/repository/biocontainers/socru
+.. _`socru/tags`: https://quay.io/repository/biocontainers/socru?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/socru/README.html
-

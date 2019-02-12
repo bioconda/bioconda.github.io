@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pathifier'
 .. highlight: bash
-
 
 bioconductor-pathifier
 ======================
@@ -22,11 +23,15 @@ bioconductor-pathifier
 
    |downloads_bioconductor-pathifier| |docker_bioconductor-pathifier|
 
-   :versions: 1.20.0, 1.16.0
-
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-princurve` >=2.0.4 :conda:package:`r-r.oo`  
-
-   :required~by: |required_by_bioconductor-pathifier|
+   :versions: 1.20.0-1, 1.20.0-0, 1.16.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-princurve: >=2.0.4
+   
+   :depends r-r.oo: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-pathifier
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pathifier
+      docker pull quay.io/repository/biocontainers/bioconductor-pathifier:<tag>
+
+   (see `bioconductor-pathifier/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pathifier| conda:required_by:: bioconductor-pathifier
 .. |downloads_bioconductor-pathifier| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathifier.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pathifier| image:: https://quay.io/repository/biocontainers/bioconductor-pathifier/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pathifier
+.. _`bioconductor-pathifier/tags`: https://quay.io/repository/biocontainers/bioconductor-pathifier?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pathifier/README.html
-

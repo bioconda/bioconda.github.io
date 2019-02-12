@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-samexplorer'
 .. highlight: bash
-
 
 bioconductor-samexplorer
 ========================
@@ -21,11 +22,19 @@ bioconductor-samexplorer
 
    |downloads_bioconductor-samexplorer| |docker_bioconductor-samexplorer|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-rnaseqdata.hnrnpc.bam.chr14` >=0.20.0,<0.21.0 :conda:package:`bioconductor-rsubread` >=1.32.0,<1.33.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  
-
-   :required~by: |required_by_bioconductor-samexplorer|
+   :versions: 1.6.0-0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-rnaseqdata.hnrnpc.bam.chr14: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-rsubread: >=1.32.0,<1.33.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-samexplorer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-samexplorer
+      docker pull quay.io/repository/biocontainers/bioconductor-samexplorer:<tag>
+
+   (see `bioconductor-samexplorer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-samexplorer| conda:required_by:: bioconductor-samexplorer
 .. |downloads_bioconductor-samexplorer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-samexplorer.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-samexplorer| image:: https://quay.io/repository/biocontainers/bioconductor-samexplorer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-samexplorer
+.. _`bioconductor-samexplorer/tags`: https://quay.io/repository/biocontainers/bioconductor-samexplorer?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-samexplorer/README.html
-

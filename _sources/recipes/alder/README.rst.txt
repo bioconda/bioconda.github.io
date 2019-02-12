@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'alder'
 .. highlight: bash
-
 
 alder
 =====
@@ -22,11 +23,17 @@ alder
 
    |downloads_alder| |docker_alder|
 
-   :versions: 1.03
-
-   :depends: :conda:package:`fftw`  :conda:package:`lapack`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_alder|
+   :versions: 1.03-0
+   
+   :depends fftw: 
+   
+   :depends lapack: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ alder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/alder
+      docker pull quay.io/repository/biocontainers/alder:<tag>
+
+   (see `alder/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_alder| conda:required_by:: alder
 .. |downloads_alder| image:: https://img.shields.io/conda/dn/bioconda/alder.svg?style=flat
    :alt:   (downloads)
 .. |docker_alder| image:: https://quay.io/repository/biocontainers/alder/status
    :target: https://quay.io/repository/biocontainers/alder
+.. _`alder/tags`: https://quay.io/repository/biocontainers/alder?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/alder/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconvert'
 .. highlight: bash
-
 
 bioconvert
 ==========
@@ -21,11 +22,81 @@ bioconvert
 
    |downloads_bioconvert| |docker_bioconvert|
 
-   :versions: 0.2.0, 0.0.10
-
-   :depends: :conda:package:`bamtools`  :conda:package:`bcftools`  :conda:package:`bedtools`  :conda:package:`bioawk`  :conda:package:`biopython`  :conda:package:`colorlog`  :conda:package:`deeptools`  :conda:package:`dsrc`  :conda:package:`easydev` >=0.9.36 :conda:package:`go` 1.10.3 :conda:package:`mappy`  :conda:package:`matplotlib`  :conda:package:`mawk`  :conda:package:`networkx`  :conda:package:`pandas`  :conda:package:`pbzip2`  :conda:package:`pigz`  :conda:package:`plink`  :conda:package:`pyexcel`  :conda:package:`pyexcel-ods3`  :conda:package:`pyexcel-xls`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`pyyaml`  :conda:package:`sambamba`  :conda:package:`samtools`  :conda:package:`sed`  :conda:package:`seqtk`  :conda:package:`squizz`  :conda:package:`sra-tools`  :conda:package:`ucsc-bedgraphtobigwig`  :conda:package:`ucsc-bigwigtobedgraph`  :conda:package:`ucsc-fatotwobit`  :conda:package:`ucsc-twobittofa`  :conda:package:`wiggletools`  :conda:package:`xlrd`  
-
-   :required~by: |required_by_bioconvert|
+   :versions: 0.2.0-1, 0.0.10-1, 0.0.10-0
+   
+   :depends bamtools: 
+   
+   :depends bcftools: 
+   
+   :depends bedtools: 
+   
+   :depends bioawk: 
+   
+   :depends biopython: 
+   
+   :depends colorlog: 
+   
+   :depends deeptools: 
+   
+   :depends dsrc: 
+   
+   :depends easydev: >=0.9.36
+   
+   :depends go: 1.10.3
+   
+   :depends mappy: 
+   
+   :depends matplotlib: 
+   
+   :depends mawk: 
+   
+   :depends networkx: 
+   
+   :depends pandas: 
+   
+   :depends pbzip2: 
+   
+   :depends pigz: 
+   
+   :depends plink: 
+   
+   :depends pyexcel: 
+   
+   :depends pyexcel-ods3: 
+   
+   :depends pyexcel-xls: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends pyyaml: 
+   
+   :depends sambamba: 
+   
+   :depends samtools: 
+   
+   :depends sed: 
+   
+   :depends seqtk: 
+   
+   :depends squizz: 
+   
+   :depends sra-tools: 
+   
+   :depends ucsc-bedgraphtobigwig: 
+   
+   :depends ucsc-bigwigtobedgraph: 
+   
+   :depends ucsc-fatotwobit: 
+   
+   :depends ucsc-twobittofa: 
+   
+   :depends wiggletools: 
+   
+   :depends xlrd: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +110,16 @@ bioconvert
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconvert
+      docker pull quay.io/repository/biocontainers/bioconvert:<tag>
+
+   (see `bioconvert/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconvert| conda:required_by:: bioconvert
 .. |downloads_bioconvert| image:: https://img.shields.io/conda/dn/bioconda/bioconvert.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconvert| image:: https://quay.io/repository/biocontainers/bioconvert/status
    :target: https://quay.io/repository/biocontainers/bioconvert
+.. _`bioconvert/tags`: https://quay.io/repository/biocontainers/bioconvert?tab=tags
 
 
 
@@ -63,4 +136,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconvert/README.html
-

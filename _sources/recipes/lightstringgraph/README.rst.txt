@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lightstringgraph'
 .. highlight: bash
-
 
 lightstringgraph
 ================
@@ -22,11 +23,13 @@ lightstringgraph
 
    |downloads_lightstringgraph| |docker_lightstringgraph|
 
-   :versions: 0.4.0
-
-   :depends: :conda:package:`boost` >=1.66.0,<1.66.1.0a0 :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_lightstringgraph|
+   :versions: 0.4.0-0
+   
+   :depends boost: >=1.66.0,<1.66.1.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ lightstringgraph
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lightstringgraph
+      docker pull quay.io/repository/biocontainers/lightstringgraph:<tag>
+
+   (see `lightstringgraph/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lightstringgraph| conda:required_by:: lightstringgraph
 .. |downloads_lightstringgraph| image:: https://img.shields.io/conda/dn/bioconda/lightstringgraph.svg?style=flat
    :alt:   (downloads)
 .. |docker_lightstringgraph| image:: https://quay.io/repository/biocontainers/lightstringgraph/status
    :target: https://quay.io/repository/biocontainers/lightstringgraph
+.. _`lightstringgraph/tags`: https://quay.io/repository/biocontainers/lightstringgraph?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lightstringgraph/README.html
-

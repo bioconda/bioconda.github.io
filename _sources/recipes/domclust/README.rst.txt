@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'domclust'
 .. highlight: bash
-
 
 domclust
 ========
@@ -21,11 +22,13 @@ domclust
 
    |downloads_domclust| |docker_domclust|
 
-   :versions: 1.2.8a, 1.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  
-
-   :required~by: |required_by_domclust|
+   :versions: 1.2.8a-1, 1.2.8a-0, 1.0-1, 1.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ domclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/domclust
+      docker pull quay.io/repository/biocontainers/domclust:<tag>
+
+   (see `domclust/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_domclust| conda:required_by:: domclust
 .. |downloads_domclust| image:: https://img.shields.io/conda/dn/bioconda/domclust.svg?style=flat
    :alt:   (downloads)
 .. |docker_domclust| image:: https://quay.io/repository/biocontainers/domclust/status
    :target: https://quay.io/repository/biocontainers/domclust
+.. _`domclust/tags`: https://quay.io/repository/biocontainers/domclust?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/domclust/README.html
-

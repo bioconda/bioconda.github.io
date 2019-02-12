@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'clever-toolkit'
 .. highlight: bash
-
 
 clever-toolkit
 ==============
@@ -21,11 +22,27 @@ clever-toolkit
 
    |downloads_clever-toolkit| |docker_clever-toolkit|
 
-   :versions: 2.4, 2.3, 2.2.1, 2.1, 2.0rc4, 2.0rc3
-
-   :depends: :conda:package:`bcftools` 1.* :conda:package:`bedtools` >=2.26 :conda:package:`boost` 1.64* :conda:package:`libgcc`  :conda:package:`libstdcxx-ng`  :conda:package:`matplotlib` 2.* :conda:package:`python` 3.5* :conda:package:`samtools` 1.* :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_clever-toolkit|
+   :versions: 2.4-0, 2.3-0, 2.2.1-0, 2.1-3, 2.0rc4-3, 2.0rc4-2, 2.0rc3-1, 2.0rc3-0
+   
+   :depends bcftools: 1.*
+   
+   :depends bedtools: >=2.26
+   
+   :depends boost: 1.64*
+   
+   :depends libgcc: 
+   
+   :depends libstdcxx-ng: 
+   
+   :depends matplotlib: 2.*
+   
+   :depends python: 3.5*
+   
+   :depends samtools: 1.*
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ clever-toolkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clever-toolkit
+      docker pull quay.io/repository/biocontainers/clever-toolkit:<tag>
+
+   (see `clever-toolkit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_clever-toolkit| conda:required_by:: clever-toolkit
 .. |downloads_clever-toolkit| image:: https://img.shields.io/conda/dn/bioconda/clever-toolkit.svg?style=flat
    :alt:   (downloads)
 .. |docker_clever-toolkit| image:: https://quay.io/repository/biocontainers/clever-toolkit/status
    :target: https://quay.io/repository/biocontainers/clever-toolkit
+.. _`clever-toolkit/tags`: https://quay.io/repository/biocontainers/clever-toolkit?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/clever-toolkit/README.html
-

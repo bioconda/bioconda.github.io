@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ceas'
 .. highlight: bash
-
 
 ceas
 ====
@@ -22,11 +23,13 @@ ceas
 
    |downloads_ceas| |docker_ceas|
 
-   :versions: 1.0.2
-
-   :depends: :conda:package:`mysql-python`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_ceas|
+   :versions: 1.0.2-1, 1.0.2-0
+   
+   :depends mysql-python: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ ceas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ceas
+      docker pull quay.io/repository/biocontainers/ceas:<tag>
+
+   (see `ceas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ceas| conda:required_by:: ceas
 .. |downloads_ceas| image:: https://img.shields.io/conda/dn/bioconda/ceas.svg?style=flat
    :alt:   (downloads)
 .. |docker_ceas| image:: https://quay.io/repository/biocontainers/ceas/status
    :target: https://quay.io/repository/biocontainers/ceas
+.. _`ceas/tags`: https://quay.io/repository/biocontainers/ceas?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ceas/README.html
-

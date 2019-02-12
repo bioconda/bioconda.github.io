@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mykrobe'
 .. highlight: bash
-
 
 mykrobe
 =======
@@ -21,11 +22,19 @@ mykrobe
 
    |downloads_mykrobe| |docker_mykrobe|
 
-   :versions: 0.5.6
-
-   :depends: :conda:package:`future`  :conda:package:`ga4ghmongo`  :conda:package:`mongoengine`  :conda:package:`mykatlas`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_mykrobe|
+   :versions: 0.5.6-1, 0.5.6-0
+   
+   :depends future: 
+   
+   :depends ga4ghmongo: 
+   
+   :depends mongoengine: 
+   
+   :depends mykatlas: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ mykrobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mykrobe
+      docker pull quay.io/repository/biocontainers/mykrobe:<tag>
+
+   (see `mykrobe/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mykrobe| conda:required_by:: mykrobe
 .. |downloads_mykrobe| image:: https://img.shields.io/conda/dn/bioconda/mykrobe.svg?style=flat
    :alt:   (downloads)
 .. |docker_mykrobe| image:: https://quay.io/repository/biocontainers/mykrobe/status
    :target: https://quay.io/repository/biocontainers/mykrobe
+.. _`mykrobe/tags`: https://quay.io/repository/biocontainers/mykrobe?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mykrobe/README.html
-

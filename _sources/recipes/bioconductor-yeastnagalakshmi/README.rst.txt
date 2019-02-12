@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-yeastnagalakshmi'
 .. highlight: bash
-
 
 bioconductor-yeastnagalakshmi
 =============================
@@ -21,11 +22,13 @@ bioconductor-yeastnagalakshmi
 
    |downloads_bioconductor-yeastnagalakshmi| |docker_bioconductor-yeastnagalakshmi|
 
-   :versions: 1.18.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-yeastnagalakshmi|
+   :versions: 1.18.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-yeastnagalakshmi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-yeastnagalakshmi
+      docker pull quay.io/repository/biocontainers/bioconductor-yeastnagalakshmi:<tag>
+
+   (see `bioconductor-yeastnagalakshmi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-yeastnagalakshmi| conda:required_by:: bioconductor-yeastnagalakshmi
 .. |downloads_bioconductor-yeastnagalakshmi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yeastnagalakshmi.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-yeastnagalakshmi| image:: https://quay.io/repository/biocontainers/bioconductor-yeastnagalakshmi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-yeastnagalakshmi
+.. _`bioconductor-yeastnagalakshmi/tags`: https://quay.io/repository/biocontainers/bioconductor-yeastnagalakshmi?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-yeastnagalakshmi/README.html
-

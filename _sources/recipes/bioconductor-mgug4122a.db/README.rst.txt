@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mgug4122a.db'
 .. highlight: bash
-
 
 bioconductor-mgug4122a.db
 =========================
@@ -21,11 +22,17 @@ bioconductor-mgug4122a.db
 
    |downloads_bioconductor-mgug4122a.db| |docker_bioconductor-mgug4122a.db|
 
-   :versions: 3.2.3, 3.2.2
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.34.3 :conda:package:`bioconductor-org.mm.eg.db` >=3.3.0 :conda:package:`r` 3.3.1* 
-
-   :required~by: |required_by_bioconductor-mgug4122a.db|
+   :versions: 3.2.3-5, 3.2.3-4, 3.2.3-2, 3.2.3-1, 3.2.3-0, 3.2.2-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-org.mm.eg.db: >=3.7.0,<3.8.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-mgug4122a.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mgug4122a.db
+      docker pull quay.io/repository/biocontainers/bioconductor-mgug4122a.db:<tag>
+
+   (see `bioconductor-mgug4122a.db/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mgug4122a.db| conda:required_by:: bioconductor-mgug4122a.db
 .. |downloads_bioconductor-mgug4122a.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mgug4122a.db.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mgug4122a.db| image:: https://quay.io/repository/biocontainers/bioconductor-mgug4122a.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mgug4122a.db
+.. _`bioconductor-mgug4122a.db/tags`: https://quay.io/repository/biocontainers/bioconductor-mgug4122a.db?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mgug4122a.db/README.html
-

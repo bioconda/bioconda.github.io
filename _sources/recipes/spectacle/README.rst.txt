@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'spectacle'
 .. highlight: bash
-
 
 spectacle
 =========
@@ -21,11 +22,15 @@ spectacle
 
    |downloads_spectacle| |docker_spectacle|
 
-   :versions: 1.4
-
-   :depends: :conda:package:`java-jdk`  :conda:package:`numpy`  :conda:package:`scipy`  
-
-   :required~by: |required_by_spectacle|
+   :versions: 1.4-1, 1.4-0
+   
+   :depends numpy: 
+   
+   :depends openjdk: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ spectacle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spectacle
+      docker pull quay.io/repository/biocontainers/spectacle:<tag>
+
+   (see `spectacle/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_spectacle| conda:required_by:: spectacle
 .. |downloads_spectacle| image:: https://img.shields.io/conda/dn/bioconda/spectacle.svg?style=flat
    :alt:   (downloads)
 .. |docker_spectacle| image:: https://quay.io/repository/biocontainers/spectacle/status
    :target: https://quay.io/repository/biocontainers/spectacle
+.. _`spectacle/tags`: https://quay.io/repository/biocontainers/spectacle?tab=tags
 
 
 
@@ -67,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/spectacle/README.html
-

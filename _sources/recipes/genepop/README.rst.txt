@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genepop'
 .. highlight: bash
-
 
 genepop
 =======
@@ -21,11 +22,11 @@ genepop
 
    |downloads_genepop| |docker_genepop|
 
-   :versions: 4.6, 4.5.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_genepop|
+   :versions: 4.6-0, 4.5.1-0
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ genepop
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genepop
+      docker pull quay.io/repository/biocontainers/genepop:<tag>
+
+   (see `genepop/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genepop| conda:required_by:: genepop
 .. |downloads_genepop| image:: https://img.shields.io/conda/dn/bioconda/genepop.svg?style=flat
    :alt:   (downloads)
 .. |docker_genepop| image:: https://quay.io/repository/biocontainers/genepop/status
    :target: https://quay.io/repository/biocontainers/genepop
+.. _`genepop/tags`: https://quay.io/repository/biocontainers/genepop?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genepop/README.html
-

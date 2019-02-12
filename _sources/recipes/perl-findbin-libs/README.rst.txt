@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-findbin-libs'
 .. highlight: bash
-
 
 perl-findbin-libs
 =================
@@ -21,11 +22,23 @@ perl-findbin-libs
 
    |downloads_perl-findbin-libs| |docker_perl-findbin-libs|
 
-   :versions: 2.017008
-
-   :depends: :conda:package:`perl` >=5.22,<6.0 :conda:package:`perl-carp`  :conda:package:`perl-file-temp`  :conda:package:`perl-module-fromperlver`  :conda:package:`perl-pathtools`  :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-test-simple`  
-
-   :required~by: |required_by_perl-findbin-libs|
+   :versions: 2.017008-1, 2.017008-0
+   
+   :depends perl: >=5.22.0.1,<5.23.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-file-temp: 
+   
+   :depends perl-module-fromperlver: 
+   
+   :depends perl-pathtools: 
+   
+   :depends perl-scalar-list-utils: 
+   
+   :depends perl-test-simple: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ perl-findbin-libs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-findbin-libs
+      docker pull quay.io/repository/biocontainers/perl-findbin-libs:<tag>
+
+   (see `perl-findbin-libs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-findbin-libs| conda:required_by:: perl-findbin-libs
 .. |downloads_perl-findbin-libs| image:: https://img.shields.io/conda/dn/bioconda/perl-findbin-libs.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-findbin-libs| image:: https://quay.io/repository/biocontainers/perl-findbin-libs/status
    :target: https://quay.io/repository/biocontainers/perl-findbin-libs
+.. _`perl-findbin-libs/tags`: https://quay.io/repository/biocontainers/perl-findbin-libs?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-findbin-libs/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'treetime'
 .. highlight: bash
-
 
 treetime
 ========
@@ -21,11 +22,21 @@ treetime
 
    |downloads_treetime| |docker_treetime|
 
-   :versions: 0.5.2, 0.5.1, 0.5.0, 0.4.1, 0.4.0, 0.2.4, 0.2.1, 0.1
-
-   :depends: :conda:package:`biopython` >=1.66 :conda:package:`matplotlib`  :conda:package:`numpy` >=1.10.4 :conda:package:`pandas` >=0.17.1 :conda:package:`python` <3 :conda:package:`scipy` >=0.16.1 
-
-   :required~by: |required_by_treetime|
+   :versions: 0.5.2-1, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.1-0, 0.4.0-0, 0.2.4-1, 0.2.4-0, 0.2.1-1, 0.2.1-0, 0.1-1
+   
+   :depends biopython: >=1.66
+   
+   :depends matplotlib: 
+   
+   :depends numpy: >=1.10.4
+   
+   :depends pandas: >=0.17.1
+   
+   :depends python: 
+   
+   :depends scipy: >=0.16.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ treetime
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/treetime
+      docker pull quay.io/repository/biocontainers/treetime:<tag>
+
+   (see `treetime/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_treetime| conda:required_by:: treetime
 .. |downloads_treetime| image:: https://img.shields.io/conda/dn/bioconda/treetime.svg?style=flat
    :alt:   (downloads)
 .. |docker_treetime| image:: https://quay.io/repository/biocontainers/treetime/status
    :target: https://quay.io/repository/biocontainers/treetime
+.. _`treetime/tags`: https://quay.io/repository/biocontainers/treetime?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/treetime/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'heinz'
 .. highlight: bash
-
 
 heinz
 =====
@@ -21,11 +22,11 @@ heinz
 
    |downloads_heinz| |docker_heinz|
 
-   :versions: 2.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_heinz|
+   :versions: 2.0-1, 2.0-0
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ heinz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/heinz
+      docker pull quay.io/repository/biocontainers/heinz:<tag>
+
+   (see `heinz/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_heinz| conda:required_by:: heinz
 .. |downloads_heinz| image:: https://img.shields.io/conda/dn/bioconda/heinz.svg?style=flat
    :alt:   (downloads)
 .. |docker_heinz| image:: https://quay.io/repository/biocontainers/heinz/status
    :target: https://quay.io/repository/biocontainers/heinz
+.. _`heinz/tags`: https://quay.io/repository/biocontainers/heinz?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/heinz/README.html
-

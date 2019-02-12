@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'samsift'
 .. highlight: bash
-
 
 samsift
 =======
@@ -21,11 +22,15 @@ samsift
 
    |downloads_samsift| |docker_samsift|
 
-   :versions: 0.2.5, 0.2.3, 0.2.2, 0.2.1, 0.2.0, 0.1.0
-
-   :depends: :conda:package:`pysam`  :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_samsift|
+   :versions: 0.2.5-1, 0.2.5-0, 0.2.3-1, 0.2.3-0, 0.2.2-1, 0.2.2-0, 0.2.1-1, 0.2.1-0, 0.2.0-1, 0.2.0-0, 0.1.0-1, 0.1.0-0
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends python-dateutil: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ samsift
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/samsift
+      docker pull quay.io/repository/biocontainers/samsift:<tag>
+
+   (see `samsift/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_samsift| conda:required_by:: samsift
 .. |downloads_samsift| image:: https://img.shields.io/conda/dn/bioconda/samsift.svg?style=flat
    :alt:   (downloads)
 .. |docker_samsift| image:: https://quay.io/repository/biocontainers/samsift/status
    :target: https://quay.io/repository/biocontainers/samsift
+.. _`samsift/tags`: https://quay.io/repository/biocontainers/samsift?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/samsift/README.html
-

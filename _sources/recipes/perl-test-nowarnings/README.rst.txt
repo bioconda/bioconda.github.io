@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-nowarnings'
 .. highlight: bash
-
 
 perl-test-nowarnings
 ====================
@@ -21,11 +22,11 @@ perl-test-nowarnings
 
    |downloads_perl-test-nowarnings| |docker_perl-test-nowarnings|
 
-   :versions: 1.04
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-test-nowarnings|
+   :versions: 1.04-3, 1.04-2, 1.04-1, 1.04-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-test-nowarnings
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-nowarnings
+      docker pull quay.io/repository/biocontainers/perl-test-nowarnings:<tag>
+
+   (see `perl-test-nowarnings/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-nowarnings| conda:required_by:: perl-test-nowarnings
 .. |downloads_perl-test-nowarnings| image:: https://img.shields.io/conda/dn/bioconda/perl-test-nowarnings.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-nowarnings| image:: https://quay.io/repository/biocontainers/perl-test-nowarnings/status
    :target: https://quay.io/repository/biocontainers/perl-test-nowarnings
+.. _`perl-test-nowarnings/tags`: https://quay.io/repository/biocontainers/perl-test-nowarnings?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-nowarnings/README.html
-

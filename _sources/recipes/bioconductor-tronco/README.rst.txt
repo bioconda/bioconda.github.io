@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-tronco'
 .. highlight: bash
-
 
 bioconductor-tronco
 ===================
@@ -21,11 +22,41 @@ bioconductor-tronco
 
    |downloads_bioconductor-tronco| |docker_bioconductor-tronco|
 
-   :versions: 2.14.2
-
-   :depends: :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bnlearn`  :conda:package:`r-cgdsr`  :conda:package:`r-circlize`  :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-gridextra`  :conda:package:`r-gtable`  :conda:package:`r-gtools`  :conda:package:`r-igraph`  :conda:package:`r-iterators`  :conda:package:`r-r.matlab`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-scales`  :conda:package:`r-xtable`  
-
-   :required~by: |required_by_bioconductor-tronco|
+   :versions: 2.14.2-0
+   
+   :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bnlearn: 
+   
+   :depends r-cgdsr: 
+   
+   :depends r-circlize: 
+   
+   :depends r-doparallel: 
+   
+   :depends r-foreach: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-gtable: 
+   
+   :depends r-gtools: 
+   
+   :depends r-igraph: 
+   
+   :depends r-iterators: 
+   
+   :depends r-r.matlab: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-scales: 
+   
+   :depends r-xtable: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ bioconductor-tronco
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tronco
+      docker pull quay.io/repository/biocontainers/bioconductor-tronco:<tag>
+
+   (see `bioconductor-tronco/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-tronco| conda:required_by:: bioconductor-tronco
 .. |downloads_bioconductor-tronco| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tronco.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-tronco| image:: https://quay.io/repository/biocontainers/bioconductor-tronco/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tronco
+.. _`bioconductor-tronco/tags`: https://quay.io/repository/biocontainers/bioconductor-tronco?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-tronco/README.html
-

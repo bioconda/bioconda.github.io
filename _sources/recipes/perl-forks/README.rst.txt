@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-forks'
 .. highlight: bash
-
 
 perl-forks
 ==========
@@ -21,11 +22,25 @@ perl-forks
 
    |downloads_perl-forks| |docker_perl-forks|
 
-   :versions: 0.36
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-forks|
+   :versions: 0.36-4, 0.36-3, 0.36-2, 0.36-1
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-acme-damn: 
+   
+   :depends perl-attribute-handlers: 
+   
+   :depends perl-devel-symdump: 
+   
+   :depends perl-list-moreutils: 
+   
+   :depends perl-storable: 
+   
+   :depends perl-sys-sigaction: 
+   
+   :depends perl-time-hires: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ perl-forks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-forks
+      docker pull quay.io/repository/biocontainers/perl-forks:<tag>
+
+   (see `perl-forks/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-forks| conda:required_by:: perl-forks
 .. |downloads_perl-forks| image:: https://img.shields.io/conda/dn/bioconda/perl-forks.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-forks| image:: https://quay.io/repository/biocontainers/perl-forks/status
    :target: https://quay.io/repository/biocontainers/perl-forks
+.. _`perl-forks/tags`: https://quay.io/repository/biocontainers/perl-forks?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-forks/README.html
-

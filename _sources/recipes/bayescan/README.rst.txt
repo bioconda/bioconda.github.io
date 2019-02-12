@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bayescan'
 .. highlight: bash
-
 
 bayescan
 ========
@@ -21,11 +22,11 @@ bayescan
 
    |downloads_bayescan| |docker_bayescan|
 
-   :versions: 2.0.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_bayescan|
+   :versions: 2.0.1-1, 2.0.1-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bayescan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bayescan
+      docker pull quay.io/repository/biocontainers/bayescan:<tag>
+
+   (see `bayescan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bayescan| conda:required_by:: bayescan
 .. |downloads_bayescan| image:: https://img.shields.io/conda/dn/bioconda/bayescan.svg?style=flat
    :alt:   (downloads)
 .. |docker_bayescan| image:: https://quay.io/repository/biocontainers/bayescan/status
    :target: https://quay.io/repository/biocontainers/bayescan
+.. _`bayescan/tags`: https://quay.io/repository/biocontainers/bayescan?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bayescan/README.html
-

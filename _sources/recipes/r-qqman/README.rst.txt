@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-qqman'
 .. highlight: bash
-
 
 r-qqman
 =======
@@ -21,11 +22,13 @@ r-qqman
 
    |downloads_r-qqman| |docker_r-qqman|
 
-   :versions: 0.1.4, 0.1.2
-
-   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-calibrate`  
-
-   :required~by: |required_by_r-qqman|
+   :versions: 0.1.4-3, 0.1.4-2, 0.1.4-0, 0.1.2-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-calibrate: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ r-qqman
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-qqman
+      docker pull quay.io/repository/biocontainers/r-qqman:<tag>
+
+   (see `r-qqman/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-qqman| conda:required_by:: r-qqman
 .. |downloads_r-qqman| image:: https://img.shields.io/conda/dn/bioconda/r-qqman.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-qqman| image:: https://quay.io/repository/biocontainers/r-qqman/status
    :target: https://quay.io/repository/biocontainers/r-qqman
+.. _`r-qqman/tags`: https://quay.io/repository/biocontainers/r-qqman?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-qqman/README.html
-

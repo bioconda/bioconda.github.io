@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genepender'
 .. highlight: bash
-
 
 genepender
 ==========
@@ -21,11 +22,13 @@ genepender
 
    |downloads_genepender| |docker_genepender|
 
-   :versions: v2.6
-
-   :depends: :conda:package:`libgcc`  :conda:package:`qt` 4.8.7 
-
-   :required~by: |required_by_genepender|
+   :versions: v2.6-1, v2.6-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends qt: 4.8.7.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ genepender
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genepender
+      docker pull quay.io/repository/biocontainers/genepender:<tag>
+
+   (see `genepender/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genepender| conda:required_by:: genepender
 .. |downloads_genepender| image:: https://img.shields.io/conda/dn/bioconda/genepender.svg?style=flat
    :alt:   (downloads)
 .. |docker_genepender| image:: https://quay.io/repository/biocontainers/genepender/status
    :target: https://quay.io/repository/biocontainers/genepender
+.. _`genepender/tags`: https://quay.io/repository/biocontainers/genepender?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genepender/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rhvdm'
 .. highlight: bash
-
 
 bioconductor-rhvdm
 ==================
@@ -21,11 +22,19 @@ bioconductor-rhvdm
 
    |downloads_bioconductor-rhvdm| |docker_bioconductor-rhvdm|
 
-   :versions: 1.48.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-minpack.lm` >=1.0-5 :conda:package:`r-r2html` >=1.5 
-
-   :required~by: |required_by_bioconductor-rhvdm|
+   :versions: 1.48.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-minpack.lm: >=1.0-5
+   
+   :depends r-r2html: >=1.5
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-rhvdm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rhvdm
+      docker pull quay.io/repository/biocontainers/bioconductor-rhvdm:<tag>
+
+   (see `bioconductor-rhvdm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rhvdm| conda:required_by:: bioconductor-rhvdm
 .. |downloads_bioconductor-rhvdm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rhvdm.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rhvdm| image:: https://quay.io/repository/biocontainers/bioconductor-rhvdm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rhvdm
+.. _`bioconductor-rhvdm/tags`: https://quay.io/repository/biocontainers/bioconductor-rhvdm?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rhvdm/README.html
-

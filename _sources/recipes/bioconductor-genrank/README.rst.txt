@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-genrank'
 .. highlight: bash
-
 
 bioconductor-genrank
 ====================
@@ -22,11 +23,17 @@ bioconductor-genrank
 
    |downloads_bioconductor-genrank| |docker_bioconductor-genrank|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0
-
-   :depends: :conda:package:`bioconductor-survcomp` >=1.32.0,<1.33.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrixstats`  :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-genrank|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0
+   
+   :depends bioconductor-survcomp: >=1.32.0,<1.33.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-matrixstats: 
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-genrank
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genrank
+      docker pull quay.io/repository/biocontainers/bioconductor-genrank:<tag>
+
+   (see `bioconductor-genrank/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-genrank| conda:required_by:: bioconductor-genrank
 .. |downloads_bioconductor-genrank| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genrank.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-genrank| image:: https://quay.io/repository/biocontainers/bioconductor-genrank/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genrank
+.. _`bioconductor-genrank/tags`: https://quay.io/repository/biocontainers/bioconductor-genrank?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-genrank/README.html
-

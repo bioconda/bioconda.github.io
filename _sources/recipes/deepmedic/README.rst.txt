@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'deepmedic'
 .. highlight: bash
-
 
 deepmedic
 =========
@@ -21,11 +22,23 @@ deepmedic
 
    |downloads_deepmedic| |docker_deepmedic|
 
-   :versions: 0.6.1, 0.6, 0.5.4
-
-   :depends: :conda:package:`nibabel`  :conda:package:`numpy`  :conda:package:`pp`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  :conda:package:`six`  :conda:package:`theano`  
-
-   :required~by: |required_by_deepmedic|
+   :versions: 0.6.1-0, 0.6-0, 0.5.4-0
+   
+   :depends nibabel: 
+   
+   :depends numpy: 
+   
+   :depends pp: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :depends six: 
+   
+   :depends theano: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ deepmedic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/deepmedic
+      docker pull quay.io/repository/biocontainers/deepmedic:<tag>
+
+   (see `deepmedic/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_deepmedic| conda:required_by:: deepmedic
 .. |downloads_deepmedic| image:: https://img.shields.io/conda/dn/bioconda/deepmedic.svg?style=flat
    :alt:   (downloads)
 .. |docker_deepmedic| image:: https://quay.io/repository/biocontainers/deepmedic/status
    :target: https://quay.io/repository/biocontainers/deepmedic
+.. _`deepmedic/tags`: https://quay.io/repository/biocontainers/deepmedic?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/deepmedic/README.html
-

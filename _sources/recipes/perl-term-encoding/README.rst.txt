@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-term-encoding'
 .. highlight: bash
-
 
 perl-term-encoding
 ==================
@@ -21,11 +22,11 @@ perl-term-encoding
 
    |downloads_perl-term-encoding| |docker_perl-term-encoding|
 
-   :versions: 0.02
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-term-encoding|
+   :versions: 0.02-1, 0.02-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-term-encoding
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-term-encoding
+      docker pull quay.io/repository/biocontainers/perl-term-encoding:<tag>
+
+   (see `perl-term-encoding/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-term-encoding| conda:required_by:: perl-term-encoding
 .. |downloads_perl-term-encoding| image:: https://img.shields.io/conda/dn/bioconda/perl-term-encoding.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-term-encoding| image:: https://quay.io/repository/biocontainers/perl-term-encoding/status
    :target: https://quay.io/repository/biocontainers/perl-term-encoding
+.. _`perl-term-encoding/tags`: https://quay.io/repository/biocontainers/perl-term-encoding?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-term-encoding/README.html
-

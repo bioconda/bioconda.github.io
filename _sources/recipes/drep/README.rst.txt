@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'drep'
 .. highlight: bash
-
 
 drep
 ====
@@ -21,11 +22,33 @@ drep
 
    |downloads_drep| |docker_drep|
 
-   :versions: 2.2.3, 2.0.5
-
-   :depends: :conda:package:`biopython`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`scikit-learn`  :conda:package:`seaborn`  
-
-   :required~by: |required_by_drep|
+   :versions: 2.2.3-1, 2.2.3-0, 2.0.5-2, 2.0.5-0
+   
+   :depends biopython: 
+   
+   :depends centrifuge: 
+   
+   :depends checkm-genome: 
+   
+   :depends mash: 
+   
+   :depends matplotlib: 
+   
+   :depends mummer: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends prodigal: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends scikit-learn: 
+   
+   :depends seaborn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ drep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/drep
+      docker pull quay.io/repository/biocontainers/drep:<tag>
+
+   (see `drep/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_drep| conda:required_by:: drep
 .. |downloads_drep| image:: https://img.shields.io/conda/dn/bioconda/drep.svg?style=flat
    :alt:   (downloads)
 .. |docker_drep| image:: https://quay.io/repository/biocontainers/drep/status
    :target: https://quay.io/repository/biocontainers/drep
+.. _`drep/tags`: https://quay.io/repository/biocontainers/drep?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/drep/README.html
-

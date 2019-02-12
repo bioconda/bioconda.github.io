@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'poppunk'
 .. highlight: bash
-
 
 poppunk
 =======
@@ -21,11 +22,39 @@ poppunk
 
    |downloads_poppunk| |docker_poppunk|
 
-   :versions: 1.1.3, 1.1.2
-
-   :depends: :conda:package:`dendropy`  :conda:package:`hdbscan`  :conda:package:`mash` >=2.0 :conda:package:`matplotlib`  :conda:package:`mkl`  :conda:package:`networkx` >=2.1 :conda:package:`numba`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`rapidnj`  :conda:package:`scikit-learn`  :conda:package:`scipy`  :conda:package:`sharedmem`  :conda:package:`statsmodels`  
-
-   :required~by: |required_by_poppunk|
+   :versions: 1.1.3-0, 1.1.2-0
+   
+   :depends dendropy: 
+   
+   :depends hdbscan: 
+   
+   :depends mash: >=2.0
+   
+   :depends matplotlib: 
+   
+   :depends mkl: 
+   
+   :depends networkx: >=2.1
+   
+   :depends numba: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends rapidnj: 
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :depends sharedmem: 
+   
+   :depends statsmodels: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +68,16 @@ poppunk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/poppunk
+      docker pull quay.io/repository/biocontainers/poppunk:<tag>
+
+   (see `poppunk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_poppunk| conda:required_by:: poppunk
 .. |downloads_poppunk| image:: https://img.shields.io/conda/dn/bioconda/poppunk.svg?style=flat
    :alt:   (downloads)
 .. |docker_poppunk| image:: https://quay.io/repository/biocontainers/poppunk/status
    :target: https://quay.io/repository/biocontainers/poppunk
+.. _`poppunk/tags`: https://quay.io/repository/biocontainers/poppunk?tab=tags
 
 
 
@@ -63,4 +94,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/poppunk/README.html
-

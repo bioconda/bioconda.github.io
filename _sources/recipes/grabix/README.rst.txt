@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'grabix'
 .. highlight: bash
-
 
 grabix
 ======
@@ -21,11 +22,13 @@ grabix
 
    |downloads_grabix| |docker_grabix|
 
-   :versions: 0.1.8, 0.1.7, 0.1.6, 0.1.3
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_grabix|
+   :versions: 0.1.8-4, 0.1.8-3, 0.1.8-2, 0.1.8-1, 0.1.8-0, 0.1.7-0, 0.1.6-0, 0.1.3-1, 0.1.3-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ grabix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/grabix
+      docker pull quay.io/repository/biocontainers/grabix:<tag>
+
+   (see `grabix/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_grabix| conda:required_by:: grabix
 .. |downloads_grabix| image:: https://img.shields.io/conda/dn/bioconda/grabix.svg?style=flat
    :alt:   (downloads)
 .. |docker_grabix| image:: https://quay.io/repository/biocontainers/grabix/status
    :target: https://quay.io/repository/biocontainers/grabix
+.. _`grabix/tags`: https://quay.io/repository/biocontainers/grabix?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/grabix/README.html
-

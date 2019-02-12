@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ucsc-getrnapred'
 .. highlight: bash
-
 
 ucsc-getrnapred
 ===============
@@ -21,11 +22,21 @@ ucsc-getrnapred
 
    |downloads_ucsc-getrnapred| |docker_ucsc-getrnapred|
 
-   :versions: 366, 357, 332
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_ucsc-getrnapred|
+   :versions: 366-0, 357-2, 357-1, 357-0, 332-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libpng: >=1.6.34,<1.7.0a0
+   
+   :depends libuuid: 
+   
+   :depends mysql-connector-c: 
+   
+   :depends openssl: >=1.0.2o,<1.0.3a
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ ucsc-getrnapred
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-getrnapred
+      docker pull quay.io/repository/biocontainers/ucsc-getrnapred:<tag>
+
+   (see `ucsc-getrnapred/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ucsc-getrnapred| conda:required_by:: ucsc-getrnapred
 .. |downloads_ucsc-getrnapred| image:: https://img.shields.io/conda/dn/bioconda/ucsc-getrnapred.svg?style=flat
    :alt:   (downloads)
 .. |docker_ucsc-getrnapred| image:: https://quay.io/repository/biocontainers/ucsc-getrnapred/status
    :target: https://quay.io/repository/biocontainers/ucsc-getrnapred
+.. _`ucsc-getrnapred/tags`: https://quay.io/repository/biocontainers/ucsc-getrnapred?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ucsc-getrnapred/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hmftools-cobalt'
 .. highlight: bash
-
 
 hmftools-cobalt
 ===============
@@ -21,11 +22,11 @@ hmftools-cobalt
 
    |downloads_hmftools-cobalt| |docker_hmftools-cobalt|
 
-   :versions: 1.5
-
-   :depends: :conda:package:`openjdk` >=8 
-
-   :required~by: |required_by_hmftools-cobalt|
+   :versions: 1.5-0
+   
+   :depends openjdk: >=8
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ hmftools-cobalt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hmftools-cobalt
+      docker pull quay.io/repository/biocontainers/hmftools-cobalt:<tag>
+
+   (see `hmftools-cobalt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hmftools-cobalt| conda:required_by:: hmftools-cobalt
 .. |downloads_hmftools-cobalt| image:: https://img.shields.io/conda/dn/bioconda/hmftools-cobalt.svg?style=flat
    :alt:   (downloads)
 .. |docker_hmftools-cobalt| image:: https://quay.io/repository/biocontainers/hmftools-cobalt/status
    :target: https://quay.io/repository/biocontainers/hmftools-cobalt
+.. _`hmftools-cobalt/tags`: https://quay.io/repository/biocontainers/hmftools-cobalt?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hmftools-cobalt/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vcfsamplecompare'
 .. highlight: bash
-
 
 vcfsamplecompare
 ================
@@ -22,11 +23,11 @@ vcfsamplecompare
 
    |downloads_vcfsamplecompare| |docker_vcfsamplecompare|
 
-   :versions: v2.008, v2.006
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_vcfsamplecompare|
+   :versions: v2.008-0, v2.006-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ vcfsamplecompare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcfsamplecompare
+      docker pull quay.io/repository/biocontainers/vcfsamplecompare:<tag>
+
+   (see `vcfsamplecompare/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vcfsamplecompare| conda:required_by:: vcfsamplecompare
 .. |downloads_vcfsamplecompare| image:: https://img.shields.io/conda/dn/bioconda/vcfsamplecompare.svg?style=flat
    :alt:   (downloads)
 .. |docker_vcfsamplecompare| image:: https://quay.io/repository/biocontainers/vcfsamplecompare/status
    :target: https://quay.io/repository/biocontainers/vcfsamplecompare
+.. _`vcfsamplecompare/tags`: https://quay.io/repository/biocontainers/vcfsamplecompare?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vcfsamplecompare/README.html
-

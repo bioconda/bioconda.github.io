@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-io-stringy'
 .. highlight: bash
-
 
 perl-io-stringy
 ===============
@@ -21,11 +22,11 @@ perl-io-stringy
 
    |downloads_perl-io-stringy| |docker_perl-io-stringy|
 
-   :versions: 2.111
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-io-stringy|
+   :versions: 2.111-1, 2.111-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-io-stringy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-stringy
+      docker pull quay.io/repository/biocontainers/perl-io-stringy:<tag>
+
+   (see `perl-io-stringy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-io-stringy| conda:required_by:: perl-io-stringy
 .. |downloads_perl-io-stringy| image:: https://img.shields.io/conda/dn/bioconda/perl-io-stringy.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-io-stringy| image:: https://quay.io/repository/biocontainers/perl-io-stringy/status
    :target: https://quay.io/repository/biocontainers/perl-io-stringy
+.. _`perl-io-stringy/tags`: https://quay.io/repository/biocontainers/perl-io-stringy?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-io-stringy/README.html
-

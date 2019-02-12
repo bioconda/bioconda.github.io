@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'esmre'
 .. highlight: bash
-
 
 esmre
 =====
@@ -21,11 +22,11 @@ esmre
 
    |downloads_esmre| |docker_esmre|
 
-   :versions: 0.3.1
-
-   :depends: :conda:package:`python` 2.7* :conda:package:`setuptools`  
-
-   :required~by: |required_by_esmre|
+   :versions: 0.3.1-1, 0.3.1-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ esmre
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/esmre
+      docker pull quay.io/repository/biocontainers/esmre:<tag>
+
+   (see `esmre/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_esmre| conda:required_by:: esmre
 .. |downloads_esmre| image:: https://img.shields.io/conda/dn/bioconda/esmre.svg?style=flat
    :alt:   (downloads)
 .. |docker_esmre| image:: https://quay.io/repository/biocontainers/esmre/status
    :target: https://quay.io/repository/biocontainers/esmre
+.. _`esmre/tags`: https://quay.io/repository/biocontainers/esmre?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/esmre/README.html
-

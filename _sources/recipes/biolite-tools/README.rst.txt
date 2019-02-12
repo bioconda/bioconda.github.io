@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biolite-tools'
 .. highlight: bash
-
 
 biolite-tools
 =============
@@ -21,11 +22,13 @@ biolite-tools
 
    |downloads_biolite-tools| |docker_biolite-tools|
 
-   :versions: 0.4.0
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
-
-   :required~by: |required_by_biolite-tools|
+   :versions: 0.4.0-2, 0.4.0-1, 0.4.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ biolite-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biolite-tools
+      docker pull quay.io/repository/biocontainers/biolite-tools:<tag>
+
+   (see `biolite-tools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biolite-tools| conda:required_by:: biolite-tools
 .. |downloads_biolite-tools| image:: https://img.shields.io/conda/dn/bioconda/biolite-tools.svg?style=flat
    :alt:   (downloads)
 .. |docker_biolite-tools| image:: https://quay.io/repository/biocontainers/biolite-tools/status
    :target: https://quay.io/repository/biocontainers/biolite-tools
+.. _`biolite-tools/tags`: https://quay.io/repository/biocontainers/biolite-tools?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biolite-tools/README.html
-

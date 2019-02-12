@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'crb-blast'
 .. highlight: bash
-
 
 crb-blast
 =========
@@ -21,11 +22,13 @@ crb-blast
 
    |downloads_crb-blast| |docker_crb-blast|
 
-   :versions: 0.6.6
-
-   :depends: :conda:package:`blast`  :conda:package:`ruby`  
-
-   :required~by: |required_by_crb-blast|
+   :versions: 0.6.6-1, 0.6.6-0
+   
+   :depends blast: 
+   
+   :depends ruby: >=2.4.4
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ crb-blast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/crb-blast
+      docker pull quay.io/repository/biocontainers/crb-blast:<tag>
+
+   (see `crb-blast/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_crb-blast| conda:required_by:: crb-blast
 .. |downloads_crb-blast| image:: https://img.shields.io/conda/dn/bioconda/crb-blast.svg?style=flat
    :alt:   (downloads)
 .. |docker_crb-blast| image:: https://quay.io/repository/biocontainers/crb-blast/status
    :target: https://quay.io/repository/biocontainers/crb-blast
+.. _`crb-blast/tags`: https://quay.io/repository/biocontainers/crb-blast?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/crb-blast/README.html
-

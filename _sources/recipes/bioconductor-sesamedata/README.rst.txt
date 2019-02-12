@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sesamedata'
 .. highlight: bash
-
 
 bioconductor-sesamedata
 =======================
@@ -21,11 +22,19 @@ bioconductor-sesamedata
 
    |downloads_bioconductor-sesamedata| |docker_bioconductor-sesamedata|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-annotationhub` >=2.14.0,<2.15.0 :conda:package:`bioconductor-experimenthub` >=1.8.0,<1.9.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-curl`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-sesamedata|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
+   
+   :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-curl: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-sesamedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sesamedata
+      docker pull quay.io/repository/biocontainers/bioconductor-sesamedata:<tag>
+
+   (see `bioconductor-sesamedata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sesamedata| conda:required_by:: bioconductor-sesamedata
 .. |downloads_bioconductor-sesamedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sesamedata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sesamedata| image:: https://quay.io/repository/biocontainers/bioconductor-sesamedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sesamedata
+.. _`bioconductor-sesamedata/tags`: https://quay.io/repository/biocontainers/bioconductor-sesamedata?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sesamedata/README.html
-

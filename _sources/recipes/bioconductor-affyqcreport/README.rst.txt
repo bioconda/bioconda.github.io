@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-affyqcreport'
 .. highlight: bash
-
 
 bioconductor-affyqcreport
 =========================
@@ -21,11 +22,27 @@ bioconductor-affyqcreport
 
    |downloads_bioconductor-affyqcreport| |docker_bioconductor-affyqcreport|
 
-   :versions: 1.60.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-affyplm` >=1.58.0,<1.59.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-genefilter` >=1.64.0,<1.65.0 :conda:package:`bioconductor-simpleaffy` >=2.58.0,<2.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-xtable`  
-
-   :required~by: |required_by_bioconductor-affyqcreport|
+   :versions: 1.60.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-affyplm: >=1.58.0,<1.59.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
+   
+   :depends bioconductor-simpleaffy: >=2.58.0,<2.59.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-lattice: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-xtable: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-affyqcreport
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affyqcreport
+      docker pull quay.io/repository/biocontainers/bioconductor-affyqcreport:<tag>
+
+   (see `bioconductor-affyqcreport/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-affyqcreport| conda:required_by:: bioconductor-affyqcreport
 .. |downloads_bioconductor-affyqcreport| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affyqcreport.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-affyqcreport| image:: https://quay.io/repository/biocontainers/bioconductor-affyqcreport/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affyqcreport
+.. _`bioconductor-affyqcreport/tags`: https://quay.io/repository/biocontainers/bioconductor-affyqcreport?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-affyqcreport/README.html
-

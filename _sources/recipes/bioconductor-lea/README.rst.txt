@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-lea'
 .. highlight: bash
-
 
 bioconductor-lea
 ================
@@ -21,11 +22,13 @@ bioconductor-lea
 
    |downloads_bioconductor-lea| |docker_bioconductor-lea|
 
-   :versions: 2.4.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-lea|
+   :versions: 2.4.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-lea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lea
+      docker pull quay.io/repository/biocontainers/bioconductor-lea:<tag>
+
+   (see `bioconductor-lea/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-lea| conda:required_by:: bioconductor-lea
 .. |downloads_bioconductor-lea| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lea.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-lea| image:: https://quay.io/repository/biocontainers/bioconductor-lea/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lea
+.. _`bioconductor-lea/tags`: https://quay.io/repository/biocontainers/bioconductor-lea?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-lea/README.html
-

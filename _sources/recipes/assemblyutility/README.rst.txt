@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'assemblyutility'
 .. highlight: bash
-
 
 assemblyutility
 ===============
@@ -21,11 +22,13 @@ assemblyutility
 
    |downloads_assemblyutility| |docker_assemblyutility|
 
-   :versions: 20160209
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_assemblyutility|
+   :versions: 20160209-2, 20160209-1, 20160209-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ assemblyutility
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/assemblyutility
+      docker pull quay.io/repository/biocontainers/assemblyutility:<tag>
+
+   (see `assemblyutility/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_assemblyutility| conda:required_by:: assemblyutility
 .. |downloads_assemblyutility| image:: https://img.shields.io/conda/dn/bioconda/assemblyutility.svg?style=flat
    :alt:   (downloads)
 .. |docker_assemblyutility| image:: https://quay.io/repository/biocontainers/assemblyutility/status
    :target: https://quay.io/repository/biocontainers/assemblyutility
+.. _`assemblyutility/tags`: https://quay.io/repository/biocontainers/assemblyutility?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/assemblyutility/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'linkage2allegro'
 .. highlight: bash
-
 
 linkage2allegro
 ===============
@@ -21,11 +22,11 @@ linkage2allegro
 
    |downloads_linkage2allegro| |docker_linkage2allegro|
 
-   :versions: 2017.3, 2017.2, 2017.1
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_linkage2allegro|
+   :versions: 2017.3-1, 2017.3-0, 2017.2-0, 2017.1-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ linkage2allegro
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/linkage2allegro
+      docker pull quay.io/repository/biocontainers/linkage2allegro:<tag>
+
+   (see `linkage2allegro/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_linkage2allegro| conda:required_by:: linkage2allegro
 .. |downloads_linkage2allegro| image:: https://img.shields.io/conda/dn/bioconda/linkage2allegro.svg?style=flat
    :alt:   (downloads)
 .. |docker_linkage2allegro| image:: https://quay.io/repository/biocontainers/linkage2allegro/status
    :target: https://quay.io/repository/biocontainers/linkage2allegro
+.. _`linkage2allegro/tags`: https://quay.io/repository/biocontainers/linkage2allegro?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/linkage2allegro/README.html
-

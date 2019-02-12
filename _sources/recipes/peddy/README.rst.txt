@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'peddy'
 .. highlight: bash
-
 
 peddy
 =====
@@ -21,11 +22,31 @@ peddy
 
    |downloads_peddy| |docker_peddy|
 
-   :versions: 0.4.3, 0.4.2, 0.4.1, 0.3.6a, 0.3.1, 0.2.9, 0.2.5, 0.2.2, 0.2.0, 0.1.3, 0.1.2, 0.1.1, 0.0.4
-
-   :depends: :conda:package:`click`  :conda:package:`coloredlogs`  :conda:package:`cyvcf2` >=0.5.3 :conda:package:`matplotlib` >=1.5.0 :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` <3 :conda:package:`scikit-learn`  :conda:package:`seaborn`  :conda:package:`toolshed`  
-
-   :required~by: |required_by_peddy|
+   :versions: 0.4.3-0, 0.4.2-0, 0.4.1-1, 0.4.1-0, 0.3.6a-0, 0.3.1-0, 0.2.9-0, 0.2.5-0, 0.2.2-0, 0.2.0-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.0.4-0
+   
+   :depends click: 
+   
+   :depends coloredlogs: 
+   
+   :depends cyvcf2: >=0.5.3
+   
+   :depends matplotlib: >=1.5.0
+   
+   :depends networkx: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: <3
+   
+   :depends scikit-learn: 
+   
+   :depends seaborn: 
+   
+   :depends toolshed: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ peddy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/peddy
+      docker pull quay.io/repository/biocontainers/peddy:<tag>
+
+   (see `peddy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_peddy| conda:required_by:: peddy
 .. |downloads_peddy| image:: https://img.shields.io/conda/dn/bioconda/peddy.svg?style=flat
    :alt:   (downloads)
 .. |docker_peddy| image:: https://quay.io/repository/biocontainers/peddy/status
    :target: https://quay.io/repository/biocontainers/peddy
+.. _`peddy/tags`: https://quay.io/repository/biocontainers/peddy?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/peddy/README.html
-

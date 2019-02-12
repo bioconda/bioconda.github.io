@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyquant-ms'
 .. highlight: bash
-
 
 pyquant-ms
 ==========
@@ -21,11 +22,31 @@ pyquant-ms
 
    |downloads_pyquant-ms| |docker_pyquant-ms|
 
-   :versions: 0.2.3, 0.2.1, 0.1.43rc3, 0.1.42
-
-   :depends: :conda:package:`cython`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`lxml`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`patsy`  :conda:package:`pythomics` >=0.3.41 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scikit-learn`  :conda:package:`scipy` >=0.18.* :conda:package:`simplejson`  
-
-   :required~by: |required_by_pyquant-ms|
+   :versions: 0.2.3-0, 0.2.1-1, 0.2.1-0, 0.1.43rc3-0, 0.1.42-0
+   
+   :depends cython: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends lxml: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends patsy: 
+   
+   :depends pythomics: >=0.3.41
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: >=0.18.*
+   
+   :depends simplejson: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ pyquant-ms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyquant-ms
+      docker pull quay.io/repository/biocontainers/pyquant-ms:<tag>
+
+   (see `pyquant-ms/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyquant-ms| conda:required_by:: pyquant-ms
 .. |downloads_pyquant-ms| image:: https://img.shields.io/conda/dn/bioconda/pyquant-ms.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyquant-ms| image:: https://quay.io/repository/biocontainers/pyquant-ms/status
    :target: https://quay.io/repository/biocontainers/pyquant-ms
+.. _`pyquant-ms/tags`: https://quay.io/repository/biocontainers/pyquant-ms?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyquant-ms/README.html
-

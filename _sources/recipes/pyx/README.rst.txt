@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyx'
 .. highlight: bash
-
 
 pyx
 ===
@@ -21,11 +22,11 @@ pyx
 
    |downloads_pyx| |docker_pyx|
 
-   :versions: 0.14.1, 0.12.1
-
-   :depends: :conda:package:`python` >=3.5,<3.6.0a0 
-
-   :required~by: |required_by_pyx|
+   :versions: 0.14.1-0, 0.12.1-1, 0.12.1-0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ pyx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyx
+      docker pull quay.io/repository/biocontainers/pyx:<tag>
+
+   (see `pyx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyx| conda:required_by:: pyx
 .. |downloads_pyx| image:: https://img.shields.io/conda/dn/bioconda/pyx.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyx| image:: https://quay.io/repository/biocontainers/pyx/status
    :target: https://quay.io/repository/biocontainers/pyx
+.. _`pyx/tags`: https://quay.io/repository/biocontainers/pyx?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyx/README.html
-

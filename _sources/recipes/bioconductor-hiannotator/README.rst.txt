@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-hiannotator'
 .. highlight: bash
-
 
 bioconductor-hiannotator
 ========================
@@ -22,11 +23,27 @@ bioconductor-hiannotator
 
    |downloads_bioconductor-hiannotator| |docker_bioconductor-hiannotator|
 
-   :versions: 1.16.0, 1.14.0, 1.11.1
-
-   :depends: :conda:package:`bioconductor-bsgenome` >=1.50.0,<1.51.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-iterators`  :conda:package:`r-scales`  
-
-   :required~by: |required_by_bioconductor-hiannotator|
+   :versions: 1.16.0-0, 1.14.0-0, 1.11.1-0
+   
+   :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-foreach: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-iterators: 
+   
+   :depends r-scales: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ bioconductor-hiannotator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hiannotator
+      docker pull quay.io/repository/biocontainers/bioconductor-hiannotator:<tag>
+
+   (see `bioconductor-hiannotator/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-hiannotator| conda:required_by:: bioconductor-hiannotator
 .. |downloads_bioconductor-hiannotator| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hiannotator.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-hiannotator| image:: https://quay.io/repository/biocontainers/bioconductor-hiannotator/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hiannotator
+.. _`bioconductor-hiannotator/tags`: https://quay.io/repository/biocontainers/bioconductor-hiannotator?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-hiannotator/README.html
-

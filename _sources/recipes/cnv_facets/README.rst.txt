@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cnv_facets'
 .. highlight: bash
-
 
 cnv_facets
 ==========
@@ -21,11 +22,29 @@ cnv_facets
 
    |downloads_cnv_facets| |docker_cnv_facets|
 
-   :versions: 0.13.0, 0.12.1, 0.12.0, v0.11.3, v0.11.2
-
-   :depends: :conda:package:`bcftools`  :conda:package:`bioconductor-rsamtools`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-jsonlite`  :conda:package:`samtools`  :conda:package:`snp-pileup`  
-
-   :required~by: |required_by_cnv_facets|
+   :versions: 0.13.0-1, 0.12.1-1, 0.12.1-0, 0.12.0-0, v0.11.3-2, v0.11.3-1, v0.11.2-1
+   
+   :depends bcftools: 
+   
+   :depends bioconductor-rsamtools: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-jsonlite: 
+   
+   :depends samtools: 
+   
+   :depends snp-pileup: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ cnv_facets
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cnv_facets
+      docker pull quay.io/repository/biocontainers/cnv_facets:<tag>
+
+   (see `cnv_facets/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cnv_facets| conda:required_by:: cnv_facets
 .. |downloads_cnv_facets| image:: https://img.shields.io/conda/dn/bioconda/cnv_facets.svg?style=flat
    :alt:   (downloads)
 .. |docker_cnv_facets| image:: https://quay.io/repository/biocontainers/cnv_facets/status
    :target: https://quay.io/repository/biocontainers/cnv_facets
+.. _`cnv_facets/tags`: https://quay.io/repository/biocontainers/cnv_facets?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cnv_facets/README.html
-

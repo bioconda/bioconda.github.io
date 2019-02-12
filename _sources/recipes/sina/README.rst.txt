@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sina'
 .. highlight: bash
-
 
 sina
 ====
@@ -24,11 +25,19 @@ sina
 
    |downloads_sina| |docker_sina|
 
-   :versions: 1.4.0, 1.3.5, 1.3.4, 1.3.1, 1.3.0
-
-   :depends: :conda:package:`arb-bio-tools`  :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`tbb` >=2019.2 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_sina|
+   :versions: 1.4.0-0, 1.3.5-2, 1.3.4-2, 1.3.1-2, 1.3.1-0, 1.3.0-0
+   
+   :depends arb-bio-tools: 
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends tbb: >=2019.2
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +51,16 @@ sina
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sina
+      docker pull quay.io/repository/biocontainers/sina:<tag>
+
+   (see `sina/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sina| conda:required_by:: sina
 .. |downloads_sina| image:: https://img.shields.io/conda/dn/bioconda/sina.svg?style=flat
    :alt:   (downloads)
 .. |docker_sina| image:: https://quay.io/repository/biocontainers/sina/status
    :target: https://quay.io/repository/biocontainers/sina
+.. _`sina/tags`: https://quay.io/repository/biocontainers/sina?tab=tags
 
 
 
@@ -66,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sina/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'minimap'
 .. highlight: bash
-
 
 minimap
 =======
@@ -21,11 +22,11 @@ minimap
 
    |downloads_minimap| |docker_minimap|
 
-   :versions: 0.2, 0.2_r124
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_minimap|
+   :versions: 0.2-0, 0.2_r124-1, 0.2_r124-0
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ minimap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/minimap
+      docker pull quay.io/repository/biocontainers/minimap:<tag>
+
+   (see `minimap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_minimap| conda:required_by:: minimap
 .. |downloads_minimap| image:: https://img.shields.io/conda/dn/bioconda/minimap.svg?style=flat
    :alt:   (downloads)
 .. |docker_minimap| image:: https://quay.io/repository/biocontainers/minimap/status
    :target: https://quay.io/repository/biocontainers/minimap
+.. _`minimap/tags`: https://quay.io/repository/biocontainers/minimap?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/minimap/README.html
-

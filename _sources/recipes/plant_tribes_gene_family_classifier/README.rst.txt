@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'plant_tribes_gene_family_classifier'
 .. highlight: bash
-
 
 plant_tribes_gene_family_classifier
 ===================================
@@ -21,11 +22,15 @@ plant_tribes_gene_family_classifier
 
    |downloads_plant_tribes_gene_family_classifier| |docker_plant_tribes_gene_family_classifier|
 
-   :versions: 1.0.3, 1.0.2, 1.0.0, 0.3, 0.2, 0.1
-
-   :depends: :conda:package:`blast` >=2.5.0 :conda:package:`hmmer` >=3 :conda:package:`perl`  
-
-   :required~by: |required_by_plant_tribes_gene_family_classifier|
+   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0, 0.3-1, 0.2-0, 0.1-0
+   
+   :depends blast: >=2.5.0
+   
+   :depends hmmer: >=3
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ plant_tribes_gene_family_classifier
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plant_tribes_gene_family_classifier
+      docker pull quay.io/repository/biocontainers/plant_tribes_gene_family_classifier:<tag>
+
+   (see `plant_tribes_gene_family_classifier/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_plant_tribes_gene_family_classifier| conda:required_by:: plant_tribes_gene_family_classifier
 .. |downloads_plant_tribes_gene_family_classifier| image:: https://img.shields.io/conda/dn/bioconda/plant_tribes_gene_family_classifier.svg?style=flat
    :alt:   (downloads)
 .. |docker_plant_tribes_gene_family_classifier| image:: https://quay.io/repository/biocontainers/plant_tribes_gene_family_classifier/status
    :target: https://quay.io/repository/biocontainers/plant_tribes_gene_family_classifier
+.. _`plant_tribes_gene_family_classifier/tags`: https://quay.io/repository/biocontainers/plant_tribes_gene_family_classifier?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/plant_tribes_gene_family_classifier/README.html
-

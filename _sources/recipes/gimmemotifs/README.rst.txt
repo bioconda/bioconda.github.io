@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gimmemotifs'
 .. highlight: bash
-
 
 gimmemotifs
 ===========
@@ -22,11 +23,77 @@ gimmemotifs
 
    |downloads_gimmemotifs| |docker_gimmemotifs|
 
-   :versions: 0.13.1, 0.13.0, 0.12.0, 0.11.1, 0.10.0, 0.10.0b6, 0.10.0b5, 0.10.0b4, 0.10.0b1, 0.9.0.6, 0.9.0.5, 0.9.0.4, 0.9.0.3, 0.8.9.1
-
-   :depends: :conda:package:`bedtools`  :conda:package:`diskcache`  :conda:package:`feather-format`  :conda:package:`future`  :conda:package:`gadem`  :conda:package:`genomepy`  :conda:package:`ghostscript`  :conda:package:`homer`  :conda:package:`jinja2`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib` >=2.0 :conda:package:`meme`  :conda:package:`ncurses` >=6.1,<6.2.0a0 :conda:package:`numpy` >=1.15.1,<2.0a0 :conda:package:`pillow`  :conda:package:`pybedtools`  :conda:package:`pysam`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`python-xxhash`  :conda:package:`pyyaml` >=3.10 :conda:package:`scikit-learn` >=0.18 :conda:package:`scipy` >=0.9.0 :conda:package:`seaborn`  :conda:package:`six`  :conda:package:`sklearn-contrib-lightning`  :conda:package:`statsmodels`  :conda:package:`tqdm`  :conda:package:`trawler`  :conda:package:`ucsc-bigbedtobed`  :conda:package:`ucsc-genepredtobed`  :conda:package:`weeder`  :conda:package:`xdg`  :conda:package:`xgboost` >=0.71 :conda:package:`xxmotif`  
-
-   :required~by: |required_by_gimmemotifs|
+   :versions: 0.13.1-0, 0.13.0-1, 0.13.0-0, 0.12.0-1, 0.12.0-0, 0.11.1-1, 0.11.1-0, 0.10.0-0, 0.10.0b6-1, 0.10.0b5-1, 0.10.0b4-1, 0.10.0b4-0, 0.10.0b1-0, 0.9.0.6-0, 0.9.0.5-0, 0.9.0.4-0, 0.9.0.3-2, 0.8.9.1-1
+   
+   :depends bedtools: 
+   
+   :depends diskcache: 
+   
+   :depends feather-format: 
+   
+   :depends future: 
+   
+   :depends gadem: 
+   
+   :depends genomepy: 
+   
+   :depends ghostscript: 
+   
+   :depends homer: 
+   
+   :depends jinja2: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: >=2.0
+   
+   :depends meme: 
+   
+   :depends ncurses: >=6.1,<6.2.0a0
+   
+   :depends numpy: >=1.15.1,<2.0a0
+   
+   :depends pillow: 
+   
+   :depends pybedtools: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :depends python-xxhash: 
+   
+   :depends pyyaml: >=3.10
+   
+   :depends scikit-learn: >=0.18
+   
+   :depends scipy: >=0.9.0
+   
+   :depends seaborn: 
+   
+   :depends six: 
+   
+   :depends sklearn-contrib-lightning: 
+   
+   :depends statsmodels: 
+   
+   :depends tqdm: 
+   
+   :depends trawler: 
+   
+   :depends ucsc-bigbedtobed: 
+   
+   :depends ucsc-genepredtobed: 
+   
+   :depends weeder: 
+   
+   :depends xdg: 
+   
+   :depends xgboost: >=0.71
+   
+   :depends xxmotif: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +107,16 @@ gimmemotifs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gimmemotifs
+      docker pull quay.io/repository/biocontainers/gimmemotifs:<tag>
+
+   (see `gimmemotifs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gimmemotifs| conda:required_by:: gimmemotifs
 .. |downloads_gimmemotifs| image:: https://img.shields.io/conda/dn/bioconda/gimmemotifs.svg?style=flat
    :alt:   (downloads)
 .. |docker_gimmemotifs| image:: https://quay.io/repository/biocontainers/gimmemotifs/status
    :target: https://quay.io/repository/biocontainers/gimmemotifs
+.. _`gimmemotifs/tags`: https://quay.io/repository/biocontainers/gimmemotifs?tab=tags
 
 
 
@@ -64,4 +133,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gimmemotifs/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rhdf5lib'
 .. highlight: bash
-
 
 bioconductor-rhdf5lib
 =====================
@@ -21,11 +22,17 @@ bioconductor-rhdf5lib
 
    |downloads_bioconductor-rhdf5lib| |docker_bioconductor-rhdf5lib|
 
-   :versions: 1.4.2, 1.2.1, 1.0.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgfortran` >=3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_bioconductor-rhdf5lib|
+   :versions: 1.4.2-2, 1.2.1-0, 1.0.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libgfortran: >=3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-rhdf5lib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rhdf5lib
+      docker pull quay.io/repository/biocontainers/bioconductor-rhdf5lib:<tag>
+
+   (see `bioconductor-rhdf5lib/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rhdf5lib| conda:required_by:: bioconductor-rhdf5lib
 .. |downloads_bioconductor-rhdf5lib| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rhdf5lib.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rhdf5lib| image:: https://quay.io/repository/biocontainers/bioconductor-rhdf5lib/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rhdf5lib
+.. _`bioconductor-rhdf5lib/tags`: https://quay.io/repository/biocontainers/bioconductor-rhdf5lib?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rhdf5lib/README.html
-

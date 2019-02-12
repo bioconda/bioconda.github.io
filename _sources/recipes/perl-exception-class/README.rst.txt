@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-exception-class'
 .. highlight: bash
-
 
 perl-exception-class
 ====================
@@ -21,11 +22,15 @@ perl-exception-class
 
    |downloads_perl-exception-class| |docker_perl-exception-class|
 
-   :versions: 1.44, 1.40
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-class-data-inheritable`  :conda:package:`perl-devel-stacktrace`  
-
-   :required~by: |required_by_perl-exception-class|
+   :versions: 1.44-0, 1.40-2, 1.40-1, 1.40-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-class-data-inheritable: 
+   
+   :depends perl-devel-stacktrace: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-exception-class
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-exception-class
+      docker pull quay.io/repository/biocontainers/perl-exception-class:<tag>
+
+   (see `perl-exception-class/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-exception-class| conda:required_by:: perl-exception-class
 .. |downloads_perl-exception-class| image:: https://img.shields.io/conda/dn/bioconda/perl-exception-class.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-exception-class| image:: https://quay.io/repository/biocontainers/perl-exception-class/status
    :target: https://quay.io/repository/biocontainers/perl-exception-class
+.. _`perl-exception-class/tags`: https://quay.io/repository/biocontainers/perl-exception-class?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-exception-class/README.html
-

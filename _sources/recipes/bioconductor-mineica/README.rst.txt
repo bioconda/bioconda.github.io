@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mineica'
 .. highlight: bash
-
 
 bioconductor-mineica
 ====================
@@ -22,11 +23,63 @@ bioconductor-mineica
 
    |downloads_bioconductor-mineica| |docker_bioconductor-mineica|
 
-   :versions: 1.22.0, 1.18.0
-
-   :depends: :conda:package:`bioconductor-annotate` >=1.60.0,<1.61.0 :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-gostats` >=2.48.0,<2.49.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-lumi` >=2.34.0,<2.35.0 :conda:package:`bioconductor-lumihumanall.db` >=1.22.0,<1.23.0 :conda:package:`bioconductor-marray` >=1.60.0,<1.61.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-colorspace`  :conda:package:`r-fastica`  :conda:package:`r-foreach`  :conda:package:`r-fpc`  :conda:package:`r-ggplot2`  :conda:package:`r-gtools`  :conda:package:`r-hmisc`  :conda:package:`r-igraph`  :conda:package:`r-jade`  :conda:package:`r-mclust`  :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-scales`  :conda:package:`r-xtable`  
-
-   :required~by: |required_by_bioconductor-mineica|
+   :versions: 1.22.0-0, 1.18.0-0
+   
+   :depends bioconductor-annotate: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-gostats: >=2.48.0,<2.49.0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-lumi: >=2.34.0,<2.35.0
+   
+   :depends bioconductor-lumihumanall.db: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-marray: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :depends r-colorspace: 
+   
+   :depends r-fastica: 
+   
+   :depends r-foreach: 
+   
+   :depends r-fpc: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gtools: 
+   
+   :depends r-hmisc: 
+   
+   :depends r-igraph: 
+   
+   :depends r-jade: 
+   
+   :depends r-mclust: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-scales: 
+   
+   :depends r-xtable: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +93,16 @@ bioconductor-mineica
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mineica
+      docker pull quay.io/repository/biocontainers/bioconductor-mineica:<tag>
+
+   (see `bioconductor-mineica/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mineica| conda:required_by:: bioconductor-mineica
 .. |downloads_bioconductor-mineica| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mineica.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mineica| image:: https://quay.io/repository/biocontainers/bioconductor-mineica/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mineica
+.. _`bioconductor-mineica/tags`: https://quay.io/repository/biocontainers/bioconductor-mineica?tab=tags
 
 
 
@@ -64,4 +119,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mineica/README.html
-

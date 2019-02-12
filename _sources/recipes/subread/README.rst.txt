@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'subread'
 .. highlight: bash
-
 
 subread
 =======
@@ -22,11 +23,13 @@ subread
 
    |downloads_subread| |docker_subread|
 
-   :versions: 1.6.3, 1.6.2, 1.6.1, 1.6.0, 1.5.3, 1.5.2, 1.5.0.post3, 1.5.0, 1.5.0p3, 1.4.6p5
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_subread|
+   :versions: 1.6.3-1, 1.6.3-0, 1.6.2-0, 1.6.1-1, 1.6.1-0, 1.6.0-2, 1.6.0-1, 1.6.0-0, 1.5.3-1, 1.5.3-0, 1.5.2-0, 1.5.0.post3-0, 1.5.0-0, 1.5.0p3-0, 1.4.6p5-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ subread
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/subread
+      docker pull quay.io/repository/biocontainers/subread:<tag>
+
+   (see `subread/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_subread| conda:required_by:: subread
 .. |downloads_subread| image:: https://img.shields.io/conda/dn/bioconda/subread.svg?style=flat
    :alt:   (downloads)
 .. |docker_subread| image:: https://quay.io/repository/biocontainers/subread/status
    :target: https://quay.io/repository/biocontainers/subread
+.. _`subread/tags`: https://quay.io/repository/biocontainers/subread?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/subread/README.html
-

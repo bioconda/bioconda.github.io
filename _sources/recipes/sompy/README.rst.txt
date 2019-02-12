@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sompy'
 .. highlight: bash
-
 
 sompy
 =====
@@ -21,11 +22,21 @@ sompy
 
    |downloads_sompy| |docker_sompy|
 
-   :versions: 0.1.1
-
-   :depends: :conda:package:`matplotlib`  :conda:package:`numexpr` >=2.5 :conda:package:`numpy` >=1.7 :conda:package:`python` <3 :conda:package:`scikit-learn` >=0.16 :conda:package:`scipy` >=0.9 
-
-   :required~by: |required_by_sompy|
+   :versions: 0.1.1-0
+   
+   :depends matplotlib: 
+   
+   :depends numexpr: >=2.5
+   
+   :depends numpy: >=1.7
+   
+   :depends python: <3
+   
+   :depends scikit-learn: >=0.16
+   
+   :depends scipy: >=0.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ sompy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sompy
+      docker pull quay.io/repository/biocontainers/sompy:<tag>
+
+   (see `sompy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sompy| conda:required_by:: sompy
 .. |downloads_sompy| image:: https://img.shields.io/conda/dn/bioconda/sompy.svg?style=flat
    :alt:   (downloads)
 .. |docker_sompy| image:: https://quay.io/repository/biocontainers/sompy/status
    :target: https://quay.io/repository/biocontainers/sompy
+.. _`sompy/tags`: https://quay.io/repository/biocontainers/sompy?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sompy/README.html
-

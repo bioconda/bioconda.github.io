@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bio-eutilities'
 .. highlight: bash
-
 
 perl-bio-eutilities
 ===================
@@ -21,11 +22,53 @@ perl-bio-eutilities
 
    |downloads_perl-bio-eutilities| |docker_perl-bio-eutilities|
 
-   :versions: 1.75
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-bio-asn1-entrezgene`  :conda:package:`perl-bioperl` ==1.6.924 :conda:package:`perl-capture-tiny`  :conda:package:`perl-class-data-inheritable`  :conda:package:`perl-data-stag`  :conda:package:`perl-devel-stacktrace`  :conda:package:`perl-exception-class`  :conda:package:`perl-sub-uplevel`  :conda:package:`perl-test-deep`  :conda:package:`perl-test-differences`  :conda:package:`perl-test-exception`  :conda:package:`perl-test-most`  :conda:package:`perl-test-simple`  :conda:package:`perl-test-warn`  :conda:package:`perl-text-csv`  :conda:package:`perl-text-diff`  :conda:package:`perl-xml-namespacesupport`  :conda:package:`perl-xml-sax`  :conda:package:`perl-xml-sax-base`  :conda:package:`perl-xml-sax-expat`  :conda:package:`perl-xml-simple`  
-
-   :required~by: |required_by_perl-bio-eutilities|
+   :versions: 1.75-2, 1.75-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bio-asn1-entrezgene: 
+   
+   :depends perl-bioperl: 
+   
+   :depends perl-capture-tiny: 
+   
+   :depends perl-class-data-inheritable: 
+   
+   :depends perl-data-stag: 
+   
+   :depends perl-devel-stacktrace: 
+   
+   :depends perl-exception-class: 
+   
+   :depends perl-sub-uplevel: 
+   
+   :depends perl-test-deep: 
+   
+   :depends perl-test-differences: 
+   
+   :depends perl-test-exception: 
+   
+   :depends perl-test-most: 
+   
+   :depends perl-test-simple: 
+   
+   :depends perl-test-warn: 
+   
+   :depends perl-text-csv: 
+   
+   :depends perl-text-diff: 
+   
+   :depends perl-xml-namespacesupport: 
+   
+   :depends perl-xml-sax: 
+   
+   :depends perl-xml-sax-base: 
+   
+   :depends perl-xml-sax-expat: 
+   
+   :depends perl-xml-simple: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +82,16 @@ perl-bio-eutilities
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-eutilities
+      docker pull quay.io/repository/biocontainers/perl-bio-eutilities:<tag>
+
+   (see `perl-bio-eutilities/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bio-eutilities| conda:required_by:: perl-bio-eutilities
 .. |downloads_perl-bio-eutilities| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-eutilities.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bio-eutilities| image:: https://quay.io/repository/biocontainers/perl-bio-eutilities/status
    :target: https://quay.io/repository/biocontainers/perl-bio-eutilities
+.. _`perl-bio-eutilities/tags`: https://quay.io/repository/biocontainers/perl-bio-eutilities?tab=tags
 
 
 
@@ -63,4 +108,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bio-eutilities/README.html
-

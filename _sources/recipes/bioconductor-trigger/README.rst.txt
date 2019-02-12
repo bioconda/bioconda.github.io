@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-trigger'
 .. highlight: bash
-
 
 bioconductor-trigger
 ====================
@@ -22,11 +23,21 @@ bioconductor-trigger
 
    |downloads_bioconductor-trigger| |docker_bioconductor-trigger|
 
-   :versions: 1.28.0, 1.26.0, 1.24.0
-
-   :depends: :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`bioconductor-sva` >=3.30.0,<3.31.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  :conda:package:`r-qtl`  
-
-   :required~by: |required_by_bioconductor-trigger|
+   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-0
+   
+   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
+   
+   :depends bioconductor-sva: >=3.30.0,<3.31.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-corpcor: 
+   
+   :depends r-qtl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-trigger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-trigger
+      docker pull quay.io/repository/biocontainers/bioconductor-trigger:<tag>
+
+   (see `bioconductor-trigger/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-trigger| conda:required_by:: bioconductor-trigger
 .. |downloads_bioconductor-trigger| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-trigger.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-trigger| image:: https://quay.io/repository/biocontainers/bioconductor-trigger/status
    :target: https://quay.io/repository/biocontainers/bioconductor-trigger
+.. _`bioconductor-trigger/tags`: https://quay.io/repository/biocontainers/bioconductor-trigger?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-trigger/README.html
-

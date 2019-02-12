@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-hd2013sgi'
 .. highlight: bash
-
 
 bioconductor-hd2013sgi
 ======================
@@ -21,11 +22,29 @@ bioconductor-hd2013sgi
 
    |downloads_bioconductor-hd2013sgi| |docker_bioconductor-hd2013sgi|
 
-   :versions: 1.22.0
-
-   :depends: :conda:package:`bioconductor-ebimage` >=4.24.0,<4.25.0 :conda:package:`bioconductor-geneplotter` >=1.60.0,<1.61.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-splots` >=1.48.0,<1.49.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-lsd`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-vcd`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-hd2013sgi|
+   :versions: 1.22.0-0
+   
+   :depends bioconductor-ebimage: >=4.24.0,<4.25.0
+   
+   :depends bioconductor-geneplotter: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-splots: >=1.48.0,<1.49.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gplots: 
+   
+   :depends r-lsd: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-vcd: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ bioconductor-hd2013sgi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hd2013sgi
+      docker pull quay.io/repository/biocontainers/bioconductor-hd2013sgi:<tag>
+
+   (see `bioconductor-hd2013sgi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-hd2013sgi| conda:required_by:: bioconductor-hd2013sgi
 .. |downloads_bioconductor-hd2013sgi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hd2013sgi.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-hd2013sgi| image:: https://quay.io/repository/biocontainers/bioconductor-hd2013sgi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hd2013sgi
+.. _`bioconductor-hd2013sgi/tags`: https://quay.io/repository/biocontainers/bioconductor-hd2013sgi?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-hd2013sgi/README.html
-

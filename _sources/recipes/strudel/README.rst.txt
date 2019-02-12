@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'strudel'
 .. highlight: bash
-
 
 strudel
 =======
@@ -21,11 +22,11 @@ strudel
 
    |downloads_strudel| |docker_strudel|
 
-   :versions: 1.15.08.25
-
-   :depends: :conda:package:`openjdk` >=6,<9 
-
-   :required~by: |required_by_strudel|
+   :versions: 1.15.08.25-1, 1.15.08.25-0
+   
+   :depends openjdk: >=6,<9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ strudel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/strudel
+      docker pull quay.io/repository/biocontainers/strudel:<tag>
+
+   (see `strudel/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_strudel| conda:required_by:: strudel
 .. |downloads_strudel| image:: https://img.shields.io/conda/dn/bioconda/strudel.svg?style=flat
    :alt:   (downloads)
 .. |docker_strudel| image:: https://quay.io/repository/biocontainers/strudel/status
    :target: https://quay.io/repository/biocontainers/strudel
+.. _`strudel/tags`: https://quay.io/repository/biocontainers/strudel?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/strudel/README.html
-

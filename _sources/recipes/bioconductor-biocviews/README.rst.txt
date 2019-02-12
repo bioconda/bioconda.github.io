@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-biocviews'
 .. highlight: bash
-
 
 bioconductor-biocviews
 ======================
@@ -22,11 +23,23 @@ bioconductor-biocviews
 
    |downloads_bioconductor-biocviews| |docker_bioconductor-biocviews|
 
-   :versions: 1.50.9, 1.48.3, 1.46.0, 1.44.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcurl`  :conda:package:`r-runit`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-biocviews|
+   :versions: 1.50.9-0, 1.48.3-0, 1.46.0-0, 1.44.0-1, 1.44.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-rbgl: >=1.58.0,<1.59.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcurl: 
+   
+   :depends r-runit: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ bioconductor-biocviews
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocviews
+      docker pull quay.io/repository/biocontainers/bioconductor-biocviews:<tag>
+
+   (see `bioconductor-biocviews/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-biocviews| conda:required_by:: bioconductor-biocviews
 .. |downloads_bioconductor-biocviews| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocviews.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-biocviews| image:: https://quay.io/repository/biocontainers/bioconductor-biocviews/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocviews
+.. _`bioconductor-biocviews/tags`: https://quay.io/repository/biocontainers/bioconductor-biocviews?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-biocviews/README.html
-

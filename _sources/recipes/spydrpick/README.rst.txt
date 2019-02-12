@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'spydrpick'
 .. highlight: bash
-
 
 spydrpick
 =========
@@ -22,11 +23,17 @@ spydrpick
 
    |downloads_spydrpick| |docker_spydrpick|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`pthread-stubs`  :conda:package:`tbb` >=2019.3 
-
-   :required~by: |required_by_spydrpick|
+   :versions: 1.0.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends pthread-stubs: 
+   
+   :depends tbb: >=2019.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ spydrpick
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spydrpick
+      docker pull quay.io/repository/biocontainers/spydrpick:<tag>
+
+   (see `spydrpick/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_spydrpick| conda:required_by:: spydrpick
 .. |downloads_spydrpick| image:: https://img.shields.io/conda/dn/bioconda/spydrpick.svg?style=flat
    :alt:   (downloads)
 .. |docker_spydrpick| image:: https://quay.io/repository/biocontainers/spydrpick/status
    :target: https://quay.io/repository/biocontainers/spydrpick
+.. _`spydrpick/tags`: https://quay.io/repository/biocontainers/spydrpick?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/spydrpick/README.html
-

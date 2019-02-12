@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'spine'
 .. highlight: bash
-
 
 spine
 =====
@@ -21,11 +22,15 @@ spine
 
    |downloads_spine| |docker_spine|
 
-   :versions: 0.2.2
-
-   :depends: :conda:package:`mummer` >=3.22 :conda:package:`perl` 5.22.0* :conda:package:`perl-file-which`  
-
-   :required~by: |required_by_spine|
+   :versions: 0.2.2-1, 0.2.2-0
+   
+   :depends mummer: >=3.22
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-file-which: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ spine
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spine
+      docker pull quay.io/repository/biocontainers/spine:<tag>
+
+   (see `spine/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_spine| conda:required_by:: spine
 .. |downloads_spine| image:: https://img.shields.io/conda/dn/bioconda/spine.svg?style=flat
    :alt:   (downloads)
 .. |docker_spine| image:: https://quay.io/repository/biocontainers/spine/status
    :target: https://quay.io/repository/biocontainers/spine
+.. _`spine/tags`: https://quay.io/repository/biocontainers/spine?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/spine/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-subseq'
 .. highlight: bash
-
 
 bioconductor-subseq
 ===================
@@ -22,11 +23,27 @@ bioconductor-subseq
 
    |downloads_bioconductor-subseq| |docker_bioconductor-subseq|
 
-   :versions: 1.12.0, 1.10.0, 1.8.0, 1.6.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-digest`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-magrittr`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_bioconductor-subseq|
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-digest: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ bioconductor-subseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-subseq
+      docker pull quay.io/repository/biocontainers/bioconductor-subseq:<tag>
+
+   (see `bioconductor-subseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-subseq| conda:required_by:: bioconductor-subseq
 .. |downloads_bioconductor-subseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-subseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-subseq| image:: https://quay.io/repository/biocontainers/bioconductor-subseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-subseq
+.. _`bioconductor-subseq/tags`: https://quay.io/repository/biocontainers/bioconductor-subseq?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-subseq/README.html
-

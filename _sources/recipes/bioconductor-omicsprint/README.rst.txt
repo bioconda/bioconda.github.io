@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-omicsprint'
 .. highlight: bash
-
 
 bioconductor-omicsprint
 =======================
@@ -21,11 +22,21 @@ bioconductor-omicsprint
 
    |downloads_bioconductor-omicsprint| |docker_bioconductor-omicsprint|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-multiassayexperiment` >=1.8.0,<1.9.0 :conda:package:`bioconductor-raggedexperiment` >=1.6.0,<1.7.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  :conda:package:`r-matrixstats`  
-
-   :required~by: |required_by_bioconductor-omicsprint|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-multiassayexperiment: >=1.8.0,<1.9.0
+   
+   :depends bioconductor-raggedexperiment: >=1.6.0,<1.7.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mass: 
+   
+   :depends r-matrixstats: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-omicsprint
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omicsprint
+      docker pull quay.io/repository/biocontainers/bioconductor-omicsprint:<tag>
+
+   (see `bioconductor-omicsprint/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-omicsprint| conda:required_by:: bioconductor-omicsprint
 .. |downloads_bioconductor-omicsprint| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-omicsprint.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-omicsprint| image:: https://quay.io/repository/biocontainers/bioconductor-omicsprint/status
    :target: https://quay.io/repository/biocontainers/bioconductor-omicsprint
+.. _`bioconductor-omicsprint/tags`: https://quay.io/repository/biocontainers/bioconductor-omicsprint?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-omicsprint/README.html
-

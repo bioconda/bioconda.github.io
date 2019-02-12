@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ruby-dna-tools'
 .. highlight: bash
-
 
 ruby-dna-tools
 ==============
@@ -21,11 +22,17 @@ ruby-dna-tools
 
    |downloads_ruby-dna-tools| |docker_ruby-dna-tools|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`jemalloc`  :conda:package:`python`  :conda:package:`ruby` >=2.4 :conda:package:`zlib`  
-
-   :required~by: |required_by_ruby-dna-tools|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends jemalloc: 
+   
+   :depends python: 
+   
+   :depends ruby: >=2.4
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ ruby-dna-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ruby-dna-tools
+      docker pull quay.io/repository/biocontainers/ruby-dna-tools:<tag>
+
+   (see `ruby-dna-tools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ruby-dna-tools| conda:required_by:: ruby-dna-tools
 .. |downloads_ruby-dna-tools| image:: https://img.shields.io/conda/dn/bioconda/ruby-dna-tools.svg?style=flat
    :alt:   (downloads)
 .. |docker_ruby-dna-tools| image:: https://quay.io/repository/biocontainers/ruby-dna-tools/status
    :target: https://quay.io/repository/biocontainers/ruby-dna-tools
+.. _`ruby-dna-tools/tags`: https://quay.io/repository/biocontainers/ruby-dna-tools?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ruby-dna-tools/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastsimbac'
 .. highlight: bash
-
 
 fastsimbac
 ==========
@@ -21,11 +22,15 @@ fastsimbac
 
    |downloads_fastsimbac| |docker_fastsimbac|
 
-   :versions: 1.0.1_bd3ad13d8f79
-
-   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_fastsimbac|
+   :versions: 1.0.1_bd3ad13d8f79-0
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ fastsimbac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastsimbac
+      docker pull quay.io/repository/biocontainers/fastsimbac:<tag>
+
+   (see `fastsimbac/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastsimbac| conda:required_by:: fastsimbac
 .. |downloads_fastsimbac| image:: https://img.shields.io/conda/dn/bioconda/fastsimbac.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastsimbac| image:: https://quay.io/repository/biocontainers/fastsimbac/status
    :target: https://quay.io/repository/biocontainers/fastsimbac
+.. _`fastsimbac/tags`: https://quay.io/repository/biocontainers/fastsimbac?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastsimbac/README.html
-

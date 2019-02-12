@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'peakranger'
 .. highlight: bash
-
 
 peakranger
 ==========
@@ -22,11 +23,17 @@ peakranger
 
    |downloads_peakranger| |docker_peakranger|
 
-   :versions: 1.18
-
-   :depends: :conda:package:`boost` 1.60* :conda:package:`r` 3.2.2* :conda:package:`zlib`  
-
-   :required~by: |required_by_peakranger|
+   :versions: 1.18-3, 1.18-2, 1.18-1, 1.18-0
+   
+   :depends boost: >=1.66.0,<1.66.1.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends r-base: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ peakranger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/peakranger
+      docker pull quay.io/repository/biocontainers/peakranger:<tag>
+
+   (see `peakranger/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_peakranger| conda:required_by:: peakranger
 .. |downloads_peakranger| image:: https://img.shields.io/conda/dn/bioconda/peakranger.svg?style=flat
    :alt:   (downloads)
 .. |docker_peakranger| image:: https://quay.io/repository/biocontainers/peakranger/status
    :target: https://quay.io/repository/biocontainers/peakranger
+.. _`peakranger/tags`: https://quay.io/repository/biocontainers/peakranger?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/peakranger/README.html
-

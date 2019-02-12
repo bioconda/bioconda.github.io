@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metagene_annotator'
 .. highlight: bash
-
 
 metagene_annotator
 ==================
@@ -21,11 +22,9 @@ metagene_annotator
 
    |downloads_metagene_annotator| |docker_metagene_annotator|
 
-   :versions: 1.0
-
-   :depends: 
-
-   :required~by: |required_by_metagene_annotator|
+   :versions: 1.0-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ metagene_annotator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metagene_annotator
+      docker pull quay.io/repository/biocontainers/metagene_annotator:<tag>
+
+   (see `metagene_annotator/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metagene_annotator| conda:required_by:: metagene_annotator
 .. |downloads_metagene_annotator| image:: https://img.shields.io/conda/dn/bioconda/metagene_annotator.svg?style=flat
    :alt:   (downloads)
 .. |docker_metagene_annotator| image:: https://quay.io/repository/biocontainers/metagene_annotator/status
    :target: https://quay.io/repository/biocontainers/metagene_annotator
+.. _`metagene_annotator/tags`: https://quay.io/repository/biocontainers/metagene_annotator?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metagene_annotator/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-giant'
 .. highlight: bash
-
 
 r-giant
 =======
@@ -21,11 +22,11 @@ r-giant
 
    |downloads_r-giant| |docker_r-giant|
 
-   :versions: 1.2
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-giant|
+   :versions: 1.2-0
+   
+   :depends r-base: 3.2.2*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-giant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-giant
+      docker pull quay.io/repository/biocontainers/r-giant:<tag>
+
+   (see `r-giant/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-giant| conda:required_by:: r-giant
 .. |downloads_r-giant| image:: https://img.shields.io/conda/dn/bioconda/r-giant.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-giant| image:: https://quay.io/repository/biocontainers/r-giant/status
    :target: https://quay.io/repository/biocontainers/r-giant
+.. _`r-giant/tags`: https://quay.io/repository/biocontainers/r-giant?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-giant/README.html
-

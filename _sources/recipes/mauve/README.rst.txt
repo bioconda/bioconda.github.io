@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mauve'
 .. highlight: bash
-
 
 mauve
 =====
@@ -22,11 +23,13 @@ mauve
 
    |downloads_mauve| |docker_mauve|
 
-   :versions: 2.4.0.r4736
-
-   :depends: :conda:package:`mauvealigner`  :conda:package:`openjdk` >=8.0.122 
-
-   :required~by: |required_by_mauve|
+   :versions: 2.4.0.r4736-0
+   
+   :depends mauvealigner: 
+   
+   :depends openjdk: >=8.0.122
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ mauve
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mauve
+      docker pull quay.io/repository/biocontainers/mauve:<tag>
+
+   (see `mauve/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mauve| conda:required_by:: mauve
 .. |downloads_mauve| image:: https://img.shields.io/conda/dn/bioconda/mauve.svg?style=flat
    :alt:   (downloads)
 .. |docker_mauve| image:: https://quay.io/repository/biocontainers/mauve/status
    :target: https://quay.io/repository/biocontainers/mauve
+.. _`mauve/tags`: https://quay.io/repository/biocontainers/mauve?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mauve/README.html
-

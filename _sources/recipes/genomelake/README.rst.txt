@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genomelake'
 .. highlight: bash
-
 
 genomelake
 ==========
@@ -21,11 +22,23 @@ genomelake
 
    |downloads_genomelake| |docker_genomelake|
 
-   :versions: 0.1.4
-
-   :depends: :conda:package:`bcolz` >=1.1 :conda:package:`numpy`  :conda:package:`pybedtools`  :conda:package:`pybigwig`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`six` >=1.9.0 
-
-   :required~by: |required_by_genomelake|
+   :versions: 0.1.4-1, 0.1.4-0
+   
+   :depends bcolz: >=1.1
+   
+   :depends numpy: 
+   
+   :depends pybedtools: 
+   
+   :depends pybigwig: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends six: >=1.9.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ genomelake
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genomelake
+      docker pull quay.io/repository/biocontainers/genomelake:<tag>
+
+   (see `genomelake/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genomelake| conda:required_by:: genomelake
 .. |downloads_genomelake| image:: https://img.shields.io/conda/dn/bioconda/genomelake.svg?style=flat
    :alt:   (downloads)
 .. |docker_genomelake| image:: https://quay.io/repository/biocontainers/genomelake/status
    :target: https://quay.io/repository/biocontainers/genomelake
+.. _`genomelake/tags`: https://quay.io/repository/biocontainers/genomelake?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genomelake/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cllmethylation'
 .. highlight: bash
-
 
 bioconductor-cllmethylation
 ===========================
@@ -21,11 +22,17 @@ bioconductor-cllmethylation
 
    |downloads_bioconductor-cllmethylation| |docker_bioconductor-cllmethylation|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-experimenthub` >=1.8.0,<1.9.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-cllmethylation|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-cllmethylation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cllmethylation
+      docker pull quay.io/repository/biocontainers/bioconductor-cllmethylation:<tag>
+
+   (see `bioconductor-cllmethylation/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cllmethylation| conda:required_by:: bioconductor-cllmethylation
 .. |downloads_bioconductor-cllmethylation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cllmethylation.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cllmethylation| image:: https://quay.io/repository/biocontainers/bioconductor-cllmethylation/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cllmethylation
+.. _`bioconductor-cllmethylation/tags`: https://quay.io/repository/biocontainers/bioconductor-cllmethylation?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cllmethylation/README.html
-

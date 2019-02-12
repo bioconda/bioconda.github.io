@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'extract_fullseq'
 .. highlight: bash
-
 
 extract_fullseq
 ===============
@@ -21,11 +22,9 @@ extract_fullseq
 
    |downloads_extract_fullseq| |docker_extract_fullseq|
 
-   :versions: 3.101
-
-   :depends: 
-
-   :required~by: |required_by_extract_fullseq|
+   :versions: 3.101-3, 3.101-2, 3.101-1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ extract_fullseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/extract_fullseq
+      docker pull quay.io/repository/biocontainers/extract_fullseq:<tag>
+
+   (see `extract_fullseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_extract_fullseq| conda:required_by:: extract_fullseq
 .. |downloads_extract_fullseq| image:: https://img.shields.io/conda/dn/bioconda/extract_fullseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_extract_fullseq| image:: https://quay.io/repository/biocontainers/extract_fullseq/status
    :target: https://quay.io/repository/biocontainers/extract_fullseq
+.. _`extract_fullseq/tags`: https://quay.io/repository/biocontainers/extract_fullseq?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/extract_fullseq/README.html
-

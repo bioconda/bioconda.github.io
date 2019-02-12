@@ -133,11 +133,18 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">2.4.35, 2.4.34, 2.4.33, 2.4.32, 2.4.30, 2.4.27, 2.4.26, 2.4.25, 2.4.24, 2.4.23, 2.4.22, 2.4.21, 2.4.20, 2.4.19</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">2.4.35-1, 2.4.35-0, 2.4.34-0, 2.4.33-0, 2.4.32-0, 2.4.30-0, 2.4.27-0, 2.4.26-0, 2.4.25-0, 2.4.24-0, 2.4.23-0, 2.4.22-0, 2.4.21-0, 2.4.20-0, 2.4.19-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference external" href="https://github.com/conda-forge/libgcc-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">libgcc</span></code></a></td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> &gt;=4.9</li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+<li><a class="conda-package reference internal" href="../pyseer/README.html#pyseer"><strong class="xref backref">pyseer</strong></a></li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -151,9 +158,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">bedops</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">bedops</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/bedops?tab=tags">bedops/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

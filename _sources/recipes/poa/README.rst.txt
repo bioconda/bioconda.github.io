@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'poa'
 .. highlight: bash
-
 
 poa
 ===
@@ -21,11 +22,13 @@ poa
 
    |downloads_poa| |docker_poa|
 
-   :versions: 2.0
-
-   :depends: :conda:package:`blast-legacy`  :conda:package:`libgcc`  
-
-   :required~by: |required_by_poa|
+   :versions: 2.0-1, 2.0-0
+   
+   :depends blast-legacy: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ poa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/poa
+      docker pull quay.io/repository/biocontainers/poa:<tag>
+
+   (see `poa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_poa| conda:required_by:: poa
 .. |downloads_poa| image:: https://img.shields.io/conda/dn/bioconda/poa.svg?style=flat
    :alt:   (downloads)
 .. |docker_poa| image:: https://quay.io/repository/biocontainers/poa/status
    :target: https://quay.io/repository/biocontainers/poa
+.. _`poa/tags`: https://quay.io/repository/biocontainers/poa?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/poa/README.html
-

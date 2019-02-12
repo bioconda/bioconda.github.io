@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-sql-statement'
 .. highlight: bash
-
 
 perl-sql-statement
 ==================
@@ -21,11 +22,21 @@ perl-sql-statement
 
    |downloads_perl-sql-statement| |docker_perl-sql-statement|
 
-   :versions: 1.407
-
-   :depends: :conda:package:`perl-clone`  :conda:package:`perl-math-base-convert`  :conda:package:`perl-module-runtime`  :conda:package:`perl-params-util`  :conda:package:`perl-text-soundex`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-sql-statement|
+   :versions: 1.407-0
+   
+   :depends perl-clone: 
+   
+   :depends perl-math-base-convert: 
+   
+   :depends perl-module-runtime: 
+   
+   :depends perl-params-util: 
+   
+   :depends perl-text-soundex: 
+   
+   :depends perl-threaded: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-sql-statement
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sql-statement
+      docker pull quay.io/repository/biocontainers/perl-sql-statement:<tag>
+
+   (see `perl-sql-statement/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-sql-statement| conda:required_by:: perl-sql-statement
 .. |downloads_perl-sql-statement| image:: https://img.shields.io/conda/dn/bioconda/perl-sql-statement.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-sql-statement| image:: https://quay.io/repository/biocontainers/perl-sql-statement/status
    :target: https://quay.io/repository/biocontainers/perl-sql-statement
+.. _`perl-sql-statement/tags`: https://quay.io/repository/biocontainers/perl-sql-statement?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-sql-statement/README.html
-

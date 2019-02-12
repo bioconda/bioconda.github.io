@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'plass'
 .. highlight: bash
-
 
 plass
 =====
@@ -21,11 +22,19 @@ plass
 
    |downloads_plass| |docker_plass|
 
-   :versions: 2.c7e35
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`gawk`  :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`openmp`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_plass|
+   :versions: 2.c7e35-1
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends gawk: 
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends openmp: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ plass
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plass
+      docker pull quay.io/repository/biocontainers/plass:<tag>
+
+   (see `plass/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_plass| conda:required_by:: plass
 .. |downloads_plass| image:: https://img.shields.io/conda/dn/bioconda/plass.svg?style=flat
    :alt:   (downloads)
 .. |docker_plass| image:: https://quay.io/repository/biocontainers/plass/status
    :target: https://quay.io/repository/biocontainers/plass
+.. _`plass/tags`: https://quay.io/repository/biocontainers/plass?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/plass/README.html
-

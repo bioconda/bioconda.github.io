@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-biomvrcns'
 .. highlight: bash
-
 
 bioconductor-biomvrcns
 ======================
@@ -21,11 +22,21 @@ bioconductor-biomvrcns
 
    |downloads_bioconductor-biomvrcns| |docker_bioconductor-biomvrcns|
 
-   :versions: 1.22.0
-
-   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-gviz` >=1.26.0,<1.27.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mvtnorm`  
-
-   :required~by: |required_by_bioconductor-biomvrcns|
+   :versions: 1.22.0-0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-gviz: >=1.26.0,<1.27.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mvtnorm: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-biomvrcns
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biomvrcns
+      docker pull quay.io/repository/biocontainers/bioconductor-biomvrcns:<tag>
+
+   (see `bioconductor-biomvrcns/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-biomvrcns| conda:required_by:: bioconductor-biomvrcns
 .. |downloads_bioconductor-biomvrcns| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biomvrcns.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-biomvrcns| image:: https://quay.io/repository/biocontainers/bioconductor-biomvrcns/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biomvrcns
+.. _`bioconductor-biomvrcns/tags`: https://quay.io/repository/biocontainers/bioconductor-biomvrcns?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-biomvrcns/README.html
-

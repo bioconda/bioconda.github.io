@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mea'
 .. highlight: bash
-
 
 mea
 ===
@@ -21,11 +22,11 @@ mea
 
    |downloads_mea| |docker_mea|
 
-   :versions: 0.6.4
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_mea|
+   :versions: 0.6.4-2, 0.6.4-1
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ mea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mea
+      docker pull quay.io/repository/biocontainers/mea:<tag>
+
+   (see `mea/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mea| conda:required_by:: mea
 .. |downloads_mea| image:: https://img.shields.io/conda/dn/bioconda/mea.svg?style=flat
    :alt:   (downloads)
 .. |docker_mea| image:: https://quay.io/repository/biocontainers/mea/status
    :target: https://quay.io/repository/biocontainers/mea
+.. _`mea/tags`: https://quay.io/repository/biocontainers/mea?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mea/README.html
-

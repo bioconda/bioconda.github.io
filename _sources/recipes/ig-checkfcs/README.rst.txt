@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ig-checkfcs'
 .. highlight: bash
-
 
 ig-checkfcs
 ===========
@@ -21,11 +22,13 @@ ig-checkfcs
 
    |downloads_ig-checkfcs| |docker_ig-checkfcs|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-flowcore`  :conda:package:`r` >=2.10.0 
-
-   :required~by: |required_by_ig-checkfcs|
+   :versions: 1.0.0-1, 1.0.0-0
+   
+   :depends bioconductor-flowcore: 
+   
+   :depends r: >=2.10.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ ig-checkfcs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ig-checkfcs
+      docker pull quay.io/repository/biocontainers/ig-checkfcs:<tag>
+
+   (see `ig-checkfcs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ig-checkfcs| conda:required_by:: ig-checkfcs
 .. |downloads_ig-checkfcs| image:: https://img.shields.io/conda/dn/bioconda/ig-checkfcs.svg?style=flat
    :alt:   (downloads)
 .. |docker_ig-checkfcs| image:: https://quay.io/repository/biocontainers/ig-checkfcs/status
    :target: https://quay.io/repository/biocontainers/ig-checkfcs
+.. _`ig-checkfcs/tags`: https://quay.io/repository/biocontainers/ig-checkfcs?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ig-checkfcs/README.html
-

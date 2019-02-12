@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-msstatsqcgui'
 .. highlight: bash
-
 
 bioconductor-msstatsqcgui
 =========================
@@ -21,11 +22,25 @@ bioconductor-msstatsqcgui
 
    |downloads_bioconductor-msstatsqcgui| |docker_bioconductor-msstatsqcgui|
 
-   :versions: 1.2.1
-
-   :depends: :conda:package:`bioconductor-msstatsqc` >=2.0.0,<2.1.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-ggextra`  :conda:package:`r-gridextra`  :conda:package:`r-plotly`  :conda:package:`r-recordlinkage`  :conda:package:`r-shiny`  
-
-   :required~by: |required_by_bioconductor-msstatsqcgui|
+   :versions: 1.2.1-0
+   
+   :depends bioconductor-msstatsqc: >=2.0.0,<2.1.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggextra: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-plotly: 
+   
+   :depends r-recordlinkage: 
+   
+   :depends r-shiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bioconductor-msstatsqcgui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msstatsqcgui
+      docker pull quay.io/repository/biocontainers/bioconductor-msstatsqcgui:<tag>
+
+   (see `bioconductor-msstatsqcgui/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-msstatsqcgui| conda:required_by:: bioconductor-msstatsqcgui
 .. |downloads_bioconductor-msstatsqcgui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msstatsqcgui.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-msstatsqcgui| image:: https://quay.io/repository/biocontainers/bioconductor-msstatsqcgui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-msstatsqcgui
+.. _`bioconductor-msstatsqcgui/tags`: https://quay.io/repository/biocontainers/bioconductor-msstatsqcgui?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-msstatsqcgui/README.html
-

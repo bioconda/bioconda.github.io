@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'discasm'
 .. highlight: bash
-
 
 discasm
 =======
@@ -21,11 +22,21 @@ discasm
 
    |downloads_discasm| |docker_discasm|
 
-   :versions: 0.1.3, 0.1.2
-
-   :depends: :conda:package:`oases` >=0.2 :conda:package:`perl` 5.22.0* :conda:package:`pysam` >=0.10.0 :conda:package:`python` 2.7* :conda:package:`star` >=2.4 :conda:package:`trinity` >=2.4 
-
-   :required~by: |required_by_discasm|
+   :versions: 0.1.3-0, 0.1.2-2, 0.1.2-1, 0.1.2-0
+   
+   :depends oases: >=0.2
+   
+   :depends perl: 5.22.0*
+   
+   :depends pysam: >=0.10.0
+   
+   :depends python: 2.7*
+   
+   :depends star: >=2.4
+   
+   :depends trinity: >=2.4
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ discasm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/discasm
+      docker pull quay.io/repository/biocontainers/discasm:<tag>
+
+   (see `discasm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_discasm| conda:required_by:: discasm
 .. |downloads_discasm| image:: https://img.shields.io/conda/dn/bioconda/discasm.svg?style=flat
    :alt:   (downloads)
 .. |docker_discasm| image:: https://quay.io/repository/biocontainers/discasm/status
    :target: https://quay.io/repository/biocontainers/discasm
+.. _`discasm/tags`: https://quay.io/repository/biocontainers/discasm?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/discasm/README.html
-

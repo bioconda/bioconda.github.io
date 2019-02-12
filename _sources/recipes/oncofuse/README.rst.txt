@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'oncofuse'
 .. highlight: bash
-
 
 oncofuse
 ========
@@ -21,11 +22,11 @@ oncofuse
 
    |downloads_oncofuse| |docker_oncofuse|
 
-   :versions: 1.1.1, 1.1.0
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_oncofuse|
+   :versions: 1.1.1-1, 1.1.1-0, 1.1.0-2, 1.1.0-1, 1.1.0-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ oncofuse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/oncofuse
+      docker pull quay.io/repository/biocontainers/oncofuse:<tag>
+
+   (see `oncofuse/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_oncofuse| conda:required_by:: oncofuse
 .. |downloads_oncofuse| image:: https://img.shields.io/conda/dn/bioconda/oncofuse.svg?style=flat
    :alt:   (downloads)
 .. |docker_oncofuse| image:: https://quay.io/repository/biocontainers/oncofuse/status
    :target: https://quay.io/repository/biocontainers/oncofuse
+.. _`oncofuse/tags`: https://quay.io/repository/biocontainers/oncofuse?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/oncofuse/README.html
-

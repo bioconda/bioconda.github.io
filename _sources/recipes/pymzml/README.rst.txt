@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pymzml'
 .. highlight: bash
-
 
 pymzml
 ======
@@ -22,11 +23,13 @@ pymzml
 
    |downloads_pymzml| |docker_pymzml|
 
-   :versions: 2.0.6, 2.0.5, 0.7.10, 0.7.8, 0.7.7, 0.7.5
-
-   :depends: :conda:package:`plotly`  :conda:package:`python`  
-
-   :required~by: |required_by_pymzml|
+   :versions: 2.0.6-1, 2.0.6-0, 2.0.5-0, 0.7.10-1, 0.7.10-0, 0.7.8-1, 0.7.8-0, 0.7.7-1, 0.7.7-0, 0.7.5-1, 0.7.5-0
+   
+   :depends plotly: 
+   
+   :depends python: >3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ pymzml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pymzml
+      docker pull quay.io/repository/biocontainers/pymzml:<tag>
+
+   (see `pymzml/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pymzml| conda:required_by:: pymzml
 .. |downloads_pymzml| image:: https://img.shields.io/conda/dn/bioconda/pymzml.svg?style=flat
    :alt:   (downloads)
 .. |docker_pymzml| image:: https://quay.io/repository/biocontainers/pymzml/status
    :target: https://quay.io/repository/biocontainers/pymzml
+.. _`pymzml/tags`: https://quay.io/repository/biocontainers/pymzml?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pymzml/README.html
-

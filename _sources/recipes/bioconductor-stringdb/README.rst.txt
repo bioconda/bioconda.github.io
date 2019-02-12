@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-stringdb'
 .. highlight: bash
-
 
 bioconductor-stringdb
 =====================
@@ -22,11 +23,29 @@ bioconductor-stringdb
 
    |downloads_bioconductor-stringdb| |docker_bioconductor-stringdb|
 
-   :versions: 1.22.0, 1.20.0, 1.18.0, 1.16.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-hash`  :conda:package:`r-igraph`  :conda:package:`r-plotrix`  :conda:package:`r-plyr`  :conda:package:`r-png`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcurl`  :conda:package:`r-sqldf`  
-
-   :required~by: |required_by_bioconductor-stringdb|
+   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gplots: 
+   
+   :depends r-hash: 
+   
+   :depends r-igraph: 
+   
+   :depends r-plotrix: 
+   
+   :depends r-plyr: 
+   
+   :depends r-png: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rcurl: 
+   
+   :depends r-sqldf: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ bioconductor-stringdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-stringdb
+      docker pull quay.io/repository/biocontainers/bioconductor-stringdb:<tag>
+
+   (see `bioconductor-stringdb/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-stringdb| conda:required_by:: bioconductor-stringdb
 .. |downloads_bioconductor-stringdb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-stringdb.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-stringdb| image:: https://quay.io/repository/biocontainers/bioconductor-stringdb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-stringdb
+.. _`bioconductor-stringdb/tags`: https://quay.io/repository/biocontainers/bioconductor-stringdb?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-stringdb/README.html
-

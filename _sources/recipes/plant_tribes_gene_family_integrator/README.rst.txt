@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'plant_tribes_gene_family_integrator'
 .. highlight: bash
-
 
 plant_tribes_gene_family_integrator
 ===================================
@@ -21,11 +22,11 @@ plant_tribes_gene_family_integrator
 
    |downloads_plant_tribes_gene_family_integrator| |docker_plant_tribes_gene_family_integrator|
 
-   :versions: 1.0.3, 1.0.2, 1.0.0
-
-   :depends: :conda:package:`perl`  
-
-   :required~by: |required_by_plant_tribes_gene_family_integrator|
+   :versions: 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ plant_tribes_gene_family_integrator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plant_tribes_gene_family_integrator
+      docker pull quay.io/repository/biocontainers/plant_tribes_gene_family_integrator:<tag>
+
+   (see `plant_tribes_gene_family_integrator/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_plant_tribes_gene_family_integrator| conda:required_by:: plant_tribes_gene_family_integrator
 .. |downloads_plant_tribes_gene_family_integrator| image:: https://img.shields.io/conda/dn/bioconda/plant_tribes_gene_family_integrator.svg?style=flat
    :alt:   (downloads)
 .. |docker_plant_tribes_gene_family_integrator| image:: https://quay.io/repository/biocontainers/plant_tribes_gene_family_integrator/status
    :target: https://quay.io/repository/biocontainers/plant_tribes_gene_family_integrator
+.. _`plant_tribes_gene_family_integrator/tags`: https://quay.io/repository/biocontainers/plant_tribes_gene_family_integrator?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/plant_tribes_gene_family_integrator/README.html
-

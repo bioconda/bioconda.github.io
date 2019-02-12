@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-cp4p'
 .. highlight: bash
-
 
 r-cp4p
 ======
@@ -21,11 +22,19 @@ r-cp4p
 
    |downloads_r-cp4p| |docker_r-cp4p|
 
-   :versions: 0.3.5
-
-   :depends: :conda:package:`bioconductor-limma`  :conda:package:`bioconductor-multtest`  :conda:package:`bioconductor-qvalue`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mess`  
-
-   :required~by: |required_by_r-cp4p|
+   :versions: 0.3.5-0
+   
+   :depends bioconductor-limma: 
+   
+   :depends bioconductor-multtest: 
+   
+   :depends bioconductor-qvalue: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mess: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ r-cp4p
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-cp4p
+      docker pull quay.io/repository/biocontainers/r-cp4p:<tag>
+
+   (see `r-cp4p/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-cp4p| conda:required_by:: r-cp4p
 .. |downloads_r-cp4p| image:: https://img.shields.io/conda/dn/bioconda/r-cp4p.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-cp4p| image:: https://quay.io/repository/biocontainers/r-cp4p/status
    :target: https://quay.io/repository/biocontainers/r-cp4p
+.. _`r-cp4p/tags`: https://quay.io/repository/biocontainers/r-cp4p?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-cp4p/README.html
-

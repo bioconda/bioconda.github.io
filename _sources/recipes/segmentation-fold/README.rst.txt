@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'segmentation-fold'
 .. highlight: bash
-
 
 segmentation-fold
 =================
@@ -21,11 +22,21 @@ segmentation-fold
 
    |downloads_segmentation-fold| |docker_segmentation-fold|
 
-   :versions: 1.7.0, 1.6.8
-
-   :depends: :conda:package:`boost` ==1.63.0 :conda:package:`click` >=4.0 :conda:package:`htseq` >=0.6.1 :conda:package:`libgcc`  :conda:package:`pysam` >=0.8.1,<=0.8.3 :conda:package:`python` ==2.7.12 
-
-   :required~by: |required_by_segmentation-fold|
+   :versions: 1.7.0-1, 1.7.0-0, 1.6.8-0
+   
+   :depends boost: >=1.63.0,<1.63.1.0a0
+   
+   :depends click: >=4.0
+   
+   :depends htseq: >=0.6.1
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends pysam: >=0.8.1,<=0.8.3
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ segmentation-fold
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/segmentation-fold
+      docker pull quay.io/repository/biocontainers/segmentation-fold:<tag>
+
+   (see `segmentation-fold/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_segmentation-fold| conda:required_by:: segmentation-fold
 .. |downloads_segmentation-fold| image:: https://img.shields.io/conda/dn/bioconda/segmentation-fold.svg?style=flat
    :alt:   (downloads)
 .. |docker_segmentation-fold| image:: https://quay.io/repository/biocontainers/segmentation-fold/status
    :target: https://quay.io/repository/biocontainers/segmentation-fold
+.. _`segmentation-fold/tags`: https://quay.io/repository/biocontainers/segmentation-fold?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/segmentation-fold/README.html
-

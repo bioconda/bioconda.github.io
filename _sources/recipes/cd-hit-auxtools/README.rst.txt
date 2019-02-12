@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cd-hit-auxtools'
 .. highlight: bash
-
 
 cd-hit-auxtools
 ===============
@@ -21,11 +22,11 @@ cd-hit-auxtools
 
    |downloads_cd-hit-auxtools| |docker_cd-hit-auxtools|
 
-   :versions: 4.6.8
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_cd-hit-auxtools|
+   :versions: 4.6.8-1, 4.6.8-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ cd-hit-auxtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cd-hit-auxtools
+      docker pull quay.io/repository/biocontainers/cd-hit-auxtools:<tag>
+
+   (see `cd-hit-auxtools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cd-hit-auxtools| conda:required_by:: cd-hit-auxtools
 .. |downloads_cd-hit-auxtools| image:: https://img.shields.io/conda/dn/bioconda/cd-hit-auxtools.svg?style=flat
    :alt:   (downloads)
 .. |docker_cd-hit-auxtools| image:: https://quay.io/repository/biocontainers/cd-hit-auxtools/status
    :target: https://quay.io/repository/biocontainers/cd-hit-auxtools
+.. _`cd-hit-auxtools/tags`: https://quay.io/repository/biocontainers/cd-hit-auxtools?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cd-hit-auxtools/README.html
-

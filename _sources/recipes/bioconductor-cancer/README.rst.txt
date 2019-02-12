@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cancer'
 .. highlight: bash
-
 
 bioconductor-cancer
 ===================
@@ -22,10 +23,8 @@ bioconductor-cancer
    |downloads_bioconductor-cancer| |docker_bioconductor-cancer|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-cancer|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-cancer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cancer
+      docker pull quay.io/repository/biocontainers/bioconductor-cancer:<tag>
+
+   (see `bioconductor-cancer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cancer| conda:required_by:: bioconductor-cancer
 .. |downloads_bioconductor-cancer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cancer.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cancer| image:: https://quay.io/repository/biocontainers/bioconductor-cancer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cancer
+.. _`bioconductor-cancer/tags`: https://quay.io/repository/biocontainers/bioconductor-cancer?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cancer/README.html
-

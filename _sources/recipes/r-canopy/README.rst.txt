@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-canopy'
 .. highlight: bash
-
 
 r-canopy
 ========
@@ -21,11 +22,19 @@ r-canopy
 
    |downloads_r-canopy| |docker_r-canopy|
 
-   :versions: 1.3.0, 1.2.0
-
-   :depends: :conda:package:`r-ape`  :conda:package:`r-base` >=3.4 :conda:package:`r-fields`  :conda:package:`r-pheatmap`  :conda:package:`r-scatterplot3d`  
-
-   :required~by: |required_by_r-canopy|
+   :versions: 1.3.0-3, 1.3.0-2, 1.3.0-0, 1.2.0-0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-fields: 
+   
+   :depends r-pheatmap: 
+   
+   :depends r-scatterplot3d: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ r-canopy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-canopy
+      docker pull quay.io/repository/biocontainers/r-canopy:<tag>
+
+   (see `r-canopy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-canopy| conda:required_by:: r-canopy
 .. |downloads_r-canopy| image:: https://img.shields.io/conda/dn/bioconda/r-canopy.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-canopy| image:: https://quay.io/repository/biocontainers/r-canopy/status
    :target: https://quay.io/repository/biocontainers/r-canopy
+.. _`r-canopy/tags`: https://quay.io/repository/biocontainers/r-canopy?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-canopy/README.html
-

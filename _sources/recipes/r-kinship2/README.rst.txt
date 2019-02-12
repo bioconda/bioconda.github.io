@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-kinship2'
 .. highlight: bash
-
 
 r-kinship2
 ==========
@@ -21,11 +22,15 @@ r-kinship2
 
    |downloads_r-kinship2| |docker_r-kinship2|
 
-   :versions: 1.6.4
-
-   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-matrix`  :conda:package:`r-quadprog`  
-
-   :required~by: |required_by_r-kinship2|
+   :versions: 1.6.4-3, 1.6.4-2, 1.6.4-1, 1.6.4-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-matrix: 
+   
+   :depends r-quadprog: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-kinship2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-kinship2
+      docker pull quay.io/repository/biocontainers/r-kinship2:<tag>
+
+   (see `r-kinship2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-kinship2| conda:required_by:: r-kinship2
 .. |downloads_r-kinship2| image:: https://img.shields.io/conda/dn/bioconda/r-kinship2.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-kinship2| image:: https://quay.io/repository/biocontainers/r-kinship2/status
    :target: https://quay.io/repository/biocontainers/r-kinship2
+.. _`r-kinship2/tags`: https://quay.io/repository/biocontainers/r-kinship2?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-kinship2/README.html
-

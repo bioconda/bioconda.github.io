@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-genetclassifier'
 .. highlight: bash
-
 
 bioconductor-genetclassifier
 ============================
@@ -22,11 +23,19 @@ bioconductor-genetclassifier
 
    |downloads_bioconductor-genetclassifier| |docker_bioconductor-genetclassifier|
 
-   :versions: 1.22.0, 1.20.0, 1.18.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-ebarrays` >=2.46.0,<2.47.0 :conda:package:`bioconductor-minet` >=3.40.0,<3.41.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  
-
-   :required~by: |required_by_bioconductor-genetclassifier|
+   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-ebarrays: >=2.46.0,<2.47.0
+   
+   :depends bioconductor-minet: >=3.40.0,<3.41.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-e1071: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-genetclassifier
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genetclassifier
+      docker pull quay.io/repository/biocontainers/bioconductor-genetclassifier:<tag>
+
+   (see `bioconductor-genetclassifier/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-genetclassifier| conda:required_by:: bioconductor-genetclassifier
 .. |downloads_bioconductor-genetclassifier| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genetclassifier.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-genetclassifier| image:: https://quay.io/repository/biocontainers/bioconductor-genetclassifier/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genetclassifier
+.. _`bioconductor-genetclassifier/tags`: https://quay.io/repository/biocontainers/bioconductor-genetclassifier?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-genetclassifier/README.html
-

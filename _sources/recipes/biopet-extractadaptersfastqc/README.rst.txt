@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biopet-extractadaptersfastqc'
 .. highlight: bash
-
 
 biopet-extractadaptersfastqc
 ============================
@@ -27,11 +28,13 @@ biopet-extractadaptersfastqc
 
    |downloads_biopet-extractadaptersfastqc| |docker_biopet-extractadaptersfastqc|
 
-   :versions: 0.2, 0.1
-
-   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
-
-   :required~by: |required_by_biopet-extractadaptersfastqc|
+   :versions: 0.2-1, 0.2-0, 0.1-1, 0.1-0
+   
+   :depends openjdk: >=8,<9
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -45,14 +48,16 @@ biopet-extractadaptersfastqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-extractadaptersfastqc
+      docker pull quay.io/repository/biocontainers/biopet-extractadaptersfastqc:<tag>
+
+   (see `biopet-extractadaptersfastqc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biopet-extractadaptersfastqc| conda:required_by:: biopet-extractadaptersfastqc
 .. |downloads_biopet-extractadaptersfastqc| image:: https://img.shields.io/conda/dn/bioconda/biopet-extractadaptersfastqc.svg?style=flat
    :alt:   (downloads)
 .. |docker_biopet-extractadaptersfastqc| image:: https://quay.io/repository/biocontainers/biopet-extractadaptersfastqc/status
    :target: https://quay.io/repository/biocontainers/biopet-extractadaptersfastqc
+.. _`biopet-extractadaptersfastqc/tags`: https://quay.io/repository/biocontainers/biopet-extractadaptersfastqc?tab=tags
 
 
 
@@ -73,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biopet-extractadaptersfastqc/README.html
-

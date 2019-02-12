@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'estscan'
 .. highlight: bash
-
 
 estscan
 =======
@@ -21,11 +22,11 @@ estscan
 
    |downloads_estscan| |docker_estscan|
 
-   :versions: 3.0
-
-   :depends: 
-
-   :required~by: |required_by_estscan|
+   :versions: 3.0-2, 3.0-1, 3.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ estscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/estscan
+      docker pull quay.io/repository/biocontainers/estscan:<tag>
+
+   (see `estscan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_estscan| conda:required_by:: estscan
 .. |downloads_estscan| image:: https://img.shields.io/conda/dn/bioconda/estscan.svg?style=flat
    :alt:   (downloads)
 .. |docker_estscan| image:: https://quay.io/repository/biocontainers/estscan/status
    :target: https://quay.io/repository/biocontainers/estscan
+.. _`estscan/tags`: https://quay.io/repository/biocontainers/estscan?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/estscan/README.html
-

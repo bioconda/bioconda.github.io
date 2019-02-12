@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyega3'
 .. highlight: bash
-
 
 pyega3
 ======
@@ -21,11 +22,15 @@ pyega3
 
    |downloads_pyega3| |docker_pyega3|
 
-   :versions: 3.0.21
-
-   :depends: :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`requests`  :conda:package:`tqdm`  
-
-   :required~by: |required_by_pyega3|
+   :versions: 3.0.21-1, 3.0.21-0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends requests: 
+   
+   :depends tqdm: >=4.26.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pyega3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyega3
+      docker pull quay.io/repository/biocontainers/pyega3:<tag>
+
+   (see `pyega3/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyega3| conda:required_by:: pyega3
 .. |downloads_pyega3| image:: https://img.shields.io/conda/dn/bioconda/pyega3.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyega3| image:: https://quay.io/repository/biocontainers/pyega3/status
    :target: https://quay.io/repository/biocontainers/pyega3
+.. _`pyega3/tags`: https://quay.io/repository/biocontainers/pyega3?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyega3/README.html
-

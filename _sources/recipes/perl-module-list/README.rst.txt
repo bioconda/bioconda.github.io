@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-module-list'
 .. highlight: bash
-
 
 perl-module-list
 ================
@@ -21,11 +22,17 @@ perl-module-list
 
    |downloads_perl-module-list| |docker_perl-module-list|
 
-   :versions: 0.004
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-parent`  
-
-   :required~by: |required_by_perl-module-list|
+   :versions: 0.004-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-parent: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-module-list
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-list
+      docker pull quay.io/repository/biocontainers/perl-module-list:<tag>
+
+   (see `perl-module-list/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-module-list| conda:required_by:: perl-module-list
 .. |downloads_perl-module-list| image:: https://img.shields.io/conda/dn/bioconda/perl-module-list.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-module-list| image:: https://quay.io/repository/biocontainers/perl-module-list/status
    :target: https://quay.io/repository/biocontainers/perl-module-list
+.. _`perl-module-list/tags`: https://quay.io/repository/biocontainers/perl-module-list?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-module-list/README.html
-

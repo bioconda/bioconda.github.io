@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-tinesath1cdf'
 .. highlight: bash
-
 
 bioconductor-tinesath1cdf
 =========================
@@ -21,11 +22,13 @@ bioconductor-tinesath1cdf
 
    |downloads_bioconductor-tinesath1cdf| |docker_bioconductor-tinesath1cdf|
 
-   :versions: 1.20.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-tinesath1cdf|
+   :versions: 1.20.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-tinesath1cdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tinesath1cdf
+      docker pull quay.io/repository/biocontainers/bioconductor-tinesath1cdf:<tag>
+
+   (see `bioconductor-tinesath1cdf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-tinesath1cdf| conda:required_by:: bioconductor-tinesath1cdf
 .. |downloads_bioconductor-tinesath1cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tinesath1cdf.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-tinesath1cdf| image:: https://quay.io/repository/biocontainers/bioconductor-tinesath1cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tinesath1cdf
+.. _`bioconductor-tinesath1cdf/tags`: https://quay.io/repository/biocontainers/bioconductor-tinesath1cdf?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-tinesath1cdf/README.html
-

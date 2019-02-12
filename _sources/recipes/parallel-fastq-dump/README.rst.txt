@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'parallel-fastq-dump'
 .. highlight: bash
-
 
 parallel-fastq-dump
 ===================
@@ -21,11 +22,13 @@ parallel-fastq-dump
 
    |downloads_parallel-fastq-dump| |docker_parallel-fastq-dump|
 
-   :versions: 0.6.3, 0.6.2, 0.6.1, 0.6.0, 0.5.4
-
-   :depends: :conda:package:`python` 3.5* :conda:package:`sra-tools`  
-
-   :required~by: |required_by_parallel-fastq-dump|
+   :versions: 0.6.3-1, 0.6.3-0, 0.6.2-0, 0.6.1-0, 0.6.0-0, 0.5.4-0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends sra-tools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ parallel-fastq-dump
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/parallel-fastq-dump
+      docker pull quay.io/repository/biocontainers/parallel-fastq-dump:<tag>
+
+   (see `parallel-fastq-dump/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_parallel-fastq-dump| conda:required_by:: parallel-fastq-dump
 .. |downloads_parallel-fastq-dump| image:: https://img.shields.io/conda/dn/bioconda/parallel-fastq-dump.svg?style=flat
    :alt:   (downloads)
 .. |docker_parallel-fastq-dump| image:: https://quay.io/repository/biocontainers/parallel-fastq-dump/status
    :target: https://quay.io/repository/biocontainers/parallel-fastq-dump
+.. _`parallel-fastq-dump/tags`: https://quay.io/repository/biocontainers/parallel-fastq-dump?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/parallel-fastq-dump/README.html
-

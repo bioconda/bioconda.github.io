@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-coenocliner'
 .. highlight: bash
-
 
 r-coenocliner
 =============
@@ -21,11 +22,11 @@ r-coenocliner
 
    |downloads_r-coenocliner| |docker_r-coenocliner|
 
-   :versions: 0.2_2
-
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
-
-   :required~by: |required_by_r-coenocliner|
+   :versions: 0.2_2-2, 0.2_2-1, 0.2_2-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-coenocliner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-coenocliner
+      docker pull quay.io/repository/biocontainers/r-coenocliner:<tag>
+
+   (see `r-coenocliner/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-coenocliner| conda:required_by:: r-coenocliner
 .. |downloads_r-coenocliner| image:: https://img.shields.io/conda/dn/bioconda/r-coenocliner.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-coenocliner| image:: https://quay.io/repository/biocontainers/r-coenocliner/status
    :target: https://quay.io/repository/biocontainers/r-coenocliner
+.. _`r-coenocliner/tags`: https://quay.io/repository/biocontainers/r-coenocliner?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-coenocliner/README.html
-

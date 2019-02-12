@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyliftover'
 .. highlight: bash
-
 
 pyliftover
 ==========
@@ -21,11 +22,11 @@ pyliftover
 
    |downloads_pyliftover| |docker_pyliftover|
 
-   :versions: 0.3
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pyliftover|
+   :versions: 0.3-2, 0.3-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ pyliftover
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyliftover
+      docker pull quay.io/repository/biocontainers/pyliftover:<tag>
+
+   (see `pyliftover/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyliftover| conda:required_by:: pyliftover
 .. |downloads_pyliftover| image:: https://img.shields.io/conda/dn/bioconda/pyliftover.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyliftover| image:: https://quay.io/repository/biocontainers/pyliftover/status
    :target: https://quay.io/repository/biocontainers/pyliftover
+.. _`pyliftover/tags`: https://quay.io/repository/biocontainers/pyliftover?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyliftover/README.html
-

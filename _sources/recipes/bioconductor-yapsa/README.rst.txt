@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-yapsa'
 .. highlight: bash
-
 
 bioconductor-yapsa
 ==================
@@ -22,11 +23,43 @@ bioconductor-yapsa
 
    |downloads_bioconductor-yapsa| |docker_bioconductor-yapsa|
 
-   :versions: 1.8.0, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`bioconductor-complexheatmap` >=1.20.0,<1.21.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-gtrellis` >=1.14.0,<1.15.0 :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`bioconductor-somaticsignatures` >=2.18.0,<2.19.0 :conda:package:`bioconductor-variantannotation` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-circlize`  :conda:package:`r-corrplot`  :conda:package:`r-dendextend`  :conda:package:`r-getoptlong`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-lsei`  :conda:package:`r-pmcmr`  :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-yapsa|
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0
+   
+   :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-gtrellis: >=1.14.0,<1.15.0
+   
+   :depends bioconductor-keggrest: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-somaticsignatures: >=2.18.0,<2.19.0
+   
+   :depends bioconductor-variantannotation: >=1.28.0,<1.29.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-circlize: 
+   
+   :depends r-corrplot: 
+   
+   :depends r-dendextend: 
+   
+   :depends r-getoptlong: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-lsei: 
+   
+   :depends r-pmcmr: 
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +73,16 @@ bioconductor-yapsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-yapsa
+      docker pull quay.io/repository/biocontainers/bioconductor-yapsa:<tag>
+
+   (see `bioconductor-yapsa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-yapsa| conda:required_by:: bioconductor-yapsa
 .. |downloads_bioconductor-yapsa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yapsa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-yapsa| image:: https://quay.io/repository/biocontainers/bioconductor-yapsa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-yapsa
+.. _`bioconductor-yapsa/tags`: https://quay.io/repository/biocontainers/bioconductor-yapsa?tab=tags
 
 
 
@@ -64,4 +99,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-yapsa/README.html
-

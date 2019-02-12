@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-amountain'
 .. highlight: bash
-
 
 bioconductor-amountain
 ======================
@@ -22,11 +23,17 @@ bioconductor-amountain
 
    |downloads_bioconductor-amountain| |docker_bioconductor-amountain|
 
-   :versions: 1.8.0, 1.6.0, 1.4.0, 1.2.0
-
-   :depends: :conda:package:`gsl` >=2.4,<2.5.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`openblas` >=0.3.3,<0.3.4.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-amountain|
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
+   
+   :depends gsl: >=2.4,<2.5.0a0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends openblas: >=0.3.3,<0.3.4.0a0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-amountain
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-amountain
+      docker pull quay.io/repository/biocontainers/bioconductor-amountain:<tag>
+
+   (see `bioconductor-amountain/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-amountain| conda:required_by:: bioconductor-amountain
 .. |downloads_bioconductor-amountain| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-amountain.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-amountain| image:: https://quay.io/repository/biocontainers/bioconductor-amountain/status
    :target: https://quay.io/repository/biocontainers/bioconductor-amountain
+.. _`bioconductor-amountain/tags`: https://quay.io/repository/biocontainers/bioconductor-amountain?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-amountain/README.html
-

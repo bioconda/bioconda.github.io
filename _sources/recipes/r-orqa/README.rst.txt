@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-orqa'
 .. highlight: bash
-
 
 r-orqa
 ======
@@ -21,11 +22,23 @@ r-orqa
 
    |downloads_r-orqa| |docker_r-orqa|
 
-   :versions: 0.2.1
-
-   :depends: :conda:package:`bioconductor-genefilter` >=1.24.3 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gtools` >=2.6.1 :conda:package:`r-nlme` >=3.1_96 :conda:package:`r-rcpp` >=0.8.9 
-
-   :required~by: |required_by_r-orqa|
+   :versions: 0.2.1-0
+   
+   :depends bioconductor-genefilter: >=1.24.3
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gtools: >=2.6.1
+   
+   :depends r-nlme: >=3.1_96
+   
+   :depends r-rcpp: >=0.8.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ r-orqa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-orqa
+      docker pull quay.io/repository/biocontainers/r-orqa:<tag>
+
+   (see `r-orqa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-orqa| conda:required_by:: r-orqa
 .. |downloads_r-orqa| image:: https://img.shields.io/conda/dn/bioconda/r-orqa.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-orqa| image:: https://quay.io/repository/biocontainers/r-orqa/status
    :target: https://quay.io/repository/biocontainers/r-orqa
+.. _`r-orqa/tags`: https://quay.io/repository/biocontainers/r-orqa?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-orqa/README.html
-

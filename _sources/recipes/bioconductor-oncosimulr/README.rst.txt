@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-oncosimulr'
 .. highlight: bash
-
 
 bioconductor-oncosimulr
 =======================
@@ -22,11 +23,41 @@ bioconductor-oncosimulr
 
    |downloads_bioconductor-oncosimulr| |docker_bioconductor-oncosimulr|
 
-   :versions: 2.12.0, 2.10.0, 2.8.0
-
-   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-nem` >=2.56.0,<2.57.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-car`  :conda:package:`r-data.table`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-gtools`  :conda:package:`r-igraph`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp` >=0.12.4 :conda:package:`r-smatr`  
-
-   :required~by: |required_by_bioconductor-oncosimulr|
+   :versions: 2.12.0-0, 2.10.0-0, 2.8.0-0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-nem: >=2.56.0,<2.57.0
+   
+   :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-car: 
+   
+   :depends r-data.table: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggrepel: 
+   
+   :depends r-gtools: 
+   
+   :depends r-igraph: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rcpp: >=0.12.4
+   
+   :depends r-smatr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +71,16 @@ bioconductor-oncosimulr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-oncosimulr
+      docker pull quay.io/repository/biocontainers/bioconductor-oncosimulr:<tag>
+
+   (see `bioconductor-oncosimulr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-oncosimulr| conda:required_by:: bioconductor-oncosimulr
 .. |downloads_bioconductor-oncosimulr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-oncosimulr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-oncosimulr| image:: https://quay.io/repository/biocontainers/bioconductor-oncosimulr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-oncosimulr
+.. _`bioconductor-oncosimulr/tags`: https://quay.io/repository/biocontainers/bioconductor-oncosimulr?tab=tags
 
 
 
@@ -64,4 +97,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-oncosimulr/README.html
-

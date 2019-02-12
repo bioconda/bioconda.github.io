@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'erne'
 .. highlight: bash
-
 
 erne
 ====
@@ -22,11 +23,17 @@ erne
 
    |downloads_erne| |docker_erne|
 
-   :versions: 2.1.1
-
-   :depends: :conda:package:`boost` 1.61* :conda:package:`bzip2`  :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_erne|
+   :versions: 2.1.1-2, 2.1.1-1, 2.1.1-0
+   
+   :depends boost: >=1.66.0,<1.66.1.0a0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ erne
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/erne
+      docker pull quay.io/repository/biocontainers/erne:<tag>
+
+   (see `erne/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_erne| conda:required_by:: erne
 .. |downloads_erne| image:: https://img.shields.io/conda/dn/bioconda/erne.svg?style=flat
    :alt:   (downloads)
 .. |docker_erne| image:: https://quay.io/repository/biocontainers/erne/status
    :target: https://quay.io/repository/biocontainers/erne
+.. _`erne/tags`: https://quay.io/repository/biocontainers/erne?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/erne/README.html
-

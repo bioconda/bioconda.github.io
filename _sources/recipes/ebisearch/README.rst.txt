@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ebisearch'
 .. highlight: bash
-
 
 ebisearch
 =========
@@ -21,11 +22,17 @@ ebisearch
 
    |downloads_ebisearch| |docker_ebisearch|
 
-   :versions: 0.0.3, 0.0.2
-
-   :depends: :conda:package:`click`  :conda:package:`flake8`  :conda:package:`python` 2.7* :conda:package:`requests`  
-
-   :required~by: |required_by_ebisearch|
+   :versions: 0.0.3-1, 0.0.3-0, 0.0.2-0
+   
+   :depends click: 
+   
+   :depends flake8: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends requests: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ ebisearch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ebisearch
+      docker pull quay.io/repository/biocontainers/ebisearch:<tag>
+
+   (see `ebisearch/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ebisearch| conda:required_by:: ebisearch
 .. |downloads_ebisearch| image:: https://img.shields.io/conda/dn/bioconda/ebisearch.svg?style=flat
    :alt:   (downloads)
 .. |docker_ebisearch| image:: https://quay.io/repository/biocontainers/ebisearch/status
    :target: https://quay.io/repository/biocontainers/ebisearch
+.. _`ebisearch/tags`: https://quay.io/repository/biocontainers/ebisearch?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ebisearch/README.html
-

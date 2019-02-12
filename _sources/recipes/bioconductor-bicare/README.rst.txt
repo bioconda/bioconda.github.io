@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bicare'
 .. highlight: bash
-
 
 bioconductor-bicare
 ===================
@@ -22,11 +23,19 @@ bioconductor-bicare
 
    |downloads_bioconductor-bicare| |docker_bioconductor-bicare|
 
-   :versions: 1.40.0, 1.38.0, 1.36.0, 1.34.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`bioconductor-multtest` >=2.38.0,<2.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-bicare|
+   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-gseabase: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-multtest: >=2.38.0,<2.39.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-bicare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bicare
+      docker pull quay.io/repository/biocontainers/bioconductor-bicare:<tag>
+
+   (see `bioconductor-bicare/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bicare| conda:required_by:: bioconductor-bicare
 .. |downloads_bioconductor-bicare| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bicare.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bicare| image:: https://quay.io/repository/biocontainers/bioconductor-bicare/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bicare
+.. _`bioconductor-bicare/tags`: https://quay.io/repository/biocontainers/bioconductor-bicare?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bicare/README.html
-

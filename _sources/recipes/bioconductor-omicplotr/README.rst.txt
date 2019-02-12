@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-omicplotr'
 .. highlight: bash
-
 
 bioconductor-omicplotr
 ======================
@@ -21,11 +22,27 @@ bioconductor-omicplotr
 
    |downloads_bioconductor-omicplotr| |docker_bioconductor-omicplotr|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-aldex2` >=1.14.0,<1.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-compositions`  :conda:package:`r-knitr`  :conda:package:`r-matrixstats`  :conda:package:`r-rmarkdown`  :conda:package:`r-shiny`  :conda:package:`r-vegan`  :conda:package:`r-zcompositions`  
-
-   :required~by: |required_by_bioconductor-omicplotr|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-aldex2: >=1.14.0,<1.15.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-compositions: 
+   
+   :depends r-knitr: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-rmarkdown: 
+   
+   :depends r-shiny: 
+   
+   :depends r-vegan: 
+   
+   :depends r-zcompositions: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-omicplotr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omicplotr
+      docker pull quay.io/repository/biocontainers/bioconductor-omicplotr:<tag>
+
+   (see `bioconductor-omicplotr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-omicplotr| conda:required_by:: bioconductor-omicplotr
 .. |downloads_bioconductor-omicplotr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-omicplotr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-omicplotr| image:: https://quay.io/repository/biocontainers/bioconductor-omicplotr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-omicplotr
+.. _`bioconductor-omicplotr/tags`: https://quay.io/repository/biocontainers/bioconductor-omicplotr?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-omicplotr/README.html
-

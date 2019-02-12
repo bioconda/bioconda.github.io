@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biopet-validatevcf'
 .. highlight: bash
-
 
 biopet-validatevcf
 ==================
@@ -24,11 +25,13 @@ biopet-validatevcf
 
    |downloads_biopet-validatevcf| |docker_biopet-validatevcf|
 
-   :versions: 0.1
-
-   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
-
-   :required~by: |required_by_biopet-validatevcf|
+   :versions: 0.1-0
+   
+   :depends openjdk: >=8,<9
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +45,16 @@ biopet-validatevcf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-validatevcf
+      docker pull quay.io/repository/biocontainers/biopet-validatevcf:<tag>
+
+   (see `biopet-validatevcf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biopet-validatevcf| conda:required_by:: biopet-validatevcf
 .. |downloads_biopet-validatevcf| image:: https://img.shields.io/conda/dn/bioconda/biopet-validatevcf.svg?style=flat
    :alt:   (downloads)
 .. |docker_biopet-validatevcf| image:: https://quay.io/repository/biocontainers/biopet-validatevcf/status
    :target: https://quay.io/repository/biocontainers/biopet-validatevcf
+.. _`biopet-validatevcf/tags`: https://quay.io/repository/biocontainers/biopet-validatevcf?tab=tags
 
 
 
@@ -70,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biopet-validatevcf/README.html
-

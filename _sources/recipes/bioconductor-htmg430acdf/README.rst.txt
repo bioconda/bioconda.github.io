@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-htmg430acdf'
 .. highlight: bash
-
 
 bioconductor-htmg430acdf
 ========================
@@ -21,11 +22,15 @@ bioconductor-htmg430acdf
 
    |downloads_bioconductor-htmg430acdf| |docker_bioconductor-htmg430acdf|
 
-   :versions: 2.18.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-htmg430acdf|
+   :versions: 2.18.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-htmg430acdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-htmg430acdf
+      docker pull quay.io/repository/biocontainers/bioconductor-htmg430acdf:<tag>
+
+   (see `bioconductor-htmg430acdf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-htmg430acdf| conda:required_by:: bioconductor-htmg430acdf
 .. |downloads_bioconductor-htmg430acdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-htmg430acdf.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-htmg430acdf| image:: https://quay.io/repository/biocontainers/bioconductor-htmg430acdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-htmg430acdf
+.. _`bioconductor-htmg430acdf/tags`: https://quay.io/repository/biocontainers/bioconductor-htmg430acdf?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-htmg430acdf/README.html
-

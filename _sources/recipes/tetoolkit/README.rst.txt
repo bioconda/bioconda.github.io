@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tetoolkit'
 .. highlight: bash
-
 
 tetoolkit
 =========
@@ -21,11 +22,17 @@ tetoolkit
 
    |downloads_tetoolkit| |docker_tetoolkit|
 
-   :versions: 2.0.3, 1.5.1
-
-   :depends: :conda:package:`argparse`  :conda:package:`bioconductor-deseq` >=1.10 :conda:package:`pysam` >=0.9 :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_tetoolkit|
+   :versions: 2.0.3-0, 1.5.1-1, 1.5.1-0
+   
+   :depends argparse: 
+   
+   :depends bioconductor-deseq: >=1.10
+   
+   :depends pysam: >=0.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ tetoolkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tetoolkit
+      docker pull quay.io/repository/biocontainers/tetoolkit:<tag>
+
+   (see `tetoolkit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tetoolkit| conda:required_by:: tetoolkit
 .. |downloads_tetoolkit| image:: https://img.shields.io/conda/dn/bioconda/tetoolkit.svg?style=flat
    :alt:   (downloads)
 .. |docker_tetoolkit| image:: https://quay.io/repository/biocontainers/tetoolkit/status
    :target: https://quay.io/repository/biocontainers/tetoolkit
+.. _`tetoolkit/tags`: https://quay.io/repository/biocontainers/tetoolkit?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tetoolkit/README.html
-

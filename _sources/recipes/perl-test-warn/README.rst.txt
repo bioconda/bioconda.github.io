@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-warn'
 .. highlight: bash
-
 
 perl-test-warn
 ==============
@@ -21,11 +22,13 @@ perl-test-warn
 
    |downloads_perl-test-warn| |docker_perl-test-warn|
 
-   :versions: 0.36, 0.30
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-sub-uplevel`  
-
-   :required~by: |required_by_perl-test-warn|
+   :versions: 0.36-0, 0.30-3, 0.30-2, 0.30-1, 0.30-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-sub-uplevel: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-test-warn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-warn
+      docker pull quay.io/repository/biocontainers/perl-test-warn:<tag>
+
+   (see `perl-test-warn/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-warn| conda:required_by:: perl-test-warn
 .. |downloads_perl-test-warn| image:: https://img.shields.io/conda/dn/bioconda/perl-test-warn.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-warn| image:: https://quay.io/repository/biocontainers/perl-test-warn/status
    :target: https://quay.io/repository/biocontainers/perl-test-warn
+.. _`perl-test-warn/tags`: https://quay.io/repository/biocontainers/perl-test-warn?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-warn/README.html
-

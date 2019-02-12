@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'barrnap'
 .. highlight: bash
-
 
 barrnap
 =======
@@ -22,11 +23,15 @@ barrnap
 
    |downloads_barrnap| |docker_barrnap|
 
-   :versions: 0.9, 0.8, 0.7, 0.3, 0.2
-
-   :depends: :conda:package:`bedtools`  :conda:package:`hmmer` >=3.1b :conda:package:`perl` >=5.22.0 
-
-   :required~by: |required_by_barrnap|
+   :versions: 0.9-2, 0.9-1, 0.9-0, 0.8-1, 0.8-0, 0.7-4, 0.7-3, 0.7-2, 0.7-1, 0.7-0, 0.3-2, 0.3-1, 0.3-0, 0.2-1, 0.2-0
+   
+   :depends bedtools: 
+   
+   :depends hmmer: >=3.1b
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ barrnap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/barrnap
+      docker pull quay.io/repository/biocontainers/barrnap:<tag>
+
+   (see `barrnap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_barrnap| conda:required_by:: barrnap
 .. |downloads_barrnap| image:: https://img.shields.io/conda/dn/bioconda/barrnap.svg?style=flat
    :alt:   (downloads)
 .. |docker_barrnap| image:: https://quay.io/repository/biocontainers/barrnap/status
    :target: https://quay.io/repository/biocontainers/barrnap
+.. _`barrnap/tags`: https://quay.io/repository/biocontainers/barrnap?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/barrnap/README.html
-

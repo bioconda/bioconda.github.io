@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rust-overlaps'
 .. highlight: bash
-
 
 rust-overlaps
 =============
@@ -23,11 +24,13 @@ rust-overlaps
 
    |downloads_rust-overlaps| |docker_rust-overlaps|
 
-   :versions: 0.1.1
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_rust-overlaps|
+   :versions: 0.1.1-3, 0.1.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +44,16 @@ rust-overlaps
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rust-overlaps
+      docker pull quay.io/repository/biocontainers/rust-overlaps:<tag>
+
+   (see `rust-overlaps/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rust-overlaps| conda:required_by:: rust-overlaps
 .. |downloads_rust-overlaps| image:: https://img.shields.io/conda/dn/bioconda/rust-overlaps.svg?style=flat
    :alt:   (downloads)
 .. |docker_rust-overlaps| image:: https://quay.io/repository/biocontainers/rust-overlaps/status
    :target: https://quay.io/repository/biocontainers/rust-overlaps
+.. _`rust-overlaps/tags`: https://quay.io/repository/biocontainers/rust-overlaps?tab=tags
 
 
 
@@ -65,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rust-overlaps/README.html
-

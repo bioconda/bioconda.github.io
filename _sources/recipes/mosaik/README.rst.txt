@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mosaik'
 .. highlight: bash
-
 
 mosaik
 ======
@@ -22,11 +23,13 @@ mosaik
 
    |downloads_mosaik| |docker_mosaik|
 
-   :versions: 2.2.26
-
-   :depends: 
-
-   :required~by: |required_by_mosaik|
+   :versions: 2.2.26-4, 2.2.26-3, 2.2.26-2, 2.2.26-1, 2.2.26-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ mosaik
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mosaik
+      docker pull quay.io/repository/biocontainers/mosaik:<tag>
+
+   (see `mosaik/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mosaik| conda:required_by:: mosaik
 .. |downloads_mosaik| image:: https://img.shields.io/conda/dn/bioconda/mosaik.svg?style=flat
    :alt:   (downloads)
 .. |docker_mosaik| image:: https://quay.io/repository/biocontainers/mosaik/status
    :target: https://quay.io/repository/biocontainers/mosaik
+.. _`mosaik/tags`: https://quay.io/repository/biocontainers/mosaik?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mosaik/README.html
-

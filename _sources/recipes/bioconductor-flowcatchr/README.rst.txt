@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-flowcatchr'
 .. highlight: bash
-
 
 bioconductor-flowcatchr
 =======================
@@ -21,11 +22,23 @@ bioconductor-flowcatchr
 
    |downloads_bioconductor-flowcatchr| |docker_bioconductor-flowcatchr|
 
-   :versions: 1.16.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-ebimage` >=4.24.0,<4.25.0 :conda:package:`r-abind`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-colorramps`  :conda:package:`r-plotly`  :conda:package:`r-shiny`  
-
-   :required~by: |required_by_bioconductor-flowcatchr|
+   :versions: 1.16.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-ebimage: >=4.24.0,<4.25.0
+   
+   :depends r-abind: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-colorramps: 
+   
+   :depends r-plotly: 
+   
+   :depends r-shiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-flowcatchr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowcatchr
+      docker pull quay.io/repository/biocontainers/bioconductor-flowcatchr:<tag>
+
+   (see `bioconductor-flowcatchr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-flowcatchr| conda:required_by:: bioconductor-flowcatchr
 .. |downloads_bioconductor-flowcatchr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowcatchr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-flowcatchr| image:: https://quay.io/repository/biocontainers/bioconductor-flowcatchr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowcatchr
+.. _`bioconductor-flowcatchr/tags`: https://quay.io/repository/biocontainers/bioconductor-flowcatchr?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-flowcatchr/README.html
-

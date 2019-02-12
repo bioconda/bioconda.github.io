@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-km.ci'
 .. highlight: bash
-
 
 r-km.ci
 =======
@@ -21,11 +22,13 @@ r-km.ci
 
    |downloads_r-km.ci| |docker_r-km.ci|
 
-   :versions: 0.5_2
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-survival`  
-
-   :required~by: |required_by_r-km.ci|
+   :versions: 0.5_2-0
+   
+   :depends r-base: 3.3.2*
+   
+   :depends r-survival: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ r-km.ci
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-km.ci
+      docker pull quay.io/repository/biocontainers/r-km.ci:<tag>
+
+   (see `r-km.ci/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-km.ci| conda:required_by:: r-km.ci
 .. |downloads_r-km.ci| image:: https://img.shields.io/conda/dn/bioconda/r-km.ci.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-km.ci| image:: https://quay.io/repository/biocontainers/r-km.ci/status
    :target: https://quay.io/repository/biocontainers/r-km.ci
+.. _`r-km.ci/tags`: https://quay.io/repository/biocontainers/r-km.ci?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-km.ci/README.html
-

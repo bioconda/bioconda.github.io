@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-deds'
 .. highlight: bash
-
 
 bioconductor-deds
 =================
@@ -22,11 +23,13 @@ bioconductor-deds
 
    |downloads_bioconductor-deds| |docker_bioconductor-deds|
 
-   :versions: 1.56.0, 1.54.0, 1.52.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-deds|
+   :versions: 1.56.0-0, 1.54.0-0, 1.52.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-deds
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-deds
+      docker pull quay.io/repository/biocontainers/bioconductor-deds:<tag>
+
+   (see `bioconductor-deds/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-deds| conda:required_by:: bioconductor-deds
 .. |downloads_bioconductor-deds| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-deds.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-deds| image:: https://quay.io/repository/biocontainers/bioconductor-deds/status
    :target: https://quay.io/repository/biocontainers/bioconductor-deds
+.. _`bioconductor-deds/tags`: https://quay.io/repository/biocontainers/bioconductor-deds?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-deds/README.html
-

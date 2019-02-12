@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'apt-probeset-summarize'
 .. highlight: bash
-
 
 apt-probeset-summarize
 ======================
@@ -21,11 +22,11 @@ apt-probeset-summarize
 
    |downloads_apt-probeset-summarize| |docker_apt-probeset-summarize|
 
-   :versions: 2.10.0
-
-   :depends: :conda:package:`libstdcxx-ng`  
-
-   :required~by: |required_by_apt-probeset-summarize|
+   :versions: 2.10.0-0
+   
+   :depends libstdcxx-ng: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ apt-probeset-summarize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/apt-probeset-summarize
+      docker pull quay.io/repository/biocontainers/apt-probeset-summarize:<tag>
+
+   (see `apt-probeset-summarize/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_apt-probeset-summarize| conda:required_by:: apt-probeset-summarize
 .. |downloads_apt-probeset-summarize| image:: https://img.shields.io/conda/dn/bioconda/apt-probeset-summarize.svg?style=flat
    :alt:   (downloads)
 .. |docker_apt-probeset-summarize| image:: https://quay.io/repository/biocontainers/apt-probeset-summarize/status
    :target: https://quay.io/repository/biocontainers/apt-probeset-summarize
+.. _`apt-probeset-summarize/tags`: https://quay.io/repository/biocontainers/apt-probeset-summarize?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/apt-probeset-summarize/README.html
-

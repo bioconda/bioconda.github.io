@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'beagle'
 .. highlight: bash
-
 
 beagle
 ======
@@ -22,11 +23,11 @@ beagle
 
    |downloads_beagle| |docker_beagle|
 
-   :versions: 4.1_21Jan17.6cc.jar, 4.1_03May16.862.jar, 4.0_06Jun17
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_beagle|
+   :versions: 4.1_21Jan17.6cc.jar-1, 4.1_21Jan17.6cc.jar-0, 4.1_03May16.862.jar-0, 4.0_06Jun17-2, 4.0_06Jun17-1
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ beagle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/beagle
+      docker pull quay.io/repository/biocontainers/beagle:<tag>
+
+   (see `beagle/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_beagle| conda:required_by:: beagle
 .. |downloads_beagle| image:: https://img.shields.io/conda/dn/bioconda/beagle.svg?style=flat
    :alt:   (downloads)
 .. |docker_beagle| image:: https://quay.io/repository/biocontainers/beagle/status
    :target: https://quay.io/repository/biocontainers/beagle
+.. _`beagle/tags`: https://quay.io/repository/biocontainers/beagle?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/beagle/README.html
-

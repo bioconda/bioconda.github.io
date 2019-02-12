@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-outrider'
 .. highlight: bash
-
 
 bioconductor-outrider
 =====================
@@ -21,11 +22,63 @@ bioconductor-outrider
 
    |downloads_bioconductor-outrider| |docker_bioconductor-outrider|
 
-   :versions: 1.0.2, 1.0.1
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-pcamethods` >=1.74.0,<1.75.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bbmisc`  :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-ggpubr`  :conda:package:`r-gplots`  :conda:package:`r-matrixstats`  :conda:package:`r-plotly`  :conda:package:`r-plyr`  :conda:package:`r-prroc`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  :conda:package:`r-reticulate`  :conda:package:`r-scales`  
-
-   :required~by: |required_by_bioconductor-outrider|
+   :versions: 1.0.2-0, 1.0.1-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-pcamethods: >=1.74.0,<1.75.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bbmisc: 
+   
+   :depends r-data.table: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggpubr: 
+   
+   :depends r-gplots: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-plotly: 
+   
+   :depends r-plyr: 
+   
+   :depends r-prroc: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-rcpparmadillo: 
+   
+   :depends r-reticulate: 
+   
+   :depends r-scales: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +92,16 @@ bioconductor-outrider
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-outrider
+      docker pull quay.io/repository/biocontainers/bioconductor-outrider:<tag>
+
+   (see `bioconductor-outrider/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-outrider| conda:required_by:: bioconductor-outrider
 .. |downloads_bioconductor-outrider| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-outrider.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-outrider| image:: https://quay.io/repository/biocontainers/bioconductor-outrider/status
    :target: https://quay.io/repository/biocontainers/bioconductor-outrider
+.. _`bioconductor-outrider/tags`: https://quay.io/repository/biocontainers/bioconductor-outrider?tab=tags
 
 
 
@@ -63,4 +118,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-outrider/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'discovar'
 .. highlight: bash
-
 
 discovar
 ========
@@ -22,11 +23,11 @@ discovar
 
    |downloads_discovar| |docker_discovar|
 
-   :versions: 52488
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_discovar|
+   :versions: 52488-1, 52488-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ discovar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/discovar
+      docker pull quay.io/repository/biocontainers/discovar:<tag>
+
+   (see `discovar/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_discovar| conda:required_by:: discovar
 .. |downloads_discovar| image:: https://img.shields.io/conda/dn/bioconda/discovar.svg?style=flat
    :alt:   (downloads)
 .. |docker_discovar| image:: https://quay.io/repository/biocontainers/discovar/status
    :target: https://quay.io/repository/biocontainers/discovar
+.. _`discovar/tags`: https://quay.io/repository/biocontainers/discovar?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/discovar/README.html
-

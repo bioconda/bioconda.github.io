@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'treebest'
 .. highlight: bash
-
 
 treebest
 ========
@@ -21,11 +22,13 @@ treebest
 
    |downloads_treebest| |docker_treebest|
 
-   :versions: 1.9.2.post0, 1.9.2_ep78
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_treebest|
+   :versions: 1.9.2.post0-0, 1.9.2_ep78-2, 1.9.2_ep78-1, 1.9.2_ep78-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ treebest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/treebest
+      docker pull quay.io/repository/biocontainers/treebest:<tag>
+
+   (see `treebest/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_treebest| conda:required_by:: treebest
 .. |downloads_treebest| image:: https://img.shields.io/conda/dn/bioconda/treebest.svg?style=flat
    :alt:   (downloads)
 .. |docker_treebest| image:: https://quay.io/repository/biocontainers/treebest/status
    :target: https://quay.io/repository/biocontainers/treebest
+.. _`treebest/tags`: https://quay.io/repository/biocontainers/treebest?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/treebest/README.html
-

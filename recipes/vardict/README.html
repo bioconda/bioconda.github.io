@@ -131,11 +131,19 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">2018.10.18, 2018.09.21, 2018.07.25, 2018.07.24, 2018.06.21, 2018.04.27, 2017.11.23, 2017.09.24, 2017.04.18, 2017.02.16, 2017.02.10, 2017.02.01, 2017.01.27, 2016.12.02, 2016.02.19, 2016.01.27, 2015.10.30</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">2018.10.18-1, 2018.10.18-0, 2018.09.21-0, 2018.07.25-0, 2018.07.24-0, 2018.06.21-0, 2018.04.27-1, 2018.04.27-0, 2017.11.23-0, 2017.09.24-0, 2017.04.18-0, 2017.02.16-0, 2017.02.10-0, 2017.02.01-0, 2017.01.27-0, 2016.12.02-0, 2016.02.19-0, 2016.01.27-0, 2015.10.30-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference external" href="https://github.com/conda-forge/perl-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl</span></code></a> &gt;=5.26.2,&lt;5.26.3.0a0 <a class="reference internal" href="../vardict-java/README.html#package-vardict-java" title="vardict-java package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">vardict-java</span></code></a></td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</li>
+<li><a class="conda-package reference internal" href="../vardict-java/README.html#package-vardict-java" title="vardict-java package"><strong>vardict-java</strong></a></li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+<li><a class="conda-package reference internal" href="../somaticseq/README.html#somaticseq"><strong class="xref backref">somaticseq</strong></a></li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -149,9 +157,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">vardict</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">vardict</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/vardict?tab=tags">vardict/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

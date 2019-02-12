@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'inforna'
 .. highlight: bash
-
 
 inforna
 =======
@@ -22,11 +23,13 @@ inforna
 
    |downloads_inforna| |docker_inforna|
 
-   :versions: 2.1.2
-
-   :depends: :conda:package:`libgcc`  :conda:package:`viennarna`  
-
-   :required~by: |required_by_inforna|
+   :versions: 2.1.2-2, 2.1.2-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends viennarna: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ inforna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/inforna
+      docker pull quay.io/repository/biocontainers/inforna:<tag>
+
+   (see `inforna/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_inforna| conda:required_by:: inforna
 .. |downloads_inforna| image:: https://img.shields.io/conda/dn/bioconda/inforna.svg?style=flat
    :alt:   (downloads)
 .. |docker_inforna| image:: https://quay.io/repository/biocontainers/inforna/status
    :target: https://quay.io/repository/biocontainers/inforna
+.. _`inforna/tags`: https://quay.io/repository/biocontainers/inforna?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/inforna/README.html
-

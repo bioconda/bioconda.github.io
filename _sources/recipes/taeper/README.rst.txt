@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'taeper'
 .. highlight: bash
-
 
 taeper
 ======
@@ -21,11 +22,15 @@ taeper
 
    |downloads_taeper| |docker_taeper|
 
-   :versions: 0.1.0
-
-   :depends: :conda:package:`numpy`  :conda:package:`ont-fast5-api`  :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_taeper|
+   :versions: 0.1.0-1, 0.1.0-0
+   
+   :depends numpy: 
+   
+   :depends ont-fast5-api: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ taeper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/taeper
+      docker pull quay.io/repository/biocontainers/taeper:<tag>
+
+   (see `taeper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_taeper| conda:required_by:: taeper
 .. |downloads_taeper| image:: https://img.shields.io/conda/dn/bioconda/taeper.svg?style=flat
    :alt:   (downloads)
 .. |docker_taeper| image:: https://quay.io/repository/biocontainers/taeper/status
    :target: https://quay.io/repository/biocontainers/taeper
+.. _`taeper/tags`: https://quay.io/repository/biocontainers/taeper?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/taeper/README.html
-

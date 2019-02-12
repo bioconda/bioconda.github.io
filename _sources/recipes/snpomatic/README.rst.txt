@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'snpomatic'
 .. highlight: bash
-
 
 snpomatic
 =========
@@ -21,11 +22,11 @@ snpomatic
 
    |downloads_snpomatic| |docker_snpomatic|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_snpomatic|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ snpomatic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snpomatic
+      docker pull quay.io/repository/biocontainers/snpomatic:<tag>
+
+   (see `snpomatic/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_snpomatic| conda:required_by:: snpomatic
 .. |downloads_snpomatic| image:: https://img.shields.io/conda/dn/bioconda/snpomatic.svg?style=flat
    :alt:   (downloads)
 .. |docker_snpomatic| image:: https://quay.io/repository/biocontainers/snpomatic/status
    :target: https://quay.io/repository/biocontainers/snpomatic
+.. _`snpomatic/tags`: https://quay.io/repository/biocontainers/snpomatic?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/snpomatic/README.html
-

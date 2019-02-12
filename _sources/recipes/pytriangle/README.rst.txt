@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pytriangle'
 .. highlight: bash
-
 
 pytriangle
 ==========
@@ -21,11 +22,13 @@ pytriangle
 
    |downloads_pytriangle| |docker_pytriangle|
 
-   :versions: 1.0.9, 1.0.0
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pytriangle|
+   :versions: 1.0.9-2, 1.0.9-1, 1.0.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ pytriangle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pytriangle
+      docker pull quay.io/repository/biocontainers/pytriangle:<tag>
+
+   (see `pytriangle/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pytriangle| conda:required_by:: pytriangle
 .. |downloads_pytriangle| image:: https://img.shields.io/conda/dn/bioconda/pytriangle.svg?style=flat
    :alt:   (downloads)
 .. |docker_pytriangle| image:: https://quay.io/repository/biocontainers/pytriangle/status
    :target: https://quay.io/repository/biocontainers/pytriangle
+.. _`pytriangle/tags`: https://quay.io/repository/biocontainers/pytriangle?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pytriangle/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hurry.filesize'
 .. highlight: bash
-
 
 hurry.filesize
 ==============
@@ -21,11 +22,13 @@ hurry.filesize
 
    |downloads_hurry.filesize| |docker_hurry.filesize|
 
-   :versions: 0.9
-
-   :depends: :conda:package:`python` 2.7* :conda:package:`setuptools`  
-
-   :required~by: |required_by_hurry.filesize|
+   :versions: 0.9-0
+   
+   :depends python: 2.7*
+   
+   :depends setuptools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ hurry.filesize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hurry.filesize
+      docker pull quay.io/repository/biocontainers/hurry.filesize:<tag>
+
+   (see `hurry.filesize/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hurry.filesize| conda:required_by:: hurry.filesize
 .. |downloads_hurry.filesize| image:: https://img.shields.io/conda/dn/bioconda/hurry.filesize.svg?style=flat
    :alt:   (downloads)
 .. |docker_hurry.filesize| image:: https://quay.io/repository/biocontainers/hurry.filesize/status
    :target: https://quay.io/repository/biocontainers/hurry.filesize
+.. _`hurry.filesize/tags`: https://quay.io/repository/biocontainers/hurry.filesize?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hurry.filesize/README.html
-

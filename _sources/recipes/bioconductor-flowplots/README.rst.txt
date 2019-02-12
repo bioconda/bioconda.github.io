@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-flowplots'
 .. highlight: bash
-
 
 bioconductor-flowplots
 ======================
@@ -21,11 +22,11 @@ bioconductor-flowplots
 
    |downloads_bioconductor-flowplots| |docker_bioconductor-flowplots|
 
-   :versions: 1.30.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-flowplots|
+   :versions: 1.30.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bioconductor-flowplots
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowplots
+      docker pull quay.io/repository/biocontainers/bioconductor-flowplots:<tag>
+
+   (see `bioconductor-flowplots/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-flowplots| conda:required_by:: bioconductor-flowplots
 .. |downloads_bioconductor-flowplots| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowplots.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-flowplots| image:: https://quay.io/repository/biocontainers/bioconductor-flowplots/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowplots
+.. _`bioconductor-flowplots/tags`: https://quay.io/repository/biocontainers/bioconductor-flowplots?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-flowplots/README.html
-

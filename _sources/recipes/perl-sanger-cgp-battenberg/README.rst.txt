@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-sanger-cgp-battenberg'
 .. highlight: bash
-
 
 perl-sanger-cgp-battenberg
 ==========================
@@ -21,11 +22,25 @@ perl-sanger-cgp-battenberg
 
    |downloads_perl-sanger-cgp-battenberg| |docker_perl-sanger-cgp-battenberg|
 
-   :versions: 1.4.1
-
-   :depends: :conda:package:`cancerit-allelecount`  :conda:package:`perl-file-sharedir`  :conda:package:`perl-file-sharedir-install`  :conda:package:`perl-pcap`  :conda:package:`perl-sanger-cgp-allelecount`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-sanger-cgp-battenberg|
+   :versions: 1.4.1-4, 1.4.1-3, 1.4.1-2, 1.4.1-1
+   
+   :depends cancerit-allelecount: 
+   
+   :depends impute2: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-file-sharedir: 
+   
+   :depends perl-file-sharedir-install: 
+   
+   :depends perl-pcap: 
+   
+   :depends perl-sanger-cgp-allelecount: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ perl-sanger-cgp-battenberg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sanger-cgp-battenberg
+      docker pull quay.io/repository/biocontainers/perl-sanger-cgp-battenberg:<tag>
+
+   (see `perl-sanger-cgp-battenberg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-sanger-cgp-battenberg| conda:required_by:: perl-sanger-cgp-battenberg
 .. |downloads_perl-sanger-cgp-battenberg| image:: https://img.shields.io/conda/dn/bioconda/perl-sanger-cgp-battenberg.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-sanger-cgp-battenberg| image:: https://quay.io/repository/biocontainers/perl-sanger-cgp-battenberg/status
    :target: https://quay.io/repository/biocontainers/perl-sanger-cgp-battenberg
+.. _`perl-sanger-cgp-battenberg/tags`: https://quay.io/repository/biocontainers/perl-sanger-cgp-battenberg?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-sanger-cgp-battenberg/README.html
-

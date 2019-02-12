@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-config-general'
 .. highlight: bash
-
 
 perl-config-general
 ===================
@@ -21,11 +22,13 @@ perl-config-general
 
    |downloads_perl-config-general| |docker_perl-config-general|
 
-   :versions: 2.63, 2.61
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-pathtools`  
-
-   :required~by: |required_by_perl-config-general|
+   :versions: 2.63-0, 2.61-1, 2.61-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-pathtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-config-general
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-config-general
+      docker pull quay.io/repository/biocontainers/perl-config-general:<tag>
+
+   (see `perl-config-general/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-config-general| conda:required_by:: perl-config-general
 .. |downloads_perl-config-general| image:: https://img.shields.io/conda/dn/bioconda/perl-config-general.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-config-general| image:: https://quay.io/repository/biocontainers/perl-config-general/status
    :target: https://quay.io/repository/biocontainers/perl-config-general
+.. _`perl-config-general/tags`: https://quay.io/repository/biocontainers/perl-config-general?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-config-general/README.html
-

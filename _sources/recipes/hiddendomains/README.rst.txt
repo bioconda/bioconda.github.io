@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hiddendomains'
 .. highlight: bash
-
 
 hiddendomains
 =============
@@ -21,11 +22,21 @@ hiddendomains
 
    |downloads_hiddendomains| |docker_hiddendomains|
 
-   :versions: 3.0
-
-   :depends: :conda:package:`bedtools`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-depmixs4`  :conda:package:`r-hiddenmarkov`  :conda:package:`samtools`  
-
-   :required~by: |required_by_hiddendomains|
+   :versions: 3.0-0
+   
+   :depends bedtools: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-depmixs4: 
+   
+   :depends r-hiddenmarkov: 
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ hiddendomains
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hiddendomains
+      docker pull quay.io/repository/biocontainers/hiddendomains:<tag>
+
+   (see `hiddendomains/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hiddendomains| conda:required_by:: hiddendomains
 .. |downloads_hiddendomains| image:: https://img.shields.io/conda/dn/bioconda/hiddendomains.svg?style=flat
    :alt:   (downloads)
 .. |docker_hiddendomains| image:: https://quay.io/repository/biocontainers/hiddendomains/status
    :target: https://quay.io/repository/biocontainers/hiddendomains
+.. _`hiddendomains/tags`: https://quay.io/repository/biocontainers/hiddendomains?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hiddendomains/README.html
-

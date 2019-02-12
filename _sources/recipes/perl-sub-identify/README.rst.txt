@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-sub-identify'
 .. highlight: bash
-
 
 perl-sub-identify
 =================
@@ -21,11 +22,11 @@ perl-sub-identify
 
    |downloads_perl-sub-identify| |docker_perl-sub-identify|
 
-   :versions: 0.12
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-sub-identify|
+   :versions: 0.12-1, 0.12-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-sub-identify
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-identify
+      docker pull quay.io/repository/biocontainers/perl-sub-identify:<tag>
+
+   (see `perl-sub-identify/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-sub-identify| conda:required_by:: perl-sub-identify
 .. |downloads_perl-sub-identify| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-identify.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-sub-identify| image:: https://quay.io/repository/biocontainers/perl-sub-identify/status
    :target: https://quay.io/repository/biocontainers/perl-sub-identify
+.. _`perl-sub-identify/tags`: https://quay.io/repository/biocontainers/perl-sub-identify?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-sub-identify/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'shustring'
 .. highlight: bash
-
 
 shustring
 =========
@@ -21,11 +22,9 @@ shustring
 
    |downloads_shustring| |docker_shustring|
 
-   :versions: 2.6
-
-   :depends: 
-
-   :required~by: |required_by_shustring|
+   :versions: 2.6-1, 2.6-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ shustring
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shustring
+      docker pull quay.io/repository/biocontainers/shustring:<tag>
+
+   (see `shustring/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_shustring| conda:required_by:: shustring
 .. |downloads_shustring| image:: https://img.shields.io/conda/dn/bioconda/shustring.svg?style=flat
    :alt:   (downloads)
 .. |docker_shustring| image:: https://quay.io/repository/biocontainers/shustring/status
    :target: https://quay.io/repository/biocontainers/shustring
+.. _`shustring/tags`: https://quay.io/repository/biocontainers/shustring?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/shustring/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'treemaker'
 .. highlight: bash
-
 
 treemaker
 =========
@@ -21,11 +22,11 @@ treemaker
 
    |downloads_treemaker| |docker_treemaker|
 
-   :versions: 1.2, 1.1
-
-   :depends: :conda:package:`python`  
-
-   :required~by: |required_by_treemaker|
+   :versions: 1.2-0, 1.1-1, 1.1-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ treemaker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/treemaker
+      docker pull quay.io/repository/biocontainers/treemaker:<tag>
+
+   (see `treemaker/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_treemaker| conda:required_by:: treemaker
 .. |downloads_treemaker| image:: https://img.shields.io/conda/dn/bioconda/treemaker.svg?style=flat
    :alt:   (downloads)
 .. |docker_treemaker| image:: https://quay.io/repository/biocontainers/treemaker/status
    :target: https://quay.io/repository/biocontainers/treemaker
+.. _`treemaker/tags`: https://quay.io/repository/biocontainers/treemaker?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/treemaker/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'convert_zero_one_based'
 .. highlight: bash
-
 
 convert_zero_one_based
 ======================
@@ -21,11 +22,13 @@ convert_zero_one_based
 
    |downloads_convert_zero_one_based| |docker_convert_zero_one_based|
 
-   :versions: 0.0.1
-
-   :depends: :conda:package:`click`  :conda:package:`python`  
-
-   :required~by: |required_by_convert_zero_one_based|
+   :versions: 0.0.1-0
+   
+   :depends click: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ convert_zero_one_based
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/convert_zero_one_based
+      docker pull quay.io/repository/biocontainers/convert_zero_one_based:<tag>
+
+   (see `convert_zero_one_based/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_convert_zero_one_based| conda:required_by:: convert_zero_one_based
 .. |downloads_convert_zero_one_based| image:: https://img.shields.io/conda/dn/bioconda/convert_zero_one_based.svg?style=flat
    :alt:   (downloads)
 .. |docker_convert_zero_one_based| image:: https://quay.io/repository/biocontainers/convert_zero_one_based/status
    :target: https://quay.io/repository/biocontainers/convert_zero_one_based
+.. _`convert_zero_one_based/tags`: https://quay.io/repository/biocontainers/convert_zero_one_based?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/convert_zero_one_based/README.html
-

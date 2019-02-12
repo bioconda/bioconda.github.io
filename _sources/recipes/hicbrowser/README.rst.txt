@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hicbrowser'
 .. highlight: bash
-
 
 hicbrowser
 ==========
@@ -21,11 +22,17 @@ hicbrowser
 
    |downloads_hicbrowser| |docker_hicbrowser|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`bx-python`  :conda:package:`flask` >=0.10.1 :conda:package:`hicexplorer` >=1.7 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_hicbrowser|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends bx-python: 
+   
+   :depends flask: >=0.10.1
+   
+   :depends hicexplorer: >=1.7
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ hicbrowser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hicbrowser
+      docker pull quay.io/repository/biocontainers/hicbrowser:<tag>
+
+   (see `hicbrowser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hicbrowser| conda:required_by:: hicbrowser
 .. |downloads_hicbrowser| image:: https://img.shields.io/conda/dn/bioconda/hicbrowser.svg?style=flat
    :alt:   (downloads)
 .. |docker_hicbrowser| image:: https://quay.io/repository/biocontainers/hicbrowser/status
    :target: https://quay.io/repository/biocontainers/hicbrowser
+.. _`hicbrowser/tags`: https://quay.io/repository/biocontainers/hicbrowser?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hicbrowser/README.html
-

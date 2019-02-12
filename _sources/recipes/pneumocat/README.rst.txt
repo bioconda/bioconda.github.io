@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pneumocat'
 .. highlight: bash
-
 
 pneumocat
 =========
@@ -21,11 +22,25 @@ pneumocat
 
    |downloads_pneumocat| |docker_pneumocat|
 
-   :versions: 1.2, 1.1
-
-   :depends: :conda:package:`biopython`  :conda:package:`bowtie2`  :conda:package:`lxml`  :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`pyyaml`  :conda:package:`samtools` ==0.1.19 
-
-   :required~by: |required_by_pneumocat|
+   :versions: 1.2-0, 1.1-0
+   
+   :depends biopython: 
+   
+   :depends bowtie2: 
+   
+   :depends lxml: 
+   
+   :depends numpy: 
+   
+   :depends pysam: 
+   
+   :depends python: 2.7*
+   
+   :depends pyyaml: 
+   
+   :depends samtools: ==0.1.19
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ pneumocat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pneumocat
+      docker pull quay.io/repository/biocontainers/pneumocat:<tag>
+
+   (see `pneumocat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pneumocat| conda:required_by:: pneumocat
 .. |downloads_pneumocat| image:: https://img.shields.io/conda/dn/bioconda/pneumocat.svg?style=flat
    :alt:   (downloads)
 .. |docker_pneumocat| image:: https://quay.io/repository/biocontainers/pneumocat/status
    :target: https://quay.io/repository/biocontainers/pneumocat
+.. _`pneumocat/tags`: https://quay.io/repository/biocontainers/pneumocat?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pneumocat/README.html
-

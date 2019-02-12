@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rtcga.rnaseq'
 .. highlight: bash
-
 
 bioconductor-rtcga.rnaseq
 =========================
@@ -21,11 +22,15 @@ bioconductor-rtcga.rnaseq
 
    |downloads_bioconductor-rtcga.rnaseq| |docker_bioconductor-rtcga.rnaseq|
 
-   :versions: 20151101.12.0
-
-   :depends: :conda:package:`bioconductor-rtcga` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-rtcga.rnaseq|
+   :versions: 20151101.12.0-0
+   
+   :depends bioconductor-rtcga: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-rtcga.rnaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.rnaseq
+      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.rnaseq:<tag>
+
+   (see `bioconductor-rtcga.rnaseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rtcga.rnaseq| conda:required_by:: bioconductor-rtcga.rnaseq
 .. |downloads_bioconductor-rtcga.rnaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcga.rnaseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rtcga.rnaseq| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.rnaseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.rnaseq
+.. _`bioconductor-rtcga.rnaseq/tags`: https://quay.io/repository/biocontainers/bioconductor-rtcga.rnaseq?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rtcga.rnaseq/README.html
-

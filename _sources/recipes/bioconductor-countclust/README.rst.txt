@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-countclust'
 .. highlight: bash
-
 
 bioconductor-countclust
 =======================
@@ -21,11 +22,37 @@ bioconductor-countclust
 
    |downloads_bioconductor-countclust| |docker_bioconductor-countclust|
 
-   :versions: 1.10.0
-
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cowplot`  :conda:package:`r-flexmix`  :conda:package:`r-ggplot2` >=2.1.0 :conda:package:`r-gtools`  :conda:package:`r-maptpx`  :conda:package:`r-picante`  :conda:package:`r-plyr` >=1.7.1 :conda:package:`r-reshape2`  :conda:package:`r-slam`  :conda:package:`r-squarem`  
-
-   :required~by: |required_by_bioconductor-countclust|
+   :versions: 1.10.0-0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libgfortran-ng: >=7,<8.0a0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cowplot: 
+   
+   :depends r-flexmix: 
+   
+   :depends r-ggplot2: >=2.1.0
+   
+   :depends r-gtools: 
+   
+   :depends r-maptpx: 
+   
+   :depends r-picante: 
+   
+   :depends r-plyr: >=1.7.1
+   
+   :depends r-reshape2: 
+   
+   :depends r-slam: 
+   
+   :depends r-squarem: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ bioconductor-countclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-countclust
+      docker pull quay.io/repository/biocontainers/bioconductor-countclust:<tag>
+
+   (see `bioconductor-countclust/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-countclust| conda:required_by:: bioconductor-countclust
 .. |downloads_bioconductor-countclust| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-countclust.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-countclust| image:: https://quay.io/repository/biocontainers/bioconductor-countclust/status
    :target: https://quay.io/repository/biocontainers/bioconductor-countclust
+.. _`bioconductor-countclust/tags`: https://quay.io/repository/biocontainers/bioconductor-countclust?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-countclust/README.html
-

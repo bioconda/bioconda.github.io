@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nf-core'
 .. highlight: bash
-
 
 nf-core
 =======
@@ -21,11 +22,27 @@ nf-core
 
    |downloads_nf-core| |docker_nf-core|
 
-   :versions: 1.4, 1.3, 1.2, 1.1
-
-   :depends: :conda:package:`click`  :conda:package:`cookiecutter`  :conda:package:`git`  :conda:package:`gitpython`  :conda:package:`python`  :conda:package:`pyyaml`  :conda:package:`requests`  :conda:package:`requests-cache`  :conda:package:`tabulate`  
-
-   :required~by: |required_by_nf-core|
+   :versions: 1.4-0, 1.3-0, 1.2-0, 1.1-0
+   
+   :depends click: 
+   
+   :depends cookiecutter: 
+   
+   :depends git: 
+   
+   :depends gitpython: 
+   
+   :depends python: 
+   
+   :depends pyyaml: 
+   
+   :depends requests: 
+   
+   :depends requests-cache: 
+   
+   :depends tabulate: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ nf-core
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nf-core
+      docker pull quay.io/repository/biocontainers/nf-core:<tag>
+
+   (see `nf-core/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nf-core| conda:required_by:: nf-core
 .. |downloads_nf-core| image:: https://img.shields.io/conda/dn/bioconda/nf-core.svg?style=flat
    :alt:   (downloads)
 .. |docker_nf-core| image:: https://quay.io/repository/biocontainers/nf-core/status
    :target: https://quay.io/repository/biocontainers/nf-core
+.. _`nf-core/tags`: https://quay.io/repository/biocontainers/nf-core?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nf-core/README.html
-

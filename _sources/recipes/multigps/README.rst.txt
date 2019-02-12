@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'multigps'
 .. highlight: bash
-
 
 multigps
 ========
@@ -21,11 +22,17 @@ multigps
 
    |downloads_multigps| |docker_multigps|
 
-   :versions: 0.74, 0.73, 0.72, 0.5
-
-   :depends: :conda:package:`bioconductor-edger`  :conda:package:`meme` >=4.11.2 :conda:package:`openjdk` >=8 :conda:package:`r-base`  
-
-   :required~by: |required_by_multigps|
+   :versions: 0.74-2, 0.74-1, 0.74-0, 0.73-1, 0.73-0, 0.72-1, 0.72-0, 0.5-1
+   
+   :depends bioconductor-edger: 
+   
+   :depends meme: >=4.11.2
+   
+   :depends openjdk: >=8
+   
+   :depends r-base: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ multigps
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/multigps
+      docker pull quay.io/repository/biocontainers/multigps:<tag>
+
+   (see `multigps/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_multigps| conda:required_by:: multigps
 .. |downloads_multigps| image:: https://img.shields.io/conda/dn/bioconda/multigps.svg?style=flat
    :alt:   (downloads)
 .. |docker_multigps| image:: https://quay.io/repository/biocontainers/multigps/status
    :target: https://quay.io/repository/biocontainers/multigps
+.. _`multigps/tags`: https://quay.io/repository/biocontainers/multigps?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/multigps/README.html
-

@@ -131,11 +131,28 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">1.3.1, 1.2.0, 1.1.0</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">1.3.1-1, 1.3.1-0, 1.2.0-0, 1.1.0-2, 1.1.0-1, 1.1.0-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference external" href="https://github.com/conda-forge/bzip2-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">bzip2</span></code></a> &gt;=1.0.6,&lt;2.0a0 <a class="reference internal" href="../gmap/README.html#package-gmap" title="gmap package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">gmap</span></code></a> &gt;=2017.11.15 <a class="reference internal" href="../htslib/README.html#package-htslib" title="htslib package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">htslib</span></code></a> &gt;=1.9,&lt;1.10.0a0 <a class="reference external" href="https://github.com/conda-forge/perl-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl</span></code></a> &gt;=5.26.2,&lt;5.26.3.0a0 <a class="reference internal" href="../perl-db-file/README.html#package-perl-db-file" title="perl-db-file package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-db-file</span></code></a>  <a class="reference internal" href="../perl-set-intervaltree/README.html#package-perl-set-intervaltree" title="perl-set-intervaltree package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-set-intervaltree</span></code></a>  <a class="reference internal" href="../perl-uri/README.html#package-perl-uri" title="perl-uri package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-uri</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/python-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">python</span></code></a> &gt;=2.7,&lt;2.8.0a0 <a class="reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">samtools</span></code></a> &gt;=1.3 <a class="reference internal" href="../star/README.html#package-star" title="star package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">star</span></code></a> &gt;=2.6.1b <a class="reference internal" href="../trinity/README.html#package-trinity" title="trinity package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">trinity</span></code></a> &gt;=2.4</td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/bzip2-feedstock"><strong>bzip2</strong></a> &gt;=1.0.6,&lt;2.0a0</li>
+<li><a class="conda-package reference internal" href="../gmap/README.html#package-gmap" title="gmap package"><strong>gmap</strong></a> &gt;=2017.11.15</li>
+<li><a class="conda-package reference internal" href="../htslib/README.html#package-htslib" title="htslib package"><strong>htslib</strong></a> &gt;=1.9,&lt;1.10.0a0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</li>
+<li><a class="conda-package reference internal" href="../perl-db-file/README.html#package-perl-db-file" title="perl-db-file package"><strong>perl-db-file</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-set-intervaltree/README.html#package-perl-set-intervaltree" title="perl-set-intervaltree package"><strong>perl-set-intervaltree</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-uri/README.html#package-perl-uri" title="perl-uri package"><strong>perl-uri</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/requests-feedstock"><strong>requests</strong></a> &gt;=2.19.1</li>
+<li><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a> &gt;=1.3</li>
+<li><a class="conda-package reference internal" href="../star/README.html#package-star" title="star package"><strong>star</strong></a> &gt;=2.6.1b</li>
+<li><a class="conda-package reference internal" href="../trinity/README.html#package-trinity" title="trinity package"><strong>trinity</strong></a> &gt;=2.4</li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -149,9 +166,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">fusion</span><span class="o">-</span><span class="n">inspector</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">fusion</span><span class="o">-</span><span class="n">inspector</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/fusion-inspector?tab=tags">fusion-inspector/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

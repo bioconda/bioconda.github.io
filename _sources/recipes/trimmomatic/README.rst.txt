@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'trimmomatic'
 .. highlight: bash
-
 
 trimmomatic
 ===========
@@ -22,11 +23,13 @@ trimmomatic
 
    |downloads_trimmomatic| |docker_trimmomatic|
 
-   :versions: 0.38, 0.36, 0.35, 0.33, 0.32
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_trimmomatic|
+   :versions: 0.38-1, 0.38-0, 0.36-6, 0.36-5, 0.36-4, 0.36-3, 0.36-1, 0.35-4, 0.35-3, 0.35-2, 0.35-1, 0.33-1, 0.33-0, 0.32-1, 0.32-0
+   
+   :depends openjdk: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ trimmomatic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trimmomatic
+      docker pull quay.io/repository/biocontainers/trimmomatic:<tag>
+
+   (see `trimmomatic/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_trimmomatic| conda:required_by:: trimmomatic
 .. |downloads_trimmomatic| image:: https://img.shields.io/conda/dn/bioconda/trimmomatic.svg?style=flat
    :alt:   (downloads)
 .. |docker_trimmomatic| image:: https://quay.io/repository/biocontainers/trimmomatic/status
    :target: https://quay.io/repository/biocontainers/trimmomatic
+.. _`trimmomatic/tags`: https://quay.io/repository/biocontainers/trimmomatic?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/trimmomatic/README.html
-

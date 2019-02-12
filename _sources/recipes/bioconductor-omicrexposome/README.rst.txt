@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-omicrexposome'
 .. highlight: bash
-
 
 bioconductor-omicrexposome
 ==========================
@@ -21,11 +22,39 @@ bioconductor-omicrexposome
 
    |downloads_bioconductor-omicrexposome| |docker_bioconductor-omicrexposome|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-multidataset` >=1.10.0,<1.11.0 :conda:package:`bioconductor-omicade4` >=1.22.0,<1.23.0 :conda:package:`bioconductor-rexposome` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-sva` >=3.30.0,<3.31.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-gridextra`  :conda:package:`r-isva`  :conda:package:`r-pma`  :conda:package:`r-smartsva`  :conda:package:`r-stringr`  
-
-   :required~by: |required_by_bioconductor-omicrexposome|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-multidataset: >=1.10.0,<1.11.0
+   
+   :depends bioconductor-omicade4: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-rexposome: >=1.4.0,<1.5.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends bioconductor-sva: >=3.30.0,<3.31.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggrepel: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-isva: 
+   
+   :depends r-pma: 
+   
+   :depends r-smartsva: 
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +68,16 @@ bioconductor-omicrexposome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omicrexposome
+      docker pull quay.io/repository/biocontainers/bioconductor-omicrexposome:<tag>
+
+   (see `bioconductor-omicrexposome/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-omicrexposome| conda:required_by:: bioconductor-omicrexposome
 .. |downloads_bioconductor-omicrexposome| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-omicrexposome.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-omicrexposome| image:: https://quay.io/repository/biocontainers/bioconductor-omicrexposome/status
    :target: https://quay.io/repository/biocontainers/bioconductor-omicrexposome
+.. _`bioconductor-omicrexposome/tags`: https://quay.io/repository/biocontainers/bioconductor-omicrexposome?tab=tags
 
 
 
@@ -63,4 +94,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-omicrexposome/README.html
-

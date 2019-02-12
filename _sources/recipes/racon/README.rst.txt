@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'racon'
 .. highlight: bash
-
 
 racon
 =====
@@ -21,11 +22,15 @@ racon
 
    |downloads_racon| |docker_racon|
 
-   :versions: 1.3.2, 1.3.1, 1.3.0, 1.2.1, 1.2.0, 1.1.0, 1.0.1, 1.0.0, 0.5.0
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`python`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_racon|
+   :versions: 1.3.2-0, 1.3.1-5, 1.3.1-4, 1.3.1-1, 1.3.1-0, 1.3.0-1, 1.2.1-1, 1.2.0-1, 1.2.0-0, 1.1.0-0, 1.0.1-0, 1.0.0-1, 1.0.0-0, 0.5.0-2, 0.5.0-1, 0.5.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends python: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ racon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/racon
+      docker pull quay.io/repository/biocontainers/racon:<tag>
+
+   (see `racon/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_racon| conda:required_by:: racon
 .. |downloads_racon| image:: https://img.shields.io/conda/dn/bioconda/racon.svg?style=flat
    :alt:   (downloads)
 .. |docker_racon| image:: https://quay.io/repository/biocontainers/racon/status
    :target: https://quay.io/repository/biocontainers/racon
+.. _`racon/tags`: https://quay.io/repository/biocontainers/racon?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/racon/README.html
-

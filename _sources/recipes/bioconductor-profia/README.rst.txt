@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-profia'
 .. highlight: bash
-
 
 bioconductor-profia
 ===================
@@ -22,11 +23,27 @@ bioconductor-profia
 
    |downloads_bioconductor-profia| |docker_bioconductor-profia|
 
-   :versions: 1.8.1, 1.8.0, 1.4.0, 1.2.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-ropls` >=1.14.0,<1.15.0 :conda:package:`bioconductor-xcms` >=3.4.0,<3.5.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-minpack.lm`  :conda:package:`r-missforest`  :conda:package:`r-pracma`  
-
-   :required~by: |required_by_bioconductor-profia|
+   :versions: 1.8.1-0, 1.8.0-0, 1.4.0-0, 1.2.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-ropls: >=1.14.0,<1.15.0
+   
+   :depends bioconductor-xcms: >=3.4.0,<3.5.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-minpack.lm: 
+   
+   :depends r-missforest: 
+   
+   :depends r-pracma: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ bioconductor-profia
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-profia
+      docker pull quay.io/repository/biocontainers/bioconductor-profia:<tag>
+
+   (see `bioconductor-profia/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-profia| conda:required_by:: bioconductor-profia
 .. |downloads_bioconductor-profia| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-profia.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-profia| image:: https://quay.io/repository/biocontainers/bioconductor-profia/status
    :target: https://quay.io/repository/biocontainers/bioconductor-profia
+.. _`bioconductor-profia/tags`: https://quay.io/repository/biocontainers/bioconductor-profia?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-profia/README.html
-

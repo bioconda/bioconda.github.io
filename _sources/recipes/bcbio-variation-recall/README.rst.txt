@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bcbio-variation-recall'
 .. highlight: bash
-
 
 bcbio-variation-recall
 ======================
@@ -21,11 +22,13 @@ bcbio-variation-recall
 
    |downloads_bcbio-variation-recall| |docker_bcbio-variation-recall|
 
-   :versions: 0.2.2, 0.2.1, 0.1.9, 0.1.8, 0.1.7, 0.1.6, 0.1.5, 0.1.4
-
-   :depends: :conda:package:`openjdk`  :conda:package:`zlib`  
-
-   :required~by: |required_by_bcbio-variation-recall|
+   :versions: 0.2.2-0, 0.2.1-0, 0.1.9-1, 0.1.8-1, 0.1.8-0, 0.1.7-1, 0.1.7-0, 0.1.6-0, 0.1.5-0, 0.1.4-2, 0.1.4-1, 0.1.4-0
+   
+   :depends openjdk: 
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bcbio-variation-recall
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcbio-variation-recall
+      docker pull quay.io/repository/biocontainers/bcbio-variation-recall:<tag>
+
+   (see `bcbio-variation-recall/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bcbio-variation-recall| conda:required_by:: bcbio-variation-recall
 .. |downloads_bcbio-variation-recall| image:: https://img.shields.io/conda/dn/bioconda/bcbio-variation-recall.svg?style=flat
    :alt:   (downloads)
 .. |docker_bcbio-variation-recall| image:: https://quay.io/repository/biocontainers/bcbio-variation-recall/status
    :target: https://quay.io/repository/biocontainers/bcbio-variation-recall
+.. _`bcbio-variation-recall/tags`: https://quay.io/repository/biocontainers/bcbio-variation-recall?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bcbio-variation-recall/README.html
-

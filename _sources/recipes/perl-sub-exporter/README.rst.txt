@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-sub-exporter'
 .. highlight: bash
-
 
 perl-sub-exporter
 =================
@@ -21,11 +22,19 @@ perl-sub-exporter
 
    |downloads_perl-sub-exporter| |docker_perl-sub-exporter|
 
-   :versions: 0.987
-
-   :depends: :conda:package:`perl-apache-test`  :conda:package:`perl-data-optlist`  :conda:package:`perl-params-util`  :conda:package:`perl-sub-install`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-sub-exporter|
+   :versions: 0.987-2, 0.987-1, 0.987-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-data-optlist: 
+   
+   :depends perl-params-util: 
+   
+   :depends perl-sub-install: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-sub-exporter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-exporter
+      docker pull quay.io/repository/biocontainers/perl-sub-exporter:<tag>
+
+   (see `perl-sub-exporter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-sub-exporter| conda:required_by:: perl-sub-exporter
 .. |downloads_perl-sub-exporter| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-exporter.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-sub-exporter| image:: https://quay.io/repository/biocontainers/perl-sub-exporter/status
    :target: https://quay.io/repository/biocontainers/perl-sub-exporter
+.. _`perl-sub-exporter/tags`: https://quay.io/repository/biocontainers/perl-sub-exporter?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-sub-exporter/README.html
-

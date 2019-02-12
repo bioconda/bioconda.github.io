@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'daligner'
 .. highlight: bash
-
 
 daligner
 ========
@@ -21,11 +22,11 @@ daligner
 
    |downloads_daligner| |docker_daligner|
 
-   :versions: 1.0, 1.0p2, 1.0p1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_daligner|
+   :versions: 1.0-0, 1.0p2-1, 1.0p2-0, 1.0p1-2, 1.0p1-1, 1.0p1-0
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ daligner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/daligner
+      docker pull quay.io/repository/biocontainers/daligner:<tag>
+
+   (see `daligner/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_daligner| conda:required_by:: daligner
 .. |downloads_daligner| image:: https://img.shields.io/conda/dn/bioconda/daligner.svg?style=flat
    :alt:   (downloads)
 .. |docker_daligner| image:: https://quay.io/repository/biocontainers/daligner/status
    :target: https://quay.io/repository/biocontainers/daligner
+.. _`daligner/tags`: https://quay.io/repository/biocontainers/daligner?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/daligner/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tirmite'
 .. highlight: bash
-
 
 tirmite
 =======
@@ -21,11 +22,17 @@ tirmite
 
    |downloads_tirmite| |docker_tirmite|
 
-   :versions: 1.1.3, 1.1.1, 1.1.0
-
-   :depends: :conda:package:`biopython` >=1.70 :conda:package:`pandas` >=0.20.3 :conda:package:`pymummer` >=0.10.3 :conda:package:`python` >=3.5,<3.6.0a0 
-
-   :required~by: |required_by_tirmite|
+   :versions: 1.1.3-0, 1.1.1-0, 1.1.0-1, 1.1.0-0
+   
+   :depends biopython: >=1.70
+   
+   :depends pandas: >=0.20.3
+   
+   :depends pymummer: >=0.10.3
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ tirmite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tirmite
+      docker pull quay.io/repository/biocontainers/tirmite:<tag>
+
+   (see `tirmite/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tirmite| conda:required_by:: tirmite
 .. |downloads_tirmite| image:: https://img.shields.io/conda/dn/bioconda/tirmite.svg?style=flat
    :alt:   (downloads)
 .. |docker_tirmite| image:: https://quay.io/repository/biocontainers/tirmite/status
    :target: https://quay.io/repository/biocontainers/tirmite
+.. _`tirmite/tags`: https://quay.io/repository/biocontainers/tirmite?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tirmite/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biobb_common'
 .. highlight: bash
-
 
 biobb_common
 ============
@@ -50,11 +51,17 @@ biobb_common
 
    |downloads_biobb_common| |docker_biobb_common|
 
-   :versions: 0.1.2, 0.0.8, 0.0.6, 0.0.5, 0.0.4, 0.0.3
-
-   :depends: :conda:package:`biopython` >=1.72 :conda:package:`python` >=3 :conda:package:`pyyaml`  :conda:package:`requests`  
-
-   :required~by: |required_by_biobb_common|
+   :versions: 0.1.2-0, 0.0.8-0, 0.0.6-0, 0.0.5-0, 0.0.4-0, 0.0.3-0
+   
+   :depends biopython: >=1.72
+   
+   :depends python: >=3
+   
+   :depends pyyaml: 
+   
+   :depends requests: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -68,14 +75,16 @@ biobb_common
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biobb_common
+      docker pull quay.io/repository/biocontainers/biobb_common:<tag>
+
+   (see `biobb_common/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biobb_common| conda:required_by:: biobb_common
 .. |downloads_biobb_common| image:: https://img.shields.io/conda/dn/bioconda/biobb_common.svg?style=flat
    :alt:   (downloads)
 .. |docker_biobb_common| image:: https://quay.io/repository/biocontainers/biobb_common/status
    :target: https://quay.io/repository/biocontainers/biobb_common
+.. _`biobb_common/tags`: https://quay.io/repository/biocontainers/biobb_common?tab=tags
 
 
 
@@ -92,4 +101,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biobb_common/README.html
-

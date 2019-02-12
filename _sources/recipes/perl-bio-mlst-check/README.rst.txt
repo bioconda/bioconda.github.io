@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bio-mlst-check'
 .. highlight: bash
-
 
 perl-bio-mlst-check
 ===================
@@ -21,11 +22,43 @@ perl-bio-mlst-check
 
    |downloads_perl-bio-mlst-check| |docker_perl-bio-mlst-check|
 
-   :versions: 2.1.1706216
-
-   :depends: :conda:package:`blast`  :conda:package:`perl` 5.22.0* :conda:package:`perl-bioperl`  :conda:package:`perl-data-dumper`  :conda:package:`perl-exporter`  :conda:package:`perl-file-path`  :conda:package:`perl-file-temp`  :conda:package:`perl-file-which`  :conda:package:`perl-getopt-long`  :conda:package:`perl-lib`  :conda:package:`perl-lwp-simple`  :conda:package:`perl-moose`  :conda:package:`perl-parallel-forkmanager`  :conda:package:`perl-regexp-common`  :conda:package:`perl-text-csv`  :conda:package:`perl-try-tiny`  :conda:package:`perl-xml-libxml`  
-
-   :required~by: |required_by_perl-bio-mlst-check|
+   :versions: 2.1.1706216-1, 2.1.1706216-0
+   
+   :depends blast: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bioperl: 
+   
+   :depends perl-data-dumper: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-file-path: 
+   
+   :depends perl-file-temp: 
+   
+   :depends perl-file-which: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-lib: 
+   
+   :depends perl-lwp-simple: 
+   
+   :depends perl-moose: 
+   
+   :depends perl-parallel-forkmanager: 
+   
+   :depends perl-regexp-common: 
+   
+   :depends perl-text-csv: 
+   
+   :depends perl-try-tiny: 
+   
+   :depends perl-xml-libxml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +72,16 @@ perl-bio-mlst-check
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-mlst-check
+      docker pull quay.io/repository/biocontainers/perl-bio-mlst-check:<tag>
+
+   (see `perl-bio-mlst-check/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bio-mlst-check| conda:required_by:: perl-bio-mlst-check
 .. |downloads_perl-bio-mlst-check| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-mlst-check.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bio-mlst-check| image:: https://quay.io/repository/biocontainers/perl-bio-mlst-check/status
    :target: https://quay.io/repository/biocontainers/perl-bio-mlst-check
+.. _`perl-bio-mlst-check/tags`: https://quay.io/repository/biocontainers/perl-bio-mlst-check?tab=tags
 
 
 
@@ -63,4 +98,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bio-mlst-check/README.html
-

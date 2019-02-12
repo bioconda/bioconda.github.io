@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-fatal'
 .. highlight: bash
-
 
 perl-test-fatal
 ===============
@@ -21,11 +22,17 @@ perl-test-fatal
 
    |downloads_perl-test-fatal| |docker_perl-test-fatal|
 
-   :versions: 0.014
-
-   :depends: :conda:package:`perl-threaded`  :conda:package:`perl-try-tiny`  
-
-   :required~by: |required_by_perl-test-fatal|
+   :versions: 0.014-3, 0.014-2, 0.014-1, 0.014-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-try-tiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-test-fatal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-fatal
+      docker pull quay.io/repository/biocontainers/perl-test-fatal:<tag>
+
+   (see `perl-test-fatal/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-fatal| conda:required_by:: perl-test-fatal
 .. |downloads_perl-test-fatal| image:: https://img.shields.io/conda/dn/bioconda/perl-test-fatal.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-fatal| image:: https://quay.io/repository/biocontainers/perl-test-fatal/status
    :target: https://quay.io/repository/biocontainers/perl-test-fatal
+.. _`perl-test-fatal/tags`: https://quay.io/repository/biocontainers/perl-test-fatal?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-fatal/README.html
-

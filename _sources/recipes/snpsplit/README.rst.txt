@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'snpsplit'
 .. highlight: bash
-
 
 snpsplit
 ========
@@ -22,11 +23,13 @@ snpsplit
 
    |downloads_snpsplit| |docker_snpsplit|
 
-   :versions: 0.3.4, 0.3.3
-
-   :depends: :conda:package:`perl`  :conda:package:`samtools` >=1.7 
-
-   :required~by: |required_by_snpsplit|
+   :versions: 0.3.4-1, 0.3.4-0, 0.3.3-1, 0.3.3-0
+   
+   :depends perl: 
+   
+   :depends samtools: >=1.7
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ snpsplit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snpsplit
+      docker pull quay.io/repository/biocontainers/snpsplit:<tag>
+
+   (see `snpsplit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_snpsplit| conda:required_by:: snpsplit
 .. |downloads_snpsplit| image:: https://img.shields.io/conda/dn/bioconda/snpsplit.svg?style=flat
    :alt:   (downloads)
 .. |docker_snpsplit| image:: https://quay.io/repository/biocontainers/snpsplit/status
    :target: https://quay.io/repository/biocontainers/snpsplit
+.. _`snpsplit/tags`: https://quay.io/repository/biocontainers/snpsplit?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/snpsplit/README.html
-

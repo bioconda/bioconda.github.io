@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-pinfsc50'
 .. highlight: bash
-
 
 r-pinfsc50
 ==========
@@ -21,11 +22,11 @@ r-pinfsc50
 
    |downloads_r-pinfsc50| |docker_r-pinfsc50|
 
-   :versions: 1.1.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-pinfsc50|
+   :versions: 1.1.0-0
+   
+   :depends r-base: 3.4.1*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-pinfsc50
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-pinfsc50
+      docker pull quay.io/repository/biocontainers/r-pinfsc50:<tag>
+
+   (see `r-pinfsc50/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-pinfsc50| conda:required_by:: r-pinfsc50
 .. |downloads_r-pinfsc50| image:: https://img.shields.io/conda/dn/bioconda/r-pinfsc50.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-pinfsc50| image:: https://quay.io/repository/biocontainers/r-pinfsc50/status
    :target: https://quay.io/repository/biocontainers/r-pinfsc50
+.. _`r-pinfsc50/tags`: https://quay.io/repository/biocontainers/r-pinfsc50?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-pinfsc50/README.html
-

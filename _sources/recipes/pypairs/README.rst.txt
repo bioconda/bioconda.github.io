@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pypairs'
 .. highlight: bash
-
 
 pypairs
 =======
@@ -23,11 +24,27 @@ pypairs
 
    |downloads_pypairs| |docker_pypairs|
 
-   :versions: 3.0.9, 2.0.6, 2.0.5
-
-   :depends: :conda:package:`anndata` >=0.6.13 :conda:package:`colorama`  :conda:package:`h5py` >=2.8.0 :conda:package:`numba` >=0.40.1 :conda:package:`numpy` >=1.15.4 :conda:package:`pandas` >=0.23.4 :conda:package:`psutil`  :conda:package:`python` >3 :conda:package:`scikit-learn`  
-
-   :required~by: |required_by_pypairs|
+   :versions: 3.0.9-0, 2.0.6-0, 2.0.5-0
+   
+   :depends anndata: >=0.6.13
+   
+   :depends colorama: 
+   
+   :depends h5py: >=2.8.0
+   
+   :depends numba: >=0.40.1
+   
+   :depends numpy: >=1.15.4
+   
+   :depends pandas: >=0.23.4
+   
+   :depends psutil: 
+   
+   :depends python: >3
+   
+   :depends scikit-learn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +58,16 @@ pypairs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pypairs
+      docker pull quay.io/repository/biocontainers/pypairs:<tag>
+
+   (see `pypairs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pypairs| conda:required_by:: pypairs
 .. |downloads_pypairs| image:: https://img.shields.io/conda/dn/bioconda/pypairs.svg?style=flat
    :alt:   (downloads)
 .. |docker_pypairs| image:: https://quay.io/repository/biocontainers/pypairs/status
    :target: https://quay.io/repository/biocontainers/pypairs
+.. _`pypairs/tags`: https://quay.io/repository/biocontainers/pypairs?tab=tags
 
 
 
@@ -65,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pypairs/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rnasketch'
 .. highlight: bash
-
 
 rnasketch
 =========
@@ -21,11 +22,21 @@ rnasketch
 
    |downloads_rnasketch| |docker_rnasketch|
 
-   :versions: 1.5, 1.4
-
-   :depends: :conda:package:`numpy` >=1.15* :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`python-igraph`  :conda:package:`rnablueprint` >=1.2 :conda:package:`scipy` >=1.1* :conda:package:`viennarna` >=2.4* 
-
-   :required~by: |required_by_rnasketch|
+   :versions: 1.5-1, 1.4-1, 1.4-0
+   
+   :depends numpy: >=1.15*
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends python-igraph: 
+   
+   :depends rnablueprint: >=1.2
+   
+   :depends scipy: >=1.1*
+   
+   :depends viennarna: >=2.4*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ rnasketch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnasketch
+      docker pull quay.io/repository/biocontainers/rnasketch:<tag>
+
+   (see `rnasketch/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rnasketch| conda:required_by:: rnasketch
 .. |downloads_rnasketch| image:: https://img.shields.io/conda/dn/bioconda/rnasketch.svg?style=flat
    :alt:   (downloads)
 .. |docker_rnasketch| image:: https://quay.io/repository/biocontainers/rnasketch/status
    :target: https://quay.io/repository/biocontainers/rnasketch
+.. _`rnasketch/tags`: https://quay.io/repository/biocontainers/rnasketch?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rnasketch/README.html
-

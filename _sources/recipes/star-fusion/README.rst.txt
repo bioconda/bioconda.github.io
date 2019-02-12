@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'star-fusion'
 .. highlight: bash
-
 
 star-fusion
 ===========
@@ -21,11 +22,35 @@ star-fusion
 
    |downloads_star-fusion| |docker_star-fusion|
 
-   :versions: 1.5.0, 1.4.0, 1.3.2, 1.2.0, 1.1.0, 1.0.0, 0.7.0, 0.5.4, 0.5.3, 0.4.0
-
-   :depends: :conda:package:`bbmap`  :conda:package:`blast`  :conda:package:`bowtie`  :conda:package:`gmap`  :conda:package:`perl`  :conda:package:`perl-carp`  :conda:package:`perl-db-file`  :conda:package:`perl-io-gzip`  :conda:package:`perl-json-xs`  :conda:package:`perl-set-intervaltree`  :conda:package:`perl-uri`  :conda:package:`samtools`  :conda:package:`star` >=2.6.1b 
-
-   :required~by: |required_by_star-fusion|
+   :versions: 1.5.0-0, 1.4.0-2, 1.4.0-1, 1.4.0-0, 1.3.2-2, 1.3.2-1, 1.3.2-0, 1.2.0-0, 1.1.0-0, 1.0.0-0, 0.7.0-1, 0.7.0-0, 0.5.4-2, 0.5.4-1, 0.5.4-0, 0.5.3-0, 0.4.0-0
+   
+   :depends bbmap: 
+   
+   :depends blast: 
+   
+   :depends bowtie: 
+   
+   :depends gmap: 
+   
+   :depends perl: 
+   
+   :depends perl-carp: 
+   
+   :depends perl-db-file: 
+   
+   :depends perl-io-gzip: 
+   
+   :depends perl-json-xs: 
+   
+   :depends perl-set-intervaltree: 
+   
+   :depends perl-uri: 
+   
+   :depends samtools: 
+   
+   :depends star: >=2.6.1b
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ star-fusion
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/star-fusion
+      docker pull quay.io/repository/biocontainers/star-fusion:<tag>
+
+   (see `star-fusion/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_star-fusion| conda:required_by:: star-fusion
 .. |downloads_star-fusion| image:: https://img.shields.io/conda/dn/bioconda/star-fusion.svg?style=flat
    :alt:   (downloads)
 .. |docker_star-fusion| image:: https://quay.io/repository/biocontainers/star-fusion/status
    :target: https://quay.io/repository/biocontainers/star-fusion
+.. _`star-fusion/tags`: https://quay.io/repository/biocontainers/star-fusion?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/star-fusion/README.html
-

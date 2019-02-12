@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'livekraken'
 .. highlight: bash
-
 
 livekraken
 ==========
@@ -21,11 +22,21 @@ livekraken
 
    |downloads_livekraken| |docker_livekraken|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`jellyfish` 1.* :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_livekraken|
+   :versions: 1.0-4, 1.0-2, 1.0-1, 1.0-0
+   
+   :depends argparse: 
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends jellyfish: 1.*
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ livekraken
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/livekraken
+      docker pull quay.io/repository/biocontainers/livekraken:<tag>
+
+   (see `livekraken/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_livekraken| conda:required_by:: livekraken
 .. |downloads_livekraken| image:: https://img.shields.io/conda/dn/bioconda/livekraken.svg?style=flat
    :alt:   (downloads)
 .. |docker_livekraken| image:: https://quay.io/repository/biocontainers/livekraken/status
    :target: https://quay.io/repository/biocontainers/livekraken
+.. _`livekraken/tags`: https://quay.io/repository/biocontainers/livekraken?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/livekraken/README.html
-

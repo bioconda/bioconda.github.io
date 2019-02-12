@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'aenum'
 .. highlight: bash
-
 
 aenum
 =====
@@ -21,11 +22,11 @@ aenum
 
    |downloads_aenum| |docker_aenum|
 
-   :versions: 2.0.8, 1.4.5
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_aenum|
+   :versions: 2.0.8-0, 1.4.5-0
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ aenum
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/aenum
+      docker pull quay.io/repository/biocontainers/aenum:<tag>
+
+   (see `aenum/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_aenum| conda:required_by:: aenum
 .. |downloads_aenum| image:: https://img.shields.io/conda/dn/bioconda/aenum.svg?style=flat
    :alt:   (downloads)
 .. |docker_aenum| image:: https://quay.io/repository/biocontainers/aenum/status
    :target: https://quay.io/repository/biocontainers/aenum
+.. _`aenum/tags`: https://quay.io/repository/biocontainers/aenum?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/aenum/README.html
-

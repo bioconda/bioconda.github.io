@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'epic2'
 .. highlight: bash
-
 
 epic2
 =====
@@ -21,11 +22,27 @@ epic2
 
    |downloads_epic2| |docker_epic2|
 
-   :versions: 0.0.16, 0.0.15
-
-   :depends: :conda:package:`cython`  :conda:package:`functools32`  :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libdeflate` >=1.0,<1.1.0a0 :conda:package:`natsort`  :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
-
-   :required~by: |required_by_epic2|
+   :versions: 0.0.16-0, 0.0.15-0
+   
+   :depends cython: 
+   
+   :depends functools32: 
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libdeflate: >=1.0,<1.1.0a0
+   
+   :depends natsort: 
+   
+   :depends numpy: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ epic2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/epic2
+      docker pull quay.io/repository/biocontainers/epic2:<tag>
+
+   (see `epic2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_epic2| conda:required_by:: epic2
 .. |downloads_epic2| image:: https://img.shields.io/conda/dn/bioconda/epic2.svg?style=flat
    :alt:   (downloads)
 .. |docker_epic2| image:: https://quay.io/repository/biocontainers/epic2/status
    :target: https://quay.io/repository/biocontainers/epic2
+.. _`epic2/tags`: https://quay.io/repository/biocontainers/epic2?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/epic2/README.html
-

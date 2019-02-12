@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'circos'
 .. highlight: bash
-
 
 circos
 ======
@@ -22,11 +23,45 @@ circos
 
    |downloads_circos| |docker_circos|
 
-   :versions: 0.69.6, 0.69.5, 0.69.4, 0.69.2
-
-   :depends: :conda:package:`perl`  :conda:package:`perl-clone`  :conda:package:`perl-config-general`  :conda:package:`perl-digest-perl-md5`  :conda:package:`perl-font-ttf`  :conda:package:`perl-gd`  :conda:package:`perl-list-moreutils`  :conda:package:`perl-math-bezier`  :conda:package:`perl-math-round`  :conda:package:`perl-math-vecstat`  :conda:package:`perl-params-validate`  :conda:package:`perl-readonly`  :conda:package:`perl-regexp-common`  :conda:package:`perl-set-intspan`  :conda:package:`perl-statistics-basic`  :conda:package:`perl-svg`  :conda:package:`perl-text-format`  :conda:package:`perl-time-hires`  
-
-   :required~by: |required_by_circos|
+   :versions: 0.69.6-4, 0.69.6-2, 0.69.6-1, 0.69.6-0, 0.69.5-0, 0.69.4-0, 0.69.2-0
+   
+   :depends perl: 
+   
+   :depends perl-clone: 
+   
+   :depends perl-config-general: 
+   
+   :depends perl-digest-perl-md5: 
+   
+   :depends perl-font-ttf: 
+   
+   :depends perl-gd: 
+   
+   :depends perl-list-moreutils: 
+   
+   :depends perl-math-bezier: 
+   
+   :depends perl-math-round: 
+   
+   :depends perl-math-vecstat: 
+   
+   :depends perl-params-validate: 
+   
+   :depends perl-readonly: 
+   
+   :depends perl-regexp-common: 
+   
+   :depends perl-set-intspan: 
+   
+   :depends perl-statistics-basic: 
+   
+   :depends perl-svg: 
+   
+   :depends perl-text-format: 
+   
+   :depends perl-time-hires: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +75,16 @@ circos
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/circos
+      docker pull quay.io/repository/biocontainers/circos:<tag>
+
+   (see `circos/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_circos| conda:required_by:: circos
 .. |downloads_circos| image:: https://img.shields.io/conda/dn/bioconda/circos.svg?style=flat
    :alt:   (downloads)
 .. |docker_circos| image:: https://quay.io/repository/biocontainers/circos/status
    :target: https://quay.io/repository/biocontainers/circos
+.. _`circos/tags`: https://quay.io/repository/biocontainers/circos?tab=tags
 
 
 
@@ -64,4 +101,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/circos/README.html
-

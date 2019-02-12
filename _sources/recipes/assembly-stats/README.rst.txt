@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'assembly-stats'
 .. highlight: bash
-
 
 assembly-stats
 ==============
@@ -21,11 +22,11 @@ assembly-stats
 
    |downloads_assembly-stats| |docker_assembly-stats|
 
-   :versions: 1.0.1, 1.0.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_assembly-stats|
+   :versions: 1.0.1-1, 1.0.1-0, 1.0.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ assembly-stats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/assembly-stats
+      docker pull quay.io/repository/biocontainers/assembly-stats:<tag>
+
+   (see `assembly-stats/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_assembly-stats| conda:required_by:: assembly-stats
 .. |downloads_assembly-stats| image:: https://img.shields.io/conda/dn/bioconda/assembly-stats.svg?style=flat
    :alt:   (downloads)
 .. |docker_assembly-stats| image:: https://quay.io/repository/biocontainers/assembly-stats/status
    :target: https://quay.io/repository/biocontainers/assembly-stats
+.. _`assembly-stats/tags`: https://quay.io/repository/biocontainers/assembly-stats?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/assembly-stats/README.html
-

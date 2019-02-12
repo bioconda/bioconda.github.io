@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vcf2maf'
 .. highlight: bash
-
 
 vcf2maf
 =======
@@ -21,11 +22,17 @@ vcf2maf
 
    |downloads_vcf2maf| |docker_vcf2maf|
 
-   :versions: 1.6.16, 1.6.15, 1.6.14, 1.6.12, 1.6.8
-
-   :depends: :conda:package:`htslib` 1.7* :conda:package:`perl` 5.22.0* :conda:package:`samtools`  :conda:package:`variant-effect-predictor`  
-
-   :required~by: |required_by_vcf2maf|
+   :versions: 1.6.16-4, 1.6.16-3, 1.6.16-0, 1.6.15-1, 1.6.15-0, 1.6.14-0, 1.6.12-0, 1.6.8-0
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends samtools: 
+   
+   :depends variant-effect-predictor: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ vcf2maf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcf2maf
+      docker pull quay.io/repository/biocontainers/vcf2maf:<tag>
+
+   (see `vcf2maf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vcf2maf| conda:required_by:: vcf2maf
 .. |downloads_vcf2maf| image:: https://img.shields.io/conda/dn/bioconda/vcf2maf.svg?style=flat
    :alt:   (downloads)
 .. |docker_vcf2maf| image:: https://quay.io/repository/biocontainers/vcf2maf/status
    :target: https://quay.io/repository/biocontainers/vcf2maf
+.. _`vcf2maf/tags`: https://quay.io/repository/biocontainers/vcf2maf?tab=tags
 
 
 
@@ -68,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vcf2maf/README.html
-

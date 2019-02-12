@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'consensusfixer'
 .. highlight: bash
-
 
 consensusfixer
 ==============
@@ -21,11 +22,11 @@ consensusfixer
 
    |downloads_consensusfixer| |docker_consensusfixer|
 
-   :versions: 0.4, 0.3.1
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_consensusfixer|
+   :versions: 0.4-2, 0.4-0, 0.3.1-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ consensusfixer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/consensusfixer
+      docker pull quay.io/repository/biocontainers/consensusfixer:<tag>
+
+   (see `consensusfixer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_consensusfixer| conda:required_by:: consensusfixer
 .. |downloads_consensusfixer| image:: https://img.shields.io/conda/dn/bioconda/consensusfixer.svg?style=flat
    :alt:   (downloads)
 .. |docker_consensusfixer| image:: https://quay.io/repository/biocontainers/consensusfixer/status
    :target: https://quay.io/repository/biocontainers/consensusfixer
+.. _`consensusfixer/tags`: https://quay.io/repository/biocontainers/consensusfixer?tab=tags
 
 
 
@@ -72,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/consensusfixer/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ibdseq'
 .. highlight: bash
-
 
 ibdseq
 ======
@@ -22,11 +23,11 @@ ibdseq
 
    |downloads_ibdseq| |docker_ibdseq|
 
-   :versions: r1206
-
-   :depends: :conda:package:`java-jdk` >=6.0.77 
-
-   :required~by: |required_by_ibdseq|
+   :versions: r1206-1, r1206-0
+   
+   :depends java-jdk: >=6.0.77
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ ibdseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ibdseq
+      docker pull quay.io/repository/biocontainers/ibdseq:<tag>
+
+   (see `ibdseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ibdseq| conda:required_by:: ibdseq
 .. |downloads_ibdseq| image:: https://img.shields.io/conda/dn/bioconda/ibdseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_ibdseq| image:: https://quay.io/repository/biocontainers/ibdseq/status
    :target: https://quay.io/repository/biocontainers/ibdseq
+.. _`ibdseq/tags`: https://quay.io/repository/biocontainers/ibdseq?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ibdseq/README.html
-

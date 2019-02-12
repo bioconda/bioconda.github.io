@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-dnet'
 .. highlight: bash
-
 
 r-dnet
 ======
@@ -21,11 +22,21 @@ r-dnet
 
    |downloads_r-dnet| |docker_r-dnet|
 
-   :versions: 1.1.4
-
-   :depends: :conda:package:`bioconductor-graph`  :conda:package:`bioconductor-rgraphviz`  :conda:package:`bioconductor-suprahex`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-matrix`  
-
-   :required~by: |required_by_r-dnet|
+   :versions: 1.1.4-0
+   
+   :depends bioconductor-graph: 
+   
+   :depends bioconductor-rgraphviz: 
+   
+   :depends bioconductor-suprahex: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-igraph: 
+   
+   :depends r-matrix: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-dnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-dnet
+      docker pull quay.io/repository/biocontainers/r-dnet:<tag>
+
+   (see `r-dnet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-dnet| conda:required_by:: r-dnet
 .. |downloads_r-dnet| image:: https://img.shields.io/conda/dn/bioconda/r-dnet.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-dnet| image:: https://quay.io/repository/biocontainers/r-dnet/status
    :target: https://quay.io/repository/biocontainers/r-dnet
+.. _`r-dnet/tags`: https://quay.io/repository/biocontainers/r-dnet?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-dnet/README.html
-

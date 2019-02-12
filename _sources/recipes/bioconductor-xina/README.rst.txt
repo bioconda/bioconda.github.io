@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-xina'
 .. highlight: bash
-
 
 bioconductor-xina
 =================
@@ -21,11 +22,27 @@ bioconductor-xina
 
    |downloads_bioconductor-xina| |docker_bioconductor-xina|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-stringdb` >=1.22.0,<1.23.0 :conda:package:`r-alluvial`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-igraph`  :conda:package:`r-mclust`  :conda:package:`r-plyr`  
-
-   :required~by: |required_by_bioconductor-xina|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-stringdb: >=1.22.0,<1.23.0
+   
+   :depends r-alluvial: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-igraph: 
+   
+   :depends r-mclust: 
+   
+   :depends r-plyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-xina
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xina
+      docker pull quay.io/repository/biocontainers/bioconductor-xina:<tag>
+
+   (see `bioconductor-xina/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-xina| conda:required_by:: bioconductor-xina
 .. |downloads_bioconductor-xina| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xina.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-xina| image:: https://quay.io/repository/biocontainers/bioconductor-xina/status
    :target: https://quay.io/repository/biocontainers/bioconductor-xina
+.. _`bioconductor-xina/tags`: https://quay.io/repository/biocontainers/bioconductor-xina?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-xina/README.html
-

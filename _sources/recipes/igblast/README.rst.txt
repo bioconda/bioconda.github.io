@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'igblast'
 .. highlight: bash
-
 
 igblast
 =======
@@ -22,11 +23,21 @@ igblast
 
    |downloads_igblast| |docker_igblast|
 
-   :versions: 1.10.0, 1.9.0, 1.7.0, 1.5.0, 1.4.0
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libidn11`  :conda:package:`libxml2` >=2.9.8,<2.10.0a0 :conda:package:`perl`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_igblast|
+   :versions: 1.10.0-0, 1.9.0-0, 1.7.0-1, 1.7.0-0, 1.5.0-2, 1.5.0-1, 1.4.0-6, 1.4.0-5, 1.4.0-4, 1.4.0-2, 1.4.0-1, 1.4.0-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libidn11: 
+   
+   :depends libxml2: >=2.9.8,<2.10.0a0
+   
+   :depends perl: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ igblast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/igblast
+      docker pull quay.io/repository/biocontainers/igblast:<tag>
+
+   (see `igblast/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_igblast| conda:required_by:: igblast
 .. |downloads_igblast| image:: https://img.shields.io/conda/dn/bioconda/igblast.svg?style=flat
    :alt:   (downloads)
 .. |docker_igblast| image:: https://quay.io/repository/biocontainers/igblast/status
    :target: https://quay.io/repository/biocontainers/igblast
+.. _`igblast/tags`: https://quay.io/repository/biocontainers/igblast?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/igblast/README.html
-

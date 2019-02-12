@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tssar'
 .. highlight: bash
-
 
 tssar
 =====
@@ -21,11 +22,19 @@ tssar
 
    |downloads_tssar| |docker_tssar|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  :conda:package:`r-base`  :conda:package:`r-skellam`  :conda:package:`r-vgam`  
-
-   :required~by: |required_by_tssar|
+   :versions: 1.0.1-1, 1.0.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: 
+   
+   :depends r-base: 
+   
+   :depends r-skellam: 
+   
+   :depends r-vgam: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ tssar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tssar
+      docker pull quay.io/repository/biocontainers/tssar:<tag>
+
+   (see `tssar/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tssar| conda:required_by:: tssar
 .. |downloads_tssar| image:: https://img.shields.io/conda/dn/bioconda/tssar.svg?style=flat
    :alt:   (downloads)
 .. |docker_tssar| image:: https://quay.io/repository/biocontainers/tssar/status
    :target: https://quay.io/repository/biocontainers/tssar
+.. _`tssar/tags`: https://quay.io/repository/biocontainers/tssar?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tssar/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-rapidr'
 .. highlight: bash
-
 
 r-rapidr
 ========
@@ -21,11 +22,23 @@ r-rapidr
 
    |downloads_r-rapidr| |docker_r-rapidr|
 
-   :versions: 0.1.1
-
-   :depends: :conda:package:`bioconductor-biostrings`  :conda:package:`bioconductor-genomicalignments`  :conda:package:`bioconductor-genomicranges`  :conda:package:`bioconductor-rsamtools`  :conda:package:`r-base` 3.4.1* :conda:package:`r-data.table`  :conda:package:`r-propcis`  
-
-   :required~by: |required_by_r-rapidr|
+   :versions: 0.1.1-3, 0.1.1-2, 0.1.1-0
+   
+   :depends bioconductor-biostrings: 
+   
+   :depends bioconductor-genomicalignments: 
+   
+   :depends bioconductor-genomicranges: 
+   
+   :depends bioconductor-rsamtools: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-propcis: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ r-rapidr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rapidr
+      docker pull quay.io/repository/biocontainers/r-rapidr:<tag>
+
+   (see `r-rapidr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-rapidr| conda:required_by:: r-rapidr
 .. |downloads_r-rapidr| image:: https://img.shields.io/conda/dn/bioconda/r-rapidr.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-rapidr| image:: https://quay.io/repository/biocontainers/r-rapidr/status
    :target: https://quay.io/repository/biocontainers/r-rapidr
+.. _`r-rapidr/tags`: https://quay.io/repository/biocontainers/r-rapidr?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-rapidr/README.html
-

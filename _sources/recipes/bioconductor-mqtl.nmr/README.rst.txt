@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mqtl.nmr'
 .. highlight: bash
-
 
 bioconductor-mqtl.nmr
 =====================
@@ -22,11 +23,19 @@ bioconductor-mqtl.nmr
 
    |downloads_bioconductor-mqtl.nmr| |docker_bioconductor-mqtl.nmr|
 
-   :versions: 1.14.0, 1.12.0
-
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-genabel`  :conda:package:`r-mass`  :conda:package:`r-outliers`  :conda:package:`r-qtl`  
-
-   :required~by: |required_by_bioconductor-mqtl.nmr|
+   :versions: 1.14.0-0, 1.12.0-0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-genabel: 
+   
+   :depends r-mass: 
+   
+   :depends r-outliers: 
+   
+   :depends r-qtl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-mqtl.nmr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mqtl.nmr
+      docker pull quay.io/repository/biocontainers/bioconductor-mqtl.nmr:<tag>
+
+   (see `bioconductor-mqtl.nmr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mqtl.nmr| conda:required_by:: bioconductor-mqtl.nmr
 .. |downloads_bioconductor-mqtl.nmr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mqtl.nmr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mqtl.nmr| image:: https://quay.io/repository/biocontainers/bioconductor-mqtl.nmr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mqtl.nmr
+.. _`bioconductor-mqtl.nmr/tags`: https://quay.io/repository/biocontainers/bioconductor-mqtl.nmr?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mqtl.nmr/README.html
-

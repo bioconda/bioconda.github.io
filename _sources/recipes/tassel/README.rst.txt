@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tassel'
 .. highlight: bash
-
 
 tassel
 ======
@@ -21,11 +22,13 @@ tassel
 
    |downloads_tassel| |docker_tassel|
 
-   :versions: 5.2.40, 4.3.15, 3.0.174
-
-   :depends: :conda:package:`openjdk` >=8.0 :conda:package:`perl`  
-
-   :required~by: |required_by_tassel|
+   :versions: 5.2.40-1, 5.2.40-0, 4.3.15-1, 4.3.15-0, 3.0.174-1, 3.0.174-0
+   
+   :depends openjdk: >=8.0
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ tassel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tassel
+      docker pull quay.io/repository/biocontainers/tassel:<tag>
+
+   (see `tassel/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tassel| conda:required_by:: tassel
 .. |downloads_tassel| image:: https://img.shields.io/conda/dn/bioconda/tassel.svg?style=flat
    :alt:   (downloads)
 .. |docker_tassel| image:: https://quay.io/repository/biocontainers/tassel/status
    :target: https://quay.io/repository/biocontainers/tassel
+.. _`tassel/tags`: https://quay.io/repository/biocontainers/tassel?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tassel/README.html
-

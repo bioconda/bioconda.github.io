@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pymot'
 .. highlight: bash
-
 
 pymot
 =====
@@ -21,11 +22,13 @@ pymot
 
    |downloads_pymot| |docker_pymot|
 
-   :versions: 13.09.2016
-
-   :depends: :conda:package:`munkres`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pymot|
+   :versions: 13.09.2016-1, 13.09.2016-0
+   
+   :depends munkres: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ pymot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pymot
+      docker pull quay.io/repository/biocontainers/pymot:<tag>
+
+   (see `pymot/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pymot| conda:required_by:: pymot
 .. |downloads_pymot| image:: https://img.shields.io/conda/dn/bioconda/pymot.svg?style=flat
    :alt:   (downloads)
 .. |docker_pymot| image:: https://quay.io/repository/biocontainers/pymot/status
    :target: https://quay.io/repository/biocontainers/pymot
+.. _`pymot/tags`: https://quay.io/repository/biocontainers/pymot?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pymot/README.html
-

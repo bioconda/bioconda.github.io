@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-classdiscovery'
 .. highlight: bash
-
 
 r-classdiscovery
 ================
@@ -21,11 +22,21 @@ r-classdiscovery
 
    |downloads_r-classdiscovery| |docker_r-classdiscovery|
 
-   :versions: 3.3.9
-
-   :depends: :conda:package:`bioconductor-biobase`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-mclust`  :conda:package:`r-oompabase` >=3.0.1 :conda:package:`r-oompadata`  
-
-   :required~by: |required_by_r-classdiscovery|
+   :versions: 3.3.9-1, 3.3.9-0
+   
+   :depends bioconductor-biobase: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :depends r-mclust: 
+   
+   :depends r-oompabase: >=3.0.1
+   
+   :depends r-oompadata: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-classdiscovery
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-classdiscovery
+      docker pull quay.io/repository/biocontainers/r-classdiscovery:<tag>
+
+   (see `r-classdiscovery/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-classdiscovery| conda:required_by:: r-classdiscovery
 .. |downloads_r-classdiscovery| image:: https://img.shields.io/conda/dn/bioconda/r-classdiscovery.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-classdiscovery| image:: https://quay.io/repository/biocontainers/r-classdiscovery/status
    :target: https://quay.io/repository/biocontainers/r-classdiscovery
+.. _`r-classdiscovery/tags`: https://quay.io/repository/biocontainers/r-classdiscovery?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-classdiscovery/README.html
-

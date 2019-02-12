@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-nbpseq'
 .. highlight: bash
-
 
 r-nbpseq
 ========
@@ -21,11 +22,15 @@ r-nbpseq
 
    |downloads_r-nbpseq| |docker_r-nbpseq|
 
-   :versions: 0.3.0
-
-   :depends: :conda:package:`bioconductor-qvalue`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-nbpseq|
+   :versions: 0.3.0-0
+   
+   :depends bioconductor-qvalue: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-nbpseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-nbpseq
+      docker pull quay.io/repository/biocontainers/r-nbpseq:<tag>
+
+   (see `r-nbpseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-nbpseq| conda:required_by:: r-nbpseq
 .. |downloads_r-nbpseq| image:: https://img.shields.io/conda/dn/bioconda/r-nbpseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-nbpseq| image:: https://quay.io/repository/biocontainers/r-nbpseq/status
    :target: https://quay.io/repository/biocontainers/r-nbpseq
+.. _`r-nbpseq/tags`: https://quay.io/repository/biocontainers/r-nbpseq?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-nbpseq/README.html
-

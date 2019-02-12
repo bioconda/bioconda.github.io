@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-dupradar'
 .. highlight: bash
-
 
 bioconductor-dupradar
 =====================
@@ -22,11 +23,13 @@ bioconductor-dupradar
 
    |downloads_bioconductor-dupradar| |docker_bioconductor-dupradar|
 
-   :versions: 1.12.1, 1.10.0, 1.8.0, 1.6.0, 1.2.2
-
-   :depends: :conda:package:`bioconductor-rsubread` >=1.32.0,<1.33.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-dupradar|
+   :versions: 1.12.1-0, 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0, 1.2.2-0
+   
+   :depends bioconductor-rsubread: >=1.32.0,<1.33.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-dupradar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dupradar
+      docker pull quay.io/repository/biocontainers/bioconductor-dupradar:<tag>
+
+   (see `bioconductor-dupradar/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-dupradar| conda:required_by:: bioconductor-dupradar
 .. |downloads_bioconductor-dupradar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dupradar.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-dupradar| image:: https://quay.io/repository/biocontainers/bioconductor-dupradar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dupradar
+.. _`bioconductor-dupradar/tags`: https://quay.io/repository/biocontainers/bioconductor-dupradar?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-dupradar/README.html
-

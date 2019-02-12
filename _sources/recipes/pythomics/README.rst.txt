@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pythomics'
 .. highlight: bash
-
 
 pythomics
 =========
@@ -21,11 +22,13 @@ pythomics
 
    |downloads_pythomics| |docker_pythomics|
 
-   :versions: 0.3.42, 0.3.40
-
-   :depends: :conda:package:`python` 2.7* :conda:package:`six`  
-
-   :required~by: |required_by_pythomics|
+   :versions: 0.3.42-1, 0.3.42-0, 0.3.40-0
+   
+   :depends python: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ pythomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pythomics
+      docker pull quay.io/repository/biocontainers/pythomics:<tag>
+
+   (see `pythomics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pythomics| conda:required_by:: pythomics
 .. |downloads_pythomics| image:: https://img.shields.io/conda/dn/bioconda/pythomics.svg?style=flat
    :alt:   (downloads)
 .. |docker_pythomics| image:: https://quay.io/repository/biocontainers/pythomics/status
    :target: https://quay.io/repository/biocontainers/pythomics
+.. _`pythomics/tags`: https://quay.io/repository/biocontainers/pythomics?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pythomics/README.html
-

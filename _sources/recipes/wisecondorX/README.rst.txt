@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'wisecondorx'
 .. highlight: bash
-
 
 wisecondorx
 ===========
@@ -21,11 +22,27 @@ wisecondorx
 
    |downloads_wisecondorx| |docker_wisecondorx|
 
-   :versions: 1.0.2, 1.0.1, 1.0.0, 0.2.1, 0.2.0, 0.1.0
-
-   :depends: :conda:package:`bioconductor-dnacopy`  :conda:package:`futures`  :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python`  :conda:package:`r-jsonlite` >=1.5 :conda:package:`r-png`  :conda:package:`scikit-learn`  :conda:package:`scipy`  
-
-   :required~by: |required_by_wisecondorx|
+   :versions: 1.0.2-0, 1.0.1-0, 1.0.0-0, 0.2.1-0, 0.2.0-1, 0.1.0-2, 0.1.0-1, 0.1.0-0
+   
+   :depends bioconductor-dnacopy: 
+   
+   :depends futures: 
+   
+   :depends numpy: 
+   
+   :depends pysam: 
+   
+   :depends python: 
+   
+   :depends r-jsonlite: >=1.5
+   
+   :depends r-png: 
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ wisecondorx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wisecondorx
+      docker pull quay.io/repository/biocontainers/wisecondorx:<tag>
+
+   (see `wisecondorx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_wisecondorx| conda:required_by:: wisecondorx
 .. |downloads_wisecondorx| image:: https://img.shields.io/conda/dn/bioconda/wisecondorx.svg?style=flat
    :alt:   (downloads)
 .. |docker_wisecondorx| image:: https://quay.io/repository/biocontainers/wisecondorx/status
    :target: https://quay.io/repository/biocontainers/wisecondorx
+.. _`wisecondorx/tags`: https://quay.io/repository/biocontainers/wisecondorx?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/wisecondorx/README.html
-

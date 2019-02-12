@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sincell'
 .. highlight: bash
-
 
 bioconductor-sincell
 ====================
@@ -22,11 +23,43 @@ bioconductor-sincell
 
    |downloads_bioconductor-sincell| |docker_bioconductor-sincell|
 
-   :versions: 1.14.1, 1.14.0, 1.12.0, 1.10.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-entropy`  :conda:package:`r-fastica`  :conda:package:`r-fields`  :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-proxy`  :conda:package:`r-rcpp` >=0.11.2 :conda:package:`r-reshape2`  :conda:package:`r-rtsne`  :conda:package:`r-scatterplot3d`  :conda:package:`r-statmod`  :conda:package:`r-tsp`  
-
-   :required~by: |required_by_bioconductor-sincell|
+   :versions: 1.14.1-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :depends r-entropy: 
+   
+   :depends r-fastica: 
+   
+   :depends r-fields: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-igraph: 
+   
+   :depends r-mass: 
+   
+   :depends r-proxy: 
+   
+   :depends r-rcpp: >=0.11.2
+   
+   :depends r-reshape2: 
+   
+   :depends r-rtsne: 
+   
+   :depends r-scatterplot3d: 
+   
+   :depends r-statmod: 
+   
+   :depends r-tsp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +73,16 @@ bioconductor-sincell
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sincell
+      docker pull quay.io/repository/biocontainers/bioconductor-sincell:<tag>
+
+   (see `bioconductor-sincell/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sincell| conda:required_by:: bioconductor-sincell
 .. |downloads_bioconductor-sincell| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sincell.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sincell| image:: https://quay.io/repository/biocontainers/bioconductor-sincell/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sincell
+.. _`bioconductor-sincell/tags`: https://quay.io/repository/biocontainers/bioconductor-sincell?tab=tags
 
 
 
@@ -64,4 +99,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sincell/README.html
-

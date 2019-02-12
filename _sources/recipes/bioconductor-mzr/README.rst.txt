@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mzr'
 .. highlight: bash
-
 
 bioconductor-mzr
 ================
@@ -22,11 +23,29 @@ bioconductor-mzr
 
    |downloads_bioconductor-mzr| |docker_bioconductor-mzr|
 
-   :versions: 2.16.0, 2.12.0, 2.10.0, 2.6.3, 2.4.1
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-protgenerics` >=1.14.0,<1.15.0 :conda:package:`bioconductor-rhdf5lib` >=1.4.0,<1.5.0 :conda:package:`bioconductor-zlibbioc` >=1.28.0,<1.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ncdf4`  :conda:package:`r-rcpp` >=0.10.1 
-
-   :required~by: |required_by_bioconductor-mzr|
+   :versions: 2.16.0-0, 2.12.0-1, 2.10.0-0, 2.6.3-1, 2.6.3-0, 2.4.1-1
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-protgenerics: >=1.14.0,<1.15.0
+   
+   :depends bioconductor-rhdf5lib: >=1.4.0,<1.5.0
+   
+   :depends bioconductor-zlibbioc: >=1.28.0,<1.29.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ncdf4: 
+   
+   :depends r-rcpp: >=0.10.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ bioconductor-mzr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mzr
+      docker pull quay.io/repository/biocontainers/bioconductor-mzr:<tag>
+
+   (see `bioconductor-mzr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mzr| conda:required_by:: bioconductor-mzr
 .. |downloads_bioconductor-mzr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mzr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mzr| image:: https://quay.io/repository/biocontainers/bioconductor-mzr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mzr
+.. _`bioconductor-mzr/tags`: https://quay.io/repository/biocontainers/bioconductor-mzr?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mzr/README.html
-

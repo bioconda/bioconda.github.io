@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyaavf'
 .. highlight: bash
-
 
 pyaavf
 ======
@@ -21,11 +22,11 @@ pyaavf
 
    |downloads_pyaavf| |docker_pyaavf|
 
-   :versions: 0.1.0
-
-   :depends: :conda:package:`python`  
-
-   :required~by: |required_by_pyaavf|
+   :versions: 0.1.0-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ pyaavf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyaavf
+      docker pull quay.io/repository/biocontainers/pyaavf:<tag>
+
+   (see `pyaavf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyaavf| conda:required_by:: pyaavf
 .. |downloads_pyaavf| image:: https://img.shields.io/conda/dn/bioconda/pyaavf.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyaavf| image:: https://quay.io/repository/biocontainers/pyaavf/status
    :target: https://quay.io/repository/biocontainers/pyaavf
+.. _`pyaavf/tags`: https://quay.io/repository/biocontainers/pyaavf?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyaavf/README.html
-

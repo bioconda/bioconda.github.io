@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-task-weaken'
 .. highlight: bash
-
 
 perl-task-weaken
 ================
@@ -21,11 +22,11 @@ perl-task-weaken
 
    |downloads_perl-task-weaken| |docker_perl-task-weaken|
 
-   :versions: 1.06, 1.04
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-task-weaken|
+   :versions: 1.06-0, 1.04-1, 1.04-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-task-weaken
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-task-weaken
+      docker pull quay.io/repository/biocontainers/perl-task-weaken:<tag>
+
+   (see `perl-task-weaken/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-task-weaken| conda:required_by:: perl-task-weaken
 .. |downloads_perl-task-weaken| image:: https://img.shields.io/conda/dn/bioconda/perl-task-weaken.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-task-weaken| image:: https://quay.io/repository/biocontainers/perl-task-weaken/status
    :target: https://quay.io/repository/biocontainers/perl-task-weaken
+.. _`perl-task-weaken/tags`: https://quay.io/repository/biocontainers/perl-task-weaken?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-task-weaken/README.html
-

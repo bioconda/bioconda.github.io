@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hichipper'
 .. highlight: bash
-
 
 hichipper
 =========
@@ -21,11 +22,19 @@ hichipper
 
    |downloads_hichipper| |docker_hichipper|
 
-   :versions: 0.7.0
-
-   :depends: :conda:package:`click`  :conda:package:`macs2`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`pyyaml`  
-
-   :required~by: |required_by_hichipper|
+   :versions: 0.7.0-1, 0.7.0-0
+   
+   :depends click: 
+   
+   :depends macs2: 
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends pyyaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ hichipper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hichipper
+      docker pull quay.io/repository/biocontainers/hichipper:<tag>
+
+   (see `hichipper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hichipper| conda:required_by:: hichipper
 .. |downloads_hichipper| image:: https://img.shields.io/conda/dn/bioconda/hichipper.svg?style=flat
    :alt:   (downloads)
 .. |docker_hichipper| image:: https://quay.io/repository/biocontainers/hichipper/status
    :target: https://quay.io/repository/biocontainers/hichipper
+.. _`hichipper/tags`: https://quay.io/repository/biocontainers/hichipper?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hichipper/README.html
-

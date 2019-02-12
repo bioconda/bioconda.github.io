@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rontotools'
 .. highlight: bash
-
 
 bioconductor-rontotools
 =======================
@@ -22,11 +23,21 @@ bioconductor-rontotools
 
    |downloads_bioconductor-rontotools| |docker_bioconductor-rontotools|
 
-   :versions: 2.10.0, 2.8.0, 2.6.0, 2.4.0
-
-   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-kegggraph` >=1.42.0,<1.43.0 :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-boot`  
-
-   :required~by: |required_by_bioconductor-rontotools|
+   :versions: 2.10.0-0, 2.8.0-0, 2.6.0-0, 2.4.0-0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-kegggraph: >=1.42.0,<1.43.0
+   
+   :depends bioconductor-keggrest: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-boot: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-rontotools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rontotools
+      docker pull quay.io/repository/biocontainers/bioconductor-rontotools:<tag>
+
+   (see `bioconductor-rontotools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rontotools| conda:required_by:: bioconductor-rontotools
 .. |downloads_bioconductor-rontotools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rontotools.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rontotools| image:: https://quay.io/repository/biocontainers/bioconductor-rontotools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rontotools
+.. _`bioconductor-rontotools/tags`: https://quay.io/repository/biocontainers/bioconductor-rontotools?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rontotools/README.html
-

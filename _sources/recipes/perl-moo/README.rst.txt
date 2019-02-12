@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-moo'
 .. highlight: bash
-
 
 perl-moo
 ========
@@ -21,11 +22,25 @@ perl-moo
 
    |downloads_perl-moo| |docker_perl-moo|
 
-   :versions: 2.003004, 2.001000, 2.000002
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-class-method-modifiers`  :conda:package:`perl-devel-globaldestruction`  :conda:package:`perl-exporter`  :conda:package:`perl-module-runtime`  :conda:package:`perl-moose`  :conda:package:`perl-role-tiny`  :conda:package:`perl-sub-quote`  
-
-   :required~by: |required_by_perl-moo|
+   :versions: 2.003004-0, 2.001000-2, 2.001000-1, 2.001000-0, 2.000002-1, 2.000002-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-class-method-modifiers: 
+   
+   :depends perl-devel-globaldestruction: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-module-runtime: 
+   
+   :depends perl-moose: 
+   
+   :depends perl-role-tiny: 
+   
+   :depends perl-sub-quote: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ perl-moo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moo
+      docker pull quay.io/repository/biocontainers/perl-moo:<tag>
+
+   (see `perl-moo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-moo| conda:required_by:: perl-moo
 .. |downloads_perl-moo| image:: https://img.shields.io/conda/dn/bioconda/perl-moo.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-moo| image:: https://quay.io/repository/biocontainers/perl-moo/status
    :target: https://quay.io/repository/biocontainers/perl-moo
+.. _`perl-moo/tags`: https://quay.io/repository/biocontainers/perl-moo?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-moo/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ucsc-crtreeindexbed'
 .. highlight: bash
-
 
 ucsc-crtreeindexbed
 ===================
@@ -21,11 +22,21 @@ ucsc-crtreeindexbed
 
    |downloads_ucsc-crtreeindexbed| |docker_ucsc-crtreeindexbed|
 
-   :versions: 366, 357, 332, 324
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_ucsc-crtreeindexbed|
+   :versions: 366-0, 357-2, 357-1, 357-0, 332-0, 324-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libpng: >=1.6.34,<1.7.0a0
+   
+   :depends libuuid: 
+   
+   :depends mysql-connector-c: 
+   
+   :depends openssl: >=1.0.2o,<1.0.3a
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ ucsc-crtreeindexbed
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-crtreeindexbed
+      docker pull quay.io/repository/biocontainers/ucsc-crtreeindexbed:<tag>
+
+   (see `ucsc-crtreeindexbed/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ucsc-crtreeindexbed| conda:required_by:: ucsc-crtreeindexbed
 .. |downloads_ucsc-crtreeindexbed| image:: https://img.shields.io/conda/dn/bioconda/ucsc-crtreeindexbed.svg?style=flat
    :alt:   (downloads)
 .. |docker_ucsc-crtreeindexbed| image:: https://quay.io/repository/biocontainers/ucsc-crtreeindexbed/status
    :target: https://quay.io/repository/biocontainers/ucsc-crtreeindexbed
+.. _`ucsc-crtreeindexbed/tags`: https://quay.io/repository/biocontainers/ucsc-crtreeindexbed?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ucsc-crtreeindexbed/README.html
-

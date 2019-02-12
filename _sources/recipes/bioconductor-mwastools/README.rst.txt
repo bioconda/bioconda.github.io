@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mwastools'
 .. highlight: bash
-
 
 bioconductor-mwastools
 ======================
@@ -21,11 +22,37 @@ bioconductor-mwastools
 
    |downloads_bioconductor-mwastools| |docker_bioconductor-mwastools|
 
-   :versions: 1.6.0, 1.4.0, 1.2.0
-
-   :depends: :conda:package:`bioconductor-complexheatmap` >=1.20.0,<1.21.0 :conda:package:`bioconductor-kegggraph` >=1.42.0,<1.43.0 :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-boot`  :conda:package:`r-car`  :conda:package:`r-ggplot2`  :conda:package:`r-glm2`  :conda:package:`r-gridextra`  :conda:package:`r-igraph`  :conda:package:`r-ppcor`  :conda:package:`r-rcurl`  
-
-   :required~by: |required_by_bioconductor-mwastools|
+   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-0
+   
+   :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
+   
+   :depends bioconductor-kegggraph: >=1.42.0,<1.43.0
+   
+   :depends bioconductor-keggrest: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-boot: 
+   
+   :depends r-car: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-glm2: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-igraph: 
+   
+   :depends r-ppcor: 
+   
+   :depends r-rcurl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ bioconductor-mwastools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mwastools
+      docker pull quay.io/repository/biocontainers/bioconductor-mwastools:<tag>
+
+   (see `bioconductor-mwastools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mwastools| conda:required_by:: bioconductor-mwastools
 .. |downloads_bioconductor-mwastools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mwastools.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mwastools| image:: https://quay.io/repository/biocontainers/bioconductor-mwastools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mwastools
+.. _`bioconductor-mwastools/tags`: https://quay.io/repository/biocontainers/bioconductor-mwastools?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mwastools/README.html
-

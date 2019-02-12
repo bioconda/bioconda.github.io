@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bedtools'
 .. highlight: bash
-
 
 bedtools
 ========
@@ -22,11 +23,15 @@ bedtools
 
    |downloads_bedtools| |docker_bedtools|
 
-   :versions: 2.27.1, 2.27.0, 2.26.0, 2.26.0gx, 2.25.0, 2.24.0, 2.23.0, 2.22, 2.20.1, 2.19.1, 2.17.0, 2.16.2
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
-
-   :required~by: |required_by_bedtools|
+   :versions: 2.27.1-3, 2.27.1-2, 2.27.1-1, 2.27.1-0, 2.27.0-3, 2.27.0-2, 2.27.0-1, 2.27.0-0, 2.26.0-0, 2.26.0gx-3, 2.26.0gx-2, 2.26.0gx-1, 2.26.0gx-0, 2.25.0-5, 2.25.0-4, 2.25.0-3, 2.25.0-2, 2.25.0-1, 2.25.0-0, 2.24.0-0, 2.23.0-2, 2.23.0-1, 2.23.0-0, 2.22-2, 2.22-1, 2.22-0, 2.20.1-2, 2.20.1-1, 2.20.1-0, 2.19.1-2, 2.19.1-1, 2.19.1-0, 2.17.0-0, 2.16.2-1, 2.16.2-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bedtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bedtools
+      docker pull quay.io/repository/biocontainers/bedtools:<tag>
+
+   (see `bedtools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bedtools| conda:required_by:: bedtools
 .. |downloads_bedtools| image:: https://img.shields.io/conda/dn/bioconda/bedtools.svg?style=flat
    :alt:   (downloads)
 .. |docker_bedtools| image:: https://quay.io/repository/biocontainers/bedtools/status
    :target: https://quay.io/repository/biocontainers/bedtools
+.. _`bedtools/tags`: https://quay.io/repository/biocontainers/bedtools?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bedtools/README.html
-

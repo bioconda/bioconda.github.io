@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'scanpy-scripts'
 .. highlight: bash
-
 
 scanpy-scripts
 ==============
@@ -21,11 +22,33 @@ scanpy-scripts
 
    |downloads_scanpy-scripts| |docker_scanpy-scripts|
 
-   :versions: 0.0.4, 0.0.3, 0.0.2
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libffi` >=3.2.1,<3.3.0a0 :conda:package:`matplotlib` >=3.0.0 :conda:package:`openssl` >=1.0.2p,<1.0.3a :conda:package:`pandas` >=0.21 :conda:package:`python` >=3.6 :conda:package:`readline` >=7.0,<8.0a0 :conda:package:`scanpy` 1.3.2 :conda:package:`sqlite` >=3.26.0,<4.0a0 :conda:package:`tk` >=8.6.9,<8.7.0a0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_scanpy-scripts|
+   :versions: 0.0.4-1, 0.0.3-1, 0.0.2-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends libffi: >=3.2.1,<3.3.0a0
+   
+   :depends matplotlib: >=3.0.0
+   
+   :depends openssl: >=1.0.2p,<1.0.3a
+   
+   :depends pandas: >=0.21
+   
+   :depends python: >=3.6
+   
+   :depends readline: >=7.0,<8.0a0
+   
+   :depends scanpy: 1.3.2
+   
+   :depends sqlite: >=3.26.0,<4.0a0
+   
+   :depends tk: >=8.6.9,<8.7.0a0
+   
+   :depends xz: >=5.2.4,<5.3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ scanpy-scripts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scanpy-scripts
+      docker pull quay.io/repository/biocontainers/scanpy-scripts:<tag>
+
+   (see `scanpy-scripts/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_scanpy-scripts| conda:required_by:: scanpy-scripts
 .. |downloads_scanpy-scripts| image:: https://img.shields.io/conda/dn/bioconda/scanpy-scripts.svg?style=flat
    :alt:   (downloads)
 .. |docker_scanpy-scripts| image:: https://quay.io/repository/biocontainers/scanpy-scripts/status
    :target: https://quay.io/repository/biocontainers/scanpy-scripts
+.. _`scanpy-scripts/tags`: https://quay.io/repository/biocontainers/scanpy-scripts?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/scanpy-scripts/README.html
-

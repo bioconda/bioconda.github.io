@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-swathxtend'
 .. highlight: bash
-
 
 bioconductor-swathxtend
 =======================
@@ -22,11 +23,19 @@ bioconductor-swathxtend
 
    |downloads_bioconductor-swathxtend| |docker_bioconductor-swathxtend|
 
-   :versions: 2.4.0, 2.2.0, 2.0.0, 1.4.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-lattice`  :conda:package:`r-openxlsx`  :conda:package:`r-venndiagram`  
-
-   :required~by: |required_by_bioconductor-swathxtend|
+   :versions: 2.4.0-0, 2.2.0-0, 2.0.0-0, 1.4.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-e1071: 
+   
+   :depends r-lattice: 
+   
+   :depends r-openxlsx: 
+   
+   :depends r-venndiagram: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-swathxtend
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-swathxtend
+      docker pull quay.io/repository/biocontainers/bioconductor-swathxtend:<tag>
+
+   (see `bioconductor-swathxtend/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-swathxtend| conda:required_by:: bioconductor-swathxtend
 .. |downloads_bioconductor-swathxtend| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-swathxtend.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-swathxtend| image:: https://quay.io/repository/biocontainers/bioconductor-swathxtend/status
    :target: https://quay.io/repository/biocontainers/bioconductor-swathxtend
+.. _`bioconductor-swathxtend/tags`: https://quay.io/repository/biocontainers/bioconductor-swathxtend?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-swathxtend/README.html
-

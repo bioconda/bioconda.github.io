@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bufferedmatrix'
 .. highlight: bash
-
 
 bioconductor-bufferedmatrix
 ===========================
@@ -22,11 +23,13 @@ bioconductor-bufferedmatrix
 
    |downloads_bioconductor-bufferedmatrix| |docker_bioconductor-bufferedmatrix|
 
-   :versions: 1.46.0, 1.44.0, 1.42.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-bufferedmatrix|
+   :versions: 1.46.0-0, 1.44.0-0, 1.42.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-bufferedmatrix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bufferedmatrix
+      docker pull quay.io/repository/biocontainers/bioconductor-bufferedmatrix:<tag>
+
+   (see `bioconductor-bufferedmatrix/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bufferedmatrix| conda:required_by:: bioconductor-bufferedmatrix
 .. |downloads_bioconductor-bufferedmatrix| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bufferedmatrix.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bufferedmatrix| image:: https://quay.io/repository/biocontainers/bioconductor-bufferedmatrix/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bufferedmatrix
+.. _`bioconductor-bufferedmatrix/tags`: https://quay.io/repository/biocontainers/bioconductor-bufferedmatrix?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bufferedmatrix/README.html
-

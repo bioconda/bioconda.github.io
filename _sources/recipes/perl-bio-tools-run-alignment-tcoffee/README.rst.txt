@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bio-tools-run-alignment-tcoffee'
 .. highlight: bash
-
 
 perl-bio-tools-run-alignment-tcoffee
 ====================================
@@ -21,11 +22,15 @@ perl-bio-tools-run-alignment-tcoffee
 
    |downloads_perl-bio-tools-run-alignment-tcoffee| |docker_perl-bio-tools-run-alignment-tcoffee|
 
-   :versions: 1.7.4
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bioperl-run`  :conda:package:`t_coffee`  
-
-   :required~by: |required_by_perl-bio-tools-run-alignment-tcoffee|
+   :versions: 1.7.4-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bioperl-run: 
+   
+   :depends t_coffee: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-bio-tools-run-alignment-tcoffee
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-tools-run-alignment-tcoffee
+      docker pull quay.io/repository/biocontainers/perl-bio-tools-run-alignment-tcoffee:<tag>
+
+   (see `perl-bio-tools-run-alignment-tcoffee/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bio-tools-run-alignment-tcoffee| conda:required_by:: perl-bio-tools-run-alignment-tcoffee
 .. |downloads_perl-bio-tools-run-alignment-tcoffee| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-tools-run-alignment-tcoffee.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bio-tools-run-alignment-tcoffee| image:: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-tcoffee/status
    :target: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-tcoffee
+.. _`perl-bio-tools-run-alignment-tcoffee/tags`: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-tcoffee?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bio-tools-run-alignment-tcoffee/README.html
-

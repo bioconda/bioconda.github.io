@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'goleft'
 .. highlight: bash
-
 
 goleft
 ======
@@ -21,11 +22,11 @@ goleft
 
    |downloads_goleft| |docker_goleft|
 
-   :versions: 0.2.0, 0.1.18, 0.1.17, 0.1.16, 0.1.14, 0.1.13, 0.1.12, 0.1.11, 0.1.10, 0.1.9, 0.1.8, 0.1.6, 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.1.0
-
-   :depends: :conda:package:`samtools`  
-
-   :required~by: |required_by_goleft|
+   :versions: 0.2.0-0, 0.1.18-1, 0.1.18-0, 0.1.17-0, 0.1.16-1, 0.1.16-0, 0.1.14-0, 0.1.13-1, 0.1.12-1, 0.1.12-0, 0.1.11-0, 0.1.10-0, 0.1.9-0, 0.1.8-0, 0.1.6-0, 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ goleft
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/goleft
+      docker pull quay.io/repository/biocontainers/goleft:<tag>
+
+   (see `goleft/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_goleft| conda:required_by:: goleft
 .. |downloads_goleft| image:: https://img.shields.io/conda/dn/bioconda/goleft.svg?style=flat
    :alt:   (downloads)
 .. |docker_goleft| image:: https://quay.io/repository/biocontainers/goleft/status
    :target: https://quay.io/repository/biocontainers/goleft
+.. _`goleft/tags`: https://quay.io/repository/biocontainers/goleft?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/goleft/README.html
-

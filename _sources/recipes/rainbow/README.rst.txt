@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rainbow'
 .. highlight: bash
-
 
 rainbow
 =======
@@ -21,11 +22,13 @@ rainbow
 
    |downloads_rainbow| |docker_rainbow|
 
-   :versions: 2.0.4
-
-   :depends: :conda:package:`libgcc`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_rainbow|
+   :versions: 2.0.4-2, 2.0.4-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ rainbow
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rainbow
+      docker pull quay.io/repository/biocontainers/rainbow:<tag>
+
+   (see `rainbow/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rainbow| conda:required_by:: rainbow
 .. |downloads_rainbow| image:: https://img.shields.io/conda/dn/bioconda/rainbow.svg?style=flat
    :alt:   (downloads)
 .. |docker_rainbow| image:: https://quay.io/repository/biocontainers/rainbow/status
    :target: https://quay.io/repository/biocontainers/rainbow
+.. _`rainbow/tags`: https://quay.io/repository/biocontainers/rainbow?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rainbow/README.html
-

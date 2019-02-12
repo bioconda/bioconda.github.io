@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'catch'
 .. highlight: bash
-
 
 catch
 =====
@@ -22,11 +23,15 @@ catch
 
    |downloads_catch| |docker_catch|
 
-   :versions: 1.1.0, 1.0.0
-
-   :depends: :conda:package:`numpy` >=1.9.0 :conda:package:`python` >=3 :conda:package:`scipy` >=1.0.0 
-
-   :required~by: |required_by_catch|
+   :versions: 1.1.0-0, 1.0.0-1, 1.0.0-0
+   
+   :depends numpy: >=1.9.0
+   
+   :depends python: >=3
+   
+   :depends scipy: >=1.0.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ catch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/catch
+      docker pull quay.io/repository/biocontainers/catch:<tag>
+
+   (see `catch/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_catch| conda:required_by:: catch
 .. |downloads_catch| image:: https://img.shields.io/conda/dn/bioconda/catch.svg?style=flat
    :alt:   (downloads)
 .. |docker_catch| image:: https://quay.io/repository/biocontainers/catch/status
    :target: https://quay.io/repository/biocontainers/catch
+.. _`catch/tags`: https://quay.io/repository/biocontainers/catch?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/catch/README.html
-

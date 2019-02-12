@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rcgh'
 .. highlight: bash
-
 
 bioconductor-rcgh
 =================
@@ -22,11 +23,47 @@ bioconductor-rcgh
 
    |downloads_bioconductor-rcgh| |docker_bioconductor-rcgh|
 
-   :versions: 1.12.0, 1.10.0, 1.8.1
-
-   :depends: :conda:package:`bioconductor-acgh` >=1.60.0,<1.61.0 :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-dnacopy` >=1.56.0,<1.57.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-txdb.hsapiens.ucsc.hg18.knowngene` >=3.2.0,<3.3.0 :conda:package:`bioconductor-txdb.hsapiens.ucsc.hg19.knowngene` >=3.2.0,<3.3.0 :conda:package:`bioconductor-txdb.hsapiens.ucsc.hg38.knowngene` >=3.4.0,<3.5.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-lattice`  :conda:package:`r-mclust`  :conda:package:`r-plyr`  :conda:package:`r-shiny` >=0.11.1 
-
-   :required~by: |required_by_bioconductor-rcgh|
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.1-0
+   
+   :depends bioconductor-acgh: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-dnacopy: >=1.56.0,<1.57.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-txdb.hsapiens.ucsc.hg18.knowngene: >=3.2.0,<3.3.0
+   
+   :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: >=3.2.0,<3.3.0
+   
+   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: >=3.4.0,<3.5.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-lattice: 
+   
+   :depends r-mclust: 
+   
+   :depends r-plyr: 
+   
+   :depends r-shiny: >=0.11.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +77,16 @@ bioconductor-rcgh
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rcgh
+      docker pull quay.io/repository/biocontainers/bioconductor-rcgh:<tag>
+
+   (see `bioconductor-rcgh/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rcgh| conda:required_by:: bioconductor-rcgh
 .. |downloads_bioconductor-rcgh| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rcgh.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rcgh| image:: https://quay.io/repository/biocontainers/bioconductor-rcgh/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rcgh
+.. _`bioconductor-rcgh/tags`: https://quay.io/repository/biocontainers/bioconductor-rcgh?tab=tags
 
 
 
@@ -64,4 +103,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rcgh/README.html
-

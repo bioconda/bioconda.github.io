@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mapkldata'
 .. highlight: bash
-
 
 bioconductor-mapkldata
 ======================
@@ -21,11 +22,13 @@ bioconductor-mapkldata
 
    |downloads_bioconductor-mapkldata| |docker_bioconductor-mapkldata|
 
-   :versions: 1.14.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-mapkldata|
+   :versions: 1.14.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-mapkldata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mapkldata
+      docker pull quay.io/repository/biocontainers/bioconductor-mapkldata:<tag>
+
+   (see `bioconductor-mapkldata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mapkldata| conda:required_by:: bioconductor-mapkldata
 .. |downloads_bioconductor-mapkldata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mapkldata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mapkldata| image:: https://quay.io/repository/biocontainers/bioconductor-mapkldata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mapkldata
+.. _`bioconductor-mapkldata/tags`: https://quay.io/repository/biocontainers/bioconductor-mapkldata?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mapkldata/README.html
-

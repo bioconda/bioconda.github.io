@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-onto-perl'
 .. highlight: bash
-
 
 perl-onto-perl
 ==============
@@ -21,11 +22,19 @@ perl-onto-perl
 
    |downloads_perl-onto-perl| |docker_perl-onto-perl|
 
-   :versions: 1.45
-
-   :depends: :conda:package:`perl-date-manip`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-onto-perl|
+   :versions: 1.45-2, 1.45-1, 1.45-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-date-manip: 
+   
+   :depends perl-text-csv: 
+   
+   :depends perl-xml-parser: 
+   
+   :depends perl-xml-xpath: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-onto-perl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-onto-perl
+      docker pull quay.io/repository/biocontainers/perl-onto-perl:<tag>
+
+   (see `perl-onto-perl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-onto-perl| conda:required_by:: perl-onto-perl
 .. |downloads_perl-onto-perl| image:: https://img.shields.io/conda/dn/bioconda/perl-onto-perl.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-onto-perl| image:: https://quay.io/repository/biocontainers/perl-onto-perl/status
    :target: https://quay.io/repository/biocontainers/perl-onto-perl
+.. _`perl-onto-perl/tags`: https://quay.io/repository/biocontainers/perl-onto-perl?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-onto-perl/README.html
-

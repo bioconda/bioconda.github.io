@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-phytools'
 .. highlight: bash
-
 
 r-phytools
 ==========
@@ -21,11 +22,39 @@ r-phytools
 
    |downloads_r-phytools| |docker_r-phytools|
 
-   :versions: 0.6_60, 0.6_44
-
-   :depends: :conda:package:`r-animation`  :conda:package:`r-ape` >=4.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-clustergeneration`  :conda:package:`r-coda`  :conda:package:`r-combinat`  :conda:package:`r-expm`  :conda:package:`r-maps`  :conda:package:`r-mass`  :conda:package:`r-mnormt`  :conda:package:`r-nlme`  :conda:package:`r-numderiv`  :conda:package:`r-phangorn` >=2.3.1 :conda:package:`r-plotrix`  :conda:package:`r-scatterplot3d`  
-
-   :required~by: |required_by_r-phytools|
+   :versions: 0.6_60-1, 0.6_60-0, 0.6_44-1, 0.6_44-0
+   
+   :depends r-animation: 
+   
+   :depends r-ape: >=4.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-clustergeneration: 
+   
+   :depends r-coda: 
+   
+   :depends r-combinat: 
+   
+   :depends r-expm: 
+   
+   :depends r-maps: 
+   
+   :depends r-mass: 
+   
+   :depends r-mnormt: 
+   
+   :depends r-nlme: 
+   
+   :depends r-numderiv: 
+   
+   :depends r-phangorn: >=2.3.1
+   
+   :depends r-plotrix: 
+   
+   :depends r-scatterplot3d: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +68,16 @@ r-phytools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-phytools
+      docker pull quay.io/repository/biocontainers/r-phytools:<tag>
+
+   (see `r-phytools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-phytools| conda:required_by:: r-phytools
 .. |downloads_r-phytools| image:: https://img.shields.io/conda/dn/bioconda/r-phytools.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-phytools| image:: https://quay.io/repository/biocontainers/r-phytools/status
    :target: https://quay.io/repository/biocontainers/r-phytools
+.. _`r-phytools/tags`: https://quay.io/repository/biocontainers/r-phytools?tab=tags
 
 
 
@@ -63,4 +94,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-phytools/README.html
-

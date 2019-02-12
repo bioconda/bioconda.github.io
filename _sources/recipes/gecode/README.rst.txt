@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gecode'
 .. highlight: bash
-
 
 gecode
 ======
@@ -21,11 +22,15 @@ gecode
 
    |downloads_gecode| |docker_gecode|
 
-   :versions: 5.1.0, 5.0.0, 4.4.0
-
-   :depends: :conda:package:`gmp` 5.1* :conda:package:`libgcc`  :conda:package:`mpfr`  
-
-   :required~by: |required_by_gecode|
+   :versions: 5.1.0-1, 5.1.0-0, 5.0.0-1, 5.0.0-0, 4.4.0-2, 4.4.0-1
+   
+   :depends gmp: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends mpfr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ gecode
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gecode
+      docker pull quay.io/repository/biocontainers/gecode:<tag>
+
+   (see `gecode/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gecode| conda:required_by:: gecode
 .. |downloads_gecode| image:: https://img.shields.io/conda/dn/bioconda/gecode.svg?style=flat
    :alt:   (downloads)
 .. |docker_gecode| image:: https://quay.io/repository/biocontainers/gecode/status
    :target: https://quay.io/repository/biocontainers/gecode
+.. _`gecode/tags`: https://quay.io/repository/biocontainers/gecode?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gecode/README.html
-

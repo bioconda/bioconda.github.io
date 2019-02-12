@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nasm'
 .. highlight: bash
-
 
 nasm
 ====
@@ -21,11 +22,11 @@ nasm
 
    |downloads_nasm| |docker_nasm|
 
-   :versions: 2.11.08
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_nasm|
+   :versions: 2.11.08-0
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ nasm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nasm
+      docker pull quay.io/repository/biocontainers/nasm:<tag>
+
+   (see `nasm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nasm| conda:required_by:: nasm
 .. |downloads_nasm| image:: https://img.shields.io/conda/dn/bioconda/nasm.svg?style=flat
    :alt:   (downloads)
 .. |docker_nasm| image:: https://quay.io/repository/biocontainers/nasm/status
    :target: https://quay.io/repository/biocontainers/nasm
+.. _`nasm/tags`: https://quay.io/repository/biocontainers/nasm?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nasm/README.html
-

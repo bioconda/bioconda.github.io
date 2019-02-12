@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-deoptimr'
 .. highlight: bash
-
 
 r-deoptimr
 ==========
@@ -21,11 +22,11 @@ r-deoptimr
 
    |downloads_r-deoptimr| |docker_r-deoptimr|
 
-   :versions: 1.0_8, 1.0_6
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-deoptimr|
+   :versions: 1.0_8-0, 1.0_6-0
+   
+   :depends r-base: 3.4.1*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-deoptimr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-deoptimr
+      docker pull quay.io/repository/biocontainers/r-deoptimr:<tag>
+
+   (see `r-deoptimr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-deoptimr| conda:required_by:: r-deoptimr
 .. |downloads_r-deoptimr| image:: https://img.shields.io/conda/dn/bioconda/r-deoptimr.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-deoptimr| image:: https://quay.io/repository/biocontainers/r-deoptimr/status
    :target: https://quay.io/repository/biocontainers/r-deoptimr
+.. _`r-deoptimr/tags`: https://quay.io/repository/biocontainers/r-deoptimr?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-deoptimr/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'galaxy-ie-helpers'
 .. highlight: bash
-
 
 galaxy-ie-helpers
 =================
@@ -21,11 +22,13 @@ galaxy-ie-helpers
 
    |downloads_galaxy-ie-helpers| |docker_galaxy-ie-helpers|
 
-   :versions: 0.2.1
-
-   :depends: :conda:package:`bioblend`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_galaxy-ie-helpers|
+   :versions: 0.2.1-1, 0.2.1-0
+   
+   :depends bioblend: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ galaxy-ie-helpers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/galaxy-ie-helpers
+      docker pull quay.io/repository/biocontainers/galaxy-ie-helpers:<tag>
+
+   (see `galaxy-ie-helpers/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_galaxy-ie-helpers| conda:required_by:: galaxy-ie-helpers
 .. |downloads_galaxy-ie-helpers| image:: https://img.shields.io/conda/dn/bioconda/galaxy-ie-helpers.svg?style=flat
    :alt:   (downloads)
 .. |docker_galaxy-ie-helpers| image:: https://quay.io/repository/biocontainers/galaxy-ie-helpers/status
    :target: https://quay.io/repository/biocontainers/galaxy-ie-helpers
+.. _`galaxy-ie-helpers/tags`: https://quay.io/repository/biocontainers/galaxy-ie-helpers?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/galaxy-ie-helpers/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'semeta'
 .. highlight: bash
-
 
 semeta
 ======
@@ -24,11 +25,13 @@ semeta
 
    |downloads_semeta| |docker_semeta|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`blast`  :conda:package:`libgcc`  
-
-   :required~by: |required_by_semeta|
+   :versions: 1.0-0
+   
+   :depends blast: 
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +45,16 @@ semeta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/semeta
+      docker pull quay.io/repository/biocontainers/semeta:<tag>
+
+   (see `semeta/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_semeta| conda:required_by:: semeta
 .. |downloads_semeta| image:: https://img.shields.io/conda/dn/bioconda/semeta.svg?style=flat
    :alt:   (downloads)
 .. |docker_semeta| image:: https://quay.io/repository/biocontainers/semeta/status
    :target: https://quay.io/repository/biocontainers/semeta
+.. _`semeta/tags`: https://quay.io/repository/biocontainers/semeta?tab=tags
 
 
 
@@ -70,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/semeta/README.html
-

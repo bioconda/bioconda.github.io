@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'screamingbackpack'
 .. highlight: bash
-
 
 screamingbackpack
 =================
@@ -21,11 +22,11 @@ screamingbackpack
 
    |downloads_screamingbackpack| |docker_screamingbackpack|
 
-   :versions: 0.2.333
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_screamingbackpack|
+   :versions: 0.2.333-1, 0.2.333-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ screamingbackpack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/screamingbackpack
+      docker pull quay.io/repository/biocontainers/screamingbackpack:<tag>
+
+   (see `screamingbackpack/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_screamingbackpack| conda:required_by:: screamingbackpack
 .. |downloads_screamingbackpack| image:: https://img.shields.io/conda/dn/bioconda/screamingbackpack.svg?style=flat
    :alt:   (downloads)
 .. |docker_screamingbackpack| image:: https://quay.io/repository/biocontainers/screamingbackpack/status
    :target: https://quay.io/repository/biocontainers/screamingbackpack
+.. _`screamingbackpack/tags`: https://quay.io/repository/biocontainers/screamingbackpack?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/screamingbackpack/README.html
-

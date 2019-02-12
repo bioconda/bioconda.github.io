@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-readbackwards'
 .. highlight: bash
-
 
 perl-file-readbackwards
 =======================
@@ -21,11 +22,11 @@ perl-file-readbackwards
 
    |downloads_perl-file-readbackwards| |docker_perl-file-readbackwards|
 
-   :versions: 1.05
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-file-readbackwards|
+   :versions: 1.05-1, 1.05-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-file-readbackwards
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-readbackwards
+      docker pull quay.io/repository/biocontainers/perl-file-readbackwards:<tag>
+
+   (see `perl-file-readbackwards/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-readbackwards| conda:required_by:: perl-file-readbackwards
 .. |downloads_perl-file-readbackwards| image:: https://img.shields.io/conda/dn/bioconda/perl-file-readbackwards.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-readbackwards| image:: https://quay.io/repository/biocontainers/perl-file-readbackwards/status
    :target: https://quay.io/repository/biocontainers/perl-file-readbackwards
+.. _`perl-file-readbackwards/tags`: https://quay.io/repository/biocontainers/perl-file-readbackwards?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-readbackwards/README.html
-

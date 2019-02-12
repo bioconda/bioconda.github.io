@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'picard'
 .. highlight: bash
-
 
 picard
 ======
@@ -22,11 +23,13 @@ picard
 
    |downloads_picard| |docker_picard|
 
-   :versions: 2.18.26, 2.18.25, 2.18.23, 2.18.22, 2.18.21, 2.18.20, 2.18.17, 2.18.16, 2.18.15, 2.18.14, 2.18.13, 2.18.12, 2.18.11, 2.18.10, 2.18.9, 2.18.7, 2.18.6, 2.18.5, 2.18.4, 2.18.3, 2.18.2, 2.18.1, 2.18.0, 2.17.11, 2.17.10, 2.17.8, 2.17.6, 2.17.5, 2.17.4, 2.17.3, 2.17.2, 2.17.0, 2.16.0, 2.15.0, 2.14.1, 2.14, 2.13, 2.11.0, 2.10.6, 2.9.2, 2.9.0, 2.7.1, 2.5.0, 2.3.0, 2.0.1, 1.141, 1.139, 1.126, 1.97, 1.56
-
-   :depends: :conda:package:`openjdk` >=8 :conda:package:`python`  
-
-   :required~by: |required_by_picard|
+   :versions: 2.18.26-0, 2.18.25-0, 2.18.23-0, 2.18.22-0, 2.18.21-0, 2.18.20-0, 2.18.17-0, 2.18.16-0, 2.18.15-0, 2.18.14-0, 2.18.13-0, 2.18.12-0, 2.18.11-0, 2.18.10-0, 2.18.9-0, 2.18.7-2, 2.18.7-0, 2.18.6-0, 2.18.5-0, 2.18.4-0, 2.18.3-0, 2.18.2-0, 2.18.1-0, 2.18.0-0, 2.17.11-0, 2.17.10-0, 2.17.8-0, 2.17.6-0, 2.17.5-0, 2.17.4-0, 2.17.3-0, 2.17.2-0, 2.17.0-0, 2.16.0-0, 2.15.0-0, 2.14.1-0, 2.14-0, 2.13-1, 2.13-0, 2.11.0-0, 2.10.6-0, 2.9.2-2, 2.9.2-1, 2.9.2-0, 2.9.0-0, 2.7.1-2, 2.7.1-1, 2.7.1-0, 2.5.0-2, 2.5.0-1, 2.5.0-0, 2.3.0-0, 2.0.1-1, 2.0.1-0, 1.141-4, 1.141-3, 1.141-1, 1.141-0, 1.139-0, 1.126-5, 1.126-4, 1.126-3, 1.126-2, 1.97-0, 1.56-1, 1.56-0
+   
+   :depends openjdk: >=8
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ picard
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/picard
+      docker pull quay.io/repository/biocontainers/picard:<tag>
+
+   (see `picard/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_picard| conda:required_by:: picard
 .. |downloads_picard| image:: https://img.shields.io/conda/dn/bioconda/picard.svg?style=flat
    :alt:   (downloads)
 .. |docker_picard| image:: https://quay.io/repository/biocontainers/picard/status
    :target: https://quay.io/repository/biocontainers/picard
+.. _`picard/tags`: https://quay.io/repository/biocontainers/picard?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/picard/README.html
-

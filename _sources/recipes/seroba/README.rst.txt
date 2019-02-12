@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'seroba'
 .. highlight: bash
-
 
 seroba
 ======
@@ -24,11 +25,31 @@ seroba
 
    |downloads_seroba| |docker_seroba|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`ariba` >=2.9.1 :conda:package:`biopython` >=1.68 :conda:package:`bowtie2`  :conda:package:`cd-hit`  :conda:package:`kmc` >=3.0 :conda:package:`mummer`  :conda:package:`pyfastaq` >=3.14.0 :conda:package:`pymummer` >=0.10.2 :conda:package:`python` 3.5* :conda:package:`pyyaml` >=3.12 :conda:package:`setuptools`  
-
-   :required~by: |required_by_seroba|
+   :versions: 1.0.0-1, 1.0.0-0
+   
+   :depends ariba: >=2.9.1
+   
+   :depends biopython: >=1.68
+   
+   :depends bowtie2: 
+   
+   :depends cd-hit: 
+   
+   :depends kmc: >=3.0
+   
+   :depends mummer: 
+   
+   :depends pyfastaq: >=3.14.0
+   
+   :depends pymummer: >=0.10.2
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends pyyaml: >=3.12
+   
+   :depends setuptools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +63,16 @@ seroba
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seroba
+      docker pull quay.io/repository/biocontainers/seroba:<tag>
+
+   (see `seroba/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_seroba| conda:required_by:: seroba
 .. |downloads_seroba| image:: https://img.shields.io/conda/dn/bioconda/seroba.svg?style=flat
    :alt:   (downloads)
 .. |docker_seroba| image:: https://quay.io/repository/biocontainers/seroba/status
    :target: https://quay.io/repository/biocontainers/seroba
+.. _`seroba/tags`: https://quay.io/repository/biocontainers/seroba?tab=tags
 
 
 
@@ -66,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/seroba/README.html
-

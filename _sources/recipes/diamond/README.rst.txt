@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'diamond'
 .. highlight: bash
-
 
 diamond
 =======
@@ -22,11 +23,17 @@ diamond
 
    |downloads_diamond| |docker_diamond|
 
-   :versions: 0.9.24, 0.9.22, 0.9.21, 0.9.19, 0.9.14, 0.9.10, 0.8.36, 0.8.31, 0.8.30, 0.8.29, 0.8.28, 0.8.27, 0.8.26, 0.8.24, 0.8.22, 0.8.9, 0.7.12, 0.7.10
-
-   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_diamond|
+   :versions: 0.9.24-0, 0.9.22-0, 0.9.21-1, 0.9.19-2, 0.9.19-1, 0.9.14-2, 0.9.14-1, 0.9.14-0, 0.9.10-2, 0.9.10-1, 0.9.10-0, 0.8.36-2, 0.8.36-1, 0.8.36-0, 0.8.31-2, 0.8.31-1, 0.8.31-0, 0.8.30-2, 0.8.30-1, 0.8.30-0, 0.8.29-2, 0.8.29-1, 0.8.29-0, 0.8.28-2, 0.8.28-1, 0.8.28-0, 0.8.27-2, 0.8.27-1, 0.8.27-0, 0.8.26-2, 0.8.26-1, 0.8.26-0, 0.8.24-1, 0.8.24-0, 0.8.22-3, 0.8.22-2, 0.8.22-1, 0.8.9-1, 0.7.12-0, 0.7.10-1, 0.7.10-0
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ diamond
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/diamond
+      docker pull quay.io/repository/biocontainers/diamond:<tag>
+
+   (see `diamond/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_diamond| conda:required_by:: diamond
 .. |downloads_diamond| image:: https://img.shields.io/conda/dn/bioconda/diamond.svg?style=flat
    :alt:   (downloads)
 .. |docker_diamond| image:: https://quay.io/repository/biocontainers/diamond/status
    :target: https://quay.io/repository/biocontainers/diamond
+.. _`diamond/tags`: https://quay.io/repository/biocontainers/diamond?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/diamond/README.html
-

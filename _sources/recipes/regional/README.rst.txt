@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'regional'
 .. highlight: bash
-
 
 regional
 ========
@@ -21,11 +22,17 @@ regional
 
    |downloads_regional| |docker_regional|
 
-   :versions: 1.1.2
-
-   :depends: :conda:package:`matplotlib`  :conda:package:`numpy` !=1.13.0 :conda:package:`python`  :conda:package:`scipy`  
-
-   :required~by: |required_by_regional|
+   :versions: 1.1.2-0
+   
+   :depends matplotlib: 
+   
+   :depends numpy: !=1.13.0
+   
+   :depends python: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ regional
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/regional
+      docker pull quay.io/repository/biocontainers/regional:<tag>
+
+   (see `regional/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_regional| conda:required_by:: regional
 .. |downloads_regional| image:: https://img.shields.io/conda/dn/bioconda/regional.svg?style=flat
    :alt:   (downloads)
 .. |docker_regional| image:: https://quay.io/repository/biocontainers/regional/status
    :target: https://quay.io/repository/biocontainers/regional
+.. _`regional/tags`: https://quay.io/repository/biocontainers/regional?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/regional/README.html
-

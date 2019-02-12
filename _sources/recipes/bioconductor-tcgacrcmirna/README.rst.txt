@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-tcgacrcmirna'
 .. highlight: bash
-
 
 bioconductor-tcgacrcmirna
 =========================
@@ -21,11 +22,15 @@ bioconductor-tcgacrcmirna
 
    |downloads_bioconductor-tcgacrcmirna| |docker_bioconductor-tcgacrcmirna|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-tcgacrcmirna|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-tcgacrcmirna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tcgacrcmirna
+      docker pull quay.io/repository/biocontainers/bioconductor-tcgacrcmirna:<tag>
+
+   (see `bioconductor-tcgacrcmirna/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-tcgacrcmirna| conda:required_by:: bioconductor-tcgacrcmirna
 .. |downloads_bioconductor-tcgacrcmirna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tcgacrcmirna.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-tcgacrcmirna| image:: https://quay.io/repository/biocontainers/bioconductor-tcgacrcmirna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tcgacrcmirna
+.. _`bioconductor-tcgacrcmirna/tags`: https://quay.io/repository/biocontainers/bioconductor-tcgacrcmirna?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-tcgacrcmirna/README.html
-

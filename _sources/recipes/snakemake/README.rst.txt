@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'snakemake'
 .. highlight: bash
-
 
 snakemake
 =========
@@ -22,11 +23,39 @@ snakemake
 
    |downloads_snakemake| |docker_snakemake|
 
-   :versions: 5.4.0, 5.3.1, 5.3.0, 5.2.4, 5.2.2, 5.2.1, 5.2.0, 5.1.5, 5.1.4, 5.1.3, 5.1.2, 5.1.1, 5.0.0, 4.8.1, 4.8.0, 4.7.0, 4.6.0, 4.5.1, 4.5.0, 4.4.0, 4.3.1, 4.3.0, 4.2.0, 4.1.0, 4.0.0, 3.13.3, 3.13.2, 3.13.0, 3.12.0, 3.11.2, 3.11.1, 3.11.0, 3.10.2, 3.10.1, 3.10.0, 3.9.1, 3.9.0, 3.8.2, 3.8.1, 3.8.0, 3.7.1, 3.7.0, 3.6.1, 3.6.0, 3.5.5, 3.5.4, 3.5.3, 3.5.2, 3.5.1, 3.4.2
-
-   :depends: :conda:package:`aioeasywebdav`  :conda:package:`boto3`  :conda:package:`dropbox` >=7.2.1 :conda:package:`filechunkio` >=1.6 :conda:package:`ftputil` >=3.2 :conda:package:`google-cloud-storage`  :conda:package:`jinja2`  :conda:package:`jsonschema`  :conda:package:`networkx` >=2.0 :conda:package:`pandas`  :conda:package:`psutil`  :conda:package:`pygraphviz`  :conda:package:`pysftp` >=0.2.8 :conda:package:`python-irodsclient`  :conda:package:`snakemake-minimal` 5.4.0.* 
-
-   :required~by: |required_by_snakemake|
+   :versions: 5.4.0-0, 5.3.1-0, 5.3.0-2, 5.3.0-1, 5.2.4-1, 5.2.2-1, 5.2.1-0, 5.2.0-0, 5.1.5-0, 5.1.4-2, 5.1.4-0, 5.1.3-0, 5.1.2-0, 5.1.1-0, 5.0.0-0, 4.8.1-0, 4.8.0-0, 4.7.0-0, 4.6.0-0, 4.5.1-0, 4.5.0-0, 4.4.0-0, 4.3.1-0, 4.3.0-0, 4.2.0-0, 4.1.0-0, 4.0.0-1, 4.0.0-0, 3.13.3-0, 3.13.2-0, 3.13.0-1, 3.12.0-1, 3.11.2-1, 3.11.2-0, 3.11.1-1, 3.11.1-0, 3.11.0-1, 3.10.2-1, 3.10.1-1, 3.10.1-0, 3.10.0-0, 3.9.1-0, 3.9.0-0, 3.8.2-0, 3.8.1-0, 3.8.0-0, 3.7.1-0, 3.7.0-0, 3.6.1-0, 3.6.0-0, 3.5.5-1, 3.5.4-1, 3.5.3-1, 3.5.2-1, 3.5.1-1, 3.4.2-1
+   
+   :depends aioeasywebdav: 
+   
+   :depends boto3: 
+   
+   :depends dropbox: >=7.2.1
+   
+   :depends filechunkio: >=1.6
+   
+   :depends ftputil: >=3.2
+   
+   :depends google-cloud-storage: 
+   
+   :depends jinja2: 
+   
+   :depends jsonschema: 
+   
+   :depends networkx: >=2.0
+   
+   :depends pandas: 
+   
+   :depends psutil: 
+   
+   :depends pygraphviz: 
+   
+   :depends pysftp: >=0.2.8
+   
+   :depends python-irodsclient: 
+   
+   :depends snakemake-minimal: 5.4.0.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +69,16 @@ snakemake
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snakemake
+      docker pull quay.io/repository/biocontainers/snakemake:<tag>
+
+   (see `snakemake/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_snakemake| conda:required_by:: snakemake
 .. |downloads_snakemake| image:: https://img.shields.io/conda/dn/bioconda/snakemake.svg?style=flat
    :alt:   (downloads)
 .. |docker_snakemake| image:: https://quay.io/repository/biocontainers/snakemake/status
    :target: https://quay.io/repository/biocontainers/snakemake
+.. _`snakemake/tags`: https://quay.io/repository/biocontainers/snakemake?tab=tags
 
 
 
@@ -64,4 +95,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/snakemake/README.html
-

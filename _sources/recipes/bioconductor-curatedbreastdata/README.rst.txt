@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-curatedbreastdata'
 .. highlight: bash
-
 
 bioconductor-curatedbreastdata
 ==============================
@@ -21,11 +22,23 @@ bioconductor-curatedbreastdata
 
    |downloads_bioconductor-curatedbreastdata| |docker_bioconductor-curatedbreastdata|
 
-   :versions: 2.10.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocstyle` >=2.10.0,<2.11.0 :conda:package:`bioconductor-impute` >=1.56.0,<1.57.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-xml`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-curatedbreastdata|
+   :versions: 2.10.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocstyle: >=2.10.0,<2.11.0
+   
+   :depends bioconductor-impute: >=1.56.0,<1.57.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-xml: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-curatedbreastdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-curatedbreastdata
+      docker pull quay.io/repository/biocontainers/bioconductor-curatedbreastdata:<tag>
+
+   (see `bioconductor-curatedbreastdata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-curatedbreastdata| conda:required_by:: bioconductor-curatedbreastdata
 .. |downloads_bioconductor-curatedbreastdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-curatedbreastdata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-curatedbreastdata| image:: https://quay.io/repository/biocontainers/bioconductor-curatedbreastdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-curatedbreastdata
+.. _`bioconductor-curatedbreastdata/tags`: https://quay.io/repository/biocontainers/bioconductor-curatedbreastdata?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-curatedbreastdata/README.html
-

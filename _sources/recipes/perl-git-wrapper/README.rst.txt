@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-git-wrapper'
 .. highlight: bash
-
 
 perl-git-wrapper
 ================
@@ -21,11 +22,19 @@ perl-git-wrapper
 
    |downloads_perl-git-wrapper| |docker_perl-git-wrapper|
 
-   :versions: 0.048, 0.047
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-file-chdir`  :conda:package:`perl-file-temp`  :conda:package:`perl-ipc-cmd`  :conda:package:`perl-sort-versions`  
-
-   :required~by: |required_by_perl-git-wrapper|
+   :versions: 0.048-0, 0.047-1, 0.047-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-file-chdir: 
+   
+   :depends perl-file-temp: 
+   
+   :depends perl-ipc-cmd: 
+   
+   :depends perl-sort-versions: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-git-wrapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-git-wrapper
+      docker pull quay.io/repository/biocontainers/perl-git-wrapper:<tag>
+
+   (see `perl-git-wrapper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-git-wrapper| conda:required_by:: perl-git-wrapper
 .. |downloads_perl-git-wrapper| image:: https://img.shields.io/conda/dn/bioconda/perl-git-wrapper.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-git-wrapper| image:: https://quay.io/repository/biocontainers/perl-git-wrapper/status
    :target: https://quay.io/repository/biocontainers/perl-git-wrapper
+.. _`perl-git-wrapper/tags`: https://quay.io/repository/biocontainers/perl-git-wrapper?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-git-wrapper/README.html
-

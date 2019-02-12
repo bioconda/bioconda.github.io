@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-genometricorr'
 .. highlight: bash
-
 
 r-genometricorr
 ===============
@@ -22,11 +23,35 @@ r-genometricorr
 
    |downloads_r-genometricorr| |docker_r-genometricorr|
 
-   :versions: 1.1.17
-
-   :depends: :conda:package:`bioconductor-genomeinfodb`  :conda:package:`bioconductor-genomicfeatures`  :conda:package:`bioconductor-genomicranges`  :conda:package:`bioconductor-iranges`  :conda:package:`bioconductor-rtracklayer`  :conda:package:`bioconductor-s4vectors`  :conda:package:`bioconductor-txdb.hsapiens.ucsc.hg19.knowngene`  :conda:package:`r-base` >=3.1.0 :conda:package:`r-gdata`  :conda:package:`r-gplots`  :conda:package:`r-rcurl`  :conda:package:`r-tcltk2`  :conda:package:`xorg-libx11`  
-
-   :required~by: |required_by_r-genometricorr|
+   :versions: 1.1.17-0
+   
+   :depends bioconductor-genomeinfodb: 
+   
+   :depends bioconductor-genomicfeatures: 
+   
+   :depends bioconductor-genomicranges: 
+   
+   :depends bioconductor-iranges: 
+   
+   :depends bioconductor-rtracklayer: 
+   
+   :depends bioconductor-s4vectors: 
+   
+   :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: 
+   
+   :depends r-base: >=3.1.0
+   
+   :depends r-gdata: 
+   
+   :depends r-gplots: 
+   
+   :depends r-rcurl: 
+   
+   :depends r-tcltk2: 
+   
+   :depends xorg-libx11: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +65,16 @@ r-genometricorr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-genometricorr
+      docker pull quay.io/repository/biocontainers/r-genometricorr:<tag>
+
+   (see `r-genometricorr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-genometricorr| conda:required_by:: r-genometricorr
 .. |downloads_r-genometricorr| image:: https://img.shields.io/conda/dn/bioconda/r-genometricorr.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-genometricorr| image:: https://quay.io/repository/biocontainers/r-genometricorr/status
    :target: https://quay.io/repository/biocontainers/r-genometricorr
+.. _`r-genometricorr/tags`: https://quay.io/repository/biocontainers/r-genometricorr?tab=tags
 
 
 
@@ -64,4 +91,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-genometricorr/README.html
-

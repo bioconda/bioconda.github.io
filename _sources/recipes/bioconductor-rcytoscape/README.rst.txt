@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rcytoscape'
 .. highlight: bash
-
 
 bioconductor-rcytoscape
 =======================
@@ -22,11 +23,17 @@ bioconductor-rcytoscape
 
    |downloads_bioconductor-rcytoscape| |docker_bioconductor-rcytoscape|
 
-   :versions: 1.27.1, 1.26.0, 1.21.1
-
-   :depends: :conda:package:`bioconductor-biocgenerics`  :conda:package:`bioconductor-graph` >=1.31.0 :conda:package:`r-base` 3.4.1* :conda:package:`r-xmlrpc` >=0.2.4 
-
-   :required~by: |required_by_bioconductor-rcytoscape|
+   :versions: 1.27.1-0, 1.26.0-0, 1.21.1-0
+   
+   :depends bioconductor-biocgenerics: 
+   
+   :depends bioconductor-graph: >=1.31.0
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-xmlrpc: >=0.2.4
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-rcytoscape
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rcytoscape
+      docker pull quay.io/repository/biocontainers/bioconductor-rcytoscape:<tag>
+
+   (see `bioconductor-rcytoscape/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rcytoscape| conda:required_by:: bioconductor-rcytoscape
 .. |downloads_bioconductor-rcytoscape| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rcytoscape.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rcytoscape| image:: https://quay.io/repository/biocontainers/bioconductor-rcytoscape/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rcytoscape
+.. _`bioconductor-rcytoscape/tags`: https://quay.io/repository/biocontainers/bioconductor-rcytoscape?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rcytoscape/README.html
-

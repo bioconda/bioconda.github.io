@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'quake'
 .. highlight: bash
-
 
 quake
 =====
@@ -22,11 +23,21 @@ quake
 
    |downloads_quake| |docker_quake|
 
-   :versions: 0.3.5
-
-   :depends: :conda:package:`boost` 1.60* :conda:package:`jellyfish`  :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`r` 3.3.1* :conda:package:`r-vgam`  
-
-   :required~by: |required_by_quake|
+   :versions: 0.3.5-0
+   
+   :depends boost: 1.60*
+   
+   :depends jellyfish: 
+   
+   :depends libgcc: 
+   
+   :depends python: 2.7*
+   
+   :depends r: 3.3.1*
+   
+   :depends r-vgam: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ quake
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/quake
+      docker pull quay.io/repository/biocontainers/quake:<tag>
+
+   (see `quake/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_quake| conda:required_by:: quake
 .. |downloads_quake| image:: https://img.shields.io/conda/dn/bioconda/quake.svg?style=flat
    :alt:   (downloads)
 .. |docker_quake| image:: https://quay.io/repository/biocontainers/quake/status
    :target: https://quay.io/repository/biocontainers/quake
+.. _`quake/tags`: https://quay.io/repository/biocontainers/quake?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/quake/README.html
-

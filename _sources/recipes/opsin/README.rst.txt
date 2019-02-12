@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'opsin'
 .. highlight: bash
-
 
 opsin
 =====
@@ -21,11 +22,11 @@ opsin
 
    |downloads_opsin| |docker_opsin|
 
-   :versions: 2.1.0, 1.4.0
-
-   :depends: :conda:package:`java-jdk` >=6 
-
-   :required~by: |required_by_opsin|
+   :versions: 2.1.0-2, 2.1.0-1, 2.1.0-0, 1.4.0-2, 1.4.0-1, 1.4.0-0
+   
+   :depends java-jdk: >=6
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ opsin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/opsin
+      docker pull quay.io/repository/biocontainers/opsin:<tag>
+
+   (see `opsin/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_opsin| conda:required_by:: opsin
 .. |downloads_opsin| image:: https://img.shields.io/conda/dn/bioconda/opsin.svg?style=flat
    :alt:   (downloads)
 .. |docker_opsin| image:: https://quay.io/repository/biocontainers/opsin/status
    :target: https://quay.io/repository/biocontainers/opsin
+.. _`opsin/tags`: https://quay.io/repository/biocontainers/opsin?tab=tags
 
 
 
@@ -72,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/opsin/README.html
-

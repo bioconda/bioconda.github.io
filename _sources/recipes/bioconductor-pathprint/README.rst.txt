@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pathprint'
 .. highlight: bash
-
 
 bioconductor-pathprint
 ======================
@@ -21,11 +22,11 @@ bioconductor-pathprint
 
    |downloads_bioconductor-pathprint| |docker_bioconductor-pathprint|
 
-   :versions: 1.12.0, 1.10.4, 1.6.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-pathprint|
+   :versions: 1.12.0-0, 1.10.4-0, 1.6.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bioconductor-pathprint
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pathprint
+      docker pull quay.io/repository/biocontainers/bioconductor-pathprint:<tag>
+
+   (see `bioconductor-pathprint/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pathprint| conda:required_by:: bioconductor-pathprint
 .. |downloads_bioconductor-pathprint| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathprint.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pathprint| image:: https://quay.io/repository/biocontainers/bioconductor-pathprint/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pathprint
+.. _`bioconductor-pathprint/tags`: https://quay.io/repository/biocontainers/bioconductor-pathprint?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pathprint/README.html
-

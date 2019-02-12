@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mmdiffbamsubset'
 .. highlight: bash
-
 
 bioconductor-mmdiffbamsubset
 ============================
@@ -21,11 +22,13 @@ bioconductor-mmdiffbamsubset
 
    |downloads_bioconductor-mmdiffbamsubset| |docker_bioconductor-mmdiffbamsubset|
 
-   :versions: 1.18.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-mmdiffbamsubset|
+   :versions: 1.18.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-mmdiffbamsubset
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mmdiffbamsubset
+      docker pull quay.io/repository/biocontainers/bioconductor-mmdiffbamsubset:<tag>
+
+   (see `bioconductor-mmdiffbamsubset/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mmdiffbamsubset| conda:required_by:: bioconductor-mmdiffbamsubset
 .. |downloads_bioconductor-mmdiffbamsubset| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mmdiffbamsubset.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mmdiffbamsubset| image:: https://quay.io/repository/biocontainers/bioconductor-mmdiffbamsubset/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mmdiffbamsubset
+.. _`bioconductor-mmdiffbamsubset/tags`: https://quay.io/repository/biocontainers/bioconductor-mmdiffbamsubset?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mmdiffbamsubset/README.html
-

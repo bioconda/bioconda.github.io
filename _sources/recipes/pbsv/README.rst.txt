@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pbsv'
 .. highlight: bash
-
 
 pbsv
 ====
@@ -21,11 +22,9 @@ pbsv
 
    |downloads_pbsv| |docker_pbsv|
 
-   :versions: 2.1.1, 2.1.0, 2.0.2, 2.0.1, 2.0.0
-
-   :depends: 
-
-   :required~by: |required_by_pbsv|
+   :versions: 2.1.1-0, 2.1.0-0, 2.0.2-0, 2.0.1-0, 2.0.0-1, 2.0.0-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ pbsv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbsv
+      docker pull quay.io/repository/biocontainers/pbsv:<tag>
+
+   (see `pbsv/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pbsv| conda:required_by:: pbsv
 .. |downloads_pbsv| image:: https://img.shields.io/conda/dn/bioconda/pbsv.svg?style=flat
    :alt:   (downloads)
 .. |docker_pbsv| image:: https://quay.io/repository/biocontainers/pbsv/status
    :target: https://quay.io/repository/biocontainers/pbsv
+.. _`pbsv/tags`: https://quay.io/repository/biocontainers/pbsv?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pbsv/README.html
-

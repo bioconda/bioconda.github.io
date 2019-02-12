@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pb-dazzler'
 .. highlight: bash
-
 
 pb-dazzler
 ==========
@@ -21,11 +22,11 @@ pb-dazzler
 
    |downloads_pb-dazzler| |docker_pb-dazzler|
 
-   :versions: 0.0.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_pb-dazzler|
+   :versions: 0.0.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ pb-dazzler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pb-dazzler
+      docker pull quay.io/repository/biocontainers/pb-dazzler:<tag>
+
+   (see `pb-dazzler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pb-dazzler| conda:required_by:: pb-dazzler
 .. |downloads_pb-dazzler| image:: https://img.shields.io/conda/dn/bioconda/pb-dazzler.svg?style=flat
    :alt:   (downloads)
 .. |docker_pb-dazzler| image:: https://quay.io/repository/biocontainers/pb-dazzler/status
    :target: https://quay.io/repository/biocontainers/pb-dazzler
+.. _`pb-dazzler/tags`: https://quay.io/repository/biocontainers/pb-dazzler?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pb-dazzler/README.html
-

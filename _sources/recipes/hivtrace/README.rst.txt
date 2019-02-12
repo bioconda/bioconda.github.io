@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hivtrace'
 .. highlight: bash
-
 
 hivtrace
 ========
@@ -21,11 +22,23 @@ hivtrace
 
    |downloads_hivtrace| |docker_hivtrace|
 
-   :versions: 0.1.6
-
-   :depends: :conda:package:`biopython` >=1.58 :conda:package:`python` 3.4* :conda:package:`python-bioext` >=0.17.4 :conda:package:`python-hivclustering` >=1.2.0 :conda:package:`python-hppy` >=0.9.6 :conda:package:`python-hyphy-python` >=0.1.1 :conda:package:`tornado` >=4.3 
-
-   :required~by: |required_by_hivtrace|
+   :versions: 0.1.6-0
+   
+   :depends biopython: >=1.58
+   
+   :depends python: 3.4*
+   
+   :depends python-bioext: >=0.17.4
+   
+   :depends python-hivclustering: >=1.2.0
+   
+   :depends python-hppy: >=0.9.6
+   
+   :depends python-hyphy-python: >=0.1.1
+   
+   :depends tornado: >=4.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ hivtrace
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hivtrace
+      docker pull quay.io/repository/biocontainers/hivtrace:<tag>
+
+   (see `hivtrace/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hivtrace| conda:required_by:: hivtrace
 .. |downloads_hivtrace| image:: https://img.shields.io/conda/dn/bioconda/hivtrace.svg?style=flat
    :alt:   (downloads)
 .. |docker_hivtrace| image:: https://quay.io/repository/biocontainers/hivtrace/status
    :target: https://quay.io/repository/biocontainers/hivtrace
+.. _`hivtrace/tags`: https://quay.io/repository/biocontainers/hivtrace?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hivtrace/README.html
-

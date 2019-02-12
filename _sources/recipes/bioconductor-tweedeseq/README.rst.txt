@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-tweedeseq'
 .. highlight: bash
-
 
 bioconductor-tweedeseq
 ======================
@@ -22,11 +23,21 @@ bioconductor-tweedeseq
 
    |downloads_bioconductor-tweedeseq| |docker_bioconductor-tweedeseq|
 
-   :versions: 1.28.0, 1.26.0, 1.24.0, 1.22.0
-
-   :depends: :conda:package:`bioconductor-cqn` >=1.28.0,<1.29.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  
-
-   :required~by: |required_by_bioconductor-tweedeseq|
+   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   
+   :depends bioconductor-cqn: >=1.28.0,<1.29.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mass: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-tweedeseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tweedeseq
+      docker pull quay.io/repository/biocontainers/bioconductor-tweedeseq:<tag>
+
+   (see `bioconductor-tweedeseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-tweedeseq| conda:required_by:: bioconductor-tweedeseq
 .. |downloads_bioconductor-tweedeseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tweedeseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-tweedeseq| image:: https://quay.io/repository/biocontainers/bioconductor-tweedeseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tweedeseq
+.. _`bioconductor-tweedeseq/tags`: https://quay.io/repository/biocontainers/bioconductor-tweedeseq?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-tweedeseq/README.html
-

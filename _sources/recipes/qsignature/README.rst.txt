@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'qsignature'
 .. highlight: bash
-
 
 qsignature
 ==========
@@ -21,11 +22,11 @@ qsignature
 
    |downloads_qsignature| |docker_qsignature|
 
-   :versions: 0.1pre
-
-   :depends: 
-
-   :required~by: |required_by_qsignature|
+   :versions: 0.1pre-4, 0.1pre-3, 0.1pre-2, 0.1pre-1, 0.1pre-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ qsignature
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/qsignature
+      docker pull quay.io/repository/biocontainers/qsignature:<tag>
+
+   (see `qsignature/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_qsignature| conda:required_by:: qsignature
 .. |downloads_qsignature| image:: https://img.shields.io/conda/dn/bioconda/qsignature.svg?style=flat
    :alt:   (downloads)
 .. |docker_qsignature| image:: https://quay.io/repository/biocontainers/qsignature/status
    :target: https://quay.io/repository/biocontainers/qsignature
+.. _`qsignature/tags`: https://quay.io/repository/biocontainers/qsignature?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/qsignature/README.html
-

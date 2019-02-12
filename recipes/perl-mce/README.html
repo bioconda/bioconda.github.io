@@ -131,11 +131,28 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">1.837, 1.836, 1.835, 1.814</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">1.837-0, 1.836-0, 1.835-1, 1.835-0, 1.814-1, 1.814-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference external" href="https://github.com/conda-forge/perl-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl</span></code></a> &gt;=5.26.2,&lt;5.26.3.0a0 <code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-base</span></code>  <a class="reference internal" href="../perl-carp/README.html#package-perl-carp" title="perl-carp package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-carp</span></code></a>  <a class="reference internal" href="../perl-constant/README.html#package-perl-constant" title="perl-constant package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-constant</span></code></a>  <a class="reference internal" href="../perl-file-path/README.html#package-perl-file-path" title="perl-file-path package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-file-path</span></code></a>  <a class="reference internal" href="../perl-getopt-long/README.html#package-perl-getopt-long" title="perl-getopt-long package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-getopt-long</span></code></a>  <a class="reference internal" href="../perl-socket/README.html#package-perl-socket" title="perl-socket package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-socket</span></code></a>  <a class="reference internal" href="../perl-storable/README.html#package-perl-storable" title="perl-storable package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-storable</span></code></a>  <a class="reference internal" href="../perl-time-hires/README.html#package-perl-time-hires" title="perl-time-hires package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-time-hires</span></code></a></td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</li>
+<li><strong>perl-base</strong></li>
+<li><a class="conda-package reference internal" href="../perl-carp/README.html#package-perl-carp" title="perl-carp package"><strong>perl-carp</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-constant/README.html#package-perl-constant" title="perl-constant package"><strong>perl-constant</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-file-path/README.html#package-perl-file-path" title="perl-file-path package"><strong>perl-file-path</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-getopt-long/README.html#package-perl-getopt-long" title="perl-getopt-long package"><strong>perl-getopt-long</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-socket/README.html#package-perl-socket" title="perl-socket package"><strong>perl-socket</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-storable/README.html#package-perl-storable" title="perl-storable package"><strong>perl-storable</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-time-hires/README.html#package-perl-time-hires" title="perl-time-hires package"><strong>perl-time-hires</strong></a></li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+<li><a class="conda-package reference internal" href="../perl-mce-shared/README.html#perl-mce-shared"><strong class="xref backref">perl-mce-shared</strong></a></li>
+<li><a class="conda-package reference internal" href="../perl-hpc-runner-command/README.html#perl-hpc-runner-command"><strong class="xref backref">perl-hpc-runner-command</strong></a></li>
+<li><a class="conda-package reference internal" href="../mtbseq/README.html#mtbseq"><strong class="xref backref">mtbseq</strong></a></li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -149,9 +166,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">perl</span><span class="o">-</span><span class="n">mce</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">perl</span><span class="o">-</span><span class="n">mce</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/perl-mce?tab=tags">perl-mce/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'galaxy-ops'
 .. highlight: bash
-
 
 galaxy-ops
 ==========
@@ -21,11 +22,13 @@ galaxy-ops
 
    |downloads_galaxy-ops| |docker_galaxy-ops|
 
-   :versions: 1.1.0, 1.0.0
-
-   :depends: :conda:package:`bx-python`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_galaxy-ops|
+   :versions: 1.1.0-1, 1.1.0-0, 1.0.0-0
+   
+   :depends bx-python: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ galaxy-ops
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/galaxy-ops
+      docker pull quay.io/repository/biocontainers/galaxy-ops:<tag>
+
+   (see `galaxy-ops/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_galaxy-ops| conda:required_by:: galaxy-ops
 .. |downloads_galaxy-ops| image:: https://img.shields.io/conda/dn/bioconda/galaxy-ops.svg?style=flat
    :alt:   (downloads)
 .. |docker_galaxy-ops| image:: https://quay.io/repository/biocontainers/galaxy-ops/status
    :target: https://quay.io/repository/biocontainers/galaxy-ops
+.. _`galaxy-ops/tags`: https://quay.io/repository/biocontainers/galaxy-ops?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/galaxy-ops/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'recon'
 .. highlight: bash
-
 
 recon
 =====
@@ -21,11 +22,11 @@ recon
 
    |downloads_recon| |docker_recon|
 
-   :versions: 1.08
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_recon|
+   :versions: 1.08-1, 1.08-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ recon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/recon
+      docker pull quay.io/repository/biocontainers/recon:<tag>
+
+   (see `recon/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_recon| conda:required_by:: recon
 .. |downloads_recon| image:: https://img.shields.io/conda/dn/bioconda/recon.svg?style=flat
    :alt:   (downloads)
 .. |docker_recon| image:: https://quay.io/repository/biocontainers/recon/status
    :target: https://quay.io/repository/biocontainers/recon
+.. _`recon/tags`: https://quay.io/repository/biocontainers/recon?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/recon/README.html
-

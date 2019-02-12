@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-perlio-utf8_strict'
 .. highlight: bash
-
 
 perl-perlio-utf8_strict
 =======================
@@ -21,11 +22,15 @@ perl-perlio-utf8_strict
 
    |downloads_perl-perlio-utf8_strict| |docker_perl-perlio-utf8_strict|
 
-   :versions: 0.007, 0.006
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-xsloader`  
-
-   :required~by: |required_by_perl-perlio-utf8_strict|
+   :versions: 0.007-0, 0.006-1, 0.006-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-xsloader: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-perlio-utf8_strict
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-perlio-utf8_strict
+      docker pull quay.io/repository/biocontainers/perl-perlio-utf8_strict:<tag>
+
+   (see `perl-perlio-utf8_strict/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-perlio-utf8_strict| conda:required_by:: perl-perlio-utf8_strict
 .. |downloads_perl-perlio-utf8_strict| image:: https://img.shields.io/conda/dn/bioconda/perl-perlio-utf8_strict.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-perlio-utf8_strict| image:: https://quay.io/repository/biocontainers/perl-perlio-utf8_strict/status
    :target: https://quay.io/repository/biocontainers/perl-perlio-utf8_strict
+.. _`perl-perlio-utf8_strict/tags`: https://quay.io/repository/biocontainers/perl-perlio-utf8_strict?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-perlio-utf8_strict/README.html
-

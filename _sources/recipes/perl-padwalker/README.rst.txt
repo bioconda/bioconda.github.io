@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-padwalker'
 .. highlight: bash
-
 
 perl-padwalker
 ==============
@@ -21,11 +22,13 @@ perl-padwalker
 
    |downloads_perl-padwalker| |docker_perl-padwalker|
 
-   :versions: 2.3
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-padwalker|
+   :versions: 2.3-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-padwalker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-padwalker
+      docker pull quay.io/repository/biocontainers/perl-padwalker:<tag>
+
+   (see `perl-padwalker/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-padwalker| conda:required_by:: perl-padwalker
 .. |downloads_perl-padwalker| image:: https://img.shields.io/conda/dn/bioconda/perl-padwalker.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-padwalker| image:: https://quay.io/repository/biocontainers/perl-padwalker/status
    :target: https://quay.io/repository/biocontainers/perl-padwalker
+.. _`perl-padwalker/tags`: https://quay.io/repository/biocontainers/perl-padwalker?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-padwalker/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-epic'
 .. highlight: bash
-
 
 r-epic
 ======
@@ -22,11 +23,11 @@ r-epic
 
    |downloads_r-epic| |docker_r-epic|
 
-   :versions: 1.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-epic|
+   :versions: 1.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ r-epic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-epic
+      docker pull quay.io/repository/biocontainers/r-epic:<tag>
+
+   (see `r-epic/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-epic| conda:required_by:: r-epic
 .. |downloads_r-epic| image:: https://img.shields.io/conda/dn/bioconda/r-epic.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-epic| image:: https://quay.io/repository/biocontainers/r-epic/status
    :target: https://quay.io/repository/biocontainers/r-epic
+.. _`r-epic/tags`: https://quay.io/repository/biocontainers/r-epic?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-epic/README.html
-

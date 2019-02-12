@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'wtforms-alchemy'
 .. highlight: bash
-
 
 wtforms-alchemy
 ===============
@@ -21,11 +22,21 @@ wtforms-alchemy
 
    |downloads_wtforms-alchemy| |docker_wtforms-alchemy|
 
-   :versions: 0.16.8, 0.16.7, 0.15.0
-
-   :depends: :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`six` >=1.4.1 :conda:package:`sqlalchemy` >=0.8.0 :conda:package:`sqlalchemy-utils` >=0.30.0 :conda:package:`wtforms` >=1.0.4 :conda:package:`wtforms-components` >=0.9.2 
-
-   :required~by: |required_by_wtforms-alchemy|
+   :versions: 0.16.8-0, 0.16.7-0, 0.15.0-1, 0.15.0-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends six: >=1.4.1
+   
+   :depends sqlalchemy: >=0.8.0
+   
+   :depends sqlalchemy-utils: >=0.30.0
+   
+   :depends wtforms: >=1.0.4
+   
+   :depends wtforms-components: >=0.9.2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ wtforms-alchemy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wtforms-alchemy
+      docker pull quay.io/repository/biocontainers/wtforms-alchemy:<tag>
+
+   (see `wtforms-alchemy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_wtforms-alchemy| conda:required_by:: wtforms-alchemy
 .. |downloads_wtforms-alchemy| image:: https://img.shields.io/conda/dn/bioconda/wtforms-alchemy.svg?style=flat
    :alt:   (downloads)
 .. |docker_wtforms-alchemy| image:: https://quay.io/repository/biocontainers/wtforms-alchemy/status
    :target: https://quay.io/repository/biocontainers/wtforms-alchemy
+.. _`wtforms-alchemy/tags`: https://quay.io/repository/biocontainers/wtforms-alchemy?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/wtforms-alchemy/README.html
-

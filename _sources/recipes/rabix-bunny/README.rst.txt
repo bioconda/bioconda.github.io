@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rabix-bunny'
 .. highlight: bash
-
 
 rabix-bunny
 ===========
@@ -21,11 +22,11 @@ rabix-bunny
 
    |downloads_rabix-bunny| |docker_rabix-bunny|
 
-   :versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0rc5, 1.0.0rc4
-
-   :depends: :conda:package:`openjdk` >=8,<9 
-
-   :required~by: |required_by_rabix-bunny|
+   :versions: 1.0.4-6, 1.0.4-5, 1.0.4-0, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.1-2, 1.0.1-1, 1.0.1-0, 1.0.0rc5-1, 1.0.0rc5-0, 1.0.0rc4-0
+   
+   :depends openjdk: >=8,<9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ rabix-bunny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rabix-bunny
+      docker pull quay.io/repository/biocontainers/rabix-bunny:<tag>
+
+   (see `rabix-bunny/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rabix-bunny| conda:required_by:: rabix-bunny
 .. |downloads_rabix-bunny| image:: https://img.shields.io/conda/dn/bioconda/rabix-bunny.svg?style=flat
    :alt:   (downloads)
 .. |docker_rabix-bunny| image:: https://quay.io/repository/biocontainers/rabix-bunny/status
    :target: https://quay.io/repository/biocontainers/rabix-bunny
+.. _`rabix-bunny/tags`: https://quay.io/repository/biocontainers/rabix-bunny?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rabix-bunny/README.html
-

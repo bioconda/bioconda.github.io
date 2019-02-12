@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pathostat'
 .. highlight: bash
-
 
 bioconductor-pathostat
 ======================
@@ -22,11 +23,69 @@ bioconductor-pathostat
 
    |downloads_bioconductor-pathostat| |docker_bioconductor-pathostat|
 
-   :versions: 1.8.4, 1.6.1, 1.4.1
-
-   :depends: :conda:package:`bioconductor-biocstyle` >=2.10.0,<2.11.0 :conda:package:`bioconductor-complexheatmap` >=1.20.0,<1.21.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-phyloseq` >=1.26.0,<1.27.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  :conda:package:`r-devtools`  :conda:package:`r-dplyr`  :conda:package:`r-dt`  :conda:package:`r-ggplot2`  :conda:package:`r-glmnet`  :conda:package:`r-gmodels`  :conda:package:`r-knitr`  :conda:package:`r-matrixstats`  :conda:package:`r-plotly`  :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rentrez`  :conda:package:`r-reshape2`  :conda:package:`r-rocr`  :conda:package:`r-scales`  :conda:package:`r-shiny`  :conda:package:`r-shinyjs`  :conda:package:`r-tidyr`  :conda:package:`r-vegan`  :conda:package:`r-webshot`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-pathostat|
+   :versions: 1.8.4-0, 1.6.1-0, 1.4.1-0
+   
+   :depends bioconductor-biocstyle: >=2.10.0,<2.11.0
+   
+   :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-phyloseq: >=1.26.0,<1.27.0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-corpcor: 
+   
+   :depends r-devtools: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-dt: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-glmnet: 
+   
+   :depends r-gmodels: 
+   
+   :depends r-knitr: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-plotly: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rentrez: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-rocr: 
+   
+   :depends r-scales: 
+   
+   :depends r-shiny: 
+   
+   :depends r-shinyjs: 
+   
+   :depends r-tidyr: 
+   
+   :depends r-vegan: 
+   
+   :depends r-webshot: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +99,16 @@ bioconductor-pathostat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pathostat
+      docker pull quay.io/repository/biocontainers/bioconductor-pathostat:<tag>
+
+   (see `bioconductor-pathostat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pathostat| conda:required_by:: bioconductor-pathostat
 .. |downloads_bioconductor-pathostat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathostat.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pathostat| image:: https://quay.io/repository/biocontainers/bioconductor-pathostat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pathostat
+.. _`bioconductor-pathostat/tags`: https://quay.io/repository/biocontainers/bioconductor-pathostat?tab=tags
 
 
 
@@ -64,4 +125,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pathostat/README.html
-

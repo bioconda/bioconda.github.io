@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'krona'
 .. highlight: bash
-
 
 krona
 =====
@@ -22,11 +23,11 @@ krona
 
    |downloads_krona| |docker_krona|
 
-   :versions: 2.7, 2.6.1, 2.6, 2.5
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_krona|
+   :versions: 2.7-2, 2.7-1, 2.7-0, 2.6.1-2, 2.6.1-1, 2.6-5, 2.6-4, 2.6-3, 2.6-2, 2.6-1, 2.6-0, 2.5-5, 2.5-4, 2.5-3, 2.5-2, 2.5-1, 2.5-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ krona
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/krona
+      docker pull quay.io/repository/biocontainers/krona:<tag>
+
+   (see `krona/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_krona| conda:required_by:: krona
 .. |downloads_krona| image:: https://img.shields.io/conda/dn/bioconda/krona.svg?style=flat
    :alt:   (downloads)
 .. |docker_krona| image:: https://quay.io/repository/biocontainers/krona/status
    :target: https://quay.io/repository/biocontainers/krona
+.. _`krona/tags`: https://quay.io/repository/biocontainers/krona?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/krona/README.html
-

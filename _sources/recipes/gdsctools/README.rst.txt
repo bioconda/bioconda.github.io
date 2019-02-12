@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gdsctools'
 .. highlight: bash
-
 
 gdsctools
 =========
@@ -21,11 +22,41 @@ gdsctools
 
    |downloads_gdsctools| |docker_gdsctools|
 
-   :versions: 0.20.1, 0.19.0
-
-   :depends: :conda:package:`biokit` ==0.4.1 :conda:package:`colorlog`  :conda:package:`colormap` ==1.0.1 :conda:package:`easydev` >=0.9.34 :conda:package:`jinja2`  :conda:package:`matplotlib` >=1.4.3 :conda:package:`numexpr`  :conda:package:`numpy`  :conda:package:`pandas` ==0.20.1 :conda:package:`python` 3.5* :conda:package:`reports` >=0.3.1 :conda:package:`reports` >=0.3.1 :conda:package:`scikit-learn` ==0.18.2 :conda:package:`scipy` ==0.19.1 :conda:package:`statsmodels` ==0.8.0 :conda:package:`xlrd`  
-
-   :required~by: |required_by_gdsctools|
+   :versions: 0.20.1-0, 0.19.0-0
+   
+   :depends biokit: ==0.4.1
+   
+   :depends colorlog: 
+   
+   :depends colormap: ==1.0.1
+   
+   :depends easydev: >=0.9.34
+   
+   :depends jinja2: 
+   
+   :depends matplotlib: >=1.4.3
+   
+   :depends numexpr: 
+   
+   :depends numpy: 
+   
+   :depends pandas: ==0.20.1
+   
+   :depends python: 3.5*
+   
+   :depends reports: >=0.3.1
+   
+   :depends reports: >=0.3.1
+   
+   :depends scikit-learn: ==0.18.2
+   
+   :depends scipy: ==0.19.1
+   
+   :depends statsmodels: ==0.8.0
+   
+   :depends xlrd: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ gdsctools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gdsctools
+      docker pull quay.io/repository/biocontainers/gdsctools:<tag>
+
+   (see `gdsctools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gdsctools| conda:required_by:: gdsctools
 .. |downloads_gdsctools| image:: https://img.shields.io/conda/dn/bioconda/gdsctools.svg?style=flat
    :alt:   (downloads)
 .. |docker_gdsctools| image:: https://quay.io/repository/biocontainers/gdsctools/status
    :target: https://quay.io/repository/biocontainers/gdsctools
+.. _`gdsctools/tags`: https://quay.io/repository/biocontainers/gdsctools?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gdsctools/README.html
-

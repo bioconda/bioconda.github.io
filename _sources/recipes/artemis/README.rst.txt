@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'artemis'
 .. highlight: bash
-
 
 artemis
 =======
@@ -22,11 +23,11 @@ artemis
 
    |downloads_artemis| |docker_artemis|
 
-   :versions: 18.0.2, 18.0.1
-
-   :depends: :conda:package:`openjdk` >=9 
-
-   :required~by: |required_by_artemis|
+   :versions: 18.0.2-0, 18.0.1-0
+   
+   :depends openjdk: >=9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ artemis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/artemis
+      docker pull quay.io/repository/biocontainers/artemis:<tag>
+
+   (see `artemis/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_artemis| conda:required_by:: artemis
 .. |downloads_artemis| image:: https://img.shields.io/conda/dn/bioconda/artemis.svg?style=flat
    :alt:   (downloads)
 .. |docker_artemis| image:: https://quay.io/repository/biocontainers/artemis/status
    :target: https://quay.io/repository/biocontainers/artemis
+.. _`artemis/tags`: https://quay.io/repository/biocontainers/artemis?tab=tags
 
 
 
@@ -68,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/artemis/README.html
-

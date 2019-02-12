@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-socket'
 .. highlight: bash
-
 
 perl-socket
 ===========
@@ -21,11 +22,11 @@ perl-socket
 
    |downloads_perl-socket| |docker_perl-socket|
 
-   :versions: 2.027
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-socket|
+   :versions: 2.027-1, 2.027-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-socket
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-socket
+      docker pull quay.io/repository/biocontainers/perl-socket:<tag>
+
+   (see `perl-socket/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-socket| conda:required_by:: perl-socket
 .. |downloads_perl-socket| image:: https://img.shields.io/conda/dn/bioconda/perl-socket.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-socket| image:: https://quay.io/repository/biocontainers/perl-socket/status
    :target: https://quay.io/repository/biocontainers/perl-socket
+.. _`perl-socket/tags`: https://quay.io/repository/biocontainers/perl-socket?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-socket/README.html
-

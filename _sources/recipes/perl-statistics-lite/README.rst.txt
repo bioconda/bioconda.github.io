@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-statistics-lite'
 .. highlight: bash
-
 
 perl-statistics-lite
 ====================
@@ -21,11 +22,11 @@ perl-statistics-lite
 
    |downloads_perl-statistics-lite| |docker_perl-statistics-lite|
 
-   :versions: 3.62
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-statistics-lite|
+   :versions: 3.62-1, 3.62-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-statistics-lite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-statistics-lite
+      docker pull quay.io/repository/biocontainers/perl-statistics-lite:<tag>
+
+   (see `perl-statistics-lite/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-statistics-lite| conda:required_by:: perl-statistics-lite
 .. |downloads_perl-statistics-lite| image:: https://img.shields.io/conda/dn/bioconda/perl-statistics-lite.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-statistics-lite| image:: https://quay.io/repository/biocontainers/perl-statistics-lite/status
    :target: https://quay.io/repository/biocontainers/perl-statistics-lite
+.. _`perl-statistics-lite/tags`: https://quay.io/repository/biocontainers/perl-statistics-lite?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-statistics-lite/README.html
-

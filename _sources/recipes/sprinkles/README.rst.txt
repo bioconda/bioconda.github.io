@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sprinkles'
 .. highlight: bash
-
 
 sprinkles
 =========
@@ -21,11 +22,11 @@ sprinkles
 
    |downloads_sprinkles| |docker_sprinkles|
 
-   :versions: 0.4.6
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_sprinkles|
+   :versions: 0.4.6-1, 0.4.6-0
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ sprinkles
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sprinkles
+      docker pull quay.io/repository/biocontainers/sprinkles:<tag>
+
+   (see `sprinkles/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sprinkles| conda:required_by:: sprinkles
 .. |downloads_sprinkles| image:: https://img.shields.io/conda/dn/bioconda/sprinkles.svg?style=flat
    :alt:   (downloads)
 .. |docker_sprinkles| image:: https://quay.io/repository/biocontainers/sprinkles/status
    :target: https://quay.io/repository/biocontainers/sprinkles
+.. _`sprinkles/tags`: https://quay.io/repository/biocontainers/sprinkles?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sprinkles/README.html
-

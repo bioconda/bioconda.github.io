@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'duphold'
 .. highlight: bash
-
 
 duphold
 =======
@@ -21,11 +22,13 @@ duphold
 
    |downloads_duphold| |docker_duphold|
 
-   :versions: 0.1.1, 0.1.0, 0.0.9, 0.0.6, 0.0.3, 0.0.2
-
-   :depends: :conda:package:`htslib`  :conda:package:`pcre`  
-
-   :required~by: |required_by_duphold|
+   :versions: 0.1.1-0, 0.1.0-0, 0.0.9-0, 0.0.6-0, 0.0.3-0, 0.0.2-0
+   
+   :depends htslib: 
+   
+   :depends pcre: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ duphold
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/duphold
+      docker pull quay.io/repository/biocontainers/duphold:<tag>
+
+   (see `duphold/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_duphold| conda:required_by:: duphold
 .. |downloads_duphold| image:: https://img.shields.io/conda/dn/bioconda/duphold.svg?style=flat
    :alt:   (downloads)
 .. |docker_duphold| image:: https://quay.io/repository/biocontainers/duphold/status
    :target: https://quay.io/repository/biocontainers/duphold
+.. _`duphold/tags`: https://quay.io/repository/biocontainers/duphold?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/duphold/README.html
-

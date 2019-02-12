@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'peakzilla'
 .. highlight: bash
-
 
 peakzilla
 =========
@@ -22,11 +23,11 @@ peakzilla
 
    |downloads_peakzilla| |docker_peakzilla|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_peakzilla|
+   :versions: 1.0-2, 1.0-1, 1.0-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ peakzilla
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/peakzilla
+      docker pull quay.io/repository/biocontainers/peakzilla:<tag>
+
+   (see `peakzilla/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_peakzilla| conda:required_by:: peakzilla
 .. |downloads_peakzilla| image:: https://img.shields.io/conda/dn/bioconda/peakzilla.svg?style=flat
    :alt:   (downloads)
 .. |docker_peakzilla| image:: https://quay.io/repository/biocontainers/peakzilla/status
    :target: https://quay.io/repository/biocontainers/peakzilla
+.. _`peakzilla/tags`: https://quay.io/repository/biocontainers/peakzilla?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/peakzilla/README.html
-

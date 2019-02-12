@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-parallel-loops'
 .. highlight: bash
-
 
 perl-parallel-loops
 ===================
@@ -21,11 +22,13 @@ perl-parallel-loops
 
    |downloads_perl-parallel-loops| |docker_perl-parallel-loops|
 
-   :versions: 0.10, 0.08
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-parallel-forkmanager`  
-
-   :required~by: |required_by_perl-parallel-loops|
+   :versions: 0.10-0, 0.08-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-parallel-forkmanager: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-parallel-loops
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-parallel-loops
+      docker pull quay.io/repository/biocontainers/perl-parallel-loops:<tag>
+
+   (see `perl-parallel-loops/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-parallel-loops| conda:required_by:: perl-parallel-loops
 .. |downloads_perl-parallel-loops| image:: https://img.shields.io/conda/dn/bioconda/perl-parallel-loops.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-parallel-loops| image:: https://quay.io/repository/biocontainers/perl-parallel-loops/status
    :target: https://quay.io/repository/biocontainers/perl-parallel-loops
+.. _`perl-parallel-loops/tags`: https://quay.io/repository/biocontainers/perl-parallel-loops?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-parallel-loops/README.html
-

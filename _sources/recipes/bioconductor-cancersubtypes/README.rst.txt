@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cancersubtypes'
 .. highlight: bash
-
 
 bioconductor-cancersubtypes
 ===========================
@@ -22,11 +23,29 @@ bioconductor-cancersubtypes
 
    |downloads_bioconductor-cancersubtypes| |docker_bioconductor-cancersubtypes|
 
-   :versions: 1.8.0, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`bioconductor-consensusclusterplus` >=1.46.0,<1.47.0 :conda:package:`bioconductor-impute` >=1.56.0,<1.57.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-icluster`  :conda:package:`r-nmf`  :conda:package:`r-sigclust`  :conda:package:`r-snftool`  :conda:package:`r-survival`  
-
-   :required~by: |required_by_bioconductor-cancersubtypes|
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0
+   
+   :depends bioconductor-consensusclusterplus: >=1.46.0,<1.47.0
+   
+   :depends bioconductor-impute: >=1.56.0,<1.57.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :depends r-icluster: 
+   
+   :depends r-nmf: 
+   
+   :depends r-sigclust: 
+   
+   :depends r-snftool: 
+   
+   :depends r-survival: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ bioconductor-cancersubtypes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cancersubtypes
+      docker pull quay.io/repository/biocontainers/bioconductor-cancersubtypes:<tag>
+
+   (see `bioconductor-cancersubtypes/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cancersubtypes| conda:required_by:: bioconductor-cancersubtypes
 .. |downloads_bioconductor-cancersubtypes| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cancersubtypes.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cancersubtypes| image:: https://quay.io/repository/biocontainers/bioconductor-cancersubtypes/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cancersubtypes
+.. _`bioconductor-cancersubtypes/tags`: https://quay.io/repository/biocontainers/bioconductor-cancersubtypes?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cancersubtypes/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rapmap'
 .. highlight: bash
-
 
 rapmap
 ======
@@ -21,11 +22,21 @@ rapmap
 
    |downloads_rapmap| |docker_rapmap|
 
-   :versions: 0.6.0, 0.5.0, v0.2.1, v0.2.0, v0.1.0pre
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`jemalloc` >=5.1.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`tbb`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_rapmap|
+   :versions: 0.6.0-0, 0.5.0-0, v0.2.1-2, v0.2.1-1, v0.2.0-1, v0.1.0pre-3, v0.1.0pre-2, v0.1.0pre-1
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends jemalloc: >=5.1.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends tbb: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ rapmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rapmap
+      docker pull quay.io/repository/biocontainers/rapmap:<tag>
+
+   (see `rapmap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rapmap| conda:required_by:: rapmap
 .. |downloads_rapmap| image:: https://img.shields.io/conda/dn/bioconda/rapmap.svg?style=flat
    :alt:   (downloads)
 .. |docker_rapmap| image:: https://quay.io/repository/biocontainers/rapmap/status
    :target: https://quay.io/repository/biocontainers/rapmap
+.. _`rapmap/tags`: https://quay.io/repository/biocontainers/rapmap?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rapmap/README.html
-

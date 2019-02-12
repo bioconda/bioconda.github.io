@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-selex'
 .. highlight: bash
-
 
 bioconductor-selex
 ==================
@@ -22,10 +23,8 @@ bioconductor-selex
    |downloads_bioconductor-selex| |docker_bioconductor-selex|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-selex|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-selex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-selex
+      docker pull quay.io/repository/biocontainers/bioconductor-selex:<tag>
+
+   (see `bioconductor-selex/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-selex| conda:required_by:: bioconductor-selex
 .. |downloads_bioconductor-selex| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-selex.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-selex| image:: https://quay.io/repository/biocontainers/bioconductor-selex/status
    :target: https://quay.io/repository/biocontainers/bioconductor-selex
+.. _`bioconductor-selex/tags`: https://quay.io/repository/biocontainers/bioconductor-selex?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-selex/README.html
-

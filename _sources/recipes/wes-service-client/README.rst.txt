@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'wes-service-client'
 .. highlight: bash
-
 
 wes-service-client
 ==================
@@ -21,11 +22,19 @@ wes-service-client
 
    |downloads_wes-service-client| |docker_wes-service-client|
 
-   :versions: 2.7, 2.5
-
-   :depends: :conda:package:`future`  :conda:package:`python`  :conda:package:`schema-salad` >=2.6.20170927145003,<3.0 :conda:package:`setuptools`  :conda:package:`subprocess32`  
-
-   :required~by: |required_by_wes-service-client|
+   :versions: 2.7-1, 2.5-1, 2.5-0
+   
+   :depends future: 
+   
+   :depends python: 
+   
+   :depends schema-salad: >=2.6.20170927145003,<3.0
+   
+   :depends setuptools: 
+   
+   :depends subprocess32: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ wes-service-client
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wes-service-client
+      docker pull quay.io/repository/biocontainers/wes-service-client:<tag>
+
+   (see `wes-service-client/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_wes-service-client| conda:required_by:: wes-service-client
 .. |downloads_wes-service-client| image:: https://img.shields.io/conda/dn/bioconda/wes-service-client.svg?style=flat
    :alt:   (downloads)
 .. |docker_wes-service-client| image:: https://quay.io/repository/biocontainers/wes-service-client/status
    :target: https://quay.io/repository/biocontainers/wes-service-client
+.. _`wes-service-client/tags`: https://quay.io/repository/biocontainers/wes-service-client?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/wes-service-client/README.html
-

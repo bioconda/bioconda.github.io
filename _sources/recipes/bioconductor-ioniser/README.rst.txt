@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ioniser'
 .. highlight: bash
-
 
 bioconductor-ioniser
 ====================
@@ -22,11 +23,37 @@ bioconductor-ioniser
 
    |downloads_bioconductor-ioniser| |docker_bioconductor-ioniser|
 
-   :versions: 2.6.0, 2.4.0, 2.2.0
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-rhdf5` >=2.26.0,<2.27.0 :conda:package:`bioconductor-shortread` >=1.40.0,<1.41.0 :conda:package:`bioconductor-xvector` >=0.22.0,<0.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bit64`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-magrittr`  :conda:package:`r-stringr`  :conda:package:`r-tibble`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_bioconductor-ioniser|
+   :versions: 2.6.0-0, 2.4.0-0, 2.2.0-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
+   
+   :depends bioconductor-shortread: >=1.40.0,<1.41.0
+   
+   :depends bioconductor-xvector: >=0.22.0,<0.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bit64: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-stringr: 
+   
+   :depends r-tibble: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +67,16 @@ bioconductor-ioniser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ioniser
+      docker pull quay.io/repository/biocontainers/bioconductor-ioniser:<tag>
+
+   (see `bioconductor-ioniser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ioniser| conda:required_by:: bioconductor-ioniser
 .. |downloads_bioconductor-ioniser| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ioniser.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ioniser| image:: https://quay.io/repository/biocontainers/bioconductor-ioniser/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ioniser
+.. _`bioconductor-ioniser/tags`: https://quay.io/repository/biocontainers/bioconductor-ioniser?tab=tags
 
 
 
@@ -64,4 +93,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ioniser/README.html
-

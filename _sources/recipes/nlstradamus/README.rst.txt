@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nlstradamus'
 .. highlight: bash
-
 
 nlstradamus
 ===========
@@ -22,11 +23,11 @@ nlstradamus
 
    |downloads_nlstradamus| |docker_nlstradamus|
 
-   :versions: 1.8
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_nlstradamus|
+   :versions: 1.8-1, 1.8-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ nlstradamus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nlstradamus
+      docker pull quay.io/repository/biocontainers/nlstradamus:<tag>
+
+   (see `nlstradamus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nlstradamus| conda:required_by:: nlstradamus
 .. |downloads_nlstradamus| image:: https://img.shields.io/conda/dn/bioconda/nlstradamus.svg?style=flat
    :alt:   (downloads)
 .. |docker_nlstradamus| image:: https://quay.io/repository/biocontainers/nlstradamus/status
    :target: https://quay.io/repository/biocontainers/nlstradamus
+.. _`nlstradamus/tags`: https://quay.io/repository/biocontainers/nlstradamus?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nlstradamus/README.html
-

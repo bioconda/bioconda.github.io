@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'seqtk'
 .. highlight: bash
-
 
 seqtk
 =====
@@ -22,11 +23,13 @@ seqtk
 
    |downloads_seqtk| |docker_seqtk|
 
-   :versions: 1.3, 1.2, r93, r82, r75
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_seqtk|
+   :versions: 1.3-1, 1.3-0, 1.2-1, 1.2-0, r93-0, r82-1, r82-0, r75-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ seqtk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seqtk
+      docker pull quay.io/repository/biocontainers/seqtk:<tag>
+
+   (see `seqtk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_seqtk| conda:required_by:: seqtk
 .. |downloads_seqtk| image:: https://img.shields.io/conda/dn/bioconda/seqtk.svg?style=flat
    :alt:   (downloads)
 .. |docker_seqtk| image:: https://quay.io/repository/biocontainers/seqtk/status
    :target: https://quay.io/repository/biocontainers/seqtk
+.. _`seqtk/tags`: https://quay.io/repository/biocontainers/seqtk?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/seqtk/README.html
-

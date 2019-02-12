@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-weaver'
 .. highlight: bash
-
 
 bioconductor-weaver
 ===================
@@ -22,11 +23,15 @@ bioconductor-weaver
 
    |downloads_bioconductor-weaver| |docker_bioconductor-weaver|
 
-   :versions: 1.48.0, 1.46.0, 1.44.0, 1.42.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-codetools`  :conda:package:`r-digest`  
-
-   :required~by: |required_by_bioconductor-weaver|
+   :versions: 1.48.0-0, 1.46.0-0, 1.44.0-0, 1.42.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-codetools: 
+   
+   :depends r-digest: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-weaver
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-weaver
+      docker pull quay.io/repository/biocontainers/bioconductor-weaver:<tag>
+
+   (see `bioconductor-weaver/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-weaver| conda:required_by:: bioconductor-weaver
 .. |downloads_bioconductor-weaver| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-weaver.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-weaver| image:: https://quay.io/repository/biocontainers/bioconductor-weaver/status
    :target: https://quay.io/repository/biocontainers/bioconductor-weaver
+.. _`bioconductor-weaver/tags`: https://quay.io/repository/biocontainers/bioconductor-weaver?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-weaver/README.html
-

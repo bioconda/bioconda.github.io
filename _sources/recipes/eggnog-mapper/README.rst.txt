@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'eggnog-mapper'
 .. highlight: bash
-
 
 eggnog-mapper
 =============
@@ -21,11 +22,17 @@ eggnog-mapper
 
    |downloads_eggnog-mapper| |docker_eggnog-mapper|
 
-   :versions: 1.0.3, 1.0.2, 1.0.1, 1.0.0
-
-   :depends: :conda:package:`biopython`  :conda:package:`diamond` 0.8.22 :conda:package:`hmmer` 3.1b2 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_eggnog-mapper|
+   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0
+   
+   :depends biopython: 
+   
+   :depends diamond: 0.8.22.*
+   
+   :depends hmmer: 3.1b2.*
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ eggnog-mapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/eggnog-mapper
+      docker pull quay.io/repository/biocontainers/eggnog-mapper:<tag>
+
+   (see `eggnog-mapper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_eggnog-mapper| conda:required_by:: eggnog-mapper
 .. |downloads_eggnog-mapper| image:: https://img.shields.io/conda/dn/bioconda/eggnog-mapper.svg?style=flat
    :alt:   (downloads)
 .. |docker_eggnog-mapper| image:: https://quay.io/repository/biocontainers/eggnog-mapper/status
    :target: https://quay.io/repository/biocontainers/eggnog-mapper
+.. _`eggnog-mapper/tags`: https://quay.io/repository/biocontainers/eggnog-mapper?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/eggnog-mapper/README.html
-

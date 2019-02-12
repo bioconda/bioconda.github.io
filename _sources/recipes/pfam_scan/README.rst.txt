@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pfam_scan'
 .. highlight: bash
-
 
 pfam_scan
 =========
@@ -21,11 +22,19 @@ pfam_scan
 
    |downloads_pfam_scan| |docker_pfam_scan|
 
-   :versions: 1.6
-
-   :depends: :conda:package:`hmmer` >=3.0 :conda:package:`perl` 5.22.0* :conda:package:`perl-bioperl` >=1.4 :conda:package:`perl-moose`  
-
-   :required~by: |required_by_pfam_scan|
+   :versions: 1.6-2, 1.6-1, 1.6-0
+   
+   :depends hmmer: >=3.0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-bioperl: >=1.4
+   
+   :depends perl-ipc-run: 
+   
+   :depends perl-moose: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ pfam_scan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pfam_scan
+      docker pull quay.io/repository/biocontainers/pfam_scan:<tag>
+
+   (see `pfam_scan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pfam_scan| conda:required_by:: pfam_scan
 .. |downloads_pfam_scan| image:: https://img.shields.io/conda/dn/bioconda/pfam_scan.svg?style=flat
    :alt:   (downloads)
 .. |docker_pfam_scan| image:: https://quay.io/repository/biocontainers/pfam_scan/status
    :target: https://quay.io/repository/biocontainers/pfam_scan
+.. _`pfam_scan/tags`: https://quay.io/repository/biocontainers/pfam_scan?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pfam_scan/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mreps'
 .. highlight: bash
-
 
 mreps
 =====
@@ -22,11 +23,11 @@ mreps
 
    |downloads_mreps| |docker_mreps|
 
-   :versions: 0.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_mreps|
+   :versions: 0.1-0
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ mreps
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mreps
+      docker pull quay.io/repository/biocontainers/mreps:<tag>
+
+   (see `mreps/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mreps| conda:required_by:: mreps
 .. |downloads_mreps| image:: https://img.shields.io/conda/dn/bioconda/mreps.svg?style=flat
    :alt:   (downloads)
 .. |docker_mreps| image:: https://quay.io/repository/biocontainers/mreps/status
    :target: https://quay.io/repository/biocontainers/mreps
+.. _`mreps/tags`: https://quay.io/repository/biocontainers/mreps?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mreps/README.html
-

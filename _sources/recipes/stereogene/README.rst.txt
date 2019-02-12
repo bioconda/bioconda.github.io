@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'stereogene'
 .. highlight: bash
-
 
 stereogene
 ==========
@@ -22,11 +23,11 @@ stereogene
 
    |downloads_stereogene| |docker_stereogene|
 
-   :versions: 2.20
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_stereogene|
+   :versions: 2.20-1, 2.20-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ stereogene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stereogene
+      docker pull quay.io/repository/biocontainers/stereogene:<tag>
+
+   (see `stereogene/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_stereogene| conda:required_by:: stereogene
 .. |downloads_stereogene| image:: https://img.shields.io/conda/dn/bioconda/stereogene.svg?style=flat
    :alt:   (downloads)
 .. |docker_stereogene| image:: https://quay.io/repository/biocontainers/stereogene/status
    :target: https://quay.io/repository/biocontainers/stereogene
+.. _`stereogene/tags`: https://quay.io/repository/biocontainers/stereogene?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/stereogene/README.html
-

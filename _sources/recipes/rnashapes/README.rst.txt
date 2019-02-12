@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rnashapes'
 .. highlight: bash
-
 
 rnashapes
 =========
@@ -21,11 +22,19 @@ rnashapes
 
    |downloads_rnashapes| |docker_rnashapes|
 
-   :versions: 3.3.0, 2.1.6
-
-   :depends: :conda:package:`bellmans-gapc`  :conda:package:`boost` 1.61* :conda:package:`gsl` 1.16* :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_rnashapes|
+   :versions: 3.3.0-0, 2.1.6-1, 2.1.6-0
+   
+   :depends bellmans-gapc: 
+   
+   :depends boost: 1.61*
+   
+   :depends gsl: 1.16*
+   
+   :depends libgcc: 
+   
+   :depends perl: 5.22.0*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ rnashapes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnashapes
+      docker pull quay.io/repository/biocontainers/rnashapes:<tag>
+
+   (see `rnashapes/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rnashapes| conda:required_by:: rnashapes
 .. |downloads_rnashapes| image:: https://img.shields.io/conda/dn/bioconda/rnashapes.svg?style=flat
    :alt:   (downloads)
 .. |docker_rnashapes| image:: https://quay.io/repository/biocontainers/rnashapes/status
    :target: https://quay.io/repository/biocontainers/rnashapes
+.. _`rnashapes/tags`: https://quay.io/repository/biocontainers/rnashapes?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rnashapes/README.html
-

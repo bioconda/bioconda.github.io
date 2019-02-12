@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ripseeker'
 .. highlight: bash
-
 
 bioconductor-ripseeker
 ======================
@@ -22,11 +23,25 @@ bioconductor-ripseeker
 
    |downloads_bioconductor-ripseeker| |docker_bioconductor-ripseeker|
 
-   :versions: 1.22.0, 1.20.0, 1.18.0, 1.16.0
-
-   :depends: :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-ripseeker|
+   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   
+   :depends bioconductor-genomicalignments: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ bioconductor-ripseeker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ripseeker
+      docker pull quay.io/repository/biocontainers/bioconductor-ripseeker:<tag>
+
+   (see `bioconductor-ripseeker/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ripseeker| conda:required_by:: bioconductor-ripseeker
 .. |downloads_bioconductor-ripseeker| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ripseeker.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ripseeker| image:: https://quay.io/repository/biocontainers/bioconductor-ripseeker/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ripseeker
+.. _`bioconductor-ripseeker/tags`: https://quay.io/repository/biocontainers/bioconductor-ripseeker?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ripseeker/README.html
-

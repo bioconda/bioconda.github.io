@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-http-cookies'
 .. highlight: bash
-
 
 perl-http-cookies
 =================
@@ -21,11 +22,19 @@ perl-http-cookies
 
    |downloads_perl-http-cookies| |docker_perl-http-cookies|
 
-   :versions: 6.04, 6.01
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-http-date`  :conda:package:`perl-http-message`  :conda:package:`perl-time-local`  
-
-   :required~by: |required_by_perl-http-cookies|
+   :versions: 6.04-0, 6.01-1, 6.01-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-http-date: 
+   
+   :depends perl-http-message: 
+   
+   :depends perl-time-local: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-http-cookies
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-http-cookies
+      docker pull quay.io/repository/biocontainers/perl-http-cookies:<tag>
+
+   (see `perl-http-cookies/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-http-cookies| conda:required_by:: perl-http-cookies
 .. |downloads_perl-http-cookies| image:: https://img.shields.io/conda/dn/bioconda/perl-http-cookies.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-http-cookies| image:: https://quay.io/repository/biocontainers/perl-http-cookies/status
    :target: https://quay.io/repository/biocontainers/perl-http-cookies
+.. _`perl-http-cookies/tags`: https://quay.io/repository/biocontainers/perl-http-cookies?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-http-cookies/README.html
-

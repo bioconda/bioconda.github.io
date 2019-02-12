@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bmtagger'
 .. highlight: bash
-
 
 bmtagger
 ========
@@ -21,11 +22,19 @@ bmtagger
 
    |downloads_bmtagger| |docker_bmtagger|
 
-   :versions: 3.101
-
-   :depends: :conda:package:`blast`  :conda:package:`bmfilter`  :conda:package:`bmtool`  :conda:package:`extract_fullseq`  :conda:package:`srprism`  
-
-   :required~by: |required_by_bmtagger|
+   :versions: 3.101-4, 3.101-3, 3.101-1
+   
+   :depends blast: 
+   
+   :depends bmfilter: 
+   
+   :depends bmtool: 
+   
+   :depends extract_fullseq: 
+   
+   :depends srprism: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bmtagger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bmtagger
+      docker pull quay.io/repository/biocontainers/bmtagger:<tag>
+
+   (see `bmtagger/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bmtagger| conda:required_by:: bmtagger
 .. |downloads_bmtagger| image:: https://img.shields.io/conda/dn/bioconda/bmtagger.svg?style=flat
    :alt:   (downloads)
 .. |docker_bmtagger| image:: https://quay.io/repository/biocontainers/bmtagger/status
    :target: https://quay.io/repository/biocontainers/bmtagger
+.. _`bmtagger/tags`: https://quay.io/repository/biocontainers/bmtagger?tab=tags
 
 
 
@@ -67,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bmtagger/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'snpeff'
 .. highlight: bash
-
 
 snpeff
 ======
@@ -22,11 +23,11 @@ snpeff
 
    |downloads_snpeff| |docker_snpeff|
 
-   :versions: 4.3.1t, 4.3.1r, 4.3.1q, 4.3.1p, 4.3.1o, 4.3.1m, 4.3.1k, 4.3, 4.3k, 4.3i, 4.3g, 4.3b, 4.2, 4.1l
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_snpeff|
+   :versions: 4.3.1t-1, 4.3.1t-0, 4.3.1r-0, 4.3.1q-0, 4.3.1p-1, 4.3.1p-0, 4.3.1o-0, 4.3.1m-0, 4.3.1k-0, 4.3-3, 4.3-2, 4.3-1, 4.3-0, 4.3k-0, 4.3i-0, 4.3g-0, 4.3b-0, 4.2-0, 4.1l-5, 4.1l-4, 4.1l-3, 4.1l-2, 4.1l-1, 4.1l-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ snpeff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snpeff
+      docker pull quay.io/repository/biocontainers/snpeff:<tag>
+
+   (see `snpeff/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_snpeff| conda:required_by:: snpeff
 .. |downloads_snpeff| image:: https://img.shields.io/conda/dn/bioconda/snpeff.svg?style=flat
    :alt:   (downloads)
 .. |docker_snpeff| image:: https://quay.io/repository/biocontainers/snpeff/status
    :target: https://quay.io/repository/biocontainers/snpeff
+.. _`snpeff/tags`: https://quay.io/repository/biocontainers/snpeff?tab=tags
 
 
 
@@ -68,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/snpeff/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bbmap'
 .. highlight: bash
-
 
 bbmap
 =====
@@ -24,11 +25,13 @@ bbmap
 
    |downloads_bbmap| |docker_bbmap|
 
-   :versions: 38.22, 38.20, 38.19, 38.18, 38.16, 38.06, 37.99, 37.96, 37.95, 37.90, 37.78, 37.77, 37.75, 37.66, 37.62, 37.52, 37.17, 37.10, 37.02, 36.84, 36.32, 35.85
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`openjdk` >=7.0 
-
-   :required~by: |required_by_bbmap|
+   :versions: 38.22-1, 38.22-0, 38.20-0, 38.19-0, 38.18-0, 38.16-0, 38.06-2, 38.06-0, 37.99-1, 37.99-0, 37.96-0, 37.95-0, 37.90-0, 37.78-0, 37.77-0, 37.75-0, 37.66-0, 37.62-1, 37.62-0, 37.52-1, 37.52-0, 37.17-1, 37.17-0, 37.10-1, 37.10-0, 37.02-0, 36.84-0, 36.32-0, 35.85-2, 35.85-1
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends openjdk: >=7.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +45,16 @@ bbmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bbmap
+      docker pull quay.io/repository/biocontainers/bbmap:<tag>
+
+   (see `bbmap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bbmap| conda:required_by:: bbmap
 .. |downloads_bbmap| image:: https://img.shields.io/conda/dn/bioconda/bbmap.svg?style=flat
    :alt:   (downloads)
 .. |docker_bbmap| image:: https://quay.io/repository/biocontainers/bbmap/status
    :target: https://quay.io/repository/biocontainers/bbmap
+.. _`bbmap/tags`: https://quay.io/repository/biocontainers/bbmap?tab=tags
 
 
 
@@ -73,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bbmap/README.html
-

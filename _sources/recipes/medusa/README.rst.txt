@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'medusa-data-fusion'
 .. highlight: bash
-
 
 medusa-data-fusion
 ==================
@@ -24,11 +25,15 @@ medusa-data-fusion
 
    |downloads_medusa-data-fusion| |docker_medusa-data-fusion|
 
-   :versions: 0.1
-
-   :depends: :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`scipy`  
-
-   :required~by: |required_by_medusa-data-fusion|
+   :versions: 0.1-2, 0.1-0
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +47,16 @@ medusa-data-fusion
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/medusa-data-fusion
+      docker pull quay.io/repository/biocontainers/medusa-data-fusion:<tag>
+
+   (see `medusa-data-fusion/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_medusa-data-fusion| conda:required_by:: medusa-data-fusion
 .. |downloads_medusa-data-fusion| image:: https://img.shields.io/conda/dn/bioconda/medusa-data-fusion.svg?style=flat
    :alt:   (downloads)
 .. |docker_medusa-data-fusion| image:: https://quay.io/repository/biocontainers/medusa-data-fusion/status
    :target: https://quay.io/repository/biocontainers/medusa-data-fusion
+.. _`medusa-data-fusion/tags`: https://quay.io/repository/biocontainers/medusa-data-fusion?tab=tags
 
 
 
@@ -66,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/medusa-data-fusion/README.html
-

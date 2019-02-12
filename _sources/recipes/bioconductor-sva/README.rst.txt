@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sva'
 .. highlight: bash
-
 
 bioconductor-sva
 ================
@@ -22,11 +23,23 @@ bioconductor-sva
 
    |downloads_bioconductor-sva| |docker_bioconductor-sva|
 
-   :versions: 3.30.0, 3.28.0, 3.26.0, 3.24.4, 3.20.0, 3.18.0, 3.15.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-genefilter` >=1.64.0,<1.65.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrixstats`  :conda:package:`r-mgcv`  
-
-   :required~by: |required_by_bioconductor-sva|
+   :versions: 3.30.0-0, 3.28.0-0, 3.26.0-0, 3.24.4-0, 3.20.0-0, 3.18.0-0, 3.15.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-matrixstats: 
+   
+   :depends r-mgcv: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ bioconductor-sva
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sva
+      docker pull quay.io/repository/biocontainers/bioconductor-sva:<tag>
+
+   (see `bioconductor-sva/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sva| conda:required_by:: bioconductor-sva
 .. |downloads_bioconductor-sva| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sva.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sva| image:: https://quay.io/repository/biocontainers/bioconductor-sva/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sva
+.. _`bioconductor-sva/tags`: https://quay.io/repository/biocontainers/bioconductor-sva?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sva/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-purbayes'
 .. highlight: bash
-
 
 r-purbayes
 ==========
@@ -21,11 +22,13 @@ r-purbayes
 
    |downloads_r-purbayes| |docker_r-purbayes|
 
-   :versions: 1.3
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rjags`  
-
-   :required~by: |required_by_r-purbayes|
+   :versions: 1.3-0
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-rjags: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ r-purbayes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-purbayes
+      docker pull quay.io/repository/biocontainers/r-purbayes:<tag>
+
+   (see `r-purbayes/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-purbayes| conda:required_by:: r-purbayes
 .. |downloads_r-purbayes| image:: https://img.shields.io/conda/dn/bioconda/r-purbayes.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-purbayes| image:: https://quay.io/repository/biocontainers/r-purbayes/status
    :target: https://quay.io/repository/biocontainers/r-purbayes
+.. _`r-purbayes/tags`: https://quay.io/repository/biocontainers/r-purbayes?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-purbayes/README.html
-

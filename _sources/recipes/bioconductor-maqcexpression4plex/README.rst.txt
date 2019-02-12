@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-maqcexpression4plex'
 .. highlight: bash
-
 
 bioconductor-maqcexpression4plex
 ================================
@@ -21,11 +22,13 @@ bioconductor-maqcexpression4plex
 
    |downloads_bioconductor-maqcexpression4plex| |docker_bioconductor-maqcexpression4plex|
 
-   :versions: 1.26.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-maqcexpression4plex|
+   :versions: 1.26.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-maqcexpression4plex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-maqcexpression4plex
+      docker pull quay.io/repository/biocontainers/bioconductor-maqcexpression4plex:<tag>
+
+   (see `bioconductor-maqcexpression4plex/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-maqcexpression4plex| conda:required_by:: bioconductor-maqcexpression4plex
 .. |downloads_bioconductor-maqcexpression4plex| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-maqcexpression4plex.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-maqcexpression4plex| image:: https://quay.io/repository/biocontainers/bioconductor-maqcexpression4plex/status
    :target: https://quay.io/repository/biocontainers/bioconductor-maqcexpression4plex
+.. _`bioconductor-maqcexpression4plex/tags`: https://quay.io/repository/biocontainers/bioconductor-maqcexpression4plex?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-maqcexpression4plex/README.html
-

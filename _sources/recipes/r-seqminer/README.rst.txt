@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-seqminer'
 .. highlight: bash
-
 
 r-seqminer
 ==========
@@ -21,11 +22,15 @@ r-seqminer
 
    |downloads_r-seqminer| |docker_r-seqminer|
 
-   :versions: 6.1, 6.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
-
-   :required~by: |required_by_r-seqminer|
+   :versions: 6.1-1, 6.1-0, 6.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-seqminer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-seqminer
+      docker pull quay.io/repository/biocontainers/r-seqminer:<tag>
+
+   (see `r-seqminer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-seqminer| conda:required_by:: r-seqminer
 .. |downloads_r-seqminer| image:: https://img.shields.io/conda/dn/bioconda/r-seqminer.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-seqminer| image:: https://quay.io/repository/biocontainers/r-seqminer/status
    :target: https://quay.io/repository/biocontainers/r-seqminer
+.. _`r-seqminer/tags`: https://quay.io/repository/biocontainers/r-seqminer?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-seqminer/README.html
-

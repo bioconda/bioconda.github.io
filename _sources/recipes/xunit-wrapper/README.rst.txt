@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'xunit-wrapper'
 .. highlight: bash
-
 
 xunit-wrapper
 =============
@@ -21,11 +22,15 @@ xunit-wrapper
 
    |downloads_xunit-wrapper| |docker_xunit-wrapper|
 
-   :versions: 0.12
-
-   :depends: :conda:package:`future`  :conda:package:`junit-xml` ==1.7 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_xunit-wrapper|
+   :versions: 0.12-1, 0.12-0
+   
+   :depends future: 
+   
+   :depends junit-xml: 1.7
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ xunit-wrapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xunit-wrapper
+      docker pull quay.io/repository/biocontainers/xunit-wrapper:<tag>
+
+   (see `xunit-wrapper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_xunit-wrapper| conda:required_by:: xunit-wrapper
 .. |downloads_xunit-wrapper| image:: https://img.shields.io/conda/dn/bioconda/xunit-wrapper.svg?style=flat
    :alt:   (downloads)
 .. |docker_xunit-wrapper| image:: https://quay.io/repository/biocontainers/xunit-wrapper/status
    :target: https://quay.io/repository/biocontainers/xunit-wrapper
+.. _`xunit-wrapper/tags`: https://quay.io/repository/biocontainers/xunit-wrapper?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/xunit-wrapper/README.html
-

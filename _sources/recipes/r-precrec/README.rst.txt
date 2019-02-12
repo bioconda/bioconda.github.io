@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-precrec'
 .. highlight: bash
-
 
 r-precrec
 =========
@@ -21,11 +22,21 @@ r-precrec
 
    |downloads_r-precrec| |docker_r-precrec|
 
-   :versions: 0.9.1
-
-   :depends: :conda:package:`r-assertthat` >=0.1 :conda:package:`r-base` 3.4.1* :conda:package:`r-data.table` >=1.10.4 :conda:package:`r-ggplot2` >=2.1.0 :conda:package:`r-gridextra` >=2.0.0 :conda:package:`r-rcpp`  
-
-   :required~by: |required_by_r-precrec|
+   :versions: 0.9.1-0
+   
+   :depends r-assertthat: >=0.1
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-data.table: >=1.10.4
+   
+   :depends r-ggplot2: >=2.1.0
+   
+   :depends r-gridextra: >=2.0.0
+   
+   :depends r-rcpp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-precrec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-precrec
+      docker pull quay.io/repository/biocontainers/r-precrec:<tag>
+
+   (see `r-precrec/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-precrec| conda:required_by:: r-precrec
 .. |downloads_r-precrec| image:: https://img.shields.io/conda/dn/bioconda/r-precrec.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-precrec| image:: https://quay.io/repository/biocontainers/r-precrec/status
    :target: https://quay.io/repository/biocontainers/r-precrec
+.. _`r-precrec/tags`: https://quay.io/repository/biocontainers/r-precrec?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-precrec/README.html
-

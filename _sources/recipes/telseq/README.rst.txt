@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'telseq'
 .. highlight: bash
-
 
 telseq
 ======
@@ -21,11 +22,13 @@ telseq
 
    |downloads_telseq| |docker_telseq|
 
-   :versions: 0.0.2, 0.0.1
-
-   :depends: :conda:package:`bamtools` >=2.4.1,<2.4.2.0a0 :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_telseq|
+   :versions: 0.0.2-0, 0.0.1-1, 0.0.1-0
+   
+   :depends bamtools: >=2.4.1,<2.4.2.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ telseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/telseq
+      docker pull quay.io/repository/biocontainers/telseq:<tag>
+
+   (see `telseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_telseq| conda:required_by:: telseq
 .. |downloads_telseq| image:: https://img.shields.io/conda/dn/bioconda/telseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_telseq| image:: https://quay.io/repository/biocontainers/telseq/status
    :target: https://quay.io/repository/biocontainers/telseq
+.. _`telseq/tags`: https://quay.io/repository/biocontainers/telseq?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/telseq/README.html
-

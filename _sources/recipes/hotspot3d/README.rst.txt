@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hotspot3d'
 .. highlight: bash
-
 
 hotspot3d
 =========
@@ -21,11 +22,25 @@ hotspot3d
 
    |downloads_hotspot3d| |docker_hotspot3d|
 
-   :versions: 1.8.2, 0.6.0
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-archive-extract`  :conda:package:`perl-json`  :conda:package:`perl-list-moreutils`  :conda:package:`perl-list-util`  :conda:package:`perl-lwp-simple`  :conda:package:`perl-parallel-forkmanager`  :conda:package:`perl-test-most`  
-
-   :required~by: |required_by_hotspot3d|
+   :versions: 1.8.2-0, 0.6.0-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-archive-extract: 
+   
+   :depends perl-json: 
+   
+   :depends perl-list-moreutils: 
+   
+   :depends perl-list-util: 
+   
+   :depends perl-lwp-simple: 
+   
+   :depends perl-parallel-forkmanager: 
+   
+   :depends perl-test-most: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ hotspot3d
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hotspot3d
+      docker pull quay.io/repository/biocontainers/hotspot3d:<tag>
+
+   (see `hotspot3d/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hotspot3d| conda:required_by:: hotspot3d
 .. |downloads_hotspot3d| image:: https://img.shields.io/conda/dn/bioconda/hotspot3d.svg?style=flat
    :alt:   (downloads)
 .. |docker_hotspot3d| image:: https://quay.io/repository/biocontainers/hotspot3d/status
    :target: https://quay.io/repository/biocontainers/hotspot3d
+.. _`hotspot3d/tags`: https://quay.io/repository/biocontainers/hotspot3d?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hotspot3d/README.html
-

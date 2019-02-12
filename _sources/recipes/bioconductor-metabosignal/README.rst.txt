@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-metabosignal'
 .. highlight: bash
-
 
 bioconductor-metabosignal
 =========================
@@ -22,11 +23,33 @@ bioconductor-metabosignal
 
    |downloads_bioconductor-metabosignal| |docker_bioconductor-metabosignal|
 
-   :versions: 1.12.0, 1.10.0, 1.8.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-ensdb.hsapiens.v75` >=2.99.0,<2.100.0 :conda:package:`bioconductor-hpar` >=1.24.0,<1.25.0 :conda:package:`bioconductor-kegggraph` >=1.42.0,<1.43.0 :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`bioconductor-mwastools` >=1.6.0,<1.7.0 :conda:package:`bioconductor-mygene` >=1.18.0,<1.19.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-rcurl`  
-
-   :required~by: |required_by_bioconductor-metabosignal|
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-ensdb.hsapiens.v75: >=2.99.0,<2.100.0
+   
+   :depends bioconductor-hpar: >=1.24.0,<1.25.0
+   
+   :depends bioconductor-kegggraph: >=1.42.0,<1.43.0
+   
+   :depends bioconductor-keggrest: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-mwastools: >=1.6.0,<1.7.0
+   
+   :depends bioconductor-mygene: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-igraph: 
+   
+   :depends r-rcurl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +63,16 @@ bioconductor-metabosignal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metabosignal
+      docker pull quay.io/repository/biocontainers/bioconductor-metabosignal:<tag>
+
+   (see `bioconductor-metabosignal/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-metabosignal| conda:required_by:: bioconductor-metabosignal
 .. |downloads_bioconductor-metabosignal| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metabosignal.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-metabosignal| image:: https://quay.io/repository/biocontainers/bioconductor-metabosignal/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metabosignal
+.. _`bioconductor-metabosignal/tags`: https://quay.io/repository/biocontainers/bioconductor-metabosignal?tab=tags
 
 
 
@@ -64,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-metabosignal/README.html
-

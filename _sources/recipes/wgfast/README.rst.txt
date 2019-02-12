@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'wgfast'
 .. highlight: bash
-
 
 wgfast
 ======
@@ -21,11 +22,25 @@ wgfast
 
    |downloads_wgfast| |docker_wgfast|
 
-   :versions: 1.0.3
-
-   :depends: :conda:package:`bbmap`  :conda:package:`biopython`  :conda:package:`bwa` 0.7.8 :conda:package:`dendropy`  :conda:package:`picard`  :conda:package:`python` 3.6.0 :conda:package:`raxml`  :conda:package:`samtools`  
-
-   :required~by: |required_by_wgfast|
+   :versions: 1.0.3-0
+   
+   :depends bbmap: 
+   
+   :depends biopython: 
+   
+   :depends bwa: 0.7.8
+   
+   :depends dendropy: 
+   
+   :depends picard: 
+   
+   :depends python: 3.6.0
+   
+   :depends raxml: 
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ wgfast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wgfast
+      docker pull quay.io/repository/biocontainers/wgfast:<tag>
+
+   (see `wgfast/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_wgfast| conda:required_by:: wgfast
 .. |downloads_wgfast| image:: https://img.shields.io/conda/dn/bioconda/wgfast.svg?style=flat
    :alt:   (downloads)
 .. |docker_wgfast| image:: https://quay.io/repository/biocontainers/wgfast/status
    :target: https://quay.io/repository/biocontainers/wgfast
+.. _`wgfast/tags`: https://quay.io/repository/biocontainers/wgfast?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/wgfast/README.html
-

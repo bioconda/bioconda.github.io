@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'riboseq-rust'
 .. highlight: bash
-
 
 riboseq-rust
 ============
@@ -21,11 +22,19 @@ riboseq-rust
 
    |downloads_riboseq-rust| |docker_riboseq-rust|
 
-   :versions: 1.2
-
-   :depends: :conda:package:`argparse`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_riboseq-rust|
+   :versions: 1.2-0
+   
+   :depends argparse: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pysam: 
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ riboseq-rust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/riboseq-rust
+      docker pull quay.io/repository/biocontainers/riboseq-rust:<tag>
+
+   (see `riboseq-rust/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_riboseq-rust| conda:required_by:: riboseq-rust
 .. |downloads_riboseq-rust| image:: https://img.shields.io/conda/dn/bioconda/riboseq-rust.svg?style=flat
    :alt:   (downloads)
 .. |docker_riboseq-rust| image:: https://quay.io/repository/biocontainers/riboseq-rust/status
    :target: https://quay.io/repository/biocontainers/riboseq-rust
+.. _`riboseq-rust/tags`: https://quay.io/repository/biocontainers/riboseq-rust?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/riboseq-rust/README.html
-

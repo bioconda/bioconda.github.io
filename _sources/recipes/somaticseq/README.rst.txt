@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'somaticseq'
 .. highlight: bash
-
 
 somaticseq
 ==========
@@ -21,11 +22,35 @@ somaticseq
 
    |downloads_somaticseq| |docker_somaticseq|
 
-   :versions: 2.8.1
-
-   :depends: :conda:package:`bedtools`  :conda:package:`gatk4`  :conda:package:`lofreq`  :conda:package:`muse`  :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`r-ada`  :conda:package:`regex`  :conda:package:`scalpel`  :conda:package:`scipy`  :conda:package:`vardict`  :conda:package:`varscan` >=2 
-
-   :required~by: |required_by_somaticseq|
+   :versions: 2.8.1-0
+   
+   :depends bedtools: 
+   
+   :depends gatk4: 
+   
+   :depends lofreq: 
+   
+   :depends muse: 
+   
+   :depends numpy: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends r-ada: 
+   
+   :depends regex: 
+   
+   :depends scalpel: 
+   
+   :depends scipy: 
+   
+   :depends vardict: 
+   
+   :depends varscan: >=2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ somaticseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/somaticseq
+      docker pull quay.io/repository/biocontainers/somaticseq:<tag>
+
+   (see `somaticseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_somaticseq| conda:required_by:: somaticseq
 .. |downloads_somaticseq| image:: https://img.shields.io/conda/dn/bioconda/somaticseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_somaticseq| image:: https://quay.io/repository/biocontainers/somaticseq/status
    :target: https://quay.io/repository/biocontainers/somaticseq
+.. _`somaticseq/tags`: https://quay.io/repository/biocontainers/somaticseq?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/somaticseq/README.html
-

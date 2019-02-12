@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyopt'
 .. highlight: bash
-
 
 pyopt
 =====
@@ -21,11 +22,15 @@ pyopt
 
    |downloads_pyopt| |docker_pyopt|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`mpi4py`  :conda:package:`numpy` >=1.0 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pyopt|
+   :versions: 1.2.0-1, 1.2.0-0
+   
+   :depends mpi4py: 
+   
+   :depends numpy: >=1.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pyopt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyopt
+      docker pull quay.io/repository/biocontainers/pyopt:<tag>
+
+   (see `pyopt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyopt| conda:required_by:: pyopt
 .. |downloads_pyopt| image:: https://img.shields.io/conda/dn/bioconda/pyopt.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyopt| image:: https://quay.io/repository/biocontainers/pyopt/status
    :target: https://quay.io/repository/biocontainers/pyopt
+.. _`pyopt/tags`: https://quay.io/repository/biocontainers/pyopt?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyopt/README.html
-

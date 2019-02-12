@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'egglib'
 .. highlight: bash
-
 
 egglib
 ======
@@ -21,11 +22,13 @@ egglib
 
    |downloads_egglib| |docker_egglib|
 
-   :versions: 3.0.0b21
-
-   :depends: :conda:package:`libgcc` >=7.2.0 :conda:package:`python` <3 
-
-   :required~by: |required_by_egglib|
+   :versions: 3.0.0b21-1, 3.0.0b21-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ egglib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/egglib
+      docker pull quay.io/repository/biocontainers/egglib:<tag>
+
+   (see `egglib/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_egglib| conda:required_by:: egglib
 .. |downloads_egglib| image:: https://img.shields.io/conda/dn/bioconda/egglib.svg?style=flat
    :alt:   (downloads)
 .. |docker_egglib| image:: https://quay.io/repository/biocontainers/egglib/status
    :target: https://quay.io/repository/biocontainers/egglib
+.. _`egglib/tags`: https://quay.io/repository/biocontainers/egglib?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/egglib/README.html
-

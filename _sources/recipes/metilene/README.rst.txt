@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metilene'
 .. highlight: bash
-
 
 metilene
 ========
@@ -21,11 +22,19 @@ metilene
 
    |downloads_metilene| |docker_metilene|
 
-   :versions: 0.2.6
-
-   :depends: :conda:package:`bedtools` >=2.24 :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  :conda:package:`r-base`  :conda:package:`r-ggplot2` >=2.0.0 
-
-   :required~by: |required_by_metilene|
+   :versions: 0.2.6-1, 0.2.6-0
+   
+   :depends bedtools: >=2.24
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: 
+   
+   :depends r-base: 
+   
+   :depends r-ggplot2: >=2.0.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ metilene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metilene
+      docker pull quay.io/repository/biocontainers/metilene:<tag>
+
+   (see `metilene/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metilene| conda:required_by:: metilene
 .. |downloads_metilene| image:: https://img.shields.io/conda/dn/bioconda/metilene.svg?style=flat
    :alt:   (downloads)
 .. |docker_metilene| image:: https://quay.io/repository/biocontainers/metilene/status
    :target: https://quay.io/repository/biocontainers/metilene
+.. _`metilene/tags`: https://quay.io/repository/biocontainers/metilene?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metilene/README.html
-

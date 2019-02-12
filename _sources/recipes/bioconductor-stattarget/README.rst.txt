@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-stattarget'
 .. highlight: bash
-
 
 bioconductor-stattarget
 =======================
@@ -21,11 +22,25 @@ bioconductor-stattarget
 
    |downloads_bioconductor-stattarget| |docker_bioconductor-stattarget|
 
-   :versions: 1.12.0
-
-   :depends: :conda:package:`bioconductor-impute` >=1.56.0,<1.57.0 :conda:package:`bioconductor-roc` >=1.58.0,<1.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-pdist`  :conda:package:`r-pls`  :conda:package:`r-plyr`  :conda:package:`r-randomforest`  :conda:package:`r-rrcov`  
-
-   :required~by: |required_by_bioconductor-stattarget|
+   :versions: 1.12.0-0
+   
+   :depends bioconductor-impute: >=1.56.0,<1.57.0
+   
+   :depends bioconductor-roc: >=1.58.0,<1.59.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-pdist: 
+   
+   :depends r-pls: 
+   
+   :depends r-plyr: 
+   
+   :depends r-randomforest: 
+   
+   :depends r-rrcov: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bioconductor-stattarget
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-stattarget
+      docker pull quay.io/repository/biocontainers/bioconductor-stattarget:<tag>
+
+   (see `bioconductor-stattarget/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-stattarget| conda:required_by:: bioconductor-stattarget
 .. |downloads_bioconductor-stattarget| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-stattarget.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-stattarget| image:: https://quay.io/repository/biocontainers/bioconductor-stattarget/status
    :target: https://quay.io/repository/biocontainers/bioconductor-stattarget
+.. _`bioconductor-stattarget/tags`: https://quay.io/repository/biocontainers/bioconductor-stattarget?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-stattarget/README.html
-

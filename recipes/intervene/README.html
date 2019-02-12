@@ -133,11 +133,28 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">0.6.4, 0.6.2, 0.5.9, 0.5.8</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">0.6.4-1, 0.6.4-0, 0.6.2-0, 0.5.9-0, 0.5.8-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference internal" href="../bedtools/README.html#package-bedtools" title="bedtools package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">bedtools</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">matplotlib</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/numpy-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">numpy</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/pandas-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">pandas</span></code></a>  <a class="reference internal" href="../pybedtools/README.html#package-pybedtools" title="pybedtools package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">pybedtools</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/python-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">python</span></code></a> 2.7* <a class="reference external" href="https://github.com/conda-forge/r-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">r</span></code></a> 3.4.1* <a class="reference external" href="https://github.com/conda-forge/r-cairo-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">r-cairo</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/r-corrplot-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">r-corrplot</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/r-upsetr-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">r-upsetr</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/scipy-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">scipy</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/seaborn-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">seaborn</span></code></a></td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-package reference internal" href="../bedtools/README.html#package-bedtools" title="bedtools package"><strong>bedtools</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><strong>matplotlib</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></li>
+<li><a class="conda-package reference internal" href="../pybedtools/README.html#package-pybedtools" title="pybedtools package"><strong>pybedtools</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-feedstock"><strong>r</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-cairo-feedstock"><strong>r-cairo</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-corrplot-feedstock"><strong>r-corrplot</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-upsetr-feedstock"><strong>r-upsetr</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/seaborn-feedstock"><strong>seaborn</strong></a></li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -151,9 +168,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">intervene</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">intervene</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/intervene?tab=tags">intervene/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

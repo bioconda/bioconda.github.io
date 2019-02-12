@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-facets'
 .. highlight: bash
-
 
 r-facets
 ========
@@ -22,11 +23,17 @@ r-facets
 
    |downloads_r-facets| |docker_r-facets|
 
-   :versions: 0.5.14
-
-   :depends: :conda:package:`libgfortran` >=3.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-pctgcdata`  
-
-   :required~by: |required_by_r-facets|
+   :versions: 0.5.14-1, 0.5.14-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libgfortran-ng: >=7,<8.0a0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-pctgcdata: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ r-facets
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-facets
+      docker pull quay.io/repository/biocontainers/r-facets:<tag>
+
+   (see `r-facets/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-facets| conda:required_by:: r-facets
 .. |downloads_r-facets| image:: https://img.shields.io/conda/dn/bioconda/r-facets.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-facets| image:: https://quay.io/repository/biocontainers/r-facets/status
    :target: https://quay.io/repository/biocontainers/r-facets
+.. _`r-facets/tags`: https://quay.io/repository/biocontainers/r-facets?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-facets/README.html
-

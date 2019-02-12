@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cn.farms'
 .. highlight: bash
-
 
 bioconductor-cn.farms
 =====================
@@ -22,11 +23,35 @@ bioconductor-cn.farms
 
    |downloads_bioconductor-cn.farms| |docker_bioconductor-cn.farms|
 
-   :versions: 1.30.0, 1.28.0, 1.26.0
-
-   :depends: :conda:package:`bioconductor-affxparser` >=1.54.0,<1.55.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-dnacopy` >=1.56.0,<1.57.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-ff`  :conda:package:`r-lattice`  :conda:package:`r-snow`  
-
-   :required~by: |required_by_bioconductor-cn.farms|
+   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0
+   
+   :depends bioconductor-affxparser: >=1.54.0,<1.55.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-dnacopy: >=1.56.0,<1.57.0
+   
+   :depends bioconductor-oligo: >=1.46.0,<1.47.0
+   
+   :depends bioconductor-oligoclasses: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dbi: 
+   
+   :depends r-ff: 
+   
+   :depends r-lattice: 
+   
+   :depends r-snow: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +65,16 @@ bioconductor-cn.farms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cn.farms
+      docker pull quay.io/repository/biocontainers/bioconductor-cn.farms:<tag>
+
+   (see `bioconductor-cn.farms/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cn.farms| conda:required_by:: bioconductor-cn.farms
 .. |downloads_bioconductor-cn.farms| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cn.farms.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cn.farms| image:: https://quay.io/repository/biocontainers/bioconductor-cn.farms/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cn.farms
+.. _`bioconductor-cn.farms/tags`: https://quay.io/repository/biocontainers/bioconductor-cn.farms?tab=tags
 
 
 
@@ -64,4 +91,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cn.farms/README.html
-

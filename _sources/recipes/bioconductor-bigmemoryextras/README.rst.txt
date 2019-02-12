@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bigmemoryextras'
 .. highlight: bash
-
 
 bioconductor-bigmemoryextras
 ============================
@@ -21,11 +22,13 @@ bioconductor-bigmemoryextras
 
    |downloads_bioconductor-bigmemoryextras| |docker_bioconductor-bigmemoryextras|
 
-   :versions: 1.30.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bigmemory` >=4.5.31 
-
-   :required~by: |required_by_bioconductor-bigmemoryextras|
+   :versions: 1.30.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bigmemory: >=4.5.31
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-bigmemoryextras
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bigmemoryextras
+      docker pull quay.io/repository/biocontainers/bioconductor-bigmemoryextras:<tag>
+
+   (see `bioconductor-bigmemoryextras/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bigmemoryextras| conda:required_by:: bioconductor-bigmemoryextras
 .. |downloads_bioconductor-bigmemoryextras| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bigmemoryextras.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bigmemoryextras| image:: https://quay.io/repository/biocontainers/bioconductor-bigmemoryextras/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bigmemoryextras
+.. _`bioconductor-bigmemoryextras/tags`: https://quay.io/repository/biocontainers/bioconductor-bigmemoryextras?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bigmemoryextras/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-sys-info-driver-osx'
 .. highlight: bash
-
 
 perl-sys-info-driver-osx
 ========================
@@ -21,11 +22,17 @@ perl-sys-info-driver-osx
 
    |downloads_perl-sys-info-driver-osx| |docker_perl-sys-info-driver-osx|
 
-   :versions: 0.7959, 0.7958
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-capture-tiny`  :conda:package:`perl-mac-propertylist`  :conda:package:`perl-sys-info-base`  
-
-   :required~by: |required_by_perl-sys-info-driver-osx|
+   :versions: 0.7959-0, 0.7958-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-capture-tiny: 
+   
+   :depends perl-mac-propertylist: 
+   
+   :depends perl-sys-info-base: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-sys-info-driver-osx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sys-info-driver-osx
+      docker pull quay.io/repository/biocontainers/perl-sys-info-driver-osx:<tag>
+
+   (see `perl-sys-info-driver-osx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-sys-info-driver-osx| conda:required_by:: perl-sys-info-driver-osx
 .. |downloads_perl-sys-info-driver-osx| image:: https://img.shields.io/conda/dn/bioconda/perl-sys-info-driver-osx.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-sys-info-driver-osx| image:: https://quay.io/repository/biocontainers/perl-sys-info-driver-osx/status
    :target: https://quay.io/repository/biocontainers/perl-sys-info-driver-osx
+.. _`perl-sys-info-driver-osx/tags`: https://quay.io/repository/biocontainers/perl-sys-info-driver-osx?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-sys-info-driver-osx/README.html
-

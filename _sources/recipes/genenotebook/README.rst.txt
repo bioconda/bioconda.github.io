@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genenotebook'
 .. highlight: bash
-
 
 genenotebook
 ============
@@ -21,11 +22,17 @@ genenotebook
 
    |downloads_genenotebook| |docker_genenotebook|
 
-   :versions: 0.1.13, 0.1.12, 0.1.11, 0.1.10, 0.1.9, 0.1.8, 0.1.7, 0.1.6, 0.1.5, 0.1.4, 0.1.3, 0.1.2, 0.1.1
-
-   :depends: :conda:package:`blast`  :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`mongodb` >=3.4 :conda:package:`nodejs` >=8.0 
-
-   :required~by: |required_by_genenotebook|
+   :versions: 0.1.13-0, 0.1.12-0, 0.1.11-0, 0.1.10-0, 0.1.9-0, 0.1.8-0, 0.1.7-0, 0.1.6-1, 0.1.5-1, 0.1.4-1, 0.1.4-0, 0.1.3-0, 0.1.2-1, 0.1.2-0, 0.1.1-0
+   
+   :depends blast: 
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends mongodb: >=3.4
+   
+   :depends nodejs: >=8.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ genenotebook
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genenotebook
+      docker pull quay.io/repository/biocontainers/genenotebook:<tag>
+
+   (see `genenotebook/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genenotebook| conda:required_by:: genenotebook
 .. |downloads_genenotebook| image:: https://img.shields.io/conda/dn/bioconda/genenotebook.svg?style=flat
    :alt:   (downloads)
 .. |docker_genenotebook| image:: https://quay.io/repository/biocontainers/genenotebook/status
    :target: https://quay.io/repository/biocontainers/genenotebook
+.. _`genenotebook/tags`: https://quay.io/repository/biocontainers/genenotebook?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genenotebook/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-readmzxmldata'
 .. highlight: bash
-
 
 r-readmzxmldata
 ===============
@@ -21,11 +22,17 @@ r-readmzxmldata
 
    |downloads_r-readmzxmldata| |docker_r-readmzxmldata|
 
-   :versions: 2.8.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-base64enc`  :conda:package:`r-digest`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_r-readmzxmldata|
+   :versions: 2.8.1-0
+   
+   :depends r: 3.2.2*
+   
+   :depends r-base64enc: 
+   
+   :depends r-digest: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-readmzxmldata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-readmzxmldata
+      docker pull quay.io/repository/biocontainers/r-readmzxmldata:<tag>
+
+   (see `r-readmzxmldata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-readmzxmldata| conda:required_by:: r-readmzxmldata
 .. |downloads_r-readmzxmldata| image:: https://img.shields.io/conda/dn/bioconda/r-readmzxmldata.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-readmzxmldata| image:: https://quay.io/repository/biocontainers/r-readmzxmldata/status
    :target: https://quay.io/repository/biocontainers/r-readmzxmldata
+.. _`r-readmzxmldata/tags`: https://quay.io/repository/biocontainers/r-readmzxmldata?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-readmzxmldata/README.html
-

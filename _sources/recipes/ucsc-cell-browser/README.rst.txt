@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ucsc-cell-browser'
 .. highlight: bash
-
 
 ucsc-cell-browser
 =================
@@ -21,11 +22,23 @@ ucsc-cell-browser
 
    |downloads_ucsc-cell-browser| |docker_ucsc-cell-browser|
 
-   :versions: 0.4.35, 0.4.23
-
-   :depends: :conda:package:`anndata`  :conda:package:`numpy`  :conda:package:`python` >=3.6 :conda:package:`r-argparser`  :conda:package:`r-data.table`  :conda:package:`r-matrix`  :conda:package:`r-reticulate`  
-
-   :required~by: |required_by_ucsc-cell-browser|
+   :versions: 0.4.35-0, 0.4.23-1, 0.4.23-0
+   
+   :depends anndata: 
+   
+   :depends numpy: 
+   
+   :depends python: >=3.6
+   
+   :depends r-argparser: 
+   
+   :depends r-data.table: 
+   
+   :depends r-matrix: 
+   
+   :depends r-reticulate: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ ucsc-cell-browser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-cell-browser
+      docker pull quay.io/repository/biocontainers/ucsc-cell-browser:<tag>
+
+   (see `ucsc-cell-browser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ucsc-cell-browser| conda:required_by:: ucsc-cell-browser
 .. |downloads_ucsc-cell-browser| image:: https://img.shields.io/conda/dn/bioconda/ucsc-cell-browser.svg?style=flat
    :alt:   (downloads)
 .. |docker_ucsc-cell-browser| image:: https://quay.io/repository/biocontainers/ucsc-cell-browser/status
    :target: https://quay.io/repository/biocontainers/ucsc-cell-browser
+.. _`ucsc-cell-browser/tags`: https://quay.io/repository/biocontainers/ucsc-cell-browser?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ucsc-cell-browser/README.html
-

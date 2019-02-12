@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nose-capturestderr'
 .. highlight: bash
-
 
 nose-capturestderr
 ==================
@@ -21,11 +22,15 @@ nose-capturestderr
 
    |downloads_nose-capturestderr| |docker_nose-capturestderr|
 
-   :versions: 1.2, 1.0
-
-   :depends: :conda:package:`nose` >=0.11.1 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`setuptools`  
-
-   :required~by: |required_by_nose-capturestderr|
+   :versions: 1.2-0, 1.0-1, 1.0-0
+   
+   :depends nose: >=0.11.1
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends setuptools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ nose-capturestderr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nose-capturestderr
+      docker pull quay.io/repository/biocontainers/nose-capturestderr:<tag>
+
+   (see `nose-capturestderr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nose-capturestderr| conda:required_by:: nose-capturestderr
 .. |downloads_nose-capturestderr| image:: https://img.shields.io/conda/dn/bioconda/nose-capturestderr.svg?style=flat
    :alt:   (downloads)
 .. |docker_nose-capturestderr| image:: https://quay.io/repository/biocontainers/nose-capturestderr/status
    :target: https://quay.io/repository/biocontainers/nose-capturestderr
+.. _`nose-capturestderr/tags`: https://quay.io/repository/biocontainers/nose-capturestderr?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nose-capturestderr/README.html
-

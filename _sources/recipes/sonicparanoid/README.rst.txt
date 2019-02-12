@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sonicparanoid'
 .. highlight: bash
-
 
 sonicparanoid
 =============
@@ -22,11 +23,31 @@ sonicparanoid
 
    |downloads_sonicparanoid| |docker_sonicparanoid|
 
-   :versions: 1.0.14, 1.0.13
-
-   :depends: :conda:package:`biopython` >=1.67 :conda:package:`cython` >=0.27.0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`make`  :conda:package:`mmseqs2` 6.f5a1c :conda:package:`numpy` >=1.13.0 :conda:package:`pandas` >=0.22.0 :conda:package:`pip` >=9.0.1 :conda:package:`python` >=3.7,<3.8.0a0 :conda:package:`setuptools` >=24.2.0 :conda:package:`sh` >=1.12.14 
-
-   :required~by: |required_by_sonicparanoid|
+   :versions: 1.0.14-0, 1.0.13-0
+   
+   :depends biopython: >=1.67
+   
+   :depends cython: >=0.27.0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends make: 
+   
+   :depends mmseqs2: 6.f5a1c
+   
+   :depends numpy: >=1.13.0
+   
+   :depends pandas: >=0.22.0
+   
+   :depends pip: >=9.0.1
+   
+   :depends python: >=3.7,<3.8.0a0
+   
+   :depends setuptools: >=24.2.0
+   
+   :depends sh: >=1.12.14
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +61,16 @@ sonicparanoid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sonicparanoid
+      docker pull quay.io/repository/biocontainers/sonicparanoid:<tag>
+
+   (see `sonicparanoid/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sonicparanoid| conda:required_by:: sonicparanoid
 .. |downloads_sonicparanoid| image:: https://img.shields.io/conda/dn/bioconda/sonicparanoid.svg?style=flat
    :alt:   (downloads)
 .. |docker_sonicparanoid| image:: https://quay.io/repository/biocontainers/sonicparanoid/status
    :target: https://quay.io/repository/biocontainers/sonicparanoid
+.. _`sonicparanoid/tags`: https://quay.io/repository/biocontainers/sonicparanoid?tab=tags
 
 
 
@@ -64,4 +87,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sonicparanoid/README.html
-

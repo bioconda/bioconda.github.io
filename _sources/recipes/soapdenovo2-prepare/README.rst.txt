@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'soapdenovo2-prepare'
 .. highlight: bash
-
 
 soapdenovo2-prepare
 ===================
@@ -21,11 +22,13 @@ soapdenovo2-prepare
 
    |downloads_soapdenovo2-prepare| |docker_soapdenovo2-prepare|
 
-   :versions: 2.0
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_soapdenovo2-prepare|
+   :versions: 2.0-3, 2.0-1, 2.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ soapdenovo2-prepare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/soapdenovo2-prepare
+      docker pull quay.io/repository/biocontainers/soapdenovo2-prepare:<tag>
+
+   (see `soapdenovo2-prepare/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_soapdenovo2-prepare| conda:required_by:: soapdenovo2-prepare
 .. |downloads_soapdenovo2-prepare| image:: https://img.shields.io/conda/dn/bioconda/soapdenovo2-prepare.svg?style=flat
    :alt:   (downloads)
 .. |docker_soapdenovo2-prepare| image:: https://quay.io/repository/biocontainers/soapdenovo2-prepare/status
    :target: https://quay.io/repository/biocontainers/soapdenovo2-prepare
+.. _`soapdenovo2-prepare/tags`: https://quay.io/repository/biocontainers/soapdenovo2-prepare?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/soapdenovo2-prepare/README.html
-

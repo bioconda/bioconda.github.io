@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'codonw'
 .. highlight: bash
-
 
 codonw
 ======
@@ -21,11 +22,11 @@ codonw
 
    |downloads_codonw| |docker_codonw|
 
-   :versions: 1.4.4
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_codonw|
+   :versions: 1.4.4-1, 1.4.4-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ codonw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/codonw
+      docker pull quay.io/repository/biocontainers/codonw:<tag>
+
+   (see `codonw/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_codonw| conda:required_by:: codonw
 .. |downloads_codonw| image:: https://img.shields.io/conda/dn/bioconda/codonw.svg?style=flat
    :alt:   (downloads)
 .. |docker_codonw| image:: https://quay.io/repository/biocontainers/codonw/status
    :target: https://quay.io/repository/biocontainers/codonw
+.. _`codonw/tags`: https://quay.io/repository/biocontainers/codonw?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/codonw/README.html
-

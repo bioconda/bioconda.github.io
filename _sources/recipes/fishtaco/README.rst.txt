@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fishtaco'
 .. highlight: bash
-
 
 fishtaco
 ========
@@ -21,11 +22,23 @@ fishtaco
 
    |downloads_fishtaco| |docker_fishtaco|
 
-   :versions: 1.1.1, 1.0.5
-
-   :depends: :conda:package:`musicc` >=1.0.1 :conda:package:`numpy` >=1.6.1 :conda:package:`pandas` >=0.14 :conda:package:`python` 2.7* :conda:package:`scikit-learn` >=0.15.2 :conda:package:`scipy` >=0.9 :conda:package:`statsmodels` >=0.5.0 
-
-   :required~by: |required_by_fishtaco|
+   :versions: 1.1.1-0, 1.0.5-1, 1.0.5-0
+   
+   :depends musicc: >=1.0.1
+   
+   :depends numpy: >=1.6.1
+   
+   :depends pandas: >=0.14
+   
+   :depends python: 2.7*
+   
+   :depends scikit-learn: >=0.15.2
+   
+   :depends scipy: >=0.9
+   
+   :depends statsmodels: >=0.5.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ fishtaco
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fishtaco
+      docker pull quay.io/repository/biocontainers/fishtaco:<tag>
+
+   (see `fishtaco/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fishtaco| conda:required_by:: fishtaco
 .. |downloads_fishtaco| image:: https://img.shields.io/conda/dn/bioconda/fishtaco.svg?style=flat
    :alt:   (downloads)
 .. |docker_fishtaco| image:: https://quay.io/repository/biocontainers/fishtaco/status
    :target: https://quay.io/repository/biocontainers/fishtaco
+.. _`fishtaco/tags`: https://quay.io/repository/biocontainers/fishtaco?tab=tags
 
 
 
@@ -67,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fishtaco/README.html
-

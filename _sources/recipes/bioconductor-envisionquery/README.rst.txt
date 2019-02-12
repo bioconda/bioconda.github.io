@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-envisionquery'
 .. highlight: bash
-
 
 bioconductor-envisionquery
 ==========================
@@ -22,10 +23,8 @@ bioconductor-envisionquery
    |downloads_bioconductor-envisionquery| |docker_bioconductor-envisionquery|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-envisionquery|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-envisionquery
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-envisionquery
+      docker pull quay.io/repository/biocontainers/bioconductor-envisionquery:<tag>
+
+   (see `bioconductor-envisionquery/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-envisionquery| conda:required_by:: bioconductor-envisionquery
 .. |downloads_bioconductor-envisionquery| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-envisionquery.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-envisionquery| image:: https://quay.io/repository/biocontainers/bioconductor-envisionquery/status
    :target: https://quay.io/repository/biocontainers/bioconductor-envisionquery
+.. _`bioconductor-envisionquery/tags`: https://quay.io/repository/biocontainers/bioconductor-envisionquery?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-envisionquery/README.html
-

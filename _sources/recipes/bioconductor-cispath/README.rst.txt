@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cispath'
 .. highlight: bash
-
 
 bioconductor-cispath
 ====================
@@ -22,11 +23,15 @@ bioconductor-cispath
 
    |downloads_bioconductor-cispath| |docker_bioconductor-cispath|
 
-   :versions: 1.22.0, 1.20.0, 1.18.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-cispath|
+   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-cispath
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cispath
+      docker pull quay.io/repository/biocontainers/bioconductor-cispath:<tag>
+
+   (see `bioconductor-cispath/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cispath| conda:required_by:: bioconductor-cispath
 .. |downloads_bioconductor-cispath| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cispath.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cispath| image:: https://quay.io/repository/biocontainers/bioconductor-cispath/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cispath
+.. _`bioconductor-cispath/tags`: https://quay.io/repository/biocontainers/bioconductor-cispath?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cispath/README.html
-

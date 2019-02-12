@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rtu34probe'
 .. highlight: bash
-
 
 bioconductor-rtu34probe
 =======================
@@ -21,11 +22,15 @@ bioconductor-rtu34probe
 
    |downloads_bioconductor-rtu34probe| |docker_bioconductor-rtu34probe|
 
-   :versions: 2.18.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-rtu34probe|
+   :versions: 2.18.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-rtu34probe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtu34probe
+      docker pull quay.io/repository/biocontainers/bioconductor-rtu34probe:<tag>
+
+   (see `bioconductor-rtu34probe/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rtu34probe| conda:required_by:: bioconductor-rtu34probe
 .. |downloads_bioconductor-rtu34probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtu34probe.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rtu34probe| image:: https://quay.io/repository/biocontainers/bioconductor-rtu34probe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtu34probe
+.. _`bioconductor-rtu34probe/tags`: https://quay.io/repository/biocontainers/bioconductor-rtu34probe?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rtu34probe/README.html
-

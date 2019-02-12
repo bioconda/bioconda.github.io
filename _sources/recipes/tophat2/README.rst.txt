@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tophat'
 .. highlight: bash
-
 
 tophat
 ======
@@ -21,11 +22,13 @@ tophat
 
    |downloads_tophat| |docker_tophat|
 
-   :versions: 2.1.1, 2.1.0, 2.0.13
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_tophat|
+   :versions: 2.1.1-2, 2.1.1-1, 2.1.1-0, 2.1.0-0, 2.0.13-2
+   
+   :depends bowtie2: <=2.2.5
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ tophat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tophat
+      docker pull quay.io/repository/biocontainers/tophat:<tag>
+
+   (see `tophat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tophat| conda:required_by:: tophat
 .. |downloads_tophat| image:: https://img.shields.io/conda/dn/bioconda/tophat.svg?style=flat
    :alt:   (downloads)
 .. |docker_tophat| image:: https://quay.io/repository/biocontainers/tophat/status
    :target: https://quay.io/repository/biocontainers/tophat
+.. _`tophat/tags`: https://quay.io/repository/biocontainers/tophat?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tophat/README.html
-

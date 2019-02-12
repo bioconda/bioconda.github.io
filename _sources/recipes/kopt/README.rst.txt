@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kopt'
 .. highlight: bash
-
 
 kopt
 ====
@@ -21,11 +22,29 @@ kopt
 
    |downloads_kopt| |docker_kopt|
 
-   :versions: 0.1.0
-
-   :depends: :conda:package:`future`  :conda:package:`hyperopt`  :conda:package:`keras` >=2.0.4 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python`  :conda:package:`pyyaml`  :conda:package:`scikit-learn` >=0.18 :conda:package:`scipy`  
-
-   :required~by: |required_by_kopt|
+   :versions: 0.1.0-0
+   
+   :depends future: 
+   
+   :depends hyperopt: 
+   
+   :depends keras: >=2.0.4
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: 
+   
+   :depends pyyaml: 
+   
+   :depends scikit-learn: >=0.18
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ kopt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kopt
+      docker pull quay.io/repository/biocontainers/kopt:<tag>
+
+   (see `kopt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kopt| conda:required_by:: kopt
 .. |downloads_kopt| image:: https://img.shields.io/conda/dn/bioconda/kopt.svg?style=flat
    :alt:   (downloads)
 .. |docker_kopt| image:: https://quay.io/repository/biocontainers/kopt/status
    :target: https://quay.io/repository/biocontainers/kopt
+.. _`kopt/tags`: https://quay.io/repository/biocontainers/kopt?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kopt/README.html
-

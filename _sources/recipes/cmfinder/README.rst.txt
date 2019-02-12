@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cmfinder'
 .. highlight: bash
-
 
 cmfinder
 ========
@@ -21,11 +22,15 @@ cmfinder
 
    |downloads_cmfinder| |docker_cmfinder|
 
-   :versions: 0.4.1.9, 0.2
-
-   :depends: :conda:package:`blast`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  
-
-   :required~by: |required_by_cmfinder|
+   :versions: 0.4.1.9-2, 0.4.1.9-1, 0.4.1.9-0, 0.2-0
+   
+   :depends blast: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ cmfinder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cmfinder
+      docker pull quay.io/repository/biocontainers/cmfinder:<tag>
+
+   (see `cmfinder/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cmfinder| conda:required_by:: cmfinder
 .. |downloads_cmfinder| image:: https://img.shields.io/conda/dn/bioconda/cmfinder.svg?style=flat
    :alt:   (downloads)
 .. |docker_cmfinder| image:: https://quay.io/repository/biocontainers/cmfinder/status
    :target: https://quay.io/repository/biocontainers/cmfinder
+.. _`cmfinder/tags`: https://quay.io/repository/biocontainers/cmfinder?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cmfinder/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-par-packer'
 .. highlight: bash
-
 
 perl-par-packer
 ===============
@@ -21,11 +22,23 @@ perl-par-packer
 
    |downloads_perl-par-packer| |docker_perl-par-packer|
 
-   :versions: 1.036
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-getopt-argvfile`  :conda:package:`perl-getopt-long`  :conda:package:`perl-module-scandeps`  :conda:package:`perl-par`  :conda:package:`perl-par-dist`  :conda:package:`perl-text-parsewords`  
-
-   :required~by: |required_by_perl-par-packer|
+   :versions: 1.036-2, 1.036-1, 1.036-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-getopt-argvfile: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-module-scandeps: 
+   
+   :depends perl-par: 
+   
+   :depends perl-par-dist: 
+   
+   :depends perl-text-parsewords: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ perl-par-packer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-par-packer
+      docker pull quay.io/repository/biocontainers/perl-par-packer:<tag>
+
+   (see `perl-par-packer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-par-packer| conda:required_by:: perl-par-packer
 .. |downloads_perl-par-packer| image:: https://img.shields.io/conda/dn/bioconda/perl-par-packer.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-par-packer| image:: https://quay.io/repository/biocontainers/perl-par-packer/status
    :target: https://quay.io/repository/biocontainers/perl-par-packer
+.. _`perl-par-packer/tags`: https://quay.io/repository/biocontainers/perl-par-packer?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-par-packer/README.html
-

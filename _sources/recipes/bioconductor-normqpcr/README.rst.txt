@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-normqpcr'
 .. highlight: bash
-
 
 bioconductor-normqpcr
 =====================
@@ -21,11 +22,19 @@ bioconductor-normqpcr
 
    |downloads_bioconductor-normqpcr| |docker_bioconductor-normqpcr|
 
-   :versions: 1.28.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-readqpcr` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-qpcr`  :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_bioconductor-normqpcr|
+   :versions: 1.28.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-readqpcr: >=1.28.0,<1.29.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-qpcr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-normqpcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-normqpcr
+      docker pull quay.io/repository/biocontainers/bioconductor-normqpcr:<tag>
+
+   (see `bioconductor-normqpcr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-normqpcr| conda:required_by:: bioconductor-normqpcr
 .. |downloads_bioconductor-normqpcr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-normqpcr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-normqpcr| image:: https://quay.io/repository/biocontainers/bioconductor-normqpcr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-normqpcr
+.. _`bioconductor-normqpcr/tags`: https://quay.io/repository/biocontainers/bioconductor-normqpcr?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-normqpcr/README.html
-

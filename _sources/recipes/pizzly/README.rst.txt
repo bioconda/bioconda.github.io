@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pizzly'
 .. highlight: bash
-
 
 pizzly
 ======
@@ -21,11 +22,17 @@ pizzly
 
    |downloads_pizzly| |docker_pizzly|
 
-   :versions: 0.37.3, 0.37.1
-
-   :depends: :conda:package:`h5py`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`python`  
-
-   :required~by: |required_by_pizzly|
+   :versions: 0.37.3-3, 0.37.3-2, 0.37.1-0
+   
+   :depends h5py: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends numpy: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ pizzly
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pizzly
+      docker pull quay.io/repository/biocontainers/pizzly:<tag>
+
+   (see `pizzly/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pizzly| conda:required_by:: pizzly
 .. |downloads_pizzly| image:: https://img.shields.io/conda/dn/bioconda/pizzly.svg?style=flat
    :alt:   (downloads)
 .. |docker_pizzly| image:: https://quay.io/repository/biocontainers/pizzly/status
    :target: https://quay.io/repository/biocontainers/pizzly
+.. _`pizzly/tags`: https://quay.io/repository/biocontainers/pizzly?tab=tags
 
 
 
@@ -67,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pizzly/README.html
-

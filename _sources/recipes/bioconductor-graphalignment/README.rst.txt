@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-graphalignment'
 .. highlight: bash
-
 
 bioconductor-graphalignment
 ===========================
@@ -21,11 +22,13 @@ bioconductor-graphalignment
 
    |downloads_bioconductor-graphalignment| |docker_bioconductor-graphalignment|
 
-   :versions: 1.46.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-graphalignment|
+   :versions: 1.46.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-graphalignment
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-graphalignment
+      docker pull quay.io/repository/biocontainers/bioconductor-graphalignment:<tag>
+
+   (see `bioconductor-graphalignment/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-graphalignment| conda:required_by:: bioconductor-graphalignment
 .. |downloads_bioconductor-graphalignment| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-graphalignment.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-graphalignment| image:: https://quay.io/repository/biocontainers/bioconductor-graphalignment/status
    :target: https://quay.io/repository/biocontainers/bioconductor-graphalignment
+.. _`bioconductor-graphalignment/tags`: https://quay.io/repository/biocontainers/bioconductor-graphalignment?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-graphalignment/README.html
-

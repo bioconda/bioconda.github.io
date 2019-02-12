@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-imagehts'
 .. highlight: bash
-
 
 bioconductor-imagehts
 =====================
@@ -22,11 +23,23 @@ bioconductor-imagehts
 
    |downloads_bioconductor-imagehts| |docker_bioconductor-imagehts|
 
-   :versions: 1.32.0, 1.30.0, 1.26.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-cellhts2` >=2.46.0,<2.47.0 :conda:package:`bioconductor-ebimage` >=4.24.0,<4.25.0 :conda:package:`bioconductor-vsn` >=3.50.0,<3.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-hwriter`  
-
-   :required~by: |required_by_bioconductor-imagehts|
+   :versions: 1.32.0-0, 1.30.0-0, 1.26.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-cellhts2: >=2.46.0,<2.47.0
+   
+   :depends bioconductor-ebimage: >=4.24.0,<4.25.0
+   
+   :depends bioconductor-vsn: >=3.50.0,<3.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-e1071: 
+   
+   :depends r-hwriter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ bioconductor-imagehts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-imagehts
+      docker pull quay.io/repository/biocontainers/bioconductor-imagehts:<tag>
+
+   (see `bioconductor-imagehts/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-imagehts| conda:required_by:: bioconductor-imagehts
 .. |downloads_bioconductor-imagehts| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-imagehts.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-imagehts| image:: https://quay.io/repository/biocontainers/bioconductor-imagehts/status
    :target: https://quay.io/repository/biocontainers/bioconductor-imagehts
+.. _`bioconductor-imagehts/tags`: https://quay.io/repository/biocontainers/bioconductor-imagehts?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-imagehts/README.html
-

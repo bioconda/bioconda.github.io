@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'edd'
 .. highlight: bash
-
 
 edd
 ===
@@ -21,11 +22,29 @@ edd
 
    |downloads_edd| |docker_edd|
 
-   :versions: 1.1.18
-
-   :depends: :conda:package:`logbook`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`patsy`  :conda:package:`pybedtools`  :conda:package:`pysam` >=0.10.0 :conda:package:`python` 2.7* :conda:package:`python-dateutil`  :conda:package:`scipy`  :conda:package:`statsmodels`  
-
-   :required~by: |required_by_edd|
+   :versions: 1.1.18-1, 1.1.18-0
+   
+   :depends logbook: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends patsy: 
+   
+   :depends pybedtools: 
+   
+   :depends pysam: >=0.10.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends python-dateutil: 
+   
+   :depends scipy: 
+   
+   :depends statsmodels: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ edd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/edd
+      docker pull quay.io/repository/biocontainers/edd:<tag>
+
+   (see `edd/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_edd| conda:required_by:: edd
 .. |downloads_edd| image:: https://img.shields.io/conda/dn/bioconda/edd.svg?style=flat
    :alt:   (downloads)
 .. |docker_edd| image:: https://quay.io/repository/biocontainers/edd/status
    :target: https://quay.io/repository/biocontainers/edd
+.. _`edd/tags`: https://quay.io/repository/biocontainers/edd?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/edd/README.html
-

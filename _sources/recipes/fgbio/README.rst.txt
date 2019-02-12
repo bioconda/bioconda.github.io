@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fgbio'
 .. highlight: bash
-
 
 fgbio
 =====
@@ -21,11 +22,13 @@ fgbio
 
    |downloads_fgbio| |docker_fgbio|
 
-   :versions: 0.7.0, 0.6.1, 0.5.0a, 0.4.0, 0.2.1b, 0.2.1a, 0.2.0, 0.1.5a, 0.1.3a, 0.1.2a
-
-   :depends: :conda:package:`openjdk` >=8 :conda:package:`python`  
-
-   :required~by: |required_by_fgbio|
+   :versions: 0.7.0-0, 0.6.1-1, 0.6.1-0, 0.5.0a-0, 0.4.0-1, 0.4.0-0, 0.2.1b-0, 0.2.1a-0, 0.2.0-0, 0.1.5a-0, 0.1.3a-0, 0.1.2a-0
+   
+   :depends openjdk: >=8
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ fgbio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fgbio
+      docker pull quay.io/repository/biocontainers/fgbio:<tag>
+
+   (see `fgbio/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fgbio| conda:required_by:: fgbio
 .. |downloads_fgbio| image:: https://img.shields.io/conda/dn/bioconda/fgbio.svg?style=flat
    :alt:   (downloads)
 .. |docker_fgbio| image:: https://quay.io/repository/biocontainers/fgbio/status
    :target: https://quay.io/repository/biocontainers/fgbio
+.. _`fgbio/tags`: https://quay.io/repository/biocontainers/fgbio?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fgbio/README.html
-

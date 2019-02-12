@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sights'
 .. highlight: bash
-
 
 bioconductor-sights
 ===================
@@ -22,11 +23,21 @@ bioconductor-sights
 
    |downloads_bioconductor-sights| |docker_bioconductor-sights|
 
-   :versions: 1.8.0, 1.6.0, 1.4.0, 1.2.0
-
-   :depends: :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2` >=2.0 :conda:package:`r-lattice` >=0.2 :conda:package:`r-mass` >=7.3 :conda:package:`r-reshape2` >=1.4 
-
-   :required~by: |required_by_bioconductor-sights|
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
+   
+   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: >=2.0
+   
+   :depends r-lattice: >=0.2
+   
+   :depends r-mass: >=7.3
+   
+   :depends r-reshape2: >=1.4
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-sights
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sights
+      docker pull quay.io/repository/biocontainers/bioconductor-sights:<tag>
+
+   (see `bioconductor-sights/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sights| conda:required_by:: bioconductor-sights
 .. |downloads_bioconductor-sights| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sights.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sights| image:: https://quay.io/repository/biocontainers/bioconductor-sights/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sights
+.. _`bioconductor-sights/tags`: https://quay.io/repository/biocontainers/bioconductor-sights?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sights/README.html
-

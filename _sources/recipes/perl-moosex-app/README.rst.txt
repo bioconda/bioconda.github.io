@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-moosex-app'
 .. highlight: bash
-
 
 perl-moosex-app
 ===============
@@ -21,11 +22,29 @@ perl-moosex-app
 
    |downloads_perl-moosex-app| |docker_perl-moosex-app|
 
-   :versions: 1.3701, 1.39, 1.35
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-config-any`  :conda:package:`perl-file-homedir`  :conda:package:`perl-io-interactive`  :conda:package:`perl-moose`  :conda:package:`perl-moosex-types-path-class`  :conda:package:`perl-path-class`  :conda:package:`perl-pod-elemental`  :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-termreadkey`  
-
-   :required~by: |required_by_perl-moosex-app|
+   :versions: 1.3701-0, 1.39-2, 1.39-1, 1.39-0, 1.35-2, 1.35-1, 1.35-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-config-any: 
+   
+   :depends perl-file-homedir: 
+   
+   :depends perl-io-interactive: 
+   
+   :depends perl-moose: 
+   
+   :depends perl-moosex-types-path-class: 
+   
+   :depends perl-path-class: 
+   
+   :depends perl-pod-elemental: 
+   
+   :depends perl-scalar-list-utils: 
+   
+   :depends perl-termreadkey: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ perl-moosex-app
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-app
+      docker pull quay.io/repository/biocontainers/perl-moosex-app:<tag>
+
+   (see `perl-moosex-app/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-moosex-app| conda:required_by:: perl-moosex-app
 .. |downloads_perl-moosex-app| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-app.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-moosex-app| image:: https://quay.io/repository/biocontainers/perl-moosex-app/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-app
+.. _`perl-moosex-app/tags`: https://quay.io/repository/biocontainers/perl-moosex-app?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-moosex-app/README.html
-

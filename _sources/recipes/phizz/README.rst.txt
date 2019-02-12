@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'phizz'
 .. highlight: bash
-
 
 phizz
 =====
@@ -21,11 +22,19 @@ phizz
 
    |downloads_phizz| |docker_phizz|
 
-   :versions: 0.0.1
-
-   :depends: :conda:package:`click`  :conda:package:`configobj`  :conda:package:`python` 2.7* :conda:package:`setuptools`  
-
-   :required~by: |required_by_phizz|
+   :versions: 0.0.1-2, 0.0.1-0
+   
+   :depends click: 
+   
+   :depends configobj: 
+   
+   :depends intervaltree: 
+   
+   :depends python: 
+   
+   :depends setuptools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ phizz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phizz
+      docker pull quay.io/repository/biocontainers/phizz:<tag>
+
+   (see `phizz/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_phizz| conda:required_by:: phizz
 .. |downloads_phizz| image:: https://img.shields.io/conda/dn/bioconda/phizz.svg?style=flat
    :alt:   (downloads)
 .. |docker_phizz| image:: https://quay.io/repository/biocontainers/phizz/status
    :target: https://quay.io/repository/biocontainers/phizz
+.. _`phizz/tags`: https://quay.io/repository/biocontainers/phizz?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/phizz/README.html
-

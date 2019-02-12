@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cistrome-ceas'
 .. highlight: bash
-
 
 cistrome-ceas
 =============
@@ -26,11 +27,15 @@ cistrome-ceas
 
    |downloads_cistrome-ceas| |docker_cistrome-ceas|
 
-   :versions: 1.0.2b1
-
-   :depends: :conda:package:`bx-python`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`r-base`  
-
-   :required~by: |required_by_cistrome-ceas|
+   :versions: 1.0.2b1-1, 1.0.2b1-0
+   
+   :depends bx-python: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends r-base: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -44,14 +49,16 @@ cistrome-ceas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cistrome-ceas
+      docker pull quay.io/repository/biocontainers/cistrome-ceas:<tag>
+
+   (see `cistrome-ceas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cistrome-ceas| conda:required_by:: cistrome-ceas
 .. |downloads_cistrome-ceas| image:: https://img.shields.io/conda/dn/bioconda/cistrome-ceas.svg?style=flat
    :alt:   (downloads)
 .. |docker_cistrome-ceas| image:: https://quay.io/repository/biocontainers/cistrome-ceas/status
    :target: https://quay.io/repository/biocontainers/cistrome-ceas
+.. _`cistrome-ceas/tags`: https://quay.io/repository/biocontainers/cistrome-ceas?tab=tags
 
 
 
@@ -81,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cistrome-ceas/README.html
-

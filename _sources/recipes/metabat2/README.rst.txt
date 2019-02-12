@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metabat2'
 .. highlight: bash
-
 
 metabat2
 ========
@@ -21,11 +22,11 @@ metabat2
 
    |downloads_metabat2| |docker_metabat2|
 
-   :versions: 2.12.1
-
-   :depends: :conda:package:`perl` >=5 
-
-   :required~by: |required_by_metabat2|
+   :versions: 2.12.1-0
+   
+   :depends perl: >=5
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ metabat2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metabat2
+      docker pull quay.io/repository/biocontainers/metabat2:<tag>
+
+   (see `metabat2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metabat2| conda:required_by:: metabat2
 .. |downloads_metabat2| image:: https://img.shields.io/conda/dn/bioconda/metabat2.svg?style=flat
    :alt:   (downloads)
 .. |docker_metabat2| image:: https://quay.io/repository/biocontainers/metabat2/status
    :target: https://quay.io/repository/biocontainers/metabat2
+.. _`metabat2/tags`: https://quay.io/repository/biocontainers/metabat2?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metabat2/README.html
-

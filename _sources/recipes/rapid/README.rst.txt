@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rapid'
 .. highlight: bash
-
 
 rapid
 =====
@@ -21,11 +22,37 @@ rapid
 
    |downloads_rapid| |docker_rapid|
 
-   :versions: 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1
-
-   :depends: :conda:package:`bedtools`  :conda:package:`bioconductor-deseq2`  :conda:package:`bowtie2`  :conda:package:`pandoc`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-knitr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-rmarkdown`  :conda:package:`r-scales`  :conda:package:`r-viridis`  :conda:package:`samtools`  
-
-   :required~by: |required_by_rapid|
+   :versions: 0.8-1, 0.8-0, 0.7-0, 0.6-0, 0.5-0, 0.4-1, 0.4-0, 0.3-0, 0.2-3, 0.2-2, 0.2-1, 0.2-0, 0.1-0
+   
+   :depends bedtools: 2.23.0
+   
+   :depends bioconductor-deseq2: 
+   
+   :depends bowtie2: 
+   
+   :depends pandoc: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-knitr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-rmarkdown: 
+   
+   :depends r-scales: 
+   
+   :depends r-viridis: 
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ rapid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rapid
+      docker pull quay.io/repository/biocontainers/rapid:<tag>
+
+   (see `rapid/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rapid| conda:required_by:: rapid
 .. |downloads_rapid| image:: https://img.shields.io/conda/dn/bioconda/rapid.svg?style=flat
    :alt:   (downloads)
 .. |docker_rapid| image:: https://quay.io/repository/biocontainers/rapid/status
    :target: https://quay.io/repository/biocontainers/rapid
+.. _`rapid/tags`: https://quay.io/repository/biocontainers/rapid?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rapid/README.html
-

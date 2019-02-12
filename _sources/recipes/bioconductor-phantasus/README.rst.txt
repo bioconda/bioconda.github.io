@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-phantasus'
 .. highlight: bash
-
 
 bioconductor-phantasus
 ======================
@@ -21,11 +22,55 @@ bioconductor-phantasus
 
    |downloads_bioconductor-phantasus| |docker_bioconductor-phantasus|
 
-   :versions: 1.2.1
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-fgsea` >=1.8.0,<1.9.0 :conda:package:`bioconductor-geoquery` >=2.50.0,<2.51.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-rhdf5` >=2.26.0,<2.27.0 :conda:package:`r-assertthat`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ccapp`  :conda:package:`r-ggplot2`  :conda:package:`r-gtable`  :conda:package:`r-htmltools`  :conda:package:`r-httpuv`  :conda:package:`r-httr`  :conda:package:`r-jsonlite`  :conda:package:`r-matrix`  :conda:package:`r-matrix.utils`  :conda:package:`r-opencpu`  :conda:package:`r-pheatmap`  :conda:package:`r-protolite`  :conda:package:`r-rook`  :conda:package:`r-scales`  :conda:package:`r-stringr`  :conda:package:`r-svglite`  
-
-   :required~by: |required_by_bioconductor-phantasus|
+   :versions: 1.2.1-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-fgsea: >=1.8.0,<1.9.0
+   
+   :depends bioconductor-geoquery: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
+   
+   :depends r-assertthat: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ccapp: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gtable: 
+   
+   :depends r-htmltools: 
+   
+   :depends r-httpuv: 
+   
+   :depends r-httr: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-matrix: 
+   
+   :depends r-matrix.utils: 
+   
+   :depends r-opencpu: 
+   
+   :depends r-pheatmap: 
+   
+   :depends r-protolite: 
+   
+   :depends r-rook: 
+   
+   :depends r-scales: 
+   
+   :depends r-stringr: 
+   
+   :depends r-svglite: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +84,16 @@ bioconductor-phantasus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-phantasus
+      docker pull quay.io/repository/biocontainers/bioconductor-phantasus:<tag>
+
+   (see `bioconductor-phantasus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-phantasus| conda:required_by:: bioconductor-phantasus
 .. |downloads_bioconductor-phantasus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-phantasus.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-phantasus| image:: https://quay.io/repository/biocontainers/bioconductor-phantasus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-phantasus
+.. _`bioconductor-phantasus/tags`: https://quay.io/repository/biocontainers/bioconductor-phantasus?tab=tags
 
 
 
@@ -63,4 +110,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-phantasus/README.html
-

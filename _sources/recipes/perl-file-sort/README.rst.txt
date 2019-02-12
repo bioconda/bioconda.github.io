@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-sort'
 .. highlight: bash
-
 
 perl-file-sort
 ==============
@@ -21,11 +22,11 @@ perl-file-sort
 
    |downloads_perl-file-sort| |docker_perl-file-sort|
 
-   :versions: 1.01
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-file-sort|
+   :versions: 1.01-2, 1.01-1, 1.01-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-file-sort
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-sort
+      docker pull quay.io/repository/biocontainers/perl-file-sort:<tag>
+
+   (see `perl-file-sort/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-sort| conda:required_by:: perl-file-sort
 .. |downloads_perl-file-sort| image:: https://img.shields.io/conda/dn/bioconda/perl-file-sort.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-sort| image:: https://quay.io/repository/biocontainers/perl-file-sort/status
    :target: https://quay.io/repository/biocontainers/perl-file-sort
+.. _`perl-file-sort/tags`: https://quay.io/repository/biocontainers/perl-file-sort?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-sort/README.html
-

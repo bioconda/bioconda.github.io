@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mirbaseconverter'
 .. highlight: bash
-
 
 bioconductor-mirbaseconverter
 =============================
@@ -21,11 +22,11 @@ bioconductor-mirbaseconverter
 
    |downloads_bioconductor-mirbaseconverter| |docker_bioconductor-mirbaseconverter|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-mirbaseconverter|
+   :versions: 1.6.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bioconductor-mirbaseconverter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirbaseconverter
+      docker pull quay.io/repository/biocontainers/bioconductor-mirbaseconverter:<tag>
+
+   (see `bioconductor-mirbaseconverter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mirbaseconverter| conda:required_by:: bioconductor-mirbaseconverter
 .. |downloads_bioconductor-mirbaseconverter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirbaseconverter.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mirbaseconverter| image:: https://quay.io/repository/biocontainers/bioconductor-mirbaseconverter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirbaseconverter
+.. _`bioconductor-mirbaseconverter/tags`: https://quay.io/repository/biocontainers/bioconductor-mirbaseconverter?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mirbaseconverter/README.html
-

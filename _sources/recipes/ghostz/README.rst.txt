@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ghostz'
 .. highlight: bash
-
 
 ghostz
 ======
@@ -21,11 +22,13 @@ ghostz
 
    |downloads_ghostz| |docker_ghostz|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_ghostz|
+   :versions: 1.0.0-1, 1.0.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ ghostz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ghostz
+      docker pull quay.io/repository/biocontainers/ghostz:<tag>
+
+   (see `ghostz/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ghostz| conda:required_by:: ghostz
 .. |downloads_ghostz| image:: https://img.shields.io/conda/dn/bioconda/ghostz.svg?style=flat
    :alt:   (downloads)
 .. |docker_ghostz| image:: https://quay.io/repository/biocontainers/ghostz/status
    :target: https://quay.io/repository/biocontainers/ghostz
+.. _`ghostz/tags`: https://quay.io/repository/biocontainers/ghostz?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ghostz/README.html
-

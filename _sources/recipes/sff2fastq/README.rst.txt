@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sff2fastq'
 .. highlight: bash
-
 
 sff2fastq
 =========
@@ -25,11 +26,11 @@ sff2fastq
 
    |downloads_sff2fastq| |docker_sff2fastq|
 
-   :versions: 0.9.2
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_sff2fastq|
+   :versions: 0.9.2-1, 0.9.2-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -43,14 +44,16 @@ sff2fastq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sff2fastq
+      docker pull quay.io/repository/biocontainers/sff2fastq:<tag>
+
+   (see `sff2fastq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sff2fastq| conda:required_by:: sff2fastq
 .. |downloads_sff2fastq| image:: https://img.shields.io/conda/dn/bioconda/sff2fastq.svg?style=flat
    :alt:   (downloads)
 .. |docker_sff2fastq| image:: https://quay.io/repository/biocontainers/sff2fastq/status
    :target: https://quay.io/repository/biocontainers/sff2fastq
+.. _`sff2fastq/tags`: https://quay.io/repository/biocontainers/sff2fastq?tab=tags
 
 
 
@@ -67,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sff2fastq/README.html
-

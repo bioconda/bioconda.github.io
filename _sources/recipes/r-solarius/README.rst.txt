@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-solarius'
 .. highlight: bash
-
 
 r-solarius
 ==========
@@ -21,11 +22,17 @@ r-solarius
 
    |downloads_r-solarius| |docker_r-solarius|
 
-   :versions: 0.3.0.2
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-plyr` >=1.8.1 
-
-   :required~by: |required_by_r-solarius|
+   :versions: 0.3.0.2-0
+   
+   :depends r-base: 3.2.2*
+   
+   :depends r-data.table: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-plyr: >=1.8.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-solarius
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-solarius
+      docker pull quay.io/repository/biocontainers/r-solarius:<tag>
+
+   (see `r-solarius/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-solarius| conda:required_by:: r-solarius
 .. |downloads_r-solarius| image:: https://img.shields.io/conda/dn/bioconda/r-solarius.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-solarius| image:: https://quay.io/repository/biocontainers/r-solarius/status
    :target: https://quay.io/repository/biocontainers/r-solarius
+.. _`r-solarius/tags`: https://quay.io/repository/biocontainers/r-solarius?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-solarius/README.html
-

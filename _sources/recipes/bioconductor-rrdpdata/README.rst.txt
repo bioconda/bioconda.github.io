@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rrdpdata'
 .. highlight: bash
-
 
 bioconductor-rrdpdata
 =====================
@@ -21,11 +22,15 @@ bioconductor-rrdpdata
 
    |downloads_bioconductor-rrdpdata| |docker_bioconductor-rrdpdata|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-rrdp` >=1.16.0,<1.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-rrdpdata|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-rrdp: >=1.16.0,<1.17.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-rrdpdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rrdpdata
+      docker pull quay.io/repository/biocontainers/bioconductor-rrdpdata:<tag>
+
+   (see `bioconductor-rrdpdata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rrdpdata| conda:required_by:: bioconductor-rrdpdata
 .. |downloads_bioconductor-rrdpdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rrdpdata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rrdpdata| image:: https://quay.io/repository/biocontainers/bioconductor-rrdpdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rrdpdata
+.. _`bioconductor-rrdpdata/tags`: https://quay.io/repository/biocontainers/bioconductor-rrdpdata?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rrdpdata/README.html
-

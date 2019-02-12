@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-gsca'
 .. highlight: bash
-
 
 bioconductor-gsca
 =================
@@ -22,11 +23,25 @@ bioconductor-gsca
 
    |downloads_bioconductor-gsca| |docker_bioconductor-gsca|
 
-   :versions: 2.12.0, 2.10.0, 2.8.0
-
-   :depends: :conda:package:`bioconductor-rhdf5` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-shiny`  :conda:package:`r-sp`  
-
-   :required~by: |required_by_bioconductor-gsca|
+   :versions: 2.12.0-0, 2.10.0-0, 2.8.0-0
+   
+   :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-shiny: 
+   
+   :depends r-sp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ bioconductor-gsca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gsca
+      docker pull quay.io/repository/biocontainers/bioconductor-gsca:<tag>
+
+   (see `bioconductor-gsca/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-gsca| conda:required_by:: bioconductor-gsca
 .. |downloads_bioconductor-gsca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gsca.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-gsca| image:: https://quay.io/repository/biocontainers/bioconductor-gsca/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gsca
+.. _`bioconductor-gsca/tags`: https://quay.io/repository/biocontainers/bioconductor-gsca?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-gsca/README.html
-

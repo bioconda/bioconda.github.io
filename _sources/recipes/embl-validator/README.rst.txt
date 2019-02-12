@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'embl-api-validator'
 .. highlight: bash
-
 
 embl-api-validator
 ==================
@@ -21,11 +22,13 @@ embl-api-validator
 
    |downloads_embl-api-validator| |docker_embl-api-validator|
 
-   :versions: 1.1.180, 1.1.173
-
-   :depends: :conda:package:`openjdk`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_embl-api-validator|
+   :versions: 1.1.180-1, 1.1.180-0, 1.1.173-0
+   
+   :depends openjdk: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ embl-api-validator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/embl-api-validator
+      docker pull quay.io/repository/biocontainers/embl-api-validator:<tag>
+
+   (see `embl-api-validator/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_embl-api-validator| conda:required_by:: embl-api-validator
 .. |downloads_embl-api-validator| image:: https://img.shields.io/conda/dn/bioconda/embl-api-validator.svg?style=flat
    :alt:   (downloads)
 .. |docker_embl-api-validator| image:: https://quay.io/repository/biocontainers/embl-api-validator/status
    :target: https://quay.io/repository/biocontainers/embl-api-validator
+.. _`embl-api-validator/tags`: https://quay.io/repository/biocontainers/embl-api-validator?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/embl-api-validator/README.html
-

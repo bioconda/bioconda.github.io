@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-qvalue'
 .. highlight: bash
-
 
 bioconductor-qvalue
 ===================
@@ -21,11 +22,15 @@ bioconductor-qvalue
 
    |downloads_bioconductor-qvalue| |docker_bioconductor-qvalue|
 
-   :versions: 2.14.0, 2.12.0, 2.10.0, 2.8.0, 2.6.0, 2.4.2, 2.2.2
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-qvalue|
+   :versions: 2.14.0-0, 2.12.0-0, 2.10.0-0, 2.8.0-0, 2.6.0-0, 2.4.2-0, 2.2.2-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-qvalue
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qvalue
+      docker pull quay.io/repository/biocontainers/bioconductor-qvalue:<tag>
+
+   (see `bioconductor-qvalue/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-qvalue| conda:required_by:: bioconductor-qvalue
 .. |downloads_bioconductor-qvalue| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qvalue.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-qvalue| image:: https://quay.io/repository/biocontainers/bioconductor-qvalue/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qvalue
+.. _`bioconductor-qvalue/tags`: https://quay.io/repository/biocontainers/bioconductor-qvalue?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-qvalue/README.html
-

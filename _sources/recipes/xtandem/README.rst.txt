@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'xtandem'
 .. highlight: bash
-
 
 xtandem
 =======
@@ -22,11 +23,15 @@ xtandem
 
    |downloads_xtandem| |docker_xtandem|
 
-   :versions: 15.12.15.2
-
-   :depends: :conda:package:`expat`  :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_xtandem|
+   :versions: 15.12.15.2-2, 15.12.15.2-1, 15.12.15.2-0
+   
+   :depends expat: >=2.2.5,<2.3.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ xtandem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xtandem
+      docker pull quay.io/repository/biocontainers/xtandem:<tag>
+
+   (see `xtandem/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_xtandem| conda:required_by:: xtandem
 .. |downloads_xtandem| image:: https://img.shields.io/conda/dn/bioconda/xtandem.svg?style=flat
    :alt:   (downloads)
 .. |docker_xtandem| image:: https://quay.io/repository/biocontainers/xtandem/status
    :target: https://quay.io/repository/biocontainers/xtandem
+.. _`xtandem/tags`: https://quay.io/repository/biocontainers/xtandem?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/xtandem/README.html
-

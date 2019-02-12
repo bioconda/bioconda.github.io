@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-confess'
 .. highlight: bash
-
 
 bioconductor-confess
 ====================
@@ -22,10 +23,8 @@ bioconductor-confess
    |downloads_bioconductor-confess| |docker_bioconductor-confess|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-confess|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-confess
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-confess
+      docker pull quay.io/repository/biocontainers/bioconductor-confess:<tag>
+
+   (see `bioconductor-confess/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-confess| conda:required_by:: bioconductor-confess
 .. |downloads_bioconductor-confess| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-confess.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-confess| image:: https://quay.io/repository/biocontainers/bioconductor-confess/status
    :target: https://quay.io/repository/biocontainers/bioconductor-confess
+.. _`bioconductor-confess/tags`: https://quay.io/repository/biocontainers/bioconductor-confess?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-confess/README.html
-

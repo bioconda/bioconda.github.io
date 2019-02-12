@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-crisprseekplus'
 .. highlight: bash
-
 
 bioconductor-crisprseekplus
 ===========================
@@ -22,11 +23,33 @@ bioconductor-crisprseekplus
 
    |downloads_bioconductor-crisprseekplus| |docker_bioconductor-crisprseekplus|
 
-   :versions: 1.8.0, 1.6.0, 1.4.1
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-bsgenome` >=1.50.0,<1.51.0 :conda:package:`bioconductor-crisprseek` >=1.22.0,<1.23.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-guideseq` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biocmanager`  :conda:package:`r-dt`  :conda:package:`r-hash`  :conda:package:`r-shiny`  :conda:package:`r-shinyjs`  
-
-   :required~by: |required_by_bioconductor-crisprseekplus|
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.1-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
+   
+   :depends bioconductor-crisprseek: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-guideseq: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-biocmanager: 
+   
+   :depends r-dt: 
+   
+   :depends r-hash: 
+   
+   :depends r-shiny: 
+   
+   :depends r-shinyjs: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +63,16 @@ bioconductor-crisprseekplus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-crisprseekplus
+      docker pull quay.io/repository/biocontainers/bioconductor-crisprseekplus:<tag>
+
+   (see `bioconductor-crisprseekplus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-crisprseekplus| conda:required_by:: bioconductor-crisprseekplus
 .. |downloads_bioconductor-crisprseekplus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-crisprseekplus.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-crisprseekplus| image:: https://quay.io/repository/biocontainers/bioconductor-crisprseekplus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-crisprseekplus
+.. _`bioconductor-crisprseekplus/tags`: https://quay.io/repository/biocontainers/bioconductor-crisprseekplus?tab=tags
 
 
 
@@ -64,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-crisprseekplus/README.html
-

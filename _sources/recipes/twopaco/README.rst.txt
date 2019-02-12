@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'twopaco'
 .. highlight: bash
-
 
 twopaco
 =======
@@ -21,11 +22,15 @@ twopaco
 
    |downloads_twopaco| |docker_twopaco|
 
-   :versions: 0.9.2
-
-   :depends: :conda:package:`libgcc`  :conda:package:`tbb`  
-
-   :required~by: |required_by_twopaco|
+   :versions: 0.9.2-2, 0.9.2-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends tbb: >=2019.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ twopaco
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/twopaco
+      docker pull quay.io/repository/biocontainers/twopaco:<tag>
+
+   (see `twopaco/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_twopaco| conda:required_by:: twopaco
 .. |downloads_twopaco| image:: https://img.shields.io/conda/dn/bioconda/twopaco.svg?style=flat
    :alt:   (downloads)
 .. |docker_twopaco| image:: https://quay.io/repository/biocontainers/twopaco/status
    :target: https://quay.io/repository/biocontainers/twopaco
+.. _`twopaco/tags`: https://quay.io/repository/biocontainers/twopaco?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/twopaco/README.html
-

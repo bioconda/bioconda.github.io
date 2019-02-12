@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rdavidwebservice'
 .. highlight: bash
-
 
 bioconductor-rdavidwebservice
 =============================
@@ -22,10 +23,8 @@ bioconductor-rdavidwebservice
    |downloads_bioconductor-rdavidwebservice| |docker_bioconductor-rdavidwebservice|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-rdavidwebservice|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-rdavidwebservice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rdavidwebservice
+      docker pull quay.io/repository/biocontainers/bioconductor-rdavidwebservice:<tag>
+
+   (see `bioconductor-rdavidwebservice/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rdavidwebservice| conda:required_by:: bioconductor-rdavidwebservice
 .. |downloads_bioconductor-rdavidwebservice| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rdavidwebservice.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rdavidwebservice| image:: https://quay.io/repository/biocontainers/bioconductor-rdavidwebservice/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rdavidwebservice
+.. _`bioconductor-rdavidwebservice/tags`: https://quay.io/repository/biocontainers/bioconductor-rdavidwebservice?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rdavidwebservice/README.html
-

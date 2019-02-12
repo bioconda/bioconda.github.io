@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-canary-stability'
 .. highlight: bash
-
 
 perl-canary-stability
 =====================
@@ -21,11 +22,11 @@ perl-canary-stability
 
    |downloads_perl-canary-stability| |docker_perl-canary-stability|
 
-   :versions: 2012, 2006
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-canary-stability|
+   :versions: 2012-0, 2006-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-canary-stability
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-canary-stability
+      docker pull quay.io/repository/biocontainers/perl-canary-stability:<tag>
+
+   (see `perl-canary-stability/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-canary-stability| conda:required_by:: perl-canary-stability
 .. |downloads_perl-canary-stability| image:: https://img.shields.io/conda/dn/bioconda/perl-canary-stability.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-canary-stability| image:: https://quay.io/repository/biocontainers/perl-canary-stability/status
    :target: https://quay.io/repository/biocontainers/perl-canary-stability
+.. _`perl-canary-stability/tags`: https://quay.io/repository/biocontainers/perl-canary-stability?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-canary-stability/README.html
-

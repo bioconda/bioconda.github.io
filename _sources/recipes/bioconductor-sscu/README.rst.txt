@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sscu'
 .. highlight: bash
-
 
 bioconductor-sscu
 =================
@@ -22,11 +23,17 @@ bioconductor-sscu
 
    |downloads_bioconductor-sscu| |docker_bioconductor-sscu|
 
-   :versions: 2.12.0, 2.10.0, 2.8.0, 2.6.0
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-seqinr` >=3.1-3 
-
-   :required~by: |required_by_bioconductor-sscu|
+   :versions: 2.12.0-0, 2.10.0-0, 2.8.0-0, 2.6.0-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-seqinr: >=3.1-3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-sscu
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sscu
+      docker pull quay.io/repository/biocontainers/bioconductor-sscu:<tag>
+
+   (see `bioconductor-sscu/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sscu| conda:required_by:: bioconductor-sscu
 .. |downloads_bioconductor-sscu| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sscu.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sscu| image:: https://quay.io/repository/biocontainers/bioconductor-sscu/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sscu
+.. _`bioconductor-sscu/tags`: https://quay.io/repository/biocontainers/bioconductor-sscu?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sscu/README.html
-

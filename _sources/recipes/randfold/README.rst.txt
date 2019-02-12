@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'randfold'
 .. highlight: bash
-
 
 randfold
 ========
@@ -22,11 +23,11 @@ randfold
 
    |downloads_randfold| |docker_randfold|
 
-   :versions: 2.0.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_randfold|
+   :versions: 2.0.1-1, 2.0.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ randfold
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/randfold
+      docker pull quay.io/repository/biocontainers/randfold:<tag>
+
+   (see `randfold/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_randfold| conda:required_by:: randfold
 .. |downloads_randfold| image:: https://img.shields.io/conda/dn/bioconda/randfold.svg?style=flat
    :alt:   (downloads)
 .. |docker_randfold| image:: https://quay.io/repository/biocontainers/randfold/status
    :target: https://quay.io/repository/biocontainers/randfold
+.. _`randfold/tags`: https://quay.io/repository/biocontainers/randfold?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/randfold/README.html
-

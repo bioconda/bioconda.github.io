@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-moonlightr'
 .. highlight: bash
-
 
 bioconductor-moonlightr
 =======================
@@ -22,10 +23,8 @@ bioconductor-moonlightr
    |downloads_bioconductor-moonlightr| |docker_bioconductor-moonlightr|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-moonlightr|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-moonlightr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-moonlightr
+      docker pull quay.io/repository/biocontainers/bioconductor-moonlightr:<tag>
+
+   (see `bioconductor-moonlightr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-moonlightr| conda:required_by:: bioconductor-moonlightr
 .. |downloads_bioconductor-moonlightr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-moonlightr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-moonlightr| image:: https://quay.io/repository/biocontainers/bioconductor-moonlightr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-moonlightr
+.. _`bioconductor-moonlightr/tags`: https://quay.io/repository/biocontainers/bioconductor-moonlightr?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-moonlightr/README.html
-

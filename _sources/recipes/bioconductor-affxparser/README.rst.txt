@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-affxparser'
 .. highlight: bash
-
 
 bioconductor-affxparser
 =======================
@@ -21,11 +22,15 @@ bioconductor-affxparser
 
    |downloads_bioconductor-affxparser| |docker_bioconductor-affxparser|
 
-   :versions: 1.54.0, 1.52.0, 1.50.0, 1.48.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-affxparser|
+   :versions: 1.54.0-0, 1.52.0-0, 1.50.0-0, 1.48.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-affxparser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affxparser
+      docker pull quay.io/repository/biocontainers/bioconductor-affxparser:<tag>
+
+   (see `bioconductor-affxparser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-affxparser| conda:required_by:: bioconductor-affxparser
 .. |downloads_bioconductor-affxparser| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affxparser.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-affxparser| image:: https://quay.io/repository/biocontainers/bioconductor-affxparser/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affxparser
+.. _`bioconductor-affxparser/tags`: https://quay.io/repository/biocontainers/bioconductor-affxparser?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-affxparser/README.html
-

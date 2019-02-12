@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'varscan'
 .. highlight: bash
-
 
 varscan
 =======
@@ -22,11 +23,11 @@ varscan
 
    |downloads_varscan| |docker_varscan|
 
-   :versions: 2.4.3, 2.4.2, 2.4.1, 2.4.0, 2.3.7
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_varscan|
+   :versions: 2.4.3-1, 2.4.3-0, 2.4.2-2, 2.4.2-1, 2.4.2-0, 2.4.1-0, 2.4.0-1, 2.4.0-0, 2.3.7-2, 2.3.7-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ varscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/varscan
+      docker pull quay.io/repository/biocontainers/varscan:<tag>
+
+   (see `varscan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_varscan| conda:required_by:: varscan
 .. |downloads_varscan| image:: https://img.shields.io/conda/dn/bioconda/varscan.svg?style=flat
    :alt:   (downloads)
 .. |docker_varscan| image:: https://quay.io/repository/biocontainers/varscan/status
    :target: https://quay.io/repository/biocontainers/varscan
+.. _`varscan/tags`: https://quay.io/repository/biocontainers/varscan?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/varscan/README.html
-

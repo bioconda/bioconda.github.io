@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'enabrowsertools'
 .. highlight: bash
-
 
 enabrowsertools
 ===============
@@ -21,11 +22,11 @@ enabrowsertools
 
    |downloads_enabrowsertools| |docker_enabrowsertools|
 
-   :versions: 1.5.4
-
-   :depends: :conda:package:`python`  
-
-   :required~by: |required_by_enabrowsertools|
+   :versions: 1.5.4-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ enabrowsertools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/enabrowsertools
+      docker pull quay.io/repository/biocontainers/enabrowsertools:<tag>
+
+   (see `enabrowsertools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_enabrowsertools| conda:required_by:: enabrowsertools
 .. |downloads_enabrowsertools| image:: https://img.shields.io/conda/dn/bioconda/enabrowsertools.svg?style=flat
    :alt:   (downloads)
 .. |docker_enabrowsertools| image:: https://quay.io/repository/biocontainers/enabrowsertools/status
    :target: https://quay.io/repository/biocontainers/enabrowsertools
+.. _`enabrowsertools/tags`: https://quay.io/repository/biocontainers/enabrowsertools?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/enabrowsertools/README.html
-

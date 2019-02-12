@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-hicrep'
 .. highlight: bash
-
 
 bioconductor-hicrep
 ===================
@@ -21,11 +22,11 @@ bioconductor-hicrep
 
    |downloads_bioconductor-hicrep| |docker_bioconductor-hicrep|
 
-   :versions: 1.6.0, 1.4.0, 1.2.0, 1.0.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-hicrep|
+   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bioconductor-hicrep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hicrep
+      docker pull quay.io/repository/biocontainers/bioconductor-hicrep:<tag>
+
+   (see `bioconductor-hicrep/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-hicrep| conda:required_by:: bioconductor-hicrep
 .. |downloads_bioconductor-hicrep| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hicrep.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-hicrep| image:: https://quay.io/repository/biocontainers/bioconductor-hicrep/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hicrep
+.. _`bioconductor-hicrep/tags`: https://quay.io/repository/biocontainers/bioconductor-hicrep?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-hicrep/README.html
-

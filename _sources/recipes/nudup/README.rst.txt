@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nudup'
 .. highlight: bash
-
 
 nudup
 =====
@@ -21,11 +22,19 @@ nudup
 
    |downloads_nudup| |docker_nudup|
 
-   :versions: 2.3.3, 2.3.2, 2.3.1, 2.2_post2016104
-
-   :depends: :conda:package:`coreutils`  :conda:package:`grep`  :conda:package:`python` 2.7* :conda:package:`samtools` >=1.2 :conda:package:`sed`  
-
-   :required~by: |required_by_nudup|
+   :versions: 2.3.3-1, 2.3.3-0, 2.3.2-0, 2.3.1-0, 2.2_post2016104-1, 2.2_post2016104-0
+   
+   :depends coreutils: 
+   
+   :depends grep: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: >=1.2
+   
+   :depends sed: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ nudup
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nudup
+      docker pull quay.io/repository/biocontainers/nudup:<tag>
+
+   (see `nudup/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nudup| conda:required_by:: nudup
 .. |downloads_nudup| image:: https://img.shields.io/conda/dn/bioconda/nudup.svg?style=flat
    :alt:   (downloads)
 .. |docker_nudup| image:: https://quay.io/repository/biocontainers/nudup/status
    :target: https://quay.io/repository/biocontainers/nudup
+.. _`nudup/tags`: https://quay.io/repository/biocontainers/nudup?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nudup/README.html
-

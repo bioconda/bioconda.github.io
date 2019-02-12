@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'libdeflate'
 .. highlight: bash
-
 
 libdeflate
 ==========
@@ -21,11 +22,11 @@ libdeflate
 
    |downloads_libdeflate| |docker_libdeflate|
 
-   :versions: 1.0, 0.8
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 
-
-   :required~by: |required_by_libdeflate|
+   :versions: 1.0-1, 1.0-0, 0.8-2, 0.8-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ libdeflate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libdeflate
+      docker pull quay.io/repository/biocontainers/libdeflate:<tag>
+
+   (see `libdeflate/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_libdeflate| conda:required_by:: libdeflate
 .. |downloads_libdeflate| image:: https://img.shields.io/conda/dn/bioconda/libdeflate.svg?style=flat
    :alt:   (downloads)
 .. |docker_libdeflate| image:: https://quay.io/repository/biocontainers/libdeflate/status
    :target: https://quay.io/repository/biocontainers/libdeflate
+.. _`libdeflate/tags`: https://quay.io/repository/biocontainers/libdeflate?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/libdeflate/README.html
-

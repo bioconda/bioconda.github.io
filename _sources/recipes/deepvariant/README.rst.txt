@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'deepvariant'
 .. highlight: bash
-
 
 deepvariant
 ===========
@@ -21,11 +22,51 @@ deepvariant
 
    |downloads_deepvariant| |docker_deepvariant|
 
-   :versions: 0.7.2, 0.7.1, 0.7.0, 0.6.1, 0.6.0, 0.4.1
-
-   :depends: :conda:package:`boost`  :conda:package:`contextlib2`  :conda:package:`crcmod`  :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`enum34`  :conda:package:`google-cloud-sdk`  :conda:package:`htslib`  :conda:package:`intervaltree`  :conda:package:`mock`  :conda:package:`numpy` 1.14.* :conda:package:`oauth2client`  :conda:package:`openjdk` >=8,<9 :conda:package:`parallel`  :conda:package:`protobuf`  :conda:package:`psutil`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`requests`  :conda:package:`scipy`  :conda:package:`six`  :conda:package:`tensorflow` 1.11.* :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_deepvariant|
+   :versions: 0.7.2-1, 0.7.2-0, 0.7.1-0, 0.7.0-0, 0.6.1-3, 0.6.1-2, 0.6.1-0, 0.6.0-0, 0.4.1-1, 0.4.1-0
+   
+   :depends boost: 
+   
+   :depends contextlib2: 
+   
+   :depends crcmod: 
+   
+   :depends curl: >=7.59.0,<8.0a0
+   
+   :depends enum34: 
+   
+   :depends google-cloud-sdk: 
+   
+   :depends htslib: 
+   
+   :depends intervaltree: 
+   
+   :depends mock: 
+   
+   :depends numpy: 1.14.*
+   
+   :depends oauth2client: 
+   
+   :depends openjdk: >=8,<9
+   
+   :depends parallel: 
+   
+   :depends protobuf: 
+   
+   :depends psutil: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends requests: 
+   
+   :depends scipy: 
+   
+   :depends six: 
+   
+   :depends tensorflow: 1.12.*
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +80,16 @@ deepvariant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/deepvariant
+      docker pull quay.io/repository/biocontainers/deepvariant:<tag>
+
+   (see `deepvariant/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_deepvariant| conda:required_by:: deepvariant
 .. |downloads_deepvariant| image:: https://img.shields.io/conda/dn/bioconda/deepvariant.svg?style=flat
    :alt:   (downloads)
 .. |docker_deepvariant| image:: https://quay.io/repository/biocontainers/deepvariant/status
    :target: https://quay.io/repository/biocontainers/deepvariant
+.. _`deepvariant/tags`: https://quay.io/repository/biocontainers/deepvariant?tab=tags
 
 
 
@@ -63,4 +106,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/deepvariant/README.html
-

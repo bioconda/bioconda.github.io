@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'graphlite'
 .. highlight: bash
-
 
 graphlite
 =========
@@ -21,11 +22,11 @@ graphlite
 
    |downloads_graphlite| |docker_graphlite|
 
-   :versions: 1.0.5
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_graphlite|
+   :versions: 1.0.5-1, 1.0.5-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ graphlite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/graphlite
+      docker pull quay.io/repository/biocontainers/graphlite:<tag>
+
+   (see `graphlite/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_graphlite| conda:required_by:: graphlite
 .. |downloads_graphlite| image:: https://img.shields.io/conda/dn/bioconda/graphlite.svg?style=flat
    :alt:   (downloads)
 .. |docker_graphlite| image:: https://quay.io/repository/biocontainers/graphlite/status
    :target: https://quay.io/repository/biocontainers/graphlite
+.. _`graphlite/tags`: https://quay.io/repository/biocontainers/graphlite?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/graphlite/README.html
-

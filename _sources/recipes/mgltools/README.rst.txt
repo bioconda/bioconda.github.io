@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mgltools'
 .. highlight: bash
-
 
 mgltools
 ========
@@ -21,11 +22,9 @@ mgltools
 
    |downloads_mgltools| |docker_mgltools|
 
-   :versions: 1.5.6
-
-   :depends: 
-
-   :required~by: |required_by_mgltools|
+   :versions: 1.5.6-1, 1.5.6-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ mgltools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mgltools
+      docker pull quay.io/repository/biocontainers/mgltools:<tag>
+
+   (see `mgltools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mgltools| conda:required_by:: mgltools
 .. |downloads_mgltools| image:: https://img.shields.io/conda/dn/bioconda/mgltools.svg?style=flat
    :alt:   (downloads)
 .. |docker_mgltools| image:: https://quay.io/repository/biocontainers/mgltools/status
    :target: https://quay.io/repository/biocontainers/mgltools
+.. _`mgltools/tags`: https://quay.io/repository/biocontainers/mgltools?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mgltools/README.html
-

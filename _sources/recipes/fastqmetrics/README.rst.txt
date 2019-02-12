@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastqmetrics'
 .. highlight: bash
-
 
 fastqmetrics
 ============
@@ -21,11 +22,13 @@ fastqmetrics
 
    |downloads_fastqmetrics| |docker_fastqmetrics|
 
-   :versions: 0.1.0
-
-   :depends: :conda:package:`nanoget` >=0.14.0 :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_fastqmetrics|
+   :versions: 0.1.0-1, 0.1.0-0
+   
+   :depends nanoget: >=0.14.0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ fastqmetrics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastqmetrics
+      docker pull quay.io/repository/biocontainers/fastqmetrics:<tag>
+
+   (see `fastqmetrics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastqmetrics| conda:required_by:: fastqmetrics
 .. |downloads_fastqmetrics| image:: https://img.shields.io/conda/dn/bioconda/fastqmetrics.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastqmetrics| image:: https://quay.io/repository/biocontainers/fastqmetrics/status
    :target: https://quay.io/repository/biocontainers/fastqmetrics
+.. _`fastqmetrics/tags`: https://quay.io/repository/biocontainers/fastqmetrics?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastqmetrics/README.html
-

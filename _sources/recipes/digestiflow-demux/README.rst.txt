@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'digestiflow-demux'
 .. highlight: bash
-
 
 digestiflow-demux
 =================
@@ -21,11 +22,23 @@ digestiflow-demux
 
    |downloads_digestiflow-demux| |docker_digestiflow-demux|
 
-   :versions: 0.2.0, 0.1.0
-
-   :depends: :conda:package:`attrs` >=18.2.0 :conda:package:`coloredlogs` >=10.0 :conda:package:`git`  :conda:package:`python` >=3.5 :conda:package:`requests`  :conda:package:`snakemake` >=5.4.0 :conda:package:`toml` >=0.10.0 
-
-   :required~by: |required_by_digestiflow-demux|
+   :versions: 0.2.0-0, 0.1.0-0
+   
+   :depends attrs: >=18.2.0
+   
+   :depends coloredlogs: >=10.0
+   
+   :depends git: 
+   
+   :depends python: >=3.5
+   
+   :depends requests: 
+   
+   :depends snakemake: >=5.4.0
+   
+   :depends toml: >=0.10.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ digestiflow-demux
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/digestiflow-demux
+      docker pull quay.io/repository/biocontainers/digestiflow-demux:<tag>
+
+   (see `digestiflow-demux/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_digestiflow-demux| conda:required_by:: digestiflow-demux
 .. |downloads_digestiflow-demux| image:: https://img.shields.io/conda/dn/bioconda/digestiflow-demux.svg?style=flat
    :alt:   (downloads)
 .. |docker_digestiflow-demux| image:: https://quay.io/repository/biocontainers/digestiflow-demux/status
    :target: https://quay.io/repository/biocontainers/digestiflow-demux
+.. _`digestiflow-demux/tags`: https://quay.io/repository/biocontainers/digestiflow-demux?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/digestiflow-demux/README.html
-

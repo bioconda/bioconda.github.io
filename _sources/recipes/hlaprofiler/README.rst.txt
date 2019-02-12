@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hlaprofiler'
 .. highlight: bash
-
 
 hlaprofiler
 ===========
@@ -21,11 +22,25 @@ hlaprofiler
 
    |downloads_hlaprofiler| |docker_hlaprofiler|
 
-   :versions: 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1
-
-   :depends: :conda:package:`kraken-ea`  :conda:package:`perl-base`  :conda:package:`perl-class-load`  :conda:package:`perl-file-compare`  :conda:package:`perl-file-slurp`  :conda:package:`perl-parallel-forkmanager`  :conda:package:`perl-statistics-basic`  :conda:package:`perl-test-trap`  
-
-   :required~by: |required_by_hlaprofiler|
+   :versions: 1.0.5-1, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-0, 1.0.1-0
+   
+   :depends kraken-ea: 
+   
+   :depends perl-base: 
+   
+   :depends perl-class-load: 
+   
+   :depends perl-file-compare: 
+   
+   :depends perl-file-slurp: 
+   
+   :depends perl-parallel-forkmanager: 
+   
+   :depends perl-statistics-basic: 
+   
+   :depends perl-test-trap: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ hlaprofiler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hlaprofiler
+      docker pull quay.io/repository/biocontainers/hlaprofiler:<tag>
+
+   (see `hlaprofiler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hlaprofiler| conda:required_by:: hlaprofiler
 .. |downloads_hlaprofiler| image:: https://img.shields.io/conda/dn/bioconda/hlaprofiler.svg?style=flat
    :alt:   (downloads)
 .. |docker_hlaprofiler| image:: https://quay.io/repository/biocontainers/hlaprofiler/status
    :target: https://quay.io/repository/biocontainers/hlaprofiler
+.. _`hlaprofiler/tags`: https://quay.io/repository/biocontainers/hlaprofiler?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hlaprofiler/README.html
-

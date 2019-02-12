@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-tie-refhash'
 .. highlight: bash
-
 
 perl-tie-refhash
 ================
@@ -21,11 +22,11 @@ perl-tie-refhash
 
    |downloads_perl-tie-refhash| |docker_perl-tie-refhash|
 
-   :versions: 1.39
-
-   :depends: :conda:package:`perl` >5.22,<6.0 
-
-   :required~by: |required_by_perl-tie-refhash|
+   :versions: 1.39-2, 1.39-1, 1.39-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-tie-refhash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-tie-refhash
+      docker pull quay.io/repository/biocontainers/perl-tie-refhash:<tag>
+
+   (see `perl-tie-refhash/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-tie-refhash| conda:required_by:: perl-tie-refhash
 .. |downloads_perl-tie-refhash| image:: https://img.shields.io/conda/dn/bioconda/perl-tie-refhash.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-tie-refhash| image:: https://quay.io/repository/biocontainers/perl-tie-refhash/status
    :target: https://quay.io/repository/biocontainers/perl-tie-refhash
+.. _`perl-tie-refhash/tags`: https://quay.io/repository/biocontainers/perl-tie-refhash?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-tie-refhash/README.html
-

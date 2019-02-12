@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'moff'
 .. highlight: bash
-
 
 moff
 ====
@@ -21,11 +22,29 @@ moff
 
    |downloads_moff| |docker_moff|
 
-   :versions: 2.0.2, 2.0.1, 1.2.1, 1.2, 1.1
-
-   :depends: :conda:package:`brain-isotopic-distribution`  :conda:package:`mono`  :conda:package:`numpy` >=1.15.* :conda:package:`pandas` >=0.23.* :conda:package:`pymzml` >=2.0.5 :conda:package:`pyteomics` >=3.5 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`scikit-learn` >0.19 :conda:package:`scipy` >=1.1.* :conda:package:`simplejson` >=3.16.1 
-
-   :required~by: |required_by_moff|
+   :versions: 2.0.2-0, 2.0.1-0, 1.2.1-1, 1.2.1-0, 1.2-0, 1.1-0
+   
+   :depends brain-isotopic-distribution: 
+   
+   :depends mono: 
+   
+   :depends numpy: >=1.15.*
+   
+   :depends pandas: >=0.23.*
+   
+   :depends pymzml: >=2.0.5
+   
+   :depends pyteomics: >=3.5
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :depends scikit-learn: >0.19
+   
+   :depends scipy: >=1.1.*
+   
+   :depends simplejson: >=3.16.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ moff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/moff
+      docker pull quay.io/repository/biocontainers/moff:<tag>
+
+   (see `moff/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_moff| conda:required_by:: moff
 .. |downloads_moff| image:: https://img.shields.io/conda/dn/bioconda/moff.svg?style=flat
    :alt:   (downloads)
 .. |docker_moff| image:: https://quay.io/repository/biocontainers/moff/status
    :target: https://quay.io/repository/biocontainers/moff
+.. _`moff/tags`: https://quay.io/repository/biocontainers/moff?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/moff/README.html
-

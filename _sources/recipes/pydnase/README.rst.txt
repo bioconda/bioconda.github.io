@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pydnase'
 .. highlight: bash
-
 
 pydnase
 =======
@@ -23,11 +24,25 @@ pydnase
 
    |downloads_pydnase| |docker_pydnase|
 
-   :versions: 0.3.0, 0.2.6
-
-   :depends: :conda:package:`bedtools`  :conda:package:`clint`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pybedtools`  :conda:package:`pysam`  :conda:package:`python` 3.5* :conda:package:`samtools`  
-
-   :required~by: |required_by_pydnase|
+   :versions: 0.3.0-1, 0.3.0-0, 0.2.6-1, 0.2.6-0
+   
+   :depends bedtools: 
+   
+   :depends clint: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pybedtools: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +56,16 @@ pydnase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pydnase
+      docker pull quay.io/repository/biocontainers/pydnase:<tag>
+
+   (see `pydnase/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pydnase| conda:required_by:: pydnase
 .. |downloads_pydnase| image:: https://img.shields.io/conda/dn/bioconda/pydnase.svg?style=flat
    :alt:   (downloads)
 .. |docker_pydnase| image:: https://quay.io/repository/biocontainers/pydnase/status
    :target: https://quay.io/repository/biocontainers/pydnase
+.. _`pydnase/tags`: https://quay.io/repository/biocontainers/pydnase?tab=tags
 
 
 
@@ -65,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pydnase/README.html
-

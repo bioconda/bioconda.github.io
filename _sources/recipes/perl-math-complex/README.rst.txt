@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-math-complex'
 .. highlight: bash
-
 
 perl-math-complex
 =================
@@ -21,11 +22,13 @@ perl-math-complex
 
    |downloads_perl-math-complex| |docker_perl-math-complex|
 
-   :versions: 1.59
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-exporter`  
-
-   :required~by: |required_by_perl-math-complex|
+   :versions: 1.59-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-exporter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-math-complex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-complex
+      docker pull quay.io/repository/biocontainers/perl-math-complex:<tag>
+
+   (see `perl-math-complex/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-math-complex| conda:required_by:: perl-math-complex
 .. |downloads_perl-math-complex| image:: https://img.shields.io/conda/dn/bioconda/perl-math-complex.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-math-complex| image:: https://quay.io/repository/biocontainers/perl-math-complex/status
    :target: https://quay.io/repository/biocontainers/perl-math-complex
+.. _`perl-math-complex/tags`: https://quay.io/repository/biocontainers/perl-math-complex?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-math-complex/README.html
-

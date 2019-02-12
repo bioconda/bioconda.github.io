@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hulk'
 .. highlight: bash
-
 
 hulk
 ====
@@ -21,11 +22,9 @@ hulk
 
    |downloads_hulk| |docker_hulk|
 
-   :versions: 0.1.2, 0.1.0, 0.0.2, 0.0.1
-
-   :depends: 
-
-   :required~by: |required_by_hulk|
+   :versions: 0.1.2-1, 0.1.0-1, 0.0.2-1, 0.0.1-1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ hulk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hulk
+      docker pull quay.io/repository/biocontainers/hulk:<tag>
+
+   (see `hulk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hulk| conda:required_by:: hulk
 .. |downloads_hulk| image:: https://img.shields.io/conda/dn/bioconda/hulk.svg?style=flat
    :alt:   (downloads)
 .. |docker_hulk| image:: https://quay.io/repository/biocontainers/hulk/status
    :target: https://quay.io/repository/biocontainers/hulk
+.. _`hulk/tags`: https://quay.io/repository/biocontainers/hulk?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hulk/README.html
-

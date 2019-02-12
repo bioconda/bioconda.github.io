@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gatk'
 .. highlight: bash
-
 
 gatk
 ====
@@ -22,11 +23,23 @@ gatk
 
    |downloads_gatk| |docker_gatk|
 
-   :versions: 3.8, 3.7, 3.6, 3.5
-
-   :depends: :conda:package:`bzip2`  :conda:package:`openjdk` >=8,<9 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_gatk|
+   :versions: 3.8-5, 3.8-4, 3.8-3, 3.8-2, 3.8-1, 3.8-0, 3.7-1, 3.7-0, 3.6-6, 3.6-5, 3.6-4, 3.6-3, 3.6-2, 3.6-1, 3.5-6, 3.5-5
+   
+   :depends bzip2: 
+   
+   :depends openjdk: >=8,<9
+   
+   :depends python: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-gsalib: 
+   
+   :depends r-reshape: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ gatk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gatk
+      docker pull quay.io/repository/biocontainers/gatk:<tag>
+
+   (see `gatk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gatk| conda:required_by:: gatk
 .. |downloads_gatk| image:: https://img.shields.io/conda/dn/bioconda/gatk.svg?style=flat
    :alt:   (downloads)
 .. |docker_gatk| image:: https://quay.io/repository/biocontainers/gatk/status
    :target: https://quay.io/repository/biocontainers/gatk
+.. _`gatk/tags`: https://quay.io/repository/biocontainers/gatk?tab=tags
 
 
 
@@ -68,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gatk/README.html
-

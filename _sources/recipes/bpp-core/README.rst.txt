@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bpp-core'
 .. highlight: bash
-
 
 bpp-core
 ========
@@ -21,11 +22,11 @@ bpp-core
 
    |downloads_bpp-core| |docker_bpp-core|
 
-   :versions: 2.4.1, 2.2.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_bpp-core|
+   :versions: 2.4.1-0, 2.2.0-1, 2.2.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bpp-core
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bpp-core
+      docker pull quay.io/repository/biocontainers/bpp-core:<tag>
+
+   (see `bpp-core/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bpp-core| conda:required_by:: bpp-core
 .. |downloads_bpp-core| image:: https://img.shields.io/conda/dn/bioconda/bpp-core.svg?style=flat
    :alt:   (downloads)
 .. |docker_bpp-core| image:: https://quay.io/repository/biocontainers/bpp-core/status
    :target: https://quay.io/repository/biocontainers/bpp-core
+.. _`bpp-core/tags`: https://quay.io/repository/biocontainers/bpp-core?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bpp-core/README.html
-

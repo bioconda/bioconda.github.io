@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-copyneutralima'
 .. highlight: bash
-
 
 bioconductor-copyneutralima
 ===========================
@@ -21,11 +22,17 @@ bioconductor-copyneutralima
 
    |downloads_bioconductor-copyneutralima| |docker_bioconductor-copyneutralima|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-experimenthub` >=1.8.0,<1.9.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rdpack` >=0.8 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-copyneutralima|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rdpack: >=0.8
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-copyneutralima
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-copyneutralima
+      docker pull quay.io/repository/biocontainers/bioconductor-copyneutralima:<tag>
+
+   (see `bioconductor-copyneutralima/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-copyneutralima| conda:required_by:: bioconductor-copyneutralima
 .. |downloads_bioconductor-copyneutralima| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-copyneutralima.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-copyneutralima| image:: https://quay.io/repository/biocontainers/bioconductor-copyneutralima/status
    :target: https://quay.io/repository/biocontainers/bioconductor-copyneutralima
+.. _`bioconductor-copyneutralima/tags`: https://quay.io/repository/biocontainers/bioconductor-copyneutralima?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-copyneutralima/README.html
-

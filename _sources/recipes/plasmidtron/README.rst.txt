@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'plasmidtron'
 .. highlight: bash
-
 
 plasmidtron
 ===========
@@ -21,11 +22,21 @@ plasmidtron
 
    |downloads_plasmidtron| |docker_plasmidtron|
 
-   :versions: 0.4.1, 0.3.5, 0.3.3
-
-   :depends: :conda:package:`biopython`  :conda:package:`kmc` >=2.3.0 :conda:package:`matplotlib`  :conda:package:`pyfastaq` >=3.12.0 :conda:package:`python` 3.5* :conda:package:`spades` >=3.9.0 
-
-   :required~by: |required_by_plasmidtron|
+   :versions: 0.4.1-1, 0.4.1-0, 0.3.5-0, 0.3.3-0
+   
+   :depends biopython: 
+   
+   :depends kmc: >=2.3.0
+   
+   :depends matplotlib: 
+   
+   :depends pyfastaq: >=3.12.0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends spades: >=3.9.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ plasmidtron
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plasmidtron
+      docker pull quay.io/repository/biocontainers/plasmidtron:<tag>
+
+   (see `plasmidtron/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_plasmidtron| conda:required_by:: plasmidtron
 .. |downloads_plasmidtron| image:: https://img.shields.io/conda/dn/bioconda/plasmidtron.svg?style=flat
    :alt:   (downloads)
 .. |docker_plasmidtron| image:: https://quay.io/repository/biocontainers/plasmidtron/status
    :target: https://quay.io/repository/biocontainers/plasmidtron
+.. _`plasmidtron/tags`: https://quay.io/repository/biocontainers/plasmidtron?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/plasmidtron/README.html
-

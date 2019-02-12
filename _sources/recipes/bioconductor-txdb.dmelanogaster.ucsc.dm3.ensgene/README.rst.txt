@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene'
 .. highlight: bash
-
 
 bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene
 ================================================
@@ -21,11 +22,17 @@ bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene
 
    |downloads_bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene| |docker_bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene|
 
-   :versions: 3.2.2
-
-   :depends: :conda:package:`bioconductor-annotationdbi`  :conda:package:`bioconductor-genomicfeatures` >=1.21.30 :conda:package:`r` 3.2.2* 
-
-   :required~by: |required_by_bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene|
+   :versions: 3.2.2-5, 3.2.2-4, 3.2.2-2, 3.2.2-1, 3.2.2-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene
+      docker pull quay.io/repository/biocontainers/bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene:<tag>
+
+   (see `bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene| conda:required_by:: bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene
 .. |downloads_bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene
+.. _`bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene/tags`: https://quay.io/repository/biocontainers/bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene/README.html
-

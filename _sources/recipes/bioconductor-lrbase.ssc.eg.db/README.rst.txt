@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-lrbase.ssc.eg.db'
 .. highlight: bash
-
 
 bioconductor-lrbase.ssc.eg.db
 =============================
@@ -21,11 +22,17 @@ bioconductor-lrbase.ssc.eg.db
 
    |downloads_bioconductor-lrbase.ssc.eg.db| |docker_bioconductor-lrbase.ssc.eg.db|
 
-   :versions: 0.99.1
-
-   :depends: :conda:package:`bioconductor-lrbasedbi` >=1.0.0,<1.1.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rsqlite`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-lrbase.ssc.eg.db|
+   :versions: 0.99.1-0
+   
+   :depends bioconductor-lrbasedbi: >=1.0.0,<1.1.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rsqlite: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-lrbase.ssc.eg.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lrbase.ssc.eg.db
+      docker pull quay.io/repository/biocontainers/bioconductor-lrbase.ssc.eg.db:<tag>
+
+   (see `bioconductor-lrbase.ssc.eg.db/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-lrbase.ssc.eg.db| conda:required_by:: bioconductor-lrbase.ssc.eg.db
 .. |downloads_bioconductor-lrbase.ssc.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lrbase.ssc.eg.db.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-lrbase.ssc.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-lrbase.ssc.eg.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lrbase.ssc.eg.db
+.. _`bioconductor-lrbase.ssc.eg.db/tags`: https://quay.io/repository/biocontainers/bioconductor-lrbase.ssc.eg.db?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-lrbase.ssc.eg.db/README.html
-

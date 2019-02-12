@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-soap-lite'
 .. highlight: bash
-
 
 perl-soap-lite
 ==============
@@ -21,11 +22,31 @@ perl-soap-lite
 
    |downloads_perl-soap-lite| |docker_perl-soap-lite|
 
-   :versions: 1.19
-
-   :depends: :conda:package:`perl-class-inspector`  :conda:package:`perl-io-sessiondata`  :conda:package:`perl-io-socket-ssl`  :conda:package:`perl-libwww-perl`  :conda:package:`perl-lwp-protocol-https`  :conda:package:`perl-mime-lite`  :conda:package:`perl-mime-tools`  :conda:package:`perl-task-weaken`  :conda:package:`perl-threaded`  :conda:package:`perl-uri`  :conda:package:`perl-xml-parser`  
-
-   :required~by: |required_by_perl-soap-lite|
+   :versions: 1.19-1, 1.19-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-class-inspector: 
+   
+   :depends perl-io-sessiondata: 
+   
+   :depends perl-io-socket-ssl: 
+   
+   :depends perl-libwww-perl: 
+   
+   :depends perl-lwp-protocol-https: 
+   
+   :depends perl-mime-lite: 
+   
+   :depends perl-mime-tools: 
+   
+   :depends perl-task-weaken: 
+   
+   :depends perl-uri: 
+   
+   :depends perl-xml-parser: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ perl-soap-lite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-soap-lite
+      docker pull quay.io/repository/biocontainers/perl-soap-lite:<tag>
+
+   (see `perl-soap-lite/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-soap-lite| conda:required_by:: perl-soap-lite
 .. |downloads_perl-soap-lite| image:: https://img.shields.io/conda/dn/bioconda/perl-soap-lite.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-soap-lite| image:: https://quay.io/repository/biocontainers/perl-soap-lite/status
    :target: https://quay.io/repository/biocontainers/perl-soap-lite
+.. _`perl-soap-lite/tags`: https://quay.io/repository/biocontainers/perl-soap-lite?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-soap-lite/README.html
-

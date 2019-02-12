@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'spotyping'
 .. highlight: bash
-
 
 spotyping
 =========
@@ -22,11 +23,15 @@ spotyping
 
    |downloads_spotyping| |docker_spotyping|
 
-   :versions: 2.1
-
-   :depends: :conda:package:`blast`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_spotyping|
+   :versions: 2.1-2, 2.1-1, 2.1-0
+   
+   :depends blast: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends r-gdata: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ spotyping
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spotyping
+      docker pull quay.io/repository/biocontainers/spotyping:<tag>
+
+   (see `spotyping/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_spotyping| conda:required_by:: spotyping
 .. |downloads_spotyping| image:: https://img.shields.io/conda/dn/bioconda/spotyping.svg?style=flat
    :alt:   (downloads)
 .. |docker_spotyping| image:: https://quay.io/repository/biocontainers/spotyping/status
    :target: https://quay.io/repository/biocontainers/spotyping
+.. _`spotyping/tags`: https://quay.io/repository/biocontainers/spotyping?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/spotyping/README.html
-

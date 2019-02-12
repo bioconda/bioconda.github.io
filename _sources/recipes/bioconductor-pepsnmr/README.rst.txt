@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pepsnmr'
 .. highlight: bash
-
 
 bioconductor-pepsnmr
 ====================
@@ -21,11 +22,23 @@ bioconductor-pepsnmr
 
    |downloads_bioconductor-pepsnmr| |docker_bioconductor-pepsnmr|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-matrix`  :conda:package:`r-matrixstats`  :conda:package:`r-ptw`  :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-pepsnmr|
+   :versions: 1.0.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-matrix: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-ptw: 
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-pepsnmr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pepsnmr
+      docker pull quay.io/repository/biocontainers/bioconductor-pepsnmr:<tag>
+
+   (see `bioconductor-pepsnmr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pepsnmr| conda:required_by:: bioconductor-pepsnmr
 .. |downloads_bioconductor-pepsnmr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pepsnmr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pepsnmr| image:: https://quay.io/repository/biocontainers/bioconductor-pepsnmr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pepsnmr
+.. _`bioconductor-pepsnmr/tags`: https://quay.io/repository/biocontainers/bioconductor-pepsnmr?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pepsnmr/README.html
-

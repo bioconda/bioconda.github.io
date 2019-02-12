@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-flowbeads'
 .. highlight: bash
-
 
 bioconductor-flowbeads
 ======================
@@ -22,11 +23,21 @@ bioconductor-flowbeads
 
    |downloads_bioconductor-flowbeads| |docker_bioconductor-flowbeads|
 
-   :versions: 1.20.0, 1.18.0, 1.16.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-flowcore` >=1.48.0,<1.49.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-knitr`  :conda:package:`r-rrcov`  :conda:package:`r-xtable`  
-
-   :required~by: |required_by_bioconductor-flowbeads|
+   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-flowcore: >=1.48.0,<1.49.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-knitr: 
+   
+   :depends r-rrcov: 
+   
+   :depends r-xtable: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-flowbeads
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowbeads
+      docker pull quay.io/repository/biocontainers/bioconductor-flowbeads:<tag>
+
+   (see `bioconductor-flowbeads/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-flowbeads| conda:required_by:: bioconductor-flowbeads
 .. |downloads_bioconductor-flowbeads| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowbeads.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-flowbeads| image:: https://quay.io/repository/biocontainers/bioconductor-flowbeads/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowbeads
+.. _`bioconductor-flowbeads/tags`: https://quay.io/repository/biocontainers/bioconductor-flowbeads?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-flowbeads/README.html
-

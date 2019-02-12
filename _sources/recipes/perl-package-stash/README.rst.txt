@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-package-stash'
 .. highlight: bash
-
 
 perl-package-stash
 ==================
@@ -21,11 +22,29 @@ perl-package-stash
 
    |downloads_perl-package-stash| |docker_perl-package-stash|
 
-   :versions: 0.38, 0.37
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-apache-test`  :conda:package:`perl-app-cpanminus`  :conda:package:`perl-dist-checkconflicts`  :conda:package:`perl-getopt-long`  :conda:package:`perl-module-implementation`  :conda:package:`perl-package-stash-xs`  :conda:package:`perl-scalar-list-utils`  
-
-   :required~by: |required_by_perl-package-stash|
+   :versions: 0.38-0, 0.37-2, 0.37-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-apache-test: 
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-dist-checkconflicts: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-module-implementation: 
+   
+   :depends perl-package-stash-xs: 
+   
+   :depends perl-scalar-list-utils: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ perl-package-stash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-package-stash
+      docker pull quay.io/repository/biocontainers/perl-package-stash:<tag>
+
+   (see `perl-package-stash/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-package-stash| conda:required_by:: perl-package-stash
 .. |downloads_perl-package-stash| image:: https://img.shields.io/conda/dn/bioconda/perl-package-stash.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-package-stash| image:: https://quay.io/repository/biocontainers/perl-package-stash/status
    :target: https://quay.io/repository/biocontainers/perl-package-stash
+.. _`perl-package-stash/tags`: https://quay.io/repository/biocontainers/perl-package-stash?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-package-stash/README.html
-

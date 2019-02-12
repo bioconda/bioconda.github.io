@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'wiggletools'
 .. highlight: bash
-
 
 wiggletools
 ===========
@@ -21,11 +22,19 @@ wiggletools
 
    |downloads_wiggletools| |docker_wiggletools|
 
-   :versions: 1.2.2, 1.2.1
-
-   :depends: :conda:package:`gsl` 1.16* :conda:package:`htslib` 1.5* :conda:package:`libbigwig`  :conda:package:`libgcc`  
-
-   :required~by: |required_by_wiggletools|
+   :versions: 1.2.2-4, 1.2.2-3, 1.2.2-2, 1.2.2-1, 1.2.2-0, 1.2.1-0
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libbigwig: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ wiggletools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wiggletools
+      docker pull quay.io/repository/biocontainers/wiggletools:<tag>
+
+   (see `wiggletools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_wiggletools| conda:required_by:: wiggletools
 .. |downloads_wiggletools| image:: https://img.shields.io/conda/dn/bioconda/wiggletools.svg?style=flat
    :alt:   (downloads)
 .. |docker_wiggletools| image:: https://quay.io/repository/biocontainers/wiggletools/status
    :target: https://quay.io/repository/biocontainers/wiggletools
+.. _`wiggletools/tags`: https://quay.io/repository/biocontainers/wiggletools?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/wiggletools/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fsm-lite'
 .. highlight: bash
-
 
 fsm-lite
 ========
@@ -24,11 +25,13 @@ fsm-lite
 
    |downloads_fsm-lite| |docker_fsm-lite|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`sdsl-lite`  
-
-   :required~by: |required_by_fsm-lite|
+   :versions: 1.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends sdsl-lite: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +45,16 @@ fsm-lite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fsm-lite
+      docker pull quay.io/repository/biocontainers/fsm-lite:<tag>
+
+   (see `fsm-lite/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fsm-lite| conda:required_by:: fsm-lite
 .. |downloads_fsm-lite| image:: https://img.shields.io/conda/dn/bioconda/fsm-lite.svg?style=flat
    :alt:   (downloads)
 .. |docker_fsm-lite| image:: https://quay.io/repository/biocontainers/fsm-lite/status
    :target: https://quay.io/repository/biocontainers/fsm-lite
+.. _`fsm-lite/tags`: https://quay.io/repository/biocontainers/fsm-lite?tab=tags
 
 
 
@@ -66,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fsm-lite/README.html
-

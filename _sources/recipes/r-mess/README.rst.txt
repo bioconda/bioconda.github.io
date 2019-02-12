@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-mess'
 .. highlight: bash
-
 
 r-mess
 ======
@@ -21,11 +22,33 @@ r-mess
 
    |downloads_r-mess| |docker_r-mess|
 
-   :versions: 0.5.4
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-geem`  :conda:package:`r-geepack`  :conda:package:`r-glmnet`  :conda:package:`r-kinship2`  :conda:package:`r-mass`  :conda:package:`r-matrix`  :conda:package:`r-mvtnorm`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  
-
-   :required~by: |required_by_r-mess|
+   :versions: 0.5.4-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-geem: 
+   
+   :depends r-geepack: 
+   
+   :depends r-glmnet: 
+   
+   :depends r-kinship2: 
+   
+   :depends r-mass: 
+   
+   :depends r-matrix: 
+   
+   :depends r-mvtnorm: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-rcpparmadillo: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ r-mess
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-mess
+      docker pull quay.io/repository/biocontainers/r-mess:<tag>
+
+   (see `r-mess/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-mess| conda:required_by:: r-mess
 .. |downloads_r-mess| image:: https://img.shields.io/conda/dn/bioconda/r-mess.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-mess| image:: https://quay.io/repository/biocontainers/r-mess/status
    :target: https://quay.io/repository/biocontainers/r-mess
+.. _`r-mess/tags`: https://quay.io/repository/biocontainers/r-mess?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-mess/README.html
-

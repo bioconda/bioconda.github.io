@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'coprarna'
 .. highlight: bash
-
 
 coprarna
 ========
@@ -21,11 +22,59 @@ coprarna
 
    |downloads_coprarna| |docker_coprarna|
 
-   :versions: 2.1.3, 2.1.2, 2.1.1, 2.1.0
-
-   :depends: :conda:package:`blast-legacy` 2.2.22 :conda:package:`bzip2`  :conda:package:`clustalo`  :conda:package:`coreutils` 8.25 :conda:package:`domclust`  :conda:package:`embassy-phylip` 3.69.650 :conda:package:`emboss` 6.5.7 :conda:package:`gawk`  :conda:package:`grep`  :conda:package:`intarna` 2.3.1 :conda:package:`mafft` 7.310 :conda:package:`perl` >=5.22 :conda:package:`perl-bio-eutilities` 1.75 :conda:package:`perl-bioperl` 1.6.924 :conda:package:`perl-getopt-long`  :conda:package:`perl-list-moreutils` 0.428 :conda:package:`perl-parallel-forkmanager` 1.17 :conda:package:`phantomjs`  :conda:package:`python`  :conda:package:`r-base` 3.4.1 :conda:package:`r-pheatmap`  :conda:package:`r-robustrankaggreg`  :conda:package:`r-seqinr`  :conda:package:`sed`  :conda:package:`suds-jurko` 0.6 
-
-   :required~by: |required_by_coprarna|
+   :versions: 2.1.3-4, 2.1.3-3, 2.1.3-2, 2.1.3-1, 2.1.3-0, 2.1.2-0, 2.1.1-0, 2.1.0-0
+   
+   :depends blast-legacy: 2.2.22
+   
+   :depends bzip2: 
+   
+   :depends clustalo: 
+   
+   :depends coreutils: 8.25
+   
+   :depends domclust: 
+   
+   :depends embassy-phylip: 3.69.650
+   
+   :depends emboss: 6.5.7
+   
+   :depends gawk: 
+   
+   :depends grep: 
+   
+   :depends intarna: 2.3.1
+   
+   :depends mafft: 7.310
+   
+   :depends perl: >=5.22
+   
+   :depends perl-bio-eutilities: 1.75
+   
+   :depends perl-bioperl: 1.6.924
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-list-moreutils: 0.428
+   
+   :depends perl-parallel-forkmanager: 1.17
+   
+   :depends phantomjs: 
+   
+   :depends python: 
+   
+   :depends r-base: 3.4.1
+   
+   :depends r-pheatmap: 
+   
+   :depends r-robustrankaggreg: 
+   
+   :depends r-seqinr: 
+   
+   :depends sed: 
+   
+   :depends suds-jurko: 0.6
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +88,16 @@ coprarna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/coprarna
+      docker pull quay.io/repository/biocontainers/coprarna:<tag>
+
+   (see `coprarna/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_coprarna| conda:required_by:: coprarna
 .. |downloads_coprarna| image:: https://img.shields.io/conda/dn/bioconda/coprarna.svg?style=flat
    :alt:   (downloads)
 .. |docker_coprarna| image:: https://quay.io/repository/biocontainers/coprarna/status
    :target: https://quay.io/repository/biocontainers/coprarna
+.. _`coprarna/tags`: https://quay.io/repository/biocontainers/coprarna?tab=tags
 
 
 
@@ -63,4 +114,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/coprarna/README.html
-

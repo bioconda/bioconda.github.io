@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-mixomics'
 .. highlight: bash
-
 
 r-mixomics
 ==========
@@ -21,11 +22,43 @@ r-mixomics
 
    |downloads_r-mixomics| |docker_r-mixomics|
 
-   :versions: 6.3.1, 6.2.0, 6.1.1, 5.2.0
-
-   :depends: :conda:package:`libglu`  :conda:package:`r-base` 3.4.1* :conda:package:`r-corpcor`  :conda:package:`r-dplyr`  :conda:package:`r-ellipse`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-igraph`  :conda:package:`r-lattice`  :conda:package:`r-mass`  :conda:package:`r-matrixstats`  :conda:package:`r-plyr`  :conda:package:`r-rarpack`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-rgl`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_r-mixomics|
+   :versions: 6.3.1-0, 6.2.0-0, 6.1.1-0, 5.2.0-0
+   
+   :depends libglu: 
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-corpcor: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-ellipse: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-igraph: 
+   
+   :depends r-lattice: 
+   
+   :depends r-mass: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rarpack: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-rgl: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +72,16 @@ r-mixomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-mixomics
+      docker pull quay.io/repository/biocontainers/r-mixomics:<tag>
+
+   (see `r-mixomics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-mixomics| conda:required_by:: r-mixomics
 .. |downloads_r-mixomics| image:: https://img.shields.io/conda/dn/bioconda/r-mixomics.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-mixomics| image:: https://quay.io/repository/biocontainers/r-mixomics/status
    :target: https://quay.io/repository/biocontainers/r-mixomics
+.. _`r-mixomics/tags`: https://quay.io/repository/biocontainers/r-mixomics?tab=tags
 
 
 
@@ -63,4 +98,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-mixomics/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'crisper_recognition_tool'
 .. highlight: bash
-
 
 crisper_recognition_tool
 ========================
@@ -21,11 +22,13 @@ crisper_recognition_tool
 
    |downloads_crisper_recognition_tool| |docker_crisper_recognition_tool|
 
-   :versions: 1.2
-
-   :depends: :conda:package:`openjdk` >=6 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_crisper_recognition_tool|
+   :versions: 1.2-1, 1.2-0
+   
+   :depends openjdk: >=6
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ crisper_recognition_tool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/crisper_recognition_tool
+      docker pull quay.io/repository/biocontainers/crisper_recognition_tool:<tag>
+
+   (see `crisper_recognition_tool/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_crisper_recognition_tool| conda:required_by:: crisper_recognition_tool
 .. |downloads_crisper_recognition_tool| image:: https://img.shields.io/conda/dn/bioconda/crisper_recognition_tool.svg?style=flat
    :alt:   (downloads)
 .. |docker_crisper_recognition_tool| image:: https://quay.io/repository/biocontainers/crisper_recognition_tool/status
    :target: https://quay.io/repository/biocontainers/crisper_recognition_tool
+.. _`crisper_recognition_tool/tags`: https://quay.io/repository/biocontainers/crisper_recognition_tool?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/crisper_recognition_tool/README.html
-

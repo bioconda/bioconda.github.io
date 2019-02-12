@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rnasnp'
 .. highlight: bash
-
 
 rnasnp
 ======
@@ -22,11 +23,11 @@ rnasnp
 
    |downloads_rnasnp| |docker_rnasnp|
 
-   :versions: 1.2
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_rnasnp|
+   :versions: 1.2-4, 1.2-3, 1.2-2, 1.2-1, 1.2-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ rnasnp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnasnp
+      docker pull quay.io/repository/biocontainers/rnasnp:<tag>
+
+   (see `rnasnp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rnasnp| conda:required_by:: rnasnp
 .. |downloads_rnasnp| image:: https://img.shields.io/conda/dn/bioconda/rnasnp.svg?style=flat
    :alt:   (downloads)
 .. |docker_rnasnp| image:: https://quay.io/repository/biocontainers/rnasnp/status
    :target: https://quay.io/repository/biocontainers/rnasnp
+.. _`rnasnp/tags`: https://quay.io/repository/biocontainers/rnasnp?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rnasnp/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-io-interactive'
 .. highlight: bash
-
 
 perl-io-interactive
 ===================
@@ -21,11 +22,11 @@ perl-io-interactive
 
    |downloads_perl-io-interactive| |docker_perl-io-interactive|
 
-   :versions: 1.022, 1.021
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-io-interactive|
+   :versions: 1.022-0, 1.021-2, 1.021-1
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-io-interactive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-interactive
+      docker pull quay.io/repository/biocontainers/perl-io-interactive:<tag>
+
+   (see `perl-io-interactive/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-io-interactive| conda:required_by:: perl-io-interactive
 .. |downloads_perl-io-interactive| image:: https://img.shields.io/conda/dn/bioconda/perl-io-interactive.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-io-interactive| image:: https://quay.io/repository/biocontainers/perl-io-interactive/status
    :target: https://quay.io/repository/biocontainers/perl-io-interactive
+.. _`perl-io-interactive/tags`: https://quay.io/repository/biocontainers/perl-io-interactive?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-io-interactive/README.html
-

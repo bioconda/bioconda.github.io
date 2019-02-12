@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vcfanno'
 .. highlight: bash
-
 
 vcfanno
 =======
@@ -21,11 +22,9 @@ vcfanno
 
    |downloads_vcfanno| |docker_vcfanno|
 
-   :versions: 0.3.1, 0.3.0, 0.2.9, 0.2.8, 0.2.6, 0.2.4, 0.2.2, 0.2.1, 0.2.0, 0.1.1, 0.1.0, 0.0.11, 0.0.10
-
-   :depends: 
-
-   :required~by: |required_by_vcfanno|
+   :versions: 0.3.1-0, 0.3.0-0, 0.2.9-0, 0.2.8-1, 0.2.8-0, 0.2.6-0, 0.2.4-0, 0.2.2-1, 0.2.1-1, 0.2.0-1, 0.1.1-1, 0.1.1-0, 0.1.0-0, 0.0.11-0, 0.0.10-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ vcfanno
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcfanno
+      docker pull quay.io/repository/biocontainers/vcfanno:<tag>
+
+   (see `vcfanno/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vcfanno| conda:required_by:: vcfanno
 .. |downloads_vcfanno| image:: https://img.shields.io/conda/dn/bioconda/vcfanno.svg?style=flat
    :alt:   (downloads)
 .. |docker_vcfanno| image:: https://quay.io/repository/biocontainers/vcfanno/status
    :target: https://quay.io/repository/biocontainers/vcfanno
+.. _`vcfanno/tags`: https://quay.io/repository/biocontainers/vcfanno?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vcfanno/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'reaper'
 .. highlight: bash
-
 
 reaper
 ======
@@ -21,11 +22,13 @@ reaper
 
    |downloads_reaper| |docker_reaper|
 
-   :versions: 16.098
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
-
-   :required~by: |required_by_reaper|
+   :versions: 16.098-2, 16.098-1, 16.098-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ reaper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/reaper
+      docker pull quay.io/repository/biocontainers/reaper:<tag>
+
+   (see `reaper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_reaper| conda:required_by:: reaper
 .. |downloads_reaper| image:: https://img.shields.io/conda/dn/bioconda/reaper.svg?style=flat
    :alt:   (downloads)
 .. |docker_reaper| image:: https://quay.io/repository/biocontainers/reaper/status
    :target: https://quay.io/repository/biocontainers/reaper
+.. _`reaper/tags`: https://quay.io/repository/biocontainers/reaper?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/reaper/README.html
-

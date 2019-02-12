@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bio-coordinate'
 .. highlight: bash
-
 
 perl-bio-coordinate
 ===================
@@ -21,11 +22,17 @@ perl-bio-coordinate
 
    |downloads_perl-bio-coordinate| |docker_perl-bio-coordinate|
 
-   :versions: 1.007001
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bioperl-core`  :conda:package:`perl-parent`  :conda:package:`perl-test-most`  
-
-   :required~by: |required_by_perl-bio-coordinate|
+   :versions: 1.007001-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bioperl-core: 
+   
+   :depends perl-parent: 
+   
+   :depends perl-test-most: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-bio-coordinate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-coordinate
+      docker pull quay.io/repository/biocontainers/perl-bio-coordinate:<tag>
+
+   (see `perl-bio-coordinate/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bio-coordinate| conda:required_by:: perl-bio-coordinate
 .. |downloads_perl-bio-coordinate| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-coordinate.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bio-coordinate| image:: https://quay.io/repository/biocontainers/perl-bio-coordinate/status
    :target: https://quay.io/repository/biocontainers/perl-bio-coordinate
+.. _`perl-bio-coordinate/tags`: https://quay.io/repository/biocontainers/perl-bio-coordinate?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bio-coordinate/README.html
-

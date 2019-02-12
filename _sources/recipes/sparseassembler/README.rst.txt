@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sparseassembler'
 .. highlight: bash
-
 
 sparseassembler
 ===============
@@ -21,11 +22,15 @@ sparseassembler
 
    |downloads_sparseassembler| |docker_sparseassembler|
 
-   :versions: 20160205
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_sparseassembler|
+   :versions: 20160205-4, 20160205-3, 20160205-2, 20160205-1, 20160205-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ sparseassembler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sparseassembler
+      docker pull quay.io/repository/biocontainers/sparseassembler:<tag>
+
+   (see `sparseassembler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sparseassembler| conda:required_by:: sparseassembler
 .. |downloads_sparseassembler| image:: https://img.shields.io/conda/dn/bioconda/sparseassembler.svg?style=flat
    :alt:   (downloads)
 .. |docker_sparseassembler| image:: https://quay.io/repository/biocontainers/sparseassembler/status
    :target: https://quay.io/repository/biocontainers/sparseassembler
+.. _`sparseassembler/tags`: https://quay.io/repository/biocontainers/sparseassembler?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sparseassembler/README.html
-

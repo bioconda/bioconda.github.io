@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gat'
 .. highlight: bash
-
 
 gat
 ===
@@ -22,11 +23,23 @@ gat
 
    |downloads_gat| |docker_gat|
 
-   :versions: 1.3.5, 1.3.3, 1.2.2
-
-   :depends: :conda:package:`cython` >=0.19 :conda:package:`matplotlib` >=1.3.0 :conda:package:`numpy` >=1.7 :conda:package:`python` 2.7* :conda:package:`scipy` >=0.11 :conda:package:`zlib`  
-
-   :required~by: |required_by_gat|
+   :versions: 1.3.5-2, 1.3.5-1, 1.3.5-0, 1.3.3-0, 1.2.2-0
+   
+   :depends cython: >=0.19
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: >=1.3.0
+   
+   :depends numpy: >=1.7
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: >=0.11
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ gat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gat
+      docker pull quay.io/repository/biocontainers/gat:<tag>
+
+   (see `gat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gat| conda:required_by:: gat
 .. |downloads_gat| image:: https://img.shields.io/conda/dn/bioconda/gat.svg?style=flat
    :alt:   (downloads)
 .. |docker_gat| image:: https://quay.io/repository/biocontainers/gat/status
    :target: https://quay.io/repository/biocontainers/gat
+.. _`gat/tags`: https://quay.io/repository/biocontainers/gat?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gat/README.html
-

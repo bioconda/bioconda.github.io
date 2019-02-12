@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'roary'
 .. highlight: bash
-
 
 roary
 =====
@@ -22,11 +23,63 @@ roary
 
    |downloads_roary| |docker_roary|
 
-   :versions: 3.12.0, 3.10.2, 3.9.1, 3.8.2, 3.8.0, 3.7.0
-
-   :depends: :conda:package:`bedtools`  :conda:package:`blast`  :conda:package:`cd-hit`  :conda:package:`fasttree`  :conda:package:`libgcc`  :conda:package:`mafft`  :conda:package:`mcl`  :conda:package:`parallel`  :conda:package:`perl` 5.22.0* :conda:package:`perl-array-utils`  :conda:package:`perl-bioperl` <1.7 :conda:package:`perl-bioperl-core` <1.7 :conda:package:`perl-digest-md5-file`  :conda:package:`perl-env-path`  :conda:package:`perl-exception-class`  :conda:package:`perl-file-find-rule`  :conda:package:`perl-file-grep`  :conda:package:`perl-file-slurper`  :conda:package:`perl-graph-readwrite`  :conda:package:`perl-log-log4perl`  :conda:package:`perl-moose`  :conda:package:`perl-perlio-utf8_strict`  :conda:package:`perl-test-files`  :conda:package:`perl-test-most`  :conda:package:`perl-test-output`  :conda:package:`perl-text-csv`  :conda:package:`prank`  
-
-   :required~by: |required_by_roary|
+   :versions: 3.12.0-1, 3.12.0-0, 3.10.2-0, 3.9.1-0, 3.8.2-0, 3.8.0-1, 3.7.0-0
+   
+   :depends bedtools: 
+   
+   :depends blast: 
+   
+   :depends cd-hit: 
+   
+   :depends fasttree: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends mafft: 
+   
+   :depends mcl: 
+   
+   :depends parallel: >=20180522
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-array-utils: 
+   
+   :depends perl-bioperl: >=1.7.2
+   
+   :depends perl-digest-md5-file: 
+   
+   :depends perl-exception-class: 
+   
+   :depends perl-file-find-rule: 
+   
+   :depends perl-file-grep: 
+   
+   :depends perl-file-path: 
+   
+   :depends perl-file-slurper: 
+   
+   :depends perl-file-temp: 
+   
+   :depends perl-file-which: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-graph: 
+   
+   :depends perl-graph-readwrite: 
+   
+   :depends perl-log-log4perl: 
+   
+   :depends perl-moose: 
+   
+   :depends perl-perlio-utf8_strict: 
+   
+   :depends perl-text-csv: 
+   
+   :depends prank: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +93,16 @@ roary
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/roary
+      docker pull quay.io/repository/biocontainers/roary:<tag>
+
+   (see `roary/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_roary| conda:required_by:: roary
 .. |downloads_roary| image:: https://img.shields.io/conda/dn/bioconda/roary.svg?style=flat
    :alt:   (downloads)
 .. |docker_roary| image:: https://quay.io/repository/biocontainers/roary/status
    :target: https://quay.io/repository/biocontainers/roary
+.. _`roary/tags`: https://quay.io/repository/biocontainers/roary?tab=tags
 
 
 
@@ -64,4 +119,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/roary/README.html
-

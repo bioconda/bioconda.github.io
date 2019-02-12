@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-geometadb'
 .. highlight: bash
-
 
 bioconductor-geometadb
 ======================
@@ -22,11 +23,15 @@ bioconductor-geometadb
 
    |downloads_bioconductor-geometadb| |docker_bioconductor-geometadb|
 
-   :versions: 1.44.0, 1.42.0, 1.40.0
-
-   :depends: :conda:package:`bioconductor-geoquery` >=2.50.0,<2.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rsqlite`  
-
-   :required~by: |required_by_bioconductor-geometadb|
+   :versions: 1.44.0-0, 1.42.0-0, 1.40.0-0
+   
+   :depends bioconductor-geoquery: >=2.50.0,<2.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rsqlite: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-geometadb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geometadb
+      docker pull quay.io/repository/biocontainers/bioconductor-geometadb:<tag>
+
+   (see `bioconductor-geometadb/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-geometadb| conda:required_by:: bioconductor-geometadb
 .. |downloads_bioconductor-geometadb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geometadb.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-geometadb| image:: https://quay.io/repository/biocontainers/bioconductor-geometadb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geometadb
+.. _`bioconductor-geometadb/tags`: https://quay.io/repository/biocontainers/bioconductor-geometadb?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-geometadb/README.html
-

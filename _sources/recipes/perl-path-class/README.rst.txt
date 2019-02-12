@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-path-class'
 .. highlight: bash
-
 
 perl-path-class
 ===============
@@ -21,11 +22,23 @@ perl-path-class
 
    |downloads_perl-path-class| |docker_perl-path-class|
 
-   :versions: 0.37, 0.36
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-file-path`  :conda:package:`perl-file-temp`  :conda:package:`perl-parent`  :conda:package:`perl-perl-ostype`  
-
-   :required~by: |required_by_perl-path-class|
+   :versions: 0.37-1, 0.37-0, 0.36-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-file-path: 
+   
+   :depends perl-file-temp: 
+   
+   :depends perl-parent: 
+   
+   :depends perl-perl-ostype: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ perl-path-class
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-path-class
+      docker pull quay.io/repository/biocontainers/perl-path-class:<tag>
+
+   (see `perl-path-class/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-path-class| conda:required_by:: perl-path-class
 .. |downloads_perl-path-class| image:: https://img.shields.io/conda/dn/bioconda/perl-path-class.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-path-class| image:: https://quay.io/repository/biocontainers/perl-path-class/status
    :target: https://quay.io/repository/biocontainers/perl-path-class
+.. _`perl-path-class/tags`: https://quay.io/repository/biocontainers/perl-path-class?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-path-class/README.html
-

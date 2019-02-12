@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kmerinshort'
 .. highlight: bash
-
 
 kmerinshort
 ===========
@@ -21,11 +22,11 @@ kmerinshort
 
    |downloads_kmerinshort| |docker_kmerinshort|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_kmerinshort|
+   :versions: 1.0.1-1, 1.0.1-0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ kmerinshort
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kmerinshort
+      docker pull quay.io/repository/biocontainers/kmerinshort:<tag>
+
+   (see `kmerinshort/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kmerinshort| conda:required_by:: kmerinshort
 .. |downloads_kmerinshort| image:: https://img.shields.io/conda/dn/bioconda/kmerinshort.svg?style=flat
    :alt:   (downloads)
 .. |docker_kmerinshort| image:: https://quay.io/repository/biocontainers/kmerinshort/status
    :target: https://quay.io/repository/biocontainers/kmerinshort
+.. _`kmerinshort/tags`: https://quay.io/repository/biocontainers/kmerinshort?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kmerinshort/README.html
-

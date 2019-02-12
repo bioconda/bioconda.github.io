@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'damageprofiler'
 .. highlight: bash
-
 
 damageprofiler
 ==============
@@ -21,11 +22,13 @@ damageprofiler
 
    |downloads_damageprofiler| |docker_damageprofiler|
 
-   :versions: 0.4.4, 0.4.3, 0.4.2, 0.3.11
-
-   :depends: :conda:package:`openjdk`  :conda:package:`python`  
-
-   :required~by: |required_by_damageprofiler|
+   :versions: 0.4.4-1, 0.4.3-1, 0.4.2-1, 0.3.11-1, 0.3.11-0
+   
+   :depends openjdk: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ damageprofiler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/damageprofiler
+      docker pull quay.io/repository/biocontainers/damageprofiler:<tag>
+
+   (see `damageprofiler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_damageprofiler| conda:required_by:: damageprofiler
 .. |downloads_damageprofiler| image:: https://img.shields.io/conda/dn/bioconda/damageprofiler.svg?style=flat
    :alt:   (downloads)
 .. |docker_damageprofiler| image:: https://quay.io/repository/biocontainers/damageprofiler/status
    :target: https://quay.io/repository/biocontainers/damageprofiler
+.. _`damageprofiler/tags`: https://quay.io/repository/biocontainers/damageprofiler?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/damageprofiler/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-simd'
 .. highlight: bash
-
 
 bioconductor-simd
 =================
@@ -21,11 +22,19 @@ bioconductor-simd
 
    |downloads_bioconductor-simd| |docker_bioconductor-simd|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-methylmnm` >=1.20.0,<1.21.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-statmod`  
-
-   :required~by: |required_by_bioconductor-simd|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-methylmnm: >=1.20.0,<1.21.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-statmod: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-simd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-simd
+      docker pull quay.io/repository/biocontainers/bioconductor-simd:<tag>
+
+   (see `bioconductor-simd/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-simd| conda:required_by:: bioconductor-simd
 .. |downloads_bioconductor-simd| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-simd.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-simd| image:: https://quay.io/repository/biocontainers/bioconductor-simd/status
    :target: https://quay.io/repository/biocontainers/bioconductor-simd
+.. _`bioconductor-simd/tags`: https://quay.io/repository/biocontainers/bioconductor-simd?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-simd/README.html
-

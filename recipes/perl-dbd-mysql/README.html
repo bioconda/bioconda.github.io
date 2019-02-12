@@ -133,11 +133,22 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">4.046, 4.033</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">4.046-0, 4.033-3, 4.033-2, 4.033-1, 4.033-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">libstdcxx-ng</span></code></a> &gt;=4.9 <a class="reference internal" href="../mysql-connector-c/README.html#package-mysql-connector-c" title="mysql-connector-c package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">mysql-connector-c</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/perl-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl</span></code></a> &gt;=5.26.2,&lt;5.26.3.0a0 <a class="reference internal" href="../perl-dbi/README.html#package-perl-dbi" title="perl-dbi package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">perl-dbi</span></code></a></td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> &gt;=4.9</li>
+<li><a class="conda-package reference internal" href="../mysql-connector-c/README.html#package-mysql-connector-c" title="mysql-connector-c package"><strong>mysql-connector-c</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</li>
+<li><a class="conda-package reference internal" href="../perl-dbi/README.html#package-perl-dbi" title="perl-dbi package"><strong>perl-dbi</strong></a></li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+<li><a class="conda-package reference internal" href="../orthomcl/README.html#orthomcl"><strong class="xref backref">orthomcl</strong></a></li>
+<li><a class="conda-package reference internal" href="../ensembl-vep/README.html#ensembl-vep"><strong class="xref backref">ensembl-vep</strong></a></li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -151,9 +162,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">perl</span><span class="o">-</span><span class="n">dbd</span><span class="o">-</span><span class="n">mysql</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">perl</span><span class="o">-</span><span class="n">dbd</span><span class="o">-</span><span class="n">mysql</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/perl-dbd-mysql?tab=tags">perl-dbd-mysql/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

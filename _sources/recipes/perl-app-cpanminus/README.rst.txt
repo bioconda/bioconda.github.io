@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-app-cpanminus'
 .. highlight: bash
-
 
 perl-app-cpanminus
 ==================
@@ -21,11 +22,11 @@ perl-app-cpanminus
 
    |downloads_perl-app-cpanminus| |docker_perl-app-cpanminus|
 
-   :versions: 1.7044, 1.7043, 1.7039
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 
-
-   :required~by: |required_by_perl-app-cpanminus|
+   :versions: 1.7044-1, 1.7044-0, 1.7043-0, 1.7039-3, 1.7039-2, 1.7039-1, 1.7039-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-app-cpanminus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-app-cpanminus
+      docker pull quay.io/repository/biocontainers/perl-app-cpanminus:<tag>
+
+   (see `perl-app-cpanminus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-app-cpanminus| conda:required_by:: perl-app-cpanminus
 .. |downloads_perl-app-cpanminus| image:: https://img.shields.io/conda/dn/bioconda/perl-app-cpanminus.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-app-cpanminus| image:: https://quay.io/repository/biocontainers/perl-app-cpanminus/status
    :target: https://quay.io/repository/biocontainers/perl-app-cpanminus
+.. _`perl-app-cpanminus/tags`: https://quay.io/repository/biocontainers/perl-app-cpanminus?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-app-cpanminus/README.html
-

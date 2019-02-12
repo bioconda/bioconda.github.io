@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rtnduals'
 .. highlight: bash
-
 
 bioconductor-rtnduals
 =====================
@@ -21,11 +22,13 @@ bioconductor-rtnduals
 
    |downloads_bioconductor-rtnduals| |docker_bioconductor-rtnduals|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`bioconductor-rtn` >=2.6.0,<2.7.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-rtnduals|
+   :versions: 1.6.0-0
+   
+   :depends bioconductor-rtn: >=2.6.0,<2.7.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-rtnduals
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtnduals
+      docker pull quay.io/repository/biocontainers/bioconductor-rtnduals:<tag>
+
+   (see `bioconductor-rtnduals/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rtnduals| conda:required_by:: bioconductor-rtnduals
 .. |downloads_bioconductor-rtnduals| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtnduals.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rtnduals| image:: https://quay.io/repository/biocontainers/bioconductor-rtnduals/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtnduals
+.. _`bioconductor-rtnduals/tags`: https://quay.io/repository/biocontainers/bioconductor-rtnduals?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rtnduals/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-biocworkflowtools'
 .. highlight: bash
-
 
 bioconductor-biocworkflowtools
 ==============================
@@ -22,11 +23,29 @@ bioconductor-biocworkflowtools
 
    |downloads_bioconductor-biocworkflowtools| |docker_bioconductor-biocworkflowtools|
 
-   :versions: 1.8.0, 1.6.2, 1.4.0, 1.2.0
-
-   :depends: :conda:package:`bioconductor-biocstyle` >=2.10.0,<2.11.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bookdown`  :conda:package:`r-devtools`  :conda:package:`r-git2r`  :conda:package:`r-httr`  :conda:package:`r-knitr`  :conda:package:`r-rmarkdown`  :conda:package:`r-rstudioapi`  :conda:package:`r-stringr`  
-
-   :required~by: |required_by_bioconductor-biocworkflowtools|
+   :versions: 1.8.0-0, 1.6.2-0, 1.4.0-0, 1.2.0-0
+   
+   :depends bioconductor-biocstyle: >=2.10.0,<2.11.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bookdown: 
+   
+   :depends r-devtools: 
+   
+   :depends r-git2r: 
+   
+   :depends r-httr: 
+   
+   :depends r-knitr: 
+   
+   :depends r-rmarkdown: 
+   
+   :depends r-rstudioapi: 
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ bioconductor-biocworkflowtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocworkflowtools
+      docker pull quay.io/repository/biocontainers/bioconductor-biocworkflowtools:<tag>
+
+   (see `bioconductor-biocworkflowtools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-biocworkflowtools| conda:required_by:: bioconductor-biocworkflowtools
 .. |downloads_bioconductor-biocworkflowtools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocworkflowtools.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-biocworkflowtools| image:: https://quay.io/repository/biocontainers/bioconductor-biocworkflowtools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocworkflowtools
+.. _`bioconductor-biocworkflowtools/tags`: https://quay.io/repository/biocontainers/bioconductor-biocworkflowtools?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-biocworkflowtools/README.html
-

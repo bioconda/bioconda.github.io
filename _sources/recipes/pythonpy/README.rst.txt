@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pythonpy'
 .. highlight: bash
-
 
 pythonpy
 ========
@@ -21,11 +22,13 @@ pythonpy
 
    |downloads_pythonpy| |docker_pythonpy|
 
-   :versions: 0.4.11, 0.4.2
-
-   :depends: :conda:package:`python`  :conda:package:`setuptools`  
-
-   :required~by: |required_by_pythonpy|
+   :versions: 0.4.11-0, 0.4.2-1, 0.4.2-0
+   
+   :depends python: 
+   
+   :depends setuptools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ pythonpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pythonpy
+      docker pull quay.io/repository/biocontainers/pythonpy:<tag>
+
+   (see `pythonpy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pythonpy| conda:required_by:: pythonpy
 .. |downloads_pythonpy| image:: https://img.shields.io/conda/dn/bioconda/pythonpy.svg?style=flat
    :alt:   (downloads)
 .. |docker_pythonpy| image:: https://quay.io/repository/biocontainers/pythonpy/status
    :target: https://quay.io/repository/biocontainers/pythonpy
+.. _`pythonpy/tags`: https://quay.io/repository/biocontainers/pythonpy?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pythonpy/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pash'
 .. highlight: bash
-
 
 pash
 ====
@@ -22,11 +23,15 @@ pash
 
    |downloads_pash| |docker_pash|
 
-   :versions: 3.0.6.2
-
-   :depends: :conda:package:`glib`  :conda:package:`libgcc`  :conda:package:`ruby`  
-
-   :required~by: |required_by_pash|
+   :versions: 3.0.6.2-0
+   
+   :depends glib: 
+   
+   :depends libgcc: 
+   
+   :depends ruby: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ pash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pash
+      docker pull quay.io/repository/biocontainers/pash:<tag>
+
+   (see `pash/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pash| conda:required_by:: pash
 .. |downloads_pash| image:: https://img.shields.io/conda/dn/bioconda/pash.svg?style=flat
    :alt:   (downloads)
 .. |docker_pash| image:: https://quay.io/repository/biocontainers/pash/status
    :target: https://quay.io/repository/biocontainers/pash
+.. _`pash/tags`: https://quay.io/repository/biocontainers/pash?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pash/README.html
-

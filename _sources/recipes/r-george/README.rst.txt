@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-george'
 .. highlight: bash
-
 
 r-george
 ========
@@ -21,11 +22,17 @@ r-george
 
    |downloads_r-george| |docker_r-george|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`bioconductor-mzr`  :conda:package:`bioconductor-xcms`  :conda:package:`r-base` 3.3.2* :conda:package:`r-optparse`  
-
-   :required~by: |required_by_r-george|
+   :versions: 1.0.1-0
+   
+   :depends bioconductor-mzr: 
+   
+   :depends bioconductor-xcms: 
+   
+   :depends r-base: 3.3.2*
+   
+   :depends r-optparse: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-george
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-george
+      docker pull quay.io/repository/biocontainers/r-george:<tag>
+
+   (see `r-george/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-george| conda:required_by:: r-george
 .. |downloads_r-george| image:: https://img.shields.io/conda/dn/bioconda/r-george.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-george| image:: https://quay.io/repository/biocontainers/r-george/status
    :target: https://quay.io/repository/biocontainers/r-george
+.. _`r-george/tags`: https://quay.io/repository/biocontainers/r-george?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-george/README.html
-

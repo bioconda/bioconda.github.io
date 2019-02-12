@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fermikit'
 .. highlight: bash
-
 
 fermikit
 ========
@@ -21,11 +22,27 @@ fermikit
 
    |downloads_fermikit| |docker_fermikit|
 
-   :versions: 0.14.dev1
-
-   :depends: :conda:package:`bfc` ==r181 :conda:package:`bwa` ==0.7.15 :conda:package:`fermi2` ==r193 :conda:package:`htsbox` ==r327 :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`ropebwt2` ==r187 :conda:package:`seqtk` ==r82 :conda:package:`trimadap` ==r10 :conda:package:`zlib`  
-
-   :required~by: |required_by_fermikit|
+   :versions: 0.14.dev1-1, 0.14.dev1-0
+   
+   :depends bfc: ==r181
+   
+   :depends bwa: ==0.7.15
+   
+   :depends fermi2: ==r193
+   
+   :depends htsbox: ==r327
+   
+   :depends perl: 5.22.0*
+   
+   :depends ropebwt2: ==r187
+   
+   :depends seqtk: ==r82
+   
+   :depends trimadap: ==r10
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ fermikit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fermikit
+      docker pull quay.io/repository/biocontainers/fermikit:<tag>
+
+   (see `fermikit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fermikit| conda:required_by:: fermikit
 .. |downloads_fermikit| image:: https://img.shields.io/conda/dn/bioconda/fermikit.svg?style=flat
    :alt:   (downloads)
 .. |docker_fermikit| image:: https://quay.io/repository/biocontainers/fermikit/status
    :target: https://quay.io/repository/biocontainers/fermikit
+.. _`fermikit/tags`: https://quay.io/repository/biocontainers/fermikit?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fermikit/README.html
-

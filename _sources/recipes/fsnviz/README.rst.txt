@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fsnviz'
 .. highlight: bash
-
 
 fsnviz
 ======
@@ -21,11 +22,19 @@ fsnviz
 
    |downloads_fsnviz| |docker_fsnviz|
 
-   :versions: 0.3.0, 0.2.0, 0.1.0
-
-   :depends: :conda:package:`circos` >=0.69.2 :conda:package:`click` >=6.6 :conda:package:`crimson` >=0.3.0 :conda:package:`jinja2` ==2.9.5 :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_fsnviz|
+   :versions: 0.3.0-1, 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.0-1, 0.1.0-0
+   
+   :depends circos: >=0.69.2
+   
+   :depends click: >=6.6
+   
+   :depends crimson: >=0.3.0
+   
+   :depends jinja2: 2.9.5
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ fsnviz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fsnviz
+      docker pull quay.io/repository/biocontainers/fsnviz:<tag>
+
+   (see `fsnviz/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fsnviz| conda:required_by:: fsnviz
 .. |downloads_fsnviz| image:: https://img.shields.io/conda/dn/bioconda/fsnviz.svg?style=flat
    :alt:   (downloads)
 .. |docker_fsnviz| image:: https://quay.io/repository/biocontainers/fsnviz/status
    :target: https://quay.io/repository/biocontainers/fsnviz
+.. _`fsnviz/tags`: https://quay.io/repository/biocontainers/fsnviz?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fsnviz/README.html
-

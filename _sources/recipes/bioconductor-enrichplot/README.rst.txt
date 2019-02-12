@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-enrichplot'
 .. highlight: bash
-
 
 bioconductor-enrichplot
 =======================
@@ -21,11 +22,41 @@ bioconductor-enrichplot
 
    |downloads_bioconductor-enrichplot| |docker_bioconductor-enrichplot|
 
-   :versions: 1.2.0, 1.0.2
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-dose` >=3.8.0,<3.9.0 :conda:package:`bioconductor-gosemsim` >=2.8.0,<2.9.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cowplot`  :conda:package:`r-europepmc`  :conda:package:`r-ggplot2`  :conda:package:`r-ggplotify`  :conda:package:`r-ggraph`  :conda:package:`r-ggridges`  :conda:package:`r-gridextra`  :conda:package:`r-igraph`  :conda:package:`r-purrr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-upsetr`  
-
-   :required~by: |required_by_bioconductor-enrichplot|
+   :versions: 1.2.0-0, 1.0.2-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-dose: >=3.8.0,<3.9.0
+   
+   :depends bioconductor-gosemsim: >=2.8.0,<2.9.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cowplot: 
+   
+   :depends r-europepmc: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggplotify: 
+   
+   :depends r-ggraph: 
+   
+   :depends r-ggridges: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-igraph: 
+   
+   :depends r-purrr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-upsetr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ bioconductor-enrichplot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-enrichplot
+      docker pull quay.io/repository/biocontainers/bioconductor-enrichplot:<tag>
+
+   (see `bioconductor-enrichplot/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-enrichplot| conda:required_by:: bioconductor-enrichplot
 .. |downloads_bioconductor-enrichplot| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-enrichplot.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-enrichplot| image:: https://quay.io/repository/biocontainers/bioconductor-enrichplot/status
    :target: https://quay.io/repository/biocontainers/bioconductor-enrichplot
+.. _`bioconductor-enrichplot/tags`: https://quay.io/repository/biocontainers/bioconductor-enrichplot?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-enrichplot/README.html
-

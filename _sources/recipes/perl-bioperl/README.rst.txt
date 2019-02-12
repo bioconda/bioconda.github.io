@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bioperl'
 .. highlight: bash
-
 
 perl-bioperl
 ============
@@ -22,11 +23,29 @@ perl-bioperl
 
    |downloads_perl-bioperl| |docker_perl-bioperl|
 
-   :versions: 1.7.2, 1.6.924
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bio-asn1-entrezgene`  :conda:package:`perl-bio-coordinate`  :conda:package:`perl-bio-featureio`  :conda:package:`perl-bio-samtools`  :conda:package:`perl-bio-tools-phylo-paml`  :conda:package:`perl-bio-tools-run-alignment-clustalw`  :conda:package:`perl-bio-tools-run-alignment-tcoffee`  :conda:package:`perl-bioperl-core` 1.7.2 :conda:package:`perl-bioperl-run`  
-
-   :required~by: |required_by_perl-bioperl|
+   :versions: 1.7.2-8, 1.6.924-7, 1.6.924-6, 1.6.924-5, 1.6.924-4, 1.6.924-3, 1.6.924-2, 1.6.924-1, 1.6.924-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bio-asn1-entrezgene: 
+   
+   :depends perl-bio-coordinate: 
+   
+   :depends perl-bio-featureio: 
+   
+   :depends perl-bio-samtools: 
+   
+   :depends perl-bio-tools-phylo-paml: 
+   
+   :depends perl-bio-tools-run-alignment-clustalw: 
+   
+   :depends perl-bio-tools-run-alignment-tcoffee: 
+   
+   :depends perl-bioperl-core: 1.7.2
+   
+   :depends perl-bioperl-run: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ perl-bioperl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bioperl
+      docker pull quay.io/repository/biocontainers/perl-bioperl:<tag>
+
+   (see `perl-bioperl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bioperl| conda:required_by:: perl-bioperl
 .. |downloads_perl-bioperl| image:: https://img.shields.io/conda/dn/bioconda/perl-bioperl.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bioperl| image:: https://quay.io/repository/biocontainers/perl-bioperl/status
    :target: https://quay.io/repository/biocontainers/perl-bioperl
+.. _`perl-bioperl/tags`: https://quay.io/repository/biocontainers/perl-bioperl?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bioperl/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'py2bit'
 .. highlight: bash
-
 
 py2bit
 ======
@@ -21,11 +22,13 @@ py2bit
 
    |downloads_py2bit| |docker_py2bit|
 
-   :versions: 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.0
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_py2bit|
+   :versions: 0.3.0-2, 0.3.0-1, 0.3.0-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ py2bit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/py2bit
+      docker pull quay.io/repository/biocontainers/py2bit:<tag>
+
+   (see `py2bit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_py2bit| conda:required_by:: py2bit
 .. |downloads_py2bit| image:: https://img.shields.io/conda/dn/bioconda/py2bit.svg?style=flat
    :alt:   (downloads)
 .. |docker_py2bit| image:: https://quay.io/repository/biocontainers/py2bit/status
    :target: https://quay.io/repository/biocontainers/py2bit
+.. _`py2bit/tags`: https://quay.io/repository/biocontainers/py2bit?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/py2bit/README.html
-

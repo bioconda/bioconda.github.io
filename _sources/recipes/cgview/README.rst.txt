@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cgview'
 .. highlight: bash
-
 
 cgview
 ======
@@ -24,11 +25,17 @@ cgview
 
    |downloads_cgview| |docker_cgview|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`openjdk` >=6 :conda:package:`perl` 5.22.0* :conda:package:`perl-bioperl`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_cgview|
+   :versions: 1.0-2, 1.0-1
+   
+   :depends openjdk: >=6
+   
+   :depends perl: 
+   
+   :depends perl-bioperl: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +49,16 @@ cgview
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cgview
+      docker pull quay.io/repository/biocontainers/cgview:<tag>
+
+   (see `cgview/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cgview| conda:required_by:: cgview
 .. |downloads_cgview| image:: https://img.shields.io/conda/dn/bioconda/cgview.svg?style=flat
    :alt:   (downloads)
 .. |docker_cgview| image:: https://quay.io/repository/biocontainers/cgview/status
    :target: https://quay.io/repository/biocontainers/cgview
+.. _`cgview/tags`: https://quay.io/repository/biocontainers/cgview?tab=tags
 
 
 
@@ -66,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cgview/README.html
-

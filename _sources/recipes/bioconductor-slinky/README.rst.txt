@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-slinky'
 .. highlight: bash
-
 
 bioconductor-slinky
 ===================
@@ -21,11 +22,29 @@ bioconductor-slinky
 
    |downloads_bioconductor-slinky| |docker_bioconductor-slinky|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-rhdf5` >=2.26.0,<2.27.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-curl`  :conda:package:`r-dplyr`  :conda:package:`r-foreach`  :conda:package:`r-httr`  :conda:package:`r-jsonlite`  :conda:package:`r-readr`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_bioconductor-slinky|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-curl: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-foreach: 
+   
+   :depends r-httr: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-readr: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ bioconductor-slinky
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-slinky
+      docker pull quay.io/repository/biocontainers/bioconductor-slinky:<tag>
+
+   (see `bioconductor-slinky/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-slinky| conda:required_by:: bioconductor-slinky
 .. |downloads_bioconductor-slinky| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-slinky.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-slinky| image:: https://quay.io/repository/biocontainers/bioconductor-slinky/status
    :target: https://quay.io/repository/biocontainers/bioconductor-slinky
+.. _`bioconductor-slinky/tags`: https://quay.io/repository/biocontainers/bioconductor-slinky?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-slinky/README.html
-

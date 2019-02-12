@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'jellyfish'
 .. highlight: bash
-
 
 jellyfish
 =========
@@ -23,11 +24,13 @@ jellyfish
 
    |downloads_jellyfish| |docker_jellyfish|
 
-   :versions: 2.2.10, 2.2.6, 2.2.3, 1.1.12, 1.1.11
-
-   :depends: :conda:package:`jemalloc`  :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_jellyfish|
+   :versions: 2.2.10-0, 2.2.6-0, 2.2.3-2, 2.2.3-1, 2.2.3-0, 1.1.12-0, 1.1.11-1, 1.1.11-0
+   
+   :depends jemalloc: 
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +44,16 @@ jellyfish
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/jellyfish
+      docker pull quay.io/repository/biocontainers/jellyfish:<tag>
+
+   (see `jellyfish/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_jellyfish| conda:required_by:: jellyfish
 .. |downloads_jellyfish| image:: https://img.shields.io/conda/dn/bioconda/jellyfish.svg?style=flat
    :alt:   (downloads)
 .. |docker_jellyfish| image:: https://quay.io/repository/biocontainers/jellyfish/status
    :target: https://quay.io/repository/biocontainers/jellyfish
+.. _`jellyfish/tags`: https://quay.io/repository/biocontainers/jellyfish?tab=tags
 
 
 
@@ -65,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/jellyfish/README.html
-

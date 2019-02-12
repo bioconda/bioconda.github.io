@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'trawler'
 .. highlight: bash
-
 
 trawler
 =======
@@ -21,11 +22,19 @@ trawler
 
    |downloads_trawler| |docker_trawler|
 
-   :versions: 2.0
-
-   :depends: :conda:package:`ghostscript`  :conda:package:`openjdk`  :conda:package:`perl` >=5.22 :conda:package:`perl-algorithm-cluster`  :conda:package:`perl-cgi`  
-
-   :required~by: |required_by_trawler|
+   :versions: 2.0-2, 2.0-1, 2.0-0
+   
+   :depends ghostscript: 
+   
+   :depends openjdk: 
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-algorithm-cluster: 
+   
+   :depends perl-cgi: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ trawler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trawler
+      docker pull quay.io/repository/biocontainers/trawler:<tag>
+
+   (see `trawler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_trawler| conda:required_by:: trawler
 .. |downloads_trawler| image:: https://img.shields.io/conda/dn/bioconda/trawler.svg?style=flat
    :alt:   (downloads)
 .. |docker_trawler| image:: https://quay.io/repository/biocontainers/trawler/status
    :target: https://quay.io/repository/biocontainers/trawler
+.. _`trawler/tags`: https://quay.io/repository/biocontainers/trawler?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/trawler/README.html
-

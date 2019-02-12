@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mgkit'
 .. highlight: bash
-
 
 mgkit
 =====
@@ -22,11 +23,43 @@ mgkit
 
    |downloads_mgkit| |docker_mgkit|
 
-   :versions: 0.3.4, 0.3.3, 0.3.0, 0.2.2
-
-   :depends: :conda:package:`click`  :conda:package:`enum34`  :conda:package:`future`  :conda:package:`htseq` >=0.6.0 :conda:package:`matplotlib` >=2 :conda:package:`msgpack-python` >=0.4.6 :conda:package:`numpy` >=1.9.2 :conda:package:`pandas` >=0.18 :conda:package:`progressbar2`  :conda:package:`pymongo` >=3.1.1 :conda:package:`pysam` >=0.8.2.1 :conda:package:`pytables` >=3.4.2 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`requests`  :conda:package:`scipy` >=0.15.1 :conda:package:`semidbm` >=0.5.1 :conda:package:`statsmodels` >=0.8 
-
-   :required~by: |required_by_mgkit|
+   :versions: 0.3.4-0, 0.3.3-0, 0.3.0-0, 0.2.2-0
+   
+   :depends click: 
+   
+   :depends enum34: 
+   
+   :depends future: 
+   
+   :depends htseq: >=0.6.0
+   
+   :depends matplotlib: >=2
+   
+   :depends msgpack-python: >=0.4.6
+   
+   :depends numpy: >=1.9.2
+   
+   :depends pandas: >=0.18
+   
+   :depends progressbar2: 
+   
+   :depends pymongo: >=3.1.1
+   
+   :depends pysam: >=0.8.2.1
+   
+   :depends pytables: >=3.4.2
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends requests: 
+   
+   :depends scipy: >=0.15.1
+   
+   :depends semidbm: >=0.5.1
+   
+   :depends statsmodels: >=0.8
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +73,16 @@ mgkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mgkit
+      docker pull quay.io/repository/biocontainers/mgkit:<tag>
+
+   (see `mgkit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mgkit| conda:required_by:: mgkit
 .. |downloads_mgkit| image:: https://img.shields.io/conda/dn/bioconda/mgkit.svg?style=flat
    :alt:   (downloads)
 .. |docker_mgkit| image:: https://quay.io/repository/biocontainers/mgkit/status
    :target: https://quay.io/repository/biocontainers/mgkit
+.. _`mgkit/tags`: https://quay.io/repository/biocontainers/mgkit?tab=tags
 
 
 
@@ -64,4 +99,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mgkit/README.html
-

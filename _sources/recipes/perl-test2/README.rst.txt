@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test2'
 .. highlight: bash
-
 
 perl-test2
 ==========
@@ -21,11 +22,11 @@ perl-test2
 
    |downloads_perl-test2| |docker_perl-test2|
 
-   :versions: 1.302075
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-test2|
+   :versions: 1.302075-1, 1.302075-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-test2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test2
+      docker pull quay.io/repository/biocontainers/perl-test2:<tag>
+
+   (see `perl-test2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test2| conda:required_by:: perl-test2
 .. |downloads_perl-test2| image:: https://img.shields.io/conda/dn/bioconda/perl-test2.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test2| image:: https://quay.io/repository/biocontainers/perl-test2/status
    :target: https://quay.io/repository/biocontainers/perl-test2
+.. _`perl-test2/tags`: https://quay.io/repository/biocontainers/perl-test2?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test2/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pywdl'
 .. highlight: bash
-
 
 pywdl
 =====
@@ -21,11 +22,15 @@ pywdl
 
    |downloads_pywdl| |docker_pywdl|
 
-   :versions: 1.0.22
-
-   :depends: :conda:package:`pytest`  :conda:package:`python` 2.7* :conda:package:`xtermcolor`  
-
-   :required~by: |required_by_pywdl|
+   :versions: 1.0.22-1, 1.0.22-0
+   
+   :depends pytest: 
+   
+   :depends python: 
+   
+   :depends xtermcolor: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pywdl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pywdl
+      docker pull quay.io/repository/biocontainers/pywdl:<tag>
+
+   (see `pywdl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pywdl| conda:required_by:: pywdl
 .. |downloads_pywdl| image:: https://img.shields.io/conda/dn/bioconda/pywdl.svg?style=flat
    :alt:   (downloads)
 .. |docker_pywdl| image:: https://quay.io/repository/biocontainers/pywdl/status
    :target: https://quay.io/repository/biocontainers/pywdl
+.. _`pywdl/tags`: https://quay.io/repository/biocontainers/pywdl?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pywdl/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dwgsim'
 .. highlight: bash
-
 
 dwgsim
 ======
@@ -21,11 +22,15 @@ dwgsim
 
    |downloads_dwgsim| |docker_dwgsim|
 
-   :versions: 1.1.11
-
-   :depends: :conda:package:`perl-app-cpanminus`  :conda:package:`perl-module-build`  :conda:package:`samtools` 0.1.18 :conda:package:`zlib`  
-
-   :required~by: |required_by_dwgsim|
+   :versions: 1.1.11-5, 1.1.11-4, 1.1.11-3, 1.1.11-2, 1.1.11-1
+   
+   :depends libgcc: 
+   
+   :depends ncurses: 5.9*
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ dwgsim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dwgsim
+      docker pull quay.io/repository/biocontainers/dwgsim:<tag>
+
+   (see `dwgsim/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dwgsim| conda:required_by:: dwgsim
 .. |downloads_dwgsim| image:: https://img.shields.io/conda/dn/bioconda/dwgsim.svg?style=flat
    :alt:   (downloads)
 .. |docker_dwgsim| image:: https://quay.io/repository/biocontainers/dwgsim/status
    :target: https://quay.io/repository/biocontainers/dwgsim
+.. _`dwgsim/tags`: https://quay.io/repository/biocontainers/dwgsim?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dwgsim/README.html
-

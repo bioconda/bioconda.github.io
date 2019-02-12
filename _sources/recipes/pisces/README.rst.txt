@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pisces'
 .. highlight: bash
-
 
 pisces
 ======
@@ -21,11 +22,9 @@ pisces
 
    |downloads_pisces| |docker_pisces|
 
-   :versions: 5.2.9.122, 5.2.7.47
-
-   :depends: 
-
-   :required~by: |required_by_pisces|
+   :versions: 5.2.9.122-0, 5.2.7.47-2, 5.2.7.47-1, 5.2.7.47-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ pisces
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pisces
+      docker pull quay.io/repository/biocontainers/pisces:<tag>
+
+   (see `pisces/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pisces| conda:required_by:: pisces
 .. |downloads_pisces| image:: https://img.shields.io/conda/dn/bioconda/pisces.svg?style=flat
    :alt:   (downloads)
 .. |docker_pisces| image:: https://quay.io/repository/biocontainers/pisces/status
    :target: https://quay.io/repository/biocontainers/pisces
+.. _`pisces/tags`: https://quay.io/repository/biocontainers/pisces?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pisces/README.html
-

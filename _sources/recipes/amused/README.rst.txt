@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'amused'
 .. highlight: bash
-
 
 amused
 ======
@@ -21,11 +22,17 @@ amused
 
    |downloads_amused| |docker_amused|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`jemalloc`  :conda:package:`libgcc`  :conda:package:`ruby` >=2.4 :conda:package:`ruby-dna-tools`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_amused|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends jemalloc: 
+   
+   :depends ruby: >=2.4
+   
+   :depends ruby-dna-tools: 
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ amused
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/amused
+      docker pull quay.io/repository/biocontainers/amused:<tag>
+
+   (see `amused/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_amused| conda:required_by:: amused
 .. |downloads_amused| image:: https://img.shields.io/conda/dn/bioconda/amused.svg?style=flat
    :alt:   (downloads)
 .. |docker_amused| image:: https://quay.io/repository/biocontainers/amused/status
    :target: https://quay.io/repository/biocontainers/amused
+.. _`amused/tags`: https://quay.io/repository/biocontainers/amused?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/amused/README.html
-

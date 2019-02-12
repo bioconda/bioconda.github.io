@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rmassbankdata'
 .. highlight: bash
-
 
 bioconductor-rmassbankdata
 ==========================
@@ -21,11 +22,13 @@ bioconductor-rmassbankdata
 
    |downloads_bioconductor-rmassbankdata| |docker_bioconductor-rmassbankdata|
 
-   :versions: 1.20.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-rmassbankdata|
+   :versions: 1.20.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-rmassbankdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rmassbankdata
+      docker pull quay.io/repository/biocontainers/bioconductor-rmassbankdata:<tag>
+
+   (see `bioconductor-rmassbankdata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rmassbankdata| conda:required_by:: bioconductor-rmassbankdata
 .. |downloads_bioconductor-rmassbankdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rmassbankdata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rmassbankdata| image:: https://quay.io/repository/biocontainers/bioconductor-rmassbankdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rmassbankdata
+.. _`bioconductor-rmassbankdata/tags`: https://quay.io/repository/biocontainers/bioconductor-rmassbankdata?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rmassbankdata/README.html
-

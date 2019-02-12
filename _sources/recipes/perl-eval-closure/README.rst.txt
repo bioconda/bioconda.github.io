@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-eval-closure'
 .. highlight: bash
-
 
 perl-eval-closure
 =================
@@ -21,11 +22,17 @@ perl-eval-closure
 
    |downloads_perl-eval-closure| |docker_perl-eval-closure|
 
-   :versions: 0.14
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-test2-suite`  
-
-   :required~by: |required_by_perl-eval-closure|
+   :versions: 0.14-3, 0.14-1, 0.14-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-test2-suite: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-eval-closure
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-eval-closure
+      docker pull quay.io/repository/biocontainers/perl-eval-closure:<tag>
+
+   (see `perl-eval-closure/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-eval-closure| conda:required_by:: perl-eval-closure
 .. |downloads_perl-eval-closure| image:: https://img.shields.io/conda/dn/bioconda/perl-eval-closure.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-eval-closure| image:: https://quay.io/repository/biocontainers/perl-eval-closure/status
    :target: https://quay.io/repository/biocontainers/perl-eval-closure
+.. _`perl-eval-closure/tags`: https://quay.io/repository/biocontainers/perl-eval-closure?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-eval-closure/README.html
-

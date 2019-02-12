@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dnp-binstrings'
 .. highlight: bash
-
 
 dnp-binstrings
 ==============
@@ -21,11 +22,17 @@ dnp-binstrings
 
    |downloads_dnp-binstrings| |docker_dnp-binstrings|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_dnp-binstrings|
+   :versions: 1.0-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ dnp-binstrings
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dnp-binstrings
+      docker pull quay.io/repository/biocontainers/dnp-binstrings:<tag>
+
+   (see `dnp-binstrings/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dnp-binstrings| conda:required_by:: dnp-binstrings
 .. |downloads_dnp-binstrings| image:: https://img.shields.io/conda/dn/bioconda/dnp-binstrings.svg?style=flat
    :alt:   (downloads)
 .. |docker_dnp-binstrings| image:: https://quay.io/repository/biocontainers/dnp-binstrings/status
    :target: https://quay.io/repository/biocontainers/dnp-binstrings
+.. _`dnp-binstrings/tags`: https://quay.io/repository/biocontainers/dnp-binstrings?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dnp-binstrings/README.html
-

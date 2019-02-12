@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gfold'
 .. highlight: bash
-
 
 gfold
 =====
@@ -21,11 +22,15 @@ gfold
 
    |downloads_gfold| |docker_gfold|
 
-   :versions: 1.1.4
-
-   :depends: :conda:package:`gsl`  
-
-   :required~by: |required_by_gfold|
+   :versions: 1.1.4-2, 1.1.4-1, 1.1.4-0
+   
+   :depends gsl: 2.2*
+   
+   :depends libgcc: 
+   
+   :depends openblas: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ gfold
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gfold
+      docker pull quay.io/repository/biocontainers/gfold:<tag>
+
+   (see `gfold/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gfold| conda:required_by:: gfold
 .. |downloads_gfold| image:: https://img.shields.io/conda/dn/bioconda/gfold.svg?style=flat
    :alt:   (downloads)
 .. |docker_gfold| image:: https://quay.io/repository/biocontainers/gfold/status
    :target: https://quay.io/repository/biocontainers/gfold
+.. _`gfold/tags`: https://quay.io/repository/biocontainers/gfold?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gfold/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-edger'
 .. highlight: bash
-
 
 bioconductor-edger
 ==================
@@ -22,11 +23,21 @@ bioconductor-edger
 
    |downloads_bioconductor-edger| |docker_bioconductor-edger|
 
-   :versions: 3.24.1, 3.22.5, 3.20.7, 3.20.1, 3.20.0, 3.18.1, 3.16.5, 3.14.0, 3.12.1, 3.12.0, 3.10.5
-
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-locfit`  :conda:package:`r-rcpp`  
-
-   :required~by: |required_by_bioconductor-edger|
+   :versions: 3.24.1-0, 3.22.5-0, 3.20.7-0, 3.20.1-0, 3.20.0-0, 3.18.1-0, 3.16.5-0, 3.14.0-1, 3.14.0-0, 3.12.1-1, 3.12.1-0, 3.12.0-0, 3.10.5-0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-locfit: 
+   
+   :depends r-rcpp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-edger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-edger
+      docker pull quay.io/repository/biocontainers/bioconductor-edger:<tag>
+
+   (see `bioconductor-edger/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-edger| conda:required_by:: bioconductor-edger
 .. |downloads_bioconductor-edger| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-edger.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-edger| image:: https://quay.io/repository/biocontainers/bioconductor-edger/status
    :target: https://quay.io/repository/biocontainers/bioconductor-edger
+.. _`bioconductor-edger/tags`: https://quay.io/repository/biocontainers/bioconductor-edger?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-edger/README.html
-

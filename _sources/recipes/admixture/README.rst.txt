@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'admixture'
 .. highlight: bash
-
 
 admixture
 =========
@@ -22,11 +23,9 @@ admixture
 
    |downloads_admixture| |docker_admixture|
 
-   :versions: 1.3.0
-
-   :depends: 
-
-   :required~by: |required_by_admixture|
+   :versions: 1.3.0-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +39,16 @@ admixture
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/admixture
+      docker pull quay.io/repository/biocontainers/admixture:<tag>
+
+   (see `admixture/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_admixture| conda:required_by:: admixture
 .. |downloads_admixture| image:: https://img.shields.io/conda/dn/bioconda/admixture.svg?style=flat
    :alt:   (downloads)
 .. |docker_admixture| image:: https://quay.io/repository/biocontainers/admixture/status
    :target: https://quay.io/repository/biocontainers/admixture
+.. _`admixture/tags`: https://quay.io/repository/biocontainers/admixture?tab=tags
 
 
 
@@ -64,4 +65,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/admixture/README.html
-

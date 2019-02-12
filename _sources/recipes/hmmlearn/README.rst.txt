@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hmmlearn'
 .. highlight: bash
-
 
 hmmlearn
 ========
@@ -21,11 +22,19 @@ hmmlearn
 
    |downloads_hmmlearn| |docker_hmmlearn|
 
-   :versions: 20151031, 0.1.1
-
-   :depends: :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`scikit-learn`  :conda:package:`scipy`  :conda:package:`setuptools`  
-
-   :required~by: |required_by_hmmlearn|
+   :versions: 20151031-2, 20151031-1, 20151031-0, 0.1.1-0
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :depends setuptools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ hmmlearn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hmmlearn
+      docker pull quay.io/repository/biocontainers/hmmlearn:<tag>
+
+   (see `hmmlearn/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hmmlearn| conda:required_by:: hmmlearn
 .. |downloads_hmmlearn| image:: https://img.shields.io/conda/dn/bioconda/hmmlearn.svg?style=flat
    :alt:   (downloads)
 .. |docker_hmmlearn| image:: https://quay.io/repository/biocontainers/hmmlearn/status
    :target: https://quay.io/repository/biocontainers/hmmlearn
+.. _`hmmlearn/tags`: https://quay.io/repository/biocontainers/hmmlearn?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hmmlearn/README.html
-

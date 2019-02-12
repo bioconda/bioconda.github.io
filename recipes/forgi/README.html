@@ -131,11 +131,29 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">1.1</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">1.1-2, 1.1-1, 1.1-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference external" href="https://github.com/conda-forge/appdirs-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">appdirs</span></code></a> ==1.4 <a class="reference external" href="https://github.com/conda-forge/beautifulsoup4-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">beautifulsoup4</span></code></a> &gt;=4.6 <a class="reference external" href="https://github.com/conda-forge/biopython-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">biopython</span></code></a> &gt;=1.70 <a class="reference external" href="https://github.com/conda-forge/ddt-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">ddt</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/future-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">future</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/logging_exceptions-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">logging_exceptions</span></code></a> &gt;=0.1.6 <a class="reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">matplotlib</span></code></a> ==2 <a class="reference external" href="https://github.com/conda-forge/networkx-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">networkx</span></code></a> ==2 <a class="reference external" href="https://github.com/conda-forge/numpy-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">numpy</span></code></a> &gt;=1.10.0 <a class="reference external" href="https://github.com/conda-forge/pandas-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">pandas</span></code></a> &gt;=0.20 <a class="reference external" href="https://github.com/conda-forge/python-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">python</span></code></a> 2.7* <a class="reference external" href="https://github.com/conda-forge/scipy-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">scipy</span></code></a> &gt;=0.19.1</td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/appdirs-feedstock"><strong>appdirs</strong></a> &gt;=1.4.3</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/beautifulsoup4-feedstock"><strong>beautifulsoup4</strong></a> &gt;=4.6</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/biopython-feedstock"><strong>biopython</strong></a> &gt;=1.70</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/ddt-feedstock"><strong>ddt</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/future-feedstock"><strong>future</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/logging_exceptions-feedstock"><strong>logging_exceptions</strong></a> &gt;=0.1.6</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><strong>matplotlib</strong></a> &gt;=2</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/networkx-feedstock"><strong>networkx</strong></a> &gt;=2.0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> &gt;=1.10.0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a> &gt;=0.20</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a> &gt;=0.19.1</li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+<li><a class="conda-package reference internal" href="../sshmm/README.html#sshmm"><strong class="xref backref">sshmm</strong></a></li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -149,9 +167,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">forgi</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">forgi</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/forgi?tab=tags">forgi/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-linc'
 .. highlight: bash
-
 
 bioconductor-linc
 =================
@@ -22,11 +23,41 @@ bioconductor-linc
 
    |downloads_bioconductor-linc| |docker_bioconductor-linc|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-clusterprofiler` >=3.10.0,<3.11.0 :conda:package:`bioconductor-dose` >=3.8.0,<3.9.0 :conda:package:`bioconductor-ggtree` >=1.14.0,<1.15.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-reactomepa` >=1.26.0,<1.27.0 :conda:package:`bioconductor-sva` >=3.30.0,<3.31.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-png`  :conda:package:`r-rcpp` >=0.11.0 :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-linc|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-clusterprofiler: >=3.10.0,<3.11.0
+   
+   :depends bioconductor-dose: >=3.8.0,<3.9.0
+   
+   :depends bioconductor-ggtree: >=1.14.0,<1.15.0
+   
+   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-reactomepa: >=1.26.0,<1.27.0
+   
+   :depends bioconductor-sva: >=3.30.0,<3.31.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-png: 
+   
+   :depends r-rcpp: >=0.11.0
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +71,16 @@ bioconductor-linc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-linc
+      docker pull quay.io/repository/biocontainers/bioconductor-linc:<tag>
+
+   (see `bioconductor-linc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-linc| conda:required_by:: bioconductor-linc
 .. |downloads_bioconductor-linc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-linc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-linc| image:: https://quay.io/repository/biocontainers/bioconductor-linc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-linc
+.. _`bioconductor-linc/tags`: https://quay.io/repository/biocontainers/bioconductor-linc?tab=tags
 
 
 
@@ -64,4 +97,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-linc/README.html
-

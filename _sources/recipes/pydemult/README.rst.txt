@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pydemult'
 .. highlight: bash
-
 
 pydemult
 ========
@@ -21,11 +22,15 @@ pydemult
 
    |downloads_pydemult| |docker_pydemult|
 
-   :versions: 0.4.1
-
-   :depends: :conda:package:`mputil`  :conda:package:`pandas`  :conda:package:`python` >=3.5,<3.6.0a0 
-
-   :required~by: |required_by_pydemult|
+   :versions: 0.4.1-0
+   
+   :depends mputil: 
+   
+   :depends pandas: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pydemult
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pydemult
+      docker pull quay.io/repository/biocontainers/pydemult:<tag>
+
+   (see `pydemult/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pydemult| conda:required_by:: pydemult
 .. |downloads_pydemult| image:: https://img.shields.io/conda/dn/bioconda/pydemult.svg?style=flat
    :alt:   (downloads)
 .. |docker_pydemult| image:: https://quay.io/repository/biocontainers/pydemult/status
    :target: https://quay.io/repository/biocontainers/pydemult
+.. _`pydemult/tags`: https://quay.io/repository/biocontainers/pydemult?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pydemult/README.html
-

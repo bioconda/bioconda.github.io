@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'smina'
 .. highlight: bash
-
 
 smina
 =====
@@ -21,11 +22,9 @@ smina
 
    |downloads_smina| |docker_smina|
 
-   :versions: 2017.11.9
-
-   :depends: 
-
-   :required~by: |required_by_smina|
+   :versions: 2017.11.9-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ smina
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/smina
+      docker pull quay.io/repository/biocontainers/smina:<tag>
+
+   (see `smina/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_smina| conda:required_by:: smina
 .. |downloads_smina| image:: https://img.shields.io/conda/dn/bioconda/smina.svg?style=flat
    :alt:   (downloads)
 .. |docker_smina| image:: https://quay.io/repository/biocontainers/smina/status
    :target: https://quay.io/repository/biocontainers/smina
+.. _`smina/tags`: https://quay.io/repository/biocontainers/smina?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/smina/README.html
-

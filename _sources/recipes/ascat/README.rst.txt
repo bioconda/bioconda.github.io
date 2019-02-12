@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ascat'
 .. highlight: bash
-
 
 ascat
 =====
@@ -30,11 +31,17 @@ ascat
 
    |downloads_ascat| |docker_ascat|
 
-   :versions: 2.5.2, 2.5.1, 2.5
-
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-r.devices`  :conda:package:`r-r.utils`  :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_ascat|
+   :versions: 2.5.2-0, 2.5.1-2, 2.5.1-0, 2.5-0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-r.devices: 
+   
+   :depends r-r.utils: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -48,14 +55,16 @@ ascat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ascat
+      docker pull quay.io/repository/biocontainers/ascat:<tag>
+
+   (see `ascat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ascat| conda:required_by:: ascat
 .. |downloads_ascat| image:: https://img.shields.io/conda/dn/bioconda/ascat.svg?style=flat
    :alt:   (downloads)
 .. |docker_ascat| image:: https://quay.io/repository/biocontainers/ascat/status
    :target: https://quay.io/repository/biocontainers/ascat
+.. _`ascat/tags`: https://quay.io/repository/biocontainers/ascat?tab=tags
 
 
 
@@ -72,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ascat/README.html
-

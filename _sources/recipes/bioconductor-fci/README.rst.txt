@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-fci'
 .. highlight: bash
-
 
 bioconductor-fci
 ================
@@ -22,10 +23,8 @@ bioconductor-fci
    |downloads_bioconductor-fci| |docker_bioconductor-fci|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-fci|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-fci
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fci
+      docker pull quay.io/repository/biocontainers/bioconductor-fci:<tag>
+
+   (see `bioconductor-fci/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-fci| conda:required_by:: bioconductor-fci
 .. |downloads_bioconductor-fci| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fci.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-fci| image:: https://quay.io/repository/biocontainers/bioconductor-fci/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fci
+.. _`bioconductor-fci/tags`: https://quay.io/repository/biocontainers/bioconductor-fci?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-fci/README.html
-

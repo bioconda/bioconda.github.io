@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nmrpro'
 .. highlight: bash
-
 
 nmrpro
 ======
@@ -21,11 +22,17 @@ nmrpro
 
    |downloads_nmrpro| |docker_nmrpro|
 
-   :versions: 20161019
-
-   :depends: :conda:package:`nmrglue` >=0.5 :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`scipy`  
-
-   :required~by: |required_by_nmrpro|
+   :versions: 20161019-1, 20161019-0
+   
+   :depends nmrglue: >=0.5
+   
+   :depends numpy: 
+   
+   :depends python: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ nmrpro
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nmrpro
+      docker pull quay.io/repository/biocontainers/nmrpro:<tag>
+
+   (see `nmrpro/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nmrpro| conda:required_by:: nmrpro
 .. |downloads_nmrpro| image:: https://img.shields.io/conda/dn/bioconda/nmrpro.svg?style=flat
    :alt:   (downloads)
 .. |docker_nmrpro| image:: https://quay.io/repository/biocontainers/nmrpro/status
    :target: https://quay.io/repository/biocontainers/nmrpro
+.. _`nmrpro/tags`: https://quay.io/repository/biocontainers/nmrpro?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nmrpro/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ucsc-hgfindspec'
 .. highlight: bash
-
 
 ucsc-hgfindspec
 ===============
@@ -21,11 +22,21 @@ ucsc-hgfindspec
 
    |downloads_ucsc-hgfindspec| |docker_ucsc-hgfindspec|
 
-   :versions: 366, 357
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_ucsc-hgfindspec|
+   :versions: 366-0, 357-2, 357-1, 357-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libpng: >=1.6.34,<1.7.0a0
+   
+   :depends libuuid: 
+   
+   :depends mysql-connector-c: 
+   
+   :depends openssl: >=1.0.2o,<1.0.3a
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ ucsc-hgfindspec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-hgfindspec
+      docker pull quay.io/repository/biocontainers/ucsc-hgfindspec:<tag>
+
+   (see `ucsc-hgfindspec/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ucsc-hgfindspec| conda:required_by:: ucsc-hgfindspec
 .. |downloads_ucsc-hgfindspec| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgfindspec.svg?style=flat
    :alt:   (downloads)
 .. |docker_ucsc-hgfindspec| image:: https://quay.io/repository/biocontainers/ucsc-hgfindspec/status
    :target: https://quay.io/repository/biocontainers/ucsc-hgfindspec
+.. _`ucsc-hgfindspec/tags`: https://quay.io/repository/biocontainers/ucsc-hgfindspec?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ucsc-hgfindspec/README.html
-

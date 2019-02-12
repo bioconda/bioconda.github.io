@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-samr'
 .. highlight: bash
-
 
 r-samr
 ======
@@ -21,11 +22,17 @@ r-samr
 
    |downloads_r-samr| |docker_r-samr|
 
-   :versions: 2.0
-
-   :depends: :conda:package:`bioconductor-impute`  :conda:package:`r-base` 3.3.1* :conda:package:`r-matrixstats`  
-
-   :required~by: |required_by_r-samr|
+   :versions: 2.0-2, 2.0-1, 2.0-0
+   
+   :depends bioconductor-impute: >=1.56.0,<1.57.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-matrixstats: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-samr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-samr
+      docker pull quay.io/repository/biocontainers/r-samr:<tag>
+
+   (see `r-samr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-samr| conda:required_by:: r-samr
 .. |downloads_r-samr| image:: https://img.shields.io/conda/dn/bioconda/r-samr.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-samr| image:: https://quay.io/repository/biocontainers/r-samr/status
    :target: https://quay.io/repository/biocontainers/r-samr
+.. _`r-samr/tags`: https://quay.io/repository/biocontainers/r-samr?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-samr/README.html
-

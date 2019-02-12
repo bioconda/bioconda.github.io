@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-classapi'
 .. highlight: bash
-
 
 perl-test-classapi
 ==================
@@ -21,11 +22,17 @@ perl-test-classapi
 
    |downloads_perl-test-classapi| |docker_perl-test-classapi|
 
-   :versions: 1.07, 1.06
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-class-inspector`  :conda:package:`perl-config-tiny`  :conda:package:`perl-params-util`  
-
-   :required~by: |required_by_perl-test-classapi|
+   :versions: 1.07-0, 1.06-1, 1.06-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-class-inspector: 
+   
+   :depends perl-config-tiny: 
+   
+   :depends perl-params-util: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-test-classapi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-classapi
+      docker pull quay.io/repository/biocontainers/perl-test-classapi:<tag>
+
+   (see `perl-test-classapi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-classapi| conda:required_by:: perl-test-classapi
 .. |downloads_perl-test-classapi| image:: https://img.shields.io/conda/dn/bioconda/perl-test-classapi.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-classapi| image:: https://quay.io/repository/biocontainers/perl-test-classapi/status
    :target: https://quay.io/repository/biocontainers/perl-test-classapi
+.. _`perl-test-classapi/tags`: https://quay.io/repository/biocontainers/perl-test-classapi?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-classapi/README.html
-

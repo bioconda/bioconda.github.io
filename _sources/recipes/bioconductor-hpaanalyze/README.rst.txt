@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-hpaanalyze'
 .. highlight: bash
-
 
 bioconductor-hpaanalyze
 =======================
@@ -22,10 +23,8 @@ bioconductor-hpaanalyze
    |downloads_bioconductor-hpaanalyze| |docker_bioconductor-hpaanalyze|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-hpaanalyze|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-hpaanalyze
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hpaanalyze
+      docker pull quay.io/repository/biocontainers/bioconductor-hpaanalyze:<tag>
+
+   (see `bioconductor-hpaanalyze/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-hpaanalyze| conda:required_by:: bioconductor-hpaanalyze
 .. |downloads_bioconductor-hpaanalyze| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hpaanalyze.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-hpaanalyze| image:: https://quay.io/repository/biocontainers/bioconductor-hpaanalyze/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hpaanalyze
+.. _`bioconductor-hpaanalyze/tags`: https://quay.io/repository/biocontainers/bioconductor-hpaanalyze?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-hpaanalyze/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gtfparse'
 .. highlight: bash
-
 
 gtfparse
 ========
@@ -21,11 +22,15 @@ gtfparse
 
    |downloads_gtfparse| |docker_gtfparse|
 
-   :versions: 1.2.0, 1.0.7
-
-   :depends: :conda:package:`numpy` >=1.7,<2.0 :conda:package:`pandas` >=0.15 :conda:package:`python`  
-
-   :required~by: |required_by_gtfparse|
+   :versions: 1.2.0-0, 1.0.7-1, 1.0.7-0
+   
+   :depends numpy: >=1.7,<2.0
+   
+   :depends pandas: >=0.15
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ gtfparse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gtfparse
+      docker pull quay.io/repository/biocontainers/gtfparse:<tag>
+
+   (see `gtfparse/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gtfparse| conda:required_by:: gtfparse
 .. |downloads_gtfparse| image:: https://img.shields.io/conda/dn/bioconda/gtfparse.svg?style=flat
    :alt:   (downloads)
 .. |docker_gtfparse| image:: https://quay.io/repository/biocontainers/gtfparse/status
    :target: https://quay.io/repository/biocontainers/gtfparse
+.. _`gtfparse/tags`: https://quay.io/repository/biocontainers/gtfparse?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gtfparse/README.html
-

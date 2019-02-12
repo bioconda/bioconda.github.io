@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-encodexplorer'
 .. highlight: bash
-
 
 bioconductor-encodexplorer
 ==========================
@@ -22,11 +23,31 @@ bioconductor-encodexplorer
 
    |downloads_bioconductor-encodexplorer| |docker_bioconductor-encodexplorer|
 
-   :versions: 2.8.0, 2.6.0, 2.4.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-dplyr`  :conda:package:`r-dt`  :conda:package:`r-jsonlite`  :conda:package:`r-rcurl`  :conda:package:`r-shiny`  :conda:package:`r-shinythemes`  :conda:package:`r-stringi`  :conda:package:`r-stringr`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_bioconductor-encodexplorer|
+   :versions: 2.8.0-0, 2.6.0-0, 2.4.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-dt: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-rcurl: 
+   
+   :depends r-shiny: 
+   
+   :depends r-shinythemes: 
+   
+   :depends r-stringi: 
+   
+   :depends r-stringr: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +61,16 @@ bioconductor-encodexplorer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-encodexplorer
+      docker pull quay.io/repository/biocontainers/bioconductor-encodexplorer:<tag>
+
+   (see `bioconductor-encodexplorer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-encodexplorer| conda:required_by:: bioconductor-encodexplorer
 .. |downloads_bioconductor-encodexplorer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-encodexplorer.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-encodexplorer| image:: https://quay.io/repository/biocontainers/bioconductor-encodexplorer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-encodexplorer
+.. _`bioconductor-encodexplorer/tags`: https://quay.io/repository/biocontainers/bioconductor-encodexplorer?tab=tags
 
 
 
@@ -64,4 +87,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-encodexplorer/README.html
-

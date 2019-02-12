@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyfaidx'
 .. highlight: bash
-
 
 pyfaidx
 =======
@@ -22,11 +23,13 @@ pyfaidx
 
    |downloads_pyfaidx| |docker_pyfaidx|
 
-   :versions: 0.5.5.2, 0.5.4.1, 0.5.3, 0.5.1, 0.5.0, 0.4.9.2, 0.4.8.1, 0.4.7.1, 0.4.4
-
-   :depends: :conda:package:`python`  :conda:package:`six`  
-
-   :required~by: |required_by_pyfaidx|
+   :versions: 0.5.5.2-0, 0.5.4.1-0, 0.5.3-0, 0.5.1-0, 0.5.0-0, 0.4.9.2-0, 0.4.8.1-2, 0.4.8.1-0, 0.4.7.1-2, 0.4.7.1-0, 0.4.4-0
+   
+   :depends python: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ pyfaidx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyfaidx
+      docker pull quay.io/repository/biocontainers/pyfaidx:<tag>
+
+   (see `pyfaidx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyfaidx| conda:required_by:: pyfaidx
 .. |downloads_pyfaidx| image:: https://img.shields.io/conda/dn/bioconda/pyfaidx.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyfaidx| image:: https://quay.io/repository/biocontainers/pyfaidx/status
    :target: https://quay.io/repository/biocontainers/pyfaidx
+.. _`pyfaidx/tags`: https://quay.io/repository/biocontainers/pyfaidx?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyfaidx/README.html
-

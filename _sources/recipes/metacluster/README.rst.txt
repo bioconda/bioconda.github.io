@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metacluster'
 .. highlight: bash
-
 
 metacluster
 ===========
@@ -25,11 +26,11 @@ metacluster
 
    |downloads_metacluster| |docker_metacluster|
 
-   :versions: 5.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_metacluster|
+   :versions: 5.1-1, 5.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -43,14 +44,16 @@ metacluster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metacluster
+      docker pull quay.io/repository/biocontainers/metacluster:<tag>
+
+   (see `metacluster/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metacluster| conda:required_by:: metacluster
 .. |downloads_metacluster| image:: https://img.shields.io/conda/dn/bioconda/metacluster.svg?style=flat
    :alt:   (downloads)
 .. |docker_metacluster| image:: https://quay.io/repository/biocontainers/metacluster/status
    :target: https://quay.io/repository/biocontainers/metacluster
+.. _`metacluster/tags`: https://quay.io/repository/biocontainers/metacluster?tab=tags
 
 
 
@@ -67,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metacluster/README.html
-

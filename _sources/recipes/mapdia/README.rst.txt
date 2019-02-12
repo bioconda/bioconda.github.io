@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mapdia'
 .. highlight: bash
-
 
 mapdia
 ======
@@ -22,11 +23,13 @@ mapdia
 
    |downloads_mapdia| |docker_mapdia|
 
-   :versions: 3.1.0, 1.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_mapdia|
+   :versions: 3.1.0-0, 1.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ mapdia
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mapdia
+      docker pull quay.io/repository/biocontainers/mapdia:<tag>
+
+   (see `mapdia/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mapdia| conda:required_by:: mapdia
 .. |downloads_mapdia| image:: https://img.shields.io/conda/dn/bioconda/mapdia.svg?style=flat
    :alt:   (downloads)
 .. |docker_mapdia| image:: https://quay.io/repository/biocontainers/mapdia/status
    :target: https://quay.io/repository/biocontainers/mapdia
+.. _`mapdia/tags`: https://quay.io/repository/biocontainers/mapdia?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mapdia/README.html
-

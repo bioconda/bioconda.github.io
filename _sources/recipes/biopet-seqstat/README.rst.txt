@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biopet-seqstat'
 .. highlight: bash
-
 
 biopet-seqstat
 ==============
@@ -60,11 +61,13 @@ biopet-seqstat
 
    |downloads_biopet-seqstat| |docker_biopet-seqstat|
 
-   :versions: 1.0.1, 1.0, 0.1
-
-   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
-
-   :required~by: |required_by_biopet-seqstat|
+   :versions: 1.0.1-0, 1.0-0, 0.1-1, 0.1-0
+   
+   :depends openjdk: >=8,<9
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -78,14 +81,16 @@ biopet-seqstat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-seqstat
+      docker pull quay.io/repository/biocontainers/biopet-seqstat:<tag>
+
+   (see `biopet-seqstat/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biopet-seqstat| conda:required_by:: biopet-seqstat
 .. |downloads_biopet-seqstat| image:: https://img.shields.io/conda/dn/bioconda/biopet-seqstat.svg?style=flat
    :alt:   (downloads)
 .. |docker_biopet-seqstat| image:: https://quay.io/repository/biocontainers/biopet-seqstat/status
    :target: https://quay.io/repository/biocontainers/biopet-seqstat
+.. _`biopet-seqstat/tags`: https://quay.io/repository/biocontainers/biopet-seqstat?tab=tags
 
 
 
@@ -106,4 +111,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biopet-seqstat/README.html
-

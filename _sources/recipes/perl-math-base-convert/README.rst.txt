@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-math-base-convert'
 .. highlight: bash
-
 
 perl-math-base-convert
 ======================
@@ -21,11 +22,11 @@ perl-math-base-convert
 
    |downloads_perl-math-base-convert| |docker_perl-math-base-convert|
 
-   :versions: 0.11
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-math-base-convert|
+   :versions: 0.11-1, 0.11-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-math-base-convert
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-base-convert
+      docker pull quay.io/repository/biocontainers/perl-math-base-convert:<tag>
+
+   (see `perl-math-base-convert/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-math-base-convert| conda:required_by:: perl-math-base-convert
 .. |downloads_perl-math-base-convert| image:: https://img.shields.io/conda/dn/bioconda/perl-math-base-convert.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-math-base-convert| image:: https://quay.io/repository/biocontainers/perl-math-base-convert/status
    :target: https://quay.io/repository/biocontainers/perl-math-base-convert
+.. _`perl-math-base-convert/tags`: https://quay.io/repository/biocontainers/perl-math-base-convert?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-math-base-convert/README.html
-

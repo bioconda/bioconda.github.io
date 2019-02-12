@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-nam'
 .. highlight: bash
-
 
 r-nam
 =====
@@ -21,11 +22,19 @@ r-nam
 
    |downloads_r-nam| |docker_r-nam|
 
-   :versions: 1.6.4
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-randomforest`  :conda:package:`r-rcpp`  
-
-   :required~by: |required_by_r-nam|
+   :versions: 1.6.4-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-randomforest: 
+   
+   :depends r-rcpp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ r-nam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-nam
+      docker pull quay.io/repository/biocontainers/r-nam:<tag>
+
+   (see `r-nam/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-nam| conda:required_by:: r-nam
 .. |downloads_r-nam| image:: https://img.shields.io/conda/dn/bioconda/r-nam.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-nam| image:: https://quay.io/repository/biocontainers/r-nam/status
    :target: https://quay.io/repository/biocontainers/r-nam
+.. _`r-nam/tags`: https://quay.io/repository/biocontainers/r-nam?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-nam/README.html
-

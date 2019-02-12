@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-datetime-format-strptime'
 .. highlight: bash
-
 
 perl-datetime-format-strptime
 =============================
@@ -21,11 +22,33 @@ perl-datetime-format-strptime
 
    |downloads_perl-datetime-format-strptime| |docker_perl-datetime-format-strptime|
 
-   :versions: 1.75, 1.73
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-constant`  :conda:package:`perl-datetime`  :conda:package:`perl-datetime-locale` >=1.05 :conda:package:`perl-datetime-timezone`  :conda:package:`perl-exporter`  :conda:package:`perl-package-deprecationmanager`  :conda:package:`perl-params-validationcompiler`  :conda:package:`perl-parent`  :conda:package:`perl-specio`  :conda:package:`perl-try-tiny`  
-
-   :required~by: |required_by_perl-datetime-format-strptime|
+   :versions: 1.75-0, 1.73-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-constant: 
+   
+   :depends perl-datetime: 
+   
+   :depends perl-datetime-locale: >=1.05
+   
+   :depends perl-datetime-timezone: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-package-deprecationmanager: 
+   
+   :depends perl-params-validationcompiler: 
+   
+   :depends perl-parent: 
+   
+   :depends perl-specio: 
+   
+   :depends perl-try-tiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ perl-datetime-format-strptime
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-datetime-format-strptime
+      docker pull quay.io/repository/biocontainers/perl-datetime-format-strptime:<tag>
+
+   (see `perl-datetime-format-strptime/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-datetime-format-strptime| conda:required_by:: perl-datetime-format-strptime
 .. |downloads_perl-datetime-format-strptime| image:: https://img.shields.io/conda/dn/bioconda/perl-datetime-format-strptime.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-datetime-format-strptime| image:: https://quay.io/repository/biocontainers/perl-datetime-format-strptime/status
    :target: https://quay.io/repository/biocontainers/perl-datetime-format-strptime
+.. _`perl-datetime-format-strptime/tags`: https://quay.io/repository/biocontainers/perl-datetime-format-strptime?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-datetime-format-strptime/README.html
-

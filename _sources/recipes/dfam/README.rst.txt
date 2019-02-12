@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dfam'
 .. highlight: bash
-
 
 dfam
 ====
@@ -21,11 +22,21 @@ dfam
 
    |downloads_dfam| |docker_dfam|
 
-   :versions: 2.0
-
-   :depends: :conda:package:`hmmer`  :conda:package:`perl-threaded`  :conda:package:`repeatmasker`  :conda:package:`wget`  
-
-   :required~by: |required_by_dfam|
+   :versions: 2.0-1, 2.0-0
+   
+   :depends hmmer: 
+   
+   :depends perl: 
+   
+   :depends python: 
+   
+   :depends python-wget: 
+   
+   :depends repeatmasker: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ dfam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dfam
+      docker pull quay.io/repository/biocontainers/dfam:<tag>
+
+   (see `dfam/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dfam| conda:required_by:: dfam
 .. |downloads_dfam| image:: https://img.shields.io/conda/dn/bioconda/dfam.svg?style=flat
    :alt:   (downloads)
 .. |docker_dfam| image:: https://quay.io/repository/biocontainers/dfam/status
    :target: https://quay.io/repository/biocontainers/dfam
+.. _`dfam/tags`: https://quay.io/repository/biocontainers/dfam?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dfam/README.html
-

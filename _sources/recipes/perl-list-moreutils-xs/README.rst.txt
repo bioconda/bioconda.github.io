@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-list-moreutils-xs'
 .. highlight: bash
-
 
 perl-list-moreutils-xs
 ======================
@@ -21,11 +22,13 @@ perl-list-moreutils-xs
 
    |downloads_perl-list-moreutils-xs| |docker_perl-list-moreutils-xs|
 
-   :versions: 0.428
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 :conda:package:`perl-xsloader`  
-
-   :required~by: |required_by_perl-list-moreutils-xs|
+   :versions: 0.428-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-xsloader: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-list-moreutils-xs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-list-moreutils-xs
+      docker pull quay.io/repository/biocontainers/perl-list-moreutils-xs:<tag>
+
+   (see `perl-list-moreutils-xs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-list-moreutils-xs| conda:required_by:: perl-list-moreutils-xs
 .. |downloads_perl-list-moreutils-xs| image:: https://img.shields.io/conda/dn/bioconda/perl-list-moreutils-xs.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-list-moreutils-xs| image:: https://quay.io/repository/biocontainers/perl-list-moreutils-xs/status
    :target: https://quay.io/repository/biocontainers/perl-list-moreutils-xs
+.. _`perl-list-moreutils-xs/tags`: https://quay.io/repository/biocontainers/perl-list-moreutils-xs?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-list-moreutils-xs/README.html
-

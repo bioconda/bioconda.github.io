@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-env-path'
 .. highlight: bash
-
 
 perl-env-path
 =============
@@ -21,11 +22,11 @@ perl-env-path
 
    |downloads_perl-env-path| |docker_perl-env-path|
 
-   :versions: 0.19
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-env-path|
+   :versions: 0.19-2, 0.19-1, 0.19-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-env-path
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-env-path
+      docker pull quay.io/repository/biocontainers/perl-env-path:<tag>
+
+   (see `perl-env-path/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-env-path| conda:required_by:: perl-env-path
 .. |downloads_perl-env-path| image:: https://img.shields.io/conda/dn/bioconda/perl-env-path.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-env-path| image:: https://quay.io/repository/biocontainers/perl-env-path/status
    :target: https://quay.io/repository/biocontainers/perl-env-path
+.. _`perl-env-path/tags`: https://quay.io/repository/biocontainers/perl-env-path?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-env-path/README.html
-

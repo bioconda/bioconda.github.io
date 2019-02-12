@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'odose'
 .. highlight: bash
-
 
 odose
 =====
@@ -21,11 +22,23 @@ odose
 
    |downloads_odose| |docker_odose|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`biopython` >=1.64 :conda:package:`matplotlib` >=1.4.2 :conda:package:`mysql-connector-python`  :conda:package:`numpy` >=1.9.1 :conda:package:`poster` >=0.8.1 :conda:package:`python` 2.7* :conda:package:`rpy2` >=2.8.5 
-
-   :required~by: |required_by_odose|
+   :versions: 1.0-0
+   
+   :depends biopython: >=1.64
+   
+   :depends matplotlib: >=1.4.2
+   
+   :depends mysql-connector-python: 
+   
+   :depends numpy: >=1.9.1
+   
+   :depends poster: >=0.8.1
+   
+   :depends python: 2.7*
+   
+   :depends rpy2: >=2.8.5
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ odose
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/odose
+      docker pull quay.io/repository/biocontainers/odose:<tag>
+
+   (see `odose/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_odose| conda:required_by:: odose
 .. |downloads_odose| image:: https://img.shields.io/conda/dn/bioconda/odose.svg?style=flat
    :alt:   (downloads)
 .. |docker_odose| image:: https://quay.io/repository/biocontainers/odose/status
    :target: https://quay.io/repository/biocontainers/odose
+.. _`odose/tags`: https://quay.io/repository/biocontainers/odose?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/odose/README.html
-

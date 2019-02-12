@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metaphlan2'
 .. highlight: bash
-
 
 metaphlan2
 ==========
@@ -26,11 +27,43 @@ metaphlan2
 
    |downloads_metaphlan2| |docker_metaphlan2|
 
-   :versions: 2.7.8, 2.7.7, 2.7.5, 2.6.0, 2.5.0, 2.2.0
-
-   :depends: :conda:package:`biom-format`  :conda:package:`biopython`  :conda:package:`blast` >=2.6.0 :conda:package:`bowtie2` >=2.0.0 :conda:package:`dendropy` >=3.12.3 :conda:package:`matplotlib` 1.5.2.* :conda:package:`msgpack-python`  :conda:package:`muscle` >=3.8.1551 :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pysam` >=0.8.3 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`raxml` >=8.2.10 :conda:package:`requests`  :conda:package:`samtools` >=0.1.19,<1.0 :conda:package:`scipy`  :conda:package:`setuptools`  
-
-   :required~by: |required_by_metaphlan2|
+   :versions: 2.7.8-0, 2.7.7-4, 2.7.7-3, 2.7.7-2, 2.7.7-1, 2.7.5-1, 2.7.5-0, 2.6.0-2, 2.6.0-1, 2.5.0-2, 2.5.0-0, 2.2.0-1, 2.2.0-0
+   
+   :depends biom-format: 
+   
+   :depends biopython: 
+   
+   :depends blast: >=2.6.0
+   
+   :depends bowtie2: >=2.0.0
+   
+   :depends dendropy: >=3.12.3
+   
+   :depends matplotlib: 1.5.2.*
+   
+   :depends msgpack-python: 
+   
+   :depends muscle: >=3.8.1551
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends pysam: >=0.8.3
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends raxml: >=8.2.10
+   
+   :depends requests: 
+   
+   :depends samtools: >=0.1.19,<1.0
+   
+   :depends scipy: 
+   
+   :depends setuptools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -44,14 +77,16 @@ metaphlan2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metaphlan2
+      docker pull quay.io/repository/biocontainers/metaphlan2:<tag>
+
+   (see `metaphlan2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metaphlan2| conda:required_by:: metaphlan2
 .. |downloads_metaphlan2| image:: https://img.shields.io/conda/dn/bioconda/metaphlan2.svg?style=flat
    :alt:   (downloads)
 .. |docker_metaphlan2| image:: https://quay.io/repository/biocontainers/metaphlan2/status
    :target: https://quay.io/repository/biocontainers/metaphlan2
+.. _`metaphlan2/tags`: https://quay.io/repository/biocontainers/metaphlan2?tab=tags
 
 
 
@@ -68,4 +103,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metaphlan2/README.html
-

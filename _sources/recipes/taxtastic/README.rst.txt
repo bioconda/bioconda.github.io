@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'taxtastic'
 .. highlight: bash
-
 
 taxtastic
 =========
@@ -21,11 +22,19 @@ taxtastic
 
    |downloads_taxtastic| |docker_taxtastic|
 
-   :versions: 0.8.9, 0.8.5, 0.5.4
-
-   :depends: :conda:package:`biopython`  :conda:package:`decorator`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`sqlalchemy` >=0.7 :conda:package:`xlrd`  
-
-   :required~by: |required_by_taxtastic|
+   :versions: 0.8.9-0, 0.8.5-2, 0.8.5-0, 0.5.4-0
+   
+   :depends biopython: 
+   
+   :depends decorator: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends sqlalchemy: >=0.7
+   
+   :depends xlrd: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ taxtastic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/taxtastic
+      docker pull quay.io/repository/biocontainers/taxtastic:<tag>
+
+   (see `taxtastic/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_taxtastic| conda:required_by:: taxtastic
 .. |downloads_taxtastic| image:: https://img.shields.io/conda/dn/bioconda/taxtastic.svg?style=flat
    :alt:   (downloads)
 .. |docker_taxtastic| image:: https://quay.io/repository/biocontainers/taxtastic/status
    :target: https://quay.io/repository/biocontainers/taxtastic
+.. _`taxtastic/tags`: https://quay.io/repository/biocontainers/taxtastic?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/taxtastic/README.html
-

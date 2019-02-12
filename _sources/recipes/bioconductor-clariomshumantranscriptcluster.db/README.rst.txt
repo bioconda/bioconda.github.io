@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-clariomshumantranscriptcluster.db'
 .. highlight: bash
-
 
 bioconductor-clariomshumantranscriptcluster.db
 ==============================================
@@ -21,11 +22,17 @@ bioconductor-clariomshumantranscriptcluster.db
 
    |downloads_bioconductor-clariomshumantranscriptcluster.db| |docker_bioconductor-clariomshumantranscriptcluster.db|
 
-   :versions: 8.7.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-clariomshumantranscriptcluster.db|
+   :versions: 8.7.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-clariomshumantranscriptcluster.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clariomshumantranscriptcluster.db
+      docker pull quay.io/repository/biocontainers/bioconductor-clariomshumantranscriptcluster.db:<tag>
+
+   (see `bioconductor-clariomshumantranscriptcluster.db/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-clariomshumantranscriptcluster.db| conda:required_by:: bioconductor-clariomshumantranscriptcluster.db
 .. |downloads_bioconductor-clariomshumantranscriptcluster.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clariomshumantranscriptcluster.db.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-clariomshumantranscriptcluster.db| image:: https://quay.io/repository/biocontainers/bioconductor-clariomshumantranscriptcluster.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clariomshumantranscriptcluster.db
+.. _`bioconductor-clariomshumantranscriptcluster.db/tags`: https://quay.io/repository/biocontainers/bioconductor-clariomshumantranscriptcluster.db?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-clariomshumantranscriptcluster.db/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pipits'
 .. highlight: bash
-
 
 pipits
 ======
@@ -21,11 +22,29 @@ pipits
 
    |downloads_pipits| |docker_pipits|
 
-   :versions: 2.2, 2.1, 2.0
-
-   :depends: :conda:package:`biom-format`  :conda:package:`fastx_toolkit`  :conda:package:`hmmer`  :conda:package:`itsx`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pispino` >=1.1 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`rdptools`  :conda:package:`vsearch`  
-
-   :required~by: |required_by_pipits|
+   :versions: 2.2-1, 2.1-5, 2.1-3, 2.1-2, 2.1-1, 2.0-1, 2.0-0
+   
+   :depends biom-format: 
+   
+   :depends fastx_toolkit: 
+   
+   :depends hmmer: 
+   
+   :depends itsx: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends pispino: >=1.1
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends rdptools: 
+   
+   :depends vsearch: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ pipits
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pipits
+      docker pull quay.io/repository/biocontainers/pipits:<tag>
+
+   (see `pipits/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pipits| conda:required_by:: pipits
 .. |downloads_pipits| image:: https://img.shields.io/conda/dn/bioconda/pipits.svg?style=flat
    :alt:   (downloads)
 .. |docker_pipits| image:: https://quay.io/repository/biocontainers/pipits/status
    :target: https://quay.io/repository/biocontainers/pipits
+.. _`pipits/tags`: https://quay.io/repository/biocontainers/pipits?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pipits/README.html
-

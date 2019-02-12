@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-html-parser'
 .. highlight: bash
-
 
 perl-html-parser
 ================
@@ -21,11 +22,17 @@ perl-html-parser
 
    |downloads_perl-html-parser| |docker_perl-html-parser|
 
-   :versions: 3.72
-
-   :depends: :conda:package:`perl-html-tagset`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-html-parser|
+   :versions: 3.72-4, 3.72-3, 3.72-2, 3.72-1, 3.72-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-html-tagset: 
+   
+   :depends perl-xsloader: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-html-parser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-parser
+      docker pull quay.io/repository/biocontainers/perl-html-parser:<tag>
+
+   (see `perl-html-parser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-html-parser| conda:required_by:: perl-html-parser
 .. |downloads_perl-html-parser| image:: https://img.shields.io/conda/dn/bioconda/perl-html-parser.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-html-parser| image:: https://quay.io/repository/biocontainers/perl-html-parser/status
    :target: https://quay.io/repository/biocontainers/perl-html-parser
+.. _`perl-html-parser/tags`: https://quay.io/repository/biocontainers/perl-html-parser?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-html-parser/README.html
-

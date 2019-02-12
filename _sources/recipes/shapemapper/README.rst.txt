@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'shapemapper'
 .. highlight: bash
-
 
 shapemapper
 ===========
@@ -21,11 +22,21 @@ shapemapper
 
    |downloads_shapemapper| |docker_shapemapper|
 
-   :versions: 1.2
-
-   :depends: :conda:package:`bowtie2`  :conda:package:`httplib2`  :conda:package:`libgcc`  :conda:package:`matplotlib`  :conda:package:`python` 2.7* :conda:package:`rnastructure`  
-
-   :required~by: |required_by_shapemapper|
+   :versions: 1.2-1, 1.2-0
+   
+   :depends bowtie2: 
+   
+   :depends httplib2: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends rnastructure: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ shapemapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shapemapper
+      docker pull quay.io/repository/biocontainers/shapemapper:<tag>
+
+   (see `shapemapper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_shapemapper| conda:required_by:: shapemapper
 .. |downloads_shapemapper| image:: https://img.shields.io/conda/dn/bioconda/shapemapper.svg?style=flat
    :alt:   (downloads)
 .. |docker_shapemapper| image:: https://quay.io/repository/biocontainers/shapemapper/status
    :target: https://quay.io/repository/biocontainers/shapemapper
+.. _`shapemapper/tags`: https://quay.io/repository/biocontainers/shapemapper?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/shapemapper/README.html
-

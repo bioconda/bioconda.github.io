@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lsd'
 .. highlight: bash
-
 
 lsd
 ===
@@ -21,11 +22,11 @@ lsd
 
    |downloads_lsd| |docker_lsd|
 
-   :versions: 2.2.3
-
-   :depends: :conda:package:`java-jdk`  
-
-   :required~by: |required_by_lsd|
+   :versions: 2.2.3-1, 2.2.3-0
+   
+   :depends java-jdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ lsd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lsd
+      docker pull quay.io/repository/biocontainers/lsd:<tag>
+
+   (see `lsd/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lsd| conda:required_by:: lsd
 .. |downloads_lsd| image:: https://img.shields.io/conda/dn/bioconda/lsd.svg?style=flat
    :alt:   (downloads)
 .. |docker_lsd| image:: https://quay.io/repository/biocontainers/lsd/status
    :target: https://quay.io/repository/biocontainers/lsd
+.. _`lsd/tags`: https://quay.io/repository/biocontainers/lsd?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lsd/README.html
-

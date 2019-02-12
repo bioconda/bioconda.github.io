@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mpa-portable'
 .. highlight: bash
-
 
 mpa-portable
 ============
@@ -23,11 +24,13 @@ mpa-portable
 
    |downloads_mpa-portable| |docker_mpa-portable|
 
-   :versions: 1.4.1
-
-   :depends: :conda:package:`openjdk` >=6 :conda:package:`python`  
-
-   :required~by: |required_by_mpa-portable|
+   :versions: 1.4.1-2, 1.4.1-1, 1.4.1-0
+   
+   :depends openjdk: >=6
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +44,16 @@ mpa-portable
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mpa-portable
+      docker pull quay.io/repository/biocontainers/mpa-portable:<tag>
+
+   (see `mpa-portable/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mpa-portable| conda:required_by:: mpa-portable
 .. |downloads_mpa-portable| image:: https://img.shields.io/conda/dn/bioconda/mpa-portable.svg?style=flat
    :alt:   (downloads)
 .. |docker_mpa-portable| image:: https://quay.io/repository/biocontainers/mpa-portable/status
    :target: https://quay.io/repository/biocontainers/mpa-portable
+.. _`mpa-portable/tags`: https://quay.io/repository/biocontainers/mpa-portable?tab=tags
 
 
 
@@ -69,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mpa-portable/README.html
-

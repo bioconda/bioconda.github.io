@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-biosigner'
 .. highlight: bash
-
 
 bioconductor-biosigner
 ======================
@@ -22,11 +23,19 @@ bioconductor-biosigner
 
    |downloads_bioconductor-biosigner| |docker_bioconductor-biosigner|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0, 1.1.10, 1.0.6
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-ropls` >=1.14.0,<1.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-randomforest`  
-
-   :required~by: |required_by_bioconductor-biosigner|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.1.10-0, 1.0.6-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-ropls: >=1.14.0,<1.15.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-e1071: 
+   
+   :depends r-randomforest: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-biosigner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biosigner
+      docker pull quay.io/repository/biocontainers/bioconductor-biosigner:<tag>
+
+   (see `bioconductor-biosigner/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-biosigner| conda:required_by:: bioconductor-biosigner
 .. |downloads_bioconductor-biosigner| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biosigner.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-biosigner| image:: https://quay.io/repository/biocontainers/bioconductor-biosigner/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biosigner
+.. _`bioconductor-biosigner/tags`: https://quay.io/repository/biocontainers/bioconductor-biosigner?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-biosigner/README.html
-

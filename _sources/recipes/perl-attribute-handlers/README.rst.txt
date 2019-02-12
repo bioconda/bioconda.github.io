@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-attribute-handlers'
 .. highlight: bash
-
 
 perl-attribute-handlers
 =======================
@@ -21,11 +22,11 @@ perl-attribute-handlers
 
    |downloads_perl-attribute-handlers| |docker_perl-attribute-handlers|
 
-   :versions: 0.96
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-attribute-handlers|
+   :versions: 0.96-1, 0.96-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-attribute-handlers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-attribute-handlers
+      docker pull quay.io/repository/biocontainers/perl-attribute-handlers:<tag>
+
+   (see `perl-attribute-handlers/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-attribute-handlers| conda:required_by:: perl-attribute-handlers
 .. |downloads_perl-attribute-handlers| image:: https://img.shields.io/conda/dn/bioconda/perl-attribute-handlers.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-attribute-handlers| image:: https://quay.io/repository/biocontainers/perl-attribute-handlers/status
    :target: https://quay.io/repository/biocontainers/perl-attribute-handlers
+.. _`perl-attribute-handlers/tags`: https://quay.io/repository/biocontainers/perl-attribute-handlers?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-attribute-handlers/README.html
-

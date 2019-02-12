@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-robustrankaggreg'
 .. highlight: bash
-
 
 r-robustrankaggreg
 ==================
@@ -21,11 +22,13 @@ r-robustrankaggreg
 
    |downloads_r-robustrankaggreg| |docker_r-robustrankaggreg|
 
-   :versions: 1.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-robustrankaggreg|
+   :versions: 1.1-0
+   
+   :depends libgcc: 
+   
+   :depends r: 3.2.2*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ r-robustrankaggreg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-robustrankaggreg
+      docker pull quay.io/repository/biocontainers/r-robustrankaggreg:<tag>
+
+   (see `r-robustrankaggreg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-robustrankaggreg| conda:required_by:: r-robustrankaggreg
 .. |downloads_r-robustrankaggreg| image:: https://img.shields.io/conda/dn/bioconda/r-robustrankaggreg.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-robustrankaggreg| image:: https://quay.io/repository/biocontainers/r-robustrankaggreg/status
    :target: https://quay.io/repository/biocontainers/r-robustrankaggreg
+.. _`r-robustrankaggreg/tags`: https://quay.io/repository/biocontainers/r-robustrankaggreg?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-robustrankaggreg/README.html
-

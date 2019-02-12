@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pcamethods'
 .. highlight: bash
-
 
 bioconductor-pcamethods
 =======================
@@ -22,11 +23,23 @@ bioconductor-pcamethods
 
    |downloads_bioconductor-pcamethods| |docker_bioconductor-pcamethods|
 
-   :versions: 1.74.0, 1.72.0, 1.70.0, 1.68.0, 1.64.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  :conda:package:`r-rcpp` >=0.11.3 
-
-   :required~by: |required_by_bioconductor-pcamethods|
+   :versions: 1.74.0-0, 1.72.0-0, 1.70.0-0, 1.68.0-0, 1.64.0-2, 1.64.0-1, 1.64.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mass: 
+   
+   :depends r-rcpp: >=0.11.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ bioconductor-pcamethods
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pcamethods
+      docker pull quay.io/repository/biocontainers/bioconductor-pcamethods:<tag>
+
+   (see `bioconductor-pcamethods/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pcamethods| conda:required_by:: bioconductor-pcamethods
 .. |downloads_bioconductor-pcamethods| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pcamethods.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pcamethods| image:: https://quay.io/repository/biocontainers/bioconductor-pcamethods/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pcamethods
+.. _`bioconductor-pcamethods/tags`: https://quay.io/repository/biocontainers/bioconductor-pcamethods?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pcamethods/README.html
-

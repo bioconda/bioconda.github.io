@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sniffles'
 .. highlight: bash
-
 
 sniffles
 ========
@@ -21,11 +22,17 @@ sniffles
 
    |downloads_sniffles| |docker_sniffles|
 
-   :versions: 1.0.10, 1.0.8, 1.0.7, 1.0.6, 1.0.5, 1.0.3
-
-   :depends: :conda:package:`bamtools` >=2.4.1,<2.4.2.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`tclap` >=1.2.1 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_sniffles|
+   :versions: 1.0.10-0, 1.0.8-0, 1.0.7-1, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.3-0
+   
+   :depends bamtools: >=2.4.1,<2.4.2.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends tclap: >=1.2.1
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ sniffles
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sniffles
+      docker pull quay.io/repository/biocontainers/sniffles:<tag>
+
+   (see `sniffles/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sniffles| conda:required_by:: sniffles
 .. |downloads_sniffles| image:: https://img.shields.io/conda/dn/bioconda/sniffles.svg?style=flat
    :alt:   (downloads)
 .. |docker_sniffles| image:: https://quay.io/repository/biocontainers/sniffles/status
    :target: https://quay.io/repository/biocontainers/sniffles
+.. _`sniffles/tags`: https://quay.io/repository/biocontainers/sniffles?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sniffles/README.html
-

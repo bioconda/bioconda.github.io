@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-rphast'
 .. highlight: bash
-
 
 r-rphast
 ========
@@ -21,11 +22,13 @@ r-rphast
 
    |downloads_r-rphast| |docker_r-rphast|
 
-   :versions: 1.6.9
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-rphast|
+   :versions: 1.6.9-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ r-rphast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rphast
+      docker pull quay.io/repository/biocontainers/r-rphast:<tag>
+
+   (see `r-rphast/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-rphast| conda:required_by:: r-rphast
 .. |downloads_r-rphast| image:: https://img.shields.io/conda/dn/bioconda/r-rphast.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-rphast| image:: https://quay.io/repository/biocontainers/r-rphast/status
    :target: https://quay.io/repository/biocontainers/r-rphast
+.. _`r-rphast/tags`: https://quay.io/repository/biocontainers/r-rphast?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-rphast/README.html
-

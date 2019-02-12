@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bio-automatedannotation'
 .. highlight: bash
-
 
 perl-bio-automatedannotation
 ============================
@@ -21,11 +22,39 @@ perl-bio-automatedannotation
 
    |downloads_perl-bio-automatedannotation| |docker_perl-bio-automatedannotation|
 
-   :versions: 1.182770
-
-   :depends: :conda:package:`blast`  :conda:package:`hmmer`  :conda:package:`parallel`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bioperl`  :conda:package:`perl-bioperl-run`  :conda:package:`perl-exception-class`  :conda:package:`perl-file-slurper`  :conda:package:`perl-file-temp`  :conda:package:`perl-getopt-long`  :conda:package:`perl-moose`  :conda:package:`perl-text-csv`  :conda:package:`perl-time-piece`  :conda:package:`perl-xml-simple`  :conda:package:`prodigal`  
-
-   :required~by: |required_by_perl-bio-automatedannotation|
+   :versions: 1.182770-0
+   
+   :depends blast: 
+   
+   :depends hmmer: 
+   
+   :depends parallel: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bioperl: 
+   
+   :depends perl-bioperl-run: 
+   
+   :depends perl-exception-class: 
+   
+   :depends perl-file-slurper: 
+   
+   :depends perl-file-temp: 
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-moose: 
+   
+   :depends perl-text-csv: 
+   
+   :depends perl-time-piece: 
+   
+   :depends perl-xml-simple: 
+   
+   :depends prodigal: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +68,16 @@ perl-bio-automatedannotation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-automatedannotation
+      docker pull quay.io/repository/biocontainers/perl-bio-automatedannotation:<tag>
+
+   (see `perl-bio-automatedannotation/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bio-automatedannotation| conda:required_by:: perl-bio-automatedannotation
 .. |downloads_perl-bio-automatedannotation| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-automatedannotation.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bio-automatedannotation| image:: https://quay.io/repository/biocontainers/perl-bio-automatedannotation/status
    :target: https://quay.io/repository/biocontainers/perl-bio-automatedannotation
+.. _`perl-bio-automatedannotation/tags`: https://quay.io/repository/biocontainers/perl-bio-automatedannotation?tab=tags
 
 
 
@@ -63,4 +94,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bio-automatedannotation/README.html
-

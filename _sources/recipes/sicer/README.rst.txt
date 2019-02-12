@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sicer'
 .. highlight: bash
-
 
 sicer
 =====
@@ -21,11 +22,15 @@ sicer
 
    |downloads_sicer| |docker_sicer|
 
-   :versions: 1.1
-
-   :depends: :conda:package:`numpy` 1.9.* :conda:package:`python` 2.6.* :conda:package:`scipy` 0.16.* 
-
-   :required~by: |required_by_sicer|
+   :versions: 1.1-3, 1.1-2, 1.1-1, 1.1-0
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ sicer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sicer
+      docker pull quay.io/repository/biocontainers/sicer:<tag>
+
+   (see `sicer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sicer| conda:required_by:: sicer
 .. |downloads_sicer| image:: https://img.shields.io/conda/dn/bioconda/sicer.svg?style=flat
    :alt:   (downloads)
 .. |docker_sicer| image:: https://quay.io/repository/biocontainers/sicer/status
    :target: https://quay.io/repository/biocontainers/sicer
+.. _`sicer/tags`: https://quay.io/repository/biocontainers/sicer?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sicer/README.html
-

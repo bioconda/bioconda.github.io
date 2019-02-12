@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'screed'
 .. highlight: bash
-
 
 screed
 ======
@@ -21,11 +22,13 @@ screed
 
    |downloads_screed| |docker_screed|
 
-   :versions: 1.0, 0.9
-
-   :depends: :conda:package:`bz2file`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_screed|
+   :versions: 1.0-1, 1.0-0, 0.9-1, 0.9-0
+   
+   :depends bz2file: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ screed
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/screed
+      docker pull quay.io/repository/biocontainers/screed:<tag>
+
+   (see `screed/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_screed| conda:required_by:: screed
 .. |downloads_screed| image:: https://img.shields.io/conda/dn/bioconda/screed.svg?style=flat
    :alt:   (downloads)
 .. |docker_screed| image:: https://quay.io/repository/biocontainers/screed/status
    :target: https://quay.io/repository/biocontainers/screed
+.. _`screed/tags`: https://quay.io/repository/biocontainers/screed?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/screed/README.html
-

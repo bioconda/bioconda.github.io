@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sparsenetgls'
 .. highlight: bash
-
 
 bioconductor-sparsenetgls
 =========================
@@ -21,11 +22,21 @@ bioconductor-sparsenetgls
 
    |downloads_bioconductor-sparsenetgls| |docker_bioconductor-sparsenetgls|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-glmnet`  :conda:package:`r-huge`  :conda:package:`r-mass`  :conda:package:`r-matrix`  :conda:package:`r-parcor`  
-
-   :required~by: |required_by_bioconductor-sparsenetgls|
+   :versions: 1.0.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-glmnet: 
+   
+   :depends r-huge: 
+   
+   :depends r-mass: 
+   
+   :depends r-matrix: 
+   
+   :depends r-parcor: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-sparsenetgls
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sparsenetgls
+      docker pull quay.io/repository/biocontainers/bioconductor-sparsenetgls:<tag>
+
+   (see `bioconductor-sparsenetgls/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sparsenetgls| conda:required_by:: bioconductor-sparsenetgls
 .. |downloads_bioconductor-sparsenetgls| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sparsenetgls.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sparsenetgls| image:: https://quay.io/repository/biocontainers/bioconductor-sparsenetgls/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sparsenetgls
+.. _`bioconductor-sparsenetgls/tags`: https://quay.io/repository/biocontainers/bioconductor-sparsenetgls?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sparsenetgls/README.html
-

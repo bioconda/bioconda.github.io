@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'humann2'
 .. highlight: bash
-
 
 humann2
 =======
@@ -21,11 +22,27 @@ humann2
 
    |downloads_humann2| |docker_humann2|
 
-   :versions: 0.11.2, 0.11.1, 0.9.9, 0.6.1, 0.5.0
-
-   :depends: :conda:package:`biom-format`  :conda:package:`bowtie2` >=2.2.5 :conda:package:`diamond` >=0.7.10,<0.9.0 :conda:package:`matplotlib`  :conda:package:`metaphlan2` >=2.6.0 :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools`  :conda:package:`scipy`  
-
-   :required~by: |required_by_humann2|
+   :versions: 0.11.2-0, 0.11.1-3, 0.11.1-2, 0.11.1-1, 0.11.1-0, 0.9.9-2, 0.9.9-1, 0.9.9-0, 0.6.1-3, 0.6.1-2, 0.6.1-1, 0.6.1-0, 0.5.0-0
+   
+   :depends biom-format: 
+   
+   :depends bowtie2: >=2.2.5
+   
+   :depends diamond: >=0.7.10,<0.9.0
+   
+   :depends matplotlib: 
+   
+   :depends metaphlan2: >=2.6.0
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ humann2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/humann2
+      docker pull quay.io/repository/biocontainers/humann2:<tag>
+
+   (see `humann2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_humann2| conda:required_by:: humann2
 .. |downloads_humann2| image:: https://img.shields.io/conda/dn/bioconda/humann2.svg?style=flat
    :alt:   (downloads)
 .. |docker_humann2| image:: https://quay.io/repository/biocontainers/humann2/status
    :target: https://quay.io/repository/biocontainers/humann2
+.. _`humann2/tags`: https://quay.io/repository/biocontainers/humann2?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/humann2/README.html
-

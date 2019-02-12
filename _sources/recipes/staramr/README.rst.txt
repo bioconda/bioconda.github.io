@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'staramr'
 .. highlight: bash
-
 
 staramr
 =======
@@ -21,11 +22,25 @@ staramr
 
    |downloads_staramr| |docker_staramr|
 
-   :versions: 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.0
-
-   :depends: :conda:package:`biopython` >=1.70 :conda:package:`blast` >=2.2.31 :conda:package:`git`  :conda:package:`gitpython` >=2.1.3 :conda:package:`numpy` >=1.12.1 :conda:package:`pandas` >=0.23.0 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`xlsxwriter` >=1.0.2 
-
-   :required~by: |required_by_staramr|
+   :versions: 0.3.0-0, 0.2.2-0, 0.2.1-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
+   
+   :depends biopython: >=1.70
+   
+   :depends blast: >=2.2.31
+   
+   :depends git: 
+   
+   :depends gitpython: >=2.1.3
+   
+   :depends numpy: >=1.12.1
+   
+   :depends pandas: >=0.23.0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends xlsxwriter: >=1.0.2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ staramr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/staramr
+      docker pull quay.io/repository/biocontainers/staramr:<tag>
+
+   (see `staramr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_staramr| conda:required_by:: staramr
 .. |downloads_staramr| image:: https://img.shields.io/conda/dn/bioconda/staramr.svg?style=flat
    :alt:   (downloads)
 .. |docker_staramr| image:: https://quay.io/repository/biocontainers/staramr/status
    :target: https://quay.io/repository/biocontainers/staramr
+.. _`staramr/tags`: https://quay.io/repository/biocontainers/staramr?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/staramr/README.html
-

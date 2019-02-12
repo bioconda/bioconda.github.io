@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cap3'
 .. highlight: bash
-
 
 cap3
 ====
@@ -21,11 +22,9 @@ cap3
 
    |downloads_cap3| |docker_cap3|
 
-   :versions: 10.2011
-
-   :depends: 
-
-   :required~by: |required_by_cap3|
+   :versions: 10.2011-1, 10.2011-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ cap3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cap3
+      docker pull quay.io/repository/biocontainers/cap3:<tag>
+
+   (see `cap3/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cap3| conda:required_by:: cap3
 .. |downloads_cap3| image:: https://img.shields.io/conda/dn/bioconda/cap3.svg?style=flat
    :alt:   (downloads)
 .. |docker_cap3| image:: https://quay.io/repository/biocontainers/cap3/status
    :target: https://quay.io/repository/biocontainers/cap3
+.. _`cap3/tags`: https://quay.io/repository/biocontainers/cap3?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cap3/README.html
-

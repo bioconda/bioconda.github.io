@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-psichomics'
 .. highlight: bash
-
 
 bioconductor-psichomics
 =======================
@@ -21,11 +22,77 @@ bioconductor-psichomics
 
    |downloads_bioconductor-psichomics| |docker_bioconductor-psichomics|
 
-   :versions: 1.8.1
-
-   :depends: :conda:package:`bioconductor-annotationhub` >=2.14.0,<2.15.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-recount` >=1.8.0,<1.9.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-colourpicker`  :conda:package:`r-data.table`  :conda:package:`r-digest`  :conda:package:`r-dplyr`  :conda:package:`r-dt` >=0.2 :conda:package:`r-fastica`  :conda:package:`r-fastmatch`  :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-highcharter` >=0.5.0 :conda:package:`r-htmltools`  :conda:package:`r-httr`  :conda:package:`r-jsonlite`  :conda:package:`r-misctools`  :conda:package:`r-pairsd3`  :conda:package:`r-plyr`  :conda:package:`r-r.utils`  :conda:package:`r-rcpp` >=0.12.14 :conda:package:`r-shiny` >=1.0.3 :conda:package:`r-shinybs`  :conda:package:`r-shinyjs`  :conda:package:`r-stringr`  :conda:package:`r-survival`  :conda:package:`r-xml`  :conda:package:`r-xtable`  
-
-   :required~by: |required_by_bioconductor-psichomics|
+   :versions: 1.8.1-0
+   
+   :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-recount: >=1.8.0,<1.9.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :depends r-colourpicker: 
+   
+   :depends r-data.table: 
+   
+   :depends r-digest: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-dt: >=0.2
+   
+   :depends r-fastica: 
+   
+   :depends r-fastmatch: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggrepel: 
+   
+   :depends r-highcharter: >=0.5.0
+   
+   :depends r-htmltools: 
+   
+   :depends r-httr: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-misctools: 
+   
+   :depends r-pairsd3: 
+   
+   :depends r-plyr: 
+   
+   :depends r-r.utils: 
+   
+   :depends r-rcpp: >=0.12.14
+   
+   :depends r-shiny: >=1.0.3
+   
+   :depends r-shinybs: 
+   
+   :depends r-shinyjs: 
+   
+   :depends r-stringr: 
+   
+   :depends r-survival: 
+   
+   :depends r-xml: 
+   
+   :depends r-xtable: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +106,16 @@ bioconductor-psichomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-psichomics
+      docker pull quay.io/repository/biocontainers/bioconductor-psichomics:<tag>
+
+   (see `bioconductor-psichomics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-psichomics| conda:required_by:: bioconductor-psichomics
 .. |downloads_bioconductor-psichomics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-psichomics.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-psichomics| image:: https://quay.io/repository/biocontainers/bioconductor-psichomics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-psichomics
+.. _`bioconductor-psichomics/tags`: https://quay.io/repository/biocontainers/bioconductor-psichomics?tab=tags
 
 
 
@@ -63,4 +132,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-psichomics/README.html
-

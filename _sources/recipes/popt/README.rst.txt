@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'popt'
 .. highlight: bash
-
 
 popt
 ====
@@ -21,11 +22,9 @@ popt
 
    |downloads_popt| |docker_popt|
 
-   :versions: 1.16
-
-   :depends: 
-
-   :required~by: |required_by_popt|
+   :versions: 1.16-1, 1.16-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ popt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/popt
+      docker pull quay.io/repository/biocontainers/popt:<tag>
+
+   (see `popt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_popt| conda:required_by:: popt
 .. |downloads_popt| image:: https://img.shields.io/conda/dn/bioconda/popt.svg?style=flat
    :alt:   (downloads)
 .. |docker_popt| image:: https://quay.io/repository/biocontainers/popt/status
    :target: https://quay.io/repository/biocontainers/popt
+.. _`popt/tags`: https://quay.io/repository/biocontainers/popt?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/popt/README.html
-

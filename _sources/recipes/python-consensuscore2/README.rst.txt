@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'python-consensuscore2'
 .. highlight: bash
-
 
 python-consensuscore2
 =====================
@@ -21,11 +22,13 @@ python-consensuscore2
 
    |downloads_python-consensuscore2| |docker_python-consensuscore2|
 
-   :versions: 3.1.0
-
-   :depends: :conda:package:`numpy` >=1.7.1 :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_python-consensuscore2|
+   :versions: 3.1.0-2, 3.1.0-1, 3.1.0-0
+   
+   :depends numpy: >=1.15
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ python-consensuscore2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-consensuscore2
+      docker pull quay.io/repository/biocontainers/python-consensuscore2:<tag>
+
+   (see `python-consensuscore2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_python-consensuscore2| conda:required_by:: python-consensuscore2
 .. |downloads_python-consensuscore2| image:: https://img.shields.io/conda/dn/bioconda/python-consensuscore2.svg?style=flat
    :alt:   (downloads)
 .. |docker_python-consensuscore2| image:: https://quay.io/repository/biocontainers/python-consensuscore2/status
    :target: https://quay.io/repository/biocontainers/python-consensuscore2
+.. _`python-consensuscore2/tags`: https://quay.io/repository/biocontainers/python-consensuscore2?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/python-consensuscore2/README.html
-

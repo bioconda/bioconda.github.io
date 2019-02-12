@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'spectral_hk'
 .. highlight: bash
-
 
 spectral_hk
 ===========
@@ -21,11 +22,11 @@ spectral_hk
 
    |downloads_spectral_hk| |docker_spectral_hk|
 
-   :versions: 0.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_spectral_hk|
+   :versions: 0.1-1, 0.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ spectral_hk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spectral_hk
+      docker pull quay.io/repository/biocontainers/spectral_hk:<tag>
+
+   (see `spectral_hk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_spectral_hk| conda:required_by:: spectral_hk
 .. |downloads_spectral_hk| image:: https://img.shields.io/conda/dn/bioconda/spectral_hk.svg?style=flat
    :alt:   (downloads)
 .. |docker_spectral_hk| image:: https://quay.io/repository/biocontainers/spectral_hk/status
    :target: https://quay.io/repository/biocontainers/spectral_hk
+.. _`spectral_hk/tags`: https://quay.io/repository/biocontainers/spectral_hk?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/spectral_hk/README.html
-

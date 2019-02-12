@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'trim-galore'
 .. highlight: bash
-
 
 trim-galore
 ===========
@@ -22,11 +23,15 @@ trim-galore
 
    |downloads_trim-galore| |docker_trim-galore|
 
-   :versions: 0.5.0, 0.4.5, 0.4.4, 0.4.3, 0.4.1
-
-   :depends: :conda:package:`cutadapt`  :conda:package:`fastqc`  :conda:package:`perl`  
-
-   :required~by: |required_by_trim-galore|
+   :versions: 0.5.0-0, 0.4.5-2, 0.4.5-1, 0.4.5-0, 0.4.4-0, 0.4.3-1, 0.4.3-0, 0.4.1-1, 0.4.1-0
+   
+   :depends cutadapt: 
+   
+   :depends fastqc: 
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ trim-galore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trim-galore
+      docker pull quay.io/repository/biocontainers/trim-galore:<tag>
+
+   (see `trim-galore/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_trim-galore| conda:required_by:: trim-galore
 .. |downloads_trim-galore| image:: https://img.shields.io/conda/dn/bioconda/trim-galore.svg?style=flat
    :alt:   (downloads)
 .. |docker_trim-galore| image:: https://quay.io/repository/biocontainers/trim-galore/status
    :target: https://quay.io/repository/biocontainers/trim-galore
+.. _`trim-galore/tags`: https://quay.io/repository/biocontainers/trim-galore?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/trim-galore/README.html
-

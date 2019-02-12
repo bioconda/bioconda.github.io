@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sistr_cmd'
 .. highlight: bash
-
 
 sistr_cmd
 =========
@@ -21,11 +22,25 @@ sistr_cmd
 
    |downloads_sistr_cmd| |docker_sistr_cmd|
 
-   :versions: 1.0.2, 0.3.6, 0.3.4, 0.3.3, 0.3.1
-
-   :depends: :conda:package:`blast`  :conda:package:`mafft`  :conda:package:`mash`  :conda:package:`numpy` >=1.11.1 :conda:package:`pandas` >=0.18.1 :conda:package:`pytables` >=3.3.0 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_sistr_cmd|
+   :versions: 1.0.2-2, 1.0.2-0, 0.3.6-0, 0.3.4-0, 0.3.3-0, 0.3.1-0
+   
+   :depends blast: 2.5.*
+   
+   :depends mafft: 
+   
+   :depends mash: 
+   
+   :depends numpy: >=1.11.1
+   
+   :depends pandas: >=0.18.1
+   
+   :depends pytables: >=3.3.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends python-dateutil: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ sistr_cmd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sistr_cmd
+      docker pull quay.io/repository/biocontainers/sistr_cmd:<tag>
+
+   (see `sistr_cmd/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sistr_cmd| conda:required_by:: sistr_cmd
 .. |downloads_sistr_cmd| image:: https://img.shields.io/conda/dn/bioconda/sistr_cmd.svg?style=flat
    :alt:   (downloads)
 .. |docker_sistr_cmd| image:: https://quay.io/repository/biocontainers/sistr_cmd/status
    :target: https://quay.io/repository/biocontainers/sistr_cmd
+.. _`sistr_cmd/tags`: https://quay.io/repository/biocontainers/sistr_cmd?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sistr_cmd/README.html
-

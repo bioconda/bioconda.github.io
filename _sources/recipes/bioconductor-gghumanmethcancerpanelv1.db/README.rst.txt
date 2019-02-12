@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-gghumanmethcancerpanelv1.db'
 .. highlight: bash
-
 
 bioconductor-gghumanmethcancerpanelv1.db
 ========================================
@@ -21,11 +22,19 @@ bioconductor-gghumanmethcancerpanelv1.db
 
    |downloads_bioconductor-gghumanmethcancerpanelv1.db| |docker_bioconductor-gghumanmethcancerpanelv1.db|
 
-   :versions: 1.4.1
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-annotationforge` >=1.24.0,<1.25.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-gghumanmethcancerpanelv1.db|
+   :versions: 1.4.1-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-annotationforge: >=1.24.0,<1.25.0
+   
+   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-gghumanmethcancerpanelv1.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gghumanmethcancerpanelv1.db
+      docker pull quay.io/repository/biocontainers/bioconductor-gghumanmethcancerpanelv1.db:<tag>
+
+   (see `bioconductor-gghumanmethcancerpanelv1.db/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-gghumanmethcancerpanelv1.db| conda:required_by:: bioconductor-gghumanmethcancerpanelv1.db
 .. |downloads_bioconductor-gghumanmethcancerpanelv1.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gghumanmethcancerpanelv1.db.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-gghumanmethcancerpanelv1.db| image:: https://quay.io/repository/biocontainers/bioconductor-gghumanmethcancerpanelv1.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gghumanmethcancerpanelv1.db
+.. _`bioconductor-gghumanmethcancerpanelv1.db/tags`: https://quay.io/repository/biocontainers/bioconductor-gghumanmethcancerpanelv1.db?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-gghumanmethcancerpanelv1.db/README.html
-

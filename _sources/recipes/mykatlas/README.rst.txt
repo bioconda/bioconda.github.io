@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mykatlas'
 .. highlight: bash
-
 
 mykatlas
 ========
@@ -21,11 +22,23 @@ mykatlas
 
    |downloads_mykatlas| |docker_mykatlas|
 
-   :versions: 0.6.1
-
-   :depends: :conda:package:`biopython`  :conda:package:`future`  :conda:package:`ga4ghmongo`  :conda:package:`mongoengine`  :conda:package:`python` 2.7* :conda:package:`pyvcf`  :conda:package:`redis-py`  
-
-   :required~by: |required_by_mykatlas|
+   :versions: 0.6.1-2, 0.6.1-1, 0.6.1-0
+   
+   :depends biopython: 
+   
+   :depends future: 
+   
+   :depends ga4ghmongo: 
+   
+   :depends mongoengine: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends pyvcf: 
+   
+   :depends redis-py: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ mykatlas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mykatlas
+      docker pull quay.io/repository/biocontainers/mykatlas:<tag>
+
+   (see `mykatlas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mykatlas| conda:required_by:: mykatlas
 .. |downloads_mykatlas| image:: https://img.shields.io/conda/dn/bioconda/mykatlas.svg?style=flat
    :alt:   (downloads)
 .. |docker_mykatlas| image:: https://quay.io/repository/biocontainers/mykatlas/status
    :target: https://quay.io/repository/biocontainers/mykatlas
+.. _`mykatlas/tags`: https://quay.io/repository/biocontainers/mykatlas?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mykatlas/README.html
-

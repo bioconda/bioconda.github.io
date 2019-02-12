@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bpp-seq'
 .. highlight: bash
-
 
 bpp-seq
 =======
@@ -21,11 +22,13 @@ bpp-seq
 
    |downloads_bpp-seq| |docker_bpp-seq|
 
-   :versions: 2.4.1, 2.2.0
-
-   :depends: :conda:package:`bpp-core`  :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_bpp-seq|
+   :versions: 2.4.1-0, 2.2.0-1, 2.2.0-0
+   
+   :depends bpp-core: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bpp-seq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bpp-seq
+      docker pull quay.io/repository/biocontainers/bpp-seq:<tag>
+
+   (see `bpp-seq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bpp-seq| conda:required_by:: bpp-seq
 .. |downloads_bpp-seq| image:: https://img.shields.io/conda/dn/bioconda/bpp-seq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bpp-seq| image:: https://quay.io/repository/biocontainers/bpp-seq/status
    :target: https://quay.io/repository/biocontainers/bpp-seq
+.. _`bpp-seq/tags`: https://quay.io/repository/biocontainers/bpp-seq?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bpp-seq/README.html
-

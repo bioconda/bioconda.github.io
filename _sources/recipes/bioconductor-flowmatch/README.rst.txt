@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-flowmatch'
 .. highlight: bash
-
 
 bioconductor-flowmatch
 ======================
@@ -22,11 +23,21 @@ bioconductor-flowmatch
 
    |downloads_bioconductor-flowmatch| |docker_bioconductor-flowmatch|
 
-   :versions: 1.18.0, 1.16.0, 1.14.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-flowcore` >=1.48.0,<1.49.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp` >=0.11.0 
-
-   :required~by: |required_by_bioconductor-flowmatch|
+   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-flowcore: >=1.48.0,<1.49.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcpp: >=0.11.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-flowmatch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowmatch
+      docker pull quay.io/repository/biocontainers/bioconductor-flowmatch:<tag>
+
+   (see `bioconductor-flowmatch/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-flowmatch| conda:required_by:: bioconductor-flowmatch
 .. |downloads_bioconductor-flowmatch| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowmatch.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-flowmatch| image:: https://quay.io/repository/biocontainers/bioconductor-flowmatch/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowmatch
+.. _`bioconductor-flowmatch/tags`: https://quay.io/repository/biocontainers/bioconductor-flowmatch?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-flowmatch/README.html
-

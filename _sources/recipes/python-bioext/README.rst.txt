@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'python-bioext'
 .. highlight: bash
-
 
 python-bioext
 =============
@@ -21,11 +22,27 @@ python-bioext
 
    |downloads_python-bioext| |docker_python-bioext|
 
-   :versions: 0.18.6, 0.17.4
-
-   :depends: :conda:package:`biopython`  :conda:package:`freetype`  :conda:package:`libgcc`  :conda:package:`numpy` >=1.14.0 :conda:package:`pysam` <=0.13 :conda:package:`python` 3.5* :conda:package:`python-consensuscore`  :conda:package:`scipy`  :conda:package:`six`  
-
-   :required~by: |required_by_python-bioext|
+   :versions: 0.18.6-2, 0.18.6-1, 0.18.6-0, 0.17.4-0
+   
+   :depends biopython: 
+   
+   :depends freetype: >=2.8.1,<2.9.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends numpy: >=1.14.0
+   
+   :depends pysam: <=0.13
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends python-consensuscore: 
+   
+   :depends scipy: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ python-bioext
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-bioext
+      docker pull quay.io/repository/biocontainers/python-bioext:<tag>
+
+   (see `python-bioext/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_python-bioext| conda:required_by:: python-bioext
 .. |downloads_python-bioext| image:: https://img.shields.io/conda/dn/bioconda/python-bioext.svg?style=flat
    :alt:   (downloads)
 .. |docker_python-bioext| image:: https://quay.io/repository/biocontainers/python-bioext/status
    :target: https://quay.io/repository/biocontainers/python-bioext
+.. _`python-bioext/tags`: https://quay.io/repository/biocontainers/python-bioext?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/python-bioext/README.html
-

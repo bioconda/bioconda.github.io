@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'shapeit'
 .. highlight: bash
-
 
 shapeit
 =======
@@ -22,11 +23,13 @@ shapeit
 
    |downloads_shapeit| |docker_shapeit|
 
-   :versions: 2.r837
-
-   :depends: :conda:package:`boost`  :conda:package:`libgcc`  
-
-   :required~by: |required_by_shapeit|
+   :versions: 2.r837-1, 2.r837-0
+   
+   :depends boost: >=1.66.0,<1.66.1.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ shapeit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shapeit
+      docker pull quay.io/repository/biocontainers/shapeit:<tag>
+
+   (see `shapeit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_shapeit| conda:required_by:: shapeit
 .. |downloads_shapeit| image:: https://img.shields.io/conda/dn/bioconda/shapeit.svg?style=flat
    :alt:   (downloads)
 .. |docker_shapeit| image:: https://quay.io/repository/biocontainers/shapeit/status
    :target: https://quay.io/repository/biocontainers/shapeit
+.. _`shapeit/tags`: https://quay.io/repository/biocontainers/shapeit?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/shapeit/README.html
-

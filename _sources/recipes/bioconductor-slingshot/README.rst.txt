@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-slingshot'
 .. highlight: bash
-
 
 bioconductor-slingshot
 ======================
@@ -22,10 +23,8 @@ bioconductor-slingshot
    |downloads_bioconductor-slingshot| |docker_bioconductor-slingshot|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-slingshot|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-slingshot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-slingshot
+      docker pull quay.io/repository/biocontainers/bioconductor-slingshot:<tag>
+
+   (see `bioconductor-slingshot/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-slingshot| conda:required_by:: bioconductor-slingshot
 .. |downloads_bioconductor-slingshot| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-slingshot.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-slingshot| image:: https://quay.io/repository/biocontainers/bioconductor-slingshot/status
    :target: https://quay.io/repository/biocontainers/bioconductor-slingshot
+.. _`bioconductor-slingshot/tags`: https://quay.io/repository/biocontainers/bioconductor-slingshot?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-slingshot/README.html
-

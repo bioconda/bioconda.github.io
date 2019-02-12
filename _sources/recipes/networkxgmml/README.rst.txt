@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'networkxgmml'
 .. highlight: bash
-
 
 networkxgmml
 ============
@@ -21,11 +22,15 @@ networkxgmml
 
    |downloads_networkxgmml| |docker_networkxgmml|
 
-   :versions: 0.1.6
-
-   :depends: :conda:package:`networkx`  :conda:package:`python` 2.7* :conda:package:`setuptools`  
-
-   :required~by: |required_by_networkxgmml|
+   :versions: 0.1.6-2, 0.1.6-1
+   
+   :depends networkx: 
+   
+   :depends python: 
+   
+   :depends setuptools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ networkxgmml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/networkxgmml
+      docker pull quay.io/repository/biocontainers/networkxgmml:<tag>
+
+   (see `networkxgmml/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_networkxgmml| conda:required_by:: networkxgmml
 .. |downloads_networkxgmml| image:: https://img.shields.io/conda/dn/bioconda/networkxgmml.svg?style=flat
    :alt:   (downloads)
 .. |docker_networkxgmml| image:: https://quay.io/repository/biocontainers/networkxgmml/status
    :target: https://quay.io/repository/biocontainers/networkxgmml
+.. _`networkxgmml/tags`: https://quay.io/repository/biocontainers/networkxgmml?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/networkxgmml/README.html
-

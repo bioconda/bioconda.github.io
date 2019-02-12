@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-extutils-installpaths'
 .. highlight: bash
-
 
 perl-extutils-installpaths
 ==========================
@@ -21,11 +22,15 @@ perl-extutils-installpaths
 
    |downloads_perl-extutils-installpaths| |docker_perl-extutils-installpaths|
 
-   :versions: 0.012, 0.011
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-extutils-config`  
-
-   :required~by: |required_by_perl-extutils-installpaths|
+   :versions: 0.012-0, 0.011-1, 0.011-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-extutils-config: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-extutils-installpaths
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-extutils-installpaths
+      docker pull quay.io/repository/biocontainers/perl-extutils-installpaths:<tag>
+
+   (see `perl-extutils-installpaths/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-extutils-installpaths| conda:required_by:: perl-extutils-installpaths
 .. |downloads_perl-extutils-installpaths| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-installpaths.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-extutils-installpaths| image:: https://quay.io/repository/biocontainers/perl-extutils-installpaths/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-installpaths
+.. _`perl-extutils-installpaths/tags`: https://quay.io/repository/biocontainers/perl-extutils-installpaths?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-extutils-installpaths/README.html
-

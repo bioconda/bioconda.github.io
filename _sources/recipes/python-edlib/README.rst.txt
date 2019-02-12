@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'python-edlib'
 .. highlight: bash
-
 
 python-edlib
 ============
@@ -21,11 +22,13 @@ python-edlib
 
    |downloads_python-edlib| |docker_python-edlib|
 
-   :versions: 1.2.3.post1, 1.2.3
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_python-edlib|
+   :versions: 1.2.3.post1-0, 1.2.3-1, 1.2.3-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ python-edlib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-edlib
+      docker pull quay.io/repository/biocontainers/python-edlib:<tag>
+
+   (see `python-edlib/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_python-edlib| conda:required_by:: python-edlib
 .. |downloads_python-edlib| image:: https://img.shields.io/conda/dn/bioconda/python-edlib.svg?style=flat
    :alt:   (downloads)
 .. |docker_python-edlib| image:: https://quay.io/repository/biocontainers/python-edlib/status
    :target: https://quay.io/repository/biocontainers/python-edlib
+.. _`python-edlib/tags`: https://quay.io/repository/biocontainers/python-edlib?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/python-edlib/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-micropan'
 .. highlight: bash
-
 
 r-micropan
 ==========
@@ -22,11 +23,23 @@ r-micropan
 
    |downloads_r-micropan| |docker_r-micropan|
 
-   :versions: 1.2, 1.1.2
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-bh`  :conda:package:`r-igraph`  :conda:package:`r-microseq`  :conda:package:`r-rcpp` >=0.12.0 
-
-   :required~by: |required_by_r-micropan|
+   :versions: 1.2-1, 1.2-0, 1.1.2-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bh: 
+   
+   :depends r-igraph: 
+   
+   :depends r-microseq: 
+   
+   :depends r-rcpp: >=0.12.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ r-micropan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-micropan
+      docker pull quay.io/repository/biocontainers/r-micropan:<tag>
+
+   (see `r-micropan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-micropan| conda:required_by:: r-micropan
 .. |downloads_r-micropan| image:: https://img.shields.io/conda/dn/bioconda/r-micropan.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-micropan| image:: https://quay.io/repository/biocontainers/r-micropan/status
    :target: https://quay.io/repository/biocontainers/r-micropan
+.. _`r-micropan/tags`: https://quay.io/repository/biocontainers/r-micropan?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-micropan/README.html
-

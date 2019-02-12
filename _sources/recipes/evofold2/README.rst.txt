@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'evofold2'
 .. highlight: bash
-
 
 evofold2
 ========
@@ -21,11 +22,9 @@ evofold2
 
    |downloads_evofold2| |docker_evofold2|
 
-   :versions: 0.1
-
-   :depends: 
-
-   :required~by: |required_by_evofold2|
+   :versions: 0.1-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ evofold2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/evofold2
+      docker pull quay.io/repository/biocontainers/evofold2:<tag>
+
+   (see `evofold2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_evofold2| conda:required_by:: evofold2
 .. |downloads_evofold2| image:: https://img.shields.io/conda/dn/bioconda/evofold2.svg?style=flat
    :alt:   (downloads)
 .. |docker_evofold2| image:: https://quay.io/repository/biocontainers/evofold2/status
    :target: https://quay.io/repository/biocontainers/evofold2
+.. _`evofold2/tags`: https://quay.io/repository/biocontainers/evofold2?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/evofold2/README.html
-

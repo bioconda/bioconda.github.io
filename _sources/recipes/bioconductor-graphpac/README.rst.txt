@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-graphpac'
 .. highlight: bash
-
 
 bioconductor-graphpac
 =====================
@@ -22,11 +23,19 @@ bioconductor-graphpac
 
    |downloads_bioconductor-graphpac| |docker_bioconductor-graphpac|
 
-   :versions: 1.24.0, 1.22.1, 1.20.0
-
-   :depends: :conda:package:`bioconductor-ipac` >=1.26.0,<1.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-rmallow`  :conda:package:`r-tsp`  
-
-   :required~by: |required_by_bioconductor-graphpac|
+   :versions: 1.24.0-0, 1.22.1-0, 1.20.0-0
+   
+   :depends bioconductor-ipac: >=1.26.0,<1.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-igraph: 
+   
+   :depends r-rmallow: 
+   
+   :depends r-tsp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-graphpac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-graphpac
+      docker pull quay.io/repository/biocontainers/bioconductor-graphpac:<tag>
+
+   (see `bioconductor-graphpac/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-graphpac| conda:required_by:: bioconductor-graphpac
 .. |downloads_bioconductor-graphpac| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-graphpac.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-graphpac| image:: https://quay.io/repository/biocontainers/bioconductor-graphpac/status
    :target: https://quay.io/repository/biocontainers/bioconductor-graphpac
+.. _`bioconductor-graphpac/tags`: https://quay.io/repository/biocontainers/bioconductor-graphpac?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-graphpac/README.html
-

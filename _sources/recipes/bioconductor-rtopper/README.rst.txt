@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rtopper'
 .. highlight: bash
-
 
 bioconductor-rtopper
 ====================
@@ -22,11 +23,17 @@ bioconductor-rtopper
 
    |downloads_bioconductor-rtopper| |docker_bioconductor-rtopper|
 
-   :versions: 1.28.0, 1.26.0, 1.24.0, 1.22.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-multtest` >=2.38.0,<2.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-rtopper|
+   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-multtest: >=2.38.0,<2.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-rtopper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtopper
+      docker pull quay.io/repository/biocontainers/bioconductor-rtopper:<tag>
+
+   (see `bioconductor-rtopper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rtopper| conda:required_by:: bioconductor-rtopper
 .. |downloads_bioconductor-rtopper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtopper.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rtopper| image:: https://quay.io/repository/biocontainers/bioconductor-rtopper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtopper
+.. _`bioconductor-rtopper/tags`: https://quay.io/repository/biocontainers/bioconductor-rtopper?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rtopper/README.html
-

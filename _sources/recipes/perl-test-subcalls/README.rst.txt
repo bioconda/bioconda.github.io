@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-subcalls'
 .. highlight: bash
-
 
 perl-test-subcalls
 ==================
@@ -21,11 +22,15 @@ perl-test-subcalls
 
    |downloads_perl-test-subcalls| |docker_perl-test-subcalls|
 
-   :versions: 1.10
-
-   :depends: :conda:package:`perl` >=5.22,<6.0 :conda:package:`perl-file-spec` >=0.80 :conda:package:`perl-hook-lexwrap`  :conda:package:`perl-pathtools`  :conda:package:`perl-test-builder-tester`  :conda:package:`perl-test-more` >=0.42 
-
-   :required~by: |required_by_perl-test-subcalls|
+   :versions: 1.10-2, 1.10-1, 1.10-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-exporter: 
+   
+   :depends perl-hook-lexwrap: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-test-subcalls
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-subcalls
+      docker pull quay.io/repository/biocontainers/perl-test-subcalls:<tag>
+
+   (see `perl-test-subcalls/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-subcalls| conda:required_by:: perl-test-subcalls
 .. |downloads_perl-test-subcalls| image:: https://img.shields.io/conda/dn/bioconda/perl-test-subcalls.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-subcalls| image:: https://quay.io/repository/biocontainers/perl-test-subcalls/status
    :target: https://quay.io/repository/biocontainers/perl-test-subcalls
+.. _`perl-test-subcalls/tags`: https://quay.io/repository/biocontainers/perl-test-subcalls?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-subcalls/README.html
-

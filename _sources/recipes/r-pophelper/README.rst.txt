@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-pophelper'
 .. highlight: bash
-
 
 r-pophelper
 ===========
@@ -21,11 +22,21 @@ r-pophelper
 
    |downloads_r-pophelper| |docker_r-pophelper|
 
-   :versions: 2.2.7
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cairo`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-gtable`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_r-pophelper|
+   :versions: 2.2.7-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cairo: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-gtable: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-pophelper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-pophelper
+      docker pull quay.io/repository/biocontainers/r-pophelper:<tag>
+
+   (see `r-pophelper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-pophelper| conda:required_by:: r-pophelper
 .. |downloads_r-pophelper| image:: https://img.shields.io/conda/dn/bioconda/r-pophelper.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-pophelper| image:: https://quay.io/repository/biocontainers/r-pophelper/status
    :target: https://quay.io/repository/biocontainers/r-pophelper
+.. _`r-pophelper/tags`: https://quay.io/repository/biocontainers/r-pophelper?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-pophelper/README.html
-

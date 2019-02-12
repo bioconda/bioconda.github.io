@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bloomfiltertrie'
 .. highlight: bash
-
 
 bloomfiltertrie
 ===============
@@ -21,11 +22,15 @@ bloomfiltertrie
 
    |downloads_bloomfiltertrie| |docker_bloomfiltertrie|
 
-   :versions: 0.8.7, 0.8.1
-
-   :depends: :conda:package:`jemalloc`  :conda:package:`judy`  :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_bloomfiltertrie|
+   :versions: 0.8.7-0, 0.8.1-0
+   
+   :depends jemalloc: 
+   
+   :depends judy: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bloomfiltertrie
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bloomfiltertrie
+      docker pull quay.io/repository/biocontainers/bloomfiltertrie:<tag>
+
+   (see `bloomfiltertrie/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bloomfiltertrie| conda:required_by:: bloomfiltertrie
 .. |downloads_bloomfiltertrie| image:: https://img.shields.io/conda/dn/bioconda/bloomfiltertrie.svg?style=flat
    :alt:   (downloads)
 .. |docker_bloomfiltertrie| image:: https://quay.io/repository/biocontainers/bloomfiltertrie/status
    :target: https://quay.io/repository/biocontainers/bloomfiltertrie
+.. _`bloomfiltertrie/tags`: https://quay.io/repository/biocontainers/bloomfiltertrie?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bloomfiltertrie/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'zeroc-ice'
 .. highlight: bash
-
 
 zeroc-ice
 =========
@@ -21,11 +22,15 @@ zeroc-ice
 
    |downloads_zeroc-ice| |docker_zeroc-ice|
 
-   :versions: 3.7.1, 3.6.3
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_zeroc-ice|
+   :versions: 3.7.1-0, 3.6.3-1, 3.6.3-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ zeroc-ice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/zeroc-ice
+      docker pull quay.io/repository/biocontainers/zeroc-ice:<tag>
+
+   (see `zeroc-ice/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_zeroc-ice| conda:required_by:: zeroc-ice
 .. |downloads_zeroc-ice| image:: https://img.shields.io/conda/dn/bioconda/zeroc-ice.svg?style=flat
    :alt:   (downloads)
 .. |docker_zeroc-ice| image:: https://quay.io/repository/biocontainers/zeroc-ice/status
    :target: https://quay.io/repository/biocontainers/zeroc-ice
+.. _`zeroc-ice/tags`: https://quay.io/repository/biocontainers/zeroc-ice?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/zeroc-ice/README.html
-

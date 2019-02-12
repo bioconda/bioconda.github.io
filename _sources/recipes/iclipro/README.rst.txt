@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'iclipro'
 .. highlight: bash
-
 
 iclipro
 =======
@@ -21,11 +22,15 @@ iclipro
 
    |downloads_iclipro| |docker_iclipro|
 
-   :versions: 0.1.1
-
-   :depends: :conda:package:`matplotlib`  :conda:package:`pysam`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_iclipro|
+   :versions: 0.1.1-1, 0.1.1-0
+   
+   :depends matplotlib: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ iclipro
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/iclipro
+      docker pull quay.io/repository/biocontainers/iclipro:<tag>
+
+   (see `iclipro/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_iclipro| conda:required_by:: iclipro
 .. |downloads_iclipro| image:: https://img.shields.io/conda/dn/bioconda/iclipro.svg?style=flat
    :alt:   (downloads)
 .. |docker_iclipro| image:: https://quay.io/repository/biocontainers/iclipro/status
    :target: https://quay.io/repository/biocontainers/iclipro
+.. _`iclipro/tags`: https://quay.io/repository/biocontainers/iclipro?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/iclipro/README.html
-

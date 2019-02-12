@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-gewist'
 .. highlight: bash
-
 
 bioconductor-gewist
 ===================
@@ -22,11 +23,13 @@ bioconductor-gewist
 
    |downloads_bioconductor-gewist| |docker_bioconductor-gewist|
 
-   :versions: 1.26.0, 1.24.0, 1.22.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-car`  
-
-   :required~by: |required_by_bioconductor-gewist|
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-car: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-gewist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gewist
+      docker pull quay.io/repository/biocontainers/bioconductor-gewist:<tag>
+
+   (see `bioconductor-gewist/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-gewist| conda:required_by:: bioconductor-gewist
 .. |downloads_bioconductor-gewist| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gewist.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-gewist| image:: https://quay.io/repository/biocontainers/bioconductor-gewist/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gewist
+.. _`bioconductor-gewist/tags`: https://quay.io/repository/biocontainers/bioconductor-gewist?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-gewist/README.html
-

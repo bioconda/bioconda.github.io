@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'libgenome'
 .. highlight: bash
-
 
 libgenome
 =========
@@ -21,11 +22,11 @@ libgenome
 
    |downloads_libgenome| |docker_libgenome|
 
-   :versions: 1.3.1
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_libgenome|
+   :versions: 1.3.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ libgenome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libgenome
+      docker pull quay.io/repository/biocontainers/libgenome:<tag>
+
+   (see `libgenome/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_libgenome| conda:required_by:: libgenome
 .. |downloads_libgenome| image:: https://img.shields.io/conda/dn/bioconda/libgenome.svg?style=flat
    :alt:   (downloads)
 .. |docker_libgenome| image:: https://quay.io/repository/biocontainers/libgenome/status
    :target: https://quay.io/repository/biocontainers/libgenome
+.. _`libgenome/tags`: https://quay.io/repository/biocontainers/libgenome?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/libgenome/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'strelka'
 .. highlight: bash
-
 
 strelka
 =======
@@ -22,11 +23,11 @@ strelka
 
    |downloads_strelka| |docker_strelka|
 
-   :versions: 2.9.10, 2.9.7, 2.9.4, 2.9.3, 2.9.2, 2.8.4, 2.8.2, 2.7.1
-
-   :depends: :conda:package:`python` 2.7.* 
-
-   :required~by: |required_by_strelka|
+   :versions: 2.9.10-0, 2.9.7-0, 2.9.4-0, 2.9.3-0, 2.9.2-0, 2.8.4-0, 2.8.2-0, 2.7.1-0
+   
+   :depends python: 2.7.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ strelka
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/strelka
+      docker pull quay.io/repository/biocontainers/strelka:<tag>
+
+   (see `strelka/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_strelka| conda:required_by:: strelka
 .. |downloads_strelka| image:: https://img.shields.io/conda/dn/bioconda/strelka.svg?style=flat
    :alt:   (downloads)
 .. |docker_strelka| image:: https://quay.io/repository/biocontainers/strelka/status
    :target: https://quay.io/repository/biocontainers/strelka
+.. _`strelka/tags`: https://quay.io/repository/biocontainers/strelka?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/strelka/README.html
-

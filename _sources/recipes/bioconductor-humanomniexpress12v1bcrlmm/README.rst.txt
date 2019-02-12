@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-humanomniexpress12v1bcrlmm'
 .. highlight: bash
-
 
 bioconductor-humanomniexpress12v1bcrlmm
 =======================================
@@ -21,11 +22,13 @@ bioconductor-humanomniexpress12v1bcrlmm
 
    |downloads_bioconductor-humanomniexpress12v1bcrlmm| |docker_bioconductor-humanomniexpress12v1bcrlmm|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-humanomniexpress12v1bcrlmm|
+   :versions: 1.0.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-humanomniexpress12v1bcrlmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-humanomniexpress12v1bcrlmm
+      docker pull quay.io/repository/biocontainers/bioconductor-humanomniexpress12v1bcrlmm:<tag>
+
+   (see `bioconductor-humanomniexpress12v1bcrlmm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-humanomniexpress12v1bcrlmm| conda:required_by:: bioconductor-humanomniexpress12v1bcrlmm
 .. |downloads_bioconductor-humanomniexpress12v1bcrlmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-humanomniexpress12v1bcrlmm.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-humanomniexpress12v1bcrlmm| image:: https://quay.io/repository/biocontainers/bioconductor-humanomniexpress12v1bcrlmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-humanomniexpress12v1bcrlmm
+.. _`bioconductor-humanomniexpress12v1bcrlmm/tags`: https://quay.io/repository/biocontainers/bioconductor-humanomniexpress12v1bcrlmm?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-humanomniexpress12v1bcrlmm/README.html
-

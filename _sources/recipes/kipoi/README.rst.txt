@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kipoi'
 .. highlight: bash
-
 
 kipoi
 =====
@@ -21,11 +22,31 @@ kipoi
 
    |downloads_kipoi| |docker_kipoi|
 
-   :versions: 0.6.5, 0.6.3, 0.6.0, 0.5.7, 0.3.6
-
-   :depends: :conda:package:`colorlog`  :conda:package:`cookiecutter`  :conda:package:`future`  :conda:package:`git-lfs`  :conda:package:`h5py`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python`  :conda:package:`pyyaml`  :conda:package:`tqdm`  :conda:package:`urllib3` >=1.21.1,<1.23 
-
-   :required~by: |required_by_kipoi|
+   :versions: 0.6.5-0, 0.6.3-0, 0.6.0-0, 0.5.7-0, 0.3.6-1, 0.3.6-0
+   
+   :depends colorlog: 
+   
+   :depends cookiecutter: 
+   
+   :depends future: 
+   
+   :depends git-lfs: 
+   
+   :depends h5py: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: 
+   
+   :depends pyyaml: 
+   
+   :depends tqdm: 
+   
+   :depends urllib3: >=1.21.1,<1.23
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ kipoi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kipoi
+      docker pull quay.io/repository/biocontainers/kipoi:<tag>
+
+   (see `kipoi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kipoi| conda:required_by:: kipoi
 .. |downloads_kipoi| image:: https://img.shields.io/conda/dn/bioconda/kipoi.svg?style=flat
    :alt:   (downloads)
 .. |docker_kipoi| image:: https://quay.io/repository/biocontainers/kipoi/status
    :target: https://quay.io/repository/biocontainers/kipoi
+.. _`kipoi/tags`: https://quay.io/repository/biocontainers/kipoi?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kipoi/README.html
-

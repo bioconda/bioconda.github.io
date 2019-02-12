@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'migrate-n'
 .. highlight: bash
-
 
 migrate-n
 =========
@@ -22,11 +23,15 @@ migrate-n
 
    |downloads_migrate-n| |docker_migrate-n|
 
-   :versions: 3.6.11
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_migrate-n|
+   :versions: 3.6.11-1, 3.6.11-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ migrate-n
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/migrate-n
+      docker pull quay.io/repository/biocontainers/migrate-n:<tag>
+
+   (see `migrate-n/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_migrate-n| conda:required_by:: migrate-n
 .. |downloads_migrate-n| image:: https://img.shields.io/conda/dn/bioconda/migrate-n.svg?style=flat
    :alt:   (downloads)
 .. |docker_migrate-n| image:: https://quay.io/repository/biocontainers/migrate-n/status
    :target: https://quay.io/repository/biocontainers/migrate-n
+.. _`migrate-n/tags`: https://quay.io/repository/biocontainers/migrate-n?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/migrate-n/README.html
-

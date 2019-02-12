@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-smvar'
 .. highlight: bash
-
 
 r-smvar
 =======
@@ -21,11 +22,11 @@ r-smvar
 
    |downloads_r-smvar| |docker_r-smvar|
 
-   :versions: 1.3.3
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-smvar|
+   :versions: 1.3.3-0
+   
+   :depends r-base: 3.4.1*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-smvar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-smvar
+      docker pull quay.io/repository/biocontainers/r-smvar:<tag>
+
+   (see `r-smvar/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-smvar| conda:required_by:: r-smvar
 .. |downloads_r-smvar| image:: https://img.shields.io/conda/dn/bioconda/r-smvar.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-smvar| image:: https://quay.io/repository/biocontainers/r-smvar/status
    :target: https://quay.io/repository/biocontainers/r-smvar
+.. _`r-smvar/tags`: https://quay.io/repository/biocontainers/r-smvar?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-smvar/README.html
-

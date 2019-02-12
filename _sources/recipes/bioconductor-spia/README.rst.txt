@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-spia'
 .. highlight: bash
-
 
 bioconductor-spia
 =================
@@ -22,11 +23,13 @@ bioconductor-spia
 
    |downloads_bioconductor-spia| |docker_bioconductor-spia|
 
-   :versions: 2.34.0, 2.32.0, 2.30.0, 2.28.0
-
-   :depends: :conda:package:`bioconductor-kegggraph` >=1.42.0,<1.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-spia|
+   :versions: 2.34.0-0, 2.32.0-0, 2.30.0-0, 2.28.0-0
+   
+   :depends bioconductor-kegggraph: >=1.42.0,<1.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-spia
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-spia
+      docker pull quay.io/repository/biocontainers/bioconductor-spia:<tag>
+
+   (see `bioconductor-spia/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-spia| conda:required_by:: bioconductor-spia
 .. |downloads_bioconductor-spia| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-spia.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-spia| image:: https://quay.io/repository/biocontainers/bioconductor-spia/status
    :target: https://quay.io/repository/biocontainers/bioconductor-spia
+.. _`bioconductor-spia/tags`: https://quay.io/repository/biocontainers/bioconductor-spia?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-spia/README.html
-

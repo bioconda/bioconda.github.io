@@ -131,11 +131,25 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">2018.10.26, 2018.05.23, 2018.01.23, 2017.12.11, 2017.11.15, 2017.10.11, 2017.09.14, 2017.04.12, 2017.03.01, 2017.02.25, 2017.02.24, 2017.01.10, 2016.12.09, 2016.11.08, 2016.04.29</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">2018.10.26-0, 2018.05.23-2, 2018.05.23-0, 2018.01.23-0, 2017.12.11-0, 2017.11.15-0, 2017.10.11-0, 2017.09.14-0, 2017.04.12-0, 2017.03.01-0, 2017.02.25-0, 2017.02.24-1, 2017.02.24-0, 2017.01.10-0, 2016.12.09-1, 2016.12.09-0, 2016.11.08-0, 2016.04.29-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference internal" href="../cyvcf2/README.html#package-cyvcf2" title="cyvcf2 package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">cyvcf2</span></code></a>  <a class="reference internal" href="../geneimpacts/README.html#package-geneimpacts" title="geneimpacts package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">geneimpacts</span></code></a> &gt;0.2.0 <code class="xref conda conda-package docutils literal notranslate"><span class="pre">nomkl</span></code>  <a class="reference external" href="https://github.com/conda-forge/numpy-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">numpy</span></code></a>  <a class="reference internal" href="../peddy/README.html#package-peddy" title="peddy package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">peddy</span></code></a> &gt;=0.2.9 <a class="reference external" href="https://github.com/conda-forge/python-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">python</span></code></a> &gt;=2.7,&lt;2.8.0a0 <a class="reference external" href="https://github.com/conda-forge/python-snappy-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">python-snappy</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/snappy-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">snappy</span></code></a> &gt;=1.1.7,&lt;1.1.8.0a0 <a class="reference external" href="https://github.com/conda-forge/sqlalchemy-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">sqlalchemy</span></code></a></td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-package reference internal" href="../cyvcf2/README.html#package-cyvcf2" title="cyvcf2 package"><strong>cyvcf2</strong></a></li>
+<li><a class="conda-package reference internal" href="../geneimpacts/README.html#package-geneimpacts" title="geneimpacts package"><strong>geneimpacts</strong></a> &gt;0.2.0</li>
+<li><strong>nomkl</strong></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></li>
+<li><a class="conda-package reference internal" href="../peddy/README.html#package-peddy" title="peddy package"><strong>peddy</strong></a> &gt;=0.2.9</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-snappy-feedstock"><strong>python-snappy</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/snappy-feedstock"><strong>snappy</strong></a> &gt;=1.1.7,&lt;1.1.8.0a0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/sqlalchemy-feedstock"><strong>sqlalchemy</strong></a></li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -149,9 +163,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">vcf2db</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">vcf2db</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/vcf2db?tab=tags">vcf2db/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

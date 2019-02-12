@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'treekin'
 .. highlight: bash
-
 
 treekin
 =======
@@ -21,11 +22,15 @@ treekin
 
    |downloads_treekin| |docker_treekin|
 
-   :versions: 0.4.2, 0.3.1
-
-   :depends: :conda:package:`blas`  :conda:package:`lapack`  :conda:package:`libgcc`  
-
-   :required~by: |required_by_treekin|
+   :versions: 0.4.2-1, 0.4.2-0, 0.3.1-1
+   
+   :depends blas: 
+   
+   :depends lapack: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ treekin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/treekin
+      docker pull quay.io/repository/biocontainers/treekin:<tag>
+
+   (see `treekin/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_treekin| conda:required_by:: treekin
 .. |downloads_treekin| image:: https://img.shields.io/conda/dn/bioconda/treekin.svg?style=flat
    :alt:   (downloads)
 .. |docker_treekin| image:: https://quay.io/repository/biocontainers/treekin/status
    :target: https://quay.io/repository/biocontainers/treekin
+.. _`treekin/tags`: https://quay.io/repository/biocontainers/treekin?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/treekin/README.html
-

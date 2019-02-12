@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-module-metadata'
 .. highlight: bash
-
 
 perl-module-metadata
 ====================
@@ -21,11 +22,15 @@ perl-module-metadata
 
    |downloads_perl-module-metadata| |docker_perl-module-metadata|
 
-   :versions: 1.000033, 1.000019
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-version`  
-
-   :required~by: |required_by_perl-module-metadata|
+   :versions: 1.000033-0, 1.000019-1, 1.000019-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-version: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-module-metadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-metadata
+      docker pull quay.io/repository/biocontainers/perl-module-metadata:<tag>
+
+   (see `perl-module-metadata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-module-metadata| conda:required_by:: perl-module-metadata
 .. |downloads_perl-module-metadata| image:: https://img.shields.io/conda/dn/bioconda/perl-module-metadata.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-module-metadata| image:: https://quay.io/repository/biocontainers/perl-module-metadata/status
    :target: https://quay.io/repository/biocontainers/perl-module-metadata
+.. _`perl-module-metadata/tags`: https://quay.io/repository/biocontainers/perl-module-metadata?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-module-metadata/README.html
-

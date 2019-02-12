@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'anvio-minimal'
 .. highlight: bash
-
 
 anvio-minimal
 =============
@@ -22,11 +23,53 @@ anvio-minimal
 
    |downloads_anvio-minimal| |docker_anvio-minimal|
 
-   :versions: 5.2.0
-
-   :depends: :conda:package:`bottle` 0.12.13 :conda:package:`cherrypy` >=8,<9 :conda:package:`django` 2.0.2 :conda:package:`ete3` 3.1.1 :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`h5py` >=2.8.0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib` >=2.2.3 :conda:package:`mistune` 0.7.4 :conda:package:`numpy`  :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`pandas` >=0.23.1 :conda:package:`psutil` >=5.4.3 :conda:package:`pyani` 0.2.7 :conda:package:`pysam` 0.15.1 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`requests` >=2.19.1 :conda:package:`scikit-learn` 0.19.2 :conda:package:`scipy` >=0.13.3 :conda:package:`six` 1.11.0 :conda:package:`snakemake-minimal` 5.2.4 :conda:package:`statsmodels` 0.9.0 
-
-   :required~by: |required_by_anvio-minimal|
+   :versions: 5.2.0-1, 5.2.0-0
+   
+   :depends bottle: 0.12.13
+   
+   :depends cherrypy: >=8,<9
+   
+   :depends django: 2.0.2
+   
+   :depends ete3: 3.1.1
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends h5py: >=2.8.0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: >=2.2.3
+   
+   :depends mistune: 0.7.4
+   
+   :depends numpy: 
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :depends pandas: >=0.23.1
+   
+   :depends psutil: >=5.4.3
+   
+   :depends pyani: 0.2.7
+   
+   :depends pysam: 0.15.1
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :depends requests: >=2.19.1
+   
+   :depends scikit-learn: 0.19.2
+   
+   :depends scipy: >=0.13.3
+   
+   :depends six: 1.11.0
+   
+   :depends snakemake-minimal: 5.2.4
+   
+   :depends statsmodels: 0.9.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +83,16 @@ anvio-minimal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/anvio-minimal
+      docker pull quay.io/repository/biocontainers/anvio-minimal:<tag>
+
+   (see `anvio-minimal/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_anvio-minimal| conda:required_by:: anvio-minimal
 .. |downloads_anvio-minimal| image:: https://img.shields.io/conda/dn/bioconda/anvio-minimal.svg?style=flat
    :alt:   (downloads)
 .. |docker_anvio-minimal| image:: https://quay.io/repository/biocontainers/anvio-minimal/status
    :target: https://quay.io/repository/biocontainers/anvio-minimal
+.. _`anvio-minimal/tags`: https://quay.io/repository/biocontainers/anvio-minimal?tab=tags
 
 
 
@@ -64,4 +109,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/anvio-minimal/README.html
-

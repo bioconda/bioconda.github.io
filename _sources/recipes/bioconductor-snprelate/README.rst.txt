@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-snprelate'
 .. highlight: bash
-
 
 bioconductor-snprelate
 ======================
@@ -21,11 +22,17 @@ bioconductor-snprelate
 
    |downloads_bioconductor-snprelate| |docker_bioconductor-snprelate|
 
-   :versions: 1.16.0, 1.14.0, 1.12.2
-
-   :depends: :conda:package:`bioconductor-gdsfmt` >=1.18.0,<1.19.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-snprelate|
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.2-0
+   
+   :depends bioconductor-gdsfmt: >=1.18.0,<1.19.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-snprelate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snprelate
+      docker pull quay.io/repository/biocontainers/bioconductor-snprelate:<tag>
+
+   (see `bioconductor-snprelate/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-snprelate| conda:required_by:: bioconductor-snprelate
 .. |downloads_bioconductor-snprelate| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snprelate.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-snprelate| image:: https://quay.io/repository/biocontainers/bioconductor-snprelate/status
    :target: https://quay.io/repository/biocontainers/bioconductor-snprelate
+.. _`bioconductor-snprelate/tags`: https://quay.io/repository/biocontainers/bioconductor-snprelate?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-snprelate/README.html
-

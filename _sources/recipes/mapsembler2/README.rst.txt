@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mapsembler2'
 .. highlight: bash
-
 
 mapsembler2
 ===========
@@ -21,11 +22,11 @@ mapsembler2
 
    |downloads_mapsembler2| |docker_mapsembler2|
 
-   :versions: 2.2.4
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
-
-   :required~by: |required_by_mapsembler2|
+   :versions: 2.2.4-3, 2.2.4-2, 2.2.4-1, 2.2.4-0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ mapsembler2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mapsembler2
+      docker pull quay.io/repository/biocontainers/mapsembler2:<tag>
+
+   (see `mapsembler2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mapsembler2| conda:required_by:: mapsembler2
 .. |downloads_mapsembler2| image:: https://img.shields.io/conda/dn/bioconda/mapsembler2.svg?style=flat
    :alt:   (downloads)
 .. |docker_mapsembler2| image:: https://quay.io/repository/biocontainers/mapsembler2/status
    :target: https://quay.io/repository/biocontainers/mapsembler2
+.. _`mapsembler2/tags`: https://quay.io/repository/biocontainers/mapsembler2?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mapsembler2/README.html
-

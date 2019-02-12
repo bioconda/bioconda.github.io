@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-edda'
 .. highlight: bash
-
 
 bioconductor-edda
 =================
@@ -22,11 +23,27 @@ bioconductor-edda
 
    |downloads_bioconductor-edda| |docker_bioconductor-edda|
 
-   :versions: 1.20.0, 1.18.0, 1.16.0
-
-   :depends: :conda:package:`bioconductor-bayseq` >=2.16.0,<2.17.0 :conda:package:`bioconductor-deseq` >=1.34.0,<1.35.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp` >=0.10.4 :conda:package:`r-rocr`  :conda:package:`r-snow`  
-
-   :required~by: |required_by_bioconductor-edda|
+   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0
+   
+   :depends bioconductor-bayseq: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-deseq: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcpp: >=0.10.4
+   
+   :depends r-rocr: 
+   
+   :depends r-snow: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ bioconductor-edda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-edda
+      docker pull quay.io/repository/biocontainers/bioconductor-edda:<tag>
+
+   (see `bioconductor-edda/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-edda| conda:required_by:: bioconductor-edda
 .. |downloads_bioconductor-edda| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-edda.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-edda| image:: https://quay.io/repository/biocontainers/bioconductor-edda/status
    :target: https://quay.io/repository/biocontainers/bioconductor-edda
+.. _`bioconductor-edda/tags`: https://quay.io/repository/biocontainers/bioconductor-edda?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-edda/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-geuvstore2'
 .. highlight: bash
-
 
 bioconductor-geuvstore2
 =======================
@@ -21,11 +22,19 @@ bioconductor-geuvstore2
 
    |downloads_bioconductor-geuvstore2| |docker_bioconductor-geuvstore2|
 
-   :versions: 1.12.0
-
-   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-gqtlbase` >=1.14.0,<1.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-batchjobs`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-geuvstore2|
+   :versions: 1.12.0-0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-gqtlbase: >=1.14.0,<1.15.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-batchjobs: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-geuvstore2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geuvstore2
+      docker pull quay.io/repository/biocontainers/bioconductor-geuvstore2:<tag>
+
+   (see `bioconductor-geuvstore2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-geuvstore2| conda:required_by:: bioconductor-geuvstore2
 .. |downloads_bioconductor-geuvstore2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geuvstore2.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-geuvstore2| image:: https://quay.io/repository/biocontainers/bioconductor-geuvstore2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geuvstore2
+.. _`bioconductor-geuvstore2/tags`: https://quay.io/repository/biocontainers/bioconductor-geuvstore2?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-geuvstore2/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rambo-k'
 .. highlight: bash
-
 
 rambo-k
 =======
@@ -21,11 +22,21 @@ rambo-k
 
    |downloads_rambo-k| |docker_rambo-k|
 
-   :versions: 1.21
-
-   :depends: :conda:package:`argparse`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`openjdk`  :conda:package:`python` 2.7* :conda:package:`scikit-learn`  
-
-   :required~by: |required_by_rambo-k|
+   :versions: 1.21-1, 1.21-0
+   
+   :depends argparse: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends openjdk: 
+   
+   :depends python: 
+   
+   :depends scikit-learn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ rambo-k
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rambo-k
+      docker pull quay.io/repository/biocontainers/rambo-k:<tag>
+
+   (see `rambo-k/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rambo-k| conda:required_by:: rambo-k
 .. |downloads_rambo-k| image:: https://img.shields.io/conda/dn/bioconda/rambo-k.svg?style=flat
    :alt:   (downloads)
 .. |docker_rambo-k| image:: https://quay.io/repository/biocontainers/rambo-k/status
    :target: https://quay.io/repository/biocontainers/rambo-k
+.. _`rambo-k/tags`: https://quay.io/repository/biocontainers/rambo-k?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rambo-k/README.html
-

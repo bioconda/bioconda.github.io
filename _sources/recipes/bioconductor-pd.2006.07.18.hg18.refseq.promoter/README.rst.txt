@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pd.2006.07.18.hg18.refseq.promoter'
 .. highlight: bash
-
 
 bioconductor-pd.2006.07.18.hg18.refseq.promoter
 ===============================================
@@ -21,11 +22,25 @@ bioconductor-pd.2006.07.18.hg18.refseq.promoter
 
    |downloads_bioconductor-pd.2006.07.18.hg18.refseq.promoter| |docker_bioconductor-pd.2006.07.18.hg18.refseq.promoter|
 
-   :versions: 1.8.1
-
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-rsqlite` >=0.11.1 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-pd.2006.07.18.hg18.refseq.promoter|
+   :versions: 1.8.1-0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-oligo: >=1.46.0,<1.47.0
+   
+   :depends bioconductor-oligoclasses: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dbi: 
+   
+   :depends r-rsqlite: >=0.11.1
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bioconductor-pd.2006.07.18.hg18.refseq.promoter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.2006.07.18.hg18.refseq.promoter
+      docker pull quay.io/repository/biocontainers/bioconductor-pd.2006.07.18.hg18.refseq.promoter:<tag>
+
+   (see `bioconductor-pd.2006.07.18.hg18.refseq.promoter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pd.2006.07.18.hg18.refseq.promoter| conda:required_by:: bioconductor-pd.2006.07.18.hg18.refseq.promoter
 .. |downloads_bioconductor-pd.2006.07.18.hg18.refseq.promoter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.2006.07.18.hg18.refseq.promoter.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pd.2006.07.18.hg18.refseq.promoter| image:: https://quay.io/repository/biocontainers/bioconductor-pd.2006.07.18.hg18.refseq.promoter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.2006.07.18.hg18.refseq.promoter
+.. _`bioconductor-pd.2006.07.18.hg18.refseq.promoter/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.2006.07.18.hg18.refseq.promoter?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pd.2006.07.18.hg18.refseq.promoter/README.html
-

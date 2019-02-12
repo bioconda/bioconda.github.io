@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'meraculous'
 .. highlight: bash
-
 
 meraculous
 ==========
@@ -23,11 +24,21 @@ meraculous
 
    |downloads_meraculous| |docker_meraculous|
 
-   :versions: 2.2.6, 2.2.5.1.1.ga103cd6, 2.2.5, 2.2.4
-
-   :depends: :conda:package:`boost-cpp` >=1.67.0,<1.67.1.0a0 :conda:package:`gnuplot` >=3.7 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgd` >=2.0 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-log-log4perl` >=1.31 
-
-   :required~by: |required_by_meraculous|
+   :versions: 2.2.6-0, 2.2.5.1.1.ga103cd6-0, 2.2.5-0, 2.2.4-1, 2.2.4-0
+   
+   :depends boost-cpp: >=1.67.0,<1.67.1.0a0
+   
+   :depends gnuplot: >=3.7
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libgd: >=2.0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-log-log4perl: >=1.31
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +52,16 @@ meraculous
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/meraculous
+      docker pull quay.io/repository/biocontainers/meraculous:<tag>
+
+   (see `meraculous/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_meraculous| conda:required_by:: meraculous
 .. |downloads_meraculous| image:: https://img.shields.io/conda/dn/bioconda/meraculous.svg?style=flat
    :alt:   (downloads)
 .. |docker_meraculous| image:: https://quay.io/repository/biocontainers/meraculous/status
    :target: https://quay.io/repository/biocontainers/meraculous
+.. _`meraculous/tags`: https://quay.io/repository/biocontainers/meraculous?tab=tags
 
 
 
@@ -65,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/meraculous/README.html
-

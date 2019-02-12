@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tgt'
 .. highlight: bash
-
 
 tgt
 ===
@@ -21,11 +22,13 @@ tgt
 
    |downloads_tgt| |docker_tgt|
 
-   :versions: 1.4.3, 1.4.2
-
-   :depends: :conda:package:`numpy`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_tgt|
+   :versions: 1.4.3-2, 1.4.3-0, 1.4.2-0
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ tgt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tgt
+      docker pull quay.io/repository/biocontainers/tgt:<tag>
+
+   (see `tgt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tgt| conda:required_by:: tgt
 .. |downloads_tgt| image:: https://img.shields.io/conda/dn/bioconda/tgt.svg?style=flat
    :alt:   (downloads)
 .. |docker_tgt| image:: https://quay.io/repository/biocontainers/tgt/status
    :target: https://quay.io/repository/biocontainers/tgt
+.. _`tgt/tags`: https://quay.io/repository/biocontainers/tgt?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tgt/README.html
-

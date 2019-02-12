@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-plpe'
 .. highlight: bash
-
 
 bioconductor-plpe
 =================
@@ -22,11 +23,17 @@ bioconductor-plpe
 
    |downloads_bioconductor-plpe| |docker_bioconductor-plpe|
 
-   :versions: 1.42.0, 1.40.0, 1.38.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-lpe` >=1.56.0,<1.57.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  
-
-   :required~by: |required_by_bioconductor-plpe|
+   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-lpe: >=1.56.0,<1.57.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mass: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-plpe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-plpe
+      docker pull quay.io/repository/biocontainers/bioconductor-plpe:<tag>
+
+   (see `bioconductor-plpe/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-plpe| conda:required_by:: bioconductor-plpe
 .. |downloads_bioconductor-plpe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-plpe.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-plpe| image:: https://quay.io/repository/biocontainers/bioconductor-plpe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-plpe
+.. _`bioconductor-plpe/tags`: https://quay.io/repository/biocontainers/bioconductor-plpe?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-plpe/README.html
-

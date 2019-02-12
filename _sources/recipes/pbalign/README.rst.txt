@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pbalign'
 .. highlight: bash
-
 
 pbalign
 =======
@@ -21,11 +22,25 @@ pbalign
 
    |downloads_pbalign| |docker_pbalign|
 
-   :versions: 0.3.2, 0.3.1
-
-   :depends: :conda:package:`blasr` >=5.3.2 :conda:package:`pbbam` >=0.18.0 :conda:package:`pbcommand` >=1.1.1 :conda:package:`pbcore` >=1.6.5 :conda:package:`pysam` >=0.15.1 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools` >=1.6 :conda:package:`setuptools`  
-
-   :required~by: |required_by_pbalign|
+   :versions: 0.3.2-0, 0.3.1-2, 0.3.1-1, 0.3.1-0
+   
+   :depends blasr: >=5.3.2
+   
+   :depends pbbam: >=0.18.0
+   
+   :depends pbcommand: >=1.1.1
+   
+   :depends pbcore: >=1.6.5
+   
+   :depends pysam: >=0.15.1
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: >=1.6
+   
+   :depends setuptools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ pbalign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbalign
+      docker pull quay.io/repository/biocontainers/pbalign:<tag>
+
+   (see `pbalign/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pbalign| conda:required_by:: pbalign
 .. |downloads_pbalign| image:: https://img.shields.io/conda/dn/bioconda/pbalign.svg?style=flat
    :alt:   (downloads)
 .. |docker_pbalign| image:: https://quay.io/repository/biocontainers/pbalign/status
    :target: https://quay.io/repository/biocontainers/pbalign
+.. _`pbalign/tags`: https://quay.io/repository/biocontainers/pbalign?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pbalign/README.html
-

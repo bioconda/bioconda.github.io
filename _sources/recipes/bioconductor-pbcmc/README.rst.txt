@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-pbcmc'
 .. highlight: bash
-
 
 bioconductor-pbcmc
 ==================
@@ -22,11 +23,29 @@ bioconductor-pbcmc
 
    |downloads_bioconductor-pbcmc| |docker_bioconductor-pbcmc|
 
-   :versions: 1.8.0, 1.6.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.40.0,<2.42.0 :conda:package:`bioconductor-biocgenerics` >=0.26.0,<0.28.0 :conda:package:`bioconductor-biocparallel` >=1.14.2,<1.16.0 :conda:package:`bioconductor-genefu` >=2.12.0,<2.14.0 :conda:package:`bioconductor-limma` >=3.36.5,<3.38.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-cowplot`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-pbcmc|
+   :versions: 1.8.0-0, 1.6.0-0
+   
+   :depends bioconductor-biobase: >=2.40.0,<2.42.0
+   
+   :depends bioconductor-biocgenerics: >=0.26.0,<0.28.0
+   
+   :depends bioconductor-biocparallel: >=1.14.2,<1.16.0
+   
+   :depends bioconductor-genefu: >=2.12.0,<2.14.0
+   
+   :depends bioconductor-limma: >=3.36.5,<3.38.0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-cowplot: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ bioconductor-pbcmc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pbcmc
+      docker pull quay.io/repository/biocontainers/bioconductor-pbcmc:<tag>
+
+   (see `bioconductor-pbcmc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-pbcmc| conda:required_by:: bioconductor-pbcmc
 .. |downloads_bioconductor-pbcmc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pbcmc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-pbcmc| image:: https://quay.io/repository/biocontainers/bioconductor-pbcmc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pbcmc
+.. _`bioconductor-pbcmc/tags`: https://quay.io/repository/biocontainers/bioconductor-pbcmc?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-pbcmc/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-pod-parser'
 .. highlight: bash
-
 
 perl-pod-parser
 ===============
@@ -21,11 +22,13 @@ perl-pod-parser
 
    |downloads_perl-pod-parser| |docker_perl-pod-parser|
 
-   :versions: 1.63
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  
-
-   :required~by: |required_by_perl-pod-parser|
+   :versions: 1.63-1, 1.63-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-app-cpanminus: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-pod-parser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pod-parser
+      docker pull quay.io/repository/biocontainers/perl-pod-parser:<tag>
+
+   (see `perl-pod-parser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-pod-parser| conda:required_by:: perl-pod-parser
 .. |downloads_perl-pod-parser| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-parser.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-pod-parser| image:: https://quay.io/repository/biocontainers/perl-pod-parser/status
    :target: https://quay.io/repository/biocontainers/perl-pod-parser
+.. _`perl-pod-parser/tags`: https://quay.io/repository/biocontainers/perl-pod-parser?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-pod-parser/README.html
-

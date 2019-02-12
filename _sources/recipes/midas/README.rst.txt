@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'midas'
 .. highlight: bash
-
 
 midas
 =====
@@ -21,11 +22,25 @@ midas
 
    |downloads_midas| |docker_midas|
 
-   :versions: 1.3.2, 1.3.1, 1.3.0
-
-   :depends: :conda:package:`biopython`  :conda:package:`bowtie2`  :conda:package:`hs-blastn`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`samtools` >=1.4.0 
-
-   :required~by: |required_by_midas|
+   :versions: 1.3.2-2, 1.3.2-0, 1.3.1-0, 1.3.0-0
+   
+   :depends biopython: 
+   
+   :depends bowtie2: 
+   
+   :depends hs-blastn: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: >=1.4.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ midas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/midas
+      docker pull quay.io/repository/biocontainers/midas:<tag>
+
+   (see `midas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_midas| conda:required_by:: midas
 .. |downloads_midas| image:: https://img.shields.io/conda/dn/bioconda/midas.svg?style=flat
    :alt:   (downloads)
 .. |docker_midas| image:: https://quay.io/repository/biocontainers/midas/status
    :target: https://quay.io/repository/biocontainers/midas
+.. _`midas/tags`: https://quay.io/repository/biocontainers/midas?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/midas/README.html
-

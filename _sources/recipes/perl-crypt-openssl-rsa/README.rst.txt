@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-crypt-openssl-rsa'
 .. highlight: bash
-
 
 perl-crypt-openssl-rsa
 ======================
@@ -21,11 +22,13 @@ perl-crypt-openssl-rsa
 
    |downloads_perl-crypt-openssl-rsa| |docker_perl-crypt-openssl-rsa|
 
-   :versions: 0.28
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-crypt-openssl-random`  
-
-   :required~by: |required_by_perl-crypt-openssl-rsa|
+   :versions: 0.28-1, 0.28-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-crypt-openssl-random: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-crypt-openssl-rsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-crypt-openssl-rsa
+      docker pull quay.io/repository/biocontainers/perl-crypt-openssl-rsa:<tag>
+
+   (see `perl-crypt-openssl-rsa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-crypt-openssl-rsa| conda:required_by:: perl-crypt-openssl-rsa
 .. |downloads_perl-crypt-openssl-rsa| image:: https://img.shields.io/conda/dn/bioconda/perl-crypt-openssl-rsa.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-crypt-openssl-rsa| image:: https://quay.io/repository/biocontainers/perl-crypt-openssl-rsa/status
    :target: https://quay.io/repository/biocontainers/perl-crypt-openssl-rsa
+.. _`perl-crypt-openssl-rsa/tags`: https://quay.io/repository/biocontainers/perl-crypt-openssl-rsa?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-crypt-openssl-rsa/README.html
-

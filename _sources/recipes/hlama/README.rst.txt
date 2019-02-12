@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hlama'
 .. highlight: bash
-
 
 hlama
 =====
@@ -21,11 +22,15 @@ hlama
 
    |downloads_hlama| |docker_hlama|
 
-   :versions: 3.0.1, 0.3.1, 0.3
-
-   :depends: :conda:package:`optitype` >=1.2 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`snakemake` 3.7.1 
-
-   :required~by: |required_by_hlama|
+   :versions: 3.0.1-0, 0.3.1-2, 0.3.1-1, 0.3.1-0, 0.3-0
+   
+   :depends optitype: >=1.2
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends snakemake: 3.7.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ hlama
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hlama
+      docker pull quay.io/repository/biocontainers/hlama:<tag>
+
+   (see `hlama/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hlama| conda:required_by:: hlama
 .. |downloads_hlama| image:: https://img.shields.io/conda/dn/bioconda/hlama.svg?style=flat
    :alt:   (downloads)
 .. |docker_hlama| image:: https://quay.io/repository/biocontainers/hlama/status
    :target: https://quay.io/repository/biocontainers/hlama
+.. _`hlama/tags`: https://quay.io/repository/biocontainers/hlama?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hlama/README.html
-

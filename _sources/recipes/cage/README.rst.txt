@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cage'
 .. highlight: bash
-
 
 cage
 ====
@@ -21,11 +22,15 @@ cage
 
    |downloads_cage| |docker_cage|
 
-   :versions: 2016.05.13, 2016.01.24
-
-   :depends: :conda:package:`bamtools` >=2.4.1,<2.4.2.0a0 :conda:package:`python`  :conda:package:`sqlite` >=3.24.0,<4.0a0 
-
-   :required~by: |required_by_cage|
+   :versions: 2016.05.13-1, 2016.05.13-0, 2016.01.24-0
+   
+   :depends bamtools: >=2.4.1,<2.4.2.0a0
+   
+   :depends python: 
+   
+   :depends sqlite: >=3.24.0,<4.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ cage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cage
+      docker pull quay.io/repository/biocontainers/cage:<tag>
+
+   (see `cage/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cage| conda:required_by:: cage
 .. |downloads_cage| image:: https://img.shields.io/conda/dn/bioconda/cage.svg?style=flat
    :alt:   (downloads)
 .. |docker_cage| image:: https://quay.io/repository/biocontainers/cage/status
    :target: https://quay.io/repository/biocontainers/cage
+.. _`cage/tags`: https://quay.io/repository/biocontainers/cage?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cage/README.html
-

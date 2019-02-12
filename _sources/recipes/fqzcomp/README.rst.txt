@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fqzcomp'
 .. highlight: bash
-
 
 fqzcomp
 =======
@@ -21,11 +22,13 @@ fqzcomp
 
    |downloads_fqzcomp| |docker_fqzcomp|
 
-   :versions: 4.6
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_fqzcomp|
+   :versions: 4.6-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ fqzcomp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fqzcomp
+      docker pull quay.io/repository/biocontainers/fqzcomp:<tag>
+
+   (see `fqzcomp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fqzcomp| conda:required_by:: fqzcomp
 .. |downloads_fqzcomp| image:: https://img.shields.io/conda/dn/bioconda/fqzcomp.svg?style=flat
    :alt:   (downloads)
 .. |docker_fqzcomp| image:: https://quay.io/repository/biocontainers/fqzcomp/status
    :target: https://quay.io/repository/biocontainers/fqzcomp
+.. _`fqzcomp/tags`: https://quay.io/repository/biocontainers/fqzcomp?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fqzcomp/README.html
-

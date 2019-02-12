@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'helperlibs'
 .. highlight: bash
-
 
 helperlibs
 ==========
@@ -21,11 +22,13 @@ helperlibs
 
    |downloads_helperlibs| |docker_helperlibs|
 
-   :versions: 0.1.9, 0.1.8
-
-   :depends: :conda:package:`biopython` >=1.62 :conda:package:`python`  
-
-   :required~by: |required_by_helperlibs|
+   :versions: 0.1.9-0, 0.1.8-1, 0.1.8-0
+   
+   :depends biopython: >=1.62
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ helperlibs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/helperlibs
+      docker pull quay.io/repository/biocontainers/helperlibs:<tag>
+
+   (see `helperlibs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_helperlibs| conda:required_by:: helperlibs
 .. |downloads_helperlibs| image:: https://img.shields.io/conda/dn/bioconda/helperlibs.svg?style=flat
    :alt:   (downloads)
 .. |docker_helperlibs| image:: https://quay.io/repository/biocontainers/helperlibs/status
    :target: https://quay.io/repository/biocontainers/helperlibs
+.. _`helperlibs/tags`: https://quay.io/repository/biocontainers/helperlibs?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/helperlibs/README.html
-

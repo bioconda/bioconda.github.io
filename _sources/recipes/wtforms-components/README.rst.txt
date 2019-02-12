@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'wtforms-components'
 .. highlight: bash
-
 
 wtforms-components
 ==================
@@ -21,11 +22,21 @@ wtforms-components
 
    |downloads_wtforms-components| |docker_wtforms-components|
 
-   :versions: 0.10.0
-
-   :depends: :conda:package:`intervals` >=0.6.0 :conda:package:`phonenumbers`  :conda:package:`python` 2.7* :conda:package:`six` >=1.4.1 :conda:package:`validators` >=0.5.0 :conda:package:`wtforms` >=1.0.4 
-
-   :required~by: |required_by_wtforms-components|
+   :versions: 0.10.0-2, 0.10.0-0
+   
+   :depends intervals: >=0.6.0
+   
+   :depends phonenumbers: 
+   
+   :depends python: 
+   
+   :depends six: >=1.4.1
+   
+   :depends validators: >=0.5.0
+   
+   :depends wtforms: >=1.0.4
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ wtforms-components
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wtforms-components
+      docker pull quay.io/repository/biocontainers/wtforms-components:<tag>
+
+   (see `wtforms-components/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_wtforms-components| conda:required_by:: wtforms-components
 .. |downloads_wtforms-components| image:: https://img.shields.io/conda/dn/bioconda/wtforms-components.svg?style=flat
    :alt:   (downloads)
 .. |docker_wtforms-components| image:: https://quay.io/repository/biocontainers/wtforms-components/status
    :target: https://quay.io/repository/biocontainers/wtforms-components
+.. _`wtforms-components/tags`: https://quay.io/repository/biocontainers/wtforms-components?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/wtforms-components/README.html
-

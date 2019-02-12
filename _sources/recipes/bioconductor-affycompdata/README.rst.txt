@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-affycompdata'
 .. highlight: bash
-
 
 bioconductor-affycompdata
 =========================
@@ -21,11 +22,17 @@ bioconductor-affycompdata
 
    |downloads_bioconductor-affycompdata| |docker_bioconductor-affycompdata|
 
-   :versions: 1.20.0
-
-   :depends: :conda:package:`bioconductor-affycomp` >=1.58.0,<1.59.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-affycompdata|
+   :versions: 1.20.0-0
+   
+   :depends bioconductor-affycomp: >=1.58.0,<1.59.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-affycompdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affycompdata
+      docker pull quay.io/repository/biocontainers/bioconductor-affycompdata:<tag>
+
+   (see `bioconductor-affycompdata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-affycompdata| conda:required_by:: bioconductor-affycompdata
 .. |downloads_bioconductor-affycompdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affycompdata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-affycompdata| image:: https://quay.io/repository/biocontainers/bioconductor-affycompdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affycompdata
+.. _`bioconductor-affycompdata/tags`: https://quay.io/repository/biocontainers/bioconductor-affycompdata?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-affycompdata/README.html
-

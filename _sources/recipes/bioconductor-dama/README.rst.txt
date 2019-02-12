@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-dama'
 .. highlight: bash
-
 
 bioconductor-dama
 =================
@@ -22,11 +23,13 @@ bioconductor-dama
 
    |downloads_bioconductor-dama| |docker_bioconductor-dama|
 
-   :versions: 1.54.0, 1.52.0, 1.50.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  
-
-   :required~by: |required_by_bioconductor-dama|
+   :versions: 1.54.0-0, 1.52.0-0, 1.50.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-mass: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-dama
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dama
+      docker pull quay.io/repository/biocontainers/bioconductor-dama:<tag>
+
+   (see `bioconductor-dama/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-dama| conda:required_by:: bioconductor-dama
 .. |downloads_bioconductor-dama| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dama.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-dama| image:: https://quay.io/repository/biocontainers/bioconductor-dama/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dama
+.. _`bioconductor-dama/tags`: https://quay.io/repository/biocontainers/bioconductor-dama?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-dama/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-dep'
 .. highlight: bash
-
 
 bioconductor-dep
 ================
@@ -21,11 +22,57 @@ bioconductor-dep
 
    |downloads_bioconductor-dep| |docker_bioconductor-dep|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-complexheatmap` >=1.20.0,<1.21.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-msnbase` >=2.8.0,<2.9.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-vsn` >=3.50.0,<3.51.0 :conda:package:`r-assertthat`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-circlize`  :conda:package:`r-cluster`  :conda:package:`r-dplyr`  :conda:package:`r-dt`  :conda:package:`r-fdrtool`  :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-gridextra`  :conda:package:`r-imputelcmd`  :conda:package:`r-purrr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-readr`  :conda:package:`r-rmarkdown`  :conda:package:`r-shiny`  :conda:package:`r-shinydashboard`  :conda:package:`r-tibble`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_bioconductor-dep|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-msnbase: >=2.8.0,<2.9.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends bioconductor-vsn: >=3.50.0,<3.51.0
+   
+   :depends r-assertthat: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-circlize: 
+   
+   :depends r-cluster: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-dt: 
+   
+   :depends r-fdrtool: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggrepel: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-imputelcmd: 
+   
+   :depends r-purrr: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-readr: 
+   
+   :depends r-rmarkdown: 
+   
+   :depends r-shiny: 
+   
+   :depends r-shinydashboard: 
+   
+   :depends r-tibble: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +86,16 @@ bioconductor-dep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dep
+      docker pull quay.io/repository/biocontainers/bioconductor-dep:<tag>
+
+   (see `bioconductor-dep/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-dep| conda:required_by:: bioconductor-dep
 .. |downloads_bioconductor-dep| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dep.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-dep| image:: https://quay.io/repository/biocontainers/bioconductor-dep/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dep
+.. _`bioconductor-dep/tags`: https://quay.io/repository/biocontainers/bioconductor-dep?tab=tags
 
 
 
@@ -63,4 +112,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-dep/README.html
-

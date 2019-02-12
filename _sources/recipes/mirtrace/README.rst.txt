@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mirtrace'
 .. highlight: bash
-
 
 mirtrace
 ========
@@ -29,11 +30,13 @@ mirtrace
 
    |downloads_mirtrace| |docker_mirtrace|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`openjdk` >=8.0.144 :conda:package:`python`  
-
-   :required~by: |required_by_mirtrace|
+   :versions: 1.0.0-0
+   
+   :depends openjdk: >=8.0.144
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -47,14 +50,16 @@ mirtrace
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mirtrace
+      docker pull quay.io/repository/biocontainers/mirtrace:<tag>
+
+   (see `mirtrace/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mirtrace| conda:required_by:: mirtrace
 .. |downloads_mirtrace| image:: https://img.shields.io/conda/dn/bioconda/mirtrace.svg?style=flat
    :alt:   (downloads)
 .. |docker_mirtrace| image:: https://quay.io/repository/biocontainers/mirtrace/status
    :target: https://quay.io/repository/biocontainers/mirtrace
+.. _`mirtrace/tags`: https://quay.io/repository/biocontainers/mirtrace?tab=tags
 
 
 
@@ -71,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mirtrace/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-fella'
 .. highlight: bash
-
 
 bioconductor-fella
 ==================
@@ -21,11 +22,19 @@ bioconductor-fella
 
    |downloads_bioconductor-fella| |docker_bioconductor-fella|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-plyr`  
-
-   :required~by: |required_by_bioconductor-fella|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-keggrest: >=1.22.0,<1.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-igraph: 
+   
+   :depends r-matrix: 
+   
+   :depends r-plyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-fella
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fella
+      docker pull quay.io/repository/biocontainers/bioconductor-fella:<tag>
+
+   (see `bioconductor-fella/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-fella| conda:required_by:: bioconductor-fella
 .. |downloads_bioconductor-fella| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fella.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-fella| image:: https://quay.io/repository/biocontainers/bioconductor-fella/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fella
+.. _`bioconductor-fella/tags`: https://quay.io/repository/biocontainers/bioconductor-fella?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-fella/README.html
-

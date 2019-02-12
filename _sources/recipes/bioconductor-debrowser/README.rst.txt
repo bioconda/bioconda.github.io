@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-debrowser'
 .. highlight: bash
-
 
 bioconductor-debrowser
 ======================
@@ -22,10 +23,8 @@ bioconductor-debrowser
    |downloads_bioconductor-debrowser| |docker_bioconductor-debrowser|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-debrowser|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-debrowser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-debrowser
+      docker pull quay.io/repository/biocontainers/bioconductor-debrowser:<tag>
+
+   (see `bioconductor-debrowser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-debrowser| conda:required_by:: bioconductor-debrowser
 .. |downloads_bioconductor-debrowser| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-debrowser.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-debrowser| image:: https://quay.io/repository/biocontainers/bioconductor-debrowser/status
    :target: https://quay.io/repository/biocontainers/bioconductor-debrowser
+.. _`bioconductor-debrowser/tags`: https://quay.io/repository/biocontainers/bioconductor-debrowser?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-debrowser/README.html
-

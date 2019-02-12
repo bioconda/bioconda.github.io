@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pynast'
 .. highlight: bash
-
 
 pynast
 ======
@@ -21,11 +22,15 @@ pynast
 
    |downloads_pynast| |docker_pynast|
 
-   :versions: 1.2.2
-
-   :depends: :conda:package:`cogent` >=1.5.3 :conda:package:`numpy` >=1.5.1 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pynast|
+   :versions: 1.2.2-1, 1.2.2-0
+   
+   :depends cogent: >=1.5.3
+   
+   :depends numpy: >=1.5.1
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pynast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pynast
+      docker pull quay.io/repository/biocontainers/pynast:<tag>
+
+   (see `pynast/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pynast| conda:required_by:: pynast
 .. |downloads_pynast| image:: https://img.shields.io/conda/dn/bioconda/pynast.svg?style=flat
    :alt:   (downloads)
 .. |docker_pynast| image:: https://quay.io/repository/biocontainers/pynast/status
    :target: https://quay.io/repository/biocontainers/pynast
+.. _`pynast/tags`: https://quay.io/repository/biocontainers/pynast?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pynast/README.html
-

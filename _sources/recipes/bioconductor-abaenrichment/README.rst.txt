@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-abaenrichment'
 .. highlight: bash
-
 
 bioconductor-abaenrichment
 ==========================
@@ -22,11 +23,27 @@ bioconductor-abaenrichment
 
    |downloads_bioconductor-abaenrichment| |docker_bioconductor-abaenrichment|
 
-   :versions: 1.12.0, 1.10.0, 1.8.0
-
-   :depends: :conda:package:`bioconductor-abadata` >=1.12.0,<1.13.0 :conda:package:`bioconductor-gofuncr` >=1.2.0,<1.3.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table` >=1.10.4 :conda:package:`r-gplots` >=2.14.2 :conda:package:`r-gtools` >=3.5.0 :conda:package:`r-rcpp` >=0.11.5 
-
-   :required~by: |required_by_bioconductor-abaenrichment|
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0
+   
+   :depends bioconductor-abadata: >=1.12.0,<1.13.0
+   
+   :depends bioconductor-gofuncr: >=1.2.0,<1.3.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: >=1.10.4
+   
+   :depends r-gplots: >=2.14.2
+   
+   :depends r-gtools: >=3.5.0
+   
+   :depends r-rcpp: >=0.11.5
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ bioconductor-abaenrichment
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-abaenrichment
+      docker pull quay.io/repository/biocontainers/bioconductor-abaenrichment:<tag>
+
+   (see `bioconductor-abaenrichment/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-abaenrichment| conda:required_by:: bioconductor-abaenrichment
 .. |downloads_bioconductor-abaenrichment| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-abaenrichment.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-abaenrichment| image:: https://quay.io/repository/biocontainers/bioconductor-abaenrichment/status
    :target: https://quay.io/repository/biocontainers/bioconductor-abaenrichment
+.. _`bioconductor-abaenrichment/tags`: https://quay.io/repository/biocontainers/bioconductor-abaenrichment?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-abaenrichment/README.html
-

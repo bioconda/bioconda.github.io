@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tracer'
 .. highlight: bash
-
 
 tracer
 ======
@@ -22,11 +23,11 @@ tracer
 
    |downloads_tracer| |docker_tracer|
 
-   :versions: 1.7.1, 1.7.0, 1.6.0
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_tracer|
+   :versions: 1.7.1-1, 1.7.0-1, 1.7.0-0, 1.6.0-1, 1.6.0-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ tracer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tracer
+      docker pull quay.io/repository/biocontainers/tracer:<tag>
+
+   (see `tracer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tracer| conda:required_by:: tracer
 .. |downloads_tracer| image:: https://img.shields.io/conda/dn/bioconda/tracer.svg?style=flat
    :alt:   (downloads)
 .. |docker_tracer| image:: https://quay.io/repository/biocontainers/tracer/status
    :target: https://quay.io/repository/biocontainers/tracer
+.. _`tracer/tags`: https://quay.io/repository/biocontainers/tracer?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tracer/README.html
-

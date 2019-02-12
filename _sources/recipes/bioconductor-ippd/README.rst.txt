@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ippd'
 .. highlight: bash
-
 
 bioconductor-ippd
 =================
@@ -22,11 +23,23 @@ bioconductor-ippd
 
    |downloads_bioconductor-ippd| |docker_bioconductor-ippd|
 
-   :versions: 1.30.0, 1.28.0, 1.26.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bitops`  :conda:package:`r-digest`  :conda:package:`r-mass`  :conda:package:`r-matrix`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-ippd|
+   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bitops: 
+   
+   :depends r-digest: 
+   
+   :depends r-mass: 
+   
+   :depends r-matrix: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ bioconductor-ippd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ippd
+      docker pull quay.io/repository/biocontainers/bioconductor-ippd:<tag>
+
+   (see `bioconductor-ippd/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ippd| conda:required_by:: bioconductor-ippd
 .. |downloads_bioconductor-ippd| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ippd.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ippd| image:: https://quay.io/repository/biocontainers/bioconductor-ippd/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ippd
+.. _`bioconductor-ippd/tags`: https://quay.io/repository/biocontainers/bioconductor-ippd?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ippd/README.html
-

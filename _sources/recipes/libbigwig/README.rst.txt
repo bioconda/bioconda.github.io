@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'libbigwig'
 .. highlight: bash
-
 
 libbigwig
 =========
@@ -21,11 +22,15 @@ libbigwig
 
    |downloads_libbigwig| |docker_libbigwig|
 
-   :versions: 0.4.2, 0.4.1, 0.3.0
-
-   :depends: :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_libbigwig|
+   :versions: 0.4.2-0, 0.4.1-2, 0.4.1-1, 0.4.1-0, 0.3.0-0
+   
+   :depends curl: >=7.59.0,<8.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ libbigwig
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libbigwig
+      docker pull quay.io/repository/biocontainers/libbigwig:<tag>
+
+   (see `libbigwig/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_libbigwig| conda:required_by:: libbigwig
 .. |downloads_libbigwig| image:: https://img.shields.io/conda/dn/bioconda/libbigwig.svg?style=flat
    :alt:   (downloads)
 .. |docker_libbigwig| image:: https://quay.io/repository/biocontainers/libbigwig/status
    :target: https://quay.io/repository/biocontainers/libbigwig
+.. _`libbigwig/tags`: https://quay.io/repository/biocontainers/libbigwig?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/libbigwig/README.html
-

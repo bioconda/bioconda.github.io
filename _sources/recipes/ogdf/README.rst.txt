@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ogdf'
 .. highlight: bash
-
 
 ogdf
 ====
@@ -21,11 +22,11 @@ ogdf
 
    |downloads_ogdf| |docker_ogdf|
 
-   :versions: 201207
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_ogdf|
+   :versions: 201207-1, 201207-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ ogdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ogdf
+      docker pull quay.io/repository/biocontainers/ogdf:<tag>
+
+   (see `ogdf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ogdf| conda:required_by:: ogdf
 .. |downloads_ogdf| image:: https://img.shields.io/conda/dn/bioconda/ogdf.svg?style=flat
    :alt:   (downloads)
 .. |docker_ogdf| image:: https://quay.io/repository/biocontainers/ogdf/status
    :target: https://quay.io/repository/biocontainers/ogdf
+.. _`ogdf/tags`: https://quay.io/repository/biocontainers/ogdf?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ogdf/README.html
-

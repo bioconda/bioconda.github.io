@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-msm'
 .. highlight: bash
-
 
 r-msm
 =====
@@ -21,11 +22,19 @@ r-msm
 
    |downloads_r-msm| |docker_r-msm|
 
-   :versions: 1.6.6
-
-   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-expm`  :conda:package:`r-mvtnorm`  :conda:package:`r-survival`  
-
-   :required~by: |required_by_r-msm|
+   :versions: 1.6.6-3, 1.6.6-2, 1.6.6-1, 1.6.6-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-expm: 
+   
+   :depends r-mvtnorm: 
+   
+   :depends r-survival: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ r-msm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-msm
+      docker pull quay.io/repository/biocontainers/r-msm:<tag>
+
+   (see `r-msm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-msm| conda:required_by:: r-msm
 .. |downloads_r-msm| image:: https://img.shields.io/conda/dn/bioconda/r-msm.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-msm| image:: https://quay.io/repository/biocontainers/r-msm/status
    :target: https://quay.io/repository/biocontainers/r-msm
+.. _`r-msm/tags`: https://quay.io/repository/biocontainers/r-msm?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-msm/README.html
-

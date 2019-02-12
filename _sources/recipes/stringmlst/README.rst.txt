@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'stringmlst'
 .. highlight: bash
-
 
 stringmlst
 ==========
@@ -21,11 +22,21 @@ stringmlst
 
    |downloads_stringmlst| |docker_stringmlst|
 
-   :versions: 0.5.1, 0.5.1a, 0.4.2, 0.4.1, 0.4, 0.3.7, 0.3.6.1
-
-   :depends: :conda:package:`bedtools`  :conda:package:`bwa`  :conda:package:`lxml`  :conda:package:`pyfaidx`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`samtools` >=1.0 
-
-   :required~by: |required_by_stringmlst|
+   :versions: 0.5.1-0, 0.5.1a-1, 0.5.1a-0, 0.4.2-0, 0.4.1-0, 0.4-0, 0.3.7-0, 0.3.6.1-0
+   
+   :depends bedtools: 
+   
+   :depends bwa: 
+   
+   :depends lxml: 
+   
+   :depends pyfaidx: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends samtools: >=1.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ stringmlst
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stringmlst
+      docker pull quay.io/repository/biocontainers/stringmlst:<tag>
+
+   (see `stringmlst/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_stringmlst| conda:required_by:: stringmlst
 .. |downloads_stringmlst| image:: https://img.shields.io/conda/dn/bioconda/stringmlst.svg?style=flat
    :alt:   (downloads)
 .. |docker_stringmlst| image:: https://quay.io/repository/biocontainers/stringmlst/status
    :target: https://quay.io/repository/biocontainers/stringmlst
+.. _`stringmlst/tags`: https://quay.io/repository/biocontainers/stringmlst?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/stringmlst/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cellbaser'
 .. highlight: bash
-
 
 bioconductor-cellbaser
 ======================
@@ -21,11 +22,31 @@ bioconductor-cellbaser
 
    |downloads_bioconductor-cellbaser| |docker_bioconductor-cellbaser|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-httr`  :conda:package:`r-jsonlite`  :conda:package:`r-pbapply`  :conda:package:`r-r.utils`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_bioconductor-cellbaser|
+   :versions: 1.6.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-doparallel: 
+   
+   :depends r-foreach: 
+   
+   :depends r-httr: 
+   
+   :depends r-jsonlite: 
+   
+   :depends r-pbapply: 
+   
+   :depends r-r.utils: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ bioconductor-cellbaser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cellbaser
+      docker pull quay.io/repository/biocontainers/bioconductor-cellbaser:<tag>
+
+   (see `bioconductor-cellbaser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cellbaser| conda:required_by:: bioconductor-cellbaser
 .. |downloads_bioconductor-cellbaser| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cellbaser.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cellbaser| image:: https://quay.io/repository/biocontainers/bioconductor-cellbaser/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cellbaser
+.. _`bioconductor-cellbaser/tags`: https://quay.io/repository/biocontainers/bioconductor-cellbaser?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cellbaser/README.html
-

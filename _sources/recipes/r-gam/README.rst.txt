@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-gam'
 .. highlight: bash
-
 
 r-gam
 =====
@@ -21,11 +22,15 @@ r-gam
 
    |downloads_r-gam| |docker_r-gam|
 
-   :versions: 1.14_4, 1.14
-
-   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-foreach`  
-
-   :required~by: |required_by_r-gam|
+   :versions: 1.14_4-0, 1.14-0
+   
+   :depends libgcc: 
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-foreach: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-gam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gam
+      docker pull quay.io/repository/biocontainers/r-gam:<tag>
+
+   (see `r-gam/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-gam| conda:required_by:: r-gam
 .. |downloads_r-gam| image:: https://img.shields.io/conda/dn/bioconda/r-gam.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-gam| image:: https://quay.io/repository/biocontainers/r-gam/status
    :target: https://quay.io/repository/biocontainers/r-gam
+.. _`r-gam/tags`: https://quay.io/repository/biocontainers/r-gam?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-gam/README.html
-

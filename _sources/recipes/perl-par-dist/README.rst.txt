@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-par-dist'
 .. highlight: bash
-
 
 perl-par-dist
 =============
@@ -21,11 +22,15 @@ perl-par-dist
 
    |downloads_perl-par-dist| |docker_perl-par-dist|
 
-   :versions: 0.49
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-file-find`  :conda:package:`perl-file-path`  
-
-   :required~by: |required_by_perl-par-dist|
+   :versions: 0.49-1, 0.49-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-file-find: 
+   
+   :depends perl-file-path: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-par-dist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-par-dist
+      docker pull quay.io/repository/biocontainers/perl-par-dist:<tag>
+
+   (see `perl-par-dist/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-par-dist| conda:required_by:: perl-par-dist
 .. |downloads_perl-par-dist| image:: https://img.shields.io/conda/dn/bioconda/perl-par-dist.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-par-dist| image:: https://quay.io/repository/biocontainers/perl-par-dist/status
    :target: https://quay.io/repository/biocontainers/perl-par-dist
+.. _`perl-par-dist/tags`: https://quay.io/repository/biocontainers/perl-par-dist?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-par-dist/README.html
-

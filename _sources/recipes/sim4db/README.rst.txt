@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'sim4db'
 .. highlight: bash
-
 
 sim4db
 ======
@@ -21,11 +22,11 @@ sim4db
 
    |downloads_sim4db| |docker_sim4db|
 
-   :versions: 2008
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_sim4db|
+   :versions: 2008-0
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ sim4db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sim4db
+      docker pull quay.io/repository/biocontainers/sim4db:<tag>
+
+   (see `sim4db/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_sim4db| conda:required_by:: sim4db
 .. |downloads_sim4db| image:: https://img.shields.io/conda/dn/bioconda/sim4db.svg?style=flat
    :alt:   (downloads)
 .. |docker_sim4db| image:: https://quay.io/repository/biocontainers/sim4db/status
    :target: https://quay.io/repository/biocontainers/sim4db
+.. _`sim4db/tags`: https://quay.io/repository/biocontainers/sim4db?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/sim4db/README.html
-

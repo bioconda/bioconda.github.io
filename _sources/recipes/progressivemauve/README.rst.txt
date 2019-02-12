@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'progressivemauve'
 .. highlight: bash
-
 
 progressivemauve
 ================
@@ -21,11 +22,9 @@ progressivemauve
 
    |downloads_progressivemauve| |docker_progressivemauve|
 
-   :versions: snapshot_2015_02_13
-
-   :depends: 
-
-   :required~by: |required_by_progressivemauve|
+   :versions: snapshot_2015_02_13-1, snapshot_2015_02_13-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ progressivemauve
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/progressivemauve
+      docker pull quay.io/repository/biocontainers/progressivemauve:<tag>
+
+   (see `progressivemauve/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_progressivemauve| conda:required_by:: progressivemauve
 .. |downloads_progressivemauve| image:: https://img.shields.io/conda/dn/bioconda/progressivemauve.svg?style=flat
    :alt:   (downloads)
 .. |docker_progressivemauve| image:: https://quay.io/repository/biocontainers/progressivemauve/status
    :target: https://quay.io/repository/biocontainers/progressivemauve
+.. _`progressivemauve/tags`: https://quay.io/repository/biocontainers/progressivemauve?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/progressivemauve/README.html
-

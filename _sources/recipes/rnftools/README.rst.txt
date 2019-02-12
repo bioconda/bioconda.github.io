@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rnftools'
 .. highlight: bash
-
 
 rnftools
 ========
@@ -21,11 +22,39 @@ rnftools
 
    |downloads_rnftools| |docker_rnftools|
 
-   :versions: 0.3.1.3, 0.3.1.2, 0.3.1.1, 0.3.1.0, 0.3.0.2
-
-   :depends: :conda:package:`art`  :conda:package:`beautifulsoup4`  :conda:package:`bwa`  :conda:package:`curesim`  :conda:package:`dwgsim`  :conda:package:`gnuplot` >=5.0 :conda:package:`mason`  :conda:package:`pyfaidx`  :conda:package:`pysam`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`reportlab` 3.3.0 :conda:package:`samtools`  :conda:package:`snakemake-minimal`  :conda:package:`svg42pdf` >=0.2.2 :conda:package:`wgsim`  
-
-   :required~by: |required_by_rnftools|
+   :versions: 0.3.1.3-0, 0.3.1.2-2, 0.3.1.2-1, 0.3.1.1-2, 0.3.1.1-1, 0.3.1.0-2, 0.3.1.0-1, 0.3.0.2-2, 0.3.0.2-1, 0.3.0.2-0
+   
+   :depends art: 
+   
+   :depends beautifulsoup4: 
+   
+   :depends bwa: 
+   
+   :depends curesim: 
+   
+   :depends dwgsim: 
+   
+   :depends gnuplot: >=5.0
+   
+   :depends mason: 
+   
+   :depends pyfaidx: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :depends reportlab: 3.3.0
+   
+   :depends samtools: 
+   
+   :depends snakemake-minimal: 
+   
+   :depends svg42pdf: >=0.2.2
+   
+   :depends wgsim: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +68,16 @@ rnftools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnftools
+      docker pull quay.io/repository/biocontainers/rnftools:<tag>
+
+   (see `rnftools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rnftools| conda:required_by:: rnftools
 .. |downloads_rnftools| image:: https://img.shields.io/conda/dn/bioconda/rnftools.svg?style=flat
    :alt:   (downloads)
 .. |docker_rnftools| image:: https://quay.io/repository/biocontainers/rnftools/status
    :target: https://quay.io/repository/biocontainers/rnftools
+.. _`rnftools/tags`: https://quay.io/repository/biocontainers/rnftools?tab=tags
 
 
 
@@ -63,4 +94,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rnftools/README.html
-

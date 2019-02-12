@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-pod-checker'
 .. highlight: bash
-
 
 perl-pod-checker
 ================
@@ -21,11 +22,11 @@ perl-pod-checker
 
    |downloads_perl-pod-checker| |docker_perl-pod-checker|
 
-   :versions: 1.60
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-pod-checker|
+   :versions: 1.60-0
+   
+   :depends perl: 5.22.0*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-pod-checker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pod-checker
+      docker pull quay.io/repository/biocontainers/perl-pod-checker:<tag>
+
+   (see `perl-pod-checker/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-pod-checker| conda:required_by:: perl-pod-checker
 .. |downloads_perl-pod-checker| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-checker.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-pod-checker| image:: https://quay.io/repository/biocontainers/perl-pod-checker/status
    :target: https://quay.io/repository/biocontainers/perl-pod-checker
+.. _`perl-pod-checker/tags`: https://quay.io/repository/biocontainers/perl-pod-checker?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-pod-checker/README.html
-

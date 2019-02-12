@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'icount'
 .. highlight: bash
-
 
 icount
 ======
@@ -21,11 +22,31 @@ icount
 
    |downloads_icount| |docker_icount|
 
-   :versions: 2.0.0
-
-   :depends: :conda:package:`bedtools` >=2.26.0 :conda:package:`cutadapt` >=1.10 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`numpydoc`  :conda:package:`pandas`  :conda:package:`pybedtools`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`sphinx` >=1.4 :conda:package:`star`  
-
-   :required~by: |required_by_icount|
+   :versions: 2.0.0-0
+   
+   :depends bedtools: >=2.26.0
+   
+   :depends cutadapt: >=1.10
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends numpydoc: 
+   
+   :depends pandas: 
+   
+   :depends pybedtools: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends sphinx: >=1.4
+   
+   :depends star: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ icount
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/icount
+      docker pull quay.io/repository/biocontainers/icount:<tag>
+
+   (see `icount/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_icount| conda:required_by:: icount
 .. |downloads_icount| image:: https://img.shields.io/conda/dn/bioconda/icount.svg?style=flat
    :alt:   (downloads)
 .. |docker_icount| image:: https://quay.io/repository/biocontainers/icount/status
    :target: https://quay.io/repository/biocontainers/icount
+.. _`icount/tags`: https://quay.io/repository/biocontainers/icount?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/icount/README.html
-

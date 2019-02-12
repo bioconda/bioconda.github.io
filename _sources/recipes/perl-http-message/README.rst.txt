@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-http-message'
 .. highlight: bash
-
 
 perl-http-message
 =================
@@ -21,11 +22,35 @@ perl-http-message
 
    |downloads_perl-http-message| |docker_perl-http-message|
 
-   :versions: 6.18, 6.11
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-base`  :conda:package:`perl-carp`  :conda:package:`perl-compress-raw-zlib`  :conda:package:`perl-encode`  :conda:package:`perl-encode-locale`  :conda:package:`perl-exporter`  :conda:package:`perl-http-date`  :conda:package:`perl-io-html`  :conda:package:`perl-lwp-mediatypes`  :conda:package:`perl-mime-base64`  :conda:package:`perl-storable`  :conda:package:`perl-uri`  
-
-   :required~by: |required_by_perl-http-message|
+   :versions: 6.18-0, 6.11-1, 6.11-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-base: 
+   
+   :depends perl-carp: 
+   
+   :depends perl-compress-raw-zlib: 
+   
+   :depends perl-encode: 
+   
+   :depends perl-encode-locale: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-http-date: 
+   
+   :depends perl-io-html: 
+   
+   :depends perl-lwp-mediatypes: 
+   
+   :depends perl-mime-base64: 
+   
+   :depends perl-storable: 
+   
+   :depends perl-uri: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ perl-http-message
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-http-message
+      docker pull quay.io/repository/biocontainers/perl-http-message:<tag>
+
+   (see `perl-http-message/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-http-message| conda:required_by:: perl-http-message
 .. |downloads_perl-http-message| image:: https://img.shields.io/conda/dn/bioconda/perl-http-message.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-http-message| image:: https://quay.io/repository/biocontainers/perl-http-message/status
    :target: https://quay.io/repository/biocontainers/perl-http-message
+.. _`perl-http-message/tags`: https://quay.io/repository/biocontainers/perl-http-message?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-http-message/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-extutils-constant'
 .. highlight: bash
-
 
 perl-extutils-constant
 ======================
@@ -21,11 +22,11 @@ perl-extutils-constant
 
    |downloads_perl-extutils-constant| |docker_perl-extutils-constant|
 
-   :versions: 0.24
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-extutils-constant|
+   :versions: 0.24-1, 0.24-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-extutils-constant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-extutils-constant
+      docker pull quay.io/repository/biocontainers/perl-extutils-constant:<tag>
+
+   (see `perl-extutils-constant/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-extutils-constant| conda:required_by:: perl-extutils-constant
 .. |downloads_perl-extutils-constant| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-constant.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-extutils-constant| image:: https://quay.io/repository/biocontainers/perl-extutils-constant/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-constant
+.. _`perl-extutils-constant/tags`: https://quay.io/repository/biocontainers/perl-extutils-constant?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-extutils-constant/README.html
-

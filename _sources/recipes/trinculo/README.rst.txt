@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'trinculo'
 .. highlight: bash
-
 
 trinculo
 ========
@@ -24,11 +25,13 @@ trinculo
 
    |downloads_trinculo| |docker_trinculo|
 
-   :versions: 0.96
-
-   :depends: :conda:package:`lapack`  :conda:package:`libgcc`  
-
-   :required~by: |required_by_trinculo|
+   :versions: 0.96-2, 0.96-0
+   
+   :depends lapack: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +45,16 @@ trinculo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trinculo
+      docker pull quay.io/repository/biocontainers/trinculo:<tag>
+
+   (see `trinculo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_trinculo| conda:required_by:: trinculo
 .. |downloads_trinculo| image:: https://img.shields.io/conda/dn/bioconda/trinculo.svg?style=flat
    :alt:   (downloads)
 .. |docker_trinculo| image:: https://quay.io/repository/biocontainers/trinculo/status
    :target: https://quay.io/repository/biocontainers/trinculo
+.. _`trinculo/tags`: https://quay.io/repository/biocontainers/trinculo?tab=tags
 
 
 
@@ -66,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/trinculo/README.html
-

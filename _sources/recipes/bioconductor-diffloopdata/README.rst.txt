@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-diffloopdata'
 .. highlight: bash
-
 
 bioconductor-diffloopdata
 =========================
@@ -21,11 +22,13 @@ bioconductor-diffloopdata
 
    |downloads_bioconductor-diffloopdata| |docker_bioconductor-diffloopdata|
 
-   :versions: 1.10.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-diffloopdata|
+   :versions: 1.10.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-diffloopdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-diffloopdata
+      docker pull quay.io/repository/biocontainers/bioconductor-diffloopdata:<tag>
+
+   (see `bioconductor-diffloopdata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-diffloopdata| conda:required_by:: bioconductor-diffloopdata
 .. |downloads_bioconductor-diffloopdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-diffloopdata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-diffloopdata| image:: https://quay.io/repository/biocontainers/bioconductor-diffloopdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-diffloopdata
+.. _`bioconductor-diffloopdata/tags`: https://quay.io/repository/biocontainers/bioconductor-diffloopdata?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-diffloopdata/README.html
-

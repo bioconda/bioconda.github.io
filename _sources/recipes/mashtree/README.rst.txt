@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mashtree'
 .. highlight: bash
-
 
 mashtree
 ========
@@ -21,11 +22,23 @@ mashtree
 
    |downloads_mashtree| |docker_mashtree|
 
-   :versions: 0.37, 0.36, 0.35.4, 0.30, 0.28, 0.26, 0.25, 0.21, 0.20, 0.12
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`mash` >=1.1 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bioperl` >=1.7.2 :conda:package:`perl-dbd-sqlite` >=1.58 :conda:package:`quicktree`  :conda:package:`sqlite` >=3.26.0,<4.0a0 
-
-   :required~by: |required_by_mashtree|
+   :versions: 0.37-0, 0.36-0, 0.35.4-0, 0.30-2, 0.30-0, 0.28-0, 0.26-0, 0.25-0, 0.21-0, 0.20-0, 0.12-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends mash: >=1.1
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bioperl: >=1.7.2
+   
+   :depends perl-dbd-sqlite: >=1.58
+   
+   :depends quicktree: 
+   
+   :depends sqlite: >=3.26.0,<4.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ mashtree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mashtree
+      docker pull quay.io/repository/biocontainers/mashtree:<tag>
+
+   (see `mashtree/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mashtree| conda:required_by:: mashtree
 .. |downloads_mashtree| image:: https://img.shields.io/conda/dn/bioconda/mashtree.svg?style=flat
    :alt:   (downloads)
 .. |docker_mashtree| image:: https://quay.io/repository/biocontainers/mashtree/status
    :target: https://quay.io/repository/biocontainers/mashtree
+.. _`mashtree/tags`: https://quay.io/repository/biocontainers/mashtree?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mashtree/README.html
-

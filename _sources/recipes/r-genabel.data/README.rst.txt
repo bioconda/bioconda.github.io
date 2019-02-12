@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-genabel.data'
 .. highlight: bash
-
 
 r-genabel.data
 ==============
@@ -21,11 +22,11 @@ r-genabel.data
 
    |downloads_r-genabel.data| |docker_r-genabel.data|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_r-genabel.data|
+   :versions: 1.0.0-0
+   
+   :depends r: 3.3.1*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-genabel.data
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-genabel.data
+      docker pull quay.io/repository/biocontainers/r-genabel.data:<tag>
+
+   (see `r-genabel.data/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-genabel.data| conda:required_by:: r-genabel.data
 .. |downloads_r-genabel.data| image:: https://img.shields.io/conda/dn/bioconda/r-genabel.data.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-genabel.data| image:: https://quay.io/repository/biocontainers/r-genabel.data/status
    :target: https://quay.io/repository/biocontainers/r-genabel.data
+.. _`r-genabel.data/tags`: https://quay.io/repository/biocontainers/r-genabel.data?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-genabel.data/README.html
-

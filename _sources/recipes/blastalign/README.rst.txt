@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'blastalign'
 .. highlight: bash
-
 
 blastalign
 ==========
@@ -21,11 +22,15 @@ blastalign
 
    |downloads_blastalign| |docker_blastalign|
 
-   :versions: 1.4
-
-   :depends: :conda:package:`blast-legacy`  :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_blastalign|
+   :versions: 1.4-4, 1.4-3, 1.4-2, 1.4-1, 1.4-0
+   
+   :depends blast-legacy: 
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ blastalign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/blastalign
+      docker pull quay.io/repository/biocontainers/blastalign:<tag>
+
+   (see `blastalign/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_blastalign| conda:required_by:: blastalign
 .. |downloads_blastalign| image:: https://img.shields.io/conda/dn/bioconda/blastalign.svg?style=flat
    :alt:   (downloads)
 .. |docker_blastalign| image:: https://quay.io/repository/biocontainers/blastalign/status
    :target: https://quay.io/repository/biocontainers/blastalign
+.. _`blastalign/tags`: https://quay.io/repository/biocontainers/blastalign?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/blastalign/README.html
-

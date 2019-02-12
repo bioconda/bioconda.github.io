@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'smeg'
 .. highlight: bash
-
 
 smeg
 ====
@@ -21,11 +22,49 @@ smeg
 
    |downloads_smeg| |docker_smeg|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`bamtools`  :conda:package:`bowtie2`  :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`mauve`  :conda:package:`parallel`  :conda:package:`prokka`  :conda:package:`r-ape`  :conda:package:`r-data.table`  :conda:package:`r-dplyr`  :conda:package:`r-dynamictreecut`  :conda:package:`r-getopt`  :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-gsubfn`  :conda:package:`r-wgcna`  :conda:package:`readline` >=6.2 :conda:package:`roary` 3.12.0.* :conda:package:`samtools` >=1.5 :conda:package:`subread`  
-
-   :required~by: |required_by_smeg|
+   :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0
+   
+   :depends bamtools: 
+   
+   :depends bowtie2: 
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends mauve: 
+   
+   :depends parallel: 
+   
+   :depends perl-file-find-rule: 0.34 2
+   
+   :depends prokka: 
+   
+   :depends r-ape: 
+   
+   :depends r-data.table: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-dynamictreecut: 
+   
+   :depends r-getopt: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-gsubfn: 
+   
+   :depends r-wgcna: 
+   
+   :depends readline: >=6.2
+   
+   :depends roary: 3.12.0 pl5.22.0_0
+   
+   :depends samtools: 1.8.*
+   
+   :depends subread: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +78,16 @@ smeg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/smeg
+      docker pull quay.io/repository/biocontainers/smeg:<tag>
+
+   (see `smeg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_smeg| conda:required_by:: smeg
 .. |downloads_smeg| image:: https://img.shields.io/conda/dn/bioconda/smeg.svg?style=flat
    :alt:   (downloads)
 .. |docker_smeg| image:: https://quay.io/repository/biocontainers/smeg/status
    :target: https://quay.io/repository/biocontainers/smeg
+.. _`smeg/tags`: https://quay.io/repository/biocontainers/smeg?tab=tags
 
 
 
@@ -63,4 +104,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/smeg/README.html
-

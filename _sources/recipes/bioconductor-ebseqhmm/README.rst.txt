@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ebseqhmm'
 .. highlight: bash
-
 
 bioconductor-ebseqhmm
 =====================
@@ -21,11 +22,13 @@ bioconductor-ebseqhmm
 
    |downloads_bioconductor-ebseqhmm| |docker_bioconductor-ebseqhmm|
 
-   :versions: 1.16.0
-
-   :depends: :conda:package:`bioconductor-ebseq` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-ebseqhmm|
+   :versions: 1.16.0-0
+   
+   :depends bioconductor-ebseq: >=1.22.0,<1.23.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-ebseqhmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ebseqhmm
+      docker pull quay.io/repository/biocontainers/bioconductor-ebseqhmm:<tag>
+
+   (see `bioconductor-ebseqhmm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ebseqhmm| conda:required_by:: bioconductor-ebseqhmm
 .. |downloads_bioconductor-ebseqhmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ebseqhmm.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ebseqhmm| image:: https://quay.io/repository/biocontainers/bioconductor-ebseqhmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ebseqhmm
+.. _`bioconductor-ebseqhmm/tags`: https://quay.io/repository/biocontainers/bioconductor-ebseqhmm?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ebseqhmm/README.html
-

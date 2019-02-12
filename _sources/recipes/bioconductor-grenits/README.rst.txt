@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-grenits'
 .. highlight: bash
-
 
 bioconductor-grenits
 ====================
@@ -21,11 +22,23 @@ bioconductor-grenits
 
    |downloads_bioconductor-grenits| |docker_bioconductor-grenits|
 
-   :versions: 1.34.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2` >=0.9.0 :conda:package:`r-rcpp` >=0.8.6 :conda:package:`r-rcpparmadillo` >=0.2.8 :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-grenits|
+   :versions: 1.34.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: >=0.9.0
+   
+   :depends r-rcpp: >=0.8.6
+   
+   :depends r-rcpparmadillo: >=0.2.8
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-grenits
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-grenits
+      docker pull quay.io/repository/biocontainers/bioconductor-grenits:<tag>
+
+   (see `bioconductor-grenits/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-grenits| conda:required_by:: bioconductor-grenits
 .. |downloads_bioconductor-grenits| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-grenits.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-grenits| image:: https://quay.io/repository/biocontainers/bioconductor-grenits/status
    :target: https://quay.io/repository/biocontainers/bioconductor-grenits
+.. _`bioconductor-grenits/tags`: https://quay.io/repository/biocontainers/bioconductor-grenits?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-grenits/README.html
-

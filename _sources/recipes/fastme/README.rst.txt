@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fastme'
 .. highlight: bash
-
 
 fastme
 ======
@@ -22,11 +23,11 @@ fastme
 
    |downloads_fastme| |docker_fastme|
 
-   :versions: 2.1.5
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_fastme|
+   :versions: 2.1.5-0
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ fastme
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastme
+      docker pull quay.io/repository/biocontainers/fastme:<tag>
+
+   (see `fastme/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fastme| conda:required_by:: fastme
 .. |downloads_fastme| image:: https://img.shields.io/conda/dn/bioconda/fastme.svg?style=flat
    :alt:   (downloads)
 .. |docker_fastme| image:: https://quay.io/repository/biocontainers/fastme/status
    :target: https://quay.io/repository/biocontainers/fastme
+.. _`fastme/tags`: https://quay.io/repository/biocontainers/fastme?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fastme/README.html
-

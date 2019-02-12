@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-scater-scripts'
 .. highlight: bash
-
 
 bioconductor-scater-scripts
 ===========================
@@ -21,11 +22,23 @@ bioconductor-scater-scripts
 
    |downloads_bioconductor-scater-scripts| |docker_bioconductor-scater-scripts|
 
-   :versions: 0.0.4, 0.0.3, 0.0.2
-
-   :depends: :conda:package:`bioconductor-biobase`  :conda:package:`bioconductor-scater` 1.8.4.* :conda:package:`bioconductor-singlecellexperiment-scripts`  :conda:package:`r-base` 3.5.1.* :conda:package:`r-optparse`  :conda:package:`r-rtsne`  :conda:package:`r-workflowscriptscommon`  
-
-   :required~by: |required_by_bioconductor-scater-scripts|
+   :versions: 0.0.4-0, 0.0.3-1, 0.0.3-0, 0.0.2-0
+   
+   :depends bioconductor-biobase: 
+   
+   :depends bioconductor-scater: 1.8.4.*
+   
+   :depends bioconductor-singlecellexperiment-scripts: 
+   
+   :depends r-base: 3.5.1.*
+   
+   :depends r-optparse: 
+   
+   :depends r-rtsne: 
+   
+   :depends r-workflowscriptscommon: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-scater-scripts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scater-scripts
+      docker pull quay.io/repository/biocontainers/bioconductor-scater-scripts:<tag>
+
+   (see `bioconductor-scater-scripts/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-scater-scripts| conda:required_by:: bioconductor-scater-scripts
 .. |downloads_bioconductor-scater-scripts| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scater-scripts.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-scater-scripts| image:: https://quay.io/repository/biocontainers/bioconductor-scater-scripts/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scater-scripts
+.. _`bioconductor-scater-scripts/tags`: https://quay.io/repository/biocontainers/bioconductor-scater-scripts?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-scater-scripts/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-ngsplotdb-hg38'
 .. highlight: bash
-
 
 r-ngsplotdb-hg38
 ================
@@ -21,11 +22,17 @@ r-ngsplotdb-hg38
 
    |downloads_r-ngsplotdb-hg38| |docker_r-ngsplotdb-hg38|
 
-   :versions: 3.00
-
-   :depends: :conda:package:`r-base`  :conda:package:`r-ngsplot`  :conda:package:`wget`  
-
-   :required~by: |required_by_r-ngsplotdb-hg38|
+   :versions: 3.00-5, 3.00-2, 3.00-1
+   
+   :depends python: <3.0a0
+   
+   :depends r-base: 
+   
+   :depends r-ngsplot: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-ngsplotdb-hg38
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ngsplotdb-hg38
+      docker pull quay.io/repository/biocontainers/r-ngsplotdb-hg38:<tag>
+
+   (see `r-ngsplotdb-hg38/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-ngsplotdb-hg38| conda:required_by:: r-ngsplotdb-hg38
 .. |downloads_r-ngsplotdb-hg38| image:: https://img.shields.io/conda/dn/bioconda/r-ngsplotdb-hg38.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-ngsplotdb-hg38| image:: https://quay.io/repository/biocontainers/r-ngsplotdb-hg38/status
    :target: https://quay.io/repository/biocontainers/r-ngsplotdb-hg38
+.. _`r-ngsplotdb-hg38/tags`: https://quay.io/repository/biocontainers/r-ngsplotdb-hg38?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-ngsplotdb-hg38/README.html
-

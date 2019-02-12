@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'eoulsan'
 .. highlight: bash
-
 
 eoulsan
 =======
@@ -22,11 +23,11 @@ eoulsan
 
    |downloads_eoulsan| |docker_eoulsan|
 
-   :versions: 2.3, 2.2, 2.0_beta4
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_eoulsan|
+   :versions: 2.3-0, 2.2-0, 2.0_beta4-1
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ eoulsan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/eoulsan
+      docker pull quay.io/repository/biocontainers/eoulsan:<tag>
+
+   (see `eoulsan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_eoulsan| conda:required_by:: eoulsan
 .. |downloads_eoulsan| image:: https://img.shields.io/conda/dn/bioconda/eoulsan.svg?style=flat
    :alt:   (downloads)
 .. |docker_eoulsan| image:: https://quay.io/repository/biocontainers/eoulsan/status
    :target: https://quay.io/repository/biocontainers/eoulsan
+.. _`eoulsan/tags`: https://quay.io/repository/biocontainers/eoulsan?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/eoulsan/README.html
-

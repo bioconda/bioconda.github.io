@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'soapsplice'
 .. highlight: bash
-
 
 soapsplice
 ==========
@@ -22,11 +23,11 @@ soapsplice
 
    |downloads_soapsplice| |docker_soapsplice|
 
-   :versions: 1.10
-
-   :depends: :conda:package:`zlib`  
-
-   :required~by: |required_by_soapsplice|
+   :versions: 1.10-2, 1.10-1, 1.10-0
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ soapsplice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/soapsplice
+      docker pull quay.io/repository/biocontainers/soapsplice:<tag>
+
+   (see `soapsplice/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_soapsplice| conda:required_by:: soapsplice
 .. |downloads_soapsplice| image:: https://img.shields.io/conda/dn/bioconda/soapsplice.svg?style=flat
    :alt:   (downloads)
 .. |docker_soapsplice| image:: https://quay.io/repository/biocontainers/soapsplice/status
    :target: https://quay.io/repository/biocontainers/soapsplice
+.. _`soapsplice/tags`: https://quay.io/repository/biocontainers/soapsplice?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/soapsplice/README.html
-

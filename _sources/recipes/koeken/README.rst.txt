@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'koeken'
 .. highlight: bash
-
 
 koeken
 ======
@@ -21,11 +22,39 @@ koeken
 
    |downloads_koeken| |docker_koeken|
 
-   :versions: 0.2.6
-
-   :depends: :conda:package:`biopython`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`qiime`  :conda:package:`r-coin`  :conda:package:`r-gtools`  :conda:package:`r-klar`  :conda:package:`r-mass`  :conda:package:`r-modeltools`  :conda:package:`r-mvtnorm`  :conda:package:`r-optparse`  :conda:package:`r-survival`  :conda:package:`rpy2`  
-
-   :required~by: |required_by_koeken|
+   :versions: 0.2.6-1, 0.2.6-0
+   
+   :depends biopython: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends qiime: 
+   
+   :depends r-coin: 
+   
+   :depends r-gtools: 
+   
+   :depends r-klar: 
+   
+   :depends r-mass: 
+   
+   :depends r-modeltools: 
+   
+   :depends r-mvtnorm: 
+   
+   :depends r-optparse: 
+   
+   :depends r-survival: 
+   
+   :depends rpy2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +68,16 @@ koeken
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/koeken
+      docker pull quay.io/repository/biocontainers/koeken:<tag>
+
+   (see `koeken/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_koeken| conda:required_by:: koeken
 .. |downloads_koeken| image:: https://img.shields.io/conda/dn/bioconda/koeken.svg?style=flat
    :alt:   (downloads)
 .. |docker_koeken| image:: https://quay.io/repository/biocontainers/koeken/status
    :target: https://quay.io/repository/biocontainers/koeken
+.. _`koeken/tags`: https://quay.io/repository/biocontainers/koeken?tab=tags
 
 
 
@@ -63,4 +94,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/koeken/README.html
-

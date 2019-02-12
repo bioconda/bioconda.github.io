@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-tdaracne'
 .. highlight: bash
-
 
 bioconductor-tdaracne
 =====================
@@ -22,11 +23,17 @@ bioconductor-tdaracne
 
    |downloads_bioconductor-tdaracne| |docker_bioconductor-tdaracne|
 
-   :versions: 1.32.0, 1.30.0, 1.28.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-genkern`  
-
-   :required~by: |required_by_bioconductor-tdaracne|
+   :versions: 1.32.0-0, 1.30.0-0, 1.28.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-genkern: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-tdaracne
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tdaracne
+      docker pull quay.io/repository/biocontainers/bioconductor-tdaracne:<tag>
+
+   (see `bioconductor-tdaracne/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-tdaracne| conda:required_by:: bioconductor-tdaracne
 .. |downloads_bioconductor-tdaracne| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tdaracne.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-tdaracne| image:: https://quay.io/repository/biocontainers/bioconductor-tdaracne/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tdaracne
+.. _`bioconductor-tdaracne/tags`: https://quay.io/repository/biocontainers/bioconductor-tdaracne?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-tdaracne/README.html
-

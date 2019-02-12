@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-importer'
 .. highlight: bash
-
 
 perl-importer
 =============
@@ -21,11 +22,11 @@ perl-importer
 
    |downloads_perl-importer| |docker_perl-importer|
 
-   :versions: 0.025, 0.024
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-importer|
+   :versions: 0.025-0, 0.024-1, 0.024-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-importer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-importer
+      docker pull quay.io/repository/biocontainers/perl-importer:<tag>
+
+   (see `perl-importer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-importer| conda:required_by:: perl-importer
 .. |downloads_perl-importer| image:: https://img.shields.io/conda/dn/bioconda/perl-importer.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-importer| image:: https://quay.io/repository/biocontainers/perl-importer/status
    :target: https://quay.io/repository/biocontainers/perl-importer
+.. _`perl-importer/tags`: https://quay.io/repository/biocontainers/perl-importer?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-importer/README.html
-

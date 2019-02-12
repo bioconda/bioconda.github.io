@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-exomedepth'
 .. highlight: bash
-
 
 r-exomedepth
 ============
@@ -21,11 +22,31 @@ r-exomedepth
 
    |downloads_r-exomedepth| |docker_r-exomedepth|
 
-   :versions: 1.1.10
-
-   :depends: :conda:package:`bioconductor-biostrings`  :conda:package:`bioconductor-genomicalignments`  :conda:package:`bioconductor-genomicranges` >=1.23.0 :conda:package:`bioconductor-iranges`  :conda:package:`bioconductor-rsamtools`  :conda:package:`libgcc`  :conda:package:`r` 3.3.1* :conda:package:`r-aod`  :conda:package:`r-vgam` >=0.8.4 
-
-   :required~by: |required_by_r-exomedepth|
+   :versions: 1.1.10-4, 1.1.10-3, 1.1.10-2, 1.1.10-0
+   
+   :depends bioconductor-biostrings: 
+   
+   :depends bioconductor-genomicalignments: 
+   
+   :depends bioconductor-genomicranges: 
+   
+   :depends bioconductor-iranges: 
+   
+   :depends bioconductor-rsamtools: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libgfortran-ng: >=7,<8.0a0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-aod: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-vgam: >=0.8.4
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ r-exomedepth
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-exomedepth
+      docker pull quay.io/repository/biocontainers/r-exomedepth:<tag>
+
+   (see `r-exomedepth/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-exomedepth| conda:required_by:: r-exomedepth
 .. |downloads_r-exomedepth| image:: https://img.shields.io/conda/dn/bioconda/r-exomedepth.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-exomedepth| image:: https://quay.io/repository/biocontainers/r-exomedepth/status
    :target: https://quay.io/repository/biocontainers/r-exomedepth
+.. _`r-exomedepth/tags`: https://quay.io/repository/biocontainers/r-exomedepth?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-exomedepth/README.html
-

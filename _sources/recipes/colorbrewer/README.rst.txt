@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'colorbrewer'
 .. highlight: bash
-
 
 colorbrewer
 ===========
@@ -21,11 +22,13 @@ colorbrewer
 
    |downloads_colorbrewer| |docker_colorbrewer|
 
-   :versions: 0.2, 0.1.1
-
-   :depends: :conda:package:`python`  :conda:package:`six`  
-
-   :required~by: |required_by_colorbrewer|
+   :versions: 0.2-0, 0.1.1-2, 0.1.1-1
+   
+   :depends python: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ colorbrewer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/colorbrewer
+      docker pull quay.io/repository/biocontainers/colorbrewer:<tag>
+
+   (see `colorbrewer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_colorbrewer| conda:required_by:: colorbrewer
 .. |downloads_colorbrewer| image:: https://img.shields.io/conda/dn/bioconda/colorbrewer.svg?style=flat
    :alt:   (downloads)
 .. |docker_colorbrewer| image:: https://quay.io/repository/biocontainers/colorbrewer/status
    :target: https://quay.io/repository/biocontainers/colorbrewer
+.. _`colorbrewer/tags`: https://quay.io/repository/biocontainers/colorbrewer?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/colorbrewer/README.html
-

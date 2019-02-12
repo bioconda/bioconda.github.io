@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bwise'
 .. highlight: bash
-
 
 bwise
 =====
@@ -22,10 +23,8 @@ bwise
    |downloads_bwise| |docker_bwise|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bwise|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bwise
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bwise
+      docker pull quay.io/repository/biocontainers/bwise:<tag>
+
+   (see `bwise/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bwise| conda:required_by:: bwise
 .. |downloads_bwise| image:: https://img.shields.io/conda/dn/bioconda/bwise.svg?style=flat
    :alt:   (downloads)
 .. |docker_bwise| image:: https://quay.io/repository/biocontainers/bwise/status
    :target: https://quay.io/repository/biocontainers/bwise
+.. _`bwise/tags`: https://quay.io/repository/biocontainers/bwise?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bwise/README.html
-

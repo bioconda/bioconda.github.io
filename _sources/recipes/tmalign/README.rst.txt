@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tmalign'
 .. highlight: bash
-
 
 tmalign
 =======
@@ -22,11 +23,11 @@ tmalign
 
    |downloads_tmalign| |docker_tmalign|
 
-   :versions: 20170708
-
-   :depends: :conda:package:`libgfortran` >=3.0 
-
-   :required~by: |required_by_tmalign|
+   :versions: 20170708-0
+   
+   :depends libgfortran: >=3.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ tmalign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tmalign
+      docker pull quay.io/repository/biocontainers/tmalign:<tag>
+
+   (see `tmalign/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tmalign| conda:required_by:: tmalign
 .. |downloads_tmalign| image:: https://img.shields.io/conda/dn/bioconda/tmalign.svg?style=flat
    :alt:   (downloads)
 .. |docker_tmalign| image:: https://quay.io/repository/biocontainers/tmalign/status
    :target: https://quay.io/repository/biocontainers/tmalign
+.. _`tmalign/tags`: https://quay.io/repository/biocontainers/tmalign?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tmalign/README.html
-

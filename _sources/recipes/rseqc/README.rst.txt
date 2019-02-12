@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rseqc'
 .. highlight: bash
-
 
 rseqc
 =====
@@ -22,11 +23,25 @@ rseqc
 
    |downloads_rseqc| |docker_rseqc|
 
-   :versions: 3.0.0, 2.6.4, 2.6.2
-
-   :depends: :conda:package:`bx-python`  :conda:package:`cython` >=0.17 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`r-base`  
-
-   :required~by: |required_by_rseqc|
+   :versions: 3.0.0-0, 2.6.4-2, 2.6.4-1, 2.6.4-0, 2.6.2-0
+   
+   :depends bx-python: 
+   
+   :depends cython: >=0.17
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends numpy: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends r-base: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ rseqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rseqc
+      docker pull quay.io/repository/biocontainers/rseqc:<tag>
+
+   (see `rseqc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rseqc| conda:required_by:: rseqc
 .. |downloads_rseqc| image:: https://img.shields.io/conda/dn/bioconda/rseqc.svg?style=flat
    :alt:   (downloads)
 .. |docker_rseqc| image:: https://quay.io/repository/biocontainers/rseqc/status
    :target: https://quay.io/repository/biocontainers/rseqc
+.. _`rseqc/tags`: https://quay.io/repository/biocontainers/rseqc?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rseqc/README.html
-

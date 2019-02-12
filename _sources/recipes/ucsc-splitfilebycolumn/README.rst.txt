@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ucsc-splitfilebycolumn'
 .. highlight: bash
-
 
 ucsc-splitfilebycolumn
 ======================
@@ -21,11 +22,21 @@ ucsc-splitfilebycolumn
 
    |downloads_ucsc-splitfilebycolumn| |docker_ucsc-splitfilebycolumn|
 
-   :versions: 366, 357, 332, 324
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_ucsc-splitfilebycolumn|
+   :versions: 366-0, 357-2, 357-1, 357-0, 332-0, 324-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libpng: >=1.6.34,<1.7.0a0
+   
+   :depends libuuid: 
+   
+   :depends mysql-connector-c: 
+   
+   :depends openssl: >=1.0.2o,<1.0.3a
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ ucsc-splitfilebycolumn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-splitfilebycolumn
+      docker pull quay.io/repository/biocontainers/ucsc-splitfilebycolumn:<tag>
+
+   (see `ucsc-splitfilebycolumn/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ucsc-splitfilebycolumn| conda:required_by:: ucsc-splitfilebycolumn
 .. |downloads_ucsc-splitfilebycolumn| image:: https://img.shields.io/conda/dn/bioconda/ucsc-splitfilebycolumn.svg?style=flat
    :alt:   (downloads)
 .. |docker_ucsc-splitfilebycolumn| image:: https://quay.io/repository/biocontainers/ucsc-splitfilebycolumn/status
    :target: https://quay.io/repository/biocontainers/ucsc-splitfilebycolumn
+.. _`ucsc-splitfilebycolumn/tags`: https://quay.io/repository/biocontainers/ucsc-splitfilebycolumn?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ucsc-splitfilebycolumn/README.html
-

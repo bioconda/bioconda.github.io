@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'seqlogo'
 .. highlight: bash
-
 
 seqlogo
 =======
@@ -21,11 +22,21 @@ seqlogo
 
    |downloads_seqlogo| |docker_seqlogo|
 
-   :versions: 5.29.1, 5.2.9, 0.2.0, 0.1.13, 0.1.12
-
-   :depends: :conda:package:`ghostscript`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pytest`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`weblogo`  
-
-   :required~by: |required_by_seqlogo|
+   :versions: 5.29.1-0, 5.2.9-1, 0.2.0-0, 0.1.13-0, 0.1.12-0
+   
+   :depends ghostscript: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends pytest: 
+   
+   :depends python: >=3.6,<3.7.0a0
+   
+   :depends weblogo: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ seqlogo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seqlogo
+      docker pull quay.io/repository/biocontainers/seqlogo:<tag>
+
+   (see `seqlogo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_seqlogo| conda:required_by:: seqlogo
 .. |downloads_seqlogo| image:: https://img.shields.io/conda/dn/bioconda/seqlogo.svg?style=flat
    :alt:   (downloads)
 .. |docker_seqlogo| image:: https://quay.io/repository/biocontainers/seqlogo/status
    :target: https://quay.io/repository/biocontainers/seqlogo
+.. _`seqlogo/tags`: https://quay.io/repository/biocontainers/seqlogo?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/seqlogo/README.html
-

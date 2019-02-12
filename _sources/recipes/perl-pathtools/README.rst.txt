@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-pathtools'
 .. highlight: bash
-
 
 perl-pathtools
 ==============
@@ -21,11 +22,17 @@ perl-pathtools
 
    |downloads_perl-pathtools| |docker_perl-pathtools|
 
-   :versions: 3.73, 3.40
-
-   :depends: :conda:package:`perl` >=5.22,<6.0 :conda:package:`perl-carp`  :conda:package:`perl-test-more`  
-
-   :required~by: |required_by_perl-pathtools|
+   :versions: 3.73-2, 3.73-1, 3.73-0, 3.40-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.22,<6.0
+   
+   :depends perl-carp: 
+   
+   :depends perl-test-more: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-pathtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pathtools
+      docker pull quay.io/repository/biocontainers/perl-pathtools:<tag>
+
+   (see `perl-pathtools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-pathtools| conda:required_by:: perl-pathtools
 .. |downloads_perl-pathtools| image:: https://img.shields.io/conda/dn/bioconda/perl-pathtools.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-pathtools| image:: https://quay.io/repository/biocontainers/perl-pathtools/status
    :target: https://quay.io/repository/biocontainers/perl-pathtools
+.. _`perl-pathtools/tags`: https://quay.io/repository/biocontainers/perl-pathtools?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-pathtools/README.html
-

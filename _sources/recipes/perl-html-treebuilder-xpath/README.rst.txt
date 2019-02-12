@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-html-treebuilder-xpath'
 .. highlight: bash
-
 
 perl-html-treebuilder-xpath
 ===========================
@@ -21,11 +22,15 @@ perl-html-treebuilder-xpath
 
    |downloads_perl-html-treebuilder-xpath| |docker_perl-html-treebuilder-xpath|
 
-   :versions: 0.14
-
-   :depends: :conda:package:`perl-html-tree`  :conda:package:`perl-threaded`  :conda:package:`perl-xml-xpathengine`  
-
-   :required~by: |required_by_perl-html-treebuilder-xpath|
+   :versions: 0.14-1, 0.14-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-html-tree: 
+   
+   :depends perl-xml-xpathengine: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-html-treebuilder-xpath
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-treebuilder-xpath
+      docker pull quay.io/repository/biocontainers/perl-html-treebuilder-xpath:<tag>
+
+   (see `perl-html-treebuilder-xpath/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-html-treebuilder-xpath| conda:required_by:: perl-html-treebuilder-xpath
 .. |downloads_perl-html-treebuilder-xpath| image:: https://img.shields.io/conda/dn/bioconda/perl-html-treebuilder-xpath.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-html-treebuilder-xpath| image:: https://quay.io/repository/biocontainers/perl-html-treebuilder-xpath/status
    :target: https://quay.io/repository/biocontainers/perl-html-treebuilder-xpath
+.. _`perl-html-treebuilder-xpath/tags`: https://quay.io/repository/biocontainers/perl-html-treebuilder-xpath?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-html-treebuilder-xpath/README.html
-

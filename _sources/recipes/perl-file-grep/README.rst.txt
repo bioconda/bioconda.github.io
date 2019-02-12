@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-grep'
 .. highlight: bash
-
 
 perl-file-grep
 ==============
@@ -21,11 +22,11 @@ perl-file-grep
 
    |downloads_perl-file-grep| |docker_perl-file-grep|
 
-   :versions: 0.02
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-file-grep|
+   :versions: 0.02-2, 0.02-1, 0.02-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-file-grep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-grep
+      docker pull quay.io/repository/biocontainers/perl-file-grep:<tag>
+
+   (see `perl-file-grep/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-grep| conda:required_by:: perl-file-grep
 .. |downloads_perl-file-grep| image:: https://img.shields.io/conda/dn/bioconda/perl-file-grep.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-grep| image:: https://quay.io/repository/biocontainers/perl-file-grep/status
    :target: https://quay.io/repository/biocontainers/perl-file-grep
+.. _`perl-file-grep/tags`: https://quay.io/repository/biocontainers/perl-file-grep?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-grep/README.html
-

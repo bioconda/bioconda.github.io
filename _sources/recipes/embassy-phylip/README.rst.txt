@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'embassy-phylip'
 .. highlight: bash
-
 
 embassy-phylip
 ==============
@@ -21,11 +22,15 @@ embassy-phylip
 
    |downloads_embassy-phylip| |docker_embassy-phylip|
 
-   :versions: 3.69.650
-
-   :depends: :conda:package:`emboss`  :conda:package:`zlib`  
-
-   :required~by: |required_by_embassy-phylip|
+   :versions: 3.69.650-2, 3.69.650-1, 3.69.650-0
+   
+   :depends emboss: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ embassy-phylip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/embassy-phylip
+      docker pull quay.io/repository/biocontainers/embassy-phylip:<tag>
+
+   (see `embassy-phylip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_embassy-phylip| conda:required_by:: embassy-phylip
 .. |downloads_embassy-phylip| image:: https://img.shields.io/conda/dn/bioconda/embassy-phylip.svg?style=flat
    :alt:   (downloads)
 .. |docker_embassy-phylip| image:: https://quay.io/repository/biocontainers/embassy-phylip/status
    :target: https://quay.io/repository/biocontainers/embassy-phylip
+.. _`embassy-phylip/tags`: https://quay.io/repository/biocontainers/embassy-phylip?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/embassy-phylip/README.html
-

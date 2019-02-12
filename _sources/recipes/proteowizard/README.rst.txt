@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'proteowizard'
 .. highlight: bash
-
 
 proteowizard
 ============
@@ -22,11 +23,11 @@ proteowizard
 
    |downloads_proteowizard| |docker_proteowizard|
 
-   :versions: 3_0_9992
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_proteowizard|
+   :versions: 3_0_9992-2, 3_0_9992-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ proteowizard
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/proteowizard
+      docker pull quay.io/repository/biocontainers/proteowizard:<tag>
+
+   (see `proteowizard/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_proteowizard| conda:required_by:: proteowizard
 .. |downloads_proteowizard| image:: https://img.shields.io/conda/dn/bioconda/proteowizard.svg?style=flat
    :alt:   (downloads)
 .. |docker_proteowizard| image:: https://quay.io/repository/biocontainers/proteowizard/status
    :target: https://quay.io/repository/biocontainers/proteowizard
+.. _`proteowizard/tags`: https://quay.io/repository/biocontainers/proteowizard?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/proteowizard/README.html
-

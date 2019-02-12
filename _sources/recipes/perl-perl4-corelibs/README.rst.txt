@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-perl4-corelibs'
 .. highlight: bash
-
 
 perl-perl4-corelibs
 ===================
@@ -21,11 +22,19 @@ perl-perl4-corelibs
 
    |downloads_perl-perl4-corelibs| |docker_perl-perl4-corelibs|
 
-   :versions: 0.004
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-getopt-long`  :conda:package:`perl-socket`  :conda:package:`perl-text-parsewords`  :conda:package:`perl-time-local`  
-
-   :required~by: |required_by_perl-perl4-corelibs|
+   :versions: 0.004-1, 0.004-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-getopt-long: 
+   
+   :depends perl-socket: 
+   
+   :depends perl-text-parsewords: 
+   
+   :depends perl-time-local: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-perl4-corelibs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-perl4-corelibs
+      docker pull quay.io/repository/biocontainers/perl-perl4-corelibs:<tag>
+
+   (see `perl-perl4-corelibs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-perl4-corelibs| conda:required_by:: perl-perl4-corelibs
 .. |downloads_perl-perl4-corelibs| image:: https://img.shields.io/conda/dn/bioconda/perl-perl4-corelibs.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-perl4-corelibs| image:: https://quay.io/repository/biocontainers/perl-perl4-corelibs/status
    :target: https://quay.io/repository/biocontainers/perl-perl4-corelibs
+.. _`perl-perl4-corelibs/tags`: https://quay.io/repository/biocontainers/perl-perl4-corelibs?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-perl4-corelibs/README.html
-

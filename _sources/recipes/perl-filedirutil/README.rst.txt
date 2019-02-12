@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-filedirutil'
 .. highlight: bash
-
 
 perl-filedirutil
 ================
@@ -21,11 +22,19 @@ perl-filedirutil
 
    |downloads_perl-filedirutil| |docker_perl-filedirutil|
 
-   :versions: v0.03
-
-   :depends: :conda:package:`perl` >5.22,<6.0 :conda:package:`perl-moose`  :conda:package:`perl-namespace-autoclean`  :conda:package:`perl-params-coerce`  :conda:package:`perl-path-class`  
-
-   :required~by: |required_by_perl-filedirutil|
+   :versions: v0.03-2, v0.03-1, v0.03-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-moose: 
+   
+   :depends perl-namespace-autoclean: 
+   
+   :depends perl-params-coerce: 
+   
+   :depends perl-path-class: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-filedirutil
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-filedirutil
+      docker pull quay.io/repository/biocontainers/perl-filedirutil:<tag>
+
+   (see `perl-filedirutil/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-filedirutil| conda:required_by:: perl-filedirutil
 .. |downloads_perl-filedirutil| image:: https://img.shields.io/conda/dn/bioconda/perl-filedirutil.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-filedirutil| image:: https://quay.io/repository/biocontainers/perl-filedirutil/status
    :target: https://quay.io/repository/biocontainers/perl-filedirutil
+.. _`perl-filedirutil/tags`: https://quay.io/repository/biocontainers/perl-filedirutil?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-filedirutil/README.html
-

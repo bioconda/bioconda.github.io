@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ficus'
 .. highlight: bash
-
 
 ficus
 =====
@@ -21,11 +22,13 @@ ficus
 
    |downloads_ficus| |docker_ficus|
 
-   :versions: 0.5, 0.3
-
-   :depends: :conda:package:`matplotlib` >=1.4 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_ficus|
+   :versions: 0.5-1, 0.5-0, 0.3-0
+   
+   :depends matplotlib: >=1.4
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ ficus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ficus
+      docker pull quay.io/repository/biocontainers/ficus:<tag>
+
+   (see `ficus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ficus| conda:required_by:: ficus
 .. |downloads_ficus| image:: https://img.shields.io/conda/dn/bioconda/ficus.svg?style=flat
    :alt:   (downloads)
 .. |docker_ficus| image:: https://quay.io/repository/biocontainers/ficus/status
    :target: https://quay.io/repository/biocontainers/ficus
+.. _`ficus/tags`: https://quay.io/repository/biocontainers/ficus?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ficus/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'targetfinder'
 .. highlight: bash
-
 
 targetfinder
 ============
@@ -21,11 +22,13 @@ targetfinder
 
    |downloads_targetfinder| |docker_targetfinder|
 
-   :versions: 1.7
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_targetfinder|
+   :versions: 1.7-2, 1.7-1, 1.7-0
+   
+   :depends fasta3: 
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ targetfinder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/targetfinder
+      docker pull quay.io/repository/biocontainers/targetfinder:<tag>
+
+   (see `targetfinder/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_targetfinder| conda:required_by:: targetfinder
 .. |downloads_targetfinder| image:: https://img.shields.io/conda/dn/bioconda/targetfinder.svg?style=flat
    :alt:   (downloads)
 .. |docker_targetfinder| image:: https://quay.io/repository/biocontainers/targetfinder/status
    :target: https://quay.io/repository/biocontainers/targetfinder
+.. _`targetfinder/tags`: https://quay.io/repository/biocontainers/targetfinder?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/targetfinder/README.html
-

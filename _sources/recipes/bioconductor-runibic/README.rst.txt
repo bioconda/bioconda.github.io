@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-runibic'
 .. highlight: bash
-
 
 bioconductor-runibic
 ====================
@@ -21,11 +22,23 @@ bioconductor-runibic
 
    |downloads_bioconductor-runibic| |docker_bioconductor-runibic|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biclust`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-testthat`  
-
-   :required~by: |required_by_bioconductor-runibic|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-biclust: 
+   
+   :depends r-rcpp: >=0.12.12
+   
+   :depends r-testthat: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-runibic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-runibic
+      docker pull quay.io/repository/biocontainers/bioconductor-runibic:<tag>
+
+   (see `bioconductor-runibic/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-runibic| conda:required_by:: bioconductor-runibic
 .. |downloads_bioconductor-runibic| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-runibic.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-runibic| image:: https://quay.io/repository/biocontainers/bioconductor-runibic/status
    :target: https://quay.io/repository/biocontainers/bioconductor-runibic
+.. _`bioconductor-runibic/tags`: https://quay.io/repository/biocontainers/bioconductor-runibic?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-runibic/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cancerinsilico'
 .. highlight: bash
-
 
 bioconductor-cancerinsilico
 ===========================
@@ -22,11 +23,19 @@ bioconductor-cancerinsilico
 
    |downloads_bioconductor-cancerinsilico| |docker_bioconductor-cancerinsilico|
 
-   :versions: 2.2.1, 2.2.0, 2.0.0, 1.4.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh`  :conda:package:`r-rcpp`  
-
-   :required~by: |required_by_bioconductor-cancerinsilico|
+   :versions: 2.2.1-0, 2.2.0-0, 2.0.0-0, 1.4.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bh: 
+   
+   :depends r-rcpp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-cancerinsilico
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cancerinsilico
+      docker pull quay.io/repository/biocontainers/bioconductor-cancerinsilico:<tag>
+
+   (see `bioconductor-cancerinsilico/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cancerinsilico| conda:required_by:: bioconductor-cancerinsilico
 .. |downloads_bioconductor-cancerinsilico| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cancerinsilico.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cancerinsilico| image:: https://quay.io/repository/biocontainers/bioconductor-cancerinsilico/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cancerinsilico
+.. _`bioconductor-cancerinsilico/tags`: https://quay.io/repository/biocontainers/bioconductor-cancerinsilico?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cancerinsilico/README.html
-

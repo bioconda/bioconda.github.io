@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'w4mclstrpeakpics'
 .. highlight: bash
-
 
 w4mclstrpeakpics
 ================
@@ -21,11 +22,17 @@ w4mclstrpeakpics
 
    |downloads_w4mclstrpeakpics| |docker_w4mclstrpeakpics|
 
-   :versions: 0.98.1
-
-   :depends: :conda:package:`r-base` 3.3.2* :conda:package:`r-batch`  :conda:package:`r-reshape2`  :conda:package:`r-sqldf`  
-
-   :required~by: |required_by_w4mclstrpeakpics|
+   :versions: 0.98.1-1, 0.98.1-0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-batch: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-sqldf: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ w4mclstrpeakpics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/w4mclstrpeakpics
+      docker pull quay.io/repository/biocontainers/w4mclstrpeakpics:<tag>
+
+   (see `w4mclstrpeakpics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_w4mclstrpeakpics| conda:required_by:: w4mclstrpeakpics
 .. |downloads_w4mclstrpeakpics| image:: https://img.shields.io/conda/dn/bioconda/w4mclstrpeakpics.svg?style=flat
    :alt:   (downloads)
 .. |docker_w4mclstrpeakpics| image:: https://quay.io/repository/biocontainers/w4mclstrpeakpics/status
    :target: https://quay.io/repository/biocontainers/w4mclstrpeakpics
+.. _`w4mclstrpeakpics/tags`: https://quay.io/repository/biocontainers/w4mclstrpeakpics?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/w4mclstrpeakpics/README.html
-

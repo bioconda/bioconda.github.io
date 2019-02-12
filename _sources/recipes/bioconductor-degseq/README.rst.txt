@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-degseq'
 .. highlight: bash
-
 
 bioconductor-degseq
 ===================
@@ -22,11 +23,17 @@ bioconductor-degseq
 
    |downloads_bioconductor-degseq| |docker_bioconductor-degseq|
 
-   :versions: 1.36.1, 1.34.1, 1.32.0, 1.30.0
-
-   :depends: :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-degseq|
+   :versions: 1.36.1-0, 1.34.1-0, 1.32.0-0, 1.30.0-0
+   
+   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-degseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-degseq
+      docker pull quay.io/repository/biocontainers/bioconductor-degseq:<tag>
+
+   (see `bioconductor-degseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-degseq| conda:required_by:: bioconductor-degseq
 .. |downloads_bioconductor-degseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-degseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-degseq| image:: https://quay.io/repository/biocontainers/bioconductor-degseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-degseq
+.. _`bioconductor-degseq/tags`: https://quay.io/repository/biocontainers/bioconductor-degseq?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-degseq/README.html
-

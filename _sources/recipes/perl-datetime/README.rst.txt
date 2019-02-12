@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-datetime'
 .. highlight: bash
-
 
 perl-datetime
 =============
@@ -21,11 +22,33 @@ perl-datetime
 
    |downloads_perl-datetime| |docker_perl-datetime|
 
-   :versions: 1.42
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-cpan-meta-check`  :conda:package:`perl-datetime-locale`  :conda:package:`perl-datetime-timezone`  :conda:package:`perl-namespace-autoclean`  :conda:package:`perl-params-validationcompiler`  :conda:package:`perl-specio-exporter`  :conda:package:`perl-test-fatal`  :conda:package:`perl-try-tiny`  :conda:package:`perl-warnings-register`  :conda:package:`perl-xsloader`  
-
-   :required~by: |required_by_perl-datetime|
+   :versions: 1.42-2, 1.42-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-cpan-meta-check: 
+   
+   :depends perl-datetime-locale: 
+   
+   :depends perl-datetime-timezone: 
+   
+   :depends perl-namespace-autoclean: 
+   
+   :depends perl-params-validationcompiler: 
+   
+   :depends perl-specio-exporter: 
+   
+   :depends perl-test-fatal: 
+   
+   :depends perl-try-tiny: 
+   
+   :depends perl-warnings-register: 
+   
+   :depends perl-xsloader: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ perl-datetime
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-datetime
+      docker pull quay.io/repository/biocontainers/perl-datetime:<tag>
+
+   (see `perl-datetime/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-datetime| conda:required_by:: perl-datetime
 .. |downloads_perl-datetime| image:: https://img.shields.io/conda/dn/bioconda/perl-datetime.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-datetime| image:: https://quay.io/repository/biocontainers/perl-datetime/status
    :target: https://quay.io/repository/biocontainers/perl-datetime
+.. _`perl-datetime/tags`: https://quay.io/repository/biocontainers/perl-datetime?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-datetime/README.html
-

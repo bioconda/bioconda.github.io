@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lorma'
 .. highlight: bash
-
 
 lorma
 =====
@@ -21,11 +22,15 @@ lorma
 
    |downloads_lorma| |docker_lorma|
 
-   :versions: 0.4
-
-   :depends: :conda:package:`libgcc`  :conda:package:`lordec`  :conda:package:`zlib` 1.2.8* 
-
-   :required~by: |required_by_lorma|
+   :versions: 0.4-2, 0.4-1, 0.4-0
+   
+   :depends libgcc: 
+   
+   :depends lordec: 
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ lorma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lorma
+      docker pull quay.io/repository/biocontainers/lorma:<tag>
+
+   (see `lorma/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lorma| conda:required_by:: lorma
 .. |downloads_lorma| image:: https://img.shields.io/conda/dn/bioconda/lorma.svg?style=flat
    :alt:   (downloads)
 .. |docker_lorma| image:: https://quay.io/repository/biocontainers/lorma/status
    :target: https://quay.io/repository/biocontainers/lorma
+.. _`lorma/tags`: https://quay.io/repository/biocontainers/lorma?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lorma/README.html
-

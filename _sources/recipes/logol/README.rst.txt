@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'logol'
 .. highlight: bash
-
 
 logol
 =====
@@ -21,11 +22,17 @@ logol
 
    |downloads_logol| |docker_logol|
 
-   :versions: 1.7.8
-
-   :depends: :conda:package:`cassiopee`  :conda:package:`openjdk`  :conda:package:`ruby` >=2.4 :conda:package:`swi-prolog`  
-
-   :required~by: |required_by_logol|
+   :versions: 1.7.8-2, 1.7.8-1
+   
+   :depends cassiopee: 
+   
+   :depends openjdk: 
+   
+   :depends ruby: >=2.4
+   
+   :depends swi-prolog: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ logol
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/logol
+      docker pull quay.io/repository/biocontainers/logol:<tag>
+
+   (see `logol/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_logol| conda:required_by:: logol
 .. |downloads_logol| image:: https://img.shields.io/conda/dn/bioconda/logol.svg?style=flat
    :alt:   (downloads)
 .. |docker_logol| image:: https://quay.io/repository/biocontainers/logol/status
    :target: https://quay.io/repository/biocontainers/logol
+.. _`logol/tags`: https://quay.io/repository/biocontainers/logol?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/logol/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'moreutils'
 .. highlight: bash
-
 
 moreutils
 =========
@@ -21,11 +22,9 @@ moreutils
 
    |downloads_moreutils| |docker_moreutils|
 
-   :versions: 0.5.7
-
-   :depends: 
-
-   :required~by: |required_by_moreutils|
+   :versions: 0.5.7-1, 0.5.7-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ moreutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/moreutils
+      docker pull quay.io/repository/biocontainers/moreutils:<tag>
+
+   (see `moreutils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_moreutils| conda:required_by:: moreutils
 .. |downloads_moreutils| image:: https://img.shields.io/conda/dn/bioconda/moreutils.svg?style=flat
    :alt:   (downloads)
 .. |docker_moreutils| image:: https://quay.io/repository/biocontainers/moreutils/status
    :target: https://quay.io/repository/biocontainers/moreutils
+.. _`moreutils/tags`: https://quay.io/repository/biocontainers/moreutils?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/moreutils/README.html
-

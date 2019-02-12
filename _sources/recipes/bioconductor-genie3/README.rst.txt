@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-genie3'
 .. highlight: bash
-
 
 bioconductor-genie3
 ===================
@@ -21,11 +22,15 @@ bioconductor-genie3
 
    |downloads_bioconductor-genie3| |docker_bioconductor-genie3|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-genie3|
+   :versions: 1.4.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-genie3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genie3
+      docker pull quay.io/repository/biocontainers/bioconductor-genie3:<tag>
+
+   (see `bioconductor-genie3/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-genie3| conda:required_by:: bioconductor-genie3
 .. |downloads_bioconductor-genie3| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genie3.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-genie3| image:: https://quay.io/repository/biocontainers/bioconductor-genie3/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genie3
+.. _`bioconductor-genie3/tags`: https://quay.io/repository/biocontainers/bioconductor-genie3?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-genie3/README.html
-

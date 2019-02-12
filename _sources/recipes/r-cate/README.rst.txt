@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-cate'
 .. highlight: bash
-
 
 r-cate
 ======
@@ -21,11 +22,23 @@ r-cate
 
    |downloads_r-cate| |docker_r-cate|
 
-   :versions: 1.0.4
-
-   :depends: :conda:package:`bioconductor-sva`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  :conda:package:`r-esabcv`  :conda:package:`r-leapp`  :conda:package:`r-mass`  :conda:package:`r-ruv`  
-
-   :required~by: |required_by_r-cate|
+   :versions: 1.0.4-0
+   
+   :depends bioconductor-sva: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-corpcor: 
+   
+   :depends r-esabcv: 
+   
+   :depends r-leapp: 
+   
+   :depends r-mass: 
+   
+   :depends r-ruv: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ r-cate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-cate
+      docker pull quay.io/repository/biocontainers/r-cate:<tag>
+
+   (see `r-cate/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-cate| conda:required_by:: r-cate
 .. |downloads_r-cate| image:: https://img.shields.io/conda/dn/bioconda/r-cate.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-cate| image:: https://quay.io/repository/biocontainers/r-cate/status
    :target: https://quay.io/repository/biocontainers/r-cate
+.. _`r-cate/tags`: https://quay.io/repository/biocontainers/r-cate?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-cate/README.html
-

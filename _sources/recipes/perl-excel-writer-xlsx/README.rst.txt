@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-excel-writer-xlsx'
 .. highlight: bash
-
 
 perl-excel-writer-xlsx
 ======================
@@ -21,11 +22,15 @@ perl-excel-writer-xlsx
 
    |downloads_perl-excel-writer-xlsx| |docker_perl-excel-writer-xlsx|
 
-   :versions: 0.98, 0.95
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-archive-zip`  :conda:package:`perl-file-temp`  
-
-   :required~by: |required_by_perl-excel-writer-xlsx|
+   :versions: 0.98-0, 0.95-1, 0.95-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-archive-zip: 
+   
+   :depends perl-file-temp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-excel-writer-xlsx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-excel-writer-xlsx
+      docker pull quay.io/repository/biocontainers/perl-excel-writer-xlsx:<tag>
+
+   (see `perl-excel-writer-xlsx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-excel-writer-xlsx| conda:required_by:: perl-excel-writer-xlsx
 .. |downloads_perl-excel-writer-xlsx| image:: https://img.shields.io/conda/dn/bioconda/perl-excel-writer-xlsx.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-excel-writer-xlsx| image:: https://quay.io/repository/biocontainers/perl-excel-writer-xlsx/status
    :target: https://quay.io/repository/biocontainers/perl-excel-writer-xlsx
+.. _`perl-excel-writer-xlsx/tags`: https://quay.io/repository/biocontainers/perl-excel-writer-xlsx?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-excel-writer-xlsx/README.html
-

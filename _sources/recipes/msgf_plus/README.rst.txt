@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'msgf_plus'
 .. highlight: bash
-
 
 msgf_plus
 =========
@@ -21,11 +22,13 @@ msgf_plus
 
    |downloads_msgf_plus| |docker_msgf_plus|
 
-   :versions: 2017.07.21, 2016.10.26, 1.0.0
-
-   :depends: :conda:package:`openjdk`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_msgf_plus|
+   :versions: 2017.07.21-3, 2017.07.21-2, 2017.07.21-1, 2017.07.21-0, 2016.10.26-2, 2016.10.26-1, 2016.10.26-0, 1.0.0-0
+   
+   :depends openjdk: <9
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ msgf_plus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/msgf_plus
+      docker pull quay.io/repository/biocontainers/msgf_plus:<tag>
+
+   (see `msgf_plus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_msgf_plus| conda:required_by:: msgf_plus
 .. |downloads_msgf_plus| image:: https://img.shields.io/conda/dn/bioconda/msgf_plus.svg?style=flat
    :alt:   (downloads)
 .. |docker_msgf_plus| image:: https://quay.io/repository/biocontainers/msgf_plus/status
    :target: https://quay.io/repository/biocontainers/msgf_plus
+.. _`msgf_plus/tags`: https://quay.io/repository/biocontainers/msgf_plus?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/msgf_plus/README.html
-

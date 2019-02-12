@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-exporter-tidy'
 .. highlight: bash
-
 
 perl-exporter-tidy
 ==================
@@ -21,11 +22,11 @@ perl-exporter-tidy
 
    |downloads_perl-exporter-tidy| |docker_perl-exporter-tidy|
 
-   :versions: 0.08
-
-   :depends: :conda:package:`perl-threaded` >=5.22.0 
-
-   :required~by: |required_by_perl-exporter-tidy|
+   :versions: 0.08-1, 0.08-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-exporter-tidy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-exporter-tidy
+      docker pull quay.io/repository/biocontainers/perl-exporter-tidy:<tag>
+
+   (see `perl-exporter-tidy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-exporter-tidy| conda:required_by:: perl-exporter-tidy
 .. |downloads_perl-exporter-tidy| image:: https://img.shields.io/conda/dn/bioconda/perl-exporter-tidy.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-exporter-tidy| image:: https://quay.io/repository/biocontainers/perl-exporter-tidy/status
    :target: https://quay.io/repository/biocontainers/perl-exporter-tidy
+.. _`perl-exporter-tidy/tags`: https://quay.io/repository/biocontainers/perl-exporter-tidy?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-exporter-tidy/README.html
-

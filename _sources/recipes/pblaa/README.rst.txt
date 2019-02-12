@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pblaa'
 .. highlight: bash
-
 
 pblaa
 =====
@@ -21,11 +22,9 @@ pblaa
 
    |downloads_pblaa| |docker_pblaa|
 
-   :versions: 2.4.2
-
-   :depends: 
-
-   :required~by: |required_by_pblaa|
+   :versions: 2.4.2-1, 2.4.2-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ pblaa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pblaa
+      docker pull quay.io/repository/biocontainers/pblaa:<tag>
+
+   (see `pblaa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pblaa| conda:required_by:: pblaa
 .. |downloads_pblaa| image:: https://img.shields.io/conda/dn/bioconda/pblaa.svg?style=flat
    :alt:   (downloads)
 .. |docker_pblaa| image:: https://quay.io/repository/biocontainers/pblaa/status
    :target: https://quay.io/repository/biocontainers/pblaa
+.. _`pblaa/tags`: https://quay.io/repository/biocontainers/pblaa?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pblaa/README.html
-

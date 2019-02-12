@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'lexmapr'
 .. highlight: bash
-
 
 lexmapr
 =======
@@ -21,11 +22,23 @@ lexmapr
 
    |downloads_lexmapr| |docker_lexmapr|
 
-   :versions: 0.1.2, 0.1.1, 0.1.0
-
-   :depends: :conda:package:`inflection`  :conda:package:`nltk`  :conda:package:`nltk_data`  :conda:package:`python`  :conda:package:`python-dateutil`  :conda:package:`rdflib`  :conda:package:`wikipedia`  
-
-   :required~by: |required_by_lexmapr|
+   :versions: 0.1.2-0, 0.1.1-0, 0.1.0-0
+   
+   :depends inflection: 
+   
+   :depends nltk: 
+   
+   :depends nltk_data: 
+   
+   :depends python: 
+   
+   :depends python-dateutil: 
+   
+   :depends rdflib: 
+   
+   :depends wikipedia: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ lexmapr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lexmapr
+      docker pull quay.io/repository/biocontainers/lexmapr:<tag>
+
+   (see `lexmapr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_lexmapr| conda:required_by:: lexmapr
 .. |downloads_lexmapr| image:: https://img.shields.io/conda/dn/bioconda/lexmapr.svg?style=flat
    :alt:   (downloads)
 .. |docker_lexmapr| image:: https://quay.io/repository/biocontainers/lexmapr/status
    :target: https://quay.io/repository/biocontainers/lexmapr
+.. _`lexmapr/tags`: https://quay.io/repository/biocontainers/lexmapr?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/lexmapr/README.html
-

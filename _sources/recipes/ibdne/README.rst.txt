@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ibdne'
 .. highlight: bash
-
 
 ibdne
 =====
@@ -21,11 +22,11 @@ ibdne
 
    |downloads_ibdne| |docker_ibdne|
 
-   :versions: 04Sep15.e78
-
-   :depends: :conda:package:`java-jdk` >=6.0.77 
-
-   :required~by: |required_by_ibdne|
+   :versions: 04Sep15.e78-1, 04Sep15.e78-0
+   
+   :depends java-jdk: >=6.0.77
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ ibdne
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ibdne
+      docker pull quay.io/repository/biocontainers/ibdne:<tag>
+
+   (see `ibdne/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ibdne| conda:required_by:: ibdne
 .. |downloads_ibdne| image:: https://img.shields.io/conda/dn/bioconda/ibdne.svg?style=flat
    :alt:   (downloads)
 .. |docker_ibdne| image:: https://quay.io/repository/biocontainers/ibdne/status
    :target: https://quay.io/repository/biocontainers/ibdne
+.. _`ibdne/tags`: https://quay.io/repository/biocontainers/ibdne?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ibdne/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-polyphen.hsapiens.dbsnp131'
 .. highlight: bash
-
 
 bioconductor-polyphen.hsapiens.dbsnp131
 =======================================
@@ -21,11 +22,19 @@ bioconductor-polyphen.hsapiens.dbsnp131
 
    |downloads_bioconductor-polyphen.hsapiens.dbsnp131| |docker_bioconductor-polyphen.hsapiens.dbsnp131|
 
-   :versions: 1.0.2
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-variantannotation` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rsqlite` >=0.11.0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-polyphen.hsapiens.dbsnp131|
+   :versions: 1.0.2-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-variantannotation: >=1.28.0,<1.29.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rsqlite: >=0.11.0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-polyphen.hsapiens.dbsnp131
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131
+      docker pull quay.io/repository/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131:<tag>
+
+   (see `bioconductor-polyphen.hsapiens.dbsnp131/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-polyphen.hsapiens.dbsnp131| conda:required_by:: bioconductor-polyphen.hsapiens.dbsnp131
 .. |downloads_bioconductor-polyphen.hsapiens.dbsnp131| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-polyphen.hsapiens.dbsnp131.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-polyphen.hsapiens.dbsnp131| image:: https://quay.io/repository/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131/status
    :target: https://quay.io/repository/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131
+.. _`bioconductor-polyphen.hsapiens.dbsnp131/tags`: https://quay.io/repository/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-polyphen.hsapiens.dbsnp131/README.html
-

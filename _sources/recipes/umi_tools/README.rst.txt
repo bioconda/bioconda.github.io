@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'umi_tools'
 .. highlight: bash
-
 
 umi_tools
 =========
@@ -21,11 +22,27 @@ umi_tools
 
    |downloads_umi_tools| |docker_umi_tools|
 
-   :versions: 0.5.5, 0.5.4, 0.5.3, 0.5.2, 0.5.1, 0.5.0, 0.4.4, 0.4.3, 0.2.3
-
-   :depends: :conda:package:`future`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`numpy` >=1.7 :conda:package:`pandas` >=0.12.0 :conda:package:`pysam` >=0.9 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`regex`  :conda:package:`scipy`  
-
-   :required~by: |required_by_umi_tools|
+   :versions: 0.5.5-0, 0.5.4-3, 0.5.4-2, 0.5.4-1, 0.5.4-0, 0.5.3-1, 0.5.3-0, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.4-0, 0.4.3-0, 0.2.3-2, 0.2.3-1, 0.2.3-0
+   
+   :depends future: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: 
+   
+   :depends numpy: >=1.7
+   
+   :depends pandas: >=0.12.0
+   
+   :depends pysam: >=0.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends regex: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ umi_tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/umi_tools
+      docker pull quay.io/repository/biocontainers/umi_tools:<tag>
+
+   (see `umi_tools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_umi_tools| conda:required_by:: umi_tools
 .. |downloads_umi_tools| image:: https://img.shields.io/conda/dn/bioconda/umi_tools.svg?style=flat
    :alt:   (downloads)
 .. |docker_umi_tools| image:: https://quay.io/repository/biocontainers/umi_tools/status
    :target: https://quay.io/repository/biocontainers/umi_tools
+.. _`umi_tools/tags`: https://quay.io/repository/biocontainers/umi_tools?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/umi_tools/README.html
-

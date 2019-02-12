@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biopet-validatefastq'
 .. highlight: bash
-
 
 biopet-validatefastq
 ====================
@@ -29,11 +30,13 @@ biopet-validatefastq
 
    |downloads_biopet-validatefastq| |docker_biopet-validatefastq|
 
-   :versions: 0.1.1
-
-   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
-
-   :required~by: |required_by_biopet-validatefastq|
+   :versions: 0.1.1-1, 0.1.1-0
+   
+   :depends openjdk: >=8,<9
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -47,14 +50,16 @@ biopet-validatefastq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-validatefastq
+      docker pull quay.io/repository/biocontainers/biopet-validatefastq:<tag>
+
+   (see `biopet-validatefastq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biopet-validatefastq| conda:required_by:: biopet-validatefastq
 .. |downloads_biopet-validatefastq| image:: https://img.shields.io/conda/dn/bioconda/biopet-validatefastq.svg?style=flat
    :alt:   (downloads)
 .. |docker_biopet-validatefastq| image:: https://quay.io/repository/biocontainers/biopet-validatefastq/status
    :target: https://quay.io/repository/biocontainers/biopet-validatefastq
+.. _`biopet-validatefastq/tags`: https://quay.io/repository/biocontainers/biopet-validatefastq?tab=tags
 
 
 
@@ -75,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biopet-validatefastq/README.html
-

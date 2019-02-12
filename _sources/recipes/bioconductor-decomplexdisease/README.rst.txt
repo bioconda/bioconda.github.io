@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-decomplexdisease'
 .. highlight: bash
-
 
 bioconductor-decomplexdisease
 =============================
@@ -21,11 +22,27 @@ bioconductor-decomplexdisease
 
    |downloads_bioconductor-decomplexdisease| |docker_bioconductor-decomplexdisease|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-complexheatmap` >=1.20.0,<1.21.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp` >=0.12.7 
-
-   :required~by: |required_by_bioconductor-decomplexdisease|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcpp: >=0.12.7
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-decomplexdisease
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-decomplexdisease
+      docker pull quay.io/repository/biocontainers/bioconductor-decomplexdisease:<tag>
+
+   (see `bioconductor-decomplexdisease/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-decomplexdisease| conda:required_by:: bioconductor-decomplexdisease
 .. |downloads_bioconductor-decomplexdisease| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-decomplexdisease.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-decomplexdisease| image:: https://quay.io/repository/biocontainers/bioconductor-decomplexdisease/status
    :target: https://quay.io/repository/biocontainers/bioconductor-decomplexdisease
+.. _`bioconductor-decomplexdisease/tags`: https://quay.io/repository/biocontainers/bioconductor-decomplexdisease?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-decomplexdisease/README.html
-

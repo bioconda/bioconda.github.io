@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'k-slam'
 .. highlight: bash
-
 
 k-slam
 ======
@@ -21,11 +22,13 @@ k-slam
 
    |downloads_k-slam| |docker_k-slam|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`boost` 1.64* :conda:package:`libgcc`  
-
-   :required~by: |required_by_k-slam|
+   :versions: 1.0-1
+   
+   :depends boost: 1.64*
+   
+   :depends libgcc: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ k-slam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/k-slam
+      docker pull quay.io/repository/biocontainers/k-slam:<tag>
+
+   (see `k-slam/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_k-slam| conda:required_by:: k-slam
 .. |downloads_k-slam| image:: https://img.shields.io/conda/dn/bioconda/k-slam.svg?style=flat
    :alt:   (downloads)
 .. |docker_k-slam| image:: https://quay.io/repository/biocontainers/k-slam/status
    :target: https://quay.io/repository/biocontainers/k-slam
+.. _`k-slam/tags`: https://quay.io/repository/biocontainers/k-slam?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/k-slam/README.html
-

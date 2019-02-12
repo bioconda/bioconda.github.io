@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ocrad'
 .. highlight: bash
-
 
 ocrad
 =====
@@ -21,11 +22,11 @@ ocrad
 
    |downloads_ocrad| |docker_ocrad|
 
-   :versions: 0.21
-
-   :depends: 
-
-   :required~by: |required_by_ocrad|
+   :versions: 0.21-1, 0.21-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ ocrad
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ocrad
+      docker pull quay.io/repository/biocontainers/ocrad:<tag>
+
+   (see `ocrad/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ocrad| conda:required_by:: ocrad
 .. |downloads_ocrad| image:: https://img.shields.io/conda/dn/bioconda/ocrad.svg?style=flat
    :alt:   (downloads)
 .. |docker_ocrad| image:: https://quay.io/repository/biocontainers/ocrad/status
    :target: https://quay.io/repository/biocontainers/ocrad
+.. _`ocrad/tags`: https://quay.io/repository/biocontainers/ocrad?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ocrad/README.html
-

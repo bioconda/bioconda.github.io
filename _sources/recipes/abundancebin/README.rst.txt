@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'abundancebin'
 .. highlight: bash
-
 
 abundancebin
 ============
@@ -27,11 +28,11 @@ abundancebin
 
    |downloads_abundancebin| |docker_abundancebin|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_abundancebin|
+   :versions: 1.0.1-1, 1.0.1-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -45,14 +46,16 @@ abundancebin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/abundancebin
+      docker pull quay.io/repository/biocontainers/abundancebin:<tag>
+
+   (see `abundancebin/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_abundancebin| conda:required_by:: abundancebin
 .. |downloads_abundancebin| image:: https://img.shields.io/conda/dn/bioconda/abundancebin.svg?style=flat
    :alt:   (downloads)
 .. |docker_abundancebin| image:: https://quay.io/repository/biocontainers/abundancebin/status
    :target: https://quay.io/repository/biocontainers/abundancebin
+.. _`abundancebin/tags`: https://quay.io/repository/biocontainers/abundancebin?tab=tags
 
 
 
@@ -69,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/abundancebin/README.html
-

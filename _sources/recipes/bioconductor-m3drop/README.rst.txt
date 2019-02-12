@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-m3drop'
 .. highlight: bash
-
 
 bioconductor-m3drop
 ===================
@@ -22,11 +23,21 @@ bioconductor-m3drop
 
    |downloads_bioconductor-m3drop| |docker_bioconductor-m3drop|
 
-   :versions: 1.8.1, 1.6.0, 1.4.0, 1.2.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bbmle`  :conda:package:`r-gplots`  :conda:package:`r-numderiv`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-statmod`  
-
-   :required~by: |required_by_bioconductor-m3drop|
+   :versions: 1.8.1-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bbmle: 
+   
+   :depends r-gplots: 
+   
+   :depends r-numderiv: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-statmod: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-m3drop
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-m3drop
+      docker pull quay.io/repository/biocontainers/bioconductor-m3drop:<tag>
+
+   (see `bioconductor-m3drop/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-m3drop| conda:required_by:: bioconductor-m3drop
 .. |downloads_bioconductor-m3drop| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-m3drop.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-m3drop| image:: https://quay.io/repository/biocontainers/bioconductor-m3drop/status
    :target: https://quay.io/repository/biocontainers/bioconductor-m3drop
+.. _`bioconductor-m3drop/tags`: https://quay.io/repository/biocontainers/bioconductor-m3drop?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-m3drop/README.html
-

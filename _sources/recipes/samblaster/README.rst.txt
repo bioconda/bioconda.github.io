@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'samblaster'
 .. highlight: bash
-
 
 samblaster
 ==========
@@ -21,11 +22,11 @@ samblaster
 
    |downloads_samblaster| |docker_samblaster|
 
-   :versions: 0.1.24, 0.1.23, 0.1.22
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_samblaster|
+   :versions: 0.1.24-1, 0.1.24-0, 0.1.23-0, 0.1.22-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ samblaster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/samblaster
+      docker pull quay.io/repository/biocontainers/samblaster:<tag>
+
+   (see `samblaster/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_samblaster| conda:required_by:: samblaster
 .. |downloads_samblaster| image:: https://img.shields.io/conda/dn/bioconda/samblaster.svg?style=flat
    :alt:   (downloads)
 .. |docker_samblaster| image:: https://quay.io/repository/biocontainers/samblaster/status
    :target: https://quay.io/repository/biocontainers/samblaster
+.. _`samblaster/tags`: https://quay.io/repository/biocontainers/samblaster?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/samblaster/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'quorum'
 .. highlight: bash
-
 
 quorum
 ======
@@ -21,11 +22,15 @@ quorum
 
    |downloads_quorum| |docker_quorum|
 
-   :versions: 1.1.1
-
-   :depends: :conda:package:`jellyfish` >=2.0 :conda:package:`libgcc`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_quorum|
+   :versions: 1.1.1-1, 1.1.1-0
+   
+   :depends jellyfish: 2.2.10.*
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ quorum
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/quorum
+      docker pull quay.io/repository/biocontainers/quorum:<tag>
+
+   (see `quorum/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_quorum| conda:required_by:: quorum
 .. |downloads_quorum| image:: https://img.shields.io/conda/dn/bioconda/quorum.svg?style=flat
    :alt:   (downloads)
 .. |docker_quorum| image:: https://quay.io/repository/biocontainers/quorum/status
    :target: https://quay.io/repository/biocontainers/quorum
+.. _`quorum/tags`: https://quay.io/repository/biocontainers/quorum?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/quorum/README.html
-

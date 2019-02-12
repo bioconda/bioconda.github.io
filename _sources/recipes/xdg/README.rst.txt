@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'xdg'
 .. highlight: bash
-
 
 xdg
 ===
@@ -21,11 +22,11 @@ xdg
 
    |downloads_xdg| |docker_xdg|
 
-   :versions: 1.0.5
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_xdg|
+   :versions: 1.0.5-0
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ xdg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xdg
+      docker pull quay.io/repository/biocontainers/xdg:<tag>
+
+   (see `xdg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_xdg| conda:required_by:: xdg
 .. |downloads_xdg| image:: https://img.shields.io/conda/dn/bioconda/xdg.svg?style=flat
    :alt:   (downloads)
 .. |docker_xdg| image:: https://quay.io/repository/biocontainers/xdg/status
    :target: https://quay.io/repository/biocontainers/xdg
+.. _`xdg/tags`: https://quay.io/repository/biocontainers/xdg?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/xdg/README.html
-

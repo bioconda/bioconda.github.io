@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-metalonda'
 .. highlight: bash
-
 
 r-metalonda
 ===========
@@ -21,11 +22,27 @@ r-metalonda
 
    |downloads_r-metalonda| |docker_r-metalonda|
 
-   :versions: 1.1.0
-
-   :depends: :conda:package:`bioconductor-deseq2`  :conda:package:`bioconductor-edger`  :conda:package:`bioconductor-metagenomeseq`  :conda:package:`r-base` 3.4.1* :conda:package:`r-catools`  :conda:package:`r-doparallel`  :conda:package:`r-ggplot2`  :conda:package:`r-gss`  :conda:package:`r-plyr`  
-
-   :required~by: |required_by_r-metalonda|
+   :versions: 1.1.0-4, 1.1.0-3, 1.1.0-2, 1.1.0-1, 1.1.0-0
+   
+   :depends bioconductor-deseq2: >=1.20.0,<1.22.0
+   
+   :depends bioconductor-edger: 
+   
+   :depends bioconductor-metagenomeseq: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-catools: 
+   
+   :depends r-doparallel: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gss: 
+   
+   :depends r-plyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ r-metalonda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-metalonda
+      docker pull quay.io/repository/biocontainers/r-metalonda:<tag>
+
+   (see `r-metalonda/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-metalonda| conda:required_by:: r-metalonda
 .. |downloads_r-metalonda| image:: https://img.shields.io/conda/dn/bioconda/r-metalonda.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-metalonda| image:: https://quay.io/repository/biocontainers/r-metalonda/status
    :target: https://quay.io/repository/biocontainers/r-metalonda
+.. _`r-metalonda/tags`: https://quay.io/repository/biocontainers/r-metalonda?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-metalonda/README.html
-

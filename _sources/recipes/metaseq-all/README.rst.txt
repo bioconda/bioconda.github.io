@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metaseq-all'
 .. highlight: bash
-
 
 metaseq-all
 ===========
@@ -21,11 +22,23 @@ metaseq-all
 
    |downloads_metaseq-all| |docker_metaseq-all|
 
-   :versions: 0.5.6
-
-   :depends: :conda:package:`bedtools`  :conda:package:`metaseq`  :conda:package:`samtools`  :conda:package:`ucsc-bedgraphtobigwig`  :conda:package:`ucsc-bedtobigbed`  :conda:package:`ucsc-bigbedtobed`  :conda:package:`ucsc-bigwigsummary`  
-
-   :required~by: |required_by_metaseq-all|
+   :versions: 0.5.6-2, 0.5.6-1, 0.5.6-0
+   
+   :depends bedtools: 
+   
+   :depends metaseq: 
+   
+   :depends samtools: 
+   
+   :depends ucsc-bedgraphtobigwig: 
+   
+   :depends ucsc-bedtobigbed: 
+   
+   :depends ucsc-bigbedtobed: 
+   
+   :depends ucsc-bigwigsummary: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ metaseq-all
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metaseq-all
+      docker pull quay.io/repository/biocontainers/metaseq-all:<tag>
+
+   (see `metaseq-all/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metaseq-all| conda:required_by:: metaseq-all
 .. |downloads_metaseq-all| image:: https://img.shields.io/conda/dn/bioconda/metaseq-all.svg?style=flat
    :alt:   (downloads)
 .. |docker_metaseq-all| image:: https://quay.io/repository/biocontainers/metaseq-all/status
    :target: https://quay.io/repository/biocontainers/metaseq-all
+.. _`metaseq-all/tags`: https://quay.io/repository/biocontainers/metaseq-all?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metaseq-all/README.html
-

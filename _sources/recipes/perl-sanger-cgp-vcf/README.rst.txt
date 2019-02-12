@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-sanger-cgp-vcf'
 .. highlight: bash
-
 
 perl-sanger-cgp-vcf
 ===================
@@ -21,11 +22,17 @@ perl-sanger-cgp-vcf
 
    |downloads_perl-sanger-cgp-vcf| |docker_perl-sanger-cgp-vcf|
 
-   :versions: 2.2.1, 1.3.1
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-data-uuid`  :conda:package:`perl-vcftools-vcf`  
-
-   :required~by: |required_by_perl-sanger-cgp-vcf|
+   :versions: 2.2.1-0, 1.3.1-3, 1.3.1-2, 1.3.1-1, 1.3.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-data-uuid: 
+   
+   :depends perl-vcftools-vcf: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-sanger-cgp-vcf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sanger-cgp-vcf
+      docker pull quay.io/repository/biocontainers/perl-sanger-cgp-vcf:<tag>
+
+   (see `perl-sanger-cgp-vcf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-sanger-cgp-vcf| conda:required_by:: perl-sanger-cgp-vcf
 .. |downloads_perl-sanger-cgp-vcf| image:: https://img.shields.io/conda/dn/bioconda/perl-sanger-cgp-vcf.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-sanger-cgp-vcf| image:: https://quay.io/repository/biocontainers/perl-sanger-cgp-vcf/status
    :target: https://quay.io/repository/biocontainers/perl-sanger-cgp-vcf
+.. _`perl-sanger-cgp-vcf/tags`: https://quay.io/repository/biocontainers/perl-sanger-cgp-vcf?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-sanger-cgp-vcf/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-xml-xpathengine'
 .. highlight: bash
-
 
 perl-xml-xpathengine
 ====================
@@ -21,11 +22,11 @@ perl-xml-xpathengine
 
    |downloads_perl-xml-xpathengine| |docker_perl-xml-xpathengine|
 
-   :versions: 0.14
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-xml-xpathengine|
+   :versions: 0.14-2, 0.14-1, 0.14-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-xml-xpathengine
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-xpathengine
+      docker pull quay.io/repository/biocontainers/perl-xml-xpathengine:<tag>
+
+   (see `perl-xml-xpathengine/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-xml-xpathengine| conda:required_by:: perl-xml-xpathengine
 .. |downloads_perl-xml-xpathengine| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-xpathengine.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-xml-xpathengine| image:: https://quay.io/repository/biocontainers/perl-xml-xpathengine/status
    :target: https://quay.io/repository/biocontainers/perl-xml-xpathengine
+.. _`perl-xml-xpathengine/tags`: https://quay.io/repository/biocontainers/perl-xml-xpathengine?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-xml-xpathengine/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'intervaltree_bio'
 .. highlight: bash
-
 
 intervaltree_bio
 ================
@@ -21,11 +22,13 @@ intervaltree_bio
 
    |downloads_intervaltree_bio| |docker_intervaltree_bio|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`intervaltree`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_intervaltree_bio|
+   :versions: 1.0.1-1, 1.0.1-0
+   
+   :depends intervaltree: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ intervaltree_bio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/intervaltree_bio
+      docker pull quay.io/repository/biocontainers/intervaltree_bio:<tag>
+
+   (see `intervaltree_bio/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_intervaltree_bio| conda:required_by:: intervaltree_bio
 .. |downloads_intervaltree_bio| image:: https://img.shields.io/conda/dn/bioconda/intervaltree_bio.svg?style=flat
    :alt:   (downloads)
 .. |docker_intervaltree_bio| image:: https://quay.io/repository/biocontainers/intervaltree_bio/status
    :target: https://quay.io/repository/biocontainers/intervaltree_bio
+.. _`intervaltree_bio/tags`: https://quay.io/repository/biocontainers/intervaltree_bio?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/intervaltree_bio/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'starseqr'
 .. highlight: bash
-
 
 starseqr
 ========
@@ -21,11 +22,31 @@ starseqr
 
    |downloads_starseqr| |docker_starseqr|
 
-   :versions: 0.6.7, 0.6.6, 0.6.3, 0.5.0
-
-   :depends: :conda:package:`cython`  :conda:package:`gffread`  :conda:package:`intervaltree_bio`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`pandas` >=0.18.1 :conda:package:`primer3-py`  :conda:package:`pysam` >=0.9.1.4 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`six`  
-
-   :required~by: |required_by_starseqr|
+   :versions: 0.6.7-0, 0.6.6-0, 0.6.3-0, 0.5.0-0
+   
+   :depends cython: 
+   
+   :depends gffread: 
+   
+   :depends intervaltree_bio: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends networkx: 
+   
+   :depends numpy: 
+   
+   :depends pandas: >=0.18.1
+   
+   :depends primer3-py: 
+   
+   :depends pysam: >=0.9.1.4
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ starseqr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/starseqr
+      docker pull quay.io/repository/biocontainers/starseqr:<tag>
+
+   (see `starseqr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_starseqr| conda:required_by:: starseqr
 .. |downloads_starseqr| image:: https://img.shields.io/conda/dn/bioconda/starseqr.svg?style=flat
    :alt:   (downloads)
 .. |docker_starseqr| image:: https://quay.io/repository/biocontainers/starseqr/status
    :target: https://quay.io/repository/biocontainers/starseqr
+.. _`starseqr/tags`: https://quay.io/repository/biocontainers/starseqr?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/starseqr/README.html
-

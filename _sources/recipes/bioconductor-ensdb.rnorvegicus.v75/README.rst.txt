@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ensdb.rnorvegicus.v75'
 .. highlight: bash
-
 
 bioconductor-ensdb.rnorvegicus.v75
 ==================================
@@ -21,11 +22,15 @@ bioconductor-ensdb.rnorvegicus.v75
 
    |downloads_bioconductor-ensdb.rnorvegicus.v75| |docker_bioconductor-ensdb.rnorvegicus.v75|
 
-   :versions: 2.99.0
-
-   :depends: :conda:package:`bioconductor-ensembldb` >=2.6.0,<2.7.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-ensdb.rnorvegicus.v75|
+   :versions: 2.99.0-0
+   
+   :depends bioconductor-ensembldb: >=2.6.0,<2.7.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-ensdb.rnorvegicus.v75
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ensdb.rnorvegicus.v75
+      docker pull quay.io/repository/biocontainers/bioconductor-ensdb.rnorvegicus.v75:<tag>
+
+   (see `bioconductor-ensdb.rnorvegicus.v75/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ensdb.rnorvegicus.v75| conda:required_by:: bioconductor-ensdb.rnorvegicus.v75
 .. |downloads_bioconductor-ensdb.rnorvegicus.v75| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ensdb.rnorvegicus.v75.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ensdb.rnorvegicus.v75| image:: https://quay.io/repository/biocontainers/bioconductor-ensdb.rnorvegicus.v75/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ensdb.rnorvegicus.v75
+.. _`bioconductor-ensdb.rnorvegicus.v75/tags`: https://quay.io/repository/biocontainers/bioconductor-ensdb.rnorvegicus.v75?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ensdb.rnorvegicus.v75/README.html
-

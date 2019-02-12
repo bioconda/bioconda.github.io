@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nucamino'
 .. highlight: bash
-
 
 nucamino
 ========
@@ -21,11 +22,9 @@ nucamino
 
    |downloads_nucamino| |docker_nucamino|
 
-   :versions: 0.1.3
-
-   :depends: 
-
-   :required~by: |required_by_nucamino|
+   :versions: 0.1.3-1, 0.1.3-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ nucamino
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nucamino
+      docker pull quay.io/repository/biocontainers/nucamino:<tag>
+
+   (see `nucamino/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nucamino| conda:required_by:: nucamino
 .. |downloads_nucamino| image:: https://img.shields.io/conda/dn/bioconda/nucamino.svg?style=flat
    :alt:   (downloads)
 .. |docker_nucamino| image:: https://quay.io/repository/biocontainers/nucamino/status
    :target: https://quay.io/repository/biocontainers/nucamino
+.. _`nucamino/tags`: https://quay.io/repository/biocontainers/nucamino?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nucamino/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bax2bam'
 .. highlight: bash
-
 
 bax2bam
 =======
@@ -21,11 +22,19 @@ bax2bam
 
    |downloads_bax2bam| |docker_bax2bam|
 
-   :versions: 0.0.9
-
-   :depends: :conda:package:`blasr_libcpp` >=5.3.1 :conda:package:`hdf5` 1.8.17* :conda:package:`libgcc`  :conda:package:`pbbam` >=0.18.0 
-
-   :required~by: |required_by_bax2bam|
+   :versions: 0.0.9-5, 0.0.9-4, 0.0.9-3, 0.0.9-1, 0.0.9-0
+   
+   :depends blasr_libcpp: 5.3.1.*
+   
+   :depends hdf5: >=1.10.3,<1.10.4.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends pbbam: 0.19.0.*
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bax2bam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bax2bam
+      docker pull quay.io/repository/biocontainers/bax2bam:<tag>
+
+   (see `bax2bam/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bax2bam| conda:required_by:: bax2bam
 .. |downloads_bax2bam| image:: https://img.shields.io/conda/dn/bioconda/bax2bam.svg?style=flat
    :alt:   (downloads)
 .. |docker_bax2bam| image:: https://quay.io/repository/biocontainers/bax2bam/status
    :target: https://quay.io/repository/biocontainers/bax2bam
+.. _`bax2bam/tags`: https://quay.io/repository/biocontainers/bax2bam?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bax2bam/README.html
-

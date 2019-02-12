@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ruffus'
 .. highlight: bash
-
 
 ruffus
 ======
@@ -21,11 +22,11 @@ ruffus
 
    |downloads_ruffus| |docker_ruffus|
 
-   :versions: 2.8.1, 2.8, 2.7, 2.6.3
-
-   :depends: :conda:package:`python`  
-
-   :required~by: |required_by_ruffus|
+   :versions: 2.8.1-0, 2.8-0, 2.7-0, 2.6.3-1, 2.6.3-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ ruffus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ruffus
+      docker pull quay.io/repository/biocontainers/ruffus:<tag>
+
+   (see `ruffus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ruffus| conda:required_by:: ruffus
 .. |downloads_ruffus| image:: https://img.shields.io/conda/dn/bioconda/ruffus.svg?style=flat
    :alt:   (downloads)
 .. |docker_ruffus| image:: https://quay.io/repository/biocontainers/ruffus/status
    :target: https://quay.io/repository/biocontainers/ruffus
+.. _`ruffus/tags`: https://quay.io/repository/biocontainers/ruffus?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ruffus/README.html
-

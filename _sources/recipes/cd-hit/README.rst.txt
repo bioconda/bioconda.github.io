@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cd-hit'
 .. highlight: bash
-
 
 cd-hit
 ======
@@ -21,11 +22,13 @@ cd-hit
 
    |downloads_cd-hit| |docker_cd-hit|
 
-   :versions: 4.6.8, 4.6.6, 4.6.4
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_cd-hit|
+   :versions: 4.6.8-2, 4.6.8-1, 4.6.8-0, 4.6.6-0, 4.6.4-1, 4.6.4-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ cd-hit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cd-hit
+      docker pull quay.io/repository/biocontainers/cd-hit:<tag>
+
+   (see `cd-hit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cd-hit| conda:required_by:: cd-hit
 .. |downloads_cd-hit| image:: https://img.shields.io/conda/dn/bioconda/cd-hit.svg?style=flat
    :alt:   (downloads)
 .. |docker_cd-hit| image:: https://quay.io/repository/biocontainers/cd-hit/status
    :target: https://quay.io/repository/biocontainers/cd-hit
+.. _`cd-hit/tags`: https://quay.io/repository/biocontainers/cd-hit?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cd-hit/README.html
-

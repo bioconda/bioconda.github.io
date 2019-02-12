@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'clust'
 .. highlight: bash
-
 
 clust
 =====
@@ -22,11 +23,27 @@ clust
 
    |downloads_clust| |docker_clust|
 
-   :versions: 1.8.10, 1.8.9, 1.8.7, 1.8.4
-
-   :depends: :conda:package:`joblib`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`portalocker`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scikit-learn`  :conda:package:`scipy`  :conda:package:`sompy`  
-
-   :required~by: |required_by_clust|
+   :versions: 1.8.10-0, 1.8.9-0, 1.8.7-0, 1.8.4-0
+   
+   :depends joblib: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends portalocker: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scikit-learn: 
+   
+   :depends scipy: 
+   
+   :depends sompy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ clust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clust
+      docker pull quay.io/repository/biocontainers/clust:<tag>
+
+   (see `clust/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_clust| conda:required_by:: clust
 .. |downloads_clust| image:: https://img.shields.io/conda/dn/bioconda/clust.svg?style=flat
    :alt:   (downloads)
 .. |docker_clust| image:: https://quay.io/repository/biocontainers/clust/status
    :target: https://quay.io/repository/biocontainers/clust
+.. _`clust/tags`: https://quay.io/repository/biocontainers/clust?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/clust/README.html
-

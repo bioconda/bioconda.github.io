@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'schavott'
 .. highlight: bash
-
 
 schavott
 ========
@@ -21,11 +22,21 @@ schavott
 
    |downloads_schavott| |docker_schavott|
 
-   :versions: 0.5.0, 0.4.1, 0.3, 0.2
-
-   :depends: :conda:package:`bokeh`  :conda:package:`h5py` >=2.2.0 :conda:package:`numpy`  :conda:package:`pyfasta`  :conda:package:`python` 2.7* :conda:package:`watchdog` >=0.8.3 
-
-   :required~by: |required_by_schavott|
+   :versions: 0.5.0-1, 0.5.0-0, 0.4.1-0, 0.3-0, 0.2-0
+   
+   :depends bokeh: 
+   
+   :depends h5py: >=2.2.0
+   
+   :depends numpy: 
+   
+   :depends pyfasta: 
+   
+   :depends python: 
+   
+   :depends watchdog: >=0.8.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ schavott
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/schavott
+      docker pull quay.io/repository/biocontainers/schavott:<tag>
+
+   (see `schavott/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_schavott| conda:required_by:: schavott
 .. |downloads_schavott| image:: https://img.shields.io/conda/dn/bioconda/schavott.svg?style=flat
    :alt:   (downloads)
 .. |docker_schavott| image:: https://quay.io/repository/biocontainers/schavott/status
    :target: https://quay.io/repository/biocontainers/schavott
+.. _`schavott/tags`: https://quay.io/repository/biocontainers/schavott?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/schavott/README.html
-

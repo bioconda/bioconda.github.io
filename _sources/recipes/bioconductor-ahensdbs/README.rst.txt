@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ahensdbs'
 .. highlight: bash
-
 
 bioconductor-ahensdbs
 =====================
@@ -21,11 +22,17 @@ bioconductor-ahensdbs
 
    |downloads_bioconductor-ahensdbs| |docker_bioconductor-ahensdbs|
 
-   :versions: 1.0.8
-
-   :depends: :conda:package:`bioconductor-annotationhubdata` >=1.12.0,<1.13.0 :conda:package:`bioconductor-ensembldb` >=2.6.0,<2.7.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-ahensdbs|
+   :versions: 1.0.8-0
+   
+   :depends bioconductor-annotationhubdata: >=1.12.0,<1.13.0
+   
+   :depends bioconductor-ensembldb: >=2.6.0,<2.7.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-ahensdbs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ahensdbs
+      docker pull quay.io/repository/biocontainers/bioconductor-ahensdbs:<tag>
+
+   (see `bioconductor-ahensdbs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ahensdbs| conda:required_by:: bioconductor-ahensdbs
 .. |downloads_bioconductor-ahensdbs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ahensdbs.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ahensdbs| image:: https://quay.io/repository/biocontainers/bioconductor-ahensdbs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ahensdbs
+.. _`bioconductor-ahensdbs/tags`: https://quay.io/repository/biocontainers/bioconductor-ahensdbs?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ahensdbs/README.html
-

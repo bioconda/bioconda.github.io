@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-loom'
 .. highlight: bash
-
 
 r-loom
 ======
@@ -21,11 +22,19 @@ r-loom
 
    |downloads_r-loom| |docker_r-loom|
 
-   :versions: 0.2.0.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-hdf5r`  :conda:package:`r-iterators`  :conda:package:`r-itertools`  :conda:package:`r-matrix`  
-
-   :required~by: |required_by_r-loom|
+   :versions: 0.2.0.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-hdf5r: 
+   
+   :depends r-iterators: 
+   
+   :depends r-itertools: 
+   
+   :depends r-matrix: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ r-loom
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-loom
+      docker pull quay.io/repository/biocontainers/r-loom:<tag>
+
+   (see `r-loom/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-loom| conda:required_by:: r-loom
 .. |downloads_r-loom| image:: https://img.shields.io/conda/dn/bioconda/r-loom.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-loom| image:: https://quay.io/repository/biocontainers/r-loom/status
    :target: https://quay.io/repository/biocontainers/r-loom
+.. _`r-loom/tags`: https://quay.io/repository/biocontainers/r-loom?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-loom/README.html
-

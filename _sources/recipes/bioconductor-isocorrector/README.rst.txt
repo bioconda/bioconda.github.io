@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-isocorrector'
 .. highlight: bash
-
 
 bioconductor-isocorrector
 =========================
@@ -21,11 +22,29 @@ bioconductor-isocorrector
 
    |downloads_bioconductor-isocorrector| |docker_bioconductor-isocorrector|
 
-   :versions: 1.0.5
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-magrittr`  :conda:package:`r-pracma`  :conda:package:`r-quadprog`  :conda:package:`r-readr`  :conda:package:`r-readxl`  :conda:package:`r-stringr`  :conda:package:`r-tibble`  :conda:package:`r-writexls`  
-
-   :required~by: |required_by_bioconductor-isocorrector|
+   :versions: 1.0.5-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-pracma: 
+   
+   :depends r-quadprog: 
+   
+   :depends r-readr: 
+   
+   :depends r-readxl: 
+   
+   :depends r-stringr: 
+   
+   :depends r-tibble: 
+   
+   :depends r-writexls: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ bioconductor-isocorrector
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-isocorrector
+      docker pull quay.io/repository/biocontainers/bioconductor-isocorrector:<tag>
+
+   (see `bioconductor-isocorrector/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-isocorrector| conda:required_by:: bioconductor-isocorrector
 .. |downloads_bioconductor-isocorrector| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-isocorrector.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-isocorrector| image:: https://quay.io/repository/biocontainers/bioconductor-isocorrector/status
    :target: https://quay.io/repository/biocontainers/bioconductor-isocorrector
+.. _`bioconductor-isocorrector/tags`: https://quay.io/repository/biocontainers/bioconductor-isocorrector?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-isocorrector/README.html
-

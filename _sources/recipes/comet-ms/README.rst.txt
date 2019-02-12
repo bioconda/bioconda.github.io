@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'comet-ms'
 .. highlight: bash
-
 
 comet-ms
 ========
@@ -22,11 +23,11 @@ comet-ms
 
    |downloads_comet-ms| |docker_comet-ms|
 
-   :versions: 2018013, 2018012, 2016013
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_comet-ms|
+   :versions: 2018013-0, 2018012-1, 2018012-0, 2016013-1
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ comet-ms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/comet-ms
+      docker pull quay.io/repository/biocontainers/comet-ms:<tag>
+
+   (see `comet-ms/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_comet-ms| conda:required_by:: comet-ms
 .. |downloads_comet-ms| image:: https://img.shields.io/conda/dn/bioconda/comet-ms.svg?style=flat
    :alt:   (downloads)
 .. |docker_comet-ms| image:: https://quay.io/repository/biocontainers/comet-ms/status
    :target: https://quay.io/repository/biocontainers/comet-ms
+.. _`comet-ms/tags`: https://quay.io/repository/biocontainers/comet-ms?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/comet-ms/README.html
-

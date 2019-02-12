@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-fgnet'
 .. highlight: bash
-
 
 bioconductor-fgnet
 ==================
@@ -21,11 +22,27 @@ bioconductor-fgnet
 
    |downloads_bioconductor-fgnet| |docker_bioconductor-fgnet|
 
-   :versions: 3.16.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-hwriter`  :conda:package:`r-igraph` >=0.6 :conda:package:`r-plotrix`  :conda:package:`r-png`  :conda:package:`r-r.utils`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-fgnet|
+   :versions: 3.16.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-hwriter: 
+   
+   :depends r-igraph: >=0.6
+   
+   :depends r-plotrix: 
+   
+   :depends r-png: 
+   
+   :depends r-r.utils: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-fgnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fgnet
+      docker pull quay.io/repository/biocontainers/bioconductor-fgnet:<tag>
+
+   (see `bioconductor-fgnet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-fgnet| conda:required_by:: bioconductor-fgnet
 .. |downloads_bioconductor-fgnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fgnet.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-fgnet| image:: https://quay.io/repository/biocontainers/bioconductor-fgnet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fgnet
+.. _`bioconductor-fgnet/tags`: https://quay.io/repository/biocontainers/bioconductor-fgnet?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-fgnet/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'novobreak'
 .. highlight: bash
-
 
 novobreak
 =========
@@ -21,11 +22,15 @@ novobreak
 
    |downloads_novobreak| |docker_novobreak|
 
-   :versions: 1.1.3rc
-
-   :depends: :conda:package:`bwa` >=0.7.10 :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
-
-   :required~by: |required_by_novobreak|
+   :versions: 1.1.3rc-2, 1.1.3rc-1, 1.1.3rc-0
+   
+   :depends bwa: >=0.7.10
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ novobreak
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/novobreak
+      docker pull quay.io/repository/biocontainers/novobreak:<tag>
+
+   (see `novobreak/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_novobreak| conda:required_by:: novobreak
 .. |downloads_novobreak| image:: https://img.shields.io/conda/dn/bioconda/novobreak.svg?style=flat
    :alt:   (downloads)
 .. |docker_novobreak| image:: https://quay.io/repository/biocontainers/novobreak/status
    :target: https://quay.io/repository/biocontainers/novobreak
+.. _`novobreak/tags`: https://quay.io/repository/biocontainers/novobreak?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/novobreak/README.html
-

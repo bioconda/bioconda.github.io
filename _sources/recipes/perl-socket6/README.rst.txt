@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-socket6'
 .. highlight: bash
-
 
 perl-socket6
 ============
@@ -21,11 +22,11 @@ perl-socket6
 
    |downloads_perl-socket6| |docker_perl-socket6|
 
-   :versions: 0.29, 0.25
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-socket6|
+   :versions: 0.29-0, 0.25-1, 0.25-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-socket6
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-socket6
+      docker pull quay.io/repository/biocontainers/perl-socket6:<tag>
+
+   (see `perl-socket6/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-socket6| conda:required_by:: perl-socket6
 .. |downloads_perl-socket6| image:: https://img.shields.io/conda/dn/bioconda/perl-socket6.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-socket6| image:: https://quay.io/repository/biocontainers/perl-socket6/status
    :target: https://quay.io/repository/biocontainers/perl-socket6
+.. _`perl-socket6/tags`: https://quay.io/repository/biocontainers/perl-socket6?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-socket6/README.html
-

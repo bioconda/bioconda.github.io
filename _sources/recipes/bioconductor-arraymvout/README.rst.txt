@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-arraymvout'
 .. highlight: bash
-
 
 bioconductor-arraymvout
 =======================
@@ -21,11 +22,25 @@ bioconductor-arraymvout
 
    |downloads_bioconductor-arraymvout| |docker_bioconductor-arraymvout|
 
-   :versions: 1.40.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-affycontam` >=1.40.0,<1.41.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-lumi` >=2.34.0,<2.35.0 :conda:package:`bioconductor-mdqc` >=1.44.0,<1.45.0 :conda:package:`bioconductor-parody` >=1.40.0,<1.41.0 :conda:package:`bioconductor-simpleaffy` >=2.58.0,<2.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-arraymvout|
+   :versions: 1.40.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-affycontam: >=1.40.0,<1.41.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-lumi: >=2.34.0,<2.35.0
+   
+   :depends bioconductor-mdqc: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-parody: >=1.40.0,<1.41.0
+   
+   :depends bioconductor-simpleaffy: >=2.58.0,<2.59.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bioconductor-arraymvout
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-arraymvout
+      docker pull quay.io/repository/biocontainers/bioconductor-arraymvout:<tag>
+
+   (see `bioconductor-arraymvout/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-arraymvout| conda:required_by:: bioconductor-arraymvout
 .. |downloads_bioconductor-arraymvout| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arraymvout.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-arraymvout| image:: https://quay.io/repository/biocontainers/bioconductor-arraymvout/status
    :target: https://quay.io/repository/biocontainers/bioconductor-arraymvout
+.. _`bioconductor-arraymvout/tags`: https://quay.io/repository/biocontainers/bioconductor-arraymvout?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-arraymvout/README.html
-

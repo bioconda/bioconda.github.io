@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cortex_con'
 .. highlight: bash
-
 
 cortex_con
 ==========
@@ -22,11 +23,11 @@ cortex_con
 
    |downloads_cortex_con| |docker_cortex_con|
 
-   :versions: 0.04c
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_cortex_con|
+   :versions: 0.04c-1, 0.04c-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ cortex_con
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cortex_con
+      docker pull quay.io/repository/biocontainers/cortex_con:<tag>
+
+   (see `cortex_con/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cortex_con| conda:required_by:: cortex_con
 .. |downloads_cortex_con| image:: https://img.shields.io/conda/dn/bioconda/cortex_con.svg?style=flat
    :alt:   (downloads)
 .. |docker_cortex_con| image:: https://quay.io/repository/biocontainers/cortex_con/status
    :target: https://quay.io/repository/biocontainers/cortex_con
+.. _`cortex_con/tags`: https://quay.io/repository/biocontainers/cortex_con?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cortex_con/README.html
-

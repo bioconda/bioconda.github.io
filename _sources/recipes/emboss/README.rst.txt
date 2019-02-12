@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'emboss'
 .. highlight: bash
-
 
 emboss
 ======
@@ -21,11 +22,17 @@ emboss
 
    |downloads_emboss| |docker_emboss|
 
-   :versions: 6.6.0, 6.5.7
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgd`  :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_emboss|
+   :versions: 6.6.0-0, 6.5.7-5, 6.5.7-4, 6.5.7-3, 6.5.7-2, 6.5.7-1, 6.5.7-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libgd: 
+   
+   :depends libpng: >=1.6.34,<1.7.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ emboss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/emboss
+      docker pull quay.io/repository/biocontainers/emboss:<tag>
+
+   (see `emboss/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_emboss| conda:required_by:: emboss
 .. |downloads_emboss| image:: https://img.shields.io/conda/dn/bioconda/emboss.svg?style=flat
    :alt:   (downloads)
 .. |docker_emboss| image:: https://quay.io/repository/biocontainers/emboss/status
    :target: https://quay.io/repository/biocontainers/emboss
+.. _`emboss/tags`: https://quay.io/repository/biocontainers/emboss?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/emboss/README.html
-

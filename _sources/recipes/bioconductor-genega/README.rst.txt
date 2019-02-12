@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-genega'
 .. highlight: bash
-
 
 bioconductor-genega
 ===================
@@ -22,11 +23,15 @@ bioconductor-genega
 
    |downloads_bioconductor-genega| |docker_bioconductor-genega|
 
-   :versions: 1.32.0, 1.30.0, 1.28.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-hash`  :conda:package:`r-seqinr`  
-
-   :required~by: |required_by_bioconductor-genega|
+   :versions: 1.32.0-0, 1.30.0-0, 1.28.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-hash: 
+   
+   :depends r-seqinr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-genega
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genega
+      docker pull quay.io/repository/biocontainers/bioconductor-genega:<tag>
+
+   (see `bioconductor-genega/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-genega| conda:required_by:: bioconductor-genega
 .. |downloads_bioconductor-genega| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genega.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-genega| image:: https://quay.io/repository/biocontainers/bioconductor-genega/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genega
+.. _`bioconductor-genega/tags`: https://quay.io/repository/biocontainers/bioconductor-genega?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-genega/README.html
-

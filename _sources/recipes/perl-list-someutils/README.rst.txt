@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-list-someutils'
 .. highlight: bash
-
 
 perl-list-someutils
 ===================
@@ -21,11 +22,19 @@ perl-list-someutils
 
    |downloads_perl-list-someutils| |docker_perl-list-someutils|
 
-   :versions: 0.56, 0.53
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-module-implementation`  
-
-   :required~by: |required_by_perl-list-someutils|
+   :versions: 0.56-0, 0.53-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-module-implementation: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ perl-list-someutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-list-someutils
+      docker pull quay.io/repository/biocontainers/perl-list-someutils:<tag>
+
+   (see `perl-list-someutils/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-list-someutils| conda:required_by:: perl-list-someutils
 .. |downloads_perl-list-someutils| image:: https://img.shields.io/conda/dn/bioconda/perl-list-someutils.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-list-someutils| image:: https://quay.io/repository/biocontainers/perl-list-someutils/status
    :target: https://quay.io/repository/biocontainers/perl-list-someutils
+.. _`perl-list-someutils/tags`: https://quay.io/repository/biocontainers/perl-list-someutils?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-list-someutils/README.html
-

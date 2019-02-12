@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-htssip'
 .. highlight: bash
-
 
 r-htssip
 ========
@@ -21,11 +22,37 @@ r-htssip
 
    |downloads_r-htssip| |docker_r-htssip|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-deseq2` >=1.16.1 :conda:package:`bioconductor-phyloseq` >=1.20.0 :conda:package:`r-ape` >=4.1 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-coenocliner` >=0.2.2 :conda:package:`r-dplyr` >=0.7.4 :conda:package:`r-ggplot2` >=2.2.1 :conda:package:`r-igraph` >=1.1.2 :conda:package:`r-lazyeval` >=0.2.0 :conda:package:`r-magrittr` >=1.5 :conda:package:`r-plyr` >=1.8.4 :conda:package:`r-stringr` >=1.2.0 :conda:package:`r-tidyr` >=0.7.2 :conda:package:`r-vegan` >=2.4.0 
-
-   :required~by: |required_by_r-htssip|
+   :versions: 1.4.0-3, 1.4.0-2, 1.4.0-1, 1.4.0-0
+   
+   :depends bioconductor-deseq2: >=1.20.0,<1.22.0
+   
+   :depends bioconductor-phyloseq: >=1.20.0
+   
+   :depends r-ape: >=4.1
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-coenocliner: >=0.2.2
+   
+   :depends r-dplyr: >=0.7.4
+   
+   :depends r-ggplot2: >=2.2.1
+   
+   :depends r-igraph: >=1.1.2
+   
+   :depends r-lazyeval: >=0.2.0
+   
+   :depends r-magrittr: >=1.5
+   
+   :depends r-plyr: >=1.8.4
+   
+   :depends r-stringr: >=1.2.0
+   
+   :depends r-tidyr: >=0.7.2
+   
+   :depends r-vegan: >=2.4.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ r-htssip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-htssip
+      docker pull quay.io/repository/biocontainers/r-htssip:<tag>
+
+   (see `r-htssip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-htssip| conda:required_by:: r-htssip
 .. |downloads_r-htssip| image:: https://img.shields.io/conda/dn/bioconda/r-htssip.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-htssip| image:: https://quay.io/repository/biocontainers/r-htssip/status
    :target: https://quay.io/repository/biocontainers/r-htssip
+.. _`r-htssip/tags`: https://quay.io/repository/biocontainers/r-htssip?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-htssip/README.html
-

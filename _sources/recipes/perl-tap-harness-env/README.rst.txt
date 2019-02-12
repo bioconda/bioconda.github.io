@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-tap-harness-env'
 .. highlight: bash
-
 
 perl-tap-harness-env
 ====================
@@ -21,11 +22,11 @@ perl-tap-harness-env
 
    |downloads_perl-tap-harness-env| |docker_perl-tap-harness-env|
 
-   :versions: 3.30
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-tap-harness-env|
+   :versions: 3.30-1, 3.30-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-tap-harness-env
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-tap-harness-env
+      docker pull quay.io/repository/biocontainers/perl-tap-harness-env:<tag>
+
+   (see `perl-tap-harness-env/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-tap-harness-env| conda:required_by:: perl-tap-harness-env
 .. |downloads_perl-tap-harness-env| image:: https://img.shields.io/conda/dn/bioconda/perl-tap-harness-env.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-tap-harness-env| image:: https://quay.io/repository/biocontainers/perl-tap-harness-env/status
    :target: https://quay.io/repository/biocontainers/perl-tap-harness-env
+.. _`perl-tap-harness-env/tags`: https://quay.io/repository/biocontainers/perl-tap-harness-env?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-tap-harness-env/README.html
-

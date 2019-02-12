@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-factdesign'
 .. highlight: bash
-
 
 bioconductor-factdesign
 =======================
@@ -21,11 +22,13 @@ bioconductor-factdesign
 
    |downloads_bioconductor-factdesign| |docker_bioconductor-factdesign|
 
-   :versions: 1.58.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-factdesign|
+   :versions: 1.58.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-factdesign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-factdesign
+      docker pull quay.io/repository/biocontainers/bioconductor-factdesign:<tag>
+
+   (see `bioconductor-factdesign/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-factdesign| conda:required_by:: bioconductor-factdesign
 .. |downloads_bioconductor-factdesign| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-factdesign.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-factdesign| image:: https://quay.io/repository/biocontainers/bioconductor-factdesign/status
    :target: https://quay.io/repository/biocontainers/bioconductor-factdesign
+.. _`bioconductor-factdesign/tags`: https://quay.io/repository/biocontainers/bioconductor-factdesign?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-factdesign/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bio-db-sam'
 .. highlight: bash
-
 
 perl-bio-db-sam
 ===============
@@ -21,11 +22,15 @@ perl-bio-db-sam
 
    |downloads_perl-bio-db-sam| |docker_perl-bio-db-sam|
 
-   :versions: 1.41
-
-   :depends: :conda:package:`perl-bioperl`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-bio-db-sam|
+   :versions: 1.41-2, 1.41-1, 1.41-0
+   
+   :depends libgcc: 
+   
+   :depends perl-bioperl: 
+   
+   :depends perl-threaded: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-bio-db-sam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-db-sam
+      docker pull quay.io/repository/biocontainers/perl-bio-db-sam:<tag>
+
+   (see `perl-bio-db-sam/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bio-db-sam| conda:required_by:: perl-bio-db-sam
 .. |downloads_perl-bio-db-sam| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-db-sam.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bio-db-sam| image:: https://quay.io/repository/biocontainers/perl-bio-db-sam/status
    :target: https://quay.io/repository/biocontainers/perl-bio-db-sam
+.. _`perl-bio-db-sam/tags`: https://quay.io/repository/biocontainers/perl-bio-db-sam?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bio-db-sam/README.html
-

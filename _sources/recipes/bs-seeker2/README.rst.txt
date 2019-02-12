@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bs-seeker2'
 .. highlight: bash
-
 
 bs-seeker2
 ==========
@@ -21,11 +22,15 @@ bs-seeker2
 
    |downloads_bs-seeker2| |docker_bs-seeker2|
 
-   :versions: 2.1.0
-
-   :depends: :conda:package:`bowtie2`  :conda:package:`pysam`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_bs-seeker2|
+   :versions: 2.1.0-0
+   
+   :depends bowtie2: 
+   
+   :depends pysam: 
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bs-seeker2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bs-seeker2
+      docker pull quay.io/repository/biocontainers/bs-seeker2:<tag>
+
+   (see `bs-seeker2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bs-seeker2| conda:required_by:: bs-seeker2
 .. |downloads_bs-seeker2| image:: https://img.shields.io/conda/dn/bioconda/bs-seeker2.svg?style=flat
    :alt:   (downloads)
 .. |docker_bs-seeker2| image:: https://quay.io/repository/biocontainers/bs-seeker2/status
    :target: https://quay.io/repository/biocontainers/bs-seeker2
+.. _`bs-seeker2/tags`: https://quay.io/repository/biocontainers/bs-seeker2?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bs-seeker2/README.html
-

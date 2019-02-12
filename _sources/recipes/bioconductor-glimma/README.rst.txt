@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-glimma'
 .. highlight: bash
-
 
 bioconductor-glimma
 ===================
@@ -22,11 +23,17 @@ bioconductor-glimma
 
    |downloads_bioconductor-glimma| |docker_bioconductor-glimma|
 
-   :versions: 1.10.0, 1.8.2, 1.6.0
-
-   :depends: :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-jsonlite`  
-
-   :required~by: |required_by_bioconductor-glimma|
+   :versions: 1.10.0-0, 1.8.2-0, 1.6.0-0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-jsonlite: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-glimma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-glimma
+      docker pull quay.io/repository/biocontainers/bioconductor-glimma:<tag>
+
+   (see `bioconductor-glimma/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-glimma| conda:required_by:: bioconductor-glimma
 .. |downloads_bioconductor-glimma| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-glimma.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-glimma| image:: https://quay.io/repository/biocontainers/bioconductor-glimma/status
    :target: https://quay.io/repository/biocontainers/bioconductor-glimma
+.. _`bioconductor-glimma/tags`: https://quay.io/repository/biocontainers/bioconductor-glimma?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-glimma/README.html
-

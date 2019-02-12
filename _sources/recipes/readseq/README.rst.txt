@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'readseq'
 .. highlight: bash
-
 
 readseq
 =======
@@ -21,11 +22,11 @@ readseq
 
    |downloads_readseq| |docker_readseq|
 
-   :versions: 2.1.30
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_readseq|
+   :versions: 2.1.30-1, 2.1.30-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ readseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/readseq
+      docker pull quay.io/repository/biocontainers/readseq:<tag>
+
+   (see `readseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_readseq| conda:required_by:: readseq
 .. |downloads_readseq| image:: https://img.shields.io/conda/dn/bioconda/readseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_readseq| image:: https://quay.io/repository/biocontainers/readseq/status
    :target: https://quay.io/repository/biocontainers/readseq
+.. _`readseq/tags`: https://quay.io/repository/biocontainers/readseq?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/readseq/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nextgenmap'
 .. highlight: bash
-
 
 nextgenmap
 ==========
@@ -21,11 +22,11 @@ nextgenmap
 
    |downloads_nextgenmap| |docker_nextgenmap|
 
-   :versions: 0.5.5, 0.5.3, 0.4.13
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_nextgenmap|
+   :versions: 0.5.5-2, 0.5.5-0, 0.5.3-1, 0.5.3-0, 0.4.13-1, 0.4.13-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ nextgenmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nextgenmap
+      docker pull quay.io/repository/biocontainers/nextgenmap:<tag>
+
+   (see `nextgenmap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nextgenmap| conda:required_by:: nextgenmap
 .. |downloads_nextgenmap| image:: https://img.shields.io/conda/dn/bioconda/nextgenmap.svg?style=flat
    :alt:   (downloads)
 .. |docker_nextgenmap| image:: https://quay.io/repository/biocontainers/nextgenmap/status
    :target: https://quay.io/repository/biocontainers/nextgenmap
+.. _`nextgenmap/tags`: https://quay.io/repository/biocontainers/nextgenmap?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nextgenmap/README.html
-

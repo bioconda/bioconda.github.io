@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-scalar-util-numeric'
 .. highlight: bash
-
 
 perl-scalar-util-numeric
 ========================
@@ -21,11 +22,11 @@ perl-scalar-util-numeric
 
    |downloads_perl-scalar-util-numeric| |docker_perl-scalar-util-numeric|
 
-   :versions: 0.40
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-scalar-util-numeric|
+   :versions: 0.40-1, 0.40-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-scalar-util-numeric
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-scalar-util-numeric
+      docker pull quay.io/repository/biocontainers/perl-scalar-util-numeric:<tag>
+
+   (see `perl-scalar-util-numeric/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-scalar-util-numeric| conda:required_by:: perl-scalar-util-numeric
 .. |downloads_perl-scalar-util-numeric| image:: https://img.shields.io/conda/dn/bioconda/perl-scalar-util-numeric.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-scalar-util-numeric| image:: https://quay.io/repository/biocontainers/perl-scalar-util-numeric/status
    :target: https://quay.io/repository/biocontainers/perl-scalar-util-numeric
+.. _`perl-scalar-util-numeric/tags`: https://quay.io/repository/biocontainers/perl-scalar-util-numeric?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-scalar-util-numeric/README.html
-

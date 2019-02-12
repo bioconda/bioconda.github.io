@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'transgenescan'
 .. highlight: bash
-
 
 transgenescan
 =============
@@ -22,11 +23,11 @@ transgenescan
 
    |downloads_transgenescan| |docker_transgenescan|
 
-   :versions: 1.2.1
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_transgenescan|
+   :versions: 1.2.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ transgenescan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/transgenescan
+      docker pull quay.io/repository/biocontainers/transgenescan:<tag>
+
+   (see `transgenescan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_transgenescan| conda:required_by:: transgenescan
 .. |downloads_transgenescan| image:: https://img.shields.io/conda/dn/bioconda/transgenescan.svg?style=flat
    :alt:   (downloads)
 .. |docker_transgenescan| image:: https://quay.io/repository/biocontainers/transgenescan/status
    :target: https://quay.io/repository/biocontainers/transgenescan
+.. _`transgenescan/tags`: https://quay.io/repository/biocontainers/transgenescan?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/transgenescan/README.html
-

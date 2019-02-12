@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-integer'
 .. highlight: bash
-
 
 perl-integer
 ============
@@ -21,11 +22,11 @@ perl-integer
 
    |downloads_perl-integer| |docker_perl-integer|
 
-   :versions: 1.01
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-integer|
+   :versions: 1.01-1, 1.01-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-integer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-integer
+      docker pull quay.io/repository/biocontainers/perl-integer:<tag>
+
+   (see `perl-integer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-integer| conda:required_by:: perl-integer
 .. |downloads_perl-integer| image:: https://img.shields.io/conda/dn/bioconda/perl-integer.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-integer| image:: https://quay.io/repository/biocontainers/perl-integer/status
    :target: https://quay.io/repository/biocontainers/perl-integer
+.. _`perl-integer/tags`: https://quay.io/repository/biocontainers/perl-integer?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-integer/README.html
-

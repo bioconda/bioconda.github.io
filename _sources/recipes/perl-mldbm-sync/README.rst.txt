@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-mldbm-sync'
 .. highlight: bash
-
 
 perl-mldbm-sync
 ===============
@@ -21,11 +22,15 @@ perl-mldbm-sync
 
    |downloads_perl-mldbm-sync| |docker_perl-mldbm-sync|
 
-   :versions: 0.30
-
-   :depends: :conda:package:`perl-mldbm`  :conda:package:`perl-threaded`  :conda:package:`perl-tie-cache`  
-
-   :required~by: |required_by_perl-mldbm-sync|
+   :versions: 0.30-1, 0.30-0
+   
+   :depends perl: >=5.26.0,<5.27.0a0
+   
+   :depends perl-mldbm: 
+   
+   :depends perl-tie-cache: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-mldbm-sync
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mldbm-sync
+      docker pull quay.io/repository/biocontainers/perl-mldbm-sync:<tag>
+
+   (see `perl-mldbm-sync/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-mldbm-sync| conda:required_by:: perl-mldbm-sync
 .. |downloads_perl-mldbm-sync| image:: https://img.shields.io/conda/dn/bioconda/perl-mldbm-sync.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-mldbm-sync| image:: https://quay.io/repository/biocontainers/perl-mldbm-sync/status
    :target: https://quay.io/repository/biocontainers/perl-mldbm-sync
+.. _`perl-mldbm-sync/tags`: https://quay.io/repository/biocontainers/perl-mldbm-sync?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-mldbm-sync/README.html
-

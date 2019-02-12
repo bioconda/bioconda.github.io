@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'star'
 .. highlight: bash
-
 
 star
 ====
@@ -22,11 +23,9 @@ star
 
    |downloads_star| |docker_star|
 
-   :versions: 2.7.0b, 2.6.1b, 2.6.1a, 2.6.0c, 2.6.0b, 2.5.4a, 2.5.3a, 2.5.2b, 2.5.2a, 2.5.1b, 2.5.0c, 2.5.0b, 2.5.0a, 2.4.2a, 2.4.0j
-
-   :depends: 
-
-   :required~by: |required_by_star|
+   :versions: 2.7.0b-0, 2.6.1b-0, 2.6.1a-1, 2.6.0c-1, 2.6.0c-0, 2.6.0b-0, 2.5.4a-0, 2.5.3a-0, 2.5.2b-0, 2.5.2a-0, 2.5.1b-0, 2.5.0c-0, 2.5.0b-0, 2.5.0a-0, 2.4.2a-0, 2.4.0j-1, 2.4.0j-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +39,16 @@ star
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/star
+      docker pull quay.io/repository/biocontainers/star:<tag>
+
+   (see `star/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_star| conda:required_by:: star
 .. |downloads_star| image:: https://img.shields.io/conda/dn/bioconda/star.svg?style=flat
    :alt:   (downloads)
 .. |docker_star| image:: https://quay.io/repository/biocontainers/star/status
    :target: https://quay.io/repository/biocontainers/star
+.. _`star/tags`: https://quay.io/repository/biocontainers/star?tab=tags
 
 
 
@@ -64,4 +65,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/star/README.html
-

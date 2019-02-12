@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'consan'
 .. highlight: bash
-
 
 consan
 ======
@@ -21,11 +22,11 @@ consan
 
    |downloads_consan| |docker_consan|
 
-   :versions: 1.2
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_consan|
+   :versions: 1.2-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ consan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/consan
+      docker pull quay.io/repository/biocontainers/consan:<tag>
+
+   (see `consan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_consan| conda:required_by:: consan
 .. |downloads_consan| image:: https://img.shields.io/conda/dn/bioconda/consan.svg?style=flat
    :alt:   (downloads)
 .. |docker_consan| image:: https://quay.io/repository/biocontainers/consan/status
    :target: https://quay.io/repository/biocontainers/consan
+.. _`consan/tags`: https://quay.io/repository/biocontainers/consan?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/consan/README.html
-

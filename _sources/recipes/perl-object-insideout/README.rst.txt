@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-object-insideout'
 .. highlight: bash
-
 
 perl-object-insideout
 =====================
@@ -21,11 +22,15 @@ perl-object-insideout
 
    |downloads_perl-object-insideout| |docker_perl-object-insideout|
 
-   :versions: 4.05, 4.04
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-data-dumper`  :conda:package:`perl-exception-class`  
-
-   :required~by: |required_by_perl-object-insideout|
+   :versions: 4.05-0, 4.04-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-data-dumper: 
+   
+   :depends perl-exception-class: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-object-insideout
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-object-insideout
+      docker pull quay.io/repository/biocontainers/perl-object-insideout:<tag>
+
+   (see `perl-object-insideout/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-object-insideout| conda:required_by:: perl-object-insideout
 .. |downloads_perl-object-insideout| image:: https://img.shields.io/conda/dn/bioconda/perl-object-insideout.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-object-insideout| image:: https://quay.io/repository/biocontainers/perl-object-insideout/status
    :target: https://quay.io/repository/biocontainers/perl-object-insideout
+.. _`perl-object-insideout/tags`: https://quay.io/repository/biocontainers/perl-object-insideout?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-object-insideout/README.html
-

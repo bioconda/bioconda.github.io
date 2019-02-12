@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-ipc-cmd'
 .. highlight: bash
-
 
 perl-ipc-cmd
 ============
@@ -21,11 +22,21 @@ perl-ipc-cmd
 
    |downloads_perl-ipc-cmd| |docker_perl-ipc-cmd|
 
-   :versions: 1.02, 1.00
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-file-temp`  :conda:package:`perl-locale-maketext-simple`  :conda:package:`perl-module-load-conditional`  :conda:package:`perl-params-check`  
-
-   :required~by: |required_by_perl-ipc-cmd|
+   :versions: 1.02-0, 1.00-1, 1.00-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-extutils-makemaker: 
+   
+   :depends perl-file-temp: 
+   
+   :depends perl-locale-maketext-simple: 
+   
+   :depends perl-module-load-conditional: 
+   
+   :depends perl-params-check: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-ipc-cmd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-ipc-cmd
+      docker pull quay.io/repository/biocontainers/perl-ipc-cmd:<tag>
+
+   (see `perl-ipc-cmd/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-ipc-cmd| conda:required_by:: perl-ipc-cmd
 .. |downloads_perl-ipc-cmd| image:: https://img.shields.io/conda/dn/bioconda/perl-ipc-cmd.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-ipc-cmd| image:: https://quay.io/repository/biocontainers/perl-ipc-cmd/status
    :target: https://quay.io/repository/biocontainers/perl-ipc-cmd
+.. _`perl-ipc-cmd/tags`: https://quay.io/repository/biocontainers/perl-ipc-cmd?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-ipc-cmd/README.html
-

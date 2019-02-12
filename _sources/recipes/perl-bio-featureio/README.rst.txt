@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bio-featureio'
 .. highlight: bash
-
 
 perl-bio-featureio
 ==================
@@ -21,11 +22,21 @@ perl-bio-featureio
 
    |downloads_perl-bio-featureio| |docker_perl-bio-featureio|
 
-   :versions: 1.6.905
-
-   :depends: :conda:package:`perl-bioperl-core`  :conda:package:`perl-threaded`  :conda:package:`perl-tree-dag_node`  :conda:package:`perl-uri`  :conda:package:`perl-xml-dom`  :conda:package:`perl-xml-dom-xpath`  
-
-   :required~by: |required_by_perl-bio-featureio|
+   :versions: 1.6.905-1, 1.6.905-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bioperl-core: 
+   
+   :depends perl-tree-dag_node: 
+   
+   :depends perl-uri: 
+   
+   :depends perl-xml-dom: 
+   
+   :depends perl-xml-dom-xpath: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-bio-featureio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-featureio
+      docker pull quay.io/repository/biocontainers/perl-bio-featureio:<tag>
+
+   (see `perl-bio-featureio/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bio-featureio| conda:required_by:: perl-bio-featureio
 .. |downloads_perl-bio-featureio| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-featureio.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bio-featureio| image:: https://quay.io/repository/biocontainers/perl-bio-featureio/status
    :target: https://quay.io/repository/biocontainers/perl-bio-featureio
+.. _`perl-bio-featureio/tags`: https://quay.io/repository/biocontainers/perl-bio-featureio?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bio-featureio/README.html
-

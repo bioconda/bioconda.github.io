@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ucsc-hgloadsqltab'
 .. highlight: bash
-
 
 ucsc-hgloadsqltab
 =================
@@ -21,11 +22,21 @@ ucsc-hgloadsqltab
 
    |downloads_ucsc-hgloadsqltab| |docker_ucsc-hgloadsqltab|
 
-   :versions: 366
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_ucsc-hgloadsqltab|
+   :versions: 366-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libpng: >=1.6.34,<1.7.0a0
+   
+   :depends libuuid: 
+   
+   :depends mysql-connector-c: 
+   
+   :depends openssl: >=1.0.2o,<1.0.3a
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ ucsc-hgloadsqltab
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-hgloadsqltab
+      docker pull quay.io/repository/biocontainers/ucsc-hgloadsqltab:<tag>
+
+   (see `ucsc-hgloadsqltab/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ucsc-hgloadsqltab| conda:required_by:: ucsc-hgloadsqltab
 .. |downloads_ucsc-hgloadsqltab| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgloadsqltab.svg?style=flat
    :alt:   (downloads)
 .. |docker_ucsc-hgloadsqltab| image:: https://quay.io/repository/biocontainers/ucsc-hgloadsqltab/status
    :target: https://quay.io/repository/biocontainers/ucsc-hgloadsqltab
+.. _`ucsc-hgloadsqltab/tags`: https://quay.io/repository/biocontainers/ucsc-hgloadsqltab?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ucsc-hgloadsqltab/README.html
-

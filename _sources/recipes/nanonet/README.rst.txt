@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nanonet'
 .. highlight: bash
-
 
 nanonet
 =======
@@ -21,11 +22,35 @@ nanonet
 
    |downloads_nanonet| |docker_nanonet|
 
-   :versions: 2.0.0
-
-   :depends: :conda:package:`argh`  :conda:package:`boost` 1.60* :conda:package:`cython`  :conda:package:`h5py`  :conda:package:`hdf5`  :conda:package:`libgcc`  :conda:package:`myriad` >=0.1.2 :conda:package:`numpy`  :conda:package:`pathtools` >=0.1.1 :conda:package:`python` 2.7* :conda:package:`pyyaml` >=3.10 :conda:package:`six`  :conda:package:`watchdog`  
-
-   :required~by: |required_by_nanonet|
+   :versions: 2.0.0-0
+   
+   :depends argh: 
+   
+   :depends boost: 1.60*
+   
+   :depends cython: 
+   
+   :depends h5py: 
+   
+   :depends hdf5: 
+   
+   :depends libgcc: 
+   
+   :depends myriad: >=0.1.2
+   
+   :depends numpy: 
+   
+   :depends pathtools: >=0.1.1
+   
+   :depends python: 2.7*
+   
+   :depends pyyaml: >=3.10
+   
+   :depends six: 
+   
+   :depends watchdog: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ nanonet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanonet
+      docker pull quay.io/repository/biocontainers/nanonet:<tag>
+
+   (see `nanonet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nanonet| conda:required_by:: nanonet
 .. |downloads_nanonet| image:: https://img.shields.io/conda/dn/bioconda/nanonet.svg?style=flat
    :alt:   (downloads)
 .. |docker_nanonet| image:: https://quay.io/repository/biocontainers/nanonet/status
    :target: https://quay.io/repository/biocontainers/nanonet
+.. _`nanonet/tags`: https://quay.io/repository/biocontainers/nanonet?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nanonet/README.html
-

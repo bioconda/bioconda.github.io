@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-nanostringnorm'
 .. highlight: bash
-
 
 r-nanostringnorm
 ================
@@ -21,11 +22,17 @@ r-nanostringnorm
 
    |downloads_r-nanostringnorm| |docker_r-nanostringnorm|
 
-   :versions: 1.2.1, 1.1.21
-
-   :depends: :conda:package:`bioconductor-vsn` >=3.22.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-gdata` >=2.8.2 :conda:package:`r-xml` >=3.98_1.5 
-
-   :required~by: |required_by_r-nanostringnorm|
+   :versions: 1.2.1-1, 1.2.1-0, 1.1.21-2, 1.1.21-1, 1.1.21-0
+   
+   :depends bioconductor-vsn: >=3.22.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gdata: >=2.8.2
+   
+   :depends r-xml: >=3.98_1.5
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-nanostringnorm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-nanostringnorm
+      docker pull quay.io/repository/biocontainers/r-nanostringnorm:<tag>
+
+   (see `r-nanostringnorm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-nanostringnorm| conda:required_by:: r-nanostringnorm
 .. |downloads_r-nanostringnorm| image:: https://img.shields.io/conda/dn/bioconda/r-nanostringnorm.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-nanostringnorm| image:: https://quay.io/repository/biocontainers/r-nanostringnorm/status
    :target: https://quay.io/repository/biocontainers/r-nanostringnorm
+.. _`r-nanostringnorm/tags`: https://quay.io/repository/biocontainers/r-nanostringnorm?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-nanostringnorm/README.html
-

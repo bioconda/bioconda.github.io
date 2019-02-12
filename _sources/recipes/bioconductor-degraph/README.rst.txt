@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-degraph'
 .. highlight: bash
-
 
 bioconductor-degraph
 ====================
@@ -22,11 +23,31 @@ bioconductor-degraph
 
    |downloads_bioconductor-degraph| |docker_bioconductor-degraph|
 
-   :versions: 1.34.0, 1.32.0, 1.30.0
-
-   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-kegggraph` >=1.42.0,<1.43.0 :conda:package:`bioconductor-ncigraph` >=1.30.0,<1.31.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  :conda:package:`r-mvtnorm`  :conda:package:`r-r.methodss3`  :conda:package:`r-r.utils`  :conda:package:`r-rrcov`  
-
-   :required~by: |required_by_bioconductor-degraph|
+   :versions: 1.34.0-0, 1.32.0-0, 1.30.0-0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-kegggraph: >=1.42.0,<1.43.0
+   
+   :depends bioconductor-ncigraph: >=1.30.0,<1.31.0
+   
+   :depends bioconductor-rbgl: >=1.58.0,<1.59.0
+   
+   :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-lattice: 
+   
+   :depends r-mvtnorm: 
+   
+   :depends r-r.methodss3: 
+   
+   :depends r-r.utils: 
+   
+   :depends r-rrcov: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +61,16 @@ bioconductor-degraph
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-degraph
+      docker pull quay.io/repository/biocontainers/bioconductor-degraph:<tag>
+
+   (see `bioconductor-degraph/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-degraph| conda:required_by:: bioconductor-degraph
 .. |downloads_bioconductor-degraph| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-degraph.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-degraph| image:: https://quay.io/repository/biocontainers/bioconductor-degraph/status
    :target: https://quay.io/repository/biocontainers/bioconductor-degraph
+.. _`bioconductor-degraph/tags`: https://quay.io/repository/biocontainers/bioconductor-degraph?tab=tags
 
 
 
@@ -64,4 +87,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-degraph/README.html
-

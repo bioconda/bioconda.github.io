@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-test-toolbox'
 .. highlight: bash
-
 
 perl-test-toolbox
 =================
@@ -21,11 +22,11 @@ perl-test-toolbox
 
    |downloads_perl-test-toolbox| |docker_perl-test-toolbox|
 
-   :versions: 0.4
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-test-toolbox|
+   :versions: 0.4-1, 0.4-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-test-toolbox
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-toolbox
+      docker pull quay.io/repository/biocontainers/perl-test-toolbox:<tag>
+
+   (see `perl-test-toolbox/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-test-toolbox| conda:required_by:: perl-test-toolbox
 .. |downloads_perl-test-toolbox| image:: https://img.shields.io/conda/dn/bioconda/perl-test-toolbox.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-test-toolbox| image:: https://quay.io/repository/biocontainers/perl-test-toolbox/status
    :target: https://quay.io/repository/biocontainers/perl-test-toolbox
+.. _`perl-test-toolbox/tags`: https://quay.io/repository/biocontainers/perl-test-toolbox?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-test-toolbox/README.html
-

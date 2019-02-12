@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'amos'
 .. highlight: bash
-
 
 amos
 ====
@@ -22,11 +23,23 @@ amos
 
    |downloads_amos| |docker_amos|
 
-   :versions: 3.1.0
-
-   :depends: :conda:package:`jellyfish`  :conda:package:`mummer`  :conda:package:`perl-dbi`  :conda:package:`perl-statistics-descriptive`  :conda:package:`perl-threaded`  :conda:package:`perl-xml-parser`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_amos|
+   :versions: 3.1.0-3
+   
+   :depends jellyfish: 
+   
+   :depends mummer: 
+   
+   :depends perl-dbi: 
+   
+   :depends perl-statistics-descriptive: 
+   
+   :depends perl-threaded: 
+   
+   :depends perl-xml-parser: 
+   
+   :depends python: 2.7*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ amos
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/amos
+      docker pull quay.io/repository/biocontainers/amos:<tag>
+
+   (see `amos/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_amos| conda:required_by:: amos
 .. |downloads_amos| image:: https://img.shields.io/conda/dn/bioconda/amos.svg?style=flat
    :alt:   (downloads)
 .. |docker_amos| image:: https://quay.io/repository/biocontainers/amos/status
    :target: https://quay.io/repository/biocontainers/amos
+.. _`amos/tags`: https://quay.io/repository/biocontainers/amos?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/amos/README.html
-

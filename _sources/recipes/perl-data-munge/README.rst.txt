@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-data-munge'
 .. highlight: bash
-
 
 perl-data-munge
 ===============
@@ -21,11 +22,15 @@ perl-data-munge
 
    |downloads_perl-data-munge| |docker_perl-data-munge|
 
-   :versions: 0.097
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-base`  :conda:package:`perl-exporter`  
-
-   :required~by: |required_by_perl-data-munge|
+   :versions: 0.097-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-base: 
+   
+   :depends perl-exporter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-data-munge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-data-munge
+      docker pull quay.io/repository/biocontainers/perl-data-munge:<tag>
+
+   (see `perl-data-munge/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-data-munge| conda:required_by:: perl-data-munge
 .. |downloads_perl-data-munge| image:: https://img.shields.io/conda/dn/bioconda/perl-data-munge.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-data-munge| image:: https://quay.io/repository/biocontainers/perl-data-munge/status
    :target: https://quay.io/repository/biocontainers/perl-data-munge
+.. _`perl-data-munge/tags`: https://quay.io/repository/biocontainers/perl-data-munge?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-data-munge/README.html
-

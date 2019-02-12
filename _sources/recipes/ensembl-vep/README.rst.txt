@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ensembl-vep'
 .. highlight: bash
-
 
 ensembl-vep
 ===========
@@ -21,11 +22,35 @@ ensembl-vep
 
    |downloads_ensembl-vep| |docker_ensembl-vep|
 
-   :versions: 95.1, 95.0, 94.5, 94.4, 94.0, 93.4, 93.2, 92.4, 92.3, 92.0, 91.3, 91.2, 91.1, 91.0, 90.10, 90.9, 90.7, 90.6, 90.5, 90.3, 90.1, 89.7, 89.4, 89.1, 88.10, 88.9, 88.8, 88
-
-   :depends: :conda:package:`htslib`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bio-db-hts` >=2.7 :conda:package:`perl-bioperl` >=1.7.2 :conda:package:`perl-dbd-mysql`  :conda:package:`perl-dbi`  :conda:package:`perl-io-compress`  :conda:package:`perl-json`  :conda:package:`perl-perlio-gzip`  :conda:package:`perl-sereal`  :conda:package:`perl-set-intervaltree`  :conda:package:`perl-text-csv`  :conda:package:`unzip`  
-
-   :required~by: |required_by_ensembl-vep|
+   :versions: 95.1-0, 95.0-1, 95.0-0, 94.5-0, 94.4-0, 94.0-0, 93.4-0, 93.2-0, 92.4-0, 92.3-0, 92.0-1, 91.3-1, 91.3-0, 91.2-0, 91.1-0, 91.0-0, 90.10-0, 90.9-1, 90.7-1, 90.7-0, 90.6-0, 90.5-0, 90.3-0, 90.1-1, 90.1-0, 89.7-0, 89.4-0, 89.1-2, 89.1-1, 88.10-1, 88.10-0, 88.9-2, 88.9-1, 88.9-0, 88.8-0, 88-0
+   
+   :depends htslib: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-bio-db-hts: >=2.7
+   
+   :depends perl-bioperl: >=1.7.2
+   
+   :depends perl-dbd-mysql: 
+   
+   :depends perl-dbi: 
+   
+   :depends perl-io-compress: 
+   
+   :depends perl-json: 
+   
+   :depends perl-perlio-gzip: 
+   
+   :depends perl-sereal: 
+   
+   :depends perl-set-intervaltree: 
+   
+   :depends perl-text-csv: 
+   
+   :depends unzip: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ ensembl-vep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ensembl-vep
+      docker pull quay.io/repository/biocontainers/ensembl-vep:<tag>
+
+   (see `ensembl-vep/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ensembl-vep| conda:required_by:: ensembl-vep
 .. |downloads_ensembl-vep| image:: https://img.shields.io/conda/dn/bioconda/ensembl-vep.svg?style=flat
    :alt:   (downloads)
 .. |docker_ensembl-vep| image:: https://quay.io/repository/biocontainers/ensembl-vep/status
    :target: https://quay.io/repository/biocontainers/ensembl-vep
+.. _`ensembl-vep/tags`: https://quay.io/repository/biocontainers/ensembl-vep?tab=tags
 
 
 
@@ -80,4 +107,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ensembl-vep/README.html
-

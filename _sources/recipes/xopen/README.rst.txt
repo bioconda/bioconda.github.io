@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'xopen'
 .. highlight: bash
-
 
 xopen
 =====
@@ -21,11 +22,13 @@ xopen
 
    |downloads_xopen| |docker_xopen|
 
-   :versions: 0.5.0, 0.4.1, 0.3.5, 0.3.2, 0.1.1, 0.1.0
-
-   :depends: :conda:package:`bz2file`  :conda:package:`python`  
-
-   :required~by: |required_by_xopen|
+   :versions: 0.5.0-0, 0.4.1-0, 0.3.5-0, 0.3.2-1, 0.3.2-0, 0.1.1-0, 0.1.0-0
+   
+   :depends bz2file: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ xopen
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xopen
+      docker pull quay.io/repository/biocontainers/xopen:<tag>
+
+   (see `xopen/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_xopen| conda:required_by:: xopen
 .. |downloads_xopen| image:: https://img.shields.io/conda/dn/bioconda/xopen.svg?style=flat
    :alt:   (downloads)
 .. |docker_xopen| image:: https://quay.io/repository/biocontainers/xopen/status
    :target: https://quay.io/repository/biocontainers/xopen
+.. _`xopen/tags`: https://quay.io/repository/biocontainers/xopen?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/xopen/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mrbayes'
 .. highlight: bash
-
 
 mrbayes
 =======
@@ -26,11 +27,17 @@ mrbayes
 
    |downloads_mrbayes| |docker_mrbayes|
 
-   :versions: 3.2.6
-
-   :depends: :conda:package:`beagle-lib`  :conda:package:`libgcc`  :conda:package:`openmpi`  :conda:package:`readline` 6.* 
-
-   :required~by: |required_by_mrbayes|
+   :versions: 3.2.6-0
+   
+   :depends beagle-lib: 
+   
+   :depends libgcc: 
+   
+   :depends openmpi: 
+   
+   :depends readline: 6.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -44,14 +51,16 @@ mrbayes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mrbayes
+      docker pull quay.io/repository/biocontainers/mrbayes:<tag>
+
+   (see `mrbayes/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mrbayes| conda:required_by:: mrbayes
 .. |downloads_mrbayes| image:: https://img.shields.io/conda/dn/bioconda/mrbayes.svg?style=flat
    :alt:   (downloads)
 .. |docker_mrbayes| image:: https://quay.io/repository/biocontainers/mrbayes/status
    :target: https://quay.io/repository/biocontainers/mrbayes
+.. _`mrbayes/tags`: https://quay.io/repository/biocontainers/mrbayes?tab=tags
 
 
 
@@ -68,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mrbayes/README.html
-

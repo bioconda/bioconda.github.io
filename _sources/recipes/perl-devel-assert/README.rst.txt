@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-devel-assert'
 .. highlight: bash
-
 
 perl-devel-assert
 =================
@@ -21,11 +22,13 @@ perl-devel-assert
 
    |downloads_perl-devel-assert| |docker_perl-devel-assert|
 
-   :versions: 1.06
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-devel-assert|
+   :versions: 1.06-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-devel-assert
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-devel-assert
+      docker pull quay.io/repository/biocontainers/perl-devel-assert:<tag>
+
+   (see `perl-devel-assert/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-devel-assert| conda:required_by:: perl-devel-assert
 .. |downloads_perl-devel-assert| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-assert.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-devel-assert| image:: https://quay.io/repository/biocontainers/perl-devel-assert/status
    :target: https://quay.io/repository/biocontainers/perl-devel-assert
+.. _`perl-devel-assert/tags`: https://quay.io/repository/biocontainers/perl-devel-assert?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-devel-assert/README.html
-

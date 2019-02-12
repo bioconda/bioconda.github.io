@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'circularmapper'
 .. highlight: bash
-
 
 circularmapper
 ==============
@@ -21,11 +22,13 @@ circularmapper
 
    |downloads_circularmapper| |docker_circularmapper|
 
-   :versions: 1.93.4
-
-   :depends: :conda:package:`openjdk`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_circularmapper|
+   :versions: 1.93.4-1, 1.93.4-0
+   
+   :depends openjdk: 
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ circularmapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/circularmapper
+      docker pull quay.io/repository/biocontainers/circularmapper:<tag>
+
+   (see `circularmapper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_circularmapper| conda:required_by:: circularmapper
 .. |downloads_circularmapper| image:: https://img.shields.io/conda/dn/bioconda/circularmapper.svg?style=flat
    :alt:   (downloads)
 .. |docker_circularmapper| image:: https://quay.io/repository/biocontainers/circularmapper/status
    :target: https://quay.io/repository/biocontainers/circularmapper
+.. _`circularmapper/tags`: https://quay.io/repository/biocontainers/circularmapper?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/circularmapper/README.html
-

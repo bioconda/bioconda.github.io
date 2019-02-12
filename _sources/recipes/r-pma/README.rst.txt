@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-pma'
 .. highlight: bash
-
 
 r-pma
 =====
@@ -21,11 +22,17 @@ r-pma
 
    |downloads_r-pma| |docker_r-pma|
 
-   :versions: 1.0.11
-
-   :depends: :conda:package:`bioconductor-impute`  :conda:package:`r-base` 3.4.1* 
-
-   :required~by: |required_by_r-pma|
+   :versions: 1.0.11-3, 1.0.11-2, 1.0.11-1, 1.0.11-0
+   
+   :depends bioconductor-impute: >=1.54.0,<1.57.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-pma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-pma
+      docker pull quay.io/repository/biocontainers/r-pma:<tag>
+
+   (see `r-pma/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-pma| conda:required_by:: r-pma
 .. |downloads_r-pma| image:: https://img.shields.io/conda/dn/bioconda/r-pma.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-pma| image:: https://quay.io/repository/biocontainers/r-pma/status
    :target: https://quay.io/repository/biocontainers/r-pma
+.. _`r-pma/tags`: https://quay.io/repository/biocontainers/r-pma?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-pma/README.html
-

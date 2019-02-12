@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-dbd-pg'
 .. highlight: bash
-
 
 perl-dbd-pg
 ===========
@@ -21,11 +22,17 @@ perl-dbd-pg
 
    |downloads_perl-dbd-pg| |docker_perl-dbd-pg|
 
-   :versions: 3.7.4, 3.5.3
-
-   :depends: :conda:package:`libpq` >=10.5,<11.0a0 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-dbi`  :conda:package:`postgresql`  
-
-   :required~by: |required_by_perl-dbd-pg|
+   :versions: 3.7.4-0, 3.5.3-1, 3.5.3-0
+   
+   :depends libpq: >=10.5,<11.0a0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-dbi: 
+   
+   :depends postgresql: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-dbd-pg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-dbd-pg
+      docker pull quay.io/repository/biocontainers/perl-dbd-pg:<tag>
+
+   (see `perl-dbd-pg/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-dbd-pg| conda:required_by:: perl-dbd-pg
 .. |downloads_perl-dbd-pg| image:: https://img.shields.io/conda/dn/bioconda/perl-dbd-pg.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-dbd-pg| image:: https://quay.io/repository/biocontainers/perl-dbd-pg/status
    :target: https://quay.io/repository/biocontainers/perl-dbd-pg
+.. _`perl-dbd-pg/tags`: https://quay.io/repository/biocontainers/perl-dbd-pg?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-dbd-pg/README.html
-

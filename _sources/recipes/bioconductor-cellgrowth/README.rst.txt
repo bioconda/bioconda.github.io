@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-cellgrowth'
 .. highlight: bash
-
 
 bioconductor-cellgrowth
 =======================
@@ -22,11 +23,15 @@ bioconductor-cellgrowth
 
    |downloads_bioconductor-cellgrowth| |docker_bioconductor-cellgrowth|
 
-   :versions: 1.26.1, 1.24.0, 1.22.0, 1.20.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  :conda:package:`r-locfit` >=1.5-4 
-
-   :required~by: |required_by_bioconductor-cellgrowth|
+   :versions: 1.26.1-0, 1.24.0-0, 1.22.0-0, 1.20.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-lattice: 
+   
+   :depends r-locfit: >=1.5-4
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-cellgrowth
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cellgrowth
+      docker pull quay.io/repository/biocontainers/bioconductor-cellgrowth:<tag>
+
+   (see `bioconductor-cellgrowth/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-cellgrowth| conda:required_by:: bioconductor-cellgrowth
 .. |downloads_bioconductor-cellgrowth| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cellgrowth.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-cellgrowth| image:: https://quay.io/repository/biocontainers/bioconductor-cellgrowth/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cellgrowth
+.. _`bioconductor-cellgrowth/tags`: https://quay.io/repository/biocontainers/bioconductor-cellgrowth?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-cellgrowth/README.html
-

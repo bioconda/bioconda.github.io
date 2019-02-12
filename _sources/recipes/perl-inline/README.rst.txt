@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-inline'
 .. highlight: bash
-
 
 perl-inline
 ===========
@@ -21,11 +22,13 @@ perl-inline
 
    |downloads_perl-inline| |docker_perl-inline|
 
-   :versions: 0.80
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-inline|
+   :versions: 0.80-3, 0.80-2, 0.80-1, 0.80-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-digest-md5: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-inline
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-inline
+      docker pull quay.io/repository/biocontainers/perl-inline:<tag>
+
+   (see `perl-inline/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-inline| conda:required_by:: perl-inline
 .. |downloads_perl-inline| image:: https://img.shields.io/conda/dn/bioconda/perl-inline.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-inline| image:: https://quay.io/repository/biocontainers/perl-inline/status
    :target: https://quay.io/repository/biocontainers/perl-inline
+.. _`perl-inline/tags`: https://quay.io/repository/biocontainers/perl-inline?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-inline/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-icluster'
 .. highlight: bash
-
 
 r-icluster
 ==========
@@ -21,11 +22,21 @@ r-icluster
 
    |downloads_r-icluster| |docker_r-icluster|
 
-   :versions: 2.1.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-catools`  :conda:package:`r-gdata`  :conda:package:`r-gplots`  :conda:package:`r-gtools`  :conda:package:`r-lattice`  
-
-   :required~by: |required_by_r-icluster|
+   :versions: 2.1.0-0
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-catools: 
+   
+   :depends r-gdata: 
+   
+   :depends r-gplots: 
+   
+   :depends r-gtools: 
+   
+   :depends r-lattice: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-icluster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-icluster
+      docker pull quay.io/repository/biocontainers/r-icluster:<tag>
+
+   (see `r-icluster/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-icluster| conda:required_by:: r-icluster
 .. |downloads_r-icluster| image:: https://img.shields.io/conda/dn/bioconda/r-icluster.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-icluster| image:: https://quay.io/repository/biocontainers/r-icluster/status
    :target: https://quay.io/repository/biocontainers/r-icluster
+.. _`r-icluster/tags`: https://quay.io/repository/biocontainers/r-icluster?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-icluster/README.html
-

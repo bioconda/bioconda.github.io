@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'apoc'
 .. highlight: bash
-
 
 apoc
 ====
@@ -21,11 +22,13 @@ apoc
 
    |downloads_apoc| |docker_apoc|
 
-   :versions: 1b16
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_apoc|
+   :versions: 1b16-1, 1b16-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libgfortran: >=3.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ apoc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/apoc
+      docker pull quay.io/repository/biocontainers/apoc:<tag>
+
+   (see `apoc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_apoc| conda:required_by:: apoc
 .. |downloads_apoc| image:: https://img.shields.io/conda/dn/bioconda/apoc.svg?style=flat
    :alt:   (downloads)
 .. |docker_apoc| image:: https://quay.io/repository/biocontainers/apoc/status
    :target: https://quay.io/repository/biocontainers/apoc
+.. _`apoc/tags`: https://quay.io/repository/biocontainers/apoc?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/apoc/README.html
-

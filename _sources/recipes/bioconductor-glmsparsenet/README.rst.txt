@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-glmsparsenet'
 .. highlight: bash
-
 
 bioconductor-glmsparsenet
 =========================
@@ -21,11 +22,47 @@ bioconductor-glmsparsenet
 
    |downloads_bioconductor-glmsparsenet| |docker_bioconductor-glmsparsenet|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-multiassayexperiment` >=1.8.0,<1.9.0 :conda:package:`bioconductor-stringdb` >=1.22.0,<1.23.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-forcats`  :conda:package:`r-futile.logger`  :conda:package:`r-ggplot2`  :conda:package:`r-glmnet`  :conda:package:`r-loose.rock`  :conda:package:`r-matrix`  :conda:package:`r-readr`  :conda:package:`r-reshape2`  :conda:package:`r-rlang`  :conda:package:`r-sparsebn`  :conda:package:`r-sparsebnutils`  :conda:package:`r-stringr`  :conda:package:`r-survminer`  
-
-   :required~by: |required_by_bioconductor-glmsparsenet|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-multiassayexperiment: >=1.8.0,<1.9.0
+   
+   :depends bioconductor-stringdb: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-forcats: 
+   
+   :depends r-futile.logger: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-glmnet: 
+   
+   :depends r-loose.rock: 
+   
+   :depends r-matrix: 
+   
+   :depends r-readr: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-rlang: 
+   
+   :depends r-sparsebn: 
+   
+   :depends r-sparsebnutils: 
+   
+   :depends r-stringr: 
+   
+   :depends r-survminer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +76,16 @@ bioconductor-glmsparsenet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-glmsparsenet
+      docker pull quay.io/repository/biocontainers/bioconductor-glmsparsenet:<tag>
+
+   (see `bioconductor-glmsparsenet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-glmsparsenet| conda:required_by:: bioconductor-glmsparsenet
 .. |downloads_bioconductor-glmsparsenet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-glmsparsenet.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-glmsparsenet| image:: https://quay.io/repository/biocontainers/bioconductor-glmsparsenet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-glmsparsenet
+.. _`bioconductor-glmsparsenet/tags`: https://quay.io/repository/biocontainers/bioconductor-glmsparsenet?tab=tags
 
 
 
@@ -63,4 +102,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-glmsparsenet/README.html
-

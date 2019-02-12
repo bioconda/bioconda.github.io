@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'taxmapper'
 .. highlight: bash
-
 
 taxmapper
 =========
@@ -21,11 +22,19 @@ taxmapper
 
    |downloads_taxmapper| |docker_taxmapper|
 
-   :versions: 1.0.2, 1.0.1, 1.0.0
-
-   :depends: :conda:package:`deepdish`  :conda:package:`libgcc`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_taxmapper|
+   :versions: 1.0.2-2, 1.0.2-0, 1.0.1-0, 1.0.0-0
+   
+   :depends deepdish: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ taxmapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/taxmapper
+      docker pull quay.io/repository/biocontainers/taxmapper:<tag>
+
+   (see `taxmapper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_taxmapper| conda:required_by:: taxmapper
 .. |downloads_taxmapper| image:: https://img.shields.io/conda/dn/bioconda/taxmapper.svg?style=flat
    :alt:   (downloads)
 .. |docker_taxmapper| image:: https://quay.io/repository/biocontainers/taxmapper/status
    :target: https://quay.io/repository/biocontainers/taxmapper
+.. _`taxmapper/tags`: https://quay.io/repository/biocontainers/taxmapper?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/taxmapper/README.html
-

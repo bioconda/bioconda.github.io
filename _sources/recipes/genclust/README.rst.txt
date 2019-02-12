@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'genclust'
 .. highlight: bash
-
 
 genclust
 ========
@@ -22,11 +23,11 @@ genclust
 
    |downloads_genclust| |docker_genclust|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_genclust|
+   :versions: 1.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ genclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genclust
+      docker pull quay.io/repository/biocontainers/genclust:<tag>
+
+   (see `genclust/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_genclust| conda:required_by:: genclust
 .. |downloads_genclust| image:: https://img.shields.io/conda/dn/bioconda/genclust.svg?style=flat
    :alt:   (downloads)
 .. |docker_genclust| image:: https://quay.io/repository/biocontainers/genclust/status
    :target: https://quay.io/repository/biocontainers/genclust
+.. _`genclust/tags`: https://quay.io/repository/biocontainers/genclust?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/genclust/README.html
-

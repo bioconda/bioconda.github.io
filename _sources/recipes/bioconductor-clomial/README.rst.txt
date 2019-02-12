@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-clomial'
 .. highlight: bash
-
 
 bioconductor-clomial
 ====================
@@ -22,11 +23,15 @@ bioconductor-clomial
 
    |downloads_bioconductor-clomial| |docker_bioconductor-clomial|
 
-   :versions: 1.18.1, 1.16.0, 1.14.0, 1.12.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrixstats`  :conda:package:`r-permute`  
-
-   :required~by: |required_by_bioconductor-clomial|
+   :versions: 1.18.1-0, 1.16.0-0, 1.14.0-0, 1.12.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-matrixstats: 
+   
+   :depends r-permute: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-clomial
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clomial
+      docker pull quay.io/repository/biocontainers/bioconductor-clomial:<tag>
+
+   (see `bioconductor-clomial/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-clomial| conda:required_by:: bioconductor-clomial
 .. |downloads_bioconductor-clomial| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clomial.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-clomial| image:: https://quay.io/repository/biocontainers/bioconductor-clomial/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clomial
+.. _`bioconductor-clomial/tags`: https://quay.io/repository/biocontainers/bioconductor-clomial?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-clomial/README.html
-

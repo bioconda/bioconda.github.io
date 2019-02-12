@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metagenome-atlas'
 .. highlight: bash
-
 
 metagenome-atlas
 ================
@@ -43,11 +44,25 @@ metagenome-atlas
 
    |downloads_metagenome-atlas| |docker_metagenome-atlas|
 
-   :versions: 2.0.1
-
-   :depends: :conda:package:`bbmap` 37.78.* :conda:package:`biopython` >=1.70 :conda:package:`click` 7.* :conda:package:`git`  :conda:package:`pandas` 0.23.* :conda:package:`python` 3.6.* :conda:package:`ruamel.yaml` 0.15.* :conda:package:`snakemake` 5.4.* 
-
-   :required~by: |required_by_metagenome-atlas|
+   :versions: 2.0.1-1, 2.0.1-0
+   
+   :depends bbmap: 37.78.*
+   
+   :depends biopython: >=1.70
+   
+   :depends click: 7.*
+   
+   :depends git: 
+   
+   :depends pandas: 0.23.*
+   
+   :depends python: 3.6.*
+   
+   :depends ruamel.yaml: 0.15.*
+   
+   :depends snakemake: 5.4.*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -61,14 +76,16 @@ metagenome-atlas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metagenome-atlas
+      docker pull quay.io/repository/biocontainers/metagenome-atlas:<tag>
+
+   (see `metagenome-atlas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metagenome-atlas| conda:required_by:: metagenome-atlas
 .. |downloads_metagenome-atlas| image:: https://img.shields.io/conda/dn/bioconda/metagenome-atlas.svg?style=flat
    :alt:   (downloads)
 .. |docker_metagenome-atlas| image:: https://quay.io/repository/biocontainers/metagenome-atlas/status
    :target: https://quay.io/repository/biocontainers/metagenome-atlas
+.. _`metagenome-atlas/tags`: https://quay.io/repository/biocontainers/metagenome-atlas?tab=tags
 
 
 
@@ -85,4 +102,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metagenome-atlas/README.html
-

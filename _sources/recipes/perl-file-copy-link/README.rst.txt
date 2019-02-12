@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-file-copy-link'
 .. highlight: bash
-
 
 perl-file-copy-link
 ===================
@@ -21,11 +22,13 @@ perl-file-copy-link
 
    |downloads_perl-file-copy-link| |docker_perl-file-copy-link|
 
-   :versions: 0.140
-
-   :depends: :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-file-copy-link|
+   :versions: 0.140-1, 0.140-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-file-copy-link
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-copy-link
+      docker pull quay.io/repository/biocontainers/perl-file-copy-link:<tag>
+
+   (see `perl-file-copy-link/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-file-copy-link| conda:required_by:: perl-file-copy-link
 .. |downloads_perl-file-copy-link| image:: https://img.shields.io/conda/dn/bioconda/perl-file-copy-link.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-file-copy-link| image:: https://quay.io/repository/biocontainers/perl-file-copy-link/status
    :target: https://quay.io/repository/biocontainers/perl-file-copy-link
+.. _`perl-file-copy-link/tags`: https://quay.io/repository/biocontainers/perl-file-copy-link?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-file-copy-link/README.html
-

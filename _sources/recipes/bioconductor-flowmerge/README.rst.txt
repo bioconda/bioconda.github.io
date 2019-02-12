@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-flowmerge'
 .. highlight: bash
-
 
 bioconductor-flowmerge
 ======================
@@ -22,10 +23,8 @@ bioconductor-flowmerge
    |downloads_bioconductor-flowmerge| |docker_bioconductor-flowmerge|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-flowmerge|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-flowmerge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowmerge
+      docker pull quay.io/repository/biocontainers/bioconductor-flowmerge:<tag>
+
+   (see `bioconductor-flowmerge/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-flowmerge| conda:required_by:: bioconductor-flowmerge
 .. |downloads_bioconductor-flowmerge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowmerge.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-flowmerge| image:: https://quay.io/repository/biocontainers/bioconductor-flowmerge/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowmerge
+.. _`bioconductor-flowmerge/tags`: https://quay.io/repository/biocontainers/bioconductor-flowmerge?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-flowmerge/README.html
-

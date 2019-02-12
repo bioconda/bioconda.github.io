@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-cpan-meta'
 .. highlight: bash
-
 
 perl-cpan-meta
 ==============
@@ -21,11 +22,25 @@ perl-cpan-meta
 
    |downloads_perl-cpan-meta| |docker_perl-cpan-meta|
 
-   :versions: 2.150010, 2.120921
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-cpan-meta-requirements`  :conda:package:`perl-cpan-meta-yaml`  :conda:package:`perl-encode`  :conda:package:`perl-exporter`  :conda:package:`perl-json-pp`  :conda:package:`perl-version`  
-
-   :required~by: |required_by_perl-cpan-meta|
+   :versions: 2.150010-0, 2.120921-1, 2.120921-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-cpan-meta-requirements: 
+   
+   :depends perl-cpan-meta-yaml: 
+   
+   :depends perl-encode: 
+   
+   :depends perl-exporter: 
+   
+   :depends perl-json-pp: 
+   
+   :depends perl-version: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ perl-cpan-meta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-cpan-meta
+      docker pull quay.io/repository/biocontainers/perl-cpan-meta:<tag>
+
+   (see `perl-cpan-meta/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-cpan-meta| conda:required_by:: perl-cpan-meta
 .. |downloads_perl-cpan-meta| image:: https://img.shields.io/conda/dn/bioconda/perl-cpan-meta.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-cpan-meta| image:: https://quay.io/repository/biocontainers/perl-cpan-meta/status
    :target: https://quay.io/repository/biocontainers/perl-cpan-meta
+.. _`perl-cpan-meta/tags`: https://quay.io/repository/biocontainers/perl-cpan-meta?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-cpan-meta/README.html
-

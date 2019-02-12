@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'structure'
 .. highlight: bash
-
 
 structure
 =========
@@ -22,11 +23,11 @@ structure
 
    |downloads_structure| |docker_structure|
 
-   :versions: 2.3.4
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_structure|
+   :versions: 2.3.4-1, 2.3.4-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ structure
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/structure
+      docker pull quay.io/repository/biocontainers/structure:<tag>
+
+   (see `structure/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_structure| conda:required_by:: structure
 .. |downloads_structure| image:: https://img.shields.io/conda/dn/bioconda/structure.svg?style=flat
    :alt:   (downloads)
 .. |docker_structure| image:: https://quay.io/repository/biocontainers/structure/status
    :target: https://quay.io/repository/biocontainers/structure
+.. _`structure/tags`: https://quay.io/repository/biocontainers/structure?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/structure/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-imas'
 .. highlight: bash
-
 
 bioconductor-imas
 =================
@@ -21,11 +22,51 @@ bioconductor-imas
 
    |downloads_bioconductor-imas| |docker_bioconductor-imas|
 
-   :versions: 1.6.0, 1.4.0, 1.2.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-ivas` >=2.2.0,<2.3.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-ggfortify`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-lattice`  :conda:package:`r-lme4`  :conda:package:`r-matrix`  :conda:package:`r-survival`  
-
-   :required~by: |required_by_bioconductor-imas|
+   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicalignments: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-ivas: >=2.2.0,<2.3.0
+   
+   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-doparallel: 
+   
+   :depends r-foreach: 
+   
+   :depends r-ggfortify: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-lattice: 
+   
+   :depends r-lme4: 
+   
+   :depends r-matrix: 
+   
+   :depends r-survival: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +80,16 @@ bioconductor-imas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-imas
+      docker pull quay.io/repository/biocontainers/bioconductor-imas:<tag>
+
+   (see `bioconductor-imas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-imas| conda:required_by:: bioconductor-imas
 .. |downloads_bioconductor-imas| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-imas.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-imas| image:: https://quay.io/repository/biocontainers/bioconductor-imas/status
    :target: https://quay.io/repository/biocontainers/bioconductor-imas
+.. _`bioconductor-imas/tags`: https://quay.io/repository/biocontainers/bioconductor-imas?tab=tags
 
 
 
@@ -63,4 +106,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-imas/README.html
-

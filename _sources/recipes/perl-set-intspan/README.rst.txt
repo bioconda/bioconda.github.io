@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-set-intspan'
 .. highlight: bash
-
 
 perl-set-intspan
 ================
@@ -21,11 +22,11 @@ perl-set-intspan
 
    |downloads_perl-set-intspan| |docker_perl-set-intspan|
 
-   :versions: 1.19
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-set-intspan|
+   :versions: 1.19-1, 1.19-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-set-intspan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-set-intspan
+      docker pull quay.io/repository/biocontainers/perl-set-intspan:<tag>
+
+   (see `perl-set-intspan/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-set-intspan| conda:required_by:: perl-set-intspan
 .. |downloads_perl-set-intspan| image:: https://img.shields.io/conda/dn/bioconda/perl-set-intspan.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-set-intspan| image:: https://quay.io/repository/biocontainers/perl-set-intspan/status
    :target: https://quay.io/repository/biocontainers/perl-set-intspan
+.. _`perl-set-intspan/tags`: https://quay.io/repository/biocontainers/perl-set-intspan?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-set-intspan/README.html
-

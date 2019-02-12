@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'percolator'
 .. highlight: bash
-
 
 percolator
 ==========
@@ -21,11 +22,23 @@ percolator
 
    |downloads_percolator| |docker_percolator|
 
-   :versions: 3.1, 3.0
-
-   :depends: :conda:package:`bzip2`  :conda:package:`libgcc`  :conda:package:`sqlite`  :conda:package:`tokyocabinet`  :conda:package:`xerces-c` ==3.1.2 :conda:package:`xsd`  :conda:package:`zlib`  
-
-   :required~by: |required_by_percolator|
+   :versions: 3.1-4, 3.1-3, 3.1-2, 3.0-1, 3.0-0
+   
+   :depends bzip2: 1.0*
+   
+   :depends libgcc: 
+   
+   :depends sqlite: 
+   
+   :depends tokyocabinet: 
+   
+   :depends xerces-c: ==3.1.2
+   
+   :depends xsd: 
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ percolator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/percolator
+      docker pull quay.io/repository/biocontainers/percolator:<tag>
+
+   (see `percolator/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_percolator| conda:required_by:: percolator
 .. |downloads_percolator| image:: https://img.shields.io/conda/dn/bioconda/percolator.svg?style=flat
    :alt:   (downloads)
 .. |docker_percolator| image:: https://quay.io/repository/biocontainers/percolator/status
    :target: https://quay.io/repository/biocontainers/percolator
+.. _`percolator/tags`: https://quay.io/repository/biocontainers/percolator?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/percolator/README.html
-

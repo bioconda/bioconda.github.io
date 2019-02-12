@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'seqbuster'
 .. highlight: bash
-
 
 seqbuster
 =========
@@ -22,11 +23,13 @@ seqbuster
 
    |downloads_seqbuster| |docker_seqbuster|
 
-   :versions: 3.2, 3.1, 3.1a, 3.0, 2.3
-
-   :depends: :conda:package:`openjdk` >=8 
-
-   :required~by: |required_by_seqbuster|
+   :versions: 3.2-1, 3.2-0, 3.1-3, 3.1-2, 3.1-1, 3.1a-0, 3.0-2, 3.0-1, 2.3-3, 2.3-2, 2.3-1
+   
+   :depends openjdk: >=8
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ seqbuster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seqbuster
+      docker pull quay.io/repository/biocontainers/seqbuster:<tag>
+
+   (see `seqbuster/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_seqbuster| conda:required_by:: seqbuster
 .. |downloads_seqbuster| image:: https://img.shields.io/conda/dn/bioconda/seqbuster.svg?style=flat
    :alt:   (downloads)
 .. |docker_seqbuster| image:: https://quay.io/repository/biocontainers/seqbuster/status
    :target: https://quay.io/repository/biocontainers/seqbuster
+.. _`seqbuster/tags`: https://quay.io/repository/biocontainers/seqbuster?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/seqbuster/README.html
-

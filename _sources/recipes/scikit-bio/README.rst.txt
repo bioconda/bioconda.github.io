@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'scikit-bio'
 .. highlight: bash
-
 
 scikit-bio
 ==========
@@ -21,11 +22,39 @@ scikit-bio
 
    |downloads_scikit-bio| |docker_scikit-bio|
 
-   :versions: 0.4.2, 0.2.3
-
-   :depends: :conda:package:`bz2file`  :conda:package:`cachecontrol`  :conda:package:`contextlib2`  :conda:package:`decorator`  :conda:package:`future`  :conda:package:`ipython`  :conda:package:`lockfile`  :conda:package:`matplotlib` >=1.1.0 :conda:package:`natsort`  :conda:package:`nose`  :conda:package:`numpy` 1.10* :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`scipy` >=0.13.0 :conda:package:`six`  
-
-   :required~by: |required_by_scikit-bio|
+   :versions: 0.4.2-0, 0.2.3-0
+   
+   :depends bz2file: 
+   
+   :depends cachecontrol: 
+   
+   :depends contextlib2: 
+   
+   :depends decorator: 
+   
+   :depends future: 
+   
+   :depends ipython: 
+   
+   :depends lockfile: 
+   
+   :depends matplotlib: >=1.1.0
+   
+   :depends natsort: 
+   
+   :depends nose: 
+   
+   :depends numpy: 1.10*
+   
+   :depends pandas: 
+   
+   :depends python: 2.7*
+   
+   :depends scipy: >=0.13.0
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +68,16 @@ scikit-bio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scikit-bio
+      docker pull quay.io/repository/biocontainers/scikit-bio:<tag>
+
+   (see `scikit-bio/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_scikit-bio| conda:required_by:: scikit-bio
 .. |downloads_scikit-bio| image:: https://img.shields.io/conda/dn/bioconda/scikit-bio.svg?style=flat
    :alt:   (downloads)
 .. |docker_scikit-bio| image:: https://quay.io/repository/biocontainers/scikit-bio/status
    :target: https://quay.io/repository/biocontainers/scikit-bio
+.. _`scikit-bio/tags`: https://quay.io/repository/biocontainers/scikit-bio?tab=tags
 
 
 
@@ -63,4 +94,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/scikit-bio/README.html
-

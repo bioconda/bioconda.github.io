@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-vcftools-vcf'
 .. highlight: bash
-
 
 perl-vcftools-vcf
 =================
@@ -22,11 +23,13 @@ perl-vcftools-vcf
 
    |downloads_perl-vcftools-vcf| |docker_perl-vcftools-vcf|
 
-   :versions: 0.953, 0.840, 0.797, 0.1.16, 0.1.15, 0.1.14
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-vcftools-vcf|
+   :versions: 0.953-3, 0.953-2, 0.953-1, 0.953-0, 0.840-0, 0.797-0, 0.1.16-0, 0.1.15-2, 0.1.15-1, 0.1.14-0
+   
+   :depends libgcc: 
+   
+   :depends perl-threaded: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ perl-vcftools-vcf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-vcftools-vcf
+      docker pull quay.io/repository/biocontainers/perl-vcftools-vcf:<tag>
+
+   (see `perl-vcftools-vcf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-vcftools-vcf| conda:required_by:: perl-vcftools-vcf
 .. |downloads_perl-vcftools-vcf| image:: https://img.shields.io/conda/dn/bioconda/perl-vcftools-vcf.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-vcftools-vcf| image:: https://quay.io/repository/biocontainers/perl-vcftools-vcf/status
    :target: https://quay.io/repository/biocontainers/perl-vcftools-vcf
+.. _`perl-vcftools-vcf/tags`: https://quay.io/repository/biocontainers/perl-vcftools-vcf?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-vcftools-vcf/README.html
-

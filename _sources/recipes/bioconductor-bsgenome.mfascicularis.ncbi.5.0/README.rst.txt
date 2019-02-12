@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bsgenome.mfascicularis.ncbi.5.0'
 .. highlight: bash
-
 
 bioconductor-bsgenome.mfascicularis.ncbi.5.0
 ============================================
@@ -21,11 +22,15 @@ bioconductor-bsgenome.mfascicularis.ncbi.5.0
 
    |downloads_bioconductor-bsgenome.mfascicularis.ncbi.5.0| |docker_bioconductor-bsgenome.mfascicularis.ncbi.5.0|
 
-   :versions: 1.4.2
-
-   :depends: :conda:package:`bioconductor-bsgenome` >=1.50.0,<1.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-bsgenome.mfascicularis.ncbi.5.0|
+   :versions: 1.4.2-0
+   
+   :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-bsgenome.mfascicularis.ncbi.5.0
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.mfascicularis.ncbi.5.0
+      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.mfascicularis.ncbi.5.0:<tag>
+
+   (see `bioconductor-bsgenome.mfascicularis.ncbi.5.0/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bsgenome.mfascicularis.ncbi.5.0| conda:required_by:: bioconductor-bsgenome.mfascicularis.ncbi.5.0
 .. |downloads_bioconductor-bsgenome.mfascicularis.ncbi.5.0| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.mfascicularis.ncbi.5.0.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.mfascicularis.ncbi.5.0| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.mfascicularis.ncbi.5.0/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.mfascicularis.ncbi.5.0
+.. _`bioconductor-bsgenome.mfascicularis.ncbi.5.0/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.mfascicularis.ncbi.5.0?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bsgenome.mfascicularis.ncbi.5.0/README.html
-

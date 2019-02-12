@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mogsa'
 .. highlight: bash
-
 
 bioconductor-mogsa
 ==================
@@ -21,11 +22,29 @@ bioconductor-mogsa
 
    |downloads_bioconductor-mogsa| |docker_bioconductor-mogsa|
 
-   :versions: 1.16.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-genefilter` >=1.64.0,<1.65.0 :conda:package:`bioconductor-graphite` >=1.28.0,<1.29.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-corpcor`  :conda:package:`r-gplots`  :conda:package:`r-svd`  
-
-   :required~by: |required_by_bioconductor-mogsa|
+   :versions: 1.16.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
+   
+   :depends bioconductor-graphite: >=1.28.0,<1.29.0
+   
+   :depends bioconductor-gseabase: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cluster: 
+   
+   :depends r-corpcor: 
+   
+   :depends r-gplots: 
+   
+   :depends r-svd: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ bioconductor-mogsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mogsa
+      docker pull quay.io/repository/biocontainers/bioconductor-mogsa:<tag>
+
+   (see `bioconductor-mogsa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mogsa| conda:required_by:: bioconductor-mogsa
 .. |downloads_bioconductor-mogsa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mogsa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mogsa| image:: https://quay.io/repository/biocontainers/bioconductor-mogsa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mogsa
+.. _`bioconductor-mogsa/tags`: https://quay.io/repository/biocontainers/bioconductor-mogsa?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mogsa/README.html
-

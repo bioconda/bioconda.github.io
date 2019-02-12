@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-geecc'
 .. highlight: bash
-
 
 bioconductor-geecc
 ==================
@@ -21,11 +22,23 @@ bioconductor-geecc
 
    |downloads_bioconductor-geecc| |docker_bioconductor-geecc|
 
-   :versions: 1.16.1, 1.16.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-hypergea` >=1.3.0 :conda:package:`r-mass`  :conda:package:`r-rcpp` >=0.11.3 
-
-   :required~by: |required_by_bioconductor-geecc|
+   :versions: 1.16.1-0, 1.16.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gplots: 
+   
+   :depends r-hypergea: >=1.3.0
+   
+   :depends r-mass: 
+   
+   :depends r-rcpp: >=0.11.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-geecc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geecc
+      docker pull quay.io/repository/biocontainers/bioconductor-geecc:<tag>
+
+   (see `bioconductor-geecc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-geecc| conda:required_by:: bioconductor-geecc
 .. |downloads_bioconductor-geecc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geecc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-geecc| image:: https://quay.io/repository/biocontainers/bioconductor-geecc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geecc
+.. _`bioconductor-geecc/tags`: https://quay.io/repository/biocontainers/bioconductor-geecc?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-geecc/README.html
-

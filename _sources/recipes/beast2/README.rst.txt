@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'beast2'
 .. highlight: bash
-
 
 beast2
 ======
@@ -21,11 +22,21 @@ beast2
 
    |downloads_beast2| |docker_beast2|
 
-   :versions: 2.5.0, 2.4.5
-
-   :depends: :conda:package:`beagle-lib`  :conda:package:`font-ttf-ubuntu`  :conda:package:`fontconfig` >=2.13.1,<3.0a0 :conda:package:`freetype` >=2.9.1,<3.0a0 :conda:package:`openjdk` 8.0.* zulu8* :conda:package:`xorg-libxtst`  
-
-   :required~by: |required_by_beast2|
+   :versions: 2.5.0-0, 2.4.5-1, 2.4.5-0
+   
+   :depends beagle-lib: 
+   
+   :depends font-ttf-ubuntu: 
+   
+   :depends fontconfig: >=2.13.1,<3.0a0
+   
+   :depends freetype: >=2.9.1,<3.0a0
+   
+   :depends openjdk: 8.0.* zulu8*
+   
+   :depends xorg-libxtst: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ beast2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/beast2
+      docker pull quay.io/repository/biocontainers/beast2:<tag>
+
+   (see `beast2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_beast2| conda:required_by:: beast2
 .. |downloads_beast2| image:: https://img.shields.io/conda/dn/bioconda/beast2.svg?style=flat
    :alt:   (downloads)
 .. |docker_beast2| image:: https://quay.io/repository/biocontainers/beast2/status
    :target: https://quay.io/repository/biocontainers/beast2
+.. _`beast2/tags`: https://quay.io/repository/biocontainers/beast2?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/beast2/README.html
-

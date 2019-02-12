@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ephemeris'
 .. highlight: bash
-
 
 ephemeris
 =========
@@ -21,11 +22,17 @@ ephemeris
 
    |downloads_ephemeris| |docker_ephemeris|
 
-   :versions: 0.8.0
-
-   :depends: :conda:package:`bioblend`  :conda:package:`jinja2`  :conda:package:`python` 2.7* :conda:package:`pyyaml`  
-
-   :required~by: |required_by_ephemeris|
+   :versions: 0.8.0-2, 0.8.0-0
+   
+   :depends bioblend: 
+   
+   :depends jinja2: 
+   
+   :depends python: 
+   
+   :depends pyyaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ ephemeris
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ephemeris
+      docker pull quay.io/repository/biocontainers/ephemeris:<tag>
+
+   (see `ephemeris/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ephemeris| conda:required_by:: ephemeris
 .. |downloads_ephemeris| image:: https://img.shields.io/conda/dn/bioconda/ephemeris.svg?style=flat
    :alt:   (downloads)
 .. |docker_ephemeris| image:: https://quay.io/repository/biocontainers/ephemeris/status
    :target: https://quay.io/repository/biocontainers/ephemeris
+.. _`ephemeris/tags`: https://quay.io/repository/biocontainers/ephemeris?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ephemeris/README.html
-

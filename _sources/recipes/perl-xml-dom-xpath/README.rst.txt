@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-xml-dom-xpath'
 .. highlight: bash
-
 
 perl-xml-dom-xpath
 ==================
@@ -21,11 +22,15 @@ perl-xml-dom-xpath
 
    |downloads_perl-xml-dom-xpath| |docker_perl-xml-dom-xpath|
 
-   :versions: 0.14
-
-   :depends: :conda:package:`perl-threaded`  :conda:package:`perl-xml-dom`  :conda:package:`perl-xml-xpathengine`  
-
-   :required~by: |required_by_perl-xml-dom-xpath|
+   :versions: 0.14-1, 0.14-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-xml-dom: 
+   
+   :depends perl-xml-xpathengine: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-xml-dom-xpath
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-dom-xpath
+      docker pull quay.io/repository/biocontainers/perl-xml-dom-xpath:<tag>
+
+   (see `perl-xml-dom-xpath/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-xml-dom-xpath| conda:required_by:: perl-xml-dom-xpath
 .. |downloads_perl-xml-dom-xpath| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-dom-xpath.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-xml-dom-xpath| image:: https://quay.io/repository/biocontainers/perl-xml-dom-xpath/status
    :target: https://quay.io/repository/biocontainers/perl-xml-dom-xpath
+.. _`perl-xml-dom-xpath/tags`: https://quay.io/repository/biocontainers/perl-xml-dom-xpath?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-xml-dom-xpath/README.html
-

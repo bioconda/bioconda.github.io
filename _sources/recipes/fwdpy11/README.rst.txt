@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fwdpy11'
 .. highlight: bash
-
 
 fwdpy11
 =======
@@ -21,11 +22,17 @@ fwdpy11
 
    |downloads_fwdpy11| |docker_fwdpy11|
 
-   :versions: 0.1.4, 0.1.3.post3, 0.1.3.post1, 0.1.3a1, 0.1.3a0, 0.1.2, 0.1.1, 0.1.post4, 0.1.post2
-
-   :depends: :conda:package:`gsl` 1.16* :conda:package:`libgcc`  :conda:package:`numpy` >=1.10 :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_fwdpy11|
+   :versions: 0.1.4-2, 0.1.4-1, 0.1.4-0, 0.1.3.post3-0, 0.1.3.post1-0, 0.1.3a1-0, 0.1.3a0-0, 0.1.2-0, 0.1.1-0, 0.1.post4-0, 0.1.post2-0
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends numpy: >=1.10
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ fwdpy11
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fwdpy11
+      docker pull quay.io/repository/biocontainers/fwdpy11:<tag>
+
+   (see `fwdpy11/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fwdpy11| conda:required_by:: fwdpy11
 .. |downloads_fwdpy11| image:: https://img.shields.io/conda/dn/bioconda/fwdpy11.svg?style=flat
    :alt:   (downloads)
 .. |docker_fwdpy11| image:: https://quay.io/repository/biocontainers/fwdpy11/status
    :target: https://quay.io/repository/biocontainers/fwdpy11
+.. _`fwdpy11/tags`: https://quay.io/repository/biocontainers/fwdpy11?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fwdpy11/README.html
-

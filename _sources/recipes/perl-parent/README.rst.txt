@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-parent'
 .. highlight: bash
-
 
 perl-parent
 ===========
@@ -21,11 +22,11 @@ perl-parent
 
    |downloads_perl-parent| |docker_perl-parent|
 
-   :versions: 0.236
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-parent|
+   :versions: 0.236-1, 0.236-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-parent
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-parent
+      docker pull quay.io/repository/biocontainers/perl-parent:<tag>
+
+   (see `perl-parent/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-parent| conda:required_by:: perl-parent
 .. |downloads_perl-parent| image:: https://img.shields.io/conda/dn/bioconda/perl-parent.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-parent| image:: https://quay.io/repository/biocontainers/perl-parent/status
    :target: https://quay.io/repository/biocontainers/perl-parent
+.. _`perl-parent/tags`: https://quay.io/repository/biocontainers/perl-parent?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-parent/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'eigensoft'
 .. highlight: bash
-
 
 eigensoft
 =========
@@ -22,11 +23,17 @@ eigensoft
 
    |downloads_eigensoft| |docker_eigensoft|
 
-   :versions: 7.2.1, 6.0.1
-
-   :depends: :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`perl`  
-
-   :required~by: |required_by_eigensoft|
+   :versions: 7.2.1-0, 6.0.1-3, 6.0.1-1, 6.0.1-0
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :depends perl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ eigensoft
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/eigensoft
+      docker pull quay.io/repository/biocontainers/eigensoft:<tag>
+
+   (see `eigensoft/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_eigensoft| conda:required_by:: eigensoft
 .. |downloads_eigensoft| image:: https://img.shields.io/conda/dn/bioconda/eigensoft.svg?style=flat
    :alt:   (downloads)
 .. |docker_eigensoft| image:: https://quay.io/repository/biocontainers/eigensoft/status
    :target: https://quay.io/repository/biocontainers/eigensoft
+.. _`eigensoft/tags`: https://quay.io/repository/biocontainers/eigensoft?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/eigensoft/README.html
-

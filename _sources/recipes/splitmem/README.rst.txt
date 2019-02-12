@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'splitmem'
 .. highlight: bash
-
 
 splitmem
 ========
@@ -21,11 +22,11 @@ splitmem
 
    |downloads_splitmem| |docker_splitmem|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_splitmem|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ splitmem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/splitmem
+      docker pull quay.io/repository/biocontainers/splitmem:<tag>
+
+   (see `splitmem/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_splitmem| conda:required_by:: splitmem
 .. |downloads_splitmem| image:: https://img.shields.io/conda/dn/bioconda/splitmem.svg?style=flat
    :alt:   (downloads)
 .. |docker_splitmem| image:: https://quay.io/repository/biocontainers/splitmem/status
    :target: https://quay.io/repository/biocontainers/splitmem
+.. _`splitmem/tags`: https://quay.io/repository/biocontainers/splitmem?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/splitmem/README.html
-

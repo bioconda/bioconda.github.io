@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-singlecellexperiment-scripts'
 .. highlight: bash
-
 
 bioconductor-singlecellexperiment-scripts
 =========================================
@@ -21,11 +22,17 @@ bioconductor-singlecellexperiment-scripts
 
    |downloads_bioconductor-singlecellexperiment-scripts| |docker_bioconductor-singlecellexperiment-scripts|
 
-   :versions: 0.0.3, 0.0.2, 0.0.1
-
-   :depends: :conda:package:`bioconductor-singlecellexperiment`  :conda:package:`r-base`  :conda:package:`r-optparse`  :conda:package:`r-workflowscriptscommon`  
-
-   :required~by: |required_by_bioconductor-singlecellexperiment-scripts|
+   :versions: 0.0.3-0, 0.0.2-0, 0.0.1-0
+   
+   :depends bioconductor-singlecellexperiment: 
+   
+   :depends r-base: 
+   
+   :depends r-optparse: 
+   
+   :depends r-workflowscriptscommon: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-singlecellexperiment-scripts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-singlecellexperiment-scripts
+      docker pull quay.io/repository/biocontainers/bioconductor-singlecellexperiment-scripts:<tag>
+
+   (see `bioconductor-singlecellexperiment-scripts/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-singlecellexperiment-scripts| conda:required_by:: bioconductor-singlecellexperiment-scripts
 .. |downloads_bioconductor-singlecellexperiment-scripts| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-singlecellexperiment-scripts.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-singlecellexperiment-scripts| image:: https://quay.io/repository/biocontainers/bioconductor-singlecellexperiment-scripts/status
    :target: https://quay.io/repository/biocontainers/bioconductor-singlecellexperiment-scripts
+.. _`bioconductor-singlecellexperiment-scripts/tags`: https://quay.io/repository/biocontainers/bioconductor-singlecellexperiment-scripts?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-singlecellexperiment-scripts/README.html
-

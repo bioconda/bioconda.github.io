@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-pbkdf2-tiny'
 .. highlight: bash
-
 
 perl-pbkdf2-tiny
 ================
@@ -21,11 +22,11 @@ perl-pbkdf2-tiny
 
    |downloads_perl-pbkdf2-tiny| |docker_perl-pbkdf2-tiny|
 
-   :versions: 0.005
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-pbkdf2-tiny|
+   :versions: 0.005-1, 0.005-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-pbkdf2-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pbkdf2-tiny
+      docker pull quay.io/repository/biocontainers/perl-pbkdf2-tiny:<tag>
+
+   (see `perl-pbkdf2-tiny/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-pbkdf2-tiny| conda:required_by:: perl-pbkdf2-tiny
 .. |downloads_perl-pbkdf2-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-pbkdf2-tiny.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-pbkdf2-tiny| image:: https://quay.io/repository/biocontainers/perl-pbkdf2-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-pbkdf2-tiny
+.. _`perl-pbkdf2-tiny/tags`: https://quay.io/repository/biocontainers/perl-pbkdf2-tiny?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-pbkdf2-tiny/README.html
-

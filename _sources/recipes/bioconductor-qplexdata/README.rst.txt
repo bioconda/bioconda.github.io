@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-qplexdata'
 .. highlight: bash
-
 
 bioconductor-qplexdata
 ======================
@@ -21,11 +22,21 @@ bioconductor-qplexdata
 
    |downloads_bioconductor-qplexdata| |docker_bioconductor-qplexdata|
 
-   :versions: 1.0.1
-
-   :depends: :conda:package:`bioconductor-msnbase` >=2.8.0,<2.9.0 :conda:package:`bioconductor-qplexanalyzer` >=1.0.0,<1.1.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-knitr`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-qplexdata|
+   :versions: 1.0.1-0
+   
+   :depends bioconductor-msnbase: >=2.8.0,<2.9.0
+   
+   :depends bioconductor-qplexanalyzer: >=1.0.0,<1.1.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-knitr: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-qplexdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qplexdata
+      docker pull quay.io/repository/biocontainers/bioconductor-qplexdata:<tag>
+
+   (see `bioconductor-qplexdata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-qplexdata| conda:required_by:: bioconductor-qplexdata
 .. |downloads_bioconductor-qplexdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qplexdata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-qplexdata| image:: https://quay.io/repository/biocontainers/bioconductor-qplexdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qplexdata
+.. _`bioconductor-qplexdata/tags`: https://quay.io/repository/biocontainers/bioconductor-qplexdata?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-qplexdata/README.html
-

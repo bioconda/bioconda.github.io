@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pepnovo'
 .. highlight: bash
-
 
 pepnovo
 =======
@@ -22,11 +23,11 @@ pepnovo
 
    |downloads_pepnovo| |docker_pepnovo|
 
-   :versions: 20101117
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_pepnovo|
+   :versions: 20101117-1, 20101117-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ pepnovo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pepnovo
+      docker pull quay.io/repository/biocontainers/pepnovo:<tag>
+
+   (see `pepnovo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pepnovo| conda:required_by:: pepnovo
 .. |downloads_pepnovo| image:: https://img.shields.io/conda/dn/bioconda/pepnovo.svg?style=flat
    :alt:   (downloads)
 .. |docker_pepnovo| image:: https://quay.io/repository/biocontainers/pepnovo/status
    :target: https://quay.io/repository/biocontainers/pepnovo
+.. _`pepnovo/tags`: https://quay.io/repository/biocontainers/pepnovo?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pepnovo/README.html
-

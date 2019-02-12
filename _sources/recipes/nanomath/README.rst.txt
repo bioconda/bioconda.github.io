@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nanomath'
 .. highlight: bash
-
 
 nanomath
 ========
@@ -21,11 +22,15 @@ nanomath
 
    |downloads_nanomath| |docker_nanomath|
 
-   :versions: 0.22.0, 0.21.0, 0.20.0, 0.18.1, 0.16.2, 0.14.2, 0.12.5
-
-   :depends: :conda:package:`numpy` >1.8 :conda:package:`pandas`  :conda:package:`python` >=3.5,<3.6.0a0 
-
-   :required~by: |required_by_nanomath|
+   :versions: 0.22.0-0, 0.21.0-2, 0.21.0-0, 0.20.0-0, 0.18.1-0, 0.16.2-0, 0.14.2-0, 0.12.5-0
+   
+   :depends numpy: >1.8
+   
+   :depends pandas: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ nanomath
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanomath
+      docker pull quay.io/repository/biocontainers/nanomath:<tag>
+
+   (see `nanomath/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nanomath| conda:required_by:: nanomath
 .. |downloads_nanomath| image:: https://img.shields.io/conda/dn/bioconda/nanomath.svg?style=flat
    :alt:   (downloads)
 .. |docker_nanomath| image:: https://quay.io/repository/biocontainers/nanomath/status
    :target: https://quay.io/repository/biocontainers/nanomath
+.. _`nanomath/tags`: https://quay.io/repository/biocontainers/nanomath?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nanomath/README.html
-

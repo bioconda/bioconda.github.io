@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rhdf5'
 .. highlight: bash
-
 
 bioconductor-rhdf5
 ==================
@@ -22,11 +23,19 @@ bioconductor-rhdf5
 
    |downloads_bioconductor-rhdf5| |docker_bioconductor-rhdf5|
 
-   :versions: 2.26.2, 2.26.1, 2.26.0, 2.24.0, 2.22.0, 2.20.0, 2.16.0, 2.14.0, 2.12.0
-
-   :depends: :conda:package:`bioconductor-rhdf5lib` >=1.4.0,<1.5.0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_bioconductor-rhdf5|
+   :versions: 2.26.2-0, 2.26.1-0, 2.26.0-2, 2.26.0-1, 2.26.0-0, 2.24.0-0, 2.22.0-0, 2.20.0-1, 2.20.0-0, 2.16.0-1, 2.16.0-0, 2.14.0-1, 2.14.0-0, 2.12.0-0
+   
+   :depends bioconductor-rhdf5lib: >=1.4.0,<1.5.0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-rhdf5
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rhdf5
+      docker pull quay.io/repository/biocontainers/bioconductor-rhdf5:<tag>
+
+   (see `bioconductor-rhdf5/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rhdf5| conda:required_by:: bioconductor-rhdf5
 .. |downloads_bioconductor-rhdf5| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rhdf5.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rhdf5| image:: https://quay.io/repository/biocontainers/bioconductor-rhdf5/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rhdf5
+.. _`bioconductor-rhdf5/tags`: https://quay.io/repository/biocontainers/bioconductor-rhdf5?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rhdf5/README.html
-

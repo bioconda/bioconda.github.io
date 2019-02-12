@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'teloclip'
 .. highlight: bash
-
 
 teloclip
 ========
@@ -21,11 +22,11 @@ teloclip
 
    |downloads_teloclip| |docker_teloclip|
 
-   :versions: 0.0.3, 0.0.2
-
-   :depends: :conda:package:`python` >=3.5,<3.6.0a0 
-
-   :required~by: |required_by_teloclip|
+   :versions: 0.0.3-0, 0.0.2-0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ teloclip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/teloclip
+      docker pull quay.io/repository/biocontainers/teloclip:<tag>
+
+   (see `teloclip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_teloclip| conda:required_by:: teloclip
 .. |downloads_teloclip| image:: https://img.shields.io/conda/dn/bioconda/teloclip.svg?style=flat
    :alt:   (downloads)
 .. |docker_teloclip| image:: https://quay.io/repository/biocontainers/teloclip/status
    :target: https://quay.io/repository/biocontainers/teloclip
+.. _`teloclip/tags`: https://quay.io/repository/biocontainers/teloclip?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/teloclip/README.html
-

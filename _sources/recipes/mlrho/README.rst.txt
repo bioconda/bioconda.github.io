@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mlrho'
 .. highlight: bash
-
 
 mlrho
 =====
@@ -22,11 +23,15 @@ mlrho
 
    |downloads_mlrho| |docker_mlrho|
 
-   :versions: 2.9
-
-   :depends: :conda:package:`gsl` 1.16* :conda:package:`libgcc`  
-
-   :required~by: |required_by_mlrho|
+   :versions: 2.9-1, 2.9-0
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ mlrho
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mlrho
+      docker pull quay.io/repository/biocontainers/mlrho:<tag>
+
+   (see `mlrho/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mlrho| conda:required_by:: mlrho
 .. |downloads_mlrho| image:: https://img.shields.io/conda/dn/bioconda/mlrho.svg?style=flat
    :alt:   (downloads)
 .. |docker_mlrho| image:: https://quay.io/repository/biocontainers/mlrho/status
    :target: https://quay.io/repository/biocontainers/mlrho
+.. _`mlrho/tags`: https://quay.io/repository/biocontainers/mlrho?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mlrho/README.html
-

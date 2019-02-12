@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rbcbook1'
 .. highlight: bash
-
 
 bioconductor-rbcbook1
 =====================
@@ -22,11 +23,17 @@ bioconductor-rbcbook1
 
    |downloads_bioconductor-rbcbook1| |docker_bioconductor-rbcbook1|
 
-   :versions: 1.50.0, 1.48.0, 1.46.0, 1.44.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rpart`  
-
-   :required~by: |required_by_bioconductor-rbcbook1|
+   :versions: 1.50.0-0, 1.48.0-0, 1.46.0-0, 1.44.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rpart: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-rbcbook1
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rbcbook1
+      docker pull quay.io/repository/biocontainers/bioconductor-rbcbook1:<tag>
+
+   (see `bioconductor-rbcbook1/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rbcbook1| conda:required_by:: bioconductor-rbcbook1
 .. |downloads_bioconductor-rbcbook1| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rbcbook1.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rbcbook1| image:: https://quay.io/repository/biocontainers/bioconductor-rbcbook1/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rbcbook1
+.. _`bioconductor-rbcbook1/tags`: https://quay.io/repository/biocontainers/bioconductor-rbcbook1?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rbcbook1/README.html
-

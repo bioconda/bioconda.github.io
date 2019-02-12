@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyensembl'
 .. highlight: bash
-
 
 pyensembl
 =========
@@ -21,11 +22,33 @@ pyensembl
 
    |downloads_pyensembl| |docker_pyensembl|
 
-   :versions: 1.7.3, 1.7.2, 1.2.6
-
-   :depends: :conda:package:`datacache` >=0.4.19 :conda:package:`gtfparse` >=0.0.3 :conda:package:`memoized-property` >=1.0.2 :conda:package:`numpy` >=1.7 :conda:package:`pandas` >=0.15 :conda:package:`pylint` >=1.4.4 :conda:package:`python`  :conda:package:`python-dateutil` >=2.5.0 :conda:package:`serializable`  :conda:package:`six` >=1.9.0 :conda:package:`tinytimer`  :conda:package:`typechecks` >=0.0.2 
-
-   :required~by: |required_by_pyensembl|
+   :versions: 1.7.3-0, 1.7.2-0, 1.2.6-2, 1.2.6-1, 1.2.6-0
+   
+   :depends datacache: >=0.4.19
+   
+   :depends gtfparse: >=0.0.3
+   
+   :depends memoized-property: >=1.0.2
+   
+   :depends numpy: >=1.7
+   
+   :depends pandas: >=0.15
+   
+   :depends pylint: >=1.4.4
+   
+   :depends python: 
+   
+   :depends python-dateutil: >=2.5.0
+   
+   :depends serializable: 
+   
+   :depends six: >=1.9.0
+   
+   :depends tinytimer: 
+   
+   :depends typechecks: >=0.0.2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ pyensembl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyensembl
+      docker pull quay.io/repository/biocontainers/pyensembl:<tag>
+
+   (see `pyensembl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyensembl| conda:required_by:: pyensembl
 .. |downloads_pyensembl| image:: https://img.shields.io/conda/dn/bioconda/pyensembl.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyensembl| image:: https://quay.io/repository/biocontainers/pyensembl/status
    :target: https://quay.io/repository/biocontainers/pyensembl
+.. _`pyensembl/tags`: https://quay.io/repository/biocontainers/pyensembl?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyensembl/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-viper'
 .. highlight: bash
-
 
 bioconductor-viper
 ==================
@@ -22,11 +23,19 @@ bioconductor-viper
 
    |downloads_bioconductor-viper| |docker_bioconductor-viper|
 
-   :versions: 1.16.0, 1.14.0, 1.12.0, 1.10.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-kernsmooth`  :conda:package:`r-mixtools`  
-
-   :required~by: |required_by_bioconductor-viper|
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-e1071: 
+   
+   :depends r-kernsmooth: 
+   
+   :depends r-mixtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-viper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-viper
+      docker pull quay.io/repository/biocontainers/bioconductor-viper:<tag>
+
+   (see `bioconductor-viper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-viper| conda:required_by:: bioconductor-viper
 .. |downloads_bioconductor-viper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-viper.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-viper| image:: https://quay.io/repository/biocontainers/bioconductor-viper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-viper
+.. _`bioconductor-viper/tags`: https://quay.io/repository/biocontainers/bioconductor-viper?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-viper/README.html
-

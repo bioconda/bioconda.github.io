@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'hclust2'
 .. highlight: bash
-
 
 hclust2
 =======
@@ -21,11 +22,19 @@ hclust2
 
    |downloads_hclust2| |docker_hclust2|
 
-   :versions: 0.99, 0.98.3d589ab
-
-   :depends: :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
-
-   :required~by: |required_by_hclust2|
+   :versions: 0.99-1, 0.99-0, 0.98.3d589ab-1, 0.98.3d589ab-0
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 0.18.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ hclust2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hclust2
+      docker pull quay.io/repository/biocontainers/hclust2:<tag>
+
+   (see `hclust2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_hclust2| conda:required_by:: hclust2
 .. |downloads_hclust2| image:: https://img.shields.io/conda/dn/bioconda/hclust2.svg?style=flat
    :alt:   (downloads)
 .. |docker_hclust2| image:: https://quay.io/repository/biocontainers/hclust2/status
    :target: https://quay.io/repository/biocontainers/hclust2
+.. _`hclust2/tags`: https://quay.io/repository/biocontainers/hclust2?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/hclust2/README.html
-

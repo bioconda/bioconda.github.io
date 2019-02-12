@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-htscluster'
 .. highlight: bash
-
 
 r-htscluster
 ============
@@ -21,11 +22,17 @@ r-htscluster
 
    |downloads_r-htscluster| |docker_r-htscluster|
 
-   :versions: 2.0.8
-
-   :depends: :conda:package:`bioconductor-edger`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-capushe`  :conda:package:`r-plotrix`  
-
-   :required~by: |required_by_r-htscluster|
+   :versions: 2.0.8-0
+   
+   :depends bioconductor-edger: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-capushe: 
+   
+   :depends r-plotrix: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-htscluster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-htscluster
+      docker pull quay.io/repository/biocontainers/r-htscluster:<tag>
+
+   (see `r-htscluster/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-htscluster| conda:required_by:: r-htscluster
 .. |downloads_r-htscluster| image:: https://img.shields.io/conda/dn/bioconda/r-htscluster.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-htscluster| image:: https://quay.io/repository/biocontainers/r-htscluster/status
    :target: https://quay.io/repository/biocontainers/r-htscluster
+.. _`r-htscluster/tags`: https://quay.io/repository/biocontainers/r-htscluster?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-htscluster/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-daglogo'
 .. highlight: bash
-
 
 bioconductor-daglogo
 ====================
@@ -21,11 +22,21 @@ bioconductor-daglogo
 
    |downloads_bioconductor-daglogo| |docker_bioconductor-daglogo|
 
-   :versions: 1.20.0
-
-   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-motifstack` >=1.26.0,<1.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-grimport`  :conda:package:`r-pheatmap`  
-
-   :required~by: |required_by_bioconductor-daglogo|
+   :versions: 1.20.0-0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-motifstack: >=1.26.0,<1.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-grimport: 
+   
+   :depends r-pheatmap: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-daglogo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-daglogo
+      docker pull quay.io/repository/biocontainers/bioconductor-daglogo:<tag>
+
+   (see `bioconductor-daglogo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-daglogo| conda:required_by:: bioconductor-daglogo
 .. |downloads_bioconductor-daglogo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-daglogo.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-daglogo| image:: https://quay.io/repository/biocontainers/bioconductor-daglogo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-daglogo
+.. _`bioconductor-daglogo/tags`: https://quay.io/repository/biocontainers/bioconductor-daglogo?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-daglogo/README.html
-

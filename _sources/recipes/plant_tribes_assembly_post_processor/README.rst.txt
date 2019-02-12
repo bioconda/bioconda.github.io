@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'plant_tribes_assembly_post_processor'
 .. highlight: bash
-
 
 plant_tribes_assembly_post_processor
 ====================================
@@ -21,11 +22,25 @@ plant_tribes_assembly_post_processor
 
    |downloads_plant_tribes_assembly_post_processor| |docker_plant_tribes_assembly_post_processor|
 
-   :versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0
-
-   :depends: :conda:package:`cap3`  :conda:package:`genometools-genometools` >=1,<2 :conda:package:`hmmer` >=3 :conda:package:`mafft` >=7,<8 :conda:package:`perl` >=5.22 :conda:package:`perl-estscan2`  :conda:package:`transdecoder` >=5,<6 :conda:package:`trimal` >=1.4,<2 
-
-   :required~by: |required_by_plant_tribes_assembly_post_processor|
+   :versions: 1.0.4-0, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.1-1, 1.0.1-0, 1.0.0-1, 1.0.0-0
+   
+   :depends cap3: 
+   
+   :depends genometools-genometools: >=1,<2
+   
+   :depends hmmer: >=3
+   
+   :depends mafft: >=7,<8
+   
+   :depends perl: >=5.22
+   
+   :depends perl-estscan2: 
+   
+   :depends transdecoder: >=5,<6
+   
+   :depends trimal: >=1.4,<2
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ plant_tribes_assembly_post_processor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plant_tribes_assembly_post_processor
+      docker pull quay.io/repository/biocontainers/plant_tribes_assembly_post_processor:<tag>
+
+   (see `plant_tribes_assembly_post_processor/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_plant_tribes_assembly_post_processor| conda:required_by:: plant_tribes_assembly_post_processor
 .. |downloads_plant_tribes_assembly_post_processor| image:: https://img.shields.io/conda/dn/bioconda/plant_tribes_assembly_post_processor.svg?style=flat
    :alt:   (downloads)
 .. |docker_plant_tribes_assembly_post_processor| image:: https://quay.io/repository/biocontainers/plant_tribes_assembly_post_processor/status
    :target: https://quay.io/repository/biocontainers/plant_tribes_assembly_post_processor
+.. _`plant_tribes_assembly_post_processor/tags`: https://quay.io/repository/biocontainers/plant_tribes_assembly_post_processor?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/plant_tribes_assembly_post_processor/README.html
-

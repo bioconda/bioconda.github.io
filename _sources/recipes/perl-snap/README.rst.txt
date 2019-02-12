@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-snap'
 .. highlight: bash
-
 
 perl-snap
 =========
@@ -21,11 +22,11 @@ perl-snap
 
    |downloads_perl-snap| |docker_perl-snap|
 
-   :versions: 2.1.1
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-snap|
+   :versions: 2.1.1-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-snap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-snap
+      docker pull quay.io/repository/biocontainers/perl-snap:<tag>
+
+   (see `perl-snap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-snap| conda:required_by:: perl-snap
 .. |downloads_perl-snap| image:: https://img.shields.io/conda/dn/bioconda/perl-snap.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-snap| image:: https://quay.io/repository/biocontainers/perl-snap/status
    :target: https://quay.io/repository/biocontainers/perl-snap
+.. _`perl-snap/tags`: https://quay.io/repository/biocontainers/perl-snap?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-snap/README.html
-

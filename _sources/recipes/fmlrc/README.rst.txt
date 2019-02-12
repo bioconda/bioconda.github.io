@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fmlrc'
 .. highlight: bash
-
 
 fmlrc
 =====
@@ -22,11 +23,11 @@ fmlrc
 
    |downloads_fmlrc| |docker_fmlrc|
 
-   :versions: 0.1.2
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
-
-   :required~by: |required_by_fmlrc|
+   :versions: 0.1.2-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ fmlrc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fmlrc
+      docker pull quay.io/repository/biocontainers/fmlrc:<tag>
+
+   (see `fmlrc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fmlrc| conda:required_by:: fmlrc
 .. |downloads_fmlrc| image:: https://img.shields.io/conda/dn/bioconda/fmlrc.svg?style=flat
    :alt:   (downloads)
 .. |docker_fmlrc| image:: https://quay.io/repository/biocontainers/fmlrc/status
    :target: https://quay.io/repository/biocontainers/fmlrc
+.. _`fmlrc/tags`: https://quay.io/repository/biocontainers/fmlrc?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fmlrc/README.html
-

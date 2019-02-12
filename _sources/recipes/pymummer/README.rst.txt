@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pymummer'
 .. highlight: bash
-
 
 pymummer
 ========
@@ -21,11 +22,15 @@ pymummer
 
    |downloads_pymummer| |docker_pymummer|
 
-   :versions: 0.10.3, 0.10.2, 0.10.1, 0.9.0, 0.8.1, 0.6.1
-
-   :depends: :conda:package:`mummer`  :conda:package:`pyfastaq` >=3.10.0 :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_pymummer|
+   :versions: 0.10.3-1, 0.10.3-0, 0.10.2-0, 0.10.1-1, 0.10.1-0, 0.9.0-0, 0.8.1-0, 0.6.1-1, 0.6.1-0
+   
+   :depends mummer: 
+   
+   :depends pyfastaq: >=3.10.0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pymummer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pymummer
+      docker pull quay.io/repository/biocontainers/pymummer:<tag>
+
+   (see `pymummer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pymummer| conda:required_by:: pymummer
 .. |downloads_pymummer| image:: https://img.shields.io/conda/dn/bioconda/pymummer.svg?style=flat
    :alt:   (downloads)
 .. |docker_pymummer| image:: https://quay.io/repository/biocontainers/pymummer/status
    :target: https://quay.io/repository/biocontainers/pymummer
+.. _`pymummer/tags`: https://quay.io/repository/biocontainers/pymummer?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pymummer/README.html
-

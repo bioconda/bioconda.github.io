@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'transcomb'
 .. highlight: bash
-
 
 transcomb
 =========
@@ -21,11 +22,21 @@ transcomb
 
    |downloads_transcomb| |docker_transcomb|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`bamtools`  :conda:package:`boost` 1.60* :conda:package:`icu` ==56.1 :conda:package:`libgcc`  :conda:package:`samtools`  :conda:package:`zlib`  
-
-   :required~by: |required_by_transcomb|
+   :versions: 1.0-0
+   
+   :depends bamtools: 
+   
+   :depends boost: 1.60*
+   
+   :depends icu: ==56.1
+   
+   :depends libgcc: 
+   
+   :depends samtools: 
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ transcomb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/transcomb
+      docker pull quay.io/repository/biocontainers/transcomb:<tag>
+
+   (see `transcomb/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_transcomb| conda:required_by:: transcomb
 .. |downloads_transcomb| image:: https://img.shields.io/conda/dn/bioconda/transcomb.svg?style=flat
    :alt:   (downloads)
 .. |docker_transcomb| image:: https://quay.io/repository/biocontainers/transcomb/status
    :target: https://quay.io/repository/biocontainers/transcomb
+.. _`transcomb/tags`: https://quay.io/repository/biocontainers/transcomb?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/transcomb/README.html
-

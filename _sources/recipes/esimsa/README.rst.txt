@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'esimsa'
 .. highlight: bash
-
 
 esimsa
 ======
@@ -22,11 +23,11 @@ esimsa
 
    |downloads_esimsa| |docker_esimsa|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_esimsa|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ esimsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/esimsa
+      docker pull quay.io/repository/biocontainers/esimsa:<tag>
+
+   (see `esimsa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_esimsa| conda:required_by:: esimsa
 .. |downloads_esimsa| image:: https://img.shields.io/conda/dn/bioconda/esimsa.svg?style=flat
    :alt:   (downloads)
 .. |docker_esimsa| image:: https://quay.io/repository/biocontainers/esimsa/status
    :target: https://quay.io/repository/biocontainers/esimsa
+.. _`esimsa/tags`: https://quay.io/repository/biocontainers/esimsa?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/esimsa/README.html
-

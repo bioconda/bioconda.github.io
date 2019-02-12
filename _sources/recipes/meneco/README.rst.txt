@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'meneco'
 .. highlight: bash
-
 
 meneco
 ======
@@ -21,11 +22,13 @@ meneco
 
    |downloads_meneco| |docker_meneco|
 
-   :versions: 1.5.2
-
-   :depends: :conda:package:`pyasp` >=1.4.3 :conda:package:`python` 3.5* 
-
-   :required~by: |required_by_meneco|
+   :versions: 1.5.2-0
+   
+   :depends pyasp: >=1.4.3
+   
+   :depends python: 3.5*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ meneco
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/meneco
+      docker pull quay.io/repository/biocontainers/meneco:<tag>
+
+   (see `meneco/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_meneco| conda:required_by:: meneco
 .. |downloads_meneco| image:: https://img.shields.io/conda/dn/bioconda/meneco.svg?style=flat
    :alt:   (downloads)
 .. |docker_meneco| image:: https://quay.io/repository/biocontainers/meneco/status
    :target: https://quay.io/repository/biocontainers/meneco
+.. _`meneco/tags`: https://quay.io/repository/biocontainers/meneco?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/meneco/README.html
-

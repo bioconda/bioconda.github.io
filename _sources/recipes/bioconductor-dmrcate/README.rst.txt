@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-dmrcate'
 .. highlight: bash
-
 
 bioconductor-dmrcate
 ====================
@@ -22,11 +23,31 @@ bioconductor-dmrcate
 
    |downloads_bioconductor-dmrcate| |docker_bioconductor-dmrcate|
 
-   :versions: 1.18.0, 1.16.0, 1.14.0
-
-   :depends: :conda:package:`bioconductor-dmrcatedata` >=1.18.0,<1.19.0 :conda:package:`bioconductor-dss` >=2.30.0,<2.31.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-gviz` >=1.26.0,<1.27.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-minfi` >=1.28.0,<1.29.0 :conda:package:`bioconductor-missmethyl` >=1.16.0,<1.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-plyr`  
-
-   :required~by: |required_by_bioconductor-dmrcate|
+   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-0
+   
+   :depends bioconductor-dmrcatedata: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-dss: >=2.30.0,<2.31.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-gviz: >=1.26.0,<1.27.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-minfi: >=1.28.0,<1.29.0
+   
+   :depends bioconductor-missmethyl: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-plyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +61,16 @@ bioconductor-dmrcate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dmrcate
+      docker pull quay.io/repository/biocontainers/bioconductor-dmrcate:<tag>
+
+   (see `bioconductor-dmrcate/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-dmrcate| conda:required_by:: bioconductor-dmrcate
 .. |downloads_bioconductor-dmrcate| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dmrcate.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-dmrcate| image:: https://quay.io/repository/biocontainers/bioconductor-dmrcate/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dmrcate
+.. _`bioconductor-dmrcate/tags`: https://quay.io/repository/biocontainers/bioconductor-dmrcate?tab=tags
 
 
 
@@ -64,4 +87,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-dmrcate/README.html
-

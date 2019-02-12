@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'python-omero'
 .. highlight: bash
-
 
 python-omero
 ============
@@ -21,11 +22,13 @@ python-omero
 
    |downloads_python-omero| |docker_python-omero|
 
-   :versions: 5.4.10, 5.4.9, 5.4.8, 5.4.7, 5.4.6, 5.4.5, 5.4.4, 5.4.3, 5.4.2, 5.4.1, 5.4.0, 5.3.3, 5.3.2, 5.3.1, 5.3.0, 5.2.8, 5.2.7
-
-   :depends: :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zeroc-ice` >3.5,<3.7 
-
-   :required~by: |required_by_python-omero|
+   :versions: 5.4.10-0, 5.4.9-0, 5.4.8-1, 5.4.7-1, 5.4.6-1, 5.4.6-0, 5.4.5-0, 5.4.4-0, 5.4.3-0, 5.4.2-0, 5.4.1-0, 5.4.0-0, 5.3.3-0, 5.3.2-0, 5.3.1-0, 5.3.0-2, 5.2.8-2, 5.2.7-2, 5.2.7-1, 5.2.7-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends zeroc-ice: >3.5,<3.7
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ python-omero
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-omero
+      docker pull quay.io/repository/biocontainers/python-omero:<tag>
+
+   (see `python-omero/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_python-omero| conda:required_by:: python-omero
 .. |downloads_python-omero| image:: https://img.shields.io/conda/dn/bioconda/python-omero.svg?style=flat
    :alt:   (downloads)
 .. |docker_python-omero| image:: https://quay.io/repository/biocontainers/python-omero/status
    :target: https://quay.io/repository/biocontainers/python-omero
+.. _`python-omero/tags`: https://quay.io/repository/biocontainers/python-omero?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/python-omero/README.html
-

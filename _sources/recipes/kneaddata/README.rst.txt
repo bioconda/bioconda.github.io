@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kneaddata'
 .. highlight: bash
-
 
 kneaddata
 =========
@@ -21,11 +22,23 @@ kneaddata
 
    |downloads_kneaddata| |docker_kneaddata|
 
-   :versions: 0.7.2, 0.7.0, 0.6.1, 0.5.2
-
-   :depends: :conda:package:`bmtagger`  :conda:package:`bowtie2`  :conda:package:`fastqc`  :conda:package:`python`  :conda:package:`samtools`  :conda:package:`trf`  :conda:package:`trimmomatic`  
-
-   :required~by: |required_by_kneaddata|
+   :versions: 0.7.2-0, 0.7.0-0, 0.6.1-2, 0.6.1-0, 0.5.2-0
+   
+   :depends bmtagger: 
+   
+   :depends bowtie2: 
+   
+   :depends fastqc: 
+   
+   :depends python: 
+   
+   :depends samtools: 
+   
+   :depends trf: 
+   
+   :depends trimmomatic: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ kneaddata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kneaddata
+      docker pull quay.io/repository/biocontainers/kneaddata:<tag>
+
+   (see `kneaddata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kneaddata| conda:required_by:: kneaddata
 .. |downloads_kneaddata| image:: https://img.shields.io/conda/dn/bioconda/kneaddata.svg?style=flat
    :alt:   (downloads)
 .. |docker_kneaddata| image:: https://quay.io/repository/biocontainers/kneaddata/status
    :target: https://quay.io/repository/biocontainers/kneaddata
+.. _`kneaddata/tags`: https://quay.io/repository/biocontainers/kneaddata?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kneaddata/README.html
-

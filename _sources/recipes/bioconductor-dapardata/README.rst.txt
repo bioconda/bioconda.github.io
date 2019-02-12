@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-dapardata'
 .. highlight: bash
-
 
 bioconductor-dapardata
 ======================
@@ -21,11 +22,17 @@ bioconductor-dapardata
 
    |downloads_bioconductor-dapardata| |docker_bioconductor-dapardata|
 
-   :versions: 1.12.1
-
-   :depends: :conda:package:`bioconductor-msnbase` >=2.8.0,<2.9.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-knitr`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-dapardata|
+   :versions: 1.12.1-0
+   
+   :depends bioconductor-msnbase: >=2.8.0,<2.9.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-knitr: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-dapardata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dapardata
+      docker pull quay.io/repository/biocontainers/bioconductor-dapardata:<tag>
+
+   (see `bioconductor-dapardata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-dapardata| conda:required_by:: bioconductor-dapardata
 .. |downloads_bioconductor-dapardata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dapardata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-dapardata| image:: https://quay.io/repository/biocontainers/bioconductor-dapardata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dapardata
+.. _`bioconductor-dapardata/tags`: https://quay.io/repository/biocontainers/bioconductor-dapardata?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-dapardata/README.html
-

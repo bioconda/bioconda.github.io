@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-pegas'
 .. highlight: bash
-
 
 r-pegas
 =======
@@ -21,11 +22,17 @@ r-pegas
 
    |downloads_r-pegas| |docker_r-pegas|
 
-   :versions: 0.11, 0.10
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-adegenet`  :conda:package:`r-ape` >=2.4 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
-
-   :required~by: |required_by_r-pegas|
+   :versions: 0.11-1, 0.11-0, 0.10-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-adegenet: 
+   
+   :depends r-ape: >=2.4
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-pegas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-pegas
+      docker pull quay.io/repository/biocontainers/r-pegas:<tag>
+
+   (see `r-pegas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-pegas| conda:required_by:: r-pegas
 .. |downloads_r-pegas| image:: https://img.shields.io/conda/dn/bioconda/r-pegas.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-pegas| image:: https://quay.io/repository/biocontainers/r-pegas/status
    :target: https://quay.io/repository/biocontainers/r-pegas
+.. _`r-pegas/tags`: https://quay.io/repository/biocontainers/r-pegas?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-pegas/README.html
-

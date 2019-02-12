@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'flexbar'
 .. highlight: bash
-
 
 flexbar
 =======
@@ -22,11 +23,21 @@ flexbar
 
    |downloads_flexbar| |docker_flexbar|
 
-   :versions: 3.3.0, 2.5.0
-
-   :depends: :conda:package:`bzip2` 1.0* :conda:package:`libcxx`  :conda:package:`libgcc`  :conda:package:`seqan-library` ==2.4.0 :conda:package:`tbb`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_flexbar|
+   :versions: 3.3.0-1, 2.5.0-2, 2.5.0-1, 2.5.0-0
+   
+   :depends bzip2: 1.0*
+   
+   :depends libcxx: 
+   
+   :depends libgcc: 
+   
+   :depends seqan-library: ==2.4.0
+   
+   :depends tbb: 
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ flexbar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flexbar
+      docker pull quay.io/repository/biocontainers/flexbar:<tag>
+
+   (see `flexbar/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_flexbar| conda:required_by:: flexbar
 .. |downloads_flexbar| image:: https://img.shields.io/conda/dn/bioconda/flexbar.svg?style=flat
    :alt:   (downloads)
 .. |docker_flexbar| image:: https://quay.io/repository/biocontainers/flexbar/status
    :target: https://quay.io/repository/biocontainers/flexbar
+.. _`flexbar/tags`: https://quay.io/repository/biocontainers/flexbar?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/flexbar/README.html
-

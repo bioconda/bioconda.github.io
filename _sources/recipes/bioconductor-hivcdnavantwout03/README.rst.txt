@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-hivcdnavantwout03'
 .. highlight: bash
-
 
 bioconductor-hivcdnavantwout03
 ==============================
@@ -21,11 +22,13 @@ bioconductor-hivcdnavantwout03
 
    |downloads_bioconductor-hivcdnavantwout03| |docker_bioconductor-hivcdnavantwout03|
 
-   :versions: 1.22.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-hivcdnavantwout03|
+   :versions: 1.22.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-hivcdnavantwout03
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hivcdnavantwout03
+      docker pull quay.io/repository/biocontainers/bioconductor-hivcdnavantwout03:<tag>
+
+   (see `bioconductor-hivcdnavantwout03/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-hivcdnavantwout03| conda:required_by:: bioconductor-hivcdnavantwout03
 .. |downloads_bioconductor-hivcdnavantwout03| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hivcdnavantwout03.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-hivcdnavantwout03| image:: https://quay.io/repository/biocontainers/bioconductor-hivcdnavantwout03/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hivcdnavantwout03
+.. _`bioconductor-hivcdnavantwout03/tags`: https://quay.io/repository/biocontainers/bioconductor-hivcdnavantwout03?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-hivcdnavantwout03/README.html
-

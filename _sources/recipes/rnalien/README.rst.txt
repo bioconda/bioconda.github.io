@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rnalien'
 .. highlight: bash
-
 
 rnalien
 =======
@@ -22,11 +23,29 @@ rnalien
 
    |downloads_rnalien| |docker_rnalien|
 
-   :versions: 1.3.7, 1.3.6, 1.3.5, 1.3.4, 1.2.5
-
-   :depends: :conda:package:`ca-certificates`  :conda:package:`gmp`  :conda:package:`infernal` ==1.1.2 :conda:package:`libgcc`  :conda:package:`locarna` ==1.9.1 :conda:package:`perl` 5.22.0* :conda:package:`rnacode` ==0.3 :conda:package:`rnaz` ==2.1 :conda:package:`viennarna` ==2.3.3 :conda:package:`zlib`  
-
-   :required~by: |required_by_rnalien|
+   :versions: 1.3.7-5, 1.3.7-4, 1.3.7-3, 1.3.7-2, 1.3.7-1, 1.3.7-0, 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.2.5-0
+   
+   :depends gmp: 5.1*
+   
+   :depends infernal: ==1.1.2
+   
+   :depends libgcc: 
+   
+   :depends locarna: ==1.9.1
+   
+   :depends openssl: 
+   
+   :depends perl: 5.22.0*
+   
+   :depends rnacode: ==0.3
+   
+   :depends rnaz: ==2.1
+   
+   :depends viennarna: ==2.3.3
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ rnalien
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnalien
+      docker pull quay.io/repository/biocontainers/rnalien:<tag>
+
+   (see `rnalien/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rnalien| conda:required_by:: rnalien
 .. |downloads_rnalien| image:: https://img.shields.io/conda/dn/bioconda/rnalien.svg?style=flat
    :alt:   (downloads)
 .. |docker_rnalien| image:: https://quay.io/repository/biocontainers/rnalien/status
    :target: https://quay.io/repository/biocontainers/rnalien
+.. _`rnalien/tags`: https://quay.io/repository/biocontainers/rnalien?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rnalien/README.html
-

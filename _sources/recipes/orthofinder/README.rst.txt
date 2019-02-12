@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'orthofinder'
 .. highlight: bash
-
 
 orthofinder
 ===========
@@ -21,11 +22,37 @@ orthofinder
 
    |downloads_orthofinder| |docker_orthofinder|
 
-   :versions: 2.2.7, 2.2.6, 2.2.1, 2.2.0, 2.1.2, 1.1.10, 1.1.8, 1.1.4, 1.1.2
-
-   :depends: :conda:package:`blast`  :conda:package:`bzip2`  :conda:package:`diamond`  :conda:package:`dlcpar`  :conda:package:`fastme`  :conda:package:`fasttree`  :conda:package:`iqtree`  :conda:package:`mafft`  :conda:package:`mcl`  :conda:package:`mmseqs2`  :conda:package:`muscle`  :conda:package:`python` 2.7.* :conda:package:`raxml`  :conda:package:`scipy`  
-
-   :required~by: |required_by_orthofinder|
+   :versions: 2.2.7-0, 2.2.6-0, 2.2.1-0, 2.2.0-0, 2.1.2-1, 2.1.2-0, 1.1.10-0, 1.1.8-0, 1.1.4-0, 1.1.2-0
+   
+   :depends blast: 
+   
+   :depends bzip2: 
+   
+   :depends diamond: 
+   
+   :depends dlcpar: 
+   
+   :depends fastme: 
+   
+   :depends fasttree: 
+   
+   :depends iqtree: 
+   
+   :depends mafft: 
+   
+   :depends mcl: 
+   
+   :depends mmseqs2: 
+   
+   :depends muscle: 
+   
+   :depends python: 2.7.*
+   
+   :depends raxml: 
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ orthofinder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/orthofinder
+      docker pull quay.io/repository/biocontainers/orthofinder:<tag>
+
+   (see `orthofinder/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_orthofinder| conda:required_by:: orthofinder
 .. |downloads_orthofinder| image:: https://img.shields.io/conda/dn/bioconda/orthofinder.svg?style=flat
    :alt:   (downloads)
 .. |docker_orthofinder| image:: https://quay.io/repository/biocontainers/orthofinder/status
    :target: https://quay.io/repository/biocontainers/orthofinder
+.. _`orthofinder/tags`: https://quay.io/repository/biocontainers/orthofinder?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/orthofinder/README.html
-

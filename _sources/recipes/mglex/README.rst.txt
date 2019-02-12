@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mglex'
 .. highlight: bash
-
 
 mglex
 =====
@@ -21,11 +22,17 @@ mglex
 
    |downloads_mglex| |docker_mglex|
 
-   :versions: 0.2.1, 0.2.0
-
-   :depends: :conda:package:`docopt` >=0.6.2 :conda:package:`numpy` >=1.8.2 :conda:package:`python` >=3 :conda:package:`scipy` >=0.13.3 
-
-   :required~by: |required_by_mglex|
+   :versions: 0.2.1-0, 0.2.0-1, 0.2.0-0
+   
+   :depends docopt: >=0.6.2
+   
+   :depends numpy: >=1.8.2
+   
+   :depends python: >=3
+   
+   :depends scipy: >=0.13.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ mglex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mglex
+      docker pull quay.io/repository/biocontainers/mglex:<tag>
+
+   (see `mglex/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mglex| conda:required_by:: mglex
 .. |downloads_mglex| image:: https://img.shields.io/conda/dn/bioconda/mglex.svg?style=flat
    :alt:   (downloads)
 .. |docker_mglex| image:: https://quay.io/repository/biocontainers/mglex/status
    :target: https://quay.io/repository/biocontainers/mglex
+.. _`mglex/tags`: https://quay.io/repository/biocontainers/mglex?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mglex/README.html
-

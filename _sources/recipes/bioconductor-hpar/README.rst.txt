@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-hpar'
 .. highlight: bash
-
 
 bioconductor-hpar
 =================
@@ -22,11 +23,11 @@ bioconductor-hpar
 
    |downloads_bioconductor-hpar| |docker_bioconductor-hpar|
 
-   :versions: 1.24.0, 1.22.2, 1.20.0, 1.18.1, 1.15.0, 1.14.1
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-hpar|
+   :versions: 1.24.0-0, 1.22.2-0, 1.20.0-0, 1.18.1-0, 1.15.0-0, 1.14.1-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ bioconductor-hpar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hpar
+      docker pull quay.io/repository/biocontainers/bioconductor-hpar:<tag>
+
+   (see `bioconductor-hpar/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-hpar| conda:required_by:: bioconductor-hpar
 .. |downloads_bioconductor-hpar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hpar.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-hpar| image:: https://quay.io/repository/biocontainers/bioconductor-hpar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hpar
+.. _`bioconductor-hpar/tags`: https://quay.io/repository/biocontainers/bioconductor-hpar?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-hpar/README.html
-

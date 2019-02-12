@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cap-mirseq'
 .. highlight: bash
-
 
 cap-mirseq
 ==========
@@ -21,11 +22,33 @@ cap-mirseq
 
    |downloads_cap-mirseq| |docker_cap-mirseq|
 
-   :versions: version
-
-   :depends: :conda:package:`bedtools` >=2.17.0 :conda:package:`bioconductor-edger` >=3.14.0 :conda:package:`bowtie` >=1.1.2 :conda:package:`fastqc` >=0.11.5 :conda:package:`java-jdk`  :conda:package:`mirdeep2` >=2.0.0.7 :conda:package:`perl-threaded`  :conda:package:`picard` >=1.97 :conda:package:`r-base` 3.2.2* :conda:package:`r-essentials`  :conda:package:`samtools` >=0.1.19 :conda:package:`vcftools` >=0.1.11 
-
-   :required~by: |required_by_cap-mirseq|
+   :versions: version-0
+   
+   :depends bedtools: >=2.17.0
+   
+   :depends bioconductor-edger: >=3.14.0
+   
+   :depends bowtie: >=1.1.2
+   
+   :depends fastqc: >=0.11.5
+   
+   :depends java-jdk: 
+   
+   :depends mirdeep2: >=2.0.0.7
+   
+   :depends perl-threaded: 
+   
+   :depends picard: >=1.97
+   
+   :depends r-base: 3.2.2*
+   
+   :depends r-essentials: 
+   
+   :depends samtools: >=0.1.19
+   
+   :depends vcftools: >=0.1.11
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ cap-mirseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cap-mirseq
+      docker pull quay.io/repository/biocontainers/cap-mirseq:<tag>
+
+   (see `cap-mirseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cap-mirseq| conda:required_by:: cap-mirseq
 .. |downloads_cap-mirseq| image:: https://img.shields.io/conda/dn/bioconda/cap-mirseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_cap-mirseq| image:: https://quay.io/repository/biocontainers/cap-mirseq/status
    :target: https://quay.io/repository/biocontainers/cap-mirseq
+.. _`cap-mirseq/tags`: https://quay.io/repository/biocontainers/cap-mirseq?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cap-mirseq/README.html
-

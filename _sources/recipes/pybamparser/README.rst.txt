@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pybamparser'
 .. highlight: bash
-
 
 pybamparser
 ===========
@@ -21,11 +22,11 @@ pybamparser
 
    |downloads_pybamparser| |docker_pybamparser|
 
-   :versions: 0.0.3
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_pybamparser|
+   :versions: 0.0.3-1, 0.0.3-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ pybamparser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pybamparser
+      docker pull quay.io/repository/biocontainers/pybamparser:<tag>
+
+   (see `pybamparser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pybamparser| conda:required_by:: pybamparser
 .. |downloads_pybamparser| image:: https://img.shields.io/conda/dn/bioconda/pybamparser.svg?style=flat
    :alt:   (downloads)
 .. |docker_pybamparser| image:: https://quay.io/repository/biocontainers/pybamparser/status
    :target: https://quay.io/repository/biocontainers/pybamparser
+.. _`pybamparser/tags`: https://quay.io/repository/biocontainers/pybamparser?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pybamparser/README.html
-

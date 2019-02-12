@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-fishalyser'
 .. highlight: bash
-
 
 bioconductor-fishalyser
 =======================
@@ -22,11 +23,15 @@ bioconductor-fishalyser
 
    |downloads_bioconductor-fishalyser| |docker_bioconductor-fishalyser|
 
-   :versions: 1.16.0, 1.14.0, 1.12.0, 1.10.0
-
-   :depends: :conda:package:`bioconductor-ebimage` >=4.24.0,<4.25.0 :conda:package:`r-abind`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-fishalyser|
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   
+   :depends bioconductor-ebimage: >=4.24.0,<4.25.0
+   
+   :depends r-abind: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-fishalyser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fishalyser
+      docker pull quay.io/repository/biocontainers/bioconductor-fishalyser:<tag>
+
+   (see `bioconductor-fishalyser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-fishalyser| conda:required_by:: bioconductor-fishalyser
 .. |downloads_bioconductor-fishalyser| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fishalyser.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-fishalyser| image:: https://quay.io/repository/biocontainers/bioconductor-fishalyser/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fishalyser
+.. _`bioconductor-fishalyser/tags`: https://quay.io/repository/biocontainers/bioconductor-fishalyser?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-fishalyser/README.html
-

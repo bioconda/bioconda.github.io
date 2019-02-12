@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-border-style'
 .. highlight: bash
-
 
 perl-border-style
 =================
@@ -21,11 +22,17 @@ perl-border-style
 
    |downloads_perl-border-style| |docker_perl-border-style|
 
-   :versions: 0.01
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-moo`  :conda:package:`perl-term-app-roles`  
-
-   :required~by: |required_by_perl-border-style|
+   :versions: 0.01-2, 0.01-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-module-list: 
+   
+   :depends perl-moo: 
+   
+   :depends perl-term-app-roles: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ perl-border-style
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-border-style
+      docker pull quay.io/repository/biocontainers/perl-border-style:<tag>
+
+   (see `perl-border-style/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-border-style| conda:required_by:: perl-border-style
 .. |downloads_perl-border-style| image:: https://img.shields.io/conda/dn/bioconda/perl-border-style.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-border-style| image:: https://quay.io/repository/biocontainers/perl-border-style/status
    :target: https://quay.io/repository/biocontainers/perl-border-style
+.. _`perl-border-style/tags`: https://quay.io/repository/biocontainers/perl-border-style?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-border-style/README.html
-

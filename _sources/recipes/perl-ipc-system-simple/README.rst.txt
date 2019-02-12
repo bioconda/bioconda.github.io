@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-ipc-system-simple'
 .. highlight: bash
-
 
 perl-ipc-system-simple
 ======================
@@ -21,11 +22,13 @@ perl-ipc-system-simple
 
    |downloads_perl-ipc-system-simple| |docker_perl-ipc-system-simple|
 
-   :versions: 1.25
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-ipc-system-simple|
+   :versions: 1.25-4, 1.25-3, 1.25-2, 1.25-1, 1.25-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-ipc-system-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-ipc-system-simple
+      docker pull quay.io/repository/biocontainers/perl-ipc-system-simple:<tag>
+
+   (see `perl-ipc-system-simple/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-ipc-system-simple| conda:required_by:: perl-ipc-system-simple
 .. |downloads_perl-ipc-system-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-ipc-system-simple.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-ipc-system-simple| image:: https://quay.io/repository/biocontainers/perl-ipc-system-simple/status
    :target: https://quay.io/repository/biocontainers/perl-ipc-system-simple
+.. _`perl-ipc-system-simple/tags`: https://quay.io/repository/biocontainers/perl-ipc-system-simple?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-ipc-system-simple/README.html
-

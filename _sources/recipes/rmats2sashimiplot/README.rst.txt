@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rmats2sashimiplot'
 .. highlight: bash
-
 
 rmats2sashimiplot
 =================
@@ -21,11 +22,19 @@ rmats2sashimiplot
 
    |downloads_rmats2sashimiplot| |docker_rmats2sashimiplot|
 
-   :versions: 2.0.3, 2.0.0
-
-   :depends: :conda:package:`matplotlib`  :conda:package:`pysam` ==0.9.0 :conda:package:`python` ==2.6*|2.7* :conda:package:`samtools` ==1.3.1 :conda:package:`scipy`  
-
-   :required~by: |required_by_rmats2sashimiplot|
+   :versions: 2.0.3-2, 2.0.3-0, 2.0.0-0
+   
+   :depends matplotlib: 
+   
+   :depends pysam: 0.9.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: 1.3.1
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ rmats2sashimiplot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rmats2sashimiplot
+      docker pull quay.io/repository/biocontainers/rmats2sashimiplot:<tag>
+
+   (see `rmats2sashimiplot/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rmats2sashimiplot| conda:required_by:: rmats2sashimiplot
 .. |downloads_rmats2sashimiplot| image:: https://img.shields.io/conda/dn/bioconda/rmats2sashimiplot.svg?style=flat
    :alt:   (downloads)
 .. |docker_rmats2sashimiplot| image:: https://quay.io/repository/biocontainers/rmats2sashimiplot/status
    :target: https://quay.io/repository/biocontainers/rmats2sashimiplot
+.. _`rmats2sashimiplot/tags`: https://quay.io/repository/biocontainers/rmats2sashimiplot?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rmats2sashimiplot/README.html
-

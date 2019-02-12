@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-flowrepositoryr'
 .. highlight: bash
-
 
 bioconductor-flowrepositoryr
 ============================
@@ -22,11 +23,17 @@ bioconductor-flowrepositoryr
 
    |downloads_bioconductor-flowrepositoryr| |docker_bioconductor-flowrepositoryr|
 
-   :versions: 1.14.1, 1.12.0, 1.10.0, 1.8.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-jsonlite`  :conda:package:`r-rcurl`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-flowrepositoryr|
+   :versions: 1.14.1-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-jsonlite: 
+   
+   :depends r-rcurl: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-flowrepositoryr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowrepositoryr
+      docker pull quay.io/repository/biocontainers/bioconductor-flowrepositoryr:<tag>
+
+   (see `bioconductor-flowrepositoryr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-flowrepositoryr| conda:required_by:: bioconductor-flowrepositoryr
 .. |downloads_bioconductor-flowrepositoryr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowrepositoryr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-flowrepositoryr| image:: https://quay.io/repository/biocontainers/bioconductor-flowrepositoryr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowrepositoryr
+.. _`bioconductor-flowrepositoryr/tags`: https://quay.io/repository/biocontainers/bioconductor-flowrepositoryr?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-flowrepositoryr/README.html
-

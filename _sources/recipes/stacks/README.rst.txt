@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'stacks'
 .. highlight: bash
-
 
 stacks
 ======
@@ -22,11 +23,33 @@ stacks
 
    |downloads_stacks| |docker_stacks|
 
-   :versions: 2.3, 2.3b, 2.2, 2.1, 2.0, 2.0Beta10a, 2.0Beta9, 2.0Beta8, 2.0Beta8c, 2.0Beta7c, 1.47, 1.46, 1.44, 1.43, 1.42, 1.40, 1.37
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`openmp`  :conda:package:`perl`  :conda:package:`perl-bioperl-core`  :conda:package:`perl-file-spec`  :conda:package:`perl-file-temp`  :conda:package:`perl-posix`  :conda:package:`python` >=3 :conda:package:`samtools`  :conda:package:`velvet`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_stacks|
+   :versions: 2.3-3, 2.3b-0, 2.2-3, 2.2-2, 2.2-1, 2.2-0, 2.1-2, 2.1-1, 2.0-1, 2.0-0, 2.0Beta10a-0, 2.0Beta9-0, 2.0Beta8-1, 2.0Beta8-0, 2.0Beta8c-1, 2.0Beta8c-0, 2.0Beta7c-0, 1.47-2, 1.47-1, 1.47-0, 1.46-1, 1.46-0, 1.44-3, 1.44-2, 1.44-1, 1.44-0, 1.43-2, 1.43-1, 1.43-0, 1.42-5, 1.42-4, 1.42-3, 1.42-2, 1.42-1, 1.40-3, 1.40-2, 1.40-1, 1.40-0, 1.37-2, 1.37-1, 1.37-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends openmp: 
+   
+   :depends perl: 
+   
+   :depends perl-bioperl-core: 
+   
+   :depends perl-file-spec: 
+   
+   :depends perl-file-temp: 
+   
+   :depends perl-posix: 
+   
+   :depends python: >=3
+   
+   :depends samtools: 
+   
+   :depends velvet: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +63,16 @@ stacks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stacks
+      docker pull quay.io/repository/biocontainers/stacks:<tag>
+
+   (see `stacks/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_stacks| conda:required_by:: stacks
 .. |downloads_stacks| image:: https://img.shields.io/conda/dn/bioconda/stacks.svg?style=flat
    :alt:   (downloads)
 .. |docker_stacks| image:: https://quay.io/repository/biocontainers/stacks/status
    :target: https://quay.io/repository/biocontainers/stacks
+.. _`stacks/tags`: https://quay.io/repository/biocontainers/stacks?tab=tags
 
 
 
@@ -64,4 +89,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/stacks/README.html
-

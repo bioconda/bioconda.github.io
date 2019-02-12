@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bpp-popgen'
 .. highlight: bash
-
 
 bpp-popgen
 ==========
@@ -21,11 +22,13 @@ bpp-popgen
 
    |downloads_bpp-popgen| |docker_bpp-popgen|
 
-   :versions: 2.4.1
-
-   :depends: :conda:package:`bpp-seq`  :conda:package:`libgcc-ng` >=4.9 
-
-   :required~by: |required_by_bpp-popgen|
+   :versions: 2.4.1-0
+   
+   :depends bpp-seq: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bpp-popgen
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bpp-popgen
+      docker pull quay.io/repository/biocontainers/bpp-popgen:<tag>
+
+   (see `bpp-popgen/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bpp-popgen| conda:required_by:: bpp-popgen
 .. |downloads_bpp-popgen| image:: https://img.shields.io/conda/dn/bioconda/bpp-popgen.svg?style=flat
    :alt:   (downloads)
 .. |docker_bpp-popgen| image:: https://quay.io/repository/biocontainers/bpp-popgen/status
    :target: https://quay.io/repository/biocontainers/bpp-popgen
+.. _`bpp-popgen/tags`: https://quay.io/repository/biocontainers/bpp-popgen?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bpp-popgen/README.html
-

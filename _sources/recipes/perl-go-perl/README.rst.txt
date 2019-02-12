@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-go-perl'
 .. highlight: bash
-
 
 perl-go-perl
 ============
@@ -21,11 +22,15 @@ perl-go-perl
 
    |downloads_perl-go-perl| |docker_perl-go-perl|
 
-   :versions: 0.15
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-data-dumper`  :conda:package:`perl-data-stag`  
-
-   :required~by: |required_by_perl-go-perl|
+   :versions: 0.15-3, 0.15-1, 0.15-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-data-dumper: 
+   
+   :depends perl-data-stag: >=0.07
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-go-perl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-go-perl
+      docker pull quay.io/repository/biocontainers/perl-go-perl:<tag>
+
+   (see `perl-go-perl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-go-perl| conda:required_by:: perl-go-perl
 .. |downloads_perl-go-perl| image:: https://img.shields.io/conda/dn/bioconda/perl-go-perl.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-go-perl| image:: https://quay.io/repository/biocontainers/perl-go-perl/status
    :target: https://quay.io/repository/biocontainers/perl-go-perl
+.. _`perl-go-perl/tags`: https://quay.io/repository/biocontainers/perl-go-perl?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-go-perl/README.html
-

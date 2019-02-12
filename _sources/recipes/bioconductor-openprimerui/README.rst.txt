@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-openprimerui'
 .. highlight: bash
-
 
 bioconductor-openprimerui
 =========================
@@ -21,11 +22,23 @@ bioconductor-openprimerui
 
    |downloads_bioconductor-openprimerui| |docker_bioconductor-openprimerui|
 
-   :versions: 1.4.1
-
-   :depends: :conda:package:`bioconductor-openprimer` >=1.4.0,<1.5.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dt` >=0.2 :conda:package:`r-rmarkdown` >=1.0 :conda:package:`r-shiny` >=1.0.2 :conda:package:`r-shinybs` >=0.61 :conda:package:`r-shinyjs` >=0.9 
-
-   :required~by: |required_by_bioconductor-openprimerui|
+   :versions: 1.4.1-0
+   
+   :depends bioconductor-openprimer: >=1.4.0,<1.5.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dt: >=0.2
+   
+   :depends r-rmarkdown: >=1.0
+   
+   :depends r-shiny: >=1.0.2
+   
+   :depends r-shinybs: >=0.61
+   
+   :depends r-shinyjs: >=0.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-openprimerui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-openprimerui
+      docker pull quay.io/repository/biocontainers/bioconductor-openprimerui:<tag>
+
+   (see `bioconductor-openprimerui/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-openprimerui| conda:required_by:: bioconductor-openprimerui
 .. |downloads_bioconductor-openprimerui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-openprimerui.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-openprimerui| image:: https://quay.io/repository/biocontainers/bioconductor-openprimerui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-openprimerui
+.. _`bioconductor-openprimerui/tags`: https://quay.io/repository/biocontainers/bioconductor-openprimerui?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-openprimerui/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fido'
 .. highlight: bash
-
 
 fido
 ====
@@ -21,11 +22,11 @@ fido
 
    |downloads_fido| |docker_fido|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_fido|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ fido
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fido
+      docker pull quay.io/repository/biocontainers/fido:<tag>
+
+   (see `fido/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fido| conda:required_by:: fido
 .. |downloads_fido| image:: https://img.shields.io/conda/dn/bioconda/fido.svg?style=flat
    :alt:   (downloads)
 .. |docker_fido| image:: https://quay.io/repository/biocontainers/fido/status
    :target: https://quay.io/repository/biocontainers/fido
+.. _`fido/tags`: https://quay.io/repository/biocontainers/fido?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fido/README.html
-

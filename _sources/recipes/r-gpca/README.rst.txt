@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-gpca'
 .. highlight: bash
-
 
 r-gpca
 ======
@@ -21,11 +22,11 @@ r-gpca
 
    |downloads_r-gpca| |docker_r-gpca|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
-
-   :required~by: |required_by_r-gpca|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-gpca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gpca
+      docker pull quay.io/repository/biocontainers/r-gpca:<tag>
+
+   (see `r-gpca/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-gpca| conda:required_by:: r-gpca
 .. |downloads_r-gpca| image:: https://img.shields.io/conda/dn/bioconda/r-gpca.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-gpca| image:: https://quay.io/repository/biocontainers/r-gpca/status
    :target: https://quay.io/repository/biocontainers/r-gpca
+.. _`r-gpca/tags`: https://quay.io/repository/biocontainers/r-gpca?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-gpca/README.html
-

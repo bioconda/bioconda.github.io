@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-getopt-long'
 .. highlight: bash
-
 
 perl-getopt-long
 ================
@@ -21,11 +22,11 @@ perl-getopt-long
 
    |downloads_perl-getopt-long| |docker_perl-getopt-long|
 
-   :versions: 2.50, 2.49
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-getopt-long|
+   :versions: 2.50-1, 2.50-0, 2.49-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-getopt-long
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-getopt-long
+      docker pull quay.io/repository/biocontainers/perl-getopt-long:<tag>
+
+   (see `perl-getopt-long/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-getopt-long| conda:required_by:: perl-getopt-long
 .. |downloads_perl-getopt-long| image:: https://img.shields.io/conda/dn/bioconda/perl-getopt-long.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-getopt-long| image:: https://quay.io/repository/biocontainers/perl-getopt-long/status
    :target: https://quay.io/repository/biocontainers/perl-getopt-long
+.. _`perl-getopt-long/tags`: https://quay.io/repository/biocontainers/perl-getopt-long?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-getopt-long/README.html
-

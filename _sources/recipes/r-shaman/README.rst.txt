@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-shaman'
 .. highlight: bash
-
 
 r-shaman
 ========
@@ -21,11 +22,21 @@ r-shaman
 
    |downloads_r-shaman| |docker_r-shaman|
 
-   :versions: 2.0
-
-   :depends: :conda:package:`bioconductor-genomeinfodb`  :conda:package:`bioconductor-gviz`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-domc`  :conda:package:`r-misha`  :conda:package:`r-rann`  
-
-   :required~by: |required_by_r-shaman|
+   :versions: 2.0-0
+   
+   :depends bioconductor-genomeinfodb: 
+   
+   :depends bioconductor-gviz: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-domc: 
+   
+   :depends r-misha: 
+   
+   :depends r-rann: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ r-shaman
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-shaman
+      docker pull quay.io/repository/biocontainers/r-shaman:<tag>
+
+   (see `r-shaman/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-shaman| conda:required_by:: r-shaman
 .. |downloads_r-shaman| image:: https://img.shields.io/conda/dn/bioconda/r-shaman.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-shaman| image:: https://quay.io/repository/biocontainers/r-shaman/status
    :target: https://quay.io/repository/biocontainers/r-shaman
+.. _`r-shaman/tags`: https://quay.io/repository/biocontainers/r-shaman?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-shaman/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rgmql'
 .. highlight: bash
-
 
 bioconductor-rgmql
 ==================
@@ -22,10 +23,8 @@ bioconductor-rgmql
    |downloads_bioconductor-rgmql| |docker_bioconductor-rgmql|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-rgmql|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-rgmql
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgmql
+      docker pull quay.io/repository/biocontainers/bioconductor-rgmql:<tag>
+
+   (see `bioconductor-rgmql/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rgmql| conda:required_by:: bioconductor-rgmql
 .. |downloads_bioconductor-rgmql| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgmql.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rgmql| image:: https://quay.io/repository/biocontainers/bioconductor-rgmql/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgmql
+.. _`bioconductor-rgmql/tags`: https://quay.io/repository/biocontainers/bioconductor-rgmql?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rgmql/README.html
-

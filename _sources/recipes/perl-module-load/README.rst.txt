@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-module-load'
 .. highlight: bash
-
 
 perl-module-load
 ================
@@ -21,11 +22,11 @@ perl-module-load
 
    |downloads_perl-module-load| |docker_perl-module-load|
 
-   :versions: 0.32
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-module-load|
+   :versions: 0.32-1, 0.32-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-module-load
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-load
+      docker pull quay.io/repository/biocontainers/perl-module-load:<tag>
+
+   (see `perl-module-load/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-module-load| conda:required_by:: perl-module-load
 .. |downloads_perl-module-load| image:: https://img.shields.io/conda/dn/bioconda/perl-module-load.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-module-load| image:: https://quay.io/repository/biocontainers/perl-module-load/status
    :target: https://quay.io/repository/biocontainers/perl-module-load
+.. _`perl-module-load/tags`: https://quay.io/repository/biocontainers/perl-module-load?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-module-load/README.html
-

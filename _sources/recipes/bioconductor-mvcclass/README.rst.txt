@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mvcclass'
 .. highlight: bash
-
 
 bioconductor-mvcclass
 =====================
@@ -22,11 +23,11 @@ bioconductor-mvcclass
 
    |downloads_bioconductor-mvcclass| |docker_bioconductor-mvcclass|
 
-   :versions: 1.56.0, 1.54.0, 1.52.0, 1.50.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-mvcclass|
+   :versions: 1.56.0-0, 1.54.0-0, 1.52.0-0, 1.50.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ bioconductor-mvcclass
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mvcclass
+      docker pull quay.io/repository/biocontainers/bioconductor-mvcclass:<tag>
+
+   (see `bioconductor-mvcclass/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mvcclass| conda:required_by:: bioconductor-mvcclass
 .. |downloads_bioconductor-mvcclass| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mvcclass.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mvcclass| image:: https://quay.io/repository/biocontainers/bioconductor-mvcclass/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mvcclass
+.. _`bioconductor-mvcclass/tags`: https://quay.io/repository/biocontainers/bioconductor-mvcclass?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mvcclass/README.html
-

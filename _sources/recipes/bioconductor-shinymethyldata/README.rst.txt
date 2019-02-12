@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-shinymethyldata'
 .. highlight: bash
-
 
 bioconductor-shinymethyldata
 ============================
@@ -21,11 +22,13 @@ bioconductor-shinymethyldata
 
    |downloads_bioconductor-shinymethyldata| |docker_bioconductor-shinymethyldata|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-shinymethyldata|
+   :versions: 1.2.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-shinymethyldata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-shinymethyldata
+      docker pull quay.io/repository/biocontainers/bioconductor-shinymethyldata:<tag>
+
+   (see `bioconductor-shinymethyldata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-shinymethyldata| conda:required_by:: bioconductor-shinymethyldata
 .. |downloads_bioconductor-shinymethyldata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-shinymethyldata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-shinymethyldata| image:: https://quay.io/repository/biocontainers/bioconductor-shinymethyldata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-shinymethyldata
+.. _`bioconductor-shinymethyldata/tags`: https://quay.io/repository/biocontainers/bioconductor-shinymethyldata?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-shinymethyldata/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tn93'
 .. highlight: bash
-
 
 tn93
 ====
@@ -21,11 +22,13 @@ tn93
 
    |downloads_tn93| |docker_tn93|
 
-   :versions: 1.0.6, 1.0.4, 1.0.2
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_tn93|
+   :versions: 1.0.6-1, 1.0.6-0, 1.0.4-0, 1.0.2-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ tn93
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tn93
+      docker pull quay.io/repository/biocontainers/tn93:<tag>
+
+   (see `tn93/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tn93| conda:required_by:: tn93
 .. |downloads_tn93| image:: https://img.shields.io/conda/dn/bioconda/tn93.svg?style=flat
    :alt:   (downloads)
 .. |docker_tn93| image:: https://quay.io/repository/biocontainers/tn93/status
    :target: https://quay.io/repository/biocontainers/tn93
+.. _`tn93/tags`: https://quay.io/repository/biocontainers/tn93?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tn93/README.html
-

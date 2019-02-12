@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-gdgraph-histogram'
 .. highlight: bash
-
 
 perl-gdgraph-histogram
 ======================
@@ -21,11 +22,15 @@ perl-gdgraph-histogram
 
    |downloads_perl-gdgraph-histogram| |docker_perl-gdgraph-histogram|
 
-   :versions: 1.1
-
-   :depends: :conda:package:`libgd`  :conda:package:`perl-gdgraph`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-gdgraph-histogram|
+   :versions: 1.1-3, 1.1-2, 1.1-1, 1.1-0
+   
+   :depends libgd: 
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-gdgraph: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-gdgraph-histogram
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-gdgraph-histogram
+      docker pull quay.io/repository/biocontainers/perl-gdgraph-histogram:<tag>
+
+   (see `perl-gdgraph-histogram/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-gdgraph-histogram| conda:required_by:: perl-gdgraph-histogram
 .. |downloads_perl-gdgraph-histogram| image:: https://img.shields.io/conda/dn/bioconda/perl-gdgraph-histogram.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-gdgraph-histogram| image:: https://quay.io/repository/biocontainers/perl-gdgraph-histogram/status
    :target: https://quay.io/repository/biocontainers/perl-gdgraph-histogram
+.. _`perl-gdgraph-histogram/tags`: https://quay.io/repository/biocontainers/perl-gdgraph-histogram?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-gdgraph-histogram/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'semidbm'
 .. highlight: bash
-
 
 semidbm
 =======
@@ -21,11 +22,11 @@ semidbm
 
    |downloads_semidbm| |docker_semidbm|
 
-   :versions: 0.5.1
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_semidbm|
+   :versions: 0.5.1-2, 0.5.1-1, 0.5.1-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ semidbm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/semidbm
+      docker pull quay.io/repository/biocontainers/semidbm:<tag>
+
+   (see `semidbm/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_semidbm| conda:required_by:: semidbm
 .. |downloads_semidbm| image:: https://img.shields.io/conda/dn/bioconda/semidbm.svg?style=flat
    :alt:   (downloads)
 .. |docker_semidbm| image:: https://quay.io/repository/biocontainers/semidbm/status
    :target: https://quay.io/repository/biocontainers/semidbm
+.. _`semidbm/tags`: https://quay.io/repository/biocontainers/semidbm?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/semidbm/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-class-data-inheritable'
 .. highlight: bash
-
 
 perl-class-data-inheritable
 ===========================
@@ -21,11 +22,11 @@ perl-class-data-inheritable
 
    |downloads_perl-class-data-inheritable| |docker_perl-class-data-inheritable|
 
-   :versions: 0.08
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-class-data-inheritable|
+   :versions: 0.08-1, 0.08-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-class-data-inheritable
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-class-data-inheritable
+      docker pull quay.io/repository/biocontainers/perl-class-data-inheritable:<tag>
+
+   (see `perl-class-data-inheritable/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-class-data-inheritable| conda:required_by:: perl-class-data-inheritable
 .. |downloads_perl-class-data-inheritable| image:: https://img.shields.io/conda/dn/bioconda/perl-class-data-inheritable.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-class-data-inheritable| image:: https://quay.io/repository/biocontainers/perl-class-data-inheritable/status
    :target: https://quay.io/repository/biocontainers/perl-class-data-inheritable
+.. _`perl-class-data-inheritable/tags`: https://quay.io/repository/biocontainers/perl-class-data-inheritable?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-class-data-inheritable/README.html
-

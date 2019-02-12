@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-www-mechanize'
 .. highlight: bash
-
 
 perl-www-mechanize
 ==================
@@ -21,11 +22,25 @@ perl-www-mechanize
 
    |downloads_perl-www-mechanize| |docker_perl-www-mechanize|
 
-   :versions: 1.91
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-cgi`  :conda:package:`perl-encode-locale`  :conda:package:`perl-html-form`  :conda:package:`perl-html-tree`  :conda:package:`perl-http-server-simple`  :conda:package:`perl-libwww-perl`  :conda:package:`perl-module-build`  
-
-   :required~by: |required_by_perl-www-mechanize|
+   :versions: 1.91-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-cgi: 
+   
+   :depends perl-encode-locale: 
+   
+   :depends perl-html-form: 
+   
+   :depends perl-html-tree: 
+   
+   :depends perl-http-server-simple: 
+   
+   :depends perl-libwww-perl: 
+   
+   :depends perl-module-build: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ perl-www-mechanize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-www-mechanize
+      docker pull quay.io/repository/biocontainers/perl-www-mechanize:<tag>
+
+   (see `perl-www-mechanize/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-www-mechanize| conda:required_by:: perl-www-mechanize
 .. |downloads_perl-www-mechanize| image:: https://img.shields.io/conda/dn/bioconda/perl-www-mechanize.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-www-mechanize| image:: https://quay.io/repository/biocontainers/perl-www-mechanize/status
    :target: https://quay.io/repository/biocontainers/perl-www-mechanize
+.. _`perl-www-mechanize/tags`: https://quay.io/repository/biocontainers/perl-www-mechanize?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-www-mechanize/README.html
-

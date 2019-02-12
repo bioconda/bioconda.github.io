@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-qusage'
 .. highlight: bash
-
 
 bioconductor-qusage
 ===================
@@ -22,11 +23,19 @@ bioconductor-qusage
 
    |downloads_bioconductor-qusage| |docker_bioconductor-qusage|
 
-   :versions: 2.16.0, 2.14.0, 2.12.0, 2.10.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lsmeans`  :conda:package:`r-nlme`  
-
-   :required~by: |required_by_bioconductor-qusage|
+   :versions: 2.16.0-0, 2.14.0-0, 2.12.0-0, 2.10.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-lsmeans: 
+   
+   :depends r-nlme: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-qusage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qusage
+      docker pull quay.io/repository/biocontainers/bioconductor-qusage:<tag>
+
+   (see `bioconductor-qusage/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-qusage| conda:required_by:: bioconductor-qusage
 .. |downloads_bioconductor-qusage| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qusage.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-qusage| image:: https://quay.io/repository/biocontainers/bioconductor-qusage/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qusage
+.. _`bioconductor-qusage/tags`: https://quay.io/repository/biocontainers/bioconductor-qusage?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-qusage/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pyani'
 .. highlight: bash
-
 
 pyani
 =====
@@ -21,11 +22,29 @@ pyani
 
    |downloads_pyani| |docker_pyani|
 
-   :versions: 0.2.7, 0.2.3, 0.2.0
-
-   :depends: :conda:package:`biopython`  :conda:package:`blast`  :conda:package:`blast-legacy`  :conda:package:`matplotlib`  :conda:package:`mummer`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 3.5* :conda:package:`scipy`  :conda:package:`seaborn`  
-
-   :required~by: |required_by_pyani|
+   :versions: 0.2.7-1, 0.2.7-0, 0.2.3-0, 0.2.0-0
+   
+   :depends biopython: 
+   
+   :depends blast: 
+   
+   :depends blast-legacy: 
+   
+   :depends matplotlib: 
+   
+   :depends mummer: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends scipy: 
+   
+   :depends seaborn: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ pyani
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyani
+      docker pull quay.io/repository/biocontainers/pyani:<tag>
+
+   (see `pyani/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pyani| conda:required_by:: pyani
 .. |downloads_pyani| image:: https://img.shields.io/conda/dn/bioconda/pyani.svg?style=flat
    :alt:   (downloads)
 .. |docker_pyani| image:: https://quay.io/repository/biocontainers/pyani/status
    :target: https://quay.io/repository/biocontainers/pyani
+.. _`pyani/tags`: https://quay.io/repository/biocontainers/pyani?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pyani/README.html
-

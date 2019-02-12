@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ac-diamond'
 .. highlight: bash
-
 
 ac-diamond
 ==========
@@ -21,11 +22,13 @@ ac-diamond
 
    |downloads_ac-diamond| |docker_ac-diamond|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`boost` 1.64* :conda:package:`libgcc`  
-
-   :required~by: |required_by_ac-diamond|
+   :versions: 1.0-1, 1.0-0
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ ac-diamond
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ac-diamond
+      docker pull quay.io/repository/biocontainers/ac-diamond:<tag>
+
+   (see `ac-diamond/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ac-diamond| conda:required_by:: ac-diamond
 .. |downloads_ac-diamond| image:: https://img.shields.io/conda/dn/bioconda/ac-diamond.svg?style=flat
    :alt:   (downloads)
 .. |docker_ac-diamond| image:: https://quay.io/repository/biocontainers/ac-diamond/status
    :target: https://quay.io/repository/biocontainers/ac-diamond
+.. _`ac-diamond/tags`: https://quay.io/repository/biocontainers/ac-diamond?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ac-diamond/README.html
-

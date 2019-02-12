@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ogsa'
 .. highlight: bash
-
 
 bioconductor-ogsa
 =================
@@ -22,11 +23,17 @@ bioconductor-ogsa
 
    |downloads_bioconductor-ogsa| |docker_bioconductor-ogsa|
 
-   :versions: 1.12.0, 1.10.0, 1.8.0, 1.6.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots` >=2.8.0 
-
-   :required~by: |required_by_bioconductor-ogsa|
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gplots: >=2.8.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ bioconductor-ogsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ogsa
+      docker pull quay.io/repository/biocontainers/bioconductor-ogsa:<tag>
+
+   (see `bioconductor-ogsa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ogsa| conda:required_by:: bioconductor-ogsa
 .. |downloads_bioconductor-ogsa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ogsa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ogsa| image:: https://quay.io/repository/biocontainers/bioconductor-ogsa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ogsa
+.. _`bioconductor-ogsa/tags`: https://quay.io/repository/biocontainers/bioconductor-ogsa?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ogsa/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'peakachu'
 .. highlight: bash
-
 
 peakachu
 ========
@@ -21,11 +22,35 @@ peakachu
 
    |downloads_peakachu| |docker_peakachu|
 
-   :versions: 0.1.0
-
-   :depends: :conda:package:`bcbiogff` >=0.6.4 :conda:package:`bioconductor-deseq2`  :conda:package:`bioconductor-edger`  :conda:package:`biopython` >=1.69 :conda:package:`blockbuster`  :conda:package:`libgcc`  :conda:package:`matplotlib` >=2.0.2 :conda:package:`numexpr` >=2.6.2 :conda:package:`pandas` >=0.20.2 :conda:package:`pysam` >=0.11.2.2 :conda:package:`python` 3.5* :conda:package:`rpy2` >=2.8.5 :conda:package:`statsmodels` >=0.8.0 
-
-   :required~by: |required_by_peakachu|
+   :versions: 0.1.0-3, 0.1.0-1, 0.1.0-0
+   
+   :depends bcbiogff: 
+   
+   :depends bioconductor-deseq2: 1.18.1.*
+   
+   :depends bioconductor-edger: 
+   
+   :depends biopython: 
+   
+   :depends blockbuster: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends matplotlib: 
+   
+   :depends numexpr: 
+   
+   :depends pandas: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends rpy2: 
+   
+   :depends statsmodels: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ peakachu
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/peakachu
+      docker pull quay.io/repository/biocontainers/peakachu:<tag>
+
+   (see `peakachu/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_peakachu| conda:required_by:: peakachu
 .. |downloads_peakachu| image:: https://img.shields.io/conda/dn/bioconda/peakachu.svg?style=flat
    :alt:   (downloads)
 .. |docker_peakachu| image:: https://quay.io/repository/biocontainers/peakachu/status
    :target: https://quay.io/repository/biocontainers/peakachu
+.. _`peakachu/tags`: https://quay.io/repository/biocontainers/peakachu?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/peakachu/README.html
-

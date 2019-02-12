@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gadem'
 .. highlight: bash
-
 
 gadem
 =====
@@ -21,11 +22,11 @@ gadem
 
    |downloads_gadem| |docker_gadem|
 
-   :versions: 1.3.1
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_gadem|
+   :versions: 1.3.1-1, 1.3.1-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ gadem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gadem
+      docker pull quay.io/repository/biocontainers/gadem:<tag>
+
+   (see `gadem/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gadem| conda:required_by:: gadem
 .. |downloads_gadem| image:: https://img.shields.io/conda/dn/bioconda/gadem.svg?style=flat
    :alt:   (downloads)
 .. |docker_gadem| image:: https://quay.io/repository/biocontainers/gadem/status
    :target: https://quay.io/repository/biocontainers/gadem
+.. _`gadem/tags`: https://quay.io/repository/biocontainers/gadem?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gadem/README.html
-

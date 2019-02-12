@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-phyext2'
 .. highlight: bash
-
 
 r-phyext2
 =========
@@ -21,11 +22,15 @@ r-phyext2
 
    |downloads_r-phyext2| |docker_r-phyext2|
 
-   :versions: 0.0.4
-
-   :depends: :conda:package:`r-ape`  :conda:package:`r-base` 3.4.1* :conda:package:`r-phylobase`  
-
-   :required~by: |required_by_r-phyext2|
+   :versions: 0.0.4-3, 0.0.4-2, 0.0.4-1, 0.0.4-0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-phylobase: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ r-phyext2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-phyext2
+      docker pull quay.io/repository/biocontainers/r-phyext2:<tag>
+
+   (see `r-phyext2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-phyext2| conda:required_by:: r-phyext2
 .. |downloads_r-phyext2| image:: https://img.shields.io/conda/dn/bioconda/r-phyext2.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-phyext2| image:: https://quay.io/repository/biocontainers/r-phyext2/status
    :target: https://quay.io/repository/biocontainers/r-phyext2
+.. _`r-phyext2/tags`: https://quay.io/repository/biocontainers/r-phyext2?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-phyext2/README.html
-

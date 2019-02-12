@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'shortreadconnector'
 .. highlight: bash
-
 
 shortreadconnector
 ==================
@@ -21,11 +22,13 @@ shortreadconnector
 
    |downloads_shortreadconnector| |docker_shortreadconnector|
 
-   :versions: 1.1.3
-
-   :depends: :conda:package:`dsk`  :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
-
-   :required~by: |required_by_shortreadconnector|
+   :versions: 1.1.3-2, 1.1.3-1, 1.1.3-0
+   
+   :depends dsk: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ shortreadconnector
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shortreadconnector
+      docker pull quay.io/repository/biocontainers/shortreadconnector:<tag>
+
+   (see `shortreadconnector/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_shortreadconnector| conda:required_by:: shortreadconnector
 .. |downloads_shortreadconnector| image:: https://img.shields.io/conda/dn/bioconda/shortreadconnector.svg?style=flat
    :alt:   (downloads)
 .. |docker_shortreadconnector| image:: https://quay.io/repository/biocontainers/shortreadconnector/status
    :target: https://quay.io/repository/biocontainers/shortreadconnector
+.. _`shortreadconnector/tags`: https://quay.io/repository/biocontainers/shortreadconnector?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/shortreadconnector/README.html
-

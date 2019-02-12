@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nimnexus'
 .. highlight: bash
-
 
 nimnexus
 ========
@@ -21,11 +22,15 @@ nimnexus
 
    |downloads_nimnexus| |docker_nimnexus|
 
-   :versions: 0.1.1, 0.1.0
-
-   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`pcre` >=8.41,<9.0a0 
-
-   :required~by: |required_by_nimnexus|
+   :versions: 0.1.1-0, 0.1.0-2
+   
+   :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends pcre: >=8.41,<9.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ nimnexus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nimnexus
+      docker pull quay.io/repository/biocontainers/nimnexus:<tag>
+
+   (see `nimnexus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nimnexus| conda:required_by:: nimnexus
 .. |downloads_nimnexus| image:: https://img.shields.io/conda/dn/bioconda/nimnexus.svg?style=flat
    :alt:   (downloads)
 .. |docker_nimnexus| image:: https://quay.io/repository/biocontainers/nimnexus/status
    :target: https://quay.io/repository/biocontainers/nimnexus
+.. _`nimnexus/tags`: https://quay.io/repository/biocontainers/nimnexus?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nimnexus/README.html
-

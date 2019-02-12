@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gblocks'
 .. highlight: bash
-
 
 gblocks
 =======
@@ -21,11 +22,9 @@ gblocks
 
    |downloads_gblocks| |docker_gblocks|
 
-   :versions: 0.91b
-
-   :depends: 
-
-   :required~by: |required_by_gblocks|
+   :versions: 0.91b-1, 0.91b-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ gblocks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gblocks
+      docker pull quay.io/repository/biocontainers/gblocks:<tag>
+
+   (see `gblocks/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gblocks| conda:required_by:: gblocks
 .. |downloads_gblocks| image:: https://img.shields.io/conda/dn/bioconda/gblocks.svg?style=flat
    :alt:   (downloads)
 .. |docker_gblocks| image:: https://quay.io/repository/biocontainers/gblocks/status
    :target: https://quay.io/repository/biocontainers/gblocks
+.. _`gblocks/tags`: https://quay.io/repository/biocontainers/gblocks?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gblocks/README.html
-

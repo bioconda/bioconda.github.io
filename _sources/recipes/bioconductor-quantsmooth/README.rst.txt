@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-quantsmooth'
 .. highlight: bash
-
 
 bioconductor-quantsmooth
 ========================
@@ -22,11 +23,13 @@ bioconductor-quantsmooth
 
    |downloads_bioconductor-quantsmooth| |docker_bioconductor-quantsmooth|
 
-   :versions: 1.48.0, 1.46.0, 1.44.0, 1.42.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-quantreg`  
-
-   :required~by: |required_by_bioconductor-quantsmooth|
+   :versions: 1.48.0-0, 1.46.0-0, 1.44.0-0, 1.42.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-quantreg: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-quantsmooth
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-quantsmooth
+      docker pull quay.io/repository/biocontainers/bioconductor-quantsmooth:<tag>
+
+   (see `bioconductor-quantsmooth/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-quantsmooth| conda:required_by:: bioconductor-quantsmooth
 .. |downloads_bioconductor-quantsmooth| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-quantsmooth.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-quantsmooth| image:: https://quay.io/repository/biocontainers/bioconductor-quantsmooth/status
    :target: https://quay.io/repository/biocontainers/bioconductor-quantsmooth
+.. _`bioconductor-quantsmooth/tags`: https://quay.io/repository/biocontainers/bioconductor-quantsmooth?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-quantsmooth/README.html
-

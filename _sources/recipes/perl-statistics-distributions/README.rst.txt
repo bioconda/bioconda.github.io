@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-statistics-distributions'
 .. highlight: bash
-
 
 perl-statistics-distributions
 =============================
@@ -21,11 +22,11 @@ perl-statistics-distributions
 
    |downloads_perl-statistics-distributions| |docker_perl-statistics-distributions|
 
-   :versions: 1.02
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-statistics-distributions|
+   :versions: 1.02-1, 1.02-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-statistics-distributions
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-statistics-distributions
+      docker pull quay.io/repository/biocontainers/perl-statistics-distributions:<tag>
+
+   (see `perl-statistics-distributions/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-statistics-distributions| conda:required_by:: perl-statistics-distributions
 .. |downloads_perl-statistics-distributions| image:: https://img.shields.io/conda/dn/bioconda/perl-statistics-distributions.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-statistics-distributions| image:: https://quay.io/repository/biocontainers/perl-statistics-distributions/status
    :target: https://quay.io/repository/biocontainers/perl-statistics-distributions
+.. _`perl-statistics-distributions/tags`: https://quay.io/repository/biocontainers/perl-statistics-distributions?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-statistics-distributions/README.html
-

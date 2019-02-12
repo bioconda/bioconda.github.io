@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-dpeak'
 .. highlight: bash
-
 
 r-dpeak
 =======
@@ -21,11 +22,23 @@ r-dpeak
 
    |downloads_r-dpeak| |docker_r-dpeak|
 
-   :versions: 2.0.1
-
-   :depends: :conda:package:`bioconductor-bsgenome`  :conda:package:`bioconductor-iranges`  :conda:package:`libgcc`  :conda:package:`perl-threaded`  :conda:package:`r` >=2.11.1 :conda:package:`r-mass`  :conda:package:`r-rcpp`  
-
-   :required~by: |required_by_r-dpeak|
+   :versions: 2.0.1-1, 2.0.1-0
+   
+   :depends bioconductor-bsgenome: 
+   
+   :depends bioconductor-iranges: 
+   
+   :depends libgcc: 
+   
+   :depends perl-threaded: 
+   
+   :depends r: >=2.11.1
+   
+   :depends r-mass: 
+   
+   :depends r-rcpp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ r-dpeak
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-dpeak
+      docker pull quay.io/repository/biocontainers/r-dpeak:<tag>
+
+   (see `r-dpeak/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-dpeak| conda:required_by:: r-dpeak
 .. |downloads_r-dpeak| image:: https://img.shields.io/conda/dn/bioconda/r-dpeak.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-dpeak| image:: https://quay.io/repository/biocontainers/r-dpeak/status
    :target: https://quay.io/repository/biocontainers/r-dpeak
+.. _`r-dpeak/tags`: https://quay.io/repository/biocontainers/r-dpeak?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-dpeak/README.html
-

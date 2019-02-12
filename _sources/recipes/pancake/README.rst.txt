@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pancake'
 .. highlight: bash
-
 
 pancake
 =======
@@ -21,11 +22,15 @@ pancake
 
    |downloads_pancake| |docker_pancake|
 
-   :versions: 1.1.2
-
-   :depends: :conda:package:`biopython`  :conda:package:`numpy`  :conda:package:`python` 3.4* 
-
-   :required~by: |required_by_pancake|
+   :versions: 1.1.2-1, 1.1.2-0
+   
+   :depends biopython: 
+   
+   :depends numpy: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ pancake
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pancake
+      docker pull quay.io/repository/biocontainers/pancake:<tag>
+
+   (see `pancake/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pancake| conda:required_by:: pancake
 .. |downloads_pancake| image:: https://img.shields.io/conda/dn/bioconda/pancake.svg?style=flat
    :alt:   (downloads)
 .. |docker_pancake| image:: https://quay.io/repository/biocontainers/pancake/status
    :target: https://quay.io/repository/biocontainers/pancake
+.. _`pancake/tags`: https://quay.io/repository/biocontainers/pancake?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pancake/README.html
-

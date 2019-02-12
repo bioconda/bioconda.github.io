@@ -131,11 +131,25 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">1.3.0</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">1.3.0-3, 1.3.0-1, 1.3.0-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference external" href="https://github.com/conda-forge/jsonschema-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">jsonschema</span></code></a> &gt;=2,&lt;3 <a class="reference external" href="https://github.com/conda-forge/libgcc-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">libgcc</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/lxml-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">lxml</span></code></a> &gt;=3,&lt;4 <a class="reference external" href="https://github.com/conda-forge/ndg-httpsclient-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">ndg-httpsclient</span></code></a> &gt;=0.4,&lt;1 <a class="reference external" href="https://github.com/conda-forge/parcel-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">parcel</span></code></a> &gt;=0.2,&lt;1 <a class="reference external" href="https://github.com/conda-forge/pyasn1-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">pyasn1</span></code></a> &gt;=0.2,&lt;1 <a class="reference external" href="https://github.com/conda-forge/pyopenssl-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">pyopenssl</span></code></a> &gt;=17,&lt;18 <a class="reference external" href="https://github.com/conda-forge/python-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">python</span></code></a> 2.7* <a class="reference external" href="https://github.com/conda-forge/pyyaml-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">pyyaml</span></code></a> &gt;=3,&lt;4 <a class="reference external" href="https://github.com/conda-forge/zlib-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">zlib</span></code></a> 1.2.8*</td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/jsonschema-feedstock"><strong>jsonschema</strong></a> &gt;=2,&lt;3</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/lxml-feedstock"><strong>lxml</strong></a> &gt;=3,&lt;4</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/ndg-httpsclient-feedstock"><strong>ndg-httpsclient</strong></a> &gt;=0.4,&lt;1</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/parcel-feedstock"><strong>parcel</strong></a> &gt;=0.2,&lt;1</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/pyasn1-feedstock"><strong>pyasn1</strong></a> &gt;=0.2,&lt;1</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/pyopenssl-feedstock"><strong>pyopenssl</strong></a> &gt;=17,&lt;18</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/pyyaml-feedstock"><strong>pyyaml</strong></a> &gt;=3,&lt;4</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> &gt;=1.2.11,&lt;1.3.0a0</li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -149,9 +163,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">gdc</span><span class="o">-</span><span class="n">client</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">gdc</span><span class="o">-</span><span class="n">client</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/gdc-client?tab=tags">gdc-client/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

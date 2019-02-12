@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'shmlast'
 .. highlight: bash
-
 
 shmlast
 =======
@@ -21,11 +22,35 @@ shmlast
 
    |downloads_shmlast| |docker_shmlast|
 
-   :versions: 1.4, 1.3, 1.2.1
-
-   :depends: :conda:package:`doit` >=0.29.0 :conda:package:`ficus` >=0.5 :conda:package:`filelock` >=2.0.6 :conda:package:`last` <=874 :conda:package:`matplotlib`  :conda:package:`numexpr` >=2.3.1 :conda:package:`numpy` >=1.9.0 :conda:package:`pandas` >=0.17.0 :conda:package:`parallel`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`scipy` >=0.16.0 :conda:package:`screed` >=0.9 :conda:package:`seaborn` >=0.6.0 
-
-   :required~by: |required_by_shmlast|
+   :versions: 1.4-0, 1.3-0, 1.2.1-1, 1.2.1-0
+   
+   :depends doit: >=0.29.0
+   
+   :depends ficus: >=0.5
+   
+   :depends filelock: >=2.0.6
+   
+   :depends last: <=874
+   
+   :depends matplotlib: 
+   
+   :depends numexpr: >=2.3.1
+   
+   :depends numpy: >=1.9.0
+   
+   :depends pandas: >=0.17.0
+   
+   :depends parallel: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends scipy: >=0.16.0
+   
+   :depends screed: >=0.9
+   
+   :depends seaborn: >=0.6.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ shmlast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shmlast
+      docker pull quay.io/repository/biocontainers/shmlast:<tag>
+
+   (see `shmlast/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_shmlast| conda:required_by:: shmlast
 .. |downloads_shmlast| image:: https://img.shields.io/conda/dn/bioconda/shmlast.svg?style=flat
    :alt:   (downloads)
 .. |docker_shmlast| image:: https://quay.io/repository/biocontainers/shmlast/status
    :target: https://quay.io/repository/biocontainers/shmlast
+.. _`shmlast/tags`: https://quay.io/repository/biocontainers/shmlast?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/shmlast/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-italics'
 .. highlight: bash
-
 
 bioconductor-italics
 ====================
@@ -22,10 +23,8 @@ bioconductor-italics
    |downloads_bioconductor-italics| |docker_bioconductor-italics|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-italics|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-italics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-italics
+      docker pull quay.io/repository/biocontainers/bioconductor-italics:<tag>
+
+   (see `bioconductor-italics/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-italics| conda:required_by:: bioconductor-italics
 .. |downloads_bioconductor-italics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-italics.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-italics| image:: https://quay.io/repository/biocontainers/bioconductor-italics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-italics
+.. _`bioconductor-italics/tags`: https://quay.io/repository/biocontainers/bioconductor-italics?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-italics/README.html
-

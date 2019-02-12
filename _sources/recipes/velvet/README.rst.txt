@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'velvet'
 .. highlight: bash
-
 
 velvet
 ======
@@ -22,11 +23,11 @@ velvet
 
    |downloads_velvet| |docker_velvet|
 
-   :versions: 1.2.10
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_velvet|
+   :versions: 1.2.10-2, 1.2.10-1, 1.2.10-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ velvet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/velvet
+      docker pull quay.io/repository/biocontainers/velvet:<tag>
+
+   (see `velvet/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_velvet| conda:required_by:: velvet
 .. |downloads_velvet| image:: https://img.shields.io/conda/dn/bioconda/velvet.svg?style=flat
    :alt:   (downloads)
 .. |docker_velvet| image:: https://quay.io/repository/biocontainers/velvet/status
    :target: https://quay.io/repository/biocontainers/velvet
+.. _`velvet/tags`: https://quay.io/repository/biocontainers/velvet?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/velvet/README.html
-

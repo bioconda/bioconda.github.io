@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biobb_io'
 .. highlight: bash
-
 
 biobb_io
 ========
@@ -49,11 +50,13 @@ biobb_io
 
    |downloads_biobb_io| |docker_biobb_io|
 
-   :versions: 0.1.3, 0.1.1, 0.1.0, 0.0.8, 0.0.6, 0.0.5, 0.0.3
-
-   :depends: :conda:package:`biobb_common` >=0.1.2 :conda:package:`python` >=3 
-
-   :required~by: |required_by_biobb_io|
+   :versions: 0.1.3-0, 0.1.1-0, 0.1.0-0, 0.0.8-0, 0.0.6-0, 0.0.5-2, 0.0.5-0, 0.0.3-0
+   
+   :depends biobb_common: >=0.1.2
+   
+   :depends python: >=3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -67,14 +70,16 @@ biobb_io
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biobb_io
+      docker pull quay.io/repository/biocontainers/biobb_io:<tag>
+
+   (see `biobb_io/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biobb_io| conda:required_by:: biobb_io
 .. |downloads_biobb_io| image:: https://img.shields.io/conda/dn/bioconda/biobb_io.svg?style=flat
    :alt:   (downloads)
 .. |docker_biobb_io| image:: https://quay.io/repository/biocontainers/biobb_io/status
    :target: https://quay.io/repository/biocontainers/biobb_io
+.. _`biobb_io/tags`: https://quay.io/repository/biocontainers/biobb_io?tab=tags
 
 
 
@@ -91,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biobb_io/README.html
-

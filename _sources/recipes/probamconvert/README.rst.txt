@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'probamconvert'
 .. highlight: bash
-
 
 probamconvert
 =============
@@ -21,11 +22,31 @@ probamconvert
 
    |downloads_probamconvert| |docker_probamconvert|
 
-   :versions: 1.0.2, 1.0.1, 1.0.0
-
-   :depends: :conda:package:`bioservices`  :conda:package:`cogent`  :conda:package:`icu` 58.* :conda:package:`lxml`  :conda:package:`matplotlib`  :conda:package:`mysql-python`  :conda:package:`numpy`  :conda:package:`pysam` >=0.9 :conda:package:`pyteomics`  :conda:package:`python` 2.7* :conda:package:`xz`  
-
-   :required~by: |required_by_probamconvert|
+   :versions: 1.0.2-1, 1.0.1-1, 1.0.0-1, 1.0.0-0
+   
+   :depends bioservices: 
+   
+   :depends cogent: 
+   
+   :depends icu: 58.*
+   
+   :depends lxml: 
+   
+   :depends matplotlib: 
+   
+   :depends mysql-python: 
+   
+   :depends numpy: 
+   
+   :depends pysam: >=0.9
+   
+   :depends pyteomics: 
+   
+   :depends python: 2.7*
+   
+   :depends xz: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ probamconvert
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/probamconvert
+      docker pull quay.io/repository/biocontainers/probamconvert:<tag>
+
+   (see `probamconvert/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_probamconvert| conda:required_by:: probamconvert
 .. |downloads_probamconvert| image:: https://img.shields.io/conda/dn/bioconda/probamconvert.svg?style=flat
    :alt:   (downloads)
 .. |docker_probamconvert| image:: https://quay.io/repository/biocontainers/probamconvert/status
    :target: https://quay.io/repository/biocontainers/probamconvert
+.. _`probamconvert/tags`: https://quay.io/repository/biocontainers/probamconvert?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/probamconvert/README.html
-

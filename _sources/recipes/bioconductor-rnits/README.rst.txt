@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rnits'
 .. highlight: bash
-
 
 bioconductor-rnits
 ==================
@@ -22,11 +23,27 @@ bioconductor-rnits
 
    |downloads_bioconductor-rnits| |docker_bioconductor-rnits|
 
-   :versions: 1.16.0, 1.14.0, 1.12.0, 1.11.0, 1.10.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-impute` >=1.56.0,<1.57.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-boot`  :conda:package:`r-ggplot2`  :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-rnits|
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.11.0-0, 1.10.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-impute: >=1.56.0,<1.57.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-boot: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ bioconductor-rnits
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnits
+      docker pull quay.io/repository/biocontainers/bioconductor-rnits:<tag>
+
+   (see `bioconductor-rnits/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rnits| conda:required_by:: bioconductor-rnits
 .. |downloads_bioconductor-rnits| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnits.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rnits| image:: https://quay.io/repository/biocontainers/bioconductor-rnits/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rnits
+.. _`bioconductor-rnits/tags`: https://quay.io/repository/biocontainers/bioconductor-rnits?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rnits/README.html
-

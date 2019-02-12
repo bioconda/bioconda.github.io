@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'biobambam'
 .. highlight: bash
-
 
 biobambam
 =========
@@ -21,11 +22,9 @@ biobambam
 
    |downloads_biobambam| |docker_biobambam|
 
-   :versions: 2.0.87, 2.0.79, 2.0.78, 2.0.72, 2.0.62, 2.0.58, 2.0.57, 2.0.44, 2.0.42, 2.0.39, 2.0.25
-
-   :depends: 
-
-   :required~by: |required_by_biobambam|
+   :versions: 2.0.87-1, 2.0.87-0, 2.0.79-0, 2.0.78-0, 2.0.72-0, 2.0.62-0, 2.0.58-0, 2.0.57-0, 2.0.44-0, 2.0.42-0, 2.0.39-0, 2.0.25-0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ biobambam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biobambam
+      docker pull quay.io/repository/biocontainers/biobambam:<tag>
+
+   (see `biobambam/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_biobambam| conda:required_by:: biobambam
 .. |downloads_biobambam| image:: https://img.shields.io/conda/dn/bioconda/biobambam.svg?style=flat
    :alt:   (downloads)
 .. |docker_biobambam| image:: https://quay.io/repository/biocontainers/biobambam/status
    :target: https://quay.io/repository/biocontainers/biobambam
+.. _`biobambam/tags`: https://quay.io/repository/biocontainers/biobambam?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/biobambam/README.html
-

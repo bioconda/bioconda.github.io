@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vt'
 .. highlight: bash
-
 
 vt
 ==
@@ -21,11 +22,13 @@ vt
 
    |downloads_vt| |docker_vt|
 
-   :versions: 2015.11.10, 0.57721
-
-   :depends: 
-
-   :required~by: |required_by_vt|
+   :versions: 2015.11.10-3, 2015.11.10-2, 2015.11.10-1, 2015.11.10-0, 0.57721-1, 0.57721-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ vt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vt
+      docker pull quay.io/repository/biocontainers/vt:<tag>
+
+   (see `vt/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vt| conda:required_by:: vt
 .. |downloads_vt| image:: https://img.shields.io/conda/dn/bioconda/vt.svg?style=flat
    :alt:   (downloads)
 .. |docker_vt| image:: https://quay.io/repository/biocontainers/vt/status
    :target: https://quay.io/repository/biocontainers/vt
+.. _`vt/tags`: https://quay.io/repository/biocontainers/vt?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vt/README.html
-

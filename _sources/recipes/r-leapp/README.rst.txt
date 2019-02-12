@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-leapp'
 .. highlight: bash
-
 
 r-leapp
 =======
@@ -21,11 +22,17 @@ r-leapp
 
    |downloads_r-leapp| |docker_r-leapp|
 
-   :versions: 1.2
-
-   :depends: :conda:package:`bioconductor-sva`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  :conda:package:`r-mass`  
-
-   :required~by: |required_by_r-leapp|
+   :versions: 1.2-0
+   
+   :depends bioconductor-sva: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-corpcor: 
+   
+   :depends r-mass: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-leapp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-leapp
+      docker pull quay.io/repository/biocontainers/r-leapp:<tag>
+
+   (see `r-leapp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-leapp| conda:required_by:: r-leapp
 .. |downloads_r-leapp| image:: https://img.shields.io/conda/dn/bioconda/r-leapp.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-leapp| image:: https://quay.io/repository/biocontainers/r-leapp/status
    :target: https://quay.io/repository/biocontainers/r-leapp
+.. _`r-leapp/tags`: https://quay.io/repository/biocontainers/r-leapp?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-leapp/README.html
-

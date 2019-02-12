@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'flowcraft'
 .. highlight: bash
-
 
 flowcraft
 =========
@@ -24,11 +25,23 @@ flowcraft
 
    |downloads_flowcraft| |docker_flowcraft|
 
-   :versions: 1.4.0, 1.3.1, 1.3.0, 1.2.2, 1.2.1, 1.2.0.post1, 1.2.0
-
-   :depends: :conda:package:`argparse`  :conda:package:`jinja2`  :conda:package:`nextflow` >=0.28 :conda:package:`pympler`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`python-dateutil`  :conda:package:`requests`  
-
-   :required~by: |required_by_flowcraft|
+   :versions: 1.4.0-0, 1.3.1-1, 1.3.0-1, 1.2.2-1, 1.2.1-1, 1.2.0.post1-1, 1.2.0.post1-0, 1.2.0-0
+   
+   :depends argparse: 
+   
+   :depends jinja2: 
+   
+   :depends nextflow: >=0.28
+   
+   :depends pympler: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends python-dateutil: 
+   
+   :depends requests: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -42,14 +55,16 @@ flowcraft
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flowcraft
+      docker pull quay.io/repository/biocontainers/flowcraft:<tag>
+
+   (see `flowcraft/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_flowcraft| conda:required_by:: flowcraft
 .. |downloads_flowcraft| image:: https://img.shields.io/conda/dn/bioconda/flowcraft.svg?style=flat
    :alt:   (downloads)
 .. |docker_flowcraft| image:: https://quay.io/repository/biocontainers/flowcraft/status
    :target: https://quay.io/repository/biocontainers/flowcraft
+.. _`flowcraft/tags`: https://quay.io/repository/biocontainers/flowcraft?tab=tags
 
 
 
@@ -66,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/flowcraft/README.html
-

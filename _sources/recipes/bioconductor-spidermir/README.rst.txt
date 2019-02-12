@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-spidermir'
 .. highlight: bash
-
 
 bioconductor-spidermir
 ======================
@@ -22,11 +23,41 @@ bioconductor-spidermir
 
    |downloads_bioconductor-spidermir| |docker_bioconductor-spidermir|
 
-   :versions: 1.12.0, 1.10.0, 1.8.2
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-mirnatap` >=1.16.0,<1.17.0 :conda:package:`bioconductor-mirnatap.db` >=0.99.0,<0.100.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-tcgabiolinks` >=2.10.0,<2.11.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gdata`  :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-gridextra`  :conda:package:`r-httr`  :conda:package:`r-igraph`  :conda:package:`r-lattice`  :conda:package:`r-latticeextra`  :conda:package:`r-networkd3`  :conda:package:`r-visnetwork`  
-
-   :required~by: |required_by_bioconductor-spidermir|
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.2-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-mirnatap: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-mirnatap.db: >=0.99.0,<0.100.0
+   
+   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-tcgabiolinks: >=2.10.0,<2.11.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gdata: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-httr: 
+   
+   :depends r-igraph: 
+   
+   :depends r-lattice: 
+   
+   :depends r-latticeextra: 
+   
+   :depends r-networkd3: 
+   
+   :depends r-visnetwork: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +71,16 @@ bioconductor-spidermir
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-spidermir
+      docker pull quay.io/repository/biocontainers/bioconductor-spidermir:<tag>
+
+   (see `bioconductor-spidermir/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-spidermir| conda:required_by:: bioconductor-spidermir
 .. |downloads_bioconductor-spidermir| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-spidermir.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-spidermir| image:: https://quay.io/repository/biocontainers/bioconductor-spidermir/status
    :target: https://quay.io/repository/biocontainers/bioconductor-spidermir
+.. _`bioconductor-spidermir/tags`: https://quay.io/repository/biocontainers/bioconductor-spidermir?tab=tags
 
 
 
@@ -64,4 +97,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-spidermir/README.html
-

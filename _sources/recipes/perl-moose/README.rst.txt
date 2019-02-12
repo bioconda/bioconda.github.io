@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-moose'
 .. highlight: bash
-
 
 perl-moose
 ==========
@@ -21,11 +22,55 @@ perl-moose
 
    |downloads_perl-moose| |docker_perl-moose|
 
-   :versions: 2.2011, 2.2009, 2.1804
-
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-class-load` >=0.09 :conda:package:`perl-class-load-xs`  :conda:package:`perl-data-optlist`  :conda:package:`perl-devel-globaldestruction`  :conda:package:`perl-devel-overloadinfo`  :conda:package:`perl-devel-stacktrace`  :conda:package:`perl-dist-checkconflicts` >=0.02 :conda:package:`perl-eval-closure` >=0.04 :conda:package:`perl-module-runtime`  :conda:package:`perl-module-runtime-conflicts`  :conda:package:`perl-mro-compat`  :conda:package:`perl-package-deprecationmanager`  :conda:package:`perl-package-stash`  :conda:package:`perl-package-stash-xs`  :conda:package:`perl-params-util`  :conda:package:`perl-parent`  :conda:package:`perl-sub-exporter`  :conda:package:`perl-sub-identify`  :conda:package:`perl-sub-name`  :conda:package:`perl-try-tiny`  
-
-   :required~by: |required_by_perl-moose|
+   :versions: 2.2011-0, 2.2009-0, 2.1804-2, 2.1804-1, 2.1804-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-class-load: >=0.09
+   
+   :depends perl-class-load-xs: 
+   
+   :depends perl-data-optlist: 
+   
+   :depends perl-devel-globaldestruction: 
+   
+   :depends perl-devel-overloadinfo: 
+   
+   :depends perl-devel-stacktrace: 
+   
+   :depends perl-dist-checkconflicts: >=0.02
+   
+   :depends perl-eval-closure: >=0.04
+   
+   :depends perl-module-runtime: 
+   
+   :depends perl-module-runtime-conflicts: 
+   
+   :depends perl-mro-compat: 
+   
+   :depends perl-package-deprecationmanager: 
+   
+   :depends perl-package-stash: 
+   
+   :depends perl-package-stash-xs: 
+   
+   :depends perl-params-util: 
+   
+   :depends perl-parent: 
+   
+   :depends perl-sub-exporter: 
+   
+   :depends perl-sub-identify: 
+   
+   :depends perl-sub-name: 
+   
+   :depends perl-try-tiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +84,16 @@ perl-moose
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moose
+      docker pull quay.io/repository/biocontainers/perl-moose:<tag>
+
+   (see `perl-moose/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-moose| conda:required_by:: perl-moose
 .. |downloads_perl-moose| image:: https://img.shields.io/conda/dn/bioconda/perl-moose.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-moose| image:: https://quay.io/repository/biocontainers/perl-moose/status
    :target: https://quay.io/repository/biocontainers/perl-moose
+.. _`perl-moose/tags`: https://quay.io/repository/biocontainers/perl-moose?tab=tags
 
 
 
@@ -63,4 +110,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-moose/README.html
-

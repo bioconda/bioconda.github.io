@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-par'
 .. highlight: bash
-
 
 perl-par
 ========
@@ -21,11 +22,15 @@ perl-par
 
    |downloads_perl-par| |docker_perl-par|
 
-   :versions: 1.014
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-archive-zip`  :conda:package:`perl-par-dist`  
-
-   :required~by: |required_by_perl-par|
+   :versions: 1.014-1, 1.014-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-archive-zip: 
+   
+   :depends perl-par-dist: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-par
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-par
+      docker pull quay.io/repository/biocontainers/perl-par:<tag>
+
+   (see `perl-par/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-par| conda:required_by:: perl-par
 .. |downloads_perl-par| image:: https://img.shields.io/conda/dn/bioconda/perl-par.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-par| image:: https://quay.io/repository/biocontainers/perl-par/status
    :target: https://quay.io/repository/biocontainers/perl-par
+.. _`perl-par/tags`: https://quay.io/repository/biocontainers/perl-par?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-par/README.html
-

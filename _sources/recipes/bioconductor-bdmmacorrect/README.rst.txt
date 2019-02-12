@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bdmmacorrect'
 .. highlight: bash
-
 
 bioconductor-bdmmacorrect
 =========================
@@ -21,11 +22,31 @@ bioconductor-bdmmacorrect
 
    |downloads_bioconductor-bdmmacorrect| |docker_bioconductor-bdmmacorrect|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ellipse`  :conda:package:`r-ggplot2`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcppeigen`  :conda:package:`r-vegan`  
-
-   :required~by: |required_by_bioconductor-bdmmacorrect|
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ellipse: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-rcpp: >=0.12.12
+   
+   :depends r-rcpparmadillo: 
+   
+   :depends r-rcppeigen: 
+   
+   :depends r-vegan: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +60,16 @@ bioconductor-bdmmacorrect
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bdmmacorrect
+      docker pull quay.io/repository/biocontainers/bioconductor-bdmmacorrect:<tag>
+
+   (see `bioconductor-bdmmacorrect/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bdmmacorrect| conda:required_by:: bioconductor-bdmmacorrect
 .. |downloads_bioconductor-bdmmacorrect| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bdmmacorrect.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bdmmacorrect| image:: https://quay.io/repository/biocontainers/bioconductor-bdmmacorrect/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bdmmacorrect
+.. _`bioconductor-bdmmacorrect/tags`: https://quay.io/repository/biocontainers/bioconductor-bdmmacorrect?tab=tags
 
 
 
@@ -63,4 +86,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bdmmacorrect/README.html
-

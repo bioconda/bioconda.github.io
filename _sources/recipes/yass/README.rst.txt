@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'yass'
 .. highlight: bash
-
 
 yass
 ====
@@ -22,11 +23,11 @@ yass
 
    |downloads_yass| |docker_yass|
 
-   :versions: 1.14
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_yass|
+   :versions: 1.14-1, 1.14-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ yass
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/yass
+      docker pull quay.io/repository/biocontainers/yass:<tag>
+
+   (see `yass/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_yass| conda:required_by:: yass
 .. |downloads_yass| image:: https://img.shields.io/conda/dn/bioconda/yass.svg?style=flat
    :alt:   (downloads)
 .. |docker_yass| image:: https://quay.io/repository/biocontainers/yass/status
    :target: https://quay.io/repository/biocontainers/yass
+.. _`yass/tags`: https://quay.io/repository/biocontainers/yass?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/yass/README.html
-

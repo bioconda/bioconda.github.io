@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-risa'
 .. highlight: bash
-
 
 bioconductor-risa
 =================
@@ -22,11 +23,25 @@ bioconductor-risa
 
    |downloads_bioconductor-risa| |docker_bioconductor-risa|
 
-   :versions: 1.24.0, 1.20.0, 1.18.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocviews` >=1.50.0,<1.51.0 :conda:package:`bioconductor-xcms` >=3.4.0,<3.5.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp` >=0.9.13 
-
-   :required~by: |required_by_bioconductor-risa|
+   :versions: 1.24.0-0, 1.20.0-0, 1.18.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocviews: >=1.50.0,<1.51.0
+   
+   :depends bioconductor-xcms: >=3.4.0,<3.5.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcpp: >=0.9.13
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ bioconductor-risa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-risa
+      docker pull quay.io/repository/biocontainers/bioconductor-risa:<tag>
+
+   (see `bioconductor-risa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-risa| conda:required_by:: bioconductor-risa
 .. |downloads_bioconductor-risa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-risa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-risa| image:: https://quay.io/repository/biocontainers/bioconductor-risa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-risa
+.. _`bioconductor-risa/tags`: https://quay.io/repository/biocontainers/bioconductor-risa?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-risa/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'metaquant'
 .. highlight: bash
-
 
 metaquant
 =========
@@ -22,11 +23,23 @@ metaquant
 
    |downloads_metaquant| |docker_metaquant|
 
-   :versions: 0.1.2
-
-   :depends: :conda:package:`ete3`  :conda:package:`goatools`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`statsmodels`  :conda:package:`wget`  
-
-   :required~by: |required_by_metaquant|
+   :versions: 0.1.2-0
+   
+   :depends ete3: 
+   
+   :depends goatools: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends statsmodels: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +53,16 @@ metaquant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metaquant
+      docker pull quay.io/repository/biocontainers/metaquant:<tag>
+
+   (see `metaquant/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_metaquant| conda:required_by:: metaquant
 .. |downloads_metaquant| image:: https://img.shields.io/conda/dn/bioconda/metaquant.svg?style=flat
    :alt:   (downloads)
 .. |docker_metaquant| image:: https://quay.io/repository/biocontainers/metaquant/status
    :target: https://quay.io/repository/biocontainers/metaquant
+.. _`metaquant/tags`: https://quay.io/repository/biocontainers/metaquant?tab=tags
 
 
 
@@ -64,4 +79,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/metaquant/README.html
-

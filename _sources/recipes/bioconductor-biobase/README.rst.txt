@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-biobase'
 .. highlight: bash
-
 
 bioconductor-biobase
 ====================
@@ -22,11 +23,15 @@ bioconductor-biobase
 
    |downloads_bioconductor-biobase| |docker_bioconductor-biobase|
 
-   :versions: 2.42.0, 2.40.0, 2.38.0, 2.36.2, 2.34.0, 2.32.0, 2.30.0
-
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-biobase|
+   :versions: 2.42.0-0, 2.40.0-1, 2.40.0-0, 2.38.0-1, 2.38.0-0, 2.36.2-0, 2.34.0-0, 2.32.0-0, 2.30.0-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-biobase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biobase
+      docker pull quay.io/repository/biocontainers/bioconductor-biobase:<tag>
+
+   (see `bioconductor-biobase/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-biobase| conda:required_by:: bioconductor-biobase
 .. |downloads_bioconductor-biobase| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biobase.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-biobase| image:: https://quay.io/repository/biocontainers/bioconductor-biobase/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biobase
+.. _`bioconductor-biobase/tags`: https://quay.io/repository/biocontainers/bioconductor-biobase?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-biobase/README.html
-

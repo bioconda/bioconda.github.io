@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-diptest'
 .. highlight: bash
-
 
 r-diptest
 =========
@@ -21,11 +22,13 @@ r-diptest
 
    |downloads_r-diptest| |docker_r-diptest|
 
-   :versions: 0.75_7
-
-   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.3.2* 
-
-   :required~by: |required_by_r-diptest|
+   :versions: 0.75_7-0
+   
+   :depends libgcc: 
+   
+   :depends r-base: 3.3.2*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ r-diptest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-diptest
+      docker pull quay.io/repository/biocontainers/r-diptest:<tag>
+
+   (see `r-diptest/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-diptest| conda:required_by:: r-diptest
 .. |downloads_r-diptest| image:: https://img.shields.io/conda/dn/bioconda/r-diptest.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-diptest| image:: https://quay.io/repository/biocontainers/r-diptest/status
    :target: https://quay.io/repository/biocontainers/r-diptest
+.. _`r-diptest/tags`: https://quay.io/repository/biocontainers/r-diptest?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-diptest/README.html
-

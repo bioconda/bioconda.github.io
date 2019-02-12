@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-hapmap100kxba'
 .. highlight: bash
-
 
 bioconductor-hapmap100kxba
 ==========================
@@ -21,11 +22,13 @@ bioconductor-hapmap100kxba
 
    |downloads_bioconductor-hapmap100kxba| |docker_bioconductor-hapmap100kxba|
 
-   :versions: 1.24.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-hapmap100kxba|
+   :versions: 1.24.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ bioconductor-hapmap100kxba
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hapmap100kxba
+      docker pull quay.io/repository/biocontainers/bioconductor-hapmap100kxba:<tag>
+
+   (see `bioconductor-hapmap100kxba/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-hapmap100kxba| conda:required_by:: bioconductor-hapmap100kxba
 .. |downloads_bioconductor-hapmap100kxba| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hapmap100kxba.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-hapmap100kxba| image:: https://quay.io/repository/biocontainers/bioconductor-hapmap100kxba/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hapmap100kxba
+.. _`bioconductor-hapmap100kxba/tags`: https://quay.io/repository/biocontainers/bioconductor-hapmap100kxba?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-hapmap100kxba/README.html
-

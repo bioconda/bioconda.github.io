@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-simlr'
 .. highlight: bash
-
 
 bioconductor-simlr
 ==================
@@ -22,11 +23,25 @@ bioconductor-simlr
 
    |downloads_bioconductor-simlr| |docker_bioconductor-simlr|
 
-   :versions: 1.8.1, 1.8.0, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrix`  :conda:package:`r-pracma`  :conda:package:`r-rcpp`  :conda:package:`r-rcppannoy`  :conda:package:`r-rspectra`  
-
-   :required~by: |required_by_bioconductor-simlr|
+   :versions: 1.8.1-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-matrix: 
+   
+   :depends r-pracma: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-rcppannoy: 
+   
+   :depends r-rspectra: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ bioconductor-simlr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-simlr
+      docker pull quay.io/repository/biocontainers/bioconductor-simlr:<tag>
+
+   (see `bioconductor-simlr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-simlr| conda:required_by:: bioconductor-simlr
 .. |downloads_bioconductor-simlr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-simlr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-simlr| image:: https://quay.io/repository/biocontainers/bioconductor-simlr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-simlr
+.. _`bioconductor-simlr/tags`: https://quay.io/repository/biocontainers/bioconductor-simlr?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-simlr/README.html
-

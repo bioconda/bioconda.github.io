@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-post'
 .. highlight: bash
-
 
 bioconductor-post
 =================
@@ -21,11 +22,21 @@ bioconductor-post
 
    |downloads_bioconductor-post| |docker_bioconductor-post|
 
-   :versions: 1.6.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-compquadform`  :conda:package:`r-matrix`  :conda:package:`r-survival`  
-
-   :required~by: |required_by_bioconductor-post|
+   :versions: 1.6.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-gseabase: >=1.44.0,<1.45.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-compquadform: 
+   
+   :depends r-matrix: 
+   
+   :depends r-survival: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ bioconductor-post
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-post
+      docker pull quay.io/repository/biocontainers/bioconductor-post:<tag>
+
+   (see `bioconductor-post/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-post| conda:required_by:: bioconductor-post
 .. |downloads_bioconductor-post| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-post.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-post| image:: https://quay.io/repository/biocontainers/bioconductor-post/status
    :target: https://quay.io/repository/biocontainers/bioconductor-post
+.. _`bioconductor-post/tags`: https://quay.io/repository/biocontainers/bioconductor-post?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-post/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'geodl'
 .. highlight: bash
-
 
 geodl
 =====
@@ -21,11 +22,19 @@ geodl
 
    |downloads_geodl| |docker_geodl|
 
-   :versions: 1.0b5.1, 1.0b1
-
-   :depends: :conda:package:`beautifulsoup4`  :conda:package:`colorama`  :conda:package:`lxml`  :conda:package:`python` 2.7* :conda:package:`six`  
-
-   :required~by: |required_by_geodl|
+   :versions: 1.0b5.1-1, 1.0b5.1-0, 1.0b1-0
+   
+   :depends beautifulsoup4: 
+   
+   :depends colorama: 
+   
+   :depends lxml: 
+   
+   :depends python: 
+   
+   :depends six: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ geodl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/geodl
+      docker pull quay.io/repository/biocontainers/geodl:<tag>
+
+   (see `geodl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_geodl| conda:required_by:: geodl
 .. |downloads_geodl| image:: https://img.shields.io/conda/dn/bioconda/geodl.svg?style=flat
    :alt:   (downloads)
 .. |docker_geodl| image:: https://quay.io/repository/biocontainers/geodl/status
    :target: https://quay.io/repository/biocontainers/geodl
+.. _`geodl/tags`: https://quay.io/repository/biocontainers/geodl?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/geodl/README.html
-

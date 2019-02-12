@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'repenrich'
 .. highlight: bash
-
 
 repenrich
 =========
@@ -21,11 +22,19 @@ repenrich
 
    |downloads_repenrich| |docker_repenrich|
 
-   :versions: 1.2
-
-   :depends: :conda:package:`bedtools` <2.24.0 :conda:package:`biopython`  :conda:package:`bowtie`  :conda:package:`python` 2.7* :conda:package:`samtools`  
-
-   :required~by: |required_by_repenrich|
+   :versions: 1.2-1, 1.2-0
+   
+   :depends bedtools: <2.24.0
+   
+   :depends biopython: 
+   
+   :depends bowtie: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ repenrich
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/repenrich
+      docker pull quay.io/repository/biocontainers/repenrich:<tag>
+
+   (see `repenrich/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_repenrich| conda:required_by:: repenrich
 .. |downloads_repenrich| image:: https://img.shields.io/conda/dn/bioconda/repenrich.svg?style=flat
    :alt:   (downloads)
 .. |docker_repenrich| image:: https://quay.io/repository/biocontainers/repenrich/status
    :target: https://quay.io/repository/biocontainers/repenrich
+.. _`repenrich/tags`: https://quay.io/repository/biocontainers/repenrich?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/repenrich/README.html
-

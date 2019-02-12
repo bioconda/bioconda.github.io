@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-xnomial'
 .. highlight: bash
-
 
 r-xnomial
 =========
@@ -21,11 +22,11 @@ r-xnomial
 
    |downloads_r-xnomial| |docker_r-xnomial|
 
-   :versions: 1.0.4
-
-   :depends: :conda:package:`r` >=2.14 
-
-   :required~by: |required_by_r-xnomial|
+   :versions: 1.0.4-0
+   
+   :depends r: >=2.14
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ r-xnomial
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-xnomial
+      docker pull quay.io/repository/biocontainers/r-xnomial:<tag>
+
+   (see `r-xnomial/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-xnomial| conda:required_by:: r-xnomial
 .. |downloads_r-xnomial| image:: https://img.shields.io/conda/dn/bioconda/r-xnomial.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-xnomial| image:: https://quay.io/repository/biocontainers/r-xnomial/status
    :target: https://quay.io/repository/biocontainers/r-xnomial
+.. _`r-xnomial/tags`: https://quay.io/repository/biocontainers/r-xnomial?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-xnomial/README.html
-

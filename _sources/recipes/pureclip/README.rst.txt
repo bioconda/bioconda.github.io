@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pureclip'
 .. highlight: bash
-
 
 pureclip
 ========
@@ -22,11 +23,13 @@ pureclip
 
    |downloads_pureclip| |docker_pureclip|
 
-   :versions: 1.2.0, 1.1.2, 1.1.1, 1.0.4, 1.0.3, 1.0.2
-
-   :depends: :conda:package:`bedtools`  :conda:package:`meme`  
-
-   :required~by: |required_by_pureclip|
+   :versions: 1.2.0-0, 1.1.2-0, 1.1.1-1, 1.0.4-1, 1.0.4-0, 1.0.3-0, 1.0.2-0
+   
+   :depends bedtools: 
+   
+   :depends meme: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ pureclip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pureclip
+      docker pull quay.io/repository/biocontainers/pureclip:<tag>
+
+   (see `pureclip/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pureclip| conda:required_by:: pureclip
 .. |downloads_pureclip| image:: https://img.shields.io/conda/dn/bioconda/pureclip.svg?style=flat
    :alt:   (downloads)
 .. |docker_pureclip| image:: https://quay.io/repository/biocontainers/pureclip/status
    :target: https://quay.io/repository/biocontainers/pureclip
+.. _`pureclip/tags`: https://quay.io/repository/biocontainers/pureclip?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pureclip/README.html
-

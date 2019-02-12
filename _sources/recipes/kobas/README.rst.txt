@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'kobas'
 .. highlight: bash
-
 
 kobas
 =====
@@ -22,11 +23,27 @@ kobas
 
    |downloads_kobas| |docker_kobas|
 
-   :versions: 3.0.3, 2.1.1
-
-   :depends: :conda:package:`bioconductor-qvalue`  :conda:package:`biopython`  :conda:package:`blast`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`r-base`  :conda:package:`rpy2` >=2.8.5 :conda:package:`sqlite` >=3.20.1,<4.0a0 
-
-   :required~by: |required_by_kobas|
+   :versions: 3.0.3-1, 3.0.3-0, 2.1.1-2, 2.1.1-1, 2.1.1-0
+   
+   :depends bioconductor-qvalue: 
+   
+   :depends biopython: 
+   
+   :depends blast: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends r-base: 
+   
+   :depends rpy2: >=2.8.5
+   
+   :depends sqlite: >=3.20.1,<4.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ kobas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kobas
+      docker pull quay.io/repository/biocontainers/kobas:<tag>
+
+   (see `kobas/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_kobas| conda:required_by:: kobas
 .. |downloads_kobas| image:: https://img.shields.io/conda/dn/bioconda/kobas.svg?style=flat
    :alt:   (downloads)
 .. |docker_kobas| image:: https://quay.io/repository/biocontainers/kobas/status
    :target: https://quay.io/repository/biocontainers/kobas
+.. _`kobas/tags`: https://quay.io/repository/biocontainers/kobas?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/kobas/README.html
-

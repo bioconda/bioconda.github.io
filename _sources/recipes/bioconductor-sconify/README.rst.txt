@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-sconify'
 .. highlight: bash
-
 
 bioconductor-sconify
 ====================
@@ -21,11 +22,27 @@ bioconductor-sconify
 
    |downloads_bioconductor-sconify| |docker_bioconductor-sconify|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-flowcore` >=1.48.0,<1.49.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-fnn`  :conda:package:`r-ggplot2`  :conda:package:`r-magrittr`  :conda:package:`r-readr`  :conda:package:`r-rtsne`  :conda:package:`r-tibble`  
-
-   :required~by: |required_by_bioconductor-sconify|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-flowcore: >=1.48.0,<1.49.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-fnn: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-readr: 
+   
+   :depends r-rtsne: 
+   
+   :depends r-tibble: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-sconify
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sconify
+      docker pull quay.io/repository/biocontainers/bioconductor-sconify:<tag>
+
+   (see `bioconductor-sconify/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-sconify| conda:required_by:: bioconductor-sconify
 .. |downloads_bioconductor-sconify| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sconify.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-sconify| image:: https://quay.io/repository/biocontainers/bioconductor-sconify/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sconify
+.. _`bioconductor-sconify/tags`: https://quay.io/repository/biocontainers/bioconductor-sconify?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-sconify/README.html
-

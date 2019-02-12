@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'yaggo'
 .. highlight: bash
-
 
 yaggo
 =====
@@ -21,11 +22,11 @@ yaggo
 
    |downloads_yaggo| |docker_yaggo|
 
-   :versions: 1.5.10, 1.5.9, 1.5.8
-
-   :depends: :conda:package:`ruby` >2.2.3 
-
-   :required~by: |required_by_yaggo|
+   :versions: 1.5.10-0, 1.5.9-1, 1.5.9-0, 1.5.8-0
+   
+   :depends ruby: >2.2.3
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ yaggo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/yaggo
+      docker pull quay.io/repository/biocontainers/yaggo:<tag>
+
+   (see `yaggo/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_yaggo| conda:required_by:: yaggo
 .. |downloads_yaggo| image:: https://img.shields.io/conda/dn/bioconda/yaggo.svg?style=flat
    :alt:   (downloads)
 .. |docker_yaggo| image:: https://quay.io/repository/biocontainers/yaggo/status
    :target: https://quay.io/repository/biocontainers/yaggo
+.. _`yaggo/tags`: https://quay.io/repository/biocontainers/yaggo?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/yaggo/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ncrf'
 .. highlight: bash
-
 
 ncrf
 ====
@@ -21,11 +22,13 @@ ncrf
 
    |downloads_ncrf| |docker_ncrf|
 
-   :versions: 1.00.06, 1.0.4
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_ncrf|
+   :versions: 1.00.06-0, 1.0.4-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ ncrf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ncrf
+      docker pull quay.io/repository/biocontainers/ncrf:<tag>
+
+   (see `ncrf/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ncrf| conda:required_by:: ncrf
 .. |downloads_ncrf| image:: https://img.shields.io/conda/dn/bioconda/ncrf.svg?style=flat
    :alt:   (downloads)
 .. |docker_ncrf| image:: https://quay.io/repository/biocontainers/ncrf/status
    :target: https://quay.io/repository/biocontainers/ncrf
+.. _`ncrf/tags`: https://quay.io/repository/biocontainers/ncrf?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ncrf/README.html
-

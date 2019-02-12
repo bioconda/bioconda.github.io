@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'nonpareil'
 .. highlight: bash
-
 
 nonpareil
 =========
@@ -22,11 +23,13 @@ nonpareil
 
    |downloads_nonpareil| |docker_nonpareil|
 
-   :versions: 3.3.3, 3.3.1, 3.2, 3.1.1, 2.4.01, 2.4
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
-
-   :required~by: |required_by_nonpareil|
+   :versions: 3.3.3-0, 3.3.1-0, 3.2-0, 3.1.1-0, 2.4.01-0, 2.4-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ nonpareil
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nonpareil
+      docker pull quay.io/repository/biocontainers/nonpareil:<tag>
+
+   (see `nonpareil/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_nonpareil| conda:required_by:: nonpareil
 .. |downloads_nonpareil| image:: https://img.shields.io/conda/dn/bioconda/nonpareil.svg?style=flat
    :alt:   (downloads)
 .. |docker_nonpareil| image:: https://quay.io/repository/biocontainers/nonpareil/status
    :target: https://quay.io/repository/biocontainers/nonpareil
+.. _`nonpareil/tags`: https://quay.io/repository/biocontainers/nonpareil?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/nonpareil/README.html
-

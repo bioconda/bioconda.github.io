@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-targetscore'
 .. highlight: bash
-
 
 bioconductor-targetscore
 ========================
@@ -22,11 +23,15 @@ bioconductor-targetscore
 
    |downloads_bioconductor-targetscore| |docker_bioconductor-targetscore|
 
-   :versions: 1.20.0, 1.18.0, 1.16.0, 1.14.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrix`  :conda:package:`r-pracma`  
-
-   :required~by: |required_by_bioconductor-targetscore|
+   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-matrix: 
+   
+   :depends r-pracma: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-targetscore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-targetscore
+      docker pull quay.io/repository/biocontainers/bioconductor-targetscore:<tag>
+
+   (see `bioconductor-targetscore/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-targetscore| conda:required_by:: bioconductor-targetscore
 .. |downloads_bioconductor-targetscore| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-targetscore.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-targetscore| image:: https://quay.io/repository/biocontainers/bioconductor-targetscore/status
    :target: https://quay.io/repository/biocontainers/bioconductor-targetscore
+.. _`bioconductor-targetscore/tags`: https://quay.io/repository/biocontainers/bioconductor-targetscore?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-targetscore/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-text-abbrev'
 .. highlight: bash
-
 
 perl-text-abbrev
 ================
@@ -21,11 +22,13 @@ perl-text-abbrev
 
    |downloads_perl-text-abbrev| |docker_perl-text-abbrev|
 
-   :versions: 1.02
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 :conda:package:`perl-exporter`  
-
-   :required~by: |required_by_perl-text-abbrev|
+   :versions: 1.02-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-exporter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-text-abbrev
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-abbrev
+      docker pull quay.io/repository/biocontainers/perl-text-abbrev:<tag>
+
+   (see `perl-text-abbrev/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-text-abbrev| conda:required_by:: perl-text-abbrev
 .. |downloads_perl-text-abbrev| image:: https://img.shields.io/conda/dn/bioconda/perl-text-abbrev.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-text-abbrev| image:: https://quay.io/repository/biocontainers/perl-text-abbrev/status
    :target: https://quay.io/repository/biocontainers/perl-text-abbrev
+.. _`perl-text-abbrev/tags`: https://quay.io/repository/biocontainers/perl-text-abbrev?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-text-abbrev/README.html
-

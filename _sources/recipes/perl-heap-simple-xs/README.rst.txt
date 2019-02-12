@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-heap-simple-xs'
 .. highlight: bash
-
 
 perl-heap-simple-xs
 ===================
@@ -21,11 +22,13 @@ perl-heap-simple-xs
 
    |downloads_perl-heap-simple-xs| |docker_perl-heap-simple-xs|
 
-   :versions: 0.10
-
-   :depends: :conda:package:`libgcc`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-heap-simple-xs|
+   :versions: 0.10-1, 0.10-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-heap-simple-xs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-heap-simple-xs
+      docker pull quay.io/repository/biocontainers/perl-heap-simple-xs:<tag>
+
+   (see `perl-heap-simple-xs/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-heap-simple-xs| conda:required_by:: perl-heap-simple-xs
 .. |downloads_perl-heap-simple-xs| image:: https://img.shields.io/conda/dn/bioconda/perl-heap-simple-xs.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-heap-simple-xs| image:: https://quay.io/repository/biocontainers/perl-heap-simple-xs/status
    :target: https://quay.io/repository/biocontainers/perl-heap-simple-xs
+.. _`perl-heap-simple-xs/tags`: https://quay.io/repository/biocontainers/perl-heap-simple-xs?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-heap-simple-xs/README.html
-

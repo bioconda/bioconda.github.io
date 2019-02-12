@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-deseq'
 .. highlight: bash
-
 
 bioconductor-deseq
 ==================
@@ -22,11 +23,29 @@ bioconductor-deseq
 
    |downloads_bioconductor-deseq| |docker_bioconductor-deseq|
 
-   :versions: 1.34.0, 1.32.0, 1.30.0, 1.28.0, 1.24.0, 1.22.1
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-genefilter` >=1.64.0,<1.65.0 :conda:package:`bioconductor-geneplotter` >=1.60.0,<1.61.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  :conda:package:`r-locfit`  :conda:package:`r-mass`  :conda:package:`r-rcolorbrewer`  
-
-   :required~by: |required_by_bioconductor-deseq|
+   :versions: 1.34.0-0, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.24.0-0, 1.22.1-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
+   
+   :depends bioconductor-geneplotter: >=1.60.0,<1.61.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-lattice: 
+   
+   :depends r-locfit: 
+   
+   :depends r-mass: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +59,16 @@ bioconductor-deseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-deseq
+      docker pull quay.io/repository/biocontainers/bioconductor-deseq:<tag>
+
+   (see `bioconductor-deseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-deseq| conda:required_by:: bioconductor-deseq
 .. |downloads_bioconductor-deseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-deseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-deseq| image:: https://quay.io/repository/biocontainers/bioconductor-deseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-deseq
+.. _`bioconductor-deseq/tags`: https://quay.io/repository/biocontainers/bioconductor-deseq?tab=tags
 
 
 
@@ -64,4 +85,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-deseq/README.html
-

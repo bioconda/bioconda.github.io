@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-vegamc'
 .. highlight: bash
-
 
 bioconductor-vegamc
 ===================
@@ -22,11 +23,19 @@ bioconductor-vegamc
 
    |downloads_bioconductor-vegamc| |docker_bioconductor-vegamc|
 
-   :versions: 3.20.0, 3.18.0, 3.16.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-genoset` >=1.38.0,<1.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-vegamc|
+   :versions: 3.20.0-0, 3.18.0-0, 3.16.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-genoset: >=1.38.0,<1.39.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-vegamc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-vegamc
+      docker pull quay.io/repository/biocontainers/bioconductor-vegamc:<tag>
+
+   (see `bioconductor-vegamc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-vegamc| conda:required_by:: bioconductor-vegamc
 .. |downloads_bioconductor-vegamc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-vegamc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-vegamc| image:: https://quay.io/repository/biocontainers/bioconductor-vegamc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-vegamc
+.. _`bioconductor-vegamc/tags`: https://quay.io/repository/biocontainers/bioconductor-vegamc?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-vegamc/README.html
-

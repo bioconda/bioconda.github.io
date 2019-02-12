@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-sub-quote'
 .. highlight: bash
-
 
 perl-sub-quote
 ==============
@@ -21,11 +22,11 @@ perl-sub-quote
 
    |downloads_perl-sub-quote| |docker_perl-sub-quote|
 
-   :versions: 2.005001
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-sub-quote|
+   :versions: 2.005001-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-sub-quote
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-quote
+      docker pull quay.io/repository/biocontainers/perl-sub-quote:<tag>
+
+   (see `perl-sub-quote/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-sub-quote| conda:required_by:: perl-sub-quote
 .. |downloads_perl-sub-quote| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-quote.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-sub-quote| image:: https://quay.io/repository/biocontainers/perl-sub-quote/status
    :target: https://quay.io/repository/biocontainers/perl-sub-quote
+.. _`perl-sub-quote/tags`: https://quay.io/repository/biocontainers/perl-sub-quote?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-sub-quote/README.html
-

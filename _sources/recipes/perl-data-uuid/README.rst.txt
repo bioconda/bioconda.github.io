@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-data-uuid'
 .. highlight: bash
-
 
 perl-data-uuid
 ==============
@@ -21,11 +22,15 @@ perl-data-uuid
 
    |downloads_perl-data-uuid| |docker_perl-data-uuid|
 
-   :versions: 1.221
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-data-uuid|
+   :versions: 1.221-5, 1.221-4, 1.221-3, 1.221-2, 1.221-1, 1.221-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-digest-md5: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-data-uuid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-data-uuid
+      docker pull quay.io/repository/biocontainers/perl-data-uuid:<tag>
+
+   (see `perl-data-uuid/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-data-uuid| conda:required_by:: perl-data-uuid
 .. |downloads_perl-data-uuid| image:: https://img.shields.io/conda/dn/bioconda/perl-data-uuid.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-data-uuid| image:: https://quay.io/repository/biocontainers/perl-data-uuid/status
    :target: https://quay.io/repository/biocontainers/perl-data-uuid
+.. _`perl-data-uuid/tags`: https://quay.io/repository/biocontainers/perl-data-uuid?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-data-uuid/README.html
-

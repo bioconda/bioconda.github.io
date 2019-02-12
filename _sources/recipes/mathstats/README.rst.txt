@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mathstats'
 .. highlight: bash
-
 
 mathstats
 =========
@@ -21,11 +22,13 @@ mathstats
 
    |downloads_mathstats| |docker_mathstats|
 
-   :versions: 0.2.6.5, 0.2.6, 0.2.4
-
-   :depends: :conda:package:`python`  :conda:package:`scipy` >=0.9 
-
-   :required~by: |required_by_mathstats|
+   :versions: 0.2.6.5-0, 0.2.6-1, 0.2.6-0, 0.2.4-0
+   
+   :depends python: 
+   
+   :depends scipy: >=0.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ mathstats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mathstats
+      docker pull quay.io/repository/biocontainers/mathstats:<tag>
+
+   (see `mathstats/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mathstats| conda:required_by:: mathstats
 .. |downloads_mathstats| image:: https://img.shields.io/conda/dn/bioconda/mathstats.svg?style=flat
    :alt:   (downloads)
 .. |docker_mathstats| image:: https://quay.io/repository/biocontainers/mathstats/status
    :target: https://quay.io/repository/biocontainers/mathstats
+.. _`mathstats/tags`: https://quay.io/repository/biocontainers/mathstats?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mathstats/README.html
-

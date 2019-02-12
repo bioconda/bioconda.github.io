@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-soap-nmr'
 .. highlight: bash
-
 
 r-soap-nmr
 ==========
@@ -21,11 +22,23 @@ r-soap-nmr
 
    |downloads_r-soap-nmr| |docker_r-soap-nmr|
 
-   :versions: 0.1.0.20170207
-
-   :depends: :conda:package:`r` 3.3.1* :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-matrix`  :conda:package:`r-matrixstats`  :conda:package:`r-ptw`  :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_r-soap-nmr|
+   :versions: 0.1.0.20170207-1, 0.1.0.20170207-0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-matrix: 
+   
+   :depends r-matrixstats: 
+   
+   :depends r-ptw: 
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ r-soap-nmr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-soap-nmr
+      docker pull quay.io/repository/biocontainers/r-soap-nmr:<tag>
+
+   (see `r-soap-nmr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-soap-nmr| conda:required_by:: r-soap-nmr
 .. |downloads_r-soap-nmr| image:: https://img.shields.io/conda/dn/bioconda/r-soap-nmr.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-soap-nmr| image:: https://quay.io/repository/biocontainers/r-soap-nmr/status
    :target: https://quay.io/repository/biocontainers/r-soap-nmr
+.. _`r-soap-nmr/tags`: https://quay.io/repository/biocontainers/r-soap-nmr?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-soap-nmr/README.html
-

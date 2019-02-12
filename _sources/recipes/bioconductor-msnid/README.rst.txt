@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-msnid'
 .. highlight: bash
-
 
 bioconductor-msnid
 ==================
@@ -22,11 +23,41 @@ bioconductor-msnid
 
    |downloads_bioconductor-msnid| |docker_bioconductor-msnid|
 
-   :versions: 1.16.1, 1.12.1
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-msnbase` >=2.8.0,<2.9.0 :conda:package:`bioconductor-mzid` >=1.20.0,<1.21.0 :conda:package:`bioconductor-mzr` >=2.16.0,<2.17.0 :conda:package:`bioconductor-protgenerics` >=1.14.0,<1.15.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-doparallel`  :conda:package:`r-dplyr`  :conda:package:`r-foreach`  :conda:package:`r-iterators`  :conda:package:`r-r.cache`  :conda:package:`r-rcpp`  :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-msnid|
+   :versions: 1.16.1-0, 1.12.1-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-msnbase: >=2.8.0,<2.9.0
+   
+   :depends bioconductor-mzid: >=1.20.0,<1.21.0
+   
+   :depends bioconductor-mzr: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-protgenerics: >=1.14.0,<1.15.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-doparallel: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-foreach: 
+   
+   :depends r-iterators: 
+   
+   :depends r-r.cache: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +71,16 @@ bioconductor-msnid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msnid
+      docker pull quay.io/repository/biocontainers/bioconductor-msnid:<tag>
+
+   (see `bioconductor-msnid/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-msnid| conda:required_by:: bioconductor-msnid
 .. |downloads_bioconductor-msnid| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msnid.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-msnid| image:: https://quay.io/repository/biocontainers/bioconductor-msnid/status
    :target: https://quay.io/repository/biocontainers/bioconductor-msnid
+.. _`bioconductor-msnid/tags`: https://quay.io/repository/biocontainers/bioconductor-msnid?tab=tags
 
 
 
@@ -64,4 +97,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-msnid/README.html
-

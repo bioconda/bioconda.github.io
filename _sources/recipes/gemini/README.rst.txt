@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gemini'
 .. highlight: bash
-
 
 gemini
 ======
@@ -22,11 +23,61 @@ gemini
 
    |downloads_gemini| |docker_gemini|
 
-   :versions: 0.20.1, 0.20.0, 0.20.0a0, 0.19.2a, 0.19.1, 0.19.0, 0.18.3, 0.18.2, 0.18.1, 0.18.0, 0.18a, 0.17.3dev1, 0.17.3dev0
-
-   :depends: :conda:package:`bcolz`  :conda:package:`bottle`  :conda:package:`bx-python`  :conda:package:`cyordereddict`  :conda:package:`cython`  :conda:package:`cyvcf2` >0.6.5 :conda:package:`geneimpacts`  :conda:package:`grabix`  :conda:package:`inheritance`  :conda:package:`ipyparallel`  :conda:package:`ipython-cluster-helper`  :conda:package:`jinja2`  :conda:package:`networkx`  :conda:package:`numexpr`  :conda:package:`numpy`  :conda:package:`openpyxl`  :conda:package:`pandas`  :conda:package:`pybedtools`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`python-snappy`  :conda:package:`pyyaml`  :conda:package:`scipy`  :conda:package:`snappy`  :conda:package:`sqlalchemy`  :conda:package:`unidecode`  
-
-   :required~by: |required_by_gemini|
+   :versions: 0.20.1-1, 0.20.1-0, 0.20.0-0, 0.20.0a0-0, 0.19.2a-2, 0.19.2a-1, 0.19.2a-0, 0.19.1-3, 0.19.1-2, 0.19.1-1, 0.19.1-0, 0.19.0-0, 0.18.3-1, 0.18.2-1, 0.18.1-3, 0.18.1-2, 0.18.1-1, 0.18.0-8, 0.18.0-7, 0.18.0-6, 0.18.0-5, 0.18.0-4, 0.18a-4, 0.17.3dev1-4, 0.17.3dev1-3, 0.17.3dev0-2, 0.17.3dev0-1
+   
+   :depends bcolz: 
+   
+   :depends bottle: 
+   
+   :depends bx-python: 
+   
+   :depends cyordereddict: 
+   
+   :depends cython: 
+   
+   :depends cyvcf2: >0.6.5
+   
+   :depends geneimpacts: 
+   
+   :depends grabix: 
+   
+   :depends inheritance: 
+   
+   :depends ipyparallel: 
+   
+   :depends ipython-cluster-helper: 
+   
+   :depends jinja2: 
+   
+   :depends networkx: 
+   
+   :depends numexpr: 
+   
+   :depends numpy: 
+   
+   :depends openpyxl: 
+   
+   :depends pandas: 
+   
+   :depends pybedtools: 
+   
+   :depends pysam: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends python-snappy: 
+   
+   :depends pyyaml: 
+   
+   :depends scipy: 
+   
+   :depends snappy: >=1.1.7,<1.1.8.0a0
+   
+   :depends sqlalchemy: 
+   
+   :depends unidecode: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +91,16 @@ gemini
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gemini
+      docker pull quay.io/repository/biocontainers/gemini:<tag>
+
+   (see `gemini/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gemini| conda:required_by:: gemini
 .. |downloads_gemini| image:: https://img.shields.io/conda/dn/bioconda/gemini.svg?style=flat
    :alt:   (downloads)
 .. |docker_gemini| image:: https://quay.io/repository/biocontainers/gemini/status
    :target: https://quay.io/repository/biocontainers/gemini
+.. _`gemini/tags`: https://quay.io/repository/biocontainers/gemini?tab=tags
 
 
 
@@ -64,4 +117,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gemini/README.html
-

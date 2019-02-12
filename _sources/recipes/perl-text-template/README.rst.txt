@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-text-template'
 .. highlight: bash
-
 
 perl-text-template
 ==================
@@ -21,11 +22,11 @@ perl-text-template
 
    |downloads_perl-text-template| |docker_perl-text-template|
 
-   :versions: 1.46
-
-   :depends: :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_perl-text-template|
+   :versions: 1.46-1, 1.46-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-text-template
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-template
+      docker pull quay.io/repository/biocontainers/perl-text-template:<tag>
+
+   (see `perl-text-template/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-text-template| conda:required_by:: perl-text-template
 .. |downloads_perl-text-template| image:: https://img.shields.io/conda/dn/bioconda/perl-text-template.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-text-template| image:: https://quay.io/repository/biocontainers/perl-text-template/status
    :target: https://quay.io/repository/biocontainers/perl-text-template
+.. _`perl-text-template/tags`: https://quay.io/repository/biocontainers/perl-text-template?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-text-template/README.html
-

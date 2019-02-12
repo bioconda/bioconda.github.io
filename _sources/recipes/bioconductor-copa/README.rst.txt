@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-copa'
 .. highlight: bash
-
 
 bioconductor-copa
 =================
@@ -21,11 +22,15 @@ bioconductor-copa
 
    |downloads_bioconductor-copa| |docker_bioconductor-copa|
 
-   :versions: 1.50.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-copa|
+   :versions: 1.50.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-copa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-copa
+      docker pull quay.io/repository/biocontainers/bioconductor-copa:<tag>
+
+   (see `bioconductor-copa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-copa| conda:required_by:: bioconductor-copa
 .. |downloads_bioconductor-copa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-copa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-copa| image:: https://quay.io/repository/biocontainers/bioconductor-copa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-copa
+.. _`bioconductor-copa/tags`: https://quay.io/repository/biocontainers/bioconductor-copa?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-copa/README.html
-

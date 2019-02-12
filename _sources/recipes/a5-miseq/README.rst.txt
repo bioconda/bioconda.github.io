@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'a5-miseq'
 .. highlight: bash
-
 
 a5-miseq
 ========
@@ -21,11 +22,13 @@ a5-miseq
 
    |downloads_a5-miseq| |docker_a5-miseq|
 
-   :versions: 20160825
-
-   :depends: :conda:package:`openjdk` >=8.0 :conda:package:`perl` 5.22.0* 
-
-   :required~by: |required_by_a5-miseq|
+   :versions: 20160825-0
+   
+   :depends openjdk: >=8.0
+   
+   :depends perl: 5.22.0*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ a5-miseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/a5-miseq
+      docker pull quay.io/repository/biocontainers/a5-miseq:<tag>
+
+   (see `a5-miseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_a5-miseq| conda:required_by:: a5-miseq
 .. |downloads_a5-miseq| image:: https://img.shields.io/conda/dn/bioconda/a5-miseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_a5-miseq| image:: https://quay.io/repository/biocontainers/a5-miseq/status
    :target: https://quay.io/repository/biocontainers/a5-miseq
+.. _`a5-miseq/tags`: https://quay.io/repository/biocontainers/a5-miseq?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/a5-miseq/README.html
-

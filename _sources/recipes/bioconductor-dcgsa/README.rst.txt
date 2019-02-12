@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-dcgsa'
 .. highlight: bash
-
 
 bioconductor-dcgsa
 ==================
@@ -22,11 +23,15 @@ bioconductor-dcgsa
 
    |downloads_bioconductor-dcgsa| |docker_bioconductor-dcgsa|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrix`  
-
-   :required~by: |required_by_bioconductor-dcgsa|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-matrix: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ bioconductor-dcgsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dcgsa
+      docker pull quay.io/repository/biocontainers/bioconductor-dcgsa:<tag>
+
+   (see `bioconductor-dcgsa/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-dcgsa| conda:required_by:: bioconductor-dcgsa
 .. |downloads_bioconductor-dcgsa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dcgsa.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-dcgsa| image:: https://quay.io/repository/biocontainers/bioconductor-dcgsa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dcgsa
+.. _`bioconductor-dcgsa/tags`: https://quay.io/repository/biocontainers/bioconductor-dcgsa?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-dcgsa/README.html
-

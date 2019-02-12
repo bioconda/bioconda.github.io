@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'visceral-evaluatesegmentation'
 .. highlight: bash
-
 
 visceral-evaluatesegmentation
 =============================
@@ -21,11 +22,15 @@ visceral-evaluatesegmentation
 
    |downloads_visceral-evaluatesegmentation| |docker_visceral-evaluatesegmentation|
 
-   :versions: 2015.07.03, 2015.07.02
-
-   :depends: :conda:package:`jpeg` >=9c,<10a :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libitk`  
-
-   :required~by: |required_by_visceral-evaluatesegmentation|
+   :versions: 2015.07.03-0, 2015.07.02-1, 2015.07.02-0
+   
+   :depends jpeg: >=9c,<10a
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libitk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ visceral-evaluatesegmentation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/visceral-evaluatesegmentation
+      docker pull quay.io/repository/biocontainers/visceral-evaluatesegmentation:<tag>
+
+   (see `visceral-evaluatesegmentation/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_visceral-evaluatesegmentation| conda:required_by:: visceral-evaluatesegmentation
 .. |downloads_visceral-evaluatesegmentation| image:: https://img.shields.io/conda/dn/bioconda/visceral-evaluatesegmentation.svg?style=flat
    :alt:   (downloads)
 .. |docker_visceral-evaluatesegmentation| image:: https://quay.io/repository/biocontainers/visceral-evaluatesegmentation/status
    :target: https://quay.io/repository/biocontainers/visceral-evaluatesegmentation
+.. _`visceral-evaluatesegmentation/tags`: https://quay.io/repository/biocontainers/visceral-evaluatesegmentation?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/visceral-evaluatesegmentation/README.html
-

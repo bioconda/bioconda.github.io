@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mapsplice'
 .. highlight: bash
-
 
 mapsplice
 =========
@@ -22,11 +23,15 @@ mapsplice
 
    |downloads_mapsplice| |docker_mapsplice|
 
-   :versions: 2.2.0
-
-   :depends: :conda:package:`ncurses` 5.9* :conda:package:`python` 2.7* :conda:package:`zlib`  
-
-   :required~by: |required_by_mapsplice|
+   :versions: 2.2.0-1, 2.2.0-0
+   
+   :depends ncurses: 5.9*
+   
+   :depends python: 2.7*
+   
+   :depends zlib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ mapsplice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mapsplice
+      docker pull quay.io/repository/biocontainers/mapsplice:<tag>
+
+   (see `mapsplice/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mapsplice| conda:required_by:: mapsplice
 .. |downloads_mapsplice| image:: https://img.shields.io/conda/dn/bioconda/mapsplice.svg?style=flat
    :alt:   (downloads)
 .. |docker_mapsplice| image:: https://quay.io/repository/biocontainers/mapsplice/status
    :target: https://quay.io/repository/biocontainers/mapsplice
+.. _`mapsplice/tags`: https://quay.io/repository/biocontainers/mapsplice?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mapsplice/README.html
-

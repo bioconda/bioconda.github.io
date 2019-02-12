@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tabview'
 .. highlight: bash
-
 
 tabview
 =======
@@ -21,11 +22,13 @@ tabview
 
    |downloads_tabview| |docker_tabview|
 
-   :versions: 1.4.3, 1.4.2
-
-   :depends: :conda:package:`ncurses` >=6.1,<6.2.0a0 :conda:package:`python`  
-
-   :required~by: |required_by_tabview|
+   :versions: 1.4.3-0, 1.4.2-2, 1.4.2-1
+   
+   :depends ncurses: >=6.1,<6.2.0a0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ tabview
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tabview
+      docker pull quay.io/repository/biocontainers/tabview:<tag>
+
+   (see `tabview/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tabview| conda:required_by:: tabview
 .. |downloads_tabview| image:: https://img.shields.io/conda/dn/bioconda/tabview.svg?style=flat
    :alt:   (downloads)
 .. |docker_tabview| image:: https://quay.io/repository/biocontainers/tabview/status
    :target: https://quay.io/repository/biocontainers/tabview
+.. _`tabview/tags`: https://quay.io/repository/biocontainers/tabview?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tabview/README.html
-

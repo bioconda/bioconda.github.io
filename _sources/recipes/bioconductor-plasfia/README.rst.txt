@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-plasfia'
 .. highlight: bash
-
 
 bioconductor-plasfia
 ====================
@@ -21,11 +22,15 @@ bioconductor-plasfia
 
    |downloads_bioconductor-plasfia| |docker_bioconductor-plasfia|
 
-   :versions: 1.10.0
-
-   :depends: :conda:package:`bioconductor-profia` >=1.8.0,<1.9.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-plasfia|
+   :versions: 1.10.0-0
+   
+   :depends bioconductor-profia: >=1.8.0,<1.9.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-plasfia
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-plasfia
+      docker pull quay.io/repository/biocontainers/bioconductor-plasfia:<tag>
+
+   (see `bioconductor-plasfia/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-plasfia| conda:required_by:: bioconductor-plasfia
 .. |downloads_bioconductor-plasfia| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-plasfia.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-plasfia| image:: https://quay.io/repository/biocontainers/bioconductor-plasfia/status
    :target: https://quay.io/repository/biocontainers/bioconductor-plasfia
+.. _`bioconductor-plasfia/tags`: https://quay.io/repository/biocontainers/bioconductor-plasfia?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-plasfia/README.html
-

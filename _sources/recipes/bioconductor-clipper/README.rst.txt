@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-clipper'
 .. highlight: bash
-
 
 bioconductor-clipper
 ====================
@@ -21,11 +22,35 @@ bioconductor-clipper
 
    |downloads_bioconductor-clipper| |docker_bioconductor-clipper|
 
-   :versions: 1.22.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-kegggraph` >=1.42.0,<1.43.0 :conda:package:`bioconductor-qpgraph` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  :conda:package:`r-grbase` >=1.6.6 :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-rcpp`  
-
-   :required~by: |required_by_bioconductor-clipper|
+   :versions: 1.22.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-kegggraph: >=1.42.0,<1.43.0
+   
+   :depends bioconductor-qpgraph: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-rbgl: >=1.58.0,<1.59.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-corpcor: 
+   
+   :depends r-grbase: >=1.6.6
+   
+   :depends r-igraph: 
+   
+   :depends r-matrix: 
+   
+   :depends r-rcpp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ bioconductor-clipper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clipper
+      docker pull quay.io/repository/biocontainers/bioconductor-clipper:<tag>
+
+   (see `bioconductor-clipper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-clipper| conda:required_by:: bioconductor-clipper
 .. |downloads_bioconductor-clipper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clipper.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-clipper| image:: https://quay.io/repository/biocontainers/bioconductor-clipper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clipper
+.. _`bioconductor-clipper/tags`: https://quay.io/repository/biocontainers/bioconductor-clipper?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-clipper/README.html
-

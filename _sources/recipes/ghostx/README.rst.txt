@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ghostx'
 .. highlight: bash
-
 
 ghostx
 ======
@@ -21,11 +22,13 @@ ghostx
 
    |downloads_ghostx| |docker_ghostx|
 
-   :versions: 1.3.7
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_ghostx|
+   :versions: 1.3.7-1, 1.3.7-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ ghostx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ghostx
+      docker pull quay.io/repository/biocontainers/ghostx:<tag>
+
+   (see `ghostx/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ghostx| conda:required_by:: ghostx
 .. |downloads_ghostx| image:: https://img.shields.io/conda/dn/bioconda/ghostx.svg?style=flat
    :alt:   (downloads)
 .. |docker_ghostx| image:: https://quay.io/repository/biocontainers/ghostx/status
    :target: https://quay.io/repository/biocontainers/ghostx
+.. _`ghostx/tags`: https://quay.io/repository/biocontainers/ghostx?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ghostx/README.html
-

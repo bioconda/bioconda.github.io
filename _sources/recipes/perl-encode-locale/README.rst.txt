@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-encode-locale'
 .. highlight: bash
-
 
 perl-encode-locale
 ==================
@@ -21,11 +22,13 @@ perl-encode-locale
 
    |downloads_perl-encode-locale| |docker_perl-encode-locale|
 
-   :versions: 1.05
-
-   :depends: :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-encode-locale|
+   :versions: 1.05-6, 1.05-5, 1.05-4, 1.05-3, 1.05-2, 1.05-1, 1.05-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-encode: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-encode-locale
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-encode-locale
+      docker pull quay.io/repository/biocontainers/perl-encode-locale:<tag>
+
+   (see `perl-encode-locale/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-encode-locale| conda:required_by:: perl-encode-locale
 .. |downloads_perl-encode-locale| image:: https://img.shields.io/conda/dn/bioconda/perl-encode-locale.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-encode-locale| image:: https://quay.io/repository/biocontainers/perl-encode-locale/status
    :target: https://quay.io/repository/biocontainers/perl-encode-locale
+.. _`perl-encode-locale/tags`: https://quay.io/repository/biocontainers/perl-encode-locale?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-encode-locale/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-metavizr'
 .. highlight: bash
-
 
 bioconductor-metavizr
 =====================
@@ -21,11 +22,35 @@ bioconductor-metavizr
 
    |downloads_bioconductor-metavizr| |docker_bioconductor-metavizr|
 
-   :versions: 1.6.1, 1.2.1
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-epivizr` >=2.12.0,<2.13.0 :conda:package:`bioconductor-epivizrdata` >=1.10.0,<1.11.0 :conda:package:`bioconductor-epivizrserver` >=1.10.0,<1.11.0 :conda:package:`bioconductor-epivizrstandalone` >=1.10.0,<1.11.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-metagenomeseq` >=1.24.0,<1.25.0 :conda:package:`bioconductor-phyloseq` >=1.26.0,<1.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-digest`  :conda:package:`r-httr`  :conda:package:`r-vegan`  
-
-   :required~by: |required_by_bioconductor-metavizr|
+   :versions: 1.6.1-0, 1.2.1-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-epivizr: >=2.12.0,<2.13.0
+   
+   :depends bioconductor-epivizrdata: >=1.10.0,<1.11.0
+   
+   :depends bioconductor-epivizrserver: >=1.10.0,<1.11.0
+   
+   :depends bioconductor-epivizrstandalone: >=1.10.0,<1.11.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-metagenomeseq: >=1.24.0,<1.25.0
+   
+   :depends bioconductor-phyloseq: >=1.26.0,<1.27.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-digest: 
+   
+   :depends r-httr: 
+   
+   :depends r-vegan: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +64,16 @@ bioconductor-metavizr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metavizr
+      docker pull quay.io/repository/biocontainers/bioconductor-metavizr:<tag>
+
+   (see `bioconductor-metavizr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-metavizr| conda:required_by:: bioconductor-metavizr
 .. |downloads_bioconductor-metavizr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metavizr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-metavizr| image:: https://quay.io/repository/biocontainers/bioconductor-metavizr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metavizr
+.. _`bioconductor-metavizr/tags`: https://quay.io/repository/biocontainers/bioconductor-metavizr?tab=tags
 
 
 
@@ -63,4 +90,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-metavizr/README.html
-

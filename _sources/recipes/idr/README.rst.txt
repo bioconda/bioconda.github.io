@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'idr'
 .. highlight: bash
-
 
 idr
 ===
@@ -22,11 +23,17 @@ idr
 
    |downloads_idr| |docker_idr|
 
-   :versions: 2.0.4.2, 2.0.3, 2.0.2
-
-   :depends: :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`scipy`  
-
-   :required~by: |required_by_idr|
+   :versions: 2.0.4.2-0, 2.0.3-5, 2.0.3-4, 2.0.3-3, 2.0.3-2, 2.0.3-0, 2.0.2-0
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ idr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/idr
+      docker pull quay.io/repository/biocontainers/idr:<tag>
+
+   (see `idr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_idr| conda:required_by:: idr
 .. |downloads_idr| image:: https://img.shields.io/conda/dn/bioconda/idr.svg?style=flat
    :alt:   (downloads)
 .. |docker_idr| image:: https://quay.io/repository/biocontainers/idr/status
    :target: https://quay.io/repository/biocontainers/idr
+.. _`idr/tags`: https://quay.io/repository/biocontainers/idr?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/idr/README.html
-

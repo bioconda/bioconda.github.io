@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-restfulsedata'
 .. highlight: bash
-
 
 bioconductor-restfulsedata
 ==========================
@@ -21,11 +22,17 @@ bioconductor-restfulsedata
 
    |downloads_bioconductor-restfulsedata| |docker_bioconductor-restfulsedata|
 
-   :versions: 1.4.0
-
-   :depends: :conda:package:`bioconductor-experimenthub` >=1.8.0,<1.9.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-restfulsedata|
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-restfulsedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-restfulsedata
+      docker pull quay.io/repository/biocontainers/bioconductor-restfulsedata:<tag>
+
+   (see `bioconductor-restfulsedata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-restfulsedata| conda:required_by:: bioconductor-restfulsedata
 .. |downloads_bioconductor-restfulsedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-restfulsedata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-restfulsedata| image:: https://quay.io/repository/biocontainers/bioconductor-restfulsedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-restfulsedata
+.. _`bioconductor-restfulsedata/tags`: https://quay.io/repository/biocontainers/bioconductor-restfulsedata?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-restfulsedata/README.html
-

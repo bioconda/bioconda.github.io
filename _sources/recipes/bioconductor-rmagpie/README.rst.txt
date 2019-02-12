@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rmagpie'
 .. highlight: bash
-
 
 bioconductor-rmagpie
 ====================
@@ -21,11 +22,19 @@ bioconductor-rmagpie
 
    |downloads_bioconductor-rmagpie| |docker_bioconductor-rmagpie|
 
-   :versions: 1.38.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-kernlab`  :conda:package:`r-pamr`  
-
-   :required~by: |required_by_bioconductor-rmagpie|
+   :versions: 1.38.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-e1071: 
+   
+   :depends r-kernlab: 
+   
+   :depends r-pamr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-rmagpie
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rmagpie
+      docker pull quay.io/repository/biocontainers/bioconductor-rmagpie:<tag>
+
+   (see `bioconductor-rmagpie/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rmagpie| conda:required_by:: bioconductor-rmagpie
 .. |downloads_bioconductor-rmagpie| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rmagpie.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rmagpie| image:: https://quay.io/repository/biocontainers/bioconductor-rmagpie/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rmagpie
+.. _`bioconductor-rmagpie/tags`: https://quay.io/repository/biocontainers/bioconductor-rmagpie?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rmagpie/README.html
-

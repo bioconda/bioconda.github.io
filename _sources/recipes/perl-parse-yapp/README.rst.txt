@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-parse-yapp'
 .. highlight: bash
-
 
 perl-parse-yapp
 ===============
@@ -21,11 +22,11 @@ perl-parse-yapp
 
    |downloads_perl-parse-yapp| |docker_perl-parse-yapp|
 
-   :versions: 1.21, 1.05
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
-
-   :required~by: |required_by_perl-parse-yapp|
+   :versions: 1.21-0, 1.05-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ perl-parse-yapp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-parse-yapp
+      docker pull quay.io/repository/biocontainers/perl-parse-yapp:<tag>
+
+   (see `perl-parse-yapp/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-parse-yapp| conda:required_by:: perl-parse-yapp
 .. |downloads_perl-parse-yapp| image:: https://img.shields.io/conda/dn/bioconda/perl-parse-yapp.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-parse-yapp| image:: https://quay.io/repository/biocontainers/perl-parse-yapp/status
    :target: https://quay.io/repository/biocontainers/perl-parse-yapp
+.. _`perl-parse-yapp/tags`: https://quay.io/repository/biocontainers/perl-parse-yapp?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-parse-yapp/README.html
-

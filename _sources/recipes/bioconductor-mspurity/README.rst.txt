@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mspurity'
 .. highlight: bash
-
 
 bioconductor-mspurity
 =====================
@@ -22,11 +23,37 @@ bioconductor-mspurity
 
    |downloads_bioconductor-mspurity| |docker_bioconductor-mspurity|
 
-   :versions: 1.8.0, 1.5.4, 1.4.0, 1.3.9
-
-   :depends: :conda:package:`bioconductor-mzr` >=2.16.0,<2.17.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-dosnow`  :conda:package:`r-fastcluster`  :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-plyr`  :conda:package:`r-rcpp`  :conda:package:`r-reshape2`  :conda:package:`r-rsqlite`  :conda:package:`r-stringr`  
-
-   :required~by: |required_by_bioconductor-mspurity|
+   :versions: 1.8.0-0, 1.5.4-1, 1.5.4-0, 1.4.0-1, 1.4.0-0, 1.3.9-0
+   
+   :depends bioconductor-mzr: >=2.16.0,<2.17.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dbi: 
+   
+   :depends r-dosnow: 
+   
+   :depends r-fastcluster: 
+   
+   :depends r-foreach: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-reshape2: 
+   
+   :depends r-rsqlite: 
+   
+   :depends r-stringr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +67,16 @@ bioconductor-mspurity
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mspurity
+      docker pull quay.io/repository/biocontainers/bioconductor-mspurity:<tag>
+
+   (see `bioconductor-mspurity/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mspurity| conda:required_by:: bioconductor-mspurity
 .. |downloads_bioconductor-mspurity| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mspurity.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mspurity| image:: https://quay.io/repository/biocontainers/bioconductor-mspurity/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mspurity
+.. _`bioconductor-mspurity/tags`: https://quay.io/repository/biocontainers/bioconductor-mspurity?tab=tags
 
 
 
@@ -64,4 +93,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mspurity/README.html
-

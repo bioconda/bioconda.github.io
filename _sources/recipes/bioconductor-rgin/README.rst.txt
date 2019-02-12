@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rgin'
 .. highlight: bash
-
 
 bioconductor-rgin
 =================
@@ -21,11 +22,17 @@ bioconductor-rgin
 
    |downloads_bioconductor-rgin| |docker_bioconductor-rgin|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcppeigen` >=0.3.3.3.0 
-
-   :required~by: |required_by_bioconductor-rgin|
+   :versions: 1.2.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rcppeigen: >=0.3.3.3.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ bioconductor-rgin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgin
+      docker pull quay.io/repository/biocontainers/bioconductor-rgin:<tag>
+
+   (see `bioconductor-rgin/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rgin| conda:required_by:: bioconductor-rgin
 .. |downloads_bioconductor-rgin| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgin.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rgin| image:: https://quay.io/repository/biocontainers/bioconductor-rgin/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgin
+.. _`bioconductor-rgin/tags`: https://quay.io/repository/biocontainers/bioconductor-rgin?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rgin/README.html
-

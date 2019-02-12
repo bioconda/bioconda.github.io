@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-term-progressbar'
 .. highlight: bash
-
 
 perl-term-progressbar
 =====================
@@ -21,11 +22,15 @@ perl-term-progressbar
 
    |downloads_perl-term-progressbar| |docker_perl-term-progressbar|
 
-   :versions: 2.22, 2.21
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-class-methodmaker`  
-
-   :required~by: |required_by_perl-term-progressbar|
+   :versions: 2.22-0, 2.21-1, 2.21-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-class-methodmaker: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-term-progressbar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-term-progressbar
+      docker pull quay.io/repository/biocontainers/perl-term-progressbar:<tag>
+
+   (see `perl-term-progressbar/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-term-progressbar| conda:required_by:: perl-term-progressbar
 .. |downloads_perl-term-progressbar| image:: https://img.shields.io/conda/dn/bioconda/perl-term-progressbar.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-term-progressbar| image:: https://quay.io/repository/biocontainers/perl-term-progressbar/status
    :target: https://quay.io/repository/biocontainers/perl-term-progressbar
+.. _`perl-term-progressbar/tags`: https://quay.io/repository/biocontainers/perl-term-progressbar?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-term-progressbar/README.html
-

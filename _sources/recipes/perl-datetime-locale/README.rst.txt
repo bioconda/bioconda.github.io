@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-datetime-locale'
 .. highlight: bash
-
 
 perl-datetime-locale
 ====================
@@ -21,11 +22,21 @@ perl-datetime-locale
 
    |downloads_perl-datetime-locale| |docker_perl-datetime-locale|
 
-   :versions: 1.12
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-dist-checkconflicts`  :conda:package:`perl-namespace-autoclean`  :conda:package:`perl-params-validationcompiler`  :conda:package:`perl-specio-exporter`  
-
-   :required~by: |required_by_perl-datetime-locale|
+   :versions: 1.12-2, 1.12-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-dist-checkconflicts: 
+   
+   :depends perl-namespace-autoclean: 
+   
+   :depends perl-params-validationcompiler: 
+   
+   :depends perl-specio-exporter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +50,16 @@ perl-datetime-locale
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-datetime-locale
+      docker pull quay.io/repository/biocontainers/perl-datetime-locale:<tag>
+
+   (see `perl-datetime-locale/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-datetime-locale| conda:required_by:: perl-datetime-locale
 .. |downloads_perl-datetime-locale| image:: https://img.shields.io/conda/dn/bioconda/perl-datetime-locale.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-datetime-locale| image:: https://quay.io/repository/biocontainers/perl-datetime-locale/status
    :target: https://quay.io/repository/biocontainers/perl-datetime-locale
+.. _`perl-datetime-locale/tags`: https://quay.io/repository/biocontainers/perl-datetime-locale?tab=tags
 
 
 
@@ -63,4 +76,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-datetime-locale/README.html
-

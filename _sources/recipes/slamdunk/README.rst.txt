@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'slamdunk'
 .. highlight: bash
-
 
 slamdunk
 ========
@@ -21,11 +22,45 @@ slamdunk
 
    |downloads_slamdunk| |docker_slamdunk|
 
-   :versions: 0.3.3, 0.3.2
-
-   :depends: :conda:package:`biopython` >=1.63 :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`cython` >=0.20.1 :conda:package:`intervaltree` >=2.1.0 :conda:package:`joblib` >=0.9.4 :conda:package:`libdeflate` >=1.0,<1.1.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`ncurses` >=6.1,<6.2.0a0 :conda:package:`openjdk`  :conda:package:`pandas` >=0.13.1 :conda:package:`pybedtools` >=0.6.4 :conda:package:`pysam` >=0.8.3 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-tidyverse`  :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_slamdunk|
+   :versions: 0.3.3-0, 0.3.2-1, 0.3.2-0
+   
+   :depends biopython: >=1.63
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends curl: >=7.59.0,<8.0a0
+   
+   :depends cython: >=0.20.1
+   
+   :depends intervaltree: >=2.1.0
+   
+   :depends joblib: >=0.9.4
+   
+   :depends libdeflate: >=1.0,<1.1.0a0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends ncurses: >=6.1,<6.2.0a0
+   
+   :depends openjdk: 
+   
+   :depends pandas: >=0.13.1
+   
+   :depends pybedtools: >=0.6.4
+   
+   :depends pysam: >=0.8.3
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends r-base: >=3.4.1,<3.4.2.0a0
+   
+   :depends r-tidyverse: 
+   
+   :depends xz: >=5.2.4,<5.3.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +74,16 @@ slamdunk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/slamdunk
+      docker pull quay.io/repository/biocontainers/slamdunk:<tag>
+
+   (see `slamdunk/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_slamdunk| conda:required_by:: slamdunk
 .. |downloads_slamdunk| image:: https://img.shields.io/conda/dn/bioconda/slamdunk.svg?style=flat
    :alt:   (downloads)
 .. |docker_slamdunk| image:: https://quay.io/repository/biocontainers/slamdunk/status
    :target: https://quay.io/repository/biocontainers/slamdunk
+.. _`slamdunk/tags`: https://quay.io/repository/biocontainers/slamdunk?tab=tags
 
 
 
@@ -63,4 +100,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/slamdunk/README.html
-

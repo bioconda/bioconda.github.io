@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-genogam'
 .. highlight: bash
-
 
 bioconductor-genogam
 ====================
@@ -22,11 +23,53 @@ bioconductor-genogam
 
    |downloads_bioconductor-genogam| |docker_bioconductor-genogam|
 
-   :versions: 2.0.2, 1.8.0, 1.6.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-delayedarray` >=0.8.0,<0.9.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-hdf5array` >=1.10.0,<1.11.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rhdf5` >=2.26.0,<2.27.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table` >=1.9.4 :conda:package:`r-futile.logger` >=1.4.1 :conda:package:`r-matrix` >=1.2-8 :conda:package:`r-rcpp` >=0.12.14 :conda:package:`r-rcpparmadillo`  :conda:package:`r-sparseinv` >=0.1.1 
-
-   :required~by: |required_by_bioconductor-genogam|
+   :versions: 2.0.2-0, 1.8.0-0, 1.6.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-delayedarray: >=0.8.0,<0.9.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicalignments: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-hdf5array: >=1.10.0,<1.11.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
+   
+   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: >=1.9.4
+   
+   :depends r-futile.logger: >=1.4.1
+   
+   :depends r-matrix: >=1.2-8
+   
+   :depends r-rcpp: >=0.12.14
+   
+   :depends r-rcpparmadillo: 
+   
+   :depends r-sparseinv: >=0.1.1
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +83,16 @@ bioconductor-genogam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genogam
+      docker pull quay.io/repository/biocontainers/bioconductor-genogam:<tag>
+
+   (see `bioconductor-genogam/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-genogam| conda:required_by:: bioconductor-genogam
 .. |downloads_bioconductor-genogam| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genogam.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-genogam| image:: https://quay.io/repository/biocontainers/bioconductor-genogam/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genogam
+.. _`bioconductor-genogam/tags`: https://quay.io/repository/biocontainers/bioconductor-genogam?tab=tags
 
 
 
@@ -64,4 +109,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-genogam/README.html
-

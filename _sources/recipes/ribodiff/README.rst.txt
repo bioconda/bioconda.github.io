@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ribodiff'
 .. highlight: bash
-
 
 ribodiff
 ========
@@ -21,11 +22,19 @@ ribodiff
 
    |downloads_ribodiff| |docker_ribodiff|
 
-   :versions: 0.2.2
-
-   :depends: :conda:package:`matplotlib` >=1.3.0 :conda:package:`numpy` >=1.8.0 :conda:package:`python` >=2.6.6,<3 :conda:package:`scipy` >=0.13.3 :conda:package:`statsmodels` >=0.5.0 
-
-   :required~by: |required_by_ribodiff|
+   :versions: 0.2.2-1, 0.2.2-0
+   
+   :depends matplotlib: >=1.3.0
+   
+   :depends numpy: >=1.8.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: >=0.13.3
+   
+   :depends statsmodels: >=0.5.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ ribodiff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ribodiff
+      docker pull quay.io/repository/biocontainers/ribodiff:<tag>
+
+   (see `ribodiff/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ribodiff| conda:required_by:: ribodiff
 .. |downloads_ribodiff| image:: https://img.shields.io/conda/dn/bioconda/ribodiff.svg?style=flat
    :alt:   (downloads)
 .. |docker_ribodiff| image:: https://quay.io/repository/biocontainers/ribodiff/status
    :target: https://quay.io/repository/biocontainers/ribodiff
+.. _`ribodiff/tags`: https://quay.io/repository/biocontainers/ribodiff?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ribodiff/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bio-cigar'
 .. highlight: bash
-
 
 perl-bio-cigar
 ==============
@@ -22,11 +23,19 @@ perl-bio-cigar
 
    |downloads_perl-bio-cigar| |docker_perl-bio-cigar|
 
-   :versions: 1.01
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-bioperl`  :conda:package:`perl-carp`  :conda:package:`perl-class-methodmaker`  :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-moo`  :conda:package:`perl-namespace-clean`  :conda:package:`perl-pod-escapes`  :conda:package:`perl-termreadkey`  :conda:package:`perl-test`  :conda:package:`perl-test-more`  :conda:package:`perl-type-tiny`  
-
-   :required~by: |required_by_perl-bio-cigar|
+   :versions: 1.01-3, 1.01-2, 1.01-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-carp: 
+   
+   :depends perl-moo: 
+   
+   :depends perl-namespace-clean: 
+   
+   :depends perl-type-tiny: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ perl-bio-cigar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-cigar
+      docker pull quay.io/repository/biocontainers/perl-bio-cigar:<tag>
+
+   (see `perl-bio-cigar/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bio-cigar| conda:required_by:: perl-bio-cigar
 .. |downloads_perl-bio-cigar| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-cigar.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bio-cigar| image:: https://quay.io/repository/biocontainers/perl-bio-cigar/status
    :target: https://quay.io/repository/biocontainers/perl-bio-cigar
+.. _`perl-bio-cigar/tags`: https://quay.io/repository/biocontainers/perl-bio-cigar?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bio-cigar/README.html
-

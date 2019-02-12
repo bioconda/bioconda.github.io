@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-chemmineob'
 .. highlight: bash
-
 
 bioconductor-chemmineob
 =======================
@@ -22,10 +23,8 @@ bioconductor-chemmineob
    |downloads_bioconductor-chemmineob| |docker_bioconductor-chemmineob|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-chemmineob|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-chemmineob
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chemmineob
+      docker pull quay.io/repository/biocontainers/bioconductor-chemmineob:<tag>
+
+   (see `bioconductor-chemmineob/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-chemmineob| conda:required_by:: bioconductor-chemmineob
 .. |downloads_bioconductor-chemmineob| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chemmineob.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-chemmineob| image:: https://quay.io/repository/biocontainers/bioconductor-chemmineob/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chemmineob
+.. _`bioconductor-chemmineob/tags`: https://quay.io/repository/biocontainers/bioconductor-chemmineob?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-chemmineob/README.html
-

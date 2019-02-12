@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gneiss'
 .. highlight: bash
-
 
 gneiss
 ======
@@ -21,11 +22,33 @@ gneiss
 
    |downloads_gneiss| |docker_gneiss|
 
-   :versions: 0.4.4
-
-   :depends: :conda:package:`biom-format`  :conda:package:`bokeh`  :conda:package:`ipython` >=3.2.0 :conda:package:`matplotlib` >=1.4.3 :conda:package:`nose` >=1.3.7 :conda:package:`numpy` >=1.9.2 :conda:package:`pandas` >=0.18.0 :conda:package:`python` >3 :conda:package:`scikit-bio` >=0.5.1 :conda:package:`scipy` >=0.15.1 :conda:package:`seaborn`  :conda:package:`statsmodels` >=0.8.0 
-
-   :required~by: |required_by_gneiss|
+   :versions: 0.4.4-0
+   
+   :depends biom-format: 
+   
+   :depends bokeh: 
+   
+   :depends ipython: >=3.2.0
+   
+   :depends matplotlib: >=1.4.3
+   
+   :depends nose: >=1.3.7
+   
+   :depends numpy: >=1.9.2
+   
+   :depends pandas: >=0.18.0
+   
+   :depends python: >3
+   
+   :depends scikit-bio: >=0.5.1
+   
+   :depends scipy: >=0.15.1
+   
+   :depends seaborn: 
+   
+   :depends statsmodels: >=0.8.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ gneiss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gneiss
+      docker pull quay.io/repository/biocontainers/gneiss:<tag>
+
+   (see `gneiss/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gneiss| conda:required_by:: gneiss
 .. |downloads_gneiss| image:: https://img.shields.io/conda/dn/bioconda/gneiss.svg?style=flat
    :alt:   (downloads)
 .. |docker_gneiss| image:: https://quay.io/repository/biocontainers/gneiss/status
    :target: https://quay.io/repository/biocontainers/gneiss
+.. _`gneiss/tags`: https://quay.io/repository/biocontainers/gneiss?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gneiss/README.html
-

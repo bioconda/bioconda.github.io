@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-gdtextutil'
 .. highlight: bash
-
 
 perl-gdtextutil
 ===============
@@ -21,11 +22,15 @@ perl-gdtextutil
 
    |downloads_perl-gdtextutil| |docker_perl-gdtextutil|
 
-   :versions: 0.86
-
-   :depends: :conda:package:`perl` >=5.22.0 :conda:package:`perl-gd`  
-
-   :required~by: |required_by_perl-gdtextutil|
+   :versions: 0.86-4, 0.86-3, 0.86-2, 0.86-1, 0.86-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-gd: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-gdtextutil
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-gdtextutil
+      docker pull quay.io/repository/biocontainers/perl-gdtextutil:<tag>
+
+   (see `perl-gdtextutil/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-gdtextutil| conda:required_by:: perl-gdtextutil
 .. |downloads_perl-gdtextutil| image:: https://img.shields.io/conda/dn/bioconda/perl-gdtextutil.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-gdtextutil| image:: https://quay.io/repository/biocontainers/perl-gdtextutil/status
    :target: https://quay.io/repository/biocontainers/perl-gdtextutil
+.. _`perl-gdtextutil/tags`: https://quay.io/repository/biocontainers/perl-gdtextutil?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-gdtextutil/README.html
-

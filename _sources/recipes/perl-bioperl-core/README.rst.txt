@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-bioperl-core'
 .. highlight: bash
-
 
 perl-bioperl-core
 =================
@@ -21,11 +22,73 @@ perl-bioperl-core
 
    |downloads_perl-bioperl-core| |docker_perl-bioperl-core|
 
-   :versions: 1.007002, 1.7.2, 1.6.924
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-aceperl`  :conda:package:`perl-algorithm-munkres`  :conda:package:`perl-array-compare`  :conda:package:`perl-bio-phylo`  :conda:package:`perl-clone`  :conda:package:`perl-convert-binary-c`  :conda:package:`perl-data-stag`  :conda:package:`perl-db-file`  :conda:package:`perl-dbd-sqlite`  :conda:package:`perl-dbi`  :conda:package:`perl-error`  :conda:package:`perl-gd`  :conda:package:`perl-graphviz`  :conda:package:`perl-html-tableextract`  :conda:package:`perl-io-string`  :conda:package:`perl-io-stringy`  :conda:package:`perl-list-moreutils`  :conda:package:`perl-postscript`  :conda:package:`perl-set-scalar`  :conda:package:`perl-soap-lite`  :conda:package:`perl-sort-naturally`  :conda:package:`perl-spreadsheet-parseexcel`  :conda:package:`perl-svg`  :conda:package:`perl-svg-graph`  :conda:package:`perl-xml-dom`  :conda:package:`perl-xml-dom-xpath`  :conda:package:`perl-xml-sax-writer`  :conda:package:`perl-xml-simple`  :conda:package:`perl-xml-twig`  :conda:package:`perl-xml-writer`  :conda:package:`perl-yaml`  
-
-   :required~by: |required_by_perl-bioperl-core|
+   :versions: 1.007002-0, 1.7.2-3, 1.6.924-2, 1.6.924-1, 1.6.924-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-aceperl: 
+   
+   :depends perl-algorithm-munkres: 
+   
+   :depends perl-array-compare: 
+   
+   :depends perl-bio-phylo: 
+   
+   :depends perl-clone: 
+   
+   :depends perl-convert-binary-c: 
+   
+   :depends perl-data-stag: 
+   
+   :depends perl-db-file: 
+   
+   :depends perl-dbd-sqlite: 
+   
+   :depends perl-dbi: 
+   
+   :depends perl-error: 
+   
+   :depends perl-gd: 
+   
+   :depends perl-graphviz: 
+   
+   :depends perl-html-tableextract: 
+   
+   :depends perl-io-string: 
+   
+   :depends perl-io-stringy: 
+   
+   :depends perl-list-moreutils: 
+   
+   :depends perl-postscript: 
+   
+   :depends perl-set-scalar: 
+   
+   :depends perl-soap-lite: 
+   
+   :depends perl-sort-naturally: 
+   
+   :depends perl-spreadsheet-parseexcel: 
+   
+   :depends perl-svg: 
+   
+   :depends perl-svg-graph: 
+   
+   :depends perl-xml-dom: 
+   
+   :depends perl-xml-dom-xpath: 
+   
+   :depends perl-xml-sax-writer: 
+   
+   :depends perl-xml-simple: 
+   
+   :depends perl-xml-twig: 
+   
+   :depends perl-xml-writer: 
+   
+   :depends perl-yaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +102,16 @@ perl-bioperl-core
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bioperl-core
+      docker pull quay.io/repository/biocontainers/perl-bioperl-core:<tag>
+
+   (see `perl-bioperl-core/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-bioperl-core| conda:required_by:: perl-bioperl-core
 .. |downloads_perl-bioperl-core| image:: https://img.shields.io/conda/dn/bioconda/perl-bioperl-core.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-bioperl-core| image:: https://quay.io/repository/biocontainers/perl-bioperl-core/status
    :target: https://quay.io/repository/biocontainers/perl-bioperl-core
+.. _`perl-bioperl-core/tags`: https://quay.io/repository/biocontainers/perl-bioperl-core?tab=tags
 
 
 
@@ -63,4 +128,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-bioperl-core/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'qiime'
 .. highlight: bash
-
 
 qiime
 =====
@@ -22,11 +23,59 @@ qiime
 
    |downloads_qiime| |docker_qiime|
 
-   :versions: 1.9.1, 1.8.0
-
-   :depends: :conda:package:`biom-format` >=2.1.4,<2.2.0 :conda:package:`burrito` >=0.9.1,<1.0.0 :conda:package:`burrito-fillings` >=0.1.1,<0.2.0 :conda:package:`cogent` ==1.5.3 :conda:package:`emperor` >=0.9.51,<1.0.0 :conda:package:`gdata`  :conda:package:`matplotlib` >=1.1.0,!=1.4.2,<1.5.0 :conda:package:`mock`  :conda:package:`natsort` <4.0.0 :conda:package:`nose`  :conda:package:`numpy` 1.10* :conda:package:`pandas` >=0.13.1 :conda:package:`pynast` ==1.2.2 :conda:package:`python` 2.7* :conda:package:`qcli` >=0.1.1,<0.2.0 :conda:package:`qiime-default-reference` >=0.1.2,<0.2.0 :conda:package:`scikit-bio` >=0.2.3,<0.3.0 :conda:package:`scipy` >=0.14.0 
-
-   :required~by: |required_by_qiime|
+   :versions: 1.9.1-1, 1.9.1-0, 1.8.0-1, 1.8.0-0
+   
+   :depends biom-format: >=2.1.4,<2.2.0
+   
+   :depends burrito: >=0.9.1,<1.0.0
+   
+   :depends burrito-fillings: >=0.1.1,<0.2.0
+   
+   :depends cogent: ==1.5.3
+   
+   :depends emperor: >=0.9.51,<1.0.0
+   
+   :depends gdata: 
+   
+   :depends glib: 
+   
+   :depends libgcc: 
+   
+   :depends matplotlib: >=1.1.0,!=1.4.2,<1.5.0
+   
+   :depends mock: 
+   
+   :depends natsort: <4.0.0
+   
+   :depends nose: 
+   
+   :depends numpy: 1.10*
+   
+   :depends pandas: >=0.13.1
+   
+   :depends pynast: ==1.2.2
+   
+   :depends python: 2.7*
+   
+   :depends qcli: >=0.1.1,<0.2.0
+   
+   :depends qiime-default-reference: >=0.1.2,<0.2.0
+   
+   :depends scikit-bio: >=0.2.3,<0.3.0
+   
+   :depends scipy: >=0.14.0
+   
+   :depends xorg-libsm: 
+   
+   :depends xorg-libxau: 
+   
+   :depends xorg-libxdmcp: 
+   
+   :depends xorg-libxext: 
+   
+   :depends xorg-libxrender: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +89,16 @@ qiime
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/qiime
+      docker pull quay.io/repository/biocontainers/qiime:<tag>
+
+   (see `qiime/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_qiime| conda:required_by:: qiime
 .. |downloads_qiime| image:: https://img.shields.io/conda/dn/bioconda/qiime.svg?style=flat
    :alt:   (downloads)
 .. |docker_qiime| image:: https://quay.io/repository/biocontainers/qiime/status
    :target: https://quay.io/repository/biocontainers/qiime
+.. _`qiime/tags`: https://quay.io/repository/biocontainers/qiime?tab=tags
 
 
 
@@ -64,4 +115,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/qiime/README.html
-

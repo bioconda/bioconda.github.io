@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-genefu'
 .. highlight: bash
-
 
 bioconductor-genefu
 ===================
@@ -22,11 +23,25 @@ bioconductor-genefu
 
    |downloads_bioconductor-genefu| |docker_bioconductor-genefu|
 
-   :versions: 2.14.0, 2.12.0, 2.10.0
-
-   :depends: :conda:package:`bioconductor-aims` >=1.14.0,<1.15.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-survcomp` >=1.32.0,<1.33.0 :conda:package:`r-amap`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ic10`  :conda:package:`r-mclust`  
-
-   :required~by: |required_by_bioconductor-genefu|
+   :versions: 2.14.0-0, 2.12.0-0, 2.10.0-0
+   
+   :depends bioconductor-aims: >=1.14.0,<1.15.0
+   
+   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-survcomp: >=1.32.0,<1.33.0
+   
+   :depends r-amap: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ic10: 
+   
+   :depends r-mclust: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ bioconductor-genefu
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genefu
+      docker pull quay.io/repository/biocontainers/bioconductor-genefu:<tag>
+
+   (see `bioconductor-genefu/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-genefu| conda:required_by:: bioconductor-genefu
 .. |downloads_bioconductor-genefu| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genefu.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-genefu| image:: https://quay.io/repository/biocontainers/bioconductor-genefu/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genefu
+.. _`bioconductor-genefu/tags`: https://quay.io/repository/biocontainers/bioconductor-genefu?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-genefu/README.html
-

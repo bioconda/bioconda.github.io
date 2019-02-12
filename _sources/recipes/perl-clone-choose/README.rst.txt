@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-clone-choose'
 .. highlight: bash
-
 
 perl-clone-choose
 =================
@@ -21,11 +22,13 @@ perl-clone-choose
 
    |downloads_perl-clone-choose| |docker_perl-clone-choose|
 
-   :versions: 0.010
-
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-storable`  
-
-   :required~by: |required_by_perl-clone-choose|
+   :versions: 0.010-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-storable: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-clone-choose
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-clone-choose
+      docker pull quay.io/repository/biocontainers/perl-clone-choose:<tag>
+
+   (see `perl-clone-choose/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-clone-choose| conda:required_by:: perl-clone-choose
 .. |downloads_perl-clone-choose| image:: https://img.shields.io/conda/dn/bioconda/perl-clone-choose.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-clone-choose| image:: https://quay.io/repository/biocontainers/perl-clone-choose/status
    :target: https://quay.io/repository/biocontainers/perl-clone-choose
+.. _`perl-clone-choose/tags`: https://quay.io/repository/biocontainers/perl-clone-choose?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-clone-choose/README.html
-

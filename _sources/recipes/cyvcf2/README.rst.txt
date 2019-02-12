@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'cyvcf2'
 .. highlight: bash
-
 
 cyvcf2
 ======
@@ -21,11 +22,23 @@ cyvcf2
 
    |downloads_cyvcf2| |docker_cyvcf2|
 
-   :versions: 0.10.0, 0.8.4, 0.8.0, 0.7.2, 0.6.6a, 0.6.5, 0.5.5, 0.5.3, 0.5.1, 0.5.0, 0.4.2, 0.4.1, 0.4.0, 0.3.2, 0.3.0, 0.2.8, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.2, 0.2.0
-
-   :depends: :conda:package:`click`  :conda:package:`coloredlogs`  :conda:package:`libcurl` >=7.61.0,<8.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_cyvcf2|
+   :versions: 0.10.0-0, 0.8.4-4, 0.8.4-3, 0.8.4-2, 0.8.4-1, 0.8.4-0, 0.8.0-0, 0.7.2-3, 0.7.2-2, 0.7.2-1, 0.7.2-0, 0.6.6a-0, 0.6.5-0, 0.5.5-0, 0.5.3-0, 0.5.1-0, 0.5.0-0, 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.2-0, 0.3.0-0, 0.2.8-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.0-0
+   
+   :depends click: 
+   
+   :depends coloredlogs: 
+   
+   :depends libcurl: >=7.61.0,<8.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ cyvcf2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cyvcf2
+      docker pull quay.io/repository/biocontainers/cyvcf2:<tag>
+
+   (see `cyvcf2/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_cyvcf2| conda:required_by:: cyvcf2
 .. |downloads_cyvcf2| image:: https://img.shields.io/conda/dn/bioconda/cyvcf2.svg?style=flat
    :alt:   (downloads)
 .. |docker_cyvcf2| image:: https://quay.io/repository/biocontainers/cyvcf2/status
    :target: https://quay.io/repository/biocontainers/cyvcf2
+.. _`cyvcf2/tags`: https://quay.io/repository/biocontainers/cyvcf2?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/cyvcf2/README.html
-

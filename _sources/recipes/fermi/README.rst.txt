@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'fermi'
 .. highlight: bash
-
 
 fermi
 =====
@@ -21,11 +22,15 @@ fermi
 
    |downloads_fermi| |docker_fermi|
 
-   :versions: 1.1_r751_beta
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_fermi|
+   :versions: 1.1_r751_beta-3, 1.1_r751_beta-2, 1.1_r751_beta-1, 1.1_r751_beta-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends perl: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ fermi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fermi
+      docker pull quay.io/repository/biocontainers/fermi:<tag>
+
+   (see `fermi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_fermi| conda:required_by:: fermi
 .. |downloads_fermi| image:: https://img.shields.io/conda/dn/bioconda/fermi.svg?style=flat
    :alt:   (downloads)
 .. |docker_fermi| image:: https://quay.io/repository/biocontainers/fermi/status
    :target: https://quay.io/repository/biocontainers/fermi
+.. _`fermi/tags`: https://quay.io/repository/biocontainers/fermi?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/fermi/README.html
-

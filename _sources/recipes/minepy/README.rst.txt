@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'minepy'
 .. highlight: bash
-
 
 minepy
 ======
@@ -21,11 +22,15 @@ minepy
 
    |downloads_minepy| |docker_minepy|
 
-   :versions: 1.2.2, 1.2.0
-
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy` >=1.3.0 :conda:package:`python` >=2.7,<2.8.0a0 
-
-   :required~by: |required_by_minepy|
+   :versions: 1.2.2-0, 1.2.0-1, 1.2.0-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends numpy: >=1.3.0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ minepy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/minepy
+      docker pull quay.io/repository/biocontainers/minepy:<tag>
+
+   (see `minepy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_minepy| conda:required_by:: minepy
 .. |downloads_minepy| image:: https://img.shields.io/conda/dn/bioconda/minepy.svg?style=flat
    :alt:   (downloads)
 .. |docker_minepy| image:: https://quay.io/repository/biocontainers/minepy/status
    :target: https://quay.io/repository/biocontainers/minepy
+.. _`minepy/tags`: https://quay.io/repository/biocontainers/minepy?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/minepy/README.html
-

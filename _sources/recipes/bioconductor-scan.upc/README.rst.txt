@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-scan.upc'
 .. highlight: bash
-
 
 bioconductor-scan.upc
 =====================
@@ -22,11 +23,31 @@ bioconductor-scan.upc
 
    |downloads_bioconductor-scan.upc| |docker_bioconductor-scan.upc|
 
-   :versions: 2.24.1, 2.22.0, 2.20.0, 2.18.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-affyio` >=1.52.0,<1.53.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-geoquery` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-sva` >=3.30.0,<3.31.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-foreach`  :conda:package:`r-mass`  
-
-   :required~by: |required_by_bioconductor-scan.upc|
+   :versions: 2.24.1-0, 2.22.0-0, 2.20.0-0, 2.18.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-affyio: >=1.52.0,<1.53.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-geoquery: >=2.50.0,<2.51.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-oligo: >=1.46.0,<1.47.0
+   
+   :depends bioconductor-sva: >=3.30.0,<3.31.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-foreach: 
+   
+   :depends r-mass: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +61,16 @@ bioconductor-scan.upc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scan.upc
+      docker pull quay.io/repository/biocontainers/bioconductor-scan.upc:<tag>
+
+   (see `bioconductor-scan.upc/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-scan.upc| conda:required_by:: bioconductor-scan.upc
 .. |downloads_bioconductor-scan.upc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scan.upc.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-scan.upc| image:: https://quay.io/repository/biocontainers/bioconductor-scan.upc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scan.upc
+.. _`bioconductor-scan.upc/tags`: https://quay.io/repository/biocontainers/bioconductor-scan.upc?tab=tags
 
 
 
@@ -64,4 +87,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-scan.upc/README.html
-

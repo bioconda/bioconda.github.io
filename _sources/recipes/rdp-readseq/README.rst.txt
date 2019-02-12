@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'rdp-readseq'
 .. highlight: bash
-
 
 rdp-readseq
 ===========
@@ -21,11 +22,11 @@ rdp-readseq
 
    |downloads_rdp-readseq| |docker_rdp-readseq|
 
-   :versions: 2.0.2
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_rdp-readseq|
+   :versions: 2.0.2-1, 2.0.2-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ rdp-readseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rdp-readseq
+      docker pull quay.io/repository/biocontainers/rdp-readseq:<tag>
+
+   (see `rdp-readseq/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_rdp-readseq| conda:required_by:: rdp-readseq
 .. |downloads_rdp-readseq| image:: https://img.shields.io/conda/dn/bioconda/rdp-readseq.svg?style=flat
    :alt:   (downloads)
 .. |docker_rdp-readseq| image:: https://quay.io/repository/biocontainers/rdp-readseq/status
    :target: https://quay.io/repository/biocontainers/rdp-readseq
+.. _`rdp-readseq/tags`: https://quay.io/repository/biocontainers/rdp-readseq?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/rdp-readseq/README.html
-

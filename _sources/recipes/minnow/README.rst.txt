@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'minnow'
 .. highlight: bash
-
 
 minnow
 ======
@@ -21,11 +22,17 @@ minnow
 
    |downloads_minnow| |docker_minnow|
 
-   :versions: 1.2, 1.1
-
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
-
-   :required~by: |required_by_minnow|
+   :versions: 1.2-0, 1.1-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ minnow
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/minnow
+      docker pull quay.io/repository/biocontainers/minnow:<tag>
+
+   (see `minnow/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_minnow| conda:required_by:: minnow
 .. |downloads_minnow| image:: https://img.shields.io/conda/dn/bioconda/minnow.svg?style=flat
    :alt:   (downloads)
 .. |docker_minnow| image:: https://quay.io/repository/biocontainers/minnow/status
    :target: https://quay.io/repository/biocontainers/minnow
+.. _`minnow/tags`: https://quay.io/repository/biocontainers/minnow?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/minnow/README.html
-

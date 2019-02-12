@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pairtools'
 .. highlight: bash
-
 
 pairtools
 =========
@@ -23,11 +24,27 @@ pairtools
 
    |downloads_pairtools| |docker_pairtools|
 
-   :versions: 0.2.2, 0.2.1, 0.2.0, 0.1.1
-
-   :depends: :conda:package:`click`  :conda:package:`coreutils`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`lz4-c`  :conda:package:`numpy` >=1.9.3,<2.0a0 :conda:package:`pbgzip`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`samtools`  :conda:package:`tabix`  
-
-   :required~by: |required_by_pairtools|
+   :versions: 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.1-0
+   
+   :depends click: 
+   
+   :depends coreutils: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends lz4-c: 
+   
+   :depends numpy: >=1.9.3,<2.0a0
+   
+   :depends pbgzip: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends samtools: 
+   
+   :depends tabix: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -41,14 +58,16 @@ pairtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pairtools
+      docker pull quay.io/repository/biocontainers/pairtools:<tag>
+
+   (see `pairtools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pairtools| conda:required_by:: pairtools
 .. |downloads_pairtools| image:: https://img.shields.io/conda/dn/bioconda/pairtools.svg?style=flat
    :alt:   (downloads)
 .. |docker_pairtools| image:: https://quay.io/repository/biocontainers/pairtools/status
    :target: https://quay.io/repository/biocontainers/pairtools
+.. _`pairtools/tags`: https://quay.io/repository/biocontainers/pairtools?tab=tags
 
 
 
@@ -65,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pairtools/README.html
-

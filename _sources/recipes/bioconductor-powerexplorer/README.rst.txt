@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-powerexplorer'
 .. highlight: bash
-
 
 bioconductor-powerexplorer
 ==========================
@@ -21,11 +22,33 @@ bioconductor-powerexplorer
 
    |downloads_bioconductor-powerexplorer| |docker_bioconductor-powerexplorer|
 
-   :versions: 1.2.2
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-rots` >=1.10.0,<1.11.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-vsn` >=3.50.0,<3.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-mass`  
-
-   :required~by: |required_by_bioconductor-powerexplorer|
+   :versions: 1.2.2-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-rots: >=1.10.0,<1.11.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends bioconductor-vsn: >=3.50.0,<3.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gridextra: 
+   
+   :depends r-mass: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +62,16 @@ bioconductor-powerexplorer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-powerexplorer
+      docker pull quay.io/repository/biocontainers/bioconductor-powerexplorer:<tag>
+
+   (see `bioconductor-powerexplorer/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-powerexplorer| conda:required_by:: bioconductor-powerexplorer
 .. |downloads_bioconductor-powerexplorer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-powerexplorer.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-powerexplorer| image:: https://quay.io/repository/biocontainers/bioconductor-powerexplorer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-powerexplorer
+.. _`bioconductor-powerexplorer/tags`: https://quay.io/repository/biocontainers/bioconductor-powerexplorer?tab=tags
 
 
 
@@ -63,4 +88,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-powerexplorer/README.html
-

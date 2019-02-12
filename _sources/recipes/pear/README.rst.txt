@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pear'
 .. highlight: bash
-
 
 pear
 ====
@@ -22,11 +23,15 @@ pear
 
    |downloads_pear| |docker_pear|
 
-   :versions: 0.9.6
-
-   :depends: :conda:package:`zlib`  
-
-   :required~by: |required_by_pear|
+   :versions: 0.9.6-4, 0.9.6-3, 0.9.6-2, 0.9.6-1, 0.9.6-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ pear
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pear
+      docker pull quay.io/repository/biocontainers/pear:<tag>
+
+   (see `pear/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pear| conda:required_by:: pear
 .. |downloads_pear| image:: https://img.shields.io/conda/dn/bioconda/pear.svg?style=flat
    :alt:   (downloads)
 .. |docker_pear| image:: https://quay.io/repository/biocontainers/pear/status
    :target: https://quay.io/repository/biocontainers/pear
+.. _`pear/tags`: https://quay.io/repository/biocontainers/pear?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pear/README.html
-

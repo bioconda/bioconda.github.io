@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'pacbio_falcon'
 .. highlight: bash
-
 
 pacbio_falcon
 =============
@@ -21,11 +22,19 @@ pacbio_falcon
 
    |downloads_pacbio_falcon| |docker_pacbio_falcon|
 
-   :versions: 052016
-
-   :depends: :conda:package:`networkx`  :conda:package:`pypeflow`  :conda:package:`python` 2.7* :conda:package:`rdflib`  
-
-   :required~by: |required_by_pacbio_falcon|
+   :versions: 052016-1, 052016-0
+   
+   :depends networkx: 
+   
+   :depends pypeflow: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends rdfextras: 
+   
+   :depends rdflib: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ pacbio_falcon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pacbio_falcon
+      docker pull quay.io/repository/biocontainers/pacbio_falcon:<tag>
+
+   (see `pacbio_falcon/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_pacbio_falcon| conda:required_by:: pacbio_falcon
 .. |downloads_pacbio_falcon| image:: https://img.shields.io/conda/dn/bioconda/pacbio_falcon.svg?style=flat
    :alt:   (downloads)
 .. |docker_pacbio_falcon| image:: https://quay.io/repository/biocontainers/pacbio_falcon/status
    :target: https://quay.io/repository/biocontainers/pacbio_falcon
+.. _`pacbio_falcon/tags`: https://quay.io/repository/biocontainers/pacbio_falcon?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/pacbio_falcon/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'maxentpy'
 .. highlight: bash
-
 
 maxentpy
 ========
@@ -21,11 +22,15 @@ maxentpy
 
    |downloads_maxentpy| |docker_maxentpy|
 
-   :versions: 0.0.1
-
-   :depends: :conda:package:`cython`  :conda:package:`msgpack-python`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_maxentpy|
+   :versions: 0.0.1-1, 0.0.1-0
+   
+   :depends cython: 
+   
+   :depends msgpack-python: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ maxentpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/maxentpy
+      docker pull quay.io/repository/biocontainers/maxentpy:<tag>
+
+   (see `maxentpy/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_maxentpy| conda:required_by:: maxentpy
 .. |downloads_maxentpy| image:: https://img.shields.io/conda/dn/bioconda/maxentpy.svg?style=flat
    :alt:   (downloads)
 .. |docker_maxentpy| image:: https://quay.io/repository/biocontainers/maxentpy/status
    :target: https://quay.io/repository/biocontainers/maxentpy
+.. _`maxentpy/tags`: https://quay.io/repository/biocontainers/maxentpy?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/maxentpy/README.html
-

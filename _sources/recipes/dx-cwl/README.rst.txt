@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'dx-cwl'
 .. highlight: bash
-
 
 dx-cwl
 ======
@@ -21,11 +22,17 @@ dx-cwl
 
    |downloads_dx-cwl| |docker_dx-cwl|
 
-   :versions: 0.1.0a20180905, 0.1.0a20180829, 0.1.0a20180820, 0.1.0a20180119, 0.1.0a20180116, 0.1.0a20171231, 0.1.0a20171222, 0.1.0a20171221, 0.1.0a20171213, 0.1.0a20171211, 0.1.0a20171206, 0.1.0a20171029
-
-   :depends: :conda:package:`cwltool`  :conda:package:`dxpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`pyyaml`  
-
-   :required~by: |required_by_dx-cwl|
+   :versions: 0.1.0a20180905-0, 0.1.0a20180829-0, 0.1.0a20180820-0, 0.1.0a20180119-1, 0.1.0a20180119-0, 0.1.0a20180116-0, 0.1.0a20171231-0, 0.1.0a20171222-0, 0.1.0a20171221-0, 0.1.0a20171213-0, 0.1.0a20171211-0, 0.1.0a20171206-0, 0.1.0a20171029-0
+   
+   :depends cwltool: 
+   
+   :depends dxpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends pyyaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ dx-cwl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dx-cwl
+      docker pull quay.io/repository/biocontainers/dx-cwl:<tag>
+
+   (see `dx-cwl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_dx-cwl| conda:required_by:: dx-cwl
 .. |downloads_dx-cwl| image:: https://img.shields.io/conda/dn/bioconda/dx-cwl.svg?style=flat
    :alt:   (downloads)
 .. |docker_dx-cwl| image:: https://quay.io/repository/biocontainers/dx-cwl/status
    :target: https://quay.io/repository/biocontainers/dx-cwl
+.. _`dx-cwl/tags`: https://quay.io/repository/biocontainers/dx-cwl?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/dx-cwl/README.html
-

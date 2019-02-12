@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'python-sortedcontainers'
 .. highlight: bash
-
 
 python-sortedcontainers
 =======================
@@ -21,11 +22,11 @@ python-sortedcontainers
 
    |downloads_python-sortedcontainers| |docker_python-sortedcontainers|
 
-   :versions: 2.1.0, 2.0.5, 2.0.4
-
-   :depends: :conda:package:`python`  
-
-   :required~by: |required_by_python-sortedcontainers|
+   :versions: 2.1.0-0, 2.0.5-0, 2.0.4-0
+   
+   :depends python: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ python-sortedcontainers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-sortedcontainers
+      docker pull quay.io/repository/biocontainers/python-sortedcontainers:<tag>
+
+   (see `python-sortedcontainers/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_python-sortedcontainers| conda:required_by:: python-sortedcontainers
 .. |downloads_python-sortedcontainers| image:: https://img.shields.io/conda/dn/bioconda/python-sortedcontainers.svg?style=flat
    :alt:   (downloads)
 .. |docker_python-sortedcontainers| image:: https://quay.io/repository/biocontainers/python-sortedcontainers/status
    :target: https://quay.io/repository/biocontainers/python-sortedcontainers
+.. _`python-sortedcontainers/tags`: https://quay.io/repository/biocontainers/python-sortedcontainers?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/python-sortedcontainers/README.html
-

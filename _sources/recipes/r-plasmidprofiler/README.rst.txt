@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-plasmidprofiler'
 .. highlight: bash
-
 
 r-plasmidprofiler
 =================
@@ -21,11 +22,41 @@ r-plasmidprofiler
 
    |downloads_r-plasmidprofiler| |docker_r-plasmidprofiler|
 
-   :versions: 0.1.6, 0.1.4
-
-   :depends: :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-gdata`  :conda:package:`r-ggdendro`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-gtable`  :conda:package:`r-htmlwidgets`  :conda:package:`r-magrittr`  :conda:package:`r-plotly`  :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-stringr`  
-
-   :required~by: |required_by_r-plasmidprofiler|
+   :versions: 0.1.6-3, 0.1.6-2, 0.1.6-1, 0.1.6-0, 0.1.4-0
+   
+   :depends pandoc: 1.19.2
+   
+   :depends r: 3.3.1
+   
+   :depends r-ape: 3.5
+   
+   :depends r-dplyr: 0.5.0
+   
+   :depends r-gdata: 2.17.0
+   
+   :depends r-ggdendro: 0.1_17
+   
+   :depends r-ggplot2: 2.1.0
+   
+   :depends r-gridextra: 2.2.1
+   
+   :depends r-gtable: 0.2.0
+   
+   :depends r-htmlwidgets: 0.6
+   
+   :depends r-magrittr: 1.5
+   
+   :depends r-plotly: 4.5.2
+   
+   :depends r-plyr: 1.8.4
+   
+   :depends r-rcolorbrewer: 1.1_2
+   
+   :depends r-reshape2: 1.4.2
+   
+   :depends r-stringr: 1.1.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ r-plasmidprofiler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-plasmidprofiler
+      docker pull quay.io/repository/biocontainers/r-plasmidprofiler:<tag>
+
+   (see `r-plasmidprofiler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-plasmidprofiler| conda:required_by:: r-plasmidprofiler
 .. |downloads_r-plasmidprofiler| image:: https://img.shields.io/conda/dn/bioconda/r-plasmidprofiler.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-plasmidprofiler| image:: https://quay.io/repository/biocontainers/r-plasmidprofiler/status
    :target: https://quay.io/repository/biocontainers/r-plasmidprofiler
+.. _`r-plasmidprofiler/tags`: https://quay.io/repository/biocontainers/r-plasmidprofiler?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-plasmidprofiler/README.html
-

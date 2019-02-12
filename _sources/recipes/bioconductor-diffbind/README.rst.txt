@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-diffbind'
 .. highlight: bash
-
 
 bioconductor-diffbind
 =====================
@@ -22,11 +23,57 @@ bioconductor-diffbind
 
    |downloads_bioconductor-diffbind| |docker_bioconductor-diffbind|
 
-   :versions: 2.10.0, 2.8.0, 2.6.6, 2.6.5, 2.6.0, 2.4.8, 2.2.12, 2.0.9, 1.16.3
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-systempiper` >=1.16.0,<1.17.0 :conda:package:`bioconductor-zlibbioc` >=1.28.0,<1.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-amap`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-gplots`  :conda:package:`r-lattice`  :conda:package:`r-locfit`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp`  
-
-   :required~by: |required_by_bioconductor-diffbind|
+   :versions: 2.10.0-0, 2.8.0-0, 2.6.6-0, 2.6.5-0, 2.6.0-0, 2.4.8-16, 2.2.12-1, 2.2.12-0, 2.0.9-3, 2.0.9-2, 1.16.3-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
+   
+   :depends bioconductor-edger: >=3.24.0,<3.25.0
+   
+   :depends bioconductor-genomicalignments: >=1.18.0,<1.19.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-iranges: >=2.16.0,<2.17.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends bioconductor-systempiper: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-zlibbioc: >=1.28.0,<1.29.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-amap: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dplyr: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-ggrepel: 
+   
+   :depends r-gplots: 
+   
+   :depends r-lattice: 
+   
+   :depends r-locfit: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rcpp: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +87,16 @@ bioconductor-diffbind
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-diffbind
+      docker pull quay.io/repository/biocontainers/bioconductor-diffbind:<tag>
+
+   (see `bioconductor-diffbind/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-diffbind| conda:required_by:: bioconductor-diffbind
 .. |downloads_bioconductor-diffbind| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-diffbind.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-diffbind| image:: https://quay.io/repository/biocontainers/bioconductor-diffbind/status
    :target: https://quay.io/repository/biocontainers/bioconductor-diffbind
+.. _`bioconductor-diffbind/tags`: https://quay.io/repository/biocontainers/bioconductor-diffbind?tab=tags
 
 
 
@@ -64,4 +113,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-diffbind/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-goprofiles'
 .. highlight: bash
-
 
 bioconductor-goprofiles
 =======================
@@ -22,10 +23,8 @@ bioconductor-goprofiles
    |downloads_bioconductor-goprofiles| |docker_bioconductor-goprofiles|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-goprofiles|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-goprofiles
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-goprofiles
+      docker pull quay.io/repository/biocontainers/bioconductor-goprofiles:<tag>
+
+   (see `bioconductor-goprofiles/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-goprofiles| conda:required_by:: bioconductor-goprofiles
 .. |downloads_bioconductor-goprofiles| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-goprofiles.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-goprofiles| image:: https://quay.io/repository/biocontainers/bioconductor-goprofiles/status
    :target: https://quay.io/repository/biocontainers/bioconductor-goprofiles
+.. _`bioconductor-goprofiles/tags`: https://quay.io/repository/biocontainers/bioconductor-goprofiles?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-goprofiles/README.html
-

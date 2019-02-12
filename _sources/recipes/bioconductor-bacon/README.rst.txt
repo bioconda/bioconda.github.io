@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-bacon'
 .. highlight: bash
-
 
 bioconductor-bacon
 ==================
@@ -22,11 +23,19 @@ bioconductor-bacon
 
    |downloads_bioconductor-bacon| |docker_bioconductor-bacon|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0
-
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ellipse`  :conda:package:`r-ggplot2`  
-
-   :required~by: |required_by_bioconductor-bacon|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ellipse: 
+   
+   :depends r-ggplot2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-bacon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bacon
+      docker pull quay.io/repository/biocontainers/bioconductor-bacon:<tag>
+
+   (see `bioconductor-bacon/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-bacon| conda:required_by:: bioconductor-bacon
 .. |downloads_bioconductor-bacon| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bacon.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-bacon| image:: https://quay.io/repository/biocontainers/bioconductor-bacon/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bacon
+.. _`bioconductor-bacon/tags`: https://quay.io/repository/biocontainers/bioconductor-bacon?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-bacon/README.html
-

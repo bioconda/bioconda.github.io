@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'primer3-py'
 .. highlight: bash
-
 
 primer3-py
 ==========
@@ -21,11 +22,11 @@ primer3-py
 
    |downloads_primer3-py| |docker_primer3-py|
 
-   :versions: 0.5.4, 0.5.1
-
-   :depends: :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_primer3-py|
+   :versions: 0.5.4-2, 0.5.4-1, 0.5.1-0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ primer3-py
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/primer3-py
+      docker pull quay.io/repository/biocontainers/primer3-py:<tag>
+
+   (see `primer3-py/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_primer3-py| conda:required_by:: primer3-py
 .. |downloads_primer3-py| image:: https://img.shields.io/conda/dn/bioconda/primer3-py.svg?style=flat
    :alt:   (downloads)
 .. |docker_primer3-py| image:: https://quay.io/repository/biocontainers/primer3-py/status
    :target: https://quay.io/repository/biocontainers/primer3-py
+.. _`primer3-py/tags`: https://quay.io/repository/biocontainers/primer3-py?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/primer3-py/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-mixin-linewise'
 .. highlight: bash
-
 
 perl-mixin-linewise
 ===================
@@ -21,11 +22,15 @@ perl-mixin-linewise
 
    |downloads_perl-mixin-linewise| |docker_perl-mixin-linewise|
 
-   :versions: 0.108
-
-   :depends: :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-pathtools`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-mixin-linewise|
+   :versions: 0.108-1, 0.108-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-extutils-makemaker: 
+   
+   :depends perl-pathtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ perl-mixin-linewise
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mixin-linewise
+      docker pull quay.io/repository/biocontainers/perl-mixin-linewise:<tag>
+
+   (see `perl-mixin-linewise/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-mixin-linewise| conda:required_by:: perl-mixin-linewise
 .. |downloads_perl-mixin-linewise| image:: https://img.shields.io/conda/dn/bioconda/perl-mixin-linewise.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-mixin-linewise| image:: https://quay.io/repository/biocontainers/perl-mixin-linewise/status
    :target: https://quay.io/repository/biocontainers/perl-mixin-linewise
+.. _`perl-mixin-linewise/tags`: https://quay.io/repository/biocontainers/perl-mixin-linewise?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-mixin-linewise/README.html
-

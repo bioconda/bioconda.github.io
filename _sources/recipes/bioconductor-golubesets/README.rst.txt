@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-golubesets'
 .. highlight: bash
-
 
 bioconductor-golubesets
 =======================
@@ -21,11 +22,15 @@ bioconductor-golubesets
 
    |downloads_bioconductor-golubesets| |docker_bioconductor-golubesets|
 
-   :versions: 1.24.0, 1.22.0, 1.20.0
-
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-golubesets|
+   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ bioconductor-golubesets
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-golubesets
+      docker pull quay.io/repository/biocontainers/bioconductor-golubesets:<tag>
+
+   (see `bioconductor-golubesets/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-golubesets| conda:required_by:: bioconductor-golubesets
 .. |downloads_bioconductor-golubesets| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-golubesets.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-golubesets| image:: https://quay.io/repository/biocontainers/bioconductor-golubesets/status
    :target: https://quay.io/repository/biocontainers/bioconductor-golubesets
+.. _`bioconductor-golubesets/tags`: https://quay.io/repository/biocontainers/bioconductor-golubesets?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-golubesets/README.html
-

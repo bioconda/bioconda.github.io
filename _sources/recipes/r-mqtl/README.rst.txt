@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-mqtl'
 .. highlight: bash
-
 
 r-mqtl
 ======
@@ -21,11 +22,17 @@ r-mqtl
 
    |downloads_r-mqtl| |docker_r-mqtl|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-mass`  :conda:package:`r-outliers`  :conda:package:`r-qtl`  
-
-   :required~by: |required_by_r-mqtl|
+   :versions: 1.0-0
+   
+   :depends r-base: 3.4.1*
+   
+   :depends r-mass: 
+   
+   :depends r-outliers: 
+   
+   :depends r-qtl: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-mqtl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-mqtl
+      docker pull quay.io/repository/biocontainers/r-mqtl:<tag>
+
+   (see `r-mqtl/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-mqtl| conda:required_by:: r-mqtl
 .. |downloads_r-mqtl| image:: https://img.shields.io/conda/dn/bioconda/r-mqtl.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-mqtl| image:: https://quay.io/repository/biocontainers/r-mqtl/status
    :target: https://quay.io/repository/biocontainers/r-mqtl
+.. _`r-mqtl/tags`: https://quay.io/repository/biocontainers/r-mqtl?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-mqtl/README.html
-

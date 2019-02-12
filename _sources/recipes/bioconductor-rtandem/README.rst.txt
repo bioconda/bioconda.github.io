@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-rtandem'
 .. highlight: bash
-
 
 bioconductor-rtandem
 ====================
@@ -21,11 +22,23 @@ bioconductor-rtandem
 
    |downloads_bioconductor-rtandem| |docker_bioconductor-rtandem|
 
-   :versions: 1.22.1, 1.22.0
-
-   :depends: :conda:package:`expat` >=2.2.5,<2.3.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table` >=1.8.8 :conda:package:`r-rcpp`  :conda:package:`r-xml`  
-
-   :required~by: |required_by_bioconductor-rtandem|
+   :versions: 1.22.1-0, 1.22.0-0
+   
+   :depends expat: >=2.2.5,<2.3.0a0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: >=1.8.8
+   
+   :depends r-rcpp: 
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ bioconductor-rtandem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtandem
+      docker pull quay.io/repository/biocontainers/bioconductor-rtandem:<tag>
+
+   (see `bioconductor-rtandem/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-rtandem| conda:required_by:: bioconductor-rtandem
 .. |downloads_bioconductor-rtandem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtandem.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-rtandem| image:: https://quay.io/repository/biocontainers/bioconductor-rtandem/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtandem
+.. _`bioconductor-rtandem/tags`: https://quay.io/repository/biocontainers/bioconductor-rtandem?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-rtandem/README.html
-

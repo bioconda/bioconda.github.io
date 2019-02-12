@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-types-serialiser'
 .. highlight: bash
-
 
 perl-types-serialiser
 =====================
@@ -21,11 +22,13 @@ perl-types-serialiser
 
    |downloads_perl-types-serialiser| |docker_perl-types-serialiser|
 
-   :versions: 1.0
-
-   :depends: :conda:package:`perl-common-sense`  :conda:package:`perl-threaded`  
-
-   :required~by: |required_by_perl-types-serialiser|
+   :versions: 1.0-2, 1.0-1, 1.0-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-common-sense: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-types-serialiser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-types-serialiser
+      docker pull quay.io/repository/biocontainers/perl-types-serialiser:<tag>
+
+   (see `perl-types-serialiser/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-types-serialiser| conda:required_by:: perl-types-serialiser
 .. |downloads_perl-types-serialiser| image:: https://img.shields.io/conda/dn/bioconda/perl-types-serialiser.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-types-serialiser| image:: https://quay.io/repository/biocontainers/perl-types-serialiser/status
    :target: https://quay.io/repository/biocontainers/perl-types-serialiser
+.. _`perl-types-serialiser/tags`: https://quay.io/repository/biocontainers/perl-types-serialiser?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-types-serialiser/README.html
-

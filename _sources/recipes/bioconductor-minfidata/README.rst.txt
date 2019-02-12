@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-minfidata'
 .. highlight: bash
-
 
 bioconductor-minfidata
 ======================
@@ -21,11 +22,19 @@ bioconductor-minfidata
 
    |downloads_bioconductor-minfidata| |docker_bioconductor-minfidata|
 
-   :versions: 0.28.0
-
-   :depends: :conda:package:`bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19` >=0.6.0,<0.7.0 :conda:package:`bioconductor-illuminahumanmethylation450kmanifest` >=0.4.0,<0.5.0 :conda:package:`bioconductor-minfi` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-minfidata|
+   :versions: 0.28.0-0
+   
+   :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
+   
+   :depends bioconductor-illuminahumanmethylation450kmanifest: >=0.4.0,<0.5.0
+   
+   :depends bioconductor-minfi: >=1.28.0,<1.29.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ bioconductor-minfidata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-minfidata
+      docker pull quay.io/repository/biocontainers/bioconductor-minfidata:<tag>
+
+   (see `bioconductor-minfidata/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-minfidata| conda:required_by:: bioconductor-minfidata
 .. |downloads_bioconductor-minfidata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-minfidata.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-minfidata| image:: https://quay.io/repository/biocontainers/bioconductor-minfidata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-minfidata
+.. _`bioconductor-minfidata/tags`: https://quay.io/repository/biocontainers/bioconductor-minfidata?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-minfidata/README.html
-

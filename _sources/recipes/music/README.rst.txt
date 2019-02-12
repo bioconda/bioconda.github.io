@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'music'
 .. highlight: bash
-
 
 music
 =====
@@ -21,11 +22,13 @@ music
 
    |downloads_music| |docker_music|
 
-   :versions: 1.0.0
-
-   :depends: :conda:package:`libgcc`  
-
-   :required~by: |required_by_music|
+   :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ music
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/music
+      docker pull quay.io/repository/biocontainers/music:<tag>
+
+   (see `music/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_music| conda:required_by:: music
 .. |downloads_music| image:: https://img.shields.io/conda/dn/bioconda/music.svg?style=flat
    :alt:   (downloads)
 .. |docker_music| image:: https://quay.io/repository/biocontainers/music/status
    :target: https://quay.io/repository/biocontainers/music
+.. _`music/tags`: https://quay.io/repository/biocontainers/music?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/music/README.html
-

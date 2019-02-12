@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-manor'
 .. highlight: bash
-
 
 bioconductor-manor
 ==================
@@ -22,10 +23,8 @@ bioconductor-manor
    |downloads_bioconductor-manor| |docker_bioconductor-manor|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-manor|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-manor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-manor
+      docker pull quay.io/repository/biocontainers/bioconductor-manor:<tag>
+
+   (see `bioconductor-manor/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-manor| conda:required_by:: bioconductor-manor
 .. |downloads_bioconductor-manor| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-manor.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-manor| image:: https://quay.io/repository/biocontainers/bioconductor-manor/status
    :target: https://quay.io/repository/biocontainers/bioconductor-manor
+.. _`bioconductor-manor/tags`: https://quay.io/repository/biocontainers/bioconductor-manor?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-manor/README.html
-

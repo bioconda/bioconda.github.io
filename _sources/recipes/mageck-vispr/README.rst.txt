@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'mageck-vispr'
 .. highlight: bash
-
 
 mageck-vispr
 ============
@@ -21,11 +22,29 @@ mageck-vispr
 
    |downloads_mageck-vispr| |docker_mageck-vispr|
 
-   :versions: 0.5.4, 0.5.3, 0.5.2, 0.4.7, 0.4.6, 0.4.5
-
-   :depends: :conda:package:`bioconductor-sva` >=3.15.0 :conda:package:`cutadapt` >=1.9.1 :conda:package:`fastqc` >=0.11.4 :conda:package:`jinja2` >=2.8 :conda:package:`mageck` >=0.5.3 :conda:package:`python` 3.5* :conda:package:`rpy2` >=0.7.4 :conda:package:`setuptools`  :conda:package:`snakemake` >=3.6.0 :conda:package:`vispr` >=0.4.4 
-
-   :required~by: |required_by_mageck-vispr|
+   :versions: 0.5.4-1, 0.5.4-0, 0.5.3-0, 0.5.2-0, 0.4.7-0, 0.4.6-0, 0.4.5-0
+   
+   :depends bioconductor-sva: >=3.15.0
+   
+   :depends cutadapt: >=1.9.1
+   
+   :depends fastqc: >=0.11.4
+   
+   :depends jinja2: >=2.8
+   
+   :depends mageck: >=0.5.3
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends rpy2: >=2.9.4
+   
+   :depends setuptools: 
+   
+   :depends snakemake: >=3.6.0
+   
+   :depends vispr: >=0.4.4
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +58,16 @@ mageck-vispr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mageck-vispr
+      docker pull quay.io/repository/biocontainers/mageck-vispr:<tag>
+
+   (see `mageck-vispr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_mageck-vispr| conda:required_by:: mageck-vispr
 .. |downloads_mageck-vispr| image:: https://img.shields.io/conda/dn/bioconda/mageck-vispr.svg?style=flat
    :alt:   (downloads)
 .. |docker_mageck-vispr| image:: https://quay.io/repository/biocontainers/mageck-vispr/status
    :target: https://quay.io/repository/biocontainers/mageck-vispr
+.. _`mageck-vispr/tags`: https://quay.io/repository/biocontainers/mageck-vispr?tab=tags
 
 
 
@@ -63,4 +84,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/mageck-vispr/README.html
-

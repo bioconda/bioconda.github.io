@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-peca'
 .. highlight: bash
-
 
 bioconductor-peca
 =================
@@ -22,11 +23,25 @@ bioconductor-peca
 
    |downloads_bioconductor-peca| |docker_bioconductor-peca|
 
-   :versions: 1.18.0, 1.16.0, 1.14.0, 1.12.0
-
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-genefilter` >=1.64.0,<1.65.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`bioconductor-rots` >=1.10.0,<1.11.0 :conda:package:`r-aroma.affymetrix`  :conda:package:`r-aroma.core`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-peca|
+   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0
+   
+   :depends bioconductor-affy: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-rots: >=1.10.0,<1.11.0
+   
+   :depends r-aroma.affymetrix: 
+   
+   :depends r-aroma.core: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +55,16 @@ bioconductor-peca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-peca
+      docker pull quay.io/repository/biocontainers/bioconductor-peca:<tag>
+
+   (see `bioconductor-peca/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-peca| conda:required_by:: bioconductor-peca
 .. |downloads_bioconductor-peca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-peca.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-peca| image:: https://quay.io/repository/biocontainers/bioconductor-peca/status
    :target: https://quay.io/repository/biocontainers/bioconductor-peca
+.. _`bioconductor-peca/tags`: https://quay.io/repository/biocontainers/bioconductor-peca?tab=tags
 
 
 
@@ -64,4 +81,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-peca/README.html
-

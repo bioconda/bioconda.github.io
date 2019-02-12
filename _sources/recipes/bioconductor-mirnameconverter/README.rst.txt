@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-mirnameconverter'
 .. highlight: bash
-
 
 bioconductor-mirnameconverter
 =============================
@@ -22,11 +23,19 @@ bioconductor-mirnameconverter
 
    |downloads_bioconductor-mirnameconverter| |docker_bioconductor-mirnameconverter|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0
-
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-mirbaseversions.db` >=1.1.0,<1.2.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-reshape2`  
-
-   :required~by: |required_by_bioconductor-mirnameconverter|
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-mirbaseversions.db: >=1.1.0,<1.2.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dbi: 
+   
+   :depends r-reshape2: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +49,16 @@ bioconductor-mirnameconverter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirnameconverter
+      docker pull quay.io/repository/biocontainers/bioconductor-mirnameconverter:<tag>
+
+   (see `bioconductor-mirnameconverter/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-mirnameconverter| conda:required_by:: bioconductor-mirnameconverter
 .. |downloads_bioconductor-mirnameconverter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirnameconverter.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-mirnameconverter| image:: https://quay.io/repository/biocontainers/bioconductor-mirnameconverter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirnameconverter
+.. _`bioconductor-mirnameconverter/tags`: https://quay.io/repository/biocontainers/bioconductor-mirnameconverter?tab=tags
 
 
 
@@ -64,4 +75,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-mirnameconverter/README.html
-

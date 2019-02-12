@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'perl-perl-ostype'
 .. highlight: bash
-
 
 perl-perl-ostype
 ================
@@ -21,11 +22,13 @@ perl-perl-ostype
 
    |downloads_perl-perl-ostype| |docker_perl-perl-ostype|
 
-   :versions: 1.010
-
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-exporter`  
-
-   :required~by: |required_by_perl-perl-ostype|
+   :versions: 1.010-1, 1.010-0
+   
+   :depends perl: >=5.26.2,<5.27.0a0
+   
+   :depends perl-exporter: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ perl-perl-ostype
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-perl-ostype
+      docker pull quay.io/repository/biocontainers/perl-perl-ostype:<tag>
+
+   (see `perl-perl-ostype/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_perl-perl-ostype| conda:required_by:: perl-perl-ostype
 .. |downloads_perl-perl-ostype| image:: https://img.shields.io/conda/dn/bioconda/perl-perl-ostype.svg?style=flat
    :alt:   (downloads)
 .. |docker_perl-perl-ostype| image:: https://quay.io/repository/biocontainers/perl-perl-ostype/status
    :target: https://quay.io/repository/biocontainers/perl-perl-ostype
+.. _`perl-perl-ostype/tags`: https://quay.io/repository/biocontainers/perl-perl-ostype?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/perl-perl-ostype/README.html
-

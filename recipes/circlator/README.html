@@ -131,11 +131,27 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body">1.5.5, 1.5.2, 1.5.1, 1.5.0, 1.4.0, 1.3.1, 1.3.0, 1.1.2</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">1.5.5-1, 1.5.5-0, 1.5.2-1, 1.5.2-0, 1.5.1-0, 1.5.0-0, 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.1.2-0</p>
+</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><a class="reference internal" href="../bio_assembly_refinement/README.html#package-bio_assembly_refinement" title="bio_assembly_refinement package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">bio_assembly_refinement</span></code></a> &gt;=0.4.0 <a class="reference internal" href="../bwa/README.html#package-bwa" title="bwa package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">bwa</span></code></a>  <a class="reference external" href="https://github.com/conda-forge/openpyxl-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">openpyxl</span></code></a>  <a class="reference internal" href="../prodigal/README.html#package-prodigal" title="prodigal package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">prodigal</span></code></a>  <a class="reference internal" href="../pyfastaq/README.html#package-pyfastaq" title="pyfastaq package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">pyfastaq</span></code></a> &gt;=3.12.1 <a class="reference internal" href="../pymummer/README.html#package-pymummer" title="pymummer package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">pymummer</span></code></a> &gt;=0.9.0 <code class="xref conda conda-package docutils literal notranslate"><span class="pre">pysam</span></code> &gt;=0.8.1 <a class="reference external" href="https://github.com/conda-forge/python-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">python</span></code></a> 3.5* <a class="reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">samtools</span></code></a>  <a class="reference internal" href="../spades/README.html#package-spades" title="spades package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">spades</span></code></a></td>
+<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
+<li><a class="conda-package reference internal" href="../bio_assembly_refinement/README.html#package-bio_assembly_refinement" title="bio_assembly_refinement package"><strong>bio_assembly_refinement</strong></a> &gt;=0.4.0</li>
+<li><a class="conda-package reference internal" href="../bwa/README.html#package-bwa" title="bwa package"><strong>bwa</strong></a></li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/openpyxl-feedstock"><strong>openpyxl</strong></a></li>
+<li><a class="conda-package reference internal" href="../prodigal/README.html#package-prodigal" title="prodigal package"><strong>prodigal</strong></a></li>
+<li><a class="conda-package reference internal" href="../pyfastaq/README.html#package-pyfastaq" title="pyfastaq package"><strong>pyfastaq</strong></a> &gt;=3.12.1</li>
+<li><a class="conda-package reference internal" href="../pymummer/README.html#package-pymummer" title="pymummer package"><strong>pymummer</strong></a> &gt;=0.9.0</li>
+<li><strong>pysam</strong> &gt;=0.8.1</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=3.5,&lt;3.6.0a0</li>
+<li><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a></li>
+<li><a class="conda-package reference internal" href="../spades/README.html#package-spades" title="spades package"><strong>spades</strong></a></li>
+</ul>
+</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Required~by:</th><td class="field-body"><span></span></td>
+<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+<li><a class="conda-package reference internal" href="../mob_suite/README.html#mob_suite"><strong class="xref backref">mob_suite</strong></a></li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -149,9 +165,10 @@
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">circlator</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">circlator</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/circlator?tab=tags">circlator/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

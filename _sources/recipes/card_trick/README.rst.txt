@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'card_trick'
 .. highlight: bash
-
 
 card_trick
 ==========
@@ -21,11 +22,15 @@ card_trick
 
    |downloads_card_trick| |docker_card_trick|
 
-   :versions: 0.1.2, 0.1.0
-
-   :depends: :conda:package:`pronto`  :conda:package:`python` >3 :conda:package:`requests`  
-
-   :required~by: |required_by_card_trick|
+   :versions: 0.1.2-0, 0.1.0-0
+   
+   :depends pronto: 
+   
+   :depends python: >3
+   
+   :depends requests: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ card_trick
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/card_trick
+      docker pull quay.io/repository/biocontainers/card_trick:<tag>
+
+   (see `card_trick/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_card_trick| conda:required_by:: card_trick
 .. |downloads_card_trick| image:: https://img.shields.io/conda/dn/bioconda/card_trick.svg?style=flat
    :alt:   (downloads)
 .. |docker_card_trick| image:: https://quay.io/repository/biocontainers/card_trick/status
    :target: https://quay.io/repository/biocontainers/card_trick
+.. _`card_trick/tags`: https://quay.io/repository/biocontainers/card_trick?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/card_trick/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'gnuplot-py'
 .. highlight: bash
-
 
 gnuplot-py
 ==========
@@ -21,11 +22,15 @@ gnuplot-py
 
    |downloads_gnuplot-py| |docker_gnuplot-py|
 
-   :versions: 1.8
-
-   :depends: :conda:package:`gnuplot`  :conda:package:`numpy`  :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_gnuplot-py|
+   :versions: 1.8-1, 1.8-0
+   
+   :depends gnuplot: 
+   
+   :depends numpy: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ gnuplot-py
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gnuplot-py
+      docker pull quay.io/repository/biocontainers/gnuplot-py:<tag>
+
+   (see `gnuplot-py/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_gnuplot-py| conda:required_by:: gnuplot-py
 .. |downloads_gnuplot-py| image:: https://img.shields.io/conda/dn/bioconda/gnuplot-py.svg?style=flat
    :alt:   (downloads)
 .. |docker_gnuplot-py| image:: https://quay.io/repository/biocontainers/gnuplot-py/status
    :target: https://quay.io/repository/biocontainers/gnuplot-py
+.. _`gnuplot-py/tags`: https://quay.io/repository/biocontainers/gnuplot-py?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/gnuplot-py/README.html
-

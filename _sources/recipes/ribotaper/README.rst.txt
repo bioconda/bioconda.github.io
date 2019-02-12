@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'ribotaper'
 .. highlight: bash
-
 
 ribotaper
 =========
@@ -22,11 +23,27 @@ ribotaper
 
    |downloads_ribotaper| |docker_ribotaper|
 
-   :versions: 1.3.1, 1.3.1a
-
-   :depends: :conda:package:`bedtools` ==2.17.0 :conda:package:`r-ade4`  :conda:package:`r-domc`  :conda:package:`r-foreach`  :conda:package:`r-iterators`  :conda:package:`r-multitaper`  :conda:package:`r-seqinr`  :conda:package:`r-xnomial`  :conda:package:`samtools`  
-
-   :required~by: |required_by_ribotaper|
+   :versions: 1.3.1-0, 1.3.1a-2, 1.3.1a-1, 1.3.1a-0
+   
+   :depends bedtools: ==2.17.0
+   
+   :depends r-ade4: 
+   
+   :depends r-domc: 
+   
+   :depends r-foreach: 
+   
+   :depends r-iterators: 
+   
+   :depends r-multitaper: 
+   
+   :depends r-seqinr: 
+   
+   :depends r-xnomial: 
+   
+   :depends samtools: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +57,16 @@ ribotaper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ribotaper
+      docker pull quay.io/repository/biocontainers/ribotaper:<tag>
+
+   (see `ribotaper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_ribotaper| conda:required_by:: ribotaper
 .. |downloads_ribotaper| image:: https://img.shields.io/conda/dn/bioconda/ribotaper.svg?style=flat
    :alt:   (downloads)
 .. |docker_ribotaper| image:: https://quay.io/repository/biocontainers/ribotaper/status
    :target: https://quay.io/repository/biocontainers/ribotaper
+.. _`ribotaper/tags`: https://quay.io/repository/biocontainers/ribotaper?tab=tags
 
 
 
@@ -64,4 +83,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/ribotaper/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'riboplot'
 .. highlight: bash
-
 
 riboplot
 ========
@@ -21,11 +22,19 @@ riboplot
 
    |downloads_riboplot| |docker_riboplot|
 
-   :versions: 0.3.1
-
-   :depends: :conda:package:`libgcc`  :conda:package:`matplotlib` <=1.4.3 :conda:package:`mock` ==1.0.1 :conda:package:`pysam` <=0.8.3 :conda:package:`python` 2.7* 
-
-   :required~by: |required_by_riboplot|
+   :versions: 0.3.1-2, 0.3.1-1, 0.3.1-0
+   
+   :depends bedtools: <=2.24.0
+   
+   :depends matplotlib: <=1.4.3
+   
+   :depends mock: 1.0.1
+   
+   :depends pysam: <=0.8.3
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +48,16 @@ riboplot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/riboplot
+      docker pull quay.io/repository/biocontainers/riboplot:<tag>
+
+   (see `riboplot/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_riboplot| conda:required_by:: riboplot
 .. |downloads_riboplot| image:: https://img.shields.io/conda/dn/bioconda/riboplot.svg?style=flat
    :alt:   (downloads)
 .. |docker_riboplot| image:: https://quay.io/repository/biocontainers/riboplot/status
    :target: https://quay.io/repository/biocontainers/riboplot
+.. _`riboplot/tags`: https://quay.io/repository/biocontainers/riboplot?tab=tags
 
 
 
@@ -63,4 +74,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/riboplot/README.html
-

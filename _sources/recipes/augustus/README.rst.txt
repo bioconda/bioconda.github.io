@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'augustus'
 .. highlight: bash
-
 
 augustus
 ========
@@ -22,11 +23,39 @@ augustus
 
    |downloads_augustus| |docker_augustus|
 
-   :versions: 3.3, 3.2.3, 3.2.2, 3.1
-
-   :depends: :conda:package:`bamtools` 2.4.1* :conda:package:`boost` 1.64* :conda:package:`gsl` 1.16* :conda:package:`libgcc`  :conda:package:`lp_solve`  :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-dbi`  :conda:package:`perl-module-build`  :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-yaml`  :conda:package:`sqlite`  :conda:package:`suitesparse`  :conda:package:`zlib` 1.2.11* 
-
-   :required~by: |required_by_augustus|
+   :versions: 3.3-4, 3.3-2, 3.3-1, 3.3-0, 3.2.3-5, 3.2.3-4, 3.2.3-3, 3.2.3-2, 3.2.3-1, 3.2.3-0, 3.2.2-3, 3.2.2-2, 3.2.2-1, 3.2.2-0, 3.1-0
+   
+   :depends bamtools: >=2.4.1,<2.4.2.0a0
+   
+   :depends boost: >=1.67.0,<1.67.1.0a0
+   
+   :depends gsl: >=2.2.1,<2.3.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends lp_solve: 
+   
+   :depends openblas: >=0.2.20,<0.2.21.0a0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-app-cpanminus: 
+   
+   :depends perl-dbi: 
+   
+   :depends perl-module-build: 
+   
+   :depends perl-scalar-list-utils: 
+   
+   :depends perl-yaml: 
+   
+   :depends sqlite: >=3.24.0,<4.0a0
+   
+   :depends suitesparse: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +69,16 @@ augustus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/augustus
+      docker pull quay.io/repository/biocontainers/augustus:<tag>
+
+   (see `augustus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_augustus| conda:required_by:: augustus
 .. |downloads_augustus| image:: https://img.shields.io/conda/dn/bioconda/augustus.svg?style=flat
    :alt:   (downloads)
 .. |docker_augustus| image:: https://quay.io/repository/biocontainers/augustus/status
    :target: https://quay.io/repository/biocontainers/augustus
+.. _`augustus/tags`: https://quay.io/repository/biocontainers/augustus?tab=tags
 
 
 
@@ -68,4 +99,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/augustus/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-biocstyle'
 .. highlight: bash
-
 
 bioconductor-biocstyle
 ======================
@@ -22,11 +23,21 @@ bioconductor-biocstyle
 
    |downloads_bioconductor-biocstyle| |docker_bioconductor-biocstyle|
 
-   :versions: 2.10.0, 2.8.2, 2.6.0, 2.4.1, 2.0.3, 2.0.2, 1.8.0
-
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biocmanager`  :conda:package:`r-bookdown`  :conda:package:`r-knitr` >=1.12 :conda:package:`r-rmarkdown` >=1.2 :conda:package:`r-yaml`  
-
-   :required~by: |required_by_bioconductor-biocstyle|
+   :versions: 2.10.0-0, 2.8.2-0, 2.6.0-0, 2.4.1-0, 2.0.3-1, 2.0.3-0, 2.0.2-0, 1.8.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-biocmanager: 
+   
+   :depends r-bookdown: 
+   
+   :depends r-knitr: >=1.12
+   
+   :depends r-rmarkdown: >=1.2
+   
+   :depends r-yaml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +51,16 @@ bioconductor-biocstyle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocstyle
+      docker pull quay.io/repository/biocontainers/bioconductor-biocstyle:<tag>
+
+   (see `bioconductor-biocstyle/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-biocstyle| conda:required_by:: bioconductor-biocstyle
 .. |downloads_bioconductor-biocstyle| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocstyle.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-biocstyle| image:: https://quay.io/repository/biocontainers/bioconductor-biocstyle/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocstyle
+.. _`bioconductor-biocstyle/tags`: https://quay.io/repository/biocontainers/bioconductor-biocstyle?tab=tags
 
 
 
@@ -64,4 +77,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-biocstyle/README.html
-

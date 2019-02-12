@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'somatic-sniper'
 .. highlight: bash
-
 
 somatic-sniper
 ==============
@@ -21,11 +22,11 @@ somatic-sniper
 
    |downloads_somatic-sniper| |docker_somatic-sniper|
 
-   :versions: 1.0.5.0
-
-   :depends: :conda:package:`zlib`  
-
-   :required~by: |required_by_somatic-sniper|
+   :versions: 1.0.5.0-1, 1.0.5.0-0
+   
+   :depends zlib: 1.2.11*
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ somatic-sniper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/somatic-sniper
+      docker pull quay.io/repository/biocontainers/somatic-sniper:<tag>
+
+   (see `somatic-sniper/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_somatic-sniper| conda:required_by:: somatic-sniper
 .. |downloads_somatic-sniper| image:: https://img.shields.io/conda/dn/bioconda/somatic-sniper.svg?style=flat
    :alt:   (downloads)
 .. |docker_somatic-sniper| image:: https://quay.io/repository/biocontainers/somatic-sniper/status
    :target: https://quay.io/repository/biocontainers/somatic-sniper
+.. _`somatic-sniper/tags`: https://quay.io/repository/biocontainers/somatic-sniper?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/somatic-sniper/README.html
-

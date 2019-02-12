@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'verifybamid'
 .. highlight: bash
-
 
 verifybamid
 ===========
@@ -22,11 +23,15 @@ verifybamid
 
    |downloads_verifybamid| |docker_verifybamid|
 
-   :versions: 1.1.3
-
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
-
-   :required~by: |required_by_verifybamid|
+   :versions: 1.1.3-2, 1.1.3-1, 1.1.3-0
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +45,16 @@ verifybamid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/verifybamid
+      docker pull quay.io/repository/biocontainers/verifybamid:<tag>
+
+   (see `verifybamid/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_verifybamid| conda:required_by:: verifybamid
 .. |downloads_verifybamid| image:: https://img.shields.io/conda/dn/bioconda/verifybamid.svg?style=flat
    :alt:   (downloads)
 .. |docker_verifybamid| image:: https://quay.io/repository/biocontainers/verifybamid/status
    :target: https://quay.io/repository/biocontainers/verifybamid
+.. _`verifybamid/tags`: https://quay.io/repository/biocontainers/verifybamid?tab=tags
 
 
 
@@ -64,4 +71,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/verifybamid/README.html
-

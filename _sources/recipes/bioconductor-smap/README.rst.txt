@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-smap'
 .. highlight: bash
-
 
 bioconductor-smap
 =================
@@ -22,11 +23,13 @@ bioconductor-smap
 
    |downloads_bioconductor-smap| |docker_bioconductor-smap|
 
-   :versions: 1.46.0, 1.44.0, 1.42.0, 1.40.0
-
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
-
-   :required~by: |required_by_bioconductor-smap|
+   :versions: 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +43,16 @@ bioconductor-smap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-smap
+      docker pull quay.io/repository/biocontainers/bioconductor-smap:<tag>
+
+   (see `bioconductor-smap/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-smap| conda:required_by:: bioconductor-smap
 .. |downloads_bioconductor-smap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-smap.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-smap| image:: https://quay.io/repository/biocontainers/bioconductor-smap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-smap
+.. _`bioconductor-smap/tags`: https://quay.io/repository/biocontainers/bioconductor-smap?tab=tags
 
 
 
@@ -64,4 +69,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-smap/README.html
-

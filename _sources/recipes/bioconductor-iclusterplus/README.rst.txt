@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-iclusterplus'
 .. highlight: bash
-
 
 bioconductor-iclusterplus
 =========================
@@ -22,10 +23,8 @@ bioconductor-iclusterplus
    |downloads_bioconductor-iclusterplus| |docker_bioconductor-iclusterplus|
 
    :versions: 
-
-   :depends: 
-
-   :required~by: |required_by_bioconductor-iclusterplus|
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +38,16 @@ bioconductor-iclusterplus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-iclusterplus
+      docker pull quay.io/repository/biocontainers/bioconductor-iclusterplus:<tag>
+
+   (see `bioconductor-iclusterplus/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-iclusterplus| conda:required_by:: bioconductor-iclusterplus
 .. |downloads_bioconductor-iclusterplus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-iclusterplus.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-iclusterplus| image:: https://quay.io/repository/biocontainers/bioconductor-iclusterplus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-iclusterplus
+.. _`bioconductor-iclusterplus/tags`: https://quay.io/repository/biocontainers/bioconductor-iclusterplus?tab=tags
 
 
 
@@ -63,4 +64,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-iclusterplus/README.html
-

@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-rentrez'
 .. highlight: bash
-
 
 r-rentrez
 =========
@@ -21,11 +22,17 @@ r-rentrez
 
    |downloads_r-rentrez| |docker_r-rentrez|
 
-   :versions: 1.1.0
-
-   :depends: :conda:package:`r-base` 3.3.2* :conda:package:`r-httr` >=0.5 :conda:package:`r-jsonlite` >=0.9 :conda:package:`r-xml`  
-
-   :required~by: |required_by_r-rentrez|
+   :versions: 1.1.0-0
+   
+   :depends r-base: 3.3.2*
+   
+   :depends r-httr: >=0.5
+   
+   :depends r-jsonlite: >=0.9
+   
+   :depends r-xml: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-rentrez
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rentrez
+      docker pull quay.io/repository/biocontainers/r-rentrez:<tag>
+
+   (see `r-rentrez/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-rentrez| conda:required_by:: r-rentrez
 .. |downloads_r-rentrez| image:: https://img.shields.io/conda/dn/bioconda/r-rentrez.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-rentrez| image:: https://quay.io/repository/biocontainers/r-rentrez/status
    :target: https://quay.io/repository/biocontainers/r-rentrez
+.. _`r-rentrez/tags`: https://quay.io/repository/biocontainers/r-rentrez?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-rentrez/README.html
-

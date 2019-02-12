@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'minced'
 .. highlight: bash
-
 
 minced
 ======
@@ -21,11 +22,11 @@ minced
 
    |downloads_minced| |docker_minced|
 
-   :versions: 0.3.2, 0.3.0, 0.2.0
-
-   :depends: :conda:package:`openjdk`  
-
-   :required~by: |required_by_minced|
+   :versions: 0.3.2-0, 0.3.0-1, 0.3.0-0, 0.2.0-2, 0.2.0-1, 0.2.0-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ minced
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/minced
+      docker pull quay.io/repository/biocontainers/minced:<tag>
+
+   (see `minced/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_minced| conda:required_by:: minced
 .. |downloads_minced| image:: https://img.shields.io/conda/dn/bioconda/minced.svg?style=flat
    :alt:   (downloads)
 .. |docker_minced| image:: https://quay.io/repository/biocontainers/minced/status
    :target: https://quay.io/repository/biocontainers/minced
+.. _`minced/tags`: https://quay.io/repository/biocontainers/minced?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/minced/README.html
-

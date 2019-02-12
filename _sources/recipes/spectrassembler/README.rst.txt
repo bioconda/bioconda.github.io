@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'spectrassembler'
 .. highlight: bash
-
 
 spectrassembler
 ===============
@@ -21,11 +22,23 @@ spectrassembler
 
    |downloads_spectrassembler| |docker_spectrassembler|
 
-   :versions: 0.0.1a1
-
-   :depends: :conda:package:`biopython`  :conda:package:`bwa`  :conda:package:`minimap`  :conda:package:`numpy`  :conda:package:`poa`  :conda:package:`python` 2.7* :conda:package:`scipy`  
-
-   :required~by: |required_by_spectrassembler|
+   :versions: 0.0.1a1-2, 0.0.1a1-1, 0.0.1a1-0
+   
+   :depends biopython: 
+   
+   :depends bwa: 
+   
+   :depends minimap: 
+   
+   :depends numpy: 
+   
+   :depends poa: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scipy: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +52,16 @@ spectrassembler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spectrassembler
+      docker pull quay.io/repository/biocontainers/spectrassembler:<tag>
+
+   (see `spectrassembler/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_spectrassembler| conda:required_by:: spectrassembler
 .. |downloads_spectrassembler| image:: https://img.shields.io/conda/dn/bioconda/spectrassembler.svg?style=flat
    :alt:   (downloads)
 .. |docker_spectrassembler| image:: https://quay.io/repository/biocontainers/spectrassembler/status
    :target: https://quay.io/repository/biocontainers/spectrassembler
+.. _`spectrassembler/tags`: https://quay.io/repository/biocontainers/spectrassembler?tab=tags
 
 
 
@@ -63,4 +78,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/spectrassembler/README.html
-

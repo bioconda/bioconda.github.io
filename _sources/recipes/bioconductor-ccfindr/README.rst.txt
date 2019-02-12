@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-ccfindr'
 .. highlight: bash
-
 
 bioconductor-ccfindr
 ====================
@@ -21,11 +22,43 @@ bioconductor-ccfindr
 
    |downloads_bioconductor-ccfindr| |docker_bioconductor-ccfindr|
 
-   :versions: 1.2.0
-
-   :depends: :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`gsl` >=2.4,<2.5.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`openblas` >=0.3.3,<0.3.4.0a0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gtools`  :conda:package:`r-irlba`  :conda:package:`r-matrix`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp`  :conda:package:`r-rcppeigen`  :conda:package:`r-rmpi`  :conda:package:`r-rtsne`  
-
-   :required~by: |required_by_bioconductor-ccfindr|
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends gsl: >=2.4,<2.5.0a0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends openblas: >=0.3.3,<0.3.4.0a0
+   
+   :depends r-ape: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gtools: 
+   
+   :depends r-irlba: 
+   
+   :depends r-matrix: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-rcppeigen: 
+   
+   :depends r-rmpi: 
+   
+   :depends r-rtsne: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +72,16 @@ bioconductor-ccfindr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ccfindr
+      docker pull quay.io/repository/biocontainers/bioconductor-ccfindr:<tag>
+
+   (see `bioconductor-ccfindr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-ccfindr| conda:required_by:: bioconductor-ccfindr
 .. |downloads_bioconductor-ccfindr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ccfindr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-ccfindr| image:: https://quay.io/repository/biocontainers/bioconductor-ccfindr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ccfindr
+.. _`bioconductor-ccfindr/tags`: https://quay.io/repository/biocontainers/bioconductor-ccfindr?tab=tags
 
 
 
@@ -63,4 +98,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-ccfindr/README.html
-

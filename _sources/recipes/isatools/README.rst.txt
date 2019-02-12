@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'isatools'
 .. highlight: bash
-
 
 isatools
 ========
@@ -21,11 +22,37 @@ isatools
 
    |downloads_isatools| |docker_isatools|
 
-   :versions: 0.10.3, 0.10.2, 0.10.0, 0.9.5, 0.9.4, 0.9.3
-
-   :depends: :conda:package:`beautifulsoup4`  :conda:package:`biopython`  :conda:package:`chardet`  :conda:package:`iso8601`  :conda:package:`jinja2`  :conda:package:`jsonschema`  :conda:package:`lxml`  :conda:package:`mzml2isa`  :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`progressbar2`  :conda:package:`python` >=3 :conda:package:`requests`  
-
-   :required~by: |required_by_isatools|
+   :versions: 0.10.3-0, 0.10.2-0, 0.10.0-1, 0.10.0-0, 0.9.5-0, 0.9.4-0, 0.9.3-0
+   
+   :depends beautifulsoup4: 
+   
+   :depends biopython: 
+   
+   :depends chardet: 
+   
+   :depends iso8601: 
+   
+   :depends jinja2: 
+   
+   :depends jsonschema: 
+   
+   :depends lxml: 
+   
+   :depends mzml2isa: 
+   
+   :depends networkx: 
+   
+   :depends numpy: 
+   
+   :depends pandas: 
+   
+   :depends progressbar2: 
+   
+   :depends python: >=3
+   
+   :depends requests: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +66,16 @@ isatools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/isatools
+      docker pull quay.io/repository/biocontainers/isatools:<tag>
+
+   (see `isatools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_isatools| conda:required_by:: isatools
 .. |downloads_isatools| image:: https://img.shields.io/conda/dn/bioconda/isatools.svg?style=flat
    :alt:   (downloads)
 .. |docker_isatools| image:: https://quay.io/repository/biocontainers/isatools/status
    :target: https://quay.io/repository/biocontainers/isatools
+.. _`isatools/tags`: https://quay.io/repository/biocontainers/isatools?tab=tags
 
 
 
@@ -63,4 +92,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/isatools/README.html
-

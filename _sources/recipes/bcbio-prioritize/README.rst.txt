@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bcbio-prioritize'
 .. highlight: bash
-
 
 bcbio-prioritize
 ================
@@ -21,11 +22,11 @@ bcbio-prioritize
 
    |downloads_bcbio-prioritize| |docker_bcbio-prioritize|
 
-   :versions: 0.0.8, 0.0.7, 0.0.6, 0.0.5, 0.0.4, 0.0.2
-
-   :depends: :conda:package:`java-jdk`  
-
-   :required~by: |required_by_bcbio-prioritize|
+   :versions: 0.0.8-2, 0.0.8-1, 0.0.8-0, 0.0.7-0, 0.0.6-1, 0.0.5-1, 0.0.5-0, 0.0.4-0, 0.0.2-0
+   
+   :depends openjdk: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +40,16 @@ bcbio-prioritize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcbio-prioritize
+      docker pull quay.io/repository/biocontainers/bcbio-prioritize:<tag>
+
+   (see `bcbio-prioritize/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bcbio-prioritize| conda:required_by:: bcbio-prioritize
 .. |downloads_bcbio-prioritize| image:: https://img.shields.io/conda/dn/bioconda/bcbio-prioritize.svg?style=flat
    :alt:   (downloads)
 .. |docker_bcbio-prioritize| image:: https://quay.io/repository/biocontainers/bcbio-prioritize/status
    :target: https://quay.io/repository/biocontainers/bcbio-prioritize
+.. _`bcbio-prioritize/tags`: https://quay.io/repository/biocontainers/bcbio-prioritize?tab=tags
 
 
 
@@ -63,4 +66,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bcbio-prioritize/README.html
-

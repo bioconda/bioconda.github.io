@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'r-nabor'
 .. highlight: bash
-
 
 r-nabor
 =======
@@ -21,11 +22,17 @@ r-nabor
 
    |downloads_r-nabor| |docker_r-nabor|
 
-   :versions: 0.5.0
-
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-bh`  :conda:package:`r-rcpp`  :conda:package:`r-rcppeigen`  
-
-   :required~by: |required_by_r-nabor|
+   :versions: 0.5.0-1, 0.5.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-bh: 
+   
+   :depends r-rcpp: 
+   
+   :depends r-rcppeigen: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +46,16 @@ r-nabor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-nabor
+      docker pull quay.io/repository/biocontainers/r-nabor:<tag>
+
+   (see `r-nabor/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_r-nabor| conda:required_by:: r-nabor
 .. |downloads_r-nabor| image:: https://img.shields.io/conda/dn/bioconda/r-nabor.svg?style=flat
    :alt:   (downloads)
 .. |docker_r-nabor| image:: https://quay.io/repository/biocontainers/r-nabor/status
    :target: https://quay.io/repository/biocontainers/r-nabor
+.. _`r-nabor/tags`: https://quay.io/repository/biocontainers/r-nabor?tab=tags
 
 
 
@@ -63,4 +72,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/r-nabor/README.html
-

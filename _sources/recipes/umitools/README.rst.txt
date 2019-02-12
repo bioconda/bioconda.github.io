@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'umitools'
 .. highlight: bash
-
 
 umitools
 ========
@@ -22,11 +23,17 @@ umitools
 
    |downloads_umitools| |docker_umitools|
 
-   :versions: 0.3.4, 0.3.0
-
-   :depends: :conda:package:`editdistance`  :conda:package:`networkx`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 
-
-   :required~by: |required_by_umitools|
+   :versions: 0.3.4-0, 0.3.0-1, 0.3.0-0
+   
+   :depends editdistance: 
+   
+   :depends networkx: 
+   
+   :depends pysam: 
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +47,16 @@ umitools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/umitools
+      docker pull quay.io/repository/biocontainers/umitools:<tag>
+
+   (see `umitools/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_umitools| conda:required_by:: umitools
 .. |downloads_umitools| image:: https://img.shields.io/conda/dn/bioconda/umitools.svg?style=flat
    :alt:   (downloads)
 .. |docker_umitools| image:: https://quay.io/repository/biocontainers/umitools/status
    :target: https://quay.io/repository/biocontainers/umitools
+.. _`umitools/tags`: https://quay.io/repository/biocontainers/umitools?tab=tags
 
 
 
@@ -64,4 +73,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/umitools/README.html
-

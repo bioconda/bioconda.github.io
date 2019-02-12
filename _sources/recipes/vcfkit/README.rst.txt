@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'vcfkit'
 .. highlight: bash
-
 
 vcfkit
 ======
@@ -21,11 +22,41 @@ vcfkit
 
    |downloads_vcfkit| |docker_vcfkit|
 
-   :versions: 0.1.6, 0.0.4
-
-   :depends: :conda:package:`awesome-slugify`  :conda:package:`biopython`  :conda:package:`clint`  :conda:package:`cython`  :conda:package:`cyvcf2` >=0.1.9 :conda:package:`docopt`  :conda:package:`intervaltree`  :conda:package:`jinja2`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pytest-runner`  :conda:package:`python` 2.7* :conda:package:`requests`  :conda:package:`scipy`  :conda:package:`tabulate`  :conda:package:`yahmm`  :conda:package:`yahmm`  
-
-   :required~by: |required_by_vcfkit|
+   :versions: 0.1.6-2, 0.1.6-0, 0.0.4-0
+   
+   :depends awesome-slugify: 
+   
+   :depends biopython: 
+   
+   :depends clint: 
+   
+   :depends cython: 
+   
+   :depends cyvcf2: >=0.1.9
+   
+   :depends docopt: 
+   
+   :depends intervaltree: 
+   
+   :depends jinja2: 
+   
+   :depends matplotlib: 
+   
+   :depends numpy: 
+   
+   :depends pytest-runner: 
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends requests: 
+   
+   :depends scipy: 
+   
+   :depends tabulate: 
+   
+   :depends yahmm: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ vcfkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcfkit
+      docker pull quay.io/repository/biocontainers/vcfkit:<tag>
+
+   (see `vcfkit/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_vcfkit| conda:required_by:: vcfkit
 .. |downloads_vcfkit| image:: https://img.shields.io/conda/dn/bioconda/vcfkit.svg?style=flat
    :alt:   (downloads)
 .. |docker_vcfkit| image:: https://quay.io/repository/biocontainers/vcfkit/status
    :target: https://quay.io/repository/biocontainers/vcfkit
+.. _`vcfkit/tags`: https://quay.io/repository/biocontainers/vcfkit?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/vcfkit/README.html
-

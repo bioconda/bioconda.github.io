@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-dmelsgi'
 .. highlight: bash
-
 
 bioconductor-dmelsgi
 ====================
@@ -21,11 +22,27 @@ bioconductor-dmelsgi
 
    |downloads_bioconductor-dmelsgi| |docker_bioconductor-dmelsgi|
 
-   :versions: 1.14.0
-
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-rhdf5` >=2.26.0,<2.27.0 :conda:package:`r-abind`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-igraph`  :conda:package:`r-knitr`  :conda:package:`r-tsp`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-dmelsgi|
+   :versions: 1.14.0-0
+   
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   
+   :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
+   
+   :depends r-abind: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-gplots: 
+   
+   :depends r-igraph: 
+   
+   :depends r-knitr: 
+   
+   :depends r-tsp: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +56,16 @@ bioconductor-dmelsgi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dmelsgi
+      docker pull quay.io/repository/biocontainers/bioconductor-dmelsgi:<tag>
+
+   (see `bioconductor-dmelsgi/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-dmelsgi| conda:required_by:: bioconductor-dmelsgi
 .. |downloads_bioconductor-dmelsgi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dmelsgi.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-dmelsgi| image:: https://quay.io/repository/biocontainers/bioconductor-dmelsgi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dmelsgi
+.. _`bioconductor-dmelsgi/tags`: https://quay.io/repository/biocontainers/bioconductor-dmelsgi?tab=tags
 
 
 
@@ -63,4 +82,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-dmelsgi/README.html
-

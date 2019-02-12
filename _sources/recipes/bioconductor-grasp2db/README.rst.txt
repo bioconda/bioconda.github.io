@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-grasp2db'
 .. highlight: bash
-
 
 bioconductor-grasp2db
 =====================
@@ -21,11 +22,25 @@ bioconductor-grasp2db
 
    |downloads_bioconductor-grasp2db| |docker_bioconductor-grasp2db|
 
-   :versions: 1.1.0
-
-   :depends: :conda:package:`bioconductor-annotationhub` >=2.14.0,<2.15.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbplyr`  :conda:package:`r-digest`  :conda:package:`r-dplyr`  :conda:package:`r-rsqlite`  :conda:package:`wget`  
-
-   :required~by: |required_by_bioconductor-grasp2db|
+   :versions: 1.1.0-0
+   
+   :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
+   
+   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-dbplyr: 
+   
+   :depends r-digest: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-rsqlite: 
+   
+   :depends wget: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +54,16 @@ bioconductor-grasp2db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-grasp2db
+      docker pull quay.io/repository/biocontainers/bioconductor-grasp2db:<tag>
+
+   (see `bioconductor-grasp2db/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-grasp2db| conda:required_by:: bioconductor-grasp2db
 .. |downloads_bioconductor-grasp2db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-grasp2db.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-grasp2db| image:: https://quay.io/repository/biocontainers/bioconductor-grasp2db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-grasp2db
+.. _`bioconductor-grasp2db/tags`: https://quay.io/repository/biocontainers/bioconductor-grasp2db?tab=tags
 
 
 
@@ -63,4 +80,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-grasp2db/README.html
-

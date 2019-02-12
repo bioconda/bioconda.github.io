@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'bioconductor-perturbatr'
 .. highlight: bash
-
 
 bioconductor-perturbatr
 =======================
@@ -21,11 +22,41 @@ bioconductor-perturbatr
 
    |downloads_bioconductor-perturbatr| |docker_bioconductor-perturbatr|
 
-   :versions: 1.2.1
-
-   :depends: :conda:package:`r-assertthat`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-diffusr`  :conda:package:`r-doparallel`  :conda:package:`r-dplyr`  :conda:package:`r-foreach`  :conda:package:`r-formula.tools`  :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-lazyeval`  :conda:package:`r-lme4`  :conda:package:`r-magrittr`  :conda:package:`r-rlang`  :conda:package:`r-scales`  :conda:package:`r-tibble`  :conda:package:`r-tidyr`  
-
-   :required~by: |required_by_bioconductor-perturbatr|
+   :versions: 1.2.1-0
+   
+   :depends r-assertthat: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-diffusr: 
+   
+   :depends r-doparallel: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-foreach: 
+   
+   :depends r-formula.tools: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-igraph: 
+   
+   :depends r-lazyeval: 
+   
+   :depends r-lme4: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-rlang: 
+   
+   :depends r-scales: 
+   
+   :depends r-tibble: 
+   
+   :depends r-tidyr: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +70,16 @@ bioconductor-perturbatr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-perturbatr
+      docker pull quay.io/repository/biocontainers/bioconductor-perturbatr:<tag>
+
+   (see `bioconductor-perturbatr/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_bioconductor-perturbatr| conda:required_by:: bioconductor-perturbatr
 .. |downloads_bioconductor-perturbatr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-perturbatr.svg?style=flat
    :alt:   (downloads)
 .. |docker_bioconductor-perturbatr| image:: https://quay.io/repository/biocontainers/bioconductor-perturbatr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-perturbatr
+.. _`bioconductor-perturbatr/tags`: https://quay.io/repository/biocontainers/bioconductor-perturbatr?tab=tags
 
 
 
@@ -63,4 +96,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/bioconductor-perturbatr/README.html
-

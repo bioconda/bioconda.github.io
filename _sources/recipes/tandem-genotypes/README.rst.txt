@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'tandem-genotypes'
 .. highlight: bash
-
 
 tandem-genotypes
 ================
@@ -21,11 +22,13 @@ tandem-genotypes
 
    |downloads_tandem-genotypes| |docker_tandem-genotypes|
 
-   :versions: 1.4.0, 1.2.0
-
-   :depends: :conda:package:`python`  :conda:package:`r-base`  
-
-   :required~by: |required_by_tandem-genotypes|
+   :versions: 1.4.0-0, 1.2.0-0
+   
+   :depends python: 
+   
+   :depends r-base: 
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +42,16 @@ tandem-genotypes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tandem-genotypes
+      docker pull quay.io/repository/biocontainers/tandem-genotypes:<tag>
+
+   (see `tandem-genotypes/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_tandem-genotypes| conda:required_by:: tandem-genotypes
 .. |downloads_tandem-genotypes| image:: https://img.shields.io/conda/dn/bioconda/tandem-genotypes.svg?style=flat
    :alt:   (downloads)
 .. |docker_tandem-genotypes| image:: https://quay.io/repository/biocontainers/tandem-genotypes/status
    :target: https://quay.io/repository/biocontainers/tandem-genotypes
+.. _`tandem-genotypes/tags`: https://quay.io/repository/biocontainers/tandem-genotypes?tab=tags
 
 
 
@@ -63,4 +68,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/tandem-genotypes/README.html
-

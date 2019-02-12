@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'igv'
 .. highlight: bash
-
 
 igv
 ===
@@ -22,11 +23,11 @@ igv
 
    |downloads_igv| |docker_igv|
 
-   :versions: 2.4.17, 2.4.16, 2.4.9, 2.4.6, 2.3.98
-
-   :depends: :conda:package:`openjdk` >=8.0,<9 
-
-   :required~by: |required_by_igv|
+   :versions: 2.4.17-0, 2.4.16-0, 2.4.9-1, 2.4.9-0, 2.4.6-0, 2.3.98-0
+   
+   :depends openjdk: >=8.0,<9
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -40,14 +41,16 @@ igv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/igv
+      docker pull quay.io/repository/biocontainers/igv:<tag>
+
+   (see `igv/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_igv| conda:required_by:: igv
 .. |downloads_igv| image:: https://img.shields.io/conda/dn/bioconda/igv.svg?style=flat
    :alt:   (downloads)
 .. |docker_igv| image:: https://quay.io/repository/biocontainers/igv/status
    :target: https://quay.io/repository/biocontainers/igv
+.. _`igv/tags`: https://quay.io/repository/biocontainers/igv?tab=tags
 
 
 
@@ -64,4 +67,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/igv/README.html
-

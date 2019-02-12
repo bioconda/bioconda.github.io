@@ -1,6 +1,7 @@
+:orphan:  .. only available via index, not via toctree
+
 .. title:: Package Recipe 'neurodocker'
 .. highlight: bash
-
 
 neurodocker
 ===========
@@ -21,11 +22,15 @@ neurodocker
 
    |downloads_neurodocker| |docker_neurodocker|
 
-   :versions: 0.4.3, 0.4.2, 0.4.1
-
-   :depends: :conda:package:`jinja2` >=2.0 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`pyyaml` >=3.0 
-
-   :required~by: |required_by_neurodocker|
+   :versions: 0.4.3-0, 0.4.2-0, 0.4.1-0
+   
+   :depends jinja2: >=2.0
+   
+   :depends python: >=3.5,<3.6.0a0
+   
+   :depends pyyaml: >=3.0
+   
+   :requirements:
 
    .. rubric:: Installation
 
@@ -39,14 +44,16 @@ neurodocker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/neurodocker
+      docker pull quay.io/repository/biocontainers/neurodocker:<tag>
+
+   (see `neurodocker/tags`_ for valid values for ``<tag>``)
 
 
-.. |required_by_neurodocker| conda:required_by:: neurodocker
 .. |downloads_neurodocker| image:: https://img.shields.io/conda/dn/bioconda/neurodocker.svg?style=flat
    :alt:   (downloads)
 .. |docker_neurodocker| image:: https://quay.io/repository/biocontainers/neurodocker/status
    :target: https://quay.io/repository/biocontainers/neurodocker
+.. _`neurodocker/tags`: https://quay.io/repository/biocontainers/neurodocker?tab=tags
 
 
 
@@ -63,4 +70,3 @@ Render an |install-with-bioconda| badge with the following MarkDown::
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
    :target: http://bioconda.github.io/recipes/neurodocker/README.html
-
