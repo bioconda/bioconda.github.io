@@ -23,7 +23,7 @@ ngshmmalign
 
    :versions: 0.1.1
 
-   :depends: :conda:package:`boost` ==1.63.0 :conda:package:`libcxx`  
+   :depends: :conda:package:`boost` ==1.63.0 :conda:package:`libgcc`  
 
    :required~by: |required_by_ngshmmalign|
 

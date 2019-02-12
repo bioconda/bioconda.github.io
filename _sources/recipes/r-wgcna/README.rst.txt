@@ -24,7 +24,7 @@ r-wgcna
 
    :versions: 1.66, 1.64_1, 1.61, 1.51
 
-   :depends: :conda:package:`bioconductor-annotationdbi`  :conda:package:`bioconductor-go.db`  :conda:package:`bioconductor-impute`  :conda:package:`bioconductor-preprocesscore`  :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-dynamictreecut` >=1.62 :conda:package:`r-fastcluster`  :conda:package:`r-foreach`  :conda:package:`r-hmisc`  :conda:package:`r-matrixstats` >=0.8.1 :conda:package:`r-rcpp` >=0.11.0 :conda:package:`r-robust`  :conda:package:`r-survival`  
+   :depends: :conda:package:`bioconductor-annotationdbi`  :conda:package:`bioconductor-go.db`  :conda:package:`bioconductor-impute`  :conda:package:`bioconductor-preprocesscore`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-dynamictreecut` >=1.62 :conda:package:`r-fastcluster`  :conda:package:`r-foreach`  :conda:package:`r-hmisc`  :conda:package:`r-matrixstats` >=0.8.1 :conda:package:`r-rcpp` >=0.11.0 :conda:package:`r-robust`  :conda:package:`r-survival`  
 
    :required~by: |required_by_r-wgcna|
 

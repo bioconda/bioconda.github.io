@@ -23,7 +23,7 @@ bioconductor-nethet
 
    :versions: 1.14.0
 
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-multtest` >=2.38.0,<2.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-compquadform`  :conda:package:`r-genenet`  :conda:package:`r-ggm`  :conda:package:`r-ggplot2`  :conda:package:`r-glasso`  :conda:package:`r-glmnet`  :conda:package:`r-gsa`  :conda:package:`r-huge`  :conda:package:`r-icsnp`  :conda:package:`r-mclust`  :conda:package:`r-mvtnorm`  :conda:package:`r-network`  :conda:package:`r-parcor`  
+   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-multtest` >=2.38.0,<2.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-compquadform`  :conda:package:`r-genenet`  :conda:package:`r-ggm`  :conda:package:`r-ggplot2`  :conda:package:`r-glasso`  :conda:package:`r-glmnet`  :conda:package:`r-gsa`  :conda:package:`r-huge`  :conda:package:`r-icsnp`  :conda:package:`r-mclust`  :conda:package:`r-mvtnorm`  :conda:package:`r-network`  :conda:package:`r-parcor`  
 
    :required~by: |required_by_bioconductor-nethet|
 

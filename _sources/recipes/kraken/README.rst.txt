@@ -24,7 +24,7 @@ kraken
 
    :versions: 1.1, 1.0, 0.10.6_eaf8fb68, 0.10.5beta
 
-   :depends: :conda:package:`jellyfish` 1.* :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* 
+   :depends: :conda:package:`jellyfish` 1.* :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  
 
    :required~by: |required_by_kraken|
 

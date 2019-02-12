@@ -23,7 +23,7 @@ bpp-seq
 
    :versions: 2.4.1, 2.2.0
 
-   :depends: :conda:package:`bpp-core`  
+   :depends: :conda:package:`bpp-core`  :conda:package:`libgcc-ng` >=4.9 
 
    :required~by: |required_by_bpp-seq|
 

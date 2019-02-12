@@ -23,7 +23,7 @@ quicktree
 
    :versions: 2.4, 2.2
 
-   :depends: 
+   :depends: :conda:package:`libgcc-ng` >=4.9 
 
    :required~by: |required_by_quicktree|
 

@@ -24,7 +24,7 @@ bioconductor-minet
 
    :versions: 3.40.0, 3.38.0, 3.36.0
 
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-infotheo`  
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-infotheo`  
 
    :required~by: |required_by_bioconductor-minet|
 

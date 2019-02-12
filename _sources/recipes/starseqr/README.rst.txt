@@ -23,7 +23,7 @@ starseqr
 
    :versions: 0.6.7, 0.6.6, 0.6.3, 0.5.0
 
-   :depends: :conda:package:`cython`  :conda:package:`gffread`  :conda:package:`intervaltree_bio`  :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`pandas` >=0.18.1 :conda:package:`primer3-py`  :conda:package:`pysam` >=0.9.1.4 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`six`  
+   :depends: :conda:package:`cython`  :conda:package:`gffread`  :conda:package:`intervaltree_bio`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`pandas` >=0.18.1 :conda:package:`primer3-py`  :conda:package:`pysam` >=0.9.1.4 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`six`  
 
    :required~by: |required_by_starseqr|
 

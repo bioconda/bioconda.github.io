@@ -23,7 +23,7 @@ detonate
 
    :versions: 1.11
 
-   :depends: :conda:package:`boost` 1.60* :conda:package:`ncurses`  :conda:package:`perl-threaded`  :conda:package:`samtools` 0.1.18 :conda:package:`zlib`  
+   :depends: :conda:package:`boost` 1.60* :conda:package:`libgcc`  :conda:package:`ncurses`  :conda:package:`perl-threaded`  :conda:package:`samtools` 0.1.18 :conda:package:`zlib`  
 
    :required~by: |required_by_detonate|
 

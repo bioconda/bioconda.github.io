@@ -23,7 +23,7 @@ bioconductor-phenopath
 
    :versions: 1.6.0
 
-   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-rcpp` >=0.12.8 :conda:package:`r-tibble`  :conda:package:`r-tidyr`  
+   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-rcpp` >=0.12.8 :conda:package:`r-tibble`  :conda:package:`r-tidyr`  
 
    :required~by: |required_by_bioconductor-phenopath|
 

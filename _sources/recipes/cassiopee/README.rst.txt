@@ -23,7 +23,7 @@ cassiopee
 
    :versions: 1.0.5
 
-   :depends: :conda:package:`boost` ==1.64 :conda:package:`bzip2` 1.0.* :conda:package:`glog`  :conda:package:`icu` 58.* :conda:package:`zlib` ==1.2.8 
+   :depends: :conda:package:`boost` ==1.64 :conda:package:`bzip2` 1.0.* :conda:package:`glog`  :conda:package:`icu` 58.* :conda:package:`libgcc`  :conda:package:`zlib` ==1.2.8 
 
    :required~by: |required_by_cassiopee|
 

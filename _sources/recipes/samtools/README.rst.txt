@@ -24,7 +24,7 @@ samtools
 
    :versions: 1.9, 1.8, 1.7, 1.6, 1.5, 1.4.1, 1.4, 1.3.1, 1.3, 1.2, 1.2.rglab, 1.1, 1.0, 0.1.19, 0.1.18, 0.1.17, 0.1.16, 0.1.15, 0.1.14, 0.1.13, 0.1.12
 
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`libdeflate` >=1.0,<1.1.0a0 :conda:package:`ncurses` >=6.1,<6.2.0a0 :conda:package:`openssl` >=1.0.2p,<1.0.3a :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`libdeflate`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`ncurses` >=5.9,<5.10.0a0 :conda:package:`xz` >=5.2.3,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_samtools|
 

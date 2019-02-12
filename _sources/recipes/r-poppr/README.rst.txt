@@ -23,7 +23,7 @@ r-poppr
 
    :versions: 2.8.1
 
-   :depends: :conda:package:`r-ade4`  :conda:package:`r-adegenet`  :conda:package:`r-ape`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-boot`  :conda:package:`r-cowplot`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-knitr`  :conda:package:`r-magrittr`  :conda:package:`r-pegas`  :conda:package:`r-phangorn`  :conda:package:`r-polysat`  :conda:package:`r-rlang`  :conda:package:`r-rmarkdown`  :conda:package:`r-shiny`  :conda:package:`r-testthat`  :conda:package:`r-vegan`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-ade4`  :conda:package:`r-adegenet`  :conda:package:`r-ape`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-boot`  :conda:package:`r-cowplot`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-knitr`  :conda:package:`r-magrittr`  :conda:package:`r-pegas`  :conda:package:`r-phangorn`  :conda:package:`r-polysat`  :conda:package:`r-rlang`  :conda:package:`r-rmarkdown`  :conda:package:`r-shiny`  :conda:package:`r-testthat`  :conda:package:`r-vegan`  
 
    :required~by: |required_by_r-poppr|
 

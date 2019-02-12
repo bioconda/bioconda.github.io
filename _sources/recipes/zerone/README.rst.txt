@@ -23,7 +23,7 @@ zerone
 
    :versions: 1.0
 
-   :depends: :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_zerone|
 

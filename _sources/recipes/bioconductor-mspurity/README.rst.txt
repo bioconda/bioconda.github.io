@@ -24,7 +24,7 @@ bioconductor-mspurity
 
    :versions: 1.8.0, 1.5.4, 1.4.0, 1.3.9
 
-   :depends: :conda:package:`bioconductor-mzr` >=2.16.0,<2.17.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-dosnow`  :conda:package:`r-fastcluster`  :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-plyr`  :conda:package:`r-rcpp`  :conda:package:`r-reshape2`  :conda:package:`r-rsqlite`  :conda:package:`r-stringr`  
+   :depends: :conda:package:`bioconductor-mzr` >=2.16.0,<2.17.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-dosnow`  :conda:package:`r-fastcluster`  :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-plyr`  :conda:package:`r-rcpp`  :conda:package:`r-reshape2`  :conda:package:`r-rsqlite`  :conda:package:`r-stringr`  
 
    :required~by: |required_by_bioconductor-mspurity|
 

@@ -23,7 +23,7 @@ bioconductor-ibbig
 
    :versions: 1.26.0
 
-   :depends: :conda:package:`r-ade4`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biclust`  :conda:package:`r-xtable`  
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-ade4`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biclust`  :conda:package:`r-xtable`  
 
    :required~by: |required_by_bioconductor-ibbig|
 

@@ -24,7 +24,7 @@ collect_mgf
 
    :versions: 1.0
 
-   :depends: 
+   :depends: :conda:package:`libgcc-ng` >=4.9 
 
    :required~by: |required_by_collect_mgf|
 

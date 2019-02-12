@@ -23,7 +23,7 @@ sqt
 
    :versions: 0.8.0, 0.7.0, 0.6.3, 0.6.1
 
-   :depends: :conda:package:`cutadapt`  :conda:package:`matplotlib`  :conda:package:`pysam`  :conda:package:`python` 3.4* :conda:package:`seaborn`  :conda:package:`xopen`  
+   :depends: :conda:package:`cutadapt`  :conda:package:`libgcc`  :conda:package:`matplotlib`  :conda:package:`pysam`  :conda:package:`python` 3.4* :conda:package:`seaborn`  :conda:package:`xopen`  
 
    :required~by: |required_by_sqt|
 

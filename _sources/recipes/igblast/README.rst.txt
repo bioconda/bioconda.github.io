@@ -24,7 +24,7 @@ igblast
 
    :versions: 1.10.0, 1.9.0, 1.7.0, 1.5.0, 1.4.0
 
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`gnutls`  :conda:package:`libidn11`  :conda:package:`libxml2` >=2.9.8,<2.10.0a0 :conda:package:`perl`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libidn11`  :conda:package:`libxml2` >=2.9.8,<2.10.0a0 :conda:package:`perl`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_igblast|
 

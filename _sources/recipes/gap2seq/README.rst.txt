@@ -23,7 +23,7 @@ gap2seq
 
    :versions: 2.1, 2.0
 
-   :depends: :conda:package:`boost` ==1.63.0 :conda:package:`libcxx`  :conda:package:`zlib`  
+   :depends: :conda:package:`boost` 1.61* :conda:package:`libgcc`  :conda:package:`zlib`  
 
    :required~by: |required_by_gap2seq|
 

@@ -24,7 +24,7 @@ bioconductor-harman
 
    :versions: 1.10.0, 1.8.0, 1.6.0
 
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp` >=0.11.2 
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp` >=0.11.2 
 
    :required~by: |required_by_bioconductor-harman|
 

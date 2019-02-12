@@ -23,7 +23,7 @@ ncbi-ngs-sdk
 
    :versions: 2.9.3, 2.9.1, 2.9.0
 
-   :depends: :conda:package:`libiconv` >=1.15,<1.16.0a0 :conda:package:`libxml2` >=2.9.8,<2.10.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libiconv` >=1.15,<1.16.0a0 :conda:package:`libxml2` >=2.9.8,<2.10.0a0 
 
    :required~by: |required_by_ncbi-ngs-sdk|
 

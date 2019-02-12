@@ -23,7 +23,7 @@ bioconductor-rtandem
 
    :versions: 1.22.1, 1.22.0
 
-   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table` >=1.8.8 :conda:package:`r-rcpp`  :conda:package:`r-xml`  
+   :depends: :conda:package:`expat` >=2.2.5,<2.3.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table` >=1.8.8 :conda:package:`r-rcpp`  :conda:package:`r-xml`  
 
    :required~by: |required_by_bioconductor-rtandem|
 

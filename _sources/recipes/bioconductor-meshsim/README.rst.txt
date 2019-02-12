@@ -24,7 +24,7 @@ bioconductor-meshsim
 
    :versions: 1.7.0
 
-   :depends: :conda:package:`r-base` >=3.0.0 :conda:package:`r-rcurl`  :conda:package:`r-xml`  
+   :depends: :conda:package:`r-base` 3.3.2* :conda:package:`r-rcurl`  :conda:package:`r-xml`  
 
    :required~by: |required_by_bioconductor-meshsim|
 

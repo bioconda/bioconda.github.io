@@ -23,7 +23,7 @@ r-vcfr
 
    :versions: 1.8.0, 1.5.0
 
-   :depends: :conda:package:`r-ape`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-magrittr`  :conda:package:`r-memuse`  :conda:package:`r-pinfsc50`  :conda:package:`r-rcpp`  :conda:package:`r-stringr`  :conda:package:`r-tibble`  :conda:package:`r-vegan`  :conda:package:`r-viridislite`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-ape`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-magrittr`  :conda:package:`r-memuse`  :conda:package:`r-pinfsc50`  :conda:package:`r-rcpp`  :conda:package:`r-stringr`  :conda:package:`r-tibble`  :conda:package:`r-vegan`  :conda:package:`r-viridislite`  
 
    :required~by: |required_by_r-vcfr|
 

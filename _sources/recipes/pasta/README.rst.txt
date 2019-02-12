@@ -23,7 +23,7 @@ pasta
 
    :versions: 1.7.8, 0.2
 
-   :depends: :conda:package:`dendropy` 4.1.0 py27_0 :conda:package:`java-jdk` >=6 :conda:package:`pcre`  :conda:package:`pymongo` 3.3.0 py27_0 :conda:package:`python` >=2.7,<3 
+   :depends: :conda:package:`dendropy` 4.1.0 py27_0 :conda:package:`java-jdk` >=6 :conda:package:`libgcc`  :conda:package:`pcre`  :conda:package:`pymongo` 3.3.0 py27_0 :conda:package:`python` >=2.7,<3 
 
    :required~by: |required_by_pasta|
 

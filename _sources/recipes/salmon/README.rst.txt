@@ -23,7 +23,7 @@ salmon
 
    :versions: 0.12.0, 0.11.3, 0.11.2, 0.11.1, 0.11.0, 0.10.2, 0.10.1, 0.10.0, 0.9.1, 0.9.0, 0.8.2, 0.8.1, 0.8.0, 0.7.2, 0.6.0, 0.5.1
 
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`icu` >=58.2,<59.0a0 :conda:package:`jemalloc` >=5.1.0 :conda:package:`libboost`  :conda:package:`libcxx` >=4.0.1 :conda:package:`tbb` >=2019.3 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`icu` >=58.2,<59.0a0 :conda:package:`jemalloc` >=5.1.0 :conda:package:`libboost`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`tbb` >=2019.3 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_salmon|
 

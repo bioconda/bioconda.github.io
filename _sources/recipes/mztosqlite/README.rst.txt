@@ -21,9 +21,9 @@ mztosqlite
 
    |downloads_mztosqlite| |docker_mztosqlite|
 
-   :versions: 2.0.0, 1.2.0
+   :versions: 2.0.2, 2.0.0, 1.2.0
 
-   :depends: :conda:package:`openjdk` >=8 :conda:package:`python` 2.7* 
+   :depends: :conda:package:`openjdk` >=8 :conda:package:`python`  
 
    :required~by: |required_by_mztosqlite|
 

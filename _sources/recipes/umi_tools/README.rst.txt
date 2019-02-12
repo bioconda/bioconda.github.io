@@ -23,7 +23,7 @@ umi_tools
 
    :versions: 0.5.5, 0.5.4, 0.5.3, 0.5.2, 0.5.1, 0.5.0, 0.4.4, 0.4.3, 0.2.3
 
-   :depends: :conda:package:`future`  :conda:package:`matplotlib`  :conda:package:`numpy` >=1.7 :conda:package:`pandas` >=0.12.0 :conda:package:`pysam` >=0.9 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`regex`  :conda:package:`scipy`  
+   :depends: :conda:package:`future`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`numpy` >=1.7 :conda:package:`pandas` >=0.12.0 :conda:package:`pysam` >=0.9 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`regex`  :conda:package:`scipy`  
 
    :required~by: |required_by_umi_tools|
 

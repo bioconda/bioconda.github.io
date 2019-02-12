@@ -24,7 +24,7 @@ takeabreak
 
    :versions: 1.1.2
 
-   :depends: :conda:package:`zlib` 1.2.8* 
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
 
    :required~by: |required_by_takeabreak|
 

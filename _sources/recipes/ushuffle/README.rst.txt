@@ -23,7 +23,7 @@ ushuffle
 
    :versions: 1.2.2, 1.2.1
 
-   :depends: :conda:package:`python` 2.7* 
+   :depends: :conda:package:`libgcc`  :conda:package:`python` 2.7* 
 
    :required~by: |required_by_ushuffle|
 

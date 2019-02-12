@@ -23,7 +23,7 @@ rapmap
 
    :versions: 0.6.0, 0.5.0, v0.2.1, v0.2.0, v0.1.0pre
 
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`jemalloc` >=5.1.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`tbb`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`jemalloc` >=5.1.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`tbb`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_rapmap|
 

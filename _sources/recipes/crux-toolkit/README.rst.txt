@@ -24,7 +24,7 @@ crux-toolkit
 
    :versions: 3.2
 
-   :depends: 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
 
    :required~by: |required_by_crux-toolkit|
 

@@ -23,7 +23,7 @@ r-mvr
 
    :versions: 1.33.0
 
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-statmod`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-statmod`  
 
    :required~by: |required_by_r-mvr|
 

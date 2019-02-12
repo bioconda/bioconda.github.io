@@ -23,7 +23,7 @@ perl-extutils-config
 
    :versions: 0.008
 
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-data-dumper`  
+   :depends: :conda:package:`perl-threaded`  
 
    :required~by: |required_by_perl-extutils-config|
 

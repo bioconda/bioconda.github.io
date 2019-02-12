@@ -24,7 +24,7 @@ last
 
    :versions: 963, 941, 876, 874, 847, 719, 638, 490
 
-   :depends: :conda:package:`future`  :conda:package:`parallel`  :conda:package:`pillow`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`future`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`parallel`  :conda:package:`pillow`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_last|
 

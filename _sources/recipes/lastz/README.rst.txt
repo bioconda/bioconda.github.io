@@ -24,7 +24,7 @@ lastz
 
    :versions: 1.0.4, 1.0.2
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_lastz|
 

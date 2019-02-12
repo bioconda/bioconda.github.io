@@ -23,7 +23,7 @@ gadem
 
    :versions: 1.3.1
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_gadem|
 

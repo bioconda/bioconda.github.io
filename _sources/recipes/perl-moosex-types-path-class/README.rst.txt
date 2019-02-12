@@ -23,7 +23,7 @@ perl-moosex-types-path-class
 
    :versions: 0.09
 
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-moosex-types`  :conda:package:`perl-path-class`  
+   :depends: :conda:package:`perl-moosex-types`  :conda:package:`perl-path-class`  :conda:package:`perl-threaded`  
 
    :required~by: |required_by_perl-moosex-types-path-class|
 

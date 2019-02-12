@@ -24,7 +24,7 @@ ray
 
    :versions: 2.3.1
 
-   :depends: :conda:package:`openmpi` >=2.0.2 
+   :depends: :conda:package:`libgcc`  :conda:package:`openmpi` >=2.0.2 
 
    :required~by: |required_by_ray|
 

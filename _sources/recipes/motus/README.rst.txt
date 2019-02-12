@@ -25,7 +25,7 @@ motus
 
    :versions: 2.0.1, 2.0.0, 1.0
 
-   :depends: :conda:package:`bwa`  :conda:package:`metasnv`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`samtools`  
+   :depends: :conda:package:`bwa`  :conda:package:`metasnv`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools`  
 
    :required~by: |required_by_motus|
 

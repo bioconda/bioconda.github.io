@@ -24,7 +24,7 @@ intarna
 
    :versions: 2.3.1, 2.3.0, 2.2.1, 2.2.0, 2.1.0, 2.0.5, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.2.5
 
-   :depends: :conda:package:`boost-cpp` >=1.68.0,<1.68.1.0a0 :conda:package:`libcxx` >=4.0.1 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`viennarna` >=2.4.11,<2.5.0a0 
+   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
    :required~by: |required_by_intarna|
 

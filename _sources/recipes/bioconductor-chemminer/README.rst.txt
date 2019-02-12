@@ -24,7 +24,7 @@ bioconductor-chemminer
 
    :versions: 3.34.1, 3.32.1, 2.30.0, 2.28.3
 
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-base64enc`  :conda:package:`r-bh`  :conda:package:`r-dbi`  :conda:package:`r-digest`  :conda:package:`r-dt`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-png`  :conda:package:`r-rcpp` >=0.11.0 :conda:package:`r-rcurl`  :conda:package:`r-rjson`  :conda:package:`r-rsvg`  
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-base64enc`  :conda:package:`r-bh`  :conda:package:`r-dbi`  :conda:package:`r-digest`  :conda:package:`r-dt`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-png`  :conda:package:`r-rcpp` >=0.11.0 :conda:package:`r-rcurl`  :conda:package:`r-rjson`  :conda:package:`r-rsvg`  
 
    :required~by: |required_by_bioconductor-chemminer|
 

@@ -23,7 +23,7 @@ bioconductor-illuminamousev2.db
 
    :versions: 1.26.0
 
-   :depends: :conda:package:`bioconductor-annotationdbi` >=1.29.20 :conda:package:`bioconductor-org.mm.eg.db` >=3.1.2 :conda:package:`r-base` 3.4.1* :conda:package:`wget`  
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.29.20 :conda:package:`bioconductor-org.mm.eg.db` >=3.1.2 :conda:package:`r` >=2.7.0 
 
    :required~by: |required_by_bioconductor-illuminamousev2.db|
 

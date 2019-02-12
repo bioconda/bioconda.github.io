@@ -23,7 +23,7 @@ reveal
 
    :versions: 0.1
 
-   :depends: :conda:package:`intervaltree`  :conda:package:`libdivsufsort`  :conda:package:`matplotlib`  :conda:package:`networkx`  :conda:package:`python` 2.7* 
+   :depends: :conda:package:`intervaltree`  :conda:package:`libdivsufsort`  :conda:package:`libgcc`  :conda:package:`matplotlib`  :conda:package:`networkx`  :conda:package:`python` 2.7* 
 
    :required~by: |required_by_reveal|
 

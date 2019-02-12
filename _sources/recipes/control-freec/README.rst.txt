@@ -26,7 +26,7 @@ control-freec
 
    :versions: 11.4, 10.6, 10.5
 
-   :depends: :conda:package:`bioconductor-rtracklayer`  :conda:package:`perl`  :conda:package:`r-base`  
+   :depends: :conda:package:`bioconductor-rtracklayer`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  :conda:package:`r-base`  
 
    :required~by: |required_by_control-freec|
 

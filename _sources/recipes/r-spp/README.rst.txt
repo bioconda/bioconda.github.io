@@ -24,7 +24,7 @@ r-spp
 
    :versions: 1.15.5, 1.15.2, 1.14post, 1.14, 1.13, 1.11
 
-   :depends: :conda:package:`bioconductor-rsamtools` >=1.32.0,<1.34.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-bh` >=1.66 :conda:package:`r-catools`  :conda:package:`r-rcpp`  
+   :depends: :conda:package:`bioconductor-rsamtools` >=1.32.0,<1.34.0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-bh` >=1.66 :conda:package:`r-catools`  :conda:package:`r-rcpp`  
 
    :required~by: |required_by_r-spp|
 

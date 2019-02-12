@@ -23,7 +23,7 @@ ragout
 
    :versions: 2.1.1, 2.1, 2.0
 
-   :depends: :conda:package:`networkx` 1.8 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`python-mailund-newick`  :conda:package:`sibelia`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`networkx` 1.8 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`python-mailund-newick`  :conda:package:`sibelia`  
 
    :required~by: |required_by_ragout|
 

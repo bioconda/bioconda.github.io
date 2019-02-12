@@ -24,7 +24,7 @@ abawaca
 
    :versions: 1.00
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_abawaca|
 

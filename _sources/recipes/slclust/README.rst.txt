@@ -23,7 +23,7 @@ slclust
 
    :versions: 02022010
 
-   :depends: :conda:package:`zlib`  
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
    :required~by: |required_by_slclust|
 

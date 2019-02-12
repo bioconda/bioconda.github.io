@@ -23,7 +23,7 @@ ecopcr
 
    :versions: 0.5.0
 
-   :depends: :conda:package:`python` 2.7* :conda:package:`reportlab`  :conda:package:`zlib`  
+   :depends: :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`reportlab`  :conda:package:`zlib`  
 
    :required~by: |required_by_ecopcr|
 

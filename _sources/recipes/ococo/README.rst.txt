@@ -23,7 +23,7 @@ ococo
 
    :versions: 0.1.2.7, 0.1.2.6, 0.1.2.5, 0.1.2.4
 
-   :depends: :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_ococo|
 

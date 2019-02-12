@@ -23,7 +23,7 @@ famseq
 
    :versions: 1.0.3
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_famseq|
 

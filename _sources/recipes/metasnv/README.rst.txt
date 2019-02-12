@@ -23,7 +23,7 @@ metasnv
 
    :versions: 1.0.3, 1.0.2
 
-   :depends: :conda:package:`htslib` 1.7* :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`htslib` 1.7* :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_metasnv|
 

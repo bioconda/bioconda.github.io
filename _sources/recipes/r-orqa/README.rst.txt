@@ -23,7 +23,7 @@ r-orqa
 
    :versions: 0.2.1
 
-   :depends: :conda:package:`bioconductor-genefilter` >=1.24.3 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gtools` >=2.6.1 :conda:package:`r-nlme` >=3.1_96 :conda:package:`r-rcpp` >=0.8.9 
+   :depends: :conda:package:`bioconductor-genefilter` >=1.24.3 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gtools` >=2.6.1 :conda:package:`r-nlme` >=3.1_96 :conda:package:`r-rcpp` >=0.8.9 
 
    :required~by: |required_by_r-orqa|
 

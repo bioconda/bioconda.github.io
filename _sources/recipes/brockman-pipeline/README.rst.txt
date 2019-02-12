@@ -23,7 +23,7 @@ brockman-pipeline
 
    :versions: 1.0
 
-   :depends: :conda:package:`amused`  :conda:package:`bedtools`  :conda:package:`bowtie2`  :conda:package:`bzip2`  :conda:package:`jemalloc`  :conda:package:`ncurses`  :conda:package:`ruby` >=2.4 :conda:package:`ruby-dna-tools`  :conda:package:`samtools`  :conda:package:`trimmomatic`  :conda:package:`ucsc-twobittofa`  :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`amused`  :conda:package:`bedtools`  :conda:package:`bowtie2`  :conda:package:`bzip2`  :conda:package:`jemalloc`  :conda:package:`libgcc`  :conda:package:`ncurses`  :conda:package:`ruby` >=2.4 :conda:package:`ruby-dna-tools`  :conda:package:`samtools`  :conda:package:`trimmomatic`  :conda:package:`ucsc-twobittofa`  :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_brockman-pipeline|
 

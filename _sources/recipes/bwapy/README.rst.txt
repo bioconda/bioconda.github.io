@@ -23,7 +23,7 @@ bwapy
 
    :versions: 0.1.4
 
-   :depends: :conda:package:`cffi`  :conda:package:`python` 3.5* :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`cffi`  :conda:package:`libgcc`  :conda:package:`python` 3.5* :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_bwapy|
 

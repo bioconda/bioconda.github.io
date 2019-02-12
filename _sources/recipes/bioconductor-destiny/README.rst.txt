@@ -23,7 +23,7 @@ bioconductor-destiny
 
    :versions: 2.12.0
 
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-ggthemes`  :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-proxy`  :conda:package:`r-rcpp` >=0.10.3 :conda:package:`r-rcppeigen`  :conda:package:`r-scales`  :conda:package:`r-scatterplot3d`  :conda:package:`r-smoother`  :conda:package:`r-vim`  
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-ggthemes`  :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-proxy`  :conda:package:`r-rcpp` >=0.10.3 :conda:package:`r-rcppeigen`  :conda:package:`r-scales`  :conda:package:`r-scatterplot3d`  :conda:package:`r-smoother`  :conda:package:`r-vim`  
 
    :required~by: |required_by_bioconductor-destiny|
 

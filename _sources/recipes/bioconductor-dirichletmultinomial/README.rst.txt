@@ -24,7 +24,7 @@ bioconductor-dirichletmultinomial
 
    :versions: 1.24.0, 1.22.0, 1.20.0, 1.18.0, 1.16.0
 
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`gsl` >=2.4,<2.5.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`gsl` >=2.4,<2.5.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`openblas` >=0.3.3,<0.3.4.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
    :required~by: |required_by_bioconductor-dirichletmultinomial|
 

@@ -23,7 +23,7 @@ r-seqinr
 
    :versions: 3.4_5, 3.1_3
 
-   :depends: :conda:package:`r-ade4`  :conda:package:`r-base` 3.4.1* :conda:package:`r-segmented`  
+   :depends: :conda:package:`libgcc`  :conda:package:`r-ade4`  :conda:package:`r-base` 3.4.1* :conda:package:`r-segmented`  
 
    :required~by: |required_by_r-seqinr|
 

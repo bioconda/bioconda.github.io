@@ -23,7 +23,7 @@ bioconductor-splicesites
 
    :versions: 1.30.0
 
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-seqlogo` >=1.48.0,<1.49.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doby`  :conda:package:`r-rbamtools` >=2.14.3 :conda:package:`r-refgenome` >=1.6.0 
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-seqlogo` >=1.48.0,<1.49.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doby`  :conda:package:`r-rbamtools` >=2.14.3 :conda:package:`r-refgenome` >=1.6.0 
 
    :required~by: |required_by_bioconductor-splicesites|
 

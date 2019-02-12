@@ -23,7 +23,7 @@ ucsc-xmlcat
 
    :versions: 366, 357, 332, 324
 
-   :depends: :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_ucsc-xmlcat|
 

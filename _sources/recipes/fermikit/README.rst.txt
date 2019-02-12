@@ -23,7 +23,7 @@ fermikit
 
    :versions: 0.14.dev1
 
-   :depends: :conda:package:`bfc` ==r181 :conda:package:`bwa` ==0.7.15 :conda:package:`fermi2` ==r193 :conda:package:`htsbox` ==r327 :conda:package:`perl` 5.22.0* :conda:package:`ropebwt2` ==r187 :conda:package:`seqtk` ==r82 :conda:package:`trimadap` ==r10 :conda:package:`zlib`  
+   :depends: :conda:package:`bfc` ==r181 :conda:package:`bwa` ==0.7.15 :conda:package:`fermi2` ==r193 :conda:package:`htsbox` ==r327 :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`ropebwt2` ==r187 :conda:package:`seqtk` ==r82 :conda:package:`trimadap` ==r10 :conda:package:`zlib`  
 
    :required~by: |required_by_fermikit|
 

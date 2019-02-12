@@ -23,7 +23,7 @@ tantan
 
    :versions: 13
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_tantan|
 

@@ -23,7 +23,7 @@ metavelvet-sl-feature-extraction
 
    :versions: 1.0
 
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-module-build`  
+   :depends: :conda:package:`perl-app-cpanminus`  :conda:package:`perl-module-build`  :conda:package:`perl-threaded`  
 
    :required~by: |required_by_metavelvet-sl-feature-extraction|
 

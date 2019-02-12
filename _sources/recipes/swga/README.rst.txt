@@ -23,7 +23,7 @@ swga
 
    :versions: 0.4.4, 0.4.3.p1, 0.4.2
 
-   :depends: :conda:package:`argutils`  :conda:package:`click`  :conda:package:`melt`  :conda:package:`peewee` >=2.7.3,<3.0 :conda:package:`pyfaidx` >0.4.5.2 :conda:package:`pytest`  :conda:package:`python` 2.7* :conda:package:`pyyaml`  :conda:package:`semantic_version`  :conda:package:`setuptools`  :conda:package:`workspace`  
+   :depends: :conda:package:`argutils`  :conda:package:`click`  :conda:package:`libgcc`  :conda:package:`melt`  :conda:package:`peewee` >=2.7.3,<3.0 :conda:package:`pyfaidx` >0.4.5.2 :conda:package:`pytest`  :conda:package:`python` 2.7* :conda:package:`pyyaml`  :conda:package:`semantic_version`  :conda:package:`setuptools`  :conda:package:`workspace`  
 
    :required~by: |required_by_swga|
 

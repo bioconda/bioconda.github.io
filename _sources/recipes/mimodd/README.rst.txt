@@ -23,7 +23,7 @@ mimodd
 
    :versions: 0.1.9, 0.1.8, 0.1.7.3
 
-   :depends: :conda:package:`python` 3.5* :conda:package:`rpy2`  :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`libgcc`  :conda:package:`python` 3.5* :conda:package:`rpy2`  :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_mimodd|
 

@@ -23,7 +23,7 @@ maxbin2
 
    :versions: 2.2.4, 2.2.1
 
-   :depends: :conda:package:`bowtie2`  :conda:package:`fraggenescan` >=1.30 :conda:package:`hmmer`  :conda:package:`idba`  :conda:package:`perl-lwp-simple`  :conda:package:`r-base`  :conda:package:`r-gplots`  
+   :depends: :conda:package:`bowtie2`  :conda:package:`fraggenescan` >=1.30 :conda:package:`hmmer`  :conda:package:`idba`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl-lwp-simple`  :conda:package:`r-base`  :conda:package:`r-gplots`  
 
    :required~by: |required_by_maxbin2|
 

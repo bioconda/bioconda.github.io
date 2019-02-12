@@ -24,7 +24,7 @@ rnasnp
 
    :versions: 1.2
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_rnasnp|
 

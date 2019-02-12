@@ -23,7 +23,7 @@ bioconductor-opossom
 
    :versions: 2.0.0
 
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fastica`  :conda:package:`r-fdrtool`  :conda:package:`r-igraph` >=1.0.0 :conda:package:`r-pixmap`  :conda:package:`r-rcpp`  :conda:package:`r-rcppparallel`  :conda:package:`r-scatterplot3d`  :conda:package:`r-tsne`  
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fastica`  :conda:package:`r-fdrtool`  :conda:package:`r-igraph` >=1.0.0 :conda:package:`r-pixmap`  :conda:package:`r-rcpp`  :conda:package:`r-rcppparallel`  :conda:package:`r-scatterplot3d`  :conda:package:`r-tsne`  
 
    :required~by: |required_by_bioconductor-opossom|
 

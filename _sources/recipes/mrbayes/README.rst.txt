@@ -28,7 +28,7 @@ mrbayes
 
    :versions: 3.2.6
 
-   :depends: :conda:package:`beagle-lib`  :conda:package:`openmpi`  :conda:package:`readline` 6.* 
+   :depends: :conda:package:`beagle-lib`  :conda:package:`libgcc`  :conda:package:`openmpi`  :conda:package:`readline` 6.* 
 
    :required~by: |required_by_mrbayes|
 

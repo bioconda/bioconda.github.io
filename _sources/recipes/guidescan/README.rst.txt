@@ -23,7 +23,7 @@ guidescan
 
    :versions: 1.2, 1.0
 
-   :depends: :conda:package:`biopython` >=1.66 :conda:package:`bx-python` ==0.7.3 :conda:package:`coreutils`  :conda:package:`numpy`  :conda:package:`openblas`  :conda:package:`pandas`  :conda:package:`psutil`  :conda:package:`pyfaidx` ==0.4.7.1 :conda:package:`pysam` ==0.8.3 :conda:package:`python` >=2.7.13 :conda:package:`python-dateutil` >=2.5.0 :conda:package:`rename`  :conda:package:`samtools` ==1.3.1 :conda:package:`scikit-learn` >=0.16.1 :conda:package:`xlwt`  
+   :depends: :conda:package:`biopython` >=1.66 :conda:package:`bx-python` ==0.7.3 :conda:package:`coreutils`  :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`openblas`  :conda:package:`pandas`  :conda:package:`psutil`  :conda:package:`pyfaidx` ==0.4.7.1 :conda:package:`pysam` ==0.8.3 :conda:package:`python` >=2.7.13 :conda:package:`python-dateutil` >=2.5.0 :conda:package:`rename`  :conda:package:`samtools` ==1.3.1 :conda:package:`scikit-learn` >=0.16.1 :conda:package:`xlwt`  
 
    :required~by: |required_by_guidescan|
 

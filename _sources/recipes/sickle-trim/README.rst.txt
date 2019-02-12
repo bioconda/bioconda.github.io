@@ -23,7 +23,7 @@ sickle-trim
 
    :versions: 1.33
 
-   :depends: :conda:package:`zlib` 1.2.8 
+   :depends: 
 
    :required~by: |required_by_sickle-trim|
 

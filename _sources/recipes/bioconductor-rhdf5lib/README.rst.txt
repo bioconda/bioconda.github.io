@@ -23,7 +23,7 @@ bioconductor-rhdf5lib
 
    :versions: 1.4.2, 1.2.1, 1.0.0
 
-   :depends: :conda:package:`libgfortran` >=3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgfortran` >=3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_bioconductor-rhdf5lib|
 

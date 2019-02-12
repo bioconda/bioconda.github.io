@@ -23,7 +23,7 @@ bioconductor-mait
 
    :versions: 1.16.1, 1.16.0
 
-   :depends: :conda:package:`bioconductor-camera` >=1.38.0,<1.39.0 :conda:package:`bioconductor-xcms` >=3.4.0,<3.5.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-agricolae`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-caret`  :conda:package:`r-class`  :conda:package:`r-e1071`  :conda:package:`r-gplots`  :conda:package:`r-mass`  :conda:package:`r-pls`  :conda:package:`r-plsgenomics`  :conda:package:`r-rcpp`  
+   :depends: :conda:package:`bioconductor-camera` >=1.38.0,<1.39.0 :conda:package:`bioconductor-xcms` >=3.4.0,<3.5.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-agricolae`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-caret`  :conda:package:`r-class`  :conda:package:`r-e1071`  :conda:package:`r-gplots`  :conda:package:`r-mass`  :conda:package:`r-pls`  :conda:package:`r-plsgenomics`  :conda:package:`r-rcpp`  
 
    :required~by: |required_by_bioconductor-mait|
 

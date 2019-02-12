@@ -23,7 +23,7 @@ ssu-align
 
    :versions: 0.1.1
 
-   :depends: :conda:package:`perl`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  
 
    :required~by: |required_by_ssu-align|
 

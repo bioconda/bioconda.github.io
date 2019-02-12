@@ -24,7 +24,7 @@ kaiju
 
    :versions: 1.6.3, 1.6.2, 1.6.1, 1.5.0, 1.4.5, 1.4.4, 1.0
 
-   :depends: :conda:package:`gnu-wget` >=1.16 :conda:package:`perl`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`gnu-wget` >=1.16 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_kaiju|
 

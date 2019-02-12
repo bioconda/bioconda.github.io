@@ -23,7 +23,7 @@ alignstats
 
    :versions: 0.5, 0.3
 
-   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 
+   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libgcc-ng` >=4.9 
 
    :required~by: |required_by_alignstats|
 

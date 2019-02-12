@@ -23,7 +23,7 @@ telseq
 
    :versions: 0.0.2, 0.0.1
 
-   :depends: :conda:package:`bamtools` >=2.4.1,<2.4.2.0a0 
+   :depends: :conda:package:`bamtools` >=2.4.1,<2.4.2.0a0 :conda:package:`libgcc-ng` >=4.9 
 
    :required~by: |required_by_telseq|
 

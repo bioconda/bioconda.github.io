@@ -23,7 +23,7 @@ fastp
 
    :versions: 0.19.6, 0.19.5, 0.19.4, 0.19.3, 0.18.0, 0.17.1, 0.17.0, 0.14.1, 0.13.1, 0.12.5, 0.12.4, 0.12.3, 0.12.2
 
-   :depends: :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_fastp|
 

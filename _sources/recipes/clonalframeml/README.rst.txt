@@ -23,7 +23,7 @@ clonalframeml
 
    :versions: 1.11
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_clonalframeml|
 

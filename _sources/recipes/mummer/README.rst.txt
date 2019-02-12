@@ -24,7 +24,7 @@ mummer
 
    :versions: 3.23
 
-   :depends: 
+   :depends: :conda:package:`perl-threaded`  
 
    :required~by: |required_by_mummer|
 

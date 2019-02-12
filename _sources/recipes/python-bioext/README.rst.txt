@@ -23,7 +23,7 @@ python-bioext
 
    :versions: 0.18.6, 0.17.4
 
-   :depends: :conda:package:`biopython`  :conda:package:`freetype`  :conda:package:`numpy` >=1.14.0 :conda:package:`pysam` <=0.13 :conda:package:`python` 3.5* :conda:package:`python-consensuscore`  :conda:package:`scipy`  :conda:package:`six`  
+   :depends: :conda:package:`biopython`  :conda:package:`freetype`  :conda:package:`libgcc`  :conda:package:`numpy` >=1.14.0 :conda:package:`pysam` <=0.13 :conda:package:`python` 3.5* :conda:package:`python-consensuscore`  :conda:package:`scipy`  :conda:package:`six`  
 
    :required~by: |required_by_python-bioext|
 

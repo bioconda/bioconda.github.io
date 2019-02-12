@@ -24,7 +24,7 @@ bioconductor-networkbma
 
    :versions: 2.22.0, 2.20.0, 2.18.0
 
-   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh`  :conda:package:`r-bma`  :conda:package:`r-leaps`  :conda:package:`r-rcpp` >=0.10.3 :conda:package:`r-rcpparmadillo` >=0.3.810.2 :conda:package:`r-rcppeigen` >=0.3.1.2.1 
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh`  :conda:package:`r-bma`  :conda:package:`r-leaps`  :conda:package:`r-rcpp` >=0.10.3 :conda:package:`r-rcpparmadillo` >=0.3.810.2 :conda:package:`r-rcppeigen` >=0.3.1.2.1 
 
    :required~by: |required_by_bioconductor-networkbma|
 

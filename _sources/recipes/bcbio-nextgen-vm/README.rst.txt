@@ -23,7 +23,7 @@ bcbio-nextgen-vm
 
    :versions: 0.1.3, 0.1.2a, 0.1.1, 0.1.0a
 
-   :depends: :conda:package:`bcbio-nextgen` >=1.1.3 :conda:package:`boto3`  :conda:package:`cachecontrol` 0.11.7 :conda:package:`cromwell` >=0.36 :conda:package:`dx-cwl` >=0.1.0a20180820 :conda:package:`dxpy`  :conda:package:`google-cloud-sdk`  :conda:package:`ipyparallel` >=6.0.2 :conda:package:`nodejs`  :conda:package:`nose`  :conda:package:`pathlib2` 2.3.2 :conda:package:`pysam` >=0.15.2 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`python-dateutil` >=2.5.0 :conda:package:`rabix-bunny` >=1.0.4 :conda:package:`ruamel.yaml` >=0.13.0 :conda:package:`sevenbridges-python` >=0.17.5 :conda:package:`six`  :conda:package:`synapseclient`  
+   :depends: :conda:package:`arvados-cwl-runner` >=1.3.0.20181218191458 :conda:package:`bcbio-nextgen` >=1.1.3 :conda:package:`boto3`  :conda:package:`cachecontrol` 0.11.7 :conda:package:`cromwell` >=0.36 :conda:package:`dx-cwl` >=0.1.0a20180820 :conda:package:`dxpy`  :conda:package:`google-cloud-sdk`  :conda:package:`ipyparallel` >=6.0.2 :conda:package:`nodejs`  :conda:package:`nose`  :conda:package:`pathlib2` 2.3.2 :conda:package:`pysam` >=0.15.2 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`python-dateutil` >=2.5.0 :conda:package:`rabix-bunny` >=1.0.4 :conda:package:`ruamel.yaml` >=0.13.0 :conda:package:`sevenbridges-python` >=0.17.5 :conda:package:`six`  :conda:package:`synapseclient`  
 
    :required~by: |required_by_bcbio-nextgen-vm|
 

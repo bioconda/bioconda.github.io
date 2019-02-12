@@ -25,7 +25,7 @@ pairtools
 
    :versions: 0.2.2, 0.2.1, 0.2.0, 0.1.1
 
-   :depends: :conda:package:`click`  :conda:package:`coreutils`  :conda:package:`lz4-c`  :conda:package:`numpy` >=1.9.3,<2.0a0 :conda:package:`pbgzip`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`samtools`  :conda:package:`tabix`  
+   :depends: :conda:package:`click`  :conda:package:`coreutils`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`lz4-c`  :conda:package:`numpy` >=1.9.3,<2.0a0 :conda:package:`pbgzip`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`samtools`  :conda:package:`tabix`  
 
    :required~by: |required_by_pairtools|
 

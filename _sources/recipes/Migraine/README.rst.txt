@@ -24,7 +24,7 @@ migraine
 
    :versions: 0.5.4, 0.5.2
 
-   :depends: 
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 
 
    :required~by: |required_by_migraine|
 

@@ -23,7 +23,7 @@ perl-config-any
 
    :versions: 0.32, 0.27
 
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-app-cpanminus`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-app-cpanminus`  
 
    :required~by: |required_by_perl-config-any|
 

@@ -23,7 +23,7 @@ ditasic
 
    :versions: 0.2
 
-   :depends: :conda:package:`biopython` >=1.70 :conda:package:`kallisto` >=0.43.1 :conda:package:`mason` >=2.0.7 :conda:package:`numpy` >=1.8.0 :conda:package:`python` >=3.7,<3.8.0a0 
+   :depends: :conda:package:`biopython` >=1.70 :conda:package:`kallisto` >=0.43.1 :conda:package:`libgcc-ng` >=4.9 :conda:package:`mason` >=2.0.7 :conda:package:`numpy` >=1.8.0 :conda:package:`python` >=3.7,<3.8.0a0 
 
    :required~by: |required_by_ditasic|
 

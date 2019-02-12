@@ -24,7 +24,7 @@ dig2
 
    :versions: 1.0
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_dig2|
 

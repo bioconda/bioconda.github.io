@@ -24,7 +24,7 @@ corset
 
    :versions: 1.07, 1.06
 
-   :depends: :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_corset|
 

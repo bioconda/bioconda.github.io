@@ -24,7 +24,7 @@ mreps
 
    :versions: 0.1
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_mreps|
 

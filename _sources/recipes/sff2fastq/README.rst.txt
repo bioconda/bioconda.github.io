@@ -27,7 +27,7 @@ sff2fastq
 
    :versions: 0.9.2
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_sff2fastq|
 

@@ -23,7 +23,7 @@ iqtree
 
    :versions: 1.6.9, 1.6.8, 1.6.7.2, 1.6.7.1, 1.6.7, 1.6.6, 1.5.5, 1.5.3
 
-   :depends: :conda:package:`libcxx` >=4.0 :conda:package:`openmp` >=4.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_iqtree|
 

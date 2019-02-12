@@ -24,7 +24,7 @@ bioconductor-tweedeseq
 
    :versions: 1.28.0, 1.26.0, 1.24.0, 1.22.0
 
-   :depends: :conda:package:`bioconductor-cqn` >=1.28.0,<1.29.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  
+   :depends: :conda:package:`bioconductor-cqn` >=1.28.0,<1.29.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  
 
    :required~by: |required_by_bioconductor-tweedeseq|
 

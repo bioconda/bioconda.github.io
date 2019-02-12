@@ -26,7 +26,7 @@ paladin
 
    :versions: 1.4.4, 1.3.1
 
-   :depends: :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_paladin|
 

@@ -24,7 +24,7 @@ alder
 
    :versions: 1.03
 
-   :depends: :conda:package:`fftw`  :conda:package:`lapack`  :conda:package:`libcxx` 4.0.* :conda:package:`openmp` 4.0.* 
+   :depends: :conda:package:`fftw`  :conda:package:`lapack`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
 
    :required~by: |required_by_alder|
 

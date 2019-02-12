@@ -23,7 +23,7 @@ pbmm2
 
    :versions: 0.12.0, 0.11.0, 0.10.1, 0.10.0, 0.9.0, 0.8.1, 0.7.0, 0.6.0, 0.5.1
 
-   :depends: :conda:package:`pbbam` 0.19.0.* :conda:package:`pbcopper` 0.4.2.* :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`pbbam` 0.19.0.* :conda:package:`pbcopper` 0.4.2.* :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_pbmm2|
 

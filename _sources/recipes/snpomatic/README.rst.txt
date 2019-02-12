@@ -23,7 +23,7 @@ snpomatic
 
    :versions: 1.0
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_snpomatic|
 

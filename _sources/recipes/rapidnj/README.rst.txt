@@ -24,7 +24,7 @@ rapidnj
 
    :versions: v2.3.2
 
-   :depends: 
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 
 
    :required~by: |required_by_rapidnj|
 

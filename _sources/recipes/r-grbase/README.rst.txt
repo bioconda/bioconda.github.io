@@ -23,7 +23,7 @@ r-grbase
 
    :versions: 1.8_3.4
 
-   :depends: :conda:package:`bioconductor-graph`  :conda:package:`bioconductor-rbgl`  :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-magrittr`  :conda:package:`r-matrix`  :conda:package:`r-rcpp` >=0.11.1 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcppeigen`  
+   :depends: :conda:package:`bioconductor-graph`  :conda:package:`bioconductor-rbgl`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-magrittr`  :conda:package:`r-matrix`  :conda:package:`r-rcpp` >=0.11.1 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcppeigen`  
 
    :required~by: |required_by_r-grbase|
 

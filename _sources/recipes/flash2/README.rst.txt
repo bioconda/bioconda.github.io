@@ -23,7 +23,7 @@ flash2
 
    :versions: 2.2.00
 
-   :depends: :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_flash2|
 

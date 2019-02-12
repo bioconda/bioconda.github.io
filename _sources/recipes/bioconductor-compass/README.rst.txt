@@ -24,7 +24,7 @@ bioconductor-compass
 
    :versions: 1.20.0, 1.18.1, 1.18.0, 1.16.0
 
-   :depends: :conda:package:`bioconductor-biocstyle` >=2.10.0,<2.11.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-abind`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-clue`  :conda:package:`r-data.table`  :conda:package:`r-dplyr`  :conda:package:`r-knitr`  :conda:package:`r-magrittr`  :conda:package:`r-pdist`  :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp` >=0.11.0 :conda:package:`r-reshape2`  :conda:package:`r-rlang`  :conda:package:`r-rmarkdown`  :conda:package:`r-scales`  :conda:package:`r-tidyr`  
+   :depends: :conda:package:`bioconductor-biocstyle` >=2.10.0,<2.11.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-abind`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-clue`  :conda:package:`r-data.table`  :conda:package:`r-dplyr`  :conda:package:`r-knitr`  :conda:package:`r-magrittr`  :conda:package:`r-pdist`  :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp` >=0.11.0 :conda:package:`r-reshape2`  :conda:package:`r-rlang`  :conda:package:`r-rmarkdown`  :conda:package:`r-scales`  :conda:package:`r-tidyr`  
 
    :required~by: |required_by_bioconductor-compass|
 

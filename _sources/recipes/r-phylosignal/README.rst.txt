@@ -23,7 +23,7 @@ r-phylosignal
 
    :versions: 1.2
 
-   :depends: :conda:package:`r-adephylo`  :conda:package:`r-ape`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-boot`  :conda:package:`r-dbi`  :conda:package:`r-igraph`  :conda:package:`r-phylobase`  :conda:package:`r-rcpp` >=0.11.0 :conda:package:`r-rcpparmadillo`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-adephylo`  :conda:package:`r-ape`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-boot`  :conda:package:`r-dbi`  :conda:package:`r-igraph`  :conda:package:`r-phylobase`  :conda:package:`r-rcpp` >=0.11.0 :conda:package:`r-rcpparmadillo`  
 
    :required~by: |required_by_r-phylosignal|
 

@@ -23,7 +23,7 @@ unifrac
 
    :versions: 0.9.3
 
-   :depends: :conda:package:`biom-format`  :conda:package:`h5py`  :conda:package:`libcxx` >=4.0.1 :conda:package:`numpy` >=1.9.3,<2.0a0 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`scikit-bio`  
+   :depends: :conda:package:`biom-format`  :conda:package:`h5py`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`numpy` >=1.9.3,<2.0a0 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`scikit-bio`  
 
    :required~by: |required_by_unifrac|
 

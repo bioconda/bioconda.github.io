@@ -23,7 +23,7 @@ r-seurat-scripts
 
    :versions: 0.0.4, 0.0.3, 0.0.2, 0.0.1
 
-   :depends: :conda:package:`qt`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-optparse`  :conda:package:`r-seurat` 2.3.1.* :conda:package:`r-workflowscriptscommon`  
+   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-optparse`  :conda:package:`r-seurat` 2.3.1.* :conda:package:`r-workflowscriptscommon`  
 
    :required~by: |required_by_r-seurat-scripts|
 

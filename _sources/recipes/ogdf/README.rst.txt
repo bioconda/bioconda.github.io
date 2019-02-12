@@ -23,7 +23,7 @@ ogdf
 
    :versions: 201207
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_ogdf|
 

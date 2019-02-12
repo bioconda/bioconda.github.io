@@ -24,7 +24,7 @@ bamtools
 
    :versions: 2.5.1, 2.4.1, 2.4.0, 2.3.0
 
-   :depends: :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_bamtools|
 

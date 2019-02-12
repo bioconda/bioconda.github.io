@@ -29,7 +29,7 @@ abundancebin
 
    :versions: 1.0.1
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_abundancebin|
 

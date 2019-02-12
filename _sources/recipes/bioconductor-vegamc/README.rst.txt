@@ -24,7 +24,7 @@ bioconductor-vegamc
 
    :versions: 3.20.0, 3.18.0, 3.16.0
 
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-genoset` >=1.38.0,<1.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-genoset` >=1.38.0,<1.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
    :required~by: |required_by_bioconductor-vegamc|
 

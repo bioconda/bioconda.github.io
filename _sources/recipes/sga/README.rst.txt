@@ -24,7 +24,7 @@ sga
 
    :versions: 0.10.15, 0.10.13
 
-   :depends: :conda:package:`bamtools`  :conda:package:`sparsehash`  :conda:package:`zlib` 1.2.8* 
+   :depends: :conda:package:`bamtools`  :conda:package:`libgcc`  :conda:package:`sparsehash`  :conda:package:`zlib` 1.2.8* 
 
    :required~by: |required_by_sga|
 

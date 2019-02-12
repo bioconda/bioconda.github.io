@@ -23,7 +23,7 @@ advntr
 
    :versions: 1.2.0, 1.1.1, 1.1.0, 1.0.3
 
-   :depends: :conda:package:`biopython`  :conda:package:`blast`  :conda:package:`cython`  :conda:package:`htslib` 1.3 :conda:package:`joblib`  :conda:package:`muscle`  :conda:package:`networkx` 1.11 :conda:package:`numpy` >=1.9.3,<2.0a0 :conda:package:`pysam` >=0.9.1.4 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scikit-learn`  :conda:package:`scipy`  
+   :depends: :conda:package:`biopython`  :conda:package:`blast`  :conda:package:`cython`  :conda:package:`htslib` 1.3 :conda:package:`joblib`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`muscle`  :conda:package:`networkx` 1.11 :conda:package:`numpy` >=1.9.3,<2.0a0 :conda:package:`pysam` >=0.9.1.4 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scikit-learn`  :conda:package:`scipy`  
 
    :required~by: |required_by_advntr|
 

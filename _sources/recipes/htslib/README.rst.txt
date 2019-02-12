@@ -24,7 +24,7 @@ htslib
 
    :versions: 1.9, 1.8, 1.7, 1.6, 1.5, 1.4.1, 1.4, 1.3.2, 1.3.1, 1.3, 1.2.1
 
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`libdeflate`  :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`libdeflate` >=1.0,<1.1.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_htslib|
 

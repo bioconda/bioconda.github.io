@@ -23,7 +23,7 @@ rnabob
 
    :versions: 2.2.1
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_rnabob|
 

@@ -24,7 +24,7 @@ augustus
 
    :versions: 3.3, 3.2.3, 3.2.2, 3.1
 
-   :depends: :conda:package:`bamtools` 2.4.1* :conda:package:`boost` 1.64* :conda:package:`gsl` 1.16* :conda:package:`libcxx`  :conda:package:`lp_solve`  :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-dbi`  :conda:package:`perl-module-build`  :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-yaml`  :conda:package:`sqlite`  :conda:package:`suitesparse`  :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`bamtools` 2.4.1* :conda:package:`boost` 1.64* :conda:package:`gsl` 1.16* :conda:package:`libgcc`  :conda:package:`lp_solve`  :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-dbi`  :conda:package:`perl-module-build`  :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-yaml`  :conda:package:`sqlite`  :conda:package:`suitesparse`  :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_augustus|
 

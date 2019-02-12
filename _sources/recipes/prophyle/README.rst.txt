@@ -23,7 +23,7 @@ prophyle
 
    :versions: 0.3.1.0, 0.3.0.3, 0.3.0.2, 0.3.0.0, 0.2.1.3, 0.2.1.2, 0.2.1.0, 0.2.0.3, 0.2.0.2, 0.2.0, 0.1.0.38, 0.1.0.35, 0.1.0.29
 
-   :depends: :conda:package:`bitarray`  :conda:package:`ete3`  :conda:package:`psutil`  :conda:package:`pysam`  :conda:package:`python` 3.5* :conda:package:`samtools`  :conda:package:`scipy`  :conda:package:`wheel`  :conda:package:`zlib` 1.2.8* 
+   :depends: :conda:package:`bitarray`  :conda:package:`ete3`  :conda:package:`libgcc`  :conda:package:`psutil`  :conda:package:`pysam`  :conda:package:`python` 3.5* :conda:package:`samtools`  :conda:package:`scipy`  :conda:package:`wheel`  :conda:package:`zlib` 1.2.8* 
 
    :required~by: |required_by_prophyle|
 

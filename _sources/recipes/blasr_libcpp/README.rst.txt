@@ -23,7 +23,7 @@ blasr_libcpp
 
    :versions: 5.3.1, 1.1
 
-   :depends: :conda:package:`hdf5` 1.8.17* :conda:package:`pbbam` >=0.18.0 
+   :depends: :conda:package:`hdf5` 1.8.17* :conda:package:`libgcc`  :conda:package:`pbbam` >=0.18.0 
 
    :required~by: |required_by_blasr_libcpp|
 

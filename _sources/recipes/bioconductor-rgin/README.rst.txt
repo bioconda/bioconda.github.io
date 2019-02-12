@@ -23,7 +23,7 @@ bioconductor-rgin
 
    :versions: 1.2.0
 
-   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`llvm-openmp`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcppeigen` >=0.3.3.3.0 
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcppeigen` >=0.3.3.3.0 
 
    :required~by: |required_by_bioconductor-rgin|
 

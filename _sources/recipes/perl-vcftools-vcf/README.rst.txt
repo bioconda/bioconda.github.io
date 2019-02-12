@@ -24,7 +24,7 @@ perl-vcftools-vcf
 
    :versions: 0.953, 0.840, 0.797, 0.1.16, 0.1.15, 0.1.14
 
-   :depends: :conda:package:`libgcc`  :conda:package:`perl-threaded`  
+   :depends: :conda:package:`perl-threaded`  
 
    :required~by: |required_by_perl-vcftools-vcf|
 

@@ -25,7 +25,7 @@ netreg
 
    :versions: 1.6.0, 1.4.0, 1.2.0, 1.0.0
 
-   :depends: :conda:package:`armadillo` >=7.800.1 :conda:package:`armadillo` >=9.200,<10.0a0 :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`hdf5` >=1.10.3,<1.10.4.0a0 :conda:package:`openblas` >=0.3.3,<0.3.4.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`armadillo` >=7.800.1 :conda:package:`armadillo` >=9.200,<10.0a0 :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`hdf5` >=1.10.3,<1.10.4.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`openblas` >=0.3.3,<0.3.4.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_netreg|
 

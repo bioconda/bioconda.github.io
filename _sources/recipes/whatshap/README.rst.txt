@@ -23,7 +23,7 @@ whatshap
 
    :versions: 0.17, 0.16, 0.15, 0.14.1, 0.13, 0.12, 0.11, 0.9
 
-   :depends: :conda:package:`networkx`  :conda:package:`pyfaidx`  :conda:package:`pysam` >=0.14 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`pyvcf`  :conda:package:`xopen`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`networkx`  :conda:package:`pyfaidx`  :conda:package:`pysam` >=0.14 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`pyvcf`  :conda:package:`xopen`  
 
    :required~by: |required_by_whatshap|
 

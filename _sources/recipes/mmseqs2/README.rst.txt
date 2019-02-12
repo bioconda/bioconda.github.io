@@ -23,7 +23,7 @@ mmseqs2
 
    :versions: 7.4e23d, 6.f5a1c, 5.9375b, 4.bff50, 4.0b8cc, 3.be8f6, 2.23394
 
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`gawk`  :conda:package:`openmp`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`gawk`  :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`openmp`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_mmseqs2|
 

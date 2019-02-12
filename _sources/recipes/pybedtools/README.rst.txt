@@ -24,7 +24,7 @@ pybedtools
 
    :versions: 0.8.0, 0.7.10, 0.7.9, 0.7.8, 0.7.7, 0.7.6, 0.7.5, 0.7.4, 0.7.2, 0.7.0, 0.6.9
 
-   :depends: :conda:package:`bedtools`  :conda:package:`libcxx` >=4.0.1 :conda:package:`pandas`  :conda:package:`pysam` >=0.8.1 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`six`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bedtools`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`pandas`  :conda:package:`pysam` >=0.8.1 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`six`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_pybedtools|
 

@@ -23,7 +23,7 @@ trnascan-se
 
    :versions: 2.0, 1.3.1
 
-   :depends: :conda:package:`infernal` ==1.1.2 :conda:package:`perl` 5.22.0* 
+   :depends: :conda:package:`infernal` ==1.1.2 :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* 
 
    :required~by: |required_by_trnascan-se|
 

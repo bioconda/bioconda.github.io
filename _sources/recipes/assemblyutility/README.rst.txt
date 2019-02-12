@@ -23,7 +23,7 @@ assemblyutility
 
    :versions: 20160209
 
-   :depends: :conda:package:`zlib`  
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
    :required~by: |required_by_assemblyutility|
 

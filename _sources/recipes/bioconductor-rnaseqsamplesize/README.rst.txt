@@ -23,7 +23,7 @@ bioconductor-rnaseqsamplesize
 
    :versions: 1.14.0, 1.12.0
 
-   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`bioconductor-rnaseqsamplesizedata` >=1.14.0,<1.15.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-heatmap3`  :conda:package:`r-matlab`  :conda:package:`r-rcpp` >=0.11.2 
+   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`bioconductor-rnaseqsamplesizedata` >=1.14.0,<1.15.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-heatmap3`  :conda:package:`r-matlab`  :conda:package:`r-rcpp` >=0.11.2 
 
    :required~by: |required_by_bioconductor-rnaseqsamplesize|
 

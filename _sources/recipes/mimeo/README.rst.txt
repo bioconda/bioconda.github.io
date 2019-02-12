@@ -23,7 +23,7 @@ mimeo
 
    :versions: 1.1.1
 
-   :depends: :conda:package:`biopython` >=1.70 :conda:package:`pandas` >=0.20.3 :conda:package:`python` 3.5* 
+   :depends: :conda:package:`biopython` >=1.70 :conda:package:`libgcc`  :conda:package:`pandas` >=0.20.3 :conda:package:`python` 3.5* 
 
    :required~by: |required_by_mimeo|
 

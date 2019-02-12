@@ -23,7 +23,7 @@ r-hemdag
 
    :versions: 2.2.5, 2.1.3, 2.1.2, 2.0.1
 
-   :depends: :conda:package:`bioconductor-graph`  :conda:package:`bioconductor-preprocesscore` >=1.42.0,<1.44.0 :conda:package:`bioconductor-rbgl`  :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-iterators`  :conda:package:`r-plyr`  :conda:package:`r-precrec`  
+   :depends: :conda:package:`bioconductor-graph`  :conda:package:`bioconductor-preprocesscore` >=1.42.0,<1.44.0 :conda:package:`bioconductor-rbgl`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-iterators`  :conda:package:`r-plyr`  :conda:package:`r-precrec`  
 
    :required~by: |required_by_r-hemdag|
 

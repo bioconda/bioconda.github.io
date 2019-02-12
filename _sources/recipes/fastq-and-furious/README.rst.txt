@@ -23,7 +23,7 @@ fastq-and-furious
 
    :versions: 0.2.0, 0.1.0
 
-   :depends: :conda:package:`python` 3.5* 
+   :depends: :conda:package:`libgcc`  :conda:package:`python` 3.5* 
 
    :required~by: |required_by_fastq-and-furious|
 

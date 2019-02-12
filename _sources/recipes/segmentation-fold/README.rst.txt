@@ -23,7 +23,7 @@ segmentation-fold
 
    :versions: 1.7.0, 1.6.8
 
-   :depends: :conda:package:`boost` ==1.63.0 :conda:package:`click` >=4.0 :conda:package:`htseq` >=0.6.1 :conda:package:`libcxx`  :conda:package:`pysam` >=0.8.1,<=0.8.3 :conda:package:`python` ==2.7.12 
+   :depends: :conda:package:`boost` ==1.63.0 :conda:package:`click` >=4.0 :conda:package:`htseq` >=0.6.1 :conda:package:`libgcc`  :conda:package:`pysam` >=0.8.1,<=0.8.3 :conda:package:`python` ==2.7.12 
 
    :required~by: |required_by_segmentation-fold|
 

@@ -24,7 +24,7 @@ hisat2
 
    :versions: 2.1.0, 2.0.5, 2.0.4, 2.0.3beta, 2.0.2beta, 2.0.1beta, 2.0.0beta
 
-   :depends: :conda:package:`perl`  :conda:package:`python` >=2.7,<2.8.0a0 
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl`  :conda:package:`python` >=2.7,<2.8.0a0 
 
    :required~by: |required_by_hisat2|
 

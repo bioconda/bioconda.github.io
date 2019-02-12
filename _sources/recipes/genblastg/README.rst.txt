@@ -23,7 +23,7 @@ genblastg
 
    :versions: 1.39, 1.38
 
-   :depends: :conda:package:`blast`  :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`blast`  :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_genblastg|
 

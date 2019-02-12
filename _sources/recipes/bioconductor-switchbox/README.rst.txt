@@ -24,7 +24,7 @@ bioconductor-switchbox
 
    :versions: 1.18.0, 1.16.0, 1.14.0, 1.12.0
 
-   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-proc`  
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-proc`  
 
    :required~by: |required_by_bioconductor-switchbox|
 

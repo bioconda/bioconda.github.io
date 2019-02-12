@@ -23,7 +23,7 @@ meme
 
    :versions: 5.0.2, 4.12.0, 4.11.2, 4.11.1
 
-   :depends: :conda:package:`expat` >=2.2.5,<2.3.0a0 :conda:package:`ghostscript`  :conda:package:`libxml2` >=2.9.8,<2.10.0a0 :conda:package:`libxslt` >=1.1.32,<2.0a0 :conda:package:`openmpi` >=3.1,<3.2.0a0 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-cgi`  :conda:package:`perl-html-parser`  :conda:package:`perl-html-template`  :conda:package:`perl-html-tree`  :conda:package:`perl-log-log4perl`  :conda:package:`perl-math-cdf`  :conda:package:`perl-xml-parser`  :conda:package:`perl-xml-simple`  :conda:package:`perl-yaml`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`yaml` >=0.1.7,<0.2.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`expat` >=2.2.5,<2.3.0a0 :conda:package:`ghostscript`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libxml2` >=2.9.8,<2.10.0a0 :conda:package:`libxslt` >=1.1.32,<2.0a0 :conda:package:`openmpi` >=3.1,<3.2.0a0 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-cgi`  :conda:package:`perl-html-parser`  :conda:package:`perl-html-template`  :conda:package:`perl-html-tree`  :conda:package:`perl-log-log4perl`  :conda:package:`perl-math-cdf`  :conda:package:`perl-xml-parser`  :conda:package:`perl-xml-simple`  :conda:package:`perl-yaml`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`yaml` >=0.1.7,<0.2.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_meme|
 

@@ -23,7 +23,7 @@ pbcopper
 
    :versions: 0.4.2, 0.4.1
 
-   :depends: 
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 
 
    :required~by: |required_by_pbcopper|
 

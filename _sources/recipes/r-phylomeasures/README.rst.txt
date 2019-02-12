@@ -23,7 +23,7 @@ r-phylomeasures
 
    :versions: 2.1
 
-   :depends: :conda:package:`r-ape`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-ape`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
 
    :required~by: |required_by_r-phylomeasures|
 

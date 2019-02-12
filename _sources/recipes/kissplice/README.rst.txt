@@ -23,7 +23,7 @@ kissplice
 
    :versions: 2.4.0p1
 
-   :depends: :conda:package:`python` 2.7* :conda:package:`zlib` 1.2.8* 
+   :depends: :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`zlib` 1.2.8* 
 
    :required~by: |required_by_kissplice|
 

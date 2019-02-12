@@ -23,7 +23,7 @@ r-maldiquant
 
    :versions: 1.18, 1.17, 1.16.4, 1.14
 
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgfortran` >=3.0 :conda:package:`libgfortran-ng`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
 
    :required~by: |required_by_r-maldiquant|
 

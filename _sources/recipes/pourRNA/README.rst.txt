@@ -23,7 +23,7 @@ pourrna
 
    :versions: 1.0.1
 
-   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`viennarna` >=2.4.11,<3.0.0 
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`viennarna` >=2.4.11,<3.0.0 
 
    :required~by: |required_by_pourrna|
 

@@ -23,7 +23,7 @@ perl-inline-c
 
    :versions: 0.78, 0.76
 
-   :depends: :conda:package:`clang_osx-64`  :conda:package:`make`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-inline`  :conda:package:`perl-parse-recdescent`  :conda:package:`perl-pegex`  
+   :depends: :conda:package:`gcc_linux-64`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgcc-ng` >=7.2.0 :conda:package:`make`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-inline`  :conda:package:`perl-parse-recdescent`  :conda:package:`perl-pegex`  
 
    :required~by: |required_by_perl-inline-c|
 

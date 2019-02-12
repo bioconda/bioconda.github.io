@@ -23,7 +23,7 @@ fastq-multx
 
    :versions: 1.3.1, 1.3.0
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_fastq-multx|
 

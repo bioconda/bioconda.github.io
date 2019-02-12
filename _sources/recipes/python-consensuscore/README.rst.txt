@@ -23,7 +23,7 @@ python-consensuscore
 
    :versions: 1.1.1, 1.0.2, 1.0.0
 
-   :depends: :conda:package:`numpy` >=1.7.1 :conda:package:`python` >=2.7,<2.8.0a0 
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`numpy` >=1.7.1 :conda:package:`python` >=2.7,<2.8.0a0 
 
    :required~by: |required_by_python-consensuscore|
 

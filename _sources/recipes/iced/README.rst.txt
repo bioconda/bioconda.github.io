@@ -23,7 +23,7 @@ iced
 
    :versions: 0.5.0, 0.4.2
 
-   :depends: :conda:package:`cython`  :conda:package:`matplotlib`  :conda:package:`numpy` >=1.9 :conda:package:`pandas`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scikit-learn`  :conda:package:`scipy` >=0.14 
+   :depends: :conda:package:`cython`  :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`numpy` >=1.9 :conda:package:`pandas`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scikit-learn`  :conda:package:`scipy` >=0.14 
 
    :required~by: |required_by_iced|
 

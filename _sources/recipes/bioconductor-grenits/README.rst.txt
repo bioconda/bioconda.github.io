@@ -23,7 +23,7 @@ bioconductor-grenits
 
    :versions: 1.34.0
 
-   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2` >=0.9.0 :conda:package:`r-rcpp` >=0.8.6 :conda:package:`r-rcpparmadillo` >=0.2.8 :conda:package:`r-reshape2`  
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2` >=0.9.0 :conda:package:`r-rcpp` >=0.8.6 :conda:package:`r-rcpparmadillo` >=0.2.8 :conda:package:`r-reshape2`  
 
    :required~by: |required_by_bioconductor-grenits|
 

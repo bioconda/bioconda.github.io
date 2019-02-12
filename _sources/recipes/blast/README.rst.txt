@@ -24,7 +24,7 @@ blast
 
    :versions: 2.7.1, 2.6.0, 2.5.0, 2.2.31, 2.2.21
 
-   :depends: :conda:package:`boost` 1.64* :conda:package:`bzip2` 1.0* :conda:package:`gnutls`  :conda:package:`nettle` 3.3|3.3.* :conda:package:`pcre`  :conda:package:`zlib` 1.2.8* 
+   :depends: :conda:package:`boost` 1.64* :conda:package:`bzip2` 1.0* :conda:package:`gnutls`  :conda:package:`libgcc`  :conda:package:`nettle` 3.3|3.3.* :conda:package:`pcre`  :conda:package:`zlib` 1.2.8* 
 
    :required~by: |required_by_blast|
 

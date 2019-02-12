@@ -23,7 +23,7 @@ pbbam
 
    :versions: 0.19.0, 0.18.0, 0.1
 
-   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_pbbam|
 

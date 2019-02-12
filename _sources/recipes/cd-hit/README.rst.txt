@@ -23,7 +23,7 @@ cd-hit
 
    :versions: 4.6.8, 4.6.6, 4.6.4
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_cd-hit|
 

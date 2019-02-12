@@ -23,7 +23,7 @@ dcmtk
 
    :versions: 3.6.1
 
-   :depends: :conda:package:`jpeg`  :conda:package:`libpng`  :conda:package:`libtiff`  :conda:package:`libxml2`  :conda:package:`openssl`  :conda:package:`zlib`  
+   :depends: :conda:package:`jpeg`  :conda:package:`libgcc`  :conda:package:`libpng`  :conda:package:`libtiff`  :conda:package:`libxml2`  :conda:package:`openssl`  :conda:package:`zlib`  
 
    :required~by: |required_by_dcmtk|
 

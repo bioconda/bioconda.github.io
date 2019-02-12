@@ -24,7 +24,7 @@ carna
 
    :versions: 1.3.3, 1.3.2, 1.3.1
 
-   :depends: :conda:package:`gecode` 5.0.0 :conda:package:`locarna` 1.9.1 
+   :depends: :conda:package:`gecode` 5.0.0 :conda:package:`libgcc`  :conda:package:`locarna` 1.9.1 
 
    :required~by: |required_by_carna|
 

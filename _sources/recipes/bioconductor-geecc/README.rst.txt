@@ -23,7 +23,7 @@ bioconductor-geecc
 
    :versions: 1.16.1, 1.16.0
 
-   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-hypergea` >=1.3.0 :conda:package:`r-mass`  :conda:package:`r-rcpp` >=0.11.3 
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-hypergea` >=1.3.0 :conda:package:`r-mass`  :conda:package:`r-rcpp` >=0.11.3 
 
    :required~by: |required_by_bioconductor-geecc|
 

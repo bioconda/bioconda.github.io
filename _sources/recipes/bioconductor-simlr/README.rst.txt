@@ -24,7 +24,7 @@ bioconductor-simlr
 
    :versions: 1.8.1, 1.8.0, 1.6.0, 1.4.0
 
-   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrix`  :conda:package:`r-pracma`  :conda:package:`r-rcpp`  :conda:package:`r-rcppannoy`  :conda:package:`r-rspectra`  
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrix`  :conda:package:`r-pracma`  :conda:package:`r-rcpp`  :conda:package:`r-rcppannoy`  :conda:package:`r-rspectra`  
 
    :required~by: |required_by_bioconductor-simlr|
 

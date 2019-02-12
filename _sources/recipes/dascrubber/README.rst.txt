@@ -23,7 +23,7 @@ dascrubber
 
    :versions: 0.0.1a2, 0.0.1a1
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_dascrubber|
 

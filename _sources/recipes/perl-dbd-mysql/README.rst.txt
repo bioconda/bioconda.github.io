@@ -24,7 +24,7 @@ perl-dbd-mysql
 
    :versions: 4.046, 4.033
 
-   :depends: :conda:package:`mysql-connector-c`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-dbi`  
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`mysql-connector-c`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-dbi`  
 
    :required~by: |required_by_perl-dbd-mysql|
 

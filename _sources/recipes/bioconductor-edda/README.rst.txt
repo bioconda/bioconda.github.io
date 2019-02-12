@@ -24,7 +24,7 @@ bioconductor-edda
 
    :versions: 1.20.0, 1.18.0, 1.16.0
 
-   :depends: :conda:package:`bioconductor-bayseq` >=2.16.0,<2.17.0 :conda:package:`bioconductor-deseq` >=1.34.0,<1.35.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp` >=0.10.4 :conda:package:`r-rocr`  :conda:package:`r-snow`  
+   :depends: :conda:package:`bioconductor-bayseq` >=2.16.0,<2.17.0 :conda:package:`bioconductor-deseq` >=1.34.0,<1.35.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp` >=0.10.4 :conda:package:`r-rocr`  :conda:package:`r-snow`  
 
    :required~by: |required_by_bioconductor-edda|
 

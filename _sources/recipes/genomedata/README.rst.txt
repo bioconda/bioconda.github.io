@@ -24,7 +24,7 @@ genomedata
 
    :versions: 1.4.4, 1.4.1, 1.4.0, 1.3.6, 1.3.5
 
-   :depends: :conda:package:`bedtools`  :conda:package:`hdf5` >=1.10.3,<1.10.4.0a0 :conda:package:`path.py`  :conda:package:`pytables` >=3.4.3 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`six`  :conda:package:`textinput`  :conda:package:`ucsc-bigwigtobedgraph`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bedtools`  :conda:package:`hdf5` >=1.10.3,<1.10.4.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`path.py`  :conda:package:`pytables` >=3.4.3 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`six`  :conda:package:`textinput`  :conda:package:`ucsc-bigwigtobedgraph`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_genomedata|
 

@@ -24,7 +24,7 @@ bioconductor-simat
 
    :versions: 1.14.0, 1.10.0
 
-   :depends: :conda:package:`bioconductor-mzr` >=2.16.0,<2.17.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-rcpp` >=0.11.3 :conda:package:`r-reshape2`  
+   :depends: :conda:package:`bioconductor-mzr` >=2.16.0,<2.17.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-rcpp` >=0.11.3 :conda:package:`r-reshape2`  
 
    :required~by: |required_by_bioconductor-simat|
 

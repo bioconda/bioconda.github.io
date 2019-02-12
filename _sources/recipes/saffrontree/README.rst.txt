@@ -23,7 +23,7 @@ saffrontree
 
    :versions: 0.1.2
 
-   :depends: :conda:package:`biopython`  :conda:package:`dendropy` >=4.1.0 :conda:package:`kmc` >=2.3.0 :conda:package:`pyfastaq` >=3.12.0 :conda:package:`python` 3.5* 
+   :depends: :conda:package:`biopython`  :conda:package:`dendropy` >=4.1.0 :conda:package:`kmc` >=2.3.0 :conda:package:`libgcc`  :conda:package:`pyfastaq` >=3.12.0 :conda:package:`python` 3.5* 
 
    :required~by: |required_by_saffrontree|
 

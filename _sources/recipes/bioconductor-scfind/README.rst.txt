@@ -23,7 +23,7 @@ bioconductor-scfind
 
    :versions: 1.4.0
 
-   :depends: :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bit`  :conda:package:`r-dplyr`  :conda:package:`r-hash`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-reshape2`  
+   :depends: :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bit`  :conda:package:`r-dplyr`  :conda:package:`r-hash`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-reshape2`  
 
    :required~by: |required_by_bioconductor-scfind|
 

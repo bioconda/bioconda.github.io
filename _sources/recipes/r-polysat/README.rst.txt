@@ -23,7 +23,7 @@ r-polysat
 
    :versions: 1.7_3
 
-   :depends: :conda:package:`libgfortran-ng`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-rcpp`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgfortran-ng`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-rcpp`  
 
    :required~by: |required_by_r-polysat|
 

@@ -24,7 +24,7 @@ bioconductor-birewire
 
    :versions: 3.14.0, 3.12.0, 3.10.0
 
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-slam`  :conda:package:`r-tsne`  
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-slam`  :conda:package:`r-tsne`  
 
    :required~by: |required_by_bioconductor-birewire|
 

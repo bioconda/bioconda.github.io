@@ -23,7 +23,7 @@ pyquant-ms
 
    :versions: 0.2.3, 0.2.1, 0.1.43rc3, 0.1.42
 
-   :depends: :conda:package:`cython`  :conda:package:`lxml`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`patsy`  :conda:package:`pythomics` >=0.3.41 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scikit-learn`  :conda:package:`scipy` >=0.18.* :conda:package:`simplejson`  
+   :depends: :conda:package:`cython`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`lxml`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`patsy`  :conda:package:`pythomics` >=0.3.41 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scikit-learn`  :conda:package:`scipy` >=0.18.* :conda:package:`simplejson`  
 
    :required~by: |required_by_pyquant-ms|
 

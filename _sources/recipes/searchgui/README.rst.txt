@@ -25,7 +25,7 @@ searchgui
 
    :versions: 3.3.10, 3.3.9, 3.3.6, 3.3.5, 3.3.3, 3.3.1, 3.2.26, 3.2.24, 3.2.20, 3.2.13, 3.2.11, 3.2.8, 3.2.7, 3.2.6, 3.2.5, 3.2.3, 3.1.4, 2.9.0, 2.1.4
 
-   :depends: :conda:package:`mono` >=4.0.0 :conda:package:`openjdk` >=6 :conda:package:`python`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`mono` >=4.0.0 :conda:package:`openjdk` >=6 :conda:package:`python`  
 
    :required~by: |required_by_searchgui|
 

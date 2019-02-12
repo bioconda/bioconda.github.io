@@ -23,7 +23,7 @@ perl-pod-elemental
 
    :versions: 0.103004
 
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-mixin-linewise`  :conda:package:`perl-moose`  :conda:package:`perl-moosex-types`  :conda:package:`perl-scalar-list-utils`  
+   :depends: :conda:package:`perl-app-cpanminus`  :conda:package:`perl-moose`  :conda:package:`perl-moosex-types`  :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-threaded`  
 
    :required~by: |required_by_perl-pod-elemental|
 

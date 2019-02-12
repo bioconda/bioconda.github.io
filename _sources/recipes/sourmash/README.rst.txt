@@ -24,7 +24,7 @@ sourmash
 
    :versions: 2.0.0a11, 2.0.0a10, 2.0.0a9, 2.0.0a8, 2.0.0a7, 2.0.0a6, 2.0.0a5, 2.0.0a4, 2.0.0a3, 2.0.0a2, 2.0.0a1, 1.0
 
-   :depends: :conda:package:`ijson`  :conda:package:`khmer` >=2.1 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  :conda:package:`screed` >=0.9 
+   :depends: :conda:package:`ijson`  :conda:package:`khmer` >=2.1 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  :conda:package:`screed` >=0.9 
 
    :required~by: |required_by_sourmash|
 

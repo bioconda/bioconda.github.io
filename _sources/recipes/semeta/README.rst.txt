@@ -26,7 +26,7 @@ semeta
 
    :versions: 1.0
 
-   :depends: :conda:package:`blast`  
+   :depends: :conda:package:`blast`  :conda:package:`libgcc`  
 
    :required~by: |required_by_semeta|
 

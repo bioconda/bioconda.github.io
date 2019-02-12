@@ -23,7 +23,7 @@ r-ggbiplot
 
    :versions: 0.55
 
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-devtools`  :conda:package:`r-ggplot2`  :conda:package:`r-gridbase`  :conda:package:`r-plyr`  :conda:package:`r-scales`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-devtools`  :conda:package:`r-ggplot2`  :conda:package:`r-gridbase`  :conda:package:`r-plyr`  :conda:package:`r-scales`  
 
    :required~by: |required_by_r-ggbiplot|
 

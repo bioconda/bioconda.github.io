@@ -23,7 +23,7 @@ rscape
 
    :versions: 1.2.2, 1.0.4, 0.8.3, 0.6.1, 0.3.1, 0.2.1
 
-   :depends: :conda:package:`gnuplot`  :conda:package:`libcxx` >=4.0.1 
+   :depends: :conda:package:`gnuplot`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 
 
    :required~by: |required_by_rscape|
 

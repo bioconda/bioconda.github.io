@@ -23,7 +23,7 @@ r-empiricalfdr.deseq2
 
    :versions: 1.0.3
 
-   :depends: :conda:package:`bioconductor-deseq2`  :conda:package:`bioconductor-genomicranges`  :conda:package:`r-base` 3.4.1* 
+   :depends: :conda:package:`bioconductor-deseq2`  :conda:package:`bioconductor-genomicranges`  :conda:package:`r` 3.2.2* 
 
    :required~by: |required_by_r-empiricalfdr.deseq2|
 

@@ -24,7 +24,7 @@ bioconductor-genefilter
 
    :versions: 1.64.0, 1.62.0, 1.60.0, 1.58.1, 1.56.0, 1.54.2, 1.52.1, 1.52.0, 1.51.0, 1.50.0
 
-   :depends: :conda:package:`bioconductor-annotate` >=1.60.0,<1.61.0 :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`libgfortran` >=3.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-survival`  
+   :depends: :conda:package:`bioconductor-annotate` >=1.60.0,<1.61.0 :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-survival`  
 
    :required~by: |required_by_bioconductor-genefilter|
 

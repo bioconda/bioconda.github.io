@@ -24,7 +24,7 @@ bwa
 
    :versions: 0.7.17, 0.7.16, 0.7.15, 0.7.13, 0.7.12, 0.7.8, 0.7.4, 0.7.3a, 0.6.2, 0.5.9
 
-   :depends: :conda:package:`perl`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`perl`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_bwa|
 

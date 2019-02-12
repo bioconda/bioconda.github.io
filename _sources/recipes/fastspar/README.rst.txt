@@ -30,7 +30,7 @@ fastspar
 
    :versions: 0.0.9, 0.0.6
 
-   :depends: :conda:package:`armadillo` >=8.200,<9.0a0 :conda:package:`gnu-getopt`  :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libgfortran` >=3.0 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`openmp` 4.0.* :conda:package:`openmp` >=4.0 
+   :depends: :conda:package:`armadillo` >=8.200,<9.0a0 :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgfortran` >=3.0 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`openmp` >=4.0 
 
    :required~by: |required_by_fastspar|
 

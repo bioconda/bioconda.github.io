@@ -23,7 +23,7 @@ bioconductor-paa
 
    :versions: 1.16.0
 
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-sva` >=3.30.0,<3.31.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-gplots`  :conda:package:`r-gtools`  :conda:package:`r-mass`  :conda:package:`r-mrmre`  :conda:package:`r-randomforest`  :conda:package:`r-rcpp` >=0.11.6 :conda:package:`r-rocr`  
+   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-sva` >=3.30.0,<3.31.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-gplots`  :conda:package:`r-gtools`  :conda:package:`r-mass`  :conda:package:`r-mrmre`  :conda:package:`r-randomforest`  :conda:package:`r-rcpp` >=0.11.6 :conda:package:`r-rocr`  
 
    :required~by: |required_by_bioconductor-paa|
 

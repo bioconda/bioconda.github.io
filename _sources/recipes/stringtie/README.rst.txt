@@ -24,7 +24,7 @@ stringtie
 
    :versions: 1.3.4, 1.3.3, 1.3.0, 1.2.4, 1.2.3, 1.2.2, 1.2.0, 1.1.2, 1.1.1, 1.1.0, 1.0.4, 1.0.3, 1.0.1, 0.97
 
-   :depends: :conda:package:`python`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_stringtie|
 

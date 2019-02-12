@@ -23,7 +23,7 @@ kraken-ea
 
    :versions: 0.10.5ea.3
 
-   :depends: :conda:package:`jellyfish` 1.1.11 :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`zlib`  
+   :depends: :conda:package:`jellyfish` 1.1.11 :conda:package:`perl` 5.22.0* :conda:package:`zlib`  
 
    :required~by: |required_by_kraken-ea|
 

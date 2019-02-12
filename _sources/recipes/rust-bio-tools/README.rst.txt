@@ -24,7 +24,7 @@ rust-bio-tools
 
    :versions: 0.2.8, 0.2.7, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.2, 0.2.1, 0.1.3, 0.1.2, 0.1.1
 
-   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`starcode`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`starcode`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_rust-bio-tools|
 

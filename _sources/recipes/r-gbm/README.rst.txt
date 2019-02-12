@@ -23,7 +23,7 @@ r-gbm
 
    :versions: 2.1.3, 2.1.1
 
-   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-lattice`  :conda:package:`r-survival`  
+   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-lattice`  :conda:package:`r-survival`  
 
    :required~by: |required_by_r-gbm|
 

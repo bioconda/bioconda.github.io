@@ -26,7 +26,7 @@ bbmap
 
    :versions: 38.22, 38.20, 38.19, 38.18, 38.16, 38.06, 37.99, 37.96, 37.95, 37.90, 37.78, 37.77, 37.75, 37.66, 37.62, 37.52, 37.17, 37.10, 37.02, 36.84, 36.32, 35.85
 
-   :depends: :conda:package:`openjdk` >=7.0 
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`openjdk` >=7.0 
 
    :required~by: |required_by_bbmap|
 

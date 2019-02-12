@@ -23,7 +23,7 @@ crispresso
 
    :versions: 1.0.13, 1.0.8, 1.0.7, 1.0.6, 1.0
 
-   :depends: :conda:package:`argparse`  :conda:package:`biopython` >=1.6.5 :conda:package:`bowtie2`  :conda:package:`emboss`  :conda:package:`flash`  :conda:package:`matplotlib` >=1.3.1 :conda:package:`mock`  :conda:package:`nose`  :conda:package:`numpy` >=1.10.4 :conda:package:`openjdk` >=8 :conda:package:`pandas` >=0.16 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools`  :conda:package:`seaborn`  :conda:package:`trimmomatic`  
+   :depends: :conda:package:`argparse`  :conda:package:`biopython` >=1.6.5 :conda:package:`bowtie2`  :conda:package:`emboss`  :conda:package:`flash`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib` >=1.3.1 :conda:package:`mock`  :conda:package:`nose`  :conda:package:`numpy` >=1.10.4 :conda:package:`openjdk` >=8 :conda:package:`pandas` >=0.16 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools`  :conda:package:`seaborn`  :conda:package:`trimmomatic`  
 
    :required~by: |required_by_crispresso|
 

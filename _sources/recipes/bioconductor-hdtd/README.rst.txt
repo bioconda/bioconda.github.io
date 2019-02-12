@@ -23,7 +23,7 @@ bioconductor-hdtd
 
    :versions: 1.16.0
 
-   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`llvm-openmp`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp` >=0.12.13 :conda:package:`r-rcpparmadillo`  
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp` >=0.12.13 :conda:package:`r-rcpparmadillo`  
 
    :required~by: |required_by_bioconductor-hdtd|
 

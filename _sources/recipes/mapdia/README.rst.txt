@@ -24,7 +24,7 @@ mapdia
 
    :versions: 3.1.0, 1.0
 
-   :depends: 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
 
    :required~by: |required_by_mapdia|
 

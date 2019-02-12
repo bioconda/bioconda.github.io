@@ -23,7 +23,7 @@ cmappy
 
    :versions: 3.3.3, 3.3.0, 3.2.0, 3.1.1, 3.0.0, 2.2.2, 2.2.1, 2.2.0, 2.1.0, 2.0.1, 1.1.1, 1.0.9
 
-   :depends: :conda:package:`h5py` >=2.6.0 :conda:package:`numpy` >=1.11.2 :conda:package:`pandas` >=0.18 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`requests` >=2.13.0 
+   :depends: :conda:package:`h5py` >=2.6.0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`numpy` >=1.11.2 :conda:package:`pandas` >=0.18 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`requests` >=2.13.0 
 
    :required~by: |required_by_cmappy|
 

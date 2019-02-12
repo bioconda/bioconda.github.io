@@ -23,7 +23,7 @@ squeakr
 
    :versions: 0.5
 
-   :depends: :conda:package:`boost` 1.64* :conda:package:`bzip2`  :conda:package:`openssl`  :conda:package:`zlib` 1.2.8* 
+   :depends: :conda:package:`boost` 1.64* :conda:package:`bzip2`  :conda:package:`libgcc`  :conda:package:`openssl`  :conda:package:`zlib` 1.2.8* 
 
    :required~by: |required_by_squeakr|
 

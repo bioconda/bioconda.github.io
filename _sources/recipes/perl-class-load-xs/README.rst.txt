@@ -23,7 +23,7 @@ perl-class-load-xs
 
    :versions: 0.10, 0.09
 
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-class-load`  :conda:package:`perl-xsloader`  
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-class-load`  :conda:package:`perl-xsloader`  
 
    :required~by: |required_by_perl-class-load-xs|
 

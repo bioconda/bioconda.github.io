@@ -23,7 +23,7 @@ pybigwig
 
    :versions: 0.3.13, 0.3.12, 0.3.11, 0.3.10, 0.3.9, 0.3.8, 0.3.7, 0.3.6, 0.3.5, 0.3.4, 0.3.3, 0.2.8, 0.2.7, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.1b, 0.1.11
 
-   :depends: :conda:package:`libcurl` >=7.61.1,<8.0a0 :conda:package:`numpy` >=1.16.1,<2.0a0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libcurl` >=7.61.1,<8.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`numpy` >=1.16.1,<2.0a0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_pybigwig|
 

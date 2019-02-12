@@ -23,7 +23,7 @@ quicksect
 
    :versions: 0.2.0, 0.1.0
 
-   :depends: :conda:package:`python` >=2.7,<2.8.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
 
    :required~by: |required_by_quicksect|
 

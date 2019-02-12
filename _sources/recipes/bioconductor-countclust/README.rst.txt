@@ -23,7 +23,7 @@ bioconductor-countclust
 
    :versions: 1.10.0
 
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libgfortran` >=3.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cowplot`  :conda:package:`r-flexmix`  :conda:package:`r-ggplot2` >=2.1.0 :conda:package:`r-gtools`  :conda:package:`r-maptpx`  :conda:package:`r-picante`  :conda:package:`r-plyr` >=1.7.1 :conda:package:`r-reshape2`  :conda:package:`r-slam`  :conda:package:`r-squarem`  
+   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cowplot`  :conda:package:`r-flexmix`  :conda:package:`r-ggplot2` >=2.1.0 :conda:package:`r-gtools`  :conda:package:`r-maptpx`  :conda:package:`r-picante`  :conda:package:`r-plyr` >=1.7.1 :conda:package:`r-reshape2`  :conda:package:`r-slam`  :conda:package:`r-squarem`  
 
    :required~by: |required_by_bioconductor-countclust|
 

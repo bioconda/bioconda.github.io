@@ -23,7 +23,7 @@ cmfinder
 
    :versions: 0.4.1.9, 0.2
 
-   :depends: :conda:package:`blast`  :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* 
+   :depends: :conda:package:`blast`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  
 
    :required~by: |required_by_cmfinder|
 

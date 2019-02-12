@@ -23,7 +23,7 @@ matlock
 
    :versions: 20181227
 
-   :depends: :conda:package:`backports.lzma`  :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`backports.lzma`  :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_matlock|
 

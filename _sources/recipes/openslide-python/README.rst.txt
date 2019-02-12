@@ -23,7 +23,7 @@ openslide-python
 
    :versions: 1.1.1
 
-   :depends: :conda:package:`openslide`  :conda:package:`pillow`  :conda:package:`python` >=2.7,<2.8.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`openslide`  :conda:package:`pillow`  :conda:package:`python` >=2.7,<2.8.0a0 
 
    :required~by: |required_by_openslide-python|
 

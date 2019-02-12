@@ -34,7 +34,7 @@ rnaclust
 
    :versions: 1.3
 
-   :depends: :conda:package:`locarna`  :conda:package:`perl` 5.22.0* :conda:package:`viennarna`  
+   :depends: :conda:package:`libgcc`  :conda:package:`locarna`  :conda:package:`perl` 5.22.0* :conda:package:`viennarna`  
 
    :required~by: |required_by_rnaclust|
 

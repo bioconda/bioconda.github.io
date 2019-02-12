@@ -23,7 +23,7 @@ bioconductor-apeglm
 
    :versions: 1.4.1, 1.2.1, 1.0.3
 
-   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-emdbook`  :conda:package:`r-rcpp`  :conda:package:`r-rcppeigen`  :conda:package:`r-rcppnumerical`  
+   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-emdbook`  :conda:package:`r-rcpp`  :conda:package:`r-rcppeigen`  :conda:package:`r-rcppnumerical`  
 
    :required~by: |required_by_bioconductor-apeglm|
 

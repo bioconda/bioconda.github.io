@@ -23,7 +23,7 @@ bioconductor-rdisop
 
    :versions: 1.42.1, 1.42.0
 
-   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp`  :conda:package:`r-rcppclassic`  
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp`  :conda:package:`r-rcppclassic`  
 
    :required~by: |required_by_bioconductor-rdisop|
 

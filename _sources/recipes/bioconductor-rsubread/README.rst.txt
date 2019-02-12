@@ -24,7 +24,7 @@ bioconductor-rsubread
 
    :versions: 1.32.2, 1.30.9, 1.28.1, 1.28.0, 1.26.1, 1.25.2, 1.23.0, 1.22.1
 
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
    :required~by: |required_by_bioconductor-rsubread|
 

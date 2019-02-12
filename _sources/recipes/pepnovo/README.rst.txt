@@ -24,7 +24,7 @@ pepnovo
 
    :versions: 20101117
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_pepnovo|
 

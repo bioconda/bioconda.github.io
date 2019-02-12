@@ -23,7 +23,7 @@ bioconductor-cnordt
 
    :versions: 1.24.0
 
-   :depends: :conda:package:`bioconductor-cellnoptr` >=1.28.0,<1.29.0 :conda:package:`r-abind`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
+   :depends: :conda:package:`bioconductor-cellnoptr` >=1.28.0,<1.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-abind`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
    :required~by: |required_by_bioconductor-cnordt|
 

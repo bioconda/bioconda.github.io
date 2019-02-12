@@ -24,7 +24,7 @@ phylip
 
    :versions: 3.697, 3.696
 
-   :depends: :conda:package:`openjdk` >=6 :conda:package:`python`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`openjdk` >=6 :conda:package:`python`  
 
    :required~by: |required_by_phylip|
 

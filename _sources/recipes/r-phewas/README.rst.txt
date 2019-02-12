@@ -24,7 +24,7 @@ r-phewas
 
    :versions: 0.12.1
 
-   :depends: :conda:package:`libgfortran-ng` >=3.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-dt`  :conda:package:`r-ggplot2` >=2.2.0 :conda:package:`r-ggrepel`  :conda:package:`r-lmtest`  :conda:package:`r-logistf`  :conda:package:`r-mass`  :conda:package:`r-meta`  :conda:package:`r-survival`  :conda:package:`r-tidyr`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgfortran-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-dt`  :conda:package:`r-ggplot2` >=2.2.0 :conda:package:`r-ggrepel`  :conda:package:`r-lmtest`  :conda:package:`r-logistf`  :conda:package:`r-mass`  :conda:package:`r-meta`  :conda:package:`r-survival`  :conda:package:`r-tidyr`  
 
    :required~by: |required_by_r-phewas|
 

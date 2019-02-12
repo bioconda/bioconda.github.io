@@ -23,7 +23,7 @@ r-gkmsvm
 
    :versions: 0.79.0, 0.71.0
 
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.26.0,<0.28.0 :conda:package:`bioconductor-biostrings` >=2.48.0,<2.50.0 :conda:package:`bioconductor-genomeinfodb`  :conda:package:`bioconductor-genomicranges` >=1.32.7,<1.34.0 :conda:package:`bioconductor-iranges`  :conda:package:`bioconductor-rtracklayer`  :conda:package:`bioconductor-s4vectors`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-kernlab`  :conda:package:`r-rcpp`  :conda:package:`r-rocr`  :conda:package:`r-seqinr`  
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.26.0,<0.28.0 :conda:package:`bioconductor-biostrings` >=2.48.0,<2.50.0 :conda:package:`bioconductor-genomeinfodb`  :conda:package:`bioconductor-genomicranges` >=1.32.7,<1.34.0 :conda:package:`bioconductor-iranges`  :conda:package:`bioconductor-rtracklayer`  :conda:package:`bioconductor-s4vectors`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-kernlab`  :conda:package:`r-rcpp`  :conda:package:`r-rocr`  :conda:package:`r-seqinr`  
 
    :required~by: |required_by_r-gkmsvm|
 

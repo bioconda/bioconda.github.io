@@ -23,7 +23,7 @@ nextgenmap
 
    :versions: 0.5.5, 0.5.3, 0.4.13
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_nextgenmap|
 

@@ -23,7 +23,7 @@ r-bipartite
 
    :versions: 2.11
 
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-fields`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-permute`  :conda:package:`r-sna`  :conda:package:`r-vegan`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-fields`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-permute`  :conda:package:`r-sna`  :conda:package:`r-vegan`  
 
    :required~by: |required_by_r-bipartite|
 

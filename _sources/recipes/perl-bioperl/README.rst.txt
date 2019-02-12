@@ -24,7 +24,7 @@ perl-bioperl
 
    :versions: 1.7.2, 1.6.924
 
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bio-asn1-entrezgene`  :conda:package:`perl-bio-coordinate`  :conda:package:`perl-bio-featureio`  :conda:package:`perl-bio-samtools`  :conda:package:`perl-bio-tools-phylo-paml`  :conda:package:`perl-bio-tools-run-alignment-clustalw`  :conda:package:`perl-bioperl-core` 1.7.2 :conda:package:`perl-bioperl-run`  
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bio-asn1-entrezgene`  :conda:package:`perl-bio-coordinate`  :conda:package:`perl-bio-featureio`  :conda:package:`perl-bio-samtools`  :conda:package:`perl-bio-tools-phylo-paml`  :conda:package:`perl-bio-tools-run-alignment-clustalw`  :conda:package:`perl-bio-tools-run-alignment-tcoffee`  :conda:package:`perl-bioperl-core` 1.7.2 :conda:package:`perl-bioperl-run`  
 
    :required~by: |required_by_perl-bioperl|
 

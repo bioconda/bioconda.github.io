@@ -23,7 +23,7 @@ estmapper
 
    :versions: 2008
 
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* 
+   :depends: :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* 
 
    :required~by: |required_by_estmapper|
 

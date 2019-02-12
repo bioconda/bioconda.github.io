@@ -24,7 +24,7 @@ treemix
 
    :versions: 1.13, 1.12
 
-   :depends: :conda:package:`blas`  :conda:package:`boost` 1.64* :conda:package:`gsl` 1.16* :conda:package:`r-rcolorbrewer`  :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`blas`  :conda:package:`boost` 1.64* :conda:package:`gsl` 1.16* :conda:package:`libgcc`  :conda:package:`r-rcolorbrewer`  :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_treemix|
 

@@ -23,7 +23,7 @@ bpp-phyl
 
    :versions: 2.4.1, 2.2.0
 
-   :depends: :conda:package:`bpp-seq`  
+   :depends: :conda:package:`bpp-seq`  :conda:package:`libgcc-ng` >=4.9 
 
    :required~by: |required_by_bpp-phyl|
 

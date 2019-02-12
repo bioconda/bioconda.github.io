@@ -23,7 +23,7 @@ r-stitch
 
    :versions: 1.5.5, 1.5.4
 
-   :depends: :conda:package:`gmp` >=6.1.2,<7.0a0 :conda:package:`htslib` >=1.4 :conda:package:`mpc` >=1.1.0 :conda:package:`mpc` >=1.1.0,<2.0a0 :conda:package:`mpfr` >=4.0.1,<5.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table` >=1.11.8 :conda:package:`r-rcpp` >=0.12.18 :conda:package:`r-rcpparmadillo` >=0.8.600.0.0 :conda:package:`r-rrbgen` >=0.0.6 :conda:package:`r-testthat` >=2.0.0 :conda:package:`rsync`  :conda:package:`samtools` >=1.4 :conda:package:`xz` >=5.2.4,<5.3.0a0 
+   :depends: :conda:package:`gmp` >=6.1.2,<7.0a0 :conda:package:`htslib` >=1.4 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`mpc` >=1.1.0 :conda:package:`mpc` >=1.1.0,<2.0a0 :conda:package:`mpfr` >=4.0.1,<5.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table` >=1.11.8 :conda:package:`r-rcpp` >=0.12.18 :conda:package:`r-rcpparmadillo` >=0.8.600.0.0 :conda:package:`r-rrbgen` >=0.0.6 :conda:package:`r-testthat` >=2.0.0 :conda:package:`rsync`  :conda:package:`samtools` >=1.4 :conda:package:`xz` >=5.2.4,<5.3.0a0 
 
    :required~by: |required_by_r-stitch|
 

@@ -23,7 +23,7 @@ perl-ipc-system-simple
 
    :versions: 1.25
 
-   :depends: :conda:package:`libgcc`  :conda:package:`perl-threaded`  
+   :depends: :conda:package:`perl-threaded`  
 
    :required~by: |required_by_perl-ipc-system-simple|
 

@@ -23,7 +23,7 @@ addrg
 
    :versions: 0.2.1, 0.2, 0.1
 
-   :depends: :conda:package:`htslib` >=1.0.0 
+   :depends: :conda:package:`htslib` >=1.0.0 :conda:package:`libgcc`  
 
    :required~by: |required_by_addrg|
 

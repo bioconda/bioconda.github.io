@@ -23,7 +23,7 @@ breseq
 
    :versions: 0.33.0, 0.31.1, 0.29.0
 
-   :depends: :conda:package:`bowtie2` >=2.0.0,!=2.0.3,!=2.0.4,!=2.3.1 :conda:package:`r-base`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bowtie2` >=2.0.0,!=2.0.3,!=2.0.4,!=2.3.1 :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_breseq|
 

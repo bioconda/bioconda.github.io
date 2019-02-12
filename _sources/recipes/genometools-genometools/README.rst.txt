@@ -27,7 +27,7 @@ genometools-genometools
 
    :versions: 1.5.10, 1.5.9
 
-   :depends: :conda:package:`gettext`  :conda:package:`xorg-libsm`  :conda:package:`xorg-libxext`  :conda:package:`xorg-libxrender`  
+   :depends: :conda:package:`cairo`  :conda:package:`gettext`  :conda:package:`libgcc`  :conda:package:`pango`  :conda:package:`xorg-libsm`  :conda:package:`xorg-libxext`  :conda:package:`xorg-libxrender`  
 
    :required~by: |required_by_genometools-genometools|
 

@@ -23,7 +23,7 @@ clustalo
 
    :versions: 1.2.4, 1.2.3
 
-   :depends: :conda:package:`argtable2`  :conda:package:`llvm`  
+   :depends: :conda:package:`argtable2`  :conda:package:`libgcc`  
 
    :required~by: |required_by_clustalo|
 

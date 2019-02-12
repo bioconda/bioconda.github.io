@@ -23,7 +23,7 @@ clustergrammer
 
    :versions: 1.13.5
 
-   :depends: :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`scikit-learn`  
+   :depends: :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`scikit-learn`  
 
    :required~by: |required_by_clustergrammer|
 

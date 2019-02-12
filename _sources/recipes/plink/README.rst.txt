@@ -24,7 +24,7 @@ plink
 
    :versions: 1.90b4
 
-   :depends: :conda:package:`zlib`  
+   :depends: :conda:package:`libgcc`  :conda:package:`openblas`  :conda:package:`zlib`  
 
    :required~by: |required_by_plink|
 

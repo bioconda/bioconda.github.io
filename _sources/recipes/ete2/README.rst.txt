@@ -23,7 +23,7 @@ ete2
 
    :versions: 2.3.10, 2.2.1072
 
-   :depends: :conda:package:`lxml`  :conda:package:`numpy`  :conda:package:`pyqt` 4.* :conda:package:`python` 2.7* 
+   :depends: :conda:package:`lxml`  :conda:package:`mysql-python`  :conda:package:`numpy`  :conda:package:`pyqt`  :conda:package:`python` 2.7* :conda:package:`setuptools`  
 
    :required~by: |required_by_ete2|
 

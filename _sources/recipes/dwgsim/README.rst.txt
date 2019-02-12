@@ -23,7 +23,7 @@ dwgsim
 
    :versions: 1.1.11
 
-   :depends: :conda:package:`ncurses`  :conda:package:`perl-app-cpanminus`  :conda:package:`perl-module-build`  :conda:package:`samtools` 0.1.18 :conda:package:`zlib`  
+   :depends: :conda:package:`perl-app-cpanminus`  :conda:package:`perl-module-build`  :conda:package:`samtools` 0.1.18 :conda:package:`zlib`  
 
    :required~by: |required_by_dwgsim|
 

@@ -24,7 +24,7 @@ desman
 
    :versions: 2.1
 
-   :depends: :conda:package:`bcbiogff`  :conda:package:`biopython`  :conda:package:`cython`  :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`perl`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`r-getopt`  :conda:package:`r-ggplot2`  :conda:package:`r-labeling`  :conda:package:`r-reshape`  :conda:package:`scikit-learn`  :conda:package:`scipy`  
+   :depends: :conda:package:`bcbiogff`  :conda:package:`biopython`  :conda:package:`cython`  :conda:package:`gsl` 1.16* :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`perl` 5.22.0* :conda:package:`pysam`  :conda:package:`python` 3.5* :conda:package:`r-getopt`  :conda:package:`r-ggplot2`  :conda:package:`r-labeling`  :conda:package:`r-reshape`  :conda:package:`scikit-learn`  :conda:package:`scipy`  
 
    :required~by: |required_by_desman|
 

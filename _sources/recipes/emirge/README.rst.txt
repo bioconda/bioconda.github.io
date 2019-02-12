@@ -23,7 +23,7 @@ emirge
 
    :versions: 0.61.1
 
-   :depends: :conda:package:`biopython`  :conda:package:`bowtie`  :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`samtools`  :conda:package:`scipy`  :conda:package:`vsearch`  :conda:package:`zlib`  
+   :depends: :conda:package:`biopython`  :conda:package:`bowtie`  :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`samtools`  :conda:package:`scipy`  :conda:package:`vsearch`  :conda:package:`zlib`  
 
    :required~by: |required_by_emirge|
 

@@ -23,7 +23,7 @@ pythonnet
 
    :versions: 2.3.0
 
-   :depends: :conda:package:`glib`  :conda:package:`mono`  :conda:package:`python` 2.7* 
+   :depends: :conda:package:`mono`  :conda:package:`python` 2.7* 
 
    :required~by: |required_by_pythonnet|
 

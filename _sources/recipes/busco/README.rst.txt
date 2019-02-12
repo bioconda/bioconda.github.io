@@ -24,7 +24,7 @@ busco
 
    :versions: 3.0.2, 3.0.1, 2.0.1, 2.0, 1.2
 
-   :depends: :conda:package:`augustus` >=3.2.3 :conda:package:`blast`  :conda:package:`hmmer`  :conda:package:`python` 3.5* :conda:package:`r-ggplot2` >=2.2.1 
+   :depends: :conda:package:`augustus` >=3.2.3 :conda:package:`blast` >=2.2,<2.4 :conda:package:`findutils`  :conda:package:`hmmer`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`r-ggplot2` >=2.2.1 
 
    :required~by: |required_by_busco|
 

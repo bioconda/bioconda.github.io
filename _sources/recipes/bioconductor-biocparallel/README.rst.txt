@@ -24,7 +24,7 @@ bioconductor-biocparallel
 
    :versions: 1.16.2, 1.14.2, 1.12.0, 1.10.1, 1.6.6, 1.5.0, 1.4.3, 1.4.0, 1.2.22
 
-   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`libgfortran` >=3.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh`  :conda:package:`r-futile.logger`  :conda:package:`r-snow`  
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh`  :conda:package:`r-futile.logger`  :conda:package:`r-snow`  
 
    :required~by: |required_by_bioconductor-biocparallel|
 

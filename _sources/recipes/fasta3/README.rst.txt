@@ -23,7 +23,7 @@ fasta3
 
    :versions: 36.3.8
 
-   :depends: 
+   :depends: :conda:package:`zlib`  
 
    :required~by: |required_by_fasta3|
 

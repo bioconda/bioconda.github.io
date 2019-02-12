@@ -23,7 +23,7 @@ bioconductor-levi
 
    :versions: 1.0.0
 
-   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-colorspace` >=1.3-2 :conda:package:`r-dplyr` >=0.7.4 :conda:package:`r-dt` >=0.4 :conda:package:`r-ggplot2` >=2.2.1 :conda:package:`r-httr` >=1.3.1 :conda:package:`r-igraph` >=1.2.1 :conda:package:`r-knitr`  :conda:package:`r-rcolorbrewer` >=1.1-2 :conda:package:`r-rcpp` >=0.12.18 :conda:package:`r-reshape2` >=1.4.3 :conda:package:`r-shiny` >=1.0.5 :conda:package:`r-shinydashboard` >=0.7.0 :conda:package:`r-shinyjs` >=1.0 :conda:package:`r-testthat`  :conda:package:`r-xml2` >=1.2.0 
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-colorspace` >=1.3-2 :conda:package:`r-dplyr` >=0.7.4 :conda:package:`r-dt` >=0.4 :conda:package:`r-ggplot2` >=2.2.1 :conda:package:`r-httr` >=1.3.1 :conda:package:`r-igraph` >=1.2.1 :conda:package:`r-knitr`  :conda:package:`r-rcolorbrewer` >=1.1-2 :conda:package:`r-rcpp` >=0.12.18 :conda:package:`r-reshape2` >=1.4.3 :conda:package:`r-shiny` >=1.0.5 :conda:package:`r-shinydashboard` >=0.7.0 :conda:package:`r-shinyjs` >=1.0 :conda:package:`r-testthat`  :conda:package:`r-xml2` >=1.2.0 
 
    :required~by: |required_by_bioconductor-levi|
 

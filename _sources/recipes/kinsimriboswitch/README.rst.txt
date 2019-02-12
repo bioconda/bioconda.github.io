@@ -25,7 +25,7 @@ kinsimriboswitch
 
    :versions: 0.3
 
-   :depends: :conda:package:`coreutils`  :conda:package:`gmp` >=6.1.2,<7.0a0 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-clone`  :conda:package:`perl-devel-assert`  :conda:package:`perl-file-slurp`  :conda:package:`perl-heap`  :conda:package:`perl-inline`  :conda:package:`perl-inline-c`  :conda:package:`perl-ipc-system-simple`  :conda:package:`perl-list-moreutils`  :conda:package:`perl-math-random-mt-auto`  :conda:package:`perl-math-round`  :conda:package:`perl-parallel-loops`  :conda:package:`perl-parse-recdescent`  :conda:package:`perl-sys-info`  :conda:package:`r`  :conda:package:`r-argparser`  :conda:package:`r-rcolorbrewer`  :conda:package:`treekin`  :conda:package:`viennarna`  
+   :depends: :conda:package:`coreutils`  :conda:package:`gmp` >=6.1.2,<7.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-clone`  :conda:package:`perl-devel-assert`  :conda:package:`perl-file-slurp`  :conda:package:`perl-heap`  :conda:package:`perl-inline`  :conda:package:`perl-inline-c`  :conda:package:`perl-ipc-system-simple`  :conda:package:`perl-list-moreutils`  :conda:package:`perl-math-random-mt-auto`  :conda:package:`perl-math-round`  :conda:package:`perl-parallel-loops`  :conda:package:`perl-parse-recdescent`  :conda:package:`perl-sys-info`  :conda:package:`r`  :conda:package:`r-argparser`  :conda:package:`r-rcolorbrewer`  :conda:package:`treekin`  :conda:package:`viennarna`  
 
    :required~by: |required_by_kinsimriboswitch|
 

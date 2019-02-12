@@ -24,7 +24,7 @@ commet
 
    :versions: 24.7.14
 
-   :depends: :conda:package:`libgfortran`  :conda:package:`python` 2.7* :conda:package:`r-base` 3.4.1* :conda:package:`r-gplots`  
+   :depends: :conda:package:`libgcc`  :conda:package:`libgfortran`  :conda:package:`python` 2.7* :conda:package:`r-base` 3.4.1* :conda:package:`r-gplots`  
 
    :required~by: |required_by_commet|
 

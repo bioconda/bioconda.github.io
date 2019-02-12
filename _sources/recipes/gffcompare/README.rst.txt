@@ -24,7 +24,7 @@ gffcompare
 
    :versions: 0.10.6, 0.9.8
 
-   :depends: 
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 
 
    :required~by: |required_by_gffcompare|
 

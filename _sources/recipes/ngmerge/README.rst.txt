@@ -24,7 +24,7 @@ ngmerge
 
    :versions: 0.3
 
-   :depends: :conda:package:`llvm-openmp`  :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`libgcc`  :conda:package:`openmp`  :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_ngmerge|
 

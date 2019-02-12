@@ -23,7 +23,7 @@ r-sigqc
 
    :versions: 0.1.21, 0.1.14
 
-   :depends: :conda:package:`bioconductor-complexheatmap`  :conda:package:`bioconductor-gsva`  :conda:package:`bioconductor-rankprod`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biclust`  :conda:package:`r-circlize`  :conda:package:`r-class`  :conda:package:`r-cluster`  :conda:package:`r-fmsb`  :conda:package:`r-gplots`  :conda:package:`r-gridgraphics`  :conda:package:`r-kernsmooth`  :conda:package:`r-lattice`  :conda:package:`r-mass`  :conda:package:`r-mclust`  :conda:package:`r-moments`  :conda:package:`r-nnet`  
+   :depends: :conda:package:`bioconductor-complexheatmap`  :conda:package:`bioconductor-gsva`  :conda:package:`bioconductor-rankprod`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-biclust`  :conda:package:`r-circlize`  :conda:package:`r-class`  :conda:package:`r-cluster`  :conda:package:`r-fmsb`  :conda:package:`r-gplots`  :conda:package:`r-gridgraphics`  :conda:package:`r-kernsmooth`  :conda:package:`r-lattice`  :conda:package:`r-mass`  :conda:package:`r-mclust`  :conda:package:`r-moments`  :conda:package:`r-nnet`  
 
    :required~by: |required_by_r-sigqc|
 

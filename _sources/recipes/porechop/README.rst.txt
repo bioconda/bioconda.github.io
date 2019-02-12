@@ -23,7 +23,7 @@ porechop
 
    :versions: 0.2.3_seqan2.1.1
 
-   :depends: :conda:package:`python` >=3.4 
+   :depends: :conda:package:`libgcc`  :conda:package:`python` >=3.4 
 
    :required~by: |required_by_porechop|
 

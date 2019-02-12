@@ -24,7 +24,7 @@ fmlrc
 
    :versions: 0.1.2
 
-   :depends: 
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 
 
    :required~by: |required_by_fmlrc|
 

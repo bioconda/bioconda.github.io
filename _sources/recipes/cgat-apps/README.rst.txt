@@ -23,7 +23,7 @@ cgat-apps
 
    :versions: 0.5.3
 
-   :depends: :conda:package:`alignlib-lite`  :conda:package:`bedtools`  :conda:package:`biopython`  :conda:package:`cgatcore`  :conda:package:`coreutils`  :conda:package:`cython`  :conda:package:`future`  :conda:package:`grep`  :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pybedtools`  :conda:package:`pybigwig`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`python-lzo`  :conda:package:`pyyaml`  :conda:package:`quicksect`  :conda:package:`scipy`  :conda:package:`setuptools`  :conda:package:`six`  :conda:package:`ucsc-bedgraphtobigwig`  :conda:package:`ucsc-bedtobigbed`  :conda:package:`ucsc-wigtobigwig`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`alignlib-lite`  :conda:package:`bedtools`  :conda:package:`biopython`  :conda:package:`cgatcore`  :conda:package:`coreutils`  :conda:package:`cython`  :conda:package:`future`  :conda:package:`grep`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pybedtools`  :conda:package:`pybigwig`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`python-lzo`  :conda:package:`pyyaml`  :conda:package:`quicksect`  :conda:package:`scipy`  :conda:package:`setuptools`  :conda:package:`six`  :conda:package:`ucsc-bedgraphtobigwig`  :conda:package:`ucsc-bedtobigbed`  :conda:package:`ucsc-wigtobigwig`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_cgat-apps|
 

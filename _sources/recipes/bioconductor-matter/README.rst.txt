@@ -24,7 +24,7 @@ bioconductor-matter
 
    :versions: 1.8.0, 1.6.0, 1.4.1, 1.2.0
 
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biglm`  :conda:package:`r-digest`  :conda:package:`r-irlba`  
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biglm`  :conda:package:`r-digest`  :conda:package:`r-irlba`  
 
    :required~by: |required_by_bioconductor-matter|
 

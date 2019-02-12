@@ -23,7 +23,7 @@ r-gwpcr
 
    :versions: 0.9.10, 0.9.9
 
-   :depends: :conda:package:`r-akima`  :conda:package:`r-base` 3.4.1* :conda:package:`r-data.table`  :conda:package:`r-statmod`  
+   :depends: :conda:package:`libgcc`  :conda:package:`r-akima`  :conda:package:`r-base` 3.4.1* :conda:package:`r-data.table`  :conda:package:`r-statmod`  
 
    :required~by: |required_by_r-gwpcr|
 

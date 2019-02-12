@@ -23,7 +23,7 @@ fasta_ushuffle
 
    :versions: 0.2
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_fasta_ushuffle|
 

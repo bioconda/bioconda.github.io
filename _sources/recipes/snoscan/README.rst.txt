@@ -24,7 +24,7 @@ snoscan
 
    :versions: 0.9b
 
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`zlib`  
+   :depends: :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`zlib`  
 
    :required~by: |required_by_snoscan|
 

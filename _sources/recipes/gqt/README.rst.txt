@@ -23,7 +23,7 @@ gqt
 
    :versions: 1.1.3
 
-   :depends: :conda:package:`htslib`  :conda:package:`sqlite`  
+   :depends: :conda:package:`htslib`  :conda:package:`libgcc`  :conda:package:`sqlite`  
 
    :required~by: |required_by_gqt|
 

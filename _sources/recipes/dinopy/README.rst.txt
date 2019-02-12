@@ -23,7 +23,7 @@ dinopy
 
    :versions: 2.0.1, 2.0.0, 1.2.1, 1.2.0
 
-   :depends: :conda:package:`numpy` >=1.9 :conda:package:`python` >=3.5,<3.6.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy` >=1.9 :conda:package:`python` >=3.5,<3.6.0a0 
 
    :required~by: |required_by_dinopy|
 

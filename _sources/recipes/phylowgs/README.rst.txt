@@ -23,7 +23,7 @@ phylowgs
 
    :versions: 20180317, 20150714
 
-   :depends: :conda:package:`ete2`  :conda:package:`gsl` 1.16* :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`pyvcf`  :conda:package:`scipy`  
+   :depends: :conda:package:`ete2`  :conda:package:`gsl` 1.16* :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`pyvcf`  :conda:package:`scipy`  
 
    :required~by: |required_by_phylowgs|
 

@@ -23,7 +23,7 @@ arb-bio
 
    :versions: 6.0.6
 
-   :depends: :conda:package:`fasttree`  :conda:package:`fig2dev`  :conda:package:`gettext` !=0.19.8 :conda:package:`glib` 2.51.* :conda:package:`gnuplot`  :conda:package:`mafft`  :conda:package:`mrbayes`  :conda:package:`muscle`  :conda:package:`openmotif`  :conda:package:`perl` !=5.22.0.1-0,!=5.22.2.1-0 :conda:package:`phylip`  :conda:package:`phyml` 3.2.0 :conda:package:`raxml`  :conda:package:`sed` >=4.4 :conda:package:`xfig`  :conda:package:`xorg-libxaw`  :conda:package:`xorg-libxi`  :conda:package:`xorg-libxmu`  :conda:package:`xorg-libxp`  :conda:package:`xorg-libxpm`  
+   :depends: :conda:package:`fasttree`  :conda:package:`fig2dev`  :conda:package:`gettext` !=0.19.8 :conda:package:`glib` 2.51.* :conda:package:`gnuplot`  :conda:package:`libgcc`  :conda:package:`mafft`  :conda:package:`mrbayes`  :conda:package:`muscle`  :conda:package:`openmotif`  :conda:package:`perl` !=5.22.0.1-0,!=5.22.2.1-0 :conda:package:`phylip`  :conda:package:`phyml` 3.2.0 :conda:package:`raxml`  :conda:package:`sed` >=4.4 :conda:package:`xfig`  :conda:package:`xorg-libxaw`  :conda:package:`xorg-libxi`  :conda:package:`xorg-libxmu`  :conda:package:`xorg-libxp`  :conda:package:`xorg-libxpm`  
 
    :required~by: |required_by_arb-bio|
 

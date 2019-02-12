@@ -23,7 +23,7 @@ r-phangorn
 
    :versions: 2.4.0, 2.2.0
 
-   :depends: :conda:package:`r-ape` >=5.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-fastmatch`  :conda:package:`r-igraph` >=1.0 :conda:package:`r-magrittr`  :conda:package:`r-matrix`  :conda:package:`r-quadprog`  :conda:package:`r-rcpp` >=0.12.0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-ape` >=5.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-fastmatch`  :conda:package:`r-igraph` >=1.0 :conda:package:`r-magrittr`  :conda:package:`r-matrix`  :conda:package:`r-quadprog`  :conda:package:`r-rcpp` >=0.12.0 
 
    :required~by: |required_by_r-phangorn|
 

@@ -23,7 +23,7 @@ asn2gb
 
    :versions: 18.2
 
-   :depends: 
+   :depends: :conda:package:`libidn11`  :conda:package:`zlib` 1.2.8* 
 
    :required~by: |required_by_asn2gb|
 

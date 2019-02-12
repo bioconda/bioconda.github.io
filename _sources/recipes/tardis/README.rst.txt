@@ -30,7 +30,7 @@ tardis
 
    :versions: 1.0.19, 0.5.17, 0.5.16, 0.5.13, 0.5.12, 0.5.11, 0.5.10, 0.5.9
 
-   :depends: :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`pytoml`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`pytoml`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_tardis|
 

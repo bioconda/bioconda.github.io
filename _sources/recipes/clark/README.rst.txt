@@ -24,7 +24,7 @@ clark
 
    :versions: 1.2.5, 1.2.3.1, 1.2.3, 1.2.2_b
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_clark|
 

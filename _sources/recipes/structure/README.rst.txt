@@ -24,7 +24,7 @@ structure
 
    :versions: 2.3.4
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_structure|
 

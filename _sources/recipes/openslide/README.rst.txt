@@ -23,7 +23,7 @@ openslide
 
    :versions: 3.4.1
 
-   :depends: :conda:package:`cairo` >=1.2 :conda:package:`gdk-pixbuf`  :conda:package:`glib` >=2.48.0 :conda:package:`jpeg`  :conda:package:`libpng`  :conda:package:`libtiff` >=4 :conda:package:`libxml2`  :conda:package:`openjpeg` >=2.1 :conda:package:`sqlite` >=3.6.2 :conda:package:`zlib`  
+   :depends: :conda:package:`cairo` >=1.2 :conda:package:`gdk-pixbuf`  :conda:package:`glib` >=2.16 :conda:package:`jpeg`  :conda:package:`libgcc`  :conda:package:`libpng`  :conda:package:`libtiff` >=4 :conda:package:`libxml2`  :conda:package:`openjpeg` >=2.1 :conda:package:`sqlite` >=3.6.2 :conda:package:`zlib`  
 
    :required~by: |required_by_openslide|
 

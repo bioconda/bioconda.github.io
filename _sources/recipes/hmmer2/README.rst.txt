@@ -23,7 +23,7 @@ hmmer2
 
    :versions: 2.3.2
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_hmmer2|
 

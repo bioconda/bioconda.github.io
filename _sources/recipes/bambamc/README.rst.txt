@@ -23,7 +23,7 @@ bambamc
 
    :versions: 0.0.50
 
-   :depends: :conda:package:`zlib`  
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
    :required~by: |required_by_bambamc|
 

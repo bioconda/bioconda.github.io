@@ -24,7 +24,7 @@ bioconductor-browservizdemo
 
    :versions: 1.11.0, 1.10.0
 
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.26.0,<0.28.0 :conda:package:`bioconductor-browserviz` >=2.2.0,<2.4.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-httpuv` >=1.3.2 :conda:package:`r-jsonlite` >=0.9.15 :conda:package:`r-rcpp` >=0.11.5 
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.26.0,<0.28.0 :conda:package:`bioconductor-browserviz` >=2.2.0,<2.4.0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-httpuv` >=1.3.2 :conda:package:`r-jsonlite` >=0.9.15 :conda:package:`r-rcpp` >=0.11.5 
 
    :required~by: |required_by_bioconductor-browservizdemo|
 

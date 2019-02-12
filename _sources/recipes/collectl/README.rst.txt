@@ -23,7 +23,7 @@ collectl
 
    :versions: 4.0.4
 
-   :depends: :conda:package:`perl-threaded`  :conda:package:`zlib`  
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
    :required~by: |required_by_collectl|
 

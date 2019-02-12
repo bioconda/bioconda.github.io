@@ -23,7 +23,7 @@ hifive
 
    :versions: 1.5.7, 1.5.6, 1.5.3, 1.5.1, 1.4.0, 1.3.1, 1.3.0, 1.2.1
 
-   :depends: :conda:package:`cython`  :conda:package:`h5py`  :conda:package:`numpy`  :conda:package:`pil`  :conda:package:`pysam`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`pyx` 0.12.1 :conda:package:`scipy`  :conda:package:`setuptools_cython`  
+   :depends: :conda:package:`cython`  :conda:package:`h5py`  :conda:package:`mpi4py`  :conda:package:`numpy`  :conda:package:`pil`  :conda:package:`pysam`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`pyx` 0.12.1 :conda:package:`scipy`  :conda:package:`setuptools_cython`  
 
    :required~by: |required_by_hifive|
 

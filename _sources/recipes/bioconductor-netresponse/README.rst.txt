@@ -23,7 +23,7 @@ bioconductor-netresponse
 
    :versions: 1.42.0
 
-   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-minet` >=3.40.0,<3.41.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dmt`  :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-mclust`  :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  
+   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-minet` >=3.40.0,<3.41.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dmt`  :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-mclust`  :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  
 
    :required~by: |required_by_bioconductor-netresponse|
 

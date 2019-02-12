@@ -23,7 +23,7 @@ bioconductor-bdmmacorrect
 
    :versions: 1.0.0
 
-   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ellipse`  :conda:package:`r-ggplot2`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcppeigen`  :conda:package:`r-vegan`  
+   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ellipse`  :conda:package:`r-ggplot2`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcppeigen`  :conda:package:`r-vegan`  
 
    :required~by: |required_by_bioconductor-bdmmacorrect|
 

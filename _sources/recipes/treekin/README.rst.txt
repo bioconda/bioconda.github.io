@@ -23,7 +23,7 @@ treekin
 
    :versions: 0.4.2, 0.3.1
 
-   :depends: :conda:package:`blas`  :conda:package:`lapack`  :conda:package:`libcxx`  
+   :depends: :conda:package:`blas`  :conda:package:`lapack`  :conda:package:`libgcc`  
 
    :required~by: |required_by_treekin|
 

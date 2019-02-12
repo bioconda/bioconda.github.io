@@ -23,7 +23,7 @@ stamp
 
    :versions: 2.1.3
 
-   :depends: :conda:package:`biom-format` >=2.0.1 :conda:package:`matplotlib` >=1.4.2 :conda:package:`numpy` >=1.9.1 :conda:package:`pyqi` >=0.3.2 :conda:package:`pyqt` 4.* :conda:package:`python` 2.7* :conda:package:`scipy` >=0.15.1 :conda:package:`six` >=1.3 
+   :depends: :conda:package:`biom-format` >=2.0.1 :conda:package:`matplotlib` >=1.4.2 :conda:package:`numpy` >=1.9.1 :conda:package:`pyqi` >=0.3.2 :conda:package:`python` 2.7* :conda:package:`scipy` >=0.15.1 :conda:package:`six` >=1.3 
 
    :required~by: |required_by_stamp|
 

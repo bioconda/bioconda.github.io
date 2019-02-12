@@ -23,7 +23,7 @@ bioconductor-phenstat
 
    :versions: 2.18.0
 
-   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`libgfortran` >=3.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-car`  :conda:package:`r-corrplot`  :conda:package:`r-ggplot2`  :conda:package:`r-knitr`  :conda:package:`r-lme4`  :conda:package:`r-logistf`  :conda:package:`r-mass`  :conda:package:`r-msgps`  :conda:package:`r-nlme`  :conda:package:`r-nortest`  :conda:package:`r-pingr`  :conda:package:`r-reshape`  :conda:package:`r-smoothwin`  
+   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-car`  :conda:package:`r-corrplot`  :conda:package:`r-ggplot2`  :conda:package:`r-knitr`  :conda:package:`r-lme4`  :conda:package:`r-logistf`  :conda:package:`r-mass`  :conda:package:`r-msgps`  :conda:package:`r-nlme`  :conda:package:`r-nortest`  :conda:package:`r-pingr`  :conda:package:`r-reshape`  :conda:package:`r-smoothwin`  
 
    :required~by: |required_by_bioconductor-phenstat|
 

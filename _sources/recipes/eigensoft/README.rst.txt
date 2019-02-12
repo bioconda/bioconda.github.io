@@ -24,7 +24,7 @@ eigensoft
 
    :versions: 7.2.1, 6.0.1
 
-   :depends: :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`perl`  
+   :depends: :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`perl`  
 
    :required~by: |required_by_eigensoft|
 

@@ -23,7 +23,7 @@ miranda
 
    :versions: 3.3a
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_miranda|
 

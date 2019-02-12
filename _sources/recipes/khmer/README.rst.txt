@@ -25,7 +25,7 @@ khmer
 
    :versions: 3.0.0a2, 3.0.0a1, 2.1.2, 2.1, 2.1rc1, 2.0
 
-   :depends: :conda:package:`bz2file`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`screed` >=1.0 
+   :depends: :conda:package:`bz2file`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`screed` >=1.0 
 
    :required~by: |required_by_khmer|
 

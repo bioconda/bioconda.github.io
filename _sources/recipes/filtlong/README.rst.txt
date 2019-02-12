@@ -23,7 +23,7 @@ filtlong
 
    :versions: 0.2.0, 0.1.1, 0.1.0
 
-   :depends: :conda:package:`zlib` 1.2.8* 
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
 
    :required~by: |required_by_filtlong|
 

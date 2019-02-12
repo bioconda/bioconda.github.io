@@ -23,7 +23,7 @@ perl-xml-parser
 
    :versions: 2.44
 
-   :depends: :conda:package:`expat`  :conda:package:`libgcc`  :conda:package:`perl-threaded`  
+   :depends: :conda:package:`expat`  :conda:package:`perl-threaded`  
 
    :required~by: |required_by_perl-xml-parser|
 

@@ -24,7 +24,7 @@ vargeno
 
    :versions: 1.0.3
 
-   :depends: 
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 
 
    :required~by: |required_by_vargeno|
 

@@ -23,7 +23,7 @@ jcvi
 
    :versions: 0.8.12, 0.8.4
 
-   :depends: :conda:package:`biopython`  :conda:package:`deap`  :conda:package:`gffutils`  :conda:package:`matplotlib`  :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`r-ggplot2` >=3.0.0 
+   :depends: :conda:package:`biopython`  :conda:package:`deap`  :conda:package:`gffutils`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`r-ggplot2` >=3.0.0 
 
    :required~by: |required_by_jcvi|
 

@@ -24,7 +24,7 @@ comet-ms
 
    :versions: 2018013, 2018012, 2016013
 
-   :depends: 
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 
 
    :required~by: |required_by_comet-ms|
 

@@ -24,7 +24,7 @@ rfmix
 
    :versions: 2.03.r0.9505bfa
 
-   :depends: :conda:package:`pthread-stubs`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`pthread-stubs`  
 
    :required~by: |required_by_rfmix|
 

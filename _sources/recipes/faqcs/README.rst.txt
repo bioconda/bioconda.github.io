@@ -24,7 +24,7 @@ faqcs
 
    :versions: 2.09, 2.08
 
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_faqcs|
 

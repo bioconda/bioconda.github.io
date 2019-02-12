@@ -23,7 +23,7 @@ fastq_utils
 
    :versions: 0.18.2
 
-   :depends: :conda:package:`samtools` 1.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`samtools` 1.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_fastq_utils|
 

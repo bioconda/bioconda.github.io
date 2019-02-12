@@ -23,7 +23,7 @@ soapdenovo2-prepare
 
    :versions: 2.0
 
-   :depends: :conda:package:`zlib`  
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
    :required~by: |required_by_soapdenovo2-prepare|
 

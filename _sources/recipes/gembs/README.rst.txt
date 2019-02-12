@@ -24,7 +24,7 @@ gembs
 
    :versions: 3.2.0
 
-   :depends: :conda:package:`bs_call` 2.02.* :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`gem3-mapper` 3.6.1.* :conda:package:`htslib` >=1.8,<1.9.0a0 :conda:package:`matplotlib`  :conda:package:`multiprocess`  :conda:package:`pigz`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`samtools` 1.8.* :conda:package:`wget`  :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bs_call` 2.02.* :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`gem3-mapper` 3.6.1.* :conda:package:`htslib` >=1.8,<1.9.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`multiprocess`  :conda:package:`pigz`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`samtools` 1.8.* :conda:package:`wget`  :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_gembs|
 

@@ -23,7 +23,7 @@ openbabel
 
    :versions: 2.4.1, 2.3.90dev7d621d9, 2.3.2
 
-   :depends: :conda:package:`libxml2`  :conda:package:`python` 2.7* :conda:package:`zlib`  
+   :depends: :conda:package:`cairo`  :conda:package:`libgcc`  :conda:package:`libxml2`  :conda:package:`python` 2.7* :conda:package:`zlib`  
 
    :required~by: |required_by_openbabel|
 

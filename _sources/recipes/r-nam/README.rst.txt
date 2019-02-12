@@ -23,7 +23,7 @@ r-nam
 
    :versions: 1.6.4
 
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-randomforest`  :conda:package:`r-rcpp`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-randomforest`  :conda:package:`r-rcpp`  
 
    :required~by: |required_by_r-nam|
 

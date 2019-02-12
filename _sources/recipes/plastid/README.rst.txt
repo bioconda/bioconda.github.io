@@ -23,7 +23,7 @@ plastid
 
    :versions: 0.4.8, 0.4.7
 
-   :depends: :conda:package:`biopython` >=1.64 :conda:package:`bowtie`  :conda:package:`cython` >=0.22.0 :conda:package:`fastx_toolkit`  :conda:package:`matplotlib` >=1.4.0 :conda:package:`numpy` >=1.9.0 :conda:package:`pandas` >=0.17.0 :conda:package:`pysam` >=0.8.4 :conda:package:`python` 2.7* :conda:package:`scipy` >=0.15.1 :conda:package:`termcolor`  :conda:package:`twobitreader` >=3.0.0 :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`biopython` >=1.64 :conda:package:`bowtie`  :conda:package:`cython` >=0.22.0 :conda:package:`fastx_toolkit`  :conda:package:`libgcc`  :conda:package:`matplotlib` >=1.4.0 :conda:package:`numpy` >=1.9.0 :conda:package:`pandas` >=0.17.0 :conda:package:`pysam` >=0.8.4 :conda:package:`python` 2.7* :conda:package:`scipy` >=0.15.1 :conda:package:`termcolor`  :conda:package:`twobitreader` >=3.0.0 :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_plastid|
 

@@ -23,7 +23,7 @@ bioconductor-genie3
 
    :versions: 1.4.0
 
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-reshape2`  
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-reshape2`  
 
    :required~by: |required_by_bioconductor-genie3|
 

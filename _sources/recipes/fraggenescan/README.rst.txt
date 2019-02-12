@@ -27,7 +27,7 @@ fraggenescan
 
    :versions: 1.31, 1.30
 
-   :depends: :conda:package:`perl`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  
 
    :required~by: |required_by_fraggenescan|
 

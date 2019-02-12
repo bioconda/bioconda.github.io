@@ -23,7 +23,7 @@ sra-tools
 
    :versions: 2.9.1_1, 2.9.1, 2.9.0, 2.8.2, 2.8.1, 2.8.0, 2.7.0, 2.6.3, 2.6.2
 
-   :depends: 
+   :depends: :conda:package:`libgcc-ng` >=4.9 
 
    :required~by: |required_by_sra-tools|
 

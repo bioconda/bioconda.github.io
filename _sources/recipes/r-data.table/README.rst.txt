@@ -23,7 +23,7 @@ r-data.table
 
    :versions: 1.11.6, 1.10.4, 1.10.0
 
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
 
    :required~by: |required_by_r-data.table|
 

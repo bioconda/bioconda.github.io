@@ -24,7 +24,7 @@ bioconductor-lfa
 
    :versions: 1.12.0, 1.10.0, 1.8.0
 
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  
 
    :required~by: |required_by_bioconductor-lfa|
 

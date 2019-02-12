@@ -23,7 +23,7 @@ plink2
 
    :versions: 1.90b3.35
 
-   :depends: 
+   :depends: :conda:package:`openblas`  
 
    :required~by: |required_by_plink2|
 

@@ -24,7 +24,7 @@ freebayes
 
    :versions: 1.2.0, 1.1.0.46, 1.1.0, 1.0.2.29, 1.0.2, 1.0.1, 0.9.21.26, 0.9.21.7
 
-   :depends: :conda:package:`bzip2` 1.0* :conda:package:`htslib` 1.7* :conda:package:`parallel`  :conda:package:`python` 2.7* :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`bzip2` 1.0* :conda:package:`htslib` 1.7* :conda:package:`libgcc`  :conda:package:`parallel`  :conda:package:`python` 2.7* :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_freebayes|
 

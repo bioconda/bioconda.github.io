@@ -23,7 +23,7 @@ bam-readcount
 
    :versions: 0.8
 
-   :depends: :conda:package:`ncurses`  :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* :conda:package:`zlib`  
+   :depends: :conda:package:`libgcc`  :conda:package:`ncurses`  :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* :conda:package:`zlib`  
 
    :required~by: |required_by_bam-readcount|
 

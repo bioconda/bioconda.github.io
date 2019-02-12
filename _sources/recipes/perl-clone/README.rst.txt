@@ -23,7 +23,7 @@ perl-clone
 
    :versions: 0.41, 0.39, 0.38
 
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-autoloader`  :conda:package:`perl-dynaloader`  :conda:package:`perl-exporter`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-autoloader`  :conda:package:`perl-dynaloader`  :conda:package:`perl-exporter`  
 
    :required~by: |required_by_perl-clone|
 

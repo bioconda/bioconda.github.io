@@ -23,7 +23,7 @@ codonw
 
    :versions: 1.4.4
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_codonw|
 

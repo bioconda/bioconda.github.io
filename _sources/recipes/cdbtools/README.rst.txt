@@ -23,7 +23,7 @@ cdbtools
 
    :versions: 0.99
 
-   :depends: :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`zlib`  
 
    :required~by: |required_by_cdbtools|
 

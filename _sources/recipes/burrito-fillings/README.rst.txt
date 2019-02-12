@@ -23,7 +23,7 @@ burrito-fillings
 
    :versions: 0.1.1
 
-   :depends: :conda:package:`burrito` <1.0.0 :conda:package:`python` 2.7* :conda:package:`scikit-bio` >=0.2.1,<0.3.0 
+   :depends: :conda:package:`burrito` ==0.9.1 :conda:package:`python` 2.7* :conda:package:`scikit-bio` ==0.2.3 
 
    :required~by: |required_by_burrito-fillings|
 

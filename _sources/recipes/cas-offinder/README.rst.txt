@@ -23,7 +23,7 @@ cas-offinder
 
    :versions: 2.4
 
-   :depends: :conda:package:`cmake`  
+   :depends: :conda:package:`cmake`  :conda:package:`libgcc`  :conda:package:`pocl`  
 
    :required~by: |required_by_cas-offinder|
 

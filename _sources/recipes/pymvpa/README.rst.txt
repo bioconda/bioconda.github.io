@@ -24,7 +24,7 @@ pymvpa
 
    :versions: 2.6.5, 2.6.4, 2.6.0
 
-   :depends: :conda:package:`libsvm` >=3.21,<3.22.0a0 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  :conda:package:`swig`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libsvm` >=3.21,<3.22.0a0 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  :conda:package:`swig`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_pymvpa|
 

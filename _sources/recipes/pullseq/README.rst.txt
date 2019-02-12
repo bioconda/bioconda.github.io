@@ -23,7 +23,7 @@ pullseq
 
    :versions: 1.0.2
 
-   :depends: :conda:package:`pcre`  :conda:package:`zlib`  
+   :depends: :conda:package:`libgcc`  :conda:package:`pcre`  :conda:package:`zlib`  
 
    :required~by: |required_by_pullseq|
 

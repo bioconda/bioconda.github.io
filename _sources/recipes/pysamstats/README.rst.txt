@@ -24,7 +24,7 @@ pysamstats
 
    :versions: 1.1.2, 1.0.1, 1.0.0, 0.24.3, 0.24.2, 0.24.0
 
-   :depends: :conda:package:`numpy`  :conda:package:`pysam` >=0.15 :conda:package:`pytables`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`pysam` >=0.15 :conda:package:`pytables`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_pysamstats|
 

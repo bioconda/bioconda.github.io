@@ -23,7 +23,7 @@ r-taxonomizr
 
    :versions: 0.5.1
 
-   :depends: :conda:package:`parallel`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-knitr`  :conda:package:`r-markdown`  :conda:package:`r-r.utils`  :conda:package:`r-rsqlite`  :conda:package:`r-testthat`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`parallel`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-knitr`  :conda:package:`r-markdown`  :conda:package:`r-r.utils`  :conda:package:`r-rsqlite`  :conda:package:`r-testthat`  
 
    :required~by: |required_by_r-taxonomizr|
 

@@ -23,7 +23,7 @@ rcorrector
 
    :versions: 1.0.3.1, 1.0.3, 1.0.2
 
-   :depends: :conda:package:`jellyfish` 2.* :conda:package:`perl`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`jellyfish` 2.* :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_rcorrector|
 

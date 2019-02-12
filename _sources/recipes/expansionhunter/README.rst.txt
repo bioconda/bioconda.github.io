@@ -23,7 +23,7 @@ expansionhunter
 
    :versions: 2.0.8, 2.0.6
 
-   :depends: :conda:package:`boost` 1.61* :conda:package:`icu`  :conda:package:`libcxx`  
+   :depends: :conda:package:`boost` 1.61* :conda:package:`icu`  :conda:package:`libgcc`  
 
    :required~by: |required_by_expansionhunter|
 

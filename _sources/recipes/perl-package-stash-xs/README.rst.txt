@@ -23,7 +23,7 @@ perl-package-stash-xs
 
    :versions: 0.28
 
-   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 :conda:package:`perl-xsloader`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.27.0a0 :conda:package:`perl-xsloader`  
 
    :required~by: |required_by_perl-package-stash-xs|
 

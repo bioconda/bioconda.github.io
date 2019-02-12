@@ -23,7 +23,7 @@ r-adegenet
 
    :versions: 2.1.1, 2.1.0
 
-   :depends: :conda:package:`r-ade4`  :conda:package:`r-ape`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-boot`  :conda:package:`r-dplyr` >=0.4.1 :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-reshape2`  :conda:package:`r-seqinr`  :conda:package:`r-shiny`  :conda:package:`r-spdep`  :conda:package:`r-vegan`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-ade4`  :conda:package:`r-ape`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-boot`  :conda:package:`r-dplyr` >=0.4.1 :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-reshape2`  :conda:package:`r-seqinr`  :conda:package:`r-shiny`  :conda:package:`r-spdep`  :conda:package:`r-vegan`  
 
    :required~by: |required_by_r-adegenet|
 

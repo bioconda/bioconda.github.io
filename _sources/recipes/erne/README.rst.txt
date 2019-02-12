@@ -24,7 +24,7 @@ erne
 
    :versions: 2.1.1
 
-   :depends: :conda:package:`boost` ==1.63.0 :conda:package:`bzip2`  :conda:package:`libcxx`  :conda:package:`zlib`  
+   :depends: :conda:package:`boost` 1.61* :conda:package:`bzip2`  :conda:package:`libgcc`  :conda:package:`zlib`  
 
    :required~by: |required_by_erne|
 

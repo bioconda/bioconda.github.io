@@ -23,7 +23,7 @@ bioconductor-linnorm
 
    :versions: 2.6.0
 
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-amap`  :conda:package:`r-apcluster`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ellipse`  :conda:package:`r-fastcluster`  :conda:package:`r-fpc`  :conda:package:`r-ggdendro`  :conda:package:`r-ggplot2`  :conda:package:`r-gmodels`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-mclust`  :conda:package:`r-rcpp` >=0.12.2 :conda:package:`r-rcpparmadillo` >=0.8.100.1.0 :conda:package:`r-rtsne`  :conda:package:`r-statmod`  :conda:package:`r-vegan`  :conda:package:`r-zoo`  
+   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-amap`  :conda:package:`r-apcluster`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ellipse`  :conda:package:`r-fastcluster`  :conda:package:`r-fpc`  :conda:package:`r-ggdendro`  :conda:package:`r-ggplot2`  :conda:package:`r-gmodels`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-mclust`  :conda:package:`r-rcpp` >=0.12.2 :conda:package:`r-rcpparmadillo` >=0.8.100.1.0 :conda:package:`r-rtsne`  :conda:package:`r-statmod`  :conda:package:`r-vegan`  :conda:package:`r-zoo`  
 
    :required~by: |required_by_bioconductor-linnorm|
 

@@ -23,7 +23,7 @@ perl-module-build-tiny
 
    :versions: 0.039
 
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-pathtools`  
+   :depends: :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-pathtools`  :conda:package:`perl-threaded`  
 
    :required~by: |required_by_perl-module-build-tiny|
 

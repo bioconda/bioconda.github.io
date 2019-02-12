@@ -23,7 +23,7 @@ transtermhp
 
    :versions: 2.09
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_transtermhp|
 

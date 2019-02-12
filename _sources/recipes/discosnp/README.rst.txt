@@ -24,7 +24,7 @@ discosnp
 
    :versions: 2.3.0, 2.2.10
 
-   :depends: :conda:package:`bwa`  :conda:package:`zlib` 1.2.8* 
+   :depends: :conda:package:`bwa`  :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
 
    :required~by: |required_by_discosnp|
 

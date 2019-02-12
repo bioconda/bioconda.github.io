@@ -23,7 +23,7 @@ rainbow
 
    :versions: 2.0.4
 
-   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 
+   :depends: :conda:package:`libgcc`  :conda:package:`perl-threaded`  
 
    :required~by: |required_by_rainbow|
 

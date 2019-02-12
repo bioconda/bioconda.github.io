@@ -23,7 +23,7 @@ fermi
 
    :versions: 1.1_r751_beta
 
-   :depends: :conda:package:`perl-threaded`  :conda:package:`zlib`  
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_fermi|
 

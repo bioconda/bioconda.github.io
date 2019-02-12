@@ -24,7 +24,7 @@ rvtests
 
    :versions: 2.0.7, 2.0.6
 
-   :depends: :conda:package:`libcxx` >=4.0 :conda:package:`libgfortran` >=3.0 :conda:package:`openmp` >=4.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`libgfortran` >=3.0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_rvtests|
 

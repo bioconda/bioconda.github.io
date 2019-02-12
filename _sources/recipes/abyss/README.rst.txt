@@ -27,7 +27,7 @@ abyss
 
    :versions: 2.1.5, 2.1.4, 2.1.3, 2.1.1, 2.1.0, 2.0.2, 2.0.1, 1.9.0, 1.5.2
 
-   :depends: :conda:package:`make`  :conda:package:`openmpi` >=3.1,<3.2.0a0 
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`make`  :conda:package:`openmpi` >=3.1,<3.2.0a0 
 
    :required~by: |required_by_abyss|
 

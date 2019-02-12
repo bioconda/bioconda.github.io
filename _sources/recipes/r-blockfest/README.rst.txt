@@ -24,7 +24,7 @@ r-blockfest
 
    :versions: 1.6
 
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-basix`  
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-basix`  
 
    :required~by: |required_by_r-blockfest|
 

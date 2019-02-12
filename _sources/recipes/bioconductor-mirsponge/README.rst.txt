@@ -23,7 +23,7 @@ bioconductor-mirsponge
 
    :versions: 1.8.0
 
-   :depends: :conda:package:`bioconductor-clusterprofiler` >=3.10.0,<3.11.0 :conda:package:`bioconductor-dose` >=3.8.0,<3.9.0 :conda:package:`bioconductor-reactomepa` >=1.26.0,<1.27.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  :conda:package:`r-igraph`  :conda:package:`r-linkcomm`  :conda:package:`r-mcl`  :conda:package:`r-rcpp`  :conda:package:`r-survival`  :conda:package:`r-varhandle`  
+   :depends: :conda:package:`bioconductor-clusterprofiler` >=3.10.0,<3.11.0 :conda:package:`bioconductor-dose` >=3.8.0,<3.9.0 :conda:package:`bioconductor-reactomepa` >=1.26.0,<1.27.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  :conda:package:`r-igraph`  :conda:package:`r-linkcomm`  :conda:package:`r-mcl`  :conda:package:`r-rcpp`  :conda:package:`r-survival`  :conda:package:`r-varhandle`  
 
    :required~by: |required_by_bioconductor-mirsponge|
 

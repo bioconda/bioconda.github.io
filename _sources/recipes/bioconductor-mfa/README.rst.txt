@@ -23,7 +23,7 @@ bioconductor-mfa
 
    :versions: 1.4.0
 
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-coda`  :conda:package:`r-dplyr`  :conda:package:`r-ggmcmc`  :conda:package:`r-ggplot2`  :conda:package:`r-magrittr`  :conda:package:`r-mcmcglmm`  :conda:package:`r-mcmcpack`  :conda:package:`r-rcpp`  :conda:package:`r-tibble`  
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-coda`  :conda:package:`r-dplyr`  :conda:package:`r-ggmcmc`  :conda:package:`r-ggplot2`  :conda:package:`r-magrittr`  :conda:package:`r-mcmcglmm`  :conda:package:`r-mcmcpack`  :conda:package:`r-rcpp`  :conda:package:`r-tibble`  
 
    :required~by: |required_by_bioconductor-mfa|
 

@@ -23,7 +23,7 @@ perl-forks
 
    :versions: 0.36
 
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-acme-damn`  :conda:package:`perl-list-moreutils` ==0.15 :conda:package:`perl-sys-sigaction`  
+   :depends: :conda:package:`perl-threaded`  
 
    :required~by: |required_by_perl-forks|
 

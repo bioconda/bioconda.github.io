@@ -23,7 +23,7 @@ sambamba
 
    :versions: 0.6.8, 0.6.6, 0.6.5, 0.6.3, 0.6.2, 0.6.1, 0.5.9
 
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`ldc` 1.13.* :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`ldc`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_sambamba|
 

@@ -23,7 +23,7 @@ hcluster_sg
 
    :versions: 0.5.1
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_hcluster_sg|
 

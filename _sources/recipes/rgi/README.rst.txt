@@ -24,7 +24,7 @@ rgi
 
    :versions: 4.2.2, 4.0.3, 3.2.1, 3.2.0, 3.1.2, 3.1.1, 3.1.0
 
-   :depends: :conda:package:`biopython` >=1.60 :conda:package:`blast` 2.6.0 :conda:package:`diamond` 0.8.36 :conda:package:`filetype` >=1.0.0 :conda:package:`matplotlib` >=2.1.2 :conda:package:`mock` >=2.0.0 :conda:package:`pandas` >=0.15.0 :conda:package:`prodigal` 2.6.3 :conda:package:`pyahocorasick` >=1.1.7 :conda:package:`pyfaidx` >=0.5.4.1 :conda:package:`pytest` >=3.0.0 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`seaborn` >=0.8.1 :conda:package:`six` >=1.7.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`biopython` >=1.60 :conda:package:`blast` 2.6.0 :conda:package:`diamond` 0.8.36 :conda:package:`filetype` >=1.0.0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib` >=2.1.2 :conda:package:`mock` >=2.0.0 :conda:package:`pandas` >=0.15.0 :conda:package:`prodigal` 2.6.3 :conda:package:`pyahocorasick` >=1.1.7 :conda:package:`pyfaidx` >=0.5.4.1 :conda:package:`pytest` >=3.0.0 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`seaborn` >=0.8.1 :conda:package:`six` >=1.7.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_rgi|
 

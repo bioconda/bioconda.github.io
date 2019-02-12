@@ -24,7 +24,7 @@ bioconductor-survcomp
 
    :versions: 1.32.0, 1.30.0, 1.28.4
 
-   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bootstrap`  :conda:package:`r-ipred`  :conda:package:`r-kernsmooth`  :conda:package:`r-prodlim`  :conda:package:`r-rmeta`  :conda:package:`r-suppdists`  :conda:package:`r-survival`  :conda:package:`r-survivalroc`  
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bootstrap`  :conda:package:`r-ipred`  :conda:package:`r-kernsmooth`  :conda:package:`r-prodlim`  :conda:package:`r-rmeta`  :conda:package:`r-suppdists`  :conda:package:`r-survival`  :conda:package:`r-survivalroc`  
 
    :required~by: |required_by_bioconductor-survcomp|
 

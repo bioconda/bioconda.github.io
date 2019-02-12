@@ -23,7 +23,7 @@ batvi
 
    :versions: 1.04
 
-   :depends: :conda:package:`bedtools`  :conda:package:`blast`  :conda:package:`bwa`  :conda:package:`openjdk`  :conda:package:`picard`  :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bedtools`  :conda:package:`blast`  :conda:package:`bwa`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`openjdk`  :conda:package:`picard`  :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_batvi|
 

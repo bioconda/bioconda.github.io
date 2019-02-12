@@ -26,7 +26,7 @@ sina
 
    :versions: 1.4.0, 1.3.5, 1.3.4, 1.3.1, 1.3.0
 
-   :depends: :conda:package:`arb-bio-tools`  :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`tbb` >=2019.2 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`arb-bio-tools`  :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`tbb` >=2019.2 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_sina|
 

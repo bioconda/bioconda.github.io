@@ -23,7 +23,7 @@ cd-hit-auxtools
 
    :versions: 4.6.8
 
-   :depends: 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_cd-hit-auxtools|
 

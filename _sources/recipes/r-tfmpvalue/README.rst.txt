@@ -23,7 +23,7 @@ r-tfmpvalue
 
    :versions: 0.0.6
 
-   :depends: :conda:package:`r` 3.3.1* :conda:package:`r-rcpp`  
+   :depends: :conda:package:`libgcc`  :conda:package:`r` 3.3.1* :conda:package:`r-rcpp`  
 
    :required~by: |required_by_r-tfmpvalue|
 

@@ -23,7 +23,7 @@ python-hyphy-python
 
    :versions: 0.1.9, 0.1.6, 0.1.3
 
-   :depends: :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`python` >=2.7,<2.8.0a0 
+   :depends: :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
 
    :required~by: |required_by_python-hyphy-python|
 

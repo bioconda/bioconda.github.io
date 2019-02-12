@@ -23,7 +23,7 @@ ecoprimers
 
    :versions: 1.0
 
-   :depends: :conda:package:`zlib`  
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
    :required~by: |required_by_ecoprimers|
 

@@ -24,7 +24,7 @@ gromacs
 
    :versions: 2018.4, 2018.3, 2018.2, 2018, 4.6.5
 
-   :depends: :conda:package:`fftw`  :conda:package:`libhwloc` 1.* 
+   :depends: :conda:package:`fftw`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libhwloc` 1.* :conda:package:`ocl-icd`  :conda:package:`openmp`  
 
    :required~by: |required_by_gromacs|
 

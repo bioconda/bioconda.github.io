@@ -23,7 +23,7 @@ methyldackel
 
    :versions: 0.3.0, 0.2.1, 0.2.0
 
-   :depends: :conda:package:`zlib`  
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
    :required~by: |required_by_methyldackel|
 

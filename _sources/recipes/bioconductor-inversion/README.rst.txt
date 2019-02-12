@@ -24,7 +24,7 @@ bioconductor-inversion
 
    :versions: 1.30.0, 1.28.0, 1.26.0
 
-   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-haplo.stats`  
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-haplo.stats`  
 
    :required~by: |required_by_bioconductor-inversion|
 

@@ -23,7 +23,7 @@ bioconductor-fastqcleaner
 
    :versions: 1.0.0
 
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-shortread` >=1.40.0,<1.41.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dt`  :conda:package:`r-htmltools`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-shiny`  :conda:package:`r-shinybs`  
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-shortread` >=1.40.0,<1.41.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dt`  :conda:package:`r-htmltools`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-shiny`  :conda:package:`r-shinybs`  
 
    :required~by: |required_by_bioconductor-fastqcleaner|
 

@@ -24,7 +24,7 @@ bioconductor-cnorfuzzy
 
    :versions: 1.24.0, 1.22.0, 1.20.0
 
-   :depends: :conda:package:`bioconductor-cellnoptr` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-nloptr` >=0.8.5 
+   :depends: :conda:package:`bioconductor-cellnoptr` >=1.28.0,<1.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-nloptr` >=0.8.5 
 
    :required~by: |required_by_bioconductor-cnorfuzzy|
 

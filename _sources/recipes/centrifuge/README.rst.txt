@@ -24,7 +24,7 @@ centrifuge
 
    :versions: 1.0.4_beta, 1.0.3
 
-   :depends: :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_centrifuge|
 
