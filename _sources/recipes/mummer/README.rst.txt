@@ -25,10 +25,6 @@ mummer
 
    :versions: 3.23-8, 3.23-7, 3.23-6, 3.23-5, 3.23-4, 3.23-3, 3.23-2, 3.23-1, 3.23-0
    
-   :depends libstdcxx-ng: 
-   
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

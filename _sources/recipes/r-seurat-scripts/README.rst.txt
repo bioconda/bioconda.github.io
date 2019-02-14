@@ -24,6 +24,8 @@ r-seurat-scripts
 
    :versions: 0.0.4-2, 0.0.4-1, 0.0.3-0, 0.0.2-0, 0.0.1-0
    
+   :depends qt: 
+   
    :depends r-base: >=3.4.1,<3.4.2.0a0
    
    :depends r-optparse: 

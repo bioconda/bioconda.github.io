@@ -38,8 +38,6 @@ arb-bio
    
    :depends libpng: >=1.6.34,<1.7.0a0
    
-   :depends libstdcxx-ng: >=4.9
-   
    :depends libtiff: >=4.0.9,<5.0a0
    
    :depends libxslt: >=1.1.32,<2.0a0
@@ -115,8 +113,6 @@ arb-bio
    
    :depends arb-bio: 6.0.6 pl526he378515_6
    
-   :depends libstdcxx-ng: >=4.9
-   
    :depends openmotif-dev: 
    
    :requirements:
@@ -156,8 +152,6 @@ arb-bio
    
    :depends libarbdb: 6.0.6 h5901010_6
    
-   :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation
@@ -194,8 +188,6 @@ arb-bio
    :depends gettext: 
    
    :depends glib: >=2.56.2,<2.57.0a0
-   
-   :depends libstdcxx-ng: >=4.9
    
    :requirements:
 

@@ -24,8 +24,6 @@ perl-file-copy-recursive
 
    :versions: 0.44-0, 0.38-3, 0.38-2, 0.38-1
    
-   :depends libgcc-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
    
    :requirements:

@@ -24,9 +24,7 @@ rainbow
 
    :versions: 2.0.4-2, 2.0.4-0
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends perl: 
+   :depends perl: >=5.26.2,<5.27.0a0
    
    :requirements:
 

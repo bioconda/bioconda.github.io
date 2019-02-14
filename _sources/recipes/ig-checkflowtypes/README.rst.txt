@@ -26,11 +26,7 @@ ig-checkflowtypes
    
    :depends bioconductor-flowcore: 
    
-   :depends libgfortran: >=3.0
-   
-   :depends libstdcxx-ng: >=4.9
-   
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r: >=2.10.0
    
    :requirements:
 

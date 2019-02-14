@@ -27,9 +27,9 @@ codingquarry
    
    :depends biopython: 
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
-   :depends libstdcxx-ng: >=7.3.0
+   :depends llvm-openmp: 
    
    :depends python: >=2.7,<2.8.0a0
    

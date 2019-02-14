@@ -25,8 +25,6 @@ mreps
 
    :versions: 0.1-0
    
-   :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

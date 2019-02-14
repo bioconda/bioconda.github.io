@@ -24,8 +24,6 @@ perl-extutils-cppguess
 
    :versions: 0.12-2, 0.12-1, 0.12-0
    
-   :depends libstdcxx-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
    
    :depends perl-capture-tiny: 

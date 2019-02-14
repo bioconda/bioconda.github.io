@@ -23,7 +23,7 @@ trumicount
 
    |downloads_trumicount| |docker_trumicount|
 
-   :versions: 0.9.12-0, 0.9.11.1-0, 0.9.11-1, 0.9.10-1, 0.9.9.3-1, 0.9.9.3-0
+   :versions: 0.9.13-0, 0.9.12-0, 0.9.11.1-0, 0.9.11-1, 0.9.10-1, 0.9.9.3-1, 0.9.9.3-0
    
    :depends gawk: >=4.0.0
    

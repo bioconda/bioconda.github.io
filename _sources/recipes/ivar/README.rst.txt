@@ -32,11 +32,9 @@ ivar
    
    :depends htslib: >=1.9,<1.10.0a0
    
+   :depends libcxx: >=4.0.1
+   
    :depends libdeflate: >=1.0,<1.1.0a0
-   
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
    
    :depends xz: >=5.2.4,<5.3.0a0
    

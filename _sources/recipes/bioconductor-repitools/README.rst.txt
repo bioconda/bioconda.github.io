@@ -51,8 +51,6 @@ bioconductor-repitools
    
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
    
-   :depends libgcc-ng: >=7.3.0
-   
    :depends r-aroma.affymetrix: 
    
    :depends r-base: >=3.5.1,<3.5.2.0a0

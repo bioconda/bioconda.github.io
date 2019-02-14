@@ -28,10 +28,6 @@ r-stitch
    
    :depends htslib: >=1.4
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends libstdcxx-ng: >=4.9
-   
    :depends mpc: >=1.1.0
    
    :depends mpc: >=1.1.0,<2.0a0

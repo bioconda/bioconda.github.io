@@ -22,13 +22,13 @@ slamdunk
 
    |downloads_slamdunk| |docker_slamdunk|
 
-   :versions: 0.3.3-0, 0.3.2-1, 0.3.2-0
+   :versions: 0.3.4-0, 0.3.3-0, 0.3.2-1, 0.3.2-0
    
    :depends biopython: >=1.63
    
    :depends bzip2: >=1.0.6,<2.0a0
    
-   :depends curl: >=7.59.0,<8.0a0
+   :depends curl: >=7.64.0,<8.0a0
    
    :depends cython: >=0.20.1
    
@@ -38,7 +38,9 @@ slamdunk
    
    :depends libdeflate: >=1.0,<1.1.0a0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends ncurses: >=6.1,<6.2.0a0
    
@@ -52,7 +54,7 @@ slamdunk
    
    :depends python: >=2.7,<2.8.0a0
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: >=3.5.1,<3.5.2.0a0
    
    :depends r-tidyverse: 
    

@@ -24,8 +24,6 @@ bgt
 
    :versions: r283-1, r283-0, r277-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends zlib: >=1.2.11,<1.3.0a0
    
    :requirements:

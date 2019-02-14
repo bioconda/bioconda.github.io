@@ -30,8 +30,6 @@ transcomb
    
    :depends icu: ==56.1
    
-   :depends libgcc: 
-   
    :depends samtools: 
    
    :depends zlib: 

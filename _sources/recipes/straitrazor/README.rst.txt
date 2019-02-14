@@ -24,8 +24,6 @@ straitrazor
 
    :versions: 3.0.1-1, 3.0.1-0
    
-   :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,8 +26,6 @@ metasnv
    
    :depends htslib: >=1.9,<1.10.0a0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends numpy: 
    
    :depends pandas: 

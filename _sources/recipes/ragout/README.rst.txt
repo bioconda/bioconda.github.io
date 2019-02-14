@@ -24,8 +24,6 @@ ragout
 
    :versions: 2.1.1-5, 2.1-3, 2.0-3, 2.0-2, 2.0-1, 2.0-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends networkx: 1.8
    
    :depends python: >=2.7,<2.8.0a0

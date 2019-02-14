@@ -24,8 +24,6 @@ grep
 
    :versions: 2.14-2, 2.14-1, 2.14-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends pcre: 
    
    :requirements:

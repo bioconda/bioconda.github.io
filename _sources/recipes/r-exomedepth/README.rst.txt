@@ -34,11 +34,9 @@ r-exomedepth
    
    :depends bioconductor-rsamtools: 
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
-   :depends libgfortran-ng: >=7,<8.0a0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgfortran: >=3.0.1
    
    :depends r-aod: 
    

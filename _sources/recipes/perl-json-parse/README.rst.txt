@@ -24,8 +24,6 @@ perl-json-parse
 
    :versions: 0.55-0, 0.49-1, 0.49-0
    
-   :depends libstdcxx-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
    
    :requirements:

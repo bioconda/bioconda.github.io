@@ -24,8 +24,6 @@ pbsim
 
    :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0
    
-   :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

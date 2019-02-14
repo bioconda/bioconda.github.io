@@ -24,10 +24,6 @@ r-phangorn
 
    :versions: 2.4.0-0, 2.2.0-0
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends libstdcxx-ng: >=4.9
-   
    :depends r-ape: >=5.0
    
    :depends r-base: >=3.4.1,<3.4.2.0a0

@@ -26,8 +26,6 @@ fqtools
    
    :depends htslib: >=1.9,<1.10.0a0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends zlib: >=1.2.11,<1.3.0a0
    
    :requirements:

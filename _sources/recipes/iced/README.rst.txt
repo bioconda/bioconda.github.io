@@ -26,8 +26,6 @@ iced
    
    :depends cython: 
    
-   :depends libstdcxx-ng: >=4.9
-   
    :depends matplotlib: 
    
    :depends numpy: >=1.9

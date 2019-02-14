@@ -28,8 +28,6 @@ bioconductor-simd
    
    :depends bioconductor-methylmnm: >=1.20.0,<1.21.0
    
-   :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
    
    :depends r-statmod: 

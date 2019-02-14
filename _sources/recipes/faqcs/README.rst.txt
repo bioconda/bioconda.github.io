@@ -25,8 +25,6 @@ faqcs
 
    :versions: 2.09-0, 2.08-0
    
-   :depends libstdcxx-ng: >=4.9
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
    
    :depends zlib: >=1.2.11,<1.3.0a0

@@ -25,8 +25,6 @@ nonpareil
 
    :versions: 3.3.3-0, 3.3.1-0, 3.2-0, 3.1.1-0, 2.4.01-0, 2.4-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
    
    :requirements:

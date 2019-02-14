@@ -24,8 +24,6 @@ hcluster_sg
 
    :versions: 0.5.1-2, 0.5.1-1, 0.5.1-0
    
-   :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

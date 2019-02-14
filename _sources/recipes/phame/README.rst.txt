@@ -39,8 +39,6 @@ phame
    
    :depends fasttree: >=2.1.9
    
-   :depends hyphy: >=2.3.12
-   
    :depends iqtree: >=1.6.7
    
    :depends mafft: >=7.313
@@ -48,8 +46,6 @@ phame
    :depends mummer: >=3.23
    
    :depends muscle: >=3.8.31
-   
-   :depends openmpi: >=3.1.0
    
    :depends paml: >=4.9
    

@@ -23,9 +23,9 @@ fmlrc
 
    |downloads_fmlrc| |docker_fmlrc|
 
-   :versions: 0.1.2-0
+   :versions: 1.0.0-0, 0.1.2-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libcxx: >=4.0.1
    
    :requirements:
 

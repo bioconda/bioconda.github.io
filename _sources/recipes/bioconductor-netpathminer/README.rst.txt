@@ -25,9 +25,7 @@ bioconductor-netpathminer
 
    :versions: 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.1-0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

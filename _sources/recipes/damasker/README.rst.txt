@@ -24,8 +24,6 @@ damasker
 
    :versions: 1.0p1-1, 1.0p1-0
    
-   :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

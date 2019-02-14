@@ -24,10 +24,6 @@ cd-hit
 
    :versions: 4.6.8-2, 4.6.8-1, 4.6.8-0, 4.6.6-0, 4.6.4-1, 4.6.4-0
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

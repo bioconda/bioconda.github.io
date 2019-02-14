@@ -22,21 +22,13 @@ ucsc-cell-browser
 
    |downloads_ucsc-cell-browser| |docker_ucsc-cell-browser|
 
-   :versions: 0.4.35-0, 0.4.23-1, 0.4.23-0
+   :versions: 0.4.38-0, 0.4.35-0, 0.4.23-1, 0.4.23-0
    
    :depends anndata: 
    
    :depends numpy: 
    
    :depends python: >=3.6
-   
-   :depends r-argparser: 
-   
-   :depends r-data.table: 
-   
-   :depends r-matrix: 
-   
-   :depends r-reticulate: 
    
    :requirements:
 
