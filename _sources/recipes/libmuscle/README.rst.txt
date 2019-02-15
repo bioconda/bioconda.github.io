@@ -24,6 +24,8 @@ libmuscle
 
    :versions: 3.7-1, 3.7-0
    
+   :depends libgcc-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

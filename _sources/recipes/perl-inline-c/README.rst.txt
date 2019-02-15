@@ -24,7 +24,11 @@ perl-inline-c
 
    :versions: 0.78-0, 0.76-1, 0.76-0
    
-   :depends clang_osx-64: 
+   :depends gcc_linux-64: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libgcc-ng: >=7.2.0
    
    :depends make: 
    

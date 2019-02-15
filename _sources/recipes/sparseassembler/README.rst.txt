@@ -24,6 +24,10 @@ sparseassembler
 
    :versions: 20160205-4, 20160205-3, 20160205-2, 20160205-1, 20160205-0
    
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
    :depends zlib: >=1.2.11,<1.3.0a0
    
    :requirements:

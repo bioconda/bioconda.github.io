@@ -27,6 +27,8 @@ gat
    
    :depends cython: >=0.19
    
+   :depends libgcc-ng: >=4.9
+   
    :depends matplotlib: >=1.3.0
    
    :depends numpy: >=1.7

@@ -22,7 +22,7 @@ r-basejump
 
    |downloads_r-basejump| |docker_r-basejump|
 
-   :versions: 0.7.2-1, 0.7.2-0, 0.5.9-0, 0.5.3-0, 0.1.1-0
+   :versions: 0.9.9-0, 0.7.2-1, 0.7.2-0, 0.5.9-0, 0.5.3-0, 0.1.1-0
    
    :depends bioconductor-annotationhub: 
    
@@ -40,6 +40,10 @@ r-basejump
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    
+   :depends r-bioverbs: >=0.1.6
+   
+   :depends r-brio: >=0.1.5
+   
    :depends r-cowplot: >=0.9
    
    :depends r-dendsort: 
@@ -48,9 +52,13 @@ r-basejump
    
    :depends r-dplyr: >=0.7
    
-   :depends r-ggplot2: >=2.2.1
+   :depends r-ggplot2: >=3.0
    
-   :depends r-knitr: >=1.2.0
+   :depends r-ggrepel: >=0.8
+   
+   :depends r-goalie: >=0.2.8
+   
+   :depends r-knitr: >=1.2.1
    
    :depends r-magrittr: >=1.5
    
@@ -58,9 +66,13 @@ r-basejump
    
    :depends r-matrix.utils: >=0.9
    
+   :depends r-matrixstats: >=0.54
+   
    :depends r-pbapply: 
    
-   :depends r-pheatmap: 
+   :depends r-pheatmap: >=1.0
+   
+   :depends r-purrr: >=0.2
    
    :depends r-r.utils: 
    
@@ -68,23 +80,31 @@ r-basejump
    
    :depends r-rcurl: >=1.95
    
-   :depends r-readr: >=1.1
+   :depends r-readr: >=1.3
    
    :depends r-readxl: >=1.0
    
+   :depends r-reshape2: >=1.4
+   
    :depends r-rio: 
    
-   :depends r-rlang: >=0.2
+   :depends r-rlang: >=0.3
    
    :depends r-scales: 
    
-   :depends r-sessioninfo: 
+   :depends r-sessioninfo: >=1.1
    
    :depends r-stringr: >=1.3
    
-   :depends r-tibble: >=1.4
+   :depends r-syntactic: >=0.1.4
+   
+   :depends r-tibble: >=2.0
    
    :depends r-tidyr: >=0.8
+   
+   :depends r-tidyselect: >=0.2
+   
+   :depends r-transformer: >=0.1.4
    
    :depends r-viridis: 
    

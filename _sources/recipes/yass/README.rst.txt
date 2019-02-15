@@ -25,6 +25,8 @@ yass
 
    :versions: 1.14-1, 1.14-0
    
+   :depends libgcc-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

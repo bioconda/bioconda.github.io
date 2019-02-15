@@ -29,9 +29,9 @@ alder
    
    :depends lapack: 
    
-   :depends libcxx: 4.0.*
+   :depends libgcc-ng: >=4.9
    
-   :depends openmp: 4.0.*
+   :depends libstdcxx-ng: >=4.9
    
    :requirements:
 

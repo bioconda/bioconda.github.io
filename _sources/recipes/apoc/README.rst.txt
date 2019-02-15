@@ -24,6 +24,8 @@ apoc
 
    :versions: 1b16-1, 1b16-0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends libgfortran: >=3.0
    
    :requirements:

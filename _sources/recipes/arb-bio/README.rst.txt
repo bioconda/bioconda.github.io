@@ -12,19 +12,40 @@ arb-bio
    ARB 6 Sequence Analysis Suite
 
    :homepage: http://www.arb-home.de
+   :documentation: http://www.arb-home.de/documentation.html
+   
+   :developer docs: http://bugs.arb-home.de/
    :license: ARB
    :recipe: /`arb-bio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arb-bio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arb-bio/meta.yaml>`_
+   :links: biotools: :biotools:`arb`, doi: :doi:`10.1002/9781118010518.ch46`
 
-   
+   \"ARB \(ARBor\, Latin\: tree\)\: A software environment for maintaining
+   databases of molecular sequences and additional information\, and
+   for analyzing the sequence data\, with emphasis on phylogeny
+   reconstruction.
+
+   The programs have primarily been developed for ribosomal
+   ribonucleic acid \(rRNA\) sequences and\, therefore\, contain special
+   tools for alignment and analysis of these structures. However\,
+   other molecular sequence data can also be handled. Protein gene
+   sequences and predicted protein primary structures as well as
+   protein secondary structures can be stored in the same database.
+
+   The ARB package is designed for graphical user interface. Program
+   control and data display are available in a hierarchical set of
+   windows and subwindows. The majority of operations can be
+   controlled using the mouse for moving the pointer and the left
+   mouse button for initiating and performing operations\"
+
 
 
 .. conda:package:: arb-bio
 
    |downloads_arb-bio| |docker_arb-bio|
 
-   :versions: 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3, 6.0.6-1, 6.0.6-0
+   :versions: 6.0.6-8, 6.0.6-7, 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3, 6.0.6-1, 6.0.6-0
    
-   :depends arb-bio-tools: 6.0.6 h5901010_6
+   :depends arb-bio-tools: 6.0.6 haa8b8d8_8
    
    :depends fasttree: 
    
@@ -32,11 +53,15 @@ arb-bio
    
    :depends gettext: >=0.19.8.1,<1.0a0
    
-   :depends glib: >=2.56.2,<2.57.0a0
+   :depends glib: >=2.58.2,<3.0a0
    
    :depends gnuplot: 
    
-   :depends libpng: >=1.6.34,<1.7.0a0
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libpng: >=1.6.35,<1.7.0a0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends libtiff: >=4.0.9,<5.0a0
    
@@ -60,7 +85,7 @@ arb-bio
    
    :depends sed: >=4.4
    
-   :depends xerces-c: >=3.2.0,<3.2.1.0a0
+   :depends xerces-c: >=3.2.2,<3.2.3.0a0
    
    :depends xfig: 
    
@@ -109,9 +134,13 @@ arb-bio
 
    |downloads_arb-bio-devel| |docker_arb-bio-devel|
 
-   :versions: 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3
+   :versions: 6.0.6-8, 6.0.6-7, 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3
    
-   :depends arb-bio: 6.0.6 pl526he378515_6
+   :depends arb-bio: 6.0.6 pl526h7ded70a_8
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends openmotif-dev: 
    
@@ -146,11 +175,15 @@ arb-bio
 
    |downloads_arb-bio-tools| |docker_arb-bio-tools|
 
-   :versions: 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3
+   :versions: 6.0.6-8, 6.0.6-7, 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3
    
-   :depends glib: >=2.56.2,<2.57.0a0
+   :depends glib: >=2.58.2,<3.0a0
    
-   :depends libarbdb: 6.0.6 h5901010_6
+   :depends libarbdb: 6.0.6 haa8b8d8_8
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :requirements:
 
@@ -183,11 +216,15 @@ arb-bio
 
    |downloads_libarbdb| |docker_libarbdb|
 
-   :versions: 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3
+   :versions: 6.0.6-8, 6.0.6-7, 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3
    
    :depends gettext: 
    
-   :depends glib: >=2.56.2,<2.57.0a0
+   :depends glib: >=2.58.2,<3.0a0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :requirements:
 

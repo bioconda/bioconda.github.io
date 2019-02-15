@@ -26,6 +26,8 @@ pasta
    
    :depends dendropy: >=4.1.0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends openjdk: 
    
    :depends pcre: >=8.41,<9.0a0

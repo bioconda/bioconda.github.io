@@ -26,6 +26,8 @@ dbg2olc
    
    :depends assemblyutility: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends sparc: 
    
    :depends sparseassembler: 

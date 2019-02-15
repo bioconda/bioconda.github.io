@@ -28,6 +28,8 @@ ngs-bits
    
    :depends htslib: >=1.9,<1.10.0a0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends matplotlib: 
    
    :depends python: 

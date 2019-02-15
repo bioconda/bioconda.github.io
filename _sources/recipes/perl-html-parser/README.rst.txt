@@ -24,6 +24,8 @@ perl-html-parser
 
    :versions: 3.72-4, 3.72-3, 3.72-2, 3.72-1, 3.72-0
    
+   :depends libstdcxx-ng: >=4.9
+   
    :depends perl: >=5.26.2,<5.26.3.0a0
    
    :depends perl-html-tagset: 

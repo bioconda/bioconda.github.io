@@ -28,6 +28,8 @@ umis
    
    :depends cython: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends pandas: 
    
    :depends pysam: 

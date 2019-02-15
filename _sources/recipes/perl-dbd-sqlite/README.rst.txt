@@ -24,6 +24,8 @@ perl-dbd-sqlite
 
    :versions: 1.60-0, 1.58-0, 1.50-3, 1.50-2, 1.50-1
    
+   :depends libgcc-ng: >=4.9
+   
    :depends perl: >=5.26.2,<5.26.3.0a0
    
    :depends perl-dbi: 

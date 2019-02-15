@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Package Recipe &#39;r-seurat-scripts&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;isocor&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -104,46 +104,38 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="r-seurat-scripts">
+  <div class="section" id="isocor">
 <dl class="recipe">
-<dt id="recipe-r-seurat-scripts">
-<em class="property">recipe </em><code class="descname">r-seurat-scripts</code><a class="headerlink" href="#recipe-r-seurat-scripts" title="Permalink to this definition">¶</a></dt>
-<dd><p>A set of wrappers for individual components of the Seurat package. Functions R packages are hard to call when building workflows outside of R, so this package adds a set of simple wrappers with robust argument parsing. Intermediate steps are currently mainly serialized R objects, but the ultimate objective is to have language-agnostic intermediate formats allowing composite workflows using a variety of software packages.</p>
+<dt id="recipe-isocor">
+<em class="property">recipe </em><code class="descname">isocor</code><a class="headerlink" href="#recipe-isocor" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Isotope Correction for mass spectrometry labeling experiments</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Homepage:</th><td class="field-body"><a class="reference external" href="https://github.com/ebi-gene-expression-group/r-seurat-scripts">https://github.com/ebi-gene-expression-group/r-seurat-scripts</a></td>
+<tr class="field-odd field"><th class="field-name">Homepage:</th><td class="field-body"><a class="reference external" href="https://github.com/MetaSys-LISBP/IsoCor/">https://github.com/MetaSys-LISBP/IsoCor/</a></td>
 </tr>
-<tr class="field-even field"><th class="field-name">License:</th><td class="field-body">GPL / GPL-3</td>
+<tr class="field-even field"><th class="field-name">Documentation:</th><td class="field-body"><a class="reference external" href="https://isocor.readthedocs.io/">https://isocor.readthedocs.io/</a></td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Recipe:</th><td class="field-body">/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-seurat-scripts">r-seurat-scripts</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-seurat-scripts/meta.yaml">meta.yaml</a></td>
+<tr class="field-odd field"><th class="field-name">License:</th><td class="field-body">GPL3 / GNU General Public v3 or later (GPLv3+)</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Recipe:</th><td class="field-body">/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isocor">isocor</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isocor/meta.yaml">meta.yaml</a></td>
 </tr>
 </tbody>
 </table>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-r-seurat-scripts">
-<em class="property">package </em><code class="descname">r-seurat-scripts</code><a class="headerlink" href="#package-r-seurat-scripts" title="Permalink to this definition">¶</a></dt>
-<dd><p><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-seurat-scripts.svg?style=flat" /> <a class="reference external" href="https://quay.io/repository/biocontainers/r-seurat-scripts"><img alt="docker_r-seurat-scripts" src="https://quay.io/repository/biocontainers/r-seurat-scripts/status" /></a></p>
+<dt id="package-isocor">
+<em class="property">package </em><code class="descname">isocor</code><a class="headerlink" href="#package-isocor" title="Permalink to this definition">¶</a></dt>
+<dd><p><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/isocor.svg?style=flat" /> <a class="reference external" href="https://quay.io/repository/biocontainers/isocor"><img alt="docker_isocor" src="https://quay.io/repository/biocontainers/isocor/status" /></a></p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">0.0.4-2, 0.0.4-1, 0.0.3-0, 0.0.2-0, 0.0.1-0</p>
-</td>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"></td>
 </tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/qt-feedstock"><strong>qt</strong></a></li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.4.1,&lt;3.4.2.0a0</li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-optparse-feedstock"><strong>r-optparse</strong></a></li>
-<li><a class="conda-package reference internal" href="../r-seurat/README.html#package-r-seurat" title="r-seurat package"><strong>r-seurat</strong></a> 2.3.1.*</li>
-<li><a class="conda-package reference internal" href="../r-workflowscriptscommon/README.html#package-r-workflowscriptscommon" title="r-workflowscriptscommon package"><strong>r-workflowscriptscommon</strong></a></li>
-</ul>
-</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+<tr class="field-even field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
 </ul>
 </td>
 </tr>
@@ -151,24 +143,24 @@
 </table>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">seurat</span><span class="o">-</span><span class="n">scripts</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">isocor</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">seurat</span><span class="o">-</span><span class="n">scripts</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">isocor</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">seurat</span><span class="o">-</span><span class="n">scripts</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">repository</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">isocor</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-seurat-scripts?tab=tags">r-seurat-scripts/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/isocor?tab=tags">isocor/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-seurat-scripts/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-seurat-scripts/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/isocor/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/isocor/README.html)
 </pre></div>
 </div>
 </div>
@@ -189,7 +181,7 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/r-seurat-scripts/README.rst.txt"
+      <a href="../../_sources/recipes/isocor/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

@@ -24,6 +24,8 @@ whatshap
 
    :versions: 0.17-0, 0.16-0, 0.15-0, 0.14.1-0, 0.13-0, 0.12-0, 0.11-0, 0.9-0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends networkx: 
    
    :depends pyfaidx: 

@@ -26,6 +26,10 @@ rcorrector
    
    :depends jellyfish: 2.*
    
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
    :depends perl: 
    
    :depends zlib: >=1.2.11,<1.3.0a0

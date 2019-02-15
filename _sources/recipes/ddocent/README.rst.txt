@@ -40,6 +40,8 @@ ddocent
    
    :depends grep: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends mawk: 
    
    :depends openjdk: 

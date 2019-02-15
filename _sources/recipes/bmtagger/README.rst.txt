@@ -32,8 +32,6 @@ bmtagger
    
    :depends extract_fullseq: 
    
-   :depends gnu-getopt: 
-   
    :depends srprism: 
    
    :requirements:

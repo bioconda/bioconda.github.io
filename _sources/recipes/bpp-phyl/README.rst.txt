@@ -26,6 +26,8 @@ bpp-phyl
    
    :depends bpp-seq: 
    
+   :depends libgcc-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

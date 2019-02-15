@@ -28,6 +28,8 @@ pyani
    
    :depends blast: 
    
+   :depends blast-legacy: 
+   
    :depends matplotlib: 
    
    :depends mummer: 

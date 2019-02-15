@@ -26,6 +26,8 @@ gqt
    
    :depends htslib: >=1.9,<1.10.0a0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends sqlite: >=3.24.0,<4.0a0
    
    :requirements:

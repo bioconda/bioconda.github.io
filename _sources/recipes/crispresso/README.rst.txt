@@ -34,6 +34,8 @@ crispresso
    
    :depends flash: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends matplotlib: >=1.3.1
    
    :depends mock: 

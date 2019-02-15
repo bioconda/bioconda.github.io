@@ -24,6 +24,8 @@ r-adegenet
 
    :versions: 2.1.1-1, 2.1.1-0, 2.1.0-0
    
+   :depends libgcc-ng: >=7.3.0
+   
    :depends r-ade4: 
    
    :depends r-ape: 

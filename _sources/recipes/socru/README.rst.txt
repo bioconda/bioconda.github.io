@@ -22,7 +22,7 @@ socru
 
    |downloads_socru| |docker_socru|
 
-   :versions: 1.0.0-0, 0.0.5-0
+   :versions: 1.0.1-0, 1.0.0-0, 0.0.5-0
    
    :depends barrnap: 
    

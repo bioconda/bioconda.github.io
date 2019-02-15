@@ -26,6 +26,8 @@ genenotebook
    
    :depends blast: 
    
+   :depends libstdcxx-ng: >=4.9
+   
    :depends mongodb: >=3.4
    
    :depends nodejs: >=8.0

@@ -24,6 +24,8 @@ cd-hit-auxtools
 
    :versions: 4.6.8-1, 4.6.8-0
    
+   :depends libstdcxx-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

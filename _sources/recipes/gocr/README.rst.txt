@@ -24,6 +24,8 @@ gocr
 
    :versions: 0.50-1, 0.50-0
    
+   :depends libgcc-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

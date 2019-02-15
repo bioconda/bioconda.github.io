@@ -33,6 +33,8 @@ bioconductor-splicer
    
    :depends bioconductor-rtracklayer: >=1.40.6,<1.42.0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends r-base: >=3.4.1,<3.4.2.0a0
    
    :depends r-plyr: 

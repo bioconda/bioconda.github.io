@@ -39,7 +39,9 @@ bioconductor-linc
    
    :depends bioconductor-sva: >=3.30.0,<3.31.0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends r-ape: 
    

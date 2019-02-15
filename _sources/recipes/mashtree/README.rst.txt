@@ -24,6 +24,8 @@ mashtree
 
    :versions: 0.37-0, 0.36-0, 0.35.4-0, 0.30-2, 0.30-0, 0.28-0, 0.26-0, 0.25-0, 0.21-0, 0.20-0, 0.12-0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends mash: >=1.1
    
    :depends perl: >=5.26.2,<5.26.3.0a0
@@ -34,7 +36,7 @@ mashtree
    
    :depends quicktree: 
    
-   :depends sqlite: 
+   :depends sqlite: >=3.26.0,<4.0a0
    
    :requirements:
 

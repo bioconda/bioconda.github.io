@@ -26,6 +26,8 @@ umi_tools
    
    :depends future: 
    
+   :depends libgcc-ng: >=7.3.0
+   
    :depends matplotlib: 
    
    :depends numpy: >=1.7

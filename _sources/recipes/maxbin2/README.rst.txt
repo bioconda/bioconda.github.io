@@ -32,6 +32,8 @@ maxbin2
    
    :depends idba: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends perl-lwp-simple: 
    
    :depends r-base: 

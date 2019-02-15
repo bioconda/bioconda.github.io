@@ -26,6 +26,8 @@ ete2
    
    :depends lxml: 
    
+   :depends mysql-python: 
+   
    :depends numpy: 
    
    :depends pyqt: >=4.11.4,<4.12.0a0

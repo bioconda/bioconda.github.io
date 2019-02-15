@@ -24,6 +24,8 @@ phipack
 
    :versions: 1.0-0
    
+   :depends libgcc: 
+   
    :requirements:
 
    .. rubric:: Installation

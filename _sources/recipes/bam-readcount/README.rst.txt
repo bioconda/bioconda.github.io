@@ -24,6 +24,8 @@ bam-readcount
 
    :versions: 0.8-3, 0.8-2, 0.8-1
    
+   :depends libgcc: 
+   
    :depends ncurses: 5.9*
    
    :depends perl: 5.22.0*
