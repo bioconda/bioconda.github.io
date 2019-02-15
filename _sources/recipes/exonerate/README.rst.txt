@@ -27,8 +27,6 @@ exonerate
    
    :depends glib: >=2.55.0,<2.56.0a0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends pcre: 
    
    :requirements:

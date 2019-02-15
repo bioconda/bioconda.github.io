@@ -30,8 +30,6 @@ sloika
    
    :depends hdf5: 1.8.17*
    
-   :depends libgcc: 
-   
    :depends numpy: 1.12*
    
    :depends theano: 0.8.2

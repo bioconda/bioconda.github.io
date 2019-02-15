@@ -24,7 +24,7 @@ r-icluster
 
    :versions: 2.1.0-0
    
-   :depends r-base: 3.4.1*
+   :depends r-base: 3.3.2*
    
    :depends r-catools: 
    

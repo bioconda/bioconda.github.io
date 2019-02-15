@@ -24,9 +24,7 @@ r-seurat
 
    :versions: 2.3.4-2, 2.3.4-1, 2.3.4-0, 2.3.1-0, 2.2.0-0, 1.4.0.16-1, 1.4.0.16-0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends r-ape: 
    

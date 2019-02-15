@@ -29,8 +29,6 @@ control-freec
    
    :depends bioconductor-rtracklayer: 
    
-   :depends libgcc-ng: >=4.9
-   
    :depends perl: 
    
    :depends r-base: 

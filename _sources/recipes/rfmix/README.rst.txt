@@ -25,10 +25,6 @@ rfmix
 
    :versions: 2.03.r0.9505bfa-0
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends libstdcxx-ng: >=4.9
-   
    :depends pthread-stubs: 
    
    :requirements:

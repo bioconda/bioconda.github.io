@@ -27,13 +27,7 @@ gromacs
    
    :depends fftw: 
    
-   :depends libgcc-ng: >=4.9
-   
    :depends libhwloc: 1.*
-   
-   :depends ocl-icd: 
-   
-   :depends openmp: 
    
    :requirements:
 

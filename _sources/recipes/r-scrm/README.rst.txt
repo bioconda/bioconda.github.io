@@ -24,9 +24,7 @@ r-scrm
 
    :versions: 1.7.2_4-1, 1.7.2_4-0, 1.7.2_0-0, 1.6.0_2-0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

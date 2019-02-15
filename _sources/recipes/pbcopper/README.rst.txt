@@ -24,8 +24,6 @@ pbcopper
 
    :versions: 0.4.2-0, 0.4.1-2, 0.4.1-1, 0.4.1-0
    
-   :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

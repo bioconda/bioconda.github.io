@@ -30,8 +30,6 @@ gubbins
    
    :depends fasttree: 
    
-   :depends libgcc-ng: >=4.9
-   
    :depends nose: >=1.3
    
    :depends python: >=3.5,<3.6.0a0

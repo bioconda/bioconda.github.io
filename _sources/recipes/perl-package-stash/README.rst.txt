@@ -24,10 +24,6 @@ perl-package-stash
 
    :versions: 0.38-0, 0.37-2, 0.37-0
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends libstdcxx-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
    
    :depends perl-apache-test: 

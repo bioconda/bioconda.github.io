@@ -26,10 +26,6 @@ r-maldiquant
    
    :depends libgcc-ng: >=4.9
    
-   :depends libgfortran: >=3.0
-   
-   :depends libgfortran-ng: 
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
    
    :requirements:

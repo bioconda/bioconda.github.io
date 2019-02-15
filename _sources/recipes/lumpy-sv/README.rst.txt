@@ -28,8 +28,6 @@ lumpy-sv
    
    :depends gawk: 
    
-   :depends libgcc-ng: >=4.9
-   
    :depends numpy: 
    
    :depends pysam: 

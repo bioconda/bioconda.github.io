@@ -29,8 +29,6 @@ sonicparanoid
    
    :depends cython: >=0.27.0
    
-   :depends libstdcxx-ng: >=4.9
-   
    :depends make: 
    
    :depends mmseqs2: 6.f5a1c

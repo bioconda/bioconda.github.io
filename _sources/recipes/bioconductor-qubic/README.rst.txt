@@ -24,9 +24,9 @@ bioconductor-qubic
 
    :versions: 1.10.0-0
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
-   :depends libstdcxx-ng: >=7.3.0
+   :depends llvm-openmp: 
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

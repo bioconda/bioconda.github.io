@@ -32,8 +32,6 @@ plastid
    
    :depends fastx_toolkit: 
    
-   :depends libgcc: 
-   
    :depends matplotlib: >=1.4.0
    
    :depends numpy: >=1.9.0,<1.12.0

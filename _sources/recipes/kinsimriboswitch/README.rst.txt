@@ -30,10 +30,6 @@ kinsimriboswitch
    
    :depends gmp: >=6.1.2,<7.0a0
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends libstdcxx-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
    
    :depends perl-clone: 

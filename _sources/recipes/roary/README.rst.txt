@@ -33,8 +33,6 @@ roary
    
    :depends fasttree: 
    
-   :depends libgcc-ng: >=4.9
-   
    :depends mafft: 
    
    :depends mcl: 

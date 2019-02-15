@@ -22,7 +22,7 @@ staramr
 
    |downloads_staramr| |docker_staramr|
 
-   :versions: 0.3.0-0, 0.2.2-0, 0.2.1-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
+   :versions: 0.4.0-0, 0.3.0-0, 0.2.2-0, 0.2.1-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
    
    :depends biopython: >=1.70
    
@@ -36,7 +36,7 @@ staramr
    
    :depends pandas: >=0.23.0
    
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3.6,<3.7.0a0
    
    :depends xlsxwriter: >=1.0.2
    

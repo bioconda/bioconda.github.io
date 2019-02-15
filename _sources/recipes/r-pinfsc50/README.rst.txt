@@ -24,7 +24,7 @@ r-pinfsc50
 
    :versions: 1.1.0-0
    
-   :depends r-base: 3.4.1*
+   :depends r-base: 3.3.2*
    
    :requirements:
 

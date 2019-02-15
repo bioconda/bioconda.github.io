@@ -24,8 +24,6 @@ fastq-join
 
    :versions: 1.3.1-2, 1.3.1-1
    
-   :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

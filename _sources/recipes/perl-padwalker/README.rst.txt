@@ -24,8 +24,6 @@ perl-padwalker
 
    :versions: 2.3-0
    
-   :depends libstdcxx-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
    
    :requirements:

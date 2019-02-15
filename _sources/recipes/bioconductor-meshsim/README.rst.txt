@@ -25,7 +25,7 @@ bioconductor-meshsim
 
    :versions: 1.7.0-0
    
-   :depends r-base: 3.3.2*
+   :depends r-base: >=3.0.0
    
    :depends r-rcurl: 
    

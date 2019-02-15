@@ -39,8 +39,6 @@ perl-bioperl
    
    :depends perl-bio-tools-run-alignment-clustalw: 
    
-   :depends perl-bio-tools-run-alignment-tcoffee: 
-   
    :depends perl-bioperl-core: 1.7.2
    
    :depends perl-bioperl-run: 

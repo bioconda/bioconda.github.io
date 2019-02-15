@@ -25,9 +25,7 @@ bioconductor-impute
 
    :versions: 1.56.0-0, 1.54.0-0, 1.52.0-0, 1.50.1-0, 1.46.0-1, 1.46.0-0, 1.44.0-0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libgfortran-ng: >=7,<8.0a0
+   :depends libgfortran: >=3.0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

@@ -27,10 +27,6 @@ bioconductor-rchemcpp
    
    :depends bioconductor-chemminer: >=3.34.0,<3.35.0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
    
    :depends r-rcpp: >=0.11.1

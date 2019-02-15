@@ -24,8 +24,6 @@ flash2
 
    :versions: 2.2.00-1, 2.2.00-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends zlib: >=1.2.11,<1.3.0a0
    
    :requirements:

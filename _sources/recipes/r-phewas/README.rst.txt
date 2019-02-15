@@ -25,9 +25,7 @@ r-phewas
 
    :versions: 0.12.1-0
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends libgfortran-ng: >=4.9
+   :depends libgfortran-ng: >=3.0
    
    :depends r-base: >=3.4.1,<3.4.2.0a0
    

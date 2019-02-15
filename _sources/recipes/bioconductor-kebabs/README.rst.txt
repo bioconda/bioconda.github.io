@@ -32,9 +32,7 @@ bioconductor-kebabs
    
    :depends bioconductor-xvector: >=0.22.0,<0.23.0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends r-apcluster: 
    

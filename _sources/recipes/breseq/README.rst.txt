@@ -26,8 +26,6 @@ breseq
    
    :depends bowtie2: >=2.0.0,!=2.0.3,!=2.0.4,!=2.3.1
    
-   :depends libgcc-ng: >=4.9
-   
    :depends r-base: 
    
    :depends zlib: >=1.2.11,<1.3.0a0

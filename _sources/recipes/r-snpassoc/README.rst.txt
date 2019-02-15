@@ -24,7 +24,7 @@ r-snpassoc
 
    :versions: 1.9_2-0
    
-   :depends r-base: 3.4.1*
+   :depends r-base: 3.3.2*
    
    :depends r-haplo.stats: 
    
