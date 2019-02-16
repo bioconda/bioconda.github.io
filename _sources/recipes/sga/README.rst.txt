@@ -27,6 +27,8 @@ sga
    
    :depends bamtools: >=2.4.1,<2.4.2.0a0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends sparsehash: 
    
    :depends zlib: >=1.2.11,<1.3.0a0

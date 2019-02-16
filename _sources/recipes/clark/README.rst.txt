@@ -25,6 +25,10 @@ clark
 
    :versions: 1.2.5-1, 1.2.5-0, 1.2.3.1-0, 1.2.3-2, 1.2.3-1, 1.2.2_b-0
    
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

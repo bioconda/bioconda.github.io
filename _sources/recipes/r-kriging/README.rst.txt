@@ -24,9 +24,7 @@ r-kriging
 
    :versions: 1.1-0
    
-   :depends libgcc: 
-   
-   :depends r-base: 3.3.2*
+   :depends r-base: 3.3.1*
    
    :requirements:
 

@@ -24,9 +24,9 @@ r-rbamtools
 
    :versions: 2.16.11-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

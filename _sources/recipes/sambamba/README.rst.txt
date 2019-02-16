@@ -26,7 +26,9 @@ sambamba
    
    :depends bzip2: >=1.0.6,<2.0a0
    
-   :depends ldc: 1.13.*
+   :depends ldc: 1.11.0.*
+   
+   :depends libgcc-ng: >=4.9
    
    :depends xz: >=5.2.4,<5.3.0a0
    

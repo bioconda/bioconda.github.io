@@ -30,6 +30,8 @@ starseqr
    
    :depends intervaltree_bio: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends networkx: 
    
    :depends numpy: 

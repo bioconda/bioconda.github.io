@@ -14,6 +14,7 @@ moff
    :homepage: https://github.com/compomics/moFF
    :license: Apache 2.0
    :recipe: /`moff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moff/meta.yaml>`_
+   :links: doi: :doi:`10.1021/acs.jproteome.8b00708`
 
    
 
@@ -22,17 +23,17 @@ moff
 
    |downloads_moff| |docker_moff|
 
-   :versions: 2.0.2-0, 2.0.1-0, 1.2.1-1, 1.2.1-0, 1.2-0, 1.1-0
+   :versions: 2.0.2-1, 2.0.2-0, 2.0.1-0, 1.2.1-1, 1.2.1-0, 1.2-0, 1.1-0
    
    :depends brain-isotopic-distribution: 
    
    :depends mono: 
    
-   :depends numpy: >=1.15.*
+   :depends numpy: >=1.15
    
-   :depends pandas: >=0.23.*
+   :depends pandas: >=0.23
    
-   :depends pymzml: >=2.0.5
+   :depends pymzml: >=2.0.6
    
    :depends pyteomics: >=3.5
    
@@ -40,7 +41,7 @@ moff
    
    :depends scikit-learn: >0.19
    
-   :depends scipy: >=1.1.*
+   :depends scipy: >=1.1
    
    :depends simplejson: >=3.16.1
    

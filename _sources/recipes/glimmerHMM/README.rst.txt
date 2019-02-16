@@ -24,6 +24,8 @@ glimmerhmm
 
    :versions: 3.0.4-2, 3.0.4-1, 3.0.4-0
    
+   :depends libstdcxx-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

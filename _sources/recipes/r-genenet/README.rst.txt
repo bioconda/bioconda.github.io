@@ -24,7 +24,7 @@ r-genenet
 
    :versions: 1.2.13-0
    
-   :depends r-base: 3.3.2*
+   :depends r: 3.2.2*
    
    :depends r-corpcor: >=1.6.8
    

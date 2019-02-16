@@ -24,6 +24,8 @@ perl-math-random-mt-auto
 
    :versions: 6.23-0, 6.22-0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends perl: >=5.26.2,<5.26.3.0a0
    
    :depends perl-carp: 

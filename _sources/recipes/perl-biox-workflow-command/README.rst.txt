@@ -52,6 +52,12 @@ perl-biox-workflow-command
    
    :depends perl-file-slurp: 
    
+   :depends perl-git-wrapper: 
+   
+   :depends perl-git-wrapper-plus: 
+   
+   :depends perl-io-interactive: 
+   
    :depends perl-json: 
    
    :depends perl-list-compare: 
@@ -71,6 +77,8 @@ perl-biox-workflow-command
    :depends perl-moose: 
    
    :depends perl-moosex-app: 
+   
+   :depends perl-moosex-app-role-log4perl: 
    
    :depends perl-moosex-getopt: 
    

@@ -6,14 +6,14 @@
 rapid
 =====
 
-.. conda:recipe:: rapid/v0.7
+.. conda:recipe:: rapid/0.8
    :replaces_section_title:
 
    Read Alignment\, Analysis\, and Differential Pipeline \(RAPID\) is a set of tools for the alignment\, and analysis of genomic regions with small RNA clusters derived from small RNA sequencing data.
 
    :homepage: https://github.com/SchulzLab/RAPID
    :license: GPL2
-   :recipe: /`rapid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapid>`_/`v0.7 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapid/v0.7>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapid/v0.7/meta.yaml>`_
+   :recipe: /`rapid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapid>`_/`0.8 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapid/0.8>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapid/0.8/meta.yaml>`_
 
    
 
@@ -22,13 +22,13 @@ rapid
 
    |downloads_rapid| |docker_rapid|
 
-   :versions: 0.8-1, 0.8-0, 0.7-0, 0.6-0, 0.5-0, 0.4-1, 0.4-0, 0.3-0, 0.2-3, 0.2-2, 0.2-1, 0.2-0, 0.1-0
+   :versions: 1.0-0, 0.8-2, 0.8-1, 0.8-0, 0.7-0, 0.6-0, 0.5-0, 0.4-1, 0.4-0, 0.3-0, 0.2-3, 0.2-2, 0.2-1, 0.2-0, 0.1-0
    
    :depends bedtools: 2.23.0
    
    :depends bioconductor-deseq2: 
    
-   :depends bowtie2: 
+   :depends bowtie2: 2.3.0
    
    :depends pandoc: 
    

@@ -37,6 +37,8 @@ anvio-minimal
    
    :depends h5py: >=2.8.0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends matplotlib: >=2.2.3
    
    :depends mistune: 0.7.4

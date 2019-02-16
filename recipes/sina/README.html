@@ -108,22 +108,39 @@
 <dl class="recipe">
 <dt id="recipe-sina">
 <em class="property">recipe </em><code class="descname">sina</code><a class="headerlink" href="#recipe-sina" title="Permalink to this definition">¶</a></dt>
-<dd><p>SINA is a tool for aligning sequences with an existing multiple sequence
-alignment (MSA) at high accuracy. It can also execute a homology search based
-on the computed alignment and generate a per sequence classifications from the
-search results.</p>
+<dd><p>Reference based multiple sequence alignment</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Homepage:</th><td class="field-body"><a class="reference external" href="https://github.com/epruesse/SINA">https://github.com/epruesse/SINA</a></td>
 </tr>
-<tr class="field-even field"><th class="field-name">License:</th><td class="field-body">GPL / GPLv3</td>
+<tr class="field-even field"><th class="field-name">Documentation:</th><td class="field-body"><a class="reference external" href="https://sina.readthedocs.io">https://sina.readthedocs.io</a></td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Recipe:</th><td class="field-body">/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sina">sina</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sina/meta.yaml">meta.yaml</a></td>
+<tr class="field-odd field"><th class="field-name">License:</th><td class="field-body"><a class="reference external" href="https://raw.githubusercontent.com/epruesse/SINA/master/LICENSE">GPL / GPLv3</a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Recipe:</th><td class="field-body">/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sina">sina</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sina/meta.yaml">meta.yaml</a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Links:</th><td class="field-body">biotools: <a class="reference external" href="https://bio.tools/SINA">SINA</a>, doi: <a class="reference external" href="https://doi.org/10.1093/bioinformatics/bts252">10.1093/bioinformatics/bts252</a></td>
 </tr>
 </tbody>
 </table>
+<p>SINA allows incorporating additional sequences into an existing
+multiple sequence alignment (MSA) without modifying the original
+alignment. While adding sequences to an MSA with SINA is usually
+faster than re-computing the entire MSA from an augmented set of
+unaligned sequences, the primary benefit lies in protecting
+investments made into the original MSA such as manual curation of the
+alignment, compute intensive phylogenetic tree reconstruction and
+taxonomic annotation of the resulting phylogeny.</p>
+<p>Additionally, SINA includes a homology search which uses the
+previously computed alignment to determine the most similar
+sequences. Based on the search results, a LCA based classification of
+the query sequence can be computed using taxonomic classifications
+assigned to the sequences comprising the reference MSA.</p>
+<p>SINA is used to compute the small and large subunit ribosomal RNA
+alignments provided by the SILVA_ project and is able to use the ARB_
+format reference databases released by the project.</p>
 </dd></dl>
 
 <dl class="package">
@@ -134,13 +151,16 @@ search results.</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">1.4.0-0, 1.3.5-2, 1.3.4-2, 1.3.1-2, 1.3.1-0, 1.3.0-0</p>
+<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">1.5.0-0, 1.4.0-0, 1.3.5-2, 1.3.4-2, 1.3.1-2, 1.3.1-0, 1.3.0-0</p>
 </td>
 </tr>
 <tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
 <li><a class="conda-package reference internal" href="../arb-bio/README.html#package-arb-bio-tools" title="arb-bio-tools package"><strong>arb-bio-tools</strong></a></li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/boost-feedstock"><strong>boost</strong></a> &gt;=1.67.0,&lt;1.67.1.0a0</li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/tbb-feedstock"><strong>tbb</strong></a> &gt;=2019.2</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/boost-cpp-feedstock"><strong>boost-cpp</strong></a> &gt;=1.68.0,&lt;1.68.1.0a0</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/glib-feedstock"><strong>glib</strong></a> &gt;=2.58.2,&lt;3.0a0</li>
+<li><a class="conda-package reference internal" href="../arb-bio/README.html#package-libarbdb" title="libarbdb package"><strong>libarbdb</strong></a> 6.0.6 h82bc0eb_8</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/libcxx-feedstock"><strong>libcxx</strong></a> &gt;=4.0.1</li>
+<li><a class="conda-forge reference external" href="https://github.com/conda-forge/tbb-feedstock"><strong>tbb</strong></a> &gt;=2019.3</li>
 <li><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> &gt;=1.2.11,&lt;1.3.0a0</li>
 </ul>
 </td>

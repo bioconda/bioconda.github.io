@@ -24,37 +24,35 @@ scikit-bio
 
    :versions: 0.4.2-0, 0.2.3-0
    
-   :depends bz2file: >=0.98
+   :depends bz2file: 
    
-   :depends cachecontrol: >=0.11.5
+   :depends cachecontrol: 
    
-   :depends contextlib2: >=0.4.0
+   :depends contextlib2: 
    
-   :depends decorator: >=3.4.2
+   :depends decorator: 
    
-   :depends future: >=0.14.3
+   :depends future: 
    
-   :depends ipython: >=3.2.0
+   :depends ipython: 
    
-   :depends lockfile: >=0.10.2
+   :depends lockfile: 
    
-   :depends matplotlib: >=1.4.3
+   :depends matplotlib: >=1.1.0
    
-   :depends natsort: >=4.0.3
+   :depends natsort: 
    
-   :depends nose: >=1.3.7
+   :depends nose: 
    
    :depends numpy: 1.10*
    
-   :depends numpy: >=1.9.2
-   
-   :depends pandas: 0.17.*
+   :depends pandas: 
    
    :depends python: 2.7*
    
-   :depends scipy: >=0.15.1
+   :depends scipy: >=0.13.0
    
-   :depends six: >=1.9.0
+   :depends six: 
    
    :requirements:
 

@@ -24,6 +24,8 @@ genepop
 
    :versions: 4.6-0, 4.5.1-0
    
+   :depends libgcc: 
+   
    :requirements:
 
    .. rubric:: Installation

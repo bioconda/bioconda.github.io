@@ -22,11 +22,13 @@ sniffles
 
    |downloads_sniffles| |docker_sniffles|
 
-   :versions: 1.0.10-0, 1.0.8-0, 1.0.7-1, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.3-0
+   :versions: 1.0.11-0, 1.0.10-0, 1.0.8-0, 1.0.7-1, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.3-0
    
    :depends bamtools: >=2.4.1,<2.4.2.0a0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends tclap: >=1.2.1
    

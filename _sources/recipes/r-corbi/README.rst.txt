@@ -24,7 +24,11 @@ r-corbi
 
    :versions: 0.4_2-0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends libgfortran: >=3.0
+   
+   :depends libstdcxx-ng: >=4.9
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

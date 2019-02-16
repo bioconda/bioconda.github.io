@@ -25,6 +25,8 @@ structure
 
    :versions: 2.3.4-1, 2.3.4-0
    
+   :depends libgcc-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

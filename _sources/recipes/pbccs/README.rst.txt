@@ -22,7 +22,7 @@ pbccs
 
    |downloads_pbccs| |docker_pbccs|
 
-   :versions: 3.3.0-0, 3.1.0-3, 3.1.0-2, 3.1.0-1, 3.1.0-0
+   :versions: 3.4.0-0, 3.3.0-0, 3.1.0-3, 3.1.0-2, 3.1.0-1, 3.1.0-0
    
    :requirements:
 

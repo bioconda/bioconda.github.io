@@ -25,7 +25,9 @@ bamtools
 
    :versions: 2.5.1-4, 2.5.1-3, 2.5.1-2, 2.5.1-0, 2.4.1-1, 2.4.1-0, 2.4.0-3, 2.4.0-2, 2.4.0-1, 2.4.0-0, 2.3.0-2, 2.3.0-1, 2.3.0-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends zlib: >=1.2.11,<1.3.0a0
    

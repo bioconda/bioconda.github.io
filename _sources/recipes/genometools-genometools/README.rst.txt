@@ -28,7 +28,15 @@ genometools-genometools
 
    :versions: 1.5.10-2, 1.5.10-1, 1.5.10-0, 1.5.9-1, 1.5.9-0
    
+   :depends cairo: >=1.14.12,<1.15.0a0
+   
    :depends gettext: 
+   
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
+   :depends pango: >=1.40.14,<1.41.0a0
    
    :depends python: >=2.7,<2.8.0a0
    

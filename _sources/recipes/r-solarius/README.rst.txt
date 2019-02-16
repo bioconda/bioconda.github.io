@@ -24,7 +24,7 @@ r-solarius
 
    :versions: 0.3.0.2-0
    
-   :depends r-base: 3.3.2*
+   :depends r-base: 3.2.2*
    
    :depends r-data.table: 
    

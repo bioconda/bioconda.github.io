@@ -30,6 +30,8 @@ jcvi
    
    :depends gffutils: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends matplotlib: 
    
    :depends networkx: 

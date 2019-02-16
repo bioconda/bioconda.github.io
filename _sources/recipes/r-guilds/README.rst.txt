@@ -24,6 +24,10 @@ r-guilds
 
    :versions: 1.3-0
    
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
    :depends r-base: >=3.5.1,<3.5.2.0a0
    
    :depends r-pracma: 

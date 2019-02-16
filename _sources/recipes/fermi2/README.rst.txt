@@ -26,6 +26,8 @@ fermi2
    
    :depends bfc: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends make: 
    
    :depends perl: 

@@ -24,6 +24,8 @@ meryl
 
    :versions: 2013-0
    
+   :depends libgcc: 
+   
    :requirements:
 
    .. rubric:: Installation

@@ -26,6 +26,8 @@ sqt
    
    :depends cutadapt: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends matplotlib: 
    
    :depends pysam: 

@@ -24,8 +24,6 @@ popt
 
    :versions: 1.16-1, 1.16-0
    
-   :depends libiconv: 1.15
-   
    :requirements:
 
    .. rubric:: Installation

@@ -35,6 +35,8 @@ rnaclust
 
    :versions: 1.3-0
    
+   :depends libgcc: 
+   
    :depends locarna: 
    
    :depends perl: 5.22.0*

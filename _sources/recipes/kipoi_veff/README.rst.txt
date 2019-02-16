@@ -24,7 +24,7 @@ kipoi_veff
 
    |downloads_kipoi_veff| |docker_kipoi_veff|
 
-   :versions: 0.2.1-0, 0.2.0-0, 0.1.2-0
+   :versions: 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.2-0
    
    :depends colorlog: 
    

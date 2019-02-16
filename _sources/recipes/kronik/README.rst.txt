@@ -24,6 +24,8 @@ kronik
 
    :versions: 2.20-1, 2.20-0
    
+   :depends libstdcxx-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

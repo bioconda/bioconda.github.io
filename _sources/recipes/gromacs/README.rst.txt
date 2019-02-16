@@ -6,15 +6,15 @@
 gromacs
 =======
 
-.. conda:recipe:: gromacs
+.. conda:recipe:: gromacs/2019
    :replaces_section_title:
 
    GROMACS is a versatile package to perform molecular dynamics.
 
    :homepage: http://www.gromacs.org/
    :license: GNU Lesser General Public License (LGPL)
-   :recipe: /`gromacs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs/meta.yaml>`_
-   :links: biotools: :biotools:`gromacs`, doi: :doi:`10.1016/j.softx.2015.06.001`, rrid: :rrid:`RRID:SCR_014565`
+   :recipe: /`gromacs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs>`_/`2019 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs/2019>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs/2019/meta.yaml>`_
+   :links: biotools: :biotools:`gromacs`, doi: :doi:`10.5281/zenodo.2564764`, doi: :doi:`10.5281/zenodo.2564761`, doi: :doi:`10.1016/j.softx.2015.06.001`, rrid: :rrid:`RRID:SCR_014565`
 
    
 
@@ -23,11 +23,19 @@ gromacs
 
    |downloads_gromacs| |docker_gromacs|
 
-   :versions: 2018.4-0, 2018.3-0, 2018.2-0, 2018-3, 2018-2, 2018-1, 2018-0, 4.6.5-0
+   :versions: 2019.1-0, 2019-0, 2018.5-0, 2018.4-0, 2018.3-0, 2018.2-0, 2018-3, 2018-2, 2018-1, 2018-0, 4.6.5-0
    
    :depends fftw: 
    
-   :depends libhwloc: 1.*
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libhwloc: 2.*
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends ocl-icd: 
+   
+   :depends openmp: 
    
    :requirements:
 

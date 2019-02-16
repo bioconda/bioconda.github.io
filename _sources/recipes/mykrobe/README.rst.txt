@@ -11,8 +11,8 @@ mykrobe
 
    Rapid antibiotic\-resistance predictions from genome sequence data for Staphylococcus aureus and Mycobacterium tuberculosis.
 
-   :homepage: https://github.com/iqbal-lab/Mykrobe-predictor
-   :license: Custom non-commercial license
+   :homepage: https://github.com/Mykrobe-tools/mykrobe
+   :license: MIT
    :recipe: /`mykrobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mykrobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mykrobe/meta.yaml>`_
 
    
@@ -22,17 +22,19 @@ mykrobe
 
    |downloads_mykrobe| |docker_mykrobe|
 
-   :versions: 0.5.6-1, 0.5.6-0
+   :versions: 0.6.1-0, 0.5.6-1, 0.5.6-0
    
-   :depends future: 
+   :depends libgcc-ng: >=7.3.0
    
-   :depends ga4ghmongo: 
+   :depends libstdcxx-ng: >=7.3.0
    
-   :depends mongoengine: 
+   :depends mongodb: >3.0
    
-   :depends mykatlas: 
+   :depends python: >=3.6,<3.7.0a0
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends wget: 
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
    
    :requirements:
 
