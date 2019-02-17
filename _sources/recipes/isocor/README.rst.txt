@@ -24,7 +24,15 @@ isocor
 
    |downloads_isocor| |docker_isocor|
 
-   :versions: 
+   :versions: 2.1.0-0
+   
+   :depends numpy: >=1.15
+   
+   :depends pandas: >=0.17.1
+   
+   :depends python: >=3.7,<3.8.0a0
+   
+   :depends scipy: >=0.12.1
    
    :requirements:
 

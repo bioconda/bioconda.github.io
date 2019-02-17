@@ -22,7 +22,11 @@ mykrobe
 
    |downloads_mykrobe| |docker_mykrobe|
 
-   :versions: 0.6.1-0, 0.5.6-1, 0.5.6-0
+   :versions: 0.6.1-1, 0.6.1-0, 0.5.6-1, 0.5.6-0
+   
+   :depends biopython: 
+   
+   :depends cython: 
    
    :depends libgcc-ng: >=7.3.0
    
@@ -30,7 +34,13 @@ mykrobe
    
    :depends mongodb: >3.0
    
+   :depends mongoengine: 
+   
+   :depends numpy: 
+   
    :depends python: >=3.6,<3.7.0a0
+   
+   :depends pyvcf: 
    
    :depends wget: 
    

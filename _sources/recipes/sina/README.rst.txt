@@ -51,9 +51,11 @@ sina
    
    :depends glib: >=2.58.2,<3.0a0
    
-   :depends libarbdb: 6.0.6 h82bc0eb_8
+   :depends libarbdb: 6.0.6 haa8b8d8_8
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends tbb: >=2019.3
    
