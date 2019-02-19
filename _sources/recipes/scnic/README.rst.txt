@@ -22,13 +22,11 @@ scnic
 
    |downloads_scnic| |docker_scnic|
 
-   :versions: 0.6.0-0, 0.5.3-0, 0.5.1-0
-   
-   :depends armadillo: 8.*
+   :versions: 0.6.1-0, 0.6.0-0, 0.5.3-0, 0.5.1-0
    
    :depends biom-format: 
    
-   :depends fastspar: 0.0.6.*
+   :depends fastspar: 
    
    :depends h5py: 
    

@@ -23,7 +23,7 @@ fusioncatcher
 
    |downloads_fusioncatcher| |docker_fusioncatcher|
 
-   :versions: 1.00-0
+   :versions: 1.00-1, 1.00-0
    
    :depends bbmap: 
    
