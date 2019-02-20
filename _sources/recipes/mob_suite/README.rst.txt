@@ -22,7 +22,7 @@ mob_suite
 
    |downloads_mob_suite| |docker_mob_suite|
 
-   :versions: 1.4.9-1, 1.4.9-0, 1.4.8-0, 1.4.6-1, 1.4.5-1, 1.4.1-0
+   :versions: 1.4.9.1-0, 1.4.9-1, 1.4.9-0, 1.4.8-0, 1.4.6-1, 1.4.5-1, 1.4.1-0
    
    :depends biopython: >=1.70
    

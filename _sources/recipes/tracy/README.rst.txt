@@ -22,7 +22,7 @@ tracy
 
    |downloads_tracy| |docker_tracy|
 
-   :versions: 0.5.1-0, 0.3.10-0, 0.3.8-0, 0.3.7-0, 0.3.6-1, 0.3.6-0
+   :versions: 0.5.2-0, 0.5.1-0, 0.3.10-0, 0.3.8-0, 0.3.7-0, 0.3.6-1, 0.3.6-0
    
    :requirements:
 
