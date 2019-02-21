@@ -52,7 +52,7 @@ metaseq-all
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metaseq-all:<tag>
+      docker pull quay.io/biocontainers/metaseq-all:<tag>
 
    (see `metaseq-all/tags`_ for valid values for ``<tag>``)
 

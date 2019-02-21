@@ -46,7 +46,7 @@ bioconductor-asset
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-asset:<tag>
+      docker pull quay.io/biocontainers/bioconductor-asset:<tag>
 
    (see `bioconductor-asset/tags`_ for valid values for ``<tag>``)
 

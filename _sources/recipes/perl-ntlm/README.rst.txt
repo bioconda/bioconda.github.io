@@ -42,7 +42,7 @@ perl-ntlm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-ntlm:<tag>
+      docker pull quay.io/biocontainers/perl-ntlm:<tag>
 
    (see `perl-ntlm/tags`_ for valid values for ``<tag>``)
 

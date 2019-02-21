@@ -44,7 +44,7 @@ pancake
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pancake:<tag>
+      docker pull quay.io/biocontainers/pancake:<tag>
 
    (see `pancake/tags`_ for valid values for ``<tag>``)
 

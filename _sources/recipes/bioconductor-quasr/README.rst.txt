@@ -81,7 +81,7 @@ bioconductor-quasr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-quasr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-quasr:<tag>
 
    (see `bioconductor-quasr/tags`_ for valid values for ``<tag>``)
 

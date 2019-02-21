@@ -71,7 +71,7 @@ bioconductor-cardinal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cardinal:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cardinal:<tag>
 
    (see `bioconductor-cardinal/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ perl-config-any
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-config-any:<tag>
+      docker pull quay.io/biocontainers/perl-config-any:<tag>
 
    (see `perl-config-any/tags`_ for valid values for ``<tag>``)
 

@@ -60,7 +60,7 @@ bioconductor-ledpred
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ledpred:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ledpred:<tag>
 
    (see `bioconductor-ledpred/tags`_ for valid values for ``<tag>``)
 

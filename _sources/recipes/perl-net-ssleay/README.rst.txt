@@ -46,7 +46,7 @@ perl-net-ssleay
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-net-ssleay:<tag>
+      docker pull quay.io/biocontainers/perl-net-ssleay:<tag>
 
    (see `perl-net-ssleay/tags`_ for valid values for ``<tag>``)
 

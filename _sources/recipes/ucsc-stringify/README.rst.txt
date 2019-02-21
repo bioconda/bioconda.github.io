@@ -50,7 +50,7 @@ ucsc-stringify
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-stringify:<tag>
+      docker pull quay.io/biocontainers/ucsc-stringify:<tag>
 
    (see `ucsc-stringify/tags`_ for valid values for ``<tag>``)
 

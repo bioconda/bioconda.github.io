@@ -44,7 +44,7 @@ gtfparse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gtfparse:<tag>
+      docker pull quay.io/biocontainers/gtfparse:<tag>
 
    (see `gtfparse/tags`_ for valid values for ``<tag>``)
 

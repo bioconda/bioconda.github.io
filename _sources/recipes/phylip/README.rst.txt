@@ -45,7 +45,7 @@ phylip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phylip:<tag>
+      docker pull quay.io/biocontainers/phylip:<tag>
 
    (see `phylip/tags`_ for valid values for ``<tag>``)
 

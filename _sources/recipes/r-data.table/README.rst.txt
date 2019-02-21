@@ -42,7 +42,7 @@ r-data.table
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-data.table:<tag>
+      docker pull quay.io/biocontainers/r-data.table:<tag>
 
    (see `r-data.table/tags`_ for valid values for ``<tag>``)
 

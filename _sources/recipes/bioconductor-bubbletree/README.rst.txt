@@ -75,7 +75,7 @@ bioconductor-bubbletree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bubbletree:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bubbletree:<tag>
 
    (see `bioconductor-bubbletree/tags`_ for valid values for ``<tag>``)
 

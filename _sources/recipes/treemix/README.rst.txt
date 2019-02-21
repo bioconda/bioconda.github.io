@@ -51,7 +51,7 @@ treemix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/treemix:<tag>
+      docker pull quay.io/biocontainers/treemix:<tag>
 
    (see `treemix/tags`_ for valid values for ``<tag>``)
 

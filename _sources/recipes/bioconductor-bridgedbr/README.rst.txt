@@ -38,7 +38,7 @@ bioconductor-bridgedbr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bridgedbr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bridgedbr:<tag>
 
    (see `bioconductor-bridgedbr/tags`_ for valid values for ``<tag>``)
 

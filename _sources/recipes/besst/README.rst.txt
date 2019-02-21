@@ -49,7 +49,7 @@ besst
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/besst:<tag>
+      docker pull quay.io/biocontainers/besst:<tag>
 
    (see `besst/tags`_ for valid values for ``<tag>``)
 

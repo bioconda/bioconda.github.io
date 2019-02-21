@@ -45,7 +45,7 @@ bioconductor-rbm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rbm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rbm:<tag>
 
    (see `bioconductor-rbm/tags`_ for valid values for ``<tag>``)
 

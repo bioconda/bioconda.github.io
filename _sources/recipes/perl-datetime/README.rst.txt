@@ -62,7 +62,7 @@ perl-datetime
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-datetime:<tag>
+      docker pull quay.io/biocontainers/perl-datetime:<tag>
 
    (see `perl-datetime/tags`_ for valid values for ``<tag>``)
 

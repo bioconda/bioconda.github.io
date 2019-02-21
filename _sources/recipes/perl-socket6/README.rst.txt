@@ -40,7 +40,7 @@ perl-socket6
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-socket6:<tag>
+      docker pull quay.io/biocontainers/perl-socket6:<tag>
 
    (see `perl-socket6/tags`_ for valid values for ``<tag>``)
 

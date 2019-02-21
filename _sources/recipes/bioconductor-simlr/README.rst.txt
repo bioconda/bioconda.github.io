@@ -55,7 +55,7 @@ bioconductor-simlr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-simlr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-simlr:<tag>
 
    (see `bioconductor-simlr/tags`_ for valid values for ``<tag>``)
 

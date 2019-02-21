@@ -48,7 +48,7 @@ wiggletools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wiggletools:<tag>
+      docker pull quay.io/biocontainers/wiggletools:<tag>
 
    (see `wiggletools/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-xml-parser-lite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-parser-lite:<tag>
+      docker pull quay.io/biocontainers/perl-xml-parser-lite:<tag>
 
    (see `perl-xml-parser-lite/tags`_ for valid values for ``<tag>``)
 

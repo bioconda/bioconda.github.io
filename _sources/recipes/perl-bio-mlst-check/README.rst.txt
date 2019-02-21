@@ -72,7 +72,7 @@ perl-bio-mlst-check
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-mlst-check:<tag>
+      docker pull quay.io/biocontainers/perl-bio-mlst-check:<tag>
 
    (see `perl-bio-mlst-check/tags`_ for valid values for ``<tag>``)
 

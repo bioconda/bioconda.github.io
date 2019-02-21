@@ -43,7 +43,7 @@ bioconductor-limma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-limma:<tag>
+      docker pull quay.io/biocontainers/bioconductor-limma:<tag>
 
    (see `bioconductor-limma/tags`_ for valid values for ``<tag>``)
 

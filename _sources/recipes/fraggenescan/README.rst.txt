@@ -46,7 +46,7 @@ fraggenescan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fraggenescan:<tag>
+      docker pull quay.io/biocontainers/fraggenescan:<tag>
 
    (see `fraggenescan/tags`_ for valid values for ``<tag>``)
 

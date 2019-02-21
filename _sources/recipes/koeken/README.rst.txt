@@ -68,7 +68,7 @@ koeken
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/koeken:<tag>
+      docker pull quay.io/biocontainers/koeken:<tag>
 
    (see `koeken/tags`_ for valid values for ``<tag>``)
 

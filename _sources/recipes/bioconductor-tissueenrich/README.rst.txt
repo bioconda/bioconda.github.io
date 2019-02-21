@@ -52,7 +52,7 @@ bioconductor-tissueenrich
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tissueenrich:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tissueenrich:<tag>
 
    (see `bioconductor-tissueenrich/tags`_ for valid values for ``<tag>``)
 

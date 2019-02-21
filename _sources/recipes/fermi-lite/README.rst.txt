@@ -42,7 +42,7 @@ fermi-lite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fermi-lite:<tag>
+      docker pull quay.io/biocontainers/fermi-lite:<tag>
 
    (see `fermi-lite/tags`_ for valid values for ``<tag>``)
 

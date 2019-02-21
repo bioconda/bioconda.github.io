@@ -48,7 +48,7 @@ rmats2sashimiplot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rmats2sashimiplot:<tag>
+      docker pull quay.io/biocontainers/rmats2sashimiplot:<tag>
 
    (see `rmats2sashimiplot/tags`_ for valid values for ``<tag>``)
 

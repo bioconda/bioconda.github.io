@@ -64,7 +64,7 @@ bioconductor-paa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-paa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-paa:<tag>
 
    (see `bioconductor-paa/tags`_ for valid values for ``<tag>``)
 

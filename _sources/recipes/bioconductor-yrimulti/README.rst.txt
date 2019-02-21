@@ -62,7 +62,7 @@ bioconductor-yrimulti
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-yrimulti:<tag>
+      docker pull quay.io/biocontainers/bioconductor-yrimulti:<tag>
 
    (see `bioconductor-yrimulti/tags`_ for valid values for ``<tag>``)
 

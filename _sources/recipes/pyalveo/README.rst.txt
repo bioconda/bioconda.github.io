@@ -46,7 +46,7 @@ pyalveo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyalveo:<tag>
+      docker pull quay.io/biocontainers/pyalveo:<tag>
 
    (see `pyalveo/tags`_ for valid values for ``<tag>``)
 

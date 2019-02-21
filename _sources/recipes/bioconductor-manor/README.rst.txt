@@ -38,7 +38,7 @@ bioconductor-manor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-manor:<tag>
+      docker pull quay.io/biocontainers/bioconductor-manor:<tag>
 
    (see `bioconductor-manor/tags`_ for valid values for ``<tag>``)
 

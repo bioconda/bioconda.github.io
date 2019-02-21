@@ -40,7 +40,7 @@ mysql-connector-c
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mysql-connector-c:<tag>
+      docker pull quay.io/biocontainers/mysql-connector-c:<tag>
 
    (see `mysql-connector-c/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ bioconductor-lmdme
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lmdme:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lmdme:<tag>
 
    (see `bioconductor-lmdme/tags`_ for valid values for ``<tag>``)
 

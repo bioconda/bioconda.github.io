@@ -39,7 +39,7 @@ jali
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/jali:<tag>
+      docker pull quay.io/biocontainers/jali:<tag>
 
    (see `jali/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ pbmm2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbmm2:<tag>
+      docker pull quay.io/biocontainers/pbmm2:<tag>
 
    (see `pbmm2/tags`_ for valid values for ``<tag>``)
 

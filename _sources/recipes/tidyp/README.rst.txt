@@ -38,7 +38,7 @@ tidyp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tidyp:<tag>
+      docker pull quay.io/biocontainers/tidyp:<tag>
 
    (see `tidyp/tags`_ for valid values for ``<tag>``)
 

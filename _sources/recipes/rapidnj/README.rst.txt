@@ -41,7 +41,7 @@ rapidnj
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rapidnj:<tag>
+      docker pull quay.io/biocontainers/rapidnj:<tag>
 
    (see `rapidnj/tags`_ for valid values for ``<tag>``)
 

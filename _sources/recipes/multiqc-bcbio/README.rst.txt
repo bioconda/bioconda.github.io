@@ -42,7 +42,7 @@ multiqc-bcbio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/multiqc-bcbio:<tag>
+      docker pull quay.io/biocontainers/multiqc-bcbio:<tag>
 
    (see `multiqc-bcbio/tags`_ for valid values for ``<tag>``)
 

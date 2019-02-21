@@ -54,7 +54,7 @@ perl-moo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moo:<tag>
+      docker pull quay.io/biocontainers/perl-moo:<tag>
 
    (see `perl-moo/tags`_ for valid values for ``<tag>``)
 

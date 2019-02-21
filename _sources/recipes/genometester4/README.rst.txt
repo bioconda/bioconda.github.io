@@ -41,7 +41,7 @@ genometester4
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genometester4:<tag>
+      docker pull quay.io/biocontainers/genometester4:<tag>
 
    (see `genometester4/tags`_ for valid values for ``<tag>``)
 

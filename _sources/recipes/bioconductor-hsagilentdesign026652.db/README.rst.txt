@@ -46,7 +46,7 @@ bioconductor-hsagilentdesign026652.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hsagilentdesign026652.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hsagilentdesign026652.db:<tag>
 
    (see `bioconductor-hsagilentdesign026652.db/tags`_ for valid values for ``<tag>``)
 

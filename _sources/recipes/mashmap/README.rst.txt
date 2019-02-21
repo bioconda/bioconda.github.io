@@ -46,7 +46,7 @@ mashmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mashmap:<tag>
+      docker pull quay.io/biocontainers/mashmap:<tag>
 
    (see `mashmap/tags`_ for valid values for ``<tag>``)
 

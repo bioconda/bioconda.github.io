@@ -50,7 +50,7 @@ matlock
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/matlock:<tag>
+      docker pull quay.io/biocontainers/matlock:<tag>
 
    (see `matlock/tags`_ for valid values for ``<tag>``)
 

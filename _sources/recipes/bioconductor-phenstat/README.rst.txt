@@ -72,7 +72,7 @@ bioconductor-phenstat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-phenstat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-phenstat:<tag>
 
    (see `bioconductor-phenstat/tags`_ for valid values for ``<tag>``)
 

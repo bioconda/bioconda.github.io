@@ -68,7 +68,7 @@ bioconductor-egad
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-egad:<tag>
+      docker pull quay.io/biocontainers/bioconductor-egad:<tag>
 
    (see `bioconductor-egad/tags`_ for valid values for ``<tag>``)
 

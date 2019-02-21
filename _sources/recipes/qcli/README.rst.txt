@@ -40,7 +40,7 @@ qcli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/qcli:<tag>
+      docker pull quay.io/biocontainers/qcli:<tag>
 
    (see `qcli/tags`_ for valid values for ``<tag>``)
 

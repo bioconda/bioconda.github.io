@@ -46,7 +46,7 @@ perl-sys-info-driver-osx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sys-info-driver-osx:<tag>
+      docker pull quay.io/biocontainers/perl-sys-info-driver-osx:<tag>
 
    (see `perl-sys-info-driver-osx/tags`_ for valid values for ``<tag>``)
 

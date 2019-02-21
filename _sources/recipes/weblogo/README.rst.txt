@@ -45,7 +45,7 @@ weblogo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/weblogo:<tag>
+      docker pull quay.io/biocontainers/weblogo:<tag>
 
    (see `weblogo/tags`_ for valid values for ``<tag>``)
 

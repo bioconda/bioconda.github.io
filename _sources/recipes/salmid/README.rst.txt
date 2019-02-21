@@ -39,7 +39,7 @@ salmid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/salmid:<tag>
+      docker pull quay.io/biocontainers/salmid:<tag>
 
    (see `salmid/tags`_ for valid values for ``<tag>``)
 

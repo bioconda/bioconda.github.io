@@ -52,7 +52,7 @@ r-soap-nmr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-soap-nmr:<tag>
+      docker pull quay.io/biocontainers/r-soap-nmr:<tag>
 
    (see `r-soap-nmr/tags`_ for valid values for ``<tag>``)
 

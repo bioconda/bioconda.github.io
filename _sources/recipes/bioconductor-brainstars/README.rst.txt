@@ -47,7 +47,7 @@ bioconductor-brainstars
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-brainstars:<tag>
+      docker pull quay.io/biocontainers/bioconductor-brainstars:<tag>
 
    (see `bioconductor-brainstars/tags`_ for valid values for ``<tag>``)
 

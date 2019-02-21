@@ -43,7 +43,7 @@ bioconductor-ibh
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ibh:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ibh:<tag>
 
    (see `bioconductor-ibh/tags`_ for valid values for ``<tag>``)
 

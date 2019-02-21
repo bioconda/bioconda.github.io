@@ -43,7 +43,7 @@ bioconductor-ropls
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ropls:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ropls:<tag>
 
    (see `bioconductor-ropls/tags`_ for valid values for ``<tag>``)
 

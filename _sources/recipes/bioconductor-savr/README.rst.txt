@@ -51,7 +51,7 @@ bioconductor-savr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-savr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-savr:<tag>
 
    (see `bioconductor-savr/tags`_ for valid values for ``<tag>``)
 

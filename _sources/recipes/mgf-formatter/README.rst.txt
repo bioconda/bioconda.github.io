@@ -42,7 +42,7 @@ mgf-formatter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mgf-formatter:<tag>
+      docker pull quay.io/biocontainers/mgf-formatter:<tag>
 
    (see `mgf-formatter/tags`_ for valid values for ``<tag>``)
 

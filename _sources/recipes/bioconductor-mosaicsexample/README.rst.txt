@@ -42,7 +42,7 @@ bioconductor-mosaicsexample
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mosaicsexample:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mosaicsexample:<tag>
 
    (see `bioconductor-mosaicsexample/tags`_ for valid values for ``<tag>``)
 

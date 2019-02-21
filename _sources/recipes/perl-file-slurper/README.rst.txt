@@ -48,7 +48,7 @@ perl-file-slurper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-slurper:<tag>
+      docker pull quay.io/biocontainers/perl-file-slurper:<tag>
 
    (see `perl-file-slurper/tags`_ for valid values for ``<tag>``)
 

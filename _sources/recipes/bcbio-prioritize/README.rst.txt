@@ -40,7 +40,7 @@ bcbio-prioritize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcbio-prioritize:<tag>
+      docker pull quay.io/biocontainers/bcbio-prioritize:<tag>
 
    (see `bcbio-prioritize/tags`_ for valid values for ``<tag>``)
 

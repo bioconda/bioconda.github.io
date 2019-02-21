@@ -46,7 +46,7 @@ bioconductor-ccl4
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ccl4:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ccl4:<tag>
 
    (see `bioconductor-ccl4/tags`_ for valid values for ``<tag>``)
 

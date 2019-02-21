@@ -46,7 +46,7 @@ perl-gd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-gd:<tag>
+      docker pull quay.io/biocontainers/perl-gd:<tag>
 
    (see `perl-gd/tags`_ for valid values for ``<tag>``)
 

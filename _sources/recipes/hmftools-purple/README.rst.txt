@@ -44,7 +44,7 @@ hmftools-purple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hmftools-purple:<tag>
+      docker pull quay.io/biocontainers/hmftools-purple:<tag>
 
    (see `hmftools-purple/tags`_ for valid values for ``<tag>``)
 

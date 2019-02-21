@@ -42,7 +42,7 @@ bioconductor-fdrame
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fdrame:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fdrame:<tag>
 
    (see `bioconductor-fdrame/tags`_ for valid values for ``<tag>``)
 

@@ -60,7 +60,7 @@ bioconductor-sevenbridges
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sevenbridges:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sevenbridges:<tag>
 
    (see `bioconductor-sevenbridges/tags`_ for valid values for ``<tag>``)
 

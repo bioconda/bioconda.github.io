@@ -48,7 +48,7 @@ refseq_masher
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/refseq_masher:<tag>
+      docker pull quay.io/biocontainers/refseq_masher:<tag>
 
    (see `refseq_masher/tags`_ for valid values for ``<tag>``)
 

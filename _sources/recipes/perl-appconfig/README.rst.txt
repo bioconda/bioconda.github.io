@@ -40,7 +40,7 @@ perl-appconfig
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-appconfig:<tag>
+      docker pull quay.io/biocontainers/perl-appconfig:<tag>
 
    (see `perl-appconfig/tags`_ for valid values for ``<tag>``)
 

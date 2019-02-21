@@ -58,7 +58,7 @@ bioconductor-rnaseqsamplesize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnaseqsamplesize:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rnaseqsamplesize:<tag>
 
    (see `bioconductor-rnaseqsamplesize/tags`_ for valid values for ``<tag>``)
 

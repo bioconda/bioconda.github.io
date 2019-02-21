@@ -46,7 +46,7 @@ bioconductor-ecolileucine
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ecolileucine:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ecolileucine:<tag>
 
    (see `bioconductor-ecolileucine/tags`_ for valid values for ``<tag>``)
 

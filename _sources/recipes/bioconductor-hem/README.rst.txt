@@ -45,7 +45,7 @@ bioconductor-hem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hem:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hem:<tag>
 
    (see `bioconductor-hem/tags`_ for valid values for ``<tag>``)
 

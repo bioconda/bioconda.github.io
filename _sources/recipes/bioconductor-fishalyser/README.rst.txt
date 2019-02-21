@@ -45,7 +45,7 @@ bioconductor-fishalyser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fishalyser:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fishalyser:<tag>
 
    (see `bioconductor-fishalyser/tags`_ for valid values for ``<tag>``)
 

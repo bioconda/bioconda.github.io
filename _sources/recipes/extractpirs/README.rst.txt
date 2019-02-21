@@ -42,7 +42,7 @@ extractpirs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/extractpirs:<tag>
+      docker pull quay.io/biocontainers/extractpirs:<tag>
 
    (see `extractpirs/tags`_ for valid values for ``<tag>``)
 

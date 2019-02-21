@@ -44,7 +44,7 @@ neurodocker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/neurodocker:<tag>
+      docker pull quay.io/biocontainers/neurodocker:<tag>
 
    (see `neurodocker/tags`_ for valid values for ``<tag>``)
 

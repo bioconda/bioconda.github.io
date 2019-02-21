@@ -48,7 +48,7 @@ bioconductor-lrbasedbi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lrbasedbi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lrbasedbi:<tag>
 
    (see `bioconductor-lrbasedbi/tags`_ for valid values for ``<tag>``)
 

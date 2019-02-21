@@ -65,7 +65,7 @@ bioconductor-edaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-edaseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-edaseq:<tag>
 
    (see `bioconductor-edaseq/tags`_ for valid values for ``<tag>``)
 

@@ -57,7 +57,7 @@ chemfp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/chemfp:<tag>
+      docker pull quay.io/biocontainers/chemfp:<tag>
 
    (see `chemfp/tags`_ for valid values for ``<tag>``)
 

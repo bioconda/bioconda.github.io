@@ -42,7 +42,7 @@ ococo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ococo:<tag>
+      docker pull quay.io/biocontainers/ococo:<tag>
 
    (see `ococo/tags`_ for valid values for ``<tag>``)
 

@@ -49,7 +49,7 @@ bioconductor-flowpeaks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowpeaks:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowpeaks:<tag>
 
    (see `bioconductor-flowpeaks/tags`_ for valid values for ``<tag>``)
 

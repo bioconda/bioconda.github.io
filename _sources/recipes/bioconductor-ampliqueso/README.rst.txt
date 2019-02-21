@@ -38,7 +38,7 @@ bioconductor-ampliqueso
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ampliqueso:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ampliqueso:<tag>
 
    (see `bioconductor-ampliqueso/tags`_ for valid values for ``<tag>``)
 

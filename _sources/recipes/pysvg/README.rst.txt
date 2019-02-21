@@ -44,7 +44,7 @@ pysvg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pysvg:<tag>
+      docker pull quay.io/biocontainers/pysvg:<tag>
 
    (see `pysvg/tags`_ for valid values for ``<tag>``)
 

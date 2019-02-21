@@ -53,7 +53,7 @@ bioconductor-mcrestimate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mcrestimate:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mcrestimate:<tag>
 
    (see `bioconductor-mcrestimate/tags`_ for valid values for ``<tag>``)
 

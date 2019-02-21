@@ -48,7 +48,7 @@ perl-file-pushd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-pushd:<tag>
+      docker pull quay.io/biocontainers/perl-file-pushd:<tag>
 
    (see `perl-file-pushd/tags`_ for valid values for ``<tag>``)
 

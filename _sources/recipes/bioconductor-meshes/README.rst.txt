@@ -53,7 +53,7 @@ bioconductor-meshes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-meshes:<tag>
+      docker pull quay.io/biocontainers/bioconductor-meshes:<tag>
 
    (see `bioconductor-meshes/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ hichipper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hichipper:<tag>
+      docker pull quay.io/biocontainers/hichipper:<tag>
 
    (see `hichipper/tags`_ for valid values for ``<tag>``)
 

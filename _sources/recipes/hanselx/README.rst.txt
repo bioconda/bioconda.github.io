@@ -42,7 +42,7 @@ hanselx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hanselx:<tag>
+      docker pull quay.io/biocontainers/hanselx:<tag>
 
    (see `hanselx/tags`_ for valid values for ``<tag>``)
 

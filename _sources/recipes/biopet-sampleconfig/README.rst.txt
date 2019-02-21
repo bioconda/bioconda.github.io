@@ -66,7 +66,7 @@ biopet-sampleconfig
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-sampleconfig:<tag>
+      docker pull quay.io/biocontainers/biopet-sampleconfig:<tag>
 
    (see `biopet-sampleconfig/tags`_ for valid values for ``<tag>``)
 

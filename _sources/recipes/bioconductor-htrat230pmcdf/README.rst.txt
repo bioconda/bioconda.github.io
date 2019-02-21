@@ -44,7 +44,7 @@ bioconductor-htrat230pmcdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-htrat230pmcdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-htrat230pmcdf:<tag>
 
    (see `bioconductor-htrat230pmcdf/tags`_ for valid values for ``<tag>``)
 

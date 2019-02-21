@@ -39,7 +39,7 @@ impute2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/impute2:<tag>
+      docker pull quay.io/biocontainers/impute2:<tag>
 
    (see `impute2/tags`_ for valid values for ``<tag>``)
 

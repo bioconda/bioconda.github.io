@@ -45,7 +45,7 @@ fsm-lite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fsm-lite:<tag>
+      docker pull quay.io/biocontainers/fsm-lite:<tag>
 
    (see `fsm-lite/tags`_ for valid values for ``<tag>``)
 

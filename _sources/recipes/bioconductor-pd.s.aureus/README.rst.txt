@@ -56,7 +56,7 @@ bioconductor-pd.s.aureus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.s.aureus:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.s.aureus:<tag>
 
    (see `bioconductor-pd.s.aureus/tags`_ for valid values for ``<tag>``)
 

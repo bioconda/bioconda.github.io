@@ -60,7 +60,7 @@ r-phylosignal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-phylosignal:<tag>
+      docker pull quay.io/biocontainers/r-phylosignal:<tag>
 
    (see `r-phylosignal/tags`_ for valid values for ``<tag>``)
 

@@ -54,7 +54,7 @@ pyprophet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyprophet:<tag>
+      docker pull quay.io/biocontainers/pyprophet:<tag>
 
    (see `pyprophet/tags`_ for valid values for ``<tag>``)
 

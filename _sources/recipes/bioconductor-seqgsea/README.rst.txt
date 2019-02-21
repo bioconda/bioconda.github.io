@@ -49,7 +49,7 @@ bioconductor-seqgsea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seqgsea:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seqgsea:<tag>
 
    (see `bioconductor-seqgsea/tags`_ for valid values for ``<tag>``)
 

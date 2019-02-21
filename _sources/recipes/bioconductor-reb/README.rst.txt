@@ -46,7 +46,7 @@ bioconductor-reb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-reb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-reb:<tag>
 
    (see `bioconductor-reb/tags`_ for valid values for ``<tag>``)
 

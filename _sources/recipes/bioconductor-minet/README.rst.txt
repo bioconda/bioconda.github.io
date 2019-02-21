@@ -47,7 +47,7 @@ bioconductor-minet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-minet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-minet:<tag>
 
    (see `bioconductor-minet/tags`_ for valid values for ``<tag>``)
 

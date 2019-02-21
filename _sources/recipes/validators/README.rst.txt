@@ -44,7 +44,7 @@ validators
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/validators:<tag>
+      docker pull quay.io/biocontainers/validators:<tag>
 
    (see `validators/tags`_ for valid values for ``<tag>``)
 

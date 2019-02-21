@@ -43,7 +43,7 @@ bioconductor-pcan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pcan:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pcan:<tag>
 
    (see `bioconductor-pcan/tags`_ for valid values for ``<tag>``)
 

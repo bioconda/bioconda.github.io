@@ -40,7 +40,7 @@ perl-algorithm-cluster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-algorithm-cluster:<tag>
+      docker pull quay.io/biocontainers/perl-algorithm-cluster:<tag>
 
    (see `perl-algorithm-cluster/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ miniasm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/miniasm:<tag>
+      docker pull quay.io/biocontainers/miniasm:<tag>
 
    (see `miniasm/tags`_ for valid values for ``<tag>``)
 

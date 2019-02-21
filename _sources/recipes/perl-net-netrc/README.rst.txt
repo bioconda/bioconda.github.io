@@ -40,7 +40,7 @@ perl-net-netrc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-net-netrc:<tag>
+      docker pull quay.io/biocontainers/perl-net-netrc:<tag>
 
    (see `perl-net-netrc/tags`_ for valid values for ``<tag>``)
 

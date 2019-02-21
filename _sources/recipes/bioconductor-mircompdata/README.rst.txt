@@ -42,7 +42,7 @@ bioconductor-mircompdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mircompdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mircompdata:<tag>
 
    (see `bioconductor-mircompdata/tags`_ for valid values for ``<tag>``)
 

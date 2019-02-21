@@ -52,7 +52,7 @@ pvacseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pvacseq:<tag>
+      docker pull quay.io/biocontainers/pvacseq:<tag>
 
    (see `pvacseq/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ translate-gard
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/translate-gard:<tag>
+      docker pull quay.io/biocontainers/translate-gard:<tag>
 
    (see `translate-gard/tags`_ for valid values for ``<tag>``)
 

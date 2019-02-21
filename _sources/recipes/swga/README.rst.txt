@@ -64,7 +64,7 @@ swga
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/swga:<tag>
+      docker pull quay.io/biocontainers/swga:<tag>
 
    (see `swga/tags`_ for valid values for ``<tag>``)
 

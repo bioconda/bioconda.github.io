@@ -44,7 +44,7 @@ bioconductor-pepdat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pepdat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pepdat:<tag>
 
    (see `bioconductor-pepdat/tags`_ for valid values for ``<tag>``)
 

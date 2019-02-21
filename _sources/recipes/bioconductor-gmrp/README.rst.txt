@@ -47,7 +47,7 @@ bioconductor-gmrp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gmrp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gmrp:<tag>
 
    (see `bioconductor-gmrp/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ r-hardyweinberg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-hardyweinberg:<tag>
+      docker pull quay.io/biocontainers/r-hardyweinberg:<tag>
 
    (see `r-hardyweinberg/tags`_ for valid values for ``<tag>``)
 

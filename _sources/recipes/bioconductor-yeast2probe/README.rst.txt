@@ -44,7 +44,7 @@ bioconductor-yeast2probe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-yeast2probe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-yeast2probe:<tag>
 
    (see `bioconductor-yeast2probe/tags`_ for valid values for ``<tag>``)
 

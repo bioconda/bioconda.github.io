@@ -60,7 +60,7 @@ bioconductor-gesper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gesper:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gesper:<tag>
 
    (see `bioconductor-gesper/tags`_ for valid values for ``<tag>``)
 

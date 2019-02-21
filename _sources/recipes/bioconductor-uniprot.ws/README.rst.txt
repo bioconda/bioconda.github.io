@@ -53,7 +53,7 @@ bioconductor-uniprot.ws
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-uniprot.ws:<tag>
+      docker pull quay.io/biocontainers/bioconductor-uniprot.ws:<tag>
 
    (see `bioconductor-uniprot.ws/tags`_ for valid values for ``<tag>``)
 

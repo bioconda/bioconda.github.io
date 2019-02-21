@@ -43,7 +43,7 @@ gridss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gridss:<tag>
+      docker pull quay.io/biocontainers/gridss:<tag>
 
    (see `gridss/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-heap-simple-xs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-heap-simple-xs:<tag>
+      docker pull quay.io/biocontainers/perl-heap-simple-xs:<tag>
 
    (see `perl-heap-simple-xs/tags`_ for valid values for ``<tag>``)
 

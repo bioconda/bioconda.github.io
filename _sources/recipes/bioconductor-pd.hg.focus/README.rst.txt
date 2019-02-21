@@ -56,7 +56,7 @@ bioconductor-pd.hg.focus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.hg.focus:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.hg.focus:<tag>
 
    (see `bioconductor-pd.hg.focus/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-image-exiftool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-image-exiftool:<tag>
+      docker pull quay.io/biocontainers/perl-image-exiftool:<tag>
 
    (see `perl-image-exiftool/tags`_ for valid values for ``<tag>``)
 

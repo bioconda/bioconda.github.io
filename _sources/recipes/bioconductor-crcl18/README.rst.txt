@@ -44,7 +44,7 @@ bioconductor-crcl18
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-crcl18:<tag>
+      docker pull quay.io/biocontainers/bioconductor-crcl18:<tag>
 
    (see `bioconductor-crcl18/tags`_ for valid values for ``<tag>``)
 

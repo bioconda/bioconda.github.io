@@ -46,7 +46,7 @@ r-phylomeasures
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-phylomeasures:<tag>
+      docker pull quay.io/biocontainers/r-phylomeasures:<tag>
 
    (see `r-phylomeasures/tags`_ for valid values for ``<tag>``)
 

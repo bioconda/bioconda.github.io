@@ -44,7 +44,7 @@ bioconductor-snadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snadata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-snadata:<tag>
 
    (see `bioconductor-snadata/tags`_ for valid values for ``<tag>``)
 

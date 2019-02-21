@@ -45,7 +45,7 @@ cat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cat:<tag>
+      docker pull quay.io/biocontainers/cat:<tag>
 
    (see `cat/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-omicade4
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omicade4:<tag>
+      docker pull quay.io/biocontainers/bioconductor-omicade4:<tag>
 
    (see `bioconductor-omicade4/tags`_ for valid values for ``<tag>``)
 

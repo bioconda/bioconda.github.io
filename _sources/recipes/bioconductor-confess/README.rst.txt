@@ -38,7 +38,7 @@ bioconductor-confess
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-confess:<tag>
+      docker pull quay.io/biocontainers/bioconductor-confess:<tag>
 
    (see `bioconductor-confess/tags`_ for valid values for ``<tag>``)
 

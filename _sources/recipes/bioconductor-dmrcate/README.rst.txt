@@ -61,7 +61,7 @@ bioconductor-dmrcate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dmrcate:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dmrcate:<tag>
 
    (see `bioconductor-dmrcate/tags`_ for valid values for ``<tag>``)
 

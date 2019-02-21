@@ -54,7 +54,7 @@ wgfast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wgfast:<tag>
+      docker pull quay.io/biocontainers/wgfast:<tag>
 
    (see `wgfast/tags`_ for valid values for ``<tag>``)
 

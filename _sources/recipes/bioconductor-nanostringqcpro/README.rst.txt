@@ -54,7 +54,7 @@ bioconductor-nanostringqcpro
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-nanostringqcpro:<tag>
+      docker pull quay.io/biocontainers/bioconductor-nanostringqcpro:<tag>
 
    (see `bioconductor-nanostringqcpro/tags`_ for valid values for ``<tag>``)
 

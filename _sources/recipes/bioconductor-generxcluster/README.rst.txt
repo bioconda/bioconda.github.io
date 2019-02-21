@@ -47,7 +47,7 @@ bioconductor-generxcluster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-generxcluster:<tag>
+      docker pull quay.io/biocontainers/bioconductor-generxcluster:<tag>
 
    (see `bioconductor-generxcluster/tags`_ for valid values for ``<tag>``)
 

@@ -51,7 +51,7 @@ pysamstats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pysamstats:<tag>
+      docker pull quay.io/biocontainers/pysamstats:<tag>
 
    (see `pysamstats/tags`_ for valid values for ``<tag>``)
 

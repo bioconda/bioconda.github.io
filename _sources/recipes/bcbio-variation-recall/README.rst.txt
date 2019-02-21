@@ -42,7 +42,7 @@ bcbio-variation-recall
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcbio-variation-recall:<tag>
+      docker pull quay.io/biocontainers/bcbio-variation-recall:<tag>
 
    (see `bcbio-variation-recall/tags`_ for valid values for ``<tag>``)
 

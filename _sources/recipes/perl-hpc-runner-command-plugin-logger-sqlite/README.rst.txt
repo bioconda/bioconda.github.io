@@ -70,7 +70,7 @@ perl-hpc-runner-command-plugin-logger-sqlite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite:<tag>
+      docker pull quay.io/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite:<tag>
 
    (see `perl-hpc-runner-command-plugin-logger-sqlite/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ kissplice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kissplice:<tag>
+      docker pull quay.io/biocontainers/kissplice:<tag>
 
    (see `kissplice/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ reveal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/reveal:<tag>
+      docker pull quay.io/biocontainers/reveal:<tag>
 
    (see `reveal/tags`_ for valid values for ``<tag>``)
 

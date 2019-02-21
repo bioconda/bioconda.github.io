@@ -40,7 +40,7 @@ recon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/recon:<tag>
+      docker pull quay.io/biocontainers/recon:<tag>
 
    (see `recon/tags`_ for valid values for ``<tag>``)
 

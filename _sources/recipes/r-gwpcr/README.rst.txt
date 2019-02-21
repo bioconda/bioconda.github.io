@@ -48,7 +48,7 @@ r-gwpcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gwpcr:<tag>
+      docker pull quay.io/biocontainers/r-gwpcr:<tag>
 
    (see `r-gwpcr/tags`_ for valid values for ``<tag>``)
 

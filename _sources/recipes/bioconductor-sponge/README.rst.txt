@@ -64,7 +64,7 @@ bioconductor-sponge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sponge:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sponge:<tag>
 
    (see `bioconductor-sponge/tags`_ for valid values for ``<tag>``)
 

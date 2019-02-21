@@ -40,7 +40,7 @@ perl-blib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-blib:<tag>
+      docker pull quay.io/biocontainers/perl-blib:<tag>
 
    (see `perl-blib/tags`_ for valid values for ``<tag>``)
 

@@ -67,7 +67,7 @@ bioconductor-mmnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mmnet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mmnet:<tag>
 
    (see `bioconductor-mmnet/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-algorithm-dependency
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-algorithm-dependency:<tag>
+      docker pull quay.io/biocontainers/perl-algorithm-dependency:<tag>
 
    (see `perl-algorithm-dependency/tags`_ for valid values for ``<tag>``)
 

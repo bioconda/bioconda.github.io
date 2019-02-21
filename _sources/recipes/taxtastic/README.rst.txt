@@ -48,7 +48,7 @@ taxtastic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/taxtastic:<tag>
+      docker pull quay.io/biocontainers/taxtastic:<tag>
 
    (see `taxtastic/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ bioconductor-epidish
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-epidish:<tag>
+      docker pull quay.io/biocontainers/bioconductor-epidish:<tag>
 
    (see `bioconductor-epidish/tags`_ for valid values for ``<tag>``)
 

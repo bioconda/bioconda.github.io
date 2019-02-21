@@ -42,7 +42,7 @@ crisper_recognition_tool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/crisper_recognition_tool:<tag>
+      docker pull quay.io/biocontainers/crisper_recognition_tool:<tag>
 
    (see `crisper_recognition_tool/tags`_ for valid values for ``<tag>``)
 

@@ -41,7 +41,7 @@ esimsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/esimsa:<tag>
+      docker pull quay.io/biocontainers/esimsa:<tag>
 
    (see `esimsa/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ stringtie
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stringtie:<tag>
+      docker pull quay.io/biocontainers/stringtie:<tag>
 
    (see `stringtie/tags`_ for valid values for ``<tag>``)
 

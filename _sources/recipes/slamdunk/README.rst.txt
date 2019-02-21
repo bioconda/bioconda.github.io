@@ -76,7 +76,7 @@ slamdunk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/slamdunk:<tag>
+      docker pull quay.io/biocontainers/slamdunk:<tag>
 
    (see `slamdunk/tags`_ for valid values for ``<tag>``)
 

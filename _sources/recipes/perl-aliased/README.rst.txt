@@ -44,7 +44,7 @@ perl-aliased
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-aliased:<tag>
+      docker pull quay.io/biocontainers/perl-aliased:<tag>
 
    (see `perl-aliased/tags`_ for valid values for ``<tag>``)
 

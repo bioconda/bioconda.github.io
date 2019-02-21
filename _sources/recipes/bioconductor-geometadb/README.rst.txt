@@ -45,7 +45,7 @@ bioconductor-geometadb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geometadb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geometadb:<tag>
 
    (see `bioconductor-geometadb/tags`_ for valid values for ``<tag>``)
 

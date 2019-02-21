@@ -45,7 +45,7 @@ catch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/catch:<tag>
+      docker pull quay.io/biocontainers/catch:<tag>
 
    (see `catch/tags`_ for valid values for ``<tag>``)
 

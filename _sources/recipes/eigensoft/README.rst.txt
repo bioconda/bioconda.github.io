@@ -47,7 +47,7 @@ eigensoft
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/eigensoft:<tag>
+      docker pull quay.io/biocontainers/eigensoft:<tag>
 
    (see `eigensoft/tags`_ for valid values for ``<tag>``)
 

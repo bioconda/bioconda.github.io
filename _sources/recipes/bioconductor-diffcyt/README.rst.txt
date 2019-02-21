@@ -68,7 +68,7 @@ bioconductor-diffcyt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-diffcyt:<tag>
+      docker pull quay.io/biocontainers/bioconductor-diffcyt:<tag>
 
    (see `bioconductor-diffcyt/tags`_ for valid values for ``<tag>``)
 

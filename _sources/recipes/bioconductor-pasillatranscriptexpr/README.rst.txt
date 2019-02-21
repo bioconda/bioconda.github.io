@@ -42,7 +42,7 @@ bioconductor-pasillatranscriptexpr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pasillatranscriptexpr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pasillatranscriptexpr:<tag>
 
    (see `bioconductor-pasillatranscriptexpr/tags`_ for valid values for ``<tag>``)
 

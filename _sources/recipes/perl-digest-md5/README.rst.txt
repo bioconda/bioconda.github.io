@@ -40,7 +40,7 @@ perl-digest-md5
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-digest-md5:<tag>
+      docker pull quay.io/biocontainers/perl-digest-md5:<tag>
 
    (see `perl-digest-md5/tags`_ for valid values for ``<tag>``)
 

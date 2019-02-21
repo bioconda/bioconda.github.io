@@ -42,7 +42,7 @@ bioconductor-human1mv1ccrlmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-human1mv1ccrlmm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-human1mv1ccrlmm:<tag>
 
    (see `bioconductor-human1mv1ccrlmm/tags`_ for valid values for ``<tag>``)
 

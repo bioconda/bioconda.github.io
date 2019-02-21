@@ -46,7 +46,7 @@ bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked:<tag>
 
    (see `bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked/tags`_ for valid values for ``<tag>``)
 

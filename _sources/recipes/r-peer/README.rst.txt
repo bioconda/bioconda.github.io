@@ -42,7 +42,7 @@ r-peer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-peer:<tag>
+      docker pull quay.io/biocontainers/r-peer:<tag>
 
    (see `r-peer/tags`_ for valid values for ``<tag>``)
 

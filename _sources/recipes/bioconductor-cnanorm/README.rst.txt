@@ -47,7 +47,7 @@ bioconductor-cnanorm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cnanorm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cnanorm:<tag>
 
    (see `bioconductor-cnanorm/tags`_ for valid values for ``<tag>``)
 

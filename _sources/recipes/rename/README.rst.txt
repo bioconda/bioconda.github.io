@@ -40,7 +40,7 @@ rename
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rename:<tag>
+      docker pull quay.io/biocontainers/rename:<tag>
 
    (see `rename/tags`_ for valid values for ``<tag>``)
 

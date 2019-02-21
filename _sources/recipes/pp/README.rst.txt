@@ -40,7 +40,7 @@ pp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pp:<tag>
+      docker pull quay.io/biocontainers/pp:<tag>
 
    (see `pp/tags`_ for valid values for ``<tag>``)
 

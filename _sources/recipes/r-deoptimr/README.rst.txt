@@ -40,7 +40,7 @@ r-deoptimr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-deoptimr:<tag>
+      docker pull quay.io/biocontainers/r-deoptimr:<tag>
 
    (see `r-deoptimr/tags`_ for valid values for ``<tag>``)
 

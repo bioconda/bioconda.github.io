@@ -42,7 +42,7 @@ seq2c
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seq2c:<tag>
+      docker pull quay.io/biocontainers/seq2c:<tag>
 
    (see `seq2c/tags`_ for valid values for ``<tag>``)
 

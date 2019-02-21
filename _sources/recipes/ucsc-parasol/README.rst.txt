@@ -50,7 +50,7 @@ ucsc-parasol
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-parasol:<tag>
+      docker pull quay.io/biocontainers/ucsc-parasol:<tag>
 
    (see `ucsc-parasol/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ intemap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/intemap:<tag>
+      docker pull quay.io/biocontainers/intemap:<tag>
 
    (see `intemap/tags`_ for valid values for ``<tag>``)
 

@@ -64,7 +64,7 @@ perl-module-build
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-build:<tag>
+      docker pull quay.io/biocontainers/perl-module-build:<tag>
 
    (see `perl-module-build/tags`_ for valid values for ``<tag>``)
 

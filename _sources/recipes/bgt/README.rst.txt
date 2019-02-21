@@ -42,7 +42,7 @@ bgt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bgt:<tag>
+      docker pull quay.io/biocontainers/bgt:<tag>
 
    (see `bgt/tags`_ for valid values for ``<tag>``)
 

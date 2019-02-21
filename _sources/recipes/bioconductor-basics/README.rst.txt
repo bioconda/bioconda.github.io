@@ -72,7 +72,7 @@ bioconductor-basics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-basics:<tag>
+      docker pull quay.io/biocontainers/bioconductor-basics:<tag>
 
    (see `bioconductor-basics/tags`_ for valid values for ``<tag>``)
 

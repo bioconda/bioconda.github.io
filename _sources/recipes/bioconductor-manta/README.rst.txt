@@ -47,7 +47,7 @@ bioconductor-manta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-manta:<tag>
+      docker pull quay.io/biocontainers/bioconductor-manta:<tag>
 
    (see `bioconductor-manta/tags`_ for valid values for ``<tag>``)
 

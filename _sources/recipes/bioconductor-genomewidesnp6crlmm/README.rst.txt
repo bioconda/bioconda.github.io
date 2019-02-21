@@ -42,7 +42,7 @@ bioconductor-genomewidesnp6crlmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genomewidesnp6crlmm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genomewidesnp6crlmm:<tag>
 
    (see `bioconductor-genomewidesnp6crlmm/tags`_ for valid values for ``<tag>``)
 

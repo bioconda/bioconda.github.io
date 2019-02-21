@@ -42,7 +42,7 @@ r-zerone
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-zerone:<tag>
+      docker pull quay.io/biocontainers/r-zerone:<tag>
 
    (see `r-zerone/tags`_ for valid values for ``<tag>``)
 

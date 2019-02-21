@@ -40,7 +40,7 @@ libdivsufsort
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libdivsufsort:<tag>
+      docker pull quay.io/biocontainers/libdivsufsort:<tag>
 
    (see `libdivsufsort/tags`_ for valid values for ``<tag>``)
 

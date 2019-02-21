@@ -40,7 +40,7 @@ svmlight
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/svmlight:<tag>
+      docker pull quay.io/biocontainers/svmlight:<tag>
 
    (see `svmlight/tags`_ for valid values for ``<tag>``)
 

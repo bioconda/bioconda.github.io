@@ -41,7 +41,7 @@ pepnovo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pepnovo:<tag>
+      docker pull quay.io/biocontainers/pepnovo:<tag>
 
    (see `pepnovo/tags`_ for valid values for ``<tag>``)
 

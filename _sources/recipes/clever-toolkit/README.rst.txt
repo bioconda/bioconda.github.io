@@ -56,7 +56,7 @@ clever-toolkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clever-toolkit:<tag>
+      docker pull quay.io/biocontainers/clever-toolkit:<tag>
 
    (see `clever-toolkit/tags`_ for valid values for ``<tag>``)
 

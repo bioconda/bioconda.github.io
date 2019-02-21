@@ -45,7 +45,7 @@ ngmerge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ngmerge:<tag>
+      docker pull quay.io/biocontainers/ngmerge:<tag>
 
    (see `ngmerge/tags`_ for valid values for ``<tag>``)
 

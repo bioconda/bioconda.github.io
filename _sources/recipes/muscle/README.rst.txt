@@ -41,7 +41,7 @@ muscle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/muscle:<tag>
+      docker pull quay.io/biocontainers/muscle:<tag>
 
    (see `muscle/tags`_ for valid values for ``<tag>``)
 

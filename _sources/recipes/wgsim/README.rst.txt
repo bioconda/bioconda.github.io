@@ -42,7 +42,7 @@ wgsim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wgsim:<tag>
+      docker pull quay.io/biocontainers/wgsim:<tag>
 
    (see `wgsim/tags`_ for valid values for ``<tag>``)
 

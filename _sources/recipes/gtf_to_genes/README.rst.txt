@@ -40,7 +40,7 @@ gtf_to_genes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gtf_to_genes:<tag>
+      docker pull quay.io/biocontainers/gtf_to_genes:<tag>
 
    (see `gtf_to_genes/tags`_ for valid values for ``<tag>``)
 

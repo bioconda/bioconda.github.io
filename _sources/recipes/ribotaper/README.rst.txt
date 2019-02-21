@@ -57,7 +57,7 @@ ribotaper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ribotaper:<tag>
+      docker pull quay.io/biocontainers/ribotaper:<tag>
 
    (see `ribotaper/tags`_ for valid values for ``<tag>``)
 

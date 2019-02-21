@@ -43,7 +43,7 @@ bioconductor-mops
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mops:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mops:<tag>
 
    (see `bioconductor-mops/tags`_ for valid values for ``<tag>``)
 

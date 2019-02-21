@@ -44,7 +44,7 @@ autolog
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/autolog:<tag>
+      docker pull quay.io/biocontainers/autolog:<tag>
 
    (see `autolog/tags`_ for valid values for ``<tag>``)
 

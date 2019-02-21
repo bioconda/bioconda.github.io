@@ -48,7 +48,7 @@ hmmlearn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hmmlearn:<tag>
+      docker pull quay.io/biocontainers/hmmlearn:<tag>
 
    (see `hmmlearn/tags`_ for valid values for ``<tag>``)
 

@@ -70,7 +70,7 @@ bioconductor-timeseriesexperiment
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-timeseriesexperiment:<tag>
+      docker pull quay.io/biocontainers/bioconductor-timeseriesexperiment:<tag>
 
    (see `bioconductor-timeseriesexperiment/tags`_ for valid values for ``<tag>``)
 

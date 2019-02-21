@@ -62,7 +62,7 @@ tadarida-d
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tadarida-d:<tag>
+      docker pull quay.io/biocontainers/tadarida-d:<tag>
 
    (see `tadarida-d/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ bioconductor-gsbenchmark
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gsbenchmark:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gsbenchmark:<tag>
 
    (see `bioconductor-gsbenchmark/tags`_ for valid values for ``<tag>``)
 

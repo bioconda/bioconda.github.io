@@ -42,7 +42,7 @@ perl-type-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-type-tiny:<tag>
+      docker pull quay.io/biocontainers/perl-type-tiny:<tag>
 
    (see `perl-type-tiny/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ optbuild
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/optbuild:<tag>
+      docker pull quay.io/biocontainers/optbuild:<tag>
 
    (see `optbuild/tags`_ for valid values for ``<tag>``)
 

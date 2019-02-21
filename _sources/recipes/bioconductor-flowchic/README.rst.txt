@@ -50,7 +50,7 @@ bioconductor-flowchic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowchic:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowchic:<tag>
 
    (see `bioconductor-flowchic/tags`_ for valid values for ``<tag>``)
 

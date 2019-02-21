@@ -40,7 +40,7 @@ somatic-sniper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/somatic-sniper:<tag>
+      docker pull quay.io/biocontainers/somatic-sniper:<tag>
 
    (see `somatic-sniper/tags`_ for valid values for ``<tag>``)
 

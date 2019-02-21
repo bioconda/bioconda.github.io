@@ -50,7 +50,7 @@ ucsc-genepredtogtf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-genepredtogtf:<tag>
+      docker pull quay.io/biocontainers/ucsc-genepredtogtf:<tag>
 
    (see `ucsc-genepredtogtf/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ seqyclean
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seqyclean:<tag>
+      docker pull quay.io/biocontainers/seqyclean:<tag>
 
    (see `seqyclean/tags`_ for valid values for ``<tag>``)
 

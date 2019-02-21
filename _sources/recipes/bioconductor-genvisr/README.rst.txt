@@ -85,7 +85,7 @@ bioconductor-genvisr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genvisr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genvisr:<tag>
 
    (see `bioconductor-genvisr/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ perl-xml-libxml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-libxml:<tag>
+      docker pull quay.io/biocontainers/perl-xml-libxml:<tag>
 
    (see `perl-xml-libxml/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-test-notabs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-notabs:<tag>
+      docker pull quay.io/biocontainers/perl-test-notabs:<tag>
 
    (see `perl-test-notabs/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ bioconductor-seqcna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seqcna:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seqcna:<tag>
 
    (see `bioconductor-seqcna/tags`_ for valid values for ``<tag>``)
 

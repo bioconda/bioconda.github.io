@@ -48,7 +48,7 @@ perl-html-tree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-tree:<tag>
+      docker pull quay.io/biocontainers/perl-html-tree:<tag>
 
    (see `perl-html-tree/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-bsgenome.amellifera.ucsc.apimel2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.amellifera.ucsc.apimel2:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.amellifera.ucsc.apimel2:<tag>
 
    (see `bioconductor-bsgenome.amellifera.ucsc.apimel2/tags`_ for valid values for ``<tag>``)
 

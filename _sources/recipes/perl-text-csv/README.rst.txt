@@ -42,7 +42,7 @@ perl-text-csv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-csv:<tag>
+      docker pull quay.io/biocontainers/perl-text-csv:<tag>
 
    (see `perl-text-csv/tags`_ for valid values for ``<tag>``)
 

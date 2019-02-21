@@ -81,7 +81,7 @@ bioconductor-repitools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-repitools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-repitools:<tag>
 
    (see `bioconductor-repitools/tags`_ for valid values for ``<tag>``)
 

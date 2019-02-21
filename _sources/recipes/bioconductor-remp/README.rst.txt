@@ -38,7 +38,7 @@ bioconductor-remp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-remp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-remp:<tag>
 
    (see `bioconductor-remp/tags`_ for valid values for ``<tag>``)
 

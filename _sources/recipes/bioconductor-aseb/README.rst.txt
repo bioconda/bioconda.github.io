@@ -45,7 +45,7 @@ bioconductor-aseb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-aseb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-aseb:<tag>
 
    (see `bioconductor-aseb/tags`_ for valid values for ``<tag>``)
 

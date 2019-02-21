@@ -56,7 +56,7 @@ bioconductor-pd.mapping50k.hind240
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.mapping50k.hind240:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.mapping50k.hind240:<tag>
 
    (see `bioconductor-pd.mapping50k.hind240/tags`_ for valid values for ``<tag>``)
 

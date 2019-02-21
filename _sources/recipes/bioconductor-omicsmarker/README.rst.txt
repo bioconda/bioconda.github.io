@@ -68,7 +68,7 @@ bioconductor-omicsmarker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omicsmarker:<tag>
+      docker pull quay.io/biocontainers/bioconductor-omicsmarker:<tag>
 
    (see `bioconductor-omicsmarker/tags`_ for valid values for ``<tag>``)
 

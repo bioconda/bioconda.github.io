@@ -40,7 +40,7 @@ perl-digest-sha
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-digest-sha:<tag>
+      docker pull quay.io/biocontainers/perl-digest-sha:<tag>
 
    (see `perl-digest-sha/tags`_ for valid values for ``<tag>``)
 

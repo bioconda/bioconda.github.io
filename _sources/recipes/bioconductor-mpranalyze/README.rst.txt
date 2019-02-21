@@ -46,7 +46,7 @@ bioconductor-mpranalyze
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mpranalyze:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mpranalyze:<tag>
 
    (see `bioconductor-mpranalyze/tags`_ for valid values for ``<tag>``)
 

@@ -41,7 +41,7 @@ sfs_code
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sfs_code:<tag>
+      docker pull quay.io/biocontainers/sfs_code:<tag>
 
    (see `sfs_code/tags`_ for valid values for ``<tag>``)
 

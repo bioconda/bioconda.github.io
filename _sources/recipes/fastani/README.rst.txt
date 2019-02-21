@@ -44,7 +44,7 @@ fastani
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastani:<tag>
+      docker pull quay.io/biocontainers/fastani:<tag>
 
    (see `fastani/tags`_ for valid values for ``<tag>``)
 

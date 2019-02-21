@@ -50,7 +50,7 @@ ucsc-pslpretty
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslpretty:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslpretty:<tag>
 
    (see `ucsc-pslpretty/tags`_ for valid values for ``<tag>``)
 

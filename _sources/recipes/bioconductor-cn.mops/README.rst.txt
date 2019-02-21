@@ -61,7 +61,7 @@ bioconductor-cn.mops
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cn.mops:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cn.mops:<tag>
 
    (see `bioconductor-cn.mops/tags`_ for valid values for ``<tag>``)
 

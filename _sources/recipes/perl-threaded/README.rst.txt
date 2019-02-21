@@ -40,7 +40,7 @@ perl-threaded
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-threaded:<tag>
+      docker pull quay.io/biocontainers/perl-threaded:<tag>
 
    (see `perl-threaded/tags`_ for valid values for ``<tag>``)
 

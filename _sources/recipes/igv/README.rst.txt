@@ -41,7 +41,7 @@ igv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/igv:<tag>
+      docker pull quay.io/biocontainers/igv:<tag>
 
    (see `igv/tags`_ for valid values for ``<tag>``)
 

@@ -51,7 +51,7 @@ bioconductor-genomeinfodb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genomeinfodb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genomeinfodb:<tag>
 
    (see `bioconductor-genomeinfodb/tags`_ for valid values for ``<tag>``)
 

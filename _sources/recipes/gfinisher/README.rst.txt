@@ -42,7 +42,7 @@ gfinisher
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gfinisher:<tag>
+      docker pull quay.io/biocontainers/gfinisher:<tag>
 
    (see `gfinisher/tags`_ for valid values for ``<tag>``)
 

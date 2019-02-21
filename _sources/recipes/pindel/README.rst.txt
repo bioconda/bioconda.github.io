@@ -43,7 +43,7 @@ pindel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pindel:<tag>
+      docker pull quay.io/biocontainers/pindel:<tag>
 
    (see `pindel/tags`_ for valid values for ``<tag>``)
 

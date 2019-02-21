@@ -64,7 +64,7 @@ shmlast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shmlast:<tag>
+      docker pull quay.io/biocontainers/shmlast:<tag>
 
    (see `shmlast/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ r-ngsplotdb-hg19
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ngsplotdb-hg19:<tag>
+      docker pull quay.io/biocontainers/r-ngsplotdb-hg19:<tag>
 
    (see `r-ngsplotdb-hg19/tags`_ for valid values for ``<tag>``)
 

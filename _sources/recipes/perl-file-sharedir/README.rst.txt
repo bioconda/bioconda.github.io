@@ -44,7 +44,7 @@ perl-file-sharedir
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-sharedir:<tag>
+      docker pull quay.io/biocontainers/perl-file-sharedir:<tag>
 
    (see `perl-file-sharedir/tags`_ for valid values for ``<tag>``)
 

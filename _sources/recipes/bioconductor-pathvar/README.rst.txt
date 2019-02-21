@@ -53,7 +53,7 @@ bioconductor-pathvar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pathvar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pathvar:<tag>
 
    (see `bioconductor-pathvar/tags`_ for valid values for ``<tag>``)
 

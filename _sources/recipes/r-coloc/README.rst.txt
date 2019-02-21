@@ -52,7 +52,7 @@ r-coloc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-coloc:<tag>
+      docker pull quay.io/biocontainers/r-coloc:<tag>
 
    (see `r-coloc/tags`_ for valid values for ``<tag>``)
 

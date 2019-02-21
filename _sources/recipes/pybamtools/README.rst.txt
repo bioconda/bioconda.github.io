@@ -44,7 +44,7 @@ pybamtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pybamtools:<tag>
+      docker pull quay.io/biocontainers/pybamtools:<tag>
 
    (see `pybamtools/tags`_ for valid values for ``<tag>``)
 

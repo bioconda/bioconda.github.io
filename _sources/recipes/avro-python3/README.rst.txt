@@ -40,7 +40,7 @@ avro-python3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/avro-python3:<tag>
+      docker pull quay.io/biocontainers/avro-python3:<tag>
 
    (see `avro-python3/tags`_ for valid values for ``<tag>``)
 

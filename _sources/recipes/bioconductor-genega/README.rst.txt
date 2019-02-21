@@ -45,7 +45,7 @@ bioconductor-genega
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genega:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genega:<tag>
 
    (see `bioconductor-genega/tags`_ for valid values for ``<tag>``)
 

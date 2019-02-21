@@ -50,7 +50,7 @@ perl-test-file-contents
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-file-contents:<tag>
+      docker pull quay.io/biocontainers/perl-test-file-contents:<tag>
 
    (see `perl-test-file-contents/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ assembly-scan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/assembly-scan:<tag>
+      docker pull quay.io/biocontainers/assembly-scan:<tag>
 
    (see `assembly-scan/tags`_ for valid values for ``<tag>``)
 

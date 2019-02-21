@@ -45,7 +45,7 @@ bioconductor-nnnorm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-nnnorm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-nnnorm:<tag>
 
    (see `bioconductor-nnnorm/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ tximport-scripts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tximport-scripts:<tag>
+      docker pull quay.io/biocontainers/tximport-scripts:<tag>
 
    (see `tximport-scripts/tags`_ for valid values for ``<tag>``)
 

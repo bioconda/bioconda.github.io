@@ -41,7 +41,7 @@ manta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/manta:<tag>
+      docker pull quay.io/biocontainers/manta:<tag>
 
    (see `manta/tags`_ for valid values for ``<tag>``)
 

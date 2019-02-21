@@ -40,7 +40,7 @@ ctat-lncrna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ctat-lncrna:<tag>
+      docker pull quay.io/biocontainers/ctat-lncrna:<tag>
 
    (see `ctat-lncrna/tags`_ for valid values for ``<tag>``)
 

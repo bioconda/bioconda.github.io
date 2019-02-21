@@ -41,7 +41,7 @@ trimal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trimal:<tag>
+      docker pull quay.io/biocontainers/trimal:<tag>
 
    (see `trimal/tags`_ for valid values for ``<tag>``)
 

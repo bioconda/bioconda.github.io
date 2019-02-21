@@ -44,7 +44,7 @@ showit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/showit:<tag>
+      docker pull quay.io/biocontainers/showit:<tag>
 
    (see `showit/tags`_ for valid values for ``<tag>``)
 

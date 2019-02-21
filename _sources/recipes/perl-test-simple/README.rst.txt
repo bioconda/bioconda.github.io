@@ -44,7 +44,7 @@ perl-test-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-simple:<tag>
+      docker pull quay.io/biocontainers/perl-test-simple:<tag>
 
    (see `perl-test-simple/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ python-rnacentral
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-rnacentral:<tag>
+      docker pull quay.io/biocontainers/python-rnacentral:<tag>
 
    (see `python-rnacentral/tags`_ for valid values for ``<tag>``)
 

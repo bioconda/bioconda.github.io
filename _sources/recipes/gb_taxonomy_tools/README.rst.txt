@@ -38,7 +38,7 @@ gb_taxonomy_tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gb_taxonomy_tools:<tag>
+      docker pull quay.io/biocontainers/gb_taxonomy_tools:<tag>
 
    (see `gb_taxonomy_tools/tags`_ for valid values for ``<tag>``)
 

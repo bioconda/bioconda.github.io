@@ -71,7 +71,7 @@ bioconductor-rarevariantvis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rarevariantvis:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rarevariantvis:<tag>
 
    (see `bioconductor-rarevariantvis/tags`_ for valid values for ``<tag>``)
 

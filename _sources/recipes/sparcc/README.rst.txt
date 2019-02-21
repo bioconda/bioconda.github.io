@@ -47,7 +47,7 @@ sparcc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sparcc:<tag>
+      docker pull quay.io/biocontainers/sparcc:<tag>
 
    (see `sparcc/tags`_ for valid values for ``<tag>``)
 

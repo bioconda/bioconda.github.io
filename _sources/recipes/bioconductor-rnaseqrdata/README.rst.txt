@@ -42,7 +42,7 @@ bioconductor-rnaseqrdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnaseqrdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rnaseqrdata:<tag>
 
    (see `bioconductor-rnaseqrdata/tags`_ for valid values for ``<tag>``)
 

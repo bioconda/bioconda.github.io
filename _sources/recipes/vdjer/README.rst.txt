@@ -44,7 +44,7 @@ vdjer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vdjer:<tag>
+      docker pull quay.io/biocontainers/vdjer:<tag>
 
    (see `vdjer/tags`_ for valid values for ``<tag>``)
 

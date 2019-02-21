@@ -62,7 +62,7 @@ bioconductor-geneanswers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneanswers:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geneanswers:<tag>
 
    (see `bioconductor-geneanswers/tags`_ for valid values for ``<tag>``)
 

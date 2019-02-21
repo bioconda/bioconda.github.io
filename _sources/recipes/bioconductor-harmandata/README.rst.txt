@@ -42,7 +42,7 @@ bioconductor-harmandata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-harmandata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-harmandata:<tag>
 
    (see `bioconductor-harmandata/tags`_ for valid values for ``<tag>``)
 

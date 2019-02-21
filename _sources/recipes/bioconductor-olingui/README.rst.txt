@@ -48,7 +48,7 @@ bioconductor-olingui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-olingui:<tag>
+      docker pull quay.io/biocontainers/bioconductor-olingui:<tag>
 
    (see `bioconductor-olingui/tags`_ for valid values for ``<tag>``)
 

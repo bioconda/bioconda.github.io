@@ -48,7 +48,7 @@ bioconductor-varianttoolsdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-varianttoolsdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-varianttoolsdata:<tag>
 
    (see `bioconductor-varianttoolsdata/tags`_ for valid values for ``<tag>``)
 

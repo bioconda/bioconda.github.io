@@ -42,7 +42,7 @@ bioconductor-ngscopydata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ngscopydata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ngscopydata:<tag>
 
    (see `bioconductor-ngscopydata/tags`_ for valid values for ``<tag>``)
 

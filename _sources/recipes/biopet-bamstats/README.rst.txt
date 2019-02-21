@@ -73,7 +73,7 @@ biopet-bamstats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-bamstats:<tag>
+      docker pull quay.io/biocontainers/biopet-bamstats:<tag>
 
    (see `biopet-bamstats/tags`_ for valid values for ``<tag>``)
 

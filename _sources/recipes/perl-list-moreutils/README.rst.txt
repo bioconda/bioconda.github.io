@@ -44,7 +44,7 @@ perl-list-moreutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-list-moreutils:<tag>
+      docker pull quay.io/biocontainers/perl-list-moreutils:<tag>
 
    (see `perl-list-moreutils/tags`_ for valid values for ``<tag>``)
 

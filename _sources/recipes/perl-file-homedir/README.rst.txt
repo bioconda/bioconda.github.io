@@ -46,7 +46,7 @@ perl-file-homedir
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-homedir:<tag>
+      docker pull quay.io/biocontainers/perl-file-homedir:<tag>
 
    (see `perl-file-homedir/tags`_ for valid values for ``<tag>``)
 

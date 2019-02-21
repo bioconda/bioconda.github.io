@@ -44,7 +44,7 @@ bioconductor-hgfocusprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hgfocusprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hgfocusprobe:<tag>
 
    (see `bioconductor-hgfocusprobe/tags`_ for valid values for ``<tag>``)
 

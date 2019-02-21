@@ -42,7 +42,7 @@ flash2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flash2:<tag>
+      docker pull quay.io/biocontainers/flash2:<tag>
 
    (see `flash2/tags`_ for valid values for ``<tag>``)
 

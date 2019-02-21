@@ -47,7 +47,7 @@ bioconductor-triform
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-triform:<tag>
+      docker pull quay.io/biocontainers/bioconductor-triform:<tag>
 
    (see `bioconductor-triform/tags`_ for valid values for ``<tag>``)
 

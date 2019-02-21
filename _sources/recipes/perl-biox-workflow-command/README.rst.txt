@@ -128,7 +128,7 @@ perl-biox-workflow-command
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-biox-workflow-command:<tag>
+      docker pull quay.io/biocontainers/perl-biox-workflow-command:<tag>
 
    (see `perl-biox-workflow-command/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ bioconductor-omicspca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omicspca:<tag>
+      docker pull quay.io/biocontainers/bioconductor-omicspca:<tag>
 
    (see `bioconductor-omicspca/tags`_ for valid values for ``<tag>``)
 

@@ -51,7 +51,7 @@ bioconductor-tcc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tcc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tcc:<tag>
 
    (see `bioconductor-tcc/tags`_ for valid values for ``<tag>``)
 

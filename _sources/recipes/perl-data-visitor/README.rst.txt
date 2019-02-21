@@ -50,7 +50,7 @@ perl-data-visitor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-data-visitor:<tag>
+      docker pull quay.io/biocontainers/perl-data-visitor:<tag>
 
    (see `perl-data-visitor/tags`_ for valid values for ``<tag>``)
 

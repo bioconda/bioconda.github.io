@@ -74,7 +74,7 @@ bioconductor-srnadiff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-srnadiff:<tag>
+      docker pull quay.io/biocontainers/bioconductor-srnadiff:<tag>
 
    (see `bioconductor-srnadiff/tags`_ for valid values for ``<tag>``)
 

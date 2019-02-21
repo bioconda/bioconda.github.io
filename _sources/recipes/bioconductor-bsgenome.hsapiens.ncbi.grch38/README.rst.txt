@@ -44,7 +44,7 @@ bioconductor-bsgenome.hsapiens.ncbi.grch38
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.hsapiens.ncbi.grch38:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.hsapiens.ncbi.grch38:<tag>
 
    (see `bioconductor-bsgenome.hsapiens.ncbi.grch38/tags`_ for valid values for ``<tag>``)
 

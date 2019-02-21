@@ -47,7 +47,7 @@ bioconductor-rpa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rpa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rpa:<tag>
 
    (see `bioconductor-rpa/tags`_ for valid values for ``<tag>``)
 

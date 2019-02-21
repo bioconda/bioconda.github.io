@@ -50,7 +50,7 @@ ucsc-toupper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-toupper:<tag>
+      docker pull quay.io/biocontainers/ucsc-toupper:<tag>
 
    (see `ucsc-toupper/tags`_ for valid values for ``<tag>``)
 

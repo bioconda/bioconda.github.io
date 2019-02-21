@@ -40,7 +40,7 @@ melt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/melt:<tag>
+      docker pull quay.io/biocontainers/melt:<tag>
 
    (see `melt/tags`_ for valid values for ``<tag>``)
 

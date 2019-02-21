@@ -54,7 +54,7 @@ bioconductor-dmrscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dmrscan:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dmrscan:<tag>
 
    (see `bioconductor-dmrscan/tags`_ for valid values for ``<tag>``)
 

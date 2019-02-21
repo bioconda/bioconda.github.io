@@ -44,7 +44,7 @@ genblastg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genblastg:<tag>
+      docker pull quay.io/biocontainers/genblastg:<tag>
 
    (see `genblastg/tags`_ for valid values for ``<tag>``)
 

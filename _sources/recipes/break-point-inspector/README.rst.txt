@@ -40,7 +40,7 @@ break-point-inspector
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/break-point-inspector:<tag>
+      docker pull quay.io/biocontainers/break-point-inspector:<tag>
 
    (see `break-point-inspector/tags`_ for valid values for ``<tag>``)
 

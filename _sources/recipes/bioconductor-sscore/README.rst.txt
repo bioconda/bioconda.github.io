@@ -45,7 +45,7 @@ bioconductor-sscore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sscore:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sscore:<tag>
 
    (see `bioconductor-sscore/tags`_ for valid values for ``<tag>``)
 

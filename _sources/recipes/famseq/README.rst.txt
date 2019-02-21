@@ -40,7 +40,7 @@ famseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/famseq:<tag>
+      docker pull quay.io/biocontainers/famseq:<tag>
 
    (see `famseq/tags`_ for valid values for ``<tag>``)
 

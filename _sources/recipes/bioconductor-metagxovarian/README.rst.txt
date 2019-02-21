@@ -52,7 +52,7 @@ bioconductor-metagxovarian
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metagxovarian:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metagxovarian:<tag>
 
    (see `bioconductor-metagxovarian/tags`_ for valid values for ``<tag>``)
 

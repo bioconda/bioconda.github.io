@@ -52,7 +52,7 @@ bioconductor-iwtomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-iwtomics:<tag>
+      docker pull quay.io/biocontainers/bioconductor-iwtomics:<tag>
 
    (see `bioconductor-iwtomics/tags`_ for valid values for ``<tag>``)
 

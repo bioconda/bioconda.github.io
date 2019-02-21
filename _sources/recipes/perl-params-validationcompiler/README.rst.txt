@@ -54,7 +54,7 @@ perl-params-validationcompiler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-params-validationcompiler:<tag>
+      docker pull quay.io/biocontainers/perl-params-validationcompiler:<tag>
 
    (see `perl-params-validationcompiler/tags`_ for valid values for ``<tag>``)
 

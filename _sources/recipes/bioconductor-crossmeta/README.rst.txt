@@ -98,7 +98,7 @@ bioconductor-crossmeta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-crossmeta:<tag>
+      docker pull quay.io/biocontainers/bioconductor-crossmeta:<tag>
 
    (see `bioconductor-crossmeta/tags`_ for valid values for ``<tag>``)
 

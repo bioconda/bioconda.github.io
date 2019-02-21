@@ -54,7 +54,7 @@ bioconductor-seqcombo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seqcombo:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seqcombo:<tag>
 
    (see `bioconductor-seqcombo/tags`_ for valid values for ``<tag>``)
 

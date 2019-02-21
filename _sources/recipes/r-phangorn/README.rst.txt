@@ -58,7 +58,7 @@ r-phangorn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-phangorn:<tag>
+      docker pull quay.io/biocontainers/r-phangorn:<tag>
 
    (see `r-phangorn/tags`_ for valid values for ``<tag>``)
 

@@ -65,7 +65,7 @@ bioconductor-mast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mast:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mast:<tag>
 
    (see `bioconductor-mast/tags`_ for valid values for ``<tag>``)
 

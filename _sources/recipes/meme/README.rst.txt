@@ -82,7 +82,7 @@ meme
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/meme:<tag>
+      docker pull quay.io/biocontainers/meme:<tag>
 
    (see `meme/tags`_ for valid values for ``<tag>``)
 

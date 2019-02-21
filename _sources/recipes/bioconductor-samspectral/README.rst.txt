@@ -42,7 +42,7 @@ bioconductor-samspectral
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-samspectral:<tag>
+      docker pull quay.io/biocontainers/bioconductor-samspectral:<tag>
 
    (see `bioconductor-samspectral/tags`_ for valid values for ``<tag>``)
 

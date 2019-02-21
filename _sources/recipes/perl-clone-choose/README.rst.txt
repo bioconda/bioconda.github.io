@@ -42,7 +42,7 @@ perl-clone-choose
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-clone-choose:<tag>
+      docker pull quay.io/biocontainers/perl-clone-choose:<tag>
 
    (see `perl-clone-choose/tags`_ for valid values for ``<tag>``)
 

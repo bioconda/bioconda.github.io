@@ -49,7 +49,7 @@ breakdancer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/breakdancer:<tag>
+      docker pull quay.io/biocontainers/breakdancer:<tag>
 
    (see `breakdancer/tags`_ for valid values for ``<tag>``)
 

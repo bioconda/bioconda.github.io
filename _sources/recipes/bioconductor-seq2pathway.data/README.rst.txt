@@ -42,7 +42,7 @@ bioconductor-seq2pathway.data
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seq2pathway.data:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seq2pathway.data:<tag>
 
    (see `bioconductor-seq2pathway.data/tags`_ for valid values for ``<tag>``)
 

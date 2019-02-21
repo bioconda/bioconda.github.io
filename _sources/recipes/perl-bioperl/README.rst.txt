@@ -59,7 +59,7 @@ perl-bioperl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bioperl:<tag>
+      docker pull quay.io/biocontainers/perl-bioperl:<tag>
 
    (see `perl-bioperl/tags`_ for valid values for ``<tag>``)
 

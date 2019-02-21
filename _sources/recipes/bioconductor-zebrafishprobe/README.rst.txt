@@ -44,7 +44,7 @@ bioconductor-zebrafishprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-zebrafishprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-zebrafishprobe:<tag>
 
    (see `bioconductor-zebrafishprobe/tags`_ for valid values for ``<tag>``)
 

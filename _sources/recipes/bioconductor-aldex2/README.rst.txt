@@ -53,7 +53,7 @@ bioconductor-aldex2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-aldex2:<tag>
+      docker pull quay.io/biocontainers/bioconductor-aldex2:<tag>
 
    (see `bioconductor-aldex2/tags`_ for valid values for ``<tag>``)
 

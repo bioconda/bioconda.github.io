@@ -54,7 +54,7 @@ ngless
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ngless:<tag>
+      docker pull quay.io/biocontainers/ngless:<tag>
 
    (see `ngless/tags`_ for valid values for ``<tag>``)
 

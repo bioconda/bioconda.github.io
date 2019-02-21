@@ -56,7 +56,7 @@ r-bipartite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-bipartite:<tag>
+      docker pull quay.io/biocontainers/r-bipartite:<tag>
 
    (see `r-bipartite/tags`_ for valid values for ``<tag>``)
 

@@ -88,7 +88,7 @@ bioconductor-macpet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-macpet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-macpet:<tag>
 
    (see `bioconductor-macpet/tags`_ for valid values for ``<tag>``)
 

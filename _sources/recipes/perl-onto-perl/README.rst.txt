@@ -48,7 +48,7 @@ perl-onto-perl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-onto-perl:<tag>
+      docker pull quay.io/biocontainers/perl-onto-perl:<tag>
 
    (see `perl-onto-perl/tags`_ for valid values for ``<tag>``)
 

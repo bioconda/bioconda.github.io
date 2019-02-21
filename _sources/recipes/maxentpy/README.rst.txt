@@ -44,7 +44,7 @@ maxentpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/maxentpy:<tag>
+      docker pull quay.io/biocontainers/maxentpy:<tag>
 
    (see `maxentpy/tags`_ for valid values for ``<tag>``)
 

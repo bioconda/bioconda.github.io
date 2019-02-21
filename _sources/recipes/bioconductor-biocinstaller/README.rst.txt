@@ -41,7 +41,7 @@ bioconductor-biocinstaller
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocinstaller:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biocinstaller:<tag>
 
    (see `bioconductor-biocinstaller/tags`_ for valid values for ``<tag>``)
 

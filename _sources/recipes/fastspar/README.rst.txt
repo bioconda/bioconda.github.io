@@ -57,7 +57,7 @@ fastspar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastspar:<tag>
+      docker pull quay.io/biocontainers/fastspar:<tag>
 
    (see `fastspar/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ r-rtfbs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rtfbs:<tag>
+      docker pull quay.io/biocontainers/r-rtfbs:<tag>
 
    (see `r-rtfbs/tags`_ for valid values for ``<tag>``)
 

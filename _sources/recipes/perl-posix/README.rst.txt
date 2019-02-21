@@ -40,7 +40,7 @@ perl-posix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-posix:<tag>
+      docker pull quay.io/biocontainers/perl-posix:<tag>
 
    (see `perl-posix/tags`_ for valid values for ``<tag>``)
 

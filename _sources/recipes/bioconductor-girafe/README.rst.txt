@@ -63,7 +63,7 @@ bioconductor-girafe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-girafe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-girafe:<tag>
 
    (see `bioconductor-girafe/tags`_ for valid values for ``<tag>``)
 

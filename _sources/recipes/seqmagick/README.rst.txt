@@ -42,7 +42,7 @@ seqmagick
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seqmagick:<tag>
+      docker pull quay.io/biocontainers/seqmagick:<tag>
 
    (see `seqmagick/tags`_ for valid values for ``<tag>``)
 

@@ -54,7 +54,7 @@ atactk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/atactk:<tag>
+      docker pull quay.io/biocontainers/atactk:<tag>
 
    (see `atactk/tags`_ for valid values for ``<tag>``)
 

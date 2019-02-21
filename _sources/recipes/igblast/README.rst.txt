@@ -51,7 +51,7 @@ igblast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/igblast:<tag>
+      docker pull quay.io/biocontainers/igblast:<tag>
 
    (see `igblast/tags`_ for valid values for ``<tag>``)
 

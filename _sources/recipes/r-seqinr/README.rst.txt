@@ -46,7 +46,7 @@ r-seqinr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-seqinr:<tag>
+      docker pull quay.io/biocontainers/r-seqinr:<tag>
 
    (see `r-seqinr/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-ecoli2probe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ecoli2probe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ecoli2probe:<tag>
 
    (see `bioconductor-ecoli2probe/tags`_ for valid values for ``<tag>``)
 

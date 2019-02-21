@@ -42,7 +42,7 @@ parallel-fastq-dump
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/parallel-fastq-dump:<tag>
+      docker pull quay.io/biocontainers/parallel-fastq-dump:<tag>
 
    (see `parallel-fastq-dump/tags`_ for valid values for ``<tag>``)
 

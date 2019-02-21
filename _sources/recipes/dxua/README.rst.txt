@@ -38,7 +38,7 @@ dxua
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dxua:<tag>
+      docker pull quay.io/biocontainers/dxua:<tag>
 
    (see `dxua/tags`_ for valid values for ``<tag>``)
 

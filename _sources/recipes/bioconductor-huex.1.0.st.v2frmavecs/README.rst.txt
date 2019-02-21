@@ -42,7 +42,7 @@ bioconductor-huex.1.0.st.v2frmavecs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-huex.1.0.st.v2frmavecs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs:<tag>
 
    (see `bioconductor-huex.1.0.st.v2frmavecs/tags`_ for valid values for ``<tag>``)
 

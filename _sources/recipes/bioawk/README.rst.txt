@@ -42,7 +42,7 @@ bioawk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioawk:<tag>
+      docker pull quay.io/biocontainers/bioawk:<tag>
 
    (see `bioawk/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ blockbuster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/blockbuster:<tag>
+      docker pull quay.io/biocontainers/blockbuster:<tag>
 
    (see `blockbuster/tags`_ for valid values for ``<tag>``)
 

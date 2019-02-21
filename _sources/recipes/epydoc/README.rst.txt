@@ -40,7 +40,7 @@ epydoc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/epydoc:<tag>
+      docker pull quay.io/biocontainers/epydoc:<tag>
 
    (see `epydoc/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ bioconductor-covrna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-covrna:<tag>
+      docker pull quay.io/biocontainers/bioconductor-covrna:<tag>
 
    (see `bioconductor-covrna/tags`_ for valid values for ``<tag>``)
 

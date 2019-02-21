@@ -46,7 +46,7 @@ blasr_libcpp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/blasr_libcpp:<tag>
+      docker pull quay.io/biocontainers/blasr_libcpp:<tag>
 
    (see `blasr_libcpp/tags`_ for valid values for ``<tag>``)
 

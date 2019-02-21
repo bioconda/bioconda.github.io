@@ -43,7 +43,7 @@ chromhmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/chromhmm:<tag>
+      docker pull quay.io/biocontainers/chromhmm:<tag>
 
    (see `chromhmm/tags`_ for valid values for ``<tag>``)
 

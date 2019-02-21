@@ -43,7 +43,7 @@ subread
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/subread:<tag>
+      docker pull quay.io/biocontainers/subread:<tag>
 
    (see `subread/tags`_ for valid values for ``<tag>``)
 

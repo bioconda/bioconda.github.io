@@ -42,7 +42,7 @@ snp-sites
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snp-sites:<tag>
+      docker pull quay.io/biocontainers/snp-sites:<tag>
 
    (see `snp-sites/tags`_ for valid values for ``<tag>``)
 

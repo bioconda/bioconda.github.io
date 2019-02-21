@@ -54,7 +54,7 @@ galaxy-parsec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/galaxy-parsec:<tag>
+      docker pull quay.io/biocontainers/galaxy-parsec:<tag>
 
    (see `galaxy-parsec/tags`_ for valid values for ``<tag>``)
 

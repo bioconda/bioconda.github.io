@@ -50,7 +50,7 @@ poretools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/poretools:<tag>
+      docker pull quay.io/biocontainers/poretools:<tag>
 
    (see `poretools/tags`_ for valid values for ``<tag>``)
 

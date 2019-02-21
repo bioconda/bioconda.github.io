@@ -43,7 +43,7 @@ pymzml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pymzml:<tag>
+      docker pull quay.io/biocontainers/pymzml:<tag>
 
    (see `pymzml/tags`_ for valid values for ``<tag>``)
 

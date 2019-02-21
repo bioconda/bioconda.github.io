@@ -42,7 +42,7 @@ perl-perl-ostype
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-perl-ostype:<tag>
+      docker pull quay.io/biocontainers/perl-perl-ostype:<tag>
 
    (see `perl-perl-ostype/tags`_ for valid values for ``<tag>``)
 

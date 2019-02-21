@@ -50,7 +50,7 @@ r-maldirppa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-maldirppa:<tag>
+      docker pull quay.io/biocontainers/r-maldirppa:<tag>
 
    (see `r-maldirppa/tags`_ for valid values for ``<tag>``)
 

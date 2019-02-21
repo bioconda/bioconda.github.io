@@ -50,7 +50,7 @@ ucsc-pslhisto
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslhisto:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslhisto:<tag>
 
    (see `ucsc-pslhisto/tags`_ for valid values for ``<tag>``)
 

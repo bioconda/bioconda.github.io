@@ -40,7 +40,7 @@ perl-list-compare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-list-compare:<tag>
+      docker pull quay.io/biocontainers/perl-list-compare:<tag>
 
    (see `perl-list-compare/tags`_ for valid values for ``<tag>``)
 

@@ -54,7 +54,7 @@ bioconductor-rcistarget
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rcistarget:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rcistarget:<tag>
 
    (see `bioconductor-rcistarget/tags`_ for valid values for ``<tag>``)
 

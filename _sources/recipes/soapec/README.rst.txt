@@ -42,7 +42,7 @@ soapec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/soapec:<tag>
+      docker pull quay.io/biocontainers/soapec:<tag>
 
    (see `soapec/tags`_ for valid values for ``<tag>``)
 

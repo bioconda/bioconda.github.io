@@ -49,7 +49,7 @@ perl-bio-cigar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-cigar:<tag>
+      docker pull quay.io/biocontainers/perl-bio-cigar:<tag>
 
    (see `perl-bio-cigar/tags`_ for valid values for ``<tag>``)
 

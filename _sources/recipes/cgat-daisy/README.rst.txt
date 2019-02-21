@@ -50,7 +50,7 @@ cgat-daisy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cgat-daisy:<tag>
+      docker pull quay.io/biocontainers/cgat-daisy:<tag>
 
    (see `cgat-daisy/tags`_ for valid values for ``<tag>``)
 

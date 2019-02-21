@@ -42,7 +42,7 @@ perl-variable-magic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-variable-magic:<tag>
+      docker pull quay.io/biocontainers/perl-variable-magic:<tag>
 
    (see `perl-variable-magic/tags`_ for valid values for ``<tag>``)
 

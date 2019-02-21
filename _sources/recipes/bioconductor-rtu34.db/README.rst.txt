@@ -46,7 +46,7 @@ bioconductor-rtu34.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtu34.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtu34.db:<tag>
 
    (see `bioconductor-rtu34.db/tags`_ for valid values for ``<tag>``)
 

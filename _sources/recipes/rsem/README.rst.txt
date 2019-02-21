@@ -57,7 +57,7 @@ rsem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rsem:<tag>
+      docker pull quay.io/biocontainers/rsem:<tag>
 
    (see `rsem/tags`_ for valid values for ``<tag>``)
 

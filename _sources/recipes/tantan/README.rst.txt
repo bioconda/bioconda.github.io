@@ -42,7 +42,7 @@ tantan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tantan:<tag>
+      docker pull quay.io/biocontainers/tantan:<tag>
 
    (see `tantan/tags`_ for valid values for ``<tag>``)
 

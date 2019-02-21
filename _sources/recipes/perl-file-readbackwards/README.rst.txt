@@ -40,7 +40,7 @@ perl-file-readbackwards
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-readbackwards:<tag>
+      docker pull quay.io/biocontainers/perl-file-readbackwards:<tag>
 
    (see `perl-file-readbackwards/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ tssar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tssar:<tag>
+      docker pull quay.io/biocontainers/tssar:<tag>
 
    (see `tssar/tags`_ for valid values for ``<tag>``)
 

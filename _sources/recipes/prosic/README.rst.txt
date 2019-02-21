@@ -44,7 +44,7 @@ prosic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prosic:<tag>
+      docker pull quay.io/biocontainers/prosic:<tag>
 
    (see `prosic/tags`_ for valid values for ``<tag>``)
 

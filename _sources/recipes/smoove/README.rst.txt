@@ -56,7 +56,7 @@ smoove
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/smoove:<tag>
+      docker pull quay.io/biocontainers/smoove:<tag>
 
    (see `smoove/tags`_ for valid values for ``<tag>``)
 

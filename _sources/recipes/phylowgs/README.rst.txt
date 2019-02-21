@@ -54,7 +54,7 @@ phylowgs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phylowgs:<tag>
+      docker pull quay.io/biocontainers/phylowgs:<tag>
 
    (see `phylowgs/tags`_ for valid values for ``<tag>``)
 

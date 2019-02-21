@@ -40,7 +40,7 @@ starcode
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/starcode:<tag>
+      docker pull quay.io/biocontainers/starcode:<tag>
 
    (see `starcode/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ fasten
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fasten:<tag>
+      docker pull quay.io/biocontainers/fasten:<tag>
 
    (see `fasten/tags`_ for valid values for ``<tag>``)
 

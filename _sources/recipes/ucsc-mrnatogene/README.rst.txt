@@ -50,7 +50,7 @@ ucsc-mrnatogene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-mrnatogene:<tag>
+      docker pull quay.io/biocontainers/ucsc-mrnatogene:<tag>
 
    (see `ucsc-mrnatogene/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ bioconductor-biocsklearn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocsklearn:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biocsklearn:<tag>
 
    (see `bioconductor-biocsklearn/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-hash-merge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-hash-merge:<tag>
+      docker pull quay.io/biocontainers/perl-hash-merge:<tag>
 
    (see `perl-hash-merge/tags`_ for valid values for ``<tag>``)
 

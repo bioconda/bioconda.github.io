@@ -42,7 +42,7 @@ bioconductor-hsmmsinglecell
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hsmmsinglecell:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hsmmsinglecell:<tag>
 
    (see `bioconductor-hsmmsinglecell/tags`_ for valid values for ``<tag>``)
 

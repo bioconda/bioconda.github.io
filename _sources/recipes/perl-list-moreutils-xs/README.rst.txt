@@ -42,7 +42,7 @@ perl-list-moreutils-xs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-list-moreutils-xs:<tag>
+      docker pull quay.io/biocontainers/perl-list-moreutils-xs:<tag>
 
    (see `perl-list-moreutils-xs/tags`_ for valid values for ``<tag>``)
 

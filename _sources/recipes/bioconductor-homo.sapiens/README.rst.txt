@@ -54,7 +54,7 @@ bioconductor-homo.sapiens
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-homo.sapiens:<tag>
+      docker pull quay.io/biocontainers/bioconductor-homo.sapiens:<tag>
 
    (see `bioconductor-homo.sapiens/tags`_ for valid values for ``<tag>``)
 

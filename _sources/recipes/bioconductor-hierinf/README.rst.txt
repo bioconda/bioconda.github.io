@@ -44,7 +44,7 @@ bioconductor-hierinf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hierinf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hierinf:<tag>
 
    (see `bioconductor-hierinf/tags`_ for valid values for ``<tag>``)
 

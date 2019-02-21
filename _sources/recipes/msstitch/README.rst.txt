@@ -48,7 +48,7 @@ msstitch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/msstitch:<tag>
+      docker pull quay.io/biocontainers/msstitch:<tag>
 
    (see `msstitch/tags`_ for valid values for ``<tag>``)
 

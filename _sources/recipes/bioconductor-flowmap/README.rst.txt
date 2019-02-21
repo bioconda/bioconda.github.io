@@ -53,7 +53,7 @@ bioconductor-flowmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowmap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowmap:<tag>
 
    (see `bioconductor-flowmap/tags`_ for valid values for ``<tag>``)
 

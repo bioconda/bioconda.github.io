@@ -52,7 +52,7 @@ perl-par-packer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-par-packer:<tag>
+      docker pull quay.io/biocontainers/perl-par-packer:<tag>
 
    (see `perl-par-packer/tags`_ for valid values for ``<tag>``)
 

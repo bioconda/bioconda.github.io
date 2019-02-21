@@ -46,7 +46,7 @@ openslide-python
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/openslide-python:<tag>
+      docker pull quay.io/biocontainers/openslide-python:<tag>
 
    (see `openslide-python/tags`_ for valid values for ``<tag>``)
 

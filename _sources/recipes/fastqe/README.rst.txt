@@ -47,7 +47,7 @@ fastqe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastqe:<tag>
+      docker pull quay.io/biocontainers/fastqe:<tag>
 
    (see `fastqe/tags`_ for valid values for ``<tag>``)
 

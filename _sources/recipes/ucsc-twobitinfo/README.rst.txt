@@ -50,7 +50,7 @@ ucsc-twobitinfo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-twobitinfo:<tag>
+      docker pull quay.io/biocontainers/ucsc-twobitinfo:<tag>
 
    (see `ucsc-twobitinfo/tags`_ for valid values for ``<tag>``)
 

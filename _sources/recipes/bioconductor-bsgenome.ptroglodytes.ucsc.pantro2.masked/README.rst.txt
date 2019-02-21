@@ -46,7 +46,7 @@ bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked:<tag>
 
    (see `bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked/tags`_ for valid values for ``<tag>``)
 

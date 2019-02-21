@@ -50,7 +50,7 @@ ucsc-validatemanifest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-validatemanifest:<tag>
+      docker pull quay.io/biocontainers/ucsc-validatemanifest:<tag>
 
    (see `ucsc-validatemanifest/tags`_ for valid values for ``<tag>``)
 

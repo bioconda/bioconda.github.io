@@ -41,7 +41,7 @@ bioconductor-tximport
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tximport:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tximport:<tag>
 
    (see `bioconductor-tximport/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ truvari
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/truvari:<tag>
+      docker pull quay.io/biocontainers/truvari:<tag>
 
    (see `truvari/tags`_ for valid values for ``<tag>``)
 

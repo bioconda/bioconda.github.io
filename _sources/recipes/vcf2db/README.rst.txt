@@ -56,7 +56,7 @@ vcf2db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcf2db:<tag>
+      docker pull quay.io/biocontainers/vcf2db:<tag>
 
    (see `vcf2db/tags`_ for valid values for ``<tag>``)
 

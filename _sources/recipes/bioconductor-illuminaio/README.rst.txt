@@ -45,7 +45,7 @@ bioconductor-illuminaio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-illuminaio:<tag>
+      docker pull quay.io/biocontainers/bioconductor-illuminaio:<tag>
 
    (see `bioconductor-illuminaio/tags`_ for valid values for ``<tag>``)
 

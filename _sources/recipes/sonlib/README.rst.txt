@@ -40,7 +40,7 @@ sonlib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sonlib:<tag>
+      docker pull quay.io/biocontainers/sonlib:<tag>
 
    (see `sonlib/tags`_ for valid values for ``<tag>``)
 

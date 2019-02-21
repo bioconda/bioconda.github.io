@@ -42,7 +42,7 @@ bpp-seq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bpp-seq:<tag>
+      docker pull quay.io/biocontainers/bpp-seq:<tag>
 
    (see `bpp-seq/tags`_ for valid values for ``<tag>``)
 

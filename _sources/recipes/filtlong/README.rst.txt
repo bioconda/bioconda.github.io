@@ -42,7 +42,7 @@ filtlong
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/filtlong:<tag>
+      docker pull quay.io/biocontainers/filtlong:<tag>
 
    (see `filtlong/tags`_ for valid values for ``<tag>``)
 

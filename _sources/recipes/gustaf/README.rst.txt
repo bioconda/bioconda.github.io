@@ -38,7 +38,7 @@ gustaf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gustaf:<tag>
+      docker pull quay.io/biocontainers/gustaf:<tag>
 
    (see `gustaf/tags`_ for valid values for ``<tag>``)
 

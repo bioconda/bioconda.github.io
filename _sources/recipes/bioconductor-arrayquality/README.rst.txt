@@ -51,7 +51,7 @@ bioconductor-arrayquality
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-arrayquality:<tag>
+      docker pull quay.io/biocontainers/bioconductor-arrayquality:<tag>
 
    (see `bioconductor-arrayquality/tags`_ for valid values for ``<tag>``)
 

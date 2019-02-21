@@ -56,7 +56,7 @@ bioconductor-pd.tomato
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.tomato:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.tomato:<tag>
 
    (see `bioconductor-pd.tomato/tags`_ for valid values for ``<tag>``)
 

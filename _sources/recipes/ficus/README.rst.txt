@@ -42,7 +42,7 @@ ficus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ficus:<tag>
+      docker pull quay.io/biocontainers/ficus:<tag>
 
    (see `ficus/tags`_ for valid values for ``<tag>``)
 

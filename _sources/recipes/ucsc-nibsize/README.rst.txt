@@ -50,7 +50,7 @@ ucsc-nibsize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-nibsize:<tag>
+      docker pull quay.io/biocontainers/ucsc-nibsize:<tag>
 
    (see `ucsc-nibsize/tags`_ for valid values for ``<tag>``)
 

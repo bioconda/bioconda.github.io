@@ -46,7 +46,7 @@ bioconductor-ceu1kgv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ceu1kgv:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ceu1kgv:<tag>
 
    (see `bioconductor-ceu1kgv/tags`_ for valid values for ``<tag>``)
 

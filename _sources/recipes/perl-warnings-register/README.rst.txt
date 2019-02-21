@@ -40,7 +40,7 @@ perl-warnings-register
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-warnings-register:<tag>
+      docker pull quay.io/biocontainers/perl-warnings-register:<tag>
 
    (see `perl-warnings-register/tags`_ for valid values for ``<tag>``)
 

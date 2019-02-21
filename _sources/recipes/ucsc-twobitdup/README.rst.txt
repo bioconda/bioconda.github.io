@@ -50,7 +50,7 @@ ucsc-twobitdup
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-twobitdup:<tag>
+      docker pull quay.io/biocontainers/ucsc-twobitdup:<tag>
 
    (see `ucsc-twobitdup/tags`_ for valid values for ``<tag>``)
 

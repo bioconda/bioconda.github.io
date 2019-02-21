@@ -44,7 +44,7 @@ lordfast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lordfast:<tag>
+      docker pull quay.io/biocontainers/lordfast:<tag>
 
    (see `lordfast/tags`_ for valid values for ``<tag>``)
 

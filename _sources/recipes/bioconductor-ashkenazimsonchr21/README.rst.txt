@@ -42,7 +42,7 @@ bioconductor-ashkenazimsonchr21
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ashkenazimsonchr21:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ashkenazimsonchr21:<tag>
 
    (see `bioconductor-ashkenazimsonchr21/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ bioconductor-proper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-proper:<tag>
+      docker pull quay.io/biocontainers/bioconductor-proper:<tag>
 
    (see `bioconductor-proper/tags`_ for valid values for ``<tag>``)
 

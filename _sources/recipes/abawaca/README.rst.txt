@@ -41,7 +41,7 @@ abawaca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/abawaca:<tag>
+      docker pull quay.io/biocontainers/abawaca:<tag>
 
    (see `abawaca/tags`_ for valid values for ``<tag>``)
 

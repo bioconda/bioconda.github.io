@@ -64,7 +64,7 @@ bioconductor-interminer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-interminer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-interminer:<tag>
 
    (see `bioconductor-interminer/tags`_ for valid values for ``<tag>``)
 

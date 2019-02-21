@@ -51,7 +51,7 @@ bioconductor-flowmatch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowmatch:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowmatch:<tag>
 
    (see `bioconductor-flowmatch/tags`_ for valid values for ``<tag>``)
 

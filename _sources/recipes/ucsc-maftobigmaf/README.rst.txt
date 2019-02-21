@@ -50,7 +50,7 @@ ucsc-maftobigmaf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-maftobigmaf:<tag>
+      docker pull quay.io/biocontainers/ucsc-maftobigmaf:<tag>
 
    (see `ucsc-maftobigmaf/tags`_ for valid values for ``<tag>``)
 

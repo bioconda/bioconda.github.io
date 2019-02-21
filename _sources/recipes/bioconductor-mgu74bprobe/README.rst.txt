@@ -44,7 +44,7 @@ bioconductor-mgu74bprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mgu74bprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mgu74bprobe:<tag>
 
    (see `bioconductor-mgu74bprobe/tags`_ for valid values for ``<tag>``)
 

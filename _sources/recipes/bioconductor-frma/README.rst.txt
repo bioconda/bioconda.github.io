@@ -57,7 +57,7 @@ bioconductor-frma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-frma:<tag>
+      docker pull quay.io/biocontainers/bioconductor-frma:<tag>
 
    (see `bioconductor-frma/tags`_ for valid values for ``<tag>``)
 

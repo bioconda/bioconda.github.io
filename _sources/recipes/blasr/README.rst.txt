@@ -48,7 +48,7 @@ blasr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/blasr:<tag>
+      docker pull quay.io/biocontainers/blasr:<tag>
 
    (see `blasr/tags`_ for valid values for ``<tag>``)
 

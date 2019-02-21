@@ -40,7 +40,7 @@ miranda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/miranda:<tag>
+      docker pull quay.io/biocontainers/miranda:<tag>
 
    (see `miranda/tags`_ for valid values for ``<tag>``)
 

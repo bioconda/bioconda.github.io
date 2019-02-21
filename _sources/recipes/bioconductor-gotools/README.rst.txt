@@ -45,7 +45,7 @@ bioconductor-gotools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gotools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gotools:<tag>
 
    (see `bioconductor-gotools/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ perl-array-compare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-array-compare:<tag>
+      docker pull quay.io/biocontainers/perl-array-compare:<tag>
 
    (see `perl-array-compare/tags`_ for valid values for ``<tag>``)
 

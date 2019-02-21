@@ -40,7 +40,7 @@ delegation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/delegation:<tag>
+      docker pull quay.io/biocontainers/delegation:<tag>
 
    (see `delegation/tags`_ for valid values for ``<tag>``)
 

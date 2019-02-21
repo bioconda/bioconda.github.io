@@ -42,7 +42,7 @@ music
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/music:<tag>
+      docker pull quay.io/biocontainers/music:<tag>
 
    (see `music/tags`_ for valid values for ``<tag>``)
 

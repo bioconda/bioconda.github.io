@@ -55,7 +55,7 @@ bioconductor-rimmport
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rimmport:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rimmport:<tag>
 
    (see `bioconductor-rimmport/tags`_ for valid values for ``<tag>``)
 

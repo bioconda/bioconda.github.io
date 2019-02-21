@@ -46,7 +46,7 @@ perl-version-next
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-version-next:<tag>
+      docker pull quay.io/biocontainers/perl-version-next:<tag>
 
    (see `perl-version-next/tags`_ for valid values for ``<tag>``)
 

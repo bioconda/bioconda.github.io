@@ -50,7 +50,7 @@ perl-package-deprecationmanager
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-package-deprecationmanager:<tag>
+      docker pull quay.io/biocontainers/perl-package-deprecationmanager:<tag>
 
    (see `perl-package-deprecationmanager/tags`_ for valid values for ``<tag>``)
 

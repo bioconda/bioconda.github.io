@@ -39,7 +39,7 @@ mason
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mason:<tag>
+      docker pull quay.io/biocontainers/mason:<tag>
 
    (see `mason/tags`_ for valid values for ``<tag>``)
 

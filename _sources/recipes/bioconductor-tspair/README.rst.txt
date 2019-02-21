@@ -45,7 +45,7 @@ bioconductor-tspair
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tspair:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tspair:<tag>
 
    (see `bioconductor-tspair/tags`_ for valid values for ``<tag>``)
 

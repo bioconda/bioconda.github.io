@@ -40,7 +40,7 @@ sweepfinder2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sweepfinder2:<tag>
+      docker pull quay.io/biocontainers/sweepfinder2:<tag>
 
    (see `sweepfinder2/tags`_ for valid values for ``<tag>``)
 

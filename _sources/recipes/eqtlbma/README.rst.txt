@@ -55,7 +55,7 @@ eqtlbma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/eqtlbma:<tag>
+      docker pull quay.io/biocontainers/eqtlbma:<tag>
 
    (see `eqtlbma/tags`_ for valid values for ``<tag>``)
 

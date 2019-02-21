@@ -44,7 +44,7 @@ perl-object-insideout
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-object-insideout:<tag>
+      docker pull quay.io/biocontainers/perl-object-insideout:<tag>
 
    (see `perl-object-insideout/tags`_ for valid values for ``<tag>``)
 

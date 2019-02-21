@@ -49,7 +49,7 @@ intarna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/intarna:<tag>
+      docker pull quay.io/biocontainers/intarna:<tag>
 
    (see `intarna/tags`_ for valid values for ``<tag>``)
 

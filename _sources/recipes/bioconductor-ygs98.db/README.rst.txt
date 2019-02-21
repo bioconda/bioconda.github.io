@@ -46,7 +46,7 @@ bioconductor-ygs98.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ygs98.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ygs98.db:<tag>
 
    (see `bioconductor-ygs98.db/tags`_ for valid values for ``<tag>``)
 

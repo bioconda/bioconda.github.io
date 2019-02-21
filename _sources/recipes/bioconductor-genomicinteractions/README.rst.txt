@@ -73,7 +73,7 @@ bioconductor-genomicinteractions
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genomicinteractions:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genomicinteractions:<tag>
 
    (see `bioconductor-genomicinteractions/tags`_ for valid values for ``<tag>``)
 

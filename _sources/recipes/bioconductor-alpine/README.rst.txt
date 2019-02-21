@@ -67,7 +67,7 @@ bioconductor-alpine
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-alpine:<tag>
+      docker pull quay.io/biocontainers/bioconductor-alpine:<tag>
 
    (see `bioconductor-alpine/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-error
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-error:<tag>
+      docker pull quay.io/biocontainers/perl-error:<tag>
 
    (see `perl-error/tags`_ for valid values for ``<tag>``)
 

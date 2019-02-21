@@ -48,7 +48,7 @@ bioconductor-rdisop
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rdisop:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rdisop:<tag>
 
    (see `bioconductor-rdisop/tags`_ for valid values for ``<tag>``)
 

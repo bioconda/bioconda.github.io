@@ -40,7 +40,7 @@ bcbio-variation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcbio-variation:<tag>
+      docker pull quay.io/biocontainers/bcbio-variation:<tag>
 
    (see `bcbio-variation/tags`_ for valid values for ``<tag>``)
 

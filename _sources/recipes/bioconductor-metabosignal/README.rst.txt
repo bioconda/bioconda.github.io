@@ -63,7 +63,7 @@ bioconductor-metabosignal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metabosignal:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metabosignal:<tag>
 
    (see `bioconductor-metabosignal/tags`_ for valid values for ``<tag>``)
 

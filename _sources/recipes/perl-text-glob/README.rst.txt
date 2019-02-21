@@ -40,7 +40,7 @@ perl-text-glob
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-glob:<tag>
+      docker pull quay.io/biocontainers/perl-text-glob:<tag>
 
    (see `perl-text-glob/tags`_ for valid values for ``<tag>``)
 

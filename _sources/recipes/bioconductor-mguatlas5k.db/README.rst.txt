@@ -46,7 +46,7 @@ bioconductor-mguatlas5k.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mguatlas5k.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mguatlas5k.db:<tag>
 
    (see `bioconductor-mguatlas5k.db/tags`_ for valid values for ``<tag>``)
 

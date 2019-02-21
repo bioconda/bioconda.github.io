@@ -40,7 +40,7 @@ edlib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/edlib:<tag>
+      docker pull quay.io/biocontainers/edlib:<tag>
 
    (see `edlib/tags`_ for valid values for ``<tag>``)
 

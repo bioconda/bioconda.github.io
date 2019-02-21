@@ -46,7 +46,7 @@ illumina-utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/illumina-utils:<tag>
+      docker pull quay.io/biocontainers/illumina-utils:<tag>
 
    (see `illumina-utils/tags`_ for valid values for ``<tag>``)
 

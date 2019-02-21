@@ -57,7 +57,7 @@ bioconductor-webbioc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-webbioc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-webbioc:<tag>
 
    (see `bioconductor-webbioc/tags`_ for valid values for ``<tag>``)
 

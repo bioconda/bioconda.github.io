@@ -72,7 +72,7 @@ bioconductor-funcisnp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-funcisnp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-funcisnp:<tag>
 
    (see `bioconductor-funcisnp/tags`_ for valid values for ``<tag>``)
 

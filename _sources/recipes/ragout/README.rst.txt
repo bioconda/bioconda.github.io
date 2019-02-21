@@ -48,7 +48,7 @@ ragout
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ragout:<tag>
+      docker pull quay.io/biocontainers/ragout:<tag>
 
    (see `ragout/tags`_ for valid values for ``<tag>``)
 

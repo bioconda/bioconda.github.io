@@ -48,7 +48,7 @@ bam-readcount
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bam-readcount:<tag>
+      docker pull quay.io/biocontainers/bam-readcount:<tag>
 
    (see `bam-readcount/tags`_ for valid values for ``<tag>``)
 

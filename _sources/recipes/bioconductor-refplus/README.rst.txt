@@ -49,7 +49,7 @@ bioconductor-refplus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-refplus:<tag>
+      docker pull quay.io/biocontainers/bioconductor-refplus:<tag>
 
    (see `bioconductor-refplus/tags`_ for valid values for ``<tag>``)
 

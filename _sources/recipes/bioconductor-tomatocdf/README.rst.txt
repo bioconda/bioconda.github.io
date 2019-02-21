@@ -44,7 +44,7 @@ bioconductor-tomatocdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tomatocdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tomatocdf:<tag>
 
    (see `bioconductor-tomatocdf/tags`_ for valid values for ``<tag>``)
 

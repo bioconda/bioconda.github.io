@@ -45,7 +45,7 @@ r-nastiseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-nastiseq:<tag>
+      docker pull quay.io/biocontainers/r-nastiseq:<tag>
 
    (see `r-nastiseq/tags`_ for valid values for ``<tag>``)
 

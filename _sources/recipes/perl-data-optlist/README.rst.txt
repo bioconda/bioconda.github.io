@@ -44,7 +44,7 @@ perl-data-optlist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-data-optlist:<tag>
+      docker pull quay.io/biocontainers/perl-data-optlist:<tag>
 
    (see `perl-data-optlist/tags`_ for valid values for ``<tag>``)
 

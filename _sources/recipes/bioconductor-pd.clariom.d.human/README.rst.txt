@@ -56,7 +56,7 @@ bioconductor-pd.clariom.d.human
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.clariom.d.human:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.clariom.d.human:<tag>
 
    (see `bioconductor-pd.clariom.d.human/tags`_ for valid values for ``<tag>``)
 

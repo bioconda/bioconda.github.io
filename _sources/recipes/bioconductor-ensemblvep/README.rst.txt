@@ -55,7 +55,7 @@ bioconductor-ensemblvep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ensemblvep:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ensemblvep:<tag>
 
    (see `bioconductor-ensemblvep/tags`_ for valid values for ``<tag>``)
 

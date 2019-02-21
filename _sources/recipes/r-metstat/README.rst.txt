@@ -46,7 +46,7 @@ r-metstat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-metstat:<tag>
+      docker pull quay.io/biocontainers/r-metstat:<tag>
 
    (see `r-metstat/tags`_ for valid values for ``<tag>``)
 

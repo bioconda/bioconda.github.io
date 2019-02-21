@@ -42,7 +42,7 @@ perl-devel-size
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-devel-size:<tag>
+      docker pull quay.io/biocontainers/perl-devel-size:<tag>
 
    (see `perl-devel-size/tags`_ for valid values for ``<tag>``)
 

@@ -60,7 +60,7 @@ bioconductor-slalom
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-slalom:<tag>
+      docker pull quay.io/biocontainers/bioconductor-slalom:<tag>
 
    (see `bioconductor-slalom/tags`_ for valid values for ``<tag>``)
 

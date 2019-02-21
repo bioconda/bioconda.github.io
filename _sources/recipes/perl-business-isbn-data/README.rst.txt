@@ -42,7 +42,7 @@ perl-business-isbn-data
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-business-isbn-data:<tag>
+      docker pull quay.io/biocontainers/perl-business-isbn-data:<tag>
 
    (see `perl-business-isbn-data/tags`_ for valid values for ``<tag>``)
 

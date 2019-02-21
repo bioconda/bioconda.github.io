@@ -38,7 +38,7 @@ bioconductor-mcagui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mcagui:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mcagui:<tag>
 
    (see `bioconductor-mcagui/tags`_ for valid values for ``<tag>``)
 

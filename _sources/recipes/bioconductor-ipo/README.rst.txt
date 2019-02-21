@@ -49,7 +49,7 @@ bioconductor-ipo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ipo:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ipo:<tag>
 
    (see `bioconductor-ipo/tags`_ for valid values for ``<tag>``)
 

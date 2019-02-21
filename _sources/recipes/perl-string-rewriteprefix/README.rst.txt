@@ -44,7 +44,7 @@ perl-string-rewriteprefix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-string-rewriteprefix:<tag>
+      docker pull quay.io/biocontainers/perl-string-rewriteprefix:<tag>
 
    (see `perl-string-rewriteprefix/tags`_ for valid values for ``<tag>``)
 

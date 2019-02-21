@@ -46,7 +46,7 @@ perl-archive-tar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-archive-tar:<tag>
+      docker pull quay.io/biocontainers/perl-archive-tar:<tag>
 
    (see `perl-archive-tar/tags`_ for valid values for ``<tag>``)
 

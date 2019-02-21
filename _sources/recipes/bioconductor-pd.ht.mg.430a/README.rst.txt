@@ -56,7 +56,7 @@ bioconductor-pd.ht.mg.430a
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.ht.mg.430a:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.ht.mg.430a:<tag>
 
    (see `bioconductor-pd.ht.mg.430a/tags`_ for valid values for ``<tag>``)
 

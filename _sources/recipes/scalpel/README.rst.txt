@@ -46,7 +46,7 @@ scalpel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scalpel:<tag>
+      docker pull quay.io/biocontainers/scalpel:<tag>
 
    (see `scalpel/tags`_ for valid values for ``<tag>``)
 

@@ -41,7 +41,7 @@ tmalign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tmalign:<tag>
+      docker pull quay.io/biocontainers/tmalign:<tag>
 
    (see `tmalign/tags`_ for valid values for ``<tag>``)
 

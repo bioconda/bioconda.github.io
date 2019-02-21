@@ -64,7 +64,7 @@ bioconductor-cogaps
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cogaps:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cogaps:<tag>
 
    (see `bioconductor-cogaps/tags`_ for valid values for ``<tag>``)
 

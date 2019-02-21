@@ -41,7 +41,7 @@ raxml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/raxml:<tag>
+      docker pull quay.io/biocontainers/raxml:<tag>
 
    (see `raxml/tags`_ for valid values for ``<tag>``)
 

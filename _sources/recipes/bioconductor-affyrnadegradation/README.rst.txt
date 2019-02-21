@@ -43,7 +43,7 @@ bioconductor-affyrnadegradation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affyrnadegradation:<tag>
+      docker pull quay.io/biocontainers/bioconductor-affyrnadegradation:<tag>
 
    (see `bioconductor-affyrnadegradation/tags`_ for valid values for ``<tag>``)
 

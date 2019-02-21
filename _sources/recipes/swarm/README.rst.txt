@@ -45,7 +45,7 @@ swarm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/swarm:<tag>
+      docker pull quay.io/biocontainers/swarm:<tag>
 
    (see `swarm/tags`_ for valid values for ``<tag>``)
 

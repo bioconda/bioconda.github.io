@@ -54,7 +54,7 @@ perl-html-formatter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-formatter:<tag>
+      docker pull quay.io/biocontainers/perl-html-formatter:<tag>
 
    (see `perl-html-formatter/tags`_ for valid values for ``<tag>``)
 

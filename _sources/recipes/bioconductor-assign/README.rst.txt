@@ -52,7 +52,7 @@ bioconductor-assign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-assign:<tag>
+      docker pull quay.io/biocontainers/bioconductor-assign:<tag>
 
    (see `bioconductor-assign/tags`_ for valid values for ``<tag>``)
 

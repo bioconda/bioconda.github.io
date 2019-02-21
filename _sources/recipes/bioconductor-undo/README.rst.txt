@@ -51,7 +51,7 @@ bioconductor-undo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-undo:<tag>
+      docker pull quay.io/biocontainers/bioconductor-undo:<tag>
 
    (see `bioconductor-undo/tags`_ for valid values for ``<tag>``)
 

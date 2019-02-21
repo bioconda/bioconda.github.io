@@ -40,7 +40,7 @@ perl-image-size
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-image-size:<tag>
+      docker pull quay.io/biocontainers/perl-image-size:<tag>
 
    (see `perl-image-size/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ treetime
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/treetime:<tag>
+      docker pull quay.io/biocontainers/treetime:<tag>
 
    (see `treetime/tags`_ for valid values for ``<tag>``)
 

@@ -39,7 +39,7 @@ trf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trf:<tag>
+      docker pull quay.io/biocontainers/trf:<tag>
 
    (see `trf/tags`_ for valid values for ``<tag>``)
 

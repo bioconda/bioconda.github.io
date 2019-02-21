@@ -58,7 +58,7 @@ svim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/svim:<tag>
+      docker pull quay.io/biocontainers/svim:<tag>
 
    (see `svim/tags`_ for valid values for ``<tag>``)
 

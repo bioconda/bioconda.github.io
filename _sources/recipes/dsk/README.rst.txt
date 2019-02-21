@@ -41,7 +41,7 @@ dsk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dsk:<tag>
+      docker pull quay.io/biocontainers/dsk:<tag>
 
    (see `dsk/tags`_ for valid values for ``<tag>``)
 

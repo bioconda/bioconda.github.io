@@ -52,7 +52,7 @@ bioconductor-immunoclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-immunoclust:<tag>
+      docker pull quay.io/biocontainers/bioconductor-immunoclust:<tag>
 
    (see `bioconductor-immunoclust/tags`_ for valid values for ``<tag>``)
 

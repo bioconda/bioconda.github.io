@@ -50,7 +50,7 @@ ucsc-genepredtobed
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-genepredtobed:<tag>
+      docker pull quay.io/biocontainers/ucsc-genepredtobed:<tag>
 
    (see `ucsc-genepredtobed/tags`_ for valid values for ``<tag>``)
 

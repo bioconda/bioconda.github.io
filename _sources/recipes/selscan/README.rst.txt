@@ -43,7 +43,7 @@ selscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/selscan:<tag>
+      docker pull quay.io/biocontainers/selscan:<tag>
 
    (see `selscan/tags`_ for valid values for ``<tag>``)
 

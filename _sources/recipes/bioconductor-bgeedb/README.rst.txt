@@ -57,7 +57,7 @@ bioconductor-bgeedb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bgeedb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bgeedb:<tag>
 
    (see `bioconductor-bgeedb/tags`_ for valid values for ``<tag>``)
 

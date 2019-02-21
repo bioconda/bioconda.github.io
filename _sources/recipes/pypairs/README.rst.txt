@@ -58,7 +58,7 @@ pypairs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pypairs:<tag>
+      docker pull quay.io/biocontainers/pypairs:<tag>
 
    (see `pypairs/tags`_ for valid values for ``<tag>``)
 

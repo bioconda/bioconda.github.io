@@ -44,7 +44,7 @@ bioconductor-citruscdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-citruscdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-citruscdf:<tag>
 
    (see `bioconductor-citruscdf/tags`_ for valid values for ``<tag>``)
 

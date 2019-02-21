@@ -40,7 +40,7 @@ any2fasta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/any2fasta:<tag>
+      docker pull quay.io/biocontainers/any2fasta:<tag>
 
    (see `any2fasta/tags`_ for valid values for ``<tag>``)
 

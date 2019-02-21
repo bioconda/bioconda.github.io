@@ -62,7 +62,7 @@ bioconductor-seqcat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seqcat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seqcat:<tag>
 
    (see `bioconductor-seqcat/tags`_ for valid values for ``<tag>``)
 

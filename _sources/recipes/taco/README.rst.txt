@@ -44,7 +44,7 @@ taco
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/taco:<tag>
+      docker pull quay.io/biocontainers/taco:<tag>
 
    (see `taco/tags`_ for valid values for ``<tag>``)
 

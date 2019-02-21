@@ -38,7 +38,7 @@ pisces
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pisces:<tag>
+      docker pull quay.io/biocontainers/pisces:<tag>
 
    (see `pisces/tags`_ for valid values for ``<tag>``)
 

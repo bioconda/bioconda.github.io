@@ -60,7 +60,7 @@ probamconvert
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/probamconvert:<tag>
+      docker pull quay.io/biocontainers/probamconvert:<tag>
 
    (see `probamconvert/tags`_ for valid values for ``<tag>``)
 

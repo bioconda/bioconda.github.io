@@ -40,7 +40,7 @@ perl-xml-xpathengine
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-xpathengine:<tag>
+      docker pull quay.io/biocontainers/perl-xml-xpathengine:<tag>
 
    (see `perl-xml-xpathengine/tags`_ for valid values for ``<tag>``)
 

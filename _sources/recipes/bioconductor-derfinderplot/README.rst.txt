@@ -69,7 +69,7 @@ bioconductor-derfinderplot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-derfinderplot:<tag>
+      docker pull quay.io/biocontainers/bioconductor-derfinderplot:<tag>
 
    (see `bioconductor-derfinderplot/tags`_ for valid values for ``<tag>``)
 

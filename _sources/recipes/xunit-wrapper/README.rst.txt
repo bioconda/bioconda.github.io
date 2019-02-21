@@ -44,7 +44,7 @@ xunit-wrapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xunit-wrapper:<tag>
+      docker pull quay.io/biocontainers/xunit-wrapper:<tag>
 
    (see `xunit-wrapper/tags`_ for valid values for ``<tag>``)
 

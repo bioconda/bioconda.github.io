@@ -48,7 +48,7 @@ pal_finder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pal_finder:<tag>
+      docker pull quay.io/biocontainers/pal_finder:<tag>
 
    (see `pal_finder/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-methylaiddata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methylaiddata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methylaiddata:<tag>
 
    (see `bioconductor-methylaiddata/tags`_ for valid values for ``<tag>``)
 

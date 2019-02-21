@@ -42,7 +42,7 @@ helperlibs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/helperlibs:<tag>
+      docker pull quay.io/biocontainers/helperlibs:<tag>
 
    (see `helperlibs/tags`_ for valid values for ``<tag>``)
 

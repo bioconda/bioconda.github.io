@@ -44,7 +44,7 @@ perl-perlio-utf8_strict
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-perlio-utf8_strict:<tag>
+      docker pull quay.io/biocontainers/perl-perlio-utf8_strict:<tag>
 
    (see `perl-perlio-utf8_strict/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ samsifter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/samsifter:<tag>
+      docker pull quay.io/biocontainers/samsifter:<tag>
 
    (see `samsifter/tags`_ for valid values for ``<tag>``)
 

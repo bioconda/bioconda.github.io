@@ -40,7 +40,7 @@ perl-sys-sigaction
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sys-sigaction:<tag>
+      docker pull quay.io/biocontainers/perl-sys-sigaction:<tag>
 
    (see `perl-sys-sigaction/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ bioconductor-cellity
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cellity:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cellity:<tag>
 
    (see `bioconductor-cellity/tags`_ for valid values for ``<tag>``)
 

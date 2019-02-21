@@ -39,7 +39,7 @@ star
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/star:<tag>
+      docker pull quay.io/biocontainers/star:<tag>
 
    (see `star/tags`_ for valid values for ``<tag>``)
 

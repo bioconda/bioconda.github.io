@@ -42,7 +42,7 @@ bioconductor-maqcexpression4plex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-maqcexpression4plex:<tag>
+      docker pull quay.io/biocontainers/bioconductor-maqcexpression4plex:<tag>
 
    (see `bioconductor-maqcexpression4plex/tags`_ for valid values for ``<tag>``)
 

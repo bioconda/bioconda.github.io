@@ -42,7 +42,7 @@ pyscaf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyscaf:<tag>
+      docker pull quay.io/biocontainers/pyscaf:<tag>
 
    (see `pyscaf/tags`_ for valid values for ``<tag>``)
 

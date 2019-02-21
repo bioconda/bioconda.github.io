@@ -44,7 +44,7 @@ bcalm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcalm:<tag>
+      docker pull quay.io/biocontainers/bcalm:<tag>
 
    (see `bcalm/tags`_ for valid values for ``<tag>``)
 

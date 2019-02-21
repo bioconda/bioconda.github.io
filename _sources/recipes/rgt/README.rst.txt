@@ -93,7 +93,7 @@ rgt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rgt:<tag>
+      docker pull quay.io/biocontainers/rgt:<tag>
 
    (see `rgt/tags`_ for valid values for ``<tag>``)
 

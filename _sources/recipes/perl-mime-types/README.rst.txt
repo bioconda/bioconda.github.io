@@ -40,7 +40,7 @@ perl-mime-types
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mime-types:<tag>
+      docker pull quay.io/biocontainers/perl-mime-types:<tag>
 
    (see `perl-mime-types/tags`_ for valid values for ``<tag>``)
 

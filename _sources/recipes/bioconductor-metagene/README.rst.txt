@@ -80,7 +80,7 @@ bioconductor-metagene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metagene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metagene:<tag>
 
    (see `bioconductor-metagene/tags`_ for valid values for ``<tag>``)
 

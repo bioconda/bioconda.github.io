@@ -45,7 +45,7 @@ bioconductor-rbsurv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rbsurv:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rbsurv:<tag>
 
    (see `bioconductor-rbsurv/tags`_ for valid values for ``<tag>``)
 

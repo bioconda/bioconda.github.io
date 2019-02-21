@@ -45,7 +45,7 @@ bioconductor-hibag
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hibag:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hibag:<tag>
 
    (see `bioconductor-hibag/tags`_ for valid values for ``<tag>``)
 

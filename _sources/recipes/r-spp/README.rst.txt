@@ -53,7 +53,7 @@ r-spp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-spp:<tag>
+      docker pull quay.io/biocontainers/r-spp:<tag>
 
    (see `r-spp/tags`_ for valid values for ``<tag>``)
 

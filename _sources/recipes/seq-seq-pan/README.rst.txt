@@ -52,7 +52,7 @@ seq-seq-pan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seq-seq-pan:<tag>
+      docker pull quay.io/biocontainers/seq-seq-pan:<tag>
 
    (see `seq-seq-pan/tags`_ for valid values for ``<tag>``)
 

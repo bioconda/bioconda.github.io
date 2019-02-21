@@ -46,7 +46,7 @@ bioconductor-brgedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-brgedata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-brgedata:<tag>
 
    (see `bioconductor-brgedata/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-math-round
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-round:<tag>
+      docker pull quay.io/biocontainers/perl-math-round:<tag>
 
    (see `perl-math-round/tags`_ for valid values for ``<tag>``)
 

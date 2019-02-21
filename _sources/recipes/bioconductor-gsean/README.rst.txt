@@ -44,7 +44,7 @@ bioconductor-gsean
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gsean:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gsean:<tag>
 
    (see `bioconductor-gsean/tags`_ for valid values for ``<tag>``)
 

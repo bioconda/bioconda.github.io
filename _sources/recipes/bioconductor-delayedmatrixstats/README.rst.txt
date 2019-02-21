@@ -54,7 +54,7 @@ bioconductor-delayedmatrixstats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-delayedmatrixstats:<tag>
+      docker pull quay.io/biocontainers/bioconductor-delayedmatrixstats:<tag>
 
    (see `bioconductor-delayedmatrixstats/tags`_ for valid values for ``<tag>``)
 

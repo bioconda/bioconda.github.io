@@ -44,7 +44,7 @@ bloocoo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bloocoo:<tag>
+      docker pull quay.io/biocontainers/bloocoo:<tag>
 
    (see `bloocoo/tags`_ for valid values for ``<tag>``)
 

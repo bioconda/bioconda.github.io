@@ -52,7 +52,7 @@ bioconductor-rhdf5client
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rhdf5client:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rhdf5client:<tag>
 
    (see `bioconductor-rhdf5client/tags`_ for valid values for ``<tag>``)
 

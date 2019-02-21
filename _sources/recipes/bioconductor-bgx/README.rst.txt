@@ -38,7 +38,7 @@ bioconductor-bgx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bgx:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bgx:<tag>
 
    (see `bioconductor-bgx/tags`_ for valid values for ``<tag>``)
 

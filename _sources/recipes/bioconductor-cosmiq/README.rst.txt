@@ -55,7 +55,7 @@ bioconductor-cosmiq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cosmiq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cosmiq:<tag>
 
    (see `bioconductor-cosmiq/tags`_ for valid values for ``<tag>``)
 

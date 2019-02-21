@@ -48,7 +48,7 @@ wes-service-client
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wes-service-client:<tag>
+      docker pull quay.io/biocontainers/wes-service-client:<tag>
 
    (see `wes-service-client/tags`_ for valid values for ``<tag>``)
 

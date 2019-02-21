@@ -46,7 +46,7 @@ bioconductor-curatedcrcdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-curatedcrcdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-curatedcrcdata:<tag>
 
    (see `bioconductor-curatedcrcdata/tags`_ for valid values for ``<tag>``)
 

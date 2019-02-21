@@ -50,7 +50,7 @@ perl-bio-tools-phylo-paml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-tools-phylo-paml:<tag>
+      docker pull quay.io/biocontainers/perl-bio-tools-phylo-paml:<tag>
 
    (see `perl-bio-tools-phylo-paml/tags`_ for valid values for ``<tag>``)
 

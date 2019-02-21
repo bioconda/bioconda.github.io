@@ -49,7 +49,7 @@ bioconductor-quartpac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-quartpac:<tag>
+      docker pull quay.io/biocontainers/bioconductor-quartpac:<tag>
 
    (see `bioconductor-quartpac/tags`_ for valid values for ``<tag>``)
 

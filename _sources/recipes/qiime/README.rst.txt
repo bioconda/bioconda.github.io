@@ -89,7 +89,7 @@ qiime
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/qiime:<tag>
+      docker pull quay.io/biocontainers/qiime:<tag>
 
    (see `qiime/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ bioconductor-compartmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-compartmap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-compartmap:<tag>
 
    (see `bioconductor-compartmap/tags`_ for valid values for ``<tag>``)
 

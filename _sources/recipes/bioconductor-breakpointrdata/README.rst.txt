@@ -42,7 +42,7 @@ bioconductor-breakpointrdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-breakpointrdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-breakpointrdata:<tag>
 
    (see `bioconductor-breakpointrdata/tags`_ for valid values for ``<tag>``)
 

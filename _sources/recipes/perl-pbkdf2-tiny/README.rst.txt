@@ -40,7 +40,7 @@ perl-pbkdf2-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pbkdf2-tiny:<tag>
+      docker pull quay.io/biocontainers/perl-pbkdf2-tiny:<tag>
 
    (see `perl-pbkdf2-tiny/tags`_ for valid values for ``<tag>``)
 

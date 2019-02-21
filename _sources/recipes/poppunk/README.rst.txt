@@ -68,7 +68,7 @@ poppunk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/poppunk:<tag>
+      docker pull quay.io/biocontainers/poppunk:<tag>
 
    (see `poppunk/tags`_ for valid values for ``<tag>``)
 

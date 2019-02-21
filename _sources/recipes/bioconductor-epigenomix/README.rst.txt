@@ -61,7 +61,7 @@ bioconductor-epigenomix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-epigenomix:<tag>
+      docker pull quay.io/biocontainers/bioconductor-epigenomix:<tag>
 
    (see `bioconductor-epigenomix/tags`_ for valid values for ``<tag>``)
 

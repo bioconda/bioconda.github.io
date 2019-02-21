@@ -44,7 +44,7 @@ bioconductor-pfam.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pfam.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pfam.db:<tag>
 
    (see `bioconductor-pfam.db/tags`_ for valid values for ``<tag>``)
 

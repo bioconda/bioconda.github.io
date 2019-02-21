@@ -50,7 +50,7 @@ r-rubic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rubic:<tag>
+      docker pull quay.io/biocontainers/r-rubic:<tag>
 
    (see `r-rubic/tags`_ for valid values for ``<tag>``)
 

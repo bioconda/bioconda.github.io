@@ -50,7 +50,7 @@ r-classdiscovery
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-classdiscovery:<tag>
+      docker pull quay.io/biocontainers/r-classdiscovery:<tag>
 
    (see `r-classdiscovery/tags`_ for valid values for ``<tag>``)
 

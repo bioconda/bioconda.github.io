@@ -51,7 +51,7 @@ bioconductor-sigfuge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sigfuge:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sigfuge:<tag>
 
    (see `bioconductor-sigfuge/tags`_ for valid values for ``<tag>``)
 

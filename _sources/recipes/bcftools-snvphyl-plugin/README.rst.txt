@@ -50,7 +50,7 @@ bcftools-snvphyl-plugin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcftools-snvphyl-plugin:<tag>
+      docker pull quay.io/biocontainers/bcftools-snvphyl-plugin:<tag>
 
    (see `bcftools-snvphyl-plugin/tags`_ for valid values for ``<tag>``)
 

@@ -76,7 +76,7 @@ bioconductor-descan2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-descan2:<tag>
+      docker pull quay.io/biocontainers/bioconductor-descan2:<tag>
 
    (see `bioconductor-descan2/tags`_ for valid values for ``<tag>``)
 

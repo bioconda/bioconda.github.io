@@ -47,7 +47,7 @@ ea-utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ea-utils:<tag>
+      docker pull quay.io/biocontainers/ea-utils:<tag>
 
    (see `ea-utils/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ bioconductor-italics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-italics:<tag>
+      docker pull quay.io/biocontainers/bioconductor-italics:<tag>
 
    (see `bioconductor-italics/tags`_ for valid values for ``<tag>``)
 

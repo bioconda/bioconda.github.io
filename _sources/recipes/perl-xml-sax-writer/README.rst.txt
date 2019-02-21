@@ -46,7 +46,7 @@ perl-xml-sax-writer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-sax-writer:<tag>
+      docker pull quay.io/biocontainers/perl-xml-sax-writer:<tag>
 
    (see `perl-xml-sax-writer/tags`_ for valid values for ``<tag>``)
 

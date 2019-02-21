@@ -40,7 +40,7 @@ geneimpacts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/geneimpacts:<tag>
+      docker pull quay.io/biocontainers/geneimpacts:<tag>
 
    (see `geneimpacts/tags`_ for valid values for ``<tag>``)
 

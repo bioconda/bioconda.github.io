@@ -40,7 +40,7 @@ bwakit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bwakit:<tag>
+      docker pull quay.io/biocontainers/bwakit:<tag>
 
    (see `bwakit/tags`_ for valid values for ``<tag>``)
 

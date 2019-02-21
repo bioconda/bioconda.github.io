@@ -40,7 +40,7 @@ readseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/readseq:<tag>
+      docker pull quay.io/biocontainers/readseq:<tag>
 
    (see `readseq/tags`_ for valid values for ``<tag>``)
 

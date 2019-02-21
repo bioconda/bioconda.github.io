@@ -55,7 +55,7 @@ samtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/samtools:<tag>
+      docker pull quay.io/biocontainers/samtools:<tag>
 
    (see `samtools/tags`_ for valid values for ``<tag>``)
 

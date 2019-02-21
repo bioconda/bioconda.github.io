@@ -47,7 +47,7 @@ bracken
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bracken:<tag>
+      docker pull quay.io/biocontainers/bracken:<tag>
 
    (see `bracken/tags`_ for valid values for ``<tag>``)
 

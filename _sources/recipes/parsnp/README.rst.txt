@@ -40,7 +40,7 @@ parsnp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/parsnp:<tag>
+      docker pull quay.io/biocontainers/parsnp:<tag>
 
    (see `parsnp/tags`_ for valid values for ``<tag>``)
 

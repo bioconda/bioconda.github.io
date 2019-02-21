@@ -38,7 +38,7 @@ canvas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/canvas:<tag>
+      docker pull quay.io/biocontainers/canvas:<tag>
 
    (see `canvas/tags`_ for valid values for ``<tag>``)
 

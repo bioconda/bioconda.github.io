@@ -46,7 +46,7 @@ bioconductor-illuminahumanv2beadid.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-illuminahumanv2beadid.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-illuminahumanv2beadid.db:<tag>
 
    (see `bioconductor-illuminahumanv2beadid.db/tags`_ for valid values for ``<tag>``)
 

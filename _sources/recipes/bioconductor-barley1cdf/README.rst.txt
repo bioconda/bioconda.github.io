@@ -44,7 +44,7 @@ bioconductor-barley1cdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-barley1cdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-barley1cdf:<tag>
 
    (see `bioconductor-barley1cdf/tags`_ for valid values for ``<tag>``)
 

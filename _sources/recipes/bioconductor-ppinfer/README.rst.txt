@@ -54,7 +54,7 @@ bioconductor-ppinfer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ppinfer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ppinfer:<tag>
 
    (see `bioconductor-ppinfer/tags`_ for valid values for ``<tag>``)
 

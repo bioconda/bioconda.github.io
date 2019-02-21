@@ -40,7 +40,7 @@ r-rcircos
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rcircos:<tag>
+      docker pull quay.io/biocontainers/r-rcircos:<tag>
 
    (see `r-rcircos/tags`_ for valid values for ``<tag>``)
 

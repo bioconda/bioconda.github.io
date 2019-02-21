@@ -53,7 +53,7 @@ bioconductor-acgh
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-acgh:<tag>
+      docker pull quay.io/biocontainers/bioconductor-acgh:<tag>
 
    (see `bioconductor-acgh/tags`_ for valid values for ``<tag>``)
 

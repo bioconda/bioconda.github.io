@@ -50,7 +50,7 @@ r-bedr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-bedr:<tag>
+      docker pull quay.io/biocontainers/r-bedr:<tag>
 
    (see `r-bedr/tags`_ for valid values for ``<tag>``)
 

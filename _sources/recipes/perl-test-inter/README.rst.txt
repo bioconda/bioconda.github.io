@@ -40,7 +40,7 @@ perl-test-inter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-inter:<tag>
+      docker pull quay.io/biocontainers/perl-test-inter:<tag>
 
    (see `perl-test-inter/tags`_ for valid values for ``<tag>``)
 

@@ -74,7 +74,7 @@ bioconductor-charm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-charm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-charm:<tag>
 
    (see `bioconductor-charm/tags`_ for valid values for ``<tag>``)
 

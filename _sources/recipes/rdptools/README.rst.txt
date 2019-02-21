@@ -42,7 +42,7 @@ rdptools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rdptools:<tag>
+      docker pull quay.io/biocontainers/rdptools:<tag>
 
    (see `rdptools/tags`_ for valid values for ``<tag>``)
 

@@ -77,7 +77,7 @@ bioconductor-compass
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-compass:<tag>
+      docker pull quay.io/biocontainers/bioconductor-compass:<tag>
 
    (see `bioconductor-compass/tags`_ for valid values for ``<tag>``)
 

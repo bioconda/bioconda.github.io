@@ -53,7 +53,7 @@ bioconductor-bitseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bitseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bitseq:<tag>
 
    (see `bioconductor-bitseq/tags`_ for valid values for ``<tag>``)
 

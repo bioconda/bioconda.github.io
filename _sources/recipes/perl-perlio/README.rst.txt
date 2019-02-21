@@ -40,7 +40,7 @@ perl-perlio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-perlio:<tag>
+      docker pull quay.io/biocontainers/perl-perlio:<tag>
 
    (see `perl-perlio/tags`_ for valid values for ``<tag>``)
 

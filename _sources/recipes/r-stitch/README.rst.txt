@@ -70,7 +70,7 @@ r-stitch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-stitch:<tag>
+      docker pull quay.io/biocontainers/r-stitch:<tag>
 
    (see `r-stitch/tags`_ for valid values for ``<tag>``)
 

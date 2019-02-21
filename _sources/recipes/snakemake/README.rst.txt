@@ -69,7 +69,7 @@ snakemake
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snakemake:<tag>
+      docker pull quay.io/biocontainers/snakemake:<tag>
 
    (see `snakemake/tags`_ for valid values for ``<tag>``)
 

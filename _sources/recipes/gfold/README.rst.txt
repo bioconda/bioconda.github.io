@@ -44,7 +44,7 @@ gfold
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gfold:<tag>
+      docker pull quay.io/biocontainers/gfold:<tag>
 
    (see `gfold/tags`_ for valid values for ``<tag>``)
 

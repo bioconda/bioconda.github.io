@@ -44,7 +44,7 @@ perl-gdtextutil
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-gdtextutil:<tag>
+      docker pull quay.io/biocontainers/perl-gdtextutil:<tag>
 
    (see `perl-gdtextutil/tags`_ for valid values for ``<tag>``)
 

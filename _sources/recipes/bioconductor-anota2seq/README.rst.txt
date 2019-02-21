@@ -54,7 +54,7 @@ bioconductor-anota2seq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-anota2seq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-anota2seq:<tag>
 
    (see `bioconductor-anota2seq/tags`_ for valid values for ``<tag>``)
 

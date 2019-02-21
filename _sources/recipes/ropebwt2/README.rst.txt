@@ -42,7 +42,7 @@ ropebwt2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ropebwt2:<tag>
+      docker pull quay.io/biocontainers/ropebwt2:<tag>
 
    (see `ropebwt2/tags`_ for valid values for ``<tag>``)
 

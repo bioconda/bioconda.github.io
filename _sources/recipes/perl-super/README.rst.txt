@@ -44,7 +44,7 @@ perl-super
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-super:<tag>
+      docker pull quay.io/biocontainers/perl-super:<tag>
 
    (see `perl-super/tags`_ for valid values for ``<tag>``)
 

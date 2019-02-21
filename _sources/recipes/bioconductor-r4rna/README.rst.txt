@@ -43,7 +43,7 @@ bioconductor-r4rna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-r4rna:<tag>
+      docker pull quay.io/biocontainers/bioconductor-r4rna:<tag>
 
    (see `bioconductor-r4rna/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-devel-globaldestruction
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-devel-globaldestruction:<tag>
+      docker pull quay.io/biocontainers/perl-devel-globaldestruction:<tag>
 
    (see `perl-devel-globaldestruction/tags`_ for valid values for ``<tag>``)
 

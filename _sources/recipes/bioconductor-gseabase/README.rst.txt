@@ -53,7 +53,7 @@ bioconductor-gseabase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gseabase:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gseabase:<tag>
 
    (see `bioconductor-gseabase/tags`_ for valid values for ``<tag>``)
 

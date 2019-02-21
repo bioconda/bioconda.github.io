@@ -69,7 +69,7 @@ bioconductor-variancepartition
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-variancepartition:<tag>
+      docker pull quay.io/biocontainers/bioconductor-variancepartition:<tag>
 
    (see `bioconductor-variancepartition/tags`_ for valid values for ``<tag>``)
 

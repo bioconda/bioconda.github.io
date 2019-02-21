@@ -70,7 +70,7 @@ secimtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/secimtools:<tag>
+      docker pull quay.io/biocontainers/secimtools:<tag>
 
    (see `secimtools/tags`_ for valid values for ``<tag>``)
 

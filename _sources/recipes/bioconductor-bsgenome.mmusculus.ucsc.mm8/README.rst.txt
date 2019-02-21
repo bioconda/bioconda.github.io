@@ -44,7 +44,7 @@ bioconductor-bsgenome.mmusculus.ucsc.mm8
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.mmusculus.ucsc.mm8:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.mmusculus.ucsc.mm8:<tag>
 
    (see `bioconductor-bsgenome.mmusculus.ucsc.mm8/tags`_ for valid values for ``<tag>``)
 

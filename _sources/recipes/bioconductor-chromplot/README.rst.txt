@@ -45,7 +45,7 @@ bioconductor-chromplot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chromplot:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chromplot:<tag>
 
    (see `bioconductor-chromplot/tags`_ for valid values for ``<tag>``)
 

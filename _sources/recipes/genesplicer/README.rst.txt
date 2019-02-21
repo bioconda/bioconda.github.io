@@ -41,7 +41,7 @@ genesplicer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genesplicer:<tag>
+      docker pull quay.io/biocontainers/genesplicer:<tag>
 
    (see `genesplicer/tags`_ for valid values for ``<tag>``)
 

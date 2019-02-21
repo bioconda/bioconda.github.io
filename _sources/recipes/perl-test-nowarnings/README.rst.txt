@@ -40,7 +40,7 @@ perl-test-nowarnings
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-nowarnings:<tag>
+      docker pull quay.io/biocontainers/perl-test-nowarnings:<tag>
 
    (see `perl-test-nowarnings/tags`_ for valid values for ``<tag>``)
 

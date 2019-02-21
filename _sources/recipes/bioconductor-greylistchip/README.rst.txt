@@ -56,7 +56,7 @@ bioconductor-greylistchip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-greylistchip:<tag>
+      docker pull quay.io/biocontainers/bioconductor-greylistchip:<tag>
 
    (see `bioconductor-greylistchip/tags`_ for valid values for ``<tag>``)
 

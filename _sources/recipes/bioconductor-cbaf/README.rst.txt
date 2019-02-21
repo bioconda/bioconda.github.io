@@ -22,7 +22,21 @@ bioconductor-cbaf
 
    |downloads_bioconductor-cbaf| |docker_bioconductor-cbaf|
 
-   :versions: 
+   :versions: 1.4.0-0
+   
+   :depends bioconductor-biocfilecache: >=1.6.0,<1.7.0
+   
+   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cgdsr: 
+   
+   :depends r-gplots: 
+   
+   :depends r-rcolorbrewer: 
+   
+   :depends r-xlsx: 
    
    :requirements:
 
@@ -38,7 +52,7 @@ bioconductor-cbaf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cbaf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cbaf:<tag>
 
    (see `bioconductor-cbaf/tags`_ for valid values for ``<tag>``)
 

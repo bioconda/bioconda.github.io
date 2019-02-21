@@ -48,7 +48,7 @@ perl-xml-dom
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-dom:<tag>
+      docker pull quay.io/biocontainers/perl-xml-dom:<tag>
 
    (see `perl-xml-dom/tags`_ for valid values for ``<tag>``)
 

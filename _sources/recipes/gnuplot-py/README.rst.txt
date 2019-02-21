@@ -44,7 +44,7 @@ gnuplot-py
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gnuplot-py:<tag>
+      docker pull quay.io/biocontainers/gnuplot-py:<tag>
 
    (see `gnuplot-py/tags`_ for valid values for ``<tag>``)
 

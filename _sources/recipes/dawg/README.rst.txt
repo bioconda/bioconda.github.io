@@ -44,7 +44,7 @@ dawg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dawg:<tag>
+      docker pull quay.io/biocontainers/dawg:<tag>
 
    (see `dawg/tags`_ for valid values for ``<tag>``)
 

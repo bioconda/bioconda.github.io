@@ -58,7 +58,7 @@ bioconductor-srgnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-srgnet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-srgnet:<tag>
 
    (see `bioconductor-srgnet/tags`_ for valid values for ``<tag>``)
 

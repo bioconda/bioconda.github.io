@@ -55,7 +55,7 @@ bioconductor-flowdensity
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowdensity:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowdensity:<tag>
 
    (see `bioconductor-flowdensity/tags`_ for valid values for ``<tag>``)
 

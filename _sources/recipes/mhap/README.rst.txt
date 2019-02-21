@@ -42,7 +42,7 @@ mhap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mhap:<tag>
+      docker pull quay.io/biocontainers/mhap:<tag>
 
    (see `mhap/tags`_ for valid values for ``<tag>``)
 

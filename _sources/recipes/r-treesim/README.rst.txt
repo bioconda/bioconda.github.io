@@ -44,7 +44,7 @@ r-treesim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-treesim:<tag>
+      docker pull quay.io/biocontainers/r-treesim:<tag>
 
    (see `r-treesim/tags`_ for valid values for ``<tag>``)
 

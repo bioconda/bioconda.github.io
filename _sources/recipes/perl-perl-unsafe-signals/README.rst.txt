@@ -42,7 +42,7 @@ perl-perl-unsafe-signals
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-perl-unsafe-signals:<tag>
+      docker pull quay.io/biocontainers/perl-perl-unsafe-signals:<tag>
 
    (see `perl-perl-unsafe-signals/tags`_ for valid values for ``<tag>``)
 

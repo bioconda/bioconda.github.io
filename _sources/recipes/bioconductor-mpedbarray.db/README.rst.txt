@@ -46,7 +46,7 @@ bioconductor-mpedbarray.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mpedbarray.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mpedbarray.db:<tag>
 
    (see `bioconductor-mpedbarray.db/tags`_ for valid values for ``<tag>``)
 

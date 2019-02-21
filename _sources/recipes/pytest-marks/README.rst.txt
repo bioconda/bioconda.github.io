@@ -44,7 +44,7 @@ pytest-marks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pytest-marks:<tag>
+      docker pull quay.io/biocontainers/pytest-marks:<tag>
 
    (see `pytest-marks/tags`_ for valid values for ``<tag>``)
 

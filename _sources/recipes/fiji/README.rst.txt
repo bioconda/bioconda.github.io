@@ -40,7 +40,7 @@ fiji
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fiji:<tag>
+      docker pull quay.io/biocontainers/fiji:<tag>
 
    (see `fiji/tags`_ for valid values for ``<tag>``)
 

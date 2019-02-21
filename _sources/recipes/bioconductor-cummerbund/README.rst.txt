@@ -61,7 +61,7 @@ bioconductor-cummerbund
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cummerbund:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cummerbund:<tag>
 
    (see `bioconductor-cummerbund/tags`_ for valid values for ``<tag>``)
 

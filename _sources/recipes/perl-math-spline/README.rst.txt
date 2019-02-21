@@ -42,7 +42,7 @@ perl-math-spline
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-spline:<tag>
+      docker pull quay.io/biocontainers/perl-math-spline:<tag>
 
    (see `perl-math-spline/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ megagta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/megagta:<tag>
+      docker pull quay.io/biocontainers/megagta:<tag>
 
    (see `megagta/tags`_ for valid values for ``<tag>``)
 

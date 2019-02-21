@@ -46,7 +46,7 @@ r-wasabi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-wasabi:<tag>
+      docker pull quay.io/biocontainers/r-wasabi:<tag>
 
    (see `r-wasabi/tags`_ for valid values for ``<tag>``)
 

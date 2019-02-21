@@ -57,7 +57,7 @@ bioconductor-roar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-roar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-roar:<tag>
 
    (see `bioconductor-roar/tags`_ for valid values for ``<tag>``)
 

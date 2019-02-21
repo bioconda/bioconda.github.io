@@ -71,7 +71,7 @@ bioconductor-msnid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msnid:<tag>
+      docker pull quay.io/biocontainers/bioconductor-msnid:<tag>
 
    (see `bioconductor-msnid/tags`_ for valid values for ``<tag>``)
 

@@ -49,7 +49,7 @@ bioconductor-chipsim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chipsim:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chipsim:<tag>
 
    (see `bioconductor-chipsim/tags`_ for valid values for ``<tag>``)
 

@@ -68,7 +68,7 @@ r-phytools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-phytools:<tag>
+      docker pull quay.io/biocontainers/r-phytools:<tag>
 
    (see `r-phytools/tags`_ for valid values for ``<tag>``)
 

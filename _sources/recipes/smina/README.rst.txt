@@ -38,7 +38,7 @@ smina
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/smina:<tag>
+      docker pull quay.io/biocontainers/smina:<tag>
 
    (see `smina/tags`_ for valid values for ``<tag>``)
 

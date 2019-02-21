@@ -44,7 +44,7 @@ perl-file-next
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-next:<tag>
+      docker pull quay.io/biocontainers/perl-file-next:<tag>
 
    (see `perl-file-next/tags`_ for valid values for ``<tag>``)
 

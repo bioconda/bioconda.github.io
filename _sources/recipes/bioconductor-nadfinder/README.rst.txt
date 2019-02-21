@@ -78,7 +78,7 @@ bioconductor-nadfinder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-nadfinder:<tag>
+      docker pull quay.io/biocontainers/bioconductor-nadfinder:<tag>
 
    (see `bioconductor-nadfinder/tags`_ for valid values for ``<tag>``)
 

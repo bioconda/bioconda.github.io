@@ -50,7 +50,7 @@ genomicconsensus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genomicconsensus:<tag>
+      docker pull quay.io/biocontainers/genomicconsensus:<tag>
 
    (see `genomicconsensus/tags`_ for valid values for ``<tag>``)
 

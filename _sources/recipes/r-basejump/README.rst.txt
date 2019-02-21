@@ -124,7 +124,7 @@ r-basejump
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-basejump:<tag>
+      docker pull quay.io/biocontainers/r-basejump:<tag>
 
    (see `r-basejump/tags`_ for valid values for ``<tag>``)
 

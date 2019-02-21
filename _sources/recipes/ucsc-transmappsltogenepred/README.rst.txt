@@ -50,7 +50,7 @@ ucsc-transmappsltogenepred
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-transmappsltogenepred:<tag>
+      docker pull quay.io/biocontainers/ucsc-transmappsltogenepred:<tag>
 
    (see `ucsc-transmappsltogenepred/tags`_ for valid values for ``<tag>``)
 

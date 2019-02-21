@@ -40,7 +40,7 @@ ncbi-vdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ncbi-vdb:<tag>
+      docker pull quay.io/biocontainers/ncbi-vdb:<tag>
 
    (see `ncbi-vdb/tags`_ for valid values for ``<tag>``)
 

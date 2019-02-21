@@ -52,7 +52,7 @@ agfusion
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/agfusion:<tag>
+      docker pull quay.io/biocontainers/agfusion:<tag>
 
    (see `agfusion/tags`_ for valid values for ``<tag>``)
 

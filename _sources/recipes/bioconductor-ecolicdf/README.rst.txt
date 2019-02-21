@@ -44,7 +44,7 @@ bioconductor-ecolicdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ecolicdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ecolicdf:<tag>
 
    (see `bioconductor-ecolicdf/tags`_ for valid values for ``<tag>``)
 

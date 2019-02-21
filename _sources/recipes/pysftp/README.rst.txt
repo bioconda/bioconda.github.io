@@ -42,7 +42,7 @@ pysftp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pysftp:<tag>
+      docker pull quay.io/biocontainers/pysftp:<tag>
 
    (see `pysftp/tags`_ for valid values for ``<tag>``)
 

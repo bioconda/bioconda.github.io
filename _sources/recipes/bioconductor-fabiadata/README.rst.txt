@@ -44,7 +44,7 @@ bioconductor-fabiadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fabiadata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fabiadata:<tag>
 
    (see `bioconductor-fabiadata/tags`_ for valid values for ``<tag>``)
 

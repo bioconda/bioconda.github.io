@@ -42,7 +42,7 @@ perl-specio-exporter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-specio-exporter:<tag>
+      docker pull quay.io/biocontainers/perl-specio-exporter:<tag>
 
    (see `perl-specio-exporter/tags`_ for valid values for ``<tag>``)
 

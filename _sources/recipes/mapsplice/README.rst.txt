@@ -45,7 +45,7 @@ mapsplice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mapsplice:<tag>
+      docker pull quay.io/biocontainers/mapsplice:<tag>
 
    (see `mapsplice/tags`_ for valid values for ``<tag>``)
 

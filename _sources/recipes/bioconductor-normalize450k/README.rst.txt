@@ -46,7 +46,7 @@ bioconductor-normalize450k
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-normalize450k:<tag>
+      docker pull quay.io/biocontainers/bioconductor-normalize450k:<tag>
 
    (see `bioconductor-normalize450k/tags`_ for valid values for ``<tag>``)
 

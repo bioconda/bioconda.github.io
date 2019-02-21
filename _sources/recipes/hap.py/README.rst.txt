@@ -64,7 +64,7 @@ hap.py
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hap.py:<tag>
+      docker pull quay.io/biocontainers/hap.py:<tag>
 
    (see `hap.py/tags`_ for valid values for ``<tag>``)
 

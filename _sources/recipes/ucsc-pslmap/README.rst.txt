@@ -50,7 +50,7 @@ ucsc-pslmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslmap:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslmap:<tag>
 
    (see `ucsc-pslmap/tags`_ for valid values for ``<tag>``)
 

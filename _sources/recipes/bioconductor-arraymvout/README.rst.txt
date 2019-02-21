@@ -54,7 +54,7 @@ bioconductor-arraymvout
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-arraymvout:<tag>
+      docker pull quay.io/biocontainers/bioconductor-arraymvout:<tag>
 
    (see `bioconductor-arraymvout/tags`_ for valid values for ``<tag>``)
 

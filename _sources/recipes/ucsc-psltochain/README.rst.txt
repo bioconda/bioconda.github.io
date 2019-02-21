@@ -50,7 +50,7 @@ ucsc-psltochain
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-psltochain:<tag>
+      docker pull quay.io/biocontainers/ucsc-psltochain:<tag>
 
    (see `ucsc-psltochain/tags`_ for valid values for ``<tag>``)
 

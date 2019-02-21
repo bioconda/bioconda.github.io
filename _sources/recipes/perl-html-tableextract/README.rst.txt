@@ -44,7 +44,7 @@ perl-html-tableextract
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-tableextract:<tag>
+      docker pull quay.io/biocontainers/perl-html-tableextract:<tag>
 
    (see `perl-html-tableextract/tags`_ for valid values for ``<tag>``)
 

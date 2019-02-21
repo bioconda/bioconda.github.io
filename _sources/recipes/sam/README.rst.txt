@@ -38,7 +38,7 @@ sam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sam:<tag>
+      docker pull quay.io/biocontainers/sam:<tag>
 
    (see `sam/tags`_ for valid values for ``<tag>``)
 

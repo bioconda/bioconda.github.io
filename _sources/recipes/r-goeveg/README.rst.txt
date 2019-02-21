@@ -48,7 +48,7 @@ r-goeveg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-goeveg:<tag>
+      docker pull quay.io/biocontainers/r-goeveg:<tag>
 
    (see `r-goeveg/tags`_ for valid values for ``<tag>``)
 

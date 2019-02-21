@@ -43,7 +43,7 @@ bioconductor-randpack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-randpack:<tag>
+      docker pull quay.io/biocontainers/bioconductor-randpack:<tag>
 
    (see `bioconductor-randpack/tags`_ for valid values for ``<tag>``)
 

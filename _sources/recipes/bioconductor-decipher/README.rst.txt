@@ -55,7 +55,7 @@ bioconductor-decipher
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-decipher:<tag>
+      docker pull quay.io/biocontainers/bioconductor-decipher:<tag>
 
    (see `bioconductor-decipher/tags`_ for valid values for ``<tag>``)
 

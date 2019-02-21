@@ -100,7 +100,7 @@ bioconductor-pathwaysplice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pathwaysplice:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pathwaysplice:<tag>
 
    (see `bioconductor-pathwaysplice/tags`_ for valid values for ``<tag>``)
 

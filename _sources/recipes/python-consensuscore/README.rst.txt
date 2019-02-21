@@ -44,7 +44,7 @@ python-consensuscore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-consensuscore:<tag>
+      docker pull quay.io/biocontainers/python-consensuscore:<tag>
 
    (see `python-consensuscore/tags`_ for valid values for ``<tag>``)
 

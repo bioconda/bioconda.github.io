@@ -45,7 +45,7 @@ bioconductor-papi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-papi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-papi:<tag>
 
    (see `bioconductor-papi/tags`_ for valid values for ``<tag>``)
 

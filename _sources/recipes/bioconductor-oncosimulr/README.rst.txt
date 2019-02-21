@@ -71,7 +71,7 @@ bioconductor-oncosimulr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-oncosimulr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-oncosimulr:<tag>
 
    (see `bioconductor-oncosimulr/tags`_ for valid values for ``<tag>``)
 

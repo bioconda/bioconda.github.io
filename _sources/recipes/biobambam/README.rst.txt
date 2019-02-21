@@ -38,7 +38,7 @@ biobambam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biobambam:<tag>
+      docker pull quay.io/biocontainers/biobambam:<tag>
 
    (see `biobambam/tags`_ for valid values for ``<tag>``)
 

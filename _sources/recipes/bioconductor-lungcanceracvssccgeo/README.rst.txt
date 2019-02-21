@@ -42,7 +42,7 @@ bioconductor-lungcanceracvssccgeo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lungcanceracvssccgeo:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lungcanceracvssccgeo:<tag>
 
    (see `bioconductor-lungcanceracvssccgeo/tags`_ for valid values for ``<tag>``)
 

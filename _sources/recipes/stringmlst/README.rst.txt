@@ -50,7 +50,7 @@ stringmlst
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stringmlst:<tag>
+      docker pull quay.io/biocontainers/stringmlst:<tag>
 
    (see `stringmlst/tags`_ for valid values for ``<tag>``)
 

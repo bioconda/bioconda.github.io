@@ -45,7 +45,7 @@ bioconductor-outlierd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-outlierd:<tag>
+      docker pull quay.io/biocontainers/bioconductor-outlierd:<tag>
 
    (see `bioconductor-outlierd/tags`_ for valid values for ``<tag>``)
 

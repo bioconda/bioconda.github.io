@@ -62,7 +62,7 @@ bioconductor-seqvartools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seqvartools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seqvartools:<tag>
 
    (see `bioconductor-seqvartools/tags`_ for valid values for ``<tag>``)
 

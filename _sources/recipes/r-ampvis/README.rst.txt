@@ -74,7 +74,7 @@ r-ampvis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ampvis:<tag>
+      docker pull quay.io/biocontainers/r-ampvis:<tag>
 
    (see `r-ampvis/tags`_ for valid values for ``<tag>``)
 

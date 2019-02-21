@@ -50,7 +50,7 @@ perl-net-http
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-net-http:<tag>
+      docker pull quay.io/biocontainers/perl-net-http:<tag>
 
    (see `perl-net-http/tags`_ for valid values for ``<tag>``)
 

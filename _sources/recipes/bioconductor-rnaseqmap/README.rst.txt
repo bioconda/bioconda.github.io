@@ -59,7 +59,7 @@ bioconductor-rnaseqmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnaseqmap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rnaseqmap:<tag>
 
    (see `bioconductor-rnaseqmap/tags`_ for valid values for ``<tag>``)
 

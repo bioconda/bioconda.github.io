@@ -46,7 +46,7 @@ clustergrammer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clustergrammer:<tag>
+      docker pull quay.io/biocontainers/clustergrammer:<tag>
 
    (see `clustergrammer/tags`_ for valid values for ``<tag>``)
 

@@ -53,7 +53,7 @@ bioconductor-sva
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sva:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sva:<tag>
 
    (see `bioconductor-sva/tags`_ for valid values for ``<tag>``)
 

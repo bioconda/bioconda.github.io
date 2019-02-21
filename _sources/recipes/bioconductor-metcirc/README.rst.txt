@@ -49,7 +49,7 @@ bioconductor-metcirc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metcirc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metcirc:<tag>
 
    (see `bioconductor-metcirc/tags`_ for valid values for ``<tag>``)
 

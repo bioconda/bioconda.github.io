@@ -42,7 +42,7 @@ ig-checkfcs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ig-checkfcs:<tag>
+      docker pull quay.io/biocontainers/ig-checkfcs:<tag>
 
    (see `ig-checkfcs/tags`_ for valid values for ``<tag>``)
 

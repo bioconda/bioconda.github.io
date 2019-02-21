@@ -50,7 +50,7 @@ ucsc-pslfilter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslfilter:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslfilter:<tag>
 
    (see `ucsc-pslfilter/tags`_ for valid values for ``<tag>``)
 

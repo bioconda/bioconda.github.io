@@ -46,7 +46,7 @@ bioconductor-pedbarrayv10.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pedbarrayv10.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pedbarrayv10.db:<tag>
 
    (see `bioconductor-pedbarrayv10.db/tags`_ for valid values for ``<tag>``)
 

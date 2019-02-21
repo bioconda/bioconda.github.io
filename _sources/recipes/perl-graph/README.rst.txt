@@ -40,7 +40,7 @@ perl-graph
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-graph:<tag>
+      docker pull quay.io/biocontainers/perl-graph:<tag>
 
    (see `perl-graph/tags`_ for valid values for ``<tag>``)
 

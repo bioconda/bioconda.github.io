@@ -46,7 +46,7 @@ r-solarius
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-solarius:<tag>
+      docker pull quay.io/biocontainers/r-solarius:<tag>
 
    (see `r-solarius/tags`_ for valid values for ``<tag>``)
 

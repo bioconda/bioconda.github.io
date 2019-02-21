@@ -38,7 +38,7 @@ bioconductor-easyqpcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-easyqpcr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-easyqpcr:<tag>
 
    (see `bioconductor-easyqpcr/tags`_ for valid values for ``<tag>``)
 

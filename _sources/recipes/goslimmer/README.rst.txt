@@ -42,7 +42,7 @@ goslimmer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/goslimmer:<tag>
+      docker pull quay.io/biocontainers/goslimmer:<tag>
 
    (see `goslimmer/tags`_ for valid values for ``<tag>``)
 

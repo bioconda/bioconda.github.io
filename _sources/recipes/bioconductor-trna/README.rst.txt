@@ -60,7 +60,7 @@ bioconductor-trna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-trna:<tag>
+      docker pull quay.io/biocontainers/bioconductor-trna:<tag>
 
    (see `bioconductor-trna/tags`_ for valid values for ``<tag>``)
 

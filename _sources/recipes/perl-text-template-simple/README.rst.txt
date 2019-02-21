@@ -42,7 +42,7 @@ perl-text-template-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-template-simple:<tag>
+      docker pull quay.io/biocontainers/perl-text-template-simple:<tag>
 
    (see `perl-text-template-simple/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ bwapy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bwapy:<tag>
+      docker pull quay.io/biocontainers/bwapy:<tag>
 
    (see `bwapy/tags`_ for valid values for ``<tag>``)
 

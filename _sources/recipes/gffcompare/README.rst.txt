@@ -41,7 +41,7 @@ gffcompare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gffcompare:<tag>
+      docker pull quay.io/biocontainers/gffcompare:<tag>
 
    (see `gffcompare/tags`_ for valid values for ``<tag>``)
 

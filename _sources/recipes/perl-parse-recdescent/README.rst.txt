@@ -40,7 +40,7 @@ perl-parse-recdescent
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-parse-recdescent:<tag>
+      docker pull quay.io/biocontainers/perl-parse-recdescent:<tag>
 
    (see `perl-parse-recdescent/tags`_ for valid values for ``<tag>``)
 

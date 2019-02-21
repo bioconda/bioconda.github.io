@@ -46,7 +46,7 @@ nmrpro
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nmrpro:<tag>
+      docker pull quay.io/biocontainers/nmrpro:<tag>
 
    (see `nmrpro/tags`_ for valid values for ``<tag>``)
 

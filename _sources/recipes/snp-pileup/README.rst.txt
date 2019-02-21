@@ -50,7 +50,7 @@ snp-pileup
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snp-pileup:<tag>
+      docker pull quay.io/biocontainers/snp-pileup:<tag>
 
    (see `snp-pileup/tags`_ for valid values for ``<tag>``)
 

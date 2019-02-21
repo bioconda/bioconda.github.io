@@ -59,7 +59,7 @@ seqcluster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seqcluster:<tag>
+      docker pull quay.io/biocontainers/seqcluster:<tag>
 
    (see `seqcluster/tags`_ for valid values for ``<tag>``)
 

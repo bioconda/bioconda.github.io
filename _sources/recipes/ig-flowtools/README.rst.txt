@@ -70,7 +70,7 @@ ig-flowtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ig-flowtools:<tag>
+      docker pull quay.io/biocontainers/ig-flowtools:<tag>
 
    (see `ig-flowtools/tags`_ for valid values for ``<tag>``)
 

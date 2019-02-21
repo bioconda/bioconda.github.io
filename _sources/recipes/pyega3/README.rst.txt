@@ -44,7 +44,7 @@ pyega3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyega3:<tag>
+      docker pull quay.io/biocontainers/pyega3:<tag>
 
    (see `pyega3/tags`_ for valid values for ``<tag>``)
 

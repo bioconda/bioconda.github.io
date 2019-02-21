@@ -44,7 +44,7 @@ mimeo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mimeo:<tag>
+      docker pull quay.io/biocontainers/mimeo:<tag>
 
    (see `mimeo/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-tweedeseqcountdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tweedeseqcountdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tweedeseqcountdata:<tag>
 
    (see `bioconductor-tweedeseqcountdata/tags`_ for valid values for ``<tag>``)
 

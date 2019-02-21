@@ -44,7 +44,7 @@ snns
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snns:<tag>
+      docker pull quay.io/biocontainers/snns:<tag>
 
    (see `snns/tags`_ for valid values for ``<tag>``)
 

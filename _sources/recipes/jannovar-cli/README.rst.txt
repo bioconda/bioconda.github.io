@@ -40,7 +40,7 @@ jannovar-cli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/jannovar-cli:<tag>
+      docker pull quay.io/biocontainers/jannovar-cli:<tag>
 
    (see `jannovar-cli/tags`_ for valid values for ``<tag>``)
 

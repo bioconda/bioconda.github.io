@@ -59,7 +59,7 @@ bioconductor-deepsnv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-deepsnv:<tag>
+      docker pull quay.io/biocontainers/bioconductor-deepsnv:<tag>
 
    (see `bioconductor-deepsnv/tags`_ for valid values for ``<tag>``)
 

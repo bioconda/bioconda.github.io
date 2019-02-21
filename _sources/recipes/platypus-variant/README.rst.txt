@@ -42,7 +42,7 @@ platypus-variant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/platypus-variant:<tag>
+      docker pull quay.io/biocontainers/platypus-variant:<tag>
 
    (see `platypus-variant/tags`_ for valid values for ``<tag>``)
 

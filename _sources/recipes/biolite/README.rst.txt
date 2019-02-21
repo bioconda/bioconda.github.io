@@ -66,7 +66,7 @@ biolite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biolite:<tag>
+      docker pull quay.io/biocontainers/biolite:<tag>
 
    (see `biolite/tags`_ for valid values for ``<tag>``)
 

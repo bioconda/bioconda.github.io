@@ -44,7 +44,7 @@ bioconductor-geneclassifiers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneclassifiers:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geneclassifiers:<tag>
 
    (see `bioconductor-geneclassifiers/tags`_ for valid values for ``<tag>``)
 

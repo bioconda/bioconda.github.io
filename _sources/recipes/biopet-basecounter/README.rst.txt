@@ -47,7 +47,7 @@ biopet-basecounter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-basecounter:<tag>
+      docker pull quay.io/biocontainers/biopet-basecounter:<tag>
 
    (see `biopet-basecounter/tags`_ for valid values for ``<tag>``)
 

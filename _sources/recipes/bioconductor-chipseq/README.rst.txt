@@ -55,7 +55,7 @@ bioconductor-chipseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chipseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chipseq:<tag>
 
    (see `bioconductor-chipseq/tags`_ for valid values for ``<tag>``)
 

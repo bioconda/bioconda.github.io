@@ -38,7 +38,7 @@ bioconductor-moonlightr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-moonlightr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-moonlightr:<tag>
 
    (see `bioconductor-moonlightr/tags`_ for valid values for ``<tag>``)
 

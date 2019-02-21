@@ -50,7 +50,7 @@ bioconductor-basicstarrseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-basicstarrseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-basicstarrseq:<tag>
 
    (see `bioconductor-basicstarrseq/tags`_ for valid values for ``<tag>``)
 

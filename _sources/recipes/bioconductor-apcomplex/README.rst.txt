@@ -49,7 +49,7 @@ bioconductor-apcomplex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-apcomplex:<tag>
+      docker pull quay.io/biocontainers/bioconductor-apcomplex:<tag>
 
    (see `bioconductor-apcomplex/tags`_ for valid values for ``<tag>``)
 

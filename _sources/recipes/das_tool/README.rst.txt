@@ -70,7 +70,7 @@ das_tool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/das_tool:<tag>
+      docker pull quay.io/biocontainers/das_tool:<tag>
 
    (see `das_tool/tags`_ for valid values for ``<tag>``)
 

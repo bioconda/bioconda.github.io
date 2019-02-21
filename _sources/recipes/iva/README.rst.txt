@@ -54,7 +54,7 @@ iva
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/iva:<tag>
+      docker pull quay.io/biocontainers/iva:<tag>
 
    (see `iva/tags`_ for valid values for ``<tag>``)
 

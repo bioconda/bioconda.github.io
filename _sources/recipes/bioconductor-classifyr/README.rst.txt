@@ -51,7 +51,7 @@ bioconductor-classifyr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-classifyr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-classifyr:<tag>
 
    (see `bioconductor-classifyr/tags`_ for valid values for ``<tag>``)
 

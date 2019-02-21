@@ -55,7 +55,7 @@ bioconductor-chromheatmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chromheatmap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chromheatmap:<tag>
 
    (see `bioconductor-chromheatmap/tags`_ for valid values for ``<tag>``)
 

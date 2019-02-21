@@ -54,7 +54,7 @@ bioconductor-grasp2db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-grasp2db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-grasp2db:<tag>
 
    (see `bioconductor-grasp2db/tags`_ for valid values for ``<tag>``)
 

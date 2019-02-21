@@ -60,7 +60,7 @@ pyquant-ms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyquant-ms:<tag>
+      docker pull quay.io/biocontainers/pyquant-ms:<tag>
 
    (see `pyquant-ms/tags`_ for valid values for ``<tag>``)
 

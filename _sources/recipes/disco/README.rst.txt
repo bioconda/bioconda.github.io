@@ -50,7 +50,7 @@ disco
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/disco:<tag>
+      docker pull quay.io/biocontainers/disco:<tag>
 
    (see `disco/tags`_ for valid values for ``<tag>``)
 

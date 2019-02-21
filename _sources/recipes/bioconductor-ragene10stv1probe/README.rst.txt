@@ -44,7 +44,7 @@ bioconductor-ragene10stv1probe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ragene10stv1probe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ragene10stv1probe:<tag>
 
    (see `bioconductor-ragene10stv1probe/tags`_ for valid values for ``<tag>``)
 

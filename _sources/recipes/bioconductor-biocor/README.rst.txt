@@ -46,7 +46,7 @@ bioconductor-biocor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocor:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biocor:<tag>
 
    (see `bioconductor-biocor/tags`_ for valid values for ``<tag>``)
 

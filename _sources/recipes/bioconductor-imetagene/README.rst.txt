@@ -54,7 +54,7 @@ bioconductor-imetagene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-imetagene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-imetagene:<tag>
 
    (see `bioconductor-imetagene/tags`_ for valid values for ``<tag>``)
 

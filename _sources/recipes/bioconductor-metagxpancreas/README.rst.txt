@@ -52,7 +52,7 @@ bioconductor-metagxpancreas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metagxpancreas:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metagxpancreas:<tag>
 
    (see `bioconductor-metagxpancreas/tags`_ for valid values for ``<tag>``)
 

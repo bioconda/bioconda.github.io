@@ -64,7 +64,7 @@ bioconductor-svm2crm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-svm2crm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-svm2crm:<tag>
 
    (see `bioconductor-svm2crm/tags`_ for valid values for ``<tag>``)
 

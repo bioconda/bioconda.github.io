@@ -44,7 +44,7 @@ microbecensus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/microbecensus:<tag>
+      docker pull quay.io/biocontainers/microbecensus:<tag>
 
    (see `microbecensus/tags`_ for valid values for ``<tag>``)
 

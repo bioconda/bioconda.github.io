@@ -68,7 +68,7 @@ bioconductor-splatter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-splatter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-splatter:<tag>
 
    (see `bioconductor-splatter/tags`_ for valid values for ``<tag>``)
 

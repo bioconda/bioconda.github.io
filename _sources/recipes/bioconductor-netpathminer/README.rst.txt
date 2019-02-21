@@ -47,7 +47,7 @@ bioconductor-netpathminer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-netpathminer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-netpathminer:<tag>
 
    (see `bioconductor-netpathminer/tags`_ for valid values for ``<tag>``)
 

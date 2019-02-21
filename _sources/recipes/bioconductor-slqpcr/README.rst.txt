@@ -41,7 +41,7 @@ bioconductor-slqpcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-slqpcr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-slqpcr:<tag>
 
    (see `bioconductor-slqpcr/tags`_ for valid values for ``<tag>``)
 

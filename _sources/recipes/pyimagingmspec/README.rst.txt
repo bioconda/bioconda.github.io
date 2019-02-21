@@ -40,7 +40,7 @@ pyimagingmspec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyimagingmspec:<tag>
+      docker pull quay.io/biocontainers/pyimagingmspec:<tag>
 
    (see `pyimagingmspec/tags`_ for valid values for ``<tag>``)
 

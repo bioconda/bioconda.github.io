@@ -42,7 +42,7 @@ bioconductor-kodata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-kodata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-kodata:<tag>
 
    (see `bioconductor-kodata/tags`_ for valid values for ``<tag>``)
 

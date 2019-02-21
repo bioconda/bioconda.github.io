@@ -49,7 +49,7 @@ bioconductor-beat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-beat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-beat:<tag>
 
    (see `bioconductor-beat/tags`_ for valid values for ``<tag>``)
 

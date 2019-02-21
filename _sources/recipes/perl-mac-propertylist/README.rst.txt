@@ -50,7 +50,7 @@ perl-mac-propertylist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mac-propertylist:<tag>
+      docker pull quay.io/biocontainers/perl-mac-propertylist:<tag>
 
    (see `perl-mac-propertylist/tags`_ for valid values for ``<tag>``)
 

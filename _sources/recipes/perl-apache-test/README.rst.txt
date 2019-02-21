@@ -42,7 +42,7 @@ perl-apache-test
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-apache-test:<tag>
+      docker pull quay.io/biocontainers/perl-apache-test:<tag>
 
    (see `perl-apache-test/tags`_ for valid values for ``<tag>``)
 

@@ -60,7 +60,7 @@ abricate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/abricate:<tag>
+      docker pull quay.io/biocontainers/abricate:<tag>
 
    (see `abricate/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-graphics-colorobject
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-graphics-colorobject:<tag>
+      docker pull quay.io/biocontainers/perl-graphics-colorobject:<tag>
 
    (see `perl-graphics-colorobject/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ gsort
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gsort:<tag>
+      docker pull quay.io/biocontainers/gsort:<tag>
 
    (see `gsort/tags`_ for valid values for ``<tag>``)
 

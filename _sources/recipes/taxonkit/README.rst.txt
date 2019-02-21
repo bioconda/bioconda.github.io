@@ -38,7 +38,7 @@ taxonkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/taxonkit:<tag>
+      docker pull quay.io/biocontainers/taxonkit:<tag>
 
    (see `taxonkit/tags`_ for valid values for ``<tag>``)
 

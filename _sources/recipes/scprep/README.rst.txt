@@ -54,7 +54,7 @@ scprep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scprep:<tag>
+      docker pull quay.io/biocontainers/scprep:<tag>
 
    (see `scprep/tags`_ for valid values for ``<tag>``)
 

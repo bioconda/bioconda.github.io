@@ -86,7 +86,7 @@ kinsimriboswitch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kinsimriboswitch:<tag>
+      docker pull quay.io/biocontainers/kinsimriboswitch:<tag>
 
    (see `kinsimriboswitch/tags`_ for valid values for ``<tag>``)
 

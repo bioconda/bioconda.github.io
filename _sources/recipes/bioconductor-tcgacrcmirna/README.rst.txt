@@ -44,7 +44,7 @@ bioconductor-tcgacrcmirna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tcgacrcmirna:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tcgacrcmirna:<tag>
 
    (see `bioconductor-tcgacrcmirna/tags`_ for valid values for ``<tag>``)
 

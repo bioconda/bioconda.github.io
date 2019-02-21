@@ -73,7 +73,7 @@ bioconductor-smite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-smite:<tag>
+      docker pull quay.io/biocontainers/bioconductor-smite:<tag>
 
    (see `bioconductor-smite/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ bioconductor-hdtd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hdtd:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hdtd:<tag>
 
    (see `bioconductor-hdtd/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ apoc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/apoc:<tag>
+      docker pull quay.io/biocontainers/apoc:<tag>
 
    (see `apoc/tags`_ for valid values for ``<tag>``)
 

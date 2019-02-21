@@ -41,7 +41,7 @@ vargeno
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vargeno:<tag>
+      docker pull quay.io/biocontainers/vargeno:<tag>
 
    (see `vargeno/tags`_ for valid values for ``<tag>``)
 

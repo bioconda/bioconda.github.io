@@ -45,7 +45,7 @@ rnablueprint
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnablueprint:<tag>
+      docker pull quay.io/biocontainers/rnablueprint:<tag>
 
    (see `rnablueprint/tags`_ for valid values for ``<tag>``)
 

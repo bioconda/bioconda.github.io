@@ -45,7 +45,7 @@ transdecoder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/transdecoder:<tag>
+      docker pull quay.io/biocontainers/transdecoder:<tag>
 
    (see `transdecoder/tags`_ for valid values for ``<tag>``)
 

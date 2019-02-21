@@ -42,7 +42,7 @@ nspdk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nspdk:<tag>
+      docker pull quay.io/biocontainers/nspdk:<tag>
 
    (see `nspdk/tags`_ for valid values for ``<tag>``)
 

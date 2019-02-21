@@ -41,7 +41,7 @@ cramtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cramtools:<tag>
+      docker pull quay.io/biocontainers/cramtools:<tag>
 
    (see `cramtools/tags`_ for valid values for ``<tag>``)
 

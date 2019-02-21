@@ -42,7 +42,7 @@ methyldackel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/methyldackel:<tag>
+      docker pull quay.io/biocontainers/methyldackel:<tag>
 
    (see `methyldackel/tags`_ for valid values for ``<tag>``)
 

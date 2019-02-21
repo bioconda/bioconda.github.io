@@ -70,7 +70,7 @@ bioconductor-enrichplot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-enrichplot:<tag>
+      docker pull quay.io/biocontainers/bioconductor-enrichplot:<tag>
 
    (see `bioconductor-enrichplot/tags`_ for valid values for ``<tag>``)
 

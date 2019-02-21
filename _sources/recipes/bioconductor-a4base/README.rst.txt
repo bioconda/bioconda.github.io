@@ -63,7 +63,7 @@ bioconductor-a4base
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-a4base:<tag>
+      docker pull quay.io/biocontainers/bioconductor-a4base:<tag>
 
    (see `bioconductor-a4base/tags`_ for valid values for ``<tag>``)
 

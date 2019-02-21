@@ -38,7 +38,7 @@ bioconductor-epinem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-epinem:<tag>
+      docker pull quay.io/biocontainers/bioconductor-epinem:<tag>
 
    (see `bioconductor-epinem/tags`_ for valid values for ``<tag>``)
 

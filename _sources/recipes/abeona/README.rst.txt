@@ -54,7 +54,7 @@ abeona
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/abeona:<tag>
+      docker pull quay.io/biocontainers/abeona:<tag>
 
    (see `abeona/tags`_ for valid values for ``<tag>``)
 

@@ -71,7 +71,7 @@ connectome-workbench
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/connectome-workbench:<tag>
+      docker pull quay.io/biocontainers/connectome-workbench:<tag>
 
    (see `connectome-workbench/tags`_ for valid values for ``<tag>``)
 

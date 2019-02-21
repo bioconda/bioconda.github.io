@@ -52,7 +52,7 @@ hivtrace
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hivtrace:<tag>
+      docker pull quay.io/biocontainers/hivtrace:<tag>
 
    (see `hivtrace/tags`_ for valid values for ``<tag>``)
 

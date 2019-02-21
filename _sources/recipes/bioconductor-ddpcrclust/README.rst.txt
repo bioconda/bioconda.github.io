@@ -58,7 +58,7 @@ bioconductor-ddpcrclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ddpcrclust:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ddpcrclust:<tag>
 
    (see `bioconductor-ddpcrclust/tags`_ for valid values for ``<tag>``)
 

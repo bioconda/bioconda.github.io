@@ -41,7 +41,7 @@ bioconductor-clonotyper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clonotyper:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clonotyper:<tag>
 
    (see `bioconductor-clonotyper/tags`_ for valid values for ``<tag>``)
 

@@ -55,7 +55,7 @@ bioconductor-synlet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-synlet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-synlet:<tag>
 
    (see `bioconductor-synlet/tags`_ for valid values for ``<tag>``)
 

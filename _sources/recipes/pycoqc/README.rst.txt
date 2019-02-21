@@ -50,7 +50,7 @@ pycoqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pycoqc:<tag>
+      docker pull quay.io/biocontainers/pycoqc:<tag>
 
    (see `pycoqc/tags`_ for valid values for ``<tag>``)
 

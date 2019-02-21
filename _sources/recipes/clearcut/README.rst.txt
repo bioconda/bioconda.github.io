@@ -38,7 +38,7 @@ clearcut
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clearcut:<tag>
+      docker pull quay.io/biocontainers/clearcut:<tag>
 
    (see `clearcut/tags`_ for valid values for ``<tag>``)
 

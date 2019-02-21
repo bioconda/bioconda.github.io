@@ -44,7 +44,7 @@ pbbam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbbam:<tag>
+      docker pull quay.io/biocontainers/pbbam:<tag>
 
    (see `pbbam/tags`_ for valid values for ``<tag>``)
 

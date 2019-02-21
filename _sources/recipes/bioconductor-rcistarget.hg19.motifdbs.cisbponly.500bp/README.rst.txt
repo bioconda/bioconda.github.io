@@ -44,7 +44,7 @@ bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp:<tag>
 
    (see `bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp/tags`_ for valid values for ``<tag>``)
 

@@ -68,7 +68,7 @@ bioconductor-tcgautils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tcgautils:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tcgautils:<tag>
 
    (see `bioconductor-tcgautils/tags`_ for valid values for ``<tag>``)
 

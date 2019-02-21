@@ -40,7 +40,7 @@ perl-text-wrap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-wrap:<tag>
+      docker pull quay.io/biocontainers/perl-text-wrap:<tag>
 
    (see `perl-text-wrap/tags`_ for valid values for ``<tag>``)
 

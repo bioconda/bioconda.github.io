@@ -40,7 +40,7 @@ perl-extutils-constant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-extutils-constant:<tag>
+      docker pull quay.io/biocontainers/perl-extutils-constant:<tag>
 
    (see `perl-extutils-constant/tags`_ for valid values for ``<tag>``)
 

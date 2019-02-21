@@ -40,7 +40,7 @@ perl-math-utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-utils:<tag>
+      docker pull quay.io/biocontainers/perl-math-utils:<tag>
 
    (see `perl-math-utils/tags`_ for valid values for ``<tag>``)
 

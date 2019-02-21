@@ -42,7 +42,7 @@ pythomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pythomics:<tag>
+      docker pull quay.io/biocontainers/pythomics:<tag>
 
    (see `pythomics/tags`_ for valid values for ``<tag>``)
 

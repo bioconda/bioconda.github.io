@@ -53,7 +53,7 @@ tardis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tardis:<tag>
+      docker pull quay.io/biocontainers/tardis:<tag>
 
    (see `tardis/tags`_ for valid values for ``<tag>``)
 

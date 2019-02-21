@@ -52,7 +52,7 @@ perl-graphics-colornames
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-graphics-colornames:<tag>
+      docker pull quay.io/biocontainers/perl-graphics-colornames:<tag>
 
    (see `perl-graphics-colornames/tags`_ for valid values for ``<tag>``)
 

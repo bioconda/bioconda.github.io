@@ -44,7 +44,7 @@ bioconductor-flowsorted.cordblood.450k
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowsorted.cordblood.450k:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowsorted.cordblood.450k:<tag>
 
    (see `bioconductor-flowsorted.cordblood.450k/tags`_ for valid values for ``<tag>``)
 

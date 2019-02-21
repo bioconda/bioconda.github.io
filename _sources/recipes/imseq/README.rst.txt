@@ -43,7 +43,7 @@ imseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/imseq:<tag>
+      docker pull quay.io/biocontainers/imseq:<tag>
 
    (see `imseq/tags`_ for valid values for ``<tag>``)
 

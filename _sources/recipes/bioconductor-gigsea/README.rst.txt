@@ -46,7 +46,7 @@ bioconductor-gigsea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gigsea:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gigsea:<tag>
 
    (see `bioconductor-gigsea/tags`_ for valid values for ``<tag>``)
 

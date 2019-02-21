@@ -44,7 +44,7 @@ vcf-annotator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcf-annotator:<tag>
+      docker pull quay.io/biocontainers/vcf-annotator:<tag>
 
    (see `vcf-annotator/tags`_ for valid values for ``<tag>``)
 

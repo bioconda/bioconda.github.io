@@ -48,7 +48,7 @@ musicc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/musicc:<tag>
+      docker pull quay.io/biocontainers/musicc:<tag>
 
    (see `musicc/tags`_ for valid values for ``<tag>``)
 

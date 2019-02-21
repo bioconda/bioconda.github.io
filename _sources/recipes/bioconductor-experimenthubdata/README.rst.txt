@@ -62,7 +62,7 @@ bioconductor-experimenthubdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-experimenthubdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-experimenthubdata:<tag>
 
    (see `bioconductor-experimenthubdata/tags`_ for valid values for ``<tag>``)
 

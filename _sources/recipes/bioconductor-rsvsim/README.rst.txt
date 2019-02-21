@@ -49,7 +49,7 @@ bioconductor-rsvsim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rsvsim:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rsvsim:<tag>
 
    (see `bioconductor-rsvsim/tags`_ for valid values for ``<tag>``)
 

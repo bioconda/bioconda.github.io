@@ -44,7 +44,7 @@ pywdl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pywdl:<tag>
+      docker pull quay.io/biocontainers/pywdl:<tag>
 
    (see `pywdl/tags`_ for valid values for ``<tag>``)
 

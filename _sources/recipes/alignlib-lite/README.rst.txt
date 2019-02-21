@@ -42,7 +42,7 @@ alignlib-lite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/alignlib-lite:<tag>
+      docker pull quay.io/biocontainers/alignlib-lite:<tag>
 
    (see `alignlib-lite/tags`_ for valid values for ``<tag>``)
 

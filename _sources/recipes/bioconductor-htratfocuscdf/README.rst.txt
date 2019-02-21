@@ -44,7 +44,7 @@ bioconductor-htratfocuscdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-htratfocuscdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-htratfocuscdf:<tag>
 
    (see `bioconductor-htratfocuscdf/tags`_ for valid values for ``<tag>``)
 

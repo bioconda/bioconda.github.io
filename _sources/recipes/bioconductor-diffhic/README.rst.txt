@@ -82,7 +82,7 @@ bioconductor-diffhic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-diffhic:<tag>
+      docker pull quay.io/biocontainers/bioconductor-diffhic:<tag>
 
    (see `bioconductor-diffhic/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ rpf-count-cds
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rpf-count-cds:<tag>
+      docker pull quay.io/biocontainers/rpf-count-cds:<tag>
 
    (see `rpf-count-cds/tags`_ for valid values for ``<tag>``)
 

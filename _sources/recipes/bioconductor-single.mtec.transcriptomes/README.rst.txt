@@ -42,7 +42,7 @@ bioconductor-single.mtec.transcriptomes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-single.mtec.transcriptomes:<tag>
+      docker pull quay.io/biocontainers/bioconductor-single.mtec.transcriptomes:<tag>
 
    (see `bioconductor-single.mtec.transcriptomes/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ pysvmlight
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pysvmlight:<tag>
+      docker pull quay.io/biocontainers/pysvmlight:<tag>
 
    (see `pysvmlight/tags`_ for valid values for ``<tag>``)
 

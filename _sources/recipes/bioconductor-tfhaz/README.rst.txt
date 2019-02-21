@@ -46,7 +46,7 @@ bioconductor-tfhaz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tfhaz:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tfhaz:<tag>
 
    (see `bioconductor-tfhaz/tags`_ for valid values for ``<tag>``)
 

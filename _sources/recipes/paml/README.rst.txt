@@ -41,7 +41,7 @@ paml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/paml:<tag>
+      docker pull quay.io/biocontainers/paml:<tag>
 
    (see `paml/tags`_ for valid values for ``<tag>``)
 

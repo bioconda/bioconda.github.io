@@ -55,7 +55,7 @@ bioconductor-gcrma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gcrma:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gcrma:<tag>
 
    (see `bioconductor-gcrma/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-cocitestats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cocitestats:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cocitestats:<tag>
 
    (see `bioconductor-cocitestats/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ umitools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/umitools:<tag>
+      docker pull quay.io/biocontainers/umitools:<tag>
 
    (see `umitools/tags`_ for valid values for ``<tag>``)
 

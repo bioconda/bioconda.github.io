@@ -50,7 +50,7 @@ bioconductor-sigcheck
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sigcheck:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sigcheck:<tag>
 
    (see `bioconductor-sigcheck/tags`_ for valid values for ``<tag>``)
 

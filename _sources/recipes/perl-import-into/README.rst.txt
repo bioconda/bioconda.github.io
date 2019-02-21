@@ -42,7 +42,7 @@ perl-import-into
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-import-into:<tag>
+      docker pull quay.io/biocontainers/perl-import-into:<tag>
 
    (see `perl-import-into/tags`_ for valid values for ``<tag>``)
 

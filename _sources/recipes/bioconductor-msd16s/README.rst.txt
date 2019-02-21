@@ -46,7 +46,7 @@ bioconductor-msd16s
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msd16s:<tag>
+      docker pull quay.io/biocontainers/bioconductor-msd16s:<tag>
 
    (see `bioconductor-msd16s/tags`_ for valid values for ``<tag>``)
 

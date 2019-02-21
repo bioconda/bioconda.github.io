@@ -40,7 +40,7 @@ perl-parse-yapp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-parse-yapp:<tag>
+      docker pull quay.io/biocontainers/perl-parse-yapp:<tag>
 
    (see `perl-parse-yapp/tags`_ for valid values for ``<tag>``)
 

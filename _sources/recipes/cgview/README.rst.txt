@@ -49,7 +49,7 @@ cgview
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cgview:<tag>
+      docker pull quay.io/biocontainers/cgview:<tag>
 
    (see `cgview/tags`_ for valid values for ``<tag>``)
 

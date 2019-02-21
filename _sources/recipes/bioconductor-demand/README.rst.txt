@@ -43,7 +43,7 @@ bioconductor-demand
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-demand:<tag>
+      docker pull quay.io/biocontainers/bioconductor-demand:<tag>
 
    (see `bioconductor-demand/tags`_ for valid values for ``<tag>``)
 

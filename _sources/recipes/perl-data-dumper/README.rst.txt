@@ -40,7 +40,7 @@ perl-data-dumper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-data-dumper:<tag>
+      docker pull quay.io/biocontainers/perl-data-dumper:<tag>
 
    (see `perl-data-dumper/tags`_ for valid values for ``<tag>``)
 

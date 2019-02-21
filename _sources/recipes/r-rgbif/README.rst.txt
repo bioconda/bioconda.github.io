@@ -64,7 +64,7 @@ r-rgbif
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rgbif:<tag>
+      docker pull quay.io/biocontainers/r-rgbif:<tag>
 
    (see `r-rgbif/tags`_ for valid values for ``<tag>``)
 

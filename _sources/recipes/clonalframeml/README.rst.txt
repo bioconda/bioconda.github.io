@@ -40,7 +40,7 @@ clonalframeml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clonalframeml:<tag>
+      docker pull quay.io/biocontainers/clonalframeml:<tag>
 
    (see `clonalframeml/tags`_ for valid values for ``<tag>``)
 

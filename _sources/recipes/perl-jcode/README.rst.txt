@@ -40,7 +40,7 @@ perl-jcode
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-jcode:<tag>
+      docker pull quay.io/biocontainers/perl-jcode:<tag>
 
    (see `perl-jcode/tags`_ for valid values for ``<tag>``)
 

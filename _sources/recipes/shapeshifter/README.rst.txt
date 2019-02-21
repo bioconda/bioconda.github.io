@@ -46,7 +46,7 @@ shapeshifter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shapeshifter:<tag>
+      docker pull quay.io/biocontainers/shapeshifter:<tag>
 
    (see `shapeshifter/tags`_ for valid values for ``<tag>``)
 

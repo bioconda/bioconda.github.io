@@ -64,7 +64,7 @@ ensembl-vep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ensembl-vep:<tag>
+      docker pull quay.io/biocontainers/ensembl-vep:<tag>
 
    (see `ensembl-vep/tags`_ for valid values for ``<tag>``)
 

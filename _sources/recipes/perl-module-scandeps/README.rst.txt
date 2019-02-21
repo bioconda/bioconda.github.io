@@ -50,7 +50,7 @@ perl-module-scandeps
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-scandeps:<tag>
+      docker pull quay.io/biocontainers/perl-module-scandeps:<tag>
 
    (see `perl-module-scandeps/tags`_ for valid values for ``<tag>``)
 

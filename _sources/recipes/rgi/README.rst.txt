@@ -71,7 +71,7 @@ rgi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rgi:<tag>
+      docker pull quay.io/biocontainers/rgi:<tag>
 
    (see `rgi/tags`_ for valid values for ``<tag>``)
 

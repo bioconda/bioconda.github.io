@@ -42,7 +42,7 @@ pythonpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pythonpy:<tag>
+      docker pull quay.io/biocontainers/pythonpy:<tag>
 
    (see `pythonpy/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-file-tee
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-tee:<tag>
+      docker pull quay.io/biocontainers/perl-file-tee:<tag>
 
    (see `perl-file-tee/tags`_ for valid values for ``<tag>``)
 

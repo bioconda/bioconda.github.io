@@ -42,7 +42,7 @@ optplus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/optplus:<tag>
+      docker pull quay.io/biocontainers/optplus:<tag>
 
    (see `optplus/tags`_ for valid values for ``<tag>``)
 

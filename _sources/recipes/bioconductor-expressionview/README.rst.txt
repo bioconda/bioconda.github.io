@@ -58,7 +58,7 @@ bioconductor-expressionview
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-expressionview:<tag>
+      docker pull quay.io/biocontainers/bioconductor-expressionview:<tag>
 
    (see `bioconductor-expressionview/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-orderedlist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-orderedlist:<tag>
+      docker pull quay.io/biocontainers/bioconductor-orderedlist:<tag>
 
    (see `bioconductor-orderedlist/tags`_ for valid values for ``<tag>``)
 

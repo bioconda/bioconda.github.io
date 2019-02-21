@@ -46,7 +46,7 @@ bioconductor-gse62944
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gse62944:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gse62944:<tag>
 
    (see `bioconductor-gse62944/tags`_ for valid values for ``<tag>``)
 

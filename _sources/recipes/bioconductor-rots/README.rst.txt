@@ -49,7 +49,7 @@ bioconductor-rots
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rots:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rots:<tag>
 
    (see `bioconductor-rots/tags`_ for valid values for ``<tag>``)
 

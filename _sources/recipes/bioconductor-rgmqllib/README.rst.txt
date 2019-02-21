@@ -42,7 +42,7 @@ bioconductor-rgmqllib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgmqllib:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rgmqllib:<tag>
 
    (see `bioconductor-rgmqllib/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ ucsc-mafsplit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-mafsplit:<tag>
+      docker pull quay.io/biocontainers/ucsc-mafsplit:<tag>
 
    (see `ucsc-mafsplit/tags`_ for valid values for ``<tag>``)
 

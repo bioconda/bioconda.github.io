@@ -56,7 +56,7 @@ bioconductor-dmelsgi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dmelsgi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dmelsgi:<tag>
 
    (see `bioconductor-dmelsgi/tags`_ for valid values for ``<tag>``)
 

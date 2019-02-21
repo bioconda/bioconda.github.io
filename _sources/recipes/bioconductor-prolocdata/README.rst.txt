@@ -46,7 +46,7 @@ bioconductor-prolocdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-prolocdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-prolocdata:<tag>
 
    (see `bioconductor-prolocdata/tags`_ for valid values for ``<tag>``)
 

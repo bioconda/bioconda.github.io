@@ -66,7 +66,7 @@ r-htssip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-htssip:<tag>
+      docker pull quay.io/biocontainers/r-htssip:<tag>
 
    (see `r-htssip/tags`_ for valid values for ``<tag>``)
 

@@ -81,7 +81,7 @@ bioconductor-chipseeker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chipseeker:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chipseeker:<tag>
 
    (see `bioconductor-chipseeker/tags`_ for valid values for ``<tag>``)
 

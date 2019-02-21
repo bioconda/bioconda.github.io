@@ -41,7 +41,7 @@ discovar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/discovar:<tag>
+      docker pull quay.io/biocontainers/discovar:<tag>
 
    (see `discovar/tags`_ for valid values for ``<tag>``)
 

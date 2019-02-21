@@ -42,7 +42,7 @@ bioconductor-mugaexampledata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mugaexampledata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mugaexampledata:<tag>
 
    (see `bioconductor-mugaexampledata/tags`_ for valid values for ``<tag>``)
 

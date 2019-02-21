@@ -44,7 +44,7 @@ kaptive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kaptive:<tag>
+      docker pull quay.io/biocontainers/kaptive:<tag>
 
    (see `kaptive/tags`_ for valid values for ``<tag>``)
 

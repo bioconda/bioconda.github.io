@@ -42,7 +42,7 @@ py2bit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/py2bit:<tag>
+      docker pull quay.io/biocontainers/py2bit:<tag>
 
    (see `py2bit/tags`_ for valid values for ``<tag>``)
 

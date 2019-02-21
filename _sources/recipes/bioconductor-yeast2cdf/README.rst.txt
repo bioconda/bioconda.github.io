@@ -44,7 +44,7 @@ bioconductor-yeast2cdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-yeast2cdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-yeast2cdf:<tag>
 
    (see `bioconductor-yeast2cdf/tags`_ for valid values for ``<tag>``)
 

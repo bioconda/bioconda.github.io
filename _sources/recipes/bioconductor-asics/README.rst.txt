@@ -58,7 +58,7 @@ bioconductor-asics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-asics:<tag>
+      docker pull quay.io/biocontainers/bioconductor-asics:<tag>
 
    (see `bioconductor-asics/tags`_ for valid values for ``<tag>``)
 

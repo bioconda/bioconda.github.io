@@ -23,7 +23,7 @@ bcftools
 
    |downloads_bcftools| |docker_bcftools|
 
-   :versions: 1.9-1, 1.9-0, 1.8-3, 1.8-2, 1.8-1, 1.8-0, 1.7-0, 1.6-1, 1.6-0, 1.5-3, 1.5-2, 1.5-1, 1.5-0, 1.4.1-0, 1.4-0, 1.3.1-4, 1.3.1-3, 1.3.1-2, 1.3.1-1, 1.3.1-0, 1.3-3, 1.3-2, 1.3-1, 1.3-0, 1.2-4, 1.2-3, 1.2-2, 1.2-1, 1.2-0
+   :versions: 1.9-2, 1.9-1, 1.9-0, 1.8-3, 1.8-2, 1.8-1, 1.8-0, 1.7-0, 1.6-1, 1.6-0, 1.5-3, 1.5-2, 1.5-1, 1.5-0, 1.4.1-0, 1.4-0, 1.3.1-4, 1.3.1-3, 1.3.1-2, 1.3.1-1, 1.3.1-0, 1.3-3, 1.3-2, 1.3-1, 1.3-0, 1.2-4, 1.2-3, 1.2-2, 1.2-1, 1.2-0
    
    :depends bzip2: >=1.0.6,<2.0a0
    
@@ -51,7 +51,7 @@ bcftools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcftools:<tag>
+      docker pull quay.io/biocontainers/bcftools:<tag>
 
    (see `bcftools/tags`_ for valid values for ``<tag>``)
 

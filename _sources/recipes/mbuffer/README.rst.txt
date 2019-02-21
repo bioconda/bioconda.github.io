@@ -38,7 +38,7 @@ mbuffer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mbuffer:<tag>
+      docker pull quay.io/biocontainers/mbuffer:<tag>
 
    (see `mbuffer/tags`_ for valid values for ``<tag>``)
 

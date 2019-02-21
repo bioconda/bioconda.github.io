@@ -42,7 +42,7 @@ r-km.ci
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-km.ci:<tag>
+      docker pull quay.io/biocontainers/r-km.ci:<tag>
 
    (see `r-km.ci/tags`_ for valid values for ``<tag>``)
 

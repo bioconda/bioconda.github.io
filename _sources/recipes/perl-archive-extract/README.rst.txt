@@ -50,7 +50,7 @@ perl-archive-extract
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-archive-extract:<tag>
+      docker pull quay.io/biocontainers/perl-archive-extract:<tag>
 
    (see `perl-archive-extract/tags`_ for valid values for ``<tag>``)
 

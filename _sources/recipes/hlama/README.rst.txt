@@ -44,7 +44,7 @@ hlama
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hlama:<tag>
+      docker pull quay.io/biocontainers/hlama:<tag>
 
    (see `hlama/tags`_ for valid values for ``<tag>``)
 

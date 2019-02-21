@@ -56,7 +56,7 @@ bioconductor-omicplotr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omicplotr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-omicplotr:<tag>
 
    (see `bioconductor-omicplotr/tags`_ for valid values for ``<tag>``)
 

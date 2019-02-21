@@ -43,7 +43,7 @@ gdc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gdc:<tag>
+      docker pull quay.io/biocontainers/gdc:<tag>
 
    (see `gdc/tags`_ for valid values for ``<tag>``)
 

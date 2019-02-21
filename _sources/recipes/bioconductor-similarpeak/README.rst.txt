@@ -43,7 +43,7 @@ bioconductor-similarpeak
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-similarpeak:<tag>
+      docker pull quay.io/biocontainers/bioconductor-similarpeak:<tag>
 
    (see `bioconductor-similarpeak/tags`_ for valid values for ``<tag>``)
 

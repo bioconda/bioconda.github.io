@@ -44,7 +44,7 @@ bioconductor-nupop
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-nupop:<tag>
+      docker pull quay.io/biocontainers/bioconductor-nupop:<tag>
 
    (see `bioconductor-nupop/tags`_ for valid values for ``<tag>``)
 

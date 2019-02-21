@@ -46,7 +46,7 @@ cistrome_beta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cistrome_beta:<tag>
+      docker pull quay.io/biocontainers/cistrome_beta:<tag>
 
    (see `cistrome_beta/tags`_ for valid values for ``<tag>``)
 

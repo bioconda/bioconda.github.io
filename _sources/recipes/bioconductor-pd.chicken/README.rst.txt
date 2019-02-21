@@ -56,7 +56,7 @@ bioconductor-pd.chicken
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.chicken:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.chicken:<tag>
 
    (see `bioconductor-pd.chicken/tags`_ for valid values for ``<tag>``)
 

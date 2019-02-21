@@ -46,7 +46,7 @@ bioconductor-rwikipathways
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rwikipathways:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rwikipathways:<tag>
 
    (see `bioconductor-rwikipathways/tags`_ for valid values for ``<tag>``)
 

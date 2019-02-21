@@ -46,7 +46,7 @@ r-maldiquant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-maldiquant:<tag>
+      docker pull quay.io/biocontainers/r-maldiquant:<tag>
 
    (see `r-maldiquant/tags`_ for valid values for ``<tag>``)
 

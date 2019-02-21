@@ -50,7 +50,7 @@ perl-template-toolkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-template-toolkit:<tag>
+      docker pull quay.io/biocontainers/perl-template-toolkit:<tag>
 
    (see `perl-template-toolkit/tags`_ for valid values for ``<tag>``)
 

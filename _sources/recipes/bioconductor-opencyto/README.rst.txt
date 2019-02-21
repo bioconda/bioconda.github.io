@@ -86,7 +86,7 @@ bioconductor-opencyto
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-opencyto:<tag>
+      docker pull quay.io/biocontainers/bioconductor-opencyto:<tag>
 
    (see `bioconductor-opencyto/tags`_ for valid values for ``<tag>``)
 

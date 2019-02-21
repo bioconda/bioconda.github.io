@@ -51,7 +51,7 @@ bioconductor-gsri
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gsri:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gsri:<tag>
 
    (see `bioconductor-gsri/tags`_ for valid values for ``<tag>``)
 

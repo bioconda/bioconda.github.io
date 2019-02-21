@@ -40,7 +40,7 @@ r-matrixeqtl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-matrixeqtl:<tag>
+      docker pull quay.io/biocontainers/r-matrixeqtl:<tag>
 
    (see `r-matrixeqtl/tags`_ for valid values for ``<tag>``)
 

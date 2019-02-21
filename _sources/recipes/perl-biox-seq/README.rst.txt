@@ -44,7 +44,7 @@ perl-biox-seq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-biox-seq:<tag>
+      docker pull quay.io/biocontainers/perl-biox-seq:<tag>
 
    (see `perl-biox-seq/tags`_ for valid values for ``<tag>``)
 

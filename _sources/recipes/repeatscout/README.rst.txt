@@ -40,7 +40,7 @@ repeatscout
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/repeatscout:<tag>
+      docker pull quay.io/biocontainers/repeatscout:<tag>
 
    (see `repeatscout/tags`_ for valid values for ``<tag>``)
 

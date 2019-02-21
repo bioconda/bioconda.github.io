@@ -45,7 +45,7 @@ bioconductor-chopsticks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chopsticks:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chopsticks:<tag>
 
    (see `bioconductor-chopsticks/tags`_ for valid values for ``<tag>``)
 

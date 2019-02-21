@@ -44,7 +44,7 @@ bioconductor-decontam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-decontam:<tag>
+      docker pull quay.io/biocontainers/bioconductor-decontam:<tag>
 
    (see `bioconductor-decontam/tags`_ for valid values for ``<tag>``)
 

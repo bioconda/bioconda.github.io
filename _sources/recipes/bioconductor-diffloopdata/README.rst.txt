@@ -42,7 +42,7 @@ bioconductor-diffloopdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-diffloopdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-diffloopdata:<tag>
 
    (see `bioconductor-diffloopdata/tags`_ for valid values for ``<tag>``)
 

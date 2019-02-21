@@ -42,7 +42,7 @@ smartdenovo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/smartdenovo:<tag>
+      docker pull quay.io/biocontainers/smartdenovo:<tag>
 
    (see `smartdenovo/tags`_ for valid values for ``<tag>``)
 

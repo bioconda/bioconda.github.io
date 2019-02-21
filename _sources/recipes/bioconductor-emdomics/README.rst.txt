@@ -52,7 +52,7 @@ bioconductor-emdomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-emdomics:<tag>
+      docker pull quay.io/biocontainers/bioconductor-emdomics:<tag>
 
    (see `bioconductor-emdomics/tags`_ for valid values for ``<tag>``)
 

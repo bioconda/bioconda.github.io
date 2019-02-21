@@ -43,7 +43,7 @@ bioconductor-pickgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pickgene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pickgene:<tag>
 
    (see `bioconductor-pickgene/tags`_ for valid values for ``<tag>``)
 

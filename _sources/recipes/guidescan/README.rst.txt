@@ -68,7 +68,7 @@ guidescan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/guidescan:<tag>
+      docker pull quay.io/biocontainers/guidescan:<tag>
 
    (see `guidescan/tags`_ for valid values for ``<tag>``)
 

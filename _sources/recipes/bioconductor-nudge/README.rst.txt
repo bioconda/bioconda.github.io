@@ -41,7 +41,7 @@ bioconductor-nudge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-nudge:<tag>
+      docker pull quay.io/biocontainers/bioconductor-nudge:<tag>
 
    (see `bioconductor-nudge/tags`_ for valid values for ``<tag>``)
 

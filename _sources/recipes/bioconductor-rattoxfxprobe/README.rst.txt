@@ -44,7 +44,7 @@ bioconductor-rattoxfxprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rattoxfxprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rattoxfxprobe:<tag>
 
    (see `bioconductor-rattoxfxprobe/tags`_ for valid values for ``<tag>``)
 

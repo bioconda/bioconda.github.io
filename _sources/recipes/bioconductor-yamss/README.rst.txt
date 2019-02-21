@@ -59,7 +59,7 @@ bioconductor-yamss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-yamss:<tag>
+      docker pull quay.io/biocontainers/bioconductor-yamss:<tag>
 
    (see `bioconductor-yamss/tags`_ for valid values for ``<tag>``)
 

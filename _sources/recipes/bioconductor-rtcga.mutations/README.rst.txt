@@ -44,7 +44,7 @@ bioconductor-rtcga.mutations
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.mutations:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtcga.mutations:<tag>
 
    (see `bioconductor-rtcga.mutations/tags`_ for valid values for ``<tag>``)
 

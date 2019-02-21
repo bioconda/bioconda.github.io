@@ -48,7 +48,7 @@ r-canopy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-canopy:<tag>
+      docker pull quay.io/biocontainers/r-canopy:<tag>
 
    (see `r-canopy/tags`_ for valid values for ``<tag>``)
 

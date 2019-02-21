@@ -50,7 +50,7 @@ ucsc-xmltosql
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-xmltosql:<tag>
+      docker pull quay.io/biocontainers/ucsc-xmltosql:<tag>
 
    (see `ucsc-xmltosql/tags`_ for valid values for ``<tag>``)
 

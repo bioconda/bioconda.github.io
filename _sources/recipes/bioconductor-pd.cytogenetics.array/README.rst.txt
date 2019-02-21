@@ -56,7 +56,7 @@ bioconductor-pd.cytogenetics.array
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.cytogenetics.array:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.cytogenetics.array:<tag>
 
    (see `bioconductor-pd.cytogenetics.array/tags`_ for valid values for ``<tag>``)
 

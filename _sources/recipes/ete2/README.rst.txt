@@ -48,7 +48,7 @@ ete2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ete2:<tag>
+      docker pull quay.io/biocontainers/ete2:<tag>
 
    (see `ete2/tags`_ for valid values for ``<tag>``)
 

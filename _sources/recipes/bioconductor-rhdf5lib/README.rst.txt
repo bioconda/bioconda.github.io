@@ -46,7 +46,7 @@ bioconductor-rhdf5lib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rhdf5lib:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rhdf5lib:<tag>
 
    (see `bioconductor-rhdf5lib/tags`_ for valid values for ``<tag>``)
 

@@ -51,7 +51,7 @@ bioconductor-philr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-philr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-philr:<tag>
 
    (see `bioconductor-philr/tags`_ for valid values for ``<tag>``)
 

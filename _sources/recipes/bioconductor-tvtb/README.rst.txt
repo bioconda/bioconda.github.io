@@ -77,7 +77,7 @@ bioconductor-tvtb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tvtb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tvtb:<tag>
 
    (see `bioconductor-tvtb/tags`_ for valid values for ``<tag>``)
 

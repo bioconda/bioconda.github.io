@@ -46,7 +46,7 @@ bioconductor-multiomicsviz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-multiomicsviz:<tag>
+      docker pull quay.io/biocontainers/bioconductor-multiomicsviz:<tag>
 
    (see `bioconductor-multiomicsviz/tags`_ for valid values for ``<tag>``)
 

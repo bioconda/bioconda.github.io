@@ -48,7 +48,7 @@ bioconductor-dsqtl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dsqtl:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dsqtl:<tag>
 
    (see `bioconductor-dsqtl/tags`_ for valid values for ``<tag>``)
 

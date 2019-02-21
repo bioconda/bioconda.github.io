@@ -51,7 +51,7 @@ bioconductor-beclear
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-beclear:<tag>
+      docker pull quay.io/biocontainers/bioconductor-beclear:<tag>
 
    (see `bioconductor-beclear/tags`_ for valid values for ``<tag>``)
 

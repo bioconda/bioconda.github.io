@@ -44,7 +44,7 @@ python-hyphy-python
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-hyphy-python:<tag>
+      docker pull quay.io/biocontainers/python-hyphy-python:<tag>
 
    (see `python-hyphy-python/tags`_ for valid values for ``<tag>``)
 

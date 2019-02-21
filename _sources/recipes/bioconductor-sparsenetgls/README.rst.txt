@@ -50,7 +50,7 @@ bioconductor-sparsenetgls
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sparsenetgls:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sparsenetgls:<tag>
 
    (see `bioconductor-sparsenetgls/tags`_ for valid values for ``<tag>``)
 

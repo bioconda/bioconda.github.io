@@ -55,7 +55,7 @@ ascat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ascat:<tag>
+      docker pull quay.io/biocontainers/ascat:<tag>
 
    (see `ascat/tags`_ for valid values for ``<tag>``)
 

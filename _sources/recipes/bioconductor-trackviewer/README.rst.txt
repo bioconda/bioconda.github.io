@@ -77,7 +77,7 @@ bioconductor-trackviewer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-trackviewer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-trackviewer:<tag>
 
    (see `bioconductor-trackviewer/tags`_ for valid values for ``<tag>``)
 

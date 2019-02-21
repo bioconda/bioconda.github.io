@@ -58,7 +58,7 @@ demuxlet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/demuxlet:<tag>
+      docker pull quay.io/biocontainers/demuxlet:<tag>
 
    (see `demuxlet/tags`_ for valid values for ``<tag>``)
 

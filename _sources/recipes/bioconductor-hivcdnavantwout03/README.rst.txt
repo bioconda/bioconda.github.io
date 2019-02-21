@@ -42,7 +42,7 @@ bioconductor-hivcdnavantwout03
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hivcdnavantwout03:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hivcdnavantwout03:<tag>
 
    (see `bioconductor-hivcdnavantwout03/tags`_ for valid values for ``<tag>``)
 

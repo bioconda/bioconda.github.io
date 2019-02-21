@@ -46,7 +46,7 @@ perl-bio-tools-run-alignment-clustalw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-tools-run-alignment-clustalw:<tag>
+      docker pull quay.io/biocontainers/perl-bio-tools-run-alignment-clustalw:<tag>
 
    (see `perl-bio-tools-run-alignment-clustalw/tags`_ for valid values for ``<tag>``)
 

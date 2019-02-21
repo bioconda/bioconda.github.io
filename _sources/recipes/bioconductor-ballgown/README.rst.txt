@@ -59,7 +59,7 @@ bioconductor-ballgown
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ballgown:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ballgown:<tag>
 
    (see `bioconductor-ballgown/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ mosdepth
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mosdepth:<tag>
+      docker pull quay.io/biocontainers/mosdepth:<tag>
 
    (see `mosdepth/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ dnp-binstrings
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dnp-binstrings:<tag>
+      docker pull quay.io/biocontainers/dnp-binstrings:<tag>
 
    (see `dnp-binstrings/tags`_ for valid values for ``<tag>``)
 

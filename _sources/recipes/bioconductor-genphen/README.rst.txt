@@ -56,7 +56,7 @@ bioconductor-genphen
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genphen:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genphen:<tag>
 
    (see `bioconductor-genphen/tags`_ for valid values for ``<tag>``)
 

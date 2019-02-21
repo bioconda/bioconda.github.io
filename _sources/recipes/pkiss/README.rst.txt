@@ -51,7 +51,7 @@ pkiss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pkiss:<tag>
+      docker pull quay.io/biocontainers/pkiss:<tag>
 
    (see `pkiss/tags`_ for valid values for ``<tag>``)
 

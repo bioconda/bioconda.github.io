@@ -54,7 +54,7 @@ hicmatrix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hicmatrix:<tag>
+      docker pull quay.io/biocontainers/hicmatrix:<tag>
 
    (see `hicmatrix/tags`_ for valid values for ``<tag>``)
 

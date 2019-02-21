@@ -42,7 +42,7 @@ bioconductor-copyhelper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-copyhelper:<tag>
+      docker pull quay.io/biocontainers/bioconductor-copyhelper:<tag>
 
    (see `bioconductor-copyhelper/tags`_ for valid values for ``<tag>``)
 

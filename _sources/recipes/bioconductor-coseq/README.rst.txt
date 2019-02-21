@@ -70,7 +70,7 @@ bioconductor-coseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-coseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-coseq:<tag>
 
    (see `bioconductor-coseq/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ bioconductor-fdb.infiniummethylation.hg18
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fdb.infiniummethylation.hg18:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg18:<tag>
 
    (see `bioconductor-fdb.infiniummethylation.hg18/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-params-util
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-params-util:<tag>
+      docker pull quay.io/biocontainers/perl-params-util:<tag>
 
    (see `perl-params-util/tags`_ for valid values for ``<tag>``)
 

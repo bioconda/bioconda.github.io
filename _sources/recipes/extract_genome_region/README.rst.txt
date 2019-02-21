@@ -44,7 +44,7 @@ extract_genome_region
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/extract_genome_region:<tag>
+      docker pull quay.io/biocontainers/extract_genome_region:<tag>
 
    (see `extract_genome_region/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ phipack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phipack:<tag>
+      docker pull quay.io/biocontainers/phipack:<tag>
 
    (see `phipack/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ trimmomatic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trimmomatic:<tag>
+      docker pull quay.io/biocontainers/trimmomatic:<tag>
 
    (see `trimmomatic/tags`_ for valid values for ``<tag>``)
 

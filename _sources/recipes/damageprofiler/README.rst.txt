@@ -42,7 +42,7 @@ damageprofiler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/damageprofiler:<tag>
+      docker pull quay.io/biocontainers/damageprofiler:<tag>
 
    (see `damageprofiler/tags`_ for valid values for ``<tag>``)
 

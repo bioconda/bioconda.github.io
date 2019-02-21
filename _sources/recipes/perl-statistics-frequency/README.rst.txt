@@ -40,7 +40,7 @@ perl-statistics-frequency
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-statistics-frequency:<tag>
+      docker pull quay.io/biocontainers/perl-statistics-frequency:<tag>
 
    (see `perl-statistics-frequency/tags`_ for valid values for ``<tag>``)
 

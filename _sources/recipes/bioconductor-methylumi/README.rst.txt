@@ -77,7 +77,7 @@ bioconductor-methylumi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methylumi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methylumi:<tag>
 
    (see `bioconductor-methylumi/tags`_ for valid values for ``<tag>``)
 

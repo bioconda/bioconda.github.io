@@ -78,7 +78,7 @@ bioconductor-pi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pi:<tag>
 
    (see `bioconductor-pi/tags`_ for valid values for ``<tag>``)
 

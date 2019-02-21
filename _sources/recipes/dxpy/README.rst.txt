@@ -60,7 +60,7 @@ dxpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dxpy:<tag>
+      docker pull quay.io/biocontainers/dxpy:<tag>
 
    (see `dxpy/tags`_ for valid values for ``<tag>``)
 

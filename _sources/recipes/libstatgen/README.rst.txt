@@ -43,7 +43,7 @@ libstatgen
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libstatgen:<tag>
+      docker pull quay.io/biocontainers/libstatgen:<tag>
 
    (see `libstatgen/tags`_ for valid values for ``<tag>``)
 

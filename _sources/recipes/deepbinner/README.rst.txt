@@ -52,7 +52,7 @@ deepbinner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/deepbinner:<tag>
+      docker pull quay.io/biocontainers/deepbinner:<tag>
 
    (see `deepbinner/tags`_ for valid values for ``<tag>``)
 

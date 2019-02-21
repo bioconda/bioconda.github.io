@@ -49,7 +49,7 @@ bioconductor-preda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-preda:<tag>
+      docker pull quay.io/biocontainers/bioconductor-preda:<tag>
 
    (see `bioconductor-preda/tags`_ for valid values for ``<tag>``)
 

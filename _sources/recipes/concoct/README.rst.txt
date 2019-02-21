@@ -67,7 +67,7 @@ concoct
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/concoct:<tag>
+      docker pull quay.io/biocontainers/concoct:<tag>
 
    (see `concoct/tags`_ for valid values for ``<tag>``)
 

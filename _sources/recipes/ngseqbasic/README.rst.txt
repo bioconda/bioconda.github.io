@@ -60,7 +60,7 @@ ngseqbasic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ngseqbasic:<tag>
+      docker pull quay.io/biocontainers/ngseqbasic:<tag>
 
    (see `ngseqbasic/tags`_ for valid values for ``<tag>``)
 

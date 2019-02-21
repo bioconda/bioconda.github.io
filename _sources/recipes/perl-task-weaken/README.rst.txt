@@ -40,7 +40,7 @@ perl-task-weaken
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-task-weaken:<tag>
+      docker pull quay.io/biocontainers/perl-task-weaken:<tag>
 
    (see `perl-task-weaken/tags`_ for valid values for ``<tag>``)
 

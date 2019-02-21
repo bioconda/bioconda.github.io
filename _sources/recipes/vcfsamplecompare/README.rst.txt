@@ -41,7 +41,7 @@ vcfsamplecompare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcfsamplecompare:<tag>
+      docker pull quay.io/biocontainers/vcfsamplecompare:<tag>
 
    (see `vcfsamplecompare/tags`_ for valid values for ``<tag>``)
 

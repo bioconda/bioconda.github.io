@@ -42,7 +42,7 @@ bpp-phyl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bpp-phyl:<tag>
+      docker pull quay.io/biocontainers/bpp-phyl:<tag>
 
    (see `bpp-phyl/tags`_ for valid values for ``<tag>``)
 

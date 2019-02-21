@@ -53,7 +53,7 @@ bioconductor-turbonorm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-turbonorm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-turbonorm:<tag>
 
    (see `bioconductor-turbonorm/tags`_ for valid values for ``<tag>``)
 

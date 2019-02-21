@@ -44,7 +44,7 @@ bioconductor-soybeanprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-soybeanprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-soybeanprobe:<tag>
 
    (see `bioconductor-soybeanprobe/tags`_ for valid values for ``<tag>``)
 

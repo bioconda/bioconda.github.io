@@ -47,7 +47,7 @@ bioconductor-cnvtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cnvtools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cnvtools:<tag>
 
    (see `bioconductor-cnvtools/tags`_ for valid values for ``<tag>``)
 

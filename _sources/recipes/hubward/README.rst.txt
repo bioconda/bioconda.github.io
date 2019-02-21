@@ -68,7 +68,7 @@ hubward
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hubward:<tag>
+      docker pull quay.io/biocontainers/hubward:<tag>
 
    (see `hubward/tags`_ for valid values for ``<tag>``)
 

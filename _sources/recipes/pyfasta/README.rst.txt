@@ -43,7 +43,7 @@ pyfasta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyfasta:<tag>
+      docker pull quay.io/biocontainers/pyfasta:<tag>
 
    (see `pyfasta/tags`_ for valid values for ``<tag>``)
 

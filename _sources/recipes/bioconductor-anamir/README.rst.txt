@@ -60,7 +60,7 @@ bioconductor-anamir
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-anamir:<tag>
+      docker pull quay.io/biocontainers/bioconductor-anamir:<tag>
 
    (see `bioconductor-anamir/tags`_ for valid values for ``<tag>``)
 

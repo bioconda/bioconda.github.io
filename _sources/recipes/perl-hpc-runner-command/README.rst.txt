@@ -128,7 +128,7 @@ perl-hpc-runner-command
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-hpc-runner-command:<tag>
+      docker pull quay.io/biocontainers/perl-hpc-runner-command:<tag>
 
    (see `perl-hpc-runner-command/tags`_ for valid values for ``<tag>``)
 

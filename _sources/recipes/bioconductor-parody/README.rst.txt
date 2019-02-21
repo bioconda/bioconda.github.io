@@ -41,7 +41,7 @@ bioconductor-parody
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-parody:<tag>
+      docker pull quay.io/biocontainers/bioconductor-parody:<tag>
 
    (see `bioconductor-parody/tags`_ for valid values for ``<tag>``)
 

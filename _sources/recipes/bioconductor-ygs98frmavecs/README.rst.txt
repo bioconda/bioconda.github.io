@@ -42,7 +42,7 @@ bioconductor-ygs98frmavecs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ygs98frmavecs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ygs98frmavecs:<tag>
 
    (see `bioconductor-ygs98frmavecs/tags`_ for valid values for ``<tag>``)
 

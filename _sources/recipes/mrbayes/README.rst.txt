@@ -51,7 +51,7 @@ mrbayes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mrbayes:<tag>
+      docker pull quay.io/biocontainers/mrbayes:<tag>
 
    (see `mrbayes/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ r-syntactic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-syntactic:<tag>
+      docker pull quay.io/biocontainers/r-syntactic:<tag>
 
    (see `r-syntactic/tags`_ for valid values for ``<tag>``)
 

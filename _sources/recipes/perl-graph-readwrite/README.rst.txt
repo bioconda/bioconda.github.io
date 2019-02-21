@@ -54,7 +54,7 @@ perl-graph-readwrite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-graph-readwrite:<tag>
+      docker pull quay.io/biocontainers/perl-graph-readwrite:<tag>
 
    (see `perl-graph-readwrite/tags`_ for valid values for ``<tag>``)
 

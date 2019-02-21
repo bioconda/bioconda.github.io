@@ -65,7 +65,7 @@ bioconductor-pcpheno
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pcpheno:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pcpheno:<tag>
 
    (see `bioconductor-pcpheno/tags`_ for valid values for ``<tag>``)
 

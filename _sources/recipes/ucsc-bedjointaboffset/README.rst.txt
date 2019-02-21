@@ -22,17 +22,17 @@ ucsc-bedjointaboffset
 
    |downloads_ucsc-bedjointaboffset| |docker_ucsc-bedjointaboffset|
 
-   :versions: 366-0
+   :versions: 377-0, 366-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
-   :depends libpng: >=1.6.34,<1.7.0a0
+   :depends libpng: >=1.6.35,<1.7.0a0
    
-   :depends libuuid: 
+   :depends libuuid: >=2.32.1,<3.0a0
    
    :depends mysql-connector-c: 
    
-   :depends openssl: >=1.0.2o,<1.0.3a
+   :depends openssl: >=1.0.2p,<1.0.3a
    
    :depends python: 
    
@@ -52,7 +52,7 @@ ucsc-bedjointaboffset
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-bedjointaboffset:<tag>
+      docker pull quay.io/biocontainers/ucsc-bedjointaboffset:<tag>
 
    (see `ucsc-bedjointaboffset/tags`_ for valid values for ``<tag>``)
 

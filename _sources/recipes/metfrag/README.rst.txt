@@ -46,7 +46,7 @@ metfrag
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metfrag:<tag>
+      docker pull quay.io/biocontainers/metfrag:<tag>
 
    (see `metfrag/tags`_ for valid values for ``<tag>``)
 

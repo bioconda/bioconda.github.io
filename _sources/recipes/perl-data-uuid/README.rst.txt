@@ -44,7 +44,7 @@ perl-data-uuid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-data-uuid:<tag>
+      docker pull quay.io/biocontainers/perl-data-uuid:<tag>
 
    (see `perl-data-uuid/tags`_ for valid values for ``<tag>``)
 

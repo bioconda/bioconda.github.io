@@ -42,7 +42,7 @@ perl-math-bigint
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-bigint:<tag>
+      docker pull quay.io/biocontainers/perl-math-bigint:<tag>
 
    (see `perl-math-bigint/tags`_ for valid values for ``<tag>``)
 

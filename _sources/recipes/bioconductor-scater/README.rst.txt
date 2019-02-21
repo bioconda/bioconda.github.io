@@ -79,7 +79,7 @@ bioconductor-scater
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scater:<tag>
+      docker pull quay.io/biocontainers/bioconductor-scater:<tag>
 
    (see `bioconductor-scater/tags`_ for valid values for ``<tag>``)
 

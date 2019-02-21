@@ -44,7 +44,7 @@ perl-module-metadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-metadata:<tag>
+      docker pull quay.io/biocontainers/perl-module-metadata:<tag>
 
    (see `perl-module-metadata/tags`_ for valid values for ``<tag>``)
 

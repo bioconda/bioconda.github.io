@@ -42,7 +42,7 @@ ac-diamond
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ac-diamond:<tag>
+      docker pull quay.io/biocontainers/ac-diamond:<tag>
 
    (see `ac-diamond/tags`_ for valid values for ``<tag>``)
 

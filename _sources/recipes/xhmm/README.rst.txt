@@ -45,7 +45,7 @@ xhmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xhmm:<tag>
+      docker pull quay.io/biocontainers/xhmm:<tag>
 
    (see `xhmm/tags`_ for valid values for ``<tag>``)
 

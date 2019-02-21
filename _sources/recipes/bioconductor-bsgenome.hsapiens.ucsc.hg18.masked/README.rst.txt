@@ -46,7 +46,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg18.masked
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.hsapiens.ucsc.hg18.masked:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.hsapiens.ucsc.hg18.masked:<tag>
 
    (see `bioconductor-bsgenome.hsapiens.ucsc.hg18.masked/tags`_ for valid values for ``<tag>``)
 

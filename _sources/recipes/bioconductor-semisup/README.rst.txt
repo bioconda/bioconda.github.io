@@ -44,7 +44,7 @@ bioconductor-semisup
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-semisup:<tag>
+      docker pull quay.io/biocontainers/bioconductor-semisup:<tag>
 
    (see `bioconductor-semisup/tags`_ for valid values for ``<tag>``)
 

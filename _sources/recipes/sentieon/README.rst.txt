@@ -46,7 +46,7 @@ sentieon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sentieon:<tag>
+      docker pull quay.io/biocontainers/sentieon:<tag>
 
    (see `sentieon/tags`_ for valid values for ``<tag>``)
 

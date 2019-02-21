@@ -50,7 +50,7 @@ ucsc-pslcdnafilter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslcdnafilter:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslcdnafilter:<tag>
 
    (see `ucsc-pslcdnafilter/tags`_ for valid values for ``<tag>``)
 

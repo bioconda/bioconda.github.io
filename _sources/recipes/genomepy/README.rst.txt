@@ -62,7 +62,7 @@ genomepy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genomepy:<tag>
+      docker pull quay.io/biocontainers/genomepy:<tag>
 
    (see `genomepy/tags`_ for valid values for ``<tag>``)
 

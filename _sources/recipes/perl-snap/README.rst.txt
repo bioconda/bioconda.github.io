@@ -40,7 +40,7 @@ perl-snap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-snap:<tag>
+      docker pull quay.io/biocontainers/perl-snap:<tag>
 
    (see `perl-snap/tags`_ for valid values for ``<tag>``)
 

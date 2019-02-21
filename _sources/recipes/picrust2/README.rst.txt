@@ -70,7 +70,7 @@ picrust2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/picrust2:<tag>
+      docker pull quay.io/biocontainers/picrust2:<tag>
 
    (see `picrust2/tags`_ for valid values for ``<tag>``)
 

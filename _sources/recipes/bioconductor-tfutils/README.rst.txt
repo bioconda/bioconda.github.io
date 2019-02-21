@@ -48,7 +48,7 @@ bioconductor-tfutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tfutils:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tfutils:<tag>
 
    (see `bioconductor-tfutils/tags`_ for valid values for ``<tag>``)
 

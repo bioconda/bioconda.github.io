@@ -49,7 +49,7 @@ bioconductor-massir
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-massir:<tag>
+      docker pull quay.io/biocontainers/bioconductor-massir:<tag>
 
    (see `bioconductor-massir/tags`_ for valid values for ``<tag>``)
 

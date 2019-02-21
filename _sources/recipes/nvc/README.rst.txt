@@ -46,7 +46,7 @@ nvc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nvc:<tag>
+      docker pull quay.io/biocontainers/nvc:<tag>
 
    (see `nvc/tags`_ for valid values for ``<tag>``)
 

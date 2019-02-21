@@ -42,7 +42,7 @@ bioconductor-hugene.1.0.st.v1frmavecs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hugene.1.0.st.v1frmavecs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hugene.1.0.st.v1frmavecs:<tag>
 
    (see `bioconductor-hugene.1.0.st.v1frmavecs/tags`_ for valid values for ``<tag>``)
 

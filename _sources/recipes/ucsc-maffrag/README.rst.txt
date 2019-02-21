@@ -50,7 +50,7 @@ ucsc-maffrag
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-maffrag:<tag>
+      docker pull quay.io/biocontainers/ucsc-maffrag:<tag>
 
    (see `ucsc-maffrag/tags`_ for valid values for ``<tag>``)
 

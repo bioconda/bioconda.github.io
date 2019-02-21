@@ -42,7 +42,7 @@ ushuffle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ushuffle:<tag>
+      docker pull quay.io/biocontainers/ushuffle:<tag>
 
    (see `ushuffle/tags`_ for valid values for ``<tag>``)
 

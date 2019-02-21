@@ -50,7 +50,7 @@ bioconductor-tenxpbmcdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tenxpbmcdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tenxpbmcdata:<tag>
 
    (see `bioconductor-tenxpbmcdata/tags`_ for valid values for ``<tag>``)
 

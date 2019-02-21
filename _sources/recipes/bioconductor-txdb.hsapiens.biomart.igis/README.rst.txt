@@ -46,7 +46,7 @@ bioconductor-txdb.hsapiens.biomart.igis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.hsapiens.biomart.igis:<tag>
+      docker pull quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis:<tag>
 
    (see `bioconductor-txdb.hsapiens.biomart.igis/tags`_ for valid values for ``<tag>``)
 

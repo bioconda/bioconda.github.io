@@ -55,7 +55,7 @@ bioconductor-gsva
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gsva:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gsva:<tag>
 
    (see `bioconductor-gsva/tags`_ for valid values for ``<tag>``)
 

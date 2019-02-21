@@ -60,7 +60,7 @@ mercat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mercat:<tag>
+      docker pull quay.io/biocontainers/mercat:<tag>
 
    (see `mercat/tags`_ for valid values for ``<tag>``)
 

@@ -88,7 +88,7 @@ bioconductor-seqplots
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seqplots:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seqplots:<tag>
 
    (see `bioconductor-seqplots/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ rcorrector
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rcorrector:<tag>
+      docker pull quay.io/biocontainers/rcorrector:<tag>
 
    (see `rcorrector/tags`_ for valid values for ``<tag>``)
 

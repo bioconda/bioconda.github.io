@@ -52,7 +52,7 @@ bcftools-gtc2vcf-plugin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcftools-gtc2vcf-plugin:<tag>
+      docker pull quay.io/biocontainers/bcftools-gtc2vcf-plugin:<tag>
 
    (see `bcftools-gtc2vcf-plugin/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ circularmapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/circularmapper:<tag>
+      docker pull quay.io/biocontainers/circularmapper:<tag>
 
    (see `circularmapper/tags`_ for valid values for ``<tag>``)
 

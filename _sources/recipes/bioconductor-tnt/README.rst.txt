@@ -58,7 +58,7 @@ bioconductor-tnt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tnt:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tnt:<tag>
 
    (see `bioconductor-tnt/tags`_ for valid values for ``<tag>``)
 

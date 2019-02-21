@@ -40,7 +40,7 @@ fastq-join
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastq-join:<tag>
+      docker pull quay.io/biocontainers/fastq-join:<tag>
 
    (see `fastq-join/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ bioconductor-frmaexampledata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-frmaexampledata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-frmaexampledata:<tag>
 
    (see `bioconductor-frmaexampledata/tags`_ for valid values for ``<tag>``)
 

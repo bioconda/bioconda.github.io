@@ -42,7 +42,7 @@ watchdog-wms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/watchdog-wms:<tag>
+      docker pull quay.io/biocontainers/watchdog-wms:<tag>
 
    (see `watchdog-wms/tags`_ for valid values for ``<tag>``)
 

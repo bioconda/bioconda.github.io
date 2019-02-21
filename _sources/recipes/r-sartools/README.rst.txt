@@ -55,7 +55,7 @@ r-sartools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-sartools:<tag>
+      docker pull quay.io/biocontainers/r-sartools:<tag>
 
    (see `r-sartools/tags`_ for valid values for ``<tag>``)
 

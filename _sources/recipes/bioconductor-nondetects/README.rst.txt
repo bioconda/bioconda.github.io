@@ -51,7 +51,7 @@ bioconductor-nondetects
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-nondetects:<tag>
+      docker pull quay.io/biocontainers/bioconductor-nondetects:<tag>
 
    (see `bioconductor-nondetects/tags`_ for valid values for ``<tag>``)
 

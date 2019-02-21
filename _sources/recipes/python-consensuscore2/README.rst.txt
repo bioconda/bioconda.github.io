@@ -42,7 +42,7 @@ python-consensuscore2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-consensuscore2:<tag>
+      docker pull quay.io/biocontainers/python-consensuscore2:<tag>
 
    (see `python-consensuscore2/tags`_ for valid values for ``<tag>``)
 

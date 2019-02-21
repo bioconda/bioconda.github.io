@@ -44,7 +44,7 @@ bioconductor-igc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-igc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-igc:<tag>
 
    (see `bioconductor-igc/tags`_ for valid values for ``<tag>``)
 

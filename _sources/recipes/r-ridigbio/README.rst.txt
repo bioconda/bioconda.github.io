@@ -46,7 +46,7 @@ r-ridigbio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ridigbio:<tag>
+      docker pull quay.io/biocontainers/r-ridigbio:<tag>
 
    (see `r-ridigbio/tags`_ for valid values for ``<tag>``)
 

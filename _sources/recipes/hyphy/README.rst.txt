@@ -49,7 +49,7 @@ hyphy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hyphy:<tag>
+      docker pull quay.io/biocontainers/hyphy:<tag>
 
    (see `hyphy/tags`_ for valid values for ``<tag>``)
 

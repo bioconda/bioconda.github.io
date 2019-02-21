@@ -40,7 +40,7 @@ damasker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/damasker:<tag>
+      docker pull quay.io/biocontainers/damasker:<tag>
 
    (see `damasker/tags`_ for valid values for ``<tag>``)
 

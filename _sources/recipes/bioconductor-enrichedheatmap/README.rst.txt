@@ -60,7 +60,7 @@ bioconductor-enrichedheatmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-enrichedheatmap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-enrichedheatmap:<tag>
 
    (see `bioconductor-enrichedheatmap/tags`_ for valid values for ``<tag>``)
 

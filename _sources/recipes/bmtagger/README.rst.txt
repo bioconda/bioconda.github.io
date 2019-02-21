@@ -48,7 +48,7 @@ bmtagger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bmtagger:<tag>
+      docker pull quay.io/biocontainers/bmtagger:<tag>
 
    (see `bmtagger/tags`_ for valid values for ``<tag>``)
 

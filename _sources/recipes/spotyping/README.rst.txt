@@ -45,7 +45,7 @@ spotyping
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spotyping:<tag>
+      docker pull quay.io/biocontainers/spotyping:<tag>
 
    (see `spotyping/tags`_ for valid values for ``<tag>``)
 

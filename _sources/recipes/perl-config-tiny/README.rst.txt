@@ -42,7 +42,7 @@ perl-config-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-config-tiny:<tag>
+      docker pull quay.io/biocontainers/perl-config-tiny:<tag>
 
    (see `perl-config-tiny/tags`_ for valid values for ``<tag>``)
 

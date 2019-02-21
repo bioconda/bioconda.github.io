@@ -44,7 +44,7 @@ bioconductor-vitisviniferaprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-vitisviniferaprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-vitisviniferaprobe:<tag>
 
    (see `bioconductor-vitisviniferaprobe/tags`_ for valid values for ``<tag>``)
 

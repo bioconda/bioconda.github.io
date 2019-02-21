@@ -78,7 +78,7 @@ bioconductor-doscheda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-doscheda:<tag>
+      docker pull quay.io/biocontainers/bioconductor-doscheda:<tag>
 
    (see `bioconductor-doscheda/tags`_ for valid values for ``<tag>``)
 

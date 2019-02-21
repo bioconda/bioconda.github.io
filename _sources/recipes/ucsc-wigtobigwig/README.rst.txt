@@ -50,7 +50,7 @@ ucsc-wigtobigwig
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-wigtobigwig:<tag>
+      docker pull quay.io/biocontainers/ucsc-wigtobigwig:<tag>
 
    (see `ucsc-wigtobigwig/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-sangerseqr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sangerseqr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sangerseqr:<tag>
 
    (see `bioconductor-sangerseqr/tags`_ for valid values for ``<tag>``)
 

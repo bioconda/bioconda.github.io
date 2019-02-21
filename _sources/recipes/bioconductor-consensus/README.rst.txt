@@ -46,7 +46,7 @@ bioconductor-consensus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-consensus:<tag>
+      docker pull quay.io/biocontainers/bioconductor-consensus:<tag>
 
    (see `bioconductor-consensus/tags`_ for valid values for ``<tag>``)
 

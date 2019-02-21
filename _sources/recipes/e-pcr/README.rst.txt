@@ -40,7 +40,7 @@ e-pcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/e-pcr:<tag>
+      docker pull quay.io/biocontainers/e-pcr:<tag>
 
    (see `e-pcr/tags`_ for valid values for ``<tag>``)
 

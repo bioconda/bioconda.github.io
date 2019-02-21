@@ -44,7 +44,7 @@ perl-mixin-linewise
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mixin-linewise:<tag>
+      docker pull quay.io/biocontainers/perl-mixin-linewise:<tag>
 
    (see `perl-mixin-linewise/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ bioconductor-panvizgenerator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-panvizgenerator:<tag>
+      docker pull quay.io/biocontainers/bioconductor-panvizgenerator:<tag>
 
    (see `bioconductor-panvizgenerator/tags`_ for valid values for ``<tag>``)
 

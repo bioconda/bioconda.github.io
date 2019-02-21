@@ -46,7 +46,7 @@ ruby-dna-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ruby-dna-tools:<tag>
+      docker pull quay.io/biocontainers/ruby-dna-tools:<tag>
 
    (see `ruby-dna-tools/tags`_ for valid values for ``<tag>``)
 

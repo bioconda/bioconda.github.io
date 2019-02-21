@@ -40,7 +40,7 @@ mintmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mintmap:<tag>
+      docker pull quay.io/biocontainers/mintmap:<tag>
 
    (see `mintmap/tags`_ for valid values for ``<tag>``)
 

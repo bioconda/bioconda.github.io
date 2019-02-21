@@ -52,7 +52,7 @@ bioconductor-diffcoexp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-diffcoexp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-diffcoexp:<tag>
 
    (see `bioconductor-diffcoexp/tags`_ for valid values for ``<tag>``)
 

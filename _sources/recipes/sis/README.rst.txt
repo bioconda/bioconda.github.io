@@ -44,7 +44,7 @@ sis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sis:<tag>
+      docker pull quay.io/biocontainers/sis:<tag>
 
    (see `sis/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ mappy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mappy:<tag>
+      docker pull quay.io/biocontainers/mappy:<tag>
 
    (see `mappy/tags`_ for valid values for ``<tag>``)
 

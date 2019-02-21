@@ -46,7 +46,7 @@ udocker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/udocker:<tag>
+      docker pull quay.io/biocontainers/udocker:<tag>
 
    (see `udocker/tags`_ for valid values for ``<tag>``)
 

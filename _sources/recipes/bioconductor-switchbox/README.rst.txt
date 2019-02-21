@@ -49,7 +49,7 @@ bioconductor-switchbox
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-switchbox:<tag>
+      docker pull quay.io/biocontainers/bioconductor-switchbox:<tag>
 
    (see `bioconductor-switchbox/tags`_ for valid values for ``<tag>``)
 

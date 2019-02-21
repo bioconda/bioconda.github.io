@@ -89,7 +89,7 @@ maker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/maker:<tag>
+      docker pull quay.io/biocontainers/maker:<tag>
 
    (see `maker/tags`_ for valid values for ``<tag>``)
 

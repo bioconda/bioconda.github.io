@@ -44,7 +44,7 @@ iclipro
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/iclipro:<tag>
+      docker pull quay.io/biocontainers/iclipro:<tag>
 
    (see `iclipro/tags`_ for valid values for ``<tag>``)
 

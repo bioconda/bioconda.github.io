@@ -48,7 +48,7 @@ bioconductor-tfarm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tfarm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tfarm:<tag>
 
    (see `bioconductor-tfarm/tags`_ for valid values for ``<tag>``)
 

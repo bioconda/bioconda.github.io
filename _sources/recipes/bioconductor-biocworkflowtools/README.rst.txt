@@ -59,7 +59,7 @@ bioconductor-biocworkflowtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocworkflowtools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biocworkflowtools:<tag>
 
    (see `bioconductor-biocworkflowtools/tags`_ for valid values for ``<tag>``)
 

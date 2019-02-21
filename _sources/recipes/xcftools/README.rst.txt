@@ -44,7 +44,7 @@ xcftools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xcftools:<tag>
+      docker pull quay.io/biocontainers/xcftools:<tag>
 
    (see `xcftools/tags`_ for valid values for ``<tag>``)
 

@@ -61,7 +61,7 @@ bioconductor-scan.upc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scan.upc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-scan.upc:<tag>
 
    (see `bioconductor-scan.upc/tags`_ for valid values for ``<tag>``)
 

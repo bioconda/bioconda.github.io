@@ -42,7 +42,7 @@ perl-acme-damn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-acme-damn:<tag>
+      docker pull quay.io/biocontainers/perl-acme-damn:<tag>
 
    (see `perl-acme-damn/tags`_ for valid values for ``<tag>``)
 

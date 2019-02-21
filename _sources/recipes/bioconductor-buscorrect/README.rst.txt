@@ -46,7 +46,7 @@ bioconductor-buscorrect
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-buscorrect:<tag>
+      docker pull quay.io/biocontainers/bioconductor-buscorrect:<tag>
 
    (see `bioconductor-buscorrect/tags`_ for valid values for ``<tag>``)
 

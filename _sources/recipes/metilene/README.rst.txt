@@ -48,7 +48,7 @@ metilene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metilene:<tag>
+      docker pull quay.io/biocontainers/metilene:<tag>
 
    (see `metilene/tags`_ for valid values for ``<tag>``)
 

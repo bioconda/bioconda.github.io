@@ -98,7 +98,7 @@ r-dartr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-dartr:<tag>
+      docker pull quay.io/biocontainers/r-dartr:<tag>
 
    (see `r-dartr/tags`_ for valid values for ``<tag>``)
 

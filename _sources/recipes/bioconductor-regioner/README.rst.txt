@@ -57,7 +57,7 @@ bioconductor-regioner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-regioner:<tag>
+      docker pull quay.io/biocontainers/bioconductor-regioner:<tag>
 
    (see `bioconductor-regioner/tags`_ for valid values for ``<tag>``)
 

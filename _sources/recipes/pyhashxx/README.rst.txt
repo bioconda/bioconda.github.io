@@ -40,7 +40,7 @@ pyhashxx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyhashxx:<tag>
+      docker pull quay.io/biocontainers/pyhashxx:<tag>
 
    (see `pyhashxx/tags`_ for valid values for ``<tag>``)
 

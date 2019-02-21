@@ -56,7 +56,7 @@ bioconductor-attract
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-attract:<tag>
+      docker pull quay.io/biocontainers/bioconductor-attract:<tag>
 
    (see `bioconductor-attract/tags`_ for valid values for ``<tag>``)
 

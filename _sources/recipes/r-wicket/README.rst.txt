@@ -48,7 +48,7 @@ r-wicket
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-wicket:<tag>
+      docker pull quay.io/biocontainers/r-wicket:<tag>
 
    (see `r-wicket/tags`_ for valid values for ``<tag>``)
 

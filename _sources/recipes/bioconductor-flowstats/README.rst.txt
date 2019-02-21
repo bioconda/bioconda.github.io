@@ -66,7 +66,7 @@ bioconductor-flowstats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowstats:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowstats:<tag>
 
    (see `bioconductor-flowstats/tags`_ for valid values for ``<tag>``)
 

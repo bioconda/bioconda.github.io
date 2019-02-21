@@ -41,7 +41,7 @@ fasttree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fasttree:<tag>
+      docker pull quay.io/biocontainers/fasttree:<tag>
 
    (see `fasttree/tags`_ for valid values for ``<tag>``)
 

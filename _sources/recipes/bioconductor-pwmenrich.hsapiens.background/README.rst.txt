@@ -44,7 +44,7 @@ bioconductor-pwmenrich.hsapiens.background
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pwmenrich.hsapiens.background:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background:<tag>
 
    (see `bioconductor-pwmenrich.hsapiens.background/tags`_ for valid values for ``<tag>``)
 

@@ -62,7 +62,7 @@ ete3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ete3:<tag>
+      docker pull quay.io/biocontainers/ete3:<tag>
 
    (see `ete3/tags`_ for valid values for ``<tag>``)
 

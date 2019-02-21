@@ -48,7 +48,7 @@ riboplot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/riboplot:<tag>
+      docker pull quay.io/biocontainers/riboplot:<tag>
 
    (see `riboplot/tags`_ for valid values for ``<tag>``)
 

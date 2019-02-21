@@ -40,7 +40,7 @@ tinysink
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tinysink:<tag>
+      docker pull quay.io/biocontainers/tinysink:<tag>
 
    (see `tinysink/tags`_ for valid values for ``<tag>``)
 

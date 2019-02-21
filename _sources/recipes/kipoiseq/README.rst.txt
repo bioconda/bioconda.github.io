@@ -58,7 +58,7 @@ kipoiseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kipoiseq:<tag>
+      docker pull quay.io/biocontainers/kipoiseq:<tag>
 
    (see `kipoiseq/tags`_ for valid values for ``<tag>``)
 

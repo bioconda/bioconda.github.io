@@ -54,7 +54,7 @@ lcfit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lcfit:<tag>
+      docker pull quay.io/biocontainers/lcfit:<tag>
 
    (see `lcfit/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ perl-font-ttf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-font-ttf:<tag>
+      docker pull quay.io/biocontainers/perl-font-ttf:<tag>
 
    (see `perl-font-ttf/tags`_ for valid values for ``<tag>``)
 

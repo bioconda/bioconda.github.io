@@ -44,7 +44,7 @@ gqt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gqt:<tag>
+      docker pull quay.io/biocontainers/gqt:<tag>
 
    (see `gqt/tags`_ for valid values for ``<tag>``)
 

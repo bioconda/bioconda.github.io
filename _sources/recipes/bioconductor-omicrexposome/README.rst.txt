@@ -68,7 +68,7 @@ bioconductor-omicrexposome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omicrexposome:<tag>
+      docker pull quay.io/biocontainers/bioconductor-omicrexposome:<tag>
 
    (see `bioconductor-omicrexposome/tags`_ for valid values for ``<tag>``)
 

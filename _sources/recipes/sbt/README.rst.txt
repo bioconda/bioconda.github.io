@@ -40,7 +40,7 @@ sbt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sbt:<tag>
+      docker pull quay.io/biocontainers/sbt:<tag>
 
    (see `sbt/tags`_ for valid values for ``<tag>``)
 

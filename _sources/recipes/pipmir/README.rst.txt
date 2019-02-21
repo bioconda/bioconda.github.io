@@ -45,7 +45,7 @@ pipmir
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pipmir:<tag>
+      docker pull quay.io/biocontainers/pipmir:<tag>
 
    (see `pipmir/tags`_ for valid values for ``<tag>``)
 

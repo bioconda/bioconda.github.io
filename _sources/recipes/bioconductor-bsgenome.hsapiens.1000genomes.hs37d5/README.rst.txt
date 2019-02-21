@@ -44,7 +44,7 @@ bioconductor-bsgenome.hsapiens.1000genomes.hs37d5
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.hsapiens.1000genomes.hs37d5:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.hsapiens.1000genomes.hs37d5:<tag>
 
    (see `bioconductor-bsgenome.hsapiens.1000genomes.hs37d5/tags`_ for valid values for ``<tag>``)
 

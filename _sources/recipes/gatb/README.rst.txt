@@ -48,7 +48,7 @@ gatb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gatb:<tag>
+      docker pull quay.io/biocontainers/gatb:<tag>
 
    (see `gatb/tags`_ for valid values for ``<tag>``)
 

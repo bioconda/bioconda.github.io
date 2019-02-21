@@ -62,7 +62,7 @@ drep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/drep:<tag>
+      docker pull quay.io/biocontainers/drep:<tag>
 
    (see `drep/tags`_ for valid values for ``<tag>``)
 

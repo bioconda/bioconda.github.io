@@ -58,7 +58,7 @@ kopt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kopt:<tag>
+      docker pull quay.io/biocontainers/kopt:<tag>
 
    (see `kopt/tags`_ for valid values for ``<tag>``)
 

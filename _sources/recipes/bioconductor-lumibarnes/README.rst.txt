@@ -46,7 +46,7 @@ bioconductor-lumibarnes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lumibarnes:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lumibarnes:<tag>
 
    (see `bioconductor-lumibarnes/tags`_ for valid values for ``<tag>``)
 

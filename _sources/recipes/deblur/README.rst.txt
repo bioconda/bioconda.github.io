@@ -54,7 +54,7 @@ deblur
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/deblur:<tag>
+      docker pull quay.io/biocontainers/deblur:<tag>
 
    (see `deblur/tags`_ for valid values for ``<tag>``)
 

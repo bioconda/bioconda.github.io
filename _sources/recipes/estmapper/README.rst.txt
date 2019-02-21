@@ -48,7 +48,7 @@ estmapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/estmapper:<tag>
+      docker pull quay.io/biocontainers/estmapper:<tag>
 
    (see `estmapper/tags`_ for valid values for ``<tag>``)
 

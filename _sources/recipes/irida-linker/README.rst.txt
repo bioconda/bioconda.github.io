@@ -56,7 +56,7 @@ irida-linker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/irida-linker:<tag>
+      docker pull quay.io/biocontainers/irida-linker:<tag>
 
    (see `irida-linker/tags`_ for valid values for ``<tag>``)
 

@@ -54,7 +54,7 @@ bioconductor-msstatsqcgui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msstatsqcgui:<tag>
+      docker pull quay.io/biocontainers/bioconductor-msstatsqcgui:<tag>
 
    (see `bioconductor-msstatsqcgui/tags`_ for valid values for ``<tag>``)
 

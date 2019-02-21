@@ -51,7 +51,7 @@ bioconductor-quaternaryprod
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-quaternaryprod:<tag>
+      docker pull quay.io/biocontainers/bioconductor-quaternaryprod:<tag>
 
    (see `bioconductor-quaternaryprod/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ minialign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/minialign:<tag>
+      docker pull quay.io/biocontainers/minialign:<tag>
 
    (see `minialign/tags`_ for valid values for ``<tag>``)
 

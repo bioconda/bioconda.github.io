@@ -42,7 +42,7 @@
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/2pg_cartesian:<tag>
+      docker pull quay.io/biocontainers/2pg_cartesian:<tag>
 
    (see `2pg_cartesian/tags`_ for valid values for ``<tag>``)
 

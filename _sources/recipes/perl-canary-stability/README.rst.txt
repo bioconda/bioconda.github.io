@@ -40,7 +40,7 @@ perl-canary-stability
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-canary-stability:<tag>
+      docker pull quay.io/biocontainers/perl-canary-stability:<tag>
 
    (see `perl-canary-stability/tags`_ for valid values for ``<tag>``)
 

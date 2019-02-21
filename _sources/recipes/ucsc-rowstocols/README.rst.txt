@@ -50,7 +50,7 @@ ucsc-rowstocols
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-rowstocols:<tag>
+      docker pull quay.io/biocontainers/ucsc-rowstocols:<tag>
 
    (see `ucsc-rowstocols/tags`_ for valid values for ``<tag>``)
 

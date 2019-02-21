@@ -52,7 +52,7 @@ binsanity
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/binsanity:<tag>
+      docker pull quay.io/biocontainers/binsanity:<tag>
 
    (see `binsanity/tags`_ for valid values for ``<tag>``)
 

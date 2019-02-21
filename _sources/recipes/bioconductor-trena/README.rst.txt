@@ -82,7 +82,7 @@ bioconductor-trena
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-trena:<tag>
+      docker pull quay.io/biocontainers/bioconductor-trena:<tag>
 
    (see `bioconductor-trena/tags`_ for valid values for ``<tag>``)
 

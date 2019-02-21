@@ -38,7 +38,7 @@ bioconductor-rcellminer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rcellminer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rcellminer:<tag>
 
    (see `bioconductor-rcellminer/tags`_ for valid values for ``<tag>``)
 

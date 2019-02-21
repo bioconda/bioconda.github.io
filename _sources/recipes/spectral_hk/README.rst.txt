@@ -40,7 +40,7 @@ spectral_hk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spectral_hk:<tag>
+      docker pull quay.io/biocontainers/spectral_hk:<tag>
 
    (see `spectral_hk/tags`_ for valid values for ``<tag>``)
 

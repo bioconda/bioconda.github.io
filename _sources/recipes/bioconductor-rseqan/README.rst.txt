@@ -40,7 +40,7 @@ bioconductor-rseqan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rseqan:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rseqan:<tag>
 
    (see `bioconductor-rseqan/tags`_ for valid values for ``<tag>``)
 

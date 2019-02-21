@@ -43,7 +43,7 @@ nonpareil
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nonpareil:<tag>
+      docker pull quay.io/biocontainers/nonpareil:<tag>
 
    (see `nonpareil/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ bioconductor-cnordt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cnordt:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cnordt:<tag>
 
    (see `bioconductor-cnordt/tags`_ for valid values for ``<tag>``)
 

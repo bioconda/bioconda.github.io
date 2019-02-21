@@ -46,7 +46,7 @@ bioconductor-bsgenome.btaurus.ucsc.bostau6.masked
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.btaurus.ucsc.bostau6.masked:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.btaurus.ucsc.bostau6.masked:<tag>
 
    (see `bioconductor-bsgenome.btaurus.ucsc.bostau6.masked/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ bioconductor-gep2pep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gep2pep:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gep2pep:<tag>
 
    (see `bioconductor-gep2pep/tags`_ for valid values for ``<tag>``)
 

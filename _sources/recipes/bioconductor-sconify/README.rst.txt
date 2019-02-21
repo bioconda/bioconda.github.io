@@ -56,7 +56,7 @@ bioconductor-sconify
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sconify:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sconify:<tag>
 
    (see `bioconductor-sconify/tags`_ for valid values for ``<tag>``)
 

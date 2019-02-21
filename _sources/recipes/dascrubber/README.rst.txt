@@ -40,7 +40,7 @@ dascrubber
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dascrubber:<tag>
+      docker pull quay.io/biocontainers/dascrubber:<tag>
 
    (see `dascrubber/tags`_ for valid values for ``<tag>``)
 

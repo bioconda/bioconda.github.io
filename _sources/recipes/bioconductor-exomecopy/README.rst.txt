@@ -51,7 +51,7 @@ bioconductor-exomecopy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-exomecopy:<tag>
+      docker pull quay.io/biocontainers/bioconductor-exomecopy:<tag>
 
    (see `bioconductor-exomecopy/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ sortmerna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sortmerna:<tag>
+      docker pull quay.io/biocontainers/sortmerna:<tag>
 
    (see `sortmerna/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ r-mutoss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-mutoss:<tag>
+      docker pull quay.io/biocontainers/r-mutoss:<tag>
 
    (see `r-mutoss/tags`_ for valid values for ``<tag>``)
 

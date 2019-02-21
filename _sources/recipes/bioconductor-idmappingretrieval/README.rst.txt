@@ -38,7 +38,7 @@ bioconductor-idmappingretrieval
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-idmappingretrieval:<tag>
+      docker pull quay.io/biocontainers/bioconductor-idmappingretrieval:<tag>
 
    (see `bioconductor-idmappingretrieval/tags`_ for valid values for ``<tag>``)
 

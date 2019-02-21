@@ -40,7 +40,7 @@ perl-font-afm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-font-afm:<tag>
+      docker pull quay.io/biocontainers/perl-font-afm:<tag>
 
    (see `perl-font-afm/tags`_ for valid values for ``<tag>``)
 

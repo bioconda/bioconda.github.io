@@ -53,7 +53,7 @@ bioconductor-svaplsseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-svaplsseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-svaplsseq:<tag>
 
    (see `bioconductor-svaplsseq/tags`_ for valid values for ``<tag>``)
 

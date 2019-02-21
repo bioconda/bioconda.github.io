@@ -48,7 +48,7 @@ bioconductor-props
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-props:<tag>
+      docker pull quay.io/biocontainers/bioconductor-props:<tag>
 
    (see `bioconductor-props/tags`_ for valid values for ``<tag>``)
 

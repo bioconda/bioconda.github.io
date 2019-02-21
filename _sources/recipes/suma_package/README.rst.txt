@@ -42,7 +42,7 @@ suma_package
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/suma_package:<tag>
+      docker pull quay.io/biocontainers/suma_package:<tag>
 
    (see `suma_package/tags`_ for valid values for ``<tag>``)
 

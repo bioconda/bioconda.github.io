@@ -44,7 +44,7 @@ adapterremoval
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/adapterremoval:<tag>
+      docker pull quay.io/biocontainers/adapterremoval:<tag>
 
    (see `adapterremoval/tags`_ for valid values for ``<tag>``)
 

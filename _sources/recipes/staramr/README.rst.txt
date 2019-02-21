@@ -54,7 +54,7 @@ staramr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/staramr:<tag>
+      docker pull quay.io/biocontainers/staramr:<tag>
 
    (see `staramr/tags`_ for valid values for ``<tag>``)
 

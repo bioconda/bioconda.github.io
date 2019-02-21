@@ -44,7 +44,7 @@ bioconductor-bovineprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bovineprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bovineprobe:<tag>
 
    (see `bioconductor-bovineprobe/tags`_ for valid values for ``<tag>``)
 

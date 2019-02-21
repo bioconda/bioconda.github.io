@@ -72,7 +72,7 @@ prestor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prestor:<tag>
+      docker pull quay.io/biocontainers/prestor:<tag>
 
    (see `prestor/tags`_ for valid values for ``<tag>``)
 

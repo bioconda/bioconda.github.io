@@ -44,7 +44,7 @@ bioconductor-bsgenome.osativa.msu.msu7
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.osativa.msu.msu7:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.osativa.msu.msu7:<tag>
 
    (see `bioconductor-bsgenome.osativa.msu.msu7/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ pepr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pepr:<tag>
+      docker pull quay.io/biocontainers/pepr:<tag>
 
    (see `pepr/tags`_ for valid values for ``<tag>``)
 

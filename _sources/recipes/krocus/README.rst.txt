@@ -49,7 +49,7 @@ krocus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/krocus:<tag>
+      docker pull quay.io/biocontainers/krocus:<tag>
 
    (see `krocus/tags`_ for valid values for ``<tag>``)
 

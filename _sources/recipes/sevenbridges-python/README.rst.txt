@@ -46,7 +46,7 @@ sevenbridges-python
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sevenbridges-python:<tag>
+      docker pull quay.io/biocontainers/sevenbridges-python:<tag>
 
    (see `sevenbridges-python/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-primeviewprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-primeviewprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-primeviewprobe:<tag>
 
    (see `bioconductor-primeviewprobe/tags`_ for valid values for ``<tag>``)
 

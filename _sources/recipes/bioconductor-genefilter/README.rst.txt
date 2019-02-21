@@ -57,7 +57,7 @@ bioconductor-genefilter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genefilter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genefilter:<tag>
 
    (see `bioconductor-genefilter/tags`_ for valid values for ``<tag>``)
 

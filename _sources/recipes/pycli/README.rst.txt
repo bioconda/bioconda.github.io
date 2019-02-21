@@ -40,7 +40,7 @@ pycli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pycli:<tag>
+      docker pull quay.io/biocontainers/pycli:<tag>
 
    (see `pycli/tags`_ for valid values for ``<tag>``)
 

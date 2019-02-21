@@ -60,7 +60,7 @@ bioconductor-lineagepulse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lineagepulse:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lineagepulse:<tag>
 
    (see `bioconductor-lineagepulse/tags`_ for valid values for ``<tag>``)
 

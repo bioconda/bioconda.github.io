@@ -48,7 +48,7 @@ abyss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/abyss:<tag>
+      docker pull quay.io/biocontainers/abyss:<tag>
 
    (see `abyss/tags`_ for valid values for ``<tag>``)
 

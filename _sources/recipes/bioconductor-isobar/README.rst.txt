@@ -50,7 +50,7 @@ bioconductor-isobar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-isobar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-isobar:<tag>
 
    (see `bioconductor-isobar/tags`_ for valid values for ``<tag>``)
 

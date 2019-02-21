@@ -42,7 +42,7 @@ bioconductor-wes.1kg.wugsc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-wes.1kg.wugsc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-wes.1kg.wugsc:<tag>
 
    (see `bioconductor-wes.1kg.wugsc/tags`_ for valid values for ``<tag>``)
 

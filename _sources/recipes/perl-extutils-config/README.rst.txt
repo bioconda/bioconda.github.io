@@ -42,7 +42,7 @@ perl-extutils-config
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-extutils-config:<tag>
+      docker pull quay.io/biocontainers/perl-extutils-config:<tag>
 
    (see `perl-extutils-config/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ bioexcel_seqqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioexcel_seqqc:<tag>
+      docker pull quay.io/biocontainers/bioexcel_seqqc:<tag>
 
    (see `bioexcel_seqqc/tags`_ for valid values for ``<tag>``)
 

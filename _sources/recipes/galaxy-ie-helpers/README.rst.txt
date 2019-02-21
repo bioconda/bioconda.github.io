@@ -42,7 +42,7 @@ galaxy-ie-helpers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/galaxy-ie-helpers:<tag>
+      docker pull quay.io/biocontainers/galaxy-ie-helpers:<tag>
 
    (see `galaxy-ie-helpers/tags`_ for valid values for ``<tag>``)
 

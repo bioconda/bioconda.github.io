@@ -43,7 +43,7 @@ bioconductor-bac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bac:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bac:<tag>
 
    (see `bioconductor-bac/tags`_ for valid values for ``<tag>``)
 

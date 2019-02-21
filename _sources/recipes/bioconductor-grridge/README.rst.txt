@@ -52,7 +52,7 @@ bioconductor-grridge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-grridge:<tag>
+      docker pull quay.io/biocontainers/bioconductor-grridge:<tag>
 
    (see `bioconductor-grridge/tags`_ for valid values for ``<tag>``)
 

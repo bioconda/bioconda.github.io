@@ -40,7 +40,7 @@ pycsg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pycsg:<tag>
+      docker pull quay.io/biocontainers/pycsg:<tag>
 
    (see `pycsg/tags`_ for valid values for ``<tag>``)
 

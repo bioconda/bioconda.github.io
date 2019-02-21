@@ -42,7 +42,7 @@ soapdenovo2-prepare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/soapdenovo2-prepare:<tag>
+      docker pull quay.io/biocontainers/soapdenovo2-prepare:<tag>
 
    (see `soapdenovo2-prepare/tags`_ for valid values for ``<tag>``)
 

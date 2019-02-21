@@ -50,7 +50,7 @@ bioconductor-drawproteins
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-drawproteins:<tag>
+      docker pull quay.io/biocontainers/bioconductor-drawproteins:<tag>
 
    (see `bioconductor-drawproteins/tags`_ for valid values for ``<tag>``)
 

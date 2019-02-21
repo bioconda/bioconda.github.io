@@ -46,7 +46,7 @@ perl-tie-refhash-weak
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-tie-refhash-weak:<tag>
+      docker pull quay.io/biocontainers/perl-tie-refhash-weak:<tag>
 
    (see `perl-tie-refhash-weak/tags`_ for valid values for ``<tag>``)
 

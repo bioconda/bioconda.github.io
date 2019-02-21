@@ -47,7 +47,7 @@ bioconductor-spktools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-spktools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-spktools:<tag>
 
    (see `bioconductor-spktools/tags`_ for valid values for ``<tag>``)
 

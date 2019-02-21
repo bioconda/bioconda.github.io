@@ -46,7 +46,7 @@ var-agg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/var-agg:<tag>
+      docker pull quay.io/biocontainers/var-agg:<tag>
 
    (see `var-agg/tags`_ for valid values for ``<tag>``)
 

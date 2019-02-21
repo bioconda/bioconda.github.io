@@ -51,7 +51,7 @@ pyteomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyteomics:<tag>
+      docker pull quay.io/biocontainers/pyteomics:<tag>
 
    (see `pyteomics/tags`_ for valid values for ``<tag>``)
 

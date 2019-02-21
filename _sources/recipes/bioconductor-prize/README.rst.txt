@@ -53,7 +53,7 @@ bioconductor-prize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-prize:<tag>
+      docker pull quay.io/biocontainers/bioconductor-prize:<tag>
 
    (see `bioconductor-prize/tags`_ for valid values for ``<tag>``)
 

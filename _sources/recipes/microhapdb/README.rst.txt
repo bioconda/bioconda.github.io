@@ -42,7 +42,7 @@ microhapdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/microhapdb:<tag>
+      docker pull quay.io/biocontainers/microhapdb:<tag>
 
    (see `microhapdb/tags`_ for valid values for ``<tag>``)
 

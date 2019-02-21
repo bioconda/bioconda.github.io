@@ -70,7 +70,7 @@ perl-test-class-moose
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-class-moose:<tag>
+      docker pull quay.io/biocontainers/perl-test-class-moose:<tag>
 
    (see `perl-test-class-moose/tags`_ for valid values for ``<tag>``)
 

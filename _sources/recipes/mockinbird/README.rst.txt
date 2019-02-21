@@ -74,7 +74,7 @@ mockinbird
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mockinbird:<tag>
+      docker pull quay.io/biocontainers/mockinbird:<tag>
 
    (see `mockinbird/tags`_ for valid values for ``<tag>``)
 

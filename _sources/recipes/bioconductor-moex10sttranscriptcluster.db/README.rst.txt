@@ -46,7 +46,7 @@ bioconductor-moex10sttranscriptcluster.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-moex10sttranscriptcluster.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db:<tag>
 
    (see `bioconductor-moex10sttranscriptcluster.db/tags`_ for valid values for ``<tag>``)
 

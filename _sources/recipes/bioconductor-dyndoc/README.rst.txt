@@ -41,7 +41,7 @@ bioconductor-dyndoc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dyndoc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dyndoc:<tag>
 
    (see `bioconductor-dyndoc/tags`_ for valid values for ``<tag>``)
 

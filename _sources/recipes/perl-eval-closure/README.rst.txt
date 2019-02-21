@@ -46,7 +46,7 @@ perl-eval-closure
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-eval-closure:<tag>
+      docker pull quay.io/biocontainers/perl-eval-closure:<tag>
 
    (see `perl-eval-closure/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ perl-bio-db-sam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-db-sam:<tag>
+      docker pull quay.io/biocontainers/perl-bio-db-sam:<tag>
 
    (see `perl-bio-db-sam/tags`_ for valid values for ``<tag>``)
 

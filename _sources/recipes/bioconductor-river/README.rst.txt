@@ -48,7 +48,7 @@ bioconductor-river
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-river:<tag>
+      docker pull quay.io/biocontainers/bioconductor-river:<tag>
 
    (see `bioconductor-river/tags`_ for valid values for ``<tag>``)
 

@@ -65,7 +65,7 @@ bioconductor-pwomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pwomics:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pwomics:<tag>
 
    (see `bioconductor-pwomics/tags`_ for valid values for ``<tag>``)
 

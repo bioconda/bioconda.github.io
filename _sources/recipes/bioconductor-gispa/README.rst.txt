@@ -60,7 +60,7 @@ bioconductor-gispa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gispa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gispa:<tag>
 
    (see `bioconductor-gispa/tags`_ for valid values for ``<tag>``)
 

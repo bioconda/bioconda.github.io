@@ -52,7 +52,7 @@ bioconductor-rtandem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtandem:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtandem:<tag>
 
    (see `bioconductor-rtandem/tags`_ for valid values for ``<tag>``)
 

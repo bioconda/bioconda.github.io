@@ -44,7 +44,7 @@ bioconductor-saureusprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-saureusprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-saureusprobe:<tag>
 
    (see `bioconductor-saureusprobe/tags`_ for valid values for ``<tag>``)
 

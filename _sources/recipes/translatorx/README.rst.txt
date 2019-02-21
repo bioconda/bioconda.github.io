@@ -43,7 +43,7 @@ translatorx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/translatorx:<tag>
+      docker pull quay.io/biocontainers/translatorx:<tag>
 
    (see `translatorx/tags`_ for valid values for ``<tag>``)
 

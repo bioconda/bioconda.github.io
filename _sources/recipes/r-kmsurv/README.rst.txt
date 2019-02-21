@@ -40,7 +40,7 @@ r-kmsurv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-kmsurv:<tag>
+      docker pull quay.io/biocontainers/r-kmsurv:<tag>
 
    (see `r-kmsurv/tags`_ for valid values for ``<tag>``)
 

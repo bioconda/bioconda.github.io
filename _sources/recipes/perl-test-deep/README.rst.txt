@@ -40,7 +40,7 @@ perl-test-deep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-deep:<tag>
+      docker pull quay.io/biocontainers/perl-test-deep:<tag>
 
    (see `perl-test-deep/tags`_ for valid values for ``<tag>``)
 

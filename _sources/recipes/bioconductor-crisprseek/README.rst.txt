@@ -59,7 +59,7 @@ bioconductor-crisprseek
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-crisprseek:<tag>
+      docker pull quay.io/biocontainers/bioconductor-crisprseek:<tag>
 
    (see `bioconductor-crisprseek/tags`_ for valid values for ``<tag>``)
 

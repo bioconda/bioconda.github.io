@@ -77,7 +77,7 @@ bioconductor-madseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-madseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-madseq:<tag>
 
    (see `bioconductor-madseq/tags`_ for valid values for ``<tag>``)
 

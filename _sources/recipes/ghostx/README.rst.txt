@@ -42,7 +42,7 @@ ghostx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ghostx:<tag>
+      docker pull quay.io/biocontainers/ghostx:<tag>
 
    (see `ghostx/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ btrim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/btrim:<tag>
+      docker pull quay.io/biocontainers/btrim:<tag>
 
    (see `btrim/tags`_ for valid values for ``<tag>``)
 

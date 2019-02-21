@@ -64,7 +64,7 @@ bioconductor-metavizr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metavizr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metavizr:<tag>
 
    (see `bioconductor-metavizr/tags`_ for valid values for ``<tag>``)
 

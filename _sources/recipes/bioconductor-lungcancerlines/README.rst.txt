@@ -44,7 +44,7 @@ bioconductor-lungcancerlines
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lungcancerlines:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lungcancerlines:<tag>
 
    (see `bioconductor-lungcancerlines/tags`_ for valid values for ``<tag>``)
 

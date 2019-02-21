@@ -56,7 +56,7 @@ pydna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pydna:<tag>
+      docker pull quay.io/biocontainers/pydna:<tag>
 
    (see `pydna/tags`_ for valid values for ``<tag>``)
 

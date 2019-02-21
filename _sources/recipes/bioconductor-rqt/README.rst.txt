@@ -58,7 +58,7 @@ bioconductor-rqt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rqt:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rqt:<tag>
 
    (see `bioconductor-rqt/tags`_ for valid values for ``<tag>``)
 

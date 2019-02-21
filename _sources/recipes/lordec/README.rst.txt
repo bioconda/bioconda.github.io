@@ -48,7 +48,7 @@ lordec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lordec:<tag>
+      docker pull quay.io/biocontainers/lordec:<tag>
 
    (see `lordec/tags`_ for valid values for ``<tag>``)
 

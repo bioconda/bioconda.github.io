@@ -62,7 +62,7 @@ biopet-seattleseqkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-seattleseqkit:<tag>
+      docker pull quay.io/biocontainers/biopet-seattleseqkit:<tag>
 
    (see `biopet-seattleseqkit/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ ucsc-pslselect
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslselect:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslselect:<tag>
 
    (see `ucsc-pslselect/tags`_ for valid values for ``<tag>``)
 

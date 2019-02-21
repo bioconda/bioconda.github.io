@@ -45,7 +45,7 @@ bioconductor-rpx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rpx:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rpx:<tag>
 
    (see `bioconductor-rpx/tags`_ for valid values for ``<tag>``)
 

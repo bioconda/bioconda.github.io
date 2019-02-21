@@ -80,7 +80,7 @@ bioconductor-mtseeker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mtseeker:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mtseeker:<tag>
 
    (see `bioconductor-mtseeker/tags`_ for valid values for ``<tag>``)
 

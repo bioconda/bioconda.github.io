@@ -47,7 +47,7 @@ bioconductor-farms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-farms:<tag>
+      docker pull quay.io/biocontainers/bioconductor-farms:<tag>
 
    (see `bioconductor-farms/tags`_ for valid values for ``<tag>``)
 

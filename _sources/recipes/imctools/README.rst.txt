@@ -52,7 +52,7 @@ imctools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/imctools:<tag>
+      docker pull quay.io/biocontainers/imctools:<tag>
 
    (see `imctools/tags`_ for valid values for ``<tag>``)
 

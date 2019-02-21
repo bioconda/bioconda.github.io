@@ -56,7 +56,7 @@ bioconductor-bioccheck
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bioccheck:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bioccheck:<tag>
 
    (see `bioconductor-bioccheck/tags`_ for valid values for ``<tag>``)
 

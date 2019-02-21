@@ -41,7 +41,7 @@ bioconductor-mpfe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mpfe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mpfe:<tag>
 
    (see `bioconductor-mpfe/tags`_ for valid values for ``<tag>``)
 

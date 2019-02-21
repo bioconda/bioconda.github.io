@@ -52,7 +52,7 @@ digestiflow-demux
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/digestiflow-demux:<tag>
+      docker pull quay.io/biocontainers/digestiflow-demux:<tag>
 
    (see `digestiflow-demux/tags`_ for valid values for ``<tag>``)
 

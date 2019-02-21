@@ -47,7 +47,7 @@ bioconductor-acme
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-acme:<tag>
+      docker pull quay.io/biocontainers/bioconductor-acme:<tag>
 
    (see `bioconductor-acme/tags`_ for valid values for ``<tag>``)
 

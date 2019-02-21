@@ -40,7 +40,7 @@ perl-class-accessor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-class-accessor:<tag>
+      docker pull quay.io/biocontainers/perl-class-accessor:<tag>
 
    (see `perl-class-accessor/tags`_ for valid values for ``<tag>``)
 

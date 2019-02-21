@@ -48,7 +48,7 @@ r-imputelcmd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-imputelcmd:<tag>
+      docker pull quay.io/biocontainers/r-imputelcmd:<tag>
 
    (see `r-imputelcmd/tags`_ for valid values for ``<tag>``)
 

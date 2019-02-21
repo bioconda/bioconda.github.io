@@ -70,7 +70,7 @@ planemo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/planemo:<tag>
+      docker pull quay.io/biocontainers/planemo:<tag>
 
    (see `planemo/tags`_ for valid values for ``<tag>``)
 

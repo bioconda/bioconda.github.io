@@ -52,7 +52,7 @@ genomelake
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genomelake:<tag>
+      docker pull quay.io/biocontainers/genomelake:<tag>
 
    (see `genomelake/tags`_ for valid values for ``<tag>``)
 

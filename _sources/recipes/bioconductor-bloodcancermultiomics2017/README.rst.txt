@@ -74,7 +74,7 @@ bioconductor-bloodcancermultiomics2017
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bloodcancermultiomics2017:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bloodcancermultiomics2017:<tag>
 
    (see `bioconductor-bloodcancermultiomics2017/tags`_ for valid values for ``<tag>``)
 

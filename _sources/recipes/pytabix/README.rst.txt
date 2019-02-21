@@ -42,7 +42,7 @@ pytabix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pytabix:<tag>
+      docker pull quay.io/biocontainers/pytabix:<tag>
 
    (see `pytabix/tags`_ for valid values for ``<tag>``)
 

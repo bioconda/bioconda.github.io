@@ -56,7 +56,7 @@ bioconductor-redseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-redseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-redseq:<tag>
 
    (see `bioconductor-redseq/tags`_ for valid values for ``<tag>``)
 

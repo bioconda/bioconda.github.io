@@ -40,7 +40,7 @@ perl-file-spec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-spec:<tag>
+      docker pull quay.io/biocontainers/perl-file-spec:<tag>
 
    (see `perl-file-spec/tags`_ for valid values for ``<tag>``)
 

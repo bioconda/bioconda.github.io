@@ -45,7 +45,7 @@ locarna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/locarna:<tag>
+      docker pull quay.io/biocontainers/locarna:<tag>
 
    (see `locarna/tags`_ for valid values for ``<tag>``)
 

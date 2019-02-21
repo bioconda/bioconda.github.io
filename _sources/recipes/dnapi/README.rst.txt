@@ -40,7 +40,7 @@ dnapi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dnapi:<tag>
+      docker pull quay.io/biocontainers/dnapi:<tag>
 
    (see `dnapi/tags`_ for valid values for ``<tag>``)
 

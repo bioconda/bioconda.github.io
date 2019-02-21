@@ -42,7 +42,7 @@ perl-number-format
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-number-format:<tag>
+      docker pull quay.io/biocontainers/perl-number-format:<tag>
 
    (see `perl-number-format/tags`_ for valid values for ``<tag>``)
 

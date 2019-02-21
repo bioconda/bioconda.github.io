@@ -59,7 +59,7 @@ bioconductor-zinbwave
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-zinbwave:<tag>
+      docker pull quay.io/biocontainers/bioconductor-zinbwave:<tag>
 
    (see `bioconductor-zinbwave/tags`_ for valid values for ``<tag>``)
 

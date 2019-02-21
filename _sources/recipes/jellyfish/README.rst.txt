@@ -44,7 +44,7 @@ jellyfish
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/jellyfish:<tag>
+      docker pull quay.io/biocontainers/jellyfish:<tag>
 
    (see `jellyfish/tags`_ for valid values for ``<tag>``)
 

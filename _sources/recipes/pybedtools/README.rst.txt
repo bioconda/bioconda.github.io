@@ -55,7 +55,7 @@ pybedtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pybedtools:<tag>
+      docker pull quay.io/biocontainers/pybedtools:<tag>
 
    (see `pybedtools/tags`_ for valid values for ``<tag>``)
 

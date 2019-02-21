@@ -71,7 +71,7 @@ bioconductor-minimumdistance
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-minimumdistance:<tag>
+      docker pull quay.io/biocontainers/bioconductor-minimumdistance:<tag>
 
    (see `bioconductor-minimumdistance/tags`_ for valid values for ``<tag>``)
 

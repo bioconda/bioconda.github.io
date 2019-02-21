@@ -42,7 +42,7 @@ genologics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genologics:<tag>
+      docker pull quay.io/biocontainers/genologics:<tag>
 
    (see `genologics/tags`_ for valid values for ``<tag>``)
 

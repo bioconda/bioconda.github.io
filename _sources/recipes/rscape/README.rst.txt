@@ -44,7 +44,7 @@ rscape
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rscape:<tag>
+      docker pull quay.io/biocontainers/rscape:<tag>
 
    (see `rscape/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ clipandmerge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clipandmerge:<tag>
+      docker pull quay.io/biocontainers/clipandmerge:<tag>
 
    (see `clipandmerge/tags`_ for valid values for ``<tag>``)
 

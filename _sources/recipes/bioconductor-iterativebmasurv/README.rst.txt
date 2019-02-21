@@ -47,7 +47,7 @@ bioconductor-iterativebmasurv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-iterativebmasurv:<tag>
+      docker pull quay.io/biocontainers/bioconductor-iterativebmasurv:<tag>
 
    (see `bioconductor-iterativebmasurv/tags`_ for valid values for ``<tag>``)
 

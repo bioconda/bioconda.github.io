@@ -45,7 +45,7 @@ r-dbchip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-dbchip:<tag>
+      docker pull quay.io/biocontainers/r-dbchip:<tag>
 
    (see `r-dbchip/tags`_ for valid values for ``<tag>``)
 

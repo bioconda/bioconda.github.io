@@ -44,7 +44,7 @@ bioconductor-rtcga.cnv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.cnv:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtcga.cnv:<tag>
 
    (see `bioconductor-rtcga.cnv/tags`_ for valid values for ``<tag>``)
 

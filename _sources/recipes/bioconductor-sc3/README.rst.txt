@@ -81,7 +81,7 @@ bioconductor-sc3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sc3:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sc3:<tag>
 
    (see `bioconductor-sc3/tags`_ for valid values for ``<tag>``)
 

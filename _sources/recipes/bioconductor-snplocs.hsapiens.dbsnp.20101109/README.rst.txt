@@ -48,7 +48,7 @@ bioconductor-snplocs.hsapiens.dbsnp.20101109
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20101109:<tag>
+      docker pull quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20101109:<tag>
 
    (see `bioconductor-snplocs.hsapiens.dbsnp.20101109/tags`_ for valid values for ``<tag>``)
 

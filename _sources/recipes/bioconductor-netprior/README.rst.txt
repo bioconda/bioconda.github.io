@@ -56,7 +56,7 @@ bioconductor-netprior
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-netprior:<tag>
+      docker pull quay.io/biocontainers/bioconductor-netprior:<tag>
 
    (see `bioconductor-netprior/tags`_ for valid values for ``<tag>``)
 

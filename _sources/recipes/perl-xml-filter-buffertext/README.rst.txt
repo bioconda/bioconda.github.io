@@ -42,7 +42,7 @@ perl-xml-filter-buffertext
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-filter-buffertext:<tag>
+      docker pull quay.io/biocontainers/perl-xml-filter-buffertext:<tag>
 
    (see `perl-xml-filter-buffertext/tags`_ for valid values for ``<tag>``)
 

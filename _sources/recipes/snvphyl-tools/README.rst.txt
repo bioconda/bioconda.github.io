@@ -62,7 +62,7 @@ snvphyl-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snvphyl-tools:<tag>
+      docker pull quay.io/biocontainers/snvphyl-tools:<tag>
 
    (see `snvphyl-tools/tags`_ for valid values for ``<tag>``)
 

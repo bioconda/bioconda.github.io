@@ -50,7 +50,7 @@ bioconductor-vtpnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-vtpnet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-vtpnet:<tag>
 
    (see `bioconductor-vtpnet/tags`_ for valid values for ``<tag>``)
 

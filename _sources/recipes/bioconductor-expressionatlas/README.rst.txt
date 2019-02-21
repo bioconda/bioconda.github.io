@@ -54,7 +54,7 @@ bioconductor-expressionatlas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-expressionatlas:<tag>
+      docker pull quay.io/biocontainers/bioconductor-expressionatlas:<tag>
 
    (see `bioconductor-expressionatlas/tags`_ for valid values for ``<tag>``)
 

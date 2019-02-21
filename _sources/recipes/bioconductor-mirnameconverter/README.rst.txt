@@ -49,7 +49,7 @@ bioconductor-mirnameconverter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirnameconverter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mirnameconverter:<tag>
 
    (see `bioconductor-mirnameconverter/tags`_ for valid values for ``<tag>``)
 

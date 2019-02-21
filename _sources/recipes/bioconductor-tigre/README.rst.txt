@@ -57,7 +57,7 @@ bioconductor-tigre
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tigre:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tigre:<tag>
 
    (see `bioconductor-tigre/tags`_ for valid values for ``<tag>``)
 

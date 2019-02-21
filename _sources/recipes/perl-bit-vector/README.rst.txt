@@ -40,7 +40,7 @@ perl-bit-vector
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bit-vector:<tag>
+      docker pull quay.io/biocontainers/perl-bit-vector:<tag>
 
    (see `perl-bit-vector/tags`_ for valid values for ``<tag>``)
 

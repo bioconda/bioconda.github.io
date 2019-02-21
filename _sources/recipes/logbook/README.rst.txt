@@ -42,7 +42,7 @@ logbook
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/logbook:<tag>
+      docker pull quay.io/biocontainers/logbook:<tag>
 
    (see `logbook/tags`_ for valid values for ``<tag>``)
 

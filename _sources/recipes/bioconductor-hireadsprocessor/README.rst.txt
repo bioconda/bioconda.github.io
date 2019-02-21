@@ -60,7 +60,7 @@ bioconductor-hireadsprocessor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hireadsprocessor:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hireadsprocessor:<tag>
 
    (see `bioconductor-hireadsprocessor/tags`_ for valid values for ``<tag>``)
 

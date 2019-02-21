@@ -40,7 +40,7 @@ kid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kid:<tag>
+      docker pull quay.io/biocontainers/kid:<tag>
 
    (see `kid/tags`_ for valid values for ``<tag>``)
 

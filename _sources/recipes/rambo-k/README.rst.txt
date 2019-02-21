@@ -50,7 +50,7 @@ rambo-k
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rambo-k:<tag>
+      docker pull quay.io/biocontainers/rambo-k:<tag>
 
    (see `rambo-k/tags`_ for valid values for ``<tag>``)
 

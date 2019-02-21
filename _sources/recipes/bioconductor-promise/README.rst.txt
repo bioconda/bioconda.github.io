@@ -45,7 +45,7 @@ bioconductor-promise
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-promise:<tag>
+      docker pull quay.io/biocontainers/bioconductor-promise:<tag>
 
    (see `bioconductor-promise/tags`_ for valid values for ``<tag>``)
 

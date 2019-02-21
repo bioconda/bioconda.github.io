@@ -46,7 +46,7 @@ r-pma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-pma:<tag>
+      docker pull quay.io/biocontainers/r-pma:<tag>
 
    (see `r-pma/tags`_ for valid values for ``<tag>``)
 

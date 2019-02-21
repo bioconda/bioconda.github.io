@@ -44,7 +44,7 @@ sccaller
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sccaller:<tag>
+      docker pull quay.io/biocontainers/sccaller:<tag>
 
    (see `sccaller/tags`_ for valid values for ``<tag>``)
 

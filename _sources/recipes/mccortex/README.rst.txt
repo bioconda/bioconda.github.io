@@ -43,7 +43,7 @@ mccortex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mccortex:<tag>
+      docker pull quay.io/biocontainers/mccortex:<tag>
 
    (see `mccortex/tags`_ for valid values for ``<tag>``)
 

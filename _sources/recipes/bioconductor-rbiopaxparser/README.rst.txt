@@ -45,7 +45,7 @@ bioconductor-rbiopaxparser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rbiopaxparser:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rbiopaxparser:<tag>
 
    (see `bioconductor-rbiopaxparser/tags`_ for valid values for ``<tag>``)
 

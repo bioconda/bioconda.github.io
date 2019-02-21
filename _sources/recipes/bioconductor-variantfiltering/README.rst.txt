@@ -91,7 +91,7 @@ bioconductor-variantfiltering
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-variantfiltering:<tag>
+      docker pull quay.io/biocontainers/bioconductor-variantfiltering:<tag>
 
    (see `bioconductor-variantfiltering/tags`_ for valid values for ``<tag>``)
 

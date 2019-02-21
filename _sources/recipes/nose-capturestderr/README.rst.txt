@@ -44,7 +44,7 @@ nose-capturestderr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nose-capturestderr:<tag>
+      docker pull quay.io/biocontainers/nose-capturestderr:<tag>
 
    (see `nose-capturestderr/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ bioconductor-geneticsped
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneticsped:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geneticsped:<tag>
 
    (see `bioconductor-geneticsped/tags`_ for valid values for ``<tag>``)
 

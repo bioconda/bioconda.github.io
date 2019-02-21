@@ -42,7 +42,7 @@ bioconductor-mcseadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mcseadata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mcseadata:<tag>
 
    (see `bioconductor-mcseadata/tags`_ for valid values for ``<tag>``)
 

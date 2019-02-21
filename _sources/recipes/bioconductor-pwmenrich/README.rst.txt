@@ -51,7 +51,7 @@ bioconductor-pwmenrich
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pwmenrich:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pwmenrich:<tag>
 
    (see `bioconductor-pwmenrich/tags`_ for valid values for ``<tag>``)
 

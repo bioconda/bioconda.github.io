@@ -51,7 +51,7 @@ htseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/htseq:<tag>
+      docker pull quay.io/biocontainers/htseq:<tag>
 
    (see `htseq/tags`_ for valid values for ``<tag>``)
 

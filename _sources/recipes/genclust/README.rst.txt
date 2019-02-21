@@ -41,7 +41,7 @@ genclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genclust:<tag>
+      docker pull quay.io/biocontainers/genclust:<tag>
 
    (see `genclust/tags`_ for valid values for ``<tag>``)
 

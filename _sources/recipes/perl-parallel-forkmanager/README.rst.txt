@@ -50,7 +50,7 @@ perl-parallel-forkmanager
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-parallel-forkmanager:<tag>
+      docker pull quay.io/biocontainers/perl-parallel-forkmanager:<tag>
 
    (see `perl-parallel-forkmanager/tags`_ for valid values for ``<tag>``)
 

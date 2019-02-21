@@ -66,7 +66,7 @@ bioconductor-karyoploter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-karyoploter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-karyoploter:<tag>
 
    (see `bioconductor-karyoploter/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ andi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/andi:<tag>
+      docker pull quay.io/biocontainers/andi:<tag>
 
    (see `andi/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ flye
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flye:<tag>
+      docker pull quay.io/biocontainers/flye:<tag>
 
    (see `flye/tags`_ for valid values for ``<tag>``)
 

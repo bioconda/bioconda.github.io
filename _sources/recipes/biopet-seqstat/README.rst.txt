@@ -81,7 +81,7 @@ biopet-seqstat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-seqstat:<tag>
+      docker pull quay.io/biocontainers/biopet-seqstat:<tag>
 
    (see `biopet-seqstat/tags`_ for valid values for ``<tag>``)
 

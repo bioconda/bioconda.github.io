@@ -45,7 +45,7 @@ semeta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/semeta:<tag>
+      docker pull quay.io/biocontainers/semeta:<tag>
 
    (see `semeta/tags`_ for valid values for ``<tag>``)
 

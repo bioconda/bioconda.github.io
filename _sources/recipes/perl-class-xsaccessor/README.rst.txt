@@ -44,7 +44,7 @@ perl-class-xsaccessor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-class-xsaccessor:<tag>
+      docker pull quay.io/biocontainers/perl-class-xsaccessor:<tag>
 
    (see `perl-class-xsaccessor/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ evidencemodeler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/evidencemodeler:<tag>
+      docker pull quay.io/biocontainers/evidencemodeler:<tag>
 
    (see `evidencemodeler/tags`_ for valid values for ``<tag>``)
 

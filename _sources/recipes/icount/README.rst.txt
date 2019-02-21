@@ -60,7 +60,7 @@ icount
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/icount:<tag>
+      docker pull quay.io/biocontainers/icount:<tag>
 
    (see `icount/tags`_ for valid values for ``<tag>``)
 

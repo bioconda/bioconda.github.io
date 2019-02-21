@@ -43,7 +43,7 @@ bioconductor-spotsegmentation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-spotsegmentation:<tag>
+      docker pull quay.io/biocontainers/bioconductor-spotsegmentation:<tag>
 
    (see `bioconductor-spotsegmentation/tags`_ for valid values for ``<tag>``)
 

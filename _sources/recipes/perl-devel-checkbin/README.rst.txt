@@ -40,7 +40,7 @@ perl-devel-checkbin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-devel-checkbin:<tag>
+      docker pull quay.io/biocontainers/perl-devel-checkbin:<tag>
 
    (see `perl-devel-checkbin/tags`_ for valid values for ``<tag>``)
 

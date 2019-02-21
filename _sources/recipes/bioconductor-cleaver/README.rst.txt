@@ -47,7 +47,7 @@ bioconductor-cleaver
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cleaver:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cleaver:<tag>
 
    (see `bioconductor-cleaver/tags`_ for valid values for ``<tag>``)
 

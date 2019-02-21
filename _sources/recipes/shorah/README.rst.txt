@@ -57,7 +57,7 @@ shorah
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shorah:<tag>
+      docker pull quay.io/biocontainers/shorah:<tag>
 
    (see `shorah/tags`_ for valid values for ``<tag>``)
 

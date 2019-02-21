@@ -42,7 +42,7 @@ perl-file-copy-link
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-copy-link:<tag>
+      docker pull quay.io/biocontainers/perl-file-copy-link:<tag>
 
    (see `perl-file-copy-link/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ bioconductor-somaticadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-somaticadata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-somaticadata:<tag>
 
    (see `bioconductor-somaticadata/tags`_ for valid values for ``<tag>``)
 

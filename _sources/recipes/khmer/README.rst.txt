@@ -50,7 +50,7 @@ khmer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/khmer:<tag>
+      docker pull quay.io/biocontainers/khmer:<tag>
 
    (see `khmer/tags`_ for valid values for ``<tag>``)
 

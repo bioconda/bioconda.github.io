@@ -48,7 +48,7 @@ graphclust-wrappers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/graphclust-wrappers:<tag>
+      docker pull quay.io/biocontainers/graphclust-wrappers:<tag>
 
    (see `graphclust-wrappers/tags`_ for valid values for ``<tag>``)
 

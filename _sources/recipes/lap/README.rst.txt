@@ -44,7 +44,7 @@ lap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lap:<tag>
+      docker pull quay.io/biocontainers/lap:<tag>
 
    (see `lap/tags`_ for valid values for ``<tag>``)
 

@@ -60,7 +60,7 @@ bioconductor-wiggleplotr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-wiggleplotr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-wiggleplotr:<tag>
 
    (see `bioconductor-wiggleplotr/tags`_ for valid values for ``<tag>``)
 

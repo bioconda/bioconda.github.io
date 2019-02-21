@@ -62,7 +62,7 @@ bioconductor-tximeta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tximeta:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tximeta:<tag>
 
    (see `bioconductor-tximeta/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-chipxpressdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chipxpressdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chipxpressdata:<tag>
 
    (see `bioconductor-chipxpressdata/tags`_ for valid values for ``<tag>``)
 

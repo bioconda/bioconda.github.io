@@ -42,7 +42,7 @@ parafly
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/parafly:<tag>
+      docker pull quay.io/biocontainers/parafly:<tag>
 
    (see `parafly/tags`_ for valid values for ``<tag>``)
 

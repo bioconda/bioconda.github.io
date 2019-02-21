@@ -42,7 +42,7 @@ quicksect
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/quicksect:<tag>
+      docker pull quay.io/biocontainers/quicksect:<tag>
 
    (see `quicksect/tags`_ for valid values for ``<tag>``)
 

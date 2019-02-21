@@ -58,7 +58,7 @@ outrigger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/outrigger:<tag>
+      docker pull quay.io/biocontainers/outrigger:<tag>
 
    (see `outrigger/tags`_ for valid values for ``<tag>``)
 

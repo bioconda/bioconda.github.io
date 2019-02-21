@@ -42,7 +42,7 @@ bioconductor-gatingmldata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gatingmldata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gatingmldata:<tag>
 
    (see `bioconductor-gatingmldata/tags`_ for valid values for ``<tag>``)
 

@@ -59,7 +59,7 @@ bioconductor-cancersubtypes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cancersubtypes:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cancersubtypes:<tag>
 
    (see `bioconductor-cancersubtypes/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ ucsc-psltobigpsl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-psltobigpsl:<tag>
+      docker pull quay.io/biocontainers/ucsc-psltobigpsl:<tag>
 
    (see `ucsc-psltobigpsl/tags`_ for valid values for ``<tag>``)
 

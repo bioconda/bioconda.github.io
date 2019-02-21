@@ -46,7 +46,7 @@ swipe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/swipe:<tag>
+      docker pull quay.io/biocontainers/swipe:<tag>
 
    (see `swipe/tags`_ for valid values for ``<tag>``)
 

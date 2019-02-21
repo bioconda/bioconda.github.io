@@ -42,7 +42,7 @@ bioconductor-pcagopromoter.hs.hg19
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pcagopromoter.hs.hg19:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pcagopromoter.hs.hg19:<tag>
 
    (see `bioconductor-pcagopromoter.hs.hg19/tags`_ for valid values for ``<tag>``)
 

@@ -60,7 +60,7 @@ perl-ppi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-ppi:<tag>
+      docker pull quay.io/biocontainers/perl-ppi:<tag>
 
    (see `perl-ppi/tags`_ for valid values for ``<tag>``)
 

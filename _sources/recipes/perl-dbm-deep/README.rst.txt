@@ -46,7 +46,7 @@ perl-dbm-deep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-dbm-deep:<tag>
+      docker pull quay.io/biocontainers/perl-dbm-deep:<tag>
 
    (see `perl-dbm-deep/tags`_ for valid values for ``<tag>``)
 

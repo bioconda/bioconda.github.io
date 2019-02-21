@@ -71,7 +71,7 @@ bioconductor-vanillaice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-vanillaice:<tag>
+      docker pull quay.io/biocontainers/bioconductor-vanillaice:<tag>
 
    (see `bioconductor-vanillaice/tags`_ for valid values for ``<tag>``)
 

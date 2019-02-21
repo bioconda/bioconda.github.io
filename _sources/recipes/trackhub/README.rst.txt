@@ -42,7 +42,7 @@ trackhub
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trackhub:<tag>
+      docker pull quay.io/biocontainers/trackhub:<tag>
 
    (see `trackhub/tags`_ for valid values for ``<tag>``)
 

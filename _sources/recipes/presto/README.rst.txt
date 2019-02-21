@@ -54,7 +54,7 @@ presto
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/presto:<tag>
+      docker pull quay.io/biocontainers/presto:<tag>
 
    (see `presto/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-lungexpression
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lungexpression:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lungexpression:<tag>
 
    (see `bioconductor-lungexpression/tags`_ for valid values for ``<tag>``)
 

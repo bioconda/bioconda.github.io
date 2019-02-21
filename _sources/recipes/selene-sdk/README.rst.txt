@@ -68,7 +68,7 @@ selene-sdk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/selene-sdk:<tag>
+      docker pull quay.io/biocontainers/selene-sdk:<tag>
 
    (see `selene-sdk/tags`_ for valid values for ``<tag>``)
 

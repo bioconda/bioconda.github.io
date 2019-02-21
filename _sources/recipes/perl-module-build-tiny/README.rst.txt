@@ -60,7 +60,7 @@ perl-module-build-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-build-tiny:<tag>
+      docker pull quay.io/biocontainers/perl-module-build-tiny:<tag>
 
    (see `perl-module-build-tiny/tags`_ for valid values for ``<tag>``)
 

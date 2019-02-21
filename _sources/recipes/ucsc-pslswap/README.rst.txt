@@ -50,7 +50,7 @@ ucsc-pslswap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslswap:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslswap:<tag>
 
    (see `ucsc-pslswap/tags`_ for valid values for ``<tag>``)
 

@@ -22,7 +22,29 @@ bioconductor-camthc
 
    |downloads_bioconductor-camthc| |docker_bioconductor-camthc|
 
-   :versions: 
+   :versions: 1.0.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   
+   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   
+   :depends r-apcluster: 
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-corpcor: 
+   
+   :depends r-dmwr: 
+   
+   :depends r-geometry: 
+   
+   :depends r-nmf: 
+   
+   :depends r-pcapp: 
+   
+   :depends r-rjava: 
    
    :requirements:
 
@@ -38,7 +60,7 @@ bioconductor-camthc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-camthc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-camthc:<tag>
 
    (see `bioconductor-camthc/tags`_ for valid values for ``<tag>``)
 

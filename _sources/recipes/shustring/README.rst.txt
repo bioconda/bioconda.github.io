@@ -38,7 +38,7 @@ shustring
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shustring:<tag>
+      docker pull quay.io/biocontainers/shustring:<tag>
 
    (see `shustring/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-caomicsv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-caomicsv:<tag>
+      docker pull quay.io/biocontainers/bioconductor-caomicsv:<tag>
 
    (see `bioconductor-caomicsv/tags`_ for valid values for ``<tag>``)
 

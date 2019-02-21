@@ -76,7 +76,7 @@ bioconductor-glmsparsenet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-glmsparsenet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-glmsparsenet:<tag>
 
    (see `bioconductor-glmsparsenet/tags`_ for valid values for ``<tag>``)
 

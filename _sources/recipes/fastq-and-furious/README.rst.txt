@@ -42,7 +42,7 @@ fastq-and-furious
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastq-and-furious:<tag>
+      docker pull quay.io/biocontainers/fastq-and-furious:<tag>
 
    (see `fastq-and-furious/tags`_ for valid values for ``<tag>``)
 

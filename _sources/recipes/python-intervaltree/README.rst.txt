@@ -42,7 +42,7 @@ python-intervaltree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-intervaltree:<tag>
+      docker pull quay.io/biocontainers/python-intervaltree:<tag>
 
    (see `python-intervaltree/tags`_ for valid values for ``<tag>``)
 

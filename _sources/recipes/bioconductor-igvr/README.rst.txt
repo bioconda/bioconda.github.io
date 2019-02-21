@@ -52,7 +52,7 @@ bioconductor-igvr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-igvr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-igvr:<tag>
 
    (see `bioconductor-igvr/tags`_ for valid values for ``<tag>``)
 

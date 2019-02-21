@@ -50,7 +50,7 @@ r-cellassign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-cellassign:<tag>
+      docker pull quay.io/biocontainers/r-cellassign:<tag>
 
    (see `r-cellassign/tags`_ for valid values for ``<tag>``)
 

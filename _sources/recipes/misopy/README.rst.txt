@@ -54,7 +54,7 @@ misopy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/misopy:<tag>
+      docker pull quay.io/biocontainers/misopy:<tag>
 
    (see `misopy/tags`_ for valid values for ``<tag>``)
 

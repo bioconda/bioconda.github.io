@@ -73,7 +73,7 @@ bioconductor-sincell
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sincell:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sincell:<tag>
 
    (see `bioconductor-sincell/tags`_ for valid values for ``<tag>``)
 

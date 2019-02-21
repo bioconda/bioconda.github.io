@@ -60,7 +60,7 @@ bioconductor-methylmix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methylmix:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methylmix:<tag>
 
    (see `bioconductor-methylmix/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ minimap2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/minimap2:<tag>
+      docker pull quay.io/biocontainers/minimap2:<tag>
 
    (see `minimap2/tags`_ for valid values for ``<tag>``)
 

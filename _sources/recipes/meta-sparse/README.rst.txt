@@ -58,7 +58,7 @@ meta-sparse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/meta-sparse:<tag>
+      docker pull quay.io/biocontainers/meta-sparse:<tag>
 
    (see `meta-sparse/tags`_ for valid values for ``<tag>``)
 

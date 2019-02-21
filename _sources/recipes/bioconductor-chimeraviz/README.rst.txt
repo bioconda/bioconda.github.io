@@ -88,7 +88,7 @@ bioconductor-chimeraviz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chimeraviz:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chimeraviz:<tag>
 
    (see `bioconductor-chimeraviz/tags`_ for valid values for ``<tag>``)
 

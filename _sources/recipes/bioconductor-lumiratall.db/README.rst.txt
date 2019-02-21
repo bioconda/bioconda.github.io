@@ -46,7 +46,7 @@ bioconductor-lumiratall.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lumiratall.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lumiratall.db:<tag>
 
    (see `bioconductor-lumiratall.db/tags`_ for valid values for ``<tag>``)
 

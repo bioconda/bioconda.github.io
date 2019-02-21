@@ -44,7 +44,7 @@ fqtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fqtools:<tag>
+      docker pull quay.io/biocontainers/fqtools:<tag>
 
    (see `fqtools/tags`_ for valid values for ``<tag>``)
 

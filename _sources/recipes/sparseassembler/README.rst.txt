@@ -44,7 +44,7 @@ sparseassembler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sparseassembler:<tag>
+      docker pull quay.io/biocontainers/sparseassembler:<tag>
 
    (see `sparseassembler/tags`_ for valid values for ``<tag>``)
 

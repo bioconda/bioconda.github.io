@@ -54,7 +54,7 @@ bucketcache
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bucketcache:<tag>
+      docker pull quay.io/biocontainers/bucketcache:<tag>
 
    (see `bucketcache/tags`_ for valid values for ``<tag>``)
 

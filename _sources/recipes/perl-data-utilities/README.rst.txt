@@ -42,7 +42,7 @@ perl-data-utilities
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-data-utilities:<tag>
+      docker pull quay.io/biocontainers/perl-data-utilities:<tag>
 
    (see `perl-data-utilities/tags`_ for valid values for ``<tag>``)
 

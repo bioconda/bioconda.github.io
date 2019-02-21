@@ -42,7 +42,7 @@ bioconductor-hgu133abarcodevecs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hgu133abarcodevecs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hgu133abarcodevecs:<tag>
 
    (see `bioconductor-hgu133abarcodevecs/tags`_ for valid values for ``<tag>``)
 

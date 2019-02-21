@@ -58,7 +58,7 @@ openbabel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/openbabel:<tag>
+      docker pull quay.io/biocontainers/openbabel:<tag>
 
    (see `openbabel/tags`_ for valid values for ``<tag>``)
 

@@ -49,7 +49,7 @@ assemblerflow
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/assemblerflow:<tag>
+      docker pull quay.io/biocontainers/assemblerflow:<tag>
 
    (see `assemblerflow/tags`_ for valid values for ``<tag>``)
 

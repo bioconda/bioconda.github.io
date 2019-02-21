@@ -42,7 +42,7 @@ iqtree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/iqtree:<tag>
+      docker pull quay.io/biocontainers/iqtree:<tag>
 
    (see `iqtree/tags`_ for valid values for ``<tag>``)
 

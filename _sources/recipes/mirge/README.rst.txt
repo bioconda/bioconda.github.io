@@ -58,7 +58,7 @@ mirge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mirge:<tag>
+      docker pull quay.io/biocontainers/mirge:<tag>
 
    (see `mirge/tags`_ for valid values for ``<tag>``)
 

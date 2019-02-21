@@ -49,7 +49,7 @@ bioconductor-meigor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-meigor:<tag>
+      docker pull quay.io/biocontainers/bioconductor-meigor:<tag>
 
    (see `bioconductor-meigor/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ adapterremovalfixprefix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/adapterremovalfixprefix:<tag>
+      docker pull quay.io/biocontainers/adapterremovalfixprefix:<tag>
 
    (see `adapterremovalfixprefix/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ gap2seq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gap2seq:<tag>
+      docker pull quay.io/biocontainers/gap2seq:<tag>
 
    (see `gap2seq/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-rdgidb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rdgidb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rdgidb:<tag>
 
    (see `bioconductor-rdgidb/tags`_ for valid values for ``<tag>``)
 

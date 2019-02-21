@@ -56,7 +56,7 @@ bioconductor-phenopath
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-phenopath:<tag>
+      docker pull quay.io/biocontainers/bioconductor-phenopath:<tag>
 
    (see `bioconductor-phenopath/tags`_ for valid values for ``<tag>``)
 

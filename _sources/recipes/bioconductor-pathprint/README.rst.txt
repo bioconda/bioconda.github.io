@@ -40,7 +40,7 @@ bioconductor-pathprint
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pathprint:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pathprint:<tag>
 
    (see `bioconductor-pathprint/tags`_ for valid values for ``<tag>``)
 

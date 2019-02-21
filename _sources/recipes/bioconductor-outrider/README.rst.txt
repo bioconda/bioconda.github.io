@@ -92,7 +92,7 @@ bioconductor-outrider
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-outrider:<tag>
+      docker pull quay.io/biocontainers/bioconductor-outrider:<tag>
 
    (see `bioconductor-outrider/tags`_ for valid values for ``<tag>``)
 

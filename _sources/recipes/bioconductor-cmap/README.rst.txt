@@ -42,7 +42,7 @@ bioconductor-cmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cmap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cmap:<tag>
 
    (see `bioconductor-cmap/tags`_ for valid values for ``<tag>``)
 

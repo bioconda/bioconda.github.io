@@ -44,7 +44,7 @@ perl-params-coerce
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-params-coerce:<tag>
+      docker pull quay.io/biocontainers/perl-params-coerce:<tag>
 
    (see `perl-params-coerce/tags`_ for valid values for ``<tag>``)
 

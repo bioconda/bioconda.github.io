@@ -52,7 +52,7 @@ prosolo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prosolo:<tag>
+      docker pull quay.io/biocontainers/prosolo:<tag>
 
    (see `prosolo/tags`_ for valid values for ``<tag>``)
 

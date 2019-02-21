@@ -46,7 +46,7 @@ bioconductor-ahensdbs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ahensdbs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ahensdbs:<tag>
 
    (see `bioconductor-ahensdbs/tags`_ for valid values for ``<tag>``)
 

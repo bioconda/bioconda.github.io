@@ -43,7 +43,7 @@ bioconductor-lapmix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lapmix:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lapmix:<tag>
 
    (see `bioconductor-lapmix/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-xml-regexp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-regexp:<tag>
+      docker pull quay.io/biocontainers/perl-xml-regexp:<tag>
 
    (see `perl-xml-regexp/tags`_ for valid values for ``<tag>``)
 

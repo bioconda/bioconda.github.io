@@ -47,7 +47,7 @@ bioconductor-npgsea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-npgsea:<tag>
+      docker pull quay.io/biocontainers/bioconductor-npgsea:<tag>
 
    (see `bioconductor-npgsea/tags`_ for valid values for ``<tag>``)
 

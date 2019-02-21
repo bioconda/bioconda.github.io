@@ -41,7 +41,7 @@ dropseq_tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dropseq_tools:<tag>
+      docker pull quay.io/biocontainers/dropseq_tools:<tag>
 
    (see `dropseq_tools/tags`_ for valid values for ``<tag>``)
 

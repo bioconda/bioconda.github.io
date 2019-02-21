@@ -46,7 +46,7 @@ bioconductor-txdb.ptroglodytes.ucsc.pantro5.refgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.ptroglodytes.ucsc.pantro5.refgene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-txdb.ptroglodytes.ucsc.pantro5.refgene:<tag>
 
    (see `bioconductor-txdb.ptroglodytes.ucsc.pantro5.refgene/tags`_ for valid values for ``<tag>``)
 

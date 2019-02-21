@@ -62,7 +62,7 @@ bioconductor-maser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-maser:<tag>
+      docker pull quay.io/biocontainers/bioconductor-maser:<tag>
 
    (see `bioconductor-maser/tags`_ for valid values for ``<tag>``)
 

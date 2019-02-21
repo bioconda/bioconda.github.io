@@ -42,7 +42,7 @@ bioconductor-ebseqhmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ebseqhmm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ebseqhmm:<tag>
 
    (see `bioconductor-ebseqhmm/tags`_ for valid values for ``<tag>``)
 

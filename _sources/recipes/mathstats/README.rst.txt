@@ -42,7 +42,7 @@ mathstats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mathstats:<tag>
+      docker pull quay.io/biocontainers/mathstats:<tag>
 
    (see `mathstats/tags`_ for valid values for ``<tag>``)
 

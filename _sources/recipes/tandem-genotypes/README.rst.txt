@@ -42,7 +42,7 @@ tandem-genotypes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tandem-genotypes:<tag>
+      docker pull quay.io/biocontainers/tandem-genotypes:<tag>
 
    (see `tandem-genotypes/tags`_ for valid values for ``<tag>``)
 

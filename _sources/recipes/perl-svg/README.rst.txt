@@ -40,7 +40,7 @@ perl-svg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-svg:<tag>
+      docker pull quay.io/biocontainers/perl-svg:<tag>
 
    (see `perl-svg/tags`_ for valid values for ``<tag>``)
 

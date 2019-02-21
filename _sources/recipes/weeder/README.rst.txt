@@ -43,7 +43,7 @@ weeder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/weeder:<tag>
+      docker pull quay.io/biocontainers/weeder:<tag>
 
    (see `weeder/tags`_ for valid values for ``<tag>``)
 

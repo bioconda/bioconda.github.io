@@ -46,7 +46,7 @@ bioconductor-celegans.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-celegans.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-celegans.db:<tag>
 
    (see `bioconductor-celegans.db/tags`_ for valid values for ``<tag>``)
 

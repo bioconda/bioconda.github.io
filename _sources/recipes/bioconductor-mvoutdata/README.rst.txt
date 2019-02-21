@@ -48,7 +48,7 @@ bioconductor-mvoutdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mvoutdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mvoutdata:<tag>
 
    (see `bioconductor-mvoutdata/tags`_ for valid values for ``<tag>``)
 

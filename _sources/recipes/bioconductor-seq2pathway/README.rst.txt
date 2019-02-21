@@ -53,7 +53,7 @@ bioconductor-seq2pathway
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seq2pathway:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seq2pathway:<tag>
 
    (see `bioconductor-seq2pathway/tags`_ for valid values for ``<tag>``)
 

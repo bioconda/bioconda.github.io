@@ -50,7 +50,7 @@ ucsc-mafranges
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-mafranges:<tag>
+      docker pull quay.io/biocontainers/ucsc-mafranges:<tag>
 
    (see `ucsc-mafranges/tags`_ for valid values for ``<tag>``)
 

@@ -54,7 +54,7 @@ bioconductor-cgdv17
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cgdv17:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cgdv17:<tag>
 
    (see `bioconductor-cgdv17/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ gmtk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gmtk:<tag>
+      docker pull quay.io/biocontainers/gmtk:<tag>
 
    (see `gmtk/tags`_ for valid values for ``<tag>``)
 

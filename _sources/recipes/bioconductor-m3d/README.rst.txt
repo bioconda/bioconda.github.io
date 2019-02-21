@@ -59,7 +59,7 @@ bioconductor-m3d
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-m3d:<tag>
+      docker pull quay.io/biocontainers/bioconductor-m3d:<tag>
 
    (see `bioconductor-m3d/tags`_ for valid values for ``<tag>``)
 

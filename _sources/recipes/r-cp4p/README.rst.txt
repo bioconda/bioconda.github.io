@@ -48,7 +48,7 @@ r-cp4p
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-cp4p:<tag>
+      docker pull quay.io/biocontainers/r-cp4p:<tag>
 
    (see `r-cp4p/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ smhasher
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/smhasher:<tag>
+      docker pull quay.io/biocontainers/smhasher:<tag>
 
    (see `smhasher/tags`_ for valid values for ``<tag>``)
 

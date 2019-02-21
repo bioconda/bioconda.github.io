@@ -50,7 +50,7 @@ ucsc-twobitmask
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-twobitmask:<tag>
+      docker pull quay.io/biocontainers/ucsc-twobitmask:<tag>
 
    (see `ucsc-twobitmask/tags`_ for valid values for ``<tag>``)
 

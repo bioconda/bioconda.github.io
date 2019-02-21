@@ -40,7 +40,7 @@ perl-sub-quote
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-quote:<tag>
+      docker pull quay.io/biocontainers/perl-sub-quote:<tag>
 
    (see `perl-sub-quote/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ bioconductor-rmassbank
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rmassbank:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rmassbank:<tag>
 
    (see `bioconductor-rmassbank/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ mdust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mdust:<tag>
+      docker pull quay.io/biocontainers/mdust:<tag>
 
    (see `mdust/tags`_ for valid values for ``<tag>``)
 

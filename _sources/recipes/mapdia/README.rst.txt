@@ -43,7 +43,7 @@ mapdia
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mapdia:<tag>
+      docker pull quay.io/biocontainers/mapdia:<tag>
 
    (see `mapdia/tags`_ for valid values for ``<tag>``)
 

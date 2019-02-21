@@ -46,7 +46,7 @@ bioconductor-wrench
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-wrench:<tag>
+      docker pull quay.io/biocontainers/bioconductor-wrench:<tag>
 
    (see `bioconductor-wrench/tags`_ for valid values for ``<tag>``)
 

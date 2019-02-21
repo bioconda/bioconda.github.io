@@ -56,7 +56,7 @@ bioconductor-pd.mapping250k.nsp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.mapping250k.nsp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.mapping250k.nsp:<tag>
 
    (see `bioconductor-pd.mapping250k.nsp/tags`_ for valid values for ``<tag>``)
 

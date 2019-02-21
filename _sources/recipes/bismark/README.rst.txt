@@ -45,7 +45,7 @@ bismark
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bismark:<tag>
+      docker pull quay.io/biocontainers/bismark:<tag>
 
    (see `bismark/tags`_ for valid values for ``<tag>``)
 

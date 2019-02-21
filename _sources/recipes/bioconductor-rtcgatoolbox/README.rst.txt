@@ -75,7 +75,7 @@ bioconductor-rtcgatoolbox
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtcgatoolbox:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtcgatoolbox:<tag>
 
    (see `bioconductor-rtcgatoolbox/tags`_ for valid values for ``<tag>``)
 

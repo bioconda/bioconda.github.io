@@ -48,7 +48,7 @@ isocor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/isocor:<tag>
+      docker pull quay.io/biocontainers/isocor:<tag>
 
    (see `isocor/tags`_ for valid values for ``<tag>``)
 

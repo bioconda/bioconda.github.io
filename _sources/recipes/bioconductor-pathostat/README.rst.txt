@@ -99,7 +99,7 @@ bioconductor-pathostat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pathostat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pathostat:<tag>
 
    (see `bioconductor-pathostat/tags`_ for valid values for ``<tag>``)
 

@@ -54,7 +54,7 @@ bioconductor-biocfilecache
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocfilecache:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biocfilecache:<tag>
 
    (see `bioconductor-biocfilecache/tags`_ for valid values for ``<tag>``)
 

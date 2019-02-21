@@ -56,7 +56,7 @@ bioconductor-pd.citrus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.citrus:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.citrus:<tag>
 
    (see `bioconductor-pd.citrus/tags`_ for valid values for ``<tag>``)
 

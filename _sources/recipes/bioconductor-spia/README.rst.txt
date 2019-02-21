@@ -43,7 +43,7 @@ bioconductor-spia
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-spia:<tag>
+      docker pull quay.io/biocontainers/bioconductor-spia:<tag>
 
    (see `bioconductor-spia/tags`_ for valid values for ``<tag>``)
 

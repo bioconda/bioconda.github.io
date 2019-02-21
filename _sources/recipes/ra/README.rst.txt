@@ -42,7 +42,7 @@ ra
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ra:<tag>
+      docker pull quay.io/biocontainers/ra:<tag>
 
    (see `ra/tags`_ for valid values for ``<tag>``)
 

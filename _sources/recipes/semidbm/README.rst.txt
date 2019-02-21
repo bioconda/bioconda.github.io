@@ -40,7 +40,7 @@ semidbm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/semidbm:<tag>
+      docker pull quay.io/biocontainers/semidbm:<tag>
 
    (see `semidbm/tags`_ for valid values for ``<tag>``)
 

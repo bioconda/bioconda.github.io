@@ -60,7 +60,7 @@ bioconductor-enmix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-enmix:<tag>
+      docker pull quay.io/biocontainers/bioconductor-enmix:<tag>
 
    (see `bioconductor-enmix/tags`_ for valid values for ``<tag>``)
 

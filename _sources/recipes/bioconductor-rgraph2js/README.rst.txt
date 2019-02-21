@@ -49,7 +49,7 @@ bioconductor-rgraph2js
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgraph2js:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rgraph2js:<tag>
 
    (see `bioconductor-rgraph2js/tags`_ for valid values for ``<tag>``)
 

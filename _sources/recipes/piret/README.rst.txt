@@ -67,7 +67,7 @@ piret
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/piret:<tag>
+      docker pull quay.io/biocontainers/piret:<tag>
 
    (see `piret/tags`_ for valid values for ``<tag>``)
 

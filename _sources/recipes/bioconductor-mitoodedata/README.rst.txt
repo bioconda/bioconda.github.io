@@ -42,7 +42,7 @@ bioconductor-mitoodedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mitoodedata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mitoodedata:<tag>
 
    (see `bioconductor-mitoodedata/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-rtcga.clinical
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.clinical:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtcga.clinical:<tag>
 
    (see `bioconductor-rtcga.clinical/tags`_ for valid values for ``<tag>``)
 

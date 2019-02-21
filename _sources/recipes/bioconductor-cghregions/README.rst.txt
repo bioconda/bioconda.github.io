@@ -45,7 +45,7 @@ bioconductor-cghregions
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cghregions:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cghregions:<tag>
 
    (see `bioconductor-cghregions/tags`_ for valid values for ``<tag>``)
 

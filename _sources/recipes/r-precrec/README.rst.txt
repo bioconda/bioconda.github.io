@@ -50,7 +50,7 @@ r-precrec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-precrec:<tag>
+      docker pull quay.io/biocontainers/r-precrec:<tag>
 
    (see `r-precrec/tags`_ for valid values for ``<tag>``)
 

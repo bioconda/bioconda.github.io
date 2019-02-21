@@ -62,7 +62,7 @@ r-rnexml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rnexml:<tag>
+      docker pull quay.io/biocontainers/r-rnexml:<tag>
 
    (see `r-rnexml/tags`_ for valid values for ``<tag>``)
 

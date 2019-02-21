@@ -42,7 +42,7 @@ hurry.filesize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hurry.filesize:<tag>
+      docker pull quay.io/biocontainers/hurry.filesize:<tag>
 
    (see `hurry.filesize/tags`_ for valid values for ``<tag>``)
 

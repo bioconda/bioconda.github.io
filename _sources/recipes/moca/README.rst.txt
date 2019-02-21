@@ -126,7 +126,7 @@ moca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/moca:<tag>
+      docker pull quay.io/biocontainers/moca:<tag>
 
    (see `moca/tags`_ for valid values for ``<tag>``)
 

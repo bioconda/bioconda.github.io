@@ -57,7 +57,7 @@ bioconductor-rnaither
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnaither:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rnaither:<tag>
 
    (see `bioconductor-rnaither/tags`_ for valid values for ``<tag>``)
 

@@ -51,7 +51,7 @@ bioconductor-dnabarcodes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dnabarcodes:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dnabarcodes:<tag>
 
    (see `bioconductor-dnabarcodes/tags`_ for valid values for ``<tag>``)
 

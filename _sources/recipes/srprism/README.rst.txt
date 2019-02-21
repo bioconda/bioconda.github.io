@@ -46,7 +46,7 @@ srprism
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/srprism:<tag>
+      docker pull quay.io/biocontainers/srprism:<tag>
 
    (see `srprism/tags`_ for valid values for ``<tag>``)
 

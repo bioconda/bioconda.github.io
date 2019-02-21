@@ -42,7 +42,7 @@ perl-encode-locale
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-encode-locale:<tag>
+      docker pull quay.io/biocontainers/perl-encode-locale:<tag>
 
    (see `perl-encode-locale/tags`_ for valid values for ``<tag>``)
 

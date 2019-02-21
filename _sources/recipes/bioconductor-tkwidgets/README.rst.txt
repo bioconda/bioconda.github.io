@@ -44,7 +44,7 @@ bioconductor-tkwidgets
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tkwidgets:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tkwidgets:<tag>
 
    (see `bioconductor-tkwidgets/tags`_ for valid values for ``<tag>``)
 

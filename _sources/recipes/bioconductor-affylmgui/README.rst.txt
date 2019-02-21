@@ -60,7 +60,7 @@ bioconductor-affylmgui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affylmgui:<tag>
+      docker pull quay.io/biocontainers/bioconductor-affylmgui:<tag>
 
    (see `bioconductor-affylmgui/tags`_ for valid values for ``<tag>``)
 

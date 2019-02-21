@@ -54,7 +54,7 @@ purge_haplotigs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/purge_haplotigs:<tag>
+      docker pull quay.io/biocontainers/purge_haplotigs:<tag>
 
    (see `purge_haplotigs/tags`_ for valid values for ``<tag>``)
 

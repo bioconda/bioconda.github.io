@@ -50,7 +50,7 @@ savage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/savage:<tag>
+      docker pull quay.io/biocontainers/savage:<tag>
 
    (see `savage/tags`_ for valid values for ``<tag>``)
 

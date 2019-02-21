@@ -60,7 +60,7 @@ rmblast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rmblast:<tag>
+      docker pull quay.io/biocontainers/rmblast:<tag>
 
    (see `rmblast/tags`_ for valid values for ``<tag>``)
 

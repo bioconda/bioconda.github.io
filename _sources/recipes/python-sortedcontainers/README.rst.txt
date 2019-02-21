@@ -40,7 +40,7 @@ python-sortedcontainers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-sortedcontainers:<tag>
+      docker pull quay.io/biocontainers/python-sortedcontainers:<tag>
 
    (see `python-sortedcontainers/tags`_ for valid values for ``<tag>``)
 

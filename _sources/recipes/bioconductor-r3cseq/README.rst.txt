@@ -63,7 +63,7 @@ bioconductor-r3cseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-r3cseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-r3cseq:<tag>
 
    (see `bioconductor-r3cseq/tags`_ for valid values for ``<tag>``)
 

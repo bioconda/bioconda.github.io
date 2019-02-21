@@ -38,7 +38,7 @@ bioconductor-mirsm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirsm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mirsm:<tag>
 
    (see `bioconductor-mirsm/tags`_ for valid values for ``<tag>``)
 

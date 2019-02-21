@@ -44,7 +44,7 @@ bioconductor-garfield
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-garfield:<tag>
+      docker pull quay.io/biocontainers/bioconductor-garfield:<tag>
 
    (see `bioconductor-garfield/tags`_ for valid values for ``<tag>``)
 

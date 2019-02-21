@@ -44,7 +44,7 @@ gxformat2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gxformat2:<tag>
+      docker pull quay.io/biocontainers/gxformat2:<tag>
 
    (see `gxformat2/tags`_ for valid values for ``<tag>``)
 

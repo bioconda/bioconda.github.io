@@ -50,7 +50,7 @@ ucsc-hubpubliccheck
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-hubpubliccheck:<tag>
+      docker pull quay.io/biocontainers/ucsc-hubpubliccheck:<tag>
 
    (see `ucsc-hubpubliccheck/tags`_ for valid values for ``<tag>``)
 

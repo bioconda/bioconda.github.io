@@ -44,7 +44,7 @@ plant_tribes_gene_family_classifier
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plant_tribes_gene_family_classifier:<tag>
+      docker pull quay.io/biocontainers/plant_tribes_gene_family_classifier:<tag>
 
    (see `plant_tribes_gene_family_classifier/tags`_ for valid values for ``<tag>``)
 

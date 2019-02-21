@@ -50,7 +50,7 @@ bioconductor-agimicrorna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-agimicrorna:<tag>
+      docker pull quay.io/biocontainers/bioconductor-agimicrorna:<tag>
 
    (see `bioconductor-agimicrorna/tags`_ for valid values for ``<tag>``)
 

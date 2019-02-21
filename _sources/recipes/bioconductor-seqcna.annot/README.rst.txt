@@ -42,7 +42,7 @@ bioconductor-seqcna.annot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seqcna.annot:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seqcna.annot:<tag>
 
    (see `bioconductor-seqcna.annot/tags`_ for valid values for ``<tag>``)
 

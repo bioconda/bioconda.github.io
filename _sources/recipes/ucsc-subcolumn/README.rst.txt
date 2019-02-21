@@ -50,7 +50,7 @@ ucsc-subcolumn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-subcolumn:<tag>
+      docker pull quay.io/biocontainers/ucsc-subcolumn:<tag>
 
    (see `ucsc-subcolumn/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ snp-dists
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snp-dists:<tag>
+      docker pull quay.io/biocontainers/snp-dists:<tag>
 
    (see `snp-dists/tags`_ for valid values for ``<tag>``)
 

@@ -66,7 +66,7 @@ bioconductor-mixomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mixomics:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mixomics:<tag>
 
    (see `bioconductor-mixomics/tags`_ for valid values for ``<tag>``)
 

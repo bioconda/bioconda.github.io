@@ -45,7 +45,7 @@ bioconductor-gcatest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gcatest:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gcatest:<tag>
 
    (see `bioconductor-gcatest/tags`_ for valid values for ``<tag>``)
 

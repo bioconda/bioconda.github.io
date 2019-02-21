@@ -45,7 +45,7 @@ bioconductor-impute
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-impute:<tag>
+      docker pull quay.io/biocontainers/bioconductor-impute:<tag>
 
    (see `bioconductor-impute/tags`_ for valid values for ``<tag>``)
 

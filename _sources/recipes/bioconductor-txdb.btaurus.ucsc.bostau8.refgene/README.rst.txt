@@ -46,7 +46,7 @@ bioconductor-txdb.btaurus.ucsc.bostau8.refgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau8.refgene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau8.refgene:<tag>
 
    (see `bioconductor-txdb.btaurus.ucsc.bostau8.refgene/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ sga
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sga:<tag>
+      docker pull quay.io/biocontainers/sga:<tag>
 
    (see `sga/tags`_ for valid values for ``<tag>``)
 

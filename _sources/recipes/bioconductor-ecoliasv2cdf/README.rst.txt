@@ -44,7 +44,7 @@ bioconductor-ecoliasv2cdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ecoliasv2cdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ecoliasv2cdf:<tag>
 
    (see `bioconductor-ecoliasv2cdf/tags`_ for valid values for ``<tag>``)
 

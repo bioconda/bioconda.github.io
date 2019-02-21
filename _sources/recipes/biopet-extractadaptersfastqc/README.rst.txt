@@ -48,7 +48,7 @@ biopet-extractadaptersfastqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-extractadaptersfastqc:<tag>
+      docker pull quay.io/biocontainers/biopet-extractadaptersfastqc:<tag>
 
    (see `biopet-extractadaptersfastqc/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ query_phenomizer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/query_phenomizer:<tag>
+      docker pull quay.io/biocontainers/query_phenomizer:<tag>
 
    (see `query_phenomizer/tags`_ for valid values for ``<tag>``)
 

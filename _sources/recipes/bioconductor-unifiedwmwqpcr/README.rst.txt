@@ -45,7 +45,7 @@ bioconductor-unifiedwmwqpcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-unifiedwmwqpcr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-unifiedwmwqpcr:<tag>
 
    (see `bioconductor-unifiedwmwqpcr/tags`_ for valid values for ``<tag>``)
 

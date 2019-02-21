@@ -38,7 +38,7 @@ progressivemauve
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/progressivemauve:<tag>
+      docker pull quay.io/biocontainers/progressivemauve:<tag>
 
    (see `progressivemauve/tags`_ for valid values for ``<tag>``)
 

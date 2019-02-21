@@ -66,7 +66,7 @@ itero
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/itero:<tag>
+      docker pull quay.io/biocontainers/itero:<tag>
 
    (see `itero/tags`_ for valid values for ``<tag>``)
 

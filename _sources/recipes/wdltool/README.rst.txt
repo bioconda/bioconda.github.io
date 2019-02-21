@@ -42,7 +42,7 @@ wdltool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wdltool:<tag>
+      docker pull quay.io/biocontainers/wdltool:<tag>
 
    (see `wdltool/tags`_ for valid values for ``<tag>``)
 

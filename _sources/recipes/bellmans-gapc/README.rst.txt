@@ -46,7 +46,7 @@ bellmans-gapc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bellmans-gapc:<tag>
+      docker pull quay.io/biocontainers/bellmans-gapc:<tag>
 
    (see `bellmans-gapc/tags`_ for valid values for ``<tag>``)
 

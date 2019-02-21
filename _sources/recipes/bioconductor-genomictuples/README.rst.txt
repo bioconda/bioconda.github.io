@@ -59,7 +59,7 @@ bioconductor-genomictuples
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genomictuples:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genomictuples:<tag>
 
    (see `bioconductor-genomictuples/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ bioconductor-agilp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-agilp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-agilp:<tag>
 
    (see `bioconductor-agilp/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ extract-sv-reads
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/extract-sv-reads:<tag>
+      docker pull quay.io/biocontainers/extract-sv-reads:<tag>
 
    (see `extract-sv-reads/tags`_ for valid values for ``<tag>``)
 

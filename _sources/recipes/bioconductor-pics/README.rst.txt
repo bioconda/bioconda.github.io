@@ -59,7 +59,7 @@ bioconductor-pics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pics:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pics:<tag>
 
    (see `bioconductor-pics/tags`_ for valid values for ``<tag>``)
 

@@ -54,7 +54,7 @@ bioconductor-celltree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-celltree:<tag>
+      docker pull quay.io/biocontainers/bioconductor-celltree:<tag>
 
    (see `bioconductor-celltree/tags`_ for valid values for ``<tag>``)
 

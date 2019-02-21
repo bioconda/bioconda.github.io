@@ -52,7 +52,7 @@ r-cate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-cate:<tag>
+      docker pull quay.io/biocontainers/r-cate:<tag>
 
    (see `r-cate/tags`_ for valid values for ``<tag>``)
 

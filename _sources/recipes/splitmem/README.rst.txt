@@ -40,7 +40,7 @@ splitmem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/splitmem:<tag>
+      docker pull quay.io/biocontainers/splitmem:<tag>
 
    (see `splitmem/tags`_ for valid values for ``<tag>``)
 

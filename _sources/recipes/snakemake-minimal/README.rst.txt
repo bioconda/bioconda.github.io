@@ -65,7 +65,7 @@ snakemake-minimal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snakemake-minimal:<tag>
+      docker pull quay.io/biocontainers/snakemake-minimal:<tag>
 
    (see `snakemake-minimal/tags`_ for valid values for ``<tag>``)
 

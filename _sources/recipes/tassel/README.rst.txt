@@ -42,7 +42,7 @@ tassel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tassel:<tag>
+      docker pull quay.io/biocontainers/tassel:<tag>
 
    (see `tassel/tags`_ for valid values for ``<tag>``)
 

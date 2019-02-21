@@ -52,7 +52,7 @@ r-drc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-drc:<tag>
+      docker pull quay.io/biocontainers/r-drc:<tag>
 
    (see `r-drc/tags`_ for valid values for ``<tag>``)
 

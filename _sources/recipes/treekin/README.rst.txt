@@ -44,7 +44,7 @@ treekin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/treekin:<tag>
+      docker pull quay.io/biocontainers/treekin:<tag>
 
    (see `treekin/tags`_ for valid values for ``<tag>``)
 

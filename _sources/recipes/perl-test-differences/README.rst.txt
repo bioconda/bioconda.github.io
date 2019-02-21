@@ -44,7 +44,7 @@ perl-test-differences
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-differences:<tag>
+      docker pull quay.io/biocontainers/perl-test-differences:<tag>
 
    (see `perl-test-differences/tags`_ for valid values for ``<tag>``)
 

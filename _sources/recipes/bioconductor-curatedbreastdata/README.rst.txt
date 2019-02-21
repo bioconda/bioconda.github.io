@@ -52,7 +52,7 @@ bioconductor-curatedbreastdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-curatedbreastdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-curatedbreastdata:<tag>
 
    (see `bioconductor-curatedbreastdata/tags`_ for valid values for ``<tag>``)
 

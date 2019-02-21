@@ -64,7 +64,7 @@ bioconductor-hmp16sdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hmp16sdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hmp16sdata:<tag>
 
    (see `bioconductor-hmp16sdata/tags`_ for valid values for ``<tag>``)
 

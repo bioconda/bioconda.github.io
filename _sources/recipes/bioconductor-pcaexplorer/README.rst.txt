@@ -97,7 +97,7 @@ bioconductor-pcaexplorer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pcaexplorer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pcaexplorer:<tag>
 
    (see `bioconductor-pcaexplorer/tags`_ for valid values for ``<tag>``)
 

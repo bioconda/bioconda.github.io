@@ -44,7 +44,7 @@ mobster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mobster:<tag>
+      docker pull quay.io/biocontainers/mobster:<tag>
 
    (see `mobster/tags`_ for valid values for ``<tag>``)
 

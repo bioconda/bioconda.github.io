@@ -38,7 +38,7 @@ tracy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tracy:<tag>
+      docker pull quay.io/biocontainers/tracy:<tag>
 
    (see `tracy/tags`_ for valid values for ``<tag>``)
 

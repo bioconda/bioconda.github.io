@@ -80,7 +80,7 @@ xtail
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xtail:<tag>
+      docker pull quay.io/biocontainers/xtail:<tag>
 
    (see `xtail/tags`_ for valid values for ``<tag>``)
 

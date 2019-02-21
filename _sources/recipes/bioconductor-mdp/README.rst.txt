@@ -42,7 +42,7 @@ bioconductor-mdp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mdp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mdp:<tag>
 
    (see `bioconductor-mdp/tags`_ for valid values for ``<tag>``)
 

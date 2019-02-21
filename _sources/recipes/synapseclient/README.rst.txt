@@ -48,7 +48,7 @@ synapseclient
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/synapseclient:<tag>
+      docker pull quay.io/biocontainers/synapseclient:<tag>
 
    (see `synapseclient/tags`_ for valid values for ``<tag>``)
 

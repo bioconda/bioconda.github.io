@@ -44,7 +44,7 @@ r-enrichr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-enrichr:<tag>
+      docker pull quay.io/biocontainers/r-enrichr:<tag>
 
    (see `r-enrichr/tags`_ for valid values for ``<tag>``)
 

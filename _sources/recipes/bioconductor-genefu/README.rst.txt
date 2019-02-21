@@ -55,7 +55,7 @@ bioconductor-genefu
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genefu:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genefu:<tag>
 
    (see `bioconductor-genefu/tags`_ for valid values for ``<tag>``)
 

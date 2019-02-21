@@ -44,7 +44,7 @@ bioconductor-frgepistasis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-frgepistasis:<tag>
+      docker pull quay.io/biocontainers/bioconductor-frgepistasis:<tag>
 
    (see `bioconductor-frgepistasis/tags`_ for valid values for ``<tag>``)
 

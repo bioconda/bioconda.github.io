@@ -46,7 +46,7 @@ bioconductor-lrbase.xtr.eg.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lrbase.xtr.eg.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lrbase.xtr.eg.db:<tag>
 
    (see `bioconductor-lrbase.xtr.eg.db/tags`_ for valid values for ``<tag>``)
 

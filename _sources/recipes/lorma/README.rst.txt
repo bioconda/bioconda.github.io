@@ -44,7 +44,7 @@ lorma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lorma:<tag>
+      docker pull quay.io/biocontainers/lorma:<tag>
 
    (see `lorma/tags`_ for valid values for ``<tag>``)
 

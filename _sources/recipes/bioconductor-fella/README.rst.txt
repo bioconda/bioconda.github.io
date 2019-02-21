@@ -48,7 +48,7 @@ bioconductor-fella
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fella:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fella:<tag>
 
    (see `bioconductor-fella/tags`_ for valid values for ``<tag>``)
 

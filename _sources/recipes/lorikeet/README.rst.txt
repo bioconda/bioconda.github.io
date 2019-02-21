@@ -41,7 +41,7 @@ lorikeet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lorikeet:<tag>
+      docker pull quay.io/biocontainers/lorikeet:<tag>
 
    (see `lorikeet/tags`_ for valid values for ``<tag>``)
 

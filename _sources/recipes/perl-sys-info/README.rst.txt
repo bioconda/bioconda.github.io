@@ -44,7 +44,7 @@ perl-sys-info
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sys-info:<tag>
+      docker pull quay.io/biocontainers/perl-sys-info:<tag>
 
    (see `perl-sys-info/tags`_ for valid values for ``<tag>``)
 

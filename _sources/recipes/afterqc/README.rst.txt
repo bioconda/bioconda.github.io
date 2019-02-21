@@ -40,7 +40,7 @@ afterqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/afterqc:<tag>
+      docker pull quay.io/biocontainers/afterqc:<tag>
 
    (see `afterqc/tags`_ for valid values for ``<tag>``)
 

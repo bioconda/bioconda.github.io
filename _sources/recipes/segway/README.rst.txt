@@ -61,7 +61,7 @@ segway
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/segway:<tag>
+      docker pull quay.io/biocontainers/segway:<tag>
 
    (see `segway/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ perl-file-touch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-touch:<tag>
+      docker pull quay.io/biocontainers/perl-file-touch:<tag>
 
    (see `perl-file-touch/tags`_ for valid values for ``<tag>``)
 

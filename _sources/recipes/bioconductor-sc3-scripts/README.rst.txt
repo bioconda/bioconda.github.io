@@ -54,7 +54,7 @@ bioconductor-sc3-scripts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sc3-scripts:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sc3-scripts:<tag>
 
    (see `bioconductor-sc3-scripts/tags`_ for valid values for ``<tag>``)
 

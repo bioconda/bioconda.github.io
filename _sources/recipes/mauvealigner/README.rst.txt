@@ -51,7 +51,7 @@ mauvealigner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mauvealigner:<tag>
+      docker pull quay.io/biocontainers/mauvealigner:<tag>
 
    (see `mauvealigner/tags`_ for valid values for ``<tag>``)
 

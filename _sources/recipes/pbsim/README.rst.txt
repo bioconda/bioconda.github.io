@@ -40,7 +40,7 @@ pbsim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbsim:<tag>
+      docker pull quay.io/biocontainers/pbsim:<tag>
 
    (see `pbsim/tags`_ for valid values for ``<tag>``)
 

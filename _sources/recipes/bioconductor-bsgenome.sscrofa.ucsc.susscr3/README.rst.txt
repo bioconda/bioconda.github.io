@@ -44,7 +44,7 @@ bioconductor-bsgenome.sscrofa.ucsc.susscr3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.sscrofa.ucsc.susscr3:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.sscrofa.ucsc.susscr3:<tag>
 
    (see `bioconductor-bsgenome.sscrofa.ucsc.susscr3/tags`_ for valid values for ``<tag>``)
 

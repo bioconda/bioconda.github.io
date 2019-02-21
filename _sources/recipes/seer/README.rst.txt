@@ -51,7 +51,7 @@ seer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seer:<tag>
+      docker pull quay.io/biocontainers/seer:<tag>
 
    (see `seer/tags`_ for valid values for ``<tag>``)
 

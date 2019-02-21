@@ -50,7 +50,7 @@ ucsc-gff3togenepred
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-gff3togenepred:<tag>
+      docker pull quay.io/biocontainers/ucsc-gff3togenepred:<tag>
 
    (see `ucsc-gff3togenepred/tags`_ for valid values for ``<tag>``)
 

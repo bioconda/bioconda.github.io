@@ -62,7 +62,7 @@ gneiss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gneiss:<tag>
+      docker pull quay.io/biocontainers/gneiss:<tag>
 
    (see `gneiss/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ bioconductor-flowploidydata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowploidydata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowploidydata:<tag>
 
    (see `bioconductor-flowploidydata/tags`_ for valid values for ``<tag>``)
 

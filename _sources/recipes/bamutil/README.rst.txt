@@ -45,7 +45,7 @@ bamutil
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bamutil:<tag>
+      docker pull quay.io/biocontainers/bamutil:<tag>
 
    (see `bamutil/tags`_ for valid values for ``<tag>``)
 

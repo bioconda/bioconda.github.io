@@ -44,7 +44,7 @@ bioconductor-mirna10probe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirna10probe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mirna10probe:<tag>
 
    (see `bioconductor-mirna10probe/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-xml-entities
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-entities:<tag>
+      docker pull quay.io/biocontainers/perl-xml-entities:<tag>
 
    (see `perl-xml-entities/tags`_ for valid values for ``<tag>``)
 

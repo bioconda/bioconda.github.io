@@ -42,7 +42,7 @@ pypore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pypore:<tag>
+      docker pull quay.io/biocontainers/pypore:<tag>
 
    (see `pypore/tags`_ for valid values for ``<tag>``)
 

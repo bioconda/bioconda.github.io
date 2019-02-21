@@ -78,7 +78,7 @@ bioconductor-htseqgenie
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-htseqgenie:<tag>
+      docker pull quay.io/biocontainers/bioconductor-htseqgenie:<tag>
 
    (see `bioconductor-htseqgenie/tags`_ for valid values for ``<tag>``)
 

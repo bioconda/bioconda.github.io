@@ -54,7 +54,7 @@ ngs-bits
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ngs-bits:<tag>
+      docker pull quay.io/biocontainers/ngs-bits:<tag>
 
    (see `ngs-bits/tags`_ for valid values for ``<tag>``)
 

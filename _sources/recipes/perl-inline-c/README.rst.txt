@@ -56,7 +56,7 @@ perl-inline-c
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-inline-c:<tag>
+      docker pull quay.io/biocontainers/perl-inline-c:<tag>
 
    (see `perl-inline-c/tags`_ for valid values for ``<tag>``)
 

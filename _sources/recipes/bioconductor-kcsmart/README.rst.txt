@@ -49,7 +49,7 @@ bioconductor-kcsmart
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-kcsmart:<tag>
+      docker pull quay.io/biocontainers/bioconductor-kcsmart:<tag>
 
    (see `bioconductor-kcsmart/tags`_ for valid values for ``<tag>``)
 

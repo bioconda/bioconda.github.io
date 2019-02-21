@@ -41,7 +41,7 @@ deploid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/deploid:<tag>
+      docker pull quay.io/biocontainers/deploid:<tag>
 
    (see `deploid/tags`_ for valid values for ``<tag>``)
 

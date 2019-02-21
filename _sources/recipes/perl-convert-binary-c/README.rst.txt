@@ -42,7 +42,7 @@ perl-convert-binary-c
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-convert-binary-c:<tag>
+      docker pull quay.io/biocontainers/perl-convert-binary-c:<tag>
 
    (see `perl-convert-binary-c/tags`_ for valid values for ``<tag>``)
 

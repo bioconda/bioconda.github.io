@@ -44,7 +44,7 @@ bioconductor-spikein
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-spikein:<tag>
+      docker pull quay.io/biocontainers/bioconductor-spikein:<tag>
 
    (see `bioconductor-spikein/tags`_ for valid values for ``<tag>``)
 

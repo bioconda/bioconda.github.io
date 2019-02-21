@@ -53,7 +53,7 @@ bioconductor-slgi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-slgi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-slgi:<tag>
 
    (see `bioconductor-slgi/tags`_ for valid values for ``<tag>``)
 

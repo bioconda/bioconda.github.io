@@ -45,7 +45,7 @@ lightassembler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lightassembler:<tag>
+      docker pull quay.io/biocontainers/lightassembler:<tag>
 
    (see `lightassembler/tags`_ for valid values for ``<tag>``)
 

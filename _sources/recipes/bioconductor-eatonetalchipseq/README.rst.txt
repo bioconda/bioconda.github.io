@@ -48,7 +48,7 @@ bioconductor-eatonetalchipseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-eatonetalchipseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-eatonetalchipseq:<tag>
 
    (see `bioconductor-eatonetalchipseq/tags`_ for valid values for ``<tag>``)
 

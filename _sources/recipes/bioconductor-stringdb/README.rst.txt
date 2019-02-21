@@ -59,7 +59,7 @@ bioconductor-stringdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-stringdb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-stringdb:<tag>
 
    (see `bioconductor-stringdb/tags`_ for valid values for ``<tag>``)
 

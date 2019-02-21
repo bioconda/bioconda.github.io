@@ -42,7 +42,7 @@ bioconductor-gagedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gagedata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gagedata:<tag>
 
    (see `bioconductor-gagedata/tags`_ for valid values for ``<tag>``)
 

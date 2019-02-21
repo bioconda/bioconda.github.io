@@ -44,7 +44,7 @@ bioconductor-rprotobuflib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rprotobuflib:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rprotobuflib:<tag>
 
    (see `bioconductor-rprotobuflib/tags`_ for valid values for ``<tag>``)
 

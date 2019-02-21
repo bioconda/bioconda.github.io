@@ -52,7 +52,7 @@ bioconductor-flowbin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowbin:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowbin:<tag>
 
    (see `bioconductor-flowbin/tags`_ for valid values for ``<tag>``)
 

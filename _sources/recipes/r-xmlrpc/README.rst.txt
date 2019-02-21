@@ -44,7 +44,7 @@ r-xmlrpc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-xmlrpc:<tag>
+      docker pull quay.io/biocontainers/r-xmlrpc:<tag>
 
    (see `r-xmlrpc/tags`_ for valid values for ``<tag>``)
 

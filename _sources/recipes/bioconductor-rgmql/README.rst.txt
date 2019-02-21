@@ -22,7 +22,33 @@ bioconductor-rgmql
 
    |downloads_bioconductor-rgmql| |docker_bioconductor-rgmql|
 
-   :versions: 
+   :versions: 1.2.0-0
+   
+   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   
+   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   
+   :depends bioconductor-rgmqllib: >=1.2.0,<1.3.0
+   
+   :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
+   
+   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-dplyr: 
+   
+   :depends r-glue: 
+   
+   :depends r-httr: 
+   
+   :depends r-plyr: 
+   
+   :depends r-rjava: 
+   
+   :depends r-xml2: 
    
    :requirements:
 
@@ -38,7 +64,7 @@ bioconductor-rgmql
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgmql:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rgmql:<tag>
 
    (see `bioconductor-rgmql/tags`_ for valid values for ``<tag>``)
 

@@ -53,7 +53,7 @@ bioconductor-cpvsnp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cpvsnp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cpvsnp:<tag>
 
    (see `bioconductor-cpvsnp/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ r-nanostringnorm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-nanostringnorm:<tag>
+      docker pull quay.io/biocontainers/r-nanostringnorm:<tag>
 
    (see `r-nanostringnorm/tags`_ for valid values for ``<tag>``)
 

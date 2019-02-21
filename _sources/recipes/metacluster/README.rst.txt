@@ -44,7 +44,7 @@ metacluster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metacluster:<tag>
+      docker pull quay.io/biocontainers/metacluster:<tag>
 
    (see `metacluster/tags`_ for valid values for ``<tag>``)
 

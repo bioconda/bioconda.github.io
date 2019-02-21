@@ -55,7 +55,7 @@ bioconductor-doppelgangr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-doppelgangr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-doppelgangr:<tag>
 
    (see `bioconductor-doppelgangr/tags`_ for valid values for ``<tag>``)
 

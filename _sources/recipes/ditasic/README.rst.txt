@@ -50,7 +50,7 @@ ditasic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ditasic:<tag>
+      docker pull quay.io/biocontainers/ditasic:<tag>
 
    (see `ditasic/tags`_ for valid values for ``<tag>``)
 

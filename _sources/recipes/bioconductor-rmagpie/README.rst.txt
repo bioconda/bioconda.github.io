@@ -48,7 +48,7 @@ bioconductor-rmagpie
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rmagpie:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rmagpie:<tag>
 
    (see `bioconductor-rmagpie/tags`_ for valid values for ``<tag>``)
 

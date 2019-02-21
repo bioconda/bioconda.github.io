@@ -42,7 +42,7 @@ pilon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pilon:<tag>
+      docker pull quay.io/biocontainers/pilon:<tag>
 
    (see `pilon/tags`_ for valid values for ``<tag>``)
 

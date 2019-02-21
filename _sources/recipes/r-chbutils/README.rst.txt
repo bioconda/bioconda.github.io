@@ -44,7 +44,7 @@ r-chbutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-chbutils:<tag>
+      docker pull quay.io/biocontainers/r-chbutils:<tag>
 
    (see `r-chbutils/tags`_ for valid values for ``<tag>``)
 

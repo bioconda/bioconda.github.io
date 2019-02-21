@@ -48,7 +48,7 @@ roprofile
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/roprofile:<tag>
+      docker pull quay.io/biocontainers/roprofile:<tag>
 
    (see `roprofile/tags`_ for valid values for ``<tag>``)
 

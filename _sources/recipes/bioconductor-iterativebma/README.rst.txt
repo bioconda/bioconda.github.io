@@ -47,7 +47,7 @@ bioconductor-iterativebma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-iterativebma:<tag>
+      docker pull quay.io/biocontainers/bioconductor-iterativebma:<tag>
 
    (see `bioconductor-iterativebma/tags`_ for valid values for ``<tag>``)
 

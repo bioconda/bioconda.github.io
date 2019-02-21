@@ -40,7 +40,7 @@ vcflatten
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcflatten:<tag>
+      docker pull quay.io/biocontainers/vcflatten:<tag>
 
    (see `vcflatten/tags`_ for valid values for ``<tag>``)
 

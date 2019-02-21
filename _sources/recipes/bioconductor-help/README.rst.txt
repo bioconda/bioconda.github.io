@@ -43,7 +43,7 @@ bioconductor-help
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-help:<tag>
+      docker pull quay.io/biocontainers/bioconductor-help:<tag>
 
    (see `bioconductor-help/tags`_ for valid values for ``<tag>``)
 

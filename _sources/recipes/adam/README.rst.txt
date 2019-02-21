@@ -42,7 +42,7 @@ adam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/adam:<tag>
+      docker pull quay.io/biocontainers/adam:<tag>
 
    (see `adam/tags`_ for valid values for ``<tag>``)
 

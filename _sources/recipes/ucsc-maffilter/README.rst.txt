@@ -50,7 +50,7 @@ ucsc-maffilter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-maffilter:<tag>
+      docker pull quay.io/biocontainers/ucsc-maffilter:<tag>
 
    (see `ucsc-maffilter/tags`_ for valid values for ``<tag>``)
 

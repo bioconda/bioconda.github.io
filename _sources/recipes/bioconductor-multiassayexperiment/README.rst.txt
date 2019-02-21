@@ -55,7 +55,7 @@ bioconductor-multiassayexperiment
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-multiassayexperiment:<tag>
+      docker pull quay.io/biocontainers/bioconductor-multiassayexperiment:<tag>
 
    (see `bioconductor-multiassayexperiment/tags`_ for valid values for ``<tag>``)
 

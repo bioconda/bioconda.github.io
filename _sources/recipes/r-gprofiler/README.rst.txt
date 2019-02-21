@@ -44,7 +44,7 @@ r-gprofiler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gprofiler:<tag>
+      docker pull quay.io/biocontainers/r-gprofiler:<tag>
 
    (see `r-gprofiler/tags`_ for valid values for ``<tag>``)
 

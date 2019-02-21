@@ -50,7 +50,7 @@ bioconductor-affypara
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affypara:<tag>
+      docker pull quay.io/biocontainers/bioconductor-affypara:<tag>
 
    (see `bioconductor-affypara/tags`_ for valid values for ``<tag>``)
 

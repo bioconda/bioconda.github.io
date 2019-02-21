@@ -54,7 +54,7 @@ r-phylobase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-phylobase:<tag>
+      docker pull quay.io/biocontainers/r-phylobase:<tag>
 
    (see `r-phylobase/tags`_ for valid values for ``<tag>``)
 

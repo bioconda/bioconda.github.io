@@ -44,7 +44,7 @@ bioconductor-poplarprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-poplarprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-poplarprobe:<tag>
 
    (see `bioconductor-poplarprobe/tags`_ for valid values for ``<tag>``)
 

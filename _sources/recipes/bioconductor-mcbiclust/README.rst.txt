@@ -58,7 +58,7 @@ bioconductor-mcbiclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mcbiclust:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mcbiclust:<tag>
 
    (see `bioconductor-mcbiclust/tags`_ for valid values for ``<tag>``)
 

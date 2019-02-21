@@ -52,7 +52,7 @@ cdna_cupcake
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cdna_cupcake:<tag>
+      docker pull quay.io/biocontainers/cdna_cupcake:<tag>
 
    (see `cdna_cupcake/tags`_ for valid values for ``<tag>``)
 

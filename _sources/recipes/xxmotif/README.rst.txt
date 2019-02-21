@@ -40,7 +40,7 @@ xxmotif
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xxmotif:<tag>
+      docker pull quay.io/biocontainers/xxmotif:<tag>
 
    (see `xxmotif/tags`_ for valid values for ``<tag>``)
 

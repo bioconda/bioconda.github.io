@@ -70,7 +70,7 @@ bioconductor-msgbsr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msgbsr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-msgbsr:<tag>
 
    (see `bioconductor-msgbsr/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ mmseqs2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mmseqs2:<tag>
+      docker pull quay.io/biocontainers/mmseqs2:<tag>
 
    (see `mmseqs2/tags`_ for valid values for ``<tag>``)
 

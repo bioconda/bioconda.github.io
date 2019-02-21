@@ -44,7 +44,7 @@ bioconductor-fibroeset
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fibroeset:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fibroeset:<tag>
 
    (see `bioconductor-fibroeset/tags`_ for valid values for ``<tag>``)
 

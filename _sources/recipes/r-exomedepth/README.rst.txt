@@ -60,7 +60,7 @@ r-exomedepth
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-exomedepth:<tag>
+      docker pull quay.io/biocontainers/r-exomedepth:<tag>
 
    (see `r-exomedepth/tags`_ for valid values for ``<tag>``)
 

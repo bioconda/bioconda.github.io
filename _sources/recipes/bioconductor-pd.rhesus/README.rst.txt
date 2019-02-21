@@ -56,7 +56,7 @@ bioconductor-pd.rhesus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.rhesus:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.rhesus:<tag>
 
    (see `bioconductor-pd.rhesus/tags`_ for valid values for ``<tag>``)
 

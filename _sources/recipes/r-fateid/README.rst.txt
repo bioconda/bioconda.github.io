@@ -59,7 +59,7 @@ r-fateid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-fateid:<tag>
+      docker pull quay.io/biocontainers/r-fateid:<tag>
 
    (see `r-fateid/tags`_ for valid values for ``<tag>``)
 

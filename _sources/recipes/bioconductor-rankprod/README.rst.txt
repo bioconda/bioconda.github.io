@@ -45,7 +45,7 @@ bioconductor-rankprod
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rankprod:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rankprod:<tag>
 
    (see `bioconductor-rankprod/tags`_ for valid values for ``<tag>``)
 

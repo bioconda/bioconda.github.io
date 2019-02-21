@@ -62,7 +62,7 @@ bioconductor-gwastools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gwastools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gwastools:<tag>
 
    (see `bioconductor-gwastools/tags`_ for valid values for ``<tag>``)
 

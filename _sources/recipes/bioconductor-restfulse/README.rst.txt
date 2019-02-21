@@ -70,7 +70,7 @@ bioconductor-restfulse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-restfulse:<tag>
+      docker pull quay.io/biocontainers/bioconductor-restfulse:<tag>
 
    (see `bioconductor-restfulse/tags`_ for valid values for ``<tag>``)
 

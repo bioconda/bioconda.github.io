@@ -46,7 +46,7 @@ lightning
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lightning:<tag>
+      docker pull quay.io/biocontainers/lightning:<tag>
 
    (see `lightning/tags`_ for valid values for ``<tag>``)
 

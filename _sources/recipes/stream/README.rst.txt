@@ -98,7 +98,7 @@ stream
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stream:<tag>
+      docker pull quay.io/biocontainers/stream:<tag>
 
    (see `stream/tags`_ for valid values for ``<tag>``)
 

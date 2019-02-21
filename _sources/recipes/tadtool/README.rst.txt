@@ -48,7 +48,7 @@ tadtool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tadtool:<tag>
+      docker pull quay.io/biocontainers/tadtool:<tag>
 
    (see `tadtool/tags`_ for valid values for ``<tag>``)
 

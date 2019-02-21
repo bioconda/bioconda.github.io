@@ -110,7 +110,7 @@ bioconvert
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconvert:<tag>
+      docker pull quay.io/biocontainers/bioconvert:<tag>
 
    (see `bioconvert/tags`_ for valid values for ``<tag>``)
 

@@ -91,7 +91,7 @@ gemini
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gemini:<tag>
+      docker pull quay.io/biocontainers/gemini:<tag>
 
    (see `gemini/tags`_ for valid values for ``<tag>``)
 

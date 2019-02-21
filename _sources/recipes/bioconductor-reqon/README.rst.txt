@@ -38,7 +38,7 @@ bioconductor-reqon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-reqon:<tag>
+      docker pull quay.io/biocontainers/bioconductor-reqon:<tag>
 
    (see `bioconductor-reqon/tags`_ for valid values for ``<tag>``)
 

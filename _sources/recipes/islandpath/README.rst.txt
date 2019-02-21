@@ -56,7 +56,7 @@ islandpath
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/islandpath:<tag>
+      docker pull quay.io/biocontainers/islandpath:<tag>
 
    (see `islandpath/tags`_ for valid values for ``<tag>``)
 

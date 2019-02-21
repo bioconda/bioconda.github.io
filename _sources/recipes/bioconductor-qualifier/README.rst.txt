@@ -65,7 +65,7 @@ bioconductor-qualifier
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qualifier:<tag>
+      docker pull quay.io/biocontainers/bioconductor-qualifier:<tag>
 
    (see `bioconductor-qualifier/tags`_ for valid values for ``<tag>``)
 

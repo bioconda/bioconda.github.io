@@ -43,7 +43,7 @@ slimm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/slimm:<tag>
+      docker pull quay.io/biocontainers/slimm:<tag>
 
    (see `slimm/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ tablet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tablet:<tag>
+      docker pull quay.io/biocontainers/tablet:<tag>
 
    (see `tablet/tags`_ for valid values for ``<tag>``)
 

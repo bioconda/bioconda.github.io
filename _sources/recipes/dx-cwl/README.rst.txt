@@ -46,7 +46,7 @@ dx-cwl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dx-cwl:<tag>
+      docker pull quay.io/biocontainers/dx-cwl:<tag>
 
    (see `dx-cwl/tags`_ for valid values for ``<tag>``)
 

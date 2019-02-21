@@ -45,7 +45,7 @@ bioconductor-inversion
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-inversion:<tag>
+      docker pull quay.io/biocontainers/bioconductor-inversion:<tag>
 
    (see `bioconductor-inversion/tags`_ for valid values for ``<tag>``)
 

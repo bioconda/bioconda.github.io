@@ -45,7 +45,7 @@ cromwell
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cromwell:<tag>
+      docker pull quay.io/biocontainers/cromwell:<tag>
 
    (see `cromwell/tags`_ for valid values for ``<tag>``)
 

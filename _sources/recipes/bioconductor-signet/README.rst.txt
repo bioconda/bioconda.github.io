@@ -46,7 +46,7 @@ bioconductor-signet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-signet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-signet:<tag>
 
    (see `bioconductor-signet/tags`_ for valid values for ``<tag>``)
 

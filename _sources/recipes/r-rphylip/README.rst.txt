@@ -44,7 +44,7 @@ r-rphylip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rphylip:<tag>
+      docker pull quay.io/biocontainers/r-rphylip:<tag>
 
    (see `r-rphylip/tags`_ for valid values for ``<tag>``)
 

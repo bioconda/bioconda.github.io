@@ -40,7 +40,7 @@ perl-tie-ixhash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-tie-ixhash:<tag>
+      docker pull quay.io/biocontainers/perl-tie-ixhash:<tag>
 
    (see `perl-tie-ixhash/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-module-corelist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-corelist:<tag>
+      docker pull quay.io/biocontainers/perl-module-corelist:<tag>
 
    (see `perl-module-corelist/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ python-levenshtein
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-levenshtein:<tag>
+      docker pull quay.io/biocontainers/python-levenshtein:<tag>
 
    (see `python-levenshtein/tags`_ for valid values for ``<tag>``)
 

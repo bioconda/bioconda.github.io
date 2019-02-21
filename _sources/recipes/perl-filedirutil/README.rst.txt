@@ -48,7 +48,7 @@ perl-filedirutil
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-filedirutil:<tag>
+      docker pull quay.io/biocontainers/perl-filedirutil:<tag>
 
    (see `perl-filedirutil/tags`_ for valid values for ``<tag>``)
 

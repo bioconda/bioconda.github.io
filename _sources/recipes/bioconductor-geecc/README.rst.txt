@@ -52,7 +52,7 @@ bioconductor-geecc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geecc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geecc:<tag>
 
    (see `bioconductor-geecc/tags`_ for valid values for ``<tag>``)
 

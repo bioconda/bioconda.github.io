@@ -44,7 +44,7 @@ bioconductor-gdsfmt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gdsfmt:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gdsfmt:<tag>
 
    (see `bioconductor-gdsfmt/tags`_ for valid values for ``<tag>``)
 

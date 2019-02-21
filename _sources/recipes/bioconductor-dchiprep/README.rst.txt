@@ -69,7 +69,7 @@ bioconductor-dchiprep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dchiprep:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dchiprep:<tag>
 
    (see `bioconductor-dchiprep/tags`_ for valid values for ``<tag>``)
 

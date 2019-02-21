@@ -42,7 +42,7 @@ fisher
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fisher:<tag>
+      docker pull quay.io/biocontainers/fisher:<tag>
 
    (see `fisher/tags`_ for valid values for ``<tag>``)
 

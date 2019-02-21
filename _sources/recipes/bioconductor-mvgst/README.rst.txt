@@ -59,7 +59,7 @@ bioconductor-mvgst
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mvgst:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mvgst:<tag>
 
    (see `bioconductor-mvgst/tags`_ for valid values for ``<tag>``)
 

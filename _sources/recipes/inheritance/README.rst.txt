@@ -40,7 +40,7 @@ inheritance
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/inheritance:<tag>
+      docker pull quay.io/biocontainers/inheritance:<tag>
 
    (see `inheritance/tags`_ for valid values for ``<tag>``)
 

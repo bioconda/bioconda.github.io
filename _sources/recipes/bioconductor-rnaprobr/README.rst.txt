@@ -61,7 +61,7 @@ bioconductor-rnaprobr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnaprobr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rnaprobr:<tag>
 
    (see `bioconductor-rnaprobr/tags`_ for valid values for ``<tag>``)
 

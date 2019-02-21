@@ -51,7 +51,7 @@ bioconductor-xvector
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xvector:<tag>
+      docker pull quay.io/biocontainers/bioconductor-xvector:<tag>
 
    (see `bioconductor-xvector/tags`_ for valid values for ``<tag>``)
 

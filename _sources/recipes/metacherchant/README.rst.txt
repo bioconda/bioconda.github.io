@@ -40,7 +40,7 @@ metacherchant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metacherchant:<tag>
+      docker pull quay.io/biocontainers/metacherchant:<tag>
 
    (see `metacherchant/tags`_ for valid values for ``<tag>``)
 

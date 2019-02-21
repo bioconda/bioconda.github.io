@@ -66,7 +66,7 @@ bioconductor-netbenchmark
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-netbenchmark:<tag>
+      docker pull quay.io/biocontainers/bioconductor-netbenchmark:<tag>
 
    (see `bioconductor-netbenchmark/tags`_ for valid values for ``<tag>``)
 

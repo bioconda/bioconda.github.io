@@ -64,7 +64,7 @@ r-tcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-tcr:<tag>
+      docker pull quay.io/biocontainers/r-tcr:<tag>
 
    (see `r-tcr/tags`_ for valid values for ``<tag>``)
 

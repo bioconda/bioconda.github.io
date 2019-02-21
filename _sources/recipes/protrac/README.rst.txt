@@ -42,7 +42,7 @@ protrac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/protrac:<tag>
+      docker pull quay.io/biocontainers/protrac:<tag>
 
    (see `protrac/tags`_ for valid values for ``<tag>``)
 

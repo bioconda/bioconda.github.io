@@ -44,7 +44,7 @@ bioconductor-hu6800probe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hu6800probe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hu6800probe:<tag>
 
    (see `bioconductor-hu6800probe/tags`_ for valid values for ``<tag>``)
 

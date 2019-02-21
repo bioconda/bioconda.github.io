@@ -53,7 +53,7 @@ bioconductor-gcrisprtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gcrisprtools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gcrisprtools:<tag>
 
    (see `bioconductor-gcrisprtools/tags`_ for valid values for ``<tag>``)
 

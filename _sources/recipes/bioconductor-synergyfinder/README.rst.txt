@@ -57,7 +57,7 @@ bioconductor-synergyfinder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-synergyfinder:<tag>
+      docker pull quay.io/biocontainers/bioconductor-synergyfinder:<tag>
 
    (see `bioconductor-synergyfinder/tags`_ for valid values for ``<tag>``)
 

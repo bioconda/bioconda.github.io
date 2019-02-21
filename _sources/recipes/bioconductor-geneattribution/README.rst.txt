@@ -55,7 +55,7 @@ bioconductor-geneattribution
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneattribution:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geneattribution:<tag>
 
    (see `bioconductor-geneattribution/tags`_ for valid values for ``<tag>``)
 

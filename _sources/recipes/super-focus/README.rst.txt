@@ -53,7 +53,7 @@ super-focus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/super-focus:<tag>
+      docker pull quay.io/biocontainers/super-focus:<tag>
 
    (see `super-focus/tags`_ for valid values for ``<tag>``)
 

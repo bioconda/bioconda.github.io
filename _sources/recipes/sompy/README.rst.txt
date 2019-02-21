@@ -50,7 +50,7 @@ sompy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sompy:<tag>
+      docker pull quay.io/biocontainers/sompy:<tag>
 
    (see `sompy/tags`_ for valid values for ``<tag>``)
 

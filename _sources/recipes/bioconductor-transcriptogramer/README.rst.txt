@@ -64,7 +64,7 @@ bioconductor-transcriptogramer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-transcriptogramer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-transcriptogramer:<tag>
 
    (see `bioconductor-transcriptogramer/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ bioconductor-hugene20sttranscriptcluster.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hugene20sttranscriptcluster.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hugene20sttranscriptcluster.db:<tag>
 
    (see `bioconductor-hugene20sttranscriptcluster.db/tags`_ for valid values for ``<tag>``)
 

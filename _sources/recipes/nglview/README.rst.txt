@@ -48,7 +48,7 @@ nglview
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nglview:<tag>
+      docker pull quay.io/biocontainers/nglview:<tag>
 
    (see `nglview/tags`_ for valid values for ``<tag>``)
 

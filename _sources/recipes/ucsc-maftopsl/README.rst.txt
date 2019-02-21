@@ -50,7 +50,7 @@ ucsc-maftopsl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-maftopsl:<tag>
+      docker pull quay.io/biocontainers/ucsc-maftopsl:<tag>
 
    (see `ucsc-maftopsl/tags`_ for valid values for ``<tag>``)
 

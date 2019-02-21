@@ -40,7 +40,7 @@ mmvc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mmvc:<tag>
+      docker pull quay.io/biocontainers/mmvc:<tag>
 
    (see `mmvc/tags`_ for valid values for ``<tag>``)
 

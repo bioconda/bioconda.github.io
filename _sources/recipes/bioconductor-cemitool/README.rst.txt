@@ -104,7 +104,7 @@ bioconductor-cemitool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cemitool:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cemitool:<tag>
 
    (see `bioconductor-cemitool/tags`_ for valid values for ``<tag>``)
 

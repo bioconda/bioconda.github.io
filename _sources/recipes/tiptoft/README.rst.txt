@@ -46,7 +46,7 @@ tiptoft
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tiptoft:<tag>
+      docker pull quay.io/biocontainers/tiptoft:<tag>
 
    (see `tiptoft/tags`_ for valid values for ``<tag>``)
 

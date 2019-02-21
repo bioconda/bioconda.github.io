@@ -40,7 +40,7 @@ ruffus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ruffus:<tag>
+      docker pull quay.io/biocontainers/ruffus:<tag>
 
    (see `ruffus/tags`_ for valid values for ``<tag>``)
 

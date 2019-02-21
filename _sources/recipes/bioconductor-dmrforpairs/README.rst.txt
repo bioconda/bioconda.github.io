@@ -46,7 +46,7 @@ bioconductor-dmrforpairs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dmrforpairs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dmrforpairs:<tag>
 
    (see `bioconductor-dmrforpairs/tags`_ for valid values for ``<tag>``)
 

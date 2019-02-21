@@ -48,7 +48,7 @@ pysradb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pysradb:<tag>
+      docker pull quay.io/biocontainers/pysradb:<tag>
 
    (see `pysradb/tags`_ for valid values for ``<tag>``)
 

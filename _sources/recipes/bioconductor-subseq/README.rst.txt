@@ -57,7 +57,7 @@ bioconductor-subseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-subseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-subseq:<tag>
 
    (see `bioconductor-subseq/tags`_ for valid values for ``<tag>``)
 

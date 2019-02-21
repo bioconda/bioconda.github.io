@@ -59,7 +59,7 @@ bioconductor-gostats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gostats:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gostats:<tag>
 
    (see `bioconductor-gostats/tags`_ for valid values for ``<tag>``)
 

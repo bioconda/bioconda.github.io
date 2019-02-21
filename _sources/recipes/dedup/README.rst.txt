@@ -42,7 +42,7 @@ dedup
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dedup:<tag>
+      docker pull quay.io/biocontainers/dedup:<tag>
 
    (see `dedup/tags`_ for valid values for ``<tag>``)
 

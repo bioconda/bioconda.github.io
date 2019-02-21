@@ -48,7 +48,7 @@ r-msm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-msm:<tag>
+      docker pull quay.io/biocontainers/r-msm:<tag>
 
    (see `r-msm/tags`_ for valid values for ``<tag>``)
 

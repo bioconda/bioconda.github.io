@@ -63,7 +63,7 @@ bioconductor-yarn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-yarn:<tag>
+      docker pull quay.io/biocontainers/bioconductor-yarn:<tag>
 
    (see `bioconductor-yarn/tags`_ for valid values for ``<tag>``)
 

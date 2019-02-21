@@ -44,7 +44,7 @@ msaboot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/msaboot:<tag>
+      docker pull quay.io/biocontainers/msaboot:<tag>
 
    (see `msaboot/tags`_ for valid values for ``<tag>``)
 

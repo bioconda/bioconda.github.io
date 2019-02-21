@@ -48,7 +48,7 @@ perl-test-cleannamespaces
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-cleannamespaces:<tag>
+      docker pull quay.io/biocontainers/perl-test-cleannamespaces:<tag>
 
    (see `perl-test-cleannamespaces/tags`_ for valid values for ``<tag>``)
 

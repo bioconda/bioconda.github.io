@@ -40,7 +40,7 @@ scala
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scala:<tag>
+      docker pull quay.io/biocontainers/scala:<tag>
 
    (see `scala/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ perl-devel-overloadinfo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-devel-overloadinfo:<tag>
+      docker pull quay.io/biocontainers/perl-devel-overloadinfo:<tag>
 
    (see `perl-devel-overloadinfo/tags`_ for valid values for ``<tag>``)
 

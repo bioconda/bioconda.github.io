@@ -46,7 +46,7 @@ r-htscluster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-htscluster:<tag>
+      docker pull quay.io/biocontainers/r-htscluster:<tag>
 
    (see `r-htscluster/tags`_ for valid values for ``<tag>``)
 

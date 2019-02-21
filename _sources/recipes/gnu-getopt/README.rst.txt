@@ -42,7 +42,7 @@ gnu-getopt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gnu-getopt:<tag>
+      docker pull quay.io/biocontainers/gnu-getopt:<tag>
 
    (see `gnu-getopt/tags`_ for valid values for ``<tag>``)
 

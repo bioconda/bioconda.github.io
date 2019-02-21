@@ -40,7 +40,7 @@ perl-sub-name
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-name:<tag>
+      docker pull quay.io/biocontainers/perl-sub-name:<tag>
 
    (see `perl-sub-name/tags`_ for valid values for ``<tag>``)
 

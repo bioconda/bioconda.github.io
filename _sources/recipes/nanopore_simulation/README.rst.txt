@@ -52,7 +52,7 @@ nanopore_simulation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanopore_simulation:<tag>
+      docker pull quay.io/biocontainers/nanopore_simulation:<tag>
 
    (see `nanopore_simulation/tags`_ for valid values for ``<tag>``)
 

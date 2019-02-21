@@ -71,7 +71,7 @@ bioconductor-qpgraph
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qpgraph:<tag>
+      docker pull quay.io/biocontainers/bioconductor-qpgraph:<tag>
 
    (see `bioconductor-qpgraph/tags`_ for valid values for ``<tag>``)
 

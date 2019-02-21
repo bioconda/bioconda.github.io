@@ -42,7 +42,7 @@ bioconductor-cosnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cosnet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cosnet:<tag>
 
    (see `bioconductor-cosnet/tags`_ for valid values for ``<tag>``)
 

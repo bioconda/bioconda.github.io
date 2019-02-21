@@ -66,7 +66,7 @@ r-adegenet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-adegenet:<tag>
+      docker pull quay.io/biocontainers/r-adegenet:<tag>
 
    (see `r-adegenet/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ dupre
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dupre:<tag>
+      docker pull quay.io/biocontainers/dupre:<tag>
 
    (see `dupre/tags`_ for valid values for ``<tag>``)
 

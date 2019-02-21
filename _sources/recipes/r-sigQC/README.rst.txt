@@ -72,7 +72,7 @@ r-sigqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-sigqc:<tag>
+      docker pull quay.io/biocontainers/r-sigqc:<tag>
 
    (see `r-sigqc/tags`_ for valid values for ``<tag>``)
 

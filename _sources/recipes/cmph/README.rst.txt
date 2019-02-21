@@ -40,7 +40,7 @@ cmph
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cmph:<tag>
+      docker pull quay.io/biocontainers/cmph:<tag>
 
    (see `cmph/tags`_ for valid values for ``<tag>``)
 

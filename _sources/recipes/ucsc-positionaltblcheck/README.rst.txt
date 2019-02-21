@@ -50,7 +50,7 @@ ucsc-positionaltblcheck
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-positionaltblcheck:<tag>
+      docker pull quay.io/biocontainers/ucsc-positionaltblcheck:<tag>
 
    (see `ucsc-positionaltblcheck/tags`_ for valid values for ``<tag>``)
 

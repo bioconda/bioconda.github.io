@@ -56,7 +56,7 @@ bioconductor-genotypeeval
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genotypeeval:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genotypeeval:<tag>
 
    (see `bioconductor-genotypeeval/tags`_ for valid values for ``<tag>``)
 

@@ -41,7 +41,7 @@ astalavista
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/astalavista:<tag>
+      docker pull quay.io/biocontainers/astalavista:<tag>
 
    (see `astalavista/tags`_ for valid values for ``<tag>``)
 

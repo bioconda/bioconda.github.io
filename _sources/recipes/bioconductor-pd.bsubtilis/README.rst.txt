@@ -56,7 +56,7 @@ bioconductor-pd.bsubtilis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.bsubtilis:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.bsubtilis:<tag>
 
    (see `bioconductor-pd.bsubtilis/tags`_ for valid values for ``<tag>``)
 

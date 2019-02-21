@@ -42,7 +42,7 @@ perl-io-socket-ssl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-socket-ssl:<tag>
+      docker pull quay.io/biocontainers/perl-io-socket-ssl:<tag>
 
    (see `perl-io-socket-ssl/tags`_ for valid values for ``<tag>``)
 

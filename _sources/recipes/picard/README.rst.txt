@@ -43,7 +43,7 @@ picard
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/picard:<tag>
+      docker pull quay.io/biocontainers/picard:<tag>
 
    (see `picard/tags`_ for valid values for ``<tag>``)
 

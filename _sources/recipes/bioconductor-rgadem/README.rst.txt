@@ -51,7 +51,7 @@ bioconductor-rgadem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgadem:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rgadem:<tag>
 
    (see `bioconductor-rgadem/tags`_ for valid values for ``<tag>``)
 

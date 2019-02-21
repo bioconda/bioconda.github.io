@@ -62,7 +62,7 @@ gtdbtk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gtdbtk:<tag>
+      docker pull quay.io/biocontainers/gtdbtk:<tag>
 
    (see `gtdbtk/tags`_ for valid values for ``<tag>``)
 

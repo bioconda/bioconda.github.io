@@ -59,7 +59,7 @@ bioconductor-pbcmc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pbcmc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pbcmc:<tag>
 
    (see `bioconductor-pbcmc/tags`_ for valid values for ``<tag>``)
 

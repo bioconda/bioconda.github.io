@@ -22,7 +22,7 @@ bioconductor-arrayexpresshts
 
    |downloads_bioconductor-arrayexpresshts| |docker_bioconductor-arrayexpresshts|
 
-   :versions: 1.32.0-0
+   :versions: 1.32.1-0, 1.32.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    
@@ -43,6 +43,8 @@ bioconductor-arrayexpresshts
    :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
    
    :depends bioconductor-shortread: >=1.40.0,<1.41.0
+   
+   :depends libgcc-ng: >=7.3.0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    
@@ -80,7 +82,7 @@ bioconductor-arrayexpresshts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-arrayexpresshts:<tag>
+      docker pull quay.io/biocontainers/bioconductor-arrayexpresshts:<tag>
 
    (see `bioconductor-arrayexpresshts/tags`_ for valid values for ``<tag>``)
 

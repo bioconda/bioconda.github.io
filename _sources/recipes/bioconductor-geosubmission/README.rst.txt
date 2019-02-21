@@ -45,7 +45,7 @@ bioconductor-geosubmission
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geosubmission:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geosubmission:<tag>
 
    (see `bioconductor-geosubmission/tags`_ for valid values for ``<tag>``)
 

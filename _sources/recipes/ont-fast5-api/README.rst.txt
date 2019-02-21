@@ -48,7 +48,7 @@ ont-fast5-api
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ont-fast5-api:<tag>
+      docker pull quay.io/biocontainers/ont-fast5-api:<tag>
 
    (see `ont-fast5-api/tags`_ for valid values for ``<tag>``)
 

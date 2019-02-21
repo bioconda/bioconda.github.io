@@ -42,7 +42,7 @@ bioconductor-stemhypoxia
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-stemhypoxia:<tag>
+      docker pull quay.io/biocontainers/bioconductor-stemhypoxia:<tag>
 
    (see `bioconductor-stemhypoxia/tags`_ for valid values for ``<tag>``)
 

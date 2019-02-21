@@ -49,7 +49,7 @@ trumicount
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trumicount:<tag>
+      docker pull quay.io/biocontainers/trumicount:<tag>
 
    (see `trumicount/tags`_ for valid values for ``<tag>``)
 

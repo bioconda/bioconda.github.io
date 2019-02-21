@@ -64,7 +64,7 @@ bioconductor-recount
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-recount:<tag>
+      docker pull quay.io/biocontainers/bioconductor-recount:<tag>
 
    (see `bioconductor-recount/tags`_ for valid values for ``<tag>``)
 

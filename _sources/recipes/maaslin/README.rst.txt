@@ -64,7 +64,7 @@ maaslin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/maaslin:<tag>
+      docker pull quay.io/biocontainers/maaslin:<tag>
 
    (see `maaslin/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-agprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-agprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-agprobe:<tag>
 
    (see `bioconductor-agprobe/tags`_ for valid values for ``<tag>``)
 

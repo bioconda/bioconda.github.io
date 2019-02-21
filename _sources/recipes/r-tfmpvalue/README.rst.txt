@@ -44,7 +44,7 @@ r-tfmpvalue
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-tfmpvalue:<tag>
+      docker pull quay.io/biocontainers/r-tfmpvalue:<tag>
 
    (see `r-tfmpvalue/tags`_ for valid values for ``<tag>``)
 

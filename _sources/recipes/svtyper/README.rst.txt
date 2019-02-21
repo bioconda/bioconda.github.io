@@ -48,7 +48,7 @@ svtyper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/svtyper:<tag>
+      docker pull quay.io/biocontainers/svtyper:<tag>
 
    (see `svtyper/tags`_ for valid values for ``<tag>``)
 

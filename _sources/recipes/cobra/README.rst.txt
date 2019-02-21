@@ -56,7 +56,7 @@ cobra
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cobra:<tag>
+      docker pull quay.io/biocontainers/cobra:<tag>
 
    (see `cobra/tags`_ for valid values for ``<tag>``)
 

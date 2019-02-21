@@ -44,7 +44,7 @@ bioconductor-bsgenome.rnorvegicus.ucsc.rn5
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.rnorvegicus.ucsc.rn5:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.rnorvegicus.ucsc.rn5:<tag>
 
    (see `bioconductor-bsgenome.rnorvegicus.ucsc.rn5/tags`_ for valid values for ``<tag>``)
 

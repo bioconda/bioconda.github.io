@@ -44,7 +44,7 @@ bioconductor-hgu95ecdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hgu95ecdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hgu95ecdf:<tag>
 
    (see `bioconductor-hgu95ecdf/tags`_ for valid values for ``<tag>``)
 

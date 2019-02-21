@@ -48,7 +48,7 @@ nanosim-h
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanosim-h:<tag>
+      docker pull quay.io/biocontainers/nanosim-h:<tag>
 
    (see `nanosim-h/tags`_ for valid values for ``<tag>``)
 

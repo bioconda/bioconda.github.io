@@ -41,7 +41,7 @@ proteowizard
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/proteowizard:<tag>
+      docker pull quay.io/biocontainers/proteowizard:<tag>
 
    (see `proteowizard/tags`_ for valid values for ``<tag>``)
 

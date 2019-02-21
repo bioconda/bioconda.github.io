@@ -44,7 +44,7 @@ bioconductor-iyer517
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-iyer517:<tag>
+      docker pull quay.io/biocontainers/bioconductor-iyer517:<tag>
 
    (see `bioconductor-iyer517/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-www-robotrules
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-www-robotrules:<tag>
+      docker pull quay.io/biocontainers/perl-www-robotrules:<tag>
 
    (see `perl-www-robotrules/tags`_ for valid values for ``<tag>``)
 

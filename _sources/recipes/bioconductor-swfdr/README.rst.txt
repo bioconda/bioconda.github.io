@@ -46,7 +46,7 @@ bioconductor-swfdr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-swfdr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-swfdr:<tag>
 
    (see `bioconductor-swfdr/tags`_ for valid values for ``<tag>``)
 

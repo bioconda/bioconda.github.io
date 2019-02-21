@@ -40,7 +40,7 @@ bcbreport
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcbreport:<tag>
+      docker pull quay.io/biocontainers/bcbreport:<tag>
 
    (see `bcbreport/tags`_ for valid values for ``<tag>``)
 

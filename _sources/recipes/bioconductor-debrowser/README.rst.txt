@@ -38,7 +38,7 @@ bioconductor-debrowser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-debrowser:<tag>
+      docker pull quay.io/biocontainers/bioconductor-debrowser:<tag>
 
    (see `bioconductor-debrowser/tags`_ for valid values for ``<tag>``)
 

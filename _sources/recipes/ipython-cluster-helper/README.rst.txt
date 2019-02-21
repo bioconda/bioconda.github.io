@@ -48,7 +48,7 @@ ipython-cluster-helper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ipython-cluster-helper:<tag>
+      docker pull quay.io/biocontainers/ipython-cluster-helper:<tag>
 
    (see `ipython-cluster-helper/tags`_ for valid values for ``<tag>``)
 

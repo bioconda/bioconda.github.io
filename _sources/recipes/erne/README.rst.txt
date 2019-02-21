@@ -47,7 +47,7 @@ erne
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/erne:<tag>
+      docker pull quay.io/biocontainers/erne:<tag>
 
    (see `erne/tags`_ for valid values for ``<tag>``)
 

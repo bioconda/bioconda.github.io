@@ -40,7 +40,7 @@ mapsembler2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mapsembler2:<tag>
+      docker pull quay.io/biocontainers/mapsembler2:<tag>
 
    (see `mapsembler2/tags`_ for valid values for ``<tag>``)
 

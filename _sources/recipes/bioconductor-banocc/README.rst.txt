@@ -48,7 +48,7 @@ bioconductor-banocc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-banocc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-banocc:<tag>
 
    (see `bioconductor-banocc/tags`_ for valid values for ``<tag>``)
 

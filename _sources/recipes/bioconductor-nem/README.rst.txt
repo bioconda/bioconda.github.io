@@ -61,7 +61,7 @@ bioconductor-nem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-nem:<tag>
+      docker pull quay.io/biocontainers/bioconductor-nem:<tag>
 
    (see `bioconductor-nem/tags`_ for valid values for ``<tag>``)
 

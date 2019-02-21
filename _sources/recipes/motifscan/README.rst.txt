@@ -48,7 +48,7 @@ motifscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/motifscan:<tag>
+      docker pull quay.io/biocontainers/motifscan:<tag>
 
    (see `motifscan/tags`_ for valid values for ``<tag>``)
 

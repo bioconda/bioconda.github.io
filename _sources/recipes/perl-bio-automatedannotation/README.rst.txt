@@ -68,7 +68,7 @@ perl-bio-automatedannotation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-automatedannotation:<tag>
+      docker pull quay.io/biocontainers/perl-bio-automatedannotation:<tag>
 
    (see `perl-bio-automatedannotation/tags`_ for valid values for ``<tag>``)
 

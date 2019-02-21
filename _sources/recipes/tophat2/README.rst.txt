@@ -42,7 +42,7 @@ tophat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tophat:<tag>
+      docker pull quay.io/biocontainers/tophat:<tag>
 
    (see `tophat/tags`_ for valid values for ``<tag>``)
 

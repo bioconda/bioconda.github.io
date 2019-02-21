@@ -40,7 +40,7 @@ r-bioverbs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-bioverbs:<tag>
+      docker pull quay.io/biocontainers/r-bioverbs:<tag>
 
    (see `r-bioverbs/tags`_ for valid values for ``<tag>``)
 

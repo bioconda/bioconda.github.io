@@ -54,7 +54,7 @@ metaprob
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metaprob:<tag>
+      docker pull quay.io/biocontainers/metaprob:<tag>
 
    (see `metaprob/tags`_ for valid values for ``<tag>``)
 

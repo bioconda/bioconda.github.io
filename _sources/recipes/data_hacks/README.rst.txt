@@ -40,7 +40,7 @@ data_hacks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/data_hacks:<tag>
+      docker pull quay.io/biocontainers/data_hacks:<tag>
 
    (see `data_hacks/tags`_ for valid values for ``<tag>``)
 

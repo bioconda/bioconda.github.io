@@ -42,7 +42,7 @@ qiime-default-reference
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/qiime-default-reference:<tag>
+      docker pull quay.io/biocontainers/qiime-default-reference:<tag>
 
    (see `qiime-default-reference/tags`_ for valid values for ``<tag>``)
 

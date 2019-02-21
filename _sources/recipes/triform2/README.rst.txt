@@ -62,7 +62,7 @@ triform2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/triform2:<tag>
+      docker pull quay.io/biocontainers/triform2:<tag>
 
    (see `triform2/tags`_ for valid values for ``<tag>``)
 

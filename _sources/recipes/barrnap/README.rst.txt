@@ -45,7 +45,7 @@ barrnap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/barrnap:<tag>
+      docker pull quay.io/biocontainers/barrnap:<tag>
 
    (see `barrnap/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ perl-statistics-basic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-statistics-basic:<tag>
+      docker pull quay.io/biocontainers/perl-statistics-basic:<tag>
 
    (see `perl-statistics-basic/tags`_ for valid values for ``<tag>``)
 

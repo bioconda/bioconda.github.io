@@ -48,7 +48,7 @@ bioconductor-limmagui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-limmagui:<tag>
+      docker pull quay.io/biocontainers/bioconductor-limmagui:<tag>
 
    (see `bioconductor-limmagui/tags`_ for valid values for ``<tag>``)
 

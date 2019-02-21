@@ -44,7 +44,7 @@ ska
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ska:<tag>
+      docker pull quay.io/biocontainers/ska:<tag>
 
    (see `ska/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ rdfextras
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rdfextras:<tag>
+      docker pull quay.io/biocontainers/rdfextras:<tag>
 
    (see `rdfextras/tags`_ for valid values for ``<tag>``)
 

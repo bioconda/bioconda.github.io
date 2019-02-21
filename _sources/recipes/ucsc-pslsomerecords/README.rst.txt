@@ -50,7 +50,7 @@ ucsc-pslsomerecords
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslsomerecords:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslsomerecords:<tag>
 
    (see `ucsc-pslsomerecords/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ gadem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gadem:<tag>
+      docker pull quay.io/biocontainers/gadem:<tag>
 
    (see `gadem/tags`_ for valid values for ``<tag>``)
 

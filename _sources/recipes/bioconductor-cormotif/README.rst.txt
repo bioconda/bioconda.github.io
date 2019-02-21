@@ -45,7 +45,7 @@ bioconductor-cormotif
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cormotif:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cormotif:<tag>
 
    (see `bioconductor-cormotif/tags`_ for valid values for ``<tag>``)
 

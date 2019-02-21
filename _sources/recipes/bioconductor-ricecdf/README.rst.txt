@@ -44,7 +44,7 @@ bioconductor-ricecdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ricecdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ricecdf:<tag>
 
    (see `bioconductor-ricecdf/tags`_ for valid values for ``<tag>``)
 

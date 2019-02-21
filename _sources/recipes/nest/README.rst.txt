@@ -66,7 +66,7 @@ nest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nest:<tag>
+      docker pull quay.io/biocontainers/nest:<tag>
 
    (see `nest/tags`_ for valid values for ``<tag>``)
 

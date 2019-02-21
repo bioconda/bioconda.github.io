@@ -48,7 +48,7 @@ bioconductor-geuvstore2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geuvstore2:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geuvstore2:<tag>
 
    (see `bioconductor-geuvstore2/tags`_ for valid values for ``<tag>``)
 

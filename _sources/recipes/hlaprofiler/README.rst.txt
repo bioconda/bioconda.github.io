@@ -54,7 +54,7 @@ hlaprofiler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hlaprofiler:<tag>
+      docker pull quay.io/biocontainers/hlaprofiler:<tag>
 
    (see `hlaprofiler/tags`_ for valid values for ``<tag>``)
 

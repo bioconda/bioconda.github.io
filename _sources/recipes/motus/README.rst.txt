@@ -48,7 +48,7 @@ motus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/motus:<tag>
+      docker pull quay.io/biocontainers/motus:<tag>
 
    (see `motus/tags`_ for valid values for ``<tag>``)
 

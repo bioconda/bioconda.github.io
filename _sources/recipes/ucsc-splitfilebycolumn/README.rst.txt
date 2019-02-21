@@ -50,7 +50,7 @@ ucsc-splitfilebycolumn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-splitfilebycolumn:<tag>
+      docker pull quay.io/biocontainers/ucsc-splitfilebycolumn:<tag>
 
    (see `ucsc-splitfilebycolumn/tags`_ for valid values for ``<tag>``)
 

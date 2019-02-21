@@ -45,7 +45,7 @@ bioconductor-siggenes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-siggenes:<tag>
+      docker pull quay.io/biocontainers/bioconductor-siggenes:<tag>
 
    (see `bioconductor-siggenes/tags`_ for valid values for ``<tag>``)
 

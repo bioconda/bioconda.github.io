@@ -51,7 +51,7 @@ bioconductor-rols
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rols:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rols:<tag>
 
    (see `bioconductor-rols/tags`_ for valid values for ``<tag>``)
 

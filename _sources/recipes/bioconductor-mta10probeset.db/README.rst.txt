@@ -46,7 +46,7 @@ bioconductor-mta10probeset.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mta10probeset.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mta10probeset.db:<tag>
 
    (see `bioconductor-mta10probeset.db/tags`_ for valid values for ``<tag>``)
 

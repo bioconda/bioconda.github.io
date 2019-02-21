@@ -64,7 +64,7 @@ bioconductor-sesame
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sesame:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sesame:<tag>
 
    (see `bioconductor-sesame/tags`_ for valid values for ``<tag>``)
 

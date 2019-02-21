@@ -44,7 +44,7 @@ discovardenovo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/discovardenovo:<tag>
+      docker pull quay.io/biocontainers/discovardenovo:<tag>
 
    (see `discovardenovo/tags`_ for valid values for ``<tag>``)
 

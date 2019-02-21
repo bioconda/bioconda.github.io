@@ -66,7 +66,7 @@ daisysuite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/daisysuite:<tag>
+      docker pull quay.io/biocontainers/daisysuite:<tag>
 
    (see `daisysuite/tags`_ for valid values for ``<tag>``)
 

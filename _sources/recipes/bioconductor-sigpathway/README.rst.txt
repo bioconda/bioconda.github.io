@@ -43,7 +43,7 @@ bioconductor-sigpathway
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sigpathway:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sigpathway:<tag>
 
    (see `bioconductor-sigpathway/tags`_ for valid values for ``<tag>``)
 

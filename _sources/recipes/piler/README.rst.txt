@@ -38,7 +38,7 @@ piler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/piler:<tag>
+      docker pull quay.io/biocontainers/piler:<tag>
 
    (see `piler/tags`_ for valid values for ``<tag>``)
 

@@ -41,7 +41,7 @@ tracer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tracer:<tag>
+      docker pull quay.io/biocontainers/tracer:<tag>
 
    (see `tracer/tags`_ for valid values for ``<tag>``)
 

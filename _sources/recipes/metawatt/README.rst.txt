@@ -67,7 +67,7 @@ metawatt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metawatt:<tag>
+      docker pull quay.io/biocontainers/metawatt:<tag>
 
    (see `metawatt/tags`_ for valid values for ``<tag>``)
 

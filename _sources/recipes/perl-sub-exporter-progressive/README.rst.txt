@@ -40,7 +40,7 @@ perl-sub-exporter-progressive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-exporter-progressive:<tag>
+      docker pull quay.io/biocontainers/perl-sub-exporter-progressive:<tag>
 
    (see `perl-sub-exporter-progressive/tags`_ for valid values for ``<tag>``)
 

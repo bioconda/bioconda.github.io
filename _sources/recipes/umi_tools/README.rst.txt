@@ -56,7 +56,7 @@ umi_tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/umi_tools:<tag>
+      docker pull quay.io/biocontainers/umi_tools:<tag>
 
    (see `umi_tools/tags`_ for valid values for ``<tag>``)
 

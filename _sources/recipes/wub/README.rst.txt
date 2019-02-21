@@ -64,7 +64,7 @@ wub
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wub:<tag>
+      docker pull quay.io/biocontainers/wub:<tag>
 
    (see `wub/tags`_ for valid values for ``<tag>``)
 

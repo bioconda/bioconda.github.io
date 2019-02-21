@@ -43,7 +43,7 @@ vcftools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcftools:<tag>
+      docker pull quay.io/biocontainers/vcftools:<tag>
 
    (see `vcftools/tags`_ for valid values for ``<tag>``)
 

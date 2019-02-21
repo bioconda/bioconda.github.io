@@ -40,7 +40,7 @@ perl-unicode-stringprep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-unicode-stringprep:<tag>
+      docker pull quay.io/biocontainers/perl-unicode-stringprep:<tag>
 
    (see `perl-unicode-stringprep/tags`_ for valid values for ``<tag>``)
 

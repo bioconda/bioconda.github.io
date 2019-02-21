@@ -44,7 +44,7 @@ bioconductor-htrat230pmprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-htrat230pmprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-htrat230pmprobe:<tag>
 
    (see `bioconductor-htrat230pmprobe/tags`_ for valid values for ``<tag>``)
 

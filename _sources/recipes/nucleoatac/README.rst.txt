@@ -55,7 +55,7 @@ nucleoatac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nucleoatac:<tag>
+      docker pull quay.io/biocontainers/nucleoatac:<tag>
 
    (see `nucleoatac/tags`_ for valid values for ``<tag>``)
 

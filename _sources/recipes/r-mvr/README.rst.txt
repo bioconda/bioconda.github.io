@@ -46,7 +46,7 @@ r-mvr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-mvr:<tag>
+      docker pull quay.io/biocontainers/r-mvr:<tag>
 
    (see `r-mvr/tags`_ for valid values for ``<tag>``)
 

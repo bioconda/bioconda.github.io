@@ -40,7 +40,7 @@ r-gsmoothr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gsmoothr:<tag>
+      docker pull quay.io/biocontainers/r-gsmoothr:<tag>
 
    (see `r-gsmoothr/tags`_ for valid values for ``<tag>``)
 

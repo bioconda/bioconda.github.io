@@ -40,7 +40,7 @@ plink2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plink2:<tag>
+      docker pull quay.io/biocontainers/plink2:<tag>
 
    (see `plink2/tags`_ for valid values for ``<tag>``)
 

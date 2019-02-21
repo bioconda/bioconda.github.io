@@ -41,7 +41,7 @@ bioconductor-cfassay
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cfassay:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cfassay:<tag>
 
    (see `bioconductor-cfassay/tags`_ for valid values for ``<tag>``)
 

@@ -57,7 +57,7 @@ bioconductor-reactomepa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-reactomepa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-reactomepa:<tag>
 
    (see `bioconductor-reactomepa/tags`_ for valid values for ``<tag>``)
 

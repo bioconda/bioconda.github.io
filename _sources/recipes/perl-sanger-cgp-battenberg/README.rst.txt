@@ -54,7 +54,7 @@ perl-sanger-cgp-battenberg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sanger-cgp-battenberg:<tag>
+      docker pull quay.io/biocontainers/perl-sanger-cgp-battenberg:<tag>
 
    (see `perl-sanger-cgp-battenberg/tags`_ for valid values for ``<tag>``)
 

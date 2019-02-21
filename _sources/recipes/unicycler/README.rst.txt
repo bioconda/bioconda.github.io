@@ -64,7 +64,7 @@ unicycler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/unicycler:<tag>
+      docker pull quay.io/biocontainers/unicycler:<tag>
 
    (see `unicycler/tags`_ for valid values for ``<tag>``)
 

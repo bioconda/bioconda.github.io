@@ -70,7 +70,7 @@ bioconductor-inpas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-inpas:<tag>
+      docker pull quay.io/biocontainers/bioconductor-inpas:<tag>
 
    (see `bioconductor-inpas/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ libidn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libidn:<tag>
+      docker pull quay.io/biocontainers/libidn:<tag>
 
    (see `libidn/tags`_ for valid values for ``<tag>``)
 

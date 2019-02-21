@@ -42,7 +42,7 @@ bioconductor-affyhgu133a2expr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affyhgu133a2expr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-affyhgu133a2expr:<tag>
 
    (see `bioconductor-affyhgu133a2expr/tags`_ for valid values for ``<tag>``)
 

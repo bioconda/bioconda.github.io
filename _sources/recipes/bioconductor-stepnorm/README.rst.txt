@@ -45,7 +45,7 @@ bioconductor-stepnorm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-stepnorm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-stepnorm:<tag>
 
    (see `bioconductor-stepnorm/tags`_ for valid values for ``<tag>``)
 

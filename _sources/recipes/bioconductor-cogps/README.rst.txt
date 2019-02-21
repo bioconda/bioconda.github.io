@@ -41,7 +41,7 @@ bioconductor-cogps
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cogps:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cogps:<tag>
 
    (see `bioconductor-cogps/tags`_ for valid values for ``<tag>``)
 

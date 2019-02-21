@@ -44,7 +44,7 @@ bioconductor-harmonizedtcgadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-harmonizedtcgadata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-harmonizedtcgadata:<tag>
 
    (see `bioconductor-harmonizedtcgadata/tags`_ for valid values for ``<tag>``)
 

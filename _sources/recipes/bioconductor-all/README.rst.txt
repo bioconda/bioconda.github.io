@@ -44,7 +44,7 @@ bioconductor-all
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-all:<tag>
+      docker pull quay.io/biocontainers/bioconductor-all:<tag>
 
    (see `bioconductor-all/tags`_ for valid values for ``<tag>``)
 

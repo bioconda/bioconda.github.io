@@ -42,7 +42,7 @@ bioconductor-targetsearchdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-targetsearchdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-targetsearchdata:<tag>
 
    (see `bioconductor-targetsearchdata/tags`_ for valid values for ``<tag>``)
 

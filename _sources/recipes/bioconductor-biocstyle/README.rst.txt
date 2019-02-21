@@ -51,7 +51,7 @@ bioconductor-biocstyle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocstyle:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biocstyle:<tag>
 
    (see `bioconductor-biocstyle/tags`_ for valid values for ``<tag>``)
 

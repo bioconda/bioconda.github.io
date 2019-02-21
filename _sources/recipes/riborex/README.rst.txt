@@ -48,7 +48,7 @@ riborex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/riborex:<tag>
+      docker pull quay.io/biocontainers/riborex:<tag>
 
    (see `riborex/tags`_ for valid values for ``<tag>``)
 

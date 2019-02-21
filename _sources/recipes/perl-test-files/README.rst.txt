@@ -46,7 +46,7 @@ perl-test-files
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-files:<tag>
+      docker pull quay.io/biocontainers/perl-test-files:<tag>
 
    (see `perl-test-files/tags`_ for valid values for ``<tag>``)
 

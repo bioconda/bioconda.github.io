@@ -58,7 +58,7 @@ gseapy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gseapy:<tag>
+      docker pull quay.io/biocontainers/gseapy:<tag>
 
    (see `gseapy/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ smalt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/smalt:<tag>
+      docker pull quay.io/biocontainers/smalt:<tag>
 
    (see `smalt/tags`_ for valid values for ``<tag>``)
 

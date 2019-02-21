@@ -40,7 +40,7 @@ perl-test-without-module
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-without-module:<tag>
+      docker pull quay.io/biocontainers/perl-test-without-module:<tag>
 
    (see `perl-test-without-module/tags`_ for valid values for ``<tag>``)
 

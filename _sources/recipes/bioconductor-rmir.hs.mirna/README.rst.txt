@@ -44,7 +44,7 @@ bioconductor-rmir.hs.mirna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rmir.hs.mirna:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rmir.hs.mirna:<tag>
 
    (see `bioconductor-rmir.hs.mirna/tags`_ for valid values for ``<tag>``)
 

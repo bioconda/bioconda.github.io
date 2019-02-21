@@ -46,7 +46,7 @@ bioconductor-cellmapperdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cellmapperdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cellmapperdata:<tag>
 
    (see `bioconductor-cellmapperdata/tags`_ for valid values for ``<tag>``)
 

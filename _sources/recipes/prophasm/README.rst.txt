@@ -42,7 +42,7 @@ prophasm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prophasm:<tag>
+      docker pull quay.io/biocontainers/prophasm:<tag>
 
    (see `prophasm/tags`_ for valid values for ``<tag>``)
 

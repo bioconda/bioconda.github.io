@@ -38,7 +38,7 @@ bioconductor-gaggle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gaggle:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gaggle:<tag>
 
    (see `bioconductor-gaggle/tags`_ for valid values for ``<tag>``)
 

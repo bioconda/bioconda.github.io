@@ -40,7 +40,7 @@ r-pctgcdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-pctgcdata:<tag>
+      docker pull quay.io/biocontainers/r-pctgcdata:<tag>
 
    (see `r-pctgcdata/tags`_ for valid values for ``<tag>``)
 

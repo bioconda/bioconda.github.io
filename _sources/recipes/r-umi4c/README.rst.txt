@@ -44,7 +44,7 @@ r-umi4c
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-umi4c:<tag>
+      docker pull quay.io/biocontainers/r-umi4c:<tag>
 
    (see `r-umi4c/tags`_ for valid values for ``<tag>``)
 

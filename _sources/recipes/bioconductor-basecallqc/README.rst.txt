@@ -70,7 +70,7 @@ bioconductor-basecallqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-basecallqc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-basecallqc:<tag>
 
    (see `bioconductor-basecallqc/tags`_ for valid values for ``<tag>``)
 

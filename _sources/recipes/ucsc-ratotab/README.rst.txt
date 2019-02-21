@@ -50,7 +50,7 @@ ucsc-ratotab
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-ratotab:<tag>
+      docker pull quay.io/biocontainers/ucsc-ratotab:<tag>
 
    (see `ucsc-ratotab/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ a5-miseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/a5-miseq:<tag>
+      docker pull quay.io/biocontainers/a5-miseq:<tag>
 
    (see `a5-miseq/tags`_ for valid values for ``<tag>``)
 

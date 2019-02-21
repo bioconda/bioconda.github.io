@@ -44,7 +44,7 @@ bioconductor-test3probe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-test3probe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-test3probe:<tag>
 
    (see `bioconductor-test3probe/tags`_ for valid values for ``<tag>``)
 

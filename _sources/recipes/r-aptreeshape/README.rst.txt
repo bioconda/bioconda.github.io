@@ -50,7 +50,7 @@ r-aptreeshape
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-aptreeshape:<tag>
+      docker pull quay.io/biocontainers/r-aptreeshape:<tag>
 
    (see `r-aptreeshape/tags`_ for valid values for ``<tag>``)
 

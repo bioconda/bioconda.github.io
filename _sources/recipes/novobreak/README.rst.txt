@@ -44,7 +44,7 @@ novobreak
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/novobreak:<tag>
+      docker pull quay.io/biocontainers/novobreak:<tag>
 
    (see `novobreak/tags`_ for valid values for ``<tag>``)
 

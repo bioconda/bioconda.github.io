@@ -45,7 +45,7 @@ bioconductor-meshsim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-meshsim:<tag>
+      docker pull quay.io/biocontainers/bioconductor-meshsim:<tag>
 
    (see `bioconductor-meshsim/tags`_ for valid values for ``<tag>``)
 

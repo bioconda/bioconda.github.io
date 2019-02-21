@@ -56,7 +56,7 @@ gdc-client
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gdc-client:<tag>
+      docker pull quay.io/biocontainers/gdc-client:<tag>
 
    (see `gdc-client/tags`_ for valid values for ``<tag>``)
 

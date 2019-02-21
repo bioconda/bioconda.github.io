@@ -52,7 +52,7 @@ mashtree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mashtree:<tag>
+      docker pull quay.io/biocontainers/mashtree:<tag>
 
    (see `mashtree/tags`_ for valid values for ``<tag>``)
 

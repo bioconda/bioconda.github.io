@@ -44,7 +44,7 @@ perl-experimental
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-experimental:<tag>
+      docker pull quay.io/biocontainers/perl-experimental:<tag>
 
    (see `perl-experimental/tags`_ for valid values for ``<tag>``)
 

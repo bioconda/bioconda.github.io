@@ -53,7 +53,7 @@ bioconductor-cleanupdtseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cleanupdtseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cleanupdtseq:<tag>
 
    (see `bioconductor-cleanupdtseq/tags`_ for valid values for ``<tag>``)
 

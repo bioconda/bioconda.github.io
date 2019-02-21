@@ -50,7 +50,7 @@ ucsc-maskoutfa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-maskoutfa:<tag>
+      docker pull quay.io/biocontainers/ucsc-maskoutfa:<tag>
 
    (see `ucsc-maskoutfa/tags`_ for valid values for ``<tag>``)
 

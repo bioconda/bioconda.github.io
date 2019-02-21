@@ -46,7 +46,7 @@ bioconductor-fdb.ucsc.trnas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fdb.ucsc.trnas:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fdb.ucsc.trnas:<tag>
 
    (see `bioconductor-fdb.ucsc.trnas/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ tn93
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tn93:<tag>
+      docker pull quay.io/biocontainers/tn93:<tag>
 
    (see `tn93/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ rdp-readseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rdp-readseq:<tag>
+      docker pull quay.io/biocontainers/rdp-readseq:<tag>
 
    (see `rdp-readseq/tags`_ for valid values for ``<tag>``)
 

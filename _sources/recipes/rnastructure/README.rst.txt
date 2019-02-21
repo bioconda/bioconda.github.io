@@ -43,7 +43,7 @@ rnastructure
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnastructure:<tag>
+      docker pull quay.io/biocontainers/rnastructure:<tag>
 
    (see `rnastructure/tags`_ for valid values for ``<tag>``)
 

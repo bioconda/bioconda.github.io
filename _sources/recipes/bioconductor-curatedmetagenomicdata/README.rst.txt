@@ -56,7 +56,7 @@ bioconductor-curatedmetagenomicdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-curatedmetagenomicdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-curatedmetagenomicdata:<tag>
 
    (see `bioconductor-curatedmetagenomicdata/tags`_ for valid values for ``<tag>``)
 

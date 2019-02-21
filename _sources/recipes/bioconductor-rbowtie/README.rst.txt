@@ -45,7 +45,7 @@ bioconductor-rbowtie
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rbowtie:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rbowtie:<tag>
 
    (see `bioconductor-rbowtie/tags`_ for valid values for ``<tag>``)
 

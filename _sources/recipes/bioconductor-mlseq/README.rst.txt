@@ -63,7 +63,7 @@ bioconductor-mlseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mlseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mlseq:<tag>
 
    (see `bioconductor-mlseq/tags`_ for valid values for ``<tag>``)
 

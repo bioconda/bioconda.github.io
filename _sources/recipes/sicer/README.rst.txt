@@ -44,7 +44,7 @@ sicer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sicer:<tag>
+      docker pull quay.io/biocontainers/sicer:<tag>
 
    (see `sicer/tags`_ for valid values for ``<tag>``)
 

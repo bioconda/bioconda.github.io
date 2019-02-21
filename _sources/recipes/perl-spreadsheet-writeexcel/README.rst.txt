@@ -44,7 +44,7 @@ perl-spreadsheet-writeexcel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-spreadsheet-writeexcel:<tag>
+      docker pull quay.io/biocontainers/perl-spreadsheet-writeexcel:<tag>
 
    (see `perl-spreadsheet-writeexcel/tags`_ for valid values for ``<tag>``)
 

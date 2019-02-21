@@ -40,7 +40,7 @@ rnabob
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnabob:<tag>
+      docker pull quay.io/biocontainers/rnabob:<tag>
 
    (see `rnabob/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ bioconductor-shinymethyldata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-shinymethyldata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-shinymethyldata:<tag>
 
    (see `bioconductor-shinymethyldata/tags`_ for valid values for ``<tag>``)
 

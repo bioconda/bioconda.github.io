@@ -43,7 +43,7 @@ bioconductor-hypergraph
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hypergraph:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hypergraph:<tag>
 
    (see `bioconductor-hypergraph/tags`_ for valid values for ``<tag>``)
 

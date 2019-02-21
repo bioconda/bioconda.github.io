@@ -41,7 +41,7 @@ nlstradamus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nlstradamus:<tag>
+      docker pull quay.io/biocontainers/nlstradamus:<tag>
 
    (see `nlstradamus/tags`_ for valid values for ``<tag>``)
 

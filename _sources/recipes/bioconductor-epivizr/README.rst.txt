@@ -51,7 +51,7 @@ bioconductor-epivizr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-epivizr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-epivizr:<tag>
 
    (see `bioconductor-epivizr/tags`_ for valid values for ``<tag>``)
 

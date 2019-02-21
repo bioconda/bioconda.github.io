@@ -58,7 +58,7 @@ r-mmgenome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-mmgenome:<tag>
+      docker pull quay.io/biocontainers/r-mmgenome:<tag>
 
    (see `r-mmgenome/tags`_ for valid values for ``<tag>``)
 

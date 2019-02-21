@@ -51,7 +51,7 @@ bioconductor-gaga
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gaga:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gaga:<tag>
 
    (see `bioconductor-gaga/tags`_ for valid values for ``<tag>``)
 

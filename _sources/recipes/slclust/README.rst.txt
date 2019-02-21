@@ -40,7 +40,7 @@ slclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/slclust:<tag>
+      docker pull quay.io/biocontainers/slclust:<tag>
 
    (see `slclust/tags`_ for valid values for ``<tag>``)
 

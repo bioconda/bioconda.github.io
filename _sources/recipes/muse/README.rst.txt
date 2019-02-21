@@ -44,7 +44,7 @@ muse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/muse:<tag>
+      docker pull quay.io/biocontainers/muse:<tag>
 
    (see `muse/tags`_ for valid values for ``<tag>``)
 

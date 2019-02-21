@@ -42,7 +42,7 @@ uniprot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/uniprot:<tag>
+      docker pull quay.io/biocontainers/uniprot:<tag>
 
    (see `uniprot/tags`_ for valid values for ``<tag>``)
 

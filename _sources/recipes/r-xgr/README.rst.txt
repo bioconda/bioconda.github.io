@@ -74,7 +74,7 @@ r-xgr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-xgr:<tag>
+      docker pull quay.io/biocontainers/r-xgr:<tag>
 
    (see `r-xgr/tags`_ for valid values for ``<tag>``)
 

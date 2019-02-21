@@ -40,7 +40,7 @@ c-ares
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/c-ares:<tag>
+      docker pull quay.io/biocontainers/c-ares:<tag>
 
    (see `c-ares/tags`_ for valid values for ``<tag>``)
 

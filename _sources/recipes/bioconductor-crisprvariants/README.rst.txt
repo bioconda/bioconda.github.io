@@ -65,7 +65,7 @@ bioconductor-crisprvariants
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-crisprvariants:<tag>
+      docker pull quay.io/biocontainers/bioconductor-crisprvariants:<tag>
 
    (see `bioconductor-crisprvariants/tags`_ for valid values for ``<tag>``)
 

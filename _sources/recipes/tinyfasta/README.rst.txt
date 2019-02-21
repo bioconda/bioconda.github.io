@@ -40,7 +40,7 @@ tinyfasta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tinyfasta:<tag>
+      docker pull quay.io/biocontainers/tinyfasta:<tag>
 
    (see `tinyfasta/tags`_ for valid values for ``<tag>``)
 

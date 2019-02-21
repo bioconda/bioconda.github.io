@@ -50,7 +50,7 @@ r-ggrasp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ggrasp:<tag>
+      docker pull quay.io/biocontainers/r-ggrasp:<tag>
 
    (see `r-ggrasp/tags`_ for valid values for ``<tag>``)
 

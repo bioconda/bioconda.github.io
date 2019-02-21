@@ -40,7 +40,7 @@ kmerinshort
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kmerinshort:<tag>
+      docker pull quay.io/biocontainers/kmerinshort:<tag>
 
    (see `kmerinshort/tags`_ for valid values for ``<tag>``)
 

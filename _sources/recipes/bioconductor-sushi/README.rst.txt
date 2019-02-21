@@ -45,7 +45,7 @@ bioconductor-sushi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sushi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sushi:<tag>
 
    (see `bioconductor-sushi/tags`_ for valid values for ``<tag>``)
 

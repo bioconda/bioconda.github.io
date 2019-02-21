@@ -58,7 +58,7 @@ bioconductor-trnascanimport
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-trnascanimport:<tag>
+      docker pull quay.io/biocontainers/bioconductor-trnascanimport:<tag>
 
    (see `bioconductor-trnascanimport/tags`_ for valid values for ``<tag>``)
 

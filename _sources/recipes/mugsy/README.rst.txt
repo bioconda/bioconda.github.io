@@ -40,7 +40,7 @@ mugsy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mugsy:<tag>
+      docker pull quay.io/biocontainers/mugsy:<tag>
 
    (see `mugsy/tags`_ for valid values for ``<tag>``)
 

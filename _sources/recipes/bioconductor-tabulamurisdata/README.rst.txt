@@ -44,7 +44,7 @@ bioconductor-tabulamurisdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tabulamurisdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tabulamurisdata:<tag>
 
    (see `bioconductor-tabulamurisdata/tags`_ for valid values for ``<tag>``)
 

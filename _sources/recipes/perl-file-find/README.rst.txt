@@ -40,7 +40,7 @@ perl-file-find
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-find:<tag>
+      docker pull quay.io/biocontainers/perl-file-find:<tag>
 
    (see `perl-file-find/tags`_ for valid values for ``<tag>``)
 

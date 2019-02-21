@@ -64,7 +64,7 @@ bioconductor-ctrap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ctrap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ctrap:<tag>
 
    (see `bioconductor-ctrap/tags`_ for valid values for ``<tag>``)
 

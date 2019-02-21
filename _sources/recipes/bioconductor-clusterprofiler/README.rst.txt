@@ -63,7 +63,7 @@ bioconductor-clusterprofiler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clusterprofiler:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clusterprofiler:<tag>
 
    (see `bioconductor-clusterprofiler/tags`_ for valid values for ``<tag>``)
 

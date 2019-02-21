@@ -89,7 +89,7 @@ bioconductor-isoformswitchanalyzer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-isoformswitchanalyzer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-isoformswitchanalyzer:<tag>
 
    (see `bioconductor-isoformswitchanalyzer/tags`_ for valid values for ``<tag>``)
 

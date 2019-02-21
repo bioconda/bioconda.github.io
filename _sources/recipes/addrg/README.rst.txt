@@ -42,7 +42,7 @@ addrg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/addrg:<tag>
+      docker pull quay.io/biocontainers/addrg:<tag>
 
    (see `addrg/tags`_ for valid values for ``<tag>``)
 

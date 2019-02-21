@@ -43,7 +43,7 @@ bioconductor-pepxmltab
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pepxmltab:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pepxmltab:<tag>
 
    (see `bioconductor-pepxmltab/tags`_ for valid values for ``<tag>``)
 

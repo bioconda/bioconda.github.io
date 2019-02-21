@@ -40,7 +40,7 @@ perl-getopt-long
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-getopt-long:<tag>
+      docker pull quay.io/biocontainers/perl-getopt-long:<tag>
 
    (see `perl-getopt-long/tags`_ for valid values for ``<tag>``)
 

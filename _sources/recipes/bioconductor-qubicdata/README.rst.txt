@@ -42,7 +42,7 @@ bioconductor-qubicdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qubicdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-qubicdata:<tag>
 
    (see `bioconductor-qubicdata/tags`_ for valid values for ``<tag>``)
 

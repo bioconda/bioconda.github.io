@@ -46,7 +46,7 @@ dnp-diprofile
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dnp-diprofile:<tag>
+      docker pull quay.io/biocontainers/dnp-diprofile:<tag>
 
    (see `dnp-diprofile/tags`_ for valid values for ``<tag>``)
 

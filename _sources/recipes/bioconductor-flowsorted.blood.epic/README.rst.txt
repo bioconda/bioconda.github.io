@@ -58,7 +58,7 @@ bioconductor-flowsorted.blood.epic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowsorted.blood.epic:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowsorted.blood.epic:<tag>
 
    (see `bioconductor-flowsorted.blood.epic/tags`_ for valid values for ``<tag>``)
 

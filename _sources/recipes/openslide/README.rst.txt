@@ -60,7 +60,7 @@ openslide
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/openslide:<tag>
+      docker pull quay.io/biocontainers/openslide:<tag>
 
    (see `openslide/tags`_ for valid values for ``<tag>``)
 

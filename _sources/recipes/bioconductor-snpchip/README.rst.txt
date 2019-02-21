@@ -59,7 +59,7 @@ bioconductor-snpchip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snpchip:<tag>
+      docker pull quay.io/biocontainers/bioconductor-snpchip:<tag>
 
    (see `bioconductor-snpchip/tags`_ for valid values for ``<tag>``)
 

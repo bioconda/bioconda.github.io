@@ -46,7 +46,7 @@ norns
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/norns:<tag>
+      docker pull quay.io/biocontainers/norns:<tag>
 
    (see `norns/tags`_ for valid values for ``<tag>``)
 

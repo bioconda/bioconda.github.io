@@ -52,7 +52,7 @@ r-rapidr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rapidr:<tag>
+      docker pull quay.io/biocontainers/r-rapidr:<tag>
 
    (see `r-rapidr/tags`_ for valid values for ``<tag>``)
 

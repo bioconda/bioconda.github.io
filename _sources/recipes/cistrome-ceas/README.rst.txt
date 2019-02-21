@@ -49,7 +49,7 @@ cistrome-ceas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cistrome-ceas:<tag>
+      docker pull quay.io/biocontainers/cistrome-ceas:<tag>
 
    (see `cistrome-ceas/tags`_ for valid values for ``<tag>``)
 

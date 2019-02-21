@@ -38,7 +38,7 @@ elprep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/elprep:<tag>
+      docker pull quay.io/biocontainers/elprep:<tag>
 
    (see `elprep/tags`_ for valid values for ``<tag>``)
 

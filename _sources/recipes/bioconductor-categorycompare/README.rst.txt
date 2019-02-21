@@ -62,7 +62,7 @@ bioconductor-categorycompare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-categorycompare:<tag>
+      docker pull quay.io/biocontainers/bioconductor-categorycompare:<tag>
 
    (see `bioconductor-categorycompare/tags`_ for valid values for ``<tag>``)
 

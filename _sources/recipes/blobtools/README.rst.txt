@@ -53,7 +53,7 @@ blobtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/blobtools:<tag>
+      docker pull quay.io/biocontainers/blobtools:<tag>
 
    (see `blobtools/tags`_ for valid values for ``<tag>``)
 

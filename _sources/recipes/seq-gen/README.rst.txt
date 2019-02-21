@@ -41,7 +41,7 @@ seq-gen
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seq-gen:<tag>
+      docker pull quay.io/biocontainers/seq-gen:<tag>
 
    (see `seq-gen/tags`_ for valid values for ``<tag>``)
 

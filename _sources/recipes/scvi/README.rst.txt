@@ -72,7 +72,7 @@ scvi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scvi:<tag>
+      docker pull quay.io/biocontainers/scvi:<tag>
 
    (see `scvi/tags`_ for valid values for ``<tag>``)
 

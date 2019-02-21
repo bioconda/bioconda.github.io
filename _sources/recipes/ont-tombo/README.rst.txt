@@ -64,7 +64,7 @@ ont-tombo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ont-tombo:<tag>
+      docker pull quay.io/biocontainers/ont-tombo:<tag>
 
    (see `ont-tombo/tags`_ for valid values for ``<tag>``)
 

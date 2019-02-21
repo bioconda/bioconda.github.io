@@ -44,7 +44,7 @@ perl-text-asciitable
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-asciitable:<tag>
+      docker pull quay.io/biocontainers/perl-text-asciitable:<tag>
 
    (see `perl-text-asciitable/tags`_ for valid values for ``<tag>``)
 

@@ -54,7 +54,7 @@ bioconductor-mafdb.gnomadex.r2.1.hs37d5
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5:<tag>
 
    (see `bioconductor-mafdb.gnomadex.r2.1.hs37d5/tags`_ for valid values for ``<tag>``)
 

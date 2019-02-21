@@ -47,7 +47,7 @@ perl-dbd-mysql
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-dbd-mysql:<tag>
+      docker pull quay.io/biocontainers/perl-dbd-mysql:<tag>
 
    (see `perl-dbd-mysql/tags`_ for valid values for ``<tag>``)
 

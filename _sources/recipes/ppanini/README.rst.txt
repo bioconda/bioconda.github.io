@@ -48,7 +48,7 @@ ppanini
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ppanini:<tag>
+      docker pull quay.io/biocontainers/ppanini:<tag>
 
    (see `ppanini/tags`_ for valid values for ``<tag>``)
 

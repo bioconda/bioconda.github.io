@@ -46,7 +46,7 @@ bioconductor-roberts2005annotation.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-roberts2005annotation.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-roberts2005annotation.db:<tag>
 
    (see `bioconductor-roberts2005annotation.db/tags`_ for valid values for ``<tag>``)
 

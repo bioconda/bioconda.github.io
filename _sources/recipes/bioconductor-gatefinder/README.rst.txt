@@ -50,7 +50,7 @@ bioconductor-gatefinder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gatefinder:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gatefinder:<tag>
 
    (see `bioconductor-gatefinder/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ bioconductor-pd.vitis.vinifera
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.vitis.vinifera:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.vitis.vinifera:<tag>
 
    (see `bioconductor-pd.vitis.vinifera/tags`_ for valid values for ``<tag>``)
 

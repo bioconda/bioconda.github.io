@@ -46,7 +46,7 @@ bioconductor-txdb.mmusculus.ucsc.mm9.knowngene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene:<tag>
 
    (see `bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/tags`_ for valid values for ``<tag>``)
 

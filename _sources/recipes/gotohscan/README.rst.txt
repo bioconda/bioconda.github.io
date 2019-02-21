@@ -40,7 +40,7 @@ gotohscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gotohscan:<tag>
+      docker pull quay.io/biocontainers/gotohscan:<tag>
 
    (see `gotohscan/tags`_ for valid values for ``<tag>``)
 

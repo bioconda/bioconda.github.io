@@ -44,7 +44,7 @@ bioconductor-medicagocdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-medicagocdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-medicagocdf:<tag>
 
    (see `bioconductor-medicagocdf/tags`_ for valid values for ``<tag>``)
 

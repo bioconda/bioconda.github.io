@@ -50,7 +50,7 @@ perl-svg-graph
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-svg-graph:<tag>
+      docker pull quay.io/biocontainers/perl-svg-graph:<tag>
 
    (see `perl-svg-graph/tags`_ for valid values for ``<tag>``)
 

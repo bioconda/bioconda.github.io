@@ -50,7 +50,7 @@ bioconductor-timescape
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-timescape:<tag>
+      docker pull quay.io/biocontainers/bioconductor-timescape:<tag>
 
    (see `bioconductor-timescape/tags`_ for valid values for ``<tag>``)
 

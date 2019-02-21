@@ -44,7 +44,7 @@ bioconductor-kegg.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-kegg.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-kegg.db:<tag>
 
    (see `bioconductor-kegg.db/tags`_ for valid values for ``<tag>``)
 

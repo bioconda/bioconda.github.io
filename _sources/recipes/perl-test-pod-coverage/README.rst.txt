@@ -42,7 +42,7 @@ perl-test-pod-coverage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-pod-coverage:<tag>
+      docker pull quay.io/biocontainers/perl-test-pod-coverage:<tag>
 
    (see `perl-test-pod-coverage/tags`_ for valid values for ``<tag>``)
 

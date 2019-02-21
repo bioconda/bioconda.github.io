@@ -90,7 +90,7 @@ mikado
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mikado:<tag>
+      docker pull quay.io/biocontainers/mikado:<tag>
 
    (see `mikado/tags`_ for valid values for ``<tag>``)
 

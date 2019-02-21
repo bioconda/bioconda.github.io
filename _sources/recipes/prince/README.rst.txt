@@ -46,7 +46,7 @@ prince
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prince:<tag>
+      docker pull quay.io/biocontainers/prince:<tag>
 
    (see `prince/tags`_ for valid values for ``<tag>``)
 

@@ -51,7 +51,7 @@ bioconductor-rfpred
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rfpred:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rfpred:<tag>
 
    (see `bioconductor-rfpred/tags`_ for valid values for ``<tag>``)
 

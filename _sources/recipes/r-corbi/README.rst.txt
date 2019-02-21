@@ -52,7 +52,7 @@ r-corbi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-corbi:<tag>
+      docker pull quay.io/biocontainers/r-corbi:<tag>
 
    (see `r-corbi/tags`_ for valid values for ``<tag>``)
 

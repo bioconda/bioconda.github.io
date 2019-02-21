@@ -38,7 +38,7 @@ funnel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/funnel:<tag>
+      docker pull quay.io/biocontainers/funnel:<tag>
 
    (see `funnel/tags`_ for valid values for ``<tag>``)
 

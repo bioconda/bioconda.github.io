@@ -41,7 +41,7 @@ r-gpseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gpseq:<tag>
+      docker pull quay.io/biocontainers/r-gpseq:<tag>
 
    (see `r-gpseq/tags`_ for valid values for ``<tag>``)
 

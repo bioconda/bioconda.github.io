@@ -78,7 +78,7 @@ bioconductor-qplexanalyzer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qplexanalyzer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-qplexanalyzer:<tag>
 
    (see `bioconductor-qplexanalyzer/tags`_ for valid values for ``<tag>``)
 

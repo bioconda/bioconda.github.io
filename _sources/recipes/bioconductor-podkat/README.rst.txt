@@ -65,7 +65,7 @@ bioconductor-podkat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-podkat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-podkat:<tag>
 
    (see `bioconductor-podkat/tags`_ for valid values for ``<tag>``)
 

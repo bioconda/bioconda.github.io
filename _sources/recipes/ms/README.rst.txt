@@ -39,7 +39,7 @@ ms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ms:<tag>
+      docker pull quay.io/biocontainers/ms:<tag>
 
    (see `ms/tags`_ for valid values for ``<tag>``)
 

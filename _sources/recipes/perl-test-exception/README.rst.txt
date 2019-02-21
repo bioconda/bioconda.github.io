@@ -42,7 +42,7 @@ perl-test-exception
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-exception:<tag>
+      docker pull quay.io/biocontainers/perl-test-exception:<tag>
 
    (see `perl-test-exception/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ ucsc-nettoaxt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-nettoaxt:<tag>
+      docker pull quay.io/biocontainers/ucsc-nettoaxt:<tag>
 
    (see `ucsc-nettoaxt/tags`_ for valid values for ``<tag>``)
 

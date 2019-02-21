@@ -48,7 +48,7 @@ rdock
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rdock:<tag>
+      docker pull quay.io/biocontainers/rdock:<tag>
 
    (see `rdock/tags`_ for valid values for ``<tag>``)
 

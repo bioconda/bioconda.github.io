@@ -56,7 +56,7 @@ bioconductor-pd.nugo.hs1a520180
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.nugo.hs1a520180:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.nugo.hs1a520180:<tag>
 
    (see `bioconductor-pd.nugo.hs1a520180/tags`_ for valid values for ``<tag>``)
 

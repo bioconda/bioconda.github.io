@@ -48,7 +48,7 @@ perl-unicode-utf8
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-unicode-utf8:<tag>
+      docker pull quay.io/biocontainers/perl-unicode-utf8:<tag>
 
    (see `perl-unicode-utf8/tags`_ for valid values for ``<tag>``)
 

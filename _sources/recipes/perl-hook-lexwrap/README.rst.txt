@@ -42,7 +42,7 @@ perl-hook-lexwrap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-hook-lexwrap:<tag>
+      docker pull quay.io/biocontainers/perl-hook-lexwrap:<tag>
 
    (see `perl-hook-lexwrap/tags`_ for valid values for ``<tag>``)
 

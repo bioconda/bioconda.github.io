@@ -73,7 +73,7 @@ bioconductor-arrayqualitymetrics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-arrayqualitymetrics:<tag>
+      docker pull quay.io/biocontainers/bioconductor-arrayqualitymetrics:<tag>
 
    (see `bioconductor-arrayqualitymetrics/tags`_ for valid values for ``<tag>``)
 

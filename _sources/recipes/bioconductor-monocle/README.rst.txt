@@ -105,7 +105,7 @@ bioconductor-monocle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-monocle:<tag>
+      docker pull quay.io/biocontainers/bioconductor-monocle:<tag>
 
    (see `bioconductor-monocle/tags`_ for valid values for ``<tag>``)
 

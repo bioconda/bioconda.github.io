@@ -46,7 +46,7 @@ bioconductor-rgin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgin:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rgin:<tag>
 
    (see `bioconductor-rgin/tags`_ for valid values for ``<tag>``)
 

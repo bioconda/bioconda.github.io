@@ -53,7 +53,7 @@ gat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gat:<tag>
+      docker pull quay.io/biocontainers/gat:<tag>
 
    (see `gat/tags`_ for valid values for ``<tag>``)
 

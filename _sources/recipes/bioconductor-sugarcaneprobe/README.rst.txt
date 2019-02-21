@@ -44,7 +44,7 @@ bioconductor-sugarcaneprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sugarcaneprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sugarcaneprobe:<tag>
 
    (see `bioconductor-sugarcaneprobe/tags`_ for valid values for ``<tag>``)
 

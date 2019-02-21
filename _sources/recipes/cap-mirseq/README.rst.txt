@@ -62,7 +62,7 @@ cap-mirseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cap-mirseq:<tag>
+      docker pull quay.io/biocontainers/cap-mirseq:<tag>
 
    (see `cap-mirseq/tags`_ for valid values for ``<tag>``)
 

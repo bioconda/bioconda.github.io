@@ -44,7 +44,7 @@ bioconductor-flowcybar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowcybar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowcybar:<tag>
 
    (see `bioconductor-flowcybar/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ rainbow
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rainbow:<tag>
+      docker pull quay.io/biocontainers/rainbow:<tag>
 
    (see `rainbow/tags`_ for valid values for ``<tag>``)
 

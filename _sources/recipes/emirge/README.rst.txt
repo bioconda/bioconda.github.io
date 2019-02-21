@@ -58,7 +58,7 @@ emirge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/emirge:<tag>
+      docker pull quay.io/biocontainers/emirge:<tag>
 
    (see `emirge/tags`_ for valid values for ``<tag>``)
 

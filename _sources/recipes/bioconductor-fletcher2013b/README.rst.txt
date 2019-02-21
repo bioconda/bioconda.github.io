@@ -52,7 +52,7 @@ bioconductor-fletcher2013b
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fletcher2013b:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fletcher2013b:<tag>
 
    (see `bioconductor-fletcher2013b/tags`_ for valid values for ``<tag>``)
 

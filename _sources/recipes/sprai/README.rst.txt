@@ -52,7 +52,7 @@ sprai
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sprai:<tag>
+      docker pull quay.io/biocontainers/sprai:<tag>
 
    (see `sprai/tags`_ for valid values for ``<tag>``)
 

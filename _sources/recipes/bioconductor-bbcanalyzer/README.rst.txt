@@ -53,7 +53,7 @@ bioconductor-bbcanalyzer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bbcanalyzer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bbcanalyzer:<tag>
 
    (see `bioconductor-bbcanalyzer/tags`_ for valid values for ``<tag>``)
 

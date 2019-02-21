@@ -41,7 +41,7 @@ randfold
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/randfold:<tag>
+      docker pull quay.io/biocontainers/randfold:<tag>
 
    (see `randfold/tags`_ for valid values for ``<tag>``)
 

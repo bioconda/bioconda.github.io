@@ -45,7 +45,7 @@ bioconductor-affyexpress
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affyexpress:<tag>
+      docker pull quay.io/biocontainers/bioconductor-affyexpress:<tag>
 
    (see `bioconductor-affyexpress/tags`_ for valid values for ``<tag>``)
 

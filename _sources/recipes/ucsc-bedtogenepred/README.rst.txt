@@ -50,7 +50,7 @@ ucsc-bedtogenepred
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-bedtogenepred:<tag>
+      docker pull quay.io/biocontainers/ucsc-bedtogenepred:<tag>
 
    (see `ucsc-bedtogenepred/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ bioconductor-gprege
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gprege:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gprege:<tag>
 
    (see `bioconductor-gprege/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ ucsc-pslscore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslscore:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslscore:<tag>
 
    (see `ucsc-pslscore/tags`_ for valid values for ``<tag>``)
 

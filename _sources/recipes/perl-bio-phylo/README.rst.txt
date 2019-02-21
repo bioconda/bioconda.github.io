@@ -64,7 +64,7 @@ perl-bio-phylo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-phylo:<tag>
+      docker pull quay.io/biocontainers/perl-bio-phylo:<tag>
 
    (see `perl-bio-phylo/tags`_ for valid values for ``<tag>``)
 

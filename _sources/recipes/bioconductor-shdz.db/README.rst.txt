@@ -46,7 +46,7 @@ bioconductor-shdz.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-shdz.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-shdz.db:<tag>
 
    (see `bioconductor-shdz.db/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ bioconductor-simd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-simd:<tag>
+      docker pull quay.io/biocontainers/bioconductor-simd:<tag>
 
    (see `bioconductor-simd/tags`_ for valid values for ``<tag>``)
 

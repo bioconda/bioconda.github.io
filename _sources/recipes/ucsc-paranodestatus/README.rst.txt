@@ -50,7 +50,7 @@ ucsc-paranodestatus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-paranodestatus:<tag>
+      docker pull quay.io/biocontainers/ucsc-paranodestatus:<tag>
 
    (see `ucsc-paranodestatus/tags`_ for valid values for ``<tag>``)
 

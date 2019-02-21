@@ -42,7 +42,7 @@ perl-termreadkey
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-termreadkey:<tag>
+      docker pull quay.io/biocontainers/perl-termreadkey:<tag>
 
    (see `perl-termreadkey/tags`_ for valid values for ``<tag>``)
 

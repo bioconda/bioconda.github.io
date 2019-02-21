@@ -61,7 +61,7 @@ virmet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/virmet:<tag>
+      docker pull quay.io/biocontainers/virmet:<tag>
 
    (see `virmet/tags`_ for valid values for ``<tag>``)
 

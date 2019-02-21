@@ -48,7 +48,7 @@ bcool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcool:<tag>
+      docker pull quay.io/biocontainers/bcool:<tag>
 
    (see `bcool/tags`_ for valid values for ``<tag>``)
 

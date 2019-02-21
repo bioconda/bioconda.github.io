@@ -46,7 +46,7 @@ perl-class-load-xs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-class-load-xs:<tag>
+      docker pull quay.io/biocontainers/perl-class-load-xs:<tag>
 
    (see `perl-class-load-xs/tags`_ for valid values for ``<tag>``)
 

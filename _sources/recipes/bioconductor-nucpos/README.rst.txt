@@ -44,7 +44,7 @@ bioconductor-nucpos
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-nucpos:<tag>
+      docker pull quay.io/biocontainers/bioconductor-nucpos:<tag>
 
    (see `bioconductor-nucpos/tags`_ for valid values for ``<tag>``)
 

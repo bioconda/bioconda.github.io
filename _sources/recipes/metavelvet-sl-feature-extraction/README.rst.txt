@@ -44,7 +44,7 @@ metavelvet-sl-feature-extraction
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metavelvet-sl-feature-extraction:<tag>
+      docker pull quay.io/biocontainers/metavelvet-sl-feature-extraction:<tag>
 
    (see `metavelvet-sl-feature-extraction/tags`_ for valid values for ``<tag>``)
 

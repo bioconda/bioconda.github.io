@@ -42,7 +42,7 @@ bioconductor-aneufinderdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-aneufinderdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-aneufinderdata:<tag>
 
    (see `bioconductor-aneufinderdata/tags`_ for valid values for ``<tag>``)
 

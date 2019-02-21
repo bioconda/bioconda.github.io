@@ -42,7 +42,7 @@ bioconductor-estrogen
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-estrogen:<tag>
+      docker pull quay.io/biocontainers/bioconductor-estrogen:<tag>
 
    (see `bioconductor-estrogen/tags`_ for valid values for ``<tag>``)
 

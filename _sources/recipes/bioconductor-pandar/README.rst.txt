@@ -59,7 +59,7 @@ bioconductor-pandar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pandar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pandar:<tag>
 
    (see `bioconductor-pandar/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ megahit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/megahit:<tag>
+      docker pull quay.io/biocontainers/megahit:<tag>
 
    (see `megahit/tags`_ for valid values for ``<tag>``)
 

@@ -62,7 +62,7 @@ bioconductor-methylaid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methylaid:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methylaid:<tag>
 
    (see `bioconductor-methylaid/tags`_ for valid values for ``<tag>``)
 

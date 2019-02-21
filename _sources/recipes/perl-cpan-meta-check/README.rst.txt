@@ -48,7 +48,7 @@ perl-cpan-meta-check
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-cpan-meta-check:<tag>
+      docker pull quay.io/biocontainers/perl-cpan-meta-check:<tag>
 
    (see `perl-cpan-meta-check/tags`_ for valid values for ``<tag>``)
 

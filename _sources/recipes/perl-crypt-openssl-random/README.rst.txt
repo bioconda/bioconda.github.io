@@ -42,7 +42,7 @@ perl-crypt-openssl-random
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-crypt-openssl-random:<tag>
+      docker pull quay.io/biocontainers/perl-crypt-openssl-random:<tag>
 
    (see `perl-crypt-openssl-random/tags`_ for valid values for ``<tag>``)
 

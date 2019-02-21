@@ -62,7 +62,7 @@ fusion-inspector
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fusion-inspector:<tag>
+      docker pull quay.io/biocontainers/fusion-inspector:<tag>
 
    (see `fusion-inspector/tags`_ for valid values for ``<tag>``)
 

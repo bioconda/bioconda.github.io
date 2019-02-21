@@ -43,7 +43,7 @@ bioconductor-isolde
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-isolde:<tag>
+      docker pull quay.io/biocontainers/bioconductor-isolde:<tag>
 
    (see `bioconductor-isolde/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ pyexcelerator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyexcelerator:<tag>
+      docker pull quay.io/biocontainers/pyexcelerator:<tag>
 
    (see `pyexcelerator/tags`_ for valid values for ``<tag>``)
 

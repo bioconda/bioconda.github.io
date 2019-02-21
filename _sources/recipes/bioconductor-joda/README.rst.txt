@@ -44,7 +44,7 @@ bioconductor-joda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-joda:<tag>
+      docker pull quay.io/biocontainers/bioconductor-joda:<tag>
 
    (see `bioconductor-joda/tags`_ for valid values for ``<tag>``)
 

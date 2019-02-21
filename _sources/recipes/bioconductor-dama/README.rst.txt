@@ -43,7 +43,7 @@ bioconductor-dama
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dama:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dama:<tag>
 
    (see `bioconductor-dama/tags`_ for valid values for ``<tag>``)
 

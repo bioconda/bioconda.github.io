@@ -51,7 +51,7 @@ bioconductor-teqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-teqc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-teqc:<tag>
 
    (see `bioconductor-teqc/tags`_ for valid values for ``<tag>``)
 

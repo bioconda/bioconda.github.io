@@ -54,7 +54,7 @@ pbalign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbalign:<tag>
+      docker pull quay.io/biocontainers/pbalign:<tag>
 
    (see `pbalign/tags`_ for valid values for ``<tag>``)
 

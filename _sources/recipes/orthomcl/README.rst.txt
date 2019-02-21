@@ -50,7 +50,7 @@ orthomcl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/orthomcl:<tag>
+      docker pull quay.io/biocontainers/orthomcl:<tag>
 
    (see `orthomcl/tags`_ for valid values for ``<tag>``)
 

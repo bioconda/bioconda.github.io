@@ -68,7 +68,7 @@ rad_haplotyper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rad_haplotyper:<tag>
+      docker pull quay.io/biocontainers/rad_haplotyper:<tag>
 
    (see `rad_haplotyper/tags`_ for valid values for ``<tag>``)
 

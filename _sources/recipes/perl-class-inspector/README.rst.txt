@@ -40,7 +40,7 @@ perl-class-inspector
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-class-inspector:<tag>
+      docker pull quay.io/biocontainers/perl-class-inspector:<tag>
 
    (see `perl-class-inspector/tags`_ for valid values for ``<tag>``)
 

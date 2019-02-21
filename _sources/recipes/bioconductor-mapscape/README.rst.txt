@@ -48,7 +48,7 @@ bioconductor-mapscape
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mapscape:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mapscape:<tag>
 
    (see `bioconductor-mapscape/tags`_ for valid values for ``<tag>``)
 

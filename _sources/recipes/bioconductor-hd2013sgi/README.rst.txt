@@ -58,7 +58,7 @@ bioconductor-hd2013sgi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hd2013sgi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hd2013sgi:<tag>
 
    (see `bioconductor-hd2013sgi/tags`_ for valid values for ``<tag>``)
 

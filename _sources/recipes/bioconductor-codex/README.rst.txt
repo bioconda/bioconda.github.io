@@ -53,7 +53,7 @@ bioconductor-codex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-codex:<tag>
+      docker pull quay.io/biocontainers/bioconductor-codex:<tag>
 
    (see `bioconductor-codex/tags`_ for valid values for ``<tag>``)
 

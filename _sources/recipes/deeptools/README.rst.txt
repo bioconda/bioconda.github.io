@@ -59,7 +59,7 @@ deeptools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/deeptools:<tag>
+      docker pull quay.io/biocontainers/deeptools:<tag>
 
    (see `deeptools/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ bioconductor-mousechrloc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mousechrloc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mousechrloc:<tag>
 
    (see `bioconductor-mousechrloc/tags`_ for valid values for ``<tag>``)
 

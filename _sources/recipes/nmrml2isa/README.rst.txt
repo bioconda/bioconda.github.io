@@ -48,7 +48,7 @@ nmrml2isa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nmrml2isa:<tag>
+      docker pull quay.io/biocontainers/nmrml2isa:<tag>
 
    (see `nmrml2isa/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-mirbase.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirbase.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mirbase.db:<tag>
 
    (see `bioconductor-mirbase.db/tags`_ for valid values for ``<tag>``)
 

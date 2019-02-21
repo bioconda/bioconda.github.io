@@ -42,7 +42,7 @@ perl-types-serialiser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-types-serialiser:<tag>
+      docker pull quay.io/biocontainers/perl-types-serialiser:<tag>
 
    (see `perl-types-serialiser/tags`_ for valid values for ``<tag>``)
 

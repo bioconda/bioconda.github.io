@@ -22,17 +22,15 @@ ucsc-gff3topsl
 
    |downloads_ucsc-gff3topsl| |docker_ucsc-gff3topsl|
 
-   :versions: 366-0, 357-2, 357-1, 357-0, 324-0
+   :versions: 377-0, 366-0, 357-2, 357-1, 357-0, 324-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libpng: >=1.6.35,<1.7.0a0
    
-   :depends libpng: >=1.6.34,<1.7.0a0
+   :depends libuuid: >=2.32.1,<3.0a0
    
-   :depends libuuid: 
+   :depends mysql-connector-c: >=6.1.11,<6.1.12.0a0
    
-   :depends mysql-connector-c: 
-   
-   :depends openssl: >=1.0.2o,<1.0.3a
+   :depends openssl: >=1.0.2p,<1.0.3a
    
    :depends zlib: >=1.2.11,<1.3.0a0
    
@@ -50,7 +48,7 @@ ucsc-gff3topsl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-gff3topsl:<tag>
+      docker pull quay.io/biocontainers/ucsc-gff3topsl:<tag>
 
    (see `ucsc-gff3topsl/tags`_ for valid values for ``<tag>``)
 

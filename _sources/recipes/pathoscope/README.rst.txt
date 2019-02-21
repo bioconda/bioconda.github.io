@@ -44,7 +44,7 @@ pathoscope
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pathoscope:<tag>
+      docker pull quay.io/biocontainers/pathoscope:<tag>
 
    (see `pathoscope/tags`_ for valid values for ``<tag>``)
 

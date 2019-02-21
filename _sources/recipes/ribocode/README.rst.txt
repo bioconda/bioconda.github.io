@@ -58,7 +58,7 @@ ribocode
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ribocode:<tag>
+      docker pull quay.io/biocontainers/ribocode:<tag>
 
    (see `ribocode/tags`_ for valid values for ``<tag>``)
 

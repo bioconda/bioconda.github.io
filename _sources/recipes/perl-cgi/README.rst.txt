@@ -42,7 +42,7 @@ perl-cgi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-cgi:<tag>
+      docker pull quay.io/biocontainers/perl-cgi:<tag>
 
    (see `perl-cgi/tags`_ for valid values for ``<tag>``)
 

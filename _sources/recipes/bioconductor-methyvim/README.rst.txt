@@ -78,7 +78,7 @@ bioconductor-methyvim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methyvim:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methyvim:<tag>
 
    (see `bioconductor-methyvim/tags`_ for valid values for ``<tag>``)
 

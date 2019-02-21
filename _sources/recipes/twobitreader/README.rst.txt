@@ -40,7 +40,7 @@ twobitreader
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/twobitreader:<tag>
+      docker pull quay.io/biocontainers/twobitreader:<tag>
 
    (see `twobitreader/tags`_ for valid values for ``<tag>``)
 

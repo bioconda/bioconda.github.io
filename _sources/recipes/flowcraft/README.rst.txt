@@ -55,7 +55,7 @@ flowcraft
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flowcraft:<tag>
+      docker pull quay.io/biocontainers/flowcraft:<tag>
 
    (see `flowcraft/tags`_ for valid values for ``<tag>``)
 

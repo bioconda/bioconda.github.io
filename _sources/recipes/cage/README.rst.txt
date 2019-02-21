@@ -44,7 +44,7 @@ cage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cage:<tag>
+      docker pull quay.io/biocontainers/cage:<tag>
 
    (see `cage/tags`_ for valid values for ``<tag>``)
 

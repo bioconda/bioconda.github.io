@@ -42,7 +42,7 @@ soapdenovo2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/soapdenovo2:<tag>
+      docker pull quay.io/biocontainers/soapdenovo2:<tag>
 
    (see `soapdenovo2/tags`_ for valid values for ``<tag>``)
 

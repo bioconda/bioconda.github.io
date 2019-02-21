@@ -48,7 +48,7 @@ r-perfmeas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-perfmeas:<tag>
+      docker pull quay.io/biocontainers/r-perfmeas:<tag>
 
    (see `r-perfmeas/tags`_ for valid values for ``<tag>``)
 

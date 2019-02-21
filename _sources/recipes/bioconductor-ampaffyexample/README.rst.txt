@@ -44,7 +44,7 @@ bioconductor-ampaffyexample
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ampaffyexample:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ampaffyexample:<tag>
 
    (see `bioconductor-ampaffyexample/tags`_ for valid values for ``<tag>``)
 

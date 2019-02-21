@@ -46,7 +46,7 @@ perl-pegex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pegex:<tag>
+      docker pull quay.io/biocontainers/perl-pegex:<tag>
 
    (see `perl-pegex/tags`_ for valid values for ``<tag>``)
 

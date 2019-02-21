@@ -50,7 +50,7 @@ ucsc-ixixx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-ixixx:<tag>
+      docker pull quay.io/biocontainers/ucsc-ixixx:<tag>
 
    (see `ucsc-ixixx/tags`_ for valid values for ``<tag>``)
 

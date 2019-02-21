@@ -57,7 +57,7 @@ bioconductor-pepstat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pepstat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pepstat:<tag>
 
    (see `bioconductor-pepstat/tags`_ for valid values for ``<tag>``)
 

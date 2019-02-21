@@ -40,7 +40,7 @@ genepop
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genepop:<tag>
+      docker pull quay.io/biocontainers/genepop:<tag>
 
    (see `genepop/tags`_ for valid values for ``<tag>``)
 

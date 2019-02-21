@@ -93,7 +93,7 @@ bioconductor-bsseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsseq:<tag>
 
    (see `bioconductor-bsseq/tags`_ for valid values for ``<tag>``)
 

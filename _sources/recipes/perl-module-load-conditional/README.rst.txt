@@ -52,7 +52,7 @@ perl-module-load-conditional
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-load-conditional:<tag>
+      docker pull quay.io/biocontainers/perl-module-load-conditional:<tag>
 
    (see `perl-module-load-conditional/tags`_ for valid values for ``<tag>``)
 

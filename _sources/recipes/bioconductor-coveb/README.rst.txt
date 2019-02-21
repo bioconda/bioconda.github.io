@@ -52,7 +52,7 @@ bioconductor-coveb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-coveb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-coveb:<tag>
 
    (see `bioconductor-coveb/tags`_ for valid values for ``<tag>``)
 

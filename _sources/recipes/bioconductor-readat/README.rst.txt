@@ -74,7 +74,7 @@ bioconductor-readat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-readat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-readat:<tag>
 
    (see `bioconductor-readat/tags`_ for valid values for ``<tag>``)
 

@@ -60,7 +60,7 @@ vqsr_cnn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vqsr_cnn:<tag>
+      docker pull quay.io/biocontainers/vqsr_cnn:<tag>
 
    (see `vqsr_cnn/tags`_ for valid values for ``<tag>``)
 

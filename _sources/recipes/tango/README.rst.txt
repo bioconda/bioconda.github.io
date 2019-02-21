@@ -52,7 +52,7 @@ tango
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tango:<tag>
+      docker pull quay.io/biocontainers/tango:<tag>
 
    (see `tango/tags`_ for valid values for ``<tag>``)
 

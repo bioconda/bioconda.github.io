@@ -64,7 +64,7 @@ r-vcfr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-vcfr:<tag>
+      docker pull quay.io/biocontainers/r-vcfr:<tag>
 
    (see `r-vcfr/tags`_ for valid values for ``<tag>``)
 

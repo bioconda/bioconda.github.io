@@ -56,7 +56,7 @@ bioconductor-ccmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ccmap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ccmap:<tag>
 
    (see `bioconductor-ccmap/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ nmrglue
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nmrglue:<tag>
+      docker pull quay.io/biocontainers/nmrglue:<tag>
 
    (see `nmrglue/tags`_ for valid values for ``<tag>``)
 

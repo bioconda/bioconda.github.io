@@ -42,7 +42,7 @@ pauda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pauda:<tag>
+      docker pull quay.io/biocontainers/pauda:<tag>
 
    (see `pauda/tags`_ for valid values for ``<tag>``)
 

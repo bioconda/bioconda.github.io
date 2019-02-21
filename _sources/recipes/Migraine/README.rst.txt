@@ -41,7 +41,7 @@ migraine
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/migraine:<tag>
+      docker pull quay.io/biocontainers/migraine:<tag>
 
    (see `migraine/tags`_ for valid values for ``<tag>``)
 

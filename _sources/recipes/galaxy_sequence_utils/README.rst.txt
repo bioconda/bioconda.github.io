@@ -42,7 +42,7 @@ galaxy_sequence_utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/galaxy_sequence_utils:<tag>
+      docker pull quay.io/biocontainers/galaxy_sequence_utils:<tag>
 
    (see `galaxy_sequence_utils/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ ucsc-pslxtofa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslxtofa:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslxtofa:<tag>
 
    (see `ucsc-pslxtofa/tags`_ for valid values for ``<tag>``)
 

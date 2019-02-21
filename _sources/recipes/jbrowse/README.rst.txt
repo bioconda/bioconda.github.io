@@ -89,7 +89,7 @@ jbrowse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/jbrowse:<tag>
+      docker pull quay.io/biocontainers/jbrowse:<tag>
 
    (see `jbrowse/tags`_ for valid values for ``<tag>``)
 

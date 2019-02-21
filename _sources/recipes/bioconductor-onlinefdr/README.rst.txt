@@ -40,7 +40,7 @@ bioconductor-onlinefdr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-onlinefdr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-onlinefdr:<tag>
 
    (see `bioconductor-onlinefdr/tags`_ for valid values for ``<tag>``)
 

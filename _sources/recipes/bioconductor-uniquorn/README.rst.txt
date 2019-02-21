@@ -59,7 +59,7 @@ bioconductor-uniquorn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-uniquorn:<tag>
+      docker pull quay.io/biocontainers/bioconductor-uniquorn:<tag>
 
    (see `bioconductor-uniquorn/tags`_ for valid values for ``<tag>``)
 

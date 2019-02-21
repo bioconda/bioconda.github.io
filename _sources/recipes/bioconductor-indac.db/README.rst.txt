@@ -46,7 +46,7 @@ bioconductor-indac.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-indac.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-indac.db:<tag>
 
    (see `bioconductor-indac.db/tags`_ for valid values for ``<tag>``)
 

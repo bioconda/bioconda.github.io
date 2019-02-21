@@ -60,7 +60,7 @@ mykrobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mykrobe:<tag>
+      docker pull quay.io/biocontainers/mykrobe:<tag>
 
    (see `mykrobe/tags`_ for valid values for ``<tag>``)
 

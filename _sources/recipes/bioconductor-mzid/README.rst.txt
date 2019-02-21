@@ -53,7 +53,7 @@ bioconductor-mzid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mzid:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mzid:<tag>
 
    (see `bioconductor-mzid/tags`_ for valid values for ``<tag>``)
 

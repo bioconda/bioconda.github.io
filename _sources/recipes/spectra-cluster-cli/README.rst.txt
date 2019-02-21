@@ -42,7 +42,7 @@ spectra-cluster-cli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spectra-cluster-cli:<tag>
+      docker pull quay.io/biocontainers/spectra-cluster-cli:<tag>
 
    (see `spectra-cluster-cli/tags`_ for valid values for ``<tag>``)
 

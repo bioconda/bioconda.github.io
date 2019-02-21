@@ -47,7 +47,7 @@ bioconductor-mipp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mipp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mipp:<tag>
 
    (see `bioconductor-mipp/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ lexmapr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lexmapr:<tag>
+      docker pull quay.io/biocontainers/lexmapr:<tag>
 
    (see `lexmapr/tags`_ for valid values for ``<tag>``)
 

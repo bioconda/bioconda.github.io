@@ -40,7 +40,7 @@ gatk-framework
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gatk-framework:<tag>
+      docker pull quay.io/biocontainers/gatk-framework:<tag>
 
    (see `gatk-framework/tags`_ for valid values for ``<tag>``)
 

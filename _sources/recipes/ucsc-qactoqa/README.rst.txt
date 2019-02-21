@@ -50,7 +50,7 @@ ucsc-qactoqa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-qactoqa:<tag>
+      docker pull quay.io/biocontainers/ucsc-qactoqa:<tag>
 
    (see `ucsc-qactoqa/tags`_ for valid values for ``<tag>``)
 

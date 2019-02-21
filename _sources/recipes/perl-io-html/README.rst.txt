@@ -40,7 +40,7 @@ perl-io-html
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-html:<tag>
+      docker pull quay.io/biocontainers/perl-io-html:<tag>
 
    (see `perl-io-html/tags`_ for valid values for ``<tag>``)
 

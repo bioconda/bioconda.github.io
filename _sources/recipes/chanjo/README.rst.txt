@@ -56,7 +56,7 @@ chanjo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/chanjo:<tag>
+      docker pull quay.io/biocontainers/chanjo:<tag>
 
    (see `chanjo/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ r-structssi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-structssi:<tag>
+      docker pull quay.io/biocontainers/r-structssi:<tag>
 
    (see `r-structssi/tags`_ for valid values for ``<tag>``)
 

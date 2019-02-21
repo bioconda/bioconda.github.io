@@ -107,7 +107,7 @@ antismash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/antismash:<tag>
+      docker pull quay.io/biocontainers/antismash:<tag>
 
    (see `antismash/tags`_ for valid values for ``<tag>``)
 

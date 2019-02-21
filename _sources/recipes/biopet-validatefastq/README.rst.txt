@@ -50,7 +50,7 @@ biopet-validatefastq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-validatefastq:<tag>
+      docker pull quay.io/biocontainers/biopet-validatefastq:<tag>
 
    (see `biopet-validatefastq/tags`_ for valid values for ``<tag>``)
 

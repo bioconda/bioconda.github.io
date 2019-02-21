@@ -57,7 +57,7 @@ bioconductor-annotationforge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-annotationforge:<tag>
+      docker pull quay.io/biocontainers/bioconductor-annotationforge:<tag>
 
    (see `bioconductor-annotationforge/tags`_ for valid values for ``<tag>``)
 

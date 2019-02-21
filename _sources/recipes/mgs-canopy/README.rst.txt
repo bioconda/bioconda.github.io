@@ -42,7 +42,7 @@ mgs-canopy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mgs-canopy:<tag>
+      docker pull quay.io/biocontainers/mgs-canopy:<tag>
 
    (see `mgs-canopy/tags`_ for valid values for ``<tag>``)
 

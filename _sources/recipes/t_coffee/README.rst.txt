@@ -50,7 +50,7 @@ t_coffee
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/t_coffee:<tag>
+      docker pull quay.io/biocontainers/t_coffee:<tag>
 
    (see `t_coffee/tags`_ for valid values for ``<tag>``)
 

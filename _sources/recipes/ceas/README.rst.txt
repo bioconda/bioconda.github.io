@@ -43,7 +43,7 @@ ceas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ceas:<tag>
+      docker pull quay.io/biocontainers/ceas:<tag>
 
    (see `ceas/tags`_ for valid values for ``<tag>``)
 

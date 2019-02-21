@@ -40,7 +40,7 @@ perl-crypt-rc4
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-crypt-rc4:<tag>
+      docker pull quay.io/biocontainers/perl-crypt-rc4:<tag>
 
    (see `perl-crypt-rc4/tags`_ for valid values for ``<tag>``)
 

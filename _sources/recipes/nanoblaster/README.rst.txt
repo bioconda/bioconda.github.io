@@ -40,7 +40,7 @@ nanoblaster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanoblaster:<tag>
+      docker pull quay.io/biocontainers/nanoblaster:<tag>
 
    (see `nanoblaster/tags`_ for valid values for ``<tag>``)
 

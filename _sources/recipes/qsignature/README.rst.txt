@@ -40,7 +40,7 @@ qsignature
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/qsignature:<tag>
+      docker pull quay.io/biocontainers/qsignature:<tag>
 
    (see `qsignature/tags`_ for valid values for ``<tag>``)
 

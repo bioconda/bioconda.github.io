@@ -52,7 +52,7 @@ bioconductor-fastliquidassociation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fastliquidassociation:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fastliquidassociation:<tag>
 
    (see `bioconductor-fastliquidassociation/tags`_ for valid values for ``<tag>``)
 

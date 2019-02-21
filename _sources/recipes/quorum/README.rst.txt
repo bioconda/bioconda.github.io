@@ -44,7 +44,7 @@ quorum
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/quorum:<tag>
+      docker pull quay.io/biocontainers/quorum:<tag>
 
    (see `quorum/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ bioconductor-maqcsubsetilm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-maqcsubsetilm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-maqcsubsetilm:<tag>
 
    (see `bioconductor-maqcsubsetilm/tags`_ for valid values for ``<tag>``)
 

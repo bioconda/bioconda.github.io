@@ -41,7 +41,7 @@ rapsearch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rapsearch:<tag>
+      docker pull quay.io/biocontainers/rapsearch:<tag>
 
    (see `rapsearch/tags`_ for valid values for ``<tag>``)
 

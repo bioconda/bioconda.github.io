@@ -44,7 +44,7 @@ sts-smctc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sts-smctc:<tag>
+      docker pull quay.io/biocontainers/sts-smctc:<tag>
 
    (see `sts-smctc/tags`_ for valid values for ``<tag>``)
 

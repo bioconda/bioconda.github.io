@@ -38,7 +38,7 @@ rnacode
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnacode:<tag>
+      docker pull quay.io/biocontainers/rnacode:<tag>
 
    (see `rnacode/tags`_ for valid values for ``<tag>``)
 

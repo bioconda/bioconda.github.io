@@ -61,7 +61,7 @@ bioconductor-birte
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-birte:<tag>
+      docker pull quay.io/biocontainers/bioconductor-birte:<tag>
 
    (see `bioconductor-birte/tags`_ for valid values for ``<tag>``)
 

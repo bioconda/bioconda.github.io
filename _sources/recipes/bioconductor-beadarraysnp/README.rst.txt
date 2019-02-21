@@ -45,7 +45,7 @@ bioconductor-beadarraysnp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-beadarraysnp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-beadarraysnp:<tag>
 
    (see `bioconductor-beadarraysnp/tags`_ for valid values for ``<tag>``)
 

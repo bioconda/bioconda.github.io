@@ -68,7 +68,7 @@ bioconductor-strandcheckr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-strandcheckr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-strandcheckr:<tag>
 
    (see `bioconductor-strandcheckr/tags`_ for valid values for ``<tag>``)
 

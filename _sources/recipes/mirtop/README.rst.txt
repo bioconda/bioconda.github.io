@@ -48,7 +48,7 @@ mirtop
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mirtop:<tag>
+      docker pull quay.io/biocontainers/mirtop:<tag>
 
    (see `mirtop/tags`_ for valid values for ``<tag>``)
 

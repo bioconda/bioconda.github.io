@@ -40,7 +40,7 @@ r-xnomial
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-xnomial:<tag>
+      docker pull quay.io/biocontainers/r-xnomial:<tag>
 
    (see `r-xnomial/tags`_ for valid values for ``<tag>``)
 

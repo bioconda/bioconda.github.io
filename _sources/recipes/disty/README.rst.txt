@@ -42,7 +42,7 @@ disty
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/disty:<tag>
+      docker pull quay.io/biocontainers/disty:<tag>
 
    (see `disty/tags`_ for valid values for ``<tag>``)
 

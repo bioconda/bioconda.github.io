@@ -53,7 +53,7 @@ r-micropan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-micropan:<tag>
+      docker pull quay.io/biocontainers/r-micropan:<tag>
 
    (see `r-micropan/tags`_ for valid values for ``<tag>``)
 

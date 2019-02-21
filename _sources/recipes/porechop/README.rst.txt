@@ -42,7 +42,7 @@ porechop
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/porechop:<tag>
+      docker pull quay.io/biocontainers/porechop:<tag>
 
    (see `porechop/tags`_ for valid values for ``<tag>``)
 

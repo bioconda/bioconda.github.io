@@ -64,7 +64,7 @@ nanonet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanonet:<tag>
+      docker pull quay.io/biocontainers/nanonet:<tag>
 
    (see `nanonet/tags`_ for valid values for ``<tag>``)
 

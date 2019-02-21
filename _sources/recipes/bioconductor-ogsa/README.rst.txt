@@ -47,7 +47,7 @@ bioconductor-ogsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ogsa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ogsa:<tag>
 
    (see `bioconductor-ogsa/tags`_ for valid values for ``<tag>``)
 

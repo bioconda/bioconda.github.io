@@ -49,7 +49,7 @@ bioconductor-graphpac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-graphpac:<tag>
+      docker pull quay.io/biocontainers/bioconductor-graphpac:<tag>
 
    (see `bioconductor-graphpac/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ bioconductor-cll
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cll:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cll:<tag>
 
    (see `bioconductor-cll/tags`_ for valid values for ``<tag>``)
 

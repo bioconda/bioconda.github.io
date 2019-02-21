@@ -50,7 +50,7 @@ seqlogo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seqlogo:<tag>
+      docker pull quay.io/biocontainers/seqlogo:<tag>
 
    (see `seqlogo/tags`_ for valid values for ``<tag>``)
 

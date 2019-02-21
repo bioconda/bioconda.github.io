@@ -42,7 +42,7 @@ bioconductor-gskb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gskb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gskb:<tag>
 
    (see `bioconductor-gskb/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ bioconductor-netsmooth
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-netsmooth:<tag>
+      docker pull quay.io/biocontainers/bioconductor-netsmooth:<tag>
 
    (see `bioconductor-netsmooth/tags`_ for valid values for ``<tag>``)
 

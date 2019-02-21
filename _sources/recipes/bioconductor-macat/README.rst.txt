@@ -45,7 +45,7 @@ bioconductor-macat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-macat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-macat:<tag>
 
    (see `bioconductor-macat/tags`_ for valid values for ``<tag>``)
 

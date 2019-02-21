@@ -46,7 +46,7 @@ nanoqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanoqc:<tag>
+      docker pull quay.io/biocontainers/nanoqc:<tag>
 
    (see `nanoqc/tags`_ for valid values for ``<tag>``)
 

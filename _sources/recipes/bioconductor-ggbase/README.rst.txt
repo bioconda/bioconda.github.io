@@ -65,7 +65,7 @@ bioconductor-ggbase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ggbase:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ggbase:<tag>
 
    (see `bioconductor-ggbase/tags`_ for valid values for ``<tag>``)
 

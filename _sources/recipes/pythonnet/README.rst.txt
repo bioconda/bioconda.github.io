@@ -44,7 +44,7 @@ pythonnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pythonnet:<tag>
+      docker pull quay.io/biocontainers/pythonnet:<tag>
 
    (see `pythonnet/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ validate-fasta-database
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/validate-fasta-database:<tag>
+      docker pull quay.io/biocontainers/validate-fasta-database:<tag>
 
    (see `validate-fasta-database/tags`_ for valid values for ``<tag>``)
 

@@ -64,7 +64,7 @@ bioconductor-coexnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-coexnet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-coexnet:<tag>
 
    (see `bioconductor-coexnet/tags`_ for valid values for ``<tag>``)
 

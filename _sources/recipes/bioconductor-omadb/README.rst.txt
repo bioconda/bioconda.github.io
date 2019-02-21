@@ -56,7 +56,7 @@ bioconductor-omadb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omadb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-omadb:<tag>
 
    (see `bioconductor-omadb/tags`_ for valid values for ``<tag>``)
 

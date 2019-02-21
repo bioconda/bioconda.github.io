@@ -41,7 +41,7 @@ bioconductor-drivernet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-drivernet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-drivernet:<tag>
 
    (see `bioconductor-drivernet/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-file-share
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-share:<tag>
+      docker pull quay.io/biocontainers/perl-file-share:<tag>
 
    (see `perl-file-share/tags`_ for valid values for ``<tag>``)
 

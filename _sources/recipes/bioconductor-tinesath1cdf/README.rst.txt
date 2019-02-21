@@ -42,7 +42,7 @@ bioconductor-tinesath1cdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tinesath1cdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tinesath1cdf:<tag>
 
    (see `bioconductor-tinesath1cdf/tags`_ for valid values for ``<tag>``)
 

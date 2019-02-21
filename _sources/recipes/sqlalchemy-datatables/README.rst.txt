@@ -42,7 +42,7 @@ sqlalchemy-datatables
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sqlalchemy-datatables:<tag>
+      docker pull quay.io/biocontainers/sqlalchemy-datatables:<tag>
 
    (see `sqlalchemy-datatables/tags`_ for valid values for ``<tag>``)
 

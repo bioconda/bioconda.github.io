@@ -42,7 +42,7 @@ tophat-recondition
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tophat-recondition:<tag>
+      docker pull quay.io/biocontainers/tophat-recondition:<tag>
 
    (see `tophat-recondition/tags`_ for valid values for ``<tag>``)
 

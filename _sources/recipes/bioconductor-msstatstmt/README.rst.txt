@@ -60,7 +60,7 @@ bioconductor-msstatstmt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msstatstmt:<tag>
+      docker pull quay.io/biocontainers/bioconductor-msstatstmt:<tag>
 
    (see `bioconductor-msstatstmt/tags`_ for valid values for ``<tag>``)
 

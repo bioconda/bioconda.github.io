@@ -46,7 +46,7 @@ lambda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lambda:<tag>
+      docker pull quay.io/biocontainers/lambda:<tag>
 
    (see `lambda/tags`_ for valid values for ``<tag>``)
 

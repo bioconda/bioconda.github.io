@@ -44,7 +44,7 @@ perl-term-progressbar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-term-progressbar:<tag>
+      docker pull quay.io/biocontainers/perl-term-progressbar:<tag>
 
    (see `perl-term-progressbar/tags`_ for valid values for ``<tag>``)
 

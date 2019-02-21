@@ -60,7 +60,7 @@ strainest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/strainest:<tag>
+      docker pull quay.io/biocontainers/strainest:<tag>
 
    (see `strainest/tags`_ for valid values for ``<tag>``)
 

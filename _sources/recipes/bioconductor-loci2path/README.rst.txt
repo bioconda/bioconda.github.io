@@ -54,7 +54,7 @@ bioconductor-loci2path
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-loci2path:<tag>
+      docker pull quay.io/biocontainers/bioconductor-loci2path:<tag>
 
    (see `bioconductor-loci2path/tags`_ for valid values for ``<tag>``)
 

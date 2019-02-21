@@ -38,7 +38,7 @@ bioconductor-adacgh2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-adacgh2:<tag>
+      docker pull quay.io/biocontainers/bioconductor-adacgh2:<tag>
 
    (see `bioconductor-adacgh2/tags`_ for valid values for ``<tag>``)
 

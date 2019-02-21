@@ -42,7 +42,7 @@ python-edlib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-edlib:<tag>
+      docker pull quay.io/biocontainers/python-edlib:<tag>
 
    (see `python-edlib/tags`_ for valid values for ``<tag>``)
 

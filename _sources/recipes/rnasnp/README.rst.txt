@@ -41,7 +41,7 @@ rnasnp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnasnp:<tag>
+      docker pull quay.io/biocontainers/rnasnp:<tag>
 
    (see `rnasnp/tags`_ for valid values for ``<tag>``)
 

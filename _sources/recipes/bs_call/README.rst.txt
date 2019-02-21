@@ -51,7 +51,7 @@ bs_call
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bs_call:<tag>
+      docker pull quay.io/biocontainers/bs_call:<tag>
 
    (see `bs_call/tags`_ for valid values for ``<tag>``)
 

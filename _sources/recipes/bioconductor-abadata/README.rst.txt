@@ -42,7 +42,7 @@ bioconductor-abadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-abadata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-abadata:<tag>
 
    (see `bioconductor-abadata/tags`_ for valid values for ``<tag>``)
 

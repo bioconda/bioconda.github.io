@@ -52,7 +52,7 @@ r-orqa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-orqa:<tag>
+      docker pull quay.io/biocontainers/r-orqa:<tag>
 
    (see `r-orqa/tags`_ for valid values for ``<tag>``)
 

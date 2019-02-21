@@ -42,7 +42,7 @@ telseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/telseq:<tag>
+      docker pull quay.io/biocontainers/telseq:<tag>
 
    (see `telseq/tags`_ for valid values for ``<tag>``)
 

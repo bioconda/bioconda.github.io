@@ -52,7 +52,7 @@ sqt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sqt:<tag>
+      docker pull quay.io/biocontainers/sqt:<tag>
 
    (see `sqt/tags`_ for valid values for ``<tag>``)
 

@@ -64,7 +64,7 @@ bioconductor-clipper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clipper:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clipper:<tag>
 
    (see `bioconductor-clipper/tags`_ for valid values for ``<tag>``)
 

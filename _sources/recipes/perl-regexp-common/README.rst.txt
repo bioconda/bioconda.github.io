@@ -40,7 +40,7 @@ perl-regexp-common
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-regexp-common:<tag>
+      docker pull quay.io/biocontainers/perl-regexp-common:<tag>
 
    (see `perl-regexp-common/tags`_ for valid values for ``<tag>``)
 

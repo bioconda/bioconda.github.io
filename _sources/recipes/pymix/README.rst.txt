@@ -62,7 +62,7 @@ pymix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pymix:<tag>
+      docker pull quay.io/biocontainers/pymix:<tag>
 
    (see `pymix/tags`_ for valid values for ``<tag>``)
 

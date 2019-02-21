@@ -43,7 +43,7 @@ bioconductor-director
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-director:<tag>
+      docker pull quay.io/biocontainers/bioconductor-director:<tag>
 
    (see `bioconductor-director/tags`_ for valid values for ``<tag>``)
 

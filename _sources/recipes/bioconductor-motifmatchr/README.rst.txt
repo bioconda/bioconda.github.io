@@ -68,7 +68,7 @@ bioconductor-motifmatchr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-motifmatchr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-motifmatchr:<tag>
 
    (see `bioconductor-motifmatchr/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ r-snpassoc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-snpassoc:<tag>
+      docker pull quay.io/biocontainers/r-snpassoc:<tag>
 
    (see `r-snpassoc/tags`_ for valid values for ``<tag>``)
 

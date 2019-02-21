@@ -46,7 +46,7 @@ chromosomer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/chromosomer:<tag>
+      docker pull quay.io/biocontainers/chromosomer:<tag>
 
    (see `chromosomer/tags`_ for valid values for ``<tag>``)
 

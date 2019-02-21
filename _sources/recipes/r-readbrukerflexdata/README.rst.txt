@@ -40,7 +40,7 @@ r-readbrukerflexdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-readbrukerflexdata:<tag>
+      docker pull quay.io/biocontainers/r-readbrukerflexdata:<tag>
 
    (see `r-readbrukerflexdata/tags`_ for valid values for ``<tag>``)
 

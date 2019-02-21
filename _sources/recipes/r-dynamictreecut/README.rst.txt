@@ -40,7 +40,7 @@ r-dynamictreecut
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-dynamictreecut:<tag>
+      docker pull quay.io/biocontainers/r-dynamictreecut:<tag>
 
    (see `r-dynamictreecut/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-set-intspan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-set-intspan:<tag>
+      docker pull quay.io/biocontainers/perl-set-intspan:<tag>
 
    (see `perl-set-intspan/tags`_ for valid values for ``<tag>``)
 

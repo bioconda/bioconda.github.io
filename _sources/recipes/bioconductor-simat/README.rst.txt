@@ -53,7 +53,7 @@ bioconductor-simat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-simat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-simat:<tag>
 
    (see `bioconductor-simat/tags`_ for valid values for ``<tag>``)
 

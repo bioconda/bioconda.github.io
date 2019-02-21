@@ -44,7 +44,7 @@ bioconductor-indeed
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-indeed:<tag>
+      docker pull quay.io/biocontainers/bioconductor-indeed:<tag>
 
    (see `bioconductor-indeed/tags`_ for valid values for ``<tag>``)
 

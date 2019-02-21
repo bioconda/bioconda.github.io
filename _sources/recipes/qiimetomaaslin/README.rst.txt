@@ -42,7 +42,7 @@ qiimetomaaslin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/qiimetomaaslin:<tag>
+      docker pull quay.io/biocontainers/qiimetomaaslin:<tag>
 
    (see `qiimetomaaslin/tags`_ for valid values for ``<tag>``)
 

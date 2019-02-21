@@ -44,7 +44,7 @@ perl-go-perl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-go-perl:<tag>
+      docker pull quay.io/biocontainers/perl-go-perl:<tag>
 
    (see `perl-go-perl/tags`_ for valid values for ``<tag>``)
 

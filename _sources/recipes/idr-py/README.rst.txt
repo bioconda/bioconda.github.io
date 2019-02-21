@@ -92,7 +92,7 @@ idr-py
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/idr-py:<tag>
+      docker pull quay.io/biocontainers/idr-py:<tag>
 
    (see `idr-py/tags`_ for valid values for ``<tag>``)
 

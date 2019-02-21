@@ -50,7 +50,7 @@ counterr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/counterr:<tag>
+      docker pull quay.io/biocontainers/counterr:<tag>
 
    (see `counterr/tags`_ for valid values for ``<tag>``)
 

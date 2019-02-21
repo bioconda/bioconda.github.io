@@ -46,7 +46,7 @@ bioconductor-txdb.mmulatta.ucsc.rhemac8.refgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.mmulatta.ucsc.rhemac8.refgene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-txdb.mmulatta.ucsc.rhemac8.refgene:<tag>
 
    (see `bioconductor-txdb.mmulatta.ucsc.rhemac8.refgene/tags`_ for valid values for ``<tag>``)
 

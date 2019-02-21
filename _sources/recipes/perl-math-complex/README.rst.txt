@@ -42,7 +42,7 @@ perl-math-complex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-complex:<tag>
+      docker pull quay.io/biocontainers/perl-math-complex:<tag>
 
    (see `perl-math-complex/tags`_ for valid values for ``<tag>``)
 

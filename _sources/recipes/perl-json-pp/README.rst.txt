@@ -40,7 +40,7 @@ perl-json-pp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-json-pp:<tag>
+      docker pull quay.io/biocontainers/perl-json-pp:<tag>
 
    (see `perl-json-pp/tags`_ for valid values for ``<tag>``)
 

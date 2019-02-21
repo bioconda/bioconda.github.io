@@ -46,7 +46,7 @@ bioconductor-mbpcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mbpcr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mbpcr:<tag>
 
    (see `bioconductor-mbpcr/tags`_ for valid values for ``<tag>``)
 

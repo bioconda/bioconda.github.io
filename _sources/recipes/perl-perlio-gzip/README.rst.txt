@@ -42,7 +42,7 @@ perl-perlio-gzip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-perlio-gzip:<tag>
+      docker pull quay.io/biocontainers/perl-perlio-gzip:<tag>
 
    (see `perl-perlio-gzip/tags`_ for valid values for ``<tag>``)
 

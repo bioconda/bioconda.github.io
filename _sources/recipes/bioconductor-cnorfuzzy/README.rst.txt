@@ -47,7 +47,7 @@ bioconductor-cnorfuzzy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cnorfuzzy:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cnorfuzzy:<tag>
 
    (see `bioconductor-cnorfuzzy/tags`_ for valid values for ``<tag>``)
 

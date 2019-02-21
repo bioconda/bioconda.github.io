@@ -81,7 +81,7 @@ bioconductor-snphood
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snphood:<tag>
+      docker pull quay.io/biocontainers/bioconductor-snphood:<tag>
 
    (see `bioconductor-snphood/tags`_ for valid values for ``<tag>``)
 

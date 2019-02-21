@@ -44,7 +44,7 @@ rnachipintegrator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnachipintegrator:<tag>
+      docker pull quay.io/biocontainers/rnachipintegrator:<tag>
 
    (see `rnachipintegrator/tags`_ for valid values for ``<tag>``)
 

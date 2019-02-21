@@ -43,7 +43,7 @@ bioconductor-beaddatapackr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-beaddatapackr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-beaddatapackr:<tag>
 
    (see `bioconductor-beaddatapackr/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ perl-term-detect-software
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-term-detect-software:<tag>
+      docker pull quay.io/biocontainers/perl-term-detect-software:<tag>
 
    (see `perl-term-detect-software/tags`_ for valid values for ``<tag>``)
 

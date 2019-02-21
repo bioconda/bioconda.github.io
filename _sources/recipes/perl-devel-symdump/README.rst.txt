@@ -40,7 +40,7 @@ perl-devel-symdump
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-devel-symdump:<tag>
+      docker pull quay.io/biocontainers/perl-devel-symdump:<tag>
 
    (see `perl-devel-symdump/tags`_ for valid values for ``<tag>``)
 

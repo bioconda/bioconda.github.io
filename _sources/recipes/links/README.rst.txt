@@ -42,7 +42,7 @@ links
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/links:<tag>
+      docker pull quay.io/biocontainers/links:<tag>
 
    (see `links/tags`_ for valid values for ``<tag>``)
 

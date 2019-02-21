@@ -42,7 +42,7 @@ perl-array-set
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-array-set:<tag>
+      docker pull quay.io/biocontainers/perl-array-set:<tag>
 
    (see `perl-array-set/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-hmdbquery
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hmdbquery:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hmdbquery:<tag>
 
    (see `bioconductor-hmdbquery/tags`_ for valid values for ``<tag>``)
 

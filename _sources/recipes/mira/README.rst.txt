@@ -39,7 +39,7 @@ mira
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mira:<tag>
+      docker pull quay.io/biocontainers/mira:<tag>
 
    (see `mira/tags`_ for valid values for ``<tag>``)
 

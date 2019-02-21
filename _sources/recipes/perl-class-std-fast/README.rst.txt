@@ -44,7 +44,7 @@ perl-class-std-fast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-class-std-fast:<tag>
+      docker pull quay.io/biocontainers/perl-class-std-fast:<tag>
 
    (see `perl-class-std-fast/tags`_ for valid values for ``<tag>``)
 

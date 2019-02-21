@@ -50,7 +50,7 @@ ucsc-nibfrag
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-nibfrag:<tag>
+      docker pull quay.io/biocontainers/ucsc-nibfrag:<tag>
 
    (see `ucsc-nibfrag/tags`_ for valid values for ``<tag>``)
 

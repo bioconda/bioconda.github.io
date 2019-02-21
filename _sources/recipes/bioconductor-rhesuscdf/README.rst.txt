@@ -44,7 +44,7 @@ bioconductor-rhesuscdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rhesuscdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rhesuscdf:<tag>
 
    (see `bioconductor-rhesuscdf/tags`_ for valid values for ``<tag>``)
 

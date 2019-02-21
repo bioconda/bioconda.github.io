@@ -46,7 +46,7 @@ seurat-scripts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seurat-scripts:<tag>
+      docker pull quay.io/biocontainers/seurat-scripts:<tag>
 
    (see `seurat-scripts/tags`_ for valid values for ``<tag>``)
 

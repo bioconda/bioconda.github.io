@@ -44,7 +44,7 @@ bioconductor-plasmodiumanophelesprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-plasmodiumanophelesprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-plasmodiumanophelesprobe:<tag>
 
    (see `bioconductor-plasmodiumanophelesprobe/tags`_ for valid values for ``<tag>``)
 

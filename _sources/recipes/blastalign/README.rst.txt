@@ -44,7 +44,7 @@ blastalign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/blastalign:<tag>
+      docker pull quay.io/biocontainers/blastalign:<tag>
 
    (see `blastalign/tags`_ for valid values for ``<tag>``)
 

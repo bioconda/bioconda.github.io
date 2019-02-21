@@ -73,7 +73,7 @@ t-coffee
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/t-coffee:<tag>
+      docker pull quay.io/biocontainers/t-coffee:<tag>
 
    (see `t-coffee/tags`_ for valid values for ``<tag>``)
 

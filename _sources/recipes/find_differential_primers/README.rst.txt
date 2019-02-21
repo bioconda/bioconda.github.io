@@ -53,7 +53,7 @@ find_differential_primers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/find_differential_primers:<tag>
+      docker pull quay.io/biocontainers/find_differential_primers:<tag>
 
    (see `find_differential_primers/tags`_ for valid values for ``<tag>``)
 

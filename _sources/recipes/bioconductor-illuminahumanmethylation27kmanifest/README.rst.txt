@@ -44,7 +44,7 @@ bioconductor-illuminahumanmethylation27kmanifest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-illuminahumanmethylation27kmanifest:<tag>
+      docker pull quay.io/biocontainers/bioconductor-illuminahumanmethylation27kmanifest:<tag>
 
    (see `bioconductor-illuminahumanmethylation27kmanifest/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ mosaik
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mosaik:<tag>
+      docker pull quay.io/biocontainers/mosaik:<tag>
 
    (see `mosaik/tags`_ for valid values for ``<tag>``)
 

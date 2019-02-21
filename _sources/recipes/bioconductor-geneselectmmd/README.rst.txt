@@ -52,7 +52,7 @@ bioconductor-geneselectmmd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneselectmmd:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geneselectmmd:<tag>
 
    (see `bioconductor-geneselectmmd/tags`_ for valid values for ``<tag>``)
 

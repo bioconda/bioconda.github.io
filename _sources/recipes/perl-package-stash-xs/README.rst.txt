@@ -46,7 +46,7 @@ perl-package-stash-xs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-package-stash-xs:<tag>
+      docker pull quay.io/biocontainers/perl-package-stash-xs:<tag>
 
    (see `perl-package-stash-xs/tags`_ for valid values for ``<tag>``)
 

@@ -55,7 +55,7 @@ bioconductor-chipxpress
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chipxpress:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chipxpress:<tag>
 
    (see `bioconductor-chipxpress/tags`_ for valid values for ``<tag>``)
 

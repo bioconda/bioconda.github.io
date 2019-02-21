@@ -40,7 +40,7 @@ cd-hit-auxtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cd-hit-auxtools:<tag>
+      docker pull quay.io/biocontainers/cd-hit-auxtools:<tag>
 
    (see `cd-hit-auxtools/tags`_ for valid values for ``<tag>``)
 

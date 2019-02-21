@@ -44,7 +44,7 @@ beagle-lib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/beagle-lib:<tag>
+      docker pull quay.io/biocontainers/beagle-lib:<tag>
 
    (see `beagle-lib/tags`_ for valid values for ``<tag>``)
 

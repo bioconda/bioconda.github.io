@@ -46,7 +46,7 @@ amused
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/amused:<tag>
+      docker pull quay.io/biocontainers/amused:<tag>
 
    (see `amused/tags`_ for valid values for ``<tag>``)
 

@@ -62,7 +62,7 @@ bioconductor-mcsea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mcsea:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mcsea:<tag>
 
    (see `bioconductor-mcsea/tags`_ for valid values for ``<tag>``)
 

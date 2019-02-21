@@ -84,7 +84,7 @@ bioconductor-migsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-migsa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-migsa:<tag>
 
    (see `bioconductor-migsa/tags`_ for valid values for ``<tag>``)
 

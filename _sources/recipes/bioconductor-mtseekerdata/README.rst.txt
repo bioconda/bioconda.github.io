@@ -56,7 +56,7 @@ bioconductor-mtseekerdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mtseekerdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mtseekerdata:<tag>
 
    (see `bioconductor-mtseekerdata/tags`_ for valid values for ``<tag>``)
 

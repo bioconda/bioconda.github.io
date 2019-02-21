@@ -56,7 +56,7 @@ perl-bio-gff3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-gff3:<tag>
+      docker pull quay.io/biocontainers/perl-bio-gff3:<tag>
 
    (see `perl-bio-gff3/tags`_ for valid values for ``<tag>``)
 

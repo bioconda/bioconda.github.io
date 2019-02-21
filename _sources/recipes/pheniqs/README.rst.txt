@@ -53,7 +53,7 @@ pheniqs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pheniqs:<tag>
+      docker pull quay.io/biocontainers/pheniqs:<tag>
 
    (see `pheniqs/tags`_ for valid values for ``<tag>``)
 

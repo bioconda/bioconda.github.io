@@ -68,7 +68,7 @@ perl-text-ansitable
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-ansitable:<tag>
+      docker pull quay.io/biocontainers/perl-text-ansitable:<tag>
 
    (see `perl-text-ansitable/tags`_ for valid values for ``<tag>``)
 

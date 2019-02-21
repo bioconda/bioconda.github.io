@@ -40,7 +40,7 @@ r-giant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-giant:<tag>
+      docker pull quay.io/biocontainers/r-giant:<tag>
 
    (see `r-giant/tags`_ for valid values for ``<tag>``)
 

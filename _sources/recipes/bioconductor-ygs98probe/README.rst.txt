@@ -44,7 +44,7 @@ bioconductor-ygs98probe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ygs98probe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ygs98probe:<tag>
 
    (see `bioconductor-ygs98probe/tags`_ for valid values for ``<tag>``)
 

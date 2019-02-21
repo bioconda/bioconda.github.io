@@ -52,7 +52,7 @@ crossmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/crossmap:<tag>
+      docker pull quay.io/biocontainers/crossmap:<tag>
 
    (see `crossmap/tags`_ for valid values for ``<tag>``)
 

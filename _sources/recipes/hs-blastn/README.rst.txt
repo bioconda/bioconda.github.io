@@ -42,7 +42,7 @@ hs-blastn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hs-blastn:<tag>
+      docker pull quay.io/biocontainers/hs-blastn:<tag>
 
    (see `hs-blastn/tags`_ for valid values for ``<tag>``)
 

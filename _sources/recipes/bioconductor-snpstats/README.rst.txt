@@ -51,7 +51,7 @@ bioconductor-snpstats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snpstats:<tag>
+      docker pull quay.io/biocontainers/bioconductor-snpstats:<tag>
 
    (see `bioconductor-snpstats/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ bioconductor-dfp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dfp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dfp:<tag>
 
    (see `bioconductor-dfp/tags`_ for valid values for ``<tag>``)
 

@@ -80,7 +80,7 @@ eden
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/eden:<tag>
+      docker pull quay.io/biocontainers/eden:<tag>
 
    (see `eden/tags`_ for valid values for ``<tag>``)
 

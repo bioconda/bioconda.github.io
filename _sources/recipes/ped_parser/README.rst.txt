@@ -44,7 +44,7 @@ ped_parser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ped_parser:<tag>
+      docker pull quay.io/biocontainers/ped_parser:<tag>
 
    (see `ped_parser/tags`_ for valid values for ``<tag>``)
 

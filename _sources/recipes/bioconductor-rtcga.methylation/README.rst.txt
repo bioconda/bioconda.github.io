@@ -44,7 +44,7 @@ bioconductor-rtcga.methylation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.methylation:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtcga.methylation:<tag>
 
    (see `bioconductor-rtcga.methylation/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ perl-vcftools-vcf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-vcftools-vcf:<tag>
+      docker pull quay.io/biocontainers/perl-vcftools-vcf:<tag>
 
    (see `perl-vcftools-vcf/tags`_ for valid values for ``<tag>``)
 

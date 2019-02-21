@@ -51,7 +51,7 @@ bioconductor-hdf5array
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hdf5array:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hdf5array:<tag>
 
    (see `bioconductor-hdf5array/tags`_ for valid values for ``<tag>``)
 

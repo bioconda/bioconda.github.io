@@ -48,7 +48,7 @@ bioconductor-cosmic.67
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cosmic.67:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cosmic.67:<tag>
 
    (see `bioconductor-cosmic.67/tags`_ for valid values for ``<tag>``)
 

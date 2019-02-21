@@ -52,7 +52,7 @@ arboreto
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/arboreto:<tag>
+      docker pull quay.io/biocontainers/arboreto:<tag>
 
    (see `arboreto/tags`_ for valid values for ``<tag>``)
 

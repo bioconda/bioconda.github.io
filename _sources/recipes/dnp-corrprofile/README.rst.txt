@@ -46,7 +46,7 @@ dnp-corrprofile
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dnp-corrprofile:<tag>
+      docker pull quay.io/biocontainers/dnp-corrprofile:<tag>
 
    (see `dnp-corrprofile/tags`_ for valid values for ``<tag>``)
 

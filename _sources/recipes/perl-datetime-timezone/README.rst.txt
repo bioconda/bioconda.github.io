@@ -54,7 +54,7 @@ perl-datetime-timezone
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-datetime-timezone:<tag>
+      docker pull quay.io/biocontainers/perl-datetime-timezone:<tag>
 
    (see `perl-datetime-timezone/tags`_ for valid values for ``<tag>``)
 

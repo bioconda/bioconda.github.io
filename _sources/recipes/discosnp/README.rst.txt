@@ -49,7 +49,7 @@ discosnp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/discosnp:<tag>
+      docker pull quay.io/biocontainers/discosnp:<tag>
 
    (see `discosnp/tags`_ for valid values for ``<tag>``)
 

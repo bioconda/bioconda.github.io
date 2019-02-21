@@ -58,7 +58,7 @@ mageck-vispr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mageck-vispr:<tag>
+      docker pull quay.io/biocontainers/mageck-vispr:<tag>
 
    (see `mageck-vispr/tags`_ for valid values for ``<tag>``)
 

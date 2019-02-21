@@ -70,7 +70,7 @@ bioconductor-mageckflute
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mageckflute:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mageckflute:<tag>
 
    (see `bioconductor-mageckflute/tags`_ for valid values for ``<tag>``)
 

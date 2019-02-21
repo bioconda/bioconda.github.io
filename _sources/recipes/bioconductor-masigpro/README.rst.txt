@@ -49,7 +49,7 @@ bioconductor-masigpro
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-masigpro:<tag>
+      docker pull quay.io/biocontainers/bioconductor-masigpro:<tag>
 
    (see `bioconductor-masigpro/tags`_ for valid values for ``<tag>``)
 

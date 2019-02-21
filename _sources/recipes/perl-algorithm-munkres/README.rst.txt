@@ -40,7 +40,7 @@ perl-algorithm-munkres
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-algorithm-munkres:<tag>
+      docker pull quay.io/biocontainers/perl-algorithm-munkres:<tag>
 
    (see `perl-algorithm-munkres/tags`_ for valid values for ``<tag>``)
 

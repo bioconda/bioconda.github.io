@@ -44,7 +44,7 @@ selectsequencesfrommsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/selectsequencesfrommsa:<tag>
+      docker pull quay.io/biocontainers/selectsequencesfrommsa:<tag>
 
    (see `selectsequencesfrommsa/tags`_ for valid values for ``<tag>``)
 

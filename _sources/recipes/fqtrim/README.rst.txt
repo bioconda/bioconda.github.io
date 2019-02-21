@@ -44,7 +44,7 @@ fqtrim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fqtrim:<tag>
+      docker pull quay.io/biocontainers/fqtrim:<tag>
 
    (see `fqtrim/tags`_ for valid values for ``<tag>``)
 

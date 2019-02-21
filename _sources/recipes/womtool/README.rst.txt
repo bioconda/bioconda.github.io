@@ -43,7 +43,7 @@ womtool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/womtool:<tag>
+      docker pull quay.io/biocontainers/womtool:<tag>
 
    (see `womtool/tags`_ for valid values for ``<tag>``)
 

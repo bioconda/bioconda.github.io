@@ -56,7 +56,7 @@ perl-uri
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-uri:<tag>
+      docker pull quay.io/biocontainers/perl-uri:<tag>
 
    (see `perl-uri/tags`_ for valid values for ``<tag>``)
 

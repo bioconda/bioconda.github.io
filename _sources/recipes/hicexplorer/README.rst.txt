@@ -77,7 +77,7 @@ hicexplorer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hicexplorer:<tag>
+      docker pull quay.io/biocontainers/hicexplorer:<tag>
 
    (see `hicexplorer/tags`_ for valid values for ``<tag>``)
 

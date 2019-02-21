@@ -42,7 +42,7 @@ bioconductor-rheumaticconditionwollbold
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rheumaticconditionwollbold:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rheumaticconditionwollbold:<tag>
 
    (see `bioconductor-rheumaticconditionwollbold/tags`_ for valid values for ``<tag>``)
 

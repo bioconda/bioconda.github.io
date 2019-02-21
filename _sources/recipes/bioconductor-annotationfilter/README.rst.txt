@@ -44,7 +44,7 @@ bioconductor-annotationfilter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-annotationfilter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-annotationfilter:<tag>
 
    (see `bioconductor-annotationfilter/tags`_ for valid values for ``<tag>``)
 

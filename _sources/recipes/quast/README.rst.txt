@@ -61,7 +61,7 @@ quast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/quast:<tag>
+      docker pull quay.io/biocontainers/quast:<tag>
 
    (see `quast/tags`_ for valid values for ``<tag>``)
 

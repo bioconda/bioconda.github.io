@@ -38,7 +38,7 @@ knot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/knot:<tag>
+      docker pull quay.io/biocontainers/knot:<tag>
 
    (see `knot/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-mu19ksubacdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mu19ksubacdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mu19ksubacdf:<tag>
 
    (see `bioconductor-mu19ksubacdf/tags`_ for valid values for ``<tag>``)
 

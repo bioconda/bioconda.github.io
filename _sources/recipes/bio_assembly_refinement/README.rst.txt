@@ -44,7 +44,7 @@ bio_assembly_refinement
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bio_assembly_refinement:<tag>
+      docker pull quay.io/biocontainers/bio_assembly_refinement:<tag>
 
    (see `bio_assembly_refinement/tags`_ for valid values for ``<tag>``)
 

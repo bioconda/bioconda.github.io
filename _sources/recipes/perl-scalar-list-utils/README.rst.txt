@@ -42,7 +42,7 @@ perl-scalar-list-utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-scalar-list-utils:<tag>
+      docker pull quay.io/biocontainers/perl-scalar-list-utils:<tag>
 
    (see `perl-scalar-list-utils/tags`_ for valid values for ``<tag>``)
 

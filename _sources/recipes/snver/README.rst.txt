@@ -46,7 +46,7 @@ snver
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snver:<tag>
+      docker pull quay.io/biocontainers/snver:<tag>
 
    (see `snver/tags`_ for valid values for ``<tag>``)
 

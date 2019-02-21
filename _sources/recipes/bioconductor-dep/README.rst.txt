@@ -86,7 +86,7 @@ bioconductor-dep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dep:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dep:<tag>
 
    (see `bioconductor-dep/tags`_ for valid values for ``<tag>``)
 

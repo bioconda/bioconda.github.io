@@ -48,7 +48,7 @@ bioconductor-maqcsubset
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-maqcsubset:<tag>
+      docker pull quay.io/biocontainers/bioconductor-maqcsubset:<tag>
 
    (see `bioconductor-maqcsubset/tags`_ for valid values for ``<tag>``)
 

@@ -59,7 +59,7 @@ bioconductor-prot2d
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-prot2d:<tag>
+      docker pull quay.io/biocontainers/bioconductor-prot2d:<tag>
 
    (see `bioconductor-prot2d/tags`_ for valid values for ``<tag>``)
 

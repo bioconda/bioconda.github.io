@@ -58,7 +58,7 @@ hifive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hifive:<tag>
+      docker pull quay.io/biocontainers/hifive:<tag>
 
    (see `hifive/tags`_ for valid values for ``<tag>``)
 

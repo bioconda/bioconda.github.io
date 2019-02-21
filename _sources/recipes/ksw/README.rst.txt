@@ -45,7 +45,7 @@ ksw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ksw:<tag>
+      docker pull quay.io/biocontainers/ksw:<tag>
 
    (see `ksw/tags`_ for valid values for ``<tag>``)
 

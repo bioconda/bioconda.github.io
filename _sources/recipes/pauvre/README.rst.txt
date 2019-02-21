@@ -48,7 +48,7 @@ pauvre
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pauvre:<tag>
+      docker pull quay.io/biocontainers/pauvre:<tag>
 
    (see `pauvre/tags`_ for valid values for ``<tag>``)
 

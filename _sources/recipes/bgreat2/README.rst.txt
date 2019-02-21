@@ -44,7 +44,7 @@ bgreat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bgreat:<tag>
+      docker pull quay.io/biocontainers/bgreat:<tag>
 
    (see `bgreat/tags`_ for valid values for ``<tag>``)
 

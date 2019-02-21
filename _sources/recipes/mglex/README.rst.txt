@@ -46,7 +46,7 @@ mglex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mglex:<tag>
+      docker pull quay.io/biocontainers/mglex:<tag>
 
    (see `mglex/tags`_ for valid values for ``<tag>``)
 

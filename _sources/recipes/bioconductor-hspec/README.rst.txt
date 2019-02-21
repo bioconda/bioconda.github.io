@@ -44,7 +44,7 @@ bioconductor-hspec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hspec:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hspec:<tag>
 
    (see `bioconductor-hspec/tags`_ for valid values for ``<tag>``)
 

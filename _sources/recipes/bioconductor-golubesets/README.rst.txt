@@ -44,7 +44,7 @@ bioconductor-golubesets
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-golubesets:<tag>
+      docker pull quay.io/biocontainers/bioconductor-golubesets:<tag>
 
    (see `bioconductor-golubesets/tags`_ for valid values for ``<tag>``)
 

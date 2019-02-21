@@ -41,7 +41,7 @@ dialign2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dialign2:<tag>
+      docker pull quay.io/biocontainers/dialign2:<tag>
 
    (see `dialign2/tags`_ for valid values for ``<tag>``)
 

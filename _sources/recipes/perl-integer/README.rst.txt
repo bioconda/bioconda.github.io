@@ -40,7 +40,7 @@ perl-integer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-integer:<tag>
+      docker pull quay.io/biocontainers/perl-integer:<tag>
 
    (see `perl-integer/tags`_ for valid values for ``<tag>``)
 

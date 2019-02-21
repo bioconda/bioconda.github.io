@@ -72,7 +72,7 @@ bioconductor-genesis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genesis:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genesis:<tag>
 
    (see `bioconductor-genesis/tags`_ for valid values for ``<tag>``)
 

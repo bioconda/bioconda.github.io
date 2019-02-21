@@ -48,7 +48,7 @@ arvados-cwl-runner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/arvados-cwl-runner:<tag>
+      docker pull quay.io/biocontainers/arvados-cwl-runner:<tag>
 
    (see `arvados-cwl-runner/tags`_ for valid values for ``<tag>``)
 

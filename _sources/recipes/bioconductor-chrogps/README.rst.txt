@@ -60,7 +60,7 @@ bioconductor-chrogps
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chrogps:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chrogps:<tag>
 
    (see `bioconductor-chrogps/tags`_ for valid values for ``<tag>``)
 

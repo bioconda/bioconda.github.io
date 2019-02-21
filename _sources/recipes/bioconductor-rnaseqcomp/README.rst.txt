@@ -43,7 +43,7 @@ bioconductor-rnaseqcomp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnaseqcomp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rnaseqcomp:<tag>
 
    (see `bioconductor-rnaseqcomp/tags`_ for valid values for ``<tag>``)
 

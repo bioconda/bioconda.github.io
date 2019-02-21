@@ -41,7 +41,7 @@ bioconductor-trio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-trio:<tag>
+      docker pull quay.io/biocontainers/bioconductor-trio:<tag>
 
    (see `bioconductor-trio/tags`_ for valid values for ``<tag>``)
 

@@ -55,7 +55,7 @@ bioconductor-messina
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-messina:<tag>
+      docker pull quay.io/biocontainers/bioconductor-messina:<tag>
 
    (see `bioconductor-messina/tags`_ for valid values for ``<tag>``)
 

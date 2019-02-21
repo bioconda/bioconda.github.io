@@ -46,7 +46,7 @@ chicagotools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/chicagotools:<tag>
+      docker pull quay.io/biocontainers/chicagotools:<tag>
 
    (see `chicagotools/tags`_ for valid values for ``<tag>``)
 

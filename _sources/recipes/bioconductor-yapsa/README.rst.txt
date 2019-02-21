@@ -73,7 +73,7 @@ bioconductor-yapsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-yapsa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-yapsa:<tag>
 
    (see `bioconductor-yapsa/tags`_ for valid values for ``<tag>``)
 

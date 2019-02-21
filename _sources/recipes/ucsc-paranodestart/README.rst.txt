@@ -50,7 +50,7 @@ ucsc-paranodestart
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-paranodestart:<tag>
+      docker pull quay.io/biocontainers/ucsc-paranodestart:<tag>
 
    (see `ucsc-paranodestart/tags`_ for valid values for ``<tag>``)
 

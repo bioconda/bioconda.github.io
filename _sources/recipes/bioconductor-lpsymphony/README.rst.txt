@@ -45,7 +45,7 @@ bioconductor-lpsymphony
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lpsymphony:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lpsymphony:<tag>
 
    (see `bioconductor-lpsymphony/tags`_ for valid values for ``<tag>``)
 

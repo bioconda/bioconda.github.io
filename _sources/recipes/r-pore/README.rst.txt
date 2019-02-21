@@ -52,7 +52,7 @@ r-pore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-pore:<tag>
+      docker pull quay.io/biocontainers/r-pore:<tag>
 
    (see `r-pore/tags`_ for valid values for ``<tag>``)
 

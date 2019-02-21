@@ -40,7 +40,7 @@ lofreq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lofreq:<tag>
+      docker pull quay.io/biocontainers/lofreq:<tag>
 
    (see `lofreq/tags`_ for valid values for ``<tag>``)
 

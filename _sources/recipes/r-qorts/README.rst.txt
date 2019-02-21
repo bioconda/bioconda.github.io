@@ -40,7 +40,7 @@ r-qorts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-qorts:<tag>
+      docker pull quay.io/biocontainers/r-qorts:<tag>
 
    (see `r-qorts/tags`_ for valid values for ``<tag>``)
 

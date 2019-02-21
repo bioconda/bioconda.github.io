@@ -42,7 +42,7 @@ perl-clone-pp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-clone-pp:<tag>
+      docker pull quay.io/biocontainers/perl-clone-pp:<tag>
 
    (see `perl-clone-pp/tags`_ for valid values for ``<tag>``)
 

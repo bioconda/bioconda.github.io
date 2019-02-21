@@ -42,7 +42,7 @@ mdasim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mdasim:<tag>
+      docker pull quay.io/biocontainers/mdasim:<tag>
 
    (see `mdasim/tags`_ for valid values for ``<tag>``)
 

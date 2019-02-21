@@ -57,7 +57,7 @@ fgmp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fgmp:<tag>
+      docker pull quay.io/biocontainers/fgmp:<tag>
 
    (see `fgmp/tags`_ for valid values for ``<tag>``)
 

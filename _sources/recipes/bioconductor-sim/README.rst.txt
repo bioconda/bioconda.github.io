@@ -49,7 +49,7 @@ bioconductor-sim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sim:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sim:<tag>
 
    (see `bioconductor-sim/tags`_ for valid values for ``<tag>``)
 

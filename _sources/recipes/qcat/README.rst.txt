@@ -54,7 +54,7 @@ qcat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/qcat:<tag>
+      docker pull quay.io/biocontainers/qcat:<tag>
 
    (see `qcat/tags`_ for valid values for ``<tag>``)
 

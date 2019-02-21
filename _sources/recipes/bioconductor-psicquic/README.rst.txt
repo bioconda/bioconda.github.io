@@ -53,7 +53,7 @@ bioconductor-psicquic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-psicquic:<tag>
+      docker pull quay.io/biocontainers/bioconductor-psicquic:<tag>
 
    (see `bioconductor-psicquic/tags`_ for valid values for ``<tag>``)
 

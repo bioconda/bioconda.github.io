@@ -44,7 +44,7 @@ perl-dbd-sqlite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-dbd-sqlite:<tag>
+      docker pull quay.io/biocontainers/perl-dbd-sqlite:<tag>
 
    (see `perl-dbd-sqlite/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-io-interactive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-interactive:<tag>
+      docker pull quay.io/biocontainers/perl-io-interactive:<tag>
 
    (see `perl-io-interactive/tags`_ for valid values for ``<tag>``)
 

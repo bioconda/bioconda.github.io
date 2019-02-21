@@ -56,7 +56,7 @@ bioconductor-pd.maize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.maize:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.maize:<tag>
 
    (see `bioconductor-pd.maize/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ reago
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/reago:<tag>
+      docker pull quay.io/biocontainers/reago:<tag>
 
    (see `reago/tags`_ for valid values for ``<tag>``)
 

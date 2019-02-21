@@ -42,7 +42,7 @@ bioconductor-metamsdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metamsdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metamsdata:<tag>
 
    (see `bioconductor-metamsdata/tags`_ for valid values for ``<tag>``)
 

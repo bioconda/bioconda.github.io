@@ -44,7 +44,7 @@ bioconductor-antiprofilesdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-antiprofilesdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-antiprofilesdata:<tag>
 
    (see `bioconductor-antiprofilesdata/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ perl-extutils-cbuilder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-extutils-cbuilder:<tag>
+      docker pull quay.io/biocontainers/perl-extutils-cbuilder:<tag>
 
    (see `perl-extutils-cbuilder/tags`_ for valid values for ``<tag>``)
 

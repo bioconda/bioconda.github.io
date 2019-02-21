@@ -40,7 +40,7 @@ mawk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mawk:<tag>
+      docker pull quay.io/biocontainers/mawk:<tag>
 
    (see `mawk/tags`_ for valid values for ``<tag>``)
 

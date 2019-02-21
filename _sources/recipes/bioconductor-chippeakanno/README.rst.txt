@@ -97,7 +97,7 @@ bioconductor-chippeakanno
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chippeakanno:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chippeakanno:<tag>
 
    (see `bioconductor-chippeakanno/tags`_ for valid values for ``<tag>``)
 

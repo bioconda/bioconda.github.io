@@ -52,7 +52,7 @@ r-asics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-asics:<tag>
+      docker pull quay.io/biocontainers/r-asics:<tag>
 
    (see `r-asics/tags`_ for valid values for ``<tag>``)
 

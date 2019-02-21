@@ -45,7 +45,7 @@ bioconductor-dnacopy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dnacopy:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dnacopy:<tag>
 
    (see `bioconductor-dnacopy/tags`_ for valid values for ``<tag>``)
 

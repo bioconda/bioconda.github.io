@@ -42,7 +42,7 @@ dlcpar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dlcpar:<tag>
+      docker pull quay.io/biocontainers/dlcpar:<tag>
 
    (see `dlcpar/tags`_ for valid values for ``<tag>``)
 

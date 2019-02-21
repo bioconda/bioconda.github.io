@@ -44,7 +44,7 @@ clustalo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clustalo:<tag>
+      docker pull quay.io/biocontainers/clustalo:<tag>
 
    (see `clustalo/tags`_ for valid values for ``<tag>``)
 

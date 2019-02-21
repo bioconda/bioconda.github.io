@@ -56,7 +56,7 @@ bioconductor-sictools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sictools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sictools:<tag>
 
    (see `bioconductor-sictools/tags`_ for valid values for ``<tag>``)
 

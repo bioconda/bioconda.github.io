@@ -44,7 +44,7 @@ ncbi-ngs-sdk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ncbi-ngs-sdk:<tag>
+      docker pull quay.io/biocontainers/ncbi-ngs-sdk:<tag>
 
    (see `ncbi-ngs-sdk/tags`_ for valid values for ``<tag>``)
 

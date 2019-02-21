@@ -40,7 +40,7 @@ perl-io-handle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-handle:<tag>
+      docker pull quay.io/biocontainers/perl-io-handle:<tag>
 
    (see `perl-io-handle/tags`_ for valid values for ``<tag>``)
 

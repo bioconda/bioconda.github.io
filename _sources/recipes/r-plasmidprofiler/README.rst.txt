@@ -70,7 +70,7 @@ r-plasmidprofiler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-plasmidprofiler:<tag>
+      docker pull quay.io/biocontainers/r-plasmidprofiler:<tag>
 
    (see `r-plasmidprofiler/tags`_ for valid values for ``<tag>``)
 

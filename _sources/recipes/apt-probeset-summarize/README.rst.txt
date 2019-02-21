@@ -40,7 +40,7 @@ apt-probeset-summarize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/apt-probeset-summarize:<tag>
+      docker pull quay.io/biocontainers/apt-probeset-summarize:<tag>
 
    (see `apt-probeset-summarize/tags`_ for valid values for ``<tag>``)
 

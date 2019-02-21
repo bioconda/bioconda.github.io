@@ -52,7 +52,7 @@ nanocomp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanocomp:<tag>
+      docker pull quay.io/biocontainers/nanocomp:<tag>
 
    (see `nanocomp/tags`_ for valid values for ``<tag>``)
 

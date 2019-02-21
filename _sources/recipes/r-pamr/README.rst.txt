@@ -44,7 +44,7 @@ r-pamr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-pamr:<tag>
+      docker pull quay.io/biocontainers/r-pamr:<tag>
 
    (see `r-pamr/tags`_ for valid values for ``<tag>``)
 

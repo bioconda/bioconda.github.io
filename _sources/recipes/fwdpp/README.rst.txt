@@ -46,7 +46,7 @@ fwdpp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fwdpp:<tag>
+      docker pull quay.io/biocontainers/fwdpp:<tag>
 
    (see `fwdpp/tags`_ for valid values for ``<tag>``)
 

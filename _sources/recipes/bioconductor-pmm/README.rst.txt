@@ -43,7 +43,7 @@ bioconductor-pmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pmm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pmm:<tag>
 
    (see `bioconductor-pmm/tags`_ for valid values for ``<tag>``)
 

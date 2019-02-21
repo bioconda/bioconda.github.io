@@ -44,7 +44,7 @@ bioconductor-ruvnormalizedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ruvnormalizedata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ruvnormalizedata:<tag>
 
    (see `bioconductor-ruvnormalizedata/tags`_ for valid values for ``<tag>``)
 

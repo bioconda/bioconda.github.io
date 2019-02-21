@@ -68,7 +68,7 @@ bioconductor-erccdashboard
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-erccdashboard:<tag>
+      docker pull quay.io/biocontainers/bioconductor-erccdashboard:<tag>
 
    (see `bioconductor-erccdashboard/tags`_ for valid values for ``<tag>``)
 

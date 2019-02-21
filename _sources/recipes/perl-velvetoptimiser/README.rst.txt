@@ -45,7 +45,7 @@ perl-velvetoptimiser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-velvetoptimiser:<tag>
+      docker pull quay.io/biocontainers/perl-velvetoptimiser:<tag>
 
    (see `perl-velvetoptimiser/tags`_ for valid values for ``<tag>``)
 

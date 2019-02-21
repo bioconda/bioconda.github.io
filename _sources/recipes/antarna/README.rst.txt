@@ -51,7 +51,7 @@ antarna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/antarna:<tag>
+      docker pull quay.io/biocontainers/antarna:<tag>
 
    (see `antarna/tags`_ for valid values for ``<tag>``)
 

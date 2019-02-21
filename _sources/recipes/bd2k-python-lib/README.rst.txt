@@ -40,7 +40,7 @@ bd2k-python-lib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bd2k-python-lib:<tag>
+      docker pull quay.io/biocontainers/bd2k-python-lib:<tag>
 
    (see `bd2k-python-lib/tags`_ for valid values for ``<tag>``)
 

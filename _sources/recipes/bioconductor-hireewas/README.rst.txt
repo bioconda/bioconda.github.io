@@ -46,7 +46,7 @@ bioconductor-hireewas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hireewas:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hireewas:<tag>
 
    (see `bioconductor-hireewas/tags`_ for valid values for ``<tag>``)
 

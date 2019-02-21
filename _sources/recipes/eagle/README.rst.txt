@@ -52,7 +52,7 @@ eagle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/eagle:<tag>
+      docker pull quay.io/biocontainers/eagle:<tag>
 
    (see `eagle/tags`_ for valid values for ``<tag>``)
 

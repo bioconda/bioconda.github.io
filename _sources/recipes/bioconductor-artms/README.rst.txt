@@ -108,7 +108,7 @@ bioconductor-artms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-artms:<tag>
+      docker pull quay.io/biocontainers/bioconductor-artms:<tag>
 
    (see `bioconductor-artms/tags`_ for valid values for ``<tag>``)
 

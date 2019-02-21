@@ -64,7 +64,7 @@ bioconductor-netresponse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-netresponse:<tag>
+      docker pull quay.io/biocontainers/bioconductor-netresponse:<tag>
 
    (see `bioconductor-netresponse/tags`_ for valid values for ``<tag>``)
 

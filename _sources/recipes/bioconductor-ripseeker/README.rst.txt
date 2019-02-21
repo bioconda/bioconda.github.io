@@ -55,7 +55,7 @@ bioconductor-ripseeker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ripseeker:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ripseeker:<tag>
 
    (see `bioconductor-ripseeker/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-module-extract-use
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-extract-use:<tag>
+      docker pull quay.io/biocontainers/perl-module-extract-use:<tag>
 
    (see `perl-module-extract-use/tags`_ for valid values for ``<tag>``)
 

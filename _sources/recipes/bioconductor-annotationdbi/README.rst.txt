@@ -53,7 +53,7 @@ bioconductor-annotationdbi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-annotationdbi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-annotationdbi:<tag>
 
    (see `bioconductor-annotationdbi/tags`_ for valid values for ``<tag>``)
 

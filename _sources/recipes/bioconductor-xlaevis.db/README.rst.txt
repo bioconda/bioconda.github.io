@@ -46,7 +46,7 @@ bioconductor-xlaevis.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xlaevis.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-xlaevis.db:<tag>
 
    (see `bioconductor-xlaevis.db/tags`_ for valid values for ``<tag>``)
 

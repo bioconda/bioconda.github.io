@@ -45,7 +45,7 @@ bioconductor-bayespeak
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bayespeak:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bayespeak:<tag>
 
    (see `bioconductor-bayespeak/tags`_ for valid values for ``<tag>``)
 

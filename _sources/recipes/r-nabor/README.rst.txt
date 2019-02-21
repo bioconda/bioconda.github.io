@@ -46,7 +46,7 @@ r-nabor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-nabor:<tag>
+      docker pull quay.io/biocontainers/r-nabor:<tag>
 
    (see `r-nabor/tags`_ for valid values for ``<tag>``)
 

@@ -55,7 +55,7 @@ bioconductor-sepa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sepa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sepa:<tag>
 
    (see `bioconductor-sepa/tags`_ for valid values for ``<tag>``)
 

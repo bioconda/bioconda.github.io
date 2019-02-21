@@ -40,7 +40,7 @@ python-cluster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-cluster:<tag>
+      docker pull quay.io/biocontainers/python-cluster:<tag>
 
    (see `python-cluster/tags`_ for valid values for ``<tag>``)
 

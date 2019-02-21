@@ -48,7 +48,7 @@ searchgui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/searchgui:<tag>
+      docker pull quay.io/biocontainers/searchgui:<tag>
 
    (see `searchgui/tags`_ for valid values for ``<tag>``)
 

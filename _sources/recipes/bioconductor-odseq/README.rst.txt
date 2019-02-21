@@ -46,7 +46,7 @@ bioconductor-odseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-odseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-odseq:<tag>
 
    (see `bioconductor-odseq/tags`_ for valid values for ``<tag>``)
 

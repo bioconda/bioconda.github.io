@@ -40,7 +40,7 @@ xmlbuilder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xmlbuilder:<tag>
+      docker pull quay.io/biocontainers/xmlbuilder:<tag>
 
    (see `xmlbuilder/tags`_ for valid values for ``<tag>``)
 

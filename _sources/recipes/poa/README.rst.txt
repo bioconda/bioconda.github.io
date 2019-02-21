@@ -42,7 +42,7 @@ poa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/poa:<tag>
+      docker pull quay.io/biocontainers/poa:<tag>
 
    (see `poa/tags`_ for valid values for ``<tag>``)
 

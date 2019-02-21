@@ -66,7 +66,7 @@ advntr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/advntr:<tag>
+      docker pull quay.io/biocontainers/advntr:<tag>
 
    (see `advntr/tags`_ for valid values for ``<tag>``)
 

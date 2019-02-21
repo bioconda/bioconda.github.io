@@ -44,7 +44,7 @@ gff3toembl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gff3toembl:<tag>
+      docker pull quay.io/biocontainers/gff3toembl:<tag>
 
    (see `gff3toembl/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-set-scalar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-set-scalar:<tag>
+      docker pull quay.io/biocontainers/perl-set-scalar:<tag>
 
    (see `perl-set-scalar/tags`_ for valid values for ``<tag>``)
 

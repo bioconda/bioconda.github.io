@@ -44,7 +44,7 @@ bioconductor-rnu34probe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnu34probe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rnu34probe:<tag>
 
    (see `bioconductor-rnu34probe/tags`_ for valid values for ``<tag>``)
 

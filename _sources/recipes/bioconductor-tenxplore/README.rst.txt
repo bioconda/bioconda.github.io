@@ -54,7 +54,7 @@ bioconductor-tenxplore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tenxplore:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tenxplore:<tag>
 
    (see `bioconductor-tenxplore/tags`_ for valid values for ``<tag>``)
 

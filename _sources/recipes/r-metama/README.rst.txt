@@ -44,7 +44,7 @@ r-metama
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-metama:<tag>
+      docker pull quay.io/biocontainers/r-metama:<tag>
 
    (see `r-metama/tags`_ for valid values for ``<tag>``)
 

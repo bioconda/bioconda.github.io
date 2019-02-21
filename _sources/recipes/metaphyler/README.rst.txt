@@ -44,7 +44,7 @@ metaphyler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metaphyler:<tag>
+      docker pull quay.io/biocontainers/metaphyler:<tag>
 
    (see `metaphyler/tags`_ for valid values for ``<tag>``)
 

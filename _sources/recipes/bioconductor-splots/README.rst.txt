@@ -43,7 +43,7 @@ bioconductor-splots
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-splots:<tag>
+      docker pull quay.io/biocontainers/bioconductor-splots:<tag>
 
    (see `bioconductor-splots/tags`_ for valid values for ``<tag>``)
 

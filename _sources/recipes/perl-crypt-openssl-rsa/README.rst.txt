@@ -42,7 +42,7 @@ perl-crypt-openssl-rsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-crypt-openssl-rsa:<tag>
+      docker pull quay.io/biocontainers/perl-crypt-openssl-rsa:<tag>
 
    (see `perl-crypt-openssl-rsa/tags`_ for valid values for ``<tag>``)
 

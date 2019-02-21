@@ -50,7 +50,7 @@ biobb_analysis
 
    |downloads_biobb_analysis| |docker_biobb_analysis|
 
-   :versions: 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.9-0, 0.0.8-0, 0.0.4-0
+   :versions: 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.9-0, 0.0.8-0, 0.0.4-0
    
    :depends biobb_common: >=0.1.2
    
@@ -74,7 +74,7 @@ biobb_analysis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biobb_analysis:<tag>
+      docker pull quay.io/biocontainers/biobb_analysis:<tag>
 
    (see `biobb_analysis/tags`_ for valid values for ``<tag>``)
 

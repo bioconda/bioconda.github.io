@@ -41,7 +41,7 @@ transgenescan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/transgenescan:<tag>
+      docker pull quay.io/biocontainers/transgenescan:<tag>
 
    (see `transgenescan/tags`_ for valid values for ``<tag>``)
 

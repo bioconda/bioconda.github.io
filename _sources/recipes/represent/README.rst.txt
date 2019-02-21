@@ -42,7 +42,7 @@ represent
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/represent:<tag>
+      docker pull quay.io/biocontainers/represent:<tag>
 
    (see `represent/tags`_ for valid values for ``<tag>``)
 

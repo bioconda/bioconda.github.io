@@ -42,7 +42,7 @@ grep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/grep:<tag>
+      docker pull quay.io/biocontainers/grep:<tag>
 
    (see `grep/tags`_ for valid values for ``<tag>``)
 

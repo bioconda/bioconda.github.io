@@ -44,7 +44,7 @@ ucsc-cell-browser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-cell-browser:<tag>
+      docker pull quay.io/biocontainers/ucsc-cell-browser:<tag>
 
    (see `ucsc-cell-browser/tags`_ for valid values for ``<tag>``)
 

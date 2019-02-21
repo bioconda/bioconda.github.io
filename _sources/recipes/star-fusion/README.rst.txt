@@ -64,7 +64,7 @@ star-fusion
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/star-fusion:<tag>
+      docker pull quay.io/biocontainers/star-fusion:<tag>
 
    (see `star-fusion/tags`_ for valid values for ``<tag>``)
 

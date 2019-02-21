@@ -50,7 +50,7 @@ bioconductor-mirbaseversions.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirbaseversions.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mirbaseversions.db:<tag>
 
    (see `bioconductor-mirbaseversions.db/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ mamotif
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mamotif:<tag>
+      docker pull quay.io/biocontainers/mamotif:<tag>
 
    (see `mamotif/tags`_ for valid values for ``<tag>``)
 

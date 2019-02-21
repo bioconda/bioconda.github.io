@@ -40,7 +40,7 @@ cas-offinder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cas-offinder:<tag>
+      docker pull quay.io/biocontainers/cas-offinder:<tag>
 
    (see `cas-offinder/tags`_ for valid values for ``<tag>``)
 

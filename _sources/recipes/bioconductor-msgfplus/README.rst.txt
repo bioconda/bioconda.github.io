@@ -38,7 +38,7 @@ bioconductor-msgfplus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msgfplus:<tag>
+      docker pull quay.io/biocontainers/bioconductor-msgfplus:<tag>
 
    (see `bioconductor-msgfplus/tags`_ for valid values for ``<tag>``)
 

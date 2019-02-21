@@ -50,7 +50,7 @@ ucsc-pslmappostchain
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslmappostchain:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslmappostchain:<tag>
 
    (see `ucsc-pslmappostchain/tags`_ for valid values for ``<tag>``)
 

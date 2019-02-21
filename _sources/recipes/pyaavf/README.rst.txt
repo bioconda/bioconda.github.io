@@ -40,7 +40,7 @@ pyaavf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyaavf:<tag>
+      docker pull quay.io/biocontainers/pyaavf:<tag>
 
    (see `pyaavf/tags`_ for valid values for ``<tag>``)
 

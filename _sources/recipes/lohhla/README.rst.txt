@@ -60,7 +60,7 @@ lohhla
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lohhla:<tag>
+      docker pull quay.io/biocontainers/lohhla:<tag>
 
    (see `lohhla/tags`_ for valid values for ``<tag>``)
 

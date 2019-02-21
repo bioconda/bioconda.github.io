@@ -42,7 +42,7 @@ bioconductor-mtbls2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mtbls2:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mtbls2:<tag>
 
    (see `bioconductor-mtbls2/tags`_ for valid values for ``<tag>``)
 

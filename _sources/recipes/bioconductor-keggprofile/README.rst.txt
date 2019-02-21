@@ -56,7 +56,7 @@ bioconductor-keggprofile
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-keggprofile:<tag>
+      docker pull quay.io/biocontainers/bioconductor-keggprofile:<tag>
 
    (see `bioconductor-keggprofile/tags`_ for valid values for ``<tag>``)
 

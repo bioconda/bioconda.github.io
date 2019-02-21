@@ -64,7 +64,7 @@ bioconductor-biotmle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biotmle:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biotmle:<tag>
 
    (see `bioconductor-biotmle/tags`_ for valid values for ``<tag>``)
 

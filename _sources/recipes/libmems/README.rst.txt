@@ -40,7 +40,7 @@ libmems
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libmems:<tag>
+      docker pull quay.io/biocontainers/libmems:<tag>
 
    (see `libmems/tags`_ for valid values for ``<tag>``)
 

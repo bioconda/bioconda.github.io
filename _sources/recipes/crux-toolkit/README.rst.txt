@@ -43,7 +43,7 @@ crux-toolkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/crux-toolkit:<tag>
+      docker pull quay.io/biocontainers/crux-toolkit:<tag>
 
    (see `crux-toolkit/tags`_ for valid values for ``<tag>``)
 

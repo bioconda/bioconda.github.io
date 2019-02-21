@@ -132,7 +132,7 @@ r-msqrob
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-msqrob:<tag>
+      docker pull quay.io/biocontainers/r-msqrob:<tag>
 
    (see `r-msqrob/tags`_ for valid values for ``<tag>``)
 

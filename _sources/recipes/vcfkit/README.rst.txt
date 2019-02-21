@@ -70,7 +70,7 @@ vcfkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcfkit:<tag>
+      docker pull quay.io/biocontainers/vcfkit:<tag>
 
    (see `vcfkit/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-phenodist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-phenodist:<tag>
+      docker pull quay.io/biocontainers/bioconductor-phenodist:<tag>
 
    (see `bioconductor-phenodist/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-cpan-shell
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-cpan-shell:<tag>
+      docker pull quay.io/biocontainers/perl-cpan-shell:<tag>
 
    (see `perl-cpan-shell/tags`_ for valid values for ``<tag>``)
 

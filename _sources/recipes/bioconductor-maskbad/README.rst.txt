@@ -45,7 +45,7 @@ bioconductor-maskbad
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-maskbad:<tag>
+      docker pull quay.io/biocontainers/bioconductor-maskbad:<tag>
 
    (see `bioconductor-maskbad/tags`_ for valid values for ``<tag>``)
 

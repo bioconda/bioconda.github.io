@@ -44,7 +44,7 @@ bioconductor-msqc1
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msqc1:<tag>
+      docker pull quay.io/biocontainers/bioconductor-msqc1:<tag>
 
    (see `bioconductor-msqc1/tags`_ for valid values for ``<tag>``)
 

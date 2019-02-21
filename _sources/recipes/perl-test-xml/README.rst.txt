@@ -52,7 +52,7 @@ perl-test-xml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-xml:<tag>
+      docker pull quay.io/biocontainers/perl-test-xml:<tag>
 
    (see `perl-test-xml/tags`_ for valid values for ``<tag>``)
 

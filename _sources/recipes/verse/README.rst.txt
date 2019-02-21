@@ -42,7 +42,7 @@ verse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/verse:<tag>
+      docker pull quay.io/biocontainers/verse:<tag>
 
    (see `verse/tags`_ for valid values for ``<tag>``)
 

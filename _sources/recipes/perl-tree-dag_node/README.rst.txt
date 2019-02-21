@@ -42,7 +42,7 @@ perl-tree-dag_node
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-tree-dag_node:<tag>
+      docker pull quay.io/biocontainers/perl-tree-dag_node:<tag>
 
    (see `perl-tree-dag_node/tags`_ for valid values for ``<tag>``)
 

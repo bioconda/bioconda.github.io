@@ -66,7 +66,7 @@ bioconductor-mait
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mait:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mait:<tag>
 
    (see `bioconductor-mait/tags`_ for valid values for ``<tag>``)
 

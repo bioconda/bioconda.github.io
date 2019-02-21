@@ -44,7 +44,7 @@ bioconductor-hu6800cdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hu6800cdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hu6800cdf:<tag>
 
    (see `bioconductor-hu6800cdf/tags`_ for valid values for ``<tag>``)
 

@@ -75,7 +75,7 @@ biobb_common
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biobb_common:<tag>
+      docker pull quay.io/biocontainers/biobb_common:<tag>
 
    (see `biobb_common/tags`_ for valid values for ``<tag>``)
 

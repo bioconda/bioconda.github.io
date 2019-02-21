@@ -42,7 +42,7 @@ perl-file-copy-recursive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-copy-recursive:<tag>
+      docker pull quay.io/biocontainers/perl-file-copy-recursive:<tag>
 
    (see `perl-file-copy-recursive/tags`_ for valid values for ``<tag>``)
 

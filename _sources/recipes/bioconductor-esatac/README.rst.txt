@@ -22,7 +22,7 @@ bioconductor-esatac
 
    |downloads_bioconductor-esatac| |docker_bioconductor-esatac|
 
-   :versions: 1.4.0-0
+   :versions: 1.4.3-0, 1.4.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    
@@ -60,7 +60,9 @@ bioconductor-esatac
    
    :depends bioconductor-tfbstools: >=1.20.0,<1.21.0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    
@@ -104,7 +106,7 @@ bioconductor-esatac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-esatac:<tag>
+      docker pull quay.io/biocontainers/bioconductor-esatac:<tag>
 
    (see `bioconductor-esatac/tags`_ for valid values for ``<tag>``)
 

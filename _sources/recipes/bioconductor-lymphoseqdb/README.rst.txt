@@ -42,7 +42,7 @@ bioconductor-lymphoseqdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lymphoseqdb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lymphoseqdb:<tag>
 
    (see `bioconductor-lymphoseqdb/tags`_ for valid values for ``<tag>``)
 

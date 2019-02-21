@@ -57,7 +57,7 @@ kobas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kobas:<tag>
+      docker pull quay.io/biocontainers/kobas:<tag>
 
    (see `kobas/tags`_ for valid values for ``<tag>``)
 

@@ -104,7 +104,7 @@ nullarbor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nullarbor:<tag>
+      docker pull quay.io/biocontainers/nullarbor:<tag>
 
    (see `nullarbor/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ bioconductor-sampleclassifier
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sampleclassifier:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sampleclassifier:<tag>
 
    (see `bioconductor-sampleclassifier/tags`_ for valid values for ``<tag>``)
 

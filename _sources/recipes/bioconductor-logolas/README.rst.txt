@@ -50,7 +50,7 @@ bioconductor-logolas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-logolas:<tag>
+      docker pull quay.io/biocontainers/bioconductor-logolas:<tag>
 
    (see `bioconductor-logolas/tags`_ for valid values for ``<tag>``)
 

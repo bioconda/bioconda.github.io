@@ -88,7 +88,7 @@ cgat-scripts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cgat-scripts:<tag>
+      docker pull quay.io/biocontainers/cgat-scripts:<tag>
 
    (see `cgat-scripts/tags`_ for valid values for ``<tag>``)
 

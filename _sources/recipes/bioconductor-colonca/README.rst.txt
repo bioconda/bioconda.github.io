@@ -44,7 +44,7 @@ bioconductor-colonca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-colonca:<tag>
+      docker pull quay.io/biocontainers/bioconductor-colonca:<tag>
 
    (see `bioconductor-colonca/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ suppa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/suppa:<tag>
+      docker pull quay.io/biocontainers/suppa:<tag>
 
    (see `suppa/tags`_ for valid values for ``<tag>``)
 

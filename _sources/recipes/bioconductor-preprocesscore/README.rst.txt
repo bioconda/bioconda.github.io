@@ -43,7 +43,7 @@ bioconductor-preprocesscore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-preprocesscore:<tag>
+      docker pull quay.io/biocontainers/bioconductor-preprocesscore:<tag>
 
    (see `bioconductor-preprocesscore/tags`_ for valid values for ``<tag>``)
 

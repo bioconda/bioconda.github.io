@@ -93,7 +93,7 @@ bioconductor-isomirs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-isomirs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-isomirs:<tag>
 
    (see `bioconductor-isomirs/tags`_ for valid values for ``<tag>``)
 

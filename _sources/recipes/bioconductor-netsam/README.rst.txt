@@ -46,7 +46,7 @@ bioconductor-netsam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-netsam:<tag>
+      docker pull quay.io/biocontainers/bioconductor-netsam:<tag>
 
    (see `bioconductor-netsam/tags`_ for valid values for ``<tag>``)
 

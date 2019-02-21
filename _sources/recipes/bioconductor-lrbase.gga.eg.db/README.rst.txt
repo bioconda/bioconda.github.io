@@ -46,7 +46,7 @@ bioconductor-lrbase.gga.eg.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lrbase.gga.eg.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lrbase.gga.eg.db:<tag>
 
    (see `bioconductor-lrbase.gga.eg.db/tags`_ for valid values for ``<tag>``)
 

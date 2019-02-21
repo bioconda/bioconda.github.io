@@ -56,7 +56,7 @@ bioconductor-pd.atdschip.tiling
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.atdschip.tiling:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.atdschip.tiling:<tag>
 
    (see `bioconductor-pd.atdschip.tiling/tags`_ for valid values for ``<tag>``)
 

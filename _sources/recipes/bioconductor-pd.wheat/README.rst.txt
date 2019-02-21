@@ -56,7 +56,7 @@ bioconductor-pd.wheat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.wheat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.wheat:<tag>
 
    (see `bioconductor-pd.wheat/tags`_ for valid values for ``<tag>``)
 

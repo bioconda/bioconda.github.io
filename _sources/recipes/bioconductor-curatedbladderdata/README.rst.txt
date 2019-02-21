@@ -44,7 +44,7 @@ bioconductor-curatedbladderdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-curatedbladderdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-curatedbladderdata:<tag>
 
    (see `bioconductor-curatedbladderdata/tags`_ for valid values for ``<tag>``)
 

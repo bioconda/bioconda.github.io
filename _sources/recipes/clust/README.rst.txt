@@ -57,7 +57,7 @@ clust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clust:<tag>
+      docker pull quay.io/biocontainers/clust:<tag>
 
    (see `clust/tags`_ for valid values for ``<tag>``)
 

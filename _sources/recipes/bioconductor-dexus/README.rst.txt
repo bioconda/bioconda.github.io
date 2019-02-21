@@ -47,7 +47,7 @@ bioconductor-dexus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dexus:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dexus:<tag>
 
    (see `bioconductor-dexus/tags`_ for valid values for ``<tag>``)
 

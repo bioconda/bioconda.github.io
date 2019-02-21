@@ -40,7 +40,7 @@ pybamparser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pybamparser:<tag>
+      docker pull quay.io/biocontainers/pybamparser:<tag>
 
    (see `pybamparser/tags`_ for valid values for ``<tag>``)
 

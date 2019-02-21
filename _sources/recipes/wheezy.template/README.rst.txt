@@ -40,7 +40,7 @@ wheezy.template
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wheezy.template:<tag>
+      docker pull quay.io/biocontainers/wheezy.template:<tag>
 
    (see `wheezy.template/tags`_ for valid values for ``<tag>``)
 

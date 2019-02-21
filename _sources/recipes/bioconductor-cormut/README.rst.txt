@@ -44,7 +44,7 @@ bioconductor-cormut
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cormut:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cormut:<tag>
 
    (see `bioconductor-cormut/tags`_ for valid values for ``<tag>``)
 

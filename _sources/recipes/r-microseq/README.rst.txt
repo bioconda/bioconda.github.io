@@ -44,7 +44,7 @@ r-microseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-microseq:<tag>
+      docker pull quay.io/biocontainers/r-microseq:<tag>
 
    (see `r-microseq/tags`_ for valid values for ``<tag>``)
 

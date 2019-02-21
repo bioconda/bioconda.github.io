@@ -51,7 +51,7 @@ bioconductor-rontotools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rontotools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rontotools:<tag>
 
    (see `bioconductor-rontotools/tags`_ for valid values for ``<tag>``)
 

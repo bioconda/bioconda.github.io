@@ -65,7 +65,7 @@ bioconductor-rsamtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rsamtools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rsamtools:<tag>
 
    (see `bioconductor-rsamtools/tags`_ for valid values for ``<tag>``)
 

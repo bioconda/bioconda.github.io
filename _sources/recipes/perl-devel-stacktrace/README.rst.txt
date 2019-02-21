@@ -40,7 +40,7 @@ perl-devel-stacktrace
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-devel-stacktrace:<tag>
+      docker pull quay.io/biocontainers/perl-devel-stacktrace:<tag>
 
    (see `perl-devel-stacktrace/tags`_ for valid values for ``<tag>``)
 

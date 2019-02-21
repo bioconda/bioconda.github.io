@@ -43,7 +43,7 @@ bioconductor-clusterstab
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clusterstab:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clusterstab:<tag>
 
    (see `bioconductor-clusterstab/tags`_ for valid values for ``<tag>``)
 

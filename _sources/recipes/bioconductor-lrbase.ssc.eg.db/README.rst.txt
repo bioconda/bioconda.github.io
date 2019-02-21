@@ -46,7 +46,7 @@ bioconductor-lrbase.ssc.eg.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lrbase.ssc.eg.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lrbase.ssc.eg.db:<tag>
 
    (see `bioconductor-lrbase.ssc.eg.db/tags`_ for valid values for ``<tag>``)
 

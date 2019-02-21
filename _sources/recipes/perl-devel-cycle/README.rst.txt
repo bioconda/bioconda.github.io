@@ -40,7 +40,7 @@ perl-devel-cycle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-devel-cycle:<tag>
+      docker pull quay.io/biocontainers/perl-devel-cycle:<tag>
 
    (see `perl-devel-cycle/tags`_ for valid values for ``<tag>``)
 

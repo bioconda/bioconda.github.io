@@ -42,7 +42,7 @@ clustalw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clustalw:<tag>
+      docker pull quay.io/biocontainers/clustalw:<tag>
 
    (see `clustalw/tags`_ for valid values for ``<tag>``)
 

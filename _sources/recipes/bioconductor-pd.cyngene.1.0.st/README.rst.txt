@@ -56,7 +56,7 @@ bioconductor-pd.cyngene.1.0.st
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.cyngene.1.0.st:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.cyngene.1.0.st:<tag>
 
    (see `bioconductor-pd.cyngene.1.0.st/tags`_ for valid values for ``<tag>``)
 

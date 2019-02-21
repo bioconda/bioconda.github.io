@@ -94,7 +94,7 @@ wg-blimp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wg-blimp:<tag>
+      docker pull quay.io/biocontainers/wg-blimp:<tag>
 
    (see `wg-blimp/tags`_ for valid values for ``<tag>``)
 

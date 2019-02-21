@@ -38,7 +38,7 @@ singlecell-barcodes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/singlecell-barcodes:<tag>
+      docker pull quay.io/biocontainers/singlecell-barcodes:<tag>
 
    (see `singlecell-barcodes/tags`_ for valid values for ``<tag>``)
 

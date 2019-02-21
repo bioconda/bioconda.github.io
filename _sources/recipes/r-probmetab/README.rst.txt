@@ -58,7 +58,7 @@ r-probmetab
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-probmetab:<tag>
+      docker pull quay.io/biocontainers/r-probmetab:<tag>
 
    (see `r-probmetab/tags`_ for valid values for ``<tag>``)
 

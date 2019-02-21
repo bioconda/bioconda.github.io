@@ -52,7 +52,7 @@ bioconductor-polyester
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-polyester:<tag>
+      docker pull quay.io/biocontainers/bioconductor-polyester:<tag>
 
    (see `bioconductor-polyester/tags`_ for valid values for ``<tag>``)
 

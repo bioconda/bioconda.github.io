@@ -49,7 +49,7 @@ bioconductor-ruvseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ruvseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ruvseq:<tag>
 
    (see `bioconductor-ruvseq/tags`_ for valid values for ``<tag>``)
 

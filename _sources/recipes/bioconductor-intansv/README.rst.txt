@@ -50,7 +50,7 @@ bioconductor-intansv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-intansv:<tag>
+      docker pull quay.io/biocontainers/bioconductor-intansv:<tag>
 
    (see `bioconductor-intansv/tags`_ for valid values for ``<tag>``)
 

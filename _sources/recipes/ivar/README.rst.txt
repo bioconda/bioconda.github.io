@@ -56,7 +56,7 @@ ivar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ivar:<tag>
+      docker pull quay.io/biocontainers/ivar:<tag>
 
    (see `ivar/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ rust-bio-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rust-bio-tools:<tag>
+      docker pull quay.io/biocontainers/rust-bio-tools:<tag>
 
    (see `rust-bio-tools/tags`_ for valid values for ``<tag>``)
 

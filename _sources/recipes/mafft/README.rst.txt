@@ -38,7 +38,7 @@ mafft
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mafft:<tag>
+      docker pull quay.io/biocontainers/mafft:<tag>
 
    (see `mafft/tags`_ for valid values for ``<tag>``)
 

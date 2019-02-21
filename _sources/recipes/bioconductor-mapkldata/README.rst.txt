@@ -42,7 +42,7 @@ bioconductor-mapkldata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mapkldata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mapkldata:<tag>
 
    (see `bioconductor-mapkldata/tags`_ for valid values for ``<tag>``)
 

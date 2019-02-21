@@ -39,7 +39,7 @@ glimmer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/glimmer:<tag>
+      docker pull quay.io/biocontainers/glimmer:<tag>
 
    (see `glimmer/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ r-rphast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rphast:<tag>
+      docker pull quay.io/biocontainers/r-rphast:<tag>
 
    (see `r-rphast/tags`_ for valid values for ``<tag>``)
 

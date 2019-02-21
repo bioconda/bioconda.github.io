@@ -40,7 +40,7 @@ perl-tie-hash-indexed
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-tie-hash-indexed:<tag>
+      docker pull quay.io/biocontainers/perl-tie-hash-indexed:<tag>
 
    (see `perl-tie-hash-indexed/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ rna-seqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rna-seqc:<tag>
+      docker pull quay.io/biocontainers/rna-seqc:<tag>
 
    (see `rna-seqc/tags`_ for valid values for ``<tag>``)
 

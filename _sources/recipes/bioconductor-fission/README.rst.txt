@@ -44,7 +44,7 @@ bioconductor-fission
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fission:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fission:<tag>
 
    (see `bioconductor-fission/tags`_ for valid values for ``<tag>``)
 

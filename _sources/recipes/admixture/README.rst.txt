@@ -39,7 +39,7 @@ admixture
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/admixture:<tag>
+      docker pull quay.io/biocontainers/admixture:<tag>
 
    (see `admixture/tags`_ for valid values for ``<tag>``)
 

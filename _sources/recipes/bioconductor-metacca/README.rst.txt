@@ -41,7 +41,7 @@ bioconductor-metacca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metacca:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metacca:<tag>
 
    (see `bioconductor-metacca/tags`_ for valid values for ``<tag>``)
 

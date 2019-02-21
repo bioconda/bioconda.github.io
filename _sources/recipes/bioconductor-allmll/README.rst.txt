@@ -44,7 +44,7 @@ bioconductor-allmll
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-allmll:<tag>
+      docker pull quay.io/biocontainers/bioconductor-allmll:<tag>
 
    (see `bioconductor-allmll/tags`_ for valid values for ``<tag>``)
 

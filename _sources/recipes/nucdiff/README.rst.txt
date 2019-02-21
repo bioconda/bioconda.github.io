@@ -44,7 +44,7 @@ nucdiff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nucdiff:<tag>
+      docker pull quay.io/biocontainers/nucdiff:<tag>
 
    (see `nucdiff/tags`_ for valid values for ``<tag>``)
 

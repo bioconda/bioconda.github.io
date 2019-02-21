@@ -42,7 +42,7 @@ perl-sort-versions
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sort-versions:<tag>
+      docker pull quay.io/biocontainers/perl-sort-versions:<tag>
 
    (see `perl-sort-versions/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ exparna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/exparna:<tag>
+      docker pull quay.io/biocontainers/exparna:<tag>
 
    (see `exparna/tags`_ for valid values for ``<tag>``)
 

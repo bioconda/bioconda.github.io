@@ -58,7 +58,7 @@ bioconductor-regparallel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-regparallel:<tag>
+      docker pull quay.io/biocontainers/bioconductor-regparallel:<tag>
 
    (see `bioconductor-regparallel/tags`_ for valid values for ``<tag>``)
 

@@ -68,7 +68,7 @@ bioconductor-vulcan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-vulcan:<tag>
+      docker pull quay.io/biocontainers/bioconductor-vulcan:<tag>
 
    (see `bioconductor-vulcan/tags`_ for valid values for ``<tag>``)
 

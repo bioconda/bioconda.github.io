@@ -42,7 +42,7 @@ perl-data-dump
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-data-dump:<tag>
+      docker pull quay.io/biocontainers/perl-data-dump:<tag>
 
    (see `perl-data-dump/tags`_ for valid values for ``<tag>``)
 

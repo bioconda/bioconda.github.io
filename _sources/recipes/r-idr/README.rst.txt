@@ -40,7 +40,7 @@ r-idr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-idr:<tag>
+      docker pull quay.io/biocontainers/r-idr:<tag>
 
    (see `r-idr/tags`_ for valid values for ``<tag>``)
 

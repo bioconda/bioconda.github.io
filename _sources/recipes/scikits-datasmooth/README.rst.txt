@@ -46,7 +46,7 @@ scikits-datasmooth
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scikits-datasmooth:<tag>
+      docker pull quay.io/biocontainers/scikits-datasmooth:<tag>
 
    (see `scikits-datasmooth/tags`_ for valid values for ``<tag>``)
 

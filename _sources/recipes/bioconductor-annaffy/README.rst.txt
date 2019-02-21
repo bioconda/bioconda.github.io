@@ -51,7 +51,7 @@ bioconductor-annaffy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-annaffy:<tag>
+      docker pull quay.io/biocontainers/bioconductor-annaffy:<tag>
 
    (see `bioconductor-annaffy/tags`_ for valid values for ``<tag>``)
 

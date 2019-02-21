@@ -61,7 +61,7 @@ bioconductor-motiv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-motiv:<tag>
+      docker pull quay.io/biocontainers/bioconductor-motiv:<tag>
 
    (see `bioconductor-motiv/tags`_ for valid values for ``<tag>``)
 

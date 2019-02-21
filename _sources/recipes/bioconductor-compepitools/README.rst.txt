@@ -69,7 +69,7 @@ bioconductor-compepitools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-compepitools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-compepitools:<tag>
 
    (see `bioconductor-compepitools/tags`_ for valid values for ``<tag>``)
 

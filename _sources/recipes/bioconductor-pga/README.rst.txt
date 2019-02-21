@@ -78,7 +78,7 @@ bioconductor-pga
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pga:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pga:<tag>
 
    (see `bioconductor-pga/tags`_ for valid values for ``<tag>``)
 

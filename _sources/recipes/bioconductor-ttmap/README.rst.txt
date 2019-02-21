@@ -48,7 +48,7 @@ bioconductor-ttmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ttmap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ttmap:<tag>
 
    (see `bioconductor-ttmap/tags`_ for valid values for ``<tag>``)
 

@@ -76,7 +76,7 @@ bioconductor-r3cpet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-r3cpet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-r3cpet:<tag>
 
    (see `bioconductor-r3cpet/tags`_ for valid values for ``<tag>``)
 

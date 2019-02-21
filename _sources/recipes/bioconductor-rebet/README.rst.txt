@@ -44,7 +44,7 @@ bioconductor-rebet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rebet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rebet:<tag>
 
    (see `bioconductor-rebet/tags`_ for valid values for ``<tag>``)
 

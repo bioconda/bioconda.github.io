@@ -62,7 +62,7 @@ jaffa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/jaffa:<tag>
+      docker pull quay.io/biocontainers/jaffa:<tag>
 
    (see `jaffa/tags`_ for valid values for ``<tag>``)
 

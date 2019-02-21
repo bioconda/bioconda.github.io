@@ -54,7 +54,7 @@ hotspot3d
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hotspot3d:<tag>
+      docker pull quay.io/biocontainers/hotspot3d:<tag>
 
    (see `hotspot3d/tags`_ for valid values for ``<tag>``)
 

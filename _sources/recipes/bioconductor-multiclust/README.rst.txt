@@ -53,7 +53,7 @@ bioconductor-multiclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-multiclust:<tag>
+      docker pull quay.io/biocontainers/bioconductor-multiclust:<tag>
 
    (see `bioconductor-multiclust/tags`_ for valid values for ``<tag>``)
 

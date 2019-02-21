@@ -70,7 +70,7 @@ bioconductor-celltrails
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-celltrails:<tag>
+      docker pull quay.io/biocontainers/bioconductor-celltrails:<tag>
 
    (see `bioconductor-celltrails/tags`_ for valid values for ``<tag>``)
 

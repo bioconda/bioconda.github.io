@@ -42,7 +42,7 @@ asn2gb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/asn2gb:<tag>
+      docker pull quay.io/biocontainers/asn2gb:<tag>
 
    (see `asn2gb/tags`_ for valid values for ``<tag>``)
 

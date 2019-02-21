@@ -45,7 +45,7 @@ bioconductor-geneoverlap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneoverlap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geneoverlap:<tag>
 
    (see `bioconductor-geneoverlap/tags`_ for valid values for ``<tag>``)
 

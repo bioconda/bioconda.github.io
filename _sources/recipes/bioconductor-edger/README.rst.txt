@@ -51,7 +51,7 @@ bioconductor-edger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-edger:<tag>
+      docker pull quay.io/biocontainers/bioconductor-edger:<tag>
 
    (see `bioconductor-edger/tags`_ for valid values for ``<tag>``)
 

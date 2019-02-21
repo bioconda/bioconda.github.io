@@ -41,7 +41,7 @@ bioconductor-rcaspar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rcaspar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rcaspar:<tag>
 
    (see `bioconductor-rcaspar/tags`_ for valid values for ``<tag>``)
 

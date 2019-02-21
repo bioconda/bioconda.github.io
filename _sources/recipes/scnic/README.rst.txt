@@ -64,7 +64,7 @@ scnic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scnic:<tag>
+      docker pull quay.io/biocontainers/scnic:<tag>
 
    (see `scnic/tags`_ for valid values for ``<tag>``)
 

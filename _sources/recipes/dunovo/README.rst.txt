@@ -52,7 +52,7 @@ dunovo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dunovo:<tag>
+      docker pull quay.io/biocontainers/dunovo:<tag>
 
    (see `dunovo/tags`_ for valid values for ``<tag>``)
 

@@ -55,7 +55,7 @@ r-histonehmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-histonehmm:<tag>
+      docker pull quay.io/biocontainers/r-histonehmm:<tag>
 
    (see `r-histonehmm/tags`_ for valid values for ``<tag>``)
 

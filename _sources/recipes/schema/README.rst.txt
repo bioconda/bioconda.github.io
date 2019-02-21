@@ -40,7 +40,7 @@ schema
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/schema:<tag>
+      docker pull quay.io/biocontainers/schema:<tag>
 
    (see `schema/tags`_ for valid values for ``<tag>``)
 

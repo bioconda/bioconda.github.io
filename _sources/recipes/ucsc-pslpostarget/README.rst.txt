@@ -50,7 +50,7 @@ ucsc-pslpostarget
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslpostarget:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslpostarget:<tag>
 
    (see `ucsc-pslpostarget/tags`_ for valid values for ``<tag>``)
 

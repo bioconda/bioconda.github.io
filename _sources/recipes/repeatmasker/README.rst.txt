@@ -49,7 +49,7 @@ repeatmasker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/repeatmasker:<tag>
+      docker pull quay.io/biocontainers/repeatmasker:<tag>
 
    (see `repeatmasker/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ transrate-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/transrate-tools:<tag>
+      docker pull quay.io/biocontainers/transrate-tools:<tag>
 
    (see `transrate-tools/tags`_ for valid values for ``<tag>``)
 

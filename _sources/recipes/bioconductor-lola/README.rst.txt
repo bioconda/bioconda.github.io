@@ -53,7 +53,7 @@ bioconductor-lola
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lola:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lola:<tag>
 
    (see `bioconductor-lola/tags`_ for valid values for ``<tag>``)
 

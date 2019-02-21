@@ -40,7 +40,7 @@ zifa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/zifa:<tag>
+      docker pull quay.io/biocontainers/zifa:<tag>
 
    (see `zifa/tags`_ for valid values for ``<tag>``)
 

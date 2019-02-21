@@ -50,7 +50,7 @@ mirtrace
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mirtrace:<tag>
+      docker pull quay.io/biocontainers/mirtrace:<tag>
 
    (see `mirtrace/tags`_ for valid values for ``<tag>``)
 

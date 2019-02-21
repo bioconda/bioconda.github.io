@@ -41,7 +41,7 @@ bioconductor-protgenerics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-protgenerics:<tag>
+      docker pull quay.io/biocontainers/bioconductor-protgenerics:<tag>
 
    (see `bioconductor-protgenerics/tags`_ for valid values for ``<tag>``)
 

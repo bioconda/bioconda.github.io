@@ -72,7 +72,7 @@ bioconductor-siamcat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-siamcat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-siamcat:<tag>
 
    (see `bioconductor-siamcat/tags`_ for valid values for ``<tag>``)
 

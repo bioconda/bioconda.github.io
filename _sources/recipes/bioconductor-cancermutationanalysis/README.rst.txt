@@ -49,7 +49,7 @@ bioconductor-cancermutationanalysis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cancermutationanalysis:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cancermutationanalysis:<tag>
 
    (see `bioconductor-cancermutationanalysis/tags`_ for valid values for ``<tag>``)
 

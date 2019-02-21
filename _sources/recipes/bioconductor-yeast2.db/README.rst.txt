@@ -46,7 +46,7 @@ bioconductor-yeast2.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-yeast2.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-yeast2.db:<tag>
 
    (see `bioconductor-yeast2.db/tags`_ for valid values for ``<tag>``)
 

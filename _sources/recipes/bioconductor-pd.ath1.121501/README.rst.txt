@@ -56,7 +56,7 @@ bioconductor-pd.ath1.121501
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.ath1.121501:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.ath1.121501:<tag>
 
    (see `bioconductor-pd.ath1.121501/tags`_ for valid values for ``<tag>``)
 

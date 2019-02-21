@@ -56,7 +56,7 @@ bioconductor-beachmat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-beachmat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-beachmat:<tag>
 
    (see `bioconductor-beachmat/tags`_ for valid values for ``<tag>``)
 

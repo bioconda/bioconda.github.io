@@ -66,7 +66,7 @@ bioconductor-seqsqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seqsqc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seqsqc:<tag>
 
    (see `bioconductor-seqsqc/tags`_ for valid values for ``<tag>``)
 

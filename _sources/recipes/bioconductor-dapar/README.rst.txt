@@ -116,7 +116,7 @@ bioconductor-dapar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dapar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dapar:<tag>
 
    (see `bioconductor-dapar/tags`_ for valid values for ``<tag>``)
 

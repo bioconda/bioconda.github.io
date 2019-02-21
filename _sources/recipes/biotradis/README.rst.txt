@@ -58,7 +58,7 @@ biotradis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biotradis:<tag>
+      docker pull quay.io/biocontainers/biotradis:<tag>
 
    (see `biotradis/tags`_ for valid values for ``<tag>``)
 

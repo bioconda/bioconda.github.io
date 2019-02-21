@@ -40,7 +40,7 @@ perl-tap-harness-env
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-tap-harness-env:<tag>
+      docker pull quay.io/biocontainers/perl-tap-harness-env:<tag>
 
    (see `perl-tap-harness-env/tags`_ for valid values for ``<tag>``)
 

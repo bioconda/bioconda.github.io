@@ -55,7 +55,7 @@ latentstrainanalysis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/latentstrainanalysis:<tag>
+      docker pull quay.io/biocontainers/latentstrainanalysis:<tag>
 
    (see `latentstrainanalysis/tags`_ for valid values for ``<tag>``)
 

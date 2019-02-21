@@ -61,7 +61,7 @@ bioconductor-stan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-stan:<tag>
+      docker pull quay.io/biocontainers/bioconductor-stan:<tag>
 
    (see `bioconductor-stan/tags`_ for valid values for ``<tag>``)
 

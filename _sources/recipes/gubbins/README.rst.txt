@@ -56,7 +56,7 @@ gubbins
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gubbins:<tag>
+      docker pull quay.io/biocontainers/gubbins:<tag>
 
    (see `gubbins/tags`_ for valid values for ``<tag>``)
 

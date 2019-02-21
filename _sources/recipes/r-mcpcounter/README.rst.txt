@@ -43,7 +43,7 @@ r-mcpcounter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-mcpcounter:<tag>
+      docker pull quay.io/biocontainers/r-mcpcounter:<tag>
 
    (see `r-mcpcounter/tags`_ for valid values for ``<tag>``)
 

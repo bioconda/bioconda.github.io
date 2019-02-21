@@ -54,7 +54,7 @@ bioconductor-pd.081229.hg18.promoter.medip.hx1
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.081229.hg18.promoter.medip.hx1:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.081229.hg18.promoter.medip.hx1:<tag>
 
    (see `bioconductor-pd.081229.hg18.promoter.medip.hx1/tags`_ for valid values for ``<tag>``)
 

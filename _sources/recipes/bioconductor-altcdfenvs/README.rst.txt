@@ -55,7 +55,7 @@ bioconductor-altcdfenvs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-altcdfenvs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-altcdfenvs:<tag>
 
    (see `bioconductor-altcdfenvs/tags`_ for valid values for ``<tag>``)
 

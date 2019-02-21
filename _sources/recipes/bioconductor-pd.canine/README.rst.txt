@@ -56,7 +56,7 @@ bioconductor-pd.canine
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.canine:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.canine:<tag>
 
    (see `bioconductor-pd.canine/tags`_ for valid values for ``<tag>``)
 

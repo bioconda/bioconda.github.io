@@ -57,7 +57,7 @@ bioconductor-splinetimer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-splinetimer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-splinetimer:<tag>
 
    (see `bioconductor-splinetimer/tags`_ for valid values for ``<tag>``)
 

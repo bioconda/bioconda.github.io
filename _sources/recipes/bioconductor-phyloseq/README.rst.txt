@@ -73,7 +73,7 @@ bioconductor-phyloseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-phyloseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-phyloseq:<tag>
 
    (see `bioconductor-phyloseq/tags`_ for valid values for ``<tag>``)
 

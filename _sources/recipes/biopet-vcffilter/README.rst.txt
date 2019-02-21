@@ -46,7 +46,7 @@ biopet-vcffilter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-vcffilter:<tag>
+      docker pull quay.io/biocontainers/biopet-vcffilter:<tag>
 
    (see `biopet-vcffilter/tags`_ for valid values for ``<tag>``)
 

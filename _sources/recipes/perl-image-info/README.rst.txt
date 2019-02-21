@@ -44,7 +44,7 @@ perl-image-info
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-image-info:<tag>
+      docker pull quay.io/biocontainers/perl-image-info:<tag>
 
    (see `perl-image-info/tags`_ for valid values for ``<tag>``)
 

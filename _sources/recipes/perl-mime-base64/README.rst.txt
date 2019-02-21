@@ -42,7 +42,7 @@ perl-mime-base64
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mime-base64:<tag>
+      docker pull quay.io/biocontainers/perl-mime-base64:<tag>
 
    (see `perl-mime-base64/tags`_ for valid values for ``<tag>``)
 

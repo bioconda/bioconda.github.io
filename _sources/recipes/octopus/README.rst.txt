@@ -54,7 +54,7 @@ octopus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/octopus:<tag>
+      docker pull quay.io/biocontainers/octopus:<tag>
 
    (see `octopus/tags`_ for valid values for ``<tag>``)
 

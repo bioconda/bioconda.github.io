@@ -44,7 +44,7 @@ bioconductor-ocplus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ocplus:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ocplus:<tag>
 
    (see `bioconductor-ocplus/tags`_ for valid values for ``<tag>``)
 

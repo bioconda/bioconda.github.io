@@ -62,7 +62,7 @@ msproteomicstools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/msproteomicstools:<tag>
+      docker pull quay.io/biocontainers/msproteomicstools:<tag>
 
    (see `msproteomicstools/tags`_ for valid values for ``<tag>``)
 

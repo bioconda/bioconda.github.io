@@ -44,7 +44,7 @@ perl-lwp-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-lwp-simple:<tag>
+      docker pull quay.io/biocontainers/perl-lwp-simple:<tag>
 
    (see `perl-lwp-simple/tags`_ for valid values for ``<tag>``)
 

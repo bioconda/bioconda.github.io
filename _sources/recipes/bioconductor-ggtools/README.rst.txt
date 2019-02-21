@@ -89,7 +89,7 @@ bioconductor-ggtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ggtools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ggtools:<tag>
 
    (see `bioconductor-ggtools/tags`_ for valid values for ``<tag>``)
 

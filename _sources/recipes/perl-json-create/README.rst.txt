@@ -46,7 +46,7 @@ perl-json-create
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-json-create:<tag>
+      docker pull quay.io/biocontainers/perl-json-create:<tag>
 
    (see `perl-json-create/tags`_ for valid values for ``<tag>``)
 

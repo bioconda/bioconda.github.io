@@ -44,7 +44,7 @@ perl-bio-tools-run-alignment-tcoffee
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-tools-run-alignment-tcoffee:<tag>
+      docker pull quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee:<tag>
 
    (see `perl-bio-tools-run-alignment-tcoffee/tags`_ for valid values for ``<tag>``)
 

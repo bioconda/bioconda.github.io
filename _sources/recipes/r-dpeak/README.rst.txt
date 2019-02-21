@@ -52,7 +52,7 @@ r-dpeak
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-dpeak:<tag>
+      docker pull quay.io/biocontainers/r-dpeak:<tag>
 
    (see `r-dpeak/tags`_ for valid values for ``<tag>``)
 

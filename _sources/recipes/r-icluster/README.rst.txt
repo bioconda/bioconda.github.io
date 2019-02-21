@@ -50,7 +50,7 @@ r-icluster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-icluster:<tag>
+      docker pull quay.io/biocontainers/r-icluster:<tag>
 
    (see `r-icluster/tags`_ for valid values for ``<tag>``)
 

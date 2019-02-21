@@ -40,7 +40,7 @@ perl-module-load
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-load:<tag>
+      docker pull quay.io/biocontainers/perl-module-load:<tag>
 
    (see `perl-module-load/tags`_ for valid values for ``<tag>``)
 

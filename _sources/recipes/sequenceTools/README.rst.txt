@@ -48,7 +48,7 @@ sequencetools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sequencetools:<tag>
+      docker pull quay.io/biocontainers/sequencetools:<tag>
 
    (see `sequencetools/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-devel-assert
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-devel-assert:<tag>
+      docker pull quay.io/biocontainers/perl-devel-assert:<tag>
 
    (see `perl-devel-assert/tags`_ for valid values for ``<tag>``)
 

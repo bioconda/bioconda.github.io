@@ -46,7 +46,7 @@ perl-sys-info-driver-linux
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sys-info-driver-linux:<tag>
+      docker pull quay.io/biocontainers/perl-sys-info-driver-linux:<tag>
 
    (see `perl-sys-info-driver-linux/tags`_ for valid values for ``<tag>``)
 

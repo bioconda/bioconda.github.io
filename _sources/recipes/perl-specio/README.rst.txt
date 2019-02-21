@@ -66,7 +66,7 @@ perl-specio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-specio:<tag>
+      docker pull quay.io/biocontainers/perl-specio:<tag>
 
    (see `perl-specio/tags`_ for valid values for ``<tag>``)
 

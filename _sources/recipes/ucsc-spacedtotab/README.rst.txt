@@ -50,7 +50,7 @@ ucsc-spacedtotab
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-spacedtotab:<tag>
+      docker pull quay.io/biocontainers/ucsc-spacedtotab:<tag>
 
    (see `ucsc-spacedtotab/tags`_ for valid values for ``<tag>``)
 

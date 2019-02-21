@@ -46,7 +46,7 @@ ephemeris
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ephemeris:<tag>
+      docker pull quay.io/biocontainers/ephemeris:<tag>
 
    (see `ephemeris/tags`_ for valid values for ``<tag>``)
 

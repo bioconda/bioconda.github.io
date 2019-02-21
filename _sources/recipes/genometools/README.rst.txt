@@ -50,7 +50,7 @@ genometools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genometools:<tag>
+      docker pull quay.io/biocontainers/genometools:<tag>
 
    (see `genometools/tags`_ for valid values for ``<tag>``)
 

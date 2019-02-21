@@ -40,7 +40,7 @@ perl-file-slurp-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-slurp-tiny:<tag>
+      docker pull quay.io/biocontainers/perl-file-slurp-tiny:<tag>
 
    (see `perl-file-slurp-tiny/tags`_ for valid values for ``<tag>``)
 

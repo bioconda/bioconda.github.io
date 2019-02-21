@@ -52,7 +52,7 @@ bioconductor-ggdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ggdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ggdata:<tag>
 
    (see `bioconductor-ggdata/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ perl-xml-sax-expat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-sax-expat:<tag>
+      docker pull quay.io/biocontainers/perl-xml-sax-expat:<tag>
 
    (see `perl-xml-sax-expat/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ fann
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fann:<tag>
+      docker pull quay.io/biocontainers/fann:<tag>
 
    (see `fann/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-mgfm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mgfm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mgfm:<tag>
 
    (see `bioconductor-mgfm/tags`_ for valid values for ``<tag>``)
 

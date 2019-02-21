@@ -42,7 +42,7 @@ bioconductor-geneplast.data.string.v91
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneplast.data.string.v91:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geneplast.data.string.v91:<tag>
 
    (see `bioconductor-geneplast.data.string.v91/tags`_ for valid values for ``<tag>``)
 

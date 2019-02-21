@@ -64,7 +64,7 @@ graphprot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/graphprot:<tag>
+      docker pull quay.io/biocontainers/graphprot:<tag>
 
    (see `graphprot/tags`_ for valid values for ``<tag>``)
 

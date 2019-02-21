@@ -71,7 +71,7 @@ bioconductor-soggi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-soggi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-soggi:<tag>
 
    (see `bioconductor-soggi/tags`_ for valid values for ``<tag>``)
 

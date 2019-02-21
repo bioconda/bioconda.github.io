@@ -76,7 +76,7 @@ metagenome-atlas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metagenome-atlas:<tag>
+      docker pull quay.io/biocontainers/metagenome-atlas:<tag>
 
    (see `metagenome-atlas/tags`_ for valid values for ``<tag>``)
 

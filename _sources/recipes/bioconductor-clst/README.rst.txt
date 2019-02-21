@@ -45,7 +45,7 @@ bioconductor-clst
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clst:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clst:<tag>
 
    (see `bioconductor-clst/tags`_ for valid values for ``<tag>``)
 

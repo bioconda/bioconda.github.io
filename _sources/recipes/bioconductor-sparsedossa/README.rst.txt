@@ -48,7 +48,7 @@ bioconductor-sparsedossa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sparsedossa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sparsedossa:<tag>
 
    (see `bioconductor-sparsedossa/tags`_ for valid values for ``<tag>``)
 

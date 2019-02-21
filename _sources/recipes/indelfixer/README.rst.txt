@@ -40,7 +40,7 @@ indelfixer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/indelfixer:<tag>
+      docker pull quay.io/biocontainers/indelfixer:<tag>
 
    (see `indelfixer/tags`_ for valid values for ``<tag>``)
 

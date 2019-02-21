@@ -49,7 +49,7 @@ bioconductor-mqtl.nmr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mqtl.nmr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mqtl.nmr:<tag>
 
    (see `bioconductor-mqtl.nmr/tags`_ for valid values for ``<tag>``)
 

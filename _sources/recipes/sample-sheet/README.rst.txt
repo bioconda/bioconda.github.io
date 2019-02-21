@@ -50,7 +50,7 @@ sample-sheet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sample-sheet:<tag>
+      docker pull quay.io/biocontainers/sample-sheet:<tag>
 
    (see `sample-sheet/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ ribotish
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ribotish:<tag>
+      docker pull quay.io/biocontainers/ribotish:<tag>
 
    (see `ribotish/tags`_ for valid values for ``<tag>``)
 

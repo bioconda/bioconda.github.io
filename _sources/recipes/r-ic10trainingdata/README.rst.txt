@@ -40,7 +40,7 @@ r-ic10trainingdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ic10trainingdata:<tag>
+      docker pull quay.io/biocontainers/r-ic10trainingdata:<tag>
 
    (see `r-ic10trainingdata/tags`_ for valid values for ``<tag>``)
 

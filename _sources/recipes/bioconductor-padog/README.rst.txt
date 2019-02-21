@@ -63,7 +63,7 @@ bioconductor-padog
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-padog:<tag>
+      docker pull quay.io/biocontainers/bioconductor-padog:<tag>
 
    (see `bioconductor-padog/tags`_ for valid values for ``<tag>``)
 

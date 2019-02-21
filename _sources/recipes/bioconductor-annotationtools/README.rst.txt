@@ -43,7 +43,7 @@ bioconductor-annotationtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-annotationtools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-annotationtools:<tag>
 
    (see `bioconductor-annotationtools/tags`_ for valid values for ``<tag>``)
 

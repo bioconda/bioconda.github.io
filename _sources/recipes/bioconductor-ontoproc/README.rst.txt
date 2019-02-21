@@ -50,7 +50,7 @@ bioconductor-ontoproc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ontoproc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ontoproc:<tag>
 
    (see `bioconductor-ontoproc/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ nf-core
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nf-core:<tag>
+      docker pull quay.io/biocontainers/nf-core:<tag>
 
    (see `nf-core/tags`_ for valid values for ``<tag>``)
 

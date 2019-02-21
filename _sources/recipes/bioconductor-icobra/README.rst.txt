@@ -63,7 +63,7 @@ bioconductor-icobra
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-icobra:<tag>
+      docker pull quay.io/biocontainers/bioconductor-icobra:<tag>
 
    (see `bioconductor-icobra/tags`_ for valid values for ``<tag>``)
 

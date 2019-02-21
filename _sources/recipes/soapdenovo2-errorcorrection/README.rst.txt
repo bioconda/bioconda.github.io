@@ -42,7 +42,7 @@ soapdenovo2-errorcorrection
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/soapdenovo2-errorcorrection:<tag>
+      docker pull quay.io/biocontainers/soapdenovo2-errorcorrection:<tag>
 
    (see `soapdenovo2-errorcorrection/tags`_ for valid values for ``<tag>``)
 

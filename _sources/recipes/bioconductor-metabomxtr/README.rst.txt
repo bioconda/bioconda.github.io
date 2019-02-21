@@ -54,7 +54,7 @@ bioconductor-metabomxtr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metabomxtr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metabomxtr:<tag>
 
    (see `bioconductor-metabomxtr/tags`_ for valid values for ``<tag>``)
 

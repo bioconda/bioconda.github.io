@@ -42,7 +42,7 @@ tbl2asn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tbl2asn:<tag>
+      docker pull quay.io/biocontainers/tbl2asn:<tag>
 
    (see `tbl2asn/tags`_ for valid values for ``<tag>``)
 

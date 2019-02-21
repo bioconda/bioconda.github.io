@@ -42,7 +42,7 @@ perl-sys-info-base
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sys-info-base:<tag>
+      docker pull quay.io/biocontainers/perl-sys-info-base:<tag>
 
    (see `perl-sys-info-base/tags`_ for valid values for ``<tag>``)
 

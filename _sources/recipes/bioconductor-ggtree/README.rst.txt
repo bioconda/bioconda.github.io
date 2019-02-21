@@ -65,7 +65,7 @@ bioconductor-ggtree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ggtree:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ggtree:<tag>
 
    (see `bioconductor-ggtree/tags`_ for valid values for ``<tag>``)
 

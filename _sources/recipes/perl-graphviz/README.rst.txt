@@ -62,7 +62,7 @@ perl-graphviz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-graphviz:<tag>
+      docker pull quay.io/biocontainers/perl-graphviz:<tag>
 
    (see `perl-graphviz/tags`_ for valid values for ``<tag>``)
 

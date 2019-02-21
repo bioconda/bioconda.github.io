@@ -71,7 +71,7 @@ bioconductor-linc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-linc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-linc:<tag>
 
    (see `bioconductor-linc/tags`_ for valid values for ``<tag>``)
 

@@ -62,7 +62,7 @@ fusion-filter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fusion-filter:<tag>
+      docker pull quay.io/biocontainers/fusion-filter:<tag>
 
    (see `fusion-filter/tags`_ for valid values for ``<tag>``)
 

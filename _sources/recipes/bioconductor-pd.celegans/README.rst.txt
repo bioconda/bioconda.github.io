@@ -56,7 +56,7 @@ bioconductor-pd.celegans
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.celegans:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.celegans:<tag>
 
    (see `bioconductor-pd.celegans/tags`_ for valid values for ``<tag>``)
 

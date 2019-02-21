@@ -42,7 +42,7 @@ bioconductor-humanchrloc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-humanchrloc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-humanchrloc:<tag>
 
    (see `bioconductor-humanchrloc/tags`_ for valid values for ``<tag>``)
 

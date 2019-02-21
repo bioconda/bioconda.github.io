@@ -52,7 +52,7 @@ bioconductor-raggedexperiment
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-raggedexperiment:<tag>
+      docker pull quay.io/biocontainers/bioconductor-raggedexperiment:<tag>
 
    (see `bioconductor-raggedexperiment/tags`_ for valid values for ``<tag>``)
 

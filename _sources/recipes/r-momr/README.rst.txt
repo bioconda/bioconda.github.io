@@ -46,7 +46,7 @@ r-momr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-momr:<tag>
+      docker pull quay.io/biocontainers/r-momr:<tag>
 
    (see `r-momr/tags`_ for valid values for ``<tag>``)
 

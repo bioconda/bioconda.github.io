@@ -42,7 +42,7 @@ perl-html-element-extended
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-element-extended:<tag>
+      docker pull quay.io/biocontainers/perl-html-element-extended:<tag>
 
    (see `perl-html-element-extended/tags`_ for valid values for ``<tag>``)
 

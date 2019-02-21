@@ -55,7 +55,7 @@ freebayes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/freebayes:<tag>
+      docker pull quay.io/biocontainers/freebayes:<tag>
 
    (see `freebayes/tags`_ for valid values for ``<tag>``)
 

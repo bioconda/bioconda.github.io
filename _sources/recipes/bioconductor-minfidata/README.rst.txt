@@ -48,7 +48,7 @@ bioconductor-minfidata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-minfidata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-minfidata:<tag>
 
    (see `bioconductor-minfidata/tags`_ for valid values for ``<tag>``)
 

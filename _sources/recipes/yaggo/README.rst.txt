@@ -40,7 +40,7 @@ yaggo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/yaggo:<tag>
+      docker pull quay.io/biocontainers/yaggo:<tag>
 
    (see `yaggo/tags`_ for valid values for ``<tag>``)
 

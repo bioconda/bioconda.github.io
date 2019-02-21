@@ -54,7 +54,7 @@ bioconductor-plrs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-plrs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-plrs:<tag>
 
    (see `bioconductor-plrs/tags`_ for valid values for ``<tag>``)
 

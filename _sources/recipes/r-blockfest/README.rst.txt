@@ -45,7 +45,7 @@ r-blockfest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-blockfest:<tag>
+      docker pull quay.io/biocontainers/r-blockfest:<tag>
 
    (see `r-blockfest/tags`_ for valid values for ``<tag>``)
 

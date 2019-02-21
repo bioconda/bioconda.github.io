@@ -41,7 +41,7 @@ centroid_rna_package
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/centroid_rna_package:<tag>
+      docker pull quay.io/biocontainers/centroid_rna_package:<tag>
 
    (see `centroid_rna_package/tags`_ for valid values for ``<tag>``)
 

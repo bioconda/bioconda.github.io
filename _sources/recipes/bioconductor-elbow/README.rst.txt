@@ -40,7 +40,7 @@ bioconductor-elbow
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-elbow:<tag>
+      docker pull quay.io/biocontainers/bioconductor-elbow:<tag>
 
    (see `bioconductor-elbow/tags`_ for valid values for ``<tag>``)
 

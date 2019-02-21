@@ -48,7 +48,7 @@ r-nam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-nam:<tag>
+      docker pull quay.io/biocontainers/r-nam:<tag>
 
    (see `r-nam/tags`_ for valid values for ``<tag>``)
 

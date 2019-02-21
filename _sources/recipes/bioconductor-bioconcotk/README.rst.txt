@@ -70,7 +70,7 @@ bioconductor-bioconcotk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bioconcotk:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bioconcotk:<tag>
 
    (see `bioconductor-bioconcotk/tags`_ for valid values for ``<tag>``)
 

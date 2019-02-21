@@ -46,7 +46,7 @@ vcf2maf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcf2maf:<tag>
+      docker pull quay.io/biocontainers/vcf2maf:<tag>
 
    (see `vcf2maf/tags`_ for valid values for ``<tag>``)
 

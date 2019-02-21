@@ -60,7 +60,7 @@ bioconductor-genomicscores
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genomicscores:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genomicscores:<tag>
 
    (see `bioconductor-genomicscores/tags`_ for valid values for ``<tag>``)
 

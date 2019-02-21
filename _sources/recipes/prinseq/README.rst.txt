@@ -38,7 +38,7 @@ prinseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prinseq:<tag>
+      docker pull quay.io/biocontainers/prinseq:<tag>
 
    (see `prinseq/tags`_ for valid values for ``<tag>``)
 

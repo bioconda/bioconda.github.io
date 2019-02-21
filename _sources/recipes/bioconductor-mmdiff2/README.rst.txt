@@ -61,7 +61,7 @@ bioconductor-mmdiff2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mmdiff2:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mmdiff2:<tag>
 
    (see `bioconductor-mmdiff2/tags`_ for valid values for ``<tag>``)
 

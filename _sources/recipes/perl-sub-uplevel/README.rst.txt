@@ -42,7 +42,7 @@ perl-sub-uplevel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-uplevel:<tag>
+      docker pull quay.io/biocontainers/perl-sub-uplevel:<tag>
 
    (see `perl-sub-uplevel/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ python-libsbml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-libsbml:<tag>
+      docker pull quay.io/biocontainers/python-libsbml:<tag>
 
    (see `python-libsbml/tags`_ for valid values for ``<tag>``)
 

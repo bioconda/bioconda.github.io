@@ -47,7 +47,7 @@ monovar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/monovar:<tag>
+      docker pull quay.io/biocontainers/monovar:<tag>
 
    (see `monovar/tags`_ for valid values for ``<tag>``)
 

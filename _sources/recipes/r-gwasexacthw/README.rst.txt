@@ -42,7 +42,7 @@ r-gwasexacthw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gwasexacthw:<tag>
+      docker pull quay.io/biocontainers/r-gwasexacthw:<tag>
 
    (see `r-gwasexacthw/tags`_ for valid values for ``<tag>``)
 

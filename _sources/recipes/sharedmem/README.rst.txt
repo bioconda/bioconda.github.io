@@ -42,7 +42,7 @@ sharedmem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sharedmem:<tag>
+      docker pull quay.io/biocontainers/sharedmem:<tag>
 
    (see `sharedmem/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ discasm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/discasm:<tag>
+      docker pull quay.io/biocontainers/discasm:<tag>
 
    (see `discasm/tags`_ for valid values for ``<tag>``)
 

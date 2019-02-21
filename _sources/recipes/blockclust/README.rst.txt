@@ -59,7 +59,7 @@ blockclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/blockclust:<tag>
+      docker pull quay.io/biocontainers/blockclust:<tag>
 
    (see `blockclust/tags`_ for valid values for ``<tag>``)
 

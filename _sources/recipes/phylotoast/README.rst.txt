@@ -62,7 +62,7 @@ phylotoast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phylotoast:<tag>
+      docker pull quay.io/biocontainers/phylotoast:<tag>
 
    (see `phylotoast/tags`_ for valid values for ``<tag>``)
 

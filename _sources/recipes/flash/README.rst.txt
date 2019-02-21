@@ -43,7 +43,7 @@ flash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flash:<tag>
+      docker pull quay.io/biocontainers/flash:<tag>
 
    (see `flash/tags`_ for valid values for ``<tag>``)
 

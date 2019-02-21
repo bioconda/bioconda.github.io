@@ -56,7 +56,7 @@ bioconductor-pd.mapping50k.xba240
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.mapping50k.xba240:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.mapping50k.xba240:<tag>
 
    (see `bioconductor-pd.mapping50k.xba240/tags`_ for valid values for ``<tag>``)
 

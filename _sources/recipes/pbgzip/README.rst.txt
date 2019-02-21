@@ -44,7 +44,7 @@ pbgzip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbgzip:<tag>
+      docker pull quay.io/biocontainers/pbgzip:<tag>
 
    (see `pbgzip/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ reaper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/reaper:<tag>
+      docker pull quay.io/biocontainers/reaper:<tag>
 
    (see `reaper/tags`_ for valid values for ``<tag>``)
 

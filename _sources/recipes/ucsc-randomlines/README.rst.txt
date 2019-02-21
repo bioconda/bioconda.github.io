@@ -50,7 +50,7 @@ ucsc-randomlines
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-randomlines:<tag>
+      docker pull quay.io/biocontainers/ucsc-randomlines:<tag>
 
    (see `ucsc-randomlines/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ bioconductor-imman
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-imman:<tag>
+      docker pull quay.io/biocontainers/bioconductor-imman:<tag>
 
    (see `bioconductor-imman/tags`_ for valid values for ``<tag>``)
 

@@ -41,7 +41,7 @@ red
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/red:<tag>
+      docker pull quay.io/biocontainers/red:<tag>
 
    (see `red/tags`_ for valid values for ``<tag>``)
 

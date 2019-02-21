@@ -46,7 +46,7 @@ perl-xml-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-simple:<tag>
+      docker pull quay.io/biocontainers/perl-xml-simple:<tag>
 
    (see `perl-xml-simple/tags`_ for valid values for ``<tag>``)
 

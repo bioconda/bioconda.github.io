@@ -42,7 +42,7 @@ cromshell
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cromshell:<tag>
+      docker pull quay.io/biocontainers/cromshell:<tag>
 
    (see `cromshell/tags`_ for valid values for ``<tag>``)
 

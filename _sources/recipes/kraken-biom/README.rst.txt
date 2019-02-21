@@ -42,7 +42,7 @@ kraken-biom
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kraken-biom:<tag>
+      docker pull quay.io/biocontainers/kraken-biom:<tag>
 
    (see `kraken-biom/tags`_ for valid values for ``<tag>``)
 

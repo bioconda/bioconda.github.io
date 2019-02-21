@@ -41,7 +41,7 @@ peakzilla
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/peakzilla:<tag>
+      docker pull quay.io/biocontainers/peakzilla:<tag>
 
    (see `peakzilla/tags`_ for valid values for ``<tag>``)
 

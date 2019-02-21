@@ -44,7 +44,7 @@ irfinder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/irfinder:<tag>
+      docker pull quay.io/biocontainers/irfinder:<tag>
 
    (see `irfinder/tags`_ for valid values for ``<tag>``)
 

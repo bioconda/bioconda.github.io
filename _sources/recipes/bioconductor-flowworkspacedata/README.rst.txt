@@ -42,7 +42,7 @@ bioconductor-flowworkspacedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowworkspacedata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowworkspacedata:<tag>
 
    (see `bioconductor-flowworkspacedata/tags`_ for valid values for ``<tag>``)
 

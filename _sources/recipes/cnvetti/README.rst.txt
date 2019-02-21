@@ -46,7 +46,7 @@ cnvetti
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cnvetti:<tag>
+      docker pull quay.io/biocontainers/cnvetti:<tag>
 
    (see `cnvetti/tags`_ for valid values for ``<tag>``)
 

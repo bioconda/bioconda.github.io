@@ -62,7 +62,7 @@ r-sleuth
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-sleuth:<tag>
+      docker pull quay.io/biocontainers/r-sleuth:<tag>
 
    (see `r-sleuth/tags`_ for valid values for ``<tag>``)
 

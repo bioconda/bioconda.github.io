@@ -42,7 +42,7 @@ bioconductor-rtnduals
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtnduals:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtnduals:<tag>
 
    (see `bioconductor-rtnduals/tags`_ for valid values for ``<tag>``)
 

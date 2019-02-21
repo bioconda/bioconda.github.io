@@ -53,7 +53,7 @@ metaquant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metaquant:<tag>
+      docker pull quay.io/biocontainers/metaquant:<tag>
 
    (see `metaquant/tags`_ for valid values for ``<tag>``)
 

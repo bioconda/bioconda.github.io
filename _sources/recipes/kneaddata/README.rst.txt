@@ -52,7 +52,7 @@ kneaddata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kneaddata:<tag>
+      docker pull quay.io/biocontainers/kneaddata:<tag>
 
    (see `kneaddata/tags`_ for valid values for ``<tag>``)
 

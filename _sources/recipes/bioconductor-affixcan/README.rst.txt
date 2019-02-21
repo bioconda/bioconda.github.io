@@ -46,7 +46,7 @@ bioconductor-affixcan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affixcan:<tag>
+      docker pull quay.io/biocontainers/bioconductor-affixcan:<tag>
 
    (see `bioconductor-affixcan/tags`_ for valid values for ``<tag>``)
 

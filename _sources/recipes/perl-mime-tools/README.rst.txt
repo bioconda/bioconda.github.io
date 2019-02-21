@@ -44,7 +44,7 @@ perl-mime-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mime-tools:<tag>
+      docker pull quay.io/biocontainers/perl-mime-tools:<tag>
 
    (see `perl-mime-tools/tags`_ for valid values for ``<tag>``)
 

@@ -77,7 +77,7 @@ bioconductor-scde
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scde:<tag>
+      docker pull quay.io/biocontainers/bioconductor-scde:<tag>
 
    (see `bioconductor-scde/tags`_ for valid values for ``<tag>``)
 

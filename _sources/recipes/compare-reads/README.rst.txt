@@ -44,7 +44,7 @@ compare-reads
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/compare-reads:<tag>
+      docker pull quay.io/biocontainers/compare-reads:<tag>
 
    (see `compare-reads/tags`_ for valid values for ``<tag>``)
 

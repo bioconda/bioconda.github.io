@@ -40,7 +40,7 @@ bayescan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bayescan:<tag>
+      docker pull quay.io/biocontainers/bayescan:<tag>
 
    (see `bayescan/tags`_ for valid values for ``<tag>``)
 

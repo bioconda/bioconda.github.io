@@ -44,7 +44,7 @@ bioconductor-tcgacrcmrna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tcgacrcmrna:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tcgacrcmrna:<tag>
 
    (see `bioconductor-tcgacrcmrna/tags`_ for valid values for ``<tag>``)
 

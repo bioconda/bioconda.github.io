@@ -57,7 +57,7 @@ bioconductor-tracktables
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tracktables:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tracktables:<tag>
 
    (see `bioconductor-tracktables/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-mbttest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mbttest:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mbttest:<tag>
 
    (see `bioconductor-mbttest/tags`_ for valid values for ``<tag>``)
 

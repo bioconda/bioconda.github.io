@@ -57,7 +57,7 @@ bioconductor-segmentseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-segmentseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-segmentseq:<tag>
 
    (see `bioconductor-segmentseq/tags`_ for valid values for ``<tag>``)
 

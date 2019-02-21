@@ -58,7 +58,7 @@ pb-falcon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pb-falcon:<tag>
+      docker pull quay.io/biocontainers/pb-falcon:<tag>
 
    (see `pb-falcon/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-maanova
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-maanova:<tag>
+      docker pull quay.io/biocontainers/bioconductor-maanova:<tag>
 
    (see `bioconductor-maanova/tags`_ for valid values for ``<tag>``)
 

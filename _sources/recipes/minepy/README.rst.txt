@@ -44,7 +44,7 @@ minepy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/minepy:<tag>
+      docker pull quay.io/biocontainers/minepy:<tag>
 
    (see `minepy/tags`_ for valid values for ``<tag>``)
 

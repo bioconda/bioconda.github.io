@@ -40,7 +40,7 @@ azure-cli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/azure-cli:<tag>
+      docker pull quay.io/biocontainers/azure-cli:<tag>
 
    (see `azure-cli/tags`_ for valid values for ``<tag>``)
 

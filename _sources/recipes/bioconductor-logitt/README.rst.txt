@@ -45,7 +45,7 @@ bioconductor-logitt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-logitt:<tag>
+      docker pull quay.io/biocontainers/bioconductor-logitt:<tag>
 
    (see `bioconductor-logitt/tags`_ for valid values for ``<tag>``)
 

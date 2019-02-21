@@ -47,7 +47,7 @@ bioconductor-geneticsdesign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneticsdesign:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geneticsdesign:<tag>
 
    (see `bioconductor-geneticsdesign/tags`_ for valid values for ``<tag>``)
 

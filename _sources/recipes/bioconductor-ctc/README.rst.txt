@@ -43,7 +43,7 @@ bioconductor-ctc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ctc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ctc:<tag>
 
    (see `bioconductor-ctc/tags`_ for valid values for ``<tag>``)
 

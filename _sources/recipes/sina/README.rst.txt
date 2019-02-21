@@ -75,7 +75,7 @@ sina
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sina:<tag>
+      docker pull quay.io/biocontainers/sina:<tag>
 
    (see `sina/tags`_ for valid values for ``<tag>``)
 

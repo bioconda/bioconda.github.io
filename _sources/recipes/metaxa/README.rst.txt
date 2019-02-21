@@ -49,7 +49,7 @@ metaxa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metaxa:<tag>
+      docker pull quay.io/biocontainers/metaxa:<tag>
 
    (see `metaxa/tags`_ for valid values for ``<tag>``)
 

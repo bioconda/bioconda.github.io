@@ -58,7 +58,7 @@ bioconductor-isocorrector
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-isocorrector:<tag>
+      docker pull quay.io/biocontainers/bioconductor-isocorrector:<tag>
 
    (see `bioconductor-isocorrector/tags`_ for valid values for ``<tag>``)
 

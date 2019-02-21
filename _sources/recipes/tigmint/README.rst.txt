@@ -52,7 +52,7 @@ tigmint
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tigmint:<tag>
+      docker pull quay.io/biocontainers/tigmint:<tag>
 
    (see `tigmint/tags`_ for valid values for ``<tag>``)
 

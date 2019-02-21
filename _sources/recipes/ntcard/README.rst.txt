@@ -42,7 +42,7 @@ ntcard
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ntcard:<tag>
+      docker pull quay.io/biocontainers/ntcard:<tag>
 
    (see `ntcard/tags`_ for valid values for ``<tag>``)
 

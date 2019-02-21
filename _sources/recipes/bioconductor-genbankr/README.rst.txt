@@ -61,7 +61,7 @@ bioconductor-genbankr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genbankr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genbankr:<tag>
 
    (see `bioconductor-genbankr/tags`_ for valid values for ``<tag>``)
 

@@ -65,7 +65,7 @@ bioconductor-psygenet2r
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-psygenet2r:<tag>
+      docker pull quay.io/biocontainers/bioconductor-psygenet2r:<tag>
 
    (see `bioconductor-psygenet2r/tags`_ for valid values for ``<tag>``)
 

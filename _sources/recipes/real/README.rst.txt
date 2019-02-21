@@ -43,7 +43,7 @@ real
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/real:<tag>
+      docker pull quay.io/biocontainers/real:<tag>
 
    (see `real/tags`_ for valid values for ``<tag>``)
 

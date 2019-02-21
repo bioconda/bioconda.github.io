@@ -47,7 +47,7 @@ bioconductor-rbgl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rbgl:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rbgl:<tag>
 
    (see `bioconductor-rbgl/tags`_ for valid values for ``<tag>``)
 

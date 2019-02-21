@@ -41,7 +41,7 @@ artemis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/artemis:<tag>
+      docker pull quay.io/biocontainers/artemis:<tag>
 
    (see `artemis/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ bioconductor-zfpkm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-zfpkm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-zfpkm:<tag>
 
    (see `bioconductor-zfpkm/tags`_ for valid values for ``<tag>``)
 

@@ -49,7 +49,7 @@ bioconductor-swath2stats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-swath2stats:<tag>
+      docker pull quay.io/biocontainers/bioconductor-swath2stats:<tag>
 
    (see `bioconductor-swath2stats/tags`_ for valid values for ``<tag>``)
 

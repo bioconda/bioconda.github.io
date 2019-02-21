@@ -51,7 +51,7 @@ bioconductor-fithic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fithic:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fithic:<tag>
 
    (see `bioconductor-fithic/tags`_ for valid values for ``<tag>``)
 

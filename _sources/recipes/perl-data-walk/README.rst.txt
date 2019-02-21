@@ -40,7 +40,7 @@ perl-data-walk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-data-walk:<tag>
+      docker pull quay.io/biocontainers/perl-data-walk:<tag>
 
    (see `perl-data-walk/tags`_ for valid values for ``<tag>``)
 

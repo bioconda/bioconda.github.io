@@ -42,7 +42,7 @@ bioconductor-dvddata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dvddata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dvddata:<tag>
 
    (see `bioconductor-dvddata/tags`_ for valid values for ``<tag>``)
 

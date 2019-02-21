@@ -60,7 +60,7 @@ peddy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/peddy:<tag>
+      docker pull quay.io/biocontainers/peddy:<tag>
 
    (see `peddy/tags`_ for valid values for ``<tag>``)
 

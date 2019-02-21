@@ -40,7 +40,7 @@ r-propcis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-propcis:<tag>
+      docker pull quay.io/biocontainers/r-propcis:<tag>
 
    (see `r-propcis/tags`_ for valid values for ``<tag>``)
 

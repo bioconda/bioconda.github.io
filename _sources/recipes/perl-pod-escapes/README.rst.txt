@@ -42,7 +42,7 @@ perl-pod-escapes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pod-escapes:<tag>
+      docker pull quay.io/biocontainers/perl-pod-escapes:<tag>
 
    (see `perl-pod-escapes/tags`_ for valid values for ``<tag>``)
 

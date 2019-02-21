@@ -50,7 +50,7 @@ bioconductor-rcyjs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rcyjs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rcyjs:<tag>
 
    (see `bioconductor-rcyjs/tags`_ for valid values for ``<tag>``)
 

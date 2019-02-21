@@ -44,7 +44,7 @@ bioconductor-cancerdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cancerdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cancerdata:<tag>
 
    (see `bioconductor-cancerdata/tags`_ for valid values for ``<tag>``)
 

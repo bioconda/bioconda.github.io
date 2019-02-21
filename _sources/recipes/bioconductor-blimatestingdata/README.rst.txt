@@ -42,7 +42,7 @@ bioconductor-blimatestingdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-blimatestingdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-blimatestingdata:<tag>
 
    (see `bioconductor-blimatestingdata/tags`_ for valid values for ``<tag>``)
 

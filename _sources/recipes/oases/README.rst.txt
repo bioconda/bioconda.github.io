@@ -43,7 +43,7 @@ oases
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/oases:<tag>
+      docker pull quay.io/biocontainers/oases:<tag>
 
    (see `oases/tags`_ for valid values for ``<tag>``)
 

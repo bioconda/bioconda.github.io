@@ -60,7 +60,7 @@ bioconductor-bdmmacorrect
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bdmmacorrect:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bdmmacorrect:<tag>
 
    (see `bioconductor-bdmmacorrect/tags`_ for valid values for ``<tag>``)
 

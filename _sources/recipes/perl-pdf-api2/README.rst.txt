@@ -42,7 +42,7 @@ perl-pdf-api2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pdf-api2:<tag>
+      docker pull quay.io/biocontainers/perl-pdf-api2:<tag>
 
    (see `perl-pdf-api2/tags`_ for valid values for ``<tag>``)
 

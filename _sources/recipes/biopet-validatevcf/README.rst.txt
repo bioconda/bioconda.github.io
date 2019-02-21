@@ -45,7 +45,7 @@ biopet-validatevcf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-validatevcf:<tag>
+      docker pull quay.io/biocontainers/biopet-validatevcf:<tag>
 
    (see `biopet-validatevcf/tags`_ for valid values for ``<tag>``)
 

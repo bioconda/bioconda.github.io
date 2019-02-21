@@ -48,7 +48,7 @@ perl-time-hires
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-time-hires:<tag>
+      docker pull quay.io/biocontainers/perl-time-hires:<tag>
 
    (see `perl-time-hires/tags`_ for valid values for ``<tag>``)
 

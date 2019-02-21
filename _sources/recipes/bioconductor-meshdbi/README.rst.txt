@@ -49,7 +49,7 @@ bioconductor-meshdbi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-meshdbi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-meshdbi:<tag>
 
    (see `bioconductor-meshdbi/tags`_ for valid values for ``<tag>``)
 

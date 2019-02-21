@@ -49,7 +49,7 @@ bioconductor-swimr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-swimr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-swimr:<tag>
 
    (see `bioconductor-swimr/tags`_ for valid values for ``<tag>``)
 

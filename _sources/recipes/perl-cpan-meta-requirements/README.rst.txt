@@ -44,7 +44,7 @@ perl-cpan-meta-requirements
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-cpan-meta-requirements:<tag>
+      docker pull quay.io/biocontainers/perl-cpan-meta-requirements:<tag>
 
    (see `perl-cpan-meta-requirements/tags`_ for valid values for ``<tag>``)
 

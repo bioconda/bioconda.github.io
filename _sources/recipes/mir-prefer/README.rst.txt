@@ -46,7 +46,7 @@ mir-prefer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mir-prefer:<tag>
+      docker pull quay.io/biocontainers/mir-prefer:<tag>
 
    (see `mir-prefer/tags`_ for valid values for ``<tag>``)
 

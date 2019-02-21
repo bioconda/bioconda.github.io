@@ -44,7 +44,7 @@ pyopt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyopt:<tag>
+      docker pull quay.io/biocontainers/pyopt:<tag>
 
    (see `pyopt/tags`_ for valid values for ``<tag>``)
 

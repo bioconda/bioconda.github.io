@@ -71,7 +71,7 @@ bioconductor-wavcluster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-wavcluster:<tag>
+      docker pull quay.io/biocontainers/bioconductor-wavcluster:<tag>
 
    (see `bioconductor-wavcluster/tags`_ for valid values for ``<tag>``)
 

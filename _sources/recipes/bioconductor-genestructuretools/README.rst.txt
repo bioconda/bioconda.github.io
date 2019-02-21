@@ -62,7 +62,7 @@ bioconductor-genestructuretools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genestructuretools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genestructuretools:<tag>
 
    (see `bioconductor-genestructuretools/tags`_ for valid values for ``<tag>``)
 

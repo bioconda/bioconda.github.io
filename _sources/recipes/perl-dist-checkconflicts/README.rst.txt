@@ -48,7 +48,7 @@ perl-dist-checkconflicts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-dist-checkconflicts:<tag>
+      docker pull quay.io/biocontainers/perl-dist-checkconflicts:<tag>
 
    (see `perl-dist-checkconflicts/tags`_ for valid values for ``<tag>``)
 

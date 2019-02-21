@@ -54,7 +54,7 @@ bioconductor-phastcons100way.ucsc.hg19
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-phastcons100way.ucsc.hg19:<tag>
+      docker pull quay.io/biocontainers/bioconductor-phastcons100way.ucsc.hg19:<tag>
 
    (see `bioconductor-phastcons100way.ucsc.hg19/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ barriers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/barriers:<tag>
+      docker pull quay.io/biocontainers/barriers:<tag>
 
    (see `barriers/tags`_ for valid values for ``<tag>``)
 

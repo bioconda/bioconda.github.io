@@ -54,7 +54,7 @@ r-oai
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-oai:<tag>
+      docker pull quay.io/biocontainers/r-oai:<tag>
 
    (see `r-oai/tags`_ for valid values for ``<tag>``)
 

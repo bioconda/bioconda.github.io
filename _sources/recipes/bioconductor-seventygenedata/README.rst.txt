@@ -42,7 +42,7 @@ bioconductor-seventygenedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seventygenedata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seventygenedata:<tag>
 
    (see `bioconductor-seventygenedata/tags`_ for valid values for ``<tag>``)
 

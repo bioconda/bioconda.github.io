@@ -41,7 +41,7 @@ dig2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dig2:<tag>
+      docker pull quay.io/biocontainers/dig2:<tag>
 
    (see `dig2/tags`_ for valid values for ``<tag>``)
 

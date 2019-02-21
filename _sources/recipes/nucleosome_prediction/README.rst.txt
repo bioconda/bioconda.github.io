@@ -44,7 +44,7 @@ nucleosome_prediction
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nucleosome_prediction:<tag>
+      docker pull quay.io/biocontainers/nucleosome_prediction:<tag>
 
    (see `nucleosome_prediction/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ graph_embed
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/graph_embed:<tag>
+      docker pull quay.io/biocontainers/graph_embed:<tag>
 
    (see `graph_embed/tags`_ for valid values for ``<tag>``)
 

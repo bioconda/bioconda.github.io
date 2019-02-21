@@ -40,7 +40,7 @@ bioconductor-matchbox
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-matchbox:<tag>
+      docker pull quay.io/biocontainers/bioconductor-matchbox:<tag>
 
    (see `bioconductor-matchbox/tags`_ for valid values for ``<tag>``)
 

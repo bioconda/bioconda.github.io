@@ -46,7 +46,7 @@ bioconductor-rgraphviz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgraphviz:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rgraphviz:<tag>
 
    (see `bioconductor-rgraphviz/tags`_ for valid values for ``<tag>``)
 

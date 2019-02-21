@@ -76,7 +76,7 @@ brass
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/brass:<tag>
+      docker pull quay.io/biocontainers/brass:<tag>
 
    (see `brass/tags`_ for valid values for ``<tag>``)
 

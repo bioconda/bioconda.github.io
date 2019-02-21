@@ -116,7 +116,7 @@ bioconductor-champ
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-champ:<tag>
+      docker pull quay.io/biocontainers/bioconductor-champ:<tag>
 
    (see `bioconductor-champ/tags`_ for valid values for ``<tag>``)
 

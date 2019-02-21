@@ -51,7 +51,7 @@ bioconductor-birewire
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-birewire:<tag>
+      docker pull quay.io/biocontainers/bioconductor-birewire:<tag>
 
    (see `bioconductor-birewire/tags`_ for valid values for ``<tag>``)
 

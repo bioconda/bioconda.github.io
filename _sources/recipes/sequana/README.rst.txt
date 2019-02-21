@@ -116,7 +116,7 @@ sequana
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sequana:<tag>
+      docker pull quay.io/biocontainers/sequana:<tag>
 
    (see `sequana/tags`_ for valid values for ``<tag>``)
 

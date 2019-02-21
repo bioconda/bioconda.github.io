@@ -43,7 +43,7 @@ bioconductor-a4preproc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-a4preproc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-a4preproc:<tag>
 
    (see `bioconductor-a4preproc/tags`_ for valid values for ``<tag>``)
 

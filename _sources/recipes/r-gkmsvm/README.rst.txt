@@ -66,7 +66,7 @@ r-gkmsvm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gkmsvm:<tag>
+      docker pull quay.io/biocontainers/r-gkmsvm:<tag>
 
    (see `r-gkmsvm/tags`_ for valid values for ``<tag>``)
 

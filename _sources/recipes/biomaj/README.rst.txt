@@ -57,7 +57,7 @@ biomaj
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biomaj:<tag>
+      docker pull quay.io/biocontainers/biomaj:<tag>
 
    (see `biomaj/tags`_ for valid values for ``<tag>``)
 

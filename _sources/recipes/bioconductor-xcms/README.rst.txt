@@ -73,7 +73,7 @@ bioconductor-xcms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xcms:<tag>
+      docker pull quay.io/biocontainers/bioconductor-xcms:<tag>
 
    (see `bioconductor-xcms/tags`_ for valid values for ``<tag>``)
 

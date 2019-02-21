@@ -43,7 +43,7 @@ snpsift
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snpsift:<tag>
+      docker pull quay.io/biocontainers/snpsift:<tag>
 
    (see `snpsift/tags`_ for valid values for ``<tag>``)
 

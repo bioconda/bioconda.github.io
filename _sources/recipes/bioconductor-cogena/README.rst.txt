@@ -75,7 +75,7 @@ bioconductor-cogena
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cogena:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cogena:<tag>
 
    (see `bioconductor-cogena/tags`_ for valid values for ``<tag>``)
 

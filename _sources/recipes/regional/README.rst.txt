@@ -46,7 +46,7 @@ regional
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/regional:<tag>
+      docker pull quay.io/biocontainers/regional:<tag>
 
    (see `regional/tags`_ for valid values for ``<tag>``)
 

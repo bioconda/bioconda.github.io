@@ -50,7 +50,7 @@ wtforms-components
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wtforms-components:<tag>
+      docker pull quay.io/biocontainers/wtforms-components:<tag>
 
    (see `wtforms-components/tags`_ for valid values for ``<tag>``)
 

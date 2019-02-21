@@ -80,7 +80,7 @@ deepvariant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/deepvariant:<tag>
+      docker pull quay.io/biocontainers/deepvariant:<tag>
 
    (see `deepvariant/tags`_ for valid values for ``<tag>``)
 

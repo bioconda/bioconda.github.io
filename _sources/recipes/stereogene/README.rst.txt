@@ -41,7 +41,7 @@ stereogene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stereogene:<tag>
+      docker pull quay.io/biocontainers/stereogene:<tag>
 
    (see `stereogene/tags`_ for valid values for ``<tag>``)
 

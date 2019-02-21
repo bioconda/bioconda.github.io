@@ -44,7 +44,7 @@ novoplasty
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/novoplasty:<tag>
+      docker pull quay.io/biocontainers/novoplasty:<tag>
 
    (see `novoplasty/tags`_ for valid values for ``<tag>``)
 

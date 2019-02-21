@@ -40,7 +40,7 @@ sprinkles
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sprinkles:<tag>
+      docker pull quay.io/biocontainers/sprinkles:<tag>
 
    (see `sprinkles/tags`_ for valid values for ``<tag>``)
 

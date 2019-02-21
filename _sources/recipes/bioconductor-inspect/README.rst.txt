@@ -67,7 +67,7 @@ bioconductor-inspect
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-inspect:<tag>
+      docker pull quay.io/biocontainers/bioconductor-inspect:<tag>
 
    (see `bioconductor-inspect/tags`_ for valid values for ``<tag>``)
 

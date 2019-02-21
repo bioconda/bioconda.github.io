@@ -44,7 +44,7 @@ fseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fseq:<tag>
+      docker pull quay.io/biocontainers/fseq:<tag>
 
    (see `fseq/tags`_ for valid values for ``<tag>``)
 

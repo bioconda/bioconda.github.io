@@ -45,7 +45,7 @@ bioconductor-plgem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-plgem:<tag>
+      docker pull quay.io/biocontainers/bioconductor-plgem:<tag>
 
    (see `bioconductor-plgem/tags`_ for valid values for ``<tag>``)
 

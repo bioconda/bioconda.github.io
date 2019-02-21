@@ -45,7 +45,7 @@ bioconductor-bcrank
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bcrank:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bcrank:<tag>
 
    (see `bioconductor-bcrank/tags`_ for valid values for ``<tag>``)
 

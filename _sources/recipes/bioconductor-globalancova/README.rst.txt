@@ -59,7 +59,7 @@ bioconductor-globalancova
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-globalancova:<tag>
+      docker pull quay.io/biocontainers/bioconductor-globalancova:<tag>
 
    (see `bioconductor-globalancova/tags`_ for valid values for ``<tag>``)
 

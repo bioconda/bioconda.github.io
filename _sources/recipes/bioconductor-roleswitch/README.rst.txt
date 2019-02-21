@@ -57,7 +57,7 @@ bioconductor-roleswitch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-roleswitch:<tag>
+      docker pull quay.io/biocontainers/bioconductor-roleswitch:<tag>
 
    (see `bioconductor-roleswitch/tags`_ for valid values for ``<tag>``)
 

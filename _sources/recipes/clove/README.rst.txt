@@ -42,7 +42,7 @@ clove
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clove:<tag>
+      docker pull quay.io/biocontainers/clove:<tag>
 
    (see `clove/tags`_ for valid values for ``<tag>``)
 

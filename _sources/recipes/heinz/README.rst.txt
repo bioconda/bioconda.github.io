@@ -40,7 +40,7 @@ heinz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/heinz:<tag>
+      docker pull quay.io/biocontainers/heinz:<tag>
 
    (see `heinz/tags`_ for valid values for ``<tag>``)
 

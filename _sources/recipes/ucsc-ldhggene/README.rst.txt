@@ -50,7 +50,7 @@ ucsc-ldhggene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-ldhggene:<tag>
+      docker pull quay.io/biocontainers/ucsc-ldhggene:<tag>
 
    (see `ucsc-ldhggene/tags`_ for valid values for ``<tag>``)
 

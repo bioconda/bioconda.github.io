@@ -60,7 +60,7 @@ nanoplot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanoplot:<tag>
+      docker pull quay.io/biocontainers/nanoplot:<tag>
 
    (see `nanoplot/tags`_ for valid values for ``<tag>``)
 

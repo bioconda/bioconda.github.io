@@ -50,7 +50,7 @@ bx-python
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bx-python:<tag>
+      docker pull quay.io/biocontainers/bx-python:<tag>
 
    (see `bx-python/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-module-pluggable
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-pluggable:<tag>
+      docker pull quay.io/biocontainers/perl-module-pluggable:<tag>
 
    (see `perl-module-pluggable/tags`_ for valid values for ``<tag>``)
 

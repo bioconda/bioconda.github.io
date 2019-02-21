@@ -43,7 +43,7 @@ bioconductor-vega
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-vega:<tag>
+      docker pull quay.io/biocontainers/bioconductor-vega:<tag>
 
    (see `bioconductor-vega/tags`_ for valid values for ``<tag>``)
 

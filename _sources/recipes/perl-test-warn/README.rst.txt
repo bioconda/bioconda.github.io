@@ -42,7 +42,7 @@ perl-test-warn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-warn:<tag>
+      docker pull quay.io/biocontainers/perl-test-warn:<tag>
 
    (see `perl-test-warn/tags`_ for valid values for ``<tag>``)
 

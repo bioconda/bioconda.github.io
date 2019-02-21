@@ -48,7 +48,7 @@ perl-getopt-long-descriptive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-getopt-long-descriptive:<tag>
+      docker pull quay.io/biocontainers/perl-getopt-long-descriptive:<tag>
 
    (see `perl-getopt-long-descriptive/tags`_ for valid values for ``<tag>``)
 

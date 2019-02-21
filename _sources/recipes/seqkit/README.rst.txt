@@ -38,7 +38,7 @@ seqkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seqkit:<tag>
+      docker pull quay.io/biocontainers/seqkit:<tag>
 
    (see `seqkit/tags`_ for valid values for ``<tag>``)
 

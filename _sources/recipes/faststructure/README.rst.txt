@@ -54,7 +54,7 @@ faststructure
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/faststructure:<tag>
+      docker pull quay.io/biocontainers/faststructure:<tag>
 
    (see `faststructure/tags`_ for valid values for ``<tag>``)
 

@@ -51,7 +51,7 @@ bioconductor-htqpcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-htqpcr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-htqpcr:<tag>
 
    (see `bioconductor-htqpcr/tags`_ for valid values for ``<tag>``)
 

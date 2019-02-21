@@ -69,7 +69,7 @@ augustus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/augustus:<tag>
+      docker pull quay.io/biocontainers/augustus:<tag>
 
    (see `augustus/tags`_ for valid values for ``<tag>``)
 

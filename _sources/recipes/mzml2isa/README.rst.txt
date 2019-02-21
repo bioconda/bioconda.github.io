@@ -46,7 +46,7 @@ mzml2isa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mzml2isa:<tag>
+      docker pull quay.io/biocontainers/mzml2isa:<tag>
 
    (see `mzml2isa/tags`_ for valid values for ``<tag>``)
 

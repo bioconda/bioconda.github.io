@@ -64,7 +64,7 @@ tepid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tepid:<tag>
+      docker pull quay.io/biocontainers/tepid:<tag>
 
    (see `tepid/tags`_ for valid values for ``<tag>``)
 

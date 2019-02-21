@@ -46,7 +46,7 @@ bioconductor-genelendatabase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genelendatabase:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genelendatabase:<tag>
 
    (see `bioconductor-genelendatabase/tags`_ for valid values for ``<tag>``)
 

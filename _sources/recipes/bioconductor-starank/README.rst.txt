@@ -43,7 +43,7 @@ bioconductor-starank
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-starank:<tag>
+      docker pull quay.io/biocontainers/bioconductor-starank:<tag>
 
    (see `bioconductor-starank/tags`_ for valid values for ``<tag>``)
 

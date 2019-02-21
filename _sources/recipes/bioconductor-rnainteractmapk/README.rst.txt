@@ -54,7 +54,7 @@ bioconductor-rnainteractmapk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnainteractmapk:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rnainteractmapk:<tag>
 
    (see `bioconductor-rnainteractmapk/tags`_ for valid values for ``<tag>``)
 

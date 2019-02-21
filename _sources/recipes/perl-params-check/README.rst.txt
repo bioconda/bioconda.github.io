@@ -40,7 +40,7 @@ perl-params-check
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-params-check:<tag>
+      docker pull quay.io/biocontainers/perl-params-check:<tag>
 
    (see `perl-params-check/tags`_ for valid values for ``<tag>``)
 

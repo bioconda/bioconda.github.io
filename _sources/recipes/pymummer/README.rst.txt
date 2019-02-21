@@ -44,7 +44,7 @@ pymummer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pymummer:<tag>
+      docker pull quay.io/biocontainers/pymummer:<tag>
 
    (see `pymummer/tags`_ for valid values for ``<tag>``)
 

@@ -66,7 +66,7 @@ bioconductor-countclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-countclust:<tag>
+      docker pull quay.io/biocontainers/bioconductor-countclust:<tag>
 
    (see `bioconductor-countclust/tags`_ for valid values for ``<tag>``)
 

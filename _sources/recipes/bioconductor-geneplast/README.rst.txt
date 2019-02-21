@@ -47,7 +47,7 @@ bioconductor-geneplast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneplast:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geneplast:<tag>
 
    (see `bioconductor-geneplast/tags`_ for valid values for ``<tag>``)
 

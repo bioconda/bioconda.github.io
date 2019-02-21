@@ -45,7 +45,7 @@ spades
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spades:<tag>
+      docker pull quay.io/biocontainers/spades:<tag>
 
    (see `spades/tags`_ for valid values for ``<tag>``)
 

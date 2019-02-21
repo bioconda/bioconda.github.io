@@ -81,7 +81,7 @@ bioconductor-cner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cner:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cner:<tag>
 
    (see `bioconductor-cner/tags`_ for valid values for ``<tag>``)
 

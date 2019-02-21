@@ -48,7 +48,7 @@ bioconductor-harbchip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-harbchip:<tag>
+      docker pull quay.io/biocontainers/bioconductor-harbchip:<tag>
 
    (see `bioconductor-harbchip/tags`_ for valid values for ``<tag>``)
 

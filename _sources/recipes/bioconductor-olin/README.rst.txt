@@ -47,7 +47,7 @@ bioconductor-olin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-olin:<tag>
+      docker pull quay.io/biocontainers/bioconductor-olin:<tag>
 
    (see `bioconductor-olin/tags`_ for valid values for ``<tag>``)
 

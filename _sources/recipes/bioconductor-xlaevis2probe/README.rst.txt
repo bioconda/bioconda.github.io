@@ -44,7 +44,7 @@ bioconductor-xlaevis2probe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xlaevis2probe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-xlaevis2probe:<tag>
 
    (see `bioconductor-xlaevis2probe/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-estscan1
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-estscan1:<tag>
+      docker pull quay.io/biocontainers/perl-estscan1:<tag>
 
    (see `perl-estscan1/tags`_ for valid values for ``<tag>``)
 

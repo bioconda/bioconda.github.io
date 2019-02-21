@@ -67,7 +67,7 @@ bioconductor-bumphunter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bumphunter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bumphunter:<tag>
 
    (see `bioconductor-bumphunter/tags`_ for valid values for ``<tag>``)
 

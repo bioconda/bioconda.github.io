@@ -58,7 +58,7 @@ dammet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dammet:<tag>
+      docker pull quay.io/biocontainers/dammet:<tag>
 
    (see `dammet/tags`_ for valid values for ``<tag>``)
 

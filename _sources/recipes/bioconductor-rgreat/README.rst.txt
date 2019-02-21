@@ -51,7 +51,7 @@ bioconductor-rgreat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgreat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rgreat:<tag>
 
    (see `bioconductor-rgreat/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ taxmapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/taxmapper:<tag>
+      docker pull quay.io/biocontainers/taxmapper:<tag>
 
    (see `taxmapper/tags`_ for valid values for ``<tag>``)
 

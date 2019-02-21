@@ -42,7 +42,7 @@ tqdist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tqdist:<tag>
+      docker pull quay.io/biocontainers/tqdist:<tag>
 
    (see `tqdist/tags`_ for valid values for ``<tag>``)
 

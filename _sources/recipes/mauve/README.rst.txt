@@ -43,7 +43,7 @@ mauve
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mauve:<tag>
+      docker pull quay.io/biocontainers/mauve:<tag>
 
    (see `mauve/tags`_ for valid values for ``<tag>``)
 

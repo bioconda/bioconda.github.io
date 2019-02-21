@@ -47,7 +47,7 @@ bioconductor-rcytoscape
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rcytoscape:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rcytoscape:<tag>
 
    (see `bioconductor-rcytoscape/tags`_ for valid values for ``<tag>``)
 

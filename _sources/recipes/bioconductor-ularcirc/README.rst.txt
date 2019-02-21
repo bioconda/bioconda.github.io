@@ -72,7 +72,7 @@ bioconductor-ularcirc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ularcirc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ularcirc:<tag>
 
    (see `bioconductor-ularcirc/tags`_ for valid values for ``<tag>``)
 

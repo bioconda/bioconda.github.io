@@ -40,7 +40,7 @@ perl-btlib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-btlib:<tag>
+      docker pull quay.io/biocontainers/perl-btlib:<tag>
 
    (see `perl-btlib/tags`_ for valid values for ``<tag>``)
 

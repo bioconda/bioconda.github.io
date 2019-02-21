@@ -40,7 +40,7 @@ perl-role-tiny-with
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-role-tiny-with:<tag>
+      docker pull quay.io/biocontainers/perl-role-tiny-with:<tag>
 
    (see `perl-role-tiny-with/tags`_ for valid values for ``<tag>``)
 

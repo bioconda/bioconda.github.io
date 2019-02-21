@@ -38,7 +38,7 @@ autodock-vina
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/autodock-vina:<tag>
+      docker pull quay.io/biocontainers/autodock-vina:<tag>
 
    (see `autodock-vina/tags`_ for valid values for ``<tag>``)
 

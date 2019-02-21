@@ -44,7 +44,7 @@ hmmcopy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hmmcopy:<tag>
+      docker pull quay.io/biocontainers/hmmcopy:<tag>
 
    (see `hmmcopy/tags`_ for valid values for ``<tag>``)
 

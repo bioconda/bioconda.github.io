@@ -82,7 +82,7 @@ pymisc-utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pymisc-utils:<tag>
+      docker pull quay.io/biocontainers/pymisc-utils:<tag>
 
    (see `pymisc-utils/tags`_ for valid values for ``<tag>``)
 

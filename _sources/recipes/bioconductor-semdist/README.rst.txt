@@ -47,7 +47,7 @@ bioconductor-semdist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-semdist:<tag>
+      docker pull quay.io/biocontainers/bioconductor-semdist:<tag>
 
    (see `bioconductor-semdist/tags`_ for valid values for ``<tag>``)
 

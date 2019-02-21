@@ -46,7 +46,7 @@ r-mqtl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-mqtl:<tag>
+      docker pull quay.io/biocontainers/r-mqtl:<tag>
 
    (see `r-mqtl/tags`_ for valid values for ``<tag>``)
 

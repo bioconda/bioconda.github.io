@@ -50,7 +50,7 @@ r-rvertnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rvertnet:<tag>
+      docker pull quay.io/biocontainers/r-rvertnet:<tag>
 
    (see `r-rvertnet/tags`_ for valid values for ``<tag>``)
 

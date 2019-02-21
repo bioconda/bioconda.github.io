@@ -44,7 +44,7 @@ bioconductor-paeg1aprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-paeg1aprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-paeg1aprobe:<tag>
 
    (see `bioconductor-paeg1aprobe/tags`_ for valid values for ``<tag>``)
 

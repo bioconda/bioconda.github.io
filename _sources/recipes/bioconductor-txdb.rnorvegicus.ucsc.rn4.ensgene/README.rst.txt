@@ -46,7 +46,7 @@ bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene:<tag>
 
    (see `bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene/tags`_ for valid values for ``<tag>``)
 

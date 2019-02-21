@@ -49,7 +49,7 @@ bioconductor-bus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bus:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bus:<tag>
 
    (see `bioconductor-bus/tags`_ for valid values for ``<tag>``)
 

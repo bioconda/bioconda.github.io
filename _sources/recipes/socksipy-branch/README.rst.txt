@@ -40,7 +40,7 @@ socksipy-branch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/socksipy-branch:<tag>
+      docker pull quay.io/biocontainers/socksipy-branch:<tag>
 
    (see `socksipy-branch/tags`_ for valid values for ``<tag>``)
 

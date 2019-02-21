@@ -40,7 +40,7 @@ perl-safe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-safe:<tag>
+      docker pull quay.io/biocontainers/perl-safe:<tag>
 
    (see `perl-safe/tags`_ for valid values for ``<tag>``)
 

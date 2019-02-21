@@ -40,7 +40,7 @@ perl-exporter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-exporter:<tag>
+      docker pull quay.io/biocontainers/perl-exporter:<tag>
 
    (see `perl-exporter/tags`_ for valid values for ``<tag>``)
 

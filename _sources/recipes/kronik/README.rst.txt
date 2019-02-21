@@ -40,7 +40,7 @@ kronik
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kronik:<tag>
+      docker pull quay.io/biocontainers/kronik:<tag>
 
    (see `kronik/tags`_ for valid values for ``<tag>``)
 

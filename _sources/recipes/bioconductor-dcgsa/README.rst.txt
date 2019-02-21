@@ -45,7 +45,7 @@ bioconductor-dcgsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dcgsa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dcgsa:<tag>
 
    (see `bioconductor-dcgsa/tags`_ for valid values for ``<tag>``)
 

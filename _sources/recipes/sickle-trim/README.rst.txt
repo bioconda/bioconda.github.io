@@ -42,7 +42,7 @@ sickle-trim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sickle-trim:<tag>
+      docker pull quay.io/biocontainers/sickle-trim:<tag>
 
    (see `sickle-trim/tags`_ for valid values for ``<tag>``)
 

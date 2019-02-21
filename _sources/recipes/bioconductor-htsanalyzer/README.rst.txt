@@ -56,7 +56,7 @@ bioconductor-htsanalyzer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-htsanalyzer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-htsanalyzer:<tag>
 
    (see `bioconductor-htsanalyzer/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-wheatprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-wheatprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-wheatprobe:<tag>
 
    (see `bioconductor-wheatprobe/tags`_ for valid values for ``<tag>``)
 

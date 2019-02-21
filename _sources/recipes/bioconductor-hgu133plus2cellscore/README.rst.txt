@@ -44,7 +44,7 @@ bioconductor-hgu133plus2cellscore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hgu133plus2cellscore:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hgu133plus2cellscore:<tag>
 
    (see `bioconductor-hgu133plus2cellscore/tags`_ for valid values for ``<tag>``)
 

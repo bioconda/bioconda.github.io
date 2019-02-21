@@ -84,7 +84,7 @@ perl-moose
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moose:<tag>
+      docker pull quay.io/biocontainers/perl-moose:<tag>
 
    (see `perl-moose/tags`_ for valid values for ``<tag>``)
 

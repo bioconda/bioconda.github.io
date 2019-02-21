@@ -59,7 +59,7 @@ r-sbpiper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-sbpiper:<tag>
+      docker pull quay.io/biocontainers/r-sbpiper:<tag>
 
    (see `r-sbpiper/tags`_ for valid values for ``<tag>``)
 

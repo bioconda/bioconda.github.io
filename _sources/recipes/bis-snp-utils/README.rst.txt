@@ -42,7 +42,7 @@ bis-snp-utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bis-snp-utils:<tag>
+      docker pull quay.io/biocontainers/bis-snp-utils:<tag>
 
    (see `bis-snp-utils/tags`_ for valid values for ``<tag>``)
 

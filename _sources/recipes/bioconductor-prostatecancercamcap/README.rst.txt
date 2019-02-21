@@ -44,7 +44,7 @@ bioconductor-prostatecancercamcap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-prostatecancercamcap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-prostatecancercamcap:<tag>
 
    (see `bioconductor-prostatecancercamcap/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ seedme
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seedme:<tag>
+      docker pull quay.io/biocontainers/seedme:<tag>
 
    (see `seedme/tags`_ for valid values for ``<tag>``)
 

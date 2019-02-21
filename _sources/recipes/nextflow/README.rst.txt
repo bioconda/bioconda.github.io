@@ -44,7 +44,7 @@ nextflow
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nextflow:<tag>
+      docker pull quay.io/biocontainers/nextflow:<tag>
 
    (see `nextflow/tags`_ for valid values for ``<tag>``)
 

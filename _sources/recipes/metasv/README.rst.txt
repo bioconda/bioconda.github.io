@@ -50,7 +50,7 @@ metasv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metasv:<tag>
+      docker pull quay.io/biocontainers/metasv:<tag>
 
    (see `metasv/tags`_ for valid values for ``<tag>``)
 

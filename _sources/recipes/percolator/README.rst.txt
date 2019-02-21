@@ -52,7 +52,7 @@ percolator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/percolator:<tag>
+      docker pull quay.io/biocontainers/percolator:<tag>
 
    (see `percolator/tags`_ for valid values for ``<tag>``)
 

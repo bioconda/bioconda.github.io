@@ -42,7 +42,7 @@ perl-moosex-types-stringlike
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-types-stringlike:<tag>
+      docker pull quay.io/biocontainers/perl-moosex-types-stringlike:<tag>
 
    (see `perl-moosex-types-stringlike/tags`_ for valid values for ``<tag>``)
 

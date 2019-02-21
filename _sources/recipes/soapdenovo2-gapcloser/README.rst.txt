@@ -42,7 +42,7 @@ soapdenovo2-gapcloser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/soapdenovo2-gapcloser:<tag>
+      docker pull quay.io/biocontainers/soapdenovo2-gapcloser:<tag>
 
    (see `soapdenovo2-gapcloser/tags`_ for valid values for ``<tag>``)
 

@@ -64,7 +64,7 @@ bioconductor-kebabs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-kebabs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-kebabs:<tag>
 
    (see `bioconductor-kebabs/tags`_ for valid values for ``<tag>``)
 

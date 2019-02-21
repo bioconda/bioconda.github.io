@@ -43,7 +43,7 @@ bioconductor-omiccircos
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omiccircos:<tag>
+      docker pull quay.io/biocontainers/bioconductor-omiccircos:<tag>
 
    (see `bioconductor-omiccircos/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ pronto
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pronto:<tag>
+      docker pull quay.io/biocontainers/pronto:<tag>
 
    (see `pronto/tags`_ for valid values for ``<tag>``)
 

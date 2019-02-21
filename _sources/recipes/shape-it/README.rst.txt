@@ -42,7 +42,7 @@ shape_it
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shape_it:<tag>
+      docker pull quay.io/biocontainers/shape_it:<tag>
 
    (see `shape_it/tags`_ for valid values for ``<tag>``)
 

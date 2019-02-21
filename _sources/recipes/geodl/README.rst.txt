@@ -48,7 +48,7 @@ geodl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/geodl:<tag>
+      docker pull quay.io/biocontainers/geodl:<tag>
 
    (see `geodl/tags`_ for valid values for ``<tag>``)
 

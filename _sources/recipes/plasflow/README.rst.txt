@@ -57,7 +57,7 @@ plasflow
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plasflow:<tag>
+      docker pull quay.io/biocontainers/plasflow:<tag>
 
    (see `plasflow/tags`_ for valid values for ``<tag>``)
 

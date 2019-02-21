@@ -43,7 +43,7 @@ bioconductor-paircompviz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-paircompviz:<tag>
+      docker pull quay.io/biocontainers/bioconductor-paircompviz:<tag>
 
    (see `bioconductor-paircompviz/tags`_ for valid values for ``<tag>``)
 

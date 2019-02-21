@@ -56,7 +56,7 @@ bioconductor-pd.barley1
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.barley1:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.barley1:<tag>
 
    (see `bioconductor-pd.barley1/tags`_ for valid values for ``<tag>``)
 

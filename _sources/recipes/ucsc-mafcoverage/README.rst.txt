@@ -50,7 +50,7 @@ ucsc-mafcoverage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-mafcoverage:<tag>
+      docker pull quay.io/biocontainers/ucsc-mafcoverage:<tag>
 
    (see `ucsc-mafcoverage/tags`_ for valid values for ``<tag>``)
 

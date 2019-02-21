@@ -58,7 +58,7 @@ cmv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cmv:<tag>
+      docker pull quay.io/biocontainers/cmv:<tag>
 
    (see `cmv/tags`_ for valid values for ``<tag>``)
 

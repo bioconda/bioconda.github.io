@@ -54,7 +54,7 @@ bioconductor-mafdb.1kgenomes.phase3.hs37d5
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mafdb.1kgenomes.phase3.hs37d5:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.hs37d5:<tag>
 
    (see `bioconductor-mafdb.1kgenomes.phase3.hs37d5/tags`_ for valid values for ``<tag>``)
 

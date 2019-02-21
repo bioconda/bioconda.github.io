@@ -50,7 +50,7 @@ ucsc-mafspeciessubset
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-mafspeciessubset:<tag>
+      docker pull quay.io/biocontainers/ucsc-mafspeciessubset:<tag>
 
    (see `ucsc-mafspeciessubset/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ bioconductor-scale4c
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scale4c:<tag>
+      docker pull quay.io/biocontainers/bioconductor-scale4c:<tag>
 
    (see `bioconductor-scale4c/tags`_ for valid values for ``<tag>``)
 

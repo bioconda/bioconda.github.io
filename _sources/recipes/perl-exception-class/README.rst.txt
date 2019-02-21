@@ -44,7 +44,7 @@ perl-exception-class
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-exception-class:<tag>
+      docker pull quay.io/biocontainers/perl-exception-class:<tag>
 
    (see `perl-exception-class/tags`_ for valid values for ``<tag>``)
 

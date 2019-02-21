@@ -56,7 +56,7 @@ bioconductor-pd.sugar.cane
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.sugar.cane:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.sugar.cane:<tag>
 
    (see `bioconductor-pd.sugar.cane/tags`_ for valid values for ``<tag>``)
 

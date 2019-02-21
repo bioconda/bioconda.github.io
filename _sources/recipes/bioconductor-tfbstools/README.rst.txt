@@ -83,7 +83,7 @@ bioconductor-tfbstools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tfbstools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tfbstools:<tag>
 
    (see `bioconductor-tfbstools/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ bioconductor-a4
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-a4:<tag>
+      docker pull quay.io/biocontainers/bioconductor-a4:<tag>
 
    (see `bioconductor-a4/tags`_ for valid values for ``<tag>``)
 

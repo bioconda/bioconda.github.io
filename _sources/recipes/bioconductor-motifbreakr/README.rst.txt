@@ -75,7 +75,7 @@ bioconductor-motifbreakr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-motifbreakr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-motifbreakr:<tag>
 
    (see `bioconductor-motifbreakr/tags`_ for valid values for ``<tag>``)
 

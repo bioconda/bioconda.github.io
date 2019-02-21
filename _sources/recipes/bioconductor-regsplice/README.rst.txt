@@ -53,7 +53,7 @@ bioconductor-regsplice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-regsplice:<tag>
+      docker pull quay.io/biocontainers/bioconductor-regsplice:<tag>
 
    (see `bioconductor-regsplice/tags`_ for valid values for ``<tag>``)
 

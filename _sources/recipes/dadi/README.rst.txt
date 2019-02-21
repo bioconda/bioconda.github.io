@@ -48,7 +48,7 @@ dadi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dadi:<tag>
+      docker pull quay.io/biocontainers/dadi:<tag>
 
    (see `dadi/tags`_ for valid values for ``<tag>``)
 

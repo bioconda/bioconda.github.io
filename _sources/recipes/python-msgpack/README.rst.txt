@@ -42,7 +42,7 @@ python-msgpack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-msgpack:<tag>
+      docker pull quay.io/biocontainers/python-msgpack:<tag>
 
    (see `python-msgpack/tags`_ for valid values for ``<tag>``)
 

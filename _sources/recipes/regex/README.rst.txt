@@ -40,7 +40,7 @@ regex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/regex:<tag>
+      docker pull quay.io/biocontainers/regex:<tag>
 
    (see `regex/tags`_ for valid values for ``<tag>``)
 

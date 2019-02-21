@@ -42,7 +42,7 @@ bioconductor-rnaseqdata.hnrnpc.bam.chr14
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14:<tag>
 
    (see `bioconductor-rnaseqdata.hnrnpc.bam.chr14/tags`_ for valid values for ``<tag>``)
 

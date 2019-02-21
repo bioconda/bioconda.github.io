@@ -55,7 +55,7 @@ bioconductor-rpsixml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rpsixml:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rpsixml:<tag>
 
    (see `bioconductor-rpsixml/tags`_ for valid values for ``<tag>``)
 

@@ -72,7 +72,7 @@ pyseer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyseer:<tag>
+      docker pull quay.io/biocontainers/pyseer:<tag>
 
    (see `pyseer/tags`_ for valid values for ``<tag>``)
 

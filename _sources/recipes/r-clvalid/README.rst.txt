@@ -44,7 +44,7 @@ r-clvalid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-clvalid:<tag>
+      docker pull quay.io/biocontainers/r-clvalid:<tag>
 
    (see `r-clvalid/tags`_ for valid values for ``<tag>``)
 

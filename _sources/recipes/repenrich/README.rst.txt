@@ -48,7 +48,7 @@ repenrich
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/repenrich:<tag>
+      docker pull quay.io/biocontainers/repenrich:<tag>
 
    (see `repenrich/tags`_ for valid values for ``<tag>``)
 

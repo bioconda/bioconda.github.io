@@ -44,7 +44,7 @@ bioconductor-drosophila2cdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-drosophila2cdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-drosophila2cdf:<tag>
 
    (see `bioconductor-drosophila2cdf/tags`_ for valid values for ``<tag>``)
 

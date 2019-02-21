@@ -42,7 +42,7 @@ bioconductor-tcgabiolinksgui.data
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tcgabiolinksgui.data:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tcgabiolinksgui.data:<tag>
 
    (see `bioconductor-tcgabiolinksgui.data/tags`_ for valid values for ``<tag>``)
 

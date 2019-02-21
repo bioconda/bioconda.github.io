@@ -46,7 +46,7 @@ perl-test-classapi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-classapi:<tag>
+      docker pull quay.io/biocontainers/perl-test-classapi:<tag>
 
    (see `perl-test-classapi/tags`_ for valid values for ``<tag>``)
 

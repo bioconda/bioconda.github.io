@@ -71,7 +71,7 @@ uropa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/uropa:<tag>
+      docker pull quay.io/biocontainers/uropa:<tag>
 
    (see `uropa/tags`_ for valid values for ``<tag>``)
 

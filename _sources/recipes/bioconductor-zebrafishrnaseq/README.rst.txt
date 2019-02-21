@@ -42,7 +42,7 @@ bioconductor-zebrafishrnaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-zebrafishrnaseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-zebrafishrnaseq:<tag>
 
    (see `bioconductor-zebrafishrnaseq/tags`_ for valid values for ``<tag>``)
 

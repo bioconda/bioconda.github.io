@@ -51,7 +51,7 @@ flexbar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flexbar:<tag>
+      docker pull quay.io/biocontainers/flexbar:<tag>
 
    (see `flexbar/tags`_ for valid values for ``<tag>``)
 

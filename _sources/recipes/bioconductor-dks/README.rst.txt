@@ -42,7 +42,7 @@ bioconductor-dks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dks:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dks:<tag>
 
    (see `bioconductor-dks/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ csvtk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/csvtk:<tag>
+      docker pull quay.io/biocontainers/csvtk:<tag>
 
    (see `csvtk/tags`_ for valid values for ``<tag>``)
 

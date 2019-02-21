@@ -42,7 +42,7 @@ bioconductor-bayesknockdown
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bayesknockdown:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bayesknockdown:<tag>
 
    (see `bioconductor-bayesknockdown/tags`_ for valid values for ``<tag>``)
 

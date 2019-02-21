@@ -50,7 +50,7 @@ dfam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dfam:<tag>
+      docker pull quay.io/biocontainers/dfam:<tag>
 
    (see `dfam/tags`_ for valid values for ``<tag>``)
 

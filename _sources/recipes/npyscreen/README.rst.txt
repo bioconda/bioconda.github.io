@@ -42,7 +42,7 @@ npyscreen
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/npyscreen:<tag>
+      docker pull quay.io/biocontainers/npyscreen:<tag>
 
    (see `npyscreen/tags`_ for valid values for ``<tag>``)
 

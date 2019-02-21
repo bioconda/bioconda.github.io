@@ -50,7 +50,7 @@ ucsc-pslmrnacover
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslmrnacover:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslmrnacover:<tag>
 
    (see `ucsc-pslmrnacover/tags`_ for valid values for ``<tag>``)
 

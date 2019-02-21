@@ -82,7 +82,7 @@ bioconductor-scruff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scruff:<tag>
+      docker pull quay.io/biocontainers/bioconductor-scruff:<tag>
 
    (see `bioconductor-scruff/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ perl-db-file
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-db-file:<tag>
+      docker pull quay.io/biocontainers/perl-db-file:<tag>
 
    (see `perl-db-file/tags`_ for valid values for ``<tag>``)
 

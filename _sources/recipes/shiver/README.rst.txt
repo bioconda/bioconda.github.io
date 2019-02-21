@@ -54,7 +54,7 @@ shiver
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shiver:<tag>
+      docker pull quay.io/biocontainers/shiver:<tag>
 
    (see `shiver/tags`_ for valid values for ``<tag>``)
 

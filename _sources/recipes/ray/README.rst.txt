@@ -43,7 +43,7 @@ ray
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ray:<tag>
+      docker pull quay.io/biocontainers/ray:<tag>
 
    (see `ray/tags`_ for valid values for ``<tag>``)
 

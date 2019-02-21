@@ -56,7 +56,7 @@ r-tidygenomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-tidygenomics:<tag>
+      docker pull quay.io/biocontainers/r-tidygenomics:<tag>
 
    (see `r-tidygenomics/tags`_ for valid values for ``<tag>``)
 

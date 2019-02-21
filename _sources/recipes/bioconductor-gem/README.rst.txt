@@ -42,7 +42,7 @@ bioconductor-gem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gem:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gem:<tag>
 
    (see `bioconductor-gem/tags`_ for valid values for ``<tag>``)
 

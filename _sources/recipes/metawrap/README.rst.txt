@@ -134,7 +134,7 @@ metawrap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metawrap:<tag>
+      docker pull quay.io/biocontainers/metawrap:<tag>
 
    (see `metawrap/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-mldbm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mldbm:<tag>
+      docker pull quay.io/biocontainers/perl-mldbm:<tag>
 
    (see `perl-mldbm/tags`_ for valid values for ``<tag>``)
 

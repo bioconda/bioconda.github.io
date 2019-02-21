@@ -86,7 +86,7 @@ qcumber
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/qcumber:<tag>
+      docker pull quay.io/biocontainers/qcumber:<tag>
 
    (see `qcumber/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-gaschyhs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gaschyhs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gaschyhs:<tag>
 
    (see `bioconductor-gaschyhs/tags`_ for valid values for ``<tag>``)
 

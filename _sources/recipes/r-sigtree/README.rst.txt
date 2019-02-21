@@ -56,7 +56,7 @@ r-sigtree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-sigtree:<tag>
+      docker pull quay.io/biocontainers/r-sigtree:<tag>
 
    (see `r-sigtree/tags`_ for valid values for ``<tag>``)
 

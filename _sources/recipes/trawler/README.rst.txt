@@ -48,7 +48,7 @@ trawler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trawler:<tag>
+      docker pull quay.io/biocontainers/trawler:<tag>
 
    (see `trawler/tags`_ for valid values for ``<tag>``)
 

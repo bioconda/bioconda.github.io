@@ -42,7 +42,7 @@ intervaltree_bio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/intervaltree_bio:<tag>
+      docker pull quay.io/biocontainers/intervaltree_bio:<tag>
 
    (see `intervaltree_bio/tags`_ for valid values for ``<tag>``)
 

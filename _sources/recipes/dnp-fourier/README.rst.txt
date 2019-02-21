@@ -42,7 +42,7 @@ dnp-fourier
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dnp-fourier:<tag>
+      docker pull quay.io/biocontainers/dnp-fourier:<tag>
 
    (see `dnp-fourier/tags`_ for valid values for ``<tag>``)
 

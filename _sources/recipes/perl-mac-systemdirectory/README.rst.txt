@@ -44,7 +44,7 @@ perl-mac-systemdirectory
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mac-systemdirectory:<tag>
+      docker pull quay.io/biocontainers/perl-mac-systemdirectory:<tag>
 
    (see `perl-mac-systemdirectory/tags`_ for valid values for ``<tag>``)
 

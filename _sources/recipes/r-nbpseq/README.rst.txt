@@ -44,7 +44,7 @@ r-nbpseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-nbpseq:<tag>
+      docker pull quay.io/biocontainers/r-nbpseq:<tag>
 
    (see `r-nbpseq/tags`_ for valid values for ``<tag>``)
 

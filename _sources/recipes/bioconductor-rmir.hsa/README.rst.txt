@@ -44,7 +44,7 @@ bioconductor-rmir.hsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rmir.hsa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rmir.hsa:<tag>
 
    (see `bioconductor-rmir.hsa/tags`_ for valid values for ``<tag>``)
 

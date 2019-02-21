@@ -47,7 +47,7 @@ r-popgenome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-popgenome:<tag>
+      docker pull quay.io/biocontainers/r-popgenome:<tag>
 
    (see `r-popgenome/tags`_ for valid values for ``<tag>``)
 

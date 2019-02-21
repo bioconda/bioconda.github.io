@@ -69,7 +69,7 @@ bioconductor-qsea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qsea:<tag>
+      docker pull quay.io/biocontainers/bioconductor-qsea:<tag>
 
    (see `bioconductor-qsea/tags`_ for valid values for ``<tag>``)
 

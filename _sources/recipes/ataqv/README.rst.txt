@@ -57,7 +57,7 @@ ataqv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ataqv:<tag>
+      docker pull quay.io/biocontainers/ataqv:<tag>
 
    (see `ataqv/tags`_ for valid values for ``<tag>``)
 

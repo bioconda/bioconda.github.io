@@ -57,7 +57,7 @@ bioconductor-cellnoptr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cellnoptr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cellnoptr:<tag>
 
    (see `bioconductor-cellnoptr/tags`_ for valid values for ``<tag>``)
 

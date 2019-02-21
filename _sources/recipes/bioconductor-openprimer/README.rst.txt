@@ -96,7 +96,7 @@ bioconductor-openprimer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-openprimer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-openprimer:<tag>
 
    (see `bioconductor-openprimer/tags`_ for valid values for ``<tag>``)
 

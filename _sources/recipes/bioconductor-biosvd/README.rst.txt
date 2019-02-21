@@ -47,7 +47,7 @@ bioconductor-biosvd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biosvd:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biosvd:<tag>
 
    (see `bioconductor-biosvd/tags`_ for valid values for ``<tag>``)
 

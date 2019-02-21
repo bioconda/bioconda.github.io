@@ -63,7 +63,7 @@ bioconductor-chipcomp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chipcomp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chipcomp:<tag>
 
    (see `bioconductor-chipcomp/tags`_ for valid values for ``<tag>``)
 

@@ -59,7 +59,7 @@ bioconductor-chronos
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chronos:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chronos:<tag>
 
    (see `bioconductor-chronos/tags`_ for valid values for ``<tag>``)
 

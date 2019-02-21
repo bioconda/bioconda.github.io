@@ -50,7 +50,7 @@ perl-lwp-protocol-https
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-lwp-protocol-https:<tag>
+      docker pull quay.io/biocontainers/perl-lwp-protocol-https:<tag>
 
    (see `perl-lwp-protocol-https/tags`_ for valid values for ``<tag>``)
 

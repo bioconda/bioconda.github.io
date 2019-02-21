@@ -50,7 +50,7 @@ theta2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/theta2:<tag>
+      docker pull quay.io/biocontainers/theta2:<tag>
 
    (see `theta2/tags`_ for valid values for ``<tag>``)
 

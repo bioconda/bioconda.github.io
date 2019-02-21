@@ -42,7 +42,7 @@ perl-file-details
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-details:<tag>
+      docker pull quay.io/biocontainers/perl-file-details:<tag>
 
    (see `perl-file-details/tags`_ for valid values for ``<tag>``)
 

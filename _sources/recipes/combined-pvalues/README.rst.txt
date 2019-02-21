@@ -50,7 +50,7 @@ combined-pvalues
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/combined-pvalues:<tag>
+      docker pull quay.io/biocontainers/combined-pvalues:<tag>
 
    (see `combined-pvalues/tags`_ for valid values for ``<tag>``)
 

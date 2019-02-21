@@ -46,7 +46,7 @@ genomestrip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genomestrip:<tag>
+      docker pull quay.io/biocontainers/genomestrip:<tag>
 
    (see `genomestrip/tags`_ for valid values for ``<tag>``)
 

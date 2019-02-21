@@ -78,7 +78,7 @@ secapr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/secapr:<tag>
+      docker pull quay.io/biocontainers/secapr:<tag>
 
    (see `secapr/tags`_ for valid values for ``<tag>``)
 

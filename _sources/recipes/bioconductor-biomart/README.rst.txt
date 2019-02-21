@@ -53,7 +53,7 @@ bioconductor-biomart
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biomart:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biomart:<tag>
 
    (see `bioconductor-biomart/tags`_ for valid values for ``<tag>``)
 

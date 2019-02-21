@@ -46,7 +46,7 @@ python-hivclustering
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-hivclustering:<tag>
+      docker pull quay.io/biocontainers/python-hivclustering:<tag>
 
    (see `python-hivclustering/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ ucsc-expmatrixtobarchartbed
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-expmatrixtobarchartbed:<tag>
+      docker pull quay.io/biocontainers/ucsc-expmatrixtobarchartbed:<tag>
 
    (see `ucsc-expmatrixtobarchartbed/tags`_ for valid values for ``<tag>``)
 

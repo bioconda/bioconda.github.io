@@ -50,7 +50,7 @@ wtforms-alchemy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wtforms-alchemy:<tag>
+      docker pull quay.io/biocontainers/wtforms-alchemy:<tag>
 
    (see `wtforms-alchemy/tags`_ for valid values for ``<tag>``)
 

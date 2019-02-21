@@ -46,7 +46,7 @@ bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts:<tag>
+      docker pull quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts:<tag>
 
    (see `bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts/tags`_ for valid values for ``<tag>``)
 

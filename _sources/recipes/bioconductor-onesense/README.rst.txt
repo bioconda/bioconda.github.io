@@ -56,7 +56,7 @@ bioconductor-onesense
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-onesense:<tag>
+      docker pull quay.io/biocontainers/bioconductor-onesense:<tag>
 
    (see `bioconductor-onesense/tags`_ for valid values for ``<tag>``)
 

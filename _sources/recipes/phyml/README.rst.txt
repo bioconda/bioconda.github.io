@@ -54,7 +54,7 @@ phyml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phyml:<tag>
+      docker pull quay.io/biocontainers/phyml:<tag>
 
    (see `phyml/tags`_ for valid values for ``<tag>``)
 

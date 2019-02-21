@@ -63,7 +63,7 @@ bioconductor-sigar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sigar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sigar:<tag>
 
    (see `bioconductor-sigar/tags`_ for valid values for ``<tag>``)
 

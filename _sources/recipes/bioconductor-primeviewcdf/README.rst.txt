@@ -44,7 +44,7 @@ bioconductor-primeviewcdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-primeviewcdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-primeviewcdf:<tag>
 
    (see `bioconductor-primeviewcdf/tags`_ for valid values for ``<tag>``)
 

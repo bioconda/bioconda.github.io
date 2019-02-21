@@ -45,7 +45,7 @@ bioconductor-spem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-spem:<tag>
+      docker pull quay.io/biocontainers/bioconductor-spem:<tag>
 
    (see `bioconductor-spem/tags`_ for valid values for ``<tag>``)
 

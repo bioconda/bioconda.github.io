@@ -44,7 +44,7 @@ bioconductor-vitisviniferacdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-vitisviniferacdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-vitisviniferacdf:<tag>
 
    (see `bioconductor-vitisviniferacdf/tags`_ for valid values for ``<tag>``)
 

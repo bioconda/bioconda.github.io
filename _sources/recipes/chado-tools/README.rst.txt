@@ -54,7 +54,7 @@ chado-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/chado-tools:<tag>
+      docker pull quay.io/biocontainers/chado-tools:<tag>
 
    (see `chado-tools/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ perl-xml-twig
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-twig:<tag>
+      docker pull quay.io/biocontainers/perl-xml-twig:<tag>
 
    (see `perl-xml-twig/tags`_ for valid values for ``<tag>``)
 

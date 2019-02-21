@@ -46,7 +46,7 @@ r-airr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-airr:<tag>
+      docker pull quay.io/biocontainers/r-airr:<tag>
 
    (see `r-airr/tags`_ for valid values for ``<tag>``)
 

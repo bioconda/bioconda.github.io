@@ -50,7 +50,7 @@ r-pophelper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-pophelper:<tag>
+      docker pull quay.io/biocontainers/r-pophelper:<tag>
 
    (see `r-pophelper/tags`_ for valid values for ``<tag>``)
 

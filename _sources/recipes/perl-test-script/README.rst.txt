@@ -46,7 +46,7 @@ perl-test-script
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-script:<tag>
+      docker pull quay.io/biocontainers/perl-test-script:<tag>
 
    (see `perl-test-script/tags`_ for valid values for ``<tag>``)
 

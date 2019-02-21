@@ -50,7 +50,7 @@ neptune
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/neptune:<tag>
+      docker pull quay.io/biocontainers/neptune:<tag>
 
    (see `neptune/tags`_ for valid values for ``<tag>``)
 

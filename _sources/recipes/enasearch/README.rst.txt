@@ -52,7 +52,7 @@ enasearch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/enasearch:<tag>
+      docker pull quay.io/biocontainers/enasearch:<tag>
 
    (see `enasearch/tags`_ for valid values for ``<tag>``)
 

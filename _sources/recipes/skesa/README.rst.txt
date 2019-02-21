@@ -44,7 +44,7 @@ skesa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/skesa:<tag>
+      docker pull quay.io/biocontainers/skesa:<tag>
 
    (see `skesa/tags`_ for valid values for ``<tag>``)
 

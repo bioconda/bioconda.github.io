@@ -50,7 +50,7 @@ ucsc-netchainsubset
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-netchainsubset:<tag>
+      docker pull quay.io/biocontainers/ucsc-netchainsubset:<tag>
 
    (see `ucsc-netchainsubset/tags`_ for valid values for ``<tag>``)
 

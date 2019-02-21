@@ -40,7 +40,7 @@ fasta3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fasta3:<tag>
+      docker pull quay.io/biocontainers/fasta3:<tag>
 
    (see `fasta3/tags`_ for valid values for ``<tag>``)
 

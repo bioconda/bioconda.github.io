@@ -65,7 +65,7 @@ openms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/openms:<tag>
+      docker pull quay.io/biocontainers/openms:<tag>
 
    (see `openms/tags`_ for valid values for ``<tag>``)
 

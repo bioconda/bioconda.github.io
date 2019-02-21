@@ -40,7 +40,7 @@ tclap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tclap:<tag>
+      docker pull quay.io/biocontainers/tclap:<tag>
 
    (see `tclap/tags`_ for valid values for ``<tag>``)
 

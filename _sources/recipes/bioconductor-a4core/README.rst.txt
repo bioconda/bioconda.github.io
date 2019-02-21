@@ -45,7 +45,7 @@ bioconductor-a4core
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-a4core:<tag>
+      docker pull quay.io/biocontainers/bioconductor-a4core:<tag>
 
    (see `bioconductor-a4core/tags`_ for valid values for ``<tag>``)
 

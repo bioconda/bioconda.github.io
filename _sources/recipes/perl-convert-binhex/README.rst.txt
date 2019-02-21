@@ -40,7 +40,7 @@ perl-convert-binhex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-convert-binhex:<tag>
+      docker pull quay.io/biocontainers/perl-convert-binhex:<tag>
 
    (see `perl-convert-binhex/tags`_ for valid values for ``<tag>``)
 

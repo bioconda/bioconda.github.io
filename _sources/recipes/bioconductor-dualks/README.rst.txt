@@ -44,7 +44,7 @@ bioconductor-dualks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dualks:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dualks:<tag>
 
    (see `bioconductor-dualks/tags`_ for valid values for ``<tag>``)
 

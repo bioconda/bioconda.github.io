@@ -56,7 +56,7 @@ bioconductor-tilingarray
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tilingarray:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tilingarray:<tag>
 
    (see `bioconductor-tilingarray/tags`_ for valid values for ``<tag>``)
 

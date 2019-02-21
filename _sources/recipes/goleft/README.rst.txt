@@ -40,7 +40,7 @@ goleft
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/goleft:<tag>
+      docker pull quay.io/biocontainers/goleft:<tag>
 
    (see `goleft/tags`_ for valid values for ``<tag>``)
 

@@ -41,7 +41,7 @@ structure
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/structure:<tag>
+      docker pull quay.io/biocontainers/structure:<tag>
 
    (see `structure/tags`_ for valid values for ``<tag>``)
 

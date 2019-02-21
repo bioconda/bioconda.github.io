@@ -60,7 +60,7 @@ perl-soap-lite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-soap-lite:<tag>
+      docker pull quay.io/biocontainers/perl-soap-lite:<tag>
 
    (see `perl-soap-lite/tags`_ for valid values for ``<tag>``)
 

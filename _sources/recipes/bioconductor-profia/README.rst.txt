@@ -57,7 +57,7 @@ bioconductor-profia
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-profia:<tag>
+      docker pull quay.io/biocontainers/bioconductor-profia:<tag>
 
    (see `bioconductor-profia/tags`_ for valid values for ``<tag>``)
 

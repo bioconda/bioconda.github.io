@@ -63,7 +63,7 @@ bioconductor-wavetiling
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-wavetiling:<tag>
+      docker pull quay.io/biocontainers/bioconductor-wavetiling:<tag>
 
    (see `bioconductor-wavetiling/tags`_ for valid values for ``<tag>``)
 

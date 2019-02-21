@@ -54,7 +54,7 @@ sistr_cmd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sistr_cmd:<tag>
+      docker pull quay.io/biocontainers/sistr_cmd:<tag>
 
    (see `sistr_cmd/tags`_ for valid values for ``<tag>``)
 

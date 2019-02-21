@@ -41,7 +41,7 @@ skewer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/skewer:<tag>
+      docker pull quay.io/biocontainers/skewer:<tag>
 
    (see `skewer/tags`_ for valid values for ``<tag>``)
 

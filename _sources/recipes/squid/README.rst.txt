@@ -49,7 +49,7 @@ squid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/squid:<tag>
+      docker pull quay.io/biocontainers/squid:<tag>
 
    (see `squid/tags`_ for valid values for ``<tag>``)
 

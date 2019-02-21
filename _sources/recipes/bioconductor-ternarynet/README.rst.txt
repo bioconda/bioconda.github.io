@@ -47,7 +47,7 @@ bioconductor-ternarynet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ternarynet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ternarynet:<tag>
 
    (see `bioconductor-ternarynet/tags`_ for valid values for ``<tag>``)
 

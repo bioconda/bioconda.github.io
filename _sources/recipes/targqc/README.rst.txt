@@ -82,7 +82,7 @@ targqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/targqc:<tag>
+      docker pull quay.io/biocontainers/targqc:<tag>
 
    (see `targqc/tags`_ for valid values for ``<tag>``)
 

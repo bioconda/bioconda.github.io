@@ -38,7 +38,7 @@ snmf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snmf:<tag>
+      docker pull quay.io/biocontainers/snmf:<tag>
 
    (see `snmf/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ intervalstats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/intervalstats:<tag>
+      docker pull quay.io/biocontainers/intervalstats:<tag>
 
    (see `intervalstats/tags`_ for valid values for ``<tag>``)
 

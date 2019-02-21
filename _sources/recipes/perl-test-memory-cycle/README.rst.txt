@@ -50,7 +50,7 @@ perl-test-memory-cycle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-memory-cycle:<tag>
+      docker pull quay.io/biocontainers/perl-test-memory-cycle:<tag>
 
    (see `perl-test-memory-cycle/tags`_ for valid values for ``<tag>``)
 

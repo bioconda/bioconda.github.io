@@ -45,7 +45,7 @@ bioconductor-rain
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rain:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rain:<tag>
 
    (see `bioconductor-rain/tags`_ for valid values for ``<tag>``)
 

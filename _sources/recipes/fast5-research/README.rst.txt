@@ -48,7 +48,7 @@ fast5-research
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fast5-research:<tag>
+      docker pull quay.io/biocontainers/fast5-research:<tag>
 
    (see `fast5-research/tags`_ for valid values for ``<tag>``)
 

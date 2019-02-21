@@ -49,7 +49,7 @@ bioconductor-arraytools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-arraytools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-arraytools:<tag>
 
    (see `bioconductor-arraytools/tags`_ for valid values for ``<tag>``)
 

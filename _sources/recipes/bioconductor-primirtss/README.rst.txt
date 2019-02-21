@@ -78,7 +78,7 @@ bioconductor-primirtss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-primirtss:<tag>
+      docker pull quay.io/biocontainers/bioconductor-primirtss:<tag>
 
    (see `bioconductor-primirtss/tags`_ for valid values for ``<tag>``)
 

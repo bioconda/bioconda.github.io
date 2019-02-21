@@ -46,7 +46,7 @@ bioformats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioformats:<tag>
+      docker pull quay.io/biocontainers/bioformats:<tag>
 
    (see `bioformats/tags`_ for valid values for ``<tag>``)
 

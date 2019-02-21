@@ -70,7 +70,7 @@ crispresso
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/crispresso:<tag>
+      docker pull quay.io/biocontainers/crispresso:<tag>
 
    (see `crispresso/tags`_ for valid values for ``<tag>``)
 

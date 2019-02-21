@@ -48,7 +48,7 @@ bioconductor-icare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-icare:<tag>
+      docker pull quay.io/biocontainers/bioconductor-icare:<tag>
 
    (see `bioconductor-icare/tags`_ for valid values for ``<tag>``)
 

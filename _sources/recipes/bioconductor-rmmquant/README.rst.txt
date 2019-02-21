@@ -64,7 +64,7 @@ bioconductor-rmmquant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rmmquant:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rmmquant:<tag>
 
    (see `bioconductor-rmmquant/tags`_ for valid values for ``<tag>``)
 

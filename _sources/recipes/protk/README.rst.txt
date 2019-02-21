@@ -46,7 +46,7 @@ protk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/protk:<tag>
+      docker pull quay.io/biocontainers/protk:<tag>
 
    (see `protk/tags`_ for valid values for ``<tag>``)
 

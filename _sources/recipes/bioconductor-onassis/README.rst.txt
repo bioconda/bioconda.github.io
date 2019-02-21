@@ -22,7 +22,27 @@ bioconductor-onassis
 
    |downloads_bioconductor-onassis| |docker_bioconductor-onassis|
 
-   :versions: 
+   :versions: 1.4.5-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-geometadb: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-onassisjavalibs: >=1.4.0,<1.5.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-data.table: 
+   
+   :depends r-dt: 
+   
+   :depends r-knitr: 
+   
+   :depends r-rcurl: 
+   
+   :depends r-rjava: 
+   
+   :depends r-rsqlite: 
    
    :requirements:
 
@@ -38,7 +58,7 @@ bioconductor-onassis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-onassis:<tag>
+      docker pull quay.io/biocontainers/bioconductor-onassis:<tag>
 
    (see `bioconductor-onassis/tags`_ for valid values for ``<tag>``)
 

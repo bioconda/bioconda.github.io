@@ -59,7 +59,7 @@ bioconductor-flowai
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowai:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowai:<tag>
 
    (see `bioconductor-flowai/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ bioconductor-gewist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gewist:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gewist:<tag>
 
    (see `bioconductor-gewist/tags`_ for valid values for ``<tag>``)
 

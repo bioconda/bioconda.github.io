@@ -44,7 +44,7 @@ bioconductor-bsgenome.mmulatta.ucsc.rhemac8
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.mmulatta.ucsc.rhemac8:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.mmulatta.ucsc.rhemac8:<tag>
 
    (see `bioconductor-bsgenome.mmulatta.ucsc.rhemac8/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ detonate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/detonate:<tag>
+      docker pull quay.io/biocontainers/detonate:<tag>
 
    (see `detonate/tags`_ for valid values for ``<tag>``)
 

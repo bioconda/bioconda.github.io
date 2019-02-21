@@ -46,7 +46,7 @@ atropos
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/atropos:<tag>
+      docker pull quay.io/biocontainers/atropos:<tag>
 
    (see `atropos/tags`_ for valid values for ``<tag>``)
 

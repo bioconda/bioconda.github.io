@@ -42,7 +42,7 @@ allegro
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/allegro:<tag>
+      docker pull quay.io/biocontainers/allegro:<tag>
 
    (see `allegro/tags`_ for valid values for ``<tag>``)
 

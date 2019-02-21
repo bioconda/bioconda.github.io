@@ -42,7 +42,7 @@ orfm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/orfm:<tag>
+      docker pull quay.io/biocontainers/orfm:<tag>
 
    (see `orfm/tags`_ for valid values for ``<tag>``)
 

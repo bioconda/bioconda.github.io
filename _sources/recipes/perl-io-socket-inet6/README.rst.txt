@@ -48,7 +48,7 @@ perl-io-socket-inet6
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-socket-inet6:<tag>
+      docker pull quay.io/biocontainers/perl-io-socket-inet6:<tag>
 
    (see `perl-io-socket-inet6/tags`_ for valid values for ``<tag>``)
 

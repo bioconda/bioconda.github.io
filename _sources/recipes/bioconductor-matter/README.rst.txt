@@ -53,7 +53,7 @@ bioconductor-matter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-matter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-matter:<tag>
 
    (see `bioconductor-matter/tags`_ for valid values for ``<tag>``)
 

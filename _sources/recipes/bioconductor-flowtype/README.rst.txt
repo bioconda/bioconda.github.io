@@ -38,7 +38,7 @@ bioconductor-flowtype
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowtype:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowtype:<tag>
 
    (see `bioconductor-flowtype/tags`_ for valid values for ``<tag>``)
 

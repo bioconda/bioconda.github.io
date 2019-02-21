@@ -54,7 +54,7 @@ batvi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/batvi:<tag>
+      docker pull quay.io/biocontainers/batvi:<tag>
 
    (see `batvi/tags`_ for valid values for ``<tag>``)
 

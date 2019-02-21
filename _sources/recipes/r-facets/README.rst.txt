@@ -47,7 +47,7 @@ r-facets
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-facets:<tag>
+      docker pull quay.io/biocontainers/r-facets:<tag>
 
    (see `r-facets/tags`_ for valid values for ``<tag>``)
 

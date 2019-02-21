@@ -48,7 +48,7 @@ pyloh
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyloh:<tag>
+      docker pull quay.io/biocontainers/pyloh:<tag>
 
    (see `pyloh/tags`_ for valid values for ``<tag>``)
 

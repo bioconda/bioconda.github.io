@@ -40,7 +40,7 @@ r-argumentcheck
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-argumentcheck:<tag>
+      docker pull quay.io/biocontainers/r-argumentcheck:<tag>
 
    (see `r-argumentcheck/tags`_ for valid values for ``<tag>``)
 

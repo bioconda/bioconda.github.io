@@ -44,7 +44,7 @@ plant_tribes_gene_family_phylogeny_builder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plant_tribes_gene_family_phylogeny_builder:<tag>
+      docker pull quay.io/biocontainers/plant_tribes_gene_family_phylogeny_builder:<tag>
 
    (see `plant_tribes_gene_family_phylogeny_builder/tags`_ for valid values for ``<tag>``)
 

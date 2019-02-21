@@ -40,7 +40,7 @@ perl-mozilla-ca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mozilla-ca:<tag>
+      docker pull quay.io/biocontainers/perl-mozilla-ca:<tag>
 
    (see `perl-mozilla-ca/tags`_ for valid values for ``<tag>``)
 

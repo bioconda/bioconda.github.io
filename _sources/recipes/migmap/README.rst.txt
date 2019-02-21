@@ -42,7 +42,7 @@ migmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/migmap:<tag>
+      docker pull quay.io/biocontainers/migmap:<tag>
 
    (see `migmap/tags`_ for valid values for ``<tag>``)
 

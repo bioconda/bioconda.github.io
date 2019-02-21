@@ -42,7 +42,7 @@ perl-test-requiresinternet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-requiresinternet:<tag>
+      docker pull quay.io/biocontainers/perl-test-requiresinternet:<tag>
 
    (see `perl-test-requiresinternet/tags`_ for valid values for ``<tag>``)
 

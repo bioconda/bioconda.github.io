@@ -40,7 +40,7 @@ perl-digest-hmac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-digest-hmac:<tag>
+      docker pull quay.io/biocontainers/perl-digest-hmac:<tag>
 
    (see `perl-digest-hmac/tags`_ for valid values for ``<tag>``)
 

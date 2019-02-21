@@ -51,7 +51,7 @@ bioconductor-maigespack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-maigespack:<tag>
+      docker pull quay.io/biocontainers/bioconductor-maigespack:<tag>
 
    (see `bioconductor-maigespack/tags`_ for valid values for ``<tag>``)
 

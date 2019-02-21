@@ -44,7 +44,7 @@ pycluster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pycluster:<tag>
+      docker pull quay.io/biocontainers/pycluster:<tag>
 
    (see `pycluster/tags`_ for valid values for ``<tag>``)
 

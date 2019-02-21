@@ -46,7 +46,7 @@ yacrd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/yacrd:<tag>
+      docker pull quay.io/biocontainers/yacrd:<tag>
 
    (see `yacrd/tags`_ for valid values for ``<tag>``)
 

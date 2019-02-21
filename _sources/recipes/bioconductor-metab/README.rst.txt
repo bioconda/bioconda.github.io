@@ -47,7 +47,7 @@ bioconductor-metab
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metab:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metab:<tag>
 
    (see `bioconductor-metab/tags`_ for valid values for ``<tag>``)
 

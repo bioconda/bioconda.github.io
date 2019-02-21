@@ -46,7 +46,7 @@ bioconductor-singlecellexperiment
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-singlecellexperiment:<tag>
+      docker pull quay.io/biocontainers/bioconductor-singlecellexperiment:<tag>
 
    (see `bioconductor-singlecellexperiment/tags`_ for valid values for ``<tag>``)
 

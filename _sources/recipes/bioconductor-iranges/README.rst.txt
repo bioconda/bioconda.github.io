@@ -47,7 +47,7 @@ bioconductor-iranges
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-iranges:<tag>
+      docker pull quay.io/biocontainers/bioconductor-iranges:<tag>
 
    (see `bioconductor-iranges/tags`_ for valid values for ``<tag>``)
 

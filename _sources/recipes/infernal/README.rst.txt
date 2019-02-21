@@ -40,7 +40,7 @@ infernal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/infernal:<tag>
+      docker pull quay.io/biocontainers/infernal:<tag>
 
    (see `infernal/tags`_ for valid values for ``<tag>``)
 

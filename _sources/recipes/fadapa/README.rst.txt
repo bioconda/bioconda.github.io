@@ -40,7 +40,7 @@ fadapa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fadapa:<tag>
+      docker pull quay.io/biocontainers/fadapa:<tag>
 
    (see `fadapa/tags`_ for valid values for ``<tag>``)
 

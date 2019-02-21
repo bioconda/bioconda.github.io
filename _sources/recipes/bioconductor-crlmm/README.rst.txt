@@ -77,7 +77,7 @@ bioconductor-crlmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-crlmm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-crlmm:<tag>
 
    (see `bioconductor-crlmm/tags`_ for valid values for ``<tag>``)
 

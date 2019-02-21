@@ -54,7 +54,7 @@ bioconductor-guitar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-guitar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-guitar:<tag>
 
    (see `bioconductor-guitar/tags`_ for valid values for ``<tag>``)
 

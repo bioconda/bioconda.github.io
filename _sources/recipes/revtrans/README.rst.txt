@@ -41,7 +41,7 @@ revtrans
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/revtrans:<tag>
+      docker pull quay.io/biocontainers/revtrans:<tag>
 
    (see `revtrans/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ bioconductor-humancytosnp12v2p1hcrlmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-humancytosnp12v2p1hcrlmm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-humancytosnp12v2p1hcrlmm:<tag>
 
    (see `bioconductor-humancytosnp12v2p1hcrlmm/tags`_ for valid values for ``<tag>``)
 

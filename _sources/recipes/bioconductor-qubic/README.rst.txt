@@ -52,7 +52,7 @@ bioconductor-qubic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qubic:<tag>
+      docker pull quay.io/biocontainers/bioconductor-qubic:<tag>
 
    (see `bioconductor-qubic/tags`_ for valid values for ``<tag>``)
 

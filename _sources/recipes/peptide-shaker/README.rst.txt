@@ -47,7 +47,7 @@ peptide-shaker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/peptide-shaker:<tag>
+      docker pull quay.io/biocontainers/peptide-shaker:<tag>
 
    (see `peptide-shaker/tags`_ for valid values for ``<tag>``)
 

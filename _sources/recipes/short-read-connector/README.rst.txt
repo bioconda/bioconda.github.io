@@ -42,7 +42,7 @@ shortreadconnector
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shortreadconnector:<tag>
+      docker pull quay.io/biocontainers/shortreadconnector:<tag>
 
    (see `shortreadconnector/tags`_ for valid values for ``<tag>``)
 

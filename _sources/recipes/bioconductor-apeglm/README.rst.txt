@@ -56,7 +56,7 @@ bioconductor-apeglm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-apeglm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-apeglm:<tag>
 
    (see `bioconductor-apeglm/tags`_ for valid values for ``<tag>``)
 

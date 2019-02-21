@@ -47,7 +47,7 @@ bioconductor-convert
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-convert:<tag>
+      docker pull quay.io/biocontainers/bioconductor-convert:<tag>
 
    (see `bioconductor-convert/tags`_ for valid values for ``<tag>``)
 

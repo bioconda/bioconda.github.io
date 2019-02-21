@@ -50,7 +50,7 @@ ucsc-tdbquery
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-tdbquery:<tag>
+      docker pull quay.io/biocontainers/ucsc-tdbquery:<tag>
 
    (see `ucsc-tdbquery/tags`_ for valid values for ``<tag>``)
 

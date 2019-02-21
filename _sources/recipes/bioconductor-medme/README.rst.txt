@@ -49,7 +49,7 @@ bioconductor-medme
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-medme:<tag>
+      docker pull quay.io/biocontainers/bioconductor-medme:<tag>
 
    (see `bioconductor-medme/tags`_ for valid values for ``<tag>``)
 

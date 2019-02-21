@@ -46,7 +46,7 @@ bioconductor-fcbf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fcbf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fcbf:<tag>
 
    (see `bioconductor-fcbf/tags`_ for valid values for ``<tag>``)
 

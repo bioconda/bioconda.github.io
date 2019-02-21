@@ -52,7 +52,7 @@ dimspy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dimspy:<tag>
+      docker pull quay.io/biocontainers/dimspy:<tag>
 
    (see `dimspy/tags`_ for valid values for ``<tag>``)
 

@@ -53,7 +53,7 @@ bioconductor-sispa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sispa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sispa:<tag>
 
    (see `bioconductor-sispa/tags`_ for valid values for ``<tag>``)
 

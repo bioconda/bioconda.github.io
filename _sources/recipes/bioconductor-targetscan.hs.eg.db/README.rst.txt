@@ -44,7 +44,7 @@ bioconductor-targetscan.hs.eg.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-targetscan.hs.eg.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-targetscan.hs.eg.db:<tag>
 
    (see `bioconductor-targetscan.hs.eg.db/tags`_ for valid values for ``<tag>``)
 

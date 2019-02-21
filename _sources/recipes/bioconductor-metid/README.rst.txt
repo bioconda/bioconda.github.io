@@ -50,7 +50,7 @@ bioconductor-metid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metid:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metid:<tag>
 
    (see `bioconductor-metid/tags`_ for valid values for ``<tag>``)
 

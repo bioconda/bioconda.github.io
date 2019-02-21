@@ -51,7 +51,7 @@ bioconductor-ddct
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ddct:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ddct:<tag>
 
    (see `bioconductor-ddct/tags`_ for valid values for ``<tag>``)
 

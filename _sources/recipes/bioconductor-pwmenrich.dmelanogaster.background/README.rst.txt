@@ -44,7 +44,7 @@ bioconductor-pwmenrich.dmelanogaster.background
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pwmenrich.dmelanogaster.background:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pwmenrich.dmelanogaster.background:<tag>
 
    (see `bioconductor-pwmenrich.dmelanogaster.background/tags`_ for valid values for ``<tag>``)
 

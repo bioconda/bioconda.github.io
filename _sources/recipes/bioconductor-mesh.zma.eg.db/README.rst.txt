@@ -44,7 +44,7 @@ bioconductor-mesh.zma.eg.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mesh.zma.eg.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mesh.zma.eg.db:<tag>
 
    (see `bioconductor-mesh.zma.eg.db/tags`_ for valid values for ``<tag>``)
 

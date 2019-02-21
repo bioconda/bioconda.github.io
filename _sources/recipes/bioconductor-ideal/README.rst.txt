@@ -100,7 +100,7 @@ bioconductor-ideal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ideal:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ideal:<tag>
 
    (see `bioconductor-ideal/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ pgma-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pgma-simple:<tag>
+      docker pull quay.io/biocontainers/pgma-simple:<tag>
 
    (see `pgma-simple/tags`_ for valid values for ``<tag>``)
 

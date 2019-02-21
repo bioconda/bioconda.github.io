@@ -60,7 +60,7 @@ lefse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lefse:<tag>
+      docker pull quay.io/biocontainers/lefse:<tag>
 
    (see `lefse/tags`_ for valid values for ``<tag>``)
 

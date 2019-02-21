@@ -44,7 +44,7 @@ metametamerge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metametamerge:<tag>
+      docker pull quay.io/biocontainers/metametamerge:<tag>
 
    (see `metametamerge/tags`_ for valid values for ``<tag>``)
 

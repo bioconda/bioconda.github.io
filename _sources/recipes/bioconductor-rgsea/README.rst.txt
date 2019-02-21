@@ -43,7 +43,7 @@ bioconductor-rgsea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgsea:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rgsea:<tag>
 
    (see `bioconductor-rgsea/tags`_ for valid values for ``<tag>``)
 

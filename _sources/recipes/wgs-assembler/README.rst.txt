@@ -60,7 +60,7 @@ wgs-assembler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wgs-assembler:<tag>
+      docker pull quay.io/biocontainers/wgs-assembler:<tag>
 
    (see `wgs-assembler/tags`_ for valid values for ``<tag>``)
 

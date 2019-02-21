@@ -73,7 +73,7 @@ mgkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mgkit:<tag>
+      docker pull quay.io/biocontainers/mgkit:<tag>
 
    (see `mgkit/tags`_ for valid values for ``<tag>``)
 

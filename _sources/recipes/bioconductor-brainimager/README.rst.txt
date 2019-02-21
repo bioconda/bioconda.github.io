@@ -54,7 +54,7 @@ bioconductor-brainimager
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-brainimager:<tag>
+      docker pull quay.io/biocontainers/bioconductor-brainimager:<tag>
 
    (see `bioconductor-brainimager/tags`_ for valid values for ``<tag>``)
 

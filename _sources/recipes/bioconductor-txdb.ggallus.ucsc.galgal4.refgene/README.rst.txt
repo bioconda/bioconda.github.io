@@ -46,7 +46,7 @@ bioconductor-txdb.ggallus.ucsc.galgal4.refgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal4.refgene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal4.refgene:<tag>
 
    (see `bioconductor-txdb.ggallus.ucsc.galgal4.refgene/tags`_ for valid values for ``<tag>``)
 

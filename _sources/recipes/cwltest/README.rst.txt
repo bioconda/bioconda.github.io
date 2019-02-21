@@ -54,7 +54,7 @@ cwltest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cwltest:<tag>
+      docker pull quay.io/biocontainers/cwltest:<tag>
 
    (see `cwltest/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-html-entities-numbered
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-entities-numbered:<tag>
+      docker pull quay.io/biocontainers/perl-html-entities-numbered:<tag>
 
    (see `perl-html-entities-numbered/tags`_ for valid values for ``<tag>``)
 

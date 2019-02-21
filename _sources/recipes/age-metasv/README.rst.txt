@@ -40,7 +40,7 @@ age-metasv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/age-metasv:<tag>
+      docker pull quay.io/biocontainers/age-metasv:<tag>
 
    (see `age-metasv/tags`_ for valid values for ``<tag>``)
 

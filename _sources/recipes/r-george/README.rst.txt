@@ -46,7 +46,7 @@ r-george
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-george:<tag>
+      docker pull quay.io/biocontainers/r-george:<tag>
 
    (see `r-george/tags`_ for valid values for ``<tag>``)
 

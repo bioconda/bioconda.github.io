@@ -46,7 +46,7 @@ bioconductor-jazaerimetadata.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-jazaerimetadata.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-jazaerimetadata.db:<tag>
 
    (see `bioconductor-jazaerimetadata.db/tags`_ for valid values for ``<tag>``)
 

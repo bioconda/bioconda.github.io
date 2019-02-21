@@ -45,7 +45,7 @@ bioconductor-genemeta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genemeta:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genemeta:<tag>
 
    (see `bioconductor-genemeta/tags`_ for valid values for ``<tag>``)
 

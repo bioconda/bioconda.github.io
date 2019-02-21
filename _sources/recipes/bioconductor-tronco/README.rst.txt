@@ -70,7 +70,7 @@ bioconductor-tronco
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tronco:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tronco:<tag>
 
    (see `bioconductor-tronco/tags`_ for valid values for ``<tag>``)
 

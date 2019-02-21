@@ -42,7 +42,7 @@ bioconductor-illuminadatatestfiles
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-illuminadatatestfiles:<tag>
+      docker pull quay.io/biocontainers/bioconductor-illuminadatatestfiles:<tag>
 
    (see `bioconductor-illuminadatatestfiles/tags`_ for valid values for ``<tag>``)
 

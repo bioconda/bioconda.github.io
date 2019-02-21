@@ -42,7 +42,7 @@ python-omero
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-omero:<tag>
+      docker pull quay.io/biocontainers/python-omero:<tag>
 
    (see `python-omero/tags`_ for valid values for ``<tag>``)
 

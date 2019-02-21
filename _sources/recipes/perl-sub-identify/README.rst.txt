@@ -40,7 +40,7 @@ perl-sub-identify
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-identify:<tag>
+      docker pull quay.io/biocontainers/perl-sub-identify:<tag>
 
    (see `perl-sub-identify/tags`_ for valid values for ``<tag>``)
 

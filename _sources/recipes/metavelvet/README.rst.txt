@@ -48,7 +48,7 @@ metavelvet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metavelvet:<tag>
+      docker pull quay.io/biocontainers/metavelvet:<tag>
 
    (see `metavelvet/tags`_ for valid values for ``<tag>``)
 

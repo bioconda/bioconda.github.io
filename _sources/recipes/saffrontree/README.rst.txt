@@ -50,7 +50,7 @@ saffrontree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/saffrontree:<tag>
+      docker pull quay.io/biocontainers/saffrontree:<tag>
 
    (see `saffrontree/tags`_ for valid values for ``<tag>``)
 

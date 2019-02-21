@@ -40,7 +40,7 @@ hmmer2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hmmer2:<tag>
+      docker pull quay.io/biocontainers/hmmer2:<tag>
 
    (see `hmmer2/tags`_ for valid values for ``<tag>``)
 

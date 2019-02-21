@@ -50,7 +50,7 @@ bioconductor-curatedtcgadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-curatedtcgadata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-curatedtcgadata:<tag>
 
    (see `bioconductor-curatedtcgadata/tags`_ for valid values for ``<tag>``)
 

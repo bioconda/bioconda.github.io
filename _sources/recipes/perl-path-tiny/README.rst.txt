@@ -40,7 +40,7 @@ perl-path-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-path-tiny:<tag>
+      docker pull quay.io/biocontainers/perl-path-tiny:<tag>
 
    (see `perl-path-tiny/tags`_ for valid values for ``<tag>``)
 

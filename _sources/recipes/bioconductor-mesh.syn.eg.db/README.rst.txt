@@ -44,7 +44,7 @@ bioconductor-mesh.syn.eg.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mesh.syn.eg.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mesh.syn.eg.db:<tag>
 
    (see `bioconductor-mesh.syn.eg.db/tags`_ for valid values for ``<tag>``)
 

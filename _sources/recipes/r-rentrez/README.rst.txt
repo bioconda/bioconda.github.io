@@ -46,7 +46,7 @@ r-rentrez
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rentrez:<tag>
+      docker pull quay.io/biocontainers/r-rentrez:<tag>
 
    (see `r-rentrez/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ bioconductor-metagxbreast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metagxbreast:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metagxbreast:<tag>
 
    (see `bioconductor-metagxbreast/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ perl-moosex-singleton
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-singleton:<tag>
+      docker pull quay.io/biocontainers/perl-moosex-singleton:<tag>
 
    (see `perl-moosex-singleton/tags`_ for valid values for ``<tag>``)
 

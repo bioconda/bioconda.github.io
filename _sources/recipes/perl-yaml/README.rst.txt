@@ -40,7 +40,7 @@ perl-yaml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-yaml:<tag>
+      docker pull quay.io/biocontainers/perl-yaml:<tag>
 
    (see `perl-yaml/tags`_ for valid values for ``<tag>``)
 

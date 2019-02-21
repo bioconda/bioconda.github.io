@@ -63,7 +63,7 @@ bioconductor-splicinggraphs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-splicinggraphs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-splicinggraphs:<tag>
 
    (see `bioconductor-splicinggraphs/tags`_ for valid values for ``<tag>``)
 

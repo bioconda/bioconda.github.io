@@ -72,7 +72,7 @@ fastx_toolkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastx_toolkit:<tag>
+      docker pull quay.io/biocontainers/fastx_toolkit:<tag>
 
    (see `fastx_toolkit/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ bioconductor-michip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-michip:<tag>
+      docker pull quay.io/biocontainers/bioconductor-michip:<tag>
 
    (see `bioconductor-michip/tags`_ for valid values for ``<tag>``)
 

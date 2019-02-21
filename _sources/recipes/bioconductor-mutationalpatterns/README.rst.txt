@@ -70,7 +70,7 @@ bioconductor-mutationalpatterns
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mutationalpatterns:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mutationalpatterns:<tag>
 
    (see `bioconductor-mutationalpatterns/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-env
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-env:<tag>
+      docker pull quay.io/biocontainers/perl-env:<tag>
 
    (see `perl-env/tags`_ for valid values for ``<tag>``)
 

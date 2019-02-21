@@ -58,7 +58,7 @@ whatshap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/whatshap:<tag>
+      docker pull quay.io/biocontainers/whatshap:<tag>
 
    (see `whatshap/tags`_ for valid values for ``<tag>``)
 

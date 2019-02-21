@@ -50,7 +50,7 @@ ucsc-ticktodate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-ticktodate:<tag>
+      docker pull quay.io/biocontainers/ucsc-ticktodate:<tag>
 
    (see `ucsc-ticktodate/tags`_ for valid values for ``<tag>``)
 

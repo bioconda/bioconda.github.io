@@ -44,7 +44,7 @@ erds
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/erds:<tag>
+      docker pull quay.io/biocontainers/erds:<tag>
 
    (see `erds/tags`_ for valid values for ``<tag>``)
 

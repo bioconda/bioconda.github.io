@@ -47,7 +47,7 @@ bioconductor-methylmnm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methylmnm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methylmnm:<tag>
 
    (see `bioconductor-methylmnm/tags`_ for valid values for ``<tag>``)
 

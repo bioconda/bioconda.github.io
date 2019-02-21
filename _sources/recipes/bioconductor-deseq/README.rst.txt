@@ -59,7 +59,7 @@ bioconductor-deseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-deseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-deseq:<tag>
 
    (see `bioconductor-deseq/tags`_ for valid values for ``<tag>``)
 

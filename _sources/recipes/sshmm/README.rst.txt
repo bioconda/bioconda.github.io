@@ -62,7 +62,7 @@ sshmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sshmm:<tag>
+      docker pull quay.io/biocontainers/sshmm:<tag>
 
    (see `sshmm/tags`_ for valid values for ``<tag>``)
 

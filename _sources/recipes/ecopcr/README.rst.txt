@@ -46,7 +46,7 @@ ecopcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ecopcr:<tag>
+      docker pull quay.io/biocontainers/ecopcr:<tag>
 
    (see `ecopcr/tags`_ for valid values for ``<tag>``)
 

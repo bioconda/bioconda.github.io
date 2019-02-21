@@ -61,7 +61,7 @@ bioconductor-category
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-category:<tag>
+      docker pull quay.io/biocontainers/bioconductor-category:<tag>
 
    (see `bioconductor-category/tags`_ for valid values for ``<tag>``)
 

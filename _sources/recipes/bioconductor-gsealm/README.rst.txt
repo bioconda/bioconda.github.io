@@ -43,7 +43,7 @@ bioconductor-gsealm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gsealm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gsealm:<tag>
 
    (see `bioconductor-gsealm/tags`_ for valid values for ``<tag>``)
 

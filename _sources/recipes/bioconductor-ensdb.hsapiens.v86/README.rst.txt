@@ -44,7 +44,7 @@ bioconductor-ensdb.hsapiens.v86
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ensdb.hsapiens.v86:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86:<tag>
 
    (see `bioconductor-ensdb.hsapiens.v86/tags`_ for valid values for ``<tag>``)
 

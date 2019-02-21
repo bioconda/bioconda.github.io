@@ -89,7 +89,7 @@ bioconductor-purecn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-purecn:<tag>
+      docker pull quay.io/biocontainers/bioconductor-purecn:<tag>
 
    (see `bioconductor-purecn/tags`_ for valid values for ``<tag>``)
 

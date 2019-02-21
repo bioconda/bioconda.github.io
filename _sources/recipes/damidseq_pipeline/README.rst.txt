@@ -48,7 +48,7 @@ damidseq_pipeline
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/damidseq_pipeline:<tag>
+      docker pull quay.io/biocontainers/damidseq_pipeline:<tag>
 
    (see `damidseq_pipeline/tags`_ for valid values for ``<tag>``)
 

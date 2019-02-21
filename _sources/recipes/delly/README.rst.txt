@@ -50,7 +50,7 @@ delly
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/delly:<tag>
+      docker pull quay.io/biocontainers/delly:<tag>
 
    (see `delly/tags`_ for valid values for ``<tag>``)
 

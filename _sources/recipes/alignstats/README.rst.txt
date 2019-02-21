@@ -42,7 +42,7 @@ alignstats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/alignstats:<tag>
+      docker pull quay.io/biocontainers/alignstats:<tag>
 
    (see `alignstats/tags`_ for valid values for ``<tag>``)
 

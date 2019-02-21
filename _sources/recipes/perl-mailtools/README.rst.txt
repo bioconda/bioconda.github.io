@@ -44,7 +44,7 @@ perl-mailtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mailtools:<tag>
+      docker pull quay.io/biocontainers/perl-mailtools:<tag>
 
    (see `perl-mailtools/tags`_ for valid values for ``<tag>``)
 

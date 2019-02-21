@@ -42,7 +42,7 @@ plascope
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plascope:<tag>
+      docker pull quay.io/biocontainers/plascope:<tag>
 
    (see `plascope/tags`_ for valid values for ``<tag>``)
 

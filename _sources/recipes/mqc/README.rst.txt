@@ -66,7 +66,7 @@ mqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mqc:<tag>
+      docker pull quay.io/biocontainers/mqc:<tag>
 
    (see `mqc/tags`_ for valid values for ``<tag>``)
 

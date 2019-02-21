@@ -46,7 +46,7 @@ sailfish
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sailfish:<tag>
+      docker pull quay.io/biocontainers/sailfish:<tag>
 
    (see `sailfish/tags`_ for valid values for ``<tag>``)
 

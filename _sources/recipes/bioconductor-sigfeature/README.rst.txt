@@ -60,7 +60,7 @@ bioconductor-sigfeature
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sigfeature:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sigfeature:<tag>
 
    (see `bioconductor-sigfeature/tags`_ for valid values for ``<tag>``)
 

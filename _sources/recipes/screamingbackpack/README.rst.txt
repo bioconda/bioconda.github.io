@@ -40,7 +40,7 @@ screamingbackpack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/screamingbackpack:<tag>
+      docker pull quay.io/biocontainers/screamingbackpack:<tag>
 
    (see `screamingbackpack/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ genepender
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genepender:<tag>
+      docker pull quay.io/biocontainers/genepender:<tag>
 
    (see `genepender/tags`_ for valid values for ``<tag>``)
 

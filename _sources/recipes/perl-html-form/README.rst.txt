@@ -70,7 +70,7 @@ perl-html-form
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-form:<tag>
+      docker pull quay.io/biocontainers/perl-html-form:<tag>
 
    (see `perl-html-form/tags`_ for valid values for ``<tag>``)
 

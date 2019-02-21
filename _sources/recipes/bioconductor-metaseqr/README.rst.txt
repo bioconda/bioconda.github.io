@@ -70,7 +70,7 @@ bioconductor-metaseqr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metaseqr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metaseqr:<tag>
 
    (see `bioconductor-metaseqr/tags`_ for valid values for ``<tag>``)
 

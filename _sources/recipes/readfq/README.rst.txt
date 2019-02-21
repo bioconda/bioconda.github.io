@@ -42,7 +42,7 @@ readfq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/readfq:<tag>
+      docker pull quay.io/biocontainers/readfq:<tag>
 
    (see `readfq/tags`_ for valid values for ``<tag>``)
 

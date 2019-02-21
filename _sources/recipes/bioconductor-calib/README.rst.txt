@@ -47,7 +47,7 @@ bioconductor-calib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-calib:<tag>
+      docker pull quay.io/biocontainers/bioconductor-calib:<tag>
 
    (see `bioconductor-calib/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ bioconductor-cgen
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cgen:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cgen:<tag>
 
    (see `bioconductor-cgen/tags`_ for valid values for ``<tag>``)
 

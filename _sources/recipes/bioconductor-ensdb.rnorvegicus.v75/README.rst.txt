@@ -44,7 +44,7 @@ bioconductor-ensdb.rnorvegicus.v75
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ensdb.rnorvegicus.v75:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75:<tag>
 
    (see `bioconductor-ensdb.rnorvegicus.v75/tags`_ for valid values for ``<tag>``)
 

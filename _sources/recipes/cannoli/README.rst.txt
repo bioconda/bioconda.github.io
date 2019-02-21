@@ -42,7 +42,7 @@ cannoli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cannoli:<tag>
+      docker pull quay.io/biocontainers/cannoli:<tag>
 
    (see `cannoli/tags`_ for valid values for ``<tag>``)
 

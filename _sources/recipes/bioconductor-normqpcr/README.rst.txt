@@ -48,7 +48,7 @@ bioconductor-normqpcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-normqpcr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-normqpcr:<tag>
 
    (see `bioconductor-normqpcr/tags`_ for valid values for ``<tag>``)
 

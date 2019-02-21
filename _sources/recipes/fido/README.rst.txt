@@ -40,7 +40,7 @@ fido
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fido:<tag>
+      docker pull quay.io/biocontainers/fido:<tag>
 
    (see `fido/tags`_ for valid values for ``<tag>``)
 

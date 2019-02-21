@@ -46,7 +46,7 @@ eggnog-mapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/eggnog-mapper:<tag>
+      docker pull quay.io/biocontainers/eggnog-mapper:<tag>
 
    (see `eggnog-mapper/tags`_ for valid values for ``<tag>``)
 

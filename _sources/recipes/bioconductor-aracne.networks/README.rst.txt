@@ -44,7 +44,7 @@ bioconductor-aracne.networks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-aracne.networks:<tag>
+      docker pull quay.io/biocontainers/bioconductor-aracne.networks:<tag>
 
    (see `bioconductor-aracne.networks/tags`_ for valid values for ``<tag>``)
 

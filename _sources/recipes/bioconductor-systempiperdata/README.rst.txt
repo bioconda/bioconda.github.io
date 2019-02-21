@@ -44,7 +44,7 @@ bioconductor-systempiperdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-systempiperdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-systempiperdata:<tag>
 
    (see `bioconductor-systempiperdata/tags`_ for valid values for ``<tag>``)
 

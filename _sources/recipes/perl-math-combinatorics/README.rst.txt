@@ -40,7 +40,7 @@ perl-math-combinatorics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-combinatorics:<tag>
+      docker pull quay.io/biocontainers/perl-math-combinatorics:<tag>
 
    (see `perl-math-combinatorics/tags`_ for valid values for ``<tag>``)
 

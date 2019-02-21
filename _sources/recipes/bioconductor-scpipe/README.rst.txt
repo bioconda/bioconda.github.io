@@ -96,7 +96,7 @@ bioconductor-scpipe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scpipe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-scpipe:<tag>
 
    (see `bioconductor-scpipe/tags`_ for valid values for ``<tag>``)
 

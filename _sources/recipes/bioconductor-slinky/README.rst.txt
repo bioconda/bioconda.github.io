@@ -58,7 +58,7 @@ bioconductor-slinky
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-slinky:<tag>
+      docker pull quay.io/biocontainers/bioconductor-slinky:<tag>
 
    (see `bioconductor-slinky/tags`_ for valid values for ``<tag>``)
 

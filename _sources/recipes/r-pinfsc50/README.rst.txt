@@ -40,7 +40,7 @@ r-pinfsc50
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-pinfsc50:<tag>
+      docker pull quay.io/biocontainers/r-pinfsc50:<tag>
 
    (see `r-pinfsc50/tags`_ for valid values for ``<tag>``)
 

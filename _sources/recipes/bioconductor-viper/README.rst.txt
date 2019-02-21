@@ -49,7 +49,7 @@ bioconductor-viper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-viper:<tag>
+      docker pull quay.io/biocontainers/bioconductor-viper:<tag>
 
    (see `bioconductor-viper/tags`_ for valid values for ``<tag>``)
 

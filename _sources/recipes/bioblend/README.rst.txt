@@ -50,7 +50,7 @@ bioblend
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioblend:<tag>
+      docker pull quay.io/biocontainers/bioblend:<tag>
 
    (see `bioblend/tags`_ for valid values for ``<tag>``)
 

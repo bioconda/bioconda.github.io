@@ -42,7 +42,7 @@ soapaligner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/soapaligner:<tag>
+      docker pull quay.io/biocontainers/soapaligner:<tag>
 
    (see `soapaligner/tags`_ for valid values for ``<tag>``)
 

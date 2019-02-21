@@ -47,7 +47,7 @@ atac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/atac:<tag>
+      docker pull quay.io/biocontainers/atac:<tag>
 
    (see `atac/tags`_ for valid values for ``<tag>``)
 

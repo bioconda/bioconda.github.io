@@ -42,7 +42,7 @@ textinput
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/textinput:<tag>
+      docker pull quay.io/biocontainers/textinput:<tag>
 
    (see `textinput/tags`_ for valid values for ``<tag>``)
 

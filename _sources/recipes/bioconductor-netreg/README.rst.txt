@@ -48,7 +48,7 @@ bioconductor-netreg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-netreg:<tag>
+      docker pull quay.io/biocontainers/bioconductor-netreg:<tag>
 
    (see `bioconductor-netreg/tags`_ for valid values for ``<tag>``)
 

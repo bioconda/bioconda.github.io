@@ -45,7 +45,7 @@ dia_umpire
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dia_umpire:<tag>
+      docker pull quay.io/biocontainers/dia_umpire:<tag>
 
    (see `dia_umpire/tags`_ for valid values for ``<tag>``)
 

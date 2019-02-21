@@ -48,7 +48,7 @@ r-diffcorr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-diffcorr:<tag>
+      docker pull quay.io/biocontainers/r-diffcorr:<tag>
 
    (see `r-diffcorr/tags`_ for valid values for ``<tag>``)
 

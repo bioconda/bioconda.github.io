@@ -77,7 +77,7 @@ bioconductor-easyrnaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-easyrnaseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-easyrnaseq:<tag>
 
    (see `bioconductor-easyrnaseq/tags`_ for valid values for ``<tag>``)
 

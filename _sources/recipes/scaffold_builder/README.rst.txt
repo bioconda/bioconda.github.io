@@ -43,7 +43,7 @@ scaffold_builder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scaffold_builder:<tag>
+      docker pull quay.io/biocontainers/scaffold_builder:<tag>
 
    (see `scaffold_builder/tags`_ for valid values for ``<tag>``)
 

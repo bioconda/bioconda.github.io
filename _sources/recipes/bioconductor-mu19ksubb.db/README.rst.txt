@@ -46,7 +46,7 @@ bioconductor-mu19ksubb.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mu19ksubb.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mu19ksubb.db:<tag>
 
    (see `bioconductor-mu19ksubb.db/tags`_ for valid values for ``<tag>``)
 

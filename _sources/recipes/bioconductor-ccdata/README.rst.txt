@@ -42,7 +42,7 @@ bioconductor-ccdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ccdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ccdata:<tag>
 
    (see `bioconductor-ccdata/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ ucsc-rasqlquery
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-rasqlquery:<tag>
+      docker pull quay.io/biocontainers/ucsc-rasqlquery:<tag>
 
    (see `ucsc-rasqlquery/tags`_ for valid values for ``<tag>``)
 

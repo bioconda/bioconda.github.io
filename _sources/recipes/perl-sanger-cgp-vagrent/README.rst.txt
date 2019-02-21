@@ -46,7 +46,7 @@ perl-sanger-cgp-vagrent
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sanger-cgp-vagrent:<tag>
+      docker pull quay.io/biocontainers/perl-sanger-cgp-vagrent:<tag>
 
    (see `perl-sanger-cgp-vagrent/tags`_ for valid values for ``<tag>``)
 

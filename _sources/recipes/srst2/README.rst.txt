@@ -48,7 +48,7 @@ srst2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/srst2:<tag>
+      docker pull quay.io/biocontainers/srst2:<tag>
 
    (see `srst2/tags`_ for valid values for ``<tag>``)
 

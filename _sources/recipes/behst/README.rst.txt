@@ -54,7 +54,7 @@ behst
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/behst:<tag>
+      docker pull quay.io/biocontainers/behst:<tag>
 
    (see `behst/tags`_ for valid values for ``<tag>``)
 

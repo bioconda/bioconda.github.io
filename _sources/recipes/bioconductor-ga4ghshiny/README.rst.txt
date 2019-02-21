@@ -68,7 +68,7 @@ bioconductor-ga4ghshiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ga4ghshiny:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ga4ghshiny:<tag>
 
    (see `bioconductor-ga4ghshiny/tags`_ for valid values for ``<tag>``)
 

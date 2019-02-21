@@ -42,7 +42,7 @@ bfc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bfc:<tag>
+      docker pull quay.io/biocontainers/bfc:<tag>
 
    (see `bfc/tags`_ for valid values for ``<tag>``)
 

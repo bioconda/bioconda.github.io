@@ -62,7 +62,7 @@ perl-moosex-types
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-types:<tag>
+      docker pull quay.io/biocontainers/perl-moosex-types:<tag>
 
    (see `perl-moosex-types/tags`_ for valid values for ``<tag>``)
 

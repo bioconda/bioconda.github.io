@@ -40,7 +40,7 @@ compalignp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/compalignp:<tag>
+      docker pull quay.io/biocontainers/compalignp:<tag>
 
    (see `compalignp/tags`_ for valid values for ``<tag>``)
 

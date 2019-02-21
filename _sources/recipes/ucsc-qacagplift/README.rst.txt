@@ -50,7 +50,7 @@ ucsc-qacagplift
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-qacagplift:<tag>
+      docker pull quay.io/biocontainers/ucsc-qacagplift:<tag>
 
    (see `ucsc-qacagplift/tags`_ for valid values for ``<tag>``)
 

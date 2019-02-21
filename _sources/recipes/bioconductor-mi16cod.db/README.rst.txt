@@ -46,7 +46,7 @@ bioconductor-mi16cod.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mi16cod.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mi16cod.db:<tag>
 
    (see `bioconductor-mi16cod.db/tags`_ for valid values for ``<tag>``)
 

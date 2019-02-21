@@ -51,7 +51,7 @@ bioconductor-badregionfinder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-badregionfinder:<tag>
+      docker pull quay.io/biocontainers/bioconductor-badregionfinder:<tag>
 
    (see `bioconductor-badregionfinder/tags`_ for valid values for ``<tag>``)
 

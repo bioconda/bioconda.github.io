@@ -48,7 +48,7 @@ backspinpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/backspinpy:<tag>
+      docker pull quay.io/biocontainers/backspinpy:<tag>
 
    (see `backspinpy/tags`_ for valid values for ``<tag>``)
 

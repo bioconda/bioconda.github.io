@@ -53,7 +53,7 @@ repeatmodeler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/repeatmodeler:<tag>
+      docker pull quay.io/biocontainers/repeatmodeler:<tag>
 
    (see `repeatmodeler/tags`_ for valid values for ``<tag>``)
 

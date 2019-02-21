@@ -72,7 +72,7 @@ bioconductor-h5vc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-h5vc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-h5vc:<tag>
 
    (see `bioconductor-h5vc/tags`_ for valid values for ``<tag>``)
 

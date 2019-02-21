@@ -70,7 +70,7 @@ entrez-direct
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/entrez-direct:<tag>
+      docker pull quay.io/biocontainers/entrez-direct:<tag>
 
    (see `entrez-direct/tags`_ for valid values for ``<tag>``)
 

@@ -55,7 +55,7 @@ bioconductor-risa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-risa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-risa:<tag>
 
    (see `bioconductor-risa/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ clairvoyante
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clairvoyante:<tag>
+      docker pull quay.io/biocontainers/clairvoyante:<tag>
 
    (see `clairvoyante/tags`_ for valid values for ``<tag>``)
 

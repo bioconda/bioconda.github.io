@@ -38,7 +38,7 @@ moreutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/moreutils:<tag>
+      docker pull quay.io/biocontainers/moreutils:<tag>
 
    (see `moreutils/tags`_ for valid values for ``<tag>``)
 

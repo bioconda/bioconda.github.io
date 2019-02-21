@@ -40,7 +40,7 @@ sim4db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sim4db:<tag>
+      docker pull quay.io/biocontainers/sim4db:<tag>
 
    (see `sim4db/tags`_ for valid values for ``<tag>``)
 

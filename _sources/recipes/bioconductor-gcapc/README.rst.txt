@@ -62,7 +62,7 @@ bioconductor-gcapc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gcapc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gcapc:<tag>
 
    (see `bioconductor-gcapc/tags`_ for valid values for ``<tag>``)
 

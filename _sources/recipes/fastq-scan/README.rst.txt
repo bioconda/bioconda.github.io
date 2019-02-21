@@ -40,7 +40,7 @@ fastq-scan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastq-scan:<tag>
+      docker pull quay.io/biocontainers/fastq-scan:<tag>
 
    (see `fastq-scan/tags`_ for valid values for ``<tag>``)
 

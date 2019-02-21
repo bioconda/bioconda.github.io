@@ -89,7 +89,7 @@ bioconductor-flowworkspace
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowworkspace:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowworkspace:<tag>
 
    (see `bioconductor-flowworkspace/tags`_ for valid values for ``<tag>``)
 

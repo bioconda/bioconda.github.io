@@ -65,7 +65,7 @@ bioconductor-dada2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dada2:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dada2:<tag>
 
    (see `bioconductor-dada2/tags`_ for valid values for ``<tag>``)
 

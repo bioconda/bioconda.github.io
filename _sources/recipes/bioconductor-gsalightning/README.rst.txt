@@ -45,7 +45,7 @@ bioconductor-gsalightning
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gsalightning:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gsalightning:<tag>
 
    (see `bioconductor-gsalightning/tags`_ for valid values for ``<tag>``)
 

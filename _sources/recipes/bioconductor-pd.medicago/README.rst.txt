@@ -56,7 +56,7 @@ bioconductor-pd.medicago
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.medicago:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.medicago:<tag>
 
    (see `bioconductor-pd.medicago/tags`_ for valid values for ``<tag>``)
 

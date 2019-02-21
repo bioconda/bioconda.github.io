@@ -40,7 +40,7 @@ perl-try-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-try-tiny:<tag>
+      docker pull quay.io/biocontainers/perl-try-tiny:<tag>
 
    (see `perl-try-tiny/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-file-chdir
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-chdir:<tag>
+      docker pull quay.io/biocontainers/perl-file-chdir:<tag>
 
    (see `perl-file-chdir/tags`_ for valid values for ``<tag>``)
 

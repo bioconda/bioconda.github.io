@@ -44,7 +44,7 @@ perl-moosex-types-path-class
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-types-path-class:<tag>
+      docker pull quay.io/biocontainers/perl-moosex-types-path-class:<tag>
 
    (see `perl-moosex-types-path-class/tags`_ for valid values for ``<tag>``)
 

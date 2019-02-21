@@ -46,7 +46,7 @@ bioconductor-hmyrib36
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hmyrib36:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hmyrib36:<tag>
 
    (see `bioconductor-hmyrib36/tags`_ for valid values for ``<tag>``)
 

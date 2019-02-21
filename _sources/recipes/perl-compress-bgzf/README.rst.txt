@@ -40,7 +40,7 @@ perl-compress-bgzf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-compress-bgzf:<tag>
+      docker pull quay.io/biocontainers/perl-compress-bgzf:<tag>
 
    (see `perl-compress-bgzf/tags`_ for valid values for ``<tag>``)
 

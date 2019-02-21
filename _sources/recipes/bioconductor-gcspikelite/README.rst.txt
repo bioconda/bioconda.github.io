@@ -42,7 +42,7 @@ bioconductor-gcspikelite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gcspikelite:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gcspikelite:<tag>
 
    (see `bioconductor-gcspikelite/tags`_ for valid values for ``<tag>``)
 

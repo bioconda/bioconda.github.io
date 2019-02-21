@@ -55,7 +55,7 @@ bioconductor-ffpe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ffpe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ffpe:<tag>
 
    (see `bioconductor-ffpe/tags`_ for valid values for ``<tag>``)
 

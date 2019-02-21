@@ -54,7 +54,7 @@ perl-data-stag
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-data-stag:<tag>
+      docker pull quay.io/biocontainers/perl-data-stag:<tag>
 
    (see `perl-data-stag/tags`_ for valid values for ``<tag>``)
 

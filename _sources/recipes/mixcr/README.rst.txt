@@ -41,7 +41,7 @@ mixcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mixcr:<tag>
+      docker pull quay.io/biocontainers/mixcr:<tag>
 
    (see `mixcr/tags`_ for valid values for ``<tag>``)
 

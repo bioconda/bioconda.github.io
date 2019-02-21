@@ -56,7 +56,7 @@ bioconductor-icnv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-icnv:<tag>
+      docker pull quay.io/biocontainers/bioconductor-icnv:<tag>
 
    (see `bioconductor-icnv/tags`_ for valid values for ``<tag>``)
 

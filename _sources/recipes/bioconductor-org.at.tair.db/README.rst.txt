@@ -44,7 +44,7 @@ bioconductor-org.at.tair.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-org.at.tair.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-org.at.tair.db:<tag>
 
    (see `bioconductor-org.at.tair.db/tags`_ for valid values for ``<tag>``)
 

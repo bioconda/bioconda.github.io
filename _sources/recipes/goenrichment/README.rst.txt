@@ -42,7 +42,7 @@ goenrichment
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/goenrichment:<tag>
+      docker pull quay.io/biocontainers/goenrichment:<tag>
 
    (see `goenrichment/tags`_ for valid values for ``<tag>``)
 

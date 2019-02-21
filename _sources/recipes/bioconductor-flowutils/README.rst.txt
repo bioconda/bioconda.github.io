@@ -53,7 +53,7 @@ bioconductor-flowutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowutils:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowutils:<tag>
 
    (see `bioconductor-flowutils/tags`_ for valid values for ``<tag>``)
 

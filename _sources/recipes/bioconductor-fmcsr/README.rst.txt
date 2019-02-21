@@ -50,7 +50,7 @@ bioconductor-fmcsr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fmcsr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fmcsr:<tag>
 
    (see `bioconductor-fmcsr/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ esmre
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/esmre:<tag>
+      docker pull quay.io/biocontainers/esmre:<tag>
 
    (see `esmre/tags`_ for valid values for ``<tag>``)
 

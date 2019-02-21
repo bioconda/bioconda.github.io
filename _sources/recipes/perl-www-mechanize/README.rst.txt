@@ -54,7 +54,7 @@ perl-www-mechanize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-www-mechanize:<tag>
+      docker pull quay.io/biocontainers/perl-www-mechanize:<tag>
 
    (see `perl-www-mechanize/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ perl-autodie
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-autodie:<tag>
+      docker pull quay.io/biocontainers/perl-autodie:<tag>
 
    (see `perl-autodie/tags`_ for valid values for ``<tag>``)
 

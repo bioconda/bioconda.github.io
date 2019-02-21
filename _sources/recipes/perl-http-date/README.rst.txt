@@ -42,7 +42,7 @@ perl-http-date
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-http-date:<tag>
+      docker pull quay.io/biocontainers/perl-http-date:<tag>
 
    (see `perl-http-date/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-mro-compat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mro-compat:<tag>
+      docker pull quay.io/biocontainers/perl-mro-compat:<tag>
 
    (see `perl-mro-compat/tags`_ for valid values for ``<tag>``)
 

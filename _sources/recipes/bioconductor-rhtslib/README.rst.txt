@@ -51,7 +51,7 @@ bioconductor-rhtslib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rhtslib:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rhtslib:<tag>
 
    (see `bioconductor-rhtslib/tags`_ for valid values for ``<tag>``)
 

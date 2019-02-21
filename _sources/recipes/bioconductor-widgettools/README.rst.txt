@@ -40,7 +40,7 @@ bioconductor-widgettools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-widgettools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-widgettools:<tag>
 
    (see `bioconductor-widgettools/tags`_ for valid values for ``<tag>``)
 

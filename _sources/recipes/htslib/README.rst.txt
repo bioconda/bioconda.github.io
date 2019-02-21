@@ -51,7 +51,7 @@ htslib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/htslib:<tag>
+      docker pull quay.io/biocontainers/htslib:<tag>
 
    (see `htslib/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-synapterdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-synapterdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-synapterdata:<tag>
 
    (see `bioconductor-synapterdata/tags`_ for valid values for ``<tag>``)
 

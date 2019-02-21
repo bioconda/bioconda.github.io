@@ -44,7 +44,7 @@ perl-log-log4perl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-log-log4perl:<tag>
+      docker pull quay.io/biocontainers/perl-log-log4perl:<tag>
 
    (see `perl-log-log4perl/tags`_ for valid values for ``<tag>``)
 

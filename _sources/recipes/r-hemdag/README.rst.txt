@@ -60,7 +60,7 @@ r-hemdag
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-hemdag:<tag>
+      docker pull quay.io/biocontainers/r-hemdag:<tag>
 
    (see `r-hemdag/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ mztosqlite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mztosqlite:<tag>
+      docker pull quay.io/biocontainers/mztosqlite:<tag>
 
    (see `mztosqlite/tags`_ for valid values for ``<tag>``)
 

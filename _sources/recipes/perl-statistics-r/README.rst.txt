@@ -50,7 +50,7 @@ perl-statistics-r
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-statistics-r:<tag>
+      docker pull quay.io/biocontainers/perl-statistics-r:<tag>
 
    (see `perl-statistics-r/tags`_ for valid values for ``<tag>``)
 

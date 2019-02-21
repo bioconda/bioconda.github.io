@@ -40,7 +40,7 @@ perl-text-nsp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-nsp:<tag>
+      docker pull quay.io/biocontainers/perl-text-nsp:<tag>
 
    (see `perl-text-nsp/tags`_ for valid values for ``<tag>``)
 

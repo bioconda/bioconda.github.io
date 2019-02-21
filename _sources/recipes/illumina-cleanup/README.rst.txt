@@ -50,7 +50,7 @@ illumina-cleanup
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/illumina-cleanup:<tag>
+      docker pull quay.io/biocontainers/illumina-cleanup:<tag>
 
    (see `illumina-cleanup/tags`_ for valid values for ``<tag>``)
 

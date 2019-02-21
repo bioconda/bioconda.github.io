@@ -44,7 +44,7 @@ bioconductor-geneexpressionsignature
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneexpressionsignature:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geneexpressionsignature:<tag>
 
    (see `bioconductor-geneexpressionsignature/tags`_ for valid values for ``<tag>``)
 

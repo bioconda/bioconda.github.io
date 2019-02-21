@@ -43,7 +43,7 @@ bioconductor-rrdp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rrdp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rrdp:<tag>
 
    (see `bioconductor-rrdp/tags`_ for valid values for ``<tag>``)
 

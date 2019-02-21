@@ -52,7 +52,7 @@ bioconductor-biocneighbors
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocneighbors:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biocneighbors:<tag>
 
    (see `bioconductor-biocneighbors/tags`_ for valid values for ``<tag>``)
 

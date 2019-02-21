@@ -57,7 +57,7 @@ bioconductor-rnits
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnits:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rnits:<tag>
 
    (see `bioconductor-rnits/tags`_ for valid values for ``<tag>``)
 

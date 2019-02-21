@@ -40,7 +40,7 @@ perl-pod-simple-text
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pod-simple-text:<tag>
+      docker pull quay.io/biocontainers/perl-pod-simple-text:<tag>
 
    (see `perl-pod-simple-text/tags`_ for valid values for ``<tag>``)
 

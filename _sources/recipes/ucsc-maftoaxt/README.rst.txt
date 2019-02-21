@@ -50,7 +50,7 @@ ucsc-maftoaxt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-maftoaxt:<tag>
+      docker pull quay.io/biocontainers/ucsc-maftoaxt:<tag>
 
    (see `ucsc-maftoaxt/tags`_ for valid values for ``<tag>``)
 

@@ -49,7 +49,7 @@ bioconductor-les
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-les:<tag>
+      docker pull quay.io/biocontainers/bioconductor-les:<tag>
 
    (see `bioconductor-les/tags`_ for valid values for ``<tag>``)
 

@@ -55,7 +55,7 @@ bioconductor-peca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-peca:<tag>
+      docker pull quay.io/biocontainers/bioconductor-peca:<tag>
 
    (see `bioconductor-peca/tags`_ for valid values for ``<tag>``)
 

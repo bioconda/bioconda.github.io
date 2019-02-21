@@ -51,7 +51,7 @@ quake
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/quake:<tag>
+      docker pull quay.io/biocontainers/quake:<tag>
 
    (see `quake/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ r-robustrankaggreg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-robustrankaggreg:<tag>
+      docker pull quay.io/biocontainers/r-robustrankaggreg:<tag>
 
    (see `r-robustrankaggreg/tags`_ for valid values for ``<tag>``)
 

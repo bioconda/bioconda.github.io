@@ -40,7 +40,7 @@ proot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/proot:<tag>
+      docker pull quay.io/biocontainers/proot:<tag>
 
    (see `proot/tags`_ for valid values for ``<tag>``)
 

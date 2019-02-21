@@ -47,7 +47,7 @@ centrifuge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/centrifuge:<tag>
+      docker pull quay.io/biocontainers/centrifuge:<tag>
 
    (see `centrifuge/tags`_ for valid values for ``<tag>``)
 

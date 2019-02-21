@@ -40,7 +40,7 @@ aragorn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/aragorn:<tag>
+      docker pull quay.io/biocontainers/aragorn:<tag>
 
    (see `aragorn/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ dr-disco
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dr-disco:<tag>
+      docker pull quay.io/biocontainers/dr-disco:<tag>
 
    (see `dr-disco/tags`_ for valid values for ``<tag>``)
 

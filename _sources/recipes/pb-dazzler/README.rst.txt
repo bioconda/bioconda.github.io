@@ -40,7 +40,7 @@ pb-dazzler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pb-dazzler:<tag>
+      docker pull quay.io/biocontainers/pb-dazzler:<tag>
 
    (see `pb-dazzler/tags`_ for valid values for ``<tag>``)
 

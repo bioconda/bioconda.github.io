@@ -40,7 +40,7 @@ consensusfixer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/consensusfixer:<tag>
+      docker pull quay.io/biocontainers/consensusfixer:<tag>
 
    (see `consensusfixer/tags`_ for valid values for ``<tag>``)
 

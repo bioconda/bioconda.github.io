@@ -64,7 +64,7 @@ biopet-fastqsplitter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-fastqsplitter:<tag>
+      docker pull quay.io/biocontainers/biopet-fastqsplitter:<tag>
 
    (see `biopet-fastqsplitter/tags`_ for valid values for ``<tag>``)
 

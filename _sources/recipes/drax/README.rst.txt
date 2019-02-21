@@ -62,7 +62,7 @@ drax
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/drax:<tag>
+      docker pull quay.io/biocontainers/drax:<tag>
 
    (see `drax/tags`_ for valid values for ``<tag>``)
 

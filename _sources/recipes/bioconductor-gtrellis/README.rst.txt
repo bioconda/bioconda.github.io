@@ -49,7 +49,7 @@ bioconductor-gtrellis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gtrellis:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gtrellis:<tag>
 
    (see `bioconductor-gtrellis/tags`_ for valid values for ``<tag>``)
 

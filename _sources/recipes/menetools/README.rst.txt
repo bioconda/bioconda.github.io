@@ -42,7 +42,7 @@ menetools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/menetools:<tag>
+      docker pull quay.io/biocontainers/menetools:<tag>
 
    (see `menetools/tags`_ for valid values for ``<tag>``)
 

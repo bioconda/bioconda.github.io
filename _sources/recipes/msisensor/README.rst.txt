@@ -48,7 +48,7 @@ msisensor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/msisensor:<tag>
+      docker pull quay.io/biocontainers/msisensor:<tag>
 
    (see `msisensor/tags`_ for valid values for ``<tag>``)
 

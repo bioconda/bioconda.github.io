@@ -44,7 +44,7 @@ trnascan-se
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trnascan-se:<tag>
+      docker pull quay.io/biocontainers/trnascan-se:<tag>
 
    (see `trnascan-se/tags`_ for valid values for ``<tag>``)
 

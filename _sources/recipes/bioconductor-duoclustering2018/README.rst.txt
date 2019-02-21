@@ -62,7 +62,7 @@ bioconductor-duoclustering2018
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-duoclustering2018:<tag>
+      docker pull quay.io/biocontainers/bioconductor-duoclustering2018:<tag>
 
    (see `bioconductor-duoclustering2018/tags`_ for valid values for ``<tag>``)
 

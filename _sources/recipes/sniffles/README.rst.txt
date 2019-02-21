@@ -48,7 +48,7 @@ sniffles
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sniffles:<tag>
+      docker pull quay.io/biocontainers/sniffles:<tag>
 
    (see `sniffles/tags`_ for valid values for ``<tag>``)
 

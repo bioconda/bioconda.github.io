@@ -45,7 +45,7 @@ bioconductor-bgmix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bgmix:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bgmix:<tag>
 
    (see `bioconductor-bgmix/tags`_ for valid values for ``<tag>``)
 

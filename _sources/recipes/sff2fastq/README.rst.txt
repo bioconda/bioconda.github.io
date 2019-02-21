@@ -44,7 +44,7 @@ sff2fastq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sff2fastq:<tag>
+      docker pull quay.io/biocontainers/sff2fastq:<tag>
 
    (see `sff2fastq/tags`_ for valid values for ``<tag>``)
 

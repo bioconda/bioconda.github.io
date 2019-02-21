@@ -54,7 +54,7 @@ bioconductor-rcy3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rcy3:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rcy3:<tag>
 
    (see `bioconductor-rcy3/tags`_ for valid values for ``<tag>``)
 

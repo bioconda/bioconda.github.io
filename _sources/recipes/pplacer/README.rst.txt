@@ -39,7 +39,7 @@ pplacer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pplacer:<tag>
+      docker pull quay.io/biocontainers/pplacer:<tag>
 
    (see `pplacer/tags`_ for valid values for ``<tag>``)
 

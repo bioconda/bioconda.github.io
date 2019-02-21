@@ -41,7 +41,7 @@ bioconductor-occugene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-occugene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-occugene:<tag>
 
    (see `bioconductor-occugene/tags`_ for valid values for ``<tag>``)
 

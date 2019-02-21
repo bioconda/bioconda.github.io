@@ -46,7 +46,7 @@ bioconductor-bsgenome.ggallus.ucsc.galgal3.masked
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.ggallus.ucsc.galgal3.masked:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.ggallus.ucsc.galgal3.masked:<tag>
 
    (see `bioconductor-bsgenome.ggallus.ucsc.galgal3.masked/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ peakranger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/peakranger:<tag>
+      docker pull quay.io/biocontainers/peakranger:<tag>
 
    (see `peakranger/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ hicbrowser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hicbrowser:<tag>
+      docker pull quay.io/biocontainers/hicbrowser:<tag>
 
    (see `hicbrowser/tags`_ for valid values for ``<tag>``)
 

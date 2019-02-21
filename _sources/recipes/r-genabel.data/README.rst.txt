@@ -40,7 +40,7 @@ r-genabel.data
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-genabel.data:<tag>
+      docker pull quay.io/biocontainers/r-genabel.data:<tag>
 
    (see `r-genabel.data/tags`_ for valid values for ``<tag>``)
 

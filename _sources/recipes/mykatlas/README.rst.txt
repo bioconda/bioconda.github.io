@@ -52,7 +52,7 @@ mykatlas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mykatlas:<tag>
+      docker pull quay.io/biocontainers/mykatlas:<tag>
 
    (see `mykatlas/tags`_ for valid values for ``<tag>``)
 

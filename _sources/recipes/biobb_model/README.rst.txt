@@ -70,7 +70,7 @@ biobb_model
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biobb_model:<tag>
+      docker pull quay.io/biocontainers/biobb_model:<tag>
 
    (see `biobb_model/tags`_ for valid values for ``<tag>``)
 

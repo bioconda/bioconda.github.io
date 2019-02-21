@@ -49,7 +49,7 @@ bioconductor-copynumber
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-copynumber:<tag>
+      docker pull quay.io/biocontainers/bioconductor-copynumber:<tag>
 
    (see `bioconductor-copynumber/tags`_ for valid values for ``<tag>``)
 

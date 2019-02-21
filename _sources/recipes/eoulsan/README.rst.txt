@@ -41,7 +41,7 @@ eoulsan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/eoulsan:<tag>
+      docker pull quay.io/biocontainers/eoulsan:<tag>
 
    (see `eoulsan/tags`_ for valid values for ``<tag>``)
 

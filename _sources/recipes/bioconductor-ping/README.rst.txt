@@ -61,7 +61,7 @@ bioconductor-ping
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ping:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ping:<tag>
 
    (see `bioconductor-ping/tags`_ for valid values for ``<tag>``)
 

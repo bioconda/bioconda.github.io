@@ -42,7 +42,7 @@ pdfkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pdfkit:<tag>
+      docker pull quay.io/biocontainers/pdfkit:<tag>
 
    (see `pdfkit/tags`_ for valid values for ``<tag>``)
 

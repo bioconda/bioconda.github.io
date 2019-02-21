@@ -42,7 +42,7 @@ hapbin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hapbin:<tag>
+      docker pull quay.io/biocontainers/hapbin:<tag>
 
    (see `hapbin/tags`_ for valid values for ``<tag>``)
 

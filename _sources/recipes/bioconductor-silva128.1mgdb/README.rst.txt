@@ -44,7 +44,7 @@ bioconductor-silva128.1mgdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-silva128.1mgdb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-silva128.1mgdb:<tag>
 
    (see `bioconductor-silva128.1mgdb/tags`_ for valid values for ``<tag>``)
 

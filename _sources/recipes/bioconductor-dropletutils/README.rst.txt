@@ -65,7 +65,7 @@ bioconductor-dropletutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dropletutils:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dropletutils:<tag>
 
    (see `bioconductor-dropletutils/tags`_ for valid values for ``<tag>``)
 

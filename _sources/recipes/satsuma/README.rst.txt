@@ -42,7 +42,7 @@ satsuma2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/satsuma2:<tag>
+      docker pull quay.io/biocontainers/satsuma2:<tag>
 
    (see `satsuma2/tags`_ for valid values for ``<tag>``)
 

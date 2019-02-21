@@ -66,7 +66,7 @@ bioconductor-googlegenomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-googlegenomics:<tag>
+      docker pull quay.io/biocontainers/bioconductor-googlegenomics:<tag>
 
    (see `bioconductor-googlegenomics/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-parallel-loops
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-parallel-loops:<tag>
+      docker pull quay.io/biocontainers/perl-parallel-loops:<tag>
 
    (see `perl-parallel-loops/tags`_ for valid values for ``<tag>``)
 

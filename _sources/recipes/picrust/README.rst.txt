@@ -52,7 +52,7 @@ picrust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/picrust:<tag>
+      docker pull quay.io/biocontainers/picrust:<tag>
 
    (see `picrust/tags`_ for valid values for ``<tag>``)
 

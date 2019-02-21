@@ -59,7 +59,7 @@ bioconductor-proteomicsannotationhubdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-proteomicsannotationhubdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-proteomicsannotationhubdata:<tag>
 
    (see `bioconductor-proteomicsannotationhubdata/tags`_ for valid values for ``<tag>``)
 

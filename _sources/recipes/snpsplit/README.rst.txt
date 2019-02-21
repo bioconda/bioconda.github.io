@@ -43,7 +43,7 @@ snpsplit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snpsplit:<tag>
+      docker pull quay.io/biocontainers/snpsplit:<tag>
 
    (see `snpsplit/tags`_ for valid values for ``<tag>``)
 

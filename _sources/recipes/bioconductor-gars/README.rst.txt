@@ -38,7 +38,7 @@ bioconductor-gars
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gars:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gars:<tag>
 
    (see `bioconductor-gars/tags`_ for valid values for ``<tag>``)
 

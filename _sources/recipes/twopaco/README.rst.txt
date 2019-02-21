@@ -44,7 +44,7 @@ twopaco
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/twopaco:<tag>
+      docker pull quay.io/biocontainers/twopaco:<tag>
 
    (see `twopaco/tags`_ for valid values for ``<tag>``)
 

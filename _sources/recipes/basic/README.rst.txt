@@ -42,7 +42,7 @@ basic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/basic:<tag>
+      docker pull quay.io/biocontainers/basic:<tag>
 
    (see `basic/tags`_ for valid values for ``<tag>``)
 

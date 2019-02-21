@@ -44,7 +44,7 @@ kleborate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kleborate:<tag>
+      docker pull quay.io/biocontainers/kleborate:<tag>
 
    (see `kleborate/tags`_ for valid values for ``<tag>``)
 

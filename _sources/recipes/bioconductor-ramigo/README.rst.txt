@@ -51,7 +51,7 @@ bioconductor-ramigo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ramigo:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ramigo:<tag>
 
    (see `bioconductor-ramigo/tags`_ for valid values for ``<tag>``)
 

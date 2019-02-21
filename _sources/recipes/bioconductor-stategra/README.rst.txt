@@ -61,7 +61,7 @@ bioconductor-stategra
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-stategra:<tag>
+      docker pull quay.io/biocontainers/bioconductor-stategra:<tag>
 
    (see `bioconductor-stategra/tags`_ for valid values for ``<tag>``)
 

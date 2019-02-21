@@ -45,7 +45,7 @@ bioconductor-s4vectors
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-s4vectors:<tag>
+      docker pull quay.io/biocontainers/bioconductor-s4vectors:<tag>
 
    (see `bioconductor-s4vectors/tags`_ for valid values for ``<tag>``)
 

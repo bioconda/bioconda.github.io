@@ -46,7 +46,7 @@ ghmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ghmm:<tag>
+      docker pull quay.io/biocontainers/ghmm:<tag>
 
    (see `ghmm/tags`_ for valid values for ``<tag>``)
 

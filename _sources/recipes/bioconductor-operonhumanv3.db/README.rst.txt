@@ -46,7 +46,7 @@ bioconductor-operonhumanv3.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-operonhumanv3.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-operonhumanv3.db:<tag>
 
    (see `bioconductor-operonhumanv3.db/tags`_ for valid values for ``<tag>``)
 

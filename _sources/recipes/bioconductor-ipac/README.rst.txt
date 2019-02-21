@@ -49,7 +49,7 @@ bioconductor-ipac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ipac:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ipac:<tag>
 
    (see `bioconductor-ipac/tags`_ for valid values for ``<tag>``)
 

@@ -53,7 +53,7 @@ bioconductor-methylseekr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methylseekr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methylseekr:<tag>
 
    (see `bioconductor-methylseekr/tags`_ for valid values for ``<tag>``)
 

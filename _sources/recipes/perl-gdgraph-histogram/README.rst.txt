@@ -44,7 +44,7 @@ perl-gdgraph-histogram
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-gdgraph-histogram:<tag>
+      docker pull quay.io/biocontainers/perl-gdgraph-histogram:<tag>
 
    (see `perl-gdgraph-histogram/tags`_ for valid values for ``<tag>``)
 

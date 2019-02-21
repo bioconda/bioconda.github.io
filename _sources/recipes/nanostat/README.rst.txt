@@ -44,7 +44,7 @@ nanostat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanostat:<tag>
+      docker pull quay.io/biocontainers/nanostat:<tag>
 
    (see `nanostat/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ metavelvet-annois
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metavelvet-annois:<tag>
+      docker pull quay.io/biocontainers/metavelvet-annois:<tag>
 
    (see `metavelvet-annois/tags`_ for valid values for ``<tag>``)
 

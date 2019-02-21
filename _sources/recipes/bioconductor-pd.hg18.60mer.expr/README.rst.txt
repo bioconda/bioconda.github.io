@@ -56,7 +56,7 @@ bioconductor-pd.hg18.60mer.expr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.hg18.60mer.expr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.hg18.60mer.expr:<tag>
 
    (see `bioconductor-pd.hg18.60mer.expr/tags`_ for valid values for ``<tag>``)
 

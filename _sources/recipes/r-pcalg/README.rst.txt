@@ -38,7 +38,7 @@ r-pcalg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-pcalg:<tag>
+      docker pull quay.io/biocontainers/r-pcalg:<tag>
 
    (see `r-pcalg/tags`_ for valid values for ``<tag>``)
 

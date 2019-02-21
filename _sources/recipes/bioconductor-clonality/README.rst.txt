@@ -43,7 +43,7 @@ bioconductor-clonality
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clonality:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clonality:<tag>
 
    (see `bioconductor-clonality/tags`_ for valid values for ``<tag>``)
 

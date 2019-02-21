@@ -47,7 +47,7 @@ bioconductor-sscu
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sscu:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sscu:<tag>
 
    (see `bioconductor-sscu/tags`_ for valid values for ``<tag>``)
 

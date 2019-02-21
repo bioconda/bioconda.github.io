@@ -42,7 +42,7 @@ bioconductor-difflogo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-difflogo:<tag>
+      docker pull quay.io/biocontainers/bioconductor-difflogo:<tag>
 
    (see `bioconductor-difflogo/tags`_ for valid values for ``<tag>``)
 

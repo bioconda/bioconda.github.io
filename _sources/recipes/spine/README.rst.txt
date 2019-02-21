@@ -44,7 +44,7 @@ spine
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spine:<tag>
+      docker pull quay.io/biocontainers/spine:<tag>
 
    (see `spine/tags`_ for valid values for ``<tag>``)
 

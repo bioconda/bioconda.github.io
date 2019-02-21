@@ -42,7 +42,7 @@ embl-api-validator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/embl-api-validator:<tag>
+      docker pull quay.io/biocontainers/embl-api-validator:<tag>
 
    (see `embl-api-validator/tags`_ for valid values for ``<tag>``)
 

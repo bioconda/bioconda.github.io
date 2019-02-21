@@ -40,7 +40,7 @@ perl-test-pod
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-pod:<tag>
+      docker pull quay.io/biocontainers/perl-test-pod:<tag>
 
    (see `perl-test-pod/tags`_ for valid values for ``<tag>``)
 

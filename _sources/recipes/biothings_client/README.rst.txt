@@ -42,7 +42,7 @@ biothings_client
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biothings_client:<tag>
+      docker pull quay.io/biocontainers/biothings_client:<tag>
 
    (see `biothings_client/tags`_ for valid values for ``<tag>``)
 

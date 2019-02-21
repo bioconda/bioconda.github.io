@@ -40,7 +40,7 @@ rdp_classifier
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rdp_classifier:<tag>
+      docker pull quay.io/biocontainers/rdp_classifier:<tag>
 
    (see `rdp_classifier/tags`_ for valid values for ``<tag>``)
 

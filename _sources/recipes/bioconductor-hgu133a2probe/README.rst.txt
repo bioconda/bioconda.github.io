@@ -44,7 +44,7 @@ bioconductor-hgu133a2probe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hgu133a2probe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hgu133a2probe:<tag>
 
    (see `bioconductor-hgu133a2probe/tags`_ for valid values for ``<tag>``)
 

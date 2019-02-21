@@ -40,7 +40,7 @@ harvesttools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/harvesttools:<tag>
+      docker pull quay.io/biocontainers/harvesttools:<tag>
 
    (see `harvesttools/tags`_ for valid values for ``<tag>``)
 

@@ -62,7 +62,7 @@ r-mess
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-mess:<tag>
+      docker pull quay.io/biocontainers/r-mess:<tag>
 
    (see `r-mess/tags`_ for valid values for ``<tag>``)
 

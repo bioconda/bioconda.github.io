@@ -44,7 +44,7 @@ sixgill
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sixgill:<tag>
+      docker pull quay.io/biocontainers/sixgill:<tag>
 
    (see `sixgill/tags`_ for valid values for ``<tag>``)
 

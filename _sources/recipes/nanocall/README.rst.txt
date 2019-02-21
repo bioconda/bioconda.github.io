@@ -44,7 +44,7 @@ nanocall
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanocall:<tag>
+      docker pull quay.io/biocontainers/nanocall:<tag>
 
    (see `nanocall/tags`_ for valid values for ``<tag>``)
 

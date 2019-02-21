@@ -52,7 +52,7 @@ bioconductor-matrixrider
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-matrixrider:<tag>
+      docker pull quay.io/biocontainers/bioconductor-matrixrider:<tag>
 
    (see `bioconductor-matrixrider/tags`_ for valid values for ``<tag>``)
 

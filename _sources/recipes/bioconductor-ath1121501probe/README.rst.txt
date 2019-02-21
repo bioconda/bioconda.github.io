@@ -44,7 +44,7 @@ bioconductor-ath1121501probe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ath1121501probe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ath1121501probe:<tag>
 
    (see `bioconductor-ath1121501probe/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ gmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gmap:<tag>
+      docker pull quay.io/biocontainers/gmap:<tag>
 
    (see `gmap/tags`_ for valid values for ``<tag>``)
 

@@ -93,7 +93,7 @@ bioconductor-mineica
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mineica:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mineica:<tag>
 
    (see `bioconductor-mineica/tags`_ for valid values for ``<tag>``)
 

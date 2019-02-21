@@ -44,7 +44,7 @@ pydemult
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pydemult:<tag>
+      docker pull quay.io/biocontainers/pydemult:<tag>
 
    (see `pydemult/tags`_ for valid values for ``<tag>``)
 

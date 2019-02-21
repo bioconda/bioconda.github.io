@@ -53,7 +53,7 @@ bioconductor-pviz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pviz:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pviz:<tag>
 
    (see `bioconductor-pviz/tags`_ for valid values for ``<tag>``)
 

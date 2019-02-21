@@ -42,7 +42,7 @@ bmtool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bmtool:<tag>
+      docker pull quay.io/biocontainers/bmtool:<tag>
 
    (see `bmtool/tags`_ for valid values for ``<tag>``)
 

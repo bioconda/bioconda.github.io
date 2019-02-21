@@ -44,7 +44,7 @@ bioconductor-mesh.aor.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mesh.aor.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mesh.aor.db:<tag>
 
    (see `bioconductor-mesh.aor.db/tags`_ for valid values for ``<tag>``)
 

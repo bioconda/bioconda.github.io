@@ -42,7 +42,7 @@ perl-findbin-real
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-findbin-real:<tag>
+      docker pull quay.io/biocontainers/perl-findbin-real:<tag>
 
    (see `perl-findbin-real/tags`_ for valid values for ``<tag>``)
 

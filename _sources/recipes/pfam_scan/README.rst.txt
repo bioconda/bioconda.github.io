@@ -48,7 +48,7 @@ pfam_scan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pfam_scan:<tag>
+      docker pull quay.io/biocontainers/pfam_scan:<tag>
 
    (see `pfam_scan/tags`_ for valid values for ``<tag>``)
 

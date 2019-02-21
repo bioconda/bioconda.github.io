@@ -48,7 +48,7 @@ bxtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bxtools:<tag>
+      docker pull quay.io/biocontainers/bxtools:<tag>
 
    (see `bxtools/tags`_ for valid values for ``<tag>``)
 

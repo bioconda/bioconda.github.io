@@ -52,7 +52,7 @@ bioconductor-erssa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-erssa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-erssa:<tag>
 
    (see `bioconductor-erssa/tags`_ for valid values for ``<tag>``)
 

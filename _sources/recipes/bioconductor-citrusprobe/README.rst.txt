@@ -44,7 +44,7 @@ bioconductor-citrusprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-citrusprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-citrusprobe:<tag>
 
    (see `bioconductor-citrusprobe/tags`_ for valid values for ``<tag>``)
 

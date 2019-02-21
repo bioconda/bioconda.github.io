@@ -44,7 +44,7 @@ bioconductor-ribosomaldatabaseproject11.5mgdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ribosomaldatabaseproject11.5mgdb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ribosomaldatabaseproject11.5mgdb:<tag>
 
    (see `bioconductor-ribosomaldatabaseproject11.5mgdb/tags`_ for valid values for ``<tag>``)
 

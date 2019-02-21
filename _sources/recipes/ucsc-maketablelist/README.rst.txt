@@ -50,7 +50,7 @@ ucsc-maketablelist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-maketablelist:<tag>
+      docker pull quay.io/biocontainers/ucsc-maketablelist:<tag>
 
    (see `ucsc-maketablelist/tags`_ for valid values for ``<tag>``)
 

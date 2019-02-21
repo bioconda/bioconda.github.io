@@ -44,7 +44,7 @@ perl-aceperl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-aceperl:<tag>
+      docker pull quay.io/biocontainers/perl-aceperl:<tag>
 
    (see `perl-aceperl/tags`_ for valid values for ``<tag>``)
 

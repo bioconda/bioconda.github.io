@@ -48,7 +48,7 @@ phizz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phizz:<tag>
+      docker pull quay.io/biocontainers/phizz:<tag>
 
    (see `phizz/tags`_ for valid values for ``<tag>``)
 

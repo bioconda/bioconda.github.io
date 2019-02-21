@@ -49,7 +49,7 @@ bioconductor-genebreak
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genebreak:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genebreak:<tag>
 
    (see `bioconductor-genebreak/tags`_ for valid values for ``<tag>``)
 

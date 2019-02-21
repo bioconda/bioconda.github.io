@@ -56,7 +56,7 @@ ctat-mutations
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ctat-mutations:<tag>
+      docker pull quay.io/biocontainers/ctat-mutations:<tag>
 
    (see `ctat-mutations/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-tinesath1probe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tinesath1probe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tinesath1probe:<tag>
 
    (see `bioconductor-tinesath1probe/tags`_ for valid values for ``<tag>``)
 

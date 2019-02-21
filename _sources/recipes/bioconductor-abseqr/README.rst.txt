@@ -76,7 +76,7 @@ bioconductor-abseqr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-abseqr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-abseqr:<tag>
 
    (see `bioconductor-abseqr/tags`_ for valid values for ``<tag>``)
 

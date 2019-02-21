@@ -43,7 +43,7 @@ pyfaidx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyfaidx:<tag>
+      docker pull quay.io/biocontainers/pyfaidx:<tag>
 
    (see `pyfaidx/tags`_ for valid values for ``<tag>``)
 

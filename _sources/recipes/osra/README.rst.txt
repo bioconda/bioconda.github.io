@@ -54,7 +54,7 @@ osra
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/osra:<tag>
+      docker pull quay.io/biocontainers/osra:<tag>
 
    (see `osra/tags`_ for valid values for ``<tag>``)
 

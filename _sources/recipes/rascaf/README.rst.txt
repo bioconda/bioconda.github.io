@@ -44,7 +44,7 @@ rascaf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rascaf:<tag>
+      docker pull quay.io/biocontainers/rascaf:<tag>
 
    (see `rascaf/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ bioconductor-arraytv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-arraytv:<tag>
+      docker pull quay.io/biocontainers/bioconductor-arraytv:<tag>
 
    (see `bioconductor-arraytv/tags`_ for valid values for ``<tag>``)
 

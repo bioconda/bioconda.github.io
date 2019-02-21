@@ -48,7 +48,7 @@ bioconductor-neve2006
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-neve2006:<tag>
+      docker pull quay.io/biocontainers/bioconductor-neve2006:<tag>
 
    (see `bioconductor-neve2006/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ r-whopgenome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-whopgenome:<tag>
+      docker pull quay.io/biocontainers/r-whopgenome:<tag>
 
    (see `r-whopgenome/tags`_ for valid values for ``<tag>``)
 

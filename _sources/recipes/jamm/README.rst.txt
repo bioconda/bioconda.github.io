@@ -46,7 +46,7 @@ jamm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/jamm:<tag>
+      docker pull quay.io/biocontainers/jamm:<tag>
 
    (see `jamm/tags`_ for valid values for ``<tag>``)
 

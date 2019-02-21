@@ -52,7 +52,7 @@ biopet-vcfstats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-vcfstats:<tag>
+      docker pull quay.io/biocontainers/biopet-vcfstats:<tag>
 
    (see `biopet-vcfstats/tags`_ for valid values for ``<tag>``)
 

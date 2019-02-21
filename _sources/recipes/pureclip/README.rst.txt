@@ -43,7 +43,7 @@ pureclip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pureclip:<tag>
+      docker pull quay.io/biocontainers/pureclip:<tag>
 
    (see `pureclip/tags`_ for valid values for ``<tag>``)
 

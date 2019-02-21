@@ -46,7 +46,7 @@ primerprospector
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/primerprospector:<tag>
+      docker pull quay.io/biocontainers/primerprospector:<tag>
 
    (see `primerprospector/tags`_ for valid values for ``<tag>``)
 

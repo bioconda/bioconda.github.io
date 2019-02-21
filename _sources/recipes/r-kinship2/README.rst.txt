@@ -44,7 +44,7 @@ r-kinship2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-kinship2:<tag>
+      docker pull quay.io/biocontainers/r-kinship2:<tag>
 
    (see `r-kinship2/tags`_ for valid values for ``<tag>``)
 

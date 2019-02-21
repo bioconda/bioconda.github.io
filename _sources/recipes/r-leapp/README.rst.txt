@@ -46,7 +46,7 @@ r-leapp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-leapp:<tag>
+      docker pull quay.io/biocontainers/r-leapp:<tag>
 
    (see `r-leapp/tags`_ for valid values for ``<tag>``)
 

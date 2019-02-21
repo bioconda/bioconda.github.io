@@ -55,7 +55,7 @@ bioconductor-gofunction
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gofunction:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gofunction:<tag>
 
    (see `bioconductor-gofunction/tags`_ for valid values for ``<tag>``)
 

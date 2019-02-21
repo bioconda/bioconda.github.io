@@ -40,7 +40,7 @@ biodiff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biodiff:<tag>
+      docker pull quay.io/biocontainers/biodiff:<tag>
 
    (see `biodiff/tags`_ for valid values for ``<tag>``)
 

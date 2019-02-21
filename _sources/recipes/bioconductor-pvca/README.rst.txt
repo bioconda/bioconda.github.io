@@ -49,7 +49,7 @@ bioconductor-pvca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pvca:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pvca:<tag>
 
    (see `bioconductor-pvca/tags`_ for valid values for ``<tag>``)
 

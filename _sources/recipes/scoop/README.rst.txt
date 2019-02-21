@@ -46,7 +46,7 @@ scoop
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scoop:<tag>
+      docker pull quay.io/biocontainers/scoop:<tag>
 
    (see `scoop/tags`_ for valid values for ``<tag>``)
 

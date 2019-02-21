@@ -41,7 +41,7 @@ idba
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/idba:<tag>
+      docker pull quay.io/biocontainers/idba:<tag>
 
    (see `idba/tags`_ for valid values for ``<tag>``)
 

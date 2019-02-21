@@ -48,7 +48,7 @@ recycler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/recycler:<tag>
+      docker pull quay.io/biocontainers/recycler:<tag>
 
    (see `recycler/tags`_ for valid values for ``<tag>``)
 

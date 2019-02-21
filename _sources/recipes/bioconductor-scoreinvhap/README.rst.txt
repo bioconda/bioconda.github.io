@@ -52,7 +52,7 @@ bioconductor-scoreinvhap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scoreinvhap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-scoreinvhap:<tag>
 
    (see `bioconductor-scoreinvhap/tags`_ for valid values for ``<tag>``)
 

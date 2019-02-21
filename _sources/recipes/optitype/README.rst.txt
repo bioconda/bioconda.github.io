@@ -64,7 +64,7 @@ optitype
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/optitype:<tag>
+      docker pull quay.io/biocontainers/optitype:<tag>
 
    (see `optitype/tags`_ for valid values for ``<tag>``)
 

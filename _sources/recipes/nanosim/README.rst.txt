@@ -58,7 +58,7 @@ nanosim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanosim:<tag>
+      docker pull quay.io/biocontainers/nanosim:<tag>
 
    (see `nanosim/tags`_ for valid values for ``<tag>``)
 

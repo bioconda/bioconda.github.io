@@ -42,7 +42,7 @@ asciigenome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/asciigenome:<tag>
+      docker pull quay.io/biocontainers/asciigenome:<tag>
 
    (see `asciigenome/tags`_ for valid values for ``<tag>``)
 

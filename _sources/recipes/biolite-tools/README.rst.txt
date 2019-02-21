@@ -42,7 +42,7 @@ biolite-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biolite-tools:<tag>
+      docker pull quay.io/biocontainers/biolite-tools:<tag>
 
    (see `biolite-tools/tags`_ for valid values for ``<tag>``)
 

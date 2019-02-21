@@ -53,7 +53,7 @@ bioconductor-scisi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scisi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-scisi:<tag>
 
    (see `bioconductor-scisi/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ gvcftools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gvcftools:<tag>
+      docker pull quay.io/biocontainers/gvcftools:<tag>
 
    (see `gvcftools/tags`_ for valid values for ``<tag>``)
 

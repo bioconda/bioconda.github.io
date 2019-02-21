@@ -57,7 +57,7 @@ phantompeakqualtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phantompeakqualtools:<tag>
+      docker pull quay.io/biocontainers/phantompeakqualtools:<tag>
 
    (see `phantompeakqualtools/tags`_ for valid values for ``<tag>``)
 

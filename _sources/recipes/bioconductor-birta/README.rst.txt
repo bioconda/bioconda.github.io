@@ -51,7 +51,7 @@ bioconductor-birta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-birta:<tag>
+      docker pull quay.io/biocontainers/bioconductor-birta:<tag>
 
    (see `bioconductor-birta/tags`_ for valid values for ``<tag>``)
 

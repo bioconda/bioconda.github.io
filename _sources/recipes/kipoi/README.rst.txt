@@ -60,7 +60,7 @@ kipoi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kipoi:<tag>
+      docker pull quay.io/biocontainers/kipoi:<tag>
 
    (see `kipoi/tags`_ for valid values for ``<tag>``)
 

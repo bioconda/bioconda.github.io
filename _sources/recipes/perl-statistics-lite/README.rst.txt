@@ -40,7 +40,7 @@ perl-statistics-lite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-statistics-lite:<tag>
+      docker pull quay.io/biocontainers/perl-statistics-lite:<tag>
 
    (see `perl-statistics-lite/tags`_ for valid values for ``<tag>``)
 

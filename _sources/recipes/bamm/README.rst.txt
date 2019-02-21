@@ -54,7 +54,7 @@ bamm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bamm:<tag>
+      docker pull quay.io/biocontainers/bamm:<tag>
 
    (see `bamm/tags`_ for valid values for ``<tag>``)
 

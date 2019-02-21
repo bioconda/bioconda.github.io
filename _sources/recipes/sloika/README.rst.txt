@@ -50,7 +50,7 @@ sloika
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sloika:<tag>
+      docker pull quay.io/biocontainers/sloika:<tag>
 
    (see `sloika/tags`_ for valid values for ``<tag>``)
 

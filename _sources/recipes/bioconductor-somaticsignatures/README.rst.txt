@@ -67,7 +67,7 @@ bioconductor-somaticsignatures
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-somaticsignatures:<tag>
+      docker pull quay.io/biocontainers/bioconductor-somaticsignatures:<tag>
 
    (see `bioconductor-somaticsignatures/tags`_ for valid values for ``<tag>``)
 

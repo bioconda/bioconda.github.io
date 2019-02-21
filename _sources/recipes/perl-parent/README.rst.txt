@@ -40,7 +40,7 @@ perl-parent
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-parent:<tag>
+      docker pull quay.io/biocontainers/perl-parent:<tag>
 
    (see `perl-parent/tags`_ for valid values for ``<tag>``)
 

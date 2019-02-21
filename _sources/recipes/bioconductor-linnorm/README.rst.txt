@@ -80,7 +80,7 @@ bioconductor-linnorm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-linnorm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-linnorm:<tag>
 
    (see `bioconductor-linnorm/tags`_ for valid values for ``<tag>``)
 

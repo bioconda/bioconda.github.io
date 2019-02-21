@@ -53,7 +53,7 @@ bioconductor-genomeintervals
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genomeintervals:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genomeintervals:<tag>
 
    (see `bioconductor-genomeintervals/tags`_ for valid values for ``<tag>``)
 

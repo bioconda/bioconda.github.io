@@ -49,7 +49,7 @@ bioconductor-simbindprofiles
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-simbindprofiles:<tag>
+      docker pull quay.io/biocontainers/bioconductor-simbindprofiles:<tag>
 
    (see `bioconductor-simbindprofiles/tags`_ for valid values for ``<tag>``)
 

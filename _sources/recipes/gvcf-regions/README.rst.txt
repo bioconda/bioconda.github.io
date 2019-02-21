@@ -40,7 +40,7 @@ gvcf-regions
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gvcf-regions:<tag>
+      docker pull quay.io/biocontainers/gvcf-regions:<tag>
 
    (see `gvcf-regions/tags`_ for valid values for ``<tag>``)
 

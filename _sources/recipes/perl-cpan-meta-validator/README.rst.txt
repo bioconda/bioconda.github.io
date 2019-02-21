@@ -40,7 +40,7 @@ perl-cpan-meta-validator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-cpan-meta-validator:<tag>
+      docker pull quay.io/biocontainers/perl-cpan-meta-validator:<tag>
 
    (see `perl-cpan-meta-validator/tags`_ for valid values for ``<tag>``)
 

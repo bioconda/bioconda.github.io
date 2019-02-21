@@ -46,7 +46,7 @@ bioconductor-mogene21stprobeset.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mogene21stprobeset.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mogene21stprobeset.db:<tag>
 
    (see `bioconductor-mogene21stprobeset.db/tags`_ for valid values for ``<tag>``)
 

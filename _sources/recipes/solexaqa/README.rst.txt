@@ -49,7 +49,7 @@ solexaqa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/solexaqa:<tag>
+      docker pull quay.io/biocontainers/solexaqa:<tag>
 
    (see `solexaqa/tags`_ for valid values for ``<tag>``)
 

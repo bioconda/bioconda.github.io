@@ -46,7 +46,7 @@ bioconductor-restfulsedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-restfulsedata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-restfulsedata:<tag>
 
    (see `bioconductor-restfulsedata/tags`_ for valid values for ``<tag>``)
 

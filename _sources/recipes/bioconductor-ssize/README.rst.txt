@@ -45,7 +45,7 @@ bioconductor-ssize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ssize:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ssize:<tag>
 
    (see `bioconductor-ssize/tags`_ for valid values for ``<tag>``)
 

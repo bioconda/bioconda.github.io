@@ -38,7 +38,7 @@ popt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/popt:<tag>
+      docker pull quay.io/biocontainers/popt:<tag>
 
    (see `popt/tags`_ for valid values for ``<tag>``)
 

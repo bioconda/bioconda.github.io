@@ -46,7 +46,7 @@ bioconductor-foldgo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-foldgo:<tag>
+      docker pull quay.io/biocontainers/bioconductor-foldgo:<tag>
 
    (see `bioconductor-foldgo/tags`_ for valid values for ``<tag>``)
 

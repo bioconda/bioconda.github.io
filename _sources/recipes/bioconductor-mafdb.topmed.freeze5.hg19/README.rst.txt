@@ -54,7 +54,7 @@ bioconductor-mafdb.topmed.freeze5.hg19
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19:<tag>
 
    (see `bioconductor-mafdb.topmed.freeze5.hg19/tags`_ for valid values for ``<tag>``)
 

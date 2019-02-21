@@ -42,7 +42,7 @@ gerp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gerp:<tag>
+      docker pull quay.io/biocontainers/gerp:<tag>
 
    (see `gerp/tags`_ for valid values for ``<tag>``)
 

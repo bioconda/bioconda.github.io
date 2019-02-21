@@ -58,7 +58,7 @@ perl-moosex-app
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-app:<tag>
+      docker pull quay.io/biocontainers/perl-moosex-app:<tag>
 
    (see `perl-moosex-app/tags`_ for valid values for ``<tag>``)
 

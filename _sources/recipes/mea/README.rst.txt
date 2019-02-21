@@ -40,7 +40,7 @@ mea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mea:<tag>
+      docker pull quay.io/biocontainers/mea:<tag>
 
    (see `mea/tags`_ for valid values for ``<tag>``)
 

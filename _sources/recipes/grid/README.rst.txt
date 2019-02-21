@@ -68,7 +68,7 @@ grid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/grid:<tag>
+      docker pull quay.io/biocontainers/grid:<tag>
 
    (see `grid/tags`_ for valid values for ``<tag>``)
 

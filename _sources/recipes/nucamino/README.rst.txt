@@ -38,7 +38,7 @@ nucamino
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nucamino:<tag>
+      docker pull quay.io/biocontainers/nucamino:<tag>
 
    (see `nucamino/tags`_ for valid values for ``<tag>``)
 

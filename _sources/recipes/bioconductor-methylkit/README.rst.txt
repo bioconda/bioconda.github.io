@@ -81,7 +81,7 @@ bioconductor-methylkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methylkit:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methylkit:<tag>
 
    (see `bioconductor-methylkit/tags`_ for valid values for ``<tag>``)
 

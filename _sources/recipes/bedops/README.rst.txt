@@ -41,7 +41,7 @@ bedops
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bedops:<tag>
+      docker pull quay.io/biocontainers/bedops:<tag>
 
    (see `bedops/tags`_ for valid values for ``<tag>``)
 

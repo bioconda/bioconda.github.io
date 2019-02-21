@@ -42,7 +42,7 @@ colorbrewer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/colorbrewer:<tag>
+      docker pull quay.io/biocontainers/colorbrewer:<tag>
 
    (see `colorbrewer/tags`_ for valid values for ``<tag>``)
 

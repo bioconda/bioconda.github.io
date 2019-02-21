@@ -65,7 +65,7 @@ r-phewas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-phewas:<tag>
+      docker pull quay.io/biocontainers/r-phewas:<tag>
 
    (see `r-phewas/tags`_ for valid values for ``<tag>``)
 

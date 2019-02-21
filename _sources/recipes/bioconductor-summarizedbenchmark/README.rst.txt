@@ -70,7 +70,7 @@ bioconductor-summarizedbenchmark
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-summarizedbenchmark:<tag>
+      docker pull quay.io/biocontainers/bioconductor-summarizedbenchmark:<tag>
 
    (see `bioconductor-summarizedbenchmark/tags`_ for valid values for ``<tag>``)
 

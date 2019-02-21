@@ -39,7 +39,7 @@ hla-la
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hla-la:<tag>
+      docker pull quay.io/biocontainers/hla-la:<tag>
 
    (see `hla-la/tags`_ for valid values for ``<tag>``)
 

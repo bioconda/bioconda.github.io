@@ -47,7 +47,7 @@ bioconductor-suprahex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-suprahex:<tag>
+      docker pull quay.io/biocontainers/bioconductor-suprahex:<tag>
 
    (see `bioconductor-suprahex/tags`_ for valid values for ``<tag>``)
 

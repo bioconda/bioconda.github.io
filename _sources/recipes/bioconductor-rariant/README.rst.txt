@@ -71,7 +71,7 @@ bioconductor-rariant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rariant:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rariant:<tag>
 
    (see `bioconductor-rariant/tags`_ for valid values for ``<tag>``)
 

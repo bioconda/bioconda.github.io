@@ -47,7 +47,7 @@ bioconductor-rbcbook1
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rbcbook1:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rbcbook1:<tag>
 
    (see `bioconductor-rbcbook1/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ perl-cairo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-cairo:<tag>
+      docker pull quay.io/biocontainers/perl-cairo:<tag>
 
    (see `perl-cairo/tags`_ for valid values for ``<tag>``)
 

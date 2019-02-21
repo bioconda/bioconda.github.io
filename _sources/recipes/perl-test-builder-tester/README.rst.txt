@@ -40,7 +40,7 @@ perl-test-builder-tester
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-builder-tester:<tag>
+      docker pull quay.io/biocontainers/perl-test-builder-tester:<tag>
 
    (see `perl-test-builder-tester/tags`_ for valid values for ``<tag>``)
 

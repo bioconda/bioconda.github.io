@@ -65,7 +65,7 @@ bioconductor-biseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biseq:<tag>
 
    (see `bioconductor-biseq/tags`_ for valid values for ``<tag>``)
 

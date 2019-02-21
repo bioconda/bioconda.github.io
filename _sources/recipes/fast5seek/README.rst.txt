@@ -44,7 +44,7 @@ fast5seek
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fast5seek:<tag>
+      docker pull quay.io/biocontainers/fast5seek:<tag>
 
    (see `fast5seek/tags`_ for valid values for ``<tag>``)
 

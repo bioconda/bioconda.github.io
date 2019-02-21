@@ -59,7 +59,7 @@ bioconductor-fgsea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fgsea:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fgsea:<tag>
 
    (see `bioconductor-fgsea/tags`_ for valid values for ``<tag>``)
 

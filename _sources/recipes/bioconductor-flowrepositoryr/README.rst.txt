@@ -47,7 +47,7 @@ bioconductor-flowrepositoryr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowrepositoryr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowrepositoryr:<tag>
 
    (see `bioconductor-flowrepositoryr/tags`_ for valid values for ``<tag>``)
 

@@ -76,7 +76,7 @@ bioconductor-customprodb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-customprodb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-customprodb:<tag>
 
    (see `bioconductor-customprodb/tags`_ for valid values for ``<tag>``)
 

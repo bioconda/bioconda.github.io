@@ -47,7 +47,7 @@ alder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/alder:<tag>
+      docker pull quay.io/biocontainers/alder:<tag>
 
    (see `alder/tags`_ for valid values for ``<tag>``)
 

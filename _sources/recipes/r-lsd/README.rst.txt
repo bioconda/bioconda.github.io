@@ -40,7 +40,7 @@ r-lsd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-lsd:<tag>
+      docker pull quay.io/biocontainers/r-lsd:<tag>
 
    (see `r-lsd/tags`_ for valid values for ``<tag>``)
 

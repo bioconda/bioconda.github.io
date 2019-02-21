@@ -52,7 +52,7 @@ svviz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/svviz:<tag>
+      docker pull quay.io/biocontainers/svviz:<tag>
 
    (see `svviz/tags`_ for valid values for ``<tag>``)
 

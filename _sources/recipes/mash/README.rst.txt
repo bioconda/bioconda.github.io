@@ -48,7 +48,7 @@ mash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mash:<tag>
+      docker pull quay.io/biocontainers/mash:<tag>
 
    (see `mash/tags`_ for valid values for ``<tag>``)
 

@@ -101,7 +101,7 @@ bioconda-utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconda-utils:<tag>
+      docker pull quay.io/biocontainers/bioconda-utils:<tag>
 
    (see `bioconda-utils/tags`_ for valid values for ``<tag>``)
 

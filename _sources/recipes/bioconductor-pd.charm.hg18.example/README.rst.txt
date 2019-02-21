@@ -54,7 +54,7 @@ bioconductor-pd.charm.hg18.example
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.charm.hg18.example:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.charm.hg18.example:<tag>
 
    (see `bioconductor-pd.charm.hg18.example/tags`_ for valid values for ``<tag>``)
 

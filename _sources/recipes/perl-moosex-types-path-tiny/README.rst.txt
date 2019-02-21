@@ -52,7 +52,7 @@ perl-moosex-types-path-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-types-path-tiny:<tag>
+      docker pull quay.io/biocontainers/perl-moosex-types-path-tiny:<tag>
 
    (see `perl-moosex-types-path-tiny/tags`_ for valid values for ``<tag>``)
 

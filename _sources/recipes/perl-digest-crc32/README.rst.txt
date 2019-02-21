@@ -40,7 +40,7 @@ perl-digest-crc32
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-digest-crc32:<tag>
+      docker pull quay.io/biocontainers/perl-digest-crc32:<tag>
 
    (see `perl-digest-crc32/tags`_ for valid values for ``<tag>``)
 

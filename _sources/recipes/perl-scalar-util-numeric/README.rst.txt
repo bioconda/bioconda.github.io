@@ -40,7 +40,7 @@ perl-scalar-util-numeric
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-scalar-util-numeric:<tag>
+      docker pull quay.io/biocontainers/perl-scalar-util-numeric:<tag>
 
    (see `perl-scalar-util-numeric/tags`_ for valid values for ``<tag>``)
 

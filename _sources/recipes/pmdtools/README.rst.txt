@@ -45,7 +45,7 @@ pmdtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pmdtools:<tag>
+      docker pull quay.io/biocontainers/pmdtools:<tag>
 
    (see `pmdtools/tags`_ for valid values for ``<tag>``)
 

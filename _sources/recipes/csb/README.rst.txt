@@ -46,7 +46,7 @@ csb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/csb:<tag>
+      docker pull quay.io/biocontainers/csb:<tag>
 
    (see `csb/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ tedna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tedna:<tag>
+      docker pull quay.io/biocontainers/tedna:<tag>
 
    (see `tedna/tags`_ for valid values for ``<tag>``)
 

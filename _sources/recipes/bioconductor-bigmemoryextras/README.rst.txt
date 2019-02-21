@@ -42,7 +42,7 @@ bioconductor-bigmemoryextras
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bigmemoryextras:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bigmemoryextras:<tag>
 
    (see `bioconductor-bigmemoryextras/tags`_ for valid values for ``<tag>``)
 

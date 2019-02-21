@@ -42,7 +42,7 @@ perl-bloom-faster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bloom-faster:<tag>
+      docker pull quay.io/biocontainers/perl-bloom-faster:<tag>
 
    (see `perl-bloom-faster/tags`_ for valid values for ``<tag>``)
 

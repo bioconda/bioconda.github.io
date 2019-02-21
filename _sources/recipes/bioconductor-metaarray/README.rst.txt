@@ -47,7 +47,7 @@ bioconductor-metaarray
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metaarray:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metaarray:<tag>
 
    (see `bioconductor-metaarray/tags`_ for valid values for ``<tag>``)
 

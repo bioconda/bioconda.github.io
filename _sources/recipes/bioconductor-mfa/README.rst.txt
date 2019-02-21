@@ -64,7 +64,7 @@ bioconductor-mfa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mfa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mfa:<tag>
 
    (see `bioconductor-mfa/tags`_ for valid values for ``<tag>``)
 

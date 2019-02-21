@@ -44,7 +44,7 @@ bioconductor-genie3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genie3:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genie3:<tag>
 
    (see `bioconductor-genie3/tags`_ for valid values for ``<tag>``)
 

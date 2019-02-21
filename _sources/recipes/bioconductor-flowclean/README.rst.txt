@@ -49,7 +49,7 @@ bioconductor-flowclean
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowclean:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowclean:<tag>
 
    (see `bioconductor-flowclean/tags`_ for valid values for ``<tag>``)
 

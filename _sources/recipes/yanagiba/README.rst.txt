@@ -46,7 +46,7 @@ yanagiba
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/yanagiba:<tag>
+      docker pull quay.io/biocontainers/yanagiba:<tag>
 
    (see `yanagiba/tags`_ for valid values for ``<tag>``)
 

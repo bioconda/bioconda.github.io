@@ -44,7 +44,7 @@ perl-text-levenshtein
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-levenshtein:<tag>
+      docker pull quay.io/biocontainers/perl-text-levenshtein:<tag>
 
    (see `perl-text-levenshtein/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ mcl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mcl:<tag>
+      docker pull quay.io/biocontainers/mcl:<tag>
 
    (see `mcl/tags`_ for valid values for ``<tag>``)
 

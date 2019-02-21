@@ -62,7 +62,7 @@ marge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/marge:<tag>
+      docker pull quay.io/biocontainers/marge:<tag>
 
    (see `marge/tags`_ for valid values for ``<tag>``)
 

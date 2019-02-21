@@ -40,7 +40,7 @@ perl-file-which
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-which:<tag>
+      docker pull quay.io/biocontainers/perl-file-which:<tag>
 
    (see `perl-file-which/tags`_ for valid values for ``<tag>``)
 

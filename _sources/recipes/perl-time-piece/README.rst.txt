@@ -40,7 +40,7 @@ perl-time-piece
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-time-piece:<tag>
+      docker pull quay.io/biocontainers/perl-time-piece:<tag>
 
    (see `perl-time-piece/tags`_ for valid values for ``<tag>``)
 

@@ -51,7 +51,7 @@ bioconductor-ncigraph
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ncigraph:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ncigraph:<tag>
 
    (see `bioconductor-ncigraph/tags`_ for valid values for ``<tag>``)
 

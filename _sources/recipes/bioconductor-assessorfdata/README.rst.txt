@@ -44,7 +44,7 @@ bioconductor-assessorfdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-assessorfdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-assessorfdata:<tag>
 
    (see `bioconductor-assessorfdata/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-http-negotiate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-http-negotiate:<tag>
+      docker pull quay.io/biocontainers/perl-http-negotiate:<tag>
 
    (see `perl-http-negotiate/tags`_ for valid values for ``<tag>``)
 

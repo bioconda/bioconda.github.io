@@ -63,7 +63,7 @@ bioconductor-aspli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-aspli:<tag>
+      docker pull quay.io/biocontainers/bioconductor-aspli:<tag>
 
    (see `bioconductor-aspli/tags`_ for valid values for ``<tag>``)
 

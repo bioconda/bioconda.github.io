@@ -44,7 +44,7 @@ perl-test-subcalls
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-subcalls:<tag>
+      docker pull quay.io/biocontainers/perl-test-subcalls:<tag>
 
    (see `perl-test-subcalls/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ glimmerhmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/glimmerhmm:<tag>
+      docker pull quay.io/biocontainers/glimmerhmm:<tag>
 
    (see `glimmerhmm/tags`_ for valid values for ``<tag>``)
 

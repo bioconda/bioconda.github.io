@@ -53,7 +53,7 @@ bioconductor-esetvis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-esetvis:<tag>
+      docker pull quay.io/biocontainers/bioconductor-esetvis:<tag>
 
    (see `bioconductor-esetvis/tags`_ for valid values for ``<tag>``)
 

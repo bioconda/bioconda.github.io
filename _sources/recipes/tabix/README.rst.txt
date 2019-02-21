@@ -42,7 +42,7 @@ tabix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tabix:<tag>
+      docker pull quay.io/biocontainers/tabix:<tag>
 
    (see `tabix/tags`_ for valid values for ``<tag>``)
 

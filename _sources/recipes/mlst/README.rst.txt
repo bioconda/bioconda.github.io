@@ -51,7 +51,7 @@ mlst
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mlst:<tag>
+      docker pull quay.io/biocontainers/mlst:<tag>
 
    (see `mlst/tags`_ for valid values for ``<tag>``)
 

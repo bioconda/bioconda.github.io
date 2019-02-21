@@ -43,7 +43,7 @@ seqtk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seqtk:<tag>
+      docker pull quay.io/biocontainers/seqtk:<tag>
 
    (see `seqtk/tags`_ for valid values for ``<tag>``)
 

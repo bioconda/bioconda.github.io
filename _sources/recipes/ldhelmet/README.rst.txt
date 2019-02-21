@@ -47,7 +47,7 @@ ldhelmet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ldhelmet:<tag>
+      docker pull quay.io/biocontainers/ldhelmet:<tag>
 
    (see `ldhelmet/tags`_ for valid values for ``<tag>``)
 

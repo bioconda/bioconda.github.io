@@ -52,7 +52,7 @@ bioconductor-somaticcanceralterations
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-somaticcanceralterations:<tag>
+      docker pull quay.io/biocontainers/bioconductor-somaticcanceralterations:<tag>
 
    (see `bioconductor-somaticcanceralterations/tags`_ for valid values for ``<tag>``)
 

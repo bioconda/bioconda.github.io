@@ -60,7 +60,7 @@ bioconductor-lowmaca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lowmaca:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lowmaca:<tag>
 
    (see `bioconductor-lowmaca/tags`_ for valid values for ``<tag>``)
 

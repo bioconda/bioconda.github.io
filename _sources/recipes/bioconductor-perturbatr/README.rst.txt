@@ -70,7 +70,7 @@ bioconductor-perturbatr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-perturbatr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-perturbatr:<tag>
 
    (see `bioconductor-perturbatr/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ bioconductor-hiergwas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hiergwas:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hiergwas:<tag>
 
    (see `bioconductor-hiergwas/tags`_ for valid values for ``<tag>``)
 

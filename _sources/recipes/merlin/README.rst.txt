@@ -43,7 +43,7 @@ merlin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/merlin:<tag>
+      docker pull quay.io/biocontainers/merlin:<tag>
 
    (see `merlin/tags`_ for valid values for ``<tag>``)
 

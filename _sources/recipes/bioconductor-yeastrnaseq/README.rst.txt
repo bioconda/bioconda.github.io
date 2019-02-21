@@ -42,7 +42,7 @@ bioconductor-yeastrnaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-yeastrnaseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-yeastrnaseq:<tag>
 
    (see `bioconductor-yeastrnaseq/tags`_ for valid values for ``<tag>``)
 

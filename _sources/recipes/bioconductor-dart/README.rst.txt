@@ -42,7 +42,7 @@ bioconductor-dart
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dart:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dart:<tag>
 
    (see `bioconductor-dart/tags`_ for valid values for ``<tag>``)
 

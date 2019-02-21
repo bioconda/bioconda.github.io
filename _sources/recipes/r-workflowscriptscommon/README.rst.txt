@@ -42,7 +42,7 @@ r-workflowscriptscommon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-workflowscriptscommon:<tag>
+      docker pull quay.io/biocontainers/r-workflowscriptscommon:<tag>
 
    (see `r-workflowscriptscommon/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-beta7
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-beta7:<tag>
+      docker pull quay.io/biocontainers/bioconductor-beta7:<tag>
 
    (see `bioconductor-beta7/tags`_ for valid values for ``<tag>``)
 

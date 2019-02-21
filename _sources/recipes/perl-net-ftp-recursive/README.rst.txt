@@ -42,7 +42,7 @@ perl-net-ftp-recursive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-net-ftp-recursive:<tag>
+      docker pull quay.io/biocontainers/perl-net-ftp-recursive:<tag>
 
    (see `perl-net-ftp-recursive/tags`_ for valid values for ``<tag>``)
 

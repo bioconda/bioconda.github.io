@@ -64,7 +64,7 @@ epic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/epic:<tag>
+      docker pull quay.io/biocontainers/epic:<tag>
 
    (see `epic/tags`_ for valid values for ``<tag>``)
 

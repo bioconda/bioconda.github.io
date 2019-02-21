@@ -44,7 +44,7 @@ setuptools_cython
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/setuptools_cython:<tag>
+      docker pull quay.io/biocontainers/setuptools_cython:<tag>
 
    (see `setuptools_cython/tags`_ for valid values for ``<tag>``)
 

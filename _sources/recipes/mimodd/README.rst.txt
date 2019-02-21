@@ -46,7 +46,7 @@ mimodd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mimodd:<tag>
+      docker pull quay.io/biocontainers/mimodd:<tag>
 
    (see `mimodd/tags`_ for valid values for ``<tag>``)
 

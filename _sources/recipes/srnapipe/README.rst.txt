@@ -68,7 +68,7 @@ srnapipe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/srnapipe:<tag>
+      docker pull quay.io/biocontainers/srnapipe:<tag>
 
    (see `srnapipe/tags`_ for valid values for ``<tag>``)
 

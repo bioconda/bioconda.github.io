@@ -44,7 +44,7 @@ flaimapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flaimapper:<tag>
+      docker pull quay.io/biocontainers/flaimapper:<tag>
 
    (see `flaimapper/tags`_ for valid values for ``<tag>``)
 

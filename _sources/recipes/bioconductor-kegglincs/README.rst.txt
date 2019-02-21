@@ -65,7 +65,7 @@ bioconductor-kegglincs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-kegglincs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-kegglincs:<tag>
 
    (see `bioconductor-kegglincs/tags`_ for valid values for ``<tag>``)
 

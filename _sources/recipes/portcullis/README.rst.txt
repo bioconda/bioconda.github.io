@@ -52,7 +52,7 @@ portcullis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/portcullis:<tag>
+      docker pull quay.io/biocontainers/portcullis:<tag>
 
    (see `portcullis/tags`_ for valid values for ``<tag>``)
 

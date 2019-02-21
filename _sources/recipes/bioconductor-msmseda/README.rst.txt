@@ -49,7 +49,7 @@ bioconductor-msmseda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msmseda:<tag>
+      docker pull quay.io/biocontainers/bioconductor-msmseda:<tag>
 
    (see `bioconductor-msmseda/tags`_ for valid values for ``<tag>``)
 

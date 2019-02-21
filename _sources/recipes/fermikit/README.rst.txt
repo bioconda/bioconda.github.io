@@ -56,7 +56,7 @@ fermikit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fermikit:<tag>
+      docker pull quay.io/biocontainers/fermikit:<tag>
 
    (see `fermikit/tags`_ for valid values for ``<tag>``)
 

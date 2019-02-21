@@ -56,7 +56,7 @@ bioconductor-pd.xenopus.laevis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.xenopus.laevis:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.xenopus.laevis:<tag>
 
    (see `bioconductor-pd.xenopus.laevis/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ codonw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/codonw:<tag>
+      docker pull quay.io/biocontainers/codonw:<tag>
 
    (see `codonw/tags`_ for valid values for ``<tag>``)
 

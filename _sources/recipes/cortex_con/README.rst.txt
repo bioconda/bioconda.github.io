@@ -41,7 +41,7 @@ cortex_con
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cortex_con:<tag>
+      docker pull quay.io/biocontainers/cortex_con:<tag>
 
    (see `cortex_con/tags`_ for valid values for ``<tag>``)
 

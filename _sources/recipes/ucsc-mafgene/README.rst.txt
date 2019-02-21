@@ -50,7 +50,7 @@ ucsc-mafgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-mafgene:<tag>
+      docker pull quay.io/biocontainers/ucsc-mafgene:<tag>
 
    (see `ucsc-mafgene/tags`_ for valid values for ``<tag>``)
 

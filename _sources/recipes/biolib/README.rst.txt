@@ -42,7 +42,7 @@ biolib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biolib:<tag>
+      docker pull quay.io/biocontainers/biolib:<tag>
 
    (see `biolib/tags`_ for valid values for ``<tag>``)
 

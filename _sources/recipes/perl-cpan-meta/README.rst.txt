@@ -54,7 +54,7 @@ perl-cpan-meta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-cpan-meta:<tag>
+      docker pull quay.io/biocontainers/perl-cpan-meta:<tag>
 
    (see `perl-cpan-meta/tags`_ for valid values for ``<tag>``)
 

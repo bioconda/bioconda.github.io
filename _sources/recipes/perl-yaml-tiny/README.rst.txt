@@ -40,7 +40,7 @@ perl-yaml-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-yaml-tiny:<tag>
+      docker pull quay.io/biocontainers/perl-yaml-tiny:<tag>
 
    (see `perl-yaml-tiny/tags`_ for valid values for ``<tag>``)
 

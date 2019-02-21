@@ -56,7 +56,7 @@ fastlmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastlmm:<tag>
+      docker pull quay.io/biocontainers/fastlmm:<tag>
 
    (see `fastlmm/tags`_ for valid values for ``<tag>``)
 

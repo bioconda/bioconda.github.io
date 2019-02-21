@@ -58,7 +58,7 @@ edd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/edd:<tag>
+      docker pull quay.io/biocontainers/edd:<tag>
 
    (see `edd/tags`_ for valid values for ``<tag>``)
 

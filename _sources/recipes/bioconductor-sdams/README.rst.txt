@@ -46,7 +46,7 @@ bioconductor-sdams
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sdams:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sdams:<tag>
 
    (see `bioconductor-sdams/tags`_ for valid values for ``<tag>``)
 

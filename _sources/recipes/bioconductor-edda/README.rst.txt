@@ -57,7 +57,7 @@ bioconductor-edda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-edda:<tag>
+      docker pull quay.io/biocontainers/bioconductor-edda:<tag>
 
    (see `bioconductor-edda/tags`_ for valid values for ``<tag>``)
 

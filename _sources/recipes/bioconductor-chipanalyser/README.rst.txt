@@ -60,7 +60,7 @@ bioconductor-chipanalyser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chipanalyser:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chipanalyser:<tag>
 
    (see `bioconductor-chipanalyser/tags`_ for valid values for ``<tag>``)
 

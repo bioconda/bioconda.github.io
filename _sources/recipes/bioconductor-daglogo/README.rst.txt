@@ -50,7 +50,7 @@ bioconductor-daglogo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-daglogo:<tag>
+      docker pull quay.io/biocontainers/bioconductor-daglogo:<tag>
 
    (see `bioconductor-daglogo/tags`_ for valid values for ``<tag>``)
 

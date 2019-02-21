@@ -50,7 +50,7 @@ bioconductor-snplocs.hsapiens.dbsnp142.grch37
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp142.grch37:<tag>
+      docker pull quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp142.grch37:<tag>
 
    (see `bioconductor-snplocs.hsapiens.dbsnp142.grch37/tags`_ for valid values for ``<tag>``)
 

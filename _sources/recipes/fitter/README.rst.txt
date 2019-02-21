@@ -48,7 +48,7 @@ fitter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fitter:<tag>
+      docker pull quay.io/biocontainers/fitter:<tag>
 
    (see `fitter/tags`_ for valid values for ``<tag>``)
 

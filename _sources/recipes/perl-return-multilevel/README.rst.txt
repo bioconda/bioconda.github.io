@@ -48,7 +48,7 @@ perl-return-multilevel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-return-multilevel:<tag>
+      docker pull quay.io/biocontainers/perl-return-multilevel:<tag>
 
    (see `perl-return-multilevel/tags`_ for valid values for ``<tag>``)
 

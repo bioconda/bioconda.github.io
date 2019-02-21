@@ -40,7 +40,7 @@ bio-vcf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bio-vcf:<tag>
+      docker pull quay.io/biocontainers/bio-vcf:<tag>
 
    (see `bio-vcf/tags`_ for valid values for ``<tag>``)
 

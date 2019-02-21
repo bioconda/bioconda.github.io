@@ -44,7 +44,7 @@ bioconductor-bsgenome.celegans.ucsc.ce11
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.celegans.ucsc.ce11:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.celegans.ucsc.ce11:<tag>
 
    (see `bioconductor-bsgenome.celegans.ucsc.ce11/tags`_ for valid values for ``<tag>``)
 

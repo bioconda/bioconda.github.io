@@ -44,7 +44,7 @@ perl-xml-parser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-parser:<tag>
+      docker pull quay.io/biocontainers/perl-xml-parser:<tag>
 
    (see `perl-xml-parser/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ libbambamc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libbambamc:<tag>
+      docker pull quay.io/biocontainers/libbambamc:<tag>
 
    (see `libbambamc/tags`_ for valid values for ``<tag>``)
 

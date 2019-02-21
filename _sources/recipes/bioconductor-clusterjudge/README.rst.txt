@@ -50,7 +50,7 @@ bioconductor-clusterjudge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clusterjudge:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clusterjudge:<tag>
 
    (see `bioconductor-clusterjudge/tags`_ for valid values for ``<tag>``)
 

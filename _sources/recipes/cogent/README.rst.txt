@@ -52,7 +52,7 @@ cogent
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cogent:<tag>
+      docker pull quay.io/biocontainers/cogent:<tag>
 
    (see `cogent/tags`_ for valid values for ``<tag>``)
 

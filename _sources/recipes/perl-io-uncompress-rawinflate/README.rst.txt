@@ -40,7 +40,7 @@ perl-io-uncompress-rawinflate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-uncompress-rawinflate:<tag>
+      docker pull quay.io/biocontainers/perl-io-uncompress-rawinflate:<tag>
 
    (see `perl-io-uncompress-rawinflate/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ structureharvester
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/structureharvester:<tag>
+      docker pull quay.io/biocontainers/structureharvester:<tag>
 
    (see `structureharvester/tags`_ for valid values for ``<tag>``)
 

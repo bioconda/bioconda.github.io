@@ -50,7 +50,7 @@ ucsc-parahubstop
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-parahubstop:<tag>
+      docker pull quay.io/biocontainers/ucsc-parahubstop:<tag>
 
    (see `ucsc-parahubstop/tags`_ for valid values for ``<tag>``)
 

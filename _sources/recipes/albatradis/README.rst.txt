@@ -70,7 +70,7 @@ albatradis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/albatradis:<tag>
+      docker pull quay.io/biocontainers/albatradis:<tag>
 
    (see `albatradis/tags`_ for valid values for ``<tag>``)
 

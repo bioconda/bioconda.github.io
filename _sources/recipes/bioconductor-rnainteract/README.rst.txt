@@ -69,7 +69,7 @@ bioconductor-rnainteract
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnainteract:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rnainteract:<tag>
 
    (see `bioconductor-rnainteract/tags`_ for valid values for ``<tag>``)
 

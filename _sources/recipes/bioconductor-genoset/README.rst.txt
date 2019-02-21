@@ -55,7 +55,7 @@ bioconductor-genoset
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genoset:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genoset:<tag>
 
    (see `bioconductor-genoset/tags`_ for valid values for ``<tag>``)
 

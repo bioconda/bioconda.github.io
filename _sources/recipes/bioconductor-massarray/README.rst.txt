@@ -41,7 +41,7 @@ bioconductor-massarray
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-massarray:<tag>
+      docker pull quay.io/biocontainers/bioconductor-massarray:<tag>
 
    (see `bioconductor-massarray/tags`_ for valid values for ``<tag>``)
 

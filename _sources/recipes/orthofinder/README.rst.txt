@@ -66,7 +66,7 @@ orthofinder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/orthofinder:<tag>
+      docker pull quay.io/biocontainers/orthofinder:<tag>
 
    (see `orthofinder/tags`_ for valid values for ``<tag>``)
 

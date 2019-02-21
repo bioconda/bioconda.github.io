@@ -42,7 +42,7 @@ ncrf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ncrf:<tag>
+      docker pull quay.io/biocontainers/ncrf:<tag>
 
    (see `ncrf/tags`_ for valid values for ``<tag>``)
 

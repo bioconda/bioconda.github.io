@@ -47,7 +47,7 @@ biskit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biskit:<tag>
+      docker pull quay.io/biocontainers/biskit:<tag>
 
    (see `biskit/tags`_ for valid values for ``<tag>``)
 

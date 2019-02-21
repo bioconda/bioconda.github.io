@@ -42,7 +42,7 @@ r-ecodist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ecodist:<tag>
+      docker pull quay.io/biocontainers/r-ecodist:<tag>
 
    (see `r-ecodist/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ fastqmetrics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastqmetrics:<tag>
+      docker pull quay.io/biocontainers/fastqmetrics:<tag>
 
    (see `fastqmetrics/tags`_ for valid values for ``<tag>``)
 

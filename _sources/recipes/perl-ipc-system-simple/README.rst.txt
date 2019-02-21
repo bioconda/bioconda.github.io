@@ -42,7 +42,7 @@ perl-ipc-system-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-ipc-system-simple:<tag>
+      docker pull quay.io/biocontainers/perl-ipc-system-simple:<tag>
 
    (see `perl-ipc-system-simple/tags`_ for valid values for ``<tag>``)
 

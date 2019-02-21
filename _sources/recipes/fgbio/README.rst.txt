@@ -42,7 +42,7 @@ fgbio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fgbio:<tag>
+      docker pull quay.io/biocontainers/fgbio:<tag>
 
    (see `fgbio/tags`_ for valid values for ``<tag>``)
 

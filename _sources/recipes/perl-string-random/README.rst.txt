@@ -46,7 +46,7 @@ perl-string-random
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-string-random:<tag>
+      docker pull quay.io/biocontainers/perl-string-random:<tag>
 
    (see `perl-string-random/tags`_ for valid values for ``<tag>``)
 

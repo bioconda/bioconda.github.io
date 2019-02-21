@@ -51,7 +51,7 @@ r-fgwas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-fgwas:<tag>
+      docker pull quay.io/biocontainers/r-fgwas:<tag>
 
    (see `r-fgwas/tags`_ for valid values for ``<tag>``)
 

@@ -61,7 +61,7 @@ bioconductor-cve
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cve:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cve:<tag>
 
    (see `bioconductor-cve/tags`_ for valid values for ``<tag>``)
 

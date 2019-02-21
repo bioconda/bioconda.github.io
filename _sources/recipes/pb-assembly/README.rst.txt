@@ -68,7 +68,7 @@ pb-assembly
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pb-assembly:<tag>
+      docker pull quay.io/biocontainers/pb-assembly:<tag>
 
    (see `pb-assembly/tags`_ for valid values for ``<tag>``)
 

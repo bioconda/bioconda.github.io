@@ -44,7 +44,7 @@ bioconductor-jaspar2014
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-jaspar2014:<tag>
+      docker pull quay.io/biocontainers/bioconductor-jaspar2014:<tag>
 
    (see `bioconductor-jaspar2014/tags`_ for valid values for ``<tag>``)
 

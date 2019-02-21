@@ -50,7 +50,7 @@ bioconductor-flowfit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowfit:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowfit:<tag>
 
    (see `bioconductor-flowfit/tags`_ for valid values for ``<tag>``)
 

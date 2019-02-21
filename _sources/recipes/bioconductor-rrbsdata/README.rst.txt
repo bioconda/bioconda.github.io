@@ -44,7 +44,7 @@ bioconductor-rrbsdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rrbsdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rrbsdata:<tag>
 
    (see `bioconductor-rrbsdata/tags`_ for valid values for ``<tag>``)
 

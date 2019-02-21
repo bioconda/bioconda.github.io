@@ -44,7 +44,7 @@ pantools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pantools:<tag>
+      docker pull quay.io/biocontainers/pantools:<tag>
 
    (see `pantools/tags`_ for valid values for ``<tag>``)
 

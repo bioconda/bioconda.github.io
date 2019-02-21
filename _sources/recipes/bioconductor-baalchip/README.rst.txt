@@ -65,7 +65,7 @@ bioconductor-baalchip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-baalchip:<tag>
+      docker pull quay.io/biocontainers/bioconductor-baalchip:<tag>
 
    (see `bioconductor-baalchip/tags`_ for valid values for ``<tag>``)
 

@@ -49,7 +49,7 @@ bioconductor-biosigner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biosigner:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biosigner:<tag>
 
    (see `bioconductor-biosigner/tags`_ for valid values for ``<tag>``)
 

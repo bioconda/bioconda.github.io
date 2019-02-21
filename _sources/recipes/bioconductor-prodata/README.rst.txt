@@ -44,7 +44,7 @@ bioconductor-prodata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-prodata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-prodata:<tag>
 
    (see `bioconductor-prodata/tags`_ for valid values for ``<tag>``)
 

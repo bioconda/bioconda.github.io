@@ -56,7 +56,7 @@ kodoja
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kodoja:<tag>
+      docker pull quay.io/biocontainers/kodoja:<tag>
 
    (see `kodoja/tags`_ for valid values for ``<tag>``)
 

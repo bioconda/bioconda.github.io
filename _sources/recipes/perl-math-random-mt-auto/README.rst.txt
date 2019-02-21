@@ -52,7 +52,7 @@ perl-math-random-mt-auto
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-random-mt-auto:<tag>
+      docker pull quay.io/biocontainers/perl-math-random-mt-auto:<tag>
 
    (see `perl-math-random-mt-auto/tags`_ for valid values for ``<tag>``)
 

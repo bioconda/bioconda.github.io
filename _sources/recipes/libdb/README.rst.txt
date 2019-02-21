@@ -24,7 +24,9 @@ libdb
 
    :versions: 6.1.26-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :requirements:
 
@@ -40,7 +42,7 @@ libdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libdb:<tag>
+      docker pull quay.io/biocontainers/libdb:<tag>
 
    (see `libdb/tags`_ for valid values for ``<tag>``)
 

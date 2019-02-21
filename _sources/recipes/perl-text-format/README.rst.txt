@@ -40,7 +40,7 @@ perl-text-format
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-format:<tag>
+      docker pull quay.io/biocontainers/perl-text-format:<tag>
 
    (see `perl-text-format/tags`_ for valid values for ``<tag>``)
 

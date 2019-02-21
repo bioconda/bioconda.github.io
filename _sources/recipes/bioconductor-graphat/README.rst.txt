@@ -45,7 +45,7 @@ bioconductor-graphat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-graphat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-graphat:<tag>
 
    (see `bioconductor-graphat/tags`_ for valid values for ``<tag>``)
 

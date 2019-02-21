@@ -50,7 +50,7 @@ plasmidtron
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plasmidtron:<tag>
+      docker pull quay.io/biocontainers/plasmidtron:<tag>
 
    (see `plasmidtron/tags`_ for valid values for ``<tag>``)
 

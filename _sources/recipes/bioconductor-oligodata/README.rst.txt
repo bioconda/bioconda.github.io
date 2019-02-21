@@ -44,7 +44,7 @@ bioconductor-oligodata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-oligodata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-oligodata:<tag>
 
    (see `bioconductor-oligodata/tags`_ for valid values for ``<tag>``)
 

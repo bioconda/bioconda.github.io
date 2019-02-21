@@ -53,7 +53,7 @@ krakenuniq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/krakenuniq:<tag>
+      docker pull quay.io/biocontainers/krakenuniq:<tag>
 
    (see `krakenuniq/tags`_ for valid values for ``<tag>``)
 

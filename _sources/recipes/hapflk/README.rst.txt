@@ -46,7 +46,7 @@ hapflk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hapflk:<tag>
+      docker pull quay.io/biocontainers/hapflk:<tag>
 
    (see `hapflk/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ downpore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/downpore:<tag>
+      docker pull quay.io/biocontainers/downpore:<tag>
 
    (see `downpore/tags`_ for valid values for ``<tag>``)
 

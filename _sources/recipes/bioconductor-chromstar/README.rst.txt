@@ -71,7 +71,7 @@ bioconductor-chromstar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chromstar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chromstar:<tag>
 
    (see `bioconductor-chromstar/tags`_ for valid values for ``<tag>``)
 

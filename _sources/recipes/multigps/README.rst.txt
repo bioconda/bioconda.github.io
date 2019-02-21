@@ -46,7 +46,7 @@ multigps
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/multigps:<tag>
+      docker pull quay.io/biocontainers/multigps:<tag>
 
    (see `multigps/tags`_ for valid values for ``<tag>``)
 

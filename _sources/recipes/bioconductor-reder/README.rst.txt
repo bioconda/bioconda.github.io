@@ -43,7 +43,7 @@ bioconductor-reder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-reder:<tag>
+      docker pull quay.io/biocontainers/bioconductor-reder:<tag>
 
    (see `bioconductor-reder/tags`_ for valid values for ``<tag>``)
 

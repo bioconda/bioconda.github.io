@@ -50,7 +50,7 @@ transabyss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/transabyss:<tag>
+      docker pull quay.io/biocontainers/transabyss:<tag>
 
    (see `transabyss/tags`_ for valid values for ``<tag>``)
 

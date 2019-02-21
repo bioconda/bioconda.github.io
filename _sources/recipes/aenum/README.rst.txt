@@ -40,7 +40,7 @@ aenum
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/aenum:<tag>
+      docker pull quay.io/biocontainers/aenum:<tag>
 
    (see `aenum/tags`_ for valid values for ``<tag>``)
 

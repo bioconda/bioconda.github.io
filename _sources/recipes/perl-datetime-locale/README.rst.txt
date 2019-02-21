@@ -50,7 +50,7 @@ perl-datetime-locale
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-datetime-locale:<tag>
+      docker pull quay.io/biocontainers/perl-datetime-locale:<tag>
 
    (see `perl-datetime-locale/tags`_ for valid values for ``<tag>``)
 

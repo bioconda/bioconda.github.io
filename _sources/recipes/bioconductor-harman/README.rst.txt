@@ -47,7 +47,7 @@ bioconductor-harman
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-harman:<tag>
+      docker pull quay.io/biocontainers/bioconductor-harman:<tag>
 
    (see `bioconductor-harman/tags`_ for valid values for ``<tag>``)
 

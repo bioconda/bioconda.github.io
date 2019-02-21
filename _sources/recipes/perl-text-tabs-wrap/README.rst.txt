@@ -40,7 +40,7 @@ perl-text-tabs-wrap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-tabs-wrap:<tag>
+      docker pull quay.io/biocontainers/perl-text-tabs-wrap:<tag>
 
    (see `perl-text-tabs-wrap/tags`_ for valid values for ``<tag>``)
 

@@ -65,7 +65,7 @@ bioconductor-funchip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-funchip:<tag>
+      docker pull quay.io/biocontainers/bioconductor-funchip:<tag>
 
    (see `bioconductor-funchip/tags`_ for valid values for ``<tag>``)
 

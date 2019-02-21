@@ -41,7 +41,7 @@ mreps
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mreps:<tag>
+      docker pull quay.io/biocontainers/mreps:<tag>
 
    (see `mreps/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg19
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.hsapiens.ucsc.hg19:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.hsapiens.ucsc.hg19:<tag>
 
    (see `bioconductor-bsgenome.hsapiens.ucsc.hg19/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ libgenome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libgenome:<tag>
+      docker pull quay.io/biocontainers/libgenome:<tag>
 
    (see `libgenome/tags`_ for valid values for ``<tag>``)
 

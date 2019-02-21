@@ -57,7 +57,7 @@ bioconductor-metagenomeseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metagenomeseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metagenomeseq:<tag>
 
    (see `bioconductor-metagenomeseq/tags`_ for valid values for ``<tag>``)
 

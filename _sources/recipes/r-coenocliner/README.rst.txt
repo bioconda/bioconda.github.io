@@ -40,7 +40,7 @@ r-coenocliner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-coenocliner:<tag>
+      docker pull quay.io/biocontainers/r-coenocliner:<tag>
 
    (see `r-coenocliner/tags`_ for valid values for ``<tag>``)
 

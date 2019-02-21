@@ -90,7 +90,7 @@ bioconductor-clusterexperiment
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clusterexperiment:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clusterexperiment:<tag>
 
    (see `bioconductor-clusterexperiment/tags`_ for valid values for ``<tag>``)
 

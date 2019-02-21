@@ -66,7 +66,7 @@ bioconductor-gopro
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gopro:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gopro:<tag>
 
    (see `bioconductor-gopro/tags`_ for valid values for ``<tag>``)
 

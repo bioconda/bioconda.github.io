@@ -52,7 +52,7 @@ odose
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/odose:<tag>
+      docker pull quay.io/biocontainers/odose:<tag>
 
    (see `odose/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ bioconductor-gostag
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gostag:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gostag:<tag>
 
    (see `bioconductor-gostag/tags`_ for valid values for ``<tag>``)
 

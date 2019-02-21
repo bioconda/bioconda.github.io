@@ -69,7 +69,7 @@ desman
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/desman:<tag>
+      docker pull quay.io/biocontainers/desman:<tag>
 
    (see `desman/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-dupchecker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dupchecker:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dupchecker:<tag>
 
    (see `bioconductor-dupchecker/tags`_ for valid values for ``<tag>``)
 

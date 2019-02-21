@@ -65,7 +65,7 @@ bioconductor-mapredictdsc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mapredictdsc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mapredictdsc:<tag>
 
    (see `bioconductor-mapredictdsc/tags`_ for valid values for ``<tag>``)
 

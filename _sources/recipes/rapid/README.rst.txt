@@ -66,7 +66,7 @@ rapid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rapid:<tag>
+      docker pull quay.io/biocontainers/rapid:<tag>
 
    (see `rapid/tags`_ for valid values for ``<tag>``)
 

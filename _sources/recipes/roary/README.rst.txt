@@ -93,7 +93,7 @@ roary
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/roary:<tag>
+      docker pull quay.io/biocontainers/roary:<tag>
 
    (see `roary/tags`_ for valid values for ``<tag>``)
 

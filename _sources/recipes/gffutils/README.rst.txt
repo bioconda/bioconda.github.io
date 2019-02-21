@@ -51,7 +51,7 @@ gffutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gffutils:<tag>
+      docker pull quay.io/biocontainers/gffutils:<tag>
 
    (see `gffutils/tags`_ for valid values for ``<tag>``)
 

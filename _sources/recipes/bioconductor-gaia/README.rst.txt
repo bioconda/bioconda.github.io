@@ -40,7 +40,7 @@ bioconductor-gaia
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gaia:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gaia:<tag>
 
    (see `bioconductor-gaia/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ pout2mzid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pout2mzid:<tag>
+      docker pull quay.io/biocontainers/pout2mzid:<tag>
 
    (see `pout2mzid/tags`_ for valid values for ``<tag>``)
 

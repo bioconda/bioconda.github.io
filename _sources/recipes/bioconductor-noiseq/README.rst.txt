@@ -45,7 +45,7 @@ bioconductor-noiseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-noiseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-noiseq:<tag>
 
    (see `bioconductor-noiseq/tags`_ for valid values for ``<tag>``)
 

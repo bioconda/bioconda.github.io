@@ -40,7 +40,7 @@ perl-common-sense
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-common-sense:<tag>
+      docker pull quay.io/biocontainers/perl-common-sense:<tag>
 
    (see `perl-common-sense/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ bioconductor-mirmine
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirmine:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mirmine:<tag>
 
    (see `bioconductor-mirmine/tags`_ for valid values for ``<tag>``)
 

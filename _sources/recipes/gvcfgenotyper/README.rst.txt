@@ -42,7 +42,7 @@ gvcfgenotyper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gvcfgenotyper:<tag>
+      docker pull quay.io/biocontainers/gvcfgenotyper:<tag>
 
    (see `gvcfgenotyper/tags`_ for valid values for ``<tag>``)
 

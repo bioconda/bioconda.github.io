@@ -46,7 +46,7 @@ haploclique
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/haploclique:<tag>
+      docker pull quay.io/biocontainers/haploclique:<tag>
 
    (see `haploclique/tags`_ for valid values for ``<tag>``)
 

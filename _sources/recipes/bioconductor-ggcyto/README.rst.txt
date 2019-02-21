@@ -61,7 +61,7 @@ bioconductor-ggcyto
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ggcyto:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ggcyto:<tag>
 
    (see `bioconductor-ggcyto/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-statistics-descriptive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-statistics-descriptive:<tag>
+      docker pull quay.io/biocontainers/perl-statistics-descriptive:<tag>
 
    (see `perl-statistics-descriptive/tags`_ for valid values for ``<tag>``)
 

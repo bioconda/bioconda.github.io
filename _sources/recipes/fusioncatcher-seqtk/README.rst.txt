@@ -42,7 +42,7 @@ fusioncatcher-seqtk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fusioncatcher-seqtk:<tag>
+      docker pull quay.io/biocontainers/fusioncatcher-seqtk:<tag>
 
    (see `fusioncatcher-seqtk/tags`_ for valid values for ``<tag>``)
 

@@ -107,7 +107,7 @@ gimmemotifs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gimmemotifs:<tag>
+      docker pull quay.io/biocontainers/gimmemotifs:<tag>
 
    (see `gimmemotifs/tags`_ for valid values for ``<tag>``)
 

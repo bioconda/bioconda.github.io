@@ -59,7 +59,7 @@ bioconductor-titancna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-titancna:<tag>
+      docker pull quay.io/biocontainers/bioconductor-titancna:<tag>
 
    (see `bioconductor-titancna/tags`_ for valid values for ``<tag>``)
 

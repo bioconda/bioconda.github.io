@@ -47,7 +47,7 @@ pyvolve
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyvolve:<tag>
+      docker pull quay.io/biocontainers/pyvolve:<tag>
 
    (see `pyvolve/tags`_ for valid values for ``<tag>``)
 

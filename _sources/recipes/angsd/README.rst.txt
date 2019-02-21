@@ -45,7 +45,7 @@ angsd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/angsd:<tag>
+      docker pull quay.io/biocontainers/angsd:<tag>
 
    (see `angsd/tags`_ for valid values for ``<tag>``)
 

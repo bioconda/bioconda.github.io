@@ -38,7 +38,7 @@ bioconductor-rchyoptimyx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rchyoptimyx:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rchyoptimyx:<tag>
 
    (see `bioconductor-rchyoptimyx/tags`_ for valid values for ``<tag>``)
 

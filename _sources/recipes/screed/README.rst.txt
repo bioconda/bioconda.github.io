@@ -42,7 +42,7 @@ screed
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/screed:<tag>
+      docker pull quay.io/biocontainers/screed:<tag>
 
    (see `screed/tags`_ for valid values for ``<tag>``)
 

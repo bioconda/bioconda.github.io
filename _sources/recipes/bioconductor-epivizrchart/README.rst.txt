@@ -50,7 +50,7 @@ bioconductor-epivizrchart
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-epivizrchart:<tag>
+      docker pull quay.io/biocontainers/bioconductor-epivizrchart:<tag>
 
    (see `bioconductor-epivizrchart/tags`_ for valid values for ``<tag>``)
 

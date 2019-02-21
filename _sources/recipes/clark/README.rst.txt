@@ -43,7 +43,7 @@ clark
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clark:<tag>
+      docker pull quay.io/biocontainers/clark:<tag>
 
    (see `clark/tags`_ for valid values for ``<tag>``)
 

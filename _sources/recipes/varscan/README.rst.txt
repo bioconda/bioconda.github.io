@@ -41,7 +41,7 @@ varscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/varscan:<tag>
+      docker pull quay.io/biocontainers/varscan:<tag>
 
    (see `varscan/tags`_ for valid values for ``<tag>``)
 

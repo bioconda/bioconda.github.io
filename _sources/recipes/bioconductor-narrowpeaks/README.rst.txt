@@ -58,7 +58,7 @@ bioconductor-narrowpeaks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-narrowpeaks:<tag>
+      docker pull quay.io/biocontainers/bioconductor-narrowpeaks:<tag>
 
    (see `bioconductor-narrowpeaks/tags`_ for valid values for ``<tag>``)
 

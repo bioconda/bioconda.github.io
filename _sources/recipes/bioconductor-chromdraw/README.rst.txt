@@ -49,7 +49,7 @@ bioconductor-chromdraw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chromdraw:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chromdraw:<tag>
 
    (see `bioconductor-chromdraw/tags`_ for valid values for ``<tag>``)
 

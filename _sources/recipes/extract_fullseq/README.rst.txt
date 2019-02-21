@@ -38,7 +38,7 @@ extract_fullseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/extract_fullseq:<tag>
+      docker pull quay.io/biocontainers/extract_fullseq:<tag>
 
    (see `extract_fullseq/tags`_ for valid values for ``<tag>``)
 

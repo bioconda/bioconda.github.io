@@ -44,7 +44,7 @@ bioconductor-rtcga.rppa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.rppa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtcga.rppa:<tag>
 
    (see `bioconductor-rtcga.rppa/tags`_ for valid values for ``<tag>``)
 

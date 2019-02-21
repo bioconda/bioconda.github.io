@@ -11,8 +11,8 @@ cpat
 
    Coding Potential Assessment Tool
 
-   :homepage: http://dldcc-web.brc.bcm.edu/lilab/liguow/CGI/cpat/_build/html/index.html
-   :license: GNU
+   :homepage: http://rna-cpat.sourceforge.net/
+   :license: GNU General Public v2 (GPLv2)
    :recipe: /`cpat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpat/meta.yaml>`_
 
    
@@ -22,13 +22,15 @@ cpat
 
    |downloads_cpat| |docker_cpat|
 
-   :versions: 1.2.3-1, 1.2.3-0, 1.2.2-2
+   :versions: 1.2.4-0, 1.2.3-1, 1.2.3-0, 1.2.2-2
    
    :depends bx-python: 
    
+   :depends numpy: 
+   
    :depends pysam: 
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    
    :depends r-base: 
    
@@ -46,7 +48,7 @@ cpat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cpat:<tag>
+      docker pull quay.io/biocontainers/cpat:<tag>
 
    (see `cpat/tags`_ for valid values for ``<tag>``)
 

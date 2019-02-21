@@ -52,7 +52,7 @@ bioconductor-rforproteomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rforproteomics:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rforproteomics:<tag>
 
    (see `bioconductor-rforproteomics/tags`_ for valid values for ``<tag>``)
 

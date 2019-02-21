@@ -93,7 +93,7 @@ phyluce
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phyluce:<tag>
+      docker pull quay.io/biocontainers/phyluce:<tag>
 
    (see `phyluce/tags`_ for valid values for ``<tag>``)
 

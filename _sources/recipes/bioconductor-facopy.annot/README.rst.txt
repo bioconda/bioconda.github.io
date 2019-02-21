@@ -42,7 +42,7 @@ bioconductor-facopy.annot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-facopy.annot:<tag>
+      docker pull quay.io/biocontainers/bioconductor-facopy.annot:<tag>
 
    (see `bioconductor-facopy.annot/tags`_ for valid values for ``<tag>``)
 

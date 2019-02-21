@@ -45,7 +45,7 @@ rfmix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rfmix:<tag>
+      docker pull quay.io/biocontainers/rfmix:<tag>
 
    (see `rfmix/tags`_ for valid values for ``<tag>``)
 

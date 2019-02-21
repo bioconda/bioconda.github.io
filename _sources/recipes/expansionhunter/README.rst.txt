@@ -48,7 +48,7 @@ expansionhunter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/expansionhunter:<tag>
+      docker pull quay.io/biocontainers/expansionhunter:<tag>
 
    (see `expansionhunter/tags`_ for valid values for ``<tag>``)
 

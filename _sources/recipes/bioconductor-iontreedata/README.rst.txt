@@ -42,7 +42,7 @@ bioconductor-iontreedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-iontreedata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-iontreedata:<tag>
 
    (see `bioconductor-iontreedata/tags`_ for valid values for ``<tag>``)
 

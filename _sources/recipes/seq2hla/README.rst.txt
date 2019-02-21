@@ -47,7 +47,7 @@ seq2hla
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seq2hla:<tag>
+      docker pull quay.io/biocontainers/seq2hla:<tag>
 
    (see `seq2hla/tags`_ for valid values for ``<tag>``)
 

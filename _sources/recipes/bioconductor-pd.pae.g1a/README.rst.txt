@@ -56,7 +56,7 @@ bioconductor-pd.pae.g1a
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.pae.g1a:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.pae.g1a:<tag>
 
    (see `bioconductor-pd.pae.g1a/tags`_ for valid values for ``<tag>``)
 

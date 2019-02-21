@@ -40,7 +40,7 @@ flux-simulator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flux-simulator:<tag>
+      docker pull quay.io/biocontainers/flux-simulator:<tag>
 
    (see `flux-simulator/tags`_ for valid values for ``<tag>``)
 

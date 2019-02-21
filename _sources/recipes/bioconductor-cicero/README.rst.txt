@@ -80,7 +80,7 @@ bioconductor-cicero
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cicero:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cicero:<tag>
 
    (see `bioconductor-cicero/tags`_ for valid values for ``<tag>``)
 

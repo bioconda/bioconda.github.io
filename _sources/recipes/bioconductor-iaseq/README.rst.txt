@@ -41,7 +41,7 @@ bioconductor-iaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-iaseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-iaseq:<tag>
 
    (see `bioconductor-iaseq/tags`_ for valid values for ``<tag>``)
 

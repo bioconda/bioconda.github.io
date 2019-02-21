@@ -63,7 +63,7 @@ bioconductor-synapter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-synapter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-synapter:<tag>
 
    (see `bioconductor-synapter/tags`_ for valid values for ``<tag>``)
 

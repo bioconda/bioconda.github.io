@@ -47,7 +47,7 @@ bioconductor-traser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-traser:<tag>
+      docker pull quay.io/biocontainers/bioconductor-traser:<tag>
 
    (see `bioconductor-traser/tags`_ for valid values for ``<tag>``)
 

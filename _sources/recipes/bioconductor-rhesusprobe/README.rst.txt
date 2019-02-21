@@ -44,7 +44,7 @@ bioconductor-rhesusprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rhesusprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rhesusprobe:<tag>
 
    (see `bioconductor-rhesusprobe/tags`_ for valid values for ``<tag>``)
 

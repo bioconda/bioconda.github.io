@@ -50,7 +50,7 @@ ucsc-nettobed
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-nettobed:<tag>
+      docker pull quay.io/biocontainers/ucsc-nettobed:<tag>
 
    (see `ucsc-nettobed/tags`_ for valid values for ``<tag>``)
 

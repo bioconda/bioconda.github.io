@@ -66,7 +66,7 @@ reparation_blast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/reparation_blast:<tag>
+      docker pull quay.io/biocontainers/reparation_blast:<tag>
 
    (see `reparation_blast/tags`_ for valid values for ``<tag>``)
 

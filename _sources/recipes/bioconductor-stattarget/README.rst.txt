@@ -54,7 +54,7 @@ bioconductor-stattarget
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-stattarget:<tag>
+      docker pull quay.io/biocontainers/bioconductor-stattarget:<tag>
 
    (see `bioconductor-stattarget/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ scg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scg:<tag>
+      docker pull quay.io/biocontainers/scg:<tag>
 
    (see `scg/tags`_ for valid values for ``<tag>``)
 

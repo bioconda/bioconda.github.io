@@ -40,7 +40,7 @@ squizz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/squizz:<tag>
+      docker pull quay.io/biocontainers/squizz:<tag>
 
    (see `squizz/tags`_ for valid values for ``<tag>``)
 

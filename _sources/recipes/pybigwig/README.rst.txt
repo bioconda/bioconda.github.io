@@ -48,7 +48,7 @@ pybigwig
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pybigwig:<tag>
+      docker pull quay.io/biocontainers/pybigwig:<tag>
 
    (see `pybigwig/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ bioconductor-leebamviews
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-leebamviews:<tag>
+      docker pull quay.io/biocontainers/bioconductor-leebamviews:<tag>
 
    (see `bioconductor-leebamviews/tags`_ for valid values for ``<tag>``)
 

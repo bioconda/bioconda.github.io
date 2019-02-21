@@ -44,7 +44,7 @@ networkxgmml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/networkxgmml:<tag>
+      docker pull quay.io/biocontainers/networkxgmml:<tag>
 
    (see `networkxgmml/tags`_ for valid values for ``<tag>``)
 

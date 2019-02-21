@@ -46,7 +46,7 @@ tirmite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tirmite:<tag>
+      docker pull quay.io/biocontainers/tirmite:<tag>
 
    (see `tirmite/tags`_ for valid values for ``<tag>``)
 

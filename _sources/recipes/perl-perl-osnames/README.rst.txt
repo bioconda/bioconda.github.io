@@ -40,7 +40,7 @@ perl-perl-osnames
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-perl-osnames:<tag>
+      docker pull quay.io/biocontainers/perl-perl-osnames:<tag>
 
    (see `perl-perl-osnames/tags`_ for valid values for ``<tag>``)
 

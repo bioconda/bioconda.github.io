@@ -42,7 +42,7 @@ ngs-disambiguate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ngs-disambiguate:<tag>
+      docker pull quay.io/biocontainers/ngs-disambiguate:<tag>
 
    (see `ngs-disambiguate/tags`_ for valid values for ``<tag>``)
 

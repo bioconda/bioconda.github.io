@@ -49,7 +49,7 @@ bioconductor-oscope
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-oscope:<tag>
+      docker pull quay.io/biocontainers/bioconductor-oscope:<tag>
 
    (see `bioconductor-oscope/tags`_ for valid values for ``<tag>``)
 

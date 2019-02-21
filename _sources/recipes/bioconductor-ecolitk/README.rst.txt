@@ -42,7 +42,7 @@ bioconductor-ecolitk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ecolitk:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ecolitk:<tag>
 
    (see `bioconductor-ecolitk/tags`_ for valid values for ``<tag>``)
 

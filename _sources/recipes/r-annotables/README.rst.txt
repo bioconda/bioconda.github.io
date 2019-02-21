@@ -43,7 +43,7 @@ r-annotables
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-annotables:<tag>
+      docker pull quay.io/biocontainers/r-annotables:<tag>
 
    (see `r-annotables/tags`_ for valid values for ``<tag>``)
 

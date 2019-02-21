@@ -42,7 +42,7 @@ strip_it
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/strip_it:<tag>
+      docker pull quay.io/biocontainers/strip_it:<tag>
 
    (see `strip_it/tags`_ for valid values for ``<tag>``)
 

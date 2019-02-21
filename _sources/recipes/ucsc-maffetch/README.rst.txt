@@ -50,7 +50,7 @@ ucsc-maffetch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-maffetch:<tag>
+      docker pull quay.io/biocontainers/ucsc-maffetch:<tag>
 
    (see `ucsc-maffetch/tags`_ for valid values for ``<tag>``)
 

@@ -81,7 +81,7 @@ bioconductor-pbase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pbase:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pbase:<tag>
 
    (see `bioconductor-pbase/tags`_ for valid values for ``<tag>``)
 

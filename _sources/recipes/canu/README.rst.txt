@@ -49,7 +49,7 @@ canu
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/canu:<tag>
+      docker pull quay.io/biocontainers/canu:<tag>
 
    (see `canu/tags`_ for valid values for ``<tag>``)
 

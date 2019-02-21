@@ -50,7 +50,7 @@ ucsc-texthistogram
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-texthistogram:<tag>
+      docker pull quay.io/biocontainers/ucsc-texthistogram:<tag>
 
    (see `ucsc-texthistogram/tags`_ for valid values for ``<tag>``)
 

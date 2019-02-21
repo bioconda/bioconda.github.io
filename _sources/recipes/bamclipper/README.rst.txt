@@ -44,7 +44,7 @@ bamclipper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bamclipper:<tag>
+      docker pull quay.io/biocontainers/bamclipper:<tag>
 
    (see `bamclipper/tags`_ for valid values for ``<tag>``)
 

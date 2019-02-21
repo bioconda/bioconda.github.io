@@ -54,7 +54,7 @@ asqcan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/asqcan:<tag>
+      docker pull quay.io/biocontainers/asqcan:<tag>
 
    (see `asqcan/tags`_ for valid values for ``<tag>``)
 

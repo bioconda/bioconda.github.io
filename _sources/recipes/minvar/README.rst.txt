@@ -66,7 +66,7 @@ minvar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/minvar:<tag>
+      docker pull quay.io/biocontainers/minvar:<tag>
 
    (see `minvar/tags`_ for valid values for ``<tag>``)
 

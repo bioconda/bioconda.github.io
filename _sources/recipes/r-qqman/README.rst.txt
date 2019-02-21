@@ -42,7 +42,7 @@ r-qqman
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-qqman:<tag>
+      docker pull quay.io/biocontainers/r-qqman:<tag>
 
    (see `r-qqman/tags`_ for valid values for ``<tag>``)
 

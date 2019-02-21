@@ -47,7 +47,7 @@ bowtie
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bowtie:<tag>
+      docker pull quay.io/biocontainers/bowtie:<tag>
 
    (see `bowtie/tags`_ for valid values for ``<tag>``)
 

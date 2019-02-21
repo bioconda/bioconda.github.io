@@ -40,7 +40,7 @@ extern
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/extern:<tag>
+      docker pull quay.io/biocontainers/extern:<tag>
 
    (see `extern/tags`_ for valid values for ``<tag>``)
 

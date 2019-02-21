@@ -49,7 +49,7 @@ bioconductor-bacon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bacon:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bacon:<tag>
 
    (see `bioconductor-bacon/tags`_ for valid values for ``<tag>``)
 

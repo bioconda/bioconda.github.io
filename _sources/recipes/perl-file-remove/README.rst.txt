@@ -46,7 +46,7 @@ perl-file-remove
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-remove:<tag>
+      docker pull quay.io/biocontainers/perl-file-remove:<tag>
 
    (see `perl-file-remove/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ pash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pash:<tag>
+      docker pull quay.io/biocontainers/pash:<tag>
 
    (see `pash/tags`_ for valid values for ``<tag>``)
 

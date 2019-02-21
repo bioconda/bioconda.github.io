@@ -42,7 +42,7 @@ perl-filesys-df
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-filesys-df:<tag>
+      docker pull quay.io/biocontainers/perl-filesys-df:<tag>
 
    (see `perl-filesys-df/tags`_ for valid values for ``<tag>``)
 

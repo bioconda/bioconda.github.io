@@ -52,7 +52,7 @@ perl-findbin-libs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-findbin-libs:<tag>
+      docker pull quay.io/biocontainers/perl-findbin-libs:<tag>
 
    (see `perl-findbin-libs/tags`_ for valid values for ``<tag>``)
 

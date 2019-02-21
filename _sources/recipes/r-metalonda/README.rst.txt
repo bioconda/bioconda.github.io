@@ -56,7 +56,7 @@ r-metalonda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-metalonda:<tag>
+      docker pull quay.io/biocontainers/r-metalonda:<tag>
 
    (see `r-metalonda/tags`_ for valid values for ``<tag>``)
 

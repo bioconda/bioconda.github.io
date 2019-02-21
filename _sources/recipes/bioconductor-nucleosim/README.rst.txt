@@ -45,7 +45,7 @@ bioconductor-nucleosim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-nucleosim:<tag>
+      docker pull quay.io/biocontainers/bioconductor-nucleosim:<tag>
 
    (see `bioconductor-nucleosim/tags`_ for valid values for ``<tag>``)
 

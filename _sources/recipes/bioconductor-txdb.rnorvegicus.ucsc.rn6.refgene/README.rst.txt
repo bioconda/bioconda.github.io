@@ -46,7 +46,7 @@ bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene:<tag>
 
    (see `bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ lighter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lighter:<tag>
+      docker pull quay.io/biocontainers/lighter:<tag>
 
    (see `lighter/tags`_ for valid values for ``<tag>``)
 

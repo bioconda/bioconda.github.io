@@ -54,7 +54,7 @@ bioconductor-msa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-msa:<tag>
 
    (see `bioconductor-msa/tags`_ for valid values for ``<tag>``)
 

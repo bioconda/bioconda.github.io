@@ -44,7 +44,7 @@ bioconductor-pchicdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pchicdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pchicdata:<tag>
 
    (see `bioconductor-pchicdata/tags`_ for valid values for ``<tag>``)
 

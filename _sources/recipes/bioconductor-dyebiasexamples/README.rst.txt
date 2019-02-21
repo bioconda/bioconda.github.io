@@ -46,7 +46,7 @@ bioconductor-dyebiasexamples
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dyebiasexamples:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dyebiasexamples:<tag>
 
    (see `bioconductor-dyebiasexamples/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ perl-term-app-roles
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-term-app-roles:<tag>
+      docker pull quay.io/biocontainers/perl-term-app-roles:<tag>
 
    (see `perl-term-app-roles/tags`_ for valid values for ``<tag>``)
 

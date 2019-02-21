@@ -46,7 +46,7 @@ bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene:<tag>
 
    (see `bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ meraculous
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/meraculous:<tag>
+      docker pull quay.io/biocontainers/meraculous:<tag>
 
    (see `meraculous/tags`_ for valid values for ``<tag>``)
 

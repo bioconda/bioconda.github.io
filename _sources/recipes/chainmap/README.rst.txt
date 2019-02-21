@@ -40,7 +40,7 @@ chainmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/chainmap:<tag>
+      docker pull quay.io/biocontainers/chainmap:<tag>
 
    (see `chainmap/tags`_ for valid values for ``<tag>``)
 

@@ -41,7 +41,7 @@ soapsplice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/soapsplice:<tag>
+      docker pull quay.io/biocontainers/soapsplice:<tag>
 
    (see `soapsplice/tags`_ for valid values for ``<tag>``)
 

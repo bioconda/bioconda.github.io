@@ -49,7 +49,7 @@ bioconductor-lmgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lmgene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lmgene:<tag>
 
    (see `bioconductor-lmgene/tags`_ for valid values for ``<tag>``)
 

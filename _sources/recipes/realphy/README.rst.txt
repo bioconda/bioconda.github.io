@@ -40,7 +40,7 @@ realphy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/realphy:<tag>
+      docker pull quay.io/biocontainers/realphy:<tag>
 
    (see `realphy/tags`_ for valid values for ``<tag>``)
 

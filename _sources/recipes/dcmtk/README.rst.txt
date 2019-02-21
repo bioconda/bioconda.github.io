@@ -52,7 +52,7 @@ dcmtk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dcmtk:<tag>
+      docker pull quay.io/biocontainers/dcmtk:<tag>
 
    (see `dcmtk/tags`_ for valid values for ``<tag>``)
 

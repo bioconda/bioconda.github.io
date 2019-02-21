@@ -62,7 +62,7 @@ bioconductor-methimpute
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methimpute:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methimpute:<tag>
 
    (see `bioconductor-methimpute/tags`_ for valid values for ``<tag>``)
 

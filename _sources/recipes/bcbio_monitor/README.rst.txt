@@ -56,7 +56,7 @@ bcbio_monitor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcbio_monitor:<tag>
+      docker pull quay.io/biocontainers/bcbio_monitor:<tag>
 
    (see `bcbio_monitor/tags`_ for valid values for ``<tag>``)
 

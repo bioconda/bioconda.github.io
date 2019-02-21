@@ -44,7 +44,7 @@ bioconductor-iterclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-iterclust:<tag>
+      docker pull quay.io/biocontainers/bioconductor-iterclust:<tag>
 
    (see `bioconductor-iterclust/tags`_ for valid values for ``<tag>``)
 

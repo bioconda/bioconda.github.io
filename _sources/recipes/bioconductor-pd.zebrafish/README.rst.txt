@@ -56,7 +56,7 @@ bioconductor-pd.zebrafish
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.zebrafish:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.zebrafish:<tag>
 
    (see `bioconductor-pd.zebrafish/tags`_ for valid values for ``<tag>``)
 

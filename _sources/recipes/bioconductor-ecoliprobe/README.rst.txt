@@ -44,7 +44,7 @@ bioconductor-ecoliprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ecoliprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ecoliprobe:<tag>
 
    (see `bioconductor-ecoliprobe/tags`_ for valid values for ``<tag>``)
 

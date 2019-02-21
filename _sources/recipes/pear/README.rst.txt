@@ -45,7 +45,7 @@ pear
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pear:<tag>
+      docker pull quay.io/biocontainers/pear:<tag>
 
    (see `pear/tags`_ for valid values for ``<tag>``)
 

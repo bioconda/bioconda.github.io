@@ -44,7 +44,7 @@ crimson
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/crimson:<tag>
+      docker pull quay.io/biocontainers/crimson:<tag>
 
    (see `crimson/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ fastq-screen
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastq-screen:<tag>
+      docker pull quay.io/biocontainers/fastq-screen:<tag>
 
    (see `fastq-screen/tags`_ for valid values for ``<tag>``)
 

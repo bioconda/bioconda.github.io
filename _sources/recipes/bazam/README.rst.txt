@@ -40,7 +40,7 @@ bazam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bazam:<tag>
+      docker pull quay.io/biocontainers/bazam:<tag>
 
    (see `bazam/tags`_ for valid values for ``<tag>``)
 

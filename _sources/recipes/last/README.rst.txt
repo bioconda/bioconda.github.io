@@ -51,7 +51,7 @@ last
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/last:<tag>
+      docker pull quay.io/biocontainers/last:<tag>
 
    (see `last/tags`_ for valid values for ``<tag>``)
 

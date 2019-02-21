@@ -56,7 +56,7 @@ biofluff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biofluff:<tag>
+      docker pull quay.io/biocontainers/biofluff:<tag>
 
    (see `biofluff/tags`_ for valid values for ``<tag>``)
 

@@ -54,7 +54,7 @@ bioconductor-bioassayr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bioassayr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bioassayr:<tag>
 
    (see `bioconductor-bioassayr/tags`_ for valid values for ``<tag>``)
 

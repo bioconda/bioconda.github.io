@@ -63,7 +63,7 @@ bioconductor-interactivedisplay
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-interactivedisplay:<tag>
+      docker pull quay.io/biocontainers/bioconductor-interactivedisplay:<tag>
 
    (see `bioconductor-interactivedisplay/tags`_ for valid values for ``<tag>``)
 

@@ -64,7 +64,7 @@ bioconductor-normalyzerde
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-normalyzerde:<tag>
+      docker pull quay.io/biocontainers/bioconductor-normalyzerde:<tag>
 
    (see `bioconductor-normalyzerde/tags`_ for valid values for ``<tag>``)
 

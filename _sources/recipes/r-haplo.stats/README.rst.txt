@@ -44,7 +44,7 @@ r-haplo.stats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-haplo.stats:<tag>
+      docker pull quay.io/biocontainers/r-haplo.stats:<tag>
 
    (see `r-haplo.stats/tags`_ for valid values for ``<tag>``)
 

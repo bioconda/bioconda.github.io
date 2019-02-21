@@ -45,7 +45,7 @@ bioconductor-kimod
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-kimod:<tag>
+      docker pull quay.io/biocontainers/bioconductor-kimod:<tag>
 
    (see `bioconductor-kimod/tags`_ for valid values for ``<tag>``)
 

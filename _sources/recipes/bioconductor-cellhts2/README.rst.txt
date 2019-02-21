@@ -63,7 +63,7 @@ bioconductor-cellhts2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cellhts2:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cellhts2:<tag>
 
    (see `bioconductor-cellhts2/tags`_ for valid values for ``<tag>``)
 

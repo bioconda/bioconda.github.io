@@ -42,7 +42,7 @@ perl-sub-install
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-install:<tag>
+      docker pull quay.io/biocontainers/perl-sub-install:<tag>
 
    (see `perl-sub-install/tags`_ for valid values for ``<tag>``)
 

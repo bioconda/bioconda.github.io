@@ -48,7 +48,7 @@ bioconductor-pth2o2lipids
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pth2o2lipids:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pth2o2lipids:<tag>
 
    (see `bioconductor-pth2o2lipids/tags`_ for valid values for ``<tag>``)
 

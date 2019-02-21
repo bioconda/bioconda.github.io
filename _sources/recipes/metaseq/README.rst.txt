@@ -66,7 +66,7 @@ metaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metaseq:<tag>
+      docker pull quay.io/biocontainers/metaseq:<tag>
 
    (see `metaseq/tags`_ for valid values for ``<tag>``)
 

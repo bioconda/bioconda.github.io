@@ -40,7 +40,7 @@ cofold
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cofold:<tag>
+      docker pull quay.io/biocontainers/cofold:<tag>
 
    (see `cofold/tags`_ for valid values for ``<tag>``)
 

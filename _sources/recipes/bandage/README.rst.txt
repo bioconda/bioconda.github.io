@@ -43,7 +43,7 @@ bandage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bandage:<tag>
+      docker pull quay.io/biocontainers/bandage:<tag>
 
    (see `bandage/tags`_ for valid values for ``<tag>``)
 

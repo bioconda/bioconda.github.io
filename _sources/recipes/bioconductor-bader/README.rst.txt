@@ -45,7 +45,7 @@ bioconductor-bader
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bader:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bader:<tag>
 
    (see `bioconductor-bader/tags`_ for valid values for ``<tag>``)
 

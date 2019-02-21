@@ -59,7 +59,7 @@ bioconductor-rgsepd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgsepd:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rgsepd:<tag>
 
    (see `bioconductor-rgsepd/tags`_ for valid values for ``<tag>``)
 

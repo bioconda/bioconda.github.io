@@ -51,7 +51,7 @@ bioconductor-srap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-srap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-srap:<tag>
 
    (see `bioconductor-srap/tags`_ for valid values for ``<tag>``)
 

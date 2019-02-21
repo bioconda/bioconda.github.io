@@ -56,7 +56,7 @@ bioconductor-dmrcaller
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dmrcaller:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dmrcaller:<tag>
 
    (see `bioconductor-dmrcaller/tags`_ for valid values for ``<tag>``)
 

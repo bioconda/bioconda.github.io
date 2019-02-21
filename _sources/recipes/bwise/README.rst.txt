@@ -38,7 +38,7 @@ bwise
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bwise:<tag>
+      docker pull quay.io/biocontainers/bwise:<tag>
 
    (see `bwise/tags`_ for valid values for ``<tag>``)
 

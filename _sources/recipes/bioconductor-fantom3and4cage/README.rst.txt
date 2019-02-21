@@ -42,7 +42,7 @@ bioconductor-fantom3and4cage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fantom3and4cage:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fantom3and4cage:<tag>
 
    (see `bioconductor-fantom3and4cage/tags`_ for valid values for ``<tag>``)
 

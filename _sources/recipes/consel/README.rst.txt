@@ -40,7 +40,7 @@ consel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/consel:<tag>
+      docker pull quay.io/biocontainers/consel:<tag>
 
    (see `consel/tags`_ for valid values for ``<tag>``)
 

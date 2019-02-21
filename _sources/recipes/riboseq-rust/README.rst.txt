@@ -48,7 +48,7 @@ riboseq-rust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/riboseq-rust:<tag>
+      docker pull quay.io/biocontainers/riboseq-rust:<tag>
 
    (see `riboseq-rust/tags`_ for valid values for ``<tag>``)
 

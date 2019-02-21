@@ -46,7 +46,7 @@ fpa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fpa:<tag>
+      docker pull quay.io/biocontainers/fpa:<tag>
 
    (see `fpa/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ bioconductor-procoil
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-procoil:<tag>
+      docker pull quay.io/biocontainers/bioconductor-procoil:<tag>
 
    (see `bioconductor-procoil/tags`_ for valid values for ``<tag>``)
 

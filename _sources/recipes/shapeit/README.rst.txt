@@ -43,7 +43,7 @@ shapeit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shapeit:<tag>
+      docker pull quay.io/biocontainers/shapeit:<tag>
 
    (see `shapeit/tags`_ for valid values for ``<tag>``)
 

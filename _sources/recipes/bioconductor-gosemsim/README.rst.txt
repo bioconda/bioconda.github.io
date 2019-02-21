@@ -51,7 +51,7 @@ bioconductor-gosemsim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gosemsim:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gosemsim:<tag>
 
    (see `bioconductor-gosemsim/tags`_ for valid values for ``<tag>``)
 

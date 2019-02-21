@@ -57,7 +57,7 @@ bioconductor-htseqtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-htseqtools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-htseqtools:<tag>
 
    (see `bioconductor-htseqtools/tags`_ for valid values for ``<tag>``)
 

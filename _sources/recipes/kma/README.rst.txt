@@ -43,7 +43,7 @@ kma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kma:<tag>
+      docker pull quay.io/biocontainers/kma:<tag>
 
    (see `kma/tags`_ for valid values for ``<tag>``)
 

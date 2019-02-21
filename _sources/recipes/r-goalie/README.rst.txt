@@ -42,7 +42,7 @@ r-goalie
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-goalie:<tag>
+      docker pull quay.io/biocontainers/r-goalie:<tag>
 
    (see `r-goalie/tags`_ for valid values for ``<tag>``)
 

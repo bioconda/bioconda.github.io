@@ -46,7 +46,7 @@ perl-bioperl-run
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bioperl-run:<tag>
+      docker pull quay.io/biocontainers/perl-bioperl-run:<tag>
 
    (see `perl-bioperl-run/tags`_ for valid values for ``<tag>``)
 

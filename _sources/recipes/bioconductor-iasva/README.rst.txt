@@ -48,7 +48,7 @@ bioconductor-iasva
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-iasva:<tag>
+      docker pull quay.io/biocontainers/bioconductor-iasva:<tag>
 
    (see `bioconductor-iasva/tags`_ for valid values for ``<tag>``)
 

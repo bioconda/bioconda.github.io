@@ -38,7 +38,7 @@ bioconductor-rcpi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rcpi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rcpi:<tag>
 
    (see `bioconductor-rcpi/tags`_ for valid values for ``<tag>``)
 

@@ -58,7 +58,7 @@ onto2nx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/onto2nx:<tag>
+      docker pull quay.io/biocontainers/onto2nx:<tag>
 
    (see `onto2nx/tags`_ for valid values for ``<tag>``)
 

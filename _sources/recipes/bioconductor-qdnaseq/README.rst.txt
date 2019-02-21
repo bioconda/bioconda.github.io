@@ -61,7 +61,7 @@ bioconductor-qdnaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qdnaseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-qdnaseq:<tag>
 
    (see `bioconductor-qdnaseq/tags`_ for valid values for ``<tag>``)
 

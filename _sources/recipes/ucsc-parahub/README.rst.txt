@@ -50,7 +50,7 @@ ucsc-parahub
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-parahub:<tag>
+      docker pull quay.io/biocontainers/ucsc-parahub:<tag>
 
    (see `ucsc-parahub/tags`_ for valid values for ``<tag>``)
 

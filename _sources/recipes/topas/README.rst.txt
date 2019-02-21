@@ -42,7 +42,7 @@ topas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/topas:<tag>
+      docker pull quay.io/biocontainers/topas:<tag>
 
    (see `topas/tags`_ for valid values for ``<tag>``)
 

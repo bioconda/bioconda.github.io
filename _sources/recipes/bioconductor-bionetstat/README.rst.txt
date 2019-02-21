@@ -70,7 +70,7 @@ bioconductor-bionetstat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bionetstat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bionetstat:<tag>
 
    (see `bioconductor-bionetstat/tags`_ for valid values for ``<tag>``)
 

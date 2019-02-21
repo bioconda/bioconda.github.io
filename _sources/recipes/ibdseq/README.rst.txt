@@ -41,7 +41,7 @@ ibdseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ibdseq:<tag>
+      docker pull quay.io/biocontainers/ibdseq:<tag>
 
    (see `ibdseq/tags`_ for valid values for ``<tag>``)
 

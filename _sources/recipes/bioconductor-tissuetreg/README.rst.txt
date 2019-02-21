@@ -42,7 +42,7 @@ bioconductor-tissuetreg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tissuetreg:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tissuetreg:<tag>
 
    (see `bioconductor-tissuetreg/tags`_ for valid values for ``<tag>``)
 

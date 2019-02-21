@@ -43,7 +43,7 @@ bioconductor-clustcomp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clustcomp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clustcomp:<tag>
 
    (see `bioconductor-clustcomp/tags`_ for valid values for ``<tag>``)
 

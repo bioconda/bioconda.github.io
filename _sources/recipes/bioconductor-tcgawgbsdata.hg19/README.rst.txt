@@ -48,7 +48,7 @@ bioconductor-tcgawgbsdata.hg19
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tcgawgbsdata.hg19:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tcgawgbsdata.hg19:<tag>
 
    (see `bioconductor-tcgawgbsdata.hg19/tags`_ for valid values for ``<tag>``)
 

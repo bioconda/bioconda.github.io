@@ -40,7 +40,7 @@ nextgenmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nextgenmap:<tag>
+      docker pull quay.io/biocontainers/nextgenmap:<tag>
 
    (see `nextgenmap/tags`_ for valid values for ``<tag>``)
 

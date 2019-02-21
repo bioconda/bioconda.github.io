@@ -76,7 +76,7 @@ r-brio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-brio:<tag>
+      docker pull quay.io/biocontainers/r-brio:<tag>
 
    (see `r-brio/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ exonerate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/exonerate:<tag>
+      docker pull quay.io/biocontainers/exonerate:<tag>
 
    (see `exonerate/tags`_ for valid values for ``<tag>``)
 

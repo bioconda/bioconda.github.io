@@ -56,7 +56,7 @@ bioconductor-pd.genomewidesnp.6
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.genomewidesnp.6:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.genomewidesnp.6:<tag>
 
    (see `bioconductor-pd.genomewidesnp.6/tags`_ for valid values for ``<tag>``)
 

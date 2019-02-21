@@ -42,7 +42,7 @@ yanc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/yanc:<tag>
+      docker pull quay.io/biocontainers/yanc:<tag>
 
    (see `yanc/tags`_ for valid values for ``<tag>``)
 

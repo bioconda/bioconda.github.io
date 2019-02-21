@@ -44,7 +44,7 @@ intermine
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/intermine:<tag>
+      docker pull quay.io/biocontainers/intermine:<tag>
 
    (see `intermine/tags`_ for valid values for ``<tag>``)
 

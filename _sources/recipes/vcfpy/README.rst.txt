@@ -42,7 +42,7 @@ vcfpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcfpy:<tag>
+      docker pull quay.io/biocontainers/vcfpy:<tag>
 
    (see `vcfpy/tags`_ for valid values for ``<tag>``)
 

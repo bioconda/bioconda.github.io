@@ -40,7 +40,7 @@ linkage2allegro
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/linkage2allegro:<tag>
+      docker pull quay.io/biocontainers/linkage2allegro:<tag>
 
    (see `linkage2allegro/tags`_ for valid values for ``<tag>``)
 

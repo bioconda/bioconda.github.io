@@ -44,7 +44,7 @@ bioconductor-gwasdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gwasdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gwasdata:<tag>
 
    (see `bioconductor-gwasdata/tags`_ for valid values for ``<tag>``)
 

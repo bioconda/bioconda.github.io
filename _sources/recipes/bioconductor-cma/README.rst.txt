@@ -43,7 +43,7 @@ bioconductor-cma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cma:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cma:<tag>
 
    (see `bioconductor-cma/tags`_ for valid values for ``<tag>``)
 

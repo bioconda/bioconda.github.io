@@ -46,7 +46,7 @@ bioconductor-liebermanaidenhic2009
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-liebermanaidenhic2009:<tag>
+      docker pull quay.io/biocontainers/bioconductor-liebermanaidenhic2009:<tag>
 
    (see `bioconductor-liebermanaidenhic2009/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ bioconductor-cghnormaliter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cghnormaliter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cghnormaliter:<tag>
 
    (see `bioconductor-cghnormaliter/tags`_ for valid values for ``<tag>``)
 

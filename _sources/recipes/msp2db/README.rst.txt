@@ -44,7 +44,7 @@ msp2db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/msp2db:<tag>
+      docker pull quay.io/biocontainers/msp2db:<tag>
 
    (see `msp2db/tags`_ for valid values for ``<tag>``)
 

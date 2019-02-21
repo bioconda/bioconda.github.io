@@ -40,7 +40,7 @@ genblasta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genblasta:<tag>
+      docker pull quay.io/biocontainers/genblasta:<tag>
 
    (see `genblasta/tags`_ for valid values for ``<tag>``)
 

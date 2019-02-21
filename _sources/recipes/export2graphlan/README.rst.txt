@@ -52,7 +52,7 @@ export2graphlan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/export2graphlan:<tag>
+      docker pull quay.io/biocontainers/export2graphlan:<tag>
 
    (see `export2graphlan/tags`_ for valid values for ``<tag>``)
 

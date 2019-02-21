@@ -57,7 +57,7 @@ bioconductor-dsimer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dsimer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dsimer:<tag>
 
    (see `bioconductor-dsimer/tags`_ for valid values for ``<tag>``)
 

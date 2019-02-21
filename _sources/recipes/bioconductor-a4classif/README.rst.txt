@@ -54,7 +54,7 @@ bioconductor-a4classif
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-a4classif:<tag>
+      docker pull quay.io/biocontainers/bioconductor-a4classif:<tag>
 
    (see `bioconductor-a4classif/tags`_ for valid values for ``<tag>``)
 

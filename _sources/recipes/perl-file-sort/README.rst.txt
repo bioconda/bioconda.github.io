@@ -40,7 +40,7 @@ perl-file-sort
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-sort:<tag>
+      docker pull quay.io/biocontainers/perl-file-sort:<tag>
 
    (see `perl-file-sort/tags`_ for valid values for ``<tag>``)
 

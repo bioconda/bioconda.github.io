@@ -44,7 +44,7 @@ cgcloud-lib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cgcloud-lib:<tag>
+      docker pull quay.io/biocontainers/cgcloud-lib:<tag>
 
    (see `cgcloud-lib/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ bioconductor-keggrest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-keggrest:<tag>
+      docker pull quay.io/biocontainers/bioconductor-keggrest:<tag>
 
    (see `bioconductor-keggrest/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-snm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-snm:<tag>
 
    (see `bioconductor-snm/tags`_ for valid values for ``<tag>``)
 

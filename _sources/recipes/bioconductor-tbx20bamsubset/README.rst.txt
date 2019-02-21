@@ -46,7 +46,7 @@ bioconductor-tbx20bamsubset
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tbx20bamsubset:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tbx20bamsubset:<tag>
 
    (see `bioconductor-tbx20bamsubset/tags`_ for valid values for ``<tag>``)
 

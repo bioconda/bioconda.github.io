@@ -50,7 +50,7 @@ bioconductor-excluster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-excluster:<tag>
+      docker pull quay.io/biocontainers/bioconductor-excluster:<tag>
 
    (see `bioconductor-excluster/tags`_ for valid values for ``<tag>``)
 

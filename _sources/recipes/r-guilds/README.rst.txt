@@ -48,7 +48,7 @@ r-guilds
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-guilds:<tag>
+      docker pull quay.io/biocontainers/r-guilds:<tag>
 
    (see `r-guilds/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ bioconductor-copdsexualdimorphism.data
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-copdsexualdimorphism.data:<tag>
+      docker pull quay.io/biocontainers/bioconductor-copdsexualdimorphism.data:<tag>
 
    (see `bioconductor-copdsexualdimorphism.data/tags`_ for valid values for ``<tag>``)
 

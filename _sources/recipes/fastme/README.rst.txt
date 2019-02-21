@@ -41,7 +41,7 @@ fastme
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastme:<tag>
+      docker pull quay.io/biocontainers/fastme:<tag>
 
    (see `fastme/tags`_ for valid values for ``<tag>``)
 

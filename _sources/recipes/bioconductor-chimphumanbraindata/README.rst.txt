@@ -52,7 +52,7 @@ bioconductor-chimphumanbraindata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chimphumanbraindata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chimphumanbraindata:<tag>
 
    (see `bioconductor-chimphumanbraindata/tags`_ for valid values for ``<tag>``)
 

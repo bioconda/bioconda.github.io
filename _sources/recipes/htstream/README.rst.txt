@@ -52,7 +52,7 @@ htstream
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/htstream:<tag>
+      docker pull quay.io/biocontainers/htstream:<tag>
 
    (see `htstream/tags`_ for valid values for ``<tag>``)
 

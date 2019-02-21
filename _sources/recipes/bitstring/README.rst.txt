@@ -40,7 +40,7 @@ bitstring
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bitstring:<tag>
+      docker pull quay.io/biocontainers/bitstring:<tag>
 
    (see `bitstring/tags`_ for valid values for ``<tag>``)
 

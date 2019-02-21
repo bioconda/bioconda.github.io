@@ -43,7 +43,7 @@ inforna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/inforna:<tag>
+      docker pull quay.io/biocontainers/inforna:<tag>
 
    (see `inforna/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-compress-raw-zlib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-compress-raw-zlib:<tag>
+      docker pull quay.io/biocontainers/perl-compress-raw-zlib:<tag>
 
    (see `perl-compress-raw-zlib/tags`_ for valid values for ``<tag>``)
 

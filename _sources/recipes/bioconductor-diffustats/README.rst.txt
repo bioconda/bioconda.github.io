@@ -63,7 +63,7 @@ bioconductor-diffustats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-diffustats:<tag>
+      docker pull quay.io/biocontainers/bioconductor-diffustats:<tag>
 
    (see `bioconductor-diffustats/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ bioconductor-snapcgh
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snapcgh:<tag>
+      docker pull quay.io/biocontainers/bioconductor-snapcgh:<tag>
 
    (see `bioconductor-snapcgh/tags`_ for valid values for ``<tag>``)
 

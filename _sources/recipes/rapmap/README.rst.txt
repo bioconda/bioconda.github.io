@@ -50,7 +50,7 @@ rapmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rapmap:<tag>
+      docker pull quay.io/biocontainers/rapmap:<tag>
 
    (see `rapmap/tags`_ for valid values for ``<tag>``)
 

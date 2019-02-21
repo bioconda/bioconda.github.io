@@ -44,7 +44,7 @@ fermi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fermi:<tag>
+      docker pull quay.io/biocontainers/fermi:<tag>
 
    (see `fermi/tags`_ for valid values for ``<tag>``)
 

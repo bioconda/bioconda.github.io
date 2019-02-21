@@ -54,7 +54,7 @@ biom-format
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biom-format:<tag>
+      docker pull quay.io/biocontainers/biom-format:<tag>
 
    (see `biom-format/tags`_ for valid values for ``<tag>``)
 

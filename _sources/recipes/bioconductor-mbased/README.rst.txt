@@ -51,7 +51,7 @@ bioconductor-mbased
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mbased:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mbased:<tag>
 
    (see `bioconductor-mbased/tags`_ for valid values for ``<tag>``)
 

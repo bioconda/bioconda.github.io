@@ -45,7 +45,7 @@ genonets
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genonets:<tag>
+      docker pull quay.io/biocontainers/genonets:<tag>
 
    (see `genonets/tags`_ for valid values for ``<tag>``)
 

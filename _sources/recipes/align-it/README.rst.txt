@@ -44,7 +44,7 @@ align_it
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/align_it:<tag>
+      docker pull quay.io/biocontainers/align_it:<tag>
 
    (see `align_it/tags`_ for valid values for ``<tag>``)
 

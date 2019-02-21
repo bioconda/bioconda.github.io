@@ -48,7 +48,7 @@ perl-date-manip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-date-manip:<tag>
+      docker pull quay.io/biocontainers/perl-date-manip:<tag>
 
    (see `perl-date-manip/tags`_ for valid values for ``<tag>``)
 

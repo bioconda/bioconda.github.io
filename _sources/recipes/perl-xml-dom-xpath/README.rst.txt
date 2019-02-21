@@ -44,7 +44,7 @@ perl-xml-dom-xpath
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-dom-xpath:<tag>
+      docker pull quay.io/biocontainers/perl-xml-dom-xpath:<tag>
 
    (see `perl-xml-dom-xpath/tags`_ for valid values for ``<tag>``)
 

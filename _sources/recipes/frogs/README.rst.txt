@@ -78,7 +78,7 @@ frogs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/frogs:<tag>
+      docker pull quay.io/biocontainers/frogs:<tag>
 
    (see `frogs/tags`_ for valid values for ``<tag>``)
 

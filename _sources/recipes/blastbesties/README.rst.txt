@@ -40,7 +40,7 @@ blastbesties
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/blastbesties:<tag>
+      docker pull quay.io/biocontainers/blastbesties:<tag>
 
    (see `blastbesties/tags`_ for valid values for ``<tag>``)
 

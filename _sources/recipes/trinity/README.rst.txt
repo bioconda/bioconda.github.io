@@ -65,7 +65,7 @@ trinity
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trinity:<tag>
+      docker pull quay.io/biocontainers/trinity:<tag>
 
    (see `trinity/tags`_ for valid values for ``<tag>``)
 

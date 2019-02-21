@@ -43,7 +43,7 @@ bioconductor-rlmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rlmm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rlmm:<tag>
 
    (see `bioconductor-rlmm/tags`_ for valid values for ``<tag>``)
 

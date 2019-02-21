@@ -40,7 +40,7 @@ cluster-picker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cluster-picker:<tag>
+      docker pull quay.io/biocontainers/cluster-picker:<tag>
 
    (see `cluster-picker/tags`_ for valid values for ``<tag>``)
 

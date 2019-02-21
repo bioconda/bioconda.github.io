@@ -40,7 +40,7 @@ maxquant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/maxquant:<tag>
+      docker pull quay.io/biocontainers/maxquant:<tag>
 
    (see `maxquant/tags`_ for valid values for ``<tag>``)
 

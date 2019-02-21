@@ -78,7 +78,7 @@ boutroslabplottinggeneral
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/boutroslabplottinggeneral:<tag>
+      docker pull quay.io/biocontainers/boutroslabplottinggeneral:<tag>
 
    (see `boutroslabplottinggeneral/tags`_ for valid values for ``<tag>``)
 

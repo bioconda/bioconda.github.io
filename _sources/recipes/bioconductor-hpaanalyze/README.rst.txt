@@ -38,7 +38,7 @@ bioconductor-hpaanalyze
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hpaanalyze:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hpaanalyze:<tag>
 
    (see `bioconductor-hpaanalyze/tags`_ for valid values for ``<tag>``)
 

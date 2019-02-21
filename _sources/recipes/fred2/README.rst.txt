@@ -56,7 +56,7 @@ fred2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fred2:<tag>
+      docker pull quay.io/biocontainers/fred2:<tag>
 
    (see `fred2/tags`_ for valid values for ``<tag>``)
 

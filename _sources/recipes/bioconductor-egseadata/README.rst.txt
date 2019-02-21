@@ -42,7 +42,7 @@ bioconductor-egseadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-egseadata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-egseadata:<tag>
 
    (see `bioconductor-egseadata/tags`_ for valid values for ``<tag>``)
 

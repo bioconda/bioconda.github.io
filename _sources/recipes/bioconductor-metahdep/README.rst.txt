@@ -43,7 +43,7 @@ bioconductor-metahdep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metahdep:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metahdep:<tag>
 
    (see `bioconductor-metahdep/tags`_ for valid values for ``<tag>``)
 

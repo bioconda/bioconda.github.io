@@ -40,7 +40,7 @@ r-misha
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-misha:<tag>
+      docker pull quay.io/biocontainers/r-misha:<tag>
 
    (see `r-misha/tags`_ for valid values for ``<tag>``)
 

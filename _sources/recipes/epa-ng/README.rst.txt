@@ -45,7 +45,7 @@ epa-ng
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/epa-ng:<tag>
+      docker pull quay.io/biocontainers/epa-ng:<tag>
 
    (see `epa-ng/tags`_ for valid values for ``<tag>``)
 

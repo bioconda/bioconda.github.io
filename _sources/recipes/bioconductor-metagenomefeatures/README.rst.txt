@@ -66,7 +66,7 @@ bioconductor-metagenomefeatures
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metagenomefeatures:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metagenomefeatures:<tag>
 
    (see `bioconductor-metagenomefeatures/tags`_ for valid values for ``<tag>``)
 

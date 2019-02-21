@@ -45,7 +45,7 @@ takeabreak
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/takeabreak:<tag>
+      docker pull quay.io/biocontainers/takeabreak:<tag>
 
    (see `takeabreak/tags`_ for valid values for ``<tag>``)
 

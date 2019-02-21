@@ -65,7 +65,7 @@ bioconductor-ebimage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ebimage:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ebimage:<tag>
 
    (see `bioconductor-ebimage/tags`_ for valid values for ``<tag>``)
 

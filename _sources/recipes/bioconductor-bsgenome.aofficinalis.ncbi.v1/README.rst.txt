@@ -44,7 +44,7 @@ bioconductor-bsgenome.aofficinalis.ncbi.v1
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.aofficinalis.ncbi.v1:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.aofficinalis.ncbi.v1:<tag>
 
    (see `bioconductor-bsgenome.aofficinalis.ncbi.v1/tags`_ for valid values for ``<tag>``)
 

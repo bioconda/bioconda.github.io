@@ -43,7 +43,7 @@ bioconductor-netbiov
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-netbiov:<tag>
+      docker pull quay.io/biocontainers/bioconductor-netbiov:<tag>
 
    (see `bioconductor-netbiov/tags`_ for valid values for ``<tag>``)
 

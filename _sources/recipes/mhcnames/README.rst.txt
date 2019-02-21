@@ -42,7 +42,7 @@ mhcnames
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mhcnames:<tag>
+      docker pull quay.io/biocontainers/mhcnames:<tag>
 
    (see `mhcnames/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ lima
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lima:<tag>
+      docker pull quay.io/biocontainers/lima:<tag>
 
    (see `lima/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-cnvgsadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cnvgsadata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cnvgsadata:<tag>
 
    (see `bioconductor-cnvgsadata/tags`_ for valid values for ``<tag>``)
 

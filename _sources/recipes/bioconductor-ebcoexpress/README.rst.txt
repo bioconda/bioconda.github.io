@@ -48,7 +48,7 @@ bioconductor-ebcoexpress
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ebcoexpress:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ebcoexpress:<tag>
 
    (see `bioconductor-ebcoexpress/tags`_ for valid values for ``<tag>``)
 

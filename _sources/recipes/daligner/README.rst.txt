@@ -40,7 +40,7 @@ daligner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/daligner:<tag>
+      docker pull quay.io/biocontainers/daligner:<tag>
 
    (see `daligner/tags`_ for valid values for ``<tag>``)
 

@@ -41,7 +41,7 @@ strelka
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/strelka:<tag>
+      docker pull quay.io/biocontainers/strelka:<tag>
 
    (see `strelka/tags`_ for valid values for ``<tag>``)
 

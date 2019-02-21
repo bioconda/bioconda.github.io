@@ -49,7 +49,7 @@ bioconductor-timecourse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-timecourse:<tag>
+      docker pull quay.io/biocontainers/bioconductor-timecourse:<tag>
 
    (see `bioconductor-timecourse/tags`_ for valid values for ``<tag>``)
 

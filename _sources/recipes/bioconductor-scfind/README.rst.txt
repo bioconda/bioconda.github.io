@@ -58,7 +58,7 @@ bioconductor-scfind
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scfind:<tag>
+      docker pull quay.io/biocontainers/bioconductor-scfind:<tag>
 
    (see `bioconductor-scfind/tags`_ for valid values for ``<tag>``)
 

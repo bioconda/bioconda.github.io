@@ -45,7 +45,7 @@ carna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/carna:<tag>
+      docker pull quay.io/biocontainers/carna:<tag>
 
    (see `carna/tags`_ for valid values for ``<tag>``)
 

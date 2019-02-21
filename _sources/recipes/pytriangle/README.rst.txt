@@ -42,7 +42,7 @@ pytriangle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pytriangle:<tag>
+      docker pull quay.io/biocontainers/pytriangle:<tag>
 
    (see `pytriangle/tags`_ for valid values for ``<tag>``)
 

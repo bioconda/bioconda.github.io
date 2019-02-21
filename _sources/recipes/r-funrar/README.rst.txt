@@ -45,7 +45,7 @@ r-funrar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-funrar:<tag>
+      docker pull quay.io/biocontainers/r-funrar:<tag>
 
    (see `r-funrar/tags`_ for valid values for ``<tag>``)
 

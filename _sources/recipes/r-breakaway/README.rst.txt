@@ -40,7 +40,7 @@ r-breakaway
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-breakaway:<tag>
+      docker pull quay.io/biocontainers/r-breakaway:<tag>
 
    (see `r-breakaway/tags`_ for valid values for ``<tag>``)
 

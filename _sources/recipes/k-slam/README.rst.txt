@@ -42,7 +42,7 @@ k-slam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/k-slam:<tag>
+      docker pull quay.io/biocontainers/k-slam:<tag>
 
    (see `k-slam/tags`_ for valid values for ``<tag>``)
 

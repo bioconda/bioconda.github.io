@@ -102,7 +102,7 @@ bioconductor-catalyst
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-catalyst:<tag>
+      docker pull quay.io/biocontainers/bioconductor-catalyst:<tag>
 
    (see `bioconductor-catalyst/tags`_ for valid values for ``<tag>``)
 

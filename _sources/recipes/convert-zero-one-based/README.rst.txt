@@ -42,7 +42,7 @@ convert_zero_one_based
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/convert_zero_one_based:<tag>
+      docker pull quay.io/biocontainers/convert_zero_one_based:<tag>
 
    (see `convert_zero_one_based/tags`_ for valid values for ``<tag>``)
 

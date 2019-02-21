@@ -52,7 +52,7 @@ bioconductor-rtnsurvival
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtnsurvival:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtnsurvival:<tag>
 
    (see `bioconductor-rtnsurvival/tags`_ for valid values for ``<tag>``)
 

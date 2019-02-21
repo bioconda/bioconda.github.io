@@ -44,7 +44,7 @@ perl-moosex-fileattribute
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-fileattribute:<tag>
+      docker pull quay.io/biocontainers/perl-moosex-fileattribute:<tag>
 
    (see `perl-moosex-fileattribute/tags`_ for valid values for ``<tag>``)
 

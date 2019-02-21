@@ -54,7 +54,7 @@ bioconductor-methinheritsim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methinheritsim:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methinheritsim:<tag>
 
    (see `bioconductor-methinheritsim/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ graphlite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/graphlite:<tag>
+      docker pull quay.io/biocontainers/graphlite:<tag>
 
    (see `graphlite/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-tie-log4perl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-tie-log4perl:<tag>
+      docker pull quay.io/biocontainers/perl-tie-log4perl:<tag>
 
    (see `perl-tie-log4perl/tags`_ for valid values for ``<tag>``)
 

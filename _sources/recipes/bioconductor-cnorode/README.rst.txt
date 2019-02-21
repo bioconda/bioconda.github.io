@@ -47,7 +47,7 @@ bioconductor-cnorode
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cnorode:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cnorode:<tag>
 
    (see `bioconductor-cnorode/tags`_ for valid values for ``<tag>``)
 

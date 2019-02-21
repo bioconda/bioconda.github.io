@@ -54,7 +54,7 @@ footprint
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/footprint:<tag>
+      docker pull quay.io/biocontainers/footprint:<tag>
 
    (see `footprint/tags`_ for valid values for ``<tag>``)
 

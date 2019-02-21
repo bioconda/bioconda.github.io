@@ -42,7 +42,7 @@ perl-padwalker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-padwalker:<tag>
+      docker pull quay.io/biocontainers/perl-padwalker:<tag>
 
    (see `perl-padwalker/tags`_ for valid values for ``<tag>``)
 

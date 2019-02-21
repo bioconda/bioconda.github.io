@@ -49,7 +49,7 @@ bioconductor-eudysbiome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-eudysbiome:<tag>
+      docker pull quay.io/biocontainers/bioconductor-eudysbiome:<tag>
 
    (see `bioconductor-eudysbiome/tags`_ for valid values for ``<tag>``)
 

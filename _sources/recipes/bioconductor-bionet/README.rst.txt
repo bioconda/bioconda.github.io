@@ -51,7 +51,7 @@ bioconductor-bionet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bionet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bionet:<tag>
 
    (see `bioconductor-bionet/tags`_ for valid values for ``<tag>``)
 

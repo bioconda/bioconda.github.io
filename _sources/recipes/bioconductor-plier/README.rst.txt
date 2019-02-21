@@ -49,7 +49,7 @@ bioconductor-plier
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-plier:<tag>
+      docker pull quay.io/biocontainers/bioconductor-plier:<tag>
 
    (see `bioconductor-plier/tags`_ for valid values for ``<tag>``)
 

@@ -62,7 +62,7 @@ crispresso2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/crispresso2:<tag>
+      docker pull quay.io/biocontainers/crispresso2:<tag>
 
    (see `crispresso2/tags`_ for valid values for ``<tag>``)
 

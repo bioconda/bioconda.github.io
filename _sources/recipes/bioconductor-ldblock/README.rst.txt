@@ -60,7 +60,7 @@ bioconductor-ldblock
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ldblock:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ldblock:<tag>
 
    (see `bioconductor-ldblock/tags`_ for valid values for ``<tag>``)
 

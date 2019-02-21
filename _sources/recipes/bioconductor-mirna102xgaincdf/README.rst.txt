@@ -44,7 +44,7 @@ bioconductor-mirna102xgaincdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirna102xgaincdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mirna102xgaincdf:<tag>
 
    (see `bioconductor-mirna102xgaincdf/tags`_ for valid values for ``<tag>``)
 

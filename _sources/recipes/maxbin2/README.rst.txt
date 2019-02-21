@@ -54,7 +54,7 @@ maxbin2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/maxbin2:<tag>
+      docker pull quay.io/biocontainers/maxbin2:<tag>
 
    (see `maxbin2/tags`_ for valid values for ``<tag>``)
 

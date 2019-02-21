@@ -100,7 +100,7 @@ bioconductor-appreci8r
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-appreci8r:<tag>
+      docker pull quay.io/biocontainers/bioconductor-appreci8r:<tag>
 
    (see `bioconductor-appreci8r/tags`_ for valid values for ``<tag>``)
 

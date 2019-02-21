@@ -74,7 +74,7 @@ perl-libwww-perl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-libwww-perl:<tag>
+      docker pull quay.io/biocontainers/perl-libwww-perl:<tag>
 
    (see `perl-libwww-perl/tags`_ for valid values for ``<tag>``)
 

@@ -53,7 +53,7 @@ bioconductor-motifdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-motifdb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-motifdb:<tag>
 
    (see `bioconductor-motifdb/tags`_ for valid values for ``<tag>``)
 

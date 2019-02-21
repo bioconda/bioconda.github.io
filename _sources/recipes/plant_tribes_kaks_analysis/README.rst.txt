@@ -50,7 +50,7 @@ plant_tribes_kaks_analysis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plant_tribes_kaks_analysis:<tag>
+      docker pull quay.io/biocontainers/plant_tribes_kaks_analysis:<tag>
 
    (see `plant_tribes_kaks_analysis/tags`_ for valid values for ``<tag>``)
 

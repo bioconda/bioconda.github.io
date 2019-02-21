@@ -66,7 +66,7 @@ bioconductor-mwastools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mwastools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mwastools:<tag>
 
    (see `bioconductor-mwastools/tags`_ for valid values for ``<tag>``)
 

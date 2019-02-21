@@ -71,7 +71,7 @@ bioconductor-ivas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ivas:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ivas:<tag>
 
    (see `bioconductor-ivas/tags`_ for valid values for ``<tag>``)
 

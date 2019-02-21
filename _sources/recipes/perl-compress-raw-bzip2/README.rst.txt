@@ -44,7 +44,7 @@ perl-compress-raw-bzip2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-compress-raw-bzip2:<tag>
+      docker pull quay.io/biocontainers/perl-compress-raw-bzip2:<tag>
 
    (see `perl-compress-raw-bzip2/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ bioconductor-openprimerui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-openprimerui:<tag>
+      docker pull quay.io/biocontainers/bioconductor-openprimerui:<tag>
 
    (see `bioconductor-openprimerui/tags`_ for valid values for ``<tag>``)
 

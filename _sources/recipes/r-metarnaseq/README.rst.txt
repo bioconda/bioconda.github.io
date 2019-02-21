@@ -40,7 +40,7 @@ r-metarnaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-metarnaseq:<tag>
+      docker pull quay.io/biocontainers/r-metarnaseq:<tag>
 
    (see `r-metarnaseq/tags`_ for valid values for ``<tag>``)
 

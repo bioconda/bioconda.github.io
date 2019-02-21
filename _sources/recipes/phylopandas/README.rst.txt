@@ -48,7 +48,7 @@ phylopandas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phylopandas:<tag>
+      docker pull quay.io/biocontainers/phylopandas:<tag>
 
    (see `phylopandas/tags`_ for valid values for ``<tag>``)
 

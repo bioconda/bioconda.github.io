@@ -42,7 +42,7 @@ bioconductor-stjudem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-stjudem:<tag>
+      docker pull quay.io/biocontainers/bioconductor-stjudem:<tag>
 
    (see `bioconductor-stjudem/tags`_ for valid values for ``<tag>``)
 

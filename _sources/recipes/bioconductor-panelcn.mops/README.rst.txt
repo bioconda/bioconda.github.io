@@ -52,7 +52,7 @@ bioconductor-panelcn.mops
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-panelcn.mops:<tag>
+      docker pull quay.io/biocontainers/bioconductor-panelcn.mops:<tag>
 
    (see `bioconductor-panelcn.mops/tags`_ for valid values for ``<tag>``)
 

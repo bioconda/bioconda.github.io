@@ -93,7 +93,7 @@ bioconductor-egsea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-egsea:<tag>
+      docker pull quay.io/biocontainers/bioconductor-egsea:<tag>
 
    (see `bioconductor-egsea/tags`_ for valid values for ``<tag>``)
 

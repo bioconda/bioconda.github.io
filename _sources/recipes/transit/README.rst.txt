@@ -55,7 +55,7 @@ transit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/transit:<tag>
+      docker pull quay.io/biocontainers/transit:<tag>
 
    (see `transit/tags`_ for valid values for ``<tag>``)
 

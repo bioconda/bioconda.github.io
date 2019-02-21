@@ -50,7 +50,7 @@ bioconductor-missrows
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-missrows:<tag>
+      docker pull quay.io/biocontainers/bioconductor-missrows:<tag>
 
    (see `bioconductor-missrows/tags`_ for valid values for ``<tag>``)
 

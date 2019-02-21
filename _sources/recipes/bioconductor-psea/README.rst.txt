@@ -45,7 +45,7 @@ bioconductor-psea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-psea:<tag>
+      docker pull quay.io/biocontainers/bioconductor-psea:<tag>
 
    (see `bioconductor-psea/tags`_ for valid values for ``<tag>``)
 

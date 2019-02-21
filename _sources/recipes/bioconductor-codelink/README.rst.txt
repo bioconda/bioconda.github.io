@@ -49,7 +49,7 @@ bioconductor-codelink
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-codelink:<tag>
+      docker pull quay.io/biocontainers/bioconductor-codelink:<tag>
 
    (see `bioconductor-codelink/tags`_ for valid values for ``<tag>``)
 

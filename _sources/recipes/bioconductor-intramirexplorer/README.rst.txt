@@ -46,7 +46,7 @@ bioconductor-intramirexplorer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-intramirexplorer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-intramirexplorer:<tag>
 
    (see `bioconductor-intramirexplorer/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ straitrazor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/straitrazor:<tag>
+      docker pull quay.io/biocontainers/straitrazor:<tag>
 
    (see `straitrazor/tags`_ for valid values for ``<tag>``)
 

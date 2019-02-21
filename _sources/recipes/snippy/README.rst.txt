@@ -73,7 +73,7 @@ snippy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snippy:<tag>
+      docker pull quay.io/biocontainers/snippy:<tag>
 
    (see `snippy/tags`_ for valid values for ``<tag>``)
 

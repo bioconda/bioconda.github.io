@@ -40,7 +40,7 @@ forked-path
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/forked-path:<tag>
+      docker pull quay.io/biocontainers/forked-path:<tag>
 
    (see `forked-path/tags`_ for valid values for ``<tag>``)
 

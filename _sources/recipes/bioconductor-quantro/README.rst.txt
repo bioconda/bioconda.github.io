@@ -55,7 +55,7 @@ bioconductor-quantro
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-quantro:<tag>
+      docker pull quay.io/biocontainers/bioconductor-quantro:<tag>
 
    (see `bioconductor-quantro/tags`_ for valid values for ``<tag>``)
 

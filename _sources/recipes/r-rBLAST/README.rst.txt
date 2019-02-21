@@ -44,7 +44,7 @@ r-rblast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rblast:<tag>
+      docker pull quay.io/biocontainers/r-rblast:<tag>
 
    (see `r-rblast/tags`_ for valid values for ``<tag>``)
 

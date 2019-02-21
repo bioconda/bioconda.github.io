@@ -48,7 +48,7 @@ bioconductor-msmstests
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msmstests:<tag>
+      docker pull quay.io/biocontainers/bioconductor-msmstests:<tag>
 
    (see `bioconductor-msmstests/tags`_ for valid values for ``<tag>``)
 

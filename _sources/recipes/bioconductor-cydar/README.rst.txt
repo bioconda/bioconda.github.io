@@ -66,7 +66,7 @@ bioconductor-cydar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cydar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cydar:<tag>
 
    (see `bioconductor-cydar/tags`_ for valid values for ``<tag>``)
 

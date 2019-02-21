@@ -59,7 +59,7 @@ rnalien
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnalien:<tag>
+      docker pull quay.io/biocontainers/rnalien:<tag>
 
    (see `rnalien/tags`_ for valid values for ``<tag>``)
 

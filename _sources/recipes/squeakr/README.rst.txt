@@ -50,7 +50,7 @@ squeakr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/squeakr:<tag>
+      docker pull quay.io/biocontainers/squeakr:<tag>
 
    (see `squeakr/tags`_ for valid values for ``<tag>``)
 

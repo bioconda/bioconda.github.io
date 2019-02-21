@@ -55,7 +55,7 @@ bioconductor-rmat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rmat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rmat:<tag>
 
    (see `bioconductor-rmat/tags`_ for valid values for ``<tag>``)
 

@@ -58,7 +58,7 @@ pipits
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pipits:<tag>
+      docker pull quay.io/biocontainers/pipits:<tag>
 
    (see `pipits/tags`_ for valid values for ``<tag>``)
 

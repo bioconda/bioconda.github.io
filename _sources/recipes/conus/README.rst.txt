@@ -41,7 +41,7 @@ conus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/conus:<tag>
+      docker pull quay.io/biocontainers/conus:<tag>
 
    (see `conus/tags`_ for valid values for ``<tag>``)
 

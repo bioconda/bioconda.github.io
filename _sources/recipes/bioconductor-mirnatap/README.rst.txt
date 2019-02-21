@@ -53,7 +53,7 @@ bioconductor-mirnatap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirnatap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mirnatap:<tag>
 
    (see `bioconductor-mirnatap/tags`_ for valid values for ``<tag>``)
 

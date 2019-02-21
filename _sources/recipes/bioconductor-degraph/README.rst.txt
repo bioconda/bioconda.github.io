@@ -61,7 +61,7 @@ bioconductor-degraph
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-degraph:<tag>
+      docker pull quay.io/biocontainers/bioconductor-degraph:<tag>
 
    (see `bioconductor-degraph/tags`_ for valid values for ``<tag>``)
 

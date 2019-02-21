@@ -52,7 +52,7 @@ skmer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/skmer:<tag>
+      docker pull quay.io/biocontainers/skmer:<tag>
 
    (see `skmer/tags`_ for valid values for ``<tag>``)
 

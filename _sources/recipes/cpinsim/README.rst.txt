@@ -48,7 +48,7 @@ cpinsim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cpinsim:<tag>
+      docker pull quay.io/biocontainers/cpinsim:<tag>
 
    (see `cpinsim/tags`_ for valid values for ``<tag>``)
 

@@ -68,7 +68,7 @@ bioconductor-scmeth
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scmeth:<tag>
+      docker pull quay.io/biocontainers/bioconductor-scmeth:<tag>
 
    (see `bioconductor-scmeth/tags`_ for valid values for ``<tag>``)
 

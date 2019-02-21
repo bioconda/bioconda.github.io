@@ -47,7 +47,7 @@ kmergenie
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kmergenie:<tag>
+      docker pull quay.io/biocontainers/kmergenie:<tag>
 
    (see `kmergenie/tags`_ for valid values for ``<tag>``)
 

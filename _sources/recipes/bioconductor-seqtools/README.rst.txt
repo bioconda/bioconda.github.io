@@ -45,7 +45,7 @@ bioconductor-seqtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seqtools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seqtools:<tag>
 
    (see `bioconductor-seqtools/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ ucsc-netsplit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-netsplit:<tag>
+      docker pull quay.io/biocontainers/ucsc-netsplit:<tag>
 
    (see `ucsc-netsplit/tags`_ for valid values for ``<tag>``)
 

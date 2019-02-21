@@ -64,7 +64,7 @@ bioconductor-gpart
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gpart:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gpart:<tag>
 
    (see `bioconductor-gpart/tags`_ for valid values for ``<tag>``)
 

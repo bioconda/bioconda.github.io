@@ -46,7 +46,7 @@ bioconductor-mouse4302.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mouse4302.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mouse4302.db:<tag>
 
    (see `bioconductor-mouse4302.db/tags`_ for valid values for ``<tag>``)
 

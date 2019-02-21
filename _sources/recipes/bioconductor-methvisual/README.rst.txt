@@ -54,7 +54,7 @@ bioconductor-methvisual
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methvisual:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methvisual:<tag>
 
    (see `bioconductor-methvisual/tags`_ for valid values for ``<tag>``)
 

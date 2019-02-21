@@ -53,7 +53,7 @@ mothur
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mothur:<tag>
+      docker pull quay.io/biocontainers/mothur:<tag>
 
    (see `mothur/tags`_ for valid values for ``<tag>``)
 

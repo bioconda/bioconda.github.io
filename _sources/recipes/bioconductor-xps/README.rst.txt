@@ -38,7 +38,7 @@ bioconductor-xps
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xps:<tag>
+      docker pull quay.io/biocontainers/bioconductor-xps:<tag>
 
    (see `bioconductor-xps/tags`_ for valid values for ``<tag>``)
 

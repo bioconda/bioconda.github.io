@@ -54,7 +54,7 @@ bioconductor-pd.2006.10.31.rn34.refseq.promoter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.2006.10.31.rn34.refseq.promoter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.2006.10.31.rn34.refseq.promoter:<tag>
 
    (see `bioconductor-pd.2006.10.31.rn34.refseq.promoter/tags`_ for valid values for ``<tag>``)
 

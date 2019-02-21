@@ -66,7 +66,7 @@ r-spocc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-spocc:<tag>
+      docker pull quay.io/biocontainers/r-spocc:<tag>
 
    (see `r-spocc/tags`_ for valid values for ``<tag>``)
 

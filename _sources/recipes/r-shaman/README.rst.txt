@@ -50,7 +50,7 @@ r-shaman
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-shaman:<tag>
+      docker pull quay.io/biocontainers/r-shaman:<tag>
 
    (see `r-shaman/tags`_ for valid values for ``<tag>``)
 

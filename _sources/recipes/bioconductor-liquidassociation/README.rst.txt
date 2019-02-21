@@ -49,7 +49,7 @@ bioconductor-liquidassociation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-liquidassociation:<tag>
+      docker pull quay.io/biocontainers/bioconductor-liquidassociation:<tag>
 
    (see `bioconductor-liquidassociation/tags`_ for valid values for ``<tag>``)
 

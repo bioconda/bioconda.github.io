@@ -47,7 +47,7 @@ akt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/akt:<tag>
+      docker pull quay.io/biocontainers/akt:<tag>
 
    (see `akt/tags`_ for valid values for ``<tag>``)
 

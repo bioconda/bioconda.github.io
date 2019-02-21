@@ -47,7 +47,7 @@ vsearch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vsearch:<tag>
+      docker pull quay.io/biocontainers/vsearch:<tag>
 
    (see `vsearch/tags`_ for valid values for ``<tag>``)
 

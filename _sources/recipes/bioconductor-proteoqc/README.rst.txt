@@ -68,7 +68,7 @@ bioconductor-proteoqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-proteoqc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-proteoqc:<tag>
 
    (see `bioconductor-proteoqc/tags`_ for valid values for ``<tag>``)
 

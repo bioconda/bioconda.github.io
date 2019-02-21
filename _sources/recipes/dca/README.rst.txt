@@ -57,7 +57,7 @@ dca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dca:<tag>
+      docker pull quay.io/biocontainers/dca:<tag>
 
    (see `dca/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ pbsv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbsv:<tag>
+      docker pull quay.io/biocontainers/pbsv:<tag>
 
    (see `pbsv/tags`_ for valid values for ``<tag>``)
 

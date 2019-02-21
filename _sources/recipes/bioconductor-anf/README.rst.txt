@@ -50,7 +50,7 @@ bioconductor-anf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-anf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-anf:<tag>
 
    (see `bioconductor-anf/tags`_ for valid values for ``<tag>``)
 

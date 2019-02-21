@@ -72,7 +72,7 @@ bioconductor-eegc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-eegc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-eegc:<tag>
 
    (see `bioconductor-eegc/tags`_ for valid values for ``<tag>``)
 

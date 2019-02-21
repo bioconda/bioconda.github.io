@@ -64,7 +64,7 @@ pathogist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pathogist:<tag>
+      docker pull quay.io/biocontainers/pathogist:<tag>
 
    (see `pathogist/tags`_ for valid values for ``<tag>``)
 

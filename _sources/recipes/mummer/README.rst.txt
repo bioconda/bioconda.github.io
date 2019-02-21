@@ -43,7 +43,7 @@ mummer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mummer:<tag>
+      docker pull quay.io/biocontainers/mummer:<tag>
 
    (see `mummer/tags`_ for valid values for ``<tag>``)
 

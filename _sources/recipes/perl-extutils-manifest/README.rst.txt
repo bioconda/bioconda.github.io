@@ -40,7 +40,7 @@ perl-extutils-manifest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-extutils-manifest:<tag>
+      docker pull quay.io/biocontainers/perl-extutils-manifest:<tag>
 
    (see `perl-extutils-manifest/tags`_ for valid values for ``<tag>``)
 

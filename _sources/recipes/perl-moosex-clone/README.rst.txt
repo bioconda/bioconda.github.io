@@ -50,7 +50,7 @@ perl-moosex-clone
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-clone:<tag>
+      docker pull quay.io/biocontainers/perl-moosex-clone:<tag>
 
    (see `perl-moosex-clone/tags`_ for valid values for ``<tag>``)
 

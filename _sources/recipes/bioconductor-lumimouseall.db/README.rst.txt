@@ -46,7 +46,7 @@ bioconductor-lumimouseall.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lumimouseall.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lumimouseall.db:<tag>
 
    (see `bioconductor-lumimouseall.db/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ perl-bio-coordinate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-coordinate:<tag>
+      docker pull quay.io/biocontainers/perl-bio-coordinate:<tag>
 
    (see `perl-bio-coordinate/tags`_ for valid values for ``<tag>``)
 

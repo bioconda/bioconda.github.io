@@ -56,7 +56,7 @@ bioconductor-seqarray
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seqarray:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seqarray:<tag>
 
    (see `bioconductor-seqarray/tags`_ for valid values for ``<tag>``)
 

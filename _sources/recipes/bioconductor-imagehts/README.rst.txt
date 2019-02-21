@@ -53,7 +53,7 @@ bioconductor-imagehts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-imagehts:<tag>
+      docker pull quay.io/biocontainers/bioconductor-imagehts:<tag>
 
    (see `bioconductor-imagehts/tags`_ for valid values for ``<tag>``)
 

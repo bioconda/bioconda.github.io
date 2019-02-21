@@ -44,7 +44,7 @@ nimnexus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nimnexus:<tag>
+      docker pull quay.io/biocontainers/nimnexus:<tag>
 
    (see `nimnexus/tags`_ for valid values for ``<tag>``)
 

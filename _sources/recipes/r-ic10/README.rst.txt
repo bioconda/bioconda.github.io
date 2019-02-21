@@ -44,7 +44,7 @@ r-ic10
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ic10:<tag>
+      docker pull quay.io/biocontainers/r-ic10:<tag>
 
    (see `r-ic10/tags`_ for valid values for ``<tag>``)
 

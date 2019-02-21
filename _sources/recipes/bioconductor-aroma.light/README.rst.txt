@@ -49,7 +49,7 @@ bioconductor-aroma.light
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-aroma.light:<tag>
+      docker pull quay.io/biocontainers/bioconductor-aroma.light:<tag>
 
    (see `bioconductor-aroma.light/tags`_ for valid values for ``<tag>``)
 

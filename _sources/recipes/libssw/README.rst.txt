@@ -48,7 +48,7 @@ libssw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libssw:<tag>
+      docker pull quay.io/biocontainers/libssw:<tag>
 
    (see `libssw/tags`_ for valid values for ``<tag>``)
 

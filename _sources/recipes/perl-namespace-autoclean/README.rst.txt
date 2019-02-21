@@ -48,7 +48,7 @@ perl-namespace-autoclean
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-namespace-autoclean:<tag>
+      docker pull quay.io/biocontainers/perl-namespace-autoclean:<tag>
 
    (see `perl-namespace-autoclean/tags`_ for valid values for ``<tag>``)
 

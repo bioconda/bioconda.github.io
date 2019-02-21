@@ -40,7 +40,7 @@ retry_decorator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/retry_decorator:<tag>
+      docker pull quay.io/biocontainers/retry_decorator:<tag>
 
    (see `retry_decorator/tags`_ for valid values for ``<tag>``)
 

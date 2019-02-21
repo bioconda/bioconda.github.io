@@ -40,7 +40,7 @@ snpomatic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snpomatic:<tag>
+      docker pull quay.io/biocontainers/snpomatic:<tag>
 
    (see `snpomatic/tags`_ for valid values for ``<tag>``)
 

@@ -117,7 +117,7 @@ arb-bio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/arb-bio:<tag>
+      docker pull quay.io/biocontainers/arb-bio:<tag>
 
    (see `arb-bio/tags`_ for valid values for ``<tag>``)
 
@@ -158,7 +158,7 @@ arb-bio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/arb-bio-devel:<tag>
+      docker pull quay.io/biocontainers/arb-bio-devel:<tag>
 
    (see `arb-bio-devel/tags`_ for valid values for ``<tag>``)
 
@@ -199,7 +199,7 @@ arb-bio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/arb-bio-tools:<tag>
+      docker pull quay.io/biocontainers/arb-bio-tools:<tag>
 
    (see `arb-bio-tools/tags`_ for valid values for ``<tag>``)
 
@@ -240,7 +240,7 @@ arb-bio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libarbdb:<tag>
+      docker pull quay.io/biocontainers/libarbdb:<tag>
 
    (see `libarbdb/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ bioconductor-pd.huex.1.0.st.v2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.huex.1.0.st.v2:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.huex.1.0.st.v2:<tag>
 
    (see `bioconductor-pd.huex.1.0.st.v2/tags`_ for valid values for ``<tag>``)
 

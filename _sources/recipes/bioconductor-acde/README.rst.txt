@@ -43,7 +43,7 @@ bioconductor-acde
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-acde:<tag>
+      docker pull quay.io/biocontainers/bioconductor-acde:<tag>
 
    (see `bioconductor-acde/tags`_ for valid values for ``<tag>``)
 

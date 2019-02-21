@@ -77,7 +77,7 @@ metaphlan2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metaphlan2:<tag>
+      docker pull quay.io/biocontainers/metaphlan2:<tag>
 
    (see `metaphlan2/tags`_ for valid values for ``<tag>``)
 

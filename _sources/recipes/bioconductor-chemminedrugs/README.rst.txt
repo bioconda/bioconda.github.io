@@ -48,7 +48,7 @@ bioconductor-chemminedrugs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chemminedrugs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chemminedrugs:<tag>
 
    (see `bioconductor-chemminedrugs/tags`_ for valid values for ``<tag>``)
 

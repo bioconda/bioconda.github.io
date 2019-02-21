@@ -82,7 +82,7 @@ bioconductor-rexposome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rexposome:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rexposome:<tag>
 
    (see `bioconductor-rexposome/tags`_ for valid values for ``<tag>``)
 

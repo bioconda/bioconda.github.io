@@ -58,7 +58,7 @@ ectyper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ectyper:<tag>
+      docker pull quay.io/biocontainers/ectyper:<tag>
 
    (see `ectyper/tags`_ for valid values for ``<tag>``)
 

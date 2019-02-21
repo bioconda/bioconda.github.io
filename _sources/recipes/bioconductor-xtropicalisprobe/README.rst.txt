@@ -44,7 +44,7 @@ bioconductor-xtropicalisprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xtropicalisprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-xtropicalisprobe:<tag>
 
    (see `bioconductor-xtropicalisprobe/tags`_ for valid values for ``<tag>``)
 

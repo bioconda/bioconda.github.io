@@ -55,7 +55,7 @@ bioconductor-starr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-starr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-starr:<tag>
 
    (see `bioconductor-starr/tags`_ for valid values for ``<tag>``)
 

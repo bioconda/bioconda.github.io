@@ -50,7 +50,7 @@ sparse-neighbors-search
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sparse-neighbors-search:<tag>
+      docker pull quay.io/biocontainers/sparse-neighbors-search:<tag>
 
    (see `sparse-neighbors-search/tags`_ for valid values for ``<tag>``)
 

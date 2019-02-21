@@ -44,7 +44,7 @@ bioconductor-maizecdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-maizecdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-maizecdf:<tag>
 
    (see `bioconductor-maizecdf/tags`_ for valid values for ``<tag>``)
 

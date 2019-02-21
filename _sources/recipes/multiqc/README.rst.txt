@@ -65,7 +65,7 @@ multiqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/multiqc:<tag>
+      docker pull quay.io/biocontainers/multiqc:<tag>
 
    (see `multiqc/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ changeo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/changeo:<tag>
+      docker pull quay.io/biocontainers/changeo:<tag>
 
    (see `changeo/tags`_ for valid values for ``<tag>``)
 

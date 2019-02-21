@@ -44,7 +44,7 @@ nanolyse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanolyse:<tag>
+      docker pull quay.io/biocontainers/nanolyse:<tag>
 
    (see `nanolyse/tags`_ for valid values for ``<tag>``)
 

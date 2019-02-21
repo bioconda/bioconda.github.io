@@ -42,7 +42,7 @@ express
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/express:<tag>
+      docker pull quay.io/biocontainers/express:<tag>
 
    (see `express/tags`_ for valid values for ``<tag>``)
 

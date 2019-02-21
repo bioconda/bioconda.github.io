@@ -44,7 +44,7 @@ bioconductor-test1cdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-test1cdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-test1cdf:<tag>
 
    (see `bioconductor-test1cdf/tags`_ for valid values for ``<tag>``)
 

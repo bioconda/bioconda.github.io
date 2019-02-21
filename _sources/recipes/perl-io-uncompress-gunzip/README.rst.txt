@@ -40,7 +40,7 @@ perl-io-uncompress-gunzip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-uncompress-gunzip:<tag>
+      docker pull quay.io/biocontainers/perl-io-uncompress-gunzip:<tag>
 
    (see `perl-io-uncompress-gunzip/tags`_ for valid values for ``<tag>``)
 

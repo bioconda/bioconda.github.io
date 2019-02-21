@@ -44,7 +44,7 @@ bioconductor-prostatecancerstockholm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-prostatecancerstockholm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-prostatecancerstockholm:<tag>
 
    (see `bioconductor-prostatecancerstockholm/tags`_ for valid values for ``<tag>``)
 

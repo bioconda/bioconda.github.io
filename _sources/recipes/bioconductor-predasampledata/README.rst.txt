@@ -50,7 +50,7 @@ bioconductor-predasampledata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-predasampledata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-predasampledata:<tag>
 
    (see `bioconductor-predasampledata/tags`_ for valid values for ``<tag>``)
 

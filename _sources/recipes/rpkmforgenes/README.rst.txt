@@ -44,7 +44,7 @@ rpkmforgenes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rpkmforgenes:<tag>
+      docker pull quay.io/biocontainers/rpkmforgenes:<tag>
 
    (see `rpkmforgenes/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ ucsc-mafsinregion
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-mafsinregion:<tag>
+      docker pull quay.io/biocontainers/ucsc-mafsinregion:<tag>
 
    (see `ucsc-mafsinregion/tags`_ for valid values for ``<tag>``)
 

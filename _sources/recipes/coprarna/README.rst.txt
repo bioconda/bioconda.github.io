@@ -88,7 +88,7 @@ coprarna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/coprarna:<tag>
+      docker pull quay.io/biocontainers/coprarna:<tag>
 
    (see `coprarna/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ sra-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sra-tools:<tag>
+      docker pull quay.io/biocontainers/sra-tools:<tag>
 
    (see `sra-tools/tags`_ for valid values for ``<tag>``)
 

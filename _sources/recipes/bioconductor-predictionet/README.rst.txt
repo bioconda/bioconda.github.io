@@ -54,7 +54,7 @@ bioconductor-predictionet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-predictionet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-predictionet:<tag>
 
    (see `bioconductor-predictionet/tags`_ for valid values for ``<tag>``)
 

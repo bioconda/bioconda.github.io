@@ -46,7 +46,7 @@ bioconductor-rnagilentdesign028282.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnagilentdesign028282.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rnagilentdesign028282.db:<tag>
 
    (see `bioconductor-rnagilentdesign028282.db/tags`_ for valid values for ``<tag>``)
 

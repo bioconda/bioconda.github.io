@@ -40,7 +40,7 @@ perl-math-base-convert
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-base-convert:<tag>
+      docker pull quay.io/biocontainers/perl-math-base-convert:<tag>
 
    (see `perl-math-base-convert/tags`_ for valid values for ``<tag>``)
 

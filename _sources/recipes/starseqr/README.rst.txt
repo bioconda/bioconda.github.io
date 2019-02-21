@@ -60,7 +60,7 @@ starseqr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/starseqr:<tag>
+      docker pull quay.io/biocontainers/starseqr:<tag>
 
    (see `starseqr/tags`_ for valid values for ``<tag>``)
 

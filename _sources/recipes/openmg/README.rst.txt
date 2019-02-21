@@ -40,7 +40,7 @@ openmg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/openmg:<tag>
+      docker pull quay.io/biocontainers/openmg:<tag>
 
    (see `openmg/tags`_ for valid values for ``<tag>``)
 

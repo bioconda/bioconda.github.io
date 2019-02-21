@@ -46,7 +46,7 @@ bioconductor-hgfocus.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hgfocus.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hgfocus.db:<tag>
 
    (see `bioconductor-hgfocus.db/tags`_ for valid values for ``<tag>``)
 

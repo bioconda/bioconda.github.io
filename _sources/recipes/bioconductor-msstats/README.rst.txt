@@ -78,7 +78,7 @@ bioconductor-msstats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msstats:<tag>
+      docker pull quay.io/biocontainers/bioconductor-msstats:<tag>
 
    (see `bioconductor-msstats/tags`_ for valid values for ``<tag>``)
 

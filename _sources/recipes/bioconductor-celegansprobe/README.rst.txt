@@ -44,7 +44,7 @@ bioconductor-celegansprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-celegansprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-celegansprobe:<tag>
 
    (see `bioconductor-celegansprobe/tags`_ for valid values for ``<tag>``)
 

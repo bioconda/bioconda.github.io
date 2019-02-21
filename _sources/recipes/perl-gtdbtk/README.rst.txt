@@ -46,7 +46,7 @@ perl-gtdbtk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-gtdbtk:<tag>
+      docker pull quay.io/biocontainers/perl-gtdbtk:<tag>
 
    (see `perl-gtdbtk/tags`_ for valid values for ``<tag>``)
 

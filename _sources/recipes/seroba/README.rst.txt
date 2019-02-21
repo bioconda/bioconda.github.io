@@ -63,7 +63,7 @@ seroba
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seroba:<tag>
+      docker pull quay.io/biocontainers/seroba:<tag>
 
    (see `seroba/tags`_ for valid values for ``<tag>``)
 

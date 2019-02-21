@@ -40,7 +40,7 @@ perl-postscript
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-postscript:<tag>
+      docker pull quay.io/biocontainers/perl-postscript:<tag>
 
    (see `perl-postscript/tags`_ for valid values for ``<tag>``)
 

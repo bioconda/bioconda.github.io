@@ -42,7 +42,7 @@ perl-set-intervaltree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-set-intervaltree:<tag>
+      docker pull quay.io/biocontainers/perl-set-intervaltree:<tag>
 
    (see `perl-set-intervaltree/tags`_ for valid values for ``<tag>``)
 

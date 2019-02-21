@@ -46,7 +46,7 @@ ncbi-genome-download
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ncbi-genome-download:<tag>
+      docker pull quay.io/biocontainers/ncbi-genome-download:<tag>
 
    (see `ncbi-genome-download/tags`_ for valid values for ``<tag>``)
 

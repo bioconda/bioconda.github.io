@@ -42,7 +42,7 @@ galaxy-ops
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/galaxy-ops:<tag>
+      docker pull quay.io/biocontainers/galaxy-ops:<tag>
 
    (see `galaxy-ops/tags`_ for valid values for ``<tag>``)
 

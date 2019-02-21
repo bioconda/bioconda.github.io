@@ -50,7 +50,7 @@ ucsc-overlapselect
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-overlapselect:<tag>
+      docker pull quay.io/biocontainers/ucsc-overlapselect:<tag>
 
    (see `ucsc-overlapselect/tags`_ for valid values for ``<tag>``)
 

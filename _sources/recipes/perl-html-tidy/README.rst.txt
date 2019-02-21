@@ -52,7 +52,7 @@ perl-html-tidy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-tidy:<tag>
+      docker pull quay.io/biocontainers/perl-html-tidy:<tag>
 
    (see `perl-html-tidy/tags`_ for valid values for ``<tag>``)
 

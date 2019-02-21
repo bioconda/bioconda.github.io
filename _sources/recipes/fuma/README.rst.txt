@@ -44,7 +44,7 @@ fuma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fuma:<tag>
+      docker pull quay.io/biocontainers/fuma:<tag>
 
    (see `fuma/tags`_ for valid values for ``<tag>``)
 

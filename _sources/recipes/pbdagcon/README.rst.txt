@@ -46,7 +46,7 @@ pbdagcon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbdagcon:<tag>
+      docker pull quay.io/biocontainers/pbdagcon:<tag>
 
    (see `pbdagcon/tags`_ for valid values for ``<tag>``)
 

@@ -58,7 +58,7 @@ bioconductor-mulder2012
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mulder2012:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mulder2012:<tag>
 
    (see `bioconductor-mulder2012/tags`_ for valid values for ``<tag>``)
 

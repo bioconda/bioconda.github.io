@@ -46,7 +46,7 @@ bioconductor-txdb.sscrofa.ucsc.susscr3.refgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene:<tag>
 
    (see `bioconductor-txdb.sscrofa.ucsc.susscr3.refgene/tags`_ for valid values for ``<tag>``)
 

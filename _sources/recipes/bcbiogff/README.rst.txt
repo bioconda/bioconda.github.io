@@ -44,7 +44,7 @@ bcbiogff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcbiogff:<tag>
+      docker pull quay.io/biocontainers/bcbiogff:<tag>
 
    (see `bcbiogff/tags`_ for valid values for ``<tag>``)
 

@@ -63,7 +63,7 @@ bioconductor-mosaics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mosaics:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mosaics:<tag>
 
    (see `bioconductor-mosaics/tags`_ for valid values for ``<tag>``)
 

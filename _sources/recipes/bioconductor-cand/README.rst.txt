@@ -45,7 +45,7 @@ bioconductor-cand
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cand:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cand:<tag>
 
    (see `bioconductor-cand/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ bioconductor-idiogram
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-idiogram:<tag>
+      docker pull quay.io/biocontainers/bioconductor-idiogram:<tag>
 
    (see `bioconductor-idiogram/tags`_ for valid values for ``<tag>``)
 

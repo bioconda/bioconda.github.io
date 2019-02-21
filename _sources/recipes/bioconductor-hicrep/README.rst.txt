@@ -40,7 +40,7 @@ bioconductor-hicrep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hicrep:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hicrep:<tag>
 
    (see `bioconductor-hicrep/tags`_ for valid values for ``<tag>``)
 

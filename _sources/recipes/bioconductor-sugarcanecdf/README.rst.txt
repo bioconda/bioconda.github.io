@@ -44,7 +44,7 @@ bioconductor-sugarcanecdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sugarcanecdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sugarcanecdf:<tag>
 
    (see `bioconductor-sugarcanecdf/tags`_ for valid values for ``<tag>``)
 

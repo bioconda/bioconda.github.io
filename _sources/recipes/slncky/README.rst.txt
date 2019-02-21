@@ -48,7 +48,7 @@ slncky
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/slncky:<tag>
+      docker pull quay.io/biocontainers/slncky:<tag>
 
    (see `slncky/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ regtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/regtools:<tag>
+      docker pull quay.io/biocontainers/regtools:<tag>
 
    (see `regtools/tags`_ for valid values for ``<tag>``)
 

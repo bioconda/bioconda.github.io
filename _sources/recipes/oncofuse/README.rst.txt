@@ -40,7 +40,7 @@ oncofuse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/oncofuse:<tag>
+      docker pull quay.io/biocontainers/oncofuse:<tag>
 
    (see `oncofuse/tags`_ for valid values for ``<tag>``)
 

@@ -61,7 +61,7 @@ bioconductor-genomicalignments
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genomicalignments:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genomicalignments:<tag>
 
    (see `bioconductor-genomicalignments/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ cocoscore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cocoscore:<tag>
+      docker pull quay.io/biocontainers/cocoscore:<tag>
 
    (see `cocoscore/tags`_ for valid values for ``<tag>``)
 

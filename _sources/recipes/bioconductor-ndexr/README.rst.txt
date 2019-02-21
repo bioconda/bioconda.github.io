@@ -50,7 +50,7 @@ bioconductor-ndexr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ndexr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ndexr:<tag>
 
    (see `bioconductor-ndexr/tags`_ for valid values for ``<tag>``)
 

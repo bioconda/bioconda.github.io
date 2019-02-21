@@ -42,7 +42,7 @@ r-qiimer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-qiimer:<tag>
+      docker pull quay.io/biocontainers/r-qiimer:<tag>
 
    (see `r-qiimer/tags`_ for valid values for ``<tag>``)
 

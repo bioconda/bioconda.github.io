@@ -42,7 +42,7 @@ bioconductor-gsar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gsar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gsar:<tag>
 
    (see `bioconductor-gsar/tags`_ for valid values for ``<tag>``)
 

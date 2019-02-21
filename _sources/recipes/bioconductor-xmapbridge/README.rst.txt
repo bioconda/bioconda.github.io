@@ -41,7 +41,7 @@ bioconductor-xmapbridge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xmapbridge:<tag>
+      docker pull quay.io/biocontainers/bioconductor-xmapbridge:<tag>
 
    (see `bioconductor-xmapbridge/tags`_ for valid values for ``<tag>``)
 

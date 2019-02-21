@@ -40,7 +40,7 @@ ecmwfapi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ecmwfapi:<tag>
+      docker pull quay.io/biocontainers/ecmwfapi:<tag>
 
    (see `ecmwfapi/tags`_ for valid values for ``<tag>``)
 

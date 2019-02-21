@@ -44,7 +44,7 @@ pynast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pynast:<tag>
+      docker pull quay.io/biocontainers/pynast:<tag>
 
    (see `pynast/tags`_ for valid values for ``<tag>``)
 

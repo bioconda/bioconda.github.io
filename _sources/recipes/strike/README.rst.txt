@@ -41,7 +41,7 @@ strike
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/strike:<tag>
+      docker pull quay.io/biocontainers/strike:<tag>
 
    (see `strike/tags`_ for valid values for ``<tag>``)
 

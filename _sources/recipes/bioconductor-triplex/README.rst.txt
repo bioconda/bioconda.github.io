@@ -53,7 +53,7 @@ bioconductor-triplex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-triplex:<tag>
+      docker pull quay.io/biocontainers/bioconductor-triplex:<tag>
 
    (see `bioconductor-triplex/tags`_ for valid values for ``<tag>``)
 

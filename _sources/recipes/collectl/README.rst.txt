@@ -42,7 +42,7 @@ collectl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/collectl:<tag>
+      docker pull quay.io/biocontainers/collectl:<tag>
 
    (see `collectl/tags`_ for valid values for ``<tag>``)
 

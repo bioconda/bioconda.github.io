@@ -43,7 +43,7 @@ r-intego
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-intego:<tag>
+      docker pull quay.io/biocontainers/r-intego:<tag>
 
    (see `r-intego/tags`_ for valid values for ``<tag>``)
 

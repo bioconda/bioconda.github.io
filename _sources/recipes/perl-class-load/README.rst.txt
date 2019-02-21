@@ -56,7 +56,7 @@ perl-class-load
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-class-load:<tag>
+      docker pull quay.io/biocontainers/perl-class-load:<tag>
 
    (see `perl-class-load/tags`_ for valid values for ``<tag>``)
 

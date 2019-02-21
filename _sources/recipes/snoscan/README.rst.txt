@@ -45,7 +45,7 @@ snoscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snoscan:<tag>
+      docker pull quay.io/biocontainers/snoscan:<tag>
 
    (see `snoscan/tags`_ for valid values for ``<tag>``)
 

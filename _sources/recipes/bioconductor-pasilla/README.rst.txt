@@ -42,7 +42,7 @@ bioconductor-pasilla
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pasilla:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pasilla:<tag>
 
    (see `bioconductor-pasilla/tags`_ for valid values for ``<tag>``)
 

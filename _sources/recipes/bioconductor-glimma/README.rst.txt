@@ -47,7 +47,7 @@ bioconductor-glimma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-glimma:<tag>
+      docker pull quay.io/biocontainers/bioconductor-glimma:<tag>
 
    (see `bioconductor-glimma/tags`_ for valid values for ``<tag>``)
 

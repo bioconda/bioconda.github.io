@@ -55,7 +55,7 @@ bioconductor-mygene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mygene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mygene:<tag>
 
    (see `bioconductor-mygene/tags`_ for valid values for ``<tag>``)
 

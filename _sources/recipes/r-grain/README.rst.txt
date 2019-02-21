@@ -60,7 +60,7 @@ r-grain
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-grain:<tag>
+      docker pull quay.io/biocontainers/r-grain:<tag>
 
    (see `r-grain/tags`_ for valid values for ``<tag>``)
 

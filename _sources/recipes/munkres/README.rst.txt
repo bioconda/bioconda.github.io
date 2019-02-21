@@ -40,7 +40,7 @@ munkres
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/munkres:<tag>
+      docker pull quay.io/biocontainers/munkres:<tag>
 
    (see `munkres/tags`_ for valid values for ``<tag>``)
 

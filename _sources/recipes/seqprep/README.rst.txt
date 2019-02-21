@@ -43,7 +43,7 @@ seqprep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seqprep:<tag>
+      docker pull quay.io/biocontainers/seqprep:<tag>
 
    (see `seqprep/tags`_ for valid values for ``<tag>``)
 

@@ -53,7 +53,7 @@ bioconductor-dirichletmultinomial
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dirichletmultinomial:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dirichletmultinomial:<tag>
 
    (see `bioconductor-dirichletmultinomial/tags`_ for valid values for ``<tag>``)
 

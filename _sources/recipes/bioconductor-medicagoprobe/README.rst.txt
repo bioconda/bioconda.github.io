@@ -44,7 +44,7 @@ bioconductor-medicagoprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-medicagoprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-medicagoprobe:<tag>
 
    (see `bioconductor-medicagoprobe/tags`_ for valid values for ``<tag>``)
 

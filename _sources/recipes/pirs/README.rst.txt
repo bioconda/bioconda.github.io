@@ -58,7 +58,7 @@ pirs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pirs:<tag>
+      docker pull quay.io/biocontainers/pirs:<tag>
 
    (see `pirs/tags`_ for valid values for ``<tag>``)
 

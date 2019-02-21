@@ -40,7 +40,7 @@ strudel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/strudel:<tag>
+      docker pull quay.io/biocontainers/strudel:<tag>
 
    (see `strudel/tags`_ for valid values for ``<tag>``)
 

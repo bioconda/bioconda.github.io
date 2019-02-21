@@ -42,7 +42,7 @@ arvados-cli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/arvados-cli:<tag>
+      docker pull quay.io/biocontainers/arvados-cli:<tag>
 
    (see `arvados-cli/tags`_ for valid values for ``<tag>``)
 

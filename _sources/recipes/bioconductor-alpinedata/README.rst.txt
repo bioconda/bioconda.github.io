@@ -48,7 +48,7 @@ bioconductor-alpinedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-alpinedata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-alpinedata:<tag>
 
    (see `bioconductor-alpinedata/tags`_ for valid values for ``<tag>``)
 

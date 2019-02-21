@@ -40,7 +40,7 @@ perl-class-method-modifiers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-class-method-modifiers:<tag>
+      docker pull quay.io/biocontainers/perl-class-method-modifiers:<tag>
 
    (see `perl-class-method-modifiers/tags`_ for valid values for ``<tag>``)
 

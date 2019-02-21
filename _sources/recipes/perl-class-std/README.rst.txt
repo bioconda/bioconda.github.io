@@ -42,7 +42,7 @@ perl-class-std
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-class-std:<tag>
+      docker pull quay.io/biocontainers/perl-class-std:<tag>
 
    (see `perl-class-std/tags`_ for valid values for ``<tag>``)
 

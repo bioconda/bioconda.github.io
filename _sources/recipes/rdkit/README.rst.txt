@@ -46,7 +46,7 @@ rdkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rdkit:<tag>
+      docker pull quay.io/biocontainers/rdkit:<tag>
 
    (see `rdkit/tags`_ for valid values for ``<tag>``)
 

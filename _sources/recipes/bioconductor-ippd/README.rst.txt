@@ -53,7 +53,7 @@ bioconductor-ippd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ippd:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ippd:<tag>
 
    (see `bioconductor-ippd/tags`_ for valid values for ``<tag>``)
 

@@ -41,7 +41,7 @@ comet-ms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/comet-ms:<tag>
+      docker pull quay.io/biocontainers/comet-ms:<tag>
 
    (see `comet-ms/tags`_ for valid values for ``<tag>``)
 

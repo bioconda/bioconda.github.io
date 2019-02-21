@@ -42,7 +42,7 @@ workspace
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/workspace:<tag>
+      docker pull quay.io/biocontainers/workspace:<tag>
 
    (see `workspace/tags`_ for valid values for ``<tag>``)
 

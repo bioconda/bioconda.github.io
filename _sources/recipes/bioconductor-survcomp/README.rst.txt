@@ -61,7 +61,7 @@ bioconductor-survcomp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-survcomp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-survcomp:<tag>
 
    (see `bioconductor-survcomp/tags`_ for valid values for ``<tag>``)
 

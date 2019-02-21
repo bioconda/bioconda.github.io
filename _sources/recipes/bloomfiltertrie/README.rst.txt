@@ -44,7 +44,7 @@ bloomfiltertrie
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bloomfiltertrie:<tag>
+      docker pull quay.io/biocontainers/bloomfiltertrie:<tag>
 
    (see `bloomfiltertrie/tags`_ for valid values for ``<tag>``)
 

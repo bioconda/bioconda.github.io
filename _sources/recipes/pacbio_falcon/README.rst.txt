@@ -48,7 +48,7 @@ pacbio_falcon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pacbio_falcon:<tag>
+      docker pull quay.io/biocontainers/pacbio_falcon:<tag>
 
    (see `pacbio_falcon/tags`_ for valid values for ``<tag>``)
 

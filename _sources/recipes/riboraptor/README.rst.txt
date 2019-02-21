@@ -86,7 +86,7 @@ riboraptor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/riboraptor:<tag>
+      docker pull quay.io/biocontainers/riboraptor:<tag>
 
    (see `riboraptor/tags`_ for valid values for ``<tag>``)
 

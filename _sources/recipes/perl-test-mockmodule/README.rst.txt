@@ -44,7 +44,7 @@ perl-test-mockmodule
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-mockmodule:<tag>
+      docker pull quay.io/biocontainers/perl-test-mockmodule:<tag>
 
    (see `perl-test-mockmodule/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ bioconductor-glad
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-glad:<tag>
+      docker pull quay.io/biocontainers/bioconductor-glad:<tag>
 
    (see `bioconductor-glad/tags`_ for valid values for ``<tag>``)
 

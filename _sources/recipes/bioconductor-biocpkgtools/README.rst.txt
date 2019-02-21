@@ -70,7 +70,7 @@ bioconductor-biocpkgtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocpkgtools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biocpkgtools:<tag>
 
    (see `bioconductor-biocpkgtools/tags`_ for valid values for ``<tag>``)
 

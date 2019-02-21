@@ -43,7 +43,7 @@ rnaz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnaz:<tag>
+      docker pull quay.io/biocontainers/rnaz:<tag>
 
    (see `rnaz/tags`_ for valid values for ``<tag>``)
 

@@ -54,7 +54,7 @@ bioconductor-twoddpcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-twoddpcr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-twoddpcr:<tag>
 
    (see `bioconductor-twoddpcr/tags`_ for valid values for ``<tag>``)
 

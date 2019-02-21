@@ -40,7 +40,7 @@ tdrmapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tdrmapper:<tag>
+      docker pull quay.io/biocontainers/tdrmapper:<tag>
 
    (see `tdrmapper/tags`_ for valid values for ``<tag>``)
 

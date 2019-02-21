@@ -84,7 +84,7 @@ bcbio-rnaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcbio-rnaseq:<tag>
+      docker pull quay.io/biocontainers/bcbio-rnaseq:<tag>
 
    (see `bcbio-rnaseq/tags`_ for valid values for ``<tag>``)
 

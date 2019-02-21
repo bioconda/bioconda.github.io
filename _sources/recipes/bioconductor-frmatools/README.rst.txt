@@ -49,7 +49,7 @@ bioconductor-frmatools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-frmatools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-frmatools:<tag>
 
    (see `bioconductor-frmatools/tags`_ for valid values for ``<tag>``)
 

@@ -63,7 +63,7 @@ bioconductor-beadarray
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-beadarray:<tag>
+      docker pull quay.io/biocontainers/bioconductor-beadarray:<tag>
 
    (see `bioconductor-beadarray/tags`_ for valid values for ``<tag>``)
 

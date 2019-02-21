@@ -52,7 +52,7 @@ bioconductor-microbiome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-microbiome:<tag>
+      docker pull quay.io/biocontainers/bioconductor-microbiome:<tag>
 
    (see `bioconductor-microbiome/tags`_ for valid values for ``<tag>``)
 

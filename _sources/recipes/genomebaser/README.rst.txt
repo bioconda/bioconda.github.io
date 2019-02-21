@@ -44,7 +44,7 @@ genomebaser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genomebaser:<tag>
+      docker pull quay.io/biocontainers/genomebaser:<tag>
 
    (see `genomebaser/tags`_ for valid values for ``<tag>``)
 

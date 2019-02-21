@@ -64,7 +64,7 @@ xyalign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xyalign:<tag>
+      docker pull quay.io/biocontainers/xyalign:<tag>
 
    (see `xyalign/tags`_ for valid values for ``<tag>``)
 

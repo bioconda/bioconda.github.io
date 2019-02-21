@@ -42,7 +42,7 @@ bioconductor-arrmdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-arrmdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-arrmdata:<tag>
 
    (see `bioconductor-arrmdata/tags`_ for valid values for ``<tag>``)
 

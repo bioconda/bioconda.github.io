@@ -44,7 +44,7 @@ sickle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sickle:<tag>
+      docker pull quay.io/biocontainers/sickle:<tag>
 
    (see `sickle/tags`_ for valid values for ``<tag>``)
 

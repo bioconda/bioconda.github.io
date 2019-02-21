@@ -50,7 +50,7 @@ hiddendomains
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hiddendomains:<tag>
+      docker pull quay.io/biocontainers/hiddendomains:<tag>
 
    (see `hiddendomains/tags`_ for valid values for ``<tag>``)
 

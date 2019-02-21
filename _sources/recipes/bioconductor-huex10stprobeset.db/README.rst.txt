@@ -46,7 +46,7 @@ bioconductor-huex10stprobeset.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-huex10stprobeset.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-huex10stprobeset.db:<tag>
 
    (see `bioconductor-huex10stprobeset.db/tags`_ for valid values for ``<tag>``)
 

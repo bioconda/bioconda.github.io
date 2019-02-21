@@ -52,7 +52,7 @@ bioconductor-delayedarray
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-delayedarray:<tag>
+      docker pull quay.io/biocontainers/bioconductor-delayedarray:<tag>
 
    (see `bioconductor-delayedarray/tags`_ for valid values for ``<tag>``)
 

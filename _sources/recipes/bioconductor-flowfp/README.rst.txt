@@ -51,7 +51,7 @@ bioconductor-flowfp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowfp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowfp:<tag>
 
    (see `bioconductor-flowfp/tags`_ for valid values for ``<tag>``)
 

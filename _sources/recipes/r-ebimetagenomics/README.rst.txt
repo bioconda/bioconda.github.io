@@ -46,7 +46,7 @@ r-ebimetagenomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ebimetagenomics:<tag>
+      docker pull quay.io/biocontainers/r-ebimetagenomics:<tag>
 
    (see `r-ebimetagenomics/tags`_ for valid values for ``<tag>``)
 

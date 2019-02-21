@@ -50,7 +50,7 @@ snpiphy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snpiphy:<tag>
+      docker pull quay.io/biocontainers/snpiphy:<tag>
 
    (see `snpiphy/tags`_ for valid values for ``<tag>``)
 

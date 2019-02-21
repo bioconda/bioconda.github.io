@@ -54,7 +54,7 @@ bioconductor-eisa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-eisa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-eisa:<tag>
 
    (see `bioconductor-eisa/tags`_ for valid values for ``<tag>``)
 

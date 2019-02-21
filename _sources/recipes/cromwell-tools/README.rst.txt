@@ -50,7 +50,7 @@ cromwell-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cromwell-tools:<tag>
+      docker pull quay.io/biocontainers/cromwell-tools:<tag>
 
    (see `cromwell-tools/tags`_ for valid values for ``<tag>``)
 

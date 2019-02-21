@@ -50,7 +50,7 @@ ucsc-mafspecieslist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-mafspecieslist:<tag>
+      docker pull quay.io/biocontainers/ucsc-mafspecieslist:<tag>
 
    (see `ucsc-mafspecieslist/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-bsgenome.drerio.ucsc.danrer7
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.drerio.ucsc.danrer7:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.drerio.ucsc.danrer7:<tag>
 
    (see `bioconductor-bsgenome.drerio.ucsc.danrer7/tags`_ for valid values for ``<tag>``)
 

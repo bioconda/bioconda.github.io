@@ -46,7 +46,7 @@ r-pegas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-pegas:<tag>
+      docker pull quay.io/biocontainers/r-pegas:<tag>
 
    (see `r-pegas/tags`_ for valid values for ``<tag>``)
 

@@ -57,7 +57,7 @@ bioconductor-prebs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-prebs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-prebs:<tag>
 
    (see `bioconductor-prebs/tags`_ for valid values for ``<tag>``)
 

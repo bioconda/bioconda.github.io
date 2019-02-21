@@ -44,7 +44,7 @@ fcp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fcp:<tag>
+      docker pull quay.io/biocontainers/fcp:<tag>
 
    (see `fcp/tags`_ for valid values for ``<tag>``)
 

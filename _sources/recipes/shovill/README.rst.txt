@@ -72,7 +72,7 @@ shovill
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shovill:<tag>
+      docker pull quay.io/biocontainers/shovill:<tag>
 
    (see `shovill/tags`_ for valid values for ``<tag>``)
 

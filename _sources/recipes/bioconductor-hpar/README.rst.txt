@@ -41,7 +41,7 @@ bioconductor-hpar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hpar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hpar:<tag>
 
    (see `bioconductor-hpar/tags`_ for valid values for ``<tag>``)
 

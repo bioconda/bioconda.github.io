@@ -40,7 +40,7 @@ perl-pod-checker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pod-checker:<tag>
+      docker pull quay.io/biocontainers/perl-pod-checker:<tag>
 
    (see `perl-pod-checker/tags`_ for valid values for ``<tag>``)
 

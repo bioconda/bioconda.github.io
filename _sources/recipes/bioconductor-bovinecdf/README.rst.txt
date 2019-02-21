@@ -44,7 +44,7 @@ bioconductor-bovinecdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bovinecdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bovinecdf:<tag>
 
    (see `bioconductor-bovinecdf/tags`_ for valid values for ``<tag>``)
 

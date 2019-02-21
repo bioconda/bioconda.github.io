@@ -46,7 +46,7 @@ bioconductor-norway981.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-norway981.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-norway981.db:<tag>
 
    (see `bioconductor-norway981.db/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-methped
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methped:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methped:<tag>
 
    (see `bioconductor-methped/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-mesh.ani.fgsc.eg.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mesh.ani.fgsc.eg.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mesh.ani.fgsc.eg.db:<tag>
 
    (see `bioconductor-mesh.ani.fgsc.eg.db/tags`_ for valid values for ``<tag>``)
 

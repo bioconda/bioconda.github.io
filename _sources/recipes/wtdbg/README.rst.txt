@@ -42,7 +42,7 @@ wtdbg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wtdbg:<tag>
+      docker pull quay.io/biocontainers/wtdbg:<tag>
 
    (see `wtdbg/tags`_ for valid values for ``<tag>``)
 

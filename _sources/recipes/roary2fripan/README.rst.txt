@@ -40,7 +40,7 @@ roary2fripan.py
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/roary2fripan.py:<tag>
+      docker pull quay.io/biocontainers/roary2fripan.py:<tag>
 
    (see `roary2fripan.py/tags`_ for valid values for ``<tag>``)
 

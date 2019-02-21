@@ -58,7 +58,7 @@ r-loose.rock
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-loose.rock:<tag>
+      docker pull quay.io/biocontainers/r-loose.rock:<tag>
 
    (see `r-loose.rock/tags`_ for valid values for ``<tag>``)
 

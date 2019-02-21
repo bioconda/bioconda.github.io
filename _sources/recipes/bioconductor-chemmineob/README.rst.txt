@@ -38,7 +38,7 @@ bioconductor-chemmineob
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chemmineob:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chemmineob:<tag>
 
    (see `bioconductor-chemmineob/tags`_ for valid values for ``<tag>``)
 

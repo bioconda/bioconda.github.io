@@ -43,7 +43,7 @@ bioconductor-arrmnormalization
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-arrmnormalization:<tag>
+      docker pull quay.io/biocontainers/bioconductor-arrmnormalization:<tag>
 
    (see `bioconductor-arrmnormalization/tags`_ for valid values for ``<tag>``)
 

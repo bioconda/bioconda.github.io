@@ -43,7 +43,7 @@ bioconductor-polyfit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-polyfit:<tag>
+      docker pull quay.io/biocontainers/bioconductor-polyfit:<tag>
 
    (see `bioconductor-polyfit/tags`_ for valid values for ``<tag>``)
 

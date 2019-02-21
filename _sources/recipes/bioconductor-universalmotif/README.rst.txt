@@ -64,7 +64,7 @@ bioconductor-universalmotif
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-universalmotif:<tag>
+      docker pull quay.io/biocontainers/bioconductor-universalmotif:<tag>
 
    (see `bioconductor-universalmotif/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ perl-xml-semanticdiff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-semanticdiff:<tag>
+      docker pull quay.io/biocontainers/perl-xml-semanticdiff:<tag>
 
    (see `perl-xml-semanticdiff/tags`_ for valid values for ``<tag>``)
 

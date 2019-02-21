@@ -44,7 +44,7 @@ bioconductor-bladderbatch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bladderbatch:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bladderbatch:<tag>
 
    (see `bioconductor-bladderbatch/tags`_ for valid values for ``<tag>``)
 

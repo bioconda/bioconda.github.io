@@ -40,7 +40,7 @@ sibelia
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sibelia:<tag>
+      docker pull quay.io/biocontainers/sibelia:<tag>
 
    (see `sibelia/tags`_ for valid values for ``<tag>``)
 

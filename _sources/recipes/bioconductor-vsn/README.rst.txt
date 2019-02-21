@@ -53,7 +53,7 @@ bioconductor-vsn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-vsn:<tag>
+      docker pull quay.io/biocontainers/bioconductor-vsn:<tag>
 
    (see `bioconductor-vsn/tags`_ for valid values for ``<tag>``)
 

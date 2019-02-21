@@ -65,7 +65,7 @@ bioconductor-signer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-signer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-signer:<tag>
 
    (see `bioconductor-signer/tags`_ for valid values for ``<tag>``)
 

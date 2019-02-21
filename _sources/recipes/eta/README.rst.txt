@@ -40,7 +40,7 @@ eta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/eta:<tag>
+      docker pull quay.io/biocontainers/eta:<tag>
 
    (see `eta/tags`_ for valid values for ``<tag>``)
 

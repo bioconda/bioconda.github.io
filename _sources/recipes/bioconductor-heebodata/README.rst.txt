@@ -42,7 +42,7 @@ bioconductor-heebodata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-heebodata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-heebodata:<tag>
 
    (see `bioconductor-heebodata/tags`_ for valid values for ``<tag>``)
 

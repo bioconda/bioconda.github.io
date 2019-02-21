@@ -69,7 +69,7 @@ cnvkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cnvkit:<tag>
+      docker pull quay.io/biocontainers/cnvkit:<tag>
 
    (see `cnvkit/tags`_ for valid values for ``<tag>``)
 

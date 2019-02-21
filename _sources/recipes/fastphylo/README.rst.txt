@@ -45,7 +45,7 @@ fastphylo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastphylo:<tag>
+      docker pull quay.io/biocontainers/fastphylo:<tag>
 
    (see `fastphylo/tags`_ for valid values for ``<tag>``)
 

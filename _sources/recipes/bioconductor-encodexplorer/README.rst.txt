@@ -61,7 +61,7 @@ bioconductor-encodexplorer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-encodexplorer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-encodexplorer:<tag>
 
    (see `bioconductor-encodexplorer/tags`_ for valid values for ``<tag>``)
 

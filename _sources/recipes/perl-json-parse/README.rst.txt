@@ -42,7 +42,7 @@ perl-json-parse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-json-parse:<tag>
+      docker pull quay.io/biocontainers/perl-json-parse:<tag>
 
    (see `perl-json-parse/tags`_ for valid values for ``<tag>``)
 

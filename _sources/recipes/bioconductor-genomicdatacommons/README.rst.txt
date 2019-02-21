@@ -64,7 +64,7 @@ bioconductor-genomicdatacommons
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genomicdatacommons:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genomicdatacommons:<tag>
 
    (see `bioconductor-genomicdatacommons/tags`_ for valid values for ``<tag>``)
 

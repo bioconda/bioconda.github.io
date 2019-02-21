@@ -59,7 +59,7 @@ bioconductor-xbseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xbseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-xbseq:<tag>
 
    (see `bioconductor-xbseq/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ bioconductor-stager
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-stager:<tag>
+      docker pull quay.io/biocontainers/bioconductor-stager:<tag>
 
    (see `bioconductor-stager/tags`_ for valid values for ``<tag>``)
 

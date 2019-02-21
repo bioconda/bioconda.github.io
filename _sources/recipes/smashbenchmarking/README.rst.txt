@@ -46,7 +46,7 @@ smashbenchmarking
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/smashbenchmarking:<tag>
+      docker pull quay.io/biocontainers/smashbenchmarking:<tag>
 
    (see `smashbenchmarking/tags`_ for valid values for ``<tag>``)
 

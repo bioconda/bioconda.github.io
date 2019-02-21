@@ -55,7 +55,7 @@ bioconductor-motifstack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-motifstack:<tag>
+      docker pull quay.io/biocontainers/bioconductor-motifstack:<tag>
 
    (see `bioconductor-motifstack/tags`_ for valid values for ``<tag>``)
 

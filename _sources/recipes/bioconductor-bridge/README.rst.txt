@@ -45,7 +45,7 @@ bioconductor-bridge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bridge:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bridge:<tag>
 
    (see `bioconductor-bridge/tags`_ for valid values for ``<tag>``)
 

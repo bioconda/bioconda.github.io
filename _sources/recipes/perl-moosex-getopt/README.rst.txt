@@ -54,7 +54,7 @@ perl-moosex-getopt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-getopt:<tag>
+      docker pull quay.io/biocontainers/perl-moosex-getopt:<tag>
 
    (see `perl-moosex-getopt/tags`_ for valid values for ``<tag>``)
 

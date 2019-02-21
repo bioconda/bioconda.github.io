@@ -40,7 +40,7 @@ perl-text-tabs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-tabs:<tag>
+      docker pull quay.io/biocontainers/perl-text-tabs:<tag>
 
    (see `perl-text-tabs/tags`_ for valid values for ``<tag>``)
 

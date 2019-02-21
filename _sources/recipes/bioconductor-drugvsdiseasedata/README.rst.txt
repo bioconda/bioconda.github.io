@@ -42,7 +42,7 @@ bioconductor-drugvsdiseasedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-drugvsdiseasedata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-drugvsdiseasedata:<tag>
 
    (see `bioconductor-drugvsdiseasedata/tags`_ for valid values for ``<tag>``)
 

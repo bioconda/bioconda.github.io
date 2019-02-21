@@ -42,7 +42,7 @@ yaha
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/yaha:<tag>
+      docker pull quay.io/biocontainers/yaha:<tag>
 
    (see `yaha/tags`_ for valid values for ``<tag>``)
 

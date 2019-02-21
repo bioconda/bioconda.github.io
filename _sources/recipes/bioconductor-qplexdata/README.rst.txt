@@ -50,7 +50,7 @@ bioconductor-qplexdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qplexdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-qplexdata:<tag>
 
    (see `bioconductor-qplexdata/tags`_ for valid values for ``<tag>``)
 

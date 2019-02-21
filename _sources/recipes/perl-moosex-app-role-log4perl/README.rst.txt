@@ -44,7 +44,7 @@ perl-moosex-app-role-log4perl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-app-role-log4perl:<tag>
+      docker pull quay.io/biocontainers/perl-moosex-app-role-log4perl:<tag>
 
    (see `perl-moosex-app-role-log4perl/tags`_ for valid values for ``<tag>``)
 

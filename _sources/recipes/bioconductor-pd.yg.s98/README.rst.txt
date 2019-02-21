@@ -56,7 +56,7 @@ bioconductor-pd.yg.s98
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.yg.s98:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.yg.s98:<tag>
 
    (see `bioconductor-pd.yg.s98/tags`_ for valid values for ``<tag>``)
 

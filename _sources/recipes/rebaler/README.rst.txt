@@ -46,7 +46,7 @@ rebaler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rebaler:<tag>
+      docker pull quay.io/biocontainers/rebaler:<tag>
 
    (see `rebaler/tags`_ for valid values for ``<tag>``)
 

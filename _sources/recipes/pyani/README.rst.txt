@@ -58,7 +58,7 @@ pyani
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyani:<tag>
+      docker pull quay.io/biocontainers/pyani:<tag>
 
    (see `pyani/tags`_ for valid values for ``<tag>``)
 

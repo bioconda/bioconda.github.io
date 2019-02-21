@@ -46,7 +46,7 @@ genenotebook
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genenotebook:<tag>
+      docker pull quay.io/biocontainers/genenotebook:<tag>
 
    (see `genenotebook/tags`_ for valid values for ``<tag>``)
 

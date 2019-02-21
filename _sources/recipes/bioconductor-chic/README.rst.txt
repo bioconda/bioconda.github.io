@@ -58,7 +58,7 @@ bioconductor-chic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chic:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chic:<tag>
 
    (see `bioconductor-chic/tags`_ for valid values for ``<tag>``)
 

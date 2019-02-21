@@ -50,7 +50,7 @@ ucsc-wigcorrelate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-wigcorrelate:<tag>
+      docker pull quay.io/biocontainers/ucsc-wigcorrelate:<tag>
 
    (see `ucsc-wigcorrelate/tags`_ for valid values for ``<tag>``)
 

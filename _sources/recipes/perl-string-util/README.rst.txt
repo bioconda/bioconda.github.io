@@ -44,7 +44,7 @@ perl-string-util
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-string-util:<tag>
+      docker pull quay.io/biocontainers/perl-string-util:<tag>
 
    (see `perl-string-util/tags`_ for valid values for ``<tag>``)
 

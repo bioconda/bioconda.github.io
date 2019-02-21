@@ -66,7 +66,7 @@ bioconductor-breakpointr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-breakpointr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-breakpointr:<tag>
 
    (see `bioconductor-breakpointr/tags`_ for valid values for ``<tag>``)
 

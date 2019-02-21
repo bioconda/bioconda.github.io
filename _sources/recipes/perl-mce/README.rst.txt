@@ -56,7 +56,7 @@ perl-mce
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mce:<tag>
+      docker pull quay.io/biocontainers/perl-mce:<tag>
 
    (see `perl-mce/tags`_ for valid values for ``<tag>``)
 

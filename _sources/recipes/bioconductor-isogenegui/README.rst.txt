@@ -74,7 +74,7 @@ bioconductor-isogenegui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-isogenegui:<tag>
+      docker pull quay.io/biocontainers/bioconductor-isogenegui:<tag>
 
    (see `bioconductor-isogenegui/tags`_ for valid values for ``<tag>``)
 

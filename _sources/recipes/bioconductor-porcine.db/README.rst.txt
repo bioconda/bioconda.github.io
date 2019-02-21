@@ -46,7 +46,7 @@ bioconductor-porcine.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-porcine.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-porcine.db:<tag>
 
    (see `bioconductor-porcine.db/tags`_ for valid values for ``<tag>``)
 

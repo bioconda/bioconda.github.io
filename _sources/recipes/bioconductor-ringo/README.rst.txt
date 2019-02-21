@@ -61,7 +61,7 @@ bioconductor-ringo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ringo:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ringo:<tag>
 
    (see `bioconductor-ringo/tags`_ for valid values for ``<tag>``)
 

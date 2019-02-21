@@ -41,7 +41,7 @@ mustang
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mustang:<tag>
+      docker pull quay.io/biocontainers/mustang:<tag>
 
    (see `mustang/tags`_ for valid values for ``<tag>``)
 

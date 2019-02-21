@@ -50,7 +50,7 @@ spaln
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spaln:<tag>
+      docker pull quay.io/biocontainers/spaln:<tag>
 
    (see `spaln/tags`_ for valid values for ``<tag>``)
 

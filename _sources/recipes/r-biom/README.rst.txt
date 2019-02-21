@@ -46,7 +46,7 @@ r-biom
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-biom:<tag>
+      docker pull quay.io/biocontainers/r-biom:<tag>
 
    (see `r-biom/tags`_ for valid values for ``<tag>``)
 

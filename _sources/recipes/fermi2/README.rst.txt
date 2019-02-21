@@ -50,7 +50,7 @@ fermi2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fermi2:<tag>
+      docker pull quay.io/biocontainers/fermi2:<tag>
 
    (see `fermi2/tags`_ for valid values for ``<tag>``)
 

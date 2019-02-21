@@ -83,7 +83,7 @@ bioconductor-gviz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gviz:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gviz:<tag>
 
    (see `bioconductor-gviz/tags`_ for valid values for ``<tag>``)
 

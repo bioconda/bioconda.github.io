@@ -41,7 +41,7 @@ paralyzer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/paralyzer:<tag>
+      docker pull quay.io/biocontainers/paralyzer:<tag>
 
    (see `paralyzer/tags`_ for valid values for ``<tag>``)
 

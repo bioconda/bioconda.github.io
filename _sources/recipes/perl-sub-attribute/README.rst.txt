@@ -42,7 +42,7 @@ perl-sub-attribute
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-attribute:<tag>
+      docker pull quay.io/biocontainers/perl-sub-attribute:<tag>
 
    (see `perl-sub-attribute/tags`_ for valid values for ``<tag>``)
 

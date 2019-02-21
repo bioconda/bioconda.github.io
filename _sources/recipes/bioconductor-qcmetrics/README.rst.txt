@@ -53,7 +53,7 @@ bioconductor-qcmetrics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qcmetrics:<tag>
+      docker pull quay.io/biocontainers/bioconductor-qcmetrics:<tag>
 
    (see `bioconductor-qcmetrics/tags`_ for valid values for ``<tag>``)
 

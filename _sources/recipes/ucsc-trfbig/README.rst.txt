@@ -50,7 +50,7 @@ ucsc-trfbig
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-trfbig:<tag>
+      docker pull quay.io/biocontainers/ucsc-trfbig:<tag>
 
    (see `ucsc-trfbig/tags`_ for valid values for ``<tag>``)
 

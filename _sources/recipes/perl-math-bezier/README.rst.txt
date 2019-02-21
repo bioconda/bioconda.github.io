@@ -40,7 +40,7 @@ perl-math-bezier
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-bezier:<tag>
+      docker pull quay.io/biocontainers/perl-math-bezier:<tag>
 
    (see `perl-math-bezier/tags`_ for valid values for ``<tag>``)
 

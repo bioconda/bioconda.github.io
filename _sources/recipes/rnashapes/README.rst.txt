@@ -48,7 +48,7 @@ rnashapes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnashapes:<tag>
+      docker pull quay.io/biocontainers/rnashapes:<tag>
 
    (see `rnashapes/tags`_ for valid values for ``<tag>``)
 

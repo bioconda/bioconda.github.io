@@ -58,7 +58,7 @@ perl-package-stash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-package-stash:<tag>
+      docker pull quay.io/biocontainers/perl-package-stash:<tag>
 
    (see `perl-package-stash/tags`_ for valid values for ``<tag>``)
 

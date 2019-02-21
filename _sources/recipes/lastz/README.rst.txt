@@ -41,7 +41,7 @@ lastz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lastz:<tag>
+      docker pull quay.io/biocontainers/lastz:<tag>
 
    (see `lastz/tags`_ for valid values for ``<tag>``)
 

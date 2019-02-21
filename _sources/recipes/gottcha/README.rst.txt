@@ -44,7 +44,7 @@ gottcha
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gottcha:<tag>
+      docker pull quay.io/biocontainers/gottcha:<tag>
 
    (see `gottcha/tags`_ for valid values for ``<tag>``)
 

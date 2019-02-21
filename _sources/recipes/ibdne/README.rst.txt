@@ -40,7 +40,7 @@ ibdne
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ibdne:<tag>
+      docker pull quay.io/biocontainers/ibdne:<tag>
 
    (see `ibdne/tags`_ for valid values for ``<tag>``)
 

@@ -71,7 +71,7 @@ bioconductor-lumi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lumi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lumi:<tag>
 
    (see `bioconductor-lumi/tags`_ for valid values for ``<tag>``)
 

@@ -64,7 +64,7 @@ bioconductor-organism.dplyr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-organism.dplyr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-organism.dplyr:<tag>
 
    (see `bioconductor-organism.dplyr/tags`_ for valid values for ``<tag>``)
 

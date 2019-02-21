@@ -42,7 +42,7 @@ axiome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/axiome:<tag>
+      docker pull quay.io/biocontainers/axiome:<tag>
 
    (see `axiome/tags`_ for valid values for ``<tag>``)
 

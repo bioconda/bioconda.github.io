@@ -62,7 +62,7 @@ bioconductor-chipseqspike
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chipseqspike:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chipseqspike:<tag>
 
    (see `bioconductor-chipseqspike/tags`_ for valid values for ``<tag>``)
 

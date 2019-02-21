@@ -40,7 +40,7 @@ emmix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/emmix:<tag>
+      docker pull quay.io/biocontainers/emmix:<tag>
 
    (see `emmix/tags`_ for valid values for ``<tag>``)
 

@@ -51,7 +51,7 @@ bioconductor-m3drop
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-m3drop:<tag>
+      docker pull quay.io/biocontainers/bioconductor-m3drop:<tag>
 
    (see `bioconductor-m3drop/tags`_ for valid values for ``<tag>``)
 

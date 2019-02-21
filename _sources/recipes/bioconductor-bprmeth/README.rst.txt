@@ -38,7 +38,7 @@ bioconductor-bprmeth
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bprmeth:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bprmeth:<tag>
 
    (see `bioconductor-bprmeth/tags`_ for valid values for ``<tag>``)
 

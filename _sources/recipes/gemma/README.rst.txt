@@ -46,7 +46,7 @@ gemma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gemma:<tag>
+      docker pull quay.io/biocontainers/gemma:<tag>
 
    (see `gemma/tags`_ for valid values for ``<tag>``)
 

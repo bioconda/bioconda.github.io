@@ -50,7 +50,7 @@ perl-file-fetch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-fetch:<tag>
+      docker pull quay.io/biocontainers/perl-file-fetch:<tag>
 
    (see `perl-file-fetch/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ zagros
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/zagros:<tag>
+      docker pull quay.io/biocontainers/zagros:<tag>
 
    (see `zagros/tags`_ for valid values for ``<tag>``)
 

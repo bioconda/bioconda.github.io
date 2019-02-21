@@ -54,7 +54,7 @@ ddrage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ddrage:<tag>
+      docker pull quay.io/biocontainers/ddrage:<tag>
 
    (see `ddrage/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ bioconductor-r10kcod.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-r10kcod.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-r10kcod.db:<tag>
 
    (see `bioconductor-r10kcod.db/tags`_ for valid values for ``<tag>``)
 

@@ -71,7 +71,7 @@ bioconductor-fourcseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fourcseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fourcseq:<tag>
 
    (see `bioconductor-fourcseq/tags`_ for valid values for ``<tag>``)
 

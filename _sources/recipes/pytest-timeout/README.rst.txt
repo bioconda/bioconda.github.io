@@ -44,7 +44,7 @@ pytest-timeout
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pytest-timeout:<tag>
+      docker pull quay.io/biocontainers/pytest-timeout:<tag>
 
    (see `pytest-timeout/tags`_ for valid values for ``<tag>``)
 

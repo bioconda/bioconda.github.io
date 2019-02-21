@@ -42,7 +42,7 @@ perl-file-path
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-path:<tag>
+      docker pull quay.io/biocontainers/perl-file-path:<tag>
 
    (see `perl-file-path/tags`_ for valid values for ``<tag>``)
 

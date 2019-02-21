@@ -40,7 +40,7 @@ ocrad
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ocrad:<tag>
+      docker pull quay.io/biocontainers/ocrad:<tag>
 
    (see `ocrad/tags`_ for valid values for ``<tag>``)
 

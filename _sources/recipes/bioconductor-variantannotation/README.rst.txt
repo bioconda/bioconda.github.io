@@ -75,7 +75,7 @@ bioconductor-variantannotation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-variantannotation:<tag>
+      docker pull quay.io/biocontainers/bioconductor-variantannotation:<tag>
 
    (see `bioconductor-variantannotation/tags`_ for valid values for ``<tag>``)
 

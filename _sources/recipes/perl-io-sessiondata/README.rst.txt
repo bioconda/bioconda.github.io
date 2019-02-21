@@ -40,7 +40,7 @@ perl-io-sessiondata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-sessiondata:<tag>
+      docker pull quay.io/biocontainers/perl-io-sessiondata:<tag>
 
    (see `perl-io-sessiondata/tags`_ for valid values for ``<tag>``)
 

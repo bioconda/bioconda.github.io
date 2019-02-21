@@ -48,7 +48,7 @@ mageck
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mageck:<tag>
+      docker pull quay.io/biocontainers/mageck:<tag>
 
    (see `mageck/tags`_ for valid values for ``<tag>``)
 

@@ -102,7 +102,7 @@ perl-bioperl-core
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bioperl-core:<tag>
+      docker pull quay.io/biocontainers/perl-bioperl-core:<tag>
 
    (see `perl-bioperl-core/tags`_ for valid values for ``<tag>``)
 

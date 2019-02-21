@@ -45,7 +45,7 @@ dsrc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dsrc:<tag>
+      docker pull quay.io/biocontainers/dsrc:<tag>
 
    (see `dsrc/tags`_ for valid values for ``<tag>``)
 

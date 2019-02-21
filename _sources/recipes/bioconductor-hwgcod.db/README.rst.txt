@@ -46,7 +46,7 @@ bioconductor-hwgcod.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hwgcod.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hwgcod.db:<tag>
 
    (see `bioconductor-hwgcod.db/tags`_ for valid values for ``<tag>``)
 

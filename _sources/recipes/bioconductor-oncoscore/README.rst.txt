@@ -42,7 +42,7 @@ bioconductor-oncoscore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-oncoscore:<tag>
+      docker pull quay.io/biocontainers/bioconductor-oncoscore:<tag>
 
    (see `bioconductor-oncoscore/tags`_ for valid values for ``<tag>``)
 

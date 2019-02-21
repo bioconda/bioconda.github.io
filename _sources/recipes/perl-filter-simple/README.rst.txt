@@ -40,7 +40,7 @@ perl-filter-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-filter-simple:<tag>
+      docker pull quay.io/biocontainers/perl-filter-simple:<tag>
 
    (see `perl-filter-simple/tags`_ for valid values for ``<tag>``)
 

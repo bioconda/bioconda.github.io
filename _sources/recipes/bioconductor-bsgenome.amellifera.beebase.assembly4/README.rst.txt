@@ -44,7 +44,7 @@ bioconductor-bsgenome.amellifera.beebase.assembly4
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.amellifera.beebase.assembly4:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.amellifera.beebase.assembly4:<tag>
 
    (see `bioconductor-bsgenome.amellifera.beebase.assembly4/tags`_ for valid values for ``<tag>``)
 

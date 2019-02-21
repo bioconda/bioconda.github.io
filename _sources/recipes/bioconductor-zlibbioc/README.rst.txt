@@ -43,7 +43,7 @@ bioconductor-zlibbioc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-zlibbioc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-zlibbioc:<tag>
 
    (see `bioconductor-zlibbioc/tags`_ for valid values for ``<tag>``)
 

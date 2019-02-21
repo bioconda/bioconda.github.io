@@ -42,7 +42,7 @@ perl-number-range
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-number-range:<tag>
+      docker pull quay.io/biocontainers/perl-number-range:<tag>
 
    (see `perl-number-range/tags`_ for valid values for ``<tag>``)
 

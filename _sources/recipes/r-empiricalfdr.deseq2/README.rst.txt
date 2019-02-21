@@ -44,7 +44,7 @@ r-empiricalfdr.deseq2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-empiricalfdr.deseq2:<tag>
+      docker pull quay.io/biocontainers/r-empiricalfdr.deseq2:<tag>
 
    (see `r-empiricalfdr.deseq2/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-snpediar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snpediar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-snpediar:<tag>
 
    (see `bioconductor-snpediar/tags`_ for valid values for ``<tag>``)
 

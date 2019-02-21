@@ -50,7 +50,7 @@ ucsc-oligomatch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-oligomatch:<tag>
+      docker pull quay.io/biocontainers/ucsc-oligomatch:<tag>
 
    (see `ucsc-oligomatch/tags`_ for valid values for ``<tag>``)
 

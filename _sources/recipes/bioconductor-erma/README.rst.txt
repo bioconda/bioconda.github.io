@@ -68,7 +68,7 @@ bioconductor-erma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-erma:<tag>
+      docker pull quay.io/biocontainers/bioconductor-erma:<tag>
 
    (see `bioconductor-erma/tags`_ for valid values for ``<tag>``)
 

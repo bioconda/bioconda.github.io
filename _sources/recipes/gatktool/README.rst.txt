@@ -40,7 +40,7 @@ gatktool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gatktool:<tag>
+      docker pull quay.io/biocontainers/gatktool:<tag>
 
    (see `gatktool/tags`_ for valid values for ``<tag>``)
 

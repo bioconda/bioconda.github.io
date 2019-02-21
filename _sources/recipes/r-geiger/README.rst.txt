@@ -64,7 +64,7 @@ r-geiger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-geiger:<tag>
+      docker pull quay.io/biocontainers/r-geiger:<tag>
 
    (see `r-geiger/tags`_ for valid values for ``<tag>``)
 

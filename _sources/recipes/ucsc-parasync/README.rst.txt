@@ -50,7 +50,7 @@ ucsc-parasync
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-parasync:<tag>
+      docker pull quay.io/biocontainers/ucsc-parasync:<tag>
 
    (see `ucsc-parasync/tags`_ for valid values for ``<tag>``)
 

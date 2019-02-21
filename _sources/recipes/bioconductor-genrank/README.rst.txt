@@ -47,7 +47,7 @@ bioconductor-genrank
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genrank:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genrank:<tag>
 
    (see `bioconductor-genrank/tags`_ for valid values for ``<tag>``)
 

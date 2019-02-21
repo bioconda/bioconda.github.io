@@ -51,7 +51,7 @@ qualimap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/qualimap:<tag>
+      docker pull quay.io/biocontainers/qualimap:<tag>
 
    (see `qualimap/tags`_ for valid values for ``<tag>``)
 

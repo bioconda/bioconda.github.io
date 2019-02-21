@@ -44,7 +44,7 @@ r-tcga2stat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-tcga2stat:<tag>
+      docker pull quay.io/biocontainers/r-tcga2stat:<tag>
 
    (see `r-tcga2stat/tags`_ for valid values for ``<tag>``)
 

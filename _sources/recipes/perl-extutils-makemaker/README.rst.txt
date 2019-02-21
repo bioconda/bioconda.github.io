@@ -40,7 +40,7 @@ perl-extutils-makemaker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-extutils-makemaker:<tag>
+      docker pull quay.io/biocontainers/perl-extutils-makemaker:<tag>
 
    (see `perl-extutils-makemaker/tags`_ for valid values for ``<tag>``)
 

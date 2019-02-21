@@ -59,7 +59,7 @@ bioconductor-tscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tscan:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tscan:<tag>
 
    (see `bioconductor-tscan/tags`_ for valid values for ``<tag>``)
 

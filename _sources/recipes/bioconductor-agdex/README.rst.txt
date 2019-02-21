@@ -45,7 +45,7 @@ bioconductor-agdex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-agdex:<tag>
+      docker pull quay.io/biocontainers/bioconductor-agdex:<tag>
 
    (see `bioconductor-agdex/tags`_ for valid values for ``<tag>``)
 

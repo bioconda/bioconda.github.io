@@ -51,7 +51,7 @@ bioconductor-rtreemix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtreemix:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtreemix:<tag>
 
    (see `bioconductor-rtreemix/tags`_ for valid values for ``<tag>``)
 

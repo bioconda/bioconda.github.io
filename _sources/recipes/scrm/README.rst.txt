@@ -40,7 +40,7 @@ scrm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scrm:<tag>
+      docker pull quay.io/biocontainers/scrm:<tag>
 
    (see `scrm/tags`_ for valid values for ``<tag>``)
 

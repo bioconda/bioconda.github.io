@@ -44,7 +44,7 @@ perl-module-runtime-conflicts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-runtime-conflicts:<tag>
+      docker pull quay.io/biocontainers/perl-module-runtime-conflicts:<tag>
 
    (see `perl-module-runtime-conflicts/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ checkm-genome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/checkm-genome:<tag>
+      docker pull quay.io/biocontainers/checkm-genome:<tag>
 
    (see `checkm-genome/tags`_ for valid values for ``<tag>``)
 

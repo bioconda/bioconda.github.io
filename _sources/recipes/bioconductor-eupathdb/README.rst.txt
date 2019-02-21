@@ -56,7 +56,7 @@ bioconductor-eupathdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-eupathdb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-eupathdb:<tag>
 
    (see `bioconductor-eupathdb/tags`_ for valid values for ``<tag>``)
 

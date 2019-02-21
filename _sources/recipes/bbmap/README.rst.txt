@@ -45,7 +45,7 @@ bbmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bbmap:<tag>
+      docker pull quay.io/biocontainers/bbmap:<tag>
 
    (see `bbmap/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-illuminahumanmethylation450kprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-illuminahumanmethylation450kprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-illuminahumanmethylation450kprobe:<tag>
 
    (see `bioconductor-illuminahumanmethylation450kprobe/tags`_ for valid values for ``<tag>``)
 

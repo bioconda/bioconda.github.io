@@ -71,7 +71,7 @@ r-wgcna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-wgcna:<tag>
+      docker pull quay.io/biocontainers/r-wgcna:<tag>
 
    (see `r-wgcna/tags`_ for valid values for ``<tag>``)
 

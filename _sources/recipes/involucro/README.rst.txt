@@ -38,7 +38,7 @@ involucro
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/involucro:<tag>
+      docker pull quay.io/biocontainers/involucro:<tag>
 
    (see `involucro/tags`_ for valid values for ``<tag>``)
 

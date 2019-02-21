@@ -46,7 +46,7 @@ bioconductor-mfuzz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mfuzz:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mfuzz:<tag>
 
    (see `bioconductor-mfuzz/tags`_ for valid values for ``<tag>``)
 

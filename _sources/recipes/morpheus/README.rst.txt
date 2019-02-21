@@ -40,7 +40,7 @@ morpheus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/morpheus:<tag>
+      docker pull quay.io/biocontainers/morpheus:<tag>
 
    (see `morpheus/tags`_ for valid values for ``<tag>``)
 

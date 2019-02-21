@@ -66,7 +66,7 @@ bioconductor-m3c
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-m3c:<tag>
+      docker pull quay.io/biocontainers/bioconductor-m3c:<tag>
 
    (see `bioconductor-m3c/tags`_ for valid values for ``<tag>``)
 

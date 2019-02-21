@@ -40,7 +40,7 @@ perl-scope-guard
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-scope-guard:<tag>
+      docker pull quay.io/biocontainers/perl-scope-guard:<tag>
 
    (see `perl-scope-guard/tags`_ for valid values for ``<tag>``)
 

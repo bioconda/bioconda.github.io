@@ -44,7 +44,7 @@ rust-overlaps
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rust-overlaps:<tag>
+      docker pull quay.io/biocontainers/rust-overlaps:<tag>
 
    (see `rust-overlaps/tags`_ for valid values for ``<tag>``)
 

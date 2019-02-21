@@ -42,7 +42,7 @@ bioconductor-genocn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genocn:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genocn:<tag>
 
    (see `bioconductor-genocn/tags`_ for valid values for ``<tag>``)
 

@@ -58,7 +58,7 @@ bioconductor-dominoeffect
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dominoeffect:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dominoeffect:<tag>
 
    (see `bioconductor-dominoeffect/tags`_ for valid values for ``<tag>``)
 

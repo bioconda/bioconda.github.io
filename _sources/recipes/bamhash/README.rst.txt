@@ -44,7 +44,7 @@ bamhash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bamhash:<tag>
+      docker pull quay.io/biocontainers/bamhash:<tag>
 
    (see `bamhash/tags`_ for valid values for ``<tag>``)
 

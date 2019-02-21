@@ -46,7 +46,7 @@ lsc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lsc:<tag>
+      docker pull quay.io/biocontainers/lsc:<tag>
 
    (see `lsc/tags`_ for valid values for ``<tag>``)
 

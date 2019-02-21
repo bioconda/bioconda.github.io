@@ -48,7 +48,7 @@ bioconductor-metaneighbor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-metaneighbor:<tag>
+      docker pull quay.io/biocontainers/bioconductor-metaneighbor:<tag>
 
    (see `bioconductor-metaneighbor/tags`_ for valid values for ``<tag>``)
 

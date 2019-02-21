@@ -60,7 +60,7 @@ nanopolish
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanopolish:<tag>
+      docker pull quay.io/biocontainers/nanopolish:<tag>
 
    (see `nanopolish/tags`_ for valid values for ``<tag>``)
 

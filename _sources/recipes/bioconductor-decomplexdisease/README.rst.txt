@@ -56,7 +56,7 @@ bioconductor-decomplexdisease
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-decomplexdisease:<tag>
+      docker pull quay.io/biocontainers/bioconductor-decomplexdisease:<tag>
 
    (see `bioconductor-decomplexdisease/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ metameta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metameta:<tag>
+      docker pull quay.io/biocontainers/metameta:<tag>
 
    (see `metameta/tags`_ for valid values for ``<tag>``)
 

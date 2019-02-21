@@ -48,7 +48,7 @@ picopore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/picopore:<tag>
+      docker pull quay.io/biocontainers/picopore:<tag>
 
    (see `picopore/tags`_ for valid values for ``<tag>``)
 

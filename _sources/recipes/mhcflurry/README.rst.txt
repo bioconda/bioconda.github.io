@@ -63,7 +63,7 @@ mhcflurry
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mhcflurry:<tag>
+      docker pull quay.io/biocontainers/mhcflurry:<tag>
 
    (see `mhcflurry/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-class-singleton
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-class-singleton:<tag>
+      docker pull quay.io/biocontainers/perl-class-singleton:<tag>
 
    (see `perl-class-singleton/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ perl-statistics-ttest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-statistics-ttest:<tag>
+      docker pull quay.io/biocontainers/perl-statistics-ttest:<tag>
 
    (see `perl-statistics-ttest/tags`_ for valid values for ``<tag>``)
 

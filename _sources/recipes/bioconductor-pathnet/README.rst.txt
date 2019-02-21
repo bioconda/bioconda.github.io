@@ -41,7 +41,7 @@ bioconductor-pathnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pathnet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pathnet:<tag>
 
    (see `bioconductor-pathnet/tags`_ for valid values for ``<tag>``)
 

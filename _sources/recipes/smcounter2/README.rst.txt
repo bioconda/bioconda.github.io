@@ -54,7 +54,7 @@ smcounter2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/smcounter2:<tag>
+      docker pull quay.io/biocontainers/smcounter2:<tag>
 
    (see `smcounter2/tags`_ for valid values for ``<tag>``)
 

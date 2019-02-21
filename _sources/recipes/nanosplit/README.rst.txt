@@ -48,7 +48,7 @@ nanosplit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanosplit:<tag>
+      docker pull quay.io/biocontainers/nanosplit:<tag>
 
    (see `nanosplit/tags`_ for valid values for ``<tag>``)
 

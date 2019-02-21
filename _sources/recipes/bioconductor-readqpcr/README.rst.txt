@@ -43,7 +43,7 @@ bioconductor-readqpcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-readqpcr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-readqpcr:<tag>
 
    (see `bioconductor-readqpcr/tags`_ for valid values for ``<tag>``)
 

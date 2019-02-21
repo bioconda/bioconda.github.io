@@ -46,7 +46,7 @@ connor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/connor:<tag>
+      docker pull quay.io/biocontainers/connor:<tag>
 
    (see `connor/tags`_ for valid values for ``<tag>``)
 

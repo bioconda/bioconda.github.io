@@ -38,7 +38,7 @@ bioconductor-msgfgui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msgfgui:<tag>
+      docker pull quay.io/biocontainers/bioconductor-msgfgui:<tag>
 
    (see `bioconductor-msgfgui/tags`_ for valid values for ``<tag>``)
 

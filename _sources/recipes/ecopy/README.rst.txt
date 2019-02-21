@@ -54,7 +54,7 @@ ecopy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ecopy:<tag>
+      docker pull quay.io/biocontainers/ecopy:<tag>
 
    (see `ecopy/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ r-gsalib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gsalib:<tag>
+      docker pull quay.io/biocontainers/r-gsalib:<tag>
 
    (see `r-gsalib/tags`_ for valid values for ``<tag>``)
 

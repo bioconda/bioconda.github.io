@@ -62,7 +62,7 @@ bioconductor-comet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-comet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-comet:<tag>
 
    (see `bioconductor-comet/tags`_ for valid values for ``<tag>``)
 

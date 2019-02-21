@@ -56,7 +56,7 @@ pydnase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pydnase:<tag>
+      docker pull quay.io/biocontainers/pydnase:<tag>
 
    (see `pydnase/tags`_ for valid values for ``<tag>``)
 

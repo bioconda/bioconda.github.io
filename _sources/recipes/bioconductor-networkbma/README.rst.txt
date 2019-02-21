@@ -57,7 +57,7 @@ bioconductor-networkbma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-networkbma:<tag>
+      docker pull quay.io/biocontainers/bioconductor-networkbma:<tag>
 
    (see `bioconductor-networkbma/tags`_ for valid values for ``<tag>``)
 

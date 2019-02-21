@@ -42,7 +42,7 @@ bioconductor-jctseqdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-jctseqdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-jctseqdata:<tag>
 
    (see `bioconductor-jctseqdata/tags`_ for valid values for ``<tag>``)
 

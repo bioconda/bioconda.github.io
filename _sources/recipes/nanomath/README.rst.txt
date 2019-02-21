@@ -44,7 +44,7 @@ nanomath
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanomath:<tag>
+      docker pull quay.io/biocontainers/nanomath:<tag>
 
    (see `nanomath/tags`_ for valid values for ``<tag>``)
 

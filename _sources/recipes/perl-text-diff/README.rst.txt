@@ -42,7 +42,7 @@ perl-text-diff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-diff:<tag>
+      docker pull quay.io/biocontainers/perl-text-diff:<tag>
 
    (see `perl-text-diff/tags`_ for valid values for ``<tag>``)
 

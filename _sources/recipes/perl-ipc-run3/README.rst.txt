@@ -42,7 +42,7 @@ perl-ipc-run3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-ipc-run3:<tag>
+      docker pull quay.io/biocontainers/perl-ipc-run3:<tag>
 
    (see `perl-ipc-run3/tags`_ for valid values for ``<tag>``)
 

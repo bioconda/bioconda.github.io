@@ -55,7 +55,7 @@ bioconductor-crimage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-crimage:<tag>
+      docker pull quay.io/biocontainers/bioconductor-crimage:<tag>
 
    (see `bioconductor-crimage/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ r-patpro
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-patpro:<tag>
+      docker pull quay.io/biocontainers/r-patpro:<tag>
 
    (see `r-patpro/tags`_ for valid values for ``<tag>``)
 

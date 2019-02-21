@@ -94,7 +94,7 @@ cgat-apps
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cgat-apps:<tag>
+      docker pull quay.io/biocontainers/cgat-apps:<tag>
 
    (see `cgat-apps/tags`_ for valid values for ``<tag>``)
 

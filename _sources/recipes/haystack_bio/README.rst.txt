@@ -66,7 +66,7 @@ haystack_bio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/haystack_bio:<tag>
+      docker pull quay.io/biocontainers/haystack_bio:<tag>
 
    (see `haystack_bio/tags`_ for valid values for ``<tag>``)
 

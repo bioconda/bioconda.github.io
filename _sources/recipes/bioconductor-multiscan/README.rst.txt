@@ -45,7 +45,7 @@ bioconductor-multiscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-multiscan:<tag>
+      docker pull quay.io/biocontainers/bioconductor-multiscan:<tag>
 
    (see `bioconductor-multiscan/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-targetscore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-targetscore:<tag>
+      docker pull quay.io/biocontainers/bioconductor-targetscore:<tag>
 
    (see `bioconductor-targetscore/tags`_ for valid values for ``<tag>``)
 

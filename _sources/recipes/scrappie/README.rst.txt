@@ -54,7 +54,7 @@ scrappie
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scrappie:<tag>
+      docker pull quay.io/biocontainers/scrappie:<tag>
 
    (see `scrappie/tags`_ for valid values for ``<tag>``)
 

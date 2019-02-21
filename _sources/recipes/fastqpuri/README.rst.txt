@@ -48,7 +48,7 @@ fastqpuri
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastqpuri:<tag>
+      docker pull quay.io/biocontainers/fastqpuri:<tag>
 
    (see `fastqpuri/tags`_ for valid values for ``<tag>``)
 

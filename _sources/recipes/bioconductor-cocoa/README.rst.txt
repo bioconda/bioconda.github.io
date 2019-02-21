@@ -60,7 +60,7 @@ bioconductor-cocoa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cocoa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cocoa:<tag>
 
    (see `bioconductor-cocoa/tags`_ for valid values for ``<tag>``)
 

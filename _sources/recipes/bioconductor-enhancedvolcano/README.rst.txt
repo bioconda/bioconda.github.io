@@ -44,7 +44,7 @@ bioconductor-enhancedvolcano
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-enhancedvolcano:<tag>
+      docker pull quay.io/biocontainers/bioconductor-enhancedvolcano:<tag>
 
    (see `bioconductor-enhancedvolcano/tags`_ for valid values for ``<tag>``)
 

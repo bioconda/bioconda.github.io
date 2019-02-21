@@ -74,7 +74,7 @@ ariba
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ariba:<tag>
+      docker pull quay.io/biocontainers/ariba:<tag>
 
    (see `ariba/tags`_ for valid values for ``<tag>``)
 

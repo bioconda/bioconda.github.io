@@ -48,7 +48,7 @@ solvebio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/solvebio:<tag>
+      docker pull quay.io/biocontainers/solvebio:<tag>
 
    (see `solvebio/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ tagger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tagger:<tag>
+      docker pull quay.io/biocontainers/tagger:<tag>
 
    (see `tagger/tags`_ for valid values for ``<tag>``)
 

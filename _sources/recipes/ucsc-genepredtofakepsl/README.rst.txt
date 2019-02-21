@@ -50,7 +50,7 @@ ucsc-genepredtofakepsl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-genepredtofakepsl:<tag>
+      docker pull quay.io/biocontainers/ucsc-genepredtofakepsl:<tag>
 
    (see `ucsc-genepredtofakepsl/tags`_ for valid values for ``<tag>``)
 

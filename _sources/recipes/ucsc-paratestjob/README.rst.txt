@@ -50,7 +50,7 @@ ucsc-paratestjob
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-paratestjob:<tag>
+      docker pull quay.io/biocontainers/ucsc-paratestjob:<tag>
 
    (see `ucsc-paratestjob/tags`_ for valid values for ``<tag>``)
 

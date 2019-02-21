@@ -77,7 +77,7 @@ bioconductor-affycoretools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affycoretools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-affycoretools:<tag>
 
    (see `bioconductor-affycoretools/tags`_ for valid values for ``<tag>``)
 

@@ -41,7 +41,7 @@ megan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/megan:<tag>
+      docker pull quay.io/biocontainers/megan:<tag>
 
    (see `megan/tags`_ for valid values for ``<tag>``)
 

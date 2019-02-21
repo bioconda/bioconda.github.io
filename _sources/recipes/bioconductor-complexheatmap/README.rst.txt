@@ -51,7 +51,7 @@ bioconductor-complexheatmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-complexheatmap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-complexheatmap:<tag>
 
    (see `bioconductor-complexheatmap/tags`_ for valid values for ``<tag>``)
 

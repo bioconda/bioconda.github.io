@@ -74,7 +74,7 @@ bioconductor-r453plus1toolbox
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-r453plus1toolbox:<tag>
+      docker pull quay.io/biocontainers/bioconductor-r453plus1toolbox:<tag>
 
    (see `bioconductor-r453plus1toolbox/tags`_ for valid values for ``<tag>``)
 

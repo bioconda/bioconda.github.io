@@ -51,7 +51,7 @@ bioconductor-flipflop
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flipflop:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flipflop:<tag>
 
    (see `bioconductor-flipflop/tags`_ for valid values for ``<tag>``)
 

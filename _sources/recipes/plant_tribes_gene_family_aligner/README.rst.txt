@@ -48,7 +48,7 @@ plant_tribes_gene_family_aligner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plant_tribes_gene_family_aligner:<tag>
+      docker pull quay.io/biocontainers/plant_tribes_gene_family_aligner:<tag>
 
    (see `plant_tribes_gene_family_aligner/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-zebrafishcdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-zebrafishcdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-zebrafishcdf:<tag>
 
    (see `bioconductor-zebrafishcdf/tags`_ for valid values for ``<tag>``)
 

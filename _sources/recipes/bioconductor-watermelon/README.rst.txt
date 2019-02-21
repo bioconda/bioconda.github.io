@@ -57,7 +57,7 @@ bioconductor-watermelon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-watermelon:<tag>
+      docker pull quay.io/biocontainers/bioconductor-watermelon:<tag>
 
    (see `bioconductor-watermelon/tags`_ for valid values for ``<tag>``)
 

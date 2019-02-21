@@ -48,7 +48,7 @@ bioconductor-adaptest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-adaptest:<tag>
+      docker pull quay.io/biocontainers/bioconductor-adaptest:<tag>
 
    (see `bioconductor-adaptest/tags`_ for valid values for ``<tag>``)
 

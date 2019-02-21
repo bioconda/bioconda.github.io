@@ -44,7 +44,7 @@ mvp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mvp:<tag>
+      docker pull quay.io/biocontainers/mvp:<tag>
 
    (see `mvp/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-test-leaktrace
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-leaktrace:<tag>
+      docker pull quay.io/biocontainers/perl-test-leaktrace:<tag>
 
    (see `perl-test-leaktrace/tags`_ for valid values for ``<tag>``)
 

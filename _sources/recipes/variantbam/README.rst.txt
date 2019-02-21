@@ -46,7 +46,7 @@ variantbam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/variantbam:<tag>
+      docker pull quay.io/biocontainers/variantbam:<tag>
 
    (see `variantbam/tags`_ for valid values for ``<tag>``)
 

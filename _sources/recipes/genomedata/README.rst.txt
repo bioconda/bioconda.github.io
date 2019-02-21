@@ -59,7 +59,7 @@ genomedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genomedata:<tag>
+      docker pull quay.io/biocontainers/genomedata:<tag>
 
    (see `genomedata/tags`_ for valid values for ``<tag>``)
 

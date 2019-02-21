@@ -45,7 +45,7 @@ plek
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plek:<tag>
+      docker pull quay.io/biocontainers/plek:<tag>
 
    (see `plek/tags`_ for valid values for ``<tag>``)
 

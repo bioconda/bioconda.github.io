@@ -40,7 +40,7 @@ fast5
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fast5:<tag>
+      docker pull quay.io/biocontainers/fast5:<tag>
 
    (see `fast5/tags`_ for valid values for ``<tag>``)
 

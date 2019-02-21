@@ -38,7 +38,7 @@ vcfanno
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcfanno:<tag>
+      docker pull quay.io/biocontainers/vcfanno:<tag>
 
    (see `vcfanno/tags`_ for valid values for ``<tag>``)
 

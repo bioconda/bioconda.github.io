@@ -79,7 +79,7 @@ bioconductor-findmyfriends
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-findmyfriends:<tag>
+      docker pull quay.io/biocontainers/bioconductor-findmyfriends:<tag>
 
    (see `bioconductor-findmyfriends/tags`_ for valid values for ``<tag>``)
 

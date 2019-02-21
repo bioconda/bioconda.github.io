@@ -44,7 +44,7 @@ bioconductor-bsubtilisprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsubtilisprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsubtilisprobe:<tag>
 
    (see `bioconductor-bsubtilisprobe/tags`_ for valid values for ``<tag>``)
 

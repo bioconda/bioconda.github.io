@@ -53,7 +53,7 @@ bioconductor-prada
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-prada:<tag>
+      docker pull quay.io/biocontainers/bioconductor-prada:<tag>
 
    (see `bioconductor-prada/tags`_ for valid values for ``<tag>``)
 

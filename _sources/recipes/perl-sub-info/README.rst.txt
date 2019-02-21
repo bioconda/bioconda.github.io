@@ -44,7 +44,7 @@ perl-sub-info
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-info:<tag>
+      docker pull quay.io/biocontainers/perl-sub-info:<tag>
 
    (see `perl-sub-info/tags`_ for valid values for ``<tag>``)
 

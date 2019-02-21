@@ -44,7 +44,7 @@ berokka
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/berokka:<tag>
+      docker pull quay.io/biocontainers/berokka:<tag>
 
    (see `berokka/tags`_ for valid values for ``<tag>``)
 

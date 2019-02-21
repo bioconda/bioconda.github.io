@@ -46,7 +46,7 @@ breseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/breseq:<tag>
+      docker pull quay.io/biocontainers/breseq:<tag>
 
    (see `breseq/tags`_ for valid values for ``<tag>``)
 

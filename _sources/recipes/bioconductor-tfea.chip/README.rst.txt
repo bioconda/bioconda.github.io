@@ -56,7 +56,7 @@ bioconductor-tfea.chip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tfea.chip:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tfea.chip:<tag>
 
    (see `bioconductor-tfea.chip/tags`_ for valid values for ``<tag>``)
 

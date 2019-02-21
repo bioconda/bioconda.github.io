@@ -80,7 +80,7 @@ bioconductor-gwascat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gwascat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gwascat:<tag>
 
    (see `bioconductor-gwascat/tags`_ for valid values for ``<tag>``)
 

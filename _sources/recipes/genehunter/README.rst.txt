@@ -42,7 +42,7 @@ ghm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ghm:<tag>
+      docker pull quay.io/biocontainers/ghm:<tag>
 
    (see `ghm/tags`_ for valid values for ``<tag>``)
 

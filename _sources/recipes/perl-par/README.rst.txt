@@ -44,7 +44,7 @@ perl-par
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-par:<tag>
+      docker pull quay.io/biocontainers/perl-par:<tag>
 
    (see `perl-par/tags`_ for valid values for ``<tag>``)
 

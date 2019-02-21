@@ -50,7 +50,7 @@ r-dnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-dnet:<tag>
+      docker pull quay.io/biocontainers/r-dnet:<tag>
 
    (see `r-dnet/tags`_ for valid values for ``<tag>``)
 

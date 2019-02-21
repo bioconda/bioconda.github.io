@@ -49,7 +49,7 @@ bioconductor-harshlight
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-harshlight:<tag>
+      docker pull quay.io/biocontainers/bioconductor-harshlight:<tag>
 
    (see `bioconductor-harshlight/tags`_ for valid values for ``<tag>``)
 

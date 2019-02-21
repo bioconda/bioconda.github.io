@@ -54,7 +54,7 @@ stamp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stamp:<tag>
+      docker pull quay.io/biocontainers/stamp:<tag>
 
    (see `stamp/tags`_ for valid values for ``<tag>``)
 

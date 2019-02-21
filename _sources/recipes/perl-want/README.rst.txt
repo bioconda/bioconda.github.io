@@ -40,7 +40,7 @@ perl-want
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-want:<tag>
+      docker pull quay.io/biocontainers/perl-want:<tag>
 
    (see `perl-want/tags`_ for valid values for ``<tag>``)
 

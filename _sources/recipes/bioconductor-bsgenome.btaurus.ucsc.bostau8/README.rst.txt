@@ -44,7 +44,7 @@ bioconductor-bsgenome.btaurus.ucsc.bostau8
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.btaurus.ucsc.bostau8:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.btaurus.ucsc.bostau8:<tag>
 
    (see `bioconductor-bsgenome.btaurus.ucsc.bostau8/tags`_ for valid values for ``<tag>``)
 

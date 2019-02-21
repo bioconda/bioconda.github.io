@@ -38,7 +38,7 @@ bioconductor-compgo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-compgo:<tag>
+      docker pull quay.io/biocontainers/bioconductor-compgo:<tag>
 
    (see `bioconductor-compgo/tags`_ for valid values for ``<tag>``)
 

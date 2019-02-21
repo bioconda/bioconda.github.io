@@ -42,7 +42,7 @@ vt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vt:<tag>
+      docker pull quay.io/biocontainers/vt:<tag>
 
    (see `vt/tags`_ for valid values for ``<tag>``)
 

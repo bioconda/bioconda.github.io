@@ -40,7 +40,7 @@ bumbershoot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bumbershoot:<tag>
+      docker pull quay.io/biocontainers/bumbershoot:<tag>
 
    (see `bumbershoot/tags`_ for valid values for ``<tag>``)
 

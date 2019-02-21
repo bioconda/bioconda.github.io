@@ -55,7 +55,7 @@ bioconductor-flagme
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flagme:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flagme:<tag>
 
    (see `bioconductor-flagme/tags`_ for valid values for ``<tag>``)
 

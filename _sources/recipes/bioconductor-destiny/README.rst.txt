@@ -72,7 +72,7 @@ bioconductor-destiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-destiny:<tag>
+      docker pull quay.io/biocontainers/bioconductor-destiny:<tag>
 
    (see `bioconductor-destiny/tags`_ for valid values for ``<tag>``)
 

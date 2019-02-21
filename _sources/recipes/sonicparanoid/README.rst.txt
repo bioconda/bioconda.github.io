@@ -61,7 +61,7 @@ sonicparanoid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sonicparanoid:<tag>
+      docker pull quay.io/biocontainers/sonicparanoid:<tag>
 
    (see `sonicparanoid/tags`_ for valid values for ``<tag>``)
 

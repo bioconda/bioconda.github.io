@@ -48,7 +48,7 @@ bioconductor-lumihumanidmapping
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lumihumanidmapping:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lumihumanidmapping:<tag>
 
    (see `bioconductor-lumihumanidmapping/tags`_ for valid values for ``<tag>``)
 

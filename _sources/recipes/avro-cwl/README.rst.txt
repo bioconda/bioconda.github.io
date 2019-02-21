@@ -40,7 +40,7 @@ avro-cwl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/avro-cwl:<tag>
+      docker pull quay.io/biocontainers/avro-cwl:<tag>
 
    (see `avro-cwl/tags`_ for valid values for ``<tag>``)
 

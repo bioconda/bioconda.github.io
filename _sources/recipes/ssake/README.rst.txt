@@ -45,7 +45,7 @@ ssake
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ssake:<tag>
+      docker pull quay.io/biocontainers/ssake:<tag>
 
    (see `ssake/tags`_ for valid values for ``<tag>``)
 

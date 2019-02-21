@@ -45,7 +45,7 @@ gem3-mapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gem3-mapper:<tag>
+      docker pull quay.io/biocontainers/gem3-mapper:<tag>
 
    (see `gem3-mapper/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-panp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-panp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-panp:<tag>
 
    (see `bioconductor-panp/tags`_ for valid values for ``<tag>``)
 

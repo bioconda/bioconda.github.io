@@ -70,7 +70,7 @@ bioconductor-cytoml
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cytoml:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cytoml:<tag>
 
    (see `bioconductor-cytoml/tags`_ for valid values for ``<tag>``)
 

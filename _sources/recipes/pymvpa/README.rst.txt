@@ -55,7 +55,7 @@ pymvpa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pymvpa:<tag>
+      docker pull quay.io/biocontainers/pymvpa:<tag>
 
    (see `pymvpa/tags`_ for valid values for ``<tag>``)
 

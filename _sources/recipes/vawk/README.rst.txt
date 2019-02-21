@@ -42,7 +42,7 @@ vawk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vawk:<tag>
+      docker pull quay.io/biocontainers/vawk:<tag>
 
    (see `vawk/tags`_ for valid values for ``<tag>``)
 

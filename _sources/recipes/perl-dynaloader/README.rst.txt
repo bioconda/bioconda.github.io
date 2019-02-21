@@ -40,7 +40,7 @@ perl-dynaloader
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-dynaloader:<tag>
+      docker pull quay.io/biocontainers/perl-dynaloader:<tag>
 
    (see `perl-dynaloader/tags`_ for valid values for ``<tag>``)
 

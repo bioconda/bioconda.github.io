@@ -49,7 +49,7 @@ bioconductor-ebarrays
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ebarrays:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ebarrays:<tag>
 
    (see `bioconductor-ebarrays/tags`_ for valid values for ``<tag>``)
 

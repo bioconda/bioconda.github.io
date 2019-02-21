@@ -40,7 +40,7 @@ bioconductor-biocversion
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocversion:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biocversion:<tag>
 
    (see `bioconductor-biocversion/tags`_ for valid values for ``<tag>``)
 

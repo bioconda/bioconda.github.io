@@ -42,7 +42,7 @@ bioconductor-pcxndata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pcxndata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pcxndata:<tag>
 
    (see `bioconductor-pcxndata/tags`_ for valid values for ``<tag>``)
 

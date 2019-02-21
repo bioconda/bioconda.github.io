@@ -46,7 +46,7 @@ perl-border-style
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-border-style:<tag>
+      docker pull quay.io/biocontainers/perl-border-style:<tag>
 
    (see `perl-border-style/tags`_ for valid values for ``<tag>``)
 

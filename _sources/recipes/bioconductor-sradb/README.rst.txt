@@ -49,7 +49,7 @@ bioconductor-sradb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sradb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sradb:<tag>
 
    (see `bioconductor-sradb/tags`_ for valid values for ``<tag>``)
 

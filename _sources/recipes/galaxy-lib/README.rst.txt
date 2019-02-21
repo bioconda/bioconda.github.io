@@ -52,7 +52,7 @@ galaxy-lib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/galaxy-lib:<tag>
+      docker pull quay.io/biocontainers/galaxy-lib:<tag>
 
    (see `galaxy-lib/tags`_ for valid values for ``<tag>``)
 

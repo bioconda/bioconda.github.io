@@ -40,7 +40,7 @@ perl-mime-quotedprint
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mime-quotedprint:<tag>
+      docker pull quay.io/biocontainers/perl-mime-quotedprint:<tag>
 
    (see `perl-mime-quotedprint/tags`_ for valid values for ``<tag>``)
 

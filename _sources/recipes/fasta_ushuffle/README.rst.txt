@@ -40,7 +40,7 @@ fasta_ushuffle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fasta_ushuffle:<tag>
+      docker pull quay.io/biocontainers/fasta_ushuffle:<tag>
 
    (see `fasta_ushuffle/tags`_ for valid values for ``<tag>``)
 

@@ -55,7 +55,7 @@ bioconductor-riboseqr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-riboseqr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-riboseqr:<tag>
 
    (see `bioconductor-riboseqr/tags`_ for valid values for ``<tag>``)
 

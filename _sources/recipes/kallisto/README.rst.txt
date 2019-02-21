@@ -45,7 +45,7 @@ kallisto
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kallisto:<tag>
+      docker pull quay.io/biocontainers/kallisto:<tag>
 
    (see `kallisto/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ perl-test-sys-info
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-sys-info:<tag>
+      docker pull quay.io/biocontainers/perl-test-sys-info:<tag>
 
    (see `perl-test-sys-info/tags`_ for valid values for ``<tag>``)
 

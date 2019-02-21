@@ -45,7 +45,7 @@ faqcs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/faqcs:<tag>
+      docker pull quay.io/biocontainers/faqcs:<tag>
 
    (see `faqcs/tags`_ for valid values for ``<tag>``)
 

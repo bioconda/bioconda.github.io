@@ -64,7 +64,7 @@ bioconductor-pigengene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pigengene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pigengene:<tag>
 
    (see `bioconductor-pigengene/tags`_ for valid values for ``<tag>``)
 

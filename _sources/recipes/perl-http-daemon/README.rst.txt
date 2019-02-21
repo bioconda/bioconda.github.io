@@ -46,7 +46,7 @@ perl-http-daemon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-http-daemon:<tag>
+      docker pull quay.io/biocontainers/perl-http-daemon:<tag>
 
    (see `perl-http-daemon/tags`_ for valid values for ``<tag>``)
 

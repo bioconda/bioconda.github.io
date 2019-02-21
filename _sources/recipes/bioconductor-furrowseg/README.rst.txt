@@ -52,7 +52,7 @@ bioconductor-furrowseg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-furrowseg:<tag>
+      docker pull quay.io/biocontainers/bioconductor-furrowseg:<tag>
 
    (see `bioconductor-furrowseg/tags`_ for valid values for ``<tag>``)
 

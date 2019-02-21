@@ -40,7 +40,7 @@ quicktree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/quicktree:<tag>
+      docker pull quay.io/biocontainers/quicktree:<tag>
 
    (see `quicktree/tags`_ for valid values for ``<tag>``)
 

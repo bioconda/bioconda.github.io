@@ -44,7 +44,7 @@ bioconductor-omicspcadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omicspcadata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-omicspcadata:<tag>
 
    (see `bioconductor-omicspcadata/tags`_ for valid values for ``<tag>``)
 

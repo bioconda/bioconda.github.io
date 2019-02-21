@@ -46,7 +46,7 @@ bioconductor-illuminamousev2.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-illuminamousev2.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-illuminamousev2.db:<tag>
 
    (see `bioconductor-illuminamousev2.db/tags`_ for valid values for ``<tag>``)
 

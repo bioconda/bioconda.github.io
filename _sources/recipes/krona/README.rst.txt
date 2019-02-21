@@ -41,7 +41,7 @@ krona
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/krona:<tag>
+      docker pull quay.io/biocontainers/krona:<tag>
 
    (see `krona/tags`_ for valid values for ``<tag>``)
 

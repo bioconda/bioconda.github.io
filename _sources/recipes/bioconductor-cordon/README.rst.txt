@@ -52,7 +52,7 @@ bioconductor-cordon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cordon:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cordon:<tag>
 
    (see `bioconductor-cordon/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ bioconductor-pd.rice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.rice:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.rice:<tag>
 
    (see `bioconductor-pd.rice/tags`_ for valid values for ``<tag>``)
 

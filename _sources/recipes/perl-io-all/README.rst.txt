@@ -42,7 +42,7 @@ perl-io-all
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-all:<tag>
+      docker pull quay.io/biocontainers/perl-io-all:<tag>
 
    (see `perl-io-all/tags`_ for valid values for ``<tag>``)
 

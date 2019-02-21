@@ -43,7 +43,7 @@ bioconductor-diffgeneanalysis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-diffgeneanalysis:<tag>
+      docker pull quay.io/biocontainers/bioconductor-diffgeneanalysis:<tag>
 
    (see `bioconductor-diffgeneanalysis/tags`_ for valid values for ``<tag>``)
 

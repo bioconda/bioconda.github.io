@@ -44,7 +44,7 @@ perl-test-longstring
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-longstring:<tag>
+      docker pull quay.io/biocontainers/perl-test-longstring:<tag>
 
    (see `perl-test-longstring/tags`_ for valid values for ``<tag>``)
 

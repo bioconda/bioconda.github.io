@@ -42,7 +42,7 @@ xopen
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xopen:<tag>
+      docker pull quay.io/biocontainers/xopen:<tag>
 
    (see `xopen/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ shortstack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shortstack:<tag>
+      docker pull quay.io/biocontainers/shortstack:<tag>
 
    (see `shortstack/tags`_ for valid values for ``<tag>``)
 

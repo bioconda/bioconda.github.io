@@ -66,7 +66,7 @@ bioconductor-opossom
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-opossom:<tag>
+      docker pull quay.io/biocontainers/bioconductor-opossom:<tag>
 
    (see `bioconductor-opossom/tags`_ for valid values for ``<tag>``)
 

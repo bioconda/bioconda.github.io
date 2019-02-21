@@ -46,7 +46,7 @@ w4mclstrpeakpics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/w4mclstrpeakpics:<tag>
+      docker pull quay.io/biocontainers/w4mclstrpeakpics:<tag>
 
    (see `w4mclstrpeakpics/tags`_ for valid values for ``<tag>``)
 

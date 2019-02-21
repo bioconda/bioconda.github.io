@@ -58,7 +58,7 @@ bioconductor-scsr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scsr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-scsr:<tag>
 
    (see `bioconductor-scsr/tags`_ for valid values for ``<tag>``)
 

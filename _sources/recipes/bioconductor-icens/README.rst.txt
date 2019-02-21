@@ -43,7 +43,7 @@ bioconductor-icens
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-icens:<tag>
+      docker pull quay.io/biocontainers/bioconductor-icens:<tag>
 
    (see `bioconductor-icens/tags`_ for valid values for ``<tag>``)
 

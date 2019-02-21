@@ -42,7 +42,7 @@ mygene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mygene:<tag>
+      docker pull quay.io/biocontainers/mygene:<tag>
 
    (see `mygene/tags`_ for valid values for ``<tag>``)
 

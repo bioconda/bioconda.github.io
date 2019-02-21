@@ -58,7 +58,7 @@ mob_suite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mob_suite:<tag>
+      docker pull quay.io/biocontainers/mob_suite:<tag>
 
    (see `mob_suite/tags`_ for valid values for ``<tag>``)
 

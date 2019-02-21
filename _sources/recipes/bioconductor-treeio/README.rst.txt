@@ -56,7 +56,7 @@ bioconductor-treeio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-treeio:<tag>
+      docker pull quay.io/biocontainers/bioconductor-treeio:<tag>
 
    (see `bioconductor-treeio/tags`_ for valid values for ``<tag>``)
 

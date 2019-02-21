@@ -38,7 +38,7 @@ stellar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stellar:<tag>
+      docker pull quay.io/biocontainers/stellar:<tag>
 
    (see `stellar/tags`_ for valid values for ``<tag>``)
 

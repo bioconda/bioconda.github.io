@@ -44,7 +44,7 @@ bioconductor-scrnaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scrnaseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-scrnaseq:<tag>
 
    (see `bioconductor-scrnaseq/tags`_ for valid values for ``<tag>``)
 

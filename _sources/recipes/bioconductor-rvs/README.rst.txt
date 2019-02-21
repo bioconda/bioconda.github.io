@@ -46,7 +46,7 @@ bioconductor-rvs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rvs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rvs:<tag>
 
    (see `bioconductor-rvs/tags`_ for valid values for ``<tag>``)
 

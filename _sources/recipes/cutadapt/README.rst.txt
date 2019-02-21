@@ -47,7 +47,7 @@ cutadapt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cutadapt:<tag>
+      docker pull quay.io/biocontainers/cutadapt:<tag>
 
    (see `cutadapt/tags`_ for valid values for ``<tag>``)
 

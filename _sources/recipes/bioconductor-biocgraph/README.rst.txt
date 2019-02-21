@@ -49,7 +49,7 @@ bioconductor-biocgraph
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocgraph:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biocgraph:<tag>
 
    (see `bioconductor-biocgraph/tags`_ for valid values for ``<tag>``)
 

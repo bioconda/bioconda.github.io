@@ -58,7 +58,7 @@ bioconductor-dmchmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dmchmm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dmchmm:<tag>
 
    (see `bioconductor-dmchmm/tags`_ for valid values for ``<tag>``)
 

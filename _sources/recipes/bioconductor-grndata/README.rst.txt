@@ -42,7 +42,7 @@ bioconductor-grndata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-grndata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-grndata:<tag>
 
    (see `bioconductor-grndata/tags`_ for valid values for ``<tag>``)
 

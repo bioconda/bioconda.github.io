@@ -48,7 +48,7 @@ bioconductor-ibmq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ibmq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ibmq:<tag>
 
    (see `bioconductor-ibmq/tags`_ for valid values for ``<tag>``)
 

@@ -55,7 +55,7 @@ bioconductor-puma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-puma:<tag>
+      docker pull quay.io/biocontainers/bioconductor-puma:<tag>
 
    (see `bioconductor-puma/tags`_ for valid values for ``<tag>``)
 

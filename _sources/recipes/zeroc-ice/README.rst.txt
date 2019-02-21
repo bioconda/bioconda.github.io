@@ -44,7 +44,7 @@ zeroc-ice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/zeroc-ice:<tag>
+      docker pull quay.io/biocontainers/zeroc-ice:<tag>
 
    (see `zeroc-ice/tags`_ for valid values for ``<tag>``)
 

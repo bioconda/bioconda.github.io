@@ -60,7 +60,7 @@ cgpbigwig
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cgpbigwig:<tag>
+      docker pull quay.io/biocontainers/cgpbigwig:<tag>
 
    (see `cgpbigwig/tags`_ for valid values for ``<tag>``)
 

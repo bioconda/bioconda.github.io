@@ -38,7 +38,7 @@ talloc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/talloc:<tag>
+      docker pull quay.io/biocontainers/talloc:<tag>
 
    (see `talloc/tags`_ for valid values for ``<tag>``)
 

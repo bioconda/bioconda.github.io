@@ -44,7 +44,7 @@ pypeflow
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pypeflow:<tag>
+      docker pull quay.io/biocontainers/pypeflow:<tag>
 
    (see `pypeflow/tags`_ for valid values for ``<tag>``)
 

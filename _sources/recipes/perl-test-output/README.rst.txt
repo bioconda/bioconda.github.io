@@ -44,7 +44,7 @@ perl-test-output
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-output:<tag>
+      docker pull quay.io/biocontainers/perl-test-output:<tag>
 
    (see `perl-test-output/tags`_ for valid values for ``<tag>``)
 

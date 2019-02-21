@@ -44,7 +44,7 @@ polymutt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/polymutt:<tag>
+      docker pull quay.io/biocontainers/polymutt:<tag>
 
    (see `polymutt/tags`_ for valid values for ``<tag>``)
 

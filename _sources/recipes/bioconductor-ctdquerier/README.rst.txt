@@ -58,7 +58,7 @@ bioconductor-ctdquerier
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ctdquerier:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ctdquerier:<tag>
 
    (see `bioconductor-ctdquerier/tags`_ for valid values for ``<tag>``)
 

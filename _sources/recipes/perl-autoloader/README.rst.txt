@@ -40,7 +40,7 @@ perl-autoloader
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-autoloader:<tag>
+      docker pull quay.io/biocontainers/perl-autoloader:<tag>
 
    (see `perl-autoloader/tags`_ for valid values for ``<tag>``)
 

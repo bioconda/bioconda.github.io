@@ -64,7 +64,7 @@ perl-http-message
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-http-message:<tag>
+      docker pull quay.io/biocontainers/perl-http-message:<tag>
 
    (see `perl-http-message/tags`_ for valid values for ``<tag>``)
 

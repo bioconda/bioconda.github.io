@@ -40,7 +40,7 @@ perl-locale-maketext-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-locale-maketext-simple:<tag>
+      docker pull quay.io/biocontainers/perl-locale-maketext-simple:<tag>
 
    (see `perl-locale-maketext-simple/tags`_ for valid values for ``<tag>``)
 

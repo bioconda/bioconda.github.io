@@ -40,7 +40,7 @@ perl-math-derivative
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-derivative:<tag>
+      docker pull quay.io/biocontainers/perl-math-derivative:<tag>
 
    (see `perl-math-derivative/tags`_ for valid values for ``<tag>``)
 

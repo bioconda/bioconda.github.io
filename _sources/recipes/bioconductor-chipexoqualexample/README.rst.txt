@@ -42,7 +42,7 @@ bioconductor-chipexoqualexample
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chipexoqualexample:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chipexoqualexample:<tag>
 
    (see `bioconductor-chipexoqualexample/tags`_ for valid values for ``<tag>``)
 

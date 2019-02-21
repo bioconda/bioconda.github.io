@@ -46,7 +46,7 @@ pairix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pairix:<tag>
+      docker pull quay.io/biocontainers/pairix:<tag>
 
    (see `pairix/tags`_ for valid values for ``<tag>``)
 

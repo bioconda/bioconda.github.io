@@ -47,7 +47,7 @@ kmc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kmc:<tag>
+      docker pull quay.io/biocontainers/kmc:<tag>
 
    (see `kmc/tags`_ for valid values for ``<tag>``)
 

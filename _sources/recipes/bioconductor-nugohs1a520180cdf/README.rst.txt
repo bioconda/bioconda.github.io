@@ -44,7 +44,7 @@ bioconductor-nugohs1a520180cdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-nugohs1a520180cdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-nugohs1a520180cdf:<tag>
 
    (see `bioconductor-nugohs1a520180cdf/tags`_ for valid values for ``<tag>``)
 

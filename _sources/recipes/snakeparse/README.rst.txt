@@ -44,7 +44,7 @@ snakeparse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snakeparse:<tag>
+      docker pull quay.io/biocontainers/snakeparse:<tag>
 
    (see `snakeparse/tags`_ for valid values for ``<tag>``)
 

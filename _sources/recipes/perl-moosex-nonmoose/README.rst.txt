@@ -48,7 +48,7 @@ perl-moosex-nonmoose
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-nonmoose:<tag>
+      docker pull quay.io/biocontainers/perl-moosex-nonmoose:<tag>
 
    (see `perl-moosex-nonmoose/tags`_ for valid values for ``<tag>``)
 

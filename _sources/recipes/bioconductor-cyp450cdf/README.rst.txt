@@ -44,7 +44,7 @@ bioconductor-cyp450cdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cyp450cdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cyp450cdf:<tag>
 
    (see `bioconductor-cyp450cdf/tags`_ for valid values for ``<tag>``)
 

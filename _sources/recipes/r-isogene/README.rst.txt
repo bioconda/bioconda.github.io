@@ -50,7 +50,7 @@ r-isogene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-isogene:<tag>
+      docker pull quay.io/biocontainers/r-isogene:<tag>
 
    (see `r-isogene/tags`_ for valid values for ``<tag>``)
 

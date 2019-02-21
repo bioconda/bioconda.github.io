@@ -44,7 +44,7 @@ bioconductor-rtcga.mirnaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.mirnaseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtcga.mirnaseq:<tag>
 
    (see `bioconductor-rtcga.mirnaseq/tags`_ for valid values for ``<tag>``)
 

@@ -73,7 +73,7 @@ bioconductor-ensembldb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ensembldb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ensembldb:<tag>
 
    (see `bioconductor-ensembldb/tags`_ for valid values for ``<tag>``)
 

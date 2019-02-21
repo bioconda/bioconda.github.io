@@ -44,7 +44,7 @@ bioconductor-bsgenome.vvinifera.urgi.iggp8x
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.vvinifera.urgi.iggp8x:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.vvinifera.urgi.iggp8x:<tag>
 
    (see `bioconductor-bsgenome.vvinifera.urgi.iggp8x/tags`_ for valid values for ``<tag>``)
 

@@ -68,7 +68,7 @@ bioconductor-gseabenchmarker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gseabenchmarker:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gseabenchmarker:<tag>
 
    (see `bioconductor-gseabenchmarker/tags`_ for valid values for ``<tag>``)
 

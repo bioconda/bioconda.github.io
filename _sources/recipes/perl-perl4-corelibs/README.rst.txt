@@ -48,7 +48,7 @@ perl-perl4-corelibs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-perl4-corelibs:<tag>
+      docker pull quay.io/biocontainers/perl-perl4-corelibs:<tag>
 
    (see `perl-perl4-corelibs/tags`_ for valid values for ``<tag>``)
 

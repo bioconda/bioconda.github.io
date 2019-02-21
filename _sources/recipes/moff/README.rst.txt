@@ -59,7 +59,7 @@ moff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/moff:<tag>
+      docker pull quay.io/biocontainers/moff:<tag>
 
    (see `moff/tags`_ for valid values for ``<tag>``)
 

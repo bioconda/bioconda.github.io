@@ -70,7 +70,7 @@ bioconductor-baynorm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-baynorm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-baynorm:<tag>
 
    (see `bioconductor-baynorm/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ perl-moosex-role-parameterized
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-role-parameterized:<tag>
+      docker pull quay.io/biocontainers/perl-moosex-role-parameterized:<tag>
 
    (see `perl-moosex-role-parameterized/tags`_ for valid values for ``<tag>``)
 

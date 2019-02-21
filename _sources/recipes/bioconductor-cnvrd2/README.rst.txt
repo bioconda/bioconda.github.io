@@ -56,7 +56,7 @@ bioconductor-cnvrd2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cnvrd2:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cnvrd2:<tag>
 
    (see `bioconductor-cnvrd2/tags`_ for valid values for ``<tag>``)
 

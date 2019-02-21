@@ -58,7 +58,7 @@ bioconductor-ivygapse
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ivygapse:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ivygapse:<tag>
 
    (see `bioconductor-ivygapse/tags`_ for valid values for ``<tag>``)
 

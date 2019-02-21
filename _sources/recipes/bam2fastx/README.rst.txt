@@ -46,7 +46,7 @@ bam2fastx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bam2fastx:<tag>
+      docker pull quay.io/biocontainers/bam2fastx:<tag>
 
    (see `bam2fastx/tags`_ for valid values for ``<tag>``)
 

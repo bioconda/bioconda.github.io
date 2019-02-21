@@ -48,7 +48,7 @@ bioconductor-rqubic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rqubic:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rqubic:<tag>
 
    (see `bioconductor-rqubic/tags`_ for valid values for ``<tag>``)
 

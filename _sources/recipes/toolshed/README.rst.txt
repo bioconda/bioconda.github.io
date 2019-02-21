@@ -40,7 +40,7 @@ toolshed
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/toolshed:<tag>
+      docker pull quay.io/biocontainers/toolshed:<tag>
 
    (see `toolshed/tags`_ for valid values for ``<tag>``)
 

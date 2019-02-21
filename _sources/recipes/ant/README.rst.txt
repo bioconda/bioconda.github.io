@@ -40,7 +40,7 @@ ant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ant:<tag>
+      docker pull quay.io/biocontainers/ant:<tag>
 
    (see `ant/tags`_ for valid values for ``<tag>``)
 

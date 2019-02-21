@@ -42,7 +42,7 @@ meneco
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/meneco:<tag>
+      docker pull quay.io/biocontainers/meneco:<tag>
 
    (see `meneco/tags`_ for valid values for ``<tag>``)
 

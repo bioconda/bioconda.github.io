@@ -52,7 +52,7 @@ bioconductor-rsffreader
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rsffreader:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rsffreader:<tag>
 
    (see `bioconductor-rsffreader/tags`_ for valid values for ``<tag>``)
 

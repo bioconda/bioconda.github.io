@@ -41,7 +41,7 @@ bioconductor-mantelcorr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mantelcorr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mantelcorr:<tag>
 
    (see `bioconductor-mantelcorr/tags`_ for valid values for ``<tag>``)
 

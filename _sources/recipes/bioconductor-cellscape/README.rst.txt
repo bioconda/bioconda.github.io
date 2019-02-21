@@ -54,7 +54,7 @@ bioconductor-cellscape
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cellscape:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cellscape:<tag>
 
    (see `bioconductor-cellscape/tags`_ for valid values for ``<tag>``)
 

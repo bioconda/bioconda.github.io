@@ -46,7 +46,7 @@ pylibseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pylibseq:<tag>
+      docker pull quay.io/biocontainers/pylibseq:<tag>
 
    (see `pylibseq/tags`_ for valid values for ``<tag>``)
 

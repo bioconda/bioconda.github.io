@@ -40,7 +40,7 @@ bioconductor-typeinfo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-typeinfo:<tag>
+      docker pull quay.io/biocontainers/bioconductor-typeinfo:<tag>
 
    (see `bioconductor-typeinfo/tags`_ for valid values for ``<tag>``)
 

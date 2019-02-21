@@ -44,7 +44,7 @@ perl-data-munge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-data-munge:<tag>
+      docker pull quay.io/biocontainers/perl-data-munge:<tag>
 
    (see `perl-data-munge/tags`_ for valid values for ``<tag>``)
 

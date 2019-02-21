@@ -46,7 +46,7 @@ perl-module-implementation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-implementation:<tag>
+      docker pull quay.io/biocontainers/perl-module-implementation:<tag>
 
    (see `perl-module-implementation/tags`_ for valid values for ``<tag>``)
 

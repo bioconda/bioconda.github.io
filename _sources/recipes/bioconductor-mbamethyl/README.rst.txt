@@ -41,7 +41,7 @@ bioconductor-mbamethyl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mbamethyl:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mbamethyl:<tag>
 
    (see `bioconductor-mbamethyl/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ bioconductor-flowcatchr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowcatchr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowcatchr:<tag>
 
    (see `bioconductor-flowcatchr/tags`_ for valid values for ``<tag>``)
 

@@ -41,7 +41,7 @@ prank
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prank:<tag>
+      docker pull quay.io/biocontainers/prank:<tag>
 
    (see `prank/tags`_ for valid values for ``<tag>``)
 

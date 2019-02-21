@@ -44,7 +44,7 @@ r-bio3d
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-bio3d:<tag>
+      docker pull quay.io/biocontainers/r-bio3d:<tag>
 
    (see `r-bio3d/tags`_ for valid values for ``<tag>``)
 

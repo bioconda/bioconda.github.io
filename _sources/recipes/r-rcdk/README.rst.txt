@@ -38,7 +38,7 @@ r-rcdk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rcdk:<tag>
+      docker pull quay.io/biocontainers/r-rcdk:<tag>
 
    (see `r-rcdk/tags`_ for valid values for ``<tag>``)
 

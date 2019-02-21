@@ -46,7 +46,7 @@ bioconductor-clusterseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clusterseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clusterseq:<tag>
 
    (see `bioconductor-clusterseq/tags`_ for valid values for ``<tag>``)
 

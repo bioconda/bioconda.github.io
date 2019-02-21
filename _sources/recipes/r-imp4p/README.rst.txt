@@ -52,7 +52,7 @@ r-imp4p
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-imp4p:<tag>
+      docker pull quay.io/biocontainers/r-imp4p:<tag>
 
    (see `r-imp4p/tags`_ for valid values for ``<tag>``)
 

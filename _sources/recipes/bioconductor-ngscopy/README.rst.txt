@@ -46,7 +46,7 @@ bioconductor-ngscopy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ngscopy:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ngscopy:<tag>
 
    (see `bioconductor-ngscopy/tags`_ for valid values for ``<tag>``)
 

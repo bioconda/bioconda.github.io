@@ -42,7 +42,7 @@ egglib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/egglib:<tag>
+      docker pull quay.io/biocontainers/egglib:<tag>
 
    (see `egglib/tags`_ for valid values for ``<tag>``)
 

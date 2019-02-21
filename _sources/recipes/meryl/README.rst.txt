@@ -40,7 +40,7 @@ meryl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/meryl:<tag>
+      docker pull quay.io/biocontainers/meryl:<tag>
 
    (see `meryl/tags`_ for valid values for ``<tag>``)
 

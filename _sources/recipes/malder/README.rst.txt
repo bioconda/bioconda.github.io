@@ -51,7 +51,7 @@ malder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/malder:<tag>
+      docker pull quay.io/biocontainers/malder:<tag>
 
    (see `malder/tags`_ for valid values for ``<tag>``)
 

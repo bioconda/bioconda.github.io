@@ -50,7 +50,7 @@ bioconductor-discordant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-discordant:<tag>
+      docker pull quay.io/biocontainers/bioconductor-discordant:<tag>
 
    (see `bioconductor-discordant/tags`_ for valid values for ``<tag>``)
 

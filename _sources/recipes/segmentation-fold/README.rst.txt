@@ -50,7 +50,7 @@ segmentation-fold
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/segmentation-fold:<tag>
+      docker pull quay.io/biocontainers/segmentation-fold:<tag>
 
    (see `segmentation-fold/tags`_ for valid values for ``<tag>``)
 

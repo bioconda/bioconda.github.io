@@ -57,7 +57,7 @@ sourmash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sourmash:<tag>
+      docker pull quay.io/biocontainers/sourmash:<tag>
 
    (see `sourmash/tags`_ for valid values for ``<tag>``)
 

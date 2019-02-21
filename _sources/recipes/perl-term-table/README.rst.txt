@@ -44,7 +44,7 @@ perl-term-table
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-term-table:<tag>
+      docker pull quay.io/biocontainers/perl-term-table:<tag>
 
    (see `perl-term-table/tags`_ for valid values for ``<tag>``)
 

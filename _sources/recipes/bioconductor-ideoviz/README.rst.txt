@@ -53,7 +53,7 @@ bioconductor-ideoviz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ideoviz:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ideoviz:<tag>
 
    (see `bioconductor-ideoviz/tags`_ for valid values for ``<tag>``)
 

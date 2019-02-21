@@ -49,7 +49,7 @@ bioconductor-qusage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qusage:<tag>
+      docker pull quay.io/biocontainers/bioconductor-qusage:<tag>
 
    (see `bioconductor-qusage/tags`_ for valid values for ``<tag>``)
 

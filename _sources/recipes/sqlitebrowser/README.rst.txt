@@ -44,7 +44,7 @@ sqlitebrowser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sqlitebrowser:<tag>
+      docker pull quay.io/biocontainers/sqlitebrowser:<tag>
 
    (see `sqlitebrowser/tags`_ for valid values for ``<tag>``)
 

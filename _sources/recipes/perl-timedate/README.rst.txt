@@ -40,7 +40,7 @@ perl-timedate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-timedate:<tag>
+      docker pull quay.io/biocontainers/perl-timedate:<tag>
 
    (see `perl-timedate/tags`_ for valid values for ``<tag>``)
 

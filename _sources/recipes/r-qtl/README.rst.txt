@@ -42,7 +42,7 @@ r-qtl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-qtl:<tag>
+      docker pull quay.io/biocontainers/r-qtl:<tag>
 
    (see `r-qtl/tags`_ for valid values for ``<tag>``)
 

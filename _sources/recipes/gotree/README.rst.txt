@@ -38,7 +38,7 @@ gotree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gotree:<tag>
+      docker pull quay.io/biocontainers/gotree:<tag>
 
    (see `gotree/tags`_ for valid values for ``<tag>``)
 

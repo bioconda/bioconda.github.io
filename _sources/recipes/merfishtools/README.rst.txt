@@ -52,7 +52,7 @@ merfishtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/merfishtools:<tag>
+      docker pull quay.io/biocontainers/merfishtools:<tag>
 
    (see `merfishtools/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ agg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/agg:<tag>
+      docker pull quay.io/biocontainers/agg:<tag>
 
    (see `agg/tags`_ for valid values for ``<tag>``)
 

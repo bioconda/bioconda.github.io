@@ -38,7 +38,7 @@ bioconductor-cancer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cancer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cancer:<tag>
 
    (see `bioconductor-cancer/tags`_ for valid values for ``<tag>``)
 

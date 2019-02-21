@@ -50,7 +50,7 @@ livekraken
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/livekraken:<tag>
+      docker pull quay.io/biocontainers/livekraken:<tag>
 
    (see `livekraken/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-rbioinf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rbioinf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rbioinf:<tag>
 
    (see `bioconductor-rbioinf/tags`_ for valid values for ``<tag>``)
 

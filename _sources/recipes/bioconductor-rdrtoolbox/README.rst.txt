@@ -38,7 +38,7 @@ bioconductor-rdrtoolbox
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rdrtoolbox:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rdrtoolbox:<tag>
 
    (see `bioconductor-rdrtoolbox/tags`_ for valid values for ``<tag>``)
 

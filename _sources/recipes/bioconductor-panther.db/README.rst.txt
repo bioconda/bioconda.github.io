@@ -46,7 +46,7 @@ bioconductor-panther.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-panther.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-panther.db:<tag>
 
    (see `bioconductor-panther.db/tags`_ for valid values for ``<tag>``)
 

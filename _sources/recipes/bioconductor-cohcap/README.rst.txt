@@ -59,7 +59,7 @@ bioconductor-cohcap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cohcap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cohcap:<tag>
 
    (see `bioconductor-cohcap/tags`_ for valid values for ``<tag>``)
 

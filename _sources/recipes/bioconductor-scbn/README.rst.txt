@@ -40,7 +40,7 @@ bioconductor-scbn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scbn:<tag>
+      docker pull quay.io/biocontainers/bioconductor-scbn:<tag>
 
    (see `bioconductor-scbn/tags`_ for valid values for ``<tag>``)
 

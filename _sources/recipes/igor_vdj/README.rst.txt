@@ -42,7 +42,7 @@ igor_vdj
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/igor_vdj:<tag>
+      docker pull quay.io/biocontainers/igor_vdj:<tag>
 
    (see `igor_vdj/tags`_ for valid values for ``<tag>``)
 

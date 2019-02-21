@@ -46,7 +46,7 @@ art
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/art:<tag>
+      docker pull quay.io/biocontainers/art:<tag>
 
    (see `art/tags`_ for valid values for ``<tag>``)
 

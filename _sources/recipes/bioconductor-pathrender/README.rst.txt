@@ -51,7 +51,7 @@ bioconductor-pathrender
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pathrender:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pathrender:<tag>
 
    (see `bioconductor-pathrender/tags`_ for valid values for ``<tag>``)
 

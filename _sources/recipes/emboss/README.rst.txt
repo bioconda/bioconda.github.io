@@ -46,7 +46,7 @@ emboss
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/emboss:<tag>
+      docker pull quay.io/biocontainers/emboss:<tag>
 
    (see `emboss/tags`_ for valid values for ``<tag>``)
 

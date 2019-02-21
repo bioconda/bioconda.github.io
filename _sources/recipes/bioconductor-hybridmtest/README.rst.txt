@@ -49,7 +49,7 @@ bioconductor-hybridmtest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hybridmtest:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hybridmtest:<tag>
 
    (see `bioconductor-hybridmtest/tags`_ for valid values for ``<tag>``)
 

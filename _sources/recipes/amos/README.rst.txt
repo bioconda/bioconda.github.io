@@ -53,7 +53,7 @@ amos
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/amos:<tag>
+      docker pull quay.io/biocontainers/amos:<tag>
 
    (see `amos/tags`_ for valid values for ``<tag>``)
 

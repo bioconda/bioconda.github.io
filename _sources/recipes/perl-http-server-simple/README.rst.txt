@@ -44,7 +44,7 @@ perl-http-server-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-http-server-simple:<tag>
+      docker pull quay.io/biocontainers/perl-http-server-simple:<tag>
 
    (see `perl-http-server-simple/tags`_ for valid values for ``<tag>``)
 

@@ -77,7 +77,7 @@ bioconductor-methyanalysis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methyanalysis:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methyanalysis:<tag>
 
    (see `bioconductor-methyanalysis/tags`_ for valid values for ``<tag>``)
 

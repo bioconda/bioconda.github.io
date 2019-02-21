@@ -52,7 +52,7 @@ bioconductor-seqbias
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seqbias:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seqbias:<tag>
 
    (see `bioconductor-seqbias/tags`_ for valid values for ``<tag>``)
 

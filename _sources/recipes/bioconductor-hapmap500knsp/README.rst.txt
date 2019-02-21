@@ -42,7 +42,7 @@ bioconductor-hapmap500knsp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hapmap500knsp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hapmap500knsp:<tag>
 
    (see `bioconductor-hapmap500knsp/tags`_ for valid values for ``<tag>``)
 

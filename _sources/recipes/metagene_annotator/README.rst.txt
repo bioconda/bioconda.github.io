@@ -38,7 +38,7 @@ metagene_annotator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metagene_annotator:<tag>
+      docker pull quay.io/biocontainers/metagene_annotator:<tag>
 
    (see `metagene_annotator/tags`_ for valid values for ``<tag>``)
 

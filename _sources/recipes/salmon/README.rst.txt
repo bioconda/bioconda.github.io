@@ -54,7 +54,7 @@ salmon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/salmon:<tag>
+      docker pull quay.io/biocontainers/salmon:<tag>
 
    (see `salmon/tags`_ for valid values for ``<tag>``)
 

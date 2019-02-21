@@ -71,7 +71,7 @@ bioconductor-deepbluer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-deepbluer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-deepbluer:<tag>
 
    (see `bioconductor-deepbluer/tags`_ for valid values for ``<tag>``)
 

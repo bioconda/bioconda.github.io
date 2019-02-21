@@ -68,7 +68,7 @@ bioconductor-chromswitch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chromswitch:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chromswitch:<tag>
 
    (see `bioconductor-chromswitch/tags`_ for valid values for ``<tag>``)
 

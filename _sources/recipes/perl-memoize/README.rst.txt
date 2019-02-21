@@ -42,7 +42,7 @@ perl-memoize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-memoize:<tag>
+      docker pull quay.io/biocontainers/perl-memoize:<tag>
 
    (see `perl-memoize/tags`_ for valid values for ``<tag>``)
 

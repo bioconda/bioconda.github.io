@@ -42,7 +42,7 @@ bioconductor-pasillabamsubset
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pasillabamsubset:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pasillabamsubset:<tag>
 
    (see `bioconductor-pasillabamsubset/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ dextractor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dextractor:<tag>
+      docker pull quay.io/biocontainers/dextractor:<tag>
 
    (see `dextractor/tags`_ for valid values for ``<tag>``)
 

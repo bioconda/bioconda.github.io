@@ -45,7 +45,7 @@ bioconductor-gaprediction
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gaprediction:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gaprediction:<tag>
 
    (see `bioconductor-gaprediction/tags`_ for valid values for ``<tag>``)
 

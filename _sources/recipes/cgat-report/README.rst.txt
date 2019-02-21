@@ -70,7 +70,7 @@ cgat-report
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cgat-report:<tag>
+      docker pull quay.io/biocontainers/cgat-report:<tag>
 
    (see `cgat-report/tags`_ for valid values for ``<tag>``)
 

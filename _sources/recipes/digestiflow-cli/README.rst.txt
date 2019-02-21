@@ -42,7 +42,7 @@ digestiflow-cli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/digestiflow-cli:<tag>
+      docker pull quay.io/biocontainers/digestiflow-cli:<tag>
 
    (see `digestiflow-cli/tags`_ for valid values for ``<tag>``)
 

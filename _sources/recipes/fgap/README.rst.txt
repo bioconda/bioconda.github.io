@@ -44,7 +44,7 @@ fgap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fgap:<tag>
+      docker pull quay.io/biocontainers/fgap:<tag>
 
    (see `fgap/tags`_ for valid values for ``<tag>``)
 

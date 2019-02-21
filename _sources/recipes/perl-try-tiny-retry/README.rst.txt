@@ -42,7 +42,7 @@ perl-try-tiny-retry
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-try-tiny-retry:<tag>
+      docker pull quay.io/biocontainers/perl-try-tiny-retry:<tag>
 
    (see `perl-try-tiny-retry/tags`_ for valid values for ``<tag>``)
 

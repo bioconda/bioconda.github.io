@@ -58,7 +58,7 @@ bioconductor-normr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-normr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-normr:<tag>
 
    (see `bioconductor-normr/tags`_ for valid values for ``<tag>``)
 

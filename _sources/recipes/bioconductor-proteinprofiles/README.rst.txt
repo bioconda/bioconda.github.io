@@ -40,7 +40,7 @@ bioconductor-proteinprofiles
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-proteinprofiles:<tag>
+      docker pull quay.io/biocontainers/bioconductor-proteinprofiles:<tag>
 
    (see `bioconductor-proteinprofiles/tags`_ for valid values for ``<tag>``)
 

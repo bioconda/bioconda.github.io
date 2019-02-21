@@ -42,7 +42,7 @@ illumiprocessor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/illumiprocessor:<tag>
+      docker pull quay.io/biocontainers/illumiprocessor:<tag>
 
    (see `illumiprocessor/tags`_ for valid values for ``<tag>``)
 

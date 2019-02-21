@@ -52,7 +52,7 @@ mofapy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mofapy:<tag>
+      docker pull quay.io/biocontainers/mofapy:<tag>
 
    (see `mofapy/tags`_ for valid values for ``<tag>``)
 

@@ -53,7 +53,7 @@ bioconductor-geneplotter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneplotter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geneplotter:<tag>
 
    (see `bioconductor-geneplotter/tags`_ for valid values for ``<tag>``)
 

@@ -58,7 +58,7 @@ cnv_facets
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cnv_facets:<tag>
+      docker pull quay.io/biocontainers/cnv_facets:<tag>
 
    (see `cnv_facets/tags`_ for valid values for ``<tag>``)
 

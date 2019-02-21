@@ -47,7 +47,7 @@ codingquarry
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/codingquarry:<tag>
+      docker pull quay.io/biocontainers/codingquarry:<tag>
 
    (see `codingquarry/tags`_ for valid values for ``<tag>``)
 

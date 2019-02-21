@@ -40,7 +40,7 @@ sift4g
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sift4g:<tag>
+      docker pull quay.io/biocontainers/sift4g:<tag>
 
    (see `sift4g/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ bioconductor-smap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-smap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-smap:<tag>
 
    (see `bioconductor-smap/tags`_ for valid values for ``<tag>``)
 

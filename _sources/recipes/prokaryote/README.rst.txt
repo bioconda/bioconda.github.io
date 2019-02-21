@@ -40,7 +40,7 @@ prokaryote
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prokaryote:<tag>
+      docker pull quay.io/biocontainers/prokaryote:<tag>
 
    (see `prokaryote/tags`_ for valid values for ``<tag>``)
 

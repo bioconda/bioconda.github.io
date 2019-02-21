@@ -48,7 +48,7 @@ ribodiff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ribodiff:<tag>
+      docker pull quay.io/biocontainers/ribodiff:<tag>
 
    (see `ribodiff/tags`_ for valid values for ``<tag>``)
 

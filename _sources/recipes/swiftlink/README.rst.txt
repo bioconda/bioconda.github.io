@@ -48,7 +48,7 @@ swiftlink
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/swiftlink:<tag>
+      docker pull quay.io/biocontainers/swiftlink:<tag>
 
    (see `swiftlink/tags`_ for valid values for ``<tag>``)
 

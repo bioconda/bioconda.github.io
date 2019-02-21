@@ -50,7 +50,7 @@ ucsc-pslrecalcmatch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslrecalcmatch:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslrecalcmatch:<tag>
 
    (see `ucsc-pslrecalcmatch/tags`_ for valid values for ``<tag>``)
 

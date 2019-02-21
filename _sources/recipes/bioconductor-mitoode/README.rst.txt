@@ -50,7 +50,7 @@ bioconductor-mitoode
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mitoode:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mitoode:<tag>
 
    (see `bioconductor-mitoode/tags`_ for valid values for ``<tag>``)
 

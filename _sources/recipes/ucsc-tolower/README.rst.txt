@@ -50,7 +50,7 @@ ucsc-tolower
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-tolower:<tag>
+      docker pull quay.io/biocontainers/ucsc-tolower:<tag>
 
    (see `ucsc-tolower/tags`_ for valid values for ``<tag>``)
 

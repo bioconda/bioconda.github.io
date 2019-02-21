@@ -46,7 +46,7 @@ ra-integrate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ra-integrate:<tag>
+      docker pull quay.io/biocontainers/ra-integrate:<tag>
 
    (see `ra-integrate/tags`_ for valid values for ``<tag>``)
 

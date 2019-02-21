@@ -83,7 +83,7 @@ bioconductor-genogam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genogam:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genogam:<tag>
 
    (see `bioconductor-genogam/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ ucsc-validatefiles
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-validatefiles:<tag>
+      docker pull quay.io/biocontainers/ucsc-validatefiles:<tag>
 
    (see `ucsc-validatefiles/tags`_ for valid values for ``<tag>``)
 

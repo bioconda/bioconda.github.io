@@ -51,7 +51,7 @@ bioconductor-seqpattern
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seqpattern:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seqpattern:<tag>
 
    (see `bioconductor-seqpattern/tags`_ for valid values for ``<tag>``)
 

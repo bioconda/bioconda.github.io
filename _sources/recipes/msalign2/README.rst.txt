@@ -45,7 +45,7 @@ msalign2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/msalign2:<tag>
+      docker pull quay.io/biocontainers/msalign2:<tag>
 
    (see `msalign2/tags`_ for valid values for ``<tag>``)
 

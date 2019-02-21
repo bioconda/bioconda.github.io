@@ -62,7 +62,7 @@ pyensembl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyensembl:<tag>
+      docker pull quay.io/biocontainers/pyensembl:<tag>
 
    (see `pyensembl/tags`_ for valid values for ``<tag>``)
 

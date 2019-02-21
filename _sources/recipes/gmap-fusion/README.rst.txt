@@ -50,7 +50,7 @@ gmap-fusion
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gmap-fusion:<tag>
+      docker pull quay.io/biocontainers/gmap-fusion:<tag>
 
    (see `gmap-fusion/tags`_ for valid values for ``<tag>``)
 

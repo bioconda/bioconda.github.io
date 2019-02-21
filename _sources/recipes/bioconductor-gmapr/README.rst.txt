@@ -70,7 +70,7 @@ bioconductor-gmapr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gmapr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gmapr:<tag>
 
    (see `bioconductor-gmapr/tags`_ for valid values for ``<tag>``)
 

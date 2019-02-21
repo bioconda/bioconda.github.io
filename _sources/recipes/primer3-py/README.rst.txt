@@ -40,7 +40,7 @@ primer3-py
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/primer3-py:<tag>
+      docker pull quay.io/biocontainers/primer3-py:<tag>
 
    (see `primer3-py/tags`_ for valid values for ``<tag>``)
 

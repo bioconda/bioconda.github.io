@@ -42,7 +42,7 @@ itsx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/itsx:<tag>
+      docker pull quay.io/biocontainers/itsx:<tag>
 
    (see `itsx/tags`_ for valid values for ``<tag>``)
 

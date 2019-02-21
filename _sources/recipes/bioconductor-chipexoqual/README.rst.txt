@@ -74,7 +74,7 @@ bioconductor-chipexoqual
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chipexoqual:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chipexoqual:<tag>
 
    (see `bioconductor-chipexoqual/tags`_ for valid values for ``<tag>``)
 

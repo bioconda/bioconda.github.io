@@ -46,7 +46,7 @@ debwt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/debwt:<tag>
+      docker pull quay.io/biocontainers/debwt:<tag>
 
    (see `debwt/tags`_ for valid values for ``<tag>``)
 

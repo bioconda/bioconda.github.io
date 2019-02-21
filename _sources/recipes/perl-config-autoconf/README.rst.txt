@@ -52,7 +52,7 @@ perl-config-autoconf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-config-autoconf:<tag>
+      docker pull quay.io/biocontainers/perl-config-autoconf:<tag>
 
    (see `perl-config-autoconf/tags`_ for valid values for ``<tag>``)
 

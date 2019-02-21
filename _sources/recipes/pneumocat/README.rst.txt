@@ -54,7 +54,7 @@ pneumocat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pneumocat:<tag>
+      docker pull quay.io/biocontainers/pneumocat:<tag>
 
    (see `pneumocat/tags`_ for valid values for ``<tag>``)
 

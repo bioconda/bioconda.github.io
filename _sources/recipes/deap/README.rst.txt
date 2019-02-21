@@ -46,7 +46,7 @@ deap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/deap:<tag>
+      docker pull quay.io/biocontainers/deap:<tag>
 
    (see `deap/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-rtcga.pancan12
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.pancan12:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtcga.pancan12:<tag>
 
    (see `bioconductor-rtcga.pancan12/tags`_ for valid values for ``<tag>``)
 

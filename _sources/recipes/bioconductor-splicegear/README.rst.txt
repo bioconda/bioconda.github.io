@@ -47,7 +47,7 @@ bioconductor-splicegear
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-splicegear:<tag>
+      docker pull quay.io/biocontainers/bioconductor-splicegear:<tag>
 
    (see `bioconductor-splicegear/tags`_ for valid values for ``<tag>``)
 

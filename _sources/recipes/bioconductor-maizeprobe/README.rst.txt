@@ -44,7 +44,7 @@ bioconductor-maizeprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-maizeprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-maizeprobe:<tag>
 
    (see `bioconductor-maizeprobe/tags`_ for valid values for ``<tag>``)
 

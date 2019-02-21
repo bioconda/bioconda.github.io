@@ -48,7 +48,7 @@ bioconductor-gsvadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gsvadata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gsvadata:<tag>
 
    (see `bioconductor-gsvadata/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ bioconductor-m3dexampledata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-m3dexampledata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-m3dexampledata:<tag>
 
    (see `bioconductor-m3dexampledata/tags`_ for valid values for ``<tag>``)
 

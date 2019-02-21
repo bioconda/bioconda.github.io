@@ -67,7 +67,7 @@ bioconductor-translatome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-translatome:<tag>
+      docker pull quay.io/biocontainers/bioconductor-translatome:<tag>
 
    (see `bioconductor-translatome/tags`_ for valid values for ``<tag>``)
 

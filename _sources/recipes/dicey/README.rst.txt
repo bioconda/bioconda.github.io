@@ -50,7 +50,7 @@ dicey
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dicey:<tag>
+      docker pull quay.io/biocontainers/dicey:<tag>
 
    (see `dicey/tags`_ for valid values for ``<tag>``)
 

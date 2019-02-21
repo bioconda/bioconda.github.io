@@ -40,7 +40,7 @@ xdg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xdg:<tag>
+      docker pull quay.io/biocontainers/xdg:<tag>
 
    (see `xdg/tags`_ for valid values for ``<tag>``)
 

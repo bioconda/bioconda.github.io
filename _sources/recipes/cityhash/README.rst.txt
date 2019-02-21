@@ -40,7 +40,7 @@ cityhash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cityhash:<tag>
+      docker pull quay.io/biocontainers/cityhash:<tag>
 
    (see `cityhash/tags`_ for valid values for ``<tag>``)
 

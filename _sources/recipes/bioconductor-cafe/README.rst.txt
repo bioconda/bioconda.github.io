@@ -58,7 +58,7 @@ bioconductor-cafe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cafe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cafe:<tag>
 
    (see `bioconductor-cafe/tags`_ for valid values for ``<tag>``)
 

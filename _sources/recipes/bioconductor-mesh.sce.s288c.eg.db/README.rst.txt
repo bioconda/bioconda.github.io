@@ -44,7 +44,7 @@ bioconductor-mesh.sce.s288c.eg.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mesh.sce.s288c.eg.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mesh.sce.s288c.eg.db:<tag>
 
    (see `bioconductor-mesh.sce.s288c.eg.db/tags`_ for valid values for ``<tag>``)
 

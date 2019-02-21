@@ -49,7 +49,7 @@ bioconductor-methtargetedngs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methtargetedngs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methtargetedngs:<tag>
 
    (see `bioconductor-methtargetedngs/tags`_ for valid values for ``<tag>``)
 

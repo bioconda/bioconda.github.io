@@ -42,7 +42,7 @@ soapdenovo-trans
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/soapdenovo-trans:<tag>
+      docker pull quay.io/biocontainers/soapdenovo-trans:<tag>
 
    (see `soapdenovo-trans/tags`_ for valid values for ``<tag>``)
 

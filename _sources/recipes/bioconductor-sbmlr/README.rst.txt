@@ -44,7 +44,7 @@ bioconductor-sbmlr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sbmlr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sbmlr:<tag>
 
    (see `bioconductor-sbmlr/tags`_ for valid values for ``<tag>``)
 

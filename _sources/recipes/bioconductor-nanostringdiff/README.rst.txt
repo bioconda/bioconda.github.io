@@ -50,7 +50,7 @@ bioconductor-nanostringdiff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-nanostringdiff:<tag>
+      docker pull quay.io/biocontainers/bioconductor-nanostringdiff:<tag>
 
    (see `bioconductor-nanostringdiff/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ perl-b-hooks-endofscope
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-b-hooks-endofscope:<tag>
+      docker pull quay.io/biocontainers/perl-b-hooks-endofscope:<tag>
 
    (see `perl-b-hooks-endofscope/tags`_ for valid values for ``<tag>``)
 

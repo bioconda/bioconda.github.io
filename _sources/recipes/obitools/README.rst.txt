@@ -46,7 +46,7 @@ obitools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/obitools:<tag>
+      docker pull quay.io/biocontainers/obitools:<tag>
 
    (see `obitools/tags`_ for valid values for ``<tag>``)
 

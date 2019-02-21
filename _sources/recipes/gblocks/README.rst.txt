@@ -38,7 +38,7 @@ gblocks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gblocks:<tag>
+      docker pull quay.io/biocontainers/gblocks:<tag>
 
    (see `gblocks/tags`_ for valid values for ``<tag>``)
 

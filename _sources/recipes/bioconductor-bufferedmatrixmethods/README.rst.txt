@@ -45,7 +45,7 @@ bioconductor-bufferedmatrixmethods
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bufferedmatrixmethods:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bufferedmatrixmethods:<tag>
 
    (see `bioconductor-bufferedmatrixmethods/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-annotationfuncs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-annotationfuncs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-annotationfuncs:<tag>
 
    (see `bioconductor-annotationfuncs/tags`_ for valid values for ``<tag>``)
 

@@ -66,7 +66,7 @@ bioconductor-annotatr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-annotatr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-annotatr:<tag>
 
    (see `bioconductor-annotatr/tags`_ for valid values for ``<tag>``)
 

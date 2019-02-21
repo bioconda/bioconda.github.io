@@ -64,7 +64,7 @@ r-aroma.affymetrix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-aroma.affymetrix:<tag>
+      docker pull quay.io/biocontainers/r-aroma.affymetrix:<tag>
 
    (see `r-aroma.affymetrix/tags`_ for valid values for ``<tag>``)
 

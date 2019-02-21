@@ -44,7 +44,7 @@ bioconductor-sigsquared
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sigsquared:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sigsquared:<tag>
 
    (see `bioconductor-sigsquared/tags`_ for valid values for ``<tag>``)
 

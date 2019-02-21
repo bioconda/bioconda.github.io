@@ -46,7 +46,7 @@ bioconductor-ppidata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ppidata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ppidata:<tag>
 
    (see `bioconductor-ppidata/tags`_ for valid values for ``<tag>``)
 

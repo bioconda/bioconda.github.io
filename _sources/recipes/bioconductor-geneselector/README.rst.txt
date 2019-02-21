@@ -53,7 +53,7 @@ bioconductor-geneselector
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geneselector:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geneselector:<tag>
 
    (see `bioconductor-geneselector/tags`_ for valid values for ``<tag>``)
 

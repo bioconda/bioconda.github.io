@@ -53,7 +53,7 @@ tpp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tpp:<tag>
+      docker pull quay.io/biocontainers/tpp:<tag>
 
    (see `tpp/tags`_ for valid values for ``<tag>``)
 

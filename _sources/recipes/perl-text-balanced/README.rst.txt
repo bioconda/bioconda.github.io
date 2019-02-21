@@ -40,7 +40,7 @@ perl-text-balanced
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-balanced:<tag>
+      docker pull quay.io/biocontainers/perl-text-balanced:<tag>
 
    (see `perl-text-balanced/tags`_ for valid values for ``<tag>``)
 

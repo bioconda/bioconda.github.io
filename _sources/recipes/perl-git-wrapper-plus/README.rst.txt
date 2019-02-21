@@ -54,7 +54,7 @@ perl-git-wrapper-plus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-git-wrapper-plus:<tag>
+      docker pull quay.io/biocontainers/perl-git-wrapper-plus:<tag>
 
    (see `perl-git-wrapper-plus/tags`_ for valid values for ``<tag>``)
 

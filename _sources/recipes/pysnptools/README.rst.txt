@@ -46,7 +46,7 @@ pysnptools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pysnptools:<tag>
+      docker pull quay.io/biocontainers/pysnptools:<tag>
 
    (see `pysnptools/tags`_ for valid values for ``<tag>``)
 

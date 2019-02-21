@@ -44,7 +44,7 @@ bioconductor-bsgenome.tguttata.ucsc.taegut1
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.tguttata.ucsc.taegut1:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.tguttata.ucsc.taegut1:<tag>
 
    (see `bioconductor-bsgenome.tguttata.ucsc.taegut1/tags`_ for valid values for ``<tag>``)
 

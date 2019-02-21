@@ -52,7 +52,7 @@ spectrassembler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spectrassembler:<tag>
+      docker pull quay.io/biocontainers/spectrassembler:<tag>
 
    (see `spectrassembler/tags`_ for valid values for ``<tag>``)
 

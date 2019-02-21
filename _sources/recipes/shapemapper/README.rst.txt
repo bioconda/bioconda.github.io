@@ -50,7 +50,7 @@ shapemapper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shapemapper:<tag>
+      docker pull quay.io/biocontainers/shapemapper:<tag>
 
    (see `shapemapper/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ card_trick
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/card_trick:<tag>
+      docker pull quay.io/biocontainers/card_trick:<tag>
 
    (see `card_trick/tags`_ for valid values for ``<tag>``)
 

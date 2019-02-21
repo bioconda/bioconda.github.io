@@ -52,7 +52,7 @@ pbhoover
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbhoover:<tag>
+      docker pull quay.io/biocontainers/pbhoover:<tag>
 
    (see `pbhoover/tags`_ for valid values for ``<tag>``)
 

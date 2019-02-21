@@ -42,7 +42,7 @@ bioconductor-simpintlists
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-simpintlists:<tag>
+      docker pull quay.io/biocontainers/bioconductor-simpintlists:<tag>
 
    (see `bioconductor-simpintlists/tags`_ for valid values for ``<tag>``)
 

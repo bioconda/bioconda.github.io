@@ -48,7 +48,7 @@ kpal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kpal:<tag>
+      docker pull quay.io/biocontainers/kpal:<tag>
 
    (see `kpal/tags`_ for valid values for ``<tag>``)
 

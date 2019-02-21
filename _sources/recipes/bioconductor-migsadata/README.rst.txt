@@ -42,7 +42,7 @@ bioconductor-migsadata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-migsadata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-migsadata:<tag>
 
    (see `bioconductor-migsadata/tags`_ for valid values for ``<tag>``)
 

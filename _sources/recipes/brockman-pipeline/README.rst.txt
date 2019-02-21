@@ -62,7 +62,7 @@ brockman-pipeline
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/brockman-pipeline:<tag>
+      docker pull quay.io/biocontainers/brockman-pipeline:<tag>
 
    (see `brockman-pipeline/tags`_ for valid values for ``<tag>``)
 

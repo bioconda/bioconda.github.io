@@ -56,7 +56,7 @@ arvados-python-client
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/arvados-python-client:<tag>
+      docker pull quay.io/biocontainers/arvados-python-client:<tag>
 
    (see `arvados-python-client/tags`_ for valid values for ``<tag>``)
 

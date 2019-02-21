@@ -50,7 +50,7 @@ bioconductor-cctutorial
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cctutorial:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cctutorial:<tag>
 
    (see `bioconductor-cctutorial/tags`_ for valid values for ``<tag>``)
 

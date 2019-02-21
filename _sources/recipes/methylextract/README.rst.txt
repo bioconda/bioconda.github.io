@@ -42,7 +42,7 @@ methylextract
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/methylextract:<tag>
+      docker pull quay.io/biocontainers/methylextract:<tag>
 
    (see `methylextract/tags`_ for valid values for ``<tag>``)
 

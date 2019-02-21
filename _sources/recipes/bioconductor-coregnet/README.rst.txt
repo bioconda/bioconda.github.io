@@ -48,7 +48,7 @@ bioconductor-coregnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-coregnet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-coregnet:<tag>
 
    (see `bioconductor-coregnet/tags`_ for valid values for ``<tag>``)
 

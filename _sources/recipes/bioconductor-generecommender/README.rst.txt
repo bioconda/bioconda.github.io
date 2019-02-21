@@ -43,7 +43,7 @@ bioconductor-generecommender
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-generecommender:<tag>
+      docker pull quay.io/biocontainers/bioconductor-generecommender:<tag>
 
    (see `bioconductor-generecommender/tags`_ for valid values for ``<tag>``)
 

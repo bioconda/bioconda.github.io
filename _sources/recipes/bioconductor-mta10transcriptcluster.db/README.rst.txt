@@ -46,7 +46,7 @@ bioconductor-mta10transcriptcluster.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mta10transcriptcluster.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mta10transcriptcluster.db:<tag>
 
    (see `bioconductor-mta10transcriptcluster.db/tags`_ for valid values for ``<tag>``)
 

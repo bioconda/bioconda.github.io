@@ -46,7 +46,7 @@ bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene:<tag>
 
    (see `bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene/tags`_ for valid values for ``<tag>``)
 

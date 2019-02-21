@@ -53,7 +53,7 @@ bioconductor-refnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-refnet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-refnet:<tag>
 
    (see `bioconductor-refnet/tags`_ for valid values for ``<tag>``)
 

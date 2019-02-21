@@ -51,7 +51,7 @@ bioconductor-trigger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-trigger:<tag>
+      docker pull quay.io/biocontainers/bioconductor-trigger:<tag>
 
    (see `bioconductor-trigger/tags`_ for valid values for ``<tag>``)
 

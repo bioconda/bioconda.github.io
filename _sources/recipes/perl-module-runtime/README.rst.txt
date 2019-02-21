@@ -40,7 +40,7 @@ perl-module-runtime
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-runtime:<tag>
+      docker pull quay.io/biocontainers/perl-module-runtime:<tag>
 
    (see `perl-module-runtime/tags`_ for valid values for ``<tag>``)
 

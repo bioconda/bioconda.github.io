@@ -89,7 +89,7 @@ bioconductor-chromvar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chromvar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chromvar:<tag>
 
    (see `bioconductor-chromvar/tags`_ for valid values for ``<tag>``)
 

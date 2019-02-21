@@ -51,7 +51,7 @@ bioconductor-ssviz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ssviz:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ssviz:<tag>
 
    (see `bioconductor-ssviz/tags`_ for valid values for ``<tag>``)
 

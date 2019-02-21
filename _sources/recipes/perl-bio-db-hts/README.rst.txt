@@ -46,7 +46,7 @@ perl-bio-db-hts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-db-hts:<tag>
+      docker pull quay.io/biocontainers/perl-bio-db-hts:<tag>
 
    (see `perl-bio-db-hts/tags`_ for valid values for ``<tag>``)
 

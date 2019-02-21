@@ -40,7 +40,7 @@ pyliftover
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyliftover:<tag>
+      docker pull quay.io/biocontainers/pyliftover:<tag>
 
    (see `pyliftover/tags`_ for valid values for ``<tag>``)
 

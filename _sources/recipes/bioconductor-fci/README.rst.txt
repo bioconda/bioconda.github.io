@@ -38,7 +38,7 @@ bioconductor-fci
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fci:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fci:<tag>
 
    (see `bioconductor-fci/tags`_ for valid values for ``<tag>``)
 

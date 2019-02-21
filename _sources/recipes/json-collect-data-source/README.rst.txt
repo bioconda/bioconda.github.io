@@ -40,7 +40,7 @@ json_collect_data_source
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/json_collect_data_source:<tag>
+      docker pull quay.io/biocontainers/json_collect_data_source:<tag>
 
    (see `json_collect_data_source/tags`_ for valid values for ``<tag>``)
 

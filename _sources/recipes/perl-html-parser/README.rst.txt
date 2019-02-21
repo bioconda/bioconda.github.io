@@ -46,7 +46,7 @@ perl-html-parser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-parser:<tag>
+      docker pull quay.io/biocontainers/perl-html-parser:<tag>
 
    (see `perl-html-parser/tags`_ for valid values for ``<tag>``)
 

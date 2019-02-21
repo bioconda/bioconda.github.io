@@ -64,7 +64,7 @@ bioconductor-intad
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-intad:<tag>
+      docker pull quay.io/biocontainers/bioconductor-intad:<tag>
 
    (see `bioconductor-intad/tags`_ for valid values for ``<tag>``)
 

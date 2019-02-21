@@ -56,7 +56,7 @@ bioconductor-adsplit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-adsplit:<tag>
+      docker pull quay.io/biocontainers/bioconductor-adsplit:<tag>
 
    (see `bioconductor-adsplit/tags`_ for valid values for ``<tag>``)
 

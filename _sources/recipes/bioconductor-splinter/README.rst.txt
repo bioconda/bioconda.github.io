@@ -71,7 +71,7 @@ bioconductor-splinter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-splinter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-splinter:<tag>
 
    (see `bioconductor-splinter/tags`_ for valid values for ``<tag>``)
 

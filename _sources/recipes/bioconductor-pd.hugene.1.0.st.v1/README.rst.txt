@@ -56,7 +56,7 @@ bioconductor-pd.hugene.1.0.st.v1
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.hugene.1.0.st.v1:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.hugene.1.0.st.v1:<tag>
 
    (see `bioconductor-pd.hugene.1.0.st.v1/tags`_ for valid values for ``<tag>``)
 

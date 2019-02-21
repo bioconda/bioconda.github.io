@@ -40,7 +40,7 @@ perl-sort-naturally
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sort-naturally:<tag>
+      docker pull quay.io/biocontainers/perl-sort-naturally:<tag>
 
    (see `perl-sort-naturally/tags`_ for valid values for ``<tag>``)
 

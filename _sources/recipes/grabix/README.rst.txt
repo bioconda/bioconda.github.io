@@ -42,7 +42,7 @@ grabix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/grabix:<tag>
+      docker pull quay.io/biocontainers/grabix:<tag>
 
    (see `grabix/tags`_ for valid values for ``<tag>``)
 

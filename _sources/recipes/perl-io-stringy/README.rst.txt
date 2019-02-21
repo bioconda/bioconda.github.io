@@ -40,7 +40,7 @@ perl-io-stringy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-stringy:<tag>
+      docker pull quay.io/biocontainers/perl-io-stringy:<tag>
 
    (see `perl-io-stringy/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ ucsc-psltobed
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-psltobed:<tag>
+      docker pull quay.io/biocontainers/ucsc-psltobed:<tag>
 
    (see `ucsc-psltobed/tags`_ for valid values for ``<tag>``)
 

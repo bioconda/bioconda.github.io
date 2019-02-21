@@ -40,7 +40,7 @@ libsequence
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/libsequence:<tag>
+      docker pull quay.io/biocontainers/libsequence:<tag>
 
    (see `libsequence/tags`_ for valid values for ``<tag>``)
 

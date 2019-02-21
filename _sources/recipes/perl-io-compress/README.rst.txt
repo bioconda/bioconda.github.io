@@ -50,7 +50,7 @@ perl-io-compress
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-compress:<tag>
+      docker pull quay.io/biocontainers/perl-io-compress:<tag>
 
    (see `perl-io-compress/tags`_ for valid values for ``<tag>``)
 

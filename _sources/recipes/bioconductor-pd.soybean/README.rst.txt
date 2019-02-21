@@ -56,7 +56,7 @@ bioconductor-pd.soybean
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.soybean:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.soybean:<tag>
 
    (see `bioconductor-pd.soybean/tags`_ for valid values for ``<tag>``)
 

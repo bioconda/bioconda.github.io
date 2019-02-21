@@ -53,7 +53,7 @@ bioconductor-biocparallel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocparallel:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biocparallel:<tag>
 
    (see `bioconductor-biocparallel/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ bioconductor-fgnet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fgnet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fgnet:<tag>
 
    (see `bioconductor-fgnet/tags`_ for valid values for ``<tag>``)
 

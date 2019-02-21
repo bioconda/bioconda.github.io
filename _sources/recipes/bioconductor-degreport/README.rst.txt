@@ -99,7 +99,7 @@ bioconductor-degreport
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-degreport:<tag>
+      docker pull quay.io/biocontainers/bioconductor-degreport:<tag>
 
    (see `bioconductor-degreport/tags`_ for valid values for ``<tag>``)
 

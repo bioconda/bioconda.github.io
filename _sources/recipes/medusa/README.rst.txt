@@ -47,7 +47,7 @@ medusa-data-fusion
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/medusa-data-fusion:<tag>
+      docker pull quay.io/biocontainers/medusa-data-fusion:<tag>
 
    (see `medusa-data-fusion/tags`_ for valid values for ``<tag>``)
 

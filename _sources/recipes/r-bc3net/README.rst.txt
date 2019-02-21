@@ -50,7 +50,7 @@ r-bc3net
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-bc3net:<tag>
+      docker pull quay.io/biocontainers/r-bc3net:<tag>
 
    (see `r-bc3net/tags`_ for valid values for ``<tag>``)
 

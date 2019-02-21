@@ -44,7 +44,7 @@ bioconductor-wheatcdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-wheatcdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-wheatcdf:<tag>
 
    (see `bioconductor-wheatcdf/tags`_ for valid values for ``<tag>``)
 

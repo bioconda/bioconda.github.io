@@ -115,7 +115,7 @@ comparative-annotation-toolkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/comparative-annotation-toolkit:<tag>
+      docker pull quay.io/biocontainers/comparative-annotation-toolkit:<tag>
 
    (see `comparative-annotation-toolkit/tags`_ for valid values for ``<tag>``)
 

@@ -60,7 +60,7 @@ plantcv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plantcv:<tag>
+      docker pull quay.io/biocontainers/plantcv:<tag>
 
    (see `plantcv/tags`_ for valid values for ``<tag>``)
 

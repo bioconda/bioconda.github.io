@@ -60,7 +60,7 @@ r-biodb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-biodb:<tag>
+      docker pull quay.io/biocontainers/r-biodb:<tag>
 
    (see `r-biodb/tags`_ for valid values for ``<tag>``)
 

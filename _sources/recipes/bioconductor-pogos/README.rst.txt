@@ -52,7 +52,7 @@ bioconductor-pogos
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pogos:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pogos:<tag>
 
    (see `bioconductor-pogos/tags`_ for valid values for ``<tag>``)
 

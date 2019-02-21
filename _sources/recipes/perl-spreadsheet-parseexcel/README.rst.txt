@@ -54,7 +54,7 @@ perl-spreadsheet-parseexcel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-spreadsheet-parseexcel:<tag>
+      docker pull quay.io/biocontainers/perl-spreadsheet-parseexcel:<tag>
 
    (see `perl-spreadsheet-parseexcel/tags`_ for valid values for ``<tag>``)
 

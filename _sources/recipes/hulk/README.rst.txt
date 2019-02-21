@@ -38,7 +38,7 @@ hulk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hulk:<tag>
+      docker pull quay.io/biocontainers/hulk:<tag>
 
    (see `hulk/tags`_ for valid values for ``<tag>``)
 

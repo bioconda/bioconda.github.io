@@ -50,7 +50,7 @@ r-cimpl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-cimpl:<tag>
+      docker pull quay.io/biocontainers/r-cimpl:<tag>
 
    (see `r-cimpl/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ mvicuna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mvicuna:<tag>
+      docker pull quay.io/biocontainers/mvicuna:<tag>
 
    (see `mvicuna/tags`_ for valid values for ``<tag>``)
 

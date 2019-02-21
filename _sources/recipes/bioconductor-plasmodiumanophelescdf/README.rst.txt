@@ -44,7 +44,7 @@ bioconductor-plasmodiumanophelescdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-plasmodiumanophelescdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-plasmodiumanophelescdf:<tag>
 
    (see `bioconductor-plasmodiumanophelescdf/tags`_ for valid values for ``<tag>``)
 

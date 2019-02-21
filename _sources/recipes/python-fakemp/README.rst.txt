@@ -40,7 +40,7 @@ python-fakemp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-fakemp:<tag>
+      docker pull quay.io/biocontainers/python-fakemp:<tag>
 
    (see `python-fakemp/tags`_ for valid values for ``<tag>``)
 

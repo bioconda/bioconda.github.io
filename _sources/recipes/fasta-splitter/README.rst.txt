@@ -42,7 +42,7 @@ fasta-splitter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fasta-splitter:<tag>
+      docker pull quay.io/biocontainers/fasta-splitter:<tag>
 
    (see `fasta-splitter/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ barrnap-python
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/barrnap-python:<tag>
+      docker pull quay.io/biocontainers/barrnap-python:<tag>
 
    (see `barrnap-python/tags`_ for valid values for ``<tag>``)
 

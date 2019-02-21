@@ -46,7 +46,7 @@ cansnper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cansnper:<tag>
+      docker pull quay.io/biocontainers/cansnper:<tag>
 
    (see `cansnper/tags`_ for valid values for ``<tag>``)
 

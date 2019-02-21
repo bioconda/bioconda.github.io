@@ -40,7 +40,7 @@ perl-symbol
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-symbol:<tag>
+      docker pull quay.io/biocontainers/perl-symbol:<tag>
 
    (see `perl-symbol/tags`_ for valid values for ``<tag>``)
 

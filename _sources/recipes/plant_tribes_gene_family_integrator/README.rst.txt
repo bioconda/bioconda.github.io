@@ -40,7 +40,7 @@ plant_tribes_gene_family_integrator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plant_tribes_gene_family_integrator:<tag>
+      docker pull quay.io/biocontainers/plant_tribes_gene_family_integrator:<tag>
 
    (see `plant_tribes_gene_family_integrator/tags`_ for valid values for ``<tag>``)
 

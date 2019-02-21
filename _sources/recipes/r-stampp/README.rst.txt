@@ -48,7 +48,7 @@ r-stampp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-stampp:<tag>
+      docker pull quay.io/biocontainers/r-stampp:<tag>
 
    (see `r-stampp/tags`_ for valid values for ``<tag>``)
 

@@ -72,7 +72,7 @@ r-mixomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-mixomics:<tag>
+      docker pull quay.io/biocontainers/r-mixomics:<tag>
 
    (see `r-mixomics/tags`_ for valid values for ``<tag>``)
 

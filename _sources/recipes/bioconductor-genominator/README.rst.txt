@@ -51,7 +51,7 @@ bioconductor-genominator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genominator:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genominator:<tag>
 
    (see `bioconductor-genominator/tags`_ for valid values for ``<tag>``)
 

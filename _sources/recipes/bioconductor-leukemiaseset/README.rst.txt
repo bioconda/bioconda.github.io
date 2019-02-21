@@ -44,7 +44,7 @@ bioconductor-leukemiaseset
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-leukemiaseset:<tag>
+      docker pull quay.io/biocontainers/bioconductor-leukemiaseset:<tag>
 
    (see `bioconductor-leukemiaseset/tags`_ for valid values for ``<tag>``)
 

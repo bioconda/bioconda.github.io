@@ -44,7 +44,7 @@ perl-par-dist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-par-dist:<tag>
+      docker pull quay.io/biocontainers/perl-par-dist:<tag>
 
    (see `perl-par-dist/tags`_ for valid values for ``<tag>``)
 

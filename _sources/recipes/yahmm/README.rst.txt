@@ -50,7 +50,7 @@ yahmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/yahmm:<tag>
+      docker pull quay.io/biocontainers/yahmm:<tag>
 
    (see `yahmm/tags`_ for valid values for ``<tag>``)
 

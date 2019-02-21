@@ -48,7 +48,7 @@ mentalist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mentalist:<tag>
+      docker pull quay.io/biocontainers/mentalist:<tag>
 
    (see `mentalist/tags`_ for valid values for ``<tag>``)
 

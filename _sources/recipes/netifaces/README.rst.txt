@@ -42,7 +42,7 @@ netifaces
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/netifaces:<tag>
+      docker pull quay.io/biocontainers/netifaces:<tag>
 
    (see `netifaces/tags`_ for valid values for ``<tag>``)
 

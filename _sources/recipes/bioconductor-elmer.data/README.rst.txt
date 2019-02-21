@@ -44,7 +44,7 @@ bioconductor-elmer.data
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-elmer.data:<tag>
+      docker pull quay.io/biocontainers/bioconductor-elmer.data:<tag>
 
    (see `bioconductor-elmer.data/tags`_ for valid values for ``<tag>``)
 

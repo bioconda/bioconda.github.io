@@ -89,7 +89,7 @@ phame
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phame:<tag>
+      docker pull quay.io/biocontainers/phame:<tag>
 
    (see `phame/tags`_ for valid values for ``<tag>``)
 

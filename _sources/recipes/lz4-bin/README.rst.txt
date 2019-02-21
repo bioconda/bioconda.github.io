@@ -40,7 +40,7 @@ lz4-bin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lz4-bin:<tag>
+      docker pull quay.io/biocontainers/lz4-bin:<tag>
 
    (see `lz4-bin/tags`_ for valid values for ``<tag>``)
 

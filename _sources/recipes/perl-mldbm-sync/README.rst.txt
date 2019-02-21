@@ -44,7 +44,7 @@ perl-mldbm-sync
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mldbm-sync:<tag>
+      docker pull quay.io/biocontainers/perl-mldbm-sync:<tag>
 
    (see `perl-mldbm-sync/tags`_ for valid values for ``<tag>``)
 

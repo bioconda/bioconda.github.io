@@ -42,7 +42,7 @@ bioconductor-biotmledata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biotmledata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biotmledata:<tag>
 
    (see `bioconductor-biotmledata/tags`_ for valid values for ``<tag>``)
 

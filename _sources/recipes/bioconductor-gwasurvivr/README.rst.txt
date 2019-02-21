@@ -52,7 +52,7 @@ bioconductor-gwasurvivr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gwasurvivr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gwasurvivr:<tag>
 
    (see `bioconductor-gwasurvivr/tags`_ for valid values for ``<tag>``)
 

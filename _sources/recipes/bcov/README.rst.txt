@@ -43,7 +43,7 @@ bcov
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcov:<tag>
+      docker pull quay.io/biocontainers/bcov:<tag>
 
    (see `bcov/tags`_ for valid values for ``<tag>``)
 

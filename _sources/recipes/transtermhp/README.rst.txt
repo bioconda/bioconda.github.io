@@ -40,7 +40,7 @@ transtermhp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/transtermhp:<tag>
+      docker pull quay.io/biocontainers/transtermhp:<tag>
 
    (see `transtermhp/tags`_ for valid values for ``<tag>``)
 

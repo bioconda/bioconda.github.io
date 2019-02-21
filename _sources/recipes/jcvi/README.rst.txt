@@ -56,7 +56,7 @@ jcvi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/jcvi:<tag>
+      docker pull quay.io/biocontainers/jcvi:<tag>
 
    (see `jcvi/tags`_ for valid values for ``<tag>``)
 

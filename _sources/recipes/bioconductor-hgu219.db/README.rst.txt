@@ -46,7 +46,7 @@ bioconductor-hgu219.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hgu219.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hgu219.db:<tag>
 
    (see `bioconductor-hgu219.db/tags`_ for valid values for ``<tag>``)
 

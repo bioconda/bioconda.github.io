@@ -42,7 +42,7 @@ graphmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/graphmap:<tag>
+      docker pull quay.io/biocontainers/graphmap:<tag>
 
    (see `graphmap/tags`_ for valid values for ``<tag>``)
 

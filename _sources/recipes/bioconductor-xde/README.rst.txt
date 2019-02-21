@@ -63,7 +63,7 @@ bioconductor-xde
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xde:<tag>
+      docker pull quay.io/biocontainers/bioconductor-xde:<tag>
 
    (see `bioconductor-xde/tags`_ for valid values for ``<tag>``)
 

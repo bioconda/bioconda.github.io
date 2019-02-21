@@ -51,7 +51,7 @@ bioconductor-chicago
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chicago:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chicago:<tag>
 
    (see `bioconductor-chicago/tags`_ for valid values for ``<tag>``)
 

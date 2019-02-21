@@ -54,7 +54,7 @@ valet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/valet:<tag>
+      docker pull quay.io/biocontainers/valet:<tag>
 
    (see `valet/tags`_ for valid values for ``<tag>``)
 

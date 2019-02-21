@@ -54,7 +54,7 @@ bioconductor-pd.mirna.3.1
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.mirna.3.1:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.mirna.3.1:<tag>
 
    (see `bioconductor-pd.mirna.3.1/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-onassisjavalibs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-onassisjavalibs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-onassisjavalibs:<tag>
 
    (see `bioconductor-onassisjavalibs/tags`_ for valid values for ``<tag>``)
 

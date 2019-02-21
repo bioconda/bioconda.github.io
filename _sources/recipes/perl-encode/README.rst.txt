@@ -44,7 +44,7 @@ perl-encode
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-encode:<tag>
+      docker pull quay.io/biocontainers/perl-encode:<tag>
 
    (see `perl-encode/tags`_ for valid values for ``<tag>``)
 

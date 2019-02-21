@@ -42,7 +42,7 @@ perl-storable
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-storable:<tag>
+      docker pull quay.io/biocontainers/perl-storable:<tag>
 
    (see `perl-storable/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ r-gap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-gap:<tag>
+      docker pull quay.io/biocontainers/r-gap:<tag>
 
    (see `r-gap/tags`_ for valid values for ``<tag>``)
 

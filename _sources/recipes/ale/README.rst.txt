@@ -52,7 +52,7 @@ ale
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ale:<tag>
+      docker pull quay.io/biocontainers/ale:<tag>
 
    (see `ale/tags`_ for valid values for ``<tag>``)
 

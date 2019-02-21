@@ -42,7 +42,7 @@ cancerit-allelecount
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cancerit-allelecount:<tag>
+      docker pull quay.io/biocontainers/cancerit-allelecount:<tag>
 
    (see `cancerit-allelecount/tags`_ for valid values for ``<tag>``)
 

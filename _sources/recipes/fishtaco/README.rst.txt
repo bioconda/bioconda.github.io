@@ -52,7 +52,7 @@ fishtaco
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fishtaco:<tag>
+      docker pull quay.io/biocontainers/fishtaco:<tag>
 
    (see `fishtaco/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ simple_sv_annotation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/simple_sv_annotation:<tag>
+      docker pull quay.io/biocontainers/simple_sv_annotation:<tag>
 
    (see `simple_sv_annotation/tags`_ for valid values for ``<tag>``)
 

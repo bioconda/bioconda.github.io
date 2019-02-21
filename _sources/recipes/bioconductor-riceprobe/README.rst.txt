@@ -44,7 +44,7 @@ bioconductor-riceprobe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-riceprobe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-riceprobe:<tag>
 
    (see `bioconductor-riceprobe/tags`_ for valid values for ``<tag>``)
 

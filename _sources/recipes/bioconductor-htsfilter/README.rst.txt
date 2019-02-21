@@ -51,7 +51,7 @@ bioconductor-htsfilter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-htsfilter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-htsfilter:<tag>
 
    (see `bioconductor-htsfilter/tags`_ for valid values for ``<tag>``)
 

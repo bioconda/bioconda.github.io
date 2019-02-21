@@ -56,7 +56,7 @@ nanoplotter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanoplotter:<tag>
+      docker pull quay.io/biocontainers/nanoplotter:<tag>
 
    (see `nanoplotter/tags`_ for valid values for ``<tag>``)
 

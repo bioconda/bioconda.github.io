@@ -42,7 +42,7 @@ bioconductor-hellorangesdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hellorangesdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hellorangesdata:<tag>
 
    (see `bioconductor-hellorangesdata/tags`_ for valid values for ``<tag>``)
 

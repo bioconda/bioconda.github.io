@@ -62,7 +62,7 @@ r-fastqcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-fastqcr:<tag>
+      docker pull quay.io/biocontainers/r-fastqcr:<tag>
 
    (see `r-fastqcr/tags`_ for valid values for ``<tag>``)
 

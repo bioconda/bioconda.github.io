@@ -62,7 +62,7 @@ forgi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/forgi:<tag>
+      docker pull quay.io/biocontainers/forgi:<tag>
 
    (see `forgi/tags`_ for valid values for ``<tag>``)
 

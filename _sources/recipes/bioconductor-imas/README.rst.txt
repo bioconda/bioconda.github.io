@@ -80,7 +80,7 @@ bioconductor-imas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-imas:<tag>
+      docker pull quay.io/biocontainers/bioconductor-imas:<tag>
 
    (see `bioconductor-imas/tags`_ for valid values for ``<tag>``)
 

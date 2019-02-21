@@ -43,7 +43,7 @@ bioconductor-genomegraphs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genomegraphs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genomegraphs:<tag>
 
    (see `bioconductor-genomegraphs/tags`_ for valid values for ``<tag>``)
 

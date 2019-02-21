@@ -69,7 +69,7 @@ bioconductor-genomicfeatures
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genomicfeatures:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genomicfeatures:<tag>
 
    (see `bioconductor-genomicfeatures/tags`_ for valid values for ``<tag>``)
 

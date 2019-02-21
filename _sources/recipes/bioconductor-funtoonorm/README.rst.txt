@@ -52,7 +52,7 @@ bioconductor-funtoonorm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-funtoonorm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-funtoonorm:<tag>
 
    (see `bioconductor-funtoonorm/tags`_ for valid values for ``<tag>``)
 

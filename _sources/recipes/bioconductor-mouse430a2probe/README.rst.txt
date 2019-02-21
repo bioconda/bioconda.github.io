@@ -44,7 +44,7 @@ bioconductor-mouse430a2probe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mouse430a2probe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mouse430a2probe:<tag>
 
    (see `bioconductor-mouse430a2probe/tags`_ for valid values for ``<tag>``)
 

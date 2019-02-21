@@ -44,7 +44,7 @@ bioconductor-sepira
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sepira:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sepira:<tag>
 
    (see `bioconductor-sepira/tags`_ for valid values for ``<tag>``)
 

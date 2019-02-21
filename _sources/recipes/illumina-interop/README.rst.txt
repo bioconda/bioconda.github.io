@@ -43,7 +43,7 @@ illumina-interop
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/illumina-interop:<tag>
+      docker pull quay.io/biocontainers/illumina-interop:<tag>
 
    (see `illumina-interop/tags`_ for valid values for ``<tag>``)
 

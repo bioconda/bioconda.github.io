@@ -40,7 +40,7 @@ flock
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flock:<tag>
+      docker pull quay.io/biocontainers/flock:<tag>
 
    (see `flock/tags`_ for valid values for ``<tag>``)
 

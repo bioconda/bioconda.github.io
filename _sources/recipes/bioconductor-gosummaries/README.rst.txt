@@ -58,7 +58,7 @@ bioconductor-gosummaries
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gosummaries:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gosummaries:<tag>
 
    (see `bioconductor-gosummaries/tags`_ for valid values for ``<tag>``)
 

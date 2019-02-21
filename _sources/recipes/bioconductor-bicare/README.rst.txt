@@ -49,7 +49,7 @@ bioconductor-bicare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bicare:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bicare:<tag>
 
    (see `bioconductor-bicare/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ umis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/umis:<tag>
+      docker pull quay.io/biocontainers/umis:<tag>
 
    (see `umis/tags`_ for valid values for ``<tag>``)
 

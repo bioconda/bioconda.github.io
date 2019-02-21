@@ -53,7 +53,7 @@ bioconductor-basic4cseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-basic4cseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-basic4cseq:<tag>
 
    (see `bioconductor-basic4cseq/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-rnbeads.hg38
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnbeads.hg38:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rnbeads.hg38:<tag>
 
    (see `bioconductor-rnbeads.hg38/tags`_ for valid values for ``<tag>``)
 

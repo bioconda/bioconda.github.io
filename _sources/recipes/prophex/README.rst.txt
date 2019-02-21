@@ -44,7 +44,7 @@ prophex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/prophex:<tag>
+      docker pull quay.io/biocontainers/prophex:<tag>
 
    (see `prophex/tags`_ for valid values for ``<tag>``)
 

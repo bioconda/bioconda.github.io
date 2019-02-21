@@ -43,7 +43,7 @@ bioconductor-affypdnn
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affypdnn:<tag>
+      docker pull quay.io/biocontainers/bioconductor-affypdnn:<tag>
 
    (see `bioconductor-affypdnn/tags`_ for valid values for ``<tag>``)
 

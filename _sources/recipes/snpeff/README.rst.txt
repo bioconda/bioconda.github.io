@@ -41,7 +41,7 @@ snpeff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snpeff:<tag>
+      docker pull quay.io/biocontainers/snpeff:<tag>
 
    (see `snpeff/tags`_ for valid values for ``<tag>``)
 

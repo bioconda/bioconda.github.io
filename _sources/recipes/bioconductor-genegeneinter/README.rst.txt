@@ -64,7 +64,7 @@ bioconductor-genegeneinter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genegeneinter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genegeneinter:<tag>
 
    (see `bioconductor-genegeneinter/tags`_ for valid values for ``<tag>``)
 

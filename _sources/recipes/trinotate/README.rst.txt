@@ -56,7 +56,7 @@ trinotate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trinotate:<tag>
+      docker pull quay.io/biocontainers/trinotate:<tag>
 
    (see `trinotate/tags`_ for valid values for ``<tag>``)
 

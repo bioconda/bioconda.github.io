@@ -42,7 +42,7 @@ perl-authen-sasl-saslprep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-authen-sasl-saslprep:<tag>
+      docker pull quay.io/biocontainers/perl-authen-sasl-saslprep:<tag>
 
    (see `perl-authen-sasl-saslprep/tags`_ for valid values for ``<tag>``)
 

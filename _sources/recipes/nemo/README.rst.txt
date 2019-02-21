@@ -44,7 +44,7 @@ nemo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nemo:<tag>
+      docker pull quay.io/biocontainers/nemo:<tag>
 
    (see `nemo/tags`_ for valid values for ``<tag>``)
 

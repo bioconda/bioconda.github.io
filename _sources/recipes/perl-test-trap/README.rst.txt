@@ -56,7 +56,7 @@ perl-test-trap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-trap:<tag>
+      docker pull quay.io/biocontainers/perl-test-trap:<tag>
 
    (see `perl-test-trap/tags`_ for valid values for ``<tag>``)
 

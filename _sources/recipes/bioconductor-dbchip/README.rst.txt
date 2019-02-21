@@ -44,7 +44,7 @@ bioconductor-dbchip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dbchip:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dbchip:<tag>
 
    (see `bioconductor-dbchip/tags`_ for valid values for ``<tag>``)
 

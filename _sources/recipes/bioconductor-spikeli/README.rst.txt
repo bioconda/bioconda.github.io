@@ -41,7 +41,7 @@ bioconductor-spikeli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-spikeli:<tag>
+      docker pull quay.io/biocontainers/bioconductor-spikeli:<tag>
 
    (see `bioconductor-spikeli/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ macs2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/macs2:<tag>
+      docker pull quay.io/biocontainers/macs2:<tag>
 
    (see `macs2/tags`_ for valid values for ``<tag>``)
 

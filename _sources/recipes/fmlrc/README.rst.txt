@@ -43,7 +43,7 @@ fmlrc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fmlrc:<tag>
+      docker pull quay.io/biocontainers/fmlrc:<tag>
 
    (see `fmlrc/tags`_ for valid values for ``<tag>``)
 

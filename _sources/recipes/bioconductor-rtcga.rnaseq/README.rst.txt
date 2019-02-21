@@ -44,7 +44,7 @@ bioconductor-rtcga.rnaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.rnaseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtcga.rnaseq:<tag>
 
    (see `bioconductor-rtcga.rnaseq/tags`_ for valid values for ``<tag>``)
 

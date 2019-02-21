@@ -45,7 +45,7 @@ biopet-scatterregions
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-scatterregions:<tag>
+      docker pull quay.io/biocontainers/biopet-scatterregions:<tag>
 
    (see `biopet-scatterregions/tags`_ for valid values for ``<tag>``)
 

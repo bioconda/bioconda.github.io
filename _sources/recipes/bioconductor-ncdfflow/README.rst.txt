@@ -63,7 +63,7 @@ bioconductor-ncdfflow
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ncdfflow:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ncdfflow:<tag>
 
    (see `bioconductor-ncdfflow/tags`_ for valid values for ``<tag>``)
 

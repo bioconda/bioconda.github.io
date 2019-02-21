@@ -82,7 +82,7 @@ toil
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/toil:<tag>
+      docker pull quay.io/biocontainers/toil:<tag>
 
    (see `toil/tags`_ for valid values for ``<tag>``)
 

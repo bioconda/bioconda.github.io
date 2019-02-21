@@ -64,7 +64,7 @@ perl-module-fromperlver
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-module-fromperlver:<tag>
+      docker pull quay.io/biocontainers/perl-module-fromperlver:<tag>
 
    (see `perl-module-fromperlver/tags`_ for valid values for ``<tag>``)
 

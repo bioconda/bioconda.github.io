@@ -45,7 +45,7 @@ trim-galore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trim-galore:<tag>
+      docker pull quay.io/biocontainers/trim-galore:<tag>
 
    (see `trim-galore/tags`_ for valid values for ``<tag>``)
 

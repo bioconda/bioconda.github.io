@@ -44,7 +44,7 @@ bioconductor-xenopuslaeviscdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xenopuslaeviscdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-xenopuslaeviscdf:<tag>
 
    (see `bioconductor-xenopuslaeviscdf/tags`_ for valid values for ``<tag>``)
 

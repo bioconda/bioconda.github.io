@@ -78,7 +78,7 @@ bcbio-nextgen-vm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcbio-nextgen-vm:<tag>
+      docker pull quay.io/biocontainers/bcbio-nextgen-vm:<tag>
 
    (see `bcbio-nextgen-vm/tags`_ for valid values for ``<tag>``)
 

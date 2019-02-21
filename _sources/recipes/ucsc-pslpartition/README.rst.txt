@@ -50,7 +50,7 @@ ucsc-pslpartition
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslpartition:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslpartition:<tag>
 
    (see `ucsc-pslpartition/tags`_ for valid values for ``<tag>``)
 

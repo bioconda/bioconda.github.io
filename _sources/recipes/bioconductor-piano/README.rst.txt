@@ -55,7 +55,7 @@ bioconductor-piano
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-piano:<tag>
+      docker pull quay.io/biocontainers/bioconductor-piano:<tag>
 
    (see `bioconductor-piano/tags`_ for valid values for ``<tag>``)
 

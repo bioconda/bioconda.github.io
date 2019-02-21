@@ -46,7 +46,7 @@ bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene:<tag>
 
    (see `bioconductor-txdb.hsapiens.ucsc.hg19.knowngene/tags`_ for valid values for ``<tag>``)
 

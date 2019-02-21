@@ -44,7 +44,7 @@ razers3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/razers3:<tag>
+      docker pull quay.io/biocontainers/razers3:<tag>
 
    (see `razers3/tags`_ for valid values for ``<tag>``)
 

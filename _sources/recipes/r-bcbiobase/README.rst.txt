@@ -89,7 +89,7 @@ r-bcbiobase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-bcbiobase:<tag>
+      docker pull quay.io/biocontainers/r-bcbiobase:<tag>
 
    (see `r-bcbiobase/tags`_ for valid values for ``<tag>``)
 

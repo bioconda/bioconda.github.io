@@ -40,7 +40,7 @@ vkmz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vkmz:<tag>
+      docker pull quay.io/biocontainers/vkmz:<tag>
 
    (see `vkmz/tags`_ for valid values for ``<tag>``)
 

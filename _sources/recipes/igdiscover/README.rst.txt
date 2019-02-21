@@ -71,7 +71,7 @@ igdiscover
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/igdiscover:<tag>
+      docker pull quay.io/biocontainers/igdiscover:<tag>
 
    (see `igdiscover/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ seqbuster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seqbuster:<tag>
+      docker pull quay.io/biocontainers/seqbuster:<tag>
 
    (see `seqbuster/tags`_ for valid values for ``<tag>``)
 

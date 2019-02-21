@@ -42,7 +42,7 @@ perl-unicode-map
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-unicode-map:<tag>
+      docker pull quay.io/biocontainers/perl-unicode-map:<tag>
 
    (see `perl-unicode-map/tags`_ for valid values for ``<tag>``)
 

@@ -53,7 +53,7 @@ bioconductor-mdgsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mdgsa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mdgsa:<tag>
 
    (see `bioconductor-mdgsa/tags`_ for valid values for ``<tag>``)
 

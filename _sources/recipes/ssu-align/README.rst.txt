@@ -42,7 +42,7 @@ ssu-align
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ssu-align:<tag>
+      docker pull quay.io/biocontainers/ssu-align:<tag>
 
    (see `ssu-align/tags`_ for valid values for ``<tag>``)
 

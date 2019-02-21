@@ -42,7 +42,7 @@ domclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/domclust:<tag>
+      docker pull quay.io/biocontainers/domclust:<tag>
 
    (see `domclust/tags`_ for valid values for ``<tag>``)
 

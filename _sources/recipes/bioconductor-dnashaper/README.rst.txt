@@ -53,7 +53,7 @@ bioconductor-dnashaper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dnashaper:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dnashaper:<tag>
 
    (see `bioconductor-dnashaper/tags`_ for valid values for ``<tag>``)
 

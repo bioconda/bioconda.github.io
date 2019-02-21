@@ -42,7 +42,7 @@ bioconductor-sclcbam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sclcbam:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sclcbam:<tag>
 
    (see `bioconductor-sclcbam/tags`_ for valid values for ``<tag>``)
 

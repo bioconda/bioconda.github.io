@@ -59,7 +59,7 @@ bioconductor-topgo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-topgo:<tag>
+      docker pull quay.io/biocontainers/bioconductor-topgo:<tag>
 
    (see `bioconductor-topgo/tags`_ for valid values for ``<tag>``)
 

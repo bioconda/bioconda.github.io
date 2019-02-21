@@ -56,7 +56,7 @@ humann2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/humann2:<tag>
+      docker pull quay.io/biocontainers/humann2:<tag>
 
    (see `humann2/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ bioconductor-txdb.athaliana.biomart.plantsmart25
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.athaliana.biomart.plantsmart25:<tag>
+      docker pull quay.io/biocontainers/bioconductor-txdb.athaliana.biomart.plantsmart25:<tag>
 
    (see `bioconductor-txdb.athaliana.biomart.plantsmart25/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ bioconductor-bumhmm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bumhmm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bumhmm:<tag>
 
    (see `bioconductor-bumhmm/tags`_ for valid values for ``<tag>``)
 

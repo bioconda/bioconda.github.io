@@ -40,7 +40,7 @@ nasm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nasm:<tag>
+      docker pull quay.io/biocontainers/nasm:<tag>
 
    (see `nasm/tags`_ for valid values for ``<tag>``)
 

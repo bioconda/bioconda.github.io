@@ -50,7 +50,7 @@ bioconductor-xhybcasneuf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xhybcasneuf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-xhybcasneuf:<tag>
 
    (see `bioconductor-xhybcasneuf/tags`_ for valid values for ``<tag>``)
 

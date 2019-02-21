@@ -46,7 +46,7 @@ molpopgen-analysis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/molpopgen-analysis:<tag>
+      docker pull quay.io/biocontainers/molpopgen-analysis:<tag>
 
    (see `molpopgen-analysis/tags`_ for valid values for ``<tag>``)
 

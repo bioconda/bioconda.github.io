@@ -43,7 +43,7 @@ bioconductor-spacepac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-spacepac:<tag>
+      docker pull quay.io/biocontainers/bioconductor-spacepac:<tag>
 
    (see `bioconductor-spacepac/tags`_ for valid values for ``<tag>``)
 

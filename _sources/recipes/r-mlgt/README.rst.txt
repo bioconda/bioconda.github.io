@@ -43,7 +43,7 @@ r-mlgt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-mlgt:<tag>
+      docker pull quay.io/biocontainers/r-mlgt:<tag>
 
    (see `r-mlgt/tags`_ for valid values for ``<tag>``)
 

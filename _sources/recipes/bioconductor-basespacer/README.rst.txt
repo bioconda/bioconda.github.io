@@ -45,7 +45,7 @@ bioconductor-basespacer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-basespacer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-basespacer:<tag>
 
    (see `bioconductor-basespacer/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-spiffy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-spiffy:<tag>
+      docker pull quay.io/biocontainers/perl-spiffy:<tag>
 
    (see `perl-spiffy/tags`_ for valid values for ``<tag>``)
 

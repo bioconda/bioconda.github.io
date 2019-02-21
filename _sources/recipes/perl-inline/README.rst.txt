@@ -42,7 +42,7 @@ perl-inline
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-inline:<tag>
+      docker pull quay.io/biocontainers/perl-inline:<tag>
 
    (see `perl-inline/tags`_ for valid values for ``<tag>``)
 

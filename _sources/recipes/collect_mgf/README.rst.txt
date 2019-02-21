@@ -41,7 +41,7 @@ collect_mgf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/collect_mgf:<tag>
+      docker pull quay.io/biocontainers/collect_mgf:<tag>
 
    (see `collect_mgf/tags`_ for valid values for ``<tag>``)
 

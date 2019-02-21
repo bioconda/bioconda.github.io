@@ -52,7 +52,7 @@ hg-color
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hg-color:<tag>
+      docker pull quay.io/biocontainers/hg-color:<tag>
 
    (see `hg-color/tags`_ for valid values for ``<tag>``)
 

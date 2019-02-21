@@ -46,7 +46,7 @@ r-ngsplotdb-mm10
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ngsplotdb-mm10:<tag>
+      docker pull quay.io/biocontainers/r-ngsplotdb-mm10:<tag>
 
    (see `r-ngsplotdb-mm10/tags`_ for valid values for ``<tag>``)
 

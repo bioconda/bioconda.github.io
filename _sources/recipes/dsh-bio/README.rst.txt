@@ -40,7 +40,7 @@ dsh-bio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dsh-bio:<tag>
+      docker pull quay.io/biocontainers/dsh-bio:<tag>
 
    (see `dsh-bio/tags`_ for valid values for ``<tag>``)
 

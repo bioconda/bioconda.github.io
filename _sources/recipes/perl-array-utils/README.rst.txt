@@ -40,7 +40,7 @@ perl-array-utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-array-utils:<tag>
+      docker pull quay.io/biocontainers/perl-array-utils:<tag>
 
    (see `perl-array-utils/tags`_ for valid values for ``<tag>``)
 

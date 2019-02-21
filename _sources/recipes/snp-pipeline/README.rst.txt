@@ -48,7 +48,7 @@ snp-pipeline
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snp-pipeline:<tag>
+      docker pull quay.io/biocontainers/snp-pipeline:<tag>
 
    (see `snp-pipeline/tags`_ for valid values for ``<tag>``)
 

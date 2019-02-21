@@ -56,7 +56,7 @@ python-bioext
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-bioext:<tag>
+      docker pull quay.io/biocontainers/python-bioext:<tag>
 
    (see `python-bioext/tags`_ for valid values for ``<tag>``)
 

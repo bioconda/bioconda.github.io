@@ -44,7 +44,7 @@ perl-tie-toobject
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-tie-toobject:<tag>
+      docker pull quay.io/biocontainers/perl-tie-toobject:<tag>
 
    (see `perl-tie-toobject/tags`_ for valid values for ``<tag>``)
 

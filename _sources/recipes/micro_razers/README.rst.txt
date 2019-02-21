@@ -44,7 +44,7 @@ micro_razers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/micro_razers:<tag>
+      docker pull quay.io/biocontainers/micro_razers:<tag>
 
    (see `micro_razers/tags`_ for valid values for ``<tag>``)
 

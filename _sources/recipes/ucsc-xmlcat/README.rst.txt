@@ -50,7 +50,7 @@ ucsc-xmlcat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-xmlcat:<tag>
+      docker pull quay.io/biocontainers/ucsc-xmlcat:<tag>
 
    (see `ucsc-xmlcat/tags`_ for valid values for ``<tag>``)
 

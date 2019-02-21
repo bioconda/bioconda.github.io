@@ -64,7 +64,7 @@ bioconductor-mirsponge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirsponge:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mirsponge:<tag>
 
    (see `bioconductor-mirsponge/tags`_ for valid values for ``<tag>``)
 

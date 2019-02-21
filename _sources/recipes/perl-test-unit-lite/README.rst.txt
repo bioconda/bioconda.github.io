@@ -40,7 +40,7 @@ perl-test-unit-lite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-unit-lite:<tag>
+      docker pull quay.io/biocontainers/perl-test-unit-lite:<tag>
 
    (see `perl-test-unit-lite/tags`_ for valid values for ``<tag>``)
 

@@ -57,7 +57,7 @@ rnaclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnaclust:<tag>
+      docker pull quay.io/biocontainers/rnaclust:<tag>
 
    (see `rnaclust/tags`_ for valid values for ``<tag>``)
 

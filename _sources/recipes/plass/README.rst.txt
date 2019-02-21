@@ -48,7 +48,7 @@ plass
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plass:<tag>
+      docker pull quay.io/biocontainers/plass:<tag>
 
    (see `plass/tags`_ for valid values for ``<tag>``)
 

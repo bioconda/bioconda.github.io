@@ -44,7 +44,7 @@ bioconductor-yeastexpdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-yeastexpdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-yeastexpdata:<tag>
 
    (see `bioconductor-yeastexpdata/tags`_ for valid values for ``<tag>``)
 

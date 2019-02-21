@@ -45,7 +45,7 @@ bioconductor-lfa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lfa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lfa:<tag>
 
    (see `bioconductor-lfa/tags`_ for valid values for ``<tag>``)
 

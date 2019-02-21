@@ -46,7 +46,7 @@ perl-getopt-argvfile
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-getopt-argvfile:<tag>
+      docker pull quay.io/biocontainers/perl-getopt-argvfile:<tag>
 
    (see `perl-getopt-argvfile/tags`_ for valid values for ``<tag>``)
 

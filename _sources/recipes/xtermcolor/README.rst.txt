@@ -40,7 +40,7 @@ xtermcolor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xtermcolor:<tag>
+      docker pull quay.io/biocontainers/xtermcolor:<tag>
 
    (see `xtermcolor/tags`_ for valid values for ``<tag>``)
 

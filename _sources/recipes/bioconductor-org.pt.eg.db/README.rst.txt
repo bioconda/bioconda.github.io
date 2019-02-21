@@ -44,7 +44,7 @@ bioconductor-org.pt.eg.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-org.pt.eg.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-org.pt.eg.db:<tag>
 
    (see `bioconductor-org.pt.eg.db/tags`_ for valid values for ``<tag>``)
 

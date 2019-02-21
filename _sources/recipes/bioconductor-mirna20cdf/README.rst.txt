@@ -44,7 +44,7 @@ bioconductor-mirna20cdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirna20cdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mirna20cdf:<tag>
 
    (see `bioconductor-mirna20cdf/tags`_ for valid values for ``<tag>``)
 

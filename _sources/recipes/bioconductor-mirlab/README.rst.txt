@@ -38,7 +38,7 @@ bioconductor-mirlab
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirlab:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mirlab:<tag>
 
    (see `bioconductor-mirlab/tags`_ for valid values for ``<tag>``)
 

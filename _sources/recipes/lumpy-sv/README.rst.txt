@@ -54,7 +54,7 @@ lumpy-sv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lumpy-sv:<tag>
+      docker pull quay.io/biocontainers/lumpy-sv:<tag>
 
    (see `lumpy-sv/tags`_ for valid values for ``<tag>``)
 

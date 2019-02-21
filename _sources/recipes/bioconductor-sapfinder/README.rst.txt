@@ -50,7 +50,7 @@ bioconductor-sapfinder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sapfinder:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sapfinder:<tag>
 
    (see `bioconductor-sapfinder/tags`_ for valid values for ``<tag>``)
 

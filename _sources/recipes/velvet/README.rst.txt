@@ -41,7 +41,7 @@ velvet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/velvet:<tag>
+      docker pull quay.io/biocontainers/velvet:<tag>
 
    (see `velvet/tags`_ for valid values for ``<tag>``)
 

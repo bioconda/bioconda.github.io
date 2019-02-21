@@ -52,7 +52,7 @@ r-sads
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-sads:<tag>
+      docker pull quay.io/biocontainers/r-sads:<tag>
 
    (see `r-sads/tags`_ for valid values for ``<tag>``)
 

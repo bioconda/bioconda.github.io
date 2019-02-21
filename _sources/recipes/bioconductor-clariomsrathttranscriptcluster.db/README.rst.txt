@@ -46,7 +46,7 @@ bioconductor-clariomsrathttranscriptcluster.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clariomsrathttranscriptcluster.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clariomsrathttranscriptcluster.db:<tag>
 
    (see `bioconductor-clariomsrathttranscriptcluster.db/tags`_ for valid values for ``<tag>``)
 

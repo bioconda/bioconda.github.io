@@ -76,7 +76,7 @@ riboseed
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/riboseed:<tag>
+      docker pull quay.io/biocontainers/riboseed:<tag>
 
    (see `riboseed/tags`_ for valid values for ``<tag>``)
 

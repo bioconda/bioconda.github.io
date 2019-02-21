@@ -40,7 +40,7 @@ ghc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ghc:<tag>
+      docker pull quay.io/biocontainers/ghc:<tag>
 
    (see `ghc/tags`_ for valid values for ``<tag>``)
 

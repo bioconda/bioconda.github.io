@@ -45,7 +45,7 @@ anise_basil
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/anise_basil:<tag>
+      docker pull quay.io/biocontainers/anise_basil:<tag>
 
    (see `anise_basil/tags`_ for valid values for ``<tag>``)
 

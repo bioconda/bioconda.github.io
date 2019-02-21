@@ -64,7 +64,7 @@ rnaquast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnaquast:<tag>
+      docker pull quay.io/biocontainers/rnaquast:<tag>
 
    (see `rnaquast/tags`_ for valid values for ``<tag>``)
 

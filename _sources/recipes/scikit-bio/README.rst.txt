@@ -68,7 +68,7 @@ scikit-bio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scikit-bio:<tag>
+      docker pull quay.io/biocontainers/scikit-bio:<tag>
 
    (see `scikit-bio/tags`_ for valid values for ``<tag>``)
 

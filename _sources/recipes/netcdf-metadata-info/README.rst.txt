@@ -42,7 +42,7 @@ netcdf-metadata-info
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/netcdf-metadata-info:<tag>
+      docker pull quay.io/biocontainers/netcdf-metadata-info:<tag>
 
    (see `netcdf-metadata-info/tags`_ for valid values for ``<tag>``)
 

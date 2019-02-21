@@ -62,7 +62,7 @@ bioconductor-powerexplorer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-powerexplorer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-powerexplorer:<tag>
 
    (see `bioconductor-powerexplorer/tags`_ for valid values for ``<tag>``)
 

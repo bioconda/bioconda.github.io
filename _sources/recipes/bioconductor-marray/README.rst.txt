@@ -43,7 +43,7 @@ bioconductor-marray
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-marray:<tag>
+      docker pull quay.io/biocontainers/bioconductor-marray:<tag>
 
    (see `bioconductor-marray/tags`_ for valid values for ``<tag>``)
 

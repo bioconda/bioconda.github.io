@@ -41,7 +41,7 @@ bioconductor-globalseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-globalseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-globalseq:<tag>
 
    (see `bioconductor-globalseq/tags`_ for valid values for ``<tag>``)
 

@@ -69,7 +69,7 @@ bioconductor-missmethyl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-missmethyl:<tag>
+      docker pull quay.io/biocontainers/bioconductor-missmethyl:<tag>
 
    (see `bioconductor-missmethyl/tags`_ for valid values for ``<tag>``)
 

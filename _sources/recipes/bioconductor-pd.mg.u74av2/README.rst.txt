@@ -56,7 +56,7 @@ bioconductor-pd.mg.u74av2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.mg.u74av2:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.mg.u74av2:<tag>
 
    (see `bioconductor-pd.mg.u74av2/tags`_ for valid values for ``<tag>``)
 

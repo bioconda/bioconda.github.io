@@ -44,7 +44,7 @@ bioconductor-deqms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-deqms:<tag>
+      docker pull quay.io/biocontainers/bioconductor-deqms:<tag>
 
    (see `bioconductor-deqms/tags`_ for valid values for ``<tag>``)
 

@@ -70,7 +70,7 @@ bioconductor-desubs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-desubs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-desubs:<tag>
 
    (see `bioconductor-desubs/tags`_ for valid values for ``<tag>``)
 

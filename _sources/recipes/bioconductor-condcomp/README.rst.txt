@@ -48,7 +48,7 @@ bioconductor-condcomp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-condcomp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-condcomp:<tag>
 
    (see `bioconductor-condcomp/tags`_ for valid values for ``<tag>``)
 

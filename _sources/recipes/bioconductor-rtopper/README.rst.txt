@@ -47,7 +47,7 @@ bioconductor-rtopper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtopper:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtopper:<tag>
 
    (see `bioconductor-rtopper/tags`_ for valid values for ``<tag>``)
 

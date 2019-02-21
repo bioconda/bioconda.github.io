@@ -44,7 +44,7 @@ minorseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/minorseq:<tag>
+      docker pull quay.io/biocontainers/minorseq:<tag>
 
    (see `minorseq/tags`_ for valid values for ``<tag>``)
 

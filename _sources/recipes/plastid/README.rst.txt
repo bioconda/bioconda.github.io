@@ -66,7 +66,7 @@ plastid
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plastid:<tag>
+      docker pull quay.io/biocontainers/plastid:<tag>
 
    (see `plastid/tags`_ for valid values for ``<tag>``)
 

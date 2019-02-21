@@ -40,7 +40,7 @@ perl-attribute-handlers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-attribute-handlers:<tag>
+      docker pull quay.io/biocontainers/perl-attribute-handlers:<tag>
 
    (see `perl-attribute-handlers/tags`_ for valid values for ``<tag>``)
 

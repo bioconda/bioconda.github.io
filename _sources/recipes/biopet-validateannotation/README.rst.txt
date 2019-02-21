@@ -48,7 +48,7 @@ biopet-validateannotation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet-validateannotation:<tag>
+      docker pull quay.io/biocontainers/biopet-validateannotation:<tag>
 
    (see `biopet-validateannotation/tags`_ for valid values for ``<tag>``)
 

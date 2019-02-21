@@ -42,7 +42,7 @@ bioconductor-lowmacaannotation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lowmacaannotation:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lowmacaannotation:<tag>
 
    (see `bioconductor-lowmacaannotation/tags`_ for valid values for ``<tag>``)
 

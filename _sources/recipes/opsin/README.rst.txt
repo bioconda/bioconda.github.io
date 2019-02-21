@@ -40,7 +40,7 @@ opsin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/opsin:<tag>
+      docker pull quay.io/biocontainers/opsin:<tag>
 
    (see `opsin/tags`_ for valid values for ``<tag>``)
 

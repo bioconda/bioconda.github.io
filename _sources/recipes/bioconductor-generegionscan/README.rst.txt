@@ -51,7 +51,7 @@ bioconductor-generegionscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-generegionscan:<tag>
+      docker pull quay.io/biocontainers/bioconductor-generegionscan:<tag>
 
    (see `bioconductor-generegionscan/tags`_ for valid values for ``<tag>``)
 

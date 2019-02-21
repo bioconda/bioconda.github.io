@@ -46,7 +46,7 @@ sbg-cwl-runner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sbg-cwl-runner:<tag>
+      docker pull quay.io/biocontainers/sbg-cwl-runner:<tag>
 
    (see `sbg-cwl-runner/tags`_ for valid values for ``<tag>``)
 

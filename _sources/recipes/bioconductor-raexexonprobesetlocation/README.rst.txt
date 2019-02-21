@@ -44,7 +44,7 @@ bioconductor-raexexonprobesetlocation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-raexexonprobesetlocation:<tag>
+      docker pull quay.io/biocontainers/bioconductor-raexexonprobesetlocation:<tag>
 
    (see `bioconductor-raexexonprobesetlocation/tags`_ for valid values for ``<tag>``)
 

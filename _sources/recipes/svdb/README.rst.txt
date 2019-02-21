@@ -48,7 +48,7 @@ svdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/svdb:<tag>
+      docker pull quay.io/biocontainers/svdb:<tag>
 
    (see `svdb/tags`_ for valid values for ``<tag>``)
 

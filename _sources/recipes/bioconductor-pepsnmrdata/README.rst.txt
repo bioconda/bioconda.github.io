@@ -42,7 +42,7 @@ bioconductor-pepsnmrdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pepsnmrdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pepsnmrdata:<tag>
 
    (see `bioconductor-pepsnmrdata/tags`_ for valid values for ``<tag>``)
 

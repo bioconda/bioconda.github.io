@@ -44,7 +44,7 @@ ctat-metagenomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ctat-metagenomics:<tag>
+      docker pull quay.io/biocontainers/ctat-metagenomics:<tag>
 
    (see `ctat-metagenomics/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ banner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/banner:<tag>
+      docker pull quay.io/biocontainers/banner:<tag>
 
    (see `banner/tags`_ for valid values for ``<tag>``)
 

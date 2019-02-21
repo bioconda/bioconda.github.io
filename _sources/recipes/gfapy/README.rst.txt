@@ -40,7 +40,7 @@ gfapy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gfapy:<tag>
+      docker pull quay.io/biocontainers/gfapy:<tag>
 
    (see `gfapy/tags`_ for valid values for ``<tag>``)
 

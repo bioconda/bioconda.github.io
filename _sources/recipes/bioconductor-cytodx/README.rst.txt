@@ -52,7 +52,7 @@ bioconductor-cytodx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cytodx:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cytodx:<tag>
 
    (see `bioconductor-cytodx/tags`_ for valid values for ``<tag>``)
 

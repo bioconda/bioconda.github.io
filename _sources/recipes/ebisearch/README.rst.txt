@@ -46,7 +46,7 @@ ebisearch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ebisearch:<tag>
+      docker pull quay.io/biocontainers/ebisearch:<tag>
 
    (see `ebisearch/tags`_ for valid values for ``<tag>``)
 

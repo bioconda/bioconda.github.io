@@ -38,7 +38,7 @@ bioconductor-goprofiles
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-goprofiles:<tag>
+      docker pull quay.io/biocontainers/bioconductor-goprofiles:<tag>
 
    (see `bioconductor-goprofiles/tags`_ for valid values for ``<tag>``)
 

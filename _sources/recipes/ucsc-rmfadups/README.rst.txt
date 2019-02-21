@@ -50,7 +50,7 @@ ucsc-rmfadups
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-rmfadups:<tag>
+      docker pull quay.io/biocontainers/ucsc-rmfadups:<tag>
 
    (see `ucsc-rmfadups/tags`_ for valid values for ``<tag>``)
 

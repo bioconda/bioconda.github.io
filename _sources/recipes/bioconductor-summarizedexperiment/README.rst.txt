@@ -57,7 +57,7 @@ bioconductor-summarizedexperiment
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-summarizedexperiment:<tag>
+      docker pull quay.io/biocontainers/bioconductor-summarizedexperiment:<tag>
 
    (see `bioconductor-summarizedexperiment/tags`_ for valid values for ``<tag>``)
 

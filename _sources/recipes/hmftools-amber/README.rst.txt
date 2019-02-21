@@ -44,7 +44,7 @@ hmftools-amber
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hmftools-amber:<tag>
+      docker pull quay.io/biocontainers/hmftools-amber:<tag>
 
    (see `hmftools-amber/tags`_ for valid values for ``<tag>``)
 

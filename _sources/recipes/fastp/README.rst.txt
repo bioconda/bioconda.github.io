@@ -44,7 +44,7 @@ fastp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastp:<tag>
+      docker pull quay.io/biocontainers/fastp:<tag>
 
    (see `fastp/tags`_ for valid values for ``<tag>``)
 

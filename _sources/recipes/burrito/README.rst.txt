@@ -44,7 +44,7 @@ burrito
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/burrito:<tag>
+      docker pull quay.io/biocontainers/burrito:<tag>
 
    (see `burrito/tags`_ for valid values for ``<tag>``)
 

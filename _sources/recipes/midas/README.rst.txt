@@ -54,7 +54,7 @@ midas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/midas:<tag>
+      docker pull quay.io/biocontainers/midas:<tag>
 
    (see `midas/tags`_ for valid values for ``<tag>``)
 

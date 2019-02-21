@@ -44,7 +44,7 @@ perl-indirect
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-indirect:<tag>
+      docker pull quay.io/biocontainers/perl-indirect:<tag>
 
    (see `perl-indirect/tags`_ for valid values for ``<tag>``)
 

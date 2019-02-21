@@ -56,7 +56,7 @@ bioconductor-deltagseg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-deltagseg:<tag>
+      docker pull quay.io/biocontainers/bioconductor-deltagseg:<tag>
 
    (see `bioconductor-deltagseg/tags`_ for valid values for ``<tag>``)
 

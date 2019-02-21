@@ -88,7 +88,7 @@ perl-bio-rna-rnaalisplit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-rna-rnaalisplit:<tag>
+      docker pull quay.io/biocontainers/perl-bio-rna-rnaalisplit:<tag>
 
    (see `perl-bio-rna-rnaalisplit/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ bioconductor-pwmenrich.mmusculus.background
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pwmenrich.mmusculus.background:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background:<tag>
 
    (see `bioconductor-pwmenrich.mmusculus.background/tags`_ for valid values for ``<tag>``)
 

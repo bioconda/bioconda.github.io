@@ -51,7 +51,7 @@ bioconductor-rgalaxy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rgalaxy:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rgalaxy:<tag>
 
    (see `bioconductor-rgalaxy/tags`_ for valid values for ``<tag>``)
 

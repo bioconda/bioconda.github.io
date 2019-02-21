@@ -44,7 +44,7 @@ bioconductor-cnorfeeder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cnorfeeder:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cnorfeeder:<tag>
 
    (see `bioconductor-cnorfeeder/tags`_ for valid values for ``<tag>``)
 

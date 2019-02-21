@@ -44,7 +44,7 @@ bioconductor-micrornaome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-micrornaome:<tag>
+      docker pull quay.io/biocontainers/bioconductor-micrornaome:<tag>
 
    (see `bioconductor-micrornaome/tags`_ for valid values for ``<tag>``)
 

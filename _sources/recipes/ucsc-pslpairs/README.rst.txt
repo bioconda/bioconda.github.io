@@ -50,7 +50,7 @@ ucsc-pslpairs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslpairs:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslpairs:<tag>
 
    (see `ucsc-pslpairs/tags`_ for valid values for ``<tag>``)
 

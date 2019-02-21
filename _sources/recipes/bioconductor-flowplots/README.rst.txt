@@ -40,7 +40,7 @@ bioconductor-flowplots
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowplots:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowplots:<tag>
 
    (see `bioconductor-flowplots/tags`_ for valid values for ``<tag>``)
 

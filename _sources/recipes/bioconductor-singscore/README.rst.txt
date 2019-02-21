@@ -70,7 +70,7 @@ bioconductor-singscore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-singscore:<tag>
+      docker pull quay.io/biocontainers/bioconductor-singscore:<tag>
 
    (see `bioconductor-singscore/tags`_ for valid values for ``<tag>``)
 

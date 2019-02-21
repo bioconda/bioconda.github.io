@@ -47,7 +47,7 @@ bioconductor-rtca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtca:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtca:<tag>
 
    (see `bioconductor-rtca/tags`_ for valid values for ``<tag>``)
 

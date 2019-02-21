@@ -76,7 +76,7 @@ bioconductor-icetea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-icetea:<tag>
+      docker pull quay.io/biocontainers/bioconductor-icetea:<tag>
 
    (see `bioconductor-icetea/tags`_ for valid values for ``<tag>``)
 

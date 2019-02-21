@@ -43,7 +43,7 @@ bioconductor-causalr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-causalr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-causalr:<tag>
 
    (see `bioconductor-causalr/tags`_ for valid values for ``<tag>``)
 

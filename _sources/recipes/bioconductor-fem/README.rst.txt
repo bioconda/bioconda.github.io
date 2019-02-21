@@ -60,7 +60,7 @@ bioconductor-fem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fem:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fem:<tag>
 
    (see `bioconductor-fem/tags`_ for valid values for ``<tag>``)
 

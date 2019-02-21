@@ -78,7 +78,7 @@ bioconductor-allelicimbalance
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-allelicimbalance:<tag>
+      docker pull quay.io/biocontainers/bioconductor-allelicimbalance:<tag>
 
    (see `bioconductor-allelicimbalance/tags`_ for valid values for ``<tag>``)
 

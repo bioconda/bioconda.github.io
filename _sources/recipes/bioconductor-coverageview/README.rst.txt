@@ -52,7 +52,7 @@ bioconductor-coverageview
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-coverageview:<tag>
+      docker pull quay.io/biocontainers/bioconductor-coverageview:<tag>
 
    (see `bioconductor-coverageview/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ sbpipe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sbpipe:<tag>
+      docker pull quay.io/biocontainers/sbpipe:<tag>
 
    (see `sbpipe/tags`_ for valid values for ``<tag>``)
 

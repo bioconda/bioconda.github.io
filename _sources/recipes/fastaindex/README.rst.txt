@@ -40,7 +40,7 @@ fastaindex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastaindex:<tag>
+      docker pull quay.io/biocontainers/fastaindex:<tag>
 
    (see `fastaindex/tags`_ for valid values for ``<tag>``)
 

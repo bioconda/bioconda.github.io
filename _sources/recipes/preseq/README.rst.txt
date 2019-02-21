@@ -48,7 +48,7 @@ preseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/preseq:<tag>
+      docker pull quay.io/biocontainers/preseq:<tag>
 
    (see `preseq/tags`_ for valid values for ``<tag>``)
 

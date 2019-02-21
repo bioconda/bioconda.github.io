@@ -43,7 +43,7 @@ bioconductor-path2ppi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-path2ppi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-path2ppi:<tag>
 
    (see `bioconductor-path2ppi/tags`_ for valid values for ``<tag>``)
 

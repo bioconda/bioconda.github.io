@@ -45,7 +45,7 @@ bioconductor-clomial
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clomial:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clomial:<tag>
 
    (see `bioconductor-clomial/tags`_ for valid values for ``<tag>``)
 

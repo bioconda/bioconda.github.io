@@ -60,7 +60,7 @@ nanoraw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanoraw:<tag>
+      docker pull quay.io/biocontainers/nanoraw:<tag>
 
    (see `nanoraw/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-math-random
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-random:<tag>
+      docker pull quay.io/biocontainers/perl-math-random:<tag>
 
    (see `perl-math-random/tags`_ for valid values for ``<tag>``)
 

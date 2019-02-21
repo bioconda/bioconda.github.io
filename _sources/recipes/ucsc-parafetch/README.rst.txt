@@ -50,7 +50,7 @@ ucsc-parafetch
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-parafetch:<tag>
+      docker pull quay.io/biocontainers/ucsc-parafetch:<tag>
 
    (see `ucsc-parafetch/tags`_ for valid values for ``<tag>``)
 

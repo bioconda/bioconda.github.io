@@ -38,7 +38,7 @@ bioconductor-damirseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-damirseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-damirseq:<tag>
 
    (see `bioconductor-damirseq/tags`_ for valid values for ``<tag>``)
 

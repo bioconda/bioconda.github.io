@@ -52,7 +52,7 @@ bioconductor-aucell
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-aucell:<tag>
+      docker pull quay.io/biocontainers/bioconductor-aucell:<tag>
 
    (see `bioconductor-aucell/tags`_ for valid values for ``<tag>``)
 

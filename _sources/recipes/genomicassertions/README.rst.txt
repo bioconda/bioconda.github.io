@@ -44,7 +44,7 @@ genomicassertions
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/genomicassertions:<tag>
+      docker pull quay.io/biocontainers/genomicassertions:<tag>
 
    (see `genomicassertions/tags`_ for valid values for ``<tag>``)
 

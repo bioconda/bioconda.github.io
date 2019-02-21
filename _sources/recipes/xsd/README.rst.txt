@@ -44,7 +44,7 @@ xsd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xsd:<tag>
+      docker pull quay.io/biocontainers/xsd:<tag>
 
    (see `xsd/tags`_ for valid values for ``<tag>``)
 

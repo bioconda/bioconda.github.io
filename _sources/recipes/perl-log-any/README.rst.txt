@@ -44,7 +44,7 @@ perl-log-any
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-log-any:<tag>
+      docker pull quay.io/biocontainers/perl-log-any:<tag>
 
    (see `perl-log-any/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ bioconductor-ebsea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ebsea:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ebsea:<tag>
 
    (see `bioconductor-ebsea/tags`_ for valid values for ``<tag>``)
 

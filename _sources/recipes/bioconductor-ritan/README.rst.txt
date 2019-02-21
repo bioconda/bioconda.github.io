@@ -76,7 +76,7 @@ bioconductor-ritan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ritan:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ritan:<tag>
 
    (see `bioconductor-ritan/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ bioconductor-post
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-post:<tag>
+      docker pull quay.io/biocontainers/bioconductor-post:<tag>
 
    (see `bioconductor-post/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ r-spieceasi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-spieceasi:<tag>
+      docker pull quay.io/biocontainers/r-spieceasi:<tag>
 
    (see `r-spieceasi/tags`_ for valid values for ``<tag>``)
 

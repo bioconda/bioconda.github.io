@@ -68,7 +68,7 @@ oligotyping
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/oligotyping:<tag>
+      docker pull quay.io/biocontainers/oligotyping:<tag>
 
    (see `oligotyping/tags`_ for valid values for ``<tag>``)
 

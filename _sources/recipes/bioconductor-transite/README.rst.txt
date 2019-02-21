@@ -64,7 +64,7 @@ bioconductor-transite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-transite:<tag>
+      docker pull quay.io/biocontainers/bioconductor-transite:<tag>
 
    (see `bioconductor-transite/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ bioconductor-lapointe.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lapointe.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lapointe.db:<tag>
 
    (see `bioconductor-lapointe.db/tags`_ for valid values for ``<tag>``)
 

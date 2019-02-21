@@ -42,7 +42,7 @@ bioconductor-minionsummarydata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-minionsummarydata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-minionsummarydata:<tag>
 
    (see `bioconductor-minionsummarydata/tags`_ for valid values for ``<tag>``)
 

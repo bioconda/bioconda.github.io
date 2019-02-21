@@ -75,7 +75,7 @@ bioconductor-csaw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-csaw:<tag>
+      docker pull quay.io/biocontainers/bioconductor-csaw:<tag>
 
    (see `bioconductor-csaw/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ nudup
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nudup:<tag>
+      docker pull quay.io/biocontainers/nudup:<tag>
 
    (see `nudup/tags`_ for valid values for ``<tag>``)
 

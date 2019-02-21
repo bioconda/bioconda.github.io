@@ -64,7 +64,7 @@ bioconductor-sparsesignatures
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sparsesignatures:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sparsesignatures:<tag>
 
    (see `bioconductor-sparsesignatures/tags`_ for valid values for ``<tag>``)
 

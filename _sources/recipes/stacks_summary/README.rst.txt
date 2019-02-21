@@ -42,7 +42,7 @@ stacks_summary
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stacks_summary:<tag>
+      docker pull quay.io/biocontainers/stacks_summary:<tag>
 
    (see `stacks_summary/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ perl-ipc-cmd
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-ipc-cmd:<tag>
+      docker pull quay.io/biocontainers/perl-ipc-cmd:<tag>
 
    (see `perl-ipc-cmd/tags`_ for valid values for ``<tag>``)
 

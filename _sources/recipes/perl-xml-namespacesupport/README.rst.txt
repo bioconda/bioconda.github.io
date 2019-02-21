@@ -42,7 +42,7 @@ perl-xml-namespacesupport
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-namespacesupport:<tag>
+      docker pull quay.io/biocontainers/perl-xml-namespacesupport:<tag>
 
    (see `perl-xml-namespacesupport/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ bioconductor-pd.ht.hg.u133.plus.pm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.ht.hg.u133.plus.pm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.ht.hg.u133.plus.pm:<tag>
 
    (see `bioconductor-pd.ht.hg.u133.plus.pm/tags`_ for valid values for ``<tag>``)
 

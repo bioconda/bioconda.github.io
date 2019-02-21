@@ -45,7 +45,7 @@ migrate-n
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/migrate-n:<tag>
+      docker pull quay.io/biocontainers/migrate-n:<tag>
 
    (see `migrate-n/tags`_ for valid values for ``<tag>``)
 

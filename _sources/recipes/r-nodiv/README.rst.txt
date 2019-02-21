@@ -50,7 +50,7 @@ r-nodiv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-nodiv:<tag>
+      docker pull quay.io/biocontainers/r-nodiv:<tag>
 
    (see `r-nodiv/tags`_ for valid values for ``<tag>``)
 

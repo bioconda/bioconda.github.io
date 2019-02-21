@@ -67,7 +67,7 @@ bioconductor-ioniser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ioniser:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ioniser:<tag>
 
    (see `bioconductor-ioniser/tags`_ for valid values for ``<tag>``)
 

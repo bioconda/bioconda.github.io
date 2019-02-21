@@ -48,7 +48,7 @@ bioconductor-shinytandem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-shinytandem:<tag>
+      docker pull quay.io/biocontainers/bioconductor-shinytandem:<tag>
 
    (see `bioconductor-shinytandem/tags`_ for valid values for ``<tag>``)
 

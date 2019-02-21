@@ -57,7 +57,7 @@ bioconductor-bamsignals
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bamsignals:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bamsignals:<tag>
 
    (see `bioconductor-bamsignals/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-string-approx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-string-approx:<tag>
+      docker pull quay.io/biocontainers/perl-string-approx:<tag>
 
    (see `perl-string-approx/tags`_ for valid values for ``<tag>``)
 

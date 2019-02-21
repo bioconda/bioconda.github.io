@@ -42,7 +42,7 @@ bioconductor-snageedata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snageedata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-snageedata:<tag>
 
    (see `bioconductor-snageedata/tags`_ for valid values for ``<tag>``)
 

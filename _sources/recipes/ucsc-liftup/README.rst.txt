@@ -50,7 +50,7 @@ ucsc-liftup
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-liftup:<tag>
+      docker pull quay.io/biocontainers/ucsc-liftup:<tag>
 
    (see `ucsc-liftup/tags`_ for valid values for ``<tag>``)
 

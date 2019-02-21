@@ -42,7 +42,7 @@ thermorawfileparser
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/thermorawfileparser:<tag>
+      docker pull quay.io/biocontainers/thermorawfileparser:<tag>
 
    (see `thermorawfileparser/tags`_ for valid values for ``<tag>``)
 

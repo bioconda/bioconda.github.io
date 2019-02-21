@@ -44,7 +44,7 @@ bioconductor-bsgenome.ecoli.ncbi.20080805
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.ecoli.ncbi.20080805:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.ecoli.ncbi.20080805:<tag>
 
    (see `bioconductor-bsgenome.ecoli.ncbi.20080805/tags`_ for valid values for ``<tag>``)
 

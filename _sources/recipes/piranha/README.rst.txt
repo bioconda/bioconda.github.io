@@ -46,7 +46,7 @@ piranha
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/piranha:<tag>
+      docker pull quay.io/biocontainers/piranha:<tag>
 
    (see `piranha/tags`_ for valid values for ``<tag>``)
 

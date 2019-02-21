@@ -48,7 +48,7 @@ perl-class-methodmaker
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-class-methodmaker:<tag>
+      docker pull quay.io/biocontainers/perl-class-methodmaker:<tag>
 
    (see `perl-class-methodmaker/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ perl-unicode-normalize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-unicode-normalize:<tag>
+      docker pull quay.io/biocontainers/perl-unicode-normalize:<tag>
 
    (see `perl-unicode-normalize/tags`_ for valid values for ``<tag>``)
 

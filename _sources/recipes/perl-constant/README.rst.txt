@@ -40,7 +40,7 @@ perl-constant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-constant:<tag>
+      docker pull quay.io/biocontainers/perl-constant:<tag>
 
    (see `perl-constant/tags`_ for valid values for ``<tag>``)
 

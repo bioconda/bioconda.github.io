@@ -46,7 +46,7 @@ lrzip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/lrzip:<tag>
+      docker pull quay.io/biocontainers/lrzip:<tag>
 
    (see `lrzip/tags`_ for valid values for ``<tag>``)
 

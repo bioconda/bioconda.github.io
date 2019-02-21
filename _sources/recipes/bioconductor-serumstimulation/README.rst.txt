@@ -42,7 +42,7 @@ bioconductor-serumstimulation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-serumstimulation:<tag>
+      docker pull quay.io/biocontainers/bioconductor-serumstimulation:<tag>
 
    (see `bioconductor-serumstimulation/tags`_ for valid values for ``<tag>``)
 

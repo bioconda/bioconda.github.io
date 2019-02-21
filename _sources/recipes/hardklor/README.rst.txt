@@ -40,7 +40,7 @@ hardklor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hardklor:<tag>
+      docker pull quay.io/biocontainers/hardklor:<tag>
 
    (see `hardklor/tags`_ for valid values for ``<tag>``)
 

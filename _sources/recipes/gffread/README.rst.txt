@@ -39,7 +39,7 @@ gffread
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gffread:<tag>
+      docker pull quay.io/biocontainers/gffread:<tag>
 
    (see `gffread/tags`_ for valid values for ``<tag>``)
 

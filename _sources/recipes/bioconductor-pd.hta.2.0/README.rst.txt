@@ -56,7 +56,7 @@ bioconductor-pd.hta.2.0
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.hta.2.0:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.hta.2.0:<tag>
 
    (see `bioconductor-pd.hta.2.0/tags`_ for valid values for ``<tag>``)
 

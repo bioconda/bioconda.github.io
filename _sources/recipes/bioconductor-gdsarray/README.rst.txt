@@ -52,7 +52,7 @@ bioconductor-gdsarray
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gdsarray:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gdsarray:<tag>
 
    (see `bioconductor-gdsarray/tags`_ for valid values for ``<tag>``)
 

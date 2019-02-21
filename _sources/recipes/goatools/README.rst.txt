@@ -55,7 +55,7 @@ goatools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/goatools:<tag>
+      docker pull quay.io/biocontainers/goatools:<tag>
 
    (see `goatools/tags`_ for valid values for ``<tag>``)
 

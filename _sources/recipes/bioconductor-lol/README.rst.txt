@@ -45,7 +45,7 @@ bioconductor-lol
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lol:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lol:<tag>
 
    (see `bioconductor-lol/tags`_ for valid values for ``<tag>``)
 

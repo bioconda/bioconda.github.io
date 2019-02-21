@@ -46,7 +46,7 @@ bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene:<tag>
+      docker pull quay.io/biocontainers/bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene:<tag>
 
    (see `bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene/tags`_ for valid values for ``<tag>``)
 

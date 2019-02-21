@@ -50,7 +50,7 @@ ucsc-ratolines
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-ratolines:<tag>
+      docker pull quay.io/biocontainers/ucsc-ratolines:<tag>
 
    (see `ucsc-ratolines/tags`_ for valid values for ``<tag>``)
 

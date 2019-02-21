@@ -42,7 +42,7 @@ vardict
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vardict:<tag>
+      docker pull quay.io/biocontainers/vardict:<tag>
 
    (see `vardict/tags`_ for valid values for ``<tag>``)
 

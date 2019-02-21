@@ -49,7 +49,7 @@ bioconductor-swathxtend
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-swathxtend:<tag>
+      docker pull quay.io/biocontainers/bioconductor-swathxtend:<tag>
 
    (see `bioconductor-swathxtend/tags`_ for valid values for ``<tag>``)
 

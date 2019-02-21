@@ -45,7 +45,7 @@ trinculo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/trinculo:<tag>
+      docker pull quay.io/biocontainers/trinculo:<tag>
 
    (see `trinculo/tags`_ for valid values for ``<tag>``)
 

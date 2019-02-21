@@ -50,7 +50,7 @@ biopet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biopet:<tag>
+      docker pull quay.io/biocontainers/biopet:<tag>
 
    (see `biopet/tags`_ for valid values for ``<tag>``)
 

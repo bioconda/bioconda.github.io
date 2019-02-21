@@ -52,7 +52,7 @@ unifrac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/unifrac:<tag>
+      docker pull quay.io/biocontainers/unifrac:<tag>
 
    (see `unifrac/tags`_ for valid values for ``<tag>``)
 

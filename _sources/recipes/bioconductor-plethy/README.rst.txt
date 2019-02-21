@@ -63,7 +63,7 @@ bioconductor-plethy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-plethy:<tag>
+      docker pull quay.io/biocontainers/bioconductor-plethy:<tag>
 
    (see `bioconductor-plethy/tags`_ for valid values for ``<tag>``)
 

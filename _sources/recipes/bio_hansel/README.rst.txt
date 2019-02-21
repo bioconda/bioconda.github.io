@@ -50,7 +50,7 @@ bio_hansel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bio_hansel:<tag>
+      docker pull quay.io/biocontainers/bio_hansel:<tag>
 
    (see `bio_hansel/tags`_ for valid values for ``<tag>``)
 

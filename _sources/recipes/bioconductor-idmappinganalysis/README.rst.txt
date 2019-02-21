@@ -38,7 +38,7 @@ bioconductor-idmappinganalysis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-idmappinganalysis:<tag>
+      docker pull quay.io/biocontainers/bioconductor-idmappinganalysis:<tag>
 
    (see `bioconductor-idmappinganalysis/tags`_ for valid values for ``<tag>``)
 

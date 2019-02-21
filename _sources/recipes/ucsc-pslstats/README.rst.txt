@@ -50,7 +50,7 @@ ucsc-pslstats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslstats:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslstats:<tag>
 
    (see `ucsc-pslstats/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ bioconductor-asicsdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-asicsdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-asicsdata:<tag>
 
    (see `bioconductor-asicsdata/tags`_ for valid values for ``<tag>``)
 

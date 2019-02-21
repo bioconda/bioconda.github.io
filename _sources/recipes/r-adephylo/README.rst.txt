@@ -50,7 +50,7 @@ r-adephylo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-adephylo:<tag>
+      docker pull quay.io/biocontainers/r-adephylo:<tag>
 
    (see `r-adephylo/tags`_ for valid values for ``<tag>``)
 

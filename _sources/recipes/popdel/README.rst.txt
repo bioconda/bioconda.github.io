@@ -44,7 +44,7 @@ popdel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/popdel:<tag>
+      docker pull quay.io/biocontainers/popdel:<tag>
 
    (see `popdel/tags`_ for valid values for ``<tag>``)
 

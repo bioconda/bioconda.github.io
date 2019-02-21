@@ -90,7 +90,7 @@ bioconductor-prostar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-prostar:<tag>
+      docker pull quay.io/biocontainers/bioconductor-prostar:<tag>
 
    (see `bioconductor-prostar/tags`_ for valid values for ``<tag>``)
 

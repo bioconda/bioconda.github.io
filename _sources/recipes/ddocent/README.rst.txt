@@ -78,7 +78,7 @@ ddocent
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ddocent:<tag>
+      docker pull quay.io/biocontainers/ddocent:<tag>
 
    (see `ddocent/tags`_ for valid values for ``<tag>``)
 

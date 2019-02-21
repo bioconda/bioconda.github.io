@@ -42,7 +42,7 @@ perl-tie-cacher
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-tie-cacher:<tag>
+      docker pull quay.io/biocontainers/perl-tie-cacher:<tag>
 
    (see `perl-tie-cacher/tags`_ for valid values for ``<tag>``)
 

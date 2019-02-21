@@ -42,7 +42,7 @@ bioconductor-connectivitymap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-connectivitymap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-connectivitymap:<tag>
 
    (see `bioconductor-connectivitymap/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ deepmedic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/deepmedic:<tag>
+      docker pull quay.io/biocontainers/deepmedic:<tag>
 
    (see `deepmedic/tags`_ for valid values for ``<tag>``)
 

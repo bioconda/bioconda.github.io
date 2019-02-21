@@ -89,7 +89,7 @@ bioconductor-msnbase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msnbase:<tag>
+      docker pull quay.io/biocontainers/bioconductor-msnbase:<tag>
 
    (see `bioconductor-msnbase/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ bioconductor-ccrepe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ccrepe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ccrepe:<tag>
 
    (see `bioconductor-ccrepe/tags`_ for valid values for ``<tag>``)
 

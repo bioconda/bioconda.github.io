@@ -49,7 +49,7 @@ commet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/commet:<tag>
+      docker pull quay.io/biocontainers/commet:<tag>
 
    (see `commet/tags`_ for valid values for ``<tag>``)
 

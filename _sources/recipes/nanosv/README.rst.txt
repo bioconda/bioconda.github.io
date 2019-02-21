@@ -44,7 +44,7 @@ nanosv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanosv:<tag>
+      docker pull quay.io/biocontainers/nanosv:<tag>
 
    (see `nanosv/tags`_ for valid values for ``<tag>``)
 

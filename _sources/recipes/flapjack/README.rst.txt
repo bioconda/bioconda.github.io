@@ -40,7 +40,7 @@ flapjack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flapjack:<tag>
+      docker pull quay.io/biocontainers/flapjack:<tag>
 
    (see `flapjack/tags`_ for valid values for ``<tag>``)
 

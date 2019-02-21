@@ -44,7 +44,7 @@ perl-html-template
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-template:<tag>
+      docker pull quay.io/biocontainers/perl-html-template:<tag>
 
    (see `perl-html-template/tags`_ for valid values for ``<tag>``)
 

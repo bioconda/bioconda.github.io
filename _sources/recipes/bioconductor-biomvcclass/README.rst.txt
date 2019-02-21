@@ -49,7 +49,7 @@ bioconductor-biomvcclass
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biomvcclass:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biomvcclass:<tag>
 
    (see `bioconductor-biomvcclass/tags`_ for valid values for ``<tag>``)
 

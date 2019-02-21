@@ -47,7 +47,7 @@ bioconductor-hyperdraw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hyperdraw:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hyperdraw:<tag>
 
    (see `bioconductor-hyperdraw/tags`_ for valid values for ``<tag>``)
 

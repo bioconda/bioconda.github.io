@@ -46,7 +46,7 @@ perl-pod-coverage-trustpod
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pod-coverage-trustpod:<tag>
+      docker pull quay.io/biocontainers/perl-pod-coverage-trustpod:<tag>
 
    (see `perl-pod-coverage-trustpod/tags`_ for valid values for ``<tag>``)
 

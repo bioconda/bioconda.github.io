@@ -51,7 +51,7 @@ bioconductor-rtrmui
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtrmui:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtrmui:<tag>
 
    (see `bioconductor-rtrmui/tags`_ for valid values for ``<tag>``)
 

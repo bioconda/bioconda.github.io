@@ -42,7 +42,7 @@ bioconductor-mouse4302barcodevecs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mouse4302barcodevecs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mouse4302barcodevecs:<tag>
 
    (see `bioconductor-mouse4302barcodevecs/tags`_ for valid values for ``<tag>``)
 

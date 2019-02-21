@@ -47,7 +47,7 @@ bioconductor-hapfabia
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hapfabia:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hapfabia:<tag>
 
    (see `bioconductor-hapfabia/tags`_ for valid values for ``<tag>``)
 

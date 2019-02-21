@@ -45,7 +45,7 @@ ema
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ema:<tag>
+      docker pull quay.io/biocontainers/ema:<tag>
 
    (see `ema/tags`_ for valid values for ``<tag>``)
 

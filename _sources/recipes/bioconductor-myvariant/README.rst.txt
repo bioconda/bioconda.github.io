@@ -57,7 +57,7 @@ bioconductor-myvariant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-myvariant:<tag>
+      docker pull quay.io/biocontainers/bioconductor-myvariant:<tag>
 
    (see `bioconductor-myvariant/tags`_ for valid values for ``<tag>``)
 

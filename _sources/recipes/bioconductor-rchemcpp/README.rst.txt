@@ -49,7 +49,7 @@ bioconductor-rchemcpp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rchemcpp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rchemcpp:<tag>
 
    (see `bioconductor-rchemcpp/tags`_ for valid values for ``<tag>``)
 

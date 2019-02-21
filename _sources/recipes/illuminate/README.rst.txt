@@ -53,7 +53,7 @@ illuminate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/illuminate:<tag>
+      docker pull quay.io/biocontainers/illuminate:<tag>
 
    (see `illuminate/tags`_ for valid values for ``<tag>``)
 

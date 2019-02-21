@@ -44,7 +44,7 @@ beast
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/beast:<tag>
+      docker pull quay.io/biocontainers/beast:<tag>
 
    (see `beast/tags`_ for valid values for ``<tag>``)
 

@@ -62,7 +62,7 @@ bioconductor-seqsetvis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-seqsetvis:<tag>
+      docker pull quay.io/biocontainers/bioconductor-seqsetvis:<tag>
 
    (see `bioconductor-seqsetvis/tags`_ for valid values for ``<tag>``)
 

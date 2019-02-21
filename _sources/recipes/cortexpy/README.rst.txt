@@ -56,7 +56,7 @@ cortexpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cortexpy:<tag>
+      docker pull quay.io/biocontainers/cortexpy:<tag>
 
    (see `cortexpy/tags`_ for valid values for ``<tag>``)
 

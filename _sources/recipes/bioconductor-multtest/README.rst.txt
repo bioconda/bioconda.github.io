@@ -51,7 +51,7 @@ bioconductor-multtest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-multtest:<tag>
+      docker pull quay.io/biocontainers/bioconductor-multtest:<tag>
 
    (see `bioconductor-multtest/tags`_ for valid values for ``<tag>``)
 

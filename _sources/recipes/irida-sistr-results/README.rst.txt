@@ -52,7 +52,7 @@ irida-sistr-results
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/irida-sistr-results:<tag>
+      docker pull quay.io/biocontainers/irida-sistr-results:<tag>
 
    (see `irida-sistr-results/tags`_ for valid values for ``<tag>``)
 

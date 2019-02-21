@@ -54,7 +54,7 @@ rapclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rapclust:<tag>
+      docker pull quay.io/biocontainers/rapclust:<tag>
 
    (see `rapclust/tags`_ for valid values for ``<tag>``)
 

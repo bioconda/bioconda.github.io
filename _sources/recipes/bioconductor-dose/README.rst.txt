@@ -59,7 +59,7 @@ bioconductor-dose
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dose:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dose:<tag>
 
    (see `bioconductor-dose/tags`_ for valid values for ``<tag>``)
 

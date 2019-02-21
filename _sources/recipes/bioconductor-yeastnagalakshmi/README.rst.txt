@@ -42,7 +42,7 @@ bioconductor-yeastnagalakshmi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-yeastnagalakshmi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-yeastnagalakshmi:<tag>
 
    (see `bioconductor-yeastnagalakshmi/tags`_ for valid values for ``<tag>``)
 

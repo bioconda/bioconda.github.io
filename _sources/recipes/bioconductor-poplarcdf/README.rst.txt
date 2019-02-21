@@ -44,7 +44,7 @@ bioconductor-poplarcdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-poplarcdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-poplarcdf:<tag>
 
    (see `bioconductor-poplarcdf/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ r-deconstructsigs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-deconstructsigs:<tag>
+      docker pull quay.io/biocontainers/r-deconstructsigs:<tag>
 
    (see `r-deconstructsigs/tags`_ for valid values for ``<tag>``)
 

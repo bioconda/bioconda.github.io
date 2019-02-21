@@ -40,7 +40,7 @@ dialign-tx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dialign-tx:<tag>
+      docker pull quay.io/biocontainers/dialign-tx:<tag>
 
    (see `dialign-tx/tags`_ for valid values for ``<tag>``)
 

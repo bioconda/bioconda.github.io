@@ -50,7 +50,7 @@ bioconductor-scfeaturefilter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scfeaturefilter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-scfeaturefilter:<tag>
 
    (see `bioconductor-scfeaturefilter/tags`_ for valid values for ``<tag>``)
 

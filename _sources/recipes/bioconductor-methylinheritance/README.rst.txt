@@ -56,7 +56,7 @@ bioconductor-methylinheritance
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methylinheritance:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methylinheritance:<tag>
 
    (see `bioconductor-methylinheritance/tags`_ for valid values for ``<tag>``)
 

@@ -63,7 +63,7 @@ intervene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/intervene:<tag>
+      docker pull quay.io/biocontainers/intervene:<tag>
 
    (see `intervene/tags`_ for valid values for ``<tag>``)
 

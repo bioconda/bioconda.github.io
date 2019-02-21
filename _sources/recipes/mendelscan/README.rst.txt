@@ -40,7 +40,7 @@ mendelscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mendelscan:<tag>
+      docker pull quay.io/biocontainers/mendelscan:<tag>
 
    (see `mendelscan/tags`_ for valid values for ``<tag>``)
 

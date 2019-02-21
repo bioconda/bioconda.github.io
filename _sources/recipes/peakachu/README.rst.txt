@@ -64,7 +64,7 @@ peakachu
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/peakachu:<tag>
+      docker pull quay.io/biocontainers/peakachu:<tag>
 
    (see `peakachu/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ bioconductor-tdaracne
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tdaracne:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tdaracne:<tag>
 
    (see `bioconductor-tdaracne/tags`_ for valid values for ``<tag>``)
 

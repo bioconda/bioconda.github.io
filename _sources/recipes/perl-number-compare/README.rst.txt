@@ -40,7 +40,7 @@ perl-number-compare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-number-compare:<tag>
+      docker pull quay.io/biocontainers/perl-number-compare:<tag>
 
    (see `perl-number-compare/tags`_ for valid values for ``<tag>``)
 

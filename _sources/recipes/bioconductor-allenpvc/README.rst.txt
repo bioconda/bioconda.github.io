@@ -48,7 +48,7 @@ bioconductor-allenpvc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-allenpvc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-allenpvc:<tag>
 
    (see `bioconductor-allenpvc/tags`_ for valid values for ``<tag>``)
 

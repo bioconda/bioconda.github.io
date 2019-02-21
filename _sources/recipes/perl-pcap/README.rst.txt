@@ -60,7 +60,7 @@ perl-pcap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pcap:<tag>
+      docker pull quay.io/biocontainers/perl-pcap:<tag>
 
    (see `perl-pcap/tags`_ for valid values for ``<tag>``)
 

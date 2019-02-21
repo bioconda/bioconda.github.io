@@ -44,7 +44,7 @@ bioconductor-hspeccdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hspeccdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hspeccdf:<tag>
 
    (see `bioconductor-hspeccdf/tags`_ for valid values for ``<tag>``)
 

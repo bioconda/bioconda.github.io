@@ -48,7 +48,7 @@ r-loom
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-loom:<tag>
+      docker pull quay.io/biocontainers/r-loom:<tag>
 
    (see `r-loom/tags`_ for valid values for ``<tag>``)
 

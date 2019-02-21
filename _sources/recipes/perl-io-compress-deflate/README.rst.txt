@@ -40,7 +40,7 @@ perl-io-compress-deflate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-compress-deflate:<tag>
+      docker pull quay.io/biocontainers/perl-io-compress-deflate:<tag>
 
    (see `perl-io-compress-deflate/tags`_ for valid values for ``<tag>``)
 

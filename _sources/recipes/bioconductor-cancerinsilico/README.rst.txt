@@ -49,7 +49,7 @@ bioconductor-cancerinsilico
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cancerinsilico:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cancerinsilico:<tag>
 
    (see `bioconductor-cancerinsilico/tags`_ for valid values for ``<tag>``)
 

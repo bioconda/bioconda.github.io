@@ -50,7 +50,7 @@ perl-bio-featureio
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-featureio:<tag>
+      docker pull quay.io/biocontainers/perl-bio-featureio:<tag>
 
    (see `perl-bio-featureio/tags`_ for valid values for ``<tag>``)
 

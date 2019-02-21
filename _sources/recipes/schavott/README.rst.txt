@@ -50,7 +50,7 @@ schavott
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/schavott:<tag>
+      docker pull quay.io/biocontainers/schavott:<tag>
 
    (see `schavott/tags`_ for valid values for ``<tag>``)
 

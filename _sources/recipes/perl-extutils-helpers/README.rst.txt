@@ -46,7 +46,7 @@ perl-extutils-helpers
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-extutils-helpers:<tag>
+      docker pull quay.io/biocontainers/perl-extutils-helpers:<tag>
 
    (see `perl-extutils-helpers/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ curlywhirly
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/curlywhirly:<tag>
+      docker pull quay.io/biocontainers/curlywhirly:<tag>
 
    (see `curlywhirly/tags`_ for valid values for ``<tag>``)
 

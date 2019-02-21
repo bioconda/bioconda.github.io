@@ -43,7 +43,7 @@ bufet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bufet:<tag>
+      docker pull quay.io/biocontainers/bufet:<tag>
 
    (see `bufet/tags`_ for valid values for ``<tag>``)
 

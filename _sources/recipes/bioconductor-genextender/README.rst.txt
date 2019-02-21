@@ -66,7 +66,7 @@ bioconductor-genextender
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genextender:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genextender:<tag>
 
    (see `bioconductor-genextender/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ mtbseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mtbseq:<tag>
+      docker pull quay.io/biocontainers/mtbseq:<tag>
 
    (see `mtbseq/tags`_ for valid values for ``<tag>``)
 

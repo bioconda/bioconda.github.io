@@ -78,7 +78,7 @@ r-shazam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-shazam:<tag>
+      docker pull quay.io/biocontainers/r-shazam:<tag>
 
    (see `r-shazam/tags`_ for valid values for ``<tag>``)
 

@@ -74,7 +74,7 @@ bioconductor-hicbricks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hicbricks:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hicbricks:<tag>
 
    (see `bioconductor-hicbricks/tags`_ for valid values for ``<tag>``)
 

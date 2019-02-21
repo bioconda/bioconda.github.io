@@ -46,7 +46,7 @@ bioconductor-diggit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-diggit:<tag>
+      docker pull quay.io/biocontainers/bioconductor-diggit:<tag>
 
    (see `bioconductor-diggit/tags`_ for valid values for ``<tag>``)
 

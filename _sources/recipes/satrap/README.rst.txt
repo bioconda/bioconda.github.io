@@ -43,7 +43,7 @@ satrap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/satrap:<tag>
+      docker pull quay.io/biocontainers/satrap:<tag>
 
    (see `satrap/tags`_ for valid values for ``<tag>``)
 

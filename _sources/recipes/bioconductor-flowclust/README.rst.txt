@@ -60,7 +60,7 @@ bioconductor-flowclust
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowclust:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowclust:<tag>
 
    (see `bioconductor-flowclust/tags`_ for valid values for ``<tag>``)
 

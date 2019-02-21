@@ -56,7 +56,7 @@ bioconductor-pd.drosgenome1
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.drosgenome1:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.drosgenome1:<tag>
 
    (see `bioconductor-pd.drosgenome1/tags`_ for valid values for ``<tag>``)
 

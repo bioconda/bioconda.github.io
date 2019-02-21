@@ -40,7 +40,7 @@ r-fmsb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-fmsb:<tag>
+      docker pull quay.io/biocontainers/r-fmsb:<tag>
 
    (see `r-fmsb/tags`_ for valid values for ``<tag>``)
 

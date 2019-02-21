@@ -52,7 +52,7 @@ alfred
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/alfred:<tag>
+      docker pull quay.io/biocontainers/alfred:<tag>
 
    (see `alfred/tags`_ for valid values for ``<tag>``)
 

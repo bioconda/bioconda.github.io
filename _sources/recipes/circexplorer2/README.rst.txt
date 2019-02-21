@@ -50,7 +50,7 @@ circexplorer2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/circexplorer2:<tag>
+      docker pull quay.io/biocontainers/circexplorer2:<tag>
 
    (see `circexplorer2/tags`_ for valid values for ``<tag>``)
 

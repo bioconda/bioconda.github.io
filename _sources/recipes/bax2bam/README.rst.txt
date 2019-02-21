@@ -48,7 +48,7 @@ bax2bam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bax2bam:<tag>
+      docker pull quay.io/biocontainers/bax2bam:<tag>
 
    (see `bax2bam/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ sure
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sure:<tag>
+      docker pull quay.io/biocontainers/sure:<tag>
 
    (see `sure/tags`_ for valid values for ``<tag>``)
 

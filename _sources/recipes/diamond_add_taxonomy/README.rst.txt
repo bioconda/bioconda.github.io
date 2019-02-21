@@ -44,7 +44,7 @@ diamond_add_taxonomy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/diamond_add_taxonomy:<tag>
+      docker pull quay.io/biocontainers/diamond_add_taxonomy:<tag>
 
    (see `diamond_add_taxonomy/tags`_ for valid values for ``<tag>``)
 

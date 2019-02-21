@@ -48,7 +48,7 @@ pbcore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbcore:<tag>
+      docker pull quay.io/biocontainers/pbcore:<tag>
 
    (see `pbcore/tags`_ for valid values for ``<tag>``)
 

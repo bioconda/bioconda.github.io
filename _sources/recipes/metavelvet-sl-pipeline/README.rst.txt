@@ -60,7 +60,7 @@ metavelvet-sl-pipeline
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metavelvet-sl-pipeline:<tag>
+      docker pull quay.io/biocontainers/metavelvet-sl-pipeline:<tag>
 
    (see `metavelvet-sl-pipeline/tags`_ for valid values for ``<tag>``)
 

@@ -51,7 +51,7 @@ bioconductor-biostrings
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biostrings:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biostrings:<tag>
 
    (see `bioconductor-biostrings/tags`_ for valid values for ``<tag>``)
 

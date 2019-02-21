@@ -40,7 +40,7 @@ remurna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/remurna:<tag>
+      docker pull quay.io/biocontainers/remurna:<tag>
 
    (see `remurna/tags`_ for valid values for ``<tag>``)
 

@@ -49,7 +49,7 @@ focus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/focus:<tag>
+      docker pull quay.io/biocontainers/focus:<tag>
 
    (see `focus/tags`_ for valid values for ``<tag>``)
 

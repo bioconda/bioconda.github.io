@@ -46,7 +46,7 @@ ig-checkflowtypes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ig-checkflowtypes:<tag>
+      docker pull quay.io/biocontainers/ig-checkflowtypes:<tag>
 
    (see `ig-checkflowtypes/tags`_ for valid values for ``<tag>``)
 

@@ -47,7 +47,7 @@ bioconductor-hmmcopy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hmmcopy:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hmmcopy:<tag>
 
    (see `bioconductor-hmmcopy/tags`_ for valid values for ``<tag>``)
 

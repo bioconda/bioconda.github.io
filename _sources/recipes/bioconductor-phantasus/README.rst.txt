@@ -84,7 +84,7 @@ bioconductor-phantasus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-phantasus:<tag>
+      docker pull quay.io/biocontainers/bioconductor-phantasus:<tag>
 
    (see `bioconductor-phantasus/tags`_ for valid values for ``<tag>``)
 

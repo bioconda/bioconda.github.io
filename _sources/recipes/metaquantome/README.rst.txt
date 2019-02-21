@@ -62,7 +62,7 @@ metaquantome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/metaquantome:<tag>
+      docker pull quay.io/biocontainers/metaquantome:<tag>
 
    (see `metaquantome/tags`_ for valid values for ``<tag>``)
 

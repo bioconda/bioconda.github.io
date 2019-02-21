@@ -49,7 +49,7 @@ bioconductor-exomepeak
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-exomepeak:<tag>
+      docker pull quay.io/biocontainers/bioconductor-exomepeak:<tag>
 
    (see `bioconductor-exomepeak/tags`_ for valid values for ``<tag>``)
 

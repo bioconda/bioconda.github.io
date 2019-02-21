@@ -58,7 +58,7 @@ bioconductor-gofuncr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gofuncr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gofuncr:<tag>
 
    (see `bioconductor-gofuncr/tags`_ for valid values for ``<tag>``)
 

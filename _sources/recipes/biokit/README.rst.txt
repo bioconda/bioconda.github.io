@@ -64,7 +64,7 @@ biokit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biokit:<tag>
+      docker pull quay.io/biocontainers/biokit:<tag>
 
    (see `biokit/tags`_ for valid values for ``<tag>``)
 

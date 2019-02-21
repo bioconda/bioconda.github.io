@@ -40,7 +40,7 @@ vnl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vnl:<tag>
+      docker pull quay.io/biocontainers/vnl:<tag>
 
    (see `vnl/tags`_ for valid values for ``<tag>``)
 

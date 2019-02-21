@@ -58,7 +58,7 @@ bioconductor-topdownr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-topdownr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-topdownr:<tag>
 
    (see `bioconductor-topdownr/tags`_ for valid values for ``<tag>``)
 

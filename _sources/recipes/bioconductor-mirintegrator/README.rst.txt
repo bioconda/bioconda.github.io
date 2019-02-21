@@ -53,7 +53,7 @@ bioconductor-mirintegrator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirintegrator:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mirintegrator:<tag>
 
    (see `bioconductor-mirintegrator/tags`_ for valid values for ``<tag>``)
 

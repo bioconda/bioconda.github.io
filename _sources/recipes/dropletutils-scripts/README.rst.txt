@@ -50,7 +50,7 @@ dropletutils-scripts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dropletutils-scripts:<tag>
+      docker pull quay.io/biocontainers/dropletutils-scripts:<tag>
 
    (see `dropletutils-scripts/tags`_ for valid values for ``<tag>``)
 

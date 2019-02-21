@@ -46,7 +46,7 @@ bioconductor-lumiratidmapping
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lumiratidmapping:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lumiratidmapping:<tag>
 
    (see `bioconductor-lumiratidmapping/tags`_ for valid values for ``<tag>``)
 

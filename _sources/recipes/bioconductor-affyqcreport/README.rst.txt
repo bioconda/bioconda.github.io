@@ -56,7 +56,7 @@ bioconductor-affyqcreport
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affyqcreport:<tag>
+      docker pull quay.io/biocontainers/bioconductor-affyqcreport:<tag>
 
    (see `bioconductor-affyqcreport/tags`_ for valid values for ``<tag>``)
 

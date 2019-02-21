@@ -44,7 +44,7 @@ seqan_tcoffee
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/seqan_tcoffee:<tag>
+      docker pull quay.io/biocontainers/seqan_tcoffee:<tag>
 
    (see `seqan_tcoffee/tags`_ for valid values for ``<tag>``)
 

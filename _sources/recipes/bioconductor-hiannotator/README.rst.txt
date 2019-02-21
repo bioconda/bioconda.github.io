@@ -57,7 +57,7 @@ bioconductor-hiannotator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hiannotator:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hiannotator:<tag>
 
    (see `bioconductor-hiannotator/tags`_ for valid values for ``<tag>``)
 

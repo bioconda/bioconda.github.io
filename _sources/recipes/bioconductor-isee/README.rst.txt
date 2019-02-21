@@ -84,7 +84,7 @@ bioconductor-isee
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-isee:<tag>
+      docker pull quay.io/biocontainers/bioconductor-isee:<tag>
 
    (see `bioconductor-isee/tags`_ for valid values for ``<tag>``)
 

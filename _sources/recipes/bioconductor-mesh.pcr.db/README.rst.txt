@@ -44,7 +44,7 @@ bioconductor-mesh.pcr.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mesh.pcr.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mesh.pcr.db:<tag>
 
    (see `bioconductor-mesh.pcr.db/tags`_ for valid values for ``<tag>``)
 

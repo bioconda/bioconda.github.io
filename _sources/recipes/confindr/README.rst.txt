@@ -58,7 +58,7 @@ confindr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/confindr:<tag>
+      docker pull quay.io/biocontainers/confindr:<tag>
 
    (see `confindr/tags`_ for valid values for ``<tag>``)
 

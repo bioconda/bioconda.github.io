@@ -40,7 +40,7 @@ flashlfq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/flashlfq:<tag>
+      docker pull quay.io/biocontainers/flashlfq:<tag>
 
    (see `flashlfq/tags`_ for valid values for ``<tag>``)
 

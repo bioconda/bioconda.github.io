@@ -40,7 +40,7 @@ bioconductor-pgca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pgca:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pgca:<tag>
 
    (see `bioconductor-pgca/tags`_ for valid values for ``<tag>``)
 

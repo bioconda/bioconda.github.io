@@ -50,7 +50,7 @@ socru
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/socru:<tag>
+      docker pull quay.io/biocontainers/socru:<tag>
 
    (see `socru/tags`_ for valid values for ``<tag>``)
 

@@ -58,7 +58,7 @@ bioconductor-trnadbimport
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-trnadbimport:<tag>
+      docker pull quay.io/biocontainers/bioconductor-trnadbimport:<tag>
 
    (see `bioconductor-trnadbimport/tags`_ for valid values for ``<tag>``)
 

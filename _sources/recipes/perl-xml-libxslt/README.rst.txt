@@ -44,7 +44,7 @@ perl-xml-libxslt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-libxslt:<tag>
+      docker pull quay.io/biocontainers/perl-xml-libxslt:<tag>
 
    (see `perl-xml-libxslt/tags`_ for valid values for ``<tag>``)
 

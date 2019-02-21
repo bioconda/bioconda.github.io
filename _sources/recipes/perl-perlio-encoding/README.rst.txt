@@ -40,7 +40,7 @@ perl-perlio-encoding
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-perlio-encoding:<tag>
+      docker pull quay.io/biocontainers/perl-perlio-encoding:<tag>
 
    (see `perl-perlio-encoding/tags`_ for valid values for ``<tag>``)
 

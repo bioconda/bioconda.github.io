@@ -50,7 +50,7 @@ ucsc-mafmefirst
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-mafmefirst:<tag>
+      docker pull quay.io/biocontainers/ucsc-mafmefirst:<tag>
 
    (see `ucsc-mafmefirst/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ fastindep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastindep:<tag>
+      docker pull quay.io/biocontainers/fastindep:<tag>
 
    (see `fastindep/tags`_ for valid values for ``<tag>``)
 

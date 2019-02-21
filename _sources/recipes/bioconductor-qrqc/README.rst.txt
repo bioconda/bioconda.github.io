@@ -61,7 +61,7 @@ bioconductor-qrqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qrqc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-qrqc:<tag>
 
    (see `bioconductor-qrqc/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ fqzcomp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fqzcomp:<tag>
+      docker pull quay.io/biocontainers/fqzcomp:<tag>
 
    (see `fqzcomp/tags`_ for valid values for ``<tag>``)
 

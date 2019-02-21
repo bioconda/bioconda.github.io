@@ -87,7 +87,7 @@ bioconductor-diffbind
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-diffbind:<tag>
+      docker pull quay.io/biocontainers/bioconductor-diffbind:<tag>
 
    (see `bioconductor-diffbind/tags`_ for valid values for ``<tag>``)
 

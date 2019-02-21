@@ -48,7 +48,7 @@ bioconductor-rhvdm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rhvdm:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rhvdm:<tag>
 
    (see `bioconductor-rhvdm/tags`_ for valid values for ``<tag>``)
 

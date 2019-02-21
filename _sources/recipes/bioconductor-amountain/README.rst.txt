@@ -47,7 +47,7 @@ bioconductor-amountain
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-amountain:<tag>
+      docker pull quay.io/biocontainers/bioconductor-amountain:<tag>
 
    (see `bioconductor-amountain/tags`_ for valid values for ``<tag>``)
 

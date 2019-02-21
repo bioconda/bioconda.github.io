@@ -42,7 +42,7 @@ msgf_plus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/msgf_plus:<tag>
+      docker pull quay.io/biocontainers/msgf_plus:<tag>
 
    (see `msgf_plus/tags`_ for valid values for ``<tag>``)
 

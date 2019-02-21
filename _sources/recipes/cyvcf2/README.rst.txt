@@ -22,15 +22,17 @@ cyvcf2
 
    |downloads_cyvcf2| |docker_cyvcf2|
 
-   :versions: 0.10.0-0, 0.8.4-4, 0.8.4-3, 0.8.4-2, 0.8.4-1, 0.8.4-0, 0.8.0-0, 0.7.2-3, 0.7.2-2, 0.7.2-1, 0.7.2-0, 0.6.6a-0, 0.6.5-0, 0.5.5-0, 0.5.3-0, 0.5.1-0, 0.5.0-0, 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.2-0, 0.3.0-0, 0.2.8-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.0-0
+   :versions: 0.10.8-0, 0.10.0-0, 0.8.4-4, 0.8.4-3, 0.8.4-2, 0.8.4-1, 0.8.4-0, 0.8.0-0, 0.7.2-3, 0.7.2-2, 0.7.2-1, 0.7.2-0, 0.6.6a-0, 0.6.5-0, 0.5.5-0, 0.5.3-0, 0.5.1-0, 0.5.0-0, 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.2-0, 0.3.0-0, 0.2.8-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.0-0
    
    :depends click: 
    
    :depends coloredlogs: 
    
-   :depends libcurl: >=7.61.0,<8.0a0
+   :depends htslib: >=1.9,<1.10.0a0
    
-   :depends libgcc-ng: >=4.9
+   :depends libcurl: >=7.64.0,<8.0a0
+   
+   :depends libgcc-ng: >=7.3.0
    
    :depends numpy: 
    
@@ -52,7 +54,7 @@ cyvcf2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cyvcf2:<tag>
+      docker pull quay.io/biocontainers/cyvcf2:<tag>
 
    (see `cyvcf2/tags`_ for valid values for ``<tag>``)
 

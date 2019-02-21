@@ -48,7 +48,7 @@ perl-extutils-parsexs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-extutils-parsexs:<tag>
+      docker pull quay.io/biocontainers/perl-extutils-parsexs:<tag>
 
    (see `perl-extutils-parsexs/tags`_ for valid values for ``<tag>``)
 

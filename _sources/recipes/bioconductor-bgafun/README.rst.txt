@@ -47,7 +47,7 @@ bioconductor-bgafun
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bgafun:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bgafun:<tag>
 
    (see `bioconductor-bgafun/tags`_ for valid values for ``<tag>``)
 

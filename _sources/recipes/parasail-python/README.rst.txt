@@ -46,7 +46,7 @@ parasail-python
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/parasail-python:<tag>
+      docker pull quay.io/biocontainers/parasail-python:<tag>
 
    (see `parasail-python/tags`_ for valid values for ``<tag>``)
 

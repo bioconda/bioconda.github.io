@@ -52,7 +52,7 @@ irep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/irep:<tag>
+      docker pull quay.io/biocontainers/irep:<tag>
 
    (see `irep/tags`_ for valid values for ``<tag>``)
 

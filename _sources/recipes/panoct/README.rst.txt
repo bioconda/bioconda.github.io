@@ -40,7 +40,7 @@ panoct
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/panoct:<tag>
+      docker pull quay.io/biocontainers/panoct:<tag>
 
    (see `panoct/tags`_ for valid values for ``<tag>``)
 

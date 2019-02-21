@@ -42,7 +42,7 @@ bioconductor-snphooddata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-snphooddata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-snphooddata:<tag>
 
    (see `bioconductor-snphooddata/tags`_ for valid values for ``<tag>``)
 

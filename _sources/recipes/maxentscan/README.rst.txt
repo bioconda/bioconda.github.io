@@ -40,7 +40,7 @@ maxentscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/maxentscan:<tag>
+      docker pull quay.io/biocontainers/maxentscan:<tag>
 
    (see `maxentscan/tags`_ for valid values for ``<tag>``)
 

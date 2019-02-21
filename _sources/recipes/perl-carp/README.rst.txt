@@ -44,7 +44,7 @@ perl-carp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-carp:<tag>
+      docker pull quay.io/biocontainers/perl-carp:<tag>
 
    (see `perl-carp/tags`_ for valid values for ``<tag>``)
 

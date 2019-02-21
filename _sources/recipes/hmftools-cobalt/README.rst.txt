@@ -40,7 +40,7 @@ hmftools-cobalt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hmftools-cobalt:<tag>
+      docker pull quay.io/biocontainers/hmftools-cobalt:<tag>
 
    (see `hmftools-cobalt/tags`_ for valid values for ``<tag>``)
 

@@ -55,7 +55,7 @@ bioconductor-ppistats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ppistats:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ppistats:<tag>
 
    (see `bioconductor-ppistats/tags`_ for valid values for ``<tag>``)
 

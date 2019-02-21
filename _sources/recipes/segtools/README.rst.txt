@@ -62,7 +62,7 @@ segtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/segtools:<tag>
+      docker pull quay.io/biocontainers/segtools:<tag>
 
    (see `segtools/tags`_ for valid values for ``<tag>``)
 

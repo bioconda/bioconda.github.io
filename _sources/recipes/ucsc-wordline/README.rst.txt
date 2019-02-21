@@ -50,7 +50,7 @@ ucsc-wordline
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-wordline:<tag>
+      docker pull quay.io/biocontainers/ucsc-wordline:<tag>
 
    (see `ucsc-wordline/tags`_ for valid values for ``<tag>``)
 

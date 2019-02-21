@@ -40,7 +40,7 @@ fastuniq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastuniq:<tag>
+      docker pull quay.io/biocontainers/fastuniq:<tag>
 
    (see `fastuniq/tags`_ for valid values for ``<tag>``)
 

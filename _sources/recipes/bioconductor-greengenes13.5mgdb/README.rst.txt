@@ -44,7 +44,7 @@ bioconductor-greengenes13.5mgdb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-greengenes13.5mgdb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-greengenes13.5mgdb:<tag>
 
    (see `bioconductor-greengenes13.5mgdb/tags`_ for valid values for ``<tag>``)
 

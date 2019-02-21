@@ -61,7 +61,7 @@ bioconductor-annmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-annmap:<tag>
+      docker pull quay.io/biocontainers/bioconductor-annmap:<tag>
 
    (see `bioconductor-annmap/tags`_ for valid values for ``<tag>``)
 

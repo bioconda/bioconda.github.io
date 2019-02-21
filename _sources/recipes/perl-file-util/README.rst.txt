@@ -46,7 +46,7 @@ perl-file-util
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-util:<tag>
+      docker pull quay.io/biocontainers/perl-file-util:<tag>
 
    (see `perl-file-util/tags`_ for valid values for ``<tag>``)
 

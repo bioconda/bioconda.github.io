@@ -46,7 +46,7 @@ perl-json-xs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-json-xs:<tag>
+      docker pull quay.io/biocontainers/perl-json-xs:<tag>
 
    (see `perl-json-xs/tags`_ for valid values for ``<tag>``)
 

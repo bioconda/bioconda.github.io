@@ -42,7 +42,7 @@ ga4ghmongo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ga4ghmongo:<tag>
+      docker pull quay.io/biocontainers/ga4ghmongo:<tag>
 
    (see `ga4ghmongo/tags`_ for valid values for ``<tag>``)
 

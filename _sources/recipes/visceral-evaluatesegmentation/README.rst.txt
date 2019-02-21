@@ -44,7 +44,7 @@ visceral-evaluatesegmentation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/visceral-evaluatesegmentation:<tag>
+      docker pull quay.io/biocontainers/visceral-evaluatesegmentation:<tag>
 
    (see `visceral-evaluatesegmentation/tags`_ for valid values for ``<tag>``)
 

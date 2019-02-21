@@ -43,7 +43,7 @@ bioconductor-rrho
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rrho:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rrho:<tag>
 
    (see `bioconductor-rrho/tags`_ for valid values for ``<tag>``)
 

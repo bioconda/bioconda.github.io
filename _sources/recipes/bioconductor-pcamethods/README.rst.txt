@@ -53,7 +53,7 @@ bioconductor-pcamethods
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pcamethods:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pcamethods:<tag>
 
    (see `bioconductor-pcamethods/tags`_ for valid values for ``<tag>``)
 

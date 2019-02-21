@@ -47,7 +47,7 @@ bioconductor-browserviz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-browserviz:<tag>
+      docker pull quay.io/biocontainers/bioconductor-browserviz:<tag>
 
    (see `bioconductor-browserviz/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ hic2cool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hic2cool:<tag>
+      docker pull quay.io/biocontainers/hic2cool:<tag>
 
    (see `hic2cool/tags`_ for valid values for ``<tag>``)
 

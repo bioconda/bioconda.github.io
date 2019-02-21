@@ -55,7 +55,7 @@ bioconductor-hitc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hitc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hitc:<tag>
 
    (see `bioconductor-hitc/tags`_ for valid values for ``<tag>``)
 

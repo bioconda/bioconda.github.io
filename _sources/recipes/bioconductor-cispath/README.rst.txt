@@ -45,7 +45,7 @@ bioconductor-cispath
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cispath:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cispath:<tag>
 
    (see `bioconductor-cispath/tags`_ for valid values for ``<tag>``)
 

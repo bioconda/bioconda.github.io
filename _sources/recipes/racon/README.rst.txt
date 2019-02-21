@@ -44,7 +44,7 @@ racon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/racon:<tag>
+      docker pull quay.io/biocontainers/racon:<tag>
 
    (see `racon/tags`_ for valid values for ``<tag>``)
 

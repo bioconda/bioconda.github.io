@@ -54,7 +54,7 @@ plant_tribes_assembly_post_processor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/plant_tribes_assembly_post_processor:<tag>
+      docker pull quay.io/biocontainers/plant_tribes_assembly_post_processor:<tag>
 
    (see `plant_tribes_assembly_post_processor/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-ole-storage_lite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-ole-storage_lite:<tag>
+      docker pull quay.io/biocontainers/perl-ole-storage_lite:<tag>
 
    (see `perl-ole-storage_lite/tags`_ for valid values for ``<tag>``)
 

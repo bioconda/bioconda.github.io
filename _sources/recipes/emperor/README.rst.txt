@@ -46,7 +46,7 @@ emperor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/emperor:<tag>
+      docker pull quay.io/biocontainers/emperor:<tag>
 
    (see `emperor/tags`_ for valid values for ``<tag>``)
 

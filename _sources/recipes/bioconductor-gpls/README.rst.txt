@@ -41,7 +41,7 @@ bioconductor-gpls
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gpls:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gpls:<tag>
 
    (see `bioconductor-gpls/tags`_ for valid values for ``<tag>``)
 

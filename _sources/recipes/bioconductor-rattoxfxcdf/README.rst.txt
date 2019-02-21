@@ -44,7 +44,7 @@ bioconductor-rattoxfxcdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rattoxfxcdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rattoxfxcdf:<tag>
 
    (see `bioconductor-rattoxfxcdf/tags`_ for valid values for ``<tag>``)
 

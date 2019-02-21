@@ -40,7 +40,7 @@ perl-math-vecstat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-vecstat:<tag>
+      docker pull quay.io/biocontainers/perl-math-vecstat:<tag>
 
    (see `perl-math-vecstat/tags`_ for valid values for ``<tag>``)
 

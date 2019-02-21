@@ -66,7 +66,7 @@ bioconductor-multihiccompare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-multihiccompare:<tag>
+      docker pull quay.io/biocontainers/bioconductor-multihiccompare:<tag>
 
    (see `bioconductor-multihiccompare/tags`_ for valid values for ``<tag>``)
 

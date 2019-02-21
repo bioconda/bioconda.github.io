@@ -56,7 +56,7 @@ bioconductor-ipddb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ipddb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ipddb:<tag>
 
    (see `bioconductor-ipddb/tags`_ for valid values for ``<tag>``)
 

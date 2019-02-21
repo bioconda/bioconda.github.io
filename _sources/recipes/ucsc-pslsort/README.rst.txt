@@ -50,7 +50,7 @@ ucsc-pslsort
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslsort:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslsort:<tag>
 
    (see `ucsc-pslsort/tags`_ for valid values for ``<tag>``)
 

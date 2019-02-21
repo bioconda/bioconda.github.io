@@ -40,7 +40,7 @@ ogdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ogdf:<tag>
+      docker pull quay.io/biocontainers/ogdf:<tag>
 
    (see `ogdf/tags`_ for valid values for ``<tag>``)
 

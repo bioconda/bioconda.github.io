@@ -50,7 +50,7 @@ beast2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/beast2:<tag>
+      docker pull quay.io/biocontainers/beast2:<tag>
 
    (see `beast2/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ bioconductor-sagenhaft
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sagenhaft:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sagenhaft:<tag>
 
    (see `bioconductor-sagenhaft/tags`_ for valid values for ``<tag>``)
 

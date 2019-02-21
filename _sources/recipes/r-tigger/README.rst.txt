@@ -66,7 +66,7 @@ r-tigger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-tigger:<tag>
+      docker pull quay.io/biocontainers/r-tigger:<tag>
 
    (see `r-tigger/tags`_ for valid values for ``<tag>``)
 

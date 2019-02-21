@@ -42,7 +42,7 @@ bioconductor-mammaprintdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mammaprintdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mammaprintdata:<tag>
 
    (see `bioconductor-mammaprintdata/tags`_ for valid values for ``<tag>``)
 

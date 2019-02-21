@@ -70,7 +70,7 @@ gdsctools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gdsctools:<tag>
+      docker pull quay.io/biocontainers/gdsctools:<tag>
 
    (see `gdsctools/tags`_ for valid values for ``<tag>``)
 

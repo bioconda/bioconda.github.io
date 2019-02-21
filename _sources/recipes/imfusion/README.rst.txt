@@ -82,7 +82,7 @@ imfusion
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/imfusion:<tag>
+      docker pull quay.io/biocontainers/imfusion:<tag>
 
    (see `imfusion/tags`_ for valid values for ``<tag>``)
 

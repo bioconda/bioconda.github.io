@@ -56,7 +56,7 @@ bioconductor-pd.cotton
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.cotton:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.cotton:<tag>
 
    (see `bioconductor-pd.cotton/tags`_ for valid values for ``<tag>``)
 

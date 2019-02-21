@@ -46,7 +46,7 @@ bioconductor-cancerclass
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cancerclass:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cancerclass:<tag>
 
    (see `bioconductor-cancerclass/tags`_ for valid values for ``<tag>``)
 

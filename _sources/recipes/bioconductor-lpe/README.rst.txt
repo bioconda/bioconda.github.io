@@ -41,7 +41,7 @@ bioconductor-lpe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lpe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lpe:<tag>
 
    (see `bioconductor-lpe/tags`_ for valid values for ``<tag>``)
 

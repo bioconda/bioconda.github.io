@@ -78,7 +78,7 @@ bioconductor-scone
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-scone:<tag>
+      docker pull quay.io/biocontainers/bioconductor-scone:<tag>
 
    (see `bioconductor-scone/tags`_ for valid values for ``<tag>``)
 

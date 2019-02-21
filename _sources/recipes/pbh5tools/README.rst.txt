@@ -48,7 +48,7 @@ pbh5tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbh5tools:<tag>
+      docker pull quay.io/biocontainers/pbh5tools:<tag>
 
    (see `pbh5tools/tags`_ for valid values for ``<tag>``)
 

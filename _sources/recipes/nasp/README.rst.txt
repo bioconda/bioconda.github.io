@@ -47,7 +47,7 @@ nasp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nasp:<tag>
+      docker pull quay.io/biocontainers/nasp:<tag>
 
    (see `nasp/tags`_ for valid values for ``<tag>``)
 

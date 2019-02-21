@@ -40,7 +40,7 @@ myriad
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/myriad:<tag>
+      docker pull quay.io/biocontainers/myriad:<tag>
 
    (see `myriad/tags`_ for valid values for ``<tag>``)
 

@@ -77,7 +77,7 @@ bioconductor-systempiper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-systempiper:<tag>
+      docker pull quay.io/biocontainers/bioconductor-systempiper:<tag>
 
    (see `bioconductor-systempiper/tags`_ for valid values for ``<tag>``)
 

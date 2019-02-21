@@ -45,7 +45,7 @@ bioconductor-ruvnormalize
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ruvnormalize:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ruvnormalize:<tag>
 
    (see `bioconductor-ruvnormalize/tags`_ for valid values for ``<tag>``)
 

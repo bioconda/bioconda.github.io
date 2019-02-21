@@ -40,7 +40,7 @@ perl-test-harness
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-harness:<tag>
+      docker pull quay.io/biocontainers/perl-test-harness:<tag>
 
    (see `perl-test-harness/tags`_ for valid values for ``<tag>``)
 

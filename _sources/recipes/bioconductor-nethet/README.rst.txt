@@ -72,7 +72,7 @@ bioconductor-nethet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-nethet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-nethet:<tag>
 
    (see `bioconductor-nethet/tags`_ for valid values for ``<tag>``)
 

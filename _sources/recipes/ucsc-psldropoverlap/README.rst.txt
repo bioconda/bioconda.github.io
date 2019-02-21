@@ -50,7 +50,7 @@ ucsc-psldropoverlap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-psldropoverlap:<tag>
+      docker pull quay.io/biocontainers/ucsc-psldropoverlap:<tag>
 
    (see `ucsc-psldropoverlap/tags`_ for valid values for ``<tag>``)
 

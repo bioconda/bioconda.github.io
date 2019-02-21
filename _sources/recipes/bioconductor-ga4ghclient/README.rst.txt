@@ -60,7 +60,7 @@ bioconductor-ga4ghclient
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ga4ghclient:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ga4ghclient:<tag>
 
    (see `bioconductor-ga4ghclient/tags`_ for valid values for ``<tag>``)
 

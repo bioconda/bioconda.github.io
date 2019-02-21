@@ -44,7 +44,7 @@ perl-digest-md5-file
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-digest-md5-file:<tag>
+      docker pull quay.io/biocontainers/perl-digest-md5-file:<tag>
 
    (see `perl-digest-md5-file/tags`_ for valid values for ``<tag>``)
 

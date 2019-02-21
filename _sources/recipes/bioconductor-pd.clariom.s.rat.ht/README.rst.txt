@@ -56,7 +56,7 @@ bioconductor-pd.clariom.s.rat.ht
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.clariom.s.rat.ht:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.clariom.s.rat.ht:<tag>
 
    (see `bioconductor-pd.clariom.s.rat.ht/tags`_ for valid values for ``<tag>``)
 

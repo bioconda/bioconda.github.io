@@ -53,7 +53,7 @@ bioconductor-otubase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-otubase:<tag>
+      docker pull quay.io/biocontainers/bioconductor-otubase:<tag>
 
    (see `bioconductor-otubase/tags`_ for valid values for ``<tag>``)
 

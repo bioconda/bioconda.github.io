@@ -49,7 +49,7 @@ bioconductor-hopach
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hopach:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hopach:<tag>
 
    (see `bioconductor-hopach/tags`_ for valid values for ``<tag>``)
 

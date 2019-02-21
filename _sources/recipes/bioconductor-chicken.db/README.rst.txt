@@ -46,7 +46,7 @@ bioconductor-chicken.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chicken.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chicken.db:<tag>
 
    (see `bioconductor-chicken.db/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ bioconductor-flowmerge
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowmerge:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowmerge:<tag>
 
    (see `bioconductor-flowmerge/tags`_ for valid values for ``<tag>``)
 

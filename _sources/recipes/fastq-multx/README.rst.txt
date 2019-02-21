@@ -40,7 +40,7 @@ fastq-multx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastq-multx:<tag>
+      docker pull quay.io/biocontainers/fastq-multx:<tag>
 
    (see `fastq-multx/tags`_ for valid values for ``<tag>``)
 

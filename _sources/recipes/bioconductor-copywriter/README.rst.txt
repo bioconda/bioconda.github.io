@@ -69,7 +69,7 @@ bioconductor-copywriter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-copywriter:<tag>
+      docker pull quay.io/biocontainers/bioconductor-copywriter:<tag>
 
    (see `bioconductor-copywriter/tags`_ for valid values for ``<tag>``)
 

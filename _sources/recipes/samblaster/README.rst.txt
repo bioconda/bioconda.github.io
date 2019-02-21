@@ -40,7 +40,7 @@ samblaster
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/samblaster:<tag>
+      docker pull quay.io/biocontainers/samblaster:<tag>
 
    (see `samblaster/tags`_ for valid values for ``<tag>``)
 

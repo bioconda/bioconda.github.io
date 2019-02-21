@@ -52,7 +52,7 @@ fithic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fithic:<tag>
+      docker pull quay.io/biocontainers/fithic:<tag>
 
    (see `fithic/tags`_ for valid values for ``<tag>``)
 

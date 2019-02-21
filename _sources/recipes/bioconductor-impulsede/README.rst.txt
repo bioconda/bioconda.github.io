@@ -45,7 +45,7 @@ bioconductor-impulsede
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-impulsede:<tag>
+      docker pull quay.io/biocontainers/bioconductor-impulsede:<tag>
 
    (see `bioconductor-impulsede/tags`_ for valid values for ``<tag>``)
 

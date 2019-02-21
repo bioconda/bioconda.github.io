@@ -44,7 +44,7 @@ bioconductor-reactome.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-reactome.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-reactome.db:<tag>
 
    (see `bioconductor-reactome.db/tags`_ for valid values for ``<tag>``)
 

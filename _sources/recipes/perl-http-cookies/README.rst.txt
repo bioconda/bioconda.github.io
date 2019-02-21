@@ -48,7 +48,7 @@ perl-http-cookies
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-http-cookies:<tag>
+      docker pull quay.io/biocontainers/perl-http-cookies:<tag>
 
    (see `perl-http-cookies/tags`_ for valid values for ``<tag>``)
 

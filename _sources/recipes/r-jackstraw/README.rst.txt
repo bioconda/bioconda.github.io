@@ -54,7 +54,7 @@ r-jackstraw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-jackstraw:<tag>
+      docker pull quay.io/biocontainers/r-jackstraw:<tag>
 
    (see `r-jackstraw/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ vardict-java
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vardict-java:<tag>
+      docker pull quay.io/biocontainers/vardict-java:<tag>
 
    (see `vardict-java/tags`_ for valid values for ``<tag>``)
 

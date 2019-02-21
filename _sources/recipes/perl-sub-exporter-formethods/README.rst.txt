@@ -44,7 +44,7 @@ perl-sub-exporter-formethods
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sub-exporter-formethods:<tag>
+      docker pull quay.io/biocontainers/perl-sub-exporter-formethods:<tag>
 
    (see `perl-sub-exporter-formethods/tags`_ for valid values for ``<tag>``)
 

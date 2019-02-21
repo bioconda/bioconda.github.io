@@ -38,7 +38,7 @@ bioconductor-powertcr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-powertcr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-powertcr:<tag>
 
    (see `bioconductor-powertcr/tags`_ for valid values for ``<tag>``)
 

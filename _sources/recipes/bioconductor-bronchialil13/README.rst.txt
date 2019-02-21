@@ -44,7 +44,7 @@ bioconductor-bronchialil13
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bronchialil13:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bronchialil13:<tag>
 
    (see `bioconductor-bronchialil13/tags`_ for valid values for ``<tag>``)
 

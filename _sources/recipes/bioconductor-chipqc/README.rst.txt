@@ -85,7 +85,7 @@ bioconductor-chipqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chipqc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chipqc:<tag>
 
    (see `bioconductor-chipqc/tags`_ for valid values for ``<tag>``)
 

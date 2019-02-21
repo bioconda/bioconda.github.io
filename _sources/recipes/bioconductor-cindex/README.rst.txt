@@ -63,7 +63,7 @@ bioconductor-cindex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cindex:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cindex:<tag>
 
    (see `bioconductor-cindex/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-ichip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ichip:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ichip:<tag>
 
    (see `bioconductor-ichip/tags`_ for valid values for ``<tag>``)
 

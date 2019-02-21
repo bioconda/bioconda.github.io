@@ -42,7 +42,7 @@ xmltramp2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xmltramp2:<tag>
+      docker pull quay.io/biocontainers/xmltramp2:<tag>
 
    (see `xmltramp2/tags`_ for valid values for ``<tag>``)
 

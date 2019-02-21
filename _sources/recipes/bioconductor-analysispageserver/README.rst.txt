@@ -52,7 +52,7 @@ bioconductor-analysispageserver
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-analysispageserver:<tag>
+      docker pull quay.io/biocontainers/bioconductor-analysispageserver:<tag>
 
    (see `bioconductor-analysispageserver/tags`_ for valid values for ``<tag>``)
 

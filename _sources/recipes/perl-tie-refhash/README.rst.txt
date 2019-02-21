@@ -40,7 +40,7 @@ perl-tie-refhash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-tie-refhash:<tag>
+      docker pull quay.io/biocontainers/perl-tie-refhash:<tag>
 
    (see `perl-tie-refhash/tags`_ for valid values for ``<tag>``)
 

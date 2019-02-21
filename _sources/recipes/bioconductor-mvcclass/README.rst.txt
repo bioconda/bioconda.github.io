@@ -41,7 +41,7 @@ bioconductor-mvcclass
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mvcclass:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mvcclass:<tag>
 
    (see `bioconductor-mvcclass/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ hts-nim-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hts-nim-tools:<tag>
+      docker pull quay.io/biocontainers/hts-nim-tools:<tag>
 
    (see `hts-nim-tools/tags`_ for valid values for ``<tag>``)
 

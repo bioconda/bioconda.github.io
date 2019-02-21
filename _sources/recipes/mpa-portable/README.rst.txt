@@ -44,7 +44,7 @@ mpa-portable
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mpa-portable:<tag>
+      docker pull quay.io/biocontainers/mpa-portable:<tag>
 
    (see `mpa-portable/tags`_ for valid values for ``<tag>``)
 

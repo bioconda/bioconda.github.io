@@ -42,7 +42,7 @@ rust-ncbitaxonomy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rust-ncbitaxonomy:<tag>
+      docker pull quay.io/biocontainers/rust-ncbitaxonomy:<tag>
 
    (see `rust-ncbitaxonomy/tags`_ for valid values for ``<tag>``)
 

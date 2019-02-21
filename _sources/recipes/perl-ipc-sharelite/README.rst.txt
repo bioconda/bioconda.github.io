@@ -42,7 +42,7 @@ perl-ipc-sharelite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-ipc-sharelite:<tag>
+      docker pull quay.io/biocontainers/perl-ipc-sharelite:<tag>
 
    (see `perl-ipc-sharelite/tags`_ for valid values for ``<tag>``)
 

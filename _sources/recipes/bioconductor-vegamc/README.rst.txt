@@ -49,7 +49,7 @@ bioconductor-vegamc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-vegamc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-vegamc:<tag>
 
    (see `bioconductor-vegamc/tags`_ for valid values for ``<tag>``)
 

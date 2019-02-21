@@ -54,7 +54,7 @@ bioconductor-anaquin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-anaquin:<tag>
+      docker pull quay.io/biocontainers/bioconductor-anaquin:<tag>
 
    (see `bioconductor-anaquin/tags`_ for valid values for ``<tag>``)
 

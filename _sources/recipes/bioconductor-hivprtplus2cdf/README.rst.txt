@@ -44,7 +44,7 @@ bioconductor-hivprtplus2cdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hivprtplus2cdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hivprtplus2cdf:<tag>
 
    (see `bioconductor-hivprtplus2cdf/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ ucsc-subchar
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-subchar:<tag>
+      docker pull quay.io/biocontainers/ucsc-subchar:<tag>
 
    (see `ucsc-subchar/tags`_ for valid values for ``<tag>``)
 

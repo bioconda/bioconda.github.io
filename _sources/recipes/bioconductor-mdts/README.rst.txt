@@ -54,7 +54,7 @@ bioconductor-mdts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mdts:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mdts:<tag>
 
    (see `bioconductor-mdts/tags`_ for valid values for ``<tag>``)
 

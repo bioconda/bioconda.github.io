@@ -43,7 +43,7 @@ moods
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/moods:<tag>
+      docker pull quay.io/biocontainers/moods:<tag>
 
    (see `moods/tags`_ for valid values for ``<tag>``)
 

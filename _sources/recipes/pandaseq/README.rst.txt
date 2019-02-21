@@ -44,7 +44,7 @@ pandaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pandaseq:<tag>
+      docker pull quay.io/biocontainers/pandaseq:<tag>
 
    (see `pandaseq/tags`_ for valid values for ``<tag>``)
 

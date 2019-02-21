@@ -44,7 +44,7 @@ bioconductor-huexexonprobesetlocationhg19
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-huexexonprobesetlocationhg19:<tag>
+      docker pull quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg19:<tag>
 
    (see `bioconductor-huexexonprobesetlocationhg19/tags`_ for valid values for ``<tag>``)
 

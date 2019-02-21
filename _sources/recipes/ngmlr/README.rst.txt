@@ -42,7 +42,7 @@ ngmlr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ngmlr:<tag>
+      docker pull quay.io/biocontainers/ngmlr:<tag>
 
    (see `ngmlr/tags`_ for valid values for ``<tag>``)
 

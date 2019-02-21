@@ -71,7 +71,7 @@ scanpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scanpy:<tag>
+      docker pull quay.io/biocontainers/scanpy:<tag>
 
    (see `scanpy/tags`_ for valid values for ``<tag>``)
 

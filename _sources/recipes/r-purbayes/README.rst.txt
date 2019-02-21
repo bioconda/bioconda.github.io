@@ -42,7 +42,7 @@ r-purbayes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-purbayes:<tag>
+      docker pull quay.io/biocontainers/r-purbayes:<tag>
 
    (see `r-purbayes/tags`_ for valid values for ``<tag>``)
 

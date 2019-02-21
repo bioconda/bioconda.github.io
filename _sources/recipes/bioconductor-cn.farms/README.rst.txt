@@ -65,7 +65,7 @@ bioconductor-cn.farms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cn.farms:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cn.farms:<tag>
 
    (see `bioconductor-cn.farms/tags`_ for valid values for ``<tag>``)
 

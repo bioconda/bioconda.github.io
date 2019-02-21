@@ -76,7 +76,7 @@ bioconductor-cagefightr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cagefightr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cagefightr:<tag>
 
    (see `bioconductor-cagefightr/tags`_ for valid values for ``<tag>``)
 

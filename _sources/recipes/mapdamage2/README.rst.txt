@@ -44,7 +44,7 @@ mapdamage2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mapdamage2:<tag>
+      docker pull quay.io/biocontainers/mapdamage2:<tag>
 
    (see `mapdamage2/tags`_ for valid values for ``<tag>``)
 

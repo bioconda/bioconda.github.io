@@ -48,7 +48,7 @@ bioconductor-davidtiling
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-davidtiling:<tag>
+      docker pull quay.io/biocontainers/bioconductor-davidtiling:<tag>
 
    (see `bioconductor-davidtiling/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ pygenometracks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pygenometracks:<tag>
+      docker pull quay.io/biocontainers/pygenometracks:<tag>
 
    (see `pygenometracks/tags`_ for valid values for ``<tag>``)
 

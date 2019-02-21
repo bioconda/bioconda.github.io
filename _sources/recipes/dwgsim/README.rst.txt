@@ -44,7 +44,7 @@ dwgsim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dwgsim:<tag>
+      docker pull quay.io/biocontainers/dwgsim:<tag>
 
    (see `dwgsim/tags`_ for valid values for ``<tag>``)
 

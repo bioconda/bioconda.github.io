@@ -46,7 +46,7 @@ perl-pathtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pathtools:<tag>
+      docker pull quay.io/biocontainers/perl-pathtools:<tag>
 
    (see `perl-pathtools/tags`_ for valid values for ``<tag>``)
 

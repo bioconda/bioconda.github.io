@@ -50,7 +50,7 @@ ucsc-maforder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-maforder:<tag>
+      docker pull quay.io/biocontainers/ucsc-maforder:<tag>
 
    (see `ucsc-maforder/tags`_ for valid values for ``<tag>``)
 

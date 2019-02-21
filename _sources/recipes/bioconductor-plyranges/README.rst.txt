@@ -66,7 +66,7 @@ bioconductor-plyranges
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-plyranges:<tag>
+      docker pull quay.io/biocontainers/bioconductor-plyranges:<tag>
 
    (see `bioconductor-plyranges/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ fsnviz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fsnviz:<tag>
+      docker pull quay.io/biocontainers/fsnviz:<tag>
 
    (see `fsnviz/tags`_ for valid values for ``<tag>``)
 

@@ -41,7 +41,7 @@ yass
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/yass:<tag>
+      docker pull quay.io/biocontainers/yass:<tag>
 
    (see `yass/tags`_ for valid values for ``<tag>``)
 

@@ -80,7 +80,7 @@ kipoi_veff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kipoi_veff:<tag>
+      docker pull quay.io/biocontainers/kipoi_veff:<tag>
 
    (see `kipoi_veff/tags`_ for valid values for ``<tag>``)
 

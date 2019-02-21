@@ -42,7 +42,7 @@ deeptoolsintervals
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/deeptoolsintervals:<tag>
+      docker pull quay.io/biocontainers/deeptoolsintervals:<tag>
 
    (see `deeptoolsintervals/tags`_ for valid values for ``<tag>``)
 

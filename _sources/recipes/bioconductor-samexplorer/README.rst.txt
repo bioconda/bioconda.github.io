@@ -48,7 +48,7 @@ bioconductor-samexplorer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-samexplorer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-samexplorer:<tag>
 
    (see `bioconductor-samexplorer/tags`_ for valid values for ``<tag>``)
 

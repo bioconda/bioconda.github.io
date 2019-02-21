@@ -40,7 +40,7 @@ r-inlinedocs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-inlinedocs:<tag>
+      docker pull quay.io/biocontainers/r-inlinedocs:<tag>
 
    (see `r-inlinedocs/tags`_ for valid values for ``<tag>``)
 

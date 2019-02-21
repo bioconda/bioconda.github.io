@@ -42,7 +42,7 @@ bioconductor-breastcancermainz
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-breastcancermainz:<tag>
+      docker pull quay.io/biocontainers/bioconductor-breastcancermainz:<tag>
 
    (see `bioconductor-breastcancermainz/tags`_ for valid values for ``<tag>``)
 

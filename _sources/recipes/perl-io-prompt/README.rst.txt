@@ -44,7 +44,7 @@ perl-io-prompt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-io-prompt:<tag>
+      docker pull quay.io/biocontainers/perl-io-prompt:<tag>
 
    (see `perl-io-prompt/tags`_ for valid values for ``<tag>``)
 

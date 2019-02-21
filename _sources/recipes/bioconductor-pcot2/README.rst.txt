@@ -45,7 +45,7 @@ bioconductor-pcot2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pcot2:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pcot2:<tag>
 
    (see `bioconductor-pcot2/tags`_ for valid values for ``<tag>``)
 

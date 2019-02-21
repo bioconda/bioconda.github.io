@@ -46,7 +46,7 @@ bioconductor-dapardata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dapardata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dapardata:<tag>
 
    (see `bioconductor-dapardata/tags`_ for valid values for ``<tag>``)
 

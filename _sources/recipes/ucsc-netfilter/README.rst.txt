@@ -50,7 +50,7 @@ ucsc-netfilter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-netfilter:<tag>
+      docker pull quay.io/biocontainers/ucsc-netfilter:<tag>
 
    (see `ucsc-netfilter/tags`_ for valid values for ``<tag>``)
 

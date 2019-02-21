@@ -60,7 +60,7 @@ scanindel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scanindel:<tag>
+      docker pull quay.io/biocontainers/scanindel:<tag>
 
    (see `scanindel/tags`_ for valid values for ``<tag>``)
 

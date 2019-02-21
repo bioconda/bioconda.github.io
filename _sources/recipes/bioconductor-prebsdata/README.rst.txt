@@ -42,7 +42,7 @@ bioconductor-prebsdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-prebsdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-prebsdata:<tag>
 
    (see `bioconductor-prebsdata/tags`_ for valid values for ``<tag>``)
 

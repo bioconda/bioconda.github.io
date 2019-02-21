@@ -40,7 +40,7 @@ p7zip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/p7zip:<tag>
+      docker pull quay.io/biocontainers/p7zip:<tag>
 
    (see `p7zip/tags`_ for valid values for ``<tag>``)
 

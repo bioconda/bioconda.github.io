@@ -51,7 +51,7 @@ bioconductor-specond
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-specond:<tag>
+      docker pull quay.io/biocontainers/bioconductor-specond:<tag>
 
    (see `bioconductor-specond/tags`_ for valid values for ``<tag>``)
 

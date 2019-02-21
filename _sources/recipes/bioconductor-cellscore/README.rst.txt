@@ -50,7 +50,7 @@ bioconductor-cellscore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cellscore:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cellscore:<tag>
 
    (see `bioconductor-cellscore/tags`_ for valid values for ``<tag>``)
 

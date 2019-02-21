@@ -53,7 +53,7 @@ bioconductor-biocviews
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biocviews:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biocviews:<tag>
 
    (see `bioconductor-biocviews/tags`_ for valid values for ``<tag>``)
 

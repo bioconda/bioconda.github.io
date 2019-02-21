@@ -42,7 +42,7 @@ bioconductor-jmosaics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-jmosaics:<tag>
+      docker pull quay.io/biocontainers/bioconductor-jmosaics:<tag>
 
    (see `bioconductor-jmosaics/tags`_ for valid values for ``<tag>``)
 

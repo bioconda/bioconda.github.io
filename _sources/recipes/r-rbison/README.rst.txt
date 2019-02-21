@@ -54,7 +54,7 @@ r-rbison
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rbison:<tag>
+      docker pull quay.io/biocontainers/r-rbison:<tag>
 
    (see `r-rbison/tags`_ for valid values for ``<tag>``)
 

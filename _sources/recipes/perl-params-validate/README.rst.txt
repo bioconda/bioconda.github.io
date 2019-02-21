@@ -50,7 +50,7 @@ perl-params-validate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-params-validate:<tag>
+      docker pull quay.io/biocontainers/perl-params-validate:<tag>
 
    (see `perl-params-validate/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ bioconductor-blma
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-blma:<tag>
+      docker pull quay.io/biocontainers/bioconductor-blma:<tag>
 
    (see `bioconductor-blma/tags`_ for valid values for ``<tag>``)
 

@@ -49,7 +49,7 @@ vcflib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcflib:<tag>
+      docker pull quay.io/biocontainers/vcflib:<tag>
 
    (see `vcflib/tags`_ for valid values for ``<tag>``)
 

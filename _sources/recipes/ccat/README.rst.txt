@@ -39,7 +39,7 @@ ccat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ccat:<tag>
+      docker pull quay.io/biocontainers/ccat:<tag>
 
    (see `ccat/tags`_ for valid values for ``<tag>``)
 

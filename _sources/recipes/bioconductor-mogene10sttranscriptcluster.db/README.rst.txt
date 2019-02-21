@@ -46,7 +46,7 @@ bioconductor-mogene10sttranscriptcluster.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mogene10sttranscriptcluster.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db:<tag>
 
    (see `bioconductor-mogene10sttranscriptcluster.db/tags`_ for valid values for ``<tag>``)
 

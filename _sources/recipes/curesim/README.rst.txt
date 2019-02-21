@@ -42,7 +42,7 @@ curesim
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/curesim:<tag>
+      docker pull quay.io/biocontainers/curesim:<tag>
 
    (see `curesim/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-test-eol
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-eol:<tag>
+      docker pull quay.io/biocontainers/perl-test-eol:<tag>
 
    (see `perl-test-eol/tags`_ for valid values for ``<tag>``)
 

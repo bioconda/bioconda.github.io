@@ -38,7 +38,7 @@ groot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/groot:<tag>
+      docker pull quay.io/biocontainers/groot:<tag>
 
    (see `groot/tags`_ for valid values for ``<tag>``)
 

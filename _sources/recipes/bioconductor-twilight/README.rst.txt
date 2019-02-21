@@ -45,7 +45,7 @@ bioconductor-twilight
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-twilight:<tag>
+      docker pull quay.io/biocontainers/bioconductor-twilight:<tag>
 
    (see `bioconductor-twilight/tags`_ for valid values for ``<tag>``)
 

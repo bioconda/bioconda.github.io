@@ -44,7 +44,7 @@ bioconductor-tcgaworkflowdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tcgaworkflowdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tcgaworkflowdata:<tag>
 
    (see `bioconductor-tcgaworkflowdata/tags`_ for valid values for ``<tag>``)
 

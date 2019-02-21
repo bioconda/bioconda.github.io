@@ -57,7 +57,7 @@ bioconductor-fccac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fccac:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fccac:<tag>
 
    (see `bioconductor-fccac/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ r-cnogpro
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-cnogpro:<tag>
+      docker pull quay.io/biocontainers/r-cnogpro:<tag>
 
    (see `r-cnogpro/tags`_ for valid values for ``<tag>``)
 

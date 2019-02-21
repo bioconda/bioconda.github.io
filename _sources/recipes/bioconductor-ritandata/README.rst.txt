@@ -42,7 +42,7 @@ bioconductor-ritandata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ritandata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ritandata:<tag>
 
    (see `bioconductor-ritandata/tags`_ for valid values for ``<tag>``)
 

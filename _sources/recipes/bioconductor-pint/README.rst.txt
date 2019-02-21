@@ -47,7 +47,7 @@ bioconductor-pint
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pint:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pint:<tag>
 
    (see `bioconductor-pint/tags`_ for valid values for ``<tag>``)
 

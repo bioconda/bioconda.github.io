@@ -47,7 +47,7 @@ bioconductor-derfinderhelper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-derfinderhelper:<tag>
+      docker pull quay.io/biocontainers/bioconductor-derfinderhelper:<tag>
 
    (see `bioconductor-derfinderhelper/tags`_ for valid values for ``<tag>``)
 

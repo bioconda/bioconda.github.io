@@ -38,7 +38,7 @@ pbccs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pbccs:<tag>
+      docker pull quay.io/biocontainers/pbccs:<tag>
 
    (see `pbccs/tags`_ for valid values for ``<tag>``)
 

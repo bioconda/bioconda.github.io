@@ -45,7 +45,7 @@ bioconductor-dyebias
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dyebias:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dyebias:<tag>
 
    (see `bioconductor-dyebias/tags`_ for valid values for ``<tag>``)
 

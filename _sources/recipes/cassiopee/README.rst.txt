@@ -50,7 +50,7 @@ cassiopee
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cassiopee:<tag>
+      docker pull quay.io/biocontainers/cassiopee:<tag>
 
    (see `cassiopee/tags`_ for valid values for ``<tag>``)
 

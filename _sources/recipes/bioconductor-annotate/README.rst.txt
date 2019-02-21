@@ -55,7 +55,7 @@ bioconductor-annotate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-annotate:<tag>
+      docker pull quay.io/biocontainers/bioconductor-annotate:<tag>
 
    (see `bioconductor-annotate/tags`_ for valid values for ``<tag>``)
 

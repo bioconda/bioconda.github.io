@@ -48,7 +48,7 @@ ebfilter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ebfilter:<tag>
+      docker pull quay.io/biocontainers/ebfilter:<tag>
 
    (see `ebfilter/tags`_ for valid values for ``<tag>``)
 

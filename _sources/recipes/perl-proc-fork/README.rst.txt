@@ -42,7 +42,7 @@ perl-proc-fork
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-proc-fork:<tag>
+      docker pull quay.io/biocontainers/perl-proc-fork:<tag>
 
    (see `perl-proc-fork/tags`_ for valid values for ``<tag>``)
 

@@ -77,7 +77,7 @@ bioconductor-rcgh
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rcgh:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rcgh:<tag>
 
    (see `bioconductor-rcgh/tags`_ for valid values for ``<tag>``)
 

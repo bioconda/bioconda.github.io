@@ -46,7 +46,7 @@ logol
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/logol:<tag>
+      docker pull quay.io/biocontainers/logol:<tag>
 
    (see `logol/tags`_ for valid values for ``<tag>``)
 

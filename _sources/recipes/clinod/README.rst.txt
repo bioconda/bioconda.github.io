@@ -44,7 +44,7 @@ clinod
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clinod:<tag>
+      docker pull quay.io/biocontainers/clinod:<tag>
 
    (see `clinod/tags`_ for valid values for ``<tag>``)
 

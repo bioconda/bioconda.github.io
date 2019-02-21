@@ -79,7 +79,7 @@ bioconductor-mlinterfaces
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mlinterfaces:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mlinterfaces:<tag>
 
    (see `bioconductor-mlinterfaces/tags`_ for valid values for ``<tag>``)
 

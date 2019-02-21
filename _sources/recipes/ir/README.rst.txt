@@ -38,7 +38,7 @@ ir
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ir:<tag>
+      docker pull quay.io/biocontainers/ir:<tag>
 
    (see `ir/tags`_ for valid values for ``<tag>``)
 

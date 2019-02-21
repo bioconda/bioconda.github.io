@@ -45,7 +45,7 @@ bioconductor-mgfr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mgfr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mgfr:<tag>
 
    (see `bioconductor-mgfr/tags`_ for valid values for ``<tag>``)
 

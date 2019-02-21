@@ -54,7 +54,7 @@ smallgenomeutilities
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/smallgenomeutilities:<tag>
+      docker pull quay.io/biocontainers/smallgenomeutilities:<tag>
 
    (see `smallgenomeutilities/tags`_ for valid values for ``<tag>``)
 

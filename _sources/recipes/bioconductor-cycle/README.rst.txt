@@ -44,7 +44,7 @@ bioconductor-cycle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cycle:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cycle:<tag>
 
    (see `bioconductor-cycle/tags`_ for valid values for ``<tag>``)
 

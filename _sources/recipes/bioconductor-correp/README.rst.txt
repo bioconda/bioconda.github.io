@@ -43,7 +43,7 @@ bioconductor-correp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-correp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-correp:<tag>
 
    (see `bioconductor-correp/tags`_ for valid values for ``<tag>``)
 

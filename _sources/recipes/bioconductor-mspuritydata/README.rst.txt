@@ -42,7 +42,7 @@ bioconductor-mspuritydata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mspuritydata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mspuritydata:<tag>
 
    (see `bioconductor-mspuritydata/tags`_ for valid values for ``<tag>``)
 

@@ -56,7 +56,7 @@ bioconductor-goexpress
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-goexpress:<tag>
+      docker pull quay.io/biocontainers/bioconductor-goexpress:<tag>
 
    (see `bioconductor-goexpress/tags`_ for valid values for ``<tag>``)
 

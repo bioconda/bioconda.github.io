@@ -44,7 +44,7 @@ bioconductor-xtropicaliscdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xtropicaliscdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-xtropicaliscdf:<tag>
 
    (see `bioconductor-xtropicaliscdf/tags`_ for valid values for ``<tag>``)
 

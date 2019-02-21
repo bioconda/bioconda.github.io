@@ -50,7 +50,7 @@ perl-hash-util-fieldhash-compat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-hash-util-fieldhash-compat:<tag>
+      docker pull quay.io/biocontainers/perl-hash-util-fieldhash-compat:<tag>
 
    (see `perl-hash-util-fieldhash-compat/tags`_ for valid values for ``<tag>``)
 

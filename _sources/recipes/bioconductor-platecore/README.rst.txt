@@ -56,7 +56,7 @@ bioconductor-platecore
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-platecore:<tag>
+      docker pull quay.io/biocontainers/bioconductor-platecore:<tag>
 
    (see `bioconductor-platecore/tags`_ for valid values for ``<tag>``)
 

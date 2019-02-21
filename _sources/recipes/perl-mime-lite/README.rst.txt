@@ -46,7 +46,7 @@ perl-mime-lite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-mime-lite:<tag>
+      docker pull quay.io/biocontainers/perl-mime-lite:<tag>
 
    (see `perl-mime-lite/tags`_ for valid values for ``<tag>``)
 

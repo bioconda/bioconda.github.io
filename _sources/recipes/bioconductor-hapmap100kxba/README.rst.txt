@@ -42,7 +42,7 @@ bioconductor-hapmap100kxba
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hapmap100kxba:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hapmap100kxba:<tag>
 
    (see `bioconductor-hapmap100kxba/tags`_ for valid values for ``<tag>``)
 

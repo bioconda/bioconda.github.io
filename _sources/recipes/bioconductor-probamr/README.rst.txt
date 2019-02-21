@@ -53,7 +53,7 @@ bioconductor-probamr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-probamr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-probamr:<tag>
 
    (see `bioconductor-probamr/tags`_ for valid values for ``<tag>``)
 

@@ -41,7 +41,7 @@ bioconductor-vbmp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-vbmp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-vbmp:<tag>
 
    (see `bioconductor-vbmp/tags`_ for valid values for ``<tag>``)
 

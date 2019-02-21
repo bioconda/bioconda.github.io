@@ -60,7 +60,7 @@ r-dgeclustering
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-dgeclustering:<tag>
+      docker pull quay.io/biocontainers/r-dgeclustering:<tag>
 
    (see `r-dgeclustering/tags`_ for valid values for ``<tag>``)
 

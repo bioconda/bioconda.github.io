@@ -38,7 +38,7 @@ bioconductor-envisionquery
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-envisionquery:<tag>
+      docker pull quay.io/biocontainers/bioconductor-envisionquery:<tag>
 
    (see `bioconductor-envisionquery/tags`_ for valid values for ``<tag>``)
 

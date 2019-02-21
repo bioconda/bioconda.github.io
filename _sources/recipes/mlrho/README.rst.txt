@@ -45,7 +45,7 @@ mlrho
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mlrho:<tag>
+      docker pull quay.io/biocontainers/mlrho:<tag>
 
    (see `mlrho/tags`_ for valid values for ``<tag>``)
 

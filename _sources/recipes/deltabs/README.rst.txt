@@ -46,7 +46,7 @@ deltabs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/deltabs:<tag>
+      docker pull quay.io/biocontainers/deltabs:<tag>
 
    (see `deltabs/tags`_ for valid values for ``<tag>``)
 

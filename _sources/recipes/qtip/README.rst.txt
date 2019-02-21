@@ -50,7 +50,7 @@ qtip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/qtip:<tag>
+      docker pull quay.io/biocontainers/qtip:<tag>
 
    (see `qtip/tags`_ for valid values for ``<tag>``)
 

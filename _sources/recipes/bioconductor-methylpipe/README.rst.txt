@@ -69,7 +69,7 @@ bioconductor-methylpipe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-methylpipe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-methylpipe:<tag>
 
    (see `bioconductor-methylpipe/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-asgsca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-asgsca:<tag>
+      docker pull quay.io/biocontainers/bioconductor-asgsca:<tag>
 
    (see `bioconductor-asgsca/tags`_ for valid values for ``<tag>``)
 

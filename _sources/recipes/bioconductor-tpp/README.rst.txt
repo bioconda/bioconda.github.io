@@ -96,7 +96,7 @@ bioconductor-tpp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tpp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tpp:<tag>
 
    (see `bioconductor-tpp/tags`_ for valid values for ``<tag>``)
 

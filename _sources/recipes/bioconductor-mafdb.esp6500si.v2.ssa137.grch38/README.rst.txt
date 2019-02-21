@@ -54,7 +54,7 @@ bioconductor-mafdb.esp6500si.v2.ssa137.grch38
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38:<tag>
 
    (see `bioconductor-mafdb.esp6500si.v2.ssa137.grch38/tags`_ for valid values for ``<tag>``)
 

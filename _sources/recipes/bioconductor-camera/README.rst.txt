@@ -55,7 +55,7 @@ bioconductor-camera
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-camera:<tag>
+      docker pull quay.io/biocontainers/bioconductor-camera:<tag>
 
    (see `bioconductor-camera/tags`_ for valid values for ``<tag>``)
 

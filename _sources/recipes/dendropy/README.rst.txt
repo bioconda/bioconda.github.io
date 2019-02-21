@@ -40,7 +40,7 @@ dendropy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dendropy:<tag>
+      docker pull quay.io/biocontainers/dendropy:<tag>
 
    (see `dendropy/tags`_ for valid values for ``<tag>``)
 

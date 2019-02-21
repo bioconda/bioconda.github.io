@@ -43,7 +43,7 @@ bioconductor-lpeadj
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lpeadj:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lpeadj:<tag>
 
    (see `bioconductor-lpeadj/tags`_ for valid values for ``<tag>``)
 

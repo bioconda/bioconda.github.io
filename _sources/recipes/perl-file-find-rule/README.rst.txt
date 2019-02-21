@@ -44,7 +44,7 @@ perl-file-find-rule
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-find-rule:<tag>
+      docker pull quay.io/biocontainers/perl-file-find-rule:<tag>
 
    (see `perl-file-find-rule/tags`_ for valid values for ``<tag>``)
 

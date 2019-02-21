@@ -44,7 +44,7 @@ clinvar-tsv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/clinvar-tsv:<tag>
+      docker pull quay.io/biocontainers/clinvar-tsv:<tag>
 
    (see `clinvar-tsv/tags`_ for valid values for ``<tag>``)
 

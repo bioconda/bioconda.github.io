@@ -44,7 +44,7 @@ argutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/argutils:<tag>
+      docker pull quay.io/biocontainers/argutils:<tag>
 
    (see `argutils/tags`_ for valid values for ``<tag>``)
 

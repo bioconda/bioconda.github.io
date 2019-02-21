@@ -40,7 +40,7 @@ python-newick
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-newick:<tag>
+      docker pull quay.io/biocontainers/python-newick:<tag>
 
    (see `python-newick/tags`_ for valid values for ``<tag>``)
 

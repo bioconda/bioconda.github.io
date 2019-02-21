@@ -43,7 +43,7 @@ corset
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/corset:<tag>
+      docker pull quay.io/biocontainers/corset:<tag>
 
    (see `corset/tags`_ for valid values for ``<tag>``)
 

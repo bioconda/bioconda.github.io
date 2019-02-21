@@ -42,7 +42,7 @@ bioconductor-ratchrloc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ratchrloc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ratchrloc:<tag>
 
    (see `bioconductor-ratchrloc/tags`_ for valid values for ``<tag>``)
 

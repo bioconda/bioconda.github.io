@@ -46,7 +46,7 @@ bioconductor-illuminahumanwgdaslv3.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-illuminahumanwgdaslv3.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-illuminahumanwgdaslv3.db:<tag>
 
    (see `bioconductor-illuminahumanwgdaslv3.db/tags`_ for valid values for ``<tag>``)
 

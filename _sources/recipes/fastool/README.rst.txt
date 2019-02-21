@@ -43,7 +43,7 @@ fastool
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastool:<tag>
+      docker pull quay.io/biocontainers/fastool:<tag>
 
    (see `fastool/tags`_ for valid values for ``<tag>``)
 

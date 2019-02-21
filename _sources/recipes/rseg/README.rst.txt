@@ -42,7 +42,7 @@ rseg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rseg:<tag>
+      docker pull quay.io/biocontainers/rseg:<tag>
 
    (see `rseg/tags`_ for valid values for ``<tag>``)
 

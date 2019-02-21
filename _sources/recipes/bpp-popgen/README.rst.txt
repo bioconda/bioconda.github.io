@@ -42,7 +42,7 @@ bpp-popgen
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bpp-popgen:<tag>
+      docker pull quay.io/biocontainers/bpp-popgen:<tag>
 
    (see `bpp-popgen/tags`_ for valid values for ``<tag>``)
 

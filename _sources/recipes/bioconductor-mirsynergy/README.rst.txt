@@ -55,7 +55,7 @@ bioconductor-mirsynergy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirsynergy:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mirsynergy:<tag>
 
    (see `bioconductor-mirsynergy/tags`_ for valid values for ``<tag>``)
 

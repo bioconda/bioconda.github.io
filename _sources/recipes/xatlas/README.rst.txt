@@ -45,7 +45,7 @@ xatlas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xatlas:<tag>
+      docker pull quay.io/biocontainers/xatlas:<tag>
 
    (see `xatlas/tags`_ for valid values for ``<tag>``)
 

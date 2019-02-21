@@ -87,7 +87,7 @@ bioconductor-doqtl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-doqtl:<tag>
+      docker pull quay.io/biocontainers/bioconductor-doqtl:<tag>
 
    (see `bioconductor-doqtl/tags`_ for valid values for ``<tag>``)
 

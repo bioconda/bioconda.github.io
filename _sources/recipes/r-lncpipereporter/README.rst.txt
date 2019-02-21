@@ -74,7 +74,7 @@ r-lncpipereporter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-lncpipereporter:<tag>
+      docker pull quay.io/biocontainers/r-lncpipereporter:<tag>
 
    (see `r-lncpipereporter/tags`_ for valid values for ``<tag>``)
 

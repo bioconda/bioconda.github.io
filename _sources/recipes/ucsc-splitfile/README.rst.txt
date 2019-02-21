@@ -50,7 +50,7 @@ ucsc-splitfile
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-splitfile:<tag>
+      docker pull quay.io/biocontainers/ucsc-splitfile:<tag>
 
    (see `ucsc-splitfile/tags`_ for valid values for ``<tag>``)
 

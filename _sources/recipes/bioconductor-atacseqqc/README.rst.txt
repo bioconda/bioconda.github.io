@@ -74,7 +74,7 @@ bioconductor-atacseqqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-atacseqqc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-atacseqqc:<tag>
 
    (see `bioconductor-atacseqqc/tags`_ for valid values for ``<tag>``)
 

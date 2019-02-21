@@ -58,7 +58,7 @@ perl-test2-suite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test2-suite:<tag>
+      docker pull quay.io/biocontainers/perl-test2-suite:<tag>
 
    (see `perl-test2-suite/tags`_ for valid values for ``<tag>``)
 

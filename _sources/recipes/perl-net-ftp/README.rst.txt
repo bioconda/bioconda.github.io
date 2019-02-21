@@ -40,7 +40,7 @@ perl-net-ftp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-net-ftp:<tag>
+      docker pull quay.io/biocontainers/perl-net-ftp:<tag>
 
    (see `perl-net-ftp/tags`_ for valid values for ``<tag>``)
 

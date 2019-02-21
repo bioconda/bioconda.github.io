@@ -47,7 +47,7 @@ jalview
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/jalview:<tag>
+      docker pull quay.io/biocontainers/jalview:<tag>
 
    (see `jalview/tags`_ for valid values for ``<tag>``)
 

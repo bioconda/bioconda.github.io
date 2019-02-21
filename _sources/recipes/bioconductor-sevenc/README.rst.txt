@@ -62,7 +62,7 @@ bioconductor-sevenc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sevenc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sevenc:<tag>
 
    (see `bioconductor-sevenc/tags`_ for valid values for ``<tag>``)
 

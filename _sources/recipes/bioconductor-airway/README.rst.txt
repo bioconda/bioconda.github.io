@@ -44,7 +44,7 @@ bioconductor-airway
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-airway:<tag>
+      docker pull quay.io/biocontainers/bioconductor-airway:<tag>
 
    (see `bioconductor-airway/tags`_ for valid values for ``<tag>``)
 

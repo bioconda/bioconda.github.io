@@ -44,7 +44,7 @@ cansam
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cansam:<tag>
+      docker pull quay.io/biocontainers/cansam:<tag>
 
    (see `cansam/tags`_ for valid values for ``<tag>``)
 

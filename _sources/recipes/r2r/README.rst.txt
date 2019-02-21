@@ -46,7 +46,7 @@ r2r
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r2r:<tag>
+      docker pull quay.io/biocontainers/r2r:<tag>
 
    (see `r2r/tags`_ for valid values for ``<tag>``)
 

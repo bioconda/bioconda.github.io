@@ -46,7 +46,7 @@ viennarna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/viennarna:<tag>
+      docker pull quay.io/biocontainers/viennarna:<tag>
 
    (see `viennarna/tags`_ for valid values for ``<tag>``)
 

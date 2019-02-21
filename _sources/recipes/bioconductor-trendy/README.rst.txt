@@ -58,7 +58,7 @@ bioconductor-trendy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-trendy:<tag>
+      docker pull quay.io/biocontainers/bioconductor-trendy:<tag>
 
    (see `bioconductor-trendy/tags`_ for valid values for ``<tag>``)
 

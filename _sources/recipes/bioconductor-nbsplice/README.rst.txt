@@ -54,7 +54,7 @@ bioconductor-nbsplice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-nbsplice:<tag>
+      docker pull quay.io/biocontainers/bioconductor-nbsplice:<tag>
 
    (see `bioconductor-nbsplice/tags`_ for valid values for ``<tag>``)
 

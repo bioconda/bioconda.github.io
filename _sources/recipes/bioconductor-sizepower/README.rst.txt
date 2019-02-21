@@ -41,7 +41,7 @@ bioconductor-sizepower
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-sizepower:<tag>
+      docker pull quay.io/biocontainers/bioconductor-sizepower:<tag>
 
    (see `bioconductor-sizepower/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ newick_utils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/newick_utils:<tag>
+      docker pull quay.io/biocontainers/newick_utils:<tag>
 
    (see `newick_utils/tags`_ for valid values for ``<tag>``)
 

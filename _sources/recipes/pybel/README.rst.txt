@@ -60,7 +60,7 @@ pybel
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pybel:<tag>
+      docker pull quay.io/biocontainers/pybel:<tag>
 
    (see `pybel/tags`_ for valid values for ``<tag>``)
 

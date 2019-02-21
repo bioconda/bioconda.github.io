@@ -48,7 +48,7 @@ ndex-python
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ndex-python:<tag>
+      docker pull quay.io/biocontainers/ndex-python:<tag>
 
    (see `ndex-python/tags`_ for valid values for ``<tag>``)
 

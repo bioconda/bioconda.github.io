@@ -54,7 +54,7 @@ bioconductor-multimir
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-multimir:<tag>
+      docker pull quay.io/biocontainers/bioconductor-multimir:<tag>
 
    (see `bioconductor-multimir/tags`_ for valid values for ``<tag>``)
 

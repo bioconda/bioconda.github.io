@@ -64,7 +64,7 @@ somaticseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/somaticseq:<tag>
+      docker pull quay.io/biocontainers/somaticseq:<tag>
 
    (see `somaticseq/tags`_ for valid values for ``<tag>``)
 

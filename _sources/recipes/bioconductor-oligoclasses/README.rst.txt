@@ -67,7 +67,7 @@ bioconductor-oligoclasses
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-oligoclasses:<tag>
+      docker pull quay.io/biocontainers/bioconductor-oligoclasses:<tag>
 
    (see `bioconductor-oligoclasses/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ perl-string-truncate
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-string-truncate:<tag>
+      docker pull quay.io/biocontainers/perl-string-truncate:<tag>
 
    (see `perl-string-truncate/tags`_ for valid values for ``<tag>``)
 

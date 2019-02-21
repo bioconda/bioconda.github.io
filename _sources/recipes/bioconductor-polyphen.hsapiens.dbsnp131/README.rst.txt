@@ -48,7 +48,7 @@ bioconductor-polyphen.hsapiens.dbsnp131
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131:<tag>
+      docker pull quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131:<tag>
 
    (see `bioconductor-polyphen.hsapiens.dbsnp131/tags`_ for valid values for ``<tag>``)
 

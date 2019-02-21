@@ -40,7 +40,7 @@ minced
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/minced:<tag>
+      docker pull quay.io/biocontainers/minced:<tag>
 
    (see `minced/tags`_ for valid values for ``<tag>``)
 

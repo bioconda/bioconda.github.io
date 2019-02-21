@@ -43,7 +43,7 @@ npinv
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/npinv:<tag>
+      docker pull quay.io/biocontainers/npinv:<tag>
 
    (see `npinv/tags`_ for valid values for ``<tag>``)
 

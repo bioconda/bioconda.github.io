@@ -38,7 +38,7 @@ blast-legacy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/blast-legacy:<tag>
+      docker pull quay.io/biocontainers/blast-legacy:<tag>
 
    (see `blast-legacy/tags`_ for valid values for ``<tag>``)
 

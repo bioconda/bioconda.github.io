@@ -40,7 +40,7 @@ perl-algorithm-diff
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-algorithm-diff:<tag>
+      docker pull quay.io/biocontainers/perl-algorithm-diff:<tag>
 
    (see `perl-algorithm-diff/tags`_ for valid values for ``<tag>``)
 

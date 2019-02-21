@@ -44,7 +44,7 @@ bioconductor-facsdorit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-facsdorit:<tag>
+      docker pull quay.io/biocontainers/bioconductor-facsdorit:<tag>
 
    (see `bioconductor-facsdorit/tags`_ for valid values for ``<tag>``)
 

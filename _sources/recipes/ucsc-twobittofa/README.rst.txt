@@ -50,7 +50,7 @@ ucsc-twobittofa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-twobittofa:<tag>
+      docker pull quay.io/biocontainers/ucsc-twobittofa:<tag>
 
    (see `ucsc-twobittofa/tags`_ for valid values for ``<tag>``)
 

@@ -60,7 +60,7 @@ bioconductor-gcmapweb
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gcmapweb:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gcmapweb:<tag>
 
    (see `bioconductor-gcmapweb/tags`_ for valid values for ``<tag>``)
 

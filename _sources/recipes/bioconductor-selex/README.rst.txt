@@ -38,7 +38,7 @@ bioconductor-selex
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-selex:<tag>
+      docker pull quay.io/biocontainers/bioconductor-selex:<tag>
 
    (see `bioconductor-selex/tags`_ for valid values for ``<tag>``)
 

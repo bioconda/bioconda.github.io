@@ -55,7 +55,7 @@ ghost-tree
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ghost-tree:<tag>
+      docker pull quay.io/biocontainers/ghost-tree:<tag>
 
    (see `ghost-tree/tags`_ for valid values for ``<tag>``)
 

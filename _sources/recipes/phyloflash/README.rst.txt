@@ -69,7 +69,7 @@ phyloflash
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phyloflash:<tag>
+      docker pull quay.io/biocontainers/phyloflash:<tag>
 
    (see `phyloflash/tags`_ for valid values for ``<tag>``)
 

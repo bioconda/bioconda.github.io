@@ -78,7 +78,7 @@ smeg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/smeg:<tag>
+      docker pull quay.io/biocontainers/smeg:<tag>
 
    (see `smeg/tags`_ for valid values for ``<tag>``)
 

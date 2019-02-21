@@ -44,7 +44,7 @@ circexplorer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/circexplorer:<tag>
+      docker pull quay.io/biocontainers/circexplorer:<tag>
 
    (see `circexplorer/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-text-abbrev
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-abbrev:<tag>
+      docker pull quay.io/biocontainers/perl-text-abbrev:<tag>
 
    (see `perl-text-abbrev/tags`_ for valid values for ``<tag>``)
 

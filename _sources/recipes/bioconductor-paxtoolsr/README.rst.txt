@@ -38,7 +38,7 @@ bioconductor-paxtoolsr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-paxtoolsr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-paxtoolsr:<tag>
 
    (see `bioconductor-paxtoolsr/tags`_ for valid values for ``<tag>``)
 

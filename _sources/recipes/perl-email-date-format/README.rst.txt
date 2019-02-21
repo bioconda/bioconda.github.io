@@ -40,7 +40,7 @@ perl-email-date-format
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-email-date-format:<tag>
+      docker pull quay.io/biocontainers/perl-email-date-format:<tag>
 
    (see `perl-email-date-format/tags`_ for valid values for ``<tag>``)
 

@@ -51,7 +51,7 @@ bioconductor-clstutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clstutils:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clstutils:<tag>
 
    (see `bioconductor-clstutils/tags`_ for valid values for ``<tag>``)
 

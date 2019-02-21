@@ -58,7 +58,7 @@ bioconductor-splicesites
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-splicesites:<tag>
+      docker pull quay.io/biocontainers/bioconductor-splicesites:<tag>
 
    (see `bioconductor-splicesites/tags`_ for valid values for ``<tag>``)
 

@@ -45,7 +45,7 @@ bioconductor-cghbase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cghbase:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cghbase:<tag>
 
    (see `bioconductor-cghbase/tags`_ for valid values for ``<tag>``)
 

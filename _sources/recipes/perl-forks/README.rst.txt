@@ -54,7 +54,7 @@ perl-forks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-forks:<tag>
+      docker pull quay.io/biocontainers/perl-forks:<tag>
 
    (see `perl-forks/tags`_ for valid values for ``<tag>``)
 

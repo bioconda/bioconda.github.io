@@ -75,7 +75,7 @@ bioconductor-interest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-interest:<tag>
+      docker pull quay.io/biocontainers/bioconductor-interest:<tag>
 
    (see `bioconductor-interest/tags`_ for valid values for ``<tag>``)
 

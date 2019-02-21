@@ -41,7 +41,7 @@ bioconductor-asafe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-asafe:<tag>
+      docker pull quay.io/biocontainers/bioconductor-asafe:<tag>
 
    (see `bioconductor-asafe/tags`_ for valid values for ``<tag>``)
 

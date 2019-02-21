@@ -46,7 +46,7 @@ bioconductor-spikeinsubset
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-spikeinsubset:<tag>
+      docker pull quay.io/biocontainers/bioconductor-spikeinsubset:<tag>
 
    (see `bioconductor-spikeinsubset/tags`_ for valid values for ``<tag>``)
 

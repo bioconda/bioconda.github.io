@@ -44,7 +44,7 @@ bioconductor-ripseekerdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ripseekerdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ripseekerdata:<tag>
 
    (see `bioconductor-ripseekerdata/tags`_ for valid values for ``<tag>``)
 

@@ -51,7 +51,7 @@ gromacs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gromacs:<tag>
+      docker pull quay.io/biocontainers/gromacs:<tag>
 
    (see `gromacs/tags`_ for valid values for ``<tag>``)
 

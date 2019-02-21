@@ -50,7 +50,7 @@ ucsc-lavtopsl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-lavtopsl:<tag>
+      docker pull quay.io/biocontainers/ucsc-lavtopsl:<tag>
 
    (see `ucsc-lavtopsl/tags`_ for valid values for ``<tag>``)
 

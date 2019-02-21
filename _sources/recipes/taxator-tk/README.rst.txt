@@ -40,7 +40,7 @@ taxator-tk
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/taxator-tk:<tag>
+      docker pull quay.io/biocontainers/taxator-tk:<tag>
 
    (see `taxator-tk/tags`_ for valid values for ``<tag>``)
 

@@ -110,7 +110,7 @@ perl-bio-viennangs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-viennangs:<tag>
+      docker pull quay.io/biocontainers/perl-bio-viennangs:<tag>
 
    (see `perl-bio-viennangs/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ breakseq2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/breakseq2:<tag>
+      docker pull quay.io/biocontainers/breakseq2:<tag>
 
    (see `breakseq2/tags`_ for valid values for ``<tag>``)
 

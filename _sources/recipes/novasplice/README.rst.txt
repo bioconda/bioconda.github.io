@@ -46,7 +46,7 @@ novasplice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/novasplice:<tag>
+      docker pull quay.io/biocontainers/novasplice:<tag>
 
    (see `novasplice/tags`_ for valid values for ``<tag>``)
 

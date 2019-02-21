@@ -57,7 +57,7 @@ bioconductor-geoquery
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-geoquery:<tag>
+      docker pull quay.io/biocontainers/bioconductor-geoquery:<tag>
 
    (see `bioconductor-geoquery/tags`_ for valid values for ``<tag>``)
 

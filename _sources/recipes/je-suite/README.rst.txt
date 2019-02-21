@@ -42,7 +42,7 @@ je-suite
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/je-suite:<tag>
+      docker pull quay.io/biocontainers/je-suite:<tag>
 
    (see `je-suite/tags`_ for valid values for ``<tag>``)
 

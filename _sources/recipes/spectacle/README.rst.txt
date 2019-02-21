@@ -44,7 +44,7 @@ spectacle
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spectacle:<tag>
+      docker pull quay.io/biocontainers/spectacle:<tag>
 
    (see `spectacle/tags`_ for valid values for ``<tag>``)
 

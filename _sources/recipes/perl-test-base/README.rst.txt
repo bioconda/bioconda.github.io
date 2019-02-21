@@ -42,7 +42,7 @@ perl-test-base
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-base:<tag>
+      docker pull quay.io/biocontainers/perl-test-base:<tag>
 
    (see `perl-test-base/tags`_ for valid values for ``<tag>``)
 

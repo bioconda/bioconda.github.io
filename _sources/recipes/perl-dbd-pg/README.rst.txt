@@ -46,7 +46,7 @@ perl-dbd-pg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-dbd-pg:<tag>
+      docker pull quay.io/biocontainers/perl-dbd-pg:<tag>
 
    (see `perl-dbd-pg/tags`_ for valid values for ``<tag>``)
 

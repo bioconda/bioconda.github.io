@@ -46,7 +46,7 @@ minnow
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/minnow:<tag>
+      docker pull quay.io/biocontainers/minnow:<tag>
 
    (see `minnow/tags`_ for valid values for ``<tag>``)
 

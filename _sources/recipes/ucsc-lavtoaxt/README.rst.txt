@@ -50,7 +50,7 @@ ucsc-lavtoaxt
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-lavtoaxt:<tag>
+      docker pull quay.io/biocontainers/ucsc-lavtoaxt:<tag>
 
    (see `ucsc-lavtoaxt/tags`_ for valid values for ``<tag>``)
 

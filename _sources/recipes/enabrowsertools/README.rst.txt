@@ -40,7 +40,7 @@ enabrowsertools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/enabrowsertools:<tag>
+      docker pull quay.io/biocontainers/enabrowsertools:<tag>
 
    (see `enabrowsertools/tags`_ for valid values for ``<tag>``)
 

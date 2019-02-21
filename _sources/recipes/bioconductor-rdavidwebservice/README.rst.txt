@@ -22,7 +22,23 @@ bioconductor-rdavidwebservice
 
    |downloads_bioconductor-rdavidwebservice| |docker_bioconductor-rdavidwebservice|
 
-   :versions: 
+   :versions: 1.20.0-0
+   
+   :depends bioconductor-category: >=2.48.0,<2.49.0
+   
+   :depends bioconductor-go.db: >=3.7.0,<3.8.0
+   
+   :depends bioconductor-gostats: >=2.48.0,<2.49.0
+   
+   :depends bioconductor-graph: >=1.60.0,<1.61.0
+   
+   :depends bioconductor-rbgl: >=1.58.0,<1.59.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-ggplot2: 
+   
+   :depends r-rjava: 
    
    :requirements:
 
@@ -38,7 +54,7 @@ bioconductor-rdavidwebservice
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rdavidwebservice:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rdavidwebservice:<tag>
 
    (see `bioconductor-rdavidwebservice/tags`_ for valid values for ``<tag>``)
 

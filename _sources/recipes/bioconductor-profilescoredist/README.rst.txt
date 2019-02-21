@@ -48,7 +48,7 @@ bioconductor-profilescoredist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-profilescoredist:<tag>
+      docker pull quay.io/biocontainers/bioconductor-profilescoredist:<tag>
 
    (see `bioconductor-profilescoredist/tags`_ for valid values for ``<tag>``)
 

@@ -44,7 +44,7 @@ pispino
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pispino:<tag>
+      docker pull quay.io/biocontainers/pispino:<tag>
 
    (see `pispino/tags`_ for valid values for ``<tag>``)
 

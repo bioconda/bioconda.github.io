@@ -59,7 +59,7 @@ bioconductor-bsgenome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome:<tag>
 
    (see `bioconductor-bsgenome/tags`_ for valid values for ``<tag>``)
 

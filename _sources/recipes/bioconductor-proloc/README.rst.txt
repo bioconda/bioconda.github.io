@@ -109,7 +109,7 @@ bioconductor-proloc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-proloc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-proloc:<tag>
 
    (see `bioconductor-proloc/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ bctools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bctools:<tag>
+      docker pull quay.io/biocontainers/bctools:<tag>
 
    (see `bctools/tags`_ for valid values for ``<tag>``)
 

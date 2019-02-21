@@ -50,7 +50,7 @@ bcl2fastq-nextseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bcl2fastq-nextseq:<tag>
+      docker pull quay.io/biocontainers/bcl2fastq-nextseq:<tag>
 
    (see `bcl2fastq-nextseq/tags`_ for valid values for ``<tag>``)
 

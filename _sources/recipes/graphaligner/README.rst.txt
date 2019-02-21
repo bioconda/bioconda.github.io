@@ -44,7 +44,7 @@ graphaligner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/graphaligner:<tag>
+      docker pull quay.io/biocontainers/graphaligner:<tag>
 
    (see `graphaligner/tags`_ for valid values for ``<tag>``)
 

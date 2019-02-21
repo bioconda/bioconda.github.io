@@ -46,7 +46,7 @@ bioconductor-copyneutralima
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-copyneutralima:<tag>
+      docker pull quay.io/biocontainers/bioconductor-copyneutralima:<tag>
 
    (see `bioconductor-copyneutralima/tags`_ for valid values for ``<tag>``)
 

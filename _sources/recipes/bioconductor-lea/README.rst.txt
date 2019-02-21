@@ -42,7 +42,7 @@ bioconductor-lea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-lea:<tag>
+      docker pull quay.io/biocontainers/bioconductor-lea:<tag>
 
    (see `bioconductor-lea/tags`_ for valid values for ``<tag>``)
 

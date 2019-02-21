@@ -44,7 +44,7 @@ perl-html-treebuilder-xpath
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-html-treebuilder-xpath:<tag>
+      docker pull quay.io/biocontainers/perl-html-treebuilder-xpath:<tag>
 
    (see `perl-html-treebuilder-xpath/tags`_ for valid values for ``<tag>``)
 

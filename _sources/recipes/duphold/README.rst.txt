@@ -42,7 +42,7 @@ duphold
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/duphold:<tag>
+      docker pull quay.io/biocontainers/duphold:<tag>
 
    (see `duphold/tags`_ for valid values for ``<tag>``)
 

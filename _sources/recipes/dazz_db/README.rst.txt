@@ -40,7 +40,7 @@ dazz_db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dazz_db:<tag>
+      docker pull quay.io/biocontainers/dazz_db:<tag>
 
    (see `dazz_db/tags`_ for valid values for ``<tag>``)
 

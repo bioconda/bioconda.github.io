@@ -45,7 +45,7 @@ admixtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/admixtools:<tag>
+      docker pull quay.io/biocontainers/admixtools:<tag>
 
    (see `admixtools/tags`_ for valid values for ``<tag>``)
 

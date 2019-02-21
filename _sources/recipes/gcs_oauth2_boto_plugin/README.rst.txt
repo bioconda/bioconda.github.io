@@ -52,7 +52,7 @@ gcs-oauth2-boto-plugin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gcs-oauth2-boto-plugin:<tag>
+      docker pull quay.io/biocontainers/gcs-oauth2-boto-plugin:<tag>
 
    (see `gcs-oauth2-boto-plugin/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-color-theme
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-color-theme:<tag>
+      docker pull quay.io/biocontainers/perl-color-theme:<tag>
 
    (see `perl-color-theme/tags`_ for valid values for ``<tag>``)
 

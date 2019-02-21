@@ -40,7 +40,7 @@ perl-sereal-encoder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sereal-encoder:<tag>
+      docker pull quay.io/biocontainers/perl-sereal-encoder:<tag>
 
    (see `perl-sereal-encoder/tags`_ for valid values for ``<tag>``)
 

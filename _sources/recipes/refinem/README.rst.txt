@@ -69,7 +69,7 @@ refinem
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/refinem:<tag>
+      docker pull quay.io/biocontainers/refinem:<tag>
 
    (see `refinem/tags`_ for valid values for ``<tag>``)
 

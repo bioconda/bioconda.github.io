@@ -44,7 +44,7 @@ bioconductor-kidpack
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-kidpack:<tag>
+      docker pull quay.io/biocontainers/bioconductor-kidpack:<tag>
 
    (see `bioconductor-kidpack/tags`_ for valid values for ``<tag>``)
 

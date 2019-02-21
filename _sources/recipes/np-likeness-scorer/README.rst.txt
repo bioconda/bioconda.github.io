@@ -42,7 +42,7 @@ np-likeness-scorer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/np-likeness-scorer:<tag>
+      docker pull quay.io/biocontainers/np-likeness-scorer:<tag>
 
    (see `np-likeness-scorer/tags`_ for valid values for ``<tag>``)
 

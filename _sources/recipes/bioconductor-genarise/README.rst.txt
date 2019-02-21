@@ -46,7 +46,7 @@ bioconductor-genarise
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genarise:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genarise:<tag>
 
    (see `bioconductor-genarise/tags`_ for valid values for ``<tag>``)
 

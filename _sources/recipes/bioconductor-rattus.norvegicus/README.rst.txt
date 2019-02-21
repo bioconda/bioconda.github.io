@@ -54,7 +54,7 @@ bioconductor-rattus.norvegicus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rattus.norvegicus:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rattus.norvegicus:<tag>
 
    (see `bioconductor-rattus.norvegicus/tags`_ for valid values for ``<tag>``)
 

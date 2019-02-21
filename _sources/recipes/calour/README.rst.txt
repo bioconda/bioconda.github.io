@@ -68,7 +68,7 @@ calour
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/calour:<tag>
+      docker pull quay.io/biocontainers/calour:<tag>
 
    (see `calour/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ r-lme4qtl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-lme4qtl:<tag>
+      docker pull quay.io/biocontainers/r-lme4qtl:<tag>
 
    (see `r-lme4qtl/tags`_ for valid values for ``<tag>``)
 

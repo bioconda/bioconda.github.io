@@ -52,7 +52,7 @@ bioconductor-mmpalatemirna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mmpalatemirna:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mmpalatemirna:<tag>
 
    (see `bioconductor-mmpalatemirna/tags`_ for valid values for ``<tag>``)
 

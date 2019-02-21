@@ -56,7 +56,7 @@ bioconductor-pharmacogx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pharmacogx:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pharmacogx:<tag>
 
    (see `bioconductor-pharmacogx/tags`_ for valid values for ``<tag>``)
 

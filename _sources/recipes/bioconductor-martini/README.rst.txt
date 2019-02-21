@@ -58,7 +58,7 @@ bioconductor-martini
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-martini:<tag>
+      docker pull quay.io/biocontainers/bioconductor-martini:<tag>
 
    (see `bioconductor-martini/tags`_ for valid values for ``<tag>``)
 

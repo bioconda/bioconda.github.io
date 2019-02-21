@@ -42,7 +42,7 @@ perl-text-parsewords
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-text-parsewords:<tag>
+      docker pull quay.io/biocontainers/perl-text-parsewords:<tag>
 
    (see `perl-text-parsewords/tags`_ for valid values for ``<tag>``)
 

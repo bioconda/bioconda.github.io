@@ -46,7 +46,7 @@ bioconductor-cllmethylation
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cllmethylation:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cllmethylation:<tag>
 
    (see `bioconductor-cllmethylation/tags`_ for valid values for ``<tag>``)
 

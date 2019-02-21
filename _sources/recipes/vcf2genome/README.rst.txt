@@ -42,7 +42,7 @@ vcf2genome
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vcf2genome:<tag>
+      docker pull quay.io/biocontainers/vcf2genome:<tag>
 
    (see `vcf2genome/tags`_ for valid values for ``<tag>``)
 

@@ -54,7 +54,7 @@ bioconductor-mus.musculus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mus.musculus:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mus.musculus:<tag>
 
    (see `bioconductor-mus.musculus/tags`_ for valid values for ``<tag>``)
 

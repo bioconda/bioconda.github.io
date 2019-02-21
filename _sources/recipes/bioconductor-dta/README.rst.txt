@@ -45,7 +45,7 @@ bioconductor-dta
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dta:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dta:<tag>
 
    (see `bioconductor-dta/tags`_ for valid values for ``<tag>``)
 

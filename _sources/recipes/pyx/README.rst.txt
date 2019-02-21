@@ -40,7 +40,7 @@ pyx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyx:<tag>
+      docker pull quay.io/biocontainers/pyx:<tag>
 
    (see `pyx/tags`_ for valid values for ``<tag>``)
 

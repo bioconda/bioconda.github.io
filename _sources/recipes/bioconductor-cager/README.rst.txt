@@ -95,7 +95,7 @@ bioconductor-cager
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cager:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cager:<tag>
 
    (see `bioconductor-cager/tags`_ for valid values for ``<tag>``)
 

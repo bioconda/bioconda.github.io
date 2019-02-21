@@ -47,7 +47,7 @@ spydrpick
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/spydrpick:<tag>
+      docker pull quay.io/biocontainers/spydrpick:<tag>
 
    (see `spydrpick/tags`_ for valid values for ``<tag>``)
 

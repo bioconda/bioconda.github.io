@@ -52,7 +52,7 @@ perl-file-temp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-temp:<tag>
+      docker pull quay.io/biocontainers/perl-file-temp:<tag>
 
    (see `perl-file-temp/tags`_ for valid values for ``<tag>``)
 

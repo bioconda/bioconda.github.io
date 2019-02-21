@@ -42,7 +42,7 @@ tinscan
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tinscan:<tag>
+      docker pull quay.io/biocontainers/tinscan:<tag>
 
    (see `tinscan/tags`_ for valid values for ``<tag>``)
 

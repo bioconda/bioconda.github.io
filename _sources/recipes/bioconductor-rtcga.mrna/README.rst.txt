@@ -44,7 +44,7 @@ bioconductor-rtcga.mrna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.mrna:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rtcga.mrna:<tag>
 
    (see `bioconductor-rtcga.mrna/tags`_ for valid values for ``<tag>``)
 

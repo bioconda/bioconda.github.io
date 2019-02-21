@@ -44,7 +44,7 @@ bioconductor-bifet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bifet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bifet:<tag>
 
    (see `bioconductor-bifet/tags`_ for valid values for ``<tag>``)
 

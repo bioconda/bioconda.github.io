@@ -50,7 +50,7 @@ verifybamid2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/verifybamid2:<tag>
+      docker pull quay.io/biocontainers/verifybamid2:<tag>
 
    (see `verifybamid2/tags`_ for valid values for ``<tag>``)
 

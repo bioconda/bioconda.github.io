@@ -62,7 +62,7 @@ scanpy-scripts
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/scanpy-scripts:<tag>
+      docker pull quay.io/biocontainers/scanpy-scripts:<tag>
 
    (see `scanpy-scripts/tags`_ for valid values for ``<tag>``)
 

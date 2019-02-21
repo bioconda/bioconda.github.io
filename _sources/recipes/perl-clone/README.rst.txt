@@ -48,7 +48,7 @@ perl-clone
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-clone:<tag>
+      docker pull quay.io/biocontainers/perl-clone:<tag>
 
    (see `perl-clone/tags`_ for valid values for ``<tag>``)
 

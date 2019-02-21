@@ -48,7 +48,7 @@ perl-pod-usage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pod-usage:<tag>
+      docker pull quay.io/biocontainers/perl-pod-usage:<tag>
 
    (see `perl-pod-usage/tags`_ for valid values for ``<tag>``)
 

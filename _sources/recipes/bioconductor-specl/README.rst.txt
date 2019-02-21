@@ -49,7 +49,7 @@ bioconductor-specl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-specl:<tag>
+      docker pull quay.io/biocontainers/bioconductor-specl:<tag>
 
    (see `bioconductor-specl/tags`_ for valid values for ``<tag>``)
 

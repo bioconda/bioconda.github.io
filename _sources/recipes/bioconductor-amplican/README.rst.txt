@@ -84,7 +84,7 @@ bioconductor-amplican
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-amplican:<tag>
+      docker pull quay.io/biocontainers/bioconductor-amplican:<tag>
 
    (see `bioconductor-amplican/tags`_ for valid values for ``<tag>``)
 

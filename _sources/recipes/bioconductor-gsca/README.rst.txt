@@ -55,7 +55,7 @@ bioconductor-gsca
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gsca:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gsca:<tag>
 
    (see `bioconductor-gsca/tags`_ for valid values for ``<tag>``)
 

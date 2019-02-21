@@ -46,7 +46,7 @@ bioconductor-bags
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bags:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bags:<tag>
 
    (see `bioconductor-bags/tags`_ for valid values for ``<tag>``)
 

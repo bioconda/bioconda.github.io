@@ -56,7 +56,7 @@ wisecondorx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/wisecondorx:<tag>
+      docker pull quay.io/biocontainers/wisecondorx:<tag>
 
    (see `wisecondorx/tags`_ for valid values for ``<tag>``)
 

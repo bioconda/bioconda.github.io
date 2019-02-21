@@ -56,7 +56,7 @@ bioconductor-xina
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-xina:<tag>
+      docker pull quay.io/biocontainers/bioconductor-xina:<tag>
 
    (see `bioconductor-xina/tags`_ for valid values for ``<tag>``)
 

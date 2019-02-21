@@ -66,7 +66,7 @@ isatools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/isatools:<tag>
+      docker pull quay.io/biocontainers/isatools:<tag>
 
    (see `isatools/tags`_ for valid values for ``<tag>``)
 

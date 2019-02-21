@@ -43,7 +43,7 @@ bioconductor-rama
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rama:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rama:<tag>
 
    (see `bioconductor-rama/tags`_ for valid values for ``<tag>``)
 

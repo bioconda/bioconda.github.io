@@ -73,7 +73,7 @@ phenix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/phenix:<tag>
+      docker pull quay.io/biocontainers/phenix:<tag>
 
    (see `phenix/tags`_ for valid values for ``<tag>``)
 

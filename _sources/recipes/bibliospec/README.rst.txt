@@ -40,7 +40,7 @@ bibliospec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bibliospec:<tag>
+      docker pull quay.io/biocontainers/bibliospec:<tag>
 
    (see `bibliospec/tags`_ for valid values for ``<tag>``)
 

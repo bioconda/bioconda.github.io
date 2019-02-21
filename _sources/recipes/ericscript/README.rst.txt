@@ -54,7 +54,7 @@ ericscript
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ericscript:<tag>
+      docker pull quay.io/biocontainers/ericscript:<tag>
 
    (see `ericscript/tags`_ for valid values for ``<tag>``)
 

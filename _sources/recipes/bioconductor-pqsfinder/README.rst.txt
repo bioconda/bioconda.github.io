@@ -57,7 +57,7 @@ bioconductor-pqsfinder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pqsfinder:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pqsfinder:<tag>
 
    (see `bioconductor-pqsfinder/tags`_ for valid values for ``<tag>``)
 

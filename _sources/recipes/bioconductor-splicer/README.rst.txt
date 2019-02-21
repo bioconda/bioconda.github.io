@@ -57,7 +57,7 @@ bioconductor-splicer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-splicer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-splicer:<tag>
 
    (see `bioconductor-splicer/tags`_ for valid values for ``<tag>``)
 

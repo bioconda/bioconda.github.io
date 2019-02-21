@@ -42,7 +42,7 @@ simwalk2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/simwalk2:<tag>
+      docker pull quay.io/biocontainers/simwalk2:<tag>
 
    (see `simwalk2/tags`_ for valid values for ``<tag>``)
 

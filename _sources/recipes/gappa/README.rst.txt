@@ -45,7 +45,7 @@ gappa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gappa:<tag>
+      docker pull quay.io/biocontainers/gappa:<tag>
 
    (see `gappa/tags`_ for valid values for ``<tag>``)
 

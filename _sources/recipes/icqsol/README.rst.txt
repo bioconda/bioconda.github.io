@@ -48,7 +48,7 @@ icqsol
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/icqsol:<tag>
+      docker pull quay.io/biocontainers/icqsol:<tag>
 
    (see `icqsol/tags`_ for valid values for ``<tag>``)
 

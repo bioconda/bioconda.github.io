@@ -58,7 +58,7 @@ graftm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/graftm:<tag>
+      docker pull quay.io/biocontainers/graftm:<tag>
 
    (see `graftm/tags`_ for valid values for ``<tag>``)
 

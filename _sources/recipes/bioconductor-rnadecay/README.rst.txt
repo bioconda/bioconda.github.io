@@ -52,7 +52,7 @@ bioconductor-rnadecay
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnadecay:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rnadecay:<tag>
 
    (see `bioconductor-rnadecay/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ python-hppy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-hppy:<tag>
+      docker pull quay.io/biocontainers/python-hppy:<tag>
 
    (see `python-hppy/tags`_ for valid values for ``<tag>``)
 

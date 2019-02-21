@@ -42,7 +42,7 @@ askocli
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/askocli:<tag>
+      docker pull quay.io/biocontainers/askocli:<tag>
 
    (see `askocli/tags`_ for valid values for ``<tag>``)
 

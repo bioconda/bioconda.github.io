@@ -40,7 +40,7 @@ perl-capture-tiny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-capture-tiny:<tag>
+      docker pull quay.io/biocontainers/perl-capture-tiny:<tag>
 
    (see `perl-capture-tiny/tags`_ for valid values for ``<tag>``)
 

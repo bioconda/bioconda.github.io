@@ -62,7 +62,7 @@ bioconductor-fastqcleaner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fastqcleaner:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fastqcleaner:<tag>
 
    (see `bioconductor-fastqcleaner/tags`_ for valid values for ``<tag>``)
 

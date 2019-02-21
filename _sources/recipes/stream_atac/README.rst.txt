@@ -68,7 +68,7 @@ stream_atac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stream_atac:<tag>
+      docker pull quay.io/biocontainers/stream_atac:<tag>
 
    (see `stream_atac/tags`_ for valid values for ``<tag>``)
 

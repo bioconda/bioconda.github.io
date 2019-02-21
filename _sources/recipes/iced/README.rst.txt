@@ -54,7 +54,7 @@ iced
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/iced:<tag>
+      docker pull quay.io/biocontainers/iced:<tag>
 
    (see `iced/tags`_ for valid values for ``<tag>``)
 

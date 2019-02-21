@@ -50,7 +50,7 @@ bioconductor-bcseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bcseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bcseq:<tag>
 
    (see `bioconductor-bcseq/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ bioconductor-quantsmooth
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-quantsmooth:<tag>
+      docker pull quay.io/biocontainers/bioconductor-quantsmooth:<tag>
 
    (see `bioconductor-quantsmooth/tags`_ for valid values for ``<tag>``)
 

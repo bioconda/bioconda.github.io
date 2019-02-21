@@ -44,7 +44,7 @@ bioconductor-rnbeads.mm9
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rnbeads.mm9:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rnbeads.mm9:<tag>
 
    (see `bioconductor-rnbeads.mm9/tags`_ for valid values for ``<tag>``)
 

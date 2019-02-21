@@ -62,7 +62,7 @@ bioconductor-cobindr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cobindr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cobindr:<tag>
 
    (see `bioconductor-cobindr/tags`_ for valid values for ``<tag>``)
 

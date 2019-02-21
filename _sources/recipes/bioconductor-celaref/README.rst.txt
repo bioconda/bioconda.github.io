@@ -62,7 +62,7 @@ bioconductor-celaref
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-celaref:<tag>
+      docker pull quay.io/biocontainers/bioconductor-celaref:<tag>
 
    (see `bioconductor-celaref/tags`_ for valid values for ``<tag>``)
 

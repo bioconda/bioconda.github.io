@@ -40,7 +40,7 @@ snap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snap:<tag>
+      docker pull quay.io/biocontainers/snap:<tag>
 
    (see `snap/tags`_ for valid values for ``<tag>``)
 

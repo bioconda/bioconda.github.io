@@ -49,7 +49,7 @@ bioconductor-santa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-santa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-santa:<tag>
 
    (see `bioconductor-santa/tags`_ for valid values for ``<tag>``)
 

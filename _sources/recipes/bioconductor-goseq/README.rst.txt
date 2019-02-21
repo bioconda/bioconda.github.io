@@ -53,7 +53,7 @@ bioconductor-goseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-goseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-goseq:<tag>
 
    (see `bioconductor-goseq/tags`_ for valid values for ``<tag>``)
 

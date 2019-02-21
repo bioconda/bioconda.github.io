@@ -38,7 +38,7 @@ feht
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/feht:<tag>
+      docker pull quay.io/biocontainers/feht:<tag>
 
    (see `feht/tags`_ for valid values for ``<tag>``)
 

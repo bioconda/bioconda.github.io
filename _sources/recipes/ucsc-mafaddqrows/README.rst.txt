@@ -50,7 +50,7 @@ ucsc-mafaddqrows
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-mafaddqrows:<tag>
+      docker pull quay.io/biocontainers/ucsc-mafaddqrows:<tag>
 
    (see `ucsc-mafaddqrows/tags`_ for valid values for ``<tag>``)
 

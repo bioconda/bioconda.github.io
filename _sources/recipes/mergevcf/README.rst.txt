@@ -42,7 +42,7 @@ mergevcf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/mergevcf:<tag>
+      docker pull quay.io/biocontainers/mergevcf:<tag>
 
    (see `mergevcf/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ ucsc-netclass
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-netclass:<tag>
+      docker pull quay.io/biocontainers/ucsc-netclass:<tag>
 
    (see `ucsc-netclass/tags`_ for valid values for ``<tag>``)
 

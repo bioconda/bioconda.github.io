@@ -86,7 +86,7 @@ bioconductor-cnpbayes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cnpbayes:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cnpbayes:<tag>
 
    (see `bioconductor-cnpbayes/tags`_ for valid values for ``<tag>``)
 

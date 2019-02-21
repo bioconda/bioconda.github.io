@@ -42,7 +42,7 @@ bioconductor-genomationdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genomationdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genomationdata:<tag>
 
    (see `bioconductor-genomationdata/tags`_ for valid values for ``<tag>``)
 

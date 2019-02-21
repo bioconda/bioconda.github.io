@@ -50,7 +50,7 @@ ucsc-pslrc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-pslrc:<tag>
+      docker pull quay.io/biocontainers/ucsc-pslrc:<tag>
 
    (see `ucsc-pslrc/tags`_ for valid values for ``<tag>``)
 

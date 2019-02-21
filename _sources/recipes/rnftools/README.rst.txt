@@ -68,7 +68,7 @@ rnftools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rnftools:<tag>
+      docker pull quay.io/biocontainers/rnftools:<tag>
 
    (see `rnftools/tags`_ for valid values for ``<tag>``)
 

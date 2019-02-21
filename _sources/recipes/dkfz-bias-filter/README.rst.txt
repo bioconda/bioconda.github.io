@@ -48,7 +48,7 @@ dkfz-bias-filter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dkfz-bias-filter:<tag>
+      docker pull quay.io/biocontainers/dkfz-bias-filter:<tag>
 
    (see `dkfz-bias-filter/tags`_ for valid values for ``<tag>``)
 

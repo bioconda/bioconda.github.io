@@ -50,7 +50,7 @@ bioconductor-topaseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-topaseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-topaseq:<tag>
 
    (see `bioconductor-topaseq/tags`_ for valid values for ``<tag>``)
 

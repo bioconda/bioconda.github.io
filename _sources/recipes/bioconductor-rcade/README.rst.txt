@@ -58,7 +58,7 @@ bioconductor-rcade
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-rcade:<tag>
+      docker pull quay.io/biocontainers/bioconductor-rcade:<tag>
 
    (see `bioconductor-rcade/tags`_ for valid values for ``<tag>``)
 

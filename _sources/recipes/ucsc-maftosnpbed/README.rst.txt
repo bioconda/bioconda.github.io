@@ -50,7 +50,7 @@ ucsc-maftosnpbed
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-maftosnpbed:<tag>
+      docker pull quay.io/biocontainers/ucsc-maftosnpbed:<tag>
 
    (see `ucsc-maftosnpbed/tags`_ for valid values for ``<tag>``)
 

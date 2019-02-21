@@ -54,7 +54,7 @@ bioconductor-timerquant
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-timerquant:<tag>
+      docker pull quay.io/biocontainers/bioconductor-timerquant:<tag>
 
    (see `bioconductor-timerquant/tags`_ for valid values for ``<tag>``)
 

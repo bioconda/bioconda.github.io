@@ -56,7 +56,7 @@ bioconductor-pd.mouse430a.2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.mouse430a.2:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.mouse430a.2:<tag>
 
    (see `bioconductor-pd.mouse430a.2/tags`_ for valid values for ``<tag>``)
 

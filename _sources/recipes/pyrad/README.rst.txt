@@ -48,7 +48,7 @@ pyrad
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyrad:<tag>
+      docker pull quay.io/biocontainers/pyrad:<tag>
 
    (see `pyrad/tags`_ for valid values for ``<tag>``)
 

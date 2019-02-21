@@ -76,7 +76,7 @@ medaka
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/medaka:<tag>
+      docker pull quay.io/biocontainers/medaka:<tag>
 
    (see `medaka/tags`_ for valid values for ``<tag>``)
 

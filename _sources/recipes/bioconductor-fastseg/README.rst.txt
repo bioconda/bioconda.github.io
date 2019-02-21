@@ -55,7 +55,7 @@ bioconductor-fastseg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fastseg:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fastseg:<tag>
 
    (see `bioconductor-fastseg/tags`_ for valid values for ``<tag>``)
 

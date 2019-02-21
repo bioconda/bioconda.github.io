@@ -42,7 +42,7 @@ soapcoverage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/soapcoverage:<tag>
+      docker pull quay.io/biocontainers/soapcoverage:<tag>
 
    (see `soapcoverage/tags`_ for valid values for ``<tag>``)
 

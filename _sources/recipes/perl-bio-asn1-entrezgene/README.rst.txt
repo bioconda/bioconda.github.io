@@ -52,7 +52,7 @@ perl-bio-asn1-entrezgene
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-asn1-entrezgene:<tag>
+      docker pull quay.io/biocontainers/perl-bio-asn1-entrezgene:<tag>
 
    (see `perl-bio-asn1-entrezgene/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ r-geoaxe
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-geoaxe:<tag>
+      docker pull quay.io/biocontainers/r-geoaxe:<tag>
 
    (see `r-geoaxe/tags`_ for valid values for ``<tag>``)
 

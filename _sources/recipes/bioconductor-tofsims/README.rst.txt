@@ -60,7 +60,7 @@ bioconductor-tofsims
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tofsims:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tofsims:<tag>
 
    (see `bioconductor-tofsims/tags`_ for valid values for ``<tag>``)
 

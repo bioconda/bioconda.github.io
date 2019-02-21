@@ -44,7 +44,7 @@ perl-excel-writer-xlsx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-excel-writer-xlsx:<tag>
+      docker pull quay.io/biocontainers/perl-excel-writer-xlsx:<tag>
 
    (see `perl-excel-writer-xlsx/tags`_ for valid values for ``<tag>``)
 

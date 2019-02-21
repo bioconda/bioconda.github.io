@@ -42,7 +42,7 @@ survivor
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/survivor:<tag>
+      docker pull quay.io/biocontainers/survivor:<tag>
 
    (see `survivor/tags`_ for valid values for ``<tag>``)
 

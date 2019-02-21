@@ -40,7 +40,7 @@ perl-lwp-mediatypes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-lwp-mediatypes:<tag>
+      docker pull quay.io/biocontainers/perl-lwp-mediatypes:<tag>
 
    (see `perl-lwp-mediatypes/tags`_ for valid values for ``<tag>``)
 

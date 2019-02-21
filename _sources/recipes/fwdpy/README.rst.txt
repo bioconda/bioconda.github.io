@@ -48,7 +48,7 @@ fwdpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fwdpy:<tag>
+      docker pull quay.io/biocontainers/fwdpy:<tag>
 
    (see `fwdpy/tags`_ for valid values for ``<tag>``)
 

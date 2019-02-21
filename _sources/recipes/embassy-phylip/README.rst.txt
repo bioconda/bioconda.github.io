@@ -44,7 +44,7 @@ embassy-phylip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/embassy-phylip:<tag>
+      docker pull quay.io/biocontainers/embassy-phylip:<tag>
 
    (see `embassy-phylip/tags`_ for valid values for ``<tag>``)
 

@@ -49,7 +49,7 @@ control-freec
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/control-freec:<tag>
+      docker pull quay.io/biocontainers/control-freec:<tag>
 
    (see `control-freec/tags`_ for valid values for ``<tag>``)
 

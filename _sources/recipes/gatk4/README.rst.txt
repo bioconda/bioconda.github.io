@@ -43,7 +43,7 @@ gatk4
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gatk4:<tag>
+      docker pull quay.io/biocontainers/gatk4:<tag>
 
    (see `gatk4/tags`_ for valid values for ``<tag>``)
 

@@ -41,7 +41,7 @@ edena
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/edena:<tag>
+      docker pull quay.io/biocontainers/edena:<tag>
 
    (see `edena/tags`_ for valid values for ``<tag>``)
 

@@ -87,7 +87,7 @@ anvio-minimal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/anvio-minimal:<tag>
+      docker pull quay.io/biocontainers/anvio-minimal:<tag>
 
    (see `anvio-minimal/tags`_ for valid values for ``<tag>``)
 

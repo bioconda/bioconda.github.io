@@ -40,7 +40,7 @@ perl-bundle-bioperl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bundle-bioperl:<tag>
+      docker pull quay.io/biocontainers/perl-bundle-bioperl:<tag>
 
    (see `perl-bundle-bioperl/tags`_ for valid values for ``<tag>``)
 

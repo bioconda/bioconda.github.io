@@ -70,7 +70,7 @@ bioconductor-meshr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-meshr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-meshr:<tag>
 
    (see `bioconductor-meshr/tags`_ for valid values for ``<tag>``)
 

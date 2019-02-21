@@ -44,7 +44,7 @@ bioconductor-dream4
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-dream4:<tag>
+      docker pull quay.io/biocontainers/bioconductor-dream4:<tag>
 
    (see `bioconductor-dream4/tags`_ for valid values for ``<tag>``)
 

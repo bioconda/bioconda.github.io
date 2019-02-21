@@ -48,7 +48,7 @@ perl-sanger-cgp-allelecount
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sanger-cgp-allelecount:<tag>
+      docker pull quay.io/biocontainers/perl-sanger-cgp-allelecount:<tag>
 
    (see `perl-sanger-cgp-allelecount/tags`_ for valid values for ``<tag>``)
 

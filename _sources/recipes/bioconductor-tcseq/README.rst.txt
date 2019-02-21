@@ -64,7 +64,7 @@ bioconductor-tcseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tcseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tcseq:<tag>
 
    (see `bioconductor-tcseq/tags`_ for valid values for ``<tag>``)
 

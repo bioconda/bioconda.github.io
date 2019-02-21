@@ -46,7 +46,7 @@ bioconductor-pocrcannotation.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pocrcannotation.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pocrcannotation.db:<tag>
 
    (see `bioconductor-pocrcannotation.db/tags`_ for valid values for ``<tag>``)
 

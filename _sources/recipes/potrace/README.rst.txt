@@ -42,7 +42,7 @@ potrace
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/potrace:<tag>
+      docker pull quay.io/biocontainers/potrace:<tag>
 
    (see `potrace/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ perl-perl-version
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-perl-version:<tag>
+      docker pull quay.io/biocontainers/perl-perl-version:<tag>
 
    (see `perl-perl-version/tags`_ for valid values for ``<tag>``)
 

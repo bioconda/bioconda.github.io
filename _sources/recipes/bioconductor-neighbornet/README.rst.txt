@@ -42,7 +42,7 @@ bioconductor-neighbornet
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-neighbornet:<tag>
+      docker pull quay.io/biocontainers/bioconductor-neighbornet:<tag>
 
    (see `bioconductor-neighbornet/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ pymot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pymot:<tag>
+      docker pull quay.io/biocontainers/pymot:<tag>
 
    (see `pymot/tags`_ for valid values for ``<tag>``)
 

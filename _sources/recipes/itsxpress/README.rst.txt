@@ -51,7 +51,7 @@ itsxpress
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/itsxpress:<tag>
+      docker pull quay.io/biocontainers/itsxpress:<tag>
 
    (see `itsxpress/tags`_ for valid values for ``<tag>``)
 

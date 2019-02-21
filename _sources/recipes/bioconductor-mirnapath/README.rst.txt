@@ -41,7 +41,7 @@ bioconductor-mirnapath
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirnapath:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mirnapath:<tag>
 
    (see `bioconductor-mirnapath/tags`_ for valid values for ``<tag>``)
 

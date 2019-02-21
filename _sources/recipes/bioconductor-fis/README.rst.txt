@@ -42,7 +42,7 @@ bioconductor-fis
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-fis:<tag>
+      docker pull quay.io/biocontainers/bioconductor-fis:<tag>
 
    (see `bioconductor-fis/tags`_ for valid values for ``<tag>``)
 

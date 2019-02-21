@@ -48,7 +48,7 @@ perl-cache-cache
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-cache-cache:<tag>
+      docker pull quay.io/biocontainers/perl-cache-cache:<tag>
 
    (see `perl-cache-cache/tags`_ for valid values for ``<tag>``)
 

@@ -58,7 +58,7 @@ pairtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pairtools:<tag>
+      docker pull quay.io/biocontainers/pairtools:<tag>
 
    (see `pairtools/tags`_ for valid values for ``<tag>``)
 

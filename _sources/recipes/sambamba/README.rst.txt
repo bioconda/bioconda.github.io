@@ -48,7 +48,7 @@ sambamba
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sambamba:<tag>
+      docker pull quay.io/biocontainers/sambamba:<tag>
 
    (see `sambamba/tags`_ for valid values for ``<tag>``)
 

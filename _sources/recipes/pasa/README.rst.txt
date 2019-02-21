@@ -66,7 +66,7 @@ pasa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pasa:<tag>
+      docker pull quay.io/biocontainers/pasa:<tag>
 
    (see `pasa/tags`_ for valid values for ``<tag>``)
 

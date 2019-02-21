@@ -82,7 +82,7 @@ bioconductor-phenotest
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-phenotest:<tag>
+      docker pull quay.io/biocontainers/bioconductor-phenotest:<tag>
 
    (see `bioconductor-phenotest/tags`_ for valid values for ``<tag>``)
 

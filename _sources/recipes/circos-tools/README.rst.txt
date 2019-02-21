@@ -38,7 +38,7 @@ circos-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/circos-tools:<tag>
+      docker pull quay.io/biocontainers/circos-tools:<tag>
 
    (see `circos-tools/tags`_ for valid values for ``<tag>``)
 

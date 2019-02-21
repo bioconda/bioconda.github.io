@@ -40,7 +40,7 @@ pyfastaq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyfastaq:<tag>
+      docker pull quay.io/biocontainers/pyfastaq:<tag>
 
    (see `pyfastaq/tags`_ for valid values for ``<tag>``)
 

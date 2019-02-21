@@ -57,7 +57,7 @@ bioconductor-transview
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-transview:<tag>
+      docker pull quay.io/biocontainers/bioconductor-transview:<tag>
 
    (see `bioconductor-transview/tags`_ for valid values for ``<tag>``)
 

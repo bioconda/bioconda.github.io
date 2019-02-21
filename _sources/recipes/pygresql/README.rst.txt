@@ -42,7 +42,7 @@ pygresql
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pygresql:<tag>
+      docker pull quay.io/biocontainers/pygresql:<tag>
 
    (see `pygresql/tags`_ for valid values for ``<tag>``)
 

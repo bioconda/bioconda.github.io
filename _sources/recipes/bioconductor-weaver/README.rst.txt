@@ -45,7 +45,7 @@ bioconductor-weaver
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-weaver:<tag>
+      docker pull quay.io/biocontainers/bioconductor-weaver:<tag>
 
    (see `bioconductor-weaver/tags`_ for valid values for ``<tag>``)
 

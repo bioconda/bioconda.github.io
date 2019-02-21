@@ -48,7 +48,7 @@ bioconductor-qsutils
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-qsutils:<tag>
+      docker pull quay.io/biocontainers/bioconductor-qsutils:<tag>
 
    (see `bioconductor-qsutils/tags`_ for valid values for ``<tag>``)
 

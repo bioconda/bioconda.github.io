@@ -50,7 +50,7 @@ bioconductor-biomvrcns
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biomvrcns:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biomvrcns:<tag>
 
    (see `bioconductor-biomvrcns/tags`_ for valid values for ``<tag>``)
 

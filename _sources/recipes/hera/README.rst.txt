@@ -56,7 +56,7 @@ hera
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hera:<tag>
+      docker pull quay.io/biocontainers/hera:<tag>
 
    (see `hera/tags`_ for valid values for ``<tag>``)
 

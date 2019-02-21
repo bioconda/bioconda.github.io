@@ -40,7 +40,7 @@ perl-xml-writer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-xml-writer:<tag>
+      docker pull quay.io/biocontainers/perl-xml-writer:<tag>
 
    (see `perl-xml-writer/tags`_ for valid values for ``<tag>``)
 

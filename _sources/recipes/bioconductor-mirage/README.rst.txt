@@ -51,7 +51,7 @@ bioconductor-mirage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mirage:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mirage:<tag>
 
    (see `bioconductor-mirage/tags`_ for valid values for ``<tag>``)
 

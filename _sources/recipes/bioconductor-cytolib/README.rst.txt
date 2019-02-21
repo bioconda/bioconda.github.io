@@ -44,7 +44,7 @@ bioconductor-cytolib
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cytolib:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cytolib:<tag>
 
    (see `bioconductor-cytolib/tags`_ for valid values for ``<tag>``)
 

@@ -79,7 +79,7 @@ bioconductor-reportingtools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-reportingtools:<tag>
+      docker pull quay.io/biocontainers/bioconductor-reportingtools:<tag>
 
    (see `bioconductor-reportingtools/tags`_ for valid values for ``<tag>``)
 

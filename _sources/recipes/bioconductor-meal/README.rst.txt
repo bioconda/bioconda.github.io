@@ -76,7 +76,7 @@ bioconductor-meal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-meal:<tag>
+      docker pull quay.io/biocontainers/bioconductor-meal:<tag>
 
    (see `bioconductor-meal/tags`_ for valid values for ``<tag>``)
 

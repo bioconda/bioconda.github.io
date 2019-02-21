@@ -69,7 +69,7 @@ bioconductor-hiccompare
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hiccompare:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hiccompare:<tag>
 
    (see `bioconductor-hiccompare/tags`_ for valid values for ``<tag>``)
 

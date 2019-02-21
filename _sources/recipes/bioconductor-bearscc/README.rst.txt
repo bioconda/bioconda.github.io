@@ -46,7 +46,7 @@ bioconductor-bearscc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bearscc:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bearscc:<tag>
 
    (see `bioconductor-bearscc/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ bioconductor-gghumanmethcancerpanelv1.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gghumanmethcancerpanelv1.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db:<tag>
 
    (see `bioconductor-gghumanmethcancerpanelv1.db/tags`_ for valid values for ``<tag>``)
 

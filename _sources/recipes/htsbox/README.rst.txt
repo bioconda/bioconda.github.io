@@ -42,7 +42,7 @@ htsbox
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/htsbox:<tag>
+      docker pull quay.io/biocontainers/htsbox:<tag>
 
    (see `htsbox/tags`_ for valid values for ``<tag>``)
 

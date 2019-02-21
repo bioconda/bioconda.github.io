@@ -58,7 +58,7 @@ circlator
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/circlator:<tag>
+      docker pull quay.io/biocontainers/circlator:<tag>
 
    (see `circlator/tags`_ for valid values for ``<tag>``)
 

@@ -53,7 +53,7 @@ shannon
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/shannon:<tag>
+      docker pull quay.io/biocontainers/shannon:<tag>
 
    (see `shannon/tags`_ for valid values for ``<tag>``)
 

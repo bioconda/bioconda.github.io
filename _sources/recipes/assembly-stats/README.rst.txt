@@ -40,7 +40,7 @@ assembly-stats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/assembly-stats:<tag>
+      docker pull quay.io/biocontainers/assembly-stats:<tag>
 
    (see `assembly-stats/tags`_ for valid values for ``<tag>``)
 

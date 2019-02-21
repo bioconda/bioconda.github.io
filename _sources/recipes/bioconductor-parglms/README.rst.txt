@@ -48,7 +48,7 @@ bioconductor-parglms
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-parglms:<tag>
+      docker pull quay.io/biocontainers/bioconductor-parglms:<tag>
 
    (see `bioconductor-parglms/tags`_ for valid values for ``<tag>``)
 

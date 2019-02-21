@@ -48,7 +48,7 @@ perl-archive-zip
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-archive-zip:<tag>
+      docker pull quay.io/biocontainers/perl-archive-zip:<tag>
 
    (see `perl-archive-zip/tags`_ for valid values for ``<tag>``)
 

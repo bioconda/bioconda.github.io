@@ -44,7 +44,7 @@ xmatchview
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/xmatchview:<tag>
+      docker pull quay.io/biocontainers/xmatchview:<tag>
 
    (see `xmatchview/tags`_ for valid values for ``<tag>``)
 

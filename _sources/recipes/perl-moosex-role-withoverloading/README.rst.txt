@@ -50,7 +50,7 @@ perl-moosex-role-withoverloading
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-moosex-role-withoverloading:<tag>
+      docker pull quay.io/biocontainers/perl-moosex-role-withoverloading:<tag>
 
    (see `perl-moosex-role-withoverloading/tags`_ for valid values for ``<tag>``)
 

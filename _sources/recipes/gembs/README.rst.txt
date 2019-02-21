@@ -71,7 +71,7 @@ gembs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gembs:<tag>
+      docker pull quay.io/biocontainers/gembs:<tag>
 
    (see `gembs/tags`_ for valid values for ``<tag>``)
 

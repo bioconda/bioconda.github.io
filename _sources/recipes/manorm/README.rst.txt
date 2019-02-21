@@ -48,7 +48,7 @@ manorm
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/manorm:<tag>
+      docker pull quay.io/biocontainers/manorm:<tag>
 
    (see `manorm/tags`_ for valid values for ``<tag>``)
 

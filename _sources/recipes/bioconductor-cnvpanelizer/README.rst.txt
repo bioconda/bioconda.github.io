@@ -77,7 +77,7 @@ bioconductor-cnvpanelizer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cnvpanelizer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cnvpanelizer:<tag>
 
    (see `bioconductor-cnvpanelizer/tags`_ for valid values for ``<tag>``)
 

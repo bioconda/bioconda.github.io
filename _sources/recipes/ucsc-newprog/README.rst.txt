@@ -50,7 +50,7 @@ ucsc-newprog
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-newprog:<tag>
+      docker pull quay.io/biocontainers/ucsc-newprog:<tag>
 
    (see `ucsc-newprog/tags`_ for valid values for ``<tag>``)
 

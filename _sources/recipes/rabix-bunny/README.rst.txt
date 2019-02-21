@@ -40,7 +40,7 @@ rabix-bunny
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rabix-bunny:<tag>
+      docker pull quay.io/biocontainers/rabix-bunny:<tag>
 
    (see `rabix-bunny/tags`_ for valid values for ``<tag>``)
 

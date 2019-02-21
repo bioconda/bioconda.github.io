@@ -47,7 +47,7 @@ diamond
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/diamond:<tag>
+      docker pull quay.io/biocontainers/diamond:<tag>
 
    (see `diamond/tags`_ for valid values for ``<tag>``)
 

@@ -53,7 +53,7 @@ bioconductor-gsreg
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gsreg:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gsreg:<tag>
 
    (see `bioconductor-gsreg/tags`_ for valid values for ``<tag>``)
 

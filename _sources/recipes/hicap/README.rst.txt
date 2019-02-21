@@ -49,7 +49,7 @@ hicap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/hicap:<tag>
+      docker pull quay.io/biocontainers/hicap:<tag>
 
    (see `hicap/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-file-grep
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-file-grep:<tag>
+      docker pull quay.io/biocontainers/perl-file-grep:<tag>
 
    (see `perl-file-grep/tags`_ for valid values for ``<tag>``)
 

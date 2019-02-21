@@ -52,7 +52,7 @@ r-plsgenomics
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-plsgenomics:<tag>
+      docker pull quay.io/biocontainers/r-plsgenomics:<tag>
 
    (see `r-plsgenomics/tags`_ for valid values for ``<tag>``)
 

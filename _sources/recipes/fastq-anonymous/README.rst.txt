@@ -42,7 +42,7 @@ fastq-anonymous
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastq-anonymous:<tag>
+      docker pull quay.io/biocontainers/fastq-anonymous:<tag>
 
    (see `fastq-anonymous/tags`_ for valid values for ``<tag>``)
 

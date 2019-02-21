@@ -50,7 +50,7 @@ bioconductor-oncomix
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-oncomix:<tag>
+      docker pull quay.io/biocontainers/bioconductor-oncomix:<tag>
 
    (see `bioconductor-oncomix/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ perl-pod-elemental
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-pod-elemental:<tag>
+      docker pull quay.io/biocontainers/perl-pod-elemental:<tag>
 
    (see `perl-pod-elemental/tags`_ for valid values for ``<tag>``)
 

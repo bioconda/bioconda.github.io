@@ -43,7 +43,7 @@ splicemap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/splicemap:<tag>
+      docker pull quay.io/biocontainers/splicemap:<tag>
 
    (see `splicemap/tags`_ for valid values for ``<tag>``)
 

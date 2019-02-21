@@ -46,7 +46,7 @@ bioconductor-funcisnp.data
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-funcisnp.data:<tag>
+      docker pull quay.io/biocontainers/bioconductor-funcisnp.data:<tag>
 
    (see `bioconductor-funcisnp.data/tags`_ for valid values for ``<tag>``)
 

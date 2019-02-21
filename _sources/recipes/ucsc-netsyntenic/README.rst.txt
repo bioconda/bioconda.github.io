@@ -50,7 +50,7 @@ ucsc-netsyntenic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-netsyntenic:<tag>
+      docker pull quay.io/biocontainers/ucsc-netsyntenic:<tag>
 
    (see `ucsc-netsyntenic/tags`_ for valid values for ``<tag>``)
 

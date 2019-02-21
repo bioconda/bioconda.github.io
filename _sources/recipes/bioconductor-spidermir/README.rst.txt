@@ -71,7 +71,7 @@ bioconductor-spidermir
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-spidermir:<tag>
+      docker pull quay.io/biocontainers/bioconductor-spidermir:<tag>
 
    (see `bioconductor-spidermir/tags`_ for valid values for ``<tag>``)
 

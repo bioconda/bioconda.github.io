@@ -44,7 +44,7 @@ bioconductor-celeganscdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-celeganscdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-celeganscdf:<tag>
 
    (see `bioconductor-celeganscdf/tags`_ for valid values for ``<tag>``)
 

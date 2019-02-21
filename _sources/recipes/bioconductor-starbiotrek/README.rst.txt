@@ -55,7 +55,7 @@ bioconductor-starbiotrek
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-starbiotrek:<tag>
+      docker pull quay.io/biocontainers/bioconductor-starbiotrek:<tag>
 
    (see `bioconductor-starbiotrek/tags`_ for valid values for ``<tag>``)
 

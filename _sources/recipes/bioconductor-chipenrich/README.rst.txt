@@ -78,7 +78,7 @@ bioconductor-chipenrich
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chipenrich:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chipenrich:<tag>
 
    (see `bioconductor-chipenrich/tags`_ for valid values for ``<tag>``)
 

@@ -48,7 +48,7 @@ gffmunger
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/gffmunger:<tag>
+      docker pull quay.io/biocontainers/gffmunger:<tag>
 
    (see `gffmunger/tags`_ for valid values for ``<tag>``)
 

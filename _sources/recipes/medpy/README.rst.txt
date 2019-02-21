@@ -50,7 +50,7 @@ medpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/medpy:<tag>
+      docker pull quay.io/biocontainers/medpy:<tag>
 
    (see `medpy/tags`_ for valid values for ``<tag>``)
 

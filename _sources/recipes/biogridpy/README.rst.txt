@@ -40,7 +40,7 @@ biogridpy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/biogridpy:<tag>
+      docker pull quay.io/biocontainers/biogridpy:<tag>
 
    (see `biogridpy/tags`_ for valid values for ``<tag>``)
 

@@ -43,7 +43,7 @@ bioconductor-process
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-process:<tag>
+      docker pull quay.io/biocontainers/bioconductor-process:<tag>
 
    (see `bioconductor-process/tags`_ for valid values for ``<tag>``)
 

@@ -52,7 +52,7 @@ r-maldiquantforeign
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-maldiquantforeign:<tag>
+      docker pull quay.io/biocontainers/r-maldiquantforeign:<tag>
 
    (see `r-maldiquantforeign/tags`_ for valid values for ``<tag>``)
 

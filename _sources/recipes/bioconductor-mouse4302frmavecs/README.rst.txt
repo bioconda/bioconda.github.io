@@ -42,7 +42,7 @@ bioconductor-mouse4302frmavecs
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mouse4302frmavecs:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mouse4302frmavecs:<tag>
 
    (see `bioconductor-mouse4302frmavecs/tags`_ for valid values for ``<tag>``)
 

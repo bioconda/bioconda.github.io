@@ -40,7 +40,7 @@ w4mclassfilter
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/w4mclassfilter:<tag>
+      docker pull quay.io/biocontainers/w4mclassfilter:<tag>
 
    (see `w4mclassfilter/tags`_ for valid values for ``<tag>``)
 

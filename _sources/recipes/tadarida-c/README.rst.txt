@@ -44,7 +44,7 @@ tadarida-c
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tadarida-c:<tag>
+      docker pull quay.io/biocontainers/tadarida-c:<tag>
 
    (see `tadarida-c/tags`_ for valid values for ``<tag>``)
 

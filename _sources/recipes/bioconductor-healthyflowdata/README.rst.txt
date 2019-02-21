@@ -44,7 +44,7 @@ bioconductor-healthyflowdata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-healthyflowdata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-healthyflowdata:<tag>
 
    (see `bioconductor-healthyflowdata/tags`_ for valid values for ``<tag>``)
 

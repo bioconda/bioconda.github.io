@@ -45,7 +45,7 @@ bioconductor-a4reporting
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-a4reporting:<tag>
+      docker pull quay.io/biocontainers/bioconductor-a4reporting:<tag>
 
    (see `bioconductor-a4reporting/tags`_ for valid values for ``<tag>``)
 

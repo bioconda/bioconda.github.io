@@ -74,7 +74,7 @@ bioconductor-immunespacer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-immunespacer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-immunespacer:<tag>
 
    (see `bioconductor-immunespacer/tags`_ for valid values for ``<tag>``)
 

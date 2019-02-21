@@ -40,7 +40,7 @@ bpp-core
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bpp-core:<tag>
+      docker pull quay.io/biocontainers/bpp-core:<tag>
 
    (see `bpp-core/tags`_ for valid values for ``<tag>``)
 

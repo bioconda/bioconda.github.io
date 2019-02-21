@@ -42,7 +42,7 @@ bioconductor-msstatsbiodata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-msstatsbiodata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-msstatsbiodata:<tag>
 
    (see `bioconductor-msstatsbiodata/tags`_ for valid values for ``<tag>``)
 

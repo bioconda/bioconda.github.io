@@ -42,7 +42,7 @@ bioconductor-cssp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-cssp:<tag>
+      docker pull quay.io/biocontainers/bioconductor-cssp:<tag>
 
    (see `bioconductor-cssp/tags`_ for valid values for ``<tag>``)
 

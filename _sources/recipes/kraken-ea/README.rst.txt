@@ -46,7 +46,7 @@ kraken-ea
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/kraken-ea:<tag>
+      docker pull quay.io/biocontainers/kraken-ea:<tag>
 
    (see `kraken-ea/tags`_ for valid values for ``<tag>``)
 

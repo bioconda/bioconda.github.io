@@ -62,7 +62,7 @@ panx
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/panx:<tag>
+      docker pull quay.io/biocontainers/panx:<tag>
 
    (see `panx/tags`_ for valid values for ``<tag>``)
 

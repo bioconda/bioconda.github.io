@@ -40,7 +40,7 @@ perl-findbin
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-findbin:<tag>
+      docker pull quay.io/biocontainers/perl-findbin:<tag>
 
    (see `perl-findbin/tags`_ for valid values for ``<tag>``)
 

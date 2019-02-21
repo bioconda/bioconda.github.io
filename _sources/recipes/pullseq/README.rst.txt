@@ -44,7 +44,7 @@ pullseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pullseq:<tag>
+      docker pull quay.io/biocontainers/pullseq:<tag>
 
    (see `pullseq/tags`_ for valid values for ``<tag>``)
 

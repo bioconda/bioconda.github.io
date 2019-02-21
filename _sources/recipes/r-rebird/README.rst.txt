@@ -48,7 +48,7 @@ r-rebird
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rebird:<tag>
+      docker pull quay.io/biocontainers/r-rebird:<tag>
 
    (see `r-rebird/tags`_ for valid values for ``<tag>``)
 

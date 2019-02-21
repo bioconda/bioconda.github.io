@@ -63,7 +63,7 @@ bioconductor-gothic
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gothic:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gothic:<tag>
 
    (see `bioconductor-gothic/tags`_ for valid values for ``<tag>``)
 

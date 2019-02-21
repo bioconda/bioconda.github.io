@@ -44,7 +44,7 @@ fastsimbac
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/fastsimbac:<tag>
+      docker pull quay.io/biocontainers/fastsimbac:<tag>
 
    (see `fastsimbac/tags`_ for valid values for ``<tag>``)
 

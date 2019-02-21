@@ -52,7 +52,7 @@ r-ggbiplot
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ggbiplot:<tag>
+      docker pull quay.io/biocontainers/r-ggbiplot:<tag>
 
    (see `r-ggbiplot/tags`_ for valid values for ``<tag>``)
 

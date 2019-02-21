@@ -52,7 +52,7 @@ slicedimage
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/slicedimage:<tag>
+      docker pull quay.io/biocontainers/slicedimage:<tag>
 
    (see `slicedimage/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ sak
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/sak:<tag>
+      docker pull quay.io/biocontainers/sak:<tag>
 
    (see `sak/tags`_ for valid values for ``<tag>``)
 

@@ -50,7 +50,7 @@ chipseq-greylist
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/chipseq-greylist:<tag>
+      docker pull quay.io/biocontainers/chipseq-greylist:<tag>
 
    (see `chipseq-greylist/tags`_ for valid values for ``<tag>``)
 

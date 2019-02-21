@@ -50,7 +50,7 @@ ucsc-localtime
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-localtime:<tag>
+      docker pull quay.io/biocontainers/ucsc-localtime:<tag>
 
    (see `ucsc-localtime/tags`_ for valid values for ``<tag>``)
 

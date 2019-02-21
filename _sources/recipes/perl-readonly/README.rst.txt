@@ -40,7 +40,7 @@ perl-readonly
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-readonly:<tag>
+      docker pull quay.io/biocontainers/perl-readonly:<tag>
 
    (see `perl-readonly/tags`_ for valid values for ``<tag>``)
 

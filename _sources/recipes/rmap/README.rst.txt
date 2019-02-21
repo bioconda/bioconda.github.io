@@ -41,7 +41,7 @@ rmap
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rmap:<tag>
+      docker pull quay.io/biocontainers/rmap:<tag>
 
    (see `rmap/tags`_ for valid values for ``<tag>``)
 

@@ -49,7 +49,7 @@ bioconductor-clustersignificance
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clustersignificance:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clustersignificance:<tag>
 
    (see `bioconductor-clustersignificance/tags`_ for valid values for ``<tag>``)
 

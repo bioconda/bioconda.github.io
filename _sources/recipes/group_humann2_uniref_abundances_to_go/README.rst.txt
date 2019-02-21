@@ -46,7 +46,7 @@ group_humann2_uniref_abundances_to_go
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/group_humann2_uniref_abundances_to_go:<tag>
+      docker pull quay.io/biocontainers/group_humann2_uniref_abundances_to_go:<tag>
 
    (see `group_humann2_uniref_abundances_to_go/tags`_ for valid values for ``<tag>``)
 

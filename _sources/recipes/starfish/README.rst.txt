@@ -78,7 +78,7 @@ starfish
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/starfish:<tag>
+      docker pull quay.io/biocontainers/starfish:<tag>
 
    (see `starfish/tags`_ for valid values for ``<tag>``)
 

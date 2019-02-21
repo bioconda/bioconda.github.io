@@ -38,7 +38,7 @@ snap-aligner
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/snap-aligner:<tag>
+      docker pull quay.io/biocontainers/snap-aligner:<tag>
 
    (see `snap-aligner/tags`_ for valid values for ``<tag>``)
 

@@ -74,7 +74,7 @@ bioconductor-levi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-levi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-levi:<tag>
 
    (see `bioconductor-levi/tags`_ for valid values for ``<tag>``)
 

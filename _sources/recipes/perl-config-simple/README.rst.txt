@@ -40,7 +40,7 @@ perl-config-simple
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-config-simple:<tag>
+      docker pull quay.io/biocontainers/perl-config-simple:<tag>
 
    (see `perl-config-simple/tags`_ for valid values for ``<tag>``)
 

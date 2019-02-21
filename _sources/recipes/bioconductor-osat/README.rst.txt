@@ -41,7 +41,7 @@ bioconductor-osat
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-osat:<tag>
+      docker pull quay.io/biocontainers/bioconductor-osat:<tag>
 
    (see `bioconductor-osat/tags`_ for valid values for ``<tag>``)
 

@@ -38,7 +38,7 @@ cuneiform
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cuneiform:<tag>
+      docker pull quay.io/biocontainers/cuneiform:<tag>
 
    (see `cuneiform/tags`_ for valid values for ``<tag>``)
 

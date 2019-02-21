@@ -50,7 +50,7 @@ ucsc-taillines
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-taillines:<tag>
+      docker pull quay.io/biocontainers/ucsc-taillines:<tag>
 
    (see `ucsc-taillines/tags`_ for valid values for ``<tag>``)
 

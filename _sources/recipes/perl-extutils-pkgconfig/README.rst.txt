@@ -40,7 +40,7 @@ perl-extutils-pkgconfig
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-extutils-pkgconfig:<tag>
+      docker pull quay.io/biocontainers/perl-extutils-pkgconfig:<tag>
 
    (see `perl-extutils-pkgconfig/tags`_ for valid values for ``<tag>``)
 

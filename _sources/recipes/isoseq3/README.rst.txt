@@ -44,7 +44,7 @@ isoseq3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/isoseq3:<tag>
+      docker pull quay.io/biocontainers/isoseq3:<tag>
 
    (see `isoseq3/tags`_ for valid values for ``<tag>``)
 

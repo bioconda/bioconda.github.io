@@ -52,7 +52,7 @@ perl-path-class
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-path-class:<tag>
+      docker pull quay.io/biocontainers/perl-path-class:<tag>
 
    (see `perl-path-class/tags`_ for valid values for ``<tag>``)
 

@@ -46,7 +46,7 @@ tetoolkit
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/tetoolkit:<tag>
+      docker pull quay.io/biocontainers/tetoolkit:<tag>
 
    (see `tetoolkit/tags`_ for valid values for ``<tag>``)
 

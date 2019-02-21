@@ -44,7 +44,7 @@ dudes
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dudes:<tag>
+      docker pull quay.io/biocontainers/dudes:<tag>
 
    (see `dudes/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ bioconductor-affymetrixdatatestfiles
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-affymetrixdatatestfiles:<tag>
+      docker pull quay.io/biocontainers/bioconductor-affymetrixdatatestfiles:<tag>
 
    (see `bioconductor-affymetrixdatatestfiles/tags`_ for valid values for ``<tag>``)
 

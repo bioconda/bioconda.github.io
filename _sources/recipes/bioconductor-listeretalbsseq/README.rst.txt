@@ -44,7 +44,7 @@ bioconductor-listeretalbsseq
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-listeretalbsseq:<tag>
+      docker pull quay.io/biocontainers/bioconductor-listeretalbsseq:<tag>
 
    (see `bioconductor-listeretalbsseq/tags`_ for valid values for ``<tag>``)
 

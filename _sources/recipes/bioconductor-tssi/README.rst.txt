@@ -57,7 +57,7 @@ bioconductor-tssi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-tssi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-tssi:<tag>
 
    (see `bioconductor-tssi/tags`_ for valid values for ``<tag>``)
 

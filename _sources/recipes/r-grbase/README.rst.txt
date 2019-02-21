@@ -60,7 +60,7 @@ r-grbase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-grbase:<tag>
+      docker pull quay.io/biocontainers/r-grbase:<tag>
 
    (see `r-grbase/tags`_ for valid values for ``<tag>``)
 

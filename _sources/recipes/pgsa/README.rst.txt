@@ -42,7 +42,7 @@ pgsa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pgsa:<tag>
+      docker pull quay.io/biocontainers/pgsa:<tag>
 
    (see `pgsa/tags`_ for valid values for ``<tag>``)
 

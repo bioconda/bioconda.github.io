@@ -63,7 +63,7 @@ stacks
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/stacks:<tag>
+      docker pull quay.io/biocontainers/stacks:<tag>
 
    (see `stacks/tags`_ for valid values for ``<tag>``)
 

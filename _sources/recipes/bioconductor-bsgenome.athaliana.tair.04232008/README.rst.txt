@@ -44,7 +44,7 @@ bioconductor-bsgenome.athaliana.tair.04232008
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.athaliana.tair.04232008:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.athaliana.tair.04232008:<tag>
 
    (see `bioconductor-bsgenome.athaliana.tair.04232008/tags`_ for valid values for ``<tag>``)
 

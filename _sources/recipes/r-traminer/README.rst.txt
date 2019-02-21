@@ -52,7 +52,7 @@ r-traminer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-traminer:<tag>
+      docker pull quay.io/biocontainers/r-traminer:<tag>
 
    (see `r-traminer/tags`_ for valid values for ``<tag>``)
 

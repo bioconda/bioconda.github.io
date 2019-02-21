@@ -43,7 +43,7 @@ pathwaymatcher
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pathwaymatcher:<tag>
+      docker pull quay.io/biocontainers/pathwaymatcher:<tag>
 
    (see `pathwaymatcher/tags`_ for valid values for ``<tag>``)
 

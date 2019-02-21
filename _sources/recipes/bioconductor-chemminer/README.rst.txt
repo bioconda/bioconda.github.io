@@ -71,7 +71,7 @@ bioconductor-chemminer
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-chemminer:<tag>
+      docker pull quay.io/biocontainers/bioconductor-chemminer:<tag>
 
    (see `bioconductor-chemminer/tags`_ for valid values for ``<tag>``)
 

@@ -40,7 +40,7 @@ perl-app-cpanminus
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-app-cpanminus:<tag>
+      docker pull quay.io/biocontainers/perl-app-cpanminus:<tag>
 
    (see `perl-app-cpanminus/tags`_ for valid values for ``<tag>``)
 

@@ -63,7 +63,7 @@ bioconductor-organismdbi
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-organismdbi:<tag>
+      docker pull quay.io/biocontainers/bioconductor-organismdbi:<tag>
 
    (see `bioconductor-organismdbi/tags`_ for valid values for ``<tag>``)
 

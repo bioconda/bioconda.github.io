@@ -44,7 +44,7 @@ bioconductor-copa
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-copa:<tag>
+      docker pull quay.io/biocontainers/bioconductor-copa:<tag>
 
    (see `bioconductor-copa/tags`_ for valid values for ``<tag>``)
 

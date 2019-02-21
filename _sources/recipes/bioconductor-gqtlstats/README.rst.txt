@@ -100,7 +100,7 @@ bioconductor-gqtlstats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-gqtlstats:<tag>
+      docker pull quay.io/biocontainers/bioconductor-gqtlstats:<tag>
 
    (see `bioconductor-gqtlstats/tags`_ for valid values for ``<tag>``)
 

@@ -42,7 +42,7 @@ perl-math-cdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-math-cdf:<tag>
+      docker pull quay.io/biocontainers/perl-math-cdf:<tag>
 
    (see `perl-math-cdf/tags`_ for valid values for ``<tag>``)
 

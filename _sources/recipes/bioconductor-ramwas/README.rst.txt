@@ -60,7 +60,7 @@ bioconductor-ramwas
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ramwas:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ramwas:<tag>
 
    (see `bioconductor-ramwas/tags`_ for valid values for ``<tag>``)
 

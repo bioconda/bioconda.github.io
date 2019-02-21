@@ -58,7 +58,7 @@ feelnc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/feelnc:<tag>
+      docker pull quay.io/biocontainers/feelnc:<tag>
 
    (see `feelnc/tags`_ for valid values for ``<tag>``)
 

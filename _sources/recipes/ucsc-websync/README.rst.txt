@@ -52,7 +52,7 @@ ucsc-websync
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/ucsc-websync:<tag>
+      docker pull quay.io/biocontainers/ucsc-websync:<tag>
 
    (see `ucsc-websync/tags`_ for valid values for ``<tag>``)
 

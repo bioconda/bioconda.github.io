@@ -44,7 +44,7 @@ bioconductor-abarray
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-abarray:<tag>
+      docker pull quay.io/biocontainers/bioconductor-abarray:<tag>
 
    (see `bioconductor-abarray/tags`_ for valid values for ``<tag>``)
 

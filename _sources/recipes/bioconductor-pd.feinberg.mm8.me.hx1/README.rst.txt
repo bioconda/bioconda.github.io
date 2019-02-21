@@ -54,7 +54,7 @@ bioconductor-pd.feinberg.mm8.me.hx1
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.feinberg.mm8.me.hx1:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.feinberg.mm8.me.hx1:<tag>
 
    (see `bioconductor-pd.feinberg.mm8.me.hx1/tags`_ for valid values for ``<tag>``)
 

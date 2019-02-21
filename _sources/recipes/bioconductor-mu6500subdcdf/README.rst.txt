@@ -44,7 +44,7 @@ bioconductor-mu6500subdcdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mu6500subdcdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mu6500subdcdf:<tag>
 
    (see `bioconductor-mu6500subdcdf/tags`_ for valid values for ``<tag>``)
 

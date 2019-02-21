@@ -58,7 +58,7 @@ bioconductor-genenetworkbuilder
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-genenetworkbuilder:<tag>
+      docker pull quay.io/biocontainers/bioconductor-genenetworkbuilder:<tag>
 
    (see `bioconductor-genenetworkbuilder/tags`_ for valid values for ``<tag>``)
 

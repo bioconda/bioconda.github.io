@@ -55,7 +55,7 @@ bioconductor-deformats
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-deformats:<tag>
+      docker pull quay.io/biocontainers/bioconductor-deformats:<tag>
 
    (see `bioconductor-deformats/tags`_ for valid values for ``<tag>``)
 

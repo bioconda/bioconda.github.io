@@ -50,7 +50,7 @@ perl-sql-statement
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sql-statement:<tag>
+      docker pull quay.io/biocontainers/perl-sql-statement:<tag>
 
    (see `perl-sql-statement/tags`_ for valid values for ``<tag>``)
 

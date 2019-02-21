@@ -40,7 +40,7 @@ perl-heap-simple-perl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-heap-simple-perl:<tag>
+      docker pull quay.io/biocontainers/perl-heap-simple-perl:<tag>
 
    (see `perl-heap-simple-perl/tags`_ for valid values for ``<tag>``)
 

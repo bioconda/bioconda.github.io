@@ -72,7 +72,7 @@ bioconductor-ihwpaper
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ihwpaper:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ihwpaper:<tag>
 
    (see `bioconductor-ihwpaper/tags`_ for valid values for ``<tag>``)
 

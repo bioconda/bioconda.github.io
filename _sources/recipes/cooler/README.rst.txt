@@ -74,7 +74,7 @@ cooler
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cooler:<tag>
+      docker pull quay.io/biocontainers/cooler:<tag>
 
    (see `cooler/tags`_ for valid values for ``<tag>``)
 

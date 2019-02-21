@@ -55,7 +55,7 @@ rseqc
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rseqc:<tag>
+      docker pull quay.io/biocontainers/rseqc:<tag>
 
    (see `rseqc/tags`_ for valid values for ``<tag>``)
 

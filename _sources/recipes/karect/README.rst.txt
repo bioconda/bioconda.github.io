@@ -44,7 +44,7 @@ karect
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/karect:<tag>
+      docker pull quay.io/biocontainers/karect:<tag>
 
    (see `karect/tags`_ for valid values for ``<tag>``)
 

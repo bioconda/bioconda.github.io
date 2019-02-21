@@ -44,7 +44,7 @@ bioconductor-bsgenome.dmelanogaster.ucsc.dm3
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.dmelanogaster.ucsc.dm3:<tag>
+      docker pull quay.io/biocontainers/bioconductor-bsgenome.dmelanogaster.ucsc.dm3:<tag>
 
    (see `bioconductor-bsgenome.dmelanogaster.ucsc.dm3/tags`_ for valid values for ``<tag>``)
 

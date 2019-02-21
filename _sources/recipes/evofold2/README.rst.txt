@@ -38,7 +38,7 @@ evofold2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/evofold2:<tag>
+      docker pull quay.io/biocontainers/evofold2:<tag>
 
    (see `evofold2/tags`_ for valid values for ``<tag>``)
 

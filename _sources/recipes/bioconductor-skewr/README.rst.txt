@@ -54,7 +54,7 @@ bioconductor-skewr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-skewr:<tag>
+      docker pull quay.io/biocontainers/bioconductor-skewr:<tag>
 
    (see `bioconductor-skewr/tags`_ for valid values for ``<tag>``)
 

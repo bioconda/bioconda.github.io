@@ -23,7 +23,7 @@ python-tripal
 
    |downloads_python-tripal| |docker_python-tripal|
 
-   :versions: 3.1.1-0, 3.0-1, 3.0-0, 2.0.4-0, 2.0.3-0, 2.0.2-0, 2.0.1-0, 1.8-0, 1.7-0, 1.5-0
+   :versions: 3.2-0, 3.1.1-0, 3.0-1, 3.0-0, 2.0.4-0, 2.0.3-0, 2.0.2-0, 2.0.1-0, 1.8-0, 1.7-0, 1.5-0
    
    :depends click: 
    
@@ -51,7 +51,7 @@ python-tripal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/python-tripal:<tag>
+      docker pull quay.io/biocontainers/python-tripal:<tag>
 
    (see `python-tripal/tags`_ for valid values for ``<tag>``)
 

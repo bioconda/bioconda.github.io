@@ -50,7 +50,7 @@ bioconductor-omicsprint
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-omicsprint:<tag>
+      docker pull quay.io/biocontainers/bioconductor-omicsprint:<tag>
 
    (see `bioconductor-omicsprint/tags`_ for valid values for ``<tag>``)
 

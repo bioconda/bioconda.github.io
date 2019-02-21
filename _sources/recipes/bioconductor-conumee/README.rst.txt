@@ -38,7 +38,7 @@ bioconductor-conumee
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-conumee:<tag>
+      docker pull quay.io/biocontainers/bioconductor-conumee:<tag>
 
    (see `bioconductor-conumee/tags`_ for valid values for ``<tag>``)
 

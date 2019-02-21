@@ -52,7 +52,7 @@ bioconductor-clippda
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clippda:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clippda:<tag>
 
    (see `bioconductor-clippda/tags`_ for valid values for ``<tag>``)
 

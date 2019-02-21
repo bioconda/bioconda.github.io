@@ -46,7 +46,7 @@ bioconductor-clariomdhumanprobeset.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-clariomdhumanprobeset.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db:<tag>
 
    (see `bioconductor-clariomdhumanprobeset.db/tags`_ for valid values for ``<tag>``)
 

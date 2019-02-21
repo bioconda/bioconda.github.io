@@ -46,7 +46,7 @@ bioconductor-mm24kresogen.db
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-mm24kresogen.db:<tag>
+      docker pull quay.io/biocontainers/bioconductor-mm24kresogen.db:<tag>
 
    (see `bioconductor-mm24kresogen.db/tags`_ for valid values for ``<tag>``)
 

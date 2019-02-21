@@ -61,7 +61,7 @@ bioconductor-multidataset
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-multidataset:<tag>
+      docker pull quay.io/biocontainers/bioconductor-multidataset:<tag>
 
    (see `bioconductor-multidataset/tags`_ for valid values for ``<tag>``)
 

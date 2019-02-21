@@ -44,7 +44,7 @@ perl-sereal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-sereal:<tag>
+      docker pull quay.io/biocontainers/perl-sereal:<tag>
 
    (see `perl-sereal/tags`_ for valid values for ``<tag>``)
 

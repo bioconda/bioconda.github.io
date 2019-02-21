@@ -50,7 +50,7 @@ nanoget
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/nanoget:<tag>
+      docker pull quay.io/biocontainers/nanoget:<tag>
 
    (see `nanoget/tags`_ for valid values for ``<tag>``)
 

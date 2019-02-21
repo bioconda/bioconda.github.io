@@ -57,7 +57,7 @@ bioconductor-flowsom
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-flowsom:<tag>
+      docker pull quay.io/biocontainers/bioconductor-flowsom:<tag>
 
    (see `bioconductor-flowsom/tags`_ for valid values for ``<tag>``)
 

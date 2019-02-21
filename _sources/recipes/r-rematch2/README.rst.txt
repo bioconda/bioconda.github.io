@@ -42,7 +42,7 @@ r-rematch2
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-rematch2:<tag>
+      docker pull quay.io/biocontainers/r-rematch2:<tag>
 
    (see `r-rematch2/tags`_ for valid values for ``<tag>``)
 

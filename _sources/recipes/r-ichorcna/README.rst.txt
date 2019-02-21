@@ -50,7 +50,7 @@ r-ichorcna
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/r-ichorcna:<tag>
+      docker pull quay.io/biocontainers/r-ichorcna:<tag>
 
    (see `r-ichorcna/tags`_ for valid values for ``<tag>``)
 

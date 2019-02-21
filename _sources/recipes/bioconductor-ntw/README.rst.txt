@@ -43,7 +43,7 @@ bioconductor-ntw
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-ntw:<tag>
+      docker pull quay.io/biocontainers/bioconductor-ntw:<tag>
 
    (see `bioconductor-ntw/tags`_ for valid values for ``<tag>``)
 

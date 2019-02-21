@@ -54,7 +54,7 @@ vispr
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/vispr:<tag>
+      docker pull quay.io/biocontainers/vispr:<tag>
 
    (see `vispr/tags`_ for valid values for ``<tag>``)
 

@@ -81,7 +81,7 @@ bioconductor-biovizbase
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-biovizbase:<tag>
+      docker pull quay.io/biocontainers/bioconductor-biovizbase:<tag>
 
    (see `bioconductor-biovizbase/tags`_ for valid values for ``<tag>``)
 

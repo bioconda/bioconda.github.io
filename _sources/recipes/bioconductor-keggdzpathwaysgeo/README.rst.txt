@@ -46,7 +46,7 @@ bioconductor-keggdzpathwaysgeo
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-keggdzpathwaysgeo:<tag>
+      docker pull quay.io/biocontainers/bioconductor-keggdzpathwaysgeo:<tag>
 
    (see `bioconductor-keggdzpathwaysgeo/tags`_ for valid values for ``<tag>``)
 

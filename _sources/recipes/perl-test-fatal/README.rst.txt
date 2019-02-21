@@ -46,7 +46,7 @@ perl-test-fatal
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-test-fatal:<tag>
+      docker pull quay.io/biocontainers/perl-test-fatal:<tag>
 
    (see `perl-test-fatal/tags`_ for valid values for ``<tag>``)
 

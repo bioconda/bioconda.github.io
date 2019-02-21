@@ -46,7 +46,7 @@ rtg-tools
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/rtg-tools:<tag>
+      docker pull quay.io/biocontainers/rtg-tools:<tag>
 
    (see `rtg-tools/tags`_ for valid values for ``<tag>``)
 

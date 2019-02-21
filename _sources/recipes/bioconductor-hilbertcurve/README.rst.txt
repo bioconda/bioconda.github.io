@@ -50,7 +50,7 @@ bioconductor-hilbertcurve
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-hilbertcurve:<tag>
+      docker pull quay.io/biocontainers/bioconductor-hilbertcurve:<tag>
 
    (see `bioconductor-hilbertcurve/tags`_ for valid values for ``<tag>``)
 

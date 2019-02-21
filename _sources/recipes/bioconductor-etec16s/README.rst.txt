@@ -46,7 +46,7 @@ bioconductor-etec16s
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-etec16s:<tag>
+      docker pull quay.io/biocontainers/bioconductor-etec16s:<tag>
 
    (see `bioconductor-etec16s/tags`_ for valid values for ``<tag>``)
 

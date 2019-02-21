@@ -82,7 +82,7 @@ perl-bio-eutilities
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/perl-bio-eutilities:<tag>
+      docker pull quay.io/biocontainers/perl-bio-eutilities:<tag>
 
    (see `perl-bio-eutilities/tags`_ for valid values for ``<tag>``)
 

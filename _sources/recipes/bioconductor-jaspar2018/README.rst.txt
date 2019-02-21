@@ -42,7 +42,7 @@ bioconductor-jaspar2018
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-jaspar2018:<tag>
+      docker pull quay.io/biocontainers/bioconductor-jaspar2018:<tag>
 
    (see `bioconductor-jaspar2018/tags`_ for valid values for ``<tag>``)
 

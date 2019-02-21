@@ -42,7 +42,7 @@ cwl2wdl
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/cwl2wdl:<tag>
+      docker pull quay.io/biocontainers/cwl2wdl:<tag>
 
    (see `cwl2wdl/tags`_ for valid values for ``<tag>``)
 

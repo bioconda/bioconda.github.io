@@ -45,7 +45,7 @@ bioconductor-atlasrdf
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-atlasrdf:<tag>
+      docker pull quay.io/biocontainers/bioconductor-atlasrdf:<tag>
 
    (see `bioconductor-atlasrdf/tags`_ for valid values for ``<tag>``)
 

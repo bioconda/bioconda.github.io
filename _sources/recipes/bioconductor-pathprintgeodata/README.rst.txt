@@ -42,7 +42,7 @@ bioconductor-pathprintgeodata
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pathprintgeodata:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pathprintgeodata:<tag>
 
    (see `bioconductor-pathprintgeodata/tags`_ for valid values for ``<tag>``)
 

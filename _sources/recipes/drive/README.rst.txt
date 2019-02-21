@@ -38,7 +38,7 @@ drive
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/drive:<tag>
+      docker pull quay.io/biocontainers/drive:<tag>
 
    (see `drive/tags`_ for valid values for ``<tag>``)
 

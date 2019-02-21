@@ -56,7 +56,7 @@ bioconductor-pd.clariom.s.mouse.ht
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/bioconductor-pd.clariom.s.mouse.ht:<tag>
+      docker pull quay.io/biocontainers/bioconductor-pd.clariom.s.mouse.ht:<tag>
 
    (see `bioconductor-pd.clariom.s.mouse.ht/tags`_ for valid values for ``<tag>``)
 

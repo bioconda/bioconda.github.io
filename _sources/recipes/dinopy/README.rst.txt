@@ -44,7 +44,7 @@ dinopy
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/dinopy:<tag>
+      docker pull quay.io/biocontainers/dinopy:<tag>
 
    (see `dinopy/tags`_ for valid values for ``<tag>``)
 

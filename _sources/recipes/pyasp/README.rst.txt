@@ -40,7 +40,7 @@ pyasp
 
    or use the docker container::
 
-      docker pull quay.io/repository/biocontainers/pyasp:<tag>
+      docker pull quay.io/biocontainers/pyasp:<tag>
 
    (see `pyasp/tags`_ for valid values for ``<tag>``)
 
