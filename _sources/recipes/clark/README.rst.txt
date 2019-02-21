@@ -23,11 +23,11 @@ clark
 
    |downloads_clark| |docker_clark|
 
-   :versions: 1.2.5-1, 1.2.5-0, 1.2.3.1-0, 1.2.3-2, 1.2.3-1, 1.2.2_b-0
+   :versions: 1.2.5.1-0, 1.2.5-1, 1.2.5-0, 1.2.3.1-0, 1.2.3-2, 1.2.3-1, 1.2.2_b-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: >=7.3.0
    
    :requirements:
 

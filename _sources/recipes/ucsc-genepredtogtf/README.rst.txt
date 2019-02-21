@@ -22,7 +22,7 @@ ucsc-genepredtogtf
 
    |downloads_ucsc-genepredtogtf| |docker_ucsc-genepredtogtf|
 
-   :versions: 366-1, 366-0, 357-1, 357-0, 332-0
+   :versions: 377-1, 366-1, 366-0, 357-1, 357-0, 332-0
    
    :depends libgcc-ng: >=7.3.0
    

@@ -22,9 +22,11 @@ survivor
 
    |downloads_survivor| |docker_survivor|
 
-   :versions: 1.0.5-1, 1.0.3-1, 1.0.3-0, 1.0.0-0
+   :versions: 1.0.6-0, 1.0.5-1, 1.0.3-1, 1.0.3-0, 1.0.0-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :requirements:
 
