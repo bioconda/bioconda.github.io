@@ -23,9 +23,11 @@ rapidnj
 
    |downloads_rapidnj| |docker_rapidnj|
 
-   :versions: v2.3.2-0
+   :versions: v2.3.2-1, v2.3.2-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :requirements:
 

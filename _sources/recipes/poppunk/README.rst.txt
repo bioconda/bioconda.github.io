@@ -14,6 +14,7 @@ poppunk
    :homepage: https://github.com/johnlees/PopPUNK
    :license: APACHE / Apache-2.0
    :recipe: /`poppunk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poppunk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poppunk/meta.yaml>`_
+   :links: doi: :doi:`10.1101/gr.241455.118`
 
    
 
@@ -22,7 +23,7 @@ poppunk
 
    |downloads_poppunk| |docker_poppunk|
 
-   :versions: 1.1.3-0, 1.1.2-0
+   :versions: 1.1.4-0, 1.1.3-0, 1.1.2-0
    
    :depends dendropy: 
    
@@ -42,7 +43,7 @@ poppunk
    
    :depends pandas: 
    
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    
    :depends rapidnj: 
    

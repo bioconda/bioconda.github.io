@@ -22,9 +22,9 @@ perl-sort-naturally
 
    |downloads_perl-sort-naturally| |docker_perl-sort-naturally|
 
-   :versions: 1.03-1, 1.03-0
+   :versions: 1.03-2, 1.03-1, 1.03-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    
    :requirements:
 

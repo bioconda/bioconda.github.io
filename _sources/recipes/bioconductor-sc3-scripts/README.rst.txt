@@ -22,7 +22,7 @@ bioconductor-sc3-scripts
 
    |downloads_bioconductor-sc3-scripts| |docker_bioconductor-sc3-scripts|
 
-   :versions: 0.0.2-1, 0.0.1-1, 0.0.1-0
+   :versions: 0.0.3-0, 0.0.2-2, 0.0.2-1, 0.0.1-1, 0.0.1-0
    
    :depends bioconductor-biobase: 
    

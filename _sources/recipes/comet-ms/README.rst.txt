@@ -23,9 +23,11 @@ comet-ms
 
    |downloads_comet-ms| |docker_comet-ms|
 
-   :versions: 2018013-0, 2018012-1, 2018012-0, 2016013-1
+   :versions: 2018014-0, 2018013-0, 2018012-1, 2018012-0, 2016013-1
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :requirements:
 

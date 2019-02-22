@@ -12,7 +12,7 @@ sharedmem
    Dispatch your trivially parallizable jobs with sharedmem. 
 
    :homepage: http://github.com/rainwoodman/sharedmem
-   :license: Public-Domain / None
+   :license: GPL / GPL-3.0
    :recipe: /`sharedmem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sharedmem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sharedmem/meta.yaml>`_
 
    
@@ -22,11 +22,11 @@ sharedmem
 
    |downloads_sharedmem| |docker_sharedmem|
 
-   :versions: 0.3.5-1, 0.3.5-0
+   :versions: 0.3.5-2, 0.3.5-1, 0.3.5-0
    
    :depends numpy: 
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    
    :requirements:
 

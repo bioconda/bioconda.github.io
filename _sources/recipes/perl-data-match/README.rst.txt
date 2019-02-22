@@ -22,7 +22,15 @@ perl-data-match
 
    |downloads_perl-data-match| |docker_perl-data-match|
 
-   :versions: 
+   :versions: 0.06-0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends perl-data-compare: 
+   
+   :depends perl-data-dumper: 
+   
+   :depends perl-string-escape: 
    
    :requirements:
 
