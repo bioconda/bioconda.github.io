@@ -22,7 +22,13 @@ bioconductor-selex
 
    |downloads_bioconductor-selex| |docker_bioconductor-selex|
 
-   :versions: 
+   :versions: 1.14.0-0
+   
+   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-rjava: >=0.5-0
    
    :requirements:
 

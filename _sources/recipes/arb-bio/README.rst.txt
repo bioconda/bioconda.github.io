@@ -45,7 +45,7 @@ arb-bio
 
    :versions: 6.0.6-8, 6.0.6-7, 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3, 6.0.6-1, 6.0.6-0
    
-   :depends arb-bio-tools: 6.0.6 haa8b8d8_8
+   :depends arb-bio-tools: 6.0.6 h82bc0eb_8
    
    :depends fasttree: 
    
@@ -57,11 +57,9 @@ arb-bio
    
    :depends gnuplot: 
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends libpng: >=1.6.35,<1.7.0a0
-   
-   :depends libstdcxx-ng: >=7.3.0
    
    :depends libtiff: >=4.0.9,<5.0a0
    
@@ -73,7 +71,7 @@ arb-bio
    
    :depends muscle: 
    
-   :depends openmotif: 
+   :depends openmotif: >=2.3.8,<3.0a0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    
@@ -136,11 +134,9 @@ arb-bio
 
    :versions: 6.0.6-8, 6.0.6-7, 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3
    
-   :depends arb-bio: 6.0.6 pl526h7ded70a_8
+   :depends arb-bio: 6.0.6 pl526h7e5b878_8
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends openmotif-dev: 
    
@@ -179,11 +175,9 @@ arb-bio
    
    :depends glib: >=2.58.2,<3.0a0
    
-   :depends libarbdb: 6.0.6 haa8b8d8_8
+   :depends libarbdb: 6.0.6 h82bc0eb_8
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :requirements:
 
@@ -222,9 +216,7 @@ arb-bio
    
    :depends glib: >=2.58.2,<3.0a0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :requirements:
 

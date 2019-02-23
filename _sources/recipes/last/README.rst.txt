@@ -27,8 +27,6 @@ last
    
    :depends future: 
    
-   :depends libgcc-ng: >=7.3.0
-   
    :depends parallel: 
    
    :depends pillow: 

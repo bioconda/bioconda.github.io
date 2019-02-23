@@ -23,7 +23,7 @@ r-histonehmm
 
    |downloads_r-histonehmm| |docker_r-histonehmm|
 
-   :versions: 1.7-0, 1.6-1, 1.6-0
+   :versions: 1.7-1, 1.7-0, 1.6-1, 1.6-0
    
    :depends bioconductor-biocstyle: 
    
@@ -31,9 +31,11 @@ r-histonehmm
    
    :depends bioconductor-rsamtools: 
    
-   :depends libgcc: 
+   :depends libcxx: >=4.0.1
    
-   :depends r-base: 3.4.1*
+   :depends libgfortran: >=3.0.1,<4.0.0.a0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
    
    :depends r-mvtnorm: 
    

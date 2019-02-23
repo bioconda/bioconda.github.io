@@ -22,7 +22,29 @@ bioconductor-powertcr
 
    |downloads_bioconductor-powertcr| |docker_bioconductor-powertcr|
 
-   :versions: 
+   :versions: 1.2.0-0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-cubature: 
+   
+   :depends r-doparallel: 
+   
+   :depends r-evmix: 
+   
+   :depends r-foreach: 
+   
+   :depends r-magrittr: 
+   
+   :depends r-purrr: 
+   
+   :depends r-tcr: 
+   
+   :depends r-truncdist: 
+   
+   :depends r-vegan: 
+   
+   :depends r-vgam: 
    
    :requirements:
 

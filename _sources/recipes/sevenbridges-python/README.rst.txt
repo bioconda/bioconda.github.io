@@ -22,13 +22,13 @@ sevenbridges-python
 
    |downloads_sevenbridges-python| |docker_sevenbridges-python|
 
-   :versions: 0.17.7-0, 0.17.5-0, 0.17.4-0, 0.17.3-0, 0.17.2-0, 0.17.1-0, 0.17.0-0, 0.16.0-0, 0.15.2-0, 0.15.0-0, 0.7.2-1, 0.7.2-0
+   :versions: 0.18.2-0, 0.17.7-0, 0.17.5-0, 0.17.4-0, 0.17.3-0, 0.17.2-0, 0.17.1-0, 0.17.0-0, 0.16.0-0, 0.15.2-0, 0.15.0-0, 0.7.2-1, 0.7.2-0
    
    :depends futures: >=3.0.4
    
    :depends python: >=2.7,<2.8.0a0
    
-   :depends requests: >=2.18.4
+   :depends requests: >=2.20.0
    
    :depends six: >=1.10.0
    

@@ -22,7 +22,25 @@ bioconductor-rcellminer
 
    |downloads_bioconductor-rcellminer| |docker_bioconductor-rcellminer|
 
-   :versions: 
+   :versions: 2.4.0-0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-rcellminerdata: >=2.4.0,<2.5.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-fingerprint: 
+   
+   :depends r-ggplot2: 
+   
+   :depends r-gplots: 
+   
+   :depends r-rcdk: 
+   
+   :depends r-shiny: 
+   
+   :depends r-stringr: 
    
    :requirements:
 

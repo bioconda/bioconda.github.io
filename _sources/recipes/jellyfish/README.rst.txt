@@ -28,8 +28,6 @@ jellyfish
    
    :depends jemalloc: 
    
-   :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

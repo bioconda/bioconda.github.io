@@ -22,7 +22,19 @@ bioconductor-goprofiles
 
    |downloads_bioconductor-goprofiles| |docker_bioconductor-goprofiles|
 
-   :versions: 
+   :versions: 1.44.0-0
+   
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   
+   :depends bioconductor-go.db: >=3.7.0,<3.8.0
+   
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   
+   :depends r-compquadform: 
+   
+   :depends r-stringr: 
    
    :requirements:
 

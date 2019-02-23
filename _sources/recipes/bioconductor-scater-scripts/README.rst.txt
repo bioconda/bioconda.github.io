@@ -22,7 +22,7 @@ bioconductor-scater-scripts
 
    |downloads_bioconductor-scater-scripts| |docker_bioconductor-scater-scripts|
 
-   :versions: 0.0.4-0, 0.0.3-1, 0.0.3-0, 0.0.2-0
+   :versions: 0.0.4-1, 0.0.4-0, 0.0.3-1, 0.0.3-0, 0.0.2-0
    
    :depends bioconductor-biobase: 
    

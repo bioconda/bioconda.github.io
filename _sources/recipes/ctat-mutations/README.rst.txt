@@ -22,7 +22,7 @@ ctat-mutations
 
    |downloads_ctat-mutations| |docker_ctat-mutations|
 
-   :versions: 2.0.1-5, 2.0.1-4, 2.0.1-3, 2.0.1-2, 2.0.1-1, 2.0.1-0, 2.0.0-4, 2.0.0-3, 2.0.0-0, 1.0-0
+   :versions: 2.1.0-0, 2.0.1-5, 2.0.1-4, 2.0.1-3, 2.0.1-2, 2.0.1-1, 2.0.1-0, 2.0.0-4, 2.0.0-3, 2.0.0-0, 1.0-0
    
    :depends bcftools: 
    
@@ -32,7 +32,9 @@ ctat-mutations
    
    :depends picard: 2.18.14.*
    
-   :depends python: 2.7.*
+   :depends pysam: 
+   
+   :depends python: >=3.6,<3.7.0a0
    
    :depends requests: 2.18.4.*
    

@@ -22,7 +22,7 @@ r-sleuth
 
    |downloads_r-sleuth| |docker_r-sleuth|
 
-   :versions: 0.30.0-0, 0.29.0-0, 0.28.0-0, 0.0.1-0
+   :versions: 0.30.0-1, 0.30.0-0, 0.29.0-0, 0.28.0-0, 0.0.1-0
    
    :depends bioconductor-rhdf5: 
    

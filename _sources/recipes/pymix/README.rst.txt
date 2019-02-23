@@ -30,8 +30,6 @@ pymix
    
    :depends gsl: >=2.2.1,<2.3.0a0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends matplotlib: >=1.1.0,!=1.4.2,<1.5.0
    
    :depends numpy: 

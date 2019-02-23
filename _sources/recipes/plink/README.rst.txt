@@ -25,10 +25,6 @@ plink
 
    :versions: 1.90b4-2, 1.90b4-1, 1.90b4-0
    
-   :depends libstdcxx-ng: >=4.9
-   
-   :depends openblas: >=0.2.20,<0.2.21.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
    
    :requirements:

@@ -29,8 +29,6 @@ semeta
    
    :depends blast: 
    
-   :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation
