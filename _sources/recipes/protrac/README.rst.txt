@@ -24,7 +24,7 @@ protrac
 
    :versions: 2.3.1-1, 2.3.1-0, 2.1-1, 2.1-0
    
-   :depends perl: >=5.26.0,<5.27.0a0
+   :depends perl: >=5.26.2,<5.27.0a0
    
    :depends perl-gd: 
    

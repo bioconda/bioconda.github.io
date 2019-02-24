@@ -22,9 +22,11 @@ platypus-variant
 
    |downloads_platypus-variant| |docker_platypus-variant|
 
-   :versions: 0.8.1.1-3, 0.8.1.1-2, 0.8.1.1-1, 0.8.1.1-0, 0.8.1-1, 0.8.1-0
+   :versions: 0.8.1.2-0, 0.8.1.1-3, 0.8.1.1-2, 0.8.1.1-1, 0.8.1.1-0, 0.8.1-1, 0.8.1-0
    
    :depends htslib: >=1.9,<1.10.0a0
+   
+   :depends libgcc-ng: >=7.3.0
    
    :depends python: >=2.7,<2.8.0a0
    

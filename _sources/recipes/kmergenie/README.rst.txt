@@ -25,6 +25,8 @@ kmergenie
 
    :versions: 1.7016-3, 1.7016-2, 1.7016-1, 1.7016-0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends python: >=2.7,<2.8.0a0
    
    :depends r-base: >=3.4.1,<3.4.2.0a0

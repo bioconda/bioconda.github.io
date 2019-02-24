@@ -24,7 +24,7 @@ perl-net-netrc
 
    :versions: 2.14-1, 2.14-0
    
-   :depends perl: >=5.26.0,<5.27.0a0
+   :depends perl: >=5.26.2,<5.27.0a0
    
    :requirements:
 

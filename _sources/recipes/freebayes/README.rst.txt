@@ -29,6 +29,10 @@ freebayes
    
    :depends htslib: 
    
+   :depends libgcc-ng: >=4.9
+   
+   :depends libstdcxx-ng: >=4.9
+   
    :depends parallel: 
    
    :depends python: >=2.7,<2.8.0a0

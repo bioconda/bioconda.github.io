@@ -25,6 +25,8 @@ trimal
 
    :versions: 1.4.1-2, 1.4.1-1, 1.4.1-0
    
+   :depends libstdcxx-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

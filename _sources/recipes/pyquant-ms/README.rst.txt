@@ -26,6 +26,8 @@ pyquant-ms
    
    :depends cython: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends lxml: 
    
    :depends numpy: 

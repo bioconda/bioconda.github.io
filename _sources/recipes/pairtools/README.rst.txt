@@ -30,6 +30,8 @@ pairtools
    
    :depends coreutils: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends lz4-c: 
    
    :depends numpy: >=1.9.3,<2.0a0

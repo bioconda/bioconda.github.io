@@ -24,6 +24,8 @@ gmtk
 
    :versions: 1.4.4-1, 1.4.4-0
    
+   :depends libstdcxx-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

@@ -24,6 +24,8 @@ asn2gb
 
    :versions: 18.2-2, 18.2-1, 18.2-0
    
+   :depends libidn11: 
+   
    :depends zlib: 
    
    :requirements:

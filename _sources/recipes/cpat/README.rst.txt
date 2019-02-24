@@ -12,7 +12,7 @@ cpat
    Coding Potential Assessment Tool
 
    :homepage: http://rna-cpat.sourceforge.net/
-   :license: GNU General Public v2 (GPLv2)
+   :license: GNU General Public v2 or later (GPLv2+)
    :recipe: /`cpat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpat/meta.yaml>`_
 
    
@@ -22,7 +22,7 @@ cpat
 
    |downloads_cpat| |docker_cpat|
 
-   :versions: 1.2.4-0, 1.2.3-1, 1.2.3-0, 1.2.2-2
+   :versions: 1.2.4-1, 1.2.4-0, 1.2.3-1, 1.2.3-0, 1.2.2-2
    
    :depends bx-python: 
    
@@ -30,7 +30,7 @@ cpat
    
    :depends pysam: 
    
-   :depends python: <3
+   :depends python: >=2.7,<2.8
    
    :depends r-base: 
    
