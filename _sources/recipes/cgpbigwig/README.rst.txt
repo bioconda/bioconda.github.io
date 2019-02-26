@@ -22,23 +22,23 @@ cgpbigwig
 
    |downloads_cgpbigwig| |docker_cgpbigwig|
 
-   :versions: 1.0.2-0
+   :versions: 1.0.3-0, 1.0.2-0
    
    :depends bzip2: >=1.0.6,<2.0a0
    
    :depends gmp: >=6.1.2,<7.0a0
    
-   :depends gnutls: >=3.5.19,<3.6.0a0
+   :depends gnutls: >=3.6.5,<3.7.0a0
    
    :depends htslib: >=1.9,<1.10.0a0
    
    :depends libbigwig: 
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
    :depends libtasn1: 
    
-   :depends nettle: >=3.3,<3.4.0a0
+   :depends nettle: >=3.4.1,<3.5.0a0
    
    :depends p11-kit: 
    

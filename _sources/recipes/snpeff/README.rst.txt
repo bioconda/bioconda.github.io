@@ -59,7 +59,7 @@ snpeff
 
 Notes
 -----
-Note that the package version is slightly different from upstream\, this is to make sure conda will order the package versions correctly.
+The tool is available as command \`snpEff\`. Note that the package version is slightly different from upstream\, this is to make sure conda will order the package versions correctly.
 
 
 Link to this page

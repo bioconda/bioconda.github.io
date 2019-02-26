@@ -27,7 +27,7 @@ mtb-snp-it
 
    |downloads_mtb-snp-it| |docker_mtb-snp-it|
 
-   :versions: 0.1.0-0
+   :versions: 1.1-0, 0.1.0-0
    
    :depends biopython: 
    

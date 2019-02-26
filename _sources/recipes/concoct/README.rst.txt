@@ -23,21 +23,21 @@ concoct
 
    |downloads_concoct| |docker_concoct|
 
-   :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0, 0.4.2-0, 0.4.1-0, 0.4.0-2, 0.4.0-1, 0.4.0-0
+   :versions: 1.0.0-3, 1.0.0-2, 1.0.0-1, 1.0.0-0, 0.4.2-0, 0.4.1-0, 0.4.0-2, 0.4.0-1, 0.4.0-0
    
    :depends biopython: >=1.62b
    
    :depends cython: >=0.19.1
    
-   :depends gsl: >=2.2.1,<2.3.0a0
+   :depends gsl: >=2.4,<2.5.0a0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
    :depends nose: >=1.3.0
    
    :depends numpy: >=1.7.1
    
-   :depends openblas: 0.3.3 ha44fe06_1
+   :depends openblas: >=0.3.5,<0.3.6.0a0
    
    :depends openmp: 
    
