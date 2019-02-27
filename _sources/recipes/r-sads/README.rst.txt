@@ -24,8 +24,6 @@ r-sads
 
    :versions: 0.4.2-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
    
    :depends r-bbmle: >=1.0.19

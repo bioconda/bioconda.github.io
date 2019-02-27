@@ -12,7 +12,7 @@ sparc
    A sparsity\-based consensus algorithm for long erroneous sequencing reads.
 
    :homepage: https://github.com/yechengxi/Sparc
-   :license: 
+   :license: MIT
    :recipe: /`sparc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparc/meta.yaml>`_
 
    
@@ -22,9 +22,9 @@ sparc
 
    |downloads_sparc| |docker_sparc|
 
-   :versions: 20160205-2, 20160205-1, 20160205-0
+   :versions: 20160205-3, 20160205-2, 20160205-1, 20160205-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libcxx: >=4.0.1
    
    :depends zlib: >=1.2.11,<1.3.0a0
    

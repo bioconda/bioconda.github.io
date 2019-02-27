@@ -22,7 +22,7 @@ r-basejump
 
    |downloads_r-basejump| |docker_r-basejump|
 
-   :versions: 0.9.9-0, 0.7.2-1, 0.7.2-0, 0.5.9-0, 0.5.3-0, 0.1.1-0
+   :versions: 0.9.11-0, 0.9.9-0, 0.7.2-1, 0.7.2-0, 0.5.9-0, 0.5.3-0, 0.1.1-0
    
    :depends bioconductor-annotationhub: 
    
@@ -40,9 +40,9 @@ r-basejump
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    
-   :depends r-bioverbs: >=0.1.6
+   :depends r-bioverbs: >=0.1.8
    
-   :depends r-brio: >=0.1.5
+   :depends r-brio: >=0.1.8
    
    :depends r-cowplot: >=0.9
    
@@ -56,7 +56,7 @@ r-basejump
    
    :depends r-ggrepel: >=0.8
    
-   :depends r-goalie: >=0.2.8
+   :depends r-goalie: >=0.2.9
    
    :depends r-knitr: >=1.2.1
    
@@ -96,7 +96,7 @@ r-basejump
    
    :depends r-stringr: >=1.3
    
-   :depends r-syntactic: >=0.1.4
+   :depends r-syntactic: >=0.1.5
    
    :depends r-tibble: >=2.0
    
@@ -104,7 +104,7 @@ r-basejump
    
    :depends r-tidyselect: >=0.2
    
-   :depends r-transformer: >=0.1.4
+   :depends r-transformer: >=0.1.6
    
    :depends r-viridis: 
    

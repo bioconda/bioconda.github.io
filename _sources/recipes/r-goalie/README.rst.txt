@@ -22,7 +22,7 @@ r-goalie
 
    |downloads_r-goalie| |docker_r-goalie|
 
-   :versions: 0.2.8-0
+   :versions: 0.2.9-0, 0.2.8-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

@@ -24,8 +24,6 @@ perl-clone
 
    :versions: 0.41-0, 0.39-0, 0.38-1, 0.38-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
    
    :depends perl-autoloader: 

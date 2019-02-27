@@ -25,8 +25,6 @@ bsmap
 
    :versions: 2.90-1, 2.90-0
    
-   :depends libstdcxx-ng: >=4.9
-   
    :depends python: 
    
    :depends samtools: 

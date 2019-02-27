@@ -58,8 +58,6 @@ sequana
    
    :depends khmer: 
    
-   :depends kraken: 
-   
    :depends krona: 
    
    :depends mock: 

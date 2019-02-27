@@ -22,7 +22,7 @@ r-brio
 
    |downloads_r-brio| |docker_r-brio|
 
-   :versions: 0.1.6-0
+   :versions: 0.1.8-0, 0.1.6-0
    
    :depends bioconductor-genomicranges: 
    
@@ -36,13 +36,13 @@ r-brio
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    
-   :depends r-bioverbs: >=0.1.3
+   :depends r-bioverbs: >=0.1.8
    
    :depends r-curl: >=1.95
    
    :depends r-data.table: >=1.11
    
-   :depends r-goalie: >=0.2.6
+   :depends r-goalie: >=0.2.9
    
    :depends r-jsonlite: >=1.6
    
@@ -58,7 +58,7 @@ r-brio
    
    :depends r-tibble: >=2.0
    
-   :depends r-transformer: >=0.1.3
+   :depends r-transformer: >=0.1.6
    
    :depends r-yaml: >=2.2
    

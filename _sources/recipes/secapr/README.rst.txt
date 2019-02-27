@@ -22,7 +22,7 @@ secapr
 
    |downloads_secapr| |docker_secapr|
 
-   :versions: 1.1.12-0, 1.1.10-2, 1.1.10-0, 1.1.9-0, 1.1.8-0, 1.1.7-0, 1.1.4-0, 1.1.0-0, 1.0.2-0, 1.0.1-0
+   :versions: 1.1.14-0, 1.1.12-0, 1.1.10-2, 1.1.10-0, 1.1.9-0, 1.1.8-0, 1.1.7-0, 1.1.4-0, 1.1.0-0, 1.0.2-0, 1.0.1-0
    
    :depends abyss: 
    
@@ -51,10 +51,6 @@ secapr
    :depends picard: 
    
    :depends python: >=2.7,<2.8.0a0
-   
-   :depends r-base: >=3.4.1,<3.4.2.0a0
-   
-   :depends r-tidyverse: 
    
    :depends samtools: 0.1.19.*
    

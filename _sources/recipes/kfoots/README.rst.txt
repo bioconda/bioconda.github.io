@@ -24,8 +24,6 @@ kfoots
 
    :versions: 1.0-1, 1.0-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
    
    :depends r-rcpp: >=0.10.6

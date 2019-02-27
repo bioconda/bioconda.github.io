@@ -32,9 +32,7 @@ salmon
    
    :depends libboost: 
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends tbb: >=2019.3
    

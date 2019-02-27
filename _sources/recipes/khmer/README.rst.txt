@@ -28,10 +28,6 @@ khmer
    
    :depends bz2file: 
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends libstdcxx-ng: >=4.9
-   
    :depends python: >=3.6,<3.7.0a0
    
    :depends screed: >=1.0

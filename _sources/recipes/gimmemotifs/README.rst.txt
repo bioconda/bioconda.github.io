@@ -43,8 +43,6 @@ gimmemotifs
    
    :depends jinja2: 
    
-   :depends libgcc-ng: >=4.9
-   
    :depends matplotlib: >=2.0
    
    :depends meme: 
