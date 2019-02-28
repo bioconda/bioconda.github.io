@@ -23,7 +23,7 @@ concoct
 
    |downloads_concoct| |docker_concoct|
 
-   :versions: 1.0.0-3, 1.0.0-2, 1.0.0-1, 1.0.0-0, 0.4.2-0, 0.4.1-0, 0.4.0-2, 0.4.0-1, 0.4.0-0
+   :versions: 1.0.0-4, 1.0.0-3, 1.0.0-2, 1.0.0-1, 1.0.0-0, 0.4.2-0, 0.4.1-0, 0.4.0-2, 0.4.0-1, 0.4.0-0
    
    :depends biopython: >=1.62b
    
@@ -47,7 +47,7 @@ concoct
    
    :depends samtools: 
    
-   :depends scikit-learn: >=0.13.1
+   :depends scikit-learn: >=0.18.0
    
    :depends scipy: >=0.12.0
    

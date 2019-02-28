@@ -14,7 +14,7 @@ catch
    :homepage: https://github.com/broadinstitute/catch
    :license: MIT / MIT
    :recipe: /`catch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/catch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/catch/meta.yaml>`_
-   :links: doi: :doi:`10.1101/279570`
+   :links: doi: :doi:`10.1038/s41587-018-0006-x`
 
    
 
@@ -23,7 +23,7 @@ catch
 
    |downloads_catch| |docker_catch|
 
-   :versions: 1.1.0-0, 1.0.0-1, 1.0.0-0
+   :versions: 1.2.0-0, 1.1.0-0, 1.0.0-1, 1.0.0-0
    
    :depends numpy: >=1.9.0
    

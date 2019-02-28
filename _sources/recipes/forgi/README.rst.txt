@@ -11,8 +11,8 @@ forgi
 
    RNA Graph Library
 
-   :homepage: http://www.tbi.univie.ac.at/~pkerp/forgi/
-   :license: GNU Affero GPL 3.0
+   :homepage: https://viennarna.github.io/forgi/
+   :license: GNU GPL 3.0
    :recipe: /`forgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/forgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/forgi/meta.yaml>`_
 
    
@@ -22,15 +22,13 @@ forgi
 
    |downloads_forgi| |docker_forgi|
 
-   :versions: 1.1-2, 1.1-1, 1.1-0
+   :versions: 2.0-2, 1.1-2, 1.1-1, 1.1-0
    
    :depends appdirs: >=1.4.3
    
    :depends beautifulsoup4: >=4.6
    
    :depends biopython: >=1.70
-   
-   :depends ddt: 
    
    :depends future: 
    
