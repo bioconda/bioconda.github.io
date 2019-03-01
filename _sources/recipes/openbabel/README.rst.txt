@@ -24,6 +24,10 @@ openbabel
 
    :versions: 2.4.1-3, 2.4.1-2, 2.4.1-1, 2.4.1-0, 2.3.90dev7d621d9-0, 2.3.2-2, 2.3.2-1
    
+   :depends cairo: >=1.14.10,<1.15.0a0
+   
+   :depends libgcc-ng: >=4.9
+   
    :depends libxml2: >=2.9.8,<2.10.0a0
    
    :depends python: >=2.7,<2.8.0a0

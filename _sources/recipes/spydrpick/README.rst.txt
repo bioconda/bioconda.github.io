@@ -25,7 +25,9 @@ spydrpick
 
    :versions: 1.1.1-0, 1.1.0-0, 1.0.0-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends pthread-stubs: 
    

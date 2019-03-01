@@ -24,6 +24,8 @@ fastq_utils
 
    :versions: 0.18.2-1
    
+   :depends libgcc-ng: >=7.3.0
+   
    :depends samtools: 1.9
    
    :depends zlib: >=1.2.11,<1.3.0a0

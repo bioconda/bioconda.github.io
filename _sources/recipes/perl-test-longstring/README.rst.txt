@@ -24,7 +24,7 @@ perl-test-longstring
 
    :versions: 0.17-1, 0.17-0
    
-   :depends perl: >=5.26.0,<5.27.0a0
+   :depends perl: >=5.26.2,<5.27.0a0
    
    :depends perl-test-builder-tester: 
    

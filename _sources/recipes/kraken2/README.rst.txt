@@ -27,9 +27,7 @@ kraken2
    
    :depends blast: 
    
-   :depends libcxx: >=4.0
-   
-   :depends openmp: >=4.0
+   :depends libstdcxx-ng: >=4.9
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

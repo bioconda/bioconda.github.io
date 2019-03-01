@@ -24,6 +24,8 @@ ucsc-mrnatogene
 
    :versions: 377-0, 366-0, 357-2, 357-1, 357-0
    
+   :depends libgcc-ng: >=7.3.0
+   
    :depends libpng: >=1.6.35,<1.7.0a0
    
    :depends libuuid: >=2.32.1,<3.0a0

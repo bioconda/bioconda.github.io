@@ -24,6 +24,8 @@ r-bio3d
 
    :versions: 2.3_3-0, 2.2_3-0
    
+   :depends libgcc: 
+   
    :depends r-base: 3.4.1*
    
    :depends r-rcpp: 

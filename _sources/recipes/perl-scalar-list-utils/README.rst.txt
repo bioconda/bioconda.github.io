@@ -24,6 +24,8 @@ perl-scalar-list-utils
 
    :versions: 1.45-3, 1.45-2, 1.45-1, 1.45-0, 1.42-3, 1.42-2, 1.42-1, 1.42-0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends perl: >=5.26.2,<5.27.0a0
    
    :requirements:

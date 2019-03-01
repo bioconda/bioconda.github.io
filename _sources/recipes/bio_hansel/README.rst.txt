@@ -26,6 +26,8 @@ bio_hansel
    
    :depends attrs: 
    
+   :depends libstdcxx-ng: >=4.9
+   
    :depends numpy: >=1.12.1
    
    :depends pandas: >=0.20.1

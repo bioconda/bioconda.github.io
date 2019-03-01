@@ -24,6 +24,8 @@ nasm
 
    :versions: 2.11.08-0
    
+   :depends libgcc: 
+   
    :requirements:
 
    .. rubric:: Installation

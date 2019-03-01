@@ -25,6 +25,8 @@ kalign2
 
    :versions: 2.04-0
    
+   :depends libgcc-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

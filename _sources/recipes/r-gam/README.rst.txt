@@ -24,6 +24,8 @@ r-gam
 
    :versions: 1.14_4-0, 1.14-0
    
+   :depends libgcc: 
+   
    :depends r-base: 3.4.1*
    
    :depends r-foreach: 

@@ -24,6 +24,8 @@ bam2fastx
 
    :versions: 1.3.0-6, 1.3.0-5, 1.3.0-4, 1.3.0-3, 1.3.0-2, 1.3.0-1, 1.3.0-0
    
+   :depends libstdcxx-ng: >=4.9
+   
    :depends pbbam: 0.19.0.*
    
    :depends pbcopper: 0.4.2.*

@@ -28,6 +28,8 @@ meme
    
    :depends ghostscript: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends libxml2: >=2.9.8,<2.10.0a0
    
    :depends libxslt: >=1.1.32,<2.0a0

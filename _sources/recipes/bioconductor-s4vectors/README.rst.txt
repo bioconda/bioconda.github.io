@@ -27,6 +27,8 @@ bioconductor-s4vectors
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    
+   :depends libgcc-ng: >=7.3.0
+   
    :depends r-base: >=3.5.1,<3.5.2.0a0
    
    :requirements:

@@ -25,6 +25,8 @@ prank
 
    :versions: v.170427-1, v.170427-0, v.150803-0
    
+   :depends libstdcxx-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

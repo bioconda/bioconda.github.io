@@ -22,47 +22,53 @@ frogs
 
    |downloads_frogs| |docker_frogs|
 
-   :versions: 2.0.1-1, 2.0.1-0
+   :versions: 3.1.0-0, 2.0.1-1, 2.0.1-0
    
-   :depends bioconductor-phyloseq: >=1.20.0
+   :depends bioconductor-phyloseq: >=1.24.2
    
-   :depends blast: >=2.2.31
+   :depends blast: >=2.7.1
    
-   :depends cutadapt: >=1.8.3
+   :depends cutadapt: >=1.18
    
-   :depends fasttree: >=2.1.9
+   :depends emboss: >=6.6.0
+   
+   :depends fasttree: >=2.1.10
    
    :depends flash: >=1.2.11
    
-   :depends mafft: >=7.310
+   :depends itsx: >=1.1b
+   
+   :depends mafft: >=7.407
    
    :depends pandoc: <2.0
    
-   :depends perl: >=5.22.0
+   :depends perl: 
    
    :depends perl-io-gzip: >=0.20
    
-   :depends pynast: >=1.2.2
+   :depends perl-io-zlib: 
    
    :depends python: >=2.7,<2.8.0a0
    
-   :depends r-base: >=3.4.1
+   :depends r-base: >=3.5.1
    
-   :depends r-gridextra: >=2.2.1
+   :depends r-gridextra: >=2.3
    
-   :depends r-phangorn: >=2.2.0
+   :depends r-phangorn: >=2.4.0
    
-   :depends r-plotly: >=4.7.1
+   :depends r-plotly: >=4.8.0
    
-   :depends r-rmarkdown: >=1.5
+   :depends r-rmarkdown: >=1.10
    
    :depends rdptools: >=2.0.2
    
-   :depends scipy: >=0.17.1
+   :depends scipy: >=1.1.0
    
-   :depends swarm: >=2.1.13
+   :depends swarm: >=2.2.2
    
-   :depends vsearch: >=2.4.3
+   :depends util-linux: 
+   
+   :depends vsearch: >=2.9.1
    
    :requirements:
 
