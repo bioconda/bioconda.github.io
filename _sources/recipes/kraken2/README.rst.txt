@@ -23,13 +23,19 @@ kraken2
 
    |downloads_kraken2| |docker_kraken2|
 
-   :versions: 2.0.7_beta-0
+   :versions: 2.0.7_beta-1, 2.0.7_beta-0
    
    :depends blast: 
    
-   :depends libstdcxx-ng: >=4.9
+   :depends gnu-wget: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends rsync: 
    
    :requirements:
 
