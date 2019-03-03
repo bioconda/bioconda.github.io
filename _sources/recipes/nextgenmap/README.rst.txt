@@ -22,9 +22,13 @@ nextgenmap
 
    |downloads_nextgenmap| |docker_nextgenmap|
 
-   :versions: 0.5.5-2, 0.5.5-0, 0.5.3-1, 0.5.3-0, 0.4.13-1, 0.4.13-0
+   :versions: 0.5.5-3, 0.5.5-2, 0.5.5-0, 0.5.3-1, 0.5.3-0, 0.4.13-1, 0.4.13-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends binutils: 
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :requirements:
 

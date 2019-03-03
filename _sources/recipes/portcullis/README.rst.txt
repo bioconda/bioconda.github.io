@@ -6,14 +6,14 @@
 portcullis
 ==========
 
-.. conda:recipe:: portcullis/1.1.0
+.. conda:recipe:: portcullis
    :replaces_section_title:
 
    Splice junction analysis and filtering from BAM files
 
    :homepage: https://github.com/maplesond/portcullis
    :license: GPL3
-   :recipe: /`portcullis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/portcullis>`_/`1.1.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/portcullis/1.1.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/portcullis/1.1.0/meta.yaml>`_
+   :recipe: /`portcullis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/portcullis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/portcullis/meta.yaml>`_
 
    
 
@@ -22,21 +22,23 @@ portcullis
 
    |downloads_portcullis| |docker_portcullis|
 
-   :versions: 1.1.1-3, 1.1.0-0
+   :versions: 1.1.2-0, 1.1.1-3, 1.1.0-0
    
-   :depends libgcc: 
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends numpy: 
    
    :depends pandas: 
    
-   :depends python: 3.5*
+   :depends python: >=3.6,<3.7.0a0
    
-   :depends samtools: 
+   :depends samtools: >=1.9
    
    :depends tabulate: 
    
-   :depends zlib: 1.2.11*
+   :depends zlib: >=1.2.11,<1.3.0a0
    
    :requirements:
 
