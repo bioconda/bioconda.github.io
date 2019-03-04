@@ -22,7 +22,7 @@ ddocent
 
    |downloads_ddocent| |docker_ddocent|
 
-   :versions: 2.6.0-2, 2.6.0-1, 2.6.0-0, 2.5.6-0, 2.5.5-0, 2.5.2-1, 2.5.2-0, 2.5.1-0, 2.3.8-0, 2.2.25-2, 2.2.25-1, 2.2.25-0, 2.2.20-0, 2.2.19-0, 2.2.16-0, 2.2.15-0, 2.2.13-0, 2.2.8-0, 2.2.7-0, 2.2.4-0, 2.1-0
+   :versions: 2.7.6-0, 2.6.0-2, 2.6.0-1, 2.6.0-0, 2.5.6-0, 2.5.5-0, 2.5.2-1, 2.5.2-0, 2.5.1-0, 2.3.8-0, 2.2.25-2, 2.2.25-1, 2.2.25-0, 2.2.20-0, 2.2.19-0, 2.2.16-0, 2.2.15-0, 2.2.13-0, 2.2.8-0, 2.2.7-0, 2.2.4-0, 2.1-0
    
    :depends bedtools: >=2.26.0
    
@@ -34,17 +34,17 @@ ddocent
    
    :depends curl: 
    
+   :depends fastp: 
+   
    :depends freebayes: 
    
    :depends gnuplot: 
    
    :depends grep: 
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
    :depends mawk: 
-   
-   :depends openjdk: 
    
    :depends parallel: 
    
@@ -55,8 +55,6 @@ ddocent
    :depends samtools: 
    
    :depends seqtk: >=1.3
-   
-   :depends trimmomatic: 
    
    :depends unzip: 
    

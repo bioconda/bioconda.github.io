@@ -23,7 +23,7 @@ vcflib
 
    |downloads_vcflib| |docker_vcflib|
 
-   :versions: 1.0.0_rc2-1, 1.0.0_rc2-0, 1.0.0_rc1-3, 1.0.0_rc1-1, 1.0.0_rc1-0, 1.0.0_rc0-0
+   :versions: 1.0.0_rc2-2, 1.0.0_rc2-1, 1.0.0_rc2-0, 1.0.0_rc1-3, 1.0.0_rc1-1, 1.0.0_rc1-0, 1.0.0_rc0-0
    
    :depends bzip2: >=1.0.6,<2.0a0
    
