@@ -9,7 +9,7 @@ pathogen-profiler
 .. conda:recipe:: pathogen-profiler
    :replaces_section_title:
 
-   Microbial assembly pipeline for Illumina paired\-end reads
+   Library giving access to classes and functions to create a profiling tool to look for mutations from NGS data.
 
    :homepage: https://github.com/jodyphelan/pathogen-profiler
    :license: GPL3
@@ -22,7 +22,7 @@ pathogen-profiler
 
    |downloads_pathogen-profiler| |docker_pathogen-profiler|
 
-   :versions: 0.1-0
+   :versions: 0.1-2, 0.1-1, 0.1-0
    
    :depends bcftools: 1.9.*
    
@@ -37,6 +37,8 @@ pathogen-profiler
    :depends python: 
    
    :depends samtools: 1.9.*
+   
+   :depends tqdm: 
    
    :depends trimmomatic: 
    

@@ -24,7 +24,7 @@ spectrum_utils
 
    |downloads_spectrum_utils| |docker_spectrum_utils|
 
-   :versions: 0.2.0-0, 0.1.0-0
+   :versions: 0.2.1-0, 0.2.0-0, 0.1.0-0
    
    :depends altair: 
    

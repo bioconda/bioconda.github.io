@@ -22,19 +22,19 @@ ngs-bits
 
    |downloads_ngs-bits| |docker_ngs-bits|
 
-   :versions: 2018_11-2, 2018_10-2, 2018_06-2, 2018_06-1, 2018_04-0
+   :versions: 2019_03-0, 2018_11-2, 2018_10-2, 2018_06-2, 2018_06-1, 2018_04-0
    
    :depends bzip2: >=1.0.6,<2.0a0
    
    :depends htslib: >=1.9,<1.10.0a0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
    :depends matplotlib: 
    
    :depends python: 
    
-   :depends qt: >=5.6.2,<5.7.0a0
+   :depends qt: >=5.9.7,<5.10.0a0
    
    :depends xz: >=5.2.4,<5.3.0a0
    
