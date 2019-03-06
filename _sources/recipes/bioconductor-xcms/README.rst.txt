@@ -14,7 +14,6 @@ bioconductor-xcms
    :homepage: https://bioconductor.org/packages/3.8/bioc/html/xcms.html
    :license: GPL (>= 2) + file LICENSE
    :recipe: /`bioconductor-xcms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xcms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xcms/meta.yaml>`_
-   :links: biotools: :biotools:`xcms`
 
    
 
@@ -23,7 +22,7 @@ bioconductor-xcms
 
    |downloads_bioconductor-xcms| |docker_bioconductor-xcms|
 
-   :versions: 3.4.2-0, 3.4.1-0, 3.0.0-1, 3.0.0-0, 1.52.0-1, 1.52.0-0, 1.50.1-0, 1.48.0-1, 1.46.0-1, 1.46.0-0, 1.44.0-1, 1.44.0-0
+   :versions: 3.4.4-0, 3.4.2-0, 3.4.1-0, 3.0.0-1, 3.0.0-0, 1.52.0-1, 1.52.0-0, 1.50.1-0, 1.48.0-1, 1.46.0-1, 1.46.0-0, 1.44.0-1, 1.44.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    

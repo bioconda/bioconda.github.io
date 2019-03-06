@@ -22,7 +22,7 @@ shmlast
 
    |downloads_shmlast| |docker_shmlast|
 
-   :versions: 1.4-1, 1.4-0, 1.3-0, 1.2.1-1, 1.2.1-0
+   :versions: 1.4-2, 1.4-1, 1.4-0, 1.3-0, 1.2.1-1, 1.2.1-0
    
    :depends doit: >=0.29.0
    

@@ -22,7 +22,7 @@ rmats
 
    |downloads_rmats| |docker_rmats|
 
-   :versions: 4.0.2-0, 3.2.5-2, 3.2.5-1, 3.2.5-0, 3.2.2beta-0
+   :versions: 4.0.2-1, 4.0.2-0, 3.2.5-2, 3.2.5-1, 3.2.5-0, 3.2.2beta-0
    
    :depends numpy: 
    

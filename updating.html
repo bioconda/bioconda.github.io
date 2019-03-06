@@ -266,14 +266,16 @@ testing.</p>
 </div>
 <div class="section" id="updating-recipes-for-a-pinning-change">
 <h1>Updating recipes for a pinning change<a class="headerlink" href="#updating-recipes-for-a-pinning-change" title="Permalink to this headline">¶</a></h1>
-<p>For compatibility reasons, sometimes packages need to be built for specific versions of dependency (e.g., R, Python, or boost). The packages produced for a particular version of a dependency are said to be “pinned” to that dependency version. Bioconda has project wide pinnings for many common dependencies, such as numpy, R, and boost. These pinnings allow for consistency between package and facilitates adding multiple packages to the same conda environment (due to not requiring differing boost versions, for example). These pinnings are largely inherited from the [conda-forge project](<a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock">https://github.com/conda-forge/conda-forge-pinning-feedstock</a>) and bioconda then uses a particular version of them. On rare occasions these pinnings are updated (e.g., changing compiler versions, or updating the supported versions of Python) and many packages need to be updated project-wide to account for this. To facilitate such updates, <cite>bioconda-utils</cite> now has an <cite>update-pinning</cite> subcommand. To use this, first create a conda environment with bioconda-utils:</p>
+<p>For compatibility reasons, sometimes packages need to be built for specific versions of dependency (e.g., R, Python, or boost). The packages produced for a particular version of a dependency are said to be <em>pinned</em> to that dependency version.</p>
+<p>Bioconda has project wide pinnings for many common dependencies, such as numpy, R, and boost. These pinnings allow for consistency between package and facilitates adding multiple packages to the same conda environment (due to not requiring differing boost versions, for example). These pinnings are largely inherited from the <a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock">conda-forge project</a> and Bioconda then uses a particular version of them.</p>
+<p>On rare occasions these pinnings are updated (e.g., changing compiler versions, or updating the supported versions of Python) and many packages need to be updated project-wide to account for this. To facilitate such updates, <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> now has an <code class="docutils literal notranslate"><span class="pre">update-pinning</span></code> subcommand. To use this, first create a conda environment with bioconda-utils:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ conda create -n bioconda-utils <span class="nv">conda</span><span class="o">=</span><span class="m">4</span>.5.11 <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.6
 $ <span class="nb">source</span> activate bioconda-utils
 $ conda install -y git pip --file https://raw.githubusercontent.com/bioconda/bioconda-utils/master/bioconda_utils/bioconda_utils-requirements.txt
-$ pip install https://github.com/bioconda/bioconda-utils
+$ pip install git+https://github.com/bioconda/bioconda-utils
 </pre></div>
 </div>
-<p>You then have an environment with the most recent version of <cite>bioconda-utils</cite>. We will use deepTools as an example to show how to update a package and all of its dependencies as needed due to a change in pinnings. First ensure you’re in the bioconda-recipes repository and then:</p>
+<p>You then have an environment with the most recent version of <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code>. Below we use <em>deepTools</em> as an example to show how to update a package and all of its dependencies as needed due to a change in pinnings. First ensure you’re in the <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> repository and then:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git checkout -b rebuild_deeptools
 $ bioconda-utils update-pinning --bump-only-python recipes/ config.yml --packages deeptools
 Packages requiring the following:
@@ -305,7 +307,7 @@ Changes not staged <span class="k">for</span> commit:
     modified:   recipes/samtools/meta.yaml
 </pre></div>
 </div>
-<p>This incremented the build number for the deepTools package as well as all of its dependencies. Note that the 2 dependencies not updated were skipped because it was determined that they were unaffected by the dependency change. In most cases the <cite>–bump-only-python</cite> should be used. This results in packages that simply need a rebuild due to a change in Python version to have their build numbers incremented. Such packages would eventually be built anyway, but this facilitates the update process.</p>
+<p>This incremented the build number for the deepTools package as well as all of its dependencies. Note that the 2 dependencies not updated were skipped because it was determined that they were unaffected by the dependency change. In most cases the <code class="docutils literal notranslate"><span class="pre">--bump-only-python</span></code> should be used. This results in packages that simply need a rebuild due to a change in Python version to have their build numbers incremented. Such packages would eventually be built anyway, but this facilitates the update process.</p>
 </div>
 
 

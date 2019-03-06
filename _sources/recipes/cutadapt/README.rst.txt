@@ -23,15 +23,17 @@ cutadapt
 
    |downloads_cutadapt| |docker_cutadapt|
 
-   :versions: 1.18-1, 1.18-0, 1.17-0, 1.16-2, 1.16-1, 1.16-0, 1.15-0, 1.14-0, 1.13-0, 1.12-1, 1.12-0, 1.11-0, 1.10-0, 1.9.1-0, 1.8.3-0, 1.8.1-0
+   :versions: 2.0-0, 1.18-1, 1.18-0, 1.17-0, 1.16-2, 1.16-1, 1.16-0, 1.15-0, 1.14-0, 1.13-0, 1.12-1, 1.12-0, 1.11-0, 1.10-0, 1.9.1-0, 1.8.3-0, 1.8.1-0
+   
+   :depends dnaio: >=0.3
    
    :depends libgcc-ng: >=7.3.0
    
    :depends pigz: 
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
    
-   :depends xopen: >=0.3.2
+   :depends xopen: >=0.5.0
    
    :requirements:
 

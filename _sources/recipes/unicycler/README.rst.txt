@@ -22,7 +22,7 @@ unicycler
 
    |downloads_unicycler| |docker_unicycler|
 
-   :versions: 0.4.7-0, 0.4.6-0, 0.4.4-0, 0.4.1-0, 0.3.0b-1, 0.3.0b-0, 0.2.0-0
+   :versions: 0.4.7-0, 0.4.6-0, 0.4.4-1, 0.4.4-0, 0.4.1-0, 0.3.0b-1, 0.3.0b-0, 0.2.0-0
    
    :depends blast: 
    

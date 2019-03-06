@@ -22,9 +22,11 @@ sc3-scripts
 
    |downloads_sc3-scripts| |docker_sc3-scripts|
 
-   :versions: 0.0.4-0
+   :versions: 0.0.5-0, 0.0.4-0
    
    :depends bioconductor-biobase: 
+   
+   :depends bioconductor-genomeinfodbdata: 1.1.*
    
    :depends bioconductor-sc3: 1.8.0.*
    
