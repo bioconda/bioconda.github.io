@@ -24,7 +24,7 @@ pytest-workflow
 
    |downloads_pytest-workflow| |docker_pytest-workflow|
 
-   :versions: 1.1.0-0
+   :versions: 1.1.1-0, 1.1.0-0
    
    :depends jsonschema: 
    

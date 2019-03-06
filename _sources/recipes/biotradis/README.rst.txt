@@ -22,7 +22,7 @@ biotradis
 
    |downloads_biotradis| |docker_biotradis|
 
-   :versions: 1.4.1-0, 1.4.1.dev-0
+   :versions: 1.4.1-0, 1.4.1.dev-1, 1.4.1.dev-0
    
    :depends bioconductor-edger: 
    

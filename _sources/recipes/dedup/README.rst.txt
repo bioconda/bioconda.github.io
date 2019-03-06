@@ -22,7 +22,7 @@ dedup
 
    |downloads_dedup| |docker_dedup|
 
-   :versions: 0.12.3-1, 0.12.3-0
+   :versions: 0.12.4-1, 0.12.3-1, 0.12.3-0
    
    :depends openjdk: 
    

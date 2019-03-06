@@ -22,13 +22,13 @@ picrust2
 
    |downloads_picrust2| |docker_picrust2|
 
-   :versions: 2.1.0_b-0, 2.0.3_b-0
+   :versions: 2.1.1_b-0, 2.1.0_b-0, 2.0.3_b-0
    
    :depends biom-format: 2.1.7.*
    
-   :depends epa-ng: 0.3.4.*
+   :depends epa-ng: 0.3.5.*
    
-   :depends gappa: 0.1.0.*
+   :depends gappa: 0.2.0.*
    
    :depends glpk: 4.65.*
    
