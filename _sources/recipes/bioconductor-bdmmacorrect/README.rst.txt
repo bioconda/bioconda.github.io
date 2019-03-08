@@ -26,9 +26,7 @@ bioconductor-bdmmacorrect
    
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends r-ape: 
    

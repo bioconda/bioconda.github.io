@@ -22,11 +22,11 @@ bio_hansel
 
    |downloads_bio_hansel| |docker_bio_hansel|
 
-   :versions: 2.1.0-0, 2.0.0-1, 2.0.0-0, 1.3.2-0, 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.3-0, 1.1.1-0, 1.1.0-0, 0.2.0-1, 0.1.0-0
+   :versions: 2.1.1-0, 2.1.0-0, 2.0.0-1, 2.0.0-0, 1.3.2-0, 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.3-0, 1.1.1-0, 1.1.0-0, 0.2.0-1, 0.1.0-0
    
    :depends attrs: 
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libcxx: >=4.0.1
    
    :depends numpy: >=1.12.1
    

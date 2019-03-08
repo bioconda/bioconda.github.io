@@ -29,8 +29,6 @@ andi
    
    :depends libdivsufsort: 
    
-   :depends libgcc-ng: >=4.9
-   
    :depends openblas: >=0.2.20,<0.2.21.0a0
    
    :requirements:

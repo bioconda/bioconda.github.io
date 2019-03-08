@@ -31,8 +31,6 @@ rsem
    
    :depends boost: >=1.67.0,<1.67.1.0a0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
    
    :depends perl-module-build: 

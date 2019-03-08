@@ -33,8 +33,6 @@ bioconductor-flowsom
    
    :depends bioconductor-flowutils: >=1.46.0,<1.47.0
    
-   :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
    
    :depends r-igraph: 

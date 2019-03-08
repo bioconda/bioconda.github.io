@@ -24,7 +24,7 @@ r-gsalib
 
    :versions: 2.1-0
    
-   :depends r: 3.2.2*
+   :depends r-base: 3.3.2*
    
    :requirements:
 

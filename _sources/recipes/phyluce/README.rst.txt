@@ -75,8 +75,6 @@ phyluce
    
    :depends trimal: 
    
-   :depends trinity: 2.1.*
-   
    :depends velvet: 1.2.*
    
    :requirements:

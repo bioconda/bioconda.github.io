@@ -24,8 +24,6 @@ bx-python
 
    :versions: 0.8.2-0, 0.8.1-1, 0.8.1-0, 0.7.4-0, 0.7.3-1, 0.7.3-0, 0.7.2-1, 0.7.2-0, 0.7.1-1, 0.7.1-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends numpy: 
    
    :depends python: >=2.7,<2.8.0a0

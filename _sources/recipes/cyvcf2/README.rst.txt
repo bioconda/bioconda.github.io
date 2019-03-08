@@ -32,8 +32,6 @@ cyvcf2
    
    :depends libcurl: >=7.64.0,<8.0a0
    
-   :depends libgcc-ng: >=7.3.0
-   
    :depends numpy: 
    
    :depends openssl: >=1.1.1b,<1.1.2a

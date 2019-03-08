@@ -24,7 +24,7 @@ r-readmzxmldata
 
    :versions: 2.8.1-0
    
-   :depends r: 3.2.2*
+   :depends r-base: 3.3.2*
    
    :depends r-base64enc: 
    

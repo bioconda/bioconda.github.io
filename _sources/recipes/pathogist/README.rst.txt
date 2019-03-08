@@ -22,9 +22,13 @@ pathogist
 
    |downloads_pathogist| |docker_pathogist|
 
-   :versions: 0.2.3-0
+   :versions: 0.3-0, 0.2.3-0
    
    :depends coincbc: >=2.9.9
+   
+   :depends khmer: 
+   
+   :depends kwip: 
    
    :depends matplotlib: 
    
@@ -40,7 +44,7 @@ pathogist
    
    :depends pulp: >=1.6.8
    
-   :depends python: 3.5.*
+   :depends python: 
    
    :depends pyyaml: >=3.13
    
@@ -49,6 +53,10 @@ pathogist
    :depends scipy: >=1.1.0
    
    :depends snippy: 3.2
+   
+   :depends spotyping3: 
+   
+   :depends vcflib: 
    
    :requirements:
 

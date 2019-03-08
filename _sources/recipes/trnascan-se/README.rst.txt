@@ -26,8 +26,6 @@ trnascan-se
    
    :depends infernal: 1.1.2
    
-   :depends libgcc-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.27.0a0
    
    :requirements:

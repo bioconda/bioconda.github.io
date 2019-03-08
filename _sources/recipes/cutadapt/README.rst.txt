@@ -27,8 +27,6 @@ cutadapt
    
    :depends dnaio: >=0.3
    
-   :depends libgcc-ng: >=7.3.0
-   
    :depends pigz: 
    
    :depends python: >=3.6,<3.7.0a0

@@ -24,7 +24,7 @@ r-genabel.data
 
    :versions: 1.0.0-0
    
-   :depends r: 3.3.1*
+   :depends r-base: 3.3.2*
    
    :requirements:
 

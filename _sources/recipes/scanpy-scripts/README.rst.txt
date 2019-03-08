@@ -22,15 +22,17 @@ scanpy-scripts
 
    |downloads_scanpy-scripts| |docker_scanpy-scripts|
 
-   :versions: 0.0.5-0, 0.0.4-2, 0.0.4-1, 0.0.3-1, 0.0.2-0
+   :versions: 0.0.5-1, 0.0.5-0, 0.0.4-2, 0.0.4-1, 0.0.3-1, 0.0.2-0
    
    :depends bzip2: >=1.0.6,<2.0a0
    
    :depends libffi: >=3.2.1,<3.3.0a0
    
+   :depends loompy: 
+   
    :depends matplotlib: >=3.0.0
    
-   :depends openssl: >=1.0.2p,<1.0.3a
+   :depends openssl: >=1.1.1b,<1.1.2a
    
    :depends pandas: >=0.21,<0.24
    

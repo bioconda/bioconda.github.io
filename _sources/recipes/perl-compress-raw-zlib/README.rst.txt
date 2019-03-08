@@ -24,8 +24,6 @@ perl-compress-raw-zlib
 
    :versions: 2.084-0, 2.083-0, 2.081-0, 2.069-7, 2.069-6, 2.069-3, 2.069-2, 2.069-1, 2.069-0
    
-   :depends libstdcxx-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
    
    :requirements:
