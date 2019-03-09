@@ -24,7 +24,9 @@ r-robustrankaggreg
 
    :versions: 1.1-0
    
-   :depends r-base: 3.3.2*
+   :depends libgcc: 
+   
+   :depends r: 3.2.2*
    
    :requirements:
 

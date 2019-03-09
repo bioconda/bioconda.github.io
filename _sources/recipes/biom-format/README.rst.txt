@@ -26,17 +26,19 @@ biom-format
    
    :depends click: 
    
-   :depends future: >=0.16.0
+   :depends future: >=0.15.0
    
-   :depends numpy: >=1.9.3,<2.0a0
+   :depends h5py: 
    
-   :depends pandas: >=0.19.2
+   :depends numpy: >=1.3.0
+   
+   :depends pandas: >=0.20.0
+   
+   :depends pyqi: 0.3.2
    
    :depends python: >=2.7,<2.8.0a0
    
    :depends scipy: >=0.13.0
-   
-   :depends six: >=1.10.0
    
    :requirements:
 

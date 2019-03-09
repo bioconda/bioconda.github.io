@@ -25,6 +25,8 @@ fasttree
 
    :versions: 2.1.10-2, 2.1.10-0, 2.1.9-2, 2.1.9-1, 2.1.9-0, 2.1.8-4, 2.1.8-2, 2.1.8-1, 2.1.3-2, 2.1.3-0
    
+   :depends libgcc-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

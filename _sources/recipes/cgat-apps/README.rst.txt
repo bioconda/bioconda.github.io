@@ -40,7 +40,11 @@ cgat-apps
    
    :depends grep: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends libpng: >=1.6.34,<1.7.0a0
+   
+   :depends libstdcxx-ng: >=4.9
    
    :depends matplotlib: 
    

@@ -28,7 +28,7 @@ treekin
    
    :depends lapack: 
    
-   :depends libcxx: 
+   :depends libgcc-ng: >=4.9
    
    :requirements:
 

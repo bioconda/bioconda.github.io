@@ -24,6 +24,8 @@ gadem
 
    :versions: 1.3.1-1, 1.3.1-0
    
+   :depends libgcc-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

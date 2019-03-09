@@ -25,6 +25,8 @@ muscle
 
    :versions: 3.8.1551-3, 3.8.1551-2, 3.8.1551-1, 3.8.31-0
    
+   :depends libstdcxx-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

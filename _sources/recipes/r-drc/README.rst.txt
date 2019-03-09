@@ -24,7 +24,7 @@ r-drc
 
    :versions: 3.0_1-0
    
-   :depends r-base: 3.3.2*
+   :depends r-base: 3.3.1*
    
    :depends r-car: 
    

@@ -27,7 +27,9 @@ kaiju
    
    :depends gnu-wget: >=1.16
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends perl: 
    

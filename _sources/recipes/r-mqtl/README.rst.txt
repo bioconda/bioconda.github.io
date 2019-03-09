@@ -24,9 +24,7 @@ r-mqtl
 
    :versions: 1.0-0
    
-   :depends libgcc: 
-   
-   :depends r-base: 3.3.2*
+   :depends r-base: 3.4.1*
    
    :depends r-mass: 
    

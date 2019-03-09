@@ -24,9 +24,7 @@ r-xnomial
 
    :versions: 1.0.4-0
    
-   :depends libgcc: 
-   
-   :depends r-base: 3.3.2*
+   :depends r: >=2.14
    
    :requirements:
 

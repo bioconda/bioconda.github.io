@@ -24,9 +24,7 @@ r-gsmoothr
 
    :versions: 0.1.7-0
    
-   :depends libgcc: 
-   
-   :depends r-base: 3.3.2*
+   :depends r: 3.3.1*
    
    :requirements:
 

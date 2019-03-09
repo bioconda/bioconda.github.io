@@ -26,6 +26,8 @@ bpp-seq
    
    :depends bpp-core: 
    
+   :depends libgcc-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

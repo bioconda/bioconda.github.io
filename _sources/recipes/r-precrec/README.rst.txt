@@ -24,11 +24,9 @@ r-precrec
 
    :versions: 0.9.1-0
    
-   :depends libgcc: 
-   
    :depends r-assertthat: >=0.1
    
-   :depends r-base: 3.3.2*
+   :depends r-base: 3.4.1*
    
    :depends r-data.table: >=1.10.4
    
