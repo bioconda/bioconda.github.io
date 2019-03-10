@@ -22,7 +22,7 @@ eagle
 
    |downloads_eagle| |docker_eagle|
 
-   :versions: 0.9.3.3-2, 0.9.3.3-0, 0.9.0-0
+   :versions: 0.9.3.3-3, 0.9.3.3-2, 0.9.3.3-0, 0.9.0-0
    
    :depends flask: 
    
@@ -32,7 +32,7 @@ eagle
    
    :depends pyliftover: 
    
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3.6,<3.7.0a0
    
    :depends pyvcf: 
    

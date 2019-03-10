@@ -22,7 +22,7 @@ meta-sparse
 
    |downloads_meta-sparse| |docker_meta-sparse|
 
-   :versions: 0.1.12-0, 0.1.11-0, 0.1.2-2, 0.1.2-1, 0.1.2-0
+   :versions: 0.1.12-1, 0.1.12-0, 0.1.11-0, 0.1.2-2, 0.1.2-1, 0.1.2-0
    
    :depends bowtie2: 
    

@@ -23,9 +23,11 @@ bsmap
 
    |downloads_bsmap| |docker_bsmap|
 
-   :versions: 2.90-1, 2.90-0
+   :versions: 2.90-2, 2.90-1, 2.90-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends python: 
    

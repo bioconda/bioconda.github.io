@@ -22,13 +22,13 @@ nanomath
 
    |downloads_nanomath| |docker_nanomath|
 
-   :versions: 0.22.0-0, 0.21.0-2, 0.21.0-0, 0.20.0-0, 0.18.1-0, 0.16.2-0, 0.14.2-0, 0.12.5-0
+   :versions: 0.22.0-1, 0.22.0-0, 0.21.0-2, 0.21.0-0, 0.20.0-0, 0.18.1-0, 0.16.2-0, 0.14.2-0, 0.12.5-0
    
    :depends numpy: >1.8
    
    :depends pandas: 
    
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3.6,<3.7.0a0
    
    :requirements:
 

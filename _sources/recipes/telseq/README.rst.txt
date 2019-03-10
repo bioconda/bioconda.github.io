@@ -22,11 +22,9 @@ telseq
 
    |downloads_telseq| |docker_telseq|
 
-   :versions: 0.0.2-0, 0.0.1-1, 0.0.1-0
+   :versions: 0.0.2-1, 0.0.2-0, 0.0.1-1, 0.0.1-0
    
    :depends bamtools: >=2.4.1,<2.4.2.0a0
-   
-   :depends libgcc-ng: >=4.9
    
    :requirements:
 

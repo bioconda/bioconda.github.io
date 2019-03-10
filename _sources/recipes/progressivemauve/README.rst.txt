@@ -22,7 +22,7 @@ progressivemauve
 
    |downloads_progressivemauve| |docker_progressivemauve|
 
-   :versions: snapshot_2015_02_13-1, snapshot_2015_02_13-0
+   :versions: snapshot_2015_02_13-2, snapshot_2015_02_13-1, snapshot_2015_02_13-0
    
    :requirements:
 

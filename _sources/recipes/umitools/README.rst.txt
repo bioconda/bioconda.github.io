@@ -23,7 +23,7 @@ umitools
 
    |downloads_umitools| |docker_umitools|
 
-   :versions: 0.3.4-0, 0.3.0-1, 0.3.0-0
+   :versions: 0.3.4-1, 0.3.4-0, 0.3.0-1, 0.3.0-0
    
    :depends editdistance: 
    
@@ -31,7 +31,7 @@ umitools
    
    :depends pysam: 
    
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3.6,<3.7.0a0
    
    :requirements:
 

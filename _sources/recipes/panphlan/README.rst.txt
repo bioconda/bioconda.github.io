@@ -27,7 +27,7 @@ panphlan
 
    |downloads_panphlan| |docker_panphlan|
 
-   :versions: 1.2-3
+   :versions: 1.2-4, 1.2-3
    
    :depends biopython: 
    

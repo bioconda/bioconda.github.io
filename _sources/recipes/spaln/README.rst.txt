@@ -15,6 +15,7 @@ spaln
    :developer docs: https://github.com/ogotoh/spaln
    :license: GPL / GPL-2.0
    :recipe: /`spaln <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spaln>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spaln/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gks708`
 
    Spaln \(space\-efficient spliced alignment\) is a stand\-alone program that maps
    and aligns a set of cDNA or protein sequences onto a whole genomic sequence

@@ -22,9 +22,7 @@ r-sads
 
    |downloads_r-sads| |docker_r-sads|
 
-   :versions: 0.4.2-0
-   
-   :depends libgcc-ng: >=4.9
+   :versions: 0.4.2-1, 0.4.2-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

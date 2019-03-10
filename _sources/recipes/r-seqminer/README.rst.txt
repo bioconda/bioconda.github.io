@@ -22,7 +22,7 @@ r-seqminer
 
    |downloads_r-seqminer| |docker_r-seqminer|
 
-   :versions: 6.1-1, 6.1-0, 6.0-0
+   :versions: 6.1-2, 6.1-1, 6.1-0, 6.0-0
    
    :depends libgcc-ng: >=7.3.0
    

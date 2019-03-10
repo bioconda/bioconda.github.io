@@ -22,9 +22,9 @@ pyx
 
    |downloads_pyx| |docker_pyx|
 
-   :versions: 0.14.1-0, 0.12.1-1, 0.12.1-0
+   :versions: 0.14.1-1, 0.14.1-0, 0.12.1-1, 0.12.1-0
    
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3.6,<3.7.0a0
    
    :requirements:
 

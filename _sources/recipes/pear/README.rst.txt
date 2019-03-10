@@ -23,11 +23,11 @@ pear
 
    |downloads_pear| |docker_pear|
 
-   :versions: 0.9.6-4, 0.9.6-3, 0.9.6-2, 0.9.6-1, 0.9.6-0
+   :versions: 0.9.6-5, 0.9.6-4, 0.9.6-3, 0.9.6-2, 0.9.6-1, 0.9.6-0
    
    :depends bzip2: >=1.0.6,<2.0a0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
    :depends zlib: >=1.2.11,<1.3.0a0
    

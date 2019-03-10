@@ -22,11 +22,9 @@ metasnv
 
    |downloads_metasnv| |docker_metasnv|
 
-   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-0
+   :versions: 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-0
    
    :depends htslib: >=1.9,<1.10.0a0
-   
-   :depends libgcc-ng: >=4.9
    
    :depends numpy: 
    

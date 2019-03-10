@@ -22,7 +22,7 @@ perl-carp-clan
 
    |downloads_perl-carp-clan| |docker_perl-carp-clan|
 
-   :versions: 6.07-0, 6.06-0
+   :versions: 6.07-1, 6.07-0, 6.06-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

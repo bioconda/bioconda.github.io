@@ -22,7 +22,7 @@ nanosim-h
 
    |downloads_nanosim-h| |docker_nanosim-h|
 
-   :versions: 1.1.0.4-0, 1.1.0.3-3, 1.1.0.3-0, 1.1.0.2-1
+   :versions: 1.1.0.4-1, 1.1.0.4-0, 1.1.0.3-3, 1.1.0.3-0, 1.1.0.2-1
    
    :depends last: 
    
@@ -32,7 +32,7 @@ nanosim-h
    
    :depends python: 
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: >=3.5.1,<3.5.2.0a0
    
    :requirements:
 

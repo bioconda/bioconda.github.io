@@ -22,7 +22,7 @@ pbcoretools
 
    |downloads_pbcoretools| |docker_pbcoretools|
 
-   :versions: 0.2.4-3, 0.2.4-2, 0.2.4-1, 0.2.4-0
+   :versions: 0.2.4-4, 0.2.4-3, 0.2.4-2, 0.2.4-1, 0.2.4-0
    
    :depends numpy: >=1.15
    

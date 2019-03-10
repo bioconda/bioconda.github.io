@@ -22,9 +22,9 @@ rainbow
 
    |downloads_rainbow| |docker_rainbow|
 
-   :versions: 2.0.4-2, 2.0.4-0
+   :versions: 2.0.4-3, 2.0.4-2, 2.0.4-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
    :depends perl: 
    

@@ -23,7 +23,7 @@ pipmir
 
    |downloads_pipmir| |docker_pipmir|
 
-   :versions: 1.1-2, 1.1-1
+   :versions: 1.1-3, 1.1-2, 1.1-1
    
    :depends java-jdk: 
    

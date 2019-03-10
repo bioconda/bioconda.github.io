@@ -22,7 +22,7 @@ scikits-datasmooth
 
    |downloads_scikits-datasmooth| |docker_scikits-datasmooth|
 
-   :versions: 0.7.1-0, 0.7.0-1, 0.7.0-0
+   :versions: 0.7.1-1, 0.7.1-0, 0.7.0-1, 0.7.0-0
    
    :depends cvxopt: 
    

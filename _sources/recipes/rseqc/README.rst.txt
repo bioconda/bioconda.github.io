@@ -23,21 +23,19 @@ rseqc
 
    |downloads_rseqc| |docker_rseqc|
 
-   :versions: 3.0.0-0, 2.6.4-2, 2.6.4-1, 2.6.4-0, 2.6.2-0
+   :versions: 3.0.0-1, 3.0.0-0, 2.6.4-2, 2.6.4-1, 2.6.4-0, 2.6.2-0
    
    :depends bx-python: 
    
    :depends cython: >=0.17
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends libstdcxx-ng: >=4.9
+   :depends libcxx: >=4.0.1
    
    :depends numpy: 
    
    :depends pysam: 
    
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3.6,<3.7.0a0
    
    :depends r-base: 
    

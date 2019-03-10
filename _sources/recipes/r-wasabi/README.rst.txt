@@ -22,7 +22,7 @@ r-wasabi
 
    |downloads_r-wasabi| |docker_r-wasabi|
 
-   :versions: 1.0.0-0, 0.3-0, 0.2-0, 0.1-0, 0.0.1-0
+   :versions: 1.0.0-1, 1.0.0-0, 0.3-0, 0.2-0, 0.1-0, 0.0.1-0
    
    :depends bioconductor-rhdf5: 
    

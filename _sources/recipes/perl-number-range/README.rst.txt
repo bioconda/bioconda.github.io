@@ -22,7 +22,7 @@ perl-number-range
 
    |downloads_perl-number-range| |docker_perl-number-range|
 
-   :versions: 0.12-0
+   :versions: 0.12-1, 0.12-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

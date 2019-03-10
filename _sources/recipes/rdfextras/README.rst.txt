@@ -22,7 +22,7 @@ rdfextras
 
    |downloads_rdfextras| |docker_rdfextras|
 
-   :versions: 0.4-2, 0.4-0
+   :versions: 0.4-3, 0.4-2, 0.4-0
    
    :depends isodate: 
    

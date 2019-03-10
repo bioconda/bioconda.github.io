@@ -22,7 +22,7 @@ breakseq2
 
    |downloads_breakseq2| |docker_breakseq2|
 
-   :versions: 2.2-1, 2.2-0
+   :versions: 2.2-2, 2.2-1, 2.2-0
    
    :depends biopython: 1.65
    

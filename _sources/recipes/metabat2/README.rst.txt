@@ -22,7 +22,7 @@ metabat2
 
    |downloads_metabat2| |docker_metabat2|
 
-   :versions: 2.12.1-0
+   :versions: 2.12.1-1, 2.12.1-0
    
    :depends perl: >=5
    

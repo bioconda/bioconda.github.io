@@ -22,15 +22,13 @@ bioconductor-mait
 
    |downloads_bioconductor-mait| |docker_bioconductor-mait|
 
-   :versions: 1.16.1-0, 1.16.0-0
+   :versions: 1.16.1-1, 1.16.1-0, 1.16.0-0
    
    :depends bioconductor-camera: >=1.38.0,<1.39.0
    
    :depends bioconductor-xcms: >=3.4.0,<3.5.0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends r-agricolae: 
    

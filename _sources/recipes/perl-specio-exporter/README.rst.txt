@@ -22,7 +22,7 @@ perl-specio-exporter
 
    |downloads_perl-specio-exporter| |docker_perl-specio-exporter|
 
-   :versions: 0.36-2, 0.36-1, 0.36-0
+   :versions: 0.36-3, 0.36-2, 0.36-1, 0.36-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

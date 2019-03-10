@@ -22,7 +22,7 @@ nanoraw
 
    |downloads_nanoraw| |docker_nanoraw|
 
-   :versions: 0.5-1, 0.5-0, 0.4.2-0, 0.4.1-0, 0.3.1-0, 0.2-0
+   :versions: 0.5-2, 0.5-1, 0.5-0, 0.4.2-0, 0.4.1-0, 0.3.1-0, 0.2-0
    
    :depends bwa: 
    
@@ -30,13 +30,13 @@ nanoraw
    
    :depends h5py: 
    
-   :depends hdf5: >=1.10.2,<1.10.3.0a0
+   :depends hdf5: >=1.10.4,<1.10.5.0a0
    
    :depends numpy: 
    
    :depends python: >=2.7,<2.8.0a0
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: >=3.5.1,<3.5.2.0a0
    
    :depends r-cowplot: 
    

@@ -22,7 +22,7 @@ pytabix
 
    |downloads_pytabix| |docker_pytabix|
 
-   :versions: 0.0.2-4, 0.0.2-3, 0.0.2-2, 0.0.2-1
+   :versions: 0.0.2-5, 0.0.2-4, 0.0.2-3, 0.0.2-2, 0.0.2-1
    
    :depends python: >=2.7,<2.8.0a0
    

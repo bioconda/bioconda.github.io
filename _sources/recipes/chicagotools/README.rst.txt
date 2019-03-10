@@ -22,7 +22,7 @@ chicagotools
 
    |downloads_chicagotools| |docker_chicagotools|
 
-   :versions: 1.2.0-1, 1.2.0-0
+   :versions: 1.2.0-2, 1.2.0-1, 1.2.0-0
    
    :depends bioconductor-chicago: 
    

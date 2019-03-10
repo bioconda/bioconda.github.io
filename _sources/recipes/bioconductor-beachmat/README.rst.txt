@@ -22,7 +22,7 @@ bioconductor-beachmat
 
    |downloads_bioconductor-beachmat| |docker_bioconductor-beachmat|
 
-   :versions: 1.4.0-0, 1.2.1-0, 1.0.1-0
+   :versions: 1.4.0-1, 1.4.0-0, 1.2.1-0, 1.0.1-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    
@@ -34,9 +34,7 @@ bioconductor-beachmat
    
    :depends bioconductor-rhdf5lib: >=1.4.0,<1.5.0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

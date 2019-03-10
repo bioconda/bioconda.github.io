@@ -25,9 +25,7 @@ flowcraft
 
    |downloads_flowcraft| |docker_flowcraft|
 
-   :versions: 1.4.0-0, 1.3.1-1, 1.3.0-1, 1.2.2-1, 1.2.1-1, 1.2.0.post1-1, 1.2.0.post1-0, 1.2.0-0
-   
-   :depends argparse: 
+   :versions: 1.4.0-1, 1.4.0-0, 1.3.1-1, 1.3.0-1, 1.2.2-1, 1.2.1-1, 1.2.0.post1-1, 1.2.0.post1-0, 1.2.0-0
    
    :depends jinja2: 
    
@@ -35,7 +33,7 @@ flowcraft
    
    :depends pympler: 
    
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3.6,<3.7.0a0
    
    :depends python-dateutil: 
    

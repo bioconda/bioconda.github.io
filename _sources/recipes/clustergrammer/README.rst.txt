@@ -22,7 +22,7 @@ clustergrammer
 
    |downloads_clustergrammer| |docker_clustergrammer|
 
-   :versions: 1.13.5-1, 1.13.5-0
+   :versions: 1.13.5-2, 1.13.5-1, 1.13.5-0
    
    :depends numpy: 
    

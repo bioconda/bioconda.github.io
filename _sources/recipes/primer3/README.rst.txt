@@ -23,11 +23,11 @@ primer3
 
    |downloads_primer3| |docker_primer3|
 
-   :versions: 2.4.1a-0, 2.4.0-0, 2.3.7-1, 2.3.7-0, 2.0.0a-1, 2.0.0a-0, 1.1.4-1, 1.1.4-0
+   :versions: 2.4.1a-1, 2.4.1a-0, 2.4.0-0, 2.3.7-1, 2.3.7-0, 2.0.0a-2, 2.0.0a-1, 2.0.0a-0, 1.1.4-1, 1.1.4-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

@@ -23,9 +23,11 @@ muscle
 
    |downloads_muscle| |docker_muscle|
 
-   :versions: 3.8.1551-3, 3.8.1551-2, 3.8.1551-1, 3.8.31-0
+   :versions: 3.8.1551-4, 3.8.1551-3, 3.8.1551-2, 3.8.1551-1, 3.8.31-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :requirements:
 

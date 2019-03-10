@@ -23,7 +23,7 @@ r-sequenza
 
    |downloads_r-sequenza| |docker_r-sequenza|
 
-   :versions: 2.1.2-1, 2.1.2-0
+   :versions: 2.1.2-2, 2.1.2-1, 2.1.2-0
    
    :depends bioconductor-copynumber: 
    

@@ -22,7 +22,7 @@ perl-test-warn
 
    |downloads_perl-test-warn| |docker_perl-test-warn|
 
-   :versions: 0.36-0, 0.30-3, 0.30-2, 0.30-1, 0.30-0
+   :versions: 0.36-1, 0.36-0, 0.30-3, 0.30-2, 0.30-1, 0.30-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

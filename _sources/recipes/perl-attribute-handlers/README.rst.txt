@@ -22,9 +22,9 @@ perl-attribute-handlers
 
    |downloads_perl-attribute-handlers| |docker_perl-attribute-handlers|
 
-   :versions: 0.96-1, 0.96-0
+   :versions: 0.96-2, 0.96-1, 0.96-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    
    :requirements:
 

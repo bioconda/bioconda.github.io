@@ -22,7 +22,7 @@ ucsc-bedsort
 
    |downloads_ucsc-bedsort| |docker_ucsc-bedsort|
 
-   :versions: 377-0, 366-0, 357-2, 357-1, 357-0, 332-0, 324-0
+   :versions: 377-1, 377-0, 366-0, 357-2, 357-1, 357-0, 332-0, 324-0
    
    :depends libgcc-ng: >=7.3.0
    
@@ -30,9 +30,9 @@ ucsc-bedsort
    
    :depends libuuid: >=2.32.1,<3.0a0
    
-   :depends mysql-connector-c: 
+   :depends mysql-connector-c: >=6.1.11,<6.1.12.0a0
    
-   :depends openssl: >=1.0.2p,<1.0.3a
+   :depends openssl: >=1.1.1a,<1.1.2a
    
    :depends zlib: >=1.2.11,<1.3.0a0
    

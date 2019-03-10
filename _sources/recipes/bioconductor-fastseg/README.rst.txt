@@ -23,7 +23,7 @@ bioconductor-fastseg
 
    |downloads_bioconductor-fastseg| |docker_bioconductor-fastseg|
 
-   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0
+   :versions: 1.28.0-1, 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    
@@ -35,9 +35,7 @@ bioconductor-fastseg
    
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

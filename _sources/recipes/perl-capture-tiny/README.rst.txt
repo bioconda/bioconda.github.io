@@ -22,7 +22,7 @@ perl-capture-tiny
 
    |downloads_perl-capture-tiny| |docker_perl-capture-tiny|
 
-   :versions: 0.48-0, 0.36-2, 0.36-1, 0.36-0, 0.34-2, 0.34-1, 0.34-0
+   :versions: 0.48-0, 0.36-2, 0.36-1, 0.36-0, 0.34-3, 0.34-2, 0.34-1, 0.34-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

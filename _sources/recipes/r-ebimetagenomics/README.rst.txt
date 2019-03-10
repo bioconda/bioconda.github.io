@@ -22,7 +22,7 @@ r-ebimetagenomics
 
    |downloads_r-ebimetagenomics| |docker_r-ebimetagenomics|
 
-   :versions: 0.6-0
+   :versions: 0.6-1, 0.6-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

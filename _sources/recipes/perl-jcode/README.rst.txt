@@ -22,9 +22,9 @@ perl-jcode
 
    |downloads_perl-jcode| |docker_perl-jcode|
 
-   :versions: 2.07-1, 2.07-0
+   :versions: 2.07-2, 2.07-1, 2.07-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    
    :requirements:
 

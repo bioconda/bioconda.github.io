@@ -22,7 +22,7 @@ kopt
 
    |downloads_kopt| |docker_kopt|
 
-   :versions: 0.1.0-0
+   :versions: 0.1.0-1, 0.1.0-0
    
    :depends future: 
    
