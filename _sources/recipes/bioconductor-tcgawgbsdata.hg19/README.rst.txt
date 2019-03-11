@@ -22,7 +22,7 @@ bioconductor-tcgawgbsdata.hg19
 
    |downloads_bioconductor-tcgawgbsdata.hg19| |docker_bioconductor-tcgawgbsdata.hg19|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.0-1, 1.0.0-0
    
    :depends bioconductor-bsseq: >=1.18.0,<1.19.0
    

@@ -22,7 +22,7 @@ bioconductor-chromswitch
 
    |downloads_bioconductor-chromswitch| |docker_bioconductor-chromswitch|
 
-   :versions: 1.4.0-0
+   :versions: 1.4.1-0, 1.4.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    

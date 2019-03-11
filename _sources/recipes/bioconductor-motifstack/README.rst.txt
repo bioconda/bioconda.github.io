@@ -23,7 +23,7 @@ bioconductor-motifstack
 
    |downloads_bioconductor-motifstack| |docker_bioconductor-motifstack|
 
-   :versions: 1.26.0-0, 1.24.1-0, 1.22.0-0, 1.20.1-0, 1.18.0-0
+   :versions: 1.26.0-1, 1.26.0-0, 1.24.1-0, 1.22.0-0, 1.20.1-0, 1.18.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
    

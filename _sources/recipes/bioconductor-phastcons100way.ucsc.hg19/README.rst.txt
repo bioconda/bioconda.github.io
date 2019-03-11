@@ -22,7 +22,7 @@ bioconductor-phastcons100way.ucsc.hg19
 
    |downloads_bioconductor-phastcons100way.ucsc.hg19| |docker_bioconductor-phastcons100way.ucsc.hg19|
 
-   :versions: 3.7.2-1, 3.7.2-0, 3.6.0-0
+   :versions: 3.7.2-2, 3.7.2-1, 3.7.2-0, 3.6.0-0
    
    :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
    

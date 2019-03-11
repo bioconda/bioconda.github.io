@@ -22,7 +22,7 @@ bioconductor-bsgenome.sscrofa.ucsc.susscr3.masked
 
    |downloads_bioconductor-bsgenome.sscrofa.ucsc.susscr3.masked| |docker_bioconductor-bsgenome.sscrofa.ucsc.susscr3.masked|
 
-   :versions: 1.3.99-0
+   :versions: 1.3.99-1, 1.3.99-0
    
    :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
    

@@ -22,7 +22,7 @@ bioconductor-icnv
 
    |downloads_bioconductor-icnv| |docker_bioconductor-icnv|
 
-   :versions: 1.2.0-0
+   :versions: 1.2.1-0, 1.2.0-0
    
    :depends bioconductor-codex: >=1.14.0,<1.15.0
    

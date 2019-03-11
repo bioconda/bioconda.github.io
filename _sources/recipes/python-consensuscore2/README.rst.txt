@@ -22,9 +22,9 @@ python-consensuscore2
 
    |downloads_python-consensuscore2| |docker_python-consensuscore2|
 
-   :versions: 3.1.0-2, 3.1.0-1, 3.1.0-0
+   :versions: 3.4.1-0, 3.1.0-2, 3.1.0-1, 3.1.0-0
    
-   :depends numpy: >=1.15
+   :depends numpy: >=1.16.2
    
    :depends python: >=2.7,<2.8.0a0
    

@@ -22,7 +22,7 @@ bioconductor-basicstarrseq
 
    |downloads_bioconductor-basicstarrseq| |docker_bioconductor-basicstarrseq|
 
-   :versions: 1.10.0-0
+   :versions: 1.10.0-1, 1.10.0-0
    
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
    

@@ -23,7 +23,7 @@ bioconductor-rtracklayer
 
    |downloads_bioconductor-rtracklayer| |docker_bioconductor-rtracklayer|
 
-   :versions: 1.42.1-0, 1.40.6-0, 1.38.3-0, 1.38.0-0, 1.36.6-0, 1.34.2-1, 1.34.1-0, 1.32.2-1, 1.30.1-0, 1.30.0-1
+   :versions: 1.42.1-1, 1.42.1-0, 1.40.6-0, 1.38.3-0, 1.38.0-0, 1.36.6-0, 1.34.2-1, 1.34.1-0, 1.32.2-1, 1.30.1-0, 1.30.0-1
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    
@@ -46,6 +46,8 @@ bioconductor-rtracklayer
    :depends bioconductor-zlibbioc: >=1.28.0,<1.29.0
    
    :depends libgcc-ng: >=7.3.0
+   
+   :depends openssl: >=1.1.1a,<1.1.2a
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

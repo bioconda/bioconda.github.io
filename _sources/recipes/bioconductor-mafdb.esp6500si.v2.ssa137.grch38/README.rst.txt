@@ -22,7 +22,7 @@ bioconductor-mafdb.esp6500si.v2.ssa137.grch38
 
    |downloads_bioconductor-mafdb.esp6500si.v2.ssa137.grch38| |docker_bioconductor-mafdb.esp6500si.v2.ssa137.grch38|
 
-   :versions: 3.7.0-0
+   :versions: 3.7.0-1, 3.7.0-0
    
    :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
    
