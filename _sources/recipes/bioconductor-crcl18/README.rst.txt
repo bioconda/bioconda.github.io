@@ -22,7 +22,7 @@ bioconductor-crcl18
 
    |downloads_bioconductor-crcl18| |docker_bioconductor-crcl18|
 
-   :versions: 1.2.0-0
+   :versions: 1.2.0-1, 1.2.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    

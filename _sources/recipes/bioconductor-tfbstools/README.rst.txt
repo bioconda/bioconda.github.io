@@ -23,7 +23,7 @@ bioconductor-tfbstools
 
    |downloads_bioconductor-tfbstools| |docker_bioconductor-tfbstools|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.15.7-0, 1.14.2-0, 1.12.2-0
+   :versions: 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.15.7-0, 1.14.2-0, 1.12.2-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    
@@ -52,8 +52,6 @@ bioconductor-tfbstools
    :depends bioconductor-seqlogo: >=1.48.0,<1.49.0
    
    :depends bioconductor-xvector: >=0.22.0,<0.23.0
-   
-   :depends libgcc-ng: >=7.3.0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

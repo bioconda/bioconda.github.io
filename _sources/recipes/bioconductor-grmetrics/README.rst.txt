@@ -23,7 +23,7 @@ bioconductor-grmetrics
 
    |downloads_bioconductor-grmetrics| |docker_bioconductor-grmetrics|
 
-   :versions: 1.8.0-0, 1.6.1-0, 1.4.1-0
+   :versions: 1.8.1-0, 1.8.0-0, 1.6.1-0, 1.4.1-0
    
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
    

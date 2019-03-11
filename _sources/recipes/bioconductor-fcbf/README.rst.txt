@@ -22,7 +22,7 @@ bioconductor-fcbf
 
    |downloads_bioconductor-fcbf| |docker_bioconductor-fcbf|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.1-0, 1.0.0-0
    
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
    

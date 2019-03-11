@@ -23,7 +23,7 @@ bioconductor-panr
 
    |downloads_bioconductor-panr| |docker_bioconductor-panr|
 
-   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-0
+   :versions: 1.28.1-0, 1.28.0-0, 1.26.0-0, 1.24.0-0
    
    :depends bioconductor-reder: >=1.30.0,<1.31.0
    

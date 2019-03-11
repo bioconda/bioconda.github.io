@@ -22,7 +22,7 @@ bioconductor-org.xl.eg.db
 
    |downloads_bioconductor-org.xl.eg.db| |docker_bioconductor-org.xl.eg.db|
 
-   :versions: 3.7.0-0
+   :versions: 3.7.0-1, 3.7.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

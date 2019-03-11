@@ -22,7 +22,7 @@ bioconductor-chic
 
    |downloads_bioconductor-chic| |docker_bioconductor-chic|
 
-   :versions: 1.2.0-0
+   :versions: 1.2.0-1, 1.2.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    

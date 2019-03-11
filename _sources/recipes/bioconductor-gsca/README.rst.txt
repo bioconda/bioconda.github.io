@@ -23,7 +23,7 @@ bioconductor-gsca
 
    |downloads_bioconductor-gsca| |docker_bioconductor-gsca|
 
-   :versions: 2.12.0-0, 2.10.0-0, 2.8.0-0
+   :versions: 2.12.0-1, 2.12.0-0, 2.10.0-0, 2.8.0-0
    
    :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
    

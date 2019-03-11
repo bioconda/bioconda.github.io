@@ -22,7 +22,7 @@ bioconductor-htrat230pmcdf
 
    |downloads_bioconductor-htrat230pmcdf| |docker_bioconductor-htrat230pmcdf|
 
-   :versions: 2.18.0-0
+   :versions: 2.18.0-1, 2.18.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

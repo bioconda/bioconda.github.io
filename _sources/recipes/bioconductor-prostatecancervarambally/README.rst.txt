@@ -22,7 +22,7 @@ bioconductor-prostatecancervarambally
 
    |downloads_bioconductor-prostatecancervarambally| |docker_bioconductor-prostatecancervarambally|
 
-   :versions: 1.10.0-0
+   :versions: 1.10.0-1, 1.10.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    

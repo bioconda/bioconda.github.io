@@ -22,7 +22,7 @@ bioconductor-beta7
 
    |downloads_bioconductor-beta7| |docker_bioconductor-beta7|
 
-   :versions: 1.20.0-0
+   :versions: 1.20.0-1, 1.20.0-0
    
    :depends bioconductor-marray: >=1.60.0,<1.61.0
    

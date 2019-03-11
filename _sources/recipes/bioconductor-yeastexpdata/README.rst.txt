@@ -22,7 +22,7 @@ bioconductor-yeastexpdata
 
    |downloads_bioconductor-yeastexpdata| |docker_bioconductor-yeastexpdata|
 
-   :versions: 0.28.0-0, 0.26.0-0, 0.24.0-1, 0.24.0-0, 0.22.0-0
+   :versions: 0.28.0-1, 0.28.0-0, 0.26.0-0, 0.24.0-1, 0.24.0-0, 0.22.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
    

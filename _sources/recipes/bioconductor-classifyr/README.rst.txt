@@ -23,7 +23,7 @@ bioconductor-classifyr
 
    |downloads_bioconductor-classifyr| |docker_bioconductor-classifyr|
 
-   :versions: 2.2.4-0, 2.0.10-0, 1.12.2-0
+   :versions: 2.2.6-0, 2.2.4-0, 2.0.10-0, 1.12.2-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
    

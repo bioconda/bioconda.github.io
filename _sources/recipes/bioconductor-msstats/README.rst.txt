@@ -22,7 +22,7 @@ bioconductor-msstats
 
    |downloads_bioconductor-msstats| |docker_bioconductor-msstats|
 
-   :versions: 3.14.0-0
+   :versions: 3.14.1-0, 3.14.0-0
    
    :depends bioconductor-limma: >=3.38.0,<3.39.0
    

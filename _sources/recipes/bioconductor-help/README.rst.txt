@@ -23,7 +23,7 @@ bioconductor-help
 
    |downloads_bioconductor-help| |docker_bioconductor-help|
 
-   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-0
+   :versions: 1.40.0-1, 1.40.0-0, 1.38.0-0, 1.36.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    

@@ -23,7 +23,7 @@ bioconductor-rgsea
 
    |downloads_bioconductor-rgsea| |docker_bioconductor-rgsea|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.16.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    

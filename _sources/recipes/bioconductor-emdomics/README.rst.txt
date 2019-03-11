@@ -22,7 +22,7 @@ bioconductor-emdomics
 
    |downloads_bioconductor-emdomics| |docker_bioconductor-emdomics|
 
-   :versions: 2.12.0-0
+   :versions: 2.12.0-1, 2.12.0-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
    

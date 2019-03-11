@@ -22,7 +22,7 @@ bioconductor-mbcb
 
    |downloads_bioconductor-mbcb| |docker_bioconductor-mbcb|
 
-   :versions: 1.36.0-0
+   :versions: 1.36.0-1, 1.36.0-0
    
    :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
    

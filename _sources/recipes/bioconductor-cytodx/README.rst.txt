@@ -22,7 +22,7 @@ bioconductor-cytodx
 
    |downloads_bioconductor-cytodx| |docker_bioconductor-cytodx|
 
-   :versions: 1.2.1-0
+   :versions: 1.2.1-1, 1.2.1-0
    
    :depends bioconductor-flowcore: >=1.48.0,<1.49.0
    

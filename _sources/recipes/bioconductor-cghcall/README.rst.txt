@@ -23,7 +23,7 @@ bioconductor-cghcall
 
    |downloads_bioconductor-cghcall| |docker_bioconductor-cghcall|
 
-   :versions: 2.44.0-0, 2.42.0-0, 2.40.0-0, 2.38.0-0, 2.34.1-0, 2.34.0-0
+   :versions: 2.44.0-1, 2.44.0-0, 2.42.0-0, 2.40.0-0, 2.38.0-0, 2.34.1-0, 2.34.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    

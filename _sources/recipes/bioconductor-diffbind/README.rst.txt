@@ -23,7 +23,7 @@ bioconductor-diffbind
 
    |downloads_bioconductor-diffbind| |docker_bioconductor-diffbind|
 
-   :versions: 2.10.0-0, 2.8.0-0, 2.6.6-0, 2.6.5-0, 2.6.0-0, 2.4.8-16, 2.2.12-1, 2.2.12-0, 2.0.9-3, 2.0.9-2, 1.16.3-0
+   :versions: 2.10.0-1, 2.10.0-0, 2.8.0-0, 2.6.6-0, 2.6.5-0, 2.6.0-0, 2.4.8-16, 2.2.12-1, 2.2.12-0, 2.0.9-3, 2.0.9-2, 1.16.3-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
    
@@ -49,9 +49,7 @@ bioconductor-diffbind
    
    :depends bioconductor-zlibbioc: >=1.28.0,<1.29.0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends r-amap: 
    

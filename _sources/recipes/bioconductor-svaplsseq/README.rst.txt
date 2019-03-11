@@ -23,7 +23,7 @@ bioconductor-svaplsseq
 
    |downloads_bioconductor-svaplsseq| |docker_bioconductor-svaplsseq|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0
+   :versions: 1.8.1-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
    
    :depends bioconductor-edger: >=3.24.0,<3.25.0
    

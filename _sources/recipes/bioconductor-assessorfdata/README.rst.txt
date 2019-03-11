@@ -22,7 +22,7 @@ bioconductor-assessorfdata
 
    |downloads_bioconductor-assessorfdata| |docker_bioconductor-assessorfdata|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.0-1, 1.0.0-0
    
    :depends bioconductor-decipher: >=2.10.0,<2.11.0
    

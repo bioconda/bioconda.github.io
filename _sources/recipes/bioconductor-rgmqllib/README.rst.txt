@@ -22,7 +22,7 @@ bioconductor-rgmqllib
 
    |downloads_bioconductor-rgmqllib| |docker_bioconductor-rgmqllib|
 
-   :versions: 1.2.0-0
+   :versions: 1.2.0-1, 1.2.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

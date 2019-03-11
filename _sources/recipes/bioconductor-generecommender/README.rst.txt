@@ -23,7 +23,7 @@ bioconductor-generecommender
 
    |downloads_bioconductor-generecommender| |docker_bioconductor-generecommender|
 
-   :versions: 1.54.0-0, 1.52.0-0, 1.50.0-0
+   :versions: 1.54.0-1, 1.54.0-0, 1.52.0-0, 1.50.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    

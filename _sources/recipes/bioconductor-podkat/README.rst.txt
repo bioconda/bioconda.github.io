@@ -23,7 +23,7 @@ bioconductor-podkat
 
    |downloads_bioconductor-podkat| |docker_bioconductor-podkat|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions: 1.14.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    
@@ -41,9 +41,7 @@ bioconductor-podkat
    
    :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

@@ -23,7 +23,7 @@ bioconductor-fishalyser
 
    |downloads_bioconductor-fishalyser| |docker_bioconductor-fishalyser|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.16.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
    :depends bioconductor-ebimage: >=4.24.0,<4.25.0
    

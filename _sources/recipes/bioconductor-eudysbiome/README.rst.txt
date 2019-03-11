@@ -23,7 +23,7 @@ bioconductor-eudysbiome
 
    |downloads_bioconductor-eudysbiome| |docker_bioconductor-eudysbiome|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions: 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
    

@@ -22,7 +22,7 @@ bioconductor-org.dm.eg.db
 
    |downloads_bioconductor-org.dm.eg.db| |docker_bioconductor-org.dm.eg.db|
 
-   :versions: 3.7.0-0, 3.6.0-0, 3.5.0-1, 3.5.0-0, 3.4.2-0, 3.4.1-0, 3.4.0-2, 3.4.0-0, 3.3.0-0, 3.2.3-0
+   :versions: 3.7.0-1, 3.7.0-0, 3.6.0-0, 3.5.0-1, 3.5.0-0, 3.4.2-0, 3.4.1-0, 3.4.0-2, 3.4.0-0, 3.3.0-0, 3.2.3-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

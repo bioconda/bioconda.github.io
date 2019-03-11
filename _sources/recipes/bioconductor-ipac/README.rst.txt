@@ -23,7 +23,7 @@ bioconductor-ipac
 
    |downloads_bioconductor-ipac| |docker_bioconductor-ipac|
 
-   :versions: 1.26.0-0, 1.24.2-0, 1.22.0-0
+   :versions: 1.26.0-1, 1.26.0-0, 1.24.2-0, 1.22.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
    

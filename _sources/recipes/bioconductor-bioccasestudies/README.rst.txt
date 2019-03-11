@@ -22,7 +22,7 @@ bioconductor-bioccasestudies
 
    |downloads_bioconductor-bioccasestudies| |docker_bioconductor-bioccasestudies|
 
-   :versions: 1.44.0-0
+   :versions: 1.44.0-1, 1.44.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    

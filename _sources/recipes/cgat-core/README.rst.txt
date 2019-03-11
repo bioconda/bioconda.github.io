@@ -22,19 +22,21 @@ cgatcore
 
    |downloads_cgatcore| |docker_cgatcore|
 
-   :versions: 0.5.6-0, 0.5.4-0, 0.5.2-0, 0.5.1-0
+   :versions: 0.5.10-0, 0.5.6-0, 0.5.4-0, 0.5.2-0, 0.5.1-0
    
    :depends coreutils: 
    
+   :depends drmaa: 
+   
    :depends gevent: 
+   
+   :depends nomkl: 
    
    :depends pandas: 
    
    :depends paramiko: 
    
-   :depends python: >=3.5,<3.6.0a0
-   
-   :depends python-drmaa: 
+   :depends python: >=3.6,<3.7.0a0
    
    :depends pyyaml: 
    

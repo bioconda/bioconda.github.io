@@ -22,7 +22,7 @@ bioconductor-chipseqr
 
    |downloads_bioconductor-chipseqr| |docker_bioconductor-chipseqr|
 
-   :versions: 1.36.0-0
+   :versions: 1.36.0-1, 1.36.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    

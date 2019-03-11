@@ -22,7 +22,7 @@ bioconductor-omicsprint
 
    |downloads_bioconductor-omicsprint| |docker_bioconductor-omicsprint|
 
-   :versions: 1.2.0-0
+   :versions: 1.2.1-0, 1.2.0-0
    
    :depends bioconductor-multiassayexperiment: >=1.8.0,<1.9.0
    

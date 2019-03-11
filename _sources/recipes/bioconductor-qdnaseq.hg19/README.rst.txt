@@ -22,7 +22,7 @@ bioconductor-qdnaseq.hg19
 
    |downloads_bioconductor-qdnaseq.hg19| |docker_bioconductor-qdnaseq.hg19|
 
-   :versions: 1.12.0-0
+   :versions: 1.12.0-1, 1.12.0-0
    
    :depends bioconductor-qdnaseq: >=1.18.0,<1.19.0
    

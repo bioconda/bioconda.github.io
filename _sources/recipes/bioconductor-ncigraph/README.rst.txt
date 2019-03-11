@@ -23,7 +23,7 @@ bioconductor-ncigraph
 
    |downloads_bioconductor-ncigraph| |docker_bioconductor-ncigraph|
 
-   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0, 1.24.0-0
+   :versions: 1.30.0-1, 1.30.0-0, 1.28.0-0, 1.26.0-0, 1.24.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
    

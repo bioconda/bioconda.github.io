@@ -22,7 +22,7 @@ bioconductor-hgu95dprobe
 
    |downloads_bioconductor-hgu95dprobe| |docker_bioconductor-hgu95dprobe|
 
-   :versions: 2.18.0-0
+   :versions: 2.18.0-1, 2.18.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

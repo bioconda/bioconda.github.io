@@ -22,7 +22,7 @@ bioconductor-cytolib
 
    |downloads_bioconductor-cytolib| |docker_bioconductor-cytolib|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.1-0
+   :versions: 1.4.1-0, 1.4.0-0, 1.2.0-0, 1.0.1-0
    
    :depends bioconductor-rprotobuflib: >=1.4.0,<1.5.0
    

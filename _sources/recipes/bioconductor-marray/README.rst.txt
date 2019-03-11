@@ -23,7 +23,7 @@ bioconductor-marray
 
    |downloads_bioconductor-marray| |docker_bioconductor-marray|
 
-   :versions: 1.60.0-0, 1.58.0-0, 1.56.0-0, 1.54.0-0, 1.50.0-1, 1.50.0-0
+   :versions: 1.60.0-1, 1.60.0-0, 1.58.0-0, 1.56.0-0, 1.54.0-0, 1.50.0-1, 1.50.0-0
    
    :depends bioconductor-limma: >=3.38.0,<3.39.0
    

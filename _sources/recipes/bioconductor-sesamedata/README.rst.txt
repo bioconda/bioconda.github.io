@@ -22,7 +22,7 @@ bioconductor-sesamedata
 
    |downloads_bioconductor-sesamedata| |docker_bioconductor-sesamedata|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.0-1, 1.0.0-0
    
    :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
    

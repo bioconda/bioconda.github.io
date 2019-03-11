@@ -22,7 +22,7 @@ bioconductor-methvisual
 
    |downloads_bioconductor-methvisual| |docker_bioconductor-methvisual|
 
-   :versions: 1.34.0-0
+   :versions: 1.34.0-1, 1.34.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
    
