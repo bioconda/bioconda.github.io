@@ -22,7 +22,7 @@ bioconductor-mesh.ptr.eg.db
 
    |downloads_bioconductor-mesh.ptr.eg.db| |docker_bioconductor-mesh.ptr.eg.db|
 
-   :versions: 1.11.0-0
+   :versions: 1.11.0-1, 1.11.0-0
    
    :depends bioconductor-meshdbi: >=1.18.0,<1.19.0
    

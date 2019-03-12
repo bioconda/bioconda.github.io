@@ -22,7 +22,7 @@ bioconductor-ppinfer
 
    |downloads_bioconductor-ppinfer| |docker_bioconductor-ppinfer|
 
-   :versions: 1.8.1-0, 1.6.0-0, 1.4.0-0, 1.2.4-0
+   :versions: 1.8.1-1, 1.8.1-0, 1.6.0-0, 1.4.0-0, 1.2.4-0
    
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
    

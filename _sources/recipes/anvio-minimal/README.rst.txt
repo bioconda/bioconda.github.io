@@ -41,8 +41,6 @@ anvio-minimal
    
    :depends illumina-utils: 2.6
    
-   :depends libgcc-ng: >=7.3.0
-   
    :depends matplotlib: 2.2.3
    
    :depends mistune: 0.8.1

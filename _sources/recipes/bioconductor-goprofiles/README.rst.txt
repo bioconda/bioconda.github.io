@@ -22,7 +22,7 @@ bioconductor-goprofiles
 
    |downloads_bioconductor-goprofiles| |docker_bioconductor-goprofiles|
 
-   :versions: 1.44.0-0
+   :versions: 1.44.0-1, 1.44.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

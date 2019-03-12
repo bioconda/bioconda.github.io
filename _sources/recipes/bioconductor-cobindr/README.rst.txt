@@ -22,7 +22,7 @@ bioconductor-cobindr
 
    |downloads_bioconductor-cobindr| |docker_bioconductor-cobindr|
 
-   :versions: 1.20.0-0
+   :versions: 1.20.0-1, 1.20.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    

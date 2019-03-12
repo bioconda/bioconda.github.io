@@ -22,7 +22,7 @@ bioconductor-txdb.hsapiens.biomart.igis
 
    |downloads_bioconductor-txdb.hsapiens.biomart.igis| |docker_bioconductor-txdb.hsapiens.biomart.igis|
 
-   :versions: 2.3.2-0
+   :versions: 2.3.2-1, 2.3.2-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

@@ -22,7 +22,7 @@ bioconductor-tximeta
 
    |downloads_bioconductor-tximeta| |docker_bioconductor-tximeta|
 
-   :versions: 1.0.1-0
+   :versions: 1.0.3-0, 1.0.1-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

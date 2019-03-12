@@ -22,9 +22,9 @@ pbcopper
 
    |downloads_pbcopper| |docker_pbcopper|
 
-   :versions: 0.4.2-0, 0.4.1-2, 0.4.1-1, 0.4.1-0
+   :versions: 0.4.2-1, 0.4.2-0, 0.4.1-2, 0.4.1-1, 0.4.1-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libcxx: >=4.0.1
    
    :requirements:
 

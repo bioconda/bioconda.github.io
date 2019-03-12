@@ -22,7 +22,7 @@ bioconductor-dominoeffect
 
    |downloads_bioconductor-dominoeffect| |docker_bioconductor-dominoeffect|
 
-   :versions: 1.2.0-0
+   :versions: 1.2.1-0, 1.2.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

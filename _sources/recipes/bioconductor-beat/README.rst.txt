@@ -23,7 +23,7 @@ bioconductor-beat
 
    |downloads_bioconductor-beat| |docker_bioconductor-beat|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.20.1-0, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
    

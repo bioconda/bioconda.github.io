@@ -22,7 +22,7 @@ bioconductor-porcine.db
 
    |downloads_bioconductor-porcine.db| |docker_bioconductor-porcine.db|
 
-   :versions: 3.2.3-0
+   :versions: 3.2.3-1, 3.2.3-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

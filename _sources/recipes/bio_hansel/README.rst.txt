@@ -26,9 +26,7 @@ bio_hansel
    
    :depends attrs: 
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends numpy: >=1.12.1
    

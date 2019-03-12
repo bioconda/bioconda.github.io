@@ -28,10 +28,6 @@ prophyle
    
    :depends ete3: 
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends libstdcxx-ng: >=4.9
-   
    :depends psutil: 
    
    :depends pysam: 

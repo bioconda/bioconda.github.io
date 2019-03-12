@@ -22,7 +22,7 @@ bioconductor-multimir
 
    |downloads_bioconductor-multimir| |docker_bioconductor-multimir|
 
-   :versions: 1.4.0-0
+   :versions: 1.4.0-1, 1.4.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

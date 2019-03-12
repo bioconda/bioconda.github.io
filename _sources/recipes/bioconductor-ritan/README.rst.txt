@@ -22,7 +22,7 @@ bioconductor-ritan
 
    |downloads_bioconductor-ritan| |docker_bioconductor-ritan|
 
-   :versions: 1.6.0-0
+   :versions: 1.6.0-1, 1.6.0-0
    
    :depends bioconductor-bgeedb: >=2.8.0,<2.9.0
    

@@ -22,7 +22,7 @@ bioconductor-hgug4100a.db
 
    |downloads_bioconductor-hgug4100a.db| |docker_bioconductor-hgug4100a.db|
 
-   :versions: 3.2.3-0
+   :versions: 3.2.3-1, 3.2.3-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

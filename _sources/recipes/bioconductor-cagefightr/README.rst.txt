@@ -22,7 +22,7 @@ bioconductor-cagefightr
 
    |downloads_bioconductor-cagefightr| |docker_bioconductor-cagefightr|
 
-   :versions: 1.2.0-0
+   :versions: 1.2.0-1, 1.2.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    

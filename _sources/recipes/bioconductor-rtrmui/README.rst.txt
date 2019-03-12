@@ -23,7 +23,7 @@ bioconductor-rtrmui
 
    |downloads_bioconductor-rtrmui| |docker_bioconductor-rtrmui|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends bioconductor-motifdb: >=1.24.0,<1.25.0
    

@@ -22,7 +22,7 @@ bioconductor-arabidopsis.db0
 
    |downloads_bioconductor-arabidopsis.db0| |docker_bioconductor-arabidopsis.db0|
 
-   :versions: 3.7.1-0
+   :versions: 3.7.1-1, 3.7.1-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

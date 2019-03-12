@@ -28,8 +28,6 @@ ditasic
    
    :depends kallisto: >=0.43.1
    
-   :depends libgcc-ng: >=4.9
-   
    :depends mason: >=2.0.7
    
    :depends numpy: >=1.8.0

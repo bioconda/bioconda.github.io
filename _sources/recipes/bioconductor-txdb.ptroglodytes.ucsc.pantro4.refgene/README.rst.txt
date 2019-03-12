@@ -22,7 +22,7 @@ bioconductor-txdb.ptroglodytes.ucsc.pantro4.refgene
 
    |downloads_bioconductor-txdb.ptroglodytes.ucsc.pantro4.refgene| |docker_bioconductor-txdb.ptroglodytes.ucsc.pantro4.refgene|
 
-   :versions: 3.4.4-0
+   :versions: 3.4.4-1, 3.4.4-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

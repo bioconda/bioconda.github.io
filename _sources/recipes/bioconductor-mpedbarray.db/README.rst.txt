@@ -22,7 +22,7 @@ bioconductor-mpedbarray.db
 
    |downloads_bioconductor-mpedbarray.db| |docker_bioconductor-mpedbarray.db|
 
-   :versions: 3.2.3-0
+   :versions: 3.2.3-1, 3.2.3-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

@@ -23,7 +23,7 @@ bioconductor-genvisr
 
    |downloads_bioconductor-genvisr| |docker_bioconductor-genvisr|
 
-   :versions: 1.14.1-0, 1.12.1-0, 1.8.0-0, 1.6.3-0
+   :versions: 1.14.1-1, 1.14.1-0, 1.12.1-0, 1.8.0-0, 1.6.3-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

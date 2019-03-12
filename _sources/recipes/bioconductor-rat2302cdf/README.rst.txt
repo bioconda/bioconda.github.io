@@ -22,7 +22,7 @@ bioconductor-rat2302cdf
 
    |downloads_bioconductor-rat2302cdf| |docker_bioconductor-rat2302cdf|
 
-   :versions: 2.18.0-0
+   :versions: 2.18.0-1, 2.18.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

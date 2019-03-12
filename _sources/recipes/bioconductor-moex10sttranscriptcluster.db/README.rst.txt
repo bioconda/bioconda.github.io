@@ -22,7 +22,7 @@ bioconductor-moex10sttranscriptcluster.db
 
    |downloads_bioconductor-moex10sttranscriptcluster.db| |docker_bioconductor-moex10sttranscriptcluster.db|
 
-   :versions: 8.7.0-0
+   :versions: 8.7.0-1, 8.7.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

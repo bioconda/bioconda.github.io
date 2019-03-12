@@ -22,7 +22,7 @@ bioconductor-gwasurvivr
 
    |downloads_bioconductor-gwasurvivr| |docker_bioconductor-gwasurvivr|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.0-1, 1.0.0-0
    
    :depends bioconductor-gwastools: >=1.28.0,<1.29.0
    

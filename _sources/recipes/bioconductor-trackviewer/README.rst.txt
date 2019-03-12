@@ -23,7 +23,7 @@ bioconductor-trackviewer
 
    |downloads_bioconductor-trackviewer| |docker_bioconductor-trackviewer|
 
-   :versions: 1.18.0-0, 1.16.1-0, 1.14.1-0
+   :versions: 1.18.0-1, 1.18.0-0, 1.16.1-0, 1.14.1-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

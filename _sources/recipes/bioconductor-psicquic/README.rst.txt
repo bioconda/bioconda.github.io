@@ -23,7 +23,7 @@ bioconductor-psicquic
 
    |downloads_bioconductor-psicquic| |docker_bioconductor-psicquic|
 
-   :versions: 1.20.0-0, 1.18.1-0, 1.16.1-0, 1.14.0-0
+   :versions: 1.20.0-1, 1.20.0-0, 1.18.1-0, 1.16.1-0, 1.14.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    

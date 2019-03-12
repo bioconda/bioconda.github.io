@@ -22,7 +22,7 @@ bioconductor-guitar
 
    |downloads_bioconductor-guitar| |docker_bioconductor-guitar|
 
-   :versions: 1.20.0-0
+   :versions: 1.20.1-0, 1.20.0-0
    
    :depends bioconductor-genomicalignments: >=1.18.0,<1.19.0
    

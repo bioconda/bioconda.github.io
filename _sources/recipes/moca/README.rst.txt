@@ -74,8 +74,6 @@ moca
    
    :depends pybigwig: >=0.2.8
    
-   :depends pycairo: >=1.10.0
-   
    :depends pycparser: >=2.17
    
    :depends pyparsing: >=2.1.4

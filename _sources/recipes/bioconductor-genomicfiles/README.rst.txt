@@ -23,7 +23,7 @@ bioconductor-genomicfiles
 
    |downloads_bioconductor-genomicfiles| |docker_bioconductor-genomicfiles|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.18.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    

@@ -22,7 +22,7 @@ bioconductor-illuminahumanmethylation450kmanifest
 
    |downloads_bioconductor-illuminahumanmethylation450kmanifest| |docker_bioconductor-illuminahumanmethylation450kmanifest|
 
-   :versions: 0.4.0-3, 0.4.0-2, 0.4.0-0
+   :versions: 0.4.0-4, 0.4.0-3, 0.4.0-2, 0.4.0-0
    
    :depends bioconductor-minfi: >=1.28.0,<1.29.0
    

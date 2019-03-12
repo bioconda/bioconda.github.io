@@ -32,8 +32,6 @@ openslide
    
    :depends jpeg: 
    
-   :depends libgcc: 
-   
    :depends libpng: 
    
    :depends libtiff: >=4

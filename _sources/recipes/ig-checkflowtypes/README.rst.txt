@@ -22,15 +22,15 @@ ig-checkflowtypes
 
    |downloads_ig-checkflowtypes| |docker_ig-checkflowtypes|
 
-   :versions: 1.0.0-1, 1.0.0-0
+   :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0
    
    :depends bioconductor-flowcore: 
    
-   :depends libgfortran: >=3.0
+   :depends libcxx: >=4.0.1
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgfortran: >=3.0.1,<4.0.0.a0
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: >=3.5.1,<3.5.2.0a0
    
    :requirements:
 

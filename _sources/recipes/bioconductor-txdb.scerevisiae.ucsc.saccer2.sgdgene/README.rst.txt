@@ -22,7 +22,7 @@ bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene
 
    |downloads_bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene| |docker_bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene|
 
-   :versions: 3.2.2-6, 3.2.2-5, 3.2.2-3, 3.2.2-2
+   :versions: 3.2.2-7, 3.2.2-6, 3.2.2-5, 3.2.2-3, 3.2.2-2
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

@@ -23,7 +23,7 @@ bioconductor-bumphunter
 
    |downloads_bioconductor-bumphunter| |docker_bioconductor-bumphunter|
 
-   :versions: 1.24.5-0, 1.22.0-0, 1.20.0-0, 1.16.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.24.5-1, 1.24.5-0, 1.22.0-0, 1.20.0-0, 1.16.0-0, 1.12.0-0, 1.10.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

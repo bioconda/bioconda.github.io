@@ -22,9 +22,9 @@ genomicconsensus
 
    |downloads_genomicconsensus| |docker_genomicconsensus|
 
-   :versions: 2.3.2-3, 2.3.2-2, 2.3.2-1, 2.3.2-0, 2.3.1-0
+   :versions: 2.3.3-0, 2.3.2-3, 2.3.2-2, 2.3.2-1, 2.3.2-0, 2.3.1-0
    
-   :depends numpy: >=1.15
+   :depends numpy: >=1.16.2
    
    :depends pbcommand: >=1.1.1
    
@@ -34,7 +34,7 @@ genomicconsensus
    
    :depends python-consensuscore: >=1.1.1
    
-   :depends python-consensuscore2: >=3.1.0
+   :depends python-consensuscore2: >=3.4.1
    
    :requirements:
 

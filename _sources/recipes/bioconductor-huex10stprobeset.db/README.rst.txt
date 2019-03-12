@@ -22,7 +22,7 @@ bioconductor-huex10stprobeset.db
 
    |downloads_bioconductor-huex10stprobeset.db| |docker_bioconductor-huex10stprobeset.db|
 
-   :versions: 8.7.0-0
+   :versions: 8.7.0-1, 8.7.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

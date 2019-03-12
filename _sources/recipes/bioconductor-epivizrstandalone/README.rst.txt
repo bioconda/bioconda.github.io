@@ -23,7 +23,7 @@ bioconductor-epivizrstandalone
 
    |downloads_bioconductor-epivizrstandalone| |docker_bioconductor-epivizrstandalone|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions: 1.10.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    

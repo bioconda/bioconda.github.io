@@ -22,7 +22,7 @@ bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
 
    |downloads_bioconductor-txdb.mmusculus.ucsc.mm10.ensgene| |docker_bioconductor-txdb.mmusculus.ucsc.mm10.ensgene|
 
-   :versions: 3.4.0-4, 3.4.0-3, 3.4.0-1, 3.4.0-0, 3.2.2-0
+   :versions: 3.4.0-5, 3.4.0-4, 3.4.0-3, 3.4.0-1, 3.4.0-0, 3.2.2-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

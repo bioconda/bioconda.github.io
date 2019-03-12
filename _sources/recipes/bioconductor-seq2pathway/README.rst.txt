@@ -23,7 +23,7 @@ bioconductor-seq2pathway
 
    |downloads_bioconductor-seq2pathway| |docker_bioconductor-seq2pathway|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.14.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
    

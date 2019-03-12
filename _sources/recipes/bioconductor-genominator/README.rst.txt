@@ -23,7 +23,7 @@ bioconductor-genominator
 
    |downloads_bioconductor-genominator| |docker_bioconductor-genominator|
 
-   :versions: 1.36.0-0, 1.34.0-0, 1.32.0-0, 1.30.0-0
+   :versions: 1.36.0-1, 1.36.0-0, 1.34.0-0, 1.32.0-0, 1.30.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    

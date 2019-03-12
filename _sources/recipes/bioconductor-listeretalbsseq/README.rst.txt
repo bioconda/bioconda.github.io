@@ -22,7 +22,7 @@ bioconductor-listeretalbsseq
 
    |downloads_bioconductor-listeretalbsseq| |docker_bioconductor-listeretalbsseq|
 
-   :versions: 1.14.0-0
+   :versions: 1.14.0-1, 1.14.0-0
    
    :depends bioconductor-methylpipe: >=1.16.0,<1.17.0
    
