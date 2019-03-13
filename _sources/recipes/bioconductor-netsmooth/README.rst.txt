@@ -22,7 +22,7 @@ bioconductor-netsmooth
 
    |downloads_bioconductor-netsmooth| |docker_bioconductor-netsmooth|
 
-   :versions: 1.2.0-0
+   :versions: 1.2.0-1, 1.2.0-0
    
    :depends bioconductor-clusterexperiment: >=2.2.0,<2.3.0
    

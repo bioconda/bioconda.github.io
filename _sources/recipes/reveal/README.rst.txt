@@ -28,6 +28,8 @@ reveal
    
    :depends libdivsufsort: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends matplotlib: 
    
    :depends networkx: 2.0.*

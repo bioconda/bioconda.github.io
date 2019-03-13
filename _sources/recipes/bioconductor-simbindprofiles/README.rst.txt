@@ -23,7 +23,7 @@ bioconductor-simbindprofiles
 
    |downloads_bioconductor-simbindprofiles| |docker_bioconductor-simbindprofiles|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    

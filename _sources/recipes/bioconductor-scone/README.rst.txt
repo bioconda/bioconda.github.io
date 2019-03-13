@@ -22,7 +22,7 @@ bioconductor-scone
 
    |downloads_bioconductor-scone| |docker_bioconductor-scone|
 
-   :versions: 1.6.0-0
+   :versions: 1.6.1-0, 1.6.0-0
    
    :depends bioconductor-aroma.light: >=3.12.0,<3.13.0
    

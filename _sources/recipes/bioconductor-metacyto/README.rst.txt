@@ -22,7 +22,7 @@ bioconductor-metacyto
 
    |downloads_bioconductor-metacyto| |docker_bioconductor-metacyto|
 
-   :versions: 1.4.0-0
+   :versions: 1.4.1-0, 1.4.0-0
    
    :depends bioconductor-flowcore: >=1.48.0,<1.49.0
    

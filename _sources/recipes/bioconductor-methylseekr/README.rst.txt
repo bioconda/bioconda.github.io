@@ -23,7 +23,7 @@ bioconductor-methylseekr
 
    |downloads_bioconductor-methylseekr| |docker_bioconductor-methylseekr|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-2, 1.18.0-1, 1.18.0-0, 1.16.0-0
+   :versions: 1.22.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-2, 1.18.0-1, 1.18.0-0, 1.16.0-0
    
    :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
    

@@ -23,7 +23,7 @@ bioconductor-lmgene
 
    |downloads_bioconductor-lmgene| |docker_bioconductor-lmgene|
 
-   :versions: 2.38.0-0, 2.36.0-0, 2.34.0-0
+   :versions: 2.38.0-1, 2.38.0-0, 2.36.0-0, 2.34.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
    

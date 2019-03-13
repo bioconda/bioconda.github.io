@@ -22,7 +22,7 @@ bioconductor-metaseqr
 
    |downloads_bioconductor-metaseqr| |docker_bioconductor-metaseqr|
 
-   :versions: 1.22.0-0
+   :versions: 1.22.1-0, 1.22.0-0
    
    :depends bioconductor-bayseq: >=2.16.0,<2.17.0
    

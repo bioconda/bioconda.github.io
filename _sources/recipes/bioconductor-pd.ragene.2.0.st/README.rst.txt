@@ -22,7 +22,7 @@ bioconductor-pd.ragene.2.0.st
 
    |downloads_bioconductor-pd.ragene.2.0.st| |docker_bioconductor-pd.ragene.2.0.st|
 
-   :versions: 3.14.1-0
+   :versions: 3.14.1-1, 3.14.1-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
    

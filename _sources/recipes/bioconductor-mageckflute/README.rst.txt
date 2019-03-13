@@ -22,7 +22,7 @@ bioconductor-mageckflute
 
    |downloads_bioconductor-mageckflute| |docker_bioconductor-mageckflute|
 
-   :versions: 1.2.2-0
+   :versions: 1.2.3-0, 1.2.2-0
    
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
    
@@ -53,8 +53,6 @@ bioconductor-mageckflute
    :depends r-pheatmap: 
    
    :depends r-png: 
-   
-   :depends r-rcolorbrewer: 
    
    :requirements:
 

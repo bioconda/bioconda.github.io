@@ -22,7 +22,7 @@ bioconductor-gispa
 
    |downloads_bioconductor-gispa| |docker_bioconductor-gispa|
 
-   :versions: 1.6.0-0
+   :versions: 1.6.0-1, 1.6.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    

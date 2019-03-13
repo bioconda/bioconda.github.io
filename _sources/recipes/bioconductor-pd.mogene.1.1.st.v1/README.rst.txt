@@ -22,7 +22,7 @@ bioconductor-pd.mogene.1.1.st.v1
 
    |downloads_bioconductor-pd.mogene.1.1.st.v1| |docker_bioconductor-pd.mogene.1.1.st.v1|
 
-   :versions: 3.14.1-0
+   :versions: 3.14.1-1, 3.14.1-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
    

@@ -22,9 +22,9 @@ protrac
 
    |downloads_protrac| |docker_protrac|
 
-   :versions: 2.3.1-1, 2.3.1-0, 2.1-1, 2.1-0
+   :versions: 2.4.2-0, 2.3.1-1, 2.3.1-0, 2.1-1, 2.1-0
    
-   :depends perl: >=5.26.0,<5.27.0a0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    
    :depends perl-gd: 
    

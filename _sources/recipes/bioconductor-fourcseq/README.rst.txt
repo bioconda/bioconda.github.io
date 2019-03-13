@@ -23,7 +23,7 @@ bioconductor-fourcseq
 
    |downloads_bioconductor-fourcseq| |docker_bioconductor-fourcseq|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.4.0-1, 1.4.0-0
+   :versions: 1.16.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.4.0-1, 1.4.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    

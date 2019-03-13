@@ -23,7 +23,7 @@ bioconductor-doppelgangr
 
    |downloads_bioconductor-doppelgangr| |docker_bioconductor-doppelgangr|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.1-0
+   :versions: 1.10.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.1-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    

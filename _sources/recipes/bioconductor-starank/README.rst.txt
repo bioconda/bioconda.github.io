@@ -23,7 +23,7 @@ bioconductor-starank
 
    |downloads_bioconductor-starank| |docker_bioconductor-starank|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0
+   :versions: 1.24.1-0, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0
    
    :depends bioconductor-cellhts2: >=2.46.0,<2.47.0
    

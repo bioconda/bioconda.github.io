@@ -23,7 +23,7 @@ bioconductor-qpcrnorm
 
    |downloads_bioconductor-qpcrnorm| |docker_bioconductor-qpcrnorm|
 
-   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0
+   :versions: 1.40.0-1, 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
    

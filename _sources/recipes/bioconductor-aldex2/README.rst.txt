@@ -23,7 +23,7 @@ bioconductor-aldex2
 
    |downloads_bioconductor-aldex2| |docker_bioconductor-aldex2|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions: 1.14.1-0, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
    

@@ -23,7 +23,7 @@ bioconductor-rpa
 
    |downloads_bioconductor-rpa| |docker_bioconductor-rpa|
 
-   :versions: 1.38.0-0, 1.36.0-0, 1.34.0-0, 1.32.0-0
+   :versions: 1.38.0-1, 1.38.0-0, 1.36.0-0, 1.34.0-0, 1.32.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
    

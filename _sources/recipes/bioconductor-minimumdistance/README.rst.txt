@@ -23,7 +23,7 @@ bioconductor-minimumdistance
 
    |downloads_bioconductor-minimumdistance| |docker_bioconductor-minimumdistance|
 
-   :versions: 1.26.0-0, 1.24.1-0, 1.22.0-0
+   :versions: 1.26.0-1, 1.26.0-0, 1.24.1-0, 1.22.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    

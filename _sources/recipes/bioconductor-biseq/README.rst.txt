@@ -23,7 +23,7 @@ bioconductor-biseq
 
    |downloads_bioconductor-biseq| |docker_bioconductor-biseq|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions: 1.22.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    

@@ -34,6 +34,8 @@ peakachu
    
    :depends blockbuster: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends matplotlib: 
    
    :depends numexpr: 

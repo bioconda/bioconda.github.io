@@ -23,7 +23,7 @@ bioconductor-ipo
 
    |downloads_bioconductor-ipo| |docker_bioconductor-ipo|
 
-   :versions: 1.8.1-0, 1.4.0-0, 1.2.2-0, 1.0.0-0
+   :versions: 1.8.1-1, 1.8.1-0, 1.4.0-0, 1.2.2-0, 1.0.0-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
    

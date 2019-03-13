@@ -22,7 +22,7 @@ bioconductor-hgu133a2probe
 
    |downloads_bioconductor-hgu133a2probe| |docker_bioconductor-hgu133a2probe|
 
-   :versions: 2.18.0-0
+   :versions: 2.18.0-1, 2.18.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

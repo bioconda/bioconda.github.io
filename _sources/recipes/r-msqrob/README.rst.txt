@@ -22,7 +22,7 @@ r-msqrob
 
    |downloads_r-msqrob| |docker_r-msqrob|
 
-   :versions: 0.7.5-0
+   :versions: 0.7.5-1, 0.7.5-0
    
    :depends bioconductor-affyio: 
    
@@ -44,7 +44,7 @@ r-msqrob
    
    :depends bioconductor-protgenerics: 
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: >=3.5.1,<3.5.2.0a0
    
    :depends r-colorspace: 
    

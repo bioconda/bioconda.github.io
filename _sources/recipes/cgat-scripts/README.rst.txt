@@ -38,6 +38,8 @@ cgat-scripts
    
    :depends grep: 2.14.*
    
+   :depends libgcc-ng: >=4.9
+   
    :depends libpng: >=1.6.34,<1.7.0a0
    
    :depends matplotlib: 2.1.*

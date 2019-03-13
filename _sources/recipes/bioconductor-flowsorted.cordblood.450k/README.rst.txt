@@ -22,7 +22,7 @@ bioconductor-flowsorted.cordblood.450k
 
    |downloads_bioconductor-flowsorted.cordblood.450k| |docker_bioconductor-flowsorted.cordblood.450k|
 
-   :versions: 1.10.0-0
+   :versions: 1.10.0-1, 1.10.0-0
    
    :depends bioconductor-minfi: >=1.28.0,<1.29.0
    

@@ -23,7 +23,7 @@ bioconductor-reportingtools
 
    |downloads_bioconductor-reportingtools| |docker_bioconductor-reportingtools|
 
-   :versions: 2.22.0-0, 2.20.0-0, 2.17.3-0
+   :versions: 2.22.1-0, 2.22.0-0, 2.20.0-0, 2.17.3-0
    
    :depends bioconductor-annotate: >=1.60.0,<1.61.0
    

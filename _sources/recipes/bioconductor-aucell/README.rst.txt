@@ -22,7 +22,7 @@ bioconductor-aucell
 
    |downloads_bioconductor-aucell| |docker_bioconductor-aucell|
 
-   :versions: 1.4.0-0
+   :versions: 1.4.1-0, 1.4.0-0
    
    :depends bioconductor-gseabase: >=1.44.0,<1.45.0
    

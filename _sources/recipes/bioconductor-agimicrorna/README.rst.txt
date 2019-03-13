@@ -22,7 +22,7 @@ bioconductor-agimicrorna
 
    |downloads_bioconductor-agimicrorna| |docker_bioconductor-agimicrorna|
 
-   :versions: 2.32.0-0
+   :versions: 2.32.0-1, 2.32.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
    

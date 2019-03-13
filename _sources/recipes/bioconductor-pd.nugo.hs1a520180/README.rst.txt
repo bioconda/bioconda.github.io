@@ -22,7 +22,7 @@ bioconductor-pd.nugo.hs1a520180
 
    |downloads_bioconductor-pd.nugo.hs1a520180| |docker_bioconductor-pd.nugo.hs1a520180|
 
-   :versions: 3.4.0-0
+   :versions: 3.4.0-1, 3.4.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
    

@@ -22,7 +22,7 @@ bioconductor-pd.wheat
 
    |downloads_bioconductor-pd.wheat| |docker_bioconductor-pd.wheat|
 
-   :versions: 3.12.0-0
+   :versions: 3.12.0-1, 3.12.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
    

@@ -22,7 +22,7 @@ bioconductor-artms
 
    |downloads_bioconductor-artms| |docker_bioconductor-artms|
 
-   :versions: 1.0.1-0
+   :versions: 1.0.10-0, 1.0.1-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

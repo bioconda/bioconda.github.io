@@ -22,7 +22,7 @@ bioconductor-minfidata
 
    |downloads_bioconductor-minfidata| |docker_bioconductor-minfidata|
 
-   :versions: 0.28.0-0
+   :versions: 0.28.0-1, 0.28.0-0
    
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
    

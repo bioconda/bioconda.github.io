@@ -24,6 +24,8 @@ r-seqinr
 
    :versions: 3.4_5-0, 3.1_3-0
    
+   :depends libgcc: 
+   
    :depends r-ade4: 
    
    :depends r-base: 3.4.1*

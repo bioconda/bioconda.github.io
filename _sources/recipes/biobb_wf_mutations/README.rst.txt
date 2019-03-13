@@ -53,7 +53,7 @@ biobb_wf_mutations
 
    |downloads_biobb_wf_mutations| |docker_biobb_wf_mutations|
 
-   :versions: 0.0.5-0
+   :versions: 0.0.6-0, 0.0.5-0
    
    :depends biobb_adapters: >=0.1.4
    

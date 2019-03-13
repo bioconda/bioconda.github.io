@@ -22,7 +22,9 @@ r-polysat
 
    |downloads_r-polysat| |docker_r-polysat|
 
-   :versions: 1.7_3-1, 1.7_3-0
+   :versions: 1.7_4-0, 1.7_3-1, 1.7_3-0
+   
+   :depends libgcc-ng: >=7.3.0
    
    :depends libgfortran-ng: 
    

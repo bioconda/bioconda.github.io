@@ -22,7 +22,7 @@ bioconductor-allelicimbalance
 
    |downloads_bioconductor-allelicimbalance| |docker_bioconductor-allelicimbalance|
 
-   :versions: 1.20.0-0
+   :versions: 1.20.0-1, 1.20.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

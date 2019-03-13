@@ -22,7 +22,7 @@ bioconductor-bronchialil13
 
    |downloads_bioconductor-bronchialil13| |docker_bioconductor-bronchialil13|
 
-   :versions: 1.20.0-0
+   :versions: 1.20.0-1, 1.20.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
    

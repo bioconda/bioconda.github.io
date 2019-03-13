@@ -22,17 +22,17 @@ verifybamid2
 
    |downloads_verifybamid2| |docker_verifybamid2|
 
-   :versions: 1.0.5-2, 1.0.5-0, 1.0.4-0
+   :versions: 1.0.5-3, 1.0.5-2, 1.0.5-0, 1.0.4-0
    
    :depends bzip2: >=1.0.6,<2.0a0
    
-   :depends curl: >=7.59.0,<8.0a0
+   :depends curl: >=7.64.0,<8.0a0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: >=7.3.0
    
-   :depends openssl: >=1.0.2o,<1.0.3a
+   :depends openssl: >=1.1.1a,<1.1.2a
    
    :depends zlib: >=1.2.11,<1.3.0a0
    

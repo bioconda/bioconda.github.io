@@ -22,7 +22,7 @@ bioconductor-desubs
 
    |downloads_bioconductor-desubs| |docker_bioconductor-desubs|
 
-   :versions: 1.8.1-0
+   :versions: 1.8.1-1, 1.8.1-0
    
    :depends bioconductor-deseq: >=1.34.0,<1.35.0
    

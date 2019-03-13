@@ -23,7 +23,7 @@ bioconductor-goseq
 
    |downloads_bioconductor-goseq| |docker_bioconductor-goseq|
 
-   :versions: 1.34.0-0, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0, 1.22.0-0
+   :versions: 1.34.1-0, 1.34.0-0, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0, 1.22.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    

@@ -22,7 +22,7 @@ bioconductor-rcistarget
 
    |downloads_bioconductor-rcistarget| |docker_bioconductor-rcistarget|
 
-   :versions: 1.2.0-0
+   :versions: 1.2.1-0, 1.2.0-0
    
    :depends bioconductor-aucell: >=1.4.0,<1.5.0
    

@@ -22,7 +22,7 @@ bioconductor-meshr
 
    |downloads_bioconductor-meshr| |docker_bioconductor-meshr|
 
-   :versions: 1.18.0-0
+   :versions: 1.18.0-1, 1.18.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    
