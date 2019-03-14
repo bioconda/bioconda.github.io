@@ -11,7 +11,7 @@ mapsplice
 
    MapSplice is a software for mapping RNA\-seq data to reference genome for splice junction discovery that depends only on reference genome\, and not on any further annotations.
 
-   :homepage: 
+   :homepage: http://www.netlab.uky.edu/p/bioinfo/MapSplice2
    :license: Custom
    :recipe: /`mapsplice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mapsplice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mapsplice/meta.yaml>`_
    :links: biotools: :biotools:`mapsplice`
@@ -23,13 +23,17 @@ mapsplice
 
    |downloads_mapsplice| |docker_mapsplice|
 
-   :versions: 2.2.0-1, 2.2.0-0
+   :versions: 2.2.1-0, 2.2.0-1, 2.2.0-0
    
-   :depends ncurses: 5.9*
+   :depends libgcc-ng: >=7.3.0
    
-   :depends python: 2.7*
+   :depends libstdcxx-ng: >=7.3.0
    
-   :depends zlib: 
+   :depends ncurses: >=6.1,<6.2.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends zlib: >=1.2.11,<1.3.0a0
    
    :requirements:
 

@@ -22,7 +22,7 @@ plant_tribes_gene_family_classifier
 
    |downloads_plant_tribes_gene_family_classifier| |docker_plant_tribes_gene_family_classifier|
 
-   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0, 0.3-1, 0.2-0, 0.1-0
+   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-2, 1.0.0-1, 1.0.0-0, 0.3-1, 0.2-0, 0.1-0
    
    :depends blast: >=2.5.0
    

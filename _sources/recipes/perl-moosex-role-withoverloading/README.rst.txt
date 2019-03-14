@@ -22,9 +22,9 @@ perl-moosex-role-withoverloading
 
    |downloads_perl-moosex-role-withoverloading| |docker_perl-moosex-role-withoverloading|
 
-   :versions: 0.17-0
+   :versions: 0.17-1, 0.17-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libcxx: >=4.0.1
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

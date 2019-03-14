@@ -42,8 +42,6 @@ ddocent
    
    :depends grep: 
    
-   :depends libgcc-ng: >=7.3.0
-   
    :depends mawk: 
    
    :depends parallel: 

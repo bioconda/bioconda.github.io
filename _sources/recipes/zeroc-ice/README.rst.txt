@@ -26,9 +26,7 @@ zeroc-ice
    
    :depends bzip2: >=1.0.6,<2.0a0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends python: >=2.7,<2.8.0a0
    

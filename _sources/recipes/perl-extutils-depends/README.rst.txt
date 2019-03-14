@@ -22,9 +22,9 @@ perl-extutils-depends
 
    |downloads_perl-extutils-depends| |docker_perl-extutils-depends|
 
-   :versions: 0.405-1, 0.405-0
+   :versions: 0.405-2, 0.405-1, 0.405-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    
    :depends perl-data-dumper: 
    

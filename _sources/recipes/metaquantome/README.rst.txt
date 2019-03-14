@@ -22,15 +22,15 @@ metaquantome
 
    |downloads_metaquantome| |docker_metaquantome|
 
-   :versions: 0.99.3-3, 0.99.3-2, 0.99.2-2, 0.99.2-0
+   :versions: 0.99.4a0-3, 0.99.3-3, 0.99.3-2, 0.99.2-2, 0.99.2-0
    
-   :depends biopython: 
+   :depends biopython: 1.73.*
    
    :depends ete3: 3.1.*
    
    :depends goatools: 0.7.*
    
-   :depends libiconv: 
+   :depends libiconv: 1.15.*
    
    :depends numpy: 1.15.*
    
@@ -40,11 +40,11 @@ metaquantome
    
    :depends r-base: 3.5.1.*
    
-   :depends r-ggplot2: 
+   :depends r-ggplot2: 3.0.*
    
    :depends r-gplots: 3.0.*
    
-   :depends r-jsonlite: 
+   :depends r-jsonlite: 1.5.*
    
    :depends statsmodels: 0.8.*
    

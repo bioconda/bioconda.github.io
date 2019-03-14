@@ -25,8 +25,6 @@ ray
 
    :versions: 2.3.1-1, 2.3.1-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends openmpi: >=2.0.2
    
    :requirements:

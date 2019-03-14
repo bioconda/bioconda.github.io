@@ -22,7 +22,7 @@ coprarna
 
    |downloads_coprarna| |docker_coprarna|
 
-   :versions: 2.1.3-4, 2.1.3-3, 2.1.3-2, 2.1.3-1, 2.1.3-0, 2.1.2-0, 2.1.1-0, 2.1.0-0
+   :versions: 2.1.3-5, 2.1.3-4, 2.1.3-3, 2.1.3-2, 2.1.3-1, 2.1.3-0, 2.1.2-0, 2.1.1-0, 2.1.0-0
    
    :depends blast-legacy: 2.2.22
    

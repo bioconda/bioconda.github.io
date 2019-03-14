@@ -48,12 +48,6 @@ perl-hpc-runner-command
    
    :depends perl-file-slurp: 
    
-   :depends perl-git-wrapper: 
-   
-   :depends perl-git-wrapper-plus: 
-   
-   :depends perl-io-interactive: 
-   
    :depends perl-json: 
    
    :depends perl-json-xs: 
@@ -71,8 +65,6 @@ perl-hpc-runner-command
    :depends perl-moose: 
    
    :depends perl-moosex-app: 
-   
-   :depends perl-moosex-app-role-log4perl: 
    
    :depends perl-moosex-getopt: 
    

@@ -22,9 +22,9 @@ perl-test-longstring
 
    |downloads_perl-test-longstring| |docker_perl-test-longstring|
 
-   :versions: 0.17-1, 0.17-0
+   :versions: 0.17-2, 0.17-1, 0.17-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    
    :depends perl-test-builder-tester: 
    

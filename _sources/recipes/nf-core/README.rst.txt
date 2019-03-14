@@ -22,7 +22,7 @@ nf-core
 
    |downloads_nf-core| |docker_nf-core|
 
-   :versions: 1.4-0, 1.3-0, 1.2-0, 1.1-0
+   :versions: 1.5-0, 1.4-0, 1.3-0, 1.2-0, 1.1-0
    
    :depends click: 
    
@@ -31,6 +31,8 @@ nf-core
    :depends git: 
    
    :depends gitpython: 
+   
+   :depends jsonschema: 
    
    :depends python: 
    

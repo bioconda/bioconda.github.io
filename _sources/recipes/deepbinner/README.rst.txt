@@ -22,7 +22,7 @@ deepbinner
 
    |downloads_deepbinner| |docker_deepbinner|
 
-   :versions: 0.2.0-0, 0.1.2-0
+   :versions: 0.2.0-1, 0.2.0-0, 0.1.2-0
    
    :depends h5py: 
    
@@ -34,7 +34,7 @@ deepbinner
    
    :depends numpy: 
    
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >3
    
    :depends tensorflow: 
    

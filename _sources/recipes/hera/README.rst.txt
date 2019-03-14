@@ -34,8 +34,6 @@ hera
    
    :depends libdivsufsort: 
    
-   :depends libgcc-ng: >=4.9
-   
    :depends python: 
    
    :depends xz: >=5.2.4,<5.3.0a0

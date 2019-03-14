@@ -29,10 +29,6 @@ sourmash
    
    :depends khmer: >=2.1
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends libstdcxx-ng: >=4.9
-   
    :depends matplotlib: 
    
    :depends numpy: 

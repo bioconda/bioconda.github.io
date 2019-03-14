@@ -24,15 +24,13 @@ kinsimriboswitch
 
    |downloads_kinsimriboswitch| |docker_kinsimriboswitch|
 
-   :versions: 0.3-0
+   :versions: 0.3-1, 0.3-0
    
    :depends coreutils: 
    
    :depends gmp: >=6.1.2,<7.0a0
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends libstdcxx-ng: >=4.9
+   :depends libcxx: >=4.0.1
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    
@@ -70,7 +68,7 @@ kinsimriboswitch
    
    :depends treekin: 
    
-   :depends viennarna: 
+   :depends viennarna: >=2.4.11,<2.5.0a0
    
    :requirements:
 

@@ -32,7 +32,7 @@ stamp
    
    :depends pyqi: >=0.3.2
    
-   :depends pyqt: >=5.6.0,<5.7.0a0
+   :depends pyqt: 4.*
    
    :depends python: >=2.7,<2.8.0a0
    

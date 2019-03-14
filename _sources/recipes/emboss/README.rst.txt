@@ -24,8 +24,6 @@ emboss
 
    :versions: 6.6.0-0, 6.5.7-5, 6.5.7-4, 6.5.7-3, 6.5.7-2, 6.5.7-1, 6.5.7-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends libgd: 
    
    :depends libpng: >=1.6.34,<1.7.0a0

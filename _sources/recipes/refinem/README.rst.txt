@@ -25,7 +25,7 @@ refinem
 
    |downloads_refinem| |docker_refinem|
 
-   :versions: 0.0.24-2
+   :versions: 0.0.24-3, 0.0.24-2
    
    :depends biolib: >=0.0.45
    

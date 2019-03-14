@@ -22,9 +22,7 @@ minepy
 
    |downloads_minepy| |docker_minepy|
 
-   :versions: 1.2.2-0, 1.2.0-1, 1.2.0-0
-   
-   :depends libgcc-ng: >=4.9
+   :versions: 1.2.3-0, 1.2.2-0, 1.2.0-1, 1.2.0-0
    
    :depends numpy: >=1.3.0
    

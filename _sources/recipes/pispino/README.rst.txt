@@ -22,7 +22,7 @@ pispino
 
    |downloads_pispino| |docker_pispino|
 
-   :versions: 1.1-1, 1.1-0, 1.0-0
+   :versions: 1.1-2, 1.1-1, 1.1-0, 1.0-0
    
    :depends fastx_toolkit: 
    

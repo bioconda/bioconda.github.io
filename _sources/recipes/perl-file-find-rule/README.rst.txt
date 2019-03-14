@@ -22,7 +22,7 @@ perl-file-find-rule
 
    |downloads_perl-file-find-rule| |docker_perl-file-find-rule|
 
-   :versions: 0.34-4, 0.34-3, 0.34-2, 0.34-1, 0.34-0
+   :versions: 0.34-5, 0.34-4, 0.34-3, 0.34-2, 0.34-1, 0.34-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

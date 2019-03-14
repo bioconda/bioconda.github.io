@@ -22,7 +22,7 @@ kneaddata
 
    |downloads_kneaddata| |docker_kneaddata|
 
-   :versions: 0.7.2-0, 0.7.0-0, 0.6.1-2, 0.6.1-0, 0.5.2-0
+   :versions: 0.7.2-1, 0.7.2-0, 0.7.0-0, 0.6.1-2, 0.6.1-0, 0.5.2-0
    
    :depends bmtagger: 
    

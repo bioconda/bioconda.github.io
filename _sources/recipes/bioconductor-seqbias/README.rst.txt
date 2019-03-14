@@ -32,9 +32,7 @@ bioconductor-seqbias
    
    :depends bioconductor-zlibbioc: >=1.28.0,<1.29.0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

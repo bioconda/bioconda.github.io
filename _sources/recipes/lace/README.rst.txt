@@ -26,8 +26,6 @@ lace
    
    :depends blat: 
    
-   :depends libgcc-ng: >=4.9
-   
    :depends matplotlib: 
    
    :depends networkx: 
