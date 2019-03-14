@@ -22,7 +22,7 @@ bioconductor-pd.atdschip.tiling
 
    |downloads_bioconductor-pd.atdschip.tiling| |docker_bioconductor-pd.atdschip.tiling|
 
-   :versions: 0.20.0-0
+   :versions: 0.20.0-1, 0.20.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
    

@@ -22,7 +22,7 @@ perl-html-tree
 
    |downloads_perl-html-tree| |docker_perl-html-tree|
 
-   :versions: 5.07-0, 5.03-0
+   :versions: 5.07-1, 5.07-0, 5.03-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

@@ -22,11 +22,11 @@ ngs-disambiguate
 
    |downloads_ngs-disambiguate| |docker_ngs-disambiguate|
 
-   :versions: 2018.05.03-1, 2018.05.03-0, 2016.11.10-0, 1.0.0-0
+   :versions: 2018.05.03-2, 2018.05.03-1, 2018.05.03-0, 2016.11.10-0, 1.0.0-0
    
    :depends bamtools: >=2.4.1,<2.4.2.0a0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
    :requirements:
 

@@ -22,7 +22,7 @@ perl-xml-twig
 
    |downloads_perl-xml-twig| |docker_perl-xml-twig|
 
-   :versions: 3.52-1, 3.49-0
+   :versions: 3.52-2, 3.52-1, 3.49-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

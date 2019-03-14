@@ -22,7 +22,7 @@ circlator
 
    |downloads_circlator| |docker_circlator|
 
-   :versions: 1.5.5-1, 1.5.5-0, 1.5.2-1, 1.5.2-0, 1.5.1-0, 1.5.0-0, 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.1.2-0
+   :versions: 1.5.5-2, 1.5.5-1, 1.5.5-0, 1.5.2-1, 1.5.2-0, 1.5.1-0, 1.5.0-0, 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.1.2-0
    
    :depends bio_assembly_refinement: >=0.4.0
    
@@ -38,7 +38,7 @@ circlator
    
    :depends pysam: >=0.8.1
    
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    
    :depends samtools: 
    

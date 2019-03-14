@@ -22,7 +22,7 @@ pyensembl
 
    |downloads_pyensembl| |docker_pyensembl|
 
-   :versions: 1.7.3-0, 1.7.2-0, 1.2.6-2, 1.2.6-1, 1.2.6-0
+   :versions: 1.7.3-1, 1.7.3-0, 1.7.2-0, 1.2.6-2, 1.2.6-1, 1.2.6-0
    
    :depends datacache: >=0.4.19
    

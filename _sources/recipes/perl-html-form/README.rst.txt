@@ -22,7 +22,7 @@ perl-html-form
 
    |downloads_perl-html-form| |docker_perl-html-form|
 
-   :versions: 6.03-0
+   :versions: 6.03-1, 6.03-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

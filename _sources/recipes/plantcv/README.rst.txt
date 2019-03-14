@@ -26,13 +26,13 @@ plantcv
 
    |downloads_plantcv| |docker_plantcv|
 
-   :versions: 3.1.0-0, 3.0.5-0, 3.0.3-0
+   :versions: 3.2.0-0, 3.1.0-0, 3.0.5-0, 3.0.3-0
    
    :depends matplotlib: >=1.5
    
    :depends numpy: >=1.11
    
-   :depends opencv: <4
+   :depends opencv: 3.4.4
    
    :depends pandas: 
    

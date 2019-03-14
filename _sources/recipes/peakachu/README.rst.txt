@@ -22,7 +22,7 @@ peakachu
 
    |downloads_peakachu| |docker_peakachu|
 
-   :versions: 0.1.0-3, 0.1.0-1, 0.1.0-0
+   :versions: 0.1.0-4, 0.1.0-3, 0.1.0-1, 0.1.0-0
    
    :depends bcbiogff: 
    
@@ -34,7 +34,7 @@ peakachu
    
    :depends blockbuster: 
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
    :depends matplotlib: 
    
@@ -44,7 +44,7 @@ peakachu
    
    :depends pysam: 
    
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3.6,<3.7.0a0
    
    :depends rpy2: 
    

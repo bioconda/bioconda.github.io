@@ -22,19 +22,13 @@ sompy
 
    |downloads_sompy| |docker_sompy|
 
-   :versions: 0.1.1-0
+   :versions: 0.1.1-1, 0.1.1-0
    
    :depends matplotlib: 
    
-   :depends numexpr: >=2.5
-   
-   :depends numpy: >=1.7
+   :depends numpy: 
    
    :depends python: <3
-   
-   :depends scikit-learn: >=0.16
-   
-   :depends scipy: >=0.9
    
    :requirements:
 

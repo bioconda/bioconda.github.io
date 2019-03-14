@@ -22,7 +22,7 @@ perl-mime-tools
 
    |downloads_perl-mime-tools| |docker_perl-mime-tools|
 
-   :versions: 5.508-0, 5.507-1, 5.507-0
+   :versions: 5.508-1, 5.508-0, 5.507-1, 5.507-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

@@ -22,7 +22,7 @@ perl-libwww-perl
 
    |downloads_perl-libwww-perl| |docker_perl-libwww-perl|
 
-   :versions: 6.36-0, 6.15-1, 6.15-0
+   :versions: 6.36-1, 6.36-0, 6.15-1, 6.15-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

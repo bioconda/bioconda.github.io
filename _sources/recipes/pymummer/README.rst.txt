@@ -22,13 +22,13 @@ pymummer
 
    |downloads_pymummer| |docker_pymummer|
 
-   :versions: 0.10.3-1, 0.10.3-0, 0.10.2-0, 0.10.1-1, 0.10.1-0, 0.9.0-0, 0.8.1-0, 0.6.1-1, 0.6.1-0
+   :versions: 0.10.3-2, 0.10.3-1, 0.10.3-0, 0.10.2-0, 0.10.1-1, 0.10.1-0, 0.9.0-0, 0.8.1-0, 0.6.1-1, 0.6.1-0
    
    :depends mummer: 
    
    :depends pyfastaq: >=3.10.0
    
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    
    :requirements:
 

@@ -26,7 +26,7 @@ chicagotools
    
    :depends bioconductor-chicago: 
    
-   :depends python: 
+   :depends python: <3
    
    :depends r-argparser: 
    

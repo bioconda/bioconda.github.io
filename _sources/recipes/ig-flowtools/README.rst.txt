@@ -22,7 +22,7 @@ ig-flowtools
 
    |downloads_ig-flowtools| |docker_ig-flowtools|
 
-   :versions: 2.0.2-2, 2.0.2-1, 2.0.2-0, 2.0.1-0, 2.0.0-0, 1.4.1-1, 1.4.1-0, 1.4.0-0, 1.3.0-0, 1.0.0-0
+   :versions: 2.0.2-3, 2.0.2-2, 2.0.2-1, 2.0.2-0, 2.0.1-0, 2.0.0-0, 1.4.1-1, 1.4.1-0, 1.4.0-0, 1.3.0-0, 1.0.0-0
    
    :depends bioconductor-flowai: 
    
@@ -50,9 +50,9 @@ ig-flowtools
    
    :depends pandas: 
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: >=3.5.1,<3.5.2.0a0
    
    :depends scipy: 
    

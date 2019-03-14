@@ -23,19 +23,17 @@ augustus
 
    |downloads_augustus| |docker_augustus|
 
-   :versions: 3.3-4, 3.3-2, 3.3-1, 3.3-0, 3.2.3-5, 3.2.3-4, 3.2.3-3, 3.2.3-2, 3.2.3-1, 3.2.3-0, 3.2.2-3, 3.2.2-2, 3.2.2-1, 3.2.2-0, 3.1-0
+   :versions: 3.3-5, 3.3-4, 3.3-2, 3.3-1, 3.3-0, 3.2.3-5, 3.2.3-4, 3.2.3-3, 3.2.3-2, 3.2.3-1, 3.2.3-0, 3.2.2-3, 3.2.2-2, 3.2.2-1, 3.2.2-0, 3.1-0
    
    :depends bamtools: >=2.4.1,<2.4.2.0a0
    
-   :depends boost: >=1.67.0,<1.67.1.0a0
+   :depends boost: >=1.68.0,<1.68.1.0a0
    
-   :depends gsl: >=2.2.1,<2.3.0a0
-   
-   :depends libgcc-ng: >=4.9
+   :depends gsl: >=2.4,<2.5.0a0
    
    :depends lp_solve: 
    
-   :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends openblas: >=0.3.3,<0.3.4.0a0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    
@@ -49,7 +47,7 @@ augustus
    
    :depends perl-yaml: 
    
-   :depends sqlite: >=3.24.0,<4.0a0
+   :depends sqlite: >=3.26.0,<4.0a0
    
    :depends suitesparse: 
    

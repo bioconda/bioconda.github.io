@@ -23,7 +23,7 @@ t-coffee
 
    |downloads_t-coffee| |docker_t-coffee|
 
-   :versions: 12.00.7fb08c2-1, 12.00.7fb08c2-0, 11.00.8cbe486-0
+   :versions: 12.00.7fb08c2-2, 12.00.7fb08c2-1, 12.00.7fb08c2-0, 11.00.8cbe486-0
    
    :depends blast: 
    
@@ -31,15 +31,11 @@ t-coffee
    
    :depends clustalw: 
    
-   :depends consan: 
-   
    :depends dca: 
    
    :depends dialign-tx: 1.0.2.*
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends libstdcxx-ng: >=4.9
+   :depends libcxx: >=4.0.1
    
    :depends mafft: 7.310.*
    
@@ -50,8 +46,6 @@ t-coffee
    :depends pasta: 
    
    :depends phylip: 
-   
-   :depends poa: 2.0.*
    
    :depends prank: 
    

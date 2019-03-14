@@ -22,11 +22,13 @@ zeroc-ice
 
    |downloads_zeroc-ice| |docker_zeroc-ice|
 
-   :versions: 3.7.1-0, 3.6.3-1, 3.6.3-0
+   :versions: 3.7.1-1, 3.7.1-0, 3.6.3-1, 3.6.3-0
    
    :depends bzip2: >=1.0.6,<2.0a0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends python: >=2.7,<2.8.0a0
    

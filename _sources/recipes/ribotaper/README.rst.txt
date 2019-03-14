@@ -23,7 +23,7 @@ ribotaper
 
    |downloads_ribotaper| |docker_ribotaper|
 
-   :versions: 1.3.1-0, 1.3.1a-2, 1.3.1a-1, 1.3.1a-0
+   :versions: 1.3.1-0, 1.3.1a-3, 1.3.1a-2, 1.3.1a-1, 1.3.1a-0
    
    :depends bedtools: ==2.17.0
    

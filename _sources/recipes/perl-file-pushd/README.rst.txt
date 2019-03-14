@@ -22,7 +22,7 @@ perl-file-pushd
 
    |downloads_perl-file-pushd| |docker_perl-file-pushd|
 
-   :versions: 1.016-0
+   :versions: 1.016-1, 1.016-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

@@ -22,7 +22,7 @@ perl-www-mechanize
 
    |downloads_perl-www-mechanize| |docker_perl-www-mechanize|
 
-   :versions: 1.91-0
+   :versions: 1.91-1, 1.91-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

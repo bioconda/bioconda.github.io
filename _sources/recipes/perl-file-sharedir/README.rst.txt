@@ -22,7 +22,7 @@ perl-file-sharedir
 
    |downloads_perl-file-sharedir| |docker_perl-file-sharedir|
 
-   :versions: 1.116-0, 1.102-4, 1.102-3, 1.102-2, 1.102-1, 1.102-0
+   :versions: 1.116-1, 1.116-0, 1.102-4, 1.102-3, 1.102-2, 1.102-1, 1.102-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

@@ -22,7 +22,7 @@ xtail
 
    |downloads_xtail| |docker_xtail|
 
-   :versions: 1.1.5-1, 1.1.5-0
+   :versions: 1.1.5-2, 1.1.5-1, 1.1.5-0
    
    :depends bioconductor-biobase: 
    
@@ -30,7 +30,7 @@ xtail
    
    :depends bioconductor-biocparallel: >=1.12.0
    
-   :depends bioconductor-deseq2: 1.18.1
+   :depends bioconductor-deseq2: >=1.18.1
    
    :depends bioconductor-genefilter: 
    
@@ -46,7 +46,7 @@ xtail
    
    :depends bioconductor-tximport: 
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: >=3.5.1,<3.5.2.0a0
    
    :depends r-getopt: 
    

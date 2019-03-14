@@ -22,7 +22,7 @@ bioconductor-pd.mg.u74bv2
 
    |downloads_bioconductor-pd.mg.u74bv2| |docker_bioconductor-pd.mg.u74bv2|
 
-   :versions: 3.12.0-0
+   :versions: 3.12.0-1, 3.12.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
    

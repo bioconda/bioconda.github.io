@@ -22,7 +22,7 @@ bioconductor-pd.u133.x3p
 
    |downloads_bioconductor-pd.u133.x3p| |docker_bioconductor-pd.u133.x3p|
 
-   :versions: 3.12.0-0
+   :versions: 3.12.0-1, 3.12.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
    

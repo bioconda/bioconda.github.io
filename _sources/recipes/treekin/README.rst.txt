@@ -22,13 +22,11 @@ treekin
 
    |downloads_treekin| |docker_treekin|
 
-   :versions: 0.4.2-1, 0.4.2-0, 0.3.1-1
-   
-   :depends blas: 
+   :versions: 0.4.2-2, 0.4.2-1, 0.4.2-0, 0.3.1-1
    
    :depends lapack: 
    
-   :depends libgcc-ng: >=4.9
+   :depends openblas: >=0.3.3,<0.3.4.0a0
    
    :requirements:
 

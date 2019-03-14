@@ -23,9 +23,11 @@ bioconda-utils
 
    |downloads_bioconda-utils| |docker_bioconda-utils|
 
-   :versions: 0.15.10-0, 0.15.8-0, 0.15.7-0, 0.15.3-0, 0.15.2-0, 0.15.1-0, 0.14.9-0, 0.14.3-0, 0.14.2-0, 0.12.3-1, 0.12.3-0, 0.12.0-0, 0.11.4-1, 0.11.4-0, 0.11.3-0, 0.11.2-0, 0.11.1-0
+   :versions: 0.15.10-1, 0.15.10-0, 0.15.8-0, 0.15.7-0, 0.15.3-0, 0.15.2-0, 0.15.1-0, 0.14.9-0, 0.14.3-0, 0.14.2-0, 0.12.3-1, 0.12.3-0, 0.12.0-0, 0.11.4-1, 0.11.4-0, 0.11.3-0, 0.11.2-0, 0.11.1-0
    
    :depends aiofiles: 0.4.*
+   
+   :depends aioftp: 0.12.*
    
    :depends aiohttp: 3.4.*
    
@@ -38,6 +40,8 @@ bioconda-utils
    :depends backoff: 1.6.*
    
    :depends beautifulsoup4: 4.6.*
+   
+   :depends boltons: 18.*
    
    :depends colorlog: 3.1.*
    
