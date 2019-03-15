@@ -24,6 +24,8 @@ r-qtl
 
    :versions: 1.41_6-0
    
+   :depends libgcc: 
+   
    :depends r-base: 3.4.1*
    
    :requirements:

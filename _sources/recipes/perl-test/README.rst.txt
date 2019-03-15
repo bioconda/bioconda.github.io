@@ -24,7 +24,7 @@ perl-test
 
    :versions: 1.26-1, 1.26-0
    
-   :depends perl: >=5.26.0,<5.27.0a0
+   :depends perl: >=5.26.2,<5.27.0a0
    
    :depends perl-test-harness: 
    

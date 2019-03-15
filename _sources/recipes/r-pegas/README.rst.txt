@@ -24,6 +24,8 @@ r-pegas
 
    :versions: 0.11-2, 0.11-1, 0.11-0, 0.10-0
    
+   :depends libgcc-ng: >=7.3.0
+   
    :depends r-adegenet: 
    
    :depends r-ape: >=2.4

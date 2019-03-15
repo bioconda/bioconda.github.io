@@ -24,6 +24,8 @@ alignlib-lite
 
    :versions: 0.3-1, 0.3-0, 0.2.3-2, 0.2.3-1, 0.2.3-0
    
+   :depends libstdcxx-ng: >=4.9
+   
    :depends python: >=2.7,<2.8.0a0
    
    :requirements:

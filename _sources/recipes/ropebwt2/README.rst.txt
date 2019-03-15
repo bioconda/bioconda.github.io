@@ -24,6 +24,8 @@ ropebwt2
 
    :versions: r187-3, r187-2, r187-1, r187-0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends zlib: >=1.2.11,<1.3.0a0
    
    :requirements:

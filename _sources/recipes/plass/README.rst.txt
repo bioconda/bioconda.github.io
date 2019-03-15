@@ -28,6 +28,8 @@ plass
    
    :depends gawk: 
    
+   :depends libstdcxx-ng: >=4.9
+   
    :depends openmp: 
    
    :depends zlib: >=1.2.11,<1.3.0a0

@@ -24,7 +24,9 @@ flye
 
    :versions: 2.4.1-0, 2.4-0, 2.3.7-0, 2.3.6-3, 2.3.5-3, 2.3.4-2, 2.3.4-0, 2.3.3-0, 2.3.2-0, 2.3.1-0, 2.3-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends python: >=2.7,<2.8.0a0
    
