@@ -22,7 +22,7 @@ fithic
 
    |downloads_fithic| |docker_fithic|
 
-   :versions: 2.0.6-0, 2.0.5-0
+   :versions: 2.0.7-0, 2.0.6-0, 2.0.5-0
    
    :depends argparse: 
    
