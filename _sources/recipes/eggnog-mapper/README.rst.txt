@@ -9,10 +9,12 @@ eggnog-mapper
 .. conda:recipe:: eggnog-mapper
    :replaces_section_title:
 
-   Fast genome\-wide functional annotation through orthology assignment
+   Fast genome\-wide functional annotation through orthology assignment.
 
    :homepage: https://github.com/jhcepas/eggnog-mapper
-   :license: GPL
+   :documentation: https://github.com/eggnogdb/eggnog-mapper/wiki
+   
+   :license: GPL / GPL-2.0
    :recipe: /`eggnog-mapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eggnog-mapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eggnog-mapper/meta.yaml>`_
 
    
@@ -22,7 +24,7 @@ eggnog-mapper
 
    |downloads_eggnog-mapper| |docker_eggnog-mapper|
 
-   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0
+   :versions: 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0
    
    :depends biopython: 
    
@@ -30,7 +32,9 @@ eggnog-mapper
    
    :depends hmmer: 3.1b2.*
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
+   
+   :depends wget: 
    
    :requirements:
 

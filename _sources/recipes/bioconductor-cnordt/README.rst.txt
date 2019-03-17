@@ -22,7 +22,7 @@ bioconductor-cnordt
 
    |downloads_bioconductor-cnordt| |docker_bioconductor-cnordt|
 
-   :versions: 1.24.0-0
+   :versions: 1.24.1-0, 1.24.0-0
    
    :depends bioconductor-cellnoptr: >=1.28.0,<1.29.0
    

@@ -23,7 +23,7 @@ bioconductor-edda
 
    |downloads_bioconductor-edda| |docker_bioconductor-edda|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions: 1.20.1-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
    
    :depends bioconductor-bayseq: >=2.16.0,<2.17.0
    

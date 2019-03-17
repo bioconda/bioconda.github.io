@@ -23,7 +23,7 @@ bioconductor-tweedeseq
 
    |downloads_bioconductor-tweedeseq| |docker_bioconductor-tweedeseq|
 
-   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   :versions: 1.28.1-0, 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0
    
    :depends bioconductor-cqn: >=1.28.0,<1.29.0
    

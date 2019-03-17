@@ -22,7 +22,7 @@ bioconductor-mimosa
 
    |downloads_bioconductor-mimosa| |docker_bioconductor-mimosa|
 
-   :versions: 1.20.0-0
+   :versions: 1.20.1-0, 1.20.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    
