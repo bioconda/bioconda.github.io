@@ -22,7 +22,7 @@ minnow
 
    |downloads_minnow| |docker_minnow|
 
-   :versions: 1.2-0, 1.1-0
+   :versions: 1.2-0, 1.1-0, beta_1.3-0
    
    :depends bzip2: >=1.0.6,<2.0a0
    

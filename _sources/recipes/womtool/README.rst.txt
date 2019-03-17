@@ -12,7 +12,7 @@ womtool
    Command line utilities for interacting with WDL
 
    :homepage: https://cromwell.readthedocs.io/en/develop/WOMtool/
-   :license: BSD
+   :license: BSD / BSD-3-Clause
    :recipe: /`womtool <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/womtool>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/womtool/meta.yaml>`_
    :links: biotools: :biotools:`womtool`
 
@@ -23,9 +23,9 @@ womtool
 
    |downloads_womtool| |docker_womtool|
 
-   :versions: 36-0, 31-1, 31-0
+   :versions: 38-0, 36-0, 31-1, 31-0
    
-   :depends openjdk: >=8
+   :depends openjdk: 8.*
    
    :depends python: 
    

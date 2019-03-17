@@ -22,7 +22,25 @@ halla
 
    |downloads_halla| |docker_halla|
 
-   :versions: 
+   :versions: 0.8.17-0
+   
+   :depends jenkspy: >=0.1.4
+   
+   :depends matplotlib: >=1.5.1
+   
+   :depends minepy: >=1.0.0
+   
+   :depends numpy: >=1.9.2
+   
+   :depends pandas: >=0.18.1
+   
+   :depends python: >=2.7,<2.8.0a0
+   
+   :depends scikit-learn: >=0.14.1
+   
+   :depends scipy: >=0.17.0
+   
+   :depends setuptools: 
    
    :requirements:
 

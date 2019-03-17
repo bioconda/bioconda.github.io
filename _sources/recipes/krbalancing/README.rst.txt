@@ -22,7 +22,17 @@ krbalancing
 
    |downloads_krbalancing| |docker_krbalancing|
 
-   :versions: 
+   :versions: 0.0.3-0
+   
+   :depends eigen: >=3.3.7
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends pybind11: >=2.2.4
+   
+   :depends python: >=2.7,<2.8.0a0
    
    :requirements:
 
