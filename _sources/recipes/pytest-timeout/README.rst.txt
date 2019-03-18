@@ -28,6 +28,8 @@ pytest-timeout
    
    :depends python: 2.7*
    
+   :depends setuptools: 
+   
    :requirements:
 
    .. rubric:: Installation

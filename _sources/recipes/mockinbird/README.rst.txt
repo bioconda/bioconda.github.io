@@ -32,6 +32,8 @@ mockinbird
    
    :depends jinja2: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends matplotlib: 
    
    :depends numpy: 

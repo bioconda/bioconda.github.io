@@ -24,6 +24,8 @@ r-adephylo
 
    :versions: 1.1_11-3, 1.1_11-2, 1.1_11-0
    
+   :depends libgcc-ng: >=7.3.0
+   
    :depends r-ade4: >=1.7_10
    
    :depends r-adegenet: 
