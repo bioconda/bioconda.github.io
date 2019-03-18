@@ -36,10 +36,6 @@ ariba
    
    :depends dendropy: >=4.2.0
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends libstdcxx-ng: >=4.9
-   
    :depends matplotlib: 
    
    :depends mummer: >=3.23

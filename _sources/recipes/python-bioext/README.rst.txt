@@ -28,8 +28,6 @@ python-bioext
    
    :depends freetype: >=2.8.1,<2.9.0a0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends numpy: >=1.14.0
    
    :depends pysam: <=0.13

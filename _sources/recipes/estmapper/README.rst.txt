@@ -26,10 +26,6 @@ estmapper
    
    :depends bzip2: >=1.0.6,<2.0a0
    
-   :depends libgcc-ng: >=4.9
-   
-   :depends libstdcxx-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
    
    :depends python: >=2.7,<2.8.0a0

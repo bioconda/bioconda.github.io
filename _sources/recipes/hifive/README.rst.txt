@@ -28,8 +28,6 @@ hifive
    
    :depends h5py: 
    
-   :depends mpi4py: 
-   
    :depends numpy: 
    
    :depends pil: 

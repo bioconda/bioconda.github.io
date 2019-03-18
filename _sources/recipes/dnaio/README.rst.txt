@@ -24,8 +24,6 @@ dnaio
 
    :versions: 0.3-0
    
-   :depends libgcc-ng: >=7.3.0
-   
    :depends python: >=3.6,<3.7.0a0
    
    :depends xopen: >=0.5.0

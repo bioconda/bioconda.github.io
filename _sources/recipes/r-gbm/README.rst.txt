@@ -24,8 +24,6 @@ r-gbm
 
    :versions: 2.1.3-0, 2.1.1-0
    
-   :depends libgcc: 
-   
    :depends r-base: 3.4.1*
    
    :depends r-lattice: 

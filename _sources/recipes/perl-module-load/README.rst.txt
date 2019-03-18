@@ -24,7 +24,7 @@ perl-module-load
 
    :versions: 0.32-1, 0.32-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.0,<5.27.0a0
    
    :requirements:
 

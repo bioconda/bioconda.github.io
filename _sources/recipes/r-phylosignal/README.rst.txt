@@ -24,9 +24,7 @@ r-phylosignal
 
    :versions: 1.2-3, 1.2-2, 1.2-1, 1.2-0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends r-adephylo: 
    

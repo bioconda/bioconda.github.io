@@ -26,13 +26,11 @@ r-hemdag
    
    :depends bioconductor-graph: 
    
-   :depends bioconductor-preprocesscore: 
+   :depends bioconductor-preprocesscore: >=1.42.0,<1.44.0
    
    :depends bioconductor-rbgl: 
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

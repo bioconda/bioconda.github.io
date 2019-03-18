@@ -31,8 +31,6 @@ samtools
    
    :depends libdeflate: >=1.0,<1.1.0a0
    
-   :depends libgcc-ng: >=7.3.0
-   
    :depends ncurses: >=6.1,<6.2.0a0
    
    :depends openssl: >=1.1.1a,<1.1.2a

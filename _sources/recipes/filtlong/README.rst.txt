@@ -24,8 +24,6 @@ filtlong
 
    :versions: 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.1-0, 0.1.0-0
    
-   :depends libstdcxx-ng: >=4.9
-   
    :depends zlib: >=1.2.11,<1.3.0a0
    
    :requirements:

@@ -24,8 +24,6 @@ htsbox
 
    :versions: r340-2, r340-1, r340-0, r327-0, r312-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends zlib: >=1.2.11,<1.3.0a0
    
    :requirements:
