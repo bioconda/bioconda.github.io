@@ -22,7 +22,7 @@ r-cellassign
 
    |downloads_r-cellassign| |docker_r-cellassign|
 
-   :versions: 0.99.0-1, 0.99.0-0
+   :versions: 0.99.1-0, 0.99.0-1, 0.99.0-0
    
    :depends bioconductor-genomeinfodbdata: 
    

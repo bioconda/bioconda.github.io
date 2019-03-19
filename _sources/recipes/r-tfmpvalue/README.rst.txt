@@ -24,8 +24,6 @@ r-tfmpvalue
 
    :versions: 0.0.6-0
    
-   :depends libgcc: 
-   
    :depends r: 3.3.1*
    
    :depends r-rcpp: 

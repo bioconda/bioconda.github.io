@@ -30,8 +30,6 @@ saffrontree
    
    :depends kmc: >=2.3.0
    
-   :depends libgcc: 
-   
    :depends pyfastaq: >=3.12.0
    
    :depends python: 3.5*

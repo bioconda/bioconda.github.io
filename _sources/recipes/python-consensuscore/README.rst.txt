@@ -24,9 +24,7 @@ python-consensuscore
 
    :versions: 1.1.1-3, 1.1.1-2, 1.1.1-1, 1.1.1-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends numpy: >=1.16.2
    
