@@ -24,6 +24,8 @@ perl-data-dump
 
    :versions: 1.23-4, 1.23-3
    
+   :depends libgcc-ng: >=4.9
+   
    :depends perl: >=5.26.2,<5.27.0a0
    
    :requirements:

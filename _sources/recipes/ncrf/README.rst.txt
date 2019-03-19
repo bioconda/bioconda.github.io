@@ -24,6 +24,8 @@ ncrf
 
    :versions: 1.00.06-0, 1.0.4-0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends python: >=2.7,<2.8.0a0
    
    :requirements:

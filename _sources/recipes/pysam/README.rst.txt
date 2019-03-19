@@ -33,6 +33,8 @@ pysam
    
    :depends libdeflate: >=1.0,<1.1.0a0
    
+   :depends libgcc-ng: >=7.3.0
+   
    :depends python: >=2.7,<2.8.0a0
    
    :depends samtools: 1.9.*

@@ -26,6 +26,8 @@ fcp
    
    :depends blast: 
    
+   :depends libgcc: 
+   
    :depends python: 2.7*
    
    :requirements:

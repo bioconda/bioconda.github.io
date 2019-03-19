@@ -24,6 +24,8 @@ ogdf
 
    :versions: 201207-1, 201207-0
    
+   :depends libgcc-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

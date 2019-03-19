@@ -22,7 +22,7 @@ r-dartr
 
    |downloads_r-dartr| |docker_r-dartr|
 
-   :versions: 1.0.5-0, 1.0-0
+   :versions: 1.0.5-1, 1.0.5-0, 1.0-0
    
    :depends bioconductor-qvalue: 
    
@@ -32,7 +32,7 @@ r-dartr
    
    :depends r-ape: 
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: >=3.5.1,<3.5.2.0a0
    
    :depends r-data.table: 
    

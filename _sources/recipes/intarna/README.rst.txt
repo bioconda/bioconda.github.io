@@ -27,7 +27,9 @@ intarna
    
    :depends boost-cpp: >=1.68.0,<1.68.1.0a0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

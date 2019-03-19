@@ -27,6 +27,8 @@ fsm-lite
 
    :versions: 1.0-0
    
+   :depends libstdcxx-ng: >=4.9
+   
    :depends sdsl-lite: 
    
    :requirements:

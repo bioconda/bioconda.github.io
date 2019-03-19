@@ -26,9 +26,11 @@ cfm
    
    :depends boost-cpp: >=1.68.0,<1.68.1.0a0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
    
    :depends liblbfgs: >=1.10,<1.11.0a0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends lp_solve: 5.5.*
    

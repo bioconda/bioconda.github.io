@@ -26,6 +26,8 @@ telseq
    
    :depends bamtools: >=2.4.1,<2.4.2.0a0
    
+   :depends libgcc-ng: >=7.3.0
+   
    :requirements:
 
    .. rubric:: Installation

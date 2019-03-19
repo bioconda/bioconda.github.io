@@ -26,6 +26,8 @@ pybigwig
    
    :depends libcurl: >=7.64.0,<8.0a0
    
+   :depends libgcc-ng: >=7.3.0
+   
    :depends numpy: >=1.16.2,<2.0a0
    
    :depends python: >=2.7,<2.8.0a0

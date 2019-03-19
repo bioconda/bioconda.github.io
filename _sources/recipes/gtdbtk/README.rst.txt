@@ -22,9 +22,7 @@ gtdbtk
 
    |downloads_gtdbtk| |docker_gtdbtk|
 
-   :versions: 0.1.6-0, 0.1.5-0, 0.1.3-0
-   
-   :depends biolib: >=0.0.43
+   :versions: 0.2.2-0, 0.1.6-0, 0.1.5-0, 0.1.3-0
    
    :depends dendropy: >=4.1.0
    
@@ -32,21 +30,15 @@ gtdbtk
    
    :depends fasttree: 
    
+   :depends future: >=0.15.2
+   
    :depends hmmer: 
-   
-   :depends jinja2: >=2.7.3
-   
-   :depends mpld3: >=0.2
-   
-   :depends perl-gtdbtk: 
    
    :depends pplacer: 
    
    :depends prodigal: 
    
    :depends python: >=2.7,<2.8.0a0
-   
-   :depends scipy: 
    
    :requirements:
 

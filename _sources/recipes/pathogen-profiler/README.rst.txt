@@ -22,13 +22,15 @@ pathogen-profiler
 
    |downloads_pathogen-profiler| |docker_pathogen-profiler|
 
-   :versions: 0.1-3, 0.1-2, 0.1-1, 0.1-0
+   :versions: 1.0-0, 0.1-3, 0.1-2, 0.1-1, 0.1-0
    
-   :depends bcftools: 1.9.*
+   :depends bcftools: >=1.9
    
    :depends bowtie2: 
    
    :depends bwa: 
+   
+   :depends delly: 
    
    :depends minimap2: 
    
@@ -36,7 +38,7 @@ pathogen-profiler
    
    :depends python: 
    
-   :depends samtools: 1.9.*
+   :depends samtools: >=1.9
    
    :depends tqdm: 
    

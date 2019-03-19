@@ -30,7 +30,7 @@ segmentation-fold
    
    :depends htseq: >=0.6.1
    
-   :depends libcxx: 
+   :depends libgcc-ng: >=4.9
    
    :depends pysam: >=0.8.1,<=0.8.3
    

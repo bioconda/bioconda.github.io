@@ -24,6 +24,8 @@ fann
 
    :versions: 2.2.0-1, 2.2.0-0
    
+   :depends libgcc-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation
