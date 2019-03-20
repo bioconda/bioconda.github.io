@@ -23,11 +23,9 @@ gat
 
    |downloads_gat| |docker_gat|
 
-   :versions: 1.3.5-2, 1.3.5-1, 1.3.5-0, 1.3.3-0, 1.2.2-0
+   :versions: 1.3.5-3, 1.3.5-2, 1.3.5-1, 1.3.5-0, 1.3.3-0, 1.2.2-0
    
    :depends cython: >=0.19
-   
-   :depends libgcc-ng: >=4.9
    
    :depends matplotlib: >=1.3.0
    
