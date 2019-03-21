@@ -22,17 +22,11 @@ sc3-scripts
 
    |downloads_sc3-scripts| |docker_sc3-scripts|
 
-   :versions: 0.0.5-0, 0.0.4-0
+   :versions: 0.0.6-0, 0.0.5-0, 0.0.4-0
    
    :depends bioconductor-biobase: 
    
-   :depends bioconductor-genomeinfodbdata: 1.1.*
-   
-   :depends bioconductor-sc3: 1.8.0.*
-   
-   :depends bioconductor-scater: 1.8.4.*
-   
-   :depends bioconductor-scater-scripts: 
+   :depends bioconductor-sc3: >=1.10.0,<1.11
    
    :depends bioconductor-singlecellexperiment-scripts: 
    
@@ -41,6 +35,8 @@ sc3-scripts
    :depends r-optparse: 
    
    :depends r-workflowscriptscommon: 
+   
+   :depends scater-scripts: 
    
    :requirements:
 

@@ -24,11 +24,11 @@ motus
 
    |downloads_motus| |docker_motus|
 
-   :versions: 2.1.0-2, 2.1.0-1, 2.0.1-2, 2.0.1-1, 2.0.1-0, 2.0.0-0, 1.0-1, 1.0-0
+   :versions: 2.1.1-3, 2.1.0-2, 2.1.0-1, 2.0.1-2, 2.0.1-1, 2.0.1-0, 2.0.0-0, 1.0-1, 1.0-0
    
    :depends bwa: 
    
-   :depends metasnv: 
+   :depends metasnv: 1.0.3.*
    
    :depends python: >=3.6,<3.7.0a0
    
