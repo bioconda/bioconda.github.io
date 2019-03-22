@@ -22,7 +22,7 @@ cactus
 
    |downloads_cactus| |docker_cactus|
 
-   :versions: 2019.03.01-0
+   :versions: 2019.03.01-1, 2019.03.01-0
    
    :depends biopython: 
    
@@ -50,7 +50,7 @@ cactus
    
    :depends subprocess32: 
    
-   :depends toil: 
+   :depends toil: 3.14.0.*
    
    :depends ucsc-bedsort: 
    

@@ -22,7 +22,7 @@ plascope
 
    |downloads_plascope| |docker_plascope|
 
-   :versions: 1.3-1, 1.3-0
+   :versions: 1.3.1-0, 1.3-1, 1.3-0
    
    :depends centrifuge: 1.0.3
    

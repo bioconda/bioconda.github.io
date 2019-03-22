@@ -44,7 +44,7 @@ biopet-fastqsplitter
 
    |downloads_biopet-fastqsplitter| |docker_biopet-fastqsplitter|
 
-   :versions: 0.1-1
+   :versions: 0.1-2, 0.1-1
    
    :depends openjdk: >=8,<9
    
