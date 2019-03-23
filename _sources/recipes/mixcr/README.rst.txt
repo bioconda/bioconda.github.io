@@ -23,9 +23,9 @@ mixcr
 
    |downloads_mixcr| |docker_mixcr|
 
-   :versions: 2.1.10-1, 2.1.10-0, 2.1.3-0
+   :versions: 3.0.5-0, 2.1.10-1, 2.1.10-0, 2.1.3-0
    
-   :depends openjdk: 
+   :depends openjdk: >=11
    
    :requirements:
 

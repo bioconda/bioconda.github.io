@@ -12,7 +12,7 @@ clust
    Optimised consensus clustering of multiple heterogeneous datasets.
 
    :homepage: https://github.com/baselabujamous/clust
-   :license: University of Oxford Academic Use Licence
+   :license: LGPL / LGPL-3.0
    :recipe: /`clust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clust/meta.yaml>`_
    :links: doi: :doi:`10.1186/s13059-018-1536-8`
 
@@ -23,7 +23,7 @@ clust
 
    |downloads_clust| |docker_clust|
 
-   :versions: 1.8.10-0, 1.8.9-0, 1.8.7-0, 1.8.4-0
+   :versions: 1.10.7-0, 1.8.10-0, 1.8.9-0, 1.8.7-0, 1.8.4-0
    
    :depends joblib: 
    
@@ -35,13 +35,11 @@ clust
    
    :depends portalocker: 
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    
    :depends scikit-learn: 
    
    :depends scipy: 
-   
-   :depends sompy: 
    
    :requirements:
 

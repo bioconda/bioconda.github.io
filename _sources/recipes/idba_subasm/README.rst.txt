@@ -22,7 +22,15 @@ idba_subasm
 
    |downloads_idba_subasm| |docker_idba_subasm|
 
-   :versions: 
+   :versions: 1.1.3a1-0
+   
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   
+   :depends python: >=2.7,<2.8.0a0
    
    :requirements:
 
