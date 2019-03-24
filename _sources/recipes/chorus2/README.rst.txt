@@ -25,7 +25,7 @@ chorus2
 
    |downloads_chorus2| |docker_chorus2|
 
-   :versions: 2.0-2, 2.0-1, 2.0-0
+   :versions: 2.0-3, 2.0-2, 2.0-1, 2.0-0
    
    :depends bwa: >=0.7.15
    

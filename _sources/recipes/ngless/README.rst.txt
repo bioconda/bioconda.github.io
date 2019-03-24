@@ -11,7 +11,7 @@ ngless
 
    A tool for metagenomics processing with a focus on metagenomics
 
-   :homepage: http://ngless.embl.de
+   :homepage: https://ngless.embl.de
    :license: MIT
    :recipe: /`ngless <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngless>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngless/meta.yaml>`_
 
@@ -22,23 +22,9 @@ ngless
 
    |downloads_ngless| |docker_ngless|
 
-   :versions: 0.10.0-0, 0.9.1-0, 0.9.0-0, 0.8.1-0, 0.8.0-0, 0.7.1-1, 0.7.1-0, 0.7.0-0, 0.6.1-0, 0.6.0-0, 0.5.1-0
-   
-   :depends bzip2: >=1.0.6,<2.0a0
-   
-   :depends cairo: >=1.14.12,<1.15.0a0
-   
-   :depends gmp: >=6.1.2,<7.0a0
-   
-   :depends libgcc-ng: >=4.9
+   :versions: 0.11.1-0, 0.10.0-0, 0.9.1-0, 0.9.0-0, 0.8.1-0, 0.8.0-0, 0.7.1-1, 0.7.1-0, 0.7.0-0, 0.6.1-0, 0.6.0-0, 0.5.1-0
    
    :depends python: 
-   
-   :depends xorg-libxext: 
-   
-   :depends xz: >=5.2.4,<5.3.0a0
-   
-   :depends zlib: >=1.2.11,<1.3.0a0
    
    :requirements:
 
