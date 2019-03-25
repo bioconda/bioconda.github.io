@@ -22,7 +22,7 @@ bioconductor-rhdf5lib
 
    |downloads_bioconductor-rhdf5lib| |docker_bioconductor-rhdf5lib|
 
-   :versions: 1.4.2-3, 1.4.2-2, 1.2.1-0, 1.0.0-0
+   :versions: 1.4.3-0, 1.4.2-3, 1.4.2-2, 1.2.1-0, 1.0.0-0
    
    :depends libgcc-ng: >=7.3.0
    

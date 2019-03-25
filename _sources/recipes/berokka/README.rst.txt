@@ -22,13 +22,13 @@ berokka
 
    |downloads_berokka| |docker_berokka|
 
-   :versions: 0.2-2, 0.2-0, 0.1-0
+   :versions: 0.2-3, 0.2-2, 0.2-0, 0.1-0
    
    :depends blast: >=2.3
    
    :depends perl: 
    
-   :depends perl-bioperl: 
+   :depends perl-bioperl: >=1.7
    
    :requirements:
 

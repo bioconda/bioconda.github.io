@@ -22,21 +22,21 @@ hicmatrix
 
    |downloads_hicmatrix| |docker_hicmatrix|
 
-   :versions: 7-0, 6-1, 6-0, 5-0, 4-0, 3-0, 2.2-1, 2.2-0
+   :versions: 8-0, 7-0, 6-1, 6-0, 5-0, 4-0, 3-0, 2.2-1, 2.2-0
    
-   :depends cooler: 0.8.2.*
+   :depends cooler: 0.8.3.*
    
    :depends future: 
    
    :depends intervaltree: 
    
-   :depends numpy: 
+   :depends numpy: >=1.16
    
    :depends pandas: 
    
    :depends pytables: 
    
-   :depends python: 
+   :depends python: >=3
    
    :depends scipy: 
    
