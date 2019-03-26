@@ -33,9 +33,7 @@ ataqv
    
    :depends htslib: >=1.9,<1.10.0a0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends ncurses: >=6.1,<6.2.0a0
    

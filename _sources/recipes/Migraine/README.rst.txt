@@ -25,8 +25,6 @@ migraine
 
    :versions: 0.5.4-0, 0.5.2-0
    
-   :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

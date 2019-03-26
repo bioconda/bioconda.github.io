@@ -40,8 +40,6 @@ pygtftk
    
    :depends future: 
    
-   :depends libgcc-ng: >=7.3.0
-   
    :depends matplotlib: >=2.0.2
    
    :depends nose: 

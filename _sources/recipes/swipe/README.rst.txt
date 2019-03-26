@@ -26,8 +26,6 @@ swipe
 
    :versions: 2.1.0-0, 2.0.12-1, 2.0.12-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends openmpi: 
    
    :depends tbb: 

@@ -27,8 +27,6 @@ discosnp
    
    :depends bwa: 
    
-   :depends libgcc-ng: >=4.9
-   
    :depends python: >=3.0
    
    :depends shortreadconnector: 

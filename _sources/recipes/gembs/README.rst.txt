@@ -35,8 +35,6 @@ gembs
    
    :depends htslib: >=1.8,<1.9.0a0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends matplotlib: 
    
    :depends multiprocess: 

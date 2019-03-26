@@ -24,8 +24,6 @@ ale
 
    :versions: 20180904-0, 20160127-1, 20160127-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends matplotlib: 
    
    :depends mpmath: 

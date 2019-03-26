@@ -26,8 +26,6 @@ alignstats
    
    :depends htslib: >=1.9,<1.10.0a0
    
-   :depends libgcc-ng: >=7.3.0
-   
    :requirements:
 
    .. rubric:: Installation

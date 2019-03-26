@@ -30,8 +30,6 @@ prosolo
    
    :depends gsl: >=2.2.1,<2.3.0a0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends openblas: >=0.2.20,<0.2.21.0a0
    
    :depends xz: >=5.2.4,<5.3.0a0

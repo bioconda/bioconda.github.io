@@ -25,9 +25,7 @@ comet-ms
 
    :versions: 2018014-0, 2018013-0, 2018012-1, 2018012-0, 2016013-1
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :requirements:
 
