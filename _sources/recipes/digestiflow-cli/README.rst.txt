@@ -22,11 +22,11 @@ digestiflow-cli
 
    |downloads_digestiflow-cli| |docker_digestiflow-cli|
 
-   :versions: 0.5.1-0, 0.5.0-0, 0.4.1-0, 0.4.0-0, 0.3.0-0, 0.2.0-0, 0.1.1-0
+   :versions: 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.1-0, 0.4.0-0, 0.3.0-0, 0.2.0-0, 0.1.1-0
    
    :depends libgcc-ng: >=7.3.0
    
-   :depends openssl: >=1.0.2r,<1.0.3a
+   :depends openssl: >=1.1.1a,<1.1.2a
    
    :requirements:
 

@@ -24,7 +24,7 @@ perl-perlio-encoding
 
    :versions: 0.18-1, 0.18-0
    
-   :depends perl: >=5.26.0,<5.27.0a0
+   :depends perl: >=5.26.2,<5.27.0a0
    
    :requirements:
 

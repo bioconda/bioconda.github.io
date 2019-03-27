@@ -27,7 +27,7 @@ igblast
    
    :depends bzip2: >=1.0.6,<2.0a0
    
-   :depends gnutls: 
+   :depends libgcc-ng: >=4.9
    
    :depends libidn11: 
    

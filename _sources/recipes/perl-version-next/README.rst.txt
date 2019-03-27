@@ -24,7 +24,7 @@ perl-version-next
 
    :versions: 1.000-1, 1.000-0
    
-   :depends perl: >=5.26.0,<5.27.0a0
+   :depends perl: >=5.26.2,<5.27.0a0
    
    :depends perl-apache-test: 
    

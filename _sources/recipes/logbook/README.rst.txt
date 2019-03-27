@@ -24,6 +24,8 @@ logbook
 
    :versions: 1.4.3-0, 1.4.1-0, 1.0.0-1, 1.0.0-0, 0.12.2-0
    
+   :depends libgcc-ng: >=7.3.0
+   
    :depends python: >=2.7,<2.8.0a0
    
    :requirements:

@@ -24,7 +24,9 @@ newick_utils
 
    :versions: 1.6-2, 1.6-1, 1.6-0
    
-   :depends libxml2: >=2.9.8,<2.10.0a0
+   :depends libgcc-ng: >=4.9
+   
+   :depends libxml2: 2.9.*
    
    :requirements:
 

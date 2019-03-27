@@ -24,6 +24,8 @@ r-genabel
 
    :versions: 1.8_0-0
    
+   :depends libgcc: 
+   
    :depends r-base: 3.4.1*
    
    :depends r-genabel.data: 

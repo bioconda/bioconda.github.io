@@ -26,6 +26,8 @@ phast
    
    :depends clapack: 
    
+   :depends libgcc-ng: >=7.3.0
+   
    :requirements:
 
    .. rubric:: Installation

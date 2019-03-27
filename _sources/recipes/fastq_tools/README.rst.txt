@@ -24,6 +24,8 @@ fastq-tools
 
    :versions: 0.8-2, 0.8-1, 0.8-0
    
+   :depends libgcc-ng: >=4.9
+   
    :depends pcre: 
    
    :depends zlib: >=1.2.11,<1.3.0a0

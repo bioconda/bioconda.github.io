@@ -26,7 +26,9 @@ bioconductor-tofsims
    
    :depends bioconductor-protgenerics: >=1.14.0,<1.15.0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends openblas: >=0.3.3,<0.3.4.0a0
    

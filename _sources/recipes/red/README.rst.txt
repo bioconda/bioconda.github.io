@@ -25,6 +25,8 @@ red
 
    :versions: 2015.05.22-0
    
+   :depends libstdcxx-ng: >=4.9
+   
    :requirements:
 
    .. rubric:: Installation

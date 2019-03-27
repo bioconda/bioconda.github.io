@@ -11,7 +11,7 @@ tb_variant_filter
 
    VCF variant filter optimised for filter M. tuberculosis H37Rv variants
 
-   :homepage: http://github.com/pvanheus/tb_variant_filter
+   :homepage: http://github.com/COMBAT-TB/tb_variant_filter
    :license: GPL / GPL-3.0
    :recipe: /`tb_variant_filter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tb_variant_filter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tb_variant_filter/meta.yaml>`_
 
@@ -23,7 +23,7 @@ tb_variant_filter
 
    |downloads_tb_variant_filter| |docker_tb_variant_filter|
 
-   :versions: 0.0.1-0
+   :versions: 0.1.0-0, 0.0.1-0
    
    :depends intervaltree: 
    

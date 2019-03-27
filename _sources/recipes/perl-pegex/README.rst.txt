@@ -24,7 +24,7 @@ perl-pegex
 
    :versions: 0.61-1, 0.61-0
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: >=5.26.2,<5.27.0a0
    
    :depends perl-extutils-makemaker: 
    
