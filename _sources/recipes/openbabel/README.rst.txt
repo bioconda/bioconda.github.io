@@ -26,10 +26,6 @@ openbabel
    
    :depends bzip2: >=1.0.6,<2.0a0
    
-   :depends cairo: >=1.16.0,<1.17.0a0
-   
-   :depends libgcc-ng: >=7.3.0
-   
    :depends libxml2: >=2.9.8,<2.10.0a0
    
    :depends python: >=2.7,<2.8.0a0

@@ -22,7 +22,7 @@ tb-profiler
 
    |downloads_tb-profiler| |docker_tb-profiler|
 
-   :versions: 2.1-0, 2.0-0
+   :versions: 2.1-1, 2.1-0, 2.0-0
    
    :depends pathogen-profiler: 
    

@@ -22,11 +22,9 @@ fastqpuri
 
    |downloads_fastqpuri| |docker_fastqpuri|
 
-   :versions: 1.0.5-3
+   :versions: 1.0.6-6, 1.0.5-5, 1.0.5-3
    
    :depends bzip2: >=1.0.6,<2.0a0
-   
-   :depends libgcc-ng: >=7.3.0
    
    :depends pandoc: 
    

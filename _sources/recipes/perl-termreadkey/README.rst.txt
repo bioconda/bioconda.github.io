@@ -24,8 +24,6 @@ perl-termreadkey
 
    :versions: 2.38-0, 2.37-0, 2.32-1, 2.32-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
    
    :requirements:

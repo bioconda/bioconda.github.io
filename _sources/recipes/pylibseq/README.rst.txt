@@ -26,8 +26,6 @@ pylibseq
    
    :depends libsequence: 
    
-   :depends libstdcxx-ng: >=4.9
-   
    :depends msprime: 
    
    :depends python: >=3.5,<3.6.0a0
