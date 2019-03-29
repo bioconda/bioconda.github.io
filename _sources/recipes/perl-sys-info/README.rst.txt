@@ -28,7 +28,7 @@ perl-sys-info
    
    :depends perl-sys-info-base: 
    
-   :depends perl-sys-info-driver-osx: 
+   :depends perl-sys-info-driver-linux: 
    
    :requirements:
 

@@ -28,7 +28,9 @@ khmer
    
    :depends bz2file: 
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends python: >=3.7,<3.8.0a0
    

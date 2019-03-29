@@ -28,7 +28,9 @@ bax2bam
    
    :depends hdf5: >=1.10.4,<1.10.5.0a0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends pbbam: 0.23.0.*
    

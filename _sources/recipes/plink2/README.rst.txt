@@ -24,6 +24,8 @@ plink2
 
    :versions: 1.90b3.35-0
    
+   :depends openblas: 
+   
    :requirements:
 
    .. rubric:: Installation

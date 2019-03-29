@@ -25,9 +25,9 @@ epa-ng
 
    :versions: 0.3.5-0, 0.3.4-2, 0.3.4-1, 0.3.4-0, 0.3.3-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
    
-   :depends llvm-openmp: 
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends zlib: >=1.2.11,<1.3.0a0
    

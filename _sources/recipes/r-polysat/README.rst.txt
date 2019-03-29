@@ -24,6 +24,8 @@ r-polysat
 
    :versions: 1.7_4-0, 1.7_3-1, 1.7_3-0
    
+   :depends libgcc-ng: >=7.3.0
+   
    :depends libgfortran-ng: 
    
    :depends r-base: >=3.5.1,<3.5.2.0a0

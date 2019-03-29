@@ -22,7 +22,7 @@ selene-sdk
 
    |downloads_selene-sdk| |docker_selene-sdk|
 
-   :versions: 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.3-0, 0.1.2-0, 0.0.1-0
+   :versions: 0.3.0-1, 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.3-0, 0.1.2-0, 0.0.1-0
    
    :depends h5py: 
    
@@ -44,7 +44,7 @@ selene-sdk
    
    :depends pytorch: >=0.4.1,<1
    
-   :depends pyyaml: 
+   :depends pyyaml: 3.13
    
    :depends scikit-learn: 
    

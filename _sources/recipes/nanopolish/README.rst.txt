@@ -40,6 +40,10 @@ nanopolish
    
    :depends libgcc: 
    
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
+   
    :depends ncurses: >=6.1,<6.2.0a0
    
    :depends openmp: 

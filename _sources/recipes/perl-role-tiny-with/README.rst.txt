@@ -24,7 +24,7 @@ perl-role-tiny-with
 
    :versions: 2.000005-1, 2.000005-0
    
-   :depends perl: >=5.26.0,<5.27.0a0
+   :depends perl: >=5.26.2,<5.27.0a0
    
    :requirements:
 
