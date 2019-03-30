@@ -22,7 +22,7 @@ picrust2
 
    |downloads_picrust2| |docker_picrust2|
 
-   :versions: 2.1.1_b-0, 2.1.0_b-0, 2.0.3_b-0
+   :versions: 2.1.2_b-0, 2.1.1_b-0, 2.1.0_b-0, 2.0.3_b-0
    
    :depends biom-format: 2.1.7.*
    
@@ -32,15 +32,15 @@ picrust2
    
    :depends glpk: 4.65.*
    
-   :depends h5py: 2.7.0.*
+   :depends h5py: 2.9.0.*
    
    :depends hmmer: 3.2.1.*
    
    :depends joblib: 0.13.1.*
    
-   :depends numpy: 1.12.1.*
+   :depends numpy: 1.15.4.*
    
-   :depends pandas: 0.22.0.*
+   :depends pandas: 0.23.4.*
    
    :depends pytest: 
    
@@ -52,7 +52,7 @@ picrust2
    
    :depends r-castor: 1.3.4.*
    
-   :depends scipy: 0.19.1.*
+   :depends scipy: 1.2.0.*
    
    :depends wget: 
    

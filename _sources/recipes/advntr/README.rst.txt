@@ -22,29 +22,27 @@ advntr
 
    |downloads_advntr| |docker_advntr|
 
-   :versions: 1.2.0-0, 1.1.1-1, 1.1.1-0, 1.1.0-1, 1.1.0-0, 1.0.3-0
+   :versions: 1.3.0-1, 1.2.0-0, 1.1.1-1, 1.1.1-0, 1.1.0-1, 1.1.0-0, 1.0.3-0
    
    :depends biopython: 
    
-   :depends blast: 
-   
    :depends cython: 
    
-   :depends htslib: 1.3
+   :depends htslib: 1.9.*
    
    :depends joblib: 
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends muscle: 
    
-   :depends networkx: 1.11
+   :depends networkx: 1.11.*
    
    :depends numpy: >=1.9.3,<2.0a0
    
-   :depends pysam: >=0.9.1.4
+   :depends pysam: 0.15.1.*
    
    :depends python: >=2.7,<2.8.0a0
    
