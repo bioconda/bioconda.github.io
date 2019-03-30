@@ -23,7 +23,7 @@ moff
 
    |downloads_moff| |docker_moff|
 
-   :versions: 2.0.2-1, 2.0.2-0, 2.0.1-0, 1.2.1-1, 1.2.1-0, 1.2-0, 1.1-0
+   :versions: 2.0.2-2, 2.0.2-1, 2.0.2-0, 2.0.1-0, 1.2.1-1, 1.2.1-0, 1.2-0, 1.1-0
    
    :depends brain-isotopic-distribution: 
    
@@ -34,6 +34,8 @@ moff
    :depends pandas: >=0.23
    
    :depends pymzml: >=2.0.6
+   
+   :depends pynumpress: 
    
    :depends pyteomics: >=3.5
    

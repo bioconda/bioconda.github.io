@@ -24,7 +24,7 @@ scvi
 
    |downloads_scvi| |docker_scvi|
 
-   :versions: 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.3-0, 0.1.2-0
+   :versions: 0.3.0-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.3-0, 0.1.2-0
    
    :depends anndata: >=0.6
    
@@ -33,6 +33,8 @@ scvi
    :depends ipython: >=7
    
    :depends jupyter: >=1.0.0
+   
+   :depends leidenalg: >=0.7.0
    
    :depends loompy: 2.0.9
    
@@ -48,13 +50,19 @@ scvi
    
    :depends python: >=3.6
    
-   :depends pytorch: >=0.4.1
+   :depends python-igraph: >=0.7.1
+   
+   :depends pytorch: 0.4.1
    
    :depends scikit-learn: >=0.18
    
    :depends scipy: >=1.1
    
+   :depends seaborn: >=0.9.0
+   
    :depends tqdm: >=4
+   
+   :depends umap-learn: >=0.3.7
    
    :depends xlrd: >=1.0
    

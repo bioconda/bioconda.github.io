@@ -23,7 +23,7 @@ hla-la
 
    |downloads_hla-la| |docker_hla-la|
 
-   :versions: 1.0-1, 1.0-0
+   :versions: 1.0-2, 1.0-1, 1.0-0
    
    :depends boost-cpp: >=1.68.0,<1.68.1.0a0
    
