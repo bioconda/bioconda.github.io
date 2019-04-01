@@ -24,8 +24,6 @@ mimodd
 
    :versions: 0.1.9-0, 0.1.8-0, 0.1.7.3-0
    
-   :depends libgcc: 
-   
    :depends python: 3.5*
    
    :depends rpy2: 

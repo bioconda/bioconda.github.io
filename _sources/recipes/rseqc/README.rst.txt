@@ -29,9 +29,7 @@ rseqc
    
    :depends cython: >=0.17
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends numpy: 
    

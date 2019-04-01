@@ -26,8 +26,6 @@ cmappy
    
    :depends h5py: >=2.6.0
    
-   :depends libstdcxx-ng: >=4.9
-   
    :depends numpy: >=1.11.2
    
    :depends pandas: >=0.18

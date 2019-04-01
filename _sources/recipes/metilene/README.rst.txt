@@ -26,8 +26,6 @@ metilene
    
    :depends bedtools: >=2.24
    
-   :depends libgcc-ng: >=7.3.0
-   
    :depends perl: 
    
    :depends r-base: 

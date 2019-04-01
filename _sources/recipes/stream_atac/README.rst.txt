@@ -30,11 +30,9 @@ stream_atac
    
    :depends bioconductor-chromvar: 1.4.1.*
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
-   :depends libgfortran-ng: >=7,<8.0a0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgfortran: >=3.0.1,<4.0.0.a0
    
    :depends openssl: >=1.1.1a,<1.1.2a
    

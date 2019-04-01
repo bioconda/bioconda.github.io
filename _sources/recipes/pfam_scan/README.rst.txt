@@ -26,7 +26,7 @@ pfam_scan
    
    :depends hmmer: >=3.0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.0,<5.27.0a0
    
    :depends perl-bioperl: >=1.4
    

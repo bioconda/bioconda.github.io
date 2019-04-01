@@ -24,9 +24,7 @@ ngmlr
 
    :versions: 0.2.7-1, 0.2.7-0, 0.2.6-1, 0.2.6-0, 0.2.5-0, 0.2.4-2, 0.2.4-1, 0.2.4-0, 0.2.3-2, 0.2.3-1, 0.2.3-0, 0.2.2-0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends zlib: >=1.2.11,<1.3.0a0
    

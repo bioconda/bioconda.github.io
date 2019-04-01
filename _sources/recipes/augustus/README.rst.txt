@@ -37,9 +37,7 @@ augustus
    
    :depends libcblas: >=3.8.0,<4.0a0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    
    :depends lp_solve: 
    

@@ -23,11 +23,11 @@ fgmp
 
    |downloads_fgmp| |docker_fgmp|
 
-   :versions: 1.0.1-0
+   :versions: 1.0.3-0, 1.0.1-0
    
-   :depends augustus: >=3.0
+   :depends augustus: >=3.2.3
    
-   :depends blast: 2.2.31
+   :depends blast: >=2.2.31
    
    :depends emboss: >=6.5.7
    

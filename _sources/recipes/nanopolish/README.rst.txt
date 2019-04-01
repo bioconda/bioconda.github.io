@@ -40,9 +40,7 @@ nanopolish
    
    :depends libdeflate: >=1.0,<1.1.0a0
    
-   :depends libgcc-ng: >=7.3.0
-   
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc: 
    
    :depends ncurses: >=6.1,<6.2.0a0
    

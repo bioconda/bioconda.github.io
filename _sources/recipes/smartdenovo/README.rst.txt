@@ -24,8 +24,6 @@ smartdenovo
 
    :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0
    
-   :depends libgcc-ng: >=4.9
-   
    :depends perl: 
    
    :requirements:

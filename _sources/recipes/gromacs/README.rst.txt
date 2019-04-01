@@ -27,15 +27,13 @@ gromacs
    
    :depends fftw: 
    
-   :depends libgcc-ng: >=7.3.0
+   :depends khronos-opencl-icd-loader: 
+   
+   :depends libcxx: >=4.0.1
    
    :depends libhwloc: 2.*
    
-   :depends libstdcxx-ng: >=7.3.0
-   
-   :depends ocl-icd: 
-   
-   :depends openmp: 
+   :depends ocl_icd_wrapper_apple: 
    
    :requirements:
 
