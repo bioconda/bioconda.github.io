@@ -44,6 +44,8 @@ medaka
    
    :depends libdeflate: >=1.0,<1.1.0a0
    
+   :depends libgcc-ng: >=7.3.0
+   
    :depends minimap2: 2.11
    
    :depends numpy: 1.16.1

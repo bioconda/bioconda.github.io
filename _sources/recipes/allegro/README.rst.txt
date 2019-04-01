@@ -24,6 +24,8 @@ allegro
 
    :versions: 3-2, 3-1, 2-0
    
+   :depends libstdcxx-ng: >=4.9
+   
    :depends zlib: >=1.2.11,<1.3.0a0
    
    :requirements:

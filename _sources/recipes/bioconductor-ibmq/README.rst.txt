@@ -28,7 +28,7 @@ bioconductor-ibmq
    
    :depends gsl: >=2.4,<2.5.0a0
    
-   :depends llvm-openmp: 
+   :depends libgcc-ng: >=7.3.0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    

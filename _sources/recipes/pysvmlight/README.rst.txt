@@ -24,6 +24,8 @@ pysvmlight
 
    :versions: 0.4-1
    
+   :depends libgcc-ng: >=4.9
+   
    :depends python: >=2.7,<2.8.0a0
    
    :requirements:

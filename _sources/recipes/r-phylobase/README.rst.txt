@@ -24,7 +24,9 @@ r-phylobase
 
    :versions: 0.8.4-4, 0.8.4-3, 0.8.4-2, 0.8.4-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends r-ade4: 
    

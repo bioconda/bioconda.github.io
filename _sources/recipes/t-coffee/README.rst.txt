@@ -31,11 +31,15 @@ t-coffee
    
    :depends clustalw: 
    
+   :depends consan: 
+   
    :depends dca: 
    
    :depends dialign-tx: 1.0.2.*
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends mafft: 7.310.*
    
@@ -46,6 +50,8 @@ t-coffee
    :depends pasta: 
    
    :depends phylip: 
+   
+   :depends poa: 2.0.*
    
    :depends prank: 
    

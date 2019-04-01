@@ -26,6 +26,8 @@ misopy
    
    :depends bedtools: 
    
+   :depends libgcc-ng: >=4.9
+   
    :depends matplotlib: 
    
    :depends numpy: >=1.5.0
