@@ -11,7 +11,7 @@ r-hemdag
 
    An implementation of Hierarchical Ensemble Methods for Directed Acyclic Graphs \(DAGs\). The \'HEMDAG\' package can be used to enhance the predictions of virtually any flat learning methods\, by taking into account the hierarchical nature of the classes of a bio\-ontology. \'HEMDAG\' is specifically designed for exploiting the hierarchical relationships of DAG\-structured taxonomies\, such as the Human Phenotype Ontology \(HPO\) or the Gene Ontology \(GO\)\, but it can be also safely applied to tree\-structured taxonomies \(as FunCat\)\, since trees are DAGs. \'HEMDAG\' scale nicely both in terms of the complexity of the taxonomy and in the cardinality of the examples. \(Marco Notaro\, Max Schubach\, Peter N. Robinson and Giorgio Valentini \(2017\) \<doi\:10.1186\/s12859\-017\-1854\-y\>\).
 
-   :homepage: https://hemdag-tutorials.readthedocs.io, https://github.com/marconotaro/HEMDAG
+   :homepage: https://github.com/marconotaro/HEMDAG
    :license: GPL3 / GPL (>= 3)
    :recipe: /`r-hemdag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-hemdag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-hemdag/meta.yaml>`_
 
@@ -22,7 +22,7 @@ r-hemdag
 
    |downloads_r-hemdag| |docker_r-hemdag|
 
-   :versions: 2.2.5-1, 2.2.5-0, 2.1.3-0, 2.1.2-0, 2.0.1-0
+   :versions: 2.4.7-0, 2.2.5-1, 2.2.5-0, 2.1.3-0, 2.1.2-0, 2.0.1-0
    
    :depends bioconductor-graph: 
    

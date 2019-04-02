@@ -22,7 +22,9 @@ selene-sdk
 
    |downloads_selene-sdk| |docker_selene-sdk|
 
-   :versions: 0.3.0-1, 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.3-0, 0.1.2-0, 0.0.1-0
+   :versions: 0.3.0-2, 0.3.0-1, 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.3-0, 0.1.2-0, 0.0.1-0
+   
+   :depends cython: >=0.29.3
    
    :depends h5py: 
    
@@ -30,7 +32,7 @@ selene-sdk
    
    :depends matplotlib: 
    
-   :depends numpy: >=1.11.3
+   :depends numpy: 1.15.1
    
    :depends pandas: 
    

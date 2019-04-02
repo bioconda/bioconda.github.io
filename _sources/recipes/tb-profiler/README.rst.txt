@@ -9,7 +9,7 @@ tb-profiler
 .. conda:recipe:: tb-profiler
    :replaces_section_title:
 
-   TBProfiler tools for Mtb NGS data
+   Profiling tool for Mycobacterium tuberculosis to detect drug resistance and lineage from WGS data
 
    :homepage: https://github.com/jodyphelan/TBProfiler
    :license: GPL3
@@ -22,7 +22,7 @@ tb-profiler
 
    |downloads_tb-profiler| |docker_tb-profiler|
 
-   :versions: 2.1-1, 2.1-0, 2.0-0
+   :versions: 2.1-2, 2.1-1, 2.1-0, 2.0-0
    
    :depends pathogen-profiler: 
    

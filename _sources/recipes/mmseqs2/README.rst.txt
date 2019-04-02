@@ -22,13 +22,13 @@ mmseqs2
 
    |downloads_mmseqs2| |docker_mmseqs2|
 
-   :versions: 7.4e23d-1, 6.f5a1c-1, 5.9375b-1, 4.bff50-1, 4.0b8cc-1, 3.be8f6-1, 3.be8f6-0, 2.23394-0
+   :versions: 8.fac81-1, 7.4e23d-1, 6.f5a1c-1, 5.9375b-1, 4.bff50-1, 4.0b8cc-1, 3.be8f6-1, 3.be8f6-0, 2.23394-0
    
    :depends bzip2: >=1.0.6,<2.0a0
    
    :depends gawk: 
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libcxx: >=4.0.1
    
    :depends openmp: 
    

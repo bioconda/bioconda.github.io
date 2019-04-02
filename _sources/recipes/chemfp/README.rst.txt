@@ -33,9 +33,9 @@ chemfp
 
    |downloads_chemfp| |docker_chemfp|
 
-   :versions: 1.4-1, 1.4-0, 1.3-1, 1.3-0, 1.3a1-0, 1.1p1-0
+   :versions: 1.5-0, 1.4-1, 1.4-0, 1.3-1, 1.3-0, 1.3a1-0, 1.1p1-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
    :depends openbabel: 
    
