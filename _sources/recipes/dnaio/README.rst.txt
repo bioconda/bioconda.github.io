@@ -22,7 +22,7 @@ dnaio
 
    |downloads_dnaio| |docker_dnaio|
 
-   :versions: 0.3-0
+   :versions: 0.3-1, 0.3-0
    
    :depends libgcc-ng: >=7.3.0
    

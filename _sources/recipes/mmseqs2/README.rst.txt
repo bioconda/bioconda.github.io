@@ -28,7 +28,9 @@ mmseqs2
    
    :depends gawk: 
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends openmp: 
    

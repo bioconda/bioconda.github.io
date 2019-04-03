@@ -22,7 +22,7 @@ pygtftk
 
    |downloads_pygtftk| |docker_pygtftk|
 
-   :versions: 1.0.2-0, 1.0.1-0
+   :versions: 1.0.5-0, 1.0.2-0, 1.0.1-0
    
    :depends argparse: 
    
@@ -43,6 +43,8 @@ pygtftk
    :depends libgcc-ng: >=7.3.0
    
    :depends matplotlib: >=2.0.2
+   
+   :depends mpmath: 
    
    :depends nose: 
    

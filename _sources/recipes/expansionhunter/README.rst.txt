@@ -12,7 +12,7 @@ expansionhunter
    a tool for estimating repeat sizes
 
    :homepage: https://github.com/Illumina/ExpansionHunter
-   :license: GPL3
+   :license: Apache v2.0
    :recipe: /`expansionhunter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expansionhunter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expansionhunter/meta.yaml>`_
 
    

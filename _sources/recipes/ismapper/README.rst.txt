@@ -23,7 +23,19 @@ ismapper
 
    |downloads_ismapper| |docker_ismapper|
 
-   :versions: 
+   :versions: 2.0-1
+   
+   :depends bedtools: >=2.20
+   
+   :depends biopython: >=1.63
+   
+   :depends blast: >=2.2.28
+   
+   :depends bwa: >=0.7.5a
+   
+   :depends python: >=3.6
+   
+   :depends samtools: >=0.1.19
    
    :requirements:
 

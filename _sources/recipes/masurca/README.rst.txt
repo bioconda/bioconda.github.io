@@ -13,9 +13,11 @@ masurca
    MaSuRCA requires Illumina data\, and supports third\-generation PacBio\/Nanopore
    MinION reads for hybrid assembly.
 
+
    :homepage: http://masurca.blogspot.co.uk/
-   :license: GPL-3.0-only
+   :license: GPL / GPLv3
    :recipe: /`masurca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/masurca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/masurca/meta.yaml>`_
+   :links: biotools: :biotools:`masurca`, doi: :doi:`10.1093/bioinformatics/btt476`
 
    
 
@@ -24,15 +26,17 @@ masurca
 
    |downloads_masurca| |docker_masurca|
 
-   :versions: 3.3.0-0, 3.2.9-0, 3.2.8-0, 3.2.7-0
+   :versions: 3.3.1-0, 3.3.0-0, 3.2.9-0, 3.2.8-0, 3.2.7-0
    
-   :depends boost: >=1.67.0,<1.67.1.0a0
+   :depends boost: >=1.68.0,<1.68.1.0a0
    
    :depends bzip2: >=1.0.6,<2.0a0
    
-   :depends libgcc-ng: >=4.9
+   :depends grep: 
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    

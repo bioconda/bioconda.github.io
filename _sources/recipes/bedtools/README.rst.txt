@@ -6,14 +6,14 @@
 bedtools
 ========
 
-.. conda:recipe:: bedtools/2.19.1
+.. conda:recipe:: bedtools
    :replaces_section_title:
 
-   A swiss army knife for genome arithmetic.  https\:\/\/github.com\/arq5x\/bedtools2 
+   A powerful toolset for genome arithmetic
 
    :homepage: http://bedtools.readthedocs.org/
    :license: GPL v2
-   :recipe: /`bedtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedtools>`_/`2.19.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedtools/2.19.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedtools/2.19.1/meta.yaml>`_
+   :recipe: /`bedtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedtools/meta.yaml>`_
    :links: biotools: :biotools:`bedtools`
 
    
@@ -23,11 +23,19 @@ bedtools
 
    |downloads_bedtools| |docker_bedtools|
 
-   :versions: 2.27.1-3, 2.27.1-2, 2.27.1-1, 2.27.1-0, 2.27.0-3, 2.27.0-2, 2.27.0-1, 2.27.0-0, 2.26.0-0, 2.26.0gx-3, 2.26.0gx-2, 2.26.0gx-1, 2.26.0gx-0, 2.25.0-5, 2.25.0-4, 2.25.0-3, 2.25.0-2, 2.25.0-1, 2.25.0-0, 2.24.0-0, 2.23.0-2, 2.23.0-1, 2.23.0-0, 2.22-2, 2.22-1, 2.22-0, 2.20.1-2, 2.20.1-1, 2.20.1-0, 2.19.1-2, 2.19.1-1, 2.19.1-0, 2.17.0-0, 2.16.2-1, 2.16.2-0
+   :versions: 2.28.0-0, 2.27.1-3, 2.27.1-2, 2.27.1-1, 2.27.1-0, 2.27.0-3, 2.27.0-2, 2.27.0-1, 2.27.0-0, 2.26.0-0, 2.26.0gx-3, 2.26.0gx-2, 2.26.0gx-1, 2.26.0gx-0, 2.25.0-5, 2.25.0-4, 2.25.0-3, 2.25.0-2, 2.25.0-1, 2.25.0-0, 2.24.0-0, 2.23.0-2, 2.23.0-1, 2.23.0-0, 2.22-2, 2.22-1, 2.22-0, 2.20.1-2, 2.20.1-1, 2.20.1-0, 2.19.1-2, 2.19.1-1, 2.19.1-0, 2.17.0-0, 2.16.2-1, 2.16.2-0
+   
+   :depends bzip2: >=1.0.6,<2.0a0
+   
+   :depends curl: >=7.64.1,<8.0a0
+   
+   :depends libdeflate: >=1.0,<1.1.0a0
    
    :depends libgcc-ng: >=7.3.0
    
    :depends libstdcxx-ng: >=7.3.0
+   
+   :depends xz: >=5.2.4,<5.3.0a0
    
    :depends zlib: >=1.2.11,<1.3.0a0
    
