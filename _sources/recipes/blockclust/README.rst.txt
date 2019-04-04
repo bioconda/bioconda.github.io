@@ -23,15 +23,15 @@ blockclust
 
    |downloads_blockclust| |docker_blockclust|
 
-   :versions: 1.1.0-3, 1.1.0-2, 1.1.0-1, 1.1.0-0
+   :versions: 1.1.0-4, 1.1.0-3, 1.1.0-2, 1.1.0-1, 1.1.0-0
    
    :depends cloudpickle: 0.5.6.*
    
    :depends eden: 1.1.*
    
-   :depends gnu-wget: 
+   :depends libgcc-ng: >=7.3.0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends mcl: >=14.137
    
@@ -44,6 +44,8 @@ blockclust
    :depends r-dendextend: >=1.8.0
    
    :depends scikit-learn: >=0.20.0
+   
+   :depends wget: 
    
    :requirements:
 

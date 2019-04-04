@@ -22,9 +22,9 @@ opsin
 
    |downloads_opsin| |docker_opsin|
 
-   :versions: 2.1.0-2, 2.1.0-1, 2.1.0-0, 1.4.0-2, 1.4.0-1, 1.4.0-0
+   :versions: 2.4.0-0, 2.1.0-2, 2.1.0-1, 2.1.0-0, 1.4.0-2, 1.4.0-1, 1.4.0-0
    
-   :depends java-jdk: >=6
+   :depends openjdk: >=6
    
    :requirements:
 

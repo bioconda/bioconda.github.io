@@ -22,13 +22,13 @@ athena_meta
 
    |downloads_athena_meta| |docker_athena_meta|
 
-   :versions: 1.2-0
+   :versions: 1.3-0, 1.2-0
    
    :depends bwa: 0.7.*
    
    :depends bx-python: 0.8.*
    
-   :depends flye: 2.4.*
+   :depends flye: 2.3.1.*
    
    :depends htslib: 1.9.*
    

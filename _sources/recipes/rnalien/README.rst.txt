@@ -23,27 +23,27 @@ rnalien
 
    |downloads_rnalien| |docker_rnalien|
 
-   :versions: 1.3.7-5, 1.3.7-4, 1.3.7-3, 1.3.7-2, 1.3.7-1, 1.3.7-0, 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.2.5-0
+   :versions: 1.3.8-5, 1.3.7-5, 1.3.7-4, 1.3.7-3, 1.3.7-2, 1.3.7-1, 1.3.7-0, 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.2.5-0
    
-   :depends gmp: 5.1*
+   :depends ca-certificates: 
    
-   :depends infernal: ==1.1.2
+   :depends gmp: >=6.1.2,<7.0a0
    
-   :depends libgcc: 
+   :depends infernal: 1.1.2
    
-   :depends locarna: ==1.9.1
+   :depends locarna: 1.9.1
    
    :depends openssl: 
    
-   :depends perl: 5.22.0*
+   :depends perl: >=5.26.2,<5.26.3.0a0
    
-   :depends rnacode: ==0.3
+   :depends rnacode: 0.3
    
-   :depends rnaz: ==2.1
+   :depends rnaz: 2.1
    
-   :depends viennarna: ==2.3.3
+   :depends viennarna: 2.3.3
    
-   :depends zlib: 1.2.11*
+   :depends zlib: >=1.2.11,<1.3.0a0
    
    :requirements:
 

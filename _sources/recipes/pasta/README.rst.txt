@@ -22,11 +22,11 @@ pasta
 
    |downloads_pasta| |docker_pasta|
 
-   :versions: 1.7.8-2, 1.7.8-0, 0.2-0
+   :versions: 1.7.8-3, 1.7.8-2, 1.7.8-0, 0.2-0
    
    :depends dendropy: >=4.1.0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
    :depends openjdk: 
    

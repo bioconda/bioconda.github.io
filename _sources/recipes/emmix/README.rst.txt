@@ -22,9 +22,9 @@ emmix
 
    |downloads_emmix| |docker_emmix|
 
-   :versions: 1.3-2, 1.3-1, 1.3-0
+   :versions: 1.3-3, 1.3-2, 1.3-1, 1.3-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
    :requirements:
 
