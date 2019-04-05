@@ -9,20 +9,33 @@ r-hemdag
 .. conda:recipe:: r-hemdag
    :replaces_section_title:
 
-   An implementation of Hierarchical Ensemble Methods for Directed Acyclic Graphs \(DAGs\). The \'HEMDAG\' package can be used to enhance the predictions of virtually any flat learning methods\, by taking into account the hierarchical nature of the classes of a bio\-ontology. \'HEMDAG\' is specifically designed for exploiting the hierarchical relationships of DAG\-structured taxonomies\, such as the Human Phenotype Ontology \(HPO\) or the Gene Ontology \(GO\)\, but it can be also safely applied to tree\-structured taxonomies \(as FunCat\)\, since trees are DAGs. \'HEMDAG\' scale nicely both in terms of the complexity of the taxonomy and in the cardinality of the examples. \(Marco Notaro\, Max Schubach\, Peter N. Robinson and Giorgio Valentini \(2017\) \<doi\:10.1186\/s12859\-017\-1854\-y\>\).
+   a collection of Hierarchical Ensemble Methods \(HEMs\) for Directed Acyclic Graphs \(DAGs\).
 
    :homepage: https://github.com/marconotaro/HEMDAG
+   :documentation: https://hemdag-tutorials.readthedocs.io
+   
    :license: GPL3 / GPL (>= 3)
    :recipe: /`r-hemdag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-hemdag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-hemdag/meta.yaml>`_
 
-   
+    \[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/hemdag\-tutorials\/badge\/\?version\=latest\)\]\(https\:\/\/hemdag\-tutorials.readthedocs.io\/en\/latest\/\?badge\=latest\)
+
+   HEMDAG library\:
+   \* implements several Hierarchical Ensemble Methods \(HEMs\) for Directed Acyclic Graphs \(DAGs\)\;
+   \* can be used to reconcile flat predictions by considering the topology of the ontology\;
+   \* provides biologically consistent predictions according to the hierarchical nature of the ontology classes\;
+   \* is specifically designed for exploiting the hierarchical relationships of DAG\-structured taxonomies\, such as the Human Phenotype Ontology \(HPO\) or the Gene Ontology \(GO\)\, but can be safely applied to tree\-structured taxonomies as well \(e.g. FunCat\)\, since trees are DAGs\;
+   \* scales nicely both in terms of the complexity of the taxonomy and in the cardinality of the examples\;
+   \* provides several utility functions to process and analyze graphs\;
+   \* provides several performance metrics to evaluate HEMs algorithms.
+
+    
 
 
 .. conda:package:: r-hemdag
 
    |downloads_r-hemdag| |docker_r-hemdag|
 
-   :versions: 2.4.7-0, 2.2.5-1, 2.2.5-0, 2.1.3-0, 2.1.2-0, 2.0.1-0
+   :versions: 2.4.7-1, 2.4.7-0, 2.2.5-1, 2.2.5-0, 2.1.3-0, 2.1.2-0, 2.0.1-0
    
    :depends bioconductor-graph: 
    

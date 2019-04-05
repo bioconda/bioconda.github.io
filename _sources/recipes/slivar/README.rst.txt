@@ -22,7 +22,7 @@ slivar
 
    |downloads_slivar| |docker_slivar|
 
-   :versions: 0.0.8-0, 0.0.7-0, 0.0.5-0
+   :versions: 0.0.9-0, 0.0.8-0, 0.0.7-0, 0.0.5-0
    
    :depends htslib: >=1.9,<1.10.0a0
    
