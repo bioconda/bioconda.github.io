@@ -22,7 +22,7 @@ ariba
 
    |downloads_ariba| |docker_ariba|
 
-   :versions: 2.13.3-0, 2.13.2-0, 2.12.1-0, 2.12.0-2, 2.12.0-0, 2.11.1-0, 2.11.0-0, 2.10.1-0, 2.10.0-0, 2.5.1-0, 0.6.0-0
+   :versions: 2.13.5-0, 2.13.3-0, 2.13.2-0, 2.12.1-0, 2.12.0-2, 2.12.0-0, 2.11.1-0, 2.11.0-0, 2.10.1-0, 2.10.0-0, 2.5.1-0, 0.6.0-0
    
    :depends bcftools: >=1.2
    
@@ -36,9 +36,9 @@ ariba
    
    :depends dendropy: >=4.2.0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends matplotlib: 
    
@@ -46,7 +46,7 @@ ariba
    
    :depends pyfastaq: >=3.12.0
    
-   :depends pymummer: >=0.10.2
+   :depends pymummer: <=0.10.3
    
    :depends pysam: >=0.9.1
    

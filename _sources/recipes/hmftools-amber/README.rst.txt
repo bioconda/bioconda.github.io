@@ -22,7 +22,7 @@ hmftools-amber
 
    |downloads_hmftools-amber| |docker_hmftools-amber|
 
-   :versions: 2.0-0
+   :versions: 2.3-0, 2.0-0
    
    :depends bioconductor-copynumber: 
    

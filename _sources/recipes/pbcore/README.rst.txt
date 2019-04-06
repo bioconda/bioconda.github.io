@@ -22,7 +22,7 @@ pbcore
 
    |downloads_pbcore| |docker_pbcore|
 
-   :versions: 1.6.5-0, 1.5.1-2, 1.5.1-1, 1.5.1-0, 1.2.10-2, 1.2.10-1, 1.2.10-0
+   :versions: 1.7.1-0, 1.6.5-0, 1.5.1-2, 1.5.1-1, 1.5.1-0, 1.2.10-2, 1.2.10-1, 1.2.10-0
    
    :depends cython: 
    
@@ -30,7 +30,7 @@ pbcore
    
    :depends numpy: >=1.15
    
-   :depends pysam: >=0.13
+   :depends pysam: >=0.15.1
    
    :depends python: >=2.7,<2.8.0a0
    

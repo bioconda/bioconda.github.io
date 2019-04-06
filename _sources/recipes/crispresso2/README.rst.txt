@@ -22,7 +22,7 @@ crispresso2
 
    |downloads_crispresso2| |docker_crispresso2|
 
-   :versions: 2.0.23-1, 2.0.23-0
+   :versions: 2.0.27-3, 2.0.23-1, 2.0.23-0
    
    :depends argparse: 
    
@@ -36,6 +36,8 @@ crispresso2
    
    :depends matplotlib: >=1.3.1
    
+   :depends networkx: 2.2.*
+   
    :depends numpy: >=1.9
    
    :depends pandas: >=0.15
@@ -44,7 +46,9 @@ crispresso2
    
    :depends samtools: 
    
-   :depends seaborn: >=0.7.1
+   :depends scipy: 1.1.0.*
+   
+   :depends seaborn: 0.7.1.*
    
    :depends trimmomatic: 
    
