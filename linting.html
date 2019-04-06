@@ -82,7 +82,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#recipes-duplicated-in-conda-forge">Recipes duplicated in conda-forge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#linting-functions">Linting functions</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#in-other-channels"><cite>in_other_channels</cite></a></li>
-<li class="toctree-l3"><a class="reference internal" href="#already-in-bioconda-currently-disabled"><cite>already_in_bioconda</cite> (currently disabled)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#already-in-bioconda"><cite>already_in_bioconda</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#missing-home"><cite>missing_home</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#missing-summary"><cite>missing_summary</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#missing-license"><cite>missing_license</cite></a></li>
@@ -215,11 +215,12 @@ a bioconda-specific patch is required. However it is almost always better to
 fix or update the recipe in the other channel. Note that the package in the
 bioconda channel will remain in order to maintain reproducibility.</p>
 </div>
-<div class="section" id="already-in-bioconda-currently-disabled">
-<h3><cite>already_in_bioconda</cite> (currently disabled)<a class="headerlink" href="#already-in-bioconda-currently-disabled" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="already-in-bioconda">
+<h3><cite>already_in_bioconda</cite><a class="headerlink" href="#already-in-bioconda" title="Permalink to this headline">¶</a></h3>
 <p>Reason for failing: The current package version, build, and platform
 (linux/osx) already exists in the bioconda channel.</p>
-<p>Rationale: This acts as an early warning to bump version or build numbers.</p>
+<p>Rationale: This change does not trigger the build of any packages, leading
+to a mismatch between the recipe and our package archive.</p>
 <p>How to resolve: Increase the version number or <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#build-number-and-string">build number</a> as
 appropriate.</p>
 </div>

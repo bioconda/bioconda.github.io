@@ -15,6 +15,7 @@ mothur
    :developer docs: https://github.com/mothur/mothur
    :license: GPL / GPL-3.0
    :recipe: /`mothur <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mothur>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mothur/meta.yaml>`_
+   :links: doi: :doi:`10.1128/AEM.01541-09`
 
    
 
@@ -23,15 +24,17 @@ mothur
 
    |downloads_mothur| |docker_mothur|
 
-   :versions: 1.41.0-0, 1.40.5-0, 1.39.5-4, 1.39.5-3, 1.39.5-2, 1.39.5-1, 1.39.5-0, 1.38.1.1-0, 1.36.1-2, 1.36.1-1, 1.36.1-0, 1.25.0-0
+   :versions: 1.41.3-0, 1.41.0-0, 1.40.5-0, 1.39.5-4, 1.39.5-3, 1.39.5-2, 1.39.5-1, 1.39.5-0, 1.38.1.1-0, 1.36.1-2, 1.36.1-1, 1.36.1-0, 1.25.0-0
    
    :depends blast-legacy: 
    
-   :depends boost: >=1.67.0,<1.67.1.0a0
+   :depends boost: >=1.68.0,<1.68.1.0a0
    
-   :depends hdf5: >=1.10.3,<1.10.4.0a0
+   :depends hdf5: >=1.10.4,<1.10.5.0a0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   
+   :depends libstdcxx-ng: >=7.3.0
    
    :depends ncurses: >=6.1,<6.2.0a0
    
