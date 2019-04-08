@@ -74,6 +74,7 @@
 <li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="build-system.html">Build system</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cb3.html">Conda build v3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -107,7 +108,7 @@ specializing in bioinformatics software. Bioconda consists of:</p>
 <ul class="simple">
 <li><p>a <a class="reference external" href="https://github.com/bioconda/bioconda-recipes">repository of recipes</a> hosted on GitHub</p></li>
 <li><p>a <a class="reference external" href="https://github.com/bioconda/bioconda-utils">build system</a> turning these recipes into conda packages</p></li>
-<li><p>a <a class="reference external" href="https://anacoda.org/bioconda/">repository of packages</a> containing over 6000 bioinformatics
+<li><p>a <a class="reference external" href="https://anancoda.org/bioconda/">repository of packages</a> containing over 6000 bioinformatics
 packages ready to use with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code></p></li>
 <li><p>over 600 contributors and 500 members who add, modify, update and
 maintain the recipes</p></li>
@@ -356,6 +357,45 @@ channel.</p>
 <li class="toctree-l2"><a class="reference internal" href="cb3.html#the-new-host-section">The new <code class="docutils literal notranslate"><span class="pre">host</span></code> section</a></li>
 <li class="toctree-l2"><a class="reference internal" href="cb3.html#compiler-tools">Compiler tools</a></li>
 <li class="toctree-l2"><a class="reference internal" href="cb3.html#global-pinning">Global pinning</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developer.html">Developer Docs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="_autosummary/bioconda_utils.html">bioconda_utils</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.bot.html">bioconda_utils.bot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.cli.html">bioconda_utils.cli</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.async.html">bioconda_utils.async</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.bioconductor_skeleton.html">bioconda_utils.bioconductor_skeleton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.build.html">bioconda_utils.build</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.circleci.html">bioconda_utils.circleci</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.cli.html">bioconda_utils.cli</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.cran_skeleton.html">bioconda_utils.cran_skeleton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.docker_utils.html">bioconda_utils.docker_utils</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.githandler.html">bioconda_utils.githandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.github_integration.html">bioconda_utils.github_integration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.githubhandler.html">bioconda_utils.githubhandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.graph.html">bioconda_utils.graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.hosters.html">bioconda_utils.hosters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.lint_functions.html">bioconda_utils.lint_functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.linting.html">bioconda_utils.linting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.pkg_test.html">bioconda_utils.pkg_test</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.recipe.html">bioconda_utils.recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.update.html">bioconda_utils.update</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.update_pinnings.html">bioconda_utils.update_pinnings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.upload.html">bioconda_utils.upload</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.utils.html">bioconda_utils.utils</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="_autosummary/bioconda_utils.bot.html">bioconda_utils.bot</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.bot.commands.html">bioconda_utils.bot.commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.bot.config.html">bioconda_utils.bot.config</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.bot.events.html">bioconda_utils.bot.events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.bot.tasks.html">bioconda_utils.bot.tasks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.bot.views.html">bioconda_utils.bot.views</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.bot.web.html">bioconda_utils.bot.web</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.bot.worker.html">bioconda_utils.bot.worker</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>

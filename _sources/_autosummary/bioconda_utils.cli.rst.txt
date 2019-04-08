@@ -1,0 +1,35 @@
+bioconda\_utils.cli
+===================
+
+.. automodule:: bioconda_utils.cli
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      autobump
+      bioconductor_skeleton
+      bot
+      build
+      clean_cran_skeleton
+      dag
+      dependent
+      duplicates
+      enable_debugging
+      enable_logging
+      enable_threads
+      lint
+      main
+      update_pinning
+   
+   
+
+   
+   
+   
+
+   
+   
+   

@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>bioconda_utils.update &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="bioconda_utils.update_pinnings" href="bioconda_utils.update_pinnings.html" />
+    <link rel="prev" title="bioconda_utils.recipe" href="bioconda_utils.recipe.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../updating.html">Updating recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cb3.html">Conda build v3</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../developer.html">Developer Docs</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bioconda_utils.bot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cli.html">bioconda_utils.cli</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.async.html">bioconda_utils.async</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconda_utils.bioconductor_skeleton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.build.html">bioconda_utils.build</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.circleci.html">bioconda_utils.circleci</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cli.html">bioconda_utils.cli</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cran_skeleton.html">bioconda_utils.cran_skeleton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.docker_utils.html">bioconda_utils.docker_utils</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githandler.html">bioconda_utils.githandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.github_integration.html">bioconda_utils.github_integration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githubhandler.html">bioconda_utils.githubhandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">bioconda_utils.graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">bioconda_utils.hosters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint_functions.html">bioconda_utils.lint_functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">bioconda_utils.linting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">bioconda_utils.pkg_test</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">bioconda_utils.recipe</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">bioconda_utils.update</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">bioconda_utils.update_pinnings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">bioconda_utils.upload</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.utils.html">bioconda_utils.utils</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.bot.html">bioconda_utils.bot</a></li>
+</ul>
+</li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../conda-recipe_index.html">Recipe Index</a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-bioconda_utils.update">
+<span id="bioconda-utils-update"></span><h1>bioconda_utils.update<a class="headerlink" href="#module-bioconda_utils.update" title="Permalink to this headline">¶</a></h1>
+<p>Updates packages when new upstream releases become available</p>
+<p>Overview:</p>
+<ul class="simple">
+<li><p>The <code class="xref any docutils literal notranslate"><span class="pre">Scanner</span></code> initializes the <a class="reference external" href="https://docs.python.org/3/library/asyncio.html#module-asyncio" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">asyncio</span></code></a> loop and for each recipe,
+loads the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> using <code class="xref any docutils literal notranslate"><span class="pre">Recipe</span></code> and executes its <code class="xref any docutils literal notranslate"><span class="pre">Filter</span></code>
+objects for each recipe.</p></li>
+<li><p>The <code class="xref any docutils literal notranslate"><span class="pre">Recipe</span></code> handles reading, modification and writing of
+<code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> files.</p></li>
+<li><p>The filters <code class="xref any docutils literal notranslate"><span class="pre">ExcludeSubrecipe</span></code> and <code class="xref any docutils literal notranslate"><span class="pre">ExcludeOtherChannel</span></code> exclude
+recipes in sub folders and present in other channels as configured.</p></li>
+<li><p>The filter <code class="xref any docutils literal notranslate"><span class="pre">ExcludeNoActiveUpdate</span></code> excludes packages that don’t
+already have an ongoing autobump update.</p></li>
+<li><p>The filters <code class="xref any docutils literal notranslate"><span class="pre">LoadRecipe</span></code> and <code class="xref any docutils literal notranslate"><span class="pre">GitLoadRecipe</span></code> fill the stub
+Recipe with content.</p></li>
+<li><p>The filter <code class="xref any docutils literal notranslate"><span class="pre">UpdateVersion</span></code> determines available upstream verions
+using <code class="xref any docutils literal notranslate"><span class="pre">Hoster</span></code> and its subclasses, selects the most recent,
+acceptable version and uses <code class="xref any docutils literal notranslate"><span class="pre">Recipe</span></code> to replace</p></li>
+<li><p>The filter <code class="xref any docutils literal notranslate"><span class="pre">FetchUpstreamDependencies</span></code> gathers additional
+dependencies not found by the <code class="xref any docutils literal notranslate"><span class="pre">UpdateVersion</span></code> filter. (Currently,
+that’s only trying to get Python deps by loading the <code class="docutils literal notranslate"><span class="pre">setup.py</span></code>)</p></li>
+<li><p>The filter <code class="xref any docutils literal notranslate"><span class="pre">UpdateChecksums</span></code> downloads the modified source URLs
+and updates the checksums for each source of a recipe.</p></li>
+<li><p>The filter <code class="xref any docutils literal notranslate"><span class="pre">WriteRecipe</span></code> or the filter <code class="xref any docutils literal notranslate"><span class="pre">GitWriteRecipe</span></code> are used to
+write the recipe back, either to the current folder structure, or
+the git repo and creating a branch.</p></li>
+<li><p>The filter <code class="xref any docutils literal notranslate"><span class="pre">CreatePullRequest</span></code> creates pull requests on GitHub for
+changes made to per-recipe-branches.</p></li>
+<li><p>The filter <code class="xref any docutils literal notranslate"><span class="pre">MaxUpdates</span></code> terminates the loop after a number of recipes
+have come past it, to avoid too many PRs opened at once.</p></li>
+</ul>
+<p class="rubric">Classes</p>
+<table class="longtable docutils align-center">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">CreatePullRequest</span></code>(scanner, git_handler, …)</p></td>
+<td><p>Creates or Updates PR on GitHub</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">ExcludeBlacklisted</span></code>(scanner, config_fn)</p></td>
+<td><p>Filters blacklisted recipes</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">ExcludeNoActiveUpdate</span></code>(scanner, git_handler)</p></td>
+<td><p>Allows only recipes that already have an update active</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">ExcludeOtherChannel</span></code>(scanner, channels, cache)</p></td>
+<td><p>Filters recipes matching packages in other <strong>channels</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">ExcludeSubrecipe</span></code>(scanner[, always])</p></td>
+<td><p>Filters sub-recipes</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">FetchUpstreamDependencies</span></code>(scanner)</p></td>
+<td><p>Fetch requirements from upstream where possible</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Filter</span></code>(pipeline, *_args, **_kwargs)</p></td>
+<td><p>Filter for Scanner - class exists primarily to silence mypy</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">GitFilter</span></code>(scanner, git_handler)</p></td>
+<td><p>Base class for <code class="xref any docutils literal notranslate"><span class="pre">Filter</span></code> types needing access to the git repo</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">GitLoadRecipe</span></code>(scanner, git_handler)</p></td>
+<td><p>Loads <code class="xref any docutils literal notranslate"><span class="pre">Recipe</span></code> from git repo</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">GitWriteRecipe</span></code>(scanner, git_handler)</p></td>
+<td><p>Writes <code class="xref any docutils literal notranslate"><span class="pre">Recipe</span></code> to git repo</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">LoadRecipe</span></code>(scanner)</p></td>
+<td><p>Loads the Recipe from the filesystem</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaxUpdates</span></code>(scanner, max_updates)</p></td>
+<td><p>Terminate loop after <strong>max_updates</strong> Recipes have been updated.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Scanner</span></code>(recipe_folder, packages, cache_fn, …)</p></td>
+<td><p>Scans recipes and applies filters in asyncio loop</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChecksums</span></code>(scanner, failed_file)</p></td>
+<td><p>Download upstream source files, recompute checksum and update Recipe</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateVersion</span></code>(scanner, hoster_factory, …)</p></td>
+<td><p>Checks for updates to a recipe</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">WriteRecipe</span></code>(scanner)</p></td>
+<td><p>Writes the Recipe to the filesystem</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/_autosummary/bioconda_utils.update.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/bioconda_utils/update.py" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

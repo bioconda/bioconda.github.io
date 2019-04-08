@@ -1,0 +1,32 @@
+bioconda\_utils.update\_pinnings
+================================
+
+.. automodule:: bioconda_utils.update_pinnings
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      bump_recipe
+      check
+      have_variant
+      have_variant_but_for_python
+      will_build_variant
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      State
+   
+   
+
+   
+   
+   

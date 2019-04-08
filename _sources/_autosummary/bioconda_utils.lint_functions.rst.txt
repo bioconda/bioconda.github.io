@@ -1,0 +1,42 @@
+bioconda\_utils.lint\_functions
+===============================
+
+.. automodule:: bioconda_utils.lint_functions
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      already_in_bioconda
+      compilers_must_be_in_build
+      deprecated_numpy_spec
+      has_windows_bat_file
+      in_other_channels
+      invalid_identifiers
+      lint_multiple_metas
+      missing_hash
+      missing_home
+      missing_license
+      missing_summary
+      missing_tests
+      setup_py_install_args
+      should_be_noarch
+      should_not_be_noarch
+      should_not_use_fn
+      should_use_compilers
+      uses_git_url
+      uses_javajdk
+      uses_perl_threaded
+      uses_setuptools
+   
+   
+
+   
+   
+   
+
+   
+   
+   

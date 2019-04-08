@@ -1,0 +1,25 @@
+bioconda\_utils.bot.events
+==========================
+
+.. automodule:: bioconda_utils.bot.events
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      handle_check_run
+      handle_check_suite
+      handle_comment_created
+      handle_pull_request
+   
+   
+
+   
+   
+   
+
+   
+   
+   

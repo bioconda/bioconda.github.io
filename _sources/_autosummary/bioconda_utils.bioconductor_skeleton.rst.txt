@@ -1,0 +1,46 @@
+bioconda\_utils.bioconductor\_skeleton
+======================================
+
+.. automodule:: bioconda_utils.bioconductor_skeleton
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      bioarchive_url
+      bioconductor_annotation_data_url
+      bioconductor_experiment_data_url
+      bioconductor_tarball_url
+      bioconductor_versions
+      cargoport_url
+      fetchPackages
+      find_best_bioc_version
+      latest_bioconductor_devel_version
+      latest_bioconductor_release_version
+      write_recipe
+      write_recipe_recursive
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      BioCProjectPage
+   
+   
+
+   
+   
+   .. rubric:: Exceptions
+
+   .. autosummary::
+   
+      PackageNotFoundError
+      PageNotFoundError
+   
+   

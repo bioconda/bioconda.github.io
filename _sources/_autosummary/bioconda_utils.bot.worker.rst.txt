@@ -1,0 +1,31 @@
+bioconda\_utils.bot.worker
+==========================
+
+.. automodule:: bioconda_utils.bot.worker
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      custom_dumps
+      custom_loads
+      install_gpg_key
+      setup_new_celery_process
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      AsyncTask
+   
+   
+
+   
+   
+   

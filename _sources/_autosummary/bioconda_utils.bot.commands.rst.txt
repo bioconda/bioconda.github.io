@@ -1,0 +1,32 @@
+bioconda\_utils.bot.commands
+============================
+
+.. automodule:: bioconda_utils.bot.commands
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      command_bump
+      command_hello
+      command_lint
+      command_rebuild
+      command_recheck
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      CommandDispatch
+   
+   
+
+   
+   
+   

@@ -1,0 +1,37 @@
+bioconda\_utils.update
+======================
+
+.. automodule:: bioconda_utils.update
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      CreatePullRequest
+      ExcludeBlacklisted
+      ExcludeNoActiveUpdate
+      ExcludeOtherChannel
+      ExcludeSubrecipe
+      FetchUpstreamDependencies
+      Filter
+      GitFilter
+      GitLoadRecipe
+      GitWriteRecipe
+      LoadRecipe
+      MaxUpdates
+      Scanner
+      UpdateChecksums
+      UpdateVersion
+      WriteRecipe
+   
+   
+
+   
+   
+   

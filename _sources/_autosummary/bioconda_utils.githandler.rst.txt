@@ -1,0 +1,33 @@
+bioconda\_utils.githandler
+==========================
+
+.. automodule:: bioconda_utils.githandler
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      BiocondaRepo
+      BiocondaRepoMixin
+      GitHandler
+      GitHandlerBase
+      TempBiocondaRepo
+      TempGitHandler
+   
+   
+
+   
+   
+   .. rubric:: Exceptions
+
+   .. autosummary::
+   
+      GitHandlerFailure
+   
+   

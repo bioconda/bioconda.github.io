@@ -1,0 +1,24 @@
+bioconda\_utils.pkg\_test
+=========================
+
+.. automodule:: bioconda_utils.pkg_test
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      get_image_name
+      get_tests
+      test_package
+   
+   
+
+   
+   
+   
+
+   
+   
+   

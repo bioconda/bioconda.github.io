@@ -1,0 +1,22 @@
+bioconda\_utils.bot.config
+==========================
+
+.. automodule:: bioconda_utils.bot.config
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      get_secret
+   
+   
+
+   
+   
+   
+
+   
+   
+   

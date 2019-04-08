@@ -1,0 +1,34 @@
+bioconda\_utils.githubhandler
+=============================
+
+.. automodule:: bioconda_utils.githubhandler
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      iso_now
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      AiohttpGitHubHandler
+      CheckRunConclusion
+      CheckRunStatus
+      Event
+      GitHubAppHandler
+      GitHubHandler
+      IssueState
+   
+   
+
+   
+   
+   

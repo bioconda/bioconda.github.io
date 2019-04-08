@@ -1,0 +1,30 @@
+bioconda\_utils.build
+=====================
+
+.. automodule:: bioconda_utils.build
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      build
+      build_recipes
+      purge
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      BuildResult
+   
+   
+
+   
+   
+   

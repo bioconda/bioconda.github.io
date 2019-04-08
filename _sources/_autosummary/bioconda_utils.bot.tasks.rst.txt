@@ -1,0 +1,23 @@
+bioconda\_utils.bot.tasks
+=========================
+
+.. automodule:: bioconda_utils.bot.tasks
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      Checkout
+      PRInfo
+   
+   
+
+   
+   
+   

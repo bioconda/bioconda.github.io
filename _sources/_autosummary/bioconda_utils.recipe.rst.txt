@@ -1,0 +1,41 @@
+bioconda\_utils.recipe
+======================
+
+.. automodule:: bioconda_utils.recipe
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      load_parallel_iter
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      Recipe
+   
+   
+
+   
+   
+   .. rubric:: Exceptions
+
+   .. autosummary::
+   
+      DuplicateKey
+      EmptyRecipe
+      HasSelector
+      MissingBuild
+      MissingKey
+      MissingMetaYaml
+      RecipeError
+      RenderFailure
+   
+   

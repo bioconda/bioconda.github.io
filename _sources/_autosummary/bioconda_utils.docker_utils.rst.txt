@@ -1,0 +1,36 @@
+bioconda\_utils.docker\_utils
+=============================
+
+.. automodule:: bioconda_utils.docker_utils
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      dummy_recipe
+      get_host_conda_bld
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      RecipeBuilder
+   
+   
+
+   
+   
+   .. rubric:: Exceptions
+
+   .. autosummary::
+   
+      DockerBuildError
+      DockerCalledProcessError
+   
+   
