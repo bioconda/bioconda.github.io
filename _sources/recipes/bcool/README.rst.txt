@@ -25,15 +25,10 @@ bcool
    :versions: 1.0.0-0
    
    :depends bcalm: 
-   
    :depends bgreat: 
-   
    :depends btrim: 
-   
    :depends ntcard: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

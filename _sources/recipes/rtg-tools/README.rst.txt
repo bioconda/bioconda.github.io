@@ -25,13 +25,9 @@ rtg-tools
    :versions: 3.10.1-0, 3.10-0, 3.9.1-1, 3.9.1-0, 3.9-0, 3.8.4-0, 3.8.2-0, 3.7.1-0, 3.6-1, 3.6-0
    
    :depends font-ttf-dejavu-sans-mono: 
-   
    :depends fontconfig: 
-   
    :depends openjdk: 
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

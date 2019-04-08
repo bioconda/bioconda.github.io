@@ -25,15 +25,10 @@ dadi
    :versions: 1.7.0-0
    
    :depends ipython: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

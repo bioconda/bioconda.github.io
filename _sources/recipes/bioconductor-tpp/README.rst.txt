@@ -25,63 +25,34 @@ bioconductor-tpp
    :versions: 3.10.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biobroom: >=1.14.0,<1.15.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-broom: 
-   
    :depends r-data.table: 
-   
    :depends r-doparallel: 
-   
    :depends r-dplyr: 
-   
    :depends r-foreach: 
-   
    :depends r-futile.logger: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-knitr: 
-   
    :depends r-magrittr: 
-   
    :depends r-mass: 
-   
    :depends r-mefa: 
-   
    :depends r-nls2: 
-   
    :depends r-openxlsx: >=2.4.0
-   
    :depends r-plyr: 
-   
    :depends r-purrr: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rcurl: 
-   
    :depends r-reshape2: 
-   
    :depends r-rmarkdown: 
-   
    :depends r-sme: 
-   
    :depends r-stringr: 
-   
    :depends r-tidyr: 
-   
    :depends r-venndiagram: 
-   
    :depends r-vgam: 
-   
    :requirements:
 
    .. rubric:: Installation

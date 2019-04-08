@@ -25,25 +25,15 @@ bioconductor-slinky
    :versions: 1.0.0-0
    
    :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-curl: 
-   
    :depends r-dplyr: 
-   
    :depends r-foreach: 
-   
    :depends r-httr: 
-   
    :depends r-jsonlite: 
-   
    :depends r-readr: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

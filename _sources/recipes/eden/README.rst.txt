@@ -25,47 +25,26 @@ eden
    :versions: 2.0-2, 2.0-1, 2.0-0, 1.1-0
    
    :depends biopython: 
-   
    :depends cvxopt: 
-   
    :depends dill: 
-   
    :depends esmre: 
-   
    :depends joblib: 
-   
    :depends matplotlib: 
-   
    :depends muscle: 
-   
    :depends networkx: <=1.10
-   
    :depends numpy: 
-   
    :depends openbabel: 
-   
    :depends pandas: 
-   
    :depends pybedtools: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends python-graphviz: 
-   
    :depends rdkit: 
-   
    :depends reportlab: 
-   
    :depends requests: 
-   
    :depends rnashapes: 
-   
    :depends scikit-learn: >=0.17.0
-   
    :depends scipy: >=0.14.0
-   
    :depends weblogo: 
-   
    :requirements:
 
    .. rubric:: Installation

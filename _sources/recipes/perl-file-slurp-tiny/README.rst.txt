@@ -25,7 +25,6 @@ perl-file-slurp-tiny
    :versions: 0.004-1, 0.004-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

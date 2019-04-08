@@ -26,15 +26,10 @@ bioconductor-beat
    :versions: 1.20.1-0, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-shortread: >=1.40.0,<1.41.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

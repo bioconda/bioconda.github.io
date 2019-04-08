@@ -25,9 +25,7 @@ watchdog-wms
    :versions: 1.2.7-1, 1.2.6-1, 1.2.6-0, 1.2.5-1, 1.2.5-0, 1.2.4b-0, 1.2.3b-0
    
    :depends coreutils: >=8
-   
    :depends openjdk: >=8
-   
    :requirements:
 
    .. rubric:: Installation

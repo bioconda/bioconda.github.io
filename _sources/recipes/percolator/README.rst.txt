@@ -25,19 +25,12 @@ percolator
    :versions: 3.1-4, 3.1-3, 3.1-2, 3.0-1, 3.0-0
    
    :depends bzip2: 1.0*
-   
    :depends libgcc: 
-   
    :depends sqlite: 
-   
    :depends tokyocabinet: 
-   
    :depends xerces-c: ==3.1.2
-   
    :depends xsd: 
-   
    :depends zlib: 1.2.11*
-   
    :requirements:
 
    .. rubric:: Installation

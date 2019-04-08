@@ -25,21 +25,13 @@ hlaprofiler
    :versions: 1.0.5-1, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-0, 1.0.1-0
    
    :depends kraken-ea: 
-   
    :depends perl-base: 
-   
    :depends perl-class-load: 
-   
    :depends perl-file-compare: 
-   
    :depends perl-file-slurp: 
-   
    :depends perl-parallel-forkmanager: 
-   
    :depends perl-statistics-basic: 
-   
    :depends perl-test-trap: 
-   
    :requirements:
 
    .. rubric:: Installation

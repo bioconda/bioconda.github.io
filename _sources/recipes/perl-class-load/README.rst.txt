@@ -25,23 +25,14 @@ perl-class-load
    :versions: 0.25-0, 0.23-1, 0.23-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-base: 
-   
    :depends perl-carp: 
-   
    :depends perl-data-optlist: 
-   
    :depends perl-exporter: 
-   
    :depends perl-module-implementation: 
-   
    :depends perl-module-runtime: 
-   
    :depends perl-package-stash: 
-   
    :depends perl-try-tiny: 
-   
    :requirements:
 
    .. rubric:: Installation

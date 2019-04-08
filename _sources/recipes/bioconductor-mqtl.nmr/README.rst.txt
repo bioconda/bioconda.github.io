@@ -26,15 +26,10 @@ bioconductor-mqtl.nmr
    :versions: 1.14.0-0, 1.12.0-0
    
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-genabel: 
-   
    :depends r-mass: 
-   
    :depends r-outliers: 
-   
    :depends r-qtl: 
-   
    :requirements:
 
    .. rubric:: Installation

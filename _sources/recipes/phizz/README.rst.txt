@@ -25,15 +25,10 @@ phizz
    :versions: 0.0.1-2, 0.0.1-0
    
    :depends click: 
-   
    :depends configobj: 
-   
    :depends intervaltree: 
-   
    :depends python: 
-   
    :depends setuptools: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -47,9 +47,7 @@ biopet-fastqsplitter
    :versions: 0.1-2, 0.1-1
    
    :depends openjdk: >=8,<9
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,17 +25,11 @@ bioconductor-experimenthub
    :versions: 1.8.0-0, 1.6.1-0, 1.4.0-0
    
    :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-biocmanager: 
-   
    :depends r-curl: 
-   
    :requirements:
 
    .. rubric:: Installation

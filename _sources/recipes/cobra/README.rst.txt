@@ -25,23 +25,14 @@ cobra
    :versions: 0.10.1-1, 0.10.1-0, 0.4.0-1, 0.4.0-0, 0.4.0b6-0
    
    :depends future: 
-   
    :depends numpy: >=1.6
-   
    :depends optlang: >=1.2.5
-   
    :depends pandas: >=0.17.0
-   
    :depends python: 
-   
    :depends ruamel.yaml: <0.15
-   
    :depends six: 
-   
    :depends swiglpk: 
-   
    :depends tabulate: 
-   
    :requirements:
 
    .. rubric:: Installation

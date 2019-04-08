@@ -26,25 +26,15 @@ bioconductor-pbcmc
    :versions: 1.8.0-0, 1.6.0-0
    
    :depends bioconductor-biobase: >=2.40.0,<2.42.0
-   
    :depends bioconductor-biocgenerics: >=0.26.0,<0.28.0
-   
    :depends bioconductor-biocparallel: >=1.14.2,<1.16.0
-   
    :depends bioconductor-genefu: >=2.12.0,<2.14.0
-   
    :depends bioconductor-limma: >=3.36.5,<3.38.0
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-cowplot: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-reshape2: 
-   
    :requirements:
 
    .. rubric:: Installation

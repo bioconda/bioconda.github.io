@@ -25,11 +25,8 @@ gvcftools
    :versions: 0.17.0-3, 0.17.0-2, 0.17.0-1, 0.17.0-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends perl: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

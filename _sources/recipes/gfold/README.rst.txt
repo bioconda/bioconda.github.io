@@ -25,11 +25,8 @@ gfold
    :versions: 1.1.4-2, 1.1.4-1, 1.1.4-0
    
    :depends gsl: 2.2*
-   
    :depends libgcc: 
-   
    :depends openblas: 
-   
    :requirements:
 
    .. rubric:: Installation

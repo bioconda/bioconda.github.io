@@ -25,23 +25,14 @@ fermikit
    :versions: 0.14.dev1-1, 0.14.dev1-0
    
    :depends bfc: ==r181
-   
    :depends bwa: ==0.7.15
-   
    :depends fermi2: ==r193
-   
    :depends htsbox: ==r327
-   
    :depends perl: 5.22.0*
-   
    :depends ropebwt2: ==r187
-   
    :depends seqtk: ==r82
-   
    :depends trimadap: ==r10
-   
    :depends zlib: 1.2.11*
-   
    :requirements:
 
    .. rubric:: Installation

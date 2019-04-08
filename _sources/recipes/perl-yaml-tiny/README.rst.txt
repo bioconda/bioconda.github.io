@@ -25,7 +25,6 @@ perl-yaml-tiny
    :versions: 1.73-0, 1.70-1, 1.70-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

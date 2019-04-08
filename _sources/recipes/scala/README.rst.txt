@@ -25,7 +25,6 @@ scala
    :versions: 2.11.8-1, 2.11.8-0
    
    :depends openjdk: >=8
-   
    :requirements:
 
    .. rubric:: Installation

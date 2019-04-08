@@ -25,15 +25,10 @@ repenrich
    :versions: 1.2-1, 1.2-0
    
    :depends bedtools: <2.24.0
-   
    :depends biopython: 
-   
    :depends bowtie: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: 
-   
    :requirements:
 
    .. rubric:: Installation

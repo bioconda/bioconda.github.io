@@ -25,15 +25,10 @@ motifscan
    :versions: 1.1.2-0, 1.1-1, 1.1-0
    
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: >=0.17.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

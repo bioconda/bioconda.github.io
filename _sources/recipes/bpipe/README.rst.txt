@@ -25,7 +25,6 @@ bpipe
    :versions: 0.9.9.2-0
    
    :depends openjdk: 8.0* zulu8*
-   
    :requirements:
 
    .. rubric:: Installation

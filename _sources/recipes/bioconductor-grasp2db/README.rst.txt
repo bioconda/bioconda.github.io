@@ -25,21 +25,13 @@ bioconductor-grasp2db
    :versions: 1.1.0-0
    
    :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbplyr: 
-   
    :depends r-digest: 
-   
    :depends r-dplyr: 
-   
    :depends r-rsqlite: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

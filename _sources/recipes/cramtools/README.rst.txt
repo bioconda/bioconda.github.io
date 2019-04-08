@@ -26,7 +26,6 @@ cramtools
    :versions: 3.0.b127-2, 3.0.b127-1, 3.0.b127-0, 3.0.b47-2, 3.0.b47-1, 3.0.b47-0
    
    :depends openjdk: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,7 +26,6 @@ beagle
    :versions: 4.1_21Jan17.6cc.jar-1, 4.1_21Jan17.6cc.jar-0, 4.1_03May16.862.jar-0, 4.0_06Jun17-2, 4.0_06Jun17-1
    
    :depends openjdk: 
-   
    :requirements:
 
    .. rubric:: Installation

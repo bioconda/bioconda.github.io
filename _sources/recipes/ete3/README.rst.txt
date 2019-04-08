@@ -25,29 +25,17 @@ ete3
    :versions: 3.1.1-1, 3.1.1-0, 3.0.0b35-1, 3.0.0b35-0
    
    :depends lxml: 
-   
    :depends numpy: 
-   
    :depends pyqt: >=4.11.4,<4.12.0a0
-   
    :depends python: 
-   
    :depends scipy: 
-   
    :depends six: 
-   
    :depends xorg-libsm: 
-   
    :depends xorg-libxau: 
-   
    :depends xorg-libxdmcp: 
-   
    :depends xorg-libxext: 
-   
    :depends xorg-libxrender: 
-   
    :depends xorg-xextproto: 
-   
    :requirements:
 
    .. rubric:: Installation

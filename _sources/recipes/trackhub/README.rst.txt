@@ -25,9 +25,7 @@ trackhub
    :versions: 0.2.4-1, 0.2.4-0, 0.1.3-0, 0.1.2-0
    
    :depends docutils: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

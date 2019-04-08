@@ -25,13 +25,9 @@ bioconductor-ahensdbs
    :versions: 1.0.8-0
    
    :depends bioconductor-annotationhubdata: >=1.12.0,<1.13.0
-   
    :depends bioconductor-ensembldb: >=2.6.0,<2.7.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,19 +26,12 @@ ngsutils
    :versions: 0.5.9-1, 0.5.9-0
    
    :depends coverage: 
-   
    :depends cython: 
-   
    :depends eta: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: 
-   
    :depends swalign: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ netifaces
    :versions: 0.10.4-1
    
    :depends python: 2.7*
-   
    :depends setuptools: 
-   
    :requirements:
 
    .. rubric:: Installation

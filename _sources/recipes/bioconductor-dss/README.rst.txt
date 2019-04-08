@@ -26,15 +26,10 @@ bioconductor-dss
    :versions: 2.30.0-0, 2.28.0-0, 2.26.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-bsseq: >=1.18.0,<1.19.0
-   
    :depends bioconductor-delayedarray: >=0.8.0,<0.9.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

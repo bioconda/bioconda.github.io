@@ -25,23 +25,14 @@ perl-xml-twig
    :versions: 3.52-2, 3.52-1, 3.49-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-html-entities-numbered: 
-   
    :depends perl-html-formatter: 
-   
    :depends perl-html-parser: 
-   
    :depends perl-html-tidy: 
-   
    :depends perl-html-tree: 
-   
    :depends perl-tie-ixhash: 
-   
    :depends perl-xml-parser: 
-   
    :depends perl-xml-xpathengine: 
-   
    :requirements:
 
    .. rubric:: Installation

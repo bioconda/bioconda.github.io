@@ -25,19 +25,12 @@ merfishtools
    :versions: 1.5.0-0, 1.4.0-0, 1.3.0-3, 1.3.0-2, 1.3.0-1, 1.2.0-1, 1.1.0-1, 1.0.0-1, 0.9.1-1, 0.9.1-0
    
    :depends gsl: >=2.2.1,<2.3.0a0
-   
    :depends libgcc-ng: >=4.9
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends openblas: >=0.2.20,<0.2.21.0a0
-   
    :depends pandas: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

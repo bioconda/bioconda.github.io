@@ -25,7 +25,6 @@ azure-cli
    :versions: 0.10.3-0
    
    :depends nodejs: 
-   
    :requirements:
 
    .. rubric:: Installation

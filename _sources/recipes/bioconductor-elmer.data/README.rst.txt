@@ -25,11 +25,8 @@ bioconductor-elmer.data
    :versions: 2.6.0-0, 2.4.2-0
    
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ regex
    :versions: 2016.06.24-1
    
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

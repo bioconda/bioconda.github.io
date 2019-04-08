@@ -26,11 +26,8 @@ msalign2
    :versions: 1.0-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends libgd: >=2.2.5,<2.3.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

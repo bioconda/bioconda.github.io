@@ -25,29 +25,17 @@ tadarida-d
    :versions: 1.03-3, 1.03-1, 1.03-0, 1.02-0, 1.01-0, 1.0-0
    
    :depends fftw: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libsndfile: 
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends qt: >=4.8.7,<4.9.0a0
-   
    :depends xorg-libsm: 
-   
    :depends xorg-libx11: 
-   
    :depends xorg-libxau: 
-   
    :depends xorg-libxdmcp: 
-   
    :depends xorg-libxext: 
-   
    :depends xorg-libxrender: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

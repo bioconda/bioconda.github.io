@@ -26,65 +26,35 @@ bioconductor-pathostat
    :versions: 1.8.4-0, 1.6.1-0, 1.4.1-0
    
    :depends bioconductor-biocstyle: >=2.10.0,<2.11.0
-   
    :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
-   
    :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-phyloseq: >=1.26.0,<1.27.0
-   
    :depends r-ape: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-corpcor: 
-   
    :depends r-devtools: 
-   
    :depends r-dplyr: 
-   
    :depends r-dt: 
-   
    :depends r-ggplot2: 
-   
    :depends r-glmnet: 
-   
    :depends r-gmodels: 
-   
    :depends r-knitr: 
-   
    :depends r-matrixstats: 
-   
    :depends r-plotly: 
-   
    :depends r-plyr: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rentrez: 
-   
    :depends r-reshape2: 
-   
    :depends r-rocr: 
-   
    :depends r-scales: 
-   
    :depends r-shiny: 
-   
    :depends r-shinyjs: 
-   
    :depends r-tidyr: 
-   
    :depends r-vegan: 
-   
    :depends r-webshot: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ r-snpassoc
    :versions: 1.9_2-0
    
    :depends r-base: 3.4.1*
-   
    :depends r-haplo.stats: 
-   
    :depends r-mvtnorm: 
-   
    :depends r-survival: 
-   
    :requirements:
 
    .. rubric:: Installation

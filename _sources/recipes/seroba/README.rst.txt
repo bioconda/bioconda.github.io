@@ -28,27 +28,16 @@ seroba
    :versions: 1.0.0-1, 1.0.0-0
    
    :depends ariba: >=2.9.1
-   
    :depends biopython: >=1.68
-   
    :depends bowtie2: 
-   
    :depends cd-hit: 
-   
    :depends kmc: >=3.0
-   
    :depends mummer: 
-   
    :depends pyfastaq: >=3.14.0
-   
    :depends pymummer: >=0.10.2
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends pyyaml: >=3.12
-   
    :depends setuptools: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ r-microseq
    :versions: 1.2-0
    
    :depends libgcc: 
-   
    :depends r-base: 3.3.2*
-   
    :depends r-rcpp: >=0.11.1
-   
    :requirements:
 
    .. rubric:: Installation

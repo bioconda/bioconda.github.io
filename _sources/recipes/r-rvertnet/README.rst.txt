@@ -25,17 +25,11 @@ r-rvertnet
    :versions: 0.7.0-3, 0.7.0-2, 0.7.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-crul: >=0.5.2
-   
    :depends r-dplyr: >=0.5.0
-   
    :depends r-ggplot2: 
-   
    :depends r-jsonlite: >=1.5
-   
    :depends r-maps: 
-   
    :requirements:
 
    .. rubric:: Installation

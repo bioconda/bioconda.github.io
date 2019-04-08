@@ -25,9 +25,7 @@ funcannot
    :versions: v2.8-1, v2.8-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends qt: 4.8.7.*
-   
    :requirements:
 
    .. rubric:: Installation

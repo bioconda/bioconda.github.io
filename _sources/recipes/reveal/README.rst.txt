@@ -25,17 +25,11 @@ reveal
    :versions: 0.1-3, 0.1-2, 0.1-1, 0.1-0
    
    :depends intervaltree: 
-   
    :depends libdivsufsort: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends matplotlib: 
-   
    :depends networkx: 2.0.*
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

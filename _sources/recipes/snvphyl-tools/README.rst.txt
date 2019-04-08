@@ -25,29 +25,17 @@ snvphyl-tools
    :versions: 1.8.1-0
    
    :depends bcftools-snvphyl-plugin: 
-   
    :depends mummer: 
-   
    :depends perl: 5.22.0*
-   
    :depends perl-bioperl: 
-   
    :depends perl-hash-merge: 
-   
    :depends perl-list-moreutils: 
-   
    :depends perl-math-round: 
-   
    :depends perl-parallel-forkmanager: 
-   
    :depends perl-string-util: 
-   
    :depends perl-text-csv: 
-   
    :depends samtools: 
-   
    :depends vcftools: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,37 +25,21 @@ stream_atac
    :versions: 0.3.2-0, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
    
    :depends anndata: 
-   
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: 
-   
    :depends bioconductor-chromvar: 1.4.1.*
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libgfortran-ng: >=7,<8.0a0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends openssl: >=1.1.1a,<1.1.2a
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends r-essentials: 
-   
    :depends rpy2: 
-   
    :depends scikit-learn: 
-   
    :depends setuptools: 
-   
    :depends unzip: 
-   
    :depends wget: 
-   
    :depends zip: 
-   
    :requirements:
 
    .. rubric:: Installation

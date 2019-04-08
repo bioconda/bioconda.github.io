@@ -25,11 +25,8 @@ bioconductor-semisup
    :versions: 1.6.0-0, 1.4.0-0, 1.2.0-0, 1.0.2-0
    
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-vgam: 
-   
    :requirements:
 
    .. rubric:: Installation

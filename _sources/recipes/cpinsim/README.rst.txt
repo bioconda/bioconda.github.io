@@ -27,13 +27,9 @@ cpinsim
    :versions: 0.5.2-1, 0.5.2-0
    
    :depends bitarray: 
-   
    :depends networkx: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

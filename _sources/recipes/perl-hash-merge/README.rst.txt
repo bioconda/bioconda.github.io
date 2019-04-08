@@ -25,9 +25,7 @@ perl-hash-merge
    :versions: 0.300-0, 0.200-1, 0.200-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-clone-choose: 
-   
    :requirements:
 
    .. rubric:: Installation

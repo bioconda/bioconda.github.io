@@ -25,17 +25,11 @@ rnasketch
    :versions: 1.5-1, 1.4-1, 1.4-0
    
    :depends numpy: >=1.15*
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends python-igraph: 
-   
    :depends rnablueprint: >=1.2
-   
    :depends scipy: >=1.1*
-   
    :depends viennarna: >=2.4*
-   
    :requirements:
 
    .. rubric:: Installation

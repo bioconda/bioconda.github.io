@@ -26,7 +26,6 @@ fastme
    :versions: 2.1.5-0
    
    :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

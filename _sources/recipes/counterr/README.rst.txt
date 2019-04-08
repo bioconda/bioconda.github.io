@@ -25,17 +25,11 @@ counterr
    :versions: 0.1-0
    
    :depends matplotlib: >=2.2.3
-   
    :depends numpy: >=1.15.4
-   
    :depends pandas: >=0.23.4
-   
    :depends pysam: >=0.14.1
-   
    :depends python: 
-   
    :depends seaborn: >=0.9.0
-   
    :requirements:
 
    .. rubric:: Installation

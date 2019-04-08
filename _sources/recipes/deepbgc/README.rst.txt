@@ -25,27 +25,16 @@ deepbgc
    :versions: 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.3-1, 0.1.3-0
    
    :depends appdirs: >=1.4.3
-   
    :depends biopython: >=1.70
-   
    :depends hmmer: >=3.1b2
-   
    :depends keras: >=2.2.4
-   
    :depends matplotlib: >=2.2.3
-   
    :depends numpy: >=1.16.1
-   
    :depends pandas: >=0.24.1
-   
    :depends prodigal: 
-   
    :depends python: >=2.7,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*
-   
    :depends scikit-learn: >=0.18.2
-   
    :depends tensorflow: >=1.12.0
-   
    :requirements:
 
    .. rubric:: Installation

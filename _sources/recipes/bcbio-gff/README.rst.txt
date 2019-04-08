@@ -25,13 +25,9 @@ bcbio-gff
    :versions: 0.6.6-0
    
    :depends biopython: 
-   
    :depends bx-python: 
-   
    :depends python: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

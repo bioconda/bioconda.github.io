@@ -25,7 +25,6 @@ perl-parse-yapp
    :versions: 1.21-0, 1.05-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

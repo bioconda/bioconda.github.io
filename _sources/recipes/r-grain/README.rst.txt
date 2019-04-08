@@ -25,27 +25,16 @@ r-grain
    :versions: 1.3_0-0
    
    :depends bioconductor-graph: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-functional: 
-   
    :depends r-grbase: >=1.7_2
-   
    :depends r-igraph: 
-   
    :depends r-magrittr: 
-   
    :depends r-rcpp: >=0.11.1
-   
    :depends r-rcpparmadillo: 
-   
    :depends r-rcppeigen: 
-   
    :requirements:
 
    .. rubric:: Installation

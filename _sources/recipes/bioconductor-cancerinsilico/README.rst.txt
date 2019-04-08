@@ -26,15 +26,10 @@ bioconductor-cancerinsilico
    :versions: 2.2.1-0, 2.2.0-0, 2.0.0-0, 1.4.0-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bh: 
-   
    :depends r-rcpp: 
-   
    :requirements:
 
    .. rubric:: Installation

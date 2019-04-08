@@ -25,7 +25,6 @@ bumbershoot
    :versions: 3_0_11579-0, 3_0_11392-0, 3_0_11391-0, 3_0_11369-0, 3_0_10246-0, 3_0_10158-0
    
    :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

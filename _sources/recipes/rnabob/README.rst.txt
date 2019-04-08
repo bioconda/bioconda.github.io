@@ -25,7 +25,6 @@ rnabob
    :versions: 2.2.1-1, 2.2.1-0
    
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

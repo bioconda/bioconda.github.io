@@ -25,29 +25,17 @@ msproteomicstools
    :versions: 0.5.0-1, 0.5.0-0
    
    :depends biopython: 
-   
    :depends configobj: 
-   
    :depends lxml: 
-   
    :depends numpy: 
-   
    :depends pymzml: 0.7.5
-   
    :depends pyteomics: >=2.4.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends python-cluster: 1.3.3
-   
    :depends scikits-datasmooth: 
-   
    :depends scipy: 
-   
    :depends xlsxwriter: >=0.5.3
-   
    :depends xlwt: 
-   
    :requirements:
 
    .. rubric:: Installation

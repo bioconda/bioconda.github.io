@@ -25,41 +25,23 @@ bioconductor-scmap
    :versions: 1.4.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-e1071: 
-   
    :depends r-ggplot2: 
-   
    :depends r-googlevis: 
-   
    :depends r-matrixstats: 
-   
    :depends r-proxy: 
-   
    :depends r-randomforest: 
-   
    :depends r-rcpp: >=0.12.12
-   
    :depends r-rcpparmadillo: 
-   
    :depends r-reshape2: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ sqlitebrowser
    :versions: 3.8.0-0
    
    :depends libgcc: 
-   
    :depends qt: 
-   
    :depends sqlite: 
-   
    :requirements:
 
    .. rubric:: Installation

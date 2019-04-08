@@ -25,11 +25,8 @@ sure
    :versions: 1.4.11-0, 1.2.24-0
    
    :depends mock: 
-   
    :depends python: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

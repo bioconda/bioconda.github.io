@@ -25,13 +25,9 @@ bioconductor-logicfs
    :versions: 2.2.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-logicreg: 
-   
    :depends r-mcbiopi: 
-   
    :depends r-survival: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ mzml2isa
    :versions: 0.5.1-1, 0.5.1-0, 0.4.24-2, 0.4.24-1, 0.4.24-0
    
    :depends openpyxl: 
-   
    :depends pronto: >=0.6.0
-   
    :depends python: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

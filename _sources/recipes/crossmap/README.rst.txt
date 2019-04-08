@@ -25,19 +25,12 @@ crossmap
    :versions: 0.3.3-0, 0.3.2-0, 0.3.1-0, 0.2.8-0, 0.2.7-2, 0.2.7-1, 0.2.7-0, 0.2.5-1, 0.2.5-0, 0.2.2-3, 0.2.2-2, 0.2.2-1, 0.2.2-0, 0.2.1-1, 0.2.1-0
    
    :depends bx-python: 
-   
    :depends cython: >=0.17
-   
    :depends numpy: 
-   
    :depends pybigwig: 
-   
    :depends pysam: >=0.11.1,<0.14.0
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends ucsc-wigtobigwig: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,31 +25,18 @@ swga
    :versions: 0.4.4-1, 0.4.4-0, 0.4.3.p1-0, 0.4.2-1, 0.4.2-0
    
    :depends argutils: 
-   
    :depends click: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends melt: 
-   
    :depends peewee: >=2.7.3,<3.0
-   
    :depends pyfaidx: >0.4.5.2
-   
    :depends pytest: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends pyyaml: 
-   
    :depends semantic_version: 
-   
    :depends workspace: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

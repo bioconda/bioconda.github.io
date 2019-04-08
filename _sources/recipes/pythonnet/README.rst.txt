@@ -25,11 +25,8 @@ pythonnet
    :versions: 2.3.0-1, 2.3.0-0
    
    :depends glib: 2.55.*
-   
    :depends mono: 
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

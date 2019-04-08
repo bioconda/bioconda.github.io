@@ -25,19 +25,12 @@ bioconductor-rtnsurvival
    :versions: 1.6.0-0
    
    :depends bioconductor-rtn: >=2.6.0,<2.7.0
-   
    :depends bioconductor-rtnduals: >=1.6.0,<1.7.0
-   
    :depends bioconductor-viper: >=1.16.0,<1.17.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-scales: 
-   
    :depends r-survival: 
-   
    :requirements:
 
    .. rubric:: Installation

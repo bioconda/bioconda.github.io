@@ -25,15 +25,10 @@ ncbi-util-legacy
    :versions: 6.1-0
    
    :depends gmp: >=6.1.2,<7.0a0
-   
    :depends gnutls: >=3.6.5,<3.7.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends openmotif: 
-   
    :depends tcsh: 
-   
    :requirements:
 
    .. rubric:: Installation

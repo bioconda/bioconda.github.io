@@ -25,11 +25,8 @@ perl-test-longstring
    :versions: 0.17-2, 0.17-1, 0.17-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-test-builder-tester: 
-   
    :depends perl-test-simple: 
-   
    :requirements:
 
    .. rubric:: Installation

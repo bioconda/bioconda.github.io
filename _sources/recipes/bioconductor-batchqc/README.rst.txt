@@ -26,37 +26,21 @@ bioconductor-batchqc
    :versions: 1.10.1-0, 1.8.1-0, 1.6.1-0
    
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-sva: >=3.30.0,<3.31.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-corpcor: 
-   
    :depends r-d3heatmap: 
-   
    :depends r-ggvis: 
-   
    :depends r-gplots: 
-   
    :depends r-knitr: 
-   
    :depends r-matrix: 
-   
    :depends r-matrixstats: 
-   
    :depends r-mcmcpack: 
-   
    :depends r-moments: 
-   
    :depends r-pander: 
-   
    :depends r-reshape2: 
-   
    :depends r-rmarkdown: 
-   
    :depends r-shiny: 
-   
    :requirements:
 
    .. rubric:: Installation

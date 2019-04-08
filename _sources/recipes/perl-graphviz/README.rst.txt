@@ -25,29 +25,17 @@ perl-graphviz
    :versions: 2.24-0, 2.20-1
    
    :depends graphviz: >=2.38.0,<3.0a0
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-file-which: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-ipc-run: 
-   
    :depends perl-lib: 
-   
    :depends perl-parse-recdescent: 
-   
    :depends perl-pod-usage: 
-   
    :depends perl-time-hires: 
-   
    :depends perl-xml-twig: 
-   
    :depends perl-xml-xpath: 
-   
    :requirements:
 
    .. rubric:: Installation

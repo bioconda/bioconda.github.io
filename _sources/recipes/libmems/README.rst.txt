@@ -25,7 +25,6 @@ libmems
    :versions: 1.6.0-1, 1.6.0-0
    
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

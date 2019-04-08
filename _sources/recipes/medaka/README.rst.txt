@@ -27,45 +27,25 @@ medaka
    :versions: 0.6.2-0, 0.6.0-0, 0.5.2-0
    
    :depends bcftools: 1.9
-   
    :depends biopython: 
-   
    :depends bzip2: >=1.0.6,<2.0a0
-   
    :depends cffi: 
-   
    :depends h5py: 2.7.1
-   
    :depends htslib: >=1.9,<1.10.0a0
-   
    :depends intervaltree: >=3.0.0
-   
    :depends keras: 2.2.4
-   
    :depends libdeflate: >=1.0,<1.1.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends minimap2: 2.11
-   
    :depends numpy: 1.16.1
-   
    :depends pysam: 
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends pyyaml: 5.1
-   
    :depends samtools: 1.9
-   
    :depends tensorflow: 1.12.0
-   
    :depends whatshap: 0.18
-   
    :depends xz: >=5.2.4,<5.3.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

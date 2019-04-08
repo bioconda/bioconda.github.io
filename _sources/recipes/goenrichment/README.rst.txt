@@ -25,9 +25,7 @@ goenrichment
    :versions: 2.0.1-0
    
    :depends openjdk: >=8
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

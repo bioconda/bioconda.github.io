@@ -25,15 +25,10 @@ phylopandas
    :versions: 0.7.2-0, 0.7.1-0, 0.1.4-1, 0.1.4-0, 0.1.3-0
    
    :depends biopython: 
-   
    :depends dendropy: 
-   
    :depends pandas: 
-   
    :depends pandas-flavor: 
-   
    :depends python: >3
-   
    :requirements:
 
    .. rubric:: Installation

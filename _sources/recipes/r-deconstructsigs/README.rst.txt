@@ -25,15 +25,10 @@ r-deconstructsigs
    :versions: 1.8.0.1-1, 1.8.0.1-0, 1.8.0-2, 1.8.0-0
    
    :depends bioconductor-bsgenome: 
-   
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: 
-   
    :depends bioconductor-genomeinfodb: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-reshape2: 
-   
    :requirements:
 
    .. rubric:: Installation

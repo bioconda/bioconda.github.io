@@ -25,13 +25,9 @@ perl-bio-tools-run-alignment-clustalw
    :versions: 1.7.4-0
    
    :depends clustalw: 
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-base: 
-   
    :depends perl-bioperl-run: 
-   
    :requirements:
 
    .. rubric:: Installation

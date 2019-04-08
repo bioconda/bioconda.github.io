@@ -25,15 +25,10 @@ synapseclient
    :versions: 1.7.5-1, 1.7.5-0, 1.7.1-0, 1.6.2-0, 1.5-0
    
    :depends backports.csv: 
-   
    :depends future: 
-   
    :depends python: 
-   
    :depends requests: >=1.2
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

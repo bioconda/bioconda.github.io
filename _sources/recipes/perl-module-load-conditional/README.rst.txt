@@ -25,19 +25,12 @@ perl-module-load-conditional
    :versions: 0.68-2, 0.68-1, 0.68-0, 0.62-1, 0.62-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-locale-maketext-simple: 
-   
    :depends perl-module-corelist: 
-   
    :depends perl-module-load: 
-   
    :depends perl-module-metadata: >=1.000005
-   
    :depends perl-params-check: 
-   
    :depends perl-version: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ perl-test-nowarnings
    :versions: 1.04-3, 1.04-2, 1.04-1, 1.04-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

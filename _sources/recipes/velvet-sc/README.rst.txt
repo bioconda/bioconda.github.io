@@ -25,11 +25,8 @@ velvet-sc
    :versions: 0.7.62-2, 0.7.62-1, 0.7.62-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends perl: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

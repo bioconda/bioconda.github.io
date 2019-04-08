@@ -25,11 +25,8 @@ perl-text-asciitable
    :versions: 0.22-2, 0.22-1, 0.22-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-encode: 
-   
    :requirements:
 
    .. rubric:: Installation

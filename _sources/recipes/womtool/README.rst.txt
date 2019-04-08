@@ -26,9 +26,7 @@ womtool
    :versions: 38-0, 36-0, 31-1, 31-0
    
    :depends openjdk: 8.*
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

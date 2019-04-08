@@ -29,25 +29,15 @@ jaffa
    :versions: 1.09-1, 1.09-0, 1.08-0
    
    :depends bbmap: 
-   
    :depends bioconductor-iranges: 
-   
    :depends blat: 
-   
    :depends bowtie2: 
-   
    :depends bpipe: 
-   
    :depends fastx_toolkit: 
-   
    :depends oases: 
-   
    :depends samtools: 1.1
-   
    :depends trimmomatic: 
-   
    :depends velvet: 
-   
    :requirements:
 
    .. rubric:: Installation

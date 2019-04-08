@@ -25,23 +25,14 @@ perl-test-trap
    :versions: 0.3.3-0, 0.3.2-4, 0.3.2-3
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-base: 
-   
    :depends perl-carp: 
-   
    :depends perl-constant: 
-   
    :depends perl-data-dump: 
-   
    :depends perl-exporter: 
-   
    :depends perl-file-temp: 
-   
    :depends perl-lib: 
-   
    :depends perl-version: 
-   
    :requirements:
 
    .. rubric:: Installation

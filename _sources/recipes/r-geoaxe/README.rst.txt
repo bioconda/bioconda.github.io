@@ -25,13 +25,9 @@ r-geoaxe
    :versions: 0.1.0-4, 0.1.0-3, 0.1.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-jsonlite: 
-   
    :depends r-rgeos: 
-   
    :depends r-sp: 
-   
    :requirements:
 
    .. rubric:: Installation

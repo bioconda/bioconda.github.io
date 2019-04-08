@@ -26,31 +26,18 @@ bioconductor-oligo
    :versions: 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.2-0, 1.40.1-0
    
    :depends bioconductor-affxparser: >=1.54.0,<1.55.0
-   
    :depends bioconductor-affyio: >=1.52.0,<1.53.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-oligoclasses: >=1.44.0,<1.45.0
-   
    :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
-   
    :depends bioconductor-zlibbioc: >=1.28.0,<1.29.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: >=0.3.1
-   
    :depends r-ff: 
-   
    :depends r-rsqlite: >=1.0.0
-   
    :requirements:
 
    .. rubric:: Installation

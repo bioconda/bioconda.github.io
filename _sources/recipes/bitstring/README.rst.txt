@@ -25,7 +25,6 @@ bitstring
    :versions: 3.1.5-1, 3.1.5-0
    
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

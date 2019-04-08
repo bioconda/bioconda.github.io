@@ -25,7 +25,6 @@ perl-dynaloader
    :versions: 1.25-1, 1.25-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

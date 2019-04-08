@@ -25,7 +25,6 @@ perl-try-tiny
    :versions: 0.30-1, 0.30-0, 0.24-3, 0.24-2, 0.24-1, 0.24-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,7 +26,6 @@ dsk
    :versions: 2.2.0-2, 2.2.0-1, 2.2.0-0
    
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

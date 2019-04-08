@@ -26,41 +26,23 @@ bioconductor-cogena
    :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends r-amap: 
-   
    :depends r-apcluster: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-biwt: 
-   
    :depends r-class: 
-   
    :depends r-cluster: 
-   
    :depends r-corrplot: 
-   
    :depends r-devtools: 
-   
    :depends r-doparallel: 
-   
    :depends r-dplyr: 
-   
    :depends r-fastcluster: 
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-kohonen: 
-   
    :depends r-mclust: 
-   
    :depends r-reshape2: 
-   
    :requirements:
 
    .. rubric:: Installation

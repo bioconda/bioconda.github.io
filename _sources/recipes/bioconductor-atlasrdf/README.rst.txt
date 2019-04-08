@@ -26,11 +26,8 @@ bioconductor-atlasrdf
    :versions: 1.12.0-0, 1.11.0-0
    
    :depends r-base: 3.3.2*
-   
    :depends r-hash: 
-   
    :depends r-sparql: 
-   
    :requirements:
 
    .. rubric:: Installation

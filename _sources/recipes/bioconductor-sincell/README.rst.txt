@@ -26,39 +26,22 @@ bioconductor-sincell
    :versions: 1.14.1-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-entropy: 
-   
    :depends r-fastica: 
-   
    :depends r-fields: 
-   
    :depends r-ggplot2: 
-   
    :depends r-igraph: 
-   
    :depends r-mass: 
-   
    :depends r-proxy: 
-   
    :depends r-rcpp: >=0.11.2
-   
    :depends r-reshape2: 
-   
    :depends r-rtsne: 
-   
    :depends r-scatterplot3d: 
-   
    :depends r-statmod: 
-   
    :depends r-tsp: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,43 +25,24 @@ bioconductor-plotgrouper
    :versions: 1.0.1-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-colourpicker: >=1.0
-   
    :depends r-dplyr: >=0.7.6
-   
    :depends r-egg: >=0.4.0
-   
    :depends r-ggplot2: >=3.0.0
-   
    :depends r-ggpubr: >=0.1.8
-   
    :depends r-gridextra: >=2.3
-   
    :depends r-gtable: >=0.2.0
-   
    :depends r-hmisc: >=4.1.1
-   
    :depends r-magrittr: >=1.5
-   
    :depends r-readr: >=1.1.1
-   
    :depends r-readxl: >=1.1.0
-   
    :depends r-rlang: >=0.2.2
-   
    :depends r-scales: >=1.0.0
-   
    :depends r-shiny: >=1.1.0
-   
    :depends r-shinythemes: >=1.1.1
-   
    :depends r-stringr: >=1.3.1
-   
    :depends r-tibble: >=1.4.2
-   
    :depends r-tidyr: >=0.2.0
-   
    :requirements:
 
    .. rubric:: Installation

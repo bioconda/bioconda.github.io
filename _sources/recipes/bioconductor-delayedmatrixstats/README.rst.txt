@@ -25,21 +25,13 @@ bioconductor-delayedmatrixstats
    :versions: 1.4.0-1, 1.4.0-0, 1.2.0-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-delayedarray: >=0.8.0,<0.9.0
-   
    :depends bioconductor-hdf5array: >=1.10.0,<1.11.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-matrix: 
-   
    :depends r-matrixstats: >=0.53.1
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ perl-file-slurper
    :versions: 0.012-0, 0.008-2, 0.008-1, 0.008-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-constant: 
-   
    :depends perl-encode: 
-   
    :depends perl-exporter: 
-   
    :requirements:
 
    .. rubric:: Installation

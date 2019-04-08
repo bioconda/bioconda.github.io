@@ -26,17 +26,11 @@ mlst
    :versions: 2.16.1-0, 2.16-0, 2.15.2-0, 2.15.1-0, 2.15-0, 2.14-0, 2.13-0, 2.12-0, 2.11-0, 2.10-1, 2.10-0, 2.9-1, 2.9-0, 2.6-0
    
    :depends blast: >=2.7.1
-   
    :depends perl-bioperl: >=1.7.2
-   
    :depends perl-json: 
-   
    :depends perl-list-moreutils: 
-   
    :depends perl-moo: 
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

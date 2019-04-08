@@ -26,19 +26,12 @@ pheniqs
    :versions: 2.0.6-0, 2.0.3-1, 2.0.3-0
    
    :depends htslib: >=1.9,<1.10.0a0
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends rapidjson: 
-   
    :depends samtools: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

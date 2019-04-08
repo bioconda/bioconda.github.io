@@ -27,17 +27,11 @@ imctools
    :versions: 0.2-0
    
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: 
-   
    :depends scikit-image: 
-   
    :depends scipy: 
-   
    :depends tifffile: >=0.13.5
-   
    :requirements:
 
    .. rubric:: Installation

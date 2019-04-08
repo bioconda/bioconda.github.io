@@ -25,9 +25,7 @@ perl-moosex-types-stringlike
    :versions: 0.003-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-moosex-types: 
-   
    :requirements:
 
    .. rubric:: Installation

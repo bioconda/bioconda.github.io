@@ -25,13 +25,9 @@ r-biom
    :versions: 0.3.12-0
    
    :depends r: 3.2.2*
-   
    :depends r-matrix: 
-   
    :depends r-plyr: 
-   
    :depends r-rjsonio: 
-   
    :requirements:
 
    .. rubric:: Installation

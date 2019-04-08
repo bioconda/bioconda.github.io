@@ -25,9 +25,7 @@ igor_vdj
    :versions: 1.3.0-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :requirements:
 
    .. rubric:: Installation

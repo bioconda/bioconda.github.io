@@ -25,7 +25,6 @@ kid
    :versions: 0.9.6-2, 0.9.6-1
    
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

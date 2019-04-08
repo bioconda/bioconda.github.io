@@ -25,7 +25,6 @@ perl-parse-recdescent
    :versions: 1.967015-0, 1.967013-1, 1.967013-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

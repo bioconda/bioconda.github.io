@@ -25,11 +25,8 @@ erds
    :versions: 1.1-1, 1.1-0
    
    :depends libgcc: 
-   
    :depends perl: 5.22.0*
-   
    :depends samtools: ==0.1.19
-   
    :requirements:
 
    .. rubric:: Installation

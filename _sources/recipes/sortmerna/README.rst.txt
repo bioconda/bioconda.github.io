@@ -26,11 +26,8 @@ sortmerna
    :versions: 2.1b-4, 2.1b-3, 2.1b-2, 2.1b-1, 2.1b-0, 2.0-4, 2.0-3, 2.0-2, 2.0-1, 2.0-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

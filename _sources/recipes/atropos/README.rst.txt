@@ -25,13 +25,9 @@ atropos
    :versions: 1.1.21-0, 1.1.19-0, 1.1.18-1, 1.1.18-0, 1.1.16-0, 1.1.10-0, 1.1.5-0, 1.1.4-0, 1.1.2-0, 1.0.23-0
    
    :depends jinja2: 
-   
    :depends pysam: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends tqdm: 
-   
    :requirements:
 
    .. rubric:: Installation

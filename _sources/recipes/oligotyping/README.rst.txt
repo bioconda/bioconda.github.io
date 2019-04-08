@@ -25,35 +25,20 @@ oligotyping
    :versions: 2.1-0, 2.0-0
    
    :depends biopython: 
-   
    :depends blast: 
-   
    :depends django: 
-   
    :depends matplotlib: 
-   
    :depends python: 2.7*
-   
    :depends r-compute.es: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-gtools: 
-   
    :depends r-optparse: 
-   
    :depends r-pheatmap: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape: 
-   
    :depends r-vegan: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

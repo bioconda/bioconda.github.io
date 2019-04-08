@@ -25,21 +25,13 @@ cwltest
    :versions: 1.0.20180601100346-0, 1.0.20180209171722-1, 1.0.20180209171722-0, 1.0.20170214185319-0, 1.0.20161124105442-0, 1.0.20160907111242-1, 1.0.20160907111242-0
    
    :depends cachecontrol: <0.12,>=0.11.7
-   
    :depends futures: >=3.0.5
-   
    :depends junit-xml: >=1.8
-   
    :depends mistune: <0.8,>=0.7.3
-   
    :depends python: 
-   
    :depends schema-salad: >=1.14
-   
    :depends subprocess32: >=3.5.0
-   
    :depends typing: >=3.5.3,<3.6
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,17 +25,11 @@ t_coffee
    :versions: 11.0.8-7, 11.0.8-5, 11.0.8-4, 11.0.8-3, 11.0.8-2, 11.0.8-1
    
    :depends curl: >=7.59.0,<8.0a0
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends openssl: >=1.0.2o,<1.0.3a
-   
    :depends perl: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

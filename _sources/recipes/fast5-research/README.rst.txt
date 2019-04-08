@@ -25,15 +25,10 @@ fast5-research
    :versions: 1.2.11-0, 1.2.10-0, 1.2.8-0, 1.0.9-1, 1.0.9-0
    
    :depends h5py: <2.9.0
-   
    :depends hdf5: >=1.10.3,<1.10.4.0a0
-   
    :depends numpy: >=1.9.3,<2.0a0
-   
    :depends progressbar2: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,17 +25,11 @@ perl-archive-extract
    :versions: 0.80-0, 0.76-4, 0.76-3, 0.76-2, 0.76-1, 0.76-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-file-path: 
-   
    :depends perl-ipc-cmd: 
-   
    :depends perl-locale-maketext-simple: 
-   
    :depends perl-module-load-conditional: 
-   
    :depends perl-params-check: >=0.07
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,21 +25,13 @@ midas
    :versions: 1.3.2-2, 1.3.2-0, 1.3.1-0, 1.3.0-0
    
    :depends biopython: 
-   
    :depends bowtie2: 
-   
    :depends hs-blastn: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: >=1.4.0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,21 +25,13 @@ perl-git-wrapper-plus
    :versions: 0.004011-0, 0.004010-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-git-wrapper: 
-   
    :depends perl-moo: 
-   
    :depends perl-path-tiny: 
-   
    :depends perl-sort-versions: 
-   
    :depends perl-sub-exporter-progressive: 
-   
    :depends perl-try-tiny: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ perl-data-utilities
    :versions: 0.04-1, 0.04-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-clone: 
-   
    :requirements:
 
    .. rubric:: Installation

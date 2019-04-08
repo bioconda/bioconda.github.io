@@ -26,39 +26,22 @@ mgkit
    :versions: 0.3.4-0, 0.3.3-0, 0.3.0-0, 0.2.2-0
    
    :depends click: 
-   
    :depends enum34: 
-   
    :depends future: 
-   
    :depends htseq: >=0.6.0
-   
    :depends matplotlib: >=2
-   
    :depends msgpack-python: >=0.4.6
-   
    :depends numpy: >=1.9.2
-   
    :depends pandas: >=0.18
-   
    :depends progressbar2: 
-   
    :depends pymongo: >=3.1.1
-   
    :depends pysam: >=0.8.2.1
-   
    :depends pytables: >=3.4.2
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends requests: 
-   
    :depends scipy: >=0.15.1
-   
    :depends semidbm: >=0.5.1
-   
    :depends statsmodels: >=0.8
-   
    :requirements:
 
    .. rubric:: Installation

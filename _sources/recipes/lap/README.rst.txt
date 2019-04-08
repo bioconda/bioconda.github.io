@@ -25,11 +25,8 @@ lap
    :versions: 1.1.r186-0
    
    :depends bowtie2: 
-   
    :depends libgcc: 
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

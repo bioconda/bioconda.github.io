@@ -25,21 +25,13 @@ quasitools
    :versions: 0.6.0-0, 0.5.1-0, 0.5.0-0, 0.4.2-0, 0.4.1-1, 0.4.0-1, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
    
    :depends biopython: 
-   
    :depends bowtie2: 
-   
    :depends click: 
-   
    :depends numpy: 
-   
    :depends pysam: >=0.8.1
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: >=1.3
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

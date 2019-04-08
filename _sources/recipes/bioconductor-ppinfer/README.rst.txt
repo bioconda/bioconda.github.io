@@ -25,21 +25,13 @@ bioconductor-ppinfer
    :versions: 1.8.1-1, 1.8.1-0, 1.6.0-0, 1.4.0-0, 1.2.4-0
    
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends bioconductor-fgsea: >=1.8.0,<1.9.0
-   
    :depends bioconductor-stringdb: >=1.22.0,<1.23.0
-   
    :depends bioconductor-yeastexpdata: >=0.28.0,<0.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-igraph: 
-   
    :depends r-kernlab: 
-   
    :requirements:
 
    .. rubric:: Installation

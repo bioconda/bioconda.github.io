@@ -25,9 +25,7 @@ clove
    :versions: 0.17-1, 0.17-0
    
    :depends openjdk: >=8
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

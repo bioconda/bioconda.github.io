@@ -26,9 +26,7 @@ seqtk
    :versions: 1.3-1, 1.3-0, 1.2-1, 1.2-0, r93-0, r82-1, r82-0, r75-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

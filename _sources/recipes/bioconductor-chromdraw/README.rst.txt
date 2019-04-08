@@ -26,15 +26,10 @@ bioconductor-chromdraw
    :versions: 2.12.0-0, 2.10.0-0, 2.8.0-0, 2.6.0-0
    
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rcpp: >=0.11.1
-   
    :requirements:
 
    .. rubric:: Installation

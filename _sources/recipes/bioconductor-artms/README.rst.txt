@@ -25,75 +25,40 @@ bioconductor-artms
    :versions: 1.0.10-0, 1.0.1-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-msstats: >=3.14.0,<3.15.0
-   
    :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-org.mm.eg.db: >=3.7.0,<3.8.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bit64: 
-   
    :depends r-circlize: 
-   
    :depends r-cluster: 
-   
    :depends r-corrplot: 
-   
    :depends r-data.table: 
-   
    :depends r-dplyr: 
-   
    :depends r-factoextra: 
-   
    :depends r-factominer: 
-   
    :depends r-getopt: 
-   
    :depends r-ggdendro: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ggrepel: 
-   
    :depends r-gplots: 
-   
    :depends r-gprofiler: 
-   
    :depends r-openxlsx: 
-   
    :depends r-performanceanalytics: 
-   
    :depends r-pheatmap: 
-   
    :depends r-plotly: 
-   
    :depends r-plyr: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :depends r-seqinr: 
-   
    :depends r-stringr: 
-   
    :depends r-tidyr: 
-   
    :depends r-upsetr: 
-   
    :depends r-venndiagram: 
-   
    :depends r-yaml: 
-   
    :requirements:
 
    .. rubric:: Installation

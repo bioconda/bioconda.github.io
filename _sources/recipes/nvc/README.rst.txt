@@ -25,13 +25,9 @@ nvc
    :versions: 0.0.4-1, 0.0.4-0, 0.0.3-1, 0.0.3-0
    
    :depends numpy: 
-   
    :depends pybamparser: 0.0.3
-   
    :depends pybamtools: 0.0.4
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

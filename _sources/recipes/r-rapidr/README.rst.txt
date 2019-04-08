@@ -25,19 +25,12 @@ r-rapidr
    :versions: 0.1.1-3, 0.1.1-2, 0.1.1-0
    
    :depends bioconductor-biostrings: 
-   
    :depends bioconductor-genomicalignments: 
-   
    :depends bioconductor-genomicranges: 
-   
    :depends bioconductor-rsamtools: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: 
-   
    :depends r-propcis: 
-   
    :requirements:
 
    .. rubric:: Installation

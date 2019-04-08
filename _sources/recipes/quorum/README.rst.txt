@@ -25,11 +25,8 @@ quorum
    :versions: 1.1.1-1, 1.1.1-0
    
    :depends jellyfish: 2.2.10.*
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends perl: 
-   
    :requirements:
 
    .. rubric:: Installation

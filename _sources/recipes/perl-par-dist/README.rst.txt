@@ -25,11 +25,8 @@ perl-par-dist
    :versions: 0.49-1, 0.49-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-file-find: 
-   
    :depends perl-file-path: 
-   
    :requirements:
 
    .. rubric:: Installation

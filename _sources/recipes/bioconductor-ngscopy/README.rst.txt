@@ -25,13 +25,9 @@ bioconductor-ngscopy
    :versions: 1.16.1-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-changepoint: >=2.1.1
-   
    :depends r-rbamtools: >=2.6.0
-   
    :depends r-xmisc: >=0.2.1
-   
    :requirements:
 
    .. rubric:: Installation

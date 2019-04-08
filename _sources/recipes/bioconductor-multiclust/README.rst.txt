@@ -26,19 +26,12 @@ bioconductor-multiclust
    :versions: 1.12.0-0, 1.10.0-0, 1.8.2-0
    
    :depends bioconductor-ctc: >=1.56.0,<1.57.0
-   
    :depends r-amap: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-dendextend: 
-   
    :depends r-mclust: 
-   
    :depends r-survival: 
-   
    :requirements:
 
    .. rubric:: Installation

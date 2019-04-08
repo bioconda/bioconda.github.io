@@ -25,7 +25,6 @@ bis-snp
    :versions: 1.0.1-1, 1.0.1-0, 0.82.2-0
    
    :depends openjdk: >=8.0.0
-   
    :requirements:
 
    .. rubric:: Installation

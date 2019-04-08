@@ -25,35 +25,20 @@ bioconductor-erccdashboard
    :versions: 1.16.0-0
    
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-qvalue: >=2.14.0,<2.15.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: >=2.1.0
-   
    :depends r-gplots: 
-   
    :depends r-gridextra: >=2.0.0
-   
    :depends r-gtools: 
-   
    :depends r-locfit: 
-   
    :depends r-mass: 
-   
    :depends r-plyr: 
-   
    :depends r-reshape2: 
-   
    :depends r-rocr: 
-   
    :depends r-scales: 
-   
    :depends r-stringr: 
-   
    :requirements:
 
    .. rubric:: Installation

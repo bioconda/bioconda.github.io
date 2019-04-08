@@ -25,7 +25,6 @@ perl-tie-refhash
    :versions: 1.39-2, 1.39-1, 1.39-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

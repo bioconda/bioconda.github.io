@@ -25,15 +25,10 @@ cpat
    :versions: 1.2.4-1, 1.2.4-0, 1.2.3-1, 1.2.3-0, 1.2.2-2
    
    :depends bx-python: 
-   
    :depends numpy: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8
-   
    :depends r-base: 
-   
    :requirements:
 
    .. rubric:: Installation

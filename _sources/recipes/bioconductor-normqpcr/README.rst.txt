@@ -25,15 +25,10 @@ bioconductor-normqpcr
    :versions: 1.28.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-readqpcr: >=1.28.0,<1.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-qpcr: 
-   
    :depends r-rcolorbrewer: 
-   
    :requirements:
 
    .. rubric:: Installation

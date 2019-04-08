@@ -26,11 +26,8 @@ rnablueprint
    :versions: 1.2.2-0, 1.2-1, 1.2-0
    
    :depends boost: >=1.67.0,<1.67.1.0a0
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

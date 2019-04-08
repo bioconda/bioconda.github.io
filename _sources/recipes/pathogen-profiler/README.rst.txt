@@ -25,25 +25,15 @@ pathogen-profiler
    :versions: 1.1-2, 1.1-1, 1.1-0, 1.0-0, 0.1-3, 0.1-2, 0.1-1, 0.1-0
    
    :depends bcftools: >=1.9
-   
    :depends bowtie2: 
-   
    :depends bwa: 
-   
    :depends delly: 
-   
    :depends minimap2: 
-   
    :depends parallel: 
-   
    :depends python: 
-   
    :depends samtools: >=1.9
-   
    :depends tqdm: 
-   
    :depends trimmomatic: 
-   
    :requirements:
 
    .. rubric:: Installation

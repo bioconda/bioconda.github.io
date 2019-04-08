@@ -26,15 +26,10 @@ bioconductor-epivizrserver
    :versions: 1.10.0-0, 1.8.1-0, 1.6.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-httpuv: >=1.3.0
-   
    :depends r-mime: >=0.2
-   
    :depends r-r6: >=2.0.0
-   
    :depends r-rjson: 
-   
    :requirements:
 
    .. rubric:: Installation

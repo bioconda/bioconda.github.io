@@ -25,11 +25,8 @@ maxentpy
    :versions: 0.0.1-2, 0.0.1-1, 0.0.1-0
    
    :depends cython: 
-   
    :depends msgpack-python: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

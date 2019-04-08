@@ -28,27 +28,16 @@ mhcflurry
    :versions: 1.2.2-0
    
    :depends appdirs: 
-   
    :depends keras: >=2.0.9
-   
    :depends mhcnames: 
-   
    :depends numpy: >=1.11
-   
    :depends pandas: >=0.20.3
-   
    :depends python: 
-   
    :depends pyyaml: 
-   
    :depends scikit-learn: 
-   
    :depends six: 
-   
    :depends tensorflow: >=1.1.0
-   
    :depends tqdm: 
-   
    :requirements:
 
    .. rubric:: Installation

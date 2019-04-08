@@ -25,7 +25,6 @@ plant_tribes_gene_family_integrator
    :versions: 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0
    
    :depends perl: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ sumaclust
    :versions: 1.0.31-1, 1.0.31-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :requirements:
 
    .. rubric:: Installation

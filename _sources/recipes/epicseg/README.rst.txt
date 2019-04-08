@@ -25,25 +25,15 @@ epicseg
    :versions: 1.0-2, 1.0-1, 1.0-0
    
    :depends bioconductor-bamsignals: 
-   
    :depends bioconductor-edger: 
-   
    :depends bioconductor-genomicranges: 
-   
    :depends bioconductor-iranges: 
-   
    :depends bioconductor-s4vectors: 
-   
    :depends kfoots: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rcpp: >=0.10.6
-   
    :requirements:
 
    .. rubric:: Installation

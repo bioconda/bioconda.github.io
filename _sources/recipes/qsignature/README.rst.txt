@@ -25,7 +25,6 @@ qsignature
    :versions: 0.1pre-4, 0.1pre-3, 0.1pre-2, 0.1pre-1, 0.1pre-0
    
    :depends openjdk: 
-   
    :requirements:
 
    .. rubric:: Installation

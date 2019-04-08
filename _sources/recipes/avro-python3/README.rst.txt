@@ -25,7 +25,6 @@ avro-python3
    :versions: 1.8.2-1, 1.8.2-0, 1.8.1-0, 1.8.0-0
    
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

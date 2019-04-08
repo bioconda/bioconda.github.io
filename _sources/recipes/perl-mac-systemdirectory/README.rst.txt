@@ -25,11 +25,8 @@ perl-mac-systemdirectory
    :versions: 0.10-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-exporter: 
-   
    :depends perl-xsloader: 
-   
    :requirements:
 
    .. rubric:: Installation

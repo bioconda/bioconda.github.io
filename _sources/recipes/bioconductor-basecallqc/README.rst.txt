@@ -25,37 +25,21 @@ bioconductor-basecallqc
    :versions: 1.6.0-0, 1.4.0-0, 1.2.0-0
    
    :depends bioconductor-shortread: >=1.40.0,<1.41.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: 
-   
    :depends r-dplyr: 
-   
    :depends r-dt: 
-   
    :depends r-ggplot2: 
-   
    :depends r-knitr: 
-   
    :depends r-lazyeval: 
-   
    :depends r-magrittr: 
-   
    :depends r-prettydoc: 
-   
    :depends r-raster: 
-   
    :depends r-rmarkdown: 
-   
    :depends r-stringr: 
-   
    :depends r-tidyr: 
-   
    :depends r-xml: 
-   
    :depends r-yaml: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,31 +26,18 @@ multiqc
    :versions: 1.7-2, 1.7-1, 1.7-0, 1.6-0, 1.6a0-2, 1.6a0-1, 1.6a0-0, 1.5-0, 1.5a-0, 1.4-0, 1.3-2, 1.3-1, 1.3-0, 1.2-0, 1.1-0, 1.0-4, 1.0-1, 1.0-0, 0.9.1a0-4, 0.9.1a0-3, 0.9.1a0-2, 0.9.1a0-1, 0.9.1a0-0, 0.9-0, 0.9a-0, 0.8-0, 0.8dev0-0, 0.7.1dev0-1, 0.7.1dev0-0, 0.7-0, 0.6-0, 0.5-0, 0.4-0
    
    :depends click: 
-   
    :depends future: >0.14.0
-   
    :depends jinja2: >=2.9
-   
    :depends lzstring: 
-   
    :depends markdown: 
-   
    :depends matplotlib: >=2.1.1,<3.0.0
-   
    :depends numpy: 
-   
    :depends python: 
-   
    :depends pyyaml: 
-   
    :depends requests: 
-   
    :depends setuptools: 
-   
    :depends simplejson: 
-   
    :depends spectra: >=0.0.10
-   
    :requirements:
 
    .. rubric:: Installation

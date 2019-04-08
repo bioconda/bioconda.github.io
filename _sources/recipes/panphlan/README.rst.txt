@@ -30,19 +30,12 @@ panphlan
    :versions: 1.2-4, 1.2-3
    
    :depends biopython: 
-   
    :depends bowtie2: >=2.0.0
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: 
-   
    :depends setuptools: 
-   
    :requirements:
 
    .. rubric:: Installation

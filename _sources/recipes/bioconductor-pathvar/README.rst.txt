@@ -26,19 +26,12 @@ bioconductor-pathvar
    :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: 
-   
    :depends r-emt: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-matching: 
-   
    :depends r-mclust: 
-   
    :requirements:
 
    .. rubric:: Installation

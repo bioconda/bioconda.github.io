@@ -25,19 +25,12 @@ bioconductor-fastliquidassociation
    :versions: 1.18.0-0
    
    :depends bioconductor-impute: >=1.56.0,<1.57.0
-   
    :depends bioconductor-liquidassociation: >=1.36.0,<1.37.0
-   
    :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-doparallel: 
-   
    :depends r-hmisc: 
-   
    :depends r-wgcna: 
-   
    :requirements:
 
    .. rubric:: Installation

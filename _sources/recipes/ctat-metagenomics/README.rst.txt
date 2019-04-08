@@ -25,11 +25,8 @@ ctat-metagenomics
    :versions: 1.0.1-1
    
    :depends blast: 
-   
    :depends centrifuge: 
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

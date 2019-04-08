@@ -25,7 +25,6 @@ wheezy.template
    :versions: 0.1.167-1, 0.1.167-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

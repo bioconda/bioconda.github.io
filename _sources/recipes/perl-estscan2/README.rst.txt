@@ -25,9 +25,7 @@ perl-estscan2
    :versions: 2.1-2, 2.1-1, 2.1-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-btlib: 
-   
    :requirements:
 
    .. rubric:: Installation

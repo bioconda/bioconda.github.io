@@ -26,55 +26,30 @@ maker
    :versions: 2.31.10-11, 2.31.10-10, 2.31.10-9, 2.31.10-8, 2.31.10-7, 2.31.10-6, 2.31.9-6, 2.31.9-3, 2.31.9-2, 2.31.9-1, 2.31.9-0
    
    :depends augustus: >=3.2.3
-   
    :depends blast: 
-   
    :depends exonerate: 
-   
    :depends infernal: 
-   
    :depends mir-prefer: 
-   
    :depends openmpi: 
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bioperl: >=1.7
-   
    :depends perl-bit-vector: 
-   
    :depends perl-dbd-pg: 
-   
    :depends perl-dbd-sqlite: 
-   
    :depends perl-dbi: 
-   
    :depends perl-file-which: 
-   
    :depends perl-forks: 
-   
    :depends perl-inline-c: >=0.78
-   
    :depends perl-io-all: 
-   
    :depends perl-io-prompt: 
-   
    :depends perl-list-moreutils: 
-   
    :depends perl-perl-unsafe-signals: 
-   
    :depends perl-perlio-gzip: 
-   
    :depends postgresql: 
-   
    :depends repeatmasker: 
-   
    :depends snap: 
-   
    :depends snoscan: 
-   
    :depends trnascan-se: 1.3.1
-   
    :requirements:
 
    .. rubric:: Installation

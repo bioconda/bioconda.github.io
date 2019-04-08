@@ -25,15 +25,10 @@ damidseq_pipeline
    :versions: 1.4-2, 1.4-1, 1.4-0
    
    :depends bowtie2: >=2.3.0
-   
    :depends igvtools: 
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends r-base: 
-   
    :depends samtools: <1.3.0
-   
    :requirements:
 
    .. rubric:: Installation

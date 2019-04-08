@@ -25,29 +25,17 @@ genomepy
    :versions: 0.5.4-1, 0.5.4-0, 0.5.2-2, 0.5.2-1, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0
    
    :depends bucketcache: >=0.12.1
-   
    :depends click: 
-   
    :depends norns: >=0.1.4
-   
    :depends pyfaidx: >=0.5.1
-   
    :depends pytest: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends requests: 
-   
    :depends ucsc-bedtogenepred: 
-   
    :depends ucsc-genepredtobed: 
-   
    :depends ucsc-genepredtogtf: 
-   
    :depends ucsc-gtftogenepred: 
-   
    :depends xmltodict: 
-   
    :requirements:
 
    .. rubric:: Installation

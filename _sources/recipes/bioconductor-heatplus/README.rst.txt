@@ -26,9 +26,7 @@ bioconductor-heatplus
    :versions: 2.28.0-0, 2.26.0-0, 2.24.0-0, 2.22.0-0, 2.20.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rcolorbrewer: 
-   
    :requirements:
 
    .. rubric:: Installation

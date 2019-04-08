@@ -25,13 +25,9 @@ perl-pod-coverage-trustpod
    :versions: 0.100003-1, 0.100003-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-base: 
-   
    :depends perl-lib: 
-   
    :requirements:
 
    .. rubric:: Installation

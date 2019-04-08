@@ -25,13 +25,9 @@ perl-dbm-deep
    :versions: 2.0013-1, 2.0013-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-dbi: 
-   
    :depends perl-digest-md5: 
-   
    :depends perl-scalar-list-utils: 
-   
    :requirements:
 
    .. rubric:: Installation

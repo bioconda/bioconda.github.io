@@ -25,29 +25,17 @@ r-mess
    :versions: 0.5.4-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-geem: 
-   
    :depends r-geepack: 
-   
    :depends r-glmnet: 
-   
    :depends r-kinship2: 
-   
    :depends r-mass: 
-   
    :depends r-matrix: 
-   
    :depends r-mvtnorm: 
-   
    :depends r-rcpp: 
-   
    :depends r-rcpparmadillo: 
-   
    :requirements:
 
    .. rubric:: Installation

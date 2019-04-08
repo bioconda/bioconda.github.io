@@ -25,25 +25,15 @@ svim
    :versions: 0.4.4-0, 0.4.3-0, 0.4.2-0, 0.4.1-0
    
    :depends biopython: 
-   
    :depends matplotlib: 
-   
    :depends minimap2: 
-   
    :depends networkx: 
-   
    :depends ngmlr: 
-   
    :depends numpy: 
-   
    :depends pysam: 
-   
    :depends python: 3.6.*
-   
    :depends samtools: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

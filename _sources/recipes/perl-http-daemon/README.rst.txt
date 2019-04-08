@@ -25,13 +25,9 @@ perl-http-daemon
    :versions: 6.01-1, 6.01-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-http-date: 
-   
    :depends perl-http-message: 
-   
    :depends perl-lwp-mediatypes: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ pycluster
    :versions: 1.54-1, 1.54-0, 1.52-1
    
    :depends libgcc-ng: >=4.9
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

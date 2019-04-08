@@ -25,11 +25,8 @@ perl-aceperl
    :versions: 1.92-2, 1.92-1, 1.92-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-cache-cache: 
-   
    :depends perl-digest-md5: 
-   
    :requirements:
 
    .. rubric:: Installation

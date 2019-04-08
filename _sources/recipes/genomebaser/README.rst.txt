@@ -25,11 +25,8 @@ genomebaser
    :versions: 0.1.2-1, 0.1.2-0
    
    :depends biopython: 
-   
    :depends click: 
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,39 +25,22 @@ bioconductor-nethet
    :versions: 1.14.0-0
    
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-multtest: >=2.38.0,<2.39.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-compquadform: 
-   
    :depends r-genenet: 
-   
    :depends r-ggm: 
-   
    :depends r-ggplot2: 
-   
    :depends r-glasso: 
-   
    :depends r-glmnet: 
-   
    :depends r-gsa: 
-   
    :depends r-huge: 
-   
    :depends r-icsnp: 
-   
    :depends r-mclust: 
-   
    :depends r-mvtnorm: 
-   
    :depends r-network: 
-   
    :depends r-parcor: 
-   
    :requirements:
 
    .. rubric:: Installation

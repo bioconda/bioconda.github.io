@@ -25,7 +25,6 @@ perl-tie-ixhash
    :versions: 1.23-2, 1.23-1, 1.23-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

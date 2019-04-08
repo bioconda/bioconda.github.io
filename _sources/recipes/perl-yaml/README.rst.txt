@@ -25,7 +25,6 @@ perl-yaml
    :versions: 1.27-0, 1.26-1, 1.26-0, 1.24-1, 1.24-0, 1.18-2, 1.18-1, 1.18-0, 1.15-1, 1.15-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

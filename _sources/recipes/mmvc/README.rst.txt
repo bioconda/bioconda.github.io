@@ -25,7 +25,6 @@ mmvc
    :versions: 1.0.2-1, 1.0.2-0
    
    :depends julia: 0.6.1.*
-   
    :requirements:
 
    .. rubric:: Installation

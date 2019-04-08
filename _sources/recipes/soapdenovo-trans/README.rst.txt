@@ -25,9 +25,7 @@ soapdenovo-trans
    :versions: 1.04-2, 1.04-1, 1.04-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ pycsg
    :versions: 0.3.12-1, 0.3.12-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

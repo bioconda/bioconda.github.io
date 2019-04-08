@@ -25,27 +25,16 @@ lefse
    :versions: 1.0.8.post1-1, 1.0.8.post1-0, 1.0.7.post1-0, 1.0.7-2, 1.0.7-1
    
    :depends biom-format: >=2.1.5
-   
    :depends matplotlib: >=1.0
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends r-base: 
-   
    :depends r-coin: 
-   
    :depends r-mass: 
-   
    :depends r-modeltools: 
-   
    :depends r-mvtnorm: 
-   
    :depends r-survival: 
-   
    :depends rpy2: >=2.8.5
-   
    :requirements:
 
    .. rubric:: Installation

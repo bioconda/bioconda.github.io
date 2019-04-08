@@ -25,19 +25,12 @@ lexmapr
    :versions: 0.1.2-0, 0.1.1-0, 0.1.0-0
    
    :depends inflection: 
-   
    :depends nltk: 
-   
    :depends nltk_data: 
-   
    :depends python: 
-   
    :depends python-dateutil: 
-   
    :depends rdflib: 
-   
    :depends wikipedia: 
-   
    :requirements:
 
    .. rubric:: Installation

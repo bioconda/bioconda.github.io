@@ -25,13 +25,9 @@ braker
    :versions: 1.9-2, 1.9-1
    
    :depends perl-app-cpanminus: 
-   
    :depends perl-parallel-forkmanager: 
-   
    :depends perl-pathtools: 
-   
    :depends perl-scalar-util-numeric: 
-   
    :requirements:
 
    .. rubric:: Installation

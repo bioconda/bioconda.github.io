@@ -25,11 +25,8 @@ perl-super
    :versions: 1.20141117-1, 1.20141117-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-sub-identify: 
-   
    :requirements:
 
    .. rubric:: Installation

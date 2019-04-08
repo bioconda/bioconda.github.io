@@ -25,9 +25,7 @@ bioconductor-jaspar2018
    :versions: 1.1.1-0, 1.0.0-1, 1.0.0-0, 0.99.2-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

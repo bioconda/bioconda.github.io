@@ -27,15 +27,10 @@ combined-pvalues
    :versions: 0.48-2, 0.48-0, 0.46-0
    
    :depends interlap: 
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: 
-   
    :depends toolshed: 
-   
    :requirements:
 
    .. rubric:: Installation

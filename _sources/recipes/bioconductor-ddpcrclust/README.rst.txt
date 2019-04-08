@@ -25,25 +25,15 @@ bioconductor-ddpcrclust
    :versions: 1.2.0-0
    
    :depends bioconductor-flowcore: >=1.48.0,<1.49.0
-   
    :depends bioconductor-flowdensity: >=1.16.0,<1.17.0
-   
    :depends bioconductor-flowpeaks: >=1.28.0,<1.29.0
-   
    :depends bioconductor-samspectral: >=1.36.0,<1.37.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-clue: 
-   
    :depends r-ggplot2: 
-   
    :depends r-openxlsx: 
-   
    :depends r-plotrix: 
-   
    :depends r-r.utils: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ cistrome_beta
    :versions: 1.0.7-1, 1.0.7-0
    
    :depends argparse: 
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends r-base: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ perl-test-subcalls
    :versions: 1.10-2, 1.10-1, 1.10-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-exporter: 
-   
    :depends perl-hook-lexwrap: 
-   
    :requirements:
 
    .. rubric:: Installation

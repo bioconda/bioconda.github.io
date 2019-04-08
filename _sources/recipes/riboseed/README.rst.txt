@@ -25,43 +25,24 @@ riboseed
    :versions: 0.4.73-1, 0.4.73-0, 0.4.71-0, 0.4.70-2, 0.4.68-2, 0.4.67-2, 0.4.65-1, 0.4.47-1, 0.4.47-0, 0.4.16-0
    
    :depends barrnap: 0.7
-   
    :depends bcftools: 1.5
-   
    :depends biopython: 1.68
-   
    :depends blast: 
-   
    :depends bwa: 0.7.8
-   
    :depends coverage: 4.4.1
-   
    :depends emboss: 
-   
    :depends jenkspy: 0.1.4
-   
    :depends mafft: 
-   
    :depends matplotlib: 1.5.3
-   
    :depends networkx: 2.1
-   
    :depends nose: 1.3.7
-   
    :depends pandas: 0.20.1
-   
    :depends prank: 
-   
    :depends pyaml: 17.8.0
-   
    :depends pysam: 0.11.2.2
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends samtools: 1.4.1
-   
    :depends spades: 3.9.0
-   
    :requirements:
 
    .. rubric:: Installation

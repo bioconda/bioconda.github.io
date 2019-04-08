@@ -25,29 +25,17 @@ gneiss
    :versions: 0.4.4-0
    
    :depends biom-format: 
-   
    :depends bokeh: 
-   
    :depends ipython: >=3.2.0
-   
    :depends matplotlib: >=1.4.3
-   
    :depends nose: >=1.3.7
-   
    :depends numpy: >=1.9.2
-   
    :depends pandas: >=0.18.0
-   
    :depends python: >3
-   
    :depends scikit-bio: >=0.5.1
-   
    :depends scipy: >=0.15.1
-   
    :depends seaborn: 
-   
    :depends statsmodels: >=0.8.0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ dedup
    :versions: 0.12.5-1, 0.12.4-1, 0.12.3-1, 0.12.3-0
    
    :depends openjdk: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

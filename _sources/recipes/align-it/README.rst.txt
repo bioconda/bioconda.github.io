@@ -25,11 +25,8 @@ align_it
    :versions: 1.0.3-5, 1.0.3-4, 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends openbabel: 2.4.1
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

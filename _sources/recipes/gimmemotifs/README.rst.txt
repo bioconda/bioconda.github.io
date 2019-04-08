@@ -26,73 +26,39 @@ gimmemotifs
    :versions: 0.13.1-1, 0.13.1-0, 0.13.0-1, 0.13.0-0, 0.12.0-1, 0.12.0-0, 0.11.1-1, 0.11.1-0, 0.10.0-0, 0.10.0b6-1, 0.10.0b5-1, 0.10.0b4-1, 0.10.0b4-0, 0.10.0b1-0, 0.9.0.6-0, 0.9.0.5-0, 0.9.0.4-0, 0.9.0.3-2, 0.8.9.1-1
    
    :depends bedtools: 
-   
    :depends diskcache: 
-   
    :depends feather-format: 
-   
    :depends future: 
-   
    :depends gadem: 
-   
    :depends genomepy: 
-   
    :depends ghostscript: 
-   
    :depends homer: 
-   
    :depends jinja2: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends matplotlib: >=2.0
-   
    :depends meme: 
-   
    :depends ncurses: >=6.1,<6.2.0a0
-   
    :depends numpy: >=1.15.4,<2.0a0
-   
    :depends pillow: 
-   
    :depends pybedtools: 
-   
    :depends pysam: 
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends python-xxhash: 
-   
    :depends pyyaml: >=3.10
-   
    :depends scikit-learn: >=0.18
-   
    :depends scipy: >=0.9.0
-   
    :depends seaborn: 
-   
    :depends six: 
-   
    :depends sklearn-contrib-lightning: 
-   
    :depends statsmodels: 
-   
    :depends tqdm: 
-   
    :depends trawler: 
-   
    :depends ucsc-bigbedtobed: 
-   
    :depends ucsc-genepredtobed: 
-   
    :depends weeder: 
-   
    :depends xdg: 
-   
    :depends xgboost: >=0.71
-   
    :depends xxmotif: 
-   
    :requirements:
 
    .. rubric:: Installation

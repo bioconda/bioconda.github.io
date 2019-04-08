@@ -26,15 +26,10 @@ bioconductor-meigor
    :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0
    
    :depends bioconductor-cnorode: >=1.24.0,<1.25.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-desolve: 
-   
    :depends r-rsolnp: 
-   
    :depends r-snowfall: 
-   
    :requirements:
 
    .. rubric:: Installation

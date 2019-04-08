@@ -25,7 +25,6 @@ enabrowsertools
    :versions: 1.5.4-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

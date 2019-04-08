@@ -25,19 +25,12 @@ seq-seq-pan
    :versions: 1.0.1-1, 1.0.1-0, 1.0.0-1, 1.0.0-0
    
    :depends argparse: 
-   
    :depends biopython: 1.69
-   
    :depends blat: 35
-   
    :depends mauvealigner: 1.2.0
-   
    :depends openjdk: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends snakemake: 
-   
    :requirements:
 
    .. rubric:: Installation

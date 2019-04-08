@@ -25,11 +25,8 @@ perl-module-metadata
    :versions: 1.000033-0, 1.000019-1, 1.000019-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-version: 
-   
    :requirements:
 
    .. rubric:: Installation

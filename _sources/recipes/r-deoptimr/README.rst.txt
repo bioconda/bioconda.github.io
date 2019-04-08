@@ -25,7 +25,6 @@ r-deoptimr
    :versions: 1.0_8-0, 1.0_6-0
    
    :depends r-base: 3.4.1*
-   
    :requirements:
 
    .. rubric:: Installation

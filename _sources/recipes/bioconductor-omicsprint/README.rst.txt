@@ -25,17 +25,11 @@ bioconductor-omicsprint
    :versions: 1.2.1-0, 1.2.0-0
    
    :depends bioconductor-multiassayexperiment: >=1.8.0,<1.9.0
-   
    :depends bioconductor-raggedexperiment: >=1.6.0,<1.7.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-mass: 
-   
    :depends r-matrixstats: 
-   
    :requirements:
 
    .. rubric:: Installation

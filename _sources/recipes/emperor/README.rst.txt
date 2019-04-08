@@ -25,13 +25,9 @@ emperor
    :versions: 0.9.51-0, 0.9.3-1, 0.9.3-0
    
    :depends numpy: >=1.7
-   
    :depends python: 2.7*
-   
    :depends qcli: 
-   
    :depends scikit-bio: >=0.2.1,<0.3.0
-   
    :requirements:
 
    .. rubric:: Installation

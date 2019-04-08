@@ -26,33 +26,19 @@ bioconductor-flowq
    :versions: 1.40.0-0, 1.38.0-0
    
    :depends bioconductor-biocgenerics: >=0.26.0,<0.28.0
-   
    :depends bioconductor-biodist: >=1.52.0,<1.54.0
-   
    :depends bioconductor-flowcore: >=1.46.2,<1.48.0
-   
    :depends bioconductor-flowviz: >=1.44.0,<1.46.0
-   
    :depends bioconductor-geneplotter: >=1.58.0,<1.60.0
-   
    :depends bioconductor-iranges: >=2.14.12,<2.16.0
-   
    :depends bioconductor-parody: >=1.38.0,<1.40.0
-   
    :depends imagemagick: 
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-lattice: 
-   
    :depends r-latticeextra: 
-   
    :depends r-mvoutlier: 
-   
    :depends r-outliers: 
-   
    :depends r-rcolorbrewer: 
-   
    :requirements:
 
    .. rubric:: Installation

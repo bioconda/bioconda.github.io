@@ -25,19 +25,12 @@ bioconductor-famagg
    :versions: 1.10.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gap: >=1.1-17
-   
    :depends r-igraph: 
-   
    :depends r-kinship2: 
-   
    :depends r-matrix: 
-   
    :depends r-survey: 
-   
    :requirements:
 
    .. rubric:: Installation

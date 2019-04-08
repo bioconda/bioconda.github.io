@@ -25,27 +25,16 @@ bioconductor-ldblock
    :versions: 1.12.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-erma: >=0.14.0,<0.15.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicfiles: >=1.18.0,<1.19.0
-   
    :depends bioconductor-go.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-homo.sapiens: >=1.3.0,<1.4.0
-   
    :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   
    :depends bioconductor-snpstats: >=1.32.0,<1.33.0
-   
    :depends bioconductor-variantannotation: >=1.28.0,<1.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-matrix: 
-   
    :requirements:
 
    .. rubric:: Installation

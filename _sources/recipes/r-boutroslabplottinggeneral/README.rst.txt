@@ -25,45 +25,25 @@ boutroslabplottinggeneral
    :versions: 5.3.4-0
    
    :depends r-argparse: 
-   
    :depends r-assertthat: 
-   
    :depends r-base: 3.3.1*
-   
    :depends r-bh: 
-   
    :depends r-dbi: 
-   
    :depends r-dplyr: 
-   
    :depends r-findpython: 
-   
    :depends r-getopt: 
-   
    :depends r-hexbin: 
-   
    :depends r-lattice: 
-   
    :depends r-latticeextra: 
-   
    :depends r-lazyeval: 
-   
    :depends r-magrittr: 
-   
    :depends r-proto: 
-   
    :depends r-r.methodss3: 
-   
    :depends r-r6: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rcpp: 
-   
    :depends r-rjson: 
-   
    :depends r-tibble: 
-   
    :requirements:
 
    .. rubric:: Installation

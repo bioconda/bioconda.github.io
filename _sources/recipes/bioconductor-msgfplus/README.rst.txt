@@ -25,15 +25,10 @@ bioconductor-msgfplus
    :versions: 1.16.1-0
    
    :depends bioconductor-mzid: >=1.20.0,<1.21.0
-   
    :depends bioconductor-protgenerics: >=1.14.0,<1.15.0
-   
    :depends openjdk: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-stringr: 
-   
    :requirements:
 
    .. rubric:: Installation

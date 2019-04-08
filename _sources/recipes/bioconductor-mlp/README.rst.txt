@@ -26,21 +26,13 @@ bioconductor-mlp
    :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0, 1.24.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gdata: 
-   
    :depends r-gmodels: 
-   
    :depends r-gplots: 
-   
    :depends r-gtools: 
-   
    :depends r-plotrix: 
-   
    :requirements:
 
    .. rubric:: Installation

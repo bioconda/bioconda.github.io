@@ -26,25 +26,15 @@ bioconductor-cancersubtypes
    :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0
    
    :depends bioconductor-consensusclusterplus: >=1.46.0,<1.47.0
-   
    :depends bioconductor-impute: >=1.56.0,<1.57.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-icluster: 
-   
    :depends r-nmf: 
-   
    :depends r-sigclust: 
-   
    :depends r-snftool: 
-   
    :depends r-survival: 
-   
    :requirements:
 
    .. rubric:: Installation

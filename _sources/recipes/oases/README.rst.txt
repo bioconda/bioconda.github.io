@@ -26,9 +26,7 @@ oases
    :versions: 0.2.09-1, 0.2.09-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends velvet: 
-   
    :requirements:
 
    .. rubric:: Installation

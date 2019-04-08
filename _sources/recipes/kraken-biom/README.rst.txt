@@ -25,9 +25,7 @@ kraken-biom
    :versions: 1.0.1-2, 1.0.1-0
    
    :depends biom-format: >=2.1.5
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

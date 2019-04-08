@@ -25,7 +25,6 @@ pybamparser
    :versions: 0.0.3-1, 0.0.3-0
    
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

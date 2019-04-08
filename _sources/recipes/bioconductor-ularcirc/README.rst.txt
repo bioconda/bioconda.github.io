@@ -25,39 +25,22 @@ bioconductor-ularcirc
    :versions: 1.0.0-0
    
    :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomeinfodbdata: >=1.2.0,<1.3.0
-   
    :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
-   
    :depends bioconductor-mirbase.db: >=1.2.0,<1.3.0
-   
    :depends bioconductor-sushi: >=1.20.0,<1.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: >=1.9.4
-   
    :depends r-dt: 
-   
    :depends r-gsubfn: 
-   
    :depends r-httpuv: 
-   
    :depends r-moments: 
-   
    :depends r-shiny: 
-   
    :depends r-shinyfiles: 
-   
    :depends r-yaml: 
-   
    :requirements:
 
    .. rubric:: Installation

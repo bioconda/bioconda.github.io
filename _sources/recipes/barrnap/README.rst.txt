@@ -26,11 +26,8 @@ barrnap
    :versions: 0.9-2, 0.9-1, 0.9-0, 0.8-1, 0.8-0, 0.7-4, 0.7-3, 0.7-2, 0.7-1, 0.7-0, 0.3-2, 0.3-1, 0.3-0, 0.2-1, 0.2-0
    
    :depends bedtools: 
-   
    :depends hmmer: >=3.1b
-   
    :depends perl: 
-   
    :requirements:
 
    .. rubric:: Installation

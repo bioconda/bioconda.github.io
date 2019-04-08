@@ -26,19 +26,12 @@ r-ngsplot
    :versions: 2.63-3, 2.63-2, 2.63-1, 2.63-0
    
    :depends bioconductor-bsgenome: 
-   
    :depends bioconductor-rsamtools: 
-   
    :depends bioconductor-shortread: 
-   
    :depends python: <3.0a0
-   
    :depends r-base: 
-   
    :depends r-catools: 
-   
    :depends r-domc: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ crisper_recognition_tool
    :versions: 1.2-1, 1.2-0
    
    :depends openjdk: >=6
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

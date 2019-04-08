@@ -25,13 +25,9 @@ r-htscluster
    :versions: 2.0.8-0
    
    :depends bioconductor-edger: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-capushe: 
-   
    :depends r-plotrix: 
-   
    :requirements:
 
    .. rubric:: Installation

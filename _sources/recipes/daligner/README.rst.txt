@@ -25,7 +25,6 @@ daligner
    :versions: 1.0-0, 1.0p2-1, 1.0p2-0, 1.0p1-2, 1.0p1-1, 1.0p1-0
    
    :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

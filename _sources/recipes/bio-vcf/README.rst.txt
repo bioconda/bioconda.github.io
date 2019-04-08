@@ -25,7 +25,6 @@ bio-vcf
    :versions: 0.9.2-0, 0.9.1-2, 0.9.1-1, 0.9.1-0, 0.9.0-0
    
    :depends ruby: 
-   
    :requirements:
 
    .. rubric:: Installation

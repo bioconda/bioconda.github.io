@@ -25,33 +25,19 @@ haystack_bio
    :versions: 0.5.5-0, 0.5.4-1, 0.5.3-1, 0.5.3-0, 0.5.2-8, 0.5.2-7, 0.5.2-6, 0.5.2-5, 0.5.2-4, 0.5.2-3, 0.5.2-2, 0.5.2-1, 0.5.2-0, v0.5.0-0
    
    :depends bedtools: 
-   
    :depends bx-python: 
-   
    :depends jinja2: 
-   
    :depends matplotlib: 
-   
    :depends meme: 4.11.2.*
-   
    :depends numpy: 1.15.*
-   
    :depends openjdk: 
-   
    :depends pandas: 
-   
    :depends sambamba: 
-   
    :depends scipy: 
-   
    :depends tqdm: 
-   
    :depends ucsc-bedgraphtobigwig: 
-   
    :depends ucsc-bigwigaverageoverbed: 
-   
    :depends weblogo: 
-   
    :requirements:
 
    .. rubric:: Installation

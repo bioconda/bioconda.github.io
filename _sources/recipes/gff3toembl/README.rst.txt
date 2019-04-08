@@ -25,11 +25,8 @@ gff3toembl
    :versions: 1.1.4-1, 1.1.4-0
    
    :depends genometools-genometools: 
-   
    :depends python: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,21 +25,13 @@ bioconductor-stattarget
    :versions: 1.12.0-0
    
    :depends bioconductor-impute: >=1.56.0,<1.57.0
-   
    :depends bioconductor-roc: >=1.58.0,<1.59.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-pdist: 
-   
    :depends r-pls: 
-   
    :depends r-plyr: 
-   
    :depends r-randomforest: 
-   
    :depends r-rrcov: 
-   
    :requirements:
 
    .. rubric:: Installation

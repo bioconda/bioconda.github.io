@@ -25,9 +25,7 @@ vcfpy
    :versions: 0.12.0-3, 0.11.2-3, 0.11.2-2, 0.11.2-0, 0.11.1-0, 0.11.0-1, 0.11.0-0
    
    :depends pysam: >=0.10.0
-   
    :depends python: >=3
-   
    :requirements:
 
    .. rubric:: Installation

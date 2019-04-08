@@ -25,9 +25,7 @@ perl-text-abbrev
    :versions: 1.02-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-exporter: 
-   
    :requirements:
 
    .. rubric:: Installation

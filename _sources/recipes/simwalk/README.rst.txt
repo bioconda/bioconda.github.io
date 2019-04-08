@@ -25,9 +25,7 @@ simwalk2
    :versions: 2.91-1, 2.91-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends libgfortran: >=3.0
-   
    :requirements:
 
    .. rubric:: Installation

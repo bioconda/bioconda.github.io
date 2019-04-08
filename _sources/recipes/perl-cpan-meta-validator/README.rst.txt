@@ -25,7 +25,6 @@ perl-cpan-meta-validator
    :versions: 2.140640-1, 2.140640-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,17 +25,11 @@ r-maldirppa
    :versions: 1.0.1-3, 1.0.1-2, 1.0.1-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-lattice: 
-   
    :depends r-maldiquant: 
-   
    :depends r-robustbase: 
-   
    :depends r-signal: 
-   
    :depends r-wmtsa: 
-   
    :requirements:
 
    .. rubric:: Installation

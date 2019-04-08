@@ -26,7 +26,6 @@ pepnovo
    :versions: 20101117-1, 20101117-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

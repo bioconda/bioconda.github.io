@@ -25,9 +25,7 @@ bpp-seq
    :versions: 2.4.1-0, 2.2.0-1, 2.2.0-0
    
    :depends bpp-core: 
-   
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

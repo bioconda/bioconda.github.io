@@ -26,55 +26,30 @@ bioconductor-purecn
    :versions: 1.13.1-2, 1.12.1-0, 1.11.20-2, 1.11.20-1, 1.11.13-1, 1.11.13-0, 1.8.0-0, 1.6.3-0
    
    :depends bioconductor-biocgenerics: >=0.26.0,<0.28.0
-   
    :depends bioconductor-biostrings: >=2.48.0,<2.50.0
-   
    :depends bioconductor-copynumber: >=1.20.0,<1.22.0
-   
    :depends bioconductor-dnacopy: >=1.54.0,<1.56.0
-   
    :depends bioconductor-edger: >=3.22.0,<3.24.0
-   
    :depends bioconductor-genomeinfodb: >=1.16.0,<1.18.0
-   
    :depends bioconductor-genomicfeatures: >=1.32.2,<1.34.0
-   
    :depends bioconductor-genomicranges: >=1.32.7,<1.34.0
-   
    :depends bioconductor-iranges: >=2.14.12,<2.16.0
-   
    :depends bioconductor-limma: >=3.36.0,<3.38.0
-   
    :depends bioconductor-rhdf5: >=2.24.0,<2.26.0
-   
    :depends bioconductor-rsamtools: >=1.32.3,<1.34.0
-   
    :depends bioconductor-rtracklayer: >=1.40.6,<1.42.0
-   
    :depends bioconductor-s4vectors: >=0.18.3,<0.20.0
-   
    :depends bioconductor-summarizedexperiment: >=1.10.1,<1.12.0
-   
    :depends bioconductor-variantannotation: >=1.26.1,<1.28.0
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-data.table: 
-   
    :depends r-deconstructsigs: 
-   
    :depends r-futile.logger: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-optparse: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-vgam: 
-   
    :requirements:
 
    .. rubric:: Installation

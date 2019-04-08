@@ -25,13 +25,9 @@ ephemeris
    :versions: 0.8.0-2, 0.8.0-0
    
    :depends bioblend: 
-   
    :depends jinja2: 
-   
    :depends python: 
-   
    :depends pyyaml: 
-   
    :requirements:
 
    .. rubric:: Installation

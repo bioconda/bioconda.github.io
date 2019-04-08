@@ -25,19 +25,12 @@ unifrac
    :versions: 0.9.3-0
    
    :depends biom-format: 
-   
    :depends h5py: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends numpy: >=1.9.3,<2.0a0
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends scikit-bio: 
-   
    :requirements:
 
    .. rubric:: Installation

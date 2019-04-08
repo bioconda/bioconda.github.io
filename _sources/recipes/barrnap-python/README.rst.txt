@@ -25,9 +25,7 @@ barrnap-python
    :versions: 0.0.5-1, 0.0.5-0
    
    :depends barrnap: >=0.8
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

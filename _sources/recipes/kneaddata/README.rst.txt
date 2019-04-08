@@ -25,19 +25,12 @@ kneaddata
    :versions: 0.7.2-1, 0.7.2-0, 0.7.0-0, 0.6.1-2, 0.6.1-0, 0.5.2-0
    
    :depends bmtagger: 
-   
    :depends bowtie2: 
-   
    :depends fastqc: 
-   
    :depends python: 
-   
    :depends samtools: 
-   
    :depends trf: 
-   
    :depends trimmomatic: 
-   
    :requirements:
 
    .. rubric:: Installation

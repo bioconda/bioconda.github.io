@@ -25,15 +25,10 @@ manorm
    :versions: 1.1.4-0, 1.1.3-1, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1-0
    
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: 
-   
    :depends statsmodels: 
-   
    :requirements:
 
    .. rubric:: Installation

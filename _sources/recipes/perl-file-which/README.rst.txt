@@ -25,7 +25,6 @@ perl-file-which
    :versions: 1.23-0, 1.22-0, 1.20-1, 1.20-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

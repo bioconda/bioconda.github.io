@@ -25,9 +25,7 @@ perl-crypt-openssl-rsa
    :versions: 0.28-1, 0.28-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-crypt-openssl-random: 
-   
    :requirements:
 
    .. rubric:: Installation

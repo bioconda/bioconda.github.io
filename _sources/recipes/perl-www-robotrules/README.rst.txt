@@ -25,9 +25,7 @@ perl-www-robotrules
    :versions: 6.02-3, 6.02-2, 6.02-1, 6.02-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-uri: 
-   
    :requirements:
 
    .. rubric:: Installation

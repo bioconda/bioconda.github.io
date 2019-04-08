@@ -25,11 +25,8 @@ snns
    :versions: 4.3-1, 4.3-0
    
    :depends bison: 
-   
    :depends flex: 
-   
    :depends xorg-libxaw3d: 
-   
    :requirements:
 
    .. rubric:: Installation

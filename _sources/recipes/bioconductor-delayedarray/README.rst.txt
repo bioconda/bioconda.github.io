@@ -25,19 +25,12 @@ bioconductor-delayedarray
    :versions: 0.8.0-0, 0.6.6-0, 0.4.1-0, 0.2.7-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-matrixstats: 
-   
    :requirements:
 
    .. rubric:: Installation

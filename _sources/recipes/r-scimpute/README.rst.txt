@@ -26,25 +26,15 @@ r-scimpute
    :versions: 0.0.8-0, 0.0.6-1, 0.0.6-0
    
    :depends parallel: 
-   
    :depends r: >=3.3.2
-   
    :depends r-devtools: 
-   
    :depends r-doparallel: 
-   
    :depends r-foreach: 
-   
    :depends r-kernlab: 
-   
    :depends r-knitr: 
-   
    :depends r-markdown: 
-   
    :depends r-penalized: 
-   
    :depends r-rsvd: 
-   
    :requirements:
 
    .. rubric:: Installation

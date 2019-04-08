@@ -25,11 +25,8 @@ pyopt
    :versions: 1.2.0-1, 1.2.0-0
    
    :depends mpi4py: 
-   
    :depends numpy: >=1.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

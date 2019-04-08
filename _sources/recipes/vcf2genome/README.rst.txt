@@ -25,9 +25,7 @@ vcf2genome
    :versions: 0.91-1, 0.91-0
    
    :depends openjdk: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

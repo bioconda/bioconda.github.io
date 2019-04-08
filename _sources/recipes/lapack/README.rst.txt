@@ -25,7 +25,6 @@ lapack
    :versions: 3.6.0-2, 3.6.0-1
    
    :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

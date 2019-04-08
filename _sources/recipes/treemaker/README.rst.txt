@@ -25,7 +25,6 @@ treemaker
    :versions: 1.2-0, 1.1-1, 1.1-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

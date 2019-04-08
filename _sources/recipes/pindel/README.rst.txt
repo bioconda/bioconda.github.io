@@ -26,9 +26,7 @@ pindel
    :versions: 0.2.5b9-3, 0.2.5b9-2, 0.2.5b9-1, 0.2.5b9-0, 0.2.5b8-2
    
    :depends htslib: >=1.9,<1.10.0a0
-   
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

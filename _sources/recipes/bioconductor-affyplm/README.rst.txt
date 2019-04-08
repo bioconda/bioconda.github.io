@@ -26,21 +26,13 @@ bioconductor-affyplm
    :versions: 1.58.0-0, 1.56.0-0, 1.54.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-gcrma: >=2.54.0,<2.55.0
-   
    :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
-   
    :depends bioconductor-zlibbioc: >=1.28.0,<1.29.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

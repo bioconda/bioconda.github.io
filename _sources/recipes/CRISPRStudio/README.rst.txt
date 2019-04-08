@@ -25,17 +25,11 @@ crispr_studio
    :versions: 1-0
    
    :depends fasta3: 
-   
    :depends numpy: <=1.16.2
-   
    :depends pandas: >=0.24.1
-   
    :depends python: >=3.6,<3.7
-   
    :depends scikit-bio: >=0.4.2
-   
    :depends scipy: <=1.2.1
-   
    :requirements:
 
    .. rubric:: Installation

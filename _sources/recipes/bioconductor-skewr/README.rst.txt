@@ -25,21 +25,13 @@ bioconductor-skewr
    :versions: 1.14.0-0
    
    :depends bioconductor-illuminahumanmethylation450kmanifest: >=0.4.0,<0.5.0
-   
    :depends bioconductor-methylumi: >=2.28.0,<2.29.0
-   
    :depends bioconductor-minfi: >=1.28.0,<1.29.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-watermelon: >=1.26.0,<1.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-mixsmsn: 
-   
    :depends r-rcolorbrewer: 
-   
    :requirements:
 
    .. rubric:: Installation

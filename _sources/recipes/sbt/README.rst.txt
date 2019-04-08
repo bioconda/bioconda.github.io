@@ -25,7 +25,6 @@ sbt
    :versions: 0.13.12-1, 0.13.12-0
    
    :depends java-jdk: >=6
-   
    :requirements:
 
    .. rubric:: Installation

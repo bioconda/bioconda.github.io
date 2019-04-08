@@ -26,31 +26,18 @@ r-genometricorr
    :versions: 1.1.17-0
    
    :depends bioconductor-genomeinfodb: 
-   
    :depends bioconductor-genomicfeatures: 
-   
    :depends bioconductor-genomicranges: 
-   
    :depends bioconductor-iranges: 
-   
    :depends bioconductor-rtracklayer: 
-   
    :depends bioconductor-s4vectors: 
-   
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: 
-   
    :depends r-base: >=3.1.0
-   
    :depends r-gdata: 
-   
    :depends r-gplots: 
-   
    :depends r-rcurl: 
-   
    :depends r-tcltk2: 
-   
    :depends xorg-libx11: 
-   
    :requirements:
 
    .. rubric:: Installation

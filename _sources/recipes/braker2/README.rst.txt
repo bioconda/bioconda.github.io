@@ -26,57 +26,31 @@ braker2
    :versions: 2.1.2-0
    
    :depends augustus: >=3.3.1
-   
    :depends bamtools: >=2.5.1
-   
    :depends biopython: 
-   
    :depends blast: >=2.2.31
-   
    :depends eval: 
-   
    :depends exonerate: >=2.2.0
-   
    :depends makehub: 
-   
    :depends perl: 
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-class-data-inheritable: 
-   
    :depends perl-exception-class: 
-   
    :depends perl-file-homedir: 
-   
    :depends perl-file-spec: 
-   
    :depends perl-file-which: 
-   
    :depends perl-hash-merge: 
-   
    :depends perl-list-util: 
-   
    :depends perl-logger-simple: 
-   
    :depends perl-module-load-conditional: 
-   
    :depends perl-parallel-forkmanager: 
-   
    :depends perl-posix: 
-   
    :depends perl-scalar-util-numeric: 
-   
    :depends perl-test-pod: 
-   
    :depends perl-yaml: 
-   
    :depends python: >=3
-   
    :depends samtools: >=1.7
-   
    :depends spaln: >=2.3.1
-   
    :requirements:
 
    .. rubric:: Installation

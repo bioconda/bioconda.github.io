@@ -25,7 +25,6 @@ r-rcircos
    :versions: 1.2.0-0, 1.1.3-0
    
    :depends r: 3.3.1*
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ ecmwfapi
    :versions: 1.4.1-2, 1.4.1-1, 1.4.1-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

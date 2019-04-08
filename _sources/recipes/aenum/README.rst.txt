@@ -25,7 +25,6 @@ aenum
    :versions: 2.0.8-0, 1.4.5-0
    
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

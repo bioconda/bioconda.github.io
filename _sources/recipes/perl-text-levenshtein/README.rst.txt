@@ -25,11 +25,8 @@ perl-text-levenshtein
    :versions: 0.13-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-exporter: 
-   
    :requirements:
 
    .. rubric:: Installation

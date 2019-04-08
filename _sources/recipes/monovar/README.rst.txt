@@ -26,13 +26,9 @@ monovar
    :versions: v0.0.1-1, v0.0.1-0
    
    :depends numpy: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

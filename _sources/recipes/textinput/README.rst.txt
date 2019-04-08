@@ -25,9 +25,7 @@ textinput
    :versions: 0.2-0, 0.1.1-2, 0.1.1-0
    
    :depends python: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

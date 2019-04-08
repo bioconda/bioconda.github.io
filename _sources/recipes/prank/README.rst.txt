@@ -26,9 +26,7 @@ prank
    :versions: v.170427-2, v.170427-1, v.170427-0, v.150803-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :requirements:
 
    .. rubric:: Installation

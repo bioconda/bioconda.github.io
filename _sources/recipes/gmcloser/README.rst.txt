@@ -25,19 +25,12 @@ gmcloser
    :versions: 1.6.2-0
    
    :depends blast: 
-   
    :depends bowtie2: 
-   
    :depends mummer: 
-   
    :depends perl: 
-   
    :depends perl-findbin: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-pod-usage: 
-   
    :requirements:
 
    .. rubric:: Installation

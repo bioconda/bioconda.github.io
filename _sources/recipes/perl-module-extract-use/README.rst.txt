@@ -25,9 +25,7 @@ perl-module-extract-use
    :versions: 1.043-2, 1.043-1, 1.043-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-ppi: 
-   
    :requirements:
 
    .. rubric:: Installation

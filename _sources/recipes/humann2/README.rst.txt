@@ -25,23 +25,14 @@ humann2
    :versions: 0.11.2-1, 0.11.2-0, 0.11.1-3, 0.11.1-2, 0.11.1-1, 0.11.1-0, 0.9.9-2, 0.9.9-1, 0.9.9-0, 0.6.1-3, 0.6.1-2, 0.6.1-1, 0.6.1-0, 0.5.0-0
    
    :depends biom-format: 
-   
    :depends bowtie2: >=2.2.5
-   
    :depends diamond: >=0.7.10,<0.9.0
-   
    :depends matplotlib: 
-   
    :depends metaphlan2: >=2.6.0
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

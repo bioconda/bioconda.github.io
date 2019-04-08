@@ -26,17 +26,11 @@ seer
    :versions: 1.1.4-0
    
    :depends armadillo: 
-   
    :depends hdf5: >=1.10.3,<1.10.4.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends pthread-stubs: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

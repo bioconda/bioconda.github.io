@@ -25,11 +25,8 @@ mobster
    :versions: 0.2.4.1-1, 0.2.4.1-0, 0.2.3.1-0, 0.2.2-1, 0.2.2-0, 0.2.1-0
    
    :depends mosaik: 
-   
    :depends openjdk: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

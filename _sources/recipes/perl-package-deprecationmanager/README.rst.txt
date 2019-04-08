@@ -25,17 +25,11 @@ perl-package-deprecationmanager
    :versions: 0.17-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-package-stash: 
-   
    :depends perl-params-util: 
-   
    :depends perl-sub-install: 
-   
    :depends perl-sub-name: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,17 +25,11 @@ bioconductor-mirbaseversions.db
    :versions: 1.1.0-1, 1.1.0-0, 0.99.5-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: 
-   
    :depends r-gtools: 
-   
    :depends r-rsqlite: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

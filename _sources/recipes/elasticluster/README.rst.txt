@@ -25,27 +25,16 @@ elasticluster
    :versions: 0.1.3bcbio-12, 0.1.3bcbio-11
    
    :depends ansible: 
-   
    :depends azure: 
-   
    :depends boto: 
-   
    :depends configobj: 
-   
    :depends google-api-python-client: 
-   
    :depends oauth2client: 
-   
    :depends paramiko: 
-   
    :depends pycli: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends python-gflags: 
-   
    :depends voluptuous: 
-   
    :requirements:
 
    .. rubric:: Installation

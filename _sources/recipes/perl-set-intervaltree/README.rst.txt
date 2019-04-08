@@ -25,9 +25,7 @@ perl-set-intervaltree
    :versions: 0.11-1, 0.11-0, 0.10-4, 0.10-3, 0.10-2, 0.10-1, 0.10-0, 0.1-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-extutils-cppguess: 
-   
    :requirements:
 
    .. rubric:: Installation

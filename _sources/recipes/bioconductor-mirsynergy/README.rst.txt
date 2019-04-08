@@ -26,21 +26,13 @@ bioconductor-mirsynergy
    :versions: 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-igraph: 
-   
    :depends r-matrix: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape: 
-   
    :depends r-scales: 
-   
    :requirements:
 
    .. rubric:: Installation

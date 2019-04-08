@@ -27,15 +27,10 @@ cromwell-tools
    :versions: 1.1.0-0, 1.0.1-0
    
    :depends google-auth: >=1.6.1,<2
-   
    :depends python: 
-   
    :depends requests: >=2.20.0
-   
    :depends setuptools_scm: >=3.1.0,<4
-   
    :depends six: >=1.11.0
-   
    :requirements:
 
    .. rubric:: Installation

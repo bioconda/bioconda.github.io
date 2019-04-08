@@ -25,7 +25,6 @@ pyimagingmspec
    :versions: 0.1.4-1, 0.1.4-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

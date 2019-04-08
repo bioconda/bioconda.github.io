@@ -27,21 +27,13 @@ pydnase
    :versions: 0.3.0-1, 0.3.0-0, 0.2.6-1, 0.2.6-0
    
    :depends bedtools: 
-   
    :depends clint: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pybedtools: 
-   
    :depends pysam: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends samtools: 
-   
    :requirements:
 
    .. rubric:: Installation

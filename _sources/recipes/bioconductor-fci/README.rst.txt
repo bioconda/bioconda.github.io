@@ -25,19 +25,12 @@ bioconductor-fci
    :versions: 1.12.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-fnn: 
-   
    :depends r-gtools: 
-   
    :depends r-psych: 
-   
    :depends r-rgl: 
-   
    :depends r-venndiagram: 
-   
    :depends r-zoo: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ perl-graphics-colorobject
    :versions: 0.5.0-1
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-graphics-colornames: 
-   
    :requirements:
 
    .. rubric:: Installation

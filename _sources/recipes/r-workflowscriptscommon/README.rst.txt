@@ -25,9 +25,7 @@ r-workflowscriptscommon
    :versions: 0.0.4-0, 0.0.2-0, 0.0.1-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-optparse: 
-   
    :requirements:
 
    .. rubric:: Installation

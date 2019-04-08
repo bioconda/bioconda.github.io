@@ -25,25 +25,15 @@ bioconductor-regparallel
    :versions: 1.0.0-0
    
    :depends r-arm: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: 
-   
    :depends r-doparallel: 
-   
    :depends r-foreach: 
-   
    :depends r-iterators: 
-   
    :depends r-mass: 
-   
    :depends r-stringr: 
-   
    :depends r-survival: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

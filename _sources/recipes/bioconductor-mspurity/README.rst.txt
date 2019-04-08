@@ -26,33 +26,19 @@ bioconductor-mspurity
    :versions: 1.8.0-0, 1.5.4-1, 1.5.4-0, 1.4.0-1, 1.4.0-0, 1.3.9-0
    
    :depends bioconductor-mzr: >=2.16.0,<2.17.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: 
-   
    :depends r-dosnow: 
-   
    :depends r-fastcluster: 
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-plyr: 
-   
    :depends r-rcpp: 
-   
    :depends r-reshape2: 
-   
    :depends r-rsqlite: 
-   
    :depends r-stringr: 
-   
    :requirements:
 
    .. rubric:: Installation

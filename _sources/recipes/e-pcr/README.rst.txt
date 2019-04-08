@@ -25,7 +25,6 @@ e-pcr
    :versions: 2.3.12-0
    
    :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

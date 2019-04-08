@@ -25,7 +25,6 @@ twobitreader
    :versions: 3.1.6-1, 3.1.6-0, 3.1.4-1, 3.1.4-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,15 +26,10 @@ hicup
    :versions: 0.6.1-1, 0.6.1-0, 0.5.10-0, 0.5.9-0
    
    :depends bowtie: 
-   
    :depends bowtie2: 
-   
    :depends perl: 
-   
    :depends r-base: 
-   
    :depends samtools: 
-   
    :requirements:
 
    .. rubric:: Installation

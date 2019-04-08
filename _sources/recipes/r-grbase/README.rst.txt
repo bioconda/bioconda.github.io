@@ -25,27 +25,16 @@ r-grbase
    :versions: 1.8_3.4-0
    
    :depends bioconductor-graph: 
-   
    :depends bioconductor-rbgl: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-igraph: 
-   
    :depends r-magrittr: 
-   
    :depends r-matrix: 
-   
    :depends r-rcpp: >=0.11.1
-   
    :depends r-rcpparmadillo: 
-   
    :depends r-rcppeigen: 
-   
    :requirements:
 
    .. rubric:: Installation

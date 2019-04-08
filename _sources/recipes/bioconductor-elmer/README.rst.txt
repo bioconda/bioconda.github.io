@@ -25,71 +25,38 @@ bioconductor-elmer
    :versions: 2.6.1-0, 2.4.4-1, 2.4.4-0
    
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
-   
    :depends bioconductor-elmer.data: >=2.6.0,<2.7.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-gviz: >=1.26.0,<1.27.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-multiassayexperiment: >=1.8.0,<1.9.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends bioconductor-tcgabiolinks: >=2.10.0,<2.11.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-circlize: 
-   
    :depends r-doparallel: 
-   
    :depends r-downloader: 
-   
    :depends r-dplyr: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ggrepel: 
-   
    :depends r-gridextra: 
-   
    :depends r-lattice: 
-   
    :depends r-magrittr: 
-   
    :depends r-matrix: 
-   
    :depends r-plotly: 
-   
    :depends r-plyr: 
-   
    :depends r-readr: 
-   
    :depends r-reshape: 
-   
    :depends r-rmarkdown: 
-   
    :depends r-rvest: 
-   
    :depends r-stringr: 
-   
    :depends r-tibble: 
-   
    :depends r-tidyr: 
-   
    :depends r-xml2: 
-   
    :requirements:
 
    .. rubric:: Installation

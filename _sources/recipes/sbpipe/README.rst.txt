@@ -26,13 +26,9 @@ sbpipe
    :versions: 4.21.0-0, 4.20.0-0, 4.18.0-0
    
    :depends colorlog: 
-   
    :depends python: 
-   
    :depends pyyaml: 
-   
    :depends r-sbpiper: 1.8.*
-   
    :requirements:
 
    .. rubric:: Installation

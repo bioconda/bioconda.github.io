@@ -25,7 +25,6 @@ consensusfixer
    :versions: 0.4-2, 0.4-0, 0.3.1-0
    
    :depends openjdk: 
-   
    :requirements:
 
    .. rubric:: Installation

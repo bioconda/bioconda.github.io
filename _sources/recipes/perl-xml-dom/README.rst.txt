@@ -25,15 +25,10 @@ perl-xml-dom
    :versions: 1.46-0, 1.45-1, 1.45-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-libwww-perl: 
-   
    :depends perl-libxml-perl: 
-   
    :depends perl-xml-parser: 
-   
    :depends perl-xml-regexp: 
-   
    :requirements:
 
    .. rubric:: Installation

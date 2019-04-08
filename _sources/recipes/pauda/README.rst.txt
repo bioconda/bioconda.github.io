@@ -25,9 +25,7 @@ pauda
    :versions: 1.0.1-1, 1.0.1-0
    
    :depends bowtie2: 
-   
    :depends java-jdk: 
-   
    :requirements:
 
    .. rubric:: Installation

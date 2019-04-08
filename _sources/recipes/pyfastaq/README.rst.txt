@@ -25,7 +25,6 @@ pyfastaq
    :versions: 3.17.0-2, 3.17.0-1, 3.17.0-0, 3.14.0-0, 3.11.0-1, 3.11.0-0
    
    :depends python: >=3
-   
    :requirements:
 
    .. rubric:: Installation

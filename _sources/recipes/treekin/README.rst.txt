@@ -25,9 +25,7 @@ treekin
    :versions: 0.4.2-2, 0.4.2-1, 0.4.2-0, 0.3.1-1
    
    :depends lapack: 
-   
    :depends openblas: >=0.3.3,<0.3.4.0a0
-   
    :requirements:
 
    .. rubric:: Installation

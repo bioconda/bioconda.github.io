@@ -25,9 +25,7 @@ bioconductor-jmosaics
    :versions: 1.10.0-0
    
    :depends bioconductor-mosaics: 
-   
    :depends r: >=2.15.2
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ bioconductor-lrbase.dme.eg.db
    :versions: 0.99.1-0
    
    :depends bioconductor-lrbasedbi: >=1.0.0,<1.1.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rsqlite: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

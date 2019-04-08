@@ -25,21 +25,13 @@ perl-params-validationcompiler
    :versions: 0.23-2, 0.23-1, 0.23-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-b: 
-   
    :depends perl-devel-stacktrace: 
-   
    :depends perl-eval-closure: 
-   
    :depends perl-exception-class: 
-   
    :depends perl-variable-magic: 
-   
    :requirements:
 
    .. rubric:: Installation

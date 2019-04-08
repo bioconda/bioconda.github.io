@@ -26,11 +26,8 @@ megahit
    :versions: 1.1.3-0, 1.1.2-1, 1.1.2-0, 1.1.1-0, 1.0.6-1, 1.0.3-1, 1.0.3-0
    
    :depends libgcc: 
-   
    :depends python: 2.7*
-   
    :depends zlib: 1.2.11*
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,17 +25,11 @@ nanoget
    :versions: 1.7.6-0, 1.7.4-0, 1.5.2-0, 1.5.0-1, 1.5.0-0, 1.2.2-0, 1.0.2-0, 1.0.0-0, 0.11.7-0, 0.11.5-0
    
    :depends biopython: 
-   
    :depends nanomath: 
-   
    :depends numpy: 
-   
    :depends pandas: >=0.22.0
-   
    :depends pysam: >0.10.0.0
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

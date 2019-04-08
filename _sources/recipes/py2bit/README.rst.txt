@@ -25,9 +25,7 @@ py2bit
    :versions: 0.3.0-2, 0.3.0-1, 0.3.0-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,17 +25,11 @@ bioconductor-mirnatap.db
    :versions: 0.99.10-3, 0.99.10-2, 0.99.10-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-mirnatap: >=1.16.0,<1.17.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: 
-   
    :depends r-rsqlite: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

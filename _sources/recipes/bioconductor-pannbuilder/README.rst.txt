@@ -26,15 +26,10 @@ bioconductor-pannbuilder
    :versions: 1.43.0-0, 1.42.0-0, 1.40.0-0
    
    :depends bioconductor-annotationdbi: >=1.42.1,<1.44.0
-   
    :depends bioconductor-biobase: >=2.40.0,<2.42.0
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-dbi: 
-   
    :depends r-rsqlite: 
-   
    :requirements:
 
    .. rubric:: Installation

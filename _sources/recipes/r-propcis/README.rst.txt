@@ -25,7 +25,6 @@ r-propcis
    :versions: 0.3_0-0
    
    :depends r-base: 3.4.1*
-   
    :requirements:
 
    .. rubric:: Installation

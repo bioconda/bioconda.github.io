@@ -25,9 +25,7 @@ adapterremovalfixprefix
    :versions: 0.0.4-1, 0.0.4-0
    
    :depends openjdk: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

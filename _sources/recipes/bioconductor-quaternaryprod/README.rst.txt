@@ -26,17 +26,11 @@ bioconductor-quaternaryprod
    :versions: 1.16.0-0, 1.14.0-0, 1.6.0-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-rcpp: >=0.11.3
-   
    :depends r-yaml: >=2.1.18
-   
    :requirements:
 
    .. rubric:: Installation

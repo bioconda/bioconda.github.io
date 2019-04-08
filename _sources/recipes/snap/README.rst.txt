@@ -25,7 +25,6 @@ snap
    :versions: 2013_11_29-1, 2013_11_29-0
    
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

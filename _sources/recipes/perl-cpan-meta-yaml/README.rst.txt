@@ -25,11 +25,8 @@ perl-cpan-meta-yaml
    :versions: 0.018-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-exporter: 
-   
    :requirements:
 
    .. rubric:: Installation

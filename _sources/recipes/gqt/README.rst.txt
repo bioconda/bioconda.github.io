@@ -25,9 +25,7 @@ gqt
    :versions: 1.1.3-4, 1.1.3-3, 1.1.3-2, 1.1.3-1, 1.1.3-0
    
    :depends htslib: >=1.9,<1.10.0a0
-   
    :depends sqlite: >=3.26.0,<4.0a0
-   
    :requirements:
 
    .. rubric:: Installation

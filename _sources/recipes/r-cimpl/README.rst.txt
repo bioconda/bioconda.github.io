@@ -25,17 +25,11 @@ r-cimpl
    :versions: 1.1-0
    
    :depends bioconductor-biomart: 
-   
    :depends bioconductor-biostrings: 
-   
    :depends r: 3.3.1*
-   
    :depends r-kernsmooth: 
-   
    :depends r-mass: 
-   
    :depends r-xtable: 
-   
    :requirements:
 
    .. rubric:: Installation

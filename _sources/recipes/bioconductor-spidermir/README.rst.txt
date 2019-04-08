@@ -26,37 +26,21 @@ bioconductor-spidermir
    :versions: 1.12.0-0, 1.10.0-0, 1.8.2-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-mirnatap: >=1.16.0,<1.17.0
-   
    :depends bioconductor-mirnatap.db: >=0.99.0,<0.100.0
-   
    :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-tcgabiolinks: >=2.10.0,<2.11.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gdata: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-gridextra: 
-   
    :depends r-httr: 
-   
    :depends r-igraph: 
-   
    :depends r-lattice: 
-   
    :depends r-latticeextra: 
-   
    :depends r-networkd3: 
-   
    :depends r-visnetwork: 
-   
    :requirements:
 
    .. rubric:: Installation

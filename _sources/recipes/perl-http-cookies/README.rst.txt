@@ -25,15 +25,10 @@ perl-http-cookies
    :versions: 6.04-0, 6.01-1, 6.01-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-http-date: 
-   
    :depends perl-http-message: 
-   
    :depends perl-time-local: 
-   
    :requirements:
 
    .. rubric:: Installation

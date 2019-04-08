@@ -25,23 +25,14 @@ bioconductor-affyqcreport
    :versions: 1.60.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-affyplm: >=1.58.0,<1.59.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   
    :depends bioconductor-simpleaffy: >=2.58.0,<2.59.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-lattice: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-xtable: 
-   
    :requirements:
 
    .. rubric:: Installation

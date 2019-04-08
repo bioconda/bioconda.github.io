@@ -25,19 +25,12 @@ hivtrace
    :versions: 0.1.6-0
    
    :depends biopython: >=1.58
-   
    :depends python: 3.4*
-   
    :depends python-bioext: >=0.17.4
-   
    :depends python-hivclustering: >=1.2.0
-   
    :depends python-hppy: >=0.9.6
-   
    :depends python-hyphy-python: >=0.1.1
-   
    :depends tornado: >=4.3
-   
    :requirements:
 
    .. rubric:: Installation

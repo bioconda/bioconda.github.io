@@ -25,49 +25,27 @@ imfusion
    :versions: 0.3.2-0, 0.3.0-0
    
    :depends bowtie: 
-   
    :depends future: 
-   
    :depends htseq: >=0.7.2
-   
    :depends htslib: <1.4
-   
    :depends intervaltree: 
-   
    :depends intervaltree: 
-   
    :depends matplotlib: 
-   
    :depends numexpr: 
-   
    :depends pandas: 
-   
    :depends pathlib2: 
-   
    :depends pyfaidx: >=0.4.8.1
-   
    :depends pysam: >=0.9.1
-   
    :depends python: 2.7*
-   
    :depends scipy: 
-   
    :depends seaborn: 
-   
    :depends seaborn: 
-   
    :depends star: 
-   
    :depends stringtie: 
-   
    :depends subread: 
-   
    :depends toolz: 
-   
    :depends tophat: >=2.1.0
-   
    :depends typing: 
-   
    :requirements:
 
    .. rubric:: Installation

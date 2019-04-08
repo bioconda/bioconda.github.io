@@ -25,11 +25,8 @@ mimeo
    :versions: 1.1.1-1, 1.1.1-0
    
    :depends biopython: >=1.70
-   
    :depends pandas: >=0.20.3
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

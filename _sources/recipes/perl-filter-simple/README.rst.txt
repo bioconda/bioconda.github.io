@@ -25,7 +25,6 @@ perl-filter-simple
    :versions: 0.91-1, 0.91-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

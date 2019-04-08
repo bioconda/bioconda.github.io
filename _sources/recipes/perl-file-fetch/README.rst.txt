@@ -25,17 +25,11 @@ perl-file-fetch
    :versions: 0.56-0, 0.48-4, 0.48-3, 0.48-2, 0.48-1, 0.48-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-file-path: 
-   
    :depends perl-ipc-cmd: 
-   
    :depends perl-locale-maketext-simple: 
-   
    :depends perl-module-load-conditional: 
-   
    :depends perl-params-check: 
-   
    :requirements:
 
    .. rubric:: Installation

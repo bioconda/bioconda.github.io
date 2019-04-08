@@ -25,23 +25,14 @@ bioconductor-redseq
    :versions: 1.28.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
-   
    :depends bioconductor-bsgenome.celegans.ucsc.ce2: >=1.4.0,<1.5.0
-   
    :depends bioconductor-chippeakanno: >=3.16.0,<3.17.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-multtest: >=2.38.0,<2.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

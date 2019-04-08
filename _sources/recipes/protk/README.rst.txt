@@ -25,13 +25,9 @@ protk
    :versions: 1.4.4a-1, 1.4.4a-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends libxml2: >=2.9.8,<2.10.0a0
-   
    :depends ruby: >=2.4
-   
    :depends tpp: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,19 +25,12 @@ perl-findbin-libs
    :versions: 2.017008-1, 2.017008-0
    
    :depends perl: >=5.22.0.1,<5.23.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-file-temp: 
-   
    :depends perl-module-fromperlver: 
-   
    :depends perl-pathtools: 
-   
    :depends perl-scalar-list-utils: 
-   
    :depends perl-test-simple: 
-   
    :requirements:
 
    .. rubric:: Installation

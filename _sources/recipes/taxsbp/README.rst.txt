@@ -26,7 +26,6 @@ taxsbp
    :versions: 0.1.1-0
    
    :depends binpacking: >=1.3
-   
    :requirements:
 
    .. rubric:: Installation

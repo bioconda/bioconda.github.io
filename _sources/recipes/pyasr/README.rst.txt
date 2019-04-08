@@ -25,15 +25,10 @@ pyasr
    :versions: 0.6.1-0
    
    :depends biopython: 1.69
-   
    :depends dendropy: >=3.4.0
-   
    :depends pandas: >=0.20.3
-   
    :depends phylopandas: 
-   
    :depends python: >=3
-   
    :requirements:
 
    .. rubric:: Installation

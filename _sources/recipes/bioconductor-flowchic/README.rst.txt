@@ -25,17 +25,11 @@ bioconductor-flowchic
    :versions: 1.16.0-0
    
    :depends bioconductor-ebimage: >=4.24.0,<4.25.0
-   
    :depends bioconductor-flowcore: >=1.48.0,<1.49.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-hexbin: 
-   
    :depends r-vegan: 
-   
    :requirements:
 
    .. rubric:: Installation

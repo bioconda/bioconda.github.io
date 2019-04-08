@@ -25,21 +25,13 @@ pbalign
    :versions: 0.3.2-0, 0.3.1-2, 0.3.1-1, 0.3.1-0
    
    :depends blasr: >=5.3.2
-   
    :depends pbbam: >=0.18.0
-   
    :depends pbcommand: >=1.1.1
-   
    :depends pbcore: >=1.6.5
-   
    :depends pysam: >=0.15.1
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: >=1.6
-   
    :depends setuptools: 
-   
    :requirements:
 
    .. rubric:: Installation

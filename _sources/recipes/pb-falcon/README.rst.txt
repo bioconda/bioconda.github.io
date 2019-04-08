@@ -25,25 +25,15 @@ pb-falcon
    :versions: 0.2.6-3, 0.2.6-2, 0.2.6-1, 0.2.5-3, 0.2.5-2, 0.2.5-1, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-1, 0.2.1-0, 0.2.0-2, 0.2.0-0, 0.0.2-0, 0.0.1-0, 0.0.0-0
    
    :depends future: >=0.16.0
-   
    :depends htslib: >=1.9,<1.10.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends networkx: >=1.9.1
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends python-edlib: 
-   
    :depends python-intervaltree: 
-   
    :depends python-msgpack: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

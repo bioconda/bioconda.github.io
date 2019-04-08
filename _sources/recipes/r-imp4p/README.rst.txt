@@ -25,19 +25,12 @@ r-imp4p
    :versions: 0.7-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-iso: 
-   
    :depends r-norm: 
-   
    :depends r-rcpp: >=0.12.8
-   
    :depends r-truncnorm: 
-   
    :requirements:
 
    .. rubric:: Installation

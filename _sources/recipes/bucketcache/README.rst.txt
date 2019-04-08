@@ -25,21 +25,13 @@ bucketcache
    :versions: 0.12.0-0
    
    :depends boltons: 
-   
    :depends decorator: >=4.0.2
-   
    :depends logbook: >=0.12.5
-   
    :depends pathlib: 
-   
    :depends python: 2.7*
-   
    :depends python-dateutil: 
-   
    :depends represent: >=1.5.1
-   
    :depends six: >=1.9.0
-   
    :requirements:
 
    .. rubric:: Installation

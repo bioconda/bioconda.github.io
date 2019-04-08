@@ -25,7 +25,6 @@ any2fasta
    :versions: 0.4.2-1
    
    :depends perl: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,29 +25,17 @@ perl-moosex-types
    :versions: 0.50-1, 0.50-0, 0.46-2, 0.46-1, 0.46-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-base: 
-   
    :depends perl-carp: 
-   
    :depends perl-carp-clan: 
-   
    :depends perl-exporter: 
-   
    :depends perl-module-runtime: 
-   
    :depends perl-moose: 
-   
    :depends perl-namespace-autoclean: 
-   
    :depends perl-sub-exporter: 
-   
    :depends perl-sub-exporter-formethods: 
-   
    :depends perl-sub-install: 
-   
    :depends perl-sub-name: 
-   
    :requirements:
 
    .. rubric:: Installation

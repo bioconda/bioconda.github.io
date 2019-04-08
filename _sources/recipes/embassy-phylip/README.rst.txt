@@ -25,11 +25,8 @@ embassy-phylip
    :versions: 3.69.650-2, 3.69.650-1, 3.69.650-0
    
    :depends emboss: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

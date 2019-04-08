@@ -26,9 +26,7 @@ translatorx
    :versions: 1.1-1, 1.1-0
    
    :depends muscle: 
-   
    :depends perl: 
-   
    :requirements:
 
    .. rubric:: Installation

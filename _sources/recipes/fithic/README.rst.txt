@@ -25,19 +25,12 @@ fithic
    :versions: 2.0.7-0, 2.0.6-0, 2.0.5-0
    
    :depends argparse: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends python: >=3
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :depends sortedcontainers: 
-   
    :requirements:
 
    .. rubric:: Installation

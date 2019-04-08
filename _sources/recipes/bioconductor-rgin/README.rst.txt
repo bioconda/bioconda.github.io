@@ -25,13 +25,9 @@ bioconductor-rgin
    :versions: 1.2.0-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rcppeigen: >=0.3.3.3.0
-   
    :requirements:
 
    .. rubric:: Installation

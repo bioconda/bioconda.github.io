@@ -27,15 +27,10 @@ eggnog-mapper
    :versions: 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0
    
    :depends biopython: 
-   
    :depends diamond: 0.8.22.*
-   
    :depends hmmer: 3.1b2.*
-   
    :depends python: <3
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

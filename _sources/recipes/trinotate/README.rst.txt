@@ -25,23 +25,14 @@ trinotate
    :versions: 3.1.1-5, 3.1.1-4, 3.1.1-0, 3.1.0-0, 3.0.2-0, 3.0.1-1, 3.0.1-0
    
    :depends blast: 
-   
    :depends hmmer: 
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-dbd-sqlite: 
-   
    :depends perl-dbi: 
-   
    :depends perl-file-find-rule: 
-   
    :depends perl-module-build: 
-   
    :depends sqlite: 
-   
    :requirements:
 
    .. rubric:: Installation

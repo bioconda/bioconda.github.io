@@ -25,19 +25,12 @@ bioconductor-leebamviews
    :versions: 1.18.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
-   
    :depends bioconductor-genomicalignments: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

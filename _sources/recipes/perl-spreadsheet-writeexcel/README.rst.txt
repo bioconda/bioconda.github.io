@@ -25,11 +25,8 @@ perl-spreadsheet-writeexcel
    :versions: 2.40-2, 2.40-1, 2.40-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-ole-storage_lite: 
-   
    :depends perl-parse-recdescent: 
-   
    :requirements:
 
    .. rubric:: Installation

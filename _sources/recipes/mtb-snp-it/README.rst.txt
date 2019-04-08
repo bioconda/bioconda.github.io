@@ -30,11 +30,8 @@ mtb-snp-it
    :versions: 1.1-0, 0.1.0-0
    
    :depends biopython: 
-   
    :depends python: 
-   
    :depends pyvcf: 
-   
    :requirements:
 
    .. rubric:: Installation

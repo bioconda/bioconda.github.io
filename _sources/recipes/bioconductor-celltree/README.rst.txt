@@ -25,21 +25,13 @@ bioconductor-celltree
    :versions: 1.12.0-0
    
    :depends bioconductor-topgo: >=2.34.0,<2.35.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gplots: 
-   
    :depends r-igraph: 
-   
    :depends r-maptpx: 
-   
    :depends r-slam: 
-   
    :depends r-topicmodels: 
-   
    :depends r-xtable: 
-   
    :requirements:
 
    .. rubric:: Installation

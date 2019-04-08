@@ -25,9 +25,7 @@ migmap
    :versions: 1.0.3-2, 1.0.3-0, 1.0.2-0, 0.9.7-0
    
    :depends igblast: 
-   
    :depends openjdk: 
-   
    :requirements:
 
    .. rubric:: Installation

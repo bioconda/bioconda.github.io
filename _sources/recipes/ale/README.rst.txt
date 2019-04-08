@@ -25,19 +25,12 @@ ale
    :versions: 20180904-0, 20160127-1, 20160127-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends matplotlib: 
-   
    :depends mpmath: 
-   
    :depends pymix: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

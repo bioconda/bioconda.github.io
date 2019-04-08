@@ -26,7 +26,6 @@ strelka
    :versions: 2.9.10-0, 2.9.7-0, 2.9.4-0, 2.9.3-0, 2.9.2-0, 2.8.4-0, 2.8.2-0, 2.7.1-0
    
    :depends python: 2.7.*
-   
    :requirements:
 
    .. rubric:: Installation

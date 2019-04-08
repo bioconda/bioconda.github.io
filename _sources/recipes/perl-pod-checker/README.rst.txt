@@ -25,7 +25,6 @@ perl-pod-checker
    :versions: 1.60-0
    
    :depends perl: 5.22.0*
-   
    :requirements:
 
    .. rubric:: Installation

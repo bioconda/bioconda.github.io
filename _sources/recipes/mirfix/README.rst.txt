@@ -25,21 +25,13 @@ mirfix
    :versions: 1.0.1-0
    
    :depends biopython: 
-   
    :depends clustalw: 
-   
    :depends dialign2: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends python: <3
-   
    :depends tk: >=8.6.9,<8.7.0a0
-   
    :depends viennarna: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,39 +25,22 @@ bioconductor-lymphoseq
    :versions: 1.10.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-ggtree: >=1.14.0,<1.15.0
-   
    :depends bioconductor-lymphoseqdb: >=0.99.0,<0.100.0
-   
    :depends bioconductor-msa: >=1.14.0,<1.15.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-circlize: 
-   
    :depends r-data.table: 
-   
    :depends r-dplyr: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ineq: 
-   
    :depends r-phangorn: 
-   
    :depends r-plyr: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape: 
-   
    :depends r-stringdist: 
-   
    :depends r-upsetr: 
-   
    :depends r-venndiagram: 
-   
    :requirements:
 
    .. rubric:: Installation

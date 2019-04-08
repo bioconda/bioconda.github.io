@@ -25,23 +25,14 @@ relocate2
    :versions: 2.0.1-2, 2.0.1-0, 2.0.0-1
    
    :depends bedtools: ==2.26.0-0
-   
    :depends blat: ==35
-   
    :depends bowtie2: ==2.2.8
-   
    :depends bwa: ==0.6.2-0
-   
    :depends perl: >=5.10.0
-   
    :depends pysam: ==0.9.0
-   
    :depends python: ==2.7.5
-   
    :depends samtools: ==1.3-0
-   
    :depends seqtk: ==1.2-0
-   
    :requirements:
 
    .. rubric:: Installation

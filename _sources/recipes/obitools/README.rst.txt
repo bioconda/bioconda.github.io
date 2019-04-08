@@ -25,13 +25,9 @@ obitools
    :versions: 1.2.11-1, 1.2.11-0, 1.2.10-2, 1.2.10-1, 1.2.10-0, 1.0.010-2, 1.0.010-1, 1.0.010-0
    
    :depends ipython: >=3.0.0,<6.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends xorg-libx11: 
-   
    :depends xorg-libxau: 
-   
    :requirements:
 
    .. rubric:: Installation

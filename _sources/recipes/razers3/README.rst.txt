@@ -25,11 +25,8 @@ razers3
    :versions: 3.5.3-2, 3.5.3-1, 3.5.3-0, 3.5.0-1, 3.5.0-0
    
    :depends bzip2: >=1.0.6,<2.0a0
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

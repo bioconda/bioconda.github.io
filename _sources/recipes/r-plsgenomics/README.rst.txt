@@ -25,19 +25,12 @@ r-plsgenomics
    :versions: 1.5_2-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-boot: 
-   
    :depends r-fields: 
-   
    :depends r-mass: 
-   
    :depends r-plyr: 
-   
    :depends r-reshape2: 
-   
    :depends r-rhpcblasctl: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,35 +25,20 @@ bioconductor-egad
    :versions: 1.10.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-arrayqualitymetrics: >=3.38.0,<3.39.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-geoquery: >=2.50.0,<2.51.0
-   
    :depends bioconductor-impute: >=1.56.0,<1.57.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gplots: 
-   
    :depends r-igraph: 
-   
    :depends r-mass: 
-   
    :depends r-matrix: 
-   
    :depends r-plyr: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rcurl: 
-   
    :depends r-zoo: 
-   
    :requirements:
 
    .. rubric:: Installation

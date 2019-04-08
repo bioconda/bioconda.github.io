@@ -25,11 +25,8 @@ perl-excel-writer-xlsx
    :versions: 0.98-0, 0.95-1, 0.95-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-archive-zip: 
-   
    :depends perl-file-temp: 
-   
    :requirements:
 
    .. rubric:: Installation

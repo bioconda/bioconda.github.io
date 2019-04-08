@@ -26,55 +26,30 @@ bioconductor-ggtools
    :versions: 5.18.0-0, 5.16.0-0, 5.14.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-ggbase: >=3.44.0,<3.45.0
-   
    :depends bioconductor-gviz: >=1.26.0,<1.27.0
-   
    :depends bioconductor-homo.sapiens: >=1.3.0,<1.4.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   
    :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-snpstats: >=1.32.0,<1.33.0
-   
    :depends bioconductor-variantannotation: >=1.28.0,<1.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-biglm: 
-   
    :depends r-bit: 
-   
    :depends r-data.table: 
-   
    :depends r-ff: 
-   
    :depends r-ggplot2: 
-   
    :depends r-hexbin: 
-   
    :depends r-iterators: 
-   
    :depends r-reshape2: 
-   
    :depends r-rocr: 
-   
    :requirements:
 
    .. rubric:: Installation

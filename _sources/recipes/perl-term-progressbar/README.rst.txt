@@ -25,11 +25,8 @@ perl-term-progressbar
    :versions: 2.22-0, 2.21-1, 2.21-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-class-methodmaker: 
-   
    :requirements:
 
    .. rubric:: Installation

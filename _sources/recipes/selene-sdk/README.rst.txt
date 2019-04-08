@@ -25,39 +25,22 @@ selene-sdk
    :versions: 0.3.0-2, 0.3.0-1, 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.3-0, 0.1.2-0, 0.0.1-0
    
    :depends cython: >=0.29.3
-   
    :depends h5py: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends matplotlib: 
-   
    :depends numpy: 1.15.1
-   
    :depends pandas: 
-   
    :depends plotly: 
-   
    :depends pyfaidx: 
-   
    :depends pytabix: 
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends pytorch: >=0.4.1,<1
-   
    :depends pyyaml: 3.13
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :depends seaborn: 
-   
    :depends statsmodels: 
-   
    :depends torchvision: 
-   
    :requirements:
 
    .. rubric:: Installation

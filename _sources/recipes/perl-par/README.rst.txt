@@ -25,11 +25,8 @@ perl-par
    :versions: 1.014-1, 1.014-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-archive-zip: 
-   
    :depends perl-par-dist: 
-   
    :requirements:
 
    .. rubric:: Installation

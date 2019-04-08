@@ -25,25 +25,15 @@ kopt
    :versions: 0.1.0-1, 0.1.0-0
    
    :depends future: 
-   
    :depends hyperopt: 
-   
    :depends keras: >=2.0.4
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: 
-   
    :depends pyyaml: 
-   
    :depends scikit-learn: >=0.18
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

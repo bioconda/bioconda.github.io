@@ -25,23 +25,14 @@ epic2
    :versions: 0.0.26-0, 0.0.16-0, 0.0.15-0
    
    :depends cython: 
-   
    :depends functools32: 
-   
    :depends htslib: >=1.9,<1.10.0a0
-   
    :depends libdeflate: >=1.0,<1.1.0a0
-   
    :depends natsort: 
-   
    :depends numpy: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ nudup
    :versions: 2.3.3-1, 2.3.3-0, 2.3.2-0, 2.3.1-0, 2.2_post2016104-1, 2.2_post2016104-0
    
    :depends coreutils: 
-   
    :depends grep: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: >=1.2
-   
    :depends sed: 
-   
    :requirements:
 
    .. rubric:: Installation

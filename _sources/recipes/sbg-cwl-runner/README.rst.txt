@@ -25,13 +25,9 @@ sbg-cwl-runner
    :versions: 2018.11-0
    
    :depends docopt: 
-   
    :depends python: >3.5
-   
    :depends pyyaml: 
-   
    :depends sevenbridges-python: 
-   
    :requirements:
 
    .. rubric:: Installation

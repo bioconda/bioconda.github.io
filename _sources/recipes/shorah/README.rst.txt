@@ -26,23 +26,14 @@ shorah
    :versions: 1.1.3-2, 1.1.3-1, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-2, 1.1.0-1, 1.1.0-0, 1.0.0-2, 1.0.0-1, 1.0.0-0
    
    :depends biopython: 
-   
    :depends blas: 1.1 openblas
-   
    :depends gsl: >=2.2.1,<2.3.0a0
-   
    :depends libgcc-ng: >=4.9
-   
    :depends numpy: 
-   
    :depends perl: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

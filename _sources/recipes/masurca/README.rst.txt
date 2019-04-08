@@ -29,19 +29,12 @@ masurca
    :versions: 3.3.1-0, 3.3.0-0, 3.2.9-0, 3.2.8-0, 3.2.7-0
    
    :depends boost: >=1.68.0,<1.68.1.0a0
-   
    :depends bzip2: >=1.0.6,<2.0a0
-   
    :depends grep: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

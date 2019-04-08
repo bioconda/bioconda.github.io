@@ -25,7 +25,6 @@ tablet
    :versions: 1.17.08.17-1, 1.17.08.17-0
    
    :depends openjdk: >=8,<9
-   
    :requirements:
 
    .. rubric:: Installation

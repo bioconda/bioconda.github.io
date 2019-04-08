@@ -26,13 +26,9 @@ umitools
    :versions: 0.3.4-1, 0.3.4-0, 0.3.0-1, 0.3.0-0
    
    :depends editdistance: 
-   
    :depends networkx: 
-   
    :depends pysam: 
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :requirements:
 
    .. rubric:: Installation

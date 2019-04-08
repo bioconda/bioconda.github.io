@@ -25,7 +25,6 @@ p7zip
    :versions: 15.09-4, 15.09-3, 15.09-2, 15.09-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

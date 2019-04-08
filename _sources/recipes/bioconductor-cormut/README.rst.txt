@@ -25,11 +25,8 @@ bioconductor-cormut
    :versions: 1.24.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-igraph: 
-   
    :depends r-seqinr: 
-   
    :requirements:
 
    .. rubric:: Installation

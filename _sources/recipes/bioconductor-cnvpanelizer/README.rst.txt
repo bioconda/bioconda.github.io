@@ -26,43 +26,24 @@ bioconductor-cnvpanelizer
    :versions: 1.14.0-0, 1.12.0-0, 1.8.0-0
    
    :depends bioconductor-exomecopy: >=1.28.0,<1.29.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-noiseq: >=2.26.0,<2.27.0
-   
    :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-openxlsx: 
-   
    :depends r-plyr: 
-   
    :depends r-reshape2: 
-   
    :depends r-shiny: 
-   
    :depends r-shinyfiles: 
-   
    :depends r-shinyjs: 
-   
    :depends r-stringr: 
-   
    :depends r-testthat: 
-   
    :requirements:
 
    .. rubric:: Installation

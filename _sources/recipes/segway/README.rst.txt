@@ -26,27 +26,16 @@ segway
    :versions: 2.0.2-3, 2.0.2-2, 2.0.2-1, 2.0.2-0, 2.0.1-0, 2.0-0, 1.4.4-0, 1.4-0
    
    :depends autolog: <0.2
-   
    :depends colorbrewer: <=0.1.1
-   
    :depends drmaa: >=0.4a3
-   
    :depends forked-path: 
-   
    :depends genomedata: <=1.4.1
-   
    :depends gmtk: 
-   
    :depends optbuild: <=0.1.11
-   
    :depends optplus: <=0.1.1
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends textinput: <=0.1.1
-   
    :depends ucsc-bedtobigbed: 
-   
    :requirements:
 
    .. rubric:: Installation

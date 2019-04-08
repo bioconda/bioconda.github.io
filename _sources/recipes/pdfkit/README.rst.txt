@@ -25,9 +25,7 @@ pdfkit
    :versions: 0.6.1-0, 0.5.0-1, 0.5.0-0
    
    :depends python: >=2.7,<2.8.0a0
-   
    :depends wkhtmltopdf: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,17 +25,11 @@ bioconductor-a4
    :versions: 1.30.0-0
    
    :depends bioconductor-a4base: >=1.30.0,<1.31.0
-   
    :depends bioconductor-a4classif: >=1.30.0,<1.31.0
-   
    :depends bioconductor-a4core: >=1.30.0,<1.31.0
-   
    :depends bioconductor-a4preproc: >=1.30.0,<1.31.0
-   
    :depends bioconductor-a4reporting: >=1.30.0,<1.31.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

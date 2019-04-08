@@ -25,59 +25,32 @@ bioconductor-confess
    :versions: 1.10.1-0
    
    :depends bioconductor-ebimage: >=4.24.0,<4.25.0
-   
    :depends bioconductor-flowclust: >=3.20.0,<3.21.0
-   
    :depends bioconductor-flowcore: >=1.48.0,<1.49.0
-   
    :depends bioconductor-flowmeans: >=1.42.0,<1.43.0
-   
    :depends bioconductor-flowmerge: >=2.30.0,<2.31.0
-   
    :depends bioconductor-flowpeaks: >=1.28.0,<1.29.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-samspectral: >=1.36.0,<1.37.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-changepoint: 
-   
    :depends r-cluster: 
-   
    :depends r-contrast: 
-   
    :depends r-data.table: >=1.9.7
-   
    :depends r-ecp: 
-   
    :depends r-flexmix: 
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-mass: 
-   
    :depends r-moments: 
-   
    :depends r-outliers: 
-   
    :depends r-plotrix: 
-   
    :depends r-raster: 
-   
    :depends r-readbitmap: 
-   
    :depends r-reshape2: 
-   
    :depends r-waveslim: 
-   
    :depends r-wavethresh: 
-   
    :depends r-zoo: 
-   
    :requirements:
 
    .. rubric:: Installation

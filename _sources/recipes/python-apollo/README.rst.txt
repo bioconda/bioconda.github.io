@@ -25,21 +25,13 @@ apollo
    :versions: 3.0.4-0
    
    :depends biopython: 
-   
    :depends cachetools: 
-   
    :depends click: >=6.7
-   
    :depends python: 
-   
    :depends pyyaml: 
-   
    :depends requests: 
-   
    :depends setuptools: 
-   
    :depends wrapt: 
-   
    :requirements:
 
    .. rubric:: Installation

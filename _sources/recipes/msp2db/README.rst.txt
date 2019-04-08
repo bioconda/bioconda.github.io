@@ -25,11 +25,8 @@ msp2db
    :versions: 0.0.6-0
    
    :depends pubchempy: 
-   
    :depends python: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

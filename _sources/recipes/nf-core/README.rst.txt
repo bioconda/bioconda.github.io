@@ -25,25 +25,15 @@ nf-core
    :versions: 1.5-0, 1.4-0, 1.3-0, 1.2-0, 1.1-0
    
    :depends click: 
-   
    :depends cookiecutter: 
-   
    :depends git: 
-   
    :depends gitpython: 
-   
    :depends jsonschema: 
-   
    :depends python: 
-   
    :depends pyyaml: 
-   
    :depends requests: 
-   
    :depends requests-cache: 
-   
    :depends tabulate: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,19 +25,12 @@ bioconductor-rforproteomics
    :versions: 1.20.0-0
    
    :depends bioconductor-biocviews: >=1.50.0,<1.51.0
-   
    :depends bioconductor-msnbase: >=2.8.0,<2.9.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-biocmanager: 
-   
    :depends r-r.utils: 
-   
    :depends r-shiny: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

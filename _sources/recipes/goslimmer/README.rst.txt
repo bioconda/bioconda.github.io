@@ -25,9 +25,7 @@ goslimmer
    :versions: 1.0-0
    
    :depends openjdk: >=8
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

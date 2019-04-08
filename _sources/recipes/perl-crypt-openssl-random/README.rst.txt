@@ -25,9 +25,7 @@ perl-crypt-openssl-random
    :versions: 0.11-1, 0.11-0
    
    :depends openssl: >=1.0.2o,<1.0.3a
-   
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

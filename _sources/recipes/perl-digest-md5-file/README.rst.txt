@@ -25,11 +25,8 @@ perl-digest-md5-file
    :versions: 0.08-2, 0.08-1, 0.08-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-digest-md5: 
-   
    :depends perl-libwww-perl: 
-   
    :requirements:
 
    .. rubric:: Installation

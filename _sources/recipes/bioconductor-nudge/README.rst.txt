@@ -26,7 +26,6 @@ bioconductor-nudge
    :versions: 1.46.0-0, 1.44.0-0, 1.42.0-0
    
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

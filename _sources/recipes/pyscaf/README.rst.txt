@@ -25,9 +25,7 @@ pyscaf
    :versions: 0.12a4-2, 0.12a4-0
    
    :depends fastaindex: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

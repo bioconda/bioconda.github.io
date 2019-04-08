@@ -25,7 +25,6 @@ perl-appconfig
    :versions: 1.71-1, 1.71-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

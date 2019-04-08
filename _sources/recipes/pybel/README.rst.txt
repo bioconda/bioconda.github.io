@@ -25,27 +25,16 @@ pybel
    :versions: 0.9.3-1, 0.9.3-0, 0.5.4-0, 0.4.0-0
    
    :depends click: 
-   
    :depends configparser: 
-   
    :depends ndex-python: 
-   
    :depends networkx: 
-   
    :depends onto2nx: 
-   
    :depends py2neo: 
-   
    :depends pyparsing: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends requests: 
-   
    :depends requests-file: 
-   
    :depends sqlalchemy: 
-   
    :requirements:
 
    .. rubric:: Installation

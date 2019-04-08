@@ -25,9 +25,7 @@ perl-number-format
    :versions: 1.75-3, 1.75-2, 1.75-1, 1.75-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :requirements:
 
    .. rubric:: Installation

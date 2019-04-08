@@ -25,17 +25,11 @@ perl-svg-graph
    :versions: 0.02-3, 0.02-2, 0.02-1, 0.02-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-math-derivative: 
-   
    :depends perl-math-spline: 
-   
    :depends perl-statistics-descriptive: 
-   
    :depends perl-svg: 
-   
    :depends perl-tree-dag_node: 
-   
    :requirements:
 
    .. rubric:: Installation

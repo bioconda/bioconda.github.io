@@ -26,13 +26,9 @@ biskit
    :versions: 2.4.3-1, 2.4.3-0
    
    :depends biopython: 
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

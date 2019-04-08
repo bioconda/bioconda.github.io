@@ -22,34 +22,21 @@ arriba
 
    |downloads_arriba| |docker_arriba|
 
-   :versions: 1.1.0-0, 1.0.1-0
+   :versions: 1.1.0-1, 1.1.0-0, 1.0.1-0
    
    :depends bioconductor-genomicalignments: 
-   
    :depends bioconductor-genomicranges: 
-   
    :depends bzip2: >=1.0.6,<2.0a0
-   
-   :depends htslib: >=1.8,<1.9.0a0
-   
+   :depends htslib: >=1.9,<1.10.0a0
    :depends libdeflate: >=1.0,<1.1.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r: >=3.3.0
-   
    :depends r-circlize: 
-   
    :depends samtools: >=1.0
-   
    :depends star: >=2.5.3a
-   
    :depends xz: >=5.2.4,<5.3.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

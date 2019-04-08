@@ -26,27 +26,16 @@ bioconductor-degraph
    :versions: 1.34.0-0, 1.32.0-0, 1.30.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-kegggraph: >=1.42.0,<1.43.0
-   
    :depends bioconductor-ncigraph: >=1.30.0,<1.31.0
-   
    :depends bioconductor-rbgl: >=1.58.0,<1.59.0
-   
    :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-lattice: 
-   
    :depends r-mvtnorm: 
-   
    :depends r-r.methodss3: 
-   
    :depends r-r.utils: 
-   
    :depends r-rrcov: 
-   
    :requirements:
 
    .. rubric:: Installation

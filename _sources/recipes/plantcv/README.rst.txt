@@ -29,23 +29,14 @@ plantcv
    :versions: 3.2.0-0, 3.1.0-0, 3.0.5-0, 3.0.3-0
    
    :depends matplotlib: >=1.5
-   
    :depends numpy: >=1.11
-   
    :depends opencv: 3.4.4
-   
    :depends pandas: 
-   
    :depends plotnine: 
-   
    :depends python: 
-   
    :depends python-dateutil: 
-   
    :depends scikit-image: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

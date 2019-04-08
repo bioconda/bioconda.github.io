@@ -25,7 +25,6 @@ r-metarnaseq
    :versions: 1.0.2-0
    
    :depends r-base: 3.4.1*
-   
    :requirements:
 
    .. rubric:: Installation

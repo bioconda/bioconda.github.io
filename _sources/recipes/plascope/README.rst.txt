@@ -25,9 +25,7 @@ plascope
    :versions: 1.3.1-1, 1.3.1-0, 1.3-1, 1.3-0
    
    :depends centrifuge: 1.0.3
-   
    :depends spades: >=3.10.1
-   
    :requirements:
 
    .. rubric:: Installation

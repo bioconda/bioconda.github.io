@@ -25,15 +25,10 @@ perl-onto-perl
    :versions: 1.45-2, 1.45-1, 1.45-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-date-manip: 
-   
    :depends perl-text-csv: 
-   
    :depends perl-xml-parser: 
-   
    :depends perl-xml-xpath: 
-   
    :requirements:
 
    .. rubric:: Installation

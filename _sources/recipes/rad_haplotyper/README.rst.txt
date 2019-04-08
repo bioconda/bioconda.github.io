@@ -25,35 +25,20 @@ rad_haplotyper
    :versions: 1.1.9-1, 1.1.9-0, 1.1.7-0, 1.1.6-0
    
    :depends ddocent: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-bio-cigar: 
-   
    :depends perl-bio-db-sam: 
-   
    :depends perl-bioperl: 
-   
    :depends perl-data-dumper: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-list-moreutils: 
-   
    :depends perl-module-build: 
-   
    :depends perl-parallel-forkmanager: 
-   
    :depends perl-pod-usage: 
-   
    :depends perl-term-progressbar: 
-   
    :depends perl-vcftools-vcf: <0.700
-   
    :requirements:
 
    .. rubric:: Installation

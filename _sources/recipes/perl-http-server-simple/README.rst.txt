@@ -25,11 +25,8 @@ perl-http-server-simple
    :versions: 0.52-2, 0.52-1, 0.52-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-cgi: 
-   
    :depends perl-socket: 
-   
    :requirements:
 
    .. rubric:: Installation

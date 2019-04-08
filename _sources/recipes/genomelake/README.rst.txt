@@ -25,19 +25,12 @@ genomelake
    :versions: 0.1.4-1, 0.1.4-0
    
    :depends bcolz: >=1.1
-   
    :depends numpy: 
-   
    :depends pybedtools: 
-   
    :depends pybigwig: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends six: >=1.9.0
-   
    :requirements:
 
    .. rubric:: Installation

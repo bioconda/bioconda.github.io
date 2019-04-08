@@ -25,11 +25,8 @@ bioconductor-dbchip
    :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0
    
    :depends bioconductor-deseq: >=1.34.0,<1.35.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

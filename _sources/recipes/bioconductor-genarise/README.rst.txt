@@ -25,13 +25,9 @@ bioconductor-genarise
    :versions: 1.58.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-locfit: 
-   
    :depends r-tkrplot: 
-   
    :depends r-xtable: 
-   
    :requirements:
 
    .. rubric:: Installation

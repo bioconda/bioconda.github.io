@@ -25,11 +25,8 @@ gapfiller
    :versions: 2.1.1-0
    
    :depends boost: >=1.57.0,<1.57.1.0a0
-   
    :depends libgcc: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

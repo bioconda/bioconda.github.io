@@ -25,37 +25,21 @@ perl-test-class-moose
    :versions: 0.96-1, 0.96-0, 0.95-0, 0.94-0, 0.80-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-exporter: 
-   
    :depends perl-import-into: 
-   
    :depends perl-json-maybexs: 
-   
    :depends perl-list-someutils: 
-   
    :depends perl-module-runtime: 
-   
    :depends perl-module-util: 
-   
    :depends perl-moose: 
-   
    :depends perl-moosex-getopt: 
-   
    :depends perl-namespace-autoclean: 
-   
    :depends perl-package-deprecationmanager: 
-   
    :depends perl-parallel-forkmanager: 
-   
    :depends perl-sub-attribute: 
-   
    :depends perl-test-most: 
-   
    :depends perl-try-tiny: 
-   
    :requirements:
 
    .. rubric:: Installation

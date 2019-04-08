@@ -25,43 +25,24 @@ slamdunk
    :versions: 0.3.4-0, 0.3.3-0, 0.3.2-1, 0.3.2-0
    
    :depends biopython: >=1.63
-   
    :depends bzip2: >=1.0.6,<2.0a0
-   
    :depends curl: >=7.64.0,<8.0a0
-   
    :depends cython: >=0.20.1
-   
    :depends intervaltree: >=2.1.0
-   
    :depends joblib: >=0.9.4
-   
    :depends libdeflate: >=1.0,<1.1.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends ncurses: >=6.1,<6.2.0a0
-   
    :depends openjdk: 
-   
    :depends pandas: >=0.13.1
-   
    :depends pybedtools: >=0.6.4
-   
    :depends pysam: >=0.8.3
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-tidyverse: 
-   
    :depends xz: >=5.2.4,<5.3.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

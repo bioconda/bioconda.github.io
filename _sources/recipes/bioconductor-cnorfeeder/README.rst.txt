@@ -25,11 +25,8 @@ bioconductor-cnorfeeder
    :versions: 1.22.0-0
    
    :depends bioconductor-cellnoptr: >=1.28.0,<1.29.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

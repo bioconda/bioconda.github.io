@@ -25,43 +25,24 @@ bioconductor-abseqr
    :versions: 1.0.0-1, 1.0.0-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-biocstyle: >=2.10.0,<2.11.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-circlize: 
-   
    :depends r-flexdashboard: 
-   
    :depends r-ggcorrplot: 
-   
    :depends r-ggdendro: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-knitr: 
-   
    :depends r-plotly: 
-   
    :depends r-plyr: 
-   
    :depends r-png: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :depends r-rmarkdown: 
-   
    :depends r-stringr: 
-   
    :depends r-vegan: 
-   
    :depends r-venndiagram: 
-   
    :requirements:
 
    .. rubric:: Installation

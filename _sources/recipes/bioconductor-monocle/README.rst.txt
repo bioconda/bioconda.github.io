@@ -26,71 +26,38 @@ bioconductor-monocle
    :versions: 2.10.0-0, 2.8.0-0, 2.6.0-0, 2.4.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biocviews: >=1.50.0,<1.51.0
-   
    :depends bioconductor-hsmmsinglecell: >=1.2.0,<1.3.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-combinat: 
-   
    :depends r-ddrtree: >=0.1.4
-   
    :depends r-densityclust: >=0.3
-   
    :depends r-dplyr: 
-   
    :depends r-fastica: 
-   
    :depends r-ggplot2: >=1.0.0
-   
    :depends r-igraph: >=1.0.1
-   
    :depends r-irlba: >=2.0.0
-   
    :depends r-mass: 
-   
    :depends r-matrix: >=1.2-6
-   
    :depends r-matrixstats: 
-   
    :depends r-pheatmap: 
-   
    :depends r-plyr: 
-   
    :depends r-proxy: 
-   
    :depends r-qlcmatrix: 
-   
    :depends r-rann: >=2.5
-   
    :depends r-rcpp: >=0.12.0
-   
    :depends r-reshape2: 
-   
    :depends r-rtsne: 
-   
    :depends r-slam: 
-   
    :depends r-stringr: 
-   
    :depends r-tibble: 
-   
    :depends r-vgam: >=1.0-6
-   
    :depends r-viridis: 
-   
    :requirements:
 
    .. rubric:: Installation

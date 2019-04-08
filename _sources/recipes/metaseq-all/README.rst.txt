@@ -25,19 +25,12 @@ metaseq-all
    :versions: 0.5.6-2, 0.5.6-1, 0.5.6-0
    
    :depends bedtools: 
-   
    :depends metaseq: 
-   
    :depends samtools: 
-   
    :depends ucsc-bedgraphtobigwig: 
-   
    :depends ucsc-bedtobigbed: 
-   
    :depends ucsc-bigbedtobed: 
-   
    :depends ucsc-bigwigsummary: 
-   
    :requirements:
 
    .. rubric:: Installation

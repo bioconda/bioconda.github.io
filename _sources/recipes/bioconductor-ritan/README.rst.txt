@@ -25,43 +25,24 @@ bioconductor-ritan
    :versions: 1.6.0-1, 1.6.0-0
    
    :depends bioconductor-bgeedb: >=2.8.0,<2.9.0
-   
    :depends bioconductor-ritandata: >=1.6.0,<1.7.0
-   
    :depends bioconductor-stringdb: >=1.22.0,<1.23.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dynamictreecut: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-gridextra: 
-   
    :depends r-gsubfn: 
-   
    :depends r-hash: 
-   
    :depends r-igraph: 
-   
    :depends r-knitr: 
-   
    :depends r-linkcomm: 
-   
    :depends r-mcl: 
-   
    :depends r-plotrix: 
-   
    :depends r-png: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :depends r-sqldf: 
-   
    :requirements:
 
    .. rubric:: Installation

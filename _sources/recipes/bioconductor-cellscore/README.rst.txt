@@ -25,17 +25,11 @@ bioconductor-cellscore
    :versions: 1.2.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gplots: >=3.0.1
-   
    :depends r-lsa: >=0.73.1
-   
    :depends r-rcolorbrewer: >=1.1-2
-   
    :depends r-squash: >=1.0.8
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ perl-carp-clan
    :versions: 6.07-1, 6.07-0, 6.06-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-test-exception: 
-   
    :requirements:
 
    .. rubric:: Installation

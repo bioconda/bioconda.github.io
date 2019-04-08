@@ -26,21 +26,13 @@ bioconductor-synlet
    :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0
    
    :depends bioconductor-rankprod: >=3.8.0,<3.9.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-doby: 
-   
    :depends r-dplyr: 
-   
    :depends r-ggplot2: 
-   
    :depends r-magrittr: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :requirements:
 
    .. rubric:: Installation

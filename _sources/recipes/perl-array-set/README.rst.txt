@@ -25,9 +25,7 @@ perl-array-set
    :versions: 0.05-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-tie-ixhash: 
-   
    :requirements:
 
    .. rubric:: Installation

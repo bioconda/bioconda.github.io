@@ -25,11 +25,8 @@ pypeflow
    :versions: 2.1.1-0, 2.0.4-0, 2.0.2-1, 2.0.2-0, 2.0.1-0, 2.0.0-0, 1.1.0-0, 1.0.0-0, 0.1.1-0, 0.1.0-1, 0.1.0-0
    
    :depends future: >=0.16.0
-   
    :depends networkx: >=1.7,<=1.11
-   
    :depends python: <3
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ perl-sys-info-base
    :versions: 0.7807-0, 0.7804-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-text-template-simple: 
-   
    :requirements:
 
    .. rubric:: Installation

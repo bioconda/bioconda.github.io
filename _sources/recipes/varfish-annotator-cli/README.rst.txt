@@ -25,7 +25,6 @@ varfish-annotator-cli
    :versions: 0.1-0
    
    :depends openjdk: >=8
-   
    :requirements:
 
    .. rubric:: Installation

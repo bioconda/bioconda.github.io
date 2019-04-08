@@ -25,19 +25,12 @@ bioconductor-furrowseg
    :versions: 1.10.0-0
    
    :depends bioconductor-ebimage: >=4.24.0,<4.25.0
-   
    :depends r-abind: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-locfit: 
-   
    :depends r-tiff: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

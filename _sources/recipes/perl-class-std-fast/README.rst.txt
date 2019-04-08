@@ -25,11 +25,8 @@ perl-class-std-fast
    :versions: 0.0.8-1, 0.0.8-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-class-std: 
-   
    :depends perl-scalar-list-utils: 
-   
    :requirements:
 
    .. rubric:: Installation

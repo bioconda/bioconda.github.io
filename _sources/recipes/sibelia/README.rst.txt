@@ -25,7 +25,6 @@ sibelia
    :versions: 3.0.7-1, 3.0.7-0, 3.0.6-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ qcli
    :versions: 0.1.1-2, 0.1.1-1, 0.1.1-0
    
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

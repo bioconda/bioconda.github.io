@@ -25,19 +25,12 @@ savage
    :versions: 0.4.1-0, 0.4.0-2, 0.4.0-1, 0.4.0-0, 0.3.0-0, 0.2.1-1, 0.2.1-0
    
    :depends boost: >=1.68.0,<1.68.1.0a0
-   
    :depends bwa: 
-   
    :depends kallisto: >=0.43.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends rust-overlaps: 
-   
    :requirements:
 
    .. rubric:: Installation

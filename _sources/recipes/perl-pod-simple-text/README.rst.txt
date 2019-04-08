@@ -25,7 +25,6 @@ perl-pod-simple-text
    :versions: 3.28-1, 3.28-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

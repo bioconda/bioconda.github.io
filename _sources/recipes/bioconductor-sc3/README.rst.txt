@@ -26,47 +26,26 @@ bioconductor-sc3
    :versions: 1.10.0-0, 1.8.0-0, 1.7.6-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-doparallel: 
-   
    :depends r-dorng: 
-   
    :depends r-e1071: 
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-pheatmap: >=1.0.8
-   
    :depends r-rcpp: >=0.11.1
-   
    :depends r-rcpparmadillo: 
-   
    :depends r-robustbase: 
-   
    :depends r-rocr: 
-   
    :depends r-rrcov: 
-   
    :depends r-shiny: 
-   
    :depends r-writexls: 
-   
    :requirements:
 
    .. rubric:: Installation

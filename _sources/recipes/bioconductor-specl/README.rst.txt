@@ -26,15 +26,10 @@ bioconductor-specl
    :versions: 1.16.1-0, 1.14.0-0, 1.12.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: >=0.5.1
-   
    :depends r-protviz: >=0.2.45
-   
    :depends r-rsqlite: >=1.1.2
-   
    :depends r-seqinr: >=3.3.3
-   
    :requirements:
 
    .. rubric:: Installation

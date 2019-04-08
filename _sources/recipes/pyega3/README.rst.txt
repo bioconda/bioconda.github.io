@@ -25,11 +25,8 @@ pyega3
    :versions: 3.0.21-1, 3.0.21-0
    
    :depends python: >=3.5,<3.6.0a0
-   
    :depends requests: 
-   
    :depends tqdm: >=4.26.0
-   
    :requirements:
 
    .. rubric:: Installation

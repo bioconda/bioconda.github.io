@@ -25,7 +25,6 @@ fastahack
    :versions: 2016.07.2-1, 2016.07.2-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

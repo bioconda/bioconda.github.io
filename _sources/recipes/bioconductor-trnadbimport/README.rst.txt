@@ -25,25 +25,15 @@ bioconductor-trnadbimport
    :versions: 1.0.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-trna: >=1.0.0,<1.1.0
-   
    :depends r-assertive: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-httr: 
-   
    :depends r-stringr: 
-   
    :depends r-xml2: 
-   
    :requirements:
 
    .. rubric:: Installation

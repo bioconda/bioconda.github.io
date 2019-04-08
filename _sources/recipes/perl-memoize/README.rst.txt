@@ -25,9 +25,7 @@ perl-memoize
    :versions: 1.03-2, 1.03-1
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-extutils-makemaker: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -27,23 +27,14 @@ pypairs
    :versions: 3.1.0-0, 3.0.9-0, 2.0.6-0, 2.0.5-0
    
    :depends anndata: >=0.6.13
-   
    :depends colorama: 
-   
    :depends h5py: >=2.8.0
-   
    :depends numba: >=0.40.1
-   
    :depends numpy: >=1.15.4
-   
    :depends pandas: >=0.23.4
-   
    :depends psutil: 
-   
    :depends python: >3
-   
    :depends scikit-learn: 
-   
    :requirements:
 
    .. rubric:: Installation

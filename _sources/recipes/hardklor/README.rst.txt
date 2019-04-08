@@ -25,7 +25,6 @@ hardklor
    :versions: 2.3.0-1, 2.3.0-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

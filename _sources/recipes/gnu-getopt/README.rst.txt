@@ -25,9 +25,7 @@ gnu-getopt
    :versions: 1.1.6-4, 1.1.6-3, 1.1.6-2, 1.1.6-1
    
    :depends gettext: 
-   
    :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

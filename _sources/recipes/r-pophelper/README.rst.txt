@@ -25,17 +25,11 @@ r-pophelper
    :versions: 2.2.7-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cairo: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-gtable: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

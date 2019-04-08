@@ -25,19 +25,12 @@ perl-moosex-types-path-tiny
    :versions: 0.012-2, 0.012-1, 0.012-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-moose: 
-   
    :depends perl-moosex-getopt: 
-   
    :depends perl-moosex-types: 
-   
    :depends perl-moosex-types-stringlike: 
-   
    :depends perl-namespace-autoclean: 
-   
    :depends perl-path-tiny: 
-   
    :requirements:
 
    .. rubric:: Installation

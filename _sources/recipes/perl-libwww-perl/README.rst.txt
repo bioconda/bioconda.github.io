@@ -25,41 +25,23 @@ perl-libwww-perl
    :versions: 6.36-1, 6.36-0, 6.15-1, 6.15-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-base: 
-   
    :depends perl-digest-md5: 
-   
    :depends perl-encode: 
-   
    :depends perl-encode-locale: 
-   
    :depends perl-file-listing: 
-   
    :depends perl-html-parser: 
-   
    :depends perl-http-cookies: 
-   
    :depends perl-http-daemon: 
-   
    :depends perl-http-date: 
-   
    :depends perl-http-negotiate: 
-   
    :depends perl-lwp-mediatypes: 
-   
    :depends perl-mime-base64: 
-   
    :depends perl-net-http: >=6.07
-   
    :depends perl-ntlm: 
-   
    :depends perl-try-tiny: 
-   
    :depends perl-uri: 
-   
    :depends perl-www-robotrules: 
-   
    :requirements:
 
    .. rubric:: Installation

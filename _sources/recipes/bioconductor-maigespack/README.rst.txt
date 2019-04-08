@@ -26,17 +26,11 @@ bioconductor-maigespack
    :versions: 1.46.0-0, 1.44.0-0, 1.42.0-0
    
    :depends bioconductor-convert: >=1.58.0,<1.59.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-marray: >=1.60.0,<1.61.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

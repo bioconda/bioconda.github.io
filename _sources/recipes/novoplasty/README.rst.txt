@@ -25,11 +25,8 @@ novoplasty
    :versions: 2.2.2-1, 2.2.2-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-module-build: 
-   
    :requirements:
 
    .. rubric:: Installation

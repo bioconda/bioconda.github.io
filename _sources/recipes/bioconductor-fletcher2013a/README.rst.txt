@@ -25,17 +25,11 @@ bioconductor-fletcher2013a
    :versions: 1.18.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gplots: 
-   
    :depends r-venndiagram: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,27 +26,16 @@ bioconductor-qdnaseq
    :versions: 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-cghbase: >=1.42.0,<1.43.0
-   
    :depends bioconductor-cghcall: >=2.44.0,<2.45.0
-   
    :depends bioconductor-dnacopy: >=1.56.0,<1.57.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-matrixstats: >=0.50.2
-   
    :depends r-r.utils: >=2.3.0
-   
    :requirements:
 
    .. rubric:: Installation

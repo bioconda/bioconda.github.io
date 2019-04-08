@@ -26,7 +26,6 @@ vcfsamplecompare
    :versions: v2.008-0, v2.006-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

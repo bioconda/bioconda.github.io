@@ -25,17 +25,11 @@ dropletutils-scripts
    :versions: 0.0.1-1, 0.0.1-0
    
    :depends bioconductor-biobase: 
-   
    :depends bioconductor-dropletutils: >=1.0.3,<1.3
-   
    :depends bioconductor-singlecellexperiment: 
-   
    :depends r-base: 3.5.1.*
-   
    :depends r-optparse: 
-   
    :depends r-workflowscriptscommon: 
-   
    :requirements:
 
    .. rubric:: Installation

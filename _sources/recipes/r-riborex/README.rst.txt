@@ -25,13 +25,9 @@ r-riborex
    :versions: 2.4.0-0
    
    :depends bioconductor-deseq2: 
-   
    :depends bioconductor-edger: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-fdrtool: 
-   
    :requirements:
 
    .. rubric:: Installation

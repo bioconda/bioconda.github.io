@@ -25,31 +25,18 @@ bioconductor-ctrap
    :versions: 1.0.3-0
    
    :depends bioconductor-fgsea: >=1.8.0,<1.9.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-piano: >=1.22.0,<1.23.0
-   
    :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cowplot: 
-   
    :depends r-data.table: 
-   
    :depends r-ggplot2: 
-   
    :depends r-httr: 
-   
    :depends r-pbapply: 
-   
    :depends r-plyr: 
-   
    :depends r-r.utils: 
-   
    :depends r-readr: 
-   
    :requirements:
 
    .. rubric:: Installation

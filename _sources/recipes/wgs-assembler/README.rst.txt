@@ -25,27 +25,16 @@ wgs-assembler
    :versions: 8.3-0
    
    :depends atac: 
-   
    :depends blasr: 
-   
    :depends estmapper: 
-   
    :depends falcon: 
-   
    :depends jellyfish: 
-   
    :depends libgcc: 
-   
    :depends meryl: 
-   
    :depends pbdagcon: 
-   
    :depends perl: 5.22.0*
-   
    :depends samtools: 
-   
    :depends sim4db: 
-   
    :requirements:
 
    .. rubric:: Installation

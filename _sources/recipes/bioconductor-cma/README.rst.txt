@@ -26,9 +26,7 @@ bioconductor-cma
    :versions: 1.40.0-0, 1.38.0-0, 1.36.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

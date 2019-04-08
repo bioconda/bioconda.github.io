@@ -25,9 +25,7 @@ ig-checkfcs
    :versions: 1.0.0-1, 1.0.0-0
    
    :depends bioconductor-flowcore: 
-   
    :depends r: >=2.10.0
-   
    :requirements:
 
    .. rubric:: Installation

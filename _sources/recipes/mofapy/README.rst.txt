@@ -25,19 +25,12 @@ mofapy
    :versions: 1.1.1-0
    
    :depends argparse: 
-   
    :depends h5py: 
-   
    :depends numpy: 1.11.*
-   
    :depends pandas: 
-   
    :depends python: 
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,11 +26,8 @@ trim-galore
    :versions: 0.5.0-0, 0.4.5-2, 0.4.5-1, 0.4.5-0, 0.4.4-0, 0.4.3-1, 0.4.3-0, 0.4.1-1, 0.4.1-0
    
    :depends cutadapt: 
-   
    :depends fastqc: 
-   
    :depends perl: 
-   
    :requirements:
 
    .. rubric:: Installation

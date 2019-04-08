@@ -25,9 +25,7 @@ parafly
    :versions: r2013_01_21-1, r2013_01_21-0
    
    :depends libgcc: 
-   
    :depends zlib: 1.2.11*
-   
    :requirements:
 
    .. rubric:: Installation

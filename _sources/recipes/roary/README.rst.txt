@@ -26,59 +26,32 @@ roary
    :versions: 3.12.0-1, 3.12.0-0, 3.10.2-0, 3.9.1-0, 3.8.2-0, 3.8.0-1, 3.7.0-0
    
    :depends bedtools: 
-   
    :depends blast: 
-   
    :depends cd-hit: 
-   
    :depends fasttree: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends mafft: 
-   
    :depends mcl: 
-   
    :depends parallel: >=20180522
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-array-utils: 
-   
    :depends perl-bioperl: >=1.7.2
-   
    :depends perl-digest-md5-file: 
-   
    :depends perl-exception-class: 
-   
    :depends perl-file-find-rule: 
-   
    :depends perl-file-grep: 
-   
    :depends perl-file-path: 
-   
    :depends perl-file-slurper: 
-   
    :depends perl-file-temp: 
-   
    :depends perl-file-which: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-graph: 
-   
    :depends perl-graph-readwrite: 
-   
    :depends perl-log-log4perl: 
-   
    :depends perl-moose: 
-   
    :depends perl-perlio-utf8_strict: 
-   
    :depends perl-text-csv: 
-   
    :depends prank: 
-   
    :requirements:
 
    .. rubric:: Installation

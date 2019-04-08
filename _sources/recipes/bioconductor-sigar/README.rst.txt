@@ -26,29 +26,17 @@ bioconductor-sigar
    :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-cghbase: >=1.42.0,<1.43.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-marray: >=1.60.0,<1.61.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-corpcor: >=1.6.2
-   
    :depends r-igraph: 
-   
    :depends r-mass: 
-   
    :depends r-mvtnorm: 
-   
    :depends r-penalized: 
-   
    :depends r-quadprog: 
-   
    :depends r-snowfall: 
-   
    :requirements:
 
    .. rubric:: Installation

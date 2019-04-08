@@ -25,23 +25,14 @@ perl-uri
    :versions: 1.76-0, 1.74-0, 1.71-3, 1.71-2, 1.71-1, 1.71-0, 1.69-7, 1.69-6, 1.69-5, 1.69-4, 1.69-3, 1.69-2, 1.69-1, 1.69-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-business-isbn: 
-   
    :depends perl-carp: 
-   
    :depends perl-constant: 
-   
    :depends perl-data-dumper: 
-   
    :depends perl-encode: 
-   
    :depends perl-exporter: 
-   
    :depends perl-mime-base64: 
-   
    :depends perl-parent: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,25 +25,15 @@ ectyper
    :versions: 0.8.1-0, 0.5.4-2, 0.1-2, 0.1-0
    
    :depends bcftools: >=1.8
-   
    :depends biopython: >=1.7.1
-   
    :depends blast: >=2.7.1
-   
    :depends bowtie2: >=2.3.4.1
-   
    :depends mash: >=2.0
-   
    :depends pandas: >=0.23.1
-   
    :depends pytest: >=3.5
-   
    :depends python: >=3.5
-   
    :depends samtools: >=1.8
-   
    :depends seqtk: >=1.2
-   
    :requirements:
 
    .. rubric:: Installation

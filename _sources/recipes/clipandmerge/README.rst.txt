@@ -25,9 +25,7 @@ clipandmerge
    :versions: 1.7.8-1, 1.7.8-0
    
    :depends openjdk: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

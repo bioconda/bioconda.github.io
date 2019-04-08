@@ -25,21 +25,13 @@ r-rbison
    :versions: 0.6.0-3, 0.6.0-2, 0.6.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-crul: >=0.3.4
-   
    :depends r-dplyr: >=0.5.0
-   
    :depends r-ggplot2: 
-   
    :depends r-jsonlite: >=1.1
-   
    :depends r-mapproj: 
-   
    :depends r-plyr: 
-   
    :depends r-sp: 
-   
    :requirements:
 
    .. rubric:: Installation

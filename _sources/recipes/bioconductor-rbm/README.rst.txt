@@ -26,11 +26,8 @@ bioconductor-rbm
    :versions: 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
    
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-marray: >=1.60.0,<1.61.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

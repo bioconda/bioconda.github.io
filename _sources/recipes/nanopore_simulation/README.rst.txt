@@ -25,19 +25,12 @@ nanopore_simulation
    :versions: 0.3-1, 0.3-0
    
    :depends biopython: 
-   
    :depends h5py: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

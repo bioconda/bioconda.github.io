@@ -25,7 +25,6 @@ r-ic10trainingdata
    :versions: 1.0.1-0
    
    :depends r-base: 3.4.1*
-   
    :requirements:
 
    .. rubric:: Installation

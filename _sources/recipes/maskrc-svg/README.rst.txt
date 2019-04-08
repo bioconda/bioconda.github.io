@@ -25,15 +25,10 @@ maskrc-svg
    :versions: 0.5-0
    
    :depends bcbio-gff: 
-   
    :depends biopython: 
-   
    :depends ete3: 
-   
    :depends python: 
-   
    :depends svgwrite: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,31 +25,18 @@ perl-http-message
    :versions: 6.18-0, 6.11-1, 6.11-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-base: 
-   
    :depends perl-carp: 
-   
    :depends perl-compress-raw-zlib: 
-   
    :depends perl-encode: 
-   
    :depends perl-encode-locale: 
-   
    :depends perl-exporter: 
-   
    :depends perl-http-date: 
-   
    :depends perl-io-html: 
-   
    :depends perl-lwp-mediatypes: 
-   
    :depends perl-mime-base64: 
-   
    :depends perl-storable: 
-   
    :depends perl-uri: 
-   
    :requirements:
 
    .. rubric:: Installation

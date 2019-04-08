@@ -25,7 +25,6 @@ perl-time-local
    :versions: 1.2300-0, 1.28-1, 1.28-0
    
    :depends perl: 5.22.0*
-   
    :requirements:
 
    .. rubric:: Installation

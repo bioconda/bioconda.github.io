@@ -25,13 +25,9 @@ bioexcel_seqqc
    :versions: 0.6-0, 0.5-0
    
    :depends cutadapt: 
-   
    :depends fastqc: 
-   
    :depends python: >=3
-   
    :depends pyyaml: 
-   
    :requirements:
 
    .. rubric:: Installation

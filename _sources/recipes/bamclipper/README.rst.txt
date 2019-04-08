@@ -25,11 +25,8 @@ bamclipper
    :versions: 1.0.0-0
    
    :depends parallel: 
-   
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends samtools: 
-   
    :requirements:
 
    .. rubric:: Installation

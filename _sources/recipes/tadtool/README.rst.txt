@@ -25,15 +25,10 @@ tadtool
    :versions: 0.77-0, 0.75-1, 0.75-0
    
    :depends future: 
-   
    :depends matplotlib: 
-   
    :depends numpy: >=1.9.0
-   
    :depends progressbar2: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

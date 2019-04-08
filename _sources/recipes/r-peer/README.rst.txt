@@ -25,9 +25,7 @@ r-peer
    :versions: 1.3-1, 1.3-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,31 +26,18 @@ bioconductor-ebimage
    :versions: 4.24.0-0, 4.22.1-0, 4.20.0-0, 4.18.3-0, 4.13.0-0, 4.12.2-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-abind: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-fftwtools: >=0.9-7
-   
    :depends r-htmltools: 
-   
    :depends r-htmlwidgets: 
-   
    :depends r-jpeg: 
-   
    :depends r-locfit: 
-   
    :depends r-png: 
-   
    :depends r-rcurl: 
-   
    :depends r-tiff: 
-   
    :requirements:
 
    .. rubric:: Installation

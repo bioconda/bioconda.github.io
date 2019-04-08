@@ -26,37 +26,21 @@ igdiscover
    :versions: 0.11-0, 0.10-3, 0.10-2, 0.10-1, 0.9-1, 0.9-0, 0.8.0-1, 0.8.0-0, 0.7.0-0, 0.6.0-1, 0.5-1, 0.4-1, 0.3-1
    
    :depends cutadapt: 1.18
-   
    :depends flash: 1.2.*
-   
    :depends igblast: 1.7.*
-   
    :depends matplotlib-base: 3.0.*
-   
    :depends muscle: 3.8.*
-   
    :depends numpy: >=1.15
-   
    :depends pandas: 0.23.*
-   
    :depends pear: 0.9.6.*
-   
    :depends pip: 
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends ruamel.yaml: 0.15.*
-   
    :depends scipy: >=1.1
-   
    :depends seaborn: 0.9.*
-   
    :depends snakemake-minimal: 5.3.*
-   
    :depends sqt: 0.8.*
-   
    :depends xopen: >=0.3.5
-   
    :requirements:
 
    .. rubric:: Installation

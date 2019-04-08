@@ -25,13 +25,9 @@ norns
    :versions: 0.1.4-0, 0.1.2-1, 0.1.2-0
    
    :depends appdirs: 
-   
    :depends nose: 
-   
    :depends python: 
-   
    :depends pyyaml: 
-   
    :requirements:
 
    .. rubric:: Installation

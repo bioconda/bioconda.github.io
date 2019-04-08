@@ -26,17 +26,11 @@ pyteomics
    :versions: 4.0.1-0, 3.5.1-2, 3.5.1-0, 3.4-1, 3.4-0
    
    :depends lxml: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: 
-   
    :depends sqlalchemy: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,21 +26,13 @@ bioconductor-rmat
    :versions: 3.32.0-0, 3.30.0-0, 3.28.0-0, 3.26.0-0
    
    :depends bioconductor-affxparser: >=1.54.0,<1.55.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends gsl: >=2.4,<2.5.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

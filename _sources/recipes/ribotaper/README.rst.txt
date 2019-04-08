@@ -26,23 +26,14 @@ ribotaper
    :versions: 1.3.1-0, 1.3.1a-3, 1.3.1a-2, 1.3.1a-1, 1.3.1a-0
    
    :depends bedtools: ==2.17.0
-   
    :depends r-ade4: 
-   
    :depends r-domc: 
-   
    :depends r-foreach: 
-   
    :depends r-iterators: 
-   
    :depends r-multitaper: 
-   
    :depends r-seqinr: 
-   
    :depends r-xnomial: 
-   
    :depends samtools: 
-   
    :requirements:
 
    .. rubric:: Installation

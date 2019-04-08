@@ -26,19 +26,12 @@ metaquant
    :versions: 0.1.2-0
    
    :depends ete3: 
-   
    :depends goatools: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends statsmodels: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

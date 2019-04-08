@@ -25,15 +25,10 @@ nanosplit
    :versions: 0.1.4-0
    
    :depends biopython: 
-   
    :depends nanoget: 
-   
    :depends nanomath: 
-   
    :depends pypandoc: 
-   
    :depends python: 3.5*
-   
    :requirements:
 
    .. rubric:: Installation

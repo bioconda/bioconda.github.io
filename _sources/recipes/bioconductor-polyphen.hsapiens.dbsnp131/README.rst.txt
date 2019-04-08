@@ -25,15 +25,10 @@ bioconductor-polyphen.hsapiens.dbsnp131
    :versions: 1.0.2-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-variantannotation: >=1.28.0,<1.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rsqlite: >=0.11.0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

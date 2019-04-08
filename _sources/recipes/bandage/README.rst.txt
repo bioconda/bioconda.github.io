@@ -26,9 +26,7 @@ bandage
    :versions: 0.8.1-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends qt: 
-   
    :requirements:
 
    .. rubric:: Installation

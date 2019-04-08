@@ -25,9 +25,7 @@ virema
    :versions: 0.6-0
    
    :depends bowtie: <=1.0.0
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

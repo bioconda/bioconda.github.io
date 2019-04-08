@@ -25,17 +25,11 @@ rambo-k
    :versions: 1.21-1, 1.21-0
    
    :depends argparse: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends openjdk: 
-   
    :depends python: 
-   
    :depends scikit-learn: 
-   
    :requirements:
 
    .. rubric:: Installation

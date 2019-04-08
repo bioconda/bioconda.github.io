@@ -25,19 +25,12 @@ fishtaco
    :versions: 1.1.1-0, 1.0.5-1, 1.0.5-0
    
    :depends musicc: >=1.0.1
-   
    :depends numpy: >=1.6.1
-   
    :depends pandas: >=0.14
-   
    :depends python: 2.7*
-   
    :depends scikit-learn: >=0.15.2
-   
    :depends scipy: >=0.9
-   
    :depends statsmodels: >=0.5.0
-   
    :requirements:
 
    .. rubric:: Installation

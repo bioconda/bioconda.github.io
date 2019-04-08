@@ -25,45 +25,25 @@ r-poppr
    :versions: 2.8.1-1, 2.8.1-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-ade4: 
-   
    :depends r-adegenet: 
-   
    :depends r-ape: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-boot: 
-   
    :depends r-cowplot: 
-   
    :depends r-dplyr: 
-   
    :depends r-ggplot2: 
-   
    :depends r-igraph: 
-   
    :depends r-knitr: 
-   
    :depends r-magrittr: 
-   
    :depends r-pegas: 
-   
    :depends r-phangorn: 
-   
    :depends r-polysat: 
-   
    :depends r-rlang: 
-   
    :depends r-rmarkdown: 
-   
    :depends r-shiny: 
-   
    :depends r-testthat: 
-   
    :depends r-vegan: 
-   
    :requirements:
 
    .. rubric:: Installation

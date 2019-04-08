@@ -26,19 +26,12 @@ bioconductor-sispa
    :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
    
    :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   
    :depends bioconductor-gsva: >=1.30.0,<1.31.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-changepoint: 
-   
    :depends r-data.table: 
-   
    :depends r-ggplot2: 
-   
    :depends r-plyr: 
-   
    :requirements:
 
    .. rubric:: Installation

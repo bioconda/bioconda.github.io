@@ -25,27 +25,16 @@ bioservices
    :versions: 1.6.0-0, 1.5.2-1, 1.5.2-0, 1.5.1-0, 1.4.17-0, 1.4.16-1, 1.4.10-1, 1.4.7-0, 1.4.5-0
    
    :depends appdirs: 
-   
    :depends beautifulsoup4: 
-   
    :depends easydev: >=0.9.36
-   
    :depends grequests: 
-   
    :depends numpydoc: 
-   
    :depends pandas: 
-   
    :depends python: 
-   
    :depends requests: 
-   
    :depends requests-cache: 
-   
    :depends suds-jurko: 
-   
    :depends wrapt: 
-   
    :requirements:
 
    .. rubric:: Installation

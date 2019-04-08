@@ -25,15 +25,10 @@ bioconductor-maqcsubset
    :versions: 1.20.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-lumi: >=2.34.0,<2.35.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

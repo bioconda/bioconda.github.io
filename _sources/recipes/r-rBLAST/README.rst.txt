@@ -25,11 +25,8 @@ r-rblast
    :versions: 0.99.1-0
    
    :depends bioconductor-biostrings: 
-   
    :depends blast: 
-   
    :depends r: 3.2.2*
-   
    :requirements:
 
    .. rubric:: Installation

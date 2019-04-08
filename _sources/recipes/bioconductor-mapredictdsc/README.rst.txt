@@ -26,31 +26,18 @@ bioconductor-mapredictdsc
    :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-gcrma: >=2.54.0,<2.55.0
-   
    :depends bioconductor-hgu133plus2.db: >=3.2.0,<3.3.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-lungcanceracvssccgeo: >=1.18.0,<1.19.0
-   
    :depends bioconductor-roc: >=1.58.0,<1.59.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-caret: 
-   
    :depends r-class: 
-   
    :depends r-e1071: 
-   
    :depends r-mass: 
-   
    :depends r-rocr: 
-   
    :requirements:
 
    .. rubric:: Installation

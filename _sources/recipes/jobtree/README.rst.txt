@@ -25,9 +25,7 @@ jobtree
    :versions: 09.04.2017-2, 3.0.3-1
    
    :depends python: 2.7.*
-   
    :depends sonlib: 
-   
    :requirements:
 
    .. rubric:: Installation

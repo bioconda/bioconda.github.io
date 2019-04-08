@@ -25,11 +25,8 @@ perl-experimental
    :versions: 0.020-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-version: 
-   
    :requirements:
 
    .. rubric:: Installation

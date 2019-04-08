@@ -26,21 +26,13 @@ bioconductor-chipxpress
    :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-chipxpressdata: >=1.20.0,<1.21.0
-   
    :depends bioconductor-frma: >=1.34.0,<1.35.0
-   
    :depends bioconductor-geoquery: >=2.50.0,<2.51.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-biganalytics: 
-   
    :depends r-bigmemory: 
-   
    :requirements:
 
    .. rubric:: Installation

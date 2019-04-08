@@ -25,7 +25,6 @@ perl-test-notabs
    :versions: 2.02-0, 1.4-2, 1.4-1, 1.4-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

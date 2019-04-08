@@ -26,21 +26,13 @@ bioconductor-genefu
    :versions: 2.14.0-0, 2.12.0-0, 2.10.0-0
    
    :depends bioconductor-aims: >=1.14.0,<1.15.0
-   
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-survcomp: >=1.32.0,<1.33.0
-   
    :depends r-amap: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ic10: 
-   
    :depends r-mclust: 
-   
    :requirements:
 
    .. rubric:: Installation

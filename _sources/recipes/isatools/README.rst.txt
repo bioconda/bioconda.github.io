@@ -25,33 +25,19 @@ isatools
    :versions: 0.10.3-0, 0.10.2-0, 0.10.0-1, 0.10.0-0, 0.9.5-0, 0.9.4-0, 0.9.3-0
    
    :depends beautifulsoup4: 
-   
    :depends biopython: 
-   
    :depends chardet: 
-   
    :depends iso8601: 
-   
    :depends jinja2: 
-   
    :depends jsonschema: 
-   
    :depends lxml: 
-   
    :depends mzml2isa: 
-   
    :depends networkx: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends progressbar2: 
-   
    :depends python: >=3
-   
    :depends requests: 
-   
    :requirements:
 
    .. rubric:: Installation

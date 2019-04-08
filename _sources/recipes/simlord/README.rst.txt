@@ -25,15 +25,10 @@ simlord
    :versions: 1.0.2-2, 1.0.2-0, 1.0.1-0, 0.7.3-0
    
    :depends dinopy: 
-   
    :depends numpy: 
-   
    :depends pysam: >=0.8.4
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

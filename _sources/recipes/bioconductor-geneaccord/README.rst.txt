@@ -25,29 +25,17 @@ bioconductor-geneaccord
    :versions: 1.0.0-0
    
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-catools: 
-   
    :depends r-dplyr: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ggpubr: 
-   
    :depends r-gtools: 
-   
    :depends r-magrittr: 
-   
    :depends r-maxlik: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :depends r-tibble: 
-   
    :requirements:
 
    .. rubric:: Installation

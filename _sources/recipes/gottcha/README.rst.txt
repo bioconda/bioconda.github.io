@@ -25,11 +25,8 @@ gottcha
    :versions: 1.0-2, 1.0-1, 1.0-0
    
    :depends bwa: 
-   
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-yaml: 
-   
    :requirements:
 
    .. rubric:: Installation

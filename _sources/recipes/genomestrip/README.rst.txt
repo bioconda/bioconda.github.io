@@ -25,13 +25,9 @@ genomestrip
    :versions: 2.00.1833-1, 2.00.1833-0
    
    :depends openjdk: >=8
-   
    :depends r-base: >=3.4
-   
    :depends samtools: 
-   
    :depends tabix: 
-   
    :requirements:
 
    .. rubric:: Installation

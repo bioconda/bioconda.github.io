@@ -26,21 +26,13 @@ bioconductor-altcdfenvs
    :versions: 2.44.0-0, 2.42.0-0, 2.40.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-hypergraph: >=1.54.0,<1.55.0
-   
    :depends bioconductor-makecdfenv: >=1.58.0,<1.59.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ optbuild
    :versions: 0.2.1-0, 0.2-0, 0.1.11-2, 0.1.11-0
    
    :depends autolog: 
-   
    :depends python: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

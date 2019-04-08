@@ -25,11 +25,8 @@ phylovega
    :versions: 0.1-0
    
    :depends phylopandas: 
-   
    :depends python: 
-   
    :depends vega3: 
-   
    :requirements:
 
    .. rubric:: Installation

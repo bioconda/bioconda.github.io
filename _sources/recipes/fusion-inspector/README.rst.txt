@@ -25,29 +25,17 @@ fusion-inspector
    :versions: 1.3.1-1, 1.3.1-0, 1.2.0-0, 1.1.0-2, 1.1.0-1, 1.1.0-0
    
    :depends bzip2: >=1.0.6,<2.0a0
-   
    :depends gmap: >=2017.11.15
-   
    :depends htslib: >=1.9,<1.10.0a0
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-db-file: 
-   
    :depends perl-set-intervaltree: 
-   
    :depends perl-uri: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends requests: >=2.19.1
-   
    :depends samtools: >=1.3
-   
    :depends star: >=2.6.1b
-   
    :depends trinity: >=2.4
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ gxformat2
    :versions: 0.8.0-0, 0.2.0-2, 0.2.0-0
    
    :depends bioblend: 
-   
    :depends python: 
-   
    :depends pyyaml: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,17 +26,11 @@ bioconductor-biocstyle
    :versions: 2.10.0-0, 2.8.2-0, 2.6.0-0, 2.4.1-0, 2.0.3-1, 2.0.3-0, 2.0.2-0, 1.8.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-biocmanager: 
-   
    :depends r-bookdown: 
-   
    :depends r-knitr: >=1.12
-   
    :depends r-rmarkdown: >=1.2
-   
    :depends r-yaml: 
-   
    :requirements:
 
    .. rubric:: Installation

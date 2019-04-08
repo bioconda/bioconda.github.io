@@ -25,11 +25,8 @@ perl-data-optlist
    :versions: 0.110-2, 0.110-1, 0.110-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-params-util: 
-   
    :depends perl-sub-install: 
-   
    :requirements:
 
    .. rubric:: Installation

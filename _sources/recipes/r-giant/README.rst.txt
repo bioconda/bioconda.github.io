@@ -25,7 +25,6 @@ r-giant
    :versions: 1.2-0
    
    :depends r-base: 3.2.2*
-   
    :requirements:
 
    .. rubric:: Installation

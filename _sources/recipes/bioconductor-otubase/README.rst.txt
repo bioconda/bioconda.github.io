@@ -26,19 +26,12 @@ bioconductor-otubase
    :versions: 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-shortread: >=1.40.0,<1.41.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-vegan: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -27,21 +27,13 @@ mothur
    :versions: 1.41.3-0, 1.41.0-0, 1.40.5-0, 1.39.5-4, 1.39.5-3, 1.39.5-2, 1.39.5-1, 1.39.5-0, 1.38.1.1-0, 1.36.1-2, 1.36.1-1, 1.36.1-0, 1.25.0-0
    
    :depends blast-legacy: 
-   
    :depends boost: >=1.68.0,<1.68.1.0a0
-   
    :depends hdf5: >=1.10.4,<1.10.5.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends ncurses: >=6.1,<6.2.0a0
-   
    :depends readline: >=7.0,<8.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

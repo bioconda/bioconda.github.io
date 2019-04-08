@@ -28,13 +28,9 @@ hyphy
    :versions: 2.3.14-0, 2.3.12-1, 2.3.12-0, 2.3.11-1, 2.3.11-0
    
    :depends curl: >=7.59.0,<8.0a0
-   
    :depends libgcc-ng: >=7.2.0
-   
    :depends libstdcxx-ng: >=7.2.0
-   
    :depends openmpi: >=3.1,<3.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

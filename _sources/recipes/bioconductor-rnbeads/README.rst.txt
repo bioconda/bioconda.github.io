@@ -25,39 +25,22 @@ bioconductor-rnbeads
    :versions: 2.0.0-0, 1.12.1-0, 1.10.8-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-illuminaio: >=0.24.0,<0.25.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-methylumi: >=2.28.0,<2.29.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-ff: 
-   
    :depends r-fields: 
-   
    :depends r-ggplot2: >=0.9.2
-   
    :depends r-gplots: 
-   
    :depends r-gridextra: 
-   
    :depends r-mass: 
-   
    :depends r-matrixstats: 
-   
    :depends r-plyr: 
-   
    :requirements:
 
    .. rubric:: Installation

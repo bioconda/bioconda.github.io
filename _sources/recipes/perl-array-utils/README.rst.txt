@@ -25,7 +25,6 @@ perl-array-utils
    :versions: 0.5-2, 0.5-1, 0.5-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

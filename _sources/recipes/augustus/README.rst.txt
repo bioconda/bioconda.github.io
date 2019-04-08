@@ -26,47 +26,26 @@ augustus
    :versions: 3.3.2-0, 3.3-5, 3.3-4, 3.3-2, 3.3-1, 3.3-0, 3.2.3-5, 3.2.3-4, 3.2.3-3, 3.2.3-2, 3.2.3-1, 3.2.3-0, 3.2.2-3, 3.2.2-2, 3.2.2-1, 3.2.2-0, 3.1-0
    
    :depends bamtools: >=2.5.1,<2.5.2.0a0
-   
    :depends biopython: 
-   
    :depends boost: >=1.68.0,<1.68.1.0a0
-   
    :depends gsl: >=2.4,<2.5.0a0
-   
    :depends htslib: >=1.9,<1.10.0a0
-   
    :depends libcblas: >=3.8.0,<4.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends lp_solve: 
-   
    :depends openblas: >=0.3.3,<0.3.4.0a0
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-dbi: 
-   
    :depends perl-file-which: 
-   
    :depends perl-module-build: 
-   
    :depends perl-parallel-forkmanager: 
-   
    :depends perl-scalar-list-utils: 
-   
    :depends perl-yaml: 
-   
    :depends sqlite: >=3.26.0,<4.0a0
-   
    :depends suitesparse: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

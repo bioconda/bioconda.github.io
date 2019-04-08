@@ -25,21 +25,13 @@ perl-spreadsheet-parseexcel
    :versions: 0.65-2, 0.65-1, 0.65-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-crypt-rc4: 
-   
    :depends perl-digest-perl-md5: 
-   
    :depends perl-io-stringy: 
-   
    :depends perl-jcode: 
-   
    :depends perl-ole-storage_lite: 
-   
    :depends perl-spreadsheet-writeexcel: 
-   
    :depends perl-unicode-map: 
-   
    :requirements:
 
    .. rubric:: Installation

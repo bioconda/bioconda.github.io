@@ -25,21 +25,13 @@ bioconductor-imetagene
    :versions: 1.12.0-0
    
    :depends bioconductor-metagene: >=2.14.0,<2.15.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-d3heatmap: 
-   
    :depends r-ggplot2: 
-   
    :depends r-shiny: 
-   
    :depends r-shinybs: 
-   
    :depends r-shinyfiles: 
-   
    :depends r-shinythemes: 
-   
    :requirements:
 
    .. rubric:: Installation

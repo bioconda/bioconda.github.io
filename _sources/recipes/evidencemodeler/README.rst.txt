@@ -25,9 +25,7 @@ evidencemodeler
    :versions: 1.1.1-0, v1.1.1-0
    
    :depends perl: 
-   
    :depends perl-carp: 
-   
    :requirements:
 
    .. rubric:: Installation

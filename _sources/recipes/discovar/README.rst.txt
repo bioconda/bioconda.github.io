@@ -26,7 +26,6 @@ discovar
    :versions: 52488-1, 52488-0
    
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

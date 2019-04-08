@@ -26,75 +26,40 @@ bioconductor-proloc
    :versions: 1.22.1-0, 1.22.0-0, 1.18.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends bioconductor-mlinterfaces: >=1.62.0,<1.63.0
-   
    :depends bioconductor-msnbase: >=2.8.0,<2.9.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-caret: 
-   
    :depends r-class: 
-   
    :depends r-coda: 
-   
    :depends r-dendextend: 
-   
    :depends r-e1071: 
-   
    :depends r-fnn: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gtools: 
-   
    :depends r-hexbin: 
-   
    :depends r-kernlab: 
-   
    :depends r-knitr: 
-   
    :depends r-laplacesdemon: 
-   
    :depends r-lattice: 
-   
    :depends r-mass: 
-   
    :depends r-mclust: >=4.3
-   
    :depends r-mixtools: 
-   
    :depends r-mvtnorm: 
-   
    :depends r-nnet: 
-   
    :depends r-plyr: 
-   
    :depends r-proxy: 
-   
    :depends r-randomforest: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rcpp: >=0.10.3
-   
    :depends r-rcpparmadillo: 
-   
    :depends r-sampling: 
-   
    :depends r-scales: 
-   
    :requirements:
 
    .. rubric:: Installation

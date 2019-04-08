@@ -25,37 +25,21 @@ bioconductor-biocpkgtools
    :versions: 1.0.2-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-biocmanager: 
-   
    :depends r-dplyr: 
-   
    :depends r-dt: 
-   
    :depends r-htmltools: 
-   
    :depends r-htmlwidgets: 
-   
    :depends r-httr: 
-   
    :depends r-igraph: 
-   
    :depends r-jsonlite: 
-   
    :depends r-readr: 
-   
    :depends r-rex: 
-   
    :depends r-rvest: 
-   
    :depends r-stringr: 
-   
    :depends r-tibble: 
-   
    :depends r-tidyr: 
-   
    :depends r-xml2: 
-   
    :requirements:
 
    .. rubric:: Installation

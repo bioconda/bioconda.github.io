@@ -25,11 +25,8 @@ diamond_add_taxonomy
    :versions: 0.1.2-0, 0.1.0-0
    
    :depends click: 
-   
    :depends ete3: 
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :requirements:
 
    .. rubric:: Installation

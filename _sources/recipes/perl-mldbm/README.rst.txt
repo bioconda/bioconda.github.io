@@ -25,7 +25,6 @@ perl-mldbm
    :versions: 2.05-1, 2.05-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

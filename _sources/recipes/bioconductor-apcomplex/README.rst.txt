@@ -26,15 +26,10 @@ bioconductor-apcomplex
    :versions: 2.48.0-0, 2.46.0-0, 2.44.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-org.sc.sgd.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-rbgl: >=1.58.0,<1.59.0
-   
    :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,15 +26,10 @@ vcflib
    :versions: 1.0.0_rc2-2, 1.0.0_rc2-1, 1.0.0_rc2-0, 1.0.0_rc1-3, 1.0.0_rc1-1, 1.0.0_rc1-0, 1.0.0_rc0-0
    
    :depends bzip2: >=1.0.6,<2.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends xz: >=5.2.4,<5.3.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

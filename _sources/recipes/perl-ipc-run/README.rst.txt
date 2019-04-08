@@ -25,9 +25,7 @@ perl-ipc-run
    :versions: 20180523.0-0, 0.94-1, 0.94-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-io-tty: 
-   
    :requirements:
 
    .. rubric:: Installation

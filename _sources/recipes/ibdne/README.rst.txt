@@ -25,7 +25,6 @@ ibdne
    :versions: 04Sep15.e78-1, 04Sep15.e78-0
    
    :depends java-jdk: >=6.0.77
-   
    :requirements:
 
    .. rubric:: Installation

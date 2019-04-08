@@ -25,9 +25,7 @@ a5-miseq
    :versions: 20160825-0
    
    :depends openjdk: >=8.0
-   
    :depends perl: 5.22.0*
-   
    :requirements:
 
    .. rubric:: Installation

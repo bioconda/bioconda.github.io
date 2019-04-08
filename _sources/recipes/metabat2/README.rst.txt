@@ -25,7 +25,6 @@ metabat2
    :versions: 2.12.1-1, 2.12.1-0
    
    :depends perl: >=5
-   
    :requirements:
 
    .. rubric:: Installation

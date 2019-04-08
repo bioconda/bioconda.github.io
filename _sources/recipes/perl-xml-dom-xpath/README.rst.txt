@@ -25,11 +25,8 @@ perl-xml-dom-xpath
    :versions: 0.14-1, 0.14-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-xml-dom: 
-   
    :depends perl-xml-xpathengine: 
-   
    :requirements:
 
    .. rubric:: Installation

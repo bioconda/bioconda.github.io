@@ -25,7 +25,6 @@ perl-test-warnings
    :versions: 0.026-1, 0.026-0, 0.021-3, 0.021-2, 0.021-1
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

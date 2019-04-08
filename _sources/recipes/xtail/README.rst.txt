@@ -25,47 +25,26 @@ xtail
    :versions: 1.1.5-2, 1.1.5-1, 1.1.5-0
    
    :depends bioconductor-biobase: 
-   
    :depends bioconductor-biocgenerics: >=0.7.5
-   
    :depends bioconductor-biocparallel: >=1.12.0
-   
    :depends bioconductor-deseq2: >=1.18.1
-   
    :depends bioconductor-genefilter: 
-   
    :depends bioconductor-geneplotter: 
-   
    :depends bioconductor-genomicranges: 
-   
    :depends bioconductor-iranges: 
-   
    :depends bioconductor-s4vectors: >=0.9.25
-   
    :depends bioconductor-summarizedexperiment: >=1.8.0
-   
    :depends bioconductor-tximport: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-getopt: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-hmisc: 
-   
    :depends r-lazyeval: >=0.2.0
-   
    :depends r-locfit: 
-   
    :depends r-rcpp: >=0.11.0
-   
    :depends r-rcpparmadillo: 
-   
    :depends r-rjson: 
-   
    :requirements:
 
    .. rubric:: Installation

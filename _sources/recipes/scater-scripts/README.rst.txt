@@ -25,19 +25,12 @@ scater-scripts
    :versions: 0.0.5-0
    
    :depends bioconductor-biobase: 
-   
    :depends bioconductor-scater: >=1.10.0,<1.11.0
-   
    :depends bioconductor-singlecellexperiment-scripts: 
-   
    :depends r-base: 3.5.1.*
-   
    :depends r-optparse: 
-   
    :depends r-rtsne: 
-   
    :depends r-workflowscriptscommon: 
-   
    :requirements:
 
    .. rubric:: Installation

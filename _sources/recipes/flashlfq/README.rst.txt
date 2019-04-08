@@ -25,7 +25,6 @@ flashlfq
    :versions: 0.1.111-0, 0.1.110-0, 0.1.109-0, 0.1.108-1, 0.1.108-0, 0.1.105-2, 0.1.105-0, 0.1.101-0, 0.1.100-0
    
    :depends mono: >=4.0.0
-   
    :requirements:
 
    .. rubric:: Installation

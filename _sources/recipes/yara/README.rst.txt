@@ -26,9 +26,7 @@ yara
    :versions: 1.0.2-1, 1.0.2-0, 0.9.10-1, 0.9.10-0, 0.9.9-0, 0.9.6-0
    
    :depends bzip2: >=1.0.6,<2.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

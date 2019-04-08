@@ -25,27 +25,16 @@ bioconductor-heatmaps
    :versions: 1.6.0-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-ebimage: >=4.24.0,<4.25.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-kernsmooth: 
-   
    :depends r-matrix: 
-   
    :depends r-plotrix: 
-   
    :depends r-rcolorbrewer: 
-   
    :requirements:
 
    .. rubric:: Installation

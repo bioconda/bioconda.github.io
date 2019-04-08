@@ -25,17 +25,11 @@ bioconductor-epivizrchart
    :versions: 1.4.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-epivizrdata: >=1.10.0,<1.11.0
-   
    :depends bioconductor-epivizrserver: >=1.10.0,<1.11.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-htmltools: 
-   
    :depends r-rjson: 
-   
    :requirements:
 
    .. rubric:: Installation

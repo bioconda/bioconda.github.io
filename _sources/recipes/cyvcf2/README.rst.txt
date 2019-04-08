@@ -25,23 +25,14 @@ cyvcf2
    :versions: 0.10.8-2, 0.10.8-1, 0.10.8-0, 0.10.0-0, 0.8.4-4, 0.8.4-3, 0.8.4-2, 0.8.4-1, 0.8.4-0, 0.8.0-0, 0.7.2-3, 0.7.2-2, 0.7.2-1, 0.7.2-0, 0.6.6a-0, 0.6.5-0, 0.5.5-0, 0.5.3-0, 0.5.1-0, 0.5.0-0, 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.2-0, 0.3.0-0, 0.2.8-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.0-0
    
    :depends click: 
-   
    :depends coloredlogs: 
-   
    :depends htslib: >=1.9,<1.10.0a0
-   
    :depends libcurl: >=7.64.0,<8.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends numpy: 
-   
    :depends openssl: >=1.1.1b,<1.1.2a
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

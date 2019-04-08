@@ -25,23 +25,14 @@ pylprotpredictor
    :versions: 1.0.2-0
    
    :depends biopython: 
-   
    :depends codecov: 
-   
    :depends diamond: 
-   
    :depends flake8: 
-   
    :depends pandas: 
-   
    :depends prodigal: 
-   
    :depends pytest-cov: 
-   
    :depends python: 
-   
    :depends requests: 
-   
    :requirements:
 
    .. rubric:: Installation

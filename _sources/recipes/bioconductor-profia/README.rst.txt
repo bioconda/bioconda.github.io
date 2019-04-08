@@ -26,23 +26,14 @@ bioconductor-profia
    :versions: 1.8.1-0, 1.8.0-0, 1.4.0-0, 1.2.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-ropls: >=1.14.0,<1.15.0
-   
    :depends bioconductor-xcms: >=3.4.0,<3.5.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-minpack.lm: 
-   
    :depends r-missforest: 
-   
    :depends r-pracma: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ perl-heap-simple
    :versions: 0.13-1, 0.13-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-cgi: 
-   
    :depends perl-heap-simple-perl: 
-   
    :depends perl-heap-simple-xs: 
-   
    :requirements:
 
    .. rubric:: Installation

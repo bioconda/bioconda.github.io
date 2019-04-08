@@ -25,25 +25,15 @@ cnv_facets
    :versions: 0.13.0-1, 0.12.1-1, 0.12.1-0, 0.12.0-0, v0.11.3-2, v0.11.3-1, v0.11.2-1
    
    :depends bcftools: 
-   
    :depends bioconductor-rsamtools: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-jsonlite: 
-   
    :depends samtools: 
-   
    :depends snp-pileup: 
-   
    :requirements:
 
    .. rubric:: Installation

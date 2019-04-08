@@ -25,25 +25,15 @@ ctat-mutations
    :versions: 2.1.0-0, 2.0.1-5, 2.0.1-4, 2.0.1-3, 2.0.1-2, 2.0.1-1, 2.0.1-0, 2.0.0-4, 2.0.0-3, 2.0.0-0, 1.0-0
    
    :depends bcftools: 
-   
    :depends gatk4: 
-   
    :depends openjdk: >=8
-   
    :depends picard: 2.18.14.*
-   
    :depends pysam: 
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends requests: 2.18.4.*
-   
    :depends samtools: 
-   
    :depends star: 
-   
    :depends tabix: 
-   
    :requirements:
 
    .. rubric:: Installation

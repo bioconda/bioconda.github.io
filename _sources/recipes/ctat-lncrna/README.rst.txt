@@ -25,7 +25,6 @@ ctat-lncrna
    :versions: 1.0.1-2, 1.0.1-0, 1.0-1
    
    :depends slncky: >=1.0.4 1
-   
    :requirements:
 
    .. rubric:: Installation

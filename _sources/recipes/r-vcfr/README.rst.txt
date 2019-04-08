@@ -25,31 +25,18 @@ r-vcfr
    :versions: 1.8.0-1, 1.8.0-0, 1.5.0-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-ape: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-magrittr: 
-   
    :depends r-memuse: 
-   
    :depends r-pinfsc50: 
-   
    :depends r-rcpp: 
-   
    :depends r-stringr: 
-   
    :depends r-tibble: 
-   
    :depends r-vegan: 
-   
    :depends r-viridislite: 
-   
    :requirements:
 
    .. rubric:: Installation

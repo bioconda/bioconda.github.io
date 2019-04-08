@@ -25,15 +25,10 @@ ndex-python
    :versions: 3.0.11.23-1, 3.0.11.23-0
    
    :depends networkx: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends requests: 
-   
    :depends requests-toolbelt: 
-   
    :depends urllib3: >=1.16
-   
    :requirements:
 
    .. rubric:: Installation

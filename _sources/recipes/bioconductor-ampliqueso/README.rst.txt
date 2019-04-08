@@ -25,35 +25,20 @@ bioconductor-ampliqueso
    :versions: 1.20.0-0
    
    :depends bioconductor-deseq: >=1.34.0,<1.35.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   
    :depends bioconductor-rnaseqmap: >=2.40.0,<2.41.0
-   
    :depends bioconductor-variantannotation: >=1.28.0,<1.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-doparallel: 
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-knitr: 
-   
    :depends r-rgl: 
-   
    :depends r-samr: 
-   
    :depends r-statmod: 
-   
    :depends r-xtable: 
-   
    :requirements:
 
    .. rubric:: Installation

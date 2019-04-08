@@ -26,11 +26,8 @@ pipmir
    :versions: 1.1-3, 1.1-2, 1.1-1
    
    :depends java-jdk: 
-   
    :depends samtools: 
-   
    :depends viennarna: 1.8.5.*
-   
    :requirements:
 
    .. rubric:: Installation

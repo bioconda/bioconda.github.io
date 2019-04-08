@@ -25,29 +25,17 @@ deepsvr
    :versions: 0.1.0-0
    
    :depends bam-readcount: 
-   
    :depends click: 
-   
    :depends convert_zero_one_based: 
-   
    :depends h5py: 
-   
    :depends keras: 2.0.4
-   
    :depends matplotlib: 
-   
    :depends numpy: 1.12.1
-   
    :depends pandas: 0.20.3
-   
    :depends python: 3.6.1
-   
    :depends scikit-learn: 
-   
    :depends seaborn: 
-   
    :depends tensorflow: <=1.0.1
-   
    :requirements:
 
    .. rubric:: Installation

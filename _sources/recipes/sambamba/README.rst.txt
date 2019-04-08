@@ -25,15 +25,10 @@ sambamba
    :versions: 0.6.8-2, 0.6.8-1, 0.6.8-0, 0.6.6-2, 0.6.6-1, 0.6.6-0, 0.6.5-0, 0.6.3-0, 0.6.2-0, 0.6.1-0, 0.5.9-1, 0.5.9-0
    
    :depends bzip2: >=1.0.6,<2.0a0
-   
    :depends ldc: 1.13.*
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends xz: >=5.2.4,<5.3.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

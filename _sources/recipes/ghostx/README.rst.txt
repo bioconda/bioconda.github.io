@@ -25,9 +25,7 @@ ghostx
    :versions: 1.3.7-1, 1.3.7-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

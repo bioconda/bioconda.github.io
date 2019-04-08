@@ -25,11 +25,8 @@ fermi
    :versions: 1.1_r751_beta-3, 1.1_r751_beta-2, 1.1_r751_beta-1, 1.1_r751_beta-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends perl: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

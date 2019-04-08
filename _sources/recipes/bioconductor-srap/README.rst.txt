@@ -26,17 +26,11 @@ bioconductor-srap
    :versions: 1.22.0-0, 1.20.0-0, 1.18.0-0
    
    :depends bioconductor-qvalue: >=2.14.0,<2.15.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gplots: 
-   
    :depends r-pls: 
-   
    :depends r-rocr: 
-   
    :depends r-writexls: 
-   
    :requirements:
 
    .. rubric:: Installation

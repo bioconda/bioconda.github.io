@@ -26,21 +26,13 @@ unitas
    :versions: 1.6.1-0
    
    :depends dnapi: 
-   
    :depends perl: 
-   
    :depends perl-archive-extract: 
-   
    :depends perl-file-path: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-lwp-simple: 
-   
    :depends perl-statistics-distributions: 
-   
    :depends seqmap: 
-   
    :requirements:
 
    .. rubric:: Installation

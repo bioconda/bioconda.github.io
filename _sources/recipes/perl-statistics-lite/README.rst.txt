@@ -25,7 +25,6 @@ perl-statistics-lite
    :versions: 3.62-1, 3.62-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,37 +25,21 @@ bioconductor-desubs
    :versions: 1.8.1-1, 1.8.1-0
    
    :depends bioconductor-deseq: >=1.34.0,<1.35.0
-   
    :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   
    :depends bioconductor-ebseq: >=1.22.0,<1.23.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-rbgl: >=1.58.0,<1.59.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-circlize: 
-   
    :depends r-ggplot2: 
-   
    :depends r-igraph: 
-   
    :depends r-jsonlite: 
-   
    :depends r-locfit: 
-   
    :depends r-matrix: 
-   
    :depends r-nbpseq: 
-   
    :depends r-pheatmap: 
-   
    :requirements:
 
    .. rubric:: Installation

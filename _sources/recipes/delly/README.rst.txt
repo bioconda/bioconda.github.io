@@ -25,17 +25,11 @@ delly
    :versions: 0.8.1-2, 0.8.1-1, 0.8.1-0, 0.7.9-4, 0.7.8-4, 0.7.8-3, 0.7.8-2, 0.7.8-1, 0.7.8-0, 0.7.7-1, 0.7.6-0, 0.7.2-1, 0.7.2-0
    
    :depends bzip2: >=1.0.6,<2.0a0
-   
    :depends htslib: >=1.9,<1.10.0a0
-   
    :depends libboost: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

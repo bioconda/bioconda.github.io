@@ -25,19 +25,12 @@ bioconductor-mmdiff
    :versions: 1.10.0-0
    
    :depends bioconductor-biobase: 
-   
    :depends bioconductor-diffbind: 
-   
    :depends bioconductor-genomicranges: 
-   
    :depends bioconductor-iranges: 
-   
    :depends bioconductor-rsamtools: 
-   
    :depends r: >=2.14.0
-   
    :depends r-gmd: 
-   
    :requirements:
 
    .. rubric:: Installation

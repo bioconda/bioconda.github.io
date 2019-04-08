@@ -26,17 +26,11 @@ bioconductor-rontotools
    :versions: 2.10.0-0, 2.8.0-0, 2.6.0-0, 2.4.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-kegggraph: >=1.42.0,<1.43.0
-   
    :depends bioconductor-keggrest: >=1.22.0,<1.23.0
-   
    :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-boot: 
-   
    :requirements:
 
    .. rubric:: Installation

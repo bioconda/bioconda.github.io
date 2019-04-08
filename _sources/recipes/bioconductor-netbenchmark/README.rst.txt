@@ -25,33 +25,19 @@ bioconductor-netbenchmark
    :versions: 1.14.0-0
    
    :depends bioconductor-genie3: >=1.4.0,<1.5.0
-   
    :depends bioconductor-grndata: >=1.14.0,<1.15.0
-   
    :depends bioconductor-minet: >=3.40.0,<3.41.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-c3net: 
-   
    :depends r-corpcor: 
-   
    :depends r-fdrtool: 
-   
    :depends r-genenet: 
-   
    :depends r-matrix: 
-   
    :depends r-pcit: 
-   
    :depends r-pracma: 
-   
    :depends r-rcpp: >=0.11.0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,29 +26,17 @@ bioconductor-diffustats
    :versions: 1.2.0-0, 0.104.0-0, 0.102.0-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-expm: 
-   
    :depends r-igraph: 
-   
    :depends r-mass: 
-   
    :depends r-matrix: 
-   
    :depends r-plyr: 
-   
    :depends r-precrec: 
-   
    :depends r-rcpp: 
-   
    :depends r-rcpparmadillo: 
-   
    :depends r-rcppparallel: 
-   
    :requirements:
 
    .. rubric:: Installation

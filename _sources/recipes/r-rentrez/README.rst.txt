@@ -25,13 +25,9 @@ r-rentrez
    :versions: 1.1.0-0
    
    :depends r-base: 3.3.2*
-   
    :depends r-httr: >=0.5
-   
    :depends r-jsonlite: >=0.9
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

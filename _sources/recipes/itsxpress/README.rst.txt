@@ -26,17 +26,11 @@ itsxpress
    :versions: 1.7.2-0, 1.7.1-0, 1.6.4-0, 1.6.3-0, 1.6.1-1, 1.6.1-0, 1.5.6-0
    
    :depends bbmap: 
-   
    :depends biopython: >=1.60
-   
    :depends hmmer: >=3.1
-   
    :depends pip: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends vsearch: 
-   
    :requirements:
 
    .. rubric:: Installation

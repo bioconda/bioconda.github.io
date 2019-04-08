@@ -25,17 +25,11 @@ r-cellassign
    :versions: 0.99.1-0, 0.99.0-1, 0.99.0-0
    
    :depends bioconductor-genomeinfodbdata: 
-   
    :depends bioconductor-scran: 
-   
    :depends bioconductor-summarizedexperiment: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-glue: 
-   
    :depends r-tensorflow: 
-   
    :requirements:
 
    .. rubric:: Installation

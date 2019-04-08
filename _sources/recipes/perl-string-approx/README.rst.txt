@@ -25,9 +25,7 @@ perl-string-approx
    :versions: 3.27-1, 3.27-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-test-more: 
-   
    :requirements:
 
    .. rubric:: Installation

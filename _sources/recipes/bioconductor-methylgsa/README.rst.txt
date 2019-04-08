@@ -25,29 +25,17 @@ bioconductor-methylgsa
    :versions: 1.0.2-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-clusterprofiler: >=3.10.0,<3.11.0
-   
    :depends bioconductor-go.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
-   
    :depends bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19: >=0.6.0,<0.7.0
-   
    :depends bioconductor-missmethyl: >=1.16.0,<1.17.0
-   
    :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-reactome.db: >=1.66.0,<1.67.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-robustrankaggreg: 
-   
    :depends r-stringr: 
-   
    :requirements:
 
    .. rubric:: Installation

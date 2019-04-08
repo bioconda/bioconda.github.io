@@ -25,77 +25,41 @@ bioconvert
    :versions: 0.2.0-1, 0.0.10-1, 0.0.10-0
    
    :depends bamtools: 
-   
    :depends bcftools: 
-   
    :depends bedtools: 
-   
    :depends bioawk: 
-   
    :depends biopython: 
-   
    :depends colorlog: 
-   
    :depends deeptools: 
-   
    :depends dsrc: 
-   
    :depends easydev: >=0.9.36
-   
    :depends go: 1.10.3
-   
    :depends mappy: 
-   
    :depends matplotlib: 
-   
    :depends mawk: 
-   
    :depends networkx: 
-   
    :depends pandas: 
-   
    :depends pbzip2: 
-   
    :depends pigz: 
-   
    :depends plink: 
-   
    :depends pyexcel: 
-   
    :depends pyexcel-ods3: 
-   
    :depends pyexcel-xls: 
-   
    :depends pysam: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends pyyaml: 
-   
    :depends sambamba: 
-   
    :depends samtools: 
-   
    :depends sed: 
-   
    :depends seqtk: 
-   
    :depends squizz: 
-   
    :depends sra-tools: 
-   
    :depends ucsc-bedgraphtobigwig: 
-   
    :depends ucsc-bigwigtobedgraph: 
-   
    :depends ucsc-fatotwobit: 
-   
    :depends ucsc-twobittofa: 
-   
    :depends wiggletools: 
-   
    :depends xlrd: 
-   
    :requirements:
 
    .. rubric:: Installation

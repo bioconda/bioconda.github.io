@@ -25,17 +25,11 @@ dfam
    :versions: 2.0-1, 2.0-0
    
    :depends hmmer: 
-   
    :depends perl: 
-   
    :depends python: 
-   
    :depends python-wget: 
-   
    :depends repeatmasker: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

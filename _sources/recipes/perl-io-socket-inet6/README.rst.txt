@@ -25,15 +25,10 @@ perl-io-socket-inet6
    :versions: 2.72-2, 2.72-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-exporter: 
-   
    :depends perl-socket: 
-   
    :depends perl-socket6: 
-   
    :requirements:
 
    .. rubric:: Installation

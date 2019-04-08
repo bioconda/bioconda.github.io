@@ -25,11 +25,8 @@ twopaco
    :versions: 0.9.2-2, 0.9.2-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends tbb: >=2019.1
-   
    :requirements:
 
    .. rubric:: Installation

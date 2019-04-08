@@ -25,23 +25,14 @@ python-bioext
    :versions: 0.18.6-2, 0.18.6-1, 0.18.6-0, 0.17.4-0
    
    :depends biopython: 
-   
    :depends freetype: >=2.8.1,<2.9.0a0
-   
    :depends libgcc-ng: >=4.9
-   
    :depends numpy: >=1.14.0
-   
    :depends pysam: <=0.13
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends python-consensuscore: 
-   
    :depends scipy: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

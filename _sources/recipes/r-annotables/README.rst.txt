@@ -26,9 +26,7 @@ r-annotables
    :versions: v0.1.90-1, v0.1.90-0
    
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-tibble: 
-   
    :requirements:
 
    .. rubric:: Installation

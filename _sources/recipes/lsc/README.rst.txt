@@ -25,13 +25,9 @@ lsc
    :versions: 2.0-0
    
    :depends bowtie2: 
-   
    :depends perl: 5.22.0*
-   
    :depends python: 2.7*
-   
    :depends samtools: 
-   
    :requirements:
 
    .. rubric:: Installation

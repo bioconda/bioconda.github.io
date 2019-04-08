@@ -25,31 +25,18 @@ hap.py
    :versions: 0.3.10-0, 0.3.7-1, 0.3.7-0, 0.2.9-1, 0.2.9-0
    
    :depends bcftools: 
-   
    :depends bx-python: 
-   
    :depends cython: 
-   
    :depends libgcc: 
-   
    :depends nose: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends pybedtools: 
-   
    :depends pysam: 
-   
    :depends python: 2.7*
-   
    :depends samtools: 
-   
    :depends scipy: 
-   
    :depends zlib: 1.2.11*
-   
    :requirements:
 
    .. rubric:: Installation

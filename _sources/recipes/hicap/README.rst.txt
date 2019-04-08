@@ -26,15 +26,10 @@ hicap
    :versions: 1.0.0-0
    
    :depends biopython: 1.72
-   
    :depends blast: >=2.2.28
-   
    :depends prodigal: >=2.6.1
-   
    :depends python: >=3.6
-   
    :depends reportlab: 3.4.0
-   
    :requirements:
 
    .. rubric:: Installation

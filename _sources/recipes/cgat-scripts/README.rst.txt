@@ -25,55 +25,30 @@ cgat-scripts
    :versions: 0.3.2-2, 0.3.2-0, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.7-0, 0.2.6-0
    
    :depends alignlib-lite: 0.3.*
-   
    :depends bedtools: 2.26.*
-   
    :depends biopython: 1.70.*
-   
    :depends coreutils: 8.25.*
-   
    :depends cython: 0.27.*
-   
    :depends future: 0.16.*
-   
    :depends grep: 2.14.*
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libpng: >=1.6.34,<1.7.0a0
-   
    :depends matplotlib: 2.1.*
-   
    :depends numpy: 1.12.*
-   
    :depends pandas: 0.21.*
-   
    :depends pybedtools: 0.7.*
-   
    :depends pybigwig: 0.3.*
-   
    :depends pysam: 0.13.*
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends python-lzo: 1.11.*
-   
    :depends pyyaml: 3.12.*
-   
    :depends rpy2: 2.8.*
-   
    :depends scipy: 0.19.*
-   
    :depends six: 1.11.*
-   
    :depends ucsc-bedgraphtobigwig: 357.*
-   
    :depends ucsc-bedtobigbed: 357.*
-   
    :depends ucsc-wigtobigwig: 357.*
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,17 +26,11 @@ bioconductor-ramigo
    :versions: 1.28.0-0, 1.23.0-0, 1.22.0-0
    
    :depends bioconductor-graph: >=1.58.0,<1.60.0
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-gsubfn: 
-   
    :depends r-igraph: 
-   
    :depends r-png: 
-   
    :depends r-rcurl: 
-   
    :requirements:
 
    .. rubric:: Installation

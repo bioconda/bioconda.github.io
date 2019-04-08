@@ -25,7 +25,6 @@ pyaavf
    :versions: 0.1.0-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

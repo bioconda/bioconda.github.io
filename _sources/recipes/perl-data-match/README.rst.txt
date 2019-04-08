@@ -25,13 +25,9 @@ perl-data-match
    :versions: 0.06-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-data-compare: 
-   
    :depends perl-data-dumper: 
-   
    :depends perl-string-escape: 
-   
    :requirements:
 
    .. rubric:: Installation

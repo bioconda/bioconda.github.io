@@ -28,9 +28,7 @@ dia_umpire
    :versions: 2.1.3-1, 2.1.3-0, 2.1.2-0
    
    :depends openjdk: >=7
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

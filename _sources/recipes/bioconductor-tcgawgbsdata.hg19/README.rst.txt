@@ -25,15 +25,10 @@ bioconductor-tcgawgbsdata.hg19
    :versions: 1.0.0-1, 1.0.0-0
    
    :depends bioconductor-bsseq: >=1.18.0,<1.19.0
-   
    :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-knitr: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

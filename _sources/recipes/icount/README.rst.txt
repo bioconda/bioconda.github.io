@@ -25,27 +25,16 @@ icount
    :versions: 2.0.0-0
    
    :depends bedtools: >=2.26.0
-   
    :depends cutadapt: >=1.10
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends numpydoc: 
-   
    :depends pandas: 
-   
    :depends pybedtools: 
-   
    :depends pysam: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends sphinx: >=1.4
-   
    :depends star: 
-   
    :requirements:
 
    .. rubric:: Installation

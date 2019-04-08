@@ -25,13 +25,9 @@ bioconductor-charmdata
    :versions: 1.18.0-0
    
    :depends bioconductor-charm: >=2.28.0,<2.29.0
-   
    :depends bioconductor-pd.charm.hg18.example: >=0.99.0,<0.100.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

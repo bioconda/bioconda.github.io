@@ -25,19 +25,12 @@ perl-pod-elemental
    :versions: 0.103004-2, 0.103004-1, 0.103004-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-mixin-linewise: 
-   
    :depends perl-moose: 
-   
    :depends perl-moosex-types: 
-   
    :depends perl-scalar-list-utils: 
-   
    :requirements:
 
    .. rubric:: Installation

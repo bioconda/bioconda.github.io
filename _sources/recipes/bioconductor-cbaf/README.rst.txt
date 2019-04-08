@@ -25,19 +25,12 @@ bioconductor-cbaf
    :versions: 1.4.0-0
    
    :depends bioconductor-biocfilecache: >=1.6.0,<1.7.0
-   
    :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cgdsr: 
-   
    :depends r-gplots: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-xlsx: 
-   
    :requirements:
 
    .. rubric:: Installation

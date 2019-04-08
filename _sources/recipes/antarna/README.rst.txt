@@ -26,17 +26,11 @@ antarna
    :versions: 2.0.1.2-0
    
    :depends networkx: 
-   
    :depends numpy: 
-   
    :depends python: 2.7*
-   
    :depends scipy: 
-   
    :depends uuid: 
-   
    :depends viennarna: 
-   
    :requirements:
 
    .. rubric:: Installation

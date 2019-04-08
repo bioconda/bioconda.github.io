@@ -25,9 +25,7 @@ perl-io-gzip
    :versions: 0.20-2, 0.20-1, 0.20-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

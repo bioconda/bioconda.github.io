@@ -26,7 +26,6 @@ artemis
    :versions: 18.0.2-0, 18.0.1-0
    
    :depends openjdk: >=9
-   
    :requirements:
 
    .. rubric:: Installation

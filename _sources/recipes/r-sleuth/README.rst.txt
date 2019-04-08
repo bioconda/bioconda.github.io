@@ -25,29 +25,17 @@ r-sleuth
    :versions: 0.30.0-1, 0.30.0-0, 0.29.0-0, 0.28.0-0, 0.0.1-0
    
    :depends bioconductor-rhdf5: 
-   
    :depends r-aggregation: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: 
-   
    :depends r-dplyr: 
-   
    :depends r-ggplot2: 
-   
    :depends r-lazyeval: 
-   
    :depends r-matrixstats: 
-   
    :depends r-pheatmap: 
-   
    :depends r-reshape2: 
-   
    :depends r-shiny: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ tgt
    :versions: 1.4.3-2, 1.4.3-0, 1.4.2-0
    
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

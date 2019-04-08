@@ -25,33 +25,19 @@ bioconductor-regionreport
    :versions: 1.16.1-0
    
    :depends bioconductor-biocstyle: >=2.10.0,<2.11.0
-   
    :depends bioconductor-deformats: >=1.10.0,<1.11.0
-   
    :depends bioconductor-derfinder: >=1.16.0,<1.17.0
-   
    :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-knitcitations: >=1.0.1
-   
    :depends r-knitr: >=1.6
-   
    :depends r-knitrbootstrap: >=0.9.0
-   
    :depends r-refmanager: 
-   
    :depends r-rmarkdown: >=0.9.5
-   
    :requirements:
 
    .. rubric:: Installation

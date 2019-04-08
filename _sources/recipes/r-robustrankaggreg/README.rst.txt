@@ -25,9 +25,7 @@ r-robustrankaggreg
    :versions: 1.1-0
    
    :depends libgcc: 
-   
    :depends r: 3.2.2*
-   
    :requirements:
 
    .. rubric:: Installation

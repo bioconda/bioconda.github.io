@@ -25,13 +25,9 @@ shortstack
    :versions: 3.8.5-1, 3.8.5-0, 3.8.3-0
    
    :depends bowtie: 
-   
    :depends perl: 5.*
-   
    :depends samtools: 1.*
-   
    :depends viennarna: 2.*
-   
    :requirements:
 
    .. rubric:: Installation

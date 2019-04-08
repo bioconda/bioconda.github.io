@@ -26,15 +26,10 @@ malva
    :versions: 1.0.1-0
    
    :depends htslib: >=1.9,<1.10.0a0
-   
    :depends kmc: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

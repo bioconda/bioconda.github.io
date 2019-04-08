@@ -25,11 +25,8 @@ validators
    :versions: 0.12.4-0, 0.12.3-0, 0.12.2-0, 0.12.1-2, 0.12.1-0, 0.10-0
    
    :depends decorator: >=3.4.0
-   
    :depends python: 
-   
    :depends six: >=1.4.0
-   
    :requirements:
 
    .. rubric:: Installation

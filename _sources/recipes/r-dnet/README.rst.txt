@@ -25,17 +25,11 @@ r-dnet
    :versions: 1.1.4-0
    
    :depends bioconductor-graph: 
-   
    :depends bioconductor-rgraphviz: 
-   
    :depends bioconductor-suprahex: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-igraph: 
-   
    :depends r-matrix: 
-   
    :requirements:
 
    .. rubric:: Installation

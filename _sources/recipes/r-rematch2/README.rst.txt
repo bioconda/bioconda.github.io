@@ -25,9 +25,7 @@ r-rematch2
    :versions: 2.0.1-0
    
    :depends r-base: 3.3.2*
-   
    :depends r-tibble: 
-   
    :requirements:
 
    .. rubric:: Installation

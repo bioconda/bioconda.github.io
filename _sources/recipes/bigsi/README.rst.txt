@@ -26,29 +26,17 @@ bigsi
    :versions: 0.3.1-0
    
    :depends biopython: 
-   
    :depends bitarray: 
-   
    :depends bsddb3: 
-   
    :depends cython: 
-   
    :depends hug: 
-   
    :depends humanfriendly: 
-   
    :depends libdb: 
-   
    :depends mmh3: 
-   
    :depends numpy: 
-   
    :depends python: >=3
-   
    :depends pyyaml: 
-   
    :depends redis-py: 
-   
    :requirements:
 
    .. rubric:: Installation

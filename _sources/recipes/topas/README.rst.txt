@@ -25,9 +25,7 @@ topas
    :versions: 1.0.1-0, 1.0.0-0
    
    :depends openjdk: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

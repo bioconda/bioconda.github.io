@@ -25,31 +25,18 @@ maaslin
    :versions: 0.05-0, 0.04-1, 0.04-0
    
    :depends r-agricolae: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gam: 
-   
    :depends r-gamlss: 
-   
    :depends r-gbm: 
-   
    :depends r-glmnet: 
-   
    :depends r-inlinedocs: 
-   
    :depends r-logging: 
-   
    :depends r-optparse: 
-   
    :depends r-outliers: 
-   
    :depends r-penalized: 
-   
    :depends r-pscl: 
-   
    :depends r-robustbase: 
-   
    :requirements:
 
    .. rubric:: Installation

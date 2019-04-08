@@ -25,31 +25,18 @@ perl-module-build
    :versions: 0.4224-3, 0.4224-2, 0.4224-1, 0.4224-0, 0.4214-3, 0.4214-2, 0.4214-1, 0.4214-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-cpan-meta: 
-   
    :depends perl-data-dumper: 
-   
    :depends perl-extutils-cbuilder: 
-   
    :depends perl-extutils-manifest: 
-   
    :depends perl-extutils-parsexs: 
-   
    :depends perl-file-path: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-module-metadata: 
-   
    :depends perl-perl-ostype: 
-   
    :depends perl-text-abbrev: 
-   
    :depends perl-text-parsewords: 
-   
    :depends perl-version: 
-   
    :requirements:
 
    .. rubric:: Installation

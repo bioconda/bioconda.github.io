@@ -26,23 +26,14 @@ bioconductor-annotationforge
    :versions: 1.24.0-0, 1.22.2-0, 1.20.0-0, 1.18.2-0, 1.14.2-0, 1.14.0-0, 1.12.2-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: 
-   
    :depends r-rcurl: 
-   
    :depends r-rsqlite: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

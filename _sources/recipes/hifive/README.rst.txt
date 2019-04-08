@@ -25,25 +25,15 @@ hifive
    :versions: 1.5.7-0, 1.5.6-2, 1.5.6-0, 1.5.3-0, 1.5.1-0, 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.2.1-0
    
    :depends cython: 
-   
    :depends h5py: 
-   
    :depends mpi4py: 
-   
    :depends numpy: 
-   
    :depends pil: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends pyx: 0.12.1
-   
    :depends scipy: 
-   
    :depends setuptools_cython: 
-   
    :requirements:
 
    .. rubric:: Installation

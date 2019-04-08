@@ -26,7 +26,6 @@ bioconductor-hpar
    :versions: 1.24.0-0, 1.22.2-0, 1.20.0-0, 1.18.1-0, 1.15.0-0, 1.14.1-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

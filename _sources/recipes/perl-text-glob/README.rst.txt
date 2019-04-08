@@ -25,7 +25,6 @@ perl-text-glob
    :versions: 0.11-1, 0.11-0, 0.09-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,23 +25,14 @@ r-sigtree
    :versions: 1.10.6-4, 1.10.6-3, 1.10.6-2, 1.10.6-1, 1.10.6-0
    
    :depends bioconductor-phyloseq: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-ape: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-mass: 
-   
    :depends r-phyext2: 
-   
    :depends r-phylobase: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-vegan: 
-   
    :requirements:
 
    .. rubric:: Installation

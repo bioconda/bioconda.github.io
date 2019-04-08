@@ -26,37 +26,21 @@ scanpy
    :versions: 1.4-0, 1.3.7-0, 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.3.3-0, 1.3.2-0, 1.3.1-0
    
    :depends anndata: >=0.6.10
-   
    :depends h5py: 
-   
    :depends louvain: 
-   
    :depends matplotlib: >=2.2
-   
    :depends natsort: 
-   
    :depends networkx: 
-   
    :depends numba: 
-   
    :depends pandas: >=0.21
-   
    :depends pytables: 
-   
    :depends python: >=3.6
-   
    :depends python-igraph: 
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :depends seaborn: 
-   
    :depends setuptools: 
-   
    :depends statsmodels: 
-   
    :requirements:
 
    .. rubric:: Installation

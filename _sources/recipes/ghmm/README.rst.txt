@@ -25,13 +25,9 @@ ghmm
    :versions: 0.9-1, 0.9-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends libxml2: >=2.9.8,<2.10.0a0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends swig: 
-   
    :requirements:
 
    .. rubric:: Installation

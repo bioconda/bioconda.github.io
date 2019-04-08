@@ -25,13 +25,9 @@ r-maldiquant
    :versions: 1.18-0, 1.17-0, 1.16.4-0, 1.14-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends libgfortran: >=3.0
-   
    :depends libgfortran-ng: 
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

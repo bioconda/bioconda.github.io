@@ -25,9 +25,7 @@ perl-try-tiny-retry
    :versions: 0.004-0, 0.002-1, 0.002-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-try-tiny: 
-   
    :requirements:
 
    .. rubric:: Installation

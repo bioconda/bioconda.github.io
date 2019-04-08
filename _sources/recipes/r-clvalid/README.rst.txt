@@ -25,11 +25,8 @@ r-clvalid
    :versions: 0.6_6-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-class: 
-   
    :depends r-cluster: 
-   
    :requirements:
 
    .. rubric:: Installation

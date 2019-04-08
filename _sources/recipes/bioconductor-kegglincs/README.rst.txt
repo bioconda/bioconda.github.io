@@ -26,31 +26,18 @@ bioconductor-kegglincs
    :versions: 1.8.0-0, 1.6.2-0, 1.4.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-hgu133a.db: >=3.2.0,<3.3.0
-   
    :depends bioconductor-kegggraph: >=1.42.0,<1.43.0
-   
    :depends bioconductor-keggrest: >=1.22.0,<1.23.0
-   
    :depends bioconductor-kodata: >=1.8.0,<1.9.0
-   
    :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gtools: 
-   
    :depends r-httr: 
-   
    :depends r-igraph: 
-   
    :depends r-plyr: 
-   
    :depends r-rjsonio: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

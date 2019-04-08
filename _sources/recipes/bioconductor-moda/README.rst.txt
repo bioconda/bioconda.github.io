@@ -25,19 +25,12 @@ bioconductor-moda
    :versions: 1.8.0-0
    
    :depends bioconductor-amountain: >=1.8.0,<1.9.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-dynamictreecut: 
-   
    :depends r-igraph: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-wgcna: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,61 +26,33 @@ bioconductor-cager
    :versions: 1.24.0-0, 1.22.3-0, 1.20.0-0, 1.18.1-0, 1.16.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
-   
    :depends bioconductor-delayedarray: >=0.8.0,<0.9.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicalignments: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-multiassayexperiment: >=1.8.0,<1.9.0
-   
    :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   
    :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-beanplot: 
-   
    :depends r-data.table: 
-   
    :depends r-formula.tools: 
-   
    :depends r-ggplot2: >=2.2.0
-   
    :depends r-gtools: 
-   
    :depends r-kernsmooth: 
-   
    :depends r-memoise: 
-   
    :depends r-plyr: 
-   
    :depends r-reshape: 
-   
    :depends r-som: 
-   
    :depends r-stringdist: 
-   
    :depends r-stringi: 
-   
    :depends r-vegan: 
-   
    :depends r-vgam: 
-   
    :requirements:
 
    .. rubric:: Installation

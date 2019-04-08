@@ -25,17 +25,11 @@ biopet
    :versions: 0.9.0-1, 0.9.0-0, 0.8.0-1, 0.8.0-0, 0.7.0-0
    
    :depends openjdk: 
-   
    :depends python: 
-   
    :depends r-argparse: 
-   
    :depends r-base: 
-   
    :depends r-ggplot2: 
-   
    :depends r-reshape: 
-   
    :requirements:
 
    .. rubric:: Installation

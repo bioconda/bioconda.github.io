@@ -25,11 +25,8 @@ perl-extutils-installpaths
    :versions: 0.012-0, 0.011-1, 0.011-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-extutils-config: 
-   
    :requirements:
 
    .. rubric:: Installation

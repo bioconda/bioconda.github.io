@@ -25,7 +25,6 @@ r-kmsurv
    :versions: 0.1_5-0
    
    :depends r-base: 3.3.2*
-   
    :requirements:
 
    .. rubric:: Installation

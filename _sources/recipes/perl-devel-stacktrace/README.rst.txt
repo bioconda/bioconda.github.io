@@ -25,7 +25,6 @@ perl-devel-stacktrace
    :versions: 2.03-1, 2.03-0, 2.00-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

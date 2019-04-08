@@ -25,17 +25,11 @@ r-bc3net
    :versions: 1.0.4-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-c3net: 
-   
    :depends r-igraph: 
-   
    :depends r-infotheo: 
-   
    :depends r-lattice: 
-   
    :depends r-matrix: 
-   
    :requirements:
 
    .. rubric:: Installation

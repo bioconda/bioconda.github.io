@@ -25,7 +25,6 @@ c-ares
    :versions: 1.11.0-1, 1.11.0-0
    
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

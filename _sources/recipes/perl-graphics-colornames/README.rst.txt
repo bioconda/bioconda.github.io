@@ -25,19 +25,12 @@ perl-graphics-colornames
    :versions: 2.11-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-base: 
-   
    :depends perl-carp: 
-   
    :depends perl-exporter: 
-   
    :depends perl-module-build: 
-   
    :depends perl-module-load: 
-   
    :depends perl-module-loaded: 
-   
    :requirements:
 
    .. rubric:: Installation

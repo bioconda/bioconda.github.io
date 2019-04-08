@@ -25,21 +25,13 @@ chado-tools
    :versions: 0.2.8-0, 0.2.5-0, 0.0.5-0, 0.0.4-0, 0.0.3-0
    
    :depends biopython: 
-   
    :depends gffutils: 
-   
    :depends pronto: >=0.11.0
-   
    :depends psycopg2: 
-   
    :depends python: >=3.6
-   
    :depends pyyaml: 
-   
    :depends sqlalchemy: 
-   
    :depends sqlalchemy-utils: 
-   
    :requirements:
 
    .. rubric:: Installation

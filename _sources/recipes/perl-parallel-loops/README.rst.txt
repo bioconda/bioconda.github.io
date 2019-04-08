@@ -25,9 +25,7 @@ perl-parallel-loops
    :versions: 0.10-0, 0.08-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-parallel-forkmanager: 
-   
    :requirements:
 
    .. rubric:: Installation

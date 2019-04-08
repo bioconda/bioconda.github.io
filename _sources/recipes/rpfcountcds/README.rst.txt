@@ -25,9 +25,7 @@ rpf-count-cds
    :versions: 0.0.1-1, 0.0.1-0
    
    :depends htseq: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

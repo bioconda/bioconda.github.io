@@ -25,19 +25,12 @@ cdna_cupcake
    :versions: 5.8-0, 5.3-1, 5.3-0
    
    :depends biopython: 
-   
    :depends bx-python: 0.7.3
-   
    :depends graphviz: 
-   
    :depends pbcore: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends r-base: 
-   
    :depends scikit-learn: 
-   
    :requirements:
 
    .. rubric:: Installation

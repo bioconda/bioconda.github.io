@@ -25,7 +25,6 @@ gatktool
    :versions: 0.0.1-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

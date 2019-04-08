@@ -26,39 +26,22 @@ phenix
    :versions: 1.4.1a-0
    
    :depends argparse: 
-   
    :depends bcftools: 
-   
    :depends bintrees: 
-   
    :depends biopython: 
-   
    :depends bowtie2: 
-   
    :depends bwa: 
-   
    :depends gatk: 
-   
    :depends matplotlib: 
-   
    :depends matplotlib-venn: 
-   
    :depends numpy: 
-   
    :depends picard: 
-   
    :depends psycopg2: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends pyvcf: 
-   
    :depends pyyaml: 
-   
    :depends samtools: 
-   
    :requirements:
 
    .. rubric:: Installation

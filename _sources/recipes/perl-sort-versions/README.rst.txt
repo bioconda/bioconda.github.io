@@ -25,9 +25,7 @@ perl-sort-versions
    :versions: 1.62-2, 1.62-1, 1.62-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-exporter: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ bioconductor-reqon
    :versions: 1.28.0-0
    
    :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   
    :depends bioconductor-seqbias: >=1.30.0,<1.31.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rjava: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,7 +26,6 @@ megan
    :versions: 6.12.3-0
    
    :depends openjdk: >=8.0.144
-   
    :requirements:
 
    .. rubric:: Installation

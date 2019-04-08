@@ -25,9 +25,7 @@ bioconductor-genomewidesnp5crlmm
    :versions: 1.0.6-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,29 +25,17 @@ perl-datetime
    :versions: 1.42-2, 1.42-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-cpan-meta-check: 
-   
    :depends perl-datetime-locale: 
-   
    :depends perl-datetime-timezone: 
-   
    :depends perl-namespace-autoclean: 
-   
    :depends perl-params-validationcompiler: 
-   
    :depends perl-specio-exporter: 
-   
    :depends perl-test-fatal: 
-   
    :depends perl-try-tiny: 
-   
    :depends perl-warnings-register: 
-   
    :depends perl-xsloader: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ treebest
    :versions: 1.9.2.post0-0, 1.9.2_ep78-2, 1.9.2_ep78-1, 1.9.2_ep78-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

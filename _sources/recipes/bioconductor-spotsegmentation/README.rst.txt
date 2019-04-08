@@ -26,9 +26,7 @@ bioconductor-spotsegmentation
    :versions: 1.56.0-0, 1.54.0-0, 1.52.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-mclust: 
-   
    :requirements:
 
    .. rubric:: Installation

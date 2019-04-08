@@ -26,15 +26,10 @@ bioconductor-clustersignificance
    :versions: 1.10.0-0, 1.8.2-0, 1.6.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-pracma: 
-   
    :depends r-princurve: >=2.0.5
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-scatterplot3d: 
-   
    :requirements:
 
    .. rubric:: Installation

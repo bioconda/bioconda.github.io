@@ -25,9 +25,7 @@ wdltool
    :versions: 0.14-1, 0.14-0, 0.9-0, 0.6-0
    
    :depends openjdk: >=8
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

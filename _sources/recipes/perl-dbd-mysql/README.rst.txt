@@ -26,13 +26,9 @@ perl-dbd-mysql
    :versions: 4.046-0, 4.033-3, 4.033-2, 4.033-1, 4.033-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends mysql-connector-c: 
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-dbi: 
-   
    :requirements:
 
    .. rubric:: Installation

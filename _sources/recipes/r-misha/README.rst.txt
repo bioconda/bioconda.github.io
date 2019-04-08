@@ -25,7 +25,6 @@ r-misha
    :versions: 4.0.4-1
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

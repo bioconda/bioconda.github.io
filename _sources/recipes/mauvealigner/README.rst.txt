@@ -26,17 +26,11 @@ mauvealigner
    :versions: 1.2.0-0
    
    :depends boost-cpp: >=1.65.1,<1.65.2.0a0
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libgenome: 
-   
    :depends libmems: 
-   
    :depends libmuscle: 
-   
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

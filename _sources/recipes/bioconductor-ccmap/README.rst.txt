@@ -25,23 +25,14 @@ bioconductor-ccmap
    :versions: 1.8.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-ccdata: >=1.8.0,<1.9.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-biocmanager: >=1.24.0
-   
    :depends r-data.table: >=1.10.4
-   
    :depends r-doparallel: >=1.0.10
-   
    :depends r-foreach: >=1.4.3
-   
    :depends r-lsa: >=0.73.1
-   
    :depends r-xgboost: >=0.6.4
-   
    :requirements:
 
    .. rubric:: Installation

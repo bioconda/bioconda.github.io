@@ -25,11 +25,8 @@ nanostat
    :versions: 1.1.2-1, 1.1.0-1, 1.1.0-0, 1.0.0-0, 0.8.1-0, 0.7.1-0, 0.2.0-0, 0.1.5-0
    
    :depends nanoget: >=0.15.0
-   
    :depends nanomath: >=0.19.0
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

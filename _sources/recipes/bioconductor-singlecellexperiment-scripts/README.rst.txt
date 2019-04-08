@@ -25,13 +25,9 @@ bioconductor-singlecellexperiment-scripts
    :versions: 0.0.3-0, 0.0.2-0, 0.0.1-0
    
    :depends bioconductor-singlecellexperiment: 
-   
    :depends r-base: 
-   
    :depends r-optparse: 
-   
    :depends r-workflowscriptscommon: 
-   
    :requirements:
 
    .. rubric:: Installation

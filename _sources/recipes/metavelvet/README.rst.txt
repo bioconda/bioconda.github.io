@@ -25,15 +25,10 @@ metavelvet
    :versions: 1.2.02-2, 1.2.02-1, 1.1.01-1, 1.1.01-0
    
    :depends libgcc: 
-   
    :depends perl: 5.22.0*
-   
    :depends perl-module-build: 
-   
    :depends velvet: 
-   
    :depends zlib: 1.2.11*
-   
    :requirements:
 
    .. rubric:: Installation

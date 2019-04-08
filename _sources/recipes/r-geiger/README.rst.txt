@@ -25,31 +25,18 @@ r-geiger
    :versions: 2.0.6-3, 2.0.6-2, 2.0.6-1, 2.0.6-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-ape: >=3.0_6
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-coda: 
-   
    :depends r-colorspace: 
-   
    :depends r-desolve: >=1.7
-   
    :depends r-digest: 
-   
    :depends r-mass: 
-   
    :depends r-mvtnorm: 
-   
    :depends r-ncbit: 
-   
    :depends r-rcpp: >=0.9.0
-   
    :depends r-subplex: 
-   
    :requirements:
 
    .. rubric:: Installation

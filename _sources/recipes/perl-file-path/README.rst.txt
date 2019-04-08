@@ -25,9 +25,7 @@ perl-file-path
    :versions: 2.15-1, 2.15-0, 2.12-1, 2.12-0, 2.09-1, 2.09-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-exporter: 
-   
    :requirements:
 
    .. rubric:: Installation

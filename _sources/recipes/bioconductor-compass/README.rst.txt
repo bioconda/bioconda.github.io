@@ -26,43 +26,24 @@ bioconductor-compass
    :versions: 1.20.0-0, 1.18.1-0, 1.18.0-0, 1.16.0-0
    
    :depends bioconductor-biocstyle: >=2.10.0,<2.11.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-abind: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-clue: 
-   
    :depends r-data.table: 
-   
    :depends r-dplyr: 
-   
    :depends r-knitr: 
-   
    :depends r-magrittr: 
-   
    :depends r-pdist: 
-   
    :depends r-plyr: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rcpp: >=0.11.0
-   
    :depends r-reshape2: 
-   
    :depends r-rlang: 
-   
    :depends r-rmarkdown: 
-   
    :depends r-scales: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

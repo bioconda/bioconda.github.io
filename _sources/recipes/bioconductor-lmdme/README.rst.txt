@@ -26,13 +26,9 @@ bioconductor-lmdme
    :versions: 1.24.0-0, 1.22.0-0, 1.20.0-0
    
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-stemhypoxia: >=1.18.0,<1.19.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-pls: 
-   
    :requirements:
 
    .. rubric:: Installation

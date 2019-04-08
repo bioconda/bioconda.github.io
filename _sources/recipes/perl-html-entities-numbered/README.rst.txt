@@ -25,7 +25,6 @@ perl-html-entities-numbered
    :versions: 0.04-1, 0.04-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

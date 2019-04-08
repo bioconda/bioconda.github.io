@@ -25,21 +25,13 @@ perl-forks
    :versions: 0.36-4, 0.36-3, 0.36-2, 0.36-1
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-acme-damn: 
-   
    :depends perl-attribute-handlers: 
-   
    :depends perl-devel-symdump: 
-   
    :depends perl-list-moreutils: 
-   
    :depends perl-storable: 
-   
    :depends perl-sys-sigaction: 
-   
    :depends perl-time-hires: 
-   
    :requirements:
 
    .. rubric:: Installation

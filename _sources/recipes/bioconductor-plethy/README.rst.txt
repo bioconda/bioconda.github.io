@@ -26,29 +26,17 @@ bioconductor-plethy
    :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-streamer: >=1.28.0,<1.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: >=0.5-1
-   
    :depends r-ggplot2: 
-   
    :depends r-plyr: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :depends r-rsqlite: >=1.1
-   
    :requirements:
 
    .. rubric:: Installation

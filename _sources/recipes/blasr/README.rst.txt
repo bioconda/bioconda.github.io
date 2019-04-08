@@ -25,17 +25,11 @@ blasr
    :versions: 5.3.3-0, 5.3.2-5, 5.3.2-4, 5.3.2-3, 5.3.2-2, 5.3.2-1, 5.3.2-0, 5.3.1-0, 5.2p1-0
    
    :depends blasr_libcpp: 5.3.3.*
-   
    :depends hdf5: >=1.10.4,<1.10.5.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends pbbam: 0.23.0.*
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

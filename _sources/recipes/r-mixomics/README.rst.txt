@@ -25,39 +25,22 @@ r-mixomics
    :versions: 6.3.1-0, 6.2.0-0, 6.1.1-0, 5.2.0-0
    
    :depends libglu: 
-   
    :depends r-base: 3.4.1*
-   
    :depends r-corpcor: 
-   
    :depends r-dplyr: 
-   
    :depends r-ellipse: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-igraph: 
-   
    :depends r-lattice: 
-   
    :depends r-mass: 
-   
    :depends r-matrixstats: 
-   
    :depends r-plyr: 
-   
    :depends r-rarpack: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :depends r-rgl: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

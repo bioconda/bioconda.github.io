@@ -25,29 +25,17 @@ bioconductor-gwastools
    :versions: 1.28.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-dnacopy: >=1.56.0,<1.57.0
-   
    :depends bioconductor-gdsfmt: >=1.18.0,<1.19.0
-   
    :depends bioconductor-quantsmooth: >=1.48.0,<1.49.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: 
-   
    :depends r-gwasexacthw: 
-   
    :depends r-lmtest: 
-   
    :depends r-logistf: 
-   
    :depends r-rsqlite: 
-   
    :depends r-sandwich: 
-   
    :depends r-survival: 
-   
    :requirements:
 
    .. rubric:: Installation

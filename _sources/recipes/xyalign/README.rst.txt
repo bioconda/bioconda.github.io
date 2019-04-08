@@ -25,31 +25,18 @@ xyalign
    :versions: 1.1.5-0, 1.1.4-2, 1.1.4-0, 1.1.3-0, 1.0.0-0
    
    :depends bbmap: 
-   
    :depends bedtools: 
-   
    :depends bwa: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends platypus-variant: 
-   
    :depends pybedtools: 
-   
    :depends pysam: 
-   
    :depends python: <3
-   
    :depends sambamba: 
-   
    :depends samtools: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

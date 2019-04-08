@@ -25,15 +25,10 @@ backspinpy
    :versions: 0.2.1-1, 0.2.1-0
    
    :depends future: 
-   
    :depends numpy: 
-   
    :depends python: 
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ rdp-readseq
    :versions: 2.0.2-1, 2.0.2-0
    
    :depends openjdk: 
-   
    :requirements:
 
    .. rubric:: Installation

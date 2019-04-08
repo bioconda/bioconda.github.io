@@ -26,25 +26,15 @@ r-fateid
    :versions: 0.1.6-0, 0.1.4-1, 0.1.4-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-lle: 
-   
    :depends r-locfit: 
-   
    :depends r-pheatmap: 
-   
    :depends r-princurve: 
-   
    :depends r-randomforest: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rgl: 
-   
    :depends r-rtsne: 
-   
    :depends r-som: 
-   
    :requirements:
 
    .. rubric:: Installation

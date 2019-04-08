@@ -25,11 +25,8 @@ r-treesim
    :versions: 2.3-3, 2.3-2, 2.3-1, 2.3-0
    
    :depends r-ape: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-geiger: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,7 +26,6 @@ centroid_rna_package
    :versions: 0.0.15-0
    
    :depends viennarna: >=1.8
-   
    :requirements:
 
    .. rubric:: Installation

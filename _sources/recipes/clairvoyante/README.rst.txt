@@ -25,19 +25,12 @@ clairvoyante
    :versions: 1.01-1, 1.01-0, 1.0-1, 1.0-0
    
    :depends intervaltree: 2.1.0
-   
    :depends numpy: 1.16.2
-   
    :depends pypy2.7: 5.10.0
-   
    :depends python: 2.7.*
-   
    :depends python-blosc: 1.8.1
-   
    :depends tensorflow: 1.9.0.*
-   
    :depends zlib: 1.2.11.*
-   
    :requirements:
 
    .. rubric:: Installation

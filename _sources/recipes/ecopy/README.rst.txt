@@ -25,21 +25,13 @@ ecopy
    :versions: 0.1.2.2-1, 0.1.2.2-0, 0.1.2-0
    
    :depends cython: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends matplotlib: >=1.3.1
-   
    :depends numpy: >=1.7
-   
    :depends pandas: >=0.13
-   
    :depends patsy: >=0.3.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: >=0.14
-   
    :requirements:
 
    .. rubric:: Installation

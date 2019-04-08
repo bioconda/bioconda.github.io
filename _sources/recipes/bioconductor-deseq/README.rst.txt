@@ -26,25 +26,15 @@ bioconductor-deseq
    :versions: 1.34.0-0, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.24.0-0, 1.22.1-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   
    :depends bioconductor-geneplotter: >=1.60.0,<1.61.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-lattice: 
-   
    :depends r-locfit: 
-   
    :depends r-mass: 
-   
    :depends r-rcolorbrewer: 
-   
    :requirements:
 
    .. rubric:: Installation

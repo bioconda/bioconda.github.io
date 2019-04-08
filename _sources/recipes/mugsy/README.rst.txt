@@ -25,7 +25,6 @@ mugsy
    :versions: 1.2.3-2, 1.2.3-1, 1.2.3-0
    
    :depends perl: 
-   
    :requirements:
 
    .. rubric:: Installation

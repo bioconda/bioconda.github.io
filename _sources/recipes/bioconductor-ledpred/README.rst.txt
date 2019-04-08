@@ -25,27 +25,16 @@ bioconductor-ledpred
    :versions: 1.16.0-0
    
    :depends r-akima: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-e1071: >=1.6
-   
    :depends r-ggplot2: 
-   
    :depends r-irr: 
-   
    :depends r-jsonlite: 
-   
    :depends r-plot3d: 
-   
    :depends r-plyr: 
-   
    :depends r-rcurl: 
-   
    :depends r-rocr: 
-   
    :depends r-testthat: 
-   
    :requirements:
 
    .. rubric:: Installation

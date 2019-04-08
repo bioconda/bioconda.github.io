@@ -30,17 +30,11 @@ latentstrainanalysis
    :versions: 0.0.1-1, 0.0.1-0
    
    :depends gensim: 
-   
    :depends numpy: 
-   
    :depends parallel: 
-   
    :depends pyro4: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

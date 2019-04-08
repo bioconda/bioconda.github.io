@@ -25,7 +25,6 @@ perl-safe
    :versions: 2.37-1, 2.37-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

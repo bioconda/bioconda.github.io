@@ -25,37 +25,21 @@ bioconductor-perturbatr
    :versions: 1.2.1-0
    
    :depends r-assertthat: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-diffusr: 
-   
    :depends r-doparallel: 
-   
    :depends r-dplyr: 
-   
    :depends r-foreach: 
-   
    :depends r-formula.tools: 
-   
    :depends r-ggplot2: 
-   
    :depends r-igraph: 
-   
    :depends r-lazyeval: 
-   
    :depends r-lme4: 
-   
    :depends r-magrittr: 
-   
    :depends r-rlang: 
-   
    :depends r-scales: 
-   
    :depends r-tibble: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

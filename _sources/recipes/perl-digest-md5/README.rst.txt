@@ -25,7 +25,6 @@ perl-digest-md5
    :versions: 2.55-0, 2.52-3, 2.52-2, 2.52-1, 2.52-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

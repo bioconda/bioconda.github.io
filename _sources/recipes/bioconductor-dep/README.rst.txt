@@ -25,53 +25,29 @@ bioconductor-dep
    :versions: 1.4.0-0
    
    :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-msnbase: >=2.8.0,<2.9.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends bioconductor-vsn: >=3.50.0,<3.51.0
-   
    :depends r-assertthat: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-circlize: 
-   
    :depends r-cluster: 
-   
    :depends r-dplyr: 
-   
    :depends r-dt: 
-   
    :depends r-fdrtool: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ggrepel: 
-   
    :depends r-gridextra: 
-   
    :depends r-imputelcmd: 
-   
    :depends r-purrr: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-readr: 
-   
    :depends r-rmarkdown: 
-   
    :depends r-shiny: 
-   
    :depends r-shinydashboard: 
-   
    :depends r-tibble: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

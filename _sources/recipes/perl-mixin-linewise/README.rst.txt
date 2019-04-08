@@ -25,11 +25,8 @@ perl-mixin-linewise
    :versions: 0.108-1, 0.108-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-extutils-makemaker: 
-   
    :depends perl-pathtools: 
-   
    :requirements:
 
    .. rubric:: Installation

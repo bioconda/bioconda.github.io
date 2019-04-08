@@ -25,7 +25,6 @@ perl-blib
    :versions: 1.06-1, 1.06-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

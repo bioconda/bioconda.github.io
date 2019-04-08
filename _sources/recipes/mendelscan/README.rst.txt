@@ -25,7 +25,6 @@ mendelscan
    :versions: v1.2.2-1, v1.2.2-0
    
    :depends java-jdk: 
-   
    :requirements:
 
    .. rubric:: Installation

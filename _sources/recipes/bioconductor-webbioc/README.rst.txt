@@ -26,23 +26,14 @@ bioconductor-webbioc
    :versions: 1.54.0-0, 1.52.0-0, 1.50.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-annaffy: >=1.54.0,<1.55.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-gcrma: >=2.54.0,<2.55.0
-   
    :depends bioconductor-multtest: >=2.38.0,<2.39.0
-   
    :depends bioconductor-qvalue: >=2.14.0,<2.15.0
-   
    :depends bioconductor-vsn: >=3.50.0,<3.51.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-biocmanager: 
-   
    :requirements:
 
    .. rubric:: Installation

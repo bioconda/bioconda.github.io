@@ -25,41 +25,23 @@ bioconductor-hiiragi2013
    :versions: 1.18.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   
    :depends bioconductor-geneplotter: >=1.60.0,<1.61.0
-   
    :depends bioconductor-keggrest: >=1.22.0,<1.23.0
-   
    :depends bioconductor-mouse4302.db: >=3.2.0,<3.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-boot: 
-   
    :depends r-clue: 
-   
    :depends r-cluster: 
-   
    :depends r-gplots: 
-   
    :depends r-gtools: 
-   
    :depends r-lattice: 
-   
    :depends r-latticeextra: 
-   
    :depends r-mass: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-xtable: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

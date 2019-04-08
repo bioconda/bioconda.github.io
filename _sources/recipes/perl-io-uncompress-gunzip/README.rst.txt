@@ -25,7 +25,6 @@ perl-io-uncompress-gunzip
    :versions: 2.064-1, 2.064-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

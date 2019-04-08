@@ -26,17 +26,11 @@ bioconductor-pwmenrich
    :versions: 4.18.0-0, 4.16.0-0, 4.14.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-seqlogo: >=1.48.0,<1.49.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-evd: 
-   
    :depends r-gdata: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,21 +25,13 @@ misopy
    :versions: 0.5.4-1, 0.5.4-0
    
    :depends bedtools: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends matplotlib: 
-   
    :depends numpy: >=1.5.0
-   
    :depends pysam: >=0.6.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: <=1.2
-   
    :depends scipy: >=0.9.0
-   
    :requirements:
 
    .. rubric:: Installation

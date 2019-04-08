@@ -25,13 +25,9 @@ ruby-dna-tools
    :versions: 1.0-1, 1.0-0
    
    :depends jemalloc: 
-   
    :depends python: 
-   
    :depends ruby: >=2.4
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

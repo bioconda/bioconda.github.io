@@ -25,17 +25,11 @@ r-precrec
    :versions: 0.9.1-0
    
    :depends r-assertthat: >=0.1
-   
    :depends r-base: 3.4.1*
-   
    :depends r-data.table: >=1.10.4
-   
    :depends r-ggplot2: >=2.1.0
-   
    :depends r-gridextra: >=2.0.0
-   
    :depends r-rcpp: 
-   
    :requirements:
 
    .. rubric:: Installation

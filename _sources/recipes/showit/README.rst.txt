@@ -25,11 +25,8 @@ showit
    :versions: 1.1.4-0
    
    :depends matplotlib: 
-   
    :depends numpy: !=1.13.0
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

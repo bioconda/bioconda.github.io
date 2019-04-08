@@ -25,13 +25,9 @@ frc
    :versions: 5b3f53e-0
    
    :depends bamtools: 
-   
    :depends boost: 1.61*
-   
    :depends libgcc: 
-   
    :depends samtools: 
-   
    :requirements:
 
    .. rubric:: Installation

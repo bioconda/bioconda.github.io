@@ -26,19 +26,12 @@ krakenuniq
    :versions: 0.5.7-0, 0.5.6-0, 0.5.5-0, 0.5.3-0, 0.5.2-0
    
    :depends jellyfish: 1.*
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-libwww-perl: 
-   
    :depends perl-lwp-protocol-https: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

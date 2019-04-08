@@ -25,7 +25,6 @@ r-lsd
    :versions: 3.0-0
    
    :depends r: 3.2.2*
-   
    :requirements:
 
    .. rubric:: Installation

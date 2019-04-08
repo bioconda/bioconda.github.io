@@ -25,11 +25,8 @@ pytest-timeout
    :versions: 1.0.0-0
    
    :depends pytest: >=2.8.0
-   
    :depends python: 2.7*
-   
    :depends setuptools: 
-   
    :requirements:
 
    .. rubric:: Installation

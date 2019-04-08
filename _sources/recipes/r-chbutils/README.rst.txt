@@ -25,11 +25,8 @@ r-chbutils
    :versions: 0.1_2017_10_26-0, 0.1_2015_12_21-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-mvtnorm: 
-   
    :depends r-rcolorbrewer: 
-   
    :requirements:
 
    .. rubric:: Installation

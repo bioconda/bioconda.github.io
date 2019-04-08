@@ -29,9 +29,7 @@ snver
    :versions: 0.5.3-0
    
    :depends openjdk: >=6
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

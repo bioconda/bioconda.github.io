@@ -26,23 +26,14 @@ plasflow
    :versions: 1.1.0-0
    
    :depends bioconductor-biostrings: 
-   
    :depends biopython: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends rpy2: 
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :depends tensorflow: 
-   
    :requirements:
 
    .. rubric:: Installation

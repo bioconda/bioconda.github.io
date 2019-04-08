@@ -25,23 +25,14 @@ irida-linker
    :versions: 1.0.2-0, 1.0.1-1, 1.0.1-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-config-simple: 
-   
    :depends perl-file-path: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-http-message: 
-   
    :depends perl-json: 
-   
    :depends perl-libwww-perl: 
-   
    :depends perl-lwp-simple: 
-   
    :depends perl-termreadkey: 
-   
    :requirements:
 
    .. rubric:: Installation

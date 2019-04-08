@@ -25,17 +25,11 @@ bioconductor-xhybcasneuf
    :versions: 1.20.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-ath1121501cdf: >=2.18.0,<2.19.0
-   
    :depends bioconductor-tinesath1cdf: >=1.20.0,<1.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rcolorbrewer: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,41 +25,23 @@ bioconductor-levi
    :versions: 1.0.0-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-colorspace: >=1.3-2
-   
    :depends r-dplyr: >=0.7.4
-   
    :depends r-dt: >=0.4
-   
    :depends r-ggplot2: >=2.2.1
-   
    :depends r-httr: >=1.3.1
-   
    :depends r-igraph: >=1.2.1
-   
    :depends r-knitr: 
-   
    :depends r-rcolorbrewer: >=1.1-2
-   
    :depends r-rcpp: >=0.12.18
-   
    :depends r-reshape2: >=1.4.3
-   
    :depends r-shiny: >=1.0.5
-   
    :depends r-shinydashboard: >=0.7.0
-   
    :depends r-shinyjs: >=1.0
-   
    :depends r-testthat: 
-   
    :depends r-xml2: >=1.2.0
-   
    :requirements:
 
    .. rubric:: Installation

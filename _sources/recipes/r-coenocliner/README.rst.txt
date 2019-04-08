@@ -25,7 +25,6 @@ r-coenocliner
    :versions: 0.2_2-2, 0.2_2-1, 0.2_2-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

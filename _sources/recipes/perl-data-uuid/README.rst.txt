@@ -25,11 +25,8 @@ perl-data-uuid
    :versions: 1.221-5, 1.221-4, 1.221-3, 1.221-2, 1.221-1, 1.221-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-digest-md5: 
-   
    :requirements:
 
    .. rubric:: Installation

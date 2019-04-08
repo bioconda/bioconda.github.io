@@ -25,31 +25,18 @@ peakachu
    :versions: 0.1.0-4, 0.1.0-3, 0.1.0-1, 0.1.0-0
    
    :depends bcbiogff: 
-   
    :depends bioconductor-deseq2: 1.18.1.*
-   
    :depends bioconductor-edger: 
-   
    :depends biopython: 
-   
    :depends blockbuster: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends matplotlib: 
-   
    :depends numexpr: 
-   
    :depends pandas: 
-   
    :depends pysam: 
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends rpy2: 
-   
    :depends statsmodels: 
-   
    :requirements:
 
    .. rubric:: Installation

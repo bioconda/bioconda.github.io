@@ -25,13 +25,9 @@ perl-file-homedir
    :versions: 1.00-2, 1.00-1, 1.00-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-file-path: 
-   
    :depends perl-file-which: 
-   
    :depends perl-pathtools: 
-   
    :requirements:
 
    .. rubric:: Installation

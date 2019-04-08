@@ -25,19 +25,12 @@ r-dpeak
    :versions: 2.0.1-1, 2.0.1-0
    
    :depends bioconductor-bsgenome: 
-   
    :depends bioconductor-iranges: 
-   
    :depends libgcc: 
-   
    :depends perl-threaded: 
-   
    :depends r: >=2.11.1
-   
    :depends r-mass: 
-   
    :depends r-rcpp: 
-   
    :requirements:
 
    .. rubric:: Installation

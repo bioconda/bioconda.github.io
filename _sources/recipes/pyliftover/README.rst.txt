@@ -25,7 +25,6 @@ pyliftover
    :versions: 0.3-2, 0.3-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

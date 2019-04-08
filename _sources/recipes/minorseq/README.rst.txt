@@ -25,11 +25,8 @@ minorseq
    :versions: 1.11.0-1, 1.11.0-0
    
    :depends blasr: 
-   
    :depends pbccs: 
-   
    :depends samtools: 
-   
    :requirements:
 
    .. rubric:: Installation

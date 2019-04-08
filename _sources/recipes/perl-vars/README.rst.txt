@@ -25,7 +25,6 @@ perl-vars
    :versions: 1.03-1, 1.03-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

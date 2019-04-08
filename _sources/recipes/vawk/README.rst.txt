@@ -25,9 +25,7 @@ vawk
    :versions: 0.0.2-4, 0.0.2-3, 0.0.2-1, 0.0.2-0
    
    :depends gawk: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

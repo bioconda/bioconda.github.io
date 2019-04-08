@@ -25,37 +25,21 @@ bioconductor-meshr
    :versions: 1.18.0-1, 1.18.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-category: >=2.48.0,<2.49.0
-   
    :depends bioconductor-cummerbund: >=2.24.0,<2.25.0
-   
    :depends bioconductor-mesh.aca.eg.db: >=1.11.0,<1.12.0
-   
    :depends bioconductor-mesh.aor.db: >=1.11.0,<1.12.0
-   
    :depends bioconductor-mesh.bsu.168.eg.db: >=1.11.0,<1.12.0
-   
    :depends bioconductor-mesh.db: >=1.11.0,<1.12.0
-   
    :depends bioconductor-mesh.hsa.eg.db: >=1.11.0,<1.12.0
-   
    :depends bioconductor-mesh.pcr.db: >=1.11.0,<1.12.0
-   
    :depends bioconductor-mesh.syn.eg.db: >=1.11.0,<1.12.0
-   
    :depends bioconductor-meshdbi: >=1.18.0,<1.19.0
-   
    :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-fdrtool: 
-   
    :depends r-rsqlite: 
-   
    :requirements:
 
    .. rubric:: Installation

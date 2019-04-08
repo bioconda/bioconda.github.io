@@ -25,19 +25,12 @@ xpclr
    :versions: 1.1.1-0, 1.1-0
    
    :depends h5py: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: >=3.6
-   
    :depends scikit-allel: >=1.2
-   
    :depends scipy: 
-   
    :depends zarr: >=2.2
-   
    :requirements:
 
    .. rubric:: Installation

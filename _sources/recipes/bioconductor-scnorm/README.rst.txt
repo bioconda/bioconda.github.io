@@ -25,27 +25,16 @@ bioconductor-scnorm
    :versions: 1.4.3-0, 1.2.1-0, 1.0.0-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-data.table: 
-   
    :depends r-forcats: 
-   
    :depends r-ggplot2: 
-   
    :depends r-moments: 
-   
    :depends r-quantreg: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,17 +25,11 @@ perl-datetime-locale
    :versions: 1.12-2, 1.12-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-dist-checkconflicts: 
-   
    :depends perl-namespace-autoclean: 
-   
    :depends perl-params-validationcompiler: 
-   
    :depends perl-specio-exporter: 
-   
    :requirements:
 
    .. rubric:: Installation

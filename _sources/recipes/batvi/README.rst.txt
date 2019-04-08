@@ -25,21 +25,13 @@ batvi
    :versions: 1.04-1
    
    :depends bedtools: 
-   
    :depends blast: 
-   
    :depends bwa: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends openjdk: 
-   
    :depends picard: 
-   
    :depends samtools: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

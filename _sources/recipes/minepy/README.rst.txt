@@ -25,11 +25,8 @@ minepy
    :versions: 1.2.3-0, 1.2.2-0, 1.2.0-1, 1.2.0-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends numpy: >=1.3.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

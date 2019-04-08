@@ -26,11 +26,8 @@ perl-velvetoptimiser
    :versions: 2.2.6-0, 2.2.5-1, 2.2.5-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bioperl: >=1.7
-   
    :depends velvet: >=0.7.51
-   
    :requirements:
 
    .. rubric:: Installation

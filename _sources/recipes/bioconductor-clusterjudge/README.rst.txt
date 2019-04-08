@@ -25,17 +25,11 @@ bioconductor-clusterjudge
    :versions: 1.4.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-httr: 
-   
    :depends r-infotheo: 
-   
    :depends r-jsonlite: 
-   
    :depends r-lattice: 
-   
    :depends r-latticeextra: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,43 +25,24 @@ brass
    :versions: 5.1.6-7, 5.1.6-2
    
    :depends bedtools: 
-   
    :depends blat: 
-   
    :depends cansam: 
-   
    :depends exonerate: 
-   
    :depends libgcc: 
-   
    :depends perl-bio-db-hts: 
-   
    :depends perl-bio-featureio: 
-   
    :depends perl-bioperl-core: ==1.6.924
-   
    :depends perl-capture-tiny: 
-   
    :depends perl-file-sharedir: 
-   
    :depends perl-file-sharedir-install: 
-   
    :depends perl-graph-readwrite: 
-   
    :depends perl-grass: 
-   
    :depends perl-math-combinatorics: 
-   
    :depends perl-number-format: 
-   
    :depends perl-pcap: 
-   
    :depends perl-statistics-basic: 
-   
    :depends perl-text-diff: 
-   
    :depends velvet: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,19 +25,12 @@ sprai
    :versions: 0.9.9.23-0
    
    :depends blast: 
-   
    :depends libgcc: 
-   
    :depends perl: 5.22.0*
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-module-build: 
-   
    :depends python: 2.7*
-   
    :depends wgs-assembler: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ openmg
    :versions: 0.1-2, 0.1-1, 0.1-0
    
    :depends openjdk: >=6
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ ete2
    :versions: 2.3.10-3, 2.3.10-2, 2.3.10-1, 2.3.10-0, 2.2.1072-2
    
    :depends lxml: 
-   
    :depends mysql-python: 
-   
    :depends numpy: 
-   
    :depends pyqt: >=4.11.4,<4.12.0a0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

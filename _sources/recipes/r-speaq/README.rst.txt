@@ -25,33 +25,19 @@ r-speaq
    :versions: 2.3.3-1, 2.3.3-0, 2.1.0-0, 1.2.3-0, 1.2.1-1, 1.2.1-0
    
    :depends bioconductor-impute: 
-   
    :depends bioconductor-massspecwavelet: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-data.table: 
-   
    :depends r-dosnow: 
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-missforest: 
-   
    :depends r-mqtl: 
-   
    :depends r-reshape2: 
-   
    :depends r-rvest: 
-   
    :depends r-xml2: 
-   
    :requirements:
 
    .. rubric:: Installation

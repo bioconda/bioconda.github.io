@@ -25,11 +25,8 @@ burrito-fillings
    :versions: 0.1.1-2, 0.1.1-1, 0.1.1-0
    
    :depends burrito: <1.0.0
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends scikit-bio: >=0.2.1,<0.3.0
-   
    :requirements:
 
    .. rubric:: Installation

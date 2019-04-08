@@ -1,11 +1,9 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
     <title>Package Recipe &#39;metaphlan2&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -39,7 +37,7 @@
 
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
-    
+
    
   <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
   
@@ -90,8 +88,6 @@
     <form class="search" action="../../search.html" method="get">
       <input type="text" name="q" />
       <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
     </form>
     </div>
 </div>
@@ -114,61 +110,53 @@ shotgun sequencing data with species level resolution. From version 2.0
 MetaPhlAn is also able to identify specific strains (in the not-so-frequent
 cases in which the sample contains a previously sequenced strains) and to
 track strains across samples for all species.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Homepage:</th><td class="field-body"><a class="reference external" href="https://bitbucket.org/biobakery/metaphlan2">https://bitbucket.org/biobakery/metaphlan2</a></td>
-</tr>
-<tr class="field-even field"><th class="field-name">License:</th><td class="field-body">MIT / MIT License</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Recipe:</th><td class="field-body">/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2">metaphlan2</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/2.7.7">2.7.7</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/2.7.7/meta.yaml">meta.yaml</a></td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Homepage</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://bitbucket.org/biobakery/metaphlan2">https://bitbucket.org/biobakery/metaphlan2</a></p>
+</dd>
+<dt class="field-even">License</dt>
+<dd class="field-even"><p>MIT / MIT License</p>
+</dd>
+<dt class="field-odd">Recipe</dt>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2">metaphlan2</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/2.7.7">2.7.7</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/2.7.7/meta.yaml">meta.yaml</a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="package">
 <dt id="package-metaphlan2">
 <em class="property">package </em><code class="descname">metaphlan2</code><a class="headerlink" href="#package-metaphlan2" title="Permalink to this definition">¶</a></dt>
 <dd><p><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/metaphlan2.svg?style=flat" /> <a class="reference external" href="https://quay.io/repository/biocontainers/metaphlan2"><img alt="docker_metaphlan2" src="https://quay.io/repository/biocontainers/metaphlan2/status" /></a></p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">2.7.8-0, 2.7.7-4, 2.7.7-3, 2.7.7-2, 2.7.7-1, 2.7.5-1, 2.7.5-0, 2.6.0-2, 2.6.0-1, 2.5.0-2, 2.5.0-0, 2.2.0-1, 2.2.0-0</p>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
-<li><a class="conda-package reference internal" href="../biom-format/README.html#package-biom-format" title="biom-format package"><strong>biom-format</strong></a></li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/biopython-feedstock"><strong>biopython</strong></a></li>
-<li><a class="conda-package reference internal" href="../blast/README.html#package-blast" title="blast package"><strong>blast</strong></a> &gt;=2.6.0</li>
-<li><a class="conda-package reference internal" href="../bowtie2/README.html#package-bowtie2" title="bowtie2 package"><strong>bowtie2</strong></a> &gt;=2.0.0</li>
-<li><a class="conda-package reference internal" href="../dendropy/README.html#package-dendropy" title="dendropy package"><strong>dendropy</strong></a> &gt;=3.12.3</li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><strong>matplotlib</strong></a> 1.5.2.*</li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/msgpack-python-feedstock"><strong>msgpack-python</strong></a></li>
-<li><a class="conda-package reference internal" href="../muscle/README.html#package-muscle" title="muscle package"><strong>muscle</strong></a> &gt;=3.8.1551</li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></li>
-<li><a class="conda-package reference internal" href="../pysam/README.html#package-pysam" title="pysam package"><strong>pysam</strong></a> &gt;=0.8.3</li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</li>
-<li><a class="conda-package reference internal" href="../raxml/README.html#package-raxml" title="raxml package"><strong>raxml</strong></a> &gt;=8.2.10</li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/requests-feedstock"><strong>requests</strong></a></li>
-<li><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a> &gt;=0.1.19,&lt;1.0</li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a></li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/setuptools-feedstock"><strong>setuptools</strong></a></li>
+<dl class="field-list simple">
+<dt class="field-odd">Versions</dt>
+<dd class="field-odd"><p>2.7.8-0, 2.7.7-4, 2.7.7-3, 2.7.7-2, 2.7.7-1, 2.7.5-1, 2.7.5-0, 2.6.0-2, 2.6.0-1, 2.5.0-2, 2.5.0-0, 2.2.0-1, 2.2.0-0</p>
+</dd>
+<dt class="field-even">Depends</dt>
+<dd class="field-list-wrapped field-even"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../biom-format/README.html#package-biom-format" title="biom-format package"><strong>biom-format</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/biopython-feedstock"><strong>biopython</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../blast/README.html#package-blast" title="blast package"><strong>blast</strong></a> &gt;=2.6.0</p></li>
+<li><p><a class="conda-package reference internal" href="../bowtie2/README.html#package-bowtie2" title="bowtie2 package"><strong>bowtie2</strong></a> &gt;=2.0.0</p></li>
+<li><p><a class="conda-package reference internal" href="../dendropy/README.html#package-dendropy" title="dendropy package"><strong>dendropy</strong></a> &gt;=3.12.3</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><strong>matplotlib</strong></a> 1.5.2.*</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/msgpack-python-feedstock"><strong>msgpack-python</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../muscle/README.html#package-muscle" title="muscle package"><strong>muscle</strong></a> &gt;=3.8.1551</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pysam/README.html#package-pysam" title="pysam package"><strong>pysam</strong></a> &gt;=0.8.3</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</p></li>
+<li><p><a class="conda-package reference internal" href="../raxml/README.html#package-raxml" title="raxml package"><strong>raxml</strong></a> &gt;=8.2.10</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/requests-feedstock"><strong>requests</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a> &gt;=0.1.19,&lt;1.0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/setuptools-feedstock"><strong>setuptools</strong></a></p></li>
 </ul>
-</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
-<li><a class="conda-package reference internal" href="../metavelvet-sl-pipeline/README.html#metavelvet-sl-pipeline"><strong class="xref backref">metavelvet-sl-pipeline</strong></a></li>
-<li><a class="conda-package reference internal" href="../metavelvet-sl/README.html#metavelvet-sl"><strong class="xref backref">metavelvet-sl</strong></a></li>
-<li><a class="conda-package reference internal" href="../humann2/README.html#humann2"><strong class="xref backref">humann2</strong></a></li>
+</dd>
+<dt class="field-odd">Required By</dt>
+<dd class="field-odd"><ul class="simple">
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">metaphlan2</span>
@@ -205,7 +193,7 @@ track strains across samples for all species.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
@@ -215,6 +203,8 @@ track strains across samples for all species.</p>
 
     
 
-    
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/metaphlan2/meta.yaml" rel="me">Edit me on GitHub</a>
+    </div>
   </body>
 </html>

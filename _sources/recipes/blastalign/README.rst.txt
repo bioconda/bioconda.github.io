@@ -25,11 +25,8 @@ blastalign
    :versions: 1.4-4, 1.4-3, 1.4-2, 1.4-1, 1.4-0
    
    :depends blast-legacy: 
-   
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

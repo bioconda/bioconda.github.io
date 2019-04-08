@@ -25,21 +25,13 @@ pyprophet
    :versions: 0.24.1-1, 0.24.1-0, 0.22.0-0
    
    :depends matplotlib: 
-   
    :depends numexpr: >=2.1
-   
    :depends numpy: >=1.9.0
-   
    :depends pandas: >=0.17
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scikit-learn: >=0.17
-   
    :depends scipy: >=0.9.0
-   
    :depends seaborn: 
-   
    :requirements:
 
    .. rubric:: Installation

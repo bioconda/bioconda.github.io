@@ -31,9 +31,7 @@ pal_finder
    :versions: 0.02.04-2, 0.02.04-1
    
    :depends perl: 
-   
    :depends primer3: 2.0.0a
-   
    :requirements:
 
    .. rubric:: Installation

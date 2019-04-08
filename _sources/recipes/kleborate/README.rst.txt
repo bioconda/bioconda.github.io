@@ -25,11 +25,8 @@ kleborate
    :versions: 0.3.0-0
    
    :depends blast: >=2.2.31
-   
    :depends mash: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

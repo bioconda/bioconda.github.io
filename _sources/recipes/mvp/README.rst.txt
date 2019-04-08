@@ -25,11 +25,8 @@ mvp
    :versions: 0.4.3-1, 0.4.3-0, 0.4.1-1, 0.4.1-0
    
    :depends biopython: 
-   
    :depends pysam: >=0.8.4
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

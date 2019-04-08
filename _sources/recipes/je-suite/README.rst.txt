@@ -27,7 +27,6 @@ je-suite
    :versions: 2.0.RC-0, 1.2-1, 1.2-0
    
    :depends openjdk: >=8
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ validate-fasta-database
    :versions: 1.0-1, 1.0-0
    
    :depends openjdk: >=7
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

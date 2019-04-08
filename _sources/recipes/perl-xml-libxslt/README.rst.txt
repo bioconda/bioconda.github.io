@@ -25,11 +25,8 @@ perl-xml-libxslt
    :versions: 1.94-1, 1.94-0
    
    :depends libxslt: >=1.1.32,<2.0a0
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-xml-libxml: 
-   
    :requirements:
 
    .. rubric:: Installation

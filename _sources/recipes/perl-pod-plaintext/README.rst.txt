@@ -25,7 +25,6 @@ perl-pod-plaintext
    :versions: 2.07-1, 2.07-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

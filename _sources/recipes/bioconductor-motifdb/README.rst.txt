@@ -26,19 +26,12 @@ bioconductor-motifdb
    :versions: 1.24.1-0, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-splitstackshape: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,19 +26,12 @@ fusion-report
    :versions: 1.0.0-2, 1.0.0-1
    
    :depends jinja2: >=2.9
-   
    :depends python: >=3.6
-   
    :depends python-rapidjson: 
-   
    :depends pyyaml: >=5.1
-   
    :depends setuptools: 
-   
    :depends sqlite: >=3.26.0,<4.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

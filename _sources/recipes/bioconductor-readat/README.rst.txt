@@ -25,41 +25,23 @@ bioconductor-readat
    :versions: 1.8.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-assertive.base: >=0.0-7
-   
    :depends r-assertive.files: >=0.0-2
-   
    :depends r-assertive.numbers: >=0.0-2
-   
    :depends r-assertive.properties: >=0.0-4
-   
    :depends r-assertive.sets: >=0.0-3
-   
    :depends r-assertive.types: >=0.0-3
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: >=1.10.4
-   
    :depends r-dplyr: >=0.5.0
-   
    :depends r-magrittr: >=1.5
-   
    :depends r-openxlsx: >=4.0.17
-   
    :depends r-pathological: >=0.1-2
-   
    :depends r-reshape2: >=1.4.2
-   
    :depends r-stringi: >=1.1.5
-   
    :depends r-testthat: >=1.0.2
-   
    :depends r-tidyr: >=0.6.2
-   
    :requirements:
 
    .. rubric:: Installation

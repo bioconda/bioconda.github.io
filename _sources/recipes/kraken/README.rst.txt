@@ -26,11 +26,8 @@ kraken
    :versions: 1.1-2, 1.1-1, 1.1-0, 1.0-0, 0.10.6_eaf8fb68-4, 0.10.6_eaf8fb68-3, 0.10.6_eaf8fb68-2, 0.10.6_eaf8fb68-1, 0.10.6_eaf8fb68-0, 0.10.5beta-2, 0.10.5beta-0
    
    :depends jellyfish: 1.*
-   
    :depends libgcc-ng: >=4.9
-   
    :depends perl: 
-   
    :requirements:
 
    .. rubric:: Installation

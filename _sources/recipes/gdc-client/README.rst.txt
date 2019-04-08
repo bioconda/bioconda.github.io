@@ -25,23 +25,14 @@ gdc-client
    :versions: 1.3.0-3, 1.3.0-1, 1.3.0-0
    
    :depends jsonschema: >=2,<3
-   
    :depends lxml: >=3,<4
-   
    :depends ndg-httpsclient: >=0.4,<1
-   
    :depends parcel: >=0.2,<1
-   
    :depends pyasn1: >=0.2,<1
-   
    :depends pyopenssl: >=17,<18
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends pyyaml: >=3,<4
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

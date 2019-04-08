@@ -25,9 +25,7 @@ netcdf-metadata-info
    :versions: 1.1.6-1, 1.1.6-0
    
    :depends libgcc: 
-   
    :depends libnetcdf: >=4.4.1.1,<4.5.0a0
-   
    :requirements:
 
    .. rubric:: Installation

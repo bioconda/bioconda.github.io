@@ -25,23 +25,14 @@ pygenometracks
    :versions: 2.1-2, 2.1-1, 2.1-0, 2.0-2, 2.0-1, 2.0-0, 1.0-0, 0.1-0
    
    :depends configparser: >=3.5.0
-   
    :depends future: >=0.17.0
-   
    :depends hicmatrix: >=6
-   
    :depends intervaltree: >=2.1.0
-   
    :depends matplotlib: 
-   
    :depends numpy: >=1.15
-   
    :depends pybigwig: >=0.3.4
-   
    :depends pysam: 
-   
    :depends python: <3.7
-   
    :requirements:
 
    .. rubric:: Installation

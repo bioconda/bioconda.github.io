@@ -35,11 +35,8 @@ metaprob
    :versions: 2-1, 2-0
    
    :depends boost: 1.61*
-   
    :depends eigen: 
-   
    :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

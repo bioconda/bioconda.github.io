@@ -25,11 +25,8 @@ gtfparse
    :versions: 1.2.0-0, 1.0.7-1, 1.0.7-0
    
    :depends numpy: >=1.7,<2.0
-   
    :depends pandas: >=0.15
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

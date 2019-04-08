@@ -25,7 +25,6 @@ rename
    :versions: 1.600-1, 1.600-0
    
    :depends perl: 
-   
    :requirements:
 
    .. rubric:: Installation

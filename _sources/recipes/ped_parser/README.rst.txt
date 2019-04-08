@@ -25,11 +25,8 @@ ped_parser
    :versions: 1.6.6-1, 1.6.6-0, 1.6.5-1, 1.6.5-0
    
    :depends click: 
-   
    :depends pytest: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

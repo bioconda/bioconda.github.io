@@ -26,9 +26,7 @@ illumina-interop
    :versions: 1.1.8-0, 1.1.7-0, 1.1.6-0, 1.1.4-3, 1.1.4-0, 1.0.25-1, 1.0.25-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

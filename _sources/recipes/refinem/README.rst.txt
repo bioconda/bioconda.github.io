@@ -28,33 +28,19 @@ refinem
    :versions: 0.0.24-3, 0.0.24-2
    
    :depends biolib: >=0.0.45
-   
    :depends blast: >=2.6.0
-   
    :depends dendropy: 
-   
    :depends diamond: >=0.9.9
-   
    :depends jinja2: >=2.7.3
-   
    :depends krona: >=2.7
-   
    :depends matplotlib: >=1.4.0
-   
    :depends mpld3: >=0.2
-   
    :depends numpy: >=1.9.0
-   
    :depends prodigal: >=2.6.3
-   
    :depends pysam: 
-   
    :depends python: <3
-   
    :depends scipy: >=1.0.0
-   
    :depends weightedstats: 
-   
    :requirements:
 
    .. rubric:: Installation

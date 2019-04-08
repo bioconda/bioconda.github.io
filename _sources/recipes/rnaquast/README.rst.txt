@@ -25,31 +25,18 @@ rnaquast
    :versions: 1.5.1-0
    
    :depends blast: 
-   
    :depends blat: 
-   
    :depends busco: >=2
-   
    :depends emboss: 
-   
    :depends gffutils: 
-   
    :depends gmap: 
-   
    :depends joblib: 
-   
    :depends matplotlib: 
-   
    :depends python: <3
-   
    :depends samtools: 
-   
    :depends star: 
-   
    :depends tophat: 
-   
    :depends ucsc-pslsort: 
-   
    :requirements:
 
    .. rubric:: Installation

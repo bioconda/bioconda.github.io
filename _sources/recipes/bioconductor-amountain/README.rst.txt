@@ -26,13 +26,9 @@ bioconductor-amountain
    :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
    
    :depends gsl: >=2.4,<2.5.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends openblas: >=0.3.3,<0.3.4.0a0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

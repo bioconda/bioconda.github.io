@@ -25,9 +25,7 @@ perl-json
    :versions: 4.00-0, 2.97001-0, 2.90-3, 2.90-2, 2.90-1, 2.90-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-json-xs: <3
-   
    :requirements:
 
    .. rubric:: Installation

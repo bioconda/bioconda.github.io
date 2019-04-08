@@ -25,17 +25,11 @@ perl-sql-statement
    :versions: 1.407-0
    
    :depends perl-clone: 
-   
    :depends perl-math-base-convert: 
-   
    :depends perl-module-runtime: 
-   
    :depends perl-params-util: 
-   
    :depends perl-text-soundex: 
-   
    :depends perl-threaded: 
-   
    :requirements:
 
    .. rubric:: Installation

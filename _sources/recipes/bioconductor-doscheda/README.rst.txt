@@ -25,45 +25,25 @@ bioconductor-doscheda
    :versions: 1.4.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-vsn: >=3.50.0,<3.51.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-calibrate: 
-   
    :depends r-corrgram: 
-   
    :depends r-d3heatmap: 
-   
    :depends r-drc: 
-   
    :depends r-dt: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-httr: 
-   
    :depends r-jsonlite: 
-   
    :depends r-matrixstats: 
-   
    :depends r-prodlim: 
-   
    :depends r-readxl: 
-   
    :depends r-reshape2: 
-   
    :depends r-shiny: 
-   
    :depends r-shinydashboard: 
-   
    :depends r-stringr: 
-   
    :requirements:
 
    .. rubric:: Installation

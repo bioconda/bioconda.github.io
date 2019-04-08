@@ -25,13 +25,9 @@ w4mclstrpeakpics
    :versions: 0.98.1-1, 0.98.1-0
    
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-batch: 
-   
    :depends r-reshape2: 
-   
    :depends r-sqldf: 
-   
    :requirements:
 
    .. rubric:: Installation

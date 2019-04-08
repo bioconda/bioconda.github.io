@@ -25,13 +25,9 @@ perl-dbd-pg
    :versions: 3.7.4-0, 3.5.3-1, 3.5.3-0
    
    :depends libpq: >=10.5,<11.0a0
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-dbi: 
-   
    :depends postgresql: 
-   
    :requirements:
 
    .. rubric:: Installation

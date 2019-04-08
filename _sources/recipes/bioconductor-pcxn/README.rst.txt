@@ -25,11 +25,8 @@ bioconductor-pcxn
    :versions: 2.4.0-0
    
    :depends bioconductor-pcxndata: >=2.4.0,<2.5.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-pheatmap: 
-   
    :requirements:
 
    .. rubric:: Installation

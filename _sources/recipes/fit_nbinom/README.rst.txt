@@ -25,11 +25,8 @@ fit_nbinom
    :versions: 1.0-0
    
    :depends numpy: >=1.15
-   
    :depends python: <3.7
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

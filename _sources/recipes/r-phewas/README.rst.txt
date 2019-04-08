@@ -26,31 +26,18 @@ r-phewas
    :versions: 0.12.1-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends libgfortran-ng: >=4.9
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-dt: 
-   
    :depends r-ggplot2: >=2.2.0
-   
    :depends r-ggrepel: 
-   
    :depends r-lmtest: 
-   
    :depends r-logistf: 
-   
    :depends r-mass: 
-   
    :depends r-meta: 
-   
    :depends r-survival: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

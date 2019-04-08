@@ -25,7 +25,6 @@ pyx
    :versions: 0.14.1-1, 0.14.1-0, 0.12.1-1, 0.12.1-0
    
    :depends python: >=3.6,<3.7.0a0
-   
    :requirements:
 
    .. rubric:: Installation

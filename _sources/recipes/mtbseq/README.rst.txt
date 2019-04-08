@@ -25,23 +25,14 @@ mtbseq
    :versions: 1.0.3-1, 1.0.3-0
    
    :depends bwa: 0.7.17
-   
    :depends gatk: 3.8
-   
    :depends openjdk: >=8,<9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-mce: >=1.836
-   
    :depends perl-number-format: 
-   
    :depends perl-statistics-basic: >=1.6611
-   
    :depends picard: >=2.17.0
-   
    :depends samtools: 1.6
-   
    :requirements:
 
    .. rubric:: Installation

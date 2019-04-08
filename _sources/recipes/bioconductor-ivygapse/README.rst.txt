@@ -25,25 +25,15 @@ bioconductor-ivygapse
    :versions: 1.4.0-1, 1.4.0-0
    
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-hwriter: 
-   
    :depends r-plotly: 
-   
    :depends r-shiny: 
-   
    :depends r-survival: 
-   
    :depends r-survminer: 
-   
    :depends r-upsetr: 
-   
    :requirements:
 
    .. rubric:: Installation

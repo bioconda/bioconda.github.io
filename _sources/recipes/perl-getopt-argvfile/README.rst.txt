@@ -25,13 +25,9 @@ perl-getopt-argvfile
    :versions: 1.11-1, 1.11-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-test-harness: 
-   
    :depends perl-test-simple: 
-   
    :depends perl-text-parsewords: 
-   
    :requirements:
 
    .. rubric:: Installation

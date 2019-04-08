@@ -25,17 +25,11 @@ r-icluster
    :versions: 2.1.0-0
    
    :depends r-base: 3.4.1*
-   
    :depends r-catools: 
-   
    :depends r-gdata: 
-   
    :depends r-gplots: 
-   
    :depends r-gtools: 
-   
    :depends r-lattice: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,57 +25,31 @@ mikado
    :versions: 1.2.4-0, 1.2.3-1, 1.2.2-1, 1.2.2-0, 1.2.1-0, 1.1.1-0, 1.0.2-0
    
    :depends biopython: >=1.66
-   
    :depends cython: >=0.28.2
-   
    :depends docutils: !=0.13.1
-   
    :depends drmaa: 
-   
    :depends frozendict: 
-   
    :depends intervaltree: 
-   
    :depends jsonschema: 
-   
    :depends libmagic: 
-   
    :depends networkx: >=1.10
-   
    :depends nose: 
-   
    :depends numpy: 
-   
    :depends portcullis: 
-   
    :depends pyfaidx: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends python-magic: 
-   
    :depends pyyaml: 
-   
    :depends scikit-learn: >=0.17.0
-   
    :depends scipy: >=0.15.0
-   
    :depends simplejson: 
-   
    :depends snakemake: 
-   
    :depends sqlalchemy: >=1
-   
    :depends sqlalchemy-utils: 
-   
    :depends tabulate: 
-   
    :depends typing: 
-   
    :depends ujson: 
-   
    :depends wheel: >=0.28.0
-   
    :requirements:
 
    .. rubric:: Installation

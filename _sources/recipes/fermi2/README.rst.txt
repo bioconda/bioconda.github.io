@@ -25,17 +25,11 @@ fermi2
    :versions: r193-3, r193-2, r193-1, r193-0, r188-0
    
    :depends bfc: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends make: 
-   
    :depends perl: 
-   
    :depends ropebwt2: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

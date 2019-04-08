@@ -25,7 +25,6 @@ morpheus
    :versions: 272-1, 272-0, 255-0
    
    :depends mono: >=4.0.0
-   
    :requirements:
 
    .. rubric:: Installation

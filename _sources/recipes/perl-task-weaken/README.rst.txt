@@ -25,7 +25,6 @@ perl-task-weaken
    :versions: 1.06-0, 1.04-1, 1.04-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

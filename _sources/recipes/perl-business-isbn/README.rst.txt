@@ -25,9 +25,7 @@ perl-business-isbn
    :versions: 3.004-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-business-isbn-data: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,29 +25,17 @@ marge
    :versions: 1.0-1, 1.0-0
    
    :depends hdf5: >=1.10.1,<1.10.2.0a0
-   
    :depends numpy: 
-   
    :depends pytables: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :depends snakemake: 3.*
-   
    :depends twobitreader: 
-   
    :depends ucsc-bedclip: 
-   
    :depends ucsc-bigwigaverageoverbed: 
-   
    :depends ucsc-bigwigsummary: 
-   
    :depends ucsc-bigwigtobedgraph: 
-   
    :requirements:
 
    .. rubric:: Installation

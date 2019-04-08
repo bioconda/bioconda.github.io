@@ -25,15 +25,10 @@ dkfz-bias-filter
    :versions: 1.2.3a-7, 1.2.3a-5, 1.2.3a-4, 1.2.3a-3, 1.2.3a-2, 1.2.3a-1, 1.2.3a-0
    
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

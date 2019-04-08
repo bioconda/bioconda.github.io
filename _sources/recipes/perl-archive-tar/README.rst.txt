@@ -25,13 +25,9 @@ perl-archive-tar
    :versions: 2.32-0, 2.18-3, 2.18-2, 2.18-1
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-io-compress: 
-   
    :depends perl-io-zlib: 
-   
    :depends perl-pathtools: 
-   
    :requirements:
 
    .. rubric:: Installation

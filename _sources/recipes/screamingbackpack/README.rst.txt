@@ -25,7 +25,6 @@ screamingbackpack
    :versions: 0.2.333-1, 0.2.333-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

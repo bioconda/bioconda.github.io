@@ -25,21 +25,13 @@ bioconductor-bioassayr
    :versions: 1.20.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-chemminer: >=3.34.0,<3.35.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: >=0.3.1
-   
    :depends r-matrix: 
-   
    :depends r-rjson: 
-   
    :depends r-rsqlite: >=1.0.0
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ icqsol
    :versions: 0.3.26-1, 0.3.26-0, 0.3.20-0
    
    :depends numpy: 
-   
    :depends pycsg: 0.3.12
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends pytriangle: 1.0.9
-   
    :depends vtk: 6.3.0
-   
    :requirements:
 
    .. rubric:: Installation

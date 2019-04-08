@@ -25,25 +25,15 @@ athena_meta
    :versions: 1.3-0, 1.2-0
    
    :depends bwa: 0.7.*
-   
    :depends bx-python: 0.8.*
-   
    :depends flye: 2.3.1.*
-   
    :depends htslib: 1.9.*
-   
    :depends idba_subasm: 1.1.3a1.*
-   
    :depends ipython-cluster-helper: 0.6.*
-   
    :depends numpy: 1.11.*
-   
    :depends pysam: 0.15.*
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: 1.9.*
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ perl-pbkdf2-tiny
    :versions: 0.005-1, 0.005-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

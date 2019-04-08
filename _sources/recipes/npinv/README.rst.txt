@@ -26,9 +26,7 @@ npinv
    :versions: 1.24-1, 1.24-0
    
    :depends openjdk: >=8,<9
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

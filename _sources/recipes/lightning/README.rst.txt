@@ -25,13 +25,9 @@ lightning
    :versions: 0.2.dev0-0
    
    :depends numpy: 
-   
    :depends python: 2.7*
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

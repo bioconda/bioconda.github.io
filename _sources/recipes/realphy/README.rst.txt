@@ -25,7 +25,6 @@ realphy
    :versions: 1.12-1, 1.12-0
    
    :depends openjdk: >8.0.121
-   
    :requirements:
 
    .. rubric:: Installation

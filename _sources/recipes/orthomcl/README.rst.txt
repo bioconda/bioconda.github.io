@@ -25,17 +25,11 @@ orthomcl
    :versions: 2.0.9-3, 2.0.9-2, 2.0.9-1, 2.0.9-0
    
    :depends blast: 
-   
    :depends mcl: 
-   
    :depends mysqlclient: 
-   
    :depends perl: 
-   
    :depends perl-dbd-mysql: 
-   
    :depends perl-dbi: 
-   
    :requirements:
 
    .. rubric:: Installation

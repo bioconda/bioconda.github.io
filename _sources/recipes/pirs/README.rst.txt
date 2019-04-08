@@ -25,25 +25,15 @@ pirs
    :versions: 2.0.2-2, 2.0.2-1, 2.0.2-0
    
    :depends boost: >=1.66.0,<1.66.1.0a0
-   
    :depends bwa: 
-   
    :depends coreutils: 
-   
    :depends gnuplot: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends perl: 
-   
    :depends samtools: 
-   
    :depends soapaligner: 
-   
    :depends soapcoverage: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

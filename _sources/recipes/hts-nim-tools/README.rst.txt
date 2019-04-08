@@ -25,11 +25,8 @@ hts-nim-tools
    :versions: 0.1.5-2, 0.1.5-1, 0.1.5-0
    
    :depends htslib: >=1.9,<1.10.0a0
-   
    :depends libgcc-ng: >=4.9
-   
    :depends pcre: 
-   
    :requirements:
 
    .. rubric:: Installation

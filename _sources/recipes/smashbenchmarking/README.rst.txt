@@ -25,13 +25,9 @@ smashbenchmarking
    :versions: 1.0.1-0
    
    :depends numpy: 
-   
    :depends pyfasta: 
-   
    :depends python: 2.7*
-   
    :depends pyvcf: 
-   
    :requirements:
 
    .. rubric:: Installation

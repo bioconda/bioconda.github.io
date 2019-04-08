@@ -25,11 +25,8 @@ xcftools
    :versions: 1.0.7-1, 1.0.7-0
    
    :depends gettext: 
-   
    :depends libgcc: 
-   
    :depends libpng: >=1.2.13,<1.7
-   
    :requirements:
 
    .. rubric:: Installation

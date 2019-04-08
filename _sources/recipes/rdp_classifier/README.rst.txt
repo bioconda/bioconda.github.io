@@ -25,7 +25,6 @@ rdp_classifier
    :versions: 2.2-1, 2.2-0
    
    :depends openjdk: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,19 +25,12 @@ perl-bio-asn1-entrezgene
    :versions: 1.73-0, 1.72-2, 1.72-1, 1.70-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-base: 
-   
    :depends perl-bioperl-core: 
-   
    :depends perl-carp: 
-   
    :depends perl-data-dumper: 
-   
    :depends perl-parent: 
-   
    :depends perl-test-most: 
-   
    :requirements:
 
    .. rubric:: Installation

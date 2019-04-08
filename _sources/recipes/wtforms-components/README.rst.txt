@@ -25,17 +25,11 @@ wtforms-components
    :versions: 0.10.0-2, 0.10.0-0
    
    :depends intervals: >=0.6.0
-   
    :depends phonenumbers: 
-   
    :depends python: 
-   
    :depends six: >=1.4.1
-   
    :depends validators: >=0.5.0
-   
    :depends wtforms: >=1.0.4
-   
    :requirements:
 
    .. rubric:: Installation

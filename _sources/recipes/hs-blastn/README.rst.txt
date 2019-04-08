@@ -25,9 +25,7 @@ hs-blastn
    :versions: 0.0.5-1, 0.0.5-0
    
    :depends blast: 
-   
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

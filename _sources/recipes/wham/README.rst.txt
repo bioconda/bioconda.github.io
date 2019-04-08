@@ -26,11 +26,8 @@ wham
    :versions: 1.8.0.1.2017.05.03-0, 1.8.0-0, 1.7.0.311-1, 1.7.0.311-0, 1.7.0.307-0, 1.7.0.162-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

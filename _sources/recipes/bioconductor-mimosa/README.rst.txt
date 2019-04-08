@@ -25,41 +25,23 @@ bioconductor-mimosa
    :versions: 1.20.1-0, 1.20.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-coda: 
-   
    :depends r-data.table: 
-   
    :depends r-formula: 
-   
    :depends r-ggplot2: 
-   
    :depends r-mass: 
-   
    :depends r-mcmcpack: 
-   
    :depends r-modeest: 
-   
    :depends r-plyr: 
-   
    :depends r-pracma: 
-   
    :depends r-rcpp: 
-   
    :depends r-rcpparmadillo: 
-   
    :depends r-reshape: 
-   
    :depends r-scales: 
-   
    :depends r-testthat: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ perl-hook-lexwrap
    :versions: 0.26-1, 0.26-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-carp: 
-   
    :requirements:
 
    .. rubric:: Installation

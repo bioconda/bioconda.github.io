@@ -25,27 +25,16 @@ openslide
    :versions: 3.4.1-2, 3.4.1-1, 3.4.1-0
    
    :depends cairo: >=1.2
-   
    :depends gdk-pixbuf: 
-   
    :depends glib: >=2.48.0
-   
    :depends jpeg: 
-   
    :depends libgcc: 
-   
    :depends libpng: 
-   
    :depends libtiff: >=4
-   
    :depends libxml2: 
-   
    :depends openjpeg: >=2.1
-   
    :depends sqlite: >=3.6.2
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

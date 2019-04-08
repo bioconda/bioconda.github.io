@@ -25,23 +25,14 @@ perl-bio-gff3
    :versions: 2.0-2, 2.0-1, 2.0-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-extutils-makemaker: 
-   
    :depends perl-file-readbackwards: 
-   
    :depends perl-io-string: 
-   
    :depends perl-list-moreutils: 
-   
    :depends perl-pathtools: 
-   
    :depends perl-scalar-list-utils: 
-   
    :depends perl-test-simple: 
-   
    :depends perl-uri: 
-   
    :requirements:
 
    .. rubric:: Installation

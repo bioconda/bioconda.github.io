@@ -28,9 +28,7 @@ trinculo
    :versions: 0.96-2, 0.96-0
    
    :depends lapack: 
-   
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

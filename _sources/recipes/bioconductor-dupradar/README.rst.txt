@@ -26,9 +26,7 @@ bioconductor-dupradar
    :versions: 1.12.1-1, 1.12.1-0, 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0, 1.2.2-0
    
    :depends bioconductor-rsubread: >=1.32.0,<1.33.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

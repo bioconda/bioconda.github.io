@@ -25,27 +25,16 @@ bioconductor-affylmgui
    :versions: 1.56.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-affyio: >=1.52.0,<1.53.0
-   
    :depends bioconductor-affyplm: >=1.58.0,<1.59.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-gcrma: >=2.54.0,<2.55.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-biocmanager: 
-   
    :depends r-r2html: 
-   
    :depends r-tkrplot: 
-   
    :depends r-xtable: 
-   
    :requirements:
 
    .. rubric:: Installation

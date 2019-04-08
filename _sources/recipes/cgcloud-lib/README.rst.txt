@@ -25,11 +25,8 @@ cgcloud-lib
    :versions: 1.6.0-2, 1.6.0-1, 1.6.0-0, 1.4a1.dev195-0
    
    :depends bd2k-python-lib: 
-   
    :depends boto: >=2.38.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,27 +25,16 @@ perl-pcap
    :versions: 1.11.1-2, 1.11.1-1, 1.11.1-0
    
    :depends libgcc: 
-   
    :depends perl-bio-db-sam: 
-   
    :depends perl-bioperl: 
-   
    :depends perl-encode-locale: 
-   
    :depends perl-encode-locale: 
-   
    :depends perl-gd: 
-   
    :depends perl-ipc-system-simple: 
-   
    :depends perl-lwp-simple: 
-   
    :depends perl-sanger-cgp-vcf: 
-   
    :depends perl-threaded: 
-   
    :depends perl-xml-parser: 
-   
    :requirements:
 
    .. rubric:: Installation

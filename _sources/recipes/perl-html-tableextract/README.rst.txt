@@ -25,11 +25,8 @@ perl-html-tableextract
    :versions: 2.13-2, 2.13-1, 2.13-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-html-element-extended: 
-   
    :depends perl-html-parser: 
-   
    :requirements:
 
    .. rubric:: Installation

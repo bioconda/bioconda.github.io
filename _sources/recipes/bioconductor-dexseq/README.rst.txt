@@ -26,45 +26,25 @@ bioconductor-dexseq
    :versions: 1.28.1-1, 1.28.1-0, 1.28.0-0, 1.26.0-2, 1.26.0-1, 1.26.0-0, 1.24.0-3, 1.24.0-1, 1.24.0-0, 1.22.0-0, 1.20.1-2, 1.20.1-1, 1.20.1-0, 1.18.4-1, 1.16.6-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   
    :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   
    :depends bioconductor-geneplotter: >=1.60.0,<1.61.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends htseq: >=0.6.1,<0.10.0
-   
    :depends python: <3
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-hwriter: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-statmod: 
-   
    :depends r-stringr: 
-   
    :requirements:
 
    .. rubric:: Installation

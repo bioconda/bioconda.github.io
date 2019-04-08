@@ -25,9 +25,7 @@ perl-pod-parser
    :versions: 1.63-1, 1.63-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-app-cpanminus: 
-   
    :requirements:
 
    .. rubric:: Installation

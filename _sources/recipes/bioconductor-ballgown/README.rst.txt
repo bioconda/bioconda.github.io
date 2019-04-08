@@ -26,25 +26,15 @@ bioconductor-ballgown
    :versions: 2.14.0-0, 2.12.0-0, 2.10.0-0, 2.8.4-0, 2.2.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-sva: >=3.30.0,<3.31.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rcolorbrewer: 
-   
    :requirements:
 
    .. rubric:: Installation

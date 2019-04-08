@@ -25,7 +25,6 @@ flapjack
    :versions: 1.18.06.29-0, 1.18.06.13-2, 1.18.06.13-1, 1.16.10.31-1, 1.16.10.31-0
    
    :depends openjdk: >=8,<9
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,11 +26,8 @@ bioconductor-dupchecker
    :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-r.utils: 
-   
    :depends r-rcurl: 
-   
    :requirements:
 
    .. rubric:: Installation

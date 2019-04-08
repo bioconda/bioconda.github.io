@@ -25,17 +25,11 @@ perl-net-http
    :versions: 6.18-0, 6.09-1, 6.09-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-base: 
-   
    :depends perl-carp: 
-   
    :depends perl-compress-raw-zlib: 
-   
    :depends perl-io-socket-ssl: 
-   
    :depends perl-uri: 
-   
    :requirements:
 
    .. rubric:: Installation

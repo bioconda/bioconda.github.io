@@ -26,11 +26,8 @@ bioconductor-mgfr
    :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
    
    :depends bioconductor-annotate: >=1.60.0,<1.61.0
-   
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

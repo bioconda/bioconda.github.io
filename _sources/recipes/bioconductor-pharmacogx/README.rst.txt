@@ -25,23 +25,14 @@ bioconductor-pharmacogx
    :versions: 1.12.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-piano: >=1.22.0,<1.23.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-catools: 
-   
    :depends r-downloader: 
-   
    :depends r-lsa: 
-   
    :depends r-magicaxis: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :requirements:
 
    .. rubric:: Installation

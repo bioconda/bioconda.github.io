@@ -26,21 +26,13 @@ freebayes
    :versions: 1.2.0-4, 1.2.0-3, 1.2.0-2, 1.2.0-0, 1.1.0.46-5, 1.1.0.46-4, 1.1.0.46-3, 1.1.0.46-2, 1.1.0.46-1, 1.1.0.46-0, 1.1.0-3, 1.1.0-2, 1.1.0-1, 1.1.0-0, 1.0.2.29-2, 1.0.2.29-1, 1.0.2.29-0, 1.0.2-0, 1.0.1-0, 0.9.21.26-0, 0.9.21.7-0
    
    :depends bzip2: >=1.0.6,<2.0a0
-   
    :depends htslib: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends parallel: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends xz: >=5.2.4,<5.3.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

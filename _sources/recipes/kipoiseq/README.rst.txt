@@ -27,23 +27,14 @@ kipoiseq
    :versions: 0.2.2-0
    
    :depends genomelake: 
-   
    :depends gffutils: 
-   
    :depends kipoi: >=0.5.5
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends pybedtools: 
-   
    :depends pyfaidx: 
-   
    :depends python: 
-   
    :depends tqdm: 
-   
    :requirements:
 
    .. rubric:: Installation

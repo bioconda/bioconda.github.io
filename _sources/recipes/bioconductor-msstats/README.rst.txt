@@ -25,45 +25,25 @@ bioconductor-msstats
    :versions: 3.14.1-0, 3.14.0-0
    
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-marray: >=1.60.0,<1.61.0
-   
    :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: 
-   
    :depends r-dosnow: 
-   
    :depends r-dplyr: 
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ggrepel: 
-   
    :depends r-gplots: 
-   
    :depends r-lme4: 
-   
    :depends r-mass: 
-   
    :depends r-minpack.lm: 
-   
    :depends r-randomforest: 
-   
    :depends r-reshape2: 
-   
    :depends r-snow: 
-   
    :depends r-stringr: 
-   
    :depends r-survival: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

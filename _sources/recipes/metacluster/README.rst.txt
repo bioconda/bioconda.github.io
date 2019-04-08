@@ -29,7 +29,6 @@ metacluster
    :versions: 5.1-1, 5.1-0
    
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

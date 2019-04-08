@@ -25,7 +25,6 @@ rawtools
    :versions: 1.4.2-0, 1.4.1-0
    
    :depends mono: >=5.0.0
-   
    :requirements:
 
    .. rubric:: Installation

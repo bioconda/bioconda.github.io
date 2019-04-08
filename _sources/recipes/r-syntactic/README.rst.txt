@@ -25,23 +25,14 @@ r-syntactic
    :versions: 0.1.5-0, 0.1.4-0
    
    :depends bioconductor-genomicranges: 
-   
    :depends bioconductor-s4vectors: 
-   
    :depends bioconductor-summarizedexperiment: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bioverbs: >=0.1.8
-   
    :depends r-goalie: >=0.2.9
-   
    :depends r-magrittr: 
-   
    :depends r-matrix: 
-   
    :depends r-r.utils: 
-   
    :requirements:
 
    .. rubric:: Installation

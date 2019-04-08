@@ -25,9 +25,7 @@ xmltramp2
    :versions: 3.1.1-1, 3.1.1-0
    
    :depends python: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

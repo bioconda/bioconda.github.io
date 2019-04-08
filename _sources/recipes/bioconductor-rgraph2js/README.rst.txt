@@ -26,15 +26,10 @@ bioconductor-rgraph2js
    :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-digest: 
-   
    :depends r-rjson: 
-   
    :depends r-whisker: 
-   
    :requirements:
 
    .. rubric:: Installation

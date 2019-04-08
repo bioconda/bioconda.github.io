@@ -26,35 +26,20 @@ bioconductor-rtracklayer
    :versions: 1.42.1-1, 1.42.1-0, 1.40.6-0, 1.38.3-0, 1.38.0-0, 1.36.6-0, 1.34.2-1, 1.34.1-0, 1.32.2-1, 1.30.1-0, 1.30.0-1
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicalignments: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-xvector: >=0.22.0,<0.23.0
-   
    :depends bioconductor-zlibbioc: >=1.28.0,<1.29.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends openssl: >=1.1.1a,<1.1.2a
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rcurl: >=1.4-2
-   
    :depends r-xml: >=1.98-0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ bcbio-variation
    :versions: 0.2.6-3, 0.2.6-2, 0.2.6-1, 0.2.6-0
    
    :depends openjdk: 
-   
    :requirements:
 
    .. rubric:: Installation

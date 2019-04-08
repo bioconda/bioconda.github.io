@@ -25,7 +25,6 @@ perl-io-tty
    :versions: 1.12-1, 1.12-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

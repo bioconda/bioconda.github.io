@@ -26,15 +26,10 @@ bioconductor-kcsmart
    :versions: 2.40.0-0, 2.38.0-0, 2.36.0-0, 2.34.0-0, 2.32.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-multtest: >=2.38.0,<2.39.0
-   
    :depends bioconductor-siggenes: >=1.56.0,<1.57.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-kernsmooth: 
-   
    :requirements:
 
    .. rubric:: Installation

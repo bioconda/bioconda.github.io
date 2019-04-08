@@ -25,27 +25,16 @@ strainest
    :versions: 1.2.4-2, 1.2.4-0, 1.2.2-0
    
    :depends biopython: >=1.50
-   
    :depends click: >=5.1
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends matplotlib: >=1.3.0
-   
    :depends mummer: 3.23.*
-   
    :depends numpy: >=1.7.0
-   
    :depends pandas: 
-   
    :depends pysam: >=0.9
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scikit-learn: >=0.16.1
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

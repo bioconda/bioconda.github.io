@@ -25,9 +25,7 @@ biolib
    :versions: 0.0.46-0
    
    :depends future: >=0.16.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

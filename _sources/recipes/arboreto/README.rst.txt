@@ -25,19 +25,12 @@ arboreto
    :versions: 0.1.5-0
    
    :depends dask: 
-   
    :depends distributed: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: 
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

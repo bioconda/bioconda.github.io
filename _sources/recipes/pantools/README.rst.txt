@@ -25,11 +25,8 @@ pantools
    :versions: 1.0-0
    
    :depends java-jdk: >=6
-   
    :depends kmc: 
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

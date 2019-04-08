@@ -25,11 +25,8 @@ perl-log-any
    :versions: 1.045-1, 1.045-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-apache-test: 
-   
    :depends perl-test-simple: 
-   
    :requirements:
 
    .. rubric:: Installation

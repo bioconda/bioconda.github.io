@@ -25,19 +25,12 @@ dimspy
    :versions: 1.3.0-0, 1.2.0-1, 1.2.0-0, 1.1.0-0, 1.0.0-0
    
    :depends fastcluster: 
-   
    :depends h5py: 
-   
    :depends numpy: 
-   
    :depends pymzml: <=2.0.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends pythonnet: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

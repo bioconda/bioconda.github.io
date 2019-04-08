@@ -25,7 +25,6 @@ r-quorts
    :versions: 1.3.0-1, 1.3.0-0
    
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

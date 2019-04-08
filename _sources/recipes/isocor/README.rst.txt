@@ -28,13 +28,9 @@ isocor
    :versions: 2.1.2-0, 2.1.0-1, 2.1.0-0
    
    :depends numpy: >=1.15
-   
    :depends pandas: >=0.17.1
-   
    :depends python: >=3.6
-   
    :depends scipy: >=0.12.1
-   
    :requirements:
 
    .. rubric:: Installation

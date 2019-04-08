@@ -26,21 +26,13 @@ micropita
    :versions: 1.1.0-0
    
    :depends biom-format: 
-   
    :depends blist: 
-   
    :depends cogent: 
-   
    :depends machine-learning-py: 
-   
    :depends mpi4py: 
-   
    :depends numpy: 
-   
    :depends python: <3
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

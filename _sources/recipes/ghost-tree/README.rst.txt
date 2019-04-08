@@ -28,19 +28,12 @@ ghost-tree
    :versions: 0.2.2-1, 0.2.2-0
    
    :depends click: >=4.0
-   
    :depends fasttree: 
-   
    :depends muscle: 
-   
    :depends numpy: 
-   
    :depends python: >=3.4
-   
    :depends scikit-bio: >=0.5.1
-   
    :depends sumaclust: >=1.0.31
-   
    :requirements:
 
    .. rubric:: Installation

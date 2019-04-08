@@ -25,39 +25,22 @@ perl-bio-mlst-check
    :versions: 2.1.1706216-1, 2.1.1706216-0
    
    :depends blast: 
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bioperl: 
-   
    :depends perl-data-dumper: 
-   
    :depends perl-exporter: 
-   
    :depends perl-file-path: 
-   
    :depends perl-file-temp: 
-   
    :depends perl-file-which: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-lib: 
-   
    :depends perl-lwp-simple: 
-   
    :depends perl-moose: 
-   
    :depends perl-parallel-forkmanager: 
-   
    :depends perl-regexp-common: 
-   
    :depends perl-text-csv: 
-   
    :depends perl-try-tiny: 
-   
    :depends perl-xml-libxml: 
-   
    :requirements:
 
    .. rubric:: Installation

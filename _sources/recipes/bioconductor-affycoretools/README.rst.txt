@@ -26,43 +26,24 @@ bioconductor-affycoretools
    :versions: 1.54.0-0, 1.52.2-0, 1.50.6-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-gcrma: >=2.54.0,<2.55.0
-   
    :depends bioconductor-gostats: >=2.48.0,<2.49.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-oligoclasses: >=1.44.0,<1.45.0
-   
    :depends bioconductor-reportingtools: >=2.22.0,<2.23.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-hwriter: 
-   
    :depends r-lattice: 
-   
    :depends r-rsqlite: 
-   
    :depends r-xtable: 
-   
    :requirements:
 
    .. rubric:: Installation

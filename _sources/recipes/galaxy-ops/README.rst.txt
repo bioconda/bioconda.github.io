@@ -25,9 +25,7 @@ galaxy-ops
    :versions: 1.1.0-1, 1.1.0-0, 1.0.0-0
    
    :depends bx-python: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

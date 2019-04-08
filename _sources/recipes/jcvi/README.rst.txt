@@ -25,23 +25,14 @@ jcvi
    :versions: 0.8.12-0, 0.8.4-1, 0.8.4-0
    
    :depends biopython: 
-   
    :depends deap: 
-   
    :depends gffutils: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends matplotlib: 
-   
    :depends networkx: 
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends r-ggplot2: >=3.0.0
-   
    :requirements:
 
    .. rubric:: Installation

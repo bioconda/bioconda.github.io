@@ -26,55 +26,30 @@ phame
    :versions: 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-1, 1.0-0
    
    :depends bbmap: >=37.62
-   
    :depends bcftools: >=1.7
-   
    :depends bowtie2: >=2.3.4.1
-   
    :depends bwa: >=0.7.12
-   
    :depends cmake: >=3.0.1
-   
    :depends curl: >=7.60.0
-   
    :depends fasttree: >=2.1.9
-   
    :depends hyphy: >=2.3.12
-   
    :depends iqtree: >=1.6.7
-   
    :depends mafft: >=7.313
-   
    :depends mummer: >=3.23
-   
    :depends muscle: >=3.8.31
-   
    :depends openmpi: >=3.1.0
-   
    :depends paml: >=4.9
-   
    :depends perl: 
-   
    :depends perl-app-cpanminus: >=1.7039
-   
    :depends perl-bioperl: >=1.7.2
-   
    :depends perl-file-path: >=2.12
-   
    :depends perl-getopt-long: >=2.50
-   
    :depends perl-io-handle: >=1.28
-   
    :depends perl-io-handle: >=1.35
-   
    :depends perl-parallel-forkmanager: >=1.17
-   
    :depends perl-statistics-distributions: >=1.02
-   
    :depends raxml: >=8.2.10
-   
    :depends samtools: >=1.7
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ perl-moosex-app-role-log4perl
    :versions: 0.03-1, 0.03-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-log-log4perl: 
-   
    :depends perl-moosex-app: 
-   
    :requirements:
 
    .. rubric:: Installation

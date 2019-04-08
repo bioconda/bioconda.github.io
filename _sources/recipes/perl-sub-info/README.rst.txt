@@ -25,11 +25,8 @@ perl-sub-info
    :versions: 0.002-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-importer: 
-   
    :requirements:
 
    .. rubric:: Installation

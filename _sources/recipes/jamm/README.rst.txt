@@ -25,13 +25,9 @@ jamm
    :versions: 1.0.7.5-2, 1.0.7.5-1, 1.0.7.5-0, 1.0.7.4-0, 1.0.7.2-3, 1.0.7.2-2, 1.0.7.2-1, 1.0.7.2-0
    
    :depends gawk: 
-   
    :depends perl: 
-   
    :depends r-mclust: >=5.3
-   
    :depends r-signal: 
-   
    :requirements:
 
    .. rubric:: Installation

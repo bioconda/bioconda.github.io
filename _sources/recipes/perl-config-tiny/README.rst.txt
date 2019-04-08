@@ -25,9 +25,7 @@ perl-config-tiny
    :versions: 2.23-1, 2.23-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-pathtools: 
-   
    :requirements:
 
    .. rubric:: Installation

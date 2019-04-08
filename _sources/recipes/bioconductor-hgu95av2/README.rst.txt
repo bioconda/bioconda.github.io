@@ -25,9 +25,7 @@ bioconductor-hgu95av2
    :versions: 2.2.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

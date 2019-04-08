@@ -25,31 +25,18 @@ r-rgbif
    :versions: 1.1.0-2, 1.1.0-1, 1.1.0-0, 1.0.2-3, 1.0.2-2, 0.9.9-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-crul: >=0.3.4
-   
    :depends r-data.table: 
-   
    :depends r-geoaxe: 
-   
    :depends r-ggplot2: 
-   
    :depends r-jsonlite: >=0.9.16
-   
    :depends r-lazyeval: 
-   
    :depends r-magrittr: 
-   
    :depends r-oai: >=0.2.2
-   
    :depends r-tibble: 
-   
    :depends r-whisker: 
-   
    :depends r-wicket: >=0.2.0
-   
    :depends r-xml2: 
-   
    :requirements:
 
    .. rubric:: Installation

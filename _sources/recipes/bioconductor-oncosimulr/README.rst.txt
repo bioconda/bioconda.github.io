@@ -26,37 +26,21 @@ bioconductor-oncosimulr
    :versions: 2.12.0-0, 2.10.0-0, 2.8.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-nem: >=2.56.0,<2.57.0
-   
    :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-car: 
-   
    :depends r-data.table: 
-   
    :depends r-dplyr: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ggrepel: 
-   
    :depends r-gtools: 
-   
    :depends r-igraph: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rcpp: >=0.12.4
-   
    :depends r-smatr: 
-   
    :requirements:
 
    .. rubric:: Installation

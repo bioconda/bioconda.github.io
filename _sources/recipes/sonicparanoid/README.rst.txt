@@ -14,7 +14,7 @@ sonicparanoid
    :homepage: http://iwasakilab.bs.s.u-tokyo.ac.jp/sonicparanoid/
    :license: GPL3 / GNU General Public License v3
    :recipe: /`sonicparanoid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sonicparanoid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sonicparanoid/meta.yaml>`_
-   :links: https: :https:`//doi.org/10.1093/bioinformatics/bty631`
+   :links: doi: :doi:`10.1093/bioinformatics/bty631`
 
    
 
@@ -26,27 +26,16 @@ sonicparanoid
    :versions: 1.0.14-0, 1.0.13-0
    
    :depends biopython: >=1.67
-   
    :depends cython: >=0.27.0
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends make: 
-   
    :depends mmseqs2: 6.f5a1c
-   
    :depends numpy: >=1.13.0
-   
    :depends pandas: >=0.22.0
-   
    :depends pip: >=9.0.1
-   
    :depends python: >=3.7,<3.8.0a0
-   
    :depends setuptools: >=24.2.0
-   
    :depends sh: >=1.12.14
-   
    :requirements:
 
    .. rubric:: Installation

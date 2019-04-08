@@ -26,35 +26,20 @@ bioconductor-copywriter
    :versions: 2.14.0-0, 2.12.0-0, 2.10.0-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-chipseq: >=1.32.0,<1.33.0
-   
    :depends bioconductor-copyhelper: >=1.14.0,<1.15.0
-   
    :depends bioconductor-dnacopy: >=1.56.0,<1.57.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicalignments: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: 
-   
    :depends r-futile.logger: 
-   
    :depends r-gtools: 
-   
    :depends r-matrixstats: 
-   
    :requirements:
 
    .. rubric:: Installation

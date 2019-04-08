@@ -25,15 +25,10 @@ fwdpy
    :versions: 0.0.4pre1-0
    
    :depends gsl: 1.16*
-   
    :depends libsequence: 
-   
    :depends numpy: >=1.10
-   
    :depends pandas: >=0.18
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

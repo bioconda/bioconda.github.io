@@ -25,9 +25,7 @@ spectra-cluster-cli
    :versions: 1.1.2-0, 1.0.1-1, 1.0.1-0
    
    :depends openjdk: >=6
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ hicbrowser
    :versions: 1.0-1, 1.0-0
    
    :depends bx-python: 
-   
    :depends flask: >=0.10.1
-   
    :depends hicexplorer: >=1.7
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

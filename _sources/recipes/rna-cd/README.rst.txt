@@ -27,17 +27,11 @@ rna-cd
    :versions: 0.1.0-0
    
    :depends click: 
-   
    :depends joblib: 
-   
    :depends matplotlib: 
-   
    :depends pysam: 
-   
    :depends python: >=3.5
-   
    :depends scikit-learn: 
-   
    :requirements:
 
    .. rubric:: Installation

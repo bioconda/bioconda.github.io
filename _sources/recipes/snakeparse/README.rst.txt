@@ -25,11 +25,8 @@ snakeparse
    :versions: 0.1.0-1, 0.1.0-0, 0.0.1-0
    
    :depends pyhocon: >=0.3.38
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends pyyaml: >=3.12
-   
    :requirements:
 
    .. rubric:: Installation

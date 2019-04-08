@@ -25,15 +25,10 @@ bioconductor-samexplorer
    :versions: 1.6.0-0
    
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-rnaseqdata.hnrnpc.bam.chr14: >=0.20.0,<0.21.0
-   
    :depends bioconductor-rsubread: >=1.32.0,<1.33.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :requirements:
 
    .. rubric:: Installation

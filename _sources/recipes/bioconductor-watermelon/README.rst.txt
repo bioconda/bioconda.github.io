@@ -26,23 +26,14 @@ bioconductor-watermelon
    :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
-   
    :depends bioconductor-illuminaio: >=0.24.0,<0.25.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-lumi: >=2.34.0,<2.35.0
-   
    :depends bioconductor-methylumi: >=2.28.0,<2.29.0
-   
    :depends bioconductor-roc: >=1.58.0,<1.59.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-matrixstats: 
-   
    :requirements:
 
    .. rubric:: Installation

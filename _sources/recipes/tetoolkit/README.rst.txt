@@ -25,13 +25,9 @@ tetoolkit
    :versions: 2.0.3-0, 1.5.1-1, 1.5.1-0
    
    :depends argparse: 
-   
    :depends bioconductor-deseq: >=1.10
-   
    :depends pysam: >=0.9
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

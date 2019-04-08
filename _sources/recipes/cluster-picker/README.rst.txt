@@ -25,7 +25,6 @@ cluster-picker
    :versions: 1.2.3-1, 1.2.3-0
    
    :depends java-jdk: 
-   
    :requirements:
 
    .. rubric:: Installation

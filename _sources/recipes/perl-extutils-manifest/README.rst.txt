@@ -25,7 +25,6 @@ perl-extutils-manifest
    :versions: 1.71-0, 1.70-2, 1.70-1, 1.70-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

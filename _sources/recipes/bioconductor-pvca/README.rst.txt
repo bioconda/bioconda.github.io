@@ -26,15 +26,10 @@ bioconductor-pvca
    :versions: 1.22.0-0, 1.20.0-0, 1.18.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-vsn: >=3.50.0,<3.51.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-lme4: 
-   
    :depends r-matrix: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ chromosomer
    :versions: 0.1.4a-1, 0.1.4a-0
    
    :depends bioformats: 
-   
    :depends future: 
-   
    :depends pyfaidx: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

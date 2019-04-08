@@ -25,9 +25,7 @@ sharedmem
    :versions: 0.3.5-2, 0.3.5-1, 0.3.5-0
    
    :depends numpy: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

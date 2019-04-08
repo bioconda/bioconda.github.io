@@ -26,21 +26,13 @@ r-sartools
    :versions: 1.6.6-3, 1.6.6-2, 1.6.6-1, 1.6.3-0, 1.6.0-0, 1.5.1-0, 1.4.1-0, 1.3.2-0, 1.2.0-0
    
    :depends bioconductor-deseq2: >=1.12.0
-   
    :depends bioconductor-edger: >=3.12.0
-   
    :depends bioconductor-summarizedexperiment: >=1.6
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bit64: 
-   
    :depends r-blob: 
-   
    :depends r-knitr: 
-   
    :depends r-rmarkdown: >=1.4
-   
    :requirements:
 
    .. rubric:: Installation

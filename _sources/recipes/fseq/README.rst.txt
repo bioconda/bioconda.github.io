@@ -25,11 +25,8 @@ fseq
    :versions: 1.84-0
    
    :depends openjdk: >=6
-   
    :depends perl: 5.22.0*
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

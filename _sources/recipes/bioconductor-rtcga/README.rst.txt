@@ -26,37 +26,21 @@ bioconductor-rtcga
    :versions: 1.12.1-0, 1.10.0-0, 1.8.0-0
    
    :depends r-assertthat: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: 
-   
    :depends r-dplyr: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ggthemes: 
-   
    :depends r-knitr: 
-   
    :depends r-purrr: 
-   
    :depends r-rvest: 
-   
    :depends r-scales: 
-   
    :depends r-stringi: 
-   
    :depends r-survival: 
-   
    :depends r-survminer: 
-   
    :depends r-viridis: 
-   
    :depends r-xml: 
-   
    :depends r-xml2: 
-   
    :requirements:
 
    .. rubric:: Installation

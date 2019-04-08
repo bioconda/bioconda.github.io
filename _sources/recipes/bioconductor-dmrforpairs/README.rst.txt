@@ -25,13 +25,9 @@ bioconductor-dmrforpairs
    :versions: 1.18.0-0
    
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-gviz: >=1.26.0,<1.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-r2html: >=2.2.1
-   
    :requirements:
 
    .. rubric:: Installation

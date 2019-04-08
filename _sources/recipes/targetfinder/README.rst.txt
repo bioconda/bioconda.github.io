@@ -25,9 +25,7 @@ targetfinder
    :versions: 1.7-2, 1.7-1, 1.7-0
    
    :depends fasta3: 
-   
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

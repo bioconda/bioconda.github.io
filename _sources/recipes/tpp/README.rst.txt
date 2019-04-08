@@ -26,19 +26,12 @@ tpp
    :versions: 5.0.0-0
    
    :depends bzip2: 1.0*
-   
    :depends hardklor: 
-   
    :depends libgcc: <=4.9
-   
    :depends perl: 5.22.0*
-   
    :depends perl-findbin-libs: 
-   
    :depends perl-xml-parser: 
-   
    :depends zlib: 1.2.11*
-   
    :requirements:
 
    .. rubric:: Installation

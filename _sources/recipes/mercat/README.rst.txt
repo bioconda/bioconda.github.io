@@ -25,27 +25,16 @@ mercat
    :versions: 0.2-1, 0.2-0, 0.1-0
    
    :depends dask: 
-   
    :depends humanize: 
-   
    :depends joblib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends plotly: 
-   
    :depends prodigal: 
-   
    :depends psutil: 
-   
    :depends python: 
-   
    :depends scikit-bio: 0.2.3
-   
    :depends trimmomatic: 
-   
    :requirements:
 
    .. rubric:: Installation

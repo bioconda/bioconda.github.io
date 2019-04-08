@@ -25,11 +25,8 @@ bioconductor-msqc1
    :versions: 1.10.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-lattice: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

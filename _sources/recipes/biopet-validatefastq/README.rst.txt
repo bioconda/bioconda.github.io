@@ -33,9 +33,7 @@ biopet-validatefastq
    :versions: 0.1.1-1, 0.1.1-0
    
    :depends openjdk: >=8,<9
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

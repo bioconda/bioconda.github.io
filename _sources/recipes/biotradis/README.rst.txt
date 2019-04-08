@@ -25,25 +25,15 @@ biotradis
    :versions: 1.4.1-0, 1.4.1.dev-1, 1.4.1.dev-0
    
    :depends bioconductor-edger: 
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-moose: 
-   
    :depends perl-parallel-forkmanager: 
-   
    :depends perl-pathtools: 
-   
    :depends perl-scalar-util-numeric: 
-   
    :depends r-getopt: 
-   
    :depends r-mass: 
-   
    :depends samtools: 
-   
    :depends smalt: 
-   
    :requirements:
 
    .. rubric:: Installation

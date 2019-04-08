@@ -25,7 +25,6 @@ lofreq
    :versions: 2.1.3.1-0, 2.1.2-0
    
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

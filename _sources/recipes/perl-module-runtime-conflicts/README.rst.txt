@@ -25,11 +25,8 @@ perl-module-runtime-conflicts
    :versions: 0.003-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-dist-checkconflicts: 
-   
    :depends perl-module-runtime: 
-   
    :requirements:
 
    .. rubric:: Installation

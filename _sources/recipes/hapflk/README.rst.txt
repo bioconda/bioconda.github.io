@@ -25,13 +25,9 @@ hapflk
    :versions: 1.3.0-1, 1.3.0-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

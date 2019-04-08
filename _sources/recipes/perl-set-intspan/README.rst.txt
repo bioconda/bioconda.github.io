@@ -25,7 +25,6 @@ perl-set-intspan
    :versions: 1.19-1, 1.19-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

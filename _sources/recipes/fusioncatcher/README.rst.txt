@@ -26,55 +26,30 @@ fusioncatcher
    :versions: 1.00-1, 1.00-0
    
    :depends bbmap: 
-   
    :depends biopython: >=1.50
-   
    :depends blat: 35.*
-   
    :depends bowtie: 1.2.0.*
-   
    :depends bowtie2: 2.3.0.*
-   
    :depends bwa: 0.7.12.*
-   
    :depends fusioncatcher-seqtk: 1.2.*
-   
    :depends java-jdk: 
-   
    :depends lzo: >=2.10,<3.0a0
-   
    :depends lzop: 
-   
    :depends numpy: 1.13.1.*
-   
    :depends oases: 
-   
    :depends openpyxl: 2.5.0a2.*
-   
    :depends parallel: 20171222.*
-   
    :depends picard: 2.10.6.*
-   
    :depends pigz: 2.3.*
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: 0.1.19.*
-   
    :depends sra-tools: 2.6.2.*
-   
    :depends star: 2.5.2b.*
-   
    :depends ucsc-fatotwobit: 
-   
    :depends ucsc-liftover: 
-   
    :depends velvet: 1.2.10.*
-   
    :depends xlrd: 1.0.0.*
-   
    :depends zip: 
-   
    :requirements:
 
    .. rubric:: Installation

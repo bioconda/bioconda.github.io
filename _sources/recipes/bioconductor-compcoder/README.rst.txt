@@ -25,41 +25,23 @@ bioconductor-compcoder
    :versions: 1.18.0-0
    
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-catools: 
-   
    :depends r-gdata: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-gtools: 
-   
    :depends r-kernsmooth: 
-   
    :depends r-knitr: >=1.2
-   
    :depends r-lattice: >=0.16
-   
    :depends r-markdown: 
-   
    :depends r-mass: 
-   
    :depends r-modeest: 
-   
    :depends r-rocr: 
-   
    :depends r-sm: 
-   
    :depends r-stringr: 
-   
    :depends r-vioplot: 
-   
    :requirements:
 
    .. rubric:: Installation

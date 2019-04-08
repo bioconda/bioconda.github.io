@@ -26,9 +26,7 @@ bioconductor-diffgeneanalysis
    :versions: 1.64.0-0, 1.62.0-0, 1.60.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-minpack.lm: >=1.0-4
-   
    :requirements:
 
    .. rubric:: Installation

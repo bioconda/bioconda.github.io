@@ -25,21 +25,13 @@ behst
    :versions: 3.7-1, 3.7-0, 3.6-0, 3.5-0, 3.0-0, 2.9-0, 2.8-0, 2.7-0, 2.6-0, 2.5-0, 1.9-0, 1.8-0, 1.7-0, 1.6-0, 1.4-0, 0.9-0, 0.8-0
    
    :depends bedtools: 
-   
    :depends pandas: 
-   
    :depends pybedtools: 
-   
    :depends python: 
-   
    :depends r-base: 
-   
    :depends r-gprofiler: 
-   
    :depends r-rcurl: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

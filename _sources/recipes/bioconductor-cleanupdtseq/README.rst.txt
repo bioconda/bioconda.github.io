@@ -26,19 +26,12 @@ bioconductor-cleanupdtseq
    :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
-   
    :depends bioconductor-bsgenome.drerio.ucsc.danrer7: >=1.4.0,<1.5.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-e1071: 
-   
    :depends r-seqinr: 
-   
    :requirements:
 
    .. rubric:: Installation

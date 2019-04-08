@@ -25,9 +25,7 @@ trimadap
    :versions: r11-0, r10-2, r10-1, r10-0, r9-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

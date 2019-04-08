@@ -25,13 +25,9 @@ perl-xml-semanticdiff
    :versions: 1.0007-0, 1.0004-2, 1.0004-1, 1.0004-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-digest-md5: 
-   
    :depends perl-encode: 
-   
    :depends perl-xml-parser: 
-   
    :requirements:
 
    .. rubric:: Installation

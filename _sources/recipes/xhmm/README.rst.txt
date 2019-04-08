@@ -26,11 +26,8 @@ xhmm
    :versions: 0.0.0.2016_01_04.cc14e52-0
    
    :depends lapack: 
-   
    :depends libgfortran: >=3.0
-   
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

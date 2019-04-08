@@ -27,9 +27,7 @@ rnachipintegrator
    :versions: 1.1.0-0, 1.0.3-1, 1.0.3-0
    
    :depends python: >=2.7,<2.8.0a0
-   
    :depends xlsxwriter: >=0.8.4
-   
    :requirements:
 
    .. rubric:: Installation

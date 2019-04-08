@@ -25,23 +25,14 @@ vcf2db
    :versions: 2018.10.26-0, 2018.05.23-2, 2018.05.23-0, 2018.01.23-0, 2017.12.11-0, 2017.11.15-0, 2017.10.11-0, 2017.09.14-0, 2017.04.12-0, 2017.03.01-0, 2017.02.25-0, 2017.02.24-1, 2017.02.24-0, 2017.01.10-0, 2016.12.09-1, 2016.12.09-0, 2016.11.08-0, 2016.04.29-0
    
    :depends cyvcf2: 
-   
    :depends geneimpacts: >0.2.0
-   
    :depends nomkl: 
-   
    :depends numpy: 
-   
    :depends peddy: >=0.2.9
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends python-snappy: 
-   
    :depends snappy: >=1.1.7,<1.1.8.0a0
-   
    :depends sqlalchemy: 
-   
    :requirements:
 
    .. rubric:: Installation

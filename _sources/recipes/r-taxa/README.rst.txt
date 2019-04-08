@@ -25,31 +25,18 @@ r-taxa
    :versions: 0.3.2-0, 0.3.1-1, 0.3.1-0, 0.2.1-1, 0.2.1-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-crayon: 
-   
    :depends r-dplyr: 
-   
    :depends r-jsonlite: 
-   
    :depends r-knitr: 
-   
    :depends r-lazyeval: 
-   
    :depends r-magrittr: 
-   
    :depends r-r6: 
-   
    :depends r-rlang: 
-   
    :depends r-stringr: 
-   
    :depends r-taxize: 
-   
    :depends r-tibble: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

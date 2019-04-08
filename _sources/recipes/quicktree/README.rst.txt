@@ -25,7 +25,6 @@ quicktree
    :versions: 2.4-0, 2.2-1, 2.2-0
    
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

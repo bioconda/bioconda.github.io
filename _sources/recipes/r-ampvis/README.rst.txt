@@ -25,41 +25,23 @@ r-ampvis
    :versions: 1.27.0-0
    
    :depends bioconductor-biostrings: 
-   
    :depends bioconductor-deseq2: 
-   
    :depends bioconductor-phyloseq: 
-   
    :depends r: 3.3.1*
-   
    :depends r-data.table: 
-   
    :depends r-dplyr: 
-   
    :depends r-ggdendro: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ggrepel: 
-   
    :depends r-gridextra: 
-   
    :depends r-igraph: 
-   
    :depends r-knitr: 
-   
    :depends r-magrittr: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :depends r-scales: 
-   
    :depends r-stringr: 
-   
    :depends r-vegan: 
-   
    :requirements:
 
    .. rubric:: Installation

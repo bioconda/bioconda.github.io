@@ -25,21 +25,13 @@ perl-www-mechanize
    :versions: 1.91-1, 1.91-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-cgi: 
-   
    :depends perl-encode-locale: 
-   
    :depends perl-html-form: 
-   
    :depends perl-html-tree: 
-   
    :depends perl-http-server-simple: 
-   
    :depends perl-libwww-perl: 
-   
    :depends perl-module-build: 
-   
    :requirements:
 
    .. rubric:: Installation

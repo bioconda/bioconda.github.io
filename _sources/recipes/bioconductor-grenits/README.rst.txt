@@ -25,19 +25,12 @@ bioconductor-grenits
    :versions: 1.34.0-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: >=0.9.0
-   
    :depends r-rcpp: >=0.8.6
-   
    :depends r-rcpparmadillo: >=0.2.8
-   
    :depends r-reshape2: 
-   
    :requirements:
 
    .. rubric:: Installation

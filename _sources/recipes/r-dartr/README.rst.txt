@@ -25,65 +25,35 @@ r-dartr
    :versions: 1.0.5-1, 1.0.5-0, 1.0-0
    
    :depends bioconductor-qvalue: 
-   
    :depends bioconductor-snprelate: 
-   
    :depends r-adegenet: >=2.0.0
-   
    :depends r-ape: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: 
-   
    :depends r-dbi: 
-   
    :depends r-demerelate: 
-   
    :depends r-directlabels: 
-   
    :depends r-dismo: 
-   
    :depends r-doparallel: 
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-mass: 
-   
    :depends r-misc3d: 
-   
    :depends r-pca3d: 
-   
    :depends r-pegas: 
-   
    :depends r-plotly: 
-   
    :depends r-plyr: 
-   
    :depends r-quadprog: 
-   
    :depends r-reshape2: 
-   
    :depends r-rgdal: 
-   
    :depends r-rgl: 
-   
    :depends r-seqinr: 
-   
    :depends r-snpassoc: 
-   
    :depends r-sp: 
-   
    :depends r-stampp: 
-   
    :depends r-stringr: 
-   
    :depends r-tidyr: 
-   
    :depends r-vegan: 
-   
    :requirements:
 
    .. rubric:: Installation

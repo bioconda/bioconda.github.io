@@ -26,23 +26,14 @@ bioconductor-tigre
    :versions: 1.36.0-0, 1.34.0-0, 1.32.0-0, 1.30.0-0
    
    :depends bioconductor-annotate: >=1.60.0,<1.61.0
-   
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: 
-   
    :depends r-gplots: 
-   
    :depends r-rsqlite: 
-   
    :requirements:
 
    .. rubric:: Installation

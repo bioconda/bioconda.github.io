@@ -26,17 +26,11 @@ last
    :versions: 963-0, 941-2, 941-0, 876-0, 874-1, 874-0, 847-0, 719-2, 719-1, 638-6, 638-5, 638-4, 638-3, 638-2, 638-1, 490-3, 490-2, 490-1
    
    :depends future: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends parallel: 
-   
    :depends pillow: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

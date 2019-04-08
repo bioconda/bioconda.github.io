@@ -25,19 +25,12 @@ export2graphlan
    :versions: 0.20-0, 0.19-2, 0.19-1, 0.19-0
    
    :depends hclust2: 
-   
    :depends libgcc: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: 2.7*
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

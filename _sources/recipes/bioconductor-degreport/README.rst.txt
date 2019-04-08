@@ -26,65 +26,35 @@ bioconductor-degreport
    :versions: 1.19.1-0, 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.8.2-1, 1.8.2-0, 1.7.2-1
    
    :depends bioconductor-biobase: 
-   
    :depends bioconductor-biocgenerics: 
-   
    :depends bioconductor-complexheatmap: 
-   
    :depends bioconductor-consensusclusterplus: 
-   
    :depends bioconductor-deseq2: 
-   
    :depends bioconductor-edger: 
-   
    :depends bioconductor-s4vectors: 
-   
    :depends bioconductor-summarizedexperiment: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-broom: 
-   
    :depends r-circlize: 
-   
    :depends r-cluster: 
-   
    :depends r-cowplot: 
-   
    :depends r-dplyr: 
-   
    :depends r-ggdendro: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ggrepel: 
-   
    :depends r-knitr: 
-   
    :depends r-lasso2: 
-   
    :depends r-logging: 
-   
    :depends r-magrittr: 
-   
    :depends r-nozzle.r1: 
-   
    :depends r-psych: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape: 
-   
    :depends r-rlang: 
-   
    :depends r-scales: 
-   
    :depends r-stringr: 
-   
    :depends r-tibble: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

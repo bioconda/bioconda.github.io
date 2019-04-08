@@ -25,13 +25,9 @@ reago
    :versions: 1.1-1, 1.1-0
    
    :depends genometools-genometools: 
-   
    :depends infernal: ==1.1.1
-   
    :depends networkx: 
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

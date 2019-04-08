@@ -25,15 +25,10 @@ bioconductor-tfarm
    :versions: 1.4.0-0
    
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends r-arules: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-fields: 
-   
    :depends r-stringr: 
-   
    :requirements:
 
    .. rubric:: Installation

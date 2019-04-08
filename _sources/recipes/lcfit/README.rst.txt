@@ -25,21 +25,13 @@ lcfit
    :versions: 0.5-3, 0.4-0
    
    :depends bpp-core: 
-   
    :depends bpp-phyl: 
-   
    :depends bpp-seq: 
-   
    :depends gsl: >=2.2.1,<2.3.0a0
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends nlopt: 
-   
    :depends openblas: >=0.2.20,<0.2.21.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ menetools
    :versions: 1.0.4_1-1, 1.0.4_1-0
    
    :depends pyasp: >=1.4.3
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

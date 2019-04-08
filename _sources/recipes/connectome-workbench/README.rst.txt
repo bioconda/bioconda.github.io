@@ -26,37 +26,21 @@ connectome-workbench
    :versions: 1.3.2-0, 1.3.1-1, 1.3.1-0
    
    :depends freetype: >=2.9.1,<3.0a0
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libglu: 
-   
    :depends libpng: >=1.6.34,<1.7.0a0
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends mesa: 
-   
    :depends openmp: 
-   
    :depends openssl: >=1.0.2p,<1.0.3a
-   
    :depends qt: >=5.9.6,<5.10.0a0
-   
    :depends xorg-libx11: 
-   
    :depends xorg-libxau: 
-   
    :depends xorg-libxcb: 
-   
    :depends xorg-libxdmcp: 
-   
    :depends xorg-libxext: 
-   
    :depends xorg-libxfixes: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

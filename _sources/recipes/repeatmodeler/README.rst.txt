@@ -26,19 +26,12 @@ repeatmodeler
    :versions: 1.0.11-1, 1.0.11-0, 1.0.8-1, 1.0.8-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-text-soundex: 
-   
    :depends recon: 
-   
    :depends repeatmasker: 
-   
    :depends repeatscout: 
-   
    :depends rmblast: 
-   
    :depends trf: 
-   
    :requirements:
 
    .. rubric:: Installation

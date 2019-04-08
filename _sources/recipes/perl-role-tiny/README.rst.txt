@@ -25,9 +25,7 @@ perl-role-tiny
    :versions: 2.000006-0, 2.000001-2, 2.000001-1, 2.000001-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-exporter: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ bioconductor-mapscape
    :versions: 1.6.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-base64enc: >=0.1-3
-   
    :depends r-htmlwidgets: >=0.5
-   
    :depends r-jsonlite: >=0.9.19
-   
    :depends r-stringr: >=1.0.0
-   
    :requirements:
 
    .. rubric:: Installation

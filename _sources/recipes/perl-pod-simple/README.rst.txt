@@ -25,13 +25,9 @@ perl-pod-simple
    :versions: 3.35-1, 3.35-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-pod-escapes: 
-   
    :depends perl-test: 
-   
    :requirements:
 
    .. rubric:: Installation

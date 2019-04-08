@@ -25,11 +25,8 @@ prosic
    :versions: 2.1.0-0, 2.0.0-0, 1.0-1, 1.0-0
    
    :depends gsl: 1.16*
-   
    :depends libgcc: 
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

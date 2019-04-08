@@ -25,25 +25,15 @@ bioconductor-hd2013sgi
    :versions: 1.22.0-0
    
    :depends bioconductor-ebimage: >=4.24.0,<4.25.0
-   
    :depends bioconductor-geneplotter: >=1.60.0,<1.61.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-splots: >=1.48.0,<1.49.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gplots: 
-   
    :depends r-lsd: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-vcd: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

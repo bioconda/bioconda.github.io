@@ -27,39 +27,22 @@ mockinbird
    :versions: 1.0.0a1-1, 1.0.0a1-0
    
    :depends bowtie: 
-   
    :depends fastqc: 
-   
    :depends jinja2: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends pysam: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends pyyaml: 
-   
    :depends r-base: 
-   
    :depends r-lsd: 
-   
    :depends samtools: 
-   
    :depends scipy: 
-   
    :depends seaborn: 
-   
    :depends star: 
-   
    :depends xxmotif: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,21 +26,13 @@ bioconductor-quantro
    :versions: 1.16.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-minfi: >=1.28.0,<1.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-doparallel: 
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-iterators: 
-   
    :depends r-rcolorbrewer: 
-   
    :requirements:
 
    .. rubric:: Installation

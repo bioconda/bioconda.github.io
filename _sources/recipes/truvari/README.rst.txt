@@ -25,17 +25,11 @@ truvari
    :versions: 0.1.2018.08.10-0
    
    :depends intervaltree: 
-   
    :depends progressbar2: 
-   
    :depends pyfaidx: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends python-levenshtein: 
-   
    :depends pyvcf: 
-   
    :requirements:
 
    .. rubric:: Installation

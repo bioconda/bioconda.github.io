@@ -25,9 +25,7 @@ seqmagick
    :versions: 0.7.0-2, 0.7.0-1, 0.7.0-0, 0.6.1-0
    
    :depends biopython: >=1.70
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :requirements:
 
    .. rubric:: Installation

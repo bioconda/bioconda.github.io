@@ -25,7 +25,6 @@ r-gsalib
    :versions: 2.1-0
    
    :depends r: 3.2.2*
-   
    :requirements:
 
    .. rubric:: Installation

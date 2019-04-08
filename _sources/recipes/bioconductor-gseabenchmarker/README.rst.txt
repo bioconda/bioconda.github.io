@@ -25,35 +25,20 @@ bioconductor-gseabenchmarker
    :versions: 1.2.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocfilecache: >=1.6.0,<1.7.0
-   
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-enrichmentbrowser: >=2.12.0,<2.13.0
-   
    :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
-   
    :depends bioconductor-geoquery: >=2.50.0,<2.51.0
-   
    :depends bioconductor-keggandmetacoredzpathwaysgeo: >=1.2.0,<1.3.0
-   
    :depends bioconductor-keggdzpathwaysgeo: >=1.20.0,<1.21.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rappdirs: 
-   
    :requirements:
 
    .. rubric:: Installation

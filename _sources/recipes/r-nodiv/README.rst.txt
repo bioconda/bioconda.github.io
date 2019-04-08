@@ -25,17 +25,11 @@ r-nodiv
    :versions: 1.3.0-1, 1.3.0-0, 1.2.0-2, 1.2.0-1, 1.2.0-0
    
    :depends r-ape: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-picante: 
-   
    :depends r-raster: 
-   
    :depends r-sp: 
-   
    :depends r-vegan: 
-   
    :requirements:
 
    .. rubric:: Installation

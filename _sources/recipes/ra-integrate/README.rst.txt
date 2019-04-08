@@ -25,13 +25,9 @@ ra-integrate
    :versions: 0.1-0
    
    :depends graphviz: 
-   
    :depends libgcc: 
-   
    :depends ra: 
-   
    :depends ruby: 
-   
    :requirements:
 
    .. rubric:: Installation

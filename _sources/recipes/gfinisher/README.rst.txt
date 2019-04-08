@@ -25,9 +25,7 @@ gfinisher
    :versions: 1.4-0
    
    :depends java-jdk: >=6
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

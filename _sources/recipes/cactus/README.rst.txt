@@ -25,43 +25,24 @@ cactus
    :versions: 2019.03.01-1, 2019.03.01-0
    
    :depends biopython: 
-   
    :depends cython: 
-   
    :depends decorator: 
-   
    :depends jobtree: 
-   
    :depends kyototycoon: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends networkx: 1.11.*
-   
    :depends openssl: 1.0.2.*
-   
    :depends psutil: 
-   
    :depends python: 2.7.*
-   
    :depends sonlib: 
-   
    :depends subprocess32: 
-   
    :depends toil: 3.14.0.*
-   
    :depends ucsc-bedsort: 
-   
    :depends ucsc-bedtobigbed: 
-   
    :depends ucsc-bigbedtobed: 
-   
    :depends ucsc-fatotwobit: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,19 +26,12 @@ bioconductor-blima
    :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
    :depends bioconductor-beadarray: >=2.32.0,<2.33.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rcpp: >=0.12.8
-   
    :requirements:
 
    .. rubric:: Installation

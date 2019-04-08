@@ -25,7 +25,6 @@ cityhash
    :versions: 0.2.3.post9-0, 0.1.7-1, 0.1.7-0, 0.1.5-0
    
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

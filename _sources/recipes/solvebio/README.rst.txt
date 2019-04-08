@@ -25,15 +25,10 @@ solvebio
    :versions: 2.8.0-0, 2.7.0-0, 2.6.1-0, 2.5.1-2, 2.5.1-0, 2.4.6-0
    
    :depends pycurl: >=7.0.0
-   
    :depends pyprind: 
-   
    :depends python: 
-   
    :depends requests: >=2.0.0
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

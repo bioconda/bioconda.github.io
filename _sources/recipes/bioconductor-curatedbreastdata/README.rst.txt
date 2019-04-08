@@ -25,19 +25,12 @@ bioconductor-curatedbreastdata
    :versions: 2.10.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocstyle: >=2.10.0,<2.11.0
-   
    :depends bioconductor-impute: >=1.56.0,<1.57.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-xml: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

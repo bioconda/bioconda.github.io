@@ -25,9 +25,7 @@ strip_it
    :versions: 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.2-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends openbabel: 2.4.1.*
-   
    :requirements:
 
    .. rubric:: Installation

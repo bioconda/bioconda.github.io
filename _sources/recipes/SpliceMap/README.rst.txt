@@ -26,9 +26,7 @@ splicemap
    :versions: 3.3.5.2-1, 3.3.5.2-0
    
    :depends bowtie: 
-   
    :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

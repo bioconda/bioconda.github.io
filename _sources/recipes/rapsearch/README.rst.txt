@@ -26,7 +26,6 @@ rapsearch
    :versions: 2.24-2, 2.24-1, 2.24-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

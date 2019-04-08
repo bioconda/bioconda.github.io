@@ -25,7 +25,6 @@ perl-io-string
    :versions: 1.08-3, 1.08-2, 1.08-1, 1.08-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

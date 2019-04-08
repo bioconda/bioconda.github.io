@@ -25,25 +25,15 @@ bioconductor-metnet
    :versions: 1.0.0-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bnlearn: >=4.3
-   
    :depends r-mpmi: >=0.42
-   
    :depends r-parmigene: >=1.0.2
-   
    :depends r-ppcor: >=1.1
-   
    :depends r-rfpermute: >=2.1.5
-   
    :depends r-sna: >=2.4
-   
    :depends r-stabs: >=0.6
-   
    :depends r-wgcna: >=1.61
-   
    :requirements:
 
    .. rubric:: Installation

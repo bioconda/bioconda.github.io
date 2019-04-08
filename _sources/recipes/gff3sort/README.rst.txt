@@ -25,11 +25,8 @@ gff3sort
    :versions: 0.1.a1a2bc9-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-data-match: 
-   
    :depends perl-sort-naturally: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,25 +25,15 @@ bioconductor-expressionview
    :versions: 1.34.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-eisa: >=1.34.0,<1.35.0
-   
    :depends bioconductor-go.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-kegg.db: >=3.2.0,<3.3.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bitops: 
-   
    :depends r-catools: 
-   
    :depends r-isa2: 
-   
    :requirements:
 
    .. rubric:: Installation

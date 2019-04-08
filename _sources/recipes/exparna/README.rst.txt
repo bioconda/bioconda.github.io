@@ -26,9 +26,7 @@ exparna
    :versions: 1.0.1-1, 1.0.1-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends viennarna: 
-   
    :requirements:
 
    .. rubric:: Installation

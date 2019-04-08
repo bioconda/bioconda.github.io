@@ -25,7 +25,6 @@ perl-threaded
    :versions: 5.26.0-0, 5.22.0-13, 5.22.0-12, 5.22.0-11, 5.22.0-10, 5.22.0-9, 5.22.0-8
    
    :depends perl: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ gatk-framework
    :versions: 3.6.24-5, 3.6.24-4, 3.6.24-3, 3.6.24-2, 3.6.24-1, 3.6.24-0, 3.5.21-0, 3.4.46-3, 3.4.46-2, 3.4.46-1, 3.4.46-0
    
    :depends openjdk: >=8,<9
-   
    :requirements:
 
    .. rubric:: Installation

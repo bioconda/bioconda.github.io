@@ -31,9 +31,7 @@ gbsx
    :versions: 1.3-0
    
    :depends openjdk: >=6
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

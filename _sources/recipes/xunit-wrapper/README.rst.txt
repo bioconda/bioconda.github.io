@@ -25,11 +25,8 @@ xunit-wrapper
    :versions: 0.12-1, 0.12-0
    
    :depends future: 
-   
    :depends junit-xml: 1.7
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

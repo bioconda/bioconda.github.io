@@ -25,31 +25,18 @@ bioconductor-kebabs
    :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-xvector: >=0.22.0,<0.23.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-apcluster: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-e1071: 
-   
    :depends r-kernlab: 
-   
    :depends r-liblinear: 
-   
    :depends r-matrix: 
-   
    :depends r-rcpp: >=0.11.2
-   
    :requirements:
 
    .. rubric:: Installation

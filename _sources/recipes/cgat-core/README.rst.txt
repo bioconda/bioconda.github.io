@@ -25,31 +25,18 @@ cgatcore
    :versions: 0.5.12-1, 0.5.11-0, 0.5.10-0, 0.5.6-0, 0.5.4-0, 0.5.2-0, 0.5.1-0
    
    :depends coreutils: 
-   
    :depends drmaa: 
-   
    :depends gevent: 
-   
    :depends nomkl: 
-   
    :depends pandas: 
-   
    :depends paramiko: 
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends pyyaml: 
-   
    :depends ruffus: 
-   
    :depends setuptools: 
-   
    :depends six: 
-   
    :depends sqlalchemy: 
-   
    :depends time: 
-   
    :requirements:
 
    .. rubric:: Installation

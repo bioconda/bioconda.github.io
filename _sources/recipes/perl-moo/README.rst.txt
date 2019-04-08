@@ -25,21 +25,13 @@ perl-moo
    :versions: 2.003004-0, 2.001000-2, 2.001000-1, 2.001000-0, 2.000002-1, 2.000002-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-class-method-modifiers: 
-   
    :depends perl-devel-globaldestruction: 
-   
    :depends perl-exporter: 
-   
    :depends perl-module-runtime: 
-   
    :depends perl-moose: 
-   
    :depends perl-role-tiny: 
-   
    :depends perl-sub-quote: 
-   
    :requirements:
 
    .. rubric:: Installation

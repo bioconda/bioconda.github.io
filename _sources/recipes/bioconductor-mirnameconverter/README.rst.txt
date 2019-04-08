@@ -26,15 +26,10 @@ bioconductor-mirnameconverter
    :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-mirbaseversions.db: >=1.1.0,<1.2.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: 
-   
    :depends r-reshape2: 
-   
    :requirements:
 
    .. rubric:: Installation

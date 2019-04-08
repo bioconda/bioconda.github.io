@@ -25,21 +25,13 @@ perl-moosex-getopt
    :versions: 0.74-0, 0.72-0, 0.71-2, 0.71-1, 0.71-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-getopt-long-descriptive: 
-   
    :depends perl-moose: 
-   
    :depends perl-moosex-role-parameterized: 
-   
    :depends perl-namespace-autoclean: 
-   
    :depends perl-try-tiny: 
-   
    :requirements:
 
    .. rubric:: Installation

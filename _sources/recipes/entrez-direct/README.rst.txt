@@ -25,37 +25,21 @@ entrez-direct
    :versions: 11.0-0, 10.2-0, 10.0-0, 7.70-2, 7.70-1, 7.70-0, 7.00-1, 7.00-0, 5.80-0, 4.00-1, 4.00-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-html-parser: 
-   
    :depends perl-html-tagset: 
-   
    :depends perl-html-tree: 
-   
    :depends perl-http-cookies: 
-   
    :depends perl-http-date: 
-   
    :depends perl-http-message: 
-   
    :depends perl-http-negotiate: 
-   
    :depends perl-io-socket-ssl: 
-   
    :depends perl-lwp-mediatypes: 
-   
    :depends perl-lwp-protocol-https: 
-   
    :depends perl-mozilla-ca: 
-   
    :depends perl-net-http: 
-   
    :depends perl-uri: 
-   
    :depends perl-www-robotrules: 
-   
    :depends perl-xml-simple: 
-   
    :requirements:
 
    .. rubric:: Installation

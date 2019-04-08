@@ -25,9 +25,7 @@ helperlibs
    :versions: 0.1.9-0, 0.1.8-1, 0.1.8-0
    
    :depends biopython: >=1.62
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

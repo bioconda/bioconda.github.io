@@ -26,13 +26,9 @@ seq2hla
    :versions: 2.2-1, 2.2-0
    
    :depends biopython: >=1.58
-   
    :depends bowtie: 1.1.2
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends r-base: 
-   
    :requirements:
 
    .. rubric:: Installation

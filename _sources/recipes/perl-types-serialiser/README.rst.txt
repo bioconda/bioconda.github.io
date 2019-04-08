@@ -25,9 +25,7 @@ perl-types-serialiser
    :versions: 1.0-2, 1.0-1, 1.0-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-common-sense: 
-   
    :requirements:
 
    .. rubric:: Installation

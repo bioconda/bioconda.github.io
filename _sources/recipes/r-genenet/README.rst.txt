@@ -25,13 +25,9 @@ r-genenet
    :versions: 1.2.13-0
    
    :depends r: 3.2.2*
-   
    :depends r-corpcor: >=1.6.8
-   
    :depends r-fdrtool: >=1.2.15
-   
    :depends r-longitudinal: >=1.1.12
-   
    :requirements:
 
    .. rubric:: Installation

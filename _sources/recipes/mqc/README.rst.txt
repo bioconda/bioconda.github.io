@@ -25,33 +25,19 @@ mqc
    :versions: 1.10-1, 1.10-0, 1.9-0, 1.8-0, 1.7-0, 1.6-0, 1.5-0, 1.4-0, 1.3-0, 1.2-3, 1.2-2, 1.2-1, 1.2-0
    
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends perl: 5.22.0*
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-dbd-sqlite: 
-   
    :depends perl-dbi: 
-   
    :depends perl-parallel-forkmanager: 
-   
    :depends plastid: 0.4.7 py27_0
-   
    :depends pysam: 0.11*
-   
    :depends python: 2.7*
-   
    :depends r-base: 3.4.1*
-   
    :depends samtools: 
-   
    :depends seaborn: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ perl-exception-class
    :versions: 1.44-0, 1.40-2, 1.40-1, 1.40-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-class-data-inheritable: 
-   
    :depends perl-devel-stacktrace: 
-   
    :requirements:
 
    .. rubric:: Installation

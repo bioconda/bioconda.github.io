@@ -25,9 +25,7 @@ itsx
    :versions: 1.1b-1, 1.1b-0
    
    :depends hmmer: >=3.1b2
-   
    :depends perl: 
-   
    :requirements:
 
    .. rubric:: Installation

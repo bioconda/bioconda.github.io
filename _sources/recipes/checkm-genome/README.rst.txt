@@ -25,23 +25,14 @@ checkm-genome
    :versions: 1.0.13-1, 1.0.13-0, 1.0.12-0, 1.0.11-1, 1.0.11-0, 1.0.7-0, 1.0.5-0
    
    :depends dendropy: >=4.0.0
-   
    :depends hmmer: >=3.1b1
-   
    :depends matplotlib: >=1.3.1
-   
    :depends numpy: >=1.8.0
-   
    :depends pplacer: >1.0
-   
    :depends prodigal: >=2.6.1
-   
    :depends pysam: >=0.8.3
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: >=0.9.0
-   
    :requirements:
 
    .. rubric:: Installation

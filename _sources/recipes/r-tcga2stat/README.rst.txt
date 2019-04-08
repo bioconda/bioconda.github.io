@@ -25,11 +25,8 @@ r-tcga2stat
    :versions: 1.2-4, 1.2-3, 1.2-2, 1.2-0
    
    :depends bioconductor-cntools: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

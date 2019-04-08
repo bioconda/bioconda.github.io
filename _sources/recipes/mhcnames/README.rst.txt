@@ -25,9 +25,7 @@ mhcnames
    :versions: 0.4.8-0
    
    :depends python: 
-   
    :depends six: >=1.9.0
-   
    :requirements:
 
    .. rubric:: Installation

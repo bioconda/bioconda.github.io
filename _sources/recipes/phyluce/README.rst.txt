@@ -26,59 +26,32 @@ phyluce
    :versions: 1.6.7-0, 1.6.6-0, 1.6.5-0, 1.6.4-0, 1.6.3-2, 1.6.3-1, 1.6.3-0, 1.6.2-0
    
    :depends abyss: 1.5.*
-   
    :depends bcftools: 
-   
    :depends bedtools: 
-   
    :depends biopython: 
-   
    :depends bowtie: 
-   
    :depends bwa: 
-   
    :depends bx-python: 
-   
    :depends dendropy: 3.*
-   
    :depends gatk: 3.8.*
-   
    :depends gblocks: 
-   
    :depends illumiprocessor: 
-   
    :depends itero: 
-   
    :depends lastz: 
-   
    :depends mafft: 
-   
    :depends muscle: 
-   
    :depends pandas: 
-   
    :depends picard: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends pyvcf: 
-   
    :depends raxml: 
-   
    :depends samtools: 
-   
    :depends seqtk: 
-   
    :depends spades: 3.12.*
-   
    :depends trimal: 
-   
    :depends trinity: 2.1.*
-   
    :depends velvet: 1.2.*
-   
    :requirements:
 
    .. rubric:: Installation

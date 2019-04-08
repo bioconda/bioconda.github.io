@@ -26,15 +26,10 @@ bioconductor-keggorthology
    :versions: 2.34.0-0, 2.32.0-0, 2.30.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-hgu95av2.db: >=3.2.0,<3.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: 
-   
    :requirements:
 
    .. rubric:: Installation

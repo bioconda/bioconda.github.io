@@ -25,25 +25,15 @@ circlator
    :versions: 1.5.5-2, 1.5.5-1, 1.5.5-0, 1.5.2-1, 1.5.2-0, 1.5.1-0, 1.5.0-0, 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.1.2-0
    
    :depends bio_assembly_refinement: >=0.4.0
-   
    :depends bwa: 
-   
    :depends openpyxl: 
-   
    :depends prodigal: 
-   
    :depends pyfastaq: >=3.12.1
-   
    :depends pymummer: >=0.9.0
-   
    :depends pysam: >=0.8.1
-   
    :depends python: >=3
-   
    :depends samtools: 
-   
    :depends spades: 
-   
    :requirements:
 
    .. rubric:: Installation

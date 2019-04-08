@@ -25,13 +25,9 @@ clustergrammer
    :versions: 1.13.5-2, 1.13.5-1, 1.13.5-0
    
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scikit-learn: 
-   
    :requirements:
 
    .. rubric:: Installation

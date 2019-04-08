@@ -25,57 +25,31 @@ bioconductor-damirseq
    :versions: 1.6.2-0
    
    :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   
    :depends bioconductor-edaseq: >=2.16.0,<2.17.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends bioconductor-sva: >=3.30.0,<3.31.0
-   
    :depends r-arm: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-caret: 
-   
    :depends r-corrplot: 
-   
    :depends r-e1071: 
-   
    :depends r-factominer: 
-   
    :depends r-fselector: 
-   
    :depends r-ggplot2: 
-   
    :depends r-hmisc: 
-   
    :depends r-ineq: 
-   
    :depends r-kknn: 
-   
    :depends r-lubridate: 
-   
    :depends r-mass: 
-   
    :depends r-pheatmap: 
-   
    :depends r-pls: 
-   
    :depends r-plsvarsel: 
-   
    :depends r-randomforest: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :depends r-rsnns: 
-   
    :requirements:
 
    .. rubric:: Installation

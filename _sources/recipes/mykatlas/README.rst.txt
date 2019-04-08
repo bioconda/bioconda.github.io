@@ -25,19 +25,12 @@ mykatlas
    :versions: 0.6.1-2, 0.6.1-1, 0.6.1-0
    
    :depends biopython: 
-   
    :depends future: 
-   
    :depends ga4ghmongo: 
-   
    :depends mongoengine: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends pyvcf: 
-   
    :depends redis-py: 
-   
    :requirements:
 
    .. rubric:: Installation

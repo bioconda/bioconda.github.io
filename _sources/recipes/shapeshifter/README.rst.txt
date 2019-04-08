@@ -25,13 +25,9 @@ shapeshifter
    :versions: 0.0.3-0
    
    :depends pandas: 
-   
    :depends pyarrow: 
-   
    :depends python: 
-   
    :depends sqlalchemy: 
-   
    :requirements:
 
    .. rubric:: Installation

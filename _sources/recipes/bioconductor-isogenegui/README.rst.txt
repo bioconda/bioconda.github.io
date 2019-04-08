@@ -25,43 +25,24 @@ bioconductor-isogenegui
    :versions: 2.18.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-geneplotter: >=1.60.0,<1.61.0
-   
    :depends bioconductor-multtest: >=2.38.0,<2.39.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ff: 
-   
    :depends r-goric: 
-   
    :depends r-iso: 
-   
    :depends r-isogene: 
-   
    :depends r-jpeg: 
-   
    :depends r-orcme: 
-   
    :depends r-oriclust: 
-   
    :depends r-orqa: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rcpp: 
-   
    :depends r-relimp: 
-   
    :depends r-tkrplot: 
-   
    :depends r-xlsx: 
-   
    :requirements:
 
    .. rubric:: Installation

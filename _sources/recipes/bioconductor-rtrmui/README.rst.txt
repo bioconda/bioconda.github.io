@@ -26,17 +26,11 @@ bioconductor-rtrmui
    :versions: 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends bioconductor-motifdb: >=1.24.0,<1.25.0
-   
    :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-org.mm.eg.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-rtrm: >=1.20.0,<1.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-shiny: >=0.9
-   
    :requirements:
 
    .. rubric:: Installation

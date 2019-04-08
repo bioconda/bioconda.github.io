@@ -26,21 +26,13 @@ clust
    :versions: 1.10.7-0, 1.8.10-0, 1.8.9-0, 1.8.7-0, 1.8.4-0
    
    :depends joblib: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends portalocker: 
-   
    :depends python: 
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

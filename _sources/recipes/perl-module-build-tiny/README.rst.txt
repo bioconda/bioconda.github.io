@@ -25,27 +25,16 @@ perl-module-build-tiny
    :versions: 0.039-3, 0.039-2, 0.039-1, 0.039-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-cpan-meta: 
-   
    :depends perl-exporter: 
-   
    :depends perl-extutils-cbuilder: 
-   
    :depends perl-extutils-config: 
-   
    :depends perl-extutils-helpers: 
-   
    :depends perl-extutils-installpaths: >=0.002
-   
    :depends perl-extutils-parsexs: 
-   
    :depends perl-file-path: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-json-pp: 
-   
    :requirements:
 
    .. rubric:: Installation

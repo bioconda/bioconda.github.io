@@ -25,31 +25,18 @@ bioconductor-normalyzerde
    :versions: 1.0.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends bioconductor-vsn: >=3.50.0,<3.51.0
-   
    :depends r-ape: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-car: 
-   
    :depends r-ggplot2: 
-   
    :depends r-mass: 
-   
    :depends r-matrixstats: 
-   
    :depends r-raster: 
-   
    :depends r-rcmdrmisc: 
-   
    :requirements:
 
    .. rubric:: Installation

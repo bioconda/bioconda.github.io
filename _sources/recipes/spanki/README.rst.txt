@@ -25,23 +25,14 @@ spanki
    :versions: 0.5.1-1, 0.5.1-0
    
    :depends biopython: 
-   
    :depends cufflinks: 
-   
    :depends fisher: 
-   
    :depends numpy: 
-   
    :depends pyfasta: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: 
-   
    :depends statsmodels: 
-   
    :requirements:
 
    .. rubric:: Installation

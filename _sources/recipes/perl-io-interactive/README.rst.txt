@@ -25,7 +25,6 @@ perl-io-interactive
    :versions: 1.022-0, 1.021-2, 1.021-1
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

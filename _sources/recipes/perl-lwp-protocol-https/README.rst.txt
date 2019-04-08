@@ -25,17 +25,11 @@ perl-lwp-protocol-https
    :versions: 6.07-4, 6.06-3, 6.06-2, 6.06-1, 6.06-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-io-socket-ssl: 
-   
    :depends perl-libwww-perl: 
-   
    :depends perl-mozilla-ca: 
-   
    :depends perl-net-http: 
-   
    :depends perl-test-requiresinternet: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,61 +25,33 @@ cgat-apps
    :versions: 0.5.3-0
    
    :depends alignlib-lite: 
-   
    :depends bedtools: 
-   
    :depends biopython: 
-   
    :depends cgatcore: 
-   
    :depends coreutils: 
-   
    :depends cython: 
-   
    :depends future: 
-   
    :depends grep: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libpng: >=1.6.34,<1.7.0a0
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends pybedtools: 
-   
    :depends pybigwig: 
-   
    :depends pysam: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends python-lzo: 
-   
    :depends pyyaml: 
-   
    :depends quicksect: 
-   
    :depends scipy: 
-   
    :depends setuptools: 
-   
    :depends six: 
-   
    :depends ucsc-bedgraphtobigwig: 
-   
    :depends ucsc-bedtobigbed: 
-   
    :depends ucsc-wigtobigwig: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

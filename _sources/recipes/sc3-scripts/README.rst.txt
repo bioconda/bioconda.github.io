@@ -25,19 +25,12 @@ sc3-scripts
    :versions: 0.0.6-0, 0.0.5-0, 0.0.4-0
    
    :depends bioconductor-biobase: 
-   
    :depends bioconductor-sc3: >=1.10.0,<1.11
-   
    :depends bioconductor-singlecellexperiment-scripts: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-optparse: 
-   
    :depends r-workflowscriptscommon: 
-   
    :depends scater-scripts: 
-   
    :requirements:
 
    .. rubric:: Installation

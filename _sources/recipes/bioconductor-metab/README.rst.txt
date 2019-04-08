@@ -26,13 +26,9 @@ bioconductor-metab
    :versions: 1.16.1-0, 1.12.0-0
    
    :depends bioconductor-xcms: >=3.4.0,<3.5.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-pander: 
-   
    :depends r-svdialogs: 
-   
    :requirements:
 
    .. rubric:: Installation

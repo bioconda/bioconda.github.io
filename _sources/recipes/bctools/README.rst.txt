@@ -25,17 +25,11 @@ bctools
    :versions: 0.2.2-1, 0.2.2-0, 0.2.1-0
    
    :depends bedtools: 
-   
    :depends biopython: 
-   
    :depends datamash: 
-   
    :depends future: 
-   
    :depends perl: 
-   
    :depends pybedtools: 
-   
    :requirements:
 
    .. rubric:: Installation

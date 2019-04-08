@@ -26,19 +26,12 @@ bioconductor-biomart
    :versions: 2.38.0-0, 2.36.1-0, 2.34.2-0, 2.34.0-0, 2.32.1-0, 2.30.0-0, 2.28.0-0, 2.27.0-0, 2.26.1-0, 2.26.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-httr: 
-   
    :depends r-progress: 
-   
    :depends r-rcurl: 
-   
    :depends r-stringr: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

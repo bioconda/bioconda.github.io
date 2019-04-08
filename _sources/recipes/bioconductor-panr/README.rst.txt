@@ -26,15 +26,10 @@ bioconductor-panr
    :versions: 1.28.1-0, 1.28.0-0, 1.26.0-0, 1.24.0-0
    
    :depends bioconductor-reder: >=1.30.0,<1.31.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-igraph: 
-   
    :depends r-mass: 
-   
    :depends r-pvclust: 
-   
    :requirements:
 
    .. rubric:: Installation

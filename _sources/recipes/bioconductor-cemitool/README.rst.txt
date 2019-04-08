@@ -25,71 +25,38 @@ bioconductor-cemitool
    :versions: 1.6.10-0
    
    :depends bioconductor-clusterprofiler: >=3.10.0,<3.11.0
-   
    :depends bioconductor-fgsea: >=1.8.0,<1.9.0
-   
    :depends bioconductor-geneoverlap: >=1.18.0,<1.19.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: >=1.9.4
-   
    :depends r-dplyr: 
-   
    :depends r-dt: 
-   
    :depends r-ff: 
-   
    :depends r-ffbase: 
-   
    :depends r-ggdendro: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ggpmisc: 
-   
    :depends r-ggrepel: 
-   
    :depends r-ggthemes: 
-   
    :depends r-grbase: 
-   
    :depends r-gridextra: 
-   
    :depends r-gtable: 
-   
    :depends r-htmltools: 
-   
    :depends r-igraph: 
-   
    :depends r-intergraph: 
-   
    :depends r-knitr: 
-   
    :depends r-matrixstats: 
-   
    :depends r-network: 
-   
    :depends r-plyr: 
-   
    :depends r-pracma: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rmarkdown: 
-   
    :depends r-scales: 
-   
    :depends r-sna: 
-   
    :depends r-stringr: 
-   
    :depends r-tidyr: 
-   
    :depends r-wgcna: 
-   
    :requirements:
 
    .. rubric:: Installation

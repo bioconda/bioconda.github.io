@@ -25,17 +25,11 @@ perl-test-most
    :versions: 0.35-0, 0.34-2, 0.34-1
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-exception-class: 
-   
    :depends perl-test-deep: 
-   
    :depends perl-test-differences: 
-   
    :depends perl-test-exception: 
-   
    :depends perl-test-warn: 
-   
    :requirements:
 
    .. rubric:: Installation

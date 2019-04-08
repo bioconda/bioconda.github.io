@@ -26,7 +26,6 @@ proteowizard
    :versions: 3_0_9992-2, 3_0_9992-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ perl-config-general
    :versions: 2.63-0, 2.61-1, 2.61-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-pathtools: 
-   
    :requirements:
 
    .. rubric:: Installation

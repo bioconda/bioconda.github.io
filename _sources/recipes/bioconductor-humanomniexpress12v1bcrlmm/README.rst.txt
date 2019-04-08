@@ -25,9 +25,7 @@ bioconductor-humanomniexpress12v1bcrlmm
    :versions: 1.0.1-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,43 +26,24 @@ bioconductor-madseq
    :versions: 1.6.1-0, 1.4.1-0
    
    :depends bioconductor-biostrings: >=2.48.0,<2.50.0
-   
    :depends bioconductor-bsgenome: >=1.48.0,<1.50.0
-   
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: >=1.4.0,<1.6.0
-   
    :depends bioconductor-genomeinfodb: >=1.16.0,<1.18.0
-   
    :depends bioconductor-genomicalignments: >=1.16.0,<1.18.0
-   
    :depends bioconductor-genomicranges: >=1.32.7,<1.34.0
-   
    :depends bioconductor-iranges: >=2.14.12,<2.16.0
-   
    :depends bioconductor-preprocesscore: >=1.42.0,<1.44.0
-   
    :depends bioconductor-rsamtools: >=1.32.3,<1.34.0
-   
    :depends bioconductor-rtracklayer: >=1.40.6,<1.42.0
-   
    :depends bioconductor-s4vectors: >=0.18.3,<0.20.0
-   
    :depends bioconductor-summarizedexperiment: >=1.10.1,<1.12.0
-   
    :depends bioconductor-variantannotation: >=1.26.1,<1.28.0
-   
    :depends bioconductor-zlibbioc: >=1.26.0,<1.28.0
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-coda: 
-   
    :depends r-rjags: >=4-6
-   
    :depends r-vcfr: 
-   
    :depends r-vgam: 
-   
    :requirements:
 
    .. rubric:: Installation

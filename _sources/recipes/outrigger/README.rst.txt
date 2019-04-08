@@ -25,25 +25,15 @@ outrigger
    :versions: 1.1.1-1, 1.1.1-0
    
    :depends biopython: 
-   
    :depends coverage: 
-   
    :depends gffutils: >=0.8.7.1
-   
    :depends graphlite: 
-   
    :depends joblib: 
-   
    :depends pandas: >=0.17.0
-   
    :depends pybedtools: 
-   
    :depends pysam: 
-   
    :depends pytest: >=3.0.0
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

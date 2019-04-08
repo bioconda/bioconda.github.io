@@ -25,25 +25,15 @@ whatshap
    :versions: 0.18-0, 0.17-0, 0.16-0, 0.15-0, 0.14.1-0, 0.13-0, 0.12-0, 0.11-0, 0.9-0
    
    :depends biopython: >=1.73
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends networkx: 
-   
    :depends pyfaidx: >=0.5.5.2
-   
    :depends pysam: >=0.15
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends pyvcf: 
-   
    :depends setuptools: 
-   
    :depends xopen: >=0.5.0
-   
    :requirements:
 
    .. rubric:: Installation

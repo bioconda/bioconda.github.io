@@ -25,21 +25,13 @@ footprint
    :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0
    
    :depends bedtools: ==2.17.0
-   
    :depends bioconductor-genomicranges: 
-   
    :depends perl: 5.22.0*
-   
    :depends r-base: 3.3.2*
-   
    :depends r-gtools: 
-   
    :depends r-mixtools: 
-   
    :depends r-segmented: 
-   
    :depends samtools: ==1.1
-   
    :requirements:
 
    .. rubric:: Installation

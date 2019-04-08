@@ -25,29 +25,17 @@ bioconductor-comet
    :versions: 1.14.0-0
    
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-gviz: >=1.26.0,<1.27.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-colortools: 
-   
    :depends r-corrplot: 
-   
    :depends r-gridextra: 
-   
    :depends r-hash: 
-   
    :depends r-psych: 
-   
    :requirements:
 
    .. rubric:: Installation

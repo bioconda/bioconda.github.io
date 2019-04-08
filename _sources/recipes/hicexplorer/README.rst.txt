@@ -26,49 +26,27 @@ hicexplorer
    :versions: 3.0.1-0, 2.2.3-0, 2.2.2-0, 2.2.1-0, 2.2-1, 2.2-0, 2.2beta-0, 2.1.4-3, 2.1.4-2, 2.1.3-0, 2.1.2-0, 2.1.1-1, 2.1.1-0, 2.1-0, 2.1alpha1-0, 2.0-1, 2.0-0, 1.8.1-0, 1.8-2, 1.8-1, 1.8-0, 1.7.2-0, 1.7.1-0, 1.6.1-0, 1.6-0, 1.4-0, 1.3-0, 1.2-0, 1.1a-0, 0.1-0
    
    :depends biopython: 
-   
    :depends configparser: 
-   
    :depends cooler: >=0.8.2
-   
    :depends cooler: >=0.8.3
-   
    :depends fit_nbinom: >=1.0
-   
    :depends future: 
-   
    :depends hic2cool: >=0.5
-   
    :depends hicmatrix: >=9
-   
    :depends intervaltree: 
-   
    :depends jinja2: 
-   
    :depends krbalancing: >=0.0.4
-   
    :depends matplotlib: >=3.0
-   
    :depends numpy: >=1.15
-   
    :depends pandas: 
-   
    :depends pybigwig: 
-   
    :depends pygenometracks: >=2.1
-   
    :depends pysam: 
-   
    :depends pytables: 
-   
    :depends python: >=3.5
-   
    :depends scipy: 
-   
    :depends six: 
-   
    :depends unidecode: 
-   
    :requirements:
 
    .. rubric:: Installation

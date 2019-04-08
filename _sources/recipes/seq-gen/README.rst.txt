@@ -26,7 +26,6 @@ seq-gen
    :versions: 1.3.4-2, 1.3.4-0, 1.3.3-0
    
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

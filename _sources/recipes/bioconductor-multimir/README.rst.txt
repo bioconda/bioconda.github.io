@@ -25,21 +25,13 @@ bioconductor-multimir
    :versions: 1.4.0-1, 1.4.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-purrr: >=0.2.2
-   
    :depends r-rcurl: 
-   
    :depends r-tibble: >=1.2
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

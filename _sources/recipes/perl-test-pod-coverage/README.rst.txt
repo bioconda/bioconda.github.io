@@ -25,9 +25,7 @@ perl-test-pod-coverage
    :versions: 1.10-2, 1.10-1, 1.10-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-pod-coverage: 
-   
    :requirements:
 
    .. rubric:: Installation

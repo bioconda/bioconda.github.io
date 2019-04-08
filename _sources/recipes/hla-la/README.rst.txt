@@ -26,33 +26,19 @@ hla-la
    :versions: 1.0-2, 1.0-1, 1.0-0
    
    :depends boost-cpp: >=1.68.0,<1.68.1.0a0
-   
    :depends bwa: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends mummer: 
-   
    :depends perl-bio-db-hts: 
-   
    :depends perl-bio-featureio: 
-   
    :depends perl-bioperl: 
-   
    :depends perl-bioperl-core: 
-   
    :depends perl-list-moreutils: 
-   
    :depends perl-text-levenshtein: 
-   
    :depends picard: 
-   
    :depends samtools: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

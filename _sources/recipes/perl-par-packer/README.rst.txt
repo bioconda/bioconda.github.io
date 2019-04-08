@@ -25,19 +25,12 @@ perl-par-packer
    :versions: 1.036-2, 1.036-1, 1.036-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-getopt-argvfile: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-module-scandeps: 
-   
    :depends perl-par: 
-   
    :depends perl-par-dist: 
-   
    :depends perl-text-parsewords: 
-   
    :requirements:
 
    .. rubric:: Installation

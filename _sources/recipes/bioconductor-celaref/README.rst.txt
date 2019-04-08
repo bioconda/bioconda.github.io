@@ -25,29 +25,17 @@ bioconductor-celaref
    :versions: 1.0.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-mast: >=1.8.0,<1.9.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-ggplot2: 
-   
    :depends r-magrittr: 
-   
    :depends r-matrix: 
-   
    :depends r-readr: 
-   
    :depends r-rlang: 
-   
    :depends r-tibble: 
-   
    :requirements:
 
    .. rubric:: Installation

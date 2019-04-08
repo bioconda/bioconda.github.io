@@ -25,7 +25,6 @@ fiji
    :versions: 20151222-2, 20151222-1, 20151222-0, 20141125-6, 20141125-5, 20141125-4, 20141125-3, 20141125-2, 20141125-1
    
    :depends java-jdk: >=6
-   
    :requirements:
 
    .. rubric:: Installation

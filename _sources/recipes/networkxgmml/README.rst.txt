@@ -25,11 +25,8 @@ networkxgmml
    :versions: 0.1.6-2, 0.1.6-1
    
    :depends networkx: 
-   
    :depends python: 
-   
    :depends setuptools: 
-   
    :requirements:
 
    .. rubric:: Installation

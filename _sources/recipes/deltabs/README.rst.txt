@@ -25,13 +25,9 @@ deltabs
    :versions: 0.1-1, 0.1-0
    
    :depends hmmer: 
-   
    :depends perl: 
-   
    :depends perl-bioperl: 
-   
    :depends perl-statistics-distributions: 
-   
    :requirements:
 
    .. rubric:: Installation

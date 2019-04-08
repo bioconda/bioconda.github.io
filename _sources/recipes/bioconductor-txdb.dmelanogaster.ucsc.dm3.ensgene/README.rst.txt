@@ -25,13 +25,9 @@ bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene
    :versions: 3.2.2-5, 3.2.2-4, 3.2.2-2, 3.2.2-1, 3.2.2-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

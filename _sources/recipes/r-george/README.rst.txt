@@ -25,13 +25,9 @@ r-george
    :versions: 1.0.1-0
    
    :depends bioconductor-mzr: 
-   
    :depends bioconductor-xcms: 
-   
    :depends r-base: 3.3.2*
-   
    :depends r-optparse: 
-   
    :requirements:
 
    .. rubric:: Installation

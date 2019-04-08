@@ -25,15 +25,10 @@ ont-fast5-api
    :versions: 1.2.0-0, 1.1.0-0, 1.0.1-1, 1.0.1-0, 0.4.1-1, 0.4.1-0
    
    :depends h5py: >=2.2.1
-   
    :depends numpy: >=1.8.1
-   
    :depends progressbar33: >=2.3.1
-   
    :depends python: 
-   
    :depends six: >=1.9
-   
    :requirements:
 
    .. rubric:: Installation

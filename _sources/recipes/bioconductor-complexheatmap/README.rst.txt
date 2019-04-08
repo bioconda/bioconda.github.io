@@ -26,17 +26,11 @@ bioconductor-complexheatmap
    :versions: 1.20.0-0, 1.18.1-0, 1.17.1-0, 1.14.0-0, 1.6.0-1, 1.6.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-circlize: >=0.4.1
-   
    :depends r-colorspace: 
-   
    :depends r-getoptlong: 
-   
    :depends r-globaloptions: >=0.1.0
-   
    :depends r-rcolorbrewer: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,47 +25,26 @@ bioconductor-linnorm
    :versions: 2.6.0-0
    
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-amap: 
-   
    :depends r-apcluster: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ellipse: 
-   
    :depends r-fastcluster: 
-   
    :depends r-fpc: 
-   
    :depends r-ggdendro: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gmodels: 
-   
    :depends r-igraph: 
-   
    :depends r-mass: 
-   
    :depends r-mclust: 
-   
    :depends r-rcpp: >=0.12.2
-   
    :depends r-rcpparmadillo: >=0.8.100.1.0
-   
    :depends r-rtsne: 
-   
    :depends r-statmod: 
-   
    :depends r-vegan: 
-   
    :depends r-zoo: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,23 +25,14 @@ bioconductor-htsanalyzer
    :versions: 2.34.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends bioconductor-bionet: >=1.42.0,<1.43.0
-   
    :depends bioconductor-cellhts2: >=2.46.0,<2.47.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-gseabase: >=1.44.0,<1.45.0
-   
    :depends bioconductor-rankprod: >=3.8.0,<3.9.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-igraph: 
-   
    :requirements:
 
    .. rubric:: Installation

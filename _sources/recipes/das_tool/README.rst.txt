@@ -31,31 +31,18 @@ das_tool
    :versions: 1.1.1-1
    
    :depends blast: 2.7.1.*
-   
    :depends diamond: 0.9.22.*
-   
    :depends gawk: 
-   
    :depends numpy: 1.15.0.*
-   
    :depends prodigal: 2.6.3.*
-   
    :depends pullseq: 1.0.2.*
-   
    :depends python: 3.6.*
-   
    :depends r: 3.5.1.*
-   
    :depends r-data.table: 1.11.4.*
-   
    :depends r-domc: 1.3.5.*
-   
    :depends r-ggplot2: 3.1.*
-   
    :depends ruby: 2.4.4.*
-   
    :depends unzip: 
-   
    :requirements:
 
    .. rubric:: Installation

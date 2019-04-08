@@ -26,23 +26,14 @@ bioconductor-bgeedb
    :versions: 2.8.0-0, 2.6.2-0, 2.4.0-0, 2.2.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-topgo: >=2.34.0,<2.35.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: 
-   
    :depends r-digest: 
-   
    :depends r-dplyr: 
-   
    :depends r-rcurl: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ perl-statistics-basic
    :versions: 1.6611-2, 1.6611-1, 1.6611-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-number-format: 
-   
    :depends perl-scalar-list-utils: 
-   
    :requirements:
 
    .. rubric:: Installation

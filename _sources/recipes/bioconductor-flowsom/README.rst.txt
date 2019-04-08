@@ -26,23 +26,14 @@ bioconductor-flowsom
    :versions: 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-consensusclusterplus: >=1.46.0,<1.47.0
-   
    :depends bioconductor-flowcore: >=1.48.0,<1.49.0
-   
    :depends bioconductor-flowutils: >=1.46.0,<1.47.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-igraph: 
-   
    :depends r-tsne: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

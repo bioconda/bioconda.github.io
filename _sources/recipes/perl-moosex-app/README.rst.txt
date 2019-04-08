@@ -25,25 +25,15 @@ perl-moosex-app
    :versions: 1.3701-0, 1.39-2, 1.39-1, 1.39-0, 1.35-2, 1.35-1, 1.35-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-config-any: 
-   
    :depends perl-file-homedir: 
-   
    :depends perl-io-interactive: 
-   
    :depends perl-moose: 
-   
    :depends perl-moosex-types-path-class: 
-   
    :depends perl-path-class: 
-   
    :depends perl-pod-elemental: 
-   
    :depends perl-scalar-list-utils: 
-   
    :depends perl-termreadkey: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,17 +25,11 @@ r-aptreeshape
    :versions: 1.5_0-3, 1.5_0-2, 1.5_0-1, 1.5_0-0
    
    :depends r-ape: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-coda: 
-   
    :depends r-cubature: 
-   
    :depends r-pbapply: 
-   
    :depends r-quantreg: 
-   
    :requirements:
 
    .. rubric:: Installation

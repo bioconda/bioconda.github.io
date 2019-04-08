@@ -25,9 +25,7 @@ perl-io-all
    :versions: 0.87-0, 0.86-1, 0.86-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-scalar-list-utils: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ perl-text-csv
    :versions: 1.99-0, 1.97-0, 1.33-1, 1.33-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-test-harness: 
-   
    :requirements:
 
    .. rubric:: Installation

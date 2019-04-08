@@ -26,11 +26,8 @@ r-dbchip
    :versions: 1.1.6-1, 1.1.6-0
    
    :depends bioconductor-deseq: 
-   
    :depends bioconductor-edger: 
-   
    :depends r: 3.2.2*
-   
    :requirements:
 
    .. rubric:: Installation

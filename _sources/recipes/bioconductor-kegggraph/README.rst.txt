@@ -26,11 +26,8 @@ bioconductor-kegggraph
    :versions: 1.42.0-0, 1.40.0-0, 1.38.1-0, 1.38.0-0, 1.30.0-0, 1.28.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-xml: >=2.3-0
-   
    :requirements:
 
    .. rubric:: Installation

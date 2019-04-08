@@ -25,9 +25,7 @@ spingo
    :versions: 1.3-0
    
    :depends boost: 1.61*
-   
    :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

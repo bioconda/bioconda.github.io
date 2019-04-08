@@ -25,17 +25,11 @@ mmseqs2
    :versions: 8.fac81-1, 7.4e23d-1, 6.f5a1c-1, 5.9375b-1, 4.bff50-1, 4.0b8cc-1, 3.be8f6-1, 3.be8f6-0, 2.23394-0
    
    :depends bzip2: >=1.0.6,<2.0a0
-   
    :depends gawk: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends openmp: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,39 +25,22 @@ prestor
    :versions: 07f9c7caeb60-1, 07f9c7caeb60-0
    
    :depends pandoc: <2.0
-   
    :depends r-alakazam: 
-   
    :depends r-base: >=3.4.1
-   
    :depends r-bibtex: 
-   
    :depends r-captioner: 
-   
    :depends r-devtools: 
-   
    :depends r-dplyr: 
-   
    :depends r-ggplot2: 
-   
    :depends r-hexbin: 
-   
    :depends r-knitr: 
-   
    :depends r-optparse: 
-   
    :depends r-rcpp: >=0.12.11
-   
    :depends r-rmarkdown: 
-   
    :depends r-roxygen2: 
-   
    :depends r-testthat: 
-   
    :depends r-tidyr: 
-   
    :depends texlive-core: 
-   
    :requirements:
 
    .. rubric:: Installation

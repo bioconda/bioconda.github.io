@@ -25,9 +25,7 @@ perl-ipc-system-simple
    :versions: 1.25-4, 1.25-3, 1.25-2, 1.25-1, 1.25-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

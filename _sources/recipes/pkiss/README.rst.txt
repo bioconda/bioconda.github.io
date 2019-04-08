@@ -26,17 +26,11 @@ pkiss
    :versions: 2.2.12-1, 2.2.12-0
    
    :depends bellmans-gapc: 
-   
    :depends boost: 1.64*
-   
    :depends gsl: 2.2*
-   
    :depends libgcc: 
-   
    :depends openblas: 
-   
    :depends perl: 5.22.0*
-   
    :requirements:
 
    .. rubric:: Installation

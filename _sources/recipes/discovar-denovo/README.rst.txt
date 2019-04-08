@@ -25,11 +25,8 @@ discovardenovo
    :versions: 52488-1, 52488-0
    
    :depends jemalloc: 
-   
    :depends libgcc: 
-   
    :depends zlib: 1.2.11*
-   
    :requirements:
 
    .. rubric:: Installation

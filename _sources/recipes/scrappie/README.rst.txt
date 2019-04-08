@@ -25,23 +25,14 @@ scrappie
    :versions: 1.4.1-0, 1.3.2-2, 1.3.2-0
    
    :depends cffi: >=1.0.0
-   
    :depends cunit: 
-   
    :depends hdf5: >=1.10.4,<1.10.5.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends numpy: 
-   
    :depends openblas: >=0.3.3,<0.3.4.0a0
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

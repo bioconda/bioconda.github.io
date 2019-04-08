@@ -25,11 +25,8 @@ plant_tribes_gene_family_phylogeny_builder
    :versions: 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0
    
    :depends fasttree: >=2,<3
-   
    :depends perl: 
-   
    :depends raxml: >=8,<9
-   
    :requirements:
 
    .. rubric:: Installation

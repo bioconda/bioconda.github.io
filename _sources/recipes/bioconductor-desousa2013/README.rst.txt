@@ -25,41 +25,23 @@ bioconductor-desousa2013
    :versions: 1.18.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-consensusclusterplus: >=1.46.0,<1.47.0
-   
    :depends bioconductor-frma: >=1.34.0,<1.35.0
-   
    :depends bioconductor-frmatools: >=1.34.0,<1.35.0
-   
    :depends bioconductor-hgu133plus2.db: >=3.2.0,<3.3.0
-   
    :depends bioconductor-hgu133plus2frmavecs: >=1.5.0,<1.6.0
-   
    :depends bioconductor-siggenes: >=1.56.0,<1.57.0
-   
    :depends bioconductor-sva: >=3.30.0,<3.31.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-gplots: 
-   
    :depends r-pamr: 
-   
    :depends r-rgl: 
-   
    :depends r-rocr: 
-   
    :depends r-survival: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,23 +26,14 @@ bioconductor-geoquery
    :versions: 2.50.0-0, 2.48.0-0, 2.46.3-0, 2.46.0-0, 2.42.0-0, 2.38.4-0, 2.36.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-httr: 
-   
    :depends r-magrittr: 
-   
    :depends r-readr: 
-   
    :depends r-tidyr: 
-   
    :depends r-xml2: 
-   
    :requirements:
 
    .. rubric:: Installation

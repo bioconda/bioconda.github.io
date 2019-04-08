@@ -25,17 +25,11 @@ pycoqc
    :versions: 1.0.alpha1-0
    
    :depends matplotlib: 
-   
    :depends notebook: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: 2.7*
-   
    :depends seaborn: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ nmrpro
    :versions: 20161019-1, 20161019-0
    
    :depends nmrglue: >=0.5
-   
    :depends numpy: 
-   
    :depends python: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ trawler
    :versions: 2.0-2, 2.0-1, 2.0-0
    
    :depends ghostscript: 
-   
    :depends openjdk: 
-   
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-algorithm-cluster: 
-   
    :depends perl-cgi: 
-   
    :requirements:
 
    .. rubric:: Installation

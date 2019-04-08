@@ -25,7 +25,6 @@ perl-file-grep
    :versions: 0.02-3, 0.02-2, 0.02-1, 0.02-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

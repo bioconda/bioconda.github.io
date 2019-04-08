@@ -25,9 +25,7 @@ perl-xml-namespacesupport
    :versions: 1.12-0, 1.11-1, 1.11-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-constant: 
-   
    :requirements:
 
    .. rubric:: Installation

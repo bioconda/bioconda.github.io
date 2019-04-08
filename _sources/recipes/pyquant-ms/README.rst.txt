@@ -25,27 +25,16 @@ pyquant-ms
    :versions: 0.2.3-0, 0.2.1-1, 0.2.1-0, 0.1.43rc3-0, 0.1.42-0
    
    :depends cython: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends lxml: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends patsy: 
-   
    :depends pythomics: >=0.3.41
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scikit-learn: 
-   
    :depends scipy: >=0.18.*
-   
    :depends simplejson: 
-   
    :requirements:
 
    .. rubric:: Installation

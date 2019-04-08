@@ -38,27 +38,16 @@ r-hemdag
    :versions: 2.4.7-1, 2.4.7-0, 2.2.5-1, 2.2.5-0, 2.1.3-0, 2.1.2-0, 2.0.1-0
    
    :depends bioconductor-graph: 
-   
    :depends bioconductor-preprocesscore: 
-   
    :depends bioconductor-rbgl: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-doparallel: 
-   
    :depends r-foreach: 
-   
    :depends r-iterators: 
-   
    :depends r-plyr: 
-   
    :depends r-precrec: 
-   
    :requirements:
 
    .. rubric:: Installation

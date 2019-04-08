@@ -26,23 +26,14 @@ bioconductor-metagenomeseq
    :versions: 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-foreach: 
-   
    :depends r-glmnet: 
-   
    :depends r-gplots: 
-   
    :depends r-matrix: 
-   
    :depends r-matrixstats: 
-   
    :depends r-rcolorbrewer: 
-   
    :requirements:
 
    .. rubric:: Installation

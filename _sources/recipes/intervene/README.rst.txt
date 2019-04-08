@@ -26,29 +26,17 @@ intervene
    :versions: 0.6.4-1, 0.6.4-0, 0.6.2-0, 0.5.9-0, 0.5.8-0
    
    :depends bedtools: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends pybedtools: 
-   
    :depends python: 
-   
    :depends r: 
-   
    :depends r-cairo: 
-   
    :depends r-corrplot: 
-   
    :depends r-upsetr: 
-   
    :depends scipy: 
-   
    :depends seaborn: 
-   
    :requirements:
 
    .. rubric:: Installation

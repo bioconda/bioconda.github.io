@@ -27,45 +27,25 @@ kipoi_veff
    :versions: 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.2-0
    
    :depends colorlog: 
-   
    :depends cookiecutter: 
-   
    :depends cyvcf2: 
-   
    :depends deepdish: 
-   
    :depends descartes: 
-   
    :depends future: 
-   
    :depends h5py: 
-   
    :depends intervaltree: 
-   
    :depends kipoi: >=0.5.5
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends pybedtools: 
-   
    :depends pysam: 
-   
    :depends python: 
-   
    :depends pyvcf: 
-   
    :depends seaborn: 
-   
    :depends shapely: 
-   
    :depends tqdm: 
-   
    :depends urllib3: >=1.21.1,<1.23
-   
    :requirements:
 
    .. rubric:: Installation

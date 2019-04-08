@@ -25,17 +25,11 @@ bcftools-snvphyl-plugin
    :versions: 1.9-1, 1.9-0, 1.8-2, 1.8-0, 1.6-1, 1.6-0, 1.5-0
    
    :depends bcftools: 1.9.*
-   
    :depends bzip2: >=1.0.6,<2.0a0
-   
    :depends curl: >=7.64.0,<8.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends xz: >=5.2.4,<5.3.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

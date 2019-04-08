@@ -25,11 +25,8 @@ genomicassertions
    :versions: 0.2.5-1, 0.2.5-0
    
    :depends pysam: 
-   
    :depends python: 
-   
    :depends pyvcf: 
-   
    :requirements:
 
    .. rubric:: Installation

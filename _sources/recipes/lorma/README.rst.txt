@@ -25,11 +25,8 @@ lorma
    :versions: 0.4-2, 0.4-1, 0.4-0
    
    :depends libgcc: 
-   
    :depends lordec: 
-   
    :depends zlib: 1.2.11*
-   
    :requirements:
 
    .. rubric:: Installation

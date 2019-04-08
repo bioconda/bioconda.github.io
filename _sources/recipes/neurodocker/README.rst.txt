@@ -25,11 +25,8 @@ neurodocker
    :versions: 0.4.3-0, 0.4.2-0, 0.4.1-0
    
    :depends jinja2: >=2.0
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends pyyaml: >=3.0
-   
    :requirements:
 
    .. rubric:: Installation

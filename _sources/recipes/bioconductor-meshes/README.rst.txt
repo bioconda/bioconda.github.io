@@ -26,19 +26,12 @@ bioconductor-meshes
    :versions: 1.8.0-0, 1.6.1-0, 1.4.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-dose: >=3.8.0,<3.9.0
-   
    :depends bioconductor-enrichplot: >=1.2.0,<1.3.0
-   
    :depends bioconductor-gosemsim: >=2.8.0,<2.9.0
-   
    :depends bioconductor-mesh.db: >=1.11.0,<1.12.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rvcheck: 
-   
    :requirements:
 
    .. rubric:: Installation

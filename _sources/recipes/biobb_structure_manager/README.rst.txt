@@ -36,9 +36,7 @@ biobb_structure_manager
    :versions: 0.0.6-0, 0.0.5-0
    
    :depends biopython: 1.73
-   
    :depends python: 3.6.*
-   
    :requirements:
 
    .. rubric:: Installation

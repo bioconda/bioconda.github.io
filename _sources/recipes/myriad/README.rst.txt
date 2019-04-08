@@ -25,7 +25,6 @@ myriad
    :versions: 0.1.4-0, 0.1.3-2, 0.1.3-0
    
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

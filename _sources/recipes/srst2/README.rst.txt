@@ -25,15 +25,10 @@ srst2
    :versions: 0.2.0-3, 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.6-1, 0.1.6-0, 0.1.4.6-1, 0.1.4.6-0
    
    :depends bowtie2: <=2.2.9
-   
    :depends numpy: >=1.7.1
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: 0.1.18
-   
    :depends scipy: >=0.12.0
-   
    :requirements:
 
    .. rubric:: Installation

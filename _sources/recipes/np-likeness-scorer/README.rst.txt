@@ -25,9 +25,7 @@ np-likeness-scorer
    :versions: 2.1-0
    
    :depends openjdk: >=6
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

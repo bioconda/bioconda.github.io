@@ -25,17 +25,11 @@ perl-test-memory-cycle
    :versions: 1.06-1, 1.06-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-devel-cycle: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-padwalker: 
-   
    :depends perl-test-builder-tester: 
-   
    :depends perl-test-simple: 
-   
    :requirements:
 
    .. rubric:: Installation

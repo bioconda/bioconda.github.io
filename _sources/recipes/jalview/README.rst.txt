@@ -28,11 +28,8 @@ jalview
    :versions: 2.10.5-3, 2.10.4-0, 2.10.4b1-2, 2.10.4b1-0, 2.10.3-1, 2.10.3-0, 2.10.3b1-0, 2.10.2b2-2, 2.10.2b2-1, 2.10.2b2-0
    
    :depends openjdk: >8.0.121
-   
    :depends psutil: 
-   
    :depends xorg-libxtst: 
-   
    :requirements:
 
    .. rubric:: Installation

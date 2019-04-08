@@ -26,21 +26,13 @@ bioconductor-rpsixml
    :versions: 2.24.0-0, 2.22.0-0, 2.20.0-0
    
    :depends bioconductor-annotate: >=1.60.0,<1.61.0
-   
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-hypergraph: >=1.54.0,<1.55.0
-   
    :depends bioconductor-rbgl: >=1.58.0,<1.59.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-xml: >=2.4.0
-   
    :requirements:
 
    .. rubric:: Installation

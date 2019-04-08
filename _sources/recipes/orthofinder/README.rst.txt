@@ -25,33 +25,19 @@ orthofinder
    :versions: 2.2.7-0, 2.2.6-0, 2.2.1-0, 2.2.0-0, 2.1.2-1, 2.1.2-0, 1.1.10-0, 1.1.8-0, 1.1.4-0, 1.1.2-0
    
    :depends blast: 
-   
    :depends bzip2: 
-   
    :depends diamond: 
-   
    :depends dlcpar: 
-   
    :depends fastme: 
-   
    :depends fasttree: 
-   
    :depends iqtree: 
-   
    :depends mafft: 
-   
    :depends mcl: 
-   
    :depends mmseqs2: 
-   
    :depends muscle: 
-   
    :depends python: 2.7.*
-   
    :depends raxml: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

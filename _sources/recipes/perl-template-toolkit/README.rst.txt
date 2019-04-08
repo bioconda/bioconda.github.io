@@ -25,17 +25,11 @@ perl-template-toolkit
    :versions: 2.26-1, 2.26-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-appconfig: 
-   
    :depends perl-cgi: 
-   
    :depends perl-image-info: 
-   
    :depends perl-image-size: 
-   
    :depends perl-test-leaktrace: 
-   
    :requirements:
 
    .. rubric:: Installation

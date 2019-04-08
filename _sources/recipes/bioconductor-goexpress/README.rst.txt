@@ -25,23 +25,14 @@ bioconductor-goexpress
    :versions: 1.16.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: >=0.9.0
-   
    :depends r-gplots: >=2.13.0
-   
    :depends r-randomforest: >=4.6
-   
    :depends r-rcolorbrewer: >=1.0
-   
    :depends r-rcurl: >=1.95
-   
    :depends r-stringr: >=0.6.2
-   
    :requirements:
 
    .. rubric:: Installation

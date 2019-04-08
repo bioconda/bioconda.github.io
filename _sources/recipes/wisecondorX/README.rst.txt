@@ -25,23 +25,14 @@ wisecondorx
    :versions: 1.1.0-0, 1.0.2-0, 1.0.1-0, 1.0.0-0, 0.2.1-0, 0.2.0-1, 0.1.0-2, 0.1.0-1, 0.1.0-0
    
    :depends bioconductor-dnacopy: 
-   
    :depends futures: 
-   
    :depends numpy: 
-   
    :depends pysam: 
-   
    :depends python: 
-   
    :depends r-jsonlite: >=1.5
-   
    :depends r-png: 
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

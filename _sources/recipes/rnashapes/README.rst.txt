@@ -25,15 +25,10 @@ rnashapes
    :versions: 3.3.0-0, 2.1.6-1, 2.1.6-0
    
    :depends bellmans-gapc: 
-   
    :depends boost: 1.61*
-   
    :depends gsl: 1.16*
-   
    :depends libgcc: 
-   
    :depends perl: 5.22.0*
-   
    :requirements:
 
    .. rubric:: Installation

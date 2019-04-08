@@ -25,25 +25,15 @@ mageck-vispr
    :versions: 0.5.4-1, 0.5.4-0, 0.5.3-0, 0.5.2-0, 0.4.7-0, 0.4.6-0, 0.4.5-0
    
    :depends bioconductor-sva: >=3.15.0
-   
    :depends cutadapt: >=1.9.1
-   
    :depends fastqc: >=0.11.4
-   
    :depends jinja2: >=2.8
-   
    :depends mageck: >=0.5.3
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends rpy2: >=2.9.4
-   
    :depends setuptools: 
-   
    :depends snakemake: >=3.6.0
-   
    :depends vispr: >=0.4.4
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ slclust
    :versions: 02022010-3, 02022010-2, 02022010-1, 02022010-0
    
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

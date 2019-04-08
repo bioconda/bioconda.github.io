@@ -25,23 +25,14 @@ r-transformer
    :versions: 0.1.6-0, 0.1.4-0
    
    :depends bioconductor-genomicranges: 
-   
    :depends bioconductor-s4vectors: 
-   
    :depends bioconductor-summarizedexperiment: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bioverbs: >=0.1.8
-   
    :depends r-data.table: >=1.12
-   
    :depends r-goalie: >=0.2.9
-   
    :depends r-matrix: >=1.2
-   
    :depends r-tibble: >=2.0.1
-   
    :requirements:
 
    .. rubric:: Installation

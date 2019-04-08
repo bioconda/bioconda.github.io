@@ -26,23 +26,14 @@ bioconductor-prolocgui
    :versions: 1.16.0-0, 1.12.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-msnbase: >=2.8.0,<2.9.0
-   
    :depends bioconductor-proloc: >=1.22.0,<1.23.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-dt: >=0.1.40
-   
    :depends r-ggplot2: 
-   
    :depends r-scales: 
-   
    :depends r-shiny: >=0.9.1
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ sequencetools
    :versions: 1.2.2-0
    
    :depends gmp: >=6.1.2,<7.0a0
-   
    :depends libgcc-ng: >=4.9
-   
    :depends samtools: 
-   
    :depends xz: >=5.2.3,<5.3.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

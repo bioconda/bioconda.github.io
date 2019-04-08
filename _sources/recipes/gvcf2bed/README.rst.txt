@@ -25,11 +25,8 @@ gvcf2bed
    :versions: 0.3.1-0
    
    :depends cyvcf2: >=0.7.4
-   
    :depends python: >=3
-   
    :depends pyvcf: 0.6.8
-   
    :requirements:
 
    .. rubric:: Installation

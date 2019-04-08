@@ -28,11 +28,8 @@ ncfp
    :versions: 0.1.0-1, 0.1.0-0
    
    :depends biopython: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends tqdm: 
-   
    :requirements:
 
    .. rubric:: Installation

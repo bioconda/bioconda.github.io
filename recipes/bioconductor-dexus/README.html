@@ -1,11 +1,9 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
     <title>Package Recipe &#39;bioconductor-dexus&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -39,7 +37,7 @@
 
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
-    
+
    
   <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
   
@@ -90,8 +88,6 @@
     <form class="search" action="../../search.html" method="get">
       <input type="text" name="q" />
       <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
     </form>
     </div>
 </div>
@@ -109,47 +105,43 @@
 <dt id="recipe-bioconductor-dexus">
 <em class="property">recipe </em><code class="descname">bioconductor-dexus</code><a class="headerlink" href="#recipe-bioconductor-dexus" title="Permalink to this definition">¶</a></dt>
 <dd><p>DEXUS identifies differentially expressed genes in RNA-Seq data under all possible study designs such as studies without replicates, without sample groups, and with unknown conditions. DEXUS works also for known conditions, for example for RNA-Seq data with two or multiple conditions. RNA-Seq read count data can be provided both by the S4 class Count Data Set and by read count matrices. Differentially expressed transcripts can be visualized by heatmaps, in which unknown conditions, replicates, and samples groups are also indicated. This software is fast since the core algorithm is written in C. For very large data sets, a parallel version of DEXUS is provided in this package. DEXUS is a statistical model that is selected in a Bayesian framework by an EM algorithm. DEXUS does not need replicates to detect differentially expressed transcripts, since the replicates (or conditions) are estimated by the EM method for each transcript. The method provides an informative/non-informative value to extract differentially expressed transcripts at a desired significance level or power.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Homepage:</th><td class="field-body"><a class="reference external" href="https://bioconductor.org/packages/3.8/bioc/html/dexus.html">https://bioconductor.org/packages/3.8/bioc/html/dexus.html</a></td>
-</tr>
-<tr class="field-even field"><th class="field-name">License:</th><td class="field-body">LGPL (&gt;= 2.0)</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Recipe:</th><td class="field-body">/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexus">bioconductor-dexus</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexus/meta.yaml">meta.yaml</a></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Links:</th><td class="field-body">biotools: <a class="reference external" href="https://bio.tools/dexus">dexus</a></td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Homepage</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.8/bioc/html/dexus.html">https://bioconductor.org/packages/3.8/bioc/html/dexus.html</a></p>
+</dd>
+<dt class="field-even">License</dt>
+<dd class="field-even"><p>LGPL (&gt;= 2.0)</p>
+</dd>
+<dt class="field-odd">Recipe</dt>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexus">bioconductor-dexus</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexus/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-even">Links</dt>
+<dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/dexus">dexus</a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="package">
 <dt id="package-bioconductor-dexus">
 <em class="property">package </em><code class="descname">bioconductor-dexus</code><a class="headerlink" href="#package-bioconductor-dexus" title="Permalink to this definition">¶</a></dt>
 <dd><p><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-dexus.svg?style=flat" /> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-dexus"><img alt="docker_bioconductor-dexus" src="https://quay.io/repository/biocontainers/bioconductor-dexus/status" /></a></p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">1.22.1-0, 1.22.0-0, 1.20.0-0, 1.18.0-0</p>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
-<li><a class="conda-package reference internal" href="../bioconductor-biocgenerics/README.html#package-bioconductor-biocgenerics" title="bioconductor-biocgenerics package"><strong>bioconductor-biocgenerics</strong></a> &gt;=0.28.0,&lt;0.29.0</li>
-<li><strong>libgcc-ng</strong> &gt;=7.3.0</li>
-<li><strong>libstdcxx-ng</strong> &gt;=7.3.0</li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</li>
+<dl class="field-list simple">
+<dt class="field-odd">Versions</dt>
+<dd class="field-odd"><p>1.22.1-0, 1.22.0-0, 1.20.0-0, 1.18.0-0</p>
+</dd>
+<dt class="field-even">Depends</dt>
+<dd class="field-list-wrapped field-even"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../bioconductor-biocgenerics/README.html#package-bioconductor-biocgenerics" title="bioconductor-biocgenerics package"><strong>bioconductor-biocgenerics</strong></a> &gt;=0.28.0,&lt;0.29.0</p></li>
+<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
+<li><p><strong>libstdcxx-ng</strong> &gt;=7.3.0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
 </ul>
-</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
+</dd>
+<dt class="field-odd">Required By</dt>
+<dd class="field-odd"><ul class="simple">
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">dexus</span>
@@ -186,7 +178,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
@@ -196,6 +188,8 @@
 
     
 
-    
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/bioconductor-dexus/meta.yaml" rel="me">Edit me on GitHub</a>
+    </div>
   </body>
 </html>

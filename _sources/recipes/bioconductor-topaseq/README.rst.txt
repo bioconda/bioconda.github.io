@@ -25,17 +25,11 @@ bioconductor-topaseq
    :versions: 1.16.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-graphite: >=1.28.0,<1.29.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rcpp: 
-   
    :requirements:
 
    .. rubric:: Installation

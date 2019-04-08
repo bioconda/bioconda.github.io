@@ -25,11 +25,8 @@ extract_genome_region
    :versions: 0.0.3-1, 0.0.3-0
    
    :depends click: 
-   
    :depends pyfaidx: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

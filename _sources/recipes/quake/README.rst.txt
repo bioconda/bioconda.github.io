@@ -26,17 +26,11 @@ quake
    :versions: 0.3.5-0
    
    :depends boost: 1.60*
-   
    :depends jellyfish: 
-   
    :depends libgcc: 
-   
    :depends python: 2.7*
-   
    :depends r: 3.3.1*
-   
    :depends r-vgam: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,19 +25,12 @@ tango
    :versions: 0.4.2-0, 0.3.1-0, 0.3.0-0, 0.2.0-0
    
    :depends biopython: 
-   
    :depends diamond: 
-   
    :depends ete3: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: >3
-   
    :depends tqdm: 
-   
    :requirements:
 
    .. rubric:: Installation

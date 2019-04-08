@@ -26,11 +26,8 @@ bioconductor-rankprod
    :versions: 3.8.0-0, 3.6.0-0, 3.4.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gmp: 
-   
    :depends r-rmpfr: 
-   
    :requirements:
 
    .. rubric:: Installation

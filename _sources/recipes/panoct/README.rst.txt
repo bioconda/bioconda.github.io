@@ -25,7 +25,6 @@ panoct
    :versions: 3.23-1, 3.23-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

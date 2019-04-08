@@ -1,11 +1,9 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
     <title>Package Recipe &#39;gatk&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -39,7 +37,7 @@
 
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
-    
+
    
   <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
   
@@ -90,8 +88,6 @@
     <form class="search" action="../../search.html" method="get">
       <input type="text" name="q" />
       <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
     </form>
     </div>
 </div>
@@ -109,53 +105,46 @@
 <dt id="recipe-gatk">
 <em class="property">recipe </em><code class="descname">gatk</code><a class="headerlink" href="#recipe-gatk" title="Permalink to this definition">¶</a></dt>
 <dd><p>The full Genome Analysis Toolkit (GATK) framework, license restricted.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Homepage:</th><td class="field-body"><a class="reference external" href="https://www.broadinstitute.org/gatk/">https://www.broadinstitute.org/gatk/</a></td>
-</tr>
-<tr class="field-even field"><th class="field-name">License:</th><td class="field-body"><a class="reference external" href="https://www.broadinstitute.org/gatk/about/#licensing">https://www.broadinstitute.org/gatk/about/#licensing</a></td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Recipe:</th><td class="field-body">/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatk">gatk</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatk/meta.yaml">meta.yaml</a></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Links:</th><td class="field-body">biotools: <a class="reference external" href="https://bio.tools/gatk">gatk</a></td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Homepage</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.broadinstitute.org/gatk/">https://www.broadinstitute.org/gatk/</a></p>
+</dd>
+<dt class="field-even">License</dt>
+<dd class="field-even"><p><a class="reference external" href="https://www.broadinstitute.org/gatk/about/#licensing">https://www.broadinstitute.org/gatk/about/#licensing</a></p>
+</dd>
+<dt class="field-odd">Recipe</dt>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatk">gatk</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatk/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-even">Links</dt>
+<dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/gatk">gatk</a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="package">
 <dt id="package-gatk">
 <em class="property">package </em><code class="descname">gatk</code><a class="headerlink" href="#package-gatk" title="Permalink to this definition">¶</a></dt>
 <dd><p><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/gatk.svg?style=flat" /> <a class="reference external" href="https://quay.io/repository/biocontainers/gatk"><img alt="docker_gatk" src="https://quay.io/repository/biocontainers/gatk/status" /></a></p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">3.8-5, 3.8-4, 3.8-3, 3.8-2, 3.8-1, 3.8-0, 3.7-1, 3.7-0, 3.6-6, 3.6-5, 3.6-4, 3.6-3, 3.6-2, 3.6-1, 3.5-6, 3.5-5</p>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/bzip2-feedstock"><strong>bzip2</strong></a></li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/openjdk-feedstock"><strong>openjdk</strong></a> &gt;=8,&lt;9</li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggplot2-feedstock"><strong>r-ggplot2</strong></a></li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-gplots-feedstock"><strong>r-gplots</strong></a></li>
-<li><a class="conda-package reference internal" href="../r-gsalib/README.html#package-r-gsalib" title="r-gsalib package"><strong>r-gsalib</strong></a></li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/r-reshape-feedstock"><strong>r-reshape</strong></a></li>
+<dl class="field-list simple">
+<dt class="field-odd">Versions</dt>
+<dd class="field-odd"><p>3.8-5, 3.8-4, 3.8-3, 3.8-2, 3.8-1, 3.8-0, 3.7-1, 3.7-0, 3.6-6, 3.6-5, 3.6-4, 3.6-3, 3.6-2, 3.6-1, 3.5-6, 3.5-5</p>
+</dd>
+<dt class="field-even">Depends</dt>
+<dd class="field-list-wrapped field-even"><ul class="simple">
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/bzip2-feedstock"><strong>bzip2</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openjdk-feedstock"><strong>openjdk</strong></a> &gt;=8,&lt;9</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggplot2-feedstock"><strong>r-ggplot2</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-gplots-feedstock"><strong>r-gplots</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-gsalib/README.html#package-r-gsalib" title="r-gsalib package"><strong>r-gsalib</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-reshape-feedstock"><strong>r-reshape</strong></a></p></li>
 </ul>
-</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
-<li><a class="conda-package reference internal" href="../mtbseq/README.html#mtbseq"><strong class="xref backref">mtbseq</strong></a></li>
-<li><a class="conda-package reference internal" href="../phyluce/README.html#phyluce"><strong class="xref backref">phyluce</strong></a></li>
-<li><a class="conda-package reference internal" href="../phenix/README.html#phenix"><strong class="xref backref">phenix</strong></a></li>
+</dd>
+<dt class="field-odd">Required By</dt>
+<dd class="field-odd"><ul class="simple">
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">gatk</span>
@@ -196,7 +185,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
@@ -206,6 +195,8 @@
 
     
 
-    
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/gatk/meta.yaml" rel="me">Edit me on GitHub</a>
+    </div>
   </body>
 </html>

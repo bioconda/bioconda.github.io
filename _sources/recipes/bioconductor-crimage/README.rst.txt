@@ -26,21 +26,13 @@ bioconductor-crimage
    :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0
    
    :depends bioconductor-acgh: >=1.60.0,<1.61.0
-   
    :depends bioconductor-dnacopy: >=1.56.0,<1.57.0
-   
    :depends bioconductor-ebimage: >=4.24.0,<4.25.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-e1071: 
-   
    :depends r-foreach: 
-   
    :depends r-mass: 
-   
    :depends r-sgeostat: 
-   
    :requirements:
 
    .. rubric:: Installation

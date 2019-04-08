@@ -25,21 +25,13 @@ hotspot3d
    :versions: 1.8.2-0, 0.6.0-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-archive-extract: 
-   
    :depends perl-json: 
-   
    :depends perl-list-moreutils: 
-   
    :depends perl-list-util: 
-   
    :depends perl-lwp-simple: 
-   
    :depends perl-parallel-forkmanager: 
-   
    :depends perl-test-most: 
-   
    :requirements:
 
    .. rubric:: Installation

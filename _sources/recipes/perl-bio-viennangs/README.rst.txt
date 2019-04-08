@@ -25,77 +25,41 @@ perl-bio-viennangs
    :versions: v0.19.2-5, v0.19-1, v0.18-2, v0.18-1, v0.18-0, v0.16-0
    
    :depends bedtools: >=2.24
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bio-samtools: 
-   
    :depends perl-bioperl: 
-   
    :depends perl-carp: 
-   
    :depends perl-constant: 
-   
    :depends perl-data-dumper: 
-   
    :depends perl-exporter: 
-   
    :depends perl-file-find: 
-   
    :depends perl-file-path: 
-   
    :depends perl-file-share: 
-   
    :depends perl-file-slurp: 
-   
    :depends perl-file-temp: 
-   
    :depends perl-findbin: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-ipc-cmd: 
-   
    :depends perl-lib: 
-   
    :depends perl-list-util: 
-   
    :depends perl-math-round: 
-   
    :depends perl-moose: 
-   
    :depends perl-moosex-clone: 
-   
    :depends perl-namespace-autoclean: 
-   
    :depends perl-params-coerce: 
-   
    :depends perl-path-class: 
-   
    :depends perl-perlio-gzip: 
-   
    :depends perl-pod-usage: 
-   
    :depends perl-posix: 
-   
    :depends perl-template-toolkit: 
-   
    :depends perl-test-deep: 
-   
    :depends perl-test-file-contents: 
-   
    :depends perl-test-files: 
-   
    :depends perl-tie-hash-indexed: 
-   
    :depends ucsc-bedgraphtobigwig: 
-   
    :depends ucsc-bedtobigbed: 
-   
    :depends ucsc-fatotwobit: 
-   
    :depends ucsc-fetchchromsizes: 
-   
    :requirements:
 
    .. rubric:: Installation

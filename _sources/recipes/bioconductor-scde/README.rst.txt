@@ -26,43 +26,24 @@ bioconductor-scde
    :versions: 2.10.0-0, 2.8.0-0, 2.6.0-1, 2.6.0-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-pcamethods: >=1.74.0,<1.75.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cairo: 
-   
    :depends r-extremes: 
-   
    :depends r-flexmix: 
-   
    :depends r-mass: 
-   
    :depends r-mgcv: 
-   
    :depends r-nnet: 
-   
    :depends r-quantreg: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rcpp: >=0.10.4
-   
    :depends r-rcpparmadillo: >=0.5.400.2.0
-   
    :depends r-rjson: 
-   
    :depends r-rmtstat: 
-   
    :depends r-rook: 
-   
    :requirements:
 
    .. rubric:: Installation

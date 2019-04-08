@@ -25,15 +25,10 @@ perl-namespace-autoclean
    :versions: 0.28-2, 0.28-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-b-hooks-endofscope: 
-   
    :depends perl-namespace-clean: 
-   
    :depends perl-sub-identify: 
-   
    :requirements:
 
    .. rubric:: Installation

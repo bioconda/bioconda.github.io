@@ -25,7 +25,6 @@ perl-date-format
    :versions: 2.30-2, 2.30-1, 2.30-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

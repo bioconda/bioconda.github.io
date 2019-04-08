@@ -26,7 +26,6 @@ cortex_con
    :versions: 0.04c-1, 0.04c-0
    
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

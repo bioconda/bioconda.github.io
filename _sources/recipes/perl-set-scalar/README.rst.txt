@@ -25,7 +25,6 @@ perl-set-scalar
    :versions: 1.29-2, 1.29-1, 1.29-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

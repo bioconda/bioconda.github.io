@@ -26,13 +26,9 @@ bioconductor-gmrp
    :versions: 1.10.1-0, 1.8.1-0, 1.5.0-0
    
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-diagram: 
-   
    :depends r-plotrix: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,7 +26,6 @@ barcode_splitter
    :versions: 0.18.4-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

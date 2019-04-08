@@ -28,13 +28,9 @@ cgview
    :versions: 1.0-2, 1.0-1
    
    :depends openjdk: >=6
-   
    :depends perl: 
-   
    :depends perl-bioperl: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

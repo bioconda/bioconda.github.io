@@ -25,17 +25,11 @@ graph_embed
    :versions: 1.0-1, 1.0-0
    
    :depends docopt: 
-   
    :depends matplotlib: 
-   
    :depends networkx: 
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<3
-   
    :depends scikit-learn: 
-   
    :requirements:
 
    .. rubric:: Installation

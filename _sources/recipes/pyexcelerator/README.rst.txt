@@ -25,7 +25,6 @@ pyexcelerator
    :versions: 0.6.4a-2, 0.6.4a-0
    
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

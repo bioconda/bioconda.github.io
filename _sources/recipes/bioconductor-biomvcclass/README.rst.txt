@@ -26,15 +26,10 @@ bioconductor-biomvcclass
    :versions: 1.50.0-0, 1.48.0-0, 1.46.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-mvcclass: >=1.56.0,<1.57.0
-   
    :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

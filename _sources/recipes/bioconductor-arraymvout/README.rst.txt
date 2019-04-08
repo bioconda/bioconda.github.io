@@ -25,21 +25,13 @@ bioconductor-arraymvout
    :versions: 1.40.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-affycontam: >=1.40.0,<1.41.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-lumi: >=2.34.0,<2.35.0
-   
    :depends bioconductor-mdqc: >=1.44.0,<1.45.0
-   
    :depends bioconductor-parody: >=1.40.0,<1.41.0
-   
    :depends bioconductor-simpleaffy: >=2.58.0,<2.59.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

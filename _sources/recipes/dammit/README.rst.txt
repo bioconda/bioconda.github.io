@@ -26,41 +26,23 @@ dammit
    :versions: 1.0-3, 1.0.rc0-0, 1.0rc2-2, 1.0rc2-0, 0.3.2-0, 0.3-0
    
    :depends busco: 3.0.2
-   
    :depends doit: >=0.29.0
-   
    :depends hmmer: 
-   
    :depends infernal: 
-   
    :depends khmer: >=2.1
-   
    :depends last: 
-   
    :depends matplotlib: 
-   
    :depends numexpr: >=2.3.1
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends parallel: 
-   
    :depends pytest: 
-   
    :depends pytest-runner: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends shmlast: 
-   
    :depends sphinx: >1.3.1
-   
    :depends sphinx_rtd_theme: >=0.1.9
-   
    :depends transdecoder: 
-   
    :requirements:
 
    .. rubric:: Installation

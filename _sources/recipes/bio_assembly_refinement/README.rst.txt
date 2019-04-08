@@ -25,11 +25,8 @@ bio_assembly_refinement
    :versions: 0.5.1-2, 0.5.1-1, 0.5.1-0, 0.5.0-1, 0.5.0-0
    
    :depends pyfastaq: >=3.10.0
-   
    :depends pymummer: 
-   
    :depends python: >=3
-   
    :requirements:
 
    .. rubric:: Installation

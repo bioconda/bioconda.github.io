@@ -26,35 +26,20 @@ poppunk
    :versions: 1.1.5-0, 1.1.4-0, 1.1.3-0, 1.1.2-0
    
    :depends dendropy: 
-   
    :depends hdbscan: 
-   
    :depends mash: >=2.0
-   
    :depends matplotlib: 
-   
    :depends mkl: 
-   
    :depends networkx: >=2.1
-   
    :depends numba: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: >=3
-   
    :depends rapidnj: 
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :depends sharedmem: 
-   
    :depends statsmodels: 
-   
    :requirements:
 
    .. rubric:: Installation

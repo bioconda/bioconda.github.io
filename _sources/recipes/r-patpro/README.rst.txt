@@ -25,17 +25,11 @@ r-patpro
    :versions: 1.1.0-0
    
    :depends r: 3.3.1*
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-plyr: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :requirements:
 
    .. rubric:: Installation

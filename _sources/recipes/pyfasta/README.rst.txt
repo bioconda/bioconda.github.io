@@ -26,9 +26,7 @@ pyfasta
    :versions: 0.5.2-0
    
    :depends numpy: 
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

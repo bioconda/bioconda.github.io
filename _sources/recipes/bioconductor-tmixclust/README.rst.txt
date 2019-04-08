@@ -25,23 +25,14 @@ bioconductor-tmixclust
    :versions: 1.4.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-spem: >=1.22.0,<1.23.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-flexclust: 
-   
    :depends r-gss: 
-   
    :depends r-mvtnorm: 
-   
    :depends r-zoo: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,7 +26,6 @@ r-gpseq
    :versions: 0.5-0
    
    :depends r-base: 3.3.2*
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ perl-number-misc
    :versions: 1.2-1, 1.2-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

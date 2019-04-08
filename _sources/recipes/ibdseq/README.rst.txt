@@ -26,7 +26,6 @@ ibdseq
    :versions: r1206-1, r1206-0
    
    :depends java-jdk: >=6.0.77
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ perl-file-details
    :versions: 0.003-1, 0.003-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-class-accessor: 
-   
    :requirements:
 
    .. rubric:: Installation

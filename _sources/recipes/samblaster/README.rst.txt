@@ -25,7 +25,6 @@ samblaster
    :versions: 0.1.24-1, 0.1.24-0, 0.1.23-0, 0.1.22-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

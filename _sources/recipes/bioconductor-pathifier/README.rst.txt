@@ -26,11 +26,8 @@ bioconductor-pathifier
    :versions: 1.20.0-1, 1.20.0-0, 1.16.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-princurve: >=2.0.4
-   
    :depends r-r.oo: 
-   
    :requirements:
 
    .. rubric:: Installation

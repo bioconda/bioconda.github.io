@@ -25,11 +25,8 @@ r-gprofiler
    :versions: 0.6.1-0
    
    :depends r-base: 3.3.1*
-   
    :depends r-plyr: 
-   
    :depends r-rcurl: 
-   
    :requirements:
 
    .. rubric:: Installation

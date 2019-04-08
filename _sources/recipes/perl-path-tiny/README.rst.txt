@@ -25,7 +25,6 @@ perl-path-tiny
    :versions: 0.108-0, 0.082-2, 0.082-1, 0.082-0, 0.076-3, 0.076-2, 0.076-1, 0.076-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

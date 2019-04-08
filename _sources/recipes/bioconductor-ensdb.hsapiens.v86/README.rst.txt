@@ -25,11 +25,8 @@ bioconductor-ensdb.hsapiens.v86
    :versions: 2.99.0-0
    
    :depends bioconductor-ensembldb: >=2.6.0,<2.7.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

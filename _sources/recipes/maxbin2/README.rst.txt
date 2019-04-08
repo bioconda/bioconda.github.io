@@ -25,21 +25,13 @@ maxbin2
    :versions: 2.2.6-0, 2.2.4-1, 2.2.4-0, 2.2.1-1, 2.2.1-0
    
    :depends bowtie2: 
-   
    :depends fraggenescan: >=1.30
-   
    :depends hmmer: 
-   
    :depends idba: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends perl-lwp-simple: 
-   
    :depends r-base: 
-   
    :depends r-gplots: 
-   
    :requirements:
 
    .. rubric:: Installation

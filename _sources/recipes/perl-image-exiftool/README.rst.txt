@@ -25,7 +25,6 @@ perl-image-exiftool
    :versions: 11.11-0, 11.01-1, 11.01-0, 10.40-2, 10.40-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

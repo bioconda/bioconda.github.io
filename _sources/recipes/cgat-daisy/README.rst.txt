@@ -25,17 +25,11 @@ cgat-daisy
    :versions: 0.1.2-0
    
    :depends cgatcore: 
-   
    :depends pandas: 
-   
    :depends pysam: 
-   
    :depends ruamel_yaml: 
-   
    :depends ruffus: 
-   
    :depends sqlalchemy: 
-   
    :requirements:
 
    .. rubric:: Installation

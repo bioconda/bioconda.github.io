@@ -25,7 +25,6 @@ delegation
    :versions: 1.1-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

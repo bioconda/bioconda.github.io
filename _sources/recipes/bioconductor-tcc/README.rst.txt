@@ -26,17 +26,11 @@ bioconductor-tcc
    :versions: 1.22.0-0, 1.20.1-0, 1.18.0-0
    
    :depends bioconductor-bayseq: >=2.16.0,<2.17.0
-   
    :depends bioconductor-deseq: >=1.34.0,<1.35.0
-   
    :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-roc: >=1.58.0,<1.59.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

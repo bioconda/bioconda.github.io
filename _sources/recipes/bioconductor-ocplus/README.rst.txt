@@ -25,11 +25,8 @@ bioconductor-ocplus
    :versions: 1.56.0-0
    
    :depends bioconductor-multtest: >=2.38.0,<2.39.0
-   
    :depends r-akima: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

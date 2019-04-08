@@ -26,11 +26,8 @@ bioconductor-hem
    :versions: 1.54.0-0, 1.52.0-0, 1.50.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,17 +25,11 @@ medpy
    :versions: 0.3.0-0
    
    :depends itk: 
-   
    :depends nibabel: >=1.3.0
-   
    :depends numpy: >=1.6.1
-   
    :depends pydicom: >=0.9.7
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: >=0.9.0
-   
    :requirements:
 
    .. rubric:: Installation

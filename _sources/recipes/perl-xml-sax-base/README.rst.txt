@@ -25,7 +25,6 @@ perl-xml-sax-base
    :versions: 1.09-0, 1.08-1, 1.08-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

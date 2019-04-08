@@ -25,11 +25,8 @@ bioconductor-joda
    :versions: 1.30.0-0
    
    :depends bioconductor-rbgl: >=1.58.0,<1.59.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bgmm: 
-   
    :requirements:
 
    .. rubric:: Installation

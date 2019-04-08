@@ -25,27 +25,16 @@ chewbbaca
    :versions: 2.0.16-0, 2.0.15-0, 2.0.12-2, 2.0.8-2, 2.0.8-0, 2.0.6-0, 1.0-0
    
    :depends biopython: >=1.70
-   
    :depends blast: >=2.5.0
-   
    :depends clustalw: >=2.1
-   
    :depends mafft: 
-   
    :depends numpy: >=1.14.0
-   
    :depends pandas: >=0.22.0
-   
    :depends plotly: >=1.12.9
-   
    :depends prodigal: >=2.6.0
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends scipy: >=0.13.3
-   
    :depends sparqlwrapper: >=1.8.0
-   
    :requirements:
 
    .. rubric:: Installation

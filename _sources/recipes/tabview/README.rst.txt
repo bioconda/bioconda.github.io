@@ -25,9 +25,7 @@ tabview
    :versions: 1.4.3-0, 1.4.2-2, 1.4.2-1
    
    :depends ncurses: >=6.1,<6.2.0a0
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

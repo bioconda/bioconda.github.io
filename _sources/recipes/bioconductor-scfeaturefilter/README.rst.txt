@@ -25,17 +25,11 @@ bioconductor-scfeaturefilter
    :versions: 1.2.1-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: >=0.7.3
-   
    :depends r-ggplot2: >=2.1.0
-   
    :depends r-magrittr: >=1.5
-   
    :depends r-rlang: >=0.1.2
-   
    :depends r-tibble: >=1.3.4
-   
    :requirements:
 
    .. rubric:: Installation

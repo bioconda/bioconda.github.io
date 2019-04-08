@@ -26,23 +26,14 @@ biomaj
    :versions: 3.0.19-0
    
    :depends bcrypt: 
-   
    :depends drmaa: 
-   
    :depends elasticsearch: 
-   
    :depends future: 
-   
    :depends ldap3: 
-   
    :depends pycurl: 
-   
    :depends pymongo: 
-   
    :depends python: 2.7*
-   
    :depends tabulate: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ perl-tie-refhash-weak
    :versions: 0.09-2, 0.09-1, 0.09-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-task-weaken: 
-   
    :depends perl-tie-refhash: 
-   
    :depends perl-variable-magic: 
-   
    :requirements:
 
    .. rubric:: Installation

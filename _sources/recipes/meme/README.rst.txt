@@ -25,49 +25,27 @@ meme
    :versions: 5.0.2-5, 5.0.2-3, 5.0.2-2, 4.12.0-2, 4.12.0-1, 4.12.0-0, 4.11.2-1, 4.11.2-0, 4.11.1-4, 4.11.1-3, 4.11.1-2, 4.11.1-1, 4.11.1-0, 4.8.1-1
    
    :depends expat: >=2.2.5,<2.3.0a0
-   
    :depends ghostscript: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libxml2: >=2.9.8,<2.10.0a0
-   
    :depends libxslt: >=1.1.32,<2.0a0
-   
    :depends openmpi: >=3.1,<3.2.0a0
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-cgi: 
-   
    :depends perl-file-which: 
-   
    :depends perl-html-parser: 
-   
    :depends perl-html-template: 
-   
    :depends perl-html-tree: 
-   
    :depends perl-json: 
-   
    :depends perl-log-log4perl: 
-   
    :depends perl-math-cdf: 
-   
    :depends perl-xml-parser: 
-   
    :depends perl-xml-simple: 
-   
    :depends perl-yaml: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends xz: >=5.2.4,<5.3.0a0
-   
    :depends yaml: >=0.1.7,<0.2.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

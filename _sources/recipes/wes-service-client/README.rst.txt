@@ -25,15 +25,10 @@ wes-service-client
    :versions: 2.7-1, 2.5-1, 2.5-0
    
    :depends future: 
-   
    :depends python: 
-   
    :depends schema-salad: >=2.6.20170927145003,<3.0
-   
    :depends setuptools: 
-   
    :depends subprocess32: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ fadapa
    :versions: 0.3.1-1, 0.3.1-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

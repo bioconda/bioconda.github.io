@@ -25,9 +25,7 @@ perl-test-base
    :versions: 0.89-0, 0.88-2, 0.88-1, 0.88-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-spiffy: 
-   
    :requirements:
 
    .. rubric:: Installation

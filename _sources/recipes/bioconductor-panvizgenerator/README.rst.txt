@@ -25,17 +25,11 @@ bioconductor-panvizgenerator
    :versions: 1.10.0-0
    
    :depends bioconductor-findmyfriends: >=1.12.0,<1.13.0
-   
    :depends bioconductor-pcamethods: >=1.74.0,<1.75.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-igraph: 
-   
    :depends r-jsonlite: 
-   
    :depends r-shiny: 
-   
    :requirements:
 
    .. rubric:: Installation

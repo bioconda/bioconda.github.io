@@ -25,17 +25,11 @@ r-bedr
    :versions: 1.0.4-1, 1.0.4-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: >=1.8.11
-   
    :depends r-r.utils: >=2.0.2
-   
    :depends r-testthat: >=0.7.1
-   
    :depends r-venndiagram: >=1.6.4
-   
    :depends r-yaml: >=2.1.10
-   
    :requirements:
 
    .. rubric:: Installation

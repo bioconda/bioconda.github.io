@@ -25,23 +25,14 @@ bioconductor-flowmerge
    :versions: 2.30.1-0
    
    :depends bioconductor-flowclust: >=3.20.0,<3.21.0
-   
    :depends bioconductor-flowcore: >=1.48.0,<1.49.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-feature: 
-   
    :depends r-foreach: 
-   
    :depends r-rrcov: 
-   
    :depends r-snow: 
-   
    :requirements:
 
    .. rubric:: Installation

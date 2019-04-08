@@ -25,35 +25,20 @@ scikit-bio
    :versions: 0.4.2-0, 0.2.3-0
    
    :depends bz2file: 
-   
    :depends cachecontrol: 
-   
    :depends contextlib2: 
-   
    :depends decorator: 
-   
    :depends future: 
-   
    :depends ipython: 
-   
    :depends lockfile: 
-   
    :depends matplotlib: >=1.1.0
-   
    :depends natsort: 
-   
    :depends nose: 
-   
    :depends numpy: 1.10*
-   
    :depends pandas: 
-   
    :depends python: 2.7*
-   
    :depends scipy: >=0.13.0
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

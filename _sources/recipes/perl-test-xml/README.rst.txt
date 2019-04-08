@@ -25,19 +25,12 @@ perl-test-xml
    :versions: 0.08-1, 0.08-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-xml-parser: 
-   
    :depends perl-xml-sax: 
-   
    :depends perl-xml-sax-writer: 
-   
    :depends perl-xml-semanticdiff: 
-   
    :depends perl-xml-twig: 
-   
    :depends perl-xml-xpath: 
-   
    :requirements:
 
    .. rubric:: Installation

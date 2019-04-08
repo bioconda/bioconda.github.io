@@ -26,27 +26,16 @@ virmet
    :versions: v1.1.1-4, v1.1.1-3, v1.1.1-2, v1.1.1-1, v1.1.1-0, v1.1-2, v1.1-1, v1.1-0, v1.0-0
    
    :depends biopython: 
-   
    :depends blast: >=2.3
-   
    :depends bwa: 
-   
    :depends entrez-direct: 
-   
    :depends htslib: 
-   
    :depends pandas: 
-   
    :depends prinseq: 
-   
    :depends python: >=3
-   
    :depends r-ggplot2: 
-   
    :depends samtools: >=1.3
-   
    :depends seqtk: 
-   
    :requirements:
 
    .. rubric:: Installation

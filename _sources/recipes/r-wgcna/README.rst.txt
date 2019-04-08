@@ -26,37 +26,21 @@ r-wgcna
    :versions: 1.66-1, 1.66-0, 1.64_1-0, 1.61-0, 1.51-1, 1.51-0
    
    :depends bioconductor-annotationdbi: 
-   
    :depends bioconductor-go.db: 
-   
    :depends bioconductor-impute: 
-   
    :depends bioconductor-preprocesscore: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-doparallel: 
-   
    :depends r-dynamictreecut: >=1.62
-   
    :depends r-fastcluster: 
-   
    :depends r-foreach: 
-   
    :depends r-hmisc: 
-   
    :depends r-matrixstats: >=0.8.1
-   
    :depends r-rcpp: >=0.11.0
-   
    :depends r-robust: 
-   
    :depends r-survival: 
-   
    :requirements:
 
    .. rubric:: Installation

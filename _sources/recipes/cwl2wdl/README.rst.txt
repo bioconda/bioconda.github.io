@@ -25,9 +25,7 @@ cwl2wdl
    :versions: 0.1dev44-2, 0.1dev44-1, 0.1dev44-0, 0.1dev37-0
    
    :depends python: 
-   
    :depends pyyaml: 
-   
    :requirements:
 
    .. rubric:: Installation

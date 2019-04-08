@@ -25,27 +25,16 @@ bioconductor-charge
    :versions: 1.2.0-0
    
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-diptest: 
-   
    :depends r-factoextra: 
-   
    :depends r-factominer: 
-   
    :depends r-matrixstats: 
-   
    :depends r-modes: 
-   
    :depends r-plyr: 
-   
    :requirements:
 
    .. rubric:: Installation

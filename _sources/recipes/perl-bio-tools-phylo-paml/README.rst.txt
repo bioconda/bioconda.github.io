@@ -25,17 +25,11 @@ perl-bio-tools-phylo-paml
    :versions: 1.7.3-0
    
    :depends paml: 
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-base: 
-   
    :depends perl-bioperl-run: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-io-string: 
-   
    :requirements:
 
    .. rubric:: Installation

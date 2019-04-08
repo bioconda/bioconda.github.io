@@ -25,45 +25,25 @@ starfish
    :versions: 0.0.31-0, 0.0.30-0, 0.0.29-0, 0.0.27-0, 0.0.26-2, 0.0.25-2, 0.0.23-2, 0.0.21-2, 0.0.20-2, 0.0.19-2, 0.0.18-2, 0.0.17-2, 0.0.16-2, 0.0.14-2, 0.0.14-1, 0.0.14-0
    
    :depends click: 
-   
    :depends jsonschema: 
-   
    :depends matplotlib: 
-   
    :depends numpy: !=1.13.0
-   
    :depends pandas: >=0.23.4
-   
    :depends pytest: >=3.6.3
-   
    :depends python: >=3.6
-   
    :depends regional: 
-   
    :depends requests: 
-   
    :depends scikit-image: >=0.14.0
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :depends seaborn: 
-   
    :depends semantic_version: 
-   
    :depends showit: 1.1.4
-   
    :depends slicedimage: 0.0.6
-   
    :depends tqdm: 
-   
    :depends trackpy: 
-   
    :depends validators: 
-   
    :depends xarray: 
-   
    :requirements:
 
    .. rubric:: Installation

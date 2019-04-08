@@ -25,25 +25,15 @@ mirge
    :versions: 2.0.6-4, 2.0.5-3, 2.0.4-2, 2.0.3-0, 2.0-0
    
    :depends biopython: >=1.68
-   
    :depends cutadapt: >=1.11
-   
    :depends matplotlib: >=2.1.1
-   
    :depends numpy: >=1.11.3
-   
    :depends pandas: >=0.21.1
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends reportlab: >=3.3.0
-   
    :depends scikit-learn: >=0.18.1
-   
    :depends scipy: >=0.17.0
-   
    :depends setuptools: 
-   
    :requirements:
 
    .. rubric:: Installation

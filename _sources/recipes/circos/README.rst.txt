@@ -26,41 +26,23 @@ circos
    :versions: 0.69.6-4, 0.69.6-2, 0.69.6-1, 0.69.6-0, 0.69.5-0, 0.69.4-0, 0.69.2-0
    
    :depends perl: 
-   
    :depends perl-clone: 
-   
    :depends perl-config-general: 
-   
    :depends perl-digest-perl-md5: 
-   
    :depends perl-font-ttf: 
-   
    :depends perl-gd: 
-   
    :depends perl-list-moreutils: 
-   
    :depends perl-math-bezier: 
-   
    :depends perl-math-round: 
-   
    :depends perl-math-vecstat: 
-   
    :depends perl-params-validate: 
-   
    :depends perl-readonly: 
-   
    :depends perl-regexp-common: 
-   
    :depends perl-set-intspan: 
-   
    :depends perl-statistics-basic: 
-   
    :depends perl-svg: 
-   
    :depends perl-text-format: 
-   
    :depends perl-time-hires: 
-   
    :requirements:
 
    .. rubric:: Installation

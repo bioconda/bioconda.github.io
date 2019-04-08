@@ -25,21 +25,13 @@ perl-sanger-cgp-battenberg
    :versions: 1.4.1-4, 1.4.1-3, 1.4.1-2, 1.4.1-1
    
    :depends cancerit-allelecount: 
-   
    :depends impute2: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-file-sharedir: 
-   
    :depends perl-file-sharedir-install: 
-   
    :depends perl-pcap: 
-   
    :depends perl-sanger-cgp-allelecount: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,7 +26,6 @@ genesplicer
    :versions: 1.0-1, 1.0-0, 0_2003.04.03-1, 0_2003.04.03-0
    
    :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

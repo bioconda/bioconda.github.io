@@ -25,15 +25,10 @@ graphclust-wrappers
    :versions: 0.6.0-1, 0.5.2-1, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.3.1-0, 0.3.0-0, 0.2.0-0, 0.1.12-0, 0.1.11-0, 0.1.10-0, 0.1.9-0, 0.1.8-1, 0.1.8-0, 0.1.7-0, 0.1-3, 0.1-2, 0.1-1, 0.1-0
    
    :depends biopython: 1.70.0.*
-   
    :depends pandas: 0.23.0.*
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-array-utils: 
-   
    :depends perl-math-round: 
-   
    :requirements:
 
    .. rubric:: Installation

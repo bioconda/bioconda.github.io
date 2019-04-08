@@ -25,9 +25,7 @@ perl-xml-entities
    :versions: 1.0002-1, 1.0002-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,35 +25,20 @@ grid
    :versions: 1.2-0, 1.1-4, 1.1-3, 1.1-2, 1.1-1, 1.1-0, 1.0.6-0
    
    :depends bamtools: 
-   
    :depends bedtools: 
-   
    :depends blast: 
-   
    :depends bowtie2: 
-   
    :depends mosdepth: 
-   
    :depends parallel: 
-   
    :depends pathoscope: 
-   
    :depends r-dplyr: 
-   
    :depends r-getopt: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-gsubfn: 
-   
    :depends readline: >=6.2
-   
    :depends samtools: 
-   
    :depends seqtk: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,27 +25,16 @@ scanindel
    :versions: 1.3-0
    
    :depends bedtools: ==2.17.0
-   
    :depends biopython: ==1.64
-   
    :depends blat: 
-   
    :depends bwa: ==0.7.12
-   
    :depends freebayes: ==0.9.21.7
-   
    :depends numpy: 
-   
    :depends pysam: ==0.7.7
-   
    :depends python: 2.7*
-   
    :depends pyvcf: ==0.6.7
-   
    :depends samtools: <=1.0
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

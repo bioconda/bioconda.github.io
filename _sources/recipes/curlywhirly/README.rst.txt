@@ -25,7 +25,6 @@ curlywhirly
    :versions: 1.17.08.31-1, 1.17.08.31-0
    
    :depends openjdk: >=8,<9
-   
    :requirements:
 
    .. rubric:: Installation

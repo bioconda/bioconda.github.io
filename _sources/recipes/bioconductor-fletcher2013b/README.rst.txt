@@ -25,19 +25,12 @@ bioconductor-fletcher2013b
    :versions: 1.18.0-0
    
    :depends bioconductor-fletcher2013a: >=1.18.0,<1.19.0
-   
    :depends bioconductor-reder: >=1.30.0,<1.31.0
-   
    :depends bioconductor-rtn: >=2.6.0,<2.7.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-igraph: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,33 +25,19 @@ r-spocc
    :versions: 0.9.0-1, 0.9.0-0, 0.8.0-3, 0.8.0-2, 0.7.0-0
    
    :depends geos: >=3.6.2,<3.6.3.0a0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-crul: >=0.3.4
-   
    :depends r-data.table: >=1.9.6
-   
    :depends r-jsonlite: >=1.4
-   
    :depends r-lubridate: >=1.5.0
-   
    :depends r-rbison: >=0.6.0
-   
    :depends r-rebird: >=0.3.0
-   
    :depends r-rgbif: >=1.0.0
-   
    :depends r-ridigbio: >=0.3.5
-   
    :depends r-rvertnet: >=0.7.0
-   
    :depends r-tibble: >=1.2
-   
    :depends r-whisker: >=0.3_2
-   
    :depends r-wicket: >=0.3.0
-   
    :requirements:
 
    .. rubric:: Installation

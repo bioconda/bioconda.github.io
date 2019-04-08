@@ -27,7 +27,6 @@ thermorawfileparser
    :versions: 1.1.0-0, 0.0.2018.09.07-1, 0.0.2018.09.07-0
    
    :depends mono: >=5
-   
    :requirements:
 
    .. rubric:: Installation

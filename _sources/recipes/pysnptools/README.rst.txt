@@ -25,13 +25,9 @@ pysnptools
    :versions: 0.3.13-2, 0.3.13-0, 0.3.9-0
    
    :depends numpy: >=1.9.2
-   
    :depends pandas: >=0.16.2
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: >=0.15.1
-   
    :requirements:
 
    .. rubric:: Installation

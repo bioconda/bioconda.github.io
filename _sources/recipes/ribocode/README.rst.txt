@@ -25,25 +25,15 @@ ribocode
    :versions: 1.2.11-0, 1.2.10-2, 1.2.10-1, 1.2.10-0, 1.2.9-0, 1.2.8-0, 1.2.7-0, 1.2.6-0
    
    :depends biopython: 
-   
    :depends future: 
-   
    :depends h5py: 
-   
    :depends htseq: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pyfasta: 
-   
    :depends pysam: >0.8.4
-   
    :depends python: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

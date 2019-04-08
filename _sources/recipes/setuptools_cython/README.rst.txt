@@ -25,11 +25,8 @@ setuptools_cython
    :versions: 0.2.1-1, 0.2.1-0
    
    :depends cython: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends setuptools: 
-   
    :requirements:
 
    .. rubric:: Installation

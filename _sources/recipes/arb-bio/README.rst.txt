@@ -46,63 +46,34 @@ arb-bio
    :versions: 6.0.6-8, 6.0.6-7, 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3, 6.0.6-1, 6.0.6-0
    
    :depends arb-bio-tools: 6.0.6 haa8b8d8_8
-   
    :depends fasttree: 
-   
    :depends fig2dev: 
-   
    :depends gettext: >=0.19.8.1,<1.0a0
-   
    :depends glib: >=2.58.2,<3.0a0
-   
    :depends gnuplot: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libpng: >=1.6.35,<1.7.0a0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends libtiff: >=4.0.9,<5.0a0
-   
    :depends libxslt: >=1.1.32,<2.0a0
-   
    :depends mafft: 
-   
    :depends mrbayes: 
-   
    :depends muscle: 
-   
    :depends openmotif: 
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends phylip: 
-   
    :depends phyml: 3.2.0.*
-   
    :depends raxml: 
-   
    :depends sed: >=4.4
-   
    :depends xerces-c: >=3.2.2,<3.2.3.0a0
-   
    :depends xfig: 
-   
    :depends xorg-libxaw: 
-   
    :depends xorg-libxft: 
-   
    :depends xorg-libxi: 
-   
    :depends xorg-libxmu: 
-   
    :depends xorg-libxp: 
-   
    :depends xorg-libxpm: 
-   
    :depends xorg-libxt: 
-   
    :requirements:
 
    .. rubric:: Installation
@@ -137,13 +108,9 @@ arb-bio
    :versions: 6.0.6-8, 6.0.6-7, 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3
    
    :depends arb-bio: 6.0.6 pl526h7ded70a_8
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends openmotif-dev: 
-   
    :requirements:
 
    .. rubric:: Installation
@@ -178,13 +145,9 @@ arb-bio
    :versions: 6.0.6-8, 6.0.6-7, 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3
    
    :depends glib: >=2.58.2,<3.0a0
-   
    :depends libarbdb: 6.0.6 haa8b8d8_8
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :requirements:
 
    .. rubric:: Installation
@@ -219,13 +182,9 @@ arb-bio
    :versions: 6.0.6-8, 6.0.6-7, 6.0.6-6, 6.0.6-5, 6.0.6-4, 6.0.6-3
    
    :depends gettext: 
-   
    :depends glib: >=2.58.2,<3.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :requirements:
 
    .. rubric:: Installation

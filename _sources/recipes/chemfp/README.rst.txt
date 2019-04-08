@@ -36,13 +36,9 @@ chemfp
    :versions: 1.5-0, 1.4-1, 1.4-0, 1.3-1, 1.3-0, 1.3a1-0, 1.1p1-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends openbabel: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends rdkit: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,23 +25,14 @@ intemap
    :versions: 1.0-1, 1.0-0
    
    :depends abyss: 
-   
    :depends bowtie2: 
-   
    :depends idba: 
-   
    :depends jellyfish: 
-   
    :depends libgcc: 
-   
    :depends mummer: 
-   
    :depends python: 2.7*
-   
    :depends quake: 
-   
    :depends wgs-assembler: 
-   
    :requirements:
 
    .. rubric:: Installation

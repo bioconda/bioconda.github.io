@@ -25,7 +25,6 @@ perl-number-compare
    :versions: 0.03-2, 0.03-1, 0.03-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

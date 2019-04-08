@@ -25,9 +25,7 @@ bis-snp-utils
    :versions: 0.0.1-2, 0.0.1-1, 0.0.1-0
    
    :depends perl: 
-   
    :depends perl-getopt-long: 
-   
    :requirements:
 
    .. rubric:: Installation

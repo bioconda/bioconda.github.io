@@ -25,21 +25,13 @@ bioconductor-biocfilecache
    :versions: 1.6.0-0, 1.4.0-0, 1.2.3-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-curl: 
-   
    :depends r-dbi: 
-   
    :depends r-dbplyr: >=1.0.0
-   
    :depends r-dplyr: 
-   
    :depends r-httr: 
-   
    :depends r-rappdirs: 
-   
    :depends r-rsqlite: 
-   
    :requirements:
 
    .. rubric:: Installation

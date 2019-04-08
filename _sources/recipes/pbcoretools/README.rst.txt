@@ -25,15 +25,10 @@ pbcoretools
    :versions: 0.2.4-4, 0.2.4-3, 0.2.4-2, 0.2.4-1, 0.2.4-0
    
    :depends numpy: >=1.15
-   
    :depends pbcommand: >=1.1.1
-   
    :depends pbcore: >=1.6.5
-   
    :depends pysam: >=0.13
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,11 +26,8 @@ r-nastiseq
    :versions: 1.0-0
    
    :depends bioconductor-deseq: 
-   
    :depends r: 3.3.1*
-   
    :depends r-rocr: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ bioconductor-maxcontrastprojection
    :versions: 1.6.0-0
    
    :depends bioconductor-ebimage: >=4.24.0,<4.25.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,37 +25,21 @@ r-plasmidprofiler
    :versions: 0.1.6-3, 0.1.6-2, 0.1.6-1, 0.1.6-0, 0.1.4-0
    
    :depends pandoc: 1.19.2
-   
    :depends r: 3.3.1
-   
    :depends r-ape: 3.5
-   
    :depends r-dplyr: 0.5.0
-   
    :depends r-gdata: 2.17.0
-   
    :depends r-ggdendro: 0.1_17
-   
    :depends r-ggplot2: 2.1.0
-   
    :depends r-gridextra: 2.2.1
-   
    :depends r-gtable: 0.2.0
-   
    :depends r-htmlwidgets: 0.6
-   
    :depends r-magrittr: 1.5
-   
    :depends r-plotly: 4.5.2
-   
    :depends r-plyr: 1.8.4
-   
    :depends r-rcolorbrewer: 1.1_2
-   
    :depends r-reshape2: 1.4.2
-   
    :depends r-stringr: 1.1.0
-   
    :requirements:
 
    .. rubric:: Installation

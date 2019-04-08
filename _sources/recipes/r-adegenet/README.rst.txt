@@ -25,33 +25,19 @@ r-adegenet
    :versions: 2.1.1-1, 2.1.1-0, 2.1.0-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-ade4: 
-   
    :depends r-ape: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-boot: 
-   
    :depends r-dplyr: >=0.4.1
-   
    :depends r-ggplot2: 
-   
    :depends r-igraph: 
-   
    :depends r-mass: 
-   
    :depends r-reshape2: 
-   
    :depends r-seqinr: 
-   
    :depends r-shiny: 
-   
    :depends r-spdep: 
-   
    :depends r-vegan: 
-   
    :requirements:
 
    .. rubric:: Installation

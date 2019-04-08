@@ -25,17 +25,11 @@ treetime
    :versions: 0.5.3-0, 0.5.2-1, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.1-0, 0.4.0-0, 0.2.4-1, 0.2.4-0, 0.2.1-1, 0.2.1-0, 0.1-1
    
    :depends biopython: >=1.66
-   
    :depends matplotlib: 
-   
    :depends numpy: >=1.10.4
-   
    :depends pandas: >=0.17.1
-   
    :depends python: 
-   
    :depends scipy: >=0.16.1
-   
    :requirements:
 
    .. rubric:: Installation

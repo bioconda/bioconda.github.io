@@ -26,17 +26,11 @@ bioconductor-flipflop
    :versions: 1.18.0-0, 1.16.0-0, 1.14.1-0
    
    :depends bioconductor-genomicranges: >=1.32.7,<1.34.0
-   
    :depends bioconductor-iranges: >=2.14.12,<2.16.0
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-matrix: 
-   
    :requirements:
 
    .. rubric:: Installation

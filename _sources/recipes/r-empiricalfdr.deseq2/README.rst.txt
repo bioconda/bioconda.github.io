@@ -25,11 +25,8 @@ r-empiricalfdr.deseq2
    :versions: 1.0.3-4, 1.0.3-3, 1.0.3-2, 1.0.3-0
    
    :depends bioconductor-deseq2: 
-   
    :depends bioconductor-genomicranges: >=1.32.7,<1.34.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,39 +26,22 @@ t-coffee
    :versions: 12.00.7fb08c2-2, 12.00.7fb08c2-1, 12.00.7fb08c2-0, 11.00.8cbe486-0
    
    :depends blast: 
-   
    :depends clustalo: 
-   
    :depends clustalw: 
-   
    :depends consan: 
-   
    :depends dca: 
-   
    :depends dialign-tx: 1.0.2.*
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends mafft: 7.310.*
-   
    :depends muscle: 
-   
    :depends mustang: 3.2.3.*
-   
    :depends pasta: 
-   
    :depends phylip: 
-   
    :depends poa: 2.0.*
-   
    :depends prank: 
-   
    :depends tmalign: 
-   
    :depends viennarna: 2.1.9.*
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ perl-test-builder-tester
    :versions: 1.23_002-1, 1.23_002-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

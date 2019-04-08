@@ -25,9 +25,7 @@ circularmapper
    :versions: 1.93.4-1, 1.93.4-0
    
    :depends openjdk: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ graphmap
    :versions: 0.5.2-2, 0.5.2-1, 0.5.2-0, 0.4.0-0, 0.3.1p1-1, 0.3.1p1-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

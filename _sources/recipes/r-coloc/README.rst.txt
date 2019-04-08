@@ -25,19 +25,12 @@ r-coloc
    :versions: 3.1-1, 3.1-0, 2.3_1-0
    
    :depends bioconductor-snpstats: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bma: 
-   
    :depends r-flashclust: 
-   
    :depends r-ggplot2: 
-   
    :depends r-reshape: 
-   
    :depends r-speedglm: 
-   
    :requirements:
 
    .. rubric:: Installation

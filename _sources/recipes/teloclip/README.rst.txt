@@ -25,7 +25,6 @@ teloclip
    :versions: 0.0.3-0, 0.0.2-0
    
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

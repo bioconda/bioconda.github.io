@@ -25,95 +25,50 @@ perl-hpc-runner-command
    :versions: 3.2.13-0, 3.2.11-0, 3.2.10-0, 3.2.9-0, 3.2.8-0, 3.2.7-0, 3.2.6-0, 3.2.5-0, 3.2.4-0, 3.2.2-0, 3.2.0-1, 3.2.0-0, 3.1.4-1, 3.1.4-0, 3.1.1-0, 3.0.1-1
    
    :depends perl: 5.22.0*
-   
    :depends perl-algorithm-dependency: 
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-archive-tar: 
-   
    :depends perl-array-compare: 
-   
    :depends perl-datetime: 
-   
    :depends perl-datetime: 
-   
    :depends perl-dbm-deep: 
-   
    :depends perl-file-find-rule: 
-   
    :depends perl-file-homedir: 
-   
    :depends perl-file-path: 
-   
    :depends perl-file-slurp: 
-   
    :depends perl-git-wrapper: 
-   
    :depends perl-git-wrapper-plus: 
-   
    :depends perl-io-interactive: 
-   
    :depends perl-json: 
-   
    :depends perl-json-xs: 
-   
    :depends perl-list-moreutils: >=0.428
-   
    :depends perl-list-uniq: 
-   
    :depends perl-log-log4perl: 
-   
    :depends perl-mce: 
-   
    :depends perl-mce: 
-   
    :depends perl-moose: 
-   
    :depends perl-moosex-app: 
-   
    :depends perl-moosex-app-role-log4perl: 
-   
    :depends perl-moosex-getopt: 
-   
    :depends perl-moosex-nonmoose: 
-   
    :depends perl-moosex-types: 
-   
    :depends perl-moosex-types-path-tiny: 
-   
    :depends perl-namespace-autoclean: 
-   
    :depends perl-number-compare: 
-   
    :depends perl-params-validate: 
-   
    :depends perl-params-validate: 
-   
    :depends perl-path-tiny: 
-   
    :depends perl-sort-versions: 
-   
    :depends perl-string-approx: 
-   
    :depends perl-template-toolkit: 
-   
    :depends perl-text-ansitable: 
-   
    :depends perl-text-asciitable: 
-   
    :depends perl-try-tiny: 
-   
    :depends perl-type-tiny: 
-   
    :depends perl-types-standard: 
-   
    :depends perl-version-next: 
-   
    :depends perl-yaml: 
-   
    :depends perl-yaml-libyaml: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,29 +25,17 @@ r-rnexml
    :versions: 2.2.0-1, 2.2.0-0, 2.1.2-0, 2.1.1-0
    
    :depends r-ape: >=3.1
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: >=0.5.0
-   
    :depends r-httr: >=0.3
-   
    :depends r-lazyeval: >=0.1.0
-   
    :depends r-plyr: >=1.8
-   
    :depends r-reshape2: >=1.2.2
-   
    :depends r-stringr: >=1.0
-   
    :depends r-tidyr: >=0.3.1
-   
    :depends r-uuid: >=0.1_1
-   
    :depends r-xml: >=3.95
-   
    :depends r-xml2: 
-   
    :requirements:
 
    .. rubric:: Installation

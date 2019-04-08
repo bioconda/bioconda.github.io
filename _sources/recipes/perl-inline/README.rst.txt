@@ -25,9 +25,7 @@ perl-inline
    :versions: 0.80-3, 0.80-2, 0.80-1, 0.80-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-digest-md5: 
-   
    :requirements:
 
    .. rubric:: Installation

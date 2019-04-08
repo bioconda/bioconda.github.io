@@ -25,7 +25,6 @@ perl-bit-vector
    :versions: 7.4-2, 7.4-1, 7.4-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

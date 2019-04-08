@@ -27,19 +27,12 @@ spectrum_utils
    :versions: 0.2.1-0, 0.2.0-0, 0.1.0-0
    
    :depends altair: 
-   
    :depends matplotlib: 
-   
    :depends numba: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends pyteomics: 
-   
    :depends python: >=3.6
-   
    :requirements:
 
    .. rubric:: Installation

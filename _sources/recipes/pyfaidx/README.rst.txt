@@ -26,9 +26,7 @@ pyfaidx
    :versions: 0.5.5.2-0, 0.5.4.1-0, 0.5.3-0, 0.5.1-0, 0.5.0-0, 0.4.9.2-0, 0.4.8.1-3, 0.4.8.1-2, 0.4.8.1-0, 0.4.7.1-2, 0.4.7.1-0, 0.4.4-0
    
    :depends python: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

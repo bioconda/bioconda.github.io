@@ -25,9 +25,7 @@ mgf-formatter
    :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0
    
    :depends openjdk: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

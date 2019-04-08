@@ -25,9 +25,7 @@ tandem-genotypes
    :versions: 1.4.0-0, 1.2.0-0
    
    :depends python: 
-   
    :depends r-base: 
-   
    :requirements:
 
    .. rubric:: Installation

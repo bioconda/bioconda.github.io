@@ -25,47 +25,26 @@ bioconductor-cicero
    :versions: 1.0.14-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-gviz: >=1.26.0,<1.27.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-monocle: >=2.10.0,<2.11.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-assertthat: >=0.2.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: >=1.10.4
-   
    :depends r-dplyr: >=0.7.4
-   
    :depends r-fnn: >=1.1
-   
    :depends r-ggplot2: >=2.2.1
-   
    :depends r-glasso: >=1.8
-   
    :depends r-igraph: >=1.1.0
-   
    :depends r-matrix: >=1.2-12
-   
    :depends r-plyr: >=1.8.4
-   
    :depends r-reshape2: >=1.4.3
-   
    :depends r-stringr: >=1.2.0
-   
    :depends r-tibble: >=1.4.2
-   
    :depends r-vgam: >=1.0-5
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,15 +26,10 @@ breakdancer
    :versions: 1.4.5-2, 1.4.5-1, 1.4.5-0
    
    :depends libgcc: 
-   
    :depends perl-gdgraph-histogram: 
-   
    :depends perl-math-cdf: 
-   
    :depends perl-statistics-descriptive: 
-   
    :depends zlib: 1.2.11*
-   
    :requirements:
 
    .. rubric:: Installation

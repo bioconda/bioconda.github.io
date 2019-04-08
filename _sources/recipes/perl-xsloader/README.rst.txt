@@ -25,7 +25,6 @@ perl-xsloader
    :versions: 0.24-0, 0.22-1, 0.22-0, 0.16-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

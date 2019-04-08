@@ -25,9 +25,7 @@ r-goalie
    :versions: 0.2.9-0, 0.2.8-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-curl: >=3.2.*
-   
    :requirements:
 
    .. rubric:: Installation

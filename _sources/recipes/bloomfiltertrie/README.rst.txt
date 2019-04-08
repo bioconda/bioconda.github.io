@@ -25,11 +25,8 @@ bloomfiltertrie
    :versions: 0.8.7-0, 0.8.1-0
    
    :depends jemalloc: 
-   
    :depends judy: 
-   
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ illumina-utils
    :versions: 2.6-0, 2.5-0, 2.4.1-0
    
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends python: >=3
-   
    :depends python-levenshtein: 
-   
    :requirements:
 
    .. rubric:: Installation

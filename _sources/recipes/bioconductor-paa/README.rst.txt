@@ -25,31 +25,18 @@ bioconductor-paa
    :versions: 1.16.0-0
    
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-sva: >=3.30.0,<3.31.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-e1071: 
-   
    :depends r-gplots: 
-   
    :depends r-gtools: 
-   
    :depends r-mass: 
-   
    :depends r-mrmre: 
-   
    :depends r-randomforest: 
-   
    :depends r-rcpp: >=0.11.6
-   
    :depends r-rocr: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,27 +25,16 @@ bioconductor-fem
    :versions: 3.10.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-impute: >=1.56.0,<1.57.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-marray: >=1.60.0,<1.61.0
-   
    :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-corrplot: 
-   
    :depends r-igraph: 
-   
    :depends r-matrix: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ eta
    :versions: 0.9.7-1, 0.9.7-0
    
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

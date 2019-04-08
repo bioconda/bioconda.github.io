@@ -26,27 +26,16 @@ bioconductor-cve
    :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0
    
    :depends bioconductor-consensusclusterplus: >=1.46.0,<1.47.0
-   
    :depends r-ape: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-jsonlite: 
-   
    :depends r-plyr: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-shiny: 
-   
    :depends r-tidyverse: 
-   
    :depends r-wgcna: 
-   
    :requirements:
 
    .. rubric:: Installation

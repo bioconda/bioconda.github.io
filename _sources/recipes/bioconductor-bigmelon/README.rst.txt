@@ -25,21 +25,13 @@ bioconductor-bigmelon
    :versions: 1.8.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-gdsfmt: >=1.18.0,<1.19.0
-   
    :depends bioconductor-geoquery: >=2.50.0,<2.51.0
-   
    :depends bioconductor-methylumi: >=2.28.0,<2.29.0
-   
    :depends bioconductor-minfi: >=1.28.0,<1.29.0
-   
    :depends bioconductor-watermelon: >=1.26.0,<1.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

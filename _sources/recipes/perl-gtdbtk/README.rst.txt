@@ -25,13 +25,9 @@ perl-gtdbtk
    :versions: 0.1.5-1, 0.1.5-0, 0.1.3-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bioperl: >=1.7.2
-   
    :depends perl-ipc-run: 
-   
    :depends perl-moose: 
-   
    :requirements:
 
    .. rubric:: Installation

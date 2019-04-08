@@ -27,45 +27,25 @@ scvi
    :versions: 0.3.0-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.3-0, 0.1.2-0
    
    :depends anndata: >=0.6
-   
    :depends h5py: >=2.8
-   
    :depends ipython: >=7
-   
    :depends jupyter: >=1.0.0
-   
    :depends leidenalg: >=0.7.0
-   
    :depends loompy: 2.0.9
-   
    :depends matplotlib: >=2.0
-   
    :depends nbconvert: >=5.4.0
-   
    :depends nbformat: >=4.4.0
-   
    :depends numpy: >=1.0
-   
    :depends pandas: >=0.2
-   
    :depends python: >=3.6
-   
    :depends python-igraph: >=0.7.1
-   
    :depends pytorch: 0.4.1
-   
    :depends scikit-learn: >=0.18
-   
    :depends scipy: >=1.1
-   
    :depends seaborn: >=0.9.0
-   
    :depends tqdm: >=4
-   
    :depends umap-learn: >=0.3.7
-   
    :depends xlrd: >=1.0
-   
    :requirements:
 
    .. rubric:: Installation

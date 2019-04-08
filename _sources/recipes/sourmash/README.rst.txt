@@ -26,23 +26,14 @@ sourmash
    :versions: 2.0.0-0, 2.0.0a11-0, 2.0.0a10-0, 2.0.0a9-0, 2.0.0a8-2, 2.0.0a8-1, 2.0.0a8-0, 2.0.0a7-0, 2.0.0a6-0, 2.0.0a5-0, 2.0.0a4-0, 2.0.0a3-0, 2.0.0a2-0, 2.0.0a1-3, 2.0.0a1-2, 2.0.0a1-1, 2.0.0a1-0, 1.0-0
    
    :depends ijson: 
-   
    :depends khmer: >=2.1
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: 
-   
    :depends screed: >=0.9
-   
    :requirements:
 
    .. rubric:: Installation

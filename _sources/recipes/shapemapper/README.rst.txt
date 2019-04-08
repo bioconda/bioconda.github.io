@@ -25,17 +25,11 @@ shapemapper
    :versions: 1.2-1, 1.2-0
    
    :depends bowtie2: 
-   
    :depends httplib2: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends matplotlib: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends rnastructure: 
-   
    :requirements:
 
    .. rubric:: Installation

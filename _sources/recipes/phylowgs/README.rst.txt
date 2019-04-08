@@ -25,21 +25,13 @@ phylowgs
    :versions: 20181105-0, 20180317-2, 20180317-1, 20180317-0, 20150714-1
    
    :depends ete2: 
-   
    :depends gsl: >=2.4,<2.5.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends numpy: 
-   
    :depends openblas: >=0.3.3,<0.3.4.0a0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends pyvcf: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

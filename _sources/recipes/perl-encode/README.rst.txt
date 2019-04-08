@@ -25,11 +25,8 @@ perl-encode
    :versions: 2.88-1, 2.88-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-exporter: 
-   
    :depends perl-parent: 
-   
    :requirements:
 
    .. rubric:: Installation

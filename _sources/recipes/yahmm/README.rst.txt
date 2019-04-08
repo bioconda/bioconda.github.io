@@ -25,17 +25,11 @@ yahmm
    :versions: 1.1.3-1, 1.1.3-0
    
    :depends cython: >=0.20.1
-   
    :depends matplotlib: >=1.3.1
-   
    :depends networkx: >=1.8.1
-   
    :depends numpy: >=1.8.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: >=0.13.3
-   
    :requirements:
 
    .. rubric:: Installation

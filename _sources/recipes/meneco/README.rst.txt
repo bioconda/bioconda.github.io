@@ -25,9 +25,7 @@ meneco
    :versions: 1.5.2-0
    
    :depends pyasp: >=1.4.3
-   
    :depends python: 3.5*
-   
    :requirements:
 
    .. rubric:: Installation

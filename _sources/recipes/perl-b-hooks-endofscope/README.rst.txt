@@ -25,17 +25,11 @@ perl-b-hooks-endofscope
    :versions: 0.21-3, 0.21-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-module-implementation: 
-   
    :depends perl-sub-exporter-progressive: 
-   
    :depends perl-variable-magic: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ perl-term-app-roles
    :versions: 0.02-0, 0.01-2, 0.01-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-moo: 
-   
    :depends perl-term-detect-software: 
-   
    :requirements:
 
    .. rubric:: Installation

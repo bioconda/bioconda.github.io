@@ -25,7 +25,6 @@ perl-error
    :versions: 0.17027-1, 0.17027-0, 0.17024-1, 0.17024-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

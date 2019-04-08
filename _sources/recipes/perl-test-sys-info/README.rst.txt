@@ -25,15 +25,10 @@ perl-test-sys-info
    :versions: 0.23-0, 0.21-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-base: 
-   
    :depends perl-carp: 
-   
    :depends perl-constant: 
-   
    :depends perl-exporter: 
-   
    :requirements:
 
    .. rubric:: Installation

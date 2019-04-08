@@ -27,17 +27,11 @@ pvacseq
    :versions: 4.0.10-2, 4.0.10-0, 4.0.9-0
    
    :depends connexion: 
-   
    :depends pandas: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends pyvcf: 
-   
    :depends pyyaml: 
-   
    :depends requests: 
-   
    :requirements:
 
    .. rubric:: Installation

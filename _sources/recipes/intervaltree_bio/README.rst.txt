@@ -25,9 +25,7 @@ intervaltree_bio
    :versions: 1.0.1-1, 1.0.1-0
    
    :depends intervaltree: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

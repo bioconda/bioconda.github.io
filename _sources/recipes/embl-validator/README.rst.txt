@@ -25,9 +25,7 @@ embl-api-validator
    :versions: 1.1.180-1, 1.1.180-0, 1.1.173-0
    
    :depends openjdk: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ galaxy-ie-helpers
    :versions: 0.2.1-1, 0.2.1-0
    
    :depends bioblend: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

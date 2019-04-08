@@ -27,47 +27,26 @@ pomoxis
    :versions: 0.2.2-0
    
    :depends aiozmq: 
-   
    :depends bcftools: 
-   
    :depends biopython: >=1.63
-   
    :depends cffi: 
-   
    :depends fast5-research: 
-   
    :depends intervaltree: >=3
-   
    :depends mappy: 
-   
    :depends matplotlib: 
-   
    :depends miniasm: 
-   
    :depends minimap2: 
-   
    :depends msgpack-python: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends porechop: 
-   
    :depends pysam: 
-   
    :depends python: >=3.4,<3.7
-   
    :depends racon: 
-   
    :depends samtools: 
-   
    :depends scrappie: 
-   
    :depends seqkit: 
-   
    :depends watchdog: 
-   
    :requirements:
 
    .. rubric:: Installation

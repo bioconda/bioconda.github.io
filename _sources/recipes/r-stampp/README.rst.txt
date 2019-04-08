@@ -25,15 +25,10 @@ r-stampp
    :versions: 1.5.1-3, 1.5.1-2, 1.5.1-0
    
    :depends r-adegenet: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-doparallel: 
-   
    :depends r-foreach: 
-   
    :depends r-pegas: 
-   
    :requirements:
 
    .. rubric:: Installation

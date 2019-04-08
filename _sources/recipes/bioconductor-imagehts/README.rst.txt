@@ -26,19 +26,12 @@ bioconductor-imagehts
    :versions: 1.32.0-0, 1.30.0-0, 1.26.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-cellhts2: >=2.46.0,<2.47.0
-   
    :depends bioconductor-ebimage: >=4.24.0,<4.25.0
-   
    :depends bioconductor-vsn: >=3.50.0,<3.51.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-e1071: 
-   
    :depends r-hwriter: 
-   
    :requirements:
 
    .. rubric:: Installation

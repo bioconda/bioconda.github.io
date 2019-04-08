@@ -25,83 +25,44 @@ bioconductor-dapar
    :versions: 1.14.4-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-clusterprofiler: >=3.10.0,<3.11.0
-   
    :depends bioconductor-dapardata: >=1.12.0,<1.13.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-impute: >=1.56.0,<1.57.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-msnbase: >=2.8.0,<2.9.0
-   
    :depends bioconductor-pcamethods: >=1.74.0,<1.75.0
-   
    :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
-   
    :depends bioconductor-siggenes: >=1.56.0,<1.57.0
-   
    :depends bioconductor-vsn: >=3.50.0,<3.51.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cairo: 
-   
    :depends r-cp4p: >=0.3.5
-   
    :depends r-doparallel: 
-   
    :depends r-dplyr: 
-   
    :depends r-factoextra: 
-   
    :depends r-factominer: 
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-highcharter: >=0.5.0
-   
    :depends r-imp4p: >=0.7
-   
    :depends r-knitr: 
-   
    :depends r-lattice: 
-   
    :depends r-lme4: 
-   
    :depends r-matrix: 
-   
    :depends r-norm: 
-   
    :depends r-openxlsx: 
-   
    :depends r-png: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-readxl: 
-   
    :depends r-reshape2: 
-   
    :depends r-scales: 
-   
    :depends r-stringr: 
-   
    :depends r-tidyr: 
-   
    :depends r-tidyverse: 
-   
    :depends r-tmvtnorm: 
-   
    :depends r-vioplot: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,19 +25,12 @@ deepmedic
    :versions: 0.6.1-0, 0.6-0, 0.5.4-0
    
    :depends nibabel: 
-   
    :depends numpy: 
-   
    :depends pp: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: 
-   
    :depends six: 
-   
    :depends theano: 
-   
    :requirements:
 
    .. rubric:: Installation

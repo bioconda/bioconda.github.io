@@ -25,7 +25,6 @@ perl-want
    :versions: 0.29-1, 0.29-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

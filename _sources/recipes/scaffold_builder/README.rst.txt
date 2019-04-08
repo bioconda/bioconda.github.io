@@ -26,9 +26,7 @@ scaffold_builder
    :versions: 2.2-0
    
    :depends mummer: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

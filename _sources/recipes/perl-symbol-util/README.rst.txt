@@ -25,9 +25,7 @@ perl-symbol-util
    :versions: 0.0203-1, 0.0203-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-app-cpanminus: 
-   
    :requirements:
 
    .. rubric:: Installation

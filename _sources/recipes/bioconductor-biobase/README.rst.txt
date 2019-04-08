@@ -26,11 +26,8 @@ bioconductor-biobase
    :versions: 2.42.0-1, 2.42.0-0, 2.40.0-1, 2.40.0-0, 2.38.0-1, 2.38.0-0, 2.36.2-0, 2.34.0-0, 2.32.0-0, 2.30.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

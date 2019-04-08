@@ -25,7 +25,6 @@ r-matrixeqtl
    :versions: 2.1.1-0
    
    :depends r: 3.3.1*
-   
    :requirements:
 
    .. rubric:: Installation

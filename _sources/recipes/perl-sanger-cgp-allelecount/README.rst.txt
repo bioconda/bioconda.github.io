@@ -25,15 +25,10 @@ perl-sanger-cgp-allelecount
    :versions: 4.0.0-0, 2.1.2-3, 2.1.2-2, 2.1.2-1
    
    :depends libgcc-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bio-db-sam: 
-   
    :depends perl-bioperl: 
-   
    :depends perl-sanger-cgp-vcf: 
-   
    :requirements:
 
    .. rubric:: Installation

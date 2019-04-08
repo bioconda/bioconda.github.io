@@ -26,15 +26,10 @@ bioconductor-sradb
    :versions: 1.44.0-1, 1.44.0-0, 1.42.2-0, 1.37.0-0, 1.36.0-0, 1.32.0-0, 1.28.0-0
    
    :depends bioconductor-geoquery: >=2.50.0,<2.51.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rcurl: 
-   
    :depends r-rsqlite: 
-   
    :requirements:
 
    .. rubric:: Installation

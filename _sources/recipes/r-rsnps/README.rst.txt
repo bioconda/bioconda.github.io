@@ -25,21 +25,13 @@ r-rsnps
    :versions: 0.3.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-crul: >=0.5.2
-   
    :depends r-data.table: 
-   
    :depends r-jsonlite: 
-   
    :depends r-plyr: 
-   
    :depends r-stringr: 
-   
    :depends r-xml: 
-   
    :depends r-xml2: 
-   
    :requirements:
 
    .. rubric:: Installation

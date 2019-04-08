@@ -26,7 +26,6 @@ strike
    :versions: 1.2-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,95 +25,50 @@ perl-biox-workflow-command
    :versions: 2.4.1-0, 2.3.2-0, 2.3.0-0, 2.2.3-0, 2.2.1-0
    
    :depends perl: 5.22.0*
-   
    :depends perl-algorithm-dependency: 
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-class-load: 
-   
    :depends perl-clone: 
-   
    :depends perl-config-any: 
-   
    :depends perl-data-walk: 
-   
    :depends perl-datetime: 
-   
    :depends perl-datetime-format-strptime: 
-   
    :depends perl-dbm-deep: 
-   
    :depends perl-file-details: 
-   
    :depends perl-file-find-rule: 
-   
    :depends perl-file-path: 
-   
    :depends perl-file-slurp: 
-   
    :depends perl-git-wrapper: 
-   
    :depends perl-git-wrapper-plus: 
-   
    :depends perl-io-interactive: 
-   
    :depends perl-json: 
-   
    :depends perl-list-compare: 
-   
    :depends perl-list-moreutils: >=0.428
-   
    :depends perl-list-someutils: 
-   
    :depends perl-list-uniq: 
-   
    :depends perl-log-log4perl: 
-   
    :depends perl-mce-shared: 
-   
    :depends perl-moose: 
-   
    :depends perl-moose: 
-   
    :depends perl-moosex-app: 
-   
    :depends perl-moosex-app-role-log4perl: 
-   
    :depends perl-moosex-getopt: 
-   
    :depends perl-moosex-getopt: 
-   
    :depends perl-moosex-types: 
-   
    :depends perl-moosex-types: 
-   
    :depends perl-moosex-types-path-tiny: 
-   
    :depends perl-namespace-autoclean: 
-   
    :depends perl-params-validate: 
-   
    :depends perl-path-tiny: 
-   
    :depends perl-safe: 
-   
    :depends perl-string-approx: 
-   
    :depends perl-test2: 
-   
    :depends perl-text-asciitable: 
-   
    :depends perl-text-template: 
-   
    :depends perl-try-tiny: 
-   
    :depends perl-yaml: 
-   
    :depends perl-yaml: 
-   
    :depends perl-yaml-libyaml: 
-   
    :requirements:
 
    .. rubric:: Installation

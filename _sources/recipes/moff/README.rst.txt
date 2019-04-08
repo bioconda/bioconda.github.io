@@ -26,27 +26,16 @@ moff
    :versions: 2.0.2-2, 2.0.2-1, 2.0.2-0, 2.0.1-0, 1.2.1-1, 1.2.1-0, 1.2-0, 1.1-0
    
    :depends brain-isotopic-distribution: 
-   
    :depends mono: 
-   
    :depends numpy: >=1.15
-   
    :depends pandas: >=0.23
-   
    :depends pymzml: >=2.0.6
-   
    :depends pynumpress: 
-   
    :depends pyteomics: >=3.5
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends scikit-learn: >0.19
-   
    :depends scipy: >=1.1
-   
    :depends simplejson: >=3.16.1
-   
    :requirements:
 
    .. rubric:: Installation

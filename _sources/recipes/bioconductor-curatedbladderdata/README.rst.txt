@@ -25,11 +25,8 @@ bioconductor-curatedbladderdata
    :versions: 1.18.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

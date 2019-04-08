@@ -26,11 +26,8 @@ cromwell
    :versions: 0.38-0, 0.37-0, 0.37a-0, 0.36.1-0, 0.36-0, 0.35-0, 0.34-1, 0.34-0, 0.32-3, 0.32-1, 0.32a-1, 0.32a-0, 0.30-0, 0.29-0, 0.26-0, 0.25-0, 0.24-0, 0.23-0, 0.22-0, 0.21-0, 0.19.4-0
    
    :depends findutils: 
-   
    :depends openjdk: >=8,<9
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

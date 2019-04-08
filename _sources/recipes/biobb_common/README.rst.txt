@@ -54,13 +54,9 @@ biobb_common
    :versions: 0.1.2-0, 0.0.8-0, 0.0.6-0, 0.0.5-0, 0.0.4-0, 0.0.3-0
    
    :depends biopython: >=1.72
-   
    :depends python: >=3
-   
    :depends pyyaml: 
-   
    :depends requests: 
-   
    :requirements:
 
    .. rubric:: Installation

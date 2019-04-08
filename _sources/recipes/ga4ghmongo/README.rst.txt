@@ -25,9 +25,7 @@ ga4ghmongo
    :versions: 0.0.1.2-1, 0.0.1.2-0
    
    :depends mongoengine: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

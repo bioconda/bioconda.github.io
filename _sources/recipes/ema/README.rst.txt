@@ -26,11 +26,8 @@ ema
    :versions: 0.6.2-0, v0.6.2-1, v0.6.1-1, v0.6.1-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

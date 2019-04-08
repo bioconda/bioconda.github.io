@@ -25,15 +25,10 @@ r-imputelcmd
    :versions: 2.0-0
    
    :depends bioconductor-impute: 
-   
    :depends bioconductor-pcamethods: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-norm: 
-   
    :depends r-tmvtnorm: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ argutils
    :versions: 0.3.2-1, 0.3.2-0
    
    :depends python: >=2.7,<2.8.0a0
-   
    :depends pyyaml: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

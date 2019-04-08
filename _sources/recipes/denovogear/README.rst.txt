@@ -25,15 +25,10 @@ denovogear
    :versions: 1.1.1-0
    
    :depends boost: 
-   
    :depends eigen: 
-   
    :depends htslib: 
-   
    :depends libgcc: 
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

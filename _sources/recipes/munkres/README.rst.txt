@@ -25,7 +25,6 @@ munkres
    :versions: 1.0.7-1, 1.0.7-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

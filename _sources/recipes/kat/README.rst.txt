@@ -26,21 +26,13 @@ kat
    :versions: 2.4.1-3, 2.4.1-2, 2.4.1-1, 2.4.0-3, 2.4.0-2, 2.4.0-1, 2.3.4-1, 2.3.4-0, 2.3.1-2, 2.3.1-1, 2.0.8-3, 2.0.8-2, 2.0.8-1, 2.0.8-0
    
    :depends cycler: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends scipy: 
-   
    :depends tabulate: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

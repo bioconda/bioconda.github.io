@@ -28,31 +28,18 @@ chorus2
    :versions: 2.0-4, 2.0-3, 2.0-2, 2.0-1, 2.0-0
    
    :depends bwa: <=0.7.8
-   
    :depends bwa: >=0.7.3a
-   
    :depends cython: 
-   
    :depends jellyfish: >=2.2.3
-   
    :depends matplotlib: >=3
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends primer3-py: >=0.4.2
-   
    :depends pybigwig: 
-   
    :depends pyfasta: 
-   
    :depends pyqt: <5.11
-   
    :depends python: >=3
-   
    :depends sip: >=4
-   
    :requirements:
 
    .. rubric:: Installation

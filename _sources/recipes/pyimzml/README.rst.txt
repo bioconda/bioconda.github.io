@@ -25,11 +25,8 @@ pyimzml
    :versions: 1.2.4-0, 1.2.3-0, 1.2.1-1, 1.2.1-0
    
    :depends numpy: 
-   
    :depends python: 
-   
    :depends wheezy.template: 
-   
    :requirements:
 
    .. rubric:: Installation

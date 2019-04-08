@@ -25,9 +25,7 @@ pepgenome
    :versions: 1.0.beta-0
    
    :depends openjdk: >=6
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

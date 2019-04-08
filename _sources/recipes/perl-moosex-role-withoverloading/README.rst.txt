@@ -25,17 +25,11 @@ perl-moosex-role-withoverloading
    :versions: 0.17-1, 0.17-0
    
    :depends libcxx: >=4.0.1
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-aliased: 
-   
    :depends perl-moose: 
-   
    :depends perl-namespace-autoclean: 
-   
    :depends perl-namespace-clean: 
-   
    :requirements:
 
    .. rubric:: Installation

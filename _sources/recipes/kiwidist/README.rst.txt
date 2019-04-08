@@ -25,21 +25,13 @@ kiwidist
    :versions: 0.3.6-2, 0.3.6-0, 0.3.5-0, 0.3.4-0
    
    :depends matplotlib: >=1.3.1,<=1.4.3
-   
    :depends mygene: >=2.1.0
-   
    :depends networkx: >=1.8.1
-   
    :depends numpy: >=1.8.0
-   
    :depends pandas: >=0.13.1
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: >=0.13.3,<=0.16.0
-   
    :depends six: >=1.5
-   
    :requirements:
 
    .. rubric:: Installation

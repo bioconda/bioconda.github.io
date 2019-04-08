@@ -26,7 +26,6 @@ igv
    :versions: 2.4.17-0, 2.4.16-0, 2.4.9-1, 2.4.9-0, 2.4.6-0, 2.3.98-0
    
    :depends openjdk: >=8.0,<9
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ recon
    :versions: 1.08-1, 1.08-0
    
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

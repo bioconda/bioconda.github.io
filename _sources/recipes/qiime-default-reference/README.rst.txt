@@ -25,9 +25,7 @@ qiime-default-reference
    :versions: 0.1.3-1, 0.1.3-0
    
    :depends python: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

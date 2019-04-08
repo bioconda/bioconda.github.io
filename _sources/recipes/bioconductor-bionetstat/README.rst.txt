@@ -25,37 +25,21 @@ bioconductor-bionetstat
    :versions: 1.2.2-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-pathview: >=1.22.0,<1.23.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-hmisc: 
-   
    :depends r-igraph: 
-   
    :depends r-knitr: 
-   
    :depends r-pheatmap: 
-   
    :depends r-plyr: 
-   
    :depends r-psych: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rjsonio: 
-   
    :depends r-shiny: 
-   
    :depends r-shinybs: 
-   
    :depends r-whisker: 
-   
    :depends r-yaml: 
-   
    :requirements:
 
    .. rubric:: Installation

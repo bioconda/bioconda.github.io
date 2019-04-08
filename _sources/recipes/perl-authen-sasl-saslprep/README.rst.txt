@@ -25,9 +25,7 @@ perl-authen-sasl-saslprep
    :versions: 1.100-0, 1.011-2, 1.011-1, 1.011-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-unicode-stringprep: 
-   
    :requirements:
 
    .. rubric:: Installation

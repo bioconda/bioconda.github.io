@@ -25,13 +25,9 @@ fastq-screen
    :versions: 0.13.0-0, 0.11.3-1, 0.11.3-0, 0.11.1-1, 0.11.1-0, 0.5.2-1, 0.5.2-0
    
    :depends bowtie: 
-   
    :depends bowtie2: 
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-gdgraph: 
-   
    :requirements:
 
    .. rubric:: Installation

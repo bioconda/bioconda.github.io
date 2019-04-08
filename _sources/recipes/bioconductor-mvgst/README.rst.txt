@@ -26,25 +26,15 @@ bioconductor-mvgst
    :versions: 1.12.0-0, 1.10.0-0
    
    :depends bioconductor-annotate: 
-   
    :depends bioconductor-annotationdbi: 
-   
    :depends bioconductor-go.db: 
-   
    :depends bioconductor-gostats: 
-   
    :depends bioconductor-graph: 
-   
    :depends bioconductor-rgraphviz: 
-   
    :depends bioconductor-topgo: 
-   
    :depends r-base: 3.4.1*
-   
    :depends r-gprofiler: 
-   
    :depends r-stringr: 
-   
    :requirements:
 
    .. rubric:: Installation

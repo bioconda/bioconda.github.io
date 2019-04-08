@@ -25,37 +25,21 @@ bioconductor-mutationalpatterns
    :versions: 1.8.0-0, 1.6.1-0, 1.4.3-0, 1.4.1-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends bioconductor-variantannotation: >=1.28.0,<1.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cowplot: >=0.9.2
-   
    :depends r-ggdendro: >=0.1-20
-   
    :depends r-ggplot2: >=2.1.0
-   
    :depends r-nmf: >=0.20.6
-   
    :depends r-plyr: >=1.8.3
-   
    :depends r-pracma: >=1.8.8
-   
    :depends r-reshape2: >=1.4.1
-   
    :requirements:
 
    .. rubric:: Installation

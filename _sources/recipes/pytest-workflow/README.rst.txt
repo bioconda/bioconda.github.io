@@ -27,13 +27,9 @@ pytest-workflow
    :versions: 1.2.0-0, 1.1.2-0, 1.1.1-0, 1.1.0-0
    
    :depends jsonschema: 
-   
    :depends pytest: >=4
-   
    :depends python: >=3.5
-   
    :depends pyyaml: 
-   
    :requirements:
 
    .. rubric:: Installation

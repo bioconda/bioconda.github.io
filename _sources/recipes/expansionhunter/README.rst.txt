@@ -25,15 +25,10 @@ expansionhunter
    :versions: 2.0.8-1, 2.0.8-0, 2.0.6-0
    
    :depends boost: >=1.66.0,<1.66.1.0a0
-   
    :depends icu: >=58.2,<59.0a0
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,17 +26,11 @@ bioconductor-cghcall
    :versions: 2.44.0-1, 2.44.0-0, 2.42.0-0, 2.40.0-0, 2.38.0-0, 2.34.1-0, 2.34.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-cghbase: >=1.42.0,<1.43.0
-   
    :depends bioconductor-dnacopy: >=1.56.0,<1.57.0
-   
    :depends bioconductor-impute: >=1.56.0,<1.57.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-snowfall: 
-   
    :requirements:
 
    .. rubric:: Installation

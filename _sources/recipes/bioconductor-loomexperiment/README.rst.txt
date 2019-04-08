@@ -25,23 +25,14 @@ bioconductor-loomexperiment
    :versions: 1.0.1-0
    
    :depends bioconductor-delayedarray: >=0.8.0,<0.9.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-hdf5array: >=1.10.0,<1.11.0
-   
    :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
-   
    :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

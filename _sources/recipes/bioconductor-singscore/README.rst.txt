@@ -25,37 +25,21 @@ bioconductor-singscore
    :versions: 1.2.2-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-gseabase: >=1.44.0,<1.45.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-ggrepel: 
-   
    :depends r-ggsci: 
-   
    :depends r-magrittr: 
-   
    :depends r-matrixstats: 
-   
    :depends r-plotly: 
-   
    :depends r-plyr: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

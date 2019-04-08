@@ -25,25 +25,15 @@ r-loose.rock
    :versions: 1.0.9-0
    
    :depends bioconductor-biomart: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-digest: 
-   
    :depends r-dplyr: 
-   
    :depends r-futile.options: 
-   
    :depends r-ggfortify: 
-   
    :depends r-ggplot2: 
-   
    :depends r-mass: 
-   
    :depends r-reshape2: 
-   
    :depends r-rlang: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,35 +25,20 @@ srnapipe
    :versions: 1.1-0
    
    :depends bedtools: >=2.24.0
-   
    :depends bioconductor-sushi: 
-   
    :depends bwa: >=0.7.12
-   
    :depends perl: >=5.22.0.1,<5.22.1.0a0
-   
    :depends perl-file-copy-recursive: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-math-cdf: 
-   
    :depends perl-parallel-forkmanager: 
-   
    :depends perl-statistics-r: 
-   
    :depends perl-string-random: 
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-plotrix: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends samtools: >=1.5
-   
    :requirements:
 
    .. rubric:: Installation

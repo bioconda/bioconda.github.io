@@ -25,23 +25,14 @@ bioconductor-treeio
    :versions: 1.6.1-0, 1.4.3-0, 1.2.1-0, 1.2.0-0, 1.0.2-0
    
    :depends r-ape: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-jsonlite: 
-   
    :depends r-magrittr: 
-   
    :depends r-rlang: 
-   
    :depends r-rvcheck: 
-   
    :depends r-tibble: 
-   
    :depends r-tidytree: >=0.1.7
-   
    :requirements:
 
    .. rubric:: Installation

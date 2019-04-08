@@ -25,21 +25,13 @@ ericscript
    :versions: 0.5.5-3, 0.5.5-2, 0.5.5-1, 0.5.5-0
    
    :depends bedtools: 
-   
    :depends blat: 
-   
    :depends bwa: 
-   
    :depends perl: 
-   
    :depends r-ada: 
-   
    :depends r-base: 
-   
    :depends samtools: 0.1.19.*
-   
    :depends seqtk: 
-   
    :requirements:
 
    .. rubric:: Installation

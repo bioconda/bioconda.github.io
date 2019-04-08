@@ -26,39 +26,22 @@ bioconductor-arrayqualitymetrics
    :versions: 3.38.0-0, 3.36.0-0, 3.34.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-affyplm: >=1.58.0,<1.59.0
-   
    :depends bioconductor-beadarray: >=2.32.0,<2.33.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-vsn: >=3.50.0,<3.51.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cairo: >=1.4-6
-   
    :depends r-gridsvg: >=1.4-3
-   
    :depends r-hmisc: 
-   
    :depends r-hwriter: 
-   
    :depends r-lattice: 
-   
    :depends r-latticeextra: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-setrng: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

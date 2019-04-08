@@ -26,11 +26,8 @@ catch
    :versions: 1.2.0-0, 1.1.0-0, 1.0.0-1, 1.0.0-0
    
    :depends numpy: >=1.9.0
-   
    :depends python: >=3
-   
    :depends scipy: >=1.0.0
-   
    :requirements:
 
    .. rubric:: Installation

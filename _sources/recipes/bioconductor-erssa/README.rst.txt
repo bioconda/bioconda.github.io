@@ -25,19 +25,12 @@ bioconductor-erssa
    :versions: 1.0.0-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: >=3.0.0
-   
    :depends r-plyr: >=1.8.4
-   
    :depends r-rcolorbrewer: >=1.1-2
-   
    :requirements:
 
    .. rubric:: Installation

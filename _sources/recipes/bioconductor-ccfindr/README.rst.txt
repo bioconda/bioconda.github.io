@@ -25,39 +25,22 @@ bioconductor-ccfindr
    :versions: 1.2.0-0
    
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends gsl: >=2.4,<2.5.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends openblas: >=0.3.3,<0.3.4.0a0
-   
    :depends r-ape: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gtools: 
-   
    :depends r-irlba: 
-   
    :depends r-matrix: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rcpp: 
-   
    :depends r-rcppeigen: 
-   
    :depends r-rmpi: 
-   
    :depends r-rtsne: 
-   
    :requirements:
 
    .. rubric:: Installation

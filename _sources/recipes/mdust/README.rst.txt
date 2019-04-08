@@ -25,7 +25,6 @@ mdust
    :versions: 2006.10.17-1, 2006.10.17-0
    
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

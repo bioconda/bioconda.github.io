@@ -25,15 +25,10 @@ mirtop
    :versions: 0.4.18a-1, 0.4.18a-0, 0.4.17a-0, 0.4.15a-0, 0.3.17-1, 0.3.17-0, 0.3.11a0-2, 0.3.11a0-0, 0.3.6a0-0, 0.3.2a0-0, 0.1.8a0-0
    
    :depends biopython: 
-   
    :depends pandas: 
-   
    :depends pybedtools: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

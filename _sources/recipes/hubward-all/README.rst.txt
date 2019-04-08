@@ -25,27 +25,16 @@ hubward-all
    :versions: 0.2.1-1, 0.2.1-0
    
    :depends bedtools: 
-   
    :depends crossmap: 
-   
    :depends hubward: 
-   
    :depends ucsc-bedgraphtobigwig: 
-   
    :depends ucsc-bedtobigbed: 
-   
    :depends ucsc-bigbedtobed: 
-   
    :depends ucsc-bigwigtobedgraph: 
-   
    :depends ucsc-bigwigtowig: 
-   
    :depends ucsc-fetchchromsizes: 
-   
    :depends ucsc-liftover: 
-   
    :depends ucsc-wigtobigwig: 
-   
    :requirements:
 
    .. rubric:: Installation

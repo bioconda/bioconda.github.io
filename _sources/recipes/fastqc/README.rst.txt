@@ -26,13 +26,9 @@ fastqc
    :versions: 0.11.8-1, 0.11.8-0, 0.11.7-5, 0.11.7-4, 0.11.7-2, 0.11.7-0, 0.11.6-2, 0.11.6-1, 0.11.6-0, 0.11.5-3, 0.11.5-2, 0.11.5-1, 0.11.4-2, 0.11.4-1, 0.11.4-0, 0.11.3-1, 0.11.3-0, 0.11.2-1, 0.11.2-0, 0.10.1-1, 0.10.1-0
    
    :depends font-ttf-dejavu-sans-mono: 
-   
    :depends fontconfig: 
-   
    :depends openjdk: >=8.0.144
-   
    :depends perl: 
-   
    :requirements:
 
    .. rubric:: Installation

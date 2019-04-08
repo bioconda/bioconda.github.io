@@ -26,9 +26,7 @@ mauve
    :versions: 2.4.0.r4736-0
    
    :depends mauvealigner: 
-   
    :depends openjdk: >=8.0.122
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,19 +25,12 @@ bioconductor-rtandem
    :versions: 1.22.1-0, 1.22.0-0
    
    :depends expat: >=2.2.5,<2.3.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: >=1.8.8
-   
    :depends r-rcpp: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,17 +25,11 @@ r-isogene
    :versions: 1.0_24-0
    
    :depends bioconductor-affy: 
-   
    :depends bioconductor-biobase: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ff: >=2.0.0
-   
    :depends r-iso: 
-   
    :depends r-xtable: 
-   
    :requirements:
 
    .. rubric:: Installation

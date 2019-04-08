@@ -25,11 +25,8 @@ r-metama
    :versions: 3.1.2-3, 3.1.2-2, 3.1.2-0
    
    :depends bioconductor-limma: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-smvar: 
-   
    :requirements:
 
    .. rubric:: Installation

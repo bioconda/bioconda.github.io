@@ -26,7 +26,6 @@ velvet
    :versions: 1.2.10-2, 1.2.10-1, 1.2.10-0
    
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

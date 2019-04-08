@@ -25,11 +25,8 @@ mamotif
    :versions: 1.0.1-0, 1.0-1, 1.0-0
    
    :depends manorm: >=1.1.4
-   
    :depends motifscan: >=1.1.2
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

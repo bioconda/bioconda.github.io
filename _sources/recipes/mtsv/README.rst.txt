@@ -25,43 +25,24 @@ mtsv
    :versions: 1.0.2-0
    
    :depends biopython: 
-   
    :depends bwa: 
-   
    :depends click: 
-   
    :depends concoct: 
-   
    :depends ete3: 
-   
    :depends gsl: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends megahit: 
-   
    :depends numpy: 
-   
    :depends pandas: >=0.20.3
-   
    :depends python: <=3.6
-   
    :depends pyyaml: 
-   
    :depends samtools: 
-   
    :depends scipy: 
-   
    :depends six: 
-   
    :depends snakemake: >=4.1.0
-   
    :depends wgfast: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

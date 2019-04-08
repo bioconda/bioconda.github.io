@@ -25,73 +25,39 @@ bioconductor-psichomics
    :versions: 1.8.1-0
    
    :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-recount: >=1.8.0,<1.9.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-colourpicker: 
-   
    :depends r-data.table: 
-   
    :depends r-digest: 
-   
    :depends r-dplyr: 
-   
    :depends r-dt: >=0.2
-   
    :depends r-fastica: 
-   
    :depends r-fastmatch: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ggrepel: 
-   
    :depends r-highcharter: >=0.5.0
-   
    :depends r-htmltools: 
-   
    :depends r-httr: 
-   
    :depends r-jsonlite: 
-   
    :depends r-misctools: 
-   
    :depends r-pairsd3: 
-   
    :depends r-plyr: 
-   
    :depends r-r.utils: 
-   
    :depends r-rcpp: >=0.12.14
-   
    :depends r-shiny: >=1.0.3
-   
    :depends r-shinybs: 
-   
    :depends r-shinyjs: 
-   
    :depends r-stringr: 
-   
    :depends r-survival: 
-   
    :depends r-xml: 
-   
    :depends r-xtable: 
-   
    :requirements:
 
    .. rubric:: Installation

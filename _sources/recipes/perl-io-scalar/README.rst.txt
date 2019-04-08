@@ -25,7 +25,6 @@ perl-io-scalar
    :versions: 2.111-1, 2.111-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

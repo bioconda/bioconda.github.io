@@ -25,7 +25,6 @@ perl-class-method-modifiers
    :versions: 2.12-0, 2.11-2, 2.11-1, 2.11-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

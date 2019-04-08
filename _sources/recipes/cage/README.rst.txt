@@ -25,11 +25,8 @@ cage
    :versions: 2016.05.13-1, 2016.05.13-0, 2016.01.24-0
    
    :depends bamtools: >=2.4.1,<2.4.2.0a0
-   
    :depends python: 
-   
    :depends sqlite: >=3.24.0,<4.0a0
-   
    :requirements:
 
    .. rubric:: Installation

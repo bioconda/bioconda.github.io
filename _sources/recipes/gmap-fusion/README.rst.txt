@@ -25,17 +25,11 @@ gmap-fusion
    :versions: 0.4.0-0, 0.3.0-1
    
    :depends bowtie2: >=2.1
-   
    :depends gmap: >=2017.11.15
-   
    :depends perl: 5.22.0*
-   
    :depends perl-db-file: 
-   
    :depends perl-set-intervaltree: 
-   
    :depends samtools: >=1.3
-   
    :requirements:
 
    .. rubric:: Installation

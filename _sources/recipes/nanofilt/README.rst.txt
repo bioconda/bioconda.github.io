@@ -25,13 +25,9 @@ nanofilt
    :versions: 2.2.0-1, 2.2.0-0, 2.0.1-0, 1.9.2-0, 1.8.0-0, 1.7.0-0, 1.2.0-0, 1.1.4-0, 1.1.3-0
    
    :depends biopython: 
-   
    :depends nanoget: >=0.15.0
-   
    :depends nanomath: >=0.13.3
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ perl-apache-test
    :versions: 1.40-1, 1.40-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-pathtools: 
-   
    :requirements:
 
    .. rubric:: Installation

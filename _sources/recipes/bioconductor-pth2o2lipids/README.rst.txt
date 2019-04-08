@@ -25,15 +25,10 @@ bioconductor-pth2o2lipids
    :versions: 1.8.0-0
    
    :depends bioconductor-camera: >=1.38.0,<1.39.0
-   
    :depends bioconductor-lobstahs: >=1.8.0,<1.9.0
-   
    :depends bioconductor-xcms: >=3.4.0,<3.5.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

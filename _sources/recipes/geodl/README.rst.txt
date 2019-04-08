@@ -25,15 +25,10 @@ geodl
    :versions: 1.0b5.1-1, 1.0b5.1-0, 1.0b1-0
    
    :depends beautifulsoup4: 
-   
    :depends colorama: 
-   
    :depends lxml: 
-   
    :depends python: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

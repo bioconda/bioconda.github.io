@@ -25,31 +25,18 @@ bioconductor-mirsponge
    :versions: 1.8.0-0
    
    :depends bioconductor-clusterprofiler: >=3.10.0,<3.11.0
-   
    :depends bioconductor-dose: >=3.8.0,<3.9.0
-   
    :depends bioconductor-reactomepa: >=1.26.0,<1.27.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-corpcor: 
-   
    :depends r-igraph: 
-   
    :depends r-linkcomm: 
-   
    :depends r-mcl: 
-   
    :depends r-rcpp: 
-   
    :depends r-survival: 
-   
    :depends r-varhandle: 
-   
    :requirements:
 
    .. rubric:: Installation

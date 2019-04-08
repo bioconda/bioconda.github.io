@@ -26,17 +26,11 @@ r-fgwas
    :versions: 0.3.6-1, 0.3.6-0, 0.3.5-0
    
    :depends bioconductor-snpstats: 
-   
    :depends parallel: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-devtools: 
-   
    :depends r-minpack.lm: 
-   
    :depends r-mvtnorm: 
-   
    :requirements:
 
    .. rubric:: Installation

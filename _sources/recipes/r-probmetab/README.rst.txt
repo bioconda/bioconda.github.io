@@ -25,25 +25,15 @@ r-probmetab
    :versions: 1.1-0, 1.0-0
    
    :depends bioconductor-camera: 
-   
    :depends bioconductor-multtest: 
-   
    :depends bioconductor-rcytoscape: 
-   
    :depends r: 3.2.2*
-   
    :depends r-genenet: 
-   
    :depends r-hwriter: 
-   
    :depends r-rcpparmadillo: 
-   
    :depends r-rcurl: 
-   
    :depends r-rjson: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

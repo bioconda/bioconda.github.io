@@ -25,29 +25,17 @@ r-bcbiornaseq
    :versions: 0.2.8-0, 0.2.7-0, 0.2.4-0, 0.2.4a-0, 0.2.3a-0, 0.1.2-0
    
    :depends bioconductor-degreport: 
-   
    :depends bioconductor-deseq2: 
-   
    :depends bioconductor-edger: 
-   
    :depends bioconductor-summarizedexperiment: 
-   
    :depends bioconductor-tximport: 
-   
    :depends bioconductor-vsn: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bcbiobase: 
-   
    :depends r-ggrepel: 
-   
    :depends r-pbapply: 
-   
    :depends r-rmarkdown: 
-   
    :depends r-tidyverse: 
-   
    :requirements:
 
    .. rubric:: Installation

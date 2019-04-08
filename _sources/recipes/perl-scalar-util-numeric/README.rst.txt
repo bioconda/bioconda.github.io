@@ -25,7 +25,6 @@ perl-scalar-util-numeric
    :versions: 0.40-1, 0.40-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

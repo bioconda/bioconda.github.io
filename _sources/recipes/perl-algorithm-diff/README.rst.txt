@@ -25,7 +25,6 @@ perl-algorithm-diff
    :versions: 1.1903-2, 1.1903-1, 1.1903-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

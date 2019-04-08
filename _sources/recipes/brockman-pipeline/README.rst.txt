@@ -25,29 +25,17 @@ brockman-pipeline
    :versions: 1.0-2, 1.0-1, 1.0-0
    
    :depends amused: 
-   
    :depends bedtools: 
-   
    :depends bowtie2: 
-   
    :depends bzip2: 
-   
    :depends jemalloc: 
-   
    :depends ncurses: 
-   
    :depends ruby: >=2.4
-   
    :depends ruby-dna-tools: 
-   
    :depends samtools: 
-   
    :depends trimmomatic: 
-   
    :depends ucsc-twobittofa: 
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

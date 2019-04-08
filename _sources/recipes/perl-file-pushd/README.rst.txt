@@ -25,15 +25,10 @@ perl-file-pushd
    :versions: 1.016-1, 1.016-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-exporter: 
-   
    :depends perl-file-path: 
-   
    :depends perl-file-temp: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ ncbi-ngs-sdk
    :versions: 2.9.3-0, 2.9.1-0, 2.9.0-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends libiconv: >=1.15,<1.16.0a0
-   
    :depends libxml2: >=2.9.8,<2.10.0a0
-   
    :requirements:
 
    .. rubric:: Installation

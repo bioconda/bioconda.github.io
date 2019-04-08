@@ -25,11 +25,8 @@ bioconductor-deqms
    :versions: 1.0.1-0, 1.0.0-1, 1.0.0-0
    
    :depends bioconductor-limma: >=3.34.0,<3.40.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :requirements:
 
    .. rubric:: Installation

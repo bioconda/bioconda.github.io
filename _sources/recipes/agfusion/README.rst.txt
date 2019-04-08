@@ -25,19 +25,12 @@ agfusion
    :versions: 1.231-0, 1.23-0, 1.2-2, 1.2-0, 1.0-0
    
    :depends biopython: >=1.67
-   
    :depends future: >=0.16.0
-   
    :depends matplotlib: >=1.5.0
-   
    :depends nose2: >=0.6.5
-   
    :depends pandas: >=0.18.1
-   
    :depends pyensembl: >=1.1.0
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,17 +25,11 @@ r-rubic
    :versions: 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0
    
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-data.table: >1.9.6
-   
    :depends r-digest: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gtable: 
-   
    :depends r-pracma: 
-   
    :requirements:
 
    .. rubric:: Installation

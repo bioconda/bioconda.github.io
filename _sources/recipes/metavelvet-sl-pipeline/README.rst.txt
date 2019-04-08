@@ -25,27 +25,16 @@ metavelvet-sl-pipeline
    :versions: 1.0-0
    
    :depends dwgsim: 
-   
    :depends libgcc: 
-   
    :depends libsvm: 
-   
    :depends metaphlan2: 
-   
    :depends metavelvet-sl: 
-   
    :depends metavelvet-sl-feature-extraction: 
-   
    :depends perl: 5.22.0*
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-module-build: 
-   
    :depends velvet: 
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

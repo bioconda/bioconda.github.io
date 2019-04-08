@@ -25,13 +25,9 @@ ecopcr
    :versions: 0.5.0-1, 0.5.0-0
    
    :depends libgcc: 
-   
    :depends python: 2.7*
-   
    :depends reportlab: 
-   
    :depends zlib: 1.2.11*
-   
    :requirements:
 
    .. rubric:: Installation

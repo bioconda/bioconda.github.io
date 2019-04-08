@@ -26,9 +26,7 @@ varscan
    :versions: 2.4.3-2, 2.4.3-1, 2.4.3-0, 2.4.2-2, 2.4.2-1, 2.4.2-0, 2.4.1-0, 2.4.0-1, 2.4.0-0, 2.3.7-2, 2.3.7-0
    
    :depends openjdk: 
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

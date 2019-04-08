@@ -25,9 +25,7 @@ perl-xml-filter-buffertext
    :versions: 1.01-2, 1.01-1, 1.01-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-xml-sax-base: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ perl-xml-sax-writer
    :versions: 0.57-0, 0.56-2, 0.56-1, 0.56-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-xml-filter-buffertext: 
-   
    :depends perl-xml-namespacesupport: 
-   
    :depends perl-xml-sax-base: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -27,51 +27,28 @@ kinsimriboswitch
    :versions: 0.3-1, 0.3-0
    
    :depends coreutils: 
-   
    :depends gmp: >=6.1.2,<7.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-clone: 
-   
    :depends perl-devel-assert: 
-   
    :depends perl-file-slurp: 
-   
    :depends perl-heap: 
-   
    :depends perl-inline: 
-   
    :depends perl-inline-c: 
-   
    :depends perl-ipc-system-simple: 
-   
    :depends perl-list-moreutils: 
-   
    :depends perl-math-random-mt-auto: 
-   
    :depends perl-math-round: 
-   
    :depends perl-parallel-loops: 
-   
    :depends perl-parse-recdescent: 
-   
    :depends perl-sys-info: 
-   
    :depends r: 
-   
    :depends r-argparser: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends treekin: 
-   
    :depends viennarna: >=2.4.11,<2.5.0a0
-   
    :requirements:
 
    .. rubric:: Installation

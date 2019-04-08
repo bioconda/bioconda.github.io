@@ -25,11 +25,8 @@ xsd
    :versions: 4.0.0_dep-1, 4.0.0_dep-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends xerces-c: >=3.2.0,<3.2.1.0a0
-   
    :requirements:
 
    .. rubric:: Installation

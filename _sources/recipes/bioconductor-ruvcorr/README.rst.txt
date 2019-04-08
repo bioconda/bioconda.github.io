@@ -25,25 +25,15 @@ bioconductor-ruvcorr
    :versions: 1.14.0-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-bladderbatch: >=1.20.0,<1.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-corrplot: 
-   
    :depends r-gridextra: 
-   
    :depends r-lattice: 
-   
    :depends r-mass: 
-   
    :depends r-psych: 
-   
    :depends r-reshape2: 
-   
    :depends r-snowfall: 
-   
    :requirements:
 
    .. rubric:: Installation

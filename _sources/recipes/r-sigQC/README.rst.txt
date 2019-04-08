@@ -25,39 +25,22 @@ r-sigqc
    :versions: 0.1.21-1, 0.1.21-0, 0.1.14-0
    
    :depends bioconductor-complexheatmap: 
-   
    :depends bioconductor-gsva: 
-   
    :depends bioconductor-rankprod: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-biclust: 
-   
    :depends r-circlize: 
-   
    :depends r-class: 
-   
    :depends r-cluster: 
-   
    :depends r-fmsb: 
-   
    :depends r-gplots: 
-   
    :depends r-gridgraphics: 
-   
    :depends r-kernsmooth: 
-   
    :depends r-lattice: 
-   
    :depends r-mass: 
-   
    :depends r-mclust: 
-   
    :depends r-moments: 
-   
    :depends r-nnet: 
-   
    :requirements:
 
    .. rubric:: Installation

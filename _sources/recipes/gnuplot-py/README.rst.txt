@@ -25,11 +25,8 @@ gnuplot-py
    :versions: 1.8-1, 1.8-0
    
    :depends gnuplot: 
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

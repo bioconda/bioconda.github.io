@@ -25,23 +25,14 @@ afplot
    :versions: 0.2.1-2, 0.2.1-1, 0.2.1-0
    
    :depends click: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends progressbar2: 
-   
    :depends pysam: 
-   
    :depends python: >=3.4
-   
    :depends pyvcf: 
-   
    :depends seaborn: 
-   
    :requirements:
 
    .. rubric:: Installation

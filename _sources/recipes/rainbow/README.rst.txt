@@ -25,9 +25,7 @@ rainbow
    :versions: 2.0.4-3, 2.0.4-2, 2.0.4-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends perl: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ r-qiimer
    :versions: 0.9.4-0
    
    :depends r: 3.3.1*
-   
    :depends r-pheatmap: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ pythomics
    :versions: 0.3.42-1, 0.3.42-0, 0.3.40-0
    
    :depends python: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

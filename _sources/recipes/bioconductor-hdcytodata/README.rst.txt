@@ -25,15 +25,10 @@ bioconductor-hdcytodata
    :versions: 1.2.1-0
    
    :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
-   
    :depends bioconductor-flowcore: >=1.48.0,<1.49.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

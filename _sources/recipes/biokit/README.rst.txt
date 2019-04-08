@@ -25,31 +25,18 @@ biokit
    :versions: 0.4.4-0, 0.4.2-1, 0.4.2-0, 0.4.1-4, 0.4.1-2, 0.4.1-0, 0.2.1-0, 0.1.4-0, 0.1.3-0
    
    :depends biopython: 
-   
    :depends bioservices: >=1.4.16
-   
    :depends colorlog: 
-   
    :depends colormap: 
-   
    :depends easydev: >=0.9.34
-   
    :depends matplotlib: 
-   
    :depends mesalib: 
-   
    :depends numpydoc: 
-   
    :depends pandas: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends pyyaml: 
-   
    :depends scipy: 
-   
    :depends xmltodict: 
-   
    :requirements:
 
    .. rubric:: Installation

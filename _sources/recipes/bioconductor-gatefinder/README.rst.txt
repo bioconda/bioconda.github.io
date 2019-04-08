@@ -25,17 +25,11 @@ bioconductor-gatefinder
    :versions: 1.2.0-0
    
    :depends bioconductor-flowcore: >=1.48.0,<1.49.0
-   
    :depends bioconductor-flowfp: >=1.40.0,<1.41.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-diptest: 
-   
    :depends r-mvoutlier: 
-   
    :depends r-splancs: 
-   
    :requirements:
 
    .. rubric:: Installation

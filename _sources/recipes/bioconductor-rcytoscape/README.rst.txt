@@ -26,13 +26,9 @@ bioconductor-rcytoscape
    :versions: 1.27.1-0, 1.26.0-0, 1.21.1-0
    
    :depends bioconductor-biocgenerics: 
-   
    :depends bioconductor-graph: >=1.31.0
-   
    :depends r-base: 3.4.1*
-   
    :depends r-xmlrpc: >=0.2.4
-   
    :requirements:
 
    .. rubric:: Installation

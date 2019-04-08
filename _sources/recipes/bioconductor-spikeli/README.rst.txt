@@ -26,7 +26,6 @@ bioconductor-spikeli
    :versions: 2.42.0-0, 2.40.0-0, 2.38.0-0, 2.36.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

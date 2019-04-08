@@ -25,17 +25,11 @@ bioconductor-logolas
    :versions: 1.6.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-gridbase: 
-   
    :depends r-laplacesdemon: 
-   
    :depends r-squarem: 
-   
    :requirements:
 
    .. rubric:: Installation

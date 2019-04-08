@@ -26,35 +26,20 @@ desman
    :versions: 2.1-1, 2.1-0
    
    :depends bcbiogff: 
-   
    :depends biopython: 
-   
    :depends cython: 
-   
    :depends gsl: >=2.2.1,<2.3.0a0
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends perl: 
-   
    :depends pysam: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends r-getopt: 
-   
    :depends r-ggplot2: 
-   
    :depends r-labeling: 
-   
    :depends r-reshape: 
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

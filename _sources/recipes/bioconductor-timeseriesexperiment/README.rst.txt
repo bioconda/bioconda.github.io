@@ -25,37 +25,21 @@ bioconductor-timeseriesexperiment
    :versions: 1.0.2-0
    
    :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-dynamictreecut: 
-   
    :depends r-ggplot2: >=3.0.0
-   
    :depends r-hmisc: 
-   
    :depends r-magrittr: 
-   
    :depends r-proxy: 
-   
    :depends r-tibble: 
-   
    :depends r-tidyr: 
-   
    :depends r-vegan: 
-   
    :depends r-viridis: 
-   
    :requirements:
 
    .. rubric:: Installation

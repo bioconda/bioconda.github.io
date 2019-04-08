@@ -25,11 +25,8 @@ clinod
    :versions: 1.3-2, 1.3-1, 1.3-0
    
    :depends openjdk: >=6
-   
    :depends python: 
-   
    :depends snns: 
-   
    :requirements:
 
    .. rubric:: Installation

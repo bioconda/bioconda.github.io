@@ -26,7 +26,6 @@ lorikeet
    :versions: 20-0, 19-0, 17-0
    
    :depends openjdk: 
-   
    :requirements:
 
    .. rubric:: Installation

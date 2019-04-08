@@ -25,17 +25,11 @@ perl-mac-propertylist
    :versions: 1.413-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-math-bigint: 
-   
    :depends perl-mime-base64: 
-   
    :depends perl-parent: 
-   
    :depends perl-time-local: 
-   
    :depends perl-xml-entities: 
-   
    :requirements:
 
    .. rubric:: Installation

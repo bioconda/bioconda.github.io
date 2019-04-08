@@ -25,13 +25,9 @@ pyalveo
    :versions: 1.0.3-1, 1.0.3-0, 0.7-0, 0.6-0, 0.5-0
    
    :depends python: >=2.7,<2.8.0a0
-   
    :depends python-dateutil: 
-   
    :depends requests: 
-   
    :depends requests-oauthlib: 
-   
    :requirements:
 
    .. rubric:: Installation

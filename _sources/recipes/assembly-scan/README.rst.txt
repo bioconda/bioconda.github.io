@@ -25,7 +25,6 @@ assembly-scan
    :versions: 0.2-0
    
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

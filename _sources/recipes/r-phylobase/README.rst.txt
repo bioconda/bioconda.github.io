@@ -25,21 +25,13 @@ r-phylobase
    :versions: 0.8.4-4, 0.8.4-3, 0.8.4-2, 0.8.4-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-ade4: 
-   
    :depends r-ape: >=3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rcpp: >=0.11.0
-   
    :depends r-rncl: >=0.6.0
-   
    :depends r-rnexml: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ clinvar-tsv
    :versions: 0.1.0-0
    
    :depends pysam: >=0.15.1
-   
    :depends python: >=3.5
-   
    :depends snakemake-minimal: >=5.3.0
-   
    :requirements:
 
    .. rubric:: Installation

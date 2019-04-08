@@ -25,17 +25,11 @@ perl-module-scandeps
    :versions: 1.26-1, 1.26-0, 1.25-0, 1.23-1, 1.23-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-file-temp: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-module-metadata: 
-   
    :depends perl-text-parsewords: 
-   
    :depends perl-version: 
-   
    :requirements:
 
    .. rubric:: Installation

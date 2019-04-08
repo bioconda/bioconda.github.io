@@ -25,13 +25,9 @@ python-hppy
    :versions: 0.9.8-0, 0.9.6-0
    
    :depends cython: 
-   
    :depends python: 
-   
    :depends python-fakemp: 
-   
    :depends python-hyphy-python: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ perl-file-listing
    :versions: 6.04-1, 6.04-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-http-date: 
-   
    :requirements:
 
    .. rubric:: Installation

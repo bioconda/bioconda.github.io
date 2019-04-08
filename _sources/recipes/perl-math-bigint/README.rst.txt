@@ -25,9 +25,7 @@ perl-math-bigint
    :versions: 1.999816-0, 1.999813-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-math-complex: 
-   
    :requirements:
 
    .. rubric:: Installation

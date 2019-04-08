@@ -25,7 +25,6 @@ perl-tie-hash-indexed
    :versions: 0.05-1, 0.05-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

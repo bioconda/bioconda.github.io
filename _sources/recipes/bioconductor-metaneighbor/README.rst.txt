@@ -25,15 +25,10 @@ bioconductor-metaneighbor
    :versions: 1.2.0-0
    
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-beanplot: >=1.2
-   
    :depends r-gplots: >=3.0.1
-   
    :depends r-rcolorbrewer: >=1.1
-   
    :requirements:
 
    .. rubric:: Installation

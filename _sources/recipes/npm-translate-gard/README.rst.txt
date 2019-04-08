@@ -25,7 +25,6 @@ translate-gard
    :versions: 1.0.4-0, 1.0.3-0
    
    :depends nodejs: 6.*
-   
    :requirements:
 
    .. rubric:: Installation

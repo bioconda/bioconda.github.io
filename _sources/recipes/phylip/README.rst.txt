@@ -26,9 +26,7 @@ phylip
    :versions: 3.697-1, 3.697-0, 3.696-3, 3.696-2, 3.696-1, 3.696-0
    
    :depends openjdk: >=6
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

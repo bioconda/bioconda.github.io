@@ -25,11 +25,8 @@ metametamerge
    :versions: 1.1-1, 1.1-0, 1.0-1, 1.0-0
    
    :depends numpy: >=1.9.0
-   
    :depends pandas: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

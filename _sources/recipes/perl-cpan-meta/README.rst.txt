@@ -25,21 +25,13 @@ perl-cpan-meta
    :versions: 2.150010-0, 2.120921-1, 2.120921-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-cpan-meta-requirements: 
-   
    :depends perl-cpan-meta-yaml: 
-   
    :depends perl-encode: 
-   
    :depends perl-exporter: 
-   
    :depends perl-json-pp: 
-   
    :depends perl-version: 
-   
    :requirements:
 
    .. rubric:: Installation

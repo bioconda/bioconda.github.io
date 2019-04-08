@@ -25,11 +25,8 @@ bioconductor-bsgenome.drerio.ucsc.danrer5
    :versions: 1.4.0-0
    
    :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

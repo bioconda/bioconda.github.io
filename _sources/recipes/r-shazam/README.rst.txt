@@ -25,45 +25,25 @@ r-shazam
    :versions: 0.1.10-1, 0.1.10-0, 0.1.9-2
    
    :depends r-alakazam: >=0.2.11
-   
    :depends r-ape: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-diptest: 
-   
    :depends r-doparallel: 
-   
    :depends r-dplyr: >=0.5.0
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: >=2.0.0
-   
    :depends r-igraph: 
-   
    :depends r-iterators: 
-   
    :depends r-kedd: 
-   
    :depends r-kernsmooth: 
-   
    :depends r-lazyeval: 
-   
    :depends r-mass: 
-   
    :depends r-progress: 
-   
    :depends r-scales: 
-   
    :depends r-sdmtools: 
-   
    :depends r-seqinr: 
-   
    :depends r-stringi: >=1.1.3
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

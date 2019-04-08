@@ -25,29 +25,17 @@ perl-datetime-format-strptime
    :versions: 1.75-0, 1.73-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-constant: 
-   
    :depends perl-datetime: 
-   
    :depends perl-datetime-locale: >=1.05
-   
    :depends perl-datetime-timezone: 
-   
    :depends perl-exporter: 
-   
    :depends perl-package-deprecationmanager: 
-   
    :depends perl-params-validationcompiler: 
-   
    :depends perl-parent: 
-   
    :depends perl-specio: 
-   
    :depends perl-try-tiny: 
-   
    :requirements:
 
    .. rubric:: Installation

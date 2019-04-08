@@ -25,11 +25,8 @@ isoseq3
    :versions: 3.1.2-0, 3.1.0-0, 3.0.0-2, 3.0.0-1, 3.0.0-0, 0.7.2-2, 0.7.2-1, 0.7.2-0
    
    :depends lima: 
-   
    :depends pbccs: 
-   
    :depends pbcoretools: 
-   
    :requirements:
 
    .. rubric:: Installation

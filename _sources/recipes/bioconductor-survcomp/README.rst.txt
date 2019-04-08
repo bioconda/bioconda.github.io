@@ -26,27 +26,16 @@ bioconductor-survcomp
    :versions: 1.32.0-0, 1.30.0-0, 1.28.4-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bootstrap: 
-   
    :depends r-ipred: 
-   
    :depends r-kernsmooth: 
-   
    :depends r-prodlim: 
-   
    :depends r-rmeta: 
-   
    :depends r-suppdists: 
-   
    :depends r-survival: 
-   
    :depends r-survivalroc: 
-   
    :requirements:
 
    .. rubric:: Installation

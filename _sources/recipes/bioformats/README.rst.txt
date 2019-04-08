@@ -25,13 +25,9 @@ bioformats
    :versions: 0.1.15-1, 0.1.15-0
    
    :depends future: 
-   
    :depends pyfaidx: 
-   
    :depends python: 
-   
    :depends pyvcf: 
-   
    :requirements:
 
    .. rubric:: Installation

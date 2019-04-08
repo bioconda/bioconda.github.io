@@ -26,17 +26,11 @@ gffutils
    :versions: 0.9-1, 0.9-0, 0.8.7.1-2, 0.8.7.1-1, 0.8.7.1-0, 0.8.7-0, 0.8.6.1-0
    
    :depends argcomplete: 
-   
    :depends argh: 
-   
    :depends pyfaidx: 
-   
    :depends python: 
-   
    :depends simplejson: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,23 +26,14 @@ bioconductor-pathview
    :versions: 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.5-0, 1.9.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-kegggraph: >=1.42.0,<1.43.0
-   
    :depends bioconductor-keggrest: >=1.22.0,<1.23.0
-   
    :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-png: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

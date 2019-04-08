@@ -25,21 +25,13 @@ vispr
    :versions: 0.4.14-2, 0.4.14-1, 0.4.14-0, 0.4.13-0, 0.4.12-0, 0.4.11-0, 0.4.10-0, 0.4.9-0, 0.4.8-0, 0.4.7-0, 0.4.6-0
    
    :depends appdirs: 
-   
    :depends flask: 
-   
    :depends numpy: >=1.10
-   
    :depends pandas: >=0.17.1,<0.20
-   
    :depends python: >=3
-   
    :depends pyyaml: 
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,21 +26,13 @@ bioconductor-mygene
    :versions: 1.18.0-0, 1.16.2-0, 1.14.0-0
    
    :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-hmisc: 
-   
    :depends r-httr: >=0.3
-   
    :depends r-jsonlite: >=0.9.7
-   
    :depends r-plyr: 
-   
    :depends r-sqldf: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,17 +25,11 @@ metasv
    :versions: 0.5.4-1, 0.5.4-0, 0.4.0-4, 0.4.0-3
    
    :depends age-metasv: 
-   
    :depends pybedtools: 0.6.9
-   
    :depends pysam: 0.7.7
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends pyvcf: 0.6.7
-   
    :depends spades: 
-   
    :requirements:
 
    .. rubric:: Installation

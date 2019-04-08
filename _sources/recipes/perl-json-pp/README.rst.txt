@@ -25,7 +25,6 @@ perl-json-pp
    :versions: 4.00-0, 2.97001-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

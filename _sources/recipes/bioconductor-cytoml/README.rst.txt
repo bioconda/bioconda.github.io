@@ -25,37 +25,21 @@ bioconductor-cytoml
    :versions: 1.8.1-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-flowcore: >=1.48.0,<1.49.0
-   
    :depends bioconductor-flowutils: >=1.46.0,<1.47.0
-   
    :depends bioconductor-flowworkspace: >=3.30.0,<3.31.0
-   
    :depends bioconductor-ggcyto: >=1.10.0,<1.11.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-ncdfflow: >=2.28.0,<2.29.0
-   
    :depends bioconductor-opencyto: >=1.20.0,<1.21.0
-   
    :depends bioconductor-rbgl: >=1.58.0,<1.59.0
-   
    :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-base64enc: 
-   
    :depends r-data.table: 
-   
    :depends r-jsonlite: 
-   
    :depends r-plyr: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,19 +25,12 @@ gcs-oauth2-boto-plugin
    :versions: 1.9-1, 1.9-0
    
    :depends boto: >=2.29.1
-   
    :depends google-api-python-client: >=1.1
-   
    :depends httplib2: >=0.8
-   
    :depends pyopenssl: >=0.13
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends retry_decorator: >=1.0.0
-   
    :depends socksipy-branch: 1.01
-   
    :requirements:
 
    .. rubric:: Installation

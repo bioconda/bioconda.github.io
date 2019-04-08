@@ -25,11 +25,8 @@ dawg
    :versions: 2.0.beta1-1, 2.0.beta1-0
    
    :depends boost: >=1.66.0,<1.66.1.0a0
-   
    :depends gsl: >=2.2.1,<2.3.0a0
-   
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

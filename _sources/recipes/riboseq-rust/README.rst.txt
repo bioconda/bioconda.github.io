@@ -25,15 +25,10 @@ riboseq-rust
    :versions: 1.2-0
    
    :depends argparse: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pysam: 
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

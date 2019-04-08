@@ -25,11 +25,8 @@ perl-json-maybexs
    :versions: 1.004000-0, 1.003008-1, 1.003008-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-json-pp: 
-   
    :requirements:
 
    .. rubric:: Installation

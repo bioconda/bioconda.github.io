@@ -25,9 +25,7 @@ r-diptest
    :versions: 0.75_7-0
    
    :depends libgcc: 
-   
    :depends r-base: 3.3.2*
-   
    :requirements:
 
    .. rubric:: Installation

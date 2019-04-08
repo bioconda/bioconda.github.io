@@ -25,7 +25,6 @@ perl-text-format
    :versions: 0.59-2, 0.59-1, 0.59-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

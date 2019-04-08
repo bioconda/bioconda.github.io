@@ -25,19 +25,12 @@ bioconductor-coveb
    :versions: 1.8.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gsl: 
-   
    :depends r-igraph: 
-   
    :depends r-laplacesdemon: 
-   
    :depends r-matrix: 
-   
    :depends r-mvtnorm: 
-   
    :requirements:
 
    .. rubric:: Installation

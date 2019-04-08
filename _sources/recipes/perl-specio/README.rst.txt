@@ -25,33 +25,19 @@ perl-specio
    :versions: 0.43-0, 0.42-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-devel-stacktrace: 
-   
    :depends perl-eval-closure: 
-   
    :depends perl-exporter: 
-   
    :depends perl-module-runtime: 
-   
    :depends perl-mro-compat: 
-   
    :depends perl-parent: 
-   
    :depends perl-role-tiny: 
-   
    :depends perl-storable: 
-   
    :depends perl-sub-quote: 
-   
    :depends perl-test-fatal: 
-   
    :depends perl-try-tiny: 
-   
    :depends perl-version: 
-   
    :requirements:
 
    .. rubric:: Installation

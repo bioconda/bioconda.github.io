@@ -26,7 +26,6 @@ pypiper
    :versions: 0.8-0, 0.7.2-2, 0.7.2-0, 0.6-0
    
    :depends python: <3
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ deap
    :versions: 1.0.2-1, 1.0.2-0
    
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends python: 
-   
    :depends scoop: 
-   
    :requirements:
 
    .. rubric:: Installation

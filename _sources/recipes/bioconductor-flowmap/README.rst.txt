@@ -26,19 +26,12 @@ bioconductor-flowmap
    :versions: 1.20.1-0, 1.18.0-0, 1.14.0-0
    
    :depends r-abind: >=1.4.0
-   
    :depends r-ade4: >=1.5-2
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-doparallel: >=1.0.3
-   
    :depends r-matrix: >=1.1-4
-   
    :depends r-reshape2: >=1.2.2
-   
    :depends r-scales: >=0.2.3
-   
    :requirements:
 
    .. rubric:: Installation

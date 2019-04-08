@@ -25,13 +25,9 @@ amused
    :versions: 1.0-1, 1.0-0
    
    :depends jemalloc: 
-   
    :depends ruby: >=2.4
-   
    :depends ruby-dna-tools: 
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

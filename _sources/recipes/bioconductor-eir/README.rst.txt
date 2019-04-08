@@ -25,31 +25,18 @@ bioconductor-eir
    :versions: 1.22.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-chemminer: >=3.34.0,<3.35.0
-   
    :depends bioconductor-gesper: >=1.14.0,<1.15.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: 
-   
    :depends r-digest: 
-   
    :depends r-rcppannoy: >=0.0.9
-   
    :depends r-rcurl: 
-   
    :depends r-runit: 
-   
    :depends r-snow: 
-   
    :depends r-snowfall: 
-   
    :requirements:
 
    .. rubric:: Installation

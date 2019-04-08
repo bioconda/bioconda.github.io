@@ -25,11 +25,8 @@ perl-log-log4perl
    :versions: 1.49-0, 1.47-2, 1.47-1, 1.47-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-dbi: 
-   
    :depends perl-file-path: 
-   
    :requirements:
 
    .. rubric:: Installation

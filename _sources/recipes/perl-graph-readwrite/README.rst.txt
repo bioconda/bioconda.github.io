@@ -25,21 +25,13 @@ perl-graph-readwrite
    :versions: 2.09-2, 2.09-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-constant: 
-   
    :depends perl-graph: 
-   
    :depends perl-parent: 
-   
    :depends perl-parse-yapp: 
-   
    :depends perl-xml-parser: 
-   
    :depends perl-xml-writer: 
-   
    :requirements:
 
    .. rubric:: Installation

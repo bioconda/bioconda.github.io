@@ -25,15 +25,10 @@ perl-cpan-meta-check
    :versions: 0.014-0, 0.012-3, 0.012-2, 0.012-1
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-base: 
-   
    :depends perl-cpan-meta-requirements: 
-   
    :depends perl-exporter: 
-   
    :depends perl-module-metadata: 
-   
    :requirements:
 
    .. rubric:: Installation

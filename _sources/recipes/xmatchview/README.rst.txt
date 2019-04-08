@@ -27,9 +27,7 @@ xmatchview
    :versions: 1.1.1-0, v1.1.1-0
    
    :depends pil: 
-   
    :depends python: 2.7.*
-   
    :requirements:
 
    .. rubric:: Installation

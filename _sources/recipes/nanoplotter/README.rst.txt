@@ -25,23 +25,14 @@ nanoplotter
    :versions: 1.2.1-1, 1.2.1-0, 1.1.1-0, 1.0.0-2, 0.39.1-2, 0.39.1-0, 0.38.0-0, 0.35.4-0, 0.35.3-0, 0.29.0-0, 0.24.1-0, 0.22.1-0, 0.13.3-0, 0.13.2-0
    
    :depends matplotlib: >=2.1.0
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends pauvre: 0.1.86
-   
    :depends plotly: >=2.5.1
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends scipy: 
-   
    :depends seaborn: >=0.9.0
-   
    :depends statsmodels: >=0.8.0
-   
    :requirements:
 
    .. rubric:: Installation

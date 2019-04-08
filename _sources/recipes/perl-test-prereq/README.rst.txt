@@ -25,17 +25,11 @@ perl-test-prereq
    :versions: 2.002-3, 2.002-1, 2.002-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-lib: 
-   
    :depends perl-module-build: 
-   
    :depends perl-module-extract-use: 
-   
    :depends perl-parent: 
-   
    :requirements:
 
    .. rubric:: Installation

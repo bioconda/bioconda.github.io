@@ -25,13 +25,9 @@ pbdagcon
    :versions: 0.1-0
    
    :depends blasr_libcpp: 
-   
    :depends daligner: 
-   
    :depends dazz_db: 
-   
    :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

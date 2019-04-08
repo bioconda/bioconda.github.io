@@ -26,21 +26,13 @@ rsem
    :versions: 1.3.1-1, 1.3.1-0, 1.3.0-4, 1.3.0-3, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.2.28-2, 1.2.28-0, 1.2.22-0, 1.2.21-5, 1.2.21-4, 1.2.21-3
    
    :depends bioconductor-biobase: 
-   
    :depends bioconductor-ebseq: 
-   
    :depends boost: >=1.68.0,<1.68.1.0a0
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-module-build: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends samtools: 1.3.*
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

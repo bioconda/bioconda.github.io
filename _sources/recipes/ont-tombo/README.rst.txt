@@ -25,31 +25,18 @@ ont-tombo
    :versions: 1.5-1, 1.5-0, 1.4-0, 1.3-1, 1.3-0, 1.2.1.2-0, 1.2.1-0, 1.2.1b-0, 1.2-0, 1.1.1-0, 1.1-0, 1.0-0
    
    :depends cython: 
-   
    :depends future: 
-   
    :depends h5py: 
-   
    :depends mappy: >=2.10
-   
    :depends numpy: 
-   
    :depends pyfaidx: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends rpy2: <=2.8.6
-   
    :depends scipy: 
-   
    :depends tqdm: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ perl-autoloader
    :versions: 5.74-2, 5.74-1, 5.74-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

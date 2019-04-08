@@ -25,31 +25,18 @@ star-fusion
    :versions: 1.5.0-0, 1.4.0-2, 1.4.0-1, 1.4.0-0, 1.3.2-2, 1.3.2-1, 1.3.2-0, 1.2.0-0, 1.1.0-0, 1.0.0-0, 0.7.0-1, 0.7.0-0, 0.5.4-2, 0.5.4-1, 0.5.4-0, 0.5.3-0, 0.4.0-0
    
    :depends bbmap: 
-   
    :depends blast: 
-   
    :depends bowtie: 
-   
    :depends gmap: 
-   
    :depends perl: 
-   
    :depends perl-carp: 
-   
    :depends perl-db-file: 
-   
    :depends perl-io-gzip: 
-   
    :depends perl-json-xs: 
-   
    :depends perl-set-intervaltree: 
-   
    :depends perl-uri: 
-   
    :depends samtools: 
-   
    :depends star: >=2.6.1b
-   
    :requirements:
 
    .. rubric:: Installation

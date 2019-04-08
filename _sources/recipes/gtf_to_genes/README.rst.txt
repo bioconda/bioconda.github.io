@@ -25,7 +25,6 @@ gtf_to_genes
    :versions: 1.40-1, 1.40-0
    
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

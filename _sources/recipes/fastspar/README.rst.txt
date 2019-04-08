@@ -32,17 +32,11 @@ fastspar
    :versions: 0.0.9-0, 0.0.6-0
    
    :depends armadillo: >=8.200,<9.0a0
-   
    :depends gsl: >=2.2.1,<2.3.0a0
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libgfortran: >=3.0
-   
    :depends openblas: >=0.2.20,<0.2.21.0a0
-   
    :depends openmp: >=4.0
-   
    :requirements:
 
    .. rubric:: Installation

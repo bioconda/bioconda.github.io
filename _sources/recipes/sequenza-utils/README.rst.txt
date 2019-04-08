@@ -25,15 +25,10 @@ sequenza-utils
    :versions: 2.1.9999b0-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: 
-   
    :depends tabix: 
-   
    :requirements:
 
    .. rubric:: Installation

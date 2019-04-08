@@ -25,17 +25,11 @@ perl-ipc-cmd
    :versions: 1.02-0, 1.00-1, 1.00-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-extutils-makemaker: 
-   
    :depends perl-file-temp: 
-   
    :depends perl-locale-maketext-simple: 
-   
    :depends perl-module-load-conditional: 
-   
    :depends perl-params-check: 
-   
    :requirements:
 
    .. rubric:: Installation

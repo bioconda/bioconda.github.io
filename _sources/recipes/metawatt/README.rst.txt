@@ -32,27 +32,16 @@ metawatt
    :versions: 3.5.3-1, 3.5.3-0
    
    :depends aragorn: 
-   
    :depends bbmap: 
-   
    :depends blast: 
-   
    :depends diamond: 0.7.*
-   
    :depends fasttree: 
-   
    :depends hmmer: 
-   
    :depends mafft: 
-   
    :depends openjdk: 
-   
    :depends prodigal: 
-   
    :depends samtools: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

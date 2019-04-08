@@ -25,7 +25,6 @@ perl-app-cpanminus
    :versions: 1.7044-1, 1.7044-0, 1.7043-0, 1.7039-3, 1.7039-2, 1.7039-1, 1.7039-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

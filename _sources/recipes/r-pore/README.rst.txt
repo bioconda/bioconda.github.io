@@ -25,19 +25,12 @@ r-pore
    :versions: 0.24-0, 0.16-0
    
    :depends bioconductor-rhdf5: 
-   
    :depends parallel: 
-   
    :depends r-base: 3.3.2*
-   
    :depends r-bit64: 
-   
    :depends r-data.table: 
-   
    :depends r-shiny: 
-   
    :depends r-svdialogs: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,31 +25,18 @@ somaticseq
    :versions: 2.8.1-0
    
    :depends bedtools: 
-   
    :depends gatk4: 
-   
    :depends lofreq: 
-   
    :depends muse: 
-   
    :depends numpy: 
-   
    :depends pysam: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends r-ada: 
-   
    :depends regex: 
-   
    :depends scalpel: 
-   
    :depends scipy: 
-   
    :depends vardict: 
-   
    :depends varscan: >=2
-   
    :requirements:
 
    .. rubric:: Installation

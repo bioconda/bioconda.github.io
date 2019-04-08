@@ -25,27 +25,16 @@ lohhla
    :versions: 20171108-1, 20171108-0
    
    :depends bedtools: 
-   
    :depends bioconductor-biostrings: 
-   
    :depends bioconductor-rsamtools: 
-   
    :depends novoalign: 
-   
    :depends picard: 
-   
    :depends r-base: 
-   
    :depends r-beeswarm: 
-   
    :depends r-optparse: 
-   
    :depends r-seqinr: 
-   
    :depends r-zoo: 
-   
    :depends samtools: 
-   
    :requirements:
 
    .. rubric:: Installation

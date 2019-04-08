@@ -26,17 +26,11 @@ bioconductor-sights
    :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
    
    :depends bioconductor-qvalue: >=2.14.0,<2.15.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: >=2.0
-   
    :depends r-lattice: >=0.2
-   
    :depends r-mass: >=7.3
-   
    :depends r-reshape2: >=1.4
-   
    :requirements:
 
    .. rubric:: Installation

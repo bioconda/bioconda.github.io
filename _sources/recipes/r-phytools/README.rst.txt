@@ -25,35 +25,20 @@ r-phytools
    :versions: 0.6_60-1, 0.6_60-0, 0.6_44-1, 0.6_44-0
    
    :depends r-animation: 
-   
    :depends r-ape: >=4.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-clustergeneration: 
-   
    :depends r-coda: 
-   
    :depends r-combinat: 
-   
    :depends r-expm: 
-   
    :depends r-maps: 
-   
    :depends r-mass: 
-   
    :depends r-mnormt: 
-   
    :depends r-nlme: 
-   
    :depends r-numderiv: 
-   
    :depends r-phangorn: >=2.3.1
-   
    :depends r-plotrix: 
-   
    :depends r-scatterplot3d: 
-   
    :requirements:
 
    .. rubric:: Installation

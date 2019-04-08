@@ -25,9 +25,7 @@ fastqmetrics
    :versions: 0.1.0-1, 0.1.0-0
    
    :depends nanoget: >=0.14.0
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

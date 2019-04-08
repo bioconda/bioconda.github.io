@@ -25,9 +25,7 @@ perl-sub-install
    :versions: 0.928-2, 0.928-1, 0.928-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,33 +25,19 @@ bioconductor-metagenomefeatures
    :versions: 2.2.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-decipher: >=2.10.0,<2.11.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-ape: >=3.5
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbplyr: >=1.0.0
-   
    :depends r-dplyr: >=0.7.0
-   
    :depends r-lattice: >=0.20.33
-   
    :depends r-lazyeval: >=0.1.10
-   
    :depends r-magrittr: >=1.5
-   
    :depends r-purrr: >=0.2.2
-   
    :depends r-rsqlite: >=1.0.0
-   
    :depends r-stringr: >=1.0.0
-   
    :requirements:
 
    .. rubric:: Installation

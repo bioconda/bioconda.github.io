@@ -26,35 +26,20 @@ phyloflash
    :versions: 3.3b1-0, 3.0b1-1, 3.0b1-0, 2.0beta6-0
    
    :depends bbmap: 
-   
    :depends bedtools: 
-   
    :depends emirge: 
-   
    :depends mafft: 
-   
    :depends perl: >=5.13.2
-   
    :depends pigz: 
-   
    :depends r-base: 
-   
    :depends r-ggdendro: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gtable: 
-   
    :depends r-optparse: 
-   
    :depends r-reshape2: 
-   
    :depends samtools: 
-   
    :depends spades: 
-   
    :depends vsearch: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ damageprofiler
    :versions: 0.4.5-1, 0.4.4-1, 0.4.3-1, 0.4.2-1, 0.3.11-1, 0.3.11-0
    
    :depends openjdk: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

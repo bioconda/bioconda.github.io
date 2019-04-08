@@ -25,19 +25,12 @@ alfred
    :versions: 0.1.17-0, 0.1.16-1, 0.1.16-0, 0.1.15-0, 0.1.13-0, 0.1.12-1, 0.1.12-0, 0.1.9-0, 0.1.8-1, 0.1.8-0, 0.1.7-2, 0.1.7-1, 0.1.7-0, 0.1.6-2, 0.1.5-4, 0.1.5-3, 0.1.5-2, 0.1.5-1, 0.1.3-4, 0.1.3-3, 0.1.3-2, 0.1.3-1, 0.1.2-4, 0.1.2-3, 0.1.2-2, 0.1.2-1
    
    :depends boost: >=1.67.0,<1.67.1.0a0
-   
    :depends bzip2: >=1.0.6,<2.0a0
-   
    :depends htslib: >=1.9,<1.10.0a0
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends nlohmann_json: 
-   
    :depends sdsl-lite: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ pydemult
    :versions: 0.4.1-0
    
    :depends mputil: 
-   
    :depends pandas: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

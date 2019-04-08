@@ -25,7 +25,6 @@ r-dynamictreecut
    :versions: 1.63_1-0
    
    :depends r-base: 3.3.1*
-   
    :requirements:
 
    .. rubric:: Installation

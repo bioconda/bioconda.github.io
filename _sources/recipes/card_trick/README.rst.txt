@@ -25,11 +25,8 @@ card_trick
    :versions: 0.1.2-0, 0.1.0-0
    
    :depends pronto: 
-   
    :depends python: >3
-   
    :depends requests: 
-   
    :requirements:
 
    .. rubric:: Installation

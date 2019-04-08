@@ -25,11 +25,8 @@ perl-bio-tools-run-alignment-tcoffee
    :versions: 1.7.4-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bioperl-run: 
-   
    :depends t_coffee: 
-   
    :requirements:
 
    .. rubric:: Installation

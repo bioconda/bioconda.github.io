@@ -25,7 +25,6 @@ perl-data-dumper
    :versions: 2.173-0, 2.161-2, 2.161-1, 2.161-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,25 +25,15 @@ r-mmgenome
    :versions: 0.7.1-0, 0.6.3-0
    
    :depends bioconductor-biostrings: >=2.32.0
-   
    :depends r-base: 3.4.1*
-   
    :depends r-dplyr: >=0.4.0
-   
    :depends r-ggplot2: >=1.0.0
-   
    :depends r-gridextra: >=0.9.1
-   
    :depends r-igraph: >=1.0.0
-   
    :depends r-knitr: >=1.6
-   
    :depends r-reshape2: >=1.4
-   
    :depends r-sp: >=1.0.15
-   
    :depends r-vegan: >=2.0.10
-   
    :requirements:
 
    .. rubric:: Installation

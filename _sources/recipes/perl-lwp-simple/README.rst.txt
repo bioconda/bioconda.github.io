@@ -25,11 +25,8 @@ perl-lwp-simple
    :versions: 6.15-4, 6.15-3, 6.15-2, 6.15-1, 6.15-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-encode-locale: 
-   
    :requirements:
 
    .. rubric:: Installation

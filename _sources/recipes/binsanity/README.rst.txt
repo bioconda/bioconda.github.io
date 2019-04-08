@@ -25,19 +25,12 @@ binsanity
    :versions: 0.2.7.1-0, 0.2.6.3-0, 0.2.6.1-2, 0.2.6.1-1, 0.2.6.1-0
    
    :depends biopython: 
-   
    :depends checkm-genome: 
-   
    :depends pandas: >=0.13.0
-   
    :depends python: <3
-   
    :depends scikit-learn: 
-   
    :depends scipy: >=0.13.0
-   
    :depends subread: 
-   
    :requirements:
 
    .. rubric:: Installation

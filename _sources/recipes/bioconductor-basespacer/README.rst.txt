@@ -26,11 +26,8 @@ bioconductor-basespacer
    :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rcurl: 
-   
    :depends r-rjsonio: 
-   
    :requirements:
 
    .. rubric:: Installation

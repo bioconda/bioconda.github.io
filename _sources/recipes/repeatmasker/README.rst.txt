@@ -26,15 +26,10 @@ repeatmasker
    :versions: 4.0.8-13, 4.0.7-13, 4.0.7-11, 4.0.7-10, 4.0.6-10, 4.0.6-9, 4.0.6-8, 4.0.6-7, 4.0.6-6, 4.0.6-5, 4.0.6-4
    
    :depends hmmer: 
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-text-soundex: 
-   
    :depends rmblast: 
-   
    :depends trf: 
-   
    :requirements:
 
    .. rubric:: Installation

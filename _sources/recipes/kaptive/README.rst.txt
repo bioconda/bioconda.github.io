@@ -25,11 +25,8 @@ kaptive
    :versions: 0.5.1-2, 0.5.1-0, 0.3-0, 0.2-0
    
    :depends biopython: 1.68
-   
    :depends blast: 2.2.31
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

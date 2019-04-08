@@ -25,15 +25,10 @@ pepr
    :versions: 1.1.24-1, 1.1.24-0, 1.1.18-0, 1.0.9-0
    
    :depends numpy: >=1.6.0
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: >=0.14.0
-   
    :depends sharedmem: 
-   
    :requirements:
 
    .. rubric:: Installation

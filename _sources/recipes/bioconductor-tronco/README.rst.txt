@@ -25,37 +25,21 @@ bioconductor-tronco
    :versions: 2.14.2-0
    
    :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bnlearn: 
-   
    :depends r-cgdsr: 
-   
    :depends r-circlize: 
-   
    :depends r-doparallel: 
-   
    :depends r-foreach: 
-   
    :depends r-gridextra: 
-   
    :depends r-gtable: 
-   
    :depends r-gtools: 
-   
    :depends r-igraph: 
-   
    :depends r-iterators: 
-   
    :depends r-r.matlab: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-scales: 
-   
    :depends r-xtable: 
-   
    :requirements:
 
    .. rubric:: Installation

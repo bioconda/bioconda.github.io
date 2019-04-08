@@ -25,7 +25,6 @@ perl-socket
    :versions: 2.027-1, 2.027-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

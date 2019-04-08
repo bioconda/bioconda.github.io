@@ -26,11 +26,8 @@ bioconductor-mbttest
    :versions: 1.10.0-0, 1.8.1-0, 1.5.0-0, 1.4.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gplots: 
-   
    :depends r-gtools: 
-   
    :requirements:
 
    .. rubric:: Installation

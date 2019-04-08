@@ -1,11 +1,9 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
     <title>Package Recipe &#39;bowtie&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -39,7 +37,7 @@
 
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
-    
+
    
   <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
   
@@ -90,8 +88,6 @@
     <form class="search" action="../../search.html" method="get">
       <input type="text" name="q" />
       <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
     </form>
     </div>
 </div>
@@ -109,68 +105,43 @@
 <dt id="recipe-bowtie">
 <em class="property">recipe </em><code class="descname">bowtie</code><a class="headerlink" href="#recipe-bowtie" title="Permalink to this definition">¶</a></dt>
 <dd><p>An ultrafast memory-efficient short read aligner</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Homepage:</th><td class="field-body"><a class="reference external" href="https://github.com/BenLangmead/bowtie">https://github.com/BenLangmead/bowtie</a></td>
-</tr>
-<tr class="field-even field"><th class="field-name">License:</th><td class="field-body">Artistic License 2.0</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Recipe:</th><td class="field-body">/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie">bowtie</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie/meta.yaml">meta.yaml</a></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Links:</th><td class="field-body">biotools: <a class="reference external" href="https://bio.tools/bowtie">bowtie</a></td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Homepage</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/BenLangmead/bowtie">https://github.com/BenLangmead/bowtie</a></p>
+</dd>
+<dt class="field-even">License</dt>
+<dd class="field-even"><p>Artistic License 2.0</p>
+</dd>
+<dt class="field-odd">Recipe</dt>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie">bowtie</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-even">Links</dt>
+<dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/bowtie">bowtie</a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="package">
 <dt id="package-bowtie">
 <em class="property">package </em><code class="descname">bowtie</code><a class="headerlink" href="#package-bowtie" title="Permalink to this definition">¶</a></dt>
 <dd><p><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bowtie.svg?style=flat" /> <a class="reference external" href="https://quay.io/repository/biocontainers/bowtie"><img alt="docker_bowtie" src="https://quay.io/repository/biocontainers/bowtie/status" /></a></p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Versions:</th><td class="field-body"><p class="first">1.2.2-1, 1.2.2-0, 1.2.1.1-0, 1.2.0-0, 1.1.2-2, 1.1.2-1, 1.1.2-0, 1.1.1-0, 1.0.0-1, 1.0.0-0</p>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Depends:</th><td class="field-body"><ul class="first simple">
-<li><strong>libstdcxx-ng</strong> &gt;=4.9</li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a></li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</li>
-<li><a class="conda-forge reference external" href="https://github.com/conda-forge/tbb-feedstock"><strong>tbb</strong></a></li>
+<dl class="field-list simple">
+<dt class="field-odd">Versions</dt>
+<dd class="field-odd"><p>1.2.2-1, 1.2.2-0, 1.2.1.1-0, 1.2.0-0, 1.1.2-2, 1.1.2-1, 1.1.2-0, 1.1.1-0, 1.0.0-1, 1.0.0-0</p>
+</dd>
+<dt class="field-even">Depends</dt>
+<dd class="field-list-wrapped field-even"><ul class="simple">
+<li><p><strong>libstdcxx-ng</strong> &gt;=4.9</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/tbb-feedstock"><strong>tbb</strong></a></p></li>
 </ul>
-</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Required&nbsp;By:</th><td class="field-body"><ul class="first last simple">
-<li><a class="conda-package reference internal" href="../seq2hla/README.html#seq2hla"><strong class="xref backref">seq2hla</strong></a></li>
-<li><a class="conda-package reference internal" href="../sequana/README.html#sequana"><strong class="xref backref">sequana</strong></a></li>
-<li><a class="conda-package reference internal" href="../imfusion/README.html#imfusion"><strong class="xref backref">imfusion</strong></a></li>
-<li><a class="conda-package reference internal" href="../mir-prefer/README.html#mir-prefer"><strong class="xref backref">mir-prefer</strong></a></li>
-<li><a class="conda-package reference internal" href="../virema/README.html#virema"><strong class="xref backref">virema</strong></a></li>
-<li><a class="conda-package reference internal" href="../fastq-screen/README.html#fastq-screen"><strong class="xref backref">fastq-screen</strong></a></li>
-<li><a class="conda-package reference internal" href="../mockinbird/README.html#mockinbird"><strong class="xref backref">mockinbird</strong></a></li>
-<li><a class="conda-package reference internal" href="../shortstack/README.html#shortstack"><strong class="xref backref">shortstack</strong></a></li>
-<li><a class="conda-package reference internal" href="../plastid/README.html#plastid"><strong class="xref backref">plastid</strong></a></li>
-<li><a class="conda-package reference internal" href="../star-fusion/README.html#star-fusion"><strong class="xref backref">star-fusion</strong></a></li>
-<li><a class="conda-package reference internal" href="../ngseqbasic/README.html#ngseqbasic"><strong class="xref backref">ngseqbasic</strong></a></li>
-<li><a class="conda-package reference internal" href="../phyluce/README.html#phyluce"><strong class="xref backref">phyluce</strong></a></li>
-<li><a class="conda-package reference internal" href="../SpliceMap/README.html#splicemap"><strong class="xref backref">splicemap</strong></a></li>
-<li><a class="conda-package reference internal" href="../repenrich/README.html#repenrich"><strong class="xref backref">repenrich</strong></a></li>
-<li><a class="conda-package reference internal" href="../mirdeep2/README.html#mirdeep2"><strong class="xref backref">mirdeep2</strong></a></li>
-<li><a class="conda-package reference internal" href="../fusioncatcher/README.html#fusioncatcher"><strong class="xref backref">fusioncatcher</strong></a></li>
-<li><a class="conda-package reference internal" href="../dunovo/README.html#dunovo"><strong class="xref backref">dunovo</strong></a></li>
-<li><a class="conda-package reference internal" href="../trinity/README.html#trinity"><strong class="xref backref">trinity</strong></a></li>
-<li><a class="conda-package reference internal" href="../cap-mirseq/README.html#cap-mirseq"><strong class="xref backref">cap-mirseq</strong></a></li>
-<li><a class="conda-package reference internal" href="../hicup/README.html#hicup"><strong class="xref backref">hicup</strong></a></li>
-<li><a class="conda-package reference internal" href="../emirge/README.html#emirge"><strong class="xref backref">emirge</strong></a></li>
+</dd>
+<dt class="field-odd">Required By</dt>
+<dd class="field-odd"><ul class="simple">
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bowtie</span>
@@ -207,7 +178,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
@@ -217,6 +188,8 @@
 
     
 
-    
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/bowtie/meta.yaml" rel="me">Edit me on GitHub</a>
+    </div>
   </body>
 </html>

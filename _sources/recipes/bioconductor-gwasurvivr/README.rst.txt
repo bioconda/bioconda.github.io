@@ -25,19 +25,12 @@ bioconductor-gwasurvivr
    :versions: 1.0.0-1, 1.0.0-0
    
    :depends bioconductor-gwastools: >=1.28.0,<1.29.0
-   
    :depends bioconductor-snprelate: >=1.16.0,<1.17.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends bioconductor-variantannotation: >=1.28.0,<1.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-matrixstats: 
-   
    :depends r-survival: 
-   
    :requirements:
 
    .. rubric:: Installation

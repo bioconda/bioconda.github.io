@@ -25,9 +25,7 @@ nspdk
    :versions: 9.2-0
    
    :depends libgcc: 
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

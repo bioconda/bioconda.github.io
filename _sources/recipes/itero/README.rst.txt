@@ -25,33 +25,19 @@ itero
    :versions: 1.1.2-0, 1.1.1-2, 1.1.1-0, 1.1.0-0, 1.0.1-0, 1.0.0-0
    
    :depends argcomplete: 
-   
    :depends bedtools: 
-   
    :depends biopython: 
-   
    :depends bwa: 
-   
    :depends gawk: 
-   
    :depends grep: 
-   
    :depends mpi4py: 
-   
    :depends nomkl: 
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: 
-   
    :depends schwimmbad: 
-   
    :depends six: 
-   
    :depends spades: 3.12.*
-   
    :requirements:
 
    .. rubric:: Installation

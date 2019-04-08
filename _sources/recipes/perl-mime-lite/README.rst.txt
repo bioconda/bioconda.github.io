@@ -25,13 +25,9 @@ perl-mime-lite
    :versions: 3.030-1, 3.030-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-email-date-format: 
-   
    :depends perl-mailtools: 
-   
    :depends perl-mime-types: 
-   
    :requirements:
 
    .. rubric:: Installation

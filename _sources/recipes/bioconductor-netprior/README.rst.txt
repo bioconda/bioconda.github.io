@@ -25,23 +25,14 @@ bioconductor-netprior
    :versions: 1.8.1-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-doparallel: 
-   
    :depends r-dplyr: 
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-matrix: 
-   
    :depends r-proc: 
-   
    :depends r-sparsemvn: 
-   
    :requirements:
 
    .. rubric:: Installation

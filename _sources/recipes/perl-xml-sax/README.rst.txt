@@ -25,13 +25,9 @@ perl-xml-sax
    :versions: 1.00-0, 0.99-1, 0.99-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-file-temp: 
-   
    :depends perl-xml-namespacesupport: 
-   
    :depends perl-xml-sax-base: 
-   
    :requirements:
 
    .. rubric:: Installation

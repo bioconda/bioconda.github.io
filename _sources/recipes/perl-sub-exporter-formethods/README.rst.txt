@@ -25,11 +25,8 @@ perl-sub-exporter-formethods
    :versions: 0.100052-1, 0.100052-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-sub-exporter: 
-   
    :depends perl-sub-name: 
-   
    :requirements:
 
    .. rubric:: Installation

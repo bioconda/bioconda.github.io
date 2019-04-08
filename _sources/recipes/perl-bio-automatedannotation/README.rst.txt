@@ -25,35 +25,20 @@ perl-bio-automatedannotation
    :versions: 1.182770-0
    
    :depends blast: 
-   
    :depends hmmer: 
-   
    :depends parallel: 
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bioperl: 
-   
    :depends perl-bioperl-run: 
-   
    :depends perl-exception-class: 
-   
    :depends perl-file-slurper: 
-   
    :depends perl-file-temp: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-moose: 
-   
    :depends perl-text-csv: 
-   
    :depends perl-time-piece: 
-   
    :depends perl-xml-simple: 
-   
    :depends prodigal: 
-   
    :requirements:
 
    .. rubric:: Installation

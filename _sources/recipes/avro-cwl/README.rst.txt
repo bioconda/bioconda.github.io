@@ -25,7 +25,6 @@ avro-cwl
    :versions: 1.8.9-0, 1.8.4-1, 1.8.4-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

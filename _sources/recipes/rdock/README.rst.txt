@@ -25,15 +25,10 @@ rdock
    :versions: 2013.1-1, 2013.1-0
    
    :depends libgcc: 
-   
    :depends numpy: 
-   
    :depends openbabel: 
-   
    :depends perl: 5.22.0*
-   
    :depends popt: 
-   
    :requirements:
 
    .. rubric:: Installation

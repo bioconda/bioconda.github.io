@@ -25,55 +25,30 @@ perl-bio-rna-rnaalisplit
    :versions: v0.09-0, v0.08-0, v0.07-0, v0.06-2, v0.06-1
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-array-set: 
-   
    :depends perl-bioperl: >=1.6.924
-   
    :depends perl-constant: 
-   
    :depends perl-data-dumper: 
-   
    :depends perl-devel-globaldestruction: 
-   
    :depends perl-digest-md5: 
-   
    :depends perl-extutils-makemaker: 
-   
    :depends perl-file-path: 
-   
    :depends perl-file-share: 
-   
    :depends perl-file-spec: 
-   
    :depends perl-filedirutil: 
-   
    :depends perl-ipc-cmd: 
-   
    :depends perl-lib: 
-   
    :depends perl-module-implementation: 
-   
    :depends perl-moose: 
-   
    :depends perl-namespace-autoclean: 
-   
    :depends perl-path-class: 
-   
    :depends perl-pod-usage: 
-   
    :depends perl-storable: 
-   
    :depends perl-sub-exporter-progressive: 
-   
    :depends perl-test-prereq: 
-   
    :depends rnaz: >=2.1
-   
    :depends rscape: >=1.2.2
-   
    :depends viennarna: >=2.4.9
-   
    :requirements:
 
    .. rubric:: Installation

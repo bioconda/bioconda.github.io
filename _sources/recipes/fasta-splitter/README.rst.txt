@@ -25,9 +25,7 @@ fasta-splitter
    :versions: 0.2.4-1, 0.2.4-0
    
    :depends perl: 
-   
    :depends perl-file-util: 
-   
    :requirements:
 
    .. rubric:: Installation

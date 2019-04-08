@@ -25,19 +25,12 @@ phylogenetics
    :versions: 0.5.0-0
    
    :depends biopython: 
-   
    :depends dendropy: 
-   
    :depends pandas: 
-   
    :depends phylopandas: 
-   
    :depends phylovega: 
-   
    :depends pyasr: 
-   
    :depends python: >=3.6
-   
    :requirements:
 
    .. rubric:: Installation

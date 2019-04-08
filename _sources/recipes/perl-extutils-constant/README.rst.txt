@@ -25,7 +25,6 @@ perl-extutils-constant
    :versions: 0.24-1, 0.24-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

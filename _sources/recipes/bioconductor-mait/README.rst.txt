@@ -25,33 +25,19 @@ bioconductor-mait
    :versions: 1.16.1-1, 1.16.1-0, 1.16.0-0
    
    :depends bioconductor-camera: >=1.38.0,<1.39.0
-   
    :depends bioconductor-xcms: >=3.4.0,<3.5.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-agricolae: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-caret: 
-   
    :depends r-class: 
-   
    :depends r-e1071: 
-   
    :depends r-gplots: 
-   
    :depends r-mass: 
-   
    :depends r-pls: 
-   
    :depends r-plsgenomics: 
-   
    :depends r-rcpp: 
-   
    :requirements:
 
    .. rubric:: Installation

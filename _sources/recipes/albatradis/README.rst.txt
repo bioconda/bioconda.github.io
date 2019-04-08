@@ -25,37 +25,21 @@ albatradis
    :versions: 1.0.0-0, 0.0.5-4
    
    :depends biopython: >=1.68
-   
    :depends biotradis: 
-   
    :depends cython: 
-   
    :depends dendropy: 
-   
    :depends graphviz: >=2.38.0,<3.0a0
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-moose: 
-   
    :depends perl-parallel-forkmanager: 
-   
    :depends perl-pathtools: 
-   
    :depends perl-scalar-util-numeric: 
-   
    :depends pyfastaq: >=3.12.0
-   
    :depends python: >=3.7,<3.8.0a0
-   
    :depends scipy: 
-   
    :depends seaborn: 
-   
    :requirements:
 
    .. rubric:: Installation

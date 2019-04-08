@@ -25,37 +25,21 @@ perl-html-form
    :versions: 6.03-1, 6.03-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-cpan-meta: 
-   
    :depends perl-data-dumper: 
-   
    :depends perl-extutils-cbuilder: 
-   
    :depends perl-extutils-manifest: 
-   
    :depends perl-extutils-parsexs: 
-   
    :depends perl-file-path: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-html-parser: 
-   
    :depends perl-http-message: 
-   
    :depends perl-module-metadata: 
-   
    :depends perl-perl-ostype: 
-   
    :depends perl-text-abbrev: 
-   
    :depends perl-text-parsewords: 
-   
    :depends perl-uri: 
-   
    :depends perl-version: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ hmftools-purple
    :versions: 2.25-1, 2.17-1, 2.16-1, 2.16-0, 2.15-0
    
    :depends openjdk: >=8
-   
    :depends xorg-libxtst: 
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

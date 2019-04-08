@@ -25,19 +25,12 @@ bioconductor-assign
    :versions: 1.18.0-0
    
    :depends bioconductor-sva: >=3.30.0,<3.31.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-msm: 
-   
    :depends r-rlab: 
-   
    :depends r-yaml: 
-   
    :requirements:
 
    .. rubric:: Installation

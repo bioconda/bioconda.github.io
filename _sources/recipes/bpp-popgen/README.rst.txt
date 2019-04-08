@@ -25,9 +25,7 @@ bpp-popgen
    :versions: 2.4.1-0
    
    :depends bpp-seq: 
-   
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

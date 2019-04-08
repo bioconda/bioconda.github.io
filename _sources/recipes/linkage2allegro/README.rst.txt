@@ -25,7 +25,6 @@ linkage2allegro
    :versions: 2017.3-1, 2017.3-0, 2017.2-0, 2017.1-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

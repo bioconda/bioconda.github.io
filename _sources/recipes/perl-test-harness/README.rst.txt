@@ -25,7 +25,6 @@ perl-test-harness
    :versions: 3.42-0, 3.36-1, 3.36-0, 3.30-3, 3.30-2, 3.30-1
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

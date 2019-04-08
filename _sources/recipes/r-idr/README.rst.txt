@@ -25,7 +25,6 @@ r-idr
    :versions: 1.2-0
    
    :depends r: 3.2.2*
-   
    :requirements:
 
    .. rubric:: Installation

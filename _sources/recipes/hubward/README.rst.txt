@@ -25,35 +25,20 @@ hubward
    :versions: 0.2.2-1, 0.2.1-1, 0.2.0-0
    
    :depends argh: 
-   
    :depends bleach: 
-   
    :depends colorama: 
-   
    :depends docutils: 
-   
    :depends fabric: 
-   
    :depends functools32: 
-   
    :depends jsonschema: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pyaml: 
-   
    :depends pybedtools: 
-   
    :depends pycurl: 
-   
    :depends python: 2.7*
-   
    :depends pyyaml: 
-   
    :depends trackhub: 
-   
    :requirements:
 
    .. rubric:: Installation

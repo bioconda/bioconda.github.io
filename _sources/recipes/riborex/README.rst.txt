@@ -25,15 +25,10 @@ riborex
    :versions: 2.3.4-0
    
    :depends bioconductor-biobase: 
-   
    :depends bioconductor-deseq2: 
-   
    :depends bioconductor-edger: 
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-fdrtool: 
-   
    :requirements:
 
    .. rubric:: Installation

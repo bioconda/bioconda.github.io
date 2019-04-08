@@ -26,21 +26,13 @@ bioconductor-gsca
    :versions: 2.12.0-1, 2.12.0-0, 2.10.0-0, 2.8.0-0
    
    :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :depends r-shiny: 
-   
    :depends r-sp: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ pacbio_falcon
    :versions: 052016-1, 052016-0
    
    :depends networkx: 
-   
    :depends pypeflow: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends rdfextras: 
-   
    :depends rdflib: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,19 +26,12 @@ bioconductor-acgh
    :versions: 1.60.0-0, 1.58.0-0, 1.56.0-0, 1.54.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-multtest: >=2.38.0,<2.39.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-survival: 
-   
    :requirements:
 
    .. rubric:: Installation

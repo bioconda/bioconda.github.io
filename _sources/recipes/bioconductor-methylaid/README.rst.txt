@@ -25,29 +25,17 @@ bioconductor-methylaid
    :versions: 1.16.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-minfi: >=1.28.0,<1.29.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-gridbase: 
-   
    :depends r-hexbin: 
-   
    :depends r-matrixstats: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-shiny: 
-   
    :requirements:
 
    .. rubric:: Installation

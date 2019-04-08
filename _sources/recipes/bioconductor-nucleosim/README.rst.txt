@@ -26,11 +26,8 @@ bioconductor-nucleosim
    :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
    
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

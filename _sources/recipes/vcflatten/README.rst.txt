@@ -25,7 +25,6 @@ vcflatten
    :versions: 0.5.2-2, 0.5.2-1, 0.5.2-0
    
    :depends openjdk: 
-   
    :requirements:
 
    .. rubric:: Installation

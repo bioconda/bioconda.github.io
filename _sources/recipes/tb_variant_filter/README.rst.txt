@@ -26,19 +26,12 @@ tb_variant_filter
    :versions: 0.1.0-0, 0.0.1-0
    
    :depends intervaltree: 
-   
    :depends lxml: 
-   
    :depends pandas: 
-   
    :depends py2neo: >=4.2.0
-   
    :depends python: >=3.7
-   
    :depends requests: 
-   
    :depends vcfpy: 
-   
    :requirements:
 
    .. rubric:: Installation

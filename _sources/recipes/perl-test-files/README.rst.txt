@@ -25,13 +25,9 @@ perl-test-files
    :versions: 0.14-2, 0.14-1, 0.14-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-algorithm-diff: 
-   
    :depends perl-test-builder-tester: 
-   
    :depends perl-text-diff: 
-   
    :requirements:
 
    .. rubric:: Installation

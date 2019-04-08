@@ -25,19 +25,12 @@ bioconductor-funtoonorm
    :versions: 1.6.0-0
    
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
-   
    :depends bioconductor-illuminahumanmethylation450kmanifest: >=0.4.0,<0.5.0
-   
    :depends bioconductor-minfi: >=1.28.0,<1.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-matrixstats: 
-   
    :depends r-pls: 
-   
    :requirements:
 
    .. rubric:: Installation

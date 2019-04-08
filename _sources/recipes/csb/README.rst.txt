@@ -25,13 +25,9 @@ csb
    :versions: 1.2.5-2, 1.2.5-0
    
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends python: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

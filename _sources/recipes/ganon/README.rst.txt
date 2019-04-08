@@ -26,17 +26,11 @@ ganon
    :versions: 0.1.2-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends pandas: 
-   
    :depends python: 
-   
    :depends taxsbp: >=0.1.1
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

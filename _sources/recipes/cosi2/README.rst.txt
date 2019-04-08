@@ -25,9 +25,7 @@ cosi2
    :versions: 2.3.0rc4-1, 2.3.0rc4-0, 2.3.0rc3-0, 2.3.0rc2-0, 2.3.0rc1-0, 2.02-1, 2.02-0, 2.0-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

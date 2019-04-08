@@ -25,23 +25,14 @@ smoove
    :versions: 0.2.3-1, 0.2.3-0, 0.1.9-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.3-0, 0.1.1-0
    
    :depends bcftools: 
-   
    :depends duphold: 
-   
    :depends gsort: 
-   
    :depends htslib: 
-   
    :depends lumpy-sv: 
-   
    :depends mosdepth: 
-   
    :depends samtools: 
-   
    :depends svtools: 
-   
    :depends svtyper: 
-   
    :requirements:
 
    .. rubric:: Installation

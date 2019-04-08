@@ -25,7 +25,6 @@ r-pinfsc50
    :versions: 1.1.0-0
    
    :depends r-base: 3.4.1*
-   
    :requirements:
 
    .. rubric:: Installation

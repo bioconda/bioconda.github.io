@@ -25,19 +25,12 @@ groopm
    :versions: 0.3.4-0
    
    :depends bamm: 
-   
    :depends matplotlib: >=1.1.0
-   
    :depends numpy: >=1.6.1
-   
    :depends pillow: 
-   
    :depends pytables: >=2.3
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: >=0.10.1
-   
    :requirements:
 
    .. rubric:: Installation

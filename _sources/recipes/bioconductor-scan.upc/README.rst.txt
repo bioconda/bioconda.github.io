@@ -26,27 +26,16 @@ bioconductor-scan.upc
    :versions: 2.24.1-0, 2.22.0-0, 2.20.0-0, 2.18.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-affyio: >=1.52.0,<1.53.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-geoquery: >=2.50.0,<2.51.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-oligo: >=1.46.0,<1.47.0
-   
    :depends bioconductor-sva: >=3.30.0,<3.31.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-foreach: 
-   
    :depends r-mass: 
-   
    :requirements:
 
    .. rubric:: Installation

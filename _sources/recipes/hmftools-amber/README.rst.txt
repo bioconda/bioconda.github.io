@@ -25,11 +25,8 @@ hmftools-amber
    :versions: 2.3-0, 2.0-0
    
    :depends bioconductor-copynumber: 
-   
    :depends openjdk: >=8
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

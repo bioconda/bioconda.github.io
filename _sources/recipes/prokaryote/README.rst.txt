@@ -25,7 +25,6 @@ prokaryote
    :versions: 2.4.1-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

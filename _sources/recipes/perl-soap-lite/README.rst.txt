@@ -25,27 +25,16 @@ perl-soap-lite
    :versions: 1.19-1, 1.19-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-class-inspector: 
-   
    :depends perl-io-sessiondata: 
-   
    :depends perl-io-socket-ssl: 
-   
    :depends perl-libwww-perl: 
-   
    :depends perl-lwp-protocol-https: 
-   
    :depends perl-mime-lite: 
-   
    :depends perl-mime-tools: 
-   
    :depends perl-task-weaken: 
-   
    :depends perl-uri: 
-   
    :depends perl-xml-parser: 
-   
    :requirements:
 
    .. rubric:: Installation

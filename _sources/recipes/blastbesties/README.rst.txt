@@ -25,7 +25,6 @@ blastbesties
    :versions: 1.1.1-2, 1.1.1-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

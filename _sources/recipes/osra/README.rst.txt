@@ -25,21 +25,13 @@ osra
    :versions: 2.1.0-0, 2.0.1-2, 2.0.1-1, 2.0.1-0
    
    :depends gocr: 
-   
    :depends graphicsmagick: >=1.3.26
-   
    :depends libgcc: 
-   
    :depends ocrad: 
-   
    :depends poppler: 
-   
    :depends potrace: 
-   
    :depends tclap: 
-   
    :depends tesseract: 
-   
    :requirements:
 
    .. rubric:: Installation

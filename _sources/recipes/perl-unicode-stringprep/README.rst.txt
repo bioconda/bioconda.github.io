@@ -25,7 +25,6 @@ perl-unicode-stringprep
    :versions: 1.105-2, 1.105-1, 1.105-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

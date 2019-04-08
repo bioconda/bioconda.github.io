@@ -26,13 +26,9 @@ alder
    :versions: 1.03-0
    
    :depends fftw: 
-   
    :depends lapack: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

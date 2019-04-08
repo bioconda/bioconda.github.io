@@ -25,23 +25,14 @@ bioconductor-dmelsgi
    :versions: 1.14.0-0
    
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
-   
    :depends r-abind: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gplots: 
-   
    :depends r-igraph: 
-   
    :depends r-knitr: 
-   
    :depends r-tsp: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,21 +26,13 @@ goatools
    :versions: 0.8.12-0, 0.8.11-0, 0.8.9-0, 0.8.4-0, 0.7.11-1, 0.7.11-0, 0.6.10-0, 0.6.4-0, 0.5.9-0
    
    :depends numpy: 
-   
    :depends pydot: 
-   
    :depends pygraphviz: 
-   
    :depends python: 
-   
    :depends python-wget: 
-   
    :depends scipy: 
-   
    :depends statsmodels: 
-   
    :depends xlsxwriter: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ bioconductor-rmagpie
    :versions: 1.38.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-e1071: 
-   
    :depends r-kernlab: 
-   
    :depends r-pamr: 
-   
    :requirements:
 
    .. rubric:: Installation

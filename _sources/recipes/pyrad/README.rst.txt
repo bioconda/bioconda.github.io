@@ -25,15 +25,10 @@ pyrad
    :versions: 3.0.66-2, 3.0.66-0, 3.0.64-0
    
    :depends muscle: 
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: 
-   
    :depends vsearch: 
-   
    :requirements:
 
    .. rubric:: Installation

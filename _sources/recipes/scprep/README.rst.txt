@@ -25,21 +25,13 @@ scprep
    :versions: 0.8.1-0, 0.7.1-0
    
    :depends decorator: 
-   
    :depends future: 
-   
    :depends numpy: >=1.10.0
-   
    :depends pandas: 
-   
    :depends python: 
-   
    :depends scikit-learn: >=0.19.1
-   
    :depends scipy: >=0.18.0
-   
    :depends seaborn: 
-   
    :requirements:
 
    .. rubric:: Installation

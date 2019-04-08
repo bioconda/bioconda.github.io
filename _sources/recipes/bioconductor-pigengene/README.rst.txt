@@ -25,31 +25,18 @@ bioconductor-pigengene
    :versions: 1.8.0-0
    
    :depends bioconductor-go.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-impute: >=1.56.0,<1.57.0
-   
    :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
-   
    :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bnlearn: 
-   
    :depends r-c50: >=0.1.2
-   
    :depends r-mass: 
-   
    :depends r-matrixstats: 
-   
    :depends r-partykit: 
-   
    :depends r-pheatmap: >=1.0.8
-   
    :depends r-wgcna: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ bioconductor-mbpcr
    :versions: 1.36.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-oligoclasses: >=1.44.0,<1.45.0
-   
    :depends bioconductor-snpchip: >=2.28.0,<2.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,91 +25,48 @@ r-basejump
    :versions: 0.9.11-0, 0.9.9-0, 0.7.2-1, 0.7.2-0, 0.5.9-0, 0.5.3-0, 0.1.1-0
    
    :depends bioconductor-annotationhub: 
-   
    :depends bioconductor-biobase: 
-   
    :depends bioconductor-biocgenerics: 
-   
    :depends bioconductor-ensembldb: 
-   
    :depends bioconductor-genomeinfodb: 
-   
    :depends bioconductor-s4vectors: 
-   
    :depends r-assertive: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bioverbs: >=0.1.8
-   
    :depends r-brio: >=0.1.8
-   
    :depends r-cowplot: >=0.9
-   
    :depends r-dendsort: 
-   
    :depends r-devtools: 
-   
    :depends r-dplyr: >=0.7
-   
    :depends r-ggplot2: >=3.0
-   
    :depends r-ggrepel: >=0.8
-   
    :depends r-goalie: >=0.2.9
-   
    :depends r-knitr: >=1.2.1
-   
    :depends r-magrittr: >=1.5
-   
    :depends r-matrix: >=1.2
-   
    :depends r-matrix.utils: >=0.9
-   
    :depends r-matrixstats: >=0.54
-   
    :depends r-pbapply: 
-   
    :depends r-pheatmap: >=1.0
-   
    :depends r-purrr: >=0.2
-   
    :depends r-r.utils: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rcurl: >=1.95
-   
    :depends r-readr: >=1.3
-   
    :depends r-readxl: >=1.0
-   
    :depends r-reshape2: >=1.4
-   
    :depends r-rio: 
-   
    :depends r-rlang: >=0.3
-   
    :depends r-scales: 
-   
    :depends r-sessioninfo: >=1.1
-   
    :depends r-stringr: >=1.3
-   
    :depends r-syntactic: >=0.1.5
-   
    :depends r-tibble: >=2.0
-   
    :depends r-tidyr: >=0.8
-   
    :depends r-tidyselect: >=0.2
-   
    :depends r-transformer: >=0.1.6
-   
    :depends r-viridis: 
-   
    :depends r-yaml: 
-   
    :requirements:
 
    .. rubric:: Installation

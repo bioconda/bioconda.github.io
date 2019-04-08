@@ -26,7 +26,6 @@ dropseq_tools
    :versions: 2.0.0-0, 1.13-0
    
    :depends openjdk: >=8
-   
    :requirements:
 
    .. rubric:: Installation

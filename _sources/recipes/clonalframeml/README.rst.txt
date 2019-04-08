@@ -25,7 +25,6 @@ clonalframeml
    :versions: 1.11-1, 1.11-0
    
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

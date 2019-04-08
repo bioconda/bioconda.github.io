@@ -25,7 +25,6 @@ perl-crypt-rc4
    :versions: 2.02-1, 2.02-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

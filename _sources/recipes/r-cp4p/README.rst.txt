@@ -25,15 +25,10 @@ r-cp4p
    :versions: 0.3.5-1, 0.3.5-0
    
    :depends bioconductor-limma: 
-   
    :depends bioconductor-multtest: 
-   
    :depends bioconductor-qvalue: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-mess: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ ideas
    :versions: 1.20-1, 1.20-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends mkl: 
-   
    :requirements:
 
    .. rubric:: Installation

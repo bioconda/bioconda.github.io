@@ -25,31 +25,18 @@ unicycler
    :versions: 0.4.7-0, 0.4.6-0, 0.4.4-1, 0.4.4-0, 0.4.1-0, 0.3.0b-1, 0.3.0b-0, 0.2.0-0
    
    :depends blast: 
-   
    :depends bowtie2: 
-   
    :depends freebayes: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends miniasm: 
-   
    :depends openjdk: 
-   
    :depends pilon: 
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends racon: 
-   
    :depends samtools: >=1.0
-   
    :depends spades: >=3.6.2
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

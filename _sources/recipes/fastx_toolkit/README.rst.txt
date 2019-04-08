@@ -41,23 +41,14 @@ fastx_toolkit
    :versions: 0.0.14-7, 0.0.14-6, 0.0.14-5, 0.0.14-4, 0.0.14-3, 0.0.14-2, 0.0.14-1, 0.0.14-0
    
    :depends cython: 
-   
    :depends gnuplot: >=5.0.5
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libgtextutils: 
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends perl: 
-   
    :depends perl-gd: 
-   
    :depends perl-gdgraph-histogram: 
-   
    :depends perl-perlio-gzip: 
-   
    :requirements:
 
    .. rubric:: Installation

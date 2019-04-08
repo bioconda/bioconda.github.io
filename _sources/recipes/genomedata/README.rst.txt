@@ -26,25 +26,15 @@ genomedata
    :versions: 1.4.4-1, 1.4.4-0, 1.4.1-3, 1.4.1-2, 1.4.1-0, 1.4.0-1, 1.4.0-0, 1.3.6-0, 1.3.5-0
    
    :depends bedtools: 
-   
    :depends hdf5: >=1.10.3,<1.10.4.0a0
-   
    :depends libgcc-ng: >=4.9
-   
    :depends path.py: 
-   
    :depends pytables: >=3.4.3
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends six: 
-   
    :depends textinput: 
-   
    :depends ucsc-bigwigtobedgraph: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

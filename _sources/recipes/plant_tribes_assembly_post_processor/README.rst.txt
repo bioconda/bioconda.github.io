@@ -25,21 +25,13 @@ plant_tribes_assembly_post_processor
    :versions: 1.0.4-0, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.1-1, 1.0.1-0, 1.0.0-1, 1.0.0-0
    
    :depends cap3: 
-   
    :depends genometools-genometools: >=1,<2
-   
    :depends hmmer: >=3
-   
    :depends mafft: >=7,<8
-   
    :depends perl: >=5.22
-   
    :depends perl-estscan2: 
-   
    :depends transdecoder: >=5,<6
-   
    :depends trimal: >=1.4,<2
-   
    :requirements:
 
    .. rubric:: Installation

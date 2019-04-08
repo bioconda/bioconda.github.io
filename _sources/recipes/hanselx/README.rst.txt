@@ -25,9 +25,7 @@ hanselx
    :versions: 0.0.81-1, 0.0.81-0
    
    :depends numpy: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

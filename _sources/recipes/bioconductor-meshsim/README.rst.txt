@@ -26,11 +26,8 @@ bioconductor-meshsim
    :versions: 1.7.0-0
    
    :depends r-base: 3.3.2*
-   
    :depends r-rcurl: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ bioconductor-gsvadata
    :versions: 1.18.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-gseabase: >=1.44.0,<1.45.0
-   
    :depends bioconductor-hgu95a.db: >=3.2.0,<3.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

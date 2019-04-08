@@ -25,13 +25,9 @@ rdfextras
    :versions: 0.4-3, 0.4-2, 0.4-0
    
    :depends isodate: 
-   
    :depends pyparsing: <=1.5.7
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends rdflib: >=3.2.1
-   
    :requirements:
 
    .. rubric:: Installation

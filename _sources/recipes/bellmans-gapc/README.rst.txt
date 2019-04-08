@@ -25,13 +25,9 @@ bellmans-gapc
    :versions: 0.1-2, 0.1-1, 0.1-0
    
    :depends boost: 1.64*
-   
    :depends gsl: 2.2*
-   
    :depends libgcc: 
-   
    :depends openblas: 
-   
    :requirements:
 
    .. rubric:: Installation

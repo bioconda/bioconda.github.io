@@ -25,25 +25,15 @@ onto2nx
    :versions: 0.1.0-0
    
    :depends click: 
-   
    :depends colorama: 
-   
    :depends networkx: 
-   
    :depends pyfiglet: 
-   
    :depends pygments: 
-   
    :depends python: 2.7*
-   
    :depends rdflib: 
-   
    :depends rdflib-jsonld: 
-   
    :depends requests: 
-   
    :depends sparqlwrapper: 
-   
    :requirements:
 
    .. rubric:: Installation

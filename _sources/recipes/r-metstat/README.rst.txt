@@ -25,13 +25,9 @@ r-metstat
    :versions: 1.0-2, 1.0-1, 1.0-0
    
    :depends r-abind: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-mass: 
-   
    :depends r-pls: 
-   
    :requirements:
 
    .. rubric:: Installation

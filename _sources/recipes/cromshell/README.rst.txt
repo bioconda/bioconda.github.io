@@ -25,9 +25,7 @@ cromshell
    :versions: 0.2.3-0
    
    :depends cromwell: 
-   
    :depends jq: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -29,15 +29,10 @@ tigmint
    :versions: 1.1.2-0
    
    :depends intervaltree: 
-   
    :depends make: 
-   
    :depends pybedtools: 
-   
    :depends pysam: 
-   
    :depends python: >=3
-   
    :requirements:
 
    .. rubric:: Installation

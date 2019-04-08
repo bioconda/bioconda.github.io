@@ -25,9 +25,7 @@ genepender
    :versions: v2.6-1, v2.6-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends qt: 4.8.7.*
-   
    :requirements:
 
    .. rubric:: Installation

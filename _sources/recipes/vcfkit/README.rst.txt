@@ -25,37 +25,21 @@ vcfkit
    :versions: 0.1.6-2, 0.1.6-0, 0.0.4-0
    
    :depends awesome-slugify: 
-   
    :depends biopython: 
-   
    :depends clint: 
-   
    :depends cython: 
-   
    :depends cyvcf2: >=0.1.9
-   
    :depends docopt: 
-   
    :depends intervaltree: 
-   
    :depends jinja2: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pytest-runner: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends requests: 
-   
    :depends scipy: 
-   
    :depends tabulate: 
-   
    :depends yahmm: 
-   
    :requirements:
 
    .. rubric:: Installation

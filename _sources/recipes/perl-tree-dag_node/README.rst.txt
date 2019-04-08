@@ -25,9 +25,7 @@ perl-tree-dag_node
    :versions: 1.31-0, 1.29-2, 1.29-1, 1.29-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-file-slurp-tiny: 
-   
    :requirements:
 
    .. rubric:: Installation

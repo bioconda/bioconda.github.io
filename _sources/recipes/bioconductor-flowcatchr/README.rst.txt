@@ -25,19 +25,12 @@ bioconductor-flowcatchr
    :versions: 1.16.0-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-ebimage: >=4.24.0,<4.25.0
-   
    :depends r-abind: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-colorramps: 
-   
    :depends r-plotly: 
-   
    :depends r-shiny: 
-   
    :requirements:
 
    .. rubric:: Installation

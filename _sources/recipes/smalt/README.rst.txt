@@ -26,11 +26,8 @@ smalt
    :versions: 0.7.6-1, 0.7.6-0
    
    :depends bambamc: 
-   
    :depends libgcc: 
-   
    :depends zlib: 1.2.11*
-   
    :requirements:
 
    .. rubric:: Installation

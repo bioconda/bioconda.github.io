@@ -29,31 +29,18 @@ calour
    :versions: 2018.10.1-0
    
    :depends biom-format: 
-   
    :depends docrep: 
-   
    :depends ipython: 
-   
    :depends ipywidgets: 
-   
    :depends matplotlib: >=2.0
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends pyqt: >5
-   
    :depends python: >=3.5
-   
    :depends scikit-bio: >=0.5.1
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :depends statsmodels: 
-   
    :requirements:
 
    .. rubric:: Installation

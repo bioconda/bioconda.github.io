@@ -25,11 +25,8 @@ sompy
    :versions: 0.1.1-1, 0.1.1-0
    
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends python: <3
-   
    :requirements:
 
    .. rubric:: Installation

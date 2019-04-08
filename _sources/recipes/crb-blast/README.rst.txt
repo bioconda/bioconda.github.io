@@ -25,9 +25,7 @@ crb-blast
    :versions: 0.6.6-1, 0.6.6-0
    
    :depends blast: 
-   
    :depends ruby: >=2.4.4
-   
    :requirements:
 
    .. rubric:: Installation

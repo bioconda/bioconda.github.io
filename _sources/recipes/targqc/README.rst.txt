@@ -25,49 +25,27 @@ targqc
    :versions: 1.4.4-1, 1.4.4-0
    
    :depends beautifulsoup4: 
-   
    :depends bedtools: 
-   
    :depends bwa: 
-   
    :depends coverage: 
-   
    :depends cython: 
-   
    :depends gffutils: 
-   
    :depends ipyparallel: 
-   
    :depends ipython: >=4.0.0,<5.0.0
-   
    :depends ipython-cluster-helper: 
-   
    :depends joblib: 
-   
    :depends lxml: 
-   
    :depends nose: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends pip: 
-   
    :depends pybedtools: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends qualimap: 
-   
    :depends sambamba: 
-   
    :depends setuptools: >=18.5
-   
    :depends tempita: 
-   
    :requirements:
 
    .. rubric:: Installation

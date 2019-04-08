@@ -25,49 +25,27 @@ bioconductor-rexposome
    :versions: 1.4.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-circlize: 
-   
    :depends r-corrplot: 
-   
    :depends r-factominer: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ggrepel: 
-   
    :depends r-glmnet: 
-   
    :depends r-gplots: 
-   
    :depends r-gridextra: 
-   
    :depends r-gtools: 
-   
    :depends r-hmisc: 
-   
    :depends r-imputelcmd: 
-   
    :depends r-lme4: 
-   
    :depends r-lsr: 
-   
    :depends r-mice: 
-   
    :depends r-pryr: 
-   
    :depends r-reshape2: 
-   
    :depends r-scales: 
-   
    :depends r-scatterplot3d: 
-   
    :depends r-stringr: 
-   
    :requirements:
 
    .. rubric:: Installation

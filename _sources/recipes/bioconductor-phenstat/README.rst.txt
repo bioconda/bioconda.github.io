@@ -25,39 +25,22 @@ bioconductor-phenstat
    :versions: 2.18.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libgfortran-ng: >=7,<8.0a0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-car: 
-   
    :depends r-corrplot: 
-   
    :depends r-ggplot2: 
-   
    :depends r-knitr: 
-   
    :depends r-lme4: 
-   
    :depends r-logistf: 
-   
    :depends r-mass: 
-   
    :depends r-msgps: 
-   
    :depends r-nlme: 
-   
    :depends r-nortest: 
-   
    :depends r-pingr: 
-   
    :depends r-reshape: 
-   
    :depends r-smoothwin: 
-   
    :requirements:
 
    .. rubric:: Installation

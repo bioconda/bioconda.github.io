@@ -25,51 +25,28 @@ bcbio-rnaseq
    :versions: 1.2.0-3, 1.2.0-2, 1.2.0-1, 1.2.0-0, 1.1.1-1, 1.0.4-1, 1.0.3-1
    
    :depends bioconductor-biomart: 
-   
    :depends bioconductor-clusterprofiler: 
-   
    :depends bioconductor-degreport: 
-   
    :depends bioconductor-deseq2: 
-   
    :depends bioconductor-edger: 
-   
    :depends bioconductor-org.hs.eg.db: 
-   
    :depends bioconductor-org.mm.eg.db: 
-   
    :depends bioconductor-tximport: 
-   
    :depends bioconductor-vsn: 
-   
    :depends openjdk: 
-   
    :depends r-base: 3.3.2*
-   
    :depends r-chbutils: 
-   
    :depends r-dplyr: 
-   
    :depends r-ggplot2: 
-   
    :depends r-hexbin: 
-   
    :depends r-knitr: 
-   
    :depends r-matrixstats: 
-   
    :depends r-pheatmap: 
-   
    :depends r-quantreg: 
-   
    :depends r-readr: 
-   
    :depends r-rmarkdown: 
-   
    :depends r-sleuth: 
-   
    :depends r-stringr: 
-   
    :requirements:
 
    .. rubric:: Installation

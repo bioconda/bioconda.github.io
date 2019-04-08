@@ -25,15 +25,10 @@ perl-sub-exporter
    :versions: 0.987-2, 0.987-1, 0.987-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-data-optlist: 
-   
    :depends perl-params-util: 
-   
    :depends perl-sub-install: 
-   
    :requirements:
 
    .. rubric:: Installation

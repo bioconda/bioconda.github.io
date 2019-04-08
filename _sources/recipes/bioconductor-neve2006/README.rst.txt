@@ -25,15 +25,10 @@ bioconductor-neve2006
    :versions: 0.20.0-0
    
    :depends bioconductor-annotate: >=1.60.0,<1.61.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-hgu133a.db: >=3.2.0,<3.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ bwameth
    :versions: 0.2.2-1, 0.2.1-1, 0.2.1-0, 0.2.0-1, 0.2.0-0
    
    :depends bwa: 
-   
    :depends python: 
-   
    :depends samtools: 
-   
    :depends toolshed: >=0.3.9
-   
    :requirements:
 
    .. rubric:: Installation

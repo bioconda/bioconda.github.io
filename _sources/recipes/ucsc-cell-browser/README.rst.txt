@@ -25,11 +25,8 @@ ucsc-cell-browser
    :versions: 0.4.38-0, 0.4.35-0, 0.4.23-1, 0.4.23-0
    
    :depends anndata: 
-   
    :depends numpy: 
-   
    :depends python: >=3.6
-   
    :requirements:
 
    .. rubric:: Installation

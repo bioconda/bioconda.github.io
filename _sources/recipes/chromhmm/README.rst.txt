@@ -26,9 +26,7 @@ chromhmm
    :versions: 1.15-0, 1.14-0, 1.12-0, 1.11-0
    
    :depends openjdk: 
-   
    :depends unzip: 
-   
    :requirements:
 
    .. rubric:: Installation

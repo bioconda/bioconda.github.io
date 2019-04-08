@@ -25,9 +25,7 @@ perl-variable-magic
    :versions: 0.61-1, 0.61-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-xsloader: 
-   
    :requirements:
 
    .. rubric:: Installation

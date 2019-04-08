@@ -25,7 +25,6 @@ xdg
    :versions: 1.0.5-0
    
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

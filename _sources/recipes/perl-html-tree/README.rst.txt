@@ -25,15 +25,10 @@ perl-html-tree
    :versions: 5.07-1, 5.07-0, 5.03-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-exporter: 
-   
    :depends perl-html-parser: 
-   
    :depends perl-html-tagset: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,33 +25,19 @@ bioconductor-mixomics
    :versions: 6.6.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-corpcor: 
-   
    :depends r-dplyr: 
-   
    :depends r-ellipse: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-igraph: 
-   
    :depends r-lattice: 
-   
    :depends r-mass: 
-   
    :depends r-matrixstats: 
-   
    :depends r-rarpack: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

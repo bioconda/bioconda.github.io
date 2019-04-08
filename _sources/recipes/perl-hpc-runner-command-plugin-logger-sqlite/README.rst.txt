@@ -25,37 +25,21 @@ perl-hpc-runner-command-plugin-logger-sqlite
    :versions: 0.0.3-1, 0.0.3-0
    
    :depends perl: 5.22.0*
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-base: 
-   
    :depends perl-clone: 
-   
    :depends perl-datetime: 
-   
    :depends perl-dbd-sqlite: 
-   
    :depends perl-dbi: 
-   
    :depends perl-hpc-runner-command: 
-   
    :depends perl-hpc-runner-command: 
-   
    :depends perl-json: 
-   
    :depends perl-json-xs: 
-   
    :depends perl-list-uniq: 
-   
    :depends perl-log-log4perl: 
-   
    :depends perl-params-validate: 
-   
    :depends perl-text-asciitable: 
-   
    :depends sqlite: 
-   
    :requirements:
 
    .. rubric:: Installation

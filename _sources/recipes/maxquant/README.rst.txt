@@ -25,7 +25,6 @@ maxquant
    :versions: 1.6.3.4-0, 1.6.2.10-0
    
    :depends mono: >=5.0.0
-   
    :requirements:
 
    .. rubric:: Installation

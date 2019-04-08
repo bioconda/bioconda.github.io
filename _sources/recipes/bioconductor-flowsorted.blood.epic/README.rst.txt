@@ -25,25 +25,15 @@ bioconductor-flowsorted.blood.epic
    :versions: 1.0.0-0
    
    :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
-   
    :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   
    :depends bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19: >=0.6.0,<0.7.0
-   
    :depends bioconductor-minfi: >=1.28.0,<1.29.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-nlme: 
-   
    :depends r-quadprog: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

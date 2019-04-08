@@ -25,11 +25,8 @@ qorts
    :versions: 1.3.0-1, 1.3.0-0, 1.1.8-0
    
    :depends openjdk: 
-   
    :depends python: 
-   
    :depends r-qorts: 1.3.0
-   
    :requirements:
 
    .. rubric:: Installation

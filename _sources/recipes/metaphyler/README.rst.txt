@@ -25,11 +25,8 @@ metaphyler
    :versions: 1.25-1, 1.25-0
    
    :depends blast-legacy: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends perl: 
-   
    :requirements:
 
    .. rubric:: Installation

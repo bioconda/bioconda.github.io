@@ -26,9 +26,7 @@ gridss
    :versions: 2.1.0-0, 2.0.1-0, 1.9.0-0, 1.8.1-0, 1.8.0-0, 1.7.2-2, 1.7.2-0, 1.3.4-0, 1.3.2-0, 1.3.0-0, 1.2.4-0
    
    :depends openjdk: >=8
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

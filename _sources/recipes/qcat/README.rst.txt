@@ -25,21 +25,13 @@ qcat
    :versions: 1.0.1-0, 1.0.0-0
    
    :depends biopython: 
-   
    :depends mappy: 
-   
    :depends pandas: 
-   
    :depends parasail-python: 
-   
    :depends pysam: 
-   
    :depends python: 
-   
    :depends pyyaml: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

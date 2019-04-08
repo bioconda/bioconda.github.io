@@ -25,15 +25,10 @@ r-biomark
    :versions: 0.4.5-0
    
    :depends r-base: 3.4.1*
-   
    :depends r-glmnet: 
-   
    :depends r-mass: 
-   
    :depends r-pls: 
-   
    :depends r-st: >=1.1.6
-   
    :requirements:
 
    .. rubric:: Installation

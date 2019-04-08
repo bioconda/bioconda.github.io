@@ -25,9 +25,7 @@ perl-import-into
    :versions: 1.002005-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-module-runtime: 
-   
    :requirements:
 
    .. rubric:: Installation

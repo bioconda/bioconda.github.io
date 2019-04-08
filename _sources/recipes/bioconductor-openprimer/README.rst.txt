@@ -25,63 +25,34 @@ bioconductor-openprimer
    :versions: 1.4.1-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-decipher: >=2.10.0,<2.11.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-ape: >=3.5
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-digest: >=0.6.9
-   
    :depends r-distr: >=2.6
-   
    :depends r-distrex: >=2.6
-   
    :depends r-dplyr: >=0.5.0
-   
    :depends r-fitdistrplus: >=1.0-7
-   
    :depends r-foreach: >=1.4.3
-   
    :depends r-ggplot2: >=2.1.0
-   
    :depends r-hmisc: >=3.17-4
-   
    :depends r-lpsolveapi: >=5.5.2.0-17
-   
    :depends r-magrittr: >=1.5
-   
    :depends r-openxlsx: >=4.0.17
-   
    :depends r-plyr: >=1.8.4
-   
    :depends r-rcolorbrewer: >=1.1-2
-   
    :depends r-reshape2: >=1.4.1
-   
    :depends r-scales: >=0.4.0
-   
    :depends r-seqinr: >=3.3-3
-   
    :depends r-stringdist: >=0.9.4.1
-   
    :depends r-stringr: >=1.0.0
-   
    :depends r-tinytex: >=0.5
-   
    :depends r-uniqtag: >=1.0
-   
    :depends r-xml: >=3.98-1.4
-   
    :requirements:
 
    .. rubric:: Installation

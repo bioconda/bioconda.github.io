@@ -25,13 +25,9 @@ primerprospector
    :versions: 1.0.1-1, 1.0.1-0
    
    :depends cogent: >=1.5
-   
    :depends matplotlib: >=0.98.3
-   
    :depends numpy: >=1.3.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

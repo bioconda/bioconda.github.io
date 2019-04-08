@@ -25,41 +25,23 @@ r-lncpipereporter
    :versions: 0.1.1-2, 0.1.1-1, 0.1.1-0
    
    :depends bioconductor-deseq2: 1.20.0.*
-   
    :depends bioconductor-edger: 
-   
    :depends bioconductor-noiseq: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cowplot: 
-   
    :depends r-data.table: 
-   
    :depends r-devtools: 
-   
    :depends r-dt: 
-   
    :depends r-flexdashboard: 
-   
    :depends r-ggbiplot: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ggsci: 
-   
    :depends r-heatmaply: 
-   
    :depends r-htmlwidgets: 
-   
    :depends r-knitr: 
-   
    :depends r-plotly: 
-   
    :depends r-rmarkdown: 
-   
    :requirements:
 
    .. rubric:: Installation

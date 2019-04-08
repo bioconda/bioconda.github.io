@@ -26,7 +26,6 @@ lastz
    :versions: 1.0.4-3, 1.0.4-2, 1.0.4-1, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.2-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :requirements:
 
    .. rubric:: Installation

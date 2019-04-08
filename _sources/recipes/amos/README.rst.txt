@@ -26,19 +26,12 @@ amos
    :versions: 3.1.0-3
    
    :depends jellyfish: 
-   
    :depends mummer: 
-   
    :depends perl-dbi: 
-   
    :depends perl-statistics-descriptive: 
-   
    :depends perl-threaded: 
-   
    :depends perl-xml-parser: 
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

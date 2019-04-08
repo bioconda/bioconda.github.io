@@ -25,7 +25,6 @@ ant
    :versions: 1.10.0-0, 1.9.6-1, 1.9.6-0
    
    :depends openjdk: 
-   
    :requirements:
 
    .. rubric:: Installation

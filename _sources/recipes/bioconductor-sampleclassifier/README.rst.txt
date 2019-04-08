@@ -25,17 +25,11 @@ bioconductor-sampleclassifier
    :versions: 1.6.0-0
    
    :depends bioconductor-annotate: >=1.60.0,<1.61.0
-   
    :depends bioconductor-mgfm: >=1.16.0,<1.17.0
-   
    :depends bioconductor-mgfr: >=1.8.0,<1.9.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-e1071: 
-   
    :depends r-ggplot2: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,17 +26,11 @@ bioconductor-clstutils
    :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0
    
    :depends bioconductor-clst: >=1.30.0,<1.31.0
-   
    :depends r-ape: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-lattice: 
-   
    :depends r-rjson: 
-   
    :depends r-rsqlite: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ vnl
    :versions: 1.17.0-0
    
    :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

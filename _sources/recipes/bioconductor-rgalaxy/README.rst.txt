@@ -26,17 +26,11 @@ bioconductor-rgalaxy
    :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.1-0, 1.18.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-optparse: 
-   
    :depends r-roxygen2: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

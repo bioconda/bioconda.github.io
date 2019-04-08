@@ -26,13 +26,9 @@ bioconductor-sscu
    :versions: 2.12.0-0, 2.10.0-0, 2.8.0-0, 2.6.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-seqinr: >=3.1-3
-   
    :requirements:
 
    .. rubric:: Installation

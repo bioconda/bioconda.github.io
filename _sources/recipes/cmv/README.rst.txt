@@ -25,25 +25,15 @@ cmv
    :versions: 1.0.8-1, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.2-0
    
    :depends cairo: 
-   
    :depends gmp: 5.1*
-   
    :depends libgcc: 
-   
    :depends libxml2: 
-   
    :depends pango: 
-   
    :depends pthread-stubs: 
-   
    :depends xorg-libsm: 
-   
    :depends xorg-libxext: 
-   
    :depends xorg-libxrender: 
-   
    :depends zlib: 1.2.11*
-   
    :requirements:
 
    .. rubric:: Installation

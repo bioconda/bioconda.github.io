@@ -25,7 +25,6 @@ perl-io-zlib
    :versions: 1.10-2, 1.10-1
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

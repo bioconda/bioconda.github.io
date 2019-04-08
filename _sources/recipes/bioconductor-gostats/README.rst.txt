@@ -26,25 +26,15 @@ bioconductor-gostats
    :versions: 2.48.0-0, 2.46.0-0, 2.44.0-0, 2.42.0-0, 2.38.1-1, 2.38.1-0, 2.36.0-0
    
    :depends bioconductor-annotate: >=1.60.0,<1.61.0
-   
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-annotationforge: >=1.24.0,<1.25.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-category: >=2.48.0,<2.49.0
-   
    :depends bioconductor-go.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-rbgl: >=1.58.0,<1.59.0
-   
    :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

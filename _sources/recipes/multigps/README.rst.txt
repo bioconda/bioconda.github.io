@@ -25,13 +25,9 @@ multigps
    :versions: 0.74-2, 0.74-1, 0.74-0, 0.73-1, 0.73-0, 0.72-1, 0.72-0, 0.5-1
    
    :depends bioconductor-edger: 
-   
    :depends meme: >=4.11.2
-   
    :depends openjdk: >=8
-   
    :depends r-base: 
-   
    :requirements:
 
    .. rubric:: Installation

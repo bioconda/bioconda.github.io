@@ -25,9 +25,7 @@ rdptools
    :versions: 2.0.2-1, 2.0.2-0
    
    :depends openjdk: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

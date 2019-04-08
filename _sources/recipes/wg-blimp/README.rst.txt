@@ -25,61 +25,33 @@ wg-blimp
    :versions: 0.9.1-1, 0.9.1-0, 0.9.0-0
    
    :depends bedtools: 
-   
    :depends bioconductor-bsseq: 
-   
    :depends bwa: 
-   
    :depends bwameth: 0.2.0.*
-   
    :depends click: 
-   
    :depends fastqc: 
-   
    :depends git: 
-   
    :depends h5py: 
-   
    :depends methyldackel: 
-   
    :depends metilene: 
-   
    :depends mosdepth: 
-   
    :depends multiqc: 
-   
    :depends picard: 
-   
    :depends pysam: 
-   
    :depends python: >=3.5
-   
    :depends qualimap: 
-   
    :depends r-data.table: 
-   
    :depends r-dt: 
-   
    :depends r-ggplot2: 
-   
    :depends r-htmlwidgets: 
-   
    :depends r-httpuv: 
-   
    :depends r-shiny: 
-   
    :depends r-shinydashboard: 
-   
    :depends r-stringr: 
-   
    :depends r-upsetr: 
-   
    :depends ruamel.yaml: 
-   
    :depends samtools: 
-   
    :depends snakemake: 
-   
    :requirements:
 
    .. rubric:: Installation

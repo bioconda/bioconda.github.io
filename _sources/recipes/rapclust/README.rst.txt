@@ -25,21 +25,13 @@ rapclust
    :versions: 0.1.2-1, 0.1.2-0, 0.1.1-0
    
    :depends click: 
-   
    :depends coloredlogs: 
-   
    :depends networkx: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: 
-   
    :depends pyyaml: 
-   
    :depends tqdm: 
-   
    :requirements:
 
    .. rubric:: Installation

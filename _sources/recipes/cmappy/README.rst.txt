@@ -25,17 +25,11 @@ cmappy
    :versions: 3.3.3-0, 3.3.0-0, 3.2.0-0, 3.1.1-0, 3.0.0-0, 2.2.2-0, 2.2.1-0, 2.2.0-0, 2.1.0-0, 2.0.1-0, 1.1.1-0, 1.0.9-0
    
    :depends h5py: >=2.6.0
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends numpy: >=1.11.2
-   
    :depends pandas: >=0.18
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends requests: >=2.13.0
-   
    :requirements:
 
    .. rubric:: Installation

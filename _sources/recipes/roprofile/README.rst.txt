@@ -25,15 +25,10 @@ roprofile
    :versions: 1.4.5-0
    
    :depends biopython: >=1.66
-   
    :depends matplotlib: >=1.5.2
-   
    :depends mpld3: >=0.2
-   
    :depends pandas: >=0.15.0
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

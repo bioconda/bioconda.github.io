@@ -25,11 +25,8 @@ perl-test-differences
    :versions: 0.64-2, 0.64-1, 0.64-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-capture-tiny: 
-   
    :depends perl-text-diff: 
-   
    :requirements:
 
    .. rubric:: Installation

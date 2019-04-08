@@ -25,13 +25,9 @@ r-ngsplotdb-hg38
    :versions: 3.00-5, 3.00-2, 3.00-1
    
    :depends python: <3.0a0
-   
    :depends r-base: 
-   
    :depends r-ngsplot: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,19 +25,12 @@ dcmtk
    :versions: 3.6.1-6, 3.6.1-5, 3.6.1-4, 3.6.1-3, 3.6.1-2
    
    :depends jpeg: >=9c,<10a
-   
    :depends libpng: >=1.6.34,<1.7.0a0
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends libtiff: >=4.0.9,<5.0a0
-   
    :depends libxml2: >=2.9.8,<2.10.0a0
-   
    :depends openssl: >=1.0.2o,<1.0.3a
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ json_collect_data_source
    :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0, 1.0.0-0
    
    :depends python: >=2.7,<3
-   
    :requirements:
 
    .. rubric:: Installation

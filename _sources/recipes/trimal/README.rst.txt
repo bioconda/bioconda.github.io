@@ -26,9 +26,7 @@ trimal
    :versions: 1.4.1-3, 1.4.1-2, 1.4.1-1, 1.4.1-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :requirements:
 
    .. rubric:: Installation

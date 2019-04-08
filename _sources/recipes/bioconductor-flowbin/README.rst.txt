@@ -25,19 +25,12 @@ bioconductor-flowbin
    :versions: 1.18.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-flowcore: >=1.48.0,<1.49.0
-   
    :depends bioconductor-flowfp: >=1.40.0,<1.41.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-class: 
-   
    :depends r-snow: 
-   
    :requirements:
 
    .. rubric:: Installation

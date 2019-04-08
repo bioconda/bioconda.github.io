@@ -25,7 +25,6 @@ perl-tap-harness-env
    :versions: 3.30-1, 3.30-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

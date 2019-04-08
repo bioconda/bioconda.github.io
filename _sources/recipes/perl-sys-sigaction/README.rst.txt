@@ -25,7 +25,6 @@ perl-sys-sigaction
    :versions: 0.23-1, 0.23-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,39 +25,22 @@ pyseer
    :versions: 1.2.0-0, 1.1.2-0, 1.1.1-0, 1.1.0-1, 1.1.0-0, 1.0.2-0, 0.3.1-0
    
    :depends bedops: 
-   
    :depends bedtools: 
-   
    :depends bwa: 
-   
    :depends dendropy: 
-   
    :depends glmnet_py: 
-   
    :depends mash: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends pybedtools: 
-   
    :depends pysam: 
-   
    :depends python: 
-   
    :depends python-dateutil: >=2.5.0
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :depends statsmodels: 
-   
    :depends tqdm: 
-   
    :requirements:
 
    .. rubric:: Installation

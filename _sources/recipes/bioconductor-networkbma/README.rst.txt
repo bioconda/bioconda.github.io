@@ -26,23 +26,14 @@ bioconductor-networkbma
    :versions: 2.22.0-0, 2.20.0-0, 2.18.0-0
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bh: 
-   
    :depends r-bma: 
-   
    :depends r-leaps: 
-   
    :depends r-rcpp: >=0.10.3
-   
    :depends r-rcpparmadillo: >=0.3.810.2
-   
    :depends r-rcppeigen: >=0.3.1.2.1
-   
    :requirements:
 
    .. rubric:: Installation

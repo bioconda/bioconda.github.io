@@ -25,15 +25,10 @@ fitter
    :versions: 1.0.9-0, 1.0.8-0, 1.0.4-1, 1.0.4-0
    
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

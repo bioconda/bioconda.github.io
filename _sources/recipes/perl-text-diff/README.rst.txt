@@ -25,9 +25,7 @@ perl-text-diff
    :versions: 1.45-0, 1.44-2, 1.44-1, 1.44-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-algorithm-diff: 
-   
    :requirements:
 
    .. rubric:: Installation

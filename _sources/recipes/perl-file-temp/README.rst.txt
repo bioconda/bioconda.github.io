@@ -25,19 +25,12 @@ perl-file-temp
    :versions: 0.2304-2, 0.2304-1, 0.2304-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-carp: 
-   
    :depends perl-constant: 
-   
    :depends perl-exporter: 
-   
    :depends perl-file-path: 
-   
    :depends perl-parent: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,9 +26,7 @@ ceas
    :versions: 1.0.2-1, 1.0.2-0
    
    :depends mysql-python: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

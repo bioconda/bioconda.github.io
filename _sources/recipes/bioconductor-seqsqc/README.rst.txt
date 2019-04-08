@@ -25,33 +25,19 @@ bioconductor-seqsqc
    :versions: 1.4.0-0
    
    :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
-   
    :depends bioconductor-gdsfmt: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-snprelate: >=1.16.0,<1.17.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-e1071: 
-   
    :depends r-ggally: 
-   
    :depends r-ggplot2: 
-   
    :depends r-rbokeh: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :depends r-rmarkdown: 
-   
    :requirements:
 
    .. rubric:: Installation

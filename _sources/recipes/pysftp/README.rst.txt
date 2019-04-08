@@ -25,9 +25,7 @@ pysftp
    :versions: 0.2.9-0, 0.2.8-0
    
    :depends paramiko: >=1.7.7
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

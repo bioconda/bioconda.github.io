@@ -26,31 +26,18 @@ bioconductor-dropletutils
    :versions: 1.2.1-0, 1.0.3-0
    
    :depends bioconductor-beachmat: >=1.4.0,<1.5.0
-   
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-hdf5array: >=1.10.0,<1.11.0
-   
    :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
-   
    :depends bioconductor-rhdf5lib: >=1.4.0,<1.5.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-matrix: 
-   
    :depends r-rcpp: 
-   
    :requirements:
 
    .. rubric:: Installation

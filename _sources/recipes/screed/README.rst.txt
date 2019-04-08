@@ -25,9 +25,7 @@ screed
    :versions: 1.0-1, 1.0-0, 0.9-1, 0.9-0
    
    :depends bz2file: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

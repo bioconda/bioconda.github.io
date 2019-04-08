@@ -25,17 +25,11 @@ seqlogo
    :versions: 5.29.1-0, 5.2.9-1, 0.2.0-0, 0.1.13-0, 0.1.12-0
    
    :depends ghostscript: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends pytest: 
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends weblogo: 
-   
    :requirements:
 
    .. rubric:: Installation

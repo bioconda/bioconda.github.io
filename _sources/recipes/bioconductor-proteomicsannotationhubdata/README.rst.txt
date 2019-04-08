@@ -26,25 +26,15 @@ bioconductor-proteomicsannotationhubdata
    :versions: 1.12.0-0, 1.8.0-0
    
    :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
-   
    :depends bioconductor-annotationhubdata: >=1.12.0,<1.13.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-msnbase: >=2.8.0,<2.9.0
-   
    :depends bioconductor-mzr: >=2.16.0,<2.17.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-biocmanager: 
-   
    :depends r-rcurl: 
-   
    :requirements:
 
    .. rubric:: Installation

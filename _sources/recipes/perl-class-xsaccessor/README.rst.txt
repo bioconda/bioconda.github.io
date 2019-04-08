@@ -25,11 +25,8 @@ perl-class-xsaccessor
    :versions: 1.19-2, 1.19-1, 1.19-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-time-hires: 
-   
    :depends perl-xsloader: 
-   
    :requirements:
 
    .. rubric:: Installation

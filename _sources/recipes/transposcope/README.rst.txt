@@ -25,21 +25,13 @@ transposcope
    :versions: 0.1.0-0
    
    :depends biopython: >=1.72
-   
    :depends bowtie2: >=2.3.4.3
-   
    :depends cherrypy: >=18.1.0
-   
    :depends numpy: >=1.15.2
-   
    :depends pandas: >=0.23.4
-   
    :depends pysam: >=0.15.0
-   
    :depends python: >=3
-   
    :depends samtools: >=1.9
-   
    :requirements:
 
    .. rubric:: Installation

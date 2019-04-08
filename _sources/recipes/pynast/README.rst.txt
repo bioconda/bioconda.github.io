@@ -25,11 +25,8 @@ pynast
    :versions: 1.2.2-1, 1.2.2-0
    
    :depends cogent: >=1.5.3
-   
    :depends numpy: >=1.5.1
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,23 +25,14 @@ r-metalonda
    :versions: 1.1.0-5, 1.1.0-4, 1.1.0-3, 1.1.0-2, 1.1.0-1, 1.1.0-0
    
    :depends bioconductor-deseq2: >=1.20.0,<1.22.0
-   
    :depends bioconductor-edger: 
-   
    :depends bioconductor-metagenomeseq: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-catools: 
-   
    :depends r-doparallel: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gss: 
-   
    :depends r-plyr: 
-   
    :requirements:
 
    .. rubric:: Installation

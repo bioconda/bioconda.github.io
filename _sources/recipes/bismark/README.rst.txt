@@ -26,11 +26,8 @@ bismark
    :versions: 0.20.0-0, 0.19.1-0, 0.19.0-1, 0.19.0-0, 0.18.1-0, 0.17.0-0
    
    :depends bowtie2: 
-   
    :depends perl: 
-   
    :depends samtools: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,87 +26,46 @@ bioconductor-tcgabiolinks
    :versions: 2.10.0-0, 2.8.4-0, 2.6.11-0
    
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
-   
    :depends bioconductor-consensusclusterplus: >=1.46.0,<1.47.0
-   
    :depends bioconductor-edaseq: >=2.16.0,<2.17.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends bioconductor-sva: >=3.30.0,<3.31.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-circlize: 
-   
    :depends r-data.table: 
-   
    :depends r-doparallel: 
-   
    :depends r-downloader: >=0.4
-   
    :depends r-dplyr: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ggrepel: >=0.6.3
-   
    :depends r-ggthemes: 
-   
    :depends r-gridextra: 
-   
    :depends r-httr: >=1.2.1
-   
    :depends r-jsonlite: >=1.0.0
-   
    :depends r-knitr: 
-   
    :depends r-matlab: 
-   
    :depends r-plyr: 
-   
    :depends r-r.utils: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-readr: 
-   
    :depends r-rvest: >=0.3.0
-   
    :depends r-scales: 
-   
    :depends r-selectr: 
-   
    :depends r-stringr: >=1.0.0
-   
    :depends r-survival: 
-   
    :depends r-survminer: 
-   
    :depends r-tibble: 
-   
    :depends r-xml: >=3.98.0
-   
    :depends r-xml2: 
-   
    :requirements:
 
    .. rubric:: Installation

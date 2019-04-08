@@ -25,27 +25,16 @@ kipoi
    :versions: 0.6.5-0, 0.6.3-0, 0.6.0-0, 0.5.7-0, 0.3.6-1, 0.3.6-0
    
    :depends colorlog: 
-   
    :depends cookiecutter: 
-   
    :depends future: 
-   
    :depends git-lfs: 
-   
    :depends h5py: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: 
-   
    :depends pyyaml: 
-   
    :depends tqdm: 
-   
    :depends urllib3: >=1.21.1,<1.23
-   
    :requirements:
 
    .. rubric:: Installation

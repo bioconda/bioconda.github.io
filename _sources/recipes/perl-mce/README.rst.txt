@@ -25,23 +25,14 @@ perl-mce
    :versions: 1.837-0, 1.836-0, 1.835-1, 1.835-0, 1.814-1, 1.814-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-base: 
-   
    :depends perl-carp: 
-   
    :depends perl-constant: 
-   
    :depends perl-file-path: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-socket: 
-   
    :depends perl-storable: 
-   
    :depends perl-time-hires: 
-   
    :requirements:
 
    .. rubric:: Installation

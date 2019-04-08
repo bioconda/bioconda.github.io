@@ -25,7 +25,6 @@ perl-spiffy
    :versions: 0.46-3, 0.46-2, 0.46-1, 0.46-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,31 +25,18 @@ ensembl-vep
    :versions: 95.3-0, 95.2-0, 95.1-0, 95.0-1, 95.0-0, 94.5-0, 94.4-0, 94.0-0, 93.4-0, 93.2-0, 92.4-0, 92.3-0, 92.0-1, 91.3-1, 91.3-0, 91.2-0, 91.1-0, 91.0-0, 90.10-0, 90.9-1, 90.7-1, 90.7-0, 90.6-0, 90.5-0, 90.3-0, 90.1-1, 90.1-0, 89.7-0, 89.4-0, 89.1-2, 89.1-1, 88.10-1, 88.10-0, 88.9-2, 88.9-1, 88.9-0, 88.8-0, 88-0
    
    :depends htslib: 
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bio-db-hts: >=2.7
-   
    :depends perl-bioperl: >=1.7.2
-   
    :depends perl-dbd-mysql: 
-   
    :depends perl-dbi: 
-   
    :depends perl-io-compress: 
-   
    :depends perl-json: 
-   
    :depends perl-perlio-gzip: 
-   
    :depends perl-sereal: 
-   
    :depends perl-set-intervaltree: 
-   
    :depends perl-text-csv: 
-   
    :depends unzip: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ mglex
    :versions: 0.2.1-0, 0.2.0-1, 0.2.0-0
    
    :depends docopt: >=0.6.2
-   
    :depends numpy: >=1.8.2
-   
    :depends python: >=3
-   
    :depends scipy: >=0.13.3
-   
    :requirements:
 
    .. rubric:: Installation

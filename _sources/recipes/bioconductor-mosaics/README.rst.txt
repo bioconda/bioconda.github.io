@@ -26,29 +26,17 @@ bioconductor-mosaics
    :versions: 2.20.0-0, 2.18.0-0, 2.16.0-0, 2.14.0-0, 2.10.0-0, 2.4.1-0
    
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicalignments: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-lattice: 
-   
    :depends r-mass: 
-   
    :depends r-rcpp: 
-   
    :requirements:
 
    .. rubric:: Installation

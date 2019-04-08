@@ -25,17 +25,11 @@ illumina-cleanup
    :versions: 1.0.0-0
    
    :depends bbmap: 
-   
    :depends fastq-scan: 
-   
    :depends fastqc: 
-   
    :depends lighter: 
-   
    :depends nextflow: 
-   
    :depends pigz: 
-   
    :requirements:
 
    .. rubric:: Installation

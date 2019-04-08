@@ -25,25 +25,15 @@ bioconductor-kissde
    :versions: 1.2.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   
    :depends bioconductor-dss: >=2.30.0,<2.31.0
-   
    :depends r-aod: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-doparallel: 
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-matrixstats: 
-   
    :requirements:
 
    .. rubric:: Installation

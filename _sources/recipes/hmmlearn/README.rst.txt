@@ -25,15 +25,10 @@ hmmlearn
    :versions: 20151031-2, 20151031-1, 20151031-0, 0.1.1-0
    
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :depends setuptools: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,9 +26,7 @@ mosaik
    :versions: 2.2.26-4, 2.2.26-3, 2.2.26-2, 2.2.26-1, 2.2.26-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

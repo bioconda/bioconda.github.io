@@ -26,35 +26,20 @@ bioconductor-variancepartition
    :versions: 1.12.0-0, 1.10.4-0, 1.8.1-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-colorramps: 
-   
    :depends r-doparallel: 
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-iterators: 
-   
    :depends r-lme4: >=1.1-10
-   
    :depends r-lmertest: 
-   
    :depends r-mass: 
-   
    :depends r-pbkrtest: >=0.4-4
-   
    :depends r-reshape2: 
-   
    :depends r-scales: 
-   
    :requirements:
 
    .. rubric:: Installation

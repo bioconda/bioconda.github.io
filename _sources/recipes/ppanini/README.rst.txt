@@ -25,15 +25,10 @@ ppanini
    :versions: 0.6.4-2, 0.6.4-0, 0.6.2-0
    
    :depends biopython: >=1.66
-   
    :depends matplotlib: >=1.1.1
-   
    :depends numpy: >=1.9.2
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scikit-learn: >=0.14.1
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ biothings_client
    :versions: 0.2.0-0
    
    :depends python: 
-   
    :depends requests: >=2.3.0
-   
    :requirements:
 
    .. rubric:: Installation

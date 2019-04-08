@@ -25,11 +25,8 @@ perl-test-mockmodule
    :versions: 0.13-2, 0.13-1, 0.13-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-super: 
-   
    :requirements:
 
    .. rubric:: Installation

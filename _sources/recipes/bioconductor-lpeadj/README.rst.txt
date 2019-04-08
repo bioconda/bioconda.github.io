@@ -26,9 +26,7 @@ bioconductor-lpeadj
    :versions: 1.42.0-0, 1.40.0-0, 1.38.0-0
    
    :depends bioconductor-lpe: >=1.56.0,<1.57.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ rseg
    :versions: 0.4.9-1, 0.4.9-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

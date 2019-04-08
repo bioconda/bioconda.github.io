@@ -25,21 +25,13 @@ perl-data-stag
    :versions: 0.14-1, 0.14-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-graph: 
-   
    :depends perl-io-string: 
-   
    :depends perl-json: 
-   
    :depends perl-libxml-perl: 
-   
    :depends perl-mldbm: 
-   
    :depends perl-xml-libxml: 
-   
    :depends perl-xml-libxslt: 
-   
    :requirements:
 
    .. rubric:: Installation

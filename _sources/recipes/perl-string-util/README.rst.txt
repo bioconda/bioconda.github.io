@@ -25,11 +25,8 @@ perl-string-util
    :versions: 1.26-1, 1.26-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-number-misc: 
-   
    :depends perl-test-toolbox: 
-   
    :requirements:
 
    .. rubric:: Installation

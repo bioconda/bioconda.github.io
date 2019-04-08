@@ -25,19 +25,12 @@ r-soap-nmr
    :versions: 0.1.0.20170207-1, 0.1.0.20170207-0
    
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-matrix: 
-   
    :depends r-matrixstats: 
-   
    :depends r-ptw: 
-   
    :depends r-reshape2: 
-   
    :requirements:
 
    .. rubric:: Installation

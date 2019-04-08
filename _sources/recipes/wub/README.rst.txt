@@ -25,31 +25,18 @@ wub
    :versions: 0.3.0-2, 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.0-1, 0.1.0-0
    
    :depends biopython: 
-   
    :depends editdistance: 
-   
    :depends h5py: 
-   
    :depends htslib: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: >=0.20.2
-   
    :depends pysam: 
-   
    :depends pytest: 
-   
    :depends python: 
-   
    :depends seaborn: 
-   
    :depends statsmodels: 
-   
    :depends tqdm: 
-   
    :requirements:
 
    .. rubric:: Installation

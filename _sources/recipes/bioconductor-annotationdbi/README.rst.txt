@@ -26,19 +26,12 @@ bioconductor-annotationdbi
    :versions: 1.44.0-0, 1.42.1-0, 1.40.0-0, 1.38.2-0, 1.38.0-0, 1.36.2-0, 1.36.0-1, 1.34.4-1, 1.34.4-0, 1.32.3-0, 1.32.2-0, 1.32.0-0, 1.30.1-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: 
-   
    :depends r-rsqlite: 
-   
    :requirements:
 
    .. rubric:: Installation

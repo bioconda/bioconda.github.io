@@ -25,13 +25,9 @@ kyototycoon
    :versions: 2017.04.10-1
    
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends lzo: >=2.10,<3.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

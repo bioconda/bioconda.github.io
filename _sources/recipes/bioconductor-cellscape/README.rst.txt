@@ -25,21 +25,13 @@ bioconductor-cellscape
    :versions: 1.6.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: >=0.4.3
-   
    :depends r-gtools: >=3.5.0
-   
    :depends r-htmlwidgets: >=0.5
-   
    :depends r-jsonlite: >=0.9.19
-   
    :depends r-plyr: >=1.8.3
-   
    :depends r-reshape2: >=1.4.1
-   
    :depends r-stringr: >=1.0.0
-   
    :requirements:
 
    .. rubric:: Installation

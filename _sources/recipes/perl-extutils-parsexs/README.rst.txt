@@ -25,15 +25,10 @@ perl-extutils-parsexs
    :versions: 3.35-0, 3.28-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-exporter: 
-   
    :depends perl-extutils-cbuilder: 
-   
    :depends perl-extutils-makemaker: 
-   
    :requirements:
 
    .. rubric:: Installation

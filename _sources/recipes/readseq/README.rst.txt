@@ -25,7 +25,6 @@ readseq
    :versions: 2.1.30-1, 2.1.30-0
    
    :depends openjdk: 
-   
    :requirements:
 
    .. rubric:: Installation

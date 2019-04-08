@@ -25,33 +25,19 @@ daisysuite
    :versions: 1.2.1-1, 1.2.1-0, 1.2.0-1, 1.2.0-0, 1.1.0-0, 1.0.0-0
    
    :depends bedtools: >=0.2.22
-   
    :depends biopython: 
-   
    :depends bwa: >=0.7.8
-   
    :depends clever-toolkit: >=2.0rc3
-   
    :depends gustaf: >=1.0.8
-   
    :depends mason: >=2.0.7
-   
    :depends pandas: >=0.18.1
-   
    :depends pysam: >=0.9.1.4
-   
    :depends sak: >=0.4.6
-   
    :depends samtools: >=0.1.19
-   
    :depends scipy: 
-   
    :depends snakemake: >=3.9.0
-   
    :depends stellar: >=1.4.9
-   
    :depends yara: >=0.9.6
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,17 +26,11 @@ qualimap
    :versions: 2.2.2b-1, 2.2.2b-0, 2.2.2a-3, 2.2.2a-2, 2.2.2a-1, 2.2.2a-0, 2.2-0, 2.1.3-1, 2.1.3-0
    
    :depends bioconductor-noiseq: 
-   
    :depends bioconductor-rsamtools: 
-   
    :depends bioconductor-rtracklayer: 
-   
    :depends openjdk: 
-   
    :depends r-optparse: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ intermine
    :versions: 1.11.0-0, 1.10.0-2, 1.10.0-0, 1.09.09-0, 1.09.05-0
    
    :depends lxml: 
-   
    :depends python: 
-   
    :depends requests: 
-   
    :requirements:
 
    .. rubric:: Installation

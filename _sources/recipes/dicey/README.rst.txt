@@ -25,17 +25,11 @@ dicey
    :versions: 0.1.6-0
    
    :depends boost: >=1.67.0,<1.67.1.0a0
-   
    :depends bzip2: >=1.0.6,<2.0a0
-   
    :depends htslib: >=1.9,<1.10.0a0
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends sdsl-lite: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

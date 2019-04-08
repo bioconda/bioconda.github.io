@@ -27,25 +27,15 @@ dxpy
    :versions: 0.273.0-0, 0.261.1-0, 0.257.3-0, 0.254.0-1, 0.254.0-0, 0.250.2-0, 0.247.0-0, 0.225.0-0, 0.223.0-0
    
    :depends argcomplete: >=1.9.4
-   
    :depends beautifulsoup4: >=4.4.1
-   
    :depends cryptography: <=2.2.2
-   
    :depends futures: >=3.0.4
-   
    :depends psutil: >=3.3.0
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends python-dateutil: >=2.5
-   
    :depends python-magic: >=0.4.6
-   
    :depends requests: >=2.8.0
-   
    :depends websocket-client: >=0.53.0
-   
    :requirements:
 
    .. rubric:: Installation

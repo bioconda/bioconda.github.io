@@ -25,41 +25,23 @@ cooler
    :versions: 0.8.3-0, 0.8.2-1, 0.8.2-0, 0.8.1-0, 0.7.11-0, 0.7.10-1, 0.7.10-0, 0.7.9-0, 0.7.8-0, 0.7.7-0, 0.7.6-3, 0.7.6-2, 0.7.6-1, 0.7.6-0, 0.7.4-0, 0.7.0-0
    
    :depends asciitree: 
-   
    :depends biopython: 
-   
    :depends click: 
-   
    :depends cytoolz: 
-   
    :depends dask: 
-   
    :depends h5py: 
-   
    :depends hdf5: 
-   
    :depends multiprocess: 
-   
    :depends numpy: 
-   
    :depends pairix: 
-   
    :depends pandas: 
-   
    :depends pyfaidx: 
-   
    :depends pysam: >0.8
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends pyyaml: 
-   
    :depends scipy: 
-   
    :depends six: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

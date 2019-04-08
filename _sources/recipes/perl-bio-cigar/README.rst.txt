@@ -26,15 +26,10 @@ perl-bio-cigar
    :versions: 1.01-4, 1.01-3, 1.01-2, 1.01-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-moo: 
-   
    :depends perl-namespace-clean: 
-   
    :depends perl-type-tiny: 
-   
    :requirements:
 
    .. rubric:: Installation

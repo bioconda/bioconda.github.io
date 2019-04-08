@@ -25,13 +25,9 @@ perl-sys-info-driver-linux
    :versions: 0.7905-0, 0.7904-0, 0.7903-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-config-general: 
-   
    :depends perl-sys-info-base: 
-   
    :depends perl-unix-processors: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ vcf-annotator
    :versions: 0.5-0
    
    :depends biopython: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends pyvcf: 
-   
    :requirements:
 
    .. rubric:: Installation

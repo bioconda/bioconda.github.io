@@ -26,7 +26,6 @@ bioconductor-biocgenerics
    :versions: 0.28.0-1, 0.28.0-0, 0.26.0-0, 0.24.0-1, 0.24.0-0, 0.22.1-0, 0.22.0-0, 0.20.0-0, 0.18.0-0, 0.16.1-0, 0.16.0-0, 0.14.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

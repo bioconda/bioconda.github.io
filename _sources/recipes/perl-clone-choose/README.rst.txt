@@ -25,9 +25,7 @@ perl-clone-choose
    :versions: 0.010-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-storable: 
-   
    :requirements:
 
    .. rubric:: Installation

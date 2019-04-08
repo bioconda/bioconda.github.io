@@ -25,33 +25,19 @@ pasa
    :versions: 2.3.3-1, 2.3.3-0
    
    :depends blat: 
-   
    :depends cdbtools: 
-   
    :depends fasta3: 
-   
    :depends gmap: 
-   
    :depends libgcc: 
-   
    :depends lighttpd: 
-   
    :depends perl: 
-   
    :depends perl-cgi: 
-   
    :depends perl-db-file: 
-   
    :depends perl-dbd-sqlite: 
-   
    :depends perl-uri: 
-   
    :depends r-base: 
-   
    :depends samtools: 
-   
    :depends transdecoder: >=5.2.0
-   
    :requirements:
 
    .. rubric:: Installation

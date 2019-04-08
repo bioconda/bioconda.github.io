@@ -26,19 +26,12 @@ gatk
    :versions: 3.8-5, 3.8-4, 3.8-3, 3.8-2, 3.8-1, 3.8-0, 3.7-1, 3.7-0, 3.6-6, 3.6-5, 3.6-4, 3.6-3, 3.6-2, 3.6-1, 3.5-6, 3.5-5
    
    :depends bzip2: 
-   
    :depends openjdk: >=8,<9
-   
    :depends python: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-gsalib: 
-   
    :depends r-reshape: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ microhapdb
    :versions: 0.2-0
    
    :depends pandas: 
-   
    :depends python: >=3
-   
    :requirements:
 
    .. rubric:: Installation

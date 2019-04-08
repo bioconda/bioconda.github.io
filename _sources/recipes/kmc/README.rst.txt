@@ -26,13 +26,9 @@ kmc
    :versions: 3.1.1rc1-2, 3.1.1rc1-1, 3.1.1rc1-0, 3.1.0-0, 3.0.1-2, 3.0.1-1, 3.0.1-0, 3.0.0-1, 3.0.0-0, 2.3.0-3, 2.3.0-2, 2.3.0-1
    
    :depends bzip2: >=1.0.6,<2.0a0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

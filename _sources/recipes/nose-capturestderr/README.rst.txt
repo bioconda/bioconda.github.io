@@ -25,11 +25,8 @@ nose-capturestderr
    :versions: 1.2-0, 1.0-1, 1.0-0
    
    :depends nose: >=0.11.1
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends setuptools: 
-   
    :requirements:
 
    .. rubric:: Installation

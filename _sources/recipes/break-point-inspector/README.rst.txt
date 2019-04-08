@@ -25,7 +25,6 @@ break-point-inspector
    :versions: 1.5-1, 1.5-0
    
    :depends openjdk: 
-   
    :requirements:
 
    .. rubric:: Installation

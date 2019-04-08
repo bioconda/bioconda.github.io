@@ -25,39 +25,22 @@ augur
    :versions: 3.1.5-0
    
    :depends bcbiogff: 0.6.*,>=0.6.4
-   
    :depends biopython: >=1.73
-   
    :depends boto: 2.*,>2.38
-   
    :depends cvxopt: 1.1.*,>=1.1.9
-   
    :depends fasttree: 
-   
    :depends ipdb: >=0.10.1
-   
    :depends iqtree: 
-   
    :depends jsonschema: 3.0.0a3.*
-   
    :depends mafft: 
-   
    :depends matplotlib: 2.*
-   
    :depends pandas: 0.23.*,>=0.23.4
-   
    :depends python: >=3.4
-   
    :depends raxml: 
-   
    :depends seaborn: 0.9.*,>=0.9.0
-   
    :depends snakemake: 5.*,>=5.1.5
-   
    :depends treetime: 0.5.*,>=0.5.2
-   
    :depends vcftools: 
-   
    :requirements:
 
    .. rubric:: Installation

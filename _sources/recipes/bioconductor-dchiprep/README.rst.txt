@@ -26,35 +26,20 @@ bioconductor-dchiprep
    :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0
    
    :depends bioconductor-chippeakanno: >=3.16.0,<3.17.0
-   
    :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-soggi: >=1.14.0,<1.15.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-assertthat: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-fdrtool: 
-   
    :depends r-ggplot2: 
-   
    :depends r-plyr: 
-   
    :depends r-purrr: 
-   
    :depends r-reshape2: 
-   
    :depends r-smoothmest: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

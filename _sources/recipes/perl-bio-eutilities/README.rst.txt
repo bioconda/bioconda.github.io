@@ -25,49 +25,27 @@ perl-bio-eutilities
    :versions: 1.75-2, 1.75-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bio-asn1-entrezgene: 
-   
    :depends perl-bioperl: 
-   
    :depends perl-capture-tiny: 
-   
    :depends perl-class-data-inheritable: 
-   
    :depends perl-data-stag: 
-   
    :depends perl-devel-stacktrace: 
-   
    :depends perl-exception-class: 
-   
    :depends perl-sub-uplevel: 
-   
    :depends perl-test-deep: 
-   
    :depends perl-test-differences: 
-   
    :depends perl-test-exception: 
-   
    :depends perl-test-most: 
-   
    :depends perl-test-simple: 
-   
    :depends perl-test-warn: 
-   
    :depends perl-text-csv: 
-   
    :depends perl-text-diff: 
-   
    :depends perl-xml-namespacesupport: 
-   
    :depends perl-xml-sax: 
-   
    :depends perl-xml-sax-base: 
-   
    :depends perl-xml-sax-expat: 
-   
    :depends perl-xml-simple: 
-   
    :requirements:
 
    .. rubric:: Installation

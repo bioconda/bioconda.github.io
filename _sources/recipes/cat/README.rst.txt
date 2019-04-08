@@ -26,11 +26,8 @@ cat
    :versions: 4.3.3-0, 4.3.1-1
    
    :depends diamond: 
-   
    :depends prodigal: 
-   
    :depends python: 3.*
-   
    :requirements:
 
    .. rubric:: Installation

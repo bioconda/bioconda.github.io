@@ -25,7 +25,6 @@ perl-xml-parser-lite
    :versions: 0.722-0, 0.721-2, 0.721-1, 0.721-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

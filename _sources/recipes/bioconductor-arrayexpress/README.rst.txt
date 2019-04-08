@@ -25,15 +25,10 @@ bioconductor-arrayexpress
    :versions: 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.1-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-oligo: >=1.46.0,<1.47.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

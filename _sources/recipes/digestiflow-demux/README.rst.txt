@@ -25,19 +25,12 @@ digestiflow-demux
    :versions: 0.2.0-0, 0.1.0-0
    
    :depends attrs: >=18.2.0
-   
    :depends coloredlogs: >=10.0
-   
    :depends git: 
-   
    :depends python: >=3.5
-   
    :depends requests: 
-   
    :depends snakemake: >=5.4.0
-   
    :depends toml: >=0.10.0
-   
    :requirements:
 
    .. rubric:: Installation

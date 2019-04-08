@@ -27,15 +27,10 @@ anndata
    :versions: 0.6.19-0, 0.6.18-0, 0.6.17-0, 0.6.16-0, 0.6.15-0, 0.6.14-0, 0.6.13-0, 0.6.11-0, 0.6.10-0, 0.6.9-0, 0.6.8-0, 0.6.6-0, 0.6.5-0, 0.6.4-0
    
    :depends h5py: 
-   
    :depends natsort: 
-   
    :depends pandas: >=0.23.0
-   
    :depends python: >=3.5
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

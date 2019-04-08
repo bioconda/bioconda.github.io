@@ -25,13 +25,9 @@ megagta
    :versions: 0.1_alpha-0
    
    :depends hmmer: >=3.1b2
-   
    :depends libgcc: 
-   
    :depends python: >=2.7,<3
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

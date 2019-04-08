@@ -25,43 +25,24 @@ bioconductor-r3cpet
    :versions: 1.14.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-ggbio: >=1.30.0,<1.31.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-clues: 
-   
    :depends r-clvalid: 
-   
    :depends r-data.table: 
-   
    :depends r-ggplot2: 
-   
    :depends r-hmisc: 
-   
    :depends r-igraph: 
-   
    :depends r-pheatmap: 
-   
    :depends r-rcpp: >=0.10.4
-   
    :depends r-rcurl: 
-   
    :depends r-reshape2: 
-   
    :requirements:
 
    .. rubric:: Installation

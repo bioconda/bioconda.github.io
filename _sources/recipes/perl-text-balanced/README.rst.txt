@@ -25,7 +25,6 @@ perl-text-balanced
    :versions: 2.03-3, 2.03-2, 2.03-1, 2.03-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

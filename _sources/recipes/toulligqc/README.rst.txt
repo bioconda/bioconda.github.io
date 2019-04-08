@@ -25,19 +25,12 @@ toulligqc
    :versions: 1.1-0, 1.0-0, 0.10-0, 0.9-2, 0.9-0, 0.5-0
    
    :depends h5py: >=2.7,<2.8
-   
    :depends matplotlib: >=2.1,<2.2
-   
    :depends numpy: >=1.13,<1.14
-   
    :depends pandas: >=0.22,<0.23
-   
    :depends plotly: >=2.2,<2.3
-   
    :depends python: >=3
-   
    :depends seaborn: >=0.8,<0.9
-   
    :requirements:
 
    .. rubric:: Installation

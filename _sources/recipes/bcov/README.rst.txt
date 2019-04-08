@@ -26,9 +26,7 @@ bcov
    :versions: 1.0-1, 1.0-0
    
    :depends glpk: >=4.65,<4.66.0a0
-   
    :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

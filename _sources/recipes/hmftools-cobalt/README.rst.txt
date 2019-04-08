@@ -25,7 +25,6 @@ hmftools-cobalt
    :versions: 1.6-0, 1.5-0
    
    :depends openjdk: >=8
-   
    :requirements:
 
    .. rubric:: Installation

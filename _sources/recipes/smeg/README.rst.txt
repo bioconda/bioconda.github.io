@@ -25,45 +25,25 @@ smeg
    :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0
    
    :depends bamtools: 
-   
    :depends bowtie2: 
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends mauve: 
-   
    :depends parallel: 
-   
    :depends perl-file-find-rule: 0.34 2
-   
    :depends prokka: 
-   
    :depends r-ape: 
-   
    :depends r-data.table: 
-   
    :depends r-dplyr: 
-   
    :depends r-dynamictreecut: 
-   
    :depends r-getopt: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gplots: 
-   
    :depends r-gsubfn: 
-   
    :depends r-wgcna: 
-   
    :depends readline: >=6.2
-   
    :depends roary: 3.12.0 pl5.22.0_0
-   
    :depends samtools: 1.8.*
-   
    :depends subread: 
-   
    :requirements:
 
    .. rubric:: Installation

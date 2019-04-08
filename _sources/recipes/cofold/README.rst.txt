@@ -25,7 +25,6 @@ cofold
    :versions: 2.0.4-2, 2.0.4-1
    
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

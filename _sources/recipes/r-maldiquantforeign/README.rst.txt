@@ -25,19 +25,12 @@ r-maldiquantforeign
    :versions: 0.11.5-2, 0.11.5-1, 0.11.5-0, 0.11-0, 0.10-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-base64enc: 
-   
    :depends r-digest: 
-   
    :depends r-maldiquant: >=1.16.4
-   
    :depends r-readbrukerflexdata: >=1.7
-   
    :depends r-readmzxmldata: >=2.7
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

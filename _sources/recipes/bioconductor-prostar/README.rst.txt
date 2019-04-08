@@ -25,57 +25,31 @@ bioconductor-prostar
    :versions: 1.14.8-0
    
    :depends bioconductor-dapar: >=1.14.0,<1.15.0
-   
    :depends bioconductor-dapardata: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-biocmanager: 
-   
    :depends r-colourpicker: 
-   
    :depends r-data.table: 
-   
    :depends r-dt: 
-   
    :depends r-future: 
-   
    :depends r-highcharter: 
-   
    :depends r-htmlwidgets: 
-   
    :depends r-later: 
-   
    :depends r-promises: 
-   
    :depends r-r.utils: 
-   
    :depends r-rclipboard: 
-   
    :depends r-rhandsontable: 
-   
    :depends r-shiny: 
-   
    :depends r-shinyace: 
-   
    :depends r-shinybs: 
-   
    :depends r-shinycssloaders: 
-   
    :depends r-shinyjqui: 
-   
    :depends r-shinyjs: 
-   
    :depends r-shinythemes: 
-   
    :depends r-shinytree: 
-   
    :depends r-shinywidgets: 
-   
    :depends r-webshot: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

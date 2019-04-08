@@ -25,7 +25,6 @@ perl-io-html
    :versions: 1.001-2, 1.001-1, 1.001-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

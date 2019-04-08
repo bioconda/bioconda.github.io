@@ -25,21 +25,13 @@ galaxy-parsec
    :versions: 1.0.6-0, 1.0.5-0, 1.0.4-1, 1.0.4-0
    
    :depends bioblend: 
-   
    :depends click: >=6.7
-   
    :depends future: 
-   
    :depends justbackoff: 
-   
    :depends python: 
-   
    :depends pyyaml: 
-   
    :depends wrapt: 
-   
    :depends xunit-wrapper: >=0.12
-   
    :requirements:
 
    .. rubric:: Installation

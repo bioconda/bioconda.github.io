@@ -26,15 +26,10 @@ bioconductor-msmseda
    :versions: 1.20.0-0, 1.16.0-0
    
    :depends bioconductor-msnbase: >=2.8.0,<2.9.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gplots: 
-   
    :depends r-mass: 
-   
    :depends r-rcolorbrewer: 
-   
    :requirements:
 
    .. rubric:: Installation

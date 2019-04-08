@@ -26,23 +26,14 @@ phantompeakqualtools
    :versions: 1.2-0
    
    :depends bioconductor-rsamtools: 
-   
    :depends boost: 
-   
    :depends r-base: >=3.1
-   
    :depends r-bitops: 
-   
    :depends r-catools: 
-   
    :depends r-snow: 
-   
    :depends r-snowfall: 
-   
    :depends r-spp: >=1.13
-   
    :depends samtools: 
-   
    :requirements:
 
    .. rubric:: Installation

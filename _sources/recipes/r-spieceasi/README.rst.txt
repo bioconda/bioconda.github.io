@@ -25,15 +25,10 @@ r-spieceasi
    :versions: 0.1.4-1, 0.1.4-0
    
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-huge: 
-   
    :depends r-mass: 
-   
    :depends r-matrix: 
-   
    :depends r-vgam: 
-   
    :requirements:
 
    .. rubric:: Installation

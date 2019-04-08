@@ -25,11 +25,8 @@ visceral-evaluatesegmentation
    :versions: 2015.07.03-0, 2015.07.02-1, 2015.07.02-0
    
    :depends jpeg: >=9c,<10a
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libitk: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,17 +26,11 @@ flexbar
    :versions: 3.3.0-1, 2.5.0-2, 2.5.0-1, 2.5.0-0
    
    :depends bzip2: 1.0*
-   
    :depends libcxx: 
-   
    :depends libgcc: 
-   
    :depends seqan-library: ==2.4.0
-   
    :depends tbb: 
-   
    :depends zlib: 1.2.11*
-   
    :requirements:
 
    .. rubric:: Installation

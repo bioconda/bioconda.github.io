@@ -25,17 +25,11 @@ schavott
    :versions: 0.5.0-1, 0.5.0-0, 0.4.1-0, 0.3-0, 0.2-0
    
    :depends bokeh: 
-   
    :depends h5py: >=2.2.0
-   
    :depends numpy: 
-   
    :depends pyfasta: 
-   
    :depends python: 
-   
    :depends watchdog: >=0.8.3
-   
    :requirements:
 
    .. rubric:: Installation

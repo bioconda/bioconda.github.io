@@ -26,37 +26,21 @@ bioconductor-drugvsdisease
    :versions: 2.24.2-0, 2.22.0-0, 2.20.1-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-annotate: >=1.60.0,<1.61.0
-   
    :depends bioconductor-arrayexpress: >=1.42.0,<1.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends bioconductor-cmap2data: >=1.18.0,<1.19.0
-   
    :depends bioconductor-drugvsdiseasedata: >=1.18.0,<1.19.0
-   
    :depends bioconductor-geoquery: >=2.50.0,<2.51.0
-   
    :depends bioconductor-hgu133a.db: >=3.2.0,<3.3.0
-   
    :depends bioconductor-hgu133a2.db: >=3.2.0,<3.3.0
-   
    :depends bioconductor-hgu133plus2.db: >=3.2.0,<3.3.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-qvalue: >=2.14.0,<2.15.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-runit: 
-   
    :depends r-xtable: 
-   
    :requirements:
 
    .. rubric:: Installation

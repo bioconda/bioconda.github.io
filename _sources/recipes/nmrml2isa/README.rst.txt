@@ -25,15 +25,10 @@ nmrml2isa
    :versions: 0.3.0-1, 0.3.0-0
    
    :depends chainmap: 
-   
    :depends lxml: 
-   
    :depends pronto: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

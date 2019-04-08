@@ -26,11 +26,8 @@ spotyping3
    :versions: 3.0-0
    
    :depends blast: 
-   
    :depends python: >=3.5
-   
    :depends r-gdata: 
-   
    :requirements:
 
    .. rubric:: Installation

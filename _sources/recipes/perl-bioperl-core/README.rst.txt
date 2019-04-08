@@ -25,69 +25,37 @@ perl-bioperl-core
    :versions: 1.007002-0, 1.7.2-3, 1.6.924-2, 1.6.924-1, 1.6.924-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-aceperl: 
-   
    :depends perl-algorithm-munkres: 
-   
    :depends perl-array-compare: 
-   
    :depends perl-bio-phylo: 
-   
    :depends perl-clone: 
-   
    :depends perl-convert-binary-c: 
-   
    :depends perl-data-stag: 
-   
    :depends perl-db-file: 
-   
    :depends perl-dbd-sqlite: 
-   
    :depends perl-dbi: 
-   
    :depends perl-error: 
-   
    :depends perl-gd: 
-   
    :depends perl-graphviz: 
-   
    :depends perl-html-tableextract: 
-   
    :depends perl-io-string: 
-   
    :depends perl-io-stringy: 
-   
    :depends perl-list-moreutils: 
-   
    :depends perl-postscript: 
-   
    :depends perl-set-scalar: 
-   
    :depends perl-soap-lite: 
-   
    :depends perl-sort-naturally: 
-   
    :depends perl-spreadsheet-parseexcel: 
-   
    :depends perl-svg: 
-   
    :depends perl-svg-graph: 
-   
    :depends perl-xml-dom: 
-   
    :depends perl-xml-dom-xpath: 
-   
    :depends perl-xml-sax-writer: 
-   
    :depends perl-xml-simple: 
-   
    :depends perl-xml-twig: 
-   
    :depends perl-xml-writer: 
-   
    :depends perl-yaml: 
-   
    :requirements:
 
    .. rubric:: Installation

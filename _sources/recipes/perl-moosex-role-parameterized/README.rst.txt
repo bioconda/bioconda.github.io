@@ -25,17 +25,11 @@ perl-moosex-role-parameterized
    :versions: 1.10-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-module-runtime: 
-   
    :depends perl-moose: >=2.0300
-   
    :depends perl-namespace-autoclean: 
-   
    :depends perl-namespace-clean: 
-   
    :requirements:
 
    .. rubric:: Installation

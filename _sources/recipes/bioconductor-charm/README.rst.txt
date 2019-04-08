@@ -25,41 +25,23 @@ bioconductor-charm
    :versions: 2.28.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
-   
    :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-oligo: >=1.46.0,<1.47.0
-   
    :depends bioconductor-oligoclasses: >=1.44.0,<1.45.0
-   
    :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
-   
    :depends bioconductor-siggenes: >=1.56.0,<1.57.0
-   
    :depends bioconductor-sva: >=3.30.0,<3.31.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ff: 
-   
    :depends r-fields: 
-   
    :depends r-gtools: 
-   
    :depends r-nor1mix: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-sqn: 
-   
    :requirements:
 
    .. rubric:: Installation

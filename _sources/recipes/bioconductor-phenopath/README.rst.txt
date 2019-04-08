@@ -25,23 +25,14 @@ bioconductor-phenopath
    :versions: 1.6.0-0
    
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-ggplot2: 
-   
    :depends r-rcpp: >=0.12.8
-   
    :depends r-tibble: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,23 +25,14 @@ bioconductor-icnv
    :versions: 1.2.1-0, 1.2.0-0
    
    :depends bioconductor-codex: >=1.14.0,<1.15.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: 
-   
    :depends r-dplyr: 
-   
    :depends r-fields: 
-   
    :depends r-ggplot2: 
-   
    :depends r-rlang: 
-   
    :depends r-tidyr: 
-   
    :depends r-truncnorm: 
-   
    :requirements:
 
    .. rubric:: Installation

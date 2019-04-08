@@ -25,11 +25,8 @@ perl-term-table
    :versions: 0.013-0, 0.012-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-importer: 
-   
    :requirements:
 
    .. rubric:: Installation

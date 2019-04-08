@@ -25,17 +25,11 @@ livekraken
    :versions: 1.0-4, 1.0-2, 1.0-1, 1.0-0
    
    :depends argparse: 
-   
    :depends boost: >=1.67.0,<1.67.1.0a0
-   
    :depends jellyfish: 1.*
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :requirements:
 
    .. rubric:: Installation

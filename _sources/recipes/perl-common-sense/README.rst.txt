@@ -25,7 +25,6 @@ perl-common-sense
    :versions: 3.74-2, 3.74-1, 3.74-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

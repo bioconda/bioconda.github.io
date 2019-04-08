@@ -25,13 +25,9 @@ perl-xml-libxml
    :versions: 2.0132-0, 2.0124-0
    
    :depends libxml2: >=2.9.8,<2.10.0a0
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-xml-namespacesupport: 
-   
    :depends perl-xml-sax: 
-   
    :requirements:
 
    .. rubric:: Installation

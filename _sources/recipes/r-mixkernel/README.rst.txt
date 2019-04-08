@@ -25,25 +25,15 @@ r-mixkernel
    :versions: 0.3-0
    
    :depends bioconductor-mixomics: 
-   
    :depends bioconductor-phyloseq: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-corrplot: 
-   
    :depends r-ggplot2: 
-   
    :depends r-ldrtools: 
-   
    :depends r-matrix: 
-   
    :depends r-psych: 
-   
    :depends r-quadprog: 
-   
    :depends r-vegan: 
-   
    :requirements:
 
    .. rubric:: Installation

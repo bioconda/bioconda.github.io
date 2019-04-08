@@ -25,7 +25,6 @@ r-xnomial
    :versions: 1.0.4-0
    
    :depends r: >=2.14
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,19 +25,12 @@ r-asics
    :versions: 1.0.1-0
    
    :depends r-base: 3.4.1*
-   
    :depends r-doparallel: 
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-plyr: 
-   
    :depends r-quadprog: 
-   
    :depends r-zoo: 
-   
    :requirements:
 
    .. rubric:: Installation

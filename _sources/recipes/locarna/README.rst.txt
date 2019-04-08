@@ -26,11 +26,8 @@ locarna
    :versions: 1.9.2-1, 1.9.2-0, 1.9.1-2, 1.9.1-1, 1.9.1-0, 1.9.0-0, 1.8.12-0, 1.8.11-1, 1.8.10-0, 1.8.9-3, 1.8.9-2, 1.8.9-1, 1.8.7-1, 1.8.7-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :depends perl: 
-   
    :depends viennarna: 2.3.5
-   
    :requirements:
 
    .. rubric:: Installation

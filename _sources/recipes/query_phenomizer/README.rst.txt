@@ -25,13 +25,9 @@ query_phenomizer
    :versions: 1.2-0, 0.5-2, 0.5-0
    
    :depends click: 
-   
    :depends pytest: 
-   
    :depends python: 
-   
    :depends requests: 
-   
    :requirements:
 
    .. rubric:: Installation

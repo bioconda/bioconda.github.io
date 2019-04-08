@@ -25,29 +25,17 @@ drep
    :versions: 2.2.3-1, 2.2.3-0, 2.0.5-2, 2.0.5-0
    
    :depends biopython: 
-   
    :depends centrifuge: 
-   
    :depends checkm-genome: 
-   
    :depends mash: 
-   
    :depends matplotlib: 
-   
    :depends mummer: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends prodigal: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends scikit-learn: 
-   
    :depends seaborn: 
-   
    :requirements:
 
    .. rubric:: Installation

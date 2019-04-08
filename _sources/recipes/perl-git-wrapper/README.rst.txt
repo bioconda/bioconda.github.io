@@ -25,15 +25,10 @@ perl-git-wrapper
    :versions: 0.048-0, 0.047-1, 0.047-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-file-chdir: 
-   
    :depends perl-file-temp: 
-   
    :depends perl-ipc-cmd: 
-   
    :depends perl-sort-versions: 
-   
    :requirements:
 
    .. rubric:: Installation

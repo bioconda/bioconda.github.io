@@ -25,11 +25,8 @@ spectacle
    :versions: 1.4-1, 1.4-0
    
    :depends numpy: 
-   
    :depends openjdk: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

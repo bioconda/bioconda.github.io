@@ -25,9 +25,7 @@ asciigenome
    :versions: 1.15.0-0, 1.14.0-2, 1.14.0-0, 1.13.0-0, 1.12.0-0, 1.8.0-0, 1.2.0-0, 1.1.0-0, 1.0.0-0, 0.6.4-0, 0.2.0-0
    
    :depends openjdk: 
-   
    :depends zlib: 
-   
    :requirements:
 
    .. rubric:: Installation

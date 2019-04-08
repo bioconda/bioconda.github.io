@@ -25,17 +25,11 @@ neptune
    :versions: 1.2.5-2, 1.2.5-1, 1.2.5-0, 1.2.3-0
    
    :depends biopython: 
-   
    :depends blast: 
-   
    :depends drmaa: 
-   
    :depends numpy: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

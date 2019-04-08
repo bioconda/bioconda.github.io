@@ -25,11 +25,8 @@ perl-bio-db-sam
    :versions: 1.41-2, 1.41-1, 1.41-0
    
    :depends libgcc: 
-   
    :depends perl-bioperl: 
-   
    :depends perl-threaded: 
-   
    :requirements:
 
    .. rubric:: Installation

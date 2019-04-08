@@ -25,27 +25,16 @@ bioconductor-sevenbridges
    :versions: 1.12.3-0
    
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-curl: 
-   
    :depends r-docopt: 
-   
    :depends r-dplyr: 
-   
    :depends r-httr: 
-   
    :depends r-jsonlite: 
-   
    :depends r-objectproperties: 
-   
    :depends r-stringr: 
-   
    :depends r-uuid: 
-   
    :depends r-yaml: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ perl-sanger-cgp-vagrent
    :versions: 3.3.3-0, 3.2.0-1, 3.2.0-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bio-db-hts: 
-   
    :depends perl-sub-exporter-progressive: 
-   
    :requirements:
 
    .. rubric:: Installation

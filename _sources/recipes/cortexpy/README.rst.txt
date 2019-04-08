@@ -25,23 +25,14 @@ cortexpy
    :versions: 0.45.7-0, 0.45.6-0, 0.44.0-0, 0.41.1-0
    
    :depends attrs: 
-   
    :depends biopython: 
-   
    :depends delegation: 
-   
    :depends msgpack-python: 
-   
    :depends networkx: 
-   
    :depends numpy: 
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends pyyaml: 
-   
    :depends schema: 
-   
    :requirements:
 
    .. rubric:: Installation

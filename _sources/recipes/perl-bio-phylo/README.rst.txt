@@ -25,31 +25,18 @@ perl-bio-phylo
    :versions: 0.58-1, 0.58-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-gd: 
-   
    :depends perl-html-treebuilder-xpath: 
-   
    :depends perl-json: 
-   
    :depends perl-lwp-simple: 
-   
    :depends perl-math-cdf: 
-   
    :depends perl-math-random: 
-   
    :depends perl-pdf-api2: 
-   
    :depends perl-svg: 
-   
    :depends perl-template-toolkit: 
-   
    :depends perl-uri: 
-   
    :depends perl-xml-libxml: 
-   
    :depends perl-xml-twig: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ bioconductor-minfidataepic
    :versions: 1.8.0-0
    
    :depends bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19: >=0.6.0,<0.7.0
-   
    :depends bioconductor-illuminahumanmethylationepicmanifest: >=0.3.0,<0.4.0
-   
    :depends bioconductor-minfi: >=1.28.0,<1.29.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

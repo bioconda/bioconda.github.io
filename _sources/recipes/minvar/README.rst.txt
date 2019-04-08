@@ -25,33 +25,19 @@ minvar
    :versions: 2.2.2-0, 2.2.1-0, 2.2-0, 2.1.3-0, 2.1.2-1, 2.1.2-0, 2.1.1-2, 2.1.1-1, 2.1.1-0, 2.1-1, 2.1-0, 2.0-1, 2.0-0, 1.2b-1, 1.2b-0, 1.2a3-1, 1.2a3-0
    
    :depends bedtools: 
-   
    :depends biopython: 
-   
    :depends blast: >=2.3
-   
    :depends bwa: 
-   
    :depends emboss: 
-   
    :depends htslib: 
-   
    :depends lofreq: >=2.1.3.1
-   
    :depends pandas: 
-   
    :depends pandoc: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends samtools: >=1.3
-   
    :depends seqtk: 
-   
    :depends setuptools_scm_git_archive: 
-   
    :depends sierrapy: 
-   
    :requirements:
 
    .. rubric:: Installation

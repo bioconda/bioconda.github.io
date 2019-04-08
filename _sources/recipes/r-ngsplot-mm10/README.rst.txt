@@ -25,13 +25,9 @@ r-ngsplotdb-mm10
    :versions: 3.00-4, 3.00-1, 3.00-0
    
    :depends python: <3.0a0
-   
    :depends r-base: 
-   
    :depends r-ngsplot: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

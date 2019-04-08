@@ -25,7 +25,6 @@ perl-cpan-shell
    :versions: 5.5004-1, 5.5004-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

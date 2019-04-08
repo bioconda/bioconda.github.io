@@ -25,7 +25,6 @@ r-rismed
    :versions: 2.1.7-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ socksipy-branch
    :versions: 1.01-1, 1.01-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

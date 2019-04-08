@@ -25,37 +25,21 @@ cgat-report
    :versions: 0.8.1-0, 0.8.0-1, 0.8.0-0, 0.7.6.1-1, 0.3.7-1, 0.3.7-0
    
    :depends bokeh: 
-   
    :depends docutils: 
-   
    :depends future: 
-   
    :depends matplotlib: >=2.0
-   
    :depends matplotlib-venn: 
-   
    :depends nose: 
-   
    :depends numpy: 
-   
    :depends openpyxl: 
-   
    :depends pandas: 
-   
    :depends pillow: 
-   
    :depends python: 
-   
    :depends scipy: 
-   
    :depends seaborn: 
-   
    :depends six: 
-   
    :depends sphinx: 
-   
    :depends sqlalchemy: 
-   
    :requirements:
 
    .. rubric:: Installation

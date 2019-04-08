@@ -25,9 +25,7 @@ methylextract
    :versions: 1.9.1-0
    
    :depends perl: 
-   
    :depends samtools: 
-   
    :requirements:
 
    .. rubric:: Installation

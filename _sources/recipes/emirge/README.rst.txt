@@ -25,25 +25,15 @@ emirge
    :versions: 0.61.1-2, 0.61.1-1, 0.61.1-0
    
    :depends biopython: 
-   
    :depends bowtie: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends numpy: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: 
-   
    :depends scipy: 
-   
    :depends vsearch: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

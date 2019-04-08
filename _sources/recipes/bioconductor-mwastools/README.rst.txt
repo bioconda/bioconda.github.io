@@ -25,33 +25,19 @@ bioconductor-mwastools
    :versions: 1.6.0-0, 1.4.0-0, 1.2.0-0
    
    :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
-   
    :depends bioconductor-kegggraph: >=1.42.0,<1.43.0
-   
    :depends bioconductor-keggrest: >=1.22.0,<1.23.0
-   
    :depends bioconductor-qvalue: >=2.14.0,<2.15.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-boot: 
-   
    :depends r-car: 
-   
    :depends r-ggplot2: 
-   
    :depends r-glm2: 
-   
    :depends r-gridextra: 
-   
    :depends r-igraph: 
-   
    :depends r-ppcor: 
-   
    :depends r-rcurl: 
-   
    :requirements:
 
    .. rubric:: Installation

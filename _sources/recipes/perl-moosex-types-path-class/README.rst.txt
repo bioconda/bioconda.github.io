@@ -25,11 +25,8 @@ perl-moosex-types-path-class
    :versions: 0.09-4, 0.09-3, 0.09-2, 0.09-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-moosex-types: 
-   
    :depends perl-path-class: 
-   
    :requirements:
 
    .. rubric:: Installation

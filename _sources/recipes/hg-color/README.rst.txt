@@ -25,19 +25,12 @@ hg-color
    :versions: 1.0.0-3, 1.0.0-2, 1.0.0-1
    
    :depends emboss: 
-   
    :depends kmc: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends parallel: 
-   
    :depends pgsa: 
-   
    :depends python: >2.6
-   
    :depends quorum: 
-   
    :requirements:
 
    .. rubric:: Installation

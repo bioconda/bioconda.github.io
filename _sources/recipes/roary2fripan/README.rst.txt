@@ -25,7 +25,6 @@ roary2fripan.py
    :versions: 0.1-0
    
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

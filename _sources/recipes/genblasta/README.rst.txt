@@ -25,7 +25,6 @@ genblasta
    :versions: 1.0.4-0
    
    :depends blast: 
-   
    :requirements:
 
    .. rubric:: Installation

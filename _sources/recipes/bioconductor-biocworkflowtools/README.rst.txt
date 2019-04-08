@@ -26,25 +26,15 @@ bioconductor-biocworkflowtools
    :versions: 1.8.0-0, 1.6.2-0, 1.4.0-0, 1.2.0-0
    
    :depends bioconductor-biocstyle: >=2.10.0,<2.11.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bookdown: 
-   
    :depends r-devtools: 
-   
    :depends r-git2r: 
-   
    :depends r-httr: 
-   
    :depends r-knitr: 
-   
    :depends r-rmarkdown: 
-   
    :depends r-rstudioapi: 
-   
    :depends r-stringr: 
-   
    :requirements:
 
    .. rubric:: Installation

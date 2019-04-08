@@ -25,11 +25,8 @@ pytest-marks
    :versions: 0.4-0
    
    :depends pytest: >2.0.2
-   
    :depends python: 2.7*
-   
    :depends setuptools: 
-   
    :requirements:
 
    .. rubric:: Installation

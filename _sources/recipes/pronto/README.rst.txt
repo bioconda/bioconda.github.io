@@ -25,9 +25,7 @@ pronto
    :versions: 0.12.1-0, 0.12.0-0, 0.11.1-0, 0.11.0-0, 0.10.2-1, 0.10.2-0, 0.3.3-2, 0.3.3-1, 0.3.3-0
    
    :depends python: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

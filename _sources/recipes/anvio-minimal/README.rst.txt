@@ -26,53 +26,29 @@ anvio-minimal
    :versions: 5.4.0-0, 5.3.0-0, 5.2.0-1, 5.2.0-0
    
    :depends bottle: 0.12.13
-   
    :depends cherrypy: >=8,<9
-   
    :depends colored: 1.3.93
-   
    :depends django: 2.0.8
-   
    :depends ete3: 3.1.1
-   
    :depends gsl: >=2.4,<2.5.0a0
-   
    :depends h5py: >=2.8.0
-   
    :depends illumina-utils: 2.6
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends matplotlib: 2.2.3
-   
    :depends mistune: 0.8.1
-   
    :depends numpy: 
-   
    :depends openblas: >=0.3.3,<0.3.4.0a0
-   
    :depends pandas: >=0.23.1
-   
    :depends psutil: 5.4.3
-   
    :depends pyani: 0.2.7
-   
    :depends pysam: 0.15.2
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends requests: 2.20.0
-   
    :depends scikit-learn: 0.19.2
-   
    :depends scipy: >=0.13.3
-   
    :depends six: 1.11.0
-   
    :depends snakemake-minimal: 5.2.4
-   
    :depends statsmodels: 0.9.0
-   
    :requirements:
 
    .. rubric:: Installation

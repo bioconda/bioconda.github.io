@@ -25,65 +25,35 @@ stream
    :versions: 0.3.7-1, 0.3.7-0, 0.3.6-1, 0.3.5-0, 0.3.4-0, 0.3.3-0, 0.3.2-2, 0.3.2-1, 0.3.2-0, 0.3.1-2, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0
    
    :depends anndata: 
-   
    :depends gunicorn: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libgfortran-ng: >=7,<8.0a0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends matplotlib: 3.0.2.*
-   
    :depends networkx: 2.1.*
-   
    :depends numpy: 
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends python-slugify: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-devtools: 
-   
    :depends r-distutils: 
-   
    :depends r-elpigraph.r: 
-   
    :depends r-essentials: 
-   
    :depends r-igraph: 
-   
    :depends r-kernsmooth: 
-   
    :depends r-rcpp: 
-   
    :depends r-rcpparmadillo: 
-   
    :depends r-vgam: 
-   
    :depends r-xml: 
-   
    :depends rpy2: 
-   
    :depends scikit-learn: 
-   
    :depends scipy: 
-   
    :depends seaborn: 
-   
    :depends shapely: 
-   
    :depends statsmodels: 
-   
    :depends umap-learn: 
-   
    :depends unzip: 
-   
    :depends zip: 
-   
    :requirements:
 
    .. rubric:: Installation

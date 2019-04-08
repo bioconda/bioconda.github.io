@@ -25,13 +25,9 @@ perl-sanger-cgp-vcf
    :versions: 2.2.1-0, 1.3.1-3, 1.3.1-2, 1.3.1-1, 1.3.1-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-data-uuid: 
-   
    :depends perl-vcftools-vcf: 
-   
    :requirements:
 
    .. rubric:: Installation

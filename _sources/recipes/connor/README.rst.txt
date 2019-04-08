@@ -25,13 +25,9 @@ connor
    :versions: 0.6.1-0, 0.6-2, 0.6-0, 0.5.1-0
    
    :depends cython: 
-   
    :depends pysam: >0.8.3,<=0.12
-   
    :depends python: 
-   
    :depends sortedcontainers: 
-   
    :requirements:
 
    .. rubric:: Installation

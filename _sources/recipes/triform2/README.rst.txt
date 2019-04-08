@@ -25,29 +25,17 @@ triform2
    :versions: 0.0.5-1, 0.0.5-0
    
    :depends bioconductor-biocgenerics: 
-   
    :depends bioconductor-genomicranges: 
-   
    :depends bioconductor-iranges: 
-   
    :depends bx-python: 
-   
    :depends joblib: 
-   
    :depends natsort: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends rpy2: >=2.4.2
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ gvcf-regions
    :versions: 2016.06.23-1, 2016.06.23-0, 2016.06.21-0, 2016.05.24-0, 2016.05.20-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

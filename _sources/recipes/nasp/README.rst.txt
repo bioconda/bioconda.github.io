@@ -26,13 +26,9 @@ nasp
    :versions: 1.1.2-0, 1.0.2a1-3, 1.0.2a1-2, 1.0.2a1-1, 1.0.1-1, 1.0.1-0
    
    :depends mummer: 
-   
    :depends python: >=3.7,<3.8.0a0
-   
    :depends samtools: <1.3
-   
    :depends trimmomatic: 
-   
    :requirements:
 
    .. rubric:: Installation

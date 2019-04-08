@@ -25,15 +25,10 @@ r-diffcorr
    :versions: 0.4.1-0
    
    :depends bioconductor-multtest: 
-   
    :depends bioconductor-pcamethods: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-fdrtool: 
-   
    :depends r-igraph: 
-   
    :requirements:
 
    .. rubric:: Installation

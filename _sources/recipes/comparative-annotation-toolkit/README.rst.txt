@@ -26,81 +26,43 @@ comparative-annotation-toolkit
    :versions: 0.1-1, 0.1-0
    
    :depends augustus: >=3.3
-   
    :depends bamtools: >=2.4.1,<2.4.2.0a0
-   
    :depends bx-python: >=0.7.1
-   
    :depends configobj: >=5.0
-   
    :depends ete3: 
-   
    :depends frozendict: 
-   
    :depends luigi: >=2.5
-   
    :depends numpy: >=1.10
-   
    :depends pandas: >=0.18
-   
    :depends pyfasta: >=0.5.2
-   
    :depends pysam: >=0.10
-   
    :depends python: 2.7.*
-   
    :depends samtools: >=1.3
-   
    :depends scipy: >=0.18.1
-   
    :depends seaborn: >=0.7
-   
    :depends sqlalchemy: >=1.0
-   
    :depends toil: >=3.5
-   
    :depends ucsc-axtchain: 
-   
    :depends ucsc-bamtopsl: 
-   
    :depends ucsc-bedsort: 
-   
    :depends ucsc-bedtobigbed: 
-   
    :depends ucsc-blat: 
-   
    :depends ucsc-chainmergesort: 
-   
    :depends ucsc-clustergenes: 
-   
    :depends ucsc-fatotwobit: 
-   
    :depends ucsc-genepredtobed: 
-   
    :depends ucsc-genepredtofakepsl: 
-   
    :depends ucsc-genepredtogtf: 
-   
    :depends ucsc-gff3togenepred: 
-   
    :depends ucsc-gtftogenepred: 
-   
    :depends ucsc-pslcdnafilter: 
-   
    :depends ucsc-pslcheck: 
-   
    :depends ucsc-pslmap: 
-   
    :depends ucsc-pslmappostchain: 
-   
    :depends ucsc-pslpostarget: 
-   
    :depends ucsc-pslrecalcmatch: 
-   
    :depends ucsc-psltobigpsl: 
-   
    :depends ucsc-transmappsltogenepred: 
-   
    :requirements:
 
    .. rubric:: Installation

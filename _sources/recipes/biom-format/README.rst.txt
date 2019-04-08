@@ -25,21 +25,13 @@ biom-format
    :versions: 2.1.7-0, 2.1.6-1, 2.1.6-0, 2.1.5-4, 2.1.5-3, 2.1.5-2, 2.1.5-1, 2.1.5-0, 2.1.4-2, 2.1.4-1, 2.1.4-0, 1.3.1-1, 1.3.1-0
    
    :depends click: 
-   
    :depends future: >=0.15.0
-   
    :depends h5py: 
-   
    :depends numpy: >=1.3.0
-   
    :depends pandas: >=0.20.0
-   
    :depends pyqi: 0.3.2
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends scipy: >=0.13.0
-   
    :requirements:
 
    .. rubric:: Installation

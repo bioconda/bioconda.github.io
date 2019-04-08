@@ -25,17 +25,11 @@ chipseq-greylist
    :versions: 1.0.1-1, 1.0.1-0
    
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: 
-   
    :depends sambamba: 
-   
    :depends scipy: 
-   
    :depends statsmodels: 
-   
    :requirements:
 
    .. rubric:: Installation

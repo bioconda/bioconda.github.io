@@ -26,11 +26,8 @@ bioconductor-graphat
    :versions: 1.54.0-0, 1.52.0-0, 1.50.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-mcmcpack: 
-   
    :requirements:
 
    .. rubric:: Installation

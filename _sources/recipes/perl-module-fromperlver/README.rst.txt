@@ -25,31 +25,18 @@ perl-module-fromperlver
    :versions: 0.008002-1, 0.008002-0
    
    :depends perl: >=5.22.0.1,<5.23.0a0
-   
    :depends perl-archive-tar: 
-   
    :depends perl-carp: 
-   
    :depends perl-file-copy-recursive: 
-   
    :depends perl-lib: 
-   
    :depends perl-list-moreutils: 
-   
    :depends perl-parent: 
-   
    :depends perl-pathtools: 
-   
    :depends perl-perl-version: 
-   
    :depends perl-scalar-list-utils: 
-   
    :depends perl-test-deep: 
-   
    :depends perl-test-simple: 
-   
    :depends perl-version-next: 
-   
    :requirements:
 
    .. rubric:: Installation

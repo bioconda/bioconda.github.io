@@ -25,13 +25,9 @@ udocker
    :versions: 1.1.1-2, 1.1.1-0, 1.0.3-0
    
    :depends proot: 
-   
    :depends pycurl: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends simplejson: 
-   
    :requirements:
 
    .. rubric:: Installation

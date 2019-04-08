@@ -27,13 +27,9 @@ nglview
    :versions: 1.1.7-0, 1.1.6-0, 1.1.2-1, 1.1.1-1, 1.0-1, 0.6.5-1, 0.6.4-1, 0.6.3-0, 0.6.2.4-0, 0.6.2.3-0, 0.6.2.2-1, 0.6.2.2-0, 0.6.2.1-0, 0.6.1-0, 0.5.2-0, 0.5.1-0
    
    :depends ipywidgets: >=7
-   
    :depends notebook: 
-   
    :depends numpy: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

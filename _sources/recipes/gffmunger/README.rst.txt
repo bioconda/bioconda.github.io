@@ -25,15 +25,10 @@ gffmunger
    :versions: 0.0.1-2, 0.0.1-1, 0.0.1-0
    
    :depends biopython: >=1.68
-   
    :depends genometools-genometools: 
-   
    :depends gffutils: 
-   
    :depends python: >=3.6
-   
    :depends pyyaml: 
-   
    :requirements:
 
    .. rubric:: Installation

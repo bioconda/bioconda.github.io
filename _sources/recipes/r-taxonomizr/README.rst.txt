@@ -25,23 +25,14 @@ r-taxonomizr
    :versions: 0.5.1-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends parallel: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: 
-   
    :depends r-knitr: 
-   
    :depends r-markdown: 
-   
    :depends r-r.utils: 
-   
    :depends r-rsqlite: 
-   
    :depends r-testthat: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ bioconductor-wrench
    :versions: 1.0.0-0
    
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-locfit: 
-   
    :depends r-matrixstats: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ pythonpy
    :versions: 0.4.11-0, 0.4.2-1, 0.4.2-0
    
    :depends python: 
-   
    :depends setuptools: 
-   
    :requirements:
 
    .. rubric:: Installation

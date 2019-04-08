@@ -25,35 +25,20 @@ koeken
    :versions: 0.2.6-1, 0.2.6-0
    
    :depends biopython: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends qiime: 
-   
    :depends r-coin: 
-   
    :depends r-gtools: 
-   
    :depends r-klar: 
-   
    :depends r-mass: 
-   
    :depends r-modeltools: 
-   
    :depends r-mvtnorm: 
-   
    :depends r-optparse: 
-   
    :depends r-survival: 
-   
    :depends rpy2: 
-   
    :requirements:
 
    .. rubric:: Installation

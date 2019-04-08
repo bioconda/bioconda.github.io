@@ -26,59 +26,32 @@ bioconductor-mineica
    :versions: 1.22.0-0, 1.18.0-0
    
    :depends bioconductor-annotate: >=1.60.0,<1.61.0
-   
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends bioconductor-gostats: >=2.48.0,<2.49.0
-   
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-lumi: >=2.34.0,<2.35.0
-   
    :depends bioconductor-lumihumanall.db: >=1.22.0,<1.23.0
-   
    :depends bioconductor-marray: >=1.60.0,<1.61.0
-   
    :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-colorspace: 
-   
    :depends r-fastica: 
-   
    :depends r-foreach: 
-   
    :depends r-fpc: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gtools: 
-   
    :depends r-hmisc: 
-   
    :depends r-igraph: 
-   
    :depends r-jade: 
-   
    :depends r-mclust: 
-   
    :depends r-plyr: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-scales: 
-   
    :depends r-xtable: 
-   
    :requirements:
 
    .. rubric:: Installation

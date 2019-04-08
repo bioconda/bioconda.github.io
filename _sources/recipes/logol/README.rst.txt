@@ -25,13 +25,9 @@ logol
    :versions: 1.7.8-2, 1.7.8-1
    
    :depends cassiopee: 
-   
    :depends openjdk: 
-   
    :depends ruby: >=2.4
-   
    :depends swi-prolog: 
-   
    :requirements:
 
    .. rubric:: Installation

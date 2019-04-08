@@ -26,9 +26,7 @@ snpsplit
    :versions: 0.3.4-1, 0.3.4-0, 0.3.3-1, 0.3.3-0
    
    :depends perl: 
-   
    :depends samtools: >=1.7
-   
    :requirements:
 
    .. rubric:: Installation

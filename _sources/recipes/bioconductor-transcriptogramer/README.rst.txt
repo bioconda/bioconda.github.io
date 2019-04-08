@@ -25,31 +25,18 @@ bioconductor-transcriptogramer
    :versions: 1.4.1-0
    
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-reder: >=1.30.0,<1.31.0
-   
    :depends bioconductor-topgo: >=2.34.0,<2.35.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-data.table: 
-   
    :depends r-dosnow: 
-   
    :depends r-foreach: 
-   
    :depends r-ggplot2: 
-   
    :depends r-igraph: 
-   
    :depends r-progress: 
-   
    :depends r-snow: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

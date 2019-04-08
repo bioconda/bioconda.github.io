@@ -26,29 +26,17 @@ bioconductor-clusterprofiler
    :versions: 3.10.1-0, 3.8.1-0, 3.6.0-0, 3.4.4-0, 3.0.5-0, 3.0.4-1, 2.4.3-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-dose: >=3.8.0,<3.9.0
-   
    :depends bioconductor-enrichplot: >=1.2.0,<1.3.0
-   
    :depends bioconductor-go.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-gosemsim: >=2.8.0,<2.9.0
-   
    :depends bioconductor-qvalue: >=2.14.0,<2.15.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-ggplot2: 
-   
    :depends r-magrittr: 
-   
    :depends r-plyr: 
-   
    :depends r-rvcheck: 
-   
    :depends r-tidyr: 
-   
    :requirements:
 
    .. rubric:: Installation

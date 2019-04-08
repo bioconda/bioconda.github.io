@@ -25,17 +25,11 @@ genometools
    :versions: 1.2.1-0
    
    :depends ftputil: 
-   
    :depends numpy: 
-   
    :depends python: 2.7*
-   
    :depends requests: 
-   
    :depends unicodecsv: 
-   
    :depends xmltodict: 
-   
    :requirements:
 
    .. rubric:: Installation

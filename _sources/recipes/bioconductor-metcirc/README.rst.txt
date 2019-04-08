@@ -26,15 +26,10 @@ bioconductor-metcirc
    :versions: 1.12.1-0, 1.10.0-0, 1.6.0-0, 1.2.0-0
    
    :depends r-amap: >=0.8
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-circlize: >=0.3.9
-   
    :depends r-scales: >=0.3.0
-   
    :depends r-shiny: >=1.0.0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ bcbiogff
    :versions: 0.6.4-1, 0.6.4-0, 0.6.2-2, 0.6.2-1, 0.6.2-0
    
    :depends biopython: 
-   
    :depends python: 
-   
    :depends six: 
-   
    :requirements:
 
    .. rubric:: Installation

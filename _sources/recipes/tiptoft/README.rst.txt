@@ -25,13 +25,9 @@ tiptoft
    :versions: 1.0.0-0, 0.1.4-0
    
    :depends biopython: >=1.68
-   
    :depends cython: 
-   
    :depends pyfastaq: >=3.12.0
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

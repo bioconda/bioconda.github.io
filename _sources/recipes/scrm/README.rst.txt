@@ -25,7 +25,6 @@ scrm
    :versions: 1.7.3-0, 1.7.2-1, 1.7.2-0, 1.7.1-0, 1.6.1-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ perl-class-methodmaker
    :versions: 2.24-1, 2.24-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-pod-escapes: 
-   
    :depends perl-test: 
-   
    :requirements:
 
    .. rubric:: Installation

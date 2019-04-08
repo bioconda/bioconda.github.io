@@ -25,7 +25,6 @@ justbackoff
    :versions: 0.4.0-1, 0.4.0-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

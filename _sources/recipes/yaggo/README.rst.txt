@@ -25,7 +25,6 @@ yaggo
    :versions: 1.5.10-0, 1.5.9-1, 1.5.9-0, 1.5.8-0
    
    :depends ruby: >2.2.3
-   
    :requirements:
 
    .. rubric:: Installation

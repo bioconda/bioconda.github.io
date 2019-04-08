@@ -25,9 +25,7 @@ represent
    :versions: 1.5.1-2, 1.5.1-1
    
    :depends python: 
-   
    :depends six: >=1.8.0
-   
    :requirements:
 
    .. rubric:: Installation

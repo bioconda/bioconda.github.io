@@ -25,9 +25,7 @@ perl-test-exception
    :versions: 0.43-2, 0.43-1, 0.43-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-sub-uplevel: 
-   
    :requirements:
 
    .. rubric:: Installation

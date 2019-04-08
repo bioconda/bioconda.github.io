@@ -26,57 +26,31 @@ jbrowse
    :versions: 1.16.2-7, 1.16.2-6, 1.16.2-5, 1.16.2-4, 1.16.1-4, 1.16.1-3, 1.16.1-2, 1.16.1-1, 1.16.1-0, 1.15.4-0, 1.15.1-0, 1.15.0-0, 1.12.5-2, 1.12.5-0, 1.12.3-0, 1.12.1-3, 1.12.1-2, 1.12.1-1, 1.12.1-0
    
    :depends gff3sort: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bio-featureio: 
-   
    :depends perl-bio-gff3: 
-   
    :depends perl-bioperl: 
-   
    :depends perl-capture-tiny: 
-   
    :depends perl-db-file: 
-   
    :depends perl-devel-size: 
-   
    :depends perl-digest-crc32: 
-   
    :depends perl-exporter-tiny: 
-   
    :depends perl-file-copy-recursive: 
-   
    :depends perl-file-next: 
-   
    :depends perl-hash-merge: 
-   
    :depends perl-heap-simple: 
-   
    :depends perl-io-uncompress-gunzip: 
-   
    :depends perl-json: 
-   
    :depends perl-list-moreutils: 
-   
    :depends perl-local-lib: 
-   
    :depends perl-perlio-gzip: 
-   
    :depends perl-scalar-list-utils: 
-   
    :depends perl-test-deep: 
-   
    :depends perl-test-simple: 
-   
    :depends perl-test-warn: 
-   
    :depends perl-uri: 
-   
    :requirements:
 
    .. rubric:: Installation

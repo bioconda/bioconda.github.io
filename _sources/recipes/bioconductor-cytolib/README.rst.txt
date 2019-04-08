@@ -25,11 +25,8 @@ bioconductor-cytolib
    :versions: 1.4.1-0, 1.4.0-0, 1.2.0-0, 1.0.1-0
    
    :depends bioconductor-rprotobuflib: >=1.4.0,<1.5.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-bh: >=1.62.0-1
-   
    :requirements:
 
    .. rubric:: Installation

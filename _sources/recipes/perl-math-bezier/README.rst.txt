@@ -25,7 +25,6 @@ perl-math-bezier
    :versions: 0.01-1, 0.01-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

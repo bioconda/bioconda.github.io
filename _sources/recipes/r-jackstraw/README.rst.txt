@@ -25,21 +25,13 @@ r-jackstraw
    :versions: 1.3-0
    
    :depends bioconductor-lfa: 
-   
    :depends bioconductor-qvalue: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-clusterr: 
-   
    :depends r-corpcor: 
-   
    :depends r-irlba: 
-   
    :depends r-rsvd: 
-   
    :requirements:
 
    .. rubric:: Installation

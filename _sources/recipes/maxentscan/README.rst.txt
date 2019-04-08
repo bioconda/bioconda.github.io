@@ -25,7 +25,6 @@ maxentscan
    :versions: 0_2004.04.21-1, 0_2004.04.21-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

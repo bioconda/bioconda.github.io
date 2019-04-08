@@ -26,19 +26,12 @@ aria2
    :versions: 1.34.0-3, 1.34.0-0, 1.23.0-1, 1.23.0-0
    
    :depends c-ares: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libssh2: >=1.8.0,<1.9.0a0
-   
    :depends libxml2: >=2.9.8,<2.10.0a0
-   
    :depends openssl: >=1.0.2o,<1.0.3a
-   
    :depends sqlite: >=3.24.0,<4.0a0
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

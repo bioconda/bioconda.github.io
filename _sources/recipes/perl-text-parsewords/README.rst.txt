@@ -25,9 +25,7 @@ perl-text-parsewords
    :versions: 3.30-0, 3.29-3, 3.29-2, 3.29-1
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-scalar-list-utils: 
-   
    :requirements:
 
    .. rubric:: Installation

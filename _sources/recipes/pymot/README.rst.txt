@@ -25,9 +25,7 @@ pymot
    :versions: 13.09.2016-1, 13.09.2016-0
    
    :depends munkres: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

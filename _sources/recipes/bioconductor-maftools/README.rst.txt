@@ -25,37 +25,21 @@ bioconductor-maftools
    :versions: 1.8.0-0, 1.6.15-0, 1.4.27-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
-   
    :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cometexacttest: 
-   
    :depends r-cowplot: 
-   
    :depends r-data.table: 
-   
    :depends r-ggplot2: >=2.0
-   
    :depends r-ggrepel: 
-   
    :depends r-gridextra: 
-   
    :depends r-mclust: 
-   
    :depends r-nmf: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rjson: 
-   
    :depends r-survival: 
-   
    :depends r-wordcloud: 
-   
    :requirements:
 
    .. rubric:: Installation

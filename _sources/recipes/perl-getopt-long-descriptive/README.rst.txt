@@ -25,15 +25,10 @@ perl-getopt-long-descriptive
    :versions: 0.103-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-getopt-long: 
-   
    :depends perl-params-validate: 
-   
    :depends perl-sub-exporter: 
-   
    :requirements:
 
    .. rubric:: Installation

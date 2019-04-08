@@ -25,7 +25,6 @@ sprinkles
    :versions: 0.4.6-1, 0.4.6-0
    
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

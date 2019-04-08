@@ -25,13 +25,9 @@ r-solarius
    :versions: 0.3.0.2-0
    
    :depends r-base: 3.2.2*
-   
    :depends r-data.table: 
-   
    :depends r-ggplot2: 
-   
    :depends r-plyr: >=1.8.1
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ gretel
    :versions: 0.0.90-1, 0.0.90-0, 0.0.81-0
    
    :depends hanselx: 
-   
    :depends numpy: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends pyvcf: 
-   
    :requirements:
 
    .. rubric:: Installation

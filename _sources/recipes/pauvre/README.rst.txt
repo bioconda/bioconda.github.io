@@ -25,15 +25,10 @@ pauvre
    :versions: 0.1.86-1, 0.1.86-0, 0.1.85-0, 0.1.3-0
    
    :depends biopython: >=1.68
-   
    :depends matplotlib: >=2.0.2
-   
    :depends numpy: >=1.12.1
-   
    :depends pandas: >=0.20.1
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

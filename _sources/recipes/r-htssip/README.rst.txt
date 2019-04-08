@@ -25,33 +25,19 @@ r-htssip
    :versions: 1.4.0-3, 1.4.0-2, 1.4.0-1, 1.4.0-0
    
    :depends bioconductor-deseq2: >=1.20.0,<1.22.0
-   
    :depends bioconductor-phyloseq: >=1.20.0
-   
    :depends r-ape: >=4.1
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-coenocliner: >=0.2.2
-   
    :depends r-dplyr: >=0.7.4
-   
    :depends r-ggplot2: >=2.2.1
-   
    :depends r-igraph: >=1.1.2
-   
    :depends r-lazyeval: >=0.2.0
-   
    :depends r-magrittr: >=1.5
-   
    :depends r-plyr: >=1.8.4
-   
    :depends r-stringr: >=1.2.0
-   
    :depends r-tidyr: >=0.7.2
-   
    :depends r-vegan: >=2.4.0
-   
    :requirements:
 
    .. rubric:: Installation

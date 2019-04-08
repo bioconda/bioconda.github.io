@@ -25,11 +25,8 @@ bioconductor-facsdorit
    :versions: 1.24.0-0
    
    :depends bioconductor-prada: >=1.58.0,<1.59.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

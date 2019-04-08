@@ -25,31 +25,18 @@ r-aroma.affymetrix
    :versions: 3.1.1-1, 3.1.1-0, 3.1.0-0, 3.0.0-0
    
    :depends r-aroma.apd: >=0.6.0
-   
    :depends r-aroma.core: >=3.1.1
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-future: 
-   
    :depends r-listenv: 
-   
    :depends r-mass: 
-   
    :depends r-matrixstats: >=0.52.2
-   
    :depends r-r.cache: >=0.13.0
-   
    :depends r-r.devices: >=2.15.1
-   
    :depends r-r.filesets: >=2.11.0
-   
    :depends r-r.methodss3: >=1.7.1
-   
    :depends r-r.oo: >=1.21.0
-   
    :depends r-r.utils: >=2.6.0
-   
    :requirements:
 
    .. rubric:: Installation

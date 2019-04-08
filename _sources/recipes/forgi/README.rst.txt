@@ -25,27 +25,16 @@ forgi
    :versions: 2.0-2, 1.1-2, 1.1-1, 1.1-0
    
    :depends appdirs: >=1.4.3
-   
    :depends beautifulsoup4: >=4.6
-   
    :depends biopython: >=1.70
-   
    :depends future: 
-   
    :depends logging_exceptions: >=0.1.6
-   
    :depends matplotlib: >=2
-   
    :depends networkx: >=2.0
-   
    :depends numpy: >=1.10.0
-   
    :depends pandas: >=0.20
-   
    :depends python: 
-   
    :depends scipy: >=0.19.1
-   
    :requirements:
 
    .. rubric:: Installation

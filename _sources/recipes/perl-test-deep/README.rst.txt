@@ -25,7 +25,6 @@ perl-test-deep
    :versions: 1.128-1, 1.128-0, 1.120-3, 1.120-2, 1.120-1
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

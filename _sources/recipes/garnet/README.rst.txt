@@ -25,21 +25,13 @@ garnet
    :versions: 0.4.5-0, 0.4.3-0, 0.4.0-0, 0.2.20-0, 0.2.17-0
    
    :depends intervaltree: 
-   
    :depends jinja2: 
-   
    :depends libgcc: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: 3.5*
-   
    :depends statsmodels: 
-   
    :requirements:
 
    .. rubric:: Installation

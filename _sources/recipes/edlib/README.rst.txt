@@ -25,7 +25,6 @@ edlib
    :versions: 1.2.3-1, 1.2.3-0, 1.2.1-0, 1.2.0-0, 1.1.2-0, 1.0.0-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

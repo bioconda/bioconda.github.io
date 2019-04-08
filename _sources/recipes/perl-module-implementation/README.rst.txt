@@ -25,13 +25,9 @@ perl-module-implementation
    :versions: 0.09-2, 0.09-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-module-runtime: 
-   
    :depends perl-try-tiny: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ bioconductor-olingui
    :versions: 1.56.0-0
    
    :depends bioconductor-marray: >=1.60.0,<1.61.0
-   
    :depends bioconductor-olin: >=1.60.0,<1.61.0
-   
    :depends bioconductor-tkwidgets: >=1.60.0,<1.61.0
-   
    :depends bioconductor-widgettools: >=1.60.0,<1.61.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

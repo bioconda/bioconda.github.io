@@ -25,9 +25,7 @@ r-km.ci
    :versions: 0.5_2-0
    
    :depends r-base: 3.3.2*
-   
    :depends r-survival: 
-   
    :requirements:
 
    .. rubric:: Installation

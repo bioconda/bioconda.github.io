@@ -25,11 +25,8 @@ burrito
    :versions: 0.9.1-2, 0.9.1-1, 0.9.1-0
    
    :depends future: 
-   
    :depends python: 
-   
    :depends r-base: 
-   
    :requirements:
 
    .. rubric:: Installation

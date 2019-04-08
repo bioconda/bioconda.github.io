@@ -25,13 +25,9 @@ r-rrbgen
    :versions: 0.0.6-1, 0.0.6-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-rcpp: >=0.12.18
-   
    :depends r-rcpparmadillo: >=0.8.600.0.0
-   
    :depends r-testthat: >=2.0.0
-   
    :requirements:
 
    .. rubric:: Installation

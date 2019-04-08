@@ -25,7 +25,6 @@ python-rnacentral
    :versions: 1.0.0-0
    
    :depends python: >=2.7,<3
-   
    :requirements:
 
    .. rubric:: Installation

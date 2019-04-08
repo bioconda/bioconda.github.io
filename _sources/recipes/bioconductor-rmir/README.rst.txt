@@ -26,13 +26,9 @@ bioconductor-rmir
    :versions: 1.38.0-0, 1.36.0-0, 1.34.0-0
    
    :depends bioconductor-rmir.hs.mirna: >=1.0.0,<1.1.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: 
-   
    :depends r-rsvgtipsdevice: 
-   
    :requirements:
 
    .. rubric:: Installation

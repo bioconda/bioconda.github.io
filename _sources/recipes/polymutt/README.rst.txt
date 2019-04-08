@@ -25,11 +25,8 @@ polymutt
    :versions: 0.18-0
    
    :depends bzip2: 1.0*
-   
    :depends libgcc: 
-   
    :depends openmp: 
-   
    :requirements:
 
    .. rubric:: Installation

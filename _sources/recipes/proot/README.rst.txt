@@ -25,7 +25,6 @@ proot
    :versions: 5.1.0-0
    
    :depends talloc: 
-   
    :requirements:
 
    .. rubric:: Installation

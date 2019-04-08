@@ -25,11 +25,8 @@ bioconductor-gsean
    :versions: 1.2.0-0
    
    :depends bioconductor-fgsea: >=1.8.0,<1.9.0
-   
    :depends bioconductor-ppinfer: >=1.8.0,<1.9.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

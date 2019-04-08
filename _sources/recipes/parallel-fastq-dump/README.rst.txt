@@ -25,9 +25,7 @@ parallel-fastq-dump
    :versions: 0.6.3-1, 0.6.3-0, 0.6.2-0, 0.6.1-0, 0.6.0-0, 0.5.4-0
    
    :depends python: >=3.5,<3.6.0a0
-   
    :depends sra-tools: 
-   
    :requirements:
 
    .. rubric:: Installation

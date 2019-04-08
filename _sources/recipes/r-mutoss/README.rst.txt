@@ -25,15 +25,10 @@ r-mutoss
    :versions: 0.1_12-1, 0.1_12-0, 0.1_10-0
    
    :depends bioconductor-multtest: >=2.2.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-multcomp: >=1.1_0
-   
    :depends r-mvtnorm: 
-   
    :depends r-plotrix: 
-   
    :requirements:
 
    .. rubric:: Installation

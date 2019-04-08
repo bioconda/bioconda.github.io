@@ -26,19 +26,12 @@ bioconductor-qcmetrics
    :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-knitr: 
-   
    :depends r-nozzle.r1: 
-   
    :depends r-pander: 
-   
    :depends r-xtable: 
-   
    :requirements:
 
    .. rubric:: Installation

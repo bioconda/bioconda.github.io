@@ -26,25 +26,15 @@ bioconductor-flowai
    :versions: 1.12.1-0, 1.10.1-0, 1.6.2-0, 1.4.4-0, 1.2.9-0, 1.2.8-0
    
    :depends bioconductor-flowcore: >=1.48.0,<1.49.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-changepoint: 
-   
    :depends r-ggplot2: 
-   
    :depends r-knitr: 
-   
    :depends r-plyr: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :depends r-rmarkdown: 
-   
    :depends r-scales: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,25 +25,15 @@ bioconductor-isocorrector
    :versions: 1.0.5-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-magrittr: 
-   
    :depends r-pracma: 
-   
    :depends r-quadprog: 
-   
    :depends r-readr: 
-   
    :depends r-readxl: 
-   
    :depends r-stringr: 
-   
    :depends r-tibble: 
-   
    :depends r-writexls: 
-   
    :requirements:
 
    .. rubric:: Installation

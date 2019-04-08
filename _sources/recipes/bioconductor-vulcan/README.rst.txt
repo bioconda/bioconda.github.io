@@ -25,35 +25,20 @@ bioconductor-vulcan
    :versions: 1.4.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-chippeakanno: >=3.16.0,<3.17.0
-   
    :depends bioconductor-csaw: >=1.16.0,<1.17.0
-   
    :depends bioconductor-deseq: >=1.34.0,<1.35.0
-   
    :depends bioconductor-diffbind: >=2.10.0,<2.11.0
-   
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: >=3.2.0,<3.3.0
-   
    :depends bioconductor-viper: >=1.16.0,<1.17.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-catools: 
-   
    :depends r-gplots: 
-   
    :depends r-locfit: 
-   
    :depends r-wordcloud: 
-   
    :depends r-zoo: 
-   
    :requirements:
 
    .. rubric:: Installation

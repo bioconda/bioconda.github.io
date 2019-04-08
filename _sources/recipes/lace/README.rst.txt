@@ -25,19 +25,12 @@ lace
    :versions: 1.00-1, 1.00-0, 0.99-0, 0.80-0
    
    :depends blat: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends matplotlib: 
-   
    :depends networkx: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

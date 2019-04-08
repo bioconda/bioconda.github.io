@@ -25,17 +25,11 @@ perl-bio-featureio
    :versions: 1.6.905-1, 1.6.905-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bioperl-core: 
-   
    :depends perl-tree-dag_node: 
-   
    :depends perl-uri: 
-   
    :depends perl-xml-dom: 
-   
    :depends perl-xml-dom-xpath: 
-   
    :requirements:
 
    .. rubric:: Installation

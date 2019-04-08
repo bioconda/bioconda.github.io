@@ -25,9 +25,7 @@ mhap
    :versions: 2.1.3-0, 2.1.1-0, 2.0-0
    
    :depends openjdk: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

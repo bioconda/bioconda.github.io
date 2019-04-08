@@ -25,7 +25,6 @@ pycli
    :versions: 2.0.3-1, 2.0.3-0
    
    :depends python: <3
-   
    :requirements:
 
    .. rubric:: Installation

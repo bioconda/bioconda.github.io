@@ -27,17 +27,11 @@ meraculous
    :versions: 2.2.6-0, 2.2.5.1.1.ga103cd6-0, 2.2.5-0, 2.2.4-1, 2.2.4-0
    
    :depends boost-cpp: >=1.67.0,<1.67.1.0a0
-   
    :depends gnuplot: >=3.7
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libgd: >=2.0
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-log-log4perl: >=1.31
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,27 +25,16 @@ bioconductor-sigfeature
    :versions: 1.0.0-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-biocviews: >=1.50.0,<1.51.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-e1071: 
-   
    :depends r-matrix: 
-   
    :depends r-nlme: 
-   
    :depends r-openxlsx: 
-   
    :depends r-pheatmap: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-sparsem: 
-   
    :requirements:
 
    .. rubric:: Installation

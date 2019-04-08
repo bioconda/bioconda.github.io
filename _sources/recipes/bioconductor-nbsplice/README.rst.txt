@@ -25,21 +25,13 @@ bioconductor-nbsplice
    :versions: 1.0.0-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-car: 
-   
    :depends r-ggplot2: 
-   
    :depends r-mass: 
-   
    :depends r-mppa: 
-   
    :depends r-reshape2: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,21 +25,13 @@ nanocomp
    :versions: 1.1.0-1, 1.1.0-0, 1.0.0-0, 0.23.1-0, 0.23.0-1, 0.19.0-1, 0.19.0-0, 0.16.0-0, 0.15.0-0, 0.12.4-0, 0.7.0-0, 0.5.0-0
    
    :depends nanoget: >=1.4.0
-   
    :depends nanomath: >=0.15.3
-   
    :depends nanoplot: >=1.17.3
-   
    :depends nanoplotter: >=1.0.0
-   
    :depends numpy: 
-   
    :depends orca: 
-   
    :depends pandas: 
-   
    :depends python: >=3
-   
    :requirements:
 
    .. rubric:: Installation

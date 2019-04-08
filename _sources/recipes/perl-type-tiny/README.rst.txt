@@ -25,9 +25,7 @@ perl-type-tiny
    :versions: 1.004004-0, 1.004003-0, 1.004002-0, 1.002002-0, 1.000005-1, 1.000005-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-exporter-tiny: >=0.040
-   
    :requirements:
 
    .. rubric:: Installation

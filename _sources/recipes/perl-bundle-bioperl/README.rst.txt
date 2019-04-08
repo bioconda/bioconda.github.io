@@ -25,7 +25,6 @@ perl-bundle-bioperl
    :versions: 2.1.9-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

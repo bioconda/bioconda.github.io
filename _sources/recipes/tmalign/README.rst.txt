@@ -26,7 +26,6 @@ tmalign
    :versions: 20170708-0
    
    :depends libgfortran: >=3.0
-   
    :requirements:
 
    .. rubric:: Installation

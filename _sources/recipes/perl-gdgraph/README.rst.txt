@@ -25,11 +25,8 @@ perl-gdgraph
    :versions: 1.54-0, 1.49-4, 1.49-3, 1.49-2, 1.49-1, 1.49-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-gd: 
-   
    :depends perl-gdtextutil: 
-   
    :requirements:
 
    .. rubric:: Installation

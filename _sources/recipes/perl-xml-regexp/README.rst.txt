@@ -25,7 +25,6 @@ perl-xml-regexp
    :versions: 0.04-2, 0.04-1, 0.04-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

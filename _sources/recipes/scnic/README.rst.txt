@@ -25,31 +25,18 @@ scnic
    :versions: 0.6.1-0, 0.6.0-0, 0.5.3-0, 0.5.1-0
    
    :depends biom-format: 
-   
    :depends fastspar: 
-   
    :depends h5py: 
-   
    :depends matplotlib: 
-   
    :depends networkx: >2
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: >=3
-   
    :depends scikit-bio: 
-   
    :depends scipy: 
-   
    :depends seaborn: 
-   
    :depends statsmodels: 
-   
    :depends tqdm: 
-   
    :requirements:
 
    .. rubric:: Installation

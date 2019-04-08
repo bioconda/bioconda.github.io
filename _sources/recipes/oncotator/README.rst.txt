@@ -28,35 +28,20 @@ oncotator
    :versions: 1.9.9.0-0
    
    :depends bcbiogff: 0.6.2.*
-   
    :depends biopython: 1.66.*
-   
    :depends cython: 0.24.*
-   
    :depends enum34: 1.1.2.*
-   
    :depends futures: 
-   
    :depends more-itertools: 2.2.*
-   
    :depends natsort: 4.0.4.*
-   
    :depends numpy: 1.11.0.*
-   
    :depends pandas: 0.18.0.*
-   
    :depends pysam: 0.9.0.*
-   
    :depends python: <3
-   
    :depends python-memcached: 1.57.*
-   
    :depends pyvcf: 0.6.8.*
-   
    :depends shove: 0.6.6.*
-   
    :depends sqlalchemy: 1.0.12.*
-   
    :requirements:
 
    .. rubric:: Installation

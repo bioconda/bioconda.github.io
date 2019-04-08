@@ -26,11 +26,8 @@ angsd
    :versions: 0.923-0, 0.921-2, 0.921-1, 0.921-0, 0.910-0
    
    :depends htslib: >=1.9,<1.10.0a0
-   
    :depends libgcc-ng: >=4.9
-   
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

@@ -26,11 +26,8 @@ genonets
    :versions: 1.1.6-1, 1.1.6-0
    
    :depends numpy: >=1.8.2
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends python-igraph: >=0.6
-   
    :requirements:
 
    .. rubric:: Installation

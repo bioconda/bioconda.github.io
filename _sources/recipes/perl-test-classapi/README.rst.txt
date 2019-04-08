@@ -25,13 +25,9 @@ perl-test-classapi
    :versions: 1.07-1, 1.07-0, 1.06-1, 1.06-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-class-inspector: 
-   
    :depends perl-config-tiny: 
-   
    :depends perl-params-util: 
-   
    :requirements:
 
    .. rubric:: Installation

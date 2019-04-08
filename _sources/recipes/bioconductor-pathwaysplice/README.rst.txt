@@ -25,67 +25,36 @@ bioconductor-pathwaysplice
    :versions: 1.6.0-0
    
    :depends bioconductor-annotate: >=1.60.0,<1.61.0
-   
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   
    :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-dose: >=3.8.0,<3.9.0
-   
    :depends bioconductor-enrichmentbrowser: >=2.12.0,<2.13.0
-   
    :depends bioconductor-ensembldb: >=2.6.0,<2.7.0
-   
    :depends bioconductor-genelendatabase: >=1.18.0,<1.19.0
-   
    :depends bioconductor-go.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-goseq: >=1.34.0,<1.35.0
-   
    :depends bioconductor-junctionseq: >=1.12.0,<1.13.0
-   
    :depends bioconductor-keggrest: >=1.22.0,<1.23.0
-   
    :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-org.mm.eg.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-biasedurn: 
-   
    :depends r-dplyr: 
-   
    :depends r-gdata: 
-   
    :depends r-gplots: 
-   
    :depends r-gridextra: 
-   
    :depends r-htmlwidgets: 
-   
    :depends r-igraph: 
-   
    :depends r-mgcv: 
-   
    :depends r-plotly: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-reshape2: 
-   
    :depends r-tibble: 
-   
    :depends r-venndiagram: 
-   
    :depends r-webshot: 
-   
    :requirements:
 
    .. rubric:: Installation

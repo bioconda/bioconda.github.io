@@ -25,7 +25,6 @@ perl-env-path
    :versions: 0.19-2, 0.19-1, 0.19-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,27 +25,16 @@ probamconvert
    :versions: 1.0.2-1, 1.0.1-1, 1.0.0-1, 1.0.0-0
    
    :depends bioservices: 
-   
    :depends cogent: 
-   
    :depends icu: 58.*
-   
    :depends lxml: 
-   
    :depends matplotlib: 
-   
    :depends mysql-python: 
-   
    :depends numpy: 
-   
    :depends pysam: >=0.9
-   
    :depends pyteomics: 
-   
    :depends python: 2.7*
-   
    :depends xz: 
-   
    :requirements:
 
    .. rubric:: Installation

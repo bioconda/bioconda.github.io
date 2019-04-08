@@ -25,71 +25,38 @@ nullarbor
    :versions: 2.0.20181010-4, 2.0.20181010-2
    
    :depends abricate: >=0.8
-   
    :depends bwa: >=0.7.17
-   
    :depends centrifuge: >=1.0
-   
    :depends fasttree: 
-   
    :depends flash: >=1.2
-   
    :depends iqtree: >=1.6
-   
    :depends kraken: >=1.1
-   
    :depends kraken2: 
-   
    :depends lighter: >=1.1
-   
    :depends mash: >=2.1
-   
    :depends megahit: >=1.1
-   
    :depends mlst: >=2.1
-   
    :depends newick_utils: 
-   
    :depends perl: 
-   
    :depends perl-file-spec: 
-   
    :depends perl-findbin: 
-   
    :depends perl-path-tiny: 
-   
    :depends perl-yaml-tiny: 
-   
    :depends pigz: 
-   
    :depends pilon: >=1.22
-   
    :depends prokka: >=1.12
-   
    :depends quicktree: >=2.4
-   
    :depends roary: >=3.0
-   
    :depends samclip: >=0.2
-   
    :depends samtools: >=1.8
-   
    :depends seqtk: >=1.3
-   
    :depends shovill: >=1.0
-   
    :depends skesa: >=2.3
-   
    :depends snippy: >=4.2
-   
    :depends snp-dists: >=0.6
-   
    :depends spades: >=3.6
-   
    :depends trimmomatic: >=0.36
-   
    :depends velvet: >=1.2.10
-   
    :requirements:
 
    .. rubric:: Installation

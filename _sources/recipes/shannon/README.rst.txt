@@ -26,19 +26,12 @@ shannon
    :versions: 0.0.2-0
    
    :depends cvxopt: 
-   
    :depends jellyfish: 
-   
    :depends metis: 
-   
    :depends numpy: 
-   
    :depends parallel: 
-   
    :depends python: <3
-   
    :depends quorum: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,7 +25,6 @@ perl-integer
    :versions: 1.01-1, 1.01-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

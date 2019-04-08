@@ -25,9 +25,7 @@ perl-ntlm
    :versions: 1.09-4, 1.09-3, 1.09-2, 1.09-1
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-digest-hmac: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ perl-filedirutil
    :versions: v0.03-2, v0.03-1, v0.03-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-moose: 
-   
    :depends perl-namespace-autoclean: 
-   
    :depends perl-params-coerce: 
-   
    :depends perl-path-class: 
-   
    :requirements:
 
    .. rubric:: Installation

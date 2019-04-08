@@ -25,17 +25,11 @@ beast2
    :versions: 2.5.0-0, 2.4.5-1, 2.4.5-0
    
    :depends beagle-lib: 
-   
    :depends font-ttf-ubuntu: 
-   
    :depends fontconfig: >=2.13.1,<3.0a0
-   
    :depends freetype: >=2.9.1,<3.0a0
-   
    :depends openjdk: 8.0.* zulu8*
-   
    :depends xorg-libxtst: 
-   
    :requirements:
 
    .. rubric:: Installation

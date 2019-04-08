@@ -25,11 +25,8 @@ pathoscope
    :versions: 2.0.6-1, 2.0.6-0
    
    :depends bowtie2: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: <1.0
-   
    :requirements:
 
    .. rubric:: Installation

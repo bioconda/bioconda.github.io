@@ -25,9 +25,7 @@ r-grimport
    :versions: 0.9_0-0
    
    :depends r: 3.3.1*
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

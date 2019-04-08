@@ -25,25 +25,15 @@ nanosim
    :versions: 2.2.0-0, 2.1.0-0, 2.0.0-1, 2.0.0-0, v1.3.0-0, v1.2.0-0, v1.0.1-1
    
    :depends htseq: >=0.9.1
-   
    :depends last: 
-   
    :depends minimap2: 
-   
    :depends numpy: >=1.13.3
-   
    :depends pybedtools: >=0.7.10
-   
    :depends pysam: >=0.13
-   
    :depends python: 
-   
    :depends scikit-learn: >=0.20.0
-   
    :depends scipy: >=1.0.0
-   
    :depends six: >=1.10.0
-   
    :requirements:
 
    .. rubric:: Installation

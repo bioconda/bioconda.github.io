@@ -25,7 +25,6 @@ sim4db
    :versions: 2008-0
    
    :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

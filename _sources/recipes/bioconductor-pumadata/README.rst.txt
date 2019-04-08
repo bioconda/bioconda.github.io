@@ -25,17 +25,11 @@ bioconductor-pumadata
    :versions: 2.18.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
-   
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-oligo: >=1.46.0,<1.47.0
-   
    :depends bioconductor-puma: >=3.24.0,<3.25.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

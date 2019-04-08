@@ -25,11 +25,8 @@ perl-file-slurp
    :versions: 9999.25-0, 9999.24-0, 9999.19-3, 9999.19-2, 9999.19-1, 9999.19-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-exporter: 
-   
    :requirements:
 
    .. rubric:: Installation

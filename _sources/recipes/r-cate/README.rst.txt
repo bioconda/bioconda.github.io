@@ -25,19 +25,12 @@ r-cate
    :versions: 1.0.4-0
    
    :depends bioconductor-sva: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-corpcor: 
-   
    :depends r-esabcv: 
-   
    :depends r-leapp: 
-   
    :depends r-mass: 
-   
    :depends r-ruv: 
-   
    :requirements:
 
    .. rubric:: Installation

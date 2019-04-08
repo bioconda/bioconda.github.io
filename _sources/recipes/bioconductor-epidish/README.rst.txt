@@ -25,13 +25,9 @@ bioconductor-epidish
    :versions: 1.4.1-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-e1071: 
-   
    :depends r-mass: 
-   
    :depends r-quadprog: 
-   
    :requirements:
 
    .. rubric:: Installation

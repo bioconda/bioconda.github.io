@@ -26,15 +26,10 @@ bioconductor-aroma.light
    :versions: 3.12.0-1, 3.12.0-0, 3.10.0-0, 3.8.0-0, 3.6.0-0, 3.4.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-matrixstats: >=0.54.0
-   
    :depends r-r.methodss3: >=1.7.1
-   
    :depends r-r.oo: >=1.22.0
-   
    :depends r-r.utils: >=2.7.0
-   
    :requirements:
 
    .. rubric:: Installation

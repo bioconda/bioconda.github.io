@@ -25,7 +25,6 @@ perl-importer
    :versions: 0.025-0, 0.024-1, 0.024-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

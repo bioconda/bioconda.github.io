@@ -25,13 +25,9 @@ pout2mzid
    :versions: 0.3.03-2
    
    :depends boost: ==1.62
-   
    :depends libgcc: 
-   
    :depends xerces-c: 
-   
    :depends xsd: 
-   
    :requirements:
 
    .. rubric:: Installation

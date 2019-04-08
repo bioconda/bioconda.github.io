@@ -26,11 +26,8 @@ pmdtools
    :versions: 0.60-1
    
    :depends python: 
-   
    :depends r-base: 
-   
    :depends samtools: 
-   
    :requirements:
 
    .. rubric:: Installation

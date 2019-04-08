@@ -25,11 +25,8 @@ pywdl
    :versions: 1.0.22-2, 1.0.22-1, 1.0.22-0
    
    :depends pytest: 
-   
    :depends python: 
-   
    :depends xtermcolor: 
-   
    :requirements:
 
    .. rubric:: Installation

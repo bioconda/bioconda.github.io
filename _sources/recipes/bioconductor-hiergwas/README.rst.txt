@@ -25,13 +25,9 @@ bioconductor-hiergwas
    :versions: 1.12.0-1, 1.12.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-fastcluster: 
-   
    :depends r-fmsb: 
-   
    :depends r-glmnet: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,35 +25,20 @@ rnftools
    :versions: 0.3.1.3-0, 0.3.1.2-2, 0.3.1.2-1, 0.3.1.1-2, 0.3.1.1-1, 0.3.1.0-2, 0.3.1.0-1, 0.3.0.2-2, 0.3.0.2-1, 0.3.0.2-0
    
    :depends art: 
-   
    :depends beautifulsoup4: 
-   
    :depends bwa: 
-   
    :depends curesim: 
-   
    :depends dwgsim: 
-   
    :depends gnuplot: >=5.0
-   
    :depends mason: 
-   
    :depends pyfaidx: 
-   
    :depends pysam: 
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :depends reportlab: 3.3.0
-   
    :depends samtools: 
-   
    :depends snakemake-minimal: 
-   
    :depends svg42pdf: >=0.2.2
-   
    :depends wgsim: 
-   
    :requirements:
 
    .. rubric:: Installation

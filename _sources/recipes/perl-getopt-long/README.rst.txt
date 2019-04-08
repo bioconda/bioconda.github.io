@@ -25,7 +25,6 @@ perl-getopt-long
    :versions: 2.50-1, 2.50-0, 2.49-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

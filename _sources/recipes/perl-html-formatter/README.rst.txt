@@ -25,21 +25,13 @@ perl-html-formatter
    :versions: 2.16-0, 2.14-1, 2.14-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-base: 
-   
    :depends perl-carp: 
-   
    :depends perl-data-dumper: 
-   
    :depends perl-encode: 
-   
    :depends perl-font-afm: 
-   
    :depends perl-html-tree: 
-   
    :depends perl-parent: 
-   
    :requirements:
 
    .. rubric:: Installation

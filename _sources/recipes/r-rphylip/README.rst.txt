@@ -25,11 +25,8 @@ r-rphylip
    :versions: 0.1_23-1, 0.1_23-0
    
    :depends phylip: >=3.696
-   
    :depends r-ape: >=3.0_10
-   
    :depends r-base: 3.3.2*
-   
    :requirements:
 
    .. rubric:: Installation

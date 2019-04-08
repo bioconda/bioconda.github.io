@@ -25,47 +25,26 @@ deepvariant
    :versions: 0.7.2-1, 0.7.2-0, 0.7.1-0, 0.7.0-0, 0.6.1-3, 0.6.1-2, 0.6.1-0, 0.6.0-0, 0.4.1-1, 0.4.1-0
    
    :depends boost: 
-   
    :depends contextlib2: 
-   
    :depends crcmod: 
-   
    :depends curl: >=7.59.0,<8.0a0
-   
    :depends enum34: 
-   
    :depends google-cloud-sdk: 
-   
    :depends htslib: 
-   
    :depends intervaltree: 
-   
    :depends mock: 
-   
    :depends numpy: 1.14.*
-   
    :depends oauth2client: 
-   
    :depends openjdk: >=8,<9
-   
    :depends parallel: 
-   
    :depends protobuf: 
-   
    :depends psutil: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends requests: 
-   
    :depends scipy: 
-   
    :depends six: 
-   
    :depends tensorflow: 1.12.*
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

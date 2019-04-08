@@ -25,15 +25,10 @@ perl-test-cleannamespaces
    :versions: 0.24-0, 0.23-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-exporter: 
-   
    :depends perl-module-runtime: 
-   
    :depends perl-package-stash: 
-   
    :depends perl-sub-identify: 
-   
    :requirements:
 
    .. rubric:: Installation

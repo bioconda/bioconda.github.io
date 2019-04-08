@@ -26,11 +26,8 @@ carna
    :versions: 1.3.3-2, 1.3.3-1, 1.3.2-2, 1.3.2-1, 1.3.2-0, 1.3.1-5, 1.3.1-4, 1.3.1-3, 1.3.1-2, 1.3.1-1
    
    :depends gecode: 5.0.0.*
-   
    :depends libgcc-ng: >=4.9
-   
    :depends locarna: 1.9.1.*
-   
    :requirements:
 
    .. rubric:: Installation

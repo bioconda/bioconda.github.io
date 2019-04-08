@@ -25,9 +25,7 @@ msgf_plus
    :versions: 2019.02.28-3, 2017.07.21-3, 2017.07.21-2, 2017.07.21-1, 2017.07.21-0, 2016.10.26-2, 2016.10.26-1, 2016.10.26-0, 1.0.0-0
    
    :depends openjdk: <9
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

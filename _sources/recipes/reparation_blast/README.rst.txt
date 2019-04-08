@@ -25,33 +25,19 @@ reparation_blast
    :versions: v1.0.7-1, v1.0.7-0, v1.0.6-0, v1.0.5-0, v1.0.4-0, v1.0.3-2, v1.0.2-1, v1.0.1-0
    
    :depends blast: >=2.7.1
-   
    :depends glimmer: 
-   
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bioperl: >=1.7.2
-   
    :depends perl-posix: 
-   
    :depends plastid: 
-   
    :depends prodigal: 
-   
    :depends pysam: 0.14.1.*
-   
    :depends r-ggplot2: >=3.0
-   
    :depends r-prroc: >=1.3.1
-   
    :depends r-randomforest: 
-   
    :depends r-rocr: 
-   
    :depends r-sizer: 
-   
    :depends samtools: 
-   
    :requirements:
 
    .. rubric:: Installation

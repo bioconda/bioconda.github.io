@@ -26,29 +26,17 @@ bioconductor-synapter
    :versions: 2.6.1-0, 2.2.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-cleaver: >=1.20.0,<1.21.0
-   
    :depends bioconductor-msnbase: >=2.8.0,<2.9.0
-   
    :depends bioconductor-multtest: >=2.38.0,<2.39.0
-   
    :depends bioconductor-qvalue: >=2.14.0,<2.15.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-knitr: 
-   
    :depends r-lattice: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-readr: >=0.2
-   
    :depends r-rmarkdown: >=1.0
-   
    :requirements:
 
    .. rubric:: Installation

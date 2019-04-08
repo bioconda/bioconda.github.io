@@ -25,13 +25,9 @@ r-readmzxmldata
    :versions: 2.8.1-0
    
    :depends r: 3.2.2*
-   
    :depends r-base64enc: 
-   
    :depends r-digest: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

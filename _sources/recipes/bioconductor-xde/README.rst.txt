@@ -26,29 +26,17 @@ bioconductor-xde
    :versions: 2.28.0-0, 2.26.0-0, 2.24.0-0, 2.22.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   
    :depends bioconductor-genemeta: >=1.54.0,<1.55.0
-   
    :depends bioconductor-mergemaid: >=2.54.0,<2.55.0
-   
    :depends bioconductor-siggenes: >=1.56.0,<1.57.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-gtools: 
-   
    :depends r-mvtnorm: 
-   
    :depends r-rcolorbrewer: 
-   
    :requirements:
 
    .. rubric:: Installation

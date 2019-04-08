@@ -25,21 +25,13 @@ bioconductor-pd.feinberg.mm8.me.hx1
    :versions: 0.99.3-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-oligo: >=1.46.0,<1.47.0
-   
    :depends bioconductor-oligoclasses: >=1.44.0,<1.45.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: 
-   
    :depends r-rsqlite: >=0.7-1
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

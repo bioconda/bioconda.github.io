@@ -26,13 +26,9 @@ bioconductor-genrank
    :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0
    
    :depends bioconductor-survcomp: >=1.32.0,<1.33.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-matrixstats: 
-   
    :depends r-reshape2: 
-   
    :requirements:
 
    .. rubric:: Installation

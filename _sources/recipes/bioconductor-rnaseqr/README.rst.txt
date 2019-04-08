@@ -25,53 +25,29 @@ bioconductor-rnaseqr
    :versions: 1.0.3-0
    
    :depends bioconductor-ballgown: >=2.14.0,<2.15.0
-   
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-clusterprofiler: >=3.10.0,<3.11.0
-   
    :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   
    :depends bioconductor-dose: >=3.8.0,<3.9.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-org.sc.sgd.db: >=3.7.0,<3.8.0
-   
    :depends bioconductor-pathview: >=1.22.0,<1.23.0
-   
    :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   
    :depends bioconductor-systempiper: >=1.16.0,<1.17.0
-   
    :depends bioconductor-systempiperdata: >=1.10.0,<1.11.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-corrplot: 
-   
    :depends r-factoextra: 
-   
    :depends r-factominer: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gridextra: 
-   
    :depends r-performanceanalytics: 
-   
    :depends r-pheatmap: 
-   
    :depends r-rafalib: 
-   
    :depends r-reshape2: 
-   
    :depends r-reticulate: 
-   
    :depends r-stringr: 
-   
    :requirements:
 
    .. rubric:: Installation

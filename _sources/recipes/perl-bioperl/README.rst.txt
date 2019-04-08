@@ -26,25 +26,15 @@ perl-bioperl
    :versions: 1.7.2-9, 1.7.2-8, 1.6.924-7, 1.6.924-6, 1.6.924-5, 1.6.924-4, 1.6.924-3, 1.6.924-2, 1.6.924-1, 1.6.924-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bio-asn1-entrezgene: 
-   
    :depends perl-bio-coordinate: 
-   
    :depends perl-bio-featureio: 
-   
    :depends perl-bio-samtools: 
-   
    :depends perl-bio-tools-phylo-paml: 
-   
    :depends perl-bio-tools-run-alignment-clustalw: 
-   
    :depends perl-bio-tools-run-alignment-tcoffee: 
-   
    :depends perl-bioperl-core: 1.7.2
-   
    :depends perl-bioperl-run: 
-   
    :requirements:
 
    .. rubric:: Installation

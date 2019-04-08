@@ -26,11 +26,8 @@ spotyping
    :versions: 2.1-2, 2.1-1, 2.1-0
    
    :depends blast: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends r-gdata: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,19 +25,12 @@ irep
    :versions: 1.1.7-1, 1.1.7-0
    
    :depends lmfit: 
-   
    :depends matplotlib: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: 
-   
    :depends scipy: 
-   
    :depends seaborn: 
-   
    :requirements:
 
    .. rubric:: Installation

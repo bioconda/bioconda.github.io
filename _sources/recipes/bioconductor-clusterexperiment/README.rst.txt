@@ -25,57 +25,31 @@ bioconductor-clusterexperiment
    :versions: 2.2.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-delayedarray: >=0.8.0,<0.9.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-hdf5array: >=1.10.0,<1.11.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends bioconductor-zinbwave: >=1.4.0,<1.5.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-ape: >=5.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-dendextend: 
-   
    :depends r-howmany: 
-   
    :depends r-kernlab: 
-   
    :depends r-locfdr: 
-   
    :depends r-matrixstats: 
-   
    :depends r-nmf: 
-   
    :depends r-phylobase: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rcpp: 
-   
    :depends r-rspectra: 
-   
    :depends r-scales: 
-   
    :depends r-stringr: 
-   
    :requirements:
 
    .. rubric:: Installation

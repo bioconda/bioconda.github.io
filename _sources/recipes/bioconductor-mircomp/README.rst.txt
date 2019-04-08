@@ -25,13 +25,9 @@ bioconductor-mircomp
    :versions: 1.12.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-mircompdata: >=1.12.0,<1.13.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-kernsmooth: 
-   
    :requirements:
 
    .. rubric:: Installation

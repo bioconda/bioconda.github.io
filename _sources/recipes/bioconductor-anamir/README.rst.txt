@@ -25,27 +25,16 @@ bioconductor-anamir
    :versions: 1.10.0-0
    
    :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   
    :depends bioconductor-gage: >=2.32.0,<2.33.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-lumi: >=2.34.0,<2.35.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-agricolae: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dbi: 
-   
    :depends r-gplots: 
-   
    :depends r-rmysql: 
-   
    :requirements:
 
    .. rubric:: Installation

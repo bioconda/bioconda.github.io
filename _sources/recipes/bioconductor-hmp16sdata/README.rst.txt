@@ -25,31 +25,18 @@ bioconductor-hmp16sdata
    :versions: 1.2.0-0
    
    :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
-   
    :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
-   
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends r-assertthat: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-kableextra: 
-   
    :depends r-knitr: 
-   
    :depends r-magrittr: 
-   
    :depends r-readr: 
-   
    :depends r-tibble: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

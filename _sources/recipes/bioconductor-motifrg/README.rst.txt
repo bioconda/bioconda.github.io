@@ -26,19 +26,12 @@ bioconductor-motifrg
    :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.14.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
-   
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: >=1.4.0,<1.5.0
-   
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   
    :depends bioconductor-seqlogo: >=1.48.0,<1.49.0
-   
    :depends bioconductor-xvector: >=0.22.0,<0.23.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

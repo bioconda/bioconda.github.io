@@ -25,7 +25,6 @@ consel
    :versions: 0.20-0
    
    :depends libgcc-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

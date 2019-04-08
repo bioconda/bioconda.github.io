@@ -26,23 +26,14 @@ kobas
    :versions: 3.0.3-1, 3.0.3-0, 2.1.1-2, 2.1.1-1, 2.1.1-0
    
    :depends bioconductor-qvalue: 
-   
    :depends biopython: 
-   
    :depends blast: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends r-base: 
-   
    :depends rpy2: >=2.8.5
-   
    :depends sqlite: >=3.20.1,<4.0a0
-   
    :requirements:
 
    .. rubric:: Installation

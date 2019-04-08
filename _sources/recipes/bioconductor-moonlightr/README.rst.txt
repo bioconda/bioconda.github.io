@@ -25,39 +25,22 @@ bioconductor-moonlightr
    :versions: 1.8.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-clusterprofiler: >=3.10.0,<3.11.0
-   
    :depends bioconductor-dose: >=3.8.0,<3.9.0
-   
    :depends bioconductor-geoquery: >=2.50.0,<2.51.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends bioconductor-tcgabiolinks: >=2.10.0,<2.11.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-circlize: 
-   
    :depends r-doparallel: 
-   
    :depends r-foreach: 
-   
    :depends r-gplots: 
-   
    :depends r-hiver: 
-   
    :depends r-parmigene: 
-   
    :depends r-randomforest: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rismed: 
-   
    :requirements:
 
    .. rubric:: Installation

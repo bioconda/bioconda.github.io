@@ -25,13 +25,9 @@ tximport-scripts
    :versions: 0.0.1-0
    
    :depends bioconductor-dropletutils: 
-   
    :depends bioconductor-tximport: 1.10.*
-   
    :depends r-optparse: 
-   
    :depends r-workflowscriptscommon: 
-   
    :requirements:
 
    .. rubric:: Installation

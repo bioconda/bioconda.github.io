@@ -26,9 +26,7 @@ effectivet3
    :versions: 1.0.1-0
    
    :depends openjdk: >=6
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

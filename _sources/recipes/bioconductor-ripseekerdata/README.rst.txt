@@ -25,11 +25,8 @@ bioconductor-ripseekerdata
    :versions: 1.18.0-0
    
    :depends bioconductor-ripseeker: >=1.22.0,<1.23.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

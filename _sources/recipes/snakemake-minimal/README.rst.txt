@@ -26,31 +26,18 @@ snakemake-minimal
    :versions: 5.4.4-1, 5.4.3-1, 5.4.3-0, 5.4.2-1, 5.4.2-0, 5.4.1-0, 5.4.0-0, 5.3.1-0, 5.3.0-2, 5.3.0-1, 5.3.0-0, 5.2.4-0, 5.2.2-1, 5.2.2-0, 5.2.1-0
    
    :depends appdirs: 
-   
    :depends configargparse: 
-   
    :depends datrie: 
-   
    :depends docutils: 
-   
    :depends gitpython: 
-   
    :depends jsonschema: 
-   
    :depends psutil: 
-   
    :depends python: >=3.5
-   
    :depends pyyaml: 
-   
    :depends ratelimiter: 
-   
    :depends requests: >=2.8.1
-   
    :depends setuptools: 
-   
    :depends wrapt: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,13 +25,9 @@ regional
    :versions: 1.1.2-0
    
    :depends matplotlib: 
-   
    :depends numpy: !=1.13.0
-   
    :depends python: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

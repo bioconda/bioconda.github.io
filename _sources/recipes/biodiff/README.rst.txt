@@ -25,7 +25,6 @@ biodiff
    :versions: 0.2.2-1, 0.2.2-0
    
    :depends perl: >=5.22.2.1,<5.23.0a0
-   
    :requirements:
 
    .. rubric:: Installation

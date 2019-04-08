@@ -25,21 +25,13 @@ pychopper
    :versions: 0.4.0-0
    
    :depends biopython: 
-   
    :depends matplotlib: 
-   
    :depends pandas: 
-   
    :depends parasail-python: 
-   
    :depends pytest: 
-   
    :depends python: >=3
-   
    :depends six: 
-   
    :depends tqdm: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,11 +25,8 @@ metavelvet-sl-feature-extraction
    :versions: 1.0-3, 1.0-2, 1.0-1
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-module-build: 
-   
    :requirements:
 
    .. rubric:: Installation

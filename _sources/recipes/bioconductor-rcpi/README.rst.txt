@@ -25,25 +25,15 @@ bioconductor-rcpi
    :versions: 1.18.1-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   
    :depends bioconductor-chemminer: >=3.34.0,<3.35.0
-   
    :depends bioconductor-fmcsr: >=1.24.0,<1.25.0
-   
    :depends bioconductor-gosemsim: >=2.8.0,<2.9.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-doparallel: 
-   
    :depends r-foreach: 
-   
    :depends r-rcdk: >=3.3.8
-   
    :depends r-rcurl: 
-   
    :depends r-rjson: 
-   
    :requirements:
 
    .. rubric:: Installation

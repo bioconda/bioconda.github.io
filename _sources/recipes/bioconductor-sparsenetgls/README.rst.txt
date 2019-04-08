@@ -25,17 +25,11 @@ bioconductor-sparsenetgls
    :versions: 1.0.1-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-glmnet: 
-   
    :depends r-huge: 
-   
    :depends r-mass: 
-   
    :depends r-matrix: 
-   
    :depends r-parcor: 
-   
    :requirements:
 
    .. rubric:: Installation

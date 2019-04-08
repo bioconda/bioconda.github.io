@@ -25,19 +25,12 @@ perl-cairo
    :versions: 1.106-1, 1.106-0
    
    :depends cairo: >=1.14.12,<1.15.0a0
-   
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-extutils-depends: 
-   
    :depends perl-extutils-pkgconfig: 
-   
    :depends xorg-libsm: 
-   
    :depends xorg-libxext: 
-   
    :depends xorg-libxrender: 
-   
    :requirements:
 
    .. rubric:: Installation

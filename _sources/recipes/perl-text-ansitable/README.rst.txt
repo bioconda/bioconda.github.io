@@ -25,35 +25,20 @@ perl-text-ansitable
    :versions: 0.48-0
    
    :depends perl: 5.22.0*
-   
    :depends perl-app-cpanminus: 
-   
    :depends perl-border-style: 
-   
    :depends perl-color-theme: 
-   
    :depends perl-extutils-makemaker: 
-   
    :depends perl-json-maybexs: 
-   
    :depends perl-json-maybexs: 
-   
    :depends perl-module-load: 
-   
    :depends perl-moo: 
-   
    :depends perl-namespace-clean: 
-   
    :depends perl-perl-osnames: 
-   
    :depends perl-perlio: 
-   
    :depends perl-term-app-roles: 
-   
    :depends perl-test-exception: 
-   
    :depends perl-test-more: 
-   
    :requirements:
 
    .. rubric:: Installation

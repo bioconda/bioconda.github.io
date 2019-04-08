@@ -25,9 +25,7 @@ arvados-cli
    :versions: 0.1.20151207150126-0
    
    :depends curl: 
-   
    :depends ruby: 
-   
    :requirements:
 
    .. rubric:: Installation

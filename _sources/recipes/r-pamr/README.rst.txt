@@ -25,11 +25,8 @@ r-pamr
    :versions: 1.55-0
    
    :depends r-base: 3.4.1*
-   
    :depends r-cluster: 
-   
    :depends r-survival: 
-   
    :requirements:
 
    .. rubric:: Installation

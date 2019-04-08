@@ -25,9 +25,7 @@ genologics
    :versions: 0.4.1-0, 0.3.12.post0-1, 0.3.12.post0-0
    
    :depends python: 
-   
    :depends requests: 
-   
    :requirements:
 
    .. rubric:: Installation

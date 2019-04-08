@@ -25,13 +25,9 @@ r-leapp
    :versions: 1.2-0
    
    :depends bioconductor-sva: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-corpcor: 
-   
    :depends r-mass: 
-   
    :requirements:
 
    .. rubric:: Installation

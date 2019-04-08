@@ -25,23 +25,14 @@ bioconductor-omicplotr
    :versions: 1.2.0-0
    
    :depends bioconductor-aldex2: >=1.14.0,<1.15.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-compositions: 
-   
    :depends r-knitr: 
-   
    :depends r-matrixstats: 
-   
    :depends r-rmarkdown: 
-   
    :depends r-shiny: 
-   
    :depends r-vegan: 
-   
    :depends r-zcompositions: 
-   
    :requirements:
 
    .. rubric:: Installation

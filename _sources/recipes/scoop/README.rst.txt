@@ -25,13 +25,9 @@ scoop
    :versions: 0.7.1.1-2, 0.7.1.1-1, 0.7.1.1-0
    
    :depends greenlet: >=0.3.4
-   
    :depends libstdcxx-ng: >=4.9
-   
    :depends python: 
-   
    :depends pyzmq: >=13.1.0
-   
    :requirements:
 
    .. rubric:: Installation

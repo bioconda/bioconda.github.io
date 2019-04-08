@@ -26,11 +26,8 @@ pash
    :versions: 3.0.6.2-0
    
    :depends glib: 
-   
    :depends libgcc: 
-   
    :depends ruby: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,15 +25,10 @@ ebfilter
    :versions: 0.2.1-1, 0.2.1-0
    
    :depends numpy: 
-   
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends pyvcf: 
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

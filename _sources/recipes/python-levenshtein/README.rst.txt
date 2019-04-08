@@ -25,11 +25,8 @@ python-levenshtein
    :versions: 0.12.0-1, 0.12.0-0
    
    :depends cython: 
-   
    :depends nose: 
-   
    :depends python: 2.7*
-   
    :requirements:
 
    .. rubric:: Installation

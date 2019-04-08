@@ -25,15 +25,10 @@ refseq_masher
    :versions: 0.1.1-1, 0.1.1-0, 0.1.0-0
    
    :depends click: 
-   
    :depends mash: >=2.0
-   
    :depends numpy: >=1.12.1
-   
    :depends pandas: >=0.20.1
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

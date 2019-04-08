@@ -25,13 +25,9 @@ ncbi-genome-download
    :versions: 0.2.9-0, 0.2.8-1, 0.2.8-0, 0.2.7-0, 0.2.6-1, 0.2.6-0, 0.2.5-1, 0.2.5-0, 0.2.4-0, 0.2.2-0, 0.2.0-0, 0.1.8-0
    
    :depends appdirs: 
-   
    :depends enum34: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends requests: >=2.4.3
-   
    :requirements:
 
    .. rubric:: Installation

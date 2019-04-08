@@ -25,19 +25,12 @@ deepbinner
    :versions: 0.2.0-1, 0.2.0-0, 0.1.2-0
    
    :depends h5py: 
-   
    :depends keras: 
-   
    :depends matplotlib: 
-   
    :depends noise: 
-   
    :depends numpy: 
-   
    :depends python: >3
-   
    :depends tensorflow: 
-   
    :requirements:
 
    .. rubric:: Installation

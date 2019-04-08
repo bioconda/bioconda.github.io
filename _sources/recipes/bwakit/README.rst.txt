@@ -25,7 +25,6 @@ bwakit
    :versions: 0.7.15-1, 0.7.15-0, 0.7.12-0
    
    :depends perl: 
-   
    :requirements:
 
    .. rubric:: Installation

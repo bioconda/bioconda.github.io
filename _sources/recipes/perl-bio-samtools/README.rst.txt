@@ -25,11 +25,8 @@ perl-bio-samtools
    :versions: 1.43-1, 1.43-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-bioperl-core: 
-   
    :depends zlib: >=1.2.11,<1.3.0a0
-   
    :requirements:
 
    .. rubric:: Installation

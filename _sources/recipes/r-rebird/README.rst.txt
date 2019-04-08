@@ -25,15 +25,10 @@ r-rebird
    :versions: 1.0.0-1, 1.0.0-0, 0.5.0-2, 0.4.0-0
    
    :depends r-assertthat: 
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-httr: >=1.0.0
-   
    :depends r-jsonlite: 
-   
    :requirements:
 
    .. rubric:: Installation

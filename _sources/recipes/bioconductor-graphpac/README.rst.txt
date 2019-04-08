@@ -26,15 +26,10 @@ bioconductor-graphpac
    :versions: 1.24.0-0, 1.22.1-0, 1.20.0-0
    
    :depends bioconductor-ipac: >=1.26.0,<1.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-igraph: 
-   
    :depends r-rmallow: 
-   
    :depends r-tsp: 
-   
    :requirements:
 
    .. rubric:: Installation

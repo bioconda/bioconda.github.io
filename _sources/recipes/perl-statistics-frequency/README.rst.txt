@@ -25,7 +25,6 @@ perl-statistics-frequency
    :versions: 0.04-2, 0.04-1
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :requirements:
 
    .. rubric:: Installation

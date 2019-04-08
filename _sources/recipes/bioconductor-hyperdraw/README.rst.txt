@@ -26,13 +26,9 @@ bioconductor-hyperdraw
    :versions: 1.34.0-0, 1.32.0-0, 1.30.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   
    :depends bioconductor-hypergraph: >=1.54.0,<1.55.0
-   
    :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

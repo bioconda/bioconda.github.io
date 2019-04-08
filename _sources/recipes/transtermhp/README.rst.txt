@@ -25,7 +25,6 @@ transtermhp
    :versions: 2.09-1, 2.09-0
    
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

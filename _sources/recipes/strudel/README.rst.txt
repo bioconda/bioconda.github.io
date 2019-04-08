@@ -25,7 +25,6 @@ strudel
    :versions: 1.15.08.25-1, 1.15.08.25-0
    
    :depends openjdk: >=6,<9
-   
    :requirements:
 
    .. rubric:: Installation

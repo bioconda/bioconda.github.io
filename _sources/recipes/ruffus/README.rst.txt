@@ -25,7 +25,6 @@ ruffus
    :versions: 2.8.1-1, 2.8.1-0, 2.8-0, 2.7-0, 2.6.3-1, 2.6.3-0
    
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

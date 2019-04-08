@@ -25,15 +25,10 @@ perl-dist-checkconflicts
    :versions: 0.11-2, 0.11-0
    
    :depends perl: >=5.26.2,<5.27.0a0
-   
    :depends perl-base: 
-   
    :depends perl-carp: 
-   
    :depends perl-exporter: 
-   
    :depends perl-module-runtime: 
-   
    :requirements:
 
    .. rubric:: Installation

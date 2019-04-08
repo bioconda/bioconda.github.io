@@ -25,9 +25,7 @@ k-slam
    :versions: 1.0-1
    
    :depends boost: 1.64*
-   
    :depends libgcc: 
-   
    :requirements:
 
    .. rubric:: Installation

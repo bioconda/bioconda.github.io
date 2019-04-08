@@ -25,19 +25,12 @@ bio_hansel
    :versions: 2.1.1-0, 2.1.0-0, 2.0.0-1, 2.0.0-0, 1.3.2-0, 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.3-0, 1.1.1-0, 1.1.0-0, 0.2.0-1, 0.1.0-0
    
    :depends attrs: 
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends numpy: >=1.12.1
-   
    :depends pandas: >=0.20.1
-   
    :depends pyahocorasick: >=1.1.6
-   
    :depends python: >=3.6,<3.7.0a0
-   
    :requirements:
 
    .. rubric:: Installation

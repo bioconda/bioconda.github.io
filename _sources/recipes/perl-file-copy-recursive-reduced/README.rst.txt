@@ -25,9 +25,7 @@ perl-file-copy-recursive-reduced
    :versions: 0.006-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-file-path: 
-   
    :requirements:
 
    .. rubric:: Installation

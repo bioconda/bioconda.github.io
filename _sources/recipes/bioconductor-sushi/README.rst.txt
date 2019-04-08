@@ -26,11 +26,8 @@ bioconductor-sushi
    :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-zoo: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,33 +25,19 @@ makehub
    :versions: 1.0.3-0
    
    :depends augustus: >=3.3.1
-   
    :depends biopython: 
-   
    :depends python: >=3
-   
    :depends samtools: 
-   
    :depends ucsc-bedtobigbed: 
-   
    :depends ucsc-fatotwobit: 
-   
    :depends ucsc-genepredcheck: 
-   
    :depends ucsc-genepredtobed: 
-   
    :depends ucsc-genepredtobiggenepred: 
-   
    :depends ucsc-gtftogenepred: 
-   
    :depends ucsc-hggcpercent: 
-   
    :depends ucsc-ixixx: 
-   
    :depends ucsc-twobitinfo: 
-   
    :depends ucsc-wigtobigwig: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ mtnucratio
    :versions: 0.5-1
    
    :depends openjdk: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

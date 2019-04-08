@@ -25,7 +25,6 @@ bazam
    :versions: 1.0.1-0
    
    :depends openjdk: 
-   
    :requirements:
 
    .. rubric:: Installation

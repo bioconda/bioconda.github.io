@@ -26,13 +26,9 @@ sparcc
    :versions: 0.1.0-0
    
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends python: <3
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

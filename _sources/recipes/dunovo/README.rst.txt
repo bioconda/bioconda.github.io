@@ -25,19 +25,12 @@ dunovo
    :versions: 2.15-1, 2.15-0, 2.14-0, 2.0.12-0, 2.0.9-0, 2.0.8-0, 2.0.6-0, 0.8.1-0, 0.7.6-1, 0.7.6-0, 0.7.5-0, 0.7.4-0, 0.7.1-0, 0.7-0
    
    :depends bowtie: >=1.1.2
-   
    :depends gawk: 
-   
    :depends libgcc-ng: >=4.9
-   
    :depends mafft: 7.221.*
-   
    :depends networkx: <2.0
-   
    :depends paste: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,17 +25,11 @@ perl-test-file-contents
    :versions: 0.23-2, 0.23-1, 0.23-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-digest-md5: 
-   
    :depends perl-file-spec: 
-   
    :depends perl-test-pod: 
-   
    :depends perl-test-pod-coverage: 
-   
    :depends perl-text-diff: 
-   
    :requirements:
 
    .. rubric:: Installation

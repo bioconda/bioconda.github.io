@@ -25,7 +25,6 @@ perl-btlib
    :versions: 0.19-1, 0.19-0
    
    :depends perl: 5.22.0*
-   
    :requirements:
 
    .. rubric:: Installation

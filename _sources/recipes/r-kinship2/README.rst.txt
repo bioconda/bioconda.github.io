@@ -25,11 +25,8 @@ r-kinship2
    :versions: 1.6.4-3, 1.6.4-2, 1.6.4-1, 1.6.4-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-matrix: 
-   
    :depends r-quadprog: 
-   
    :requirements:
 
    .. rubric:: Installation

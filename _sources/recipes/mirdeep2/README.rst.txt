@@ -25,21 +25,13 @@ mirdeep2
    :versions: 2.0.0.8-5, 2.0.0.8-4, 2.0.0.8-3, 2.0.0.8-2, 2.0.0.8-1, 2.0.0.8-0, 2.0.0.7-8, 2.0.0.7-7, 2.0.0.7-6, 2.0.0.7-5, 2.0.0.7-4, 2.0.0.7-3, 2.0.0.7-2, 2.0.0.7-1
    
    :depends bowtie: 
-   
    :depends perl: 5.22.0*
-   
    :depends perl-compress-raw-zlib: 
-   
    :depends perl-font-ttf: 
-   
    :depends perl-lwp-simple: 
-   
    :depends perl-pdf-api2: 
-   
    :depends randfold: 
-   
    :depends viennarna: 
-   
    :requirements:
 
    .. rubric:: Installation

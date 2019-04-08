@@ -25,17 +25,11 @@ dupre
    :versions: 0.1-1, 0.1-0
    
    :depends h5py: 
-   
    :depends numpy: 
-   
    :depends pulp: 
-   
    :depends pysam: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :depends scipy: 
-   
    :requirements:
 
    .. rubric:: Installation

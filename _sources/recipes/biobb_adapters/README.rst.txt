@@ -56,11 +56,8 @@ biobb_adapters
    :versions: 0.1.4-0
    
    :depends cwltool: 
-   
    :depends jupyter: 
-   
    :depends python: >=3
-   
    :requirements:
 
    .. rubric:: Installation

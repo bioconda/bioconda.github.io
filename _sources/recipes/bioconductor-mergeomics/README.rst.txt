@@ -26,7 +26,6 @@ bioconductor-mergeomics
    :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :requirements:
 
    .. rubric:: Installation

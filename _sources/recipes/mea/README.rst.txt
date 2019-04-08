@@ -25,7 +25,6 @@ mea
    :versions: 0.6.4-2, 0.6.4-1
    
    :depends libstdcxx-ng: >=4.9
-   
    :requirements:
 
    .. rubric:: Installation

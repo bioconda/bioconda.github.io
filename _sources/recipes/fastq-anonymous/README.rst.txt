@@ -25,9 +25,7 @@ fastq-anonymous
    :versions: 1.0.1-1, 1.0.1-0
    
    :depends biopython: 
-   
    :depends python: >=3.5,<3.6.0a0
-   
    :requirements:
 
    .. rubric:: Installation

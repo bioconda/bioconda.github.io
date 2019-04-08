@@ -25,21 +25,13 @@ atactk
    :versions: 0.1.6-1, 0.1.6-0
    
    :depends pysam: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends python-levenshtein: 
-   
    :depends r-base: 
-   
    :depends r-ggplot2: 
-   
    :depends r-gtools: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends sexpdata: 
-   
    :requirements:
 
    .. rubric:: Installation

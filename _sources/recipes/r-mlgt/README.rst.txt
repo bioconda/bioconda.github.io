@@ -26,9 +26,7 @@ r-mlgt
    :versions: 0.16-0
    
    :depends r-base: 3.3.2*
-   
    :depends r-seqinr: 
-   
    :requirements:
 
    .. rubric:: Installation

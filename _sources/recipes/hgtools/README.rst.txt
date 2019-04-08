@@ -25,9 +25,7 @@ hgtools
    :versions: 8.1.1-0, 6.5.1-2, 6.5.1-0
    
    :depends backports.unittest_mock: 
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ ficus
    :versions: 0.5-2, 0.5-1, 0.5-0, 0.3-0
    
    :depends matplotlib: >=1.4
-   
    :depends python: 
-   
    :requirements:
 
    .. rubric:: Installation

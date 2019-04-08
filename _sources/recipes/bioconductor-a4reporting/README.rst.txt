@@ -26,11 +26,8 @@ bioconductor-a4reporting
    :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0
    
    :depends bioconductor-annaffy: >=1.54.0,<1.55.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-xtable: 
-   
    :requirements:
 
    .. rubric:: Installation

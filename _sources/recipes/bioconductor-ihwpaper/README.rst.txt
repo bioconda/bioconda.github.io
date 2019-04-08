@@ -25,39 +25,22 @@ bioconductor-ihwpaper
    :versions: 1.10.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   
    :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   
    :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   
    :depends bioconductor-ihw: >=1.10.0,<1.11.0
-   
    :depends bioconductor-qvalue: >=2.14.0,<2.15.0
-   
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   
    :depends libgcc-ng: >=7.3.0
-   
    :depends libstdcxx-ng: >=7.3.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cowplot: 
-   
    :depends r-dplyr: 
-   
    :depends r-fdrtool: 
-   
    :depends r-ggplot2: 
-   
    :depends r-rcpp: 
-   
    :depends wget: 
-   
    :requirements:
 
    .. rubric:: Installation

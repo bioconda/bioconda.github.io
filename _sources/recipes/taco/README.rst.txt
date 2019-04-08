@@ -25,11 +25,8 @@ taco
    :versions: 0.7.3-2, 0.7.3-0, v0.7.0-0
    
    :depends libgcc-ng: >=4.9
-   
    :depends pyinstaller: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :requirements:
 
    .. rubric:: Installation

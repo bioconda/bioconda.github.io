@@ -26,39 +26,22 @@ r-raceid
    :versions: 0.1.3-0, 0.1.1-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-coop: 
-   
    :depends r-fateid: 
-   
    :depends r-fpc: 
-   
    :depends r-ica: 
-   
    :depends r-igraph: 
-   
    :depends r-irlba: 
-   
    :depends r-locfit: 
-   
    :depends r-mass: 
-   
    :depends r-matrix: 
-   
    :depends r-pheatmap: 
-   
    :depends r-quadprog: 
-   
    :depends r-randomforest: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-rtsne: 
-   
    :depends r-vegan: 
-   
    :requirements:
 
    .. rubric:: Installation

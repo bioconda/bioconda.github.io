@@ -25,11 +25,8 @@ shapeshifter-cli
    :versions: 0.0.3-0
    
    :depends pandas: 
-   
    :depends python: >3
-   
    :depends shapeshifter: 
-   
    :requirements:
 
    .. rubric:: Installation

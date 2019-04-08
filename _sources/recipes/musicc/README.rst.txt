@@ -25,15 +25,10 @@ musicc
    :versions: 1.0.2-1, 1.0.2-0, 1.0.1-0
    
    :depends numpy: >=1.6.1
-   
    :depends pandas: >=0.14
-   
    :depends python: 
-   
    :depends scikit-learn: >=0.15.2
-   
    :depends scipy: >=0.9
-   
    :requirements:
 
    .. rubric:: Installation

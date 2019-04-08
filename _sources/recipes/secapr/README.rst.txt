@@ -25,41 +25,23 @@ secapr
    :versions: 1.1.15-1, 1.1.15-0, 1.1.14-0, 1.1.12-0, 1.1.10-2, 1.1.10-0, 1.1.9-0, 1.1.8-0, 1.1.7-0, 1.1.4-0, 1.1.0-0, 1.0.2-0, 1.0.1-0
    
    :depends abyss: 
-   
    :depends bcftools: 1.8
-   
    :depends biopython: 
-   
    :depends bwa: >=0.7
-   
    :depends cogent: 
-   
    :depends emboss: 
-   
    :depends fastqc: 
-   
    :depends lastz: 
-   
    :depends mafft: >=7.2
-   
    :depends muscle: 
-   
    :depends numpy: 
-   
    :depends pandas: 
-   
    :depends picard: 
-   
    :depends python: >=2.7,<2.8.0a0
-   
    :depends samtools: 0.1.19.*
-   
    :depends seqtk: >=1.0.82,<=1.2
-   
    :depends trimmomatic: 0.33
-   
    :depends trinity: <=2.3.2
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,9 +25,7 @@ perl-test-exec
    :versions: 0.04-1, 0.04-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-return-multilevel: 
-   
    :requirements:
 
    .. rubric:: Installation

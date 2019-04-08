@@ -26,29 +26,17 @@ bioconductor-icobra
    :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0
    
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-dplyr: 
-   
    :depends r-dt: 
-   
    :depends r-ggplot2: >=2.0.0
-   
    :depends r-reshape2: 
-   
    :depends r-rocr: 
-   
    :depends r-scales: 
-   
    :depends r-shiny: >=0.9.1.9008
-   
    :depends r-shinybs: 
-   
    :depends r-shinydashboard: 
-   
    :depends r-upsetr: 
-   
    :requirements:
 
    .. rubric:: Installation

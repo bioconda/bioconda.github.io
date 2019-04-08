@@ -25,15 +25,10 @@ kpal
    :versions: 2.1.1-1, 2.1.1-0
    
    :depends biopython: 
-   
    :depends future: 
-   
    :depends h5py: >=2.1
-   
    :depends python: 
-   
    :depends semantic_version: 
-   
    :requirements:
 
    .. rubric:: Installation

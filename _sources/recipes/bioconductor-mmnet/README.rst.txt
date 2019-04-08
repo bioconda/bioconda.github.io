@@ -26,33 +26,19 @@ bioconductor-mmnet
    :versions: 1.13.0-0
    
    :depends bioconductor-biobase: 
-   
    :depends bioconductor-keggrest: 
-   
    :depends r-base: 3.3.2*
-   
    :depends r-biom: 
-   
    :depends r-flexmix: 
-   
    :depends r-ggplot2: 
-   
    :depends r-igraph: 
-   
    :depends r-matrix: 
-   
    :depends r-plyr: 
-   
    :depends r-rcurl: 
-   
    :depends r-reshape2: 
-   
    :depends r-rjsonio: 
-   
    :depends r-stringr: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

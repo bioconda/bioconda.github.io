@@ -25,11 +25,8 @@ r-xmlrpc
    :versions: 0.2_4-0
    
    :depends r: 3.2.2*
-   
    :depends r-rcurl: 
-   
    :depends r-xml: 
-   
    :requirements:
 
    .. rubric:: Installation

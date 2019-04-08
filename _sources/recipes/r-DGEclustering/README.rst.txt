@@ -25,27 +25,16 @@ r-dgeclustering
    :versions: 0.1.0-0
    
    :depends bioconductor-annotationdbi: 
-   
    :depends bioconductor-clusterprofiler: 
-   
    :depends bioconductor-genomicfeatures: 
-   
    :depends bioconductor-gosemsim: 
-   
    :depends r-base: >=3.4.1,<3.4.2.0a0
-   
    :depends r-cluster: 
-   
    :depends r-factominer: 
-   
    :depends r-ggplot2: 
-   
    :depends r-intego: 
-   
    :depends r-reshape2: 
-   
    :depends r-rlist: 
-   
    :requirements:
 
    .. rubric:: Installation

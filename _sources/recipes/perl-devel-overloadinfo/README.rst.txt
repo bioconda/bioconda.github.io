@@ -25,15 +25,10 @@ perl-devel-overloadinfo
    :versions: 0.005-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-exporter: 
-   
    :depends perl-mro-compat: 
-   
    :depends perl-package-stash: 
-   
    :depends perl-sub-identify: 
-   
    :requirements:
 
    .. rubric:: Installation

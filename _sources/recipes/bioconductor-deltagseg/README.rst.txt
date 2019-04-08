@@ -25,23 +25,14 @@ bioconductor-deltagseg
    :versions: 1.22.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-changepoint: 
-   
    :depends r-fbasics: 
-   
    :depends r-ggplot2: 
-   
    :depends r-pvclust: 
-   
    :depends r-reshape: 
-   
    :depends r-scales: 
-   
    :depends r-tseries: 
-   
    :depends r-wavethresh: 
-   
    :requirements:
 
    .. rubric:: Installation

@@ -25,19 +25,12 @@ perl-path-class
    :versions: 0.37-1, 0.37-0, 0.36-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   
    :depends perl-carp: 
-   
    :depends perl-exporter: 
-   
    :depends perl-file-path: 
-   
    :depends perl-file-temp: 
-   
    :depends perl-parent: 
-   
    :depends perl-perl-ostype: 
-   
    :requirements:
 
    .. rubric:: Installation

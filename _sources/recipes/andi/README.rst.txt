@@ -26,11 +26,8 @@ andi
    :versions: 0.12-4, 0.12-3, 0.12-0, 0.11-1, 0.11-0, 0.10-0
    
    :depends gsl: >=2.4,<2.5.0a0
-   
    :depends libdivsufsort: 
-   
    :depends openblas: >=0.3.3,<0.3.4.0a0
-   
    :requirements:
 
    .. rubric:: Installation

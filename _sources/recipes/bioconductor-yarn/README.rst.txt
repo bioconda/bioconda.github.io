@@ -26,29 +26,17 @@ bioconductor-yarn
    :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   
    :depends bioconductor-edger: >=3.24.0,<3.25.0
-   
    :depends bioconductor-limma: >=3.38.0,<3.39.0
-   
    :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
-   
    :depends bioconductor-quantro: >=1.16.0,<1.17.0
-   
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   
    :depends r-downloader: 
-   
    :depends r-gplots: 
-   
    :depends r-matrixstats: 
-   
    :depends r-rcolorbrewer: 
-   
    :depends r-readr: 
-   
    :requirements:
 
    .. rubric:: Installation
