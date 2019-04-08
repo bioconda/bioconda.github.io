@@ -1,7 +1,10 @@
-bioconda\_utils.cli
-===================
+cli
+===
 
+
+.. currentmodule:: bioconda_utils.cli
 .. automodule:: bioconda_utils.cli
+   :members:
 
    
    
@@ -33,3 +36,6 @@ bioconda\_utils.cli
    
    
    
+
+
+   .. rubric:: Documentation

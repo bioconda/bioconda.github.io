@@ -1,7 +1,10 @@
-bioconda\_utils.bot.worker
-==========================
+worker
+======
 
+
+.. currentmodule:: bioconda_utils.bot.worker
 .. automodule:: bioconda_utils.bot.worker
+   :members:
 
    
    
@@ -29,3 +32,6 @@ bioconda\_utils.bot.worker
    
    
    
+
+
+   .. rubric:: Documentation

@@ -1,7 +1,10 @@
-bioconda\_utils.bot
-===================
+bot
+===
 
+
+.. currentmodule:: bioconda_utils.bot
 .. automodule:: bioconda_utils.bot
+   :members:
 
    
    
@@ -14,3 +17,6 @@ bioconda\_utils.bot
    
    
    
+
+
+   .. rubric:: Documentation

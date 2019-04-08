@@ -1,0 +1,435 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>bioconda_utils.bot.tasks &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../../index.html">
+    <img class="logo" src="../../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../updating.html">Updating recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../cb3.html">Conda build v3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../../../conda-recipe_index.html">Recipe Index</a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for bioconda_utils.bot.tasks</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Celery Tasks doing the actual work</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">types</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">namedtuple</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">TYPE_CHECKING</span>
+
+<span class="kn">from</span> <span class="nn">.worker</span> <span class="k">import</span> <span class="n">celery</span>
+<span class="kn">from</span> <span class="nn">.config</span> <span class="k">import</span> <span class="n">BOT_NAME</span><span class="p">,</span> <span class="n">BOT_EMAIL</span><span class="p">,</span> <span class="n">CIRCLE_TOKEN</span>
+<span class="kn">from</span> <span class="nn">..</span> <span class="k">import</span> <span class="n">utils</span>
+<span class="kn">from</span> <span class="nn">..recipe</span> <span class="k">import</span> <span class="n">Recipe</span>
+<span class="kn">from</span> <span class="nn">..githandler</span> <span class="k">import</span> <span class="n">TempBiocondaRepo</span>
+<span class="kn">from</span> <span class="nn">..githubhandler</span> <span class="k">import</span> <span class="n">CheckRunStatus</span><span class="p">,</span> <span class="n">CheckRunConclusion</span>
+<span class="kn">from</span> <span class="nn">..circleci</span> <span class="k">import</span> <span class="n">AsyncCircleAPI</span>
+
+<span class="k">if</span> <span class="n">TYPE_CHECKING</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">.worker</span> <span class="k">import</span> <span class="n">AsyncTask</span>
+    <span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">Dict</span>
+
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
+
+
+<span class="n">PRInfo</span> <span class="o">=</span> <span class="n">namedtuple</span><span class="p">(</span><span class="s1">&#39;PRInfo&#39;</span><span class="p">,</span> <span class="s1">&#39;installation user repo ref recipes issue_number&#39;</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="Checkout"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Checkout">[docs]</a><span class="k">class</span> <span class="nc">Checkout</span><span class="p">:</span>
+    <span class="c1"># We can&#39;t use contextlib.contextmanager because these are async and</span>
+    <span class="c1"># asyncontextmanager is only available in Python &gt;3.7</span>
+    <span class="sd">&quot;&quot;&quot;Async context manager checking out git repo</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">      ref: optional sha checksum to checkout (only if issue_number not given)</span>
+<span class="sd">      issue_number: optional issue number to checkout (only of ref not given)</span>
+
+<span class="sd">    Returns `None` if the checkout failed, otherwise the TempGitHandler object</span>
+
+<span class="sd">    &gt;&gt;&gt; with Checkout(ghapi, issue_number) as git:</span>
+<span class="sd">    &gt;&gt;&gt;   if git is None:</span>
+<span class="sd">    &gt;&gt;&gt;      print(&quot;checkout failed&quot;)</span>
+<span class="sd">    &gt;&gt;&gt;   else:</span>
+<span class="sd">    &gt;&gt;&gt;      for filename in git.list_changed_files():</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="n">ref</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">issue_number</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ghapi</span> <span class="o">=</span> <span class="n">ghapi</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">orig_cwd</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">git</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ref</span> <span class="o">=</span> <span class="n">ref</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">issue_number</span> <span class="o">=</span> <span class="n">issue_number</span>
+
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">__aenter__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">issue_number</span><span class="p">:</span>
+                <span class="n">prs</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">ghapi</span><span class="o">.</span><span class="n">get_prs</span><span class="p">(</span><span class="n">number</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">issue_number</span><span class="p">)</span>
+                <span class="n">fork_user</span> <span class="o">=</span> <span class="n">prs</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;user&#39;</span><span class="p">][</span><span class="s1">&#39;login&#39;</span><span class="p">]</span>
+                <span class="n">fork_repo</span> <span class="o">=</span> <span class="n">prs</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;repo&#39;</span><span class="p">][</span><span class="s1">&#39;name&#39;</span><span class="p">]</span>
+                <span class="n">branch_name</span> <span class="o">=</span> <span class="n">prs</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;ref&#39;</span><span class="p">]</span>
+                <span class="n">ref</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">fork_user</span> <span class="o">=</span> <span class="kc">None</span>
+                <span class="n">fork_repo</span> <span class="o">=</span> <span class="kc">None</span>
+                <span class="n">branch_name</span> <span class="o">=</span> <span class="s2">&quot;unknown&quot;</span>
+                <span class="n">ref</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">ref</span>
+
+            <span class="bp">self</span><span class="o">.</span><span class="n">git</span> <span class="o">=</span> <span class="n">TempBiocondaRepo</span><span class="p">(</span>
+                <span class="n">password</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">ghapi</span><span class="o">.</span><span class="n">token</span><span class="p">,</span>
+                <span class="n">home_user</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">ghapi</span><span class="o">.</span><span class="n">user</span><span class="p">,</span>
+                <span class="n">home_repo</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">ghapi</span><span class="o">.</span><span class="n">repo</span><span class="p">,</span>
+                <span class="n">fork_user</span><span class="o">=</span><span class="n">fork_user</span><span class="p">,</span>
+                <span class="n">fork_repo</span><span class="o">=</span><span class="n">fork_repo</span>
+            <span class="p">)</span>
+
+            <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">set_user</span><span class="p">(</span><span class="n">BOT_NAME</span><span class="p">,</span> <span class="n">BOT_EMAIL</span><span class="p">)</span>
+
+            <span class="bp">self</span><span class="o">.</span><span class="n">orig_cwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">chdir</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">tempdir</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+
+            <span class="n">branch</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">create_local_branch</span><span class="p">(</span><span class="n">branch_name</span><span class="p">,</span> <span class="n">ref</span><span class="p">)</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">branch</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Failed to find </span><span class="si">{branch_name}</span><span class="s2">:</span><span class="si">{ref}</span><span class="s2"> in </span><span class="si">{self.git}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">branch</span><span class="o">.</span><span class="n">checkout</span><span class="p">()</span>
+
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">git</span>
+        <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">exception</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Error while checking out with </span><span class="si">{self.ghapi}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="kc">None</span>
+
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">__aexit__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_exc_type</span><span class="p">,</span> <span class="n">_exc</span><span class="p">,</span> <span class="n">_tb</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">orig_cwd</span><span class="p">:</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">chdir</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">orig_cwd</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></div>
+
+
+<span class="nd">@celery</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="n">acks_late</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">ignore_result</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">get_latest_pr_commit</span><span class="p">(</span><span class="n">issue_number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Returns last commit&quot;&quot;&quot;</span>
+    <span class="n">commit</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;sha&#39;</span><span class="p">:</span> <span class="kc">None</span><span class="p">}</span>
+    <span class="k">async</span> <span class="k">for</span> <span class="n">commit</span> <span class="ow">in</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">iter_pr_commits</span><span class="p">(</span><span class="n">issue_number</span><span class="p">):</span>
+        <span class="k">pass</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Latest SHA on #</span><span class="si">%s</span><span class="s2"> is </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">commit</span><span class="p">[</span><span class="s1">&#39;sha&#39;</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">commit</span><span class="p">[</span><span class="s1">&#39;sha&#39;</span><span class="p">]</span>
+
+
+<span class="nd">@celery</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="n">acks_late</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">create_check_run</span><span class="p">(</span><span class="n">head_sha</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="n">recreate</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">head_sha</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Not creating check_run, SHA is None&quot;</span><span class="p">)</span>
+        <span class="k">return</span>
+    <span class="n">LINT_CHECK_NAME</span> <span class="o">=</span> <span class="s2">&quot;Linting Recipe(s)&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">recreate</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">check_run</span> <span class="ow">in</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">get_check_runs</span><span class="p">(</span><span class="n">head_sha</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">check_run</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="n">LINT_CHECK_NAME</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Check run for </span><span class="si">%s</span><span class="s2"> exists - not recreating&quot;</span><span class="p">,</span>
+                               <span class="n">head_sha</span><span class="p">)</span>
+                <span class="k">return</span>
+    <span class="n">check_run_number</span> <span class="o">=</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">create_check_run</span><span class="p">(</span><span class="n">LINT_CHECK_NAME</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Created check run </span><span class="si">%s</span><span class="s2"> for </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">check_run_number</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span>
+
+
+<span class="nd">@celery</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="n">acks_late</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">bump</span><span class="p">(</span><span class="n">issue_number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Bump the build number in each recipe&quot;&quot;&quot;</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Processing bump command: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">)</span>
+    <span class="k">async</span> <span class="k">with</span> <span class="n">Checkout</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="o">=</span><span class="n">issue_number</span><span class="p">)</span> <span class="k">as</span> <span class="n">git</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">git</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Failed to checkout&quot;</span><span class="p">)</span>
+            <span class="k">return</span>
+        <span class="n">recipes</span> <span class="o">=</span> <span class="n">git</span><span class="o">.</span><span class="n">get_changed_recipes</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">meta_fn</span> <span class="ow">in</span> <span class="n">recipes</span><span class="p">:</span>
+            <span class="n">recipe</span> <span class="o">=</span> <span class="n">Recipe</span><span class="o">.</span><span class="n">from_file</span><span class="p">(</span><span class="s1">&#39;recipes&#39;</span><span class="p">,</span> <span class="n">meta_fn</span><span class="p">)</span>
+            <span class="n">buildno</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s1">&#39;build&#39;</span><span class="p">][</span><span class="s1">&#39;number&#39;</span><span class="p">])</span> <span class="o">+</span> <span class="mi">1</span>
+            <span class="n">recipe</span><span class="o">.</span><span class="n">reset_buildnumber</span><span class="p">(</span><span class="n">buildno</span><span class="p">)</span>
+            <span class="n">recipe</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="n">f</span><span class="s2">&quot;Bump </span><span class="si">{recipe}</span><span class="s2"> buildno to </span><span class="si">{buildno}</span><span class="s2">&quot;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">git</span><span class="o">.</span><span class="n">commit_and_push_changes</span><span class="p">(</span><span class="n">recipes</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">sign</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Failed to push?!&quot;</span><span class="p">)</span>
+
+
+<span class="nd">@celery</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="n">acks_late</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">lint_check</span><span class="p">(</span><span class="n">check_run_number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">ref</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Execute linter</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">ref_label</span> <span class="o">=</span> <span class="n">ref</span><span class="p">[:</span><span class="mi">8</span><span class="p">]</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">ref</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">40</span> <span class="k">else</span> <span class="n">ref</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Starting lint check for </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">ref_label</span><span class="p">)</span>
+    <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">modify_check_run</span><span class="p">(</span><span class="n">check_run_number</span><span class="p">,</span> <span class="n">status</span><span class="o">=</span><span class="n">CheckRunStatus</span><span class="o">.</span><span class="n">in_progress</span><span class="p">)</span>
+
+    <span class="k">async</span> <span class="k">with</span> <span class="n">Checkout</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">ref</span><span class="o">=</span><span class="n">ref</span><span class="p">)</span> <span class="k">as</span> <span class="n">git</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">git</span><span class="p">:</span>
+            <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">modify_check_run</span><span class="p">(</span>
+                <span class="n">check_run_number</span><span class="p">,</span>
+                <span class="n">status</span><span class="o">=</span><span class="n">CheckRunStatus</span><span class="o">.</span><span class="n">completed</span><span class="p">,</span>
+                <span class="n">conclusion</span><span class="o">=</span><span class="n">CheckRunConclusion</span><span class="o">.</span><span class="n">cancelled</span><span class="p">,</span>
+                <span class="n">output_title</span><span class="o">=</span>
+                <span class="n">f</span><span class="s2">&quot;Failed to check out &quot;</span>
+                <span class="n">f</span><span class="s2">&quot;</span><span class="si">{ghapi.user}</span><span class="s2">/</span><span class="si">{ghapi.repo}</span><span class="s2">:</span><span class="si">{ref_label}</span><span class="s2">&quot;</span>
+            <span class="p">)</span>
+            <span class="k">return</span>
+
+        <span class="n">recipes</span> <span class="o">=</span> <span class="n">git</span><span class="o">.</span><span class="n">get_recipes_to_build</span><span class="p">()</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">recipes</span><span class="p">:</span>
+            <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">modify_check_run</span><span class="p">(</span>
+                <span class="n">check_run_number</span><span class="p">,</span>
+                <span class="n">status</span><span class="o">=</span><span class="n">CheckRunStatus</span><span class="o">.</span><span class="n">completed</span><span class="p">,</span>
+                <span class="n">conclusion</span><span class="o">=</span><span class="n">CheckRunConclusion</span><span class="o">.</span><span class="n">neutral</span><span class="p">,</span>
+                <span class="n">output_title</span><span class="o">=</span><span class="s2">&quot;No recipes modified&quot;</span><span class="p">,</span>
+                <span class="n">output_summary</span><span class="o">=</span>
+                <span class="s2">&quot;This branch does not modify any recipes! &quot;</span>
+                <span class="s2">&quot;Please make sure this is what you intend. Upon merge, &quot;</span>
+                <span class="s2">&quot;no packages would be built.&quot;</span>
+            <span class="p">)</span>
+            <span class="k">return</span>
+
+        <span class="c1"># Here we call the actual linter code</span>
+        <span class="n">utils</span><span class="o">.</span><span class="n">load_config</span><span class="p">(</span><span class="s1">&#39;config.yml&#39;</span><span class="p">)</span>
+        <span class="kn">from</span> <span class="nn">bioconda_utils.linting</span> <span class="k">import</span> <span class="n">lint</span> <span class="k">as</span> <span class="n">_lint</span><span class="p">,</span> <span class="n">LintArgs</span><span class="p">,</span> <span class="n">markdown_report</span>
+
+        <span class="c1"># Workaround celery/billiard messing with sys.exit</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">,</span> <span class="n">types</span><span class="o">.</span><span class="n">FunctionType</span><span class="p">):</span>
+            <span class="k">def</span> <span class="nf">new_exit</span><span class="p">(</span><span class="n">args</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+                <span class="k">raise</span> <span class="ne">SystemExit</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+            <span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">,</span> <span class="n">old_exit</span><span class="p">)</span> <span class="o">=</span> <span class="p">(</span><span class="n">new_exit</span><span class="p">,</span> <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">)</span>
+
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">df</span> <span class="o">=</span> <span class="n">_lint</span><span class="p">(</span><span class="n">recipes</span><span class="p">,</span> <span class="n">LintArgs</span><span class="p">())</span>
+            <span class="k">except</span> <span class="ne">SystemExit</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+                <span class="n">old_exit</span><span class="p">(</span><span class="n">exc</span><span class="o">.</span><span class="n">args</span><span class="p">)</span>
+            <span class="k">finally</span><span class="p">:</span>
+                <span class="n">sys</span><span class="o">.</span><span class="n">exit</span> <span class="o">=</span> <span class="n">old_exit</span>
+
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">df</span> <span class="o">=</span> <span class="n">_lint</span><span class="p">(</span><span class="n">recipes</span><span class="p">,</span> <span class="n">LintArgs</span><span class="p">())</span>
+
+    <span class="n">summary</span> <span class="o">=</span> <span class="s2">&quot;Linted recipes:</span><span class="se">\n</span><span class="s2">&quot;</span>
+    <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">recipes</span><span class="p">:</span>
+        <span class="n">summary</span> <span class="o">+=</span> <span class="s2">&quot; - `</span><span class="si">{}</span><span class="s2">`</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+    <span class="n">summary</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
+    <span class="n">annotations</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">if</span> <span class="n">df</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">conclusion</span> <span class="o">=</span> <span class="n">CheckRunConclusion</span><span class="o">.</span><span class="n">success</span>
+        <span class="n">title</span> <span class="o">=</span> <span class="s2">&quot;All recipes in good condition&quot;</span>
+        <span class="n">summary</span> <span class="o">+=</span> <span class="s2">&quot;No problems found.&quot;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">conclusion</span> <span class="o">=</span> <span class="n">CheckRunConclusion</span><span class="o">.</span><span class="n">failure</span>
+        <span class="n">title</span> <span class="o">=</span> <span class="s2">&quot;Some recipes had problems&quot;</span>
+        <span class="n">summary</span> <span class="o">+=</span> <span class="s2">&quot;Please fix the issues listed below.&quot;</span>
+
+        <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+            <span class="n">check</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="s1">&#39;check&#39;</span><span class="p">]</span>
+            <span class="n">info</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="s1">&#39;info&#39;</span><span class="p">]</span>
+            <span class="n">recipe</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="s1">&#39;recipe&#39;</span><span class="p">]</span>
+            <span class="n">annotations</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+                <span class="s1">&#39;path&#39;</span><span class="p">:</span> <span class="n">recipe</span> <span class="o">+</span> <span class="s1">&#39;/meta.yaml&#39;</span><span class="p">,</span>
+                <span class="s1">&#39;start_line&#39;</span><span class="p">:</span> <span class="n">info</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;start_line&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+                <span class="s1">&#39;end_line&#39;</span><span class="p">:</span> <span class="n">info</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;end_line&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+                <span class="s1">&#39;annotation_level&#39;</span><span class="p">:</span> <span class="s1">&#39;failure&#39;</span><span class="p">,</span>
+                <span class="s1">&#39;title&#39;</span><span class="p">:</span> <span class="n">check</span><span class="p">,</span>
+                <span class="s1">&#39;message&#39;</span><span class="p">:</span> <span class="n">info</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;fix&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">str</span><span class="p">(</span><span class="n">info</span><span class="p">)</span>
+            <span class="p">})</span>
+
+    <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">modify_check_run</span><span class="p">(</span>
+        <span class="n">check_run_number</span><span class="p">,</span>
+        <span class="n">status</span><span class="o">=</span><span class="n">CheckRunStatus</span><span class="o">.</span><span class="n">completed</span><span class="p">,</span>
+        <span class="n">conclusion</span><span class="o">=</span><span class="n">conclusion</span><span class="p">,</span>
+        <span class="n">output_title</span><span class="o">=</span><span class="n">title</span><span class="p">,</span>
+        <span class="n">output_summary</span><span class="o">=</span><span class="n">summary</span><span class="p">,</span>
+        <span class="n">output_text</span><span class="o">=</span><span class="n">markdown_report</span><span class="p">(</span><span class="n">df</span><span class="p">),</span>
+        <span class="n">output_annotations</span><span class="o">=</span><span class="n">annotations</span><span class="p">)</span>
+
+
+<span class="nd">@celery</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="n">acks_late</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">check_circle_artifacts</span><span class="p">(</span><span class="n">pr_number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">):</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Starting check for artifacts on #</span><span class="si">%s</span><span class="s2"> as of </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span>
+    <span class="n">pr</span> <span class="o">=</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">get_prs</span><span class="p">(</span><span class="n">number</span><span class="o">=</span><span class="n">pr_number</span><span class="p">)</span>
+    <span class="n">head_ref</span> <span class="o">=</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;ref&#39;</span><span class="p">]</span>
+    <span class="n">head_sha</span> <span class="o">=</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;sha&#39;</span><span class="p">]</span>
+    <span class="n">head_user</span> <span class="o">=</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;repo&#39;</span><span class="p">][</span><span class="s1">&#39;owner&#39;</span><span class="p">][</span><span class="s1">&#39;login&#39;</span><span class="p">]</span>
+
+    <span class="n">capi</span> <span class="o">=</span> <span class="n">AsyncCircleAPI</span><span class="p">(</span><span class="n">ghapi</span><span class="o">.</span><span class="n">session</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">head_user</span> <span class="o">==</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">user</span><span class="p">:</span>
+        <span class="n">path</span> <span class="o">=</span> <span class="n">head_ref</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">path</span> <span class="o">=</span> <span class="s2">&quot;pull/</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pr_number</span><span class="p">)</span>
+
+    <span class="n">capi</span><span class="o">.</span><span class="n">debug_once</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="n">recent_builds</span> <span class="o">=</span> <span class="k">await</span> <span class="n">capi</span><span class="o">.</span><span class="n">list_recent_builds</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+
+    <span class="n">current_builds</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">build</span><span class="p">[</span><span class="s2">&quot;build_num&quot;</span><span class="p">]</span>
+        <span class="k">for</span> <span class="n">build</span> <span class="ow">in</span> <span class="n">recent_builds</span>
+        <span class="k">if</span> <span class="n">build</span><span class="p">[</span><span class="s2">&quot;vcs_revision&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">head_sha</span>
+    <span class="p">]</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Found builds </span><span class="si">%s</span><span class="s2"> for #</span><span class="si">%s</span><span class="s2"> (</span><span class="si">%s</span><span class="s2"> total)&quot;</span><span class="p">,</span> <span class="n">current_builds</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">recent_builds</span><span class="p">))</span>
+
+    <span class="n">artifacts</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">buildno</span> <span class="ow">in</span> <span class="n">current_builds</span><span class="p">:</span>
+        <span class="n">artifacts</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="k">await</span> <span class="n">capi</span><span class="o">.</span><span class="n">list_artifacts</span><span class="p">(</span><span class="n">buildno</span><span class="p">))</span>
+
+    <span class="n">packages</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">archs</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">artifact</span> <span class="ow">in</span> <span class="n">artifacts</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">artifact</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;.tar.bz2&quot;</span><span class="p">):</span>
+            <span class="n">base</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">fname</span> <span class="o">=</span> <span class="n">artifact</span><span class="o">.</span><span class="n">rpartition</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
+            <span class="n">repo</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">arch</span> <span class="o">=</span> <span class="n">base</span><span class="o">.</span><span class="n">rpartition</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">base</span> <span class="o">+</span> <span class="s2">&quot;/repodata.json&quot;</span> <span class="ow">in</span> <span class="n">artifacts</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">repo</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">archs</span><span class="p">:</span>
+                    <span class="n">archs</span><span class="p">[</span><span class="n">repo</span><span class="p">]</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+                <span class="n">archs</span><span class="p">[</span><span class="n">repo</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">arch</span><span class="p">)</span>
+                <span class="n">packages</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">arch</span><span class="p">,</span> <span class="n">fname</span><span class="p">,</span> <span class="n">artifact</span><span class="p">,</span>
+                                 <span class="s2">&quot;[repodata.json](</span><span class="si">{}</span><span class="s2">/repodata.json)&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">base</span><span class="p">)))</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">packages</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">arch</span><span class="p">,</span> <span class="n">fname</span><span class="p">,</span> <span class="n">artifact</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">))</span>
+
+    <span class="n">tpl</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">jinja</span><span class="o">.</span><span class="n">get_template</span><span class="p">(</span><span class="s2">&quot;artifacts.md&quot;</span><span class="p">)</span>
+    <span class="n">msg</span> <span class="o">=</span> <span class="n">tpl</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="n">packages</span><span class="o">=</span><span class="n">packages</span><span class="p">,</span> <span class="n">archs</span><span class="o">=</span><span class="n">archs</span><span class="p">,</span>
+                     <span class="n">current_builds</span><span class="o">=</span><span class="n">current_builds</span><span class="p">,</span> <span class="n">recent_builds</span><span class="o">=</span><span class="n">recent_builds</span><span class="p">)</span>
+    <span class="n">msg_head</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">msg</span><span class="o">.</span><span class="n">partition</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">async</span> <span class="k">for</span> <span class="n">comment</span> <span class="ow">in</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">iter_comments</span><span class="p">(</span><span class="n">pr_number</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">comment</span><span class="p">[</span><span class="s1">&#39;body&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">msg_head</span><span class="p">):</span>
+            <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">update_comment</span><span class="p">(</span><span class="n">comment</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">],</span> <span class="n">msg</span><span class="p">)</span>
+            <span class="k">break</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">create_comment</span><span class="p">(</span><span class="n">pr_number</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+
+
+<span class="nd">@celery</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="n">acks_late</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">trigger_circle_rebuild</span><span class="p">(</span><span class="n">pr_number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">):</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Triggering rebuild of #</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">)</span>
+    <span class="n">pr</span> <span class="o">=</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">get_prs</span><span class="p">(</span><span class="n">number</span><span class="o">=</span><span class="n">pr_number</span><span class="p">)</span>
+    <span class="n">head_ref</span> <span class="o">=</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;ref&#39;</span><span class="p">]</span>
+    <span class="n">head_sha</span> <span class="o">=</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;sha&#39;</span><span class="p">]</span>
+    <span class="n">head_user</span> <span class="o">=</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;repo&#39;</span><span class="p">][</span><span class="s1">&#39;owner&#39;</span><span class="p">][</span><span class="s1">&#39;login&#39;</span><span class="p">]</span>
+
+    <span class="n">capi</span> <span class="o">=</span> <span class="n">AsyncCircleAPI</span><span class="p">(</span><span class="n">ghapi</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="n">CIRCLE_TOKEN</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">head_user</span> <span class="o">==</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">user</span><span class="p">:</span>
+        <span class="n">path</span> <span class="o">=</span> <span class="n">head_ref</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">path</span> <span class="o">=</span> <span class="s2">&quot;pull/</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pr_number</span><span class="p">)</span>
+
+    <span class="n">capi</span><span class="o">.</span><span class="n">debug_once</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="k">await</span> <span class="n">capi</span><span class="o">.</span><span class="n">trigger_rebuild</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Trigger_rebuild call returned with </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">res</span><span class="p">)</span>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/bioconda_utils/bot/tasks.py" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

@@ -1,7 +1,10 @@
-bioconda\_utils.circleci
-========================
+circleci
+========
 
+
+.. currentmodule:: bioconda_utils.circleci
 .. automodule:: bioconda_utils.circleci
+   :members:
 
    
    
@@ -21,3 +24,6 @@ bioconda\_utils.circleci
    
    
    
+
+
+   .. rubric:: Documentation

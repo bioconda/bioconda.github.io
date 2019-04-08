@@ -1,7 +1,10 @@
-bioconda\_utils.githandler
-==========================
+githandler
+==========
 
+
+.. currentmodule:: bioconda_utils.githandler
 .. automodule:: bioconda_utils.githandler
+   :members:
 
    
    
@@ -31,3 +34,6 @@ bioconda\_utils.githandler
       GitHandlerFailure
    
    
+
+
+   .. rubric:: Documentation

@@ -1,7 +1,10 @@
-bioconda\_utils.bioconductor\_skeleton
-======================================
+bioconductor\_skeleton
+======================
 
+
+.. currentmodule:: bioconda_utils.bioconductor_skeleton
 .. automodule:: bioconda_utils.bioconductor_skeleton
+   :members:
 
    
    
@@ -44,3 +47,6 @@ bioconda\_utils.bioconductor\_skeleton
       PageNotFoundError
    
    
+
+
+   .. rubric:: Documentation

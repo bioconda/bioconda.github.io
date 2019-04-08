@@ -1,7 +1,10 @@
-bioconda\_utils.cran\_skeleton
-==============================
+cran\_skeleton
+==============
 
+
+.. currentmodule:: bioconda_utils.cran_skeleton
 .. automodule:: bioconda_utils.cran_skeleton
+   :members:
 
    
    
@@ -28,3 +31,6 @@ bioconda\_utils.cran\_skeleton
    
    
    
+
+
+   .. rubric:: Documentation

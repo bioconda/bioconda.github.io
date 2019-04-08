@@ -1,7 +1,10 @@
-bioconda\_utils.async
-=====================
+async
+=====
 
+
+.. currentmodule:: bioconda_utils.async
 .. automodule:: bioconda_utils.async
+   :members:
 
    
    
@@ -29,3 +32,6 @@ bioconda\_utils.async
       EndProcessingItem
    
    
+
+
+   .. rubric:: Documentation

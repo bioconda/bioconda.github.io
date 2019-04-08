@@ -1,7 +1,10 @@
-bioconda\_utils.recipe
-======================
+recipe
+======
 
+
+.. currentmodule:: bioconda_utils.recipe
 .. automodule:: bioconda_utils.recipe
+   :members:
 
    
    
@@ -39,3 +42,6 @@ bioconda\_utils.recipe
       RenderFailure
    
    
+
+
+   .. rubric:: Documentation

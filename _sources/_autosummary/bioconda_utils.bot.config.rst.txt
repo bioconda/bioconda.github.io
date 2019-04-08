@@ -1,7 +1,10 @@
-bioconda\_utils.bot.config
-==========================
+config
+======
 
+
+.. currentmodule:: bioconda_utils.bot.config
 .. automodule:: bioconda_utils.bot.config
+   :members:
 
    
    
@@ -20,3 +23,6 @@ bioconda\_utils.bot.config
    
    
    
+
+
+   .. rubric:: Documentation

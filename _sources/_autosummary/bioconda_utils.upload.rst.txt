@@ -1,7 +1,10 @@
-bioconda\_utils.upload
-======================
+upload
+======
 
+
+.. currentmodule:: bioconda_utils.upload
 .. automodule:: bioconda_utils.upload
+   :members:
 
    
    
@@ -21,3 +24,6 @@ bioconda\_utils.upload
    
    
    
+
+
+   .. rubric:: Documentation

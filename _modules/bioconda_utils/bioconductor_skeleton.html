@@ -1,0 +1,1198 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>bioconda_utils.bioconductor_skeleton &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../index.html">
+    <img class="logo" src="../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html">Updating recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../cb3.html">Conda build v3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../../conda-recipe_index.html">Recipe Index</a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for bioconda_utils.bioconductor_skeleton</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Conda Skeleton for Bioconductor Recipes</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">import</span> <span class="nn">shutil</span>
+<span class="kn">import</span> <span class="nn">tempfile</span>
+<span class="kn">import</span> <span class="nn">configparser</span>
+<span class="kn">from</span> <span class="nn">textwrap</span> <span class="k">import</span> <span class="n">dedent</span>
+<span class="kn">import</span> <span class="nn">tarfile</span>
+<span class="kn">import</span> <span class="nn">hashlib</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">OrderedDict</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+
+<span class="kn">import</span> <span class="nn">bs4</span>
+<span class="kn">import</span> <span class="nn">pyaml</span>
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">yaml</span>
+
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">utils</span>
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">cran_skeleton</span>
+
+<span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="s2">&quot;requests&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">setLevel</span><span class="p">(</span><span class="n">logging</span><span class="o">.</span><span class="n">WARNING</span><span class="p">)</span>
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">setup_logger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+
+<span class="n">base_url</span> <span class="o">=</span> <span class="s1">&#39;https://bioconductor.org/packages/&#39;</span>
+
+<span class="c1"># Packages that might be specified in the DESCRIPTION of a package as</span>
+<span class="c1"># dependencies, but since they&#39;re built-in we don&#39;t need to specify them in</span>
+<span class="c1"># the meta.yaml.</span>
+<span class="c1">#</span>
+<span class="c1"># Note: this list is from:</span>
+<span class="c1">#</span>
+<span class="c1">#   conda create -n rtest -c r r</span>
+<span class="c1">#   R -e &quot;rownames(installed.packages())&quot;</span>
+<span class="n">BASE_R_PACKAGES</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">,</span> <span class="s2">&quot;compiler&quot;</span><span class="p">,</span> <span class="s2">&quot;datasets&quot;</span><span class="p">,</span> <span class="s2">&quot;graphics&quot;</span><span class="p">,</span> <span class="s2">&quot;grDevices&quot;</span><span class="p">,</span>
+                   <span class="s2">&quot;grid&quot;</span><span class="p">,</span> <span class="s2">&quot;methods&quot;</span><span class="p">,</span> <span class="s2">&quot;parallel&quot;</span><span class="p">,</span> <span class="s2">&quot;splines&quot;</span><span class="p">,</span> <span class="s2">&quot;stats&quot;</span><span class="p">,</span> <span class="s2">&quot;stats4&quot;</span><span class="p">,</span>
+                   <span class="s2">&quot;tcltk&quot;</span><span class="p">,</span> <span class="s2">&quot;tools&quot;</span><span class="p">,</span> <span class="s2">&quot;utils&quot;</span><span class="p">]</span>
+
+<span class="n">HERE</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="PackageNotFoundError"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.PackageNotFoundError">[docs]</a><span class="k">class</span> <span class="nc">PackageNotFoundError</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
+    <span class="k">pass</span></div>
+
+
+<div class="viewcode-block" id="PageNotFoundError"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.PageNotFoundError">[docs]</a><span class="k">class</span> <span class="nc">PageNotFoundError</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
+    <span class="k">pass</span></div>
+
+
+<div class="viewcode-block" id="bioconductor_versions"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.bioconductor_versions">[docs]</a><span class="k">def</span> <span class="nf">bioconductor_versions</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Returns a list of available Bioconductor versions scraped from the</span>
+<span class="sd">    Bioconductor site.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;https://bioconductor.org/config.yaml&quot;</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+    <span class="n">bioc_config</span> <span class="o">=</span> <span class="n">yaml</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+    <span class="n">versions</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">bioc_config</span><span class="p">[</span><span class="s2">&quot;r_ver_for_bioc_ver&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+    <span class="n">versions</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">versions</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="nb">float</span><span class="p">,</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">versions</span></div>
+
+
+<div class="viewcode-block" id="latest_bioconductor_release_version"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.latest_bioconductor_release_version">[docs]</a><span class="k">def</span> <span class="nf">latest_bioconductor_release_version</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Latest Bioconductor release version.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">bioconductor_versions</span><span class="p">()[</span><span class="mi">1</span><span class="p">]</span></div>
+
+
+<div class="viewcode-block" id="latest_bioconductor_devel_version"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.latest_bioconductor_devel_version">[docs]</a><span class="k">def</span> <span class="nf">latest_bioconductor_devel_version</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Latest Bioconductor version in development.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">bioconductor_versions</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span></div>
+
+
+<div class="viewcode-block" id="bioconductor_tarball_url"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.bioconductor_tarball_url">[docs]</a><span class="k">def</span> <span class="nf">bioconductor_tarball_url</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Constructs a url for a package tarball</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    package : str</span>
+<span class="sd">        Case-sensitive Bioconductor package name</span>
+
+<span class="sd">    pkg_version : str</span>
+<span class="sd">        Bioconductor package version</span>
+
+<span class="sd">    bioc_version : str</span>
+<span class="sd">        Bioconductor release version</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="p">(</span>
+        <span class="s1">&#39;http://bioconductor.org/packages/</span><span class="si">{bioc_version}</span><span class="s1">&#39;</span>
+        <span class="s1">&#39;/bioc/src/contrib/</span><span class="si">{package}</span><span class="s1">_</span><span class="si">{pkg_version}</span><span class="s1">.tar.gz&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="o">**</span><span class="nb">locals</span><span class="p">())</span>
+    <span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="bioconductor_annotation_data_url"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.bioconductor_annotation_data_url">[docs]</a><span class="k">def</span> <span class="nf">bioconductor_annotation_data_url</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Constructs a url for an annotation package tarball</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    package : str</span>
+<span class="sd">        Case-sensitive Bioconductor package name</span>
+
+<span class="sd">    pkg_version : str</span>
+<span class="sd">        Bioconductor package version</span>
+
+<span class="sd">    bioc_version : str</span>
+<span class="sd">        Bioconductor release version</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="p">(</span>
+        <span class="s1">&#39;http://bioconductor.org/packages/</span><span class="si">{bioc_version}</span><span class="s1">&#39;</span>
+        <span class="s1">&#39;/data/annotation/src/contrib/</span><span class="si">{package}</span><span class="s1">_</span><span class="si">{pkg_version}</span><span class="s1">.tar.gz&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="o">**</span><span class="nb">locals</span><span class="p">())</span>
+    <span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="bioconductor_experiment_data_url"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.bioconductor_experiment_data_url">[docs]</a><span class="k">def</span> <span class="nf">bioconductor_experiment_data_url</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Constructs a url for an experiment data package tarball</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    package : str</span>
+<span class="sd">        Case-sensitive Bioconductor package name</span>
+
+<span class="sd">    pkg_version : str</span>
+<span class="sd">        Bioconductor package version</span>
+
+<span class="sd">    bioc_version : str</span>
+<span class="sd">        Bioconductor release version</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="p">(</span>
+        <span class="s1">&#39;http://bioconductor.org/packages/</span><span class="si">{bioc_version}</span><span class="s1">&#39;</span>
+        <span class="s1">&#39;/data/experiment/src/contrib/</span><span class="si">{package}</span><span class="s1">_</span><span class="si">{pkg_version}</span><span class="s1">.tar.gz&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="o">**</span><span class="nb">locals</span><span class="p">())</span>
+    <span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="bioarchive_url"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.bioarchive_url">[docs]</a><span class="k">def</span> <span class="nf">bioarchive_url</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Constructs a url for the package as archived on bioaRchive</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    package : str</span>
+<span class="sd">        Case-sensitive Bioconductor package name</span>
+
+<span class="sd">    pkg_version : str</span>
+<span class="sd">        Bioconductor package version</span>
+
+<span class="sd">    bioc_version : str</span>
+<span class="sd">        Bioconductor release version. Not used;, only included for API</span>
+<span class="sd">        compatibility with other url funcs</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="p">(</span>
+        <span class="s1">&#39;https://bioarchive.galaxyproject.org/</span><span class="si">{0}</span><span class="s1">_</span><span class="si">{1}</span><span class="s1">.tar.gz&#39;</span>
+        <span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">)</span>
+    <span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="cargoport_url"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.cargoport_url">[docs]</a><span class="k">def</span> <span class="nf">cargoport_url</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Constructs a url for the package as archived on the galaxy cargo-port</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    package : str</span>
+<span class="sd">        Case-sensitive Bioconductor package name</span>
+
+<span class="sd">    pkg_version : str</span>
+<span class="sd">        Bioconductor package version</span>
+
+<span class="sd">    bioc_version : str</span>
+<span class="sd">        Bioconductor release version. Not used;, only included for API</span>
+<span class="sd">        compatibility with other url funcs</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">package</span> <span class="o">=</span> <span class="n">package</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+    <span class="k">return</span> <span class="p">(</span>
+        <span class="s1">&#39;https://depot.galaxyproject.org/software/bioconductor-</span><span class="si">{0}</span><span class="s1">/bioconductor-</span><span class="si">{0}</span><span class="s1">_&#39;</span>
+        <span class="s1">&#39;</span><span class="si">{1}</span><span class="s1">_src_all.tar.gz&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">)</span>
+    <span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="find_best_bioc_version"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.find_best_bioc_version">[docs]</a><span class="k">def</span> <span class="nf">find_best_bioc_version</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">version</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Given a package version number, identifies which BioC version[s] it is in</span>
+<span class="sd">    and returns the latest.</span>
+
+<span class="sd">    If the package is not found, raises a PackageNotFound error.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    package :</span>
+<span class="sd">        Case-sensitive Bioconductor package name</span>
+
+<span class="sd">    version :</span>
+<span class="sd">        Bioconductor package version</span>
+
+<span class="sd">    Returns None if no valid package found.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">for</span> <span class="n">bioc_version</span> <span class="ow">in</span> <span class="n">bioconductor_versions</span><span class="p">():</span>
+        <span class="k">for</span> <span class="n">kind</span><span class="p">,</span> <span class="n">func</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span>
+            <span class="p">(</span><span class="s1">&#39;package&#39;</span><span class="p">,</span> <span class="s1">&#39;data&#39;</span><span class="p">),</span>
+            <span class="p">(</span>
+                <span class="n">bioconductor_tarball_url</span><span class="p">,</span> <span class="n">bioconductor_annotation_data_url</span><span class="p">,</span>
+                <span class="n">bioconductor_experiment_data_url</span><span class="p">,</span>
+            <span class="p">),</span>
+        <span class="p">):</span>
+            <span class="n">url</span> <span class="o">=</span> <span class="n">func</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">requests</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="n">url</span><span class="p">)</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;success: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">url</span><span class="p">)</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span>
+                    <span class="s1">&#39;A working URL for </span><span class="si">%s</span><span class="s1">==</span><span class="si">%s</span><span class="s1"> was identified for Bioconductor version </span><span class="si">%s</span><span class="s1">: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span>
+                    <span class="n">package</span><span class="p">,</span> <span class="n">version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">,</span> <span class="n">url</span><span class="p">)</span>
+                <span class="n">found_version</span> <span class="o">=</span> <span class="n">bioc_version</span>
+                <span class="k">return</span> <span class="n">found_version</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;missing: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">url</span><span class="p">)</span>
+    <span class="k">raise</span> <span class="n">PackageNotFoundError</span><span class="p">(</span>
+        <span class="s2">&quot;Cannot find any Bioconductor versions for </span><span class="si">{0}</span><span class="s2">==</span><span class="si">{1}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">version</span><span class="p">)</span>
+    <span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="fetchPackages"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.fetchPackages">[docs]</a><span class="k">def</span> <span class="nf">fetchPackages</span><span class="p">(</span><span class="n">bioc_version</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return a dictionary of all bioconductor packages in a given release::</span>
+
+<span class="sd">        {package: {Version: &quot;version&quot;,</span>
+<span class="sd">                   Depends: [list],</span>
+<span class="sd">                   Suggests: [list],</span>
+<span class="sd">                   MD5sum: &quot;hash&quot;,</span>
+<span class="sd">                   License: &quot;foo&quot;,</span>
+<span class="sd">                   Description: &quot;Something...&quot;,</span>
+<span class="sd">                   NeedsCompilation: boolean},</span>
+<span class="sd">                  ...</span>
+<span class="sd">        }</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">d</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+    <span class="n">packages_urls</span> <span class="o">=</span> <span class="p">[(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">base_url</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">,</span> <span class="s1">&#39;bioc&#39;</span><span class="p">,</span> <span class="s1">&#39;VIEWS&#39;</span><span class="p">),</span> <span class="s1">&#39;bioc&#39;</span><span class="p">),</span>
+                     <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">base_url</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">,</span> <span class="s1">&#39;data&#39;</span><span class="p">,</span> <span class="s1">&#39;annotation&#39;</span><span class="p">,</span> <span class="s1">&#39;VIEWS&#39;</span><span class="p">),</span> <span class="s1">&#39;data/annotation&#39;</span><span class="p">),</span>
+                     <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">base_url</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">,</span> <span class="s1">&#39;data&#39;</span><span class="p">,</span> <span class="s1">&#39;experiment&#39;</span><span class="p">,</span> <span class="s1">&#39;VIEWS&#39;</span><span class="p">),</span> <span class="s1">&#39;data/experiment&#39;</span><span class="p">)]</span>
+    <span class="k">for</span> <span class="n">url</span><span class="p">,</span> <span class="n">prefix</span> <span class="ow">in</span> <span class="n">packages_urls</span><span class="p">:</span>
+        <span class="n">req</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">req</span><span class="o">.</span><span class="n">ok</span><span class="p">:</span>
+            <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="s2">&quot;ERROR: Could not fetch </span><span class="si">{}</span><span class="s2">!</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">url</span><span class="p">))</span>
+        <span class="k">for</span> <span class="n">pkg</span> <span class="ow">in</span> <span class="n">req</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n\n</span><span class="s2">&quot;</span><span class="p">):</span>
+            <span class="n">pkgDict</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+            <span class="n">lastKey</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">pkg</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">):</span>
+                    <span class="n">pkgDict</span><span class="p">[</span><span class="n">lastKey</span><span class="p">]</span> <span class="o">+=</span> <span class="s2">&quot; </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+                    <span class="n">pkgDict</span><span class="p">[</span><span class="n">lastKey</span><span class="p">]</span> <span class="o">=</span> <span class="n">pkgDict</span><span class="p">[</span><span class="n">lastKey</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>  <span class="c1"># Prevent prepending a space when content begins on the next line</span>
+                <span class="k">elif</span> <span class="s2">&quot;:&quot;</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+                    <span class="n">idx</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s2">&quot;:&quot;</span><span class="p">)</span>
+                    <span class="n">lastKey</span> <span class="o">=</span> <span class="n">line</span><span class="p">[:</span><span class="n">idx</span><span class="p">]</span>
+                    <span class="n">pkgDict</span><span class="p">[</span><span class="n">lastKey</span><span class="p">]</span> <span class="o">=</span> <span class="n">line</span><span class="p">[</span><span class="n">idx</span> <span class="o">+</span> <span class="mi">2</span><span class="p">:]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+            <span class="n">pkgDict</span><span class="p">[</span><span class="s1">&#39;URLprefix&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">prefix</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+            <span class="n">d</span><span class="p">[</span><span class="n">pkgDict</span><span class="p">[</span><span class="s1">&#39;Package&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="n">pkgDict</span>
+    <span class="k">return</span> <span class="n">d</span></div>
+
+
+<span class="k">class</span> <span class="nc">BioCProjectPage</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">package</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">pkg_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">packages</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Represents a single Bioconductor package page and provides access to</span>
+<span class="sd">        scraped data.</span>
+<span class="sd">        &gt;&gt;&gt; x = BioCProjectPage(&#39;DESeq2&#39;)</span>
+<span class="sd">        &gt;&gt;&gt; x.tarball_url</span>
+<span class="sd">        &#39;http://bioconductor.org/packages/release/bioc/src/contrib/DESeq2_1.8.2.tar.gz&#39;</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">base_url</span> <span class="o">=</span> <span class="n">base_url</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">package</span> <span class="o">=</span> <span class="n">package</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">package_lower</span> <span class="o">=</span> <span class="n">package</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_md5</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_cached_tarball</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_dependencies</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">build_number</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">bioc_version</span> <span class="o">=</span> <span class="n">bioc_version</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_pkg_version</span> <span class="o">=</span> <span class="n">pkg_version</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_cargoport_url</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_bioarchive_url</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_tarball_url</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_bioconductor_tarball_url</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">is_data_package</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">package_lower</span> <span class="o">=</span> <span class="n">package</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">version</span> <span class="o">=</span> <span class="n">pkg_version</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">extra</span> <span class="o">=</span> <span class="kc">None</span>
+
+        <span class="c1"># If no version specified, assume the latest</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">:</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pkg_version</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">bioc_version</span> <span class="o">=</span> <span class="n">latest_bioconductor_release_version</span><span class="p">()</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">bioc_version</span> <span class="o">=</span> <span class="n">find_best_bioc_version</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pkg_version</span><span class="p">)</span>
+
+        <span class="c1"># Fetch a list of all packages, so dependency versions can be calculated</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">packages</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">packages</span> <span class="o">=</span> <span class="n">fetchPackages</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">packages</span> <span class="o">=</span> <span class="n">packages</span>
+
+        <span class="k">if</span> <span class="n">package</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">PackageNotFoundError</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1"> does not exist in this bioconductor release!&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">package</span><span class="p">))</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">pkg_version</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">version</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;Version&#39;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">depends_on_gcc</span> <span class="o">=</span> <span class="kc">False</span>
+
+        <span class="c1"># Determine the URL</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">base_url</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;URLprefix&#39;</span><span class="p">],</span> <span class="s1">&#39;html&#39;</span><span class="p">,</span> <span class="n">package</span> <span class="o">+</span> <span class="s1">&#39;.html&#39;</span><span class="p">)</span>
+        <span class="n">request</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">request</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">PageNotFoundError</span><span class="p">(</span>
+                <span class="s1">&#39;Could not find HTML page for </span><span class="si">{0.package}</span><span class="s1">. Tried: &#39;</span>
+                <span class="s1">&#39;</span><span class="si">{1}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">url</span><span class="p">))</span>
+
+        <span class="c1"># Since we provide the &quot;short link&quot; we will get redirected. Using</span>
+        <span class="c1"># requests allows us to keep track of the final destination URL,</span>
+        <span class="c1"># which we need for reconstructing the tarball URL.</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">url</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">url</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;URLprefix&#39;</span><span class="p">]</span> <span class="o">!=</span> <span class="s1">&#39;bioc&#39;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">is_data_package</span> <span class="o">=</span> <span class="kc">True</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">bioarchive_url</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Returns the bioaRchive URL if one exists for this version of this</span>
+<span class="sd">        package, otherwise returns None.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="n">bioarchive_url</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">)</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">url</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">cargoport_url</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Returns the Galaxy cargo-port URL for this version of this package, if</span>
+<span class="sd">        it exists.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="n">cargoport_url</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">)</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">404</span><span class="p">:</span>
+            <span class="c1"># This is expected if this is a new package or an updated version.</span>
+            <span class="c1"># Cargo Port will archive a working URL upon merging</span>
+            <span class="k">return</span>
+        <span class="k">elif</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">url</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">PageNotFoundError</span><span class="p">(</span>
+                <span class="s2">&quot;Unexpected error: </span><span class="si">{0.status_code}</span><span class="s2"> (</span><span class="si">{0.reason}</span><span class="s2">)&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">response</span><span class="p">))</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">bioconductor_tarball_url</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Return the url to the tarball from the bioconductor site.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">base_url</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;URLprefix&#39;</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;source.ver&#39;</span><span class="p">])</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">url</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">tarball_url</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_tarball_url</span><span class="p">:</span>
+            <span class="n">urls</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">bioconductor_tarball_url</span><span class="p">,</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">bioarchive_url</span><span class="p">,</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">cargoport_url</span><span class="p">]</span>
+            <span class="k">for</span> <span class="n">url</span> <span class="ow">in</span> <span class="n">urls</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">url</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+                    <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">_tarball_url</span> <span class="o">=</span> <span class="n">url</span>
+                        <span class="k">return</span> <span class="n">url</span>
+
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+                <span class="s1">&#39;No working URL for </span><span class="si">%s</span><span class="s1">==</span><span class="si">%s</span><span class="s1"> in Bioconductor </span><span class="si">%s</span><span class="s1">. &#39;</span>
+                <span class="s1">&#39;Tried the following:</span><span class="se">\n\t</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n\t</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">urls</span><span class="p">),</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">bioc_version</span>
+            <span class="p">)</span>
+
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_auto</span><span class="p">:</span>
+                <span class="n">find_best_bioc_version</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">version</span><span class="p">)</span>
+
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_tarball_url</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                    <span class="s2">&quot;No working URLs found for this version in any bioconductor version&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_tarball_url</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">tarball_basename</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tarball_url</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">cached_tarball</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Downloads the tarball to the `cached_bioconductor_tarballs` dir if one</span>
+<span class="sd">        hasn&#39;t already been downloaded for this package.</span>
+
+<span class="sd">        This is because we need the whole tarball to determine which compilers</span>
+<span class="sd">        are needed.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cached_tarball</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cached_tarball</span>
+        <span class="n">cache_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tempfile</span><span class="o">.</span><span class="n">gettempdir</span><span class="p">(),</span> <span class="s1">&#39;cached_bioconductor_tarballs&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">cache_dir</span><span class="p">):</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">cache_dir</span><span class="p">)</span>
+        <span class="n">fn</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cache_dir</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">tarball_basename</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">fn</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_cached_tarball</span> <span class="o">=</span> <span class="n">fn</span>
+            <span class="k">return</span> <span class="n">fn</span>
+        <span class="n">tmp</span> <span class="o">=</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">NamedTemporaryFile</span><span class="p">(</span><span class="n">delete</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">name</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">tmp</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fout</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Downloading </span><span class="si">{0}</span><span class="s1"> to </span><span class="si">{1}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tarball_url</span><span class="p">,</span> <span class="n">fn</span><span class="p">))</span>
+            <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tarball_url</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span><span class="p">:</span>
+                <span class="n">fout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="n">PageNotFoundError</span><span class="p">(</span>
+                    <span class="s1">&#39;Unexpected error </span><span class="si">{0.status_code}</span><span class="s1"> (</span><span class="si">{0.reason}</span><span class="s1">)&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">response</span><span class="p">))</span>
+        <span class="n">shutil</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">tmp</span><span class="p">,</span> <span class="n">fn</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_cached_tarball</span> <span class="o">=</span> <span class="n">fn</span>
+        <span class="k">return</span> <span class="n">fn</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">description</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        The &quot;Description&quot; from the VIEW file</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;Description&#39;</span><span class="p">]</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">license</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;License&#39;</span><span class="p">]</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">imports</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        List of &quot;imports&quot; from the VIEW file</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">return</span> <span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;Imports&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)]</span>
+        <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+            <span class="k">return</span> <span class="p">[]</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">systemrequirements</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        List of &quot;SystemRequirements&quot; from the VIEW file</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;SystemRequirements&#39;</span><span class="p">])</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;SystemRequirements&#39;</span><span class="p">]</span>
+        <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+            <span class="k">return</span> <span class="p">[]</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">depends</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        List of &quot;depends&quot; from the VIEW file</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">return</span> <span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;Depends&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)]</span>
+        <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+            <span class="k">return</span> <span class="p">[]</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">linkingto</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        List of &quot;linkingto&quot; from the VIEW file</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">return</span> <span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;LinkingTo&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)]</span>
+        <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+            <span class="k">return</span> <span class="p">[]</span>
+
+    <span class="k">def</span> <span class="nf">_parse_dependencies</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">items</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        The goal is to go from</span>
+
+<span class="sd">        [&#39;package1&#39;, &#39;package2&#39;, &#39;package3 (&gt;= 0.1)&#39;, &#39;package4&#39;]</span>
+
+<span class="sd">        to::</span>
+
+<span class="sd">            [</span>
+<span class="sd">                (&#39;package1&#39;, &quot;&quot;),</span>
+<span class="sd">                (&#39;package2&#39;, &quot;&quot;),</span>
+<span class="sd">                (&#39;package3&#39;, &quot; &gt;=0.1&quot;),</span>
+<span class="sd">                (&#39;package1&#39;, &quot;&quot;),</span>
+<span class="sd">            ]</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">results</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">items</span><span class="p">:</span>
+            <span class="n">toks</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">item</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;(&#39;</span><span class="p">)]</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">toks</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">toks</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s2">&quot;&quot;</span><span class="p">))</span>
+            <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">toks</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+                <span class="k">assert</span> <span class="s1">&#39;)&#39;</span> <span class="ow">in</span> <span class="n">toks</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+                <span class="n">toks</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">toks</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;)&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+                <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">tuple</span><span class="p">(</span><span class="n">toks</span><span class="p">))</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Found </span><span class="si">{0}</span><span class="s2"> toks: </span><span class="si">{1}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">toks</span><span class="p">),</span> <span class="n">toks</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">results</span>
+
+    <span class="k">def</span> <span class="nf">pin_version</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Given a package name, return the version pin string.</span>
+
+<span class="sd">        For example, if version 1.2.3 is in the current bioconductor release,</span>
+<span class="sd">        then return &gt;=1.2.0,&lt;1.3.0.</span>
+
+<span class="sd">        The following have 2 digit versions:</span>
+<span class="sd">          - BSgenome.Vvinifera.URGI.IGGP8X</span>
+<span class="sd">          - DO.db</span>
+<span class="sd">          - BSgenome.Vvinifera.URGI.IGGP12Xv0</span>
+<span class="sd">          - BSgenome.Vvinifera.URGI.IGGP12Xv2</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">v</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="n">name</span><span class="p">][</span><span class="s1">&#39;Version&#39;</span><span class="p">])</span>
+        <span class="c1"># There are a few packages with only major.minor versions!</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="n">v</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s2">&quot;&gt;=</span><span class="si">{}</span><span class="s2">.</span><span class="si">{}</span><span class="s2">.0,&lt;</span><span class="si">{}</span><span class="s2">.</span><span class="si">{}</span><span class="s2">.0&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="nb">int</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s2">&quot;</span><span class="si">{}</span><span class="s2">.</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">dependencies</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dependencies</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dependencies</span>
+
+        <span class="n">dependency_mapping</span> <span class="o">=</span> <span class="p">{}</span>
+
+        <span class="c1"># Sometimes a version is specified only in the `depends` and not in the</span>
+        <span class="c1"># `imports`. We keep the most specific version of each.</span>
+        <span class="n">version_specs</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span>
+            <span class="nb">set</span><span class="p">(</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_parse_dependencies</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">imports</span><span class="p">)</span> <span class="o">+</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_parse_dependencies</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">depends</span><span class="p">)</span> <span class="o">+</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_parse_dependencies</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">linkingto</span><span class="p">)</span>
+            <span class="p">)</span>
+        <span class="p">)</span>
+        <span class="n">specific_r_version</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="n">versions</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">version</span> <span class="ow">in</span> <span class="n">version_specs</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">versions</span><span class="p">:</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">versions</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="ow">and</span> <span class="n">version</span><span class="p">:</span>
+                    <span class="n">versions</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">version</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">versions</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">version</span>
+
+        <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">version</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">versions</span><span class="o">.</span><span class="n">items</span><span class="p">()):</span>
+            <span class="c1"># DESCRIPTION notes base R packages, but we don&#39;t need to specify</span>
+            <span class="c1"># them in the dependencies.</span>
+            <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">BASE_R_PACKAGES</span><span class="p">:</span>
+                <span class="k">continue</span>
+
+            <span class="c1"># Try finding the dependency on the bioconductor site; if it can&#39;t</span>
+            <span class="c1"># be found then we assume it&#39;s in CRAN.</span>
+            <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">:</span>
+                <span class="n">prefix</span> <span class="o">=</span> <span class="s1">&#39;bioconductor-&#39;</span>
+                <span class="n">version</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">pin_version</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">prefix</span> <span class="o">=</span> <span class="s1">&#39;r-&#39;</span>
+
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{0:&gt;12}</span><span class="s1"> dependency: name=&quot;</span><span class="si">{1}</span><span class="s1">&quot; version=&quot;</span><span class="si">{2}</span><span class="s1">&quot;&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                <span class="p">{</span><span class="s1">&#39;r-&#39;</span><span class="p">:</span> <span class="s1">&#39;R&#39;</span><span class="p">,</span> <span class="s1">&#39;bioconductor-&#39;</span><span class="p">:</span> <span class="s1">&#39;BioConductor&#39;</span><span class="p">}[</span><span class="n">prefix</span><span class="p">],</span>
+                <span class="n">name</span><span class="p">,</span> <span class="n">version</span><span class="p">))</span>
+
+            <span class="c1"># add padding to version string</span>
+            <span class="k">if</span> <span class="n">version</span><span class="p">:</span>
+                <span class="n">version</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">version</span>
+
+            <span class="c1"># Some packages define a minimum version of R. In that case, we add</span>
+            <span class="c1"># the dependency `r-base` for that version. Otherwise, R is</span>
+            <span class="c1"># implied, and we make sure that r-base is added as a dependency at</span>
+            <span class="c1"># the end.</span>
+            <span class="k">if</span> <span class="n">name</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s1">&#39;r&#39;</span><span class="p">:</span>
+
+                <span class="c1"># Had some issues with CONDA_R finding the right version if &quot;r&quot;</span>
+                <span class="c1"># had version restrictions. Since we&#39;re generally building</span>
+                <span class="c1"># up-to-date packages, we can just use &quot;r&quot;.</span>
+                <span class="c1">#</span>
+
+                <span class="c1"># # &quot;r &gt;=2.5&quot; rather than &quot;r-r &gt;=2.5&quot;</span>
+                <span class="n">specific_r_version</span> <span class="o">=</span> <span class="kc">True</span>
+                <span class="n">dependency_mapping</span><span class="p">[</span><span class="n">name</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">+</span> <span class="s1">&#39;-base&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;r-base&#39;</span>
+
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">dependency_mapping</span><span class="p">[</span><span class="n">prefix</span> <span class="o">+</span> <span class="n">name</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">+</span> <span class="n">version</span><span class="p">]</span> <span class="o">=</span> <span class="n">name</span>
+
+        <span class="c1"># Check SystemRequirements in the DESCRIPTION file to make sure</span>
+        <span class="c1"># packages with such reqquirements are provided correct recipes.</span>
+        <span class="k">if</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;SystemRequirements&#39;</span><span class="p">)</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span>
+                <span class="s2">&quot;The &#39;SystemRequirements&#39; </span><span class="si">{}</span><span class="s2"> are needed&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;SystemRequirements&#39;</span><span class="p">))</span> <span class="o">+</span>
+                <span class="s2">&quot; by the recipe for the package to work as intended.&quot;</span>
+            <span class="p">)</span>
+
+        <span class="k">if</span> <span class="p">(</span>
+            <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;NeedsCompilation&#39;</span><span class="p">,</span> <span class="s1">&#39;no&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="s1">&#39;yes&#39;</span><span class="p">)</span> <span class="ow">or</span>
+            <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;LinkingTo&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">)</span>
+        <span class="p">):</span>
+            <span class="c1"># Modified from conda_build.skeletons.cran</span>
+            <span class="c1">#</span>
+            <span class="k">with</span> <span class="n">tarfile</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cached_tarball</span><span class="p">)</span> <span class="k">as</span> <span class="n">tf</span><span class="p">:</span>
+                <span class="n">need_f</span> <span class="o">=</span> <span class="nb">any</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">endswith</span><span class="p">((</span><span class="s1">&#39;.f&#39;</span><span class="p">,</span> <span class="s1">&#39;.f90&#39;</span><span class="p">,</span> <span class="s1">&#39;.f77&#39;</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">tf</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">need_f</span><span class="p">:</span>
+                    <span class="n">need_c</span> <span class="o">=</span> <span class="kc">True</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">need_c</span> <span class="o">=</span> <span class="nb">any</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;.c&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">tf</span><span class="p">)</span>
+                <span class="n">need_cxx</span> <span class="o">=</span> <span class="nb">any</span><span class="p">(</span>
+                    <span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">endswith</span><span class="p">((</span><span class="s1">&#39;.cxx&#39;</span><span class="p">,</span> <span class="s1">&#39;.cpp&#39;</span><span class="p">,</span> <span class="s1">&#39;.cc&#39;</span><span class="p">,</span> <span class="s1">&#39;.c++&#39;</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">tf</span><span class="p">)</span>
+                <span class="n">need_autotools</span> <span class="o">=</span> <span class="nb">any</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;/configure&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">tf</span><span class="p">)</span>
+                <span class="k">if</span> <span class="nb">any</span><span class="p">((</span><span class="n">need_autotools</span><span class="p">,</span> <span class="n">need_f</span><span class="p">,</span> <span class="n">need_cxx</span><span class="p">,</span> <span class="n">need_c</span><span class="p">)):</span>
+                    <span class="n">need_make</span> <span class="o">=</span> <span class="kc">True</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">need_make</span> <span class="o">=</span> <span class="nb">any</span><span class="p">(</span>
+                        <span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">endswith</span><span class="p">((</span><span class="s1">&#39;/makefile&#39;</span><span class="p">,</span> <span class="s1">&#39;/makevars&#39;</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">tf</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">need_c</span> <span class="o">=</span> <span class="n">need_cxx</span> <span class="o">=</span> <span class="n">need_f</span> <span class="o">=</span> <span class="n">need_autotools</span> <span class="o">=</span> <span class="n">need_make</span> <span class="o">=</span> <span class="kc">False</span>
+
+        <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">version</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">versions</span><span class="o">.</span><span class="n">items</span><span class="p">()):</span>
+            <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Rcpp&#39;</span><span class="p">,</span> <span class="s1">&#39;RcppArmadillo&#39;</span><span class="p">]:</span>
+                <span class="n">need_cxx</span> <span class="o">=</span> <span class="kc">True</span>
+
+        <span class="k">if</span> <span class="n">need_cxx</span><span class="p">:</span>
+            <span class="n">need_c</span> <span class="o">=</span> <span class="kc">True</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_cb3_build_reqs</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">if</span> <span class="n">need_c</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_cb3_build_reqs</span><span class="p">[</span><span class="s1">&#39;c&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;{{ compiler(&#39;c&#39;) }}&quot;</span>
+        <span class="k">if</span> <span class="n">need_cxx</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_cb3_build_reqs</span><span class="p">[</span><span class="s1">&#39;cxx&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;{{ compiler(&#39;cxx&#39;) }}&quot;</span>
+        <span class="k">if</span> <span class="n">need_f</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_cb3_build_reqs</span><span class="p">[</span><span class="s1">&#39;fortran&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;{{ compiler(&#39;fortran&#39;) }}&quot;</span>
+        <span class="k">if</span> <span class="n">need_autotools</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_cb3_build_reqs</span><span class="p">[</span><span class="s1">&#39;automake&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;automake&#39;</span>
+        <span class="k">if</span> <span class="n">need_make</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_cb3_build_reqs</span><span class="p">[</span><span class="s1">&#39;make&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;make&#39;</span>
+
+        <span class="c1"># Add R itself</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">specific_r_version</span><span class="p">:</span>
+            <span class="n">dependency_mapping</span><span class="p">[</span><span class="s1">&#39;r-base&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;r-base&#39;</span>
+
+        <span class="c1"># Sometimes empty dependencies make it into the list from a trailing</span>
+        <span class="c1"># comma in DESCRIPTION; remove them here.</span>
+        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">dependency_mapping</span><span class="o">.</span><span class="n">keys</span><span class="p">()):</span>
+            <span class="k">if</span> <span class="n">k</span> <span class="o">==</span> <span class="s1">&#39;r-&#39;</span><span class="p">:</span>
+                <span class="n">dependency_mapping</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_dependencies</span> <span class="o">=</span> <span class="n">dependency_mapping</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dependencies</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">md5</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Calculate the md5 hash of the tarball so it can be filled into the</span>
+<span class="sd">        meta.yaml.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;MD5sum&#39;</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">pacified_description</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Linting will fail if GIT_, HG_, or SVN_ appear in the description.</span>
+<span class="sd">        This usually isn&#39;t an issue, except some microarray annotation packages</span>
+<span class="sd">        include HG_ in their summaries. The goal is to simply remove _ in such</span>
+<span class="sd">        cases.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">description</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;Description&#39;</span><span class="p">]</span>
+        <span class="k">for</span> <span class="n">vcs</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;HG&#39;</span><span class="p">,</span> <span class="s1">&#39;SVN&#39;</span><span class="p">,</span> <span class="s1">&#39;GIT&#39;</span><span class="p">]:</span>
+            <span class="n">description</span> <span class="o">=</span> <span class="n">description</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1">_&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">vcs</span><span class="p">),</span> <span class="s1">&#39;</span><span class="si">{}</span><span class="s1"> &#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">vcs</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">description</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">meta_yaml</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Build the meta.yaml string based on discovered values.</span>
+
+<span class="sd">        Here we use a nested OrderedDict so that all meta.yaml files created by</span>
+<span class="sd">        this script have the same consistent format. Otherwise we&#39;re at the</span>
+<span class="sd">        mercy of Python dict sorting.</span>
+
+<span class="sd">        We use pyaml (rather than yaml) because it has better handling of</span>
+<span class="sd">        OrderedDicts.</span>
+
+<span class="sd">        However pyaml does not support comments, but if there are gcc and llvm</span>
+<span class="sd">        dependencies then they need to be added with preprocessing selectors</span>
+<span class="sd">        for `# [linux]` and `# [osx]`.</span>
+
+<span class="sd">        We do this with a unique placeholder (not a jinja or $-based</span>
+<span class="sd">        string.Template) so as to avoid conflicting with the conda jinja</span>
+<span class="sd">        templating or the `$R` in the test commands, and replace the text once</span>
+<span class="sd">        the yaml is written.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">version_placeholder</span> <span class="o">=</span> <span class="s1">&#39;{{ version }}&#39;</span>
+        <span class="n">package_placeholder</span> <span class="o">=</span> <span class="s1">&#39;{{ name }}&#39;</span>
+        <span class="n">package_lower_placeholder</span> <span class="o">=</span> <span class="s1">&#39;{{ name|lower }}&#39;</span>
+        <span class="n">bioc_placeholder</span> <span class="o">=</span> <span class="s1">&#39;{{ bioc }}&#39;</span>
+
+        <span class="k">def</span> <span class="nf">sub_placeholders</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+            <span class="k">return</span> <span class="p">(</span>
+                <span class="n">x</span>
+                <span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="n">version_placeholder</span><span class="p">)</span>
+                <span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">,</span> <span class="n">package_placeholder</span><span class="p">)</span>
+                <span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">package_lower</span><span class="p">,</span> <span class="n">package_lower_placeholder</span><span class="p">)</span>
+                <span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">,</span> <span class="n">bioc_placeholder</span><span class="p">)</span>
+            <span class="p">)</span>
+
+        <span class="n">url</span> <span class="o">=</span> <span class="p">[</span>
+            <span class="n">sub_placeholders</span><span class="p">(</span><span class="n">u</span><span class="p">)</span> <span class="k">for</span> <span class="n">u</span> <span class="ow">in</span>
+            <span class="p">[</span>
+                <span class="c1"># keep the one that was found</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">bioconductor_tarball_url</span><span class="p">,</span>
+                <span class="c1"># use the built URL, regardless of whether it was found or not.</span>
+                <span class="c1"># bioaRchive and cargo-port cache packages but only after the</span>
+                <span class="c1"># first recipe is built.</span>
+                <span class="n">bioarchive_url</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">),</span>
+                <span class="n">cargoport_url</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">),</span>
+            <span class="p">]</span>
+            <span class="k">if</span> <span class="n">u</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+        <span class="p">]</span>
+
+        <span class="n">DEPENDENCIES</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dependencies</span><span class="p">)</span>
+
+        <span class="n">additional_run_deps</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_data_package</span><span class="p">:</span>
+            <span class="n">additional_run_deps</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;curl&#39;</span><span class="p">)</span>
+
+        <span class="n">d</span> <span class="o">=</span> <span class="n">OrderedDict</span><span class="p">((</span>
+            <span class="p">(</span>
+                <span class="s1">&#39;package&#39;</span><span class="p">,</span> <span class="n">OrderedDict</span><span class="p">((</span>
+                    <span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;bioconductor-{{ name|lower }}&#39;</span><span class="p">),</span>
+                    <span class="p">(</span><span class="s1">&#39;version&#39;</span><span class="p">,</span> <span class="s1">&#39;{{ version }}&#39;</span><span class="p">),</span>
+                <span class="p">)),</span>
+            <span class="p">),</span>
+            <span class="p">(</span>
+                <span class="s1">&#39;source&#39;</span><span class="p">,</span> <span class="n">OrderedDict</span><span class="p">((</span>
+                    <span class="p">(</span><span class="s1">&#39;url&#39;</span><span class="p">,</span> <span class="n">url</span><span class="p">),</span>
+                    <span class="p">(</span><span class="s1">&#39;md5&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">md5</span><span class="p">),</span>
+                <span class="p">)),</span>
+            <span class="p">),</span>
+            <span class="p">(</span>
+                <span class="s1">&#39;build&#39;</span><span class="p">,</span> <span class="n">OrderedDict</span><span class="p">((</span>
+                    <span class="p">(</span><span class="s1">&#39;number&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">build_number</span><span class="p">),</span>
+                    <span class="p">(</span><span class="s1">&#39;rpaths&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;lib/R/lib/&#39;</span><span class="p">,</span> <span class="s1">&#39;lib/&#39;</span><span class="p">]),</span>
+                <span class="p">)),</span>
+            <span class="p">),</span>
+            <span class="p">(</span>
+                <span class="s1">&#39;requirements&#39;</span><span class="p">,</span> <span class="n">OrderedDict</span><span class="p">((</span>
+                    <span class="c1"># If you don&#39;t make copies, pyaml sees these as the same</span>
+                    <span class="c1"># object and tries to make a shortcut, causing an error in</span>
+                    <span class="c1"># decoding unicode. Possible pyaml bug? Anyway, this fixes</span>
+                    <span class="c1"># it.</span>
+                    <span class="p">(</span><span class="s1">&#39;host&#39;</span><span class="p">,</span> <span class="n">DEPENDENCIES</span><span class="p">[:]),</span>
+                    <span class="p">(</span><span class="s1">&#39;run&#39;</span><span class="p">,</span> <span class="n">DEPENDENCIES</span><span class="p">[:]</span> <span class="o">+</span> <span class="n">additional_run_deps</span><span class="p">),</span>
+                <span class="p">)),</span>
+            <span class="p">),</span>
+            <span class="p">(</span>
+                <span class="s1">&#39;test&#39;</span><span class="p">,</span> <span class="n">OrderedDict</span><span class="p">((</span>
+                    <span class="p">(</span>
+                        <span class="s1">&#39;commands&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;&#39;&#39;$R -e &quot;library(&#39;{{ name }}&#39;)&quot;&#39;&#39;&#39;</span><span class="p">]</span>
+                    <span class="p">),</span>
+                <span class="p">)),</span>
+            <span class="p">),</span>
+            <span class="p">(</span>
+                <span class="s1">&#39;about&#39;</span><span class="p">,</span> <span class="n">OrderedDict</span><span class="p">((</span>
+                    <span class="p">(</span><span class="s1">&#39;home&#39;</span><span class="p">,</span> <span class="n">sub_placeholders</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">url</span><span class="p">)),</span>
+                    <span class="p">(</span><span class="s1">&#39;license&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">license</span><span class="p">),</span>
+                    <span class="p">(</span><span class="s1">&#39;summary&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">pacified_description</span><span class="p">()),</span>
+                <span class="p">)),</span>
+            <span class="p">),</span>
+        <span class="p">))</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">extra</span><span class="p">:</span>
+            <span class="n">d</span><span class="p">[</span><span class="s1">&#39;extra&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">extra</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cb3_build_reqs</span><span class="p">:</span>
+            <span class="n">d</span><span class="p">[</span><span class="s1">&#39;requirements&#39;</span><span class="p">][</span><span class="s1">&#39;build&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">d</span><span class="p">[</span><span class="s1">&#39;build&#39;</span><span class="p">][</span><span class="s1">&#39;noarch&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;generic&#39;</span>
+        <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cb3_build_reqs</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">d</span><span class="p">[</span><span class="s1">&#39;requirements&#39;</span><span class="p">][</span><span class="s1">&#39;build&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">k</span> <span class="o">+</span> <span class="s1">&#39;_&#39;</span> <span class="o">+</span> <span class="s2">&quot;PLACEHOLDER&quot;</span><span class="p">)</span>
+
+        <span class="n">rendered</span> <span class="o">=</span> <span class="n">pyaml</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mf">1e6</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+
+        <span class="c1"># Add Suggests: and SystemRequirements:</span>
+        <span class="n">renderedsplit</span> <span class="o">=</span> <span class="n">rendered</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="n">idx</span> <span class="o">=</span> <span class="n">renderedsplit</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;requirements:&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;SystemRequirements&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">):</span>
+            <span class="n">renderedsplit</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="s1">&#39;# SystemRequirements: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;SystemRequirements&#39;</span><span class="p">]))</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;Suggests&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">):</span>
+            <span class="n">renderedsplit</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="s1">&#39;# Suggests: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;Suggests&#39;</span><span class="p">]))</span>
+        <span class="n">rendered</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">renderedsplit</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span>
+
+        <span class="n">rendered</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="s1">&#39;{</span><span class="si">% s</span><span class="s1">et version = &quot;&#39;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">version</span> <span class="o">+</span> <span class="s1">&#39;&quot; %}</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="o">+</span>
+            <span class="s1">&#39;{</span><span class="si">% s</span><span class="s1">et name = &quot;&#39;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">package</span> <span class="o">+</span> <span class="s1">&#39;&quot; %}</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="o">+</span>
+            <span class="s1">&#39;{</span><span class="si">% s</span><span class="s1">et bioc = &quot;&#39;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">bioc_version</span> <span class="o">+</span> <span class="s1">&#39;&quot; %}</span><span class="se">\n\n</span><span class="s1">&#39;</span> <span class="o">+</span>
+            <span class="n">rendered</span>
+        <span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cb3_build_reqs</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">rendered</span> <span class="o">=</span> <span class="n">rendered</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">k</span> <span class="o">+</span> <span class="s1">&#39;_&#39;</span> <span class="o">+</span> <span class="s2">&quot;PLACEHOLDER&quot;</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span>
+
+        <span class="n">tmpdir</span> <span class="o">=</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">mkdtemp</span><span class="p">()</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tmpdir</span><span class="p">,</span> <span class="s1">&#39;meta.yaml&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fout</span><span class="p">:</span>
+            <span class="n">fout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">rendered</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">fout</span><span class="o">.</span><span class="n">name</span>
+
+
+<div class="viewcode-block" id="write_recipe_recursive"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.write_recipe_recursive">[docs]</a><span class="k">def</span> <span class="nf">write_recipe_recursive</span><span class="p">(</span><span class="n">proj</span><span class="p">,</span> <span class="n">seen_dependencies</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">force</span><span class="p">,</span>
+                           <span class="n">bioc_version</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">versioned</span><span class="p">,</span> <span class="n">recursive</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+
+<span class="sd">    proj : BioCProjectPage object</span>
+
+<span class="sd">    seen_dependencies : list</span>
+<span class="sd">        Dependencies to ignore</span>
+
+<span class="sd">    recipe_dir : str</span>
+<span class="sd">        Path to recipe dir</span>
+
+<span class="sd">    config : str</span>
+<span class="sd">        Path to recipes config file</span>
+
+<span class="sd">    force : bool</span>
+<span class="sd">        If True, any recipes that already exist will be overwritten.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1"> has dependencies: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">package</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">dependencies</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">conda_name</span><span class="p">,</span> <span class="n">cran_or_bioc_name</span> <span class="ow">in</span> <span class="n">proj</span><span class="o">.</span><span class="n">dependencies</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+
+        <span class="c1"># For now, this function is version-agnostic. so we strip out any</span>
+        <span class="c1"># version info when checking if we&#39;ve seen this dep before.</span>
+        <span class="n">conda_name_without_version</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39; &gt;=.*$&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">conda_name</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">conda_name</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;r-base&#39;</span><span class="p">):</span>
+            <span class="k">continue</span>
+
+        <span class="k">if</span> <span class="n">conda_name_without_version</span> <span class="ow">in</span> <span class="n">seen_dependencies</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span>
+                <span class="s2">&quot;</span><span class="si">{}</span><span class="s2"> already created or in existing channels, skipping&quot;</span>
+                <span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">conda_name_without_version</span><span class="p">))</span>
+            <span class="k">continue</span>
+
+        <span class="n">seen_dependencies</span><span class="o">.</span><span class="n">update</span><span class="p">([</span><span class="n">conda_name_without_version</span><span class="p">])</span>
+
+        <span class="k">if</span> <span class="n">conda_name_without_version</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;r-&#39;</span><span class="p">):</span>
+            <span class="n">writer</span> <span class="o">=</span> <span class="n">cran_skeleton</span><span class="o">.</span><span class="n">write_recipe</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">writer</span> <span class="o">=</span> <span class="n">write_recipe</span>
+        <span class="n">writer</span><span class="p">(</span>
+            <span class="n">package</span><span class="o">=</span><span class="n">cran_or_bioc_name</span><span class="p">,</span>
+            <span class="n">recipe_dir</span><span class="o">=</span><span class="n">recipe_dir</span><span class="p">,</span>
+            <span class="n">config</span><span class="o">=</span><span class="n">config</span><span class="p">,</span>
+            <span class="n">force</span><span class="o">=</span><span class="n">force</span><span class="p">,</span>
+            <span class="n">bioc_version</span><span class="o">=</span><span class="n">bioc_version</span><span class="p">,</span>
+            <span class="n">pkg_version</span><span class="o">=</span><span class="n">pkg_version</span><span class="p">,</span>
+            <span class="n">versioned</span><span class="o">=</span><span class="n">versioned</span><span class="p">,</span>
+            <span class="n">recursive</span><span class="o">=</span><span class="n">recursive</span><span class="p">,</span>
+            <span class="n">seen_dependencies</span><span class="o">=</span><span class="n">seen_dependencies</span><span class="p">,</span>
+        <span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="write_recipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.write_recipe">[docs]</a><span class="k">def</span> <span class="nf">write_recipe</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="n">pkg_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">versioned</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">recursive</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">seen_dependencies</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="n">packages</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">skip_if_in_channels</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Write the meta.yaml and build.sh files. If the package is detected to be</span>
+<span class="sd">    a data package (bsed on the detected URL from Bioconductor), then also</span>
+<span class="sd">    create a post-link.sh and pre-unlink.sh script that will download and</span>
+<span class="sd">    install the package.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+
+<span class="sd">    package : str</span>
+<span class="sd">        Bioconductor package name (case-sensitive)</span>
+
+<span class="sd">    recipe_dir : str</span>
+
+<span class="sd">    config : str or dict</span>
+
+<span class="sd">    force : bool</span>
+<span class="sd">        If True, then recipes will get overwritten. If **recursive** is also</span>
+<span class="sd">        True, *all* recipes created will get overwritten.</span>
+
+<span class="sd">    bioc_version : str</span>
+<span class="sd">        Version of Bioconductor to target</span>
+
+<span class="sd">    pkg_version : str</span>
+<span class="sd">        Force a particular package version</span>
+
+<span class="sd">    versioned : bool</span>
+<span class="sd">        If True, then make a subdirectory for this version</span>
+
+<span class="sd">    recursive : bool</span>
+<span class="sd">        If True, then also build any R or Bioconductor packages in the same</span>
+<span class="sd">        recipe directory.</span>
+
+<span class="sd">    seen_dependencies : set</span>
+<span class="sd">        Dependencies to skip and will be updated with any packages built by</span>
+<span class="sd">        this function. Used internally when ``recursive=True``.</span>
+
+<span class="sd">    packages : dict</span>
+<span class="sd">        A dictionary, as returned by fetchPackages(), of all packages in a</span>
+<span class="sd">        given bioconductor release and their versions.</span>
+
+<span class="sd">    skip_if_in_channels : list or None</span>
+<span class="sd">        List of channels whose existing packages will be automatically added to</span>
+<span class="sd">        **seen_dependencies**. Only has an effect if ``recursive=True``.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">config</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_config</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
+    <span class="n">proj</span> <span class="o">=</span> <span class="n">BioCProjectPage</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">packages</span><span class="o">=</span><span class="n">packages</span><span class="p">)</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Making recipe for: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">package</span><span class="p">))</span>
+
+    <span class="k">if</span> <span class="n">seen_dependencies</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">seen_dependencies</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+
+    <span class="k">if</span> <span class="n">recursive</span><span class="p">:</span>
+        <span class="c1"># get a list of existing packages in channels</span>
+        <span class="k">if</span> <span class="n">skip_if_in_channels</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="nb">set</span><span class="p">(</span><span class="n">utils</span><span class="o">.</span><span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">get_package_data</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">channels</span><span class="o">=</span><span class="n">skip_if_in_channels</span><span class="p">)):</span>
+                <span class="k">if</span> <span class="n">name</span><span class="o">.</span><span class="n">startswith</span><span class="p">((</span><span class="s1">&#39;r-&#39;</span><span class="p">,</span> <span class="s1">&#39;bioconductor-&#39;</span><span class="p">)):</span>
+                    <span class="n">seen_dependencies</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+
+        <span class="n">write_recipe_recursive</span><span class="p">(</span><span class="n">proj</span><span class="p">,</span> <span class="n">seen_dependencies</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span>
+                               <span class="n">force</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">versioned</span><span class="p">,</span>
+                               <span class="n">recursive</span><span class="p">)</span>
+
+    <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1">==</span><span class="si">%s</span><span class="s1">, BioC==</span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">package</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">)</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Using tarball from </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">tarball_url</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">versioned</span><span class="p">:</span>
+        <span class="n">recipe_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">,</span> <span class="s1">&#39;bioconductor-&#39;</span> <span class="o">+</span> <span class="n">proj</span><span class="o">.</span><span class="n">package</span><span class="o">.</span><span class="n">lower</span><span class="p">(),</span> <span class="n">proj</span><span class="o">.</span><span class="n">version</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">recipe_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">,</span> <span class="s1">&#39;bioconductor-&#39;</span> <span class="o">+</span> <span class="n">proj</span><span class="o">.</span><span class="n">package</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span>
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">)</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">force</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{0}</span><span class="s2"> already exists, aborting&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">))</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">):</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;creating </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">recipe_dir</span><span class="p">)</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">)</span>
+
+    <span class="c1"># If the version number has not changed but something else in the recipe</span>
+    <span class="c1"># *has* changed, then bump the version number.</span>
+    <span class="n">meta_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">,</span> <span class="s1">&#39;meta.yaml&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">meta_file</span><span class="p">):</span>
+        <span class="n">updated_meta</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_first_metadata</span><span class="p">(</span><span class="n">proj</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">,</span> <span class="n">finalize</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">meta</span>
+        <span class="n">current_meta</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_first_metadata</span><span class="p">(</span><span class="n">meta_file</span><span class="p">,</span> <span class="n">finalize</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">meta</span>
+
+        <span class="c1"># pop off the version and build numbers so we can compare the rest of</span>
+        <span class="c1"># the dicts</span>
+        <span class="n">updated_version</span> <span class="o">=</span> <span class="n">updated_meta</span><span class="p">[</span><span class="s1">&#39;package&#39;</span><span class="p">][</span><span class="s1">&#39;version&#39;</span><span class="p">]</span>
+        <span class="n">current_version</span> <span class="o">=</span> <span class="n">current_meta</span><span class="p">[</span><span class="s1">&#39;package&#39;</span><span class="p">][</span><span class="s1">&#39;version&#39;</span><span class="p">]</span>
+
+        <span class="c1"># updated_build_number = updated_meta[&#39;build&#39;].pop(&#39;number&#39;)</span>
+        <span class="n">current_build_number</span> <span class="o">=</span> <span class="n">current_meta</span><span class="p">[</span><span class="s1">&#39;build&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">&#39;number&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="p">(</span>
+            <span class="p">(</span><span class="n">updated_version</span> <span class="o">==</span> <span class="n">current_version</span><span class="p">)</span> <span class="ow">and</span>
+            <span class="p">(</span><span class="n">updated_meta</span> <span class="o">!=</span> <span class="n">current_meta</span><span class="p">)</span>
+        <span class="p">):</span>
+            <span class="n">proj</span><span class="o">.</span><span class="n">build_number</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">current_build_number</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="s1">&#39;extra&#39;</span> <span class="ow">in</span> <span class="n">current_meta</span><span class="p">:</span>
+            <span class="n">exclude</span> <span class="o">=</span> <span class="nb">set</span><span class="p">([</span><span class="s1">&#39;final&#39;</span><span class="p">,</span> <span class="s1">&#39;copy_test_source_files&#39;</span><span class="p">])</span>
+            <span class="n">proj</span><span class="o">.</span><span class="n">extra</span> <span class="o">=</span> <span class="p">{</span><span class="n">x</span><span class="p">:</span> <span class="n">y</span> <span class="k">for</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">current_meta</span><span class="p">[</span><span class="s1">&#39;extra&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">x</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">exclude</span><span class="p">}</span>
+
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">,</span> <span class="s1">&#39;meta.yaml&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fout</span><span class="p">:</span>
+        <span class="n">fout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="n">proj</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">proj</span><span class="o">.</span><span class="n">is_data_package</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">,</span> <span class="s1">&#39;build.sh&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fout</span><span class="p">:</span>
+            <span class="n">fout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">dedent</span><span class="p">(</span>
+                <span class="sd">&#39;&#39;&#39;\</span>
+<span class="sd">                #!/bin/bash</span>
+<span class="sd">                mv DESCRIPTION DESCRIPTION.old</span>
+<span class="sd">                grep -v &#39;^Priority: &#39; DESCRIPTION.old &gt; DESCRIPTION</span>
+<span class="sd">                mkdir -p ~/.R</span>
+<span class="sd">                echo -e &quot;CC=$CC</span>
+<span class="sd">                FC=$FC</span>
+<span class="sd">                CXX=$CXX</span>
+<span class="sd">                CXX98=$CXX</span>
+<span class="sd">                CXX11=$CXX</span>
+<span class="sd">                CXX14=$CXX&quot; &gt; ~/.R/Makevars</span>
+<span class="sd">                $R CMD INSTALL --build .&#39;&#39;&#39;</span>
+                <span class="p">)</span>
+            <span class="p">)</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">urls</span> <span class="o">=</span> <span class="p">[</span>
+            <span class="s1">&#39;&quot;</span><span class="si">{0}</span><span class="s1">&quot;&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">u</span><span class="p">)</span> <span class="k">for</span> <span class="n">u</span> <span class="ow">in</span> <span class="p">[</span>
+                <span class="n">proj</span><span class="o">.</span><span class="n">bioconductor_tarball_url</span><span class="p">,</span>
+                <span class="n">bioarchive_url</span><span class="p">(</span><span class="n">proj</span><span class="o">.</span><span class="n">package</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">),</span>
+                <span class="n">cargoport_url</span><span class="p">(</span><span class="n">proj</span><span class="o">.</span><span class="n">package</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">),</span>
+                <span class="n">proj</span><span class="o">.</span><span class="n">cargoport_url</span>
+            <span class="p">]</span>
+            <span class="k">if</span> <span class="n">u</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+        <span class="p">]</span>
+        <span class="n">urls</span> <span class="o">=</span> <span class="s1">&#39;  &#39;</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">  &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">urls</span><span class="p">)</span>
+        <span class="n">post_link_template</span> <span class="o">=</span> <span class="n">dedent</span><span class="p">(</span>
+            <span class="sd">&#39;&#39;&#39;\</span>
+<span class="sd">            #!/bin/bash</span>
+<span class="sd">            FN=&quot;{proj.tarball_basename}&quot;</span>
+<span class="sd">            URLS=(</span>
+<span class="sd">            &#39;&#39;&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">proj</span><span class="o">=</span><span class="n">proj</span><span class="p">))</span>
+
+        <span class="n">post_link_template</span> <span class="o">+=</span> <span class="n">urls</span>
+        <span class="n">post_link_template</span> <span class="o">+=</span> <span class="n">dedent</span><span class="p">(</span>
+            <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">            )</span>
+<span class="sd">            MD5=&quot;{proj.md5}&quot;</span>
+<span class="sd">            &#39;&#39;&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">proj</span><span class="o">=</span><span class="n">proj</span><span class="p">,</span> <span class="n">urls</span><span class="o">=</span><span class="n">urls</span><span class="p">))</span>
+        <span class="n">post_link_template</span> <span class="o">+=</span> <span class="n">dedent</span><span class="p">(</span>
+            <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">            # Use a staging area in the conda dir rather than temp dirs, both to avoid</span>
+<span class="sd">            # permission issues as well as to have things downloaded in a predictable</span>
+<span class="sd">            # manner.</span>
+<span class="sd">            STAGING=$PREFIX/share/$PKG_NAME-$PKG_VERSION-$PKG_BUILDNUM</span>
+<span class="sd">            mkdir -p $STAGING</span>
+<span class="sd">            TARBALL=$STAGING/$FN</span>
+
+<span class="sd">            SUCCESS=0</span>
+<span class="sd">            for URL in ${URLS[@]}; do</span>
+<span class="sd">              curl $URL &gt; $TARBALL</span>
+<span class="sd">              [[ $? == 0 ]] || continue</span>
+
+<span class="sd">              # Platform-specific md5sum checks.</span>
+<span class="sd">              if [[ $(uname -s) == &quot;Linux&quot; ]]; then</span>
+<span class="sd">                if md5sum -c &lt;&lt;&lt;&quot;$MD5  $TARBALL&quot;; then</span>
+<span class="sd">                  SUCCESS=1</span>
+<span class="sd">                  break</span>
+<span class="sd">                fi</span>
+<span class="sd">              else if [[ $(uname -s) == &quot;Darwin&quot; ]]; then</span>
+<span class="sd">                if [[ $(md5 $TARBALL | cut -f4 -d &quot; &quot;) == &quot;$MD5&quot; ]]; then</span>
+<span class="sd">                  SUCCESS=1</span>
+<span class="sd">                  break</span>
+<span class="sd">                fi</span>
+<span class="sd">              fi</span>
+<span class="sd">            fi</span>
+<span class="sd">            done</span>
+
+<span class="sd">            if [[ $SUCCESS != 1 ]]; then</span>
+<span class="sd">              echo &quot;ERROR: post-link.sh was unable to download any of the following URLs with the md5sum $MD5:&quot;</span>
+<span class="sd">              printf &#39;%s\\n&#39; &quot;${URLS[@]}&quot;</span>
+<span class="sd">              exit 1</span>
+<span class="sd">            fi</span>
+
+<span class="sd">            # Install and clean up</span>
+<span class="sd">            R CMD INSTALL --library=$PREFIX/lib/R/library $TARBALL</span>
+<span class="sd">            rm $TARBALL</span>
+<span class="sd">            rmdir $STAGING</span>
+<span class="sd">            &quot;&quot;&quot;</span><span class="p">)</span>  <span class="c1"># noqa: E501: line too long</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">,</span> <span class="s1">&#39;post-link.sh&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fout</span><span class="p">:</span>
+            <span class="n">fout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">dedent</span><span class="p">(</span><span class="n">post_link_template</span><span class="p">))</span>
+        <span class="n">pre_unlink_template</span> <span class="o">=</span> <span class="s2">&quot;R CMD REMOVE --library=$PREFIX/lib/R/library/ </span><span class="si">{0}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">package</span><span class="p">)</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">,</span> <span class="s1">&#39;pre-unlink.sh&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fout</span><span class="p">:</span>
+            <span class="n">fout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">pre_unlink_template</span><span class="p">)</span>
+
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Wrote recipe in </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">)</span></div>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/bioconda_utils/bioconductor_skeleton.py" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

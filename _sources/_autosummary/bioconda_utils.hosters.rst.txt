@@ -1,7 +1,10 @@
-bioconda\_utils.hosters
-=======================
+hosters
+=======
 
+
+.. currentmodule:: bioconda_utils.hosters
 .. automodule:: bioconda_utils.hosters
+   :members:
 
    
    
@@ -49,3 +52,6 @@ bioconda\_utils.hosters
    
    
    
+
+
+   .. rubric:: Documentation

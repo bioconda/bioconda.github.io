@@ -1,7 +1,10 @@
-bioconda\_utils.bot.web
-=======================
+web
+===
 
+
+.. currentmodule:: bioconda_utils.bot.web
 .. automodule:: bioconda_utils.bot.web
+   :members:
 
    
    
@@ -21,3 +24,6 @@ bioconda\_utils.bot.web
    
    
    
+
+
+   .. rubric:: Documentation

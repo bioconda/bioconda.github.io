@@ -1,7 +1,10 @@
-bioconda\_utils.lint\_functions
-===============================
+lint\_functions
+===============
 
+
+.. currentmodule:: bioconda_utils.lint_functions
 .. automodule:: bioconda_utils.lint_functions
+   :members:
 
    
    
@@ -40,3 +43,6 @@ bioconda\_utils.lint\_functions
    
    
    
+
+
+   .. rubric:: Documentation

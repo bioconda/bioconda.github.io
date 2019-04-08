@@ -1,0 +1,641 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>bioconda_utils.build &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../index.html">
+    <img class="logo" src="../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html">Updating recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../cb3.html">Conda build v3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../../conda-recipe_index.html">Recipe Index</a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for bioconda_utils.build</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Package Builder</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">subprocess</span> <span class="k">as</span> <span class="nn">sp</span>
+<span class="kn">from</span> <span class="nn">itertools</span> <span class="k">import</span> <span class="n">chain</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">defaultdict</span><span class="p">,</span> <span class="n">namedtuple</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+
+<span class="c1"># TODO: UnsatisfiableError is not yet in exports for conda 4.5.4</span>
+<span class="c1"># from conda.exports import UnsatisfiableError</span>
+<span class="kn">from</span> <span class="nn">conda.exceptions</span> <span class="k">import</span> <span class="n">UnsatisfiableError</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+<span class="kn">import</span> <span class="nn">pandas</span>
+
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">utils</span>
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">docker_utils</span>
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">pkg_test</span>
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">upload</span>
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">linting</span>
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">graph</span>
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+
+
+<span class="n">BuildResult</span> <span class="o">=</span> <span class="n">namedtuple</span><span class="p">(</span><span class="s2">&quot;BuildResult&quot;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;success&quot;</span><span class="p">,</span> <span class="s2">&quot;mulled_images&quot;</span><span class="p">])</span>
+
+
+<span class="k">def</span> <span class="nf">purge</span><span class="p">():</span>
+    <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">([</span><span class="s2">&quot;conda&quot;</span><span class="p">,</span> <span class="s2">&quot;build&quot;</span><span class="p">,</span> <span class="s2">&quot;purge&quot;</span><span class="p">],</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="n">free</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_free_space</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">free</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;CLEANING UP PACKAGE CACHE (free space: </span><span class="si">%i</span><span class="s2">MB).&quot;</span><span class="p">,</span> <span class="n">free</span><span class="p">)</span>
+        <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">([</span><span class="s2">&quot;conda&quot;</span><span class="p">,</span> <span class="s2">&quot;clean&quot;</span><span class="p">,</span> <span class="s2">&quot;--all&quot;</span><span class="p">],</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;CLEANED UP PACKAGE CACHE (free space: </span><span class="si">%i</span><span class="s2">MB).&quot;</span><span class="p">,</span>
+                    <span class="n">utils</span><span class="o">.</span><span class="n">get_free_space</span><span class="p">())</span>
+
+
+<div class="viewcode-block" id="build"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.build.html#bioconda_utils.build.build">[docs]</a><span class="k">def</span> <span class="nf">build</span><span class="p">(</span>
+    <span class="n">recipe</span><span class="p">,</span>
+    <span class="n">recipe_folder</span><span class="p">,</span>
+    <span class="n">pkg_paths</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">testonly</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">mulled_test</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+    <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">channels</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">docker_builder</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">_raise_error</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">lint_args</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+<span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Build a single recipe for a single env</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    recipe : str</span>
+<span class="sd">        Path to recipe</span>
+
+<span class="sd">    pkgs : list</span>
+<span class="sd">        List of packages to build</span>
+
+<span class="sd">    testonly : bool</span>
+<span class="sd">        If True, skip building and instead run the test described in the</span>
+<span class="sd">        meta.yaml.</span>
+
+<span class="sd">    mulled_test : bool</span>
+<span class="sd">        Test the built package in a minimal docker container</span>
+
+<span class="sd">    force : bool</span>
+<span class="sd">        If True, the recipe will be built even if it already exists. Note that</span>
+<span class="sd">        typically you&#39;d want to bump the build number rather than force</span>
+<span class="sd">        a build.</span>
+
+<span class="sd">    channels : list</span>
+<span class="sd">        Channels to include via the ``--channel`` argument to conda-build. Higher</span>
+<span class="sd">        priority channels should come first.</span>
+
+<span class="sd">    docker_builder : docker_utils.RecipeBuilder object</span>
+<span class="sd">        Use this docker builder to build the recipe, copying over the built</span>
+<span class="sd">        recipe to the host&#39;s conda-bld directory.</span>
+
+<span class="sd">    _raise_error : bool</span>
+<span class="sd">        Instead of returning a failed build result, raise the error instead.</span>
+<span class="sd">        Used for testing.</span>
+
+<span class="sd">    lint_args : linting.LintArgs | None</span>
+<span class="sd">        If not None, then apply linting just before building.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">if</span> <span class="n">lint_args</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Linting recipe&#39;</span><span class="p">)</span>
+        <span class="n">report</span> <span class="o">=</span> <span class="n">linting</span><span class="o">.</span><span class="n">lint</span><span class="p">([</span><span class="n">recipe</span><span class="p">],</span> <span class="n">lint_args</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">report</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">summarized</span> <span class="o">=</span> <span class="n">pandas</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
+                <span class="nb">dict</span><span class="p">(</span><span class="n">failed_tests</span><span class="o">=</span><span class="n">report</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;recipe&#39;</span><span class="p">)[</span><span class="s1">&#39;check&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">agg</span><span class="p">(</span><span class="s1">&#39;unique&#39;</span><span class="p">)))</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n\n</span><span class="s1">The following recipes failed linting. See &#39;</span>
+                         <span class="s1">&#39;https://bioconda.github.io/linting.html for details:</span><span class="se">\n\n</span><span class="si">%s</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span>
+                         <span class="n">summarized</span><span class="o">.</span><span class="n">to_string</span><span class="p">())</span>
+            <span class="k">return</span> <span class="n">BuildResult</span><span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+
+    <span class="c1"># Clean provided env and exisiting os.environ to only allow whitelisted env</span>
+    <span class="c1"># vars</span>
+    <span class="n">_docker</span> <span class="o">=</span> <span class="n">docker_builder</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+
+    <span class="n">whitelisted_env</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">whitelisted_env</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="n">k</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+                            <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
+                            <span class="k">if</span> <span class="n">utils</span><span class="o">.</span><span class="n">allowed_env_var</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">_docker</span><span class="p">)})</span>
+
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;BUILD START </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+
+    <span class="c1"># --no-build-id is needed for some very long package names that triggers</span>
+    <span class="c1"># the 89 character limits this option can be removed as soon as all</span>
+    <span class="c1"># packages are rebuild with the 255 character limit</span>
+    <span class="c1"># Moreover, --no-build-id will block us from using parallel builds in</span>
+    <span class="c1"># conda-build 2.x build_args = [&quot;--no-build-id&quot;]</span>
+
+    <span class="c1"># use global variant config file (contains pinnings)</span>
+    <span class="n">build_args</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;--skip-existing&quot;</span><span class="p">]</span>
+    <span class="n">build_args</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">if</span> <span class="n">testonly</span><span class="p">:</span>
+        <span class="n">build_args</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;--test&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">build_args</span> <span class="o">+=</span> <span class="p">[</span><span class="s2">&quot;--no-anaconda-upload&quot;</span><span class="p">]</span>
+
+    <span class="n">channel_args</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">if</span> <span class="n">channels</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">channels</span><span class="p">:</span>
+            <span class="n">channel_args</span> <span class="o">+=</span> <span class="p">[</span><span class="s1">&#39;--channel&#39;</span><span class="p">,</span> <span class="n">c</span><span class="p">]</span>
+
+    <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;build_args: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">build_args</span><span class="p">)</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;channel_args: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">channel_args</span><span class="p">)</span>
+
+    <span class="n">CONDA_BUILD_CMD</span> <span class="o">=</span> <span class="p">[</span><span class="n">utils</span><span class="o">.</span><span class="n">bin_for</span><span class="p">(</span><span class="s1">&#39;conda&#39;</span><span class="p">),</span> <span class="s1">&#39;build&#39;</span><span class="p">]</span>
+
+    <span class="c1"># Even though there may be variants of the recipe that will be built, we</span>
+    <span class="c1"># will only be checking attributes that are independent of variants (pkg</span>
+    <span class="c1"># name, version, noarch, whether or not an extended container was used)</span>
+    <span class="n">meta</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_first_metadata</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="c1"># Note we&#39;re not sending the contents of os.environ here. But we do</span>
+        <span class="c1"># want to add TRAVIS* vars if that behavior is not disabled.</span>
+        <span class="k">if</span> <span class="n">docker_builder</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+
+            <span class="n">docker_builder</span><span class="o">.</span><span class="n">build_recipe</span><span class="p">(</span>
+                <span class="n">recipe_dir</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">recipe</span><span class="p">),</span>
+                <span class="n">build_args</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">channel_args</span> <span class="o">+</span> <span class="n">build_args</span><span class="p">),</span>
+                <span class="n">env</span><span class="o">=</span><span class="n">whitelisted_env</span><span class="p">,</span>
+                <span class="n">noarch</span><span class="o">=</span><span class="nb">bool</span><span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;build/noarch&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+            <span class="p">)</span>
+
+            <span class="k">for</span> <span class="n">pkg_path</span> <span class="ow">in</span> <span class="n">pkg_paths</span><span class="p">:</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">pkg_path</span><span class="p">):</span>
+                    <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+                        <span class="s2">&quot;BUILD FAILED: the built package </span><span class="si">%s</span><span class="s2"> &quot;</span>
+                        <span class="s2">&quot;cannot be found&quot;</span><span class="p">,</span> <span class="n">pkg_path</span><span class="p">)</span>
+                    <span class="k">return</span> <span class="n">BuildResult</span><span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+
+            <span class="c1"># Temporarily reset os.environ to avoid leaking env vars to</span>
+            <span class="c1"># conda-build, and explicitly provide `env` to `run()`</span>
+            <span class="c1"># we explicitly point to the meta.yaml, in order to keep</span>
+            <span class="c1"># conda-build from building all subdirectories</span>
+            <span class="k">with</span> <span class="n">utils</span><span class="o">.</span><span class="n">sandboxed_env</span><span class="p">(</span><span class="n">whitelisted_env</span><span class="p">):</span>
+                <span class="n">cmd</span> <span class="o">=</span> <span class="n">CONDA_BUILD_CMD</span> <span class="o">+</span> <span class="n">build_args</span> <span class="o">+</span> <span class="n">channel_args</span>
+                <span class="k">for</span> <span class="n">config_file</span> <span class="ow">in</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_conda_build_config_files</span><span class="p">():</span>
+                    <span class="n">cmd</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="n">config_file</span><span class="o">.</span><span class="n">arg</span><span class="p">,</span> <span class="n">config_file</span><span class="o">.</span><span class="n">path</span><span class="p">])</span>
+                <span class="n">cmd</span> <span class="o">+=</span> <span class="p">[</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="s1">&#39;meta.yaml&#39;</span><span class="p">)]</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;command: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">cmd</span><span class="p">)</span>
+                <span class="k">with</span> <span class="n">utils</span><span class="o">.</span><span class="n">Progress</span><span class="p">():</span>
+                    <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">env</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;BUILD SUCCESS </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">p</span><span class="p">)</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">pkg_paths</span><span class="p">))</span>
+
+    <span class="k">except</span> <span class="p">(</span><span class="n">docker_utils</span><span class="o">.</span><span class="n">DockerCalledProcessError</span><span class="p">,</span> <span class="n">sp</span><span class="o">.</span><span class="n">CalledProcessError</span><span class="p">)</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;BUILD FAILED </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">_raise_error</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="n">e</span>
+            <span class="k">return</span> <span class="n">BuildResult</span><span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">mulled_test</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">BuildResult</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;TEST START via mulled-build </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+
+    <span class="n">use_base_image</span> <span class="o">=</span> <span class="n">meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;extra/container&#39;</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;extended-base&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+    <span class="n">base_image</span> <span class="o">=</span> <span class="s1">&#39;bioconda/extended-base-image&#39;</span> <span class="k">if</span> <span class="n">use_base_image</span> <span class="k">else</span> <span class="kc">None</span>
+
+    <span class="n">mulled_images</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">pkg_path</span> <span class="ow">in</span> <span class="n">pkg_paths</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">pkg_test</span><span class="o">.</span><span class="n">test_package</span><span class="p">(</span><span class="n">pkg_path</span><span class="p">,</span> <span class="n">base_image</span><span class="o">=</span><span class="n">base_image</span><span class="p">)</span>
+        <span class="k">except</span> <span class="n">sp</span><span class="o">.</span><span class="n">CalledProcessError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;TEST FAILED: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">BuildResult</span><span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;TEST SUCCESS </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+            <span class="n">mulled_images</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pkg_test</span><span class="o">.</span><span class="n">get_image_name</span><span class="p">(</span><span class="n">pkg_path</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">BuildResult</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">mulled_images</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="build_recipes"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.build.html#bioconda_utils.build.build_recipes">[docs]</a><span class="k">def</span> <span class="nf">build_recipes</span><span class="p">(</span>
+    <span class="n">recipe_folder</span><span class="p">,</span>
+    <span class="n">config</span><span class="p">,</span>
+    <span class="n">packages</span><span class="o">=</span><span class="s2">&quot;*&quot;</span><span class="p">,</span>
+    <span class="n">mulled_test</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+    <span class="n">testonly</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">docker_builder</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">label</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">anaconda_upload</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">mulled_upload_target</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">check_channels</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">lint_args</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+<span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Build one or many bioconda packages.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+
+<span class="sd">    recipe_folder : str</span>
+<span class="sd">        Directory containing possibly many, and possibly nested, recipes.</span>
+
+<span class="sd">    config : str or dict</span>
+<span class="sd">        If string, path to config file; if dict then assume it&#39;s an</span>
+<span class="sd">        already-parsed config file.</span>
+
+<span class="sd">    packages : str</span>
+<span class="sd">        Glob indicating which packages should be considered. Note that packages</span>
+<span class="sd">        matching the glob will still be filtered out by any blacklists</span>
+<span class="sd">        specified in the config.</span>
+
+<span class="sd">    mulled_test : bool</span>
+<span class="sd">        If True, then test the package in a minimal container.</span>
+
+<span class="sd">    testonly : bool</span>
+<span class="sd">        If True, only run test.</span>
+
+<span class="sd">    force : bool</span>
+<span class="sd">        If True, build the recipe even though it would otherwise be filtered</span>
+<span class="sd">        out.</span>
+
+<span class="sd">    docker_builder : docker_utils.RecipeBuilder instance</span>
+<span class="sd">        If not None, then use this RecipeBuilder to build all recipes.</span>
+
+<span class="sd">    label : str</span>
+<span class="sd">        Optional label to use when uploading packages. Useful for testing and</span>
+<span class="sd">        debugging. Default is to use the &quot;main&quot; label.</span>
+
+<span class="sd">    anaconda_upload :  bool</span>
+<span class="sd">        If True, upload the package to anaconda.org.</span>
+
+<span class="sd">    mulled_upload_target : None</span>
+<span class="sd">        If not None, upload the mulled docker image to the given target on quay.io.</span>
+
+<span class="sd">    check_channels : list</span>
+<span class="sd">        Channels to check to see if packages already exist in them. If None,</span>
+<span class="sd">        then defaults to every channel in the config file except &quot;defaults&quot;.</span>
+
+<span class="sd">    lint_args : linting.LintArgs | None</span>
+<span class="sd">        If not None, then apply linting just before building.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">orig_config</span> <span class="o">=</span> <span class="n">config</span>
+    <span class="n">config</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_config</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
+    <span class="n">blacklist</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_blacklist</span><span class="p">(</span><span class="n">config</span><span class="p">[</span><span class="s1">&#39;blacklists&#39;</span><span class="p">],</span> <span class="n">recipe_folder</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">check_channels</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">config</span><span class="p">[</span><span class="s1">&#39;channels&#39;</span><span class="p">]:</span>
+            <span class="n">check_channels</span> <span class="o">=</span> <span class="p">[</span><span class="n">c</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">config</span><span class="p">[</span><span class="s1">&#39;channels&#39;</span><span class="p">]</span> <span class="k">if</span> <span class="n">c</span> <span class="o">!=</span> <span class="s2">&quot;defaults&quot;</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">check_channels</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;blacklist: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">blacklist</span><span class="p">)))</span>
+
+    <span class="k">if</span> <span class="n">packages</span> <span class="o">==</span> <span class="s2">&quot;*&quot;</span><span class="p">:</span>
+        <span class="n">packages</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;*&quot;</span><span class="p">]</span>
+    <span class="n">recipes</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">package</span> <span class="ow">in</span> <span class="n">packages</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_recipes</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">package</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">relpath</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">)</span> <span class="ow">in</span> <span class="n">blacklist</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;blacklisted: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+                <span class="k">continue</span>
+            <span class="n">recipes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">recipes</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Nothing to be done.&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kc">True</span>
+
+    <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;recipes: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">recipes</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">lint_args</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">lint_exclude</span> <span class="o">=</span> <span class="p">(</span><span class="n">lint_args</span><span class="o">.</span><span class="n">exclude</span> <span class="ow">or</span> <span class="p">())</span>
+        <span class="k">if</span> <span class="s1">&#39;already_in_bioconda&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">lint_exclude</span><span class="p">:</span>
+            <span class="n">lint_exclude</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">lint_exclude</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="s1">&#39;already_in_bioconda&#39;</span><span class="p">,)</span>
+        <span class="n">lint_args</span> <span class="o">=</span> <span class="n">linting</span><span class="o">.</span><span class="n">LintArgs</span><span class="p">(</span><span class="n">lint_exclude</span><span class="p">,</span> <span class="n">lint_args</span><span class="o">.</span><span class="n">registry</span><span class="p">)</span>
+
+    <span class="n">dag</span><span class="p">,</span> <span class="n">name2recipes</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">build</span><span class="p">(</span><span class="n">recipes</span><span class="p">,</span> <span class="n">config</span><span class="o">=</span><span class="n">orig_config</span><span class="p">,</span> <span class="n">blacklist</span><span class="o">=</span><span class="n">blacklist</span><span class="p">)</span>
+    <span class="n">recipe2name</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">name2recipes</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">v</span><span class="p">:</span>
+            <span class="n">recipe2name</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">k</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">dag</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Nothing to be done.&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Building and testing </span><span class="si">%s</span><span class="s2"> recipes in total&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">dag</span><span class="p">))</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Recipes to build: </span><span class="se">\n</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">dag</span><span class="o">.</span><span class="n">nodes</span><span class="p">()))</span>
+
+    <span class="n">subdags_n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;SUBDAGS&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+    <span class="n">subdag_i</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;SUBDAG&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+
+    <span class="k">if</span> <span class="n">subdag_i</span> <span class="o">&gt;=</span> <span class="n">subdags_n</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+            <span class="s2">&quot;SUBDAG=</span><span class="si">%s</span><span class="s2"> (zero-based) but only SUBDAGS=</span><span class="si">%s</span><span class="s2"> &quot;</span>
+            <span class="s2">&quot;subdags are available&quot;</span><span class="p">)</span>
+
+    <span class="n">failed</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">skip_dependent</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
+
+    <span class="c1"># Get connected subdags and sort by nodes</span>
+    <span class="k">if</span> <span class="n">testonly</span><span class="p">:</span>
+        <span class="c1"># use each node as a subdag (they are grouped into equal sizes below)</span>
+        <span class="n">subdags</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">([[</span><span class="n">n</span><span class="p">]</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">nx</span><span class="o">.</span><span class="n">nodes</span><span class="p">(</span><span class="n">dag</span><span class="p">)])</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># take connected components as subdags, remove cycles</span>
+        <span class="n">subdags</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">cc_nodes</span> <span class="ow">in</span> <span class="n">nx</span><span class="o">.</span><span class="n">connected_components</span><span class="p">(</span><span class="n">dag</span><span class="o">.</span><span class="n">to_undirected</span><span class="p">()):</span>
+            <span class="n">cc</span> <span class="o">=</span> <span class="n">dag</span><span class="o">.</span><span class="n">subgraph</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">cc_nodes</span><span class="p">))</span>
+            <span class="n">nodes_in_cycles</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+            <span class="k">for</span> <span class="n">cycle</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">nx</span><span class="o">.</span><span class="n">simple_cycles</span><span class="p">(</span><span class="n">cc</span><span class="p">)):</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+                    <span class="s1">&#39;BUILD ERROR: &#39;</span>
+                    <span class="s1">&#39;dependency cycle found: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span>
+                    <span class="n">cycle</span><span class="p">,</span>
+                <span class="p">)</span>
+                <span class="n">nodes_in_cycles</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">cycle</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">nodes_in_cycles</span><span class="p">):</span>
+                <span class="n">cycle_fail_recipes</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">name2recipes</span><span class="p">[</span><span class="n">name</span><span class="p">])</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+                    <span class="s1">&#39;BUILD ERROR: &#39;</span>
+                    <span class="s1">&#39;cannot build recipes for </span><span class="si">%s</span><span class="s1"> since it cyclically depends &#39;</span>
+                    <span class="s1">&#39;on other packages in the current build job. Failed &#39;</span>
+                    <span class="s1">&#39;recipes: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span>
+                    <span class="n">name</span><span class="p">,</span> <span class="n">cycle_fail_recipes</span><span class="p">,</span>
+                <span class="p">)</span>
+                <span class="n">failed</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">cycle_fail_recipes</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">nx</span><span class="o">.</span><span class="n">algorithms</span><span class="o">.</span><span class="n">descendants</span><span class="p">(</span><span class="n">cc</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+                    <span class="k">if</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">nodes_in_cycles</span><span class="p">:</span>
+                        <span class="k">continue</span>  <span class="c1"># don&#39;t count packages twice (failed/skipped)</span>
+                    <span class="n">skip_dependent</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">cycle_fail_recipes</span><span class="p">)</span>
+            <span class="n">cc_without_cycles</span> <span class="o">=</span> <span class="n">dag</span><span class="o">.</span><span class="n">subgraph</span><span class="p">(</span>
+                <span class="n">name</span> <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">cc</span> <span class="k">if</span> <span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">nodes_in_cycles</span>
+            <span class="p">)</span>
+            <span class="c1"># ensure that packages which need a build are built in the right order</span>
+            <span class="n">subdags</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">nx</span><span class="o">.</span><span class="n">topological_sort</span><span class="p">(</span><span class="n">cc_without_cycles</span><span class="p">))</span>
+    <span class="c1"># chunk subdags such that we have at most subdags_n many</span>
+    <span class="k">if</span> <span class="n">subdags_n</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">subdags</span><span class="p">):</span>
+        <span class="n">chunks</span> <span class="o">=</span> <span class="p">[[</span><span class="n">n</span> <span class="k">for</span> <span class="n">subdag</span> <span class="ow">in</span> <span class="n">subdags</span><span class="p">[</span><span class="n">i</span><span class="p">::</span><span class="n">subdags_n</span><span class="p">]</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">subdag</span><span class="p">]</span>
+                  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">subdags_n</span><span class="p">)]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">chunks</span> <span class="o">=</span> <span class="n">subdags</span>
+    <span class="k">if</span> <span class="n">subdag_i</span> <span class="o">&gt;=</span> <span class="nb">len</span><span class="p">(</span><span class="n">chunks</span><span class="p">):</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Nothing to be done.&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="c1"># merge subdags of the selected chunk</span>
+    <span class="n">subdag</span> <span class="o">=</span> <span class="n">dag</span><span class="o">.</span><span class="n">subgraph</span><span class="p">(</span><span class="n">chunks</span><span class="p">[</span><span class="n">subdag_i</span><span class="p">])</span>
+
+
+    <span class="n">recipes</span> <span class="o">=</span> <span class="p">[</span><span class="n">recipe</span>
+               <span class="k">for</span> <span class="n">package</span> <span class="ow">in</span> <span class="n">subdag</span>
+               <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">name2recipes</span><span class="p">[</span><span class="n">package</span><span class="p">]]</span>
+
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span>
+        <span class="s2">&quot;Building and testing subdag </span><span class="si">%s</span><span class="s2"> of </span><span class="si">%s</span><span class="s2"> (</span><span class="si">%s</span><span class="s2"> recipes)&quot;</span><span class="p">,</span>
+        <span class="n">subdag_i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">subdags_n</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">recipes</span><span class="p">)</span>
+    <span class="p">)</span>
+
+    <span class="n">built_recipes</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">skipped_recipes</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">all_success</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="n">failed_uploads</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">recipes</span><span class="p">:</span>
+        <span class="n">recipe_success</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">recipe2name</span><span class="p">[</span><span class="n">recipe</span><span class="p">]</span>
+
+        <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">skip_dependent</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span>
+                <span class="s1">&#39;BUILD SKIP: &#39;</span>
+                <span class="s1">&#39;skipping </span><span class="si">%s</span><span class="s1"> because it depends on </span><span class="si">%s</span><span class="s1"> &#39;</span>
+                <span class="s1">&#39;which had a failed build.&#39;</span><span class="p">,</span>
+                <span class="n">recipe</span><span class="p">,</span> <span class="n">skip_dependent</span><span class="p">[</span><span class="n">name</span><span class="p">])</span>
+            <span class="n">skipped_recipes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+            <span class="k">continue</span>
+
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Determining expected packages&#39;</span><span class="p">)</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">pkg_paths</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_package_paths</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">check_channels</span><span class="p">,</span>
+                                                <span class="n">force</span><span class="o">=</span><span class="n">force</span><span class="p">)</span>
+        <span class="k">except</span> <span class="n">utils</span><span class="o">.</span><span class="n">DivergentBuildsError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+                <span class="s1">&#39;BUILD ERROR: &#39;</span>
+                <span class="s1">&#39;packages with divergent build strings in repository &#39;</span>
+                <span class="s1">&#39;for recipe </span><span class="si">%s</span><span class="s1">. A build number bump is likely needed: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span>
+                <span class="n">recipe</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+            <span class="n">failed</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">nx</span><span class="o">.</span><span class="n">algorithms</span><span class="o">.</span><span class="n">descendants</span><span class="p">(</span><span class="n">subdag</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+                <span class="n">skip_dependent</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+            <span class="k">continue</span>
+        <span class="k">except</span> <span class="n">UnsatisfiableError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+                <span class="s1">&#39;BUILD ERROR: &#39;</span>
+                <span class="s1">&#39;could not determine dependencies for recipe </span><span class="si">%s</span><span class="s1">: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span>
+                <span class="n">recipe</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+            <span class="n">failed</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">nx</span><span class="o">.</span><span class="n">algorithms</span><span class="o">.</span><span class="n">descendants</span><span class="p">(</span><span class="n">subdag</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+                <span class="n">skip_dependent</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+            <span class="k">continue</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">pkg_paths</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Nothing to be done for recipe </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+            <span class="k">continue</span>
+
+        <span class="c1"># If a recipe depends on conda, it means it must be installed in</span>
+        <span class="c1"># the root env, which is not compatible with mulled-build tests. In</span>
+        <span class="c1"># that case, we temporarily disable the mulled-build tests for the</span>
+        <span class="c1"># recipe.</span>
+        <span class="n">deps</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">deps</span> <span class="o">+=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_deps</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">orig_config</span><span class="p">,</span> <span class="n">build</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="n">deps</span> <span class="o">+=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_deps</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">orig_config</span><span class="p">,</span> <span class="n">build</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+        <span class="n">keep_mulled_test</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">if</span> <span class="s1">&#39;conda&#39;</span> <span class="ow">in</span> <span class="n">deps</span> <span class="ow">or</span> <span class="s1">&#39;conda-build&#39;</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">:</span>
+            <span class="n">keep_mulled_test</span> <span class="o">=</span> <span class="kc">False</span>
+            <span class="k">if</span> <span class="n">mulled_test</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span>
+                    <span class="s1">&#39;TEST SKIP: &#39;</span>
+                    <span class="s1">&#39;skipping mulled-build test for </span><span class="si">%s</span><span class="s1"> because it &#39;</span>
+                    <span class="s1">&#39;depends on conda or conda-build&#39;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+
+        <span class="n">res</span> <span class="o">=</span> <span class="n">build</span><span class="p">(</span>
+            <span class="n">recipe</span><span class="o">=</span><span class="n">recipe</span><span class="p">,</span>
+            <span class="n">recipe_folder</span><span class="o">=</span><span class="n">recipe_folder</span><span class="p">,</span>
+            <span class="n">pkg_paths</span><span class="o">=</span><span class="n">pkg_paths</span><span class="p">,</span>
+            <span class="n">testonly</span><span class="o">=</span><span class="n">testonly</span><span class="p">,</span>
+            <span class="n">mulled_test</span><span class="o">=</span><span class="n">mulled_test</span> <span class="ow">and</span> <span class="n">keep_mulled_test</span><span class="p">,</span>
+            <span class="n">force</span><span class="o">=</span><span class="n">force</span><span class="p">,</span>
+            <span class="n">channels</span><span class="o">=</span><span class="n">config</span><span class="p">[</span><span class="s1">&#39;channels&#39;</span><span class="p">],</span>
+            <span class="n">docker_builder</span><span class="o">=</span><span class="n">docker_builder</span><span class="p">,</span>
+            <span class="n">lint_args</span><span class="o">=</span><span class="n">lint_args</span><span class="p">,</span>
+        <span class="p">)</span>
+
+        <span class="n">all_success</span> <span class="o">&amp;=</span> <span class="n">res</span><span class="o">.</span><span class="n">success</span>
+        <span class="n">recipe_success</span> <span class="o">&amp;=</span> <span class="n">res</span><span class="o">.</span><span class="n">success</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">res</span><span class="o">.</span><span class="n">success</span><span class="p">:</span>
+            <span class="n">failed</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">nx</span><span class="o">.</span><span class="n">algorithms</span><span class="o">.</span><span class="n">descendants</span><span class="p">(</span><span class="n">subdag</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+                <span class="n">skip_dependent</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="ow">not</span> <span class="n">testonly</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">pkg</span> <span class="ow">in</span> <span class="n">pkg_paths</span><span class="p">:</span>
+                <span class="c1"># upload build</span>
+                <span class="k">if</span> <span class="n">anaconda_upload</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="ow">not</span> <span class="n">upload</span><span class="o">.</span><span class="n">anaconda_upload</span><span class="p">(</span><span class="n">pkg</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">label</span><span class="p">):</span>
+                        <span class="n">failed_uploads</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pkg</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">mulled_upload_target</span> <span class="ow">and</span> <span class="n">keep_mulled_test</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">img</span> <span class="ow">in</span> <span class="n">res</span><span class="o">.</span><span class="n">mulled_images</span><span class="p">:</span>
+                    <span class="n">upload</span><span class="o">.</span><span class="n">mulled_upload</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">mulled_upload_target</span><span class="p">)</span>
+
+        <span class="c1"># remove traces of the build</span>
+        <span class="n">purge</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="n">recipe_success</span><span class="p">:</span>
+            <span class="n">built_recipes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">failed</span> <span class="ow">or</span> <span class="n">failed_uploads</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+            <span class="s1">&#39;BUILD SUMMARY: of </span><span class="si">%s</span><span class="s1"> recipes, &#39;</span>
+            <span class="s1">&#39;</span><span class="si">%s</span><span class="s1"> failed and </span><span class="si">%s</span><span class="s1"> were skipped. &#39;</span>
+            <span class="s1">&#39;Details of recipes and environments follow.&#39;</span><span class="p">,</span>
+            <span class="nb">len</span><span class="p">(</span><span class="n">recipes</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">failed</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">skipped_recipes</span><span class="p">))</span>
+
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">built_recipes</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+                <span class="s1">&#39;BUILD SUMMARY: while the entire build failed, &#39;</span>
+                <span class="s1">&#39;the following recipes were built successfully:</span><span class="se">\n</span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span>
+                <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">built_recipes</span><span class="p">))</span>
+
+        <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">failed</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+                <span class="s1">&#39;BUILD SUMMARY: FAILED recipe </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">dep</span> <span class="ow">in</span> <span class="n">skip_dependent</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+                <span class="s1">&#39;BUILD SUMMARY: SKIPPED recipe </span><span class="si">%s</span><span class="s1"> &#39;</span>
+                <span class="s1">&#39;due to failed dependencies </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">dep</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">failed_uploads</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+                <span class="s1">&#39;UPLOAD SUMMARY: the following packages failed to upload:</span><span class="se">\n</span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span>
+                <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">failed_uploads</span><span class="p">))</span>
+
+        <span class="k">return</span> <span class="kc">False</span>
+
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span>
+        <span class="s2">&quot;BUILD SUMMARY: successfully built </span><span class="si">%s</span><span class="s2"> of </span><span class="si">%s</span><span class="s2"> recipes&quot;</span><span class="p">,</span>
+        <span class="nb">len</span><span class="p">(</span><span class="n">built_recipes</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">recipes</span><span class="p">))</span>
+
+    <span class="k">return</span> <span class="n">all_success</span></div>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/bioconda_utils/build.py" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

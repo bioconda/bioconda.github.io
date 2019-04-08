@@ -1,7 +1,10 @@
-bioconda\_utils.bot.events
-==========================
+events
+======
 
+
+.. currentmodule:: bioconda_utils.bot.events
 .. automodule:: bioconda_utils.bot.events
+   :members:
 
    
    
@@ -23,3 +26,6 @@ bioconda\_utils.bot.events
    
    
    
+
+
+   .. rubric:: Documentation

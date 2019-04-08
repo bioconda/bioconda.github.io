@@ -1,7 +1,10 @@
-bioconda\_utils.github\_integration
-===================================
+github\_integration
+===================
 
+
+.. currentmodule:: bioconda_utils.github_integration
 .. automodule:: bioconda_utils.github_integration
+   :members:
 
    
    
@@ -21,3 +24,6 @@ bioconda\_utils.github\_integration
    
    
    
+
+
+   .. rubric:: Documentation

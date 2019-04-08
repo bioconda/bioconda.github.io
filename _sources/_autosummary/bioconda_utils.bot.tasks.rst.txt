@@ -1,7 +1,10 @@
-bioconda\_utils.bot.tasks
-=========================
+tasks
+=====
 
+
+.. currentmodule:: bioconda_utils.bot.tasks
 .. automodule:: bioconda_utils.bot.tasks
+   :members:
 
    
    
@@ -21,3 +24,6 @@ bioconda\_utils.bot.tasks
    
    
    
+
+
+   .. rubric:: Documentation

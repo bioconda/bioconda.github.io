@@ -1,0 +1,1061 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>bioconda_utils.update &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../index.html">
+    <img class="logo" src="../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html">Updating recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../cb3.html">Conda build v3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../../conda-recipe_index.html">Recipe Index</a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for bioconda_utils.update</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;Updates packages when new upstream releases become available</span>
+
+<span class="sd">Overview:</span>
+
+<span class="sd">- The `Scanner` initializes the `asyncio` loop and for each recipe,</span>
+<span class="sd">  loads the ``meta.yaml`` using `Recipe` and executes its `Filter`</span>
+<span class="sd">  objects for each recipe.</span>
+
+<span class="sd">- The `Recipe` handles reading, modification and writing of</span>
+<span class="sd">  ``meta.yaml`` files.</span>
+
+<span class="sd">- The filters `ExcludeSubrecipe` and `ExcludeOtherChannel` exclude</span>
+<span class="sd">  recipes in sub folders and present in other channels as configured.</span>
+
+<span class="sd">- The filter `ExcludeNoActiveUpdate` excludes packages that don&#39;t</span>
+<span class="sd">  already have an ongoing autobump update.</span>
+
+<span class="sd">- The filters `LoadRecipe` and `GitLoadRecipe` fill the stub</span>
+<span class="sd">  Recipe with content.</span>
+
+<span class="sd">- The filter `UpdateVersion` determines available upstream verions</span>
+<span class="sd">  using `Hoster` and its subclasses, selects the most recent,</span>
+<span class="sd">  acceptable version and uses `Recipe` to replace</span>
+
+<span class="sd">- The filter `FetchUpstreamDependencies` gathers additional</span>
+<span class="sd">  dependencies not found by the `UpdateVersion` filter. (Currently,</span>
+<span class="sd">  that&#39;s only trying to get Python deps by loading the ``setup.py``)</span>
+
+<span class="sd">- The filter `UpdateChecksums` downloads the modified source URLs</span>
+<span class="sd">  and updates the checksums for each source of a recipe.</span>
+
+<span class="sd">- The filter `WriteRecipe` or the filter `GitWriteRecipe` are used to</span>
+<span class="sd">  write the recipe back, either to the current folder structure, or</span>
+<span class="sd">  the git repo and creating a branch.</span>
+
+<span class="sd">- The filter `CreatePullRequest` creates pull requests on GitHub for</span>
+<span class="sd">  changes made to per-recipe-branches.</span>
+
+<span class="sd">- The filter `MaxUpdates` terminates the loop after a number of recipes</span>
+<span class="sd">  have come past it, to avoid too many PRs opened at once.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">abc</span>
+<span class="kn">import</span> <span class="nn">asyncio</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">random</span>
+
+<span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">defaultdict</span><span class="p">,</span> <span class="n">Counter</span>
+
+<span class="kn">from</span> <span class="nn">urllib.parse</span> <span class="k">import</span> <span class="n">urlparse</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="p">(</span><span class="n">Any</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Iterator</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Mapping</span><span class="p">,</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">Sequence</span><span class="p">,</span>
+                    <span class="n">Set</span><span class="p">,</span> <span class="n">Tuple</span><span class="p">,</span> <span class="n">TYPE_CHECKING</span><span class="p">)</span>
+
+<span class="kn">import</span> <span class="nn">aiofiles</span>
+<span class="kn">from</span> <span class="nn">aiohttp</span> <span class="k">import</span> <span class="n">ClientResponseError</span>
+<span class="kn">import</span> <span class="nn">yaml</span>
+
+<span class="kn">import</span> <span class="nn">conda_build.variants</span>
+<span class="kn">import</span> <span class="nn">conda_build.config</span>
+<span class="kn">from</span> <span class="nn">conda.exports</span> <span class="k">import</span> <span class="n">MatchSpec</span><span class="p">,</span> <span class="n">VersionOrder</span>
+<span class="kn">import</span> <span class="nn">conda.exceptions</span>
+
+<span class="kn">from</span> <span class="nn">pkg_resources</span> <span class="k">import</span> <span class="n">parse_version</span>
+
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">utils</span>
+<span class="kn">from</span> <span class="nn">.utils</span> <span class="k">import</span> <span class="n">ensure_list</span>
+<span class="kn">from</span> <span class="nn">.recipe</span> <span class="k">import</span> <span class="n">Recipe</span>
+<span class="kn">from</span> <span class="nn">.async</span> <span class="k">import</span> <span class="n">AsyncFilter</span><span class="p">,</span> <span class="n">AsyncPipeline</span><span class="p">,</span> <span class="n">AsyncRequests</span><span class="p">,</span> <span class="n">EndProcessingItem</span><span class="p">,</span> <span class="n">EndProcessing</span>
+
+<span class="k">if</span> <span class="n">TYPE_CHECKING</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">.githandler</span> <span class="k">import</span> <span class="n">GitHandler</span>
+    <span class="kn">from</span> <span class="nn">.githubhandler</span> <span class="k">import</span> <span class="n">AiohttpGitHubHandler</span><span class="p">,</span> <span class="n">GitHubHandler</span>
+
+<span class="c1"># pkg_resources.parse_version returns a Version or LegacyVersion object</span>
+<span class="c1"># as defined in packaging.version. Since it&#39;s bundling it&#39;s own copy of</span>
+<span class="c1"># packaging, the class it returns is not the same as the one we can import.</span>
+<span class="c1"># So we cheat by having it create a LegacyVersion delibarately.</span>
+<span class="n">LegacyVersion</span> <span class="o">=</span> <span class="n">parse_version</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">.</span><span class="vm">__class__</span>  <span class="c1"># pylint: disable=invalid-name</span>
+
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
+
+
+<div class="viewcode-block" id="Scanner"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.Scanner">[docs]</a><span class="k">class</span> <span class="nc">Scanner</span><span class="p">(</span><span class="n">AsyncPipeline</span><span class="p">[</span><span class="n">Recipe</span><span class="p">]):</span>
+    <span class="sd">&quot;&quot;&quot;Scans recipes and applies filters in asyncio loop</span>
+
+<span class="sd">    Arguments:</span>
+<span class="sd">      recipe_folder: location of recipe directories</span>
+<span class="sd">      packages: glob pattern to select recipes</span>
+<span class="sd">      config: config.yaml (unused)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">packages</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span>
+                 <span class="n">cache_fn</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">max_inflight</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
+                 <span class="n">status_fn</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">max_inflight</span><span class="p">)</span>
+        <span class="c1">#: folder containing recipes</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">recipe_folder</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="n">recipe_folder</span>
+        <span class="c1">#: glob expressions</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="n">packages</span>
+        <span class="c1">#: counter to gather stats on various states</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">stats</span><span class="p">:</span> <span class="n">Counter</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">()</span>
+        <span class="c1">#: collect end status for each recipe</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">status</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]]</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="c1">#: filename to write statuses to</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">status_fn</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="n">status_fn</span>
+        <span class="c1">#: async requests helper</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">req</span> <span class="o">=</span> <span class="n">AsyncRequests</span><span class="p">(</span><span class="n">cache_fn</span><span class="p">)</span>
+
+<div class="viewcode-block" id="Scanner.run"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.Scanner.run">[docs]</a>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Runs scanner&quot;&quot;&quot;</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Recipe status statistics:&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">stats</span><span class="o">.</span><span class="n">most_common</span><span class="p">():</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="s2">: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;SUM: </span><span class="si">%i</span><span class="s2">&quot;</span><span class="p">,</span> <span class="nb">sum</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">stats</span><span class="o">.</span><span class="n">values</span><span class="p">()))</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">status_fn</span><span class="p">:</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">status_fn</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">out</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">status</span><span class="p">:</span>
+                    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">entry</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">res</span></div>
+
+<div class="viewcode-block" id="Scanner.get_item_iterator"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.Scanner.get_item_iterator">[docs]</a>    <span class="k">def</span> <span class="nf">get_item_iterator</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Iterator</span><span class="p">[</span><span class="n">Recipe</span><span class="p">]:</span>
+        <span class="sd">&quot;&quot;&quot;Return initial iterator over stub (unloaded) Recipes&quot;&quot;&quot;</span>
+        <span class="n">recipes</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">utils</span><span class="o">.</span><span class="n">get_recipes</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">))</span>
+        <span class="n">random</span><span class="o">.</span><span class="n">shuffle</span><span class="p">(</span><span class="n">recipes</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">Recipe</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">recipe_folder</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">recipe_dir</span> <span class="ow">in</span> <span class="n">recipes</span><span class="p">)</span></div>
+
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">_async_run</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Runner within async loop&quot;&quot;&quot;</span>
+        <span class="k">async</span> <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">req</span><span class="p">:</span>
+            <span class="k">return</span> <span class="k">await</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">_async_run</span><span class="p">()</span>
+
+<div class="viewcode-block" id="Scanner.process"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.Scanner.process">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">process</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Applies the filters to a recipe&quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">if</span> <span class="k">await</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">recipe</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">stats</span><span class="p">[</span><span class="s2">&quot;Updated&quot;</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="k">return</span> <span class="kc">True</span>
+            <span class="k">return</span> <span class="kc">False</span>
+        <span class="k">except</span> <span class="n">EndProcessingItem</span> <span class="k">as</span> <span class="n">recipe_error</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">stats</span><span class="p">[</span><span class="n">recipe_error</span><span class="o">.</span><span class="n">name</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">status</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">recipe</span><span class="o">.</span><span class="n">reldir</span><span class="p">,</span> <span class="n">recipe_error</span><span class="o">.</span><span class="n">name</span><span class="p">))</span>
+            <span class="k">return</span> <span class="kc">True</span></div></div>
+
+
+<div class="viewcode-block" id="Filter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.Filter">[docs]</a><span class="k">class</span> <span class="nc">Filter</span><span class="p">(</span><span class="n">AsyncFilter</span><span class="p">[</span><span class="n">Recipe</span><span class="p">]):</span>
+    <span class="sd">&quot;&quot;&quot;Filter for Scanner - class exists primarily to silence mypy&quot;&quot;&quot;</span>
+    <span class="n">pipeline</span><span class="p">:</span> <span class="n">Scanner</span>
+
+<div class="viewcode-block" id="Filter.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.Filter.apply">[docs]</a>    <span class="nd">@abc</span><span class="o">.</span><span class="n">abstractmethod</span>
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Recipe</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Process a recipe. Returns False if processing should stop&quot;&quot;&quot;</span></div></div>
+
+
+<div class="viewcode-block" id="ExcludeOtherChannel"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.ExcludeOtherChannel">[docs]</a><span class="k">class</span> <span class="nc">ExcludeOtherChannel</span><span class="p">(</span><span class="n">Filter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Filters recipes matching packages in other **channels**&quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="ExcludeOtherChannel.OtherChannel"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.ExcludeOtherChannel.OtherChannel">[docs]</a>    <span class="k">class</span> <span class="nc">OtherChannel</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;This recipe builds one or more packages that are also present</span>
+<span class="sd">        in at least one other channel&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;builds package found in other channel(s)&quot;</span>
+        <span class="n">level</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span></div>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">:</span> <span class="n">Scanner</span><span class="p">,</span> <span class="n">channels</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span>
+                 <span class="n">cache</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">scanner</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Loading package lists for </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">channels</span><span class="p">)</span>
+        <span class="n">repo</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">RepoData</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">cache</span><span class="p">:</span>
+            <span class="n">repo</span><span class="o">.</span><span class="n">set_cache</span><span class="p">(</span><span class="n">cache</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">other</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">get_package_data</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="n">channels</span><span class="o">=</span><span class="n">channels</span><span class="p">))</span>
+
+<div class="viewcode-block" id="ExcludeOtherChannel.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.ExcludeOtherChannel.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Recipe</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="n">package</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">other</span>
+               <span class="k">for</span> <span class="n">package</span> <span class="ow">in</span> <span class="n">recipe</span><span class="o">.</span><span class="n">package_names</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">OtherChannel</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">recipe</span></div></div>
+
+
+<div class="viewcode-block" id="ExcludeSubrecipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.ExcludeSubrecipe">[docs]</a><span class="k">class</span> <span class="nc">ExcludeSubrecipe</span><span class="p">(</span><span class="n">Filter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Filters sub-recipes</span>
+
+<span class="sd">    Unless **always** is True, subrecipes specifically enabled via</span>
+<span class="sd">    ``extra: watch: enable: yes`` will not be filtered.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="ExcludeSubrecipe.IsSubRecipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.ExcludeSubrecipe.IsSubRecipe">[docs]</a>    <span class="k">class</span> <span class="nc">IsSubRecipe</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;This recipe is a sub-recipe (i.e. blast/2.4.0).&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;is a subrecipe&quot;</span>
+        <span class="n">level</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span></div>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">:</span> <span class="n">Scanner</span><span class="p">,</span> <span class="n">always</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">scanner</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">always_exclude</span> <span class="o">=</span> <span class="n">always</span>
+
+<div class="viewcode-block" id="ExcludeSubrecipe.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.ExcludeSubrecipe.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Recipe</span><span class="p">:</span>
+        <span class="n">is_subrecipe</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">reldir</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span>
+        <span class="n">enabled</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;enable&quot;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">is_subrecipe</span> <span class="ow">and</span> <span class="ow">not</span> <span class="p">(</span><span class="n">enabled</span> <span class="ow">and</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">always_exclude</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">IsSubRecipe</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">recipe</span></div></div>
+
+
+<div class="viewcode-block" id="ExcludeBlacklisted"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.ExcludeBlacklisted">[docs]</a><span class="k">class</span> <span class="nc">ExcludeBlacklisted</span><span class="p">(</span><span class="n">Filter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Filters blacklisted recipes&quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="ExcludeBlacklisted.Blacklisted"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.ExcludeBlacklisted.Blacklisted">[docs]</a>    <span class="k">class</span> <span class="nc">Blacklisted</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;This recipe has been blacklisted (fails to build, see blacklist file)&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;is blacklisted&quot;</span>
+        <span class="n">level</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span></div>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">,</span> <span class="n">config_fn</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">scanner</span><span class="p">)</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">config_fn</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">config_fdes</span><span class="p">:</span>
+            <span class="n">config</span> <span class="o">=</span> <span class="n">yaml</span><span class="o">.</span><span class="n">safe_load</span><span class="p">(</span><span class="n">config_fdes</span><span class="p">)</span>
+        <span class="n">blacklists</span> <span class="o">=</span> <span class="p">[</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">config_fn</span><span class="p">),</span> <span class="n">bl</span><span class="p">)</span>
+                      <span class="k">for</span> <span class="n">bl</span> <span class="ow">in</span> <span class="n">config</span><span class="p">[</span><span class="s1">&#39;blacklists&#39;</span><span class="p">]]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">blacklisted</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_blacklist</span><span class="p">(</span><span class="n">blacklists</span><span class="p">,</span> <span class="n">scanner</span><span class="o">.</span><span class="n">recipe_folder</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Excluding </span><span class="si">%i</span><span class="s2"> blacklisted recipes&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">blacklisted</span><span class="p">))</span>
+
+<div class="viewcode-block" id="ExcludeBlacklisted.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.ExcludeBlacklisted.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Recipe</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">recipe</span><span class="o">.</span><span class="n">reldir</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">blacklisted</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">Blacklisted</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">recipe</span></div></div>
+
+
+<div class="viewcode-block" id="UpdateVersion"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateVersion">[docs]</a><span class="k">class</span> <span class="nc">UpdateVersion</span><span class="p">(</span><span class="n">Filter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Checks for updates to a recipe</span>
+
+<span class="sd">    - In the most simple case, a package has a single URL which also indicates the version</span>
+<span class="sd">    - Recipes may have alternative download locations</span>
+<span class="sd">      =&gt; Update to newest available, disable others as comment</span>
+<span class="sd">    - Recipes may have multiple sources</span>
+<span class="sd">      =&gt; Ignore URLs not matching main recipe version</span>
+
+<span class="sd">    stages:</span>
+<span class="sd">     1. select hoster based on source URL</span>
+<span class="sd">     2. hoster determines releases page url</span>
+<span class="sd">     3. fetch url</span>
+<span class="sd">     4. hoster extracts (link,version) pairs</span>
+<span class="sd">     5. select newest</span>
+<span class="sd">     6. update sources</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="UpdateVersion.Metapackage"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateVersion.Metapackage">[docs]</a>    <span class="k">class</span> <span class="nc">Metapackage</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;This recipe only builds a meta package - it has no upstream sources.&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;builds a meta package (recipe has no sources)&quot;</span></div>
+
+<div class="viewcode-block" id="UpdateVersion.UpToDate"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateVersion.UpToDate">[docs]</a>    <span class="k">class</span> <span class="nc">UpToDate</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;This recipe appears to be up to date!&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;is up to date&quot;</span>
+        <span class="n">level</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span></div>
+
+<div class="viewcode-block" id="UpdateVersion.UpdateVersionFailure"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateVersion.UpdateVersionFailure">[docs]</a>    <span class="k">class</span> <span class="nc">UpdateVersionFailure</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;This recipe did not show the expected version number after updating.</span>
+
+<span class="sd">        Something probably went wrong trying to replace the version number in the</span>
+<span class="sd">        meta.yaml.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;could not be updated from </span><span class="si">%s</span><span class="s2"> to </span><span class="si">%s</span><span class="s2">&quot;</span></div>
+
+<div class="viewcode-block" id="UpdateVersion.NoUrlInSource"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateVersion.NoUrlInSource">[docs]</a>    <span class="k">class</span> <span class="nc">NoUrlInSource</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;This recipe has a source without an URL.</span>
+
+<span class="sd">        Most likely, this is due to a git-url.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;has no URL in source </span><span class="si">%i</span><span class="s2">&quot;</span></div>
+
+<div class="viewcode-block" id="UpdateVersion.NoRecognizedSourceUrl"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateVersion.NoRecognizedSourceUrl">[docs]</a>    <span class="k">class</span> <span class="nc">NoRecognizedSourceUrl</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;None of the source URLs in this recipe were recognized.&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;has no URL in source </span><span class="si">%i</span><span class="s2"> recognized by any Hoster class&quot;</span>
+        <span class="n">level</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span></div>
+
+<div class="viewcode-block" id="UpdateVersion.UrlNotVersioned"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateVersion.UrlNotVersioned">[docs]</a>    <span class="k">class</span> <span class="nc">UrlNotVersioned</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;This recipe has an URL unaffected by the version change.</span>
+<span class="sd">        the recipe&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;has URL not modified by version change&quot;</span></div>
+
+<div class="viewcode-block" id="UpdateVersion.NoReleases"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateVersion.NoReleases">[docs]</a>    <span class="k">class</span> <span class="nc">NoReleases</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;No releases at all were found for this recipe.</span>
+
+<span class="sd">        This is unusual - something probably went wrong finding releases for</span>
+<span class="sd">        the source urls in this recipe.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;has no releases?!&quot;</span></div>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">:</span> <span class="n">Scanner</span><span class="p">,</span> <span class="n">hoster_factory</span><span class="p">,</span>
+                 <span class="n">unparsed_file</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">scanner</span><span class="p">)</span>
+        <span class="c1">#: output file name for unparsed urls</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">unparsed_urls</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="c1">#: output file name for failed urls</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">unparsed_file</span> <span class="o">=</span> <span class="n">unparsed_file</span>
+        <span class="c1">#: function selecting hoster</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">hoster_factory</span> <span class="o">=</span> <span class="n">hoster_factory</span>
+        <span class="c1">#: conda build config</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">build_config</span><span class="p">:</span> <span class="n">conda_build</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">Config</span> <span class="o">=</span> \
+            <span class="n">utils</span><span class="o">.</span><span class="n">load_conda_build_config</span><span class="p">()</span>
+
+<div class="viewcode-block" id="UpdateVersion.finalize"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateVersion.finalize">[docs]</a>    <span class="k">def</span> <span class="nf">finalize</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Save unparsed urls to file and print stats to log&quot;&quot;&quot;</span>
+        <span class="n">stats</span><span class="p">:</span> <span class="n">Counter</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">url</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">unparsed_urls</span><span class="p">:</span>
+            <span class="n">parsed</span> <span class="o">=</span> <span class="n">urlparse</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+            <span class="n">stats</span><span class="p">[</span><span class="n">parsed</span><span class="o">.</span><span class="n">scheme</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">stats</span><span class="p">[</span><span class="n">parsed</span><span class="o">.</span><span class="n">netloc</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Unrecognized URL stats:&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">stats</span><span class="o">.</span><span class="n">most_common</span><span class="p">():</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="s2">: </span><span class="si">%i</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">unparsed_urls</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">unparsed_file</span><span class="p">:</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">unparsed_file</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">out</span><span class="p">:</span>
+                <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">unparsed_urls</span><span class="p">))</span></div>
+
+<div class="viewcode-block" id="UpdateVersion.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateVersion.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">):</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Checking for updates to </span><span class="si">%s</span><span class="s2"> - </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">recipe</span><span class="o">.</span><span class="n">version</span><span class="p">)</span>
+
+        <span class="c1"># scan for available versions</span>
+        <span class="n">versions</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_version_map</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+        <span class="c1"># (too slow) conflicts = self.check_version_pin_conflict(recipe, versions)</span>
+
+        <span class="c1"># select apropriate most current version</span>
+        <span class="n">latest</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">select_version</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="n">versions</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+
+        <span class="c1"># add data for respective versions to recipe and recipe.orig</span>
+        <span class="n">recipe</span><span class="o">.</span><span class="n">version_data</span> <span class="o">=</span> <span class="n">versions</span><span class="p">[</span><span class="n">latest</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">recipe</span><span class="o">.</span><span class="n">orig</span><span class="o">.</span><span class="n">version</span> <span class="ow">in</span> <span class="n">versions</span><span class="p">:</span>
+            <span class="n">recipe</span><span class="o">.</span><span class="n">orig</span><span class="o">.</span><span class="n">version_data</span> <span class="o">=</span> <span class="n">versions</span><span class="p">[</span><span class="n">recipe</span><span class="o">.</span><span class="n">orig</span><span class="o">.</span><span class="n">version</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">recipe</span><span class="o">.</span><span class="n">orig</span><span class="o">.</span><span class="n">version_data</span> <span class="o">=</span> <span class="p">{}</span>
+
+        <span class="c1"># check if the recipe is up to date</span>
+        <span class="k">if</span> <span class="n">VersionOrder</span><span class="p">(</span><span class="n">latest</span><span class="p">)</span> <span class="o">==</span> <span class="n">VersionOrder</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">version</span><span class="p">):</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">recipe</span><span class="o">.</span><span class="n">on_branch</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">UpToDate</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+
+        <span class="c1"># Update `url:`s without Jinja expressions (plain text)</span>
+        <span class="k">for</span> <span class="n">fname</span> <span class="ow">in</span> <span class="n">versions</span><span class="p">[</span><span class="n">latest</span><span class="p">]:</span>
+            <span class="n">recipe</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">fname</span><span class="p">,</span> <span class="n">versions</span><span class="p">[</span><span class="n">latest</span><span class="p">][</span><span class="n">fname</span><span class="p">][</span><span class="s1">&#39;link&#39;</span><span class="p">],</span> <span class="n">within</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;source&quot;</span><span class="p">])</span>
+
+        <span class="c1"># Update the version number itself. This will also usually update</span>
+        <span class="c1"># `url:`s expressed with `{{version}}` tags.</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">recipe</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="n">latest</span><span class="p">,</span> <span class="n">within</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;package&quot;</span><span class="p">]):</span>
+            <span class="c1"># allow changes between dash/dot/underscore</span>
+            <span class="k">if</span> <span class="n">recipe</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="n">latest</span><span class="p">,</span> <span class="n">within</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;package&quot;</span><span class="p">],</span> <span class="n">with_fuzz</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: replaced version with fuzz&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+
+        <span class="n">recipe</span><span class="o">.</span><span class="n">reset_buildnumber</span><span class="p">()</span>
+        <span class="n">recipe</span><span class="o">.</span><span class="n">render</span><span class="p">()</span>
+
+        <span class="c1"># Verify that the rendered recipe has the right version number</span>
+        <span class="k">if</span> <span class="n">VersionOrder</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">version</span><span class="p">)</span> <span class="o">!=</span> <span class="n">VersionOrder</span><span class="p">(</span><span class="n">latest</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">UpdateVersionFailure</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">recipe</span><span class="o">.</span><span class="n">orig</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="n">latest</span><span class="p">)</span>
+
+        <span class="c1"># Verify that every url was modified</span>
+        <span class="k">for</span> <span class="n">src</span><span class="p">,</span> <span class="n">osrc</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">ensure_list</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s1">&#39;source&#39;</span><span class="p">]),</span>
+                             <span class="n">ensure_list</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">orig</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s1">&#39;source&#39;</span><span class="p">])):</span>
+            <span class="k">for</span> <span class="n">url</span><span class="p">,</span> <span class="n">ourl</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">ensure_list</span><span class="p">(</span><span class="n">src</span><span class="p">[</span><span class="s1">&#39;url&#39;</span><span class="p">]),</span>
+                                 <span class="n">ensure_list</span><span class="p">(</span><span class="n">osrc</span><span class="p">[</span><span class="s1">&#39;url&#39;</span><span class="p">])):</span>
+                <span class="k">if</span> <span class="n">url</span> <span class="o">==</span> <span class="n">ourl</span><span class="p">:</span>
+                    <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">UrlNotVersioned</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">recipe</span></div>
+
+<div class="viewcode-block" id="UpdateVersion.get_version_map"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateVersion.get_version_map">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_version_map</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Scan all source urls&quot;&quot;&quot;</span>
+
+        <span class="n">sources</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">meta</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;source&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">sources</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">Metapackage</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">sources</span><span class="p">,</span> <span class="n">Sequence</span><span class="p">):</span>
+            <span class="n">source_iter</span> <span class="o">=</span> <span class="nb">iter</span><span class="p">(</span><span class="n">sources</span><span class="p">)</span>
+            <span class="n">versions</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_versions</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="nb">next</span><span class="p">(</span><span class="n">source_iter</span><span class="p">),</span> <span class="mi">0</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">num</span><span class="p">,</span> <span class="n">source</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">source_iter</span><span class="p">):</span>
+                <span class="n">add_versions</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_versions</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">source</span><span class="p">,</span> <span class="n">num</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">vers</span><span class="p">,</span> <span class="n">files</span> <span class="ow">in</span> <span class="n">add_versions</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+                    <span class="k">for</span> <span class="n">fname</span><span class="p">,</span> <span class="n">data</span> <span class="ow">in</span> <span class="n">files</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+                        <span class="n">versions</span><span class="p">[</span><span class="n">vers</span><span class="p">][</span><span class="n">fname</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">versions</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_versions</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">sources</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">versions</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">NoReleases</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">versions</span></div>
+
+<div class="viewcode-block" id="UpdateVersion.get_versions"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateVersion.get_versions">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">,</span> <span class="n">source</span><span class="p">:</span> <span class="n">Mapping</span><span class="p">[</span><span class="n">Any</span><span class="p">,</span> <span class="n">Any</span><span class="p">],</span>
+                           <span class="n">source_idx</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Select hosters and retrieve versions for this source&quot;&quot;&quot;</span>
+        <span class="n">urls</span> <span class="o">=</span> <span class="n">source</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;url&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">urls</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">NoUrlInSource</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">source_idx</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">urls</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+            <span class="n">urls</span> <span class="o">=</span> <span class="p">[</span><span class="n">urls</span><span class="p">]</span>
+
+        <span class="n">version_map</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">dict</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">url</span> <span class="ow">in</span> <span class="n">urls</span><span class="p">:</span>
+            <span class="n">hoster</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">hoster_factory</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">recipe</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;override&quot;</span><span class="p">,</span> <span class="p">{}))</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">hoster</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">unparsed_urls</span> <span class="o">+=</span> <span class="p">[</span><span class="n">url</span><span class="p">]</span>
+                <span class="k">continue</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Scanning with </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">hoster</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">)</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">versions</span> <span class="o">=</span> <span class="k">await</span> <span class="n">hoster</span><span class="o">.</span><span class="n">get_versions</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="o">.</span><span class="n">req</span><span class="p">,</span> <span class="n">recipe</span><span class="o">.</span><span class="n">orig</span><span class="o">.</span><span class="n">version</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">match</span> <span class="ow">in</span> <span class="n">versions</span><span class="p">:</span>
+                    <span class="n">match</span><span class="p">[</span><span class="s1">&#39;hoster&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">hoster</span>
+                    <span class="n">version_map</span><span class="p">[</span><span class="n">match</span><span class="p">[</span><span class="s2">&quot;version&quot;</span><span class="p">]][</span><span class="n">url</span><span class="p">]</span> <span class="o">=</span> <span class="n">match</span>
+            <span class="k">except</span> <span class="n">ClientResponseError</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;HTTP </span><span class="si">%s</span><span class="s2"> when getting </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">exc</span><span class="p">,</span> <span class="n">url</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">version_map</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">NoRecognizedSourceUrl</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">source_idx</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">version_map</span></div>
+
+<div class="viewcode-block" id="UpdateVersion.select_version"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateVersion.select_version">[docs]</a>    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">select_version</span><span class="p">(</span><span class="n">current</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">versions</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Chooses the most recent, acceptable version out of **versions**</span>
+
+<span class="sd">        - must be newer than current (as defined by conda VersionOrder)</span>
+
+<span class="sd">        - may only be a pre-release if current is pre-release (as</span>
+<span class="sd">          defined by parse_version)</span>
+
+<span class="sd">        - may only be &quot;Legacy&quot; (=strange) if current is Legacy (as</span>
+<span class="sd">          defined by parse_version)</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">current_version</span> <span class="o">=</span> <span class="n">parse_version</span><span class="p">(</span><span class="n">current</span><span class="p">)</span>
+        <span class="n">current_is_legacy</span> <span class="o">=</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">current_version</span><span class="p">,</span> <span class="n">LegacyVersion</span><span class="p">)</span>
+        <span class="n">latest_vo</span> <span class="o">=</span> <span class="n">VersionOrder</span><span class="p">(</span><span class="n">current</span><span class="p">)</span>
+        <span class="n">latest</span> <span class="o">=</span> <span class="n">current</span>
+        <span class="k">for</span> <span class="n">vers</span> <span class="ow">in</span> <span class="n">versions</span><span class="p">:</span>
+            <span class="k">if</span> <span class="s2">&quot;-&quot;</span> <span class="ow">in</span> <span class="n">vers</span><span class="p">:</span>  <span class="c1"># ignore versions with local (FIXME)</span>
+                <span class="k">continue</span>
+            <span class="n">vers_version</span> <span class="o">=</span> <span class="n">parse_version</span><span class="p">(</span><span class="n">vers</span><span class="p">)</span>
+            <span class="c1"># allow prerelease only if current is prerelease</span>
+            <span class="k">if</span> <span class="n">vers_version</span><span class="o">.</span><span class="n">is_prerelease</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">current_version</span><span class="o">.</span><span class="n">is_prerelease</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="c1"># allow legacy only if current is legacy</span>
+            <span class="n">vers_is_legacy</span> <span class="o">=</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">vers_version</span><span class="p">,</span> <span class="n">LegacyVersion</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">vers_is_legacy</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">current_is_legacy</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="c1"># using conda version order here as that&#39;s what will be</span>
+            <span class="c1"># used by the package manager</span>
+            <span class="n">vers_vo</span> <span class="o">=</span> <span class="n">VersionOrder</span><span class="p">(</span><span class="n">vers</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">vers_vo</span> <span class="o">&gt;</span> <span class="n">latest_vo</span><span class="p">:</span>
+                <span class="n">latest_vo</span> <span class="o">=</span> <span class="n">vers_vo</span>
+                <span class="n">latest</span> <span class="o">=</span> <span class="n">vers</span>
+
+        <span class="k">return</span> <span class="n">latest</span></div>
+
+<div class="viewcode-block" id="UpdateVersion.check_version_pin_conflict"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateVersion.check_version_pin_conflict">[docs]</a>    <span class="k">def</span> <span class="nf">check_version_pin_conflict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">,</span>
+                                   <span class="n">versions</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Find items in **versions** conflicting with pins</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">          If ggplot 7.0 needs r-base 4.0, but our pin is 3.5.1, it conflicts</span>
+
+<span class="sd">        TODO: currently, this only logs an error</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">variants</span> <span class="o">=</span> <span class="n">conda_build</span><span class="o">.</span><span class="n">variants</span><span class="o">.</span><span class="n">get_package_variants</span><span class="p">(</span>
+            <span class="n">recipe</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">build_config</span><span class="p">)</span>
+
+        <span class="k">def</span> <span class="nf">check_pins</span><span class="p">(</span><span class="n">depends</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">pkg</span><span class="p">,</span> <span class="n">spec</span> <span class="ow">in</span> <span class="n">depends</span><span class="p">:</span>
+                <span class="n">norm_pkg</span> <span class="o">=</span> <span class="n">pkg</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="s2">&quot;_&quot;</span><span class="p">)</span>
+                <span class="k">try</span><span class="p">:</span>
+                    <span class="n">mspec</span> <span class="o">=</span> <span class="n">MatchSpec</span><span class="p">(</span><span class="n">version</span><span class="o">=</span><span class="n">spec</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">))</span>
+                <span class="k">except</span> <span class="n">conda</span><span class="o">.</span><span class="n">exceptions</span><span class="o">.</span><span class="n">InvalidVersionSpecError</span><span class="p">:</span>
+                    <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: invalid upstream spec </span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span>
+                                 <span class="n">recipe</span><span class="p">,</span> <span class="n">pkg</span><span class="p">,</span> <span class="nb">repr</span><span class="p">(</span><span class="n">spec</span><span class="p">))</span>
+                    <span class="k">continue</span>
+                <span class="k">if</span> <span class="n">norm_pkg</span> <span class="ow">in</span> <span class="n">variants</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+                    <span class="k">for</span> <span class="n">variant</span> <span class="ow">in</span> <span class="n">variants</span><span class="p">:</span>
+                        <span class="k">if</span> <span class="ow">not</span> <span class="n">mspec</span><span class="o">.</span><span class="n">match</span><span class="p">({</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;build&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;build_number&#39;</span><span class="p">:</span> <span class="s1">&#39;0&#39;</span><span class="p">,</span>
+                                            <span class="s1">&#39;version&#39;</span><span class="p">:</span> <span class="n">variant</span><span class="p">[</span><span class="n">norm_pkg</span><span class="p">]}):</span>
+                            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: </span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2"> conflicts pins&quot;</span><span class="p">,</span>
+                                         <span class="n">recipe</span><span class="p">,</span> <span class="n">pkg</span><span class="p">,</span> <span class="n">spec</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">files</span> <span class="ow">in</span> <span class="n">versions</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
+            <span class="k">for</span> <span class="n">data</span> <span class="ow">in</span> <span class="n">files</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
+                <span class="n">depends</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;depends&#39;</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">depends</span><span class="p">:</span>
+                    <span class="n">check_pins</span><span class="p">(</span><span class="n">depends</span><span class="o">.</span><span class="n">items</span><span class="p">())</span></div></div>
+
+
+<div class="viewcode-block" id="FetchUpstreamDependencies"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.FetchUpstreamDependencies">[docs]</a><span class="k">class</span> <span class="nc">FetchUpstreamDependencies</span><span class="p">(</span><span class="n">Filter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Fetch requirements from upstream where possible</span>
+
+<span class="sd">    This currently only affects PyPi. Dependencies for Python packages are</span>
+<span class="sd">    determined by ``setup.py`` at installation time and need not be static</span>
+<span class="sd">    in many cases (there is work to change this going on).</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">:</span> <span class="n">Scanner</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">scanner</span><span class="p">)</span>
+        <span class="c1">#: conda build config</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">build_config</span><span class="p">:</span> <span class="n">conda_build</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">Config</span> <span class="o">=</span> \
+            <span class="n">utils</span><span class="o">.</span><span class="n">load_conda_build_config</span><span class="p">()</span>
+
+<div class="viewcode-block" id="FetchUpstreamDependencies.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.FetchUpstreamDependencies.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Recipe</span><span class="p">:</span>
+        <span class="k">await</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">gather</span><span class="p">(</span><span class="o">*</span><span class="p">[</span>
+            <span class="n">data</span><span class="p">[</span><span class="s2">&quot;hoster&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">get_deps</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">build_config</span><span class="p">,</span>
+                                    <span class="n">recipe</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">recipe</span><span class="o">.</span><span class="n">orig</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">fn</span><span class="p">,</span> <span class="n">data</span> <span class="ow">in</span> <span class="n">r</span><span class="o">.</span><span class="n">version_data</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
+            <span class="k">if</span> <span class="s2">&quot;depends&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">data</span>
+            <span class="ow">and</span> <span class="s2">&quot;hoster&quot;</span> <span class="ow">in</span> <span class="n">data</span>
+            <span class="ow">and</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;hoster&quot;</span><span class="p">],</span> <span class="s2">&quot;get_deps&quot;</span><span class="p">)</span>
+        <span class="p">])</span>
+        <span class="k">return</span> <span class="n">recipe</span></div></div>
+
+
+<div class="viewcode-block" id="UpdateChecksums"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateChecksums">[docs]</a><span class="k">class</span> <span class="nc">UpdateChecksums</span><span class="p">(</span><span class="n">Filter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Download upstream source files, recompute checksum and update Recipe&quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="UpdateChecksums.NoValidUrls"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateChecksums.NoValidUrls">[docs]</a>    <span class="k">class</span> <span class="nc">NoValidUrls</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Failed to download any file for a source to generate new checksum&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;has no valid urls in source </span><span class="si">%i</span><span class="s2">&quot;</span></div>
+
+<div class="viewcode-block" id="UpdateChecksums.SourceUrlMismatch"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateChecksums.SourceUrlMismatch">[docs]</a>    <span class="k">class</span> <span class="nc">SourceUrlMismatch</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;The URLs in a source point to different files after update&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;has urls in source </span><span class="si">%i</span><span class="s2"> pointing to different files&quot;</span></div>
+
+<div class="viewcode-block" id="UpdateChecksums.ChecksumReplaceFailed"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateChecksums.ChecksumReplaceFailed">[docs]</a>    <span class="k">class</span> <span class="nc">ChecksumReplaceFailed</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;The checksum could not be updated after version bump&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;: failed to replace checksum&quot;</span></div>
+
+<div class="viewcode-block" id="UpdateChecksums.ChecksumUnchanged"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateChecksums.ChecksumUnchanged">[docs]</a>    <span class="k">class</span> <span class="nc">ChecksumUnchanged</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;The checksum did not change after version bump&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;had no change to checksum after update?!&quot;</span></div>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">:</span> <span class="n">Scanner</span><span class="p">,</span>
+                 <span class="n">failed_file</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">scanner</span><span class="p">)</span>
+        <span class="c1">#: failed urls - for later inspection</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">failed_urls</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="c1">#: unparsed urls - for later inspection</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">failed_file</span> <span class="o">=</span> <span class="n">failed_file</span>
+
+<div class="viewcode-block" id="UpdateChecksums.finalize"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateChecksums.finalize">[docs]</a>    <span class="k">def</span> <span class="nf">finalize</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Store list of URLs that could not be downloaded&quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">failed_urls</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Encountered </span><span class="si">%i</span><span class="s2"> download failures while computing checksums&quot;</span><span class="p">,</span>
+                           <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">failed_urls</span><span class="p">))</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">failed_urls</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">failed_file</span><span class="p">:</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">failed_file</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">out</span><span class="p">:</span>
+                <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">failed_urls</span><span class="p">))</span></div>
+
+<div class="viewcode-block" id="UpdateChecksums.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateChecksums.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Recipe</span><span class="p">:</span>
+        <span class="n">sources</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s2">&quot;source&quot;</span><span class="p">]</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Updating checksum for </span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">recipe</span><span class="o">.</span><span class="n">version</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">sources</span><span class="p">,</span> <span class="n">Mapping</span><span class="p">):</span>
+            <span class="n">sources</span> <span class="o">=</span> <span class="p">[</span><span class="n">sources</span><span class="p">]</span>
+        <span class="k">for</span> <span class="n">source_idx</span><span class="p">,</span> <span class="n">source</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">sources</span><span class="p">):</span>
+            <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">update_source</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">source</span><span class="p">,</span> <span class="n">source_idx</span><span class="p">)</span>
+        <span class="n">recipe</span><span class="o">.</span><span class="n">render</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">recipe</span></div>
+
+<div class="viewcode-block" id="UpdateChecksums.update_source"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.UpdateChecksums.update_source">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">update_source</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">,</span> <span class="n">source</span><span class="p">:</span> <span class="n">Mapping</span><span class="p">,</span> <span class="n">source_idx</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Updates one source</span>
+
+<span class="sd">        Each source has its own checksum, but all urls in one source must have</span>
+<span class="sd">        the same checksum (if the link is available).</span>
+
+<span class="sd">        We don&#39;t fail if the link is not available as cargo-port will only update</span>
+<span class="sd">        after the recipe was built and uploaded.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">checksum_type</span> <span class="o">=</span> <span class="s2">&quot;none&quot;</span>
+        <span class="k">for</span> <span class="n">checksum_type</span> <span class="ow">in</span> <span class="p">(</span><span class="s2">&quot;sha256&quot;</span><span class="p">,</span> <span class="s2">&quot;sha1&quot;</span><span class="p">,</span> <span class="s2">&quot;md5&quot;</span><span class="p">):</span>
+            <span class="n">checksum</span> <span class="o">=</span> <span class="n">source</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">checksum_type</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">checksum</span><span class="p">:</span>
+                <span class="k">break</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2"> has no checksum&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+            <span class="k">return</span>
+        <span class="k">if</span> <span class="n">checksum_type</span> <span class="o">!=</span> <span class="s2">&quot;sha256&quot;</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2"> had checksum type </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">checksum_type</span><span class="p">)</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">recipe</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">checksum_type</span><span class="p">,</span> <span class="s2">&quot;sha256&quot;</span><span class="p">):</span>
+                <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">&quot;Failed to replace checksum type?&quot;</span><span class="p">)</span>
+
+        <span class="n">urls</span> <span class="o">=</span> <span class="n">ensure_list</span><span class="p">(</span><span class="n">source</span><span class="p">[</span><span class="s2">&quot;url&quot;</span><span class="p">])</span>
+        <span class="n">new_checksums</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">url_idx</span><span class="p">,</span> <span class="n">url</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">urls</span><span class="p">):</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">new_checksums</span><span class="o">.</span><span class="n">add</span><span class="p">(</span>
+                    <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="o">.</span><span class="n">req</span><span class="o">.</span><span class="n">get_checksum_from_url</span><span class="p">(</span>
+                        <span class="n">url</span><span class="p">,</span> <span class="n">f</span><span class="s2">&quot;</span><span class="si">{recipe}</span><span class="s2"> [</span><span class="si">{source_idx}</span><span class="s2">.</span><span class="si">{url_idx}</span><span class="s2">]&quot;</span><span class="p">)</span>
+                <span class="p">)</span>
+            <span class="k">except</span> <span class="n">ClientResponseError</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: HTTP </span><span class="si">%s</span><span class="s2"> while downloading url </span><span class="si">%i</span><span class="s2">&quot;</span><span class="p">,</span>
+                            <span class="n">recipe</span><span class="p">,</span> <span class="n">exc</span><span class="o">.</span><span class="n">code</span><span class="p">,</span> <span class="n">url_idx</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">failed_urls</span> <span class="o">+=</span> <span class="p">[</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">((</span><span class="nb">str</span><span class="p">(</span><span class="n">exc</span><span class="o">.</span><span class="n">code</span><span class="p">),</span> <span class="n">url</span><span class="p">))]</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">new_checksums</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">NoValidUrls</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">source_idx</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">new_checksums</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2"> source </span><span class="si">%i</span><span class="s2">: checksum mismatch between alternate urls - </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span>
+                         <span class="n">recipe</span><span class="p">,</span> <span class="n">source_idx</span><span class="p">,</span> <span class="n">new_checksums</span><span class="p">)</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">SourceUrlMismatch</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">source_idx</span><span class="p">)</span>
+
+        <span class="n">new_checksum</span> <span class="o">=</span> <span class="n">new_checksums</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">checksum</span> <span class="o">==</span> <span class="n">new_checksum</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">recipe</span><span class="o">.</span><span class="n">on_branch</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">ChecksumUnchanged</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">recipe</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">checksum</span><span class="p">,</span> <span class="n">new_checksum</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">ChecksumReplaceFailed</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span></div></div>
+
+
+<div class="viewcode-block" id="GitFilter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.GitFilter">[docs]</a><span class="k">class</span> <span class="nc">GitFilter</span><span class="p">(</span><span class="n">Filter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Base class for `Filter` types needing access to the git repo</span>
+
+<span class="sd">    Arguments:</span>
+<span class="sd">       scanner: Scanner we are called from</span>
+<span class="sd">       git_handler: Instance of GitHandler for repo access</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">branch_prefix</span> <span class="o">=</span> <span class="s2">&quot;bump/&quot;</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">:</span> <span class="n">Scanner</span><span class="p">,</span> <span class="n">git_handler</span><span class="p">:</span> <span class="s2">&quot;GitHandler&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">scanner</span><span class="p">)</span>
+        <span class="c1">#: The `GitHandler` class for accessing repo</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">git</span> <span class="o">=</span> <span class="n">git_handler</span>
+
+<div class="viewcode-block" id="GitFilter.branch_name"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.GitFilter.branch_name">[docs]</a>    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">branch_name</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Render branch name from recipe</span>
+
+<span class="sd">        - Replace dashes with underscores (GitPython does not like dash)</span>
+<span class="sd">        - Replace slashes with ``.d/`` slash as Git will use directories when separating</span>
+<span class="sd">          parts with slashes, so ``bump/toolx`` cannot be a branch at the same time as</span>
+<span class="sd">          ``bump/toolx/1.2.x``.</span>
+<span class="sd">          Note: this will break if we have ``recipe/x`` and ``recipe/x.d`` in the repo.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;</span><span class="si">{cls.branch_prefix}</span><span class="s2">{recipe.reldir.replace(&#39;-&#39;, &#39;_&#39;).replace(&#39;/&#39;, &#39;.d/&#39;)}&quot;</span></div>
+
+    <span class="c1"># placate pylint by reiterating abstract method</span>
+<div class="viewcode-block" id="GitFilter.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.GitFilter.apply">[docs]</a>    <span class="nd">@abc</span><span class="o">.</span><span class="n">abstractmethod</span>
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Recipe</span><span class="p">:</span>
+        <span class="k">pass</span></div></div>
+
+
+<div class="viewcode-block" id="ExcludeNoActiveUpdate"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.ExcludeNoActiveUpdate">[docs]</a><span class="k">class</span> <span class="nc">ExcludeNoActiveUpdate</span><span class="p">(</span><span class="n">GitFilter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Allows only recipes that already have an update active</span>
+
+<span class="sd">    Requires that the recipes are loaded from git - recipes with active</span>
+<span class="sd">    updates are those for which a branch with commits newer than master</span>
+<span class="sd">    exists (which is checked by GitLoadRecipe).</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<div class="viewcode-block" id="ExcludeNoActiveUpdate.NoActiveUpdate"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.ExcludeNoActiveUpdate.NoActiveUpdate">[docs]</a>    <span class="k">class</span> <span class="nc">NoActiveUpdate</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Recipe is not currently being updated&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;is not currently being updated&quot;</span>
+        <span class="n">level</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span></div>
+
+<div class="viewcode-block" id="ExcludeNoActiveUpdate.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.ExcludeNoActiveUpdate.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Recipe</span><span class="p">:</span>
+        <span class="n">branch_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">branch_name</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">get_remote_branch</span><span class="p">(</span><span class="n">branch_name</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">NoActiveUpdate</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">recipe</span></div></div>
+
+
+<div class="viewcode-block" id="LoadRecipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.LoadRecipe">[docs]</a><span class="k">class</span> <span class="nc">LoadRecipe</span><span class="p">(</span><span class="n">Filter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Loads the Recipe from the filesystem&quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">:</span> <span class="n">Scanner</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">scanner</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sem</span> <span class="o">=</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">Semaphore</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+
+<div class="viewcode-block" id="LoadRecipe.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.LoadRecipe.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Recipe</span><span class="p">:</span>
+        <span class="k">async</span> <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">sem</span><span class="p">,</span> \
+                   <span class="n">aiofiles</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fdes</span><span class="p">:</span>
+            <span class="n">recipe_text</span> <span class="o">=</span> <span class="k">await</span> <span class="n">fdes</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+        <span class="n">recipe</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="o">.</span><span class="n">run_sp</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">load_from_string</span><span class="p">,</span> <span class="n">recipe_text</span><span class="p">)</span>
+        <span class="n">recipe</span><span class="o">.</span><span class="n">set_original</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">recipe</span></div></div>
+
+
+<div class="viewcode-block" id="GitLoadRecipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.GitLoadRecipe">[docs]</a><span class="k">class</span> <span class="nc">GitLoadRecipe</span><span class="p">(</span><span class="n">GitFilter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Loads `Recipe` from git repo</span>
+
+<span class="sd">    We have three locations for the recipe:</span>
+<span class="sd">    1. master in upstream remote repo</span>
+<span class="sd">    2. auto_update_xxx in local repo</span>
+<span class="sd">    3. auto_update_xxx in origin remote repo</span>
+
+<span class="sd">    If the remote branch exists and is newer than master, we either have an active update</span>
+<span class="sd">    that has not been merged yet, or an update for which the PR has been closed. We</span>
+<span class="sd">    work from there so that we don&#39;t recreate the &quot;same&quot; update.</span>
+
+<span class="sd">    - Always remove the local branch - it&#39;s ephemereal.</span>
+<span class="sd">    - If there is a remote branch that has not been superceded by master, work from there.</span>
+<span class="sd">    - Otherwise load master</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="GitLoadRecipe.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.GitLoadRecipe.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Recipe</span><span class="p">:</span>
+        <span class="n">branch_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">branch_name</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+        <span class="n">remote_branch</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">get_remote_branch</span><span class="p">(</span><span class="n">branch_name</span><span class="p">)</span>
+        <span class="n">local_branch</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">get_local_branch</span><span class="p">(</span><span class="n">branch_name</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">local_branch</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: removing local branch </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">delete_local_branch</span><span class="p">(</span><span class="n">local_branch</span><span class="p">)</span>
+
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: loading from master&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+        <span class="n">recipe_text</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="o">.</span><span class="n">run_io</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">read_from_branch</span><span class="p">,</span>
+                                                 <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">master</span><span class="p">,</span> <span class="n">recipe</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
+        <span class="n">recipe</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="o">.</span><span class="n">run_sp</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">load_from_string</span><span class="p">,</span> <span class="n">recipe_text</span><span class="p">)</span>
+        <span class="n">recipe</span><span class="o">.</span><span class="n">set_original</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="n">remote_branch</span><span class="p">:</span>
+            <span class="k">if</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">branch_is_current</span><span class="p">(</span><span class="n">remote_branch</span><span class="p">,</span> <span class="n">recipe</span><span class="o">.</span><span class="n">dir</span><span class="p">):</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: updating from remote </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">)</span>
+                <span class="n">recipe_text</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="o">.</span><span class="n">run_io</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">read_from_branch</span><span class="p">,</span>
+                                                         <span class="n">remote_branch</span><span class="p">,</span> <span class="n">recipe</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
+                <span class="n">recipe</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="o">.</span><span class="n">run_sp</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">load_from_string</span><span class="p">,</span> <span class="n">recipe_text</span><span class="p">)</span>
+                <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="o">.</span><span class="n">run_io</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">create_local_branch</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">)</span>
+                <span class="n">recipe</span><span class="o">.</span><span class="n">on_branch</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="c1"># Note: If a PR still exists for this, it is silently closed by deleting</span>
+                <span class="c1">#       the branch.</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: deleting outdated remote </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">)</span>
+                <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="o">.</span><span class="n">run_io</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">delete_remote_branch</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">recipe</span></div></div>
+
+
+<div class="viewcode-block" id="WriteRecipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.WriteRecipe">[docs]</a><span class="k">class</span> <span class="nc">WriteRecipe</span><span class="p">(</span><span class="n">Filter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Writes the Recipe to the filesystem&quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">:</span> <span class="n">Scanner</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">scanner</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sem</span> <span class="o">=</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">Semaphore</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+
+<div class="viewcode-block" id="WriteRecipe.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.WriteRecipe.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Recipe</span><span class="p">:</span>
+        <span class="k">async</span> <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">sem</span><span class="p">,</span> \
+                   <span class="n">aiofiles</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fdes</span><span class="p">:</span>
+            <span class="k">await</span> <span class="n">fdes</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">dump</span><span class="p">())</span>
+        <span class="k">return</span> <span class="n">recipe</span></div></div>
+
+
+<div class="viewcode-block" id="GitWriteRecipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.GitWriteRecipe">[docs]</a><span class="k">class</span> <span class="nc">GitWriteRecipe</span><span class="p">(</span><span class="n">GitFilter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Writes `Recipe` to git repo&quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="GitWriteRecipe.NoChanges"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.GitWriteRecipe.NoChanges">[docs]</a>    <span class="k">class</span> <span class="nc">NoChanges</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Recipe had no changes after applying updates&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;had no changes&quot;</span></div>
+
+<div class="viewcode-block" id="GitWriteRecipe.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.GitWriteRecipe.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Recipe</span><span class="p">:</span>
+        <span class="n">branch_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">branch_name</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+        <span class="n">changed</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="k">async</span> <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">lock_working_dir</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">prepare_branch</span><span class="p">(</span><span class="n">branch_name</span><span class="p">)</span>
+            <span class="k">async</span> <span class="k">with</span> <span class="n">aiofiles</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">,</span>
+                                     <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fdes</span><span class="p">:</span>
+                <span class="k">await</span> <span class="n">fdes</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">dump</span><span class="p">())</span>
+            <span class="n">msg</span> <span class="o">=</span> <span class="n">f</span><span class="s2">&quot;Update </span><span class="si">{recipe}</span><span class="s2"> to </span><span class="si">{recipe.version}</span><span class="s2">&quot;</span>
+            <span class="n">changed</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">commit_and_push_changes</span><span class="p">([</span><span class="n">recipe</span><span class="o">.</span><span class="n">path</span><span class="p">],</span> <span class="n">branch_name</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">changed</span><span class="p">:</span>
+            <span class="c1"># CircleCI appears to have problems picking up on our PRs. Let&#39;s wait</span>
+            <span class="c1"># a while before we create the PR, so the pushed branch has time to settle.</span>
+            <span class="k">await</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>  <span class="c1"># let push settle before going on</span>
+        <span class="k">elif</span> <span class="ow">not</span> <span class="n">recipe</span><span class="o">.</span><span class="n">on_branch</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">NoChanges</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">recipe</span></div></div>
+
+
+<div class="viewcode-block" id="CreatePullRequest"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.CreatePullRequest">[docs]</a><span class="k">class</span> <span class="nc">CreatePullRequest</span><span class="p">(</span><span class="n">GitFilter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Creates or Updates PR on GitHub&quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="CreatePullRequest.UpdateInProgress"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.CreatePullRequest.UpdateInProgress">[docs]</a>    <span class="k">class</span> <span class="nc">UpdateInProgress</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;The recipe has an active update PR&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;has update in progress&quot;</span></div>
+
+<div class="viewcode-block" id="CreatePullRequest.UpdateRejected"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.CreatePullRequest.UpdateRejected">[docs]</a>    <span class="k">class</span> <span class="nc">UpdateRejected</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;This update has been rejected previously on Github</span>
+
+<span class="sd">        A PR created by Autobump for this recipe and this version</span>
+<span class="sd">        already exists on Github and has been closed. We take this as</span>
+<span class="sd">        indication that the update should not be repeated</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;had latest updated rejected manually&quot;</span></div>
+
+<div class="viewcode-block" id="CreatePullRequest.FailedToCreatePR"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.CreatePullRequest.FailedToCreatePR">[docs]</a>    <span class="k">class</span> <span class="nc">FailedToCreatePR</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Something went wrong trying to create a new PR on Github.&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;had failure in PR create&quot;</span></div>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">:</span> <span class="n">Scanner</span><span class="p">,</span> <span class="n">git_handler</span><span class="p">:</span> <span class="s2">&quot;GitHandler&quot;</span><span class="p">,</span>
+                 <span class="n">github_handler</span><span class="p">:</span> <span class="s2">&quot;GitHubHandler&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">scanner</span><span class="p">,</span> <span class="n">git_handler</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ghub</span> <span class="o">=</span> <span class="n">github_handler</span>
+
+<div class="viewcode-block" id="CreatePullRequest.async_init"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.CreatePullRequest.async_init">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">async_init</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Create gidget GithubAPI object from session&quot;&quot;&quot;</span>
+        <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">ghub</span><span class="o">.</span><span class="n">login</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="o">.</span><span class="n">req</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="o">.</span><span class="n">req</span><span class="o">.</span><span class="n">USER_AGENT</span><span class="p">)</span>
+        <span class="k">await</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>  <span class="c1"># let API settle</span></div>
+
+<div class="viewcode-block" id="CreatePullRequest.render_deps_diff"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.CreatePullRequest.render_deps_diff">[docs]</a>    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">render_deps_diff</span><span class="p">(</span><span class="n">recipe</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Renders a &quot;diff&quot; of the recipes upstream dependencies.</span>
+
+<span class="sd">        This relies on the &#39;depends&#39; data structure in the recipe&#39;s</span>
+<span class="sd">        ``version_data``. This structure is expected to be a dict with</span>
+<span class="sd">        two keys &#39;host&#39; and &#39;run&#39;, each of which contain dict of</span>
+<span class="sd">        package to version dependency mappings. The &#39;depends&#39; data can</span>
+<span class="sd">        be created by the **hoster** (currently done by CPAN and CRAN)</span>
+<span class="sd">        or filled in later by the `FetchUpstreamDependencies` filter</span>
+<span class="sd">        (currently for PyPi).</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">diffset</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Set</span><span class="p">[</span><span class="nb">str</span><span class="p">]]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;host&#39;</span><span class="p">:</span> <span class="nb">set</span><span class="p">(),</span> <span class="s1">&#39;run&#39;</span><span class="p">:</span> <span class="nb">set</span><span class="p">()}</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">recipe</span><span class="o">.</span><span class="n">version_data</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: dependency diff not rendered (no version_data)&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">fname</span> <span class="ow">in</span> <span class="n">recipe</span><span class="o">.</span><span class="n">version_data</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">fname</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">recipe</span><span class="o">.</span><span class="n">orig</span><span class="o">.</span><span class="n">version_data</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: dependency diff not rendered (no orig.version_data)&quot;</span><span class="p">,</span>
+                             <span class="n">recipe</span><span class="p">)</span>
+                <span class="k">continue</span>
+            <span class="n">new</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">version_data</span><span class="p">[</span><span class="n">fname</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;depends&#39;</span><span class="p">)</span>
+            <span class="n">orig</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">orig</span><span class="o">.</span><span class="n">version_data</span><span class="p">[</span><span class="n">fname</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;depends&#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">new</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">orig</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: dependency diff not rendered (no depends in version_data)&quot;</span><span class="p">,</span>
+                             <span class="n">recipe</span><span class="p">)</span>
+                <span class="k">continue</span>
+            <span class="k">for</span> <span class="n">kind</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;host&#39;</span><span class="p">,</span> <span class="s1">&#39;run&#39;</span><span class="p">):</span>
+                <span class="n">deps</span><span class="p">:</span> <span class="n">Set</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+                <span class="n">deps</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">new</span><span class="p">[</span><span class="n">kind</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+                <span class="n">deps</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">orig</span><span class="p">[</span><span class="n">kind</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+                <span class="k">for</span> <span class="n">dep</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="n">dep</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">new</span><span class="p">[</span><span class="n">kind</span><span class="p">]:</span>
+                        <span class="n">diffset</span><span class="p">[</span><span class="n">kind</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s2">&quot;-   - </span><span class="si">{}</span><span class="s2"> </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">dep</span><span class="p">,</span> <span class="n">orig</span><span class="p">[</span><span class="n">kind</span><span class="p">][</span><span class="n">dep</span><span class="p">]))</span>
+                    <span class="k">elif</span> <span class="n">dep</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">orig</span><span class="p">[</span><span class="n">kind</span><span class="p">]:</span>
+                        <span class="n">diffset</span><span class="p">[</span><span class="n">kind</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s2">&quot;+   - </span><span class="si">{}</span><span class="s2"> </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">dep</span><span class="p">,</span> <span class="n">new</span><span class="p">[</span><span class="n">kind</span><span class="p">][</span><span class="n">dep</span><span class="p">]))</span>
+                    <span class="k">elif</span> <span class="n">orig</span><span class="p">[</span><span class="n">kind</span><span class="p">][</span><span class="n">dep</span><span class="p">]</span> <span class="o">!=</span> <span class="n">new</span><span class="p">[</span><span class="n">kind</span><span class="p">][</span><span class="n">dep</span><span class="p">]:</span>
+                        <span class="n">diffset</span><span class="p">[</span><span class="n">kind</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s2">&quot;-   - </span><span class="si">{dep}</span><span class="s2"> </span><span class="si">{}</span><span class="se">\n</span><span class="s2">&quot;</span>
+                                          <span class="s2">&quot;+   - </span><span class="si">{dep}</span><span class="s2"> </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">orig</span><span class="p">[</span><span class="n">kind</span><span class="p">][</span><span class="n">dep</span><span class="p">],</span> <span class="n">new</span><span class="p">[</span><span class="n">kind</span><span class="p">][</span><span class="n">dep</span><span class="p">],</span>
+                                                                  <span class="n">dep</span><span class="o">=</span><span class="n">dep</span><span class="p">))</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="k">for</span> <span class="n">kind</span><span class="p">,</span> <span class="n">lines</span> <span class="ow">in</span> <span class="n">diffset</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="n">lines</span><span class="p">:</span>
+                <span class="n">text</span> <span class="o">+=</span> <span class="s2">&quot;  </span><span class="si">{}</span><span class="s2">:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">kind</span><span class="p">)</span>
+                <span class="n">text</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">lines</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">:]))</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">text</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: dependency diff not rendered (all good)&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">text</span></div>
+
+<div class="viewcode-block" id="CreatePullRequest.get_github_author"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.CreatePullRequest.get_github_author">[docs]</a>    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">get_github_author</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+        <span class="sd">&quot;&quot;&quot;Fetches upstream Github account name if applicable</span>
+
+<span class="sd">        For recipes with upstream sources hosted on Github, we can extract</span>
+<span class="sd">        the account name from the source URL, so that we can add an @mention</span>
+<span class="sd">        notifying the upstream author of the update.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">for</span> <span class="n">ver</span> <span class="ow">in</span> <span class="n">recipe</span><span class="o">.</span><span class="n">version_data</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
+            <span class="k">if</span> <span class="s1">&#39;hoster&#39;</span> <span class="ow">in</span> <span class="n">ver</span> <span class="ow">and</span> <span class="n">ver</span><span class="p">[</span><span class="s1">&#39;hoster&#39;</span><span class="p">]</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;Github&#39;</span><span class="p">):</span>
+                <span class="k">return</span> <span class="n">ver</span><span class="p">[</span><span class="s1">&#39;vals&#39;</span><span class="p">][</span><span class="s1">&#39;account&#39;</span><span class="p">]</span>
+        <span class="k">return</span> <span class="kc">None</span></div>
+
+<div class="viewcode-block" id="CreatePullRequest.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.CreatePullRequest.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Recipe</span><span class="p">:</span>
+        <span class="n">branch_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">branch_name</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">jinja</span><span class="o">.</span><span class="n">get_template</span><span class="p">(</span><span class="s2">&quot;bump_pr.md&quot;</span><span class="p">)</span>
+        <span class="n">author</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_github_author</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+
+        <span class="n">body</span> <span class="o">=</span> <span class="n">template</span><span class="o">.</span><span class="n">render</span><span class="p">({</span>
+            <span class="s1">&#39;r&#39;</span><span class="p">:</span> <span class="n">recipe</span><span class="p">,</span>
+            <span class="s1">&#39;recipe_relurl&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">ghub</span><span class="o">.</span><span class="n">get_file_relurl</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">dir</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">),</span>
+            <span class="s1">&#39;author&#39;</span><span class="p">:</span> <span class="n">author</span><span class="p">,</span>
+            <span class="s1">&#39;author_is_member&#39;</span><span class="p">:</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">ghub</span><span class="o">.</span><span class="n">is_member</span><span class="p">(</span><span class="n">author</span><span class="p">),</span>
+            <span class="s1">&#39;dependency_diff&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">render_deps_diff</span><span class="p">(</span><span class="n">recipe</span><span class="p">),</span>
+        <span class="p">})</span>
+        <span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;autobump&quot;</span><span class="p">]</span>
+        <span class="n">title</span> <span class="o">=</span> <span class="n">f</span><span class="s2">&quot;Update </span><span class="si">{recipe}</span><span class="s2"> to </span><span class="si">{recipe.version}</span><span class="s2">&quot;</span>
+
+        <span class="c1"># check if we already have an open PR (=&gt; update in progress)</span>
+        <span class="n">pullreqs</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">ghub</span><span class="o">.</span><span class="n">get_prs</span><span class="p">(</span><span class="n">from_branch</span><span class="o">=</span><span class="n">branch_name</span><span class="p">,</span> <span class="n">from_user</span><span class="o">=</span><span class="s2">&quot;bioconda&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">pullreqs</span><span class="p">:</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">pullreqs</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Multiple PRs updating </span><span class="si">%s</span><span class="s2">: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span>
+                             <span class="n">recipe</span><span class="p">,</span>
+                             <span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">pull</span><span class="p">[</span><span class="s1">&#39;number&#39;</span><span class="p">])</span> <span class="k">for</span> <span class="n">pull</span> <span class="ow">in</span> <span class="n">pullreqs</span><span class="p">))</span>
+            <span class="k">for</span> <span class="n">pull</span> <span class="ow">in</span> <span class="n">pullreqs</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Found PR </span><span class="si">%i</span><span class="s2"> updating </span><span class="si">%s</span><span class="s2">: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span>
+                             <span class="n">pull</span><span class="p">[</span><span class="s2">&quot;number&quot;</span><span class="p">],</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">pull</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">])</span>
+            <span class="c1"># update the PR if title or body changed</span>
+            <span class="n">pull</span> <span class="o">=</span> <span class="n">pullreqs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">body</span> <span class="o">==</span> <span class="n">pull</span><span class="p">[</span><span class="s2">&quot;body&quot;</span><span class="p">]:</span>
+                <span class="n">body</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="k">if</span> <span class="n">title</span> <span class="o">==</span> <span class="n">pull</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]:</span>
+                <span class="n">title</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">body</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">title</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">):</span>
+                <span class="k">if</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">ghub</span><span class="o">.</span><span class="n">modify_issue</span><span class="p">(</span><span class="n">number</span><span class="o">=</span><span class="n">pull</span><span class="p">[</span><span class="s1">&#39;number&#39;</span><span class="p">],</span> <span class="n">body</span><span class="o">=</span><span class="n">body</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="n">title</span><span class="p">):</span>
+                    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Updated PR </span><span class="si">%i</span><span class="s2"> updating </span><span class="si">%s</span><span class="s2"> to </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span>
+                                <span class="n">pull</span><span class="p">[</span><span class="s1">&#39;number&#39;</span><span class="p">],</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">recipe</span><span class="o">.</span><span class="n">version</span><span class="p">)</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Failed to update PR </span><span class="si">%i</span><span class="s2"> with title=</span><span class="si">%s</span><span class="s2"> and body=</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span>
+                                 <span class="n">pull</span><span class="p">[</span><span class="s1">&#39;number&#39;</span><span class="p">],</span> <span class="n">title</span><span class="p">,</span> <span class="n">body</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Not updating PR </span><span class="si">%i</span><span class="s2"> updating </span><span class="si">%s</span><span class="s2"> - no changes&quot;</span><span class="p">,</span>
+                             <span class="n">pull</span><span class="p">[</span><span class="s1">&#39;number&#39;</span><span class="p">],</span> <span class="n">recipe</span><span class="p">)</span>
+
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">UpdateInProgress</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+
+        <span class="c1"># check for matching closed PR (=&gt; update rejected)</span>
+        <span class="n">pullreqs</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">ghub</span><span class="o">.</span><span class="n">get_prs</span><span class="p">(</span><span class="n">from_branch</span><span class="o">=</span><span class="n">branch_name</span><span class="p">,</span> <span class="n">state</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">ghub</span><span class="o">.</span><span class="n">STATE</span><span class="o">.</span><span class="n">closed</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">version</span> <span class="ow">in</span> <span class="n">pull</span><span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">pull</span> <span class="ow">in</span> <span class="n">pullreqs</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">UpdateRejected</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+
+        <span class="c1"># finally, create new PR</span>
+        <span class="n">pull</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">ghub</span><span class="o">.</span><span class="n">create_pr</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="n">title</span><span class="p">,</span>
+                                         <span class="n">from_branch</span><span class="o">=</span><span class="n">branch_name</span><span class="p">,</span>
+                                         <span class="n">body</span><span class="o">=</span><span class="n">body</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">pull</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">FailedToCreatePR</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+
+        <span class="c1"># set labels (can&#39;t do that in create_pr as they are part of issue API)</span>
+        <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">ghub</span><span class="o">.</span><span class="n">modify_issue</span><span class="p">(</span><span class="n">number</span><span class="o">=</span><span class="n">pull</span><span class="p">[</span><span class="s1">&#39;number&#39;</span><span class="p">],</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
+
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Created PR </span><span class="si">%i</span><span class="s2"> updating </span><span class="si">%s</span><span class="s2"> to </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">pull</span><span class="p">[</span><span class="s1">&#39;number&#39;</span><span class="p">],</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">recipe</span><span class="o">.</span><span class="n">version</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">recipe</span></div></div>
+
+
+<div class="viewcode-block" id="MaxUpdates"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.MaxUpdates">[docs]</a><span class="k">class</span> <span class="nc">MaxUpdates</span><span class="p">(</span><span class="n">Filter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Terminate loop after **max_updates** Recipes have been updated.&quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">:</span> <span class="n">Scanner</span><span class="p">,</span> <span class="n">max_updates</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">scanner</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">max</span> <span class="o">=</span> <span class="n">max_updates</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Will exit after </span><span class="si">%s</span><span class="s2"> updated recipes&quot;</span><span class="p">,</span> <span class="n">max_updates</span><span class="p">)</span>
+
+<div class="viewcode-block" id="MaxUpdates.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update.html#bioconda_utils.update.MaxUpdates.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Recipe</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">max</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">count</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">max</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Reached update limit </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">count</span><span class="p">)</span>
+            <span class="k">raise</span> <span class="n">EndProcessing</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">recipe</span></div></div>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/bioconda_utils/update.py" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

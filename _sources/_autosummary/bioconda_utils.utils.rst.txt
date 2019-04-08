@@ -1,7 +1,10 @@
-bioconda\_utils.utils
-=====================
+utils
+=====
 
+
+.. currentmodule:: bioconda_utils.utils
 .. automodule:: bioconda_utils.utils
+   :members:
 
    
    
@@ -73,3 +76,6 @@ bioconda\_utils.utils
       DivergentBuildsError
    
    
+
+
+   .. rubric:: Documentation

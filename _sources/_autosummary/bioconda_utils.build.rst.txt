@@ -1,7 +1,10 @@
-bioconda\_utils.build
-=====================
+build
+=====
 
+
+.. currentmodule:: bioconda_utils.build
 .. automodule:: bioconda_utils.build
+   :members:
 
    
    
@@ -28,3 +31,6 @@ bioconda\_utils.build
    
    
    
+
+
+   .. rubric:: Documentation

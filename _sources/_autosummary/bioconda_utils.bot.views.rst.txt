@@ -1,7 +1,10 @@
-bioconda\_utils.bot.views
-=========================
+views
+=====
 
+
+.. currentmodule:: bioconda_utils.bot.views
 .. automodule:: bioconda_utils.bot.views
+   :members:
 
    
    
@@ -21,3 +24,6 @@ bioconda\_utils.bot.views
    
    
    
+
+
+   .. rubric:: Documentation

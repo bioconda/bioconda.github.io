@@ -1,7 +1,10 @@
-bioconda\_utils.update
-======================
+update
+======
 
+
+.. currentmodule:: bioconda_utils.update
 .. automodule:: bioconda_utils.update
+   :members:
 
    
    
@@ -35,3 +38,6 @@ bioconda\_utils.update
    
    
    
+
+
+   .. rubric:: Documentation

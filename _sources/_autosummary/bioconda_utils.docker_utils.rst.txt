@@ -1,7 +1,10 @@
-bioconda\_utils.docker\_utils
-=============================
+docker\_utils
+=============
 
+
+.. currentmodule:: bioconda_utils.docker_utils
 .. automodule:: bioconda_utils.docker_utils
+   :members:
 
    
    
@@ -34,3 +37,6 @@ bioconda\_utils.docker\_utils
       DockerCalledProcessError
    
    
+
+
+   .. rubric:: Documentation

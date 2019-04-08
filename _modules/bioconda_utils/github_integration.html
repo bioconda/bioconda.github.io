@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>bioconda_utils.github_integration &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../index.html">
+    <img class="logo" src="../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html">Updating recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../cb3.html">Conda build v3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../../conda-recipe_index.html">Recipe Index</a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for bioconda_utils.github_integration</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">os</span>
+
+<span class="kn">import</span> <span class="nn">github</span>
+
+
+<span class="k">def</span> <span class="nf">_n</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Easy conversion of None to NotSet object used by PyGithub; otherwise pass</span>
+<span class="sd">    through unchanged.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">x</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">github</span><span class="o">.</span><span class="n">GithubObject</span><span class="o">.</span><span class="n">NotSet</span>
+    <span class="k">return</span> <span class="n">x</span>
+
+
+<div class="viewcode-block" id="push_comment"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.github_integration.html#bioconda_utils.github_integration.push_comment">[docs]</a><span class="k">def</span> <span class="nf">push_comment</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="n">repo</span><span class="p">,</span> <span class="n">pull_request_number</span><span class="p">,</span> <span class="n">msg</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Expects GITHUB_TOKEN to exist as an env var, and uses it to authenticate.</span>
+
+<span class="sd">    user : str</span>
+
+<span class="sd">    repo : str</span>
+
+<span class="sd">    pull_request_number : int</span>
+
+<span class="sd">    msg : Markdown-formatted message</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">if</span> <span class="s1">&#39;GITHUB_TOKEN&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;GITHUB_TOKEN not defined as an env var&quot;</span><span class="p">)</span>
+
+    <span class="n">g</span> <span class="o">=</span> <span class="n">github</span><span class="o">.</span><span class="n">Github</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;GITHUB_TOKEN&#39;</span><span class="p">])</span>
+    <span class="n">user</span> <span class="o">=</span> <span class="n">g</span><span class="o">.</span><span class="n">get_user</span><span class="p">(</span><span class="n">user</span><span class="p">)</span>
+    <span class="n">repo</span> <span class="o">=</span> <span class="n">user</span><span class="o">.</span><span class="n">get_repo</span><span class="p">(</span><span class="n">repo</span><span class="p">)</span>
+    <span class="n">pr</span> <span class="o">=</span> <span class="n">repo</span><span class="o">.</span><span class="n">get_pull</span><span class="p">(</span><span class="n">pull_request_number</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">pr</span><span class="o">.</span><span class="n">create_issue_comment</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="update_status"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.github_integration.html#bioconda_utils.github_integration.update_status">[docs]</a><span class="k">def</span> <span class="nf">update_status</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="n">repo</span><span class="p">,</span> <span class="n">commit</span><span class="p">,</span> <span class="n">state</span><span class="p">,</span> <span class="n">context</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                  <span class="n">target_url</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Expects GITHUB_TOKEN to exist as an env var, and uses it to authenticate.</span>
+
+<span class="sd">    user : str</span>
+
+<span class="sd">    repo : str</span>
+
+<span class="sd">    commit : str</span>
+<span class="sd">        Full hash of the commit</span>
+
+<span class="sd">    state :  pending | success | error | failure</span>
+
+<span class="sd">    context : str</span>
+<span class="sd">        Arbitrary, but multiple calls with different states but the same</span>
+<span class="sd">        context will update the same context.</span>
+
+<span class="sd">    description : str</span>
+<span class="sd">        Optional description</span>
+
+<span class="sd">    target_url : str</span>
+<span class="sd">        Optional url with more info</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="s1">&#39;GITHUB_TOKEN&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;GITHUB_TOKEN not defined as an env var&quot;</span><span class="p">)</span>
+
+    <span class="n">g</span> <span class="o">=</span> <span class="n">github</span><span class="o">.</span><span class="n">Github</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;GITHUB_TOKEN&#39;</span><span class="p">])</span>
+    <span class="n">user</span> <span class="o">=</span> <span class="n">g</span><span class="o">.</span><span class="n">get_user</span><span class="p">(</span><span class="n">user</span><span class="p">)</span>
+    <span class="n">repo</span> <span class="o">=</span> <span class="n">user</span><span class="o">.</span><span class="n">get_repo</span><span class="p">(</span><span class="n">repo</span><span class="p">)</span>
+    <span class="n">commit</span> <span class="o">=</span> <span class="n">repo</span><span class="o">.</span><span class="n">get_commit</span><span class="p">(</span><span class="n">commit</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">commit</span><span class="o">.</span><span class="n">create_status</span><span class="p">(</span>
+        <span class="n">state</span><span class="o">=</span><span class="n">state</span><span class="p">,</span>
+        <span class="n">context</span><span class="o">=</span><span class="n">_n</span><span class="p">(</span><span class="n">context</span><span class="p">),</span>
+        <span class="n">description</span><span class="o">=</span><span class="n">_n</span><span class="p">(</span><span class="n">description</span><span class="p">),</span>
+        <span class="n">target_url</span><span class="o">=</span><span class="n">_n</span><span class="p">(</span><span class="n">target_url</span><span class="p">))</span></div>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">argparse</span>
+    <span class="n">ap</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">()</span>
+    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;commit&#39;</span><span class="p">)</span>
+    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--state&#39;</span><span class="p">)</span>
+    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--context&#39;</span><span class="p">)</span>
+    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--description&#39;</span><span class="p">)</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">ap</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+    <span class="n">status</span> <span class="o">=</span> <span class="n">update_status</span><span class="p">(</span>
+        <span class="s1">&#39;bioconda&#39;</span><span class="p">,</span> <span class="s1">&#39;bioconda-recipes&#39;</span><span class="p">,</span> <span class="n">args</span><span class="o">.</span><span class="n">commit</span><span class="p">,</span> <span class="n">args</span><span class="o">.</span><span class="n">state</span><span class="p">,</span> <span class="n">args</span><span class="o">.</span><span class="n">context</span><span class="p">,</span> <span class="n">args</span><span class="o">.</span><span class="n">description</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">status</span><span class="p">)</span>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/bioconda_utils/github_integration.py" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

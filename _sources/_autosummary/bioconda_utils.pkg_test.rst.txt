@@ -1,7 +1,10 @@
-bioconda\_utils.pkg\_test
-=========================
+pkg\_test
+=========
 
+
+.. currentmodule:: bioconda_utils.pkg_test
 .. automodule:: bioconda_utils.pkg_test
+   :members:
 
    
    
@@ -22,3 +25,6 @@ bioconda\_utils.pkg\_test
    
    
    
+
+
+   .. rubric:: Documentation

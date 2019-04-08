@@ -1,7 +1,10 @@
-bioconda\_utils.update\_pinnings
-================================
+update\_pinnings
+================
 
+
+.. currentmodule:: bioconda_utils.update_pinnings
 .. automodule:: bioconda_utils.update_pinnings
+   :members:
 
    
    
@@ -30,3 +33,6 @@ bioconda\_utils.update\_pinnings
    
    
    
+
+
+   .. rubric:: Documentation

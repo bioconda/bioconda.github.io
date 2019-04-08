@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>bioconda_utils.build &#8212; Bioconda  documentation</title>
+    <title>build &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/style.css" />
@@ -16,8 +16,8 @@
     <script type="text/javascript" src="../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="bioconda_utils.circleci" href="bioconda_utils.circleci.html" />
-    <link rel="prev" title="bioconda_utils.bioconductor_skeleton" href="bioconda_utils.bioconductor_skeleton.html" />
+    <link rel="next" title="circleci" href="bioconda_utils.circleci.html" />
+    <link rel="prev" title="bioconductor_skeleton" href="bioconda_utils.bioconductor_skeleton.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
@@ -78,31 +78,31 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../developer.html">Developer Docs</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bioconda_utils.bot</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cli.html">bioconda_utils.cli</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.async.html">bioconda_utils.async</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconda_utils.bioconductor_skeleton</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">bioconda_utils.build</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.circleci.html">bioconda_utils.circleci</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cli.html">bioconda_utils.cli</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cran_skeleton.html">bioconda_utils.cran_skeleton</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.docker_utils.html">bioconda_utils.docker_utils</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githandler.html">bioconda_utils.githandler</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.github_integration.html">bioconda_utils.github_integration</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githubhandler.html">bioconda_utils.githubhandler</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">bioconda_utils.graph</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">bioconda_utils.hosters</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint_functions.html">bioconda_utils.lint_functions</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">bioconda_utils.linting</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">bioconda_utils.pkg_test</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">bioconda_utils.recipe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update.html">bioconda_utils.update</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">bioconda_utils.update_pinnings</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">bioconda_utils.upload</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.utils.html">bioconda_utils.utils</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cli.html">cli</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.async.html">async</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">build</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.circleci.html">circleci</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cli.html">cli</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cran_skeleton.html">cran_skeleton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.docker_utils.html">docker_utils</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githandler.html">githandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.github_integration.html">github_integration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githubhandler.html">githubhandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">hosters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint_functions.html">lint_functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update.html">update</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.utils.html">utils</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.bot.html">bioconda_utils.bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
 </ul>
 </li>
 </ul>
@@ -133,7 +133,7 @@
           <div class="body" role="main">
             
   <div class="section" id="module-bioconda_utils.build">
-<span id="bioconda-utils-build"></span><h1>bioconda_utils.build<a class="headerlink" href="#module-bioconda_utils.build" title="Permalink to this headline">¶</a></h1>
+<span id="build"></span><h1>build<a class="headerlink" href="#module-bioconda_utils.build" title="Permalink to this headline">¶</a></h1>
 <p>Package Builder</p>
 <p class="rubric">Functions</p>
 <table class="longtable docutils align-center">
@@ -142,10 +142,10 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">build</span></code>(recipe, recipe_folder[, pkg_paths, …])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.build.build" title="bioconda_utils.build.build"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build</span></code></a>(recipe, recipe_folder[, pkg_paths, …])</p></td>
 <td><p>Build a single recipe for a single env</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_recipes</span></code>(recipe_folder, config[, …])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.build.build_recipes" title="bioconda_utils.build.build_recipes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_recipes</span></code></a>(recipe_folder, config[, …])</p></td>
 <td><p>Build one or many bioconda packages.</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">purge</span></code>()</p></td>
@@ -160,11 +160,86 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">BuildResult</span></code>(success, mulled_images)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.build.BuildResult" title="bioconda_utils.build.BuildResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BuildResult</span></code></a>(success, mulled_images)</p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
+<p class="rubric">Documentation</p>
+<dl class="class">
+<dt id="bioconda_utils.build.BuildResult">
+<em class="property">class </em><code class="descclassname">bioconda_utils.build.</code><code class="descname">BuildResult</code><span class="sig-paren">(</span><em>success</em>, <em>mulled_images</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.build.BuildResult" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="attribute">
+<dt id="bioconda_utils.build.BuildResult.mulled_images">
+<code class="descname">mulled_images</code><a class="headerlink" href="#bioconda_utils.build.BuildResult.mulled_images" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 1</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.build.BuildResult.success">
+<code class="descname">success</code><a class="headerlink" href="#bioconda_utils.build.BuildResult.success" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 0</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.build.build">
+<code class="descclassname">bioconda_utils.build.</code><code class="descname">build</code><span class="sig-paren">(</span><em>recipe</em>, <em>recipe_folder</em>, <em>pkg_paths=None</em>, <em>testonly=False</em>, <em>mulled_test=True</em>, <em>force=False</em>, <em>channels=None</em>, <em>docker_builder=None</em>, <em>_raise_error=False</em>, <em>lint_args=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/build.html#build"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.build.build" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build a single recipe for a single env</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>recipe</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Path to recipe</p></li>
+<li><p><strong>pkgs</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.7)"><em>list</em></a>) – List of packages to build</p></li>
+<li><p><strong>testonly</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, skip building and instead run the test described in the
+meta.yaml.</p></li>
+<li><p><strong>mulled_test</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – Test the built package in a minimal docker container</p></li>
+<li><p><strong>force</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, the recipe will be built even if it already exists. Note that
+typically you’d want to bump the build number rather than force
+a build.</p></li>
+<li><p><strong>channels</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.7)"><em>list</em></a>) – Channels to include via the <code class="docutils literal notranslate"><span class="pre">--channel</span></code> argument to conda-build. Higher
+priority channels should come first.</p></li>
+<li><p><strong>docker_builder</strong> (<em>docker_utils.RecipeBuilder object</em>) – Use this docker builder to build the recipe, copying over the built
+recipe to the host’s conda-bld directory.</p></li>
+<li><p><strong>_raise_error</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – Instead of returning a failed build result, raise the error instead.
+Used for testing.</p></li>
+<li><p><strong>lint_args</strong> (<em>linting.LintArgs | None</em>) – If not None, then apply linting just before building.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.build.build_recipes">
+<code class="descclassname">bioconda_utils.build.</code><code class="descname">build_recipes</code><span class="sig-paren">(</span><em>recipe_folder</em>, <em>config</em>, <em>packages='*'</em>, <em>mulled_test=True</em>, <em>testonly=False</em>, <em>force=False</em>, <em>docker_builder=None</em>, <em>label=None</em>, <em>anaconda_upload=False</em>, <em>mulled_upload_target=None</em>, <em>check_channels=None</em>, <em>lint_args=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/build.html#build_recipes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.build.build_recipes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build one or many bioconda packages.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>recipe_folder</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Directory containing possibly many, and possibly nested, recipes.</p></li>
+<li><p><strong>config</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.7)"><em>dict</em></a>) – If string, path to config file; if dict then assume it’s an
+already-parsed config file.</p></li>
+<li><p><strong>packages</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Glob indicating which packages should be considered. Note that packages
+matching the glob will still be filtered out by any blacklists
+specified in the config.</p></li>
+<li><p><strong>mulled_test</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, then test the package in a minimal container.</p></li>
+<li><p><strong>testonly</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, only run test.</p></li>
+<li><p><strong>force</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, build the recipe even though it would otherwise be filtered
+out.</p></li>
+<li><p><strong>docker_builder</strong> (<em>docker_utils.RecipeBuilder instance</em>) – If not None, then use this RecipeBuilder to build all recipes.</p></li>
+<li><p><strong>label</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Optional label to use when uploading packages. Useful for testing and
+debugging. Default is to use the “main” label.</p></li>
+<li><p><strong>anaconda_upload</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, upload the package to anaconda.org.</p></li>
+<li><p><strong>mulled_upload_target</strong> (<a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – If not None, upload the mulled docker image to the given target on quay.io.</p></li>
+<li><p><strong>check_channels</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.7)"><em>list</em></a>) – Channels to check to see if packages already exist in them. If None,
+then defaults to every channel in the config file except “defaults”.</p></li>
+<li><p><strong>lint_args</strong> (<em>linting.LintArgs | None</em>) – If not None, then apply linting just before building.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
 </div>
 
 

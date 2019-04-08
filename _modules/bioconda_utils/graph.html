@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>bioconda_utils.graph &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../index.html">
+    <img class="logo" src="../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html">Updating recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../cb3.html">Conda build v3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../../conda-recipe_index.html">Recipe Index</a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for bioconda_utils.graph</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Construction and Manipulation of Package/Recipe Graphs</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">defaultdict</span>
+<span class="kn">from</span> <span class="nn">itertools</span> <span class="k">import</span> <span class="n">chain</span>
+
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">utils</span>
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
+
+
+<div class="viewcode-block" id="build"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.graph.html#bioconda_utils.graph.build">[docs]</a><span class="k">def</span> <span class="nf">build</span><span class="p">(</span><span class="n">recipes</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">blacklist</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">restrict</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Returns the DAG of recipe paths and a dictionary that maps package names to</span>
+<span class="sd">    lists of recipe paths to all defined versions of the package.  defined</span>
+<span class="sd">    versions.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    recipes : iterable</span>
+<span class="sd">        An iterable of recipe paths, typically obtained via `get_recipes()`</span>
+
+<span class="sd">    blacklist : set</span>
+<span class="sd">        Package names to skip</span>
+
+<span class="sd">    restrict : bool</span>
+<span class="sd">        If True, then dependencies will be included in the DAG only if they are</span>
+<span class="sd">        themselves in `recipes`. Otherwise, include all dependencies of</span>
+<span class="sd">        `recipes`.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    dag : nx.DiGraph</span>
+<span class="sd">        Directed graph of packages -- nodes are package names; edges are</span>
+<span class="sd">        dependencies (both run and build dependencies)</span>
+
+<span class="sd">    name2recipe : dict</span>
+<span class="sd">        Dictionary mapping package names to recipe paths. These recipe path</span>
+<span class="sd">        values are lists and contain paths to all defined versions.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Generating DAG&quot;</span><span class="p">)</span>
+    <span class="n">recipes</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">recipes</span><span class="p">)</span>
+    <span class="n">metadata</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">utils</span><span class="o">.</span><span class="n">parallel_iter</span><span class="p">(</span><span class="n">utils</span><span class="o">.</span><span class="n">load_meta_fast</span><span class="p">,</span> <span class="n">recipes</span><span class="p">,</span> <span class="s2">&quot;Loading Recipes&quot;</span><span class="p">))</span>
+
+    <span class="k">if</span> <span class="n">blacklist</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">blacklist</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+
+    <span class="c1"># name2recipe is meta.yaml&#39;s package:name mapped to the recipe path.</span>
+    <span class="c1">#</span>
+    <span class="c1"># A name should map to exactly one recipe. It is possible for multiple</span>
+    <span class="c1"># names to map to the same recipe, if the package name somehow depends on</span>
+    <span class="c1"># the environment.</span>
+    <span class="c1">#</span>
+    <span class="c1"># Note that this may change once we support conda-build 3.</span>
+    <span class="n">name2recipe</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">set</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">meta</span><span class="p">,</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">metadata</span><span class="p">:</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">meta</span><span class="p">[</span><span class="s2">&quot;package&quot;</span><span class="p">][</span><span class="s2">&quot;name&quot;</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">blacklist</span><span class="p">:</span>
+            <span class="n">name2recipe</span><span class="p">[</span><span class="n">name</span><span class="p">]</span><span class="o">.</span><span class="n">update</span><span class="p">([</span><span class="n">recipe</span><span class="p">])</span>
+
+    <span class="k">def</span> <span class="nf">get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="n">sec</span><span class="p">):</span>
+        <span class="n">reqs</span> <span class="o">=</span> <span class="n">meta</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;requirements&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">reqs</span><span class="p">:</span>
+            <span class="k">return</span> <span class="p">[]</span>
+        <span class="n">deps</span> <span class="o">=</span> <span class="n">reqs</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">sec</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">deps</span><span class="p">:</span>
+            <span class="k">return</span> <span class="p">[]</span>
+        <span class="k">return</span> <span class="p">[</span><span class="n">dep</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">dep</span> <span class="ow">in</span> <span class="n">deps</span> <span class="k">if</span> <span class="n">dep</span><span class="p">]</span>
+
+
+    <span class="k">def</span> <span class="nf">get_inner_deps</span><span class="p">(</span><span class="n">dependencies</span><span class="p">):</span>
+        <span class="n">dependencies</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">dependencies</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">dep</span> <span class="ow">in</span> <span class="n">dependencies</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">dep</span> <span class="ow">in</span> <span class="n">name2recipe</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">restrict</span><span class="p">:</span>
+                <span class="k">yield</span> <span class="n">dep</span>
+
+    <span class="n">dag</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>
+    <span class="n">dag</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">(</span><span class="n">meta</span><span class="p">[</span><span class="s2">&quot;package&quot;</span><span class="p">][</span><span class="s2">&quot;name&quot;</span><span class="p">]</span>
+                       <span class="k">for</span> <span class="n">meta</span><span class="p">,</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">metadata</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">meta</span><span class="p">,</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">metadata</span><span class="p">:</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">meta</span><span class="p">[</span><span class="s2">&quot;package&quot;</span><span class="p">][</span><span class="s2">&quot;name&quot;</span><span class="p">]</span>
+        <span class="n">dag</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">(</span>
+            <span class="p">(</span><span class="n">dep</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">dep</span> <span class="ow">in</span> <span class="nb">set</span><span class="p">(</span><span class="n">chain</span><span class="p">(</span>
+                <span class="n">get_inner_deps</span><span class="p">(</span><span class="n">get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="s2">&quot;build&quot;</span><span class="p">)),</span>
+                <span class="n">get_inner_deps</span><span class="p">(</span><span class="n">get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="s2">&quot;host&quot;</span><span class="p">)),</span>
+                <span class="n">get_inner_deps</span><span class="p">(</span><span class="n">get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="s2">&quot;run&quot;</span><span class="p">)),</span>
+            <span class="p">))</span>
+        <span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">dag</span><span class="p">,</span> <span class="n">name2recipe</span></div>
+
+
+<span class="k">def</span> <span class="nf">build_from_recipes</span><span class="p">(</span><span class="n">recipes</span><span class="p">):</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Building Recipe DAG&quot;</span><span class="p">)</span>
+
+    <span class="n">package2recipes</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">recipe_list</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">recipes</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">package</span> <span class="ow">in</span> <span class="n">recipe</span><span class="o">.</span><span class="n">package_names</span><span class="p">:</span>
+            <span class="n">package2recipes</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="nb">set</span><span class="p">())</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+            <span class="n">recipe_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+
+    <span class="n">dag</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>
+    <span class="n">dag</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">reldir</span> <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">recipes</span><span class="p">)</span>
+    <span class="n">dag</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">(</span>
+        <span class="p">(</span><span class="n">recipe2</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">recipe_list</span>
+        <span class="k">for</span> <span class="n">dep</span> <span class="ow">in</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get_deps</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">recipe2</span> <span class="ow">in</span> <span class="n">package2recipes</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">dep</span><span class="p">,</span> <span class="p">[])</span>
+    <span class="p">)</span>
+
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Building Recipe DAG: done (</span><span class="si">%i</span><span class="s2"> nodes, </span><span class="si">%i</span><span class="s2"> edges)&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">dag</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">dag</span><span class="o">.</span><span class="n">edges</span><span class="p">()))</span>
+    <span class="k">return</span> <span class="n">dag</span>
+
+
+<span class="k">def</span> <span class="nf">filter_recipe_dag</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">names</span><span class="p">):</span>
+    <span class="n">name_set</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+    <span class="n">nodes</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">dag</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">recipe</span><span class="o">.</span><span class="n">reldir</span> <span class="ow">in</span> <span class="n">name_set</span> <span class="ow">and</span> <span class="n">recipe</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">:</span>
+            <span class="n">nodes</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+            <span class="n">nodes</span> <span class="o">|=</span> <span class="n">nx</span><span class="o">.</span><span class="n">ancestors</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">nx</span><span class="o">.</span><span class="n">subgraph</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">nodes</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">filter</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">packages</span><span class="p">):</span>
+    <span class="n">nodes</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">package</span> <span class="ow">in</span> <span class="n">packages</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">package</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">:</span>
+            <span class="k">continue</span>  <span class="c1"># already got all ancestors</span>
+        <span class="n">nodes</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">package</span><span class="p">)</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">nodes</span> <span class="o">|=</span> <span class="n">nx</span><span class="o">.</span><span class="n">ancestors</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">package</span><span class="p">)</span>
+        <span class="k">except</span> <span class="n">nx</span><span class="o">.</span><span class="n">exception</span><span class="o">.</span><span class="n">NetworkXError</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">package</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">nx</span><span class="o">.</span><span class="n">nodes</span><span class="p">(</span><span class="n">dag</span><span class="p">):</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Can&#39;t find </span><span class="si">%s</span><span class="s2"> in dag&quot;</span><span class="p">,</span> <span class="n">package</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">raise</span>
+
+    <span class="k">return</span> <span class="n">nx</span><span class="o">.</span><span class="n">subgraph</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">nodes</span><span class="p">)</span>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/bioconda_utils/graph.py" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

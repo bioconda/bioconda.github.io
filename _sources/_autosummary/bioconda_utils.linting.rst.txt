@@ -1,7 +1,10 @@
-bioconda\_utils.linting
-=======================
+linting
+=======
 
+
+.. currentmodule:: bioconda_utils.linting
 .. automodule:: bioconda_utils.linting
+   :members:
 
    
    
@@ -28,3 +31,6 @@ bioconda\_utils.linting
    
    
    
+
+
+   .. rubric:: Documentation

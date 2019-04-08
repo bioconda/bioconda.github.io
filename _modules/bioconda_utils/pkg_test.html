@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>bioconda_utils.pkg_test &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../index.html">
+    <img class="logo" src="../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html">Updating recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../cb3.html">Conda build v3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../../conda-recipe_index.html">Recipe Index</a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for bioconda_utils.pkg_test</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Mulled Tests</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">subprocess</span> <span class="k">as</span> <span class="nn">sp</span>
+<span class="kn">import</span> <span class="nn">tempfile</span>
+<span class="kn">import</span> <span class="nn">tarfile</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">shlex</span>
+<span class="kn">from</span> <span class="nn">shutil</span> <span class="k">import</span> <span class="n">which</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">utils</span>
+
+<span class="kn">from</span> <span class="nn">conda_build.metadata</span> <span class="k">import</span> <span class="n">MetaData</span>
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+
+<span class="c1"># Use Miniconda 4.3.27 for now to avoid running into an issue in</span>
+<span class="c1"># &#39;conda &gt;4.4.7,&lt;4.4.11&#39;: https://github.com/conda/conda/issues/6811</span>
+<span class="c1"># TODO: Make this configurable in bioconda_utils.build and bioconda_utils.cli.</span>
+<span class="n">MULLED_CONDA_IMAGE</span> <span class="o">=</span> <span class="s2">&quot;continuumio/miniconda3:4.3.27&quot;</span>
+
+
+<div class="viewcode-block" id="get_tests"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.pkg_test.html#bioconda_utils.pkg_test.get_tests">[docs]</a><span class="k">def</span> <span class="nf">get_tests</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+    <span class="s2">&quot;Extract tests from a built package&quot;</span>
+    <span class="n">tmp</span> <span class="o">=</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">mkdtemp</span><span class="p">()</span>
+    <span class="n">t</span> <span class="o">=</span> <span class="n">tarfile</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">extractall</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+    <span class="n">input_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tmp</span><span class="p">,</span> <span class="s1">&#39;info&#39;</span><span class="p">,</span> <span class="s1">&#39;recipe&#39;</span><span class="p">)</span>
+
+    <span class="n">tests</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">recipe_meta</span> <span class="o">=</span> <span class="n">MetaData</span><span class="p">(</span><span class="n">input_dir</span><span class="p">)</span>
+
+    <span class="n">tests_commands</span> <span class="o">=</span> <span class="n">recipe_meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;test/commands&#39;</span><span class="p">)</span>
+    <span class="n">tests_imports</span> <span class="o">=</span> <span class="n">recipe_meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;test/imports&#39;</span><span class="p">)</span>
+    <span class="n">requirements</span> <span class="o">=</span> <span class="n">recipe_meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;requirements/run&#39;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">tests_imports</span> <span class="ow">or</span> <span class="n">tests_commands</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">tests_commands</span><span class="p">:</span>
+            <span class="n">tests</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39; &amp;&amp; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tests_commands</span><span class="p">))</span>
+        <span class="k">if</span> <span class="n">tests_imports</span> <span class="ow">and</span> <span class="s1">&#39;python&#39;</span> <span class="ow">in</span> <span class="n">requirements</span><span class="p">:</span>
+            <span class="n">tests</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+                <span class="s1">&#39; &amp;&amp; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;python -c &quot;import </span><span class="si">%s</span><span class="s1">&quot;&#39;</span> <span class="o">%</span> <span class="n">imp</span>
+                            <span class="k">for</span> <span class="n">imp</span> <span class="ow">in</span> <span class="n">tests_imports</span><span class="p">)</span>
+            <span class="p">)</span>
+        <span class="k">elif</span> <span class="n">tests_imports</span> <span class="ow">and</span> <span class="p">(</span>
+            <span class="s1">&#39;perl&#39;</span> <span class="ow">in</span> <span class="n">requirements</span> <span class="ow">or</span> <span class="s1">&#39;perl-threaded&#39;</span> <span class="ow">in</span> <span class="n">requirements</span>
+        <span class="p">):</span>
+            <span class="n">tests</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+                <span class="s1">&#39; &amp;&amp; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;perl -e &quot;use </span><span class="si">%s</span><span class="s1">;&quot;&#39;&#39;&#39;</span> <span class="o">%</span> <span class="n">imp</span>
+                            <span class="k">for</span> <span class="n">imp</span> <span class="ow">in</span> <span class="n">tests_imports</span><span class="p">)</span>
+            <span class="p">)</span>
+
+    <span class="n">tests</span> <span class="o">=</span> <span class="s1">&#39; &amp;&amp; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tests</span><span class="p">)</span>
+    <span class="n">tests</span> <span class="o">=</span> <span class="n">tests</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;$R &#39;</span><span class="p">,</span> <span class="s1">&#39;Rscript &#39;</span><span class="p">)</span>
+    <span class="c1"># this is specific to involucro, the way how we build our containers</span>
+    <span class="n">tests</span> <span class="o">=</span> <span class="n">tests</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;$PREFIX&#39;</span><span class="p">,</span> <span class="s1">&#39;/usr/local&#39;</span><span class="p">)</span>
+    <span class="n">tests</span> <span class="o">=</span> <span class="n">tests</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;$</span><span class="si">{PREFIX}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;/usr/local&#39;</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">tests</span></div>
+
+
+<div class="viewcode-block" id="get_image_name"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.pkg_test.html#bioconda_utils.pkg_test.get_image_name">[docs]</a><span class="k">def</span> <span class="nf">get_image_name</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Returns name of generated docker image.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+
+<span class="sd">    path : str</span>
+<span class="sd">        Path to .tar.by2 package build by conda-build</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">assert</span> <span class="n">path</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;.tar.bz2&#39;</span><span class="p">)</span>
+
+    <span class="n">pkg</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">path</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;.tar.bz2&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+    <span class="n">toks</span> <span class="o">=</span> <span class="n">pkg</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">)</span>
+    <span class="n">build_string</span> <span class="o">=</span> <span class="n">toks</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">version</span> <span class="o">=</span> <span class="n">toks</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;-&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">toks</span><span class="p">[:</span><span class="o">-</span><span class="mi">2</span><span class="p">])</span>
+
+    <span class="n">spec</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">=</span><span class="si">%s</span><span class="s1">--</span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">version</span><span class="p">,</span> <span class="n">build_string</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">spec</span></div>
+
+
+<div class="viewcode-block" id="test_package"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.pkg_test.html#bioconda_utils.pkg_test.test_package">[docs]</a><span class="k">def</span> <span class="nf">test_package</span><span class="p">(</span>
+    <span class="n">path</span><span class="p">,</span>
+    <span class="n">name_override</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">channels</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;conda-forge&quot;</span><span class="p">,</span> <span class="s2">&quot;local&quot;</span><span class="p">,</span> <span class="s2">&quot;bioconda&quot;</span><span class="p">,</span> <span class="s2">&quot;defaults&quot;</span><span class="p">),</span>
+    <span class="n">mulled_args</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="n">base_image</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">conda_image</span><span class="o">=</span><span class="n">MULLED_CONDA_IMAGE</span><span class="p">,</span>
+<span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Tests a built package in a minimal docker container.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    path : str</span>
+<span class="sd">        Path to a .tar.bz2 package built by conda-build</span>
+
+<span class="sd">    name_override : str</span>
+<span class="sd">        Passed as the --name-override argument to mulled-build</span>
+
+<span class="sd">    channels : list</span>
+<span class="sd">        List of Conda channels to use. Must include an entry &quot;local&quot; for the</span>
+<span class="sd">        local build channel.</span>
+
+<span class="sd">    mulled_args : str</span>
+<span class="sd">        Mechanism for passing arguments to the mulled-build command. They will</span>
+<span class="sd">        be split with shlex.split and passed to the mulled-build command. E.g.,</span>
+<span class="sd">        mulled_args=&quot;--dry-run --involucro-path /opt/involucro&quot;</span>
+
+<span class="sd">    base_image : None | str</span>
+<span class="sd">        Specify custom base image. Busybox is used in the default case.</span>
+
+<span class="sd">    conda_image : None | str</span>
+<span class="sd">        Conda Docker image to install the package with during the mulled based</span>
+<span class="sd">        tests.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">assert</span> <span class="n">path</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;.tar.bz2&#39;</span><span class="p">),</span> <span class="s2">&quot;Unrecognized path </span><span class="si">{0}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+    <span class="c1"># assert os.path.exists(path), &#39;{0} does not exist&#39;.format(path)</span>
+
+    <span class="n">conda_bld_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">path</span><span class="p">)))</span>
+
+    <span class="n">sp</span><span class="o">.</span><span class="n">check_call</span><span class="p">([</span><span class="n">utils</span><span class="o">.</span><span class="n">bin_for</span><span class="p">(</span><span class="s1">&#39;conda&#39;</span><span class="p">),</span> <span class="s1">&#39;index&#39;</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">path</span><span class="p">)])</span>
+    <span class="c1"># always build noarch index to make conda happy</span>
+    <span class="n">sp</span><span class="o">.</span><span class="n">check_call</span><span class="p">([</span><span class="n">utils</span><span class="o">.</span><span class="n">bin_for</span><span class="p">(</span><span class="s1">&#39;conda&#39;</span><span class="p">),</span> <span class="s1">&#39;index&#39;</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">conda_bld_dir</span><span class="p">,</span> <span class="s2">&quot;noarch&quot;</span><span class="p">)])</span>
+
+    <span class="n">spec</span> <span class="o">=</span> <span class="n">get_image_name</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="s2">&quot;local&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">channels</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;&quot;local&quot; must be in channel list&#39;</span><span class="p">)</span>
+
+    <span class="n">channels</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s1">&#39;file://</span><span class="si">{0}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">conda_bld_dir</span><span class="p">)</span> <span class="k">if</span> <span class="n">channel</span> <span class="o">==</span> <span class="s1">&#39;local&#39;</span> <span class="k">else</span> <span class="n">channel</span>
+        <span class="k">for</span> <span class="n">channel</span> <span class="ow">in</span> <span class="n">channels</span>
+    <span class="p">]</span>
+    <span class="n">channel_args</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;--channels&#39;</span><span class="p">,</span> <span class="s1">&#39;,&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">channels</span><span class="p">)]</span>
+
+    <span class="n">tests</span> <span class="o">=</span> <span class="n">get_tests</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Tests to run: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">tests</span><span class="p">)</span>
+
+    <span class="n">cmd</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s1">&#39;mulled-build&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;build-and-test&#39;</span><span class="p">,</span>
+        <span class="n">spec</span><span class="p">,</span>
+        <span class="s1">&#39;-n&#39;</span><span class="p">,</span> <span class="s1">&#39;biocontainers&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;--test&#39;</span><span class="p">,</span> <span class="n">tests</span>
+    <span class="p">]</span>
+    <span class="k">if</span> <span class="n">name_override</span><span class="p">:</span>
+        <span class="n">cmd</span> <span class="o">+=</span> <span class="p">[</span><span class="s1">&#39;--name-override&#39;</span><span class="p">,</span> <span class="n">name_override</span><span class="p">]</span>
+    <span class="n">cmd</span> <span class="o">+=</span> <span class="n">channel_args</span>
+    <span class="n">cmd</span> <span class="o">+=</span> <span class="n">shlex</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">mulled_args</span><span class="p">)</span>
+
+    <span class="c1"># galaxy-lib always downloads involucro, unless it&#39;s in cwd or its path is explicitly given.</span>
+    <span class="c1"># TODO: This should go into galaxy-lib. Once it is fixed upstream, remove this here.</span>
+    <span class="n">involucro_path</span> <span class="o">=</span> <span class="n">which</span><span class="p">(</span><span class="s1">&#39;involucro&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">involucro_path</span><span class="p">:</span>
+        <span class="n">cmd</span> <span class="o">+=</span> <span class="p">[</span><span class="s1">&#39;--involucro-path&#39;</span><span class="p">,</span> <span class="n">involucro_path</span><span class="p">]</span>
+
+    <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;mulled-build command: </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">cmd</span><span class="p">)</span>
+
+    <span class="n">env</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">base_image</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">env</span><span class="p">[</span><span class="s2">&quot;DEST_BASE_IMAGE&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">base_image</span>
+    <span class="n">env</span><span class="p">[</span><span class="s2">&quot;CONDA_IMAGE&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">conda_image</span>
+    <span class="k">with</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">TemporaryDirectory</span><span class="p">()</span> <span class="k">as</span> <span class="n">d</span><span class="p">:</span>
+        <span class="k">with</span> <span class="n">utils</span><span class="o">.</span><span class="n">Progress</span><span class="p">():</span>
+            <span class="n">p</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">env</span><span class="o">=</span><span class="n">env</span><span class="p">,</span> <span class="n">cwd</span><span class="o">=</span><span class="n">d</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">p</span></div>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/bioconda_utils/pkg_test.py" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

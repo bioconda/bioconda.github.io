@@ -1,7 +1,10 @@
-bioconda\_utils.graph
-=====================
+graph
+=====
 
+
+.. currentmodule:: bioconda_utils.graph
 .. automodule:: bioconda_utils.graph
+   :members:
 
    
    
@@ -23,3 +26,6 @@ bioconda\_utils.graph
    
    
    
+
+
+   .. rubric:: Documentation

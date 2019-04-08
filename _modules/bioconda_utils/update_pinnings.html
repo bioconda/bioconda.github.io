@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>bioconda_utils.update_pinnings &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../index.html">
+    <img class="logo" src="../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html">Updating recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../cb3.html">Conda build v3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../../conda-recipe_index.html">Recipe Index</a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for bioconda_utils.update_pinnings</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Determine which packages need updates after pinning change</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">os.path</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">collections</span>
+<span class="kn">import</span> <span class="nn">enum</span>
+
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="kn">from</span> <span class="nn">.utils</span> <span class="k">import</span> <span class="n">RepoData</span><span class="p">,</span> <span class="n">load_conda_build_config</span><span class="p">,</span> <span class="n">parallel_iter</span>
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
+
+
+<span class="n">buildNumberRegex</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s2">&quot;^( +number: +)(\d+)(.*?)$&quot;</span><span class="p">)</span>
+<span class="n">buildNumberJinja</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s2">&quot;^({</span><span class="si">% +s</span><span class="s2">et build +=.+?)(\d+)(.*?%})&quot;</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="will_build_variant"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.will_build_variant">[docs]</a><span class="k">def</span> <span class="nf">will_build_variant</span><span class="p">(</span><span class="n">meta</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Check if the recipe variant will be built as currently rendered&quot;&quot;&quot;</span>
+    <span class="n">build_numbers</span> <span class="o">=</span> <span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">get_package_data</span><span class="p">(</span>
+        <span class="s1">&#39;build_number&#39;</span><span class="p">,</span>
+        <span class="n">name</span><span class="o">=</span><span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">version</span><span class="o">=</span><span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span>
+        <span class="n">platform</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;linux&#39;</span><span class="p">,</span> <span class="s1">&#39;noarch&#39;</span><span class="p">],</span>
+    <span class="p">)</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="nb">all</span><span class="p">(</span><span class="n">num</span> <span class="o">&lt;</span> <span class="n">meta</span><span class="o">.</span><span class="n">build_number</span><span class="p">()</span> <span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">build_numbers</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">res</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Package </span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2"> will be built already because </span><span class="si">%s</span><span class="s2"> &lt; </span><span class="si">%s</span><span class="s2">)&quot;</span><span class="p">,</span>
+                     <span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span>
+                     <span class="nb">max</span><span class="p">(</span><span class="n">build_numbers</span><span class="p">)</span> <span class="k">if</span> <span class="n">build_numbers</span> <span class="k">else</span> <span class="s2">&quot;N/A&quot;</span><span class="p">,</span>
+                     <span class="n">meta</span><span class="o">.</span><span class="n">build_number</span><span class="p">())</span>
+    <span class="k">return</span> <span class="n">res</span></div>
+
+
+<div class="viewcode-block" id="have_variant"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.have_variant">[docs]</a><span class="k">def</span> <span class="nf">have_variant</span><span class="p">(</span><span class="n">meta</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Checks if we have an exact match to name/version/buildstring</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">get_package_data</span><span class="p">(</span>
+        <span class="n">name</span><span class="o">=</span><span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">version</span><span class="o">=</span><span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span> <span class="n">build</span><span class="o">=</span><span class="n">meta</span><span class="o">.</span><span class="n">build_id</span><span class="p">(),</span>
+        <span class="n">platform</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;linux&#39;</span><span class="p">,</span> <span class="s1">&#39;noarch&#39;</span><span class="p">]</span>
+    <span class="p">)</span>
+    <span class="k">if</span> <span class="n">res</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Package </span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2"> exists&quot;</span><span class="p">,</span>
+                     <span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">build_id</span><span class="p">())</span>
+    <span class="k">return</span> <span class="n">res</span></div>
+
+
+<div class="viewcode-block" id="have_variant_but_for_python"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.have_variant_but_for_python">[docs]</a><span class="k">def</span> <span class="nf">have_variant_but_for_python</span><span class="p">(</span><span class="n">meta</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Checks if we have an exact or ``py[23]_`` prefixed match to</span>
+<span class="sd">    name/version/buildstring</span>
+
+<span class="sd">    Ignores osx.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">strip_py</span><span class="p">(</span><span class="n">build</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">build</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;py&quot;</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">build</span><span class="p">[</span><span class="mi">4</span><span class="p">:]</span>
+        <span class="k">return</span> <span class="n">build</span>
+
+    <span class="n">builds</span> <span class="o">=</span> <span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">get_package_data</span><span class="p">(</span>
+        <span class="s1">&#39;build&#39;</span><span class="p">,</span>
+        <span class="n">name</span><span class="o">=</span><span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">version</span><span class="o">=</span><span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span>
+        <span class="n">platform</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;linux&#39;</span><span class="p">,</span> <span class="s1">&#39;noarch&#39;</span><span class="p">]</span>
+    <span class="p">)</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="p">[</span><span class="n">build</span> <span class="k">for</span> <span class="n">build</span> <span class="ow">in</span> <span class="n">builds</span>
+           <span class="k">if</span> <span class="n">strip_py</span><span class="p">(</span><span class="n">build</span><span class="p">)</span> <span class="o">==</span> <span class="n">strip_py</span><span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">build_id</span><span class="p">())]</span>
+    <span class="k">if</span> <span class="n">res</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Package </span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2"> has </span><span class="si">%s</span><span class="s2"> (want </span><span class="si">%s</span><span class="s2">)&quot;</span><span class="p">,</span>
+                     <span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span> <span class="n">res</span><span class="p">,</span> <span class="n">meta</span><span class="o">.</span><span class="n">build_id</span><span class="p">())</span>
+    <span class="k">return</span> <span class="nb">bool</span><span class="p">(</span><span class="n">res</span><span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="State"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.State">[docs]</a><span class="k">class</span> <span class="nc">State</span><span class="p">(</span><span class="n">enum</span><span class="o">.</span><span class="n">Flag</span><span class="p">):</span>
+    <span class="c1">#: Recipe had a failure rendering</span>
+    <span class="n">FAIL</span> <span class="o">=</span> <span class="n">enum</span><span class="o">.</span><span class="n">auto</span><span class="p">()</span>
+    <span class="c1">#: Recipe has a variant that will be skipped</span>
+    <span class="n">SKIP</span> <span class="o">=</span> <span class="n">enum</span><span class="o">.</span><span class="n">auto</span><span class="p">()</span>
+    <span class="c1">#: Recipe has a variant that exists already</span>
+    <span class="n">HAVE</span> <span class="o">=</span> <span class="n">enum</span><span class="o">.</span><span class="n">auto</span><span class="p">()</span>
+    <span class="c1">#: Recipe has a variant that was bumped already</span>
+    <span class="n">BUMPED</span> <span class="o">=</span> <span class="n">enum</span><span class="o">.</span><span class="n">auto</span><span class="p">()</span>
+    <span class="c1">#: Recipe has a variant that needs bumping</span>
+    <span class="n">BUMP</span> <span class="o">=</span> <span class="n">enum</span><span class="o">.</span><span class="n">auto</span><span class="p">()</span>
+    <span class="c1">#: Recipe has a variant that needs bumping only for python</span>
+    <span class="n">BUMP_PYTHON_ONLY</span> <span class="o">=</span> <span class="n">enum</span><span class="o">.</span><span class="n">auto</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">needs_bump</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">bump_python_only</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">bump_python_only</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span> <span class="o">&amp;</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">BUMP</span> <span class="o">|</span> <span class="bp">self</span><span class="o">.</span><span class="n">BUMP_PYTHON_ONLY</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span> <span class="o">&amp;</span> <span class="bp">self</span><span class="o">.</span><span class="n">BUMP</span>
+
+    <span class="k">def</span> <span class="nf">failed</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span> <span class="o">&amp;</span> <span class="bp">self</span><span class="o">.</span><span class="n">FAIL</span></div>
+
+
+<div class="viewcode-block" id="check"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.check">[docs]</a><span class="k">def</span> <span class="nf">check</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">build_config</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">State</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Determine if a given recipe should have its build number increments</span>
+<span class="sd">    (bumped) due to a recent change in pinnings.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Calling Conda to render </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+        <span class="n">rendered</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">conda_render</span><span class="p">(</span><span class="n">config</span><span class="o">=</span><span class="n">build_config</span><span class="p">,</span>
+                                       <span class="n">permit_unsatisfiable_variants</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Finished rendering </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Exception rendering </span><span class="si">%s</span><span class="s2">: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">exc</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">State</span><span class="o">.</span><span class="n">FAIL</span>
+
+    <span class="n">flags</span> <span class="o">=</span> <span class="n">State</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">meta</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">rendered</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">meta</span><span class="o">.</span><span class="n">skip</span><span class="p">():</span>
+            <span class="n">flags</span> <span class="o">|=</span> <span class="n">State</span><span class="o">.</span><span class="n">SKIP</span>
+        <span class="k">elif</span> <span class="n">have_variant</span><span class="p">(</span><span class="n">meta</span><span class="p">):</span>
+            <span class="n">flags</span> <span class="o">|=</span> <span class="n">State</span><span class="o">.</span><span class="n">HAVE</span>
+        <span class="k">elif</span> <span class="n">will_build_variant</span><span class="p">(</span><span class="n">meta</span><span class="p">):</span>
+            <span class="n">flags</span> <span class="o">|=</span> <span class="n">State</span><span class="o">.</span><span class="n">BUMPED</span>
+        <span class="k">elif</span> <span class="n">have_variant_but_for_python</span><span class="p">(</span><span class="n">meta</span><span class="p">):</span>
+            <span class="n">flags</span> <span class="o">|=</span> <span class="n">State</span><span class="o">.</span><span class="n">BUMP_PYTHON_ONLY</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Package </span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2"> missing!&quot;</span><span class="p">,</span>
+                         <span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">build_id</span><span class="p">())</span>
+            <span class="n">flags</span> <span class="o">|=</span> <span class="n">State</span><span class="o">.</span><span class="n">BUMP</span>
+    <span class="k">return</span> <span class="n">flags</span></div>
+
+
+<div class="viewcode-block" id="bump_recipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.bump_recipe">[docs]</a><span class="k">def</span> <span class="nf">bump_recipe</span><span class="p">(</span><span class="n">recipe</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Increment the build number of a recipe</span>
+
+<span class="sd">    returns True on success and False on error (the build number couldn&#39;t be updated)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="s2">&quot;meta.yaml&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">found</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>
+        <span class="n">matches</span> <span class="o">=</span> <span class="n">buildNumberRegex</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">matches</span><span class="p">:</span>
+            <span class="n">found</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="n">buildNumber</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">matches</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>
+            <span class="n">m</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">{}{}{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">matches</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="n">buildNumber</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">matches</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
+            <span class="k">break</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">found</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>
+            <span class="n">matches</span> <span class="o">=</span> <span class="n">buildNumberJinja</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">matches</span><span class="p">:</span>
+                <span class="n">found</span> <span class="o">=</span> <span class="kc">True</span>
+                <span class="n">buildNumber</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">matches</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>
+                <span class="n">m</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">{}{}{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">matches</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="n">buildNumber</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">matches</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
+                <span class="k">break</span>
+
+    <span class="k">if</span> <span class="n">found</span><span class="p">:</span>
+        <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="s2">&quot;meta.yaml&quot;</span><span class="p">),</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">m</span><span class="p">))</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">return</span> <span class="kc">False</span></div>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/bioconda_utils/update_pinnings.py" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>
