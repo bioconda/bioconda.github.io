@@ -9,10 +9,10 @@ shapeshifter
 .. conda:recipe:: shapeshifter
    :replaces_section_title:
 
-   A tool for managing and transforming large data sets
+   A tool for managing large datasets
 
    :homepage: https://github.com/srp33/ShapeShifter
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`shapeshifter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapeshifter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapeshifter/meta.yaml>`_
 
    
@@ -22,12 +22,16 @@ shapeshifter
 
    |downloads_shapeshifter| |docker_shapeshifter|
 
-   :versions: 0.0.3-0
+   :versions: 1.1.1-0, 0.0.3-0
    
+   :depends nbformat: 
+   :depends numpy: 
    :depends pandas: 
    :depends pyarrow: 
-   :depends python: 
+   :depends python: >=3
    :depends sqlalchemy: 
+   :depends xlrd: 
+   :depends xlsxwriter: 
    :requirements:
 
    .. rubric:: Installation
