@@ -22,7 +22,7 @@ wg-blimp
 
    |downloads_wg-blimp| |docker_wg-blimp|
 
-   :versions: 0.9.1-1, 0.9.1-0, 0.9.0-0
+   :versions: 0.9.2-0, 0.9.1-1, 0.9.1-0, 0.9.0-0
    
    :depends bedtools: 
    :depends bioconductor-bsseq: 

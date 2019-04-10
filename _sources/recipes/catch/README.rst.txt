@@ -9,7 +9,7 @@ catch
 .. conda:recipe:: catch
    :replaces_section_title:
 
-   A package for designing compact and comprehensive probe sets.
+   A package for designing compact and comprehensive capture probe sets.
 
    :homepage: https://github.com/broadinstitute/catch
    :license: MIT / MIT
@@ -23,7 +23,7 @@ catch
 
    |downloads_catch| |docker_catch|
 
-   :versions: 1.2.0-0, 1.1.0-0, 1.0.0-1, 1.0.0-0
+   :versions: 1.3.0-0, 1.2.0-0, 1.1.0-0, 1.0.0-1, 1.0.0-0
    
    :depends numpy: >=1.9.0
    :depends python: >=3

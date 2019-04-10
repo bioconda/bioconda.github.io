@@ -24,7 +24,7 @@ eval
 
    |downloads_eval| |docker_eval|
 
-   :versions: 2.2.8-0
+   :versions: 2.2.8-1, 2.2.8-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-bioperl: 

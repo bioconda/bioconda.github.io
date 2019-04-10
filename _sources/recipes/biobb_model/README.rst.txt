@@ -50,7 +50,7 @@ biobb_model
 
    |downloads_biobb_model| |docker_biobb_model|
 
-   :versions: 0.1.5-1, 0.1.5-0, 0.1.3-0, 0.1.1-0, 0.1.0-0, 0.0.6-0
+   :versions: 0.1.6-1, 0.1.5-1, 0.1.5-0, 0.1.3-0, 0.1.1-0, 0.1.0-0, 0.0.6-0
    
    :depends biobb_common: >=0.1.2
    :depends python: >=3

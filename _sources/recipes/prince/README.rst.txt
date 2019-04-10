@@ -22,7 +22,7 @@ prince
 
    |downloads_prince| |docker_prince|
 
-   :versions: 2.1-0, 2.0-0, 1.2-0, 1.1-0, 1.0-0
+   :versions: 2.2-0, 2.1-0, 2.0-0, 1.2-0, 1.1-0, 1.0-0
    
    :depends biopython: 
    :depends numpy: 

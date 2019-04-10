@@ -143,7 +143,7 @@ as simple as defining a regex to match the existing source URL, a
 formatting string creating the URL of the relases page and a regex
 to match links and extract their version.</p>
 <ul class="simple">
-<li><p>We need to use <a class="conda-package reference internal" href="../recipes/regex/README.html#package-regex" title="regex package"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">regex</span></code></a> rather than <a class="reference external" href="https://docs.python.org/3/library/re.html#module-re" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">re</span></code></a> to allow
+<li><p>We need to use <a class="conda-forge reference external" href="https://github.com/conda-forge/regex-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">regex</span></code></a> rather than <a class="reference external" href="https://docs.python.org/3/library/re.html#module-re" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">re</span></code></a> to allow
 recursive matching to manipulate capture groups in URL patterns as
 needed. (Technically, we could avoid this using a Snakemake wildcard
 type syntax to define the patterns - implementers welcome).</p></li>

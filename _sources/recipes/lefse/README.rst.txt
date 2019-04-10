@@ -22,12 +22,13 @@ lefse
 
    |downloads_lefse| |docker_lefse|
 
-   :versions: 1.0.8.post1-1, 1.0.8.post1-0, 1.0.7.post1-0, 1.0.7-2, 1.0.7-1
+   :versions: 1.0.8.post1-2, 1.0.8.post1-1, 1.0.8.post1-0, 1.0.7.post1-0, 1.0.7-2, 1.0.7-1
    
    :depends biom-format: >=2.1.5
-   :depends matplotlib: >=1.0
+   :depends icu: 58.*
+   :depends matplotlib: >=1.0,<2.2.0
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends r-base: 
    :depends r-coin: 
    :depends r-mass: 
