@@ -22,7 +22,7 @@ maaslin
 
    |downloads_maaslin| |docker_maaslin|
 
-   :versions: 0.05-0, 0.04-1, 0.04-0
+   :versions: 0.05-0, 0.04-1, 0.04-0, 0.0.5-1
    
    :depends r-agricolae: 
    :depends r-base: >=3.5.1,<3.5.2.0a0
