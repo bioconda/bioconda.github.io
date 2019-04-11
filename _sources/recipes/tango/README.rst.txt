@@ -9,7 +9,7 @@ tango
 .. conda:recipe:: tango
    :replaces_section_title:
 
-   Assign taxonomy to metagenomic contigs using blastx searches
+   Assign taxonomy to metagenomic contigs
 
    :homepage: https://github.com/johnne/tango
    :license: GPL3
@@ -22,7 +22,7 @@ tango
 
    |downloads_tango| |docker_tango|
 
-   :versions: 0.4.2-0, 0.3.1-0, 0.3.0-0, 0.2.0-0
+   :versions: 0.5.0-0, 0.4.2-0, 0.3.1-0, 0.3.0-0, 0.2.0-0
    
    :depends biopython: 
    :depends diamond: 

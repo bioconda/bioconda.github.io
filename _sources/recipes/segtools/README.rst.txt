@@ -22,20 +22,20 @@ segtools
 
    |downloads_segtools| |docker_segtools|
 
-   :versions: 1.2.1-0, 1.1.14-2, 1.1.14-1, 1.1.14-0
+   :versions: 1.2.1-1, 1.2.1-0, 1.1.14-2, 1.1.14-1, 1.1.14-0
    
    :depends genomedata: 
    :depends gmtk: 
    :depends graphviz: 
    :depends numpy: 
    :depends pygraphviz: 
-   :depends python: >=2.7,<2.8.0a0
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends python: 
+   :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-cairo: 
    :depends r-cluster: 
    :depends r-latticeextra: 
    :depends r-reshape2: 
-   :depends rpy2: >=2.6.0,<2.9
+   :depends rpy2: >=2.6.0
    :requirements:
 
    .. rubric:: Installation

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;star&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;micall-lite&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -101,60 +101,66 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="star">
+  <div class="section" id="micall-lite">
 <dl class="recipe">
-<dt id="recipe-star">
-<em class="property">recipe </em><code class="descname">star</code><a class="headerlink" href="#recipe-star" title="Permalink to this definition">¶</a></dt>
-<dd><p>An RNA-seq read aligner.</p>
+<dt id="recipe-micall-lite">
+<em class="property">recipe </em><code class="descname">micall-lite</code><a class="headerlink" href="#recipe-micall-lite" title="Permalink to this definition">¶</a></dt>
+<dd><p>A bioinformatic pipeline for mapping FASTQ data to a set of reference
+sequences to generate consensus sequences, variant calls and coverage maps.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/alexdobin/STAR">https://github.com/alexdobin/STAR</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/PoonLab/MiCall-Lite">https://github.com/PoonLab/MiCall-Lite</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPLv3</p>
+<dd class="field-even"><p>GNU Affero General Public License v3.0</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/star">star</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/star/meta.yaml">meta.yaml</a></p>
-</dd>
-<dt class="field-even">Links</dt>
-<dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/star">star</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/micall-lite">micall-lite</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/micall-lite/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-star">
-<em class="property">package </em><code class="descname">star</code><a class="headerlink" href="#package-star" title="Permalink to this definition">¶</a></dt>
-<dd><p><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/star.svg?style=flat" /> <a class="reference external" href="https://quay.io/repository/biocontainers/star"><img alt="docker_star" src="https://quay.io/repository/biocontainers/star/status" /></a></p>
+<dt id="package-micall-lite">
+<em class="property">package </em><code class="descname">micall-lite</code><a class="headerlink" href="#package-micall-lite" title="Permalink to this definition">¶</a></dt>
+<dd><p><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/micall-lite.svg?style=flat" /> <a class="reference external" href="https://quay.io/repository/biocontainers/micall-lite"><img alt="docker_micall-lite" src="https://quay.io/repository/biocontainers/micall-lite/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>2.7.0f-0, 2.7.0e-0, 2.7.0d-0, 2.7.0b-0, 2.6.1d-0, 2.6.1b-0, 2.6.1a-1, 2.6.0c-2, 2.6.0c-1, 2.6.0c-0, 2.6.0b-0, 2.5.4a-0, 2.5.3a-0, 2.5.2b-0, 2.5.2a-0, 2.5.1b-0, 2.5.0c-0, 2.5.0b-0, 2.5.0a-0, 2.4.2a-0, 2.4.0j-1, 2.4.0j-0</p>
+<dd class="field-odd"><p>0.1rc-0</p>
 </dd>
-<dt class="field-even">Required By</dt>
-<dd class="field-even"><ul class="simple">
+<dt class="field-even">Depends</dt>
+<dd class="field-list-wrapped field-even"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../bowtie2/README.html#package-bowtie2" title="bowtie2 package"><strong>bowtie2</strong></a></p></li>
+<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-levenshtein-feedstock"><strong>python-levenshtein</strong></a></p></li>
+</ul>
+</dd>
+<dt class="field-odd">Required By</dt>
+<dd class="field-odd"><ul class="simple">
 </ul>
 </dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">star</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">micall</span><span class="o">-</span><span class="n">lite</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">star</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">micall</span><span class="o">-</span><span class="n">lite</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">star</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">micall</span><span class="o">-</span><span class="n">lite</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/star?tab=tags">star/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/micall-lite?tab=tags">micall-lite/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/star/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/star/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/micall-lite/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/micall-lite/README.html)
 </pre></div>
 </div>
 </div>
@@ -175,14 +181,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/star/README.rst.txt"
+      <a href="../../_sources/recipes/micall-lite/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/star/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/micall-lite/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

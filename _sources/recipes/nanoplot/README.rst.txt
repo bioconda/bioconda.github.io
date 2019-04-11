@@ -22,7 +22,7 @@ nanoplot
 
    |downloads_nanoplot| |docker_nanoplot|
 
-   :versions: 1.20.0-0, 1.19.0-0, 1.18.2-1, 1.13.0-1, 1.13.0-0, 1.11.0-0, 1.10.4-0, 1.8.1-0, 1.2.2-0, 1.1.0-0, 1.0.0-0, 0.16.4-0, 0.16.2-0
+   :versions: 1.20.0-1, 1.20.0-0, 1.19.0-0, 1.18.2-1, 1.13.0-1, 1.13.0-0, 1.11.0-0, 1.10.4-0, 1.8.1-0, 1.2.2-0, 1.1.0-0, 1.0.0-0, 0.16.4-0, 0.16.2-0
    
    :depends biopython: 
    :depends nanoget: >=1.4.0
@@ -31,7 +31,7 @@ nanoplot
    :depends numpy: 
    :depends pandas: >=0.22.0
    :depends pysam: >0.10.0.0
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: 3.*
    :depends python-dateutil: 
    :depends scipy: 
    :depends seaborn: 

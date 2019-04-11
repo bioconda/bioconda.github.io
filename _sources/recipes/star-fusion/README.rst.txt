@@ -22,7 +22,7 @@ star-fusion
 
    |downloads_star-fusion| |docker_star-fusion|
 
-   :versions: 1.5.0-0, 1.4.0-2, 1.4.0-1, 1.4.0-0, 1.3.2-2, 1.3.2-1, 1.3.2-0, 1.2.0-0, 1.1.0-0, 1.0.0-0, 0.7.0-1, 0.7.0-0, 0.5.4-2, 0.5.4-1, 0.5.4-0, 0.5.3-0, 0.4.0-0
+   :versions: 1.6.0-0, 1.5.0-0, 1.4.0-2, 1.4.0-1, 1.4.0-0, 1.3.2-2, 1.3.2-1, 1.3.2-0, 1.2.0-0, 1.1.0-0, 1.0.0-0, 0.7.0-1, 0.7.0-0, 0.5.4-2, 0.5.4-1, 0.5.4-0, 0.5.3-0, 0.4.0-0
    
    :depends bbmap: 
    :depends blast: 
@@ -36,7 +36,7 @@ star-fusion
    :depends perl-set-intervaltree: 
    :depends perl-uri: 
    :depends samtools: 
-   :depends star: >=2.6.1b
+   :depends star: >=2.7.0f
    :requirements:
 
    .. rubric:: Installation

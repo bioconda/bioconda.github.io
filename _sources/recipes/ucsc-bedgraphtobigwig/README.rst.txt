@@ -22,7 +22,7 @@ ucsc-bedgraphtobigwig
 
    |downloads_ucsc-bedgraphtobigwig| |docker_ucsc-bedgraphtobigwig|
 
-   :versions: 377-0, 366-0, 357-1, 357-0, 332-0, 324-0, 308-1, 308-0
+   :versions: 377-0, 366-0, 357-3, 357-1, 357-0, 332-0, 324-0, 308-1, 308-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libpng: >=1.6.35,<1.7.0a0
