@@ -195,7 +195,7 @@
     <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
 
-    <span class="k">def</span> <span class="nf">for_json</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="GitHubHandler.for_json"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.for_json">[docs]</a>    <span class="k">def</span> <span class="nf">for_json</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="p">{</span>
             <span class="s1">&#39;__module__&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__module__</span><span class="p">,</span>
             <span class="s1">&#39;__type__&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__qualname__</span><span class="p">,</span>
@@ -203,7 +203,7 @@
             <span class="s1">&#39;to_user&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">user</span><span class="p">,</span>
             <span class="s1">&#39;to_repo&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="p">,</span>
             <span class="s1">&#39;installation&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">installation</span>
-        <span class="p">}</span>
+        <span class="p">}</span></div>
 
     <span class="k">def</span> <span class="nf">__to_json__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">for_json</span><span class="p">()</span>
@@ -409,12 +409,12 @@
         <span class="n">res</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">patch</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">COMMENTS</span><span class="p">,</span> <span class="n">var_data</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">res</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">]</span></div>
 
-    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_pr_modified_files</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
+<div class="viewcode-block" id="GitHubHandler.get_pr_modified_files"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_pr_modified_files">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_pr_modified_files</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
         <span class="n">var_data</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">var_default</span><span class="p">)</span>
         <span class="n">var_data</span><span class="p">[</span><span class="s2">&quot;number&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
-        <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">PULL_FILES</span><span class="p">,</span> <span class="n">var_data</span><span class="p">)</span>
+        <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">PULL_FILES</span><span class="p">,</span> <span class="n">var_data</span><span class="p">)</span></div>
 
-    <span class="k">async</span> <span class="k">def</span> <span class="nf">create_check_run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+<div class="viewcode-block" id="GitHubHandler.create_check_run"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.create_check_run">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">create_check_run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
         <span class="n">var_data</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">var_default</span><span class="p">)</span>
         <span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
             <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="n">name</span><span class="p">,</span>
@@ -422,9 +422,9 @@
         <span class="p">}</span>
         <span class="n">accept</span> <span class="o">=</span> <span class="s2">&quot;application/vnd.github.antiope-preview+json&quot;</span>
         <span class="n">result</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">CHECK_RUN</span><span class="p">,</span> <span class="n">var_data</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="n">accept</span><span class="o">=</span><span class="n">accept</span><span class="p">)</span>
-        <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;id&#39;</span><span class="p">))</span>
+        <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;id&#39;</span><span class="p">))</span></div>
 
-    <span class="k">async</span> <span class="k">def</span> <span class="nf">modify_check_run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
+<div class="viewcode-block" id="GitHubHandler.modify_check_run"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.modify_check_run">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">modify_check_run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
                                <span class="n">status</span><span class="p">:</span> <span class="n">CheckRunStatus</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                                <span class="n">conclusion</span><span class="p">:</span> <span class="n">CheckRunConclusion</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                                <span class="n">output_title</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
@@ -452,14 +452,14 @@
             <span class="k">if</span> <span class="n">output_annotations</span><span class="p">:</span>
                 <span class="n">data</span><span class="p">[</span><span class="s1">&#39;output&#39;</span><span class="p">][</span><span class="s1">&#39;annotations&#39;</span><span class="p">]</span><span class="o">=</span><span class="n">output_annotations</span>
         <span class="n">accept</span> <span class="o">=</span> <span class="s2">&quot;application/vnd.github.antiope-preview+json&quot;</span>
-        <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">patch</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">CHECK_RUN</span><span class="p">,</span> <span class="n">var_data</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="n">accept</span><span class="o">=</span><span class="n">accept</span><span class="p">)</span>
+        <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">patch</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">CHECK_RUN</span><span class="p">,</span> <span class="n">var_data</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="n">accept</span><span class="o">=</span><span class="n">accept</span><span class="p">)</span></div>
 
-    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_check_runs</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sha</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+<div class="viewcode-block" id="GitHubHandler.get_check_runs"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_check_runs">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_check_runs</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sha</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
         <span class="n">var_data</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">var_default</span><span class="p">)</span>
         <span class="n">var_data</span><span class="p">[</span><span class="s1">&#39;commit&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">sha</span>
         <span class="n">accept</span> <span class="o">=</span> <span class="s2">&quot;application/vnd.github.antiope-preview+json&quot;</span>
         <span class="n">res</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">GET_CHECK_RUNS</span><span class="p">,</span> <span class="n">var_data</span><span class="p">,</span> <span class="n">accept</span><span class="o">=</span><span class="n">accept</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">res</span><span class="p">[</span><span class="s1">&#39;check_runs&#39;</span><span class="p">]</span></div>
+        <span class="k">return</span> <span class="n">res</span><span class="p">[</span><span class="s1">&#39;check_runs&#39;</span><span class="p">]</span></div></div>
 
 
 <div class="viewcode-block" id="AiohttpGitHubHandler"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.AiohttpGitHubHandler">[docs]</a><span class="k">class</span> <span class="nc">AiohttpGitHubHandler</span><span class="p">(</span><span class="n">GitHubHandler</span><span class="p">):</span>
@@ -611,7 +611,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

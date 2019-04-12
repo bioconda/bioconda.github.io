@@ -22,12 +22,12 @@ deepvariant
 
    |downloads_deepvariant| |docker_deepvariant|
 
-   :versions: 0.7.2-1, 0.7.2-0, 0.7.1-0, 0.7.0-0, 0.6.1-3, 0.6.1-2, 0.6.1-0, 0.6.0-0, 0.4.1-1, 0.4.1-0
+   :versions: 0.8.0-0, 0.7.2-1, 0.7.2-0, 0.7.1-0, 0.7.0-0, 0.6.1-3, 0.6.1-2, 0.6.1-0, 0.6.0-0, 0.4.1-1, 0.4.1-0
    
    :depends boost: 
    :depends contextlib2: 
    :depends crcmod: 
-   :depends curl: >=7.59.0,<8.0a0
+   :depends curl: >=7.64.1,<8.0a0
    :depends enum34: 
    :depends google-cloud-sdk: 
    :depends htslib: 

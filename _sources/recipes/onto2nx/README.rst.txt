@@ -24,17 +24,15 @@ onto2nx
 
    |downloads_onto2nx| |docker_onto2nx|
 
-   :versions: 0.1.0-0
+   :versions: 0.1.1-0, 0.1.0-0
    
    :depends click: 
-   :depends colorama: 
-   :depends networkx: 
-   :depends pyfiglet: 
-   :depends pygments: 
-   :depends python: 2.7*
-   :depends rdflib: 
+   :depends networkx: 1.11
+   :depends python: 
+   :depends rdflib: 4.2.1
    :depends rdflib-jsonld: 
    :depends requests: 
+   :depends requests-file: 
    :depends sparqlwrapper: 
    :requirements:
 

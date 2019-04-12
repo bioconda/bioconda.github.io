@@ -96,6 +96,7 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update.html">update</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">update_pinnings</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
@@ -175,7 +176,8 @@
 <dl class="class">
 <dt id="bioconda_utils.update_pinnings.State">
 <em class="property">class </em><code class="descclassname">bioconda_utils.update_pinnings.</code><code class="descname">State</code><a class="reference internal" href="../_modules/bioconda_utils/update_pinnings.html#State"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.State" title="Permalink to this definition">¶</a></dt>
-<dd><p>An enumeration.</p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Flag" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Flag</span></code></a></p>
+<p>An enumeration.</p>
 <dl class="attribute">
 <dt id="bioconda_utils.update_pinnings.State.BUMP">
 <code class="descname">BUMP</code><em class="property"> = 16</em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.BUMP" title="Permalink to this definition">¶</a></dt>
@@ -212,6 +214,16 @@
 <dd><p>Recipe has a variant that will be skipped</p>
 </dd></dl>
 
+<dl class="method">
+<dt id="bioconda_utils.update_pinnings.State.failed">
+<code class="descname">failed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/update_pinnings.html#State.failed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.State.failed" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.update_pinnings.State.needs_bump">
+<code class="descname">needs_bump</code><span class="sig-paren">(</span><em>bump_python_only=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/update_pinnings.html#State.needs_bump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.State.needs_bump" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="function">
@@ -223,9 +235,14 @@
 
 <dl class="function">
 <dt id="bioconda_utils.update_pinnings.check">
-<code class="descclassname">bioconda_utils.update_pinnings.</code><code class="descname">check</code><span class="sig-paren">(</span><em>recipe</em>, <em>build_config</em><span class="sig-paren">)</span> &#x2192; bioconda_utils.update_pinnings.State<a class="reference internal" href="../_modules/bioconda_utils/update_pinnings.html#check"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.check" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">bioconda_utils.update_pinnings.</code><code class="descname">check</code><span class="sig-paren">(</span><em>recipe</em>, <em>build_config</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/update_pinnings.html#check"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.check" title="Permalink to this definition">¶</a></dt>
 <dd><p>Determine if a given recipe should have its build number increments
 (bumped) due to a recent change in pinnings.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bioconda_utils.update_pinnings.State" title="bioconda_utils.update_pinnings.State"><code class="xref py py-class docutils literal notranslate"><span class="pre">State</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="function">
@@ -261,7 +278,7 @@ name/version/buildstring</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

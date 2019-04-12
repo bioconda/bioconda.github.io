@@ -96,6 +96,7 @@
 <li class="toctree-l3 current"><a class="current reference internal" href="#">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update.html">update</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
@@ -190,8 +191,8 @@ that.</p></li>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.linting.lint" title="bioconda_utils.linting.lint"><code class="xref py py-obj docutils literal notranslate"><span class="pre">lint</span></code></a>(recipes, lint_args[, basedir])</p></td>
 <td><p><dl class="field-list simple">
-<dt class="field-odd">param recipes</dt>
-<dd class="field-odd"><p>List of recipes to lint</p>
+<dt class="field-odd">type recipes</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
 </dd>
 </dl>
 </p></td>
@@ -199,7 +200,7 @@ that.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.linting.markdown_report" title="bioconda_utils.linting.markdown_report"><code class="xref py py-obj docutils literal notranslate"><span class="pre">markdown_report</span></code></a>([report])</p></td>
 <td><p>Return a rendered Markdown string.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">select_recipes</span></code>(packages, git_range, …)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.linting.select_recipes" title="bioconda_utils.linting.select_recipes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">select_recipes</span></code></a>(packages, git_range, …)</p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -220,7 +221,8 @@ that.</p></li>
 <dl class="class">
 <dt id="bioconda_utils.linting.LintArgs">
 <em class="property">class </em><code class="descclassname">bioconda_utils.linting.</code><code class="descname">LintArgs</code><a class="reference internal" href="../_modules/bioconda_utils/linting.html#LintArgs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.linting.LintArgs" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="simple">
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.linting.LintArgs" title="bioconda_utils.linting.LintArgs"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.linting.LintArgs</span></code></a></p>
+<dl class="simple">
 <dt>exclude<span class="classifier">list</span></dt><dd><p>List of function names in <code class="docutils literal notranslate"><span class="pre">registry</span></code> to skip globally. When running on
 CI, this will be merged with anything else detected from the commit
 message or LINT_SKIP environment variable using the special string
@@ -236,7 +238,7 @@ can be used to skip tests for all recipes. Use sparingly.</p>
 
 <dl class="function">
 <dt id="bioconda_utils.linting.lint">
-<code class="descclassname">bioconda_utils.linting.</code><code class="descname">lint</code><span class="sig-paren">(</span><em>recipes: List[str], lint_args, basedir='recipes'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/linting.html#lint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.linting.lint" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">bioconda_utils.linting.</code><code class="descname">lint</code><span class="sig-paren">(</span><em>recipes</em>, <em>lint_args</em>, <em>basedir='recipes'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/linting.html#lint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.linting.lint" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -259,6 +261,11 @@ to the lint failure template.</p>
 </dl>
 </dd></dl>
 
+<dl class="function">
+<dt id="bioconda_utils.linting.select_recipes">
+<code class="descclassname">bioconda_utils.linting.</code><code class="descname">select_recipes</code><span class="sig-paren">(</span><em>packages</em>, <em>git_range</em>, <em>recipe_folder</em>, <em>config_filename</em>, <em>config</em>, <em>force</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/linting.html#select_recipes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.linting.select_recipes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </div>
 </div>
 
@@ -273,7 +280,7 @@ to the lint failure template.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -96,6 +96,7 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update.html">update</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
@@ -154,7 +155,7 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.githubhandler.AiohttpGitHubHandler" title="bioconda_utils.githubhandler.AiohttpGitHubHandler"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AiohttpGitHubHandler</span></code></a>(token, dry_run, …)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.githubhandler.AiohttpGitHubHandler" title="bioconda_utils.githubhandler.AiohttpGitHubHandler"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AiohttpGitHubHandler</span></code></a>([token, dry_run, …])</p></td>
 <td><p>GitHubHandler using Aiohttp for HTTP requests</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.githubhandler.CheckRunConclusion" title="bioconda_utils.githubhandler.CheckRunConclusion"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CheckRunConclusion</span></code></a></p></td>
@@ -169,7 +170,7 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.githubhandler.GitHubAppHandler" title="bioconda_utils.githubhandler.GitHubAppHandler"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GitHubAppHandler</span></code></a>(session, app_name, app_key, …)</p></td>
 <td><p>Handles interaction with Github as App</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.githubhandler.GitHubHandler" title="bioconda_utils.githubhandler.GitHubHandler"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GitHubHandler</span></code></a>(token, dry_run, to_user, …)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.githubhandler.GitHubHandler" title="bioconda_utils.githubhandler.GitHubHandler"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GitHubHandler</span></code></a>([token, dry_run, to_user, …])</p></td>
 <td><p>Handles interaction with GitHub</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.githubhandler.IssueState" title="bioconda_utils.githubhandler.IssueState"><code class="xref py py-obj docutils literal notranslate"><span class="pre">IssueState</span></code></a></p></td>
@@ -180,8 +181,9 @@
 <p class="rubric">Documentation</p>
 <dl class="class">
 <dt id="bioconda_utils.githubhandler.AiohttpGitHubHandler">
-<em class="property">class </em><code class="descclassname">bioconda_utils.githubhandler.</code><code class="descname">AiohttpGitHubHandler</code><span class="sig-paren">(</span><em>token: str = None</em>, <em>dry_run: bool = False</em>, <em>to_user: str = 'bioconda'</em>, <em>to_repo: str = 'bioconda-recipes'</em>, <em>installation: int = None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#AiohttpGitHubHandler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.AiohttpGitHubHandler" title="Permalink to this definition">¶</a></dt>
-<dd><p>GitHubHandler using Aiohttp for HTTP requests</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.githubhandler.</code><code class="descname">AiohttpGitHubHandler</code><span class="sig-paren">(</span><em>token=None</em>, <em>dry_run=False</em>, <em>to_user='bioconda'</em>, <em>to_repo='bioconda-recipes'</em>, <em>installation=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#AiohttpGitHubHandler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.AiohttpGitHubHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.githubhandler.GitHubHandler" title="bioconda_utils.githubhandler.GitHubHandler"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.githubhandler.GitHubHandler</span></code></a></p>
+<p>GitHubHandler using Aiohttp for HTTP requests</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -192,8 +194,13 @@
 </dl>
 <dl class="method">
 <dt id="bioconda_utils.githubhandler.AiohttpGitHubHandler.create_api_object">
-<code class="descname">create_api_object</code><span class="sig-paren">(</span><em>session: aiohttp.client.ClientSession</em>, <em>requester: str</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span> &#x2192; None<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#AiohttpGitHubHandler.create_api_object"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.AiohttpGitHubHandler.create_api_object" title="Permalink to this definition">¶</a></dt>
+<code class="descname">create_api_object</code><span class="sig-paren">(</span><em>session</em>, <em>requester</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#AiohttpGitHubHandler.create_api_object"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.AiohttpGitHubHandler.create_api_object" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create API object</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
 </dd></dl>
@@ -201,7 +208,38 @@
 <dl class="class">
 <dt id="bioconda_utils.githubhandler.CheckRunConclusion">
 <em class="property">class </em><code class="descclassname">bioconda_utils.githubhandler.</code><code class="descname">CheckRunConclusion</code><a class="headerlink" href="#bioconda_utils.githubhandler.CheckRunConclusion" title="Permalink to this definition">¶</a></dt>
-<dd><p>Conclusion of Github Check Run</p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></a></p>
+<p>Conclusion of Github Check Run</p>
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.CheckRunConclusion.action_required">
+<code class="descname">action_required</code><em class="property"> = 6</em><a class="headerlink" href="#bioconda_utils.githubhandler.CheckRunConclusion.action_required" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.CheckRunConclusion.cancelled">
+<code class="descname">cancelled</code><em class="property"> = 4</em><a class="headerlink" href="#bioconda_utils.githubhandler.CheckRunConclusion.cancelled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.CheckRunConclusion.failure">
+<code class="descname">failure</code><em class="property"> = 2</em><a class="headerlink" href="#bioconda_utils.githubhandler.CheckRunConclusion.failure" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.CheckRunConclusion.neutral">
+<code class="descname">neutral</code><em class="property"> = 3</em><a class="headerlink" href="#bioconda_utils.githubhandler.CheckRunConclusion.neutral" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.CheckRunConclusion.success">
+<code class="descname">success</code><em class="property"> = 1</em><a class="headerlink" href="#bioconda_utils.githubhandler.CheckRunConclusion.success" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.CheckRunConclusion.timed_out">
+<code class="descname">timed_out</code><em class="property"> = 5</em><a class="headerlink" href="#bioconda_utils.githubhandler.CheckRunConclusion.timed_out" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="attribute">
@@ -213,20 +251,27 @@
 
 <dl class="class">
 <dt id="bioconda_utils.githubhandler.Event">
-<em class="property">class </em><code class="descclassname">bioconda_utils.githubhandler.</code><code class="descname">Event</code><span class="sig-paren">(</span><em>data: Any</em>, <em>*</em>, <em>event: str</em>, <em>delivery_id: str</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#Event"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.Event" title="Permalink to this definition">¶</a></dt>
-<dd><p>Adds <strong>get(path)</strong> method to Github Webhook event</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.githubhandler.</code><code class="descname">Event</code><span class="sig-paren">(</span><em>data</em>, <em>*</em>, <em>event</em>, <em>delivery_id</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#Event"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.Event" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">gidgethub.sansio.Event</span></code></p>
+<p>Adds <strong>get(path)</strong> method to Github Webhook event</p>
 <dl class="method">
 <dt id="bioconda_utils.githubhandler.Event.get">
-<code class="descname">get</code><span class="sig-paren">(</span><em>path: str</em>, <em>altvalue=&lt;class 'KeyError'&gt;</em><span class="sig-paren">)</span> &#x2192; str<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#Event.get"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.Event.get" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get</code><span class="sig-paren">(</span><em>path</em>, <em>altvalue=&lt;class 'KeyError'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#Event.get"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.Event.get" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get subkeys from even data using slash separated path</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.githubhandler.GitHubAppHandler">
-<em class="property">class </em><code class="descclassname">bioconda_utils.githubhandler.</code><code class="descname">GitHubAppHandler</code><span class="sig-paren">(</span><em>session: aiohttp.client.ClientSession</em>, <em>app_name: str</em>, <em>app_key: str</em>, <em>app_id: str</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubAppHandler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubAppHandler" title="Permalink to this definition">¶</a></dt>
-<dd><p>Handles interaction with Github as App</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.githubhandler.</code><code class="descname">GitHubAppHandler</code><span class="sig-paren">(</span><em>session</em>, <em>app_name</em>, <em>app_key</em>, <em>app_id</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubAppHandler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubAppHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Handles interaction with Github as App</p>
 <dl class="attribute">
 <dt id="bioconda_utils.githubhandler.GitHubAppHandler.INSTALLATION_TOKEN">
 <code class="descname">INSTALLATION_TOKEN</code><em class="property"> = '/app/installations/{installation_id}/access_tokens'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubAppHandler.INSTALLATION_TOKEN" title="Permalink to this definition">¶</a></dt>
@@ -242,20 +287,35 @@ of an app.</p>
 
 <dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubAppHandler.get_app_jwt">
-<code class="descname">get_app_jwt</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; str<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubAppHandler.get_app_jwt"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubAppHandler.get_app_jwt" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_app_jwt</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubAppHandler.get_app_jwt"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubAppHandler.get_app_jwt" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns JWT authenticating as this app</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubAppHandler.get_github_api">
-<code class="descname">get_github_api</code><span class="sig-paren">(</span><em>dry_run</em>, <em>to_user</em>, <em>to_repo</em>, <em>installation</em><span class="sig-paren">)</span> &#x2192; bioconda_utils.githubhandler.GitHubHandler<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubAppHandler.get_github_api"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubAppHandler.get_github_api" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_github_api</code><span class="sig-paren">(</span><em>dry_run</em>, <em>to_user</em>, <em>to_repo</em>, <em>installation</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubAppHandler.get_github_api"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubAppHandler.get_github_api" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the GitHubHandler for the installation the event came from</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bioconda_utils.githubhandler.GitHubHandler" title="bioconda_utils.githubhandler.GitHubHandler"><code class="xref py py-class docutils literal notranslate"><span class="pre">GitHubHandler</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubAppHandler.get_installation_token">
-<code class="descname">get_installation_token</code><span class="sig-paren">(</span><em>installation: str</em>, <em>name: str = None</em><span class="sig-paren">)</span> &#x2192; str<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubAppHandler.get_installation_token"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubAppHandler.get_installation_token" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_installation_token</code><span class="sig-paren">(</span><em>installation</em>, <em>name=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubAppHandler.get_installation_token"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubAppHandler.get_installation_token" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns OAUTH token for installation referenced in <strong>event</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="attribute">
@@ -266,26 +326,77 @@ of an app.</p>
 
 <dl class="staticmethod">
 <dt id="bioconda_utils.githubhandler.GitHubAppHandler.parse_isotime">
-<em class="property">static </em><code class="descname">parse_isotime</code><span class="sig-paren">(</span><em>timestr: str</em><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubAppHandler.parse_isotime"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubAppHandler.parse_isotime" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="descname">parse_isotime</code><span class="sig-paren">(</span><em>timestr</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubAppHandler.parse_isotime"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubAppHandler.parse_isotime" title="Permalink to this definition">¶</a></dt>
 <dd><p>Converts UTC ISO 8601 time stamp to seconds in epoch</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.githubhandler.GitHubHandler">
-<em class="property">class </em><code class="descclassname">bioconda_utils.githubhandler.</code><code class="descname">GitHubHandler</code><span class="sig-paren">(</span><em>token: str = None</em>, <em>dry_run: bool = False</em>, <em>to_user: str = 'bioconda'</em>, <em>to_repo: str = 'bioconda-recipes'</em>, <em>installation: int = None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler" title="Permalink to this definition">¶</a></dt>
-<dd><p>Handles interaction with GitHub</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.githubhandler.</code><code class="descname">GitHubHandler</code><span class="sig-paren">(</span><em>token=None</em>, <em>dry_run=False</em>, <em>to_user='bioconda'</em>, <em>to_repo='bioconda-recipes'</em>, <em>installation=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Handles interaction with GitHub</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>token</strong> – OAUTH token granting permissions to GH</p></li>
-<li><p><strong>dry_run</strong> – Don’t actually modify things if set</p></li>
-<li><p><strong>to_user</strong> – Target User/Org for PRs</p></li>
-<li><p><strong>to_repo</strong> – Target repository within <strong>to_user</strong></p></li>
+<li><p><strong>token</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – OAUTH token granting permissions to GH</p></li>
+<li><p><strong>dry_run</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Don’t actually modify things if set</p></li>
+<li><p><strong>to_user</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Target User/Org for PRs</p></li>
+<li><p><strong>to_repo</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Target repository within <strong>to_user</strong></p></li>
 </ul>
 </dd>
 </dl>
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.CHECK_RUN">
+<code class="descname">CHECK_RUN</code><em class="property"> = '/repos/{user}/{repo}/check-runs{/id}'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.CHECK_RUN" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.COMMENTS">
+<code class="descname">COMMENTS</code><em class="property"> = '/repos/{user}/{repo}/issues/comments{/comment_id}'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.COMMENTS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.GET_CHECK_RUNS">
+<code class="descname">GET_CHECK_RUNS</code><em class="property"> = '/repos/{user}/{repo}/commits/{commit}/check-runs'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.GET_CHECK_RUNS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.ISSUES">
+<code class="descname">ISSUES</code><em class="property"> = '/repos/{user}/{repo}/issues{/number}'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.ISSUES" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.ISSUE_COMMENTS">
+<code class="descname">ISSUE_COMMENTS</code><em class="property"> = '/repos/{user}/{repo}/issues/{number}/comments'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.ISSUE_COMMENTS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.ORG_MEMBERS">
+<code class="descname">ORG_MEMBERS</code><em class="property"> = '/orgs/{user}/members{/username}'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.ORG_MEMBERS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.PULLS">
+<code class="descname">PULLS</code><em class="property"> = '/repos/{user}/{repo}/pulls{/number}{?head,base,state}'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.PULLS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.PULL_COMMITS">
+<code class="descname">PULL_COMMITS</code><em class="property"> = '/repos/{user}/{repo}/pulls/{number}/commits'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.PULL_COMMITS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.PULL_FILES">
+<code class="descname">PULL_FILES</code><em class="property"> = '/repos/{user}/{repo}/pulls/{number}/files'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.PULL_FILES" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="attribute">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.STATE">
 <code class="descname">STATE</code><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.STATE" title="Permalink to this definition">¶</a></dt>
@@ -305,33 +416,44 @@ of an app.</p>
 </dd></dl>
 
 <dl class="method">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.create_check_run">
+<code class="descname">create_check_run</code><span class="sig-paren">(</span><em>name</em>, <em>head_sha</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.create_check_run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.create_check_run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.create_comment">
-<code class="descname">create_comment</code><span class="sig-paren">(</span><em>number: int</em>, <em>body: str</em><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.create_comment"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.create_comment" title="Permalink to this definition">¶</a></dt>
+<code class="descname">create_comment</code><span class="sig-paren">(</span><em>number</em>, <em>body</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.create_comment"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.create_comment" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create issue comment</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>number</strong> – Issue number</p></li>
-<li><p><strong>body</strong> – Comment content</p></li>
+<li><p><strong>number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – Issue number</p></li>
+<li><p><strong>body</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Comment content</p></li>
 </ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.create_pr">
-<code class="descname">create_pr</code><span class="sig-paren">(</span><em>title: str</em>, <em>from_branch: Optional[str] = None</em>, <em>from_user: Optional[str] = None</em>, <em>to_branch: Optional[str] = 'master'</em>, <em>body: Optional[str] = None</em>, <em>maintainer_can_modify: bool = True</em><span class="sig-paren">)</span> &#x2192; Dict[Any, Any]<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.create_pr"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.create_pr" title="Permalink to this definition">¶</a></dt>
+<code class="descname">create_pr</code><span class="sig-paren">(</span><em>title</em>, <em>from_branch=None</em>, <em>from_user=None</em>, <em>to_branch='master'</em>, <em>body=None</em>, <em>maintainer_can_modify=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.create_pr"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.create_pr" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create new PR</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>title</strong> – Title of new PR</p></li>
-<li><p><strong>from_branch</strong> – Name of branch from which PR asks to pull</p></li>
-<li><p><strong>from_user</strong> – Name of user/org in from which to pull</p></li>
-<li><p><strong>to_branch</strong> – Name of branch into which to pull (default: master)</p></li>
-<li><p><strong>body</strong> – Body text of PR</p></li>
-<li><p><strong>maintainer_can_modify</strong> – Whether to allow maintainer to modify from_branch</p></li>
+<li><p><strong>title</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Title of new PR</p></li>
+<li><p><strong>from_branch</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Name of branch from which PR asks to pull</p></li>
+<li><p><strong>from_user</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Name of user/org in from which to pull</p></li>
+<li><p><strong>to_branch</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Name of branch into which to pull (default: master)</p></li>
+<li><p><strong>body</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Body text of PR</p></li>
+<li><p><strong>maintainer_can_modify</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Whether to allow maintainer to modify from_branch</p></li>
 </ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]</p>
 </dd>
 </dl>
 </dd></dl>
@@ -343,24 +465,52 @@ of an app.</p>
 </dd></dl>
 
 <dl class="method">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.for_json">
+<code class="descname">for_json</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.for_json"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.for_json" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.get_check_runs">
+<code class="descname">get_check_runs</code><span class="sig-paren">(</span><em>sha</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.get_check_runs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.get_check_runs" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.get_file_relurl">
-<code class="descname">get_file_relurl</code><span class="sig-paren">(</span><em>path: str</em>, <em>branch_name: str = 'master'</em><span class="sig-paren">)</span> &#x2192; str<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.get_file_relurl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.get_file_relurl" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_file_relurl</code><span class="sig-paren">(</span><em>path</em>, <em>branch_name='master'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.get_file_relurl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.get_file_relurl" title="Permalink to this definition">¶</a></dt>
 <dd><p>Format domain relative url for <strong>path</strong> on <strong>branch_name</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.get_pr_modified_files">
+<code class="descname">get_pr_modified_files</code><span class="sig-paren">(</span><em>number</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.get_pr_modified_files"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.get_pr_modified_files" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.get_prs">
-<code class="descname">get_prs</code><span class="sig-paren">(</span><em>from_branch: Optional[str] = None</em>, <em>from_user: Optional[str] = None</em>, <em>to_branch: Optional[str] = None</em>, <em>number: Optional[int] = None</em>, <em>state: Optional[bioconda_utils.githubhandler.IssueState] = None</em><span class="sig-paren">)</span> &#x2192; List[Dict[Any, Any]]<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.get_prs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.get_prs" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_prs</code><span class="sig-paren">(</span><em>from_branch=None</em>, <em>from_user=None</em>, <em>to_branch=None</em>, <em>number=None</em>, <em>state=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.get_prs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.get_prs" title="Permalink to this definition">¶</a></dt>
 <dd><p>Retrieve list of PRs matching parameters</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>from_branch</strong> – Name of branch from which PR asks to pull</p></li>
-<li><p><strong>from_user</strong> – Name of user/org in from which to pull
+<li><p><strong>from_branch</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Name of branch from which PR asks to pull</p></li>
+<li><p><strong>from_user</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Name of user/org in from which to pull
 (default: from auth)</p></li>
-<li><p><strong>to_branch</strong> – Name of branch into which to pull (default: master)</p></li>
-<li><p><strong>number</strong> – PR number</p></li>
+<li><p><strong>to_branch</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Name of branch into which to pull (default: master)</p></li>
+<li><p><strong>number</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>]) – PR number</p></li>
 </ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
 </dd>
 </dl>
 </dd></dl>
@@ -373,19 +523,29 @@ of an app.</p>
 
 <dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.is_member">
-<code class="descname">is_member</code><span class="sig-paren">(</span><em>username</em><span class="sig-paren">)</span> &#x2192; bool<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.is_member"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.is_member" title="Permalink to this definition">¶</a></dt>
+<code class="descname">is_member</code><span class="sig-paren">(</span><em>username</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.is_member"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.is_member" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if <strong>username</strong> is member of current org</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.iter_comments">
-<code class="descname">iter_comments</code><span class="sig-paren">(</span><em>number: int</em><span class="sig-paren">)</span> &#x2192; List[Dict[str, Any]]<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.iter_comments"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.iter_comments" title="Permalink to this definition">¶</a></dt>
+<code class="descname">iter_comments</code><span class="sig-paren">(</span><em>number</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.iter_comments"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.iter_comments" title="Permalink to this definition">¶</a></dt>
 <dd><p>List comments for issue</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.iter_pr_commits">
-<code class="descname">iter_pr_commits</code><span class="sig-paren">(</span><em>number: int</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.iter_pr_commits"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.iter_pr_commits" title="Permalink to this definition">¶</a></dt>
+<code class="descname">iter_pr_commits</code><span class="sig-paren">(</span><em>number</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.iter_pr_commits"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.iter_pr_commits" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create iterator over commits in a PR</p>
 </dd></dl>
 
@@ -396,16 +556,24 @@ of an app.</p>
 </dd></dl>
 
 <dl class="method">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.modify_check_run">
+<code class="descname">modify_check_run</code><span class="sig-paren">(</span><em>number</em>, <em>status=None</em>, <em>conclusion=None</em>, <em>output_title=None</em>, <em>output_summary=None</em>, <em>output_text=None</em>, <em>output_annotations=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.modify_check_run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.modify_check_run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.modify_issue">
-<code class="descname">modify_issue</code><span class="sig-paren">(</span><em>number: int</em>, <em>labels: Optional[List[str]] = None</em>, <em>title: Optional[str] = None</em>, <em>body: Optional[str] = None</em><span class="sig-paren">)</span> &#x2192; Dict[Any, Any]<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.modify_issue"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.modify_issue" title="Permalink to this definition">¶</a></dt>
+<code class="descname">modify_issue</code><span class="sig-paren">(</span><em>number</em>, <em>labels=None</em>, <em>title=None</em>, <em>body=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.modify_issue"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.modify_issue" title="Permalink to this definition">¶</a></dt>
 <dd><p>Modify existing issue (PRs are issues)</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>labels</strong> – list of labels to assign to issue</p></li>
-<li><p><strong>title</strong> – new title</p></li>
-<li><p><strong>body</strong> – new body</p></li>
+<li><p><strong>labels</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]]) – list of labels to assign to issue</p></li>
+<li><p><strong>title</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – new title</p></li>
+<li><p><strong>body</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – new body</p></li>
 </ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]</p>
 </dd>
 </dl>
 </dd></dl>
@@ -414,6 +582,11 @@ of an app.</p>
 <dt id="bioconda_utils.githubhandler.GitHubHandler.rate_limit">
 <code class="descname">rate_limit</code><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.rate_limit" title="Permalink to this definition">¶</a></dt>
 <dd><p>Last recorded rate limit data</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">RateLimit</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="attribute">
@@ -424,8 +597,13 @@ of an app.</p>
 
 <dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.set_oauth_token">
-<code class="descname">set_oauth_token</code><span class="sig-paren">(</span><em>token: str</em><span class="sig-paren">)</span> &#x2192; None<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.set_oauth_token"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.set_oauth_token" title="Permalink to this definition">¶</a></dt>
+<code class="descname">set_oauth_token</code><span class="sig-paren">(</span><em>token</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.set_oauth_token"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.set_oauth_token" title="Permalink to this definition">¶</a></dt>
 <dd><p>Update oauth token for the wrapped GitHubAPI object</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="attribute">
@@ -436,14 +614,17 @@ of an app.</p>
 
 <dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.update_comment">
-<code class="descname">update_comment</code><span class="sig-paren">(</span><em>number: int</em>, <em>body: str</em><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.update_comment"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.update_comment" title="Permalink to this definition">¶</a></dt>
+<code class="descname">update_comment</code><span class="sig-paren">(</span><em>number</em>, <em>body</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.update_comment"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.update_comment" title="Permalink to this definition">¶</a></dt>
 <dd><p>Update issue comment</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>number</strong> – Comment number (NOT PR NUMBER!)</p></li>
-<li><p><strong>body</strong> – Comment content</p></li>
+<li><p><strong>number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – Comment number (NOT PR NUMBER!)</p></li>
+<li><p><strong>body</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Comment content</p></li>
 </ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -471,14 +652,35 @@ of an app.</p>
 <dl class="class">
 <dt id="bioconda_utils.githubhandler.IssueState">
 <em class="property">class </em><code class="descclassname">bioconda_utils.githubhandler.</code><code class="descname">IssueState</code><a class="headerlink" href="#bioconda_utils.githubhandler.IssueState" title="Permalink to this definition">¶</a></dt>
-<dd><p>State for Github Issues</p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></a></p>
+<p>State for Github Issues</p>
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.IssueState.all">
+<code class="descname">all</code><em class="property"> = 3</em><a class="headerlink" href="#bioconda_utils.githubhandler.IssueState.all" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.IssueState.closed">
+<code class="descname">closed</code><em class="property"> = 2</em><a class="headerlink" href="#bioconda_utils.githubhandler.IssueState.closed" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.IssueState.open">
+<code class="descname">open</code><em class="property"> = 1</em><a class="headerlink" href="#bioconda_utils.githubhandler.IssueState.open" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.githubhandler.iso_now">
-<code class="descclassname">bioconda_utils.githubhandler.</code><code class="descname">iso_now</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; str<a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#iso_now"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.iso_now" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">bioconda_utils.githubhandler.</code><code class="descname">iso_now</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#iso_now"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.iso_now" title="Permalink to this definition">¶</a></dt>
 <dd><p>Creates ISO 8601 timestamp in format
 <code class="docutils literal notranslate"><span class="pre">YYYY-MM-DDTHH:MM:SSZ</span></code> as required by Github</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 </div>
@@ -494,7 +696,7 @@ of an app.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

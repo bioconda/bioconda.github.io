@@ -1,0 +1,543 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>bioconda_utils.lint_functions &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../index.html">
+    <img class="logo" src="../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html">Updating recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../cb3.html">Conda build v3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../../conda-recipe_index.html">Recipe Index</a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for bioconda_utils.lint_functions</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Lint Checks for Recipe Linter</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">functools</span> <span class="k">import</span> <span class="n">partial</span>
+<span class="kn">import</span> <span class="nn">glob</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">re</span>
+
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">utils</span>
+
+
+<span class="k">def</span> <span class="nf">_get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="n">section</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    meta : dict-like</span>
+<span class="sd">        Parsed meta.yaml file.</span>
+
+<span class="sd">    section : str, list, or None</span>
+<span class="sd">        If None, returns all dependencies. Otherwise can be a string or list of</span>
+<span class="sd">        options [build, host, run, test] to return section-specific dependencies.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">get_name</span><span class="p">(</span><span class="n">dep</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">dep</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+
+    <span class="n">reqs</span> <span class="o">=</span> <span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">get_section</span><span class="p">(</span><span class="s1">&#39;requirements&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="p">{})</span>
+    <span class="k">if</span> <span class="n">reqs</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[]</span>
+    <span class="k">if</span> <span class="n">section</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">sections</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;build&#39;</span><span class="p">,</span> <span class="s1">&#39;host&#39;</span><span class="p">,</span> <span class="s1">&#39;run&#39;</span><span class="p">,</span> <span class="s1">&#39;test&#39;</span><span class="p">]</span>
+    <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">section</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="n">sections</span> <span class="o">=</span> <span class="p">[</span><span class="n">section</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">sections</span> <span class="o">=</span> <span class="n">section</span>
+    <span class="n">deps</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">sections</span><span class="p">:</span>
+        <span class="n">dep</span> <span class="o">=</span> <span class="p">(</span><span class="n">reqs</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="ow">or</span> <span class="p">[])</span>
+        <span class="k">if</span> <span class="n">dep</span><span class="p">:</span>
+            <span class="n">deps</span> <span class="o">+=</span> <span class="p">[</span><span class="n">get_name</span><span class="p">(</span><span class="n">d</span><span class="p">)</span> <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">dep</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">deps</span>
+
+
+<span class="k">def</span> <span class="nf">_has_preprocessing_selector</span><span class="p">(</span><span class="n">recipe</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Does the package have any preprocessing selectors?</span>
+
+<span class="sd">    # [osx], # [not py27], etc.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># regex from</span>
+    <span class="c1"># https://github.com/conda/conda-build/blob/cce72a95c61b10abc908ab1acf1e07854a236a75/conda_build/metadata.py#L107</span>
+    <span class="n">sel_pat</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;(.+?)\s*(#.*)?\[([^\[\]]+)\](?(2).*)$&#39;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">open</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">path</span><span class="p">):</span>
+        <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;#&#39;</span><span class="p">):</span>
+            <span class="k">continue</span>
+        <span class="k">if</span> <span class="n">sel_pat</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">line</span><span class="p">):</span>
+            <span class="k">return</span> <span class="kc">True</span>
+
+
+<span class="k">def</span> <span class="nf">_has_compilers</span><span class="p">(</span><span class="n">meta</span><span class="p">):</span>
+    <span class="n">build_deps</span> <span class="o">=</span> <span class="n">_get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="p">(</span><span class="s1">&#39;build&#39;</span><span class="p">,</span> <span class="s1">&#39;host&#39;</span><span class="p">))</span>
+    <span class="k">return</span> <span class="nb">any</span><span class="p">(</span>
+        <span class="n">dep</span> <span class="ow">in</span> <span class="p">{</span><span class="s1">&#39;gcc&#39;</span><span class="p">,</span> <span class="s1">&#39;llvm&#39;</span><span class="p">,</span> <span class="s1">&#39;clangdev&#39;</span><span class="p">,</span> <span class="s1">&#39;llvmdev&#39;</span><span class="p">}</span> <span class="ow">or</span>
+        <span class="n">dep</span><span class="o">.</span><span class="n">startswith</span><span class="p">((</span><span class="s1">&#39;clang_&#39;</span><span class="p">,</span> <span class="s1">&#39;clangxx_&#39;</span><span class="p">,</span> <span class="s1">&#39;gcc_&#39;</span><span class="p">,</span> <span class="s1">&#39;gxx_&#39;</span><span class="p">,</span> <span class="s1">&#39;gfortran_&#39;</span><span class="p">,</span> <span class="s1">&#39;toolchain_&#39;</span><span class="p">))</span>
+        <span class="k">for</span> <span class="n">dep</span> <span class="ow">in</span> <span class="n">build_deps</span>
+    <span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">_mark_lines</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">section</span><span class="p">):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">sl</span><span class="p">,</span> <span class="n">sc</span><span class="p">,</span> <span class="n">el</span><span class="p">,</span> <span class="n">ec</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get_raw_range</span><span class="p">(</span><span class="n">section</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+        <span class="n">sl</span><span class="p">,</span> <span class="n">sc</span><span class="p">,</span> <span class="n">el</span><span class="p">,</span> <span class="n">ec</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">ec</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">el</span> <span class="o">=</span> <span class="n">el</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="n">data</span><span class="p">[</span><span class="s1">&#39;start_line&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">sl</span>
+    <span class="n">data</span><span class="p">[</span><span class="s1">&#39;end_line&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">el</span>
+    <span class="k">return</span> <span class="n">data</span>
+
+
+<div class="viewcode-block" id="lint_multiple_metas"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.lint_multiple_metas">[docs]</a><span class="k">def</span> <span class="nf">lint_multiple_metas</span><span class="p">(</span><span class="n">lint_function</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">lint_metas</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">metas</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">lint</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">lint_function</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">meta</span> <span class="ow">in</span> <span class="n">metas</span><span class="p">:</span>
+            <span class="n">ret</span> <span class="o">=</span> <span class="n">lint</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">ret</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">ret</span><span class="p">[</span><span class="s1">&#39;output&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">()</span>
+                <span class="k">return</span> <span class="n">ret</span>
+    <span class="n">lint_metas</span><span class="o">.</span><span class="vm">__name__</span> <span class="o">=</span> <span class="n">lint_function</span><span class="o">.</span><span class="vm">__name__</span>
+    <span class="k">return</span> <span class="n">lint_metas</span></div>
+
+
+<div class="viewcode-block" id="in_other_channels"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.in_other_channels">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">in_other_channels</span><span class="p">(</span><span class="n">_recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Does the package exist in any other non-bioconda channels?</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">channels</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">utils</span><span class="o">.</span><span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">get_package_data</span><span class="p">(</span>
+        <span class="n">key</span><span class="o">=</span><span class="s2">&quot;channel&quot;</span><span class="p">,</span>
+        <span class="n">name</span><span class="o">=</span><span class="n">meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s2">&quot;package/name&quot;</span><span class="p">),</span>
+        <span class="n">version</span><span class="o">=</span><span class="n">meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s2">&quot;package/version&quot;</span><span class="p">)</span>
+    <span class="p">))</span>
+    <span class="n">channels</span><span class="o">.</span><span class="n">discard</span><span class="p">(</span><span class="s1">&#39;bioconda&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">channels</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s1">&#39;exists_in_channels&#39;</span><span class="p">:</span> <span class="n">channels</span><span class="p">,</span>
+            <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;consider deprecating&#39;</span><span class="p">,</span>
+        <span class="p">}</span></div>
+
+
+<div class="viewcode-block" id="already_in_bioconda"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.already_in_bioconda">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">already_in_bioconda</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">_meta</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Does the package exist in bioconda?</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">utils</span><span class="o">.</span><span class="n">check_recipe_skippable</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">dir</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;bioconda&#39;</span><span class="p">]):</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s1">&#39;already_in_bioconda&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;bump version or build number&#39;</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">_mark_lines</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="s1">&#39;build/number&#39;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="missing_home"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.missing_home">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">missing_home</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;about/home&#39;</span><span class="p">):</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s1">&#39;missing_home&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;add about:home&#39;</span><span class="p">,</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">_mark_lines</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="s1">&#39;about&#39;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="missing_summary"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.missing_summary">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">missing_summary</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;about/summary&#39;</span><span class="p">):</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s1">&#39;missing_summary&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;add about:summary&#39;</span><span class="p">,</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">_mark_lines</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="s1">&#39;about&#39;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="missing_license"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.missing_license">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">missing_license</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;about/license&#39;</span><span class="p">):</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s1">&#39;missing_license&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;add about:license&#39;</span><span class="p">,</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">_mark_lines</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="s1">&#39;about&#39;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="missing_tests"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.missing_tests">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">missing_tests</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="n">test_files</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;run_test.py&#39;</span><span class="p">,</span> <span class="s1">&#39;run_test.sh&#39;</span><span class="p">,</span> <span class="s1">&#39;run_test.pl&#39;</span><span class="p">]</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">meta</span><span class="o">.</span><span class="n">get_section</span><span class="p">(</span><span class="s1">&#39;test&#39;</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">any</span><span class="p">([</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">dir</span><span class="p">,</span> <span class="n">f</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span>
+                    <span class="n">test_files</span><span class="p">]):</span>
+            <span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="s1">&#39;no_tests&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+                <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;add basic tests&#39;</span><span class="p">,</span>
+            <span class="p">}</span>
+            <span class="k">return</span> <span class="n">data</span></div>
+
+
+<div class="viewcode-block" id="missing_hash"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.missing_hash">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">missing_hash</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="c1"># could be a meta-package if no source section or if None</span>
+    <span class="n">sources</span> <span class="o">=</span> <span class="n">meta</span><span class="o">.</span><span class="n">get_section</span><span class="p">(</span><span class="s1">&#39;source&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">sources</span><span class="p">:</span>
+        <span class="k">return</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">sources</span><span class="p">,</span> <span class="nb">dict</span><span class="p">):</span>
+        <span class="n">sources</span> <span class="o">=</span> <span class="p">[</span><span class="n">sources</span><span class="p">]</span>
+
+    <span class="k">for</span> <span class="n">source</span> <span class="ow">in</span> <span class="n">sources</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">any</span><span class="p">(</span><span class="n">source</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">checksum</span><span class="p">)</span>
+                   <span class="k">for</span> <span class="n">checksum</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;md5&#39;</span><span class="p">,</span> <span class="s1">&#39;sha1&#39;</span><span class="p">,</span> <span class="s1">&#39;sha256&#39;</span><span class="p">)):</span>
+            <span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="s1">&#39;missing_hash&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+                <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;add md5, sha1, or sha256 hash to &quot;source&quot; section&#39;</span><span class="p">,</span>
+            <span class="p">}</span>
+            <span class="k">return</span> <span class="n">_mark_lines</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="s1">&#39;source&#39;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="uses_git_url"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.uses_git_url">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">uses_git_url</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="n">sources</span> <span class="o">=</span> <span class="n">meta</span><span class="o">.</span><span class="n">get_section</span><span class="p">(</span><span class="s1">&#39;source&#39;</span><span class="p">)</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;uses_git_url&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;use tarballs whenever possible&#39;</span><span class="p">,</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">sources</span><span class="p">:</span>
+        <span class="c1"># metapackage?</span>
+        <span class="k">return</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">sources</span><span class="p">,</span> <span class="nb">dict</span><span class="p">):</span>
+        <span class="k">if</span> <span class="s1">&#39;git_url&#39;</span> <span class="ow">in</span> <span class="n">sources</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">_mark_lines</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="s1">&#39;source/git_url&#39;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">num</span><span class="p">,</span> <span class="n">source</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">sources</span><span class="p">):</span>
+        <span class="k">if</span> <span class="s1">&#39;git_url&#39;</span> <span class="ow">in</span> <span class="n">source</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">_mark_lines</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">f</span><span class="s1">&#39;source/</span><span class="si">{num}</span><span class="s1">/git_url&#39;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="uses_perl_threaded"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.uses_perl_threaded">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">uses_perl_threaded</span><span class="p">(</span><span class="n">_recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="k">if</span> <span class="s1">&#39;perl-threaded&#39;</span> <span class="ow">in</span> <span class="n">_get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s1">&#39;depends_on_perl_threaded&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;use &quot;perl&quot; instead of &quot;perl-threaded&quot;&#39;</span><span class="p">,</span>
+        <span class="p">}</span></div>
+
+
+<div class="viewcode-block" id="uses_javajdk"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.uses_javajdk">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">uses_javajdk</span><span class="p">(</span><span class="n">_recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="k">if</span> <span class="s1">&#39;java-jdk&#39;</span> <span class="ow">in</span> <span class="n">_get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s1">&#39;depends_on_java-jdk&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;use &quot;openjdk&quot; instead of &quot;java-jdk&quot;&#39;</span><span class="p">,</span>
+        <span class="p">}</span></div>
+
+
+<div class="viewcode-block" id="uses_setuptools"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.uses_setuptools">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">uses_setuptools</span><span class="p">(</span><span class="n">_recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="k">if</span> <span class="s1">&#39;setuptools&#39;</span> <span class="ow">in</span> <span class="n">_get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="s1">&#39;run&#39;</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s1">&#39;depends_on_setuptools&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="p">(</span><span class="s1">&#39;setuptools might not be a run requirement (unless it uses &#39;</span>
+                    <span class="s1">&#39;pkg_resources or setuptools console scripts)&#39;</span><span class="p">),</span>
+        <span class="p">}</span></div>
+
+
+<div class="viewcode-block" id="has_windows_bat_file"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.has_windows_bat_file">[docs]</a><span class="k">def</span> <span class="nf">has_windows_bat_file</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">metas</span><span class="p">):</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">dir</span><span class="p">,</span> <span class="s1">&#39;*.bat&#39;</span><span class="p">)))</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s1">&#39;bat_file&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;remove windows .bat files&#39;</span>
+        <span class="p">}</span></div>
+
+
+<div class="viewcode-block" id="should_be_noarch"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.should_be_noarch">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">should_be_noarch</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="n">deps</span> <span class="o">=</span> <span class="n">_get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">)</span>
+    <span class="k">if</span> <span class="p">(</span>
+        <span class="p">(</span><span class="ow">not</span> <span class="n">_has_compilers</span><span class="p">(</span><span class="n">meta</span><span class="p">))</span> <span class="ow">and</span>
+        <span class="p">(</span><span class="s1">&#39;python&#39;</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">)</span> <span class="ow">and</span>
+        <span class="c1"># This will also exclude recipes with skip sections</span>
+        <span class="c1"># which is a good thing, because noarch also implies independence of</span>
+        <span class="c1"># the python version.</span>
+        <span class="ow">not</span> <span class="n">_has_preprocessing_selector</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+    <span class="p">)</span> <span class="ow">and</span> <span class="p">(</span>
+        <span class="s1">&#39;noarch&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">get_section</span><span class="p">(</span><span class="s1">&#39;build&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="p">{})</span>
+    <span class="p">):</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s1">&#39;should_be_noarch&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;add &quot;build: noarch&quot; section&#39;</span><span class="p">,</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">_mark_lines</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="s1">&#39;build&#39;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="should_not_be_noarch"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.should_not_be_noarch">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">should_not_be_noarch</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="k">if</span> <span class="p">(</span>
+        <span class="n">_has_compilers</span><span class="p">(</span><span class="n">meta</span><span class="p">)</span> <span class="ow">or</span>
+        <span class="n">meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;build/skip&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+    <span class="p">)</span> <span class="ow">and</span> <span class="p">(</span>
+        <span class="s1">&#39;noarch&#39;</span> <span class="ow">in</span> <span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">get_section</span><span class="p">(</span><span class="s1">&#39;build&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="p">{})</span>
+    <span class="p">)</span> <span class="ow">and</span> <span class="p">(</span>
+        <span class="n">meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;build/noarch&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+    <span class="p">):</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s1">&#39;should_not_be_noarch&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;remove &quot;build: noarch&quot; section&#39;</span><span class="p">,</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">_mark_lines</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="s1">&#39;build/noarch&#39;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="setup_py_install_args"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.setup_py_install_args">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">setup_py_install_args</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="k">if</span> <span class="s1">&#39;setuptools&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">_get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="s1">&#39;build&#39;</span><span class="p">):</span>
+        <span class="k">return</span>
+
+    <span class="n">err</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;needs_setuptools_args&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="p">(</span><span class="s1">&#39;add &quot;--single-version-externally-managed --record=record.txt&quot; &#39;</span>
+                <span class="s1">&#39;to setup.py command&#39;</span><span class="p">),</span>
+    <span class="p">}</span>
+
+    <span class="n">script_line</span> <span class="o">=</span> <span class="n">meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;build/script&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="p">(</span>
+        <span class="s1">&#39;setup.py install&#39;</span> <span class="ow">in</span> <span class="n">script_line</span> <span class="ow">and</span>
+        <span class="s1">&#39;--single-version-externally-managed&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">script_line</span>
+    <span class="p">):</span>
+        <span class="k">return</span> <span class="n">err</span>
+
+    <span class="n">build_sh</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">dir</span><span class="p">,</span> <span class="s1">&#39;build.sh&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">build_sh</span><span class="p">):</span>
+        <span class="k">return</span>
+
+    <span class="n">contents</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">build_sh</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="k">if</span> <span class="p">(</span>
+        <span class="s1">&#39;setup.py install&#39;</span> <span class="ow">in</span> <span class="n">contents</span> <span class="ow">and</span>
+        <span class="s1">&#39;--single-version-externally-managed&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">contents</span>
+    <span class="p">):</span>
+        <span class="k">return</span> <span class="n">err</span></div>
+
+
+<div class="viewcode-block" id="invalid_identifiers"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.invalid_identifiers">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">invalid_identifiers</span><span class="p">(</span><span class="n">_recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">identifiers</span> <span class="o">=</span> <span class="n">meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;extra/identifiers&#39;</span><span class="p">,</span> <span class="p">[])</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">identifiers</span><span class="p">,</span> <span class="nb">list</span><span class="p">):</span>
+            <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;invalid_identifiers&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+                    <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;extra:identifiers must hold a list of identifiers&#39;</span><span class="p">}</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">all</span><span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">identifiers</span><span class="p">):</span>
+            <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;invalid_identifiers&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+                    <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;each identifier must be a string&#39;</span><span class="p">}</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">all</span><span class="p">((</span><span class="s1">&#39;:&#39;</span> <span class="ow">in</span> <span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">identifiers</span><span class="p">):</span>
+            <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;invalid_identifiers&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+                    <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;each identifier must be of the form &#39;</span>
+                           <span class="s1">&#39;type:identifier (e.g., doi:123)&#39;</span><span class="p">}</span>
+    <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+        <span class="c1"># no identifier section</span>
+        <span class="k">return</span></div>
+
+
+<div class="viewcode-block" id="deprecated_numpy_spec"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.deprecated_numpy_spec">[docs]</a><span class="k">def</span> <span class="nf">deprecated_numpy_spec</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">metas</span><span class="p">):</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">path</span><span class="p">)</span> <span class="k">as</span> <span class="n">raw</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;numpy( )+x\.x&quot;</span><span class="p">,</span> <span class="n">raw</span><span class="o">.</span><span class="n">read</span><span class="p">()):</span>
+            <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;deprecated_numpy_spec&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+                    <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;omit x.x as pinning of numpy is now &#39;</span>
+                           <span class="s1">&#39;handled automatically&#39;</span><span class="p">}</span></div>
+
+
+<div class="viewcode-block" id="should_not_use_fn"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.should_not_use_fn">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">should_not_use_fn</span><span class="p">(</span><span class="n">_recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="n">sources</span> <span class="o">=</span> <span class="n">meta</span><span class="o">.</span><span class="n">get_section</span><span class="p">(</span><span class="s1">&#39;source&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">sources</span><span class="p">:</span>
+        <span class="k">return</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">sources</span><span class="p">,</span> <span class="nb">dict</span><span class="p">):</span>
+        <span class="n">sources</span> <span class="o">=</span> <span class="p">[</span><span class="n">sources</span><span class="p">]</span>
+
+    <span class="k">for</span> <span class="n">source</span> <span class="ow">in</span> <span class="n">sources</span><span class="p">:</span>
+        <span class="k">if</span> <span class="s1">&#39;fn&#39;</span> <span class="ow">in</span> <span class="n">source</span><span class="p">:</span>
+            <span class="k">return</span> <span class="p">{</span>
+                <span class="s1">&#39;should_not_use_fn&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+                <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;URL should specify path to file, which will be used as the filename&#39;</span>
+            <span class="p">}</span></div>
+
+
+<div class="viewcode-block" id="should_use_compilers"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.should_use_compilers">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">should_use_compilers</span><span class="p">(</span><span class="n">_recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="n">deps</span> <span class="o">=</span> <span class="n">_get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">)</span>
+    <span class="k">if</span> <span class="p">(</span>
+        <span class="p">(</span><span class="s1">&#39;gcc&#39;</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">)</span> <span class="ow">or</span>
+        <span class="p">(</span><span class="s1">&#39;llvm&#39;</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">)</span> <span class="ow">or</span>
+        <span class="p">(</span><span class="s1">&#39;libgfortran&#39;</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">)</span> <span class="ow">or</span>
+        <span class="p">(</span><span class="s1">&#39;libgcc&#39;</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">)</span>
+
+    <span class="p">):</span>
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s1">&#39;should_use_compilers&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="s1">&#39;use {{ compiler(&quot;c&quot;) }} or other new-style compilers&#39;</span><span class="p">,</span>
+        <span class="p">}</span></div>
+
+
+<div class="viewcode-block" id="compilers_must_be_in_build"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint_functions.html#bioconda_utils.lint_functions.compilers_must_be_in_build">[docs]</a><span class="nd">@lint_multiple_metas</span>
+<span class="k">def</span> <span class="nf">compilers_must_be_in_build</span><span class="p">(</span><span class="n">_recipe</span><span class="p">,</span> <span class="n">meta</span><span class="p">):</span>
+    <span class="k">if</span> <span class="p">(</span>
+        <span class="nb">any</span><span class="p">([</span><span class="s1">&#39;gcc_impl_linux-64&#39;</span> <span class="ow">in</span> <span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">_get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="s1">&#39;run&#39;</span><span class="p">)])</span> <span class="ow">or</span>
+        <span class="nb">any</span><span class="p">([</span><span class="s1">&#39;gcc_impl_linux-64&#39;</span> <span class="ow">in</span> <span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">_get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="s1">&#39;host&#39;</span><span class="p">)])</span> <span class="ow">or</span>
+        <span class="nb">any</span><span class="p">([</span><span class="s1">&#39;clang_osx-64&#39;</span> <span class="ow">in</span> <span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">_get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="s1">&#39;run&#39;</span><span class="p">)])</span> <span class="ow">or</span>
+        <span class="nb">any</span><span class="p">([</span><span class="s1">&#39;clang_osx-64&#39;</span> <span class="ow">in</span> <span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">_get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="s1">&#39;host&#39;</span><span class="p">)])</span> <span class="ow">or</span>
+        <span class="nb">any</span><span class="p">([</span><span class="s1">&#39;toolchain&#39;</span> <span class="ow">in</span> <span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">_get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="s1">&#39;run&#39;</span><span class="p">)])</span> <span class="ow">or</span>
+        <span class="nb">any</span><span class="p">([</span><span class="s1">&#39;toolchain&#39;</span> <span class="ow">in</span> <span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">_get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="s1">&#39;host&#39;</span><span class="p">)])</span>
+    <span class="p">):</span>
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s1">&#39;compilers_must_be_in_build&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s1">&#39;fix&#39;</span><span class="p">:</span> <span class="p">(</span>
+                <span class="s1">&#39;{{ compiler(&quot;c&quot;) }} or other new-style compliers can &#39;</span>
+                <span class="s1">&#39;only go in the build: section&#39;</span><span class="p">)</span>
+        <span class="p">}</span></div>
+
+
+<span class="c1">#def bioconductor_37(_recipe, meta):</span>
+<span class="c1">#    for line in open(recipe.path):</span>
+<span class="c1">#        if (&#39;{% set bioc = &quot;3.7&quot; %}&#39; in line) or (&#39;{% set bioc = &quot;release&quot; %}&#39; in line):</span>
+<span class="c1">#            return {</span>
+<span class="c1">#                &#39;bioconductor_37&#39;: True,</span>
+<span class="c1">#                &#39;fix&#39;: &#39;Need to wait until R 3.5 conda package is available&#39;,</span>
+<span class="c1">#            }</span>
+
+<span class="c1">#: Registry of lint functions</span>
+<span class="n">registry</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="n">in_other_channels</span><span class="p">,</span>
+    <span class="n">already_in_bioconda</span><span class="p">,</span>
+    <span class="n">missing_tests</span><span class="p">,</span>
+    <span class="n">missing_home</span><span class="p">,</span>
+    <span class="n">missing_license</span><span class="p">,</span>
+    <span class="n">missing_summary</span><span class="p">,</span>
+    <span class="n">missing_hash</span><span class="p">,</span>
+    <span class="n">uses_git_url</span><span class="p">,</span>
+    <span class="n">uses_javajdk</span><span class="p">,</span>
+    <span class="n">uses_perl_threaded</span><span class="p">,</span>
+    <span class="c1"># removing setuptools from run requirements should be done cautiously:</span>
+    <span class="c1"># it breaks packages that use pkg_resources or setuptools console scripts!</span>
+    <span class="c1"># uses_setuptools,</span>
+    <span class="n">has_windows_bat_file</span><span class="p">,</span>
+    <span class="n">should_be_noarch</span><span class="p">,</span>
+    <span class="n">should_not_be_noarch</span><span class="p">,</span>
+    <span class="n">setup_py_install_args</span><span class="p">,</span>
+    <span class="n">invalid_identifiers</span><span class="p">,</span>
+    <span class="n">deprecated_numpy_spec</span><span class="p">,</span>
+    <span class="n">should_not_use_fn</span><span class="p">,</span>
+    <span class="n">should_use_compilers</span><span class="p">,</span>
+    <span class="n">compilers_must_be_in_build</span><span class="p">,</span>
+    <span class="c1">#bioconductor_37,</span>
+<span class="p">)</span>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/bioconda_utils/lint_functions.py" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

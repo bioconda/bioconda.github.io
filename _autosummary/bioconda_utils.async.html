@@ -96,6 +96,7 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update.html">update</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
@@ -145,10 +146,10 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.async.AsyncFilter" title="bioconda_utils.async.AsyncFilter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AsyncFilter</span></code></a>(pipeline, *_args, **_kwargs)</p></td>
 <td><p>Function object type called by Scanner</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.async.AsyncPipeline" title="bioconda_utils.async.AsyncPipeline"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AsyncPipeline</span></code></a>(max_inflight)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.async.AsyncPipeline" title="bioconda_utils.async.AsyncPipeline"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AsyncPipeline</span></code></a>([max_inflight])</p></td>
 <td><p>Processes items in an asyncio pipeline</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.async.AsyncRequests" title="bioconda_utils.async.AsyncRequests"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AsyncRequests</span></code></a>(cache_fn)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.async.AsyncRequests" title="bioconda_utils.async.AsyncRequests"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AsyncRequests</span></code></a>([cache_fn])</p></td>
 <td><p>Provides helpers for async access to URLs</p></td>
 </tr>
 </tbody>
@@ -171,36 +172,58 @@
 <p class="rubric">Documentation</p>
 <dl class="class">
 <dt id="bioconda_utils.async.AsyncFilter">
-<em class="property">class </em><code class="descclassname">bioconda_utils.async.</code><code class="descname">AsyncFilter</code><span class="sig-paren">(</span><em>pipeline: bioconda_utils.async.AsyncPipeline</em>, <em>*_args</em>, <em>**_kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncFilter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncFilter" title="Permalink to this definition">¶</a></dt>
-<dd><p>Function object type called by Scanner</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.async.</code><code class="descname">AsyncFilter</code><span class="sig-paren">(</span><em>pipeline</em>, <em>*_args</em>, <em>**_kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncFilter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/abc.html#abc.ABC" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Generic" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">typing.Generic</span></code></a></p>
+<p>Function object type called by Scanner</p>
 <dl class="method">
 <dt id="bioconda_utils.async.AsyncFilter.apply">
-<code class="descname">apply</code><span class="sig-paren">(</span><em>recipe: ITEM</em><span class="sig-paren">)</span> &#x2192; ITEM<a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncFilter.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncFilter.apply" title="Permalink to this definition">¶</a></dt>
+<code class="descname">apply</code><span class="sig-paren">(</span><em>recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncFilter.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncFilter.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>~ITEM</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.async.AsyncFilter.async_init">
-<code class="descname">async_init</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; None<a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncFilter.async_init"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncFilter.async_init" title="Permalink to this definition">¶</a></dt>
+<code class="descname">async_init</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncFilter.async_init"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncFilter.async_init" title="Permalink to this definition">¶</a></dt>
 <dd><p>Called inside loop before processing</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.async.AsyncFilter.finalize">
-<code class="descname">finalize</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; None<a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncFilter.finalize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncFilter.finalize" title="Permalink to this definition">¶</a></dt>
+<code class="descname">finalize</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncFilter.finalize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncFilter.finalize" title="Permalink to this definition">¶</a></dt>
 <dd><p>Called at the end of a run</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.async.AsyncPipeline">
-<em class="property">class </em><code class="descclassname">bioconda_utils.async.</code><code class="descname">AsyncPipeline</code><span class="sig-paren">(</span><em>max_inflight: int = 100</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncPipeline"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncPipeline" title="Permalink to this definition">¶</a></dt>
-<dd><p>Processes items in an asyncio pipeline</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.async.</code><code class="descname">AsyncPipeline</code><span class="sig-paren">(</span><em>max_inflight=100</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncPipeline"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncPipeline" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Generic" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">typing.Generic</span></code></a></p>
+<p>Processes items in an asyncio pipeline</p>
 <dl class="method">
 <dt id="bioconda_utils.async.AsyncPipeline.add">
-<code class="descname">add</code><span class="sig-paren">(</span><em>filt: Type[bioconda_utils.async.AsyncFilter[ITEM]], *args, **kwargs</em><span class="sig-paren">)</span> &#x2192; None<a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncPipeline.add"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncPipeline.add" title="Permalink to this definition">¶</a></dt>
+<code class="descname">add</code><span class="sig-paren">(</span><em>filt</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncPipeline.add"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncPipeline.add" title="Permalink to this definition">¶</a></dt>
 <dd><p>Adds <a class="reference internal" href="bioconda_utils.update.html#bioconda_utils.update.Filter" title="bioconda_utils.update.Filter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Filter</span></code></a> to this <a class="reference internal" href="bioconda_utils.update.html#bioconda_utils.update.Scanner" title="bioconda_utils.update.Scanner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Scanner</span></code></a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="attribute">
@@ -217,8 +240,13 @@
 
 <dl class="method">
 <dt id="bioconda_utils.async.AsyncPipeline.get_item_iterator">
-<code class="descname">get_item_iterator</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; Iterator[ITEM]<a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncPipeline.get_item_iterator"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncPipeline.get_item_iterator" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_item_iterator</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncPipeline.get_item_iterator"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncPipeline.get_item_iterator" title="Permalink to this definition">¶</a></dt>
 <dd><p>Load items</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Iterator" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Iterator</span></code></a>[~ITEM]</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="attribute">
@@ -247,14 +275,24 @@
 
 <dl class="method">
 <dt id="bioconda_utils.async.AsyncPipeline.process">
-<code class="descname">process</code><span class="sig-paren">(</span><em>item: ITEM</em><span class="sig-paren">)</span> &#x2192; bool<a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncPipeline.process"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncPipeline.process" title="Permalink to this definition">¶</a></dt>
+<code class="descname">process</code><span class="sig-paren">(</span><em>item</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncPipeline.process"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncPipeline.process" title="Permalink to this definition">¶</a></dt>
 <dd><p>Applies the filters to an item</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.async.AsyncPipeline.run">
-<code class="descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; bool<a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncPipeline.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncPipeline.run" title="Permalink to this definition">¶</a></dt>
+<code class="descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncPipeline.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncPipeline.run" title="Permalink to this definition">¶</a></dt>
 <dd><p>Enters the asyncio loop and manages shutdown.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="method">
@@ -273,8 +311,9 @@
 
 <dl class="class">
 <dt id="bioconda_utils.async.AsyncRequests">
-<em class="property">class </em><code class="descclassname">bioconda_utils.async.</code><code class="descname">AsyncRequests</code><span class="sig-paren">(</span><em>cache_fn: str = None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncRequests"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncRequests" title="Permalink to this definition">¶</a></dt>
-<dd><p>Provides helpers for async access to URLs</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.async.</code><code class="descname">AsyncRequests</code><span class="sig-paren">(</span><em>cache_fn=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncRequests"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncRequests" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Provides helpers for async access to URLs</p>
 <dl class="attribute">
 <dt id="bioconda_utils.async.AsyncRequests.USER_AGENT">
 <code class="descname">USER_AGENT</code><em class="property"> = 'bioconda/bioconda-utils'</em><a class="headerlink" href="#bioconda_utils.async.AsyncRequests.USER_AGENT" title="Permalink to this definition">¶</a></dt>
@@ -297,26 +336,41 @@ get file size first)</p>
 
 <dl class="method">
 <dt id="bioconda_utils.async.AsyncRequests.get_checksum_from_http">
-<code class="descname">get_checksum_from_http</code><span class="sig-paren">(</span><em>url: str</em>, <em>desc: str</em><span class="sig-paren">)</span> &#x2192; str<a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncRequests.get_checksum_from_http"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncRequests.get_checksum_from_http" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_checksum_from_http</code><span class="sig-paren">(</span><em>url</em>, <em>desc</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncRequests.get_checksum_from_http"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncRequests.get_checksum_from_http" title="Permalink to this definition">¶</a></dt>
 <dd><p>Compute sha256 checksum of content at http <strong>url</strong></p>
 <p>Shows TQDM progress monitor with label <strong>desc</strong>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.async.AsyncRequests.get_checksum_from_url">
-<code class="descname">get_checksum_from_url</code><span class="sig-paren">(</span><em>url: str</em>, <em>desc: str</em><span class="sig-paren">)</span> &#x2192; str<a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncRequests.get_checksum_from_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncRequests.get_checksum_from_url" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_checksum_from_url</code><span class="sig-paren">(</span><em>url</em>, <em>desc</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncRequests.get_checksum_from_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncRequests.get_checksum_from_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Compute sha256 checksum of content at <strong>url</strong></p>
 <ul class="simple">
 <li><p>Shows TQDM progress monitor with label <strong>desc</strong>.</p></li>
 <li><p>Caches result</p></li>
 </ul>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.async.AsyncRequests.get_file_from_url">
-<code class="descname">get_file_from_url</code><span class="sig-paren">(</span><em>fname: str</em>, <em>url: str</em>, <em>desc: str</em><span class="sig-paren">)</span> &#x2192; None<a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncRequests.get_file_from_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncRequests.get_file_from_url" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_file_from_url</code><span class="sig-paren">(</span><em>fname</em>, <em>url</em>, <em>desc</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncRequests.get_file_from_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncRequests.get_file_from_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Fetch file at <strong>url</strong> into <strong>fname</strong></p>
 <p>Shows TQDM progress monitor with label <strong>desc</strong>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="method">
@@ -327,13 +381,18 @@ get file size first)</p>
 
 <dl class="method">
 <dt id="bioconda_utils.async.AsyncRequests.get_text_from_url">
-<code class="descname">get_text_from_url</code><span class="sig-paren">(</span><em>url: str</em><span class="sig-paren">)</span> &#x2192; str<a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncRequests.get_text_from_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncRequests.get_text_from_url" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_text_from_url</code><span class="sig-paren">(</span><em>url</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#AsyncRequests.get_text_from_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.AsyncRequests.get_text_from_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Fetch content at <strong>url</strong> and return as text</p>
 <ul class="simple">
 <li><p>On non-permanent errors (429, 502, 503, 504), the GET is retried 10 times with
 increasing wait times according to fibonacci series.</p></li>
 <li><p>Permanent errors raise a ClientResponseError</p></li>
 </ul>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="attribute">
@@ -347,13 +406,30 @@ increasing wait times according to fibonacci series.</p></li>
 <dl class="exception">
 <dt id="bioconda_utils.async.EndProcessing">
 <em class="property">exception </em><code class="descclassname">bioconda_utils.async.</code><code class="descname">EndProcessing</code><a class="reference internal" href="../_modules/bioconda_utils/async.html#EndProcessing"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.EndProcessing" title="Permalink to this definition">¶</a></dt>
-<dd><p>Raised by <a class="reference internal" href="#bioconda_utils.async.AsyncFilter" title="bioconda_utils.async.AsyncFilter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AsyncFilter</span></code></a> to tell <a class="reference internal" href="#bioconda_utils.async.AsyncPipeline" title="bioconda_utils.async.AsyncPipeline"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AsyncPipeline</span></code></a> to stop processing</p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#BaseException" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">BaseException</span></code></a></p>
+<p>Raised by <a class="reference internal" href="#bioconda_utils.async.AsyncFilter" title="bioconda_utils.async.AsyncFilter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AsyncFilter</span></code></a> to tell <a class="reference internal" href="#bioconda_utils.async.AsyncPipeline" title="bioconda_utils.async.AsyncPipeline"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AsyncPipeline</span></code></a> to stop processing</p>
 </dd></dl>
 
 <dl class="exception">
 <dt id="bioconda_utils.async.EndProcessingItem">
-<em class="property">exception </em><code class="descclassname">bioconda_utils.async.</code><code class="descname">EndProcessingItem</code><span class="sig-paren">(</span><em>item: ITEM</em>, <em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#EndProcessingItem"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.EndProcessingItem" title="Permalink to this definition">¶</a></dt>
-<dd><p>Raised to indicate that an item should not be processed further</p>
+<em class="property">exception </em><code class="descclassname">bioconda_utils.async.</code><code class="descname">EndProcessingItem</code><span class="sig-paren">(</span><em>item</em>, <em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#EndProcessingItem"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.EndProcessingItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#Exception" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></a></p>
+<p>Raised to indicate that an item should not be processed further</p>
+<dl class="attribute">
+<dt id="bioconda_utils.async.EndProcessingItem.args">
+<code class="descname">args</code><a class="headerlink" href="#bioconda_utils.async.EndProcessingItem.args" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.async.EndProcessingItem.item">
+<code class="descname">item</code><a class="headerlink" href="#bioconda_utils.async.EndProcessingItem.item" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.async.EndProcessingItem.level">
+<code class="descname">level</code><em class="property"> = 20</em><a class="headerlink" href="#bioconda_utils.async.EndProcessingItem.level" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="method">
 <dt id="bioconda_utils.async.EndProcessingItem.log">
 <code class="descname">log</code><span class="sig-paren">(</span><em>uselogger=&lt;Logger bioconda_utils.async (WARNING)&gt;</em>, <em>level=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/async.html#EndProcessingItem.log"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.async.EndProcessingItem.log" title="Permalink to this definition">¶</a></dt>
@@ -365,6 +441,11 @@ increasing wait times according to fibonacci series.</p></li>
 <code class="descname">name</code><a class="headerlink" href="#bioconda_utils.async.EndProcessingItem.name" title="Permalink to this definition">¶</a></dt>
 <dd><p>Name of class</p>
 </dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.async.EndProcessingItem.template">
+<code class="descname">template</code><em class="property"> = 'broken: %s'</em><a class="headerlink" href="#bioconda_utils.async.EndProcessingItem.template" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 </dd></dl>
 
@@ -381,7 +462,7 @@ increasing wait times according to fibonacci series.</p></li>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

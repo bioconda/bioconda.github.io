@@ -96,6 +96,7 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update.html">update</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
@@ -192,8 +193,8 @@ Most magic happens here.</p></li>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">RecipeBuilder</span></code>([tag, container_recipe, …])</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.docker_utils.RecipeBuilder" title="bioconda_utils.docker_utils.RecipeBuilder"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RecipeBuilder</span></code></a>([tag, container_recipe, …])</p></td>
+<td><p>Class to handle building a custom docker container that can be used for building conda recipes.</p></td>
 </tr>
 </tbody>
 </table>
@@ -216,12 +217,99 @@ Most magic happens here.</p></li>
 <dl class="exception">
 <dt id="bioconda_utils.docker_utils.DockerBuildError">
 <em class="property">exception </em><code class="descclassname">bioconda_utils.docker_utils.</code><code class="descname">DockerBuildError</code><a class="reference internal" href="../_modules/bioconda_utils/docker_utils.html#DockerBuildError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.docker_utils.DockerBuildError" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#Exception" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></a></p>
+</dd></dl>
 
 <dl class="exception">
 <dt id="bioconda_utils.docker_utils.DockerCalledProcessError">
 <em class="property">exception </em><code class="descclassname">bioconda_utils.docker_utils.</code><code class="descname">DockerCalledProcessError</code><span class="sig-paren">(</span><em>returncode</em>, <em>cmd</em>, <em>output=None</em>, <em>stderr=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/docker_utils.html#DockerCalledProcessError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.docker_utils.DockerCalledProcessError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/subprocess.html#subprocess.CalledProcessError" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">subprocess.CalledProcessError</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.docker_utils.RecipeBuilder">
+<em class="property">class </em><code class="descclassname">bioconda_utils.docker_utils.</code><code class="descname">RecipeBuilder</code><span class="sig-paren">(</span><em>tag='tmp-bioconda-builder'</em>, <em>container_recipe='/opt/recipe'</em>, <em>container_staging='/opt/host-conda-bld'</em>, <em>requirements=None</em>, <em>build_script_template='n#!/bin/bashnset -eo pipefailnn# Add the host's mounted conda-bld dir so that we can use its contents asn# dependencies for building this recipe.n#n# Note that if the directory didn't exist on the host</em>, <em>then the staging arean# will exist in the container but will be empty.  Channels expect at leastn# a linux-64 and noarch directory within that directory</em>, <em>so we make sure itn# exists before adding the channel.nmkdir -p {self.container_staging}/linux-64nmkdir -p {self.container_staging}/noarchnconda config --add channels file://{self.container_staging} 2&gt; &gt;(n    grep -vF &quot;Warning: 'file://{self.container_staging}' already in 'channels' list</em>, <em>moving to the top&quot; &gt;&amp;2n)nn# The actual building...n# we explicitly point to the meta.yaml</em>, <em>in order to keepn# conda-build from building all subdirectoriesnconda build {self.conda_build_args} {self.container_recipe}/meta.yaml 2&gt;&amp;1nn# copy all built packages to the staging areancp `conda build {self.conda_build_args} {self.container_recipe}/meta.yaml --output` {self.container_staging}/{arch}n# Ensure permissions are correct on the host.nHOST_USER={self.user_info[uid]}nchown $HOST_USER:$HOST_USER {self.container_staging}/{arch}/*n'</em>, <em>dockerfile_template='nFROM {self.docker_base_image}n{self.proxies}nRUN /opt/conda/bin/conda install -y conda={conda_ver} conda-build={conda_build_ver}n'</em>, <em>use_host_conda_bld=False</em>, <em>pkg_dir=None</em>, <em>keep_image=False</em>, <em>image_build_dir=None</em>, <em>docker_base_image=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/docker_utils.html#RecipeBuilder"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.docker_utils.RecipeBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Class to handle building a custom docker container that can be used for
+building conda recipes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tag</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Tag to be used for the custom-build docker container. Mostly for
+debugging purposes when you need to inspect the container.</p></li>
+<li><p><strong>container_recipe</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Directory to which the host’s recipe will be exported. Will be
+read-only.</p></li>
+<li><p><strong>container_staging</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Directory to which the host’s conda-bld dir will be mounted so that
+the container can use previously-built packages as dependencies.
+Upon successful building container-built packages will be copied
+over. Mounted as read-write.</p></li>
+<li><p><strong>requirements</strong> (<a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Path to a “requirements.txt” file which will be installed with
+conda in a newly-created container. If None, then use the default
+installed with bioconda_utils.</p></li>
+<li><p><strong>build_script_template</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Template that will be filled in with .format(self=self) and that
+will be run in the container each time build_recipe() is called. If
+not specified, uses docker_utils.BUILD_SCRIPT_TEMPLATE.</p></li>
+<li><p><strong>dockerfile_template</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Template that will be filled in with .format(self=self) and that
+will be used to build a custom image. Uses
+docker_utils.DOCKERFILE_TEMPLATE by default.</p></li>
+<li><p><strong>use_host_conda_bld</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – <p>If True, then use the host’s conda-bld directory. This will export
+the host’s existing conda-bld directory to the docker container,
+and any recipes successfully built by the container will be added
+here.</p>
+<p>Otherwise, use <strong>pkg_dir</strong> as a common host directory used across
+multiple runs of this RecipeBuilder object.</p>
+</p></li>
+<li><p><strong>pkg_dir</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – <p>Specify where packages should appear on the host.</p>
+<p>If <strong>pkg_dir</strong> is None, then a temporary directory will be
+created once for each <a class="reference internal" href="#bioconda_utils.docker_utils.RecipeBuilder" title="bioconda_utils.docker_utils.RecipeBuilder"><code class="xref any py py-class docutils literal notranslate"><span class="pre">RecipeBuilder</span></code></a> instance and that directory
+will be used for each call to <a class="reference internal" href="#bioconda_utils.docker_utils.RecipeBuilder.build_recipe" title="bioconda_utils.docker_utils.RecipeBuilder.build_recipe"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">RecipeBuilder.build_recipe()</span></code></a>. This allows
+subsequent recipes built by the container to see previous built
+recipes without polluting the host’s conda-bld directory.</p>
+<p>If <strong>pkg_dir</strong> is a string, then it will be created if needed and
+this directory will be used store all built packages on the host
+instead of the temp dir.</p>
+<p>If the above argument <strong>use_host_conda_bld</strong> is <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>, then the value
+of <strong>pkg_dir</strong> will be ignored and the host’s conda-bld directory
+will be used.</p>
+<p>In all cases, <strong>pkg_dir</strong> will be mounted to <strong>container_staging</strong> in
+the container.</p>
+</p></li>
+<li><p><strong>keep_image</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – By default, the built docker image will be removed when done,
+freeing up storage space.  Set <code class="docutils literal notranslate"><span class="pre">keep_image=True</span></code> to disable this
+behavior.</p></li>
+<li><p><strong>image_build_dir</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – If not None, use an existing directory as a docker image context
+instead of a temporary one. For testing purposes only.</p></li>
+<li><p><strong>docker_base_image</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – Name of base image that can be used in <strong>dockerfile_template</strong>.
+Defaults to ‘bioconda/bioconda-utils-build-env:2019-02-01’</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="bioconda_utils.docker_utils.RecipeBuilder.build_recipe">
+<code class="descname">build_recipe</code><span class="sig-paren">(</span><em>recipe_dir</em>, <em>build_args</em>, <em>env</em>, <em>noarch=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/docker_utils.html#RecipeBuilder.build_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.docker_utils.RecipeBuilder.build_recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build a single recipe.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>recipe_dir</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Path to recipe that contains meta.yaml</p></li>
+<li><p><strong>build_args</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Additional arguments to <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">build</span></code>. For example –channel,
+–skip-existing, etc</p></li>
+<li><p><strong>env</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.7)"><em>dict</em></a>) – Environmental variables</p></li>
+<li><p><strong>noarch</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – Has to be set to true if this is a noarch build</p></li>
+<li><p><strong>that the binds are set up automatically to match the expectations</strong> (<em>Note</em>) – </p></li>
+<li><p><strong>the build script</strong><strong>, </strong><strong>and will use the currently-configured</strong> (<em>of</em>) – </p></li>
+<li><p><strong>and self.container_recipe.</strong> (<em>self.container_staging</em>) – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.docker_utils.RecipeBuilder.cleanup">
+<code class="descname">cleanup</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/docker_utils.html#RecipeBuilder.cleanup"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.docker_utils.RecipeBuilder.cleanup" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
+
+</dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.docker_utils.dummy_recipe">
@@ -254,7 +342,7 @@ as an example recipe.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

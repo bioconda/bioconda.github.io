@@ -136,10 +136,10 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_lint" title="bioconda_utils.bot.commands.command_lint"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_lint</span></code></a>(event, ghapi, *args)</p></td>
 <td><p>Lint the current recipe</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_rebuild</span></code>(event, ghapi, *args)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_rebuild" title="bioconda_utils.bot.commands.command_rebuild"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_rebuild</span></code></a>(event, ghapi, *args)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_recheck</span></code>(event, ghapi, *args)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_recheck" title="bioconda_utils.bot.commands.command_recheck"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_recheck</span></code></a>(event, ghapi, *args)</p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -160,7 +160,8 @@
 <dl class="class">
 <dt id="bioconda_utils.bot.commands.CommandDispatch">
 <em class="property">class </em><code class="descclassname">bioconda_utils.bot.commands.</code><code class="descname">CommandDispatch</code><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#CommandDispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.CommandDispatch" title="Permalink to this definition">¶</a></dt>
-<dd><p>Decorator based router handling bot commands</p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Decorator based router handling bot commands</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">command_hello</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
 <span class="gp">&gt;&gt;&gt; </span>    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Got command &#39;hello </span><span class="si">%s</span><span class="s2">&#39;&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">args</span><span class="p">))</span>
@@ -174,8 +175,13 @@
 
 <dl class="method">
 <dt id="bioconda_utils.bot.commands.CommandDispatch.register">
-<code class="descname">register</code><span class="sig-paren">(</span><em>cmd: str</em><span class="sig-paren">)</span> &#x2192; Callable[Callable, Callable]<a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#CommandDispatch.register"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.CommandDispatch.register" title="Permalink to this definition">¶</a></dt>
+<code class="descname">register</code><span class="sig-paren">(</span><em>cmd</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#CommandDispatch.register"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.CommandDispatch.register" title="Permalink to this definition">¶</a></dt>
 <dd><p>Decorator adding decorated function to dispatcher</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Callable" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Callable</span></code></a>[[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Callable" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Callable</span></code></a>], <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Callable" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Callable</span></code></a>]</p>
+</dd>
+</dl>
 </dd></dl>
 
 </dd></dl>
@@ -198,6 +204,16 @@
 <dd><p>Lint the current recipe</p>
 </dd></dl>
 
+<dl class="function">
+<dt id="bioconda_utils.bot.commands.command_rebuild">
+<code class="descclassname">bioconda_utils.bot.commands.</code><code class="descname">command_rebuild</code><span class="sig-paren">(</span><em>event</em>, <em>ghapi</em>, <em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_rebuild"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_rebuild" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.bot.commands.command_recheck">
+<code class="descclassname">bioconda_utils.bot.commands.</code><code class="descname">command_recheck</code><span class="sig-paren">(</span><em>event</em>, <em>ghapi</em>, <em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_recheck"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_recheck" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </div>
 
 
@@ -211,7 +227,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

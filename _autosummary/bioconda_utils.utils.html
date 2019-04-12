@@ -95,6 +95,7 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update.html">update</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
@@ -134,7 +135,7 @@
   <div class="section" id="module-bioconda_utils.utils">
 <span id="utils"></span><h1>utils<a class="headerlink" href="#module-bioconda_utils.utils" title="Permalink to this headline">¶</a></h1>
 <p>Utility Functions and Classes</p>
-<p>This module collects small pieces of code used throughout <a class="reference internal" href="bioconda_utils.html"><span class="doc">bioconda_utils</span></a>.</p>
+<p>This module collects small pieces of code used throughout <a class="reference internal" href="bioconda_utils.html#module-bioconda_utils" title="bioconda_utils"><code class="xref py py-mod docutils literal notranslate"><span class="pre">bioconda_utils</span></code></a>.</p>
 <p class="rubric">Functions</p>
 <table class="longtable docutils align-center">
 <colgroup>
@@ -142,10 +143,10 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">allowed_env_var</span></code>(s[, docker])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.allowed_env_var" title="bioconda_utils.utils.allowed_env_var"><code class="xref py py-obj docutils literal notranslate"><span class="pre">allowed_env_var</span></code></a>(s[, docker])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">bin_for</span></code>([name])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.bin_for" title="bioconda_utils.utils.bin_for"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bin_for</span></code></a>([name])</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.built_package_paths" title="bioconda_utils.utils.built_package_paths"><code class="xref py py-obj docutils literal notranslate"><span class="pre">built_package_paths</span></code></a>(recipe)</p></td>
@@ -160,19 +161,19 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.ensure_list" title="bioconda_utils.utils.ensure_list"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ensure_list</span></code></a>(obj)</p></td>
 <td><p>Wraps <strong>obj</strong> in a list if necessary</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">envstr</span></code>(env)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.envstr" title="bioconda_utils.utils.envstr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">envstr</span></code></a>(env)</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.file_from_commit" title="bioconda_utils.utils.file_from_commit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file_from_commit</span></code></a>(commit, filename)</p></td>
 <td><p>Returns the contents of a file at a particular commit as a string.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">flatten_dict</span></code>(dict)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.flatten_dict" title="bioconda_utils.utils.flatten_dict"><code class="xref py py-obj docutils literal notranslate"><span class="pre">flatten_dict</span></code></a>(dict)</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.get_blacklist" title="bioconda_utils.utils.get_blacklist"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_blacklist</span></code></a>(blacklists, recipe_folder)</p></td>
 <td><p>Return list of recipes to skip from blacklists</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_conda_build_config_files</span></code>([config])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.get_conda_build_config_files" title="bioconda_utils.utils.get_conda_build_config_files"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_conda_build_config_files</span></code></a>([config])</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.get_deps" title="bioconda_utils.utils.get_deps"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_deps</span></code></a>([recipe, meta, build])</p></td>
@@ -184,7 +185,7 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.get_latest_recipes" title="bioconda_utils.utils.get_latest_recipes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_latest_recipes</span></code></a>(recipe_folder, config[, …])</p></td>
 <td><p>Generator of recipes.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_package_paths</span></code>(recipe, check_channels[, …])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.get_package_paths" title="bioconda_utils.utils.get_package_paths"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_package_paths</span></code></a>(recipe, check_channels[, …])</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.get_recipes" title="bioconda_utils.utils.get_recipes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_recipes</span></code></a>(recipe_folder[, package])</p></td>
@@ -214,7 +215,7 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.newly_unblacklisted" title="bioconda_utils.utils.newly_unblacklisted"><code class="xref py py-obj docutils literal notranslate"><span class="pre">newly_unblacklisted</span></code></a>(config_file, …)</p></td>
 <td><p>Returns the set of recipes that were blacklisted in master branch but have since been removed from the blacklist.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parallel_iter</span></code>(func, items, desc, *args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.parallel_iter" title="bioconda_utils.utils.parallel_iter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parallel_iter</span></code></a>(func, items, desc, *args, **kwargs)</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.run" title="bioconda_utils.utils.run"><code class="xref py py-obj docutils literal notranslate"><span class="pre">run</span></code></a>(cmds[, env, mask])</p></td>
@@ -223,10 +224,10 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.sandboxed_env" title="bioconda_utils.utils.sandboxed_env"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sandboxed_env</span></code></a>(env)</p></td>
 <td><p>Context manager to temporarily set os.environ, only allowing env vars from the existing <a class="reference external" href="https://docs.python.org/3/library/os.html#os.environ" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">os.environ</span></code></a> or the provided <strong>env</strong> that match ENV_VAR_WHITELIST globs.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_max_threads</span></code>(n)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.set_max_threads" title="bioconda_utils.utils.set_max_threads"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_max_threads</span></code></a>(n)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">setup_logger</span></code>(name[, loglevel, prefix, …])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.setup_logger" title="bioconda_utils.utils.setup_logger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">setup_logger</span></code></a>(name[, loglevel, prefix, …])</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.temp_env" title="bioconda_utils.utils.temp_env"><code class="xref py py-obj docutils literal notranslate"><span class="pre">temp_env</span></code></a>(env)</p></td>
@@ -260,7 +261,7 @@
 <td><p>Download a bunch of files in parallel</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.CondaBuildConfigFile" title="bioconda_utils.utils.CondaBuildConfigFile"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CondaBuildConfigFile</span></code></a>(arg, path)</p></td>
-<td><p></p></td>
+<td><p>Create new instance of CondaBuildConfigFile(arg, path)</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.EnvMatrix" title="bioconda_utils.utils.EnvMatrix"><code class="xref py py-obj docutils literal notranslate"><span class="pre">EnvMatrix</span></code></a>(env)</p></td>
 <td><p>Intended to be initialized with a YAML file and iterated over to yield all combinations of environments.</p></td>
@@ -268,7 +269,7 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.JinjaSilentUndefined" title="bioconda_utils.utils.JinjaSilentUndefined"><code class="xref py py-obj docutils literal notranslate"><span class="pre">JinjaSilentUndefined</span></code></a>([hint, obj, name, exc])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Progress</span></code>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.Progress" title="bioconda_utils.utils.Progress"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Progress</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.RepoData" title="bioconda_utils.utils.RepoData"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RepoData</span></code></a></p></td>
@@ -298,7 +299,8 @@
 <dl class="class">
 <dt id="bioconda_utils.utils.AsyncRequests">
 <em class="property">class </em><code class="descclassname">bioconda_utils.utils.</code><code class="descname">AsyncRequests</code><a class="reference internal" href="../_modules/bioconda_utils/utils.html#AsyncRequests"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.AsyncRequests" title="Permalink to this definition">¶</a></dt>
-<dd><p>Download a bunch of files in parallel</p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Download a bunch of files in parallel</p>
 <p>This is not really a class, more a name space encapsulating a bunch of calls.</p>
 <dl class="attribute">
 <dt id="bioconda_utils.utils.AsyncRequests.CONNECTIONS_PER_HOST">
@@ -311,6 +313,11 @@
 <code class="descname">USER_AGENT</code><em class="property"> = 'bioconda/bioconda-utils'</em><a class="headerlink" href="#bioconda_utils.utils.AsyncRequests.USER_AGENT" title="Permalink to this definition">¶</a></dt>
 <dd><p>Identify ourselves</p>
 </dd></dl>
+
+<dl class="classmethod">
+<dt id="bioconda_utils.utils.AsyncRequests.async_fetch">
+<em class="property">classmethod </em><code class="descname">async_fetch</code><span class="sig-paren">(</span><em>urls</em>, <em>descs</em>, <em>cb</em>, <em>datas</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#AsyncRequests.async_fetch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.AsyncRequests.async_fetch" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="classmethod">
 <dt id="bioconda_utils.utils.AsyncRequests.fetch">
@@ -337,12 +344,15 @@ Use to e.g. offload json parsing into download loop.</p></li>
 <dl class="exception">
 <dt id="bioconda_utils.utils.BiocondaUtilsWarning">
 <em class="property">exception </em><code class="descclassname">bioconda_utils.utils.</code><code class="descname">BiocondaUtilsWarning</code><a class="reference internal" href="../_modules/bioconda_utils/utils.html#BiocondaUtilsWarning"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.BiocondaUtilsWarning" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#UserWarning" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">UserWarning</span></code></a></p>
+</dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.utils.CondaBuildConfigFile">
 <em class="property">class </em><code class="descclassname">bioconda_utils.utils.</code><code class="descname">CondaBuildConfigFile</code><span class="sig-paren">(</span><em>arg</em>, <em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.utils.CondaBuildConfigFile" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="attribute">
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
+<p>Create new instance of CondaBuildConfigFile(arg, path)</p>
+<dl class="attribute">
 <dt id="bioconda_utils.utils.CondaBuildConfigFile.arg">
 <code class="descname">arg</code><a class="headerlink" href="#bioconda_utils.utils.CondaBuildConfigFile.arg" title="Permalink to this definition">¶</a></dt>
 <dd><p>Alias for field number 0</p>
@@ -359,12 +369,14 @@ Use to e.g. offload json parsing into download loop.</p></li>
 <dl class="exception">
 <dt id="bioconda_utils.utils.DivergentBuildsError">
 <em class="property">exception </em><code class="descclassname">bioconda_utils.utils.</code><code class="descname">DivergentBuildsError</code><a class="reference internal" href="../_modules/bioconda_utils/utils.html#DivergentBuildsError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.DivergentBuildsError" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#Exception" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></a></p>
+</dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.utils.EnvMatrix">
 <em class="property">class </em><code class="descclassname">bioconda_utils.utils.</code><code class="descname">EnvMatrix</code><span class="sig-paren">(</span><em>env</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#EnvMatrix"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.EnvMatrix" title="Permalink to this definition">¶</a></dt>
-<dd><p>Intended to be initialized with a YAML file and iterated over to yield all
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Intended to be initialized with a YAML file and iterated over to yield all
 combinations of environments.</p>
 <p>YAML file has the following format:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">CONDA_PY</span><span class="p">:</span>
@@ -377,17 +389,36 @@ combinations of environments.</p>
 <span class="n">CONDA_GSL</span><span class="p">:</span> <span class="s2">&quot;1.16&quot;</span>
 </pre></div>
 </div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>env</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.7)"><em>dict</em></a>) – If str, assume it’s a path to a YAML-format filename and load it
+into a dict. If a dict is provided, use it directly.</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.utils.JinjaSilentUndefined">
 <em class="property">class </em><code class="descclassname">bioconda_utils.utils.</code><code class="descname">JinjaSilentUndefined</code><span class="sig-paren">(</span><em>hint=None</em>, <em>obj=missing</em>, <em>name=None</em>, <em>exc=&lt;class 'jinja2.exceptions.UndefinedError'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#JinjaSilentUndefined"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.JinjaSilentUndefined" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">jinja2.runtime.Undefined</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.utils.Progress">
+<em class="property">class </em><code class="descclassname">bioconda_utils.utils.</code><code class="descname">Progress</code><a class="reference internal" href="../_modules/bioconda_utils/utils.html#Progress"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.Progress" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<dl class="method">
+<dt id="bioconda_utils.utils.Progress.progress">
+<code class="descname">progress</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#Progress.progress"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.Progress.progress" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
+
+</dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.utils.RepoData">
 <em class="property">class </em><code class="descclassname">bioconda_utils.utils.</code><code class="descname">RepoData</code><a class="reference internal" href="../_modules/bioconda_utils/utils.html#RepoData"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.RepoData" title="Permalink to this definition">¶</a></dt>
-<dd><p>Singleton providing access to package directory on anaconda cloud</p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Singleton providing access to package directory on anaconda cloud</p>
 <p>If the first call provides a filename as <strong>cache</strong> argument, the
 file is used to cache the directory in CSV format.</p>
 <p>Data structure:</p>
@@ -423,6 +454,27 @@ absence of that key indication version 0.</p>
 <strong>subdir</strong> key.</p>
 <p>In version 1, a key <strong>removed</strong> was added, listing packages
 removed from the repository.</p>
+<p>Makes RepoData a singleton</p>
+<dl class="attribute">
+<dt id="bioconda_utils.utils.RepoData.REPODATA_DEFAULTS_URL">
+<code class="descname">REPODATA_DEFAULTS_URL</code><em class="property"> = 'https://repo.anaconda.com/pkgs/main/{subdir}/repodata.json'</em><a class="headerlink" href="#bioconda_utils.utils.RepoData.REPODATA_DEFAULTS_URL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.utils.RepoData.REPODATA_LABELED_URL">
+<code class="descname">REPODATA_LABELED_URL</code><em class="property"> = 'https://conda.anaconda.org/{channel}/label/{label}/{subdir}/repodata.json'</em><a class="headerlink" href="#bioconda_utils.utils.RepoData.REPODATA_LABELED_URL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.utils.RepoData.REPODATA_URL">
+<code class="descname">REPODATA_URL</code><em class="property"> = 'https://conda.anaconda.org/{channel}/{subdir}/repodata.json'</em><a class="headerlink" href="#bioconda_utils.utils.RepoData.REPODATA_URL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.utils.RepoData.cache_file">
+<code class="descname">cache_file</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.utils.RepoData.cache_file" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="attribute">
 <dt id="bioconda_utils.utils.RepoData.cache_timeout">
 <code class="descname">cache_timeout</code><em class="property"> = 28800</em><a class="headerlink" href="#bioconda_utils.utils.RepoData.cache_timeout" title="Permalink to this definition">¶</a></dt>
@@ -440,6 +492,11 @@ removed from the repository.</p>
 <code class="descname">columns</code><em class="property"> = ['build', 'build_number', 'name', 'version', 'depends', 'channel', 'subdir', 'platform']</em><a class="headerlink" href="#bioconda_utils.utils.RepoData.columns" title="Permalink to this definition">¶</a></dt>
 <dd><p>Columns available in internal dataframe</p>
 </dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.utils.RepoData.config">
+<code class="descname">config</code><em class="property"> = {'blacklists': ['/home/circleci/project/docs/_bioconda_recipes/build-fail-blacklist'], 'channels': ['conda-forge', 'bioconda', 'defaults'], 'env_matrix': 'scripts/env_matrix.yml', 'requirements': None, 'upload_channel': 'bioconda'}</em><a class="headerlink" href="#bioconda_utils.utils.RepoData.config" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="attribute">
 <dt id="bioconda_utils.utils.RepoData.df">
@@ -479,11 +536,31 @@ e.g. {‘0.1’: [‘linux’], ‘0.2’: [‘linux’, ‘osx’], ‘0.3’: 
 </dl>
 </dd></dl>
 
+<dl class="staticmethod">
+<dt id="bioconda_utils.utils.RepoData.native_platform">
+<em class="property">static </em><code class="descname">native_platform</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#RepoData.native_platform"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.RepoData.native_platform" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="bioconda_utils.utils.RepoData.platform2subdir">
+<em class="property">static </em><code class="descname">platform2subdir</code><span class="sig-paren">(</span><em>platform</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#RepoData.platform2subdir"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.RepoData.platform2subdir" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="attribute">
 <dt id="bioconda_utils.utils.RepoData.platforms">
 <code class="descname">platforms</code><em class="property"> = ['linux', 'osx', 'noarch']</em><a class="headerlink" href="#bioconda_utils.utils.RepoData.platforms" title="Permalink to this definition">¶</a></dt>
 <dd><p>Platforms loaded</p>
 </dd></dl>
+
+<dl class="classmethod">
+<dt id="bioconda_utils.utils.RepoData.register_config">
+<em class="property">classmethod </em><code class="descname">register_config</code><span class="sig-paren">(</span><em>config</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#RepoData.register_config"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.RepoData.register_config" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.utils.RepoData.set_cache">
+<code class="descname">set_cache</code><span class="sig-paren">(</span><em>cache</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#RepoData.set_cache"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.RepoData.set_cache" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.utils.RepoData.set_timeout">
@@ -496,7 +573,8 @@ e.g. {‘0.1’: [‘linux’], ‘0.2’: [‘linux’, ‘osx’], ‘0.3’: 
 <dl class="class">
 <dt id="bioconda_utils.utils.TqdmHandler">
 <em class="property">class </em><code class="descclassname">bioconda_utils.utils.</code><code class="descname">TqdmHandler</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#TqdmHandler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.TqdmHandler" title="Permalink to this definition">¶</a></dt>
-<dd><p>Tqdm aware logging StreamHandler</p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/logging.handlers.html#logging.StreamHandler" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">logging.StreamHandler</span></code></a></p>
+<p>Tqdm aware logging StreamHandler</p>
 <p>Passes all log writes through tqdm to allow progress bars and log
 messages to coexist without clobbering terminal</p>
 <dl class="method">
@@ -512,6 +590,16 @@ output to the stream.</p>
 </dd></dl>
 
 </dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.utils.allowed_env_var">
+<code class="descclassname">bioconda_utils.utils.</code><code class="descname">allowed_env_var</code><span class="sig-paren">(</span><em>s</em>, <em>docker=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#allowed_env_var"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.allowed_env_var" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.utils.bin_for">
+<code class="descclassname">bioconda_utils.utils.</code><code class="descname">bin_for</code><span class="sig-paren">(</span><em>name='conda'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#bin_for"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.bin_for" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.utils.built_package_paths">
@@ -550,6 +638,11 @@ are already in channel_packages.</p>
 </dd></dl>
 
 <dl class="function">
+<dt id="bioconda_utils.utils.envstr">
+<code class="descclassname">bioconda_utils.utils.</code><code class="descname">envstr</code><span class="sig-paren">(</span><em>env</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#envstr"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.envstr" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
 <dt id="bioconda_utils.utils.file_from_commit">
 <code class="descclassname">bioconda_utils.utils.</code><code class="descname">file_from_commit</code><span class="sig-paren">(</span><em>commit</em>, <em>filename</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#file_from_commit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.file_from_commit" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the contents of a file at a particular commit as a string.</p>
@@ -564,10 +657,20 @@ are already in channel_packages.</p>
 </dd></dl>
 
 <dl class="function">
+<dt id="bioconda_utils.utils.flatten_dict">
+<code class="descclassname">bioconda_utils.utils.</code><code class="descname">flatten_dict</code><span class="sig-paren">(</span><em>dict</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#flatten_dict"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.flatten_dict" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
 <dt id="bioconda_utils.utils.get_blacklist">
 <code class="descclassname">bioconda_utils.utils.</code><code class="descname">get_blacklist</code><span class="sig-paren">(</span><em>blacklists</em>, <em>recipe_folder</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#get_blacklist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.get_blacklist" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return list of recipes to skip from blacklists</p>
 </dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.utils.get_conda_build_config_files">
+<code class="descclassname">bioconda_utils.utils.</code><code class="descname">get_conda_build_config_files</code><span class="sig-paren">(</span><em>config=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#get_conda_build_config_files"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.get_conda_build_config_files" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.utils.get_deps">
@@ -609,6 +712,11 @@ the latest version of each recipe.</p>
 </dd>
 </dl>
 </dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.utils.get_package_paths">
+<code class="descclassname">bioconda_utils.utils.</code><code class="descname">get_package_paths</code><span class="sig-paren">(</span><em>recipe</em>, <em>check_channels</em>, <em>force=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#get_package_paths"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.get_package_paths" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.utils.get_recipes">
@@ -681,13 +789,13 @@ run_exports). For fast-running tasks like linting, set to False.</p>
 
 <dl class="function">
 <dt id="bioconda_utils.utils.load_meta_fast">
-<code class="descclassname">bioconda_utils.utils.</code><code class="descname">load_meta_fast</code><span class="sig-paren">(</span><em>recipe: str</em>, <em>env=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#load_meta_fast"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.load_meta_fast" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">bioconda_utils.utils.</code><code class="descname">load_meta_fast</code><span class="sig-paren">(</span><em>recipe</em>, <em>env=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#load_meta_fast"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.load_meta_fast" title="Permalink to this definition">¶</a></dt>
 <dd><p>Given a package name, find the current meta.yaml file, parse it, and return
 the dict.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>recipe</strong> – Path to recipe (directory containing the meta.yaml file)</p></li>
+<li><p><strong>recipe</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Path to recipe (directory containing the meta.yaml file)</p></li>
 <li><p><strong>env</strong> – Optional variables to expand</p></li>
 </ul>
 </dd>
@@ -736,6 +844,11 @@ specified, then use those commits directly via <code class="docutils literal not
 </dd></dl>
 
 <dl class="function">
+<dt id="bioconda_utils.utils.parallel_iter">
+<code class="descclassname">bioconda_utils.utils.</code><code class="descname">parallel_iter</code><span class="sig-paren">(</span><em>func</em>, <em>items</em>, <em>desc</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#parallel_iter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.parallel_iter" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
 <dt id="bioconda_utils.utils.run">
 <code class="descclassname">bioconda_utils.utils.</code><code class="descname">run</code><span class="sig-paren">(</span><em>cmds</em>, <em>env=None</em>, <em>mask=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.run" title="Permalink to this definition">¶</a></dt>
 <dd><p>Wrapper around subprocess.run()</p>
@@ -754,6 +867,16 @@ is raised, the output is decoded.</p>
 the existing <a class="reference external" href="https://docs.python.org/3/library/os.html#os.environ" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">os.environ</span></code></a> or the provided <strong>env</strong> that match
 ENV_VAR_WHITELIST globs.</p>
 </dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.utils.set_max_threads">
+<code class="descclassname">bioconda_utils.utils.</code><code class="descname">set_max_threads</code><span class="sig-paren">(</span><em>n</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#set_max_threads"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.set_max_threads" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.utils.setup_logger">
+<code class="descclassname">bioconda_utils.utils.</code><code class="descname">setup_logger</code><span class="sig-paren">(</span><em>name</em>, <em>loglevel=None</em>, <em>prefix='BIOCONDA '</em>, <em>msgfmt='%(asctime)s%(log_color)s{prefix}%(levelname)s%(reset)s %(message)s'</em>, <em>datefmt='%H:%M:%S '</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#setup_logger"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.setup_logger" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.utils.temp_env">
@@ -843,7 +966,7 @@ that it allows <em>adding</em> keyword arguments to the function signature.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

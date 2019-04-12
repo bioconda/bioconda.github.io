@@ -175,12 +175,29 @@
 
 <div class="viewcode-block" id="GitHandlerBase.get_remote"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.get_remote">[docs]</a>    <span class="k">def</span> <span class="nf">get_remote</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">desc</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Finds first remote containing **desc** in one of its URLs&quot;&quot;&quot;</span>
+        <span class="c1"># try if desc is the name</span>
         <span class="k">if</span> <span class="n">desc</span> <span class="ow">in</span> <span class="p">[</span><span class="n">r</span><span class="o">.</span><span class="n">name</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">remotes</span><span class="p">]:</span>
             <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">remotes</span><span class="p">[</span><span class="n">desc</span><span class="p">]</span>
+
+        <span class="c1"># perhaps it&#39;s an URL. If so, first apply insteadOf config</span>
+        <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">config_reader</span><span class="p">()</span> <span class="k">as</span> <span class="n">reader</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">section</span> <span class="ow">in</span> <span class="n">reader</span><span class="o">.</span><span class="n">sections</span><span class="p">():</span>
+                <span class="k">if</span> <span class="n">section</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;url &quot;</span><span class="p">):</span>
+                    <span class="n">new</span> <span class="o">=</span> <span class="n">section</span><span class="o">.</span><span class="n">lstrip</span><span class="p">(</span><span class="s2">&quot;url &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s1">&#39;&quot;&#39;</span><span class="p">)</span>
+                    <span class="k">try</span><span class="p">:</span>
+                        <span class="n">old</span> <span class="o">=</span> <span class="n">reader</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">section</span><span class="p">,</span> <span class="s1">&#39;insteadOf&#39;</span><span class="p">)</span>
+                        <span class="n">desc</span> <span class="o">=</span> <span class="n">desc</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">old</span><span class="p">,</span> <span class="n">new</span><span class="p">)</span>
+                    <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+                        <span class="k">pass</span>
+        <span class="c1"># now try if any remote matches the url</span>
         <span class="n">remotes</span> <span class="o">=</span> <span class="p">[</span><span class="n">r</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">remotes</span>
                    <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">desc</span> <span class="ow">in</span> <span class="n">x</span><span class="p">,</span> <span class="n">r</span><span class="o">.</span><span class="n">urls</span><span class="p">))]</span>
+
         <span class="k">if</span> <span class="ow">not</span> <span class="n">remotes</span><span class="p">:</span>
             <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;No remote matching &#39;</span><span class="si">{desc}</span><span class="s2">&#39; found&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">remotes</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Multiple remotes found. Using first&quot;</span><span class="p">)</span>
+
         <span class="k">return</span> <span class="n">remotes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span></div>
 
 <div class="viewcode-block" id="GitHandlerBase.branch_is_current"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.branch_is_current">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">branch_is_current</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">master</span><span class="o">=</span><span class="s2">&quot;master&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
@@ -236,8 +253,8 @@
             <span class="k">if</span> <span class="n">remote_ref</span><span class="o">.</span><span class="n">remote_ref_path</span> <span class="o">==</span> <span class="n">branch_name</span><span class="p">:</span>
                 <span class="k">return</span> <span class="n">remote_ref</span><span class="o">.</span><span class="n">ref</span></div>
 
-    <span class="k">def</span> <span class="nf">get_latest_master</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">home_remote</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="s1">&#39;master&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">commit</span>
+<div class="viewcode-block" id="GitHandlerBase.get_latest_master"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.get_latest_master">[docs]</a>    <span class="k">def</span> <span class="nf">get_latest_master</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">home_remote</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="s1">&#39;master&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">commit</span></div>
 
 <div class="viewcode-block" id="GitHandlerBase.read_from_branch"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.read_from_branch">[docs]</a>    <span class="k">def</span> <span class="nf">read_from_branch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch</span><span class="p">,</span> <span class="n">file_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Reads contents of file **file_name** from git branch **branch**&quot;&quot;&quot;</span>
@@ -361,13 +378,13 @@
             <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Would push branch </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">True</span></div>
 
-    <span class="k">def</span> <span class="nf">set_user</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">user</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">email</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<div class="viewcode-block" id="GitHandlerBase.set_user"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.set_user">[docs]</a>    <span class="k">def</span> <span class="nf">set_user</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">user</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">email</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">config_writer</span><span class="p">()</span> <span class="k">as</span> <span class="n">writer</span><span class="p">:</span>
             <span class="n">writer</span><span class="o">.</span><span class="n">set_value</span><span class="p">(</span><span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">user</span><span class="p">)</span>
             <span class="n">email</span> <span class="o">=</span> <span class="n">email</span> <span class="ow">or</span> <span class="n">f</span><span class="s2">&quot;</span><span class="si">{user}</span><span class="s2">@users.noreply.github.com&quot;</span>
             <span class="n">writer</span><span class="o">.</span><span class="n">set_value</span><span class="p">(</span><span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;email&quot;</span><span class="p">,</span> <span class="n">email</span><span class="p">)</span>
             <span class="k">if</span> <span class="n">key</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-                <span class="n">writer</span><span class="o">.</span><span class="n">set_value</span><span class="p">(</span><span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;signingkey&quot;</span><span class="p">,</span> <span class="n">key</span><span class="p">)</span></div>
+                <span class="n">writer</span><span class="o">.</span><span class="n">set_value</span><span class="p">(</span><span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;signingkey&quot;</span><span class="p">,</span> <span class="n">key</span><span class="p">)</span></div></div>
 
 
 <div class="viewcode-block" id="BiocondaRepoMixin"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.BiocondaRepoMixin">[docs]</a><span class="k">class</span> <span class="nc">BiocondaRepoMixin</span><span class="p">(</span><span class="n">GitHandlerBase</span><span class="p">):</span>
@@ -472,8 +489,18 @@
                  <span class="n">dry_run</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
                  <span class="n">home</span><span class="o">=</span><span class="s1">&#39;bioconda/bioconda-recipes&#39;</span><span class="p">,</span>
                  <span class="n">fork</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-                 <span class="n">allow_dirty</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">repo</span> <span class="o">=</span> <span class="n">git</span><span class="o">.</span><span class="n">Repo</span><span class="p">(</span><span class="n">folder</span><span class="p">,</span> <span class="n">search_parent_directories</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+                 <span class="n">allow_dirty</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                 <span class="n">depth</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">folder</span><span class="p">):</span>
+            <span class="n">repo</span> <span class="o">=</span> <span class="n">git</span><span class="o">.</span><span class="n">Repo</span><span class="p">(</span><span class="n">folder</span><span class="p">,</span> <span class="n">search_parent_directories</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">folder</span><span class="p">)</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;cloning </span><span class="si">%s</span><span class="s2"> into </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">home</span><span class="p">,</span> <span class="n">folder</span><span class="p">)</span>
+                <span class="n">repo</span> <span class="o">=</span> <span class="n">git</span><span class="o">.</span><span class="n">Repo</span><span class="o">.</span><span class="n">clone_from</span><span class="p">(</span><span class="n">home</span><span class="p">,</span> <span class="n">folder</span><span class="p">,</span> <span class="n">depth</span><span class="o">=</span><span class="n">depth</span><span class="p">)</span>
+            <span class="k">except</span> <span class="n">git</span><span class="o">.</span><span class="n">GitCommandError</span><span class="p">:</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">rmdir</span><span class="p">(</span><span class="n">folder</span><span class="p">)</span>
+                <span class="k">raise</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="n">dry_run</span><span class="p">,</span> <span class="n">home</span><span class="p">,</span> <span class="n">fork</span><span class="p">,</span> <span class="n">allow_dirty</span><span class="p">)</span>
 
         <span class="c1">#: Branch to restore after running</span>
@@ -564,7 +591,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

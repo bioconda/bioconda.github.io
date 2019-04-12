@@ -96,6 +96,7 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update.html">update</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
@@ -142,77 +143,182 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">already_in_bioconda</span></code>(recipe, metas, *args, …)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.already_in_bioconda" title="bioconda_utils.lint_functions.already_in_bioconda"><code class="xref py py-obj docutils literal notranslate"><span class="pre">already_in_bioconda</span></code></a>(recipe, metas, *args, …)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>(recipe, metas, …)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.compilers_must_be_in_build" title="bioconda_utils.lint_functions.compilers_must_be_in_build"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code></a>(recipe, metas, …)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>(recipe, metas)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.deprecated_numpy_spec" title="bioconda_utils.lint_functions.deprecated_numpy_spec"><code class="xref py py-obj docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code></a>(recipe, metas)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">has_windows_bat_file</span></code>(recipe, metas)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.has_windows_bat_file" title="bioconda_utils.lint_functions.has_windows_bat_file"><code class="xref py py-obj docutils literal notranslate"><span class="pre">has_windows_bat_file</span></code></a>(recipe, metas)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">in_other_channels</span></code>(recipe, metas, *args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.in_other_channels" title="bioconda_utils.lint_functions.in_other_channels"><code class="xref py py-obj docutils literal notranslate"><span class="pre">in_other_channels</span></code></a>(recipe, metas, *args, **kwargs)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">invalid_identifiers</span></code>(recipe, metas, *args, …)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.invalid_identifiers" title="bioconda_utils.lint_functions.invalid_identifiers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">invalid_identifiers</span></code></a>(recipe, metas, *args, …)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">lint_multiple_metas</span></code>(lint_function)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.lint_multiple_metas" title="bioconda_utils.lint_functions.lint_multiple_metas"><code class="xref py py-obj docutils literal notranslate"><span class="pre">lint_multiple_metas</span></code></a>(lint_function)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">missing_hash</span></code>(recipe, metas, *args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.missing_hash" title="bioconda_utils.lint_functions.missing_hash"><code class="xref py py-obj docutils literal notranslate"><span class="pre">missing_hash</span></code></a>(recipe, metas, *args, **kwargs)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">missing_home</span></code>(recipe, metas, *args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.missing_home" title="bioconda_utils.lint_functions.missing_home"><code class="xref py py-obj docutils literal notranslate"><span class="pre">missing_home</span></code></a>(recipe, metas, *args, **kwargs)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">missing_license</span></code>(recipe, metas, *args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.missing_license" title="bioconda_utils.lint_functions.missing_license"><code class="xref py py-obj docutils literal notranslate"><span class="pre">missing_license</span></code></a>(recipe, metas, *args, **kwargs)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">missing_summary</span></code>(recipe, metas, *args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.missing_summary" title="bioconda_utils.lint_functions.missing_summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">missing_summary</span></code></a>(recipe, metas, *args, **kwargs)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">missing_tests</span></code>(recipe, metas, *args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.missing_tests" title="bioconda_utils.lint_functions.missing_tests"><code class="xref py py-obj docutils literal notranslate"><span class="pre">missing_tests</span></code></a>(recipe, metas, *args, **kwargs)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>(recipe, metas, *args, …)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.setup_py_install_args" title="bioconda_utils.lint_functions.setup_py_install_args"><code class="xref py py-obj docutils literal notranslate"><span class="pre">setup_py_install_args</span></code></a>(recipe, metas, *args, …)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">should_be_noarch</span></code>(recipe, metas, *args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.should_be_noarch" title="bioconda_utils.lint_functions.should_be_noarch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">should_be_noarch</span></code></a>(recipe, metas, *args, **kwargs)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">should_not_be_noarch</span></code>(recipe, metas, *args, …)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.should_not_be_noarch" title="bioconda_utils.lint_functions.should_not_be_noarch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">should_not_be_noarch</span></code></a>(recipe, metas, *args, …)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">should_not_use_fn</span></code>(recipe, metas, *args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.should_not_use_fn" title="bioconda_utils.lint_functions.should_not_use_fn"><code class="xref py py-obj docutils literal notranslate"><span class="pre">should_not_use_fn</span></code></a>(recipe, metas, *args, **kwargs)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">should_use_compilers</span></code>(recipe, metas, *args, …)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.should_use_compilers" title="bioconda_utils.lint_functions.should_use_compilers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">should_use_compilers</span></code></a>(recipe, metas, *args, …)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">uses_git_url</span></code>(recipe, metas, *args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.uses_git_url" title="bioconda_utils.lint_functions.uses_git_url"><code class="xref py py-obj docutils literal notranslate"><span class="pre">uses_git_url</span></code></a>(recipe, metas, *args, **kwargs)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">uses_javajdk</span></code>(recipe, metas, *args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.uses_javajdk" title="bioconda_utils.lint_functions.uses_javajdk"><code class="xref py py-obj docutils literal notranslate"><span class="pre">uses_javajdk</span></code></a>(recipe, metas, *args, **kwargs)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>(recipe, metas, *args, …)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.uses_perl_threaded" title="bioconda_utils.lint_functions.uses_perl_threaded"><code class="xref py py-obj docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code></a>(recipe, metas, *args, …)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">uses_setuptools</span></code>(recipe, metas, *args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint_functions.uses_setuptools" title="bioconda_utils.lint_functions.uses_setuptools"><code class="xref py py-obj docutils literal notranslate"><span class="pre">uses_setuptools</span></code></a>(recipe, metas, *args, **kwargs)</p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.already_in_bioconda">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">already_in_bioconda</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#already_in_bioconda"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.already_in_bioconda" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.compilers_must_be_in_build">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">compilers_must_be_in_build</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#compilers_must_be_in_build"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.compilers_must_be_in_build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.deprecated_numpy_spec">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">deprecated_numpy_spec</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#deprecated_numpy_spec"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.deprecated_numpy_spec" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.has_windows_bat_file">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">has_windows_bat_file</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#has_windows_bat_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.has_windows_bat_file" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.in_other_channels">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">in_other_channels</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#in_other_channels"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.in_other_channels" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.invalid_identifiers">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">invalid_identifiers</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#invalid_identifiers"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.invalid_identifiers" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.lint_multiple_metas">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">lint_multiple_metas</code><span class="sig-paren">(</span><em>lint_function</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#lint_multiple_metas"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.lint_multiple_metas" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.missing_hash">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">missing_hash</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#missing_hash"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.missing_hash" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.missing_home">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">missing_home</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#missing_home"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.missing_home" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.missing_license">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">missing_license</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#missing_license"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.missing_license" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.missing_summary">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">missing_summary</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#missing_summary"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.missing_summary" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.missing_tests">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">missing_tests</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#missing_tests"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.missing_tests" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="data">
 <dt id="bioconda_utils.lint_functions.registry">
 <code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">registry</code><em class="property"> = (&lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function has_windows_bat_file&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function deprecated_numpy_spec&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;, &lt;function lint_multiple_metas.&lt;locals&gt;.lint_metas&gt;)</em><a class="headerlink" href="#bioconda_utils.lint_functions.registry" title="Permalink to this definition">¶</a></dt>
 <dd><p>Registry of lint functions</p>
 </dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.setup_py_install_args">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">setup_py_install_args</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#setup_py_install_args"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.setup_py_install_args" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.should_be_noarch">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">should_be_noarch</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#should_be_noarch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.should_be_noarch" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.should_not_be_noarch">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">should_not_be_noarch</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#should_not_be_noarch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.should_not_be_noarch" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.should_not_use_fn">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">should_not_use_fn</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#should_not_use_fn"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.should_not_use_fn" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.should_use_compilers">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">should_use_compilers</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#should_use_compilers"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.should_use_compilers" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.uses_git_url">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">uses_git_url</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#uses_git_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.uses_git_url" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.uses_javajdk">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">uses_javajdk</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#uses_javajdk"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.uses_javajdk" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.uses_perl_threaded">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">uses_perl_threaded</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#uses_perl_threaded"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.uses_perl_threaded" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.lint_functions.uses_setuptools">
+<code class="descclassname">bioconda_utils.lint_functions.</code><code class="descname">uses_setuptools</code><span class="sig-paren">(</span><em>recipe</em>, <em>metas</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint_functions.html#uses_setuptools"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint_functions.uses_setuptools" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 </div>
 
@@ -227,7 +333,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

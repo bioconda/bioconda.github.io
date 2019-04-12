@@ -131,7 +131,7 @@
 <td><p>Async context manager checking out git repo</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.PRInfo" title="bioconda_utils.bot.tasks.PRInfo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PRInfo</span></code></a>(installation, user, repo, ref, …)</p></td>
-<td><p></p></td>
+<td><p>Create new instance of PRInfo(installation, user, repo, ref, recipes, issue_number)</p></td>
 </tr>
 </tbody>
 </table>
@@ -139,7 +139,8 @@
 <dl class="class">
 <dt id="bioconda_utils.bot.tasks.Checkout">
 <em class="property">class </em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">Checkout</code><span class="sig-paren">(</span><em>ghapi</em>, <em>ref=None</em>, <em>issue_number=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/tasks.html#Checkout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.tasks.Checkout" title="Permalink to this definition">¶</a></dt>
-<dd><p>Async context manager checking out git repo</p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Async context manager checking out git repo</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -161,7 +162,9 @@
 <dl class="class">
 <dt id="bioconda_utils.bot.tasks.PRInfo">
 <em class="property">class </em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">PRInfo</code><span class="sig-paren">(</span><em>installation</em>, <em>user</em>, <em>repo</em>, <em>ref</em>, <em>recipes</em>, <em>issue_number</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.PRInfo" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="attribute">
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
+<p>Create new instance of PRInfo(installation, user, repo, ref, recipes, issue_number)</p>
+<dl class="attribute">
 <dt id="bioconda_utils.bot.tasks.PRInfo.installation">
 <code class="descname">installation</code><a class="headerlink" href="#bioconda_utils.bot.tasks.PRInfo.installation" title="Permalink to this definition">¶</a></dt>
 <dd><p>Alias for field number 0</p>
@@ -201,13 +204,13 @@
 
 <dl class="task">
 <dt id="bioconda_utils.bot.tasks.bump">
-<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">bump</code><span class="sig-paren">(</span><em>issue_number: int</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.bump" title="Permalink to this definition">¶</a></dt>
+<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">bump</code><span class="sig-paren">(</span><em>issue_number</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.bump" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bump the build number in each recipe</p>
 </dd></dl>
 
 <dl class="task">
 <dt id="bioconda_utils.bot.tasks.check_circle_artifacts">
-<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">check_circle_artifacts</code><span class="sig-paren">(</span><em>pr_number: int</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.check_circle_artifacts" title="Permalink to this definition">¶</a></dt>
+<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">check_circle_artifacts</code><span class="sig-paren">(</span><em>pr_number</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.check_circle_artifacts" title="Permalink to this definition">¶</a></dt>
 <dd><p>Proxy that evaluates object once.</p>
 <p><code class="xref py py-class docutils literal notranslate"><span class="pre">Proxy</span></code> will evaluate the object each time, while the
 promise will only evaluate it once.</p>
@@ -215,7 +218,7 @@ promise will only evaluate it once.</p>
 
 <dl class="task">
 <dt id="bioconda_utils.bot.tasks.create_check_run">
-<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">create_check_run</code><span class="sig-paren">(</span><em>head_sha: str</em>, <em>ghapi</em>, <em>recreate=True</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.create_check_run" title="Permalink to this definition">¶</a></dt>
+<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">create_check_run</code><span class="sig-paren">(</span><em>head_sha</em>, <em>ghapi</em>, <em>recreate=True</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.create_check_run" title="Permalink to this definition">¶</a></dt>
 <dd><p>Proxy that evaluates object once.</p>
 <p><code class="xref py py-class docutils literal notranslate"><span class="pre">Proxy</span></code> will evaluate the object each time, while the
 promise will only evaluate it once.</p>
@@ -223,19 +226,19 @@ promise will only evaluate it once.</p>
 
 <dl class="task">
 <dt id="bioconda_utils.bot.tasks.get_latest_pr_commit">
-<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">get_latest_pr_commit</code><span class="sig-paren">(</span><em>issue_number: int</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.get_latest_pr_commit" title="Permalink to this definition">¶</a></dt>
+<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">get_latest_pr_commit</code><span class="sig-paren">(</span><em>issue_number</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.get_latest_pr_commit" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns last commit</p>
 </dd></dl>
 
 <dl class="task">
 <dt id="bioconda_utils.bot.tasks.lint_check">
-<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">lint_check</code><span class="sig-paren">(</span><em>check_run_number: int</em>, <em>ref: str</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.lint_check" title="Permalink to this definition">¶</a></dt>
+<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">lint_check</code><span class="sig-paren">(</span><em>check_run_number</em>, <em>ref</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.lint_check" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute linter</p>
 </dd></dl>
 
 <dl class="task">
 <dt id="bioconda_utils.bot.tasks.trigger_circle_rebuild">
-<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">trigger_circle_rebuild</code><span class="sig-paren">(</span><em>pr_number: int</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.trigger_circle_rebuild" title="Permalink to this definition">¶</a></dt>
+<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">trigger_circle_rebuild</code><span class="sig-paren">(</span><em>pr_number</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.trigger_circle_rebuild" title="Permalink to this definition">¶</a></dt>
 <dd><p>Proxy that evaluates object once.</p>
 <p><code class="xref py py-class docutils literal notranslate"><span class="pre">Proxy</span></code> will evaluate the object each time, while the
 promise will only evaluate it once.</p>
@@ -254,7 +257,7 @@ promise will only evaluate it once.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

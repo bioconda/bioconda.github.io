@@ -192,13 +192,13 @@
     <span class="c1">#: Recipe has a variant that needs bumping only for python</span>
     <span class="n">BUMP_PYTHON_ONLY</span> <span class="o">=</span> <span class="n">enum</span><span class="o">.</span><span class="n">auto</span><span class="p">()</span>
 
-    <span class="k">def</span> <span class="nf">needs_bump</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">bump_python_only</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<div class="viewcode-block" id="State.needs_bump"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.State.needs_bump">[docs]</a>    <span class="k">def</span> <span class="nf">needs_bump</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">bump_python_only</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
         <span class="k">if</span> <span class="n">bump_python_only</span><span class="p">:</span>
             <span class="k">return</span> <span class="bp">self</span> <span class="o">&amp;</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">BUMP</span> <span class="o">|</span> <span class="bp">self</span><span class="o">.</span><span class="n">BUMP_PYTHON_ONLY</span><span class="p">)</span>
-        <span class="k">return</span> <span class="bp">self</span> <span class="o">&amp;</span> <span class="bp">self</span><span class="o">.</span><span class="n">BUMP</span>
+        <span class="k">return</span> <span class="bp">self</span> <span class="o">&amp;</span> <span class="bp">self</span><span class="o">.</span><span class="n">BUMP</span></div>
 
-    <span class="k">def</span> <span class="nf">failed</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="bp">self</span> <span class="o">&amp;</span> <span class="bp">self</span><span class="o">.</span><span class="n">FAIL</span></div>
+<div class="viewcode-block" id="State.failed"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.State.failed">[docs]</a>    <span class="k">def</span> <span class="nf">failed</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span> <span class="o">&amp;</span> <span class="bp">self</span><span class="o">.</span><span class="n">FAIL</span></div></div>
 
 
 <div class="viewcode-block" id="check"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.check">[docs]</a><span class="k">def</span> <span class="nf">check</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">build_config</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">State</span><span class="p">:</span>
@@ -273,7 +273,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

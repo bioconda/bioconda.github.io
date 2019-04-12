@@ -282,7 +282,7 @@
     <span class="k">return</span> <span class="n">res</span></div>
 
 
-<span class="k">class</span> <span class="nc">RecipeBuilder</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+<div class="viewcode-block" id="RecipeBuilder"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.docker_utils.html#bioconda_utils.docker_utils.RecipeBuilder">[docs]</a><span class="k">class</span> <span class="nc">RecipeBuilder</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span>
         <span class="bp">self</span><span class="p">,</span>
         <span class="n">tag</span><span class="o">=</span><span class="s1">&#39;tmp-bioconda-builder&#39;</span><span class="p">,</span>
@@ -345,8 +345,8 @@
 <span class="sd">            Specify where packages should appear on the host.</span>
 
 <span class="sd">            If **pkg_dir** is None, then a temporary directory will be</span>
-<span class="sd">            created once for each RecipeBuilder instance and that directory</span>
-<span class="sd">            will be used for each call to `RecipeBuilder.build()`. This allows</span>
+<span class="sd">            created once for each `RecipeBuilder` instance and that directory</span>
+<span class="sd">            will be used for each call to `RecipeBuilder.build_recipe()`. This allows</span>
 <span class="sd">            subsequent recipes built by the container to see previous built</span>
 <span class="sd">            recipes without polluting the host&#39;s conda-bld directory.</span>
 
@@ -538,7 +538,7 @@
             <span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">build_dir</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">p</span>
 
-    <span class="k">def</span> <span class="nf">build_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">build_args</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">noarch</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<div class="viewcode-block" id="RecipeBuilder.build_recipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.docker_utils.html#bioconda_utils.docker_utils.RecipeBuilder.build_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">build_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">build_args</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">noarch</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Build a single recipe.</span>
 
@@ -549,7 +549,7 @@
 <span class="sd">            Path to recipe that contains meta.yaml</span>
 
 <span class="sd">        build_args : str</span>
-<span class="sd">            Additional arguments to `conda build`. For example --channel,</span>
+<span class="sd">            Additional arguments to ``conda build``. For example --channel,</span>
 <span class="sd">            --skip-existing, etc</span>
 
 <span class="sd">        env : dict</span>
@@ -607,11 +607,11 @@
         <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;DOCKER: cmd: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">cmd</span><span class="p">)</span>
         <span class="k">with</span> <span class="n">utils</span><span class="o">.</span><span class="n">Progress</span><span class="p">():</span>
             <span class="n">p</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">p</span>
+        <span class="k">return</span> <span class="n">p</span></div>
 
-    <span class="k">def</span> <span class="nf">cleanup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="RecipeBuilder.cleanup"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.docker_utils.html#bioconda_utils.docker_utils.RecipeBuilder.cleanup">[docs]</a>    <span class="k">def</span> <span class="nf">cleanup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">cmd</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;docker&#39;</span><span class="p">,</span> <span class="s1">&#39;rmi&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">tag</span><span class="p">]</span>
-        <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+        <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span></div></div>
 </pre></div>
 
           </div>
@@ -624,7 +624,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

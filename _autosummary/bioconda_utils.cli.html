@@ -96,6 +96,7 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update.html">update</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
@@ -151,7 +152,7 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.bot" title="bioconda_utils.cli.bot"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bot</span></code></a>([loglevel])</p></td>
 <td><p>Locally accedd bioconda-bot command API</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">build</span></code>(recipe_folder, config[, packages, …])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.cli.build" title="bioconda_utils.cli.build"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build</span></code></a>(recipe_folder, config[, packages, …])</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.clean_cran_skeleton" title="bioconda_utils.cli.clean_cran_skeleton"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clean_cran_skeleton</span></code></a>(recipe[, no_windows])</p></td>
@@ -178,7 +179,7 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.cli.lint" title="bioconda_utils.cli.lint"><code class="xref py py-obj docutils literal notranslate"><span class="pre">lint</span></code></a>(recipe_folder, config[, packages, …])</p></td>
 <td><p>Lint recipes</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.main" title="bioconda_utils.cli.main"><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.cli.update_pinning" title="bioconda_utils.cli.update_pinning"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_pinning</span></code></a>(recipe_folder, config[, …])</p></td>
@@ -220,6 +221,11 @@ and submit to conda-forge.</p>
 <p>$ gunicorn bioconda_utils.bot:init_app_internal_celery –worker-class aiohttp.worker.GunicornWebWorker</p>
 <p>You can append –reload to have gunicorn reload if any of the python files change.</p>
 </dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.cli.build">
+<code class="descclassname">bioconda_utils.cli.</code><code class="descname">build</code><span class="sig-paren">(</span><em>recipe_folder</em>, <em>config</em>, <em>packages='*'</em>, <em>git_range=None</em>, <em>testonly=False</em>, <em>force=False</em>, <em>docker=None</em>, <em>mulled_test=False</em>, <em>build_script_template=None</em>, <em>pkg_dir=None</em>, <em>anaconda_upload=False</em>, <em>mulled_upload_target=None</em>, <em>keep_image=False</em>, <em>lint=False</em>, <em>lint_only=None</em>, <em>lint_exclude=None</em>, <em>check_channels=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/cli.html#build"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.cli.clean_cran_skeleton">
@@ -282,6 +288,11 @@ Otherwise pushes a commit status to the specified commit on github.</p>
 </dd></dl>
 
 <dl class="function">
+<dt id="bioconda_utils.cli.main">
+<code class="descclassname">bioconda_utils.cli.</code><code class="descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/cli.html#main"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
 <dt id="bioconda_utils.cli.update_pinning">
 <code class="descclassname">bioconda_utils.cli.</code><code class="descname">update_pinning</code><span class="sig-paren">(</span><em>recipe_folder</em>, <em>config</em>, <em>packages='*'</em>, <em>skip_additional_channels=None</em>, <em>bump_only_python=False</em>, <em>cache=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/cli.html#update_pinning"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.update_pinning" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bump a package build number and all dependencies as required due
@@ -301,7 +312,7 @@ to a change in pinnings</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

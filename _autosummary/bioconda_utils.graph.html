@@ -96,6 +96,7 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update.html">update</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
@@ -145,13 +146,13 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.graph.build" title="bioconda_utils.graph.build"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build</span></code></a>(recipes, config[, blacklist, restrict])</p></td>
 <td><p>Returns the DAG of recipe paths and a dictionary that maps package names to lists of recipe paths to all defined versions of the package.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_from_recipes</span></code>(recipes)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.graph.build_from_recipes" title="bioconda_utils.graph.build_from_recipes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_from_recipes</span></code></a>(recipes)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter</span></code>(dag, packages)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.graph.filter" title="bioconda_utils.graph.filter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter</span></code></a>(dag, packages)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter_recipe_dag</span></code>(dag, names)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.graph.filter_recipe_dag" title="bioconda_utils.graph.filter_recipe_dag"><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter_recipe_dag</span></code></a>(dag, names)</p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -185,6 +186,21 @@ values are lists and contain paths to all defined versions.</p></li>
 </dl>
 </dd></dl>
 
+<dl class="function">
+<dt id="bioconda_utils.graph.build_from_recipes">
+<code class="descclassname">bioconda_utils.graph.</code><code class="descname">build_from_recipes</code><span class="sig-paren">(</span><em>recipes</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/graph.html#build_from_recipes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.graph.build_from_recipes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.graph.filter">
+<code class="descclassname">bioconda_utils.graph.</code><code class="descname">filter</code><span class="sig-paren">(</span><em>dag</em>, <em>packages</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/graph.html#filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.graph.filter" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.graph.filter_recipe_dag">
+<code class="descclassname">bioconda_utils.graph.</code><code class="descname">filter_recipe_dag</code><span class="sig-paren">(</span><em>dag</em>, <em>names</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/graph.html#filter_recipe_dag"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.graph.filter_recipe_dag" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </div>
 
 
@@ -198,7 +214,7 @@ values are lists and contain paths to all defined versions.</p></li>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

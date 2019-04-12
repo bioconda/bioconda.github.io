@@ -180,7 +180,7 @@
     <span class="k">return</span> <span class="kc">True</span></div>
 
 
-<span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;recheck&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="command_recheck"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_recheck">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;recheck&quot;</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_recheck</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
     <span class="n">issue_number</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;issue/number&quot;</span><span class="p">))</span>
     <span class="c1"># queue check for artifacts</span>
@@ -192,14 +192,14 @@
         <span class="n">create_check_run</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">ghapi</span><span class="p">)</span>
     <span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
     <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled &#39;create_check_run&#39; for latest commit in #</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span>
-                <span class="n">issue_number</span><span class="p">)</span>
+                <span class="n">issue_number</span><span class="p">)</span></div>
 
 
-<span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;rebuild&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="command_rebuild"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_rebuild">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;rebuild&quot;</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_rebuild</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
     <span class="n">issue_number</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;issue/number&quot;</span><span class="p">))</span>
     <span class="n">trigger_circle_rebuild</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
-    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled &#39;trigger_circle_rebuild&#39; for #</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">)</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled &#39;trigger_circle_rebuild&#39; for #</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">)</span></div>
 </pre></div>
 
           </div>
@@ -212,7 +212,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

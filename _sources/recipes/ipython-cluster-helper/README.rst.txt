@@ -22,7 +22,7 @@ ipython-cluster-helper
 
    |downloads_ipython-cluster-helper| |docker_ipython-cluster-helper|
 
-   :versions: 0.6.2-0, 0.6.1-0, 0.6.0-0, 0.5.9-0, 0.5.8-0, 0.5.7-1, 0.5.6-1, 0.5.6-0, 0.5.5-0, 0.5.4-0, 0.5.3-0, 0.5.2-0, 0.5.1-0, 0.5.0-0
+   :versions: 0.6.3-0, 0.6.2-0, 0.6.1-0, 0.6.0-0, 0.5.9-0, 0.5.8-0, 0.5.7-1, 0.5.6-1, 0.5.6-0, 0.5.5-0, 0.5.4-0, 0.5.3-0, 0.5.2-0, 0.5.1-0, 0.5.0-0
    
    :depends ipyparallel: >=6.0.2
    :depends netifaces: 

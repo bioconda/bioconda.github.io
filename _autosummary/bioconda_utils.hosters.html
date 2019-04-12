@@ -96,6 +96,7 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update.html">update</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
@@ -158,7 +159,7 @@ type syntax to define the patterns - implementers welcome).</p></li>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.hosters.dedup_named_capture_group" title="bioconda_utils.hosters.dedup_named_capture_group"><code class="xref py py-obj docutils literal notranslate"><span class="pre">dedup_named_capture_group</span></code></a>(pattern)</p></td>
 <td><p>Replaces repetitions of capture groups with matches to first instance</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.hosters.replace_named_capture_group" title="bioconda_utils.hosters.replace_named_capture_group"><code class="xref py py-obj docutils literal notranslate"><span class="pre">replace_named_capture_group</span></code></a>(pattern, vals, str])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.hosters.replace_named_capture_group" title="bioconda_utils.hosters.replace_named_capture_group"><code class="xref py py-obj docutils literal notranslate"><span class="pre">replace_named_capture_group</span></code></a>(pattern, vals)</p></td>
 <td><p>Replaces capture groups with values from <strong>vals</strong></p></td>
 </tr>
 </tbody>
@@ -244,49 +245,425 @@ type syntax to define the patterns - implementers welcome).</p></li>
 <p class="rubric">Documentation</p>
 <dl class="class">
 <dt id="bioconda_utils.hosters.Bioarchive">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">Bioarchive</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#Bioarchive"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive" title="Permalink to this definition">¶</a></dt>
-<dd><p>Scans for updates to packages hosted on bioarchive.galaxyproject.org</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">Bioarchive</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#Bioarchive"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.JSONHoster" title="bioconda_utils.hosters.JSONHoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.JSONHoster</span></code></a></p>
+<p>Scans for updates to packages hosted on bioarchive.galaxyproject.org</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioarchive.ext_pattern_compiled">
+<code class="descname">ext_pattern_compiled</code><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive.ext_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioarchive.ext_re">
+<code class="descname">ext_re</code><em class="property"> = regex.Regex('(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive.ext_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="method">
 <dt id="bioconda_utils.hosters.Bioarchive.get_versions_from_json">
 <code class="descname">get_versions_from_json</code><span class="sig-paren">(</span><em>data</em>, <em>req</em>, <em>orig_version</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#Bioarchive.get_versions_from_json"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive.get_versions_from_json" title="Permalink to this definition">¶</a></dt>
 <dd><p>Extract matches from json data in <strong>data</strong></p>
 </dd></dl>
 
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioarchive.link_pattern_compiled">
+<code class="descname">link_pattern_compiled</code><em class="property"> = 'https://bioarchive.galaxyproject.org/(?P&lt;package&gt;[-\\w.]+)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive.link_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioarchive.link_re">
+<code class="descname">link_re</code><em class="property"> = regex.Regex('https://bioarchive.galaxyproject.org/(?P&lt;package&gt;[-\\w.]+)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive.link_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioarchive.package_pattern">
+<code class="descname">package_pattern</code><em class="property"> = '(?P&lt;package&gt;[-\\w.]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive.package_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioarchive.package_pattern_compiled">
+<code class="descname">package_pattern_compiled</code><em class="property"> = '(?P&lt;package&gt;[-\\w.]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive.package_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioarchive.package_re">
+<code class="descname">package_re</code><em class="property"> = regex.Regex('(?P&lt;package&gt;[-\\w.]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive.package_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioarchive.releases_formats">
+<code class="descname">releases_formats</code><em class="property"> = ['https://bioarchive.galaxyproject.org/api/{package}.json']</em><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive.releases_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioarchive.url_pattern">
+<code class="descname">url_pattern</code><em class="property"> = 'bioarchive.galaxyproject.org/{package}_{version}{ext}'</em><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive.url_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioarchive.url_pattern_compiled">
+<code class="descname">url_pattern_compiled</code><em class="property"> = 'bioarchive.galaxyproject.org/(?P&lt;package&gt;[-\\w.]+)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive.url_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioarchive.url_re">
+<code class="descname">url_re</code><em class="property"> = regex.Regex('bioarchive.galaxyproject.org/(?P&lt;package&gt;[-\\w.]+)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive.url_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioarchive.version_pattern_compiled">
+<code class="descname">version_pattern_compiled</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive.version_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioarchive.version_re">
+<code class="descname">version_re</code><em class="property"> = regex.Regex('(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.Bioarchive.version_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.Bioconductor">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">Bioconductor</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#Bioconductor"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor" title="Permalink to this definition">¶</a></dt>
-<dd><p>Matches R packages hosted at Bioconductor</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">Bioconductor</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#Bioconductor"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.HTMLHoster" title="bioconda_utils.hosters.HTMLHoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.HTMLHoster</span></code></a></p>
+<p>Matches R packages hosted at Bioconductor</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioconductor.ext_pattern_compiled">
+<code class="descname">ext_pattern_compiled</code><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor.ext_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioconductor.ext_re">
+<code class="descname">ext_re</code><em class="property"> = regex.Regex('(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor.ext_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioconductor.link_pattern">
+<code class="descname">link_pattern</code><em class="property"> = '/src/contrib/(?P&lt;package&gt;[^/]+)_{version}{ext}'</em><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor.link_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioconductor.link_pattern_compiled">
+<code class="descname">link_pattern_compiled</code><em class="property"> = '/src/contrib/(?P&lt;package&gt;[^/]+)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor.link_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioconductor.link_re">
+<code class="descname">link_re</code><em class="property"> = regex.Regex('/src/contrib/(?P&lt;package&gt;[^/]+)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor.link_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioconductor.releases_formats">
+<code class="descname">releases_formats</code><em class="property"> = ['https://bioconductor.org/packages/{bioc}/bioc/html/{package}.html']</em><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor.releases_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioconductor.section_pattern">
+<code class="descname">section_pattern</code><em class="property"> = '/(bioc|data/annotation|data/experiment)'</em><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor.section_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioconductor.section_pattern_compiled">
+<code class="descname">section_pattern_compiled</code><em class="property"> = '/(bioc|data/annotation|data/experiment)'</em><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor.section_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioconductor.section_re">
+<code class="descname">section_re</code><em class="property"> = regex.Regex('/(bioc|data/annotation|data/experiment)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor.section_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioconductor.url_pattern">
+<code class="descname">url_pattern</code><em class="property"> = 'bioconductor.org/packages/(?P&lt;bioc&gt;[\\d\\.]+){section}{link}'</em><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor.url_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioconductor.url_pattern_compiled">
+<code class="descname">url_pattern_compiled</code><em class="property"> = 'bioconductor.org/packages/(?P&lt;bioc&gt;[\\d\\.]+)/(bioc|data/annotation|data/experiment)/src/contrib/(?P&lt;package&gt;[^/]+)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor.url_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioconductor.url_re">
+<code class="descname">url_re</code><em class="property"> = regex.Regex('bioconductor.org/packages/(?P&lt;bioc&gt;[\\d\\.]+)/(bioc|data/annotation|data/experiment)/src/contrib/(?P&lt;package&gt;[^/]+)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor.url_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioconductor.version_pattern_compiled">
+<code class="descname">version_pattern_compiled</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor.version_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.Bioconductor.version_re">
+<code class="descname">version_re</code><em class="property"> = regex.Regex('(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.Bioconductor.version_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.BitBucketBase">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">BitBucketBase</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#BitBucketBase"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.BitBucketBase" title="Permalink to this definition">¶</a></dt>
-<dd><p>Base class for hosting at bitbucket.org</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">BitBucketBase</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#BitBucketBase"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.BitBucketBase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.OrderedHTMLHoster" title="bioconda_utils.hosters.OrderedHTMLHoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.OrderedHTMLHoster</span></code></a></p>
+<p>Base class for hosting at bitbucket.org</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketBase.account_pattern">
+<code class="descname">account_pattern</code><em class="property"> = '(?P&lt;account&gt;[-\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketBase.account_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketBase.prefix_pattern">
+<code class="descname">prefix_pattern</code><em class="property"> = '(?P&lt;prefix&gt;[-_./\\w]+?)??'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketBase.prefix_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketBase.project_pattern">
+<code class="descname">project_pattern</code><em class="property"> = '(?P&lt;project&gt;[-.\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketBase.project_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketBase.url_pattern">
+<code class="descname">url_pattern</code><em class="property"> = 'bitbucket\\.org{link}'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketBase.url_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.BitBucketDownload">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">BitBucketDownload</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#BitBucketDownload"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload" title="Permalink to this definition">¶</a></dt>
-<dd><p>Uploaded releases hosted at bitbucket.org</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">BitBucketDownload</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#BitBucketDownload"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.BitBucketBase" title="bioconda_utils.hosters.BitBucketBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.BitBucketBase</span></code></a></p>
+<p>Uploaded releases hosted at bitbucket.org</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.account_pattern_compiled">
+<code class="descname">account_pattern_compiled</code><em class="property"> = '(?P&lt;account&gt;[-\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.account_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.account_re">
+<code class="descname">account_re</code><em class="property"> = regex.Regex('(?P&lt;account&gt;[-\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.account_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.ext_pattern_compiled">
+<code class="descname">ext_pattern_compiled</code><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.ext_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.ext_re">
+<code class="descname">ext_re</code><em class="property"> = regex.Regex('(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.ext_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.link_pattern">
+<code class="descname">link_pattern</code><em class="property"> = '/{account}/{project}/downloads/{prefix}{version}{ext}'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.link_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.link_pattern_compiled">
+<code class="descname">link_pattern_compiled</code><em class="property"> = '/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/downloads/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.link_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.link_re">
+<code class="descname">link_re</code><em class="property"> = regex.Regex('/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/downloads/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.link_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.prefix_pattern_compiled">
+<code class="descname">prefix_pattern_compiled</code><em class="property"> = '(?P&lt;prefix&gt;[-_./\\w]+?)??'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.prefix_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.prefix_re">
+<code class="descname">prefix_re</code><em class="property"> = regex.Regex('(?P&lt;prefix&gt;[-_./\\w]+?)??', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.prefix_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.project_pattern_compiled">
+<code class="descname">project_pattern_compiled</code><em class="property"> = '(?P&lt;project&gt;[-.\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.project_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.project_re">
+<code class="descname">project_re</code><em class="property"> = regex.Regex('(?P&lt;project&gt;[-.\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.project_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.releases_formats">
+<code class="descname">releases_formats</code><em class="property"> = ['https://bitbucket.org/{account}/{project}/downloads/?tab=downloads']</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.releases_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.url_pattern_compiled">
+<code class="descname">url_pattern_compiled</code><em class="property"> = 'bitbucket\\.org/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/downloads/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.url_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.url_re">
+<code class="descname">url_re</code><em class="property"> = regex.Regex('bitbucket\\.org/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/downloads/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.url_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.version_pattern_compiled">
+<code class="descname">version_pattern_compiled</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.version_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketDownload.version_re">
+<code class="descname">version_re</code><em class="property"> = regex.Regex('(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketDownload.version_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.BitBucketTag">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">BitBucketTag</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#BitBucketTag"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag" title="Permalink to this definition">¶</a></dt>
-<dd><p>Tag based releases hosted at bitbucket.org</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">BitBucketTag</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#BitBucketTag"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.BitBucketBase" title="bioconda_utils.hosters.BitBucketBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.BitBucketBase</span></code></a></p>
+<p>Tag based releases hosted at bitbucket.org</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.account_pattern_compiled">
+<code class="descname">account_pattern_compiled</code><em class="property"> = '(?P&lt;account&gt;[-\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.account_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.account_re">
+<code class="descname">account_re</code><em class="property"> = regex.Regex('(?P&lt;account&gt;[-\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.account_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.ext_pattern_compiled">
+<code class="descname">ext_pattern_compiled</code><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.ext_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.ext_re">
+<code class="descname">ext_re</code><em class="property"> = regex.Regex('(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.ext_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.link_pattern">
+<code class="descname">link_pattern</code><em class="property"> = '/{account}/{project}/get/{prefix}{version}{ext}'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.link_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.link_pattern_compiled">
+<code class="descname">link_pattern_compiled</code><em class="property"> = '/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/get/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.link_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.link_re">
+<code class="descname">link_re</code><em class="property"> = regex.Regex('/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/get/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.link_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.prefix_pattern_compiled">
+<code class="descname">prefix_pattern_compiled</code><em class="property"> = '(?P&lt;prefix&gt;[-_./\\w]+?)??'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.prefix_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.prefix_re">
+<code class="descname">prefix_re</code><em class="property"> = regex.Regex('(?P&lt;prefix&gt;[-_./\\w]+?)??', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.prefix_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.project_pattern_compiled">
+<code class="descname">project_pattern_compiled</code><em class="property"> = '(?P&lt;project&gt;[-.\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.project_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.project_re">
+<code class="descname">project_re</code><em class="property"> = regex.Regex('(?P&lt;project&gt;[-.\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.project_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.releases_formats">
+<code class="descname">releases_formats</code><em class="property"> = ['https://bitbucket.org/{account}/{project}/downloads/?tab=tags', 'https://bitbucket.org/{account}/{project}/downloads/?tab=branches']</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.releases_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.url_pattern_compiled">
+<code class="descname">url_pattern_compiled</code><em class="property"> = 'bitbucket\\.org/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/get/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.url_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.url_re">
+<code class="descname">url_re</code><em class="property"> = regex.Regex('bitbucket\\.org/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/get/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.url_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.version_pattern_compiled">
+<code class="descname">version_pattern_compiled</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.version_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.BitBucketTag.version_re">
+<code class="descname">version_re</code><em class="property"> = regex.Regex('(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.BitBucketTag.version_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.CPAN">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">CPAN</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#CPAN"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.CPAN" title="Permalink to this definition">¶</a></dt>
-<dd><p>Scans for updates to Perl packages hosted on CPAN</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">CPAN</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#CPAN"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.CPAN" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.JSONHoster" title="bioconda_utils.hosters.JSONHoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.JSONHoster</span></code></a></p>
+<p>Scans for updates to Perl packages hosted on CPAN</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.author_pattern">
+<code class="descname">author_pattern</code><em class="property"> = '(?P&lt;author&gt;[A-Z]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.author_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.author_pattern_compiled">
+<code class="descname">author_pattern_compiled</code><em class="property"> = '(?P&lt;author&gt;[A-Z]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.author_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.author_re">
+<code class="descname">author_re</code><em class="property"> = regex.Regex('(?P&lt;author&gt;[A-Z]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.author_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.ext_pattern_compiled">
+<code class="descname">ext_pattern_compiled</code><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.ext_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.ext_re">
+<code class="descname">ext_re</code><em class="property"> = regex.Regex('(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.ext_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="method">
 <dt id="bioconda_utils.hosters.CPAN.get_versions_from_json">
 <code class="descname">get_versions_from_json</code><span class="sig-paren">(</span><em>data</em>, <em>req</em>, <em>orig_version</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#CPAN.get_versions_from_json"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.CPAN.get_versions_from_json" title="Permalink to this definition">¶</a></dt>
 <dd><p>Extract matches from json data in <strong>data</strong></p>
 </dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.link_pattern_compiled">
+<code class="descname">link_pattern_compiled</code><em class="property"> = 'https://(www.cpan.org|cpan.metacpan.org|search.cpan.org/CPAN)/authors/id/./../(?P&lt;author&gt;[A-Z]+)/([^/]+/|)(?P&lt;package&gt;[-\\w.+]+)-v?(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.link_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.link_re">
+<code class="descname">link_re</code><em class="property"> = regex.Regex('https://(www.cpan.org|cpan.metacpan.org|search.cpan.org/CPAN)/authors/id/./../(?P&lt;author&gt;[A-Z]+)/([^/]+/|)(?P&lt;package&gt;[-\\w.+]+)-v?(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.link_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.orig_release_format">
+<code class="descname">orig_release_format</code><em class="property"> = 'https://fastapi.metacpan.org/v1/release/_search?q=distribution:{dist}%20AND%20version:{vers}'</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.orig_release_format" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.package_pattern">
+<code class="descname">package_pattern</code><em class="property"> = '(?P&lt;package&gt;[-\\w.+]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.package_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.package_pattern_compiled">
+<code class="descname">package_pattern_compiled</code><em class="property"> = '(?P&lt;package&gt;[-\\w.+]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.package_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.package_re">
+<code class="descname">package_re</code><em class="property"> = regex.Regex('(?P&lt;package&gt;[-\\w.+]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.package_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="staticmethod">
 <dt id="bioconda_utils.hosters.CPAN.parse_deps">
@@ -294,78 +671,983 @@ type syntax to define the patterns - implementers welcome).</p></li>
 <dd><p>Parse CPAN format dependencies</p>
 </dd></dl>
 
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.releases_formats">
+<code class="descname">releases_formats</code><em class="property"> = ['https://fastapi.metacpan.org/v1/release/{package}']</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.releases_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.url_pattern">
+<code class="descname">url_pattern</code><em class="property"> = '(www.cpan.org|cpan.metacpan.org|search.cpan.org/CPAN)/authors/id/./../{author}/([^/]+/|){package}-v?{version}{ext}'</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.url_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.url_pattern_compiled">
+<code class="descname">url_pattern_compiled</code><em class="property"> = '(www.cpan.org|cpan.metacpan.org|search.cpan.org/CPAN)/authors/id/./../(?P&lt;author&gt;[A-Z]+)/([^/]+/|)(?P&lt;package&gt;[-\\w.+]+)-v?(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.url_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.url_re">
+<code class="descname">url_re</code><em class="property"> = regex.Regex('(www.cpan.org|cpan.metacpan.org|search.cpan.org/CPAN)/authors/id/./../(?P&lt;author&gt;[A-Z]+)/([^/]+/|)(?P&lt;package&gt;[-\\w.+]+)-v?(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.url_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.version_pattern_compiled">
+<code class="descname">version_pattern_compiled</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.version_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CPAN.version_re">
+<code class="descname">version_re</code><em class="property"> = regex.Regex('(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CPAN.version_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.CRAN">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">CRAN</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#CRAN"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.CRAN" title="Permalink to this definition">¶</a></dt>
-<dd><p>R packages hosted on r-project.org (CRAN)</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">CRAN</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#CRAN"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.CRAN" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.JSONHoster" title="bioconda_utils.hosters.JSONHoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.JSONHoster</span></code></a></p>
+<p>R packages hosted on r-project.org (CRAN)</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CRAN.ext_pattern_compiled">
+<code class="descname">ext_pattern_compiled</code><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.CRAN.ext_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CRAN.ext_re">
+<code class="descname">ext_re</code><em class="property"> = regex.Regex('(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CRAN.ext_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="method">
 <dt id="bioconda_utils.hosters.CRAN.get_versions_from_json">
 <code class="descname">get_versions_from_json</code><span class="sig-paren">(</span><em>data</em>, <em>_</em>, <em>orig_version</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#CRAN.get_versions_from_json"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.CRAN.get_versions_from_json" title="Permalink to this definition">¶</a></dt>
 <dd><p>Extract matches from json data in <strong>data</strong></p>
 </dd></dl>
 
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CRAN.link_pattern_compiled">
+<code class="descname">link_pattern_compiled</code><em class="property"> = 'https://r-project\\.org/src/contrib(/Archive)?/(?P&lt;package&gt;[\\w.]+)(?(1)/(?P=package)|)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.CRAN.link_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CRAN.link_re">
+<code class="descname">link_re</code><em class="property"> = regex.Regex('https://r-project\\.org/src/contrib(/Archive)?/(?P&lt;package&gt;[\\w.]+)(?(1)/(?P=package)|)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CRAN.link_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CRAN.package_pattern">
+<code class="descname">package_pattern</code><em class="property"> = '(?P&lt;package&gt;[\\w.]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.CRAN.package_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CRAN.package_pattern_compiled">
+<code class="descname">package_pattern_compiled</code><em class="property"> = '(?P&lt;package&gt;[\\w.]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.CRAN.package_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CRAN.package_re">
+<code class="descname">package_re</code><em class="property"> = regex.Regex('(?P&lt;package&gt;[\\w.]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CRAN.package_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CRAN.releases_formats">
+<code class="descname">releases_formats</code><em class="property"> = ['https://crandb.r-pkg.org/{package}/all']</em><a class="headerlink" href="#bioconda_utils.hosters.CRAN.releases_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CRAN.url_pattern">
+<code class="descname">url_pattern</code><em class="property"> = 'r-project\\.org/src/contrib(/Archive)?/{package}(?(1)/{package}|)_{version}{ext}'</em><a class="headerlink" href="#bioconda_utils.hosters.CRAN.url_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CRAN.url_pattern_compiled">
+<code class="descname">url_pattern_compiled</code><em class="property"> = 'r-project\\.org/src/contrib(/Archive)?/(?P&lt;package&gt;[\\w.]+)(?(1)/(?P=package)|)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.CRAN.url_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CRAN.url_re">
+<code class="descname">url_re</code><em class="property"> = regex.Regex('r-project\\.org/src/contrib(/Archive)?/(?P&lt;package&gt;[\\w.]+)(?(1)/(?P=package)|)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CRAN.url_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CRAN.version_pattern_compiled">
+<code class="descname">version_pattern_compiled</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.CRAN.version_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CRAN.version_re">
+<code class="descname">version_re</code><em class="property"> = regex.Regex('(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CRAN.version_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.CargoPort">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">CargoPort</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#CargoPort"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.CargoPort" title="Permalink to this definition">¶</a></dt>
-<dd><p>Matches source backup urls created by cargo-port</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">CargoPort</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#CargoPort"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.CargoPort" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.HTMLHoster" title="bioconda_utils.hosters.HTMLHoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.HTMLHoster</span></code></a></p>
+<p>Matches source backup urls created by cargo-port</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CargoPort.ext_pattern_compiled">
+<code class="descname">ext_pattern_compiled</code><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.CargoPort.ext_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CargoPort.ext_re">
+<code class="descname">ext_re</code><em class="property"> = regex.Regex('(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CargoPort.ext_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CargoPort.link_pattern">
+<code class="descname">link_pattern</code><em class="property"> = '(?P&lt;package&gt;[^/]+)_{version}{os}{ext}'</em><a class="headerlink" href="#bioconda_utils.hosters.CargoPort.link_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CargoPort.link_pattern_compiled">
+<code class="descname">link_pattern_compiled</code><em class="property"> = '(?P&lt;package&gt;[^/]+)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})_(?P&lt;os&gt;src_all|linux_x86|darwin_x86)(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.CargoPort.link_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CargoPort.link_re">
+<code class="descname">link_re</code><em class="property"> = regex.Regex('(?P&lt;package&gt;[^/]+)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})_(?P&lt;os&gt;src_all|linux_x86|darwin_x86)(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CargoPort.link_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CargoPort.os_pattern">
+<code class="descname">os_pattern</code><em class="property"> = '_(?P&lt;os&gt;src_all|linux_x86|darwin_x86)'</em><a class="headerlink" href="#bioconda_utils.hosters.CargoPort.os_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CargoPort.os_pattern_compiled">
+<code class="descname">os_pattern_compiled</code><em class="property"> = '_(?P&lt;os&gt;src_all|linux_x86|darwin_x86)'</em><a class="headerlink" href="#bioconda_utils.hosters.CargoPort.os_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CargoPort.os_re">
+<code class="descname">os_re</code><em class="property"> = regex.Regex('_(?P&lt;os&gt;src_all|linux_x86|darwin_x86)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CargoPort.os_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CargoPort.releases_formats">
+<code class="descname">releases_formats</code><em class="property"> = ['https://depot.galaxyproject.org/software/{package}']</em><a class="headerlink" href="#bioconda_utils.hosters.CargoPort.releases_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CargoPort.url_pattern">
+<code class="descname">url_pattern</code><em class="property"> = 'depot.galaxyproject.org/software/(?P&lt;package&gt;[^/]+)/{link}'</em><a class="headerlink" href="#bioconda_utils.hosters.CargoPort.url_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CargoPort.url_pattern_compiled">
+<code class="descname">url_pattern_compiled</code><em class="property"> = 'depot.galaxyproject.org/software/(?P&lt;package&gt;[^/]+)/(?P=package)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})_(?P&lt;os&gt;src_all|linux_x86|darwin_x86)(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.CargoPort.url_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CargoPort.url_re">
+<code class="descname">url_re</code><em class="property"> = regex.Regex('depot.galaxyproject.org/software/(?P&lt;package&gt;[^/]+)/(?P=package)_(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})_(?P&lt;os&gt;src_all|linux_x86|darwin_x86)(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CargoPort.url_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CargoPort.version_pattern_compiled">
+<code class="descname">version_pattern_compiled</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.CargoPort.version_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.CargoPort.version_re">
+<code class="descname">version_re</code><em class="property"> = regex.Regex('(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.CargoPort.version_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.FTPHoster">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">FTPHoster</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#FTPHoster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster" title="Permalink to this definition">¶</a></dt>
-<dd><p>Scans for updates on FTP servers</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">FTPHoster</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#FTPHoster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.Hoster</span></code></a></p>
+<p>Scans for updates on FTP servers</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.ext_pattern_compiled">
+<code class="descname">ext_pattern_compiled</code><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.ext_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.ext_re">
+<code class="descname">ext_re</code><em class="property"> = regex.Regex('(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.ext_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="method">
 <dt id="bioconda_utils.hosters.FTPHoster.get_versions">
 <code class="descname">get_versions</code><span class="sig-paren">(</span><em>req</em>, <em>orig_version</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#FTPHoster.get_versions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.get_versions" title="Permalink to this definition">¶</a></dt>
 <dd><p>Gets list of versions from upstream hosting site</p>
 </dd></dl>
 
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.host_pattern">
+<code class="descname">host_pattern</code><em class="property"> = '(?P&lt;host&gt;[-_.\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.host_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.host_pattern_compiled">
+<code class="descname">host_pattern_compiled</code><em class="property"> = '(?P&lt;host&gt;[-_.\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.host_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.host_re">
+<code class="descname">host_re</code><em class="property"> = regex.Regex('(?P&lt;host&gt;[-_.\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.host_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.link_pattern">
+<code class="descname">link_pattern</code><em class="property"> = '{path}{package}{version}{suffix}{ext}'</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.link_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.link_pattern_compiled">
+<code class="descname">link_pattern_compiled</code><em class="property"> = '(?P&lt;path&gt;[-_/.\\w]+/)(?P&lt;package&gt;[-_\\w]+)(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30}?)(?P&lt;suffix&gt;([-_](lin|linux|Linux|x64|x86|src|64|OSX))*)(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.link_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.link_re">
+<code class="descname">link_re</code><em class="property"> = regex.Regex('(?P&lt;path&gt;[-_/.\\w]+/)(?P&lt;package&gt;[-_\\w]+)(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30}?)(?P&lt;suffix&gt;([-_](lin|linux|Linux|x64|x86|src|64|OSX))*)(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.link_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.package_pattern">
+<code class="descname">package_pattern</code><em class="property"> = '(?P&lt;package&gt;[-_\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.package_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.package_pattern_compiled">
+<code class="descname">package_pattern_compiled</code><em class="property"> = '(?P&lt;package&gt;[-_\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.package_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.package_re">
+<code class="descname">package_re</code><em class="property"> = regex.Regex('(?P&lt;package&gt;[-_\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.package_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.path_pattern">
+<code class="descname">path_pattern</code><em class="property"> = '(?P&lt;path&gt;[-_/.\\w]+/)'</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.path_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.path_pattern_compiled">
+<code class="descname">path_pattern_compiled</code><em class="property"> = '(?P&lt;path&gt;[-_/.\\w]+/)'</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.path_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.path_re">
+<code class="descname">path_re</code><em class="property"> = regex.Regex('(?P&lt;path&gt;[-_/.\\w]+/)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.path_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.releases_formats">
+<code class="descname">releases_formats</code><em class="property"> = ['ftp://{host}/{path}']</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.releases_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.suffix_pattern">
+<code class="descname">suffix_pattern</code><em class="property"> = '(?P&lt;suffix&gt;([-_](lin|linux|Linux|x64|x86|src|64|OSX))*)'</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.suffix_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.suffix_pattern_compiled">
+<code class="descname">suffix_pattern_compiled</code><em class="property"> = '(?P&lt;suffix&gt;([-_](lin|linux|Linux|x64|x86|src|64|OSX))*)'</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.suffix_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.suffix_re">
+<code class="descname">suffix_re</code><em class="property"> = regex.Regex('(?P&lt;suffix&gt;([-_](lin|linux|Linux|x64|x86|src|64|OSX))*)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.suffix_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.url_pattern">
+<code class="descname">url_pattern</code><em class="property"> = 'ftp://{host}/{link}'</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.url_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.url_pattern_compiled">
+<code class="descname">url_pattern_compiled</code><em class="property"> = 'ftp://(?P&lt;host&gt;[-_.\\w]+)/(?P&lt;path&gt;[-_/.\\w]+/)(?P&lt;package&gt;[-_\\w]+)(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30}?)(?P&lt;suffix&gt;([-_](lin|linux|Linux|x64|x86|src|64|OSX))*)(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.url_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.url_re">
+<code class="descname">url_re</code><em class="property"> = regex.Regex('ftp://(?P&lt;host&gt;[-_.\\w]+)/(?P&lt;path&gt;[-_/.\\w]+/)(?P&lt;package&gt;[-_\\w]+)(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30}?)(?P&lt;suffix&gt;([-_](lin|linux|Linux|x64|x86|src|64|OSX))*)(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.url_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.version_pattern">
+<code class="descname">version_pattern</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30}?)'</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.version_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.version_pattern_compiled">
+<code class="descname">version_pattern_compiled</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30}?)'</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.version_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.FTPHoster.version_re">
+<code class="descname">version_re</code><em class="property"> = regex.Regex('(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30}?)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.FTPHoster.version_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.GithubBase">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">GithubBase</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#GithubBase"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.GithubBase" title="Permalink to this definition">¶</a></dt>
-<dd><p>Base class for software hosted on github.com</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">GithubBase</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#GithubBase"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.GithubBase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.OrderedHTMLHoster" title="bioconda_utils.hosters.OrderedHTMLHoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.OrderedHTMLHoster</span></code></a></p>
+<p>Base class for software hosted on github.com</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubBase.account_pattern">
+<code class="descname">account_pattern</code><em class="property"> = '(?P&lt;account&gt;[-\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubBase.account_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubBase.exclude">
+<code class="descname">exclude</code><em class="property"> = ['version', 'fname']</em><a class="headerlink" href="#bioconda_utils.hosters.GithubBase.exclude" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubBase.fname_pattern">
+<code class="descname">fname_pattern</code><em class="property"> = '(?P&lt;fname&gt;[^/]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubBase.fname_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubBase.prefix_pattern">
+<code class="descname">prefix_pattern</code><em class="property"> = '(?P&lt;prefix&gt;[-_./\\w]+?)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubBase.prefix_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubBase.project_pattern">
+<code class="descname">project_pattern</code><em class="property"> = '(?P&lt;project&gt;[-.\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubBase.project_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubBase.releases_formats">
+<code class="descname">releases_formats</code><em class="property"> = ['https://github.com/{account}/{project}/releases']</em><a class="headerlink" href="#bioconda_utils.hosters.GithubBase.releases_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubBase.suffix_pattern">
+<code class="descname">suffix_pattern</code><em class="property"> = '(?P&lt;suffix&gt;[-_](lin)?)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubBase.suffix_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubBase.tag_pattern">
+<code class="descname">tag_pattern</code><em class="property"> = '{prefix}??{version}'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubBase.tag_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubBase.url_pattern">
+<code class="descname">url_pattern</code><em class="property"> = 'github\\.com{link}'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubBase.url_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.GithubRelease">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">GithubRelease</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#GithubRelease"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease" title="Permalink to this definition">¶</a></dt>
-<dd><p>Matches release artifacts uploaded to Github</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">GithubRelease</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#GithubRelease"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.GithubBase" title="bioconda_utils.hosters.GithubBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.GithubBase</span></code></a></p>
+<p>Matches release artifacts uploaded to Github</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.account_pattern_compiled">
+<code class="descname">account_pattern_compiled</code><em class="property"> = '(?P&lt;account&gt;[-\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.account_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.account_re">
+<code class="descname">account_re</code><em class="property"> = regex.Regex('(?P&lt;account&gt;[-\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.account_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.ext_pattern_compiled">
+<code class="descname">ext_pattern_compiled</code><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.ext_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.ext_re">
+<code class="descname">ext_re</code><em class="property"> = regex.Regex('(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.ext_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.fname_pattern_compiled">
+<code class="descname">fname_pattern_compiled</code><em class="property"> = '(?P&lt;fname&gt;[^/]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.fname_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.fname_re">
+<code class="descname">fname_re</code><em class="property"> = regex.Regex('(?P&lt;fname&gt;[^/]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.fname_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.link_pattern">
+<code class="descname">link_pattern</code><em class="property"> = '/{account}/{project}/releases/download/{tag}/{fname}{ext}?'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.link_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.link_pattern_compiled">
+<code class="descname">link_pattern_compiled</code><em class="property"> = '/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/releases/download/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})/(?P&lt;fname&gt;[^/]+)(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))?'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.link_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.link_re">
+<code class="descname">link_re</code><em class="property"> = regex.Regex('/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/releases/download/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})/(?P&lt;fname&gt;[^/]+)(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))?', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.link_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.prefix_pattern_compiled">
+<code class="descname">prefix_pattern_compiled</code><em class="property"> = '(?P&lt;prefix&gt;[-_./\\w]+?)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.prefix_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.prefix_re">
+<code class="descname">prefix_re</code><em class="property"> = regex.Regex('(?P&lt;prefix&gt;[-_./\\w]+?)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.prefix_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.project_pattern_compiled">
+<code class="descname">project_pattern_compiled</code><em class="property"> = '(?P&lt;project&gt;[-.\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.project_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.project_re">
+<code class="descname">project_re</code><em class="property"> = regex.Regex('(?P&lt;project&gt;[-.\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.project_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.suffix_pattern_compiled">
+<code class="descname">suffix_pattern_compiled</code><em class="property"> = '(?P&lt;suffix&gt;[-_](lin)?)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.suffix_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.suffix_re">
+<code class="descname">suffix_re</code><em class="property"> = regex.Regex('(?P&lt;suffix&gt;[-_](lin)?)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.suffix_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.tag_pattern_compiled">
+<code class="descname">tag_pattern_compiled</code><em class="property"> = '(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.tag_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.tag_re">
+<code class="descname">tag_re</code><em class="property"> = regex.Regex('(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.tag_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.url_pattern_compiled">
+<code class="descname">url_pattern_compiled</code><em class="property"> = 'github\\.com/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/releases/download/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})/(?P&lt;fname&gt;[^/]+)(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))?'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.url_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.url_re">
+<code class="descname">url_re</code><em class="property"> = regex.Regex('github\\.com/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/releases/download/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})/(?P&lt;fname&gt;[^/]+)(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))?', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.url_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.version_pattern_compiled">
+<code class="descname">version_pattern_compiled</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.version_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRelease.version_re">
+<code class="descname">version_re</code><em class="property"> = regex.Regex('(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRelease.version_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.GithubReleaseAttachment">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">GithubReleaseAttachment</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#GithubReleaseAttachment"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment" title="Permalink to this definition">¶</a></dt>
-<dd><p>Matches release artifacts uploaded as attachment to release notes</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">GithubReleaseAttachment</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#GithubReleaseAttachment"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.GithubBase" title="bioconda_utils.hosters.GithubBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.GithubBase</span></code></a></p>
+<p>Matches release artifacts uploaded as attachment to release notes</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.account_pattern_compiled">
+<code class="descname">account_pattern_compiled</code><em class="property"> = '(?P&lt;account&gt;[-\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.account_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.account_re">
+<code class="descname">account_re</code><em class="property"> = regex.Regex('(?P&lt;account&gt;[-\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.account_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.ext_pattern_compiled">
+<code class="descname">ext_pattern_compiled</code><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.ext_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.ext_re">
+<code class="descname">ext_re</code><em class="property"> = regex.Regex('(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.ext_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.fname_pattern_compiled">
+<code class="descname">fname_pattern_compiled</code><em class="property"> = '(?P&lt;fname&gt;[^/]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.fname_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.fname_re">
+<code class="descname">fname_re</code><em class="property"> = regex.Regex('(?P&lt;fname&gt;[^/]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.fname_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.link_pattern">
+<code class="descname">link_pattern</code><em class="property"> = '/{account}/{project}/files/\\d+/{tag}{ext}'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.link_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.link_pattern_compiled">
+<code class="descname">link_pattern_compiled</code><em class="property"> = '/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/files/\\d+/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.link_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.link_re">
+<code class="descname">link_re</code><em class="property"> = regex.Regex('/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/files/\\d+/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.link_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.prefix_pattern_compiled">
+<code class="descname">prefix_pattern_compiled</code><em class="property"> = '(?P&lt;prefix&gt;[-_./\\w]+?)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.prefix_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.prefix_re">
+<code class="descname">prefix_re</code><em class="property"> = regex.Regex('(?P&lt;prefix&gt;[-_./\\w]+?)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.prefix_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.project_pattern_compiled">
+<code class="descname">project_pattern_compiled</code><em class="property"> = '(?P&lt;project&gt;[-.\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.project_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.project_re">
+<code class="descname">project_re</code><em class="property"> = regex.Regex('(?P&lt;project&gt;[-.\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.project_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.suffix_pattern_compiled">
+<code class="descname">suffix_pattern_compiled</code><em class="property"> = '(?P&lt;suffix&gt;[-_](lin)?)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.suffix_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.suffix_re">
+<code class="descname">suffix_re</code><em class="property"> = regex.Regex('(?P&lt;suffix&gt;[-_](lin)?)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.suffix_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.tag_pattern_compiled">
+<code class="descname">tag_pattern_compiled</code><em class="property"> = '(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.tag_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.tag_re">
+<code class="descname">tag_re</code><em class="property"> = regex.Regex('(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.tag_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.url_pattern_compiled">
+<code class="descname">url_pattern_compiled</code><em class="property"> = 'github\\.com/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/files/\\d+/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.url_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.url_re">
+<code class="descname">url_re</code><em class="property"> = regex.Regex('github\\.com/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/files/\\d+/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.url_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.version_pattern_compiled">
+<code class="descname">version_pattern_compiled</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.version_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubReleaseAttachment.version_re">
+<code class="descname">version_re</code><em class="property"> = regex.Regex('(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubReleaseAttachment.version_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.GithubRepoStore">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">GithubRepoStore</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#GithubRepoStore"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore" title="Permalink to this definition">¶</a></dt>
-<dd><p>Matches release artifacts stored in a github repo</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">GithubRepoStore</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#GithubRepoStore"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.GithubBase" title="bioconda_utils.hosters.GithubBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.GithubBase</span></code></a></p>
+<p>Matches release artifacts stored in a github repo</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.account_pattern_compiled">
+<code class="descname">account_pattern_compiled</code><em class="property"> = '(?P&lt;account&gt;[-\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.account_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.account_re">
+<code class="descname">account_re</code><em class="property"> = regex.Regex('(?P&lt;account&gt;[-\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.account_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.branch_pattern">
+<code class="descname">branch_pattern</code><em class="property"> = '(master|[\\da-f]{40})'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.branch_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.branch_pattern_compiled">
+<code class="descname">branch_pattern_compiled</code><em class="property"> = '(master|[\\da-f]{40})'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.branch_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.branch_re">
+<code class="descname">branch_re</code><em class="property"> = regex.Regex('(master|[\\da-f]{40})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.branch_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.ext_pattern_compiled">
+<code class="descname">ext_pattern_compiled</code><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.ext_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.ext_re">
+<code class="descname">ext_re</code><em class="property"> = regex.Regex('(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.ext_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.fname_pattern_compiled">
+<code class="descname">fname_pattern_compiled</code><em class="property"> = '(?P&lt;fname&gt;[^/]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.fname_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.fname_re">
+<code class="descname">fname_re</code><em class="property"> = regex.Regex('(?P&lt;fname&gt;[^/]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.fname_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.link_pattern">
+<code class="descname">link_pattern</code><em class="property"> = '/{account}/{project}/blob/master/{subdir}{tag}{ext}'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.link_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.link_pattern_compiled">
+<code class="descname">link_pattern_compiled</code><em class="property"> = '/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/blob/master/(?P&lt;subdir&gt;([-._\\w]+/)+)(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.link_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.link_re">
+<code class="descname">link_re</code><em class="property"> = regex.Regex('/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/blob/master/(?P&lt;subdir&gt;([-._\\w]+/)+)(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.link_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.prefix_pattern_compiled">
+<code class="descname">prefix_pattern_compiled</code><em class="property"> = '(?P&lt;prefix&gt;[-_./\\w]+?)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.prefix_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.prefix_re">
+<code class="descname">prefix_re</code><em class="property"> = regex.Regex('(?P&lt;prefix&gt;[-_./\\w]+?)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.prefix_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.project_pattern_compiled">
+<code class="descname">project_pattern_compiled</code><em class="property"> = '(?P&lt;project&gt;[-.\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.project_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.project_re">
+<code class="descname">project_re</code><em class="property"> = regex.Regex('(?P&lt;project&gt;[-.\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.project_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.releases_formats">
+<code class="descname">releases_formats</code><em class="property"> = ['https://github.com/{account}/{project}/tree/master/{subdir}']</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.releases_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.subdir_pattern">
+<code class="descname">subdir_pattern</code><em class="property"> = '(?P&lt;subdir&gt;([-._\\w]+/)+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.subdir_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.subdir_pattern_compiled">
+<code class="descname">subdir_pattern_compiled</code><em class="property"> = '(?P&lt;subdir&gt;([-._\\w]+/)+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.subdir_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.subdir_re">
+<code class="descname">subdir_re</code><em class="property"> = regex.Regex('(?P&lt;subdir&gt;([-._\\w]+/)+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.subdir_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.suffix_pattern_compiled">
+<code class="descname">suffix_pattern_compiled</code><em class="property"> = '(?P&lt;suffix&gt;[-_](lin)?)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.suffix_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.suffix_re">
+<code class="descname">suffix_re</code><em class="property"> = regex.Regex('(?P&lt;suffix&gt;[-_](lin)?)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.suffix_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.tag_pattern_compiled">
+<code class="descname">tag_pattern_compiled</code><em class="property"> = '(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.tag_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.tag_re">
+<code class="descname">tag_re</code><em class="property"> = regex.Regex('(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.tag_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.url_pattern">
+<code class="descname">url_pattern</code><em class="property"> = '(?:(?P&lt;raw&gt;raw\\.githubusercontent)|github)\\.com/{account}/{project}/(?(raw)|(?:(?P&lt;blob&gt;blob/)|raw/)){branch}/{subdir}?{tag}{ext}(?(blob)\\?raw|)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.url_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.url_pattern_compiled">
+<code class="descname">url_pattern_compiled</code><em class="property"> = '(?:(?P&lt;raw&gt;raw\\.githubusercontent)|github)\\.com/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/(?(raw)|(?:(?P&lt;blob&gt;blob/)|raw/))(master|[\\da-f]{40})/(?P&lt;subdir&gt;([-._\\w]+/)+)?(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))(?(blob)\\?raw|)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.url_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.url_re">
+<code class="descname">url_re</code><em class="property"> = regex.Regex('(?:(?P&lt;raw&gt;raw\\.githubusercontent)|github)\\.com/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/(?(raw)|(?:(?P&lt;blob&gt;blob/)|raw/))(master|[\\da-f]{40})/(?P&lt;subdir&gt;([-._\\w]+/)+)?(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))(?(blob)\\?raw|)', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.url_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.version_pattern_compiled">
+<code class="descname">version_pattern_compiled</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.version_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubRepoStore.version_re">
+<code class="descname">version_re</code><em class="property"> = regex.Regex('(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubRepoStore.version_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.GithubTag">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">GithubTag</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#GithubTag"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.GithubTag" title="Permalink to this definition">¶</a></dt>
-<dd><p>Matches GitHub repository archives created automatically from tags</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">GithubTag</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#GithubTag"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.GithubTag" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.GithubBase" title="bioconda_utils.hosters.GithubBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.GithubBase</span></code></a></p>
+<p>Matches GitHub repository archives created automatically from tags</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.account_pattern_compiled">
+<code class="descname">account_pattern_compiled</code><em class="property"> = '(?P&lt;account&gt;[-\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.account_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.account_re">
+<code class="descname">account_re</code><em class="property"> = regex.Regex('(?P&lt;account&gt;[-\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.account_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.ext_pattern_compiled">
+<code class="descname">ext_pattern_compiled</code><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.ext_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.ext_re">
+<code class="descname">ext_re</code><em class="property"> = regex.Regex('(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.ext_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.fname_pattern_compiled">
+<code class="descname">fname_pattern_compiled</code><em class="property"> = '(?P&lt;fname&gt;[^/]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.fname_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.fname_re">
+<code class="descname">fname_re</code><em class="property"> = regex.Regex('(?P&lt;fname&gt;[^/]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.fname_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.link_pattern">
+<code class="descname">link_pattern</code><em class="property"> = '/{account}/{project}/archive/{tag}{ext}'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.link_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.link_pattern_compiled">
+<code class="descname">link_pattern_compiled</code><em class="property"> = '/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/archive/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.link_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.link_re">
+<code class="descname">link_re</code><em class="property"> = regex.Regex('/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/archive/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.link_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.prefix_pattern_compiled">
+<code class="descname">prefix_pattern_compiled</code><em class="property"> = '(?P&lt;prefix&gt;[-_./\\w]+?)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.prefix_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.prefix_re">
+<code class="descname">prefix_re</code><em class="property"> = regex.Regex('(?P&lt;prefix&gt;[-_./\\w]+?)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.prefix_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.project_pattern_compiled">
+<code class="descname">project_pattern_compiled</code><em class="property"> = '(?P&lt;project&gt;[-.\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.project_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.project_re">
+<code class="descname">project_re</code><em class="property"> = regex.Regex('(?P&lt;project&gt;[-.\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.project_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.releases_formats">
+<code class="descname">releases_formats</code><em class="property"> = ['https://github.com/{account}/{project}/tags']</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.releases_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.suffix_pattern_compiled">
+<code class="descname">suffix_pattern_compiled</code><em class="property"> = '(?P&lt;suffix&gt;[-_](lin)?)'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.suffix_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.suffix_re">
+<code class="descname">suffix_re</code><em class="property"> = regex.Regex('(?P&lt;suffix&gt;[-_](lin)?)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.suffix_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.tag_pattern_compiled">
+<code class="descname">tag_pattern_compiled</code><em class="property"> = '(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.tag_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.tag_re">
+<code class="descname">tag_re</code><em class="property"> = regex.Regex('(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.tag_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.url_pattern_compiled">
+<code class="descname">url_pattern_compiled</code><em class="property"> = 'github\\.com/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/archive/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.url_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.url_re">
+<code class="descname">url_re</code><em class="property"> = regex.Regex('github\\.com/(?P&lt;account&gt;[-\\w]+)/(?P&lt;project&gt;[-.\\w]+)/archive/(?P&lt;prefix&gt;[-_./\\w]+?)??(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.url_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.version_pattern_compiled">
+<code class="descname">version_pattern_compiled</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.version_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GithubTag.version_re">
+<code class="descname">version_re</code><em class="property"> = regex.Regex('(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GithubTag.version_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.GitlabTag">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">GitlabTag</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#GitlabTag"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag" title="Permalink to this definition">¶</a></dt>
-<dd><p>Tag based releases hosted at gitlab.com</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">GitlabTag</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#GitlabTag"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.OrderedHTMLHoster" title="bioconda_utils.hosters.OrderedHTMLHoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.OrderedHTMLHoster</span></code></a></p>
+<p>Tag based releases hosted at gitlab.com</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.account_pattern">
+<code class="descname">account_pattern</code><em class="property"> = '(?P&lt;account&gt;[-\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.account_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.account_pattern_compiled">
+<code class="descname">account_pattern_compiled</code><em class="property"> = '(?P&lt;account&gt;[-\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.account_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.account_re">
+<code class="descname">account_re</code><em class="property"> = regex.Regex('(?P&lt;account&gt;[-\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.account_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.ext_pattern_compiled">
+<code class="descname">ext_pattern_compiled</code><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.ext_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.ext_re">
+<code class="descname">ext_re</code><em class="property"> = regex.Regex('(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.ext_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.link_pattern">
+<code class="descname">link_pattern</code><em class="property"> = '/{account}{subgroup}/{project}/(repository|-/archive)/{version}/(archive|{project}-{version}){ext}'</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.link_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.link_pattern_compiled">
+<code class="descname">link_pattern_compiled</code><em class="property"> = '/(?P&lt;account&gt;[-\\w]+)(?P&lt;subgroup&gt;(?:/[-\\w]+|))/(?P&lt;project&gt;[-.\\w]+)/(repository|-/archive)/(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})/(archive|(?P=project)-(?:(?&lt;=[/._-])[rv])?(?P=version))(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.link_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.link_re">
+<code class="descname">link_re</code><em class="property"> = regex.Regex('/(?P&lt;account&gt;[-\\w]+)(?P&lt;subgroup&gt;(?:/[-\\w]+|))/(?P&lt;project&gt;[-.\\w]+)/(repository|-/archive)/(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})/(archive|(?P=project)-(?:(?&lt;=[/._-])[rv])?(?P=version))(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.link_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.project_pattern">
+<code class="descname">project_pattern</code><em class="property"> = '(?P&lt;project&gt;[-.\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.project_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.project_pattern_compiled">
+<code class="descname">project_pattern_compiled</code><em class="property"> = '(?P&lt;project&gt;[-.\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.project_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.project_re">
+<code class="descname">project_re</code><em class="property"> = regex.Regex('(?P&lt;project&gt;[-.\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.project_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.releases_formats">
+<code class="descname">releases_formats</code><em class="property"> = ['https://gitlab.com/{account}{subgroup}/{project}/tags']</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.releases_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.subgroup_pattern">
+<code class="descname">subgroup_pattern</code><em class="property"> = '(?P&lt;subgroup&gt;(?:/[-\\w]+|))'</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.subgroup_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.subgroup_pattern_compiled">
+<code class="descname">subgroup_pattern_compiled</code><em class="property"> = '(?P&lt;subgroup&gt;(?:/[-\\w]+|))'</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.subgroup_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.subgroup_re">
+<code class="descname">subgroup_re</code><em class="property"> = regex.Regex('(?P&lt;subgroup&gt;(?:/[-\\w]+|))', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.subgroup_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.url_pattern">
+<code class="descname">url_pattern</code><em class="property"> = 'gitlab\\.com{link}'</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.url_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.url_pattern_compiled">
+<code class="descname">url_pattern_compiled</code><em class="property"> = 'gitlab\\.com/(?P&lt;account&gt;[-\\w]+)(?P&lt;subgroup&gt;(?:/[-\\w]+|))/(?P&lt;project&gt;[-.\\w]+)/(repository|-/archive)/(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})/(archive|(?P=project)-(?:(?&lt;=[/._-])[rv])?(?P=version))(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.url_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.url_re">
+<code class="descname">url_re</code><em class="property"> = regex.Regex('gitlab\\.com/(?P&lt;account&gt;[-\\w]+)(?P&lt;subgroup&gt;(?:/[-\\w]+|))/(?P&lt;project&gt;[-.\\w]+)/(repository|-/archive)/(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})/(archive|(?P=project)-(?:(?&lt;=[/._-])[rv])?(?P=version))(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.url_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.version_pattern_compiled">
+<code class="descname">version_pattern_compiled</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.version_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.GitlabTag.version_re">
+<code class="descname">version_re</code><em class="property"> = regex.Regex('(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.GitlabTag.version_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.HTMLHoster">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">HTMLHoster</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#HTMLHoster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HTMLHoster" title="Permalink to this definition">¶</a></dt>
-<dd><p>Base for Hosters handling release listings in HTML format</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">HTMLHoster</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#HTMLHoster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HTMLHoster" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.Hoster</span></code></a></p>
+<p>Base for Hosters handling release listings in HTML format</p>
 <dl class="method">
 <dt id="bioconda_utils.hosters.HTMLHoster.get_versions">
 <code class="descname">get_versions</code><span class="sig-paren">(</span><em>req</em>, <em>orig_version</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#HTMLHoster.get_versions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HTMLHoster.get_versions" title="Permalink to this definition">¶</a></dt>
@@ -376,8 +1658,9 @@ type syntax to define the patterns - implementers welcome).</p></li>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.Hoster">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">Hoster</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#Hoster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.Hoster" title="Permalink to this definition">¶</a></dt>
-<dd><p>Hoster Baseclass</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">Hoster</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#Hoster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.Hoster" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Hoster Baseclass</p>
 <dl class="attribute">
 <dt id="bioconda_utils.hosters.Hoster.exclude">
 <code class="descname">exclude</code><em class="property"> = ['version']</em><a class="headerlink" href="#bioconda_utils.hosters.Hoster.exclude" title="Permalink to this definition">¶</a></dt>
@@ -392,32 +1675,57 @@ type syntax to define the patterns - implementers welcome).</p></li>
 
 <dl class="classmethod">
 <dt id="bioconda_utils.hosters.Hoster.get_versions">
-<em class="property">classmethod </em><code class="descname">get_versions</code><span class="sig-paren">(</span><em>req: AsyncRequests</em>, <em>orig_version: str</em><span class="sig-paren">)</span> &#x2192; List[Mapping[str, Any]]<a class="reference internal" href="../_modules/bioconda_utils/hosters.html#Hoster.get_versions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.Hoster.get_versions" title="Permalink to this definition">¶</a></dt>
+<em class="property">classmethod </em><code class="descname">get_versions</code><span class="sig-paren">(</span><em>req</em>, <em>orig_version</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#Hoster.get_versions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.Hoster.get_versions" title="Permalink to this definition">¶</a></dt>
 <dd><p>Gets list of versions from upstream hosting site</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Mapping" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Mapping</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="attribute">
 <dt id="bioconda_utils.hosters.Hoster.link_pattern">
 <code class="descname">link_pattern</code><a class="headerlink" href="#bioconda_utils.hosters.Hoster.link_pattern" title="Permalink to this definition">¶</a></dt>
 <dd><p>matches links on relase page</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="attribute">
 <dt id="bioconda_utils.hosters.Hoster.releases_formats">
 <code class="descname">releases_formats</code><a class="headerlink" href="#bioconda_utils.hosters.Hoster.releases_formats" title="Permalink to this definition">¶</a></dt>
 <dd><p>format template for release page URL</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="classmethod">
 <dt id="bioconda_utils.hosters.Hoster.try_make_hoster">
-<em class="property">classmethod </em><code class="descname">try_make_hoster</code><span class="sig-paren">(</span><em>url: str, config: Dict[str, str]</em><span class="sig-paren">)</span> &#x2192; Optional[bioconda_utils.hosters.Hoster]<a class="reference internal" href="../_modules/bioconda_utils/hosters.html#Hoster.try_make_hoster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.Hoster.try_make_hoster" title="Permalink to this definition">¶</a></dt>
+<em class="property">classmethod </em><code class="descname">try_make_hoster</code><span class="sig-paren">(</span><em>url</em>, <em>config</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#Hoster.try_make_hoster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.Hoster.try_make_hoster" title="Permalink to this definition">¶</a></dt>
 <dd><p>Creates hoster if <strong>url</strong> is matched by its <strong>url_pattern</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference internal" href="#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a>]</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="attribute">
 <dt id="bioconda_utils.hosters.Hoster.url_pattern">
 <code class="descname">url_pattern</code><a class="headerlink" href="#bioconda_utils.hosters.Hoster.url_pattern" title="Permalink to this definition">¶</a></dt>
 <dd><p>matches upstream package url</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="attribute">
@@ -441,58 +1749,118 @@ type syntax to define the patterns - implementers welcome).</p></li>
 <dl class="class">
 <dt id="bioconda_utils.hosters.HosterMeta">
 <em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">HosterMeta</code><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#HosterMeta"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HosterMeta" title="Permalink to this definition">¶</a></dt>
-<dd><p>Meta-Class for Hosters</p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/abc.html#abc.ABCMeta" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABCMeta</span></code></a></p>
+<p>Meta-Class for Hosters</p>
 <p>By making Hosters classes of a metaclass, rather than instances of a class,
 we leave the option to add functions to a Hoster.</p>
+<p>Creates Hoster classes</p>
+<ul class="simple">
+<li><p>expands references among <code class="docutils literal notranslate"><span class="pre">{var}_pattern</span></code> attributes</p></li>
+<li><p>compiles <code class="docutils literal notranslate"><span class="pre">{var}_pattern</span></code> attributes to <code class="docutils literal notranslate"><span class="pre">{var}_re</span></code></p></li>
+<li><p>registers complete classes</p></li>
+</ul>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.HosterMeta.hoster_types">
+<code class="descname">hoster_types</code><em class="property"> = [&lt;class 'bioconda_utils.hosters.FTPHoster'&gt;, &lt;class 'bioconda_utils.hosters.GithubRelease'&gt;, &lt;class 'bioconda_utils.hosters.GithubTag'&gt;, &lt;class 'bioconda_utils.hosters.GithubReleaseAttachment'&gt;, &lt;class 'bioconda_utils.hosters.GithubRepoStore'&gt;, &lt;class 'bioconda_utils.hosters.Bioconductor'&gt;, &lt;class 'bioconda_utils.hosters.CargoPort'&gt;, &lt;class 'bioconda_utils.hosters.SourceForge'&gt;, &lt;class 'bioconda_utils.hosters.PyPi'&gt;, &lt;class 'bioconda_utils.hosters.Bioarchive'&gt;, &lt;class 'bioconda_utils.hosters.CPAN'&gt;, &lt;class 'bioconda_utils.hosters.CRAN'&gt;, &lt;class 'bioconda_utils.hosters.BitBucketTag'&gt;, &lt;class 'bioconda_utils.hosters.BitBucketDownload'&gt;, &lt;class 'bioconda_utils.hosters.GitlabTag'&gt;]</em><a class="headerlink" href="#bioconda_utils.hosters.HosterMeta.hoster_types" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="classmethod">
 <dt id="bioconda_utils.hosters.HosterMeta.select_hoster">
-<em class="property">classmethod </em><code class="descname">select_hoster</code><span class="sig-paren">(</span><em>url: str, config: Dict[str, str]</em><span class="sig-paren">)</span> &#x2192; Optional[bioconda_utils.hosters.Hoster]<a class="reference internal" href="../_modules/bioconda_utils/hosters.html#HosterMeta.select_hoster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HosterMeta.select_hoster" title="Permalink to this definition">¶</a></dt>
+<em class="property">classmethod </em><code class="descname">select_hoster</code><span class="sig-paren">(</span><em>url</em>, <em>config</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#HosterMeta.select_hoster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HosterMeta.select_hoster" title="Permalink to this definition">¶</a></dt>
 <dd><p>Select <a class="reference internal" href="#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a> able to handle <strong>url</strong></p>
 <p>Returns: <a class="reference internal" href="#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a> or <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference internal" href="#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a>]</p>
+</dd>
+</dl>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.HrefParser">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">HrefParser</code><span class="sig-paren">(</span><em>link_re: Pattern[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#HrefParser"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HrefParser" title="Permalink to this definition">¶</a></dt>
-<dd><p>Extract link targets from HTML</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">HrefParser</code><span class="sig-paren">(</span><em>link_re</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#HrefParser"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HrefParser" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/html.parser.html#html.parser.HTMLParser" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">html.parser.HTMLParser</span></code></a></p>
+<p>Extract link targets from HTML</p>
+<dl class="method">
+<dt id="bioconda_utils.hosters.HrefParser.error">
+<code class="descname">error</code><span class="sig-paren">(</span><em>message</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#HrefParser.error"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HrefParser.error" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
 <dl class="method">
 <dt id="bioconda_utils.hosters.HrefParser.get_matches">
-<code class="descname">get_matches</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; List[Mapping[str, Any]]<a class="reference internal" href="../_modules/bioconda_utils/hosters.html#HrefParser.get_matches"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HrefParser.get_matches" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_matches</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#HrefParser.get_matches"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HrefParser.get_matches" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return matches found for <strong>link_re</strong> in href links</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Mapping" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Mapping</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.hosters.HrefParser.handle_a_href">
-<code class="descname">handle_a_href</code><span class="sig-paren">(</span><em>href: str</em><span class="sig-paren">)</span> &#x2192; None<a class="reference internal" href="../_modules/bioconda_utils/hosters.html#HrefParser.handle_a_href"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HrefParser.handle_a_href" title="Permalink to this definition">¶</a></dt>
+<code class="descname">handle_a_href</code><span class="sig-paren">(</span><em>href</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#HrefParser.handle_a_href"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HrefParser.handle_a_href" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process href attributes of anchor tags</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.hosters.HrefParser.handle_starttag">
+<code class="descname">handle_starttag</code><span class="sig-paren">(</span><em>tag</em>, <em>attrs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#HrefParser.handle_starttag"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HrefParser.handle_starttag" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.JSONHoster">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">JSONHoster</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#JSONHoster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.JSONHoster" title="Permalink to this definition">¶</a></dt>
-<dd><p>Base for Hosters handling release listings in JSON format</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">JSONHoster</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#JSONHoster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.JSONHoster" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.Hoster</span></code></a></p>
+<p>Base for Hosters handling release listings in JSON format</p>
 <dl class="method">
 <dt id="bioconda_utils.hosters.JSONHoster.get_versions">
-<code class="descname">get_versions</code><span class="sig-paren">(</span><em>req</em>, <em>orig_version: str</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#JSONHoster.get_versions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.JSONHoster.get_versions" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_versions</code><span class="sig-paren">(</span><em>req</em>, <em>orig_version</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#JSONHoster.get_versions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.JSONHoster.get_versions" title="Permalink to this definition">¶</a></dt>
 <dd><p>Gets list of versions from upstream hosting site</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.hosters.JSONHoster.get_versions_from_json">
-<code class="descname">get_versions_from_json</code><span class="sig-paren">(</span><em>data</em>, <em>req</em>, <em>orig_version</em><span class="sig-paren">)</span> &#x2192; List[Dict[str, Any]]<a class="reference internal" href="../_modules/bioconda_utils/hosters.html#JSONHoster.get_versions_from_json"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.JSONHoster.get_versions_from_json" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_versions_from_json</code><span class="sig-paren">(</span><em>data</em>, <em>req</em>, <em>orig_version</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#JSONHoster.get_versions_from_json"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.JSONHoster.get_versions_from_json" title="Permalink to this definition">¶</a></dt>
 <dd><p>Extract matches from json data in <strong>data</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
+</dd>
+</dl>
 </dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.JSONHoster.link_pattern">
+<code class="descname">link_pattern</code><em class="property"> = 'https://{url}'</em><a class="headerlink" href="#bioconda_utils.hosters.JSONHoster.link_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.OrderedHTMLHoster">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">OrderedHTMLHoster</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#OrderedHTMLHoster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.OrderedHTMLHoster" title="Permalink to this definition">¶</a></dt>
-<dd><p>HTMLHoster for which we can expected newest releases at top</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">OrderedHTMLHoster</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#OrderedHTMLHoster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.OrderedHTMLHoster" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.HTMLHoster" title="bioconda_utils.hosters.HTMLHoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.HTMLHoster</span></code></a></p>
+<p>HTMLHoster for which we can expected newest releases at top</p>
 <p>The point isn’t performance, but avoiding hassle with old versions
 which may follow different versioning schemes.
 E.g. 0.09 -&gt; 0.10 -&gt; 0.2 -&gt; 0.2.1</p>
@@ -510,8 +1878,19 @@ E.g. 0.09 -&gt; 0.10 -&gt; 0.2 -&gt; 0.2.1</p>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.PyPi">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">PyPi</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#PyPi"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.PyPi" title="Permalink to this definition">¶</a></dt>
-<dd><p>Scans PyPi for updates</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">PyPi</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#PyPi"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.PyPi" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.JSONHoster" title="bioconda_utils.hosters.JSONHoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.JSONHoster</span></code></a></p>
+<p>Scans PyPi for updates</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.ext_pattern_compiled">
+<code class="descname">ext_pattern_compiled</code><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.ext_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.ext_re">
+<code class="descname">ext_re</code><em class="property"> = regex.Regex('(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.ext_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="method">
 <dt id="bioconda_utils.hosters.PyPi.get_deps">
 <code class="descname">get_deps</code><span class="sig-paren">(</span><em>pipeline</em>, <em>build_config</em>, <em>package</em>, <em>rel</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#PyPi.get_deps"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.PyPi.get_deps" title="Permalink to this definition">¶</a></dt>
@@ -529,6 +1908,91 @@ of a binary module).</p>
 <dd><p>Extract matches from json data in <strong>data</strong></p>
 </dd></dl>
 
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.hoster_pattern">
+<code class="descname">hoster_pattern</code><em class="property"> = '(?P&lt;hoster&gt;files.pythonhosted.org/packages|pypi.python.org/packages|pypi.io/packages)'</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.hoster_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.hoster_pattern_compiled">
+<code class="descname">hoster_pattern_compiled</code><em class="property"> = '(?P&lt;hoster&gt;files.pythonhosted.org/packages|pypi.python.org/packages|pypi.io/packages)'</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.hoster_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.hoster_re">
+<code class="descname">hoster_re</code><em class="property"> = regex.Regex('(?P&lt;hoster&gt;files.pythonhosted.org/packages|pypi.python.org/packages|pypi.io/packages)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.hoster_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.link_pattern_compiled">
+<code class="descname">link_pattern_compiled</code><em class="property"> = 'https://(?P&lt;hoster&gt;files.pythonhosted.org/packages|pypi.python.org/packages|pypi.io/packages)/.*/(?P&lt;package&gt;[\\w\\-\\.]+)[-_](?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.link_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.link_re">
+<code class="descname">link_re</code><em class="property"> = regex.Regex('https://(?P&lt;hoster&gt;files.pythonhosted.org/packages|pypi.python.org/packages|pypi.io/packages)/.*/(?P&lt;package&gt;[\\w\\-\\.]+)[-_](?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.link_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.package_pattern">
+<code class="descname">package_pattern</code><em class="property"> = '(?P&lt;package&gt;[\\w\\-\\.]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.package_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.package_pattern_compiled">
+<code class="descname">package_pattern_compiled</code><em class="property"> = '(?P&lt;package&gt;[\\w\\-\\.]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.package_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.package_re">
+<code class="descname">package_re</code><em class="property"> = regex.Regex('(?P&lt;package&gt;[\\w\\-\\.]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.package_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.releases_formats">
+<code class="descname">releases_formats</code><em class="property"> = ['https://pypi.org/pypi/{package}/json']</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.releases_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.source_pattern">
+<code class="descname">source_pattern</code><em class="property"> = '{package}[-_]{version}{ext}'</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.source_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.source_pattern_compiled">
+<code class="descname">source_pattern_compiled</code><em class="property"> = '(?P&lt;package&gt;[\\w\\-\\.]+)[-_](?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.source_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.source_re">
+<code class="descname">source_re</code><em class="property"> = regex.Regex('(?P&lt;package&gt;[\\w\\-\\.]+)[-_](?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.source_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.url_pattern">
+<code class="descname">url_pattern</code><em class="property"> = '{hoster}/.*/{source}'</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.url_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.url_pattern_compiled">
+<code class="descname">url_pattern_compiled</code><em class="property"> = '(?P&lt;hoster&gt;files.pythonhosted.org/packages|pypi.python.org/packages|pypi.io/packages)/.*/(?P&lt;package&gt;[\\w\\-\\.]+)[-_](?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.url_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.url_re">
+<code class="descname">url_re</code><em class="property"> = regex.Regex('(?P&lt;hoster&gt;files.pythonhosted.org/packages|pypi.python.org/packages|pypi.io/packages)/.*/(?P&lt;package&gt;[\\w\\-\\.]+)[-_](?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.url_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.version_pattern_compiled">
+<code class="descname">version_pattern_compiled</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.version_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.PyPi.version_re">
+<code class="descname">version_re</code><em class="property"> = regex.Regex('(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.PyPi.version_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="data">
@@ -542,8 +2006,184 @@ Requires regex package for recursion.</p>
 
 <dl class="class">
 <dt id="bioconda_utils.hosters.SourceForge">
-<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">SourceForge</code><span class="sig-paren">(</span><em>url: str, match: Match[str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#SourceForge"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.SourceForge" title="Permalink to this definition">¶</a></dt>
-<dd><p>Matches packages hosted at SourceForge</p>
+<em class="property">class </em><code class="descclassname">bioconda_utils.hosters.</code><code class="descname">SourceForge</code><span class="sig-paren">(</span><em>url</em>, <em>match</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#SourceForge"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.SourceForge" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.hosters.HTMLHoster" title="bioconda_utils.hosters.HTMLHoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.HTMLHoster</span></code></a></p>
+<p>Matches packages hosted at SourceForge</p>
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.baseurl_pattern">
+<code class="descname">baseurl_pattern</code><em class="property"> = 'sourceforge\\.net/project(s)?/{project}/(?(1)files/|){subproject}'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.baseurl_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.baseurl_pattern_compiled">
+<code class="descname">baseurl_pattern_compiled</code><em class="property"> = 'sourceforge\\.net/project(s)?/(?P&lt;project&gt;[-\\w]+)/(?(1)files/|)((?P&lt;subproject&gt;[-\\w%]+)/)?'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.baseurl_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.baseurl_re">
+<code class="descname">baseurl_re</code><em class="property"> = regex.Regex('sourceforge\\.net/project(s)?/(?P&lt;project&gt;[-\\w]+)/(?(1)files/|)((?P&lt;subproject&gt;[-\\w%]+)/)?', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.baseurl_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.ext_pattern_compiled">
+<code class="descname">ext_pattern_compiled</code><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.ext_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.ext_re">
+<code class="descname">ext_re</code><em class="property"> = regex.Regex('(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.ext_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.filename_pattern">
+<code class="descname">filename_pattern</code><em class="property"> = '{package}{sep}({type2}{sep})?{version}({sep}{type})?{ext}'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.filename_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.filename_pattern_compiled">
+<code class="descname">filename_pattern_compiled</code><em class="property"> = '(?P&lt;package&gt;[-\\w_\\.+]*?[a-zA-Z+])(?P&lt;sep&gt;[-_.]?)((?P&lt;type2&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*)(?P=sep))?(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})((?P=sep)(?P&lt;type&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*))?(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.filename_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.filename_re">
+<code class="descname">filename_re</code><em class="property"> = regex.Regex('(?P&lt;package&gt;[-\\w_\\.+]*?[a-zA-Z+])(?P&lt;sep&gt;[-_.]?)((?P&lt;type2&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*)(?P=sep))?(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})((?P=sep)(?P&lt;type&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*))?(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.filename_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.link_pattern">
+<code class="descname">link_pattern</code><em class="property"> = '{baseurl}{filename}'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.link_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.link_pattern_compiled">
+<code class="descname">link_pattern_compiled</code><em class="property"> = 'sourceforge\\.net/project(s)?/(?P&lt;project&gt;[-\\w]+)/(?(1)files/|)((?P&lt;subproject&gt;[-\\w%]+)/)?(?P&lt;package&gt;[-\\w_\\.+]*?[a-zA-Z+])(?P&lt;sep&gt;[-_.]?)((?P&lt;type2&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*)(?P=sep))?(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})((?P=sep)(?P&lt;type&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*))?(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.link_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.link_re">
+<code class="descname">link_re</code><em class="property"> = regex.Regex('sourceforge\\.net/project(s)?/(?P&lt;project&gt;[-\\w]+)/(?(1)files/|)((?P&lt;subproject&gt;[-\\w%]+)/)?(?P&lt;package&gt;[-\\w_\\.+]*?[a-zA-Z+])(?P&lt;sep&gt;[-_.]?)((?P&lt;type2&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*)(?P=sep))?(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})((?P=sep)(?P&lt;type&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*))?(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.link_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.package_pattern">
+<code class="descname">package_pattern</code><em class="property"> = '(?P&lt;package&gt;[-\\w_\\.+]*?[a-zA-Z+])'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.package_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.package_pattern_compiled">
+<code class="descname">package_pattern_compiled</code><em class="property"> = '(?P&lt;package&gt;[-\\w_\\.+]*?[a-zA-Z+])'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.package_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.package_re">
+<code class="descname">package_re</code><em class="property"> = regex.Regex('(?P&lt;package&gt;[-\\w_\\.+]*?[a-zA-Z+])', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.package_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.project_pattern">
+<code class="descname">project_pattern</code><em class="property"> = '(?P&lt;project&gt;[-\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.project_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.project_pattern_compiled">
+<code class="descname">project_pattern_compiled</code><em class="property"> = '(?P&lt;project&gt;[-\\w]+)'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.project_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.project_re">
+<code class="descname">project_re</code><em class="property"> = regex.Regex('(?P&lt;project&gt;[-\\w]+)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.project_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.releases_formats">
+<code class="descname">releases_formats</code><em class="property"> = ['https://sourceforge.net/projects/{project}/files/']</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.releases_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.sep_pattern">
+<code class="descname">sep_pattern</code><em class="property"> = '(?P&lt;sep&gt;[-_.]?)'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.sep_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.sep_pattern_compiled">
+<code class="descname">sep_pattern_compiled</code><em class="property"> = '(?P&lt;sep&gt;[-_.]?)'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.sep_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.sep_re">
+<code class="descname">sep_re</code><em class="property"> = regex.Regex('(?P&lt;sep&gt;[-_.]?)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.sep_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.subproject_pattern">
+<code class="descname">subproject_pattern</code><em class="property"> = '((?P&lt;subproject&gt;[-\\w%]+)/)?'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.subproject_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.subproject_pattern_compiled">
+<code class="descname">subproject_pattern_compiled</code><em class="property"> = '((?P&lt;subproject&gt;[-\\w%]+)/)?'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.subproject_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.subproject_re">
+<code class="descname">subproject_re</code><em class="property"> = regex.Regex('((?P&lt;subproject&gt;[-\\w%]+)/)?', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.subproject_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.type2_pattern">
+<code class="descname">type2_pattern</code><em class="property"> = '(?P&lt;type2&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*)'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.type2_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.type2_pattern_compiled">
+<code class="descname">type2_pattern_compiled</code><em class="property"> = '(?P&lt;type2&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*)'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.type2_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.type2_re">
+<code class="descname">type2_re</code><em class="property"> = regex.Regex('(?P&lt;type2&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.type2_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.type_pattern">
+<code class="descname">type_pattern</code><em class="property"> = '(?P&lt;type&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*)'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.type_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.type_pattern_compiled">
+<code class="descname">type_pattern_compiled</code><em class="property"> = '(?P&lt;type&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*)'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.type_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.type_re">
+<code class="descname">type_re</code><em class="property"> = regex.Regex('(?P&lt;type&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*)', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.type_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.url_pattern">
+<code class="descname">url_pattern</code><em class="property"> = '{baseurl}{filename}'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.url_pattern" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.url_pattern_compiled">
+<code class="descname">url_pattern_compiled</code><em class="property"> = 'sourceforge\\.net/project(s)?/(?P&lt;project&gt;[-\\w]+)/(?(1)files/|)((?P&lt;subproject&gt;[-\\w%]+)/)?(?P&lt;package&gt;[-\\w_\\.+]*?[a-zA-Z+])(?P&lt;sep&gt;[-_.]?)((?P&lt;type2&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*)(?P=sep))?(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})((?P=sep)(?P&lt;type&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*))?(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.url_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.url_re">
+<code class="descname">url_re</code><em class="property"> = regex.Regex('sourceforge\\.net/project(s)?/(?P&lt;project&gt;[-\\w]+)/(?(1)files/|)((?P&lt;subproject&gt;[-\\w%]+)/)?(?P&lt;package&gt;[-\\w_\\.+]*?[a-zA-Z+])(?P&lt;sep&gt;[-_.]?)((?P&lt;type2&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*)(?P=sep))?(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})((?P=sep)(?P&lt;type&gt;((linux|x?(64|86)|src|source|all|core|java\\d?)[-_.])*))?(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))', flags=regex.I | regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.url_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.version_pattern_compiled">
+<code class="descname">version_pattern_compiled</code><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.version_pattern_compiled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.hosters.SourceForge.version_re">
+<code class="descname">version_re</code><em class="property"> = regex.Regex('(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})', flags=regex.V0)</em><a class="headerlink" href="#bioconda_utils.hosters.SourceForge.version_re" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="function">
@@ -554,7 +2194,7 @@ Requires regex package for recursion.</p>
 
 <dl class="function">
 <dt id="bioconda_utils.hosters.replace_named_capture_group">
-<code class="descclassname">bioconda_utils.hosters.</code><code class="descname">replace_named_capture_group</code><span class="sig-paren">(</span><em>pattern, vals: Dict[str, str]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#replace_named_capture_group"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.replace_named_capture_group" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">bioconda_utils.hosters.</code><code class="descname">replace_named_capture_group</code><span class="sig-paren">(</span><em>pattern</em>, <em>vals</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/hosters.html#replace_named_capture_group"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.replace_named_capture_group" title="Permalink to this definition">¶</a></dt>
 <dd><p>Replaces capture groups with values from <strong>vals</strong></p>
 </dd></dl>
 
@@ -571,7 +2211,7 @@ Requires regex package for recursion.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

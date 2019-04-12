@@ -164,8 +164,8 @@ However <strong>new</strong> recipes should have the <code class="docutils liter
 </div>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
-<p>See the <a class="reference external" href="https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#requirements-section">requirements section</a>
-of the conda docs for more info.</p>
+<p>See the <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#requirements" title="(in conda build v3.17.8+163.gfc22ab8c.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">requirements</span> <span class="pre">section</span></code></a> of the
+conda docs for more info.</p>
 </div>
 </div>
 <div class="section" id="compiler-tools">
@@ -223,14 +223,14 @@ dependencies specific to the running machine go in <code class="docutils literal
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
 <ul class="simple">
-<li><p>The <a class="reference external" href="https://conda.io/docs/user-guide/tasks/build-packages/compiler-tools.html">compiler tools</a>
-section of the conda docs has much more info.</p></li>
+<li><p>The <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/compiler-tools.html#compiler-tools" title="(in conda build v3.17.8+163.gfc22ab8c.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">compiler</span> <span class="pre">tools</span></code></a> section of the
+conda docs has much more info.</p></li>
 <li><p>The default compiler options are defined by conda-build in the
 <a class="reference external" href="https://github.com/conda/conda-build/blob/master/conda_build/variants.py#L42">variants.DEFAULT_COMPILERS</a>
 variable.</p></li>
-<li><p>More details on “strong” and “weak” exports (using examples of libpng and
-libgcc) can be found in the <a class="reference external" href="https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#export-runtime-requirements">export runtime requirements</a>
-conda documentation.</p></li>
+<li><p>More details on “strong” and “weak” exports (using examples of
+libpng and libgcc) can be found in the <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#run-exports" title="(in conda build v3.17.8+163.gfc22ab8c.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">export</span> <span class="pre">runtime</span>
+<span class="pre">requirements</span></code></a> conda documentation.</p></li>
 </ul>
 </div>
 <div class="admonition warning">
@@ -241,7 +241,7 @@ when setting up bioconda (see <a class="reference internal" href="index.html#set
 </div>
 </div>
 <div class="section" id="global-pinning">
-<span id="id3"></span><h2>Global pinning<a class="headerlink" href="#global-pinning" title="Permalink to this headline">¶</a></h2>
+<span id="id2"></span><h2>Global pinning<a class="headerlink" href="#global-pinning" title="Permalink to this headline">¶</a></h2>
 <p><strong>Summary:</strong></p>
 <ul class="simple">
 <li><p>Previously we pinned packages using the syntax <code class="docutils literal notranslate"><span class="pre">-</span> <span class="pre">zlib</span> <span class="pre">{{</span> <span class="pre">CONDA_ZLIB</span> <span class="pre">}}*</span></code>
@@ -269,10 +269,10 @@ is the concept of “variants”. Variants are a generalized way of specifying o
 or more specific versions, and they come with many weird and wonderful ways to
 specify constraints. Specifying variants generally takes the form of writing
 a YAML file. We have adopted the variants defined by conda-forge by installing
-their <code class="docutils literal notranslate"><span class="pre">conda-forge-pinning</span></code> conda package in our build environment.
+their <a class="conda-forge reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">conda-forge-pinning</span></code></a> conda package in our build environment.
 Technically, that package unpacks the config YAML into our conda environment so
 that it can be used for building all recipes. You can see this file at
-<a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yaml">conda_build_config.yaml</a></p>
+<a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yaml">conda_build_config.yaml</a>.</p>
 <p>The second major advance in conda-build 3 is the the concept of “run exports”.
 The idea here is to specify that any time a dependency (<code class="docutils literal notranslate"><span class="pre">zlib</span></code>, in our running example)
 is used as a build dependency, it should also be automatically be installed as
@@ -318,8 +318,8 @@ as a run dependency (as described above in the compilers section) is that <code 
 </div>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
-<p>The <a class="reference external" href="https://conda.io/docs/user-guide/tasks/build-packages/variants.html#">build variants</a>
-section of the conda docs has much more information.</p>
+<p>The <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/variants.html" title="(in conda build v3.17.8+163.gfc22ab8c.dirty)"><code class="docutils literal notranslate"><span class="pre">Build</span> <span class="pre">Variants</span></code></a> section of the conda docs has
+much more information.</p>
 <p>We share the packages pinned by conda-forge, which can be found in their
 <a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yaml">conda_build_config.yaml</a></p>
 <p>Bio-specific packages additionally pinned by bioconda can be found at
@@ -339,7 +339,7 @@ section of the conda docs has much more information.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
