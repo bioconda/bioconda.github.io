@@ -22,7 +22,7 @@ crispr_studio
 
    |downloads_crispr_studio| |docker_crispr_studio|
 
-   :versions: 1-0
+   :versions: 1-1, 1-0
    
    :depends fasta3: 
    :depends numpy: <=1.16.2

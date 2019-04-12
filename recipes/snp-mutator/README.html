@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;bioconductor-mapkl&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;snp-mutator&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -101,45 +101,37 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="bioconductor-mapkl">
+  <div class="section" id="snp-mutator">
 <dl class="recipe">
-<dt id="recipe-bioconductor-mapkl">
-<em class="property">recipe </em><code class="descname">bioconductor-mapkl</code><a class="headerlink" href="#recipe-bioconductor-mapkl" title="Permalink to this definition">¶</a></dt>
-<dd><p>We proposie a hybrid FS method (mAP-KL), which combines multiple hypothesis testing and affinity propagation (AP)-clustering algorithm along with the Krzanowski &amp; Lai cluster quality index, to select a small yet informative subset of genes.</p>
+<dt id="recipe-snp-mutator">
+<em class="property">recipe </em><code class="descname">snp-mutator</code><a class="headerlink" href="#recipe-snp-mutator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate mutated sequence files from a reference genome.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.8/bioc/html/mAPKL.html">https://bioconductor.org/packages/3.8/bioc/html/mAPKL.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/CFSAN-Biostatistics/snp-mutator">https://github.com/CFSAN-Biostatistics/snp-mutator</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPL / GPL (&gt;= 2)</p>
+<dd class="field-even"><p>BSD / BSD</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapkl">bioconductor-mapkl</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapkl/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-mutator">snp-mutator</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-mutator/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-bioconductor-mapkl">
-<em class="property">package </em><code class="descname">bioconductor-mapkl</code><a class="headerlink" href="#package-bioconductor-mapkl" title="Permalink to this definition">¶</a></dt>
-<dd><p><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-mapkl.svg?style=flat" /> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-mapkl"><img alt="docker_bioconductor-mapkl" src="https://quay.io/repository/biocontainers/bioconductor-mapkl/status" /></a></p>
+<dt id="package-snp-mutator">
+<em class="property">package </em><code class="descname">snp-mutator</code><a class="headerlink" href="#package-snp-mutator" title="Permalink to this definition">¶</a></dt>
+<dd><p><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/snp-mutator.svg?style=flat" /> <a class="reference external" href="https://quay.io/repository/biocontainers/snp-mutator"><img alt="docker_snp-mutator" src="https://quay.io/repository/biocontainers/snp-mutator/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>1.12.0-0</p>
+<dd class="field-odd"><p>1.0.0-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-annotationdbi/README.html#package-bioconductor-annotationdbi" title="bioconductor-annotationdbi package"><strong>bioconductor-annotationdbi</strong></a> &gt;=1.44.0,&lt;1.45.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biobase/README.html#package-bioconductor-biobase" title="bioconductor-biobase package"><strong>bioconductor-biobase</strong></a> &gt;=2.42.0,&lt;2.43.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-limma/README.html#package-bioconductor-limma" title="bioconductor-limma package"><strong>bioconductor-limma</strong></a> &gt;=3.38.0,&lt;3.39.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-multtest/README.html#package-bioconductor-multtest" title="bioconductor-multtest package"><strong>bioconductor-multtest</strong></a> &gt;=2.38.0,&lt;2.39.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-reactome.db/README.html#package-bioconductor-reactome.db" title="bioconductor-reactome.db package"><strong>bioconductor-reactome.db</strong></a> &gt;=1.66.0,&lt;1.67.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-apcluster-feedstock"><strong>r-apcluster</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-clustersim-feedstock"><strong>r-clustersim</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-e1071-feedstock"><strong>r-e1071</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-igraph-feedstock"><strong>r-igraph</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-parmigene-feedstock"><strong>r-parmigene</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/biopython-feedstock"><strong>biopython</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
@@ -149,24 +141,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">mapkl</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">snp</span><span class="o">-</span><span class="n">mutator</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">mapkl</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">snp</span><span class="o">-</span><span class="n">mutator</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">bioconductor</span><span class="o">-</span><span class="n">mapkl</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">snp</span><span class="o">-</span><span class="n">mutator</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-mapkl?tab=tags">bioconductor-mapkl/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/snp-mutator?tab=tags">snp-mutator/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-mapkl/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mapkl/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/snp-mutator/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/snp-mutator/README.html)
 </pre></div>
 </div>
 </div>
@@ -187,14 +179,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/bioconductor-mapkl/README.rst.txt"
+      <a href="../../_sources/recipes/snp-mutator/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/bioconductor-mapkl/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/snp-mutator/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

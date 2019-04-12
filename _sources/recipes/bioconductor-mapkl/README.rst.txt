@@ -9,10 +9,10 @@ bioconductor-mapkl
 .. conda:recipe:: bioconductor-mapkl
    :replaces_section_title:
 
-   We propose a hybrid FS method \(mAP\-KL\)\, which combines multiple hypothesis testing and affinity propagation \(AP\)\-clustering algorithm along with the Krzanowski \& Lai cluster quality index\, to select a small yet informative subset of genes.
+   We proposie a hybrid FS method \(mAP\-KL\)\, which combines multiple hypothesis testing and affinity propagation \(AP\)\-clustering algorithm along with the Krzanowski \& Lai cluster quality index\, to select a small yet informative subset of genes.
 
    :homepage: https://bioconductor.org/packages/3.8/bioc/html/mAPKL.html
-   :license: GPL (>= 2)
+   :license: GPL / GPL (>= 2)
    :recipe: /`bioconductor-mapkl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapkl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapkl/meta.yaml>`_
 
    
@@ -22,8 +22,19 @@ bioconductor-mapkl
 
    |downloads_bioconductor-mapkl| |docker_bioconductor-mapkl|
 
-   :versions: 
+   :versions: 1.12.0-0
    
+   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
+   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   :depends bioconductor-multtest: >=2.38.0,<2.39.0
+   :depends bioconductor-reactome.db: >=1.66.0,<1.67.0
+   :depends r-apcluster: 
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-clustersim: 
+   :depends r-e1071: 
+   :depends r-igraph: 
+   :depends r-parmigene: 
    :requirements:
 
    .. rubric:: Installation

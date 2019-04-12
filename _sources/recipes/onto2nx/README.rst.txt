@@ -9,10 +9,12 @@ onto2nx
 .. conda:recipe:: onto2nx
    :replaces_section_title:
 
-   A package for parsing ontologies into NetworkX graphs
+   A package for parsing ontologies in the OWL and OBO format into NetworkX graphs
 
    :homepage: https://github.com/cthoyt/onto2nx
-   :license: GNU General Public License v3 or later (GPLv3+)
+   :documentation: https://onto2nx.readthedocs.io/en/latest/
+   
+   :license: GPL / GPL 3.0
    :recipe: /`onto2nx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/onto2nx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/onto2nx/meta.yaml>`_
 
    
