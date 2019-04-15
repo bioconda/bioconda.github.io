@@ -9,7 +9,7 @@ scprep
 .. conda:recipe:: scprep
    :replaces_section_title:
 
-   scprep
+   Tools for loading and preprocessing biological matrices in Python.
 
    :homepage: https://github.com/KrishnaswamyLab/scprep
    :license: GPL2 / GNU General Public Version 2
@@ -22,16 +22,14 @@ scprep
 
    |downloads_scprep| |docker_scprep|
 
-   :versions: 0.8.1-0, 0.7.1-0
+   :versions: 0.12.0-0, 0.8.1-0, 0.7.1-0
    
    :depends decorator: 
-   :depends future: 
    :depends numpy: >=1.10.0
-   :depends pandas: 
-   :depends python: 
+   :depends pandas: >=0.19.0,<0.24
+   :depends python: >=3.5
    :depends scikit-learn: >=0.19.1
    :depends scipy: >=0.18.0
-   :depends seaborn: 
    :requirements:
 
    .. rubric:: Installation

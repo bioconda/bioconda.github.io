@@ -22,8 +22,12 @@ sciphi
 
    |downloads_sciphi| |docker_sciphi|
 
-   :versions: 
+   :versions: 0.1.4-0
    
+   :depends boost-cpp: >=1.68.0,<1.68.1.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation
