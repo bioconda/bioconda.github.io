@@ -12,8 +12,9 @@ stamp
    A graphical software package for analyzing taxonomic and functional profiles.
 
    :homepage: http://pypi.python.org/pypi/stamp/
-   :license: GPL-3.0
+   :license: GPL / GPL-3.0
    :recipe: /`stamp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stamp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stamp/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btu494`
 
    
 
