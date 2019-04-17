@@ -23,7 +23,7 @@ pathwaymatcher
 
    |downloads_pathwaymatcher| |docker_pathwaymatcher|
 
-   :versions: 1.8.1-2, 1.8.1-1, 1.8-1, 1.7-0
+   :versions: 1.9.1-1, 1.8.1-2, 1.8.1-1, 1.8-1, 1.7-0
    
    :depends openjdk: >=8
    :depends python: 

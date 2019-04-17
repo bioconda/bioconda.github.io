@@ -22,7 +22,7 @@ r-seurat
 
    |downloads_r-seurat| |docker_r-seurat|
 
-   :versions: 2.3.4-2, 2.3.4-1, 2.3.4-0, 2.3.1-0, 2.2.0-0, 1.4.0.16-1, 1.4.0.16-0
+   :versions: 3.0.0-0, 2.3.4-2, 2.3.4-1, 2.3.4-0, 2.3.1-0, 2.2.0-0, 1.4.0.16-1, 1.4.0.16-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
@@ -30,41 +30,36 @@ r-seurat
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-cluster: 
    :depends r-cowplot: 
-   :depends r-dosnow: 
-   :depends r-dplyr: 
-   :depends r-dtw: 
    :depends r-fitdistrplus: 
-   :depends r-foreach: 
-   :depends r-fpc: 
-   :depends r-ggplot2: 
+   :depends r-future: 
+   :depends r-future.apply: 
+   :depends r-ggplot2: >=3.0.0
+   :depends r-ggrepel: 
    :depends r-ggridges: 
-   :depends r-gplots: 
-   :depends r-hdf5r: 
-   :depends r-hmisc: 
-   :depends r-httr: 
    :depends r-ica: 
    :depends r-igraph: 
    :depends r-irlba: 
-   :depends r-lars: 
+   :depends r-kernsmooth: 
    :depends r-lmtest: 
    :depends r-mass: 
    :depends r-matrix: >=1.2.14
    :depends r-metap: 
-   :depends r-mixtools: 
    :depends r-pbapply: 
    :depends r-plotly: 
    :depends r-png: 
    :depends r-rann: 
    :depends r-rcolorbrewer: 
-   :depends r-rcpp: >=0.11.0
+   :depends r-rcpp: 
    :depends r-rcppeigen: 
    :depends r-rcppprogress: 
-   :depends r-reshape2: 
    :depends r-reticulate: 
+   :depends r-rlang: 
    :depends r-rocr: 
+   :depends r-rsvd: 
    :depends r-rtsne: 
+   :depends r-scales: 
+   :depends r-sctransform: >=0.2.0
    :depends r-sdmtools: 
-   :depends r-tidyr: 
    :depends r-tsne: 
    :requirements:
 

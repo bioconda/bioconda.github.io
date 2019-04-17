@@ -11,7 +11,7 @@ gffcompare
 
    GffCompare by Geo Pertea
 
-   :homepage: https://github.com/gpertea/gffcompare
+   :homepage: https://ccb.jhu.edu/software/stringtie/gffcompare.shtml
    :license: Artistic License 2.0
    :recipe: /`gffcompare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffcompare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffcompare/meta.yaml>`_
    :links: biotools: :biotools:`gffcompare`
@@ -23,9 +23,10 @@ gffcompare
 
    |downloads_gffcompare| |docker_gffcompare|
 
-   :versions: 0.10.6-0, 0.9.8-0
+   :versions: 0.11.2-0, 0.10.6-0, 0.9.8-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

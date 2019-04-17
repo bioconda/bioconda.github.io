@@ -22,9 +22,9 @@ openmg
 
    |downloads_openmg| |docker_openmg|
 
-   :versions: 0.1-2, 0.1-1, 0.1-0
+   :versions: 0.1-3, 0.1-2, 0.1-1, 0.1-0
    
-   :depends openjdk: >=6
+   :depends openjdk: >=6,<=8
    :requirements:
 
    .. rubric:: Installation

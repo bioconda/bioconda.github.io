@@ -22,7 +22,7 @@ tango
 
    |downloads_tango| |docker_tango|
 
-   :versions: 0.5.0-0, 0.4.2-0, 0.3.1-0, 0.3.0-0, 0.2.0-0
+   :versions: 0.5.2-0, 0.5.0-0, 0.4.2-0, 0.3.1-0, 0.3.0-0, 0.2.0-0
    
    :depends biopython: 
    :depends diamond: 
