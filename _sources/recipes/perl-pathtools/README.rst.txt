@@ -6,14 +6,14 @@
 perl-pathtools
 ==============
 
-.. conda:recipe:: perl-pathtools/3.73
+.. conda:recipe:: perl-pathtools
    :replaces_section_title:
 
    Tools for working with directory and file names
 
    :homepage: http://dev.perl.org/
    :license: perl_5
-   :recipe: /`perl-pathtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pathtools>`_/`3.73 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pathtools/3.73>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pathtools/3.73/meta.yaml>`_
+   :recipe: /`perl-pathtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pathtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pathtools/meta.yaml>`_
 
    
 
@@ -22,12 +22,11 @@ perl-pathtools
 
    |downloads_perl-pathtools| |docker_perl-pathtools|
 
-   :versions: 3.73-2, 3.73-1, 3.73-0, 3.40-0
+   :versions: 3.75-0, 3.73-2, 3.73-1, 3.73-0, 3.40-0
    
-   :depends libgcc-ng: >=4.9
-   :depends perl: >=5.22,<6.0
+   :depends libgcc-ng: >=7.3.0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-carp: 
-   :depends perl-test-more: 
    :requirements:
 
    .. rubric:: Installation
