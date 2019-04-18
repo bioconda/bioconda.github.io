@@ -24,13 +24,14 @@ deepac
 
    |downloads_deepac| |docker_deepac|
 
-   :versions: 0.9.1-0
+   :versions: 0.9.2-0, 0.9.1-0
    
    :depends biopython: 
    :depends h5py: 
    :depends keras: >=2.2.4
    :depends matplotlib: 
    :depends numpy: >=1.15
+   :depends psutil: >=5.6.1
    :depends python: >=3,<3.7
    :depends scikit-learn: 
    :depends tensorflow: >=1.12
@@ -63,6 +64,10 @@ deepac
 
 
 
+
+Notes
+-----
+conda\-forge\:\:tensorflow requires GLIBC \>\=2.16. It should be present on most\, but not all systems. See https\:\/\/github.com\/conda\-forge\/tensorflow\-feedstock\/issues\/67
 
 
 Link to this page

@@ -22,15 +22,17 @@ perl-pod-elemental
 
    |downloads_perl-pod-elemental| |docker_perl-pod-elemental|
 
-   :versions: 0.103004-2, 0.103004-1, 0.103004-0
+   :versions: 0.103004-3, 0.103004-2, 0.103004-1, 0.103004-0
    
-   :depends libgcc-ng: >=4.9
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-app-cpanminus: 
    :depends perl-mixin-linewise: 
    :depends perl-moose: 
    :depends perl-moosex-types: 
    :depends perl-scalar-list-utils: 
+   :depends perl-string-rewriteprefix: 
+   :depends perl-string-truncate: 
    :requirements:
 
    .. rubric:: Installation

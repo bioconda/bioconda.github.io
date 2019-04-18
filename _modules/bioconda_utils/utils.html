@@ -286,7 +286,6 @@
 <span class="c1"># Patterns of allowed environment variables that are allowed to be passed to</span>
 <span class="c1"># conda-build.</span>
 <span class="n">ENV_VAR_WHITELIST</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s1">&#39;CONDA_*&#39;</span><span class="p">,</span>
     <span class="s1">&#39;PATH&#39;</span><span class="p">,</span>
     <span class="s1">&#39;LC_*&#39;</span><span class="p">,</span>
     <span class="s1">&#39;LANG&#39;</span><span class="p">,</span>
@@ -295,7 +294,6 @@
 
 <span class="c1"># Of those that make it through the whitelist, remove these specific ones</span>
 <span class="n">ENV_VAR_BLACKLIST</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s1">&#39;CONDA_PREFIX&#39;</span><span class="p">,</span>
 <span class="p">]</span>
 
 <span class="c1"># Of those, also remove these when we&#39;re running in a docker container</span>

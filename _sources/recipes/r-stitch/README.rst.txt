@@ -22,15 +22,15 @@ r-stitch
 
    |downloads_r-stitch| |docker_r-stitch|
 
-   :versions: 1.5.5-0, 1.5.4-0
+   :versions: 1.5.7-0, 1.5.5-0, 1.5.4-0
    
    :depends gmp: >=6.1.2,<7.0a0
    :depends htslib: >=1.4
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends mpc: >=1.1.0
    :depends mpc: >=1.1.0,<2.0a0
-   :depends mpfr: >=4.0.1,<5.0a0
+   :depends mpfr: >=4.0.2,<5.0a0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-data.table: >=1.11.8
    :depends r-rcpp: >=0.12.18

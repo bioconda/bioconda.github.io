@@ -22,7 +22,7 @@ perl-moosex-app
 
    |downloads_perl-moosex-app| |docker_perl-moosex-app|
 
-   :versions: 1.3701-0, 1.39-2, 1.39-1, 1.39-0, 1.35-2, 1.35-1, 1.35-0
+   :versions: 1.3701-2, 1.3701-1, 1.3701-0, 1.39-2, 1.39-1, 1.39-0, 1.35-2, 1.35-1, 1.35-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-config-any: 
