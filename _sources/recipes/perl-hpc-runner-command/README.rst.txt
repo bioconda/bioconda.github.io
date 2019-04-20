@@ -22,14 +22,16 @@ perl-hpc-runner-command
 
    |downloads_perl-hpc-runner-command| |docker_perl-hpc-runner-command|
 
-   :versions: 3.2.13-0, 3.2.11-0, 3.2.10-0, 3.2.9-0, 3.2.8-0, 3.2.7-0, 3.2.6-0, 3.2.5-0, 3.2.4-0, 3.2.2-0, 3.2.0-1, 3.2.0-0, 3.1.4-1, 3.1.4-0, 3.1.1-0, 3.0.1-1
+   :versions: 3.2.13-1, 3.2.13-0, 3.2.11-0, 3.2.10-0, 3.2.9-0, 3.2.8-0, 3.2.7-0, 3.2.6-0, 3.2.5-0, 3.2.4-0, 3.2.2-0, 3.2.0-1, 3.2.0-0, 3.1.4-1, 3.1.4-0, 3.1.1-0, 3.0.1-1
    
-   :depends perl: 5.22.0*
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-algorithm-dependency: 
    :depends perl-app-cpanminus: 
    :depends perl-archive-tar: 
+   :depends perl-archive-tar-wrapper: 
    :depends perl-array-compare: 
-   :depends perl-datetime: 
+   :depends perl-biosails: 
+   :depends perl-data-uuid: 
    :depends perl-datetime: 
    :depends perl-dbm-deep: 
    :depends perl-file-find-rule: 
@@ -45,7 +47,6 @@ perl-hpc-runner-command
    :depends perl-list-uniq: 
    :depends perl-log-log4perl: 
    :depends perl-mce: 
-   :depends perl-mce: 
    :depends perl-moose: 
    :depends perl-moosex-app: 
    :depends perl-moosex-app-role-log4perl: 
@@ -56,8 +57,8 @@ perl-hpc-runner-command
    :depends perl-namespace-autoclean: 
    :depends perl-number-compare: 
    :depends perl-params-validate: 
-   :depends perl-params-validate: 
    :depends perl-path-tiny: 
+   :depends perl-slurp: 
    :depends perl-sort-versions: 
    :depends perl-string-approx: 
    :depends perl-template-toolkit: 

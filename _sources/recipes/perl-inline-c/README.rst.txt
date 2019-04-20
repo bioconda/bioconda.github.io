@@ -22,11 +22,10 @@ perl-inline-c
 
    |downloads_perl-inline-c| |docker_perl-inline-c|
 
-   :versions: 0.78-0, 0.76-1, 0.76-0
+   :versions: 0.78-1, 0.78-0, 0.76-1, 0.76-0
    
-   :depends gcc_linux-64: 
-   :depends libgcc-ng: >=4.9
-   :depends libgcc-ng: >=7.2.0
+   :depends compilers: 
+   :depends libgcc-ng: >=7.3.0
    :depends make: 
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-extutils-makemaker: 

@@ -22,8 +22,27 @@ circos-tools
 
    |downloads_circos-tools| |docker_circos-tools|
 
-   :versions: 
+   :versions: 0.23-0
    
+   :depends perl: 
+   :depends perl-bioperl: >=1.7
+   :depends perl-carp: 
+   :depends perl-config-general: 
+   :depends perl-data-dumper: 
+   :depends perl-file-path: 
+   :depends perl-findbin: 
+   :depends perl-getopt-long: 
+   :depends perl-graphics-colorobject: 
+   :depends perl-list-moreutils: 
+   :depends perl-math-random: 
+   :depends perl-math-round: 
+   :depends perl-math-vecstat: 
+   :depends perl-memoize: 
+   :depends perl-pod-usage: 
+   :depends perl-regexp-common: 
+   :depends perl-set-intspan: 
+   :depends perl-statistics-descriptive: 
+   :depends perl-time-hires: 
    :requirements:
 
    .. rubric:: Installation

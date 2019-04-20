@@ -22,9 +22,9 @@ perl-hpc-runner-command-plugin-logger-sqlite
 
    |downloads_perl-hpc-runner-command-plugin-logger-sqlite| |docker_perl-hpc-runner-command-plugin-logger-sqlite|
 
-   :versions: 0.0.3-1, 0.0.3-0
+   :versions: 0.0.3-2, 0.0.3-1, 0.0.3-0
    
-   :depends perl: 5.22.0*
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-app-cpanminus: 
    :depends perl-base: 
    :depends perl-clone: 
@@ -32,14 +32,13 @@ perl-hpc-runner-command-plugin-logger-sqlite
    :depends perl-dbd-sqlite: 
    :depends perl-dbi: 
    :depends perl-hpc-runner-command: 
-   :depends perl-hpc-runner-command: 
    :depends perl-json: 
    :depends perl-json-xs: 
    :depends perl-list-uniq: 
    :depends perl-log-log4perl: 
    :depends perl-params-validate: 
    :depends perl-text-asciitable: 
-   :depends sqlite: 
+   :depends sqlite: >=3.26.0,<4.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -22,14 +22,13 @@ perl-text-ansitable
 
    |downloads_perl-text-ansitable| |docker_perl-text-ansitable|
 
-   :versions: 0.48-0
+   :versions: 0.48-1, 0.48-0
    
-   :depends perl: 5.22.0*
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-app-cpanminus: 
    :depends perl-border-style: 
    :depends perl-color-theme: 
    :depends perl-extutils-makemaker: 
-   :depends perl-json-maybexs: 
    :depends perl-json-maybexs: 
    :depends perl-module-load: 
    :depends perl-moo: 

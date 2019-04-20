@@ -22,7 +22,7 @@ metaquantome
 
    |downloads_metaquantome| |docker_metaquantome|
 
-   :versions: 1.0a0-3, 0.99.5-3, 0.99.4a0-3, 0.99.3-3, 0.99.3-2, 0.99.2-2, 0.99.2-0
+   :versions: 1.0.0-0, 1.0a0-3, 0.99.5-3, 0.99.4a0-3, 0.99.3-3, 0.99.3-2, 0.99.2-2, 0.99.2-0
    
    :depends biopython: 1.73.*
    :depends ete3: 3.1.*

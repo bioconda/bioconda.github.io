@@ -22,11 +22,11 @@ group_humann2_uniref_abundances_to_go
 
    |downloads_group_humann2_uniref_abundances_to_go| |docker_group_humann2_uniref_abundances_to_go|
 
-   :versions: 1.2.0-2, 1.2.0-1, 1.2.0-0
+   :versions: 1.2.1-0, 1.2.0-2, 1.2.0-1, 1.2.0-0
    
    :depends goatools: 
    :depends humann2: 
-   :depends python: 2.7*
+   :depends python: <3
    :depends wget: 
    :requirements:
 

@@ -22,7 +22,7 @@ cnv_facets
 
    |downloads_cnv_facets| |docker_cnv_facets|
 
-   :versions: 0.13.0-1, 0.12.1-1, 0.12.1-0, 0.12.0-0, v0.11.3-2, v0.11.3-1, v0.11.2-1
+   :versions: 0.14.0-1, 0.13.0-1, 0.12.1-1, 0.12.1-0, 0.12.0-0, v0.11.3-2, v0.11.3-1, v0.11.2-1
    
    :depends bcftools: 
    :depends bioconductor-rsamtools: 
