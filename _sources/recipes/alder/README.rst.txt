@@ -27,8 +27,8 @@ alder
    
    :depends fftw: 
    :depends lapack: 
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libcxx: 4.0.*
+   :depends openmp: 4.0.*
    :requirements:
 
    .. rubric:: Installation

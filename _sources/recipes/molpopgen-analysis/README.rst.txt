@@ -26,7 +26,6 @@ molpopgen-analysis
    
    :depends gsl: >=2.2.1,<2.3.0a0
    :depends libsequence: 1.8.4.*
-   :depends libstdcxx-ng: >=4.9
    :depends openblas: >=0.2.20,<0.2.21.0a0
    :requirements:
 

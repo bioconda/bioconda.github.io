@@ -26,7 +26,6 @@ strainest
    
    :depends biopython: >=1.50
    :depends click: >=5.1
-   :depends libstdcxx-ng: >=4.9
    :depends matplotlib: >=1.3.0
    :depends mummer: 3.23.*
    :depends numpy: >=1.7.0

@@ -25,7 +25,6 @@ pylibseq
    :versions: 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.9.post0-0, 0.1.8-0
    
    :depends libsequence: 
-   :depends libstdcxx-ng: >=4.9
    :depends msprime: 
    :depends python: >=3.5,<3.6.0a0
    :requirements:

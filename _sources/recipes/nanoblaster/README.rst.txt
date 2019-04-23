@@ -24,7 +24,6 @@ nanoblaster
 
    :versions: 0.16-1, 0.16-0
    
-   :depends libstdcxx-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

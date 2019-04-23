@@ -24,7 +24,6 @@ perl-class-load-xs
 
    :versions: 0.10-0, 0.09-2, 0.09-0
    
-   :depends libstdcxx-ng: >=4.9
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-class-load: 
    :depends perl-xsloader: 

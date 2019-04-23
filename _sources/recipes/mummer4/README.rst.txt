@@ -22,10 +22,9 @@ mummer4
 
    |downloads_mummer4| |docker_mummer4|
 
-   :versions: 4.0.0beta2-3, 4.0.0beta2-2, 4.0.0beta2-1, 4.0.0beta2-0
+   :versions: 4.0.0beta2-4, 4.0.0beta2-3, 4.0.0beta2-2, 4.0.0beta2-1, 4.0.0beta2-0
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libcxx: >=4.0.1
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 

@@ -24,7 +24,6 @@ perl-params-validate
 
    :versions: 1.29-0, 1.26-1, 1.26-0, 1.08-2, 1.08-1, 1.08-0
    
-   :depends libgcc-ng: >=4.9
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-carp: 
    :depends perl-exporter: 

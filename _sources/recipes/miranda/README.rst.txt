@@ -24,7 +24,6 @@ miranda
 
    :versions: 3.3a-1, 3.3a-0
    
-   :depends libgcc-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

@@ -24,7 +24,7 @@ perl-net-ftp
 
    :versions: 2.79-1, 2.79-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.0,<5.27.0a0
    :requirements:
 
    .. rubric:: Installation

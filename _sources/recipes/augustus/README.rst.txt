@@ -31,8 +31,7 @@ augustus
    :depends gsl: >=2.4,<2.5.0a0
    :depends htslib: >=1.9,<1.10.0a0
    :depends libcblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends lp_solve: 
    :depends openblas: >=0.3.3,<0.3.4.0a0
    :depends perl: >=5.26.2,<5.26.3.0a0

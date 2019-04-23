@@ -26,7 +26,6 @@ gem3-mapper
    :versions: 3.6.1-7, 3.6.1-6, 3.6.1-5, 3.6.1-4, 3.6.1-3, 3.6.1-2, 3.6.1-1, 3.6.1-0
    
    :depends bzip2: >=1.0.6,<2.0a0
-   :depends libgcc-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

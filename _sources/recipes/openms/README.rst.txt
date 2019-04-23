@@ -31,8 +31,7 @@ openms
    :depends eigen: 
    :depends glpk: >=4.65,<4.66.0a0
    :depends gsl: >=2.4,<2.5.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends libsvm: >=3.21,<3.22.0a0
    :depends python: >=2.7,<2.8.0a0
    :depends qt: >=5.6.2,<5.7.0a0

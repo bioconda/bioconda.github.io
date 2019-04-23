@@ -29,7 +29,7 @@ maker
    :depends blast: 
    :depends exonerate: 
    :depends infernal: 
-   :depends libpq: >=11.2,<12.0a0
+   :depends libpq: >=10.6,<11.0a0
    :depends mir-prefer: 
    :depends openmpi: >=3.1.3,<3.2.0a0
    :depends perl: >=5.26.2,<5.26.3.0a0

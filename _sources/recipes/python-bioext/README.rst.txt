@@ -26,7 +26,6 @@ python-bioext
    
    :depends biopython: 
    :depends freetype: >=2.8.1,<2.9.0a0
-   :depends libgcc-ng: >=4.9
    :depends numpy: >=1.14.0
    :depends pysam: <=0.13
    :depends python: >=3.5,<3.6.0a0

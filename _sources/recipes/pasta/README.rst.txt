@@ -25,7 +25,6 @@ pasta
    :versions: 1.7.8-3, 1.7.8-2, 1.7.8-0, 0.2-0
    
    :depends dendropy: >=4.1.0
-   :depends libgcc-ng: >=7.3.0
    :depends openjdk: 
    :depends pcre: >=8.41,<9.0a0
    :depends pymongo: >=3.3.0

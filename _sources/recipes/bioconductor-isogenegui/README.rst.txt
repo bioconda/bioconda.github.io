@@ -27,8 +27,7 @@ bioconductor-isogenegui
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-geneplotter: >=1.60.0,<1.61.0
    :depends bioconductor-multtest: >=2.38.0,<2.39.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-ff: 
    :depends r-goric: 

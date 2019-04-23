@@ -26,8 +26,6 @@ prophyle
    
    :depends bitarray: 
    :depends ete3: 
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
    :depends psutil: 
    :depends pysam: 
    :depends python: >=3.5,<3.6.0a0

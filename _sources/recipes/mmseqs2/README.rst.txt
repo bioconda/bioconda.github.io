@@ -26,8 +26,7 @@ mmseqs2
    
    :depends bzip2: >=1.0.6,<2.0a0
    :depends gawk: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends openmp: 
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

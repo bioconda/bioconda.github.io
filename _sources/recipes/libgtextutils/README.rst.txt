@@ -25,7 +25,6 @@ libgtextutils
    :versions: 0.7-4, 0.7-3, 0.7-2, 0.7-1, 0.7-0
    
    :depends cython: 
-   :depends libgcc-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

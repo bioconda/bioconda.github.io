@@ -36,7 +36,6 @@ phyml
 
    :versions: 3.3.20180621-0, 3.3.20170530-0, 3.2.0-2, 3.2.0-0
    
-   :depends libgcc-ng: >=4.9
    :depends openmpi: >=3.1,<3.2.0a0
    :requirements:
 

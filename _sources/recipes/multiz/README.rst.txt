@@ -25,7 +25,6 @@ multiz
 
    :versions: 11.2-0
    
-   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

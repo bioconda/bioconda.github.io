@@ -24,7 +24,6 @@ r-msm
 
    :versions: 1.6.6-4, 1.6.6-3, 1.6.6-2, 1.6.6-1, 1.6.6-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-expm: 
    :depends r-mvtnorm: 

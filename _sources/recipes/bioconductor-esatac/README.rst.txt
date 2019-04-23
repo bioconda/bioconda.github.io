@@ -42,8 +42,7 @@ bioconductor-esatac
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
    :depends bioconductor-shortread: >=1.40.0,<1.41.0
    :depends bioconductor-tfbstools: >=1.20.0,<1.21.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-biocmanager: 
    :depends r-corrplot: 

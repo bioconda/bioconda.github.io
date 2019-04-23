@@ -22,9 +22,9 @@ npyscreen
 
    |downloads_npyscreen| |docker_npyscreen|
 
-   :versions: 4.10.5-1, 4.10.5-0
+   :versions: 4.10.5-2, 4.10.5-1, 4.10.5-0
    
-   :depends ncurses: >=5.9,<5.10.0a0
+   :depends ncurses: >=6.1,<6.2.0a0
    :depends python: 
    :requirements:
 

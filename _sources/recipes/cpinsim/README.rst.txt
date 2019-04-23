@@ -26,8 +26,8 @@ cpinsim
 
    :versions: 0.5.2-1, 0.5.2-0
    
-   :depends bitarray: 
-   :depends networkx: 
+   :depends bitarray: 0.8.1
+   :depends networkx: 1.11.0
    :depends python: >=3.5,<3.6.0a0
    :depends scipy: 
    :requirements:

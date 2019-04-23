@@ -29,8 +29,7 @@ bioconductor-beachmat
    :depends bioconductor-hdf5array: >=1.10.0,<1.11.0
    :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
    :depends bioconductor-rhdf5lib: >=1.4.0,<1.5.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-rcpp: >=0.12.14
    :requirements:

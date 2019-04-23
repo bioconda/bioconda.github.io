@@ -24,7 +24,6 @@ ococo
 
    :versions: 0.1.2.7-0, 0.1.2.6-2, 0.1.2.6-1, 0.1.2.6-0, 0.1.2.5-0, 0.1.2.4-1, 0.1.2.4-0
    
-   :depends libstdcxx-ng: >=4.9
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

@@ -26,8 +26,6 @@ novoalign
    :versions: 3.09.00-2, 3.09.00-1, 3.09.00-0, 3.07.00-1, 3.07.00-0, 3.06.05-0, 3.04.04-3, 3.04.04-2, 3.04.04-0, 3.03.02-0
    
    :depends curl: >=7.59.0,<8.0a0
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

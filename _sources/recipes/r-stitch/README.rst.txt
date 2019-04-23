@@ -26,8 +26,7 @@ r-stitch
    
    :depends gmp: >=6.1.2,<7.0a0
    :depends htslib: >=1.4
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends mpc: >=1.1.0
    :depends mpc: >=1.1.0,<2.0a0
    :depends mpfr: >=4.0.2,<5.0a0

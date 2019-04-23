@@ -27,7 +27,6 @@ gubbins
    :depends biopython: >=1.59
    :depends dendropy: >=4.0.2
    :depends fasttree: 
-   :depends libgcc-ng: >=4.9
    :depends nose: >=1.3
    :depends python: >=3.5,<3.6.0a0
    :depends raxml: 

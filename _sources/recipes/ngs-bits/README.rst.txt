@@ -26,7 +26,6 @@ ngs-bits
    
    :depends bzip2: >=1.0.6,<2.0a0
    :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: 
    :depends python: 
    :depends qt: >=5.9.7,<5.10.0a0

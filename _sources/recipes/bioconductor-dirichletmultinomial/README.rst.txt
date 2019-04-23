@@ -29,8 +29,6 @@ bioconductor-dirichletmultinomial
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
    :depends gsl: >=2.4,<2.5.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends openblas: >=0.3.3,<0.3.4.0a0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 

@@ -26,7 +26,6 @@ qtip
 
    :versions: 1.6.2-1, 1.6.2-0
    
-   :depends libgcc-ng: >=4.9
    :depends numpy: 
    :depends pandas: 
    :depends python: >=2.7,<2.8.0a0

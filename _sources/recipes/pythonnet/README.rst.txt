@@ -25,8 +25,15 @@ pythonnet
    :versions: 2.3.0-1, 2.3.0-0
    
    :depends glib: 2.55.*
+   :depends libiconv: >=1.15,<2.0a0
+   :depends libxml2: >=2.9.8,<2.10.0a0
    :depends mono: 
-   :depends python: 2.7*
+   :depends openssl: >=1.0.2p,<1.0.3a
+   :depends python: >=2.7,<2.8.0a0
+   :depends readline: >=7.0,<8.0a0
+   :depends sqlite: >=3.26.0,<4.0a0
+   :depends tk: >=8.6.9,<8.7.0a0
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

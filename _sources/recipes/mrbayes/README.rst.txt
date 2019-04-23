@@ -30,7 +30,6 @@ mrbayes
    :versions: 3.2.6-0
    
    :depends beagle-lib: 
-   :depends libgcc: 
    :depends openmpi: 
    :depends readline: 6.*
    :requirements:

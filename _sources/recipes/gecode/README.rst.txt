@@ -24,9 +24,8 @@ gecode
 
    :versions: 5.1.0-1, 5.1.0-0, 5.0.0-1, 5.0.0-0, 4.4.0-2, 4.4.0-1
    
-   :depends gmp: 
-   :depends libgcc-ng: >=4.9
-   :depends mpfr: 
+   :depends gmp: >=6.1.2,<7.0a0
+   :depends mpfr: >=4.0.1,<5.0a0
    :requirements:
 
    .. rubric:: Installation

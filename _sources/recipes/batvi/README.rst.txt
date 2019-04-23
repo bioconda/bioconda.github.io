@@ -27,7 +27,6 @@ batvi
    :depends bedtools: 
    :depends blast: 
    :depends bwa: 
-   :depends libgcc-ng: >=4.9
    :depends openjdk: 
    :depends picard: 
    :depends samtools: 

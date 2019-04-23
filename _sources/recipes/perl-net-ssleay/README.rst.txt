@@ -24,7 +24,6 @@ perl-net-ssleay
 
    :versions: 1.86-0, 1.85-0, 1.84-1, 1.84-0, 1.74-1, 1.74-0, 1.72-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends openssl: >=1.1.1a,<1.1.2a
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-mime-base64: 

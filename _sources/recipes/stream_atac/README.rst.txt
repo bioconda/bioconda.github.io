@@ -27,9 +27,8 @@ stream_atac
    :depends anndata: 
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: 
    :depends bioconductor-chromvar: 1.4.1.*
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
+   :depends libgfortran: >=3.0.1,<4.0.0.a0
    :depends openssl: >=1.1.1a,<1.1.2a
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends python: >=3.6,<3.7.0a0

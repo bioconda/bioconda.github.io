@@ -28,8 +28,7 @@ bioconductor-simulatorz
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-coxboost: 
    :depends r-gbm: 

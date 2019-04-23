@@ -25,7 +25,6 @@ sfs_code
 
    :versions: 20150910-1, 20150910-0
    
-   :depends libgcc-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

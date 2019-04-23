@@ -24,7 +24,7 @@ perl-perlio
 
    :versions: 1.09-1, 1.09-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.0,<5.27.0a0
    :requirements:
 
    .. rubric:: Installation

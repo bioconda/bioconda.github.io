@@ -24,7 +24,7 @@ perl-tie-cacher
 
    :versions: 0.09-3, 0.09-2, 0.09-1
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.0,<5.27.0a0
    :depends perl-test-simple: 
    :requirements:
 

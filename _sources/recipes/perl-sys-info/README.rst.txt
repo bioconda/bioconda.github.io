@@ -26,7 +26,7 @@ perl-sys-info
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-sys-info-base: 
-   :depends perl-sys-info-driver-linux: 
+   :depends perl-sys-info-driver-osx: 
    :requirements:
 
    .. rubric:: Installation

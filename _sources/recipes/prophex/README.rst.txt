@@ -24,7 +24,6 @@ prophex
 
    :versions: 0.1.1-0, 0.1.0-4, 0.1.0-3, 0.1.0-2
    
-   :depends libgcc-ng: >=4.9
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

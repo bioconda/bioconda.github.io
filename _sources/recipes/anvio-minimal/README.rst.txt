@@ -33,7 +33,6 @@ anvio-minimal
    :depends gsl: >=2.4,<2.5.0a0
    :depends h5py: >=2.8.0
    :depends illumina-utils: 2.6
-   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: 2.2.3
    :depends mistune: 0.8.1
    :depends numpy: 

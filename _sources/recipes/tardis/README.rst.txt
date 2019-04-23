@@ -31,7 +31,6 @@ tardis
 
    :versions: 1.0.19-0, 0.5.17-0, 0.5.16-0, 0.5.13-0, 0.5.12-0, 0.5.11-0, 0.5.10-0, 0.5.9-0
    
-   :depends libgcc-ng: >=4.9
    :depends python: >=2.7,<2.8.0a0
    :depends pytoml: 
    :depends zlib: >=1.2.11,<1.3.0a0

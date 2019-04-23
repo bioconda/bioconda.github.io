@@ -25,7 +25,6 @@ mageck
    :versions: 0.5.8-0, 0.5.8a-0, 0.5.7-7, 0.5.7-6, 0.5.7-5, 0.5.7-4, 0.5.7-2, 0.5.7-1, 0.5.7-0, 0.5.7a-0, 0.5.6-1, 0.5.6-0, 0.5.5-1, 0.5.5-0, 0.5.4-1, 0.5.4-0, 0.5.3-0, 0.5.2-0
    
    :depends ipython: 
-   :depends libstdcxx-ng: >=4.9
    :depends numpy: 
    :depends python: >=2.7,<2.8.0a0
    :depends scipy: 

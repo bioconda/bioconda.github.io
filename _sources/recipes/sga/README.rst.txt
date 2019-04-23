@@ -26,7 +26,6 @@ sga
    :versions: 0.10.15-3, 0.10.15-2, 0.10.15-1, 0.10.15-0, 0.10.13-0
    
    :depends bamtools: >=2.4.1,<2.4.2.0a0
-   :depends libgcc-ng: >=4.9
    :depends sparsehash: 
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

@@ -25,8 +25,6 @@ fastsimbac
    :versions: 1.0.1_bd3ad13d8f79-0
    
    :depends boost: >=1.67.0,<1.67.1.0a0
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

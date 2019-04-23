@@ -28,8 +28,7 @@ bioconductor-rnaseqsamplesize
    :depends bioconductor-edger: >=3.24.0,<3.25.0
    :depends bioconductor-keggrest: >=1.22.0,<1.23.0
    :depends bioconductor-rnaseqsamplesizedata: >=1.14.0,<1.15.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-heatmap3: 
    :depends r-matlab: 

@@ -22,7 +22,7 @@ r-rnexml
 
    |downloads_r-rnexml| |docker_r-rnexml|
 
-   :versions: 2.2.0-1, 2.2.0-0, 2.1.2-0, 2.1.1-0
+   :versions: 2.3.0-0, 2.2.0-1, 2.2.0-0, 2.1.2-0, 2.1.1-0
    
    :depends r-ape: >=3.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
@@ -31,6 +31,7 @@ r-rnexml
    :depends r-lazyeval: >=0.1.0
    :depends r-plyr: >=1.8
    :depends r-reshape2: >=1.2.2
+   :depends r-stringi: 
    :depends r-stringr: >=1.0
    :depends r-tidyr: >=0.3.1
    :depends r-uuid: >=0.1_1

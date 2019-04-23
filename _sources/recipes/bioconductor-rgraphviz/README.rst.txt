@@ -25,8 +25,8 @@ bioconductor-rgraphviz
    :versions: 2.26.0-0, 2.24.0-0, 2.22.0-0, 2.20.0-1, 2.20.0-0, 2.16.0-1, 2.16.0-0, 2.14.0-0, 2.13.0-1, 2.13.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends graphviz: 
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 

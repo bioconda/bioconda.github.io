@@ -24,7 +24,6 @@ openslide-python
 
    :versions: 1.1.1-0
    
-   :depends libgcc-ng: >=4.9
    :depends openslide: 
    :depends pillow: 
    :depends python: >=2.7,<2.8.0a0

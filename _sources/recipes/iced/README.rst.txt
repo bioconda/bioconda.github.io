@@ -25,7 +25,6 @@ iced
    :versions: 0.5.0-0, 0.4.2-0
    
    :depends cython: 
-   :depends libstdcxx-ng: >=4.9
    :depends matplotlib: 
    :depends numpy: >=1.9
    :depends pandas: 

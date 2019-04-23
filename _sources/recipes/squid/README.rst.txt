@@ -28,7 +28,6 @@ squid
    :depends bamtools: >=2.4.1,<2.4.2.0a0
    :depends boost: >=1.67.0,<1.67.1.0a0
    :depends glpk: >=4.65,<4.66.0a0
-   :depends libstdcxx-ng: >=4.9
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
