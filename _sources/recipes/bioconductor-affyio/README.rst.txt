@@ -26,6 +26,7 @@ bioconductor-affyio
    :versions: 1.52.0-0, 1.50.0-0, 1.48.0-0, 1.46.0-0, 1.42.0-0, 1.40.0-1, 1.40.0-0
    
    :depends bioconductor-zlibbioc: >=1.28.0,<1.29.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 

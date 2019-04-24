@@ -28,6 +28,7 @@ semeta
    :versions: 1.0-0
    
    :depends blast: 
+   :depends libgcc: 
    :requirements:
 
    .. rubric:: Installation

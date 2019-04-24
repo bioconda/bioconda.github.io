@@ -26,6 +26,7 @@ dsrc
    :versions: 2015.06.04-1, 2015.06.04-0, 2014.12.17-2, 2014.12.17-1
    
    :depends boost: >=1.66.0,<1.66.1.0a0
+   :depends libgcc-ng: >=4.9
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

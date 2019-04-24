@@ -27,8 +27,10 @@ blast
    
    :depends boost: >=1.67.0,<1.67.1.0a0
    :depends bzip2: >=1.0.6,<2.0a0
+   :depends gnutls: >=3.5.19,<3.6.0a0
+   :depends libgcc-ng: >=4.9
+   :depends libstdcxx-ng: >=4.9
    :depends nettle: >=3.3,<3.4.0a0
-   :depends openssl: >=1.0.2p,<1.0.3a
    :depends pcre: >=8.41,<9.0a0
    :depends perl: 
    :depends perl-archive-tar: 

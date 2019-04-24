@@ -24,6 +24,7 @@ irfinder
 
    :versions: 1.2.5-0, 1.2.4-1, 1.2.3-0, 1.2.2-0
    
+   :depends libgcc-ng: >=4.9
    :depends perl: 
    :depends r-base: 
    :requirements:

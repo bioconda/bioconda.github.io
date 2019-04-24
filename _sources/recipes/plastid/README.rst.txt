@@ -28,6 +28,7 @@ plastid
    :depends bowtie: 
    :depends cython: >=0.22.0
    :depends fastx_toolkit: 
+   :depends libgcc: 
    :depends matplotlib: >=1.4.0
    :depends numpy: >=1.9.0,<1.12.0
    :depends pandas: >=0.17.0

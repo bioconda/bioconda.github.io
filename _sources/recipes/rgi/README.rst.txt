@@ -29,6 +29,7 @@ rgi
    :depends blast: 2.6.0
    :depends diamond: 0.8.36
    :depends filetype: >=1.0.0
+   :depends libgcc-ng: >=4.9
    :depends matplotlib: >=2.1.2
    :depends mock: >=2.0.0
    :depends pandas: >=0.15.0

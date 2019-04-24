@@ -24,6 +24,7 @@ perl-json-xs
 
    :versions: 4.0-0, 3.04-0, 2.34-2, 2.34-1, 2.34-0
    
+   :depends libstdcxx-ng: >=4.9
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-common-sense: 
    :depends perl-types-serialiser: 

@@ -22,7 +22,7 @@ pipits
 
    |downloads_pipits| |docker_pipits|
 
-   :versions: 2.2-2, 2.2-1, 2.1-5, 2.1-3, 2.1-2, 2.1-1, 2.0-1, 2.0-0
+   :versions: 2.3-1, 2.3-0, 2.2-2, 2.2-1, 2.1-5, 2.1-3, 2.1-2, 2.1-1, 2.0-1, 2.0-0
    
    :depends biom-format: 
    :depends fastx_toolkit: 
@@ -31,8 +31,11 @@ pipits
    :depends numpy: 
    :depends pandas: 
    :depends pispino: >=1.1
+   :depends progressbar2: 
    :depends python: >=3.6,<3.7.0a0
    :depends rdptools: 
+   :depends requests: 
+   :depends seqkit: 
    :depends vsearch: 
    :requirements:
 

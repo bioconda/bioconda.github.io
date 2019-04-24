@@ -24,6 +24,8 @@ perl-package-stash-xs
 
    :versions: 0.28-0
    
+   :depends libgcc-ng: >=4.9
+   :depends libstdcxx-ng: >=4.9
    :depends perl: >=5.26.2,<5.27.0a0
    :depends perl-xsloader: 
    :requirements:

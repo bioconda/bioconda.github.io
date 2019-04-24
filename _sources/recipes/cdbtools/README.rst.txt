@@ -24,6 +24,7 @@ cdbtools
 
    :versions: 0.99-4, 0.99-3, 0.99-2, 0.99-1, 0.99-0
    
+   :depends libstdcxx-ng: >=4.9
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

@@ -24,6 +24,7 @@ r-gwpcr
 
    :versions: 0.9.10-2, 0.9.10-1, 0.9.10-0, 0.9.9-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends r-akima: 
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-data.table: 

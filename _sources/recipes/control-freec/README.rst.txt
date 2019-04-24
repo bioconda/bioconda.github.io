@@ -28,6 +28,7 @@ control-freec
    :versions: 11.4-0, 10.6-0, 10.5-0
    
    :depends bioconductor-rtracklayer: 
+   :depends libgcc-ng: >=4.9
    :depends perl: 
    :depends r-base: 
    :requirements:

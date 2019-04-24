@@ -34,9 +34,10 @@ phyml
 
    |downloads_phyml| |docker_phyml|
 
-   :versions: 3.3.20180621-0, 3.3.20170530-0, 3.2.0-2, 3.2.0-0
+   :versions: 3.3.20190321-0, 3.3.20180621-0, 3.3.20170530-0, 3.2.0-2, 3.2.0-0
    
-   :depends openmpi: >=3.1,<3.2.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends openmpi: >=3.1.3,<3.2.0a0
    :requirements:
 
    .. rubric:: Installation

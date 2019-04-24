@@ -24,6 +24,7 @@ egglib
 
    :versions: 3.0.0b21-1, 3.0.0b21-0
    
+   :depends libstdcxx-ng: >=4.9
    :depends python: >=2.7,<2.8.0a0
    :requirements:
 

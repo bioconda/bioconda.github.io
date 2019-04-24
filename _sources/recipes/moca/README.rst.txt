@@ -49,6 +49,7 @@ moca
    :depends pyasn1: >=0.1.9
    :depends pybedtools: >=0.7.9
    :depends pybigwig: >=0.2.8
+   :depends pycairo: >=1.10.0
    :depends pycparser: >=2.17
    :depends pyparsing: >=2.1.4
    :depends pysam: >=0.9.1.4

@@ -26,7 +26,8 @@ pybedtools
    :versions: 0.8.0-1, 0.8.0-0, 0.7.10-3, 0.7.10-2, 0.7.10-1, 0.7.10-0, 0.7.9-0, 0.7.8-1, 0.7.7-1, 0.7.6-1, 0.7.5-0, 0.7.4-0, 0.7.2-1, 0.7.0-1, 0.6.9-3, 0.6.9-2, 0.6.9-1, 0.6.9-0
    
    :depends bedtools: 
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends pandas: 
    :depends pysam: >=0.8.1
    :depends python: >=2.7,<2.8.0a0

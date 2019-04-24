@@ -41,6 +41,7 @@ sequana
    :depends freebayes: 
    :depends graphviz: 
    :depends khmer: 
+   :depends kraken: 
    :depends krona: 
    :depends mock: 
    :depends multiqc: 1.0

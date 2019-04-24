@@ -24,6 +24,7 @@ perl-time-hires
 
    :versions: 1.9758-1, 1.9758-0, 1.9728-5, 1.9728-4, 1.9728-2, 1.9728-1, 1.9728-0, 1.9726-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-carp: 
    :depends perl-exporter: 

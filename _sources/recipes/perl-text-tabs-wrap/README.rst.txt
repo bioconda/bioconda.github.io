@@ -24,7 +24,7 @@ perl-text-tabs-wrap
 
    :versions: 2013.0523-1, 2013.0523-0
    
-   :depends perl: >=5.26.0,<5.27.0a0
+   :depends perl: >=5.26.2,<5.27.0a0
    :requirements:
 
    .. rubric:: Installation

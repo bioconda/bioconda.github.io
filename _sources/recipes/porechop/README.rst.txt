@@ -24,6 +24,7 @@ porechop
 
    :versions: 0.2.3_seqan2.1.1-3, 0.2.3_seqan2.1.1-2, 0.2.3_seqan2.1.1-1, 0.2.3_seqan2.1.1-0
    
+   :depends libstdcxx-ng: >=4.9
    :depends python: >=3.5,<3.6.0a0
    :requirements:
 

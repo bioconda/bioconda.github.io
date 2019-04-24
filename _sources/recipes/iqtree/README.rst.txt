@@ -24,9 +24,8 @@ iqtree
 
    :versions: 1.6.10-0, 1.6.9-1, 1.6.9-0, 1.6.8-0, 1.6.7.2-0, 1.6.7.1-0, 1.6.7-1, 1.6.7-0, 1.6.6-0, 1.5.5-2, 1.5.5-1, 1.5.5-0, 1.5.3-2, 1.5.3-1, 1.5.3-0
    
-   :depends libcxx: >=4.0
-   :depends libcxx: >=4.0.1
-   :depends openmp: >=4.0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

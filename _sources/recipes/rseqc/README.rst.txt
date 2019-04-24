@@ -27,7 +27,8 @@ rseqc
    
    :depends bx-python: 
    :depends cython: >=0.17
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends numpy: 
    :depends pysam: 
    :depends python: >=3.6,<3.7.0a0

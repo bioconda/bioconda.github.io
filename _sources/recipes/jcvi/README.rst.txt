@@ -27,6 +27,7 @@ jcvi
    :depends biopython: 
    :depends deap: 
    :depends gffutils: 
+   :depends libgcc-ng: >=4.9
    :depends matplotlib: 
    :depends networkx: 
    :depends numpy: 

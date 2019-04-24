@@ -29,7 +29,6 @@ perl-file-homedir
    :depends perl-file-path: 
    :depends perl-file-temp: 
    :depends perl-file-which: 
-   :depends perl-mac-systemdirectory: 
    :requirements:
 
    .. rubric:: Installation

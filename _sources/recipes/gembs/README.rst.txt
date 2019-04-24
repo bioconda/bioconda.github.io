@@ -30,6 +30,7 @@ gembs
    :depends curl: >=7.59.0,<8.0a0
    :depends gem3-mapper: 3.6.1.*
    :depends htslib: >=1.8,<1.9.0a0
+   :depends libgcc-ng: >=4.9
    :depends matplotlib: 
    :depends multiprocess: 
    :depends pigz: 

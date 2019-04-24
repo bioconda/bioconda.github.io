@@ -25,6 +25,7 @@ swarm
 
    :versions: 2.2.2-1, 2.2.2-0, 2.1.13-0, 2.1.10-0, 2.1.5-0, 1.2.19-1, 1.2.19-0
    
+   :depends libstdcxx-ng: >=4.9
    :depends python: 
    :depends python-igraph: 
    :requirements:

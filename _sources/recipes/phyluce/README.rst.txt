@@ -50,6 +50,7 @@ phyluce
    :depends seqtk: 
    :depends spades: 3.12.*
    :depends trimal: 
+   :depends trinity: 2.1.*
    :depends velvet: 1.2.*
    :requirements:
 

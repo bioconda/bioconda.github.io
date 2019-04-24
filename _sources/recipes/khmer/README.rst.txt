@@ -27,7 +27,8 @@ khmer
    :versions: 3.0.0a3-0, 3.0.0a2-1, 3.0.0a2-0, 3.0.0a1-0, 2.1.2-0, 2.1-0, 2.1rc1-0, 2.0-2, 2.0-1, 2.0-0
    
    :depends bz2file: 
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends python: >=3.7,<3.8.0a0
    :depends screed: >=1.0
    :requirements:

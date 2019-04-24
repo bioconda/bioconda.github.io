@@ -24,6 +24,7 @@ aragorn
 
    :versions: 1.2.38-2, 1.2.38-1, 1.2.36-1, 1.2.36-0
    
+   :depends libgcc-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

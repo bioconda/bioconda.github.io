@@ -24,6 +24,8 @@ bloocoo
 
    :versions: 1.0.7-1, 1.0.7-0
    
+   :depends libgcc-ng: >=4.9
+   :depends libstdcxx-ng: >=4.9
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

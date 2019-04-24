@@ -27,7 +27,8 @@ unicycler
    :depends blast: 
    :depends bowtie2: 
    :depends freebayes: 
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends miniasm: 
    :depends openjdk: 
    :depends pilon: 

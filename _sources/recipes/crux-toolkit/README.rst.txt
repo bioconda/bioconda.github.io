@@ -25,6 +25,8 @@ crux-toolkit
 
    :versions: 3.2-0
    
+   :depends libgcc-ng: >=4.9
+   :depends libstdcxx-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

@@ -25,6 +25,7 @@ raxml
 
    :versions: 8.2.12-0, 8.2.10-1, 8.2.10-0, 8.2.9-2, 8.2.9-1, 8.2.9-0, 8.2.4-2, 8.2.4-1, 8.2.4-0, 7.3.0-1, 7.3.0-0
    
+   :depends libgcc-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

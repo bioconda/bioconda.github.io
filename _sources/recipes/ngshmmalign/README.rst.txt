@@ -25,6 +25,7 @@ ngshmmalign
    :versions: 0.1.1-1, 0.1.1-0
    
    :depends boost: >=1.66.0,<1.66.1.0a0
+   :depends libstdcxx-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

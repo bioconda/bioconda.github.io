@@ -24,6 +24,7 @@ sra-tools
 
    :versions: 2.9.1_1-0, 2.9.1-0, 2.9.0-1, 2.8.2-1, 2.8.2-0, 2.8.1-0, 2.8.0-0, 2.7.0-0, 2.6.3-0, 2.6.2-0
    
+   :depends libgcc-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

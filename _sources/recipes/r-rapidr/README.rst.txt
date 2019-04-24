@@ -24,10 +24,10 @@ r-rapidr
 
    :versions: 0.1.1-3, 0.1.1-2, 0.1.1-0
    
-   :depends bioconductor-biostrings: >=2.48.0,<2.50.0
-   :depends bioconductor-genomicalignments: >=1.16.0,<1.18.0
-   :depends bioconductor-genomicranges: >=1.32.7,<1.34.0
-   :depends bioconductor-rsamtools: >=1.32.0,<1.34.0
+   :depends bioconductor-biostrings: 
+   :depends bioconductor-genomicalignments: 
+   :depends bioconductor-genomicranges: 
+   :depends bioconductor-rsamtools: 
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-data.table: 
    :depends r-propcis: 

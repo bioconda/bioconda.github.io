@@ -25,6 +25,7 @@ perl-db-file
    :versions: 1.852-0, 1.843-0, 1.835-6, 1.835-5, 1.835-4, 1.835-3, 1.835-2, 1.835-1, 1.835-0
    
    :depends libdb: 
+   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 

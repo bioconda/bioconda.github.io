@@ -29,6 +29,7 @@ bioconductor-splicer
    :depends bioconductor-genomicranges: >=1.32.7,<1.34.0
    :depends bioconductor-iranges: >=2.14.12,<2.16.0
    :depends bioconductor-rtracklayer: >=1.40.6,<1.42.0
+   :depends libgcc-ng: >=4.9
    :depends r-base: >=3.4.1,<3.4.2.0a0
    :depends r-plyr: 
    :depends r-rcolorbrewer: 

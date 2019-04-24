@@ -26,6 +26,7 @@ bioconductor-cnorfuzzy
    :versions: 1.24.0-0, 1.22.0-0, 1.20.0-0
    
    :depends bioconductor-cellnoptr: >=1.28.0,<1.29.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-nloptr: >=0.8.5
    :requirements:

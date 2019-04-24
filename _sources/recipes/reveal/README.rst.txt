@@ -26,6 +26,7 @@ reveal
    
    :depends intervaltree: 
    :depends libdivsufsort: 
+   :depends libgcc-ng: >=4.9
    :depends matplotlib: 
    :depends networkx: 2.0.*
    :depends python: >=2.7,<2.8.0a0

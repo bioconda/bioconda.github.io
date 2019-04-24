@@ -24,6 +24,7 @@ perl-file-remove
 
    :versions: 1.57-2, 1.57-1, 1.57-0
    
+   :depends libstdcxx-ng: >=4.9
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-file-spec: 
    :depends perl-test-more: 

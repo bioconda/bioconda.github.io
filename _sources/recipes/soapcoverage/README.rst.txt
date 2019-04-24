@@ -24,6 +24,7 @@ soapcoverage
 
    :versions: 2.7.7-0
    
+   :depends libgcc: 
    :depends zlib: 1.2.11*
    :requirements:
 

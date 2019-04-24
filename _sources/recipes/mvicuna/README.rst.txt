@@ -24,6 +24,7 @@ mvicuna
 
    :versions: 1.0-5, 1.0-4, 1.0-1
    
+   :depends libstdcxx-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

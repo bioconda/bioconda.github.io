@@ -38,6 +38,9 @@ perl-hpc-runner-command
    :depends perl-file-homedir: 
    :depends perl-file-path: 
    :depends perl-file-slurp: 
+   :depends perl-git-wrapper: 
+   :depends perl-git-wrapper-plus: 
+   :depends perl-io-interactive: 
    :depends perl-json: 
    :depends perl-json-xs: 
    :depends perl-list-moreutils: >=0.428
@@ -46,6 +49,7 @@ perl-hpc-runner-command
    :depends perl-mce: 
    :depends perl-moose: 
    :depends perl-moosex-app: 
+   :depends perl-moosex-app-role-log4perl: 
    :depends perl-moosex-getopt: 
    :depends perl-moosex-nonmoose: 
    :depends perl-moosex-types: 

@@ -25,6 +25,7 @@ edena
 
    :versions: 3.131028-1, 3.131028-0
    
+   :depends libstdcxx-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

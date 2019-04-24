@@ -26,7 +26,8 @@ bioconductor-microrna
    :versions: 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0
    
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 

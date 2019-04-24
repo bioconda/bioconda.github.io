@@ -29,6 +29,7 @@ bioconductor-profia
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
    :depends bioconductor-ropls: >=1.14.0,<1.15.0
    :depends bioconductor-xcms: >=3.4.0,<3.5.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-minpack.lm: 
    :depends r-missforest: 

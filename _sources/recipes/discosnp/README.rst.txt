@@ -26,6 +26,7 @@ discosnp
    :versions: 2.3.0-6, 2.3.0-5, 2.3.0-4, 2.3.0-3, 2.3.0-2, 2.3.0-1, 2.3.0-0, 2.2.10-1, 2.2.10-0
    
    :depends bwa: 
+   :depends libgcc-ng: >=4.9
    :depends python: >=3.0
    :depends shortreadconnector: 
    :depends zlib: >=1.2.11,<1.3.0a0

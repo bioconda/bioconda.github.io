@@ -24,6 +24,7 @@ perl-gdtextutil
 
    :versions: 0.86-5, 0.86-4, 0.86-3, 0.86-2, 0.86-1, 0.86-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-gd: 
    :requirements:

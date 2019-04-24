@@ -24,6 +24,7 @@ soapdenovo2-prepare
 
    :versions: 2.0-3, 2.0-1, 2.0-0
    
+   :depends libgcc-ng: >=4.9
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

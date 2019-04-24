@@ -25,9 +25,10 @@ treemix
 
    :versions: 1.13-1, 1.13-0, 1.12-3, 1.12-2, 1.12-1, 1.12-0
    
-   :depends blas: 
    :depends boost: >=1.66.0,<1.66.1.0a0
    :depends gsl: >=2.2.1,<2.3.0a0
+   :depends libgcc-ng: >=4.9
+   :depends openblas: >=0.2.20,<0.2.21.0a0
    :depends r-rcolorbrewer: 
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

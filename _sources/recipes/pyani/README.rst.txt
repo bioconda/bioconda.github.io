@@ -26,6 +26,7 @@ pyani
    
    :depends biopython: 
    :depends blast: 
+   :depends blast-legacy: 
    :depends matplotlib: 
    :depends mummer: 
    :depends numpy: 

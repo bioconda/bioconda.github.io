@@ -27,7 +27,7 @@ segmentation-fold
    :depends boost: >=1.63.0,<1.63.1.0a0
    :depends click: >=4.0
    :depends htseq: >=0.6.1
-   :depends libcxx: 
+   :depends libgcc-ng: >=4.9
    :depends pysam: >=0.8.1,<=0.8.3
    :depends python: >=2.7,<2.8.0a0
    :requirements:

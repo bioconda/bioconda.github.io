@@ -32,7 +32,9 @@ cgat-apps
    :depends cython: 
    :depends future: 
    :depends grep: 
+   :depends libgcc-ng: >=4.9
    :depends libpng: >=1.6.34,<1.7.0a0
+   :depends libstdcxx-ng: >=4.9
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 

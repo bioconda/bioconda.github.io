@@ -27,7 +27,8 @@ sourmash
    
    :depends ijson: 
    :depends khmer: >=2.1
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends matplotlib: 
    :depends numpy: 
    :depends python: >=2.7,<2.8.0a0

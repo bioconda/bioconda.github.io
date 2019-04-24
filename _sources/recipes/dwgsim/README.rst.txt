@@ -24,6 +24,7 @@ dwgsim
 
    :versions: 1.1.11-5, 1.1.11-4, 1.1.11-3, 1.1.11-2, 1.1.11-1
    
+   :depends libgcc: 
    :depends ncurses: 5.9*
    :depends zlib: 1.2.11*
    :requirements:
