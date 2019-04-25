@@ -22,9 +22,10 @@ alignlib-lite
 
    |downloads_alignlib-lite| |docker_alignlib-lite|
 
-   :versions: 0.3-1, 0.3-0, 0.2.3-2, 0.2.3-1, 0.2.3-0
+   :versions: 0.3-2, 0.3-1, 0.3-0, 0.2.3-2, 0.2.3-1, 0.2.3-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends python: >=2.7,<2.8.0a0
    :requirements:
 

@@ -28,7 +28,7 @@ das_tool
 
    |downloads_das_tool| |docker_das_tool|
 
-   :versions: 1.1.1-1
+   :versions: 1.1.1-1, 1.1.1-0
    
    :depends blast: 2.7.1.*
    :depends diamond: 0.9.22.*

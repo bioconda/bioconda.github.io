@@ -22,7 +22,7 @@ graphlan
 
    |downloads_graphlan| |docker_graphlan|
 
-   :versions: 1.1.3-0, 1.1.2-1, 1.1.2-0, 1.0.0-1, 1.0.0-0
+   :versions: 1.1.3-1, 1.1.3-0, 1.1.2-1, 1.1.2-0, 1.0.0-1, 1.0.0-0
    
    :depends biopython: >=1.6
    :depends matplotlib: >=1.1

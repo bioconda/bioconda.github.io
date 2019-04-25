@@ -23,7 +23,7 @@ bioconductor-ebseq
 
    |downloads_bioconductor-ebseq| |docker_bioconductor-ebseq|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
+   :versions: 1.22.1-0, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-blockmodeling: 
