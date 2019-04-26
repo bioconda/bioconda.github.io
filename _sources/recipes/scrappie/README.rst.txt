@@ -22,7 +22,7 @@ scrappie
 
    |downloads_scrappie| |docker_scrappie|
 
-   :versions: 1.4.1-0, 1.3.2-2, 1.3.2-0
+   :versions: 1.4.2-0, 1.4.1-0, 1.3.2-2, 1.3.2-0
    
    :depends cffi: >=1.0.0
    :depends cunit: 

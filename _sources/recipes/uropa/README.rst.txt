@@ -27,13 +27,13 @@ uropa
 
    |downloads_uropa| |docker_uropa|
 
-   :versions: 3.1.0-0, 3.0.0-0, 2.0.3-0, 2.0.2a0-2, 2.0.2a0-0, 2.0.0a0-0, 1.2.1-0
+   :versions: 3.2.0-0, 3.1.0-0, 3.0.0-0, 2.0.3-0, 2.0.2a0-2, 2.0.2a0-0, 2.0.0a0-0, 1.2.1-0
    
    :depends bioconductor-graph: 
    :depends bioconductor-rbgl: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: 
    :depends r-base: 
    :depends r-getopt: 
    :depends r-ggplot2: 

@@ -22,7 +22,7 @@ perl-bio-tools-run-alignment-tcoffee
 
    |downloads_perl-bio-tools-run-alignment-tcoffee| |docker_perl-bio-tools-run-alignment-tcoffee|
 
-   :versions: 1.7.4-0
+   :versions: 1.7.4-1, 1.7.4-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-bioperl-run: 

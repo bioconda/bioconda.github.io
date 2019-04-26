@@ -22,9 +22,9 @@ chainmap
 
    |downloads_chainmap| |docker_chainmap|
 
-   :versions: 1.0.2-1, 1.0.2-0
+   :versions: 1.0.3-0, 1.0.2-1, 1.0.2-0
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation

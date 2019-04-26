@@ -22,7 +22,7 @@ bioconductor-genie3
 
    |downloads_bioconductor-genie3| |docker_bioconductor-genie3|
 
-   :versions: 1.4.0-0
+   :versions: 1.4.3-0, 1.4.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
