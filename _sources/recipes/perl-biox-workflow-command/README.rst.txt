@@ -22,11 +22,12 @@ perl-biox-workflow-command
 
    |downloads_perl-biox-workflow-command| |docker_perl-biox-workflow-command|
 
-   :versions: 2.4.1-0, 2.3.2-0, 2.3.0-0, 2.2.3-0, 2.2.1-0
+   :versions: 2.4.1-1, 2.4.1-0, 2.3.2-0, 2.3.0-0, 2.2.3-0, 2.2.1-0
    
-   :depends perl: 5.22.0*
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-algorithm-dependency: 
    :depends perl-app-cpanminus: 
+   :depends perl-biosails: 
    :depends perl-class-load: 
    :depends perl-clone: 
    :depends perl-config-any: 
@@ -34,12 +35,14 @@ perl-biox-workflow-command
    :depends perl-datetime: 
    :depends perl-datetime-format-strptime: 
    :depends perl-dbm-deep: 
+   :depends perl-escape-houdini: 
    :depends perl-file-details: 
    :depends perl-file-find-rule: 
    :depends perl-file-path: 
    :depends perl-file-slurp: 
    :depends perl-git-wrapper: 
    :depends perl-git-wrapper-plus: 
+   :depends perl-hash-merge: 
    :depends perl-io-interactive: 
    :depends perl-json: 
    :depends perl-list-compare: 
@@ -49,12 +52,9 @@ perl-biox-workflow-command
    :depends perl-log-log4perl: 
    :depends perl-mce-shared: 
    :depends perl-moose: 
-   :depends perl-moose: 
-   :depends perl-moosex-app: 
+   :depends perl-moosex-app: 1.39
    :depends perl-moosex-app-role-log4perl: 
    :depends perl-moosex-getopt: 
-   :depends perl-moosex-getopt: 
-   :depends perl-moosex-types: 
    :depends perl-moosex-types: 
    :depends perl-moosex-types-path-tiny: 
    :depends perl-namespace-autoclean: 
@@ -66,7 +66,6 @@ perl-biox-workflow-command
    :depends perl-text-asciitable: 
    :depends perl-text-template: 
    :depends perl-try-tiny: 
-   :depends perl-yaml: 
    :depends perl-yaml: 
    :depends perl-yaml-libyaml: 
    :requirements:

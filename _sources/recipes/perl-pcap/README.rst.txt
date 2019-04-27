@@ -22,18 +22,18 @@ perl-pcap
 
    |downloads_perl-pcap| |docker_perl-pcap|
 
-   :versions: 1.11.1-2, 1.11.1-1, 1.11.1-0
+   :versions: 3.5.2-0, 1.11.1-2, 1.11.1-1, 1.11.1-0
    
-   :depends libgcc: 
-   :depends perl-bio-db-sam: 
+   :depends libgcc-ng: >=7.3.0
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl-bio-db-hts: 
+   :depends perl-bio-samtools: 
    :depends perl-bioperl: 
-   :depends perl-encode-locale: 
    :depends perl-encode-locale: 
    :depends perl-gd: 
    :depends perl-ipc-system-simple: 
    :depends perl-lwp-simple: 
    :depends perl-sanger-cgp-vcf: 
-   :depends perl-threaded: 
    :depends perl-xml-parser: 
    :requirements:
 

@@ -9,7 +9,7 @@ slicedimage
 .. conda:recipe:: slicedimage
    :replaces_section_title:
 
-   sliced imaging data
+   Python module to access sliced imaging data
 
    :homepage: https://github.com/spacetx/slicedimage
    :license: MIT
@@ -22,7 +22,7 @@ slicedimage
 
    |downloads_slicedimage| |docker_slicedimage|
 
-   :versions: 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0, 0.1.0-0, 0.0.7-0, 0.0.6-0, 0.0.5-0, 0.0.4-0, 0.0.3-0, 0.0.2-0, 0.0.1-0
+   :versions: 3.0.0-0, 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0, 0.1.0-0, 0.0.7-0, 0.0.6-0, 0.0.5-0, 0.0.4-0, 0.0.3-0, 0.0.2-0, 0.0.1-0
    
    :depends diskcache: 
    :depends numpy: !=1.13.0

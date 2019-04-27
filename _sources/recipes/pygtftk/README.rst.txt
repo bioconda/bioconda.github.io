@@ -22,7 +22,7 @@ pygtftk
 
    |downloads_pygtftk| |docker_pygtftk|
 
-   :versions: 1.0.6-0, 1.0.5-0, 1.0.2-0, 1.0.1-0
+   :versions: 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.2-0, 1.0.1-0
    
    :depends argparse: 
    :depends bedtools: >=2.23

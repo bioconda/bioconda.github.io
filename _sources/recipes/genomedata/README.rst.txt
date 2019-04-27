@@ -23,11 +23,11 @@ genomedata
 
    |downloads_genomedata| |docker_genomedata|
 
-   :versions: 1.4.4-1, 1.4.4-0, 1.4.1-3, 1.4.1-2, 1.4.1-0, 1.4.0-1, 1.4.0-0, 1.3.6-0, 1.3.5-0
+   :versions: 1.4.4-3, 1.4.4-1, 1.4.4-0, 1.4.1-3, 1.4.1-2, 1.4.1-0, 1.4.0-1, 1.4.0-0, 1.3.6-0, 1.3.5-0
    
    :depends bedtools: 
-   :depends hdf5: >=1.10.3,<1.10.4.0a0
-   :depends libgcc-ng: >=4.9
+   :depends hdf5: >=1.10.4,<1.10.5.0a0
+   :depends libgcc-ng: >=7.3.0
    :depends path.py: 
    :depends pytables: >=3.4.3
    :depends python: >=2.7,<2.8.0a0

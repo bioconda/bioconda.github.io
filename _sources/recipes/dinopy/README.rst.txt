@@ -22,11 +22,12 @@ dinopy
 
    |downloads_dinopy| |docker_dinopy|
 
-   :versions: 2.0.1-0, 2.0.0-1, 2.0.0-0, 1.2.1-0, 1.2.0-0
+   :versions: 2.0.1-1, 2.0.1-0, 2.0.0-1, 2.0.0-0, 1.2.1-0, 1.2.0-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends numpy: >=1.9
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

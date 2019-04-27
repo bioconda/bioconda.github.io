@@ -22,9 +22,9 @@ augur
 
    |downloads_augur| |docker_augur|
 
-   :versions: 3.1.5-0
+   :versions: 3.1.5-1, 3.1.5-0
    
-   :depends bcbiogff: 0.6.*,>=0.6.4
+   :depends bcbio-gff: 0.6.*,>=0.6.4
    :depends biopython: >=1.73
    :depends boto: 2.*,>2.38
    :depends cvxopt: 1.1.*,>=1.1.9

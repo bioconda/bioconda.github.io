@@ -22,7 +22,7 @@ r-geiger
 
    |downloads_r-geiger| |docker_r-geiger|
 
-   :versions: 2.0.6-3, 2.0.6-2, 2.0.6-1, 2.0.6-0
+   :versions: 2.0.6.1-0, 2.0.6-3, 2.0.6-2, 2.0.6-1, 2.0.6-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

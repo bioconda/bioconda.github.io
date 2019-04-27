@@ -22,11 +22,11 @@ clustergrammer
 
    |downloads_clustergrammer| |docker_clustergrammer|
 
-   :versions: 1.13.5-2, 1.13.5-1, 1.13.5-0
+   :versions: 1.13.6-0, 1.13.5-2, 1.13.5-1, 1.13.5-0
    
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    :depends scikit-learn: 
    :requirements:
 
