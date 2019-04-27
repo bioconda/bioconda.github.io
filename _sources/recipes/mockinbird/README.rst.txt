@@ -24,17 +24,17 @@ mockinbird
 
    |downloads_mockinbird| |docker_mockinbird|
 
-   :versions: 1.0.0a1-1, 1.0.0a1-0
+   :versions: 1.0.0a1-2, 1.0.0a1-1, 1.0.0a1-0
    
    :depends bowtie: 
    :depends fastqc: 
    :depends jinja2: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 
    :depends pysam: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3.6,<3.7.0a0
    :depends pyyaml: 
    :depends r-base: 
    :depends r-lsd: 

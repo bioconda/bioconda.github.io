@@ -22,7 +22,7 @@ r-treesim
 
    |downloads_r-treesim| |docker_r-treesim|
 
-   :versions: 2.3-3, 2.3-2, 2.3-1, 2.3-0
+   :versions: 2.4-0, 2.3-3, 2.3-2, 2.3-1, 2.3-0
    
    :depends r-ape: 
    :depends r-base: >=3.5.1,<3.5.2.0a0

@@ -22,7 +22,7 @@ perl-inline
 
    |downloads_perl-inline| |docker_perl-inline|
 
-   :versions: 0.80-3, 0.80-2, 0.80-1, 0.80-0
+   :versions: 0.82-0, 0.80-3, 0.80-2, 0.80-1, 0.80-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-digest-md5: 

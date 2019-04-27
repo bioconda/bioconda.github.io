@@ -22,9 +22,10 @@ perl-ipc-sharelite
 
    |downloads_perl-ipc-sharelite| |docker_perl-ipc-sharelite|
 
-   :versions: 0.17-0
+   :versions: 0.17-1, 0.17-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 

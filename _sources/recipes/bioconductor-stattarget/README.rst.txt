@@ -22,7 +22,7 @@ bioconductor-stattarget
 
    |downloads_bioconductor-stattarget| |docker_bioconductor-stattarget|
 
-   :versions: 1.12.0-0
+   :versions: 1.12.1-0, 1.12.0-0
    
    :depends bioconductor-impute: >=1.56.0,<1.57.0
    :depends bioconductor-roc: >=1.58.0,<1.59.0

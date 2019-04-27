@@ -22,9 +22,10 @@ perl-data-uuid
 
    |downloads_perl-data-uuid| |docker_perl-data-uuid|
 
-   :versions: 1.221-5, 1.221-4, 1.221-3, 1.221-2, 1.221-1, 1.221-0
+   :versions: 1.224-0, 1.221-5, 1.221-4, 1.221-3, 1.221-2, 1.221-1, 1.221-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-digest-md5: 
    :requirements:

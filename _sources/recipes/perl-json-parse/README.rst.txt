@@ -22,9 +22,10 @@ perl-json-parse
 
    |downloads_perl-json-parse| |docker_perl-json-parse|
 
-   :versions: 0.55-0, 0.49-1, 0.49-0
+   :versions: 0.55-1, 0.55-0, 0.49-1, 0.49-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 

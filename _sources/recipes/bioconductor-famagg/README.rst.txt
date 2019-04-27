@@ -22,7 +22,7 @@ bioconductor-famagg
 
    |downloads_bioconductor-famagg| |docker_bioconductor-famagg|
 
-   :versions: 1.10.0-0
+   :versions: 1.10.4-0, 1.10.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    :depends r-base: >=3.5.1,<3.5.2.0a0

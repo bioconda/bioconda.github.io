@@ -22,7 +22,7 @@ bioconductor-ebseqhmm
 
    |downloads_bioconductor-ebseqhmm| |docker_bioconductor-ebseqhmm|
 
-   :versions: 1.16.0-0
+   :versions: 1.16.1-0, 1.16.0-0
    
    :depends bioconductor-ebseq: >=1.22.0,<1.23.0
    :depends r-base: >=3.5.1,<3.5.2.0a0

@@ -23,7 +23,7 @@ bioconductor-gaga
 
    |downloads_bioconductor-gaga| |docker_bioconductor-gaga|
 
-   :versions: 2.28.0-0, 2.26.0-0, 2.24.0-0, 2.22.0-0
+   :versions: 2.28.1-0, 2.28.0-0, 2.26.0-0, 2.24.0-0, 2.22.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-ebarrays: >=2.46.0,<2.47.0

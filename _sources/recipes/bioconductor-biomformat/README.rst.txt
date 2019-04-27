@@ -23,7 +23,7 @@ bioconductor-biomformat
 
    |downloads_bioconductor-biomformat| |docker_bioconductor-biomformat|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.2-1, 1.0.2-0
+   :versions: 1.10.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.2-1, 1.0.2-0
    
    :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
    :depends r-base: >=3.5.1,<3.5.2.0a0

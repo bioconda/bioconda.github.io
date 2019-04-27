@@ -23,7 +23,7 @@ bioconductor-compass
 
    |downloads_bioconductor-compass| |docker_bioconductor-compass|
 
-   :versions: 1.20.0-0, 1.18.1-0, 1.18.0-0, 1.16.0-0
+   :versions: 1.20.1-0, 1.20.0-0, 1.18.1-0, 1.18.0-0, 1.16.0-0
    
    :depends bioconductor-biocstyle: >=2.10.0,<2.11.0
    :depends libgcc-ng: >=7.3.0

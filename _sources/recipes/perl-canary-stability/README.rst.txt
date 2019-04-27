@@ -22,7 +22,7 @@ perl-canary-stability
 
    |downloads_perl-canary-stability| |docker_perl-canary-stability|
 
-   :versions: 2012-0, 2006-0
+   :versions: 2013-0, 2012-0, 2006-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:

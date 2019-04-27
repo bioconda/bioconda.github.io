@@ -223,7 +223,7 @@ catch issues that the default conda test cannot. However the extra layer of
 abstraction makes it difficult to troubleshoot problems with the recipe. If the
 conda-build test works but the mulled-build test fails try these steps:</p>
 <ul class="simple">
-<li><p>Run the test using the <code class="docutils literal notranslate"><span class="pre">bootstrap.py</span></code> method described in <a class="reference internal" href="contribute-a-recipe.html#test-locally"><span class="std std-ref">3. Test locally</span></a>.</p></li>
+<li><p>Run the test using the <code class="docutils literal notranslate"><span class="pre">bootstrap.py</span></code> method described in <a class="reference internal" href="contribute-a-recipe.html#test-locally"><span class="std std-ref">3. Test locally (optional)</span></a>.</p></li>
 <li><p>Look carefully at the output from <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> to look for Docker hashes,
 and cross-reference with the output of <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">images</span> <span class="pre">|</span> <span class="pre">head</span></code> to figure out
 the hash of the container used.</p></li>

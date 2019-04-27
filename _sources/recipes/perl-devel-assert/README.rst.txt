@@ -22,9 +22,9 @@ perl-devel-assert
 
    |downloads_perl-devel-assert| |docker_perl-devel-assert|
 
-   :versions: 1.06-0
+   :versions: 1.06-1, 1.06-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 

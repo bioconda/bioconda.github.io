@@ -22,7 +22,7 @@ shapeshifter-cli
 
    |downloads_shapeshifter-cli| |docker_shapeshifter-cli|
 
-   :versions: 0.0.3-0
+   :versions: 1.0.0-0, 0.0.3-0
    
    :depends pandas: 
    :depends python: >3

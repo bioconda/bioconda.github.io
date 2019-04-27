@@ -23,7 +23,7 @@ bioconductor-ihw
 
    |downloads_bioconductor-ihw| |docker_bioconductor-ihw|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
+   :versions: 1.10.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    :depends bioconductor-lpsymphony: >=1.10.0,<1.11.0

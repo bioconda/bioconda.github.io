@@ -22,7 +22,7 @@ r-phylobase
 
    |downloads_r-phylobase| |docker_r-phylobase|
 
-   :versions: 0.8.4-4, 0.8.4-3, 0.8.4-2, 0.8.4-0
+   :versions: 0.8.6-0, 0.8.4-4, 0.8.4-3, 0.8.4-2, 0.8.4-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

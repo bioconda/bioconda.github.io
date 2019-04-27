@@ -22,9 +22,9 @@ perl-clone
 
    |downloads_perl-clone| |docker_perl-clone|
 
-   :versions: 0.41-0, 0.39-0, 0.38-1, 0.38-0
+   :versions: 0.41-1, 0.41-0, 0.39-0, 0.38-1, 0.38-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-autoloader: 
    :depends perl-dynaloader: 

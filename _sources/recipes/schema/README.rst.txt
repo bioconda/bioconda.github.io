@@ -22,8 +22,9 @@ schema
 
    |downloads_schema| |docker_schema|
 
-   :versions: 0.6.8-0, 0.6.6-1, 0.6.6-0, 0.4.0-0
+   :versions: 0.7.0-0, 0.6.8-0, 0.6.6-1, 0.6.6-0, 0.4.0-0
    
+   :depends contextlib2: 
    :depends python: 
    :requirements:
 

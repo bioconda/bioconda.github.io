@@ -22,11 +22,11 @@ emirge
 
    |downloads_emirge| |docker_emirge|
 
-   :versions: 0.61.1-2, 0.61.1-1, 0.61.1-0
+   :versions: 0.61.1-3, 0.61.1-2, 0.61.1-1, 0.61.1-0
    
    :depends biopython: 
    :depends bowtie: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :depends numpy: 
    :depends pysam: 
    :depends python: >=2.7,<2.8.0a0

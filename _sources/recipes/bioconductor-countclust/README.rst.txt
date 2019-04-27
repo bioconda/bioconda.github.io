@@ -22,7 +22,7 @@ bioconductor-countclust
 
    |downloads_bioconductor-countclust| |docker_bioconductor-countclust|
 
-   :versions: 1.10.0-0
+   :versions: 1.10.1-0, 1.10.0-0
    
    :depends bioconductor-limma: >=3.38.0,<3.39.0
    :depends libgcc-ng: >=7.3.0

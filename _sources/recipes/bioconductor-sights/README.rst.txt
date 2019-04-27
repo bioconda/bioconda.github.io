@@ -23,7 +23,7 @@ bioconductor-sights
 
    |downloads_bioconductor-sights| |docker_bioconductor-sights|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
+   :versions: 1.8.1-0, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
    
    :depends bioconductor-qvalue: >=2.14.0,<2.15.0
    :depends r-base: >=3.5.1,<3.5.2.0a0

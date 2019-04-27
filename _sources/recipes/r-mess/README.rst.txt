@@ -22,7 +22,7 @@ r-mess
 
    |downloads_r-mess| |docker_r-mess|
 
-   :versions: 0.5.4-0
+   :versions: 0.5.5-0, 0.5.4-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

@@ -73,7 +73,7 @@
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Contributing a recipe</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#update-repo">1. Update repo</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#write-a-recipe">2. Write a recipe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#test-locally">3. Test locally</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-locally-optional">3. Test locally (optional)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#push-changes-wait-for-tests-to-pass-submit-pull-request">4. Push changes, wait for tests to pass, submit pull request</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#use-your-new-recipe">6. Use your new recipe</a></li>
 </ul>
@@ -146,14 +146,15 @@ building a recipe.</p>
 <p>Please familiarize yourself with the <a class="reference internal" href="guidelines.html#guidelines"><span class="std std-ref">Guidelines for bioconda recipes</span></a> for details on
 bioconda-specific policies.</p>
 </div>
-<div class="section" id="test-locally">
-<span id="id1"></span><h2>3. Test locally<a class="headerlink" href="#test-locally" title="Permalink to this headline">¶</a></h2>
-<p><em>Updated April 2018 to describe the bootstrap.py method</em></p>
+<div class="section" id="test-locally-optional">
+<span id="test-locally"></span><h2>3. Test locally (optional)<a class="headerlink" href="#test-locally-optional" title="Permalink to this headline">¶</a></h2>
 <p>There are currently two options for local testing: 1) using the Circle CI
 client and 2) setting up a separate Miniconda installation and running
-bioconda-utils. The first is probably more straightforward; the second is more
-stringent, can be used for testing on MacOS, and allows the full customization
-of the bioconda-utils calls.</p>
+bioconda-utils. The first is potentially simpler to set up but less flexible.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you use the Circle CI client method and receive errors then please try <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">build</span></code> instead.</p>
+</div>
 <div class="section" id="circle-ci-client-method">
 <span id="cci-clent"></span><h3>Circle CI client method<a class="headerlink" href="#circle-ci-client-method" title="Permalink to this headline">¶</a></h3>
 <p>The simplest way to conduct local tests is to <a class="reference internal" href="contrib-setup.html#circleci-client"><span class="std std-ref">setup the Circle CI client</span></a>. Then run the following commands:</p>

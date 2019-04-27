@@ -22,11 +22,11 @@ barriers
 
    |downloads_barriers| |docker_barriers|
 
-   :versions: 1.7.0-0
+   :versions: 1.7.0-1, 1.7.0-0
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends viennarna: 
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends viennarna: >=2.4.11,<2.5.0a0
    :requirements:
 
    .. rubric:: Installation
