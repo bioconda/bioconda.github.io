@@ -22,7 +22,7 @@ bioconductor-tpp
 
    |downloads_bioconductor-tpp| |docker_bioconductor-tpp|
 
-   :versions: 3.10.0-0
+   :versions: 3.10.1-0, 3.10.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-biobroom: >=1.14.0,<1.15.0

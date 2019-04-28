@@ -23,7 +23,7 @@ bioconductor-rchemcpp
 
    |downloads_bioconductor-rchemcpp| |docker_bioconductor-rchemcpp|
 
-   :versions: 2.20.0-0, 2.18.0-0, 2.16.0-0, 2.14.0-0
+   :versions: 2.20.1-0, 2.20.0-0, 2.18.0-0, 2.16.0-0, 2.14.0-0
    
    :depends bioconductor-chemminer: >=3.34.0,<3.35.0
    :depends libgcc-ng: >=7.3.0

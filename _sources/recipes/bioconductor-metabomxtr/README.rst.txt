@@ -22,7 +22,7 @@ bioconductor-metabomxtr
 
    |downloads_bioconductor-metabomxtr| |docker_bioconductor-metabomxtr|
 
-   :versions: 1.16.0-0
+   :versions: 1.16.1-0, 1.16.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0

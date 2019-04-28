@@ -22,11 +22,12 @@ strainest
 
    |downloads_strainest| |docker_strainest|
 
-   :versions: 1.2.4-2, 1.2.4-0, 1.2.2-0
+   :versions: 1.2.4-3, 1.2.4-2, 1.2.4-0, 1.2.2-0
    
    :depends biopython: >=1.50
    :depends click: >=5.1
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends matplotlib: >=1.3.0
    :depends mummer: 3.23.*
    :depends numpy: >=1.7.0

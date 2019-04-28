@@ -22,7 +22,7 @@ bioconductor-genenetworkbuilder
 
    |downloads_bioconductor-genenetworkbuilder| |docker_bioconductor-genenetworkbuilder|
 
-   :versions: 1.24.0-0
+   :versions: 1.24.1-0, 1.24.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
    :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0

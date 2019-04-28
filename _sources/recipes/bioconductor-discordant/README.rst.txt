@@ -22,7 +22,7 @@ bioconductor-discordant
 
    |downloads_bioconductor-discordant| |docker_bioconductor-discordant|
 
-   :versions: 1.6.0-0
+   :versions: 1.6.1-0, 1.6.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends libgcc-ng: >=7.3.0

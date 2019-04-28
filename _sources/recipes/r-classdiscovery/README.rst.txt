@@ -22,7 +22,7 @@ r-classdiscovery
 
    |downloads_r-classdiscovery| |docker_r-classdiscovery|
 
-   :versions: 3.3.9-1, 3.3.9-0
+   :versions: 3.3.11-0, 3.3.9-1, 3.3.9-0
    
    :depends bioconductor-biobase: 
    :depends r-base: >=3.5.1,<3.5.2.0a0

@@ -22,7 +22,7 @@ svim
 
    |downloads_svim| |docker_svim|
 
-   :versions: 0.4.4-0, 0.4.3-0, 0.4.2-0, 0.4.1-0
+   :versions: 0.5.0-0, 0.4.4-0, 0.4.3-0, 0.4.2-0, 0.4.1-0
    
    :depends biopython: 
    :depends matplotlib: 

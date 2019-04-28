@@ -22,7 +22,7 @@ bioconductor-rhdf5client
 
    |downloads_bioconductor-rhdf5client| |docker_bioconductor-rhdf5client|
 
-   :versions: 1.4.0-0
+   :versions: 1.4.1-0, 1.4.0-0
    
    :depends bioconductor-delayedarray: >=0.8.0,<0.9.0
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0

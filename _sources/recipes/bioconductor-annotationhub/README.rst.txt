@@ -23,7 +23,7 @@ bioconductor-annotationhub
 
    |downloads_bioconductor-annotationhub| |docker_bioconductor-annotationhub|
 
-   :versions: 2.14.2-0, 2.12.1-0, 2.10.1-0, 2.10.0-0, 2.8.2-0, 2.6.0-0
+   :versions: 2.14.5-0, 2.14.2-0, 2.12.1-0, 2.10.1-0, 2.10.0-0, 2.8.2-0, 2.6.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0

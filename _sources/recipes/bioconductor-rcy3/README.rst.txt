@@ -22,7 +22,7 @@ bioconductor-rcy3
 
    |downloads_bioconductor-rcy3| |docker_bioconductor-rcy3|
 
-   :versions: 2.2.6-0, 2.0.88-0, 1.8.0-0
+   :versions: 2.2.9-0, 2.2.6-0, 2.0.88-0, 1.8.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    :depends bioconductor-graph: >=1.60.0,<1.61.0

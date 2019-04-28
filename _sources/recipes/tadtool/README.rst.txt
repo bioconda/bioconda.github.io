@@ -22,7 +22,7 @@ tadtool
 
    |downloads_tadtool| |docker_tadtool|
 
-   :versions: 0.77-0, 0.75-1, 0.75-0
+   :versions: 0.78-0, 0.77-0, 0.75-1, 0.75-0
    
    :depends future: 
    :depends matplotlib: 

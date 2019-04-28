@@ -22,10 +22,12 @@ perl-ipc-system-simple
 
    |downloads_perl-ipc-system-simple| |docker_perl-ipc-system-simple|
 
-   :versions: 1.25-4, 1.25-3, 1.25-2, 1.25-1, 1.25-0
+   :versions: 1.25-5, 1.25-4, 1.25-3, 1.25-2, 1.25-1, 1.25-0
    
-   :depends libgcc-ng: >=4.9
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl-carp: 
+   :depends perl-constant: 
+   :depends perl-exporter: 
    :requirements:
 
    .. rubric:: Installation

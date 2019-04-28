@@ -23,7 +23,7 @@ bioconductor-geoquery
 
    |downloads_bioconductor-geoquery| |docker_bioconductor-geoquery|
 
-   :versions: 2.50.0-0, 2.48.0-0, 2.46.3-0, 2.46.0-0, 2.42.0-0, 2.38.4-0, 2.36.0-0
+   :versions: 2.50.5-0, 2.50.0-0, 2.48.0-0, 2.46.3-0, 2.46.0-0, 2.42.0-0, 2.38.4-0, 2.36.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-limma: >=3.38.0,<3.39.0

@@ -22,7 +22,7 @@ bioconductor-coveb
 
    |downloads_bioconductor-coveb| |docker_bioconductor-coveb|
 
-   :versions: 1.8.0-0
+   :versions: 1.8.1-0, 1.8.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends r-base: >=3.5.1,<3.5.2.0a0

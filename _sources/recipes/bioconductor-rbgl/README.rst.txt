@@ -23,7 +23,7 @@ bioconductor-rbgl
 
    |downloads_bioconductor-rbgl| |docker_bioconductor-rbgl|
 
-   :versions: 1.58.1-0, 1.56.0-0, 1.54.0-0, 1.52.0-0, 1.48.1-1, 1.46.0-1, 1.46.0-0
+   :versions: 1.58.2-0, 1.58.1-0, 1.56.0-0, 1.54.0-0, 1.52.0-0, 1.48.1-1, 1.46.0-1, 1.46.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
    :depends libgcc-ng: >=7.3.0

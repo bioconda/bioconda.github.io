@@ -22,7 +22,7 @@ bioconductor-mfa
 
    |downloads_bioconductor-mfa| |docker_bioconductor-mfa|
 
-   :versions: 1.4.0-0
+   :versions: 1.4.1-0, 1.4.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends libgcc-ng: >=7.3.0

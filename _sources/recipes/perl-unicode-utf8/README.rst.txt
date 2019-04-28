@@ -22,9 +22,10 @@ perl-unicode-utf8
 
    |downloads_perl-unicode-utf8| |docker_perl-unicode-utf8|
 
-   :versions: 0.62-0
+   :versions: 0.62-1, 0.62-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-carp: 
    :depends perl-exporter: 

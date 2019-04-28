@@ -22,9 +22,10 @@ perl-unicode-normalize
 
    |downloads_perl-unicode-normalize| |docker_perl-unicode-normalize|
 
-   :versions: 1.26-0, 1.25-0, 1.18-0
+   :versions: 1.26-1, 1.26-0, 1.25-0, 1.18-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-carp: 
    :depends perl-constant: 

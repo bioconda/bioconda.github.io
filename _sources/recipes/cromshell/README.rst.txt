@@ -22,7 +22,7 @@ cromshell
 
    |downloads_cromshell| |docker_cromshell|
 
-   :versions: 0.2.3-0
+   :versions: 0.3.3-0, 0.2.3-0
    
    :depends cromwell: 
    :depends jq: 

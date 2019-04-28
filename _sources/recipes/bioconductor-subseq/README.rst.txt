@@ -23,7 +23,7 @@ bioconductor-subseq
 
    |downloads_bioconductor-subseq| |docker_bioconductor-subseq|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions: 1.12.1-0, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-qvalue: >=2.14.0,<2.15.0

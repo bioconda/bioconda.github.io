@@ -22,7 +22,7 @@ bioconductor-xina
 
    |downloads_bioconductor-xina| |docker_bioconductor-xina|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.1-0, 1.0.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-stringdb: >=1.22.0,<1.23.0

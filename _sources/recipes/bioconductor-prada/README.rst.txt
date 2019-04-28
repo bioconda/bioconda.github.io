@@ -23,7 +23,7 @@ bioconductor-prada
 
    |downloads_bioconductor-prada| |docker_bioconductor-prada|
 
-   :versions: 1.58.0-0, 1.56.0-0, 1.54.0-0, 1.52.0-0
+   :versions: 1.58.1-0, 1.58.0-0, 1.56.0-0, 1.54.0-0, 1.52.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0

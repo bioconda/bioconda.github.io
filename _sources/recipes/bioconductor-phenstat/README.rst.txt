@@ -22,7 +22,7 @@ bioconductor-phenstat
 
    |downloads_bioconductor-phenstat| |docker_bioconductor-phenstat|
 
-   :versions: 2.18.0-0
+   :versions: 2.18.1-0, 2.18.0-0
    
    :depends bioconductor-graph: >=1.60.0,<1.61.0
    :depends libgcc-ng: >=7.3.0

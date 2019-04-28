@@ -23,7 +23,7 @@ bioconductor-mirage
 
    |downloads_bioconductor-mirage| |docker_bioconductor-mirage|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0
+   :versions: 1.24.1-0, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0
    
    :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
    :depends bioconductor-biobase: >=2.42.0,<2.43.0

@@ -22,7 +22,7 @@ bioconductor-sevenbridges
 
    |downloads_bioconductor-sevenbridges| |docker_bioconductor-sevenbridges|
 
-   :versions: 1.12.3-0
+   :versions: 1.12.5-0, 1.12.3-0
    
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
    :depends r-base: >=3.5.1,<3.5.2.0a0

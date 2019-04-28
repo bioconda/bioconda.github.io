@@ -22,14 +22,14 @@ crispresso
 
    |downloads_crispresso| |docker_crispresso|
 
-   :versions: 1.0.13-1, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0-0
+   :versions: 1.0.13-2, 1.0.13-1, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0-0
    
    :depends argparse: 
    :depends biopython: >=1.6.5
    :depends bowtie2: 
    :depends emboss: 
    :depends flash: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: >=1.3.1
    :depends mock: 
    :depends nose: 

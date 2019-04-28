@@ -23,7 +23,7 @@ bioconductor-flowcore
 
    |downloads_bioconductor-flowcore| |docker_bioconductor-flowcore|
 
-   :versions: 1.48.0-0, 1.46.2-0, 1.44.0-0, 1.42.3-0, 1.42.0-0, 1.38.2-1, 1.38.2-0
+   :versions: 1.48.1-0, 1.48.0-0, 1.46.2-0, 1.44.0-0, 1.42.3-0, 1.42.0-0, 1.38.2-1, 1.38.2-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0

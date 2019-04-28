@@ -23,7 +23,7 @@ bioconductor-qcmetrics
 
    |downloads_bioconductor-qcmetrics| |docker_bioconductor-qcmetrics|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions: 1.20.1-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
