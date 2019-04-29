@@ -1,9 +1,9 @@
-update
-======
+autobump
+========
 
 
-.. currentmodule:: bioconda_utils.update
-.. automodule:: bioconda_utils.update
+.. currentmodule:: bioconda_utils.autobump
+.. automodule:: bioconda_utils.autobump
    :members:
 
    
@@ -16,8 +16,10 @@ update
 
    .. autosummary::
    
+      CheckPinning
       CreatePullRequest
       ExcludeBlacklisted
+      ExcludeDependencyPending
       ExcludeNoActiveUpdate
       ExcludeOtherChannel
       ExcludeSubrecipe
@@ -28,10 +30,13 @@ update
       GitWriteRecipe
       LoadRecipe
       MaxUpdates
+      RecipeGraphSource
+      RecipeSource
       Scanner
       UpdateChecksums
       UpdateVersion
       WriteRecipe
+      WritingFilter
    
    
 

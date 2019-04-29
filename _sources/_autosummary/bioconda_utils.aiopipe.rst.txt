@@ -1,9 +1,9 @@
-async
-=====
+aiopipe
+=======
 
 
-.. currentmodule:: bioconda_utils.async
-.. automodule:: bioconda_utils.async
+.. currentmodule:: bioconda_utils.aiopipe
+.. automodule:: bioconda_utils.aiopipe
    :members:
 
    

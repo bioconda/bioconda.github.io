@@ -32,6 +32,7 @@ recipe
 
    .. autosummary::
    
+      CondaRenderFailure
       DuplicateKey
       EmptyRecipe
       HasSelector

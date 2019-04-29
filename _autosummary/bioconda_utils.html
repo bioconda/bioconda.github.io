@@ -79,8 +79,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">bioconda_utils</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cli.html">cli</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.async.html">async</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.build.html">build</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.circleci.html">circleci</a></li>
@@ -97,7 +96,7 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update.html">update</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.autobump.html">autobump</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.utils.html">utils</a></li>
@@ -155,70 +154,67 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.aiopipe.html#module-bioconda_utils.aiopipe" title="bioconda_utils.aiopipe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">aiopipe</span></code></a></p></td>
+<td><p>Utilities for Asynchronous Processing</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html#module-bioconda_utils.bioconductor_skeleton" title="bioconda_utils.bioconductor_skeleton"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bioconductor_skeleton</span></code></a></p></td>
+<td><p>Conda Skeleton for Bioconductor Recipes</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.build.html#module-bioconda_utils.build" title="bioconda_utils.build"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build</span></code></a></p></td>
+<td><p>Package Builder</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.circleci.html#module-bioconda_utils.circleci" title="bioconda_utils.circleci"><code class="xref py py-obj docutils literal notranslate"><span class="pre">circleci</span></code></a></p></td>
+<td><p>CircleCI Web-API Bindings</p></td>
+</tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.cli.html#module-bioconda_utils.cli" title="bioconda_utils.cli"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cli</span></code></a></p></td>
 <td><p>Bioconda Utils Command Line Interface</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.async.html#module-bioconda_utils.async" title="bioconda_utils.async"><code class="xref py py-obj docutils literal notranslate"><span class="pre">async</span></code></a></p></td>
-<td><p>Utilities for Asynchronous Processing</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html#module-bioconda_utils.bioconductor_skeleton" title="bioconda_utils.bioconductor_skeleton"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bioconductor_skeleton</span></code></a></p></td>
-<td><p>Conda Skeleton for Bioconductor Recipes</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.build.html#module-bioconda_utils.build" title="bioconda_utils.build"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build</span></code></a></p></td>
-<td><p>Package Builder</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.circleci.html#module-bioconda_utils.circleci" title="bioconda_utils.circleci"><code class="xref py py-obj docutils literal notranslate"><span class="pre">circleci</span></code></a></p></td>
-<td><p>CircleCI Web-API Bindings</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.cli.html#module-bioconda_utils.cli" title="bioconda_utils.cli"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cli</span></code></a></p></td>
-<td><p>Bioconda Utils Command Line Interface</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.cran_skeleton.html#module-bioconda_utils.cran_skeleton" title="bioconda_utils.cran_skeleton"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cran_skeleton</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.cran_skeleton.html#module-bioconda_utils.cran_skeleton" title="bioconda_utils.cran_skeleton"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cran_skeleton</span></code></a></p></td>
 <td><p>This module cleans up conda CRAN skeletons to make it compliant with conda-forge requirements.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.docker_utils.html#module-bioconda_utils.docker_utils" title="bioconda_utils.docker_utils"><code class="xref py py-obj docutils literal notranslate"><span class="pre">docker_utils</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.docker_utils.html#module-bioconda_utils.docker_utils" title="bioconda_utils.docker_utils"><code class="xref py py-obj docutils literal notranslate"><span class="pre">docker_utils</span></code></a></p></td>
 <td><p>To ensure conda packages are built in the most compatible manner, we can use a docker container.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.githandler.html#module-bioconda_utils.githandler" title="bioconda_utils.githandler"><code class="xref py py-obj docutils literal notranslate"><span class="pre">githandler</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.githandler.html#module-bioconda_utils.githandler" title="bioconda_utils.githandler"><code class="xref py py-obj docutils literal notranslate"><span class="pre">githandler</span></code></a></p></td>
 <td><p>Wrappers for interacting with <code class="docutils literal notranslate"><span class="pre">git</span></code></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.github_integration.html#module-bioconda_utils.github_integration" title="bioconda_utils.github_integration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">github_integration</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.github_integration.html#module-bioconda_utils.github_integration" title="bioconda_utils.github_integration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">github_integration</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.githubhandler.html#module-bioconda_utils.githubhandler" title="bioconda_utils.githubhandler"><code class="xref py py-obj docutils literal notranslate"><span class="pre">githubhandler</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.githubhandler.html#module-bioconda_utils.githubhandler" title="bioconda_utils.githubhandler"><code class="xref py py-obj docutils literal notranslate"><span class="pre">githubhandler</span></code></a></p></td>
 <td><p>Wrappers for Github Web-API Bindings</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.graph.html#module-bioconda_utils.graph" title="bioconda_utils.graph"><code class="xref py py-obj docutils literal notranslate"><span class="pre">graph</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.graph.html#module-bioconda_utils.graph" title="bioconda_utils.graph"><code class="xref py py-obj docutils literal notranslate"><span class="pre">graph</span></code></a></p></td>
 <td><p>Construction and Manipulation of Package/Recipe Graphs</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.hosters.html#module-bioconda_utils.hosters" title="bioconda_utils.hosters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">hosters</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.hosters.html#module-bioconda_utils.hosters" title="bioconda_utils.hosters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">hosters</span></code></a></p></td>
 <td><p>Check package URLs for updates</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.lint_functions.html#module-bioconda_utils.lint_functions" title="bioconda_utils.lint_functions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">lint_functions</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.lint_functions.html#module-bioconda_utils.lint_functions" title="bioconda_utils.lint_functions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">lint_functions</span></code></a></p></td>
 <td><p>Lint Checks for Recipe Linter</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.linting.html#module-bioconda_utils.linting" title="bioconda_utils.linting"><code class="xref py py-obj docutils literal notranslate"><span class="pre">linting</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.linting.html#module-bioconda_utils.linting" title="bioconda_utils.linting"><code class="xref py py-obj docutils literal notranslate"><span class="pre">linting</span></code></a></p></td>
 <td><p>Recipe Linter</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.pkg_test.html#module-bioconda_utils.pkg_test" title="bioconda_utils.pkg_test"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pkg_test</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.pkg_test.html#module-bioconda_utils.pkg_test" title="bioconda_utils.pkg_test"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pkg_test</span></code></a></p></td>
 <td><p>Mulled Tests</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.recipe.html#module-bioconda_utils.recipe" title="bioconda_utils.recipe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">recipe</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.recipe.html#module-bioconda_utils.recipe" title="bioconda_utils.recipe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">recipe</span></code></a></p></td>
 <td><p>Editable Recipe (<code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>)</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.sphinxext.html#module-bioconda_utils.sphinxext" title="bioconda_utils.sphinxext"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sphinxext</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.sphinxext.html#module-bioconda_utils.sphinxext" title="bioconda_utils.sphinxext"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sphinxext</span></code></a></p></td>
 <td><p>Bioconda-Utils sphinx extension</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.update.html#module-bioconda_utils.update" title="bioconda_utils.update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.autobump.html#module-bioconda_utils.autobump" title="bioconda_utils.autobump"><code class="xref py py-obj docutils literal notranslate"><span class="pre">autobump</span></code></a></p></td>
 <td><p>Updates packages when new upstream releases become available</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.update_pinnings.html#module-bioconda_utils.update_pinnings" title="bioconda_utils.update_pinnings"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_pinnings</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.update_pinnings.html#module-bioconda_utils.update_pinnings" title="bioconda_utils.update_pinnings"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_pinnings</span></code></a></p></td>
 <td><p>Determine which packages need updates after pinning change</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.upload.html#module-bioconda_utils.upload" title="bioconda_utils.upload"><code class="xref py py-obj docutils literal notranslate"><span class="pre">upload</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.upload.html#module-bioconda_utils.upload" title="bioconda_utils.upload"><code class="xref py py-obj docutils literal notranslate"><span class="pre">upload</span></code></a></p></td>
 <td><p>Deploy Artifacts to Anaconda and Quay</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.utils.html#module-bioconda_utils.utils" title="bioconda_utils.utils"><code class="xref py py-obj docutils literal notranslate"><span class="pre">utils</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.utils.html#module-bioconda_utils.utils" title="bioconda_utils.utils"><code class="xref py py-obj docutils literal notranslate"><span class="pre">utils</span></code></a></p></td>
 <td><p>Utility Functions and Classes</p></td>
 </tr>
 </tbody>

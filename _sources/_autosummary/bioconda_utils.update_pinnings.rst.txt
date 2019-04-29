@@ -12,7 +12,6 @@ update\_pinnings
 
    .. autosummary::
    
-      bump_recipe
       check
       have_variant
       have_variant_but_for_python

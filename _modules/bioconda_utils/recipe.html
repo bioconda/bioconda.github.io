@@ -115,13 +115,16 @@
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">tempfile</span>
 
 <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">defaultdict</span>
 <span class="kn">from</span> <span class="nn">contextlib</span> <span class="k">import</span> <span class="n">redirect_stdout</span><span class="p">,</span> <span class="n">redirect_stderr</span>
-<span class="kn">from</span> <span class="nn">copy</span> <span class="k">import</span> <span class="n">copy</span>
-<span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Sequence</span><span class="p">,</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">Pattern</span>
+<span class="kn">from</span> <span class="nn">copy</span> <span class="k">import</span> <span class="n">deepcopy</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Sequence</span><span class="p">,</span> <span class="n">Tuple</span><span class="p">,</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">Pattern</span>
+
 
 <span class="kn">import</span> <span class="nn">conda_build.api</span>
+<span class="kn">from</span> <span class="nn">conda_build.metadata</span> <span class="k">import</span> <span class="n">MetaData</span>
 
 <span class="kn">import</span> <span class="nn">jinja2</span>
 
@@ -133,7 +136,7 @@
     <span class="kn">from</span> <span class="nn">ruamel_yaml.constructor</span> <span class="k">import</span> <span class="n">DuplicateKeyError</span>
 
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">utils</span>
-<span class="kn">from</span> <span class="nn">.async</span> <span class="k">import</span> <span class="n">EndProcessingItem</span>
+<span class="kn">from</span> <span class="nn">.aiopipe</span> <span class="k">import</span> <span class="n">EndProcessingItem</span>
 
 
 <span class="n">yaml</span> <span class="o">=</span> <span class="n">YAML</span><span class="p">(</span><span class="n">typ</span><span class="o">=</span><span class="s2">&quot;rt&quot;</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
@@ -191,6 +194,10 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;has missing file `meta.yaml`&quot;</span></div>
 
+<div class="viewcode-block" id="CondaRenderFailure"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.CondaRenderFailure">[docs]</a><span class="k">class</span> <span class="nc">CondaRenderFailure</span><span class="p">(</span><span class="n">RecipeError</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Raised when conda_build.api.render fails&quot;&quot;&quot;</span>
+    <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;could not be rendered by conda-build: </span><span class="si">%s</span><span class="s2">&quot;</span></div>
+
 
 <div class="viewcode-block" id="RenderFailure"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.RenderFailure">[docs]</a><span class="k">class</span> <span class="nc">RenderFailure</span><span class="p">(</span><span class="n">RecipeError</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Raised on Jinja rendering problems</span>
@@ -238,6 +245,7 @@
         <span class="k">if</span> <span class="ow">not</span> <span class="n">recipe_dir</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">):</span>
             <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;&#39;</span><span class="si">{recipe_dir}</span><span class="s2">&#39; not inside &#39;</span><span class="si">{recipe_folder}</span><span class="s2">&#39;&quot;</span><span class="p">)</span>
 
+
         <span class="c1">#: path to folder containing recipes</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">basedir</span> <span class="o">=</span> <span class="n">recipe_folder</span>
         <span class="c1">#: relative path to recipe dir from folder containing recipes</span>
@@ -251,11 +259,17 @@
         <span class="c1">#: Lines of the raw recipe file</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="c1"># Filled in by update filter</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">version_data</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">version_data</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
         <span class="c1">#: Original recipe before modifications (updated by load_from_string)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">orig</span><span class="p">:</span> <span class="n">Recipe</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">orig</span><span class="p">:</span> <span class="n">Recipe</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
         <span class="c1">#: Whether the recipe was loaded from a branch (update in progress)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">on_branch</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="c1">#: For passing data around</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+
+        <span class="c1"># for conda_render() and conda_release()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_conda_meta</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_conda_tempdir</span> <span class="o">=</span> <span class="kc">None</span>
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">path</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -318,6 +332,7 @@
                 <span class="k">if</span> <span class="n">return_exceptions</span><span class="p">:</span>
                     <span class="k">return</span> <span class="n">exc</span>
                 <span class="k">raise</span> <span class="n">exc</span>
+        <span class="n">recipe</span><span class="o">.</span><span class="n">set_original</span><span class="p">()</span>
         <span class="k">return</span> <span class="n">recipe</span></div>
 
 <div class="viewcode-block" id="Recipe.save"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.save">[docs]</a>    <span class="k">def</span> <span class="nf">save</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -326,7 +341,10 @@
 
 <div class="viewcode-block" id="Recipe.set_original"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.set_original">[docs]</a>    <span class="k">def</span> <span class="nf">set_original</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Store the current state of the recipe as &quot;original&quot; version&quot;&quot;&quot;</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">orig</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span></div>
+        <span class="bp">self</span><span class="o">.</span><span class="n">orig</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Recipe.is_modified"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.is_modified">[docs]</a>    <span class="k">def</span> <span class="nf">is_modified</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">orig</span><span class="o">.</span><span class="n">meta_yaml</span></div>
 
 <div class="viewcode-block" id="Recipe.dump"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.dump">[docs]</a>    <span class="k">def</span> <span class="nf">dump</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Dump recipe content&quot;&quot;&quot;</span>
@@ -453,6 +471,11 @@
     <span class="k">def</span> <span class="nf">version</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;The version of the package build by this recipe&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s2">&quot;package&quot;</span><span class="p">][</span><span class="s2">&quot;version&quot;</span><span class="p">])</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">build_number</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;The current build number&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s2">&quot;build&quot;</span><span class="p">][</span><span class="s2">&quot;number&quot;</span><span class="p">])</span>
 
     <span class="k">def</span> <span class="nf">__getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
@@ -639,12 +662,72 @@
 
         <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">entry</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">lst</span> <span class="ow">in</span> <span class="n">lists</span> <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">lst</span> <span class="k">if</span> <span class="n">entry</span><span class="p">))</span></div>
 
-<div class="viewcode-block" id="Recipe.conda_render"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.conda_render">[docs]</a>    <span class="k">def</span> <span class="nf">conda_render</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/dev/null&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">devnull</span><span class="p">:</span>
-            <span class="k">with</span> <span class="n">redirect_stdout</span><span class="p">(</span><span class="n">devnull</span><span class="p">),</span> <span class="n">redirect_stderr</span><span class="p">(</span><span class="n">devnull</span><span class="p">):</span>
-                <span class="k">return</span> <span class="n">conda_build</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div></div>
-            <span class="c1"># raises conda_build.exceptions.DependencyNeedsBuildingError:</span>
-            <span class="c1"># raises RuntimeError (&#39;can&#39;t depend on itself&#39;)</span>
+<div class="viewcode-block" id="Recipe.conda_render"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.conda_render">[docs]</a>    <span class="k">def</span> <span class="nf">conda_render</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="n">MetaData</span><span class="p">,</span> <span class="nb">bool</span><span class="p">,</span> <span class="nb">bool</span><span class="p">]]:</span>
+        <span class="sd">&quot;&quot;&quot;Handles calling conda_build.api.render</span>
+
+<span class="sd">        ``conda_build.api.render`` is fragile, loud and slow. Avoid using this</span>
+<span class="sd">        whenever you can.</span>
+
+<span class="sd">        This function will create a temporary directory, write out the</span>
+<span class="sd">        current ``meta.yaml`` contents, redirect stdout and stderr to silence</span>
+<span class="sd">        needless prints, ultimately call the `render` function, catching</span>
+<span class="sd">        various exceptions and rewriting them into `CondaRenderFailure`, then</span>
+<span class="sd">        cache the result.</span>
+
+<span class="sd">        Since the ``MetaData`` objects returned expect the on-disk `meta.yaml`</span>
+<span class="sd">        to persist (it can get reloaded later on), clients of this function</span>
+<span class="sd">        must **make sure to call `conda_release` once you are done** with those</span>
+<span class="sd">        objects.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          kwargs: passed on to ``conda_build.api.render``</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">          `CondaRenderfailure`: Some of the exceptions raised are rewritten</span>
+<span class="sd">                                to simplify handling. The list will grow, but</span>
+<span class="sd">                                is likely incomplete.</span>
+<span class="sd">        Returns:</span>
+<span class="sd">          List of 3-tuples each comprising the rendered MetaData and the flags</span>
+<span class="sd">          ``needs_download`` and ``needs_render_in_env``.</span>
+
+<span class="sd">        FIXME:</span>
+<span class="sd">          Need to use **kwargs** to invalidate cache.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_conda_meta</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_conda_meta</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">conda_release</span><span class="p">()</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_conda_tempdir</span> <span class="o">=</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">TemporaryDirectory</span><span class="p">()</span>
+
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_conda_tempdir</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="s1">&#39;meta.yaml&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">tmpfile</span><span class="p">:</span>
+                <span class="n">tmpfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dump</span><span class="p">())</span>
+
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/dev/null&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">devnull</span><span class="p">:</span>
+                <span class="k">with</span> <span class="n">redirect_stdout</span><span class="p">(</span><span class="n">devnull</span><span class="p">),</span> <span class="n">redirect_stderr</span><span class="p">(</span><span class="n">devnull</span><span class="p">):</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">_conda_meta</span> <span class="o">=</span> <span class="n">conda_build</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_conda_tempdir</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">RuntimeError</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">exc</span><span class="o">.</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;Couldn&#39;t extract raw recipe text&quot;</span><span class="p">):</span>
+                <span class="n">line</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;package&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;build&#39;</span><span class="p">):</span>
+                    <span class="k">raise</span> <span class="n">CondaRenderFailure</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;Must start with package or build section&quot;</span><span class="p">)</span>
+            <span class="k">raise</span>
+        <span class="k">except</span> <span class="ne">SystemExit</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+            <span class="n">msg</span> <span class="o">=</span> <span class="n">exc</span><span class="o">.</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">msg</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;Error: Failed to render jinja&quot;</span><span class="p">):</span>
+                <span class="n">msg</span> <span class="o">=</span> <span class="s1">&#39;; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()[</span><span class="mi">1</span><span class="p">:])</span> <span class="k">if</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="ow">in</span> <span class="n">msg</span> <span class="k">else</span> <span class="n">msg</span>
+                <span class="k">raise</span> <span class="n">CondaRenderFailure</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">f</span><span class="s2">&quot;Jinja2 Template Error: &#39;</span><span class="si">{msg}</span><span class="s2">&#39;&quot;</span><span class="p">)</span>
+            <span class="k">raise</span> <span class="n">CondaRenderFailure</span><span class="p">(</span>
+                <span class="bp">self</span><span class="p">,</span> <span class="n">f</span><span class="s2">&quot;Unknown SystemExit raised in Conda-Build Render API: &#39;</span><span class="si">{msg}</span><span class="s2">&#39;&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_conda_meta</span></div>
+
+<div class="viewcode-block" id="Recipe.conda_release"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.conda_release">[docs]</a>    <span class="k">def</span> <span class="nf">conda_release</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Releases resources acquired in `conda_render`&quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_conda_meta</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_conda_meta</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_conda_tempdir</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_conda_tempdir</span><span class="o">.</span><span class="n">cleanup</span><span class="p">()</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_conda_tempdir</span> <span class="o">=</span> <span class="kc">None</span></div></div>
 
 
 <div class="viewcode-block" id="load_parallel_iter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.load_parallel_iter">[docs]</a><span class="k">def</span> <span class="nf">load_parallel_iter</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">packages</span><span class="p">):</span>
