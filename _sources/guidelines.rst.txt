@@ -548,7 +548,7 @@ contributors have solved various problems:
 Name collisions (identical names)
 ---------------------------------
 
-In rare cases, a new recipe may have an identical name as an existing conda or Python package. This sort of naming collision is not permitted. For example, the `weblogo
+In rare cases, a new recipe may have an identical name as an existing conda, conda-forge, bioconda, or Python package. This sort of naming collision should be avoided. For example, the `weblogo
 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/weblogo>`_
 recipe is for the standard command-line tool. There is also a Python package
 called ``weblogo`` `on PyPI <https://pypi.python.org/pypi/weblogo>`_. In this case, to reduce ambiguity
