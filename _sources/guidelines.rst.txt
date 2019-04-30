@@ -546,7 +546,8 @@ contributors have solved various problems:
   conda environment
 
 Name collisions (identical names)
----------------
+---------------------------------
+
 In rare cases, a new recipe may have an identical name as an existing conda or Python package. This sort of naming collision is not permitted. For example, the `weblogo
 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/weblogo>`_
 recipe is for the standard command-line tool. There is also a Python package
@@ -561,6 +562,7 @@ issue, or ask ``@bioconda/core`` in a PR.
 
 Tests
 -----
+
 An adequate test must be included in the recipe. An "adequate" test
 depends on the recipe, but must be able to detect a successful
 installation. While many packages may ship their own test suite (unit
@@ -578,6 +580,7 @@ cluttering the output in the CircleCI build environment.
 
 Link and unlink scripts (pre- and post- install hooks)
 ------------------------------------------------------
+
 It is possible to include `scripts
 <https://conda.io/docs/user-guide/tasks/build-packages/link-scripts.html>`_ that are
 executed before or after installing a package, or before uninstalling
@@ -611,6 +614,7 @@ These scripts have access to the following environment variables:
 
 Versions
 --------
+
 In general, recipes can be updated in-place. The older package[s] will continue
 to be hosted and available on anaconda.org while the recipe will reflect just
 the most recent package.
