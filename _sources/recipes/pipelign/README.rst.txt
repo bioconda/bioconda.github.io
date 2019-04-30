@@ -22,7 +22,7 @@ pipelign
 
    |downloads_pipelign| |docker_pipelign|
 
-   :versions: 0.2-0
+   :versions: 0.2-1, 0.2-0
    
    :depends biopython: 
    :depends cd-hit: 
@@ -31,6 +31,7 @@ pipelign
    :depends iqtree: 
    :depends joblib: 
    :depends mafft: 
+   :depends parallel: 
    :depends python: >=3.6,<3.7.0a0
    :requirements:
 

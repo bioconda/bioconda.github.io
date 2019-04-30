@@ -24,10 +24,11 @@ jellyfish
 
    |downloads_jellyfish| |docker_jellyfish|
 
-   :versions: 2.2.10-0, 2.2.6-0, 2.2.3-3, 2.2.3-2, 2.2.3-1, 2.2.3-0, 1.1.12-0, 1.1.11-1, 1.1.11-0
+   :versions: 2.2.10-1, 2.2.10-0, 2.2.6-0, 2.2.3-3, 2.2.3-2, 2.2.3-1, 2.2.3-0, 1.1.12-0, 1.1.11-1, 1.1.11-0
    
    :depends jemalloc: 
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

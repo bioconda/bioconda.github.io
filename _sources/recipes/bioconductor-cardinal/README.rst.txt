@@ -23,7 +23,7 @@ bioconductor-cardinal
 
    |downloads_bioconductor-cardinal| |docker_bioconductor-cardinal|
 
-   :versions: 2.0.2-0, 1.12.1-1, 1.12.1-0, 1.10.0-0, 1.8.0-0, 1.7.0-0
+   :versions: 2.0.4-0, 2.0.2-0, 1.12.1-1, 1.12.1-0, 1.10.0-0, 1.8.0-0, 1.7.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0

@@ -22,12 +22,12 @@ jcvi
 
    |downloads_jcvi| |docker_jcvi|
 
-   :versions: 0.8.12-0, 0.8.4-1, 0.8.4-0
+   :versions: 0.8.12-1, 0.8.12-0, 0.8.4-1, 0.8.4-0
    
    :depends biopython: 
    :depends deap: 
    :depends gffutils: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: 
    :depends networkx: 
    :depends numpy: 

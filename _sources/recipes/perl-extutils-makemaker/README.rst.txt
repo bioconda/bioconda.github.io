@@ -22,7 +22,7 @@ perl-extutils-makemaker
 
    |downloads_perl-extutils-makemaker| |docker_perl-extutils-makemaker|
 
-   :versions: 7.34-3, 7.34-2, 7.34-1, 7.34-0, 7.24-3, 7.24-1, 7.24-0, 6.66-2, 6.66-1, 6.66-0
+   :versions: 7.36-0, 7.34-3, 7.34-2, 7.34-1, 7.34-0, 7.24-3, 7.24-1, 7.24-0, 6.66-2, 6.66-1, 6.66-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:

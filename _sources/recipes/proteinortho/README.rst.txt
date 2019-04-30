@@ -1,0 +1,74 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'proteinortho'
+.. highlight: bash
+
+proteinortho
+============
+
+.. conda:recipe:: proteinortho
+   :replaces_section_title:
+
+   Proteinortho is a tool to detect orthologous genes within different species.
+
+   :homepage: https://gitlab.com/paulklemm_PHD/proteinortho/
+   :license: GNU-3
+   :recipe: /`proteinortho <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proteinortho>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proteinortho/meta.yaml>`_
+
+   
+
+
+.. conda:package:: proteinortho
+
+   |downloads_proteinortho| |docker_proteinortho|
+
+   :versions: 6.0b-0
+   
+   :depends diamond: 
+   :depends lapack: 
+   :depends libgcc-ng: >=7.3.0
+   :depends libgfortran-ng: >=7,<8.0a0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends openmp: 
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends python: >=2.7,<2.8.0a0
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install proteinortho
+
+   and update with::
+
+      conda update proteinortho
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/proteinortho:<tag>
+
+   (see `proteinortho/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_proteinortho| image:: https://img.shields.io/conda/dn/bioconda/proteinortho.svg?style=flat
+   :alt:   (downloads)
+.. |docker_proteinortho| image:: https://quay.io/repository/biocontainers/proteinortho/status
+   :target: https://quay.io/repository/biocontainers/proteinortho
+.. _`proteinortho/tags`: https://quay.io/repository/biocontainers/proteinortho?tab=tags
+
+
+
+
+
+
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/proteinortho/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/proteinortho/README.html

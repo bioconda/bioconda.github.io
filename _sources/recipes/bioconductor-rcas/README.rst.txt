@@ -23,23 +23,23 @@ bioconductor-rcas
 
    |downloads_bioconductor-rcas| |docker_bioconductor-rcas|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.5.4-2, 1.5.4-0, 1.4.0-0, 1.2.0-0, 1.1.1-0, 1.0.0-0, 1.0.0.dev75225b9-0
+   :versions: 1.6.0-0, 1.5.4-2, 1.5.4-0, 1.4.0-0, 1.2.0-0, 1.1.1-0, 1.0.0-0, 1.0.0.dev75225b9-0
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: >=1.4.0,<1.5.0
-   :depends bioconductor-genomation: >=1.14.0,<1.15.0
-   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-motifrg: >=1.26.0,<1.27.0
-   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends bioconductor-topgo: >=2.34.0,<2.35.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationdbi: >=1.42.1,<1.44.0
+   :depends bioconductor-biocgenerics: >=0.26.0,<0.28.0
+   :depends bioconductor-biomart: >=2.36.1,<2.38.0
+   :depends bioconductor-biostrings: >=2.48.0,<2.50.0
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: >=1.4.0,<1.6.0
+   :depends bioconductor-genomation: >=1.12.0,<1.14.0
+   :depends bioconductor-genomeinfodb: >=1.16.0,<1.18.0
+   :depends bioconductor-genomicfeatures: >=1.32.2,<1.34.0
+   :depends bioconductor-genomicranges: >=1.32.7,<1.34.0
+   :depends bioconductor-motifrg: >=1.24.0,<1.26.0
+   :depends bioconductor-org.hs.eg.db: >=3.6.0,<3.8.0
+   :depends bioconductor-rtracklayer: >=1.40.6,<1.42.0
+   :depends bioconductor-s4vectors: >=0.18.3,<0.20.0
+   :depends bioconductor-topgo: >=2.32.0,<2.34.0
+   :depends r-base: >=3.4.1,<3.4.2.0a0
    :depends r-cowplot: 
    :depends r-data.table: 
    :depends r-dbi: 

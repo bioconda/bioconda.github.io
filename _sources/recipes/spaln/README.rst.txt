@@ -29,7 +29,7 @@ spaln
 
    |downloads_spaln| |docker_spaln|
 
-   :versions: 2.3.3-0, 2.3.3a-0, 2.3.2-0
+   :versions: 2.3.3-0, 2.3.3b-0, 2.3.3a-0, 2.3.2-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

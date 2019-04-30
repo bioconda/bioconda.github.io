@@ -11,30 +11,40 @@ kipoi
 
    Kipoi\: model zoo for genomics
 
-   :homepage: https://github.com/kipoi/kipoi
+   :homepage: https://kipoi.org
+   :documentation: https://kipoi.org/docs/
+   
+   :developer docs: https://github.com/kipoi/kipoi
    :license: MIT / MIT
    :recipe: /`kipoi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kipoi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kipoi/meta.yaml>`_
 
-   Kipoi\: model zoo for genomics. http\:\/\/kipoi.org\/
+   Kipoi\: model zoo for genomics.
 
 
 .. conda:package:: kipoi
 
    |downloads_kipoi| |docker_kipoi|
 
-   :versions: 0.6.5-0, 0.6.3-0, 0.6.0-0, 0.5.7-0, 0.3.6-1, 0.3.6-0
+   :versions: 0.6.12-0, 0.6.5-0, 0.6.3-0, 0.6.0-0, 0.5.7-0, 0.3.6-1, 0.3.6-0
    
+   :depends attrs: >=17.4.0
    :depends colorlog: 
-   :depends cookiecutter: 
+   :depends cookiecutter: >=1.6.0
+   :depends deprecation: >=2.0.6
+   :depends enum34: 
    :depends future: 
-   :depends git-lfs: 
    :depends h5py: 
+   :depends jinja2: 
+   :depends kipoi-conda: >=0.1.6
+   :depends kipoi-utils: >=0.1.12
    :depends numpy: 
-   :depends pandas: 
+   :depends pandas: >=0.21.0
    :depends python: 
    :depends pyyaml: 
+   :depends related: >=0.6.0
+   :depends tinydb: 
    :depends tqdm: 
-   :depends urllib3: >=1.21.1,<1.23
+   :depends urllib3: >=1.21.1
    :requirements:
 
    .. rubric:: Installation

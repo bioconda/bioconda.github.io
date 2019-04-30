@@ -22,21 +22,8 @@ bioconductor-svm2crm
 
    |downloads_bioconductor-svm2crm| |docker_bioconductor-svm2crm|
 
-   :versions: 1.14.0-0
+   :versions: 
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
-   :depends bioconductor-svm2crmdata: >=1.14.0,<1.15.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends r-liblinear: 
-   :depends r-mclust: 
-   :depends r-pls: 
-   :depends r-rocr: 
-   :depends r-squash: 
-   :depends r-verification: 
-   :depends r-zoo: 
    :requirements:
 
    .. rubric:: Installation
