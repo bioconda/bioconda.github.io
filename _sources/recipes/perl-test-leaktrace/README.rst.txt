@@ -22,9 +22,10 @@ perl-test-leaktrace
 
    |downloads_perl-test-leaktrace| |docker_perl-test-leaktrace|
 
-   :versions: 0.16-1, 0.16-0, 0.15-1, 0.15-0
+   :versions: 0.16-2, 0.16-1, 0.16-0, 0.15-1, 0.15-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -22,7 +22,7 @@ perl-sub-uplevel
 
    |downloads_perl-sub-uplevel| |docker_perl-sub-uplevel|
 
-   :versions: 0.2800-1, 0.2800-0, 0.25-3, 0.25-2, 0.25-1, 0.25-0
+   :versions: 0.2800-2, 0.2800-1, 0.2800-0, 0.25-3, 0.25-2, 0.25-1, 0.25-0
    
    :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
