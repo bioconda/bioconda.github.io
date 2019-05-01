@@ -23,12 +23,11 @@ bs_call
 
    |downloads_bs_call| |docker_bs_call|
 
-   :versions: 2.02-0
+   :versions: 2.02-1, 2.02-0
    
    :depends bzip2: >=1.0.6,<2.0a0
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends libstdcxx-ng: >=4.9
-   :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends gsl: >=2.4,<2.5.0a0
+   :depends libgcc-ng: >=7.3.0
    :depends openmp: 
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
