@@ -545,24 +545,27 @@ contributors have solved various problems:
   script (``gatk-register``) to copy in a user-supplied archive/binary to the
   conda environment
 
-Name collisions (identical names)
----------------------------------
-
-In rare cases, a new recipe may have an identical name as an existing conda, conda-forge, bioconda, or Python package. This sort of naming collision should be avoided. For example, the `weblogo
-<https://github.com/bioconda/bioconda-recipes/tree/master/recipes/weblogo>`_
+Name collisions
+---------------
+In some cases, there may be a name collision when writing a recipe. For example
+the `wget
+<https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wget>`_
 recipe is for the standard command-line tool. There is also a Python package
-called ``weblogo`` `on PyPI <https://pypi.python.org/pypi/weblogo>`_. In this case, to reduce ambiguity
-we prefixed the Python package with ``python-`` (see `python-weblogo
-<https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-weblogo>`_).
+called ``wget`` `on PyPI <https://pypi.python.org/pypi/wget>`_. In this case,
+we prefixed the Python package with ``python-`` (see `python-wget
+<https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-wget>`_).
+A similar collision was resolved with `weblogo
+<https://github.com/bioconda/bioconda-recipes/tree/master/recipes/weblogo>`_
+and `python-weblogo
+<https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-weblogo>`_.
 
 If in doubt about how to handle a naming collision, please submit an
-issue, or ask ``@bioconda/core`` in a PR. 
+issue.
 
 .. _tests:
 
 Tests
 -----
-
 An adequate test must be included in the recipe. An "adequate" test
 depends on the recipe, but must be able to detect a successful
 installation. While many packages may ship their own test suite (unit
@@ -580,7 +583,6 @@ cluttering the output in the CircleCI build environment.
 
 Link and unlink scripts (pre- and post- install hooks)
 ------------------------------------------------------
-
 It is possible to include `scripts
 <https://conda.io/docs/user-guide/tasks/build-packages/link-scripts.html>`_ that are
 executed before or after installing a package, or before uninstalling
@@ -614,7 +616,6 @@ These scripts have access to the following environment variables:
 
 Versions
 --------
-
 In general, recipes can be updated in-place. The older package[s] will continue
 to be hosted and available on anaconda.org while the recipe will reflect just
 the most recent package.

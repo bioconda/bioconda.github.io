@@ -22,7 +22,7 @@ seq2c
 
    |downloads_seq2c| |docker_seq2c|
 
-   :versions: 2019.04.08-0, 2018.12.05-0, 2016.03.23-1, 2016.03.23-0
+   :versions: 2019.04.18-0, 2019.04.08-0, 2018.12.05-0, 2016.03.23-1, 2016.03.23-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-statistics-ttest: 
