@@ -23,7 +23,7 @@ anvio-minimal
 
    |downloads_anvio-minimal| |docker_anvio-minimal|
 
-   :versions: 5.4.0-0, 5.3.0-0, 5.2.0-1, 5.2.0-0
+   :versions: 5.5.0-0, 5.4.0-0, 5.3.0-0, 5.2.0-1, 5.2.0-0
    
    :depends bottle: 0.12.13
    :depends cherrypy: >=8,<9
@@ -37,7 +37,7 @@ anvio-minimal
    :depends matplotlib: 2.2.3
    :depends mistune: 0.8.1
    :depends numpy: 
-   :depends openblas: >=0.3.3,<0.3.4.0a0
+   :depends openblas: >=0.3.6,<0.3.7.0a0
    :depends pandas: >=0.23.1
    :depends psutil: 5.4.3
    :depends pyani: 0.2.7
@@ -49,6 +49,7 @@ anvio-minimal
    :depends six: 1.11.0
    :depends snakemake-minimal: 5.2.4
    :depends statsmodels: 0.9.0
+   :depends tabulate: 0.8.3
    :requirements:
 
    .. rubric:: Installation

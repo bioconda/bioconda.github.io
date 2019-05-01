@@ -24,7 +24,7 @@ medaka
 
    |downloads_medaka| |docker_medaka|
 
-   :versions: 0.6.4-0, 0.6.2-0, 0.6.0-0, 0.5.2-0
+   :versions: 0.6.5-0, 0.6.4-0, 0.6.2-0, 0.6.0-0, 0.5.2-0
    
    :depends bcftools: 1.9
    :depends biopython: 
