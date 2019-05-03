@@ -29,6 +29,7 @@ githubhandler
       GitHubAppHandler
       GitHubHandler
       IssueState
+      MergeMethod
    
    
 

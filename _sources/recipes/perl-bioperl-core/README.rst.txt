@@ -22,7 +22,7 @@ perl-bioperl-core
 
    |downloads_perl-bioperl-core| |docker_perl-bioperl-core|
 
-   :versions: 1.007002-0, 1.7.2-3, 1.6.924-2, 1.6.924-1, 1.6.924-0
+   :versions: 1.007002-1, 1.007002-0, 1.7.2-3, 1.6.924-2, 1.6.924-1, 1.6.924-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-aceperl: 

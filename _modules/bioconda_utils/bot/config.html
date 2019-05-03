@@ -82,6 +82,8 @@
   
   <li class="toctree-l1"><a href="../../../conda-recipe_index.html">Recipe Index</a></li>
   
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
 </ul>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
@@ -144,6 +146,24 @@
 
 <span class="c1">#: CircleCI Token</span>
 <span class="n">CIRCLE_TOKEN</span> <span class="o">=</span> <span class="n">get_secret</span><span class="p">(</span><span class="s2">&quot;CIRCLE_TOKEN&quot;</span><span class="p">)</span>
+
+<span class="c1">#: Quay Login</span>
+<span class="n">QUAY_LOGIN</span> <span class="o">=</span> <span class="n">get_secret</span><span class="p">(</span><span class="s2">&quot;QUAY_LOGIN&quot;</span><span class="p">)</span>
+
+<span class="c1">#: Anaconda Token</span>
+<span class="n">ANACONDA_TOKEN</span> <span class="o">=</span> <span class="n">get_secret</span><span class="p">(</span><span class="s2">&quot;ANACONDA_TOKEN&quot;</span><span class="p">)</span>
+
+<span class="c1">#: Gitter Token</span>
+<span class="n">GITTER_TOKEN</span> <span class="o">=</span> <span class="n">get_secret</span><span class="p">(</span><span class="s2">&quot;GITTER_TOKEN&quot;</span><span class="p">)</span>
+
+<span class="c1">#: Gitter Channels</span>
+<span class="n">GITTER_CHANNELS</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;bioconda/Lobby&#39;</span><span class="p">:</span> <span class="s1">&#39;bioconda/bioconda-recipes&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;bioconda/bot&#39;</span><span class="p">:</span> <span class="s1">&#39;bioconda/bioconda-recipes&#39;</span>
+<span class="p">}</span>
+<span class="c1">#GITTER_CHANNELS = {</span>
+<span class="c1">#    &#39;bioconda/bot_test&#39;: &#39;epruesse/bioconda-recipes&#39;</span>
+<span class="c1">#}</span>
 
 <span class="c1">#: Name of bot</span>
 <span class="n">BOT_NAME</span> <span class="o">=</span> <span class="s2">&quot;BiocondaBot&quot;</span>

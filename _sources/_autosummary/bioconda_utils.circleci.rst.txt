@@ -18,6 +18,7 @@ circleci
    
       AsyncCircleAPI
       CircleAPI
+      SlackMessage
    
    
 

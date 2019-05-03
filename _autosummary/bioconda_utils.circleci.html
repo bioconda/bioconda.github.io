@@ -89,6 +89,7 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githandler.html">githandler</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.github_integration.html">github_integration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githubhandler.html">githubhandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.gitter.html">gitter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">graph</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">hosters</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint_functions.html">lint_functions</a></li>
@@ -112,6 +113,8 @@
   <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
   
   <li class="toctree-l1"><a href="../conda-recipe_index.html">Recipe Index</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
@@ -143,10 +146,13 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.circleci.AsyncCircleAPI" title="bioconda_utils.circleci.AsyncCircleAPI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AsyncCircleAPI</span></code></a>(session, *args, **kwargs)</p></td>
-<td><p></p></td>
+<td><p>CircleCI API using <a class="conda-forge reference external" href="https://github.com/conda-forge/aiohttp-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">aiohttp</span></code></a></p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.circleci.CircleAPI" title="bioconda_utils.circleci.CircleAPI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CircleAPI</span></code></a>([token, vcs_type, username, project])</p></td>
-<td><p></p></td>
+<td><p>CircleCI API</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.circleci.SlackMessage" title="bioconda_utils.circleci.SlackMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SlackMessage</span></code></a>(_headers, data)</p></td>
+<td><p>Parses a Slack message as sent by CircleCI</p></td>
 </tr>
 </tbody>
 </table>
@@ -155,12 +161,14 @@
 <dt id="bioconda_utils.circleci.AsyncCircleAPI">
 <em class="property">class </em><code class="descclassname">bioconda_utils.circleci.</code><code class="descname">AsyncCircleAPI</code><span class="sig-paren">(</span><em>session</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#AsyncCircleAPI"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.AsyncCircleAPI" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#bioconda_utils.circleci.CircleAPI" title="bioconda_utils.circleci.CircleAPI"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.circleci.CircleAPI</span></code></a></p>
+<p>CircleCI API using <a class="conda-forge reference external" href="https://github.com/conda-forge/aiohttp-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">aiohttp</span></code></a></p>
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.circleci.CircleAPI">
 <em class="property">class </em><code class="descclassname">bioconda_utils.circleci.</code><code class="descname">CircleAPI</code><span class="sig-paren">(</span><em>token=None</em>, <em>vcs_type='github'</em>, <em>username='bioconda'</em>, <em>project='bioconda-recipes'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/abc.html#abc.ABC" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></a></p>
+<p>CircleCI API</p>
 <dl class="attribute">
 <dt id="bioconda_utils.circleci.CircleAPI.CIRCLE_API">
 <code class="descname">CIRCLE_API</code><em class="property"> = 'https://circleci.com/api/v1.1'</em><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.CIRCLE_API" title="Permalink to this definition">¶</a></dt>
@@ -182,17 +190,61 @@
 <dd></dd></dl>
 
 <dl class="method">
+<dt id="bioconda_utils.circleci.CircleAPI.get_artifacts">
+<code class="descname">get_artifacts</code><span class="sig-paren">(</span><em>path</em>, <em>head_sha</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI.get_artifacts"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.get_artifacts" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get artifacts for specific branch and head_sha</p>
+<p>For each artifact built for this sha, get the latest URL. Multiple builds
+may exist e.g. if a rebuild was triggered.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>path</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Must be <code class="docutils literal notranslate"><span class="pre">pull/123</span></code> if on fork, otherwise name of branch</p></li>
+<li><p><strong>sha</strong> – The SHA to fetch artifacts for</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<code class="xref py py-class docutils literal notranslate"><span class="pre">Tuple</span></code>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>]]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Mapping of relative path to full URL</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
 <dt id="bioconda_utils.circleci.CircleAPI.list_artifacts">
 <code class="descname">list_artifacts</code><span class="sig-paren">(</span><em>build_number</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI.list_artifacts"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.list_artifacts" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Lists artifacts for build number</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Mapping" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Mapping</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List of artifacts described by <code class="docutils literal notranslate"><span class="pre">path</span></code> and <code class="docutils literal notranslate"><span class="pre">url</span></code></p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.circleci.CircleAPI.list_recent_builds">
-<code class="descname">list_recent_builds</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI.list_recent_builds"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.list_recent_builds" title="Permalink to this definition">¶</a></dt>
-<dd><p>path must be ‘pull/123’ for fors and branchname for local</p>
-<dl class="simple">
-<dt>returns list of dict:</dt><dd><p>build_num, has_artifacts, status, timedout, canceled, canceller,
-workflows/job_name, vcs_revision, build_time_millis</p>
+<code class="descname">list_recent_builds</code><span class="sig-paren">(</span><em>path</em>, <em>sha=None</em>, <em>skip_rebuilt=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI.list_recent_builds"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.list_recent_builds" title="Permalink to this definition">¶</a></dt>
+<dd><p>List recent builds for <strong>path</strong> (branch or pr)</p>
+<p>Note: skip rebuild seems to only apply to jobs, not workflow reruns.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>path</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Must be <a href="#id1"><span class="problematic" id="id2">``</span></a>pull/123` if on a fork, otherwise name of branch</p></li>
+<li><p><strong>sha</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – name of optional sha to filter by</p></li>
+<li><p><strong>skip_rebuilt</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Skip artifacts from builds that have been rebuilt</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Mapping" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Mapping</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>List of builds, each having <code class="docutils literal notranslate"><span class="pre">build_num</span></code>, <code class="docutils literal notranslate"><span class="pre">has_artifacts</span></code>, <code class="docutils literal notranslate"><span class="pre">status</span></code>,
+<code class="docutils literal notranslate"><span class="pre">timeout</span></code>, <code class="xref any docutils literal notranslate"><span class="pre">canceled`</span></code>, <code class="xref any docutils literal notranslate"><span class="pre">canceller`</span></code>, <code class="docutils literal notranslate"><span class="pre">workflows/job_name</span></code>,
+<a href="#id3"><span class="problematic" id="id4">``</span></a>vc_revision`, <a href="#id5"><span class="problematic" id="id6">``</span></a>build_time_millis`</p>
 </dd>
 </dl>
 </dd></dl>
@@ -200,13 +252,30 @@ workflows/job_name, vcs_revision, build_time_millis</p>
 <dl class="method">
 <dt id="bioconda_utils.circleci.CircleAPI.trigger_rebuild">
 <code class="descname">trigger_rebuild</code><span class="sig-paren">(</span><em>branch</em>, <em>sha</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI.trigger_rebuild"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.trigger_rebuild" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Trigger rebuilding <strong>sha</strong> on <strong>branch</strong>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>branch</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Must be <code class="docutils literal notranslate"><span class="pre">pull/123</span></code> if on fork, otherwise name of branch</p></li>
+<li><p><strong>sha</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The SHA to rebuild</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="attribute">
 <dt id="bioconda_utils.circleci.CircleAPI.var_data">
 <code class="descname">var_data</code><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.var_data" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Defaults for this API instance</p>
+</dd></dl>
 
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.circleci.SlackMessage">
+<em class="property">class </em><code class="descclassname">bioconda_utils.circleci.</code><code class="descname">SlackMessage</code><span class="sig-paren">(</span><em>_headers</em>, <em>data</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#SlackMessage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.SlackMessage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Parses a Slack message as sent by CircleCI</p>
 </dd></dl>
 
 </div>

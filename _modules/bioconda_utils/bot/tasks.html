@@ -82,6 +82,8 @@
   
   <li class="toctree-l1"><a href="../../../conda-recipe_index.html">Recipe Index</a></li>
   
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
 </ul>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
@@ -112,26 +114,35 @@
 <span class="kn">import</span> <span class="nn">time</span>
 <span class="kn">import</span> <span class="nn">types</span>
 <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">namedtuple</span>
-<span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">TYPE_CHECKING</span>
+<span class="kn">from</span> <span class="nn">enum</span> <span class="k">import</span> <span class="n">Enum</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">Tuple</span><span class="p">,</span> <span class="n">Set</span>
+<span class="kn">import</span> <span class="nn">tempfile</span>
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">asyncio</span>
 
 <span class="kn">from</span> <span class="nn">.worker</span> <span class="k">import</span> <span class="n">celery</span>
-<span class="kn">from</span> <span class="nn">.config</span> <span class="k">import</span> <span class="n">BOT_NAME</span><span class="p">,</span> <span class="n">BOT_EMAIL</span><span class="p">,</span> <span class="n">CIRCLE_TOKEN</span>
+<span class="kn">from</span> <span class="nn">.config</span> <span class="k">import</span> <span class="n">BOT_NAME</span><span class="p">,</span> <span class="n">BOT_EMAIL</span><span class="p">,</span> <span class="n">CIRCLE_TOKEN</span><span class="p">,</span> <span class="n">QUAY_LOGIN</span><span class="p">,</span> <span class="n">ANACONDA_TOKEN</span>
 <span class="kn">from</span> <span class="nn">..</span> <span class="k">import</span> <span class="n">utils</span>
 <span class="kn">from</span> <span class="nn">..recipe</span> <span class="k">import</span> <span class="n">Recipe</span>
 <span class="kn">from</span> <span class="nn">..githandler</span> <span class="k">import</span> <span class="n">TempBiocondaRepo</span>
 <span class="kn">from</span> <span class="nn">..githubhandler</span> <span class="k">import</span> <span class="n">CheckRunStatus</span><span class="p">,</span> <span class="n">CheckRunConclusion</span>
 <span class="kn">from</span> <span class="nn">..circleci</span> <span class="k">import</span> <span class="n">AsyncCircleAPI</span>
+<span class="kn">from</span> <span class="nn">..upload</span> <span class="k">import</span> <span class="n">anaconda_upload</span><span class="p">,</span> <span class="n">skopeo_upload</span>
 
-<span class="k">if</span> <span class="n">TYPE_CHECKING</span><span class="p">:</span>
-    <span class="kn">from</span> <span class="nn">.worker</span> <span class="k">import</span> <span class="n">AsyncTask</span>
-    <span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">Dict</span>
-
+<span class="kn">from</span> <span class="nn">celery.exceptions</span> <span class="k">import</span> <span class="n">MaxRetriesExceededError</span>
 
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
 
 
 <span class="n">PRInfo</span> <span class="o">=</span> <span class="n">namedtuple</span><span class="p">(</span><span class="s1">&#39;PRInfo&#39;</span><span class="p">,</span> <span class="s1">&#39;installation user repo ref recipes issue_number&#39;</span><span class="p">)</span>
 
+<span class="n">Image</span> <span class="o">=</span> <span class="n">namedtuple</span><span class="p">(</span><span class="s1">&#39;Image&#39;</span><span class="p">,</span> <span class="s2">&quot;url name tag&quot;</span><span class="p">)</span>
+<span class="n">Package</span> <span class="o">=</span> <span class="n">namedtuple</span><span class="p">(</span><span class="s1">&#39;Package&#39;</span><span class="p">,</span> <span class="s2">&quot;arch fname url repodata_md&quot;</span><span class="p">)</span>
+
+<span class="n">Arch</span> <span class="o">=</span> <span class="n">Enum</span><span class="p">(</span><span class="s1">&#39;Arch&#39;</span><span class="p">,</span> <span class="s1">&#39;osx-64 linux-64 noarch&#39;</span><span class="p">)</span>
+
+<span class="n">PACKAGE_RE</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;(.*packages)/(</span><span class="si">{}</span><span class="s2">)/(.+\.tar\.bz2)$&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;|&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">name</span> <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">Arch</span><span class="p">)))</span>
+<span class="n">IMAGE_RE</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;.*images/(.+)(?::|%3A)(.+)\.tar\.gz$&quot;</span><span class="p">)</span>
 
 <div class="viewcode-block" id="Checkout"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Checkout">[docs]</a><span class="k">class</span> <span class="nc">Checkout</span><span class="p">:</span>
     <span class="c1"># We can&#39;t use contextlib.contextmanager because these are async and</span>
@@ -205,7 +216,7 @@
 <span class="k">async</span> <span class="k">def</span> <span class="nf">get_latest_pr_commit</span><span class="p">(</span><span class="n">issue_number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Returns last commit&quot;&quot;&quot;</span>
     <span class="n">commit</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;sha&#39;</span><span class="p">:</span> <span class="kc">None</span><span class="p">}</span>
-    <span class="k">async</span> <span class="k">for</span> <span class="n">commit</span> <span class="ow">in</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">iter_pr_commits</span><span class="p">(</span><span class="n">issue_number</span><span class="p">):</span>
+    <span class="k">async</span> <span class="k">for</span> <span class="n">commit</span> <span class="ow">in</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">iter_pr_commits</span><span class="p">(</span><span class="n">issue_number</span><span class="p">):</span>
         <span class="k">pass</span>
     <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Latest SHA on #</span><span class="si">%s</span><span class="s2"> is </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">commit</span><span class="p">[</span><span class="s1">&#39;sha&#39;</span><span class="p">])</span>
     <span class="k">return</span> <span class="n">commit</span><span class="p">[</span><span class="s1">&#39;sha&#39;</span><span class="p">]</span>
@@ -343,45 +354,41 @@
     <span class="n">head_ref</span> <span class="o">=</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;ref&#39;</span><span class="p">]</span>
     <span class="n">head_sha</span> <span class="o">=</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;sha&#39;</span><span class="p">]</span>
     <span class="n">head_user</span> <span class="o">=</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;repo&#39;</span><span class="p">][</span><span class="s1">&#39;owner&#39;</span><span class="p">][</span><span class="s1">&#39;login&#39;</span><span class="p">]</span>
+    <span class="c1"># get path for Circle</span>
+    <span class="k">if</span> <span class="n">head_user</span> <span class="o">==</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">user</span><span class="p">:</span>
+        <span class="n">branch</span> <span class="o">=</span> <span class="n">head_ref</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">branch</span> <span class="o">=</span> <span class="s2">&quot;pull/</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pr_number</span><span class="p">)</span>
 
     <span class="n">capi</span> <span class="o">=</span> <span class="n">AsyncCircleAPI</span><span class="p">(</span><span class="n">ghapi</span><span class="o">.</span><span class="n">session</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">head_user</span> <span class="o">==</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">user</span><span class="p">:</span>
-        <span class="n">path</span> <span class="o">=</span> <span class="n">head_ref</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">path</span> <span class="o">=</span> <span class="s2">&quot;pull/</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pr_number</span><span class="p">)</span>
-
-    <span class="n">capi</span><span class="o">.</span><span class="n">debug_once</span> <span class="o">=</span> <span class="kc">True</span>
-    <span class="n">recent_builds</span> <span class="o">=</span> <span class="k">await</span> <span class="n">capi</span><span class="o">.</span><span class="n">list_recent_builds</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-
-    <span class="n">current_builds</span> <span class="o">=</span> <span class="p">[</span>
-        <span class="n">build</span><span class="p">[</span><span class="s2">&quot;build_num&quot;</span><span class="p">]</span>
-        <span class="k">for</span> <span class="n">build</span> <span class="ow">in</span> <span class="n">recent_builds</span>
-        <span class="k">if</span> <span class="n">build</span><span class="p">[</span><span class="s2">&quot;vcs_revision&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">head_sha</span>
-    <span class="p">]</span>
-    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Found builds </span><span class="si">%s</span><span class="s2"> for #</span><span class="si">%s</span><span class="s2"> (</span><span class="si">%s</span><span class="s2"> total)&quot;</span><span class="p">,</span> <span class="n">current_builds</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">recent_builds</span><span class="p">))</span>
-
-    <span class="n">artifacts</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="k">for</span> <span class="n">buildno</span> <span class="ow">in</span> <span class="n">current_builds</span><span class="p">:</span>
-        <span class="n">artifacts</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="k">await</span> <span class="n">capi</span><span class="o">.</span><span class="n">list_artifacts</span><span class="p">(</span><span class="n">buildno</span><span class="p">))</span>
+    <span class="n">artifacts</span> <span class="o">=</span> <span class="k">await</span> <span class="n">capi</span><span class="o">.</span><span class="n">get_artifacts</span><span class="p">(</span><span class="n">branch</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span>
+    <span class="n">artifact_urls</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">artifacts</span><span class="p">)</span>
 
     <span class="n">packages</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="n">archs</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="k">for</span> <span class="n">artifact</span> <span class="ow">in</span> <span class="n">artifacts</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">artifact</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;.tar.bz2&quot;</span><span class="p">):</span>
-            <span class="n">base</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">fname</span> <span class="o">=</span> <span class="n">artifact</span><span class="o">.</span><span class="n">rpartition</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
-            <span class="n">repo</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">arch</span> <span class="o">=</span> <span class="n">base</span><span class="o">.</span><span class="n">rpartition</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
-            <span class="k">if</span> <span class="n">base</span> <span class="o">+</span> <span class="s2">&quot;/repodata.json&quot;</span> <span class="ow">in</span> <span class="n">artifacts</span><span class="p">:</span>
-                <span class="k">if</span> <span class="n">repo</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">archs</span><span class="p">:</span>
-                    <span class="n">archs</span><span class="p">[</span><span class="n">repo</span><span class="p">]</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
-                <span class="n">archs</span><span class="p">[</span><span class="n">repo</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">arch</span><span class="p">)</span>
-                <span class="n">packages</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">arch</span><span class="p">,</span> <span class="n">fname</span><span class="p">,</span> <span class="n">artifact</span><span class="p">,</span>
-                                 <span class="s2">&quot;[repodata.json](</span><span class="si">{}</span><span class="s2">/repodata.json)&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">base</span><span class="p">)))</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="n">packages</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">arch</span><span class="p">,</span> <span class="n">fname</span><span class="p">,</span> <span class="n">artifact</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">))</span>
+    <span class="n">images</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">repos</span> <span class="o">=</span> <span class="p">{}</span>
+
+    <span class="k">for</span> <span class="n">path</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">buildno</span> <span class="ow">in</span> <span class="n">artifacts</span><span class="p">:</span>
+        <span class="n">match</span> <span class="o">=</span> <span class="n">PACKAGE_RE</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">match</span><span class="p">:</span>
+            <span class="c1"># base     /fname</span>
+            <span class="c1"># repo/arch/fname</span>
+            <span class="n">repo_url</span><span class="p">,</span> <span class="n">arch</span><span class="p">,</span> <span class="n">fname</span> <span class="o">=</span> <span class="n">match</span><span class="o">.</span><span class="n">groups</span><span class="p">()</span>
+            <span class="n">repodata_url</span> <span class="o">=</span> <span class="s1">&#39;/&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">((</span><span class="n">repo_url</span><span class="p">,</span> <span class="n">arch</span><span class="p">,</span> <span class="s1">&#39;repodata.json&#39;</span><span class="p">))</span>
+            <span class="n">repodata_md</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+            <span class="k">if</span> <span class="n">repodata_url</span> <span class="ow">in</span> <span class="n">artifact_urls</span><span class="p">:</span>
+                <span class="n">repos</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="n">repo_url</span><span class="p">,</span> <span class="nb">set</span><span class="p">())</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">arch</span><span class="p">)</span>
+                <span class="n">repodata_md</span> <span class="o">=</span> <span class="s2">&quot;[repodata.json](</span><span class="si">{}</span><span class="s2">)&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">repodata_url</span><span class="p">)</span>
+            <span class="n">packages</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Package</span><span class="p">(</span><span class="n">arch</span><span class="p">,</span> <span class="n">fname</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">repodata_md</span><span class="p">))</span>
+            <span class="k">continue</span>
+        <span class="n">match</span> <span class="o">=</span> <span class="n">IMAGE_RE</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">match</span><span class="p">:</span>
+            <span class="n">name</span><span class="p">,</span> <span class="n">tag</span> <span class="o">=</span> <span class="n">match</span><span class="o">.</span><span class="n">groups</span><span class="p">()</span>
+            <span class="n">images</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Image</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">tag</span><span class="p">))</span>
 
     <span class="n">tpl</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">jinja</span><span class="o">.</span><span class="n">get_template</span><span class="p">(</span><span class="s2">&quot;artifacts.md&quot;</span><span class="p">)</span>
-    <span class="n">msg</span> <span class="o">=</span> <span class="n">tpl</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="n">packages</span><span class="o">=</span><span class="n">packages</span><span class="p">,</span> <span class="n">archs</span><span class="o">=</span><span class="n">archs</span><span class="p">,</span>
-                     <span class="n">current_builds</span><span class="o">=</span><span class="n">current_builds</span><span class="p">,</span> <span class="n">recent_builds</span><span class="o">=</span><span class="n">recent_builds</span><span class="p">)</span>
+    <span class="n">msg</span> <span class="o">=</span> <span class="n">tpl</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="n">packages</span><span class="o">=</span><span class="n">packages</span><span class="p">,</span> <span class="n">repos</span><span class="o">=</span><span class="n">repos</span><span class="p">,</span> <span class="n">images</span><span class="o">=</span><span class="n">images</span><span class="p">)</span>
+
     <span class="n">msg_head</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">msg</span><span class="o">.</span><span class="n">partition</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
     <span class="k">async</span> <span class="k">for</span> <span class="n">comment</span> <span class="ow">in</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">iter_comments</span><span class="p">(</span><span class="n">pr_number</span><span class="p">):</span>
         <span class="k">if</span> <span class="n">comment</span><span class="p">[</span><span class="s1">&#39;body&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">msg_head</span><span class="p">):</span>
@@ -405,9 +412,160 @@
     <span class="k">else</span><span class="p">:</span>
         <span class="n">path</span> <span class="o">=</span> <span class="s2">&quot;pull/</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pr_number</span><span class="p">)</span>
 
-    <span class="n">capi</span><span class="o">.</span><span class="n">debug_once</span> <span class="o">=</span> <span class="kc">True</span>
     <span class="n">res</span> <span class="o">=</span> <span class="k">await</span> <span class="n">capi</span><span class="o">.</span><span class="n">trigger_rebuild</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span>
     <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Trigger_rebuild call returned with </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">res</span><span class="p">)</span>
+
+
+<span class="nd">@celery</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="n">bind</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">acks_late</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">ignore_result</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">merge_pr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">comment_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">bool</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+    <span class="n">pr</span> <span class="o">=</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">get_prs</span><span class="p">(</span><span class="n">number</span><span class="o">=</span><span class="n">pr_number</span><span class="p">)</span>
+    <span class="n">state</span><span class="p">,</span> <span class="n">message</span> <span class="o">=</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">check_protections</span><span class="p">(</span><span class="n">pr_number</span><span class="p">,</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;sha&#39;</span><span class="p">])</span>
+    <span class="k">if</span> <span class="n">state</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">retry</span><span class="p">(</span><span class="n">countdown</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">max_retries</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
+        <span class="k">except</span> <span class="n">MaxRetriesExceededError</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;PR cannot be merged at this time. Please try again later&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">state</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">state</span><span class="p">,</span> <span class="n">message</span>
+    <span class="n">comment</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;Upload &amp; Merge started. Reload page to view progress.</span><span class="se">\n</span><span class="s2">&quot;</span>
+               <span class="s2">&quot;- [x] Checks OK</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">update_comment</span><span class="p">(</span><span class="n">comment_id</span><span class="p">,</span> <span class="n">comment</span><span class="p">)</span>
+
+    <span class="n">head_ref</span> <span class="o">=</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;ref&#39;</span><span class="p">]</span>
+    <span class="n">head_sha</span> <span class="o">=</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;sha&#39;</span><span class="p">]</span>
+    <span class="n">head_user</span> <span class="o">=</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;repo&#39;</span><span class="p">][</span><span class="s1">&#39;owner&#39;</span><span class="p">][</span><span class="s1">&#39;login&#39;</span><span class="p">]</span>
+    <span class="c1"># get path for Circle</span>
+    <span class="k">if</span> <span class="n">head_user</span> <span class="o">==</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">user</span><span class="p">:</span>
+        <span class="n">branch</span> <span class="o">=</span> <span class="n">head_ref</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">branch</span> <span class="o">=</span> <span class="s2">&quot;pull/</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pr_number</span><span class="p">)</span>
+
+    <span class="n">lines</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="n">capi</span> <span class="o">=</span> <span class="n">AsyncCircleAPI</span><span class="p">(</span><span class="n">ghapi</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="n">CIRCLE_TOKEN</span><span class="p">)</span>
+    <span class="n">artifacts</span> <span class="o">=</span> <span class="k">await</span> <span class="n">capi</span><span class="o">.</span><span class="n">get_artifacts</span><span class="p">(</span><span class="n">branch</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span>
+    <span class="n">files</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">images</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">packages</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">path</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">buildno</span> <span class="ow">in</span> <span class="n">artifacts</span><span class="p">:</span>
+        <span class="n">match</span> <span class="o">=</span> <span class="n">PACKAGE_RE</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">match</span><span class="p">:</span>
+            <span class="n">repo_url</span><span class="p">,</span> <span class="n">arch</span><span class="p">,</span> <span class="n">fname</span> <span class="o">=</span> <span class="n">match</span><span class="o">.</span><span class="n">groups</span><span class="p">()</span>
+            <span class="n">fpath</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">arch</span><span class="p">,</span> <span class="n">fname</span><span class="p">)</span>
+            <span class="n">files</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">url</span><span class="p">,</span> <span class="n">fpath</span><span class="p">))</span>
+            <span class="n">packages</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">fpath</span><span class="p">)</span>
+            <span class="k">continue</span>
+        <span class="n">match</span> <span class="o">=</span> <span class="n">IMAGE_RE</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">match</span><span class="p">:</span>
+            <span class="n">name</span><span class="p">,</span> <span class="n">tag</span> <span class="o">=</span> <span class="n">match</span><span class="o">.</span><span class="n">groups</span><span class="p">()</span>
+            <span class="n">fname</span> <span class="o">=</span> <span class="n">f</span><span class="s2">&quot;</span><span class="si">{name}</span><span class="s2">__</span><span class="si">{tag}</span><span class="s2">.tar.gz&quot;</span>
+            <span class="n">files</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">url</span><span class="p">,</span> <span class="n">fname</span><span class="p">))</span>
+            <span class="n">images</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">fname</span><span class="p">,</span> <span class="n">f</span><span class="s2">&quot;</span><span class="si">{name}</span><span class="s2">:</span><span class="si">{tag}</span><span class="s2">&quot;</span><span class="p">))</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">files</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;PR did not build any packages.&quot;</span>
+
+    <span class="n">comment</span> <span class="o">+=</span> <span class="s2">&quot;- [x] Fetching </span><span class="si">{}</span><span class="s2"> packages and </span><span class="si">{}</span><span class="s2"> images</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">packages</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">images</span><span class="p">))</span>
+    <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">update_comment</span><span class="p">(</span><span class="n">comment_id</span><span class="p">,</span> <span class="n">comment</span><span class="p">)</span>
+
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Downloading </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s1">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">f</span> <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">files</span><span class="p">))</span>
+    <span class="n">done</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="k">with</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">TemporaryDirectory</span><span class="p">()</span> <span class="k">as</span> <span class="n">tmpdir</span><span class="p">:</span>
+        <span class="c1">### Download files</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">fds</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="n">urls</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">url</span><span class="p">,</span><span class="n">path</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+                <span class="n">fpath</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tmpdir</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span>
+                <span class="n">fdir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">fpath</span><span class="p">)</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">fdir</span><span class="p">):</span>
+                    <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">fdir</span><span class="p">)</span>
+                <span class="n">urls</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+                <span class="n">fds</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="n">fpath</span><span class="p">,</span> <span class="s2">&quot;wb&quot;</span><span class="p">))</span>
+            <span class="k">await</span> <span class="n">utils</span><span class="o">.</span><span class="n">AsyncRequests</span><span class="o">.</span><span class="n">async_fetch</span><span class="p">(</span><span class="n">urls</span><span class="p">,</span> <span class="n">fds</span><span class="o">=</span><span class="n">fds</span><span class="p">)</span>
+            <span class="n">done</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Done downloading&quot;</span><span class="p">)</span>
+        <span class="k">finally</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">fd</span> <span class="ow">in</span> <span class="n">fds</span><span class="p">:</span>
+                <span class="n">fd</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">done</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Failed to download archives. Please try again later&quot;</span>
+
+        <span class="c1">### Upload Images</span>
+        <span class="n">uploaded</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">fname</span><span class="p">,</span> <span class="n">dref</span> <span class="ow">in</span> <span class="n">images</span><span class="p">:</span>
+            <span class="n">fpath</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tmpdir</span><span class="p">,</span> <span class="n">fname</span><span class="p">)</span>
+            <span class="n">ndref</span> <span class="o">=</span> <span class="s2">&quot;biocontainers/&quot;</span><span class="o">+</span><span class="n">dref</span>
+            <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Uploading: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">ndref</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">skopeo_upload</span><span class="p">(</span><span class="n">fpath</span><span class="p">,</span> <span class="n">ndref</span><span class="p">,</span> <span class="n">creds</span><span class="o">=</span><span class="n">QUAY_LOGIN</span><span class="p">):</span>
+                    <span class="k">break</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Skopeo upload failed, retrying in 5s...&quot;</span><span class="p">)</span>
+                <span class="k">await</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Skopeo upload failed, giving up&quot;</span><span class="p">)</span>
+                <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Failed to upload image to Quay.io&quot;</span>
+            <span class="n">uploaded</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ndref</span><span class="p">)</span>
+            <span class="n">comment</span> <span class="o">+=</span> <span class="s2">&quot;- [x] Uploaded image </span><span class="si">{}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">ndref</span><span class="p">)</span>
+            <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">update_comment</span><span class="p">(</span><span class="n">comment_id</span><span class="p">,</span> <span class="n">comment</span><span class="p">)</span>
+
+        <span class="c1">### Upload Packages</span>
+        <span class="k">for</span> <span class="n">fname</span> <span class="ow">in</span> <span class="n">packages</span><span class="p">:</span>
+            <span class="n">fpath</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tmpdir</span><span class="p">,</span> <span class="n">fname</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Uploading: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">fname</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">anaconda_upload</span><span class="p">(</span><span class="n">fpath</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="n">ANACONDA_TOKEN</span><span class="p">):</span>
+                    <span class="k">break</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Anaconda upload failed, retrying in 5s...&quot;</span><span class="p">)</span>
+                <span class="k">await</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Anaconda upload failed, giving up.&quot;</span><span class="p">)</span>
+                <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Failed to upload package to Anaconda&quot;</span>
+            <span class="n">uploaded</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">fname</span><span class="p">)</span>
+            <span class="n">comment</span> <span class="o">+=</span> <span class="s2">&quot;- [x] Uploaded package </span><span class="si">{}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">fname</span><span class="p">)</span>
+            <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">update_comment</span><span class="p">(</span><span class="n">comment_id</span><span class="p">,</span> <span class="n">comment</span><span class="p">)</span>
+
+        <span class="n">lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+        <span class="n">lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;Package uploads complete: [ci skip]&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">pkg</span> <span class="ow">in</span> <span class="n">uploaded</span><span class="p">:</span>
+            <span class="n">lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot; - &quot;</span> <span class="o">+</span> <span class="n">pkg</span><span class="p">)</span>
+        <span class="n">lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+    <span class="c1"># collect authors</span>
+    <span class="n">pr_author</span> <span class="o">=</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;user&#39;</span><span class="p">][</span><span class="s1">&#39;login&#39;</span><span class="p">]</span>
+    <span class="n">coauthors</span><span class="p">:</span> <span class="n">Set</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="n">coauthor_logins</span><span class="p">:</span> <span class="n">Set</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="n">last_sha</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">async</span> <span class="k">for</span> <span class="n">commit</span> <span class="ow">in</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">iter_pr_commits</span><span class="p">(</span><span class="n">pr_number</span><span class="p">):</span>
+        <span class="n">last_sha</span> <span class="o">=</span> <span class="n">commit</span><span class="p">[</span><span class="s1">&#39;sha&#39;</span><span class="p">]</span>
+        <span class="n">author_login</span> <span class="o">=</span> <span class="p">(</span><span class="n">commit</span><span class="p">[</span><span class="s1">&#39;author&#39;</span><span class="p">]</span> <span class="ow">or</span> <span class="p">{})</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;login&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">author_login</span> <span class="o">!=</span> <span class="n">pr_author</span><span class="p">:</span>
+            <span class="n">name</span> <span class="o">=</span> <span class="n">commit</span><span class="p">[</span><span class="s1">&#39;commit&#39;</span><span class="p">][</span><span class="s1">&#39;author&#39;</span><span class="p">][</span><span class="s1">&#39;name&#39;</span><span class="p">]</span>
+            <span class="n">email</span> <span class="o">=</span> <span class="n">commit</span><span class="p">[</span><span class="s1">&#39;commit&#39;</span><span class="p">][</span><span class="s1">&#39;author&#39;</span><span class="p">][</span><span class="s1">&#39;email&#39;</span><span class="p">]</span>
+            <span class="n">coauthors</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Co-authored-by: </span><span class="si">{name}</span><span class="s2"> &lt;</span><span class="si">{email}</span><span class="s2">&gt;&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">author_login</span><span class="p">:</span>
+                <span class="n">coauthor_logins</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s2">&quot;@&quot;</span><span class="o">+</span><span class="n">author_login</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">coauthor_logins</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+    <span class="n">lines</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">coauthors</span><span class="p">))</span>
+
+    <span class="n">message</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">lines</span><span class="p">)</span>
+    <span class="n">comment</span> <span class="o">+=</span> <span class="s2">&quot;- Creating squash merge&quot;</span>
+    <span class="k">if</span> <span class="n">coauthors</span><span class="p">:</span>
+        <span class="n">comment</span> <span class="o">+=</span> <span class="s2">&quot; (with co-authors </span><span class="si">{}</span><span class="s2">)&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">coauthor_logins</span><span class="p">))</span>
+    <span class="n">comment</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
+    <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">update_comment</span><span class="p">(</span><span class="n">comment_id</span><span class="p">,</span> <span class="n">comment</span><span class="p">)</span>
+
+    <span class="k">return</span>  <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">merge_pr</span><span class="p">(</span><span class="n">pr_number</span><span class="p">,</span> <span class="n">sha</span><span class="o">=</span><span class="n">last_sha</span><span class="p">,</span>
+                                 <span class="n">message</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">lines</span><span class="p">)</span> <span class="k">if</span> <span class="n">lines</span> <span class="k">else</span> <span class="kc">None</span><span class="p">)</span>
+
+<span class="nd">@celery</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="n">acks_late</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">ignore_result</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">post_result</span><span class="p">(</span><span class="n">result</span><span class="p">:</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">bool</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span> <span class="n">pr_number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">comment_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">prefix</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">user</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;post result: result=</span><span class="si">%s</span><span class="s2">, issue=</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">result</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">)</span>
+    <span class="n">status</span> <span class="o">=</span> <span class="s2">&quot;succeeded&quot;</span> <span class="k">if</span> <span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">else</span> <span class="s2">&quot;failed&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="n">f</span><span class="s2">&quot;@</span><span class="si">{user}</span><span class="s2">, your request to </span><span class="si">{prefix}</span><span class="s2"> </span><span class="si">{status}</span><span class="s2">: </span><span class="si">{result[1]}</span><span class="s2">&quot;</span>
+    <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">create_comment</span><span class="p">(</span><span class="n">pr_number</span><span class="p">,</span> <span class="n">message</span><span class="p">)</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;message </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">message</span><span class="p">)</span>
 </pre></div>
 
           </div>

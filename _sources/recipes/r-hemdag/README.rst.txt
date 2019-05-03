@@ -17,25 +17,26 @@ r-hemdag
    :license: GPL3 / GPL (>= 3)
    :recipe: /`r-hemdag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-hemdag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-hemdag/meta.yaml>`_
 
-    \[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/hemdag\-tutorials\/badge\/\?version\=latest\)\]\(https\:\/\/hemdag\-tutorials.readthedocs.io\/en\/latest\/\?badge\=latest\)
+   \[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/hemdag\-tutorials\/badge\/\?version\=latest\)\]\(https\:\/\/hemdag\-tutorials.readthedocs.io\/en\/latest\/\?badge\=latest\)
 
    HEMDAG library\:
    \* implements several Hierarchical Ensemble Methods \(HEMs\) for Directed Acyclic Graphs \(DAGs\)\;
-   \* can be used to reconcile flat predictions by considering the topology of the ontology\;
+   \* reconciles flat predictions with the topology of the ontology\;
+   \* can enhance predictions of virtually any flat learning methods by taking into account the hierarchical relationships between ontology classes\;
    \* provides biologically consistent predictions according to the hierarchical nature of the ontology classes\;
    \* is specifically designed for exploiting the hierarchical relationships of DAG\-structured taxonomies\, such as the Human Phenotype Ontology \(HPO\) or the Gene Ontology \(GO\)\, but can be safely applied to tree\-structured taxonomies as well \(e.g. FunCat\)\, since trees are DAGs\;
    \* scales nicely both in terms of the complexity of the taxonomy and in the cardinality of the examples\;
    \* provides several utility functions to process and analyze graphs\;
    \* provides several performance metrics to evaluate HEMs algorithms.
 
-    
+
 
 
 .. conda:package:: r-hemdag
 
    |downloads_r-hemdag| |docker_r-hemdag|
 
-   :versions: 2.4.7-1, 2.4.7-0, 2.2.5-1, 2.2.5-0, 2.1.3-0, 2.1.2-0, 2.0.1-0
+   :versions: 2.4.8-0, 2.4.7-1, 2.4.7-0, 2.2.5-1, 2.2.5-0, 2.1.3-0, 2.1.2-0, 2.0.1-0
    
    :depends bioconductor-graph: 
    :depends bioconductor-preprocesscore: 

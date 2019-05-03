@@ -79,6 +79,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.bot.html">bot</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.chat.html">chat</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.commands.html">commands</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.config.html">config</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.events.html">events</a></li>
@@ -97,6 +98,8 @@
   <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
   
   <li class="toctree-l1"><a href="../conda-recipe_index.html">Recipe Index</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
@@ -127,15 +130,36 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Checkout" title="bioconda_utils.bot.tasks.Checkout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Checkout</span></code></a>(ghapi[, ref, issue_number])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Arch" title="bioconda_utils.bot.tasks.Arch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Arch</span></code></a></p></td>
+<td><p>An enumeration.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Checkout" title="bioconda_utils.bot.tasks.Checkout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Checkout</span></code></a>(ghapi[, ref, issue_number])</p></td>
 <td><p>Async context manager checking out git repo</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Image" title="bioconda_utils.bot.tasks.Image"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Image</span></code></a>(url, name, tag)</p></td>
+<td><p>Create new instance of Image(url, name, tag)</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.PRInfo" title="bioconda_utils.bot.tasks.PRInfo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PRInfo</span></code></a>(installation, user, repo, ref, …)</p></td>
 <td><p>Create new instance of PRInfo(installation, user, repo, ref, recipes, issue_number)</p></td>
 </tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Package" title="bioconda_utils.bot.tasks.Package"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Package</span></code></a>(arch, fname, url, repodata_md)</p></td>
+<td><p>Create new instance of Package(arch, fname, url, repodata_md)</p></td>
+</tr>
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
+<dl class="class">
+<dt id="bioconda_utils.bot.tasks.Arch">
+<em class="property">class </em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">Arch</code><a class="headerlink" href="#bioconda_utils.bot.tasks.Arch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></a></p>
+<p>An enumeration.</p>
+<dl class="attribute">
+<dt id="bioconda_utils.bot.tasks.Arch.noarch">
+<code class="descname">noarch</code><em class="property"> = 3</em><a class="headerlink" href="#bioconda_utils.bot.tasks.Arch.noarch" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
 <dl class="class">
 <dt id="bioconda_utils.bot.tasks.Checkout">
 <em class="property">class </em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">Checkout</code><span class="sig-paren">(</span><em>ghapi</em>, <em>ref=None</em>, <em>issue_number=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/tasks.html#Checkout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.tasks.Checkout" title="Permalink to this definition">¶</a></dt>
@@ -157,6 +181,31 @@
 <span class="gp">&gt;&gt;&gt; </span>     <span class="k">for</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">git</span><span class="o">.</span><span class="n">list_changed_files</span><span class="p">():</span>
 </pre></div>
 </div>
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.bot.tasks.Image">
+<em class="property">class </em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">Image</code><span class="sig-paren">(</span><em>url</em>, <em>name</em>, <em>tag</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.Image" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
+<p>Create new instance of Image(url, name, tag)</p>
+<dl class="attribute">
+<dt id="bioconda_utils.bot.tasks.Image.name">
+<code class="descname">name</code><a class="headerlink" href="#bioconda_utils.bot.tasks.Image.name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 1</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.bot.tasks.Image.tag">
+<code class="descname">tag</code><a class="headerlink" href="#bioconda_utils.bot.tasks.Image.tag" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 2</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.bot.tasks.Image.url">
+<code class="descname">url</code><a class="headerlink" href="#bioconda_utils.bot.tasks.Image.url" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 0</p>
+</dd></dl>
+
 </dd></dl>
 
 <dl class="class">
@@ -202,6 +251,37 @@
 
 </dd></dl>
 
+<dl class="class">
+<dt id="bioconda_utils.bot.tasks.Package">
+<em class="property">class </em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">Package</code><span class="sig-paren">(</span><em>arch</em>, <em>fname</em>, <em>url</em>, <em>repodata_md</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.Package" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
+<p>Create new instance of Package(arch, fname, url, repodata_md)</p>
+<dl class="attribute">
+<dt id="bioconda_utils.bot.tasks.Package.arch">
+<code class="descname">arch</code><a class="headerlink" href="#bioconda_utils.bot.tasks.Package.arch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 0</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.bot.tasks.Package.fname">
+<code class="descname">fname</code><a class="headerlink" href="#bioconda_utils.bot.tasks.Package.fname" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 1</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.bot.tasks.Package.repodata_md">
+<code class="descname">repodata_md</code><a class="headerlink" href="#bioconda_utils.bot.tasks.Package.repodata_md" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 3</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.bot.tasks.Package.url">
+<code class="descname">url</code><a class="headerlink" href="#bioconda_utils.bot.tasks.Package.url" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 2</p>
+</dd></dl>
+
+</dd></dl>
+
 <dl class="task">
 <dt id="bioconda_utils.bot.tasks.bump">
 <em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">bump</code><span class="sig-paren">(</span><em>issue_number</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.bump" title="Permalink to this definition">¶</a></dt>
@@ -234,6 +314,32 @@ promise will only evaluate it once.</p>
 <dt id="bioconda_utils.bot.tasks.lint_check">
 <em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">lint_check</code><span class="sig-paren">(</span><em>check_run_number</em>, <em>ref</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.lint_check" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute linter</p>
+</dd></dl>
+
+<dl class="task">
+<dt id="bioconda_utils.bot.tasks.merge_pr">
+<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">merge_pr</code><span class="sig-paren">(</span><em>pr_number</em>, <em>comment_id</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.merge_pr" title="Permalink to this definition">¶</a></dt>
+<dd><p>Proxy that evaluates object once.</p>
+<p><code class="xref py py-class docutils literal notranslate"><span class="pre">Proxy</span></code> will evaluate the object each time, while the
+promise will only evaluate it once.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Tuple</span></code>[<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="task">
+<dt id="bioconda_utils.bot.tasks.post_result">
+<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">post_result</code><span class="sig-paren">(</span><em>result</em>, <em>pr_number</em>, <em>comment_id</em>, <em>prefix</em>, <em>user</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.post_result" title="Permalink to this definition">¶</a></dt>
+<dd><p>Proxy that evaluates object once.</p>
+<p><code class="xref py py-class docutils literal notranslate"><span class="pre">Proxy</span></code> will evaluate the object each time, while the
+promise will only evaluate it once.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="task">

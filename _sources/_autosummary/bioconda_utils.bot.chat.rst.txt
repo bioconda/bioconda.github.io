@@ -1,0 +1,28 @@
+chat
+====
+
+
+.. currentmodule:: bioconda_utils.bot.chat
+.. automodule:: bioconda_utils.bot.chat
+   :members:
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      GitterListener
+   
+   
+
+   
+   
+   
+
+
+   .. rubric:: Documentation

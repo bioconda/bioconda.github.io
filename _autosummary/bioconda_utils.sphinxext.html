@@ -89,6 +89,7 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githandler.html">githandler</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.github_integration.html">github_integration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githubhandler.html">githubhandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.gitter.html">gitter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">graph</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">hosters</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint_functions.html">lint_functions</a></li>
@@ -112,6 +113,8 @@
   <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
   
   <li class="toctree-l1"><a href="../conda-recipe_index.html">Recipe Index</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
@@ -215,7 +218,7 @@
 <dl class="class">
 <dt id="bioconda_utils.sphinxext.AutoRecipesDirective">
 <em class="property">class </em><code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">AutoRecipesDirective</code><span class="sig-paren">(</span><em>name</em>, <em>arguments</em>, <em>options</em>, <em>content</em>, <em>lineno</em>, <em>content_offset</em>, <em>block_text</em>, <em>state</em>, <em>state_machine</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#AutoRecipesDirective"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.AutoRecipesDirective" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://www.sphinx-doc.org/en/master/extdev/markupapi.html#docutils.parsers.rst.Directive" title="(in Sphinx v3.0.0+/9af8d969d)"><code class="xref py py-class docutils literal notranslate"><span class="pre">docutils.parsers.rst.Directive</span></code></a></p>
+<dd><p>Bases: <a class="reference external" href="https://www.sphinx-doc.org/en/master/extdev/markupapi.html#docutils.parsers.rst.Directive" title="(in Sphinx v3.0.0+/b0d070c85)"><code class="xref py py-class docutils literal notranslate"><span class="pre">docutils.parsers.rst.Directive</span></code></a></p>
 <p>FIXME: This does not yet do ANYTHING!</p>
 <p>In theory, a directive like this should act as a hook for a repo
 to generate stubs for, similar to other autoXYZ directives.</p>
@@ -249,7 +252,7 @@ to generate stubs for, similar to other autoXYZ directives.</p>
 <dl class="class">
 <dt id="bioconda_utils.sphinxext.CondaDomain">
 <em class="property">class </em><code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">CondaDomain</code><span class="sig-paren">(</span><em>env</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaDomain"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaDomain" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://www.sphinx-doc.org/en/master/extdev/domainapi.html#sphinx.domains.Domain" title="(in Sphinx v3.0.0+/9af8d969d)"><code class="xref py py-class docutils literal notranslate"><span class="pre">sphinx.domains.Domain</span></code></a></p>
+<dd><p>Bases: <a class="reference external" href="https://www.sphinx-doc.org/en/master/extdev/domainapi.html#sphinx.domains.Domain" title="(in Sphinx v3.0.0+/b0d070c85)"><code class="xref py py-class docutils literal notranslate"><span class="pre">sphinx.domains.Domain</span></code></a></p>
 <p>Domain for Conda Packages</p>
 <dl class="method">
 <dt id="bioconda_utils.sphinxext.CondaDomain.clear_doc">
@@ -443,7 +446,7 @@ and <code class="docutils literal notranslate"><span class="pre">depends</span><
 <dl class="class">
 <dt id="bioconda_utils.sphinxext.RecipeIndex">
 <em class="property">class </em><code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">RecipeIndex</code><span class="sig-paren">(</span><em>domain</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#RecipeIndex"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.RecipeIndex" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://www.sphinx-doc.org/en/master/extdev/domainapi.html#sphinx.domains.Index" title="(in Sphinx v3.0.0+/9af8d969d)"><code class="xref py py-class docutils literal notranslate"><span class="pre">sphinx.domains.Index</span></code></a></p>
+<dd><p>Bases: <a class="reference external" href="https://www.sphinx-doc.org/en/master/extdev/domainapi.html#sphinx.domains.Index" title="(in Sphinx v3.0.0+/b0d070c85)"><code class="xref py py-class docutils literal notranslate"><span class="pre">sphinx.domains.Index</span></code></a></p>
 <p>Index of Recipes</p>
 <dl class="method">
 <dt id="bioconda_utils.sphinxext.RecipeIndex.generate">

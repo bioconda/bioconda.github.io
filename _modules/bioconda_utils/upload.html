@@ -82,6 +82,8 @@
   
   <li class="toctree-l1"><a href="../../conda-recipe_index.html">Recipe Index</a></li>
   
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
 </ul>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
@@ -113,21 +115,21 @@
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
 
 
-<div class="viewcode-block" id="anaconda_upload"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.upload.html#bioconda_utils.upload.anaconda_upload">[docs]</a><span class="k">def</span> <span class="nf">anaconda_upload</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<div class="viewcode-block" id="anaconda_upload"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.upload.html#bioconda_utils.upload.anaconda_upload">[docs]</a><span class="k">def</span> <span class="nf">anaconda_upload</span><span class="p">(</span><span class="n">package</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">token</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">label</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Upload a package to anaconda.</span>
 
-<span class="sd">    Parameters</span>
-<span class="sd">    ----------</span>
-<span class="sd">    package : str</span>
-<span class="sd">        Filename to built package</span>
-
-<span class="sd">    token : str</span>
-<span class="sd">        If None, use the environment variable ANACONDA_TOKEN, otherwise, use</span>
-<span class="sd">        this as the token for authenticating the anaconda client.</span>
-
-<span class="sd">    label : str</span>
-<span class="sd">        Optional label to add</span>
+<span class="sd">    Args:</span>
+<span class="sd">      package: Filename to built package</span>
+<span class="sd">      token: If None, use the environment variable ``ANACONDA_TOKEN``,</span>
+<span class="sd">             otherwise, use this as the token for authenticating the</span>
+<span class="sd">             anaconda client.</span>
+<span class="sd">      label: Optional label to add</span>
+<span class="sd">    Returns:</span>
+<span class="sd">      True if the operation succeeded, False if it cannot succeed,</span>
+<span class="sd">      None if it should be retried</span>
+<span class="sd">    Raises:</span>
+<span class="sd">      ValueError</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">label_arg</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">if</span> <span class="n">label</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
@@ -155,18 +157,27 @@
             <span class="c1"># ignore error assuming that it is caused by</span>
             <span class="c1"># existing package</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span>
-                <span class="s2">&quot;UPLOAD WARNING: tried to upload package, got: &quot;</span>
+                <span class="s2">&quot;UPLOAD WARNING: tried to upload package, got:</span><span class="se">\n</span><span class="s2"> &quot;</span>
                 <span class="s2">&quot;</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">e</span><span class="o">.</span><span class="n">stdout</span><span class="p">)</span>
             <span class="k">return</span> <span class="kc">True</span>
+        <span class="k">elif</span> <span class="s2">&quot;Gateway Timeout&quot;</span> <span class="ow">in</span> <span class="n">e</span><span class="o">.</span><span class="n">stdout</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;UPLOAD TEMP FAILURE: Gateway timeout&quot;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="kc">False</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;UPLOAD ERROR: command: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">e</span><span class="o">.</span><span class="n">cmd</span><span class="p">)</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;UPLOAD ERROR: stdout+stderr: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">e</span><span class="o">.</span><span class="n">stdout</span><span class="p">)</span>
-            <span class="k">raise</span> <span class="n">e</span></div>
+            <span class="k">return</span> <span class="kc">False</span></div>
 
 
-<div class="viewcode-block" id="mulled_upload"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.upload.html#bioconda_utils.upload.mulled_upload">[docs]</a><span class="k">def</span> <span class="nf">mulled_upload</span><span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">quay_target</span><span class="p">):</span>
+<div class="viewcode-block" id="mulled_upload"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.upload.html#bioconda_utils.upload.mulled_upload">[docs]</a><span class="k">def</span> <span class="nf">mulled_upload</span><span class="p">(</span><span class="n">image</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">quay_target</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;subprocess.CompletedProcess&quot;</span><span class="p">:</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Upload the build Docker images to quay.io with &#39;mulled-build push&#39;</span>
+
+<span class="sd">    Calls `mulled-build push &lt;image&gt; -n &lt;quay_target&gt;`</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">      image: name of image to push</span>
+<span class="sd">      quary_target: name of image on quay</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">cmd</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;mulled-build&#39;</span><span class="p">,</span> <span class="s1">&#39;push&#39;</span><span class="p">,</span> <span class="n">image</span><span class="p">,</span> <span class="s1">&#39;-n&#39;</span><span class="p">,</span> <span class="n">quay_target</span><span class="p">]</span>
     <span class="n">mask</span> <span class="o">=</span> <span class="p">[]</span>
@@ -175,6 +186,41 @@
         <span class="n">cmd</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="s1">&#39;--oauth-token&#39;</span><span class="p">,</span> <span class="n">token</span><span class="p">])</span>
         <span class="n">mask</span> <span class="o">=</span> <span class="p">[</span><span class="n">token</span><span class="p">]</span>
     <span class="k">return</span> <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="n">mask</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="skopeo_upload"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.upload.html#bioconda_utils.upload.skopeo_upload">[docs]</a><span class="k">def</span> <span class="nf">skopeo_upload</span><span class="p">(</span><span class="n">image_file</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">target</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+                  <span class="n">creds</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">registry</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;quay.io&quot;</span><span class="p">,</span>
+                  <span class="n">timeout</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">600</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Upload an image to docker registy</span>
+
+<span class="sd">    Uses ``skopeo`` to upload tar archives of docker images as created</span>
+<span class="sd">    with e.g.``docker save`` to a docker registry.</span>
+
+<span class="sd">    The image name and tag are read from the archive.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">      image_file: path to the file to be uploaded (may be gzip&#39;ed)</span>
+<span class="sd">      target: namespace/repo for the image</span>
+<span class="sd">      creds: login credentials (``USER:PASS``)</span>
+<span class="sd">      registry: url of the registry. defaults to &quot;quay.io&quot;</span>
+<span class="sd">      timeout: timeout in seconds</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">cmd</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;skopeo&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;--insecure-policy&#39;</span><span class="p">,</span> <span class="c1"># disable policy checks</span>
+           <span class="s1">&#39;--command-timeout&#39;</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">timeout</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;s&quot;</span><span class="p">,</span>
+           <span class="s1">&#39;copy&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;docker-archive:</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">image_file</span><span class="p">),</span>
+           <span class="s1">&#39;docker://</span><span class="si">{}</span><span class="s1">/</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">registry</span><span class="p">,</span> <span class="n">target</span><span class="p">),</span>
+           <span class="s1">&#39;--dest-creds&#39;</span><span class="p">,</span> <span class="n">creds</span><span class="p">]</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="n">creds</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">))</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">except</span> <span class="n">sp</span><span class="o">.</span><span class="n">CalledProcessError</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Failed to upload </span><span class="si">%s</span><span class="s2"> to </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">image_file</span><span class="p">,</span> <span class="n">target</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">exc</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">splitlines</span><span class="p">():</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;&gt; </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">line</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kc">False</span></div>
 </pre></div>
 
           </div>

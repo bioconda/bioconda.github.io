@@ -12,8 +12,10 @@ views
 
    .. autosummary::
    
+      generic_circleci_dispatch
+      generic_webhook_dispatch
+      github_webhook_dispatch
       show_status
-      webhook_dispatch
    
    
 

@@ -22,7 +22,7 @@ smeg
 
    |downloads_smeg| |docker_smeg|
 
-   :versions: 1.1-0, 1.0.1-2, 1.0.1-1, 1.0.1-0
+   :versions: 1.1.1-0, 1.1-1, 1.1-0, 1.0.1-2, 1.0.1-1, 1.0.1-0
    
    :depends bamtools: 
    :depends bedtools: 
@@ -42,7 +42,7 @@ smeg
    :depends r-seqinr: 
    :depends readline: >=6.2
    :depends roary: 
-   :depends samtools: >=1.5,<1.9
+   :depends samtools: >=1.5
    :requirements:
 
    .. rubric:: Installation

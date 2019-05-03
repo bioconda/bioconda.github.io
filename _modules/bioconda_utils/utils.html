@@ -82,6 +82,8 @@
   
   <li class="toctree-l1"><a href="../../conda-recipe_index.html">Recipe Index</a></li>
   
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
 </ul>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
@@ -116,7 +118,7 @@
 <span class="kn">import</span> <span class="nn">shutil</span>
 <span class="kn">import</span> <span class="nn">contextlib</span>
 <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">Counter</span><span class="p">,</span> <span class="n">Iterable</span><span class="p">,</span> <span class="n">defaultdict</span><span class="p">,</span> <span class="n">namedtuple</span>
-<span class="kn">from</span> <span class="nn">itertools</span> <span class="k">import</span> <span class="n">product</span><span class="p">,</span> <span class="n">chain</span><span class="p">,</span> <span class="n">groupby</span>
+<span class="kn">from</span> <span class="nn">itertools</span> <span class="k">import</span> <span class="n">product</span><span class="p">,</span> <span class="n">chain</span><span class="p">,</span> <span class="n">groupby</span><span class="p">,</span> <span class="n">zip_longest</span>
 <span class="kn">from</span> <span class="nn">functools</span> <span class="k">import</span> <span class="n">partial</span>
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">import</span> <span class="nn">datetime</span>
@@ -534,7 +536,7 @@
         <span class="n">e</span><span class="o">.</span><span class="n">cmd</span> <span class="o">=</span> <span class="p">[</span><span class="n">do_mask</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">e</span><span class="o">.</span><span class="n">cmd</span><span class="p">]</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;COMMAND FAILED: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">cmd</span><span class="p">))</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;STDOUT+STDERR:</span><span class="se">\n</span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">do_mask</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">stdout</span><span class="p">))</span>
-        <span class="k">raise</span> <span class="n">e</span>
+        <span class="k">raise</span> <span class="n">e</span> <span class="kn">from</span> <span class="nn">None</span>
     <span class="k">return</span> <span class="n">p</span></div>
 
 
@@ -1207,15 +1209,21 @@
         <span class="k">return</span> <span class="n">task</span><span class="o">.</span><span class="n">result</span><span class="p">()</span></div>
 
 <div class="viewcode-block" id="AsyncRequests.async_fetch"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.AsyncRequests.async_fetch">[docs]</a>    <span class="nd">@classmethod</span>
-    <span class="k">async</span> <span class="k">def</span> <span class="nf">async_fetch</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">urls</span><span class="p">,</span> <span class="n">descs</span><span class="p">,</span> <span class="n">cb</span><span class="p">,</span> <span class="n">datas</span><span class="p">):</span>
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">async_fetch</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">urls</span><span class="p">,</span> <span class="n">descs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">cb</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">datas</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">fds</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">descs</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">descs</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">if</span> <span class="n">datas</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">datas</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">if</span> <span class="n">fds</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">fds</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">conn</span> <span class="o">=</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">TCPConnector</span><span class="p">(</span><span class="n">limit_per_host</span><span class="o">=</span><span class="bp">cls</span><span class="o">.</span><span class="n">CONNECTIONS_PER_HOST</span><span class="p">)</span>
         <span class="k">async</span> <span class="k">with</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">ClientSession</span><span class="p">(</span>
                 <span class="n">connector</span><span class="o">=</span><span class="n">conn</span><span class="p">,</span>
                 <span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;User-Agent&#39;</span><span class="p">:</span> <span class="bp">cls</span><span class="o">.</span><span class="n">USER_AGENT</span><span class="p">}</span>
         <span class="p">)</span> <span class="k">as</span> <span class="n">session</span><span class="p">:</span>
             <span class="n">coros</span> <span class="o">=</span> <span class="p">[</span>
-                <span class="n">asyncio</span><span class="o">.</span><span class="n">ensure_future</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="n">_async_fetch_one</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">desc</span><span class="p">,</span> <span class="n">cb</span><span class="p">,</span> <span class="n">data</span><span class="p">))</span>
-                <span class="k">for</span> <span class="n">url</span><span class="p">,</span> <span class="n">desc</span><span class="p">,</span> <span class="n">data</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">urls</span><span class="p">,</span> <span class="n">descs</span><span class="p">,</span> <span class="n">datas</span><span class="p">)</span>
+                <span class="n">asyncio</span><span class="o">.</span><span class="n">ensure_future</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="n">_async_fetch_one</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">desc</span><span class="p">,</span> <span class="n">cb</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">fd</span><span class="p">))</span>
+                <span class="k">for</span> <span class="n">url</span><span class="p">,</span> <span class="n">desc</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">fd</span> <span class="ow">in</span> <span class="n">zip_longest</span><span class="p">(</span><span class="n">urls</span><span class="p">,</span> <span class="n">descs</span><span class="p">,</span> <span class="n">datas</span><span class="p">,</span> <span class="n">fds</span><span class="p">)</span>
             <span class="p">]</span>
             <span class="k">with</span> <span class="n">tqdm</span><span class="p">(</span><span class="n">asyncio</span><span class="o">.</span><span class="n">as_completed</span><span class="p">(</span><span class="n">coros</span><span class="p">),</span>
                       <span class="n">total</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">coros</span><span class="p">),</span>
@@ -1226,7 +1234,7 @@
     <span class="nd">@staticmethod</span>
     <span class="nd">@backoff</span><span class="o">.</span><span class="n">on_exception</span><span class="p">(</span><span class="n">backoff</span><span class="o">.</span><span class="n">fibo</span><span class="p">,</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">ClientResponseError</span><span class="p">,</span> <span class="n">max_tries</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span>
                           <span class="n">giveup</span><span class="o">=</span><span class="k">lambda</span> <span class="n">ex</span><span class="p">:</span> <span class="n">ex</span><span class="o">.</span><span class="n">code</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">429</span><span class="p">,</span> <span class="mi">502</span><span class="p">,</span> <span class="mi">503</span><span class="p">,</span> <span class="mi">504</span><span class="p">])</span>
-    <span class="k">async</span> <span class="k">def</span> <span class="nf">_async_fetch_one</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">desc</span><span class="p">,</span> <span class="n">cb</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">_async_fetch_one</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">desc</span><span class="p">,</span> <span class="n">cb</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">fd</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
         <span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="k">async</span> <span class="k">with</span> <span class="n">session</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span> <span class="k">as</span> <span class="n">resp</span><span class="p">:</span>
             <span class="n">resp</span><span class="o">.</span><span class="n">raise_for_status</span><span class="p">()</span>
@@ -1240,7 +1248,10 @@
                     <span class="k">if</span> <span class="ow">not</span> <span class="n">block</span><span class="p">:</span>
                         <span class="k">break</span>
                     <span class="n">progress</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">block</span><span class="p">))</span>
-                    <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">block</span><span class="p">)</span>
+                    <span class="k">if</span> <span class="n">fd</span><span class="p">:</span>
+                        <span class="n">fd</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">block</span><span class="p">)</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">block</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">cb</span><span class="p">:</span>
             <span class="k">return</span> <span class="n">cb</span><span class="p">(</span><span class="sa">b</span><span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">result</span><span class="p">),</span> <span class="n">data</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>

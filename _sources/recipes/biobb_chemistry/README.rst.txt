@@ -15,14 +15,42 @@ biobb_chemistry
    :license: APACHE / Apache Software License
    :recipe: /`biobb_chemistry <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_chemistry>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_chemistry/meta.yaml>`_
 
-   Biobb\_chemistry
+   \[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/biobb\-chemistry\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-chemistry.readthedocs.io\/en\/latest\/\?badge\=latest\) \[\!\[install with bioconda\]\(https\:\/\/img.shields.io\/badge\/install\%20with\-bioconda\-brightgreen.svg\?style\=flat\)\]\(http\:\/\/bioconda.github.io\/recipes\/biobb\_chemistry\/README.html\) \[\!\[Docker image\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_io\/status\)\]\(https\:\/\/hub.docker.com\/r\/mmbirb\/biobb\_chemistry\) \[\!\[Singularity image\]\(https\:\/\/www.singularity\-hub.org\/static\/img\/hosted\-singularity\-\-hub\-\%23e32929.svg\)\]\(https\:\/\/www.singularity\-hub.org\/collections\/2886\) \[\!\[License\]\(https\:\/\/img.shields.io\/badge\/License\-Apache\%202.0\-blue.svg\)\]\(https\:\/\/opensource.org\/licenses\/Apache\-2.0\)
+
+   \# biobb\_chemistry
+
+   \#\#\# Introduction
+   Biobb\_chemistry is the Biobb module collection to perform chemistry over molecular dynamics simulations.
+   Biobb \(BioExcel building blocks\) packages are Python building blocks that
+   create new layer of compatibility and interoperability over popular
+   bioinformatics tools.
+   The latest documentation of this package can be found in our readthedocs site\:
+   \[latest API documentation\]\(http\:\/\/biobb\_chemistry.readthedocs.io\/en\/latest\/\).
+
+
+   \#\#\# Copyright \& Licensing
+   This software has been developed in the MMB group \(http\:\/\/mmb.irbbarcelona.org\) at the
+   BSC \(http\:\/\/www.bsc.es\/\) \& IRB \(https\:\/\/www.irbbarcelona.org\/\) for the European BioExcel \(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission
+   \(EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
+
+   \* \(c\) 2015\-2019 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2019 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+
+   Licensed under the
+   \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file
+   \[LICENSE\]\(LICENSE\) for details.
+
+   \!\[\]\(https\:\/\/bioexcel.eu\/wp\-content\/uploads\/2015\/12\/Bioexcell\_logo\_1080px\_transp.png \"Bioexcel\"\)
+
+
+
 
 
 .. conda:package:: biobb_chemistry
 
    |downloads_biobb_chemistry| |docker_biobb_chemistry|
 
-   :versions: 1.0.4-0
+   :versions: 1.0.5-0, 1.0.4-0
    
    :depends biobb_common: 0.1.4
    :depends openbabel: 2.4.1

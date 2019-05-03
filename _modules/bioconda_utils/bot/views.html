@@ -82,6 +82,8 @@
   
   <li class="toctree-l1"><a href="../../../conda-recipe_index.html">Recipe Index</a></li>
   
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
 </ul>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
@@ -112,6 +114,7 @@
 
 <span class="kn">from</span> <span class="nn">.events</span> <span class="k">import</span> <span class="n">event_routes</span>
 <span class="kn">from</span> <span class="nn">..githubhandler</span> <span class="k">import</span> <span class="n">Event</span>
+<span class="kn">from</span> <span class="nn">..circleci</span> <span class="k">import</span> <span class="n">SlackMessage</span>
 <span class="kn">from</span> <span class="nn">..</span> <span class="k">import</span> <span class="n">__version__</span> <span class="k">as</span> <span class="n">VERSION</span>
 <span class="kn">from</span> <span class="nn">.worker</span> <span class="k">import</span> <span class="n">celery</span>
 <span class="kn">from</span> <span class="nn">.config</span> <span class="k">import</span> <span class="n">APP_SECRET</span>
@@ -120,8 +123,8 @@
 <span class="n">web_routes</span> <span class="o">=</span> <span class="n">web</span><span class="o">.</span><span class="n">RouteTableDef</span><span class="p">()</span>  <span class="c1"># pylint: disable=invalid-name</span>
 
 
-<div class="viewcode-block" id="webhook_dispatch"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.views.html#bioconda_utils.bot.views.webhook_dispatch">[docs]</a><span class="nd">@web_routes</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s1">&#39;/_gh&#39;</span><span class="p">)</span>
-<span class="k">async</span> <span class="k">def</span> <span class="nf">webhook_dispatch</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+<div class="viewcode-block" id="github_webhook_dispatch"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.views.html#bioconda_utils.bot.views.github_webhook_dispatch">[docs]</a><span class="nd">@web_routes</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s1">&#39;/_gh&#39;</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">github_webhook_dispatch</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Accepts webhooks from Github and dispatches them to event handlers&quot;&quot;&quot;</span>
     <span class="k">try</span><span class="p">:</span>
         <span class="n">body</span> <span class="o">=</span> <span class="k">await</span> <span class="n">request</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
@@ -167,6 +170,30 @@
         <span class="k">return</span> <span class="n">web</span><span class="o">.</span><span class="n">Response</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="mi">200</span><span class="p">)</span>
     <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>  <span class="c1"># pylint: disable=broad-except</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">exception</span><span class="p">(</span><span class="s2">&quot;Failure in webhook dispatch&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">web</span><span class="o">.</span><span class="n">Response</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="generic_circleci_dispatch"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.views.html#bioconda_utils.bot.views.generic_circleci_dispatch">[docs]</a><span class="nd">@web_routes</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s1">&#39;/hooks/circleci&#39;</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">generic_circleci_dispatch</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">body</span> <span class="o">=</span> <span class="k">await</span> <span class="n">request</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="n">SlackMessage</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">headers</span><span class="p">,</span> <span class="n">body</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Got data from Circle: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">web</span><span class="o">.</span><span class="n">Response</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="mi">200</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span> <span class="c1"># pylint: disable=broad-except</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">exception</span><span class="p">(</span><span class="s2">&quot;Failure in circle webhook dispatch&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">web</span><span class="o">.</span><span class="n">Response</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="generic_webhook_dispatch"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.views.html#bioconda_utils.bot.views.generic_webhook_dispatch">[docs]</a><span class="nd">@web_routes</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s1">&#39;/hooks/</span><span class="si">{source}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">generic_webhook_dispatch</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Accepts webhooks and dumps them to the log, so we can see what we would be receiving&quot;&quot;&quot;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">source</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">match_info</span><span class="p">[</span><span class="s1">&#39;source&#39;</span><span class="p">]</span>
+        <span class="n">body</span> <span class="o">=</span> <span class="k">await</span> <span class="n">request</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Got generic webhook for </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">source</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Data: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">body</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">web</span><span class="o">.</span><span class="n">Response</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="mi">200</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span> <span class="c1"># pylint: disable=broad-except</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">exception</span><span class="p">(</span><span class="s2">&quot;Failure in generic webhook dispatch&quot;</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">web</span><span class="o">.</span><span class="n">Response</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span></div>
 
 
