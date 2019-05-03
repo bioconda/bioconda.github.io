@@ -11,7 +11,7 @@ stringtie
 
    Transcriptome assembly and quantification for RNA\-seq
 
-   :homepage: http://ccb.jhu.edu/software/stringtie/
+   :homepage: https://ccb.jhu.edu/software/stringtie/
    :license: Artistic License 2.0
    :recipe: /`stringtie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringtie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringtie/meta.yaml>`_
    :links: biotools: :biotools:`StringTie`, doi: :doi:`10.1038/nbt.3122`
@@ -23,7 +23,7 @@ stringtie
 
    |downloads_stringtie| |docker_stringtie|
 
-   :versions: 1.3.5-0, 1.3.4-1, 1.3.4-0, 1.3.3-4, 1.3.3-3, 1.3.3-2, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.2.4-2, 1.2.4-1, 1.2.4-0, 1.2.3-0, 1.2.2-2, 1.2.2-1, 1.2.0-1, 1.2.0-0, 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.4-1, 1.0.4-0, 1.0.3-1, 1.0.3-0, 1.0.1-0, 0.97-0
+   :versions: 1.3.6-0, 1.3.5-0, 1.3.4-1, 1.3.4-0, 1.3.3-4, 1.3.3-3, 1.3.3-2, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.2.4-2, 1.2.4-1, 1.2.4-0, 1.2.3-0, 1.2.2-2, 1.2.2-1, 1.2.0-1, 1.2.0-0, 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.4-1, 1.0.4-0, 1.0.3-1, 1.0.3-0, 1.0.1-0, 0.97-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
