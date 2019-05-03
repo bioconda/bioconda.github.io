@@ -22,7 +22,7 @@ albatradis
 
    |downloads_albatradis| |docker_albatradis|
 
-   :versions: 1.0.0-0, 0.0.5-4
+   :versions: 1.0.0-1, 1.0.0-0, 0.0.5-4
    
    :depends biopython: >=1.68
    :depends biotradis: 
@@ -38,6 +38,7 @@ albatradis
    :depends perl-scalar-util-numeric: 
    :depends pyfastaq: >=3.12.0
    :depends python: >=3.7,<3.8.0a0
+   :depends python-graphviz: 
    :depends scipy: 
    :depends seaborn: 
    :requirements:

@@ -23,11 +23,12 @@ rust-bio-tools
 
    |downloads_rust-bio-tools| |docker_rust-bio-tools|
 
-   :versions: 0.4.0-0, 0.3.0-0, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.6-1, 0.2.5-1, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.1.3-0, 0.1.2-0, 0.1.1-0
+   :versions: 0.4.1-0, 0.4.0-0, 0.3.0-0, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.6-1, 0.2.5-1, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.1.3-0, 0.1.2-0, 0.1.1-0
    
    :depends gsl: >=2.4,<2.5.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
+   :depends openblas: >=0.3.3,<0.3.4.0a0
    :depends starcode: 
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

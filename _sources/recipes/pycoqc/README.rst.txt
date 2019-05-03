@@ -22,13 +22,13 @@ pycoqc
 
    |downloads_pycoqc| |docker_pycoqc|
 
-   :versions: 1.0.alpha1-0
+   :versions: 2.2.3-1, 1.0.alpha1-0
    
    :depends matplotlib: 
    :depends notebook: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: 2.7*
+   :depends python: >=3
    :depends seaborn: 
    :requirements:
 

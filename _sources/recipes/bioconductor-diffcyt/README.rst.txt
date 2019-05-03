@@ -22,7 +22,7 @@ bioconductor-diffcyt
 
    |downloads_bioconductor-diffcyt| |docker_bioconductor-diffcyt|
 
-   :versions: 1.2.0-0
+   :versions: 1.2.23-1, 1.2.0-0
    
    :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
    :depends bioconductor-edger: >=3.24.0,<3.25.0

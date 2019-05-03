@@ -9,7 +9,7 @@ smeg
 .. conda:recipe:: smeg
    :replaces_section_title:
 
-   Strain\-level MEtagenomic Growth estimation \(SMEG\) measures growth rates of microbial strains from complex metagenomic dataset at low coverage \(1X\)
+   Strain\-level MEtagenomic Growth estimation \(SMEG\) measures growth rates of microbial strains from complex metagenomic dataset
 
    :homepage: https://github.com/ohlab/SMEG
    :license: MIT
@@ -22,14 +22,14 @@ smeg
 
    |downloads_smeg| |docker_smeg|
 
-   :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0
+   :versions: 1.1-0, 1.0.1-2, 1.0.1-1, 1.0.1-0
    
    :depends bamtools: 
+   :depends bedtools: 
+   :depends blast: 
    :depends bowtie2: 
-   :depends libstdcxx-ng: >=4.9
    :depends mauve: 
    :depends parallel: 
-   :depends perl-file-find-rule: 0.34 2
    :depends prokka: 
    :depends r-ape: 
    :depends r-data.table: 
@@ -39,11 +39,10 @@ smeg
    :depends r-ggplot2: 
    :depends r-gplots: 
    :depends r-gsubfn: 
-   :depends r-wgcna: 
+   :depends r-seqinr: 
    :depends readline: >=6.2
-   :depends roary: 3.12.0 pl5.22.0_0
-   :depends samtools: 1.8.*
-   :depends subread: 
+   :depends roary: 
+   :depends samtools: >=1.5,<1.9
    :requirements:
 
    .. rubric:: Installation

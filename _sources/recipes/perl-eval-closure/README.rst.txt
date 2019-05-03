@@ -22,12 +22,14 @@ perl-eval-closure
 
    |downloads_perl-eval-closure| |docker_perl-eval-closure|
 
-   :versions: 0.14-3, 0.14-1, 0.14-0
+   :versions: 0.14-4, 0.14-3, 0.14-1, 0.14-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends perl-app-cpanminus: 
-   :depends perl-test2-suite: 
+   :depends perl-carp: 
+   :depends perl-constant: 
+   :depends perl-exporter: 
    :requirements:
 
    .. rubric:: Installation

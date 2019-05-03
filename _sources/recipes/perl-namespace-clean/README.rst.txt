@@ -22,9 +22,10 @@ perl-namespace-clean
 
    |downloads_perl-namespace-clean| |docker_perl-namespace-clean|
 
-   :versions: 0.27-2, 0.27-0
+   :versions: 0.27-3, 0.27-2, 0.27-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-b-hooks-endofscope: 
    :depends perl-package-stash: 

@@ -1,0 +1,69 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'biobb_chemistry'
+.. highlight: bash
+
+biobb_chemistry
+===============
+
+.. conda:recipe:: biobb_chemistry
+   :replaces_section_title:
+
+   Biobb\_chemistry is the Biobb module collection to perform chemical conversions.
+
+   :homepage: https://github.com/bioexcel/biobb_chemistry
+   :license: APACHE / Apache Software License
+   :recipe: /`biobb_chemistry <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_chemistry>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_chemistry/meta.yaml>`_
+
+   Biobb\_chemistry
+
+
+.. conda:package:: biobb_chemistry
+
+   |downloads_biobb_chemistry| |docker_biobb_chemistry|
+
+   :versions: 1.0.4-0
+   
+   :depends biobb_common: 0.1.4
+   :depends openbabel: 2.4.1
+   :depends python: 3.6.*
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install biobb_chemistry
+
+   and update with::
+
+      conda update biobb_chemistry
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/biobb_chemistry:<tag>
+
+   (see `biobb_chemistry/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_biobb_chemistry| image:: https://img.shields.io/conda/dn/bioconda/biobb_chemistry.svg?style=flat
+   :alt:   (downloads)
+.. |docker_biobb_chemistry| image:: https://quay.io/repository/biocontainers/biobb_chemistry/status
+   :target: https://quay.io/repository/biocontainers/biobb_chemistry
+.. _`biobb_chemistry/tags`: https://quay.io/repository/biocontainers/biobb_chemistry?tab=tags
+
+
+
+
+
+
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/biobb_chemistry/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/biobb_chemistry/README.html

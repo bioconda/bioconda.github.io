@@ -22,10 +22,12 @@ scalpel
 
    |downloads_scalpel| |docker_scalpel|
 
-   :versions: 0.5.4-0, 0.5.3-2, 0.5.3-1, 0.5.3-0, 0.5.1-3, 0.5.1-2, 0.5.1-1, 0.5.1-0
+   :versions: 0.5.4-1, 0.5.4-0, 0.5.3-2, 0.5.3-1, 0.5.3-0, 0.5.1-3, 0.5.1-2, 0.5.1-1, 0.5.1-0
    
-   :depends bamtools: >=2.4.1,<2.4.2.0a0
+   :depends bamtools: 
    :depends bcftools: 
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: 
    :depends samtools: 
    :requirements:

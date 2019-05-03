@@ -22,7 +22,7 @@ perl-carp
 
    |downloads_perl-carp| |docker_perl-carp|
 
-   :versions: 1.38-2, 1.38-1, 1.38-0
+   :versions: 1.38-3, 1.38-2, 1.38-1, 1.38-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-exporter: 

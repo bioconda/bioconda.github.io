@@ -23,7 +23,7 @@ bioconductor-variancepartition
 
    |downloads_bioconductor-variancepartition| |docker_bioconductor-variancepartition|
 
-   :versions: 1.12.0-0, 1.10.4-0, 1.8.1-0
+   :versions: 1.12.3-0, 1.12.0-0, 1.10.4-0, 1.8.1-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-limma: >=3.38.0,<3.39.0
@@ -38,6 +38,7 @@ bioconductor-variancepartition
    :depends r-lmertest: 
    :depends r-mass: 
    :depends r-pbkrtest: >=0.4-4
+   :depends r-progress: 
    :depends r-reshape2: 
    :depends r-scales: 
    :requirements:

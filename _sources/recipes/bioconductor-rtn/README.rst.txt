@@ -22,13 +22,14 @@ bioconductor-rtn
 
    |downloads_bioconductor-rtn| |docker_bioconductor-rtn|
 
-   :versions: 2.6.0-0
+   :versions: 2.6.3-0, 2.6.0-0
    
    :depends bioconductor-iranges: >=2.16.0,<2.17.0
    :depends bioconductor-limma: >=3.38.0,<3.39.0
    :depends bioconductor-minet: >=3.40.0,<3.41.0
    :depends bioconductor-reder: >=1.30.0,<1.31.0
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   :depends bioconductor-summarizedexperiment: 
    :depends bioconductor-viper: >=1.16.0,<1.17.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-data.table: 
