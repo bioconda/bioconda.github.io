@@ -22,7 +22,7 @@ microhapdb
 
    |downloads_microhapdb| |docker_microhapdb|
 
-   :versions: 0.3-0, 0.2-0, 0.1.1-0
+   :versions: 0.2-0
    
    :depends pandas: 
    :depends python: >=3

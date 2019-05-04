@@ -1,10 +1,10 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'microhapdb'
+.. title:: Package Recipe 'happer'
 .. highlight: bash
 
-microhapdb
-==========
+happer
+======
 
 .. conda:recipe:: happer
    :replaces_section_title:
@@ -18,13 +18,12 @@ microhapdb
    
 
 
-.. conda:package:: microhapdb
+.. conda:package:: happer
 
-   |downloads_microhapdb| |docker_microhapdb|
+   |downloads_happer| |docker_happer|
 
-   :versions: 0.3-0, 0.2-0, 0.1.1-0
+   :versions: 0.1.1-0
    
-   :depends pandas: 
    :depends python: >=3
    :requirements:
 
@@ -32,24 +31,24 @@ microhapdb
 
    With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
-      conda install microhapdb
+      conda install happer
 
    and update with::
 
-      conda update microhapdb
+      conda update happer
 
    or use the docker container::
 
-      docker pull quay.io/biocontainers/microhapdb:<tag>
+      docker pull quay.io/biocontainers/happer:<tag>
 
-   (see `microhapdb/tags`_ for valid values for ``<tag>``)
+   (see `happer/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_microhapdb| image:: https://img.shields.io/conda/dn/bioconda/microhapdb.svg?style=flat
+.. |downloads_happer| image:: https://img.shields.io/conda/dn/bioconda/happer.svg?style=flat
    :alt:   (downloads)
-.. |docker_microhapdb| image:: https://quay.io/repository/biocontainers/microhapdb/status
-   :target: https://quay.io/repository/biocontainers/microhapdb
-.. _`microhapdb/tags`: https://quay.io/repository/biocontainers/microhapdb?tab=tags
+.. |docker_happer| image:: https://quay.io/repository/biocontainers/happer/status
+   :target: https://quay.io/repository/biocontainers/happer
+.. _`happer/tags`: https://quay.io/repository/biocontainers/happer?tab=tags
 
 
 
@@ -62,7 +61,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/microhapdb/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/happer/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/microhapdb/README.html
+   :target: http://bioconda.github.io/recipes/happer/README.html

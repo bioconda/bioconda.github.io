@@ -22,9 +22,10 @@ python-edlib
 
    |downloads_python-edlib| |docker_python-edlib|
 
-   :versions: 1.2.3.post1-0, 1.2.3-1, 1.2.3-0
+   :versions: 1.2.4-0, 1.2.3.post1-0, 1.2.3-1, 1.2.3-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends python: >=2.7,<2.8.0a0
    :requirements:
 

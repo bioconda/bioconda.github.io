@@ -22,7 +22,7 @@ perl-json-xs
 
    |downloads_perl-json-xs| |docker_perl-json-xs|
 
-   :versions: 4.02-0, 4.0-0, 3.04-0, 2.34-2, 2.34-1, 2.34-0
+   :versions: 4.02-1, 4.02-0, 4.0-0, 3.04-0, 2.34-2, 2.34-1, 2.34-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
