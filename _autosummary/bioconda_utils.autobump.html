@@ -174,17 +174,23 @@ have come past it, to avoid too many PRs opened at once.</p></li>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.autobump.CheckPinning" title="bioconda_utils.autobump.CheckPinning"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CheckPinning</span></code></a>(scanner, bump_only_python)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.autobump.AutoBumpConfigMixin" title="bioconda_utils.autobump.AutoBumpConfigMixin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AutoBumpConfigMixin</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.autobump.CheckPinning" title="bioconda_utils.autobump.CheckPinning"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CheckPinning</span></code></a>(scanner, bump_only_python)</p></td>
 <td><p>Bump recipes in need of rebuild after pinning changes</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.autobump.CreatePullRequest" title="bioconda_utils.autobump.CreatePullRequest"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CreatePullRequest</span></code></a>(scanner, git_handler, …)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.autobump.CreatePullRequest" title="bioconda_utils.autobump.CreatePullRequest"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CreatePullRequest</span></code></a>(scanner, git_handler, …)</p></td>
 <td><p>Create or Update PR on GitHub</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.autobump.ExcludeBlacklisted" title="bioconda_utils.autobump.ExcludeBlacklisted"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ExcludeBlacklisted</span></code></a>(scanner, recipe_base, config)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.autobump.ExcludeBlacklisted" title="bioconda_utils.autobump.ExcludeBlacklisted"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ExcludeBlacklisted</span></code></a>(scanner, recipe_base, config)</p></td>
 <td><p>Exclude blacklisted recipes</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.autobump.ExcludeDependencyPending" title="bioconda_utils.autobump.ExcludeDependencyPending"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ExcludeDependencyPending</span></code></a>(scanner, dag)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.autobump.ExcludeDependencyPending" title="bioconda_utils.autobump.ExcludeDependencyPending"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ExcludeDependencyPending</span></code></a>(scanner, dag)</p></td>
 <td><p>Exclude recipes depending on packages in need of update</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.autobump.ExcludeDisabled" title="bioconda_utils.autobump.ExcludeDisabled"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ExcludeDisabled</span></code></a>(pipeline, *_args, **_kwargs)</p></td>
+<td><p>Exclude recipes disabled via config</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.autobump.ExcludeNoActiveUpdate" title="bioconda_utils.autobump.ExcludeNoActiveUpdate"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ExcludeNoActiveUpdate</span></code></a>(scanner, git_handler)</p></td>
 <td><p>Exclude recipes not currently undergoing an update</p></td>
@@ -240,6 +246,54 @@ have come past it, to avoid too many PRs opened at once.</p></li>
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
+<dl class="class">
+<dt id="bioconda_utils.autobump.AutoBumpConfigMixin">
+<em class="property">class </em><code class="descclassname">bioconda_utils.autobump.</code><code class="descname">AutoBumpConfigMixin</code><a class="reference internal" href="../_modules/bioconda_utils/autobump.html#AutoBumpConfigMixin"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.AutoBumpConfigMixin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<dl class="attribute">
+<dt id="bioconda_utils.autobump.AutoBumpConfigMixin.ENABLE">
+<code class="descname">ENABLE</code><em class="property"> = 'enable'</em><a class="headerlink" href="#bioconda_utils.autobump.AutoBumpConfigMixin.ENABLE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Name of key under <a class="reference internal" href="#bioconda_utils.autobump.AutoBumpConfigMixin.EXTRA_CONFIG" title="bioconda_utils.autobump.AutoBumpConfigMixin.EXTRA_CONFIG"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">EXTRA_CONFIG</span></code></a> to enable/disable autobump</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.autobump.AutoBumpConfigMixin.EXTRA_CONFIG">
+<code class="descname">EXTRA_CONFIG</code><em class="property"> = 'autobump'</em><a class="headerlink" href="#bioconda_utils.autobump.AutoBumpConfigMixin.EXTRA_CONFIG" title="Permalink to this definition">¶</a></dt>
+<dd><p>Name of key under <code class="docutils literal notranslate"><span class="pre">extra</span></code> containing config for autobump</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.autobump.AutoBumpConfigMixin.get_config">
+<code class="descname">get_config</code><span class="sig-paren">(</span><em>recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/autobump.html#AutoBumpConfigMixin.get_config"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.AutoBumpConfigMixin.get_config" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the configuration dict from the recipe</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.autobump.AutoBumpConfigMixin.is_enabled">
+<code class="descname">is_enabled</code><span class="sig-paren">(</span><em>recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/autobump.html#AutoBumpConfigMixin.is_enabled"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.AutoBumpConfigMixin.is_enabled" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if autobump is enabled for the recipe</p>
+<p>The result is:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a> if the recipe is explicitly enabled (overriding e.g.
+exclusion of sub-recipes).</p></li>
+<li><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#False" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">False</span></code></a> if the recipe is explicitly disabled (e.g.
+if it is written in a way that cannot be updated automatically)</p></li>
+<li><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a> if no explicit setting is present.</p></li>
+</ul>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
 <dl class="class">
 <dt id="bioconda_utils.autobump.CheckPinning">
 <em class="property">class </em><code class="descclassname">bioconda_utils.autobump.</code><code class="descname">CheckPinning</code><span class="sig-paren">(</span><em>scanner</em>, <em>bump_only_python</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/autobump.html#CheckPinning"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CheckPinning" title="Permalink to this definition">¶</a></dt>
@@ -445,6 +499,36 @@ or filled in later by the <a class="reference internal" href="#bioconda_utils.au
 </dd></dl>
 
 <dl class="class">
+<dt id="bioconda_utils.autobump.ExcludeDisabled">
+<em class="property">class </em><code class="descclassname">bioconda_utils.autobump.</code><code class="descname">ExcludeDisabled</code><span class="sig-paren">(</span><em>pipeline</em>, <em>*_args</em>, <em>**_kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/autobump.html#ExcludeDisabled"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDisabled" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a>, <a class="reference internal" href="#bioconda_utils.autobump.AutoBumpConfigMixin" title="bioconda_utils.autobump.AutoBumpConfigMixin"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.AutoBumpConfigMixin</span></code></a></p>
+<p>Exclude recipes disabled via config</p>
+<dl class="exception">
+<dt id="bioconda_utils.autobump.ExcludeDisabled.IsDisabled">
+<em class="property">exception </em><code class="descname">IsDisabled</code><span class="sig-paren">(</span><em>item</em>, <em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/autobump.html#ExcludeDisabled.IsDisabled"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDisabled.IsDisabled" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
+<p>This recipe was explicitly disabled</p>
+<dl class="attribute">
+<dt id="bioconda_utils.autobump.ExcludeDisabled.IsDisabled.template">
+<code class="descname">template</code><em class="property"> = 'is disabled for autobump'</em><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDisabled.IsDisabled.template" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.autobump.ExcludeDisabled.apply">
+<code class="descname">apply</code><span class="sig-paren">(</span><em>recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/autobump.html#ExcludeDisabled.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDisabled.apply" title="Permalink to this definition">¶</a></dt>
+<dd><p>Process a recipe. Returns False if processing should stop</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
 <dt id="bioconda_utils.autobump.ExcludeNoActiveUpdate">
 <em class="property">class </em><code class="descclassname">bioconda_utils.autobump.</code><code class="descname">ExcludeNoActiveUpdate</code><span class="sig-paren">(</span><em>scanner</em>, <em>git_handler</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/autobump.html#ExcludeNoActiveUpdate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeNoActiveUpdate" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.GitFilter" title="bioconda_utils.autobump.GitFilter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.GitFilter</span></code></a></p>
@@ -532,7 +616,7 @@ in at least one other channel</p>
 <dl class="class">
 <dt id="bioconda_utils.autobump.ExcludeSubrecipe">
 <em class="property">class </em><code class="descclassname">bioconda_utils.autobump.</code><code class="descname">ExcludeSubrecipe</code><span class="sig-paren">(</span><em>scanner</em>, <em>always=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/autobump.html#ExcludeSubrecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeSubrecipe" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a></p>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a>, <a class="reference internal" href="#bioconda_utils.autobump.AutoBumpConfigMixin" title="bioconda_utils.autobump.AutoBumpConfigMixin"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.AutoBumpConfigMixin</span></code></a></p>
 <p>Exclude sub-recipes</p>
 <p>Unless <strong>always</strong> is True, subrecipes specifically enabled via
 <code class="docutils literal notranslate"><span class="pre">extra:</span> <span class="pre">watch:</span> <span class="pre">enable:</span> <span class="pre">yes</span></code> will not be filtered.</p>
@@ -1018,7 +1102,7 @@ after the recipe was built and uploaded</p>
 <dl class="class">
 <dt id="bioconda_utils.autobump.UpdateVersion">
 <em class="property">class </em><code class="descclassname">bioconda_utils.autobump.</code><code class="descname">UpdateVersion</code><span class="sig-paren">(</span><em>scanner</em>, <em>hoster_factory</em>, <em>unparsed_file=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/autobump.html#UpdateVersion"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a></p>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a>, <a class="reference internal" href="#bioconda_utils.autobump.AutoBumpConfigMixin" title="bioconda_utils.autobump.AutoBumpConfigMixin"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.AutoBumpConfigMixin</span></code></a></p>
 <p>Scan upstream for new releases and update recipe</p>
 <ul class="simple">
 <li><p>In the most simple case, a package has a single URL which also indicates the version</p></li>

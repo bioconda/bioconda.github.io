@@ -16,10 +16,12 @@ autobump
 
    .. autosummary::
    
+      AutoBumpConfigMixin
       CheckPinning
       CreatePullRequest
       ExcludeBlacklisted
       ExcludeDependencyPending
+      ExcludeDisabled
       ExcludeNoActiveUpdate
       ExcludeOtherChannel
       ExcludeSubrecipe

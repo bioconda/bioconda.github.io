@@ -382,7 +382,31 @@
             <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">OtherChannel</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="ExcludeSubrecipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.ExcludeSubrecipe">[docs]</a><span class="k">class</span> <span class="nc">ExcludeSubrecipe</span><span class="p">(</span><span class="n">Filter</span><span class="p">):</span>
+<div class="viewcode-block" id="AutoBumpConfigMixin"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.AutoBumpConfigMixin">[docs]</a><span class="k">class</span> <span class="nc">AutoBumpConfigMixin</span><span class="p">:</span>
+    <span class="c1">#: Name of key under ``extra`` containing config for autobump</span>
+    <span class="n">EXTRA_CONFIG</span> <span class="o">=</span> <span class="s2">&quot;autobump&quot;</span>
+    <span class="c1">#: Name of key under `EXTRA_CONFIG` to enable/disable autobump</span>
+    <span class="n">ENABLE</span> <span class="o">=</span> <span class="s2">&quot;enable&quot;</span>
+
+<div class="viewcode-block" id="AutoBumpConfigMixin.get_config"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.AutoBumpConfigMixin.get_config">[docs]</a>    <span class="k">def</span> <span class="nf">get_config</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="n">Any</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
+        <span class="sd">&quot;&quot;&quot;Returns the configuration dict from the recipe&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;extra&quot;</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">EXTRA_CONFIG</span><span class="p">,</span> <span class="p">{})</span></div>
+
+<div class="viewcode-block" id="AutoBumpConfigMixin.is_enabled"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.AutoBumpConfigMixin.is_enabled">[docs]</a>    <span class="k">def</span> <span class="nf">is_enabled</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">bool</span><span class="p">]:</span>
+        <span class="sd">&quot;&quot;&quot;Checks if autobump is enabled for the recipe</span>
+
+<span class="sd">        The result is:</span>
+
+<span class="sd">        - `True` if the recipe is explicitly enabled (overriding e.g.</span>
+<span class="sd">          exclusion of sub-recipes).</span>
+<span class="sd">        - `False` if the recipe is explicitly disabled (e.g.</span>
+<span class="sd">          if it is written in a way that cannot be updated automatically)</span>
+<span class="sd">        - `None` if no explicit setting is present.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_config</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">ENABLE</span><span class="p">)</span></div></div>
+
+
+<div class="viewcode-block" id="ExcludeSubrecipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.ExcludeSubrecipe">[docs]</a><span class="k">class</span> <span class="nc">ExcludeSubrecipe</span><span class="p">(</span><span class="n">Filter</span><span class="p">,</span> <span class="n">AutoBumpConfigMixin</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Exclude sub-recipes</span>
 
 <span class="sd">    Unless **always** is True, subrecipes specifically enabled via</span>
@@ -400,9 +424,22 @@
 
 <div class="viewcode-block" id="ExcludeSubrecipe.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.ExcludeSubrecipe.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">is_subrecipe</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">reldir</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span>
-        <span class="n">enabled</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;enable&quot;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+        <span class="n">enabled</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_enabled</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span> <span class="o">==</span> <span class="kc">True</span>
         <span class="k">if</span> <span class="n">is_subrecipe</span> <span class="ow">and</span> <span class="ow">not</span> <span class="p">(</span><span class="n">enabled</span> <span class="ow">and</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">always_exclude</span><span class="p">):</span>
             <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">IsSubRecipe</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span></div></div>
+
+
+<div class="viewcode-block" id="ExcludeDisabled"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.ExcludeDisabled">[docs]</a><span class="k">class</span> <span class="nc">ExcludeDisabled</span><span class="p">(</span><span class="n">Filter</span><span class="p">,</span> <span class="n">AutoBumpConfigMixin</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Exclude recipes disabled via config&quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="ExcludeDisabled.IsDisabled"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.ExcludeDisabled.IsDisabled">[docs]</a>    <span class="k">class</span> <span class="nc">IsDisabled</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;This recipe was explicitly disabled&quot;&quot;&quot;</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;is disabled for autobump&quot;</span></div>
+
+<div class="viewcode-block" id="ExcludeDisabled.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.ExcludeDisabled.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">enabled</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_enabled</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">enabled</span> <span class="ow">and</span> <span class="n">enabled</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">IsDisabled</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span></div></div>
 
 
 <div class="viewcode-block" id="ExcludeBlacklisted"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.ExcludeBlacklisted">[docs]</a><span class="k">class</span> <span class="nc">ExcludeBlacklisted</span><span class="p">(</span><span class="n">Filter</span><span class="p">):</span>
@@ -540,7 +577,7 @@
         <span class="k">return</span> <span class="n">causes</span></div></div>
 
 
-<div class="viewcode-block" id="UpdateVersion"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion">[docs]</a><span class="k">class</span> <span class="nc">UpdateVersion</span><span class="p">(</span><span class="n">Filter</span><span class="p">):</span>
+<div class="viewcode-block" id="UpdateVersion"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion">[docs]</a><span class="k">class</span> <span class="nc">UpdateVersion</span><span class="p">(</span><span class="n">Filter</span><span class="p">,</span> <span class="n">AutoBumpConfigMixin</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Scan upstream for new releases and update recipe</span>
 
 <span class="sd">    - In the most simple case, a package has a single URL which also indicates the version</span>
@@ -708,7 +745,8 @@
 
         <span class="n">version_map</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">dict</span><span class="p">)</span>
         <span class="k">for</span> <span class="n">url</span> <span class="ow">in</span> <span class="n">urls</span><span class="p">:</span>
-            <span class="n">hoster</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">hoster_factory</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">recipe</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;override&quot;</span><span class="p">,</span> <span class="p">{}))</span>
+            <span class="n">config</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_config</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+            <span class="n">hoster</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">hoster_factory</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;override&quot;</span><span class="p">,</span> <span class="p">{}))</span>
             <span class="k">if</span> <span class="ow">not</span> <span class="n">hoster</span><span class="p">:</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">unparsed_urls</span> <span class="o">+=</span> <span class="p">[</span><span class="n">url</span><span class="p">]</span>
                 <span class="k">continue</span>

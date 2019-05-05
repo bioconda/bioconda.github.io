@@ -22,13 +22,14 @@ bioconvert
 
    |downloads_bioconvert| |docker_bioconvert|
 
-   :versions: 0.2.0-2, 0.2.0-1, 0.0.10-1, 0.0.10-0
+   :versions: 0.3.0-1, 0.2.0-2, 0.2.0-1, 0.0.10-1, 0.0.10-0
    
    :depends bamtools: 
    :depends bcftools: 
+   :depends bedops: 
    :depends bedtools: 
    :depends bioawk: 
-   :depends biopython: 
+   :depends biopython: >=1.70
    :depends colorlog: 
    :depends deeptools: 
    :depends dsrc: 
@@ -42,6 +43,7 @@ bioconvert
    :depends pbzip2: 
    :depends pigz: 
    :depends plink: 
+   :depends pybigwig: 
    :depends pyexcel: 
    :depends pyexcel-ods3: 
    :depends pyexcel-xls: 
@@ -49,7 +51,7 @@ bioconvert
    :depends python: >=3.6,<3.7.0a0
    :depends pyyaml: 
    :depends sambamba: 
-   :depends samtools: 
+   :depends samtools: >=1.9
    :depends sed: 
    :depends seqtk: 
    :depends squizz: 

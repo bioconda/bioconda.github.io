@@ -22,7 +22,7 @@ pb-falcon
 
    |downloads_pb-falcon| |docker_pb-falcon|
 
-   :versions: 0.3.0-0, 0.2.7-1, 0.2.6-3, 0.2.6-2, 0.2.6-1, 0.2.5-3, 0.2.5-2, 0.2.5-1, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-1, 0.2.1-0, 0.2.0-2, 0.2.0-0, 0.0.2-0, 0.0.1-0, 0.0.0-0
+   :versions: 0.3.0-1, 0.3.0-0, 0.2.7-1, 0.2.6-3, 0.2.6-2, 0.2.6-1, 0.2.5-3, 0.2.5-2, 0.2.5-1, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-1, 0.2.1-0, 0.2.0-2, 0.2.0-0, 0.0.2-0, 0.0.1-0, 0.0.0-0
    
    :depends future: >=0.16.0
    :depends htslib: >=1.9,<1.10.0a0
@@ -32,7 +32,7 @@ pb-falcon
    :depends python: >=3.6,<3.7.0a0
    :depends python-edlib: >=1.2.4
    :depends python-intervaltree: 
-   :depends python-msgpack: 
+   :depends python-msgpack: >=0.6.1
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

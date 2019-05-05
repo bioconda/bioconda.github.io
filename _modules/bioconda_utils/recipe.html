@@ -240,8 +240,6 @@
         <span class="s2">&quot;compiler&quot;</span><span class="p">:</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">f</span><span class="s2">&quot;compiler_</span><span class="si">{x}</span><span class="s2">&quot;</span><span class="p">,</span>
     <span class="p">}</span>
 
-    <span class="c1">#: Name of key under ``extra`` containing config</span>
-    <span class="n">EXTRA_CONFIG</span> <span class="o">=</span> <span class="s2">&quot;autobump&quot;</span>
 
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">):</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">recipe_dir</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">):</span>
@@ -287,15 +285,6 @@
     <span class="k">def</span> <span class="nf">dir</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Path to recipe folder&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">basedir</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">reldir</span><span class="p">)</span>
-
-    <span class="nd">@property</span>
-    <span class="k">def</span> <span class="nf">config</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Per-recipe configuration parameters</span>
-
-<span class="sd">        These are the values set in ``extra:`` under the key</span>
-<span class="sd">        defined as `Recipe.EXTRA_CONFIG` (default is ``watch``).</span>
-<span class="sd">        &quot;&quot;&quot;</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;extra&quot;</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">EXTRA_CONFIG</span><span class="p">,</span> <span class="p">{})</span>
 
     <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">reldir</span>

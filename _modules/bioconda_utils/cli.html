@@ -820,8 +820,10 @@
 <span class="s1">     building packages present in other channels. Set to &#39;none&#39; to disable</span>
 <span class="s1">     check.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--ignore-blacklists&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Do not exclude recipes from blacklist&#39;&#39;&#39;</span><span class="p">)</span>
-<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--no-fetch-requirements&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Do not try to determine upstream</span>
-<span class="s1">     requirements&#39;&#39;&#39;</span><span class="p">)</span>
+<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--fetch-requirements&#39;</span><span class="p">,</span>
+     <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Try to fetch python requirements. Please note that this requires</span>
+<span class="s1">     downloading packages and executing setup.py, so presents a potential</span>
+<span class="s1">     security problem.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--cache&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;To speed up debugging, use repodata cached locally in</span>
 <span class="s1">     the provided filename. If the file does not exist, it will be created</span>
 <span class="s1">     the first time. Caution: The cache will not be updated if</span>
@@ -859,7 +861,7 @@
              <span class="n">failed_urls</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">unparsed_urls</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">recipe_status</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
              <span class="n">exclude_subrecipes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">exclude_channels</span><span class="o">=</span><span class="s1">&#39;conda-forge&#39;</span><span class="p">,</span>
              <span class="n">ignore_blacklists</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-             <span class="n">no_fetch_requirements</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+             <span class="n">fetch_requirements</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
              <span class="n">check_branch</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">create_branch</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">create_pr</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
              <span class="n">only_active</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">no_shuffle</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
              <span class="n">max_updates</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">parallel</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">dry_run</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
@@ -885,48 +887,71 @@
             <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">packages</span><span class="p">,</span> <span class="ow">not</span> <span class="n">no_shuffle</span><span class="p">,</span>
             <span class="n">config_dict</span><span class="p">,</span> <span class="n">cache_fn</span><span class="o">=</span><span class="n">cache</span> <span class="ow">and</span> <span class="n">cache</span> <span class="o">+</span> <span class="s2">&quot;_dag.pkl&quot;</span><span class="p">)</span>
 
+    <span class="c1"># Setup scanning pipeline</span>
     <span class="n">scanner</span> <span class="o">=</span> <span class="n">autobump</span><span class="o">.</span><span class="n">Scanner</span><span class="p">(</span><span class="n">recipe_source</span><span class="p">,</span>
                                <span class="n">cache_fn</span><span class="o">=</span><span class="n">cache</span> <span class="ow">and</span> <span class="n">cache</span> <span class="o">+</span> <span class="s2">&quot;_scan.pkl&quot;</span><span class="p">,</span>
                                <span class="n">max_inflight</span><span class="o">=</span><span class="n">parallel</span><span class="p">,</span>
                                <span class="n">status_fn</span><span class="o">=</span><span class="n">recipe_status</span><span class="p">)</span>
+
+    <span class="c1"># Always exclude recipes that were explicitly disabled</span>
+    <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">ExcludeDisabled</span><span class="p">)</span>
+
+    <span class="c1"># Exclude packages that are on the blacklist</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">ignore_blacklists</span><span class="p">:</span>
         <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">ExcludeBlacklisted</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config_dict</span><span class="p">)</span>
+
+    <span class="c1"># Exclude sub-recipes</span>
     <span class="k">if</span> <span class="n">exclude_subrecipes</span> <span class="o">!=</span> <span class="s2">&quot;never&quot;</span><span class="p">:</span>
         <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">ExcludeSubrecipe</span><span class="p">,</span>
                     <span class="n">always</span><span class="o">=</span><span class="n">exclude_subrecipes</span> <span class="o">==</span> <span class="s2">&quot;always&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Exclude recipes with dependencies pending an update</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">no_check_pending_deps</span><span class="p">:</span>
         <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">ExcludeDependencyPending</span><span class="p">,</span> <span class="n">recipe_source</span><span class="o">.</span><span class="n">dag</span><span class="p">)</span>
 
+    <span class="c1"># Load recipe</span>
     <span class="n">git_handler</span> <span class="o">=</span> <span class="kc">None</span>
     <span class="k">if</span> <span class="n">check_branch</span> <span class="ow">or</span> <span class="n">create_branch</span> <span class="ow">or</span> <span class="n">create_pr</span> <span class="ow">or</span> <span class="n">only_active</span><span class="p">:</span>
+        <span class="c1"># We need to take the recipe from the git repo. This</span>
+        <span class="c1"># loads the bump/&lt;recipe&gt; branch if available</span>
         <span class="n">git_handler</span> <span class="o">=</span> <span class="n">githandler</span><span class="o">.</span><span class="n">BiocondaRepo</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">dry_run</span><span class="p">)</span>
         <span class="n">git_handler</span><span class="o">.</span><span class="n">checkout_master</span><span class="p">()</span>
         <span class="k">if</span> <span class="n">only_active</span><span class="p">:</span>
             <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">ExcludeNoActiveUpdate</span><span class="p">,</span> <span class="n">git_handler</span><span class="p">)</span>
         <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">GitLoadRecipe</span><span class="p">,</span> <span class="n">git_handler</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># Just load from local file system</span>
         <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">LoadRecipe</span><span class="p">)</span>
 
+    <span class="c1"># Exclude recipes that are present in &quot;other channels&quot;</span>
     <span class="k">if</span> <span class="n">exclude_channels</span> <span class="o">!=</span> <span class="p">[</span><span class="s2">&quot;none&quot;</span><span class="p">]:</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">exclude_channels</span><span class="p">,</span> <span class="nb">list</span><span class="p">):</span>
             <span class="n">exclude_channels</span> <span class="o">=</span> <span class="p">[</span><span class="n">exclude_channels</span><span class="p">]</span>
         <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">ExcludeOtherChannel</span><span class="p">,</span> <span class="n">exclude_channels</span><span class="p">,</span>
                     <span class="n">cache</span> <span class="ow">and</span> <span class="n">cache</span> <span class="o">+</span> <span class="s2">&quot;_repodata.txt&quot;</span><span class="p">)</span>
 
+    <span class="c1"># Test if due to pinnings, the package hash would change and a rebuild</span>
+    <span class="c1"># has become necessary. If so, bump the buildnumber.</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">no_check_pinnings</span><span class="p">:</span>
         <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">CheckPinning</span><span class="p">,</span> <span class="n">bump_only_python</span><span class="p">)</span>
 
+    <span class="c1"># Check for new versions and update the SHA afterwards</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">no_check_version_update</span><span class="p">:</span>
         <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">UpdateVersion</span><span class="p">,</span> <span class="n">hosters</span><span class="o">.</span><span class="n">Hoster</span><span class="o">.</span><span class="n">select_hoster</span><span class="p">,</span> <span class="n">unparsed_urls</span><span class="p">)</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="n">no_fetch_requirements</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">fetch_requirements</span><span class="p">:</span>
+            <span class="c1"># This attempts to determine dependencies exported by PyPi packages,</span>
+            <span class="c1"># requires running setup.py, so only enabled on request.</span>
             <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">FetchUpstreamDependencies</span><span class="p">)</span>
         <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">UpdateChecksums</span><span class="p">,</span> <span class="n">failed_urls</span><span class="p">)</span>
 
+    <span class="c1"># Write the recipe. For making PRs, the recipe should be written to a branch</span>
+    <span class="c1"># of its own.</span>
     <span class="k">if</span> <span class="n">create_branch</span> <span class="ow">or</span> <span class="n">create_pr</span><span class="p">:</span>
         <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">GitWriteRecipe</span><span class="p">,</span> <span class="n">git_handler</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">WriteRecipe</span><span class="p">)</span>
 
+    <span class="c1"># Create a PR for the branch</span>
     <span class="k">if</span> <span class="n">create_pr</span><span class="p">:</span>
         <span class="n">token</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;GITHUB_TOKEN&quot;</span><span class="p">)</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">token</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">dry_run</span><span class="p">:</span>
@@ -936,9 +961,14 @@
             <span class="n">token</span><span class="p">,</span> <span class="n">dry_run</span><span class="p">,</span> <span class="s2">&quot;bioconda&quot;</span><span class="p">,</span> <span class="s2">&quot;bioconda-recipes&quot;</span><span class="p">)</span>
         <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">CreatePullRequest</span><span class="p">,</span> <span class="n">git_handler</span><span class="p">,</span> <span class="n">github_handler</span><span class="p">)</span>
 
+    <span class="c1"># Terminate the scanning pipeline after x recipes have reached this point.</span>
     <span class="k">if</span> <span class="n">max_updates</span><span class="p">:</span>
         <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">MaxUpdates</span><span class="p">,</span> <span class="n">max_updates</span><span class="p">)</span>
+
+    <span class="c1"># And go.</span>
     <span class="n">scanner</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+
+    <span class="c1"># Cleanup</span>
     <span class="k">if</span> <span class="n">git_handler</span><span class="p">:</span>
         <span class="n">git_handler</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></div>
 

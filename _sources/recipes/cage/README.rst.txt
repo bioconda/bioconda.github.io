@@ -22,11 +22,13 @@ cage
 
    |downloads_cage| |docker_cage|
 
-   :versions: 2016.05.13-1, 2016.05.13-0, 2016.01.24-0
+   :versions: 2016.05.13-2, 2016.05.13-1, 2016.05.13-0, 2016.01.24-0
    
-   :depends bamtools: >=2.4.1,<2.4.2.0a0
+   :depends bamtools: >=2.5.1,<2.5.2.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends python: 
-   :depends sqlite: >=3.24.0,<4.0a0
+   :depends sqlite: >=3.26.0,<4.0a0
    :requirements:
 
    .. rubric:: Installation

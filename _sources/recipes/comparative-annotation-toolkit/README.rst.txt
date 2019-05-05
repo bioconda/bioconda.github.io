@@ -23,10 +23,10 @@ comparative-annotation-toolkit
 
    |downloads_comparative-annotation-toolkit| |docker_comparative-annotation-toolkit|
 
-   :versions: 0.1-1, 0.1-0
+   :versions: 0.1-2, 0.1-1, 0.1-0
    
    :depends augustus: >=3.3
-   :depends bamtools: >=2.4.1,<2.4.2.0a0
+   :depends bamtools: 
    :depends bx-python: >=0.7.1
    :depends configobj: >=5.0
    :depends ete3: 
