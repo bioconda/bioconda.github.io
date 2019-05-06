@@ -130,7 +130,7 @@
 <dd><p><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/gatk4.svg?style=flat" /> <a class="reference external" href="https://quay.io/repository/biocontainers/gatk4"><img alt="docker_gatk4" src="https://quay.io/repository/biocontainers/gatk4/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>4.1.2.0-0, 4.1.1.0-0, 4.1.0.0-0, 4.0.12.0-0, 4.0.11.0-0, 4.0.10.0-0, 4.0.9.0-0, 4.0.8.1-0, 4.0.7.0-0, 4.0.6.0-0, 4.0.5.2-0, 4.0.5.1-0, 4.0.4.0-0, 4.0.3.0-1, 4.0.3.0-0, 4.0.2.1-0, 4.0.2.0-0, 4.0.1.2-0, 4.0.1.1-0, 4.0.1.0-0, 4.0.0.0-0, 4.0b6-0, 4.0b5-0, 4.0b4-0, 4.0b3-0, 4.0b2-0, 4.0b1-0, 4.0a1.2.7.2-2</p>
+<dd class="field-odd"><p>4.1.2.0-1, 4.1.2.0-0, 4.1.1.0-0, 4.1.0.0-0, 4.0.12.0-0, 4.0.11.0-0, 4.0.10.0-0, 4.0.9.0-0, 4.0.8.1-0, 4.0.7.0-0, 4.0.6.0-0, 4.0.5.2-0, 4.0.5.1-0, 4.0.4.0-0, 4.0.3.0-1, 4.0.3.0-0, 4.0.2.1-0, 4.0.2.0-0, 4.0.1.2-0, 4.0.1.1-0, 4.0.1.0-0, 4.0.0.0-0, 4.0b6-0, 4.0b5-0, 4.0b4-0, 4.0b3-0, 4.0b2-0, 4.0b1-0, 4.0a1.2.7.2-2</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
@@ -141,6 +141,7 @@
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><a class="conda-package reference internal" href="../ctat-mutations/README.html#ctat-mutations"><strong class="xref backref">ctat-mutations</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="#gatk4-spark"><strong class="xref backref">gatk4-spark</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../somaticseq/README.html#somaticseq"><strong class="xref backref">somaticseq</strong></a></p></li>
 </ul>
 </dd>
@@ -159,6 +160,42 @@
 </pre></div>
 </div>
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/gatk4?tab=tags">gatk4/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+</dd></dl>
+
+<dl class="package">
+<dt id="package-gatk4-spark">
+<em class="property">package </em><code class="descname">gatk4-spark</code><a class="headerlink" href="#package-gatk4-spark" title="Permalink to this definition">¶</a></dt>
+<dd><p><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/gatk4-spark.svg?style=flat" /> <a class="reference external" href="https://quay.io/repository/biocontainers/gatk4"><img alt="docker_gatk4-spark" src="https://quay.io/repository/biocontainers/gatk4/status" /></a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Versions</dt>
+<dd class="field-odd"><p>4.1.2.0-1</p>
+</dd>
+<dt class="field-even">Depends</dt>
+<dd class="field-list-wrapped field-even"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="#package-gatk4" title="gatk4 package"><strong>gatk4</strong></a> 4.1.2.0 1</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openjdk-feedstock"><strong>openjdk</strong></a> &gt;=8,&lt;9</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
+</ul>
+</dd>
+<dt class="field-odd">Required By</dt>
+<dd class="field-odd"><ul class="simple">
+</ul>
+</dd>
+</dl>
+<p class="rubric">Installation</p>
+<p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">gatk4</span><span class="o">-</span><span class="n">spark</span>
+</pre></div>
+</div>
+<p>and update with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">gatk4</span><span class="o">-</span><span class="n">spark</span>
+</pre></div>
+</div>
+<p>or use the docker container:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">gatk4</span><span class="o">-</span><span class="n">spark</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/gatk4-spark?tab=tags">gatk4-spark/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

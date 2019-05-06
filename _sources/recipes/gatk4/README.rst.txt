@@ -23,7 +23,7 @@ gatk4
 
    |downloads_gatk4| |docker_gatk4|
 
-   :versions: 4.1.2.0-0, 4.1.1.0-0, 4.1.0.0-0, 4.0.12.0-0, 4.0.11.0-0, 4.0.10.0-0, 4.0.9.0-0, 4.0.8.1-0, 4.0.7.0-0, 4.0.6.0-0, 4.0.5.2-0, 4.0.5.1-0, 4.0.4.0-0, 4.0.3.0-1, 4.0.3.0-0, 4.0.2.1-0, 4.0.2.0-0, 4.0.1.2-0, 4.0.1.1-0, 4.0.1.0-0, 4.0.0.0-0, 4.0b6-0, 4.0b5-0, 4.0b4-0, 4.0b3-0, 4.0b2-0, 4.0b1-0, 4.0a1.2.7.2-2
+   :versions: 4.1.2.0-1, 4.1.2.0-0, 4.1.1.0-0, 4.1.0.0-0, 4.0.12.0-0, 4.0.11.0-0, 4.0.10.0-0, 4.0.9.0-0, 4.0.8.1-0, 4.0.7.0-0, 4.0.6.0-0, 4.0.5.2-0, 4.0.5.1-0, 4.0.4.0-0, 4.0.3.0-1, 4.0.3.0-0, 4.0.2.1-0, 4.0.2.0-0, 4.0.1.2-0, 4.0.1.1-0, 4.0.1.0-0, 4.0.0.0-0, 4.0b6-0, 4.0b5-0, 4.0b4-0, 4.0b3-0, 4.0b2-0, 4.0b1-0, 4.0a1.2.7.2-2
    
    :depends openjdk: >=8,<9
    :depends python: 
@@ -51,6 +51,42 @@ gatk4
 .. |docker_gatk4| image:: https://quay.io/repository/biocontainers/gatk4/status
    :target: https://quay.io/repository/biocontainers/gatk4
 .. _`gatk4/tags`: https://quay.io/repository/biocontainers/gatk4?tab=tags
+
+
+
+.. conda:package:: gatk4-spark
+
+   |downloads_gatk4-spark| |docker_gatk4-spark|
+
+   :versions: 4.1.2.0-1
+   
+   :depends gatk4: 4.1.2.0 1
+   :depends openjdk: >=8,<9
+   :depends python: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gatk4-spark
+
+   and update with::
+
+      conda update gatk4-spark
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/gatk4-spark:<tag>
+
+   (see `gatk4-spark/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_gatk4-spark| image:: https://img.shields.io/conda/dn/bioconda/gatk4-spark.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gatk4-spark| image:: https://quay.io/repository/biocontainers/gatk4/status
+   :target: https://quay.io/repository/biocontainers/gatk4
+.. _`gatk4-spark/tags`: https://quay.io/repository/biocontainers/gatk4-spark?tab=tags
 
 
 

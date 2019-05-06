@@ -9,10 +9,10 @@ expansionhunter
 .. conda:recipe:: expansionhunter
    :replaces_section_title:
 
-   a tool for estimating repeat sizes
+   A tool for estimating repeat sizes
 
    :homepage: https://github.com/Illumina/ExpansionHunter
-   :license: Apache v2.0
+   :license: Apache / Apache v2.0
    :recipe: /`expansionhunter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expansionhunter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expansionhunter/meta.yaml>`_
 
    
@@ -22,12 +22,13 @@ expansionhunter
 
    |downloads_expansionhunter| |docker_expansionhunter|
 
-   :versions: 2.0.8-1, 2.0.8-0, 2.0.6-0
+   :versions: 3.0.0-0, 2.0.8-1, 2.0.8-0, 2.0.6-0
    
-   :depends boost: >=1.66.0,<1.66.1.0a0
+   :depends boost: >=1.68.0,<1.68.1.0a0
+   :depends htslib: >=1.9,<1.10.0a0
    :depends icu: >=58.2,<59.0a0
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
