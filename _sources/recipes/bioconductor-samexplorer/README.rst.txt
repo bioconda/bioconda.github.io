@@ -22,7 +22,7 @@ bioconductor-samexplorer
 
    |downloads_bioconductor-samexplorer| |docker_bioconductor-samexplorer|
 
-   :versions: 1.6.0-0
+   :versions: 1.6.1-0, 1.6.0-0
    
    :depends bioconductor-edger: >=3.24.0,<3.25.0
    :depends bioconductor-rnaseqdata.hnrnpc.bam.chr14: >=0.20.0,<0.21.0

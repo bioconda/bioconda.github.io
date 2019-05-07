@@ -22,13 +22,14 @@ smeg
 
    |downloads_smeg| |docker_smeg|
 
-   :versions: 1.1.1-0, 1.1-1, 1.1-0, 1.0.1-2, 1.0.1-1, 1.0.1-0
+   :versions: 1.1.2-0, 1.1.1-0, 1.1-1, 1.1-0, 1.0.1-2, 1.0.1-1, 1.0.1-0
    
    :depends bamtools: 
    :depends bedtools: 
    :depends blast: 
    :depends bowtie2: 
    :depends mauve: 
+   :depends openssl: 1.0.*
    :depends parallel: 
    :depends prokka: 
    :depends r-ape: 
@@ -42,7 +43,7 @@ smeg
    :depends r-seqinr: 
    :depends readline: >=6.2
    :depends roary: 
-   :depends samtools: >=1.5
+   :depends samtools: 1.8.*
    :requirements:
 
    .. rubric:: Installation

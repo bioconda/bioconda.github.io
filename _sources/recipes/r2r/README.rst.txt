@@ -22,10 +22,10 @@ r2r
 
    |downloads_r2r| |docker_r2r|
 
-   :versions: 1.0.5-0, 1.0.4-0
+   :versions: 1.0.5-1, 1.0.5-0, 1.0.4-0
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-clone: 
    :requirements:

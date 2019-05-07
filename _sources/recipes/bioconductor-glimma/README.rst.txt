@@ -23,7 +23,7 @@ bioconductor-glimma
 
    |downloads_bioconductor-glimma| |docker_bioconductor-glimma|
 
-   :versions: 1.10.0-0, 1.8.2-0, 1.6.0-0
+   :versions: 1.10.1-0, 1.10.0-0, 1.8.2-0, 1.6.0-0
    
    :depends bioconductor-edger: >=3.24.0,<3.25.0
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0

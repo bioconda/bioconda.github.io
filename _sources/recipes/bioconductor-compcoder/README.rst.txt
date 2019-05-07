@@ -22,7 +22,7 @@ bioconductor-compcoder
 
    |downloads_bioconductor-compcoder| |docker_bioconductor-compcoder|
 
-   :versions: 1.18.0-0
+   :versions: 1.18.1-0, 1.18.0-0
    
    :depends bioconductor-edger: >=3.24.0,<3.25.0
    :depends bioconductor-limma: >=3.38.0,<3.39.0

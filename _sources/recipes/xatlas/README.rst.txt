@@ -23,10 +23,11 @@ xatlas
 
    |downloads_xatlas| |docker_xatlas|
 
-   :versions: 0.2.1-0, 0.1-2, 0.1-1, 0.1-0
+   :versions: 0.2.1-1, 0.2.1-0, 0.1-2, 0.1-1, 0.1-0
    
    :depends htslib: >=1.9,<1.10.0a0
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends pthread-stubs: 
    :requirements:
 

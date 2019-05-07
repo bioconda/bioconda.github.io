@@ -23,7 +23,7 @@ r-bcbiobase
 
    |downloads_r-bcbiobase| |docker_r-bcbiobase|
 
-   :versions: 0.4.1-2, 0.4.1-1, 0.4.1-0, 0.2.15-1, 0.2.15-0, 0.2.12-0, 0.2.10-0, 0.2.9-0, 0.0.3-0
+   :versions: 0.4.1-3, 0.4.1-2, 0.4.1-1, 0.4.1-0, 0.2.15-1, 0.2.15-0, 0.2.12-0, 0.2.10-0, 0.2.9-0, 0.0.3-0
    
    :depends bioconductor-biocgenerics: 
    :depends bioconductor-biostrings: 

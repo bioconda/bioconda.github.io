@@ -22,9 +22,11 @@ perl-lwp-mediatypes
 
    |downloads_perl-lwp-mediatypes| |docker_perl-lwp-mediatypes|
 
-   :versions: 6.02-3, 6.02-2, 6.02-1, 6.02-0
+   :versions: 6.04-0, 6.02-3, 6.02-2, 6.02-1, 6.02-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl-carp: 
+   :depends perl-exporter: 
    :requirements:
 
    .. rubric:: Installation

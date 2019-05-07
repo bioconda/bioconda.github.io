@@ -22,8 +22,9 @@ perl-algorithm-cluster
 
    |downloads_perl-algorithm-cluster| |docker_perl-algorithm-cluster|
 
-   :versions: 1.57-0, 1.56-0, 1.52-1, 1.52-0
+   :versions: 1.58-0, 1.57-0, 1.56-0, 1.52-1, 1.52-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 

@@ -22,7 +22,7 @@ bioconductor-erccdashboard
 
    |downloads_bioconductor-erccdashboard| |docker_bioconductor-erccdashboard|
 
-   :versions: 1.16.0-0
+   :versions: 1.16.1-0, 1.16.0-0
    
    :depends bioconductor-edger: >=3.24.0,<3.25.0
    :depends bioconductor-limma: >=3.38.0,<3.39.0
